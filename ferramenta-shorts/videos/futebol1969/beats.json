@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 9,
  "title": "A Guerra do Futebol",
@@ -56,7 +56,6 @@
     "SAL:0:shout"
    ],
    "text": "HONDURAS x EL SALVADOR",
-   "say": "Dois países entraram em guerra por causa de um jogo de futebol.",
    "set": "stadium",
    "titulo": true,
    "batalha": false,
@@ -81,28 +80,53 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Dois países fizeram uma guerra de verdade por causa de futebol.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "futebol"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SAL:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0.6,
+     1.0,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "titulo": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "detalhe": false,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E quem ganhou o jogo não fez um gol na Copa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gol"
      }
     ]
    }
@@ -122,19 +146,21 @@
    },
    "mapa": "HONDURAS",
    "mapa_at": 3,
-   "say": "Em mil novecentos e sessenta e nove, Honduras e El Salvador já brigavam por terra e por imigrantes.",
    "fx": [
     "puff@70"
    ],
    "sfx": [
     "thump@70"
    ],
+   "set": "countryside",
+   "bloco": "prova",
+   "say": "Em 1969, os dois países já disputavam terras.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Honduras"
+      "na": "disputavam"
      }
     ]
    }
@@ -157,7 +183,6 @@
      }
     ]
    ],
-   "say": "Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra o outro.",
    "text": "3 JOGOS",
    "titulo": true,
    "crowd": {
@@ -174,12 +199,14 @@
    "d0": 12.1,
    "d1": 11.5,
    "detalhe": false,
+   "bloco": "prova",
+   "say": "Depois veio a vaga na Copa: três jogos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Copa"
+      "na": "Depois"
      }
     ]
    }
@@ -212,7 +239,6 @@
     "ding@30",
     "thump@70"
    ],
-   "say": "No primeiro, Honduras venceu por um a zero, em casa.",
    "props": [
     [
      "kit/ball",
@@ -224,28 +250,12 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de multidao; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/panela",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/panela",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "No primeiro, Honduras venceu por um a zero.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -267,7 +277,6 @@
    ],
    "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador devolveu por três a zero, e os torcedores brigaram nas ruas.",
    "hora": "dia",
    "text": "3 x 0",
    "titulo": true,
@@ -281,26 +290,8 @@
     "march": false,
     "expr": "shout"
    },
-   "acoes": [
-    {
-     "palavra": "brigaram",
-     "tipo": "golpe",
-     "quem": 0,
-     "alvo": 1
-    },
-    {
-     "palavra": "brigaram",
-     "tipo": "golpe",
-     "quem": 1,
-     "alvo": 0
-    },
-    {
-     "palavra": "ruas",
-     "tipo": "empurra",
-     "quem": 2,
-     "alvo": 3
-    }
-   ],
+   "bloco": "escalada",
+   "say": "El Salvador venceu o segundo por três a zero. Torcidas brigaram.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -318,29 +309,9 @@
      },
      {
       "faz": "empurra",
-      "na": "ruas",
+      "na": "brigaram",
       "quem": 2,
       "alvo_quem": 3
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "PRE:0:angry:paper",
-    "PRE:1:nervous"
-   ],
-   "say": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
-   "hora": "dia",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "cortou",
-      "quem": 0
      }
     ]
    }
@@ -365,7 +336,6 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "O jogo foi na Cidade do México, e El Salvador venceu por três a dois, na prorrogação.",
    "hora": "dia",
    "text": "PRORROGAÇÃO",
    "titulo": true,
@@ -373,7 +343,6 @@
    "cz": -0.6,
    "d0": 9,
    "d1": 7,
-   "_auto_vis": 3,
    "detalhe": false,
    "crowd": {
     "n": 18,
@@ -384,6 +353,8 @@
     "march": false,
     "expr": "laugh"
    },
+   "bloco": "escalada",
+   "say": "No terceiro, El Salvador venceu na prorrogação.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -404,7 +375,6 @@
    "props": [],
    "text": "GUERRA",
    "titulo": true,
-   "say": "Semanas depois, o exército salvadorenho atacou Honduras.",
    "hora": "dia",
    "detalhe": false,
    "crowd": {
@@ -414,18 +384,8 @@
     ],
     "march": true
    },
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "vehicles/airplane",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "chegando"
-     }
-    ]
-   },
+   "bloco": "escalada",
+   "say": "Acontece que, semanas depois, o exército salvadorenho atacou Honduras.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -443,60 +403,67 @@
     "PRE:0:stern:paper"
    ],
    "text": "100 HORAS",
-   "say": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
-   "verbos_ok": [
-    "impor"
-   ],
+   "bloco": "pagamento",
+   "say": "A guerra durou cem horas, até o cessar-fogo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "guerra"
+      "na": "durou"
      }
     ]
    }
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "who": [
-    "SAL:0:sad"
+    "HON:0:angry",
+    "SAL:0:shout"
    ],
+   "text": "HONDURAS x EL SALVADOR",
+   "set": "stadium",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
    "props": [
     [
      "kit/ball",
-     0.6,
-     1.0,
-     0.8,
+     0.0,
+     -1.2,
+     1.31,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "Na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
-   "set": "stadium",
-   "text": "0 GOLS",
-   "titulo": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 3,
-   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "perde",
-      "na": "perdeu",
-      "quem": 0
+      "na": "perderam",
+      "quem": 1
      }
     ]
-   }
+   },
+   "bloco": "loop",
+   "say": "Na Copa, perderam os três jogos, sem um gol. Tudo porque..."
   }
  ],
- "max_wide": 4,
- "duracao_ok": true,
  "fontes": [
   "https://en.wikipedia.org/wiki/Football_War"
  ],
@@ -551,5 +518,8 @@
    "volcano": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
    "exercito da epoca": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por causa de futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas, e El Salvador perdeu os tres jogos da Copa sem marcar.",
+ "loop_frase_ok": true
 }

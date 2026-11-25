@@ -1,0 +1,107 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ILHA VAZIA",
+ "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
+   "desembarcaram",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "chega",
+       "na": "desembarcaram"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   11,
+   "promessa",
+   "E mesmo assim, houve mortos nessa invasão.",
+   "mortos",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.",
+   "Kiska",
+   {
+    "text": null
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "chegaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Bombardearam a ilha durante semanas inteiras.",
+   "bombardearam",
+   {
+    "set": "harbor",
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que os japoneses já tinham ido embora.",
+   "embora",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Saíram escondidos na neblina, semanas antes.",
+   "escondidos",
+   {}
+  ],
+  [
+   8,
+   "escalada",
+   "No nevoeiro, os Aliados atiraram uns nos outros.",
+   "atiraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Mais de vinte soldados morreram, e um navio bateu numa mina.",
+   "morreram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "pagamento",
+   "Na ilha inteira, só acharam alguns cachorros abandonados.",
+   "acharam",
+   {
+    "detalhe": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Uma invasão contra cachorros. E foi assim que...",
+   "cachorros",
+   {}
+  ]
+ ]
+}

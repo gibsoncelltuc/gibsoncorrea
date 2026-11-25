@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 11 cenas, 153 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 82 palavras (~28 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Um carro de verdade está dando voltas ao redor do Sol até hoje.
+## Cena b0  (~3.8 s)
+- Narracao: Um carro de verdade está dando voltas em torno do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: CARRO NO ESPAÇO
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.
+## Cena b1  (~2.1 s)
+- Narracao: E o motorista dele não respira.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.6 s)
-- Narracao: Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.
+## Cena b2  (~3.8 s)
+- Narracao: Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,35 +29,35 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~6.9 s)
-- Narracao: Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.
+## Cena b3  (~4.1 s)
+- Narracao: Em vez de um peso de concreto, Musk mandou o próprio carro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; encena: fala (point) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~2.1 s)
 - Narracao: O foguete decolou com um estrondo!
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@10, thump@30, sting@50
-- Efeito + som nas palavras-chave: encena: voa (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@10, puff@30, ring@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~4.1 s)
-- Narracao: No banco do motorista foi sentado um boneco de astronauta, chamado Starman.
+## Cena b5  (~3.4 s)
+- Narracao: Acontece que no volante ia um boneco astronauta, o Starman.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: senta @5 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: VIRADA
 
 ## Cena b6  (~2.8 s)
-- Narracao: No painel, estava escrito: Não entre em pânico.
+- Narracao: No painel, um aviso: não entre em pânico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 - Texto na tela: NÃO ENTRE EM PÂNICO
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.9 s)
-- Narracao: O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.
+## Cena b7  (~4.1 s)
+- Narracao: O carro deixou a Terra e foi girar em torno do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
@@ -74,30 +74,12 @@ Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: E ele continua lá em cima, dando voltas, até hoje.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~5.9 s)
-- Narracao: Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20
-- Texto na tela: STARMAN
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b8  (~2.1 s)
+- Narracao: Ele continua lá até hoje. Porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: CARRO NO ESPAÇO
 - Funcao na historia: FECHO/PIADA FINAL
 

@@ -1,0 +1,79 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ERRO DE ETIQUETA",
+ "gancho_cumprido": "Gancho: uma etiqueta trocada ajudou Darwin a explicar a vida, com o segredo no bico. Pagamento: os tentilhoes tinham o bico certo para a comida de cada ilha; virou a selecao natural em 1859.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra.",
+   "etiqueta",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E tudo começou no bico de um passarinho.",
+   "E",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1835, Darwin chegou às ilhas Galápagos.",
+   "chegou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Coletou passarinhos de ilha em ilha, sem anotar de onde vinham.",
+   "coletou",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "Em Londres, descobriram: eram todos tentilhões.",
+   "descobriram",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "A diferença estava no bico: grosso para sementes, fino para insetos.",
+   "bico",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que cada ilha tinha o bico certo para a sua comida.",
+   "bico",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Quem tinha o bico certo sobrevivia.",
+   "sobrevivia",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Em 1859, isso virou a seleção natural.",
+   "seleção",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Darwin nunca mais esqueceu de anotar. Porque...",
+   "esqueceu",
+   {}
+  ]
+ ]
+}

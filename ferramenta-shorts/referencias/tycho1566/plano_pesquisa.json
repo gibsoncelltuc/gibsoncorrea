@@ -7,7 +7,7 @@
    "item": "O Astrônomo do Nariz de Metal",
    "consultas": [
     "O Astrônomo do Nariz de Metal",
-    "Um Era Tycho Brahe Alemanha Numa 1566"
+    "Um Em Tycho Brahe Alemanha 1566"
    ]
   },
   {
@@ -99,28 +99,11 @@
    ]
   },
   {
-   "tipo": "objeto",
-   "item": "uraniborg",
-   "consultas": [
-    "Uraniborg Tycho Brahe castle Hven",
-    "uraniborg",
-    "uraniborg 1566"
-   ]
-  },
-  {
    "tipo": "heroi",
    "item": "brass nose",
    "consultas": [
     "nariz de latao",
     "O Astrônomo do Nariz de Metal"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "castelo da epoca",
-   "consultas": [
-    "castle 1566",
-    "castle"
    ]
   }
  ]

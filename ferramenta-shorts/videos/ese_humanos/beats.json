@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 2,
  "title": "E Se os Humanos Sumissem da Terra?",
@@ -53,7 +53,42 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "E se, de uma hora para outra, todos os seres humanos sumissem da Terra? O que aconteceria com as cidades?"
+   "bloco": "gancho",
+   "say": "Todos os humanos sumiram da Terra de uma vez.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "humanos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -1.2,
+     1.0
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E o planeta nem sentiria falta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "planeta"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -63,7 +98,17 @@
    ],
    "mapa": "MUNDO",
    "mapa_at": 3,
-   "say": "No primeiro dia, ninguém mais estaria nas usinas de energia."
+   "bloco": "prova",
+   "say": "No primeiro dia, ninguém estaria nas usinas de energia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "usinas"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -78,27 +123,18 @@
    "sfx": [
     "thump@30"
    ],
-   "say": "Em poucas horas, as luzes começariam a se apagar, cidade por cidade.",
-   "detalhe": false
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRO:0:grin"
-   ],
-   "animals": [
-    [
-     "dog",
-     1.8,
-     0.8
-    ],
-    [
-     "cat",
-     -1.8,
-     1.0
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Em poucas horas, as luzes se apagariam.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luzes"
+     }
     ]
-   ],
-   "say": "Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar."
+   }
   },
   {
    "shot": "low",
@@ -111,7 +147,17 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Em dois dias, o metrô de Nova York ficaria inundado, porque as máquinas que tiram a água dos túneis iriam parar."
+   "bloco": "prova",
+   "say": "Em dois dias, o metrô de Nova York ficaria inundado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inundado"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -170,7 +216,17 @@
    ],
    "text": "20 ANOS",
    "titulo": true,
-   "say": "Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas."
+   "bloco": "escalada",
+   "say": "Em vinte anos, as ruas virariam florestas, com lobos nas avenidas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "florestas"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -183,7 +239,17 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Acontece que, em algumas centenas de anos, até as grandes pontes de aço cairiam, comidas pela ferrugem."
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cairiam"
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que até as pontes de aço cairiam, comidas pela ferrugem."
   },
   {
    "shot": "two",
@@ -191,13 +257,23 @@
     "PRO:0:suspicious:paper",
     "POV:0:worried"
    ],
-   "say": "O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos.",
    "fx": [
     "stars@40"
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "bloco": "pagamento",
+   "say": "Sobrariam as pirâmides, de pé há mais de quatro mil anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pirâmides"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -206,63 +282,17 @@
     "POV:1:sad"
    ],
    "interacao": "cochichar",
-   "say": "E o plástico. Alguns tipos levariam séculos para se desfazer na natureza."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "PRO:0:smile"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 1,
-    "outfits": [
-     "PRO"
-    ],
-    "march": false,
-    "expr": "smile"
-   },
-   "animals": [
-    [
-     "deer",
-     1.6,
-     0.8
-    ],
-    [
-     "rabbit",
-     -1.6,
-     1.2
-    ],
-    [
-     "fox",
-     2.6,
-     1.6
+   "bloco": "pagamento",
+   "say": "E o plástico, que leva séculos para sumir.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "plástico"
+     }
     ]
-   ],
-   "props": [
-    [
-     "nature/tree_oak",
-     -3.0,
-     -6.0,
-     1.6
-    ],
-    [
-     "nature/tree_birch",
-     3.0,
-     -6.0,
-     1.6
-    ]
-   ],
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "text": "NATUREZA",
-   "titulo": true,
-   "say": "Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos."
+   }
   },
   {
    "shot": "close",
@@ -277,8 +307,42 @@
      1.0
     ]
    ],
-   "say": "O planeta seguiria girando, tranquilo. Somos nós que precisamos dele, não o contrário."
+   "bloco": "loop",
+   "say": "Somos nós que precisamos do planeta. Agora imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "planeta"
+     }
+    ]
+   }
   }
  ],
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "cidades de hoje (Nova York, metro), florestas, piramides do Egito",
+  "quando": "hoje e o futuro (hipotese), de dia",
+  "participantes": [
+   "moradores (antes de sumir)",
+   "animais: caes, gatos, lobos, veados"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "cidade vazia, ruas tomadas por plantas, metro alagado, ponte enferrujada, piramides",
+  "objetos": [
+   "globo terrestre",
+   "usina de energia",
+   "ponte de aco"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_World_Without_Us",
+   "https://en.wikipedia.org/wiki/Life_After_People"
+  ]
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: todos os humanos sumiram e o planeta nem sentiria falta. Pagamento: luzes apagam, metro inunda, ruas viram floresta, pontes caem; sobram piramides e plastico.",
+ "loop_frase_ok": true
 }

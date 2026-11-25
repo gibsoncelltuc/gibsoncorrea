@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 4,
  "title": "A Fila de Luzes no Céu",
@@ -8,7 +8,7 @@
  "set": "street",
  "light": "golden",
  "mood": "playful",
- "heroi": "kit/rocket",
+ "heroi": "kit/starlink_train",
  "outfits": {
   "JOR": {
    "jacket": "#4a6a9a",
@@ -54,7 +54,6 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.",
    "shot": "wide",
    "who": [
     "AST:0:shock"
@@ -83,13 +82,46 @@
    ],
    "set": "countryside",
    "fachada": false,
-   "detalhe": false
+   "detalhe": false,
+   "bloco": "gancho",
+   "say": "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luzes"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.",
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "JOR2:0:laugh"
+   ],
+   "mapa_at": 1,
+   "interior": "loja",
+   "bloco": "promessa",
+   "say": "E a verdade estava num foguete da Flórida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "verdade"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "shot": "reveal",
    "who": [
     "AST:0:grin"
@@ -114,36 +146,28 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e rocket juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/rocket",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/falcon_air",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
    "set": "loc_pista",
-   "tela": false
+   "tela": false,
+   "bloco": "prova",
+   "say": "Em 2019, a SpaceX lançou sessenta satélites de uma vez.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lançou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.",
    "shot": "two",
    "who": [
     "AST:0:grin",
@@ -151,81 +175,27 @@
    ],
    "props": [],
    "set": "countryside",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/rocket",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "hora": "noite"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
-   "say": "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.",
-   "shot": "wide",
-   "who": [
-    "AST:0:shock"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "text": "3 MINUTOS",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
    "hora": "noite",
-   "props": [
-    [
-     "kit/starlink_train",
-     0.0,
-     -10.6,
-     1.4,
+   "bloco": "prova",
+   "say": "Um dia depois, o holandês Marco Langbroek filmou o céu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "filmou"
      }
     ]
-   ],
-   "set": "countryside",
-   "fachada": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/starlink_train",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
    "shot": "wide",
    "who": [
     "AST:0:grin"
@@ -248,30 +218,28 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/starlink_train",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
    "d1": 20.0,
-   "set": "loc_montanha"
+   "set": "loc_montanha",
+   "bloco": "prova",
+   "say": "Viu pelo menos cinquenta e seis luzes em fila.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cinquenta"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
    "shot": "crowd",
    "who": [
     "JOR:0:shock"
@@ -297,28 +265,22 @@
      }
     ]
    ],
-   "_susp_tela": true,
-   "_susp_ok": true
+   "bloco": "escalada",
+   "say": "Acontece que um site de OVNIs recebeu mais de 150 relatos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "relatos"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Jornais de vários países explicaram que não eram OVNIs, e sim satélites.",
-   "shot": "two",
-   "who": [
-    "JOR:0:suspicious",
-    "JOR2:0:laugh"
-   ],
-   "mapa": "MUNDO",
-   "mapa_at": 1,
-   "interior": "loja"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -338,18 +300,6 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/falcon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -370,77 +320,87 @@
       "fila"
      ]
     ]
+   },
+   "bloco": "escalada",
+   "say": "Os satélites ainda voavam juntos, logo depois do lançamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voavam"
+     }
+    ]
    }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.",
-   "shot": "reveal",
+   "shot": "two",
    "who": [
-    "JOR:0:shock"
+    "JOR:0:suspicious",
+    "JOR2:0:laugh"
    ],
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "POV"
-    ]
-   },
-   "set": "street",
-   "props": [
-    [
-     "kit/phone",
-     0.0,
-     -0.8,
-     0.9,
+   "mapa": "MUNDO",
+   "mapa_at": 1,
+   "interior": "loja",
+   "bloco": "pagamento",
+   "say": "Não eram ETs. Eram satélites de internet.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "eram"
      }
     ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true
+   }
   },
   {
    "tiros": false,
    "batalha": false,
-   "impact": false,
-   "say": "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas.",
-   "shot": "two",
+   "impact": true,
+   "shot": "wide",
    "who": [
-    "AST:0:laugh",
-    "JOR2:0:laugh"
+    "AST:0:shock"
    ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "OVNI?",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "hora": "noite",
    "props": [
     [
-     "kit/rocket",
+     "kit/starlink_train",
      0.0,
-     -1.2,
-     0.6,
+     -10.6,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rocket juntos (camera a 11.5 m)",
-    "objetos": [
+   "set": "countryside",
+   "fachada": false,
+   "detalhe": false,
+   "bloco": "loop",
+   "say": "Internet no céu, e foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/rocket",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "Internet"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "set": "loc_montanha",
-   "hora": "noite"
+   }
   }
  ],
  "exp": 1.0,
@@ -452,7 +412,6 @@
  ],
  "ano": 2019,
  "regiao": "eua",
- "max_wide": 7,
  "visual": {
   "local": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leiden), Europa",
   "quando": "23 a 25 de maio de 2019, noite",
@@ -482,5 +441,8 @@
    "fila": "Starlink satellite train night sky 2019",
    "foguete": "Falcon 9 Starlink launch May 2019"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma fila de luzes no ceu da Europa foi tratada como ETs e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
+ "loop_frase_ok": true
 }

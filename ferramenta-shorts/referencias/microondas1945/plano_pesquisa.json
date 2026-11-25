@@ -7,7 +7,7 @@
    "item": "O Micro-ondas e o Chocolate",
    "consultas": [
     "O Micro-ondas e o Chocolate",
-    "Uma Era Estados Unidos Percy Spencer Esses 1945"
+    "Um Por Percy Spencer 1945"
    ]
   },
   {
@@ -107,27 +107,11 @@
    ]
   },
   {
-   "tipo": "objeto",
-   "item": "radarange",
-   "consultas": [
-    "Raytheon Radarange 1947 microwave oven",
-    "radarange",
-    "radarange 1945"
-   ]
-  },
-  {
    "tipo": "heroi",
-   "item": "chocolate",
+   "item": "microwave",
    "consultas": [
-    "chocolate"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 1945",
-    "factory"
+    "magnetron",
+    "O Micro-ondas e o Chocolate"
    ]
   }
  ]

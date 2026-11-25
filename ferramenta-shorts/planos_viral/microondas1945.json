@@ -1,0 +1,88 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "CHOCOLATE NO BOLSO",
+ "gancho_cumprido": "Gancho: um chocolate derretido no bolso inventou o micro-ondas, que hoje esta em quase toda cozinha. Pagamento: o radar derreteu o chocolate, estourou pipoca e explodiu um ovo; virou o primeiro forno.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um chocolate derretido no bolso inventou o micro-ondas.",
+   "chocolate",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E hoje ele está em quase toda cozinha.",
+   "cozinha",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Por volta de 1945, Percy Spencer trabalhava com radares.",
+   "Spencer",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Uma peça do radar soltava ondas invisíveis o dia inteiro.",
+   "ondas",
+   {
+    "interior": "galpao"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Um dia, ele chegou perto dela com chocolate no bolso.",
+   "chegou",
+   {
+    "encena_antiga": true,
+    "interior": "galpao"
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
+   "derretido",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que ele testou pipoca, e os grãos estouraram pela sala.",
+   "estouraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Depois testou um ovo, que explodiu na cara de um colega.",
+   "explodiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "O primeiro forno era mais alto que uma pessoa.",
+   "forno",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um lanche perdido. E foi assim que...",
+   "perdido",
+   {}
+  ]
+ ]
+}

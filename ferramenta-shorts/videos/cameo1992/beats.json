@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 2,
  "title": "O Cameo de Sete Segundos",
@@ -69,7 +69,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.",
    "shot": "two",
    "who": [
     "FUN:0:grin"
@@ -85,119 +84,30 @@
      }
     ]
    ],
-   "mapa": "NOVA YORK",
    "mapa_at": 1,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "set": "loc_cidade"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
-   "say": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
-   "shot": "two",
-   "who": [
-    "FUN:0:grin",
-    "TRU:0:smug"
-   ],
-   "riscos_ok": true,
-   "interior": "pedra",
-   "text": "O HOMEM É TRUMP"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "A cena dura cerca de sete segundos.",
-   "shot": "two",
-   "who": [
-    "FUN:0:surprised",
-    "TRU:0:smug"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "fx": [
-    "burst@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "interior": "pedra",
-   "text": "7 SEGUNDOS"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
-   "shot": "two",
-   "who": [
-    "TRU:0:laugh"
-   ],
-   "props": [
-    [
-     "kit/tv",
-     2.4,
-     0.2,
-     1.0,
+   "set": "loc_cidade",
+   "bloco": "gancho",
+   "say": "Sete segundos de um filme de Natal ainda geram briga até hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
-     }
-    ]
-   ],
-   "riscos_ok": true,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "briga"
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "interior": "madeira"
+   "text": "7 SEGUNDOS",
+   "titulo": true
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.",
-   "shot": "two",
-   "who": [
-    "DIR:0:suspicious",
-    "TRU:0:smug"
-   ],
-   "riscos_ok": true,
-   "interior": "loja"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
    "shot": "two",
    "who": [
     "DIR:0:smug",
@@ -213,25 +123,120 @@
     "sting@30"
    ],
    "set": "street",
-   "text": "O PREÇO DO HOTEL"
+   "bloco": "promessa",
+   "say": "E a culpa é de um hotel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "hotel"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "two",
+   "who": [
+    "FUN:0:grin",
+    "TRU:0:smug"
+   ],
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Em Esqueceram de Mim 2, Kevin pede informação a um homem.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pede"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.",
+   "shot": "two",
+   "who": [
+    "FUN:0:surprised",
+    "TRU:0:smug"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "interior": "pedra",
+   "text": "O HOMEM É TRUMP",
+   "bloco": "prova",
+   "say": "O homem era Donald Trump, dono do hotel Plaza.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Trump"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "DIR:0:suspicious",
+    "TRU:0:smug"
+   ],
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "O diretor diz que a cena foi o preço do hotel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "diz"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "shot": "two",
    "who": [
     "TRU:0:suspicious",
     "DIR:0:shock"
    ],
-   "interior": "loja"
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "Acontece que Trump nega: diz que foi a equipe que pediu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nega"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos.",
    "shot": "two",
    "who": [
     "JOR:0:shock",
@@ -250,29 +255,27 @@
    ],
    "mapa": "CANADÁ",
    "mapa_at": 1,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "interior": "pedra"
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Em 2019, uma TV canadense passou o filme sem a cena.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
    "shot": "reveal",
    "who": [
     "JOR:0:suspicious"
@@ -283,16 +286,26 @@
      "POV"
     ]
    },
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "bloco": "pagamento",
+   "say": "O corte virou polêmica no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "polêmica"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
    "shot": "two",
    "who": [
-    "TRU:0:laugh"
+    "FUN:0:grin"
    ],
    "props": [
     [
@@ -305,23 +318,23 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "mapa_at": 1,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "interior": "madeira"
+   "set": "loc_cidade",
+   "bloco": "loop",
+   "say": "Um cameo virou briga política. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "briga"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,
@@ -369,5 +382,8 @@
    "hotel": "Plaza Hotel lobby New York 1992",
    "filme": "Home Alone 2 Trump cameo Plaza"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: sete segundos de um filme de Natal geram briga ate hoje e a culpa e' de um hotel. Pagamento: Trump era dono do Plaza, o diretor diz que a cena foi o preco do hotel e Trump nega; uma TV cortou a cena em 2019.",
+ "loop_frase_ok": true
 }

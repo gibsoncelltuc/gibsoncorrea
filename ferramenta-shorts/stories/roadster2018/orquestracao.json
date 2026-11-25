@@ -16,11 +16,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um carro de verdade está dando voltas ao redor do Sol até hoje.",
+   "frase": "Um carro de verdade está dando voltas em torno do Sol.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -28,22 +28,22 @@
    "cenario": "arctic"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "MUS"
+    "STA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 18,
+   "palavras": 6,
    "cena": "b1",
-   "frase": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
-   "classe": "transicao",
+   "frase": "E o motorista dele não respira.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "interior loja"
   },
   {
    "camera": "wide",
@@ -54,9 +54,9 @@
    "objetos": [
     "kit/rocket"
    ],
-   "palavras": 19,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
+   "frase": "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -70,11 +70,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 20,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
+   "frase": "Em vez de um peso de concreto, Musk mandou o próprio carro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -112,11 +112,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
+   "frase": "Acontece que no volante ia um boneco astronauta, o Starman.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -124,17 +124,17 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "STA"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
    "palavras": 8,
    "cena": "b6",
-   "frase": "No painel, estava escrito: Não entre em pânico.",
+   "frase": "No painel, um aviso: não entre em pânico.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,15 +147,15 @@
    "multidao": 0,
    "objetos": [
     "kit/globe",
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 17,
+   "palavras": 12,
    "cena": "b7",
-   "frase": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
+   "frase": "O carro deixou a Terra e foi girar em torno do Sol.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
-    "corpo": "kit/roadster2008 (gira)",
+    "corpo": "kit/roadster (gira)",
     "emissao": "rotulos/graficos",
     "luz": "estudio",
     "camera": "2 enquadramentos sem corte seco",
@@ -171,51 +171,16 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster2008"
+    "kit/roadster"
    ],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "E ele continua lá em cima, dando voltas, até hoje.",
-   "classe": "simples",
+   "frase": "Ele continua lá até hoje. Porque...",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/roadster2008",
-    "kit/rocket"
-   ],
-   "palavras": 17,
-   "cena": "b9",
-   "frase": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
   }
  ]
 }

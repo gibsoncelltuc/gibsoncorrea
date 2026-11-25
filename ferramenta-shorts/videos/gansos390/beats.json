@@ -1,7 +1,7 @@
 {
  "title": "Os Gansos que Salvaram Roma",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "loc_campo",
  "mood": "march",
  "outfits": {
@@ -87,7 +87,6 @@
     ]
    ],
    "hora": "noite",
-   "say": "Um bando de gansos barulhentos salvou Roma numa só noite.",
    "detalhe": false,
    "set": "medieval",
    "fachada": false,
@@ -103,12 +102,68 @@
    "shot_lock": true,
    "objetos": false,
    "interacao": false,
+   "bloco": "gancho",
+   "say": "Um bando de gansos barulhentos salvou Roma numa noite.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Um"
+      "na": "gansos"
+     }
+    ]
+   },
+   "text": "GANSOS x GAULESES",
+   "titulo": true
+  },
+  {
+   "shot": "group",
+   "who": [
+    "ROM:0:sad"
+   ],
+   "hora": "dia",
+   "animals": [
+    [
+     "goose",
+     -1.2,
+     1.1,
+     "stand",
+     2.0
+    ],
+    [
+     "goose",
+     0.0,
+     1.4,
+     "stand",
+     2.0
+    ],
+    [
+     "goose",
+     1.2,
+     1.1,
+     "stand",
+     2.0
+    ]
+   ],
+   "set": "medieval",
+   "fachada": false,
+   "props": [],
+   "detalhe": false,
+   "shot_lock": true,
+   "objetos": false,
+   "d0": 7.5,
+   "d1": 7.0,
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "promessa",
+   "say": "Mas o ouro de Roma foi embora mesmo assim.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ouro"
      }
     ]
    }
@@ -119,7 +174,6 @@
     "GAU:0:angry:torch"
    ],
    "mapa": "ROMA",
-   "say": "Em trezentos e noventa antes de Cristo, os gauleses de Breno tomaram Roma e queimaram quase tudo.",
    "fx": [
     "dust@20",
     "burst@55"
@@ -138,17 +192,17 @@
     "march": false,
     "expr": "angry"
    },
-   "text": "390 a.C.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
    "shot_lock": true,
+   "bloco": "prova",
+   "say": "Em 390 antes de Cristo, os gauleses tomaram Roma.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "queima",
-      "na": "queimaram",
+      "na": "tomaram",
       "quem": 0
      }
     ]
@@ -172,56 +226,24 @@
    ],
    "fachada": false,
    "text": "CAPITÓLIO",
-   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina fortificada.",
    "set": "mountain",
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/castle_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
    "d1": 20.0,
+   "bloco": "prova",
+   "say": "Os romanos que sobraram se trancaram no Capitólio, uma colina.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Capitólio"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "ROM:1:pained",
-    "GAU:0:stern"
-   ],
-   "say": "Os gauleses cercaram a colina, e a fome apertou os dois lados.",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 1,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "cercaram",
-      "quem": 0
+      "na": "trancaram"
      }
     ]
    }
@@ -232,8 +254,6 @@
     "GAU:0:stern"
    ],
    "hora": "noite",
-   "say": "Numa noite sem lua, eles chegaram em silêncio ao pé da muralha, e os guardas não ouviram nada.",
-   "riscos_ok": true,
    "crowd": {
     "n": 0
    },
@@ -253,18 +273,6 @@
     ]
    ],
    "fachada": false,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o castle_tower (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/castle_tower",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -275,12 +283,12 @@
     "passos": [
      {
       "faz": "chega",
-      "na": "chegaram",
-      "quem": 0,
-      "forcar": true
+      "na": "chegaram"
      }
     ]
-   }
+   },
+   "bloco": "escalada",
+   "say": "Numa noite sem lua, os gauleses chegaram em silêncio à muralha."
   },
   {
    "shot": "wide",
@@ -316,14 +324,14 @@
     "squeal@90"
    ],
    "text": "JUNO",
-   "say": "Acontece que os gansos sagrados da deusa Juno ouviram, e começaram a gritar e a bater as asas.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1,
    "d0": 11.4,
    "d1": 10.8,
    "set": "loc_campo",
    "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Acontece que os gansos sagrados de Juno ouviram e gritaram.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -341,7 +349,6 @@
     "GAU:0:scared"
    ],
    "fachada": false,
-   "say": "O barulho acordou o soldado Marco Mânlio, que foi até a muralha e impediu a subida dos gauleses.",
    "fx": [
     "dust@70",
     "puff@80"
@@ -358,29 +365,17 @@
    "detalhe": false,
    "props": [],
    "hora": "noite",
-   "acoes": [
-    {
-     "palavra": "impediu",
-     "tipo": "empurra",
-     "quem": 0,
-     "alvo": 1
-    },
-    {
-     "palavra": "subida",
-     "tipo": "tomba",
-     "quem": 1
-    }
-   ],
-   "_auto_vis": 0,
    "quadro_manual": true,
    "d0": 8.5,
    "d1": 7.5,
+   "bloco": "escalada",
+   "say": "O barulho acordou o soldado Marco Mânlio, que barrou a subida.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "empurra",
-      "na": "impediu",
+      "na": "barrou",
       "quem": 0,
       "alvo_quem": 1
      },
@@ -395,45 +390,13 @@
   {
    "shot": "two",
    "who": [
-    "GAU:0:scared",
-    "MAN:0:angry"
-   ],
-   "say": "Os gauleses se afastaram, mas mantiveram o cerco.",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 3,
-   "shot_lock": true,
-   "set": "loc_campo",
-   "acao": "tomba",
-   "hora": "noite",
-   "fachada": false,
-   "fx": [
-    "dust@50"
-   ],
-   "sfx": [
-    "thump@50"
-   ],
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "sai",
-      "na": "afastaram",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
     "ROM:0:sad:coin",
     "GAU:0:grin:coin"
    ],
    "hora": "dia",
    "text": "1.000 LIBRAS",
-   "say": "No fim, depois de sete meses com fome, Roma pagou mil libras de ouro, e os gauleses foram embora.",
+   "bloco": "pagamento",
+   "say": "Depois de sete meses de fome, Roma pagou mil libras de ouro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -444,7 +407,7 @@
      },
      {
       "faz": "sai",
-      "na": "embora",
+      "na": "pagou",
       "quem": 1
      }
     ]
@@ -452,48 +415,66 @@
   },
   {
    "shot": "group",
-   "who": [],
-   "say": "Os gansos salvaram a colina, mas o ouro foi embora do mesmo jeito.",
-   "hora": "dia",
+   "who": [
+    "ROM:2:shock"
+   ],
    "animals": [
     [
      "goose",
-     -1.2,
-     1.1,
-     "stand",
-     2.0
+     -2.2,
+     0.6,
+     "walk",
+     1.2
+    ],
+    [
+     "goose",
+     -0.8,
+     1.2,
+     "walk",
+     1.2
+    ],
+    [
+     "goose",
+     0.7,
+     0.5,
+     "walk",
+     1.2
+    ],
+    [
+     "goose",
+     2.0,
+     1.3,
+     "walk",
+     1.2
     ],
     [
      "goose",
      0.0,
-     1.4,
-     "stand",
-     2.0
-    ],
-    [
-     "goose",
-     1.2,
-     1.1,
-     "stand",
-     2.0
+     2.2,
+     "walk",
+     1.2
     ]
    ],
+   "hora": "noite",
+   "detalhe": false,
    "set": "medieval",
    "fachada": false,
+   "sfx": [
+    "squeal@10",
+    "squeal@40",
+    "squeal@80"
+   ],
+   "fx": [
+    "puff@30"
+   ],
    "props": [],
-   "detalhe": false,
-   "_auto_vis": 0,
    "shot_lock": true,
    "objetos": false,
-   "d0": 7.5,
-   "d1": 7.0,
-   "vary": false,
-   "crowd": {
-    "n": 0
-   },
-   "riscos_ok": true,
+   "interacao": false,
+   "bloco": "loop",
+   "say": "Os guardas não ouviram, os gansos sim. E foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -542,5 +523,7 @@
    "soldado da época": "Gaul warrior helmet sword illustration"
   }
  },
- "max_wide": 6
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um bando de gansos salvou Roma numa noite, mas o ouro foi embora mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
+ "loop_frase_ok": true
 }

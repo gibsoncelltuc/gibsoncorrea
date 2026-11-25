@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "MORTE BRANCA",
+ "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido e ganhou apelido dos inimigos. Pagamento: de branco, imovel na neve a -40, mais de 500 abatidos em cem dias; os sovieticos o chamavam de Morte Branca.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
+   "temido",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "promessa",
+   "Tão temido que os inimigos deram um apelido a ele.",
+   "apelido",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1939, a União Soviética invadiu a Finlândia.",
+   "invadiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Fazia quarenta graus abaixo de zero.",
+   "quarenta",
+   {
+    "encena_antiga": true,
+    "mapa": null,
+    "text": null
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Esse soldado se chamava Simo Häyhä.",
+   "Simo",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Vestido de branco, ele esperava imóvel na neve por horas.",
+   "esperava",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Dizem que punha neve na boca para o vapor não aparecer.",
+   "neve",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.",
+   "abatidos",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Os soviéticos o chamavam de Morte Branca.",
+   "Morte",
+   {}
+  ],
+  [
+   9,
+   "loop",
+   "Ele só dizia: fiz o meu trabalho. E foi assim que...",
+   "trabalho",
+   {}
+  ]
+ ]
+}

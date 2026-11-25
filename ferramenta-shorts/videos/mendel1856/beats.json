@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 9,
  "title": "Mendel e as Ervilhas",
@@ -46,17 +46,34 @@
  },
  "beats": [
   {
-   "say": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
    "shot": "two",
    "who": [
     "MEN:0:smile:bag"
    ],
    "props": [
     [
+     "kit/pe_ervilha",
+     -1.2,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.4,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
      "kit/vagem_verde",
      0.9,
      0.4,
-     0.9,
+     0.6,
      {
       "fixo": true
      }
@@ -73,68 +90,132 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "objetos": false,
+   "shot_lock": true,
+   "set": "countryside",
+   "bloco": "gancho",
+   "say": "Um monge contando ervilhas descobriu como herdamos o que somos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "descobriu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "ervilhas"
      }
     ]
    },
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_verde",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.3,
-   "cz": 0.2,
-   "h": 1.5,
-   "d0": 6.5,
-   "d1": 6.0,
-   "quadro_manual": true,
-   "objetos": false
+   "text": "ERVILHAS = HERANÇA",
+   "titulo": true
   },
   {
-   "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
-   "shot": "reveal",
+   "shot": "wide",
+   "interior": "madeira",
    "who": [
-    "FRE:0:neutral",
-    "FRE:1:smile"
+    "MEN:0:sad:book"
    ],
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "FRE",
-     "POV"
-    ],
-    "march": false
-   },
-   "mapa": "REPÚBLICA TCHECA",
-   "mapa_at": 2,
+   "acao": "conversar",
+   "props": [],
+   "detalhe": false,
+   "objetos": false,
+   "bloco": "promessa",
+   "say": "E ninguém acreditou nele enquanto estava vivo.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Brno"
+      "na": "acreditou"
      }
     ]
-   },
-   "set": "medieval",
-   "fachada": false,
-   "objetos": false
+   }
   },
   {
-   "say": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
+   "shot": "wide",
+   "who": [
+    "MEN:0:smile",
+    "FRE:0:neutral"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "mapa": "REPÚBLICA TCHECA",
+   "mapa_at": 2,
+   "set": "medieval",
+   "fachada": false,
+   "objetos": false,
+   "props": [
+    [
+     "buildings/church",
+     0.0,
+     -14.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     -2.5,
+     -3.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     -1.2,
+     -3.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.2,
+     -3.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     2.5,
+     -3.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 16.0,
+   "d1": 13.0,
+   "bloco": "prova",
+   "say": "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cuidava"
+     }
+    ]
+   }
+  },
+  {
    "shot": "two",
    "who": [
     "MEN:0:grin"
@@ -168,28 +249,20 @@
     "ding@60"
    ],
    "detalhe": true,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_verde",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "fachada": false,
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": 0.2,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "h": 1.4,
+   "set": "loc_campo",
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Cruzou ervilhas amarelas com ervilhas verdes.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -201,23 +274,14 @@
      },
      {
       "faz": "x_espera",
-      "na": "esperou",
+      "na": "cruzou",
       "quem": 0,
       "forcar": true
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": 0.2,
-   "d0": 6.5,
-   "d1": 6.0,
-   "quadro_manual": true,
-   "h": 1.4,
-   "set": "loc_campo",
-   "objetos": false
+   }
   },
   {
-   "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
    "shot": "two",
    "who": [
     "MEN:0:surprised"
@@ -238,18 +302,16 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.5,
+   "cz": 0.2,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "h": 1.4,
+   "interior": "pedra",
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Todas saíram amarelas, como se o verde tivesse sumido.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -258,40 +320,9 @@
       "na": "amarelas"
      }
     ]
-   },
-   "cx": 0.5,
-   "cz": 0.2,
-   "d0": 6.5,
-   "d1": 6.0,
-   "quadro_manual": true,
-   "h": 1.4,
-   "interior": "pedra",
-   "objetos": false
+   }
   },
   {
-   "say": "Mendel ficou curioso: para onde tinha ido o verde?",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "FRE:0:suspicious",
-    "MEN:0:nervous"
-   ],
-   "interacao": "discutir",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "curioso",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   },
-   "objetos": false
-  },
-  {
-   "say": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
    "shot": "wide",
    "who": [
     "MEN:0:neutral:paper"
@@ -313,24 +344,21 @@
    "sfx": [
     "thump@30"
    ],
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "_enq_shot": "wide",
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": 0.2,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "escalada",
+   "say": "Ele plantou de novo e contou ervilha por ervilha, por anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -345,18 +373,9 @@
       "quem": 0
      }
     ]
-   },
-   "set": "loc_campo",
-   "cx": 0.0,
-   "cz": 0.2,
-   "h": 1.4,
-   "d0": 6.5,
-   "d1": 6.0,
-   "quadro_manual": true,
-   "objetos": false
+   }
   },
   {
-   "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
    "shot": "two",
    "who": [
     "MEN:0:shock"
@@ -425,45 +444,19 @@
     "ding@40",
     "sting@60"
    ],
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_verde",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, direita",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "text": "3 : 1",
    "detalhe": true,
    "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.6,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 5.0,
+   "d1": 4.6,
+   "interior": "pedra",
+   "objetos": false,
+   "bloco": "escalada",
+   "say": "Acontece que o verde voltou: três amarelas para uma verde.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -472,18 +465,9 @@
       "na": "verde"
      }
     ]
-   },
-   "quadro_manual": true,
-   "cx": 0.6,
-   "cz": 0.5,
-   "h": 1.5,
-   "d0": 5.0,
-   "d1": 4.6,
-   "interior": "pedra",
-   "objetos": false
+   }
   },
   {
-   "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -491,44 +475,20 @@
     "FRE:0:surprised"
    ],
    "interacao": "cochichar",
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Cada filho herda uma instrução do pai e outra da mãe.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "descobriu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "herda"
      }
     ]
-   },
-   "objetos": false
+   }
   },
   {
-   "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
-   "shot": "wide",
-   "interior": "madeira",
-   "who": [
-    "MEN:0:sad:book"
-   ],
-   "acao": "conversar",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "escreve",
-      "na": "Publicou",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   },
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2,
-   "objetos": false
-  },
-  {
-   "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
    "shot": "wide",
    "who": [
     "CIE:0:surprised"
@@ -581,40 +541,6 @@
    "acao": "comemorar",
    "detalhe": false,
    "fachada": false,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "viram",
-      "quem": 0
-     }
-    ]
-   },
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano aberto (cenario inteiro)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_verde",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.4,
    "h": 1.4,
@@ -622,59 +548,84 @@
    "d1": 6.5,
    "quadro_manual": true,
    "interior": "pedra",
-   "objetos": false
-  },
-  {
-   "say": "No fim, a ervilha fez o monge famoso.",
-   "shot": "wide",
-   "who": [
-    "MEN:0:smug"
-   ],
-   "props": [
-    [
-     "kit/vagem_verde",
-     1.0,
-     0.4,
-     0.9,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/vagem_verde",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Só depois da morte dele, viram que estava certo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ervilha"
+      "na": "viram"
      }
     ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MEN:0:smile:bag"
+   ],
+   "props": [
+    [
+     "kit/pe_ervilha",
+     -1.2,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.4,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/vagem_verde",
+     0.9,
+     0.4,
+     0.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@60"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
    },
-   "set": "loc_campo",
-   "cx": 0.3,
-   "cz": 0.2,
-   "h": 1.4,
-   "d0": 6.5,
-   "d1": 6.0,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.5,
    "quadro_manual": true,
-   "objetos": false
+   "objetos": false,
+   "shot_lock": true,
+   "set": "countryside",
+   "bloco": "loop",
+   "say": "Ele morreu sem saber. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Ele"
+     }
+    ]
+   }
   }
  ],
  "visual": {
@@ -709,5 +660,7 @@
  },
  "cinf": 3.0,
  "exp": 1.129,
- "max_wide": 8
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um monge contando ervilhas descobriu como herdamos o que somos e ninguem acreditou nele em vida. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae; so depois da morte deram razao.",
+ "loop_frase_ok": true
 }

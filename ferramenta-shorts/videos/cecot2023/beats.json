@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 27,
  "title": "A Maior Prisão das Américas",
@@ -66,7 +66,6 @@
    ],
    "fx": [],
    "sfx": [],
-   "say": "El Salvador tem uma prisão tão grande que virou notícia no mundo inteiro.",
    "cx": 0,
    "cz": -14.5,
    "crowd": {
@@ -80,251 +79,14 @@
    "text": "40 MIL PRESOS",
    "titulo": true,
    "acao": "conversar",
+   "bloco": "gancho",
+   "say": "Uma prisão para quarenta mil presos virou notícia no mundo inteiro.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "prisão"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "reveal",
-   "who": [
-    "POV:0:surprised",
-    "POV:1:nervous"
-   ],
-   "mapa": "EL SALVADOR",
-   "mapa_at": 3,
-   "props": [
-    [
-     "kit/prison",
-     0,
-     -14.5,
-     1.0
-    ]
-   ],
-   "say": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
-   "text": "2023",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "inaugurada"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:worried:paper",
-    "POV:0:scared"
-   ],
-   "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "gangues"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "group",
-   "interior": false,
-   "who": [
-    "BUK:0:stern",
-    "GUA:0:stern",
-    "GUA:1:stern"
-   ],
-   "say": "Em dois mil e vinte e dois, o presidente Nayib Bukele decretou estado de exceção, e milhares de suspeitos foram presos.",
-   "set": "loc_campo",
-   "acao": "prender",
-   "props": [
-    [
-     "kit/prison",
-     0,
-     -14.5,
-     1.0
-    ]
-   ],
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "PRE"
-    ],
-    "march": true,
-    "expr": "scared"
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "decretou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "GUA:0:stern",
-    "GUA:1:stern",
-    "GUA:2:angry"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "GUA"
-    ],
-    "march": false,
-    "expr": "stern"
-   },
-   "props": [
-    [
-     "kit/prison",
-     0,
-     -14.5,
-     1.0
-    ]
-   ],
-   "text": "40 MIL",
-   "titulo": true,
-   "say": "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos.",
-   "h": 8.0,
-   "d0": 32,
-   "d1": 26,
-   "cx": 0,
-   "cz": -14.5,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "ergueram"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
-   "explica": {
-    "objeto": "kit/prison",
-    "manobra": "gira",
-    "passos": [
-     "MURALHAS",
-     "CERCAS ELETRICAS",
-     "TORRES DE VIGIA"
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Muralhas"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:surprised:paper",
-    "BUK:0:smug"
-   ],
-   "acao": "conversar",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Acontece que os assassinatos despencaram: de cento e seis para dois vírgula quatro por cem mil habitantes.",
-   "set": "loc_campo",
-   "hud": {
-    "comparar": [
-     [
-      "2015",
-      106.3,
-      ""
-     ],
-     [
-      "2023",
-      2.4,
-      ""
-     ]
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "despencaram"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:suspicious",
-    "POV:0:worried"
-   ],
-   "acao": "discutir",
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "say": "Organizações de direitos humanos denunciaram prisões sem julgamento e mortes sob custódia.",
-   "interior": false,
-   "set": "loc_campo",
-   "batalha": false,
-   "impact": false,
-   "tiros": false,
-   "text": "SEM JULGAMENTO",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "protesto",
-      "na": "denunciaram",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "interior": false,
-   "who": [
-    "BUK:0:stern",
-    "REP:0:nervous:paper"
-   ],
-   "acao": "discutir",
-   "say": "O governo responde que as ruas ficaram seguras.",
-   "set": "loc_patio",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "responde",
-      "quem": 0
      }
     ]
    }
@@ -349,17 +111,197 @@
      1.0
     ]
    ],
-   "text": "DEBATE",
    "titulo": true,
-   "say": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
    "set": "loc_patio",
-   "_susp_ok": true,
+   "bloco": "promessa",
+   "say": "E ninguém concorda se ela é solução ou problema.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "prisão"
+      "na": "solução"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.5,
+     1.0
+    ]
+   ],
+   "set": "street",
+   "bloco": "prova",
+   "say": "Ela abriu em 2023, em El Salvador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abriu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:worried:paper",
+    "POV:0:scared"
+   ],
+   "acao": "discutir",
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "O país tinha das maiores taxas de assassinato do mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "taxas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "interior": false,
+   "who": [
+    "BUK:0:stern",
+    "GUA:0:stern",
+    "GUA:1:stern"
+   ],
+   "set": "loc_campo",
+   "acao": "prender",
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.5,
+     1.0
+    ]
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "PRE"
+    ],
+    "march": true,
+    "expr": "scared"
+   },
+   "bloco": "prova",
+   "say": "O governo decretou estado de exceção contra as gangues.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "decretou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "explica": {
+    "objeto": "kit/prison",
+    "manobra": "gira",
+    "passos": [
+     "MURALHAS",
+     "CERCAS ELETRICAS",
+     "TORRES DE VIGIA"
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Muralhas, cercas elétricas e torres de vigia.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Muralhas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "BUK:0:smug"
+   ],
+   "acao": "conversar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "set": "loc_campo",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "de"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:suspicious",
+    "POV:0:worried"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "interior": false,
+   "set": "loc_campo",
+   "batalha": false,
+   "impact": false,
+   "tiros": false,
+   "text": "SEM JULGAMENTO",
+   "bloco": "escalada",
+   "say": "Mas houve denúncias de prisões sem julgamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "denúncias"
      }
     ]
    }
@@ -378,15 +320,57 @@
      1.0
     ]
    ],
-   "say": "E o modelo passou a ser copiado e criticado pelo mundo.",
    "text": "COPIADO E CRITICADO",
    "titulo": true,
+   "bloco": "pagamento",
+   "say": "O modelo passou a ser copiado e criticado.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "modelo"
+      "na": "copiado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "GUA:0:stern",
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/prison",
+     0,
+     -14.5,
+     1.0
+    ]
+   ],
+   "fx": [],
+   "sfx": [],
+   "cx": 0,
+   "cz": -14.5,
+   "crowd": {
+    "n": 26,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "text": "40 MIL PRESOS",
+   "titulo": true,
+   "acao": "conversar",
+   "bloco": "loop",
+   "say": "Segurança ou excesso? Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Segurança"
      }
     ]
    }
@@ -431,5 +415,8 @@
   ]
  },
  "exp": 1.12,
- "cinf": 4.5
+ "cinf": 4.5,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento.",
+ "loop_frase_ok": true
 }

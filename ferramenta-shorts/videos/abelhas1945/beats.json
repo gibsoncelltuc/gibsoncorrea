@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 20,
  "title": "As Abelhas que Dançam um Mapa",
@@ -80,47 +80,24 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
    "set": "countryside",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Abelhas conversam dançando, e a dança é um mapa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "descobriu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "dançando"
      }
     ]
    },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "ABELHAS DANÇAM",
+   "titulo": true
   },
   {
    "shot": "two",
@@ -129,7 +106,6 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
    "props": [
     [
      "kit/beehive",
@@ -141,33 +117,21 @@
      }
     ]
    ],
-   "_susp_ok": true,
    "interior": "madeira",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "examina",
-      "na": "estudando",
-      "quem": 0
-     }
-    ]
-   },
    "detalhe": false,
    "cx": 0.5,
    "cz": 0.6,
    "d0": 7.6,
    "d1": 7.2,
    "quadro_manual": true,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
-    "objetos": [
+   "bloco": "promessa",
+   "say": "E quem traduziu isso ganhou um Prêmio Nobel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "traduziu"
      }
     ]
    }
@@ -210,7 +174,6 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.",
    "fx": [
     "puff@30"
    ],
@@ -219,45 +182,21 @@
    ],
    "set": "countryside",
    "text": "DANÇA",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Karl von Frisch pôs água com açúcar longe da colmeia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "constroi",
-      "na": "construiu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "pôs"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -303,48 +242,24 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
    "set": "countryside",
    "shot_lock": true,
    "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "A abelha que achava o açúcar voltava dançando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "abelha"
+      "na": "dançando"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -381,33 +296,8 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
    "shot_lock": true,
    "detalhe": false,
-   "quadro": {
-    "local": "loc_montanha",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -428,6 +318,8 @@
      ]
     ]
    },
+   "bloco": "prova",
+   "say": "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -478,33 +370,8 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
    "shot_lock": true,
    "detalhe": false,
-   "quadro": {
-    "local": "loc_montanha",
-    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -533,6 +400,8 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "O ângulo da dança aponta a direção, comparada com o sol.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -553,7 +422,6 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
    "props": [
     [
      "kit/beehive",
@@ -587,30 +455,6 @@
    ],
    "shot_lock": true,
    "detalhe": false,
-   "quadro": {
-    "local": "loc_montanha",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -631,12 +475,14 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "Quanto mais rebola, mais longe está a comida.",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "rebolava"
+      "na": "rebola"
      }
     ]
    }
@@ -649,110 +495,17 @@
     "FRI:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
-   "encena": {
-    "sentido": "negativa",
-    "passos": [
-     {
-      "faz": "x_ri",
-      "na": "piada",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "FRI:0:smug",
-    "COL:0:shock"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "kit/beehive",
-     0.0,
-     -1.2,
-     1.4,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/bee",
-     -1.6,
-     0.8,
-     0.68,
-     {
-      "y": 2.4,
-      "fixo": true
-     }
-    ],
-    [
-     "kit/bee",
-     1.6,
-     0.8,
-     0.68,
-     {
-      "y": 3.0,
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "titulo": true,
-   "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
-   "set": "countryside",
+   "bloco": "escalada",
+   "say": "Acontece que os cientistas riram: inseto com linguagem?",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "testes",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "riram"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -780,33 +533,33 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
    "interior": "pedra",
+   "props": [],
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Em 1973, ele ganhou o Nobel por essa dança.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "vence",
-      "na": "ganhou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "Nobel"
      }
     ]
-   },
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
    "who": [
-    "FRI:0:smile"
+    "FRI:0:grin",
+    "COL:0:surprised"
    ],
    "props": [
     [
      "kit/beehive",
-     1.4,
-     0.2,
-     1.2,
+     0.0,
+     -1.2,
+     1.0,
      {
       "fixo": true
      }
@@ -832,43 +585,25 @@
      }
     ]
    ],
-   "say": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
    "set": "countryside",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Repare na próxima abelha que passar. Porque...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "abelha"
-     }
-    ]
-   },
-   "cx": 0.5,
-   "cz": 0.6,
-   "d0": 8.0,
-   "d1": 7.6,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, esquerda",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bee",
-      "lugar": "FRENTE, direita",
-      "tela": "8% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -911,5 +646,8 @@
   "explicacoes": [
    "Danca das abelhas (von Frisch): danca em circulo = comida perto; danca do requebrado em oito = comida longe; o angulo da corrida em relacao a vertical indica a direcao da comida em relacao ao sol; a duracao do requebrado indica a distancia (fonte: Wikipedia Waggle dance)"
   ]
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: abelhas conversam dancando, a danca e' um mapa, e quem traduziu ganhou o Nobel. Pagamento: voltinhas para perto, oito para longe, angulo do sol para a direcao; Nobel de 1973.",
+ "loop_frase_ok": true
 }

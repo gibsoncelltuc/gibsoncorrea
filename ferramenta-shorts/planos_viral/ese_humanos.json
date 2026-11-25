@@ -1,0 +1,86 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: todos os humanos sumiram e o planeta nem sentiria falta. Pagamento: luzes apagam, metro inunda, ruas viram floresta, pontes caem; sobram piramides e plastico.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Todos os humanos sumiram da Terra de uma vez.",
+   "humanos",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "E o planeta nem sentiria falta.",
+   "planeta",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "No primeiro dia, ninguém estaria nas usinas de energia.",
+   "usinas",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Em poucas horas, as luzes se apagariam.",
+   "luzes",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "Em dois dias, o metrô de Nova York ficaria inundado.",
+   "inundado",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Em vinte anos, as ruas virariam florestas, com lobos nas avenidas.",
+   "florestas",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que até as pontes de aço cairiam, comidas pela ferrugem.",
+   "cairiam",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "cairiam"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Sobrariam as pirâmides, de pé há mais de quatro mil anos.",
+   "pirâmides",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "E o plástico, que leva séculos para sumir.",
+   "plástico",
+   {}
+  ],
+  [
+   10,
+   "loop",
+   "Somos nós que precisamos do planeta. Agora imagina que...",
+   "planeta",
+   {}
+  ]
+ ]
+}

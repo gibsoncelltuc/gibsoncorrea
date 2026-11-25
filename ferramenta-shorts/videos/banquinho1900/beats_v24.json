@@ -1,0 +1,507 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 13,
+ "title": "A Guerra do Banquinho Dourado",
+ "titulo_base": "A Guerra do Banquinho Dourado",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/golden_stool",
+ "outfits": {
+  "GOV": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "uniforme_fixo": true
+  },
+  "ASH": {
+   "jacket": "#d9a630",
+   "pants": "#2a7a3a",
+   "boots": "#2a2218",
+   "hat": "hair"
+  },
+  "CHE": {
+   "jacket": "#2a7a3a",
+   "pants": "#d9a630",
+   "boots": "#2a2218",
+   "hat": "turban",
+   "cap": "#d9a630"
+  },
+  "SOL": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "GOV:0:smug",
+    "ASH:0:shock"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
+   "set": "countryside",
+   "detalhe": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediu",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "set": "jungle",
+   "who": [
+    "ASH:0:stern",
+    "ASH:1:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false
+   },
+   "mapa": "GANA",
+   "mapa_at": 3,
+   "say": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Gana"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHE:0:stern",
+    "ASH:0:smile"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     0.0,
+     -1.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
+   "set": "countryside",
+   "detalhe": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ASH",
+     "CHE"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "banquinho"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOV:0:angry:paper"
+   ],
+   "interacao": "empurrar",
+   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "exigiu",
+      "quem": 0
+     }
+    ]
+   },
+   "props": [
+    [
+     "kit/golden_stool",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "CHE:0:shock",
+    "ASH:0:angry"
+   ],
+   "interacao": "susto",
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "choque"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "countryside",
+   "who": [
+    "ASH:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "ASH"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "kit/forte_colonial",
+     0.0,
+     -10.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "FORTE CERCADO",
+   "titulo": true,
+   "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
+   "detalhe": false,
+   "fachada": false,
+   "objetos": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/forte_colonial",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "cercaram",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "wide",
+   "set": "jungle",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "stern"
+   },
+   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
+   "props": [],
+   "detalhe": false,
+   "d0": 24.0,
+   "d1": 21.0,
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marcharam",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "GOV:0:relief",
+    "PRE:0:smug:paper"
+   ],
+   "interacao": "entregar",
+   "say": "No fim, os ingleses venceram e a região virou colônia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHE:0:smug",
+    "ASH:0:grin"
+   ],
+   "interacao": "cochichar",
+   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
+   "props": [
+    [
+     "kit/golden_stool",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "esconderam"
+     }
+    ]
+   },
+   "set": "jungle",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "set": "countryside",
+   "who": [
+    "GOV:0:sad"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "ano": 1900,
+ "regiao": "africa",
+ "exp": 1.0,
+ "visual": {
+  "local": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias de casas de barro com telhado de palha, floresta tropical, forte britanico de pedra",
+  "quando": "marco a setembro de 1900; de dia, estacao chuvosa",
+  "participantes": [
+   "governador Frederic Hodgson",
+   "lideres ashanti",
+   "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "soldados britanicos e africanos da forca colonial"
+  ],
+  "roupas": {
+   "GOV": "uniforme colonial branco com capacete branco",
+   "ASH": "pano kente colorido amarrado no ombro",
+   "CHE": "chefe ashanti com pano kente e adornos dourados",
+   "SOL": "soldado colonial de 1900: farda caqui e capacete",
+   "PRE": "funcionario britanico de terno escuro"
+  },
+  "cenario": "aldeia ashanti com casas de barro e palha, floresta tropical, forte de pedra em Kumasi",
+  "objetos": [
+   "banquinho dourado (Sika Dwa Kofi)",
+   "forte britanico",
+   "fuzis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+   "https://en.wikipedia.org/wiki/Golden_Stool"
+  ],
+  "buscas": {
+   "banquinho dourado (Sika Dwa Kofi)": "Golden Stool Asante Sika Dwa Kofi",
+   "golden stool": "Golden Stool of Asante",
+   "lideres ashanti": "Asante chiefs kente cloth 1900",
+   "fuzis": "Lee-Metford rifle 1900",
+   "A Guerra do Banquinho Dourado": "War of the Golden Stool 1900 Kumasi",
+   "golden_stool": "Ashanti Golden Stool Sika Dwa Kofi photo",
+   "forte_colonial": "Kumasi fort 1900 British fort Ashanti"
+  }
+ },
+ "variar_cenario": false,
+ "max_wide": 4
+}

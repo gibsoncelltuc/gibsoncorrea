@@ -7,9 +7,8 @@
   "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
-   "interior loja",
+   "interior galpao",
    "interior madeira",
-   "interior pedra",
    "loc_campo",
    "street"
   ],
@@ -35,32 +34,23 @@
  "objetos_em_cena": [
   "buildings/house_two",
   "buildings/shop",
-  "kit/campfire",
   "kit/chocolate",
   "kit/egg",
-  "kit/lupa",
+  "kit/microwave",
   "kit/popcorn",
-  "kit/radarange",
-  "kit/room_azul_wood",
   "kit/room_eua_wood",
-  "kit/room_europa_stone",
-  "kit/room_rosa_shop",
+  "kit/room_galpao",
   "kit/room_verde_wood",
-  "mk/Bed_Twin1",
-  "mk/Bench",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
   "mk/Crate_Metal",
   "mk/Crate_Wooden",
-  "mk/Nightstand_Shelf",
-  "mk/Shelf_Arch",
   "mk/Shelf_Small_Bottles",
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Vase_4",
+  "mk/Workbench",
   "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
@@ -84,8 +74,7 @@
    "milho de pipoca",
    "ovo",
    "Radarange (primeiro micro-ondas, 1,8 m)",
-   "forno de micro-ondas moderno",
-   "radarange"
+   "forno de micro-ondas moderno"
   ],
   "explicacoes": [
    "Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)"
@@ -96,8 +85,7 @@
   ],
   "buscas": {
    "forno": "Raytheon Radarange 1947",
-   "lab": "Raytheon magnetron laboratory 1940s",
-   "radarange": "Raytheon Radarange 1947 microwave oven"
+   "lab": "Raytheon magnetron laboratory 1940s"
   }
  },
  "fontes": [],

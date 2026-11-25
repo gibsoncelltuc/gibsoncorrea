@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 20,
  "title": "A Batalha de Los Angeles",
@@ -73,7 +73,6 @@
     ]
    ],
    "interacao": "susto",
-   "say": "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.",
    "fx": [
     "burst@25",
     "burst@40",
@@ -92,21 +91,58 @@
     ],
     "march": false
    },
-   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "atira",
-      "na": "atirando",
+      "na": "atirou",
       "quem": 0
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "NENHUM INIMIGO",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "CID:0:smile"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E até hoje ninguém sabe no que eles atiravam.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atiravam"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -125,13 +161,14 @@
    },
    "mapa": "LOS ANGELES",
    "mapa_at": 3,
-   "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
+   "bloco": "prova",
+   "say": "Em 1942, Los Angeles vivia com medo do Japão.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Pearl"
+      "na": "medo"
      }
     ]
    }
@@ -143,13 +180,12 @@
    "who": [
     "CID:0:scared"
    ],
-   "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
    "props": [
     [
      "kit/submarino_ww2",
-     1.0,
-     -9.0,
-     1.6,
+     1.5,
+     -27.0,
+     4.0,
      {
       "fixo": true
      }
@@ -167,9 +203,17 @@
    "crowd": {
     "n": 0
    },
-   "_susp_ok": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.8,
+   "cz": -12.0,
+   "h": 3.5,
+   "d0": 24.0,
+   "d1": 21.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Na véspera, um submarino japonês atirou na Califórnia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -180,16 +224,10 @@
      {
       "faz": "atira",
       "alvo": "kit/submarino_ww2",
-      "na": "atirado"
+      "na": "atirou"
      }
     ]
-   },
-   "cx": 0.5,
-   "cz": -5.0,
-   "h": 2.4,
-   "d0": 13.0,
-   "d1": 11.5,
-   "quadro_manual": true
+   }
   },
   {
    "shot": "low",
@@ -234,33 +272,14 @@
    "sfx": [
     "ding@40"
    ],
-   "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
    "shot_lock": true,
    "detalhe": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "De madrugada, sirenes tocaram e holofotes varreram o céu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -274,12 +293,7 @@
       "na": "holofotes"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "low"
+   }
   },
   {
    "shot": "wide",
@@ -290,18 +304,19 @@
    ],
    "tiros": true,
    "crowd": {
-    "n": 4,
+    "n": 3,
     "outfits": [
      "SOL"
     ],
     "march": false,
-    "expr": "shout"
+    "expr": "shout",
+    "poucos": true
    },
    "props": [
     [
      "cannon",
-     -2.4,
-     -1.4,
+     -1.8,
+     -1.0,
      1.0,
      {
       "fixo": true
@@ -309,8 +324,8 @@
     ],
     [
      "cannon",
-     2.6,
-     -2.6,
+     2.2,
+     -1.6,
      1.0,
      {
       "fixo": true
@@ -327,10 +342,17 @@
    ],
    "text": "FOGO!",
    "titulo": true,
-   "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
    "shot_lock": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -1.5,
+   "h": 2.4,
+   "d0": 12.5,
+   "d1": 10.5,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Alguém viu algo, e os canhões antiaéreos começaram a atirar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -343,41 +365,6 @@
       "faz": "atira",
       "na": "atirar",
       "quem": 0
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -1.5,
-   "h": 2.4,
-   "d0": 12.5,
-   "d1": 10.5,
-   "quadro_manual": true
-  },
-  {
-   "shot": "two",
-   "set": "harbor",
-   "hora": "noite",
-   "who": [
-    "SOL:0:shout",
-    "GEN:0:surprised"
-   ],
-   "acao": "discutir",
-   "say": "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.",
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "GEN",
-     "SOL"
-    ],
-    "march": false
-   },
-   "_susp_ok": true,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "nuvens"
      }
     ]
    }
@@ -408,7 +395,6 @@
     "cannon@40",
     "cannon@100"
    ],
-   "say": "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.",
    "props": [
     [
      "cannon",
@@ -429,57 +415,48 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Foram mais de mil tiros, e estilhaços caíram na cidade.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "grita",
-      "na": "pânico",
+      "na": "caíram",
       "quem": 1
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "crowd"
+   }
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "set": "harbor",
+   "hora": "noite",
    "who": [
-    "GEN:0:stern:paper",
-    "PRE:0:nervous"
+    "SOL:0:shout",
+    "GEN:0:surprised"
    ],
-   "interacao": "susto",
-   "say": "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.",
+   "acao": "discutir",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "GEN",
+     "SOL"
+    ],
+    "march": false
+   },
+   "bloco": "escalada",
+   "say": "Acontece que não havia nada lá em cima.",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "faz": "x_discute",
-      "na": "discutiram",
-      "quem": 0,
-      "alvo_quem": 1
+      "faz": "mostra",
+      "na": "nada"
      }
     ]
    }
@@ -490,9 +467,17 @@
     "CID:0:sad",
     "CID:1:cry"
    ],
-   "say": "Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.",
    "set": "loc_cidade",
    "hora": "noite",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID"
+    ],
+    "march": false
+   },
+   "bloco": "pagamento",
+   "say": "Algumas pessoas morreram por acidente e susto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -501,61 +486,61 @@
       "na": "morreram"
      }
     ]
-   },
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "CID"
-    ],
-    "march": false
-   },
-   "_susp_ok": true
+   }
   },
   {
    "shot": "two",
    "set": "street",
    "hora": "noite",
    "who": [
-    "CID:0:smile"
+    "SOL:0:shock",
+    "CID:0:scared"
    ],
    "props": [
     [
      "kit/searchlight",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+   "interacao": "susto",
+   "fx": [
+    "burst@25",
+    "burst@40",
+    "burst@60"
+   ],
+   "sfx": [
+    "cannon@25",
+    "cannon@40",
+    "cannon@60"
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID",
+     "SOL"
+    ],
+    "march": false
    },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "O medo venceu o sono. E foi assim que...",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "sono"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   }
   }
  ],
  "cinf": 1.5,
@@ -587,5 +572,7 @@
    "https://commons.wikimedia.org/wiki/File:Battle_of_Los_Angeles_LA_Times_photo.jpg"
   ]
  },
- "max_wide": 4
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda contra um inimigo invisivel e ninguem sabe no que atiravam. Pagamento: mais de mil tiros, estilhacos na cidade, mortes por acidente e nada no ceu.",
+ "loop_frase_ok": true
 }

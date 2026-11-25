@@ -1,0 +1,92 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "OVELHA, PATO E GALO",
+ "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Os primeiros passageiros de um balão não foram pessoas.",
+   "balão",
+   {
+    "set": "street"
+   }
+  ],
+  [
+   5,
+   "promessa",
+   "Foram uma ovelha, um pato e um galo.",
+   "ovelha",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1783, os irmãos Montgolfier faziam papel.",
+   "Montgolfier",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Viram que fumaça quente fazia sacos de papel subirem.",
+   "fumaça",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Fizeram um balão gigante de pano e papel.",
+   "balão",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Ninguém sabia se dava para respirar lá em cima.",
+   "respirar",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Acontece que o balão subiu de verdade, com os bichos dentro.",
+   "subiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Oito minutos depois, pousou, e os bichos estavam vivos.",
+   "pousou",
+   {
+    "encena_antiga": true,
+    "set": "jungle"
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Dois meses depois, um balão levou dois homens.",
+   "levou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "loop",
+   "Ninguém quis ser cobaia. E foi assim que...",
+   "Ninguém",
+   {}
+  ]
+ ]
+}

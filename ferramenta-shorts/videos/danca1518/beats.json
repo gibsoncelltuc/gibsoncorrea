@@ -3,7 +3,7 @@
  "ep": 22,
  "titulo_base": "A Praga da Dança",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "title": "A Praga da Dança",
  "set": "medieval",
  "light": "day",
@@ -69,9 +69,10 @@
     "TRO:0:laugh",
     "POV:1:shock"
    ],
-   "say": "Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar.",
    "set": "medieval",
    "fachada": false,
+   "bloco": "gancho",
+   "say": "Uma mulher começou a dançar na rua e não conseguiu parar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -79,6 +80,29 @@
       "faz": "danca",
       "na": "dançar",
       "quem": 0
+     }
+    ]
+   },
+   "text": "NÃO PARAVA DE DANÇAR",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MED:0:nervous",
+    "POV:0:neutral"
+   ],
+   "acao": "nenhuma",
+   "fachada": false,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E até hoje ninguém sabe ao certo por quê.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ninguém"
      }
     ]
    }
@@ -91,10 +115,11 @@
    ],
    "mapa": "ESTRASBURGO",
    "mapa_at": 3,
-   "say": "Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.",
    "hora": "dia",
    "set": "medieval",
    "fachada": false,
+   "bloco": "prova",
+   "say": "Em 1518, em Estrasburgo, ela dançou por uma semana.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -114,8 +139,7 @@
     "POV:2:grin",
     "POV:3:pained"
    ],
-   "say": "Em poucos dias, mais de trinta pessoas dançavam também, incluindo o marido dela.",
-   "set": "medieval",
+   "set": "street",
    "fachada": false,
    "acao": "dancar",
    "crowd": {
@@ -127,6 +151,8 @@
     "march": false,
     "expr": "pained"
    },
+   "bloco": "prova",
+   "say": "Em poucos dias, mais de trinta pessoas dançavam também.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -167,7 +193,6 @@
    ],
    "text": "50 A 400",
    "titulo": true,
-   "say": "Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.",
    "set": "medieval",
    "fachada": false,
    "props": [],
@@ -180,17 +205,19 @@
    "d0": 13.0,
    "d1": 12.0,
    "shot_lock": true,
+   "bloco": "prova",
+   "say": "Em agosto, eram centenas, com os pés sangrando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "danca",
-      "na": "dançavam",
+      "na": "centenas",
       "quem": 0
      },
      {
       "faz": "grita",
-      "na": "socorro",
+      "na": "centenas",
       "quem": 1
      }
     ]
@@ -203,20 +230,15 @@
     "MED:0:nervous:book"
    ],
    "interior": "pedra",
-   "say": "O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.",
    "acao": "nenhuma",
+   "bloco": "escalada",
+   "say": "Os médicos culparam o sangue quente e receitaram mais dança.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "chamou",
-      "quem": 0
-     },
-     {
-      "faz": "fala",
-      "na": "receitaram",
-      "quem": 1
+      "faz": "mostra",
+      "na": "receitaram"
      }
     ]
    }
@@ -228,9 +250,7 @@
     "MUS:1:laugh"
    ],
    "text": "SALÃO",
-   "say": "A cidade reformou salões e contratou músicos para manter os dançarinos de pé.",
    "set": "hall",
-   "riscos_ok": true,
    "detalhe": false,
    "crowd": {
     "n": 12,
@@ -239,13 +259,14 @@
     ],
     "march": false
    },
-   "_susp_ok": true,
+   "bloco": "escalada",
+   "say": "Acontece que a cidade contratou músicos para manter todos dançando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "danca",
-      "na": "dançarinos",
+      "na": "contratou",
       "quem": 0
      }
     ]
@@ -270,52 +291,23 @@
     "thump@50",
     "sting@110"
    ],
-   "say": "Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.",
-   "set": "medieval",
+   "set": "countryside",
    "fachada": false,
    "props": [],
    "detalhe": false,
-   "vary": false,
    "quadro_manual": true,
    "d0": 9.0,
    "d1": 8.5,
    "cx": 0.0,
    "cz": 0.0,
-   "_auto_vis": 0,
+   "bloco": "escalada",
+   "say": "Deu errado: mais gente entrou na dança.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "danca",
-      "na": "dança",
-      "quem": 1,
-      "forcar": true
-     },
-     {
-      "faz": "fala",
-      "na": "proibiu",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRE:0:pained",
-    "MED:0:shock"
-   ],
-   "say": "Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.",
-   "acao": "nenhuma",
-   "set": "loc_campo",
-   "fachada": false,
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
       "faz": "mostra",
-      "na": "documentos"
+      "na": "entrou"
      }
     ]
    }
@@ -325,7 +317,6 @@
    "who": [
     "DAN:0:relief"
    ],
-   "say": "No fim, os dançarinos foram levados a uma capela no alto de um monte, com sapatos vermelhos benzidos, e a dança parou.",
    "set": "mountain",
    "fachada": false,
    "crowd": {
@@ -349,18 +340,6 @@
    ],
    "text": "CAPELA DO MONTE",
    "detalhe": false,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "buildings/church",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": 0.0,
    "h": 2.2,
@@ -368,13 +347,14 @@
    "d1": 13.0,
    "quadro_manual": true,
    "shot_lock": true,
+   "bloco": "pagamento",
+   "say": "Levados a uma capela no monte, eles finalmente pararam.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "danca",
-      "na": "dançarinos",
-      "quem": 0
+      "faz": "mostra",
+      "na": "pararam"
      }
     ]
    }
@@ -382,21 +362,19 @@
   {
    "shot": "two",
    "who": [
-    "MED:0:nervous",
-    "POV:0:neutral"
+    "TRO:0:laugh",
+    "POV:1:shock"
    ],
-   "say": "Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.",
-   "acao": "nenhuma",
+   "set": "medieval",
    "fachada": false,
-   "interior": "madeira",
+   "bloco": "loop",
+   "say": "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pensa",
-      "na": "suspeita",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "ninguém"
      }
     ]
    }
@@ -437,5 +415,7 @@
   }
  },
  "set_tematico_ok": true,
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma mulher comecou a dancar e nao conseguia parar, e ninguem sabe por que. Pagamento: centenas dancaram com os pes sangrando, os medicos receitaram mais danca e so pararam numa capela no monte.",
+ "loop_frase_ok": true
 }

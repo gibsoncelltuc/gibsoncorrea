@@ -1,7 +1,7 @@
 {
  "title": "A Batalha de Karánsebes",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "countryside",
  "light": "dusk",
  "mood": "march",
@@ -59,7 +59,6 @@
  "titulo_base": "A Batalha de Karánsebes",
  "beats": [
   {
-   "say": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
    "shot": "wide",
    "who": [
     "AUT:0:neutral",
@@ -78,38 +77,65 @@
     "march": false,
     "expr": "shock"
    },
-   "lados": [
-    "AUT",
-    "HUS"
+   "hora": "noite",
+   "fx": [
+    "burst@8",
+    "burst@25",
+    "burst@45",
+    "stars@30"
    ],
+   "sfx": [
+    "cannon@8",
+    "gun@25",
+    "cannon@45"
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 14.0,
+   "d1": 11.0,
+   "impact": true,
+   "text": "CONTRA SI MESMO",
+   "titulo": true,
+   "tstyle": "red",
+   "bloco": "gancho",
+   "say": "Um exército inteiro perdeu uma batalha contra ele mesmo.",
    "encena": {
     "sentido": "figurada",
     "passos": [
      {
       "faz": "perde",
-      "na": "perder",
+      "na": "perdeu",
       "quem": 0
      }
     ]
-   },
-   "hora": "noite",
-   "fx": [
-    "burst@20",
-    "burst@45",
-    "smoke@30"
-   ],
-   "sfx": [
-    "cannon@20",
-    "cannon@45"
-   ],
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": -2.0,
-   "d0": 13.0,
-   "d1": 10.5
+   }
   },
   {
-   "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
+   "shot": "close",
+   "who": [
+    "TUR:0:laugh",
+    "TUR:1:grin"
+   ],
+   "text": "FOGO AMIGO",
+   "tat": 3,
+   "tstyle": "red",
+   "light": "dawn",
+   "acao": "comemorar",
+   "bloco": "promessa",
+   "say": "E o inimigo venceu sem disparar um tiro.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
    "shot": "group",
    "who": [
     "AUT:0:smile",
@@ -130,19 +156,19 @@
     ],
     "march": true
    },
+   "bloco": "prova",
+   "say": "Em 1788, o exército austríaco tinha soldados de vários países.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "marchando",
-      "quem": 0
+      "faz": "mostra",
+      "na": "soldados"
      }
     ]
    }
   },
   {
-   "say": "Numa noite, os hussardos foram na frente procurar o inimigo.",
    "shot": "track",
    "who": [
     "HUS:0:stern:lantern",
@@ -156,7 +182,6 @@
      1.5
     ]
    ],
-   "move": 7,
    "hora": "noite",
    "crowd": {
     "n": 6,
@@ -169,21 +194,19 @@
    "montado": {
     "dir": 1
    },
+   "bloco": "prova",
+   "say": "Numa noite, os hussardos foram procurar o inimigo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "procurar",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "procurar"
      }
     ]
-   },
-   "_auto_vis": 2
+   }
   },
   {
-   "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
    "shot": "two",
    "who": [
     "HUS:0:shock",
@@ -191,19 +214,19 @@
    ],
    "props": [
     [
-     "barrel",
-     1.9,
-     1.0,
-     1.2
-    ],
-    [
      "kit/barrel_r",
-     0.0,
-     -1.2,
+     1.6,
+     -1.6,
      1.0,
      {
       "fixo": true
      }
+    ],
+    [
+     "barrel",
+     2.6,
+     -2.2,
+     1.2
     ]
    ],
    "hora": "noite",
@@ -215,18 +238,14 @@
     ],
     "march": false
    },
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/barrel_r",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "detalhe": true,
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Acharam moradores vendendo aguardente e beberam o barril todo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -244,67 +263,9 @@
       "forcar": true
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
-  },
-  {
-   "say": "Compraram tudo, beberam, e a festa começou.",
-   "shot": "two",
-   "who": [
-    "HUS:0:laugh:mug",
-    "HUS:1:grin:bottle"
-   ],
-   "props": [
-    [
-     "barrel",
-     0.0,
-     0.2,
-     1.2
-    ],
-    [
-     "tools/lantern",
-     0.0,
-     1.4,
-     2.0
-    ]
-   ],
-   "text": "AGUARDENTE",
-   "tat": 4,
-   "mood": "playful",
-   "hora": "noite",
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "AUT",
-     "HUS"
-    ],
-    "march": false
-   },
-   "acao": "beber",
-   "_auto_vis": 3,
-   "detalhe": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_bebe",
-      "na": "beberam",
-      "quem": 0
-     },
-     {
-      "faz": "vence",
-      "na": "festa",
-      "quem": 1
-     }
-    ]
    }
   },
   {
-   "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
    "shot": "group",
    "who": [
     "AUT:0:stern",
@@ -317,7 +278,6 @@
    "fx": [
     "burst@167"
    ],
-   "mood": "tense",
    "tiros": false,
    "impact": false,
    "hora": "noite",
@@ -330,12 +290,14 @@
     "march": false
    },
    "acao": "discutir",
+   "bloco": "escalada",
+   "say": "A infantaria quis um gole. Negaram, e alguém atirou.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "chegou",
+      "na": "atirou",
       "quem": 0
      },
      {
@@ -347,7 +309,6 @@
    }
   },
   {
-   "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
    "shot": "close",
    "who": [
     "HUS:1:shock"
@@ -355,7 +316,6 @@
    "text": "TURCOS!",
    "tat": 2,
    "tstyle": "red",
-   "mood": "tense",
    "hora": "noite",
    "crowd": {
     "n": 12,
@@ -366,6 +326,8 @@
     "march": false,
     "expr": "shock"
    },
+   "bloco": "escalada",
+   "say": "No escuro, alguém gritou: Turcos! Turcos!",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -378,7 +340,6 @@
    }
   },
   {
-   "say": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
    "shot": "crowd",
    "who": [
     "AUT:0:shock",
@@ -394,26 +355,22 @@
     "march": false,
     "expr": "shock"
    },
-   "mood": "tense",
    "batalha": true,
    "hora": "noite",
-   "lados": [
-    "AUT",
-    "HUS"
-   ],
+   "bloco": "escalada",
+   "say": "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "atira",
-      "na": "atirava",
+      "na": "atiraram",
       "quem": 0
      }
     ]
    }
   },
   {
-   "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
    "shot": "wide",
    "who": [
     "OFF:0:shock"
@@ -438,7 +395,6 @@
      }
     ]
    ],
-   "mood": "tense",
    "hora": "noite",
    "crowd": {
     "n": 6,
@@ -460,12 +416,20 @@
    ],
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -1.0,
+   "h": 2.0,
+   "d0": 11.0,
+   "d1": 9.0,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Até os canhões dispararam contra o próprio exército.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "fala",
-      "na": "mandou",
+      "na": "dispararam",
       "quem": 0
      },
      {
@@ -473,16 +437,9 @@
       "na": "dispararam"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -1.0,
-   "h": 2.0,
-   "d0": 11.0,
-   "d1": 9.0,
-   "quadro_manual": true
+   }
   },
   {
-   "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
    "shot": "two",
    "who": [
     "TUR:0:shock:spyglass",
@@ -493,43 +450,67 @@
    "tat": 15,
    "tstyle": "gold",
    "light": "dawn",
-   "mood": "calm",
    "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Os turcos chegaram e acharam o acampamento abandonado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "chegaram",
-      "quem": 0
-     },
-     {
-      "faz": "olha",
-      "na": "acharam",
-      "quem": 1
+      "faz": "mostra",
+      "na": "acharam"
      }
     ]
    }
   },
   {
-   "say": "Os turcos venceram sem dar um único tiro.",
-   "shot": "close",
+   "shot": "wide",
    "who": [
-    "TUR:0:laugh",
-    "TUR:1:grin"
+    "AUT:0:neutral",
+    "AUT:1:stern",
+    "AUT:2:neutral",
+    "AUT:3:stern"
    ],
-   "text": "FOGO AMIGO",
-   "tat": 3,
+   "tat": 4,
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "hora": "noite",
+   "fx": [
+    "burst@8",
+    "burst@25",
+    "burst@45",
+    "stars@30"
+   ],
+   "sfx": [
+    "cannon@8",
+    "gun@25",
+    "cannon@45"
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 14.0,
+   "d1": 11.0,
+   "impact": true,
+   "text": "CONTRA SI MESMO",
+   "titulo": true,
    "tstyle": "red",
-   "light": "dawn",
-   "mood": "calm",
-   "acao": "comemorar",
+   "bloco": "loop",
+   "say": "Ninguém precisou lutar contra eles. Foi assim que...",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "faz": "vence",
-      "na": "venceram",
+      "faz": "perde",
+      "na": "precisou",
       "quem": 0
      }
     ]
@@ -568,5 +549,8 @@
    "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
    "https://upload.wikimedia.org/wikipedia/commons/c/c2/Picture_showing_Ottoman_Forces_advance_to_Caransebes.png"
   ]
- }
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra ele mesmo e o inimigo venceu sem tiro. Pagamento: briga pela aguardente, grito de 'Turcos!', todos atirando em todos e os turcos acharam o acampamento abandonado.",
+ "loop_frase_ok": true
 }

@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, FUN
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, loc_estudio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Pia no Twitter | A Pia no Twitter / Um Foi Elon Musk Twitter São Francisco Ele 2022 | SEM REFERENCIA
+tema | A Pia no Twitter | A Pia no Twitter / Um Foi Elon Musk Twitter 2022 | SEM REFERENCIA
 lugar | Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o | Sede do Twitter Market Street Sao Francisco / Sede do Twitter Market Street Sao Francisco California 2022 | Twitter Headquarters.jpg (referencias/pia2022/prints/sede_do_twitter_market_street_sao_franci_2f2014.jpg); Foto de Juan Francisco Delgado con Dick Costolo .j (referencias/pia2022/prints/sede_do_twitter_market_street_sao_franci_9f7a94.jpg)
 lugar | Estados Unidos | Estados Unidos 2022 / Estados Unidos landscape | Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/pia2022/prints/estados_unidos_c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/pia2022/prints/estados_unidos_185b81.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/pia2022/prints/estados_unidos_7a8f7d.jpg)
 epoca | roupas e ruas de 2022 | 2022 fashion clothing / 2022 street photograph | Tejasswi Prakash Grace Grazia Young Fashion Awards (referencias/pia2022/prints/roupas_e_ruas_de_2022_85bc57.jpg); Tejasswi Prakash at Grazia Young Fashion Awards 20 (referencias/pia2022/prints/roupas_e_ruas_de_2022_fe7d5b.jpg); Varun Dhawan grace Grazia Young Fashion Awards 202 (referencias/pia2022/prints/roupas_e_ruas_de_2022_12e4cf.jpg)
@@ -24,9 +24,8 @@ pessoas | executivos (Parag Agrawal e outros) | executivos Parag Agrawal e outro
 objeto | pia de banheiro de porcelana branca | pia de banheiro de porcelana branca / pia de banheiro de porcelana branca 2022 | SEM REFERENCIA
 objeto | celular filmando | celular filmando / celular filmando 2022 | SEM REFERENCIA
 objeto | logo do Twitter | logo do Twitter / logo do Twitter 2022 | Twitter-Message-Free-iPads.png (referencias/pia2022/prints/logo_do_twitter_9564ba.jpg); Twitter censorship.jpg (referencias/pia2022/prints/logo_do_twitter_9b2ffa.jpg); Icône Twitter Wikipédia en français.png (referencias/pia2022/prints/logo_do_twitter_8a409c.jpg)
-objeto | smartphone | smartphone 2010s touchscreen phone / smartphone / smartphone 2022 | Smartphone display screen.jpg (referencias/pia2022/prints/smartphone_99e2af.jpg); Smartphone ownership in 2013.jpg (referencias/pia2022/prints/smartphone_fcd900.jpg); Smartphone Use.jpg (referencias/pia2022/prints/smartphone_dca577.jpg)
 heroi | sink | pia de banheiro de porcelana branca / A Pia no Twitter | Twitter Homepage.jpg (referencias/pia2022/prints/sink_86f3f1.jpg); Twitter-Message-Free-iPads.png (referencias/pia2022/prints/sink_9564ba.jpg); Twitter censorship.jpg (referencias/pia2022/prints/sink_9b2ffa.jpg)
-mecanismo | É um trocadilho: em inglês, a palavra sink quer dizer pia, e também af | trocadilho ingles palavra dizer tambem afundar / sink diagram | Diagramme QFL.png (referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__726eee.jpg); Source-sink hypothesis figure.jpg (referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__552c12.jpg); Loose lips might sink ships.jpg (referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__568c27.jpg)
+mecanismo | Sink quer dizer pia e também afundar. | dizer tambem afundar / sink diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 26/10/2022 Musk entrou na sede do Twitter com uma pia e escreveu "Entering Twitter HQ - let that sink in"; em 27/10 concluiu a compra por US$ 44 bilhoes e demitiu o CEO Parag Agrawal e outros executivos; mudou a bio para "Chief Twit" (fonte: Wikipedia Acquisition of Twitter by Elon Musk)

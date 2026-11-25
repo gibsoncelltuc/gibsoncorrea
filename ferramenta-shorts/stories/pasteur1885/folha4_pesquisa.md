@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Pasteur e a Vacina da Raiva
 - Epoca: 1885 | Lugar: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur | Quando: julho de 1885, dia
 - HEROIS (objeto): kit/syringe
-- HEROIS (personagens): PAS, JOS
-- Cenarios: hall, interior madeira, interior pedra, street
+- HEROIS (personagens): PAS, MED
+- Cenarios: hall, interior loja, interior madeira, street
 - Proibido pela epoca: caravela, carro dos anos 50, encouracado, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Pasteur e a Vacina da Raiva | Pasteur e a Vacina da Raiva / Um Era França Louis Pasteur Na 1885 | Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg (referencias/pasteur1885/prints/pasteur_e_a_vacina_da_raiva_ae57de.jpg); Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg (referencias/pasteur1885/prints/pasteur_e_a_vacina_da_raiva_ae57de.jpg)
+tema | Pasteur e a Vacina da Raiva | Pasteur e a Vacina da Raiva / Um Em Louis Pasteur França 1885 | Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg (referencias/pasteur1885/prints/pasteur_e_a_vacina_da_raiva_ae57de.jpg); Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg (referencias/pasteur1885/prints/pasteur_e_a_vacina_da_raiva_ae57de.jpg)
 lugar | Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co | Paris laboratorio de Pasteur na Escola Normal Superior / Paris laboratorio de Pasteur na Escola Normal Superior rua d'Ulm 1885 | Louis Pasteur, foto av Paul Nadar, Crisco edit.jpg (referencias/pasteur1885/prints/paris_laboratorio_de_pasteur_na_escola_n_ae57de.jpg); Narbonne Cathedrale Saint Just et Saint Pasteur.jp (referencias/pasteur1885/prints/paris_laboratorio_de_pasteur_na_escola_n_662a94.jpg); Lille Musée de l'Institut Louis Pasteur autoclave. (referencias/pasteur1885/prints/paris_laboratorio_de_pasteur_na_escola_n_e34b91.jpg)
 lugar | França | França 1885 / França landscape | França07.jpg (referencias/pasteur1885/prints/fran_a_a0884a.jpg); Franca commons (cropped).jpg (referencias/pasteur1885/prints/fran_a_089583.jpg); Commons franca sp.jpg (referencias/pasteur1885/prints/fran_a_b80863.jpg)
 epoca | roupas e ruas de 1885 | 1885 fashion clothing / 1885 street photograph | GRIERSON(1885) p240 BIHAR FASHION.jpg (referencias/pasteur1885/prints/roupas_e_ruas_de_1885_d973ec.jpg)

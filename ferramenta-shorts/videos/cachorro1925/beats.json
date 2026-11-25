@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 18,
  "title": "A Guerra do Cão Fugitivo",
@@ -54,8 +54,17 @@
     "GRE:0:shout",
     "BUL:0:shout"
    ],
-   "say": "Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.",
-   "props": [],
+   "props": [
+    [
+     "kit/dog_sit",
+     0.0,
+     0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
    "animals": [
     [
      "dog",
@@ -66,12 +75,50 @@
    ],
    "shot_lock": true,
    "objetos": false,
+   "bloco": "gancho",
+   "say": "Um cachorro perdido quase começou uma guerra na Europa.",
    "encena": {
-    "sentido": "hipotese",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "cachorro"
+     }
+    ]
+   },
+   "text": "GUERRA DO CACHORRO",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "set": "countryside",
+   "who": [
+    "GRE:0:sad"
+   ],
+   "props": [
+    [
+     "kit/dog_sit",
+     -1.4,
+     -0.2,
+     1.1
+    ]
+   ],
+   "animals": [
+    [
+     "dog",
+     1.5,
+     1.5
+    ]
+   ],
+   "acao": "reagir",
+   "bloco": "promessa",
+   "say": "E até hoje não se sabe nem se o cachorro existiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "existiu"
      }
     ]
    }
@@ -93,10 +140,11 @@
    },
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
-   "say": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
    "props": [],
+   "bloco": "prova",
+   "say": "Em 1925, a fronteira entre Grécia e Bulgária estava tensa.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -112,7 +160,6 @@
     "GRE:0:nervous",
     "GRE:1:scared"
    ],
-   "say": "Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronteira.",
    "props": [],
    "animals": [
     [
@@ -121,12 +168,14 @@
      0.8
     ]
    ],
+   "bloco": "prova",
+   "say": "Dizem que um soldado grego cruzou a fronteira atrás do cachorro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "corre",
-      "na": "correu",
+      "na": "cruzou",
       "quem": 0
      }
     ]
@@ -145,7 +194,6 @@
    "sfx": [
     "gun@60"
    ],
-   "say": "Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A Bulgária pediu desculpas e propôs investigar juntos.",
    "props": [],
    "crowd": {
     "n": 12,
@@ -157,6 +205,8 @@
    "shot_lock": true,
    "impact": false,
    "batalha": false,
+   "bloco": "escalada",
+   "say": "Soldados búlgaros atiraram, e o grego morreu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -167,7 +217,7 @@
      },
      {
       "faz": "tomba",
-      "na": "tombou",
+      "na": "atiraram",
       "quem": 1
      }
     ]
@@ -181,15 +231,15 @@
     "GRE:1:angry"
    ],
    "interacao": "susto",
-   "say": "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
    "props": [],
+   "bloco": "escalada",
+   "say": "A Grécia deu quarenta e oito horas para a Bulgária pagar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "recusou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "deu"
      }
     ]
    }
@@ -213,18 +263,19 @@
    },
    "text": "INVASÃO",
    "titulo": true,
-   "say": "Dias depois, em vinte e dois de outubro, o exército grego, com vinte mil soldados, invadiu a Bulgária e ocupou a cidade de Petrich.",
    "props": [],
    "detalhe": false,
    "d0": 17.0,
    "d1": 16.0,
    "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Dias depois, vinte mil soldados gregos invadiram a Bulgária.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "invadiu",
+      "na": "invadiram",
       "quem": 0
      }
     ]
@@ -237,18 +288,17 @@
     "DIP:0:sad:paper"
    ],
    "interacao": "susto",
-   "say": "Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.",
    "props": [],
    "text": "LIGA DAS NAÇÕES",
    "detalhe": false,
-   "_auto_vis": 2,
+   "bloco": "pagamento",
+   "say": "A Bulgária apelou à Liga das Nações.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "apelou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "apelou"
      }
     ]
    }
@@ -260,7 +310,6 @@
     "DIP:0:relief"
    ],
    "interacao": "entregar",
-   "say": "A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas e pagou quarenta e cinco mil libras.",
    "props": [],
    "set": "mountain",
    "crowd": {
@@ -270,6 +319,8 @@
     ],
     "march": true
    },
+   "bloco": "pagamento",
+   "say": "A Liga mandou parar. A Grécia recuou e pagou indenização.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -282,57 +333,34 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "track",
    "set": "countryside",
    "who": [
-    "GRE:0:sad"
+    "GRE:0:shout",
+    "BUL:0:shout"
    ],
-   "say": "Até hoje, não há acordo nem sobre a existência do cachorro.",
-   "props": [
-    [
-     "kit/dog_sit",
-     2.4,
-     0.2,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "animals": [
     [
      "dog",
-     1.5,
-     1.5
+     0.6,
+     0.4,
+     "run"
     ]
    ],
-   "acao": "reagir",
+   "shot_lock": true,
+   "objetos": false,
+   "bloco": "loop",
+   "say": "Talvez o cachorro nem existisse. Mas foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "cachorro"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/dog_sit",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "exp": 1.12,
@@ -371,5 +399,7 @@
   }
  },
  "cinf": 4.5,
- "max_wide": 3
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um cachorro perdido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
+ "loop_frase_ok": true
 }

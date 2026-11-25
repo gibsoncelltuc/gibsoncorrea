@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "NARIZ DE METAL",
+ "gancho_cumprido": "Gancho: um genio da astronomia perdeu o nariz por causa de matematica e viveu com um nariz de metal. Pagamento: o duelo cortou o nariz; depois ganhou uma ilha, mediu mil estrelas e ajudou Kepler.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um gênio da astronomia perdeu o nariz numa briga por matemática.",
+   "nariz",
+   {
+    "text": null
+   }
+  ],
+  [
+   5,
+   "promessa",
+   "E passou o resto da vida com um nariz de metal.",
+   "metal",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1566, Tycho Brahe estudava na Alemanha.",
+   "estudava",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Numa festa, discutiu com um primo sobre matemática.",
+   "discutiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "escalada",
+   "Dias depois, os dois resolveram tudo num duelo de espadas.",
+   "duelo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que o primo cortou fora um pedaço do nariz de Tycho.",
+   "cortou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Depois, o rei lhe deu uma ilha só para estudar o céu.",
+   "deu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Mediu mais de mil estrelas, sem telescópio.",
+   "mediu",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Os dados dele ajudaram o astrônomo Kepler.",
+   "ajudaram",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Cabeça nas estrelas e nariz de metal. Tudo porque...",
+   "nariz",
+   {
+    "text": null
+   }
+  ]
+ ]
+}

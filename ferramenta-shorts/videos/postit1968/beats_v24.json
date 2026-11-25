@@ -1,0 +1,530 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 15,
+ "title": "A Cola que Não Colava",
+ "titulo_base": "A Cola que Não Colava",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/postit",
+ "outfits": {
+  "SIL": {
+   "profissao": "cientista",
+   "hair": "#6a4a2a",
+   "glasses": true
+  },
+  "FRY": {
+   "jacket": "#3a6a3a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "tie": "#b02a2a",
+   "glasses": true
+  },
+  "CHE": {
+   "profissao": "empresario"
+  },
+  "PAD": {
+   "profissao": "padre"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:sad",
+    "CHE:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "quimico",
+      "na": "químico",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile",
+    "SIL:0:neutral:paper"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 0,
+   "interior": "galpao",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fábrica"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SIL:0:grin:paper"
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Spencer Silver tentava criar uma super cola.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "quimico",
+      "na": "criar",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SIL:0:shock:paper",
+    "CHE:0:suspicious"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cola"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "CHE:0:bored",
+    "SIL:0:nervous:paper"
+   ],
+   "interacao": "entregar",
+   "say": "Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.",
+   "susp_ok": true,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mostrava",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "FRY:0:sad",
+    "PAD:0:smile",
+    "POV:0:smile"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 4,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "say": "Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.",
+   "interior": "pedra",
+   "moveis": [
+    [
+     "mk/Bench",
+     -6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/Bench",
+     6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     -4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/BookStand",
+     0.0,
+     -3.4,
+     2.2
+    ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_canta",
+      "na": "cantava",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRY:0:angry:paper",
+    "PAD:0:surprised"
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "whoosh@30"
+   ],
+   "say": "Os papeizinhos que marcavam o hinário viviam caindo.",
+   "interior": "pedra",
+   "moveis": [
+    [
+     "mk/Bench",
+     -6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/Bench",
+     6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     -4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/BookStand",
+     0.0,
+     -3.4,
+     2.2
+    ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "desaba",
+      "na": "caindo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRY:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.5,
+     1.3,
+     4.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@40"
+   ],
+   "say": "Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o postit (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 0,
+   "detalhe": false,
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "ideia",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "say": "O papel saiu amarelo por acaso: era o único de rascunho à mão.",
+   "explica": {
+    "objeto": "kit/postit",
+    "manobra": "gira",
+    "passos": [
+     "PAPEL DE RASCUNHO",
+     "AMARELO",
+     "POR ACASO"
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "FRY:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/postit",
+     2.4,
+     0.2,
+     2.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "POST-IT",
+   "titulo": true,
+   "say": "Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.",
+   "impact": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e postit juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_entrega",
+      "na": "distribuíram",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:smile",
+    "CHE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1980",
+   "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lojas"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",
+  "quando": "1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)",
+  "participantes": [
+   "Spencer Silver, quimico da 3M",
+   "Art Fry, colega que cantava no coral",
+   "chefes da 3M",
+   "moradores de Boise"
+  ],
+  "roupas": {
+   "SIL": "jaleco branco de laboratorio e oculos (anos 60)",
+   "FRY": "camisa, gravata e oculos (anos 70)",
+   "CHE": "executivo de terno",
+   "PAD": "pastor de batina escura",
+   "POV": "moradores dos anos 70"
+  },
+  "cenario": "laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana",
+  "objetos": [
+   "bloquinho amarelo de post-it",
+   "hinario com marcadores caindo",
+   "frascos de cola",
+   "amostras gratis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Post-it_Note",
+   "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ],
+  "explicacoes": [
+   "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
+  ]
+ }
+}

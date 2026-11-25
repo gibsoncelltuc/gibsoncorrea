@@ -1,0 +1,84 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DOS BOLOS",
+ "gancho_cumprido": "Gancho: Franca e Mexico entraram em guerra por uma confeitaria e a conta nunca foi paga. Pagamento: o confeiteiro pediu 60 mil pesos, a Franca bloqueou os portos e tomou Veracruz; o Mexico prometeu pagar.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "França e México entraram em guerra por causa de uma confeitaria.",
+   "confeitaria",
+   {
+    "encena": {
+     "sentido": "fato",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "confeitaria"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E a conta dos bolos nunca foi paga.",
+   "conta",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "loja",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Ele disse que oficiais mexicanos saquearam tudo.",
+   "saquearam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Pediu sessenta mil pesos. A loja valia menos de mil.",
+   "pediu",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a França assumiu a briga e mandou navios de guerra.",
+   "mandou",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "bombardearam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "O México prometeu pagar, e a França foi embora.",
+   "prometeu",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Esse dinheiro nunca chegou. E foi assim que...",
+   "dinheiro",
+   {}
+  ]
+ ]
+}

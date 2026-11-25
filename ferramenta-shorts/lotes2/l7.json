@@ -1,0 +1,161 @@
+{
+ "roadster2018": {
+  "cumprido": "Gancho: um carro de verdade gira em volta do Sol com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
+  "says": [
+   "Um carro de verdade está dando voltas em torno do Sol.",
+   "E o motorista dele não respira.",
+   "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
+   "Em vez de um peso de concreto, Musk mandou o próprio carro.",
+   "O foguete decolou com um estrondo!",
+   "Acontece que no volante ia um boneco astronauta, o Starman.",
+   "No painel, um aviso: não entre em pânico.",
+   "O carro deixou a Terra e foi girar em torno do Sol.",
+   "Ele continua lá até hoje. Porque..."
+  ]
+ },
+ "rontgen1895": {
+  "cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista, que viu ali a propria morte. Pagamento: a tela brilhou, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
+  "says": [
+   "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "Conta-se que ela viu ali a própria morte.",
+   "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
+   "Uma noite, cobriu o tubo e apagou a luz.",
+   "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
+   "Pôs a mão na frente e viu os próprios ossos.",
+   "Depois, fotografou a mão da esposa, Anna, com a aliança.",
+   "Sem saber o que era, chamou de raio X.",
+   "Ganhou o primeiro Nobel de Física.",
+   "Um raio desconhecido, e foi assim que..."
+  ]
+ },
+ "semmelweis1847": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+  "says": [
+   "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
+   "Hoje é chamado de salvador das mães.",
+   "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "Na ala dos médicos, morriam muito mais mães, de febre.",
+   "Um colega se cortou numa autópsia e morreu de febre.",
+   "Acontece que os médicos saíam das autópsias de mãos sujas.",
+   "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
+   "As mortes caíram quase dez vezes.",
+   "Mas os médicos se ofenderam e o expulsaram.",
+   "Lavar as mãos virou insulto. Foi assim que..."
+  ]
+ },
+ "starlink2019": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma fila de luzes no ceu da Europa foi tratada como ETs e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
+  "says": [
+   "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
+   "E a verdade estava num foguete da Flórida.",
+   "Em 2019, a SpaceX lançou sessenta satélites de uma vez.",
+   "Um dia depois, o holandês Marco Langbroek filmou o céu.",
+   "Viu pelo menos cinquenta e seis luzes em fila.",
+   "Acontece que um site de OVNIs recebeu mais de 150 relatos.",
+   "Os satélites ainda voavam juntos, logo depois do lançamento.",
+   "Não eram ETs. Eram satélites de internet.",
+   "Internet no céu, e foi assim que..."
+  ]
+ },
+ "surfcity2019": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025 e vagas olimpicas; promessa de empregos e criticas sobre a costa.",
+  "says": [
+   "Um país pequeno decidiu virar a capital mundial do surfe.",
+   "E os surfistas do mundo inteiro foram atrás.",
+   "Em 2019, o presidente Nayib Bukele lançou a Surf City.",
+   "Em 2021, o país sediou o Mundial de Surfe.",
+   null,
+   "Depois, vieram 294 surfistas, de olho em Paris.",
+   "O governo promete quinhentos mil empregos, sem garantia.",
+   "Acontece que moradores e ambientalistas se preocupam com a costa.",
+   "Em 2025, o Mundial voltou para lá.",
+   "Capital do surfe ou exagero? Só sei que foi assim que..."
+  ],
+  "mod": {
+   "2": {
+    "set": "street",
+    "mapa": "EL SALVADOR",
+    "detalhe": true
+   }
+  }
+ },
+ "teslaquila2020": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma piada de 1o de abril virou uma garrafa de 250 dolares e ate a vazia valia uma fortuna. Pagamento: o nome Teslaquila foi barrado, saiu como Tesla Tequila em 2020, esgotou e vazias passaram de mil dolares.",
+  "says": [
+   "Uma piada de primeiro de abril virou uma garrafa de 250 dólares.",
+   "E até a garrafa vazia passou a valer uma fortuna.",
+   "Em 2018, Musk postou que a Tesla faliu. Era piada.",
+   "Na foto, garrafas de uma tal Teslaquila.",
+   "Muitos riram. Ele levou a sério.",
+   "Acontece que o México barrou o nome: tequila tem regras.",
+   "Em 2020, saiu como Tesla Tequila, feita no México.",
+   null,
+   "Garrafas vazias apareceram na internet por mais de mil dólares.",
+   "Ninguém acreditou na piada. E foi assim que..."
+  ]
+ },
+ "trumpgame1989": {
+  "cumprido": "Gancho: Trump lancou um jogo com o proprio rosto no dinheiro e o jogo empacou. Pagamento: manual dificil, vendeu 800 mil de 2 milhoes; voltou em 2004 com regras simples.",
+  "says": [
+   "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
+   "E o jogo empacou por um motivo bem simples.",
+   "Em 1989, ele já era um empresário famoso.",
+   "No jogo, o objetivo era juntar prédios, cassinos e hotéis.",
+   "As notas tinham a cara dele.",
+   "Acontece que o manual era longo, e ninguém entendia as regras.",
+   "Esperavam dois milhões de jogos. Saíram oitocentos mil.",
+   "Em 2004, com O Aprendiz, o jogo voltou.",
+   "Desta vez, com regras bem mais simples.",
+   "Um jogo que ninguém entendia. Foi assim que..."
+  ]
+ },
+ "tycho1566": {
+  "cumprido": "Gancho: um genio da astronomia perdeu o nariz por causa de matematica e viveu com um nariz de metal. Pagamento: o duelo cortou o nariz; depois ganhou uma ilha, mediu mil estrelas e ajudou Kepler.",
+  "says": [
+   "Um gênio da astronomia perdeu o nariz numa briga por matemática.",
+   "E passou o resto da vida com um nariz de metal.",
+   "Em 1566, Tycho Brahe estudava na Alemanha.",
+   "Numa festa, discutiu com um primo sobre matemática.",
+   "Dias depois, os dois resolveram tudo num duelo de espadas.",
+   "Acontece que o primo cortou fora um pedaço do nariz de Tycho.",
+   "Depois, o rei lhe deu uma ilha só para estudar o céu.",
+   "Mediu mais de mil estrelas, sem telescópio.",
+   "Os dados dele ajudaram o astrônomo Kepler.",
+   "Cabeça nas estrelas e nariz de metal. Tudo porque..."
+  ]
+ },
+ "velcro1941": {
+  "cumprido": "Gancho: o velcro nasceu de um passeio com o cachorro e hoje esta no seu tenis. Pagamento: os carrapichos tinham ganchinhos; virou a fita de ganchos e voltinhas, usada ate no espaco.",
+  "says": [
+   "O velcro nasceu de um passeio com o cachorro.",
+   "E hoje ele está no seu tênis.",
+   "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
+   "O cachorro e a calça estavam cheios de carrapichos.",
+   "Curioso, ele olhou um carrapicho no microscópio.",
+   "Acontece que cada espinho tinha um ganchinho na ponta.",
+   "Ele pensou: uma fita com ganchinhos e outra com voltinhas.",
+   "Os tecelões riram. Levou quase dez anos até acertar.",
+   "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
+   "Um cachorro cheio de carrapichos. E foi assim que..."
+  ]
+ },
+ "vulcao2021": {
+  "cumprido": "Gancho: um pais fabrica dinheiro digital com um vulcao, e parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
+  "says": [
+   "Um país fabrica dinheiro digital usando a energia de um vulcão.",
+   "Parece ficção. Mas aconteceu de verdade.",
+   "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
+   "Criar bitcoin exige computadores fazendo contas sem parar.",
+   "Para isso, o governo usou o calor do vulcão Tecapa.",
+   "O vapor da terra gira turbinas e vira eletricidade.",
+   "Acontece que, ao lado da usina, instalaram computadores só para isso.",
+   "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
+   "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "Dinheiro tirado da terra quente. E foi assim que..."
+  ]
+ }
+}

@@ -1,103 +1,94 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 166 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.
+## Cena b0  (~3.8 s)
+- Narracao: Um gênio da astronomia perdeu o nariz numa briga por matemática.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque; encena: perde (facepalm) @6 -> acao + som de efeito; encena: golpe (punch) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque
 - Efeito visual marcado: -
-- Texto na tela: 1566
+- Texto na tela: NARIZ DE METAL
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.
+## Cena b1  (~3.8 s)
+- Narracao: E passou o resto da vida com um nariz de metal.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~2.4 s)
+- Narracao: Em 1566, Tycho Brahe estudava na Alemanha.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: examina (think) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: DINAMARCA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~4.8 s)
-- Narracao: Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.
+## Cena b3  (~2.8 s)
+- Narracao: Numa festa, discutiu com um primo sobre matemática.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: x_discute (point) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.5 s)
-- Narracao: Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.
+## Cena b4  (~3.4 s)
+- Narracao: Dias depois, os dois resolveram tudo num duelo de espadas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@36, thump@40
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.9 s)
-- Narracao: Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.
+## Cena b5  (~4.1 s)
+- Narracao: Acontece que o primo cortou fora um pedaço do nariz de Tycho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@26, thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30, puff@36
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~5.2 s)
-- Narracao: Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.
-- Som ambiente: silencio/sala
+## Cena b6  (~4.1 s)
+- Narracao: Depois, o rei lhe deu uma ilha só para estudar o céu.
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~5.9 s)
-- Narracao: Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~5.9 s)
-- Narracao: Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: constroi (hammer) @2 -> acao + som de efeito; encena: escreve (write) @7 -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@60
-- Texto na tela: MIL ESTRELAS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~6.2 s)
-- Narracao: As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.
+## Cena b7  (~2.4 s)
+- Narracao: Mediu mais de mil estrelas, sem telescópio.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@20, ding@60
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@20, stars@60
+- Texto na tela: MIL ESTRELAS
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~2.4 s)
+- Narracao: Os dados dele ajudaram o astrônomo Kepler.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@50
-- Efeito + som nas palavras-chave: encena: examina (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@50
 - Texto na tela: KEPLER
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Com a cabeça nas estrelas, e o nariz de metal.
+## Cena b9  (~3.1 s)
+- Narracao: Cabeça nas estrelas e nariz de metal. Tudo porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: NARIZ DE METAL
 - Funcao na historia: FECHO/PIADA FINAL
 

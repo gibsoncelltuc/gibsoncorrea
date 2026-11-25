@@ -1,0 +1,459 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 7,
+ "title": "Franklin, a Pipa e o Raio",
+ "titulo_base": "Franklin, a Pipa e o Raio",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/kite",
+ "outfits": {
+  "FRA": {
+   "profissao": "cientista",
+   "jacket": "#6a4a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "glasses": true
+  },
+  "FIL": {
+   "profissao": "agricultor",
+   "jacket": "#3b6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6a4a2a"
+  },
+  "COM": {
+   "profissao": "comerciante",
+   "jacket": "#8a3a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "cap": "#2a2a33"
+  },
+  "POV": {
+   "profissao": "camponesa",
+   "jacket": "#6a8a5a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "cap": "#e8dcc0"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um homem soltou uma pipa em plena tempestade para pegar um raio.",
+   "shot": "two",
+   "who": [
+    "FRA:0:grin",
+    "FIL:0:shock"
+   ],
+   "clima": "tempestade",
+   "props": [
+    [
+     "kit/kite",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_solta",
+      "na": "soltou",
+      "quem": 0
+     },
+     {
+      "faz": "pega",
+      "na": "pegar",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "raio": true
+  },
+  {
+   "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
+   "shot": "reveal",
+   "who": [
+    "COM:0:neutral",
+    "POV:0:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "COM",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Filadélfia"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza.",
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "COM:0:scared",
+    "POV:0:scared"
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "castigo"
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
+   "shot": "two",
+   "who": [
+    "FRA:0:surprised"
+   ],
+   "interacao": "discutir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "faísca"
+     }
+    ]
+   },
+   "clima": "tempestade",
+   "raio": true
+  },
+  {
+   "say": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.",
+   "shot": "two",
+   "who": [
+    "FRA:0:suspicious",
+    "FIL:0:nervous"
+   ],
+   "clima": "chuva",
+   "props": [
+    [
+     "kit/kite",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prendeu",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
+   "shot": "close",
+   "who": [
+    "FRA:0:nervous"
+   ],
+   "clima": "tempestade",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
+   "shot": "two",
+   "who": [
+    "FRA:0:shock:key"
+   ],
+   "clima": "tempestade",
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "flash@75",
+    "ring@78"
+   ],
+   "sfx": [
+    "sting@75"
+   ],
+   "props": [
+    [
+     "kit/key",
+     0.6,
+     1.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/kite",
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/key",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "brilha",
+      "na": "faísca",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 2,
+   "raio": true
+  },
+  {
+   "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COM:0:suspicious",
+    "FRA:0:relief"
+   ],
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "discute",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
+   "shot": "wide",
+   "set": "street",
+   "who": [
+    "FRA:0:laugh"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/lightning_rod",
+     0.0,
+     -1.5,
+     4.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "buildings/house_two",
+     0.0,
+     -6.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PARA-RAIOS",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar",
+   "clima": "limpo",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/lightning_rod",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/house_two",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.0,
+   "d0": 10.0,
+   "d1": 8.5,
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "para-raios"
+     }
+    ]
+   }
+  },
+  {
+   "say": "No fim, o raio perdeu a briga para uma chave.",
+   "shot": "close",
+   "who": [
+    "FRA:0:smug"
+   ],
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tijolo",
+  "quando": "junho de 1752, tarde de tempestade",
+  "participantes": [
+   "Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho comprido)",
+   "filho William",
+   "moradores coloniais"
+  ],
+  "roupas": {
+   "FRA": "casaca marrom do seculo 18, colete e meias",
+   "FIL": "casaca azul de rapaz",
+   "COM": "chapeu de tres pontas",
+   "POV": "roupas coloniais"
+  },
+  "cenario": "campo com nuvens escuras e chuva, galpao de madeira; rua colonial de tijolo com casas georgianas",
+  "objetos": [
+   "pipa de seda",
+   "chave de metal",
+   "garrafa de Leyden",
+   "para-raios"
+  ],
+  "explicacoes": [
+   "Experimento da pipa (1752): a chave na linha molhada soltou faiscas, mostrando que a nuvem tinha carga eletrica; Franklin inventou o para-raios (fonte: Wikipedia Kite experiment, Lightning rod)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kite_experiment",
+   "https://commons.wikimedia.org/wiki/Category:Benjamin_Franklin"
+  ],
+  "buscas": {
+   "pipa": "Benjamin West Franklin drawing electricity from the sky",
+   "cidade": "colonial Philadelphia 1750 street"
+  }
+ },
+ "max_wide": 3
+}

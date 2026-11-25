@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 4,
  "title": "E Se a Internet Acabasse por Um Dia?",
@@ -63,7 +63,17 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "E se, amanhã de manhã, a internet do mundo inteiro caísse por vinte e quatro horas?"
+   "bloco": "gancho",
+   "say": "A internet do mundo inteiro cai amanhã, por um dia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "internet"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -73,7 +83,17 @@
    ],
    "mapa": "MUNDO",
    "mapa_at": 3,
-   "say": "Parece impossível. Mas pedaços disso já aconteceram."
+   "bloco": "promessa",
+   "say": "Parece impossível. Mas pedaços disso já aconteceram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aconteceram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -96,7 +116,17 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Em dois mil e vinte e um, Facebook, Instagram e WhatsApp caíram por seis horas. Bilhões ficaram sem mensagem."
+   "bloco": "prova",
+   "say": "Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -133,7 +163,17 @@
    ],
    "text": "PANE",
    "titulo": true,
-   "say": "Em dois mil e vinte e quatro, uma atualização com defeito travou oito milhões de computadores. Aeroportos pararam."
+   "bloco": "prova",
+   "say": "Em 2024, uma atualização com defeito travou oito milhões de computadores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "travou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -149,7 +189,6 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Agora imagina o mundo todo. Sem pagamento pelo celular, sem cartão. Só dinheiro de papel.",
    "detalhe": false,
    "props": [
     [
@@ -158,7 +197,18 @@
      -0.8,
      1.0
     ]
-   ]
+   ],
+   "bloco": "escalada",
+   "say": "Sem internet, sem cartão: só dinheiro de papel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -167,7 +217,17 @@
     "POV:1:worried"
    ],
    "acao": "conversar",
-   "say": "Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta no quarteirão."
+   "bloco": "escalada",
+   "say": "Hospitais e bancos voltariam para a caneta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Hospitais"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -190,7 +250,17 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o mais estranho seria outra coisa: bilhões de pessoas sem saber o que fazer com as mãos."
+   "bloco": "escalada",
+   "say": "O mais estranho? Não saber o que fazer com as mãos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mãos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -207,7 +277,17 @@
      1.0
     ]
    ],
-   "say": "Gente conversando na rua, jogando bola, olhando para o céu."
+   "bloco": "pagamento",
+   "say": "Gente conversando na rua, jogando bola, olhando para o céu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conversando"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -216,37 +296,17 @@
     "POV:0:smile"
    ],
    "acao": "conversar",
-   "say": "Pesquisadores chamam isso de desintoxicação digital. Muita gente dorme melhor."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:laugh",
-    "POV:1:laugh",
-    "PRO:0:grin"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 22,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "VOLTOU!",
-   "titulo": true,
-   "say": "E quando voltasse? Todo mundo correria para postar como foi ficar sem internet."
+   "bloco": "pagamento",
+   "say": "E muita gente ia dormir melhor.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dormir"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -262,7 +322,42 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "Você aguentaria um dia? Responde aí, enquanto ainda tem internet."
+   "bloco": "loop",
+   "say": "Você aguentaria? Agora imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "imagina"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "cidades de hoje: ruas, bancos, hospitais, aeroportos",
+  "quando": "hoje (hipotese); quedas reais em 4/10/2021 e 19/7/2024",
+  "participantes": [
+   "pessoas comuns com celular",
+   "funcionarios de banco e hospital",
+   "passageiros"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "ruas com gente olhando o celular, filas em banco, aeroporto parado, praca com gente conversando",
+  "objetos": [
+   "celular",
+   "computador",
+   "dinheiro de papel"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2021_Facebook_outage",
+   "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+  ]
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: a internet do mundo cai amanha por um dia, e pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais na caneta e gente sem saber o que fazer com as maos.",
+ "loop_frase_ok": true
 }

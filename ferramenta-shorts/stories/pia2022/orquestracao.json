@@ -36,6 +36,32 @@
    "cenario": "loc_cidade"
   },
   {
+   "camera": "wide",
+   "personagens": [
+    "FUN",
+    "FUN2"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E a pia era uma piada de 44 bilhões de dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
    "camera": "two",
    "personagens": [
     "MUS",
@@ -45,28 +71,9 @@
    "objetos": [
     "kit/sink"
    ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Foi Elon Musk, em outubro de dois mil e vinte e dois, na sede do Twitter, em São Francisco.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/sink",
-    "kit/smartphone"
-   ],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Ele filmou a própria entrada, com a pia nos braços, e postou o vídeo na internet.",
+   "frase": "Foi Elon Musk, em 2022, na sede do Twitter.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,9 +88,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
+   "frase": "A legenda era um trocadilho em inglês.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -95,9 +102,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 7,
    "cena": "b4",
-   "frase": "É um trocadilho: em inglês, a palavra sink quer dizer pia, e também afundar.",
+   "frase": "Sink quer dizer pia e também afundar.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -118,9 +125,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Acontece que, no dia seguinte, ele fechou a compra do Twitter, por quarenta e quatro bilhões de dólares.",
+   "frase": "Acontece que, no dia seguinte, o Twitter virou dele.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -142,9 +149,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "No mesmo dia, ele demitiu o presidente e outros chefes da empresa.",
+   "frase": "No mesmo dia, demitiu o presidente e outros chefes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -158,11 +165,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/smartphone"
+    "kit/phone"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Ele também mudou o perfil, e escreveu que era o Chefe Twit.",
+   "frase": "E mudou o próprio perfil para Chefe Twit.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -170,59 +177,18 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "FUN",
-    "FUN2"
-   ],
-   "multidao": 14,
-   "objetos": [
-    "kit/marco_goldengate",
-    "kit/sink"
-   ],
-   "palavras": 9,
-   "cena": "b8",
-   "frase": "O vídeo da pia virou piada no mundo inteiro.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 8,
-   "objetos": [
-    "kit/sink"
-   ],
-   "palavras": 11,
-   "cena": "b9",
-   "frase": "Uma pia, um trocadilho e quarenta e quatro bilhões de dólares.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
+    "MUS",
+    "FUN"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/sink"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Uma piada com pia. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

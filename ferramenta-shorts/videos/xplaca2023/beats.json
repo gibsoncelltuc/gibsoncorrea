@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 3,
  "title": "O X no Prédio do Twitter",
@@ -76,7 +76,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura.",
    "shot": "two",
    "who": [
     "MUS:0:smug"
@@ -93,29 +92,64 @@
     ]
    ],
    "text": "X",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "set": "loc_patio"
+   "set": "loc_patio",
+   "bloco": "gancho",
+   "say": "Uma placa com uma letra só virou caso de investigação.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "placa"
+     }
+    ]
+   },
+   "titulo": true
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco.",
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E a culpa foi de uma luz piscando de madrugada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luz"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "shot": "two",
    "who": [
     "MUS:0:grin",
@@ -123,13 +157,23 @@
    ],
    "mapa": "SÃO FRANCISCO",
    "mapa_at": 1,
-   "interior": "pedra"
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Em 2023, Musk trocou o nome do Twitter para X.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trocou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Os operários começaram a tirar as letras e o passarinho da fachada.",
    "shot": "group",
    "who": [
     "OPE:0:nervous",
@@ -148,55 +192,45 @@
    "sfx": [
     "thump@40"
    ],
-   "set": "street"
+   "set": "street",
+   "bloco": "prova",
+   "say": "Operários começaram a tirar o passarinho da fachada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tirar"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Mas o trabalho parou no meio, porque faltavam licenças.",
    "shot": "two",
    "who": [
     "OPE:0:shock",
     "FIS:0:stern"
    ],
-   "interior": "loja"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Sobraram só as letras E e R, em cinza, na fachada.",
-   "shot": "two",
-   "who": [
-    "OPE2:0:laugh"
-   ],
-   "props": [],
-   "text": "E R",
-   "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
+   "interior": "loja",
+   "bloco": "prova",
+   "say": "O trabalho parou no meio, por falta de licença.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "parou"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "tela": false
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Acontece que depois instalaram um X gigante piscando no alto do prédio.",
    "shot": "crowd",
    "who": [
     "MUS:0:grin"
@@ -213,10 +247,19 @@
    ],
    "set": "street",
    "hora": "noite",
-   "_susp_ok": true
+   "bloco": "escalada",
+   "say": "Acontece que instalaram um X gigante piscando no alto do prédio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piscando"
+     }
+    ]
+   }
   },
   {
-   "say": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
    "shot": "two",
    "who": [
     "POV:0:angry",
@@ -231,6 +274,8 @@
    "acao": "discutir",
    "tiros": false,
    "batalha": false,
+   "bloco": "escalada",
+   "say": "A luz entrava nas janelas dos vizinhos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -245,43 +290,50 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão.",
    "shot": "two",
    "who": [
     "FIS:0:angry",
     "MUS:0:worried"
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Vieram vinte e quatro reclamações num fim de semana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "reclamações"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A empresa disse que era uma placa temporária para um evento.",
-   "shot": "two",
-   "who": [
-    "MUS:0:smug",
-    "FIS:0:suspicious"
-   ],
-   "interior": "loja"
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
    "shot": "two",
    "who": [
     "FIS:0:shock",
     "OPE:0:laugh"
    ],
-   "set": "street"
+   "set": "street",
+   "bloco": "pagamento",
+   "say": "A prefeitura investigou, e o X foi retirado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "retirado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
    "shot": "two",
    "who": [
     "MUS:0:laugh"
@@ -297,23 +349,22 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "interior": "madeira"
+   "interior": "madeira",
+   "bloco": "loop",
+   "say": "Até trocar de nome precisa de licença. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "licença"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,
@@ -355,5 +406,8 @@
   "buscas": {
    "placa": "X sign Twitter headquarters San Francisco July 2023"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma placa com uma letra so virou caso de investigacao por causa de uma luz. Pagamento: o X gigante piscava nas janelas, vieram 24 reclamacoes e a prefeitura mandou tirar.",
+ "loop_frase_ok": true
 }

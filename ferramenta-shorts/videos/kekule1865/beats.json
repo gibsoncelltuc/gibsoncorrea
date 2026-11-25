@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 14,
  "title": "O Químico que Sonhou com uma Cobra",
@@ -54,14 +54,50 @@
      1.0
     ]
    ],
-   "text": "1865",
+   "text": "SONHO",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "Um dos maiores segredos da química foi resolvido num cochilo, com a ajuda de uma cobra."
+   "bloco": "gancho",
+   "say": "Um segredo da química foi resolvido num cochilo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cochilo"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "KEK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E quem deu a resposta foi uma cobra de sonho.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobra"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -70,13 +106,22 @@
    ],
    "mapa": "BÉLGICA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e sessenta e cinco, na cidade de Gante, na Bélgica.",
    "impact": true,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3,
    "d0": 12.0,
-   "d1": 11.0
+   "d1": 11.0,
+   "bloco": "prova",
+   "say": "Em 1865, August Kekulé tinha um problema.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "problema"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -86,7 +131,6 @@
     "ALU:0:suspicious:paper"
    ],
    "acao": "discutir",
-   "say": "O professor August Kekulé tinha um problema: o benzeno, com seis carbonos que ninguém sabia arrumar.",
    "hud": {
     "contador": {
      "de": 0,
@@ -94,6 +138,17 @@
      "un": "CARBONOS",
      "na": "seis"
     }
+   },
+   "bloco": "prova",
+   "say": "Ninguém sabia arrumar os seis carbonos do benzeno.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "seis"
+     }
+    ]
    }
   },
   {
@@ -120,7 +175,17 @@
      }
     ]
    ],
-   "say": "Numa noite fria, ele virou a cadeira para a lareira, e cochilou."
+   "bloco": "prova",
+   "say": "Numa noite fria, ele cochilou diante da lareira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cochilou"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -133,7 +198,6 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o próprio rabo.",
    "explica": {
     "objeto": "kit/snake_ring",
     "manobra": "gira",
@@ -141,6 +205,49 @@
      "ÁTOMOS",
      "COBRA",
      "ANEL"
+    ]
+   },
+   "bloco": "escalada",
+   "say": "No sonho, átomos dançavam como cobras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dançavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "hora": "noite",
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "explica": {
+    "objeto": "kit/snake_ring",
+    "manobra": "gira",
+    "passos": [
+     "ÁTOMOS",
+     "COBRA",
+     "ANEL"
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que uma delas mordeu o próprio rabo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mordeu"
+     }
     ]
    }
   },
@@ -165,67 +272,23 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Kekulé acordou num pulo. O benzeno não era uma corrente. Era um anel!"
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "hora": "noite",
-   "who": [
-    "KEK:0:grin:paper"
-   ],
-   "props": [
-    [
-     "kit/snake_ring",
-     1.6,
-     -0.8,
-     1.0
+   "bloco": "escalada",
+   "say": "Ele acordou num pulo: o benzeno era um anel!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acordou"
+     }
     ]
-   ],
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "Passou o resto da noite desenhando o anel de seis carbonos. E a conta fechou."
-  },
-  {
-   "shot": "group",
-   "who": [
-    "KEK:0:laugh",
-    "COL:0:grin",
-    "ALU:0:laugh"
-   ],
-   "tiros": false,
-   "acao": "comemorar",
-   "props": [
-    [
-     "kit/snake_ring",
-     0,
-     -3.0,
-     1.4
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "FESTA",
-   "titulo": true,
-   "say": "Vinte e cinco anos depois, numa festa em Berlim, ele contou o sonho pela primeira vez.",
-   "interior": "pedra"
+   }
   },
   {
    "shot": "wide",
    "who": [
     "COL:0:suspicious"
    ],
-   "say": "Até hoje há quem duvide da história. Mas o anel do benzeno virou base de remédios, tintas e plásticos.",
    "text": "REMÉDIOS, TINTAS, PLÁSTICOS",
    "tat": 15,
    "tstyle": "gold",
@@ -238,25 +301,82 @@
     ]
    ],
    "detalhe": false,
-   "_auto_vis": 3,
    "d0": 12.0,
-   "d1": 11.0
+   "d1": 11.0,
+   "bloco": "pagamento",
+   "say": "Esse anel virou base de remédios, tintas e plásticos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "anel"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "who": [
-    "KEK:0:smile"
+    "COL:0:suspicious"
+   ],
+   "tat": 15,
+   "tstyle": "gold",
+   "props": [
+    [
+     "kit/snake_ring",
+     0,
+     -1.6,
+     1.2
+    ]
+   ],
+   "detalhe": false,
+   "d0": 12.0,
+   "d1": 11.0,
+   "bloco": "pagamento",
+   "say": "Muita gente duvida do sonho. Mas o anel estava certo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "duvida"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "KEK:0:grin",
+    "COL:0:surprised"
    ],
    "props": [
     [
      "kit/snake_ring",
-     1.4,
-     -0.8,
+     0,
+     -1.4,
      1.0
     ]
    ],
-   "text": "SONHE",
-   "say": "E ele deixou um conselho: aprendam a sonhar. Mas confiram tudo acordados."
+   "text": "1865",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Ele dizia: aprendam a sonhar. Porque...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sonhar"
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false,
@@ -293,5 +413,8 @@
   "explicacoes": [
    "Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim"
   ]
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um segredo da quimica resolvido num cochilo, com a resposta de uma cobra de sonho. Pagamento: a cobra mordendo o rabo mostrou o anel do benzeno, base de remedios, tintas e plasticos.",
+ "loop_frase_ok": true
 }

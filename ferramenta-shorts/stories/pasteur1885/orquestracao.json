@@ -12,18 +12,15 @@
   {
    "camera": "two",
    "personagens": [
-    "PAS",
-    "JOS"
+    "PAS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/bancada",
-    "kit/seringa_pe",
     "kit/syringe"
    ],
-   "palavras": 15,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva.",
+   "frase": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -31,19 +28,43 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem aplicou a vacina nem era médico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
    "personagens": [
     "MED",
     "MED"
    ],
    "multidao": 8,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios.",
-   "classe": "transicao",
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1885, Louis Pasteur estudava micróbios na França.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -55,9 +76,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "Na época, quem era mordido por um animal com raiva quase nunca se salvava.",
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Mordida de animal com raiva quase sempre matava.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,17 +86,18 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
-    "PAS"
+    "PAS",
+    "MED"
    ],
    "multidao": 0,
    "objetos": [
     "kit/syringe"
    ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa.",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "A vacina dele só tinha sido testada em animais.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -85,14 +107,14 @@
   {
    "camera": "two",
    "personagens": [
-    "MAE",
-    "JOS"
+    "PAS",
+    "MAE"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b4",
-   "frase": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Um dia, chegou o menino Joseph, mordido por um cachorro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -106,30 +128,28 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
-   "cena": "b5",
-   "frase": "Pasteur não era médico e tinha medo, mas decidiu tentar.",
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Pasteur tinha medo, mas decidiu tentar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior loja"
   },
   {
    "camera": "orbit",
    "personagens": [
     "PAS",
-    "JOS"
+    "MED"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/bancada",
-    "kit/seringa_pe",
     "kit/syringe"
    ],
-   "palavras": 14,
-   "cena": "b6",
-   "frase": "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.",
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -146,12 +166,12 @@
    "camera": "track",
    "personagens": [
     "MAE",
-    "JOS"
+    "PAS"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 8,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Joseph sobreviveu, e a notícia correu o mundo.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -160,73 +180,18 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "GUA"
+    "PAS"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 19,
-   "cena": "b8",
-   "frase": "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "POV",
-    "MED"
-   ],
-   "multidao": 14,
    "objetos": [
     "kit/syringe"
    ],
-   "palavras": 17,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "PAS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b10",
-   "frase": "No fim, uma picada salvou mais que mil discursos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "PAS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
+   "frase": "Um químico arriscou tudo. E foi assim que...",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

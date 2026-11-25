@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 6,
  "title": "E Se o Dinheiro Sumisse do Mundo?",
@@ -59,7 +59,43 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "E se todo o dinheiro do mundo sumisse de uma vez? Nota, moeda, cartão e conta no banco."
+   "bloco": "gancho",
+   "say": "Todo o dinheiro do mundo some amanhã de manhã.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dinheiro"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "bloco": "promessa",
+   "say": "Em menos de um ano, a gente inventaria outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inventaria"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -74,7 +110,17 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Primeira manhã: você chega na padaria e não tem como pagar o café."
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pagar"
+     }
+    ]
+   },
+   "bloco": "prova",
+   "say": "Na primeira manhã, você não teria como pagar o café."
   },
   {
    "shot": "two",
@@ -90,7 +136,17 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "A saída seria a mais antiga de todas: a troca. Uma galinha por uma cesta de comida."
+   "bloco": "prova",
+   "say": "A saída seria a troca: uma galinha por comida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "troca"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -112,7 +168,17 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Acontece que a troca tem um problema: o padeiro pode não querer galinha. E aí, ninguém come."
+   "bloco": "escalada",
+   "say": "Acontece que o padeiro pode não querer galinha.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "querer"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -122,7 +188,18 @@
    ],
    "mapa": "ILHA DE YAP",
    "mapa_at": 3,
-   "say": "Por isso, os povos sempre inventaram um dinheiro. Na ilha de Yap, no Pacífico, eram pedras gigantes."
+   "impact": true,
+   "bloco": "escalada",
+   "say": "Na ilha de Yap, o dinheiro eram pedras gigantes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pedras"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -145,60 +222,17 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Algumas eram tão pesadas que nunca saíam do lugar. Todo mundo só lembrava quem era o dono."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:grin",
-    "POV:1:smile",
-    "PAD:0:grin"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "grin"
-   },
-   "props": [
-    [
-     "kit/stall",
-     0,
-     -4.0,
-     1.2
+   "bloco": "escalada",
+   "say": "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lembravam"
+     }
     ]
-   ],
-   "fx": [
-    "stars@20"
-   ],
-   "sfx": [
-    "ding@20"
-   ],
-   "text": "TROCA",
-   "titulo": true,
-   "say": "Em poucas semanas, as feiras de troca tomariam as praças."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRO:0:stern",
-    "POV:1:suspicious"
-   ],
-   "props": [
-    [
-     "kit/coin",
-     1.6,
-     -0.8,
-     1.0
-    ]
-   ],
-   "acao": "conversar",
-   "say": "Em poucos meses, alguma coisa viraria o novo dinheiro: sal, ouro, ou até figurinha."
+   }
   },
   {
    "shot": "close",
@@ -211,7 +245,18 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Isso já aconteceu em prisões e em guerras: quando o dinheiro some, as pessoas inventam outro."
+   "impact": true,
+   "bloco": "pagamento",
+   "say": "Em prisões e guerras, quando o dinheiro some, inventam outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inventam"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -220,16 +265,11 @@
     "POV:1:laugh",
     "FAZ:0:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "fx": [
     "stars@20",
@@ -241,23 +281,80 @@
    ],
    "text": "DINHEIRO",
    "titulo": true,
-   "say": "Ou seja: dinheiro não é papel. É confiança entre as pessoas."
+   "bloco": "pagamento",
+   "say": "Dinheiro não é papel. É confiança.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "confiança"
+     }
+    ]
+   }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "PRO:0:smile"
+    "PRO:0:grin",
+    "POV:0:surprised"
    ],
    "props": [
     [
      "kit/coin",
-     -1.4,
-     -0.8,
+     0,
+     -1.2,
      1.0
     ]
    ],
-   "acao": "conversar",
-   "say": "Se ele sumisse, a gente inventaria de novo. Em menos de um ano."
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Teste mental para hoje: imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "imagina"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "cidade de hoje (padaria, feira) e a ilha de Yap, na Micronesia",
+  "quando": "hoje (hipotese); pedras rai de Yap usadas ha seculos",
+  "participantes": [
+   "padeiro",
+   "fazendeiro",
+   "professor",
+   "moradores"
+  ],
+  "roupas": {
+   "PAD": "padeiro de avental",
+   "FAZ": "fazendeiro de chapeu de palha",
+   "PRO": "professor",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "padaria, feira de troca na praca, ilha tropical com grandes pedras furadas",
+  "objetos": [
+   "moedas",
+   "galinha",
+   "cesta de comida",
+   "pedras rai de Yap"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Rai_stones",
+   "https://en.wikipedia.org/wiki/Barter"
+  ]
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: todo o dinheiro do mundo some amanha e em menos de um ano inventamos outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "loop_frase_ok": true
 }

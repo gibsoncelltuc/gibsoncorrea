@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 11,
  "title": "A Guerra da Lagosta",
@@ -58,54 +58,129 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "BRA:0:angry"
    ],
    "props": [
     [
-     "kit/lobster",
-     0.6,
+     "crate",
      1.0,
-     1.5,
+     -0.4,
+     1.0,
      {
       "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.95
      }
     ]
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
    "set": "harbor",
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 2,
+   "detalhe": true,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
+   "quadro_manual": true,
+   "bloco": "gancho",
+   "say": "Brasil e França quase entraram em guerra por causa de lagosta.",
    "encena": {
-    "sentido": "hipotese",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "lagosta"
+     }
+    ]
+   },
+   "text": "GUERRA DA LAGOSTA",
+   "titulo": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BRA:0:nervous"
+   ],
+   "props": [
+    [
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.95
+     }
+    ]
+   ],
+   "set": "harbor",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
+   "quadro_manual": true,
+   "bloco": "promessa",
+   "say": "E tudo dependia de uma pergunta: lagosta anda ou nada?",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -138,7 +213,6 @@
      1.2
     ]
    ],
-   "say": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
    "fx": [
     "puff@70"
    ],
@@ -147,6 +221,25 @@
    ],
    "fachada": false,
    "detalhe": false,
+   "batalha": false,
+   "tiros": false,
+   "bloco": "prova",
+   "say": "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pescavam"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.2,
+   "d1": 10.7,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o boat (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente",
@@ -158,28 +251,9 @@
       "estado": "parado"
      }
     ]
-   },
-   "batalha": false,
-   "tiros": false,
-   "cx": 0.0,
-   "cz": -5.6,
-   "h": 2.8,
-   "d0": 15.0,
-   "d1": 13.0,
-   "_auto_vis": 3,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "x_pesca",
-      "na": "pescavam",
-      "quem": 0
-     }
-    ]
    }
   },
   {
-   "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
    "explica": {
     "objeto": "kit/lobster",
     "manobra": "parado",
@@ -189,18 +263,19 @@
      "BRASILEIRA"
     ]
    },
+   "bloco": "prova",
+   "say": "O Brasil dizia: ela anda no fundo do mar, é nossa.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "lagosta"
+      "na": "anda"
      }
     ]
    }
   },
   {
-   "say": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
    "explica": {
     "objeto": "kit/lobster",
     "manobra": "sobe",
@@ -210,12 +285,14 @@
      "DE QUEM PESCAR"
     ]
    },
+   "bloco": "prova",
+   "say": "A França dizia: ela nada, é de quem pescar.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "lagosta"
+      "na": "nada"
      }
     ]
    }
@@ -236,13 +313,29 @@
      }
     ]
    ],
-   "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
    "set": "harbor",
    "crowd": {
     "n": 0
    },
    "fachada": false,
    "detalhe": false,
+   "bloco": "escalada",
+   "say": "A França mandou um navio de guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -252,21 +345,6 @@
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "mandou",
-      "quem": 0
      }
     ]
    }
@@ -304,9 +382,25 @@
    ],
    "text": "NAVIOS E AVIÕES",
    "titulo": true,
-   "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
    "detalhe": false,
    "fachada": false,
+   "bloco": "escalada",
+   "say": "Acontece que o Brasil respondeu com navios e aviões.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "respondeu"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -324,51 +418,6 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 7.0,
-   "cz": -11.2,
-   "h": 2.8,
-   "d0": 20.8,
-   "d1": 17.8,
-   "_auto_vis": 1,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "navios"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "set": "harbor",
-   "who": [
-    "MAR:0:angry",
-    "MFR:0:stern"
-   ],
-   "acao": "discutir",
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "tick@40"
-   ],
-   "say": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 1,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "encararam",
-      "quem": 0,
-      "alvo_quem": 1
-     }
-    ]
    }
   },
   {
@@ -378,94 +427,83 @@
     "BRA:0:smile"
    ],
    "interacao": "entregar",
-   "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
    "interior": "pedra",
-   "kw": false,
+   "sfx": [
+    "ding@30"
+   ],
    "encena": {
     "sentido": "negativa",
     "passos": [
      {
       "faz": "fala",
-      "na": "conversaram",
+      "na": "negociaram",
       "quem": 0
      }
     ]
    },
-   "riscos_ok": true,
-   "sfx": [
-    "ding@30"
-   ]
+   "bloco": "pagamento",
+   "say": "Mas o tiro nunca veio. Os governos negociaram."
   },
   {
    "shot": "two",
    "who": [
-    "PES:0:laugh",
-    "FRA:0:relief"
-   ],
-   "acao": "comemorar",
-   "text": "1963",
-   "say": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
-   "set": "harbor",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_aperta",
-      "na": "acordo",
-      "quem": 0,
-      "alvo_quem": 1,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "BRA:0:nervous"
+    "BRA:0:angry"
    ],
    "props": [
     [
-     "kit/lobster",
-     0.0,
-     -1.0,
-     1.5,
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.95
+     }
     ]
    ],
-   "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
+   "interacao": "discutir",
+   "acao": "discutir",
    "set": "harbor",
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 1,
+   "detalhe": true,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
+   "quadro_manual": true,
+   "bloco": "loop",
+   "say": "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "lagosta"
+      "na": "Nenhum"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -508,5 +546,8 @@
   ]
  },
  "variar_cenario": false,
- "max_wide": 5
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o Brasil quase entrou em guerra com a Franca por lagosta, e tudo dependia de ela andar ou nadar. Pagamento: navio de guerra frances, navios e avioes brasileiros, e o tiro nunca veio.",
+ "loop_frase_ok": true,
+ "max_wide": 3
 }

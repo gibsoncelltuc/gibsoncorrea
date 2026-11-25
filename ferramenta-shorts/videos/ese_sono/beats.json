@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 5,
  "title": "E Se Ninguém Precisasse Dormir?",
@@ -60,22 +60,55 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Você passa um terço da vida dormindo. E se ninguém precisasse dormir nunca mais?"
+   "bloco": "gancho",
+   "say": "Ninguém precisa mais dormir, e você ganha 25 anos acordado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dormir"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "crowd",
+   "hora": "noite",
    "who": [
-    "PRO:0:stern:paper",
-    "POV:0:surprised"
+    "POV:0:bored",
+    "POV:1:sad",
+    "RAN:0:sad"
    ],
-   "acao": "conversar",
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "bored"
+   },
    "fx": [
-    "ring@40"
+    "puff@30"
    ],
    "sfx": [
-    "sting@40"
+    "thump@30"
    ],
-   "say": "Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a mais, acordado."
+   "text": "ZZZ",
+   "titulo": true,
+   "bloco": "promessa",
+   "say": "Mas o preço disso aparece em poucos dias.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "preço"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -106,7 +139,17 @@
    ],
    "text": "24 HORAS",
    "titulo": true,
-   "say": "As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora."
+   "bloco": "prova",
+   "say": "Cidades funcionariam vinte e quatro horas por dia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cidades"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -124,7 +167,17 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "Daria tempo de aprender três línguas, um instrumento, e ver todas as séries."
+   "bloco": "prova",
+   "say": "Daria para aprender três línguas e ver todas as séries.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aprender"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -134,13 +187,23 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Mas será que o corpo aguenta? Em mil novecentos e sessenta e quatro, um estudante americano tentou descobrir.",
    "fx": [
     "stars@40"
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "bloco": "escalada",
+   "say": "Em 1964, um estudante americano resolveu testar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "testar"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -149,7 +212,17 @@
     "PRO:0:suspicious:paper"
    ],
    "interacao": "cochichar",
-   "say": "Randy Gardner, de dezessete anos, ficou acordado por onze dias seguidos, num experimento de escola."
+   "bloco": "escalada",
+   "say": "Randy Gardner ficou onze dias seguidos acordado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acordado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -164,7 +237,17 @@
     "sting@20",
     "thump@50"
    ],
-   "say": "Acontece que, no fim, ele já esquecia palavras, ficava confuso e via coisas que não existiam."
+   "bloco": "escalada",
+   "say": "Acontece que ele esquecia palavras e via coisas que não existiam.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "esquecia"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -174,53 +257,23 @@
     "POV:0:worried"
    ],
    "acao": "conversar",
-   "say": "Hoje sabemos por quê: dormindo, o cérebro faz uma faxina e lava o que acumulou durante o dia."
-  },
-  {
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "PRO:0:grin:paper",
-    "POV:1:surprised"
-   ],
-   "props": [
-    [
-     "kit/kettle",
-     1.6,
-     -0.8,
-     1.0
+   "hud": {
+    "passos": [
+     "DE DIA: O CÉREBRO ACUMULA LIXO",
+     "DORMINDO: FAZ A FAXINA"
     ]
-   ],
-   "interacao": "entregar",
-   "say": "Para não dormir, precisaríamos de outro cérebro. Nenhum café resolve isso."
-  },
-  {
-   "shot": "crowd",
-   "hora": "noite",
-   "who": [
-    "POV:0:bored",
-    "POV:1:sad",
-    "RAN:0:sad"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "bored"
    },
-   "fx": [
-    "puff@30"
-   ],
-   "sfx": [
-    "thump@30"
-   ],
-   "text": "ZZZ",
-   "titulo": true,
-   "say": "Ou seja: sem dormir, a humanidade não ganharia tempo. Ganharia sono."
+   "bloco": "pagamento",
+   "say": "Dormindo, o cérebro faz uma faxina do que acumulou no dia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "faxina"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -236,13 +289,49 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Então, se você está vendo isso de madrugada, a ciência manda um recado: vai dormir.",
    "fx": [
     "stars@40"
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "bloco": "loop",
+   "say": "Se está vendo isso de madrugada, vai dormir. E imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dormir"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "cidade de hoje e San Diego, EUA (1964)",
+  "quando": "hoje (hipotese); experimento de Randy Gardner em 1964",
+  "participantes": [
+   "Randy Gardner, estudante de 17 anos",
+   "cientistas",
+   "pessoas comuns"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje",
+   "RAN": "estudante americano de 1964"
+  },
+  "cenario": "cidade acesa a noite, quarto de estudante dos anos 60",
+  "objetos": [
+   "cafe",
+   "relogio",
+   "cerebro (explicacao)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment",
+   "https://en.wikipedia.org/wiki/Glymphatic_system"
+  ]
+ },
+ "gancho_tipo": "ganho",
+ "gancho_cumprido": "Gancho: ninguem precisa mais dormir e voce ganha 25 anos acordado, mas o preco aparece em dias. Pagamento: Randy Gardner ficou 11 dias acordado, esquecia palavras e via coisas; dormindo o cerebro faz faxina.",
+ "loop_frase_ok": true
 }

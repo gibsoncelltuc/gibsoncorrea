@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 9,
  "title": "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
@@ -59,45 +59,36 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?"
-  },
-  {
-   "shot": "reveal",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin"
-   ],
-   "mapa": "OCEANO PACÍFICO",
-   "mapa_at": 3,
-   "say": "Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ]
+   "bloco": "gancho",
+   "say": "Um buraco atravessando a Terra sairia no meio do Pacífico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "buraco"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "CAV:0:stern:shovel",
-    "PRO:0:suspicious"
+    "CAV:0:shock",
+    "PRO:0:smug"
    ],
-   "props": [
-    [
-     "tools/shovel",
-     1.6,
-     -0.6,
-     1.2
+   "acao": "discutir",
+   "bloco": "promessa",
+   "say": "E quem pulasse nele cairia para sempre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pulasse"
+     }
     ]
-   ],
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
+   }
   },
   {
    "shot": "two",
@@ -114,7 +105,44 @@
     ]
    ],
    "acao": "conversar",
-   "say": "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus."
+   "bloco": "prova",
+   "say": "O buraco mais fundo do mundo tem doze quilômetros, na Rússia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "buraco"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "bloco": "prova",
+   "say": "Lá embaixo, faz cento e oitenta graus.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "graus"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -137,36 +165,50 @@
     "sting@20",
     "cannon@50"
    ],
-   "say": "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol."
+   "bloco": "escalada",
+   "say": "O centro da Terra fica a mais de seis mil quilômetros.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "centro"
+     }
+    ]
+   }
   },
   {
-   "shot": "crowd",
+   "shot": "close",
    "who": [
-    "POV:0:shock",
-    "POV:1:scared",
-    "CAV:0:surprised"
+    "PRO:0:shock"
    ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
    "fx": [
-    "burst@20",
-    "puff@50"
+    "ring@20",
+    "burst@50"
    ],
    "sfx": [
-    "cannon@20",
-    "thump@50"
+    "sting@20",
+    "cannon@50"
    ],
-   "text": "5.000 °C",
-   "titulo": true,
-   "say": "Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco."
+   "bloco": "escalada",
+   "say": "E é quase tão quente quanto a superfície do Sol.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "quente"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -181,7 +223,17 @@
     "whoosh@20",
     "whoosh@50"
    ],
-   "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pular"
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que, se desse para pular, você cairia cada vez mais rápido."
   },
   {
    "shot": "two",
@@ -204,7 +256,17 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
+   "bloco": "pagamento",
+   "say": "Sairia do outro lado em uns quarenta minutos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Sairia"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -213,59 +275,77 @@
     "PRO:0:smug"
    ],
    "acao": "discutir",
-   "say": "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:laugh",
-    "POV:1:laugh",
-    "CAV:0:grin"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cairia"
+     }
+    ]
    },
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "40 MINUTOS",
-   "titulo": true,
-   "say": "Os cientistas chamam isso de túnel da gravidade."
+   "bloco": "pagamento",
+   "say": "E, sem ninguém para segurar, cairia de volta."
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "PRO:0:smile"
+    "CAV:0:grin:shovel",
+    "POV:0:surprised"
    ],
    "props": [
     [
      "kit/globe",
-     -1.4,
-     -0.8,
+     0,
+     -1.2,
      1.0
     ]
    ],
-   "acao": "conversar",
-   "say": "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem.",
+   "text": "E SE...",
    "fx": [
-    "stars@40"
+    "stars@30"
    ],
    "sfx": [
-    "ding@40"
-   ]
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Ninguém conseguiu ainda. Mas imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conseguiu"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "Brasil (ponto de partida) e o oceano Pacifico perto do Japao (antipoda); poco de Kola, na Russia",
+  "quando": "hoje, de dia (hipotese)",
+  "participantes": [
+   "um cavador com pa",
+   "um professor de geologia",
+   "curiosos"
+  ],
+  "roupas": {
+   "CAV": "roupa de trabalho com capacete",
+   "PRO": "professor de jaleco",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "terreno com buraco, camadas de rocha, globo terrestre mostrando o caminho ate o outro lado",
+  "objetos": [
+   "pa",
+   "globo terrestre",
+   "perfil das camadas da Terra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole",
+   "https://en.wikipedia.org/wiki/Gravity_train"
+  ]
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um buraco atravessando a Terra sairia no Pacifico e quem pulasse cairia para sempre. Pagamento: o centro esta a 6 mil km e quente como o Sol; cairia, sairia do outro lado em 40 minutos e voltaria.",
+ "loop_frase_ok": true
 }

@@ -1,0 +1,75 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma fila de luzes no ceu da Europa foi tratada como ETs e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
+   "luzes",
+   {}
+  ],
+  [
+   6,
+   "promessa",
+   "E a verdade estava num foguete da Flórida.",
+   "verdade",
+   {
+    "mapa": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 2019, a SpaceX lançou sessenta satélites de uma vez.",
+   "lançou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Um dia depois, o holandês Marco Langbroek filmou o céu.",
+   "filmou",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "Viu pelo menos cinquenta e seis luzes em fila.",
+   "cinquenta",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que um site de OVNIs recebeu mais de 150 relatos.",
+   "relatos",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Os satélites ainda voavam juntos, logo depois do lançamento.",
+   "voavam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "pagamento",
+   "Não eram ETs. Eram satélites de internet.",
+   "eram",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Internet no céu, e foi assim que...",
+   "Internet",
+   {}
+  ]
+ ]
+}

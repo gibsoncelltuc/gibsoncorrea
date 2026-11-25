@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 17,
  "title": "Bitcoin Feito com Vulcão",
@@ -76,81 +76,65 @@
      }
     ]
    ],
-   "text": "2021",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "O presidente de El Salvador resolveu fabricar dinheiro digital com a energia de um vulcão.",
    "detalhe": false,
    "interior": false,
    "objetos": false,
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um país fabrica dinheiro digital usando a energia de um vulcão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vulcão"
+     }
+    ]
+   },
+   "text": "BITCOIN DE VULCÃO",
+   "titulo": true
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "POV:0:smile"
+    "BUK:0:smile"
    ],
-   "mapa": "EL SALVADOR",
-   "mapa_at": 3,
    "props": [
     [
-     "kit/volcano",
-     0.0,
-     -20.5,
-     2.6,
+     "kit/bitcoin",
+     2.4,
+     0.2,
+     1.0,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "El Salvador é um país pequeno da América Central, cheio de vulcões.",
-   "detalhe": false,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
+   "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "Parece ficção. Mas aconteceu de verdade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "ficção"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -170,23 +154,22 @@
      }
     ]
    ],
-   "say": "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar.",
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "mapa": "EL SALVADOR",
+   "bloco": "prova",
+   "say": "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tornou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -207,24 +190,22 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Só que, para criar bitcoins novos, computadores fazem contas sem parar. E isso gasta muita energia.",
    "detalhe": false,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/miners",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Criar bitcoin exige computadores fazendo contas sem parar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "contas"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -249,7 +230,6 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.",
    "detalhe": false,
    "interior": false,
    "objetos": false,
@@ -257,23 +237,22 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Para isso, o governo usou o calor do vulcão Tecapa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "usou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -317,36 +296,11 @@
     "whoosh@10",
     "whoosh@35"
    ],
-   "say": "O vapor quente que sai de dentro da terra gira turbinas, e vira eletricidade limpa.",
    "detalhe": false,
    "shot_lock": true,
    "fachada": false,
    "crowd": {
     "n": 0
-   },
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o turbina (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/turbina",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/turbina",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    },
    "cx": 0.0,
    "cz": -2.0,
@@ -379,6 +333,17 @@
       "eletricidade"
      ]
     ]
+   },
+   "bloco": "escalada",
+   "say": "O vapor da terra gira turbinas e vira eletricidade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gira"
+     }
+    ]
    }
   },
   {
@@ -409,73 +374,22 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Acontece que, ao lado da usina, instalaram computadores só para minerar bitcoin.",
    "detalhe": false,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/miners",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/miners",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "BUK:0:grin"
-   ],
-   "props": [
-    [
-     "kit/bitcoin",
-     2.4,
-     0.2,
-     1.2,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Acontece que, ao lado da usina, instalaram computadores só para isso.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "instalaram"
      }
     ]
-   ],
-   "fx": [
-    "stars@20",
-    "ring@50"
-   ],
-   "sfx": [
-    "ding@20",
-    "sting@50"
-   ],
-   "say": "Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duzentos e setenta dólares.",
-   "acao": "comemorar",
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -495,23 +409,21 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bitcoins"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -542,61 +454,75 @@
    ],
    "text": "CIDADE BITCOIN",
    "titulo": true,
-   "say": "E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés de outro vulcão.",
    "detalhe": false,
    "fachada": false,
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "bloco": "pagamento",
+   "say": "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "anunciou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "BUK:0:smile"
+    "BUK:0:smug",
+    "ENG:0:surprised"
    ],
    "props": [
     [
      "kit/bitcoin",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/volcano",
+     7.0,
+     -18.8,
+     2.6,
      {
       "fixo": true
      }
     ]
    ],
-   "acao": "comemorar",
-   "say": "Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.",
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
-    "objetos": [
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "detalhe": false,
+   "interior": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Dinheiro tirado da terra quente. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "Dinheiro"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "fontes": [
@@ -609,7 +535,6 @@
  "objetos_do_video": {
   "\\bcomputadores\\b": "kit/miners"
  },
- "max_wide": 5,
  "visual": {
   "local": "Usina geotermica de Berlin, no vulcao Tecapa (Usulutan, El Salvador): usina com canos e vapor no meio da mata verde, containers de mineracao",
   "quando": "setembro a outubro de 2021, dia",
@@ -641,5 +566,8 @@
    "usina": "Berlin geothermal plant El Salvador Tecapa",
    "mineracao": "bitcoin mining container rows"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um pais fabrica dinheiro digital com um vulcao, e parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
+ "loop_frase_ok": true
 }

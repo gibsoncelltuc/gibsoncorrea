@@ -1,0 +1,98 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "BANQUINHO = GUERRA",
+ "gancho_cumprido": "Gancho: um banquinho dourado comecou uma guerra e quem pediu para sentar nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um banquinho dourado começou uma guerra na África.",
+   "banquinho",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E quem pediu para sentar nele nunca conseguiu.",
+   "sentar",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1900, os ingleses mandavam na atual Gana.",
+   "mandavam",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
+   "banquinho",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "O governador inglês exigiu sentar nele.",
+   "exigiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Era como sentar na alma do povo ashanti.",
+   "alma",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Eles se revoltaram e cercaram o forte do governador.",
+   "cercaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Soldados ingleses vieram, e a guerra durou meses.",
+   "vieram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Os ingleses venceram. Acontece que o banquinho tinha sumido.",
+   "venceram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Os ashanti esconderam o banquinho na mata.",
+   "esconderam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "O governador ganhou, mas nunca teve o banquinho. Foi assim que...",
+   "ganhou",
+   {}
+  ]
+ ]
+}

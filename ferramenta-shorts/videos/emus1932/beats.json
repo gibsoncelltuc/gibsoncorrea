@@ -1,7 +1,7 @@
 {
  "title": "A Guerra dos Emus",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "outback",
  "light": "desert",
  "mood": "march",
@@ -50,9 +50,11 @@
  "titulo_base": "A Guerra dos Emus",
  "beats": [
   {
-   "say": "A Austrália declarou guerra a um bando de pássaros, e perdeu.",
    "shot": "reveal",
-   "who": [],
+   "who": [
+    "SOL:0:pained",
+    "FARM:0:laugh"
+   ],
    "text": "EXÉRCITO × EMUS",
    "tat": 6,
    "light": "desert",
@@ -63,23 +65,50 @@
     "z": 1.0,
     "cols": 5
    },
-   "riscos_ok": true,
-   "verbos_ok": [
-    "decla"
-   ],
    "fachada": false,
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "exército",
+      "quem": 0
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "Um exército perdeu uma guerra contra pássaros."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FARM:0:smile",
+    "FARM:1:grin"
+   ],
+   "tat": 40,
+   "light": "golden",
+   "emus": {
+    "n": 3,
+    "mode": "stand",
+    "x": 4.5,
+    "z": 0.5,
+    "cols": 3
+   },
+   "titulo": true,
+   "fachada": false,
+   "bloco": "promessa",
+   "say": "E o placar final virou piada no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Austrália"
+      "na": "piada"
      }
     ]
    }
   },
   {
-   "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.",
    "shot": "group",
    "who": [
     "FARM:0:shock:pitchfork",
@@ -97,15 +126,15 @@
    },
    "mapa": "AUSTRÁLIA",
    "mapa_at": 3,
-   "riscos_ok": true,
    "fachada": false,
+   "bloco": "prova",
+   "say": "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "invadiram",
-      "quem": 0
+      "faz": "mostra",
+      "na": "emus"
      }
     ]
    }
@@ -117,34 +146,30 @@
     "AUS:0:stern"
    ],
    "interior": "madeira",
-   "say": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
    "fachada": false,
-   "kw": false,
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "pediram",
-      "quem": 0
-     }
-    ]
-   },
    "sfx": [
     "ding@20"
    ],
-   "riscos_ok": true,
    "crowd": {
-    "n": 8,
+    "n": 6,
     "outfits": [
      "FARM"
     ],
-    "march": false,
-    "expr": "angry"
+    "march": false
+   },
+   "bloco": "prova",
+   "say": "Os agricultores pediram ajuda, e o governo mandou soldados.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
    }
   },
   {
-   "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
    "shot": "two",
    "who": [
     "SOL:0:stern",
@@ -185,41 +210,23 @@
    "tiros": false,
    "detalhe": false,
    "fachada": false,
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pega",
-      "na": "levou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "levou"
      }
     ]
    }
   },
   {
-   "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
    "shot": "two",
    "who": [
     "SOL:0:angry",
@@ -228,7 +235,6 @@
    "batalha": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 0,
    "fachada": false,
    "fx": [
     "dust@20",
@@ -242,18 +248,6 @@
     "thump@60"
    ],
    "tiros": false,
-   "acoes": [
-    {
-     "palavra": "balas",
-     "tipo": "atira",
-     "quem": 0
-    },
-    {
-     "palavra": "poeira",
-     "tipo": "atira",
-     "quem": 1
-    }
-   ],
    "d0": 9.0,
    "d1": 8.5,
    "quadro_manual": true,
@@ -286,7 +280,8 @@
     "n": 0
    },
    "impact": false,
-   "grua": false,
+   "bloco": "escalada",
+   "say": "Acontece que os emus se espalharam, e as balas só acertavam poeira.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -299,7 +294,6 @@
    }
   },
   {
-   "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
    "shot": "wide",
    "who": [
     "SOL:0:grin"
@@ -325,8 +319,6 @@
     ]
    ],
    "shot_lock": true,
-   "move": 0,
-   "riscos_ok": true,
    "fachada": false,
    "detalhe": false,
    "d0": 12,
@@ -337,75 +329,20 @@
    "h": 2.5,
    "batalha": false,
    "tiros": false,
-   "_auto_vis": 2,
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/truck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "bloco": "escalada",
+   "say": "Uma metralhadora num caminhão sacudia tanto que ninguém acertava.",
    "encena": {
     "sentido": "negativa",
     "passos": [
      {
       "faz": "pega",
-      "na": "instalada",
+      "na": "sacudia",
       "quem": 0
      }
     ]
    }
   },
   {
-   "say": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
-   "shot": "two",
-   "who": [
-    "SOL:0:pained",
-    "SOL:1:pained"
-   ],
-   "text": "6 DIAS",
-   "tat": 0,
-   "set": "loc_campo",
-   "fachada": false,
-   "animals": [
-    [
-     "emu",
-     2.6,
-     -1.4,
-     "run",
-     1.6
-    ],
-    [
-     "emu",
-     3.6,
-     -2.0,
-     "run",
-     1.6
-    ]
-   ],
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cartuchos"
-     }
-    ]
-   }
-  },
-  {
-   "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
    "shot": "wide",
    "who": [
     "SOL:0:smug"
@@ -413,7 +350,6 @@
    "text": "HA HA HA",
    "tat": 8,
    "tstyle": "gold",
-   "riscos_ok": true,
    "fachada": false,
    "props": [
     [
@@ -433,18 +369,6 @@
    "batalha": false,
    "tiros": false,
    "detalhe": false,
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "vehicles/tank",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "indo embora"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
@@ -480,6 +404,8 @@
     ],
     "march": true
    },
+   "bloco": "escalada",
+   "say": "O major comparou os emus a tanques. A imprensa riu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -490,100 +416,78 @@
      },
      {
       "faz": "sai",
-      "na": "retirou",
+      "na": "riu",
       "quem": 0
      }
     ]
    }
   },
   {
-   "say": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
    "shot": "two",
    "who": [
-    "AUS:0:stern",
-    "AUS:1:grin"
+    "SOL:0:pained",
+    "SOL:1:pained"
    ],
-   "emus": {
-    "n": 12,
-    "mode": "scatter",
-    "x": 4.5,
-    "z": 1.5,
-    "cols": 4
-   },
-   "text": "986 (CONTESTADO)",
+   "text": "6 DIAS",
+   "tat": 0,
+   "set": "loc_campo",
+   "fachada": false,
+   "animals": [
+    [
+     "emu",
+     2.6,
+     -1.4,
+     "run",
+     1.6
+    ],
+    [
+     "emu",
+     3.6,
+     -2.0,
+     "run",
+     1.6
+    ]
+   ],
+   "bloco": "pagamento",
+   "say": "Seis dias, milhares de balas, poucos emus abatidos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "abatidos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [],
+   "text": "EXÉRCITO × EMUS",
    "tat": 6,
-   "tstyle": "red",
-   "batalha": false,
-   "crowd": {
-    "n": 0
-   },
-   "set": "loc_deserto",
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 3,
-   "d0": 15,
-   "d1": 13,
-   "fachada": false,
-   "fx": [
-    "burst@40",
-    "burst@75"
-   ],
-   "sfx": [
-    "thump@40",
-    "thump@75"
-   ],
-   "shot_lock": true,
-   "quadro_manual": true,
-   "cx": 3.0,
-   "cz": 0.8,
-   "h": 2.4,
-   "tiros": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "voltou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
-   "shot": "two",
-   "who": [
-    "FARM:0:smile",
-    "FARM:1:grin"
-   ],
-   "text": "EXÉRCITO 0 - 1 EMUS",
-   "tat": 40,
-   "light": "golden",
+   "light": "desert",
    "emus": {
-    "n": 3,
+    "n": 10,
     "mode": "stand",
-    "x": 4.5,
-    "z": 0.5,
-    "cols": 3
+    "x": 0.5,
+    "z": 1.0,
+    "cols": 5
    },
-   "riscos_ok": true,
-   "titulo": true,
    "fachada": false,
+   "bloco": "loop",
+   "say": "Exército zero, emus um. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "negocio",
-      "na": "pagou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "Exército"
      }
     ]
    }
   }
  ],
  "heroi": null,
- "max_wide": 5,
- "duracao_ok": true,
  "fontes": [
   "https://en.wikipedia.org/wiki/Emu_War"
  ],
@@ -641,5 +545,8 @@
    "soldado da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)",
    "exercito da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
+ "loop_frase_ok": true
 }

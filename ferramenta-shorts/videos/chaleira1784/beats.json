@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 10,
  "title": "A Guerra da Chaleira",
@@ -64,9 +64,58 @@
     "HOL:0:grin"
    ],
    "text": "UM ÚNICO TIRO",
-   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
    "titulo": true,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "bloco": "gancho",
+   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chaleira"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "IMP:0:surprised",
+    "COZ:0:scared"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     0.0,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "batalha": false,
+   "tiros": false,
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "d0": 9.5,
+   "d1": 8.5,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E dentro dela tinha sopa quente para o almoço.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sopa"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -75,7 +124,6 @@
     "MAR:1:stern"
    ],
    "mapa": "HOLANDA",
-   "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
    "set": "harbor",
    "props": [
     [
@@ -90,24 +138,23 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 6,
    "cz": -14,
    "h": 3.5,
    "d0": 24,
    "d1": 20,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "bloco": "prova",
+   "say": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fechou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -117,14 +164,23 @@
     "GEN:0:nervous"
    ],
    "acao": "discutir",
-   "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
+   "bloco": "prova",
+   "say": "O imperador da Áustria queria o rio aberto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "queria"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
     "IMP:0:shout"
    ],
-   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
    "set": "harbor",
    "props": [
     [
@@ -157,74 +213,17 @@
    "d0": 74,
    "d1": 66,
    "quadro_manual": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
+   "bloco": "prova",
+   "say": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "mandou"
      }
     ]
    }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "IMP:0:smug"
-   ],
-   "crowd": {
-    "n": 0
-   },
-   "text": "3 NAVIOS",
-   "titulo": true,
-   "say": "O maior levava a bandeira do imperador e seguia na frente.",
-   "set": "harbor",
-   "props": [
-    [
-     "kit/navio_fragata",
-     0.0,
-     -100.5,
-     7.06,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fachada": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 3.5,
-   "d0": 20.0,
-   "d1": 18.0,
-   "_auto_vis": 1
   },
   {
    "shot": "wide",
@@ -257,27 +256,8 @@
    "sfx": [
     "cannon@105"
    ],
-   "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
    "fachada": false,
    "detalhe": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "tiros": false,
    "cx": 0,
    "cz": -22,
@@ -286,7 +266,18 @@
    "d1": 40,
    "quadro_manual": true,
    "impact": false,
-   "_auto_vis": 3
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "disparou",
+      "quem": 0
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que um navio holandês esperava e disparou um tiro."
   },
   {
    "shot": "two",
@@ -313,8 +304,6 @@
     "thump@55",
     "ding@58"
    ],
-   "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
-   "detalhe": false,
    "impact": true,
    "batalha": false,
    "tiros": false,
@@ -324,15 +313,24 @@
    "cz": 0.0,
    "d0": 9.5,
    "d1": 8.5,
-   "_auto_vis": 0,
-   "interior": "madeira"
+   "interior": "madeira",
+   "bloco": "escalada",
+   "say": "A bala destruiu a chaleira de sopa no convés.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "destruiu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
    "who": [
     "GEN:0:scared:flag"
    ],
-   "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
    "props": [
     [
      "kit/navio_fragata",
@@ -351,34 +349,23 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -8.2,
    "h": 6.0,
    "d0": 102.3,
-   "d1": 97.4
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "IMP:0:sad",
-    "HOL:0:smug:money"
-   ],
-   "interacao": "entregar",
-   "say": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.",
-   "light": "day"
+   "d1": 97.4,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "rende",
+      "na": "rendeu",
+      "quem": 0
+     }
+    ]
+   },
+   "bloco": "pagamento",
+   "say": "O navio austríaco se rendeu na hora."
   },
   {
    "shot": "two",
@@ -396,25 +383,23 @@
      }
     ]
    ],
-   "say": "O único prejuízo do dia foi o almoço.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/kettle",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "interior": "madeira",
    "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "loop",
+   "say": "Perderam o almoço e a coragem. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "almoço"
+     }
+    ]
+   }
   }
  ],
  "visual": {
@@ -479,5 +464,7 @@
   }
  },
  "marco": false,
- "max_wide": 5
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma guerra inteira teve um unico tiro e ele acertou uma chaleira de sopa. Pagamento: o Dolfijn disparou, a bala destruiu a chaleira e o navio austriaco se rendeu.",
+ "loop_frase_ok": true
 }

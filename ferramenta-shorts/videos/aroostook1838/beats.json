@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 19,
  "title": "A Guerra de Aroostook",
@@ -98,7 +98,6 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma guerra entre Estados Unidos e Inglaterra quase começou por causa de lenhadores.",
    "fachada": false,
    "batalha": false,
    "tiros": false,
@@ -108,53 +107,75 @@
     "march": false
    },
    "impact": false,
-   "clima": "neve",
    "shot_lock": true,
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e logs juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/logs",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Lenhadores quase começaram uma guerra entre dois países.",
    "encena": {
-    "sentido": "hipotese",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "lenhadores"
      }
     ]
+   },
+   "text": "GUERRA DOS LENHADORES",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AME:0:smile",
+    "AME:1:grin"
+   ],
+   "props": [],
+   "animals": [
+    [
+     "pig",
+     0.0,
+     1.3,
+     "stand",
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "interior": "loja",
+   "objetos": false,
+   "bloco": "promessa",
+   "say": "E essa guerra ganhou nome de comida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comida"
+     }
+    ]
    }
   },
   {
    "shot": "two",
-   "set": "arctic",
+   "set": "countryside",
    "who": [
     "AME:0:neutral",
     "CAN:0:angry"
    ],
    "mapa": "MAINE",
-   "say": "Em mil oitocentos e trinta e oito, a fronteira entre o estado do Maine e a colônia inglesa de New Brunswick ainda era disputada.",
    "shot_lock": true,
    "detalhe": false,
-   "clima": "neve",
    "mapa_at": 0.5,
+   "bloco": "prova",
+   "say": "Em 1838, o Maine e o Canadá inglês disputavam a fronteira.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "fronteira"
+      "na": "disputavam"
      }
     ]
    }
@@ -167,7 +188,6 @@
     "CAN:0:smug:axe"
    ],
    "acao": "discutir",
-   "say": "Na mata de Aroostook, lenhadores dos dois lados cortavam as mesmas árvores, e cada lado queria a madeira.",
    "fachada": false,
    "props": [
     [
@@ -192,26 +212,12 @@
      1.7
     ]
    ],
-   "verbos_ok": [
-    "cort"
-   ],
-   "clima": "neve",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e logs juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/logs",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "Lenhadores dos dois lados cortavam as mesmas árvores.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -225,11 +231,10 @@
   },
   {
    "shot": "wide",
-   "set": "arctic",
+   "set": "countryside",
    "who": [
     "AME:0:shout"
    ],
-   "say": "Em fevereiro de mil oitocentos e trinta e nove, o Maine mandou o agente de terras com voluntários para prender os lenhadores de New Brunswick.",
    "fachada": false,
    "props": [
     [
@@ -262,8 +267,9 @@
     "expr": "angry"
    },
    "impact": false,
-   "clima": "neve",
    "detalhe": false,
+   "bloco": "escalada",
+   "say": "O Maine mandou um agente prender os lenhadores do outro lado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -271,6 +277,36 @@
       "faz": "fala",
       "na": "mandou",
       "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAN:0:angry",
+    "AME:0:shock"
+   ],
+   "interacao": "empurrar",
+   "props": [],
+   "text": "PRESO",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "arctic",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Acontece que os lenhadores prenderam o agente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prenderam",
+      "quem": 0,
+      "alvo_quem": 1
      }
     ]
    }
@@ -295,74 +331,16 @@
    },
    "text": "MILÍCIA",
    "titulo": true,
-   "say": "O Maine chamou milhares de soldados da milícia, e a colônia inglesa mandou os seus.",
    "impact": false,
    "shot_lock": true,
-   "clima": "neve",
-   "_auto_vis": 0,
+   "bloco": "escalada",
+   "say": "Os dois lados chamaram milhares de soldados da milícia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "fala",
-      "na": "chamou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "CAN:0:angry",
-    "AME:0:shock"
-   ],
-   "interacao": "empurrar",
-   "say": "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso.",
-   "props": [],
-   "text": "PRESO",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "set": "arctic",
-   "clima": "neve",
-   "_auto_vis": 0,
-   "titulo": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "prende",
-      "na": "prenderam",
-      "quem": 0,
-      "alvo_quem": 1
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRE:0:stern:paper",
-    "GEN:0:stern"
-   ],
-   "interacao": "cochichar",
-   "say": "Mas ninguém queria uma guerra de verdade, então o presidente americano mandou o general Winfield Scott conversar.",
-   "interior": "madeira",
-   "crowd": {
-    "n": 0
-   },
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 0,
-   "encena": {
-    "sentido": "negativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "conversar",
+      "na": "chamaram",
       "quem": 0
      }
     ]
@@ -376,8 +354,9 @@
     "PRE:0:relief"
    ],
    "interacao": "entregar",
-   "say": "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.",
    "acao": "discutir",
+   "bloco": "pagamento",
+   "say": "Um general negociou uma trégua. Ninguém chegou a lutar.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -392,50 +371,65 @@
    }
   },
   {
-   "shot": "two",
-   "interior": "pedra",
+   "shot": "group",
+   "set": "arctic",
    "who": [
-    "PRE:0:smug:paper",
-    "PRE:1:smile"
+    "AME:0:angry:axe",
+    "CAN:0:angry:axe"
    ],
-   "interacao": "entregar",
-   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Tratado"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "AME:0:smile",
-    "AME:1:grin"
-   ],
-   "props": [],
-   "say": "Ficou conhecida até como a Guerra do Porco com Feijão.",
-   "animals": [
+   "props": [
     [
-     "pig",
+     "kit/logs",
      0.0,
+     -1.2,
      1.3,
-     "stand",
-     1.2
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
     ]
    ],
+   "interacao": "discutir",
+   "acao": "discutir",
    "fachada": false,
-   "interior": "loja",
-   "objetos": false,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "O apelido: Guerra do Porco com Feijão. Tudo porque...",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Guerra"
+      "na": "apelido"
      }
     ]
    }
@@ -487,5 +481,7 @@
   }
  },
  "min_momentos": 1,
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
+ "loop_frase_ok": true
 }

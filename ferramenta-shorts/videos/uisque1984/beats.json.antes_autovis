@@ -68,7 +68,6 @@
      }
     ]
    ],
-   "text": "1984",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "O Canadá e a Dinamarca brigaram por gelo por quase quarenta anos, usando só uísque.",
@@ -93,11 +92,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -200,12 +199,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.6,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -217,8 +216,8 @@
    "props": [
     [
      "war/flagpole",
-     0.6,
-     1.0,
+     7.0,
+     -14.0,
      0.9,
      {
       "fixo": true
@@ -263,13 +262,12 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "_auto_vis": 3,
-   "detalhe": false
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -323,12 +321,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -372,11 +370,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -402,7 +400,51 @@
       "alvo_quem": 1
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/bandeira_dinamarca",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/whisky",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bandeira_dinamarca",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -488,12 +530,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_enq_shot": "wide",
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1984,

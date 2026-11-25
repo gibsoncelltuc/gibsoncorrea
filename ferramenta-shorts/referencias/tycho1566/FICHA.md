@@ -6,7 +6,7 @@
 - Quem: ['Tycho Brahe (bigode longo, gibao nobre, nariz de metal)', 'primo Manderup Parsbjerg', 'rei Frederico II da Dinamarca', 'Johannes Kepler']
 - Roupas: {'TYC': 'gibao renascentista com gola de rufos e capa', 'PAR': 'gibao escuro e espada', 'REI': 'manto real e coroa', 'KEP': 'gola branca e casaco escuro', 'POV': 'estudantes renascentistas'}
 - Cenario real: salao de festa de madeira com velas, patio escuro para o duelo, ilha verde com castelo de tijolo e cupulas, instrumentos de medir estrelas
-- Objetos: ['nariz de latao', 'espadas', 'quadrante mural', 'Uraniborg', 'uraniborg']
+- Objetos: ['nariz de latao', 'espadas', 'quadrante mural', 'Uraniborg']
 - Cenarios usados no video: harbor, interior madeira, interior pedra, loc_campo, loc_deserto, loc_montanha, medieval
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -

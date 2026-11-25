@@ -1,0 +1,81 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "COLA QUE FALHOU",
+ "gancho_cumprido": "Gancho: uma cola que falhou virou sucesso no mundo, e a ideia veio de quem cantava na igreja. Pagamento: a cola fraca virou marcador de hinario e, em 1980, o post-it.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma cola que falhou virou sucesso no mundo inteiro.",
+   "falhou",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "E a ideia veio de alguém cantando na igreja.",
+   "cantando",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1968, Spencer Silver tentava criar uma super cola.",
+   "tentava",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Saiu o contrário: uma cola que grudava e soltava fácil.",
+   "grudava",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que Art Fry cantava no coral da igreja.",
+   "cantava",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "E os papeizinhos do hinário viviam caindo.",
+   "caindo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Ele pensou: marcadores com a cola fraca.",
+   "pensou",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "O papel saiu amarelo por acaso: era o único que tinha.",
+   "amarelo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "pagamento",
+   "Em 1980, o post-it chegou às lojas.",
+   "chegou",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "A cola não colava direito. E foi assim que...",
+   "cola",
+   {}
+  ]
+ ]
+}

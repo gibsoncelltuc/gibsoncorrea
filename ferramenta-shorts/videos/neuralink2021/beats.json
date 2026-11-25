@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 19,
  "title": "O Macaco que Jogou Videogame com a Mente",
@@ -67,100 +67,30 @@
      }
     ]
    ],
-   "text": "2021",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "Um macaco jogou videogame sem usar as mãos, só com o pensamento.",
    "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "reveal",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin"
-   ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
-   "say": "Foi em dois mil e vinte e um, e a empresa se chama Neuralink."
-  },
-  {
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "CIM:0:stern:paper",
-    "MUS:0:suspicious"
-   ],
-   "acao": "conversar",
-   "say": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.",
-   "props": [
-    [
-     "kit/chess_pc",
-     0.0,
-     -0.8,
-     0.9,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um macaco jogou videogame só com o pensamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
-     }
-    ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true
-  },
-  {
-   "shot": "two",
-   "interior": "loja",
-   "who": [
-    "CIE:0:smile"
-   ],
-   "props": [
-    [
-     "kit/monkey_pong",
-     2.4,
-     0.2,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "acao": "conversar",
-   "say": "O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick.",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "jogou"
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "text": "SÓ COM A MENTE",
+   "titulo": true
   },
   {
    "shot": "two",
@@ -185,23 +115,106 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "A cada acerto, ganhava um golinho de vitamina de banana.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E o prêmio de cada acerto era vitamina de banana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prêmio"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Foi em 2021, num teste da empresa Neuralink.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Neuralink"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:stern:paper",
+    "MUS:0:suspicious"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "prova",
+   "say": "Um chip no cérebro lê os sinais dos neurônios.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chip"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIE:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "O macaco Pager aprendeu a jogar Pong com um joystick.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aprendeu"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -228,25 +241,23 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que, um dia, desligaram o joystick, e o Pager continuou jogando só com a mente.",
    "shot_lock": true,
    "detalhe": true,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que desligaram o joystick, e ele continuou jogando com a mente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "continuou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -284,75 +295,22 @@
    ],
    "text": "MENTE",
    "titulo": true,
-   "say": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "set": "loc_cidade"
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:smug",
-    "CIM:0:grin"
-   ],
-   "acao": "discutir",
-   "say": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
-   "props": [
-    [
-     "kit/chess_pc",
-     0.0,
-     -1.2,
-     1.0,
+   "set": "loc_cidade",
+   "bloco": "escalada",
+   "say": "O vídeo rodou o mundo e abriu debate sobre testes com animais.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/phone",
-     3.6,
-     -2.0,
-     1.0,
-     {
-      "fixo": true
+      "faz": "mostra",
+      "na": "rodou"
      }
     ]
-   ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/chess_pc",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -368,7 +326,6 @@
     "ding@40"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.",
    "props": [
     [
      "kit/chess_pc",
@@ -382,61 +339,61 @@
    ],
    "detalhe": true,
    "shot_lock": true,
-   "verbos_ok": [
-    "jogo",
-    "jogo"
-   ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/chess_pc",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Em 2024, um paciente paralisado jogou xadrez só pensando.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "MUS:0:smile"
+    "MUS:0:grin",
+    "CIE:0:surprised"
    ],
    "props": [
     [
      "kit/monkey_pong",
-     2.4,
-     0.2,
-     1.0,
+     0.0,
+     -1.2,
+     1.1,
      {
       "fixo": true
      }
     ]
    ],
-   "acao": "comemorar",
-   "say": "Tudo começou com um macaco, um videogame e um copo de vitamina de banana.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
-    "objetos": [
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Tudo começou com um copo de vitamina. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/monkey_pong",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "vitamina"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "fontes": [
@@ -485,5 +442,8 @@
   "buscas": {
    "macaco": "Neuralink Pager monkey MindPong 2021"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um macaco jogou videogame so com o pensamento e ganhava vitamina de banana. Pagamento: o chip leu os neuronios, Pager jogou sem joystick e em 2024 um paciente paralisado jogou xadrez pensando.",
+ "loop_frase_ok": true
 }

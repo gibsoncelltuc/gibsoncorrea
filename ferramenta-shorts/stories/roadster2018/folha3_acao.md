@@ -1,11 +1,31 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 11 acoes catalogadas, 11 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.3s - 13 palavras - plano two
-> "Um carro de verdade está dando voltas ao redor do Sol até hoje."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Um carro de verdade está dando voltas em torno do Sol."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carro" (0.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | CARRO NO ESPAÇO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.1s a 5.9s - 6 palavras - plano two
+> "E o motorista dele não respira."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "motorista" (4.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -16,15 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b1 - 4.4s a 9.8s - 18 palavras - plano wide
-> "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk."
+## Cena b2 - 6.3s a 10.0s - 11 palavras - plano wide
+> "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b2 - 10.9s a 16.5s - 19 palavras - plano wide
-> "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "testou" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -35,110 +51,92 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 17.9s a 23.0s - 20 palavras - plano two
-> "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro."
+## Cena b3 - 10.4s a 14.4s - 12 palavras - plano two
+> "Em vez de um peso de concreto, Musk mandou o próprio carro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (13.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandar (22.2s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mandar (22.2s): braco estendido apontando para o objeto/lugar citado
-- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 24.2s a 25.5s - 6 palavras - plano wide
+## Cena b4 - 14.8s a 16.7s - 6 palavras - plano wide
 > "O foguete decolou com um estrondo!"
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "decolou" (15.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | decolou (24.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: voa na palavra decolou (24.7s): executa: decola: poeira no chao, olha para cima
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 26.9s a 30.8s - 12 palavras - plano two
-> "No banco do motorista foi sentado um boneco de astronauta, chamado Starman."
+## Cena b5 - 17.0s a 20.4s - 10 palavras - plano two
+> "Acontece que no volante ia um boneco astronauta, o Starman."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Starman" (20.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sentado (28.2s) | ACAO: senta | senta | OK |
-| 2 | chamado (30.2s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: senta na palavra sentado (28.2s): executa: senta
-- ACAO: fala na palavra chamado (30.2s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 32.0s a 34.4s - 8 palavras - plano orbit
-> "No painel, estava escrito: Não entre em pânico."
+## Cena b6 - 20.7s a 23.3s - 8 palavras - plano group
+> "No painel, um aviso: não entre em pânico."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pânico" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 35.7s a 39.7s - 17 palavras - plano two
-> "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
+## Cena b7 - 23.7s a 27.8s - 12 palavras - plano two
+> "O carro deixou a Terra e foi girar em torno do Sol."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "girar" (26.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 41.0s a 43.9s - 10 palavras - plano wide
-> "E ele continua lá em cima, dando voltas, até hoje."
+## Cena b8 - 28.1s a 30.0s - 6 palavras - plano wide
+> "Ele continua lá até hoje. Porque..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "continua" (28.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | PLACA | CARRO NO ESPAÇO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b9 - 45.1s a 50.0s - 17 palavras - plano two
-> "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | STARMAN | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b10 - 51.3s a 54.7s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

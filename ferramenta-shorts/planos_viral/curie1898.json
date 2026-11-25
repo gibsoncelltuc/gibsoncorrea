@@ -1,0 +1,107 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: os cadernos de Marie Curie so podem ser lidos com protecao e seguem radioativos por mais de mil anos. Pagamento: o radio que ela carregava no bolso contaminou tudo; os cadernos ficam em caixas de chumbo.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Os cadernos de Marie Curie só podem ser lidos com proteção.",
+   "proteção",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E vão continuar radioativos por mais de mil anos.",
+   "por",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em Paris, ela trabalhava num galpão gelado com o marido Pierre.",
+   "trabalhava",
+   {
+    "mapa": "FRANÇA"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Mexia toneladas de minério com uma barra de ferro.",
+   "mexia",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "prova",
+   "Assim descobriram dois elementos novos: polônio e rádio.",
+   "Assim",
+   {
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O rádio brilhava no escuro, e ela adorava olhar.",
+   "brilhava",
+   {
+    "explica": {
+     "objeto": "kit/curie_box",
+     "manobra": "gira",
+     "vfx": [
+      {
+       "k": "brilho"
+      }
+     ]
+    },
+    "who": [],
+    "detalhe": false
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Ela andava com frascos no bolso, sem saber do perigo.",
+   "com",
+   {}
+  ],
+  [
+   8,
+   "escalada",
+   "Acontece que a radiação destruiu a saúde dela.",
+   "Acontece",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "pagamento",
+   "Hoje, os cadernos dormem em caixas de chumbo em Paris.",
+   "cadernos",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Quem quiser ler, precisa de autorização. É por isso que...",
+   "ler",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "escreve",
+       "na": "ler",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ]
+ ]
+}

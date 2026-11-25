@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 28,
  "title": "A Selfie na ONU",
@@ -8,7 +8,7 @@
  "set": "palace",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/smartphone",
+ "heroi": "kit/phone",
  "outfits": {
   "BUK": {
    "jacket": "#22252c",
@@ -51,15 +51,6 @@
      0,
      -1.5,
      2.0
-    ],
-    [
-     "kit/smartphone",
-     0.0,
-     0.3,
-     1.2,
-     {
-      "fixo": true
-     }
     ]
    ],
    "fx": [
@@ -70,48 +61,68 @@
    ],
    "shot_lock": true,
    "crowd": {
-    "n": 8,
+    "n": 6,
     "outfits": [
      "POV"
     ],
     "march": false,
     "expr": "neutral"
    },
-   "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
    "fachada": false,
-   "set": "hall",
-   "objetos": false,
-   "_enq_shot": "reveal",
-   "quadro": {
-    "local": "salao",
-    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/smartphone",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "interior": "pedra",
+   "bloco": "gancho",
+   "say": "Um presidente parou o discurso na ONU para tirar uma selfie.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "tira",
-      "na": "tirar",
-      "quem": 0
+      "faz": "mostra",
+      "na": "selfie"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.8,
-   "d0": 11.0,
-   "d1": 10.5,
-   "_auto_vis": 3,
-   "detalhe": true,
-   "quadro_manual": true,
-   "h": 1.6
+   "text": "SELFIE NA ONU",
+   "titulo": true
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:surprised",
+    "REP:0:grin"
+   ],
+   "acao": "comemorar",
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "titulo": true,
+   "fachada": false,
+   "tiros": false,
+   "set": "street",
+   "bloco": "promessa",
+   "say": "E a foto chamou mais atenção que o discurso inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foto"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -123,9 +134,8 @@
    "mapa_at": 3,
    "acao": "conversar",
    "text": "ONU - NOVA YORK",
-   "say": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
    "fachada": true,
-   "set": "hall",
+   "set": "street",
    "crowd": {
     "n": 12,
     "outfits": [
@@ -133,33 +143,14 @@
     ],
     "march": false
    },
+   "bloco": "prova",
+   "say": "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "Assembleia"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "DIP:0:bored",
-    "REP:0:suspicious:paper"
-   ],
-   "acao": "discutir",
-   "objetos": false,
-   "say": "Ali, líderes fazem discursos longos e sérios.",
-   "interior": "pedra",
-   "fachada": false,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "discursos"
      }
     ]
    }
@@ -172,27 +163,18 @@
    ],
    "interacao": "cochichar",
    "objetos": false,
-   "say": "O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.",
-   "interior": "loja",
    "fachada": false,
+   "set": "palace",
+   "bloco": "prova",
+   "say": "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "trinta"
+      "na": "Bukele"
      }
     ]
-   },
-   "hud": {
-    "contador": {
-     "de": 0,
-     "para": 38,
-     "un": " anos",
-     "titulo": "IDADE DO PRESIDENTE",
-     "na": "trinta",
-     "dur": 1.2
-    }
    }
   },
   {
@@ -202,9 +184,9 @@
    ],
    "props": [
     [
-     "kit/smartphone",
-     0.4,
-     0.4,
+     "kit/phone",
+     2.4,
+     0.2,
      1.4,
      {
       "y": 1.5,
@@ -227,44 +209,25 @@
     "sting@40"
    ],
    "objetos": false,
-   "say": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
    "fachada": false,
-   "quadro": {
-    "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e smartphone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/smartphone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "set": "hall",
-   "_enq_shot": "two",
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "pedra",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "pediu",
-      "quem": 0
-     },
-     {
-      "faz": "tira",
-      "na": "tirou",
+      "faz": "pega",
+      "na": "pegou",
       "quem": 0
      }
     ]
    },
-   "cx": 0.2,
-   "cz": 0.0,
-   "d0": 9.5,
-   "d1": 9.0,
-   "quadro_manual": true,
-   "h": 1.6
+   "bloco": "escalada",
+   "say": "No púlpito, ele pediu licença e pegou o celular."
   },
   {
    "shot": "crowd",
@@ -275,18 +238,9 @@
    "props": [
     [
      "mk/BookStand",
-     0.6,
-     1.0,
+     0,
+     -1.5,
      2.0
-    ],
-    [
-     "kit/smartphone",
-     0.0,
-     1.4,
-     2.0,
-     {
-      "fixo": true
-     }
     ]
    ],
    "fx": [
@@ -299,101 +253,27 @@
    "acao": "tirar",
    "shot_lock": true,
    "crowd": {
-    "n": 20,
+    "n": 6,
     "outfits": [
      "POV"
     ],
     "march": false,
     "expr": "surprised"
    },
-   "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
    "tiros": false,
-   "set": "hall",
-   "objetos": false,
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano de multidao; plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/smartphone",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "Acontece que virou de costas e fez uma selfie com o plenário.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "tira",
-      "na": "tirou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "selfie"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
-   "detalhe": true
-  },
-  {
-   "shot": "two",
-   "who": [
-    "BUK:0:laugh",
-    "DIP:0:surprised"
-   ],
-   "acao": "conversar",
-   "objetos": false,
-   "say": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
-   "fachada": false,
-   "props": [
-    [
-     "kit/smartphone",
-     0.0,
-     -1.2,
-     1.34,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "set": "hall",
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/smartphone",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "explicou",
-      "quem": 0
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.4,
-   "d0": 9.5,
-   "d1": 9.0,
-   "quadro_manual": true,
-   "h": 1.6
+   }
   },
   {
    "shot": "two",
@@ -402,7 +282,6 @@
     "DIP:0:worried"
    ],
    "objetos": false,
-   "say": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
    "fachada": false,
    "text": "KODAK?",
    "batalha": false,
@@ -411,35 +290,15 @@
    },
    "impact": false,
    "tiros": false,
-   "set": "hall",
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "avisou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:suspicious:paper",
-    "BUK:0:grin"
-   ],
-   "objetos": false,
-   "say": "Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens.",
-   "interior": "loja",
-   "fachada": false,
+   "interior": "madeira",
+   "bloco": "escalada",
+   "say": "Depois avisou: a ONU pode desaparecer como a Kodak.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "Propôs",
-      "quem": 0
+      "faz": "mostra",
+      "na": "avisou"
      }
     ]
    }
@@ -470,12 +329,13 @@
    ],
    "text": "SELFIE",
    "titulo": true,
-   "say": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
    "fachada": false,
    "tiros": false,
-   "objetos": false,
+   "set": "street",
+   "bloco": "pagamento",
+   "say": "A selfie rodou o mundo. O discurso ficou em segundo plano.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -491,10 +351,10 @@
    ],
    "props": [
     [
-     "kit/smartphone",
-     0.8,
-     0.4,
-     2.0,
+     "kit/phone",
+     2.4,
+     0.2,
+     1.2,
      {
       "y": 1.3,
       "fixo": true
@@ -503,39 +363,23 @@
    ],
    "acao": "comemorar",
    "objetos": false,
-   "say": "Um segundo de selfie, e a ONU virou assunto.",
-   "interior": "pedra",
    "fachada": false,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e smartphone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/smartphone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "set": "street",
+   "bloco": "loop",
+   "say": "Um segundo bastou. E foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "virou"
+      "na": "assim"
      }
     ]
-   },
-   "cx": 0.4,
-   "cz": 0.0,
-   "d0": 8.5,
-   "d1": 8.0,
-   "_auto_vis": 3,
-   "detalhe": false,
-   "quadro_manual": true,
-   "h": 1.5
+   }
   }
  ],
  "fontes": [
@@ -560,8 +404,7 @@
   "objetos": [
    "celular",
    "púlpito",
-   "crachás de delegado",
-   "smartphone"
+   "crachás de delegado"
   ],
   "fontes_visuais": [
    "https://news.un.org/es/story/2019/09/1462902",
@@ -581,11 +424,12 @@
    "roupas e ruas de 2019": "United Nations General Assembly delegates suits 2019",
    "delegados de vários países": "UN General Assembly delegates seated 2019",
    "púlpito": "United Nations General Assembly podium green marble",
-   "phone": "smartphone selfie stick photo",
-   "smartphone": "smartphone 2010s touchscreen phone"
+   "phone": "smartphone selfie stick photo"
   }
  },
  "regiao": "eua",
  "min_momentos": 1,
- "max_wide": 3
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
+ "loop_frase_ok": true
 }

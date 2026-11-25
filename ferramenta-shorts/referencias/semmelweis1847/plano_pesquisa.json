@@ -7,7 +7,7 @@
    "item": "O Médico que Mandou Lavar as Mãos",
    "consultas": [
     "O Médico que Mandou Lavar as Mãos",
-    "Um Era Viena 1847"
+    "Um Hoje Em Viena 1847"
    ]
   },
   {
@@ -112,13 +112,6 @@
    "consultas": [
     "bacia com agua e cal clorada",
     "O Médico que Mandou Lavar as Mãos"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "maca",
-   "consultas": [
-    "maca"
    ]
   },
   {

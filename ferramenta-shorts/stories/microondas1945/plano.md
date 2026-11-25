@@ -2,18 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
-b3 | group | -  | interior | chegou (dust + som de impacto); encena: chega (point) @3 (acao + som de efeito) | -
-b4 | two | -  | interior | encena: calor (reach) @5 (acao + som de efeito) | -
-b5 | close | -  | interior | encena: fala (point) @4 (acao + som de efeito) | -
-b6 | group | -  | batalha aberta com tiros, tropa, interior | encena: examina (think) @3 (acao + som de efeito); encena: quebra (throw) @12 (acao + som de efeito) | -
-b7 | two | -  | batalha aberta com tiros, interior | explodiu (burst + som de tiro/explosao); encena: examina (think) @1 (acao + som de efeito); encena: desaba @7 (acao + som de efeito) | -
+b0 | two | -  | placa: CHOCOLATE NO BOLSO | - | -
+b1 | two | -  | batalha aberta com tiros, tropa, interior, placa: 1 MINUTO | - | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | interior | - | -
+b4 | group | -  | interior | chegou (dust + som de impacto) | -
+b5 | two | -  | interior | - | -
+b6 | two | -  | batalha aberta com tiros, tropa, interior | - | -
+b7 | two | -  | batalha aberta com tiros, interior | explodiu (burst + som de tiro/explosao) | -
 b8 | orbit | -  | tropa | - | -
-b9 | two | -  | batalha aberta com tiros, tropa, interior, placa: 1 MINUTO | - | -
-b10 | close | -  | interior | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b9 | two | -  | placa: CHOCOLATE NO BOLSO | - | -
 
-Mistura de planos: close 20% | medio 59% | aberto 19% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 0% | medio 82% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

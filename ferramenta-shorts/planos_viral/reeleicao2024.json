@@ -1,0 +1,74 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "PERDEU E VOLTOU",
+ "gancho_cumprido": "Gancho: um presidente perdeu a eleicao e voltou quatro anos depois, algo que so tinha acontecido uma vez. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos; so Grover Cleveland tinha feito isso.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um presidente perdeu a eleição e voltou quatro anos depois.",
+   "voltou",
+   {}
+  ],
+  [
+   6,
+   "promessa",
+   "E isso só tinha acontecido uma vez na história americana.",
+   "história",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "escolhiam",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A contagem dos votos entrou pela madrugada.",
+   "contagem",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que Trump venceu todos os estados decisivos: 312 votos.",
+   "venceu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Os apoiadores comemoraram, e ele declarou vitória.",
+   "comemoraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
+   "Cleveland",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "Antes foi o presidente 45. Agora, o 47.",
+   "presidente",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Perdeu, voltou e ganhou. E foi assim que...",
+   "voltou",
+   {}
+  ]
+ ]
+}

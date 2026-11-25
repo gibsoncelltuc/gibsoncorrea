@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 10,
  "title": "E Se o Titanic Não Tivesse Afundado?",
@@ -63,7 +63,46 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Diziam que ele era praticamente impossível de afundar. Afundou na primeira viagem. E se tivesse desviado do iceberg?"
+   "impact": true,
+   "bloco": "gancho",
+   "say": "O navio que não podia afundar foi ao fundo na primeira viagem.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fundo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern",
+    "POV:1:surprised"
+   ],
+   "props": [
+    [
+     "ship",
+     2.0,
+     -12.0,
+     0.9
+    ]
+   ],
+   "interacao": "cochichar",
+   "set": "harbor",
+   "bloco": "promessa",
+   "say": "E é por causa dele que o mar é mais seguro hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "por"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -81,7 +120,17 @@
      1.0
     ]
    ],
-   "say": "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
+   "bloco": "prova",
+   "say": "O Titanic levava mais de duas mil pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "levava"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -104,14 +153,22 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar."
+   "bloco": "prova",
+   "say": "Perto da meia-noite, o vigia gritou: iceberg à frente!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gritou"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
    "hora": "noite",
-   "who": [
-    "MAR:0:shock"
-   ],
+   "who": [],
    "props": [
     [
      "kit/iceberg",
@@ -128,7 +185,28 @@
     "cannon@30",
     "thump@50"
    ],
-   "say": "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."
+   "explica": {
+    "objeto": "kit/iceberg",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "90% ESCONDIDO",
+      "baixo",
+      "gelo"
+     ]
+    ]
+   },
+   "bloco": "prova",
+   "say": "O gelo rasgou o casco por baixo da água.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rasgou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -166,39 +244,65 @@
    ],
    "text": "BOTES",
    "titulo": true,
-   "say": "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
+   "bloco": "escalada",
+   "say": "Acontece que só havia botes para metade das pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "botes"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "crowd",
+   "hora": "noite",
    "who": [
-    "PRO:0:suspicious:paper",
-    "POV:0:worried"
+    "POV:0:scared",
+    "POV:1:shout",
+    "MAR:0:scared"
    ],
-   "acao": "conversar",
-   "say": "E se o Titanic tivesse chegado inteiro?",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ]
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRO:0:stern",
-    "POV:1:surprised"
-   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
    "props": [
     [
-     "ship",
+     "boat",
      2.0,
-     -12.0,
+     -6.0,
      0.9
     ]
    ],
-   "interacao": "cochichar",
-   "say": "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas."
+   "fx": [
+    "ring@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@50"
+   ],
+   "text": "BOTES",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Cerca de mil e quinhentas pessoas morreram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morreram"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -221,7 +325,18 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
+   "set": "harbor",
+   "bloco": "pagamento",
+   "say": "Em 1914, veio a regra: bote para todos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "todos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -238,45 +353,17 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin",
-    "MAR:0:grin"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "smile"
-   },
-   "props": [
-    [
-     "ship",
-     0,
-     -14.0,
-     1.0
+   "bloco": "pagamento",
+   "say": "E criaram uma patrulha de icebergs.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "patrulha"
+     }
     ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "VIDAS SALVAS",
-   "titulo": true,
-   "say": "Ou seja: a tragédia do Titanic ajudou a salvar milhares de vidas depois."
+   }
   },
   {
    "shot": "close",
@@ -292,7 +379,46 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
+   "bloco": "loop",
+   "say": "Tudo mudou numa noite gelada. Foi quando...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Tudo"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "Atlantico Norte, a bordo do Titanic",
+  "quando": "14 e 15 de abril de 1912, de noite",
+  "participantes": [
+   "passageiros",
+   "tripulacao",
+   "vigia do cesto da gavea"
+  ],
+  "roupas": {
+   "PAS": "passageiro de 1912 de terno e chapeu",
+   "TRI": "marinheiro de 1912",
+   "POV": "passageiros de 1912"
+  },
+  "cenario": "navio gigante de quatro chamines, mar escuro, iceberg, botes salva-vidas",
+  "objetos": [
+   "iceberg",
+   "botes salva-vidas",
+   "navio Titanic"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Titanic",
+   "https://en.wikipedia.org/wiki/International_Ice_Patrol"
+  ],
+  "explicacoes": "Cerca de 90% de um iceberg fica abaixo da agua; o gelo raspou o casco abaixo da linha d agua e abriu varios compartimentos. Fonte: Encyclopaedia Britannica, \"Titanic\"."
+ },
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o navio que nao podia afundar afundou na primeira viagem e isso deixou o mar mais seguro. Pagamento: botes so para metade, 1.500 mortos; dai veio o tratado de 1914 com bote para todos e a patrulha do gelo.",
+ "loop_frase_ok": true
 }

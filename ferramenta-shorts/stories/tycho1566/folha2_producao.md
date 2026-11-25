@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/tycho1566/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py tycho1566` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um dos maiores astrônomos da história perdeu o nariz numa briga por ca...
+## Cena b0 - Um gênio da astronomia perdeu o nariz numa briga por matemática.
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/brass_nose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, matematica, nariz
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomia, genio, nariz
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -18,20 +18,41 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
 - OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1566" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (0.2-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TEXTO NA TELA: "NARIZ DE METAL" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (1.9-3.7 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b1 - Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre di...
+## Cena b1 - E passou o resto da vida com um nariz de metal.
+- Cenario: loc_deserto | luz: dia | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): TYC (variante 0, expressao sad)
+- Animacao: conversar
+- Objetos/modelos: kit/brass_nose
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): metal, nariz, resto
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
+- PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (4.1-5.9 s): mesmo angulo
+  - take 2 (5.9-7.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b2 - Em 1566, Tycho Brahe estudava na Alemanha.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TYC (variante 0, expressao smile); POV (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha, jovem
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alemanha
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -41,41 +62,36 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: DINAMARCA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (5.1-6.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (6.9-8.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (8.6-10.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b2 - Numa festa, ele discutiu com um primo sobre quem era o melhor em matem...
+## Cena b3 - Numa festa, discutiu com um primo sobre matemática.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Personagens principais (3): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout); POV (variante 0, expressao surprised, segura mug)
 - Animacao: discutir | interacao: avanca e o outro recua
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): melhor, primo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primo
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (11.7-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (13.3-14.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b3 - Dias depois, os dois resolveram a briga num duelo de espadas, no escur...
+## Cena b4 - Dias depois, os dois resolveram tudo num duelo de espadas.
 - Cenario: loc_deserto | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TYC (variante 0, expressao angry, segura sword); PAR (variante 0, expressao shout, segura sword)
-- Animacao: discutir | interacao: discutir
+- Animacao: encena | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, dois, escuro, espadas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, espadas
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -87,19 +103,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@36
 - SOM: thump@40
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (16.2-18.0 s): mesmo angulo
-  - take 2 (18.0-19.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (13.7-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (15.3-17.0 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b4 - Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç...
-- Cenario: loc_deserto | luz: noite | clima: limpo
+## Cena b5 - Acontece que o primo cortou fora um pedaço do nariz de Tycho.
+- Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PAR (variante 0, expressao angry, segura sword); TYC (variante 0, expressao pained, segura sword)
 - Animacao: encena | interacao: susto
 - Objetos/modelos: kit/brass_nose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): golpe, nariz, pedaco, primo, tycho
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): nariz, pedaco, primo, tycho
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -113,39 +129,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: whoosh@26
 - SOM: thump@30
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (21.2-23.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.3-25.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (17.4-19.4 s): mesmo angulo
+  - take 2 (19.4-21.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b5 - Para esconder o buraco, ele passou a usar um nariz de metal, colado no...
-- Cenario: loc_montanha | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TYC (variante 0, expressao sad)
-- Animacao: conversar
-- Objetos/modelos: kit/brass_nose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco, metal, nariz, rosto, usar
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
-- PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (26.6-28.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (28.5-30.3 s): mesmo angulo
-<!-- /FICHA -->
-
-## Cena b6 - Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es...
+## Cena b6 - Depois, o rei lhe deu uma ilha só para estudar o céu.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised) | multidao: 6 de POV
-- Animacao: encena
+- Personagens principais (2): REI (variante 0, expressao grin); TYC (variante 0, expressao surprised)
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinamarca, ilha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilha
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -154,19 +149,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI (rei) na esquerda, expressao grin; TYC (nobre) na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (31.5-33.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (33.6-35.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (21.9-23.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (23.9-25.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b7 - Lá, ele construiu um castelo observatório, e anotou a posição de mais ...
+## Cena b7 - Mediu mais de mil estrelas, sem telescópio.
 - Cenario: loc_campo | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de POV
-- Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/marco_uraniborg, kit/uraniborg
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
+- Animacao: encena
+- Objetos/modelos: kit/marco_uraniborg, kit/tower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -175,26 +170,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: TYC (nobre) no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/marco_uraniborg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 21.2 m de altura x 36.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/uraniborg: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.0 m de altura x 10.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 13.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "MIL ESTRELAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (36.7-38.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (38.4-40.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (40.1-41.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - As anotações eram tão precisas, que ajudaram Kepler a descobrir como o...
+## Cena b8 - Os dados dele ajudaram o astrônomo Kepler.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): TYC (variante 0, expressao smug, segura paper); KEP (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): anotacoes, descobrir, planetas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): astronomo, dados
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -206,39 +198,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@50
 - TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (43.2-44.9 s): mesmo angulo
-  - take 2 (44.9-46.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (46.7-48.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Com a cabeça nas estrelas, e o nariz de metal.
-- Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TYC (variante 0, expressao smug)
-- Animacao: conversar
-- Objetos/modelos: kit/brass_nose
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, estrelas, metal, nariz
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
-- PERSONAGENS: TYC (nobre) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9 - Cabeça nas estrelas e nariz de metal. Tudo porque...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): TYC (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- Personagens principais (2): TYC (variante 0, expressao angry); PAR (variante 0, expressao shout)
+- Animacao: discutir | interacao: o outro se aproxima
+- Objetos/modelos: kit/brass_nose
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estrelas, metal
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -246,14 +216,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/brass_nose | b0, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/brass_nose | b0, b1, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/brass_nose | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 12% | medio 67% | aberto 17% | detalhe 4%
-- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
+- Objeto heroi: kit/brass_nose | grandes momentos: b2, b6 | planos abertos: 3 | mistura: close 4% | medio 79% | aberto 14% | detalhe 3%
+- Interacoes: b0 discutir, b3 avanca e o outro recua, b4 discutir, b5 susto, b8 entregar, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -265,9 +235,12 @@ kit/uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (52.8-54.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (54.5-56.2 s): mesmo angulo
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
+- PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
+- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (31.5-33.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.0-34.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

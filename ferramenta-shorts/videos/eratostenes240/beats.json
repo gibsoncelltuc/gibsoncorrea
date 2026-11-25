@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 10,
  "title": "Eratóstenes Mede a Terra",
@@ -8,7 +8,7 @@
  "set": "palace",
  "light": "desert",
  "mood": "playful",
- "heroi": "kit/globe",
+ "heroi": "kit/stick",
  "outfits": {
   "ERA": {
    "profissao": "cientista",
@@ -45,7 +45,6 @@
  },
  "beats": [
   {
-   "say": "Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.",
    "shot": "two",
    "who": [
     "ERA:0:smile",
@@ -54,48 +53,27 @@
    "props": [
     [
      "kit/stick",
-     7.0,
-     -14.0,
-     2.2,
-     {
-      "nocol": true,
-      "fixo": true
-     }
-    ],
-    [
-     "kit/globe",
-     0.0,
-     -1.2,
-     0.9,
+     1.2,
+     -0.6,
+     1.6,
      {
       "fixo": true
      }
     ]
    ],
    "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/stick",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 40000,
+     "un": "KM",
+     "titulo": "VOLTA DA TERRA",
+     "na": "tamanho",
+     "dur": 1.4
+    }
    },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um homem mediu o tamanho da Terra usando só uma vara.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -105,10 +83,61 @@
       "quem": 0
      }
     ]
+   },
+   "text": "UMA VARA = O PLANETA",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ERA:0:smug"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     0.0,
+     -8.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/well",
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "acao": "comemorar",
+   "set": "medieval",
+   "crowd": {
+    "n": 0
+   },
+   "cx": 3.6,
+   "cz": -1.4,
+   "h": 2.8,
+   "d0": 13.0,
+   "d1": 11.0,
+   "bloco": "promessa",
+   "say": "E chegou perto do número certo, sem satélite.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "número"
+     }
+    ]
    }
   },
   {
-   "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
    "shot": "reveal",
    "who": [
     "BIB:0:neutral",
@@ -125,18 +154,19 @@
    },
    "mapa": "EGITO",
    "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Alexandria"
+      "na": "Eratóstenes"
      }
     ]
    }
   },
   {
-   "say": "Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.",
    "shot": "two",
    "who": [
     "ERA:0:surprised:paper",
@@ -168,36 +198,23 @@
     ]
    ],
    "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/well",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_le",
-      "na": "leu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "iluminava"
      }
     ]
    }
   },
   {
-   "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
    "shot": "two",
    "who": [
     "ERA:0:smile",
@@ -226,37 +243,24 @@
      1.6
     ]
    ],
-   "clima": "calor",
    "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/well",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "Ou seja: lá, nada fazia sombra.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "significava"
+      "na": "sombra"
      }
     ]
    }
   },
   {
-   "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -282,24 +286,11 @@
      1.6
     ]
    ],
-   "clima": "calor",
    "fachada": false,
    "detalhe": false,
    "shot_lock": true,
    "crowd": {
     "n": 0
-   },
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/stick",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -330,77 +321,19 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "fincada"
+      "na": "vara"
      }
     ]
    }
   },
   {
-   "say": "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.",
-   "shot": "two",
-   "who": [
-    "ERA:0:suspicious"
-   ],
-   "props": [
-    [
-     "kit/globe",
-     2.4,
-     0.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
-    ]
-   ],
-   "fachada": false,
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "set": "medieval",
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "pensou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
    "shot": "orbit",
    "who": [],
    "impact": true,
@@ -408,38 +341,7 @@
    "crowd": {
     "n": 0
    },
-   "props": [
-    [
-     "kit/globe",
-     0.0,
-     -1.2,
-     1.6,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/stick",
-     3.6,
-     -2.0,
-     1.3,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
-    ]
-   ],
+   "props": [],
    "fx": [
     "ring@40",
     "stars@60"
@@ -449,131 +351,19 @@
     "sting@60"
    ],
    "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/stick",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "explica": {
-    "objeto": "kit/globe",
-    "manobra": "gira",
+    "objeto": "kit/stick",
+    "manobra": "parado",
     "rotulos": [
      [
-      "SIENA: SEM SOMBRA",
+      "SOMBRAS DIFERENTES",
       "topo",
-      "sombra"
-     ],
-     [
-      "ALEXANDRIA: SOMBRA",
-      "meio",
       "diferente"
      ],
      [
       "TERRA CURVA",
       "baixo",
       "curva"
-     ]
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "diferente"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
-   "shot": "wide",
-   "who": [],
-   "props": [
-    [
-     "kit/stick",
-     0.0,
-     -8.0,
-     2.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
-    ]
-   ],
-   "fachada": false,
-   "quadro": {
-    "local": "praia / palacio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/stick",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.3,
-   "d1": 18.4,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "ângulo"
-     }
-    ]
-   },
-   "explica": {
-    "objeto": "kit/stick",
-    "manobra": "parado",
-    "rotulos": [
-     [
-      "ANGULO DA SOMBRA",
-      "topo",
-      "ângulo"
-     ],
-     [
-      "PASSOS ENTRE AS CIDADES",
-      "baixo",
-      "passos"
      ]
     ],
     "setas": [
@@ -585,94 +375,126 @@
      ]
     ]
    },
-   "shot_lock": true,
-   "clima": "calor"
+   "bloco": "escalada",
+   "say": "Acontece que isso só acontece se a Terra for curva.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "curva"
+     }
+    ]
+   }
   },
   {
-   "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
+   "shot": "wide",
+   "who": [],
+   "props": [],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "medidor": {
+     "de": 0,
+     "para": 7.2,
+     "un": "GRAUS",
+     "titulo": "ANGULO DA SOMBRA",
+     "na": "ângulo",
+     "dec": 1
+    },
+    "rotulos": [
+     [
+      "5.000 ESTADIOS",
+      "baixo",
+      "passos"
+     ]
+    ]
+   },
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ângulo"
+     }
+    ]
+   }
+  },
+  {
    "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "ERA:0:grin:paper",
-    "BIB:0:surprised"
-   ],
-   "interacao": "cochichar",
+   "who": [],
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "comparar": [
+     [
+      "ERATOSTENES",
+      39375
+     ],
+     [
+      "REAL",
+      40075
+     ]
+    ],
+    "comparar_na": "conta"
+   },
+   "bloco": "pagamento",
+   "say": "A conta deu quase o tamanho real da Terra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "olha",
-      "na": "encontrou",
+      "na": "conta",
       "quem": 0
      }
     ]
    }
   },
   {
-   "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "ERA:0:smug"
+    "ERA:0:smile",
+    "BIB:0:surprised"
    ],
    "props": [
     [
      "kit/stick",
-     0.0,
-     -8.0,
-     2.2,
-     {
-      "nocol": true,
-      "fixo": true
-     }
-    ],
-    [
-     "kit/well",
-     3.6,
-     -2.0,
-     1.0,
+     1.2,
+     -0.6,
+     1.6,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": false,
    "fachada": false,
-   "acao": "comemorar",
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/stick",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/well",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 40000,
+     "un": "KM",
+     "titulo": "VOLTA DA TERRA",
+     "na": "tamanho",
+     "dur": 1.4
+    }
    },
-   "set": "medieval",
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "cx": 3.6,
-   "cz": -1.4,
-   "h": 2.8,
-   "d0": 13.0,
-   "d1": 11.0,
-   "_auto_vis": 1,
+   "bloco": "loop",
+   "say": "Sem foguete, só uma sombra. E foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "poço"
+      "na": "foguete"
      }
     ]
    }
@@ -681,7 +503,6 @@
  "exp": 0.9,
  "regiao": "classico",
  "marco": "kit/marco_alexandria",
- "max_wide": 4,
  "visual": {
   "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
   "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
@@ -704,7 +525,8 @@
   ],
   "explicacoes": [
    "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)",
-   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)"
+   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)",
+   "Eratostenes: sombra em Alexandria de 7,2 graus (1/50 do circulo), distancia Siena-Alexandria de 5.000 estadios, circunferencia ~250.000 estadios (~39.400 km); valor real 40.075 km (Cleomedes, De motu circulari)."
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Eratosthenes",
@@ -722,5 +544,8 @@
    "globe": "antique terrestrial globe 17th century",
    "Eratóstenes Mede a Terra": "Eratosthenes measuring the Earth illustration shadow well Syene"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
+ "loop_frase_ok": true
 }

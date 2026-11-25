@@ -1,0 +1,95 @@
+{
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: todo o dinheiro do mundo some amanha e em menos de um ano inventamos outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Todo o dinheiro do mundo some amanhã de manhã.",
+   "dinheiro",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "Em menos de um ano, a gente inventaria outro.",
+   "inventaria",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Na primeira manhã, você não teria como pagar o café.",
+   "pagar",
+   {
+    "encena": {
+     "sentido": "negativa",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "pagar"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   2,
+   "prova",
+   "A saída seria a troca: uma galinha por comida.",
+   "troca",
+   {}
+  ],
+  [
+   3,
+   "escalada",
+   "Acontece que o padeiro pode não querer galinha.",
+   "querer",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Na ilha de Yap, o dinheiro eram pedras gigantes.",
+   "pedras",
+   {
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
+   "lembravam",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Em prisões e guerras, quando o dinheiro some, inventam outro.",
+   "inventam",
+   {
+    "impact": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Dinheiro não é papel. É confiança.",
+   "confiança",
+   {
+    "batalha": false,
+    "crowd": {
+     "n": 0
+    }
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Teste mental para hoje: imagina que...",
+   "imagina",
+   {}
+  ]
+ ]
+}

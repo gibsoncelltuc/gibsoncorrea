@@ -2,17 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1566 | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque); encena: perde (facepalm) @6 (acao + som de efeito); encena: golpe (punch) @10 (acao + som de efeito) | -
-b1 | wide | -  | batalha aberta com tiros, tropa, mapa | encena: examina (think) @14 (acao + som de efeito) | -
-b2 | two | -  | interior | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: x_discute (point) @3 (acao + som de efeito) | -
-b3 | two | noite  | objeto na mao | briga (puff + som de baque); encena: golpe (punch) @6 (acao + som de efeito) | -
-b4 | two | noite  | objeto na mao | encena: golpe (punch) @6 (acao + som de efeito) | -
-b5 | two | dia  | - | - | -
-b6 | orbit | -  | tropa | encena: x_entrega (reach) @6 (acao + som de efeito) | -
-b7 | orbit | noite  | batalha aberta com tiros, tropa, placa: MIL ESTRELAS, objeto na mao | encena: constroi (hammer) @2 (acao + som de efeito); encena: escreve (write) @7 (acao + som de efeito) | -
-b8 | two | -  | interior, placa: KEPLER, objeto na mao | encena: examina (point) @9 (acao + som de efeito) | -
-b9 | two | -  | - | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | placa: NARIZ DE METAL | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque) | -
+b1 | two | dia  | - | - | -
+b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
+b3 | group | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); festa (stars + som de sino) | -
+b4 | two | noite  | objeto na mao | - | -
+b5 | two | noite  | objeto na mao | - | -
+b6 | orbit | -  | batalha aberta com tiros | - | -
+b7 | orbit | noite  | tropa, placa: MIL ESTRELAS, objeto na mao | - | -
+b8 | two | -  | interior, placa: KEPLER, objeto na mao | - | -
+b9 | two | -  | placa: NARIZ DE METAL | - | -
 
-Mistura de planos: close 12% | medio 67% | aberto 17% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 4% | medio 79% | aberto 14% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

@@ -1,0 +1,74 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "CARRO NO ESPAÇO",
+ "gancho_cumprido": "Gancho: um carro de verdade gira em volta do Sol com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um carro de verdade está dando voltas em torno do Sol.",
+   "carro",
+   {}
+  ],
+  [
+   5,
+   "promessa",
+   "E o motorista dele não respira.",
+   "motorista",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
+   "testou",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Em vez de um peso de concreto, Musk mandou o próprio carro.",
+   "mandou",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "O foguete decolou com um estrondo!",
+   "decolou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que no volante ia um boneco astronauta, o Starman.",
+   "Starman",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "No painel, um aviso: não entre em pânico.",
+   "pânico",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "O carro deixou a Terra e foi girar em torno do Sol.",
+   "girar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Ele continua lá até hoje. Porque...",
+   "continua",
+   {}
+  ]
+ ]
+}

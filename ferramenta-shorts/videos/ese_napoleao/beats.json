@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 8,
  "title": "E Se Napoleão Tivesse Vencido em Waterloo?",
@@ -71,7 +71,51 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Uma única tarde mudou a história da Europa. E se Napoleão tivesse vencido em Waterloo?"
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Waterloo"
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "Napoleão ganha em Waterloo, e a Europa muda para sempre."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "promessa",
+   "say": "A resposta dos historiadores vai te surpreender.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "resposta"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -81,7 +125,17 @@
    ],
    "mapa": "BÉLGICA",
    "mapa_at": 3,
-   "say": "Era dezoito de junho de mil oitocentos e quinze, perto de Waterloo, na Bélgica."
+   "bloco": "prova",
+   "say": "Era 18 de junho de 1815, na Bélgica.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Bélgica"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -90,7 +144,17 @@
     "FRA:0:stern"
    ],
    "interacao": "entregar",
-   "say": "Napoleão tinha fugido do exílio, reunido um exército, e voltado ao poder na França em poucos dias."
+   "bloco": "prova",
+   "say": "Napoleão tinha saído do exílio e retomado o poder.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "poder"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -119,30 +183,16 @@
    ],
    "text": "WATERLOO",
    "titulo": true,
-   "say": "Na batalha, ele enfrentou os ingleses do duque de Wellington. Canhões dispararam o dia inteiro."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "WEL:0:worried",
-    "ING:0:nervous"
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "say": "Os ingleses resistiram por horas, e o combate ficou por um fio.",
-   "batalha": true,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "ING",
-     "FRA"
-    ],
-    "march": false,
-    "expr": "nervous"
+   "bloco": "escalada",
+   "say": "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dispararam"
+     }
+    ]
    }
   },
   {
@@ -170,7 +220,17 @@
     "cannon@20",
     "thump@50"
    ],
-   "say": "No fim da tarde, chegou o exército prussiano para ajudar Wellington. E Napoleão foi derrotado."
+   "bloco": "escalada",
+   "say": "No fim da tarde, os prussianos chegaram, e Napoleão perdeu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "perdeu"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -187,18 +247,18 @@
     ]
    ],
    "interacao": "empurrar",
-   "say": "Ele foi mandado para Santa Helena, uma ilha perdida no oceano Atlântico, e morreu lá.",
-   "set": "harbor"
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "PRO:0:suspicious:paper",
-    "POV:0:surprised"
-   ],
-   "acao": "discutir",
-   "say": "E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa."
+   "set": "harbor",
+   "bloco": "escalada",
+   "say": "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -222,7 +282,17 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que a maioria dos historiadores pensa diferente: ele provavelmente perderia mesmo assim."
+   "bloco": "pagamento",
+   "say": "Acontece que, para muitos historiadores, a derrota viria igual.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "historiadores"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -240,13 +310,30 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Exércitos enormes da Rússia e da Áustria já marchavam contra ele. Waterloo só apressou o fim.",
    "fx": [
     "stars@40"
    ],
    "sfx": [
     "ding@40"
-   ]
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   },
+   "bloco": "pagamento",
+   "say": "Rússia e Áustria já marchavam contra ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "marchavam"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -262,7 +349,46 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem."
+   "bloco": "loop",
+   "say": "Um dia famoso nem sempre muda o destino. Mas imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "destino"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "campo de Waterloo, Belgica; ilha de Santa Helena",
+  "quando": "18 de junho de 1815, de dia ate o fim da tarde",
+  "participantes": [
+   "Napoleao Bonaparte",
+   "duque de Wellington",
+   "exercito prussiano de Blucher",
+   "soldados franceses e ingleses"
+  ],
+  "roupas": {
+   "NAP": "bicorne e casaco cinza de Napoleao",
+   "FRA": "soldado frances de 1815 de casaca azul",
+   "ING": "casaco vermelho britanico de 1815",
+   "PRU": "prussiano de 1815 de azul escuro"
+  },
+  "cenario": "campos verdes com fazendas, fumaca de canhoes, colinas",
+  "objetos": [
+   "canhoes de 1815",
+   "bandeiras de batalha",
+   "coroa imperial"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+   "https://en.wikipedia.org/wiki/Saint_Helena"
+  ]
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: Napoleao vence em Waterloo e a resposta dos historiadores surpreende. Pagamento: ele perdeu em 1815 e foi exilado; para muitos historiadores, com Russia e Austria marchando, a derrota viria igual.",
+ "loop_frase_ok": true
 }

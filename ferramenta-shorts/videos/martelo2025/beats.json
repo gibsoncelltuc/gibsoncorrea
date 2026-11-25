@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 23,
  "title": "O Martelo da Meia-Noite",
@@ -63,23 +63,10 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Uma bomba gigante, feita para furar montanhas, foi usada de verdade pela primeira vez.",
    "fachada": false,
    "set": "loc_pista",
    "crowd": {
     "n": 0
-   },
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/bunker_bomb",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    },
    "detalhe": false,
    "cx": 0.0,
@@ -87,13 +74,36 @@
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 1,
+   "bloco": "gancho",
+   "say": "Uma bomba feita para furar montanhas foi usada pela primeira vez.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "bomba"
+     }
+    ]
+   },
+   "text": "MARTELO DA MEIA-NOITE",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:shrug",
+    "POV:1:worried"
+   ],
+   "fachada": false,
+   "set": "hall",
+   "bloco": "promessa",
+   "say": "E até hoje ninguém concorda sobre o estrago.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estrago"
      }
     ]
    }
@@ -106,15 +116,16 @@
    ],
    "mapa": "IRÃ",
    "mapa_at": 6,
-   "say": "Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã.",
    "fachada": false,
    "set": "loc_campo",
+   "bloco": "prova",
+   "say": "Foi em 2025, contra usinas nucleares do Irã.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Irã"
+      "na": "usinas"
      }
     ]
    }
@@ -136,32 +147,21 @@
     ]
    ],
    "text": "FORDOW",
-   "say": "A principal, Fordow, fica de oitenta a noventa metros de profundidade, dentro de uma montanha.",
    "fachada": false,
    "set": "mountain",
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/mountain_bunker",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
    "d1": 20.0,
+   "bloco": "prova",
+   "say": "A principal, Fordow, fica dentro de uma montanha.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -172,7 +172,6 @@
   },
   {
    "shot": "wide",
-   "say": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um avião a carrega: o B-2.",
    "fachada": false,
    "set": "loc_pista",
    "tiros": false,
@@ -191,6 +190,8 @@
      ]
     ]
    },
+   "bloco": "prova",
+   "say": "Só a bomba antibunker, de treze toneladas, chega lá.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -202,35 +203,11 @@
    }
   },
   {
-   "shot": "two",
-   "who": [
-    "GEN:0:stern",
-    "PIL:0:smug"
-   ],
-   "interior": "pedra",
-   "text": "MARTELO DA MEIA-NOITE",
-   "say": "A missão se chamou Martelo da Meia-Noite.",
-   "fachada": false,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "chamou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
    "shot": "wide",
-   "say": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até lá.",
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 0,
-   "el": 14,
    "explica": {
     "objeto": "kit/b2_air",
     "rotulos": [
@@ -252,6 +229,8 @@
      }
     ]
    },
+   "bloco": "escalada",
+   "say": "Sete aviões invisíveis B-2 voaram dezoito horas até o alvo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -264,13 +243,10 @@
   },
   {
    "shot": "wide",
-   "say": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 0,
-   "el": 14,
    "explica": {
     "objeto": "kit/b2_air",
     "rotulos": [
@@ -292,6 +268,8 @@
      }
     ]
    },
+   "bloco": "escalada",
+   "say": "Outros aviões foram mandados para despistar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -304,14 +282,11 @@
   },
   {
    "shot": "wide",
-   "say": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fordow.",
    "fachada": false,
    "tiros": false,
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 0,
-   "el": 10,
    "explica": {
     "objeto": "kit/mountain_bunker",
     "rotulos": [
@@ -349,98 +324,14 @@
     "cannon@40",
     "thump@55"
    ],
+   "bloco": "escalada",
+   "say": "Acontece que, de madrugada, doze bombas caíram sobre Fordow.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "bombas"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [],
-   "sfx": [
-    "whoosh@30"
-   ],
-   "say": "Um submarino ainda lançou mísseis contra uma terceira usina.",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "_auto_vis": 0,
-   "riscos_ok": true,
-   "explica": {
-    "objeto": "kit/submarino_moderno",
-    "rotulos": [
-     [
-      "SUBMARINO",
-      "baixo",
-      "submarino"
-     ],
-     [
-      "MISSEIS",
-      "cima",
-      "mísseis"
-     ]
-    ],
-    "vfx": [
-     {
-      "k": "fogo",
-      "na": "lançou",
-      "pts": "topo"
-     },
-     {
-      "k": "vapor",
-      "na": "mísseis",
-      "pts": "topo"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "submarino"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "say": "Depois, os aviões voltaram para casa em segurança.",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_auto_vis": 0,
-   "el": 14,
-   "explica": {
-    "objeto": "kit/b2_air",
-    "rotulos": [
-     [
-      "VOLTA EM SEGURANCA",
-      "cima",
-      "voltaram"
-     ]
-    ],
-    "vfx": [
-     {
-      "k": "velocidade",
-      "na": "voltaram"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "voltaram"
      }
     ]
    }
@@ -453,37 +344,60 @@
    ],
    "interior": "pedra",
    "text": "DESTRUÍDAS?",
-   "say": "Os Estados Unidos disseram que as usinas foram destruídas.",
    "fachada": false,
+   "bloco": "pagamento",
+   "say": "Os Estados Unidos disseram que as usinas foram destruídas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "disseram",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "destruídas"
      }
     ]
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "POV:0:shrug",
-    "POV:1:worried"
+    "GEN:0:stern"
    ],
-   "say": "Mas até hoje ninguém concorda sobre o tamanho do estrago.",
+   "props": [
+    [
+     "kit/bunker_bomb",
+     0.0,
+     -1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
    "fachada": false,
-   "set": "hall",
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "bloco": "loop",
+   "say": "O Irã discorda, e a montanha guarda o segredo. Foi assim que...",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pensa",
-      "na": "concorda",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "segredo"
      }
     ]
    }
@@ -542,5 +456,7 @@
    "Operacao Midnight Hammer (22/6/2025): 7 B-2 de Whiteman (Missouri), ~18 h de voo com reabastecimento; avioes isca enviados para Guam/Pacifico; 14 GBU-57, 12 em Fordow; submarino lancou Tomahawks contra Isfahan (fonte: Wikipedia, Operation Midnight Hammer)."
   ]
  },
- "max_wide": 9
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma bomba feita para furar montanhas foi usada pela primeira vez e ninguem concorda sobre o estrago. Pagamento: sete B-2 voaram 18 horas e 12 bombas caíram sobre Fordow; os EUA dizem destruidas, o debate continua.",
+ "loop_frase_ok": true
 }
