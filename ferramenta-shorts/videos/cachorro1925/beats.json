@@ -58,7 +58,7 @@
     [
      "kit/dog_sit",
      0.0,
-     0.6,
+     -1.2,
      1.0,
      {
       "fixo": true
@@ -87,7 +87,24 @@
     ]
    },
    "text": "GUERRA DO CACHORRO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "track",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "travelling (camera acompanha andando); plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -98,9 +115,12 @@
    "props": [
     [
      "kit/dog_sit",
-     -1.4,
-     -0.2,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "animals": [
@@ -119,6 +139,23 @@
      {
       "faz": "mostra",
       "na": "existiu"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "close",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -401,5 +438,6 @@
  "cinf": 4.5,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um cachorro perdido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 3
 }

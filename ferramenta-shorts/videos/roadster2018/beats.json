@@ -58,7 +58,7 @@
     [
      "kit/roadster",
      0.0,
-     -6.0,
+     -8.0,
      2.67,
      {
       "fixo": true
@@ -72,11 +72,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "hora": "espaco",
    "bloco": "gancho",
    "say": "Um carro de verdade está dando voltas em torno do Sol.",
@@ -90,7 +85,25 @@
     ]
    },
    "text": "CARRO NO ESPAÇO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -101,14 +114,14 @@
     [
      "kit/roadster",
      0.0,
-     -2.5,
+     -8.0,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "veiculo": false,
    "objetos": false,
    "fachada": false,
@@ -124,6 +137,24 @@
      {
       "faz": "mostra",
       "na": "motorista"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -153,11 +184,6 @@
    "objetos": false,
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 22.4,
-   "d1": 21.3,
    "bloco": "prova",
    "say": "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
    "encena": {
@@ -166,6 +192,24 @@
      {
       "faz": "mostra",
       "na": "testou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 22.4,
+   "d1": 21.3,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rocket (alvo z -3.6, camera a 21.3 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -194,11 +238,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "bloco": "prova",
    "say": "Em vez de um peso de concreto, Musk mandou o próprio carro.",
    "encena": {
@@ -207,6 +246,24 @@
      {
       "faz": "mostra",
       "na": "mandou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -247,11 +304,6 @@
    "objetos": false,
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "escalada",
    "say": "O foguete decolou com um estrondo!",
    "encena": {
@@ -260,6 +312,24 @@
      {
       "faz": "mostra",
       "na": "decolou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 3.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -273,14 +343,14 @@
     [
      "kit/roadster",
      0.0,
-     -2.5,
+     -8.0,
      2.67,
      {
       "fixo": true
      }
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "veiculo": false,
    "objetos": false,
    "fachada": false,
@@ -296,6 +366,24 @@
      {
       "faz": "mostra",
       "na": "Starman"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -324,11 +412,6 @@
    "crowd": {
     "n": 0
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "hora": "espaco",
    "bloco": "escalada",
    "say": "No painel, um aviso: não entre em pânico.",
@@ -338,6 +421,24 @@
      {
       "faz": "mostra",
       "na": "pânico"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -420,7 +521,7 @@
     [
      "kit/roadster",
      0.0,
-     -6.0,
+     -8.0,
      2.67,
      {
       "fixo": true
@@ -434,11 +535,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "hora": "espaco",
    "bloco": "loop",
    "say": "Ele continua lá até hoje. Porque...",
@@ -448,6 +544,24 @@
      {
       "faz": "mostra",
       "na": "continua"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/roadster",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -486,5 +600,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um carro de verdade gira em volta do Sol com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 6
 }

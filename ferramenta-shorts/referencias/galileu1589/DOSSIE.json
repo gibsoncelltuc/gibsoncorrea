@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "arctic",
-   "interior loja",
    "interior madeira",
    "interior pedra",
    "loc_campo",
@@ -33,13 +32,10 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_small",
-  "kit/ball",
   "kit/bola_couro",
   "kit/feather",
   "kit/marco_pisa",
   "kit/pisa_tower",
-  "kit/room_azul_shop",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
   "mk/Barrel",

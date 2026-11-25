@@ -3,7 +3,7 @@
  "ano": 1941,
  "cenarios_trocados": [
   [
-   "cena 3",
+   "cena 4",
    "mountain",
    "loc_montanha"
   ]
@@ -25,14 +25,38 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.",
+   "frase": "O velcro nasceu de um passeio com o cachorro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/burr"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E hoje ele está no seu tênis.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -41,9 +65,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,9 +83,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 12,
-   "cena": "b2",
-   "frase": "O pelo do cachorro e a calça dele estavam cheios de carrapichos.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "O cachorro e a calça estavam cheios de carrapichos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,11 +100,11 @@
    "multidao": 0,
    "objetos": [
     "kit/burr",
-    "kit/microscopio_antigo"
+    "kit/microscopio"
    ],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Curioso, ele olhou um carrapicho no microscópio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -96,9 +120,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 15,
-   "cena": "b4",
-   "frase": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que cada espinho tinha um ganchinho na ponta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -114,9 +138,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?",
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Ele pensou: uma fita com ganchinhos e outra com voltinhas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -131,9 +155,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Os tecelões riram. Levou quase dez anos até acertar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -149,25 +173,6 @@
   {
    "camera": "two",
    "personagens": [
-    "MES",
-    "TEC"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/burr"
-   ],
-   "palavras": 14,
-   "cena": "b7",
-   "frase": "O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
     "AST"
    ],
    "multidao": 0,
@@ -176,49 +181,28 @@
     "kit/moon",
     "kit/rocket"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis.",
-   "classe": "chave",
+   "frase": "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
   {
    "camera": "two",
    "personagens": [
-    "MES"
+    "MES",
+    "TEC"
    ],
    "multidao": 0,
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MES"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Um cachorro cheio de carrapichos. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

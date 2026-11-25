@@ -1,28 +1,28 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 25/11 16:15 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:33 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | track | GRE, BUL | - | - | - | Um cachorro fugiu pela fronteira e quase começou uma guerra na Europa.
-b1 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Gréc
-b2 | simples | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego correu atrás do cachorro, e cruzou a fronte
-b3 | simples | mountain | two | BUL, GRE | 12 | - | - | Do outro lado, soldados búlgaros atiraram, e o soldado tombou morto. A
-b4 | simples | loc_montanha | two | GRE, GRE | - | - | - | A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os
-b5 | chave | mountain | wide | GRE | 48 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, em vinte e dois de outubro, o exército grego, com vinte m
-b6 | simples | interior madeira | two | DIP | - | - | - | Só que a Bulgária apelou à Liga das Nações, a antecessora da ONU.
-b7 | chave | mountain | crowd | PRE, DIP | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Liga mandou parar a guerra de dez dias, e a Grécia retirou as tropas
-b8 | simples | loc_campo | two | GRE | - | dog_sit | - | Até hoje, não há acordo nem sobre a existência do cachorro.
-b9 | simples | loc_campo | close | GRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_campo | track | GRE, BUL | - | dog_sit | - | Um cachorro perdido quase começou uma guerra na Europa.
+b1 | simples | loc_campo | close | GRE | - | dog_sit | - | E até hoje não se sabe nem se o cachorro existiu.
+b2 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em 1925, a fronteira entre Grécia e Bulgária estava tensa.
+b3 | transicao | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego cruzou a fronteira atrás do cachorro.
+b4 | simples | mountain | two | BUL, GRE | 12 | - | - | Soldados búlgaros atiraram, e o grego morreu.
+b5 | chave | loc_montanha | orbit | GRE, GRE | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Grécia deu quarenta e oito horas para a Bulgária pagar.
+b6 | chave | mountain | wide | GRE | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, vinte mil soldados gregos invadiram a Bulgária.
+b7 | simples | interior madeira | two | DIP | - | - | - | A Bulgária apelou à Liga das Nações.
+b8 | simples | mountain | two | PRE, DIP | 12 | - | - | A Liga mandou parar. A Grécia recuou e pagou indenização.
+b9 | simples | loc_campo | track | GRE, BUL | - | dog_sit | - | Talvez o cachorro nem existisse. Mas foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/11 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/10 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

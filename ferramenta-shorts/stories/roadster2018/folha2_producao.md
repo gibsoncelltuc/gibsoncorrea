@@ -113,8 +113,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que no volante ia um boneco astronauta, o Starman.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): STA (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/roadster
@@ -134,10 +134,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No painel, um aviso: não entre em pânico.
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviso, painel
 - RISCOS: nenhum
@@ -192,7 +192,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 3 | mistura: close 1% | medio 72% | aberto 23% | detalhe 3%
+- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 4 | mistura: close 1% | medio 66% | aberto 33% | detalhe 0%
 - Interacoes: -
 - RISCOS GERAIS: nenhum
 

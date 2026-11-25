@@ -6,7 +6,7 @@
 - Quem: ['George de Mestral (terno e chapeu de caca, bigode)', 'seu cachorro', 'teceloes', 'astronautas da Apollo']
 - Roupas: {'MES': 'casaco de tweed e chapeu', 'TEC': 'avental de oficina', 'AST': 'traje espacial branco', 'POV': 'roupa dos anos 50'}
 - Cenario real: trilha nos Alpes com pinheiros e montanhas, sala com microscopio, fabrica de tecido; espaco
-- Objetos: ['carrapicho de bardana', 'microscopio', 'fita de velcro de nailon', 'microscopio_antigo']
+- Objetos: ['carrapicho de bardana', 'microscopio', 'fita de velcro de nailon']
 - Cenarios usados no video: arctic, interior madeira, loc_campo, loc_montanha, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Proibido pelo roteiro: -

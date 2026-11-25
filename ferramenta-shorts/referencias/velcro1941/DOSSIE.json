@@ -15,7 +15,7 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 3",
+    "cena 4",
     "mountain",
     "loc_montanha"
    ]
@@ -43,19 +43,12 @@
   "buildings/shop",
   "kit/burr",
   "kit/microscopio",
-  "kit/microscopio_antigo",
   "kit/moon",
   "kit/rocket",
   "kit/room_europa_wood",
-  "kit/room_verde_wood",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
-  "mk/Stool",
   "mk/Table_Large"
  ],
  "pesquisa_visual": {
@@ -77,8 +70,7 @@
   "objetos": [
    "carrapicho de bardana",
    "microscopio",
-   "fita de velcro de nailon",
-   "microscopio_antigo"
+   "fita de velcro de nailon"
   ],
   "explicacoes": [
    "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
@@ -89,8 +81,7 @@
   ],
   "buscas": {
    "carrapicho": "burdock burr hooks microscope",
-   "montanha": "Swiss Alps trail Jura 1940s",
-   "microscopio_antigo": "antique brass compound microscope 1900s"
+   "montanha": "Swiss Alps trail Jura 1940s"
   }
  },
  "fontes": [],

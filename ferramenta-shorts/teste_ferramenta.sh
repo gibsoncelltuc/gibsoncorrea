@@ -113,7 +113,7 @@ grep -q 'revisao_final.sh \$ID ||' enviar_para_principal.sh || f "sessao pode en
 grep -q 'node visivel.mjs' make_video.sh && grep -q 'VISIBILIDADE REPROVADA' aprovar_storyboard.sh && grep -q '__propPool' build3.sh || f "storyboard pode ser aprovado sem medir se o objeto citado aparece (causa raiz do retrabalho de 24/11)"
 grep -q "if (globalThis.FAROL) libInst(.buildings/lighthouse" web/sets/harbor.js || f "farol do cais perto da camera (dominava o quadro no Kiska e no Bolos)"
 grep -q 'conserto DESFEITO' autocorrigir_visibilidade.py && grep -q 'um personagem a menos' autocorrigir_visibilidade.py || f "autocorrecao pode esvaziar cena de acao ou criar risco novo"
-grep -q "for b_ in beats) + 13) / 2.8" mkvideo.py || f "estimativa de duracao otimista (video saia com 53 s)"
+grep -qF "for b_ in beats) + (0 if _VIRAL else 13)) / 2.8" mkvideo.py || f "estimativa de duracao otimista (video saia com 53 s)"
 grep -q "'harbor': \['buildings/shop', 'buildings/lighthouse'\]" mkvideo.py && f "farol entra como fachada no cais (tapava o quadro)"
 grep -q 'OBJETO HEROI: no vao ENTRE os personagens' mkvideo.py || f "objeto heroi empurrado para fora do quadro pela regra nada-na-frente"
 grep -q '_fixa_nome' mkvideo.py || f "veiculo sem pasta (locomotive) trava o carregamento do video"
@@ -252,6 +252,10 @@ grep -q "Selfie na ONU: o set 'hall'" mkvideo.py || f "ONU/plenario a ceu aberto
 grep -qF "'smartphone|kit/phone" mkvideo.py || f "celular gigante do tamanho de uma pessoa (Selfie na ONU)"
 grep -qF "1 if any(float(m_.get(k_, 0)) % 1 for k_ in ('de', 'para')) else 0" mkvideo.py || f "contador com valor quebrado (1,5 bi) arredondava para 2 (PayPal)"
 grep -q "PayPal: personagem SOZINHO fica no centro e a placa" mkvideo.py || f "placa atras da cabeca do personagem sozinho (PayPal)"
+python3 estrutura_viral.py scilly1651 >/dev/null || f "estrutura viral: o piloto Scilly tem que passar no estrutura_viral.py"
+grep -q "roteiro FORA da estrutura viral" mkvideo.py || f "roteiro antigo (fora da estrutura viral) passaria para o render"
+grep -q "_VIRAL and B.get('beats')" mkvideo.py || f "estrutura viral: loop visual (ultima cena = primeira) e sem chamada falada"
+grep -q "Galileu: antes de 1950 a bola vira de couro" mkvideo.py || f "heroi kit/ball antes de 1950 sumia (troca para bola de couro)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

@@ -1,27 +1,36 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 157 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.
+## Cena b0  (~3.1 s)
+- Narracao: O velcro nasceu de um passeio com o cachorro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 1941
+- Texto na tela: INVENTADO POR UM CACHORRO
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro.
+## Cena b1  (~2.4 s)
+- Narracao: E hoje ele está no seu tênis.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b2  (~3.8 s)
+- Narracao: Em 1941, na Suíça, George de Mestral voltou de uma caminhada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: SUÍÇA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: O pelo do cachorro e a calça dele estavam cheios de carrapichos.
+## Cena b3  (~3.1 s)
+- Narracao: O cachorro e a calça estavam cheios de carrapichos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,75 +38,57 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: Curioso, ele levou um carrapicho para casa e olhou no microscópio.
+## Cena b4  (~2.4 s)
+- Narracao: Curioso, ele olhou um carrapicho no microscópio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito; encena: olha (point) @8 -> acao + som de efeito; encena: examina (think) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.2 s)
-- Narracao: Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.
+## Cena b5  (~3.1 s)
+- Narracao: Acontece que cada espinho tinha um ganchinho na ponta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: pega (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~4.1 s)
-- Narracao: Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
+## Cena b6  (~3.4 s)
+- Narracao: Ele pensou: uma fita com ganchinhos e outra com voltinhas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.2 s)
-- Narracao: Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.
+## Cena b7  (~3.1 s)
+- Narracao: Os tecelões riram. Levou quase dez anos até acertar.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito; encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riram -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~4.8 s)
-- Narracao: O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho.
+## Cena b8  (~3.8 s)
+- Narracao: Até que astronautas usaram no espaço, e o mundo inteiro quis.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: segredo -> ring + som de alerta; encena: pensa (think) @1 -> acao + som de efeito; encena: pega (lift) @8 -> acao + som de efeito
-- Efeito visual marcado: stars@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.8 s)
-- Narracao: Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VELCRO
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b9  (~5.2 s)
-- Narracao: Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9  (~3.1 s)
+- Narracao: Um cachorro cheio de carrapichos. E foi assim que...
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Efeito visual marcado: stars@30
+- Texto na tela: INVENTADO POR UM CACHORRO
 - Funcao na historia: FECHO/PIADA FINAL
 

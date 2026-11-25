@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 11 acoes catalogadas, 11 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 10 acoes catalogadas, 10 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -98,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 23.3s - 8 palavras - plano group
+## Cena b6 - 20.7s a 23.3s - 8 palavras - plano crowd
 > "No painel, um aviso: não entre em pânico."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -106,12 +106,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

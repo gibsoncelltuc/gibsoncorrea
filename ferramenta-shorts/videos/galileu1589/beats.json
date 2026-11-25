@@ -78,11 +78,6 @@
    "crowd": {
     "n": 0
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "gancho",
    "say": "Uma bola pesada e uma leve caíram no chão ao mesmo tempo.",
    "encena": {
@@ -95,7 +90,25 @@
     ]
    },
    "text": "PESADO x LEVE",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -106,9 +119,9 @@
    "props": [
     [
      "kit/ball",
-     1.6,
-     -0.6,
      1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
@@ -122,6 +135,19 @@
      {
       "faz": "mostra",
       "na": "pena"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -181,8 +207,8 @@
    "props": [
     [
      "kit/pisa_tower",
-     0.0,
-     -8.0,
+     7.0,
+     -14.0,
      0.6,
      {
       "fixo": true
@@ -190,16 +216,16 @@
     ],
     [
      "kit/ball",
-     -1.6,
-     0.8,
-     0.95,
+     1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ],
     [
      "war/cannonballs",
-     7.0,
+     -7.0,
      -14.0,
      1.0,
      {
@@ -212,11 +238,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2,
    "bloco": "escalada",
    "say": "Dizem que Galileu levou duas bolas ao alto da torre de Pisa.",
    "encena": {
@@ -225,6 +246,31 @@
      {
       "faz": "mostra",
       "na": "levou"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/cannonballs",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -242,8 +288,8 @@
    "props": [
     [
      "kit/pisa_tower",
-     0.0,
-     -9.7,
+     7.0,
+     -14.0,
      1.0,
      {
       "fixo": true
@@ -251,16 +297,16 @@
     ],
     [
      "kit/ball",
-     -1.6,
-     0.8,
-     0.95,
+     1.0,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ],
     [
      "war/cannonballs",
-     7.0,
+     -7.0,
      -14.0,
      1.0,
      {
@@ -278,11 +324,6 @@
    ],
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "escalada",
    "say": "Acontece que as duas chegaram juntas ao chão.",
    "encena": {
@@ -291,6 +332,31 @@
      {
       "faz": "mostra",
       "na": "chegaram"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pisa_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "war/cannonballs",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -329,8 +395,8 @@
    "props": [
     [
      "tools/hammer",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -356,10 +422,6 @@
    ],
    "acao": "comemorar",
    "hora": "noite",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 1971, na Lua, um astronauta soltou martelo e pena juntos.",
    "encena": {
@@ -368,6 +430,29 @@
      {
       "faz": "mostra",
       "na": "soltou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e hammer juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "tools/hammer",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/feather",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -386,8 +471,8 @@
    "props": [
     [
      "tools/hammer",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -413,10 +498,6 @@
    ],
    "acao": "comemorar",
    "hora": "noite",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Os dois caíram exatamente ao mesmo tempo.",
    "encena": {
@@ -425,6 +506,29 @@
      {
       "faz": "mostra",
       "na": "caíram"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e hammer juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "tools/hammer",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/feather",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -483,5 +587,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: uma bola pesada e uma leve cairam juntas, e seculos depois ate uma pena deu razao a Galileu. Pagamento: em Pisa as bolas cairam juntas e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

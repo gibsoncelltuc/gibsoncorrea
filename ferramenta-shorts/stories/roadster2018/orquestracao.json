@@ -124,7 +124,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "STA"
    ],

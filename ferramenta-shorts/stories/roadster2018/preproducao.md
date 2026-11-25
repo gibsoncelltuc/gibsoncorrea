@@ -10,7 +10,7 @@ b2 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/rocket | - | -
 b3 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b4 | loc_pista | wide | 1 | reagir, batalha | kit/falcon_air | - | -
 b5 | interior loja | two | 1 | conversar | kit/roadster | - | -
-b6 | arctic | group | 1 | conversar | kit/roadster | - | -
+b6 | arctic | crowd | 1 | parados (so fala e pisca) | kit/roadster | - | -
 b7 | arctic | two | 0 | parados (so fala e pisca) | kit/roadster, kit/globe | - | -
 b8 | arctic | wide | 1 | parados (so fala e pisca) | kit/roadster | - | -
 
@@ -18,5 +18,5 @@ OBJETO HEROI: kit/roadster
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b4
 Interacoes entre personagens: nenhuma
 
-Cenas com personagens parados: 3 de 9
+Cenas com personagens parados: 4 de 9 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
 FALTA MODELAR: nada

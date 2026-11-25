@@ -7,7 +7,7 @@
    "item": "Galileu e a Torre de Pisa",
    "consultas": [
     "Galileu e a Torre de Pisa",
-    "Uma Conta Pisa Itália Aristóteles 1589"
+    "Uma Em Galileu Pisa 1589"
    ]
   },
   {
@@ -92,7 +92,7 @@
   },
   {
    "tipo": "heroi",
-   "item": "ball",
+   "item": "bola couro",
    "consultas": [
     "bola de ferro pesada",
     "Galileu e a Torre de Pisa"
@@ -103,13 +103,6 @@
    "item": "pisa tower",
    "consultas": [
     "pisa tower"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "bola couro",
-   "consultas": [
-    "bola couro"
    ]
   }
  ]

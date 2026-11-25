@@ -8,9 +8,9 @@ b2 | wide | -  | tropa, mapa | - | -
 b3 | two | -  | tropa, interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa | - | -
 b5 | two | -  | tropa, interior | - | -
-b6 | group | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
+b6 | crowd | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
 b8 | wide | espaco  | tropa, placa: CARRO NO ESPAÇO | - | -
 
-Mistura de planos: close 1% | medio 72% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 1% | medio 66% | aberto 33% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

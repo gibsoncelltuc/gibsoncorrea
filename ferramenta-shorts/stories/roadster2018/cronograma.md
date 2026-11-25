@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Gerado em 25/11 17:31 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:33 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | transicao | loc_pista | wide | MUS | - | rocket | - | Em 2018, a SpaceX tes
 b3 | simples | interior loja | two | ENG | - | roadster | - | Em vez de um peso de concreto, Musk mandou o próprio carro.
 b4 | chave | loc_pista | wide | ENG | - | falcon_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O foguete decolou com um estrondo!
 b5 | simples | interior loja | two | STA | - | roadster | - | Acontece que no volante ia um boneco astronauta, o Starman.
-b6 | simples | arctic | group | STA | - | roadster | - | No painel, um aviso: não entre em pânico.
+b6 | simples | arctic | crowd | STA | - | roadster | - | No painel, um aviso: não entre em pânico.
 b7 | explicativa | arctic | two | sem personagem | - | globe, roadster | corpo: kit/roadster (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som e | O carro deixou a Terra e foi girar em torno do Sol.
 b8 | transicao | arctic | wide | MUS | - | roadster | - | Ele continua lá até hoje. Porque...
 
