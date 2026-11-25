@@ -1,269 +1,287 @@
 {
- "duration": 53.928,
- "frames30": 1618,
- "source": "silence-align (cost 0.98)",
+ "duration": 54.984,
+ "frames30": 1650,
+ "source": "silence-align (cost 1.02)",
  "segments": [
   [
-   0.2655,
-   2.35183
+   0.264917,
+   2.96729
   ],
   [
-   2.85592,
-   3.04908
+   3.47012,
+   4.986
   ],
   [
-   3.27254,
-   4.19308
+   5.48675,
+   7.21129
   ],
   [
-   4.39242,
-   5.82158
+   7.41667,
+   8.62704
   ],
   [
-   6.34204,
-   7.92275
+   8.77704,
+   9.47075
   ],
   [
-   8.05758,
-   9.23833
+   9.69096,
+   11.327
   ],
   [
-   9.38004,
-   10.0342
+   11.8401,
+   12.6309
   ],
   [
-   10.5539,
-   13.3247
+   12.9662,
+   15.2236
   ],
   [
-   13.7071,
-   16.135
+   15.6288,
+   16.4973
   ],
   [
-   16.6455,
-   18.9138
+   17.0045,
+   17.285
   ],
   [
-   19.2571,
-   20.1475
+   17.6687,
+   18.3863
   ],
   [
-   20.4634,
-   21.3361
+   18.803,
+   20.2119
   ],
   [
-   21.8802,
-   22.8215
+   20.3668,
+   21.4375
   ],
   [
-   23.0186,
-   23.7535
+   21.9267,
+   22.6944
   ],
   [
-   24.1919,
-   25.5669
+   22.9683,
+   25.951
   ],
   [
-   25.7373,
-   26.8437
+   26.4599,
+   27.2972
   ],
   [
-   27.3373,
-   28.105
+   27.8,
+   28.8534
   ],
   [
-   28.3789,
-   31.3616
+   29.09,
+   30.614
   ],
   [
-   31.8733,
-   33.084
+   31.1288,
+   32.6282
   ],
   [
-   33.2812,
-   34.1539
+   32.8274,
+   33.7098
   ],
   [
-   34.4921,
-   35.6193
+   34.0423,
+   35.1656
   ],
   [
-   36.1199,
-   41.6215
+   35.6771,
+   35.8875
   ],
   [
-   42.136,
-   43.317
+   36.0313,
+   37.0083
   ],
   [
-   43.668,
-   45.3947
+   37.131,
+   41.5791
   ],
   [
-   45.6804,
-   46.8859
+   42.094,
+   43.2731
   ],
   [
-   47.4237,
-   48.0276
+   43.6425,
+   45.7938
   ],
   [
-   48.1487,
-   48.9177
+   46.2978,
+   47.9719
   ],
   [
-   49.4335,
-   50.0809
+   48.5015,
+   49.1041
   ],
   [
-   50.5895,
-   51.7203
+   49.2252,
+   49.994
   ],
   [
-   52.1172,
-   53.5567
+   50.5087,
+   51.1532
+  ],
+  [
+   51.6661,
+   52.7969
+  ],
+  [
+   53.1938,
+   54.6332
   ]
  ],
  "phrases": [
   {
-   "text": "Elon Musk promised a car that flies.",
-   "s": 0.266,
-   "e": 2.352
+   "text": "A car lifted off the ground and flew in front of guests.",
+   "s": 0.265,
+   "e": 2.967
   },
   {
-   "text": "And,",
-   "s": 2.856,
-   "e": 3.049
+   "text": "And it was not a special effect.",
+   "s": 3.47,
+   "e": 4.986
   },
   {
-   "text": "in front of guests,",
-   "s": 3.273,
-   "e": 4.193
-  },
-  {
-   "text": "his car lifted off the ground.",
-   "s": 4.392,
-   "e": 5.822
-  },
-  {
-   "text": "It was October twenty twenty-six,",
-   "s": 6.342,
-   "e": 7.923
+   "text": "It was Elon Musk's new invention,",
+   "s": 5.487,
+   "e": 7.211
   },
   {
    "text": "at a SpaceX base,",
-   "s": 8.058,
-   "e": 9.238
+   "s": 7.417,
+   "e": 8.627
   },
   {
-   "text": "in Texas.",
-   "s": 9.38,
-   "e": 10.034
+   "text": "in Texas,",
+   "s": 8.777,
+   "e": 9.471
   },
   {
-   "text": "The secret is SpaceX thrusters hidden in the car:",
-   "s": 10.554,
-   "e": 13.325
+   "text": "in October twenty twenty-six.",
+   "s": 9.691,
+   "e": 11.327
   },
   {
-   "text": "ten nozzles that blow compressed air downward.",
-   "s": 13.707,
-   "e": 16.135
+   "text": "The first trick:",
+   "s": 11.84,
+   "e": 12.631
   },
   {
-   "text": "And a suction system sticks the car to the track,",
-   "s": 16.645,
-   "e": 18.914
+   "text": "a suction system sticks the car to the track,",
+   "s": 12.966,
+   "e": 15.224
   },
   {
-   "text": "like a suction cup,",
-   "s": 19.257,
-   "e": 20.148
+   "text": "like a suction cup.",
+   "s": 15.629,
+   "e": 16.497
   },
   {
-   "text": "even upside down.",
-   "s": 20.463,
-   "e": 21.336
-  },
-  {
-   "text": "In front of the guests,",
-   "s": 21.88,
-   "e": 22.822
+   "text": "With it,",
+   "s": 17.005,
+   "e": 17.285
   },
   {
    "text": "the car sped up,",
-   "s": 23.019,
-   "e": 23.753
+   "s": 17.669,
+   "e": 18.386
   },
   {
    "text": "climbed a giant curved ramp and hung upside down.",
-   "s": 24.192,
-   "e": 26.844
+   "s": 18.803,
+   "e": 21.438
   },
   {
    "text": "Then it let go,",
-   "s": 27.337,
-   "e": 28.105
+   "s": 21.927,
+   "e": 22.694
   },
   {
    "text": "flew spinning through the air and landed in a cloud of white smoke.",
-   "s": 28.379,
-   "e": 31.362
+   "s": 22.968,
+   "e": 25.951
   },
   {
-   "text": "Then it took off and flew,",
-   "s": 31.873,
-   "e": 33.084
+   "text": "The second trick:",
+   "s": 26.46,
+   "e": 27.297
+  },
+  {
+   "text": "ten hidden nozzles,",
+   "s": 27.8,
+   "e": 28.853
+  },
+  {
+   "text": "that blow compressed air downward.",
+   "s": 29.09,
+   "e": 30.614
+  },
+  {
+   "text": "That is how it took off and flew,",
+   "s": 31.129,
+   "e": 32.628
   },
   {
    "text": "on its thrusters,",
-   "s": 33.281,
-   "e": 34.154
+   "s": 32.827,
+   "e": 33.71
   },
   {
    "text": "over parked vehicles.",
-   "s": 34.492,
-   "e": 35.619
+   "s": 34.042,
+   "e": 35.166
   },
   {
-   "text": "According to Tesla, it goes from zero to almost one hundred kilometers per hour in under one second.",
-   "s": 36.12,
-   "e": 41.621
+   "text": "And,",
+   "s": 35.677,
+   "e": 35.888
+  },
+  {
+   "text": "according to Tesla,",
+   "s": 36.031,
+   "e": 37.008
+  },
+  {
+   "text": "it goes from zero to almost one hundred kilometers per hour in under one second.",
+   "s": 37.131,
+   "e": 41.579
   },
   {
    "text": "But experts pointed out:",
-   "s": 42.136,
-   "e": 43.317
+   "s": 42.094,
+   "e": 43.273
   },
   {
-   "text": "it lasted only a few seconds,",
-   "s": 43.668,
-   "e": 45.395
+   "text": "the flight lasted only a few seconds.",
+   "s": 43.642,
+   "e": 45.794
   },
   {
-   "text": "it was not a real flight.",
-   "s": 45.68,
-   "e": 46.886
+   "text": "It is not a real flying car yet.",
+   "s": 46.298,
+   "e": 47.972
   },
   {
    "text": "Flying car or jumping car?",
-   "s": 47.424,
-   "e": 48.918
+   "s": 48.502,
+   "e": 49.994
   },
   {
    "text": "You decide.",
-   "s": 49.434,
-   "e": 50.081
+   "s": 50.509,
+   "e": 51.153
   },
   {
    "text": "Now don't forget to comment:",
-   "s": 50.59,
-   "e": 51.72
+   "s": 51.666,
+   "e": 52.797
   },
   {
    "text": "what should the next video be about?",
-   "s": 52.117,
-   "e": 53.557
+   "s": 53.194,
+   "e": 54.633
   }
  ]
 }

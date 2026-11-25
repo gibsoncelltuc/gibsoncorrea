@@ -4,44 +4,45 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 3. b0: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 4. b1: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-5. b5: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+5. b4: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 6. b6: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 7. b0: objeto "kit/torre_luz" saiu com 0% da altura da tela, a ficha de cena planejou 18%
 8. b6: objeto "kit/roadster26" saiu com 13% da altura da tela, a ficha de cena planejou 30%
 9. b6: objeto "kit/cybertruck" saiu com 0% da altura da tela, a ficha de cena planejou 18%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Elon Musk prometeu um carro que voa.": 
-- f1 "E,": 
-- f2 "diante de convidados,": 
-- f3 "o carro dele saiu do chão.": 
-- f4 "Foi em outubro de dois mil e vinte e seis,": 
-- f5 "numa base da SpaceX,": 
-- f6 "no Texas.": 
-- f7 "O segredo são propulsores da SpaceX escondidos no carro:": 
-- f8 "dez bocais que sopram ar comprimido para baixo.": 
-- f9 "E um sistema de sucção gruda o carro na pista,": 
-- f10 "como uma ventosa,": 
-- f11 "até de cabeça para baixo.": 
-- f12 "Diante dos convidados,": 
-- f13 "o carro acelerou,": 
-- f14 "subiu uma rampa curva gigante e ficou de cabeça para baixo.": 
-- f15 "Então se soltou,": 
-- f16 "voou girando no ar e pousou numa nuvem de fumaça branca.": 
-- f17 "Depois decolou e voou,": 
+- f0 "Um carro saiu do chão e voou na frente de convidados.": 
+- f1 "E não era efeito especial.": 
+- f2 "Era a nova invenção de Elon Musk,": 
+- f3 "numa base da SpaceX,": 
+- f4 "no Texas,": 
+- f5 "em outubro de dois mil e vinte e seis.": 
+- f6 "O primeiro truque:": 
+- f7 "um sistema de sucção gruda o carro na pista,": 
+- f8 "como uma ventosa.": 
+- f9 "Com ele,": 
+- f10 "o carro acelerou,": 
+- f11 "subiu uma rampa curva gigante e ficou de cabeça para baixo.": 
+- f12 "Então se soltou,": 
+- f13 "voou girando no ar e pousou numa nuvem de fumaça branca.": 
+- f14 "O segundo truque:": 
+- f15 "dez bocais escondidos,": 
+- f16 "que sopram ar comprimido para baixo.": 
+- f17 "Foi assim que ele decolou e voou,": 
 - f18 "nos propulsores,": 
 - f19 "por cima de veículos parados.": 
-- f20 "Segundo a Tesla,": 
-- f21 "ele vai de zero a quase cem por hora em menos de um segundo.": 
-- f22 "Mas especialistas lembraram:": 
-- f23 "aquilo durou poucos segundos,": 
-- f24 "não foi um voo de verdade.": 
-- f25 "Carro voador ou carro que pula?": 
-- f26 "Você decide.": 
-- f27 "Agora não deixe de comentar:": 
-- f28 "qual deve ser o tema do próximo vídeo?": 
+- f20 "E,": 
+- f21 "segundo a Tesla,": 
+- f22 "ele vai de zero a quase cem por hora em menos de um segundo.": 
+- f23 "Mas especialistas lembraram:": 
+- f24 "o voo durou poucos segundos.": 
+- f25 "Ainda não é um carro voador de verdade.": 
+- f26 "Carro voador ou carro que pula?": 
+- f27 "Você decide.": 
+- f28 "Agora não deixe de comentar:": 
+- f29 "qual deve ser o tema do próximo vídeo?": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado
