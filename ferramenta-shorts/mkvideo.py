@@ -775,6 +775,10 @@ for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
         for _e in json.load(open(_f, encoding='utf-8')):
             if not any(_e[1] == x[1] for x in OBJ_DICT): OBJ_DICT.append((_e[0], _e[1], float(_e[2]), _e[3] if len(_e) > 3 else False))
     except Exception as _x: print(f'AVISO: {_f} invalido ({_x})')
+if ANO is not None and ANO < 500:
+    for _b in B['beats']:
+        if isinstance(_b.get('explica'), dict) and _b['explica'].get('objeto') == 'kit/crown': _b['explica']['objeto'] = 'kit/coroa_louros'   # explicacao na Antiguidade tambem
+if ANO is not None and ANO < 500: OBJ_DICT = [(r_, 'kit/coroa_louros' if m_ == 'kit/crown' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]   # 25/11 'coroa' na Antiguidade = coroa de LOUROS de ouro (pesquisa: Munique 400 a.C., Aigai), nunca a coroa de pontas medieval
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
 def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
