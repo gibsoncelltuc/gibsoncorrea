@@ -24,7 +24,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/fire",
     "kit/flamethrower",
     "kit/marco_hollywood"
    ],
@@ -217,7 +216,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/fire",
     "kit/flamethrower"
    ],
    "palavras": 10,

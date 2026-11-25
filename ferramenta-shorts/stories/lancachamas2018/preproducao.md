@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/bancada, kit/flamethrower, kit/fire, kit/marco_hollywood | - | -
+b0 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/bancada, kit/flamethrower, kit/marco_hollywood | - | -
 b1 | loc_cidade | two | 2 | conversar, INTERAGEM: aproxima-se | kit/extinguisher, kit/bancada | - | -
 b2 | loc_cidade | wide | 2 | parados (so fala e pisca) | kit/tunel_boring, kit/bancada, kit/flamethrower, kit/marco_hollywood | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/flamethrower | - | -
@@ -13,7 +13,7 @@ b5 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | mk/Cr
 b6 | interior loja | group | 2 | conversar, INTERAGEM: insiste | kit/extinguisher | - | -
 b7 | loc_cidade | crowd | 18 | reagir, batalha | kit/marco_hollywood | - | -
 b8 | interior pedra | two | 2 | comemorar, INTERAGEM: pular | nature/picket_fence | - | -
-b9 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/bancada, kit/flamethrower, kit/fire | - | -
+b9 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/bancada, kit/flamethrower | - | -
 
 OBJETO HEROI: kit/flamethrower
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7

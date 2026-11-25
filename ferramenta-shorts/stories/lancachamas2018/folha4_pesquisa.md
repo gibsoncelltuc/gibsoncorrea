@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Não é um Lança-Chamas
 - Epoca: 2018 | Lugar: Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles | Quando: janeiro a fevereiro de 2018, dia
-- HEROIS (objeto): kit/flamethrower, kit/bancada, kit/fire
+- HEROIS (objeto): kit/flamethrower, kit/bancada
 - HEROIS (personagens): MUS, CMP
 - Cenarios: interior loja, interior pedra, loc_cidade, loc_deserto
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -25,7 +25,6 @@ objeto | Not-A-Flamethrower (lanca-chamas preto parecido com fuzil) | Not-A-Flam
 objeto | extintor vermelho de brinde | extintor vermelho de brinde / extintor vermelho de brinde 2018 | Busto de Getúlio Vargas na Assembleia Legislativa  (referencias/lancachamas2018/prints/extintor_vermelho_de_brinde_d7d0b5.jpg); Interior de galpão do Cais Mauá, em Porto Alegrem  (referencias/lancachamas2018/prints/extintor_vermelho_de_brinde_3303b8.jpg)
 heroi | flamethrower | Not-A-Flamethrower / O Não é um Lança-Chamas | Shawnp0wers-grinning-flamethrower.png (referencias/lancachamas2018/prints/flamethrower_593e3e.jpg); Flamethrower 20261005 (20).JPG (referencias/lancachamas2018/prints/flamethrower_2fadb8.jpg); Flamethrower 20261005 (29).JPG (referencias/lancachamas2018/prints/flamethrower_94241d.jpg)
 heroi | bancada | bancada | SEM REFERENCIA
-heroi | fire | fire | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)

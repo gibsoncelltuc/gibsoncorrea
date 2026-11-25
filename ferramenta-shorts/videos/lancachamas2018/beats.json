@@ -63,17 +63,6 @@
       "y": 0.95,
       "fixo": true
      }
-    ],
-    [
-     "kit/fire",
-     3.2,
-     -2.4,
-     0.9,
-     {
-      "nocol": true,
-      "fixo": true,
-      "y": 0.9
-     }
     ]
    ],
    "set": "loc_cidade",
@@ -607,17 +596,6 @@
       "nocol": true,
       "y": 0.95,
       "fixo": true
-     }
-    ],
-    [
-     "kit/fire",
-     3.2,
-     -2.4,
-     0.9,
-     {
-      "nocol": true,
-      "fixo": true,
-      "y": 0.9
      }
     ]
    ],
