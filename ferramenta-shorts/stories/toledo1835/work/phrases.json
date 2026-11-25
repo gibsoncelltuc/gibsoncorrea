@@ -1,0 +1,180 @@
+{
+ "duration": 38.304,
+ "frames30": 1149,
+ "source": "silence-align (cost 0.63)",
+ "segments": [
+  [
+   0.152792,
+   1.46325
+  ],
+  [
+   1.69867,
+   3.42517
+  ],
+  [
+   4.18433,
+   6.13267
+  ],
+  [
+   6.90754,
+   9.82158
+  ],
+  [
+   10.5955,
+   11.7249
+  ],
+  [
+   11.908,
+   12.7595
+  ],
+  [
+   12.986,
+   13.6755
+  ],
+  [
+   14.4796,
+   16.0556
+  ],
+  [
+   16.8278,
+   18.3734
+  ],
+  [
+   19.1601,
+   20.6508
+  ],
+  [
+   21.4184,
+   22.5581
+  ],
+  [
+   23.3517,
+   24.0715
+  ],
+  [
+   24.3808,
+   24.9057
+  ],
+  [
+   25.0721,
+   26.2378
+  ],
+  [
+   27.0364,
+   28.2643
+  ],
+  [
+   29.0398,
+   30.6442
+  ],
+  [
+   31.4382,
+   33.847
+  ],
+  [
+   34.6405,
+   36.0527
+  ],
+  [
+   36.843,
+   37.5838
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois estados foram \u00e0 guerra,",
+   "s": 0.153,
+   "e": 1.463
+  },
+  {
+   "text": "e o \u00fanico ferido levou uma canivetada.",
+   "s": 1.699,
+   "e": 3.425
+  },
+  {
+   "text": "E quem perdeu a guerra acabou ficando rico.",
+   "s": 4.184,
+   "e": 6.133
+  },
+  {
+   "text": "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "s": 6.908,
+   "e": 9.822
+  },
+  {
+   "text": "O governador de Michigan,",
+   "s": 10.595,
+   "e": 11.725
+  },
+  {
+   "text": "de 23 anos,",
+   "s": 11.908,
+   "e": 12.759
+  },
+  {
+   "text": "ocupou Toledo.",
+   "s": 12.986,
+   "e": 13.675
+  },
+  {
+   "text": "Ohio mandou a pr\u00f3pria mil\u00edcia.",
+   "s": 14.48,
+   "e": 16.056
+  },
+  {
+   "text": "As tropas ficaram frente a frente.",
+   "s": 16.828,
+   "e": 18.373
+  },
+  {
+   "text": "Houve gritos e tiros para o alto.",
+   "s": 19.16,
+   "e": 20.651
+  },
+  {
+   "text": "Ningu\u00e9m acertou ningu\u00e9m.",
+   "s": 21.418,
+   "e": 22.558
+  },
+  {
+   "text": "O \u00fanico ferido:",
+   "s": 23.352,
+   "e": 24.072
+  },
+  {
+   "text": "um xerife,",
+   "s": 24.381,
+   "e": 24.906
+  },
+  {
+   "text": "esfaqueado numa taverna.",
+   "s": 25.072,
+   "e": 26.238
+  },
+  {
+   "text": "Ohio ficou com Toledo.",
+   "s": 27.036,
+   "e": 28.264
+  },
+  {
+   "text": "Michigan levou uma floresta gelada.",
+   "s": 29.04,
+   "e": 30.644
+  },
+  {
+   "text": "Acontece que debaixo da floresta havia cobre e ferro.",
+   "s": 31.438,
+   "e": 33.847
+  },
+  {
+   "text": "Michigan perdeu e ficou rico.",
+   "s": 34.641,
+   "e": 36.053
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 36.843,
+   "e": 37.584
+  }
+ ]
+}

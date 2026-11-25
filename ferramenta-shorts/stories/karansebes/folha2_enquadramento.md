@@ -54,7 +54,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "No escuro, alguém gritou: Turcos! Turcos!"
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
 - CAMERA: close (rosto e ombros)
-- PERSONAGENS: HUS no centro, expressao shock; multidao de 12 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: HUS no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "TURCOS!" numa placa atras dos personagens, na palavra 3 da frase
 

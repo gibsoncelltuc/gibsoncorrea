@@ -114,7 +114,7 @@
    "personagens": [
     "SOL"
    ],
-   "multidao": 3,
+   "multidao": 0,
    "objetos": [
     "cannon",
     "kit/canhao_moderno"
@@ -163,7 +163,7 @@
     "SOL",
     "GEN"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 8,
    "cena": "b7",
@@ -172,10 +172,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "CID",
     "CID"

@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Alguém viu algo, e os canhões antiaéreos começaram a atirar."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: SOL (soldado) no centro, expressao shout; multidao de 3 (SOL) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: SOL (soldado) no centro, expressao shout; sem multidao; acao: fala/gesto
 - OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Acontece que não havia nada lá em cima."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: SOL (soldado) na esquerda, expressao shout; GEN (general) na direita, expressao surprised; multidao de 12 (GEN, SOL) ATRAS dos principais; acao: discutir
+- PERSONAGENS: SOL (soldado) na esquerda, expressao shout; GEN (general) na direita, expressao surprised; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b8: "Algumas pessoas morreram por acidente e susto."

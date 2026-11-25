@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 25 - O Carro que Voou de Cabeça para Baixo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 94 palavras (~32 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um carro voou na frente dos convidados, e não era efeito especial.

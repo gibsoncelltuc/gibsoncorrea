@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: gun@25
 - SOM: cannon@45
 - TEXTO NA TELA: "CONTRA SI MESMO" flutuando no alto, na palavra 5 da frase
-- TAKES: sequencia de acao em 3 cameras (2.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b1 - E o inimigo venceu sem disparar um tiro.
@@ -46,9 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TUR na esquerda, expressao laugh; TUR na direita, expressao grin; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "FOGO AMIGO" numa placa atras dos personagens, na palavra 4 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (2.9-4.6 s): mesmo angulo
-  - take 2 (4.6-6.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1788, o exército austríaco tinha soldados de vários países.
@@ -69,9 +67,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "VÁRIAS LÍNGUAS" numa placa atras dos personagens, na palavra 7 da frase
 - MAPA: KARÁNSEBES (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (6.5-7.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.9-9.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (6.0-8.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.0-9.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - Numa noite, os hussardos foram procurar o inimigo.
@@ -90,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: travelling (camera acompanha andando)
 - PERSONAGENS: HUS na esquerda, expressao stern, segura lantern; HUS na direita, expressao neutral; multidao de 6 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Acharam moradores vendendo aguardente e beberam o barril todo.
@@ -109,18 +107,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)
 - PERSONAGENS: HUS na esquerda, expressao shock; LOC na direita, expressao grin, segura bottle; multidao de 6 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/barrel_r: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (13.0-14.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (14.6-16.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (16.1-17.7 s): mesmo angulo
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - A infantaria quis um gole. Negaram, e alguém atirou.
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): AUT (variante 0, expressao stern); HUS (variante 0, expressao laugh); AUT (variante 1, expressao shock) | multidao: 6 de AUT/HUS
-- Animacao: discutir | interacao: discutir
+- Animacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gole, infantaria
 - RISCOS: nenhum
@@ -133,17 +128,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +167 da cena
 - SOM: gun@167
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (18.1-19.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (19.7-21.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (21.4-23.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (17.7-19.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (19.2-20.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b6 - No escuro, alguém gritou: Turcos! Turcos!
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
-- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 12 de AUT/HUS
+- Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 0 de TUR
 - Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro
@@ -153,10 +147,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
 - CAMERA: close (rosto e ombros)
-- PERSONAGENS: HUS no centro, expressao shock; multidao de 12 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: HUS no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "TURCOS!" numa placa atras dos personagens, na palavra 3 da frase
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (22.0-23.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (23.4-24.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Acontece que ninguém entendia a língua do vizinho. Todos atiraram em t...
@@ -175,7 +171,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: AUT na esquerda, expressao shock; AUT no centro, expressao pained; HUS na direita, expressao shock; multidao de 24 (AUT, HUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (4.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - Até os canhões dispararam contra o próprio exército.
@@ -201,9 +197,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: cannon@85
 - SOM: cannon@97
 - SOM: cannon@109
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (30.5-32.6 s): mesmo angulo
-  - take 2 (32.6-34.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Os turcos chegaram e acharam o acampamento abandonado.
@@ -223,9 +217,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TUR na esquerda, expressao shock, segura spyglass; TUR na direita, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ABANDONADO" numa placa atras dos personagens, na palavra 16 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (34.9-36.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (36.5-38.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b10 - Ninguém precisou lutar contra eles. Foi assim que...
@@ -255,11 +247,13 @@ kit/tent | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b7, b10 | planos abertos: 4 | mistura: close 21% | medio 56% | aberto 21% | detalhe 2%
-- Interacoes: b1 pular, b4 brindar, b5 discutir, b9 aproxima-se
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b7, b10 | planos abertos: 5 | mistura: close 21% | medio 47% | aberto 30% | detalhe 2%
+- Interacoes: b1 pular, b4 brindar, b9 aproxima-se
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~40.9 s (voz real; 100 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py karansebes
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~40.9 s (voz real; 100 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).
@@ -280,6 +274,6 @@ kit/tent | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 - SOM: gun@25
 - SOM: cannon@45
 - TEXTO NA TELA: "CONTRA SI MESMO" flutuando no alto, na palavra 5 da frase
-- TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 

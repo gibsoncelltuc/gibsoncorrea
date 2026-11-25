@@ -91,10 +91,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
    "encena": {
@@ -108,7 +104,24 @@
     ]
    },
    "text": "NENHUM INIMIGO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -128,10 +141,6 @@
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E até hoje ninguém sabe no que eles atiravam.",
    "encena": {
@@ -140,6 +149,23 @@
      {
       "faz": "mostra",
       "na": "atiravam"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -227,6 +253,18 @@
       "na": "atirou"
      }
     ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/submarino_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -274,10 +312,6 @@
    ],
    "shot_lock": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "De madrugada, sirenes tocaram e holofotes varreram o céu.",
    "encena": {
@@ -293,6 +327,35 @@
       "na": "holofotes"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "low",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -304,13 +367,7 @@
    ],
    "tiros": true,
    "crowd": {
-    "n": 3,
-    "outfits": [
-     "SOL"
-    ],
-    "march": false,
-    "expr": "shout",
-    "poucos": true
+    "n": 0
    },
    "props": [
     [
@@ -367,6 +424,25 @@
       "quem": 0
      }
     ]
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -415,10 +491,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "Foram mais de mil tiros, e estilhaços caíram na cidade.",
    "encena": {
@@ -428,6 +500,29 @@
       "faz": "grita",
       "na": "caíram",
       "quem": 1
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -442,12 +537,7 @@
    ],
    "acao": "discutir",
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "GEN",
-     "SOL"
-    ],
-    "march": false
+    "n": 0
    },
    "bloco": "escalada",
    "say": "Acontece que não havia nada lá em cima.",
@@ -459,7 +549,8 @@
       "na": "nada"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -526,10 +617,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "O medo venceu o sono. E foi assim que...",
    "encena": {
@@ -538,6 +625,23 @@
      {
       "faz": "mostra",
       "na": "sono"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -574,5 +678,6 @@
  },
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda contra um inimigo invisivel e ninguem sabe no que atiravam. Pagamento: mais de mil tiros, estilhacos na cidade, mortes por acidente e nada no ceu.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

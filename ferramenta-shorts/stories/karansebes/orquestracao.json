@@ -116,13 +116,13 @@
    "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "AUT",
     "HUS",
     "AUT"
    ],
-   "multidao": 6,
+   "multidao": 32,
    "objetos": [],
    "palavras": 9,
    "cena": "b5",
@@ -138,7 +138,7 @@
    "personagens": [
     "HUS"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [],
    "palavras": 6,
    "cena": "b6",

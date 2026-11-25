@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 96 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countryside | 10 cenas, 96 palavras (~33 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Dois estados foram à guerra, e o único ferido levou uma canivetada.
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b1  (~2.8 s)
 - Narracao: E quem perdeu a guerra acabou ficando rico.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
 - Efeito visual marcado: -

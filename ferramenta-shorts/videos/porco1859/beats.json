@@ -137,10 +137,6 @@
      1.1
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "detalhe": false,
    "bloco": "promessa",
    "say": "E a única baixa da guerra foi ele.",
@@ -150,6 +146,23 @@
      {
       "faz": "mostra",
       "na": "baixa"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/cross",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -232,10 +245,6 @@
    ],
    "detalhe": true,
    "set": "countryside",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "prova",
    "say": "Um fazendeiro americano viu um porco comendo suas batatas.",
    "encena": {
@@ -245,6 +254,23 @@
       "faz": "olha",
       "na": "porco",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/batatas",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -547,5 +573,6 @@
  "min_momentos": 1,
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: dois paises quase foram a guerra por um porco, a unica baixa. Pagamento: tiro no porco, dez contra cem dolares, soldados e navios; o almirante recusou atacar e ninguem deu um tiro.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }

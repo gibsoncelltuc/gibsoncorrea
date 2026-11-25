@@ -16,3 +16,11 @@
 
 ## 25/11 17:28 autocorrecao de visibilidade
 - b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 18:11 autocorrecao de visibilidade
+- b3: objeto citado "kit/ear_jar" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/ear_jar" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 18:12 autocorrecao de visibilidade
+- b3: objeto citado "kit/ear_jar" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b5: objeto "kit/ear_jar" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

@@ -15,7 +15,7 @@
     "MUS",
     "ENA"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -190,7 +190,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "ENG",
     "ENA"
@@ -206,7 +206,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "loc_pista"
   },
   {
    "camera": "wide",

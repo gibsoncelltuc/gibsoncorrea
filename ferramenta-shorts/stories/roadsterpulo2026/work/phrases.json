@@ -1,0 +1,144 @@
+{
+ "duration": 33.12,
+ "frames30": 994,
+ "source": "silence-align (cost 0.39)",
+ "segments": [
+  [
+   0.144417,
+   2.01762
+  ],
+  [
+   2.23846,
+   3.38104
+  ],
+  [
+   4.18125,
+   5.90446
+  ],
+  [
+   6.68896,
+   9.41846
+  ],
+  [
+   10.2199,
+   10.7952
+  ],
+  [
+   11.092,
+   12.6682
+  ],
+  [
+   13.4572,
+   15.9893
+  ],
+  [
+   16.7788,
+   17.6758
+  ],
+  [
+   17.9211,
+   19.3972
+  ],
+  [
+   20.2112,
+   20.8943
+  ],
+  [
+   21.1343,
+   23.139
+  ],
+  [
+   23.9423,
+   26.4907
+  ],
+  [
+   27.2767,
+   28.8475
+  ],
+  [
+   29.6361,
+   30.8407
+  ],
+  [
+   31.598,
+   32.4064
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um carro voou na frente dos convidados,",
+   "s": 0.144,
+   "e": 2.018
+  },
+  {
+   "text": "e n\u00e3o era efeito especial.",
+   "s": 2.238,
+   "e": 3.381
+  },
+  {
+   "text": "E ningu\u00e9m esperava como ele fez isso.",
+   "s": 4.181,
+   "e": 5.904
+  },
+  {
+   "text": "Elon Musk mostrou o novo Roadster numa base no Texas.",
+   "s": 6.689,
+   "e": 9.418
+  },
+  {
+   "text": "Primeiro truque:",
+   "s": 10.22,
+   "e": 10.795
+  },
+  {
+   "text": "uma suc\u00e7\u00e3o gruda o carro na pista.",
+   "s": 11.092,
+   "e": 12.668
+  },
+  {
+   "text": "Assim ele subiu uma rampa e ficou de cabe\u00e7a para baixo.",
+   "s": 13.457,
+   "e": 15.989
+  },
+  {
+   "text": "Depois se soltou,",
+   "s": 16.779,
+   "e": 17.676
+  },
+  {
+   "text": "girou no ar e pousou na fuma\u00e7a.",
+   "s": 17.921,
+   "e": 19.397
+  },
+  {
+   "text": "Segundo truque:",
+   "s": 20.211,
+   "e": 20.894
+  },
+  {
+   "text": "dez bocais sopram ar comprimido para baixo.",
+   "s": 21.134,
+   "e": 23.139
+  },
+  {
+   "text": "Acontece que foi assim que ele decolou por cima de carros.",
+   "s": 23.942,
+   "e": 26.491
+  },
+  {
+   "text": "Mas o voo durou poucos segundos.",
+   "s": 27.277,
+   "e": 28.848
+  },
+  {
+   "text": "Ainda n\u00e3o \u00e9 carro voador.",
+   "s": 29.636,
+   "e": 30.841
+  },
+  {
+   "text": "Mas foi assim que...",
+   "s": 31.598,
+   "e": 32.406
+  }
+ ]
+}

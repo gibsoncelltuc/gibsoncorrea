@@ -215,8 +215,8 @@
    "props": [
     [
      "kit/barrel_r",
-     1.6,
-     -1.6,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
@@ -238,10 +238,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "detalhe": true,
    "shot_lock": true,
    "bloco": "prova",
@@ -263,7 +259,24 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/barrel_r",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "group",
@@ -318,13 +331,7 @@
    "tstyle": "red",
    "hora": "noite",
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "AUT",
-     "HUS"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "bloco": "escalada",
    "say": "No escuro, alguém gritou: Turcos! Turcos!",
@@ -337,7 +344,8 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "shot": "crowd",
@@ -435,6 +443,24 @@
      {
       "faz": "atira",
       "na": "dispararam"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -552,5 +578,6 @@
  },
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra ele mesmo e o inimigo venceu sem tiro. Pagamento: briga pela aguardente, grito de 'Turcos!', todos atirando em todos e os turcos acharam o acampamento abandonado.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
+## Cena b0 - 0.2s a 2.9s - 12 palavras - plano two
 > "Dois estados foram à guerra, e o único ferido levou uma canivetada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "canivetada" (3.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "canivetada" (2.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -22,24 +22,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 16: parada, reagindo (stern), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 6.6s - 8 palavras - plano close
+## Cena b1 - 4.2s a 5.9s - 8 palavras - plano reveal
 > "E quem perdeu a guerra acabou ficando rico."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rico" (6.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rico" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (5.4s) | EFEITO: puff | fumaca + som | OK |
+| 1 | perdeu (4.4s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (5.4s): executa: fumaca + som
+- EFEITO: puff na palavra perdeu (4.4s): executa: fumaca + som
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 <!-- /FISICA -->
 
-## Cena b2 - 6.9s a 9.3s - 11 palavras - plano two
+## Cena b2 - 6.9s a 9.4s - 11 palavras - plano two
 > "Ohio e Michigan disputavam Toledo por causa de um mapa errado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -60,11 +60,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 9.6s a 12.7s - 9 palavras - plano close
+## Cena b3 - 10.6s a 13.3s - 9 palavras - plano close
 > "O governador de Michigan, de 23 anos, ocupou Toledo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ocupou" (12.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ocupou" (13.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -75,11 +75,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 12.8s a 17.0s - 11 palavras - plano crowd
+## Cena b4 - 14.5s a 18.2s - 11 palavras - plano crowd
 > "Ohio mandou a própria milícia. As tropas ficaram frente a frente."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) OHI fala apontando | na palavra "frente" (15.9s)
+  1) OHI fala apontando | na palavra "frente" (17.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -93,16 +93,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b5 - 17.2s a 19.7s - 10 palavras - plano orbit
+## Cena b5 - 19.2s a 22.2s - 10 palavras - plano orbit
 > "Houve gritos e tiros para o alto. Ninguém acertou ninguém."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) OHI atira com a arma (clarao na boca do cano + som) | na palavra "tiros" (18.3s)
+  1) OHI atira com a arma (clarao na boca do cano + som) | na palavra "tiros" (19.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tiros (18.3s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | tiros (18.3s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | tiros (19.7s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | tiros (19.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 3 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
@@ -110,8 +110,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiros (18.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ACAO: atira na palavra tiros (18.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- EFEITO: burst na palavra tiros (19.7s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra tiros (19.7s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (OHI)
 - BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - ATUACAO (a cena toda): executa: reagir
@@ -119,11 +119,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b6 - 20.0s a 23.1s - 8 palavras - plano two
+## Cena b6 - 23.4s a 25.8s - 8 palavras - plano two
 > "O único ferido: um xerife, esfaqueado numa taverna."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) RAP acao do motor: espeta | na palavra "esfaqueado" (22.3s)
+  1) RAP acao do motor: espeta | na palavra "esfaqueado" (25.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -136,11 +136,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b7 - 23.4s a 27.5s - 9 palavras - plano wide
+## Cena b7 - 27.0s a 30.3s - 9 palavras - plano wide
 > "Ohio ficou com Toledo. Michigan levou uma floresta gelada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levou" (25.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levou" (29.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -151,11 +151,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b8 - 27.7s a 30.2s - 9 palavras - plano two
+## Cena b8 - 31.4s a 33.6s - 9 palavras - plano two
 > "Acontece que debaixo da floresta havia cobre e ferro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cobre" (29.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cobre" (33.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -170,27 +170,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 30.5s a 33.5s - 9 palavras - plano two
+## Cena b9 - 34.6s a 37.4s - 9 palavras - plano two
 > "Michigan perdeu e ficou rico. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) OHI mao na testa (derrota) | na palavra "perdeu" (30.8s)
+  1) OHI mao na testa (derrota) | na palavra "perdeu" (35.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (30.8s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (30.8s) | ACAO: perde | mao na testa | OK |
+| 1 | perdeu (35.1s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (35.1s) | ACAO: perde | mao na testa | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra perdeu (30.8s): executa: fumaca + som
-- ACAO: perde na palavra perdeu (30.8s): executa: mao na testa
+- EFEITO: puff na palavra perdeu (35.1s): executa: fumaca + som
+- ACAO: perde na palavra perdeu (35.1s): executa: mao na testa
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 16: parada, reagindo (stern), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
