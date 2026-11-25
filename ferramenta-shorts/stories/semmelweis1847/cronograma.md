@@ -6,7 +6,7 @@ Gerado em 25/11 18:36 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior hospital | two | SEM | - | wash_basin | - | Um médico pediu para os colegas lavarem as mãos e foi expulso.
+b0 | simples | interior hospital | group | SEM | - | wash_basin | - | Um médico pediu para os colegas lavarem as mãos e foi expulso.
 b1 | simples | street | two | PAR | - | marco_viena, wash_basin | - | Hoje é chamado de salvador das mães.
 b2 | transicao | street | reveal | POV, POV | 6 | maca, marco_viena, room_hospital | - | Em 1847, no hospital de Viena, havia duas alas de parto.
 b3 | simples | interior hospital | wide | MAE, MAE, SEM | - | maca | - | Na ala dos médicos, morriam muito mais mães, de febre.
@@ -15,7 +15,7 @@ b5 | transicao | interior hospital | wide | SEM, DIR | - | - | - | Acontece que 
 b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.
 b7 | chave | street | crowd | SEM, MAE, PAR | - | marco_viena, wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As mortes caíram quase dez vezes.
 b8 | simples | interior hospital | two | DIR, SEM | - | - | - | Mas os médicos se ofenderam e o expulsaram.
-b9 | simples | interior hospital | wide | SEM | - | wash_basin | - | Lavar as mãos virou insulto. Foi assim que...
+b9 | simples | interior hospital | group | SEM | - | wash_basin | - | Lavar as mãos virou insulto. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
