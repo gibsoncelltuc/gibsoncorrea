@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 2 | dancar, INTERAGEM: avanca e o outro recua | kit/beehive, kit/bee | - | -
-b1 | interior madeira | two | 1 | conversar | kit/beehive | - | -
+b1 | interior madeira | group | 1 | conversar | kit/beehive | - | -
 b2 | loc_campo | wide | 2 | conversar, batalha | kit/beehive, kit/bee | - | -
 b3 | loc_campo | two | 1 | dancar | kit/beehive, kit/bee | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/beehive, kit/bee | - | -

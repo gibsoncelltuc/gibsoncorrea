@@ -14,9 +14,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
 - PERSONAGENS: FRI (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
 
 ## b2: "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia."

@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | dancar | OK |
 
-## Cena b1 - 6.2s a 9.1s - 10 palavras - plano two
+## Cena b1 - 6.2s a 9.1s - 10 palavras - plano group
 > "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
