@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; DEP na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1º PAÍS DO MUNDO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (8.1-9.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
