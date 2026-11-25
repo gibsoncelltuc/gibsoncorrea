@@ -21,9 +21,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "COLA QUE FALHOU" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (0.0-1.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.5-3.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E a ideia veio de alguém cantando na igreja.
@@ -43,9 +41,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (3.3-4.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (4.8-6.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1968, Spencer Silver tentava criar uma super cola.
@@ -65,9 +61,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; SIL (cientista) na direita, expressao neutral, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (6.7-8.2 s): mesmo angulo
-  - take 2 (8.2-9.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (5.0-6.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (6.8-8.6 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Saiu o contrário: uma cola que grudava e soltava fácil.
@@ -88,9 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (10.0-11.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.7-13.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que Art Fry cantava no coral da igreja.
@@ -109,9 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: FRY na esquerda, expressao sad; PAD (padre) no centro, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (13.7-15.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (15.2-16.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - E os papeizinhos do hinário viviam caindo.
@@ -132,7 +124,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: whoosh@30
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - Ele pensou: marcadores com a cola fraca.
@@ -155,7 +147,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@20
 - SOM: sting@40
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - O papel saiu amarelo por acaso: era o único que tinha.
@@ -173,7 +165,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/postit no centro, manobra "gira"
 - PASSOS NA TELA: PAPEL DE RASCUNHO -> AMARELO -> POR ACASO
-- TAKES: 1 take de explicacao (3.7 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.9 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Em 1980, o post-it chegou às lojas.
@@ -193,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - A cola não colava direito. E foi assim que...
@@ -219,9 +211,11 @@ buildings/church | b1 | pronto | conferir na folha de contato se le bem; se pare
 - Objeto heroi: kit/postit | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 4% | medio 82% | aberto 14% | detalhe 0%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b5 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: curto demais: ~29.3 s (voz real); minimo 30 s -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py postit1968
   - FOLHA 4: 7 item(ns) sem referencia visual: A Cola que Não Colava, Art Fry, colega que cantava no coral, chefes da 3M, hinario com marcadores caindo, amostras gratis, postit, O papel saiu amarelo por acas -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: curto demais: ~29.3 s (voz real); minimo 30 s
 - geral: FOLHA 4: 7 item(ns) sem referencia visual: A Cola que Não Colava, Art Fry, colega que cantava no coral, chefes da 3M, hinario com marcadores caindo, amostras gratis, postit, O papel saiu amarelo por acas
 
 ## Reparos depois do render
@@ -237,8 +231,6 @@ buildings/church | b1 | pronto | conferir na folha de contato se le bem; se pare
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (28.9-30.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (30.4-31.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
