@@ -397,5 +397,7 @@
    "maca": "red apple on branch"
   }
  },
- "max_wide": 3
+ "max_wide": 3,
+ "cinf": 4.5,
+ "exp": 1.12
 }
