@@ -41,8 +41,7 @@
    "objetos": [
     "buildings/windmill",
     "kit/marco_amsterdam",
-    "kit/tulip_bed",
-    "kit/tulip_red"
+    "kit/tulip_bed"
    ],
    "palavras": 17,
    "cena": "b1",
@@ -217,7 +216,6 @@
     "buildings/house_small",
     "kit/marco_amsterdam",
     "kit/tulip_bed",
-    "kit/tulip_red",
     "nature/picket_fence",
     "nature/tree_oak"
    ],
