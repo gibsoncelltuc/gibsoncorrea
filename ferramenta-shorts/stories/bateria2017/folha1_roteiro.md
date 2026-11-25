@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a Austrália do Sul em cem dias, ou seria de graça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 100 DIAS | mapa: AUSTRÁLIA
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto; encena: pensa (think) @2 -> acao + som de efeito; encena: perde (facepalm) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto
 - Efeito visual marcado: burst@40
 - Texto na tela: 50 MILHÕES
 - Funcao na historia: GRANDE MOMENTO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: empurra (push) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Narracao: E tudo começou com uma resposta curta, escrita no celular.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_fone (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

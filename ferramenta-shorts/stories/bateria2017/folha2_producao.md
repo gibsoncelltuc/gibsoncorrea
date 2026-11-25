@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, graca
 - RISCOS: nenhum

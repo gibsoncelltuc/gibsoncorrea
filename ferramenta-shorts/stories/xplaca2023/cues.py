@@ -31,8 +31,3 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 whoosh(F(_A[11]), 0.4, 0.35)
 ding(F(int(_W(152) - 2)), 0.5, 1319)
 gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.2)), 4, 260, 0.12); gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.58)), 4, 185, 0.12)
-tick(F(int(_W(10))))
-tick(F(int(_W(39))))
-tick(F(int(_W(94))))
-creak(F(int(_W(104))))
-tick(F(int(_W(144))))

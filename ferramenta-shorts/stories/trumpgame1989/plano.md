@@ -2,16 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | dinheiro (stars + som de sino); encena: paga (reach) @12 (acao + som de efeito) | -
+b0 | two | -  | - | dinheiro (stars + som de sino) | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
-b2 | two | -  | interior, objeto na mao | encena: negocio (reach) @7 (acao + som de efeito) | -
+b2 | two | -  | interior, objeto na mao | encena: pega (lift) @7 (acao + som de efeito) | -
 b3 | close | -  | interior | - | -
 b4 | two | -  | interior | apareceu (dust + som de impacto) | -
 b5 | two | -  | interior, objeto na mao | - | -
-b6 | two | -  | tropa, interior, placa: 800 MIL | vender (stars + som de sino); vendeu (stars + som de sino); encena: x_espera (cross) @2 (acao + som de efeito); encena: negocio (reach) @3 (acao + som de efeito); encena: negocio (reach) @9 (acao + som de efeito) | -
+b6 | two | -  | tropa, interior, placa: 800 MIL | vender (stars + som de sino); vendeu (stars + som de sino) | -
 b7 | orbit | -  | tropa | - | -
 b8 | two | -  | interior | - | -
-b9 | crowd | -  | batalha aberta com tiros, tropa, placa: VOLTOU | encena: chega (point) @3 (acao + som de efeito) | -
+b9 | crowd | -  | batalha aberta com tiros, tropa, placa: VOLTOU | - | -
 b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 

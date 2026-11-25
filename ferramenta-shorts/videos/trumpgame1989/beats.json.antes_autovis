@@ -69,7 +69,6 @@
      }
     ]
    ],
-   "text": "1989",
    "fx": [
     "stars@30"
    ],
@@ -93,6 +92,17 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -106,7 +116,17 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
+   "say": "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Era"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -147,6 +167,17 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "comprar"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -192,6 +223,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "As"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -277,6 +318,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -302,7 +353,28 @@
    "text": "800 MIL",
    "titulo": true,
    "say": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_espera",
+      "na": "esperava"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "vender"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "vendeu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -342,6 +414,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Em"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -445,6 +527,17 @@
    },
    "_susp_ok": true,
    "_enq_shot": "crowd",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "voltou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -481,6 +574,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Um"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -520,7 +623,12 @@
    "https://en.wikipedia.org/wiki/Trump:_The_Game"
   ],
   "buscas": {
-   "jogo": "Trump The Game 1989 board game box"
+   "jogo": "Trump The Game 1989 board game box",
+   "tabuleiro": "Trump The Game 1989 Milton Bradley board game",
+   "caixa do jogo Trump: The Game": "Trump The Game board game box 1989",
+   "familias jogando": "1980s family playing board game living room",
+   "boardgame": "Trump The Game 1989 Milton Bradley board game",
+   "kit/boardgame": "Trump The Game 1989 Milton Bradley board game"
   }
  },
  "cinf": 4.5,

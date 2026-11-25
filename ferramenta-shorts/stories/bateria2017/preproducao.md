@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | interior loja | two | 1 | encena | kit/megapack | - | -
-b1 | loc_campo | wide | 1 | encena | kit/megapack | - | -
+b1 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/megapack | - | -
 b2 | loc_cidade | wide | 31 | encena, batalha | kit/megapack | - | -
 b3 | interior pedra | two | 1 | reagir | kit/megapack | - | -
 b4 | loc_campo | wide | 1 | batalha | kit/megapack, nature/picket_fence | - | -
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/megapack
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
 Interacoes entre personagens: b7 aproxima-se
 
-Cenas com personagens parados: 2 de 12
+Cenas com personagens parados: 3 de 12
 FALTA MODELAR: nada

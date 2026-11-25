@@ -108,15 +108,14 @@
    "set": "loc_patio",
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "examina",
-      "na": "investigada"
+      "faz": "mostra",
+      "na": "placa",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -141,10 +140,10 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Foi"
+      "na": "Twitter",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -172,15 +171,14 @@
    ],
    "set": "street",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "tira",
-      "na": "tirar"
+      "faz": "mostra",
+      "na": "operários",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -195,14 +193,14 @@
    ],
    "interior": "loja",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Mas"
+      "na": "trabalho",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -235,14 +233,14 @@
    "d1": 8.0,
    "tela": false,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Sobraram"
+      "na": "letras",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -268,15 +266,14 @@
    "hora": "noite",
    "_susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "instalaram"
+      "faz": "mostra",
+      "na": "gigante",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -296,11 +293,12 @@
    "tiros": false,
    "batalha": false,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "luz"
+      "na": "luz",
+      "quem": 0
      }
     ]
    }
@@ -317,20 +315,14 @@
    ],
    "interior": "pedra",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "recebeu"
-     },
-     {
-      "quem": 0,
-      "faz": "x_abre",
-      "na": "abriu"
+      "faz": "mostra",
+      "na": "prefeitura",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -345,14 +337,14 @@
    ],
    "interior": "loja",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "empresa",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -370,12 +362,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "sai",
-      "na": "retirado"
+      "faz": "mostra",
+      "na": "polícia",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -413,15 +404,14 @@
    "interior": "madeira",
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "trocar"
+      "faz": "mostra",
+      "na": "Moral",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,

@@ -92,14 +92,14 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
+      "quem": 0,
       "faz": "mostra",
-      "na": "Um"
+      "na": "homem"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "fachada": false,
    "crowd": {
@@ -160,11 +160,10 @@
     "passos": [
      {
       "quem": 0,
-      "faz": "fala",
-      "na": "prometeu"
+      "faz": "mostra",
+      "na": "dezessete"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -234,20 +233,14 @@
    "set": "loc_cidade",
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "quem": 0,
-      "faz": "pensa",
-      "na": "calcularam"
-     },
-     {
-      "quem": 0,
-      "faz": "perde",
-      "na": "perder"
+      "faz": "mostra",
+      "na": "jornais"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -290,15 +283,14 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "quem": 0,
-      "faz": "empurra",
-      "na": "fechado"
+      "faz": "mostra",
+      "na": "contrato"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "fachada": false,
    "crowd": {
@@ -388,14 +380,14 @@
    },
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
+      "quem": 0,
       "faz": "mostra",
       "na": "Acontece"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -533,14 +525,14 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "alvo": "kit/megapack",
+      "na": "imprensa"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -555,14 +547,14 @@
    ],
    "interior": "loja",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
+      "quem": 0,
       "faz": "mostra",
-      "na": "O"
+      "na": "empresário"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -600,14 +592,14 @@
    },
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
+      "quem": 0,
       "faz": "mostra",
-      "na": "Ou"
+      "na": "conversa"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -666,15 +658,14 @@
    "_susp_ok": true,
    "_enq_shot": "two",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "quem": 0,
-      "faz": "x_fone",
-      "na": "celular"
+      "faz": "mostra",
+      "na": "começou"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -720,11 +711,11 @@
     "sentido": "fato",
     "passos": [
      {
+      "quem": 0,
       "faz": "mostra",
       "na": "Moral"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,

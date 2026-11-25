@@ -9,7 +9,7 @@ b1 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | - | -
 b2 | loc_cidade | group | 13 | reagir, INTERAGEM: o outro se aproxima, batalha | kit/finch | - | -
 b3 | interior loja | two | 2 | reagir, INTERAGEM: insiste | - | - | -
 b4 | loc_cidade | wide | 7 | parados (so fala e pisca) | - | - | -
-b5 | loc_cidade | crowd | 1 | encena, batalha | kit/marco_goldengate, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b5 | loc_cidade | crowd | 1 | batalha | kit/marco_goldengate, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b6 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b7 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -

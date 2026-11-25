@@ -3,15 +3,15 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, interior | - | -
-b1 | wide | -  | tropa, placa: 100 DIAS, mapa | encena: fala (point) @7 (acao + som de efeito) | -
-b2 | wide | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto); encena: pensa (think) @2 (acao + som de efeito); encena: perde (facepalm) @6 (acao + som de efeito) | -
-b3 | two | -  | tropa, interior | encena: empurra (push) @3 (acao + som de efeito) | -
+b1 | wide | -  | tropa, placa: 100 DIAS, mapa | - | -
+b2 | wide | -  | batalha aberta com tiros, tropa, placa: 50 MILHÕES | perder (dust + som de impacto) | -
+b3 | two | -  | tropa, interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa, placa: 55 DIAS | - | -
 b5 | wide | -  | tropa, mapa | - | -
 b6 | two | -  | tropa | - | -
 b7 | two | -  | interior | - | -
 b8 | two | -  | - | - | -
-b9 | two | -  | interior | encena: x_fone (lift) @9 (acao + som de efeito) | -
+b9 | two | -  | interior | - | -
 b10 | wide | -  | tropa | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 

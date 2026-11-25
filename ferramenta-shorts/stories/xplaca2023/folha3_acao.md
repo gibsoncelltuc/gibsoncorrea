@@ -1,24 +1,22 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 03 - O X no Prédio do Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
 > "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS acao do motor: examina | na palavra "investigada" (2.9s)
+- LEITURA DA FRASE: sentido FATO
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "placa" (2.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | investigada (2.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | X | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | X | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra investigada (2.9s): executa: examina com lupa/microscopio/balanca
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -27,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Foi" (5.1s)
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Twitter" (8.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -45,19 +43,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 11.4s a 14.1s - 12 palavras - plano group
 > "Os operários começaram a tirar as letras e o passarinho da fachada."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) OPE acao do motor: tira | na palavra "tirar" (12.5s)
+- LEITURA DA FRASE: sentido FATO
+  1) OPE a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "operários" (11.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tirar (12.5s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: tira na palavra tirar (12.5s): executa: tira foto (celular + flash)
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: reagir
@@ -67,8 +63,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 15.4s a 17.9s - 9 palavras - plano two
 > "Mas o trabalho parou no meio, porque faltavam licenças."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Mas" (15.4s)
+- LEITURA DA FRASE: sentido FATO
+  1) OPE a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalho" (15.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -84,8 +80,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 19.3s a 22.2s - 11 palavras - plano wide
 > "Sobraram só as letras E e R, em cinza, na fachada."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Sobraram" (19.3s)
+- LEITURA DA FRASE: sentido FATO
+  1) OPE2 a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "letras" (20.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -99,18 +95,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 23.6s a 26.9s - 12 palavras - plano crowd
 > "Acontece que depois instalaram um X gigante piscando no alto do prédio."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS pega/levanta o objeto | na palavra "instalaram" (24.5s)
+- LEITURA DA FRASE: sentido FATO
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "gigante" (25.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | instalaram (24.5s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | PLACA | X | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | X | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra instalaram (24.5s): executa: levanta/segura
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -118,8 +112,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 27.9s a 31.0s - 13 palavras - plano two
 > "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (28.1s)
+- LEITURA DA FRASE: sentido FATO
+  1) POV a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (28.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -137,21 +131,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 32.2s a 37.6s - 20 palavras - plano two
 > "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) FIS acao do motor: entrega | na palavra "recebeu" (33.0s)
-  2) FIS acao do motor: abre | na palavra "abriu" (35.4s)
+- LEITURA DA FRASE: sentido FATO
+  1) FIS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prefeitura" (32.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | recebeu (33.0s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | abriu (35.4s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra recebeu (33.0s): executa: estende a mao entregando
-- ACAO: x_abre na palavra abriu (35.4s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
@@ -159,8 +148,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 38.9s a 41.3s - 11 palavras - plano two
 > "A empresa disse que era uma placa temporária para um evento."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "A" (38.9s)
+- LEITURA DA FRASE: sentido FATO
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "empresa" (39.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -177,17 +166,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) FIS acao do motor: sai | na palavra "retirado" (46.9s)
+  1) FIS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "polícia" (42.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | retirado (46.9s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra retirado (46.9s): executa: sai andando pela lateral
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
@@ -195,17 +182,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b10 - 48.3s a 51.3s - 12 palavras - plano two
 > "Moral da história: até trocar de nome precisa de licença da prefeitura."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS acao do motor: entrega | na palavra "trocar" (49.5s)
+- LEITURA DA FRASE: sentido FATO
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Moral" (48.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocar (49.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra trocar (49.5s): executa: estende a mao entregando
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 

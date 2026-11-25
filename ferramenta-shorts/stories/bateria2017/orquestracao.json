@@ -39,7 +39,7 @@
    "palavras": 22,
    "cena": "b1",
    "frase": "Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a Austrália do Sul em cem dias, ou seria de graça.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
