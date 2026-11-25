@@ -144,12 +144,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | explodiu (27.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: burst na palavra explodiu (27.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -161,12 +163,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b9 - 31.9s a 34.1s - 7 palavras - plano two
 > "Um lanche perdido. E foi assim que..."

@@ -7,6 +7,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao smile; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/chocolate: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "CHOCOLATE NO BOLSO" flutuando no alto, na palavra 1 da frase
 
 ## b1: "E hoje ele está em quase toda cozinha."
@@ -57,18 +58,18 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Depois testou um ovo, que explodiu na cara de um colega."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
-- PERSONAGENS: SPE no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
+- PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: squeal@50
 
 ## b8: "O primeiro forno era mais alto que uma pessoa."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao smile; COL no centro, expressao surprised; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o radarange (alvo z -3.6, camera a 16.7 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: SPE no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/radarange: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.6 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b9: "Um lanche perdido. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

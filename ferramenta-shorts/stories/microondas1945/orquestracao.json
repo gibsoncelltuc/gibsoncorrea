@@ -154,7 +154,8 @@
   {
    "camera": "two",
    "personagens": [
-    "SPE"
+    "SPE",
+    "COL"
    ],
    "multidao": 0,
    "objetos": [
@@ -178,18 +179,16 @@
   {
    "camera": "orbit",
    "personagens": [
-    "SPE",
-    "COL",
-    "ENG"
+    "SPE"
    ],
    "multidao": 6,
    "objetos": [
-    "kit/microwave"
+    "kit/radarange"
    ],
    "palavras": 9,
    "cena": "b8",
    "frase": "O primeiro forno era mais alto que uma pessoa.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -203,6 +202,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/chocolate",
     "kit/microwave"
    ],
    "palavras": 7,

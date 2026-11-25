@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Gerado em 25/11 17:56 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:59 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,9 +13,9 @@ b3 | simples | interior galpao | two | SPE, ENG | - | - | - | Uma peça do radar
 b4 | simples | interior galpao | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dela com chocolate no bolso.
 b5 | simples | interior madeira | two | ENG, SPE | - | chocolate | - | Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
 b6 | chave | interior madeira | two | SPE, ENG | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou pipoca, e os grãos estouraram pela sala.
-b7 | chave | interior madeira | two | SPE | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, que explodiu na cara de um colega.
-b8 | simples | loc_campo | orbit | SPE, COL, ENG | 6 | microwave | - | O primeiro forno era mais alto que uma pessoa.
-b9 | simples | street | two | SPE, COL | - | microwave | - | Um lanche perdido. E foi assim que...
+b7 | chave | interior madeira | two | SPE, COL | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, que explodiu na cara de um colega.
+b8 | transicao | loc_campo | orbit | SPE | 6 | radarange | - | O primeiro forno era mais alto que uma pessoa.
+b9 | simples | street | two | SPE, COL | - | chocolate, microwave | - | Um lanche perdido. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

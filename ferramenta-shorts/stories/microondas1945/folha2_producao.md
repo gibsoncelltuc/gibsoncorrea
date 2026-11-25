@@ -18,6 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao smile; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/chocolate: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "CHOCOLATE NO BOLSO" flutuando no alto, na palavra 1 da frase
 - TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
@@ -154,8 +155,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): SPE (variante 0, expressao grin)
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): SPE (variante 0, expressao grin); COL (variante 0, expressao shock)
+- Animacao: conversar | interacao: cochichar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
 - RISCOS: nenhum
@@ -163,9 +164,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
-- PERSONAGENS: SPE no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
+- PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: squeal@50
@@ -176,18 +177,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): SPE (variante 0, expressao smile); COL (variante 0, expressao surprised); ENG (variante 0, expressao shock) | multidao: 6 de POV
-- Animacao: reagir
-- Objetos/modelos: kit/microwave
+- Personagens principais (1): SPE (variante 0, expressao smile) | multidao: 6 de POV
+- Animacao: -
+- Objetos/modelos: kit/radarange
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao smile; COL no centro, expressao surprised; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o radarange (alvo z -3.6, camera a 16.7 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: SPE no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/radarange: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.6 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -197,7 +198,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (2): SPE (variante 0, expressao smile); COL (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/microwave
+- Objetos/modelos: kit/microwave, kit/chocolate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lanche
 - RISCOS: nenhum
 
@@ -206,15 +207,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/microwave | b0, b1, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/chocolate | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/microwave | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chocolate | b0, b4, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/popcorn | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/radarange | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/microwave | grandes momentos: b1, b6, b7 | planos abertos: 2 | mistura: close 0% | medio 82% | aberto 15% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b1 pular, b3 insiste, b4 vai ate o outro, b5 susto, b6 discutir, b9 aproxima-se
+- Interacoes: b0 o outro se aproxima, b1 pular, b3 insiste, b4 vai ate o outro, b5 susto, b6 discutir, b7 cochichar, b9 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
