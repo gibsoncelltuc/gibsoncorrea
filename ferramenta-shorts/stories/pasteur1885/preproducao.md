@@ -10,7 +10,7 @@ b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua |
 b3 | interior madeira | two | 1 | conversar | kit/syringe | - | -
 b4 | interior madeira | close | 1 | conversar | dog | - | -
 b5 | interior loja | close | 1 | reagir | - | - | -
-b6 | hall | orbit | 2 | encena, batalha | kit/syringe | - | -
+b6 | hall | orbit | 1 | encena, batalha | kit/syringe | - | -
 b7 | interior madeira | track | 2 | andando | - | - | -
 b8 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b9 | hall | crowd | 16 | comemorar, batalha | kit/syringe | - | -

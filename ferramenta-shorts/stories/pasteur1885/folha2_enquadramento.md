@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.9 m de altura x 4.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b1: "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -41,9 +41,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente."
 - LOCAL: salao; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
-- PERSONAGENS: PAS na esquerda, expressao relief; MED na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: PAS no centro, expressao relief; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.9 m de altura x 4.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
