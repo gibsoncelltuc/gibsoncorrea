@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 8,
  "title": "E Se Napoleão Tivesse Vencido em Waterloo?",
@@ -81,7 +81,7 @@
     ]
    },
    "bloco": "gancho",
-   "say": "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?"
+   "say": "Napoleão ganha em Waterloo, e a Europa muda para sempre."
   },
   {
    "shot": "close",
@@ -324,7 +324,7 @@
     "march": true
    },
    "bloco": "pagamento",
-   "say": "Rússia e Áustria já marchavam contra ele com exércitos enormes.",
+   "say": "Rússia e Áustria já marchavam contra ele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -350,7 +350,7 @@
    ],
    "acao": "conversar",
    "bloco": "loop",
-   "say": "Um dia famoso nem sempre muda o destino. Só a data.",
+   "say": "Um dia famoso nem sempre muda o destino. Mas imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -389,6 +389,6 @@
   ]
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um dia famoso parece mudar tudo, mas Waterloo talvez nao mudasse nada. Pagamento: a derrota de 1815 e o exilio; mesmo vencendo, Russia e Austria ja marchavam contra ele.",
+ "gancho_cumprido": "Gancho: Napoleao vence em Waterloo e a resposta dos historiadores surpreende. Pagamento: ele perdeu em 1815 e foi exilado; para muitos historiadores, com Russia e Austria marchando, a derrota viria igual.",
  "loop_frase_ok": true
 }

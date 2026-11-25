@@ -1,66 +1,76 @@
 {
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: e se a internet do mundo caisse por um dia; parece impossivel, mas pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais no papel e gente sem saber o que fazer com as maos.",
+ "gancho_cumprido": "Gancho: a internet do mundo cai amanha por um dia, e pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais na caneta e gente sem saber o que fazer com as maos.",
  "cenas": [
   [
    0,
    "gancho",
-   "E se a internet do mundo inteiro caísse amanhã por um dia?",
-   "internet"
+   "A internet do mundo inteiro cai amanhã, por um dia.",
+   "internet",
+   {}
   ],
   [
    1,
    "promessa",
    "Parece impossível. Mas pedaços disso já aconteceram.",
-   "aconteceram"
+   "aconteceram",
+   {}
   ],
   [
    2,
    "prova",
    "Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.",
-   "caíram"
+   "caíram",
+   {}
   ],
   [
    3,
    "prova",
    "Em 2024, uma atualização com defeito travou oito milhões de computadores.",
-   "travou"
+   "travou",
+   {}
   ],
   [
    4,
    "escalada",
    "Sem internet, sem cartão: só dinheiro de papel.",
-   "papel"
+   "papel",
+   {}
   ],
   [
    5,
    "escalada",
-   "Hospitais e bancos voltariam para a caneta, com filas enormes.",
-   "filas"
+   "Hospitais e bancos voltariam para a caneta.",
+   "Hospitais",
+   {}
   ],
   [
    6,
    "escalada",
    "O mais estranho? Não saber o que fazer com as mãos.",
-   "mãos"
+   "mãos",
+   {}
   ],
   [
    7,
    "pagamento",
    "Gente conversando na rua, jogando bola, olhando para o céu.",
-   "conversando"
+   "conversando",
+   {}
   ],
   [
    8,
    "pagamento",
-   "Pesquisadores dizem que, longe das telas, muita gente dorme melhor.",
-   "dorme"
+   "E muita gente ia dormir melhor.",
+   "dormir",
+   {}
   ],
   [
    10,
    "loop",
-   "Você aguentaria um dia? Responde enquanto ainda tem internet.",
-   "internet"
+   "Você aguentaria? Agora imagina que...",
+   "imagina",
+   {}
   ]
  ]
 }

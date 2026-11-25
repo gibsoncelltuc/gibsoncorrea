@@ -1,13 +1,89 @@
-{"gancho_tipo": "segredo", "texto_gancho": "GUERRA DA MELANCIA",
- "gancho_cumprido": "Gancho: uma fatia de melancia sem pagar comecou uma briga entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DA MELANCIA",
+ "gancho_cumprido": "Gancho: uma fatia de melancia de centavos quase virou guerra entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
  "cenas": [
-  [0, "gancho", "Ninguém te conta: uma fatia de melancia quase virou guerra.", "melancia"],
-  [10, "promessa", "E a fatia custava só uns centavos.", "centavos"],
-  [1, "prova", "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.", "cruzavam"],
-  [3, "prova", "Um americano comeu uma fatia de melancia e não quis pagar.", "comeu", {"encena_antiga": true}],
-  [5, "escalada", "O vendedor cobrou. O viajante riu e sacou uma arma.", "sacou", {"encena_antiga": true}],
-  [6, "escalada", "Em minutos, a rua virou uma briga de moradores contra viajantes.", "briga", {"encena_antiga": true}],
-  [7, "escalada", "Os viajantes se trancaram na estação de trem.", "trancaram", {"encena_antiga": true}],
-  [8, "escalada", "Acontece que mais de quinze pessoas morreram naquele dia.", "morreram", {"encena_antiga": true}],
-  [9, "pagamento", "No fim, a Colômbia pagou uma indenização aos americanos.", "pagou", {"encena_antiga": true}],
-  [0, "loop", "Tudo por uma fatia que ninguém quis pagar.", "fatia"]]}
+  [
+   0,
+   "gancho",
+   "Uma fatia de melancia quase virou guerra entre dois países.",
+   "melancia",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "E a fatia custava só uns centavos.",
+   "centavos",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1856, viajantes cruzavam o Panamá atrás de ouro.",
+   "cruzavam",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Um americano comeu uma fatia de melancia e não quis pagar.",
+   "comeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O vendedor cobrou. O viajante riu e sacou uma arma.",
+   "sacou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Em minutos, virou briga de moradores contra viajantes.",
+   "briga",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Os viajantes se trancaram na estação de trem.",
+   "trancaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "escalada",
+   "Acontece que mais de quinze pessoas morreram naquele dia.",
+   "morreram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "A Colômbia teve que pagar uma indenização aos americanos.",
+   "pagar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Tudo por centavos que ninguém pagou. E foi assim que...",
+   "foi",
+   {}
+  ]
+ ]
+}

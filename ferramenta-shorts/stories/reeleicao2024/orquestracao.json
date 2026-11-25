@@ -28,7 +28,7 @@
    ],
    "palavras": 10,
    "cena": "b0",
-   "frase": "Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.",
+   "frase": "Um presidente perdeu a eleição e voltou quatro anos depois.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -67,9 +67,9 @@
    "objetos": [
     "kit/white_house"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "frase": "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -114,7 +114,7 @@
    "personagens": [
     "TRU"
    ],
-   "multidao": 0,
+   "multidao": 14,
    "objetos": [
     "kit/white_house"
    ],
@@ -143,9 +143,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.",
+   "frase": "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -153,7 +153,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "TRU"
    ],
@@ -164,7 +164,7 @@
    "palavras": 8,
    "cena": "b7",
    "frase": "Antes foi o presidente 45. Agora, o 47.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -181,9 +181,9 @@
     "kit/ballot_box",
     "kit/white_house"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Perdeu, voltou e ganhou. Uma das maiores viradas da política.",
+   "frase": "Perdeu, voltou e ganhou. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

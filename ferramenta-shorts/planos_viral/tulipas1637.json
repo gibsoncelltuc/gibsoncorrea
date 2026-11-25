@@ -1,13 +1,14 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "1 FLOR = 1 CASA",
- "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo. Pagamento: no leilao de fevereiro ninguem comprou, os precos desabaram e quem trocou a casa ficou so com flores.",
+ "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo em dias. Pagamento: bulbos de mil e duas mil moedas, casas trocadas por bulbos; no leilao de fevereiro ninguem comprou e os precos desabaram.",
  "cenas": [
   [
    0,
    "gancho",
    "Uma única flor já custou o preço de uma casa.",
-   "flor"
+   "flor",
+   {}
   ],
   [
    9,
@@ -21,13 +22,14 @@
   [
    1,
    "prova",
-   "Em 1637, na Holanda, a tulipa era rara e estava na moda.",
-   "tulipa"
+   "Em 1637, na Holanda, a tulipa virou moda.",
+   "tulipa",
+   {}
   ],
   [
    2,
    "prova",
-   "Num leilão, um bulbo saía por mil moedas. Depois, duas mil.",
+   "Num leilão, um bulbo saiu por duas mil moedas.",
    "mil",
    {
     "encena_antiga": true,
@@ -84,8 +86,9 @@
   [
    10,
    "loop",
-   "O marinheiro, pelo menos, almoçou bem.",
-   "almoçou"
+   "Uma loucura que se repete. Foi assim que...",
+   "assim",
+   {}
   ]
  ]
 }

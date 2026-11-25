@@ -35,9 +35,9 @@
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Videogame precisa de mãos? Um macaco jogou só com o pensamento.",
+   "frase": "Um macaco jogou videogame só com o pensamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -195,9 +195,9 @@
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "Tudo começou com um macaco e um copo de vitamina.",
+   "frase": "Tudo começou com um copo de vitamina. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

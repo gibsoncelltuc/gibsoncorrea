@@ -1,18 +1,19 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "PESADO x LEVE",
- "gancho_cumprido": "Gancho: coisa pesada nao cai mais rapido e ate uma pena deu razao a Galileu. Pagamento: as duas bolas cairam juntas em Pisa e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
+ "gancho_cumprido": "Gancho: uma bola pesada e uma leve cairam juntas, e seculos depois ate uma pena deu razao a Galileu. Pagamento: em Pisa as bolas cairam juntas e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
  "cenas": [
   [
    0,
    "gancho",
-   "Coisa pesada cai mais rápido? Galileu provou que não.",
-   "provou"
+   "Uma bola pesada e uma leve caíram no chão ao mesmo tempo.",
+   "pesada",
+   {}
   ],
   [
    8,
    "promessa",
-   "E, séculos depois, até uma pena deu razão a ele.",
+   "E, séculos depois, até uma pena provou isso.",
    "pena",
    {
     "detalhe": true,
@@ -33,14 +34,16 @@
   [
    1,
    "prova",
-   "Por volta de 1590, Galileu era um jovem professor em Pisa.",
-   "Galileu"
+   "Em 1590, Galileu era professor em Pisa.",
+   "Galileu",
+   {}
   ],
   [
    2,
    "prova",
-   "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.",
-   "dizia"
+   "Aristóteles dizia: quanto mais pesado, mais rápido cai.",
+   "dizia",
+   {}
   ],
   [
    4,
@@ -52,15 +55,16 @@
   [
    5,
    "escalada",
-   "Acontece que as duas caíram no chão ao mesmo tempo.",
-   "caíram",
+   "Acontece que as duas chegaram juntas ao chão.",
+   "chegaram",
    {}
   ],
   [
    6,
    "escalada",
-   "Hoje se discute se isso aconteceu mesmo.",
-   "discute"
+   "Tem historiador que duvida dessa história.",
+   "duvida",
+   {}
   ],
   [
    7,
@@ -83,8 +87,9 @@
   [
    8,
    "loop",
-   "Até a pena deu razão ao Galileu.",
-   "pena"
+   "Aristóteles errou por dois mil anos. Até que...",
+   "por",
+   {}
   ]
  ]
 }

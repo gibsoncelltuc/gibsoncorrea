@@ -1,5 +1,5 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "SELFIE NA ONU",
  "gancho_cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
  "cenas": [
@@ -7,7 +7,8 @@
    0,
    "gancho",
    "Um presidente parou o discurso na ONU para tirar uma selfie.",
-   "selfie"
+   "selfie",
+   {}
   ],
   [
    9,
@@ -22,13 +23,15 @@
    1,
    "prova",
    "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
-   "Assembleia"
+   "Assembleia",
+   {}
   ],
   [
    3,
    "prova",
    "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
-   "Bukele"
+   "Bukele",
+   {}
   ],
   [
    4,
@@ -68,13 +71,15 @@
    9,
    "pagamento",
    "A selfie rodou o mundo. O discurso ficou em segundo plano.",
-   "rodou"
+   "rodou",
+   {}
   ],
   [
    10,
    "loop",
-   "Um segundo de selfie, e a ONU virou assunto.",
-   "assunto"
+   "Um segundo bastou. E foi assim que...",
+   "assim",
+   {}
   ]
  ]
 }

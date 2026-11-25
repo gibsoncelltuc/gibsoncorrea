@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 7,
  "title": "A Cidade do Surfe",
@@ -74,6 +74,10 @@
    ],
    "mapa_at": 1,
    "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "gancho",
    "say": "Um país pequeno decidiu virar a capital mundial do surfe.",
    "encena": {
@@ -86,24 +90,7 @@
     ]
    },
    "text": "SURF CITY",
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "titulo": true
   },
   {
    "tiros": false,
@@ -125,6 +112,10 @@
     ]
    ],
    "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "promessa",
    "say": "E os surfistas do mundo inteiro foram atrás.",
    "encena": {
@@ -135,24 +126,7 @@
       "na": "surfistas"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "tiros": false,
@@ -174,10 +148,15 @@
      }
     ]
    ],
-   "set": "harbor",
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "mapa": "EL SALVADOR",
+   "detalhe": true,
    "bloco": "prova",
-   "say": "Em 2019, Nayib Bukele lançou a Surf City em El Salvador.",
+   "say": "Em 2019, o presidente Nayib Bukele lançou a Surf City.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -186,24 +165,7 @@
       "na": "lançou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "tiros": false,
@@ -247,6 +209,10 @@
     ]
    ],
    "set": "harbor",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "prova",
    "say": "Em 2021, o país sediou o Mundial de Surfe.",
    "encena": {
@@ -255,51 +221,6 @@
      {
       "faz": "mostra",
       "na": "sediou"
-     }
-    ]
-   },
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "shot": "two",
-   "who": [
-    "JOR:0:shock",
-    "JOR2:0:laugh"
-   ],
-   "set": "street",
-   "bloco": "escalada",
-   "say": "O evento valia vaga para as Olimpíadas de Tóquio.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "vaga"
      }
     ]
    }
@@ -346,8 +267,12 @@
     ]
    ],
    "set": "harbor",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "escalada",
-   "say": "Em 2023, vieram 294 competidores, de olho em Paris.",
+   "say": "Depois, vieram 294 surfistas, de olho em Paris.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -356,30 +281,7 @@
       "na": "vieram"
      }
     ]
-   },
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "tiros": false,
@@ -403,6 +305,10 @@
     ]
    ],
    "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "escalada",
    "say": "O governo promete quinhentos mil empregos, sem garantia.",
    "encena": {
@@ -413,24 +319,7 @@
       "na": "promete"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "tiros": false,
@@ -478,6 +367,10 @@
     ]
    ],
    "set": "harbor",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 2025, o Mundial voltou para lá.",
    "encena": {
@@ -488,24 +381,7 @@
       "na": "voltou"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "tiros": false,
@@ -528,34 +404,21 @@
    ],
    "mapa_at": 1,
    "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "loop",
-   "say": "Capital do surfe ou promessa grande demais? Você decide.",
+   "say": "Capital do surfe ou exagero? Só sei que foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "decide"
+      "na": "do"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "fontes": [
@@ -602,7 +465,8 @@
    "evento": "ISA World Surfing Games 2021 El Salvador"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025, vagas olimpicas; promessa de empregos e criticas de moradores.",
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025 e vagas olimpicas; promessa de empregos e criticas sobre a costa.",
  "loop_frase_ok": true
 }

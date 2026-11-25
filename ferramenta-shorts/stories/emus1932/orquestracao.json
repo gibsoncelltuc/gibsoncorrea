@@ -17,9 +17,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b0",
-   "frase": "Um exército contra pássaros? A Austrália saiu derrotada.",
+   "frase": "Um exército perdeu uma guerra contra pássaros.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -58,7 +58,7 @@
    ],
    "palavras": 10,
    "cena": "b2",
-   "frase": "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
+   "frase": "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -145,34 +145,17 @@
    "cenario": "countryside"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "SOL"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [
     "vehicles/tank"
    ],
    "palavras": 10,
    "cena": "b7",
    "frase": "O major comparou os emus a tanques. A imprensa riu.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "outback"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "SOL",
-    "SOL"
-   ],
-   "multidao": 48,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -182,6 +165,23 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 5,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Seis dias, milhares de balas, poucos emus abatidos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -193,9 +193,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 6,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Placar final: exército zero, emus um.",
+   "frase": "Exército zero, emus um. E foi assim que...",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},

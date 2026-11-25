@@ -1,13 +1,89 @@
-{"gancho_tipo": "segredo", "texto_gancho": "RAIO X",
- "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista. Pagamento: o tubo coberto fez a tela brilhar, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "RAIO X",
+ "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista, que viu ali a propria morte. Pagamento: a tela brilhou, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
  "cenas": [
-  [0, "gancho", "A primeira foto de dentro do corpo assustou a esposa do cientista.", "foto", {"text": null}],
-  [7, "promessa", "Conta-se que ela viu ali a própria morte.", "viu"],
-  [1, "prova", "Em 1895, na Alemanha, Wilhelm Röntgen testava um tubo de vidro.", "testava"],
-  [3, "prova", "Uma noite, cobriu o tubo com papelão preto e apagou a luz.", "cobriu", {"encena_antiga": true}],
-  [4, "escalada", "Acontece que, do outro lado da sala, uma tela brilhou no escuro.", "brilhou", {"encena_antiga": true}],
-  [5, "escalada", "Pôs a mão na frente e viu os próprios ossos.", "ossos", {"encena_antiga": true}],
-  [6, "escalada", "Depois, fotografou a mão da esposa, Anna, com a aliança.", "fotografou", {"encena_antiga": true}],
-  [9, "pagamento", "Sem saber o que era, chamou de raio X: X de desconhecido.", "chamou"],
-  [10, "pagamento", "Ganhou o primeiro Nobel de Física e nunca patenteou a descoberta.", "Nobel"],
-  [0, "loop", "Tudo começou com uma foto que assustou a esposa.", "foto", {"text": null}]]}
+  [
+   0,
+   "gancho",
+   "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "foto",
+   {
+    "text": null
+   }
+  ],
+  [
+   7,
+   "promessa",
+   "Conta-se que ela viu ali a própria morte.",
+   "viu",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
+   "testava",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Uma noite, cobriu o tubo e apagou a luz.",
+   "cobriu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
+   "brilhou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Pôs a mão na frente e viu os próprios ossos.",
+   "ossos",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Depois, fotografou a mão da esposa, Anna, com a aliança.",
+   "fotografou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Sem saber o que era, chamou de raio X.",
+   "chamou",
+   {}
+  ],
+  [
+   10,
+   "pagamento",
+   "Ganhou o primeiro Nobel de Física.",
+   "Nobel",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um raio desconhecido, e foi assim que...",
+   "foi",
+   {
+    "text": null
+   }
+  ]
+ ]
+}

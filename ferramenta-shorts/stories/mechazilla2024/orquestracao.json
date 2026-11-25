@@ -29,7 +29,7 @@
    ],
    "palavras": 12,
    "cena": "b0",
-   "frase": "Foguete pousa no chão? Este foi agarrado no ar por uma torre.",
+   "frase": "Um foguete gigante foi agarrado no ar por uma torre com braços.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -46,9 +46,9 @@
     "kit/tower_catch",
     "kit/tower_mini"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b1",
-   "frase": "Parece filme de robô gigante. Mas é engenharia de verdade.",
+   "frase": "Parece filme de robô. Mas é engenharia de verdade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,9 +65,9 @@
    "objetos": [
     "kit/tower"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Foi em outubro de 2024, na base da SpaceX, no Texas.",
+   "frase": "Foi em 2024, na base da SpaceX, no Texas.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -105,9 +105,9 @@
    "objetos": [
     "kit/tower"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "A ideia: tirar as pernas e fazer a torre agarrar o propulsor.",
+   "frase": "A ideia: a torre agarra o propulsor na volta.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -140,7 +140,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "ENG"
    ],
@@ -148,10 +148,10 @@
    "objetos": [
     "kit/booster_air"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "O propulsor decolou com trinta e três motores acesos.",
-   "classe": "transicao",
+   "frase": "O propulsor decolou com trinta e três motores.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -203,25 +203,6 @@
   {
    "camera": "two",
    "personagens": [
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tower",
-    "kit/tower_catch"
-   ],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "Os engenheiros comemoraram: era a primeira vez na história.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "MUS",
     "ENG"
    ],
@@ -230,9 +211,9 @@
     "kit/tower_catch",
     "kit/tower_mini"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "Uma torre que pega foguete no ar. E não é filme.",
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Primeira vez na história. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

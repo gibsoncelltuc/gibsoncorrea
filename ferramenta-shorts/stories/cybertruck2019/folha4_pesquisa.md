@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, DSG
 - Cenarios: hall
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Janela do Cybertruck | A Janela do Cybertruck / Uma Em Califórnia Tesla Cybertruck 2019 | SEM REFERENCIA
+tema | A Janela do Cybertruck | A Janela do Cybertruck / Uma Em Tesla Cybertruck 2019 | SEM REFERENCIA
 lugar | Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla | Tesla Design Studio Hawthorne California / Tesla Design Studio Hawthorne California 2019 | Elon's Tesla Coil (6532341245).jpg (referencias/cybertruck2019/prints/tesla_design_studio_hawthorne_california_1a6a50.jpg); Tesla Showroom Miami Design District December 2023 (referencias/cybertruck2019/prints/tesla_design_studio_hawthorne_california_24ed48.jpg); Tesla Showroom Miami Design District December 2023 (referencias/cybertruck2019/prints/tesla_design_studio_hawthorne_california_1a52ac.jpg)
 lugar | Califórnia | Califórnia 2019 / Califórnia landscape | Tadej Pogacar of UAE-Team Emirates (48068839377).j (referencias/cybertruck2019/prints/calif_rnia_ed96d2.jpg); Schramsberg Vineyards, July 2019-7579+7580.jpg (referencias/cybertruck2019/prints/calif_rnia_b3a12b.jpg); Clark Center Stanford October 2019 HDR 2.jpg (referencias/cybertruck2019/prints/calif_rnia_1718ce.jpg)
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | Camp - Notes on Fashion at the Met - Burberry rain (referencias/cybertruck2019/prints/roupas_e_ruas_de_2019_d85c36.jpg); Camp - Notes on Fashion at the Met - Moschino (738 (referencias/cybertruck2019/prints/roupas_e_ruas_de_2019_c6ccb7.jpg); Camp - Notes on Fashion at the Met - Gucci and Lou (referencias/cybertruck2019/prints/roupas_e_ruas_de_2019_c6c141.jpg)

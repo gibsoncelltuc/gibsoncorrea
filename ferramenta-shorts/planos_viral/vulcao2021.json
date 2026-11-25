@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "BITCOIN DE VULCÃO",
- "gancho_cumprido": "Gancho: um presidente fabricou dinheiro digital com a energia de um vulcao e isso parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
+ "gancho_cumprido": "Gancho: um pais fabrica dinheiro digital com um vulcao, e parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um país fabrica dinheiro digital com um vulcão.",
+   "Um país fabrica dinheiro digital usando a energia de um vulcão.",
    "vulcão",
    {
     "text": null
@@ -16,12 +16,13 @@
    10,
    "promessa",
    "Parece ficção. Mas aconteceu de verdade.",
-   "ficção"
+   "ficção",
+   {}
   ],
   [
    2,
    "prova",
-   "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.",
+   "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
    "tornou",
    {
     "mapa": "EL SALVADOR"
@@ -30,14 +31,16 @@
   [
    3,
    "prova",
-   "Criar bitcoin novo exige computadores fazendo contas sem parar.",
-   "contas"
+   "Criar bitcoin exige computadores fazendo contas sem parar.",
+   "contas",
+   {}
   ],
   [
    4,
    "escalada",
-   "Para isso, ele usou o calor do vulcão Tecapa.",
-   "usou"
+   "Para isso, o governo usou o calor do vulcão Tecapa.",
+   "usou",
+   {}
   ],
   [
    5,
@@ -52,25 +55,28 @@
    6,
    "escalada",
    "Acontece que, ao lado da usina, instalaram computadores só para isso.",
-   "instalaram"
+   "instalaram",
+   {}
   ],
   [
    8,
    "pagamento",
-   "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
-   "bitcoins"
+   "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
+   "bitcoins",
+   {}
   ],
   [
    9,
    "pagamento",
-   "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
-   "anunciou"
+   "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "anunciou",
+   {}
   ],
   [
    0,
    "loop",
-   "Dinheiro tirado de vulcão. E ninguém te conta isso.",
-   "vulcão",
+   "Dinheiro tirado da terra quente. E foi assim que...",
+   "Dinheiro",
    {
     "text": null
    }

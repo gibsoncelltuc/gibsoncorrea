@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 11,
  "title": "A Janela do Cybertruck",
@@ -65,6 +65,11 @@
    "titulo": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "gancho",
    "say": "Uma picape blindada teve as janelas rachadas ao vivo, no lançamento.",
    "encena": {
@@ -75,25 +80,7 @@
       "na": "rachadas"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "group",
@@ -130,8 +117,12 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "promessa",
-   "say": "E mesmo assim, ela virou um sucesso de reservas.",
+   "say": "E mesmo assim virou sucesso de reservas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -140,30 +131,7 @@
       "na": "sucesso"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e steel_ball juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steel_ball",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -191,9 +159,14 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "mapa": "CALIFÓRNIA",
    "bloco": "prova",
-   "say": "Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.",
+   "say": "Em 2019, a Tesla apresentou o Cybertruck.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -202,25 +175,7 @@
       "na": "apresentou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "wide",
@@ -248,6 +203,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "prova",
    "say": "Musk garantiu que o vidro era super resistente.",
    "encena": {
@@ -258,25 +218,7 @@
       "na": "garantiu"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "wide",
@@ -304,6 +246,11 @@
    },
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "prova",
    "say": "O designer jogou uma esfera de aço na janela.",
    "encena": {
@@ -314,25 +261,7 @@
       "na": "jogou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "wide",
@@ -371,6 +300,11 @@
    "hora": "dia",
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "escalada",
    "say": "Acontece que o vidro rachou, ao vivo, na frente da plateia.",
    "encena": {
@@ -381,25 +315,7 @@
       "na": "rachou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "wide",
@@ -433,6 +349,11 @@
    },
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "escalada",
    "say": "Ele tentou em outra janela. Também rachou.",
    "encena": {
@@ -443,25 +364,7 @@
       "na": "tentou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   },
   {
    "shot": "two",
@@ -489,9 +392,9 @@
     ],
     [
      "kit/phone",
-     -1.6,
-     0.8,
-     0.7,
+     0.0,
+     -0.8,
+     0.9,
      {
       "fixo": true
      }
@@ -502,8 +405,12 @@
    "impact": false,
    "set": "hall",
    "hora": "dia",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "escalada",
-   "say": "Musk disse que, nos testes, a esfera nem arranhava o vidro.",
+   "say": "Musk disse que, nos testes, o vidro aguentava.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -512,36 +419,7 @@
       "na": "disse"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steel_ball juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steel_ball",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, esquerda",
-      "tela": "11% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "orbit",
@@ -567,6 +445,10 @@
    "batalha": false,
    "set": "hall",
    "hora": "dia",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "text": "146 MIL RESERVAS",
    "bloco": "pagamento",
    "say": "Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.",
@@ -578,24 +460,7 @@
       "na": "reservas"
      }
     ]
-   },
-   "_enq_shot": "orbit",
-   "quadro": {
-    "local": "salao",
-    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -626,35 +491,22 @@
    "titulo": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
    "bloco": "loop",
-   "say": "A janela quebrou. As reservas, não.",
+   "say": "O vidro falhou, a venda não. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "janela"
+      "na": "falhou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   }
   }
  ],
  "exp": 0.9,
@@ -693,8 +545,7 @@
    "picape": "Tesla Cybertruck 2019 prototype"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a picape blindada teve as janelas quebradas ao vivo e mesmo assim virou sucesso. Pagamento: o vidro rachou duas vezes na frente da plateia, mas vieram mais de 140 mil reservas.",
- "loop_frase_ok": true,
- "max_wide": 7
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a picape 'blindada' teve as janelas rachadas ao vivo e mesmo assim virou sucesso. Pagamento: a esfera de aco rachou duas janelas na frente da plateia, mas vieram mais de 140 mil reservas.",
+ "loop_frase_ok": true
 }

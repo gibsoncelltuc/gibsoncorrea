@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 9,
  "title": "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
@@ -60,7 +60,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "Um buraco até a China? Do Brasil, você sairia no meio do Pacífico.",
+   "say": "Um buraco atravessando a Terra sairia no meio do Pacífico.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -79,13 +79,13 @@
    ],
    "acao": "discutir",
    "bloco": "promessa",
-   "say": "E o pulo nesse buraco nunca acabaria.",
+   "say": "E quem pulasse nele cairia para sempre.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "pulo"
+      "na": "pulasse"
      }
     ]
    }
@@ -228,12 +228,12 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "pulasse"
+      "na": "pular"
      }
     ]
    },
    "bloco": "escalada",
-   "say": "Acontece que, se você pulasse, cairia cada vez mais rápido."
+   "say": "Acontece que, se desse para pular, você cairia cada vez mais rápido."
   },
   {
    "shot": "two",
@@ -285,7 +285,7 @@
     ]
    },
    "bloco": "pagamento",
-   "say": "Mas, sem ninguém para segurar, cairia de volta. Para sempre."
+   "say": "E, sem ninguém para segurar, cairia de volta."
   },
   {
    "shot": "two",
@@ -309,13 +309,13 @@
     "ding@30"
    ],
    "bloco": "loop",
-   "say": "Para ir ao Japão, a passagem ainda é o melhor caminho.",
+   "say": "Ninguém conseguiu ainda. Mas imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "passagem"
+      "na": "conseguiu"
      }
     ]
    }
@@ -346,6 +346,6 @@
   ]
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: cavar ate a China nao da certo e o pulo no buraco nunca acabaria. Pagamento: centro a 6 mil km, quente como o Sol; cairia, sairia do outro lado em 40 minutos e voltaria para sempre.",
+ "gancho_cumprido": "Gancho: um buraco atravessando a Terra sairia no Pacifico e quem pulasse cairia para sempre. Pagamento: o centro esta a 6 mil km e quente como o Sol; cairia, sairia do outro lado em 40 minutos e voltaria.",
  "loop_frase_ok": true
 }

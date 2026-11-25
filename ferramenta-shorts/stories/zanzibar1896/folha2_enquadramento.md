@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "A guerra mais curta da história durou menos de uma hora."
+## b0: "A guerra mais curta da história durou menos de quarenta minutos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SUL na esquerda, expressao stern; GUA na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ALM no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Em 1896, em Zanzibar, uma ilha africana, o sultão morreu."
+## b2: "Em 1896, em Zanzibar, na África, o sultão morreu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SUL na esquerda, expressao neutral; POV na direita, expressao neutral; sem multidao; acao: fala/gesto
@@ -28,7 +28,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: SUL na esquerda, expressao grin; GUA na direita, expressao stern; sem multidao; acao: conversar
 - OBJETO kit/throne: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b4: "Os ingleses deram até as nove da manhã para ele sair."
+## b4: "Deram até as nove da manhã para ele sair."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ALM no centro, expressao stern, segura paper; sem multidao; acao: fala/gesto
@@ -61,16 +61,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/forte_colonial no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b8: "Por volta das nove e quarenta, a bandeira caiu."
+## b8: "Às nove e quarenta, a bandeira caiu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao pained, segura flag; sem multidao; acao: fala/gesto
+- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 - TEXTO NA TELA: "9:40" flutuando no alto, na palavra 1 da frase
 
-## b9: "E os ingleses mandaram a conta das balas para os derrotados."
+## b9: "Os ingleses mandaram a conta das balas. E foi assim que..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SUL na esquerda, expressao stern; GUA na direita, expressao stern; sem multidao; acao: fala/gesto

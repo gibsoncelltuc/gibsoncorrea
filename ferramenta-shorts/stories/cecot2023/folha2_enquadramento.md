@@ -4,42 +4,42 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Uma prisão para quarenta mil presos virou notícia no mundo inteiro."
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao stern; sem multidao; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; multidao de 26 (PRE) ATRAS dos principais; acao: conversar
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
 
 ## b1: "E ninguém concorda se ela é solução ou problema."
 - LOCAL: loc_patio; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: POV na esquerda, expressao surprised; POV no centro, expressao grin; POV na direita, expressao worried; sem multidao; acao: fala/gesto
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b2: "Ela fica em El Salvador e abriu em 2023."
+## b2: "Ela abriu em 2023, em El Salvador."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: revelacao (camera sobe e abre); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: POV na esquerda, expressao surprised; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b3: "O país tinha uma das maiores taxas de assassinato do mundo."
+## b3: "O país tinha das maiores taxas de assassinato do mundo."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao worried, segura paper; POV na direita, expressao scared; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Em 2022, Nayib Bukele decretou estado de exceção."
+## b4: "O governo decretou estado de exceção contra as gangues."
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: BUK no centro, expressao stern; sem multidao; acao: prender
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: BUK na esquerda, expressao stern; GUA no centro, expressao stern; GUA na direita, expressao stern; multidao de 16 (PRE) marchando ATRAS dos principais; acao: prender
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b5: "Muralhas altas, cercas elétricas e torres de vigia por todo lado."
+## b5: "Muralhas, cercas elétricas e torres de vigia."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/prison no centro, manobra "gira"
 - PASSOS NA TELA: MURALHAS -> CERCAS ELETRICAS -> TORRES DE VIGIA
 
-## b6: "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil."
+## b6: "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; BUK na direita, expressao smug; sem multidao; acao: conversar
@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b7: "Mas grupos de direitos humanos denunciaram prisões sem julgamento."
+## b7: "Mas houve denúncias de prisões sem julgamento."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao suspicious; POV na direita, expressao worried; sem multidao; acao: discutir
@@ -56,17 +56,17 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "SEM JULGAMENTO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "O modelo passou a ser copiado e criticado pelo mundo."
+## b8: "O modelo passou a ser copiado e criticado."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: medium; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao stern, segura paper; POV na direita, expressao grin, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "COPIADO E CRITICADO" flutuando no alto, na palavra 1 da frase
 
-## b9: "Segurança para uns, excesso para outros. Você decide."
+## b9: "Segurança ou excesso? Foi assim que..."
 - LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao stern; sem multidao; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; multidao de 26 (PRE) ATRAS dos principais; acao: conversar
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
 

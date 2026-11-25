@@ -1,37 +1,42 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "PRIMEIRA VACINA",
- "gancho_cumprido": "Gancho: um menino de nove anos foi o primeiro a receber a vacina da raiva, aplicada por alguem que nao era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
+ "gancho_cumprido": "Gancho: o primeiro vacinado contra a raiva foi um menino de nove anos e quem aplicou nem era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
  "cenas": [
   [
    0,
    "gancho",
-   "O primeiro vacinado contra a raiva foi um menino de nove anos.",
-   "vacina"
+   "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
+   "vacina",
+   {}
   ],
   [
    5,
    "promessa",
    "E quem aplicou a vacina nem era médico.",
-   "médico"
+   "médico",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1885, na França, Louis Pasteur estudava micróbios.",
-   "Pasteur"
+   "Em 1885, Louis Pasteur estudava micróbios na França.",
+   "Pasteur",
+   {}
   ],
   [
    2,
    "prova",
-   "Quem era mordido por um animal com raiva quase nunca se salvava.",
-   "mordido"
+   "Mordida de animal com raiva quase sempre matava.",
+   "Mordida",
+   {}
   ],
   [
    3,
    "prova",
    "A vacina dele só tinha sido testada em animais.",
-   "testada"
+   "testada",
+   {}
   ],
   [
    4,
@@ -46,7 +51,8 @@
    5,
    "escalada",
    "Pasteur tinha medo, mas decidiu tentar.",
-   "tentar"
+   "tentar",
+   {}
   ],
   [
    6,
@@ -61,13 +67,15 @@
    7,
    "pagamento",
    "Joseph sobreviveu, e a notícia correu o mundo.",
-   "sobreviveu"
+   "sobreviveu",
+   {}
   ],
   [
    0,
    "loop",
-   "Anos depois, Joseph virou o guarda do instituto de Pasteur.",
-   "guarda"
+   "Um químico arriscou tudo. E foi assim que...",
+   "arriscou",
+   {}
   ]
  ]
 }

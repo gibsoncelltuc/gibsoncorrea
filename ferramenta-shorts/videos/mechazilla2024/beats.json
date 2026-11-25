@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 16,
  "title": "A Torre que Pegou um Foguete no Ar",
@@ -81,9 +81,13 @@
     "ding@30"
    ],
    "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "set": "loc_patio",
    "bloco": "gancho",
-   "say": "Foguete pousa no chão? Este foi agarrado no ar por uma torre.",
+   "say": "Um foguete gigante foi agarrado no ar por uma torre com braços.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -94,30 +98,7 @@
     ]
    },
    "text": "MECHAZILLA",
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tower_mini",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "titulo": true
   },
   {
    "shot": "two",
@@ -146,9 +127,13 @@
    ],
    "acao": "comemorar",
    "objetos": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "set": "loc_deserto",
    "bloco": "promessa",
-   "say": "Parece filme de robô gigante. Mas é engenharia de verdade.",
+   "say": "Parece filme de robô. Mas é engenharia de verdade.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -157,30 +142,7 @@
       "na": "filme"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_deserto",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tower_mini",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "reveal",
@@ -193,7 +155,7 @@
    "objetos": false,
    "set": "loc_campo",
    "bloco": "prova",
-   "say": "Foi em outubro de 2024, na base da SpaceX, no Texas.",
+   "say": "Foi em 2024, na base da SpaceX, no Texas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -227,6 +189,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.7,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_deserto",
    "bloco": "prova",
    "say": "A parte de baixo do foguete costumava ir para o lixo.",
@@ -238,25 +205,7 @@
       "na": "lixo"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_deserto",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/booster_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.7,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -316,13 +265,13 @@
     ]
    },
    "bloco": "prova",
-   "say": "A ideia: tirar as pernas e fazer a torre agarrar o propulsor.",
+   "say": "A ideia: a torre agarra o propulsor na volta.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "agarrar"
+      "na": "agarra"
      }
     ]
    }
@@ -350,6 +299,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.3,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_patio",
    "text": "MECHAZILLA",
    "bloco": "escalada",
@@ -362,25 +316,7 @@
       "na": "chamaram"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.3,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -423,10 +359,15 @@
    "objetos": false,
    "detalhe": false,
    "fachada": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.5,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_patio",
    "explica": false,
    "bloco": "escalada",
-   "say": "O propulsor decolou com trinta e três motores acesos.",
+   "say": "O propulsor decolou com trinta e três motores.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -435,31 +376,7 @@
       "na": "decolou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/booster_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tower",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.5,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -499,6 +416,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.5,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_patio",
    "bloco": "escalada",
    "say": "Minutos depois, voltou descendo de ré, direto na torre.",
@@ -510,31 +432,7 @@
       "na": "voltou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/booster_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tower",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.5,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -567,6 +465,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_patio",
    "impact": true,
    "text": "PEGOU!",
@@ -580,91 +483,7 @@
       "na": "seguraram"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "ENG:0:laugh"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "kit/tower_catch",
-     0.0,
-     -13.7,
-     1.3,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "PRIMEIRA VEZ",
-   "titulo": true,
-   "objetos": false,
-   "detalhe": false,
-   "fachada": false,
-   "set": "loc_campo",
-   "bloco": "pagamento",
-   "say": "Os engenheiros comemoraram: era a primeira vez na história.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "comemoraram"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -700,41 +519,22 @@
     "ding@30"
    ],
    "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "set": "loc_patio",
    "bloco": "loop",
-   "say": "Uma torre que pega foguete no ar. E não é filme.",
+   "say": "Primeira vez na história. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "torre"
+      "na": "Primeira"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tower_mini",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tower_catch",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   }
  ],
  "fontes": [
@@ -780,8 +580,7 @@
   }
  },
  "variar_cenario": false,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma torre com bracos gigantes pegou um foguete no ar. Pagamento: o propulsor voltou de re e os bracos se fecharam no ultimo segundo, a primeira vez na historia.",
- "loop_frase_ok": true,
- "max_wide": 8
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um foguete gigante foi agarrado no ar por uma torre com bracos, engenharia de verdade. Pagamento: o propulsor voltou de re e os bracos se fecharam no ultimo segundo, pela primeira vez na historia.",
+ "loop_frase_ok": true
 }

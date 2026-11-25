@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ICE, PES, BRI
 - Cenarios: harbor
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_leander: 30.0 m reais -> escala 8.1 (estava 1.0: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.8: pequeno demais); kit/navio_encouracado: 30.0 m reais -> escala 8.44 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_leander: 30.0 m reais -> escala 8.1 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Marinha Islândia Com Foram Guerras Bacalhau 1958 | CoventryAlbertWestfj.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_d1ec4b.jpg); Scylla - Odinn scrap.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_1245f9.jpg); Scylla-Odinn.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_659f20.jpg)
+tema | As Guerras do Bacalhau | As Guerras do Bacalhau / Islândia Foram Guerras Bacalhau 1958 | CoventryAlbertWestfj.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_d1ec4b.jpg); Scylla - Odinn scrap.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_1245f9.jpg); Scylla-Odinn.jpg (referencias/bacalhau1958/prints/as_guerras_do_bacalhau_659f20.jpg)
 lugar | Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p | Atlântico Norte mar aberto perto da costa da Islândia / Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c | Global companies with offices in the Nordic region (referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_cd3753.jpg); Immigrants in the Nordic countries in 2012.JPG (referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_e8d544.jpg); Anti-capitalism Nordic.png (referencias/bacalhau1958/prints/atl_ntico_norte_mar_aberto_perto_da_cost_c798de.jpg)
 lugar | Inglaterra | Inglaterra 1958 / Inglaterra landscape | Jean Froissart, Chroniques, 154v, 12148 btv1b84386 (referencias/bacalhau1958/prints/inglaterra_4567ba.jpg); Richard II engraving.jpg (referencias/bacalhau1958/prints/inglaterra_0665a2.jpg); Portrait of Richard II (4671869).jpg (referencias/bacalhau1958/prints/inglaterra_e99c11.jpg)
 epoca | roupas e ruas de 1958 | 1958 fashion clothing / 1958 street photograph | 1958 balenciaga babydoll.png (referencias/bacalhau1958/prints/roupas_e_ruas_de_1958_8e3dad.jpg); Moda 1958 Ljubljana.jpg (referencias/bacalhau1958/prints/roupas_e_ruas_de_1958_ccfae1.jpg); 1958 Norman Norell evening set for Lauren Bacall.j (referencias/bacalhau1958/prints/roupas_e_ruas_de_1958_70ad86.jpg)

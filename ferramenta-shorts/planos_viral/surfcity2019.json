@@ -1,7 +1,7 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "SURF CITY",
- "gancho_cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025, vagas olimpicas; promessa de empregos e criticas de moradores.",
+ "gancho_cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025 e vagas olimpicas; promessa de empregos e criticas sobre a costa.",
  "cenas": [
   [
    0,
@@ -16,58 +16,60 @@
    9,
    "promessa",
    "E os surfistas do mundo inteiro foram atrás.",
-   "surfistas"
+   "surfistas",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 2019, Nayib Bukele lançou a Surf City em El Salvador.",
+   "Em 2019, o presidente Nayib Bukele lançou a Surf City.",
    "lançou",
    {
-    "mapa": "EL SALVADOR"
+    "mapa": "EL SALVADOR",
+    "set": "street",
+    "detalhe": true
    }
   ],
   [
    2,
    "prova",
    "Em 2021, o país sediou o Mundial de Surfe.",
-   "sediou"
-  ],
-  [
-   3,
-   "escalada",
-   "O evento valia vaga para as Olimpíadas de Tóquio.",
-   "vaga"
+   "sediou",
+   {}
   ],
   [
    4,
    "escalada",
-   "Em 2023, vieram 294 competidores, de olho em Paris.",
-   "vieram"
+   "Depois, vieram 294 surfistas, de olho em Paris.",
+   "vieram",
+   {}
   ],
   [
    5,
    "escalada",
    "O governo promete quinhentos mil empregos, sem garantia.",
-   "promete"
+   "promete",
+   {}
   ],
   [
    6,
    "pagamento",
    "Acontece que moradores e ambientalistas se preocupam com a costa.",
-   "preocupam"
+   "preocupam",
+   {}
   ],
   [
    8,
    "pagamento",
    "Em 2025, o Mundial voltou para lá.",
-   "voltou"
+   "voltou",
+   {}
   ],
   [
    0,
    "loop",
-   "Capital do surfe ou promessa grande demais? Você decide.",
-   "decide",
+   "Capital do surfe ou exagero? Só sei que foi assim que...",
+   "do",
    {
     "mapa": null
    }

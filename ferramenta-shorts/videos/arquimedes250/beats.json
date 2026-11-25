@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 2,
  "title": "Arquimedes e o Eureca",
@@ -60,14 +60,14 @@
    "set": "medieval",
    "titulo": true,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um gênio correu da banheira gritando pela rua.",
+   "say": "Um homem saiu correndo da banheira, gritando pela rua.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "quem": 0,
       "faz": "corre",
-      "na": "correu"
+      "na": "correndo"
      },
      {
       "quem": 0,
@@ -100,13 +100,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "promessa",
-   "say": "E foi a banheira que desmascarou um ladrão de ouro.",
+   "say": "E foi a banheira que pegou um ladrão de ouro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "desmascarou"
+      "na": "de"
      }
     ]
    }
@@ -143,7 +143,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Siracusa, na Sicília, há mais de dois mil anos.",
+   "say": "Foi em Siracusa, na Sicília, há dois mil anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -164,7 +164,7 @@
    "interacao": "discutir",
    "detalhe": false,
    "bloco": "prova",
-   "say": "O rei Hierão desconfiou que sua coroa de ouro tinha prata.",
+   "say": "O rei desconfiou que o ourives misturou prata na coroa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -185,13 +185,13 @@
    "interacao": "entregar",
    "detalhe": false,
    "bloco": "prova",
-   "say": "Ele pediu a Arquimedes a verdade, sem estragar a coroa.",
+   "say": "Ele mandou Arquimedes achar a resposta, sem estragar a coroa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "pediu"
+      "na": "Arquimedes"
      }
     ]
    }
@@ -327,7 +327,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Coroa com prata é maior e derrama mais água que ouro puro.",
+   "say": "Coroa com prata é maior, e derrama mais água.",
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -367,7 +367,7 @@
    "tiros": false,
    "set": "medieval",
    "bloco": "pagamento",
-   "say": "Conta a lenda: ele gritou Eureca. E a coroa tinha prata.",
+   "say": "Conta a lenda: ele gritou Eureca. A coroa tinha prata.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -395,13 +395,13 @@
    "set": "medieval",
    "titulo": true,
    "bloco": "loop",
-   "say": "Dá para enganar muita gente. Mas não uma banheira.",
+   "say": "Dá para enganar muita gente, mas não a água. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "banheira"
+      "na": "enganar"
      }
     ]
    }
@@ -447,6 +447,6 @@
  "regiao": "classico",
  "ano": -250,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um genio correu da banheira gritando e a banheira desmascarou um ladrao de ouro. Pagamento: a agua mostrou que a coroa tinha prata.",
+ "gancho_cumprido": "Gancho: um homem saiu correndo da banheira gritando e a banheira pegou um ladrao de ouro. Pagamento: a agua que transborda mede o tamanho; a coroa com prata derramou mais, e tinha prata.",
  "loop_frase_ok": true
 }

@@ -27,7 +27,7 @@
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "Guerra por futebol parece exagero? Dois países fizeram uma de verdade.",
+   "frase": "Dois países fizeram uma guerra de verdade por causa de futebol.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,12 +59,10 @@
     "TOR"
    ],
    "multidao": 8,
-   "objetos": [
-    "kit/volcano"
-   ],
-   "palavras": 9,
+   "objetos": [],
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1969, Honduras e El Salvador já disputavam terras.",
+   "frase": "Em 1969, os dois países já disputavam terras.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,9 +79,9 @@
    "objetos": [
     "kit/ball"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Depois veio a disputa de uma vaga na Copa: três jogos.",
+   "frase": "Depois veio a vaga na Copa: três jogos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,17 +108,15 @@
    "cenario": "stadium"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "HON",
     "SAL",
     "HON",
     "SAL"
    ],
-   "multidao": 30,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "multidao": 10,
+   "objetos": [],
    "palavras": 11,
    "cena": "b5",
    "frase": "El Salvador venceu o segundo por três a zero. Torcidas brigaram.",
@@ -131,7 +127,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "SAL",
     "SAL",
@@ -141,9 +137,9 @@
    "objetos": [
     "kit/ball"
    ],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b6",
-   "frase": "No terceiro, El Salvador venceu por três a dois, na prorrogação.",
+   "frase": "No terceiro, El Salvador venceu na prorrogação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -156,9 +152,7 @@
     "SOL"
    ],
    "multidao": 48,
-   "objetos": [
-    "kit/volcano"
-   ],
+   "objetos": [],
    "palavras": 9,
    "cena": "b7",
    "frase": "Acontece que, semanas depois, o exército salvadorenho atacou Honduras.",
@@ -184,7 +178,7 @@
    "objetos": [],
    "palavras": 8,
    "cena": "b8",
-   "frase": "A guerra durou cem horas, até um cessar-fogo.",
+   "frase": "A guerra durou cem horas, até o cessar-fogo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -209,7 +203,7 @@
    ],
    "palavras": 11,
    "cena": "b9",
-   "frase": "Na Copa, El Salvador perdeu os três jogos. Sem um gol.",
+   "frase": "Na Copa, perderam os três jogos, sem um gol. Tudo porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

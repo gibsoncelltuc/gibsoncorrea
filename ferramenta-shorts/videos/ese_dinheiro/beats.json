@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 6,
  "title": "E Se o Dinheiro Sumisse do Mundo?",
@@ -60,7 +60,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "E se todo o dinheiro do mundo sumisse amanhã?",
+   "say": "Todo o dinheiro do mundo some amanhã de manhã.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -137,7 +137,7 @@
    ],
    "interacao": "entregar",
    "bloco": "prova",
-   "say": "A saída seria a troca: uma galinha por uma cesta de comida.",
+   "say": "A saída seria a troca: uma galinha por comida.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -223,7 +223,7 @@
     "ding@30"
    ],
    "bloco": "escalada",
-   "say": "Algumas nem saíam do lugar. Todos só lembravam quem era o dono.",
+   "say": "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -282,7 +282,7 @@
    "text": "DINHEIRO",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "Dinheiro não é papel. É confiança entre as pessoas.",
+   "say": "Dinheiro não é papel. É confiança.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -315,13 +315,13 @@
     "ding@30"
    ],
    "bloco": "loop",
-   "say": "E se ele sumisse amanhã? Agora você sabe o que viria.",
+   "say": "Teste mental para hoje: imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "sumisse"
+      "na": "imagina"
      }
     ]
    }
@@ -355,6 +355,6 @@
   ]
  },
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: e se todo o dinheiro sumisse; em menos de um ano a gente inventaria outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "gancho_cumprido": "Gancho: todo o dinheiro do mundo some amanha e em menos de um ano inventamos outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
  "loop_frase_ok": true
 }

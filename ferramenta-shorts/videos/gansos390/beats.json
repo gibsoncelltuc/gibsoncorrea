@@ -1,7 +1,7 @@
 {
  "title": "Os Gansos que Salvaram Roma",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "loc_campo",
  "mood": "march",
  "outfits": {
@@ -103,7 +103,7 @@
    "objetos": false,
    "interacao": false,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um bando de gansos salvou Roma numa noite.",
+   "say": "Um bando de gansos barulhentos salvou Roma numa noite.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -331,7 +331,7 @@
    "set": "loc_campo",
    "shot_lock": true,
    "bloco": "escalada",
-   "say": "Acontece que os gansos sagrados de Juno ouviram e começaram a gritar.",
+   "say": "Acontece que os gansos sagrados de Juno ouviram e gritaram.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -472,7 +472,7 @@
    "objetos": false,
    "interacao": false,
    "bloco": "loop",
-   "say": "Os gansos salvaram a colina. O ouro, não.",
+   "say": "Os guardas não ouviram, os gansos sim. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -524,6 +524,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: gansos salvaram Roma numa noite, mas Roma perdeu o ouro mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
+ "gancho_cumprido": "Gancho: um bando de gansos salvou Roma numa noite, mas o ouro foi embora mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
  "loop_frase_ok": true
 }

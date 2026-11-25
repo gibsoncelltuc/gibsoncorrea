@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 112 palavras (~39 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 10 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~4.1 s)
-- Narracao: Foguete pousa no chão? Este foi agarrado no ar por uma torre.
+- Narracao: Um foguete gigante foi agarrado no ar por uma torre com braços.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: MECHAZILLA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.4 s)
-- Narracao: Parece filme de robô gigante. Mas é engenharia de verdade.
+## Cena b1  (~3.1 s)
+- Narracao: Parece filme de robô. Mas é engenharia de verdade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Foi em outubro de 2024, na base da SpaceX, no Texas.
+## Cena b2  (~3.1 s)
+- Narracao: Foi em 2024, na base da SpaceX, no Texas.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: A ideia: tirar as pernas e fazer a torre agarrar o propulsor.
+## Cena b4  (~3.1 s)
+- Narracao: A ideia: a torre agarra o propulsor na volta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: MECHAZILLA
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.1 s)
-- Narracao: O propulsor decolou com trinta e três motores acesos.
+## Cena b6  (~2.8 s)
+- Narracao: O propulsor decolou com trinta e três motores.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
 - Efeito + som nas palavras-chave: -
@@ -83,17 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: PEGOU!
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.1 s)
-- Narracao: Os engenheiros comemoraram: era a primeira vez na história.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram: -> stars + som de sino
-- Efeito visual marcado: stars@20, stars@60
-- Texto na tela: PRIMEIRA VEZ
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~3.8 s)
-- Narracao: Uma torre que pega foguete no ar. E não é filme.
+## Cena b9  (~2.8 s)
+- Narracao: Primeira vez na história. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

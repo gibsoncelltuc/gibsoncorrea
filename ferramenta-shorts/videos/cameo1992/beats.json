@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 2,
  "title": "O Cameo de Sete Segundos",
@@ -85,6 +85,10 @@
     ]
    ],
    "mapa_at": 1,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "set": "loc_cidade",
    "bloco": "gancho",
    "say": "Sete segundos de um filme de Natal ainda geram briga até hoje.",
@@ -98,24 +102,7 @@
     ]
    },
    "text": "7 SEGUNDOS",
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "titulo": true
   },
   {
    "tiros": false,
@@ -268,6 +255,10 @@
    ],
    "mapa": "CANADÁ",
    "mapa_at": 1,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "interior": "pedra",
    "bloco": "pagamento",
    "say": "Em 2019, uma TV canadense passou o filme sem a cena.",
@@ -279,24 +270,7 @@
       "na": "passou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "tiros": false,
@@ -314,7 +288,7 @@
    },
    "set": "loc_cidade",
    "bloco": "pagamento",
-   "say": "O corte virou polêmica, e a discussão dura até hoje.",
+   "say": "O corte virou polêmica no mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -345,9 +319,13 @@
     ]
    ],
    "mapa_at": 1,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "set": "loc_cidade",
    "bloco": "loop",
-   "say": "Sete segundos de cena. Mais de trinta anos de briga.",
+   "say": "Um cameo virou briga política. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -356,24 +334,7 @@
       "na": "briga"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "exp": 1.0,
@@ -422,7 +383,7 @@
    "filme": "Home Alone 2 Trump cameo Plaza"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: sete segundos de um filme de Natal ainda geram briga e a culpa e' de um hotel. Pagamento: Trump aparece porque era dono do Plaza; diretor e Trump discordam e uma TV canadense cortou a cena em 2019.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: sete segundos de um filme de Natal geram briga ate hoje e a culpa e' de um hotel. Pagamento: Trump era dono do Plaza, o diretor diz que a cena foi o preco do hotel e Trump nega; uma TV cortou a cena em 2019.",
  "loop_frase_ok": true
 }

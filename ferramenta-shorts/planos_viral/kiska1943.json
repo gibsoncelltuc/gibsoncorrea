@@ -1,12 +1,12 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "ILHA VAZIA",
- "gancho_cumprido": "Gancho: 34 mil soldados invadiram uma ilha sem inimigo e ainda tiveram baixas. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
+ "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
  "cenas": [
   [
    0,
    "gancho",
-   "Trinta e quatro mil soldados desembarcaram numa ilha. Não tinha inimigo nenhum.",
+   "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
    "desembarcaram",
    {
     "encena": {
@@ -24,7 +24,8 @@
    11,
    "promessa",
    "E mesmo assim, houve mortos nessa invasão.",
-   "mortos"
+   "mortos",
+   {}
   ],
   [
    1,
@@ -47,7 +48,7 @@
   [
    3,
    "prova",
-   "Antes de desembarcar, bombardearam a ilha por semanas.",
+   "Bombardearam a ilha durante semanas inteiras.",
    "bombardearam",
    {
     "set": "harbor",
@@ -58,7 +59,8 @@
    5,
    "escalada",
    "Acontece que os japoneses já tinham ido embora.",
-   "embora"
+   "embora",
+   {}
   ],
   [
    7,
@@ -97,8 +99,9 @@
   [
    0,
    "loop",
-   "Um desembarque gigante contra uma ilha vazia.",
-   "desembarque"
+   "Uma invasão contra cachorros. E foi assim que...",
+   "cachorros",
+   {}
   ]
  ]
 }

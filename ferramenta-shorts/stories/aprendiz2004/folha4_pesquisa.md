@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Você Está Demitido | Você Está Demitido / Trump Foi TV Em Estados Unidos Aprendiz 2004 | SEM REFERENCIA
+tema | Você Está Demitido | Você Está Demitido / Duas Donald Trump Foi Em Aprendiz 2004 | SEM REFERENCIA
 lugar | Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e c | Nova York EUA / Nova York EUA 2004 | New York City subway;.jpg (referencias/aprendiz2004/prints/nova_york_eua_sala_de_reuni_o_escura_do__a8f13b.jpg); Grand Central–42nd Street, New York City Subway, F (referencias/aprendiz2004/prints/nova_york_eua_sala_de_reuni_o_escura_do__e825e2.jpg); New York City subway (2011) R46 in Lower Manhattan (referencias/aprendiz2004/prints/nova_york_eua_sala_de_reuni_o_escura_do__85ec7f.jpg)
 lugar | Brasil | Brasil 2004 / Brasil landscape | Münster, Montgolfiade 2004 -- 2004 -- 7.jpg (referencias/aprendiz2004/prints/brasil_eb88ba.jpg); Icelandic Landscape near Neskaupstaður July 2014.J (referencias/aprendiz2004/prints/brasil_1398fb.jpg); Landscape Arnisee-region.JPG (referencias/aprendiz2004/prints/brasil_3d38e3.jpg)
 epoca | roupas e ruas de 2004 | 2004 fashion clothing / 2004 street photograph | 2004-tsunami.jpg (referencias/aprendiz2004/prints/roupas_e_ruas_de_2004_0e8456.jpg); Chinatown-manhattan-2004.jpg (referencias/aprendiz2004/prints/roupas_e_ruas_de_2004_28bc4f.jpg); Vendsyssel teater 2004.jpg (referencias/aprendiz2004/prints/roupas_e_ruas_de_2004_a02b40.jpg)

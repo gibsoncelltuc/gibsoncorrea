@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 19,
  "title": "A Guerra de Aroostook",
@@ -113,7 +113,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: lenhadores quase começaram uma guerra entre dois países.",
+   "say": "Lenhadores quase começaram uma guerra entre dois países.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -217,7 +217,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Lenhadores dos dois lados cortavam as mesmas árvores em Aroostook.",
+   "say": "Lenhadores dos dois lados cortavam as mesmas árvores.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -356,7 +356,7 @@
    "interacao": "entregar",
    "acao": "discutir",
    "bloco": "pagamento",
-   "say": "Um general americano negociou uma trégua. Ninguém chegou a lutar.",
+   "say": "Um general negociou uma trégua. Ninguém chegou a lutar.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -366,26 +366,6 @@
       "quem": 0,
       "alvo_quem": 1,
       "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "PRE:0:smug:paper",
-    "PRE:1:smile"
-   ],
-   "interacao": "entregar",
-   "bloco": "pagamento",
-   "say": "Em 1842, um tratado dividiu a fronteira de vez.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "tratado"
      }
     ]
    }
@@ -443,7 +423,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "O apelido que ficou: Guerra do Porco com Feijão.",
+   "say": "O apelido: Guerra do Porco com Feijão. Tudo porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -502,6 +482,6 @@
  },
  "min_momentos": 1,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: EUA e Inglaterra quase entraram em guerra por lenhadores, e a guerra ganhou nome de comida. Pagamento: milicias de milhares, mas a tregua e o tratado de 1842 evitaram a luta; virou a Guerra do Porco com Feijao.",
+ "gancho_cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
  "loop_frase_ok": true
 }

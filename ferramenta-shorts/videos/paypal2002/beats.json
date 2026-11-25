@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 14,
  "title": "O Dia em que o PayPal Foi Vendido",
@@ -73,7 +73,7 @@
    "quadro_manual": true,
    "h": 1.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento.",
+   "say": "Os foguetes da SpaceX nasceram de um site de pagamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -386,7 +386,7 @@
    "d1": 12.5,
    "quadro_manual": true,
    "bloco": "escalada",
-   "say": "Dois anos depois, investiu na Tesla, de carros elétricos.",
+   "say": "Dois anos depois, investiu na Tesla.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -491,13 +491,13 @@
    "quadro_manual": true,
    "h": 1.5,
    "bloco": "loop",
-   "say": "Um pagamento online, literalmente, chegou ao espaço.",
+   "say": "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "espaço"
+      "na": "e"
      }
     ]
    }
@@ -552,6 +552,6 @@
  "regiao": "eua",
  "min_momentos": 1,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro ajudou a bancar SpaceX e Tesla.",
+ "gancho_cumprido": "Gancho: os foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro bancou SpaceX e Tesla.",
  "loop_frase_ok": true
 }

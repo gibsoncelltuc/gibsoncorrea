@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.1s - 11 palavras - plano two
-> "Videogame precisa de mãos? Um macaco jogou só com o pensamento."
+## Cena b0 - 0.0s a 2.6s - 8 palavras - plano two
+> "Um macaco jogou videogame só com o pensamento."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogou" (2.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,26 +23,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.2s a 6.0s - 10 palavras - plano two
+## Cena b1 - 3.0s a 6.3s - 10 palavras - plano two
 > "E o prêmio de cada acerto era vitamina de banana."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prêmio" (4.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prêmio" (3.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | prêmio (4.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | prêmio (3.7s) | EFEITO: stars | estrelinhas + som | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra prêmio (4.8s): executa: estrelinhas + som
+- EFEITO: stars na palavra prêmio (3.7s): executa: estrelinhas + som
 <!-- /FISICA -->
 
-## Cena b2 - 6.2s a 8.9s - 8 palavras - plano wide
+## Cena b2 - 6.7s a 9.3s - 8 palavras - plano wide
 > "Foi em 2021, num teste da empresa Neuralink."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Neuralink" (8.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Neuralink" (9.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -55,11 +55,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 9.0s a 10.8s - 9 palavras - plano two
+## Cena b3 - 9.6s a 12.6s - 9 palavras - plano two
 > "Um chip no cérebro lê os sinais dos neurônios."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chip" (9.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chip" (10.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -72,11 +72,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 11.0s a 14.3s - 10 palavras - plano close
+## Cena b4 - 13.0s a 16.3s - 10 palavras - plano close
 > "O macaco Pager aprendeu a jogar Pong com um joystick."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aprendeu" (11.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aprendeu" (14.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -87,11 +87,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 14.4s a 17.8s - 12 palavras - plano two
+## Cena b5 - 16.7s a 20.7s - 12 palavras - plano two
 > "Acontece que desligaram o joystick, e ele continuou jogando com a mente."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "continuou" (16.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "continuou" (19.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -102,11 +102,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 17.9s a 21.7s - 12 palavras - plano orbit
+## Cena b6 - 21.1s a 25.2s - 12 palavras - plano orbit
 > "O vídeo rodou o mundo e abriu debate sobre testes com animais."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rodou" (19.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rodou" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -122,11 +122,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 14: parada, reagindo (surprised), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b7 - 22.9s a 26.1s - 9 palavras - plano two
+## Cena b7 - 25.6s a 28.5s - 9 palavras - plano two
 > "Em 2024, um paciente paralisado jogou xadrez só pensando."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogou" (25.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogou" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -139,11 +139,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 26.3s a 29.4s - 10 palavras - plano two
-> "Tudo começou com um macaco e um copo de vitamina."
+## Cena b8 - 28.9s a 32.6s - 11 palavras - plano two
+> "Tudo começou com um copo de vitamina. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "macaco" (27.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vitamina" (31.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

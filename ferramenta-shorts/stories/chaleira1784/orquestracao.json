@@ -19,9 +19,9 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Uma guerra inteira teve um único tiro. E acertou uma chaleira.",
+   "frase": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -38,9 +38,9 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b1",
-   "frase": "E aquela chaleira estava cheia de sopa quente.",
+   "frase": "E dentro dela tinha sopa quente para o almoço.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -55,11 +55,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata"
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Em 1784, a Holanda mantinha o rio Escalda fechado.",
+   "frase": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,9 +75,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "O imperador José Segundo, da Áustria, queria o rio aberto.",
+   "frase": "O imperador da Áustria queria o rio aberto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -95,7 +96,7 @@
    ],
    "palavras": 11,
    "cena": "b4",
-   "frase": "Ele mandou três navios descerem o rio, achando que ninguém reagiria.",
+   "frase": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -103,7 +104,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "MAR",
     "MAR"
@@ -111,12 +112,11 @@
    "multidao": 0,
    "objetos": [
     "cannon",
-    "kit/navio_fragata",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_fragata"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Acontece que o navio holandês Dolfijn esperava e disparou um tiro.",
+   "frase": "Acontece que um navio holandês esperava e disparou um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -135,7 +135,7 @@
    ],
    "palavras": 9,
    "cena": "b6",
-   "frase": "A bala destruiu uma chaleira de sopa no convés.",
+   "frase": "A bala destruiu a chaleira de sopa no convés.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -149,18 +149,17 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "GEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_fragata"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "O navio austríaco se rendeu na hora, sem mais tiros.",
+   "frase": "O navio austríaco se rendeu na hora.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -181,9 +180,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "O único prejuízo do dia foi o almoço.",
+   "frase": "Perderam o almoço e a coragem. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

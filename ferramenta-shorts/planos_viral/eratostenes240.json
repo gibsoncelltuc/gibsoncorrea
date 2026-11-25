@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "UMA VARA = O PLANETA",
- "gancho_cumprido": "Gancho: um homem mediu o planeta so com uma vara e a sombra. Pagamento: comparando a sombra de Alexandria com o poco sem sombra de Siena, achou um numero muito perto do tamanho real da Terra.",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um homem mediu o planeta com uma vara.",
+   "Um homem mediu o tamanho da Terra usando só uma vara.",
    "mediu",
    {
     "encena_antiga": true
@@ -15,26 +15,30 @@
   [
    9,
    "promessa",
-   "E chegou muito perto do número certo, sem satélite.",
-   "número"
+   "E chegou perto do número certo, sem satélite.",
+   "número",
+   {}
   ],
   [
    1,
    "prova",
-   "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
-   "Eratóstenes"
+   "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "Eratóstenes",
+   {}
   ],
   [
    2,
    "prova",
    "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
-   "iluminava"
+   "iluminava",
+   {}
   ],
   [
    3,
    "prova",
-   "Ou seja: lá, ao meio-dia, nada fazia sombra.",
-   "sombra"
+   "Ou seja: lá, nada fazia sombra.",
+   "sombra",
+   {}
   ],
   [
    4,
@@ -66,7 +70,7 @@
   [
    8,
    "pagamento",
-   "Com uma conta simples, achou quase o tamanho real da Terra.",
+   "A conta deu quase o tamanho real da Terra.",
    "conta",
    {
     "encena_antiga": true
@@ -75,8 +79,9 @@
   [
    0,
    "loop",
-   "Uma vara e um poço fizeram o trabalho de um satélite.",
-   "vara"
+   "Sem foguete, só uma sombra. E foi assim que...",
+   "foguete",
+   {}
   ]
  ]
 }

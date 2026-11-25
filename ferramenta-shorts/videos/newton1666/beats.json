@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+7%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 1,
  "title": "Newton e a Maçã",
@@ -84,7 +84,7 @@
    "quadro_manual": true,
    "h": 1.6,
    "bloco": "gancho",
-   "say": "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo.",
+   "say": "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -121,7 +121,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "promessa",
-   "say": "Ela explicou por que a Lua não cai na nossa cabeça.",
+   "say": "Ela explicou por que a Lua não cai em cima da gente.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -171,7 +171,7 @@
    "set": "countryside",
    "fachada": true,
    "bloco": "prova",
-   "say": "Isaac Newton, de 23 anos, voltou para a fazenda da mãe.",
+   "say": "Isaac Newton, de 23 anos, voltou para a fazenda.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -198,7 +198,7 @@
     ]
    ],
    "bloco": "prova",
-   "say": "Passava os dias debaixo de uma macieira, pensando.",
+   "say": "Ficava debaixo de uma macieira, pensando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -334,7 +334,7 @@
    },
    "shot_lock": true,
    "bloco": "escalada",
-   "say": "Se a força puxa a maçã, será que puxa a Lua também?",
+   "say": "Se a força puxa a maçã, puxa a Lua também?",
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -368,7 +368,7 @@
    "d1": 6.5,
    "interior": "madeira",
    "bloco": "pagamento",
-   "say": "Virou a lei da gravidade, publicada em 1687.",
+   "say": "Isso virou a lei da gravidade de Newton.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -406,7 +406,7 @@
    "quadro_manual": true,
    "h": 1.6,
    "bloco": "loop",
-   "say": "A maçã ficou famosa. E nem foi comida.",
+   "say": "E a maçã nem foi comida. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -452,7 +452,7 @@
  },
  "cinf": 4.5,
  "exp": 1.12,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a maca nao caiu na cabeca de Newton e mesmo assim mudou tudo, explicando por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade em 1687.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma maca que nao caiu na cabeca de Newton explicou por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade.",
  "loop_frase_ok": true
 }

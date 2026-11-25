@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 17,
  "title": "A Guerra do Uísque",
@@ -75,7 +75,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.",
+   "say": "Dois países brigaram quase quarenta anos por uma rocha, usando uísque.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -238,7 +238,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "escalada",
-   "say": "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.",
+   "say": "Fincaram a bandeira e deixaram uma garrafa de uísque.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -320,65 +320,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "escalada",
-   "say": "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.",
+   "say": "E deixaram aguardente com um bilhete de boas-vindas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "bilhete"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "CAN:0:smug",
-    "DIN:0:smug"
-   ],
-   "interacao": "cochichar",
-   "set": "arctic",
-   "props": [
-    [
-     "kit/bandeira_dinamarca",
-     -3.0,
-     -3.5,
-     1.11,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/whisky",
-     0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "bloco": "escalada",
-   "say": "Por décadas, os dois lados trocaram bandeira e garrafa.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "trocaram",
-      "quem": 0
-     },
-     {
-      "faz": "x_entrega",
-      "na": "trocar",
-      "quem": 0,
-      "alvo_quem": 1
      }
     ]
    }
@@ -431,13 +379,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Zero tiros. Só bandeiras e muito uísque.",
+   "say": "Nenhum tiro, só garrafas trocadas. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "uísque"
+      "na": "garrafas"
      }
     ]
    }
@@ -474,7 +422,7 @@
   ]
  },
  "variar_cenario": false,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando so bebida. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando uisque, e acabou educadamente. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
  "loop_frase_ok": true
 }

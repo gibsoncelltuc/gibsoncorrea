@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um exército contra pássaros? A Austrália saiu derrotada."
+## b0: "Um exército perdeu uma guerra contra pássaros."
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: SOL na esquerda, expressao pained; FARM na direita, expressao laugh; sem multidao; acao: fala/gesto
@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: FARM na esquerda, expressao smile; FARM na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Em 1932, vinte mil emus tomaram as lavouras de trigo."
+## b2: "Em 1932, vinte mil emus tomaram as lavouras da Austrália."
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: FARM na esquerda, expressao shock, segura pitchfork; FARM na direita, expressao nervous; sem multidao; acao: fala/gesto
@@ -61,18 +61,18 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "O major comparou os emus a tanques. A imprensa riu."
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: SOL no centro, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao smug; multidao de 10 (SOL) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETO vehicles/tank: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.1 m de altura x 9.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "HA HA HA" flutuando no alto, na palavra 9 da frase
 
-## b8: "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
+## b8: "Seis dias, milhares de balas, poucos emus abatidos."
 - LOCAL: loc_campo; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SOL na esquerda, expressao pained; SOL na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "6 DIAS" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "Placar final: exército zero, emus um."
+## b9: "Exército zero, emus um. E foi assim que..."
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto

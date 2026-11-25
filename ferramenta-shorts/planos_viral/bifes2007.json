@@ -1,61 +1,70 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "TRUMP STEAKS",
- "gancho_cumprido": "Gancho: nome famoso nao vende sozinho; o bife de Trump sumiu em dois meses. Pagamento: saiu da loja em julho, vendeu menos de 50 mil dolares e a marca foi cancelada em 2014.",
+ "gancho_cumprido": "Gancho: o bife com o nome de Trump sumiu das lojas em dois meses, com venda bem menor que o esperado. Pagamento: saiu da loja em julho, vendas estimadas abaixo de 50 mil dolares e marca cancelada em 2014.",
  "cenas": [
   [
    0,
    "gancho",
-   "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.",
-   "sumiu"
+   "O bife do Trump sumiu das lojas em só dois meses.",
+   "sumiu",
+   {}
   ],
   [
    9,
    "promessa",
    "E o resultado foi bem menor do que se imaginava.",
-   "resultado"
+   "resultado",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.",
-   "lançou"
+   "Em 2007, ele lançou a Trump Steaks.",
+   "lançou",
+   {}
   ],
   [
    2,
    "prova",
    "Os pacotes custavam até novecentos e noventa e nove dólares.",
-   "custavam"
+   "custavam",
+   {}
   ],
   [
    3,
    "escalada",
    "Acontece que, em julho, a loja já não oferecia os bifes.",
-   "loja"
+   "loja",
+   {}
   ],
   [
    4,
    "escalada",
    "Uma reportagem estimou menos de cinquenta mil dólares no total.",
-   "estimou"
+   "estimou",
+   {}
   ],
   [
    6,
    "pagamento",
-   "Em 2014, a marca registrada foi cancelada.",
-   "cancelada"
+   "Em 2014, a marca foi cancelada.",
+   "cancelada",
+   {}
   ],
   [
    7,
    "pagamento",
-   "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.",
-   "cardápio"
+   "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
+   "cardápio",
+   {}
   ],
   [
    0,
    "loop",
-   "Nem todo nome famoso dura mais que uma promoção.",
-   "nome"
+   "Nome famoso não salvou a carne. E foi assim que...",
+   "nome",
+   {}
   ]
  ]
 }

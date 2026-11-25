@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 20,
  "title": "As Abelhas que Dançam um Mapa",
@@ -86,7 +86,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "O que ninguém te conta: abelhas conversam dançando.",
+   "say": "Abelhas conversam dançando, e a dança é um mapa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -125,13 +125,13 @@
    "d1": 7.2,
    "quadro_manual": true,
    "bloco": "promessa",
-   "say": "E a dança delas é um mapa que leva até a comida.",
+   "say": "E quem traduziu isso ganhou um Prêmio Nobel.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "mapa"
+      "na": "traduziu"
      }
     ]
    }
@@ -250,13 +250,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "prova",
-   "say": "A abelha que achava o açúcar voltava e dançava no favo.",
+   "say": "A abelha que achava o açúcar voltava dançando.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "dançava"
+      "na": "dançando"
      }
     ]
    }
@@ -401,7 +401,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "A parte maluca: o ângulo da dança aponta para o sol.",
+   "say": "O ângulo da dança aponta a direção, comparada com o sol.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -496,7 +496,7 @@
    ],
    "acao": "discutir",
    "bloco": "escalada",
-   "say": "Cientistas riram: inseto com linguagem? Parecia piada.",
+   "say": "Acontece que os cientistas riram: inseto com linguagem?",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -537,7 +537,7 @@
    "props": [],
    "detalhe": false,
    "bloco": "pagamento",
-   "say": "Em 1973, a dança das abelhas deu a ele o Prêmio Nobel.",
+   "say": "Em 1973, ele ganhou o Nobel por essa dança.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -597,7 +597,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Viu uma abelha dançando? Lembre do que ninguém te conta.",
+   "say": "Repare na próxima abelha que passar. Porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -648,6 +648,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: abelhas conversam dancando e a danca e' um mapa. Pagamento: voltinhas, o oito, o angulo do sol e a distancia; a descoberta deu o Nobel de 1973.",
+ "gancho_cumprido": "Gancho: abelhas conversam dancando, a danca e' um mapa, e quem traduziu ganhou o Nobel. Pagamento: voltinhas para perto, oito para longe, angulo do sol para a direcao; Nobel de 1973.",
  "loop_frase_ok": true
 }

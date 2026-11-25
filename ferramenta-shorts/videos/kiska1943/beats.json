@@ -1,7 +1,7 @@
 {
  "title": "A Invasão da Ilha Vazia",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "mountain",
  "light": "overcast",
  "mood": "march",
@@ -87,7 +87,7 @@
     ]
    },
    "bloco": "gancho",
-   "say": "Trinta e quatro mil soldados desembarcaram numa ilha. Não tinha inimigo nenhum.",
+   "say": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
    "titulo": true
   },
   {
@@ -250,7 +250,7 @@
    "d1": 14.0,
    "impact": true,
    "bloco": "prova",
-   "say": "Antes de desembarcar, bombardearam a ilha por semanas.",
+   "say": "Bombardearam a ilha durante semanas inteiras.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -482,13 +482,13 @@
     "march": true
    },
    "bloco": "loop",
-   "say": "Um desembarque gigante contra uma ilha vazia.",
+   "say": "Uma invasão contra cachorros. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "desembarque"
+      "na": "cachorros"
      }
     ]
    }
@@ -532,7 +532,7 @@
    "OFF"
   ]
  ],
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: 34 mil soldados invadiram uma ilha sem inimigo e ainda tiveram baixas. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
  "loop_frase_ok": true
 }

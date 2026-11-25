@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 3,
  "title": "E Se o Brasil Tivesse Sido Holandês?",
@@ -71,7 +71,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos.",
+   "say": "Um pedaço do Brasil foi holandês por 24 anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -157,13 +157,13 @@
    ],
    "acao": "conversar",
    "bloco": "prova",
-   "say": "Maurício de Nassau trouxe pintores e cientistas para Recife.",
+   "say": "Maurício de Nassau levou artistas para Recife.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "trouxe"
+      "na": "Maurício"
      }
     ]
    }
@@ -190,13 +190,13 @@
    ],
    "detalhe": false,
    "bloco": "prova",
-   "say": "Recife ganhou uma grande ponte e a primeira sinagoga das Américas.",
+   "say": "Recife ganhou até a primeira sinagoga das Américas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ponte"
+      "na": "primeira"
      }
     ]
    }
@@ -253,7 +253,7 @@
     ]
    ],
    "bloco": "escalada",
-   "say": "Em 1654, os holandeses foram embora de vez.",
+   "say": "Em 1654, os holandeses foram embora.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -305,13 +305,13 @@
    ],
    "interacao": "entregar",
    "bloco": "pagamento",
-   "say": "Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã.",
+   "say": "Depois, a Holanda trocou Nova Amsterdã pelo Suriname.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "entregou"
+      "na": "Amsterdã"
      }
     ]
    }
@@ -385,7 +385,7 @@
     "ding@30"
    ],
    "bloco": "loop",
-   "say": "E se eles tivessem ficado? O mapa seria outro.",
+   "say": "Se tivessem ficado, o mapa seria outro. Porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -422,6 +422,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um pedaco do Brasil foi holandes por 24 anos e a historia termina em Nova York. Pagamento: Nassau em Recife, os holandeses expulsos em 1654, e em 1667 trocaram Nova Amsterda, hoje Nova York, pelo Suriname.",
+ "gancho_cumprido": "Gancho: um pedaco do Brasil foi holandes por 24 anos e a historia termina em Nova York. Pagamento: Nassau em Recife, os holandeses expulsos em 1654, e Nova Amsterda trocada pelo Suriname virou Nova York.",
  "loop_frase_ok": true
 }

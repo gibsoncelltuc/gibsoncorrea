@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 8,
  "title": "Darwin e os Tentilhões",
@@ -81,13 +81,13 @@
    "shot_lock": true,
    "detalhe": false,
    "bloco": "gancho",
-   "say": "Ninguém te conta: Darwin misturou as etiquetas de uns passarinhos.",
+   "say": "Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra.",
    "encena": {
     "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "passarinhos"
+      "na": "etiqueta"
      }
     ]
    },
@@ -131,13 +131,13 @@
    "h": 2.0,
    "shot_lock": true,
    "bloco": "promessa",
-   "say": "E esse erro explicou como a vida muda na Terra.",
+   "say": "E tudo começou no bico de um passarinho.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "erro"
+      "na": "E"
      }
     ]
    }
@@ -179,7 +179,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Em 1835, Darwin chegou às ilhas Galápagos, no navio Beagle.",
+   "say": "Em 1835, Darwin chegou às ilhas Galápagos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -288,13 +288,13 @@
    "h": 2.0,
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Em Londres, John Gould revelou: eram todos tentilhões.",
+   "say": "Em Londres, descobriram: eram todos tentilhões.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "revelou"
+      "na": "descobriram"
      }
     ]
    }
@@ -488,7 +488,7 @@
    "h": 2.0,
    "shot_lock": true,
    "bloco": "escalada",
-   "say": "Quem tinha o bico certo sobrevivia e passava isso aos filhos.",
+   "say": "Quem tinha o bico certo sobrevivia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -518,7 +518,7 @@
    ],
    "text": "SELEÇÃO NATURAL",
    "bloco": "pagamento",
-   "say": "Em 1859, essa ideia virou a seleção natural.",
+   "say": "Em 1859, isso virou a seleção natural.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -566,13 +566,13 @@
    "shot_lock": true,
    "detalhe": false,
    "bloco": "loop",
-   "say": "Tudo começou com etiquetas trocadas. É isso que ninguém te conta.",
+   "say": "Darwin nunca mais esqueceu de anotar. Porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "etiquetas"
+      "na": "esqueceu"
      }
     ]
    }
@@ -614,6 +614,6 @@
   "\\bnavio\\b|beagle": "kit/navio_fragata"
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: Darwin misturou as etiquetas dos passarinhos e isso explicou como a vida muda. Pagamento: Gould mostrou que eram tentilhoes com bicos diferentes por ilha, e isso virou a selecao natural em 1859.",
+ "gancho_cumprido": "Gancho: uma etiqueta trocada ajudou Darwin a explicar a vida, com o segredo no bico. Pagamento: os tentilhoes tinham o bico certo para a comida de cada ilha; virou a selecao natural em 1859.",
  "loop_frase_ok": true
 }

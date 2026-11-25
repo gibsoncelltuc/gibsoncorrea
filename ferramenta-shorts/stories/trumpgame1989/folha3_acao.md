@@ -4,32 +4,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.1s - 13 palavras - plano two
-> "Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Donald Trump lançou um jogo com o próprio rosto no dinheiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dinheiro (3.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | entregar | OK |
+| 1 | dinheiro (3.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | TRUMP: O JOGO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dinheiro (3.1s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: entregar
+- EFEITO: stars na palavra dinheiro (3.7s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.5s a 6.5s - 9 palavras - plano two
+## Cena b1 - 4.1s a 7.0s - 9 palavras - plano two
 > "E o jogo empacou por um motivo bem simples."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "motivo" (5.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "motivo" (6.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -40,11 +40,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b2 - 6.8s a 10.1s - 11 palavras - plano wide
-> "Em 1989, ele já era um empresário famoso de Nova York."
+## Cena b2 - 7.4s a 10.0s - 8 palavras - plano wide
+> "Em 1989, ele já era um empresário famoso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "empresário" (8.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "empresário" (9.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -57,11 +57,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.5s a 13.7s - 10 palavras - plano two
+## Cena b3 - 10.4s a 13.7s - 10 palavras - plano two
 > "No jogo, o objetivo era juntar prédios, cassinos e hotéis."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prédios" (13.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prédios" (12.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -74,11 +74,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 14.0s a 17.8s - 12 palavras - plano close
-> "As notas eram de cem milhões de dólares, com a cara dele."
+## Cena b4 - 14.1s a 15.9s - 6 palavras - plano close
+> "As notas tinham a cara dele."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "notas" (14.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "notas" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -89,11 +89,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b5 - 18.1s a 21.1s - 11 palavras - plano two
+## Cena b5 - 16.3s a 20.0s - 11 palavras - plano two
 > "Acontece que o manual era longo, e ninguém entendia as regras."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "manual" (19.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "manual" (17.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -106,11 +106,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b6 - 21.9s a 24.1s - 8 palavras - plano two
+## Cena b6 - 20.4s a 23.0s - 8 palavras - plano two
 > "Esperavam dois milhões de jogos. Saíram oitocentos mil."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "milhões" (22.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "milhões" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -125,21 +125,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 24.2s a 27.5s - 10 palavras - plano orbit
-> "Em 2004, com o programa O Aprendiz, o jogo voltou."
+## Cena b7 - 23.3s a 25.9s - 8 palavras - plano orbit
+> "Em 2004, com O Aprendiz, o jogo voltou."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (27.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 27.8s a 31.5s - 11 palavras - plano group
-> "Desta vez com regras simples e a frase: você está demitido."
+## Cena b8 - 26.3s a 28.5s - 7 palavras - plano group
+> "Desta vez, com regras bem mais simples."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "regras" (28.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "regras" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -156,21 +156,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 31.8s a 35.4s - 10 palavras - plano two
-> "Um jogo para ficar bilionário, que quase ninguém conseguia jogar."
+## Cena b9 - 28.9s a 31.5s - 8 palavras - plano two
+> "Um jogo que ninguém entendia. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (32.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (29.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | TRUMP: O JOGO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

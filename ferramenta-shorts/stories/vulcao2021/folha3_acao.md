@@ -4,32 +4,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.2s - 11 palavras - plano two
-> "Ninguém te conta: um país fabrica dinheiro digital com um vulcão."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Um país fabrica dinheiro digital usando a energia de um vulcão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vulcão" (3.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vulcão" (3.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dinheiro (1.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | entregar | OK |
+| 1 | dinheiro (1.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BITCOIN DE VULCÃO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dinheiro (1.8s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: entregar
+- EFEITO: stars na palavra dinheiro (1.1s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.4s a 5.4s - 6 palavras - plano two
+## Cena b1 - 4.1s a 5.9s - 6 palavras - plano two
 > "Parece ficção. Mas aconteceu de verdade."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ficção" (3.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ficção" (4.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -40,11 +40,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b2 - 5.8s a 9.9s - 12 palavras - plano wide
-> "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador."
+## Cena b2 - 6.3s a 9.3s - 9 palavras - plano wide
+> "Em 2021, El Salvador tornou o bitcoin moeda oficial."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tornou" (6.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tornou" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -59,11 +59,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.0s a 11.7s - 9 palavras - plano two
-> "Criar bitcoin novo exige computadores fazendo contas sem parar."
+## Cena b3 - 9.6s a 12.2s - 8 palavras - plano two
+> "Criar bitcoin exige computadores fazendo contas sem parar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "contas" (11.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "contas" (11.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -76,48 +76,48 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b4 - 12.1s a 15.3s - 9 palavras - plano wide
-> "Para isso, ele usou o calor do vulcão Tecapa."
+## Cena b4 - 12.6s a 15.9s - 10 palavras - plano wide
+> "Para isso, o governo usou o calor do vulcão Tecapa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "usou" (13.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "usou" (14.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 15.8s a 18.9s - 9 palavras - plano two
+## Cena b5 - 16.3s a 19.3s - 9 palavras - plano two
 > "O vapor da terra gira turbinas e vira eletricidade."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "gira" (17.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "gira" (17.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 20.0s a 23.8s - 11 palavras - plano two
+## Cena b6 - 19.6s a 23.3s - 11 palavras - plano two
 > "Acontece que, ao lado da usina, instalaram computadores só para isso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "instalaram" (22.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "instalaram" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 23.9s a 27.6s - 12 palavras - plano orbit
-> "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão."
+## Cena b7 - 23.7s a 27.0s - 10 palavras - plano orbit
+> "Anos depois, o governo contava quase quinhentos bitcoins do vulcão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bitcoins" (25.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bitcoins" (26.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -130,11 +130,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 27.8s a 30.4s - 11 palavras - plano wide
-> "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão."
+## Cena b8 - 27.4s a 30.7s - 10 palavras - plano wide
+> "E anunciou uma Cidade Bitcoin aos pés de outro vulcão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anunciou" (28.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anunciou" (27.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -145,23 +145,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 31.0s a 34.8s - 9 palavras - plano two
-> "Dinheiro tirado de vulcão. E ninguém te conta isso."
+## Cena b9 - 31.1s a 34.1s - 9 palavras - plano two
+> "Dinheiro tirado da terra quente. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vulcão" (33.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Dinheiro" (31.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Dinheiro (31.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | INTERACAO | susto | OK |
+| 1 | Dinheiro (31.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | BITCOIN DE VULCÃO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra Dinheiro (31.0s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: susto
+- EFEITO: stars na palavra Dinheiro (31.1s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

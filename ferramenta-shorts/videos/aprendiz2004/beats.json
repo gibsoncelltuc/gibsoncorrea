@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 13,
  "title": "Você Está Demitido",
@@ -62,7 +62,7 @@
    "text": "VOCÊ ESTÁ DEMITIDO!",
    "titulo": true,
    "bloco": "gancho",
-   "say": "O que ninguém lembra: duas palavras deixaram Trump famoso no mundo todo.",
+   "say": "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -88,13 +88,13 @@
     "ding@50"
    ],
    "bloco": "promessa",
-   "say": "E não foi na política. Foi num programa de TV.",
+   "say": "E não foi na política. Foi na televisão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "programa"
+      "na": "política"
      }
     ]
    }
@@ -108,18 +108,15 @@
    "props": [
     [
      "kit/tv",
-     0.0,
-     -1.2,
-     1.8,
-     {
-      "fixo": true
-     }
+     0,
+     -1.0,
+     1.8
     ]
    ],
    "text": "O APRENDIZ",
    "titulo": true,
    "bloco": "prova",
-   "say": "Em 2004, estreou nos Estados Unidos o programa O Aprendiz.",
+   "say": "Em 2004, estreou o programa O Aprendiz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -128,24 +125,7 @@
       "na": "estreou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "crowd",
@@ -165,7 +145,7 @@
     "expr": "smile"
    },
    "bloco": "prova",
-   "say": "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "say": "Candidatos disputavam um emprego numa empresa dele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -217,13 +197,13 @@
     "passos": [
      {
       "faz": "perde",
-      "na": "perdedora",
+      "na": "perdia",
       "quem": 1
      }
     ]
    },
    "bloco": "prova",
-   "say": "Toda semana, a equipe perdedora ia para a sala de reunião."
+   "say": "A equipe que perdia ia para a sala de reunião."
   },
   {
    "shot": "close",
@@ -241,7 +221,7 @@
    ],
    "text": "VOCÊ ESTÁ DEMITIDO!",
    "bloco": "escalada",
-   "say": "E alguém ouvia, com o dedo na cara: você está demitido.",
+   "say": "Acontece que ali Trump apontava o dedo e dizia: você está demitido.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -273,12 +253,9 @@
    "props": [
     [
      "kit/tv",
-     0.0,
-     -1.2,
-     1.3,
-     {
-      "fixo": true
-     }
+     0,
+     -3.0,
+     1.3
     ]
    ],
    "fx": [
@@ -292,7 +269,7 @@
    "text": "28 MILHÕES",
    "titulo": true,
    "bloco": "escalada",
-   "say": "A final teve cerca de vinte e oito milhões de espectadores.",
+   "say": "A final teve uns vinte e oito milhões de espectadores.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -301,24 +278,7 @@
       "na": "milhões"
      }
     ]
-   },
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -338,7 +298,7 @@
    "text": "ROBERTO JUSTUS",
    "titulo": true,
    "bloco": "escalada",
-   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "say": "No Brasil, a versão teve Roberto Justus.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -357,12 +317,9 @@
    "props": [
     [
      "kit/tv",
-     2.4,
-     0.2,
-     1.2,
-     {
-      "fixo": true
-     }
+     1.8,
+     -1.2,
+     1.2
     ]
    ],
    "acao": "conversar",
@@ -371,7 +328,7 @@
    "text": "2004-2015",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "Trump apresentou o programa por mais de dez anos.",
+   "say": "Ele apresentou o programa por mais de dez anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -380,24 +337,7 @@
       "na": "apresentou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_estudio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "close",
@@ -413,13 +353,13 @@
    "text": "VOCÊ ESTÁ DEMITIDO!",
    "titulo": true,
    "bloco": "loop",
-   "say": "Um programa de emprego, famoso por demitir. Tudo por causa de duas palavras.",
+   "say": "Virou a marca dele. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "palavras"
+      "na": "Virou"
      }
     ]
    }
@@ -466,6 +406,6 @@
  "cinf": 4.5,
  "exp": 1.12,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo todo. Pagamento: o bordao 'voce esta demitido' no programa O Aprendiz, 28 milhoes na final e mais de dez anos no ar.",
+ "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo, e foi na televisao. Pagamento: no programa O Aprendiz ele apontava e dizia 'voce esta demitido'; a final teve 28 milhoes de espectadores.",
  "loop_frase_ok": true
 }

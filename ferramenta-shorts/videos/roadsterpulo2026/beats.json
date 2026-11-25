@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 25,
  "title": "O Carro que Voou de Cabeça para Baixo",
@@ -110,7 +110,7 @@
    },
    "impact": true,
    "bloco": "gancho",
-   "say": "Carro voador é coisa de filme? Este voou na frente de todos.",
+   "say": "Um carro voou na frente dos convidados, e não era efeito especial.",
    "text": "VOOU DE VERDADE",
    "titulo": true
   },
@@ -130,13 +130,13 @@
    "quadro_manual": true,
    "shot": "close",
    "bloco": "promessa",
-   "say": "E o jeito que ele fez isso parece mágica.",
+   "say": "E ninguém esperava como ele fez isso.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "mágica"
+      "na": "esperava"
      }
     ]
    }
@@ -192,7 +192,7 @@
     "angulo": "lado"
    },
    "bloco": "prova",
-   "say": "Primeiro truque: uma sucção gruda o carro na pista, como ventosa.",
+   "say": "Primeiro truque: uma sucção gruda o carro na pista.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -241,7 +241,7 @@
    },
    "quadro_manual": true,
    "bloco": "prova",
-   "say": "Assim ele subiu uma rampa curva e ficou de cabeça para baixo.",
+   "say": "Assim ele subiu uma rampa e ficou de cabeça para baixo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -427,36 +427,13 @@
    "quadro_manual": true,
    "shot": "track",
    "bloco": "escalada",
-   "say": "Foi assim que ele decolou por cima de carros parados.",
+   "say": "Acontece que foi assim que ele decolou por cima de carros.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "decolou"
-     }
-    ]
-   }
-  },
-  {
-   "explica": {
-    "medidor": {
-     "de": 0,
-     "para": 97,
-     "un": "km/h",
-     "titulo": "MENOS DE 1 SEGUNDO",
-     "na": "zero",
-     "dur": 0.9
-    }
-   },
-   "bloco": "escalada",
-   "say": "Zero a cem em menos de um segundo.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "zero"
      }
     ]
    }
@@ -478,7 +455,7 @@
    "quadro_manual": true,
    "shot": "two",
    "bloco": "pagamento",
-   "say": "Mas o voo durou poucos segundos. Ainda não é carro voador.",
+   "say": "Mas o voo durou poucos segundos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -505,13 +482,13 @@
    "quadro_manual": true,
    "shot": "close",
    "bloco": "loop",
-   "say": "Carro voador ou carro que pula? Você decide.",
+   "say": "Ainda não é carro voador. Mas foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "decide"
+      "na": "voador"
      }
     ]
    }
@@ -582,6 +559,6 @@
   "kit/roadster26": "Tesla Roadster prototype"
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um carro voou na frente de todos e o segredo sao dois truques. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou poucos segundos.",
+ "gancho_cumprido": "Gancho: um carro voou na frente dos convidados sem efeito especial, com dois truques escondidos. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou segundos.",
  "loop_frase_ok": true
 }

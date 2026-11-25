@@ -1,12 +1,12 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "DE RÉ",
- "gancho_cumprido": "Gancho: foguete era jogado fora ate que um voltou de re, e hoje isso e' rotina. Pagamento: em 2015 o primeiro estagio do Falcon 9 desceu de re e pousou inteiro, de pe.",
+ "gancho_cumprido": "Gancho: um foguete voltou de re depois de decolar, e hoje isso e' rotina. Pagamento: em 2015 o primeiro estagio do Falcon 9 desceu de re e pousou inteiro, de pe.",
  "cenas": [
   [
    0,
    "gancho",
-   "Foguete era jogado fora depois de um voo. Até que um voltou de ré.",
+   "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
    "voltou",
    {
     "encena_antiga": true
@@ -16,7 +16,8 @@
    10,
    "promessa",
    "E hoje isso virou rotina no mundo inteiro.",
-   "rotina"
+   "rotina",
+   {}
   ],
   [
    2,
@@ -77,7 +78,7 @@
   [
    7,
    "pagamento",
-   "E pousou inteira, de pé, abrindo as pernas no fim.",
+   "E pousou inteira, abrindo as pernas no último segundo.",
    "pousou",
    {
     "encena_antiga": true
@@ -95,8 +96,9 @@
   [
    0,
    "loop",
-   "Foi a primeira vez. Hoje, pousar de ré é normal.",
-   "pousar"
+   "Antes, o foguete ia para o lixo. Até que...",
+   "para",
+   {}
   ]
  ]
 }

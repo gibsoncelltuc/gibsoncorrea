@@ -8,9 +8,11 @@ Checagem automatica: `python3 estrutura_viral.py <id>` (trava o render se falhar
 
 | Regra | Antes | Agora |
 |---|---|---|
-| Duracao | 55-75 s | **30-45 s** (ideal ate 35 s; limite duro 50 s). ~2,5 palavras por segundo = **75 a 110 palavras** no total |
+| Duracao | 55-75 s | **30-36 s** (documento: abaixo de 35 s). ~2,75 palavras FALADAS por segundo (ano = 6 palavras) = **80 a 99 palavras faladas** |
 | Tamanho da frase | livre | **no maximo 12 palavras por frase**; uma ideia por frase |
-| Final | chamada falada "Agora nao deixe de comentar: qual deve ser o tema do proximo video?" | **LOOP**: a ultima frase emenda na primeira (gramatica ou imagem). A chamada para comentar sai da narracao (vai na descricao/comentario fixado) |
+| Gancho | livre | gancho PROPRIO por video; proibido 'Ninguem te conta' (formula repetida); frase afirmativa que completa o loop |
+| Final | chamada falada "Agora nao deixe de comentar: qual deve ser o tema do proximo video?" | **LOOP**: a ultima frase termina ABERTA ('...e foi assim que...', '...porque...') e a 1a frase completa a ideia no replay; a imagem final repete a 1a cena. A chamada para comentar sai da narracao (vai na descricao/comentario fixado) |
+| Voz | +10% | **+20%** (ritmo de Short: ~95 palavras faladas = 34 s, medido na voz Antonio) |
 | Palavras de enchimento | toleradas | proibidas: "tipo", "sabe", "entao", "ne", "ai", "basicamente", "na verdade" |
 | Gancho | frase forte | **um dos 4 tipos** + gancho em 3 camadas (imagem de impacto + texto na tela + frase de alto risco) |
 

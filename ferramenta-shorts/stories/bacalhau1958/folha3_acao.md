@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 25 - As Guerras do Bacalhau
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 2.2s - 9 palavras - plano two
-> "Marinha grande é invencível? A Islândia provou que não."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "A Islândia derrotou a marinha inglesa usando um cortador de rede."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Islândia" (1.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Islândia" (0.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -21,26 +21,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 2.7s a 5.5s - 10 palavras - plano close
-> "Com uma arma que parecia piada: um cortador de rede."
+## Cena b1 - 4.1s a 6.7s - 8 palavras - plano close
+> "E o motivo da briga era o bacalhau."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cortador" (5.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bacalhau" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | briga (5.6s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra briga (5.6s): executa: fumaca + som
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 5.6s a 8.0s - 9 palavras - plano wide
+## Cena b2 - 7.0s a 10.0s - 9 palavras - plano wide
 > "Foram três Guerras do Bacalhau, em quase vinte anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "três" (6.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "três" (7.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,11 +53,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 8.3s a 13.0s - 12 palavras - plano two
-> "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela."
+## Cena b3 - 10.4s a 13.0s - 8 palavras - plano two
+> "Barcos ingleses pescavam bacalhau na costa da Islândia."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescavam" (11.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescavam" (11.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -70,21 +72,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 13.5s a 17.0s - 10 palavras - plano wide
-> "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas."
+## Cena b4 - 13.3s a 17.0s - 11 palavras - plano wide
+> "A Islândia ampliou o seu mar: de doze para duzentas milhas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ampliou" (14.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ampliou" (14.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 17.1s a 21.3s - 10 palavras - plano wide
-> "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros."
+## Cena b5 - 17.4s a 19.3s - 6 palavras - plano group
+> "A Inglaterra mandou fragatas de guerra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (17.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (18.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -97,11 +99,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b6 - 21.8s a 23.8s - 8 palavras - plano wide
-> "A Islândia só tinha barquinhos da guarda costeira."
+## Cena b6 - 19.6s a 23.0s - 10 palavras - plano group
+> "Acontece que a Islândia só tinha barcos da guarda costeira."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "barquinhos" (23.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "barcos" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -112,40 +114,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 24.9s a 28.3s - 12 palavras - plano wide
-> "Mas eles cortavam os cabos das redes inglesas no meio do mar."
+## Cena b7 - 23.3s a 26.7s - 10 palavras - plano wide
+> "E eles cortavam as redes inglesas no meio do mar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cortavam" (25.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cortavam" (24.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 28.6s a 32.7s - 12 palavras - plano two
-> "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo."
+## Cena b8 - 27.0s a 29.6s - 8 palavras - plano group
+> "Em 1976, a Inglaterra finalmente desistiu da briga."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cedeu" (30.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Inglaterra" (28.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | VITÓRIA ISLANDESA | OK |
+| 1 | desistiu (28.9s) | EFEITO: puff | fumaca + som | OK |
+| 2 | briga (29.6s) | EFEITO: puff | fumaca + som | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | discutir | OK |
+| 5 | - | PLACA | VITÓRIA ISLANDESA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra desistiu (28.9s): executa: fumaca + som
+- EFEITO: puff na palavra briga (29.6s): executa: fumaca + som
 - INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 32.8s a 35.9s - 9 palavras - plano wide
-> "Tudo por um bacalhau. Marinha grande não é invencível."
+## Cena b9 - 30.0s a 33.7s - 11 palavras - plano wide
+> "As duzentas milhas viraram regra no mundo. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bacalhau" (33.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "duzentas" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

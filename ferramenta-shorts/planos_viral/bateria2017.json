@@ -1,19 +1,21 @@
 {
  "gancho_tipo": "perda",
  "texto_gancho": "100 DIAS OU GRÁTIS",
- "gancho_cumprido": "Gancho: um homem apostou 50 milhoes de dolares numa conversa no Twitter. Pagamento: a maior bateria do mundo ficou pronta em cerca de 55 dias, antes do prazo, e ele nao perdeu.",
+ "gancho_cumprido": "Gancho: um homem arriscou 50 milhoes numa conversa no Twitter, com uma resposta curta. Pagamento: prometeu a bateria em cem dias ou de graca; entregou em cerca de 55 dias a maior bateria do mundo.",
  "cenas": [
   [
    0,
    "gancho",
    "Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.",
-   "arriscou"
+   "arriscou",
+   {}
   ],
   [
    9,
    "promessa",
    "E tudo começou com uma resposta curta, escrita no celular.",
-   "resposta"
+   "resposta",
+   {}
   ],
   [
    1,
@@ -37,13 +39,15 @@
    2,
    "escalada",
    "Os jornais calcularam: ele podia perder mais de cinquenta milhões.",
-   "calcularam"
+   "calcularam",
+   {}
   ],
   [
    4,
    "escalada",
    "Acontece que ficou pronta em cerca de cinquenta e cinco dias.",
-   "pronta"
+   "pronta",
+   {}
   ],
   [
    6,
@@ -58,13 +62,15 @@
    7,
    "pagamento",
    "Quem lançou o desafio teve que admitir: ele cumpriu.",
-   "admitir"
+   "admitir",
+   {}
   ],
   [
    0,
    "loop",
-   "Cinquenta milhões em jogo, por causa de uma conversa no Twitter.",
-   "conversa"
+   "Uma resposta curta, e foi assim que...",
+   "curta",
+   {}
   ]
  ]
 }

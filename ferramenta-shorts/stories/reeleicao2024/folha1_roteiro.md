@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 21 - A Volta de Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 85 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 80 palavras (~28 s)
 
 ## Cena b0  (~3.4 s)
-- Narracao: Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.
+- Narracao: Um presidente perdeu a eleição e voltou quatro anos depois.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; Perdeu -> puff + som de baque; perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
 - Efeito visual marcado: stars@30
 - Texto na tela: PERDEU E VOLTOU
 - Funcao na historia: GANCHO
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~3.8 s)
-- Narracao: Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.
+## Cena b2  (~3.1 s)
+- Narracao: Em 2024, americanos escolhiam entre Trump e Kamala Harris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~4.1 s)
-- Narracao: Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.
+## Cena b6  (~3.8 s)
+- Narracao: Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: 47º
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Perdeu, voltou e ganhou. Uma das maiores viradas da política.
+## Cena b8  (~2.8 s)
+- Narracao: Perdeu, voltou e ganhou. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: Perdeu -> puff + som de baque; ganhou -> stars + som de sino

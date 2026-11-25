@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "E Se",
  "ep": 5,
  "title": "E Se Ninguém Precisasse Dormir?",
@@ -61,7 +61,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "E se ninguém precisasse dormir? Você ganharia 25 anos acordado.",
+   "say": "Ninguém precisa mais dormir, e você ganha 25 anos acordado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -296,7 +296,7 @@
     "ding@40"
    ],
    "bloco": "loop",
-   "say": "Se você está vendo isso de madrugada, vai dormir.",
+   "say": "Se está vendo isso de madrugada, vai dormir. E imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -332,6 +332,6 @@
   ]
  },
  "gancho_tipo": "ganho",
- "gancho_cumprido": "Gancho: nao dormir daria 25 anos a mais acordado, mas tem um preco. Pagamento: Randy Gardner ficou 11 dias acordado e via coisas; o cerebro faz faxina dormindo, sem sono a humanidade so ganharia sono.",
+ "gancho_cumprido": "Gancho: ninguem precisa mais dormir e voce ganha 25 anos acordado, mas o preco aparece em dias. Pagamento: Randy Gardner ficou 11 dias acordado, esquecia palavras e via coisas; dormindo o cerebro faz faxina.",
  "loop_frase_ok": true
 }

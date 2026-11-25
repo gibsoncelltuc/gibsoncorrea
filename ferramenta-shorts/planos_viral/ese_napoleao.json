@@ -1,11 +1,11 @@
 {
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um dia famoso parece mudar tudo, mas Waterloo talvez nao mudasse nada. Pagamento: a derrota de 1815 e o exilio; mesmo vencendo, Russia e Austria ja marchavam contra ele.",
+ "gancho_cumprido": "Gancho: Napoleao vence em Waterloo e a resposta dos historiadores surpreende. Pagamento: ele perdeu em 1815 e foi exilado; para muitos historiadores, com Russia e Austria marchando, a derrota viria igual.",
  "cenas": [
   [
    0,
    "gancho",
-   "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?",
+   "Napoleão ganha em Waterloo, e a Europa muda para sempre.",
    "Waterloo",
    {
     "encena": {
@@ -23,19 +23,22 @@
    8,
    "promessa",
    "A resposta dos historiadores vai te surpreender.",
-   "resposta"
+   "resposta",
+   {}
   ],
   [
    1,
    "prova",
    "Era 18 de junho de 1815, na Bélgica.",
-   "Bélgica"
+   "Bélgica",
+   {}
   ],
   [
    2,
    "prova",
    "Napoleão tinha saído do exílio e retomado o poder.",
-   "poder"
+   "poder",
+   {}
   ],
   [
    3,
@@ -59,7 +62,8 @@
    6,
    "escalada",
    "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
-   "mandado"
+   "mandado",
+   {}
   ],
   [
    8,
@@ -71,7 +75,7 @@
   [
    9,
    "pagamento",
-   "Rússia e Áustria já marchavam contra ele com exércitos enormes.",
+   "Rússia e Áustria já marchavam contra ele.",
    "marchavam",
    {
     "encena_antiga": true,
@@ -87,8 +91,9 @@
   [
    10,
    "loop",
-   "Um dia famoso nem sempre muda o destino. Só a data.",
-   "destino"
+   "Um dia famoso nem sempre muda o destino. Mas imagina que...",
+   "destino",
+   {}
   ]
  ]
 }

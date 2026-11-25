@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bacalhau1958/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bacalhau1958` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Marinha grande é invencível? A Islândia provou que não.
+## Cena b0 - A Islândia derrotou a marinha inglesa usando um cortador de rede.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (0): -
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): islandia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cortador, islandia, marinha, rede
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -23,28 +23,26 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO respingo: no chao; entra no quadro +40 da cena
 - SOM: creak@40
 - TEXTO NA TELA: "ISLÂNDIA VENCEU" flutuando no alto, na palavra 17 da frase
-- TAKES: sequencia de acao em 3 cameras (2.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b1 - Com uma arma que parecia piada: um cortador de rede.
+## Cena b1 - E o motivo da briga era o bacalhau.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PES (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: crate, kit/cod
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, cortador, rede
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacalhau, briga, motivo
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
 - PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (2.7-4.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (4.1-5.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Foram três Guerras do Bacalhau, em quase vinte anos.
@@ -65,17 +63,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/navio_leander: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_leander: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "1958-1976" flutuando no alto, na palavra 15 da frase
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (7.0-8.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.5-10.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b3 - A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.
+## Cena b3 - Barcos ingleses pescavam bacalhau na costa da Islândia.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: reagir | interacao: o outro se aproxima
-- Objetos/modelos: crate
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
+- Objetos/modelos: crate, kit/cod
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -85,20 +85,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ICE na esquerda, expressao nervous; PES na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "BACALHAU" numa placa atras dos personagens, na palavra 15 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (8.3-9.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (9.9-11.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (11.4-13.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b4 - Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.
+## Cena b4 - A Islândia ampliou o seu mar: de doze para duzentas milhas.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ICE (variante 2, expressao stern) | multidao: 0 de ICE
 - Animacao: -
 - Objetos/modelos: kit/navio_leander
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): doze, islandia
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -108,19 +105,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ICE no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_leander: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_leander: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (13.5-15.2 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (13.3-15.2 s): mesmo angulo
   - take 2 (15.2-17.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b5 - A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.
+## Cena b5 - A Inglaterra mandou fragatas de guerra.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
+- Personagens principais (0): -
 - Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/navio_leander, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, marinha, pesqueiros
+- Objetos/modelos: kit/navio_leander
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -130,14 +127,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_leander: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_leander: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: sequencia de acao em 3 cameras (4.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b6 - A Islândia só tinha barquinhos da guarda costeira.
+## Cena b6 - Acontece que a Islândia só tinha barcos da guarda costeira.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (0): -
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia
@@ -150,17 +147,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/barco_guarda: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.7 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: sequencia de acao em 3 cameras (2.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b7 - Mas eles cortavam os cabos das redes inglesas no meio do mar.
+## Cena b7 - E eles cortavam as redes inglesas no meio do mar.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
 - Animacao: -
 - Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, redes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): redes
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -176,18 +173,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: creak@30
 - SOM: thump@55
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (24.9-26.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (26.6-28.3 s): mesmo angulo
+  - take 1 (23.3-25.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (25.0-26.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b8 - Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo...
+## Cena b8 - Em 1976, a Inglaterra finalmente desistiu da briga.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BRI (variante 0, expressao pained, segura paper); ICE (variante 0, expressao laugh)
-- Animacao: conversar | interacao: entregar
+- Animacao: discutir | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, inglaterra
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -197,19 +194,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: BRI na esquerda, expressao pained, segura paper; ICE na direita, expressao laugh; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "VITÓRIA ISLANDESA" flutuando no alto, na palavra 13 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (28.6-30.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.7-32.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Tudo por um bacalhau. Marinha grande não é invencível.
+## Cena b9 - As duzentas milhas viraram regra no mundo. E foi assim que...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (0): -
 - Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander, kit/cod, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bacalhau
+- Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentas
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -222,20 +217,16 @@ kit/fishing_net | b0, b6, b7, b9 | pronto | conferir na folha de contato se le b
 kit/navio_vapor | b0, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/navio_leander | b0, b2, b4, b5, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b1, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/cod | b1, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b1, b2, b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 6 | mistura: close 13% | medio 42% | aberto 40% | detalhe 5%
+- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 4 | mistura: close 9% | medio 52% | aberto 37% | detalhe 2%
 - Interacoes: b3 o outro se aproxima, b8 entregar
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bacalhau1958
-  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bacalhau1958
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
-- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).
@@ -253,6 +244,6 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 - EFEITO respingo: no chao; entra no quadro +40 da cena
 - SOM: creak@40
 - TEXTO NA TELA: "ISLÂNDIA VENCEU" flutuando no alto, na palavra 17 da frase
-- TAKES: sequencia de acao em 3 cameras (3.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 

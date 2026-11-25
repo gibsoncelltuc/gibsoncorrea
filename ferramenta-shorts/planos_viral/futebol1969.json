@@ -1,11 +1,11 @@
 {
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas e El Salvador perdeu os tres jogos da Copa sem marcar.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por causa de futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas, e El Salvador perdeu os tres jogos da Copa sem marcar.",
  "cenas": [
   [
    0,
    "gancho",
-   "Guerra por futebol parece exagero? Dois países fizeram uma de verdade.",
+   "Dois países fizeram uma guerra de verdade por causa de futebol.",
    "guerra",
    {
     "encena_antiga": true
@@ -25,7 +25,7 @@
   [
    1,
    "prova",
-   "Em 1969, Honduras e El Salvador já disputavam terras.",
+   "Em 1969, os dois países já disputavam terras.",
    "disputavam",
    {
     "set": "countryside"
@@ -34,8 +34,9 @@
   [
    2,
    "prova",
-   "Depois veio a disputa de uma vaga na Copa: três jogos.",
-   "disputa"
+   "Depois veio a vaga na Copa: três jogos.",
+   "Depois",
+   {}
   ],
   [
    3,
@@ -58,7 +59,7 @@
   [
    6,
    "escalada",
-   "No terceiro, El Salvador venceu por três a dois, na prorrogação.",
+   "No terceiro, El Salvador venceu na prorrogação.",
    "venceu",
    {
     "encena_antiga": true
@@ -76,21 +77,22 @@
   [
    8,
    "pagamento",
-   "A guerra durou cem horas, até um cessar-fogo.",
-   "durou"
+   "A guerra durou cem horas, até o cessar-fogo.",
+   "durou",
+   {}
   ],
   [
    0,
    "loop",
-   "Na Copa, El Salvador perdeu os três jogos. Sem um gol.",
-   "perdeu",
+   "Na Copa, perderam os três jogos, sem um gol. Tudo porque...",
+   "perderam",
    {
     "encena": {
      "sentido": "afirmativa",
      "passos": [
       {
        "faz": "perde",
-       "na": "perdeu",
+       "na": "perderam",
        "quem": 1
       }
      ]

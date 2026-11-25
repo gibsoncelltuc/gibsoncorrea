@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "INVENTADO POR UM CACHORRO",
- "gancho_cumprido": "Gancho: uma invencao usada no mundo todo nasceu de um passeio com o cachorro. Pagamento: os carrapichos tinham ganchinhos; virou o velcro, de nailon, usado ate no espaco.",
+ "gancho_cumprido": "Gancho: o velcro nasceu de um passeio com o cachorro e hoje esta no seu tenis. Pagamento: os carrapichos tinham ganchinhos; virou a fita de ganchos e voltinhas, usada ate no espaco.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: o velcro nasceu de um passeio com o cachorro.",
+   "O velcro nasceu de um passeio com o cachorro.",
    "passeio",
    {
     "text": null
@@ -15,32 +15,37 @@
   [
    9,
    "promessa",
-   "E hoje ela está no seu tênis.",
-   "tênis"
+   "E hoje ele está no seu tênis.",
+   "tênis",
+   {}
   ],
   [
    1,
    "prova",
    "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
-   "voltou"
+   "voltou",
+   {}
   ],
   [
    2,
    "prova",
-   "O cachorro e a calça dele estavam cheios de carrapichos.",
-   "carrapichos"
+   "O cachorro e a calça estavam cheios de carrapichos.",
+   "carrapichos",
+   {}
   ],
   [
    3,
    "prova",
    "Curioso, ele olhou um carrapicho no microscópio.",
-   "olhou"
+   "olhou",
+   {}
   ],
   [
    4,
    "escalada",
    "Acontece que cada espinho tinha um ganchinho na ponta.",
-   "ganchinho"
+   "ganchinho",
+   {}
   ],
   [
    5,
@@ -64,12 +69,13 @@
    8,
    "pagamento",
    "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
-   "usaram"
+   "usaram",
+   {}
   ],
   [
    0,
    "loop",
-   "Tudo graças a um cachorro cheio de carrapichos.",
+   "Um cachorro cheio de carrapichos. E foi assim que...",
    "cachorro",
    {
     "text": null

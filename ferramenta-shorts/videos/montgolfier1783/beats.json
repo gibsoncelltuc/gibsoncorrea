@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 18,
  "title": "Os Primeiros Passageiros do Céu",
@@ -191,7 +191,7 @@
    "mapa_at": 3,
    "set": "street",
    "bloco": "prova",
-   "say": "Em 1783, os irmãos Montgolfier faziam papel na França.",
+   "say": "Em 1783, os irmãos Montgolfier faziam papel.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -231,7 +231,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Eles viram que fumaça quente fazia sacos de papel flutuarem.",
+   "say": "Viram que fumaça quente fazia sacos de papel subirem.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -302,7 +302,7 @@
    },
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "say": "Fizeram um balão gigante de pano e papel.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -322,60 +322,13 @@
    "acao": "discutir",
    "interior": "madeira",
    "bloco": "escalada",
-   "say": "Mas ninguém sabia se dava para respirar lá em cima.",
+   "say": "Ninguém sabia se dava para respirar lá em cima.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "respirar"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REI:0:surprised",
-    "RAI:0:smile"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "crowd": {
-    "n": 16,
-    "outfits": [
-     "POV",
-     "NOB"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
-   "props": [],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "fachada": false,
-   "detalhe": false,
-   "set": "street",
-   "cx": 0.0,
-   "cz": -0.5,
-   "h": 1.5,
-   "d0": 8.0,
-   "d1": 6.5,
-   "objetos": false,
-   "quadro_manual": true,
-   "bloco": "escalada",
-   "say": "Em Versalhes, o rei Luís Dezesseis assistiu no meio da multidão.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "assistiu",
-      "quem": 0
      }
     ]
    }
@@ -536,7 +489,7 @@
    "quadro_manual": true,
    "objetos": false,
    "bloco": "pagamento",
-   "say": "Dois meses depois, um balão levou dois homens sobre Paris.",
+   "say": "Dois meses depois, um balão levou dois homens.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -599,13 +552,13 @@
    "d1": 12.0,
    "quadro_manual": true,
    "bloco": "loop",
-   "say": "Tudo graças a três bichos corajosos.",
+   "say": "Ninguém quis ser cobaia. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bichos"
+      "na": "Ninguém"
      }
     ]
    }
@@ -652,6 +605,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos, pousou oito minutos depois com todos vivos e abriu caminho para o voo humano.",
+ "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
  "loop_frase_ok": true
 }

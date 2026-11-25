@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Ninguém Trump Em Nova York 1989 | SEM REFERENCIA
+tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Donald Trump Em 1989 | SEM REFERENCIA
 lugar | Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas | Estados Unidos / Estados Unidos 1989 | Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/trumpgame1989/prints/estados_unidos_escritorio_na_trump_tower_c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/trumpgame1989/prints/estados_unidos_escritorio_na_trump_tower_185b81.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/trumpgame1989/prints/estados_unidos_escritorio_na_trump_tower_7a8f7d.jpg)
 lugar | Estados Unidos | Estados Unidos 1989 / Estados Unidos landscape | Estados Unidos, camiones 1989 15.jpg (referencias/trumpgame1989/prints/estados_unidos_dc177b.jpg); Estados Unidos, varios 1989 02.jpg (referencias/trumpgame1989/prints/estados_unidos_35e818.jpg); Estados Unidos, señales 1989 10.jpg (referencias/trumpgame1989/prints/estados_unidos_42ee2c.jpg)
 epoca | roupas e ruas de 1989 | 1989 fashion clothing / 1989 street photograph | Italian Fashion 1989 2.jpg (referencias/trumpgame1989/prints/roupas_e_ruas_de_1989_0c5b1e.jpg); FEMA - 5399 - Photograph by Andrea Booher taken on (referencias/trumpgame1989/prints/roupas_e_ruas_de_1989_5c1d09.jpg); Bridge Street,Newbury, 1989 - geograph.org.uk - 64 (referencias/trumpgame1989/prints/roupas_e_ruas_de_1989_dc7a10.jpg)

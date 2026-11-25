@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 15,
  "title": "A Cola que Não Colava",
@@ -73,7 +73,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Esta cola falhou. E virou sucesso no mundo inteiro.",
+   "say": "Uma cola que falhou virou sucesso no mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -110,7 +110,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "promessa",
-   "say": "E quem achou a utilidade estava cantando na igreja.",
+   "say": "E a ideia veio de alguém cantando na igreja.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -171,26 +171,6 @@
    }
   },
   {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "CHE:0:bored",
-    "SIL:0:nervous:paper"
-   ],
-   "interacao": "entregar",
-   "bloco": "prova",
-   "say": "Por anos, ninguém na empresa viu utilidade nela.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "utilidade"
-     }
-    ]
-   }
-  },
-  {
    "shot": "group",
    "who": [
     "FRY:0:sad",
@@ -233,7 +213,7 @@
    ],
    "interior": "pedra",
    "bloco": "escalada",
-   "say": "E os papeizinhos que marcavam o hinário viviam caindo.",
+   "say": "E os papeizinhos do hinário viviam caindo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -271,7 +251,7 @@
    "detalhe": false,
    "quadro_manual": true,
    "bloco": "escalada",
-   "say": "Ele pensou: marcadores com a cola fraca. Grudam e saem sem rasgar.",
+   "say": "Ele pensou: marcadores com a cola fraca.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -293,7 +273,7 @@
     ]
    },
    "bloco": "pagamento",
-   "say": "O papel saiu amarelo por acaso: era o único de rascunho.",
+   "say": "O papel saiu amarelo por acaso: era o único que tinha.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -328,7 +308,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "pagamento",
-   "say": "Em 1980, o post-it chegou às lojas do mundo todo.",
+   "say": "Em 1980, o post-it chegou às lojas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -369,7 +349,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Tudo graças a uma cola que não colava.",
+   "say": "A cola não colava direito. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -412,7 +392,7 @@
    "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
   ]
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a cola mais fraca do mundo virou sucesso no planeta. Pagamento: a cola que soltava facil virou o marcador do Art Fry e, em 1980, o post-it.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma cola que falhou virou sucesso no mundo, e a ideia veio de quem cantava na igreja. Pagamento: a cola fraca virou marcador de hinario e, em 1980, o post-it.",
  "loop_frase_ok": true
 }

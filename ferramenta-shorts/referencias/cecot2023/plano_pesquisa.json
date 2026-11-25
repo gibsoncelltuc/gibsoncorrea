@@ -108,9 +108,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "item": "Muralhas, cercas elétricas e torres de vigia.",
    "consultas": [
-    "muralhas altas cercas eletricas torres vigia",
+    "muralhas cercas eletricas torres vigia",
     "prison diagram"
    ]
   }

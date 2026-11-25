@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 12,
  "title": "O Não é um Lança-Chamas",
@@ -90,7 +90,7 @@
    ],
    "quadro_manual": true,
    "bloco": "gancho",
-   "say": "Um bilionário vendeu lança-chamas dizendo que não era lança-chamas.",
+   "say": "Um bilionário vendeu lança-chamas jurando que não era lança-chamas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -141,7 +141,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "promessa",
-   "say": "E o motivo do nome é ainda mais esperto.",
+   "say": "E o motivo desse nome é bem esperto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -200,7 +200,7 @@
    "d1": 11.0,
    "mapa": "ESTADOS UNIDOS",
    "bloco": "prova",
-   "say": "Em 2018, a Boring Company, de Elon Musk, lançou o aparelho.",
+   "say": "Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -513,13 +513,13 @@
    ],
    "quadro_manual": true,
    "bloco": "loop",
-   "say": "Um lança-chamas que jurava não ser lança-chamas.",
+   "say": "O nome mentia, e todo mundo sabia. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "jurava"
+      "na": "mentia"
      }
     ]
    }
@@ -562,7 +562,7 @@
    "produto": "Boring Company Not-A-Flamethrower 2018"
   }
  },
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
  "loop_frase_ok": true
 }

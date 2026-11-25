@@ -1,30 +1,34 @@
 {
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: se todo mundo pulasse junto a Terra sairia do lugar; nao sai, e o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+ "gancho_cumprido": "Gancho: todo mundo pula junto e a Terra nem se mexe; o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
  "cenas": [
   [
    0,
    "gancho",
-   "Se todo mundo pulasse junto, a Terra sairia do lugar?",
-   "pulasse"
+   "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
+   "pulam",
+   {}
   ],
   [
    9,
    "promessa",
-   "Não. Mas o problema de verdade seria outro.",
-   "problema"
+   "Mas o problema de verdade seria outro.",
+   "problema",
+   {}
   ],
   [
    1,
    "prova",
    "Somos mais de oito bilhões de pessoas.",
-   "bilhões"
+   "bilhões",
+   {}
   ],
   [
    2,
    "prova",
    "Juntas, pesamos mais de quinhentos milhões de toneladas.",
-   "toneladas"
+   "toneladas",
+   {}
   ],
   [
    3,
@@ -39,7 +43,8 @@
    4,
    "escalada",
    "Acontece que a Terra pesa trilhões de vezes mais que nós.",
-   "Terra"
+   "Terra",
+   {}
   ],
   [
    5,
@@ -77,19 +82,22 @@
    8,
    "pagamento",
    "Se todos se juntassem num lugar só, o caos seria a volta.",
-   "caos"
+   "caos",
+   {}
   ],
   [
    8,
    "pagamento",
    "Bilhões de pessoas sem estrada, comida ou água para voltar.",
-   "voltar"
+   "voltar",
+   {}
   ],
   [
    10,
    "loop",
-   "Pode pular aí. A Terra nem vai sentir.",
-   "pular"
+   "Pode pular aí. Agora imagina que...",
+   "pular",
+   {}
   ]
  ]
 }

@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 3,
  "title": "O X no Prédio do Twitter",
@@ -83,18 +83,22 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
    "text": "X",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "set": "loc_patio",
    "bloco": "gancho",
-   "say": "Trocar de nome é fácil? Esta placa nova virou caso de investigação.",
+   "say": "Uma placa com uma letra só virou caso de investigação.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -104,20 +108,7 @@
      }
     ]
    },
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "tiros": false,
@@ -130,36 +121,27 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "interior": "madeira",
    "bloco": "promessa",
-   "say": "E tudo por causa de uma letra só.",
+   "say": "E a culpa foi de uma luz piscando de madrugada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "letra"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
+      "na": "luz"
      }
     ]
    }
@@ -177,7 +159,7 @@
    "mapa_at": 1,
    "interior": "pedra",
    "bloco": "prova",
-   "say": "Em 2023, Elon Musk trocou o nome do Twitter para X.",
+   "say": "Em 2023, Musk trocou o nome do Twitter para X.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -212,7 +194,7 @@
    ],
    "set": "street",
    "bloco": "prova",
-   "say": "Operários começaram a tirar as letras e o passarinho da fachada.",
+   "say": "Operários começaram a tirar o passarinho da fachada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -234,7 +216,7 @@
    ],
    "interior": "loja",
    "bloco": "prova",
-   "say": "O trabalho parou no meio, porque faltavam licenças.",
+   "say": "O trabalho parou no meio, por falta de licença.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -293,7 +275,7 @@
    "tiros": false,
    "batalha": false,
    "bloco": "escalada",
-   "say": "A luz entrava nas janelas dos vizinhos de madrugada.",
+   "say": "A luz entrava nas janelas dos vizinhos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -359,36 +341,27 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "interior": "madeira",
    "bloco": "loop",
-   "say": "Até trocar de nome precisa de licença.",
+   "say": "Até trocar de nome precisa de licença. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "licença"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -434,7 +407,7 @@
    "placa": "X sign Twitter headquarters San Francisco July 2023"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: trocar de nome parece simples, mas a placa nova foi investigada. Pagamento: as letras ficaram pela metade, o X gigante piscava nas janelas, houve 24 reclamacoes e o X foi retirado.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma placa com uma letra so virou caso de investigacao por causa de uma luz. Pagamento: o X gigante piscava nas janelas, vieram 24 reclamacoes e a prefeitura mandou tirar.",
  "loop_frase_ok": true
 }

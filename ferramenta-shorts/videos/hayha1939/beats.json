@@ -1,7 +1,7 @@
 {
  "title": "A Morte Branca",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "arctic",
  "light": "arctic",
  "mood": "tense",
@@ -75,7 +75,7 @@
    "tstyle": "red",
    "set": "arctic",
    "bloco": "promessa",
-   "say": "Os inimigos tinham tanto medo que deram um apelido a ele.",
+   "say": "Tão temido que os inimigos deram um apelido a ele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -102,7 +102,7 @@
     "march": true
    },
    "bloco": "prova",
-   "say": "No inverno de 1939, a União Soviética invadiu a Finlândia.",
+   "say": "Em 1939, a União Soviética invadiu a Finlândia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -139,7 +139,7 @@
     }
    },
    "bloco": "prova",
-   "say": "Fazia quarenta graus abaixo de zero na floresta.",
+   "say": "Fazia quarenta graus abaixo de zero.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -162,7 +162,7 @@
    "d0": 5.0,
    "d1": 4.5,
    "bloco": "prova",
-   "say": "Um soldado do campo, baixinho, se chamava Simo Häyhä.",
+   "say": "Esse soldado se chamava Simo Häyhä.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -226,7 +226,7 @@
    "props": [],
    "set": "arctic",
    "bloco": "escalada",
-   "say": "Em cerca de cem dias, contam mais de quinhentos abatidos por ele.",
+   "say": "Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -271,7 +271,7 @@
    "light": "golden",
    "interior": "madeira",
    "bloco": "loop",
-   "say": "Viveu até 96 anos e dizia: só fiz meu trabalho.",
+   "say": "Ele só dizia: fiz o meu trabalho. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -313,6 +313,6 @@
  "titulo_base": "A Morte Branca",
  "variar_cenario": false,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido da guerra, com apelido dado pelos inimigos. Pagamento: mais de 500 abatidos em cem dias e o apelido Morte Branca.",
+ "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido e ganhou apelido dos inimigos. Pagamento: de branco, imovel na neve a -40, mais de 500 abatidos em cem dias; os sovieticos o chamavam de Morte Branca.",
  "loop_frase_ok": true
 }

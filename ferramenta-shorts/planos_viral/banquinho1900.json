@@ -1,30 +1,33 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "BANQUINHO = GUERRA",
- "gancho_cumprido": "Gancho: um governador pediu para sentar num banquinho e comecou uma guerra; ele nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
+ "gancho_cumprido": "Gancho: um banquinho dourado comecou uma guerra e quem pediu para sentar nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: sentar num banquinho começou uma guerra.",
-   "banquinho"
+   "Um banquinho dourado começou uma guerra na África.",
+   "banquinho",
+   {}
   ],
   [
    9,
    "promessa",
-   "E quem pediu para sentar nunca conseguiu.",
-   "sentar"
+   "E quem pediu para sentar nele nunca conseguiu.",
+   "sentar",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana.",
-   "mandavam"
+   "Em 1900, os ingleses mandavam na atual Gana.",
+   "mandavam",
+   {}
   ],
   [
    2,
    "prova",
-   "O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava.",
+   "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
    "banquinho",
    {
     "encena_antiga": true
@@ -33,7 +36,7 @@
   [
    3,
    "prova",
-   "O governador inglês exigiu sentar no banquinho.",
+   "O governador inglês exigiu sentar nele.",
    "exigiu",
    {
     "encena_antiga": true
@@ -42,7 +45,7 @@
   [
    4,
    "escalada",
-   "Para os ashanti, era como sentar na alma do povo.",
+   "Era como sentar na alma do povo ashanti.",
    "alma",
    {
     "encena_antiga": true
@@ -87,8 +90,9 @@
   [
    0,
    "loop",
-   "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "ganhou"
+   "O governador ganhou, mas nunca teve o banquinho. Foi assim que...",
+   "ganhou",
+   {}
   ]
  ]
 }

@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 9,
  "title": "Mendel e as Ervilhas",
@@ -85,7 +85,7 @@
    "sfx": [
     "ding@60"
    ],
-   "detalhe": false,
+   "detalhe": true,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -100,7 +100,7 @@
    "shot_lock": true,
    "set": "countryside",
    "bloco": "gancho",
-   "say": "Ninguém te conta: um monge contando ervilhas descobriu a herança.",
+   "say": "Um monge contando ervilhas descobriu como herdamos o que somos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -262,7 +262,7 @@
    "set": "loc_campo",
    "objetos": false,
    "bloco": "prova",
-   "say": "Cruzou ervilhas amarelas com verdes e esperou os filhos.",
+   "say": "Cruzou ervilhas amarelas com ervilhas verdes.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -274,7 +274,7 @@
      },
      {
       "faz": "x_espera",
-      "na": "esperou",
+      "na": "cruzou",
       "quem": 0,
       "forcar": true
      }
@@ -550,7 +550,7 @@
    "interior": "pedra",
    "objetos": false,
    "bloco": "pagamento",
-   "say": "Só depois da morte dele, cientistas viram que estava certo.",
+   "say": "Só depois da morte dele, viram que estava certo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -616,13 +616,13 @@
    "shot_lock": true,
    "set": "countryside",
    "bloco": "loop",
-   "say": "A ervilha fez o monge famoso. Tarde demais.",
+   "say": "Ele morreu sem saber. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ervilha"
+      "na": "Ele"
      }
     ]
    }
@@ -661,6 +661,6 @@
  "cinf": 3.0,
  "exp": 1.129,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um monge contou ervilhas por oito anos e descobriu como herdamos o que somos. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae, a base da genetica.",
+ "gancho_cumprido": "Gancho: um monge contando ervilhas descobriu como herdamos o que somos e ninguem acreditou nele em vida. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae; so depois da morte deram razao.",
  "loop_frase_ok": true
 }

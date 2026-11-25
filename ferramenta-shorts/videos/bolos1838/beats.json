@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 7,
  "title": "A Guerra dos Bolos",
@@ -74,12 +74,12 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "bolos"
+      "na": "confeitaria"
      }
     ]
    },
    "bloco": "gancho",
-   "say": "A França foi à guerra contra o México por causa de bolos.",
+   "say": "França e México entraram em guerra por causa de uma confeitaria.",
    "text": "GUERRA DOS BOLOS",
    "titulo": true
   },
@@ -91,7 +91,7 @@
    ],
    "shot_lock": true,
    "bloco": "promessa",
-   "say": "E a conta nunca foi paga.",
+   "say": "E a conta dos bolos nunca foi paga.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -165,7 +165,7 @@
    "acao": "pega",
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Em 1832, oficiais mexicanos saquearam a loja, segundo o confeiteiro.",
+   "say": "Ele disse que oficiais mexicanos saquearam tudo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -184,31 +184,13 @@
    ],
    "interior": "pedra",
    "bloco": "prova",
-   "say": "Ele pediu sessenta mil pesos. A loja valia menos de mil.",
+   "say": "Pediu sessenta mil pesos. A loja valia menos de mil.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "pediu"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "close",
-   "who": [
-    "REI:0:stern"
-   ],
-   "interior": "pedra",
-   "bloco": "escalada",
-   "say": "A França exigiu seiscentos mil pesos. O México recusou.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "exigiu"
      }
     ]
    }
@@ -234,7 +216,7 @@
    "shot_lock": true,
    "set": "harbor",
    "bloco": "escalada",
-   "say": "Acontece que a França mandou navios de guerra e fechou os portos.",
+   "say": "Acontece que a França assumiu a briga e mandou navios de guerra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -267,7 +249,7 @@
    ],
    "props": [],
    "bloco": "escalada",
-   "say": "Canhões franceses bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "say": "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -287,7 +269,7 @@
    "text": "600.000",
    "interior": "pedra",
    "bloco": "pagamento",
-   "say": "Em 1839, o México prometeu pagar, e a França foi embora.",
+   "say": "O México prometeu pagar, e a França foi embora.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -312,13 +294,13 @@
     "march": false
    },
    "bloco": "loop",
-   "say": "Tudo por uma conta de bolos.",
+   "say": "Esse dinheiro nunca chegou. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bolos"
+      "na": "dinheiro"
      }
     ]
    }
@@ -368,6 +350,6 @@
  },
  "min_momentos": 1,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: a Franca atacou o Mexico por causa de bolos e a conta nunca foi paga. Pagamento: bombardeio, Veracruz tomada, o Mexico promete pagar em 1839.",
+ "gancho_cumprido": "Gancho: Franca e Mexico entraram em guerra por uma confeitaria e a conta nunca foi paga. Pagamento: o confeiteiro pediu 60 mil pesos, a Franca bloqueou os portos e tomou Veracruz; o Mexico prometeu pagar.",
  "loop_frase_ok": true
 }

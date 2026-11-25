@@ -1,7 +1,7 @@
 {
  "title": "A Guerra dos Emus",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "outback",
  "light": "desert",
  "mood": "march",
@@ -71,13 +71,13 @@
     "passos": [
      {
       "faz": "perde",
-      "na": "derrotada",
+      "na": "exército",
       "quem": 0
      }
     ]
    },
    "bloco": "gancho",
-   "say": "Um exército contra pássaros? A Austrália saiu derrotada."
+   "say": "Um exército perdeu uma guerra contra pássaros."
   },
   {
    "shot": "two",
@@ -128,7 +128,7 @@
    "mapa_at": 3,
    "fachada": false,
    "bloco": "prova",
-   "say": "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
+   "say": "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -210,6 +210,10 @@
    "tiros": false,
    "detalhe": false,
    "fachada": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "prova",
    "say": "O major Meredith levou duas metralhadoras e dez mil balas.",
    "encena": {
@@ -220,30 +224,7 @@
       "na": "levou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -359,24 +340,6 @@
       "quem": 0
      }
     ]
-   },
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/truck",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "mgun",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -395,6 +358,10 @@
      -8.6,
      1.52,
      {
+      "mover": [
+       7.0,
+       -8.6
+      ],
       "fixo": true
      }
     ]
@@ -402,6 +369,11 @@
    "batalha": false,
    "tiros": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
    "animals": [
     [
      "emu",
@@ -426,7 +398,11 @@
     ]
    ],
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
    },
    "bloco": "escalada",
    "say": "O major comparou os emus a tanques. A imprensa riu.",
@@ -444,25 +420,7 @@
       "quem": 0
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "fazenda aberta",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "vehicles/tank",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "two",
@@ -491,7 +449,7 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "say": "Seis dias, milhares de balas, poucos emus abatidos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -517,13 +475,13 @@
    },
    "fachada": false,
    "bloco": "loop",
-   "say": "Placar final: exército zero, emus um.",
+   "say": "Exército zero, emus um. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "placar"
+      "na": "Exército"
      }
     ]
    }
@@ -588,8 +546,7 @@
    "exercito da epoca": "fotos de 1932 da Guerra dos Emus (Wikimedia Commons, Category:Emu War): emu abatido nas mãos de um homem de chapéu, emus bebendo água em terra seca, e caminhão Ford Model BB de 1932 (https://en.wikipedia.org/wiki/Emu_War)"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: a Australia perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
- "loop_frase_ok": true,
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
+ "loop_frase_ok": true
 }

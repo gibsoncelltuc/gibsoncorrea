@@ -18,9 +18,10 @@
   {
    "camera": "two",
    "personagens": [
-    "GUA"
+    "GUA",
+    "BUK"
    ],
-   "multidao": 0,
+   "multidao": 26,
    "objetos": [
     "kit/prison"
    ],
@@ -34,8 +35,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
+    "POV",
+    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -54,18 +57,25 @@
   {
    "camera": "wide",
    "personagens": [
+    "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Ela fica em El Salvador e abriu em 2023.",
-   "classe": "transicao",
+   "frase": "Ela abriu em 2023, em El Salvador.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -77,9 +87,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "O país tinha uma das maiores taxas de assassinato do mundo.",
+   "frase": "O país tinha das maiores taxas de assassinato do mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -87,17 +97,19 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
-    "BUK"
+    "BUK",
+    "GUA",
+    "GUA"
    ],
-   "multidao": 0,
+   "multidao": 16,
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Em 2022, Nayib Bukele decretou estado de exceção.",
+   "frase": "O governo decretou estado de exceção contra as gangues.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -109,9 +121,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b5",
-   "frase": "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "frase": "Muralhas, cercas elétricas e torres de vigia.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -134,7 +146,7 @@
    "objetos": [],
    "palavras": 12,
    "cena": "b6",
-   "frase": "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.",
+   "frase": "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -148,16 +160,16 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "REP",
     "POV"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Mas grupos de direitos humanos denunciaram prisões sem julgamento.",
+   "frase": "Mas houve denúncias de prisões sem julgamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -165,7 +177,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "BUK",
     "POV"
@@ -174,33 +186,28 @@
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "O modelo passou a ser copiado e criticado pelo mundo.",
-   "classe": "chave",
+   "frase": "O modelo passou a ser copiado e criticado.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
-    "GUA"
+    "GUA",
+    "BUK"
    ],
-   "multidao": 0,
+   "multidao": 26,
    "objetos": [
     "kit/prison"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b9",
-   "frase": "Segurança para uns, excesso para outros. Você decide.",
+   "frase": "Segurança ou excesso? Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

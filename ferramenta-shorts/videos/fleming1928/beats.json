@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 4,
  "title": "Fleming e a Penicilina",
@@ -79,7 +79,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um mofo esquecido salvou milhões de vidas.",
+   "say": "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -99,13 +99,13 @@
    ],
    "set": "street",
    "bloco": "promessa",
-   "say": "E tudo por causa de uma mesa bagunçada.",
+   "say": "E tudo porque o cientista saiu de férias.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bagunçada"
+      "na": "cientista"
      }
     ]
    }
@@ -128,7 +128,7 @@
    "mapa_at": 2,
    "set": "street",
    "bloco": "prova",
-   "say": "Em 1928, em Londres, trabalhava o cientista Alexander Fleming.",
+   "say": "Em 1928, Alexander Fleming trabalhava num laboratório em Londres.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -277,7 +277,7 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "escalada",
-   "say": "Quando voltou, um prato estava coberto de bolor verde.",
+   "say": "Na volta, um prato estava coberto de bolor verde.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -370,7 +370,7 @@
     ]
    },
    "bloco": "escalada",
-   "say": "O mofo matava bactérias. Ele chamou isso de penicilina.",
+   "say": "O mofo matava bactérias. Era a penicilina.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -398,47 +398,6 @@
      {
       "faz": "mostra",
       "na": "salvou"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "crowd",
-   "set": "hall",
-   "who": [
-    "FLE:0:laugh",
-    "COL:0:laugh"
-   ],
-   "impact": true,
-   "tiros": false,
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "MED",
-     "COL",
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "text": "NOBEL",
-   "fx": [
-    "stars@30",
-    "burst@70"
-   ],
-   "sfx": [
-    "ding@30",
-    "sting@70"
-   ],
-   "acao": "comemorar",
-   "bloco": "pagamento",
-   "say": "Em 1945, Fleming ganhou o Nobel.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Nobel"
      }
     ]
    }
@@ -481,13 +440,13 @@
    "quadro_manual": true,
    "shot_lock": true,
    "bloco": "loop",
-   "say": "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.",
+   "say": "Fleming ganhou até o Nobel. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bagunça"
+      "na": "Fleming"
      }
     ]
    }
@@ -522,6 +481,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um mofo esquecido salvou milhoes de vidas por causa de uma mesa baguncada. Pagamento: o bolor matava as bacterias, virou a penicilina, salvou milhoes e deu o Nobel.",
+ "gancho_cumprido": "Gancho: um mofo esquecido numa mesa baguncada salvou milhoes, porque o cientista saiu de ferias. Pagamento: o bolor matava as bacterias, virou a penicilina e salvou milhoes; ele ganhou o Nobel.",
  "loop_frase_ok": true
 }

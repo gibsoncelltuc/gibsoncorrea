@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 28,
  "title": "A Selfie na ONU",
@@ -370,13 +370,13 @@
    "d1": 8.0,
    "set": "street",
    "bloco": "loop",
-   "say": "Um segundo de selfie, e a ONU virou assunto.",
+   "say": "Um segundo bastou. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "assunto"
+      "na": "assim"
      }
     ]
    }
@@ -429,7 +429,7 @@
  },
  "regiao": "eua",
  "min_momentos": 1,
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
  "loop_frase_ok": true
 }

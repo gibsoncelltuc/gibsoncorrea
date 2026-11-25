@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "GUERRA DO CACHORRO",
- "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
+ "gancho_cumprido": "Gancho: um cachorro perdido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um cachorro perdido quase começou uma guerra.",
+   "Um cachorro perdido quase começou uma guerra na Europa.",
    "cachorro",
    {
     "props": [
@@ -26,13 +26,15 @@
    8,
    "promessa",
    "E até hoje não se sabe nem se o cachorro existiu.",
-   "existiu"
+   "existiu",
+   {}
   ],
   [
    1,
    "prova",
    "Em 1925, a fronteira entre Grécia e Bulgária estava tensa.",
-   "fronteira"
+   "fronteira",
+   {}
   ],
   [
    2,
@@ -56,7 +58,8 @@
    4,
    "escalada",
    "A Grécia deu quarenta e oito horas para a Bulgária pagar.",
-   "deu"
+   "deu",
+   {}
   ],
   [
    5,
@@ -70,8 +73,9 @@
   [
    6,
    "pagamento",
-   "A Bulgária apelou à Liga das Nações, a antecessora da ONU.",
-   "apelou"
+   "A Bulgária apelou à Liga das Nações.",
+   "apelou",
+   {}
   ],
   [
    7,
@@ -85,8 +89,9 @@
   [
    0,
    "loop",
-   "Tudo por um cachorro que talvez nem existisse.",
-   "cachorro"
+   "Talvez o cachorro nem existisse. Mas foi assim que...",
+   "cachorro",
+   {}
   ]
  ]
 }

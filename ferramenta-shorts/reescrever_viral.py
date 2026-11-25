@@ -39,7 +39,7 @@ for c in PL['cenas']:
         if ps_.get('na') and ps_['na'].lower() not in say.lower(): print(f'ATENCAO b{len(N)}: palavra "{ps_["na"]}" da leitura nao esta na frase "{say}"')
     N.append(b)
 if PL.get('texto_gancho'): N[0]['text'] = PL['texto_gancho']; N[0]['titulo'] = True
-B['beats'] = N; B['gancho_tipo'] = PL['gancho_tipo']; B['gancho_cumprido'] = PL['gancho_cumprido']; B['loop_frase_ok'] = True
+B['beats'] = N; B['gancho_tipo'] = PL['gancho_tipo']; B['gancho_cumprido'] = PL['gancho_cumprido']; B['loop_frase_ok'] = True; B['rate'] = '+20%'   # 25/11: ritmo de Short (95 palavras = 34 s na voz Antonio)
 for k in ('max_wide', 'estrutura_ok', 'duracao_ok', 'gancho_ok', 'cta_texto'): B.pop(k, None)
 json.dump(B, open(P, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(f'{id_}: {len(N)} cenas escritas na estrutura viral')

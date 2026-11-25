@@ -8,11 +8,10 @@ b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | wide | -  | tropa, objeto na mao | - | -
 b4 | two | -  | tropa | - | -
 b5 | two | -  | tropa, placa: MECHAZILLA | - | -
-b6 | wide | -  | tropa | - | -
+b6 | group | -  | tropa | - | -
 b7 | wide | -  | tropa | - | -
 b8 | wide | -  | batalha aberta com tiros, tropa, placa: PEGOU! | - | -
-b9 | two | -  | tropa, placa: PRIMEIRA VEZ | (rosto) laugh (expr + som de efeito); comemoraram: (stars + som de sino) | -
-b10 | two | -  | placa: MECHAZILLA | - | -
+b9 | two | -  | placa: MECHAZILLA | - | -
 
-Mistura de planos: close 4% | medio 59% | aberto 33% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 4% | medio 61% | aberto 29% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 9,
  "title": "O País do Bitcoin",
@@ -77,13 +77,13 @@
    "d1": 11.0,
    "quadro_manual": true,
    "bloco": "gancho",
-   "say": "Dinheiro de um país é coisa séria? Um presidente escolheu o bitcoin.",
+   "say": "Um país inteiro apostou o próprio dinheiro numa moeda digital.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bitcoin"
+      "na": "dinheiro"
      }
     ]
    },
@@ -129,7 +129,7 @@
    ],
    "mapa": "EL SALVADOR",
    "bloco": "prova",
-   "say": "Em 2021, El Salvador, de Nayib Bukele, adotou o bitcoin.",
+   "say": "Em 2021, El Salvador adotou o bitcoin como moeda oficial.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -154,74 +154,13 @@
     }
    },
    "bloco": "prova",
-   "say": "Quem baixasse a carteira digital ganhava trinta dólares.",
+   "say": "Quem baixasse o aplicativo ganhava trinta dólares.",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "carteira"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "CLI:0:shock:phone",
-    "POV:0:surprised"
-   ],
-   "props": [
-    [
-     "kit/bitcoin",
-     0.0,
-     -1.2,
-     1.8,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/phone",
-     1.6,
-     -1.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "hud": {
-    "grafico": {
-     "pontos": [
-      52700,
-      52100,
-      49500,
-      46000,
-      43000
-     ],
-     "rotulos": [
-      "MANHÃ",
-      "NOITE"
-     ],
-     "titulo": "BITCOIN NO DIA 1",
-     "un": "US$ ",
-     "na": "despencou",
-     "dur": 1.3
-    }
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "bloco": "prova",
-   "say": "No primeiro dia, o aplicativo travou. O bitcoin caiu dez por cento.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "caiu"
+      "na": "trinta"
      }
     ]
    }
@@ -294,13 +233,13 @@
    "d0": 23.0,
    "d1": 21.9,
    "bloco": "escalada",
-   "say": "O país passou a minerar bitcoin com a energia de um vulcão.",
+   "say": "O governo até minerava bitcoin com a energia de um vulcão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "minerar"
+      "na": "minerava"
      }
     ]
    }
@@ -347,7 +286,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "escalada",
-   "say": "Acontece que, um ano depois, o bitcoin despencou para dezesseis mil dólares.",
+   "say": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -382,7 +321,7 @@
     }
    },
    "bloco": "pagamento",
-   "say": "Mas em dezembro de 2024, o bitcoin passou de cem mil dólares.",
+   "say": "Mas em 2024, ele passou de cem mil dólares.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -462,13 +401,13 @@
    "d1": 11.0,
    "quadro_manual": true,
    "bloco": "loop",
-   "say": "Aposta maluca ou visão de futuro? Você decide.",
+   "say": "Maluquice ou visão? Só sei que foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "decide"
+      "na": "Maluquice"
      }
     ]
    }
@@ -534,7 +473,7 @@
  "cinf": 3.0,
  "exp": 1.254,
  "ano": 2021,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um presidente apostou o dinheiro do pais no bitcoin e o final ninguem esperava. Pagamento: depois de cair para 16 mil, o bitcoin passou de 100 mil e as reservas viraram lucro.",
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: um pais apostou o proprio dinheiro numa moeda digital e o final ninguem esperava. Pagamento: o bitcoin caiu para 16 mil e depois passou de 100 mil; as reservas viraram lucro.",
  "loop_frase_ok": true
 }

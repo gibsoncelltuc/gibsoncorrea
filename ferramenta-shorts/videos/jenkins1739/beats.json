@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 12,
  "title": "A Guerra da Orelha de Jenkins",
@@ -95,7 +95,7 @@
    "acao": "discutir",
    "detalhe": true,
    "bloco": "gancho",
-   "say": "Ninguém te conta: uma orelha cortada começou uma guerra.",
+   "say": "Uma orelha cortada começou uma guerra de nove anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -145,7 +145,7 @@
    ],
    "detalhe": false,
    "bloco": "promessa",
-   "say": "E o dono dela levou a orelha até o Parlamento.",
+   "say": "E o dono da orelha levou ela até o Parlamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -207,7 +207,7 @@
    "fachada": false,
    "detalhe": false,
    "bloco": "prova",
-   "say": "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
+   "say": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -266,7 +266,7 @@
    ],
    "detalhe": true,
    "bloco": "prova",
-   "say": "O capitão espanhol cortou a orelha dele com a espada.",
+   "say": "O comandante espanhol cortou a orelha dele com a espada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -315,16 +315,14 @@
     ]
    },
    "bloco": "prova",
-   "say": "\"Leve isso ao seu rei\", teria dito o espanhol."
+   "say": "\"Leve isso ao seu rei\", teria dito."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "interior": "pedra",
    "who": [
     "PRE:0:angry:paper",
-    "JEN:0:sad",
-    "ING:0:angry",
-    "PRE:1:shout"
+    "JEN:0:sad"
    ],
    "interacao": "susto",
    "text": "PARLAMENTO",
@@ -341,7 +339,7 @@
     ]
    ],
    "bloco": "escalada",
-   "say": "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
+   "say": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -367,7 +365,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "detalhe": false,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -378,13 +378,13 @@
    ],
    "interacao": "cochichar",
    "bloco": "escalada",
-   "say": "Acontece que a Inglaterra só queria uma desculpa para brigar.",
+   "say": "Acontece que a Inglaterra só queria um pretexto.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "desculpa"
+      "na": "Inglaterra"
      }
     ]
    }
@@ -435,7 +435,7 @@
     "cannon@80"
    ],
    "bloco": "escalada",
-   "say": "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
+   "say": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -484,7 +484,7 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Foram quase dez anos de guerra por causa de uma orelha.",
+   "say": "Nove anos de guerra, por causa de uma orelha.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -534,7 +534,7 @@
    "acao": "discutir",
    "detalhe": true,
    "bloco": "loop",
-   "say": "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
+   "say": "Jenkins nunca recuperou a orelha. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -602,6 +602,6 @@
   "R1"
  ],
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra. Pagamento: foram quase dez anos de guerra por causa da orelha, e Jenkins nunca a recebeu de volta.",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra de nove anos. Pagamento: os espanhois cortaram a orelha de Jenkins, ele a mostrou aos deputados e em 1739 a Inglaterra atacou o Caribe; nove anos de guerra.",
  "loop_frase_ok": true
 }

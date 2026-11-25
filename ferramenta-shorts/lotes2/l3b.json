@@ -1,0 +1,38 @@
+{
+ "mendel1856": {
+  "cumprido": "Gancho: um monge contando ervilhas descobriu como herdamos o que somos e ninguem acreditou nele em vida. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae; so depois da morte deram razao.",
+  "says": [
+   "Um monge contando ervilhas descobriu como herdamos o que somos.",
+   "E ninguém acreditou nele enquanto estava vivo.",
+   "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "Cruzou ervilhas amarelas com ervilhas verdes.",
+   "Todas saíram amarelas, como se o verde tivesse sumido.",
+   "Ele plantou de novo e contou ervilha por ervilha, por anos.",
+   "Acontece que o verde voltou: três amarelas para uma verde.",
+   "Cada filho herda uma instrução do pai e outra da mãe.",
+   "Só depois da morte dele, viram que estava certo.",
+   "Ele morreu sem saber. E foi assim que..."
+  ],
+  "mod": {
+   "0": {
+    "detalhe": true
+   }
+  }
+ },
+ "newton1666": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma maca que nao caiu na cabeca de Newton explicou por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade.",
+  "says": [
+   "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
+   "Ela explicou por que a Lua não cai em cima da gente.",
+   "Em 1666, a peste fechou a universidade de Cambridge.",
+   "Isaac Newton, de 23 anos, voltou para a fazenda.",
+   "Ficava debaixo de uma macieira, pensando.",
+   "Acontece que uma maçã caiu bem na frente dele.",
+   "Ele se perguntou: por que ela cai sempre para baixo?",
+   "Se a força puxa a maçã, puxa a Lua também?",
+   "Isso virou a lei da gravidade de Newton.",
+   "E a maçã nem foi comida. Foi assim que..."
+  ]
+ }
+}
