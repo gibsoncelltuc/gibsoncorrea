@@ -11,6 +11,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, ringue
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; VIN na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/clipper: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "2007" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.2-1.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.7-3.2 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b1 - Foi em abril de dois mil e sete, em Detroit, no maior show de luta liv...
 - Cenario: loc_cidade | luz: day | clima: limpo
@@ -21,6 +35,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_detroit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, luta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (4.4-6.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (6.3-8.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b2 - A rivalidade era combinada, como todo show de luta: Trump contra o don...
 - Cenario: interior loja | luz: day | clima: limpo
@@ -31,6 +57,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, empresa, luta, rivalidade
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: TRU na esquerda, expressao angry; VIN na direita, expressao shout; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (9.4-11.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (11.1-12.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (12.8-14.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b3 - A aposta: cada um escolheu um lutador, e o dono do perdedor teria a ca...
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -41,6 +79,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aposta, cabeca, dono, escolheu, lutador, perdedor
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
+- PERSONAGENS: VIN na esquerda, expressao smug; TRU na direita, expressao suspicious; sem multidao; acao: cochichar
+- OBJETO kit/clipper: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- SOM: sting@40
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (16.0-18.1 s): mesmo angulo
+  - take 2 (18.1-20.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b4 - Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos ...
 - Cenario: stadium | luz: day | clima: limpo
@@ -51,6 +102,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, bilionarios, estadio, oitenta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao shout; POV na direita, expressao grin; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- SOM: ding@20
+- TEXTO NA TELA: "80 MIL" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b5 - No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umag...
 - Cenario: stadium | luz: day | clima: limpo
@@ -61,6 +124,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: LAS (lutador) no centro, expressao angry; sem multidao; acao: discutir
+- OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- SOM: thump@30
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (26.5-28.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (28.2-30.0 s): mesmo angulo
+  - take 3 (30.0-31.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça...
 - Cenario: stadium | luz: day | clima: limpo
@@ -71,6 +148,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: JUI no centro, expressao smug; sem multidao; acao: susto
+- OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (33.0-34.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (34.7-36.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b7 - No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - Cenario: stadium | luz: day | clima: limpo
@@ -81,6 +171,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ring, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: LAS (lutador) no centro, expressao laugh; sem multidao; acao: comemorar
+- OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (4.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b8 - Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar c...
 - Cenario: stadium | luz: day | clima: limpo
@@ -91,6 +195,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: discutir
+- OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/clipper: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: whoosh@40
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (42.9-44.6 s): mesmo angulo
+  - take 2 (44.6-46.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b9 - E sobrou para Trump: o juiz derrubou ele também.
 - Cenario: stadium | luz: day | clima: limpo
@@ -101,6 +219,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estadio; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
+- OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- SOM: thump@30
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b10 - Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -111,6 +240,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fama, hall, luta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: TRU na esquerda, expressao smile; JUI na direita, expressao smile; sem multidao; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (51.1-52.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (52.8-54.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -144,3 +284,12 @@ kit/ring | b5, b6, b7, b8, b9 | pronto | conferir na folha de contato se le bem;
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh wrestlemania2007 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh wrestlemania2007` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (55.4-57.0 s): mesmo angulo
+  - take 2 (57.0-58.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

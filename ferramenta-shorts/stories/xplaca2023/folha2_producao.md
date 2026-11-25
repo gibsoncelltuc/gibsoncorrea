@@ -11,6 +11,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/phone, kit/marco_goldengate, buildings/house_two, nature/lamppost, nature/bench
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, placa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_patio; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
+- PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "X" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (0.2-1.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.9-3.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b1 - Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Tw...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -21,6 +33,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, twitter
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao grin; OPE (pedreiro) na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: SÃO FRANCISCO (cobre a tela 1-2 s)
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (5.1-6.7 s): mesmo angulo
+  - take 2 (6.7-8.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (8.4-10.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b2 - Os operários começaram a tirar as letras e o passarinho da fachada.
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -31,6 +56,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fachada, letras, operarios, passarinho, tirar
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: OPE (pedreiro) na esquerda, expressao nervous; OPE2 (pedreiro) no centro, expressao suspicious; MUS na direita, expressao worried; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: thump@40
+- TAKES: sequencia de acao em 3 cameras (2.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b3 - Mas o trabalho parou no meio, porque faltavam licenças.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -41,6 +77,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trabalho
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: OPE (pedreiro) na esquerda, expressao shock; FIS na direita, expressao stern; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b4 - Sobraram só as letras E e R, em cinza, na fachada.
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -51,6 +96,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fachada, letras
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: OPE2 (pedreiro) no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "E R" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (19.3-20.8 s): mesmo angulo
+  - take 2 (20.8-22.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b5 - Acontece que depois instalaram um X gigante piscando no alto do prédio...
 - Cenario: loc_cidade | luz: noite | clima: limpo
@@ -61,6 +118,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_goldengate, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, predio
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
+- CAMERA: plano de multidao
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- SOM: sting@40
+- TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b6 - A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -71,6 +140,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): investigacao, placa, prefeitura, semana
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FIS na esquerda, expressao angry; MUS na direita, expressao worried; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (27.9-29.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (29.7-31.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (31.5-33.3 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b7 - A empresa disse que era uma placa temporária para um evento.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -81,6 +162,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, evento, placa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao smug; FIS na direita, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b8 - A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido...
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -91,6 +181,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): policia
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FIS na esquerda, expressao shock; OPE (pedreiro) na direita, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
+  - take 1 (38.3-40.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (40.5-42.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b9 - Moral da história: até trocar de nome precisa de licença da prefeitura...
 - Cenario: interior madeira | luz: golden | clima: limpo
@@ -101,6 +202,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): licenca, prefeitura
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (44.0-45.5 s): mesmo angulo
+  - take 2 (45.5-47.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: golden | clima: limpo
@@ -141,3 +253,12 @@ buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se p
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh xplaca2023 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh xplaca2023` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- (sem ficha)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (48.5-50.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (50.1-51.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
