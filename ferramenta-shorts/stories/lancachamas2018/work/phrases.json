@@ -1,0 +1,144 @@
+{
+ "duration": 31.536,
+ "frames30": 946,
+ "source": "silence-align (cost 0.64)",
+ "segments": [
+  [
+   0.0,
+   3.09462
+  ],
+  [
+   3.46812,
+   5.32754
+  ],
+  [
+   5.70487,
+   6.66108
+  ],
+  [
+   6.81146,
+   9.29392
+  ],
+  [
+   9.66933,
+   11.3814
+  ],
+  [
+   11.7505,
+   13.2281
+  ],
+  [
+   13.6003,
+   15.7676
+  ],
+  [
+   16.1449,
+   18.0757
+  ],
+  [
+   18.2814,
+   19.5289
+  ],
+  [
+   19.906,
+   21.9575
+  ],
+  [
+   22.3349,
+   24.6917
+  ],
+  [
+   25.065,
+   27.5919
+  ],
+  [
+   27.9635,
+   28.7817
+  ],
+  [
+   28.9652,
+   30.0884
+  ],
+  [
+   30.4625,
+   31.0922
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um bilion\u00e1rio vendeu lan\u00e7a-chamas jurando que n\u00e3o era lan\u00e7a-chamas.",
+   "s": 0.0,
+   "e": 3.095
+  },
+  {
+   "text": "E o motivo desse nome \u00e9 bem esperto.",
+   "s": 3.468,
+   "e": 5.328
+  },
+  {
+   "text": "Em 2018,",
+   "s": 5.705,
+   "e": 6.661
+  },
+  {
+   "text": "a empresa de t\u00faneis de Elon Musk lan\u00e7ou o aparelho.",
+   "s": 6.811,
+   "e": 9.294
+  },
+  {
+   "text": "O nome era N\u00e3o \u00e9 um lan\u00e7a-chamas.",
+   "s": 9.669,
+   "e": 11.381
+  },
+  {
+   "text": "Custava quinhentos d\u00f3lares.",
+   "s": 11.751,
+   "e": 13.228
+  },
+  {
+   "text": "Acontece que ele soltava fogo de verdade.",
+   "s": 13.6,
+   "e": 15.768
+  },
+  {
+   "text": "O nome servia para driblar a alf\u00e2ndega,",
+   "s": 16.145,
+   "e": 18.076
+  },
+  {
+   "text": "que barrava lan\u00e7a-chamas.",
+   "s": 18.281,
+   "e": 19.529
+  },
+  {
+   "text": "E vinha com um extintor de inc\u00eandio junto.",
+   "s": 19.906,
+   "e": 21.957
+  },
+  {
+   "text": "Vinte mil unidades esgotaram em poucos dias.",
+   "s": 22.335,
+   "e": 24.692
+  },
+  {
+   "text": "Isso rendeu cerca de dez milh\u00f5es de d\u00f3lares.",
+   "s": 25.065,
+   "e": 27.592
+  },
+  {
+   "text": "O nome mentia,",
+   "s": 27.963,
+   "e": 28.782
+  },
+  {
+   "text": "e todo mundo sabia.",
+   "s": 28.965,
+   "e": 30.088
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 30.462,
+   "e": 31.092
+  }
+ ]
+}

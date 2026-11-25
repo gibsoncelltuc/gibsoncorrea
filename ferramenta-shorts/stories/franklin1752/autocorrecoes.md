@@ -58,3 +58,6 @@
 
 ## 25/11 20:04 autocorrecao de visibilidade
 - b5: objeto "kit/key" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 20:04 autocorrecao de visibilidade
+- b5: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
