@@ -1,0 +1,3 @@
+VISIBILIDADE: 2 FALHA(S)
+FALHA b8: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b8: objeto "kit/balloon_air" saiu com 1% da altura da tela, a ficha de cena planejou 30%

@@ -11,6 +11,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, primeiros
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: JOS (comerciante) no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "OVELHA, PATO E GALO" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b1 - Foram uma ovelha, um pato e um galo.
 - Cenario: street | luz: day | clima: limpo
@@ -21,6 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galo, ovelha, pato
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (3.1-4.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (4.8-6.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b2 - Em 1783, os irmãos Montgolfier faziam papel.
 - Cenario: street | luz: day | clima: limpo
@@ -31,6 +54,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: FRANÇA (cobre a tela 1-2 s)
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b3 - Viram que fumaça quente fazia sacos de papel subirem.
 - Cenario: interior madeira | luz: day | clima: limpo
@@ -41,6 +74,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/campfire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): papel
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)
+- PERSONAGENS: JOS (comerciante) na esquerda, expressao surprised; ETI (comerciante) na direita, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETO kit/campfire: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- SOM: whoosh@40
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b4 - Fizeram um balão gigante de pano e papel.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -51,6 +95,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon, kit/fire, kit/campfire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, pano
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/balloon no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (1.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b5 - Ninguém sabia se dava para respirar lá em cima.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -61,6 +113,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: NOB (nobre) na esquerda, expressao suspicious; ETI (comerciante) na direita, expressao nervous; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que o balão subiu de verdade, com os bichos dentro.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -71,6 +132,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, bichos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: POV no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO whoosh: -; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: whoosh@20
+- SOM: ding@50
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (17.9-19.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (19.4-20.8 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b7 - Oito minutos depois, pousou, e os bichos estavam vivos.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -81,6 +157,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bichos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: ETI (comerciante) no centro, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (21.5-23.1 s): mesmo angulo
+  - take 2 (23.1-24.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b8 - Dois meses depois, um balão levou dois homens.
 - Cenario: street | luz: day | clima: limpo
@@ -91,6 +178,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: POV na esquerda, expressao shock; POV na direita, expressao laugh; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "SOBRE PARIS" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - Ninguém quis ser cobaia. E foi assim que...
 - Cenario: street | luz: day | clima: limpo
@@ -128,3 +229,13 @@ kit/balloon_air | b6, b8 | pronto | conferir na folha de contato se le bem; se p
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh montgolfier1783 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh montgolfier1783` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: ETI (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
