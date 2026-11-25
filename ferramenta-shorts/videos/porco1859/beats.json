@@ -220,7 +220,8 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:nervous:money"
+    "FAZ:0:nervous:money",
+    "IRL:0:angry"
    ],
    "interacao": "entregar",
    "props": [
@@ -247,24 +248,13 @@
    "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false,
-   "animals": [
-    [
-     "pig",
-     2.2,
-     1.2,
-     "fall",
-     2.01
-    ]
-   ],
-   "d0": 6.0,
-   "d1": 5.0,
-   "_auto_vis": 3
+   "detalhe": false
   },
   {
    "shot": "two",
    "who": [
-    "IRL:0:shout"
+    "IRL:0:shout",
+    "FAZ:0:surprised:money"
    ],
    "interacao": "discutir",
    "acao": "discutir",
@@ -280,19 +270,7 @@
    "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false,
-   "animals": [
-    [
-     "pig",
-     2.2,
-     1.2,
-     "fall",
-     2.01
-    ]
-   ],
-   "d0": 6.0,
-   "d1": 5.0,
-   "_auto_vis": 3
+   "detalhe": false
   },
   {
    "shot": "reveal",

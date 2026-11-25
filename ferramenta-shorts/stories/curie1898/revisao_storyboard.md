@@ -1,4 +1,4 @@
-# Revisao do storyboard - curie1898 (v5, 25/11, regerado: b8 morte sem multidao, Marie sozinha e triste)
+# Revisao do storyboard - curie1898 (v6, 25/11: Paris com ruas e predios da epoca; b8 Marie sozinha, sem multidao)
 pesquisa: Marie e Pierre Curie, Paris 1898, galpao da Escola de Fisica e Quimica (teto com goteira, frio), toneladas de pechblenda mexidas com barra de ferro; descobrem o polonio e o radio (1898); o radio brilha no escuro; frascos no bolso; dois Nobel (1903 Fisica, 1911 Quimica), primeira pessoa com dois; morre em 1934 de anemia aplastica; cadernos ainda radioativos na Biblioteca Nacional da Franca, em caixas de chumbo; leitura com termo e roupa de protecao
 b0: OK - "Existem cadernos tao perigosos" pesquisador e jornalista com a caixa de chumbo, placa PERIGO, torre ao fundo (Paris)
 b1: OK - "Era mil oitocentos e noventa e oito, em Paris" mapa FRANCA e parisienses

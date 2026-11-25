@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1835 | Lugar: Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, tartarugas e iguanas; depois Londres | Quando: setembro e outubro de 1835 (Galapagos); 1837 (Gould em Londres); 1859 (o livro); de dia
 - HEROIS (objeto): kit/finch, kit/finch_thick
 - HEROIS (personagens): DAR, GOU
-- Cenarios: countryside, harbor, interior madeira, interior pedra, palace
+- Cenarios: countryside, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 

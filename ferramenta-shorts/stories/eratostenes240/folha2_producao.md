@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); BIB (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria
+- Objetos/modelos: kit/stick, kit/globe, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): homem, planeta, sombra, tamanho, vara
 - RISCOS: nenhum
 
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav...
-- Cenario: loc_deserto | luz: desert | clima: limpo
+- Cenario: loc_montanha | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): ERA (variante 0, expressao surprised, segura paper); BIB (variante 0, expressao suspicious)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - Isso significava que o sol estava bem em cima, e nada fazia sombra.
-- Cenario: loc_deserto | luz: desert | clima: calor
+- Cenario: loc_montanha | luz: desert | clima: calor
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ERA (variante 0, expressao smile); CAM (variante 0, expressao neutral)
@@ -43,17 +43,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra...
-- Cenario: loc_montanha | luz: desert | clima: calor
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ERA (variante 0, expressao suspicious) | multidao: 0 de 
+- Cenario: loc_estudio | luz: desert | clima: calor
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): solo, sombra, vara
 - RISCOS: nenhum
 
 ## Cena b5 - Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
-- Cenario: loc_montanha | luz: desert | clima: limpo
+- Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
@@ -63,22 +63,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que a sombra era diferente, e isso só podia acontecer se a Te...
-- Cenario: loc_campo | luz: desert | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ERA (variante 0, expressao shock); BIB (variante 0, expressao surprised) | multidao: 0 de 
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm, kit/marco_alexandria
+- Cenario: loc_estudio | luz: desert | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: - | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra
 - RISCOS: nenhum
 
 ## Cena b7 - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades...
-- Cenario: loc_campo | luz: desert | clima: limpo
+- Cenario: loc_montanha | luz: desert | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): ERA (variante 0, expressao neutral); CAM (variante 0, expressao grin)
 - Animacao: encena
-- Objetos/modelos: kit/stick, nature/tree_palm, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/stick, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
 
@@ -93,12 +93,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
-- Cenario: loc_montanha | luz: desert | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ERA (variante 0, expressao smug)
+- Cenario: loc_campo | luz: desert | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 6 de POV
 - Animacao: comemorar
-- Objetos/modelos: kit/stick, kit/well, nature/tree_palm, tools/bucket, kit/starlink_sat
+- Objetos/modelos: kit/stick, kit/well, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
 
@@ -117,20 +117,20 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/globe | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stick | b0, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_palm | b0, b2, b3, b4, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alexandria | b0, b1, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alexandria | b0, b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_palm | b2, b3, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 22% | detalhe 4%
+- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 18% | detalhe 4%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py eratostenes240  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/eratostenes240/moodboard.jpg

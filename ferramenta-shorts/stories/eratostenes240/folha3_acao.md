@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
@@ -36,7 +36,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 
-## Cena b4 - 25.2s a 30.0s - 14 palavras - plano wide
+## Cena b4 - 25.2s a 30.0s - 14 palavras - plano two
 > "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -51,13 +51,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | pensou (30.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 34.8s a 40.4s - 16 palavras - plano orbit
+## Cena b6 - 34.8s a 40.4s - 16 palavras - plano two
 > "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 40.7s a 45.6s - 14 palavras - plano track
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
@@ -76,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 51.1s a 55.6s - 13 palavras - plano two
+## Cena b9 - 51.1s a 55.6s - 13 palavras - plano orbit
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

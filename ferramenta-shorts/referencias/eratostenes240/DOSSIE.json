@@ -9,7 +9,7 @@
   "cenarios": [
    "interior pedra",
    "loc_campo",
-   "loc_deserto",
+   "loc_estudio",
    "loc_montanha"
   ],
   "cenarios_trocados": [
@@ -19,8 +19,18 @@
     "loc_campo"
    ],
    [
+    "cena 6",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
+    "medieval",
+    "loc_campo"
+   ],
+   [
     "cena 11",
-    "palace",
+    "medieval",
     "loc_campo"
    ]
   ]
@@ -67,7 +77,8 @@
    "globo"
   ],
   "explicacoes": [
-   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)"
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)",
+   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Eratosthenes",
@@ -75,7 +86,15 @@
   ],
   "buscas": {
    "vara": "Eratosthenes gnomon shadow experiment",
-   "cidade": "ancient Alexandria library illustration"
+   "cidade": "ancient Alexandria library illustration",
+   "Alexandria (Egito): Biblioteca e patio com obelisco": "Library of Alexandria ancient reconstruction painting",
+   "bibliotecario assistente": "ancient Greek scholar scroll library illustration",
+   "vara (gnomon)": "ancient gnomon sundial shadow stick",
+   "globo": "antique terrestrial globe 17th century",
+   "stick": "wooden stick shadow on desert sand",
+   "poco de pedra": "ancient stone well desert Egypt",
+   "globe": "antique terrestrial globe 17th century",
+   "Eratóstenes Mede a Terra": "Eratosthenes measuring the Earth illustration shadow well Syene"
   }
  },
  "fontes": [],

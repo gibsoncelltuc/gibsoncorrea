@@ -47,7 +47,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -97,6 +97,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/gosma",
     "kit/petri"
    ],
@@ -110,12 +111,13 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "FLE"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/gosma",
     "kit/petri"
    ],
@@ -136,6 +138,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/gosma",
     "kit/petri"
    ],

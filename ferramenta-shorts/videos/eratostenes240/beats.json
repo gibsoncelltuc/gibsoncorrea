@@ -53,34 +53,23 @@
    ],
    "props": [
     [
-     "kit/globe",
-     0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/stick",
-     3.6,
-     -2.0,
-     1.3,
+     0.9,
+     0.6,
+     2.2,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
      }
     ],
     [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
+     "kit/globe",
+     -1.4,
+     -1.0,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
@@ -228,9 +217,7 @@
   {
    "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
    "shot": "wide",
-   "who": [
-    "ERA:0:suspicious"
-   ],
+   "who": [],
    "props": [
     [
      "kit/stick",
@@ -277,7 +264,31 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 19.3,
-   "d1": 18.4
+   "d1": 18.4,
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "VARA",
+      "topo",
+      "vara"
+     ],
+     [
+      "SOMBRA PEQUENA",
+      "baixo",
+      "sombra"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "SOL",
+      "",
+      "fincada"
+     ]
+    ]
+   }
   },
   {
    "say": "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.",
@@ -324,15 +335,13 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "medieval"
   },
   {
    "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
    "shot": "orbit",
-   "who": [
-    "ERA:0:shock",
-    "BIB:0:surprised"
-   ],
+   "who": [],
    "impact": true,
    "tiros": false,
    "crowd": {
@@ -400,7 +409,28 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/globe",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "SIENA: SEM SOMBRA",
+      "topo",
+      "sombra"
+     ],
+     [
+      "ALEXANDRIA: SOMBRA",
+      "meio",
+      "diferente"
+     ],
+     [
+      "TERRA CURVA",
+      "baixo",
+      "curva"
+     ]
+    ]
+   }
   },
   {
    "say": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
@@ -412,24 +442,13 @@
    "props": [
     [
      "kit/stick",
-     0.0,
-     -1.2,
-     1.3,
+     0.9,
+     0.6,
+     2.2,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
      }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
     ]
    ],
    "fachada": false,
@@ -469,33 +488,22 @@
    "props": [
     [
      "kit/stick",
-     2.4,
-     0.2,
-     1.3,
+     0.9,
+     0.6,
+     2.2,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
      }
     ],
     [
      "kit/well",
-     3.6,
-     -2.0,
-     1.2,
+     -1.5,
+     -0.8,
+     1.0,
      {
       "fixo": true
      }
-    ],
-    [
-     "nature/tree_palm",
-     -3.2,
-     -6.0,
-     1.5
-    ],
-    [
-     "nature/tree_palm",
-     3.4,
-     -7.5,
-     1.6
     ]
    ],
    "detalhe": false,
@@ -522,7 +530,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "set": "medieval"
   }
  ],
  "exp": 0.9,
@@ -550,7 +559,8 @@
    "globo"
   ],
   "explicacoes": [
-   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)"
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)",
+   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Eratosthenes",
@@ -558,7 +568,15 @@
   ],
   "buscas": {
    "vara": "Eratosthenes gnomon shadow experiment",
-   "cidade": "ancient Alexandria library illustration"
+   "cidade": "ancient Alexandria library illustration",
+   "Alexandria (Egito): Biblioteca e patio com obelisco": "Library of Alexandria ancient reconstruction painting",
+   "bibliotecario assistente": "ancient Greek scholar scroll library illustration",
+   "vara (gnomon)": "ancient gnomon sundial shadow stick",
+   "globo": "antique terrestrial globe 17th century",
+   "stick": "wooden stick shadow on desert sand",
+   "poco de pedra": "ancient stone well desert Egypt",
+   "globe": "antique terrestrial globe 17th century",
+   "Eratóstenes Mede a Terra": "Eratosthenes measuring the Earth illustration shadow well Syene"
   }
  }
 }

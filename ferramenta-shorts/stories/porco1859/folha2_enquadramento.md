@@ -34,14 +34,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "O fazendeiro ofereceu dez dólares ao vizinho pelo porco."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FAZ no centro, expressao nervous, segura money; sem multidao; acao: entregar
+- PERSONAGENS: FAZ na esquerda, expressao nervous, segura money; IRL na direita, expressao angry; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "$10" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b5: "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: IRL no centro, expressao shout; sem multidao; acao: discutir
+- PERSONAGENS: IRL na esquerda, expressao shout; FAZ na direita, expressao surprised, segura money; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "$100" numa placa atras dos personagens, na palavra 1 da frase
 

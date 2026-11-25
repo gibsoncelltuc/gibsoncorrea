@@ -8,8 +8,18 @@
    "loc_campo"
   ],
   [
+   "cena 6",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "medieval",
+   "loc_campo"
+  ],
+  [
    "cena 11",
-   "palace",
+   "medieval",
    "loc_campo"
   ]
  ],
@@ -30,8 +40,7 @@
    "objetos": [
     "kit/globe",
     "kit/marco_alexandria",
-    "kit/stick",
-    "nature/tree_palm"
+    "kit/stick"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -83,7 +92,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "wide",
@@ -109,13 +118,11 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "loc_montanha"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "ERA"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/marco_alexandria",
@@ -125,11 +132,17 @@
    "palavras": 14,
    "cena": "b4",
    "frase": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/stick (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
@@ -148,26 +161,22 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "ERA",
-    "BIB"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/globe",
-    "kit/marco_alexandria",
     "kit/stick",
     "nature/tree_palm"
    ],
    "palavras": 16,
    "cena": "b6",
    "frase": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
-   "classe": "chave",
-   "sujeito": "personagem",
+   "classe": "explicativa",
+   "sujeito": "objeto",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -176,7 +185,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "track",
@@ -189,8 +198,7 @@
     "buildings/apartment",
     "buildings/house_two",
     "kit/stick",
-    "nature/lamppost",
-    "nature/tree_palm"
+    "nature/lamppost"
    ],
    "palavras": 14,
    "cena": "b7",
@@ -199,7 +207,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_montanha"
   },
   {
    "camera": "two",
@@ -219,16 +227,15 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "ERA"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/starlink_sat",
     "kit/stick",
     "kit/well",
-    "nature/tree_palm",
     "tools/bucket"
    ],
    "palavras": 13,
@@ -238,7 +245,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",

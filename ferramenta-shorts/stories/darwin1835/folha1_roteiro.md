@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~8.3 s)
 - Narracao: Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pega (lift) @0 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.2 s)
 - Narracao: Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: olha (point) @0 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~4.8 s)
 - Narracao: Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40, stars@60

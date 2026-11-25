@@ -23,6 +23,11 @@
    "loc_campo"
   ],
   [
+   "cena 9",
+   "countryside",
+   "loc_campo"
+  ],
+  [
    "cena 11",
    "countryside",
    "loc_campo"
@@ -61,12 +66,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/beehive"
    ],
@@ -77,7 +82,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -235,7 +240,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "group",

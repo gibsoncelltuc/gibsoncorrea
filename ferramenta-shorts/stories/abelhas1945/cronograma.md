@@ -1,20 +1,20 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Gerado em 24/11 23:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:42 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | FRI, COL | - | bee, beehive | - | As abelhas conversam dançando. E foi um cientista teimoso que descobri
-b1 | simples | loc_campo | reveal | POV, POV | 6 | beehive | - | Karl von Frisch, da Áustria, passou a vida estudando abelhas.
+b1 | simples | interior madeira | two | POV, POV | - | beehive | - | Karl von Frisch, da Áustria, passou a vida estudando abelhas.
 b2 | chave | loc_campo | wide | FRI, ASS | - | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n
 b3 | simples | loc_campo | two | FRI | - | bee, beehive | - | Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava
 b4 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
 b5 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | E o mais incrível: o ângulo da rebolada mostrava a direção, comparada 
 b6 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
 b7 | simples | interior madeira | two | COL, FRI | - | - | - | Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada
-b8 | chave | loc_montanha | orbit | POV, COL, FRI | 30 | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
+b8 | chave | loc_campo | orbit | POV, COL, FRI | 30 | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
 b9 | simples | interior pedra | group | FRI, ASS, COL | 4 | - | - | Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe
 b10 | simples | loc_campo | two | FRI | - | bee, beehive | - | Da próxima vez que vir uma abelha, lembre: ela pode estar contando um 
 b11 | simples | loc_campo | close | FRI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

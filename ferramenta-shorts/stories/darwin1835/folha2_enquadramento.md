@@ -16,13 +16,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: GALÁPAGOS (cobre a tela 1-2 s)
 
 ## b2: "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo."
-- LOCAL: praia / palacio; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao neutral, segura bag; MAR (marinheiro) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b3: "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma."
-- LOCAL: praia / palacio; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DAR (cientista) na esquerda, expressao suspicious, segura paper; MAR (marinheiro) na direita, expressao bored; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 
 ## b6: "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida."
-- LOCAL: praia / palacio; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao shock; GOU (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa

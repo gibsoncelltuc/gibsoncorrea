@@ -112,10 +112,13 @@ for k, b in enumerate(BT):
         fichas.append((a, f'{lugar}, {lado(x)}{" (objeto principal da cena)" if eh_p else ""}', f'{int(tela * 100)}% da altura da tela', estado, rel))
     if not manual and principal is not None:
         for kk in ('cx', 'cz', 'h', 'd0', 'd1', '_auto_vis', '_who_lado'): b.pop(kk, None)
+        _shot_autor = b.get('shot') if b.get('shot') and b.get('shot') != b.get('_enq_shot') else None   # 25/11 (sessao A): shot/who que o ROTEIRO mudou depois do ultimo enquadrar nao e' desfeito
         b.update(cena)
-        if b.get('shot') == 'close': b['shot'] = 'two'   # close + objeto ao lado cortava o personagem (gate do Post-it): plano medio cabe os dois
+        if _shot_autor: b['shot'] = _shot_autor
+        b['_enq_shot'] = b.get('shot')
+        if b.get('shot') == 'close' and not _shot_autor: b['shot'] = 'two'   # close + objeto ao lado cortava o personagem (gate do Post-it): plano medio cabe os dois
         if cena.get('shot') == 'wide': b['detalhe'] = False
-        if n_p > 1 and cena.get('shot') == 'wide': b['who'] = b['who'][:1]; who = who[:1]; n_p = 1   # cena do objeto grande: 1 personagem no centro olhando (os angulos variados da camera cortavam o 2o na borda)
+        if n_p > 1 and cena.get('shot') == 'wide' and not _shot_autor: b['who'] = b['who'][:1]; who = who[:1]; n_p = 1   # cena do objeto grande: 1 personagem no centro olhando (os angulos variados da camera cortavam o 2o na borda)
         mud += 1
     # ---- descricao completa da cena ----
     loc = INTER.get(b.get('interior'), str(b.get('interior'))) if b.get('interior') else LOCAL.get(b.get('set', SET0), str(b.get('set', SET0)))

@@ -20,12 +20,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: pordosol
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: CID (comerciante) no centro, expressao scared; sem multidao; acao: cochichar
 - OBJETO kit/submarino_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 23.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +68 da cena
 - SOM: cannon@68
-- TEXTO NA TELA: "SUBMARINO JAPONÊS" numa placa atras dos personagens, na palavra 3 da frase
+- TEXTO NA TELA: "SUBMARINO JAPONÊS" flutuando no alto, na palavra 3 da frase
 
 ## b3: "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite

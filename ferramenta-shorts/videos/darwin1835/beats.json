@@ -145,7 +145,7 @@
      }
     ]
    ],
-   "set": "palace",
+   "set": "harbor",
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
@@ -158,12 +158,12 @@
      }
     ]
    },
-   "fachada": false,
    "objetos": null,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "fachada": false
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -173,10 +173,10 @@
     "MAR:0:bored"
    ],
    "acao": "conversar",
-   "set": "palace",
-   "fachada": false,
+   "set": "harbor",
    "_auto_vis": 0,
-   "objetos": null
+   "objetos": null,
+   "fachada": false
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
@@ -325,7 +325,7 @@
     "ding@40",
     "sting@60"
    ],
-   "set": "palace",
+   "set": "harbor",
    "quadro": {
     "local": "praia / palacio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
@@ -351,13 +351,13 @@
     ]
    },
    "detalhe": true,
-   "fachada": false,
    "objetos": null,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "fachada": false
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",

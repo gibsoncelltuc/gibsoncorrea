@@ -61,7 +61,7 @@
  "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "OHI:0:stern"
    ],
@@ -71,11 +71,12 @@
    "props": [
     [
      "kit/canivete_aberto",
-     2.4,
-     0.2,
-     4.5,
+     1.0,
+     1.2,
+     3.0,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
      }
     ]
    ],
@@ -90,10 +91,6 @@
    "tstyle": "red",
    "titulo": true,
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
@@ -105,8 +102,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
