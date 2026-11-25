@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 25/11 17:04 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PAS | - | syringe | - | O primeiro vacinado contra a raiva foi um menino de nove anos.
+b0 | simples | street | two | PAS | - | syringe | - | Um menino de nove anos foi o primeiro vacinado contra a raiva.
 b1 | simples | interior loja | close | PAS | - | syringe | - | E quem aplicou a vacina nem era médico.
-b2 | chave | street | wide | MED, MED | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1885, na França, Louis Pasteur estudava micróbios.
-b3 | simples | interior madeira | two | MED, POV | - | - | - | Quem era mordido por um animal com raiva quase nunca se salvava.
+b2 | chave | street | wide | MED, MED | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1885, Louis Pasteur estudava micróbios na França.
+b3 | simples | interior madeira | two | MED, POV | - | - | - | Mordida de animal com raiva quase sempre matava.
 b4 | simples | interior madeira | group | PAS, MED | - | syringe | - | A vacina dele só tinha sido testada em animais.
 b5 | simples | interior madeira | two | PAS, MAE | - | - | - | Um dia, chegou o menino Joseph, mordido por um cachorro.
 b6 | simples | interior loja | close | PAS | - | - | - | Pasteur tinha medo, mas decidiu tentar.
 b7 | chave | hall | orbit | PAS, MED | - | syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, depois de dez dias de injeções, o menino não adoeceu.
 b8 | simples | interior madeira | track | MAE, PAS | - | - | - | Joseph sobreviveu, e a notícia correu o mundo.
-b9 | transicao | street | wide | PAS | - | syringe | - | Anos depois, Joseph virou o guarda do instituto de Pasteur.
+b9 | transicao | street | wide | PAS | - | syringe | - | Um químico arriscou tudo. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

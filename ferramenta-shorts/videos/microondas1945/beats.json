@@ -63,7 +63,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um chocolate derretido no bolso inventou o micro-ondas.",
+   "say": "Um chocolate derretido no bolso inventou o micro-ondas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -158,7 +158,7 @@
    ],
    "acao": "conversar",
    "bloco": "prova",
-   "say": "Uma peça do radar mandava ondas invisíveis o dia inteiro.",
+   "say": "Uma peça do radar soltava ondas invisíveis o dia inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -346,13 +346,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "O chocolate perdeu. Mas a pipoca agradece.",
+   "say": "Um lanche perdido. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "pipoca"
+      "na": "perdido"
      }
     ]
    }
@@ -394,6 +394,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um chocolate derretido no bolso inventou o micro-ondas. Pagamento: o radar derreteu o chocolate, estourou pipoca e explodiu um ovo; virou o forno que hoje esquenta comida em um minuto.",
+ "gancho_cumprido": "Gancho: um chocolate derretido no bolso inventou o micro-ondas, que hoje esta em quase toda cozinha. Pagamento: o radar derreteu o chocolate, estourou pipoca e explodiu um ovo; virou o primeiro forno.",
  "loop_frase_ok": true
 }

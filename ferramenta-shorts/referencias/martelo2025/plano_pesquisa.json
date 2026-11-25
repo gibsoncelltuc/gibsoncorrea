@@ -123,17 +123,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
+   "item": "Outros aviões foram mandados para despistar.",
    "consultas": [
-    "despistar avioes foram mandados direcao pacifico",
+    "avioes foram mandados despistar",
     "b2 air diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow.",
+   "item": "Acontece que, de madrugada, doze bombas caíram sobre Fordow.",
    "consultas": [
-    "acontece madrugada catorze bombas cairam fordow",
+    "acontece madrugada bombas cairam fordow",
     "mountain bunker diagram"
    ]
   }

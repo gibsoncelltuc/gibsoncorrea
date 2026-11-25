@@ -25,7 +25,7 @@ objeto | pia de banheiro de porcelana branca | pia de banheiro de porcelana bran
 objeto | celular filmando | celular filmando / celular filmando 2022 | SEM REFERENCIA
 objeto | logo do Twitter | logo do Twitter / logo do Twitter 2022 | SEM REFERENCIA
 heroi | sink | pia de banheiro de porcelana branca / A Pia no Twitter | SEM REFERENCIA
-mecanismo | Em inglês, sink quer dizer pia e também afundar. | ingles dizer tambem afundar / sink diagram | SEM REFERENCIA
+mecanismo | Sink quer dizer pia e também afundar. | dizer tambem afundar / sink diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 26/10/2022 Musk entrou na sede do Twitter com uma pia e escreveu "Entering Twitter HQ - let that sink in"; em 27/10 concluiu a compra por US$ 44 bilhoes e demitiu o CEO Parag Agrawal e outros executivos; mudou a bio para "Chief Twit" (fonte: Wikipedia Acquisition of Twitter by Elon Musk)

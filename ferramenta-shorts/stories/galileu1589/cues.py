@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [9, 19, 30, 40, 52, 62, 69, 80, 87]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [12, 20, 27, 35, 47, 55, 61, 72, 79]] + [FR]
 playful(F(_A[0]), F(_A[10]), 122)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)
@@ -16,7 +16,7 @@ whoosh(F(_A[5]), 0.4, 0.35)
 thump(F(_A[5] + 40))
 ding(F(_A[5] + 60))
 whoosh(F(_A[6]), 0.4, 0.35)
-gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.12)), 6, 250, 0.2); gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.38)), 6, 165, 0.2); gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.62)), 5, 270, 0.22); gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.82)), 4, 160, 0.2)
+gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.25)), 5, 330, 0.1); gibber(F(_A[6] + int((_A[7] - _A[6]) * 0.6)), 5, 300, 0.1)
 whoosh(F(_A[7]), 0.4, 0.35)
 laughs(F(_A[7] + int((_A[8] - _A[7]) * 0.2))); laughs(F(_A[7] + int((_A[8] - _A[7]) * 0.6)), 5, 360)
 ding(F(_A[7] + 40))
@@ -26,6 +26,7 @@ laughs(F(_A[8] + int((_A[9] - _A[8]) * 0.2))); laughs(F(_A[8] + int((_A[9] - _A[
 ding(F(_A[8] + 40))
 thump(F(_A[8] + 70))
 whoosh(F(_A[9]), 0.4, 0.35)
-ding(F(int(_W(87) - 2)), 0.5, 1175)
-thump(F(int(_W(56))))
-thump(F(int(_W(82))))
+ding(F(int(_W(79) - 2)), 0.5, 1175)
+thump(F(int(_W(6))))
+thump(F(int(_W(51))))
+thump(F(int(_W(74))))

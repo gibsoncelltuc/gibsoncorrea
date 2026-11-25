@@ -12,5 +12,5 @@ b6 | two | -  | interior | - | -
 b7 | two | -  | interior, placa: CHIEF TWIT | - | -
 b8 | two | -  | placa: LET THAT SINK IN | - | -
 
-Mistura de planos: close 3% | medio 90% | aberto 4% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 3% | medio 89% | aberto 5% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 1 | AVISOS: menos de 2 planos abertos; quase sem close (ponha "shot": "close" numa fala ou reacao)

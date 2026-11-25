@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Videogame Um Foi Neuralink 2021 | SEM REFERENCIA
+tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Um Foi Neuralink 2021 | SEM REFERENCIA
 lugar | Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas | Neuralink Fremont California / Neuralink Fremont California 2021 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2021 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA

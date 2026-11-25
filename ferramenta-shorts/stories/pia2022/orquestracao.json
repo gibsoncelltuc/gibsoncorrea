@@ -102,9 +102,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b4",
-   "frase": "Em inglês, sink quer dizer pia e também afundar.",
+   "frase": "Sink quer dizer pia e também afundar.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -125,9 +125,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.",
+   "frase": "Acontece que, no dia seguinte, o Twitter virou dele.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -186,9 +186,9 @@
    "objetos": [
     "kit/sink"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Uma pia, um trocadilho e 44 bilhões de dólares.",
+   "frase": "Uma piada com pia. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

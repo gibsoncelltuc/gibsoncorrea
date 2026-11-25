@@ -13,5 +13,5 @@ b7 | two | -  | tropa | - | -
 b8 | two | -  | interior, placa: DESTRUÍDAS? | - | -
 b9 | wide | noite  | tropa, placa: MARTELO DA MEIA-NOITE | segredo (ring + som de alerta) | -
 
-Mistura de planos: close 2% | medio 78% | aberto 19% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 2% | medio 77% | aberto 22% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

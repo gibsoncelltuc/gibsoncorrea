@@ -7,7 +7,7 @@
    "item": "A Torre que Pegou um Foguete no Ar",
    "consultas": [
     "A Torre que Pegou um Foguete no Ar",
-    "Foguete Este Parece Mas Foi SpaceX Texas 2024"
+    "Um Parece Mas Foi SpaceX Texas 2024"
    ]
   },
   {
@@ -107,9 +107,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "A ideia: tirar as pernas e fazer a torre agarrar o propulsor.",
+   "item": "A ideia: a torre agarra o propulsor na volta.",
    "consultas": [
-    "tirar pernas fazer torre agarrar propulsor",
+    "torre agarra propulsor",
     "tower catch diagram"
    ]
   }

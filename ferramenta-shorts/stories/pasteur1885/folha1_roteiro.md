@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 89 palavras (~31 s)
 
 ## Cena b0  (~4.1 s)
-- Narracao: O primeiro vacinado contra a raiva foi um menino de nove anos.
+- Narracao: Um menino de nove anos foi o primeiro vacinado contra a raiva.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~2.8 s)
-- Narracao: Em 1885, na França, Louis Pasteur estudava micróbios.
+- Narracao: Em 1885, Louis Pasteur estudava micróbios na França.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: FRANÇA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~4.1 s)
-- Narracao: Quem era mordido por um animal com raiva quase nunca se salvava.
+## Cena b3  (~2.8 s)
+- Narracao: Mordida de animal com raiva quase sempre matava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: Anos depois, Joseph virou o guarda do instituto de Pasteur.
+## Cena b9  (~2.8 s)
+- Narracao: Um químico arriscou tudo. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

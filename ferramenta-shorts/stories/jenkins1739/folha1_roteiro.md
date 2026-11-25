@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 90 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 10 cenas, 90 palavras (~31 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Uma orelha cortada começou uma guerra de nove anos.

@@ -1,13 +1,14 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "GANSOS x GAULESES",
- "gancho_cumprido": "Gancho: gansos salvaram Roma numa noite, mas Roma perdeu o ouro mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
+ "gancho_cumprido": "Gancho: um bando de gansos salvou Roma numa noite, mas o ouro foi embora mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um bando de gansos salvou Roma numa noite.",
-   "gansos"
+   "Um bando de gansos barulhentos salvou Roma numa noite.",
+   "gansos",
+   {}
   ],
   [
    9,
@@ -34,7 +35,8 @@
    2,
    "prova",
    "Os romanos que sobraram se trancaram no Capitólio, uma colina.",
-   "trancaram"
+   "trancaram",
+   {}
   ],
   [
    4,
@@ -56,7 +58,7 @@
   [
    5,
    "escalada",
-   "Acontece que os gansos sagrados de Juno ouviram e começaram a gritar.",
+   "Acontece que os gansos sagrados de Juno ouviram e gritaram.",
    "gritar",
    {
     "encena_antiga": true
@@ -83,8 +85,9 @@
   [
    0,
    "loop",
-   "Os gansos salvaram a colina. O ouro, não.",
-   "gansos"
+   "Os guardas não ouviram, os gansos sim. E foi assim que...",
+   "gansos",
+   {}
   ]
  ]
 }

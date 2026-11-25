@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 89 palavras (~31 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Videogame precisa de mãos? Um macaco jogou só com o pensamento.
+## Cena b0  (~2.8 s)
+- Narracao: Um macaco jogou videogame só com o pensamento.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Tudo começou com um macaco e um copo de vitamina.
+## Cena b8  (~3.8 s)
+- Narracao: Tudo começou com um copo de vitamina. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

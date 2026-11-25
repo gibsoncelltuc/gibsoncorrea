@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 25/11 17:03 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | GAL | - | marco_pisa, pisa_tower | - | Coisa pesada cai mais rápido? Galileu provou que não.
-b1 | simples | loc_campo | two | GAL | - | bola_couro | - | E, séculos depois, até uma pena deu razão a ele.
-b2 | transicao | street | reveal | ALU, ALU | - | marco_pisa | - | Por volta de 1590, Galileu era um jovem professor em Pisa.
-b3 | simples | interior pedra | two | ARI, ALU | - | - | - | O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.
+b0 | simples | street | two | GAL | - | bola_couro, marco_pisa, pisa_tower | - | Uma bola pesada e uma leve caíram no chão ao mesmo tempo.
+b1 | simples | loc_campo | two | GAL | - | bola_couro | - | E, séculos depois, até uma pena provou isso.
+b2 | transicao | street | reveal | ALU, ALU | - | marco_pisa | - | Em 1590, Galileu era professor em Pisa.
+b3 | simples | interior pedra | two | ARI, ALU | - | - | - | Aristóteles dizia: quanto mais pesado, mais rápido cai.
 b4 | transicao | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | - | Dizem que Galileu levou duas bolas ao alto da torre de Pisa.
-b5 | chave | loc_campo | group | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que as duas caíram no chão ao mesmo tempo.
-b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Hoje se discute se isso aconteceu mesmo.
+b5 | chave | loc_campo | group | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que as duas chegaram juntas ao chão.
+b6 | simples | interior madeira | two | GAL, ALU | - | - | - | Tem historiador que duvida dessa história.
 b7 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1971, na Lua, um astronauta soltou martelo e pena juntos.
 b8 | chave | arctic | two | AST | - | feather, hammer | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os dois caíram exatamente ao mesmo tempo.
-b9 | transicao | street | wide | GAL | - | marco_pisa, pisa_tower | - | Até a pena deu razão ao Galileu.
+b9 | transicao | street | wide | GAL | - | marco_pisa, pisa_tower | - | Aristóteles errou por dois mil anos. Até que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

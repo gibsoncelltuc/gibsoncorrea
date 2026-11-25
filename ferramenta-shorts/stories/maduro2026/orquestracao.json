@@ -28,9 +28,9 @@
     "kit/helicopter_air",
     "nature/lamppost"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um presidente foi capturado de madrugada, na própria capital, em três horas.",
+   "frase": "Um presidente foi capturado de madrugada, dentro da própria capital.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -46,9 +46,9 @@
    "objetos": [
     "kit/helicopter_air"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "E a operação ganhou um nome que resume tudo.",
+   "frase": "E tudo levou menos de três horas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -56,7 +56,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
     "POV",
     "POV"
@@ -66,15 +66,9 @@
    "palavras": 9,
    "cena": "b2",
    "frase": "Foi em janeiro de 2026, em Caracas, na Venezuela.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -152,7 +146,7 @@
    "objetos": [],
    "palavras": 11,
    "cena": "b6",
-   "frase": "Acontece que, em menos de três horas, Maduro já estava capturado.",
+   "frase": "Acontece que, em menos de três horas, ele já estava capturado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -170,9 +164,9 @@
     "kit/scroll",
     "vehicles/airplane"
    ],
-   "palavras": 12,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Foi levado de avião para Nova York, onde responde a um processo.",
+   "frase": "Foi levado de avião para Nova York.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -180,7 +174,7 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV",
@@ -188,12 +182,18 @@
    ],
    "multidao": 18,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "Nenhum militar americano morreu, e a notícia dividiu o mundo.",
-   "classe": "simples",
+   "frase": "A notícia dividiu o mundo inteiro.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
@@ -207,9 +207,9 @@
    "objetos": [
     "kit/helicopter_air"
    ],
-   "palavras": 6,
+   "palavras": 10,
    "cena": "b9",
-   "frase": "O nome da operação: Resolução Absoluta.",
+   "frase": "A operação se chamou Resolução Absoluta. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

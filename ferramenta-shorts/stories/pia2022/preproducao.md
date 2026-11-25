@@ -12,7 +12,7 @@ b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: discutir, batalha | - | - | -
 b6 | interior pedra | two | 3 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b7 | interior loja | two | 1 | conversar | kit/phone | - | -
-b8 | loc_cidade | two | 2 | reagir, INTERAGEM: cochichar | kit/sink | - | -
+b8 | loc_cidade | two | 2 | conversar, INTERAGEM: cochichar | kit/sink | - | -
 
 OBJETO HEROI: kit/sink
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b5

@@ -99,7 +99,7 @@
    "set": "loc_cidade",
    "hora": "noite",
    "bloco": "gancho",
-   "say": "Um presidente foi capturado de madrugada, na própria capital, em três horas.",
+   "say": "Um presidente foi capturado de madrugada, dentro da própria capital.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -139,13 +139,13 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "promessa",
-   "say": "E a operação ganhou um nome que resume tudo.",
+   "say": "E tudo levou menos de três horas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "nome"
+      "na": "levou"
      }
     ]
    }
@@ -343,7 +343,7 @@
     "sting@30"
    ],
    "bloco": "escalada",
-   "say": "Acontece que, em menos de três horas, Maduro já estava capturado.",
+   "say": "Acontece que, em menos de três horas, ele já estava capturado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -386,7 +386,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "pagamento",
-   "say": "Foi levado de avião para Nova York, onde responde a um processo.",
+   "say": "Foi levado de avião para Nova York.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -423,7 +423,7 @@
    "text": "MUNDO",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "Nenhum militar americano morreu, e a notícia dividiu o mundo.",
+   "say": "A notícia dividiu o mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -471,13 +471,13 @@
    "set": "loc_cidade",
    "hora": "noite",
    "bloco": "loop",
-   "say": "O nome da operação: Resolução Absoluta.",
+   "say": "A operação se chamou Resolução Absoluta. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "nome"
+      "na": "Resolução"
      }
     ]
    }
@@ -524,6 +524,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um presidente foi capturado na propria capital em tres horas e a operacao tem um nome que resume tudo. Pagamento: helicopteros da Forca Delta, defesas desligadas, Maduro levado para Nova York; nome: Resolucao Absoluta.",
+ "gancho_cumprido": "Gancho: um presidente foi capturado de madrugada na propria capital em menos de tres horas, numa operacao de nome forte. Pagamento: Forca Delta de helicoptero, defesas desligadas, Maduro levado para Nova York; operacao Resolucao Absoluta.",
  "loop_frase_ok": true
 }

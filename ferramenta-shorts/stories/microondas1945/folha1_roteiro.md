@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 96 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 93 palavras (~32 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: um chocolate derretido no bolso inventou o micro-ondas.
+## Cena b0  (~2.8 s)
+- Narracao: Um chocolate derretido no bolso inventou o micro-ondas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -30,7 +30,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.4 s)
-- Narracao: Uma peça do radar mandava ondas invisíveis o dia inteiro.
+- Narracao: Uma peça do radar soltava ondas invisíveis o dia inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -84,10 +84,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.4 s)
-- Narracao: O chocolate perdeu. Mas a pipoca agradece.
+- Narracao: Um lanche perdido. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: CHOCOLATE NO BOLSO
 - Funcao na historia: FECHO/PIADA FINAL

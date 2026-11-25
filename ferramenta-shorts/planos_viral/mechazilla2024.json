@@ -1,14 +1,87 @@
-{"gancho_tipo": "crenca", "texto_gancho": "MECHAZILLA",
- "gancho_cumprido": "Gancho: uma torre com bracos gigantes pegou um foguete no ar. Pagamento: o propulsor voltou de re e os bracos se fecharam no ultimo segundo, a primeira vez na historia.",
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "MECHAZILLA",
+ "gancho_cumprido": "Gancho: um foguete gigante foi agarrado no ar por uma torre com bracos, engenharia de verdade. Pagamento: o propulsor voltou de re e os bracos se fecharam no ultimo segundo, pela primeira vez na historia.",
  "cenas": [
-  [0, "gancho", "Foguete pousa no chão? Este foi agarrado no ar por uma torre.", "agarrado", {"text": null}],
-  [10, "promessa", "Parece filme de robô gigante. Mas é engenharia de verdade.", "filme"],
-  [1, "prova", "Foi em outubro de 2024, na base da SpaceX, no Texas.", "Texas"],
-  [2, "prova", "A parte de baixo do foguete costumava ir para o lixo.", "lixo"],
-  [3, "prova", "A ideia: tirar as pernas e fazer a torre agarrar o propulsor.", "agarrar", {"encena_antiga": true}],
-  [4, "escalada", "Os engenheiros chamaram a torre de Mechazilla.", "chamaram"],
-  [5, "escalada", "O propulsor decolou com trinta e três motores acesos.", "decolou", {"encena_antiga": true}],
-  [6, "escalada", "Minutos depois, voltou descendo de ré, direto na torre.", "voltou", {"encena_antiga": true}],
-  [7, "pagamento", "Acontece que, no último segundo, os braços se fecharam e seguraram.", "seguraram", {"encena_antiga": true}],
-  [8, "pagamento", "Os engenheiros comemoraram: era a primeira vez na história.", "comemoraram", {"encena_antiga": true}],
-  [0, "loop", "Uma torre que pega foguete no ar. E não é filme.", "torre"]]}
+  [
+   0,
+   "gancho",
+   "Um foguete gigante foi agarrado no ar por uma torre com braços.",
+   "agarrado",
+   {
+    "text": null
+   }
+  ],
+  [
+   10,
+   "promessa",
+   "Parece filme de robô. Mas é engenharia de verdade.",
+   "filme",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Foi em 2024, na base da SpaceX, no Texas.",
+   "Texas",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "A parte de baixo do foguete costumava ir para o lixo.",
+   "lixo",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A ideia: a torre agarra o propulsor na volta.",
+   "agarra",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Os engenheiros chamaram a torre de Mechazilla.",
+   "chamaram",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "O propulsor decolou com trinta e três motores.",
+   "decolou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Minutos depois, voltou descendo de ré, direto na torre.",
+   "voltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Acontece que, no último segundo, os braços se fecharam e seguraram.",
+   "seguraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Primeira vez na história. E foi assim que...",
+   "Primeira",
+   {}
+  ]
+ ]
+}

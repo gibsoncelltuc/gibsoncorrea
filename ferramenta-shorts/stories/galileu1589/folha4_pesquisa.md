@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Galileu e a Torre de Pisa | Galileu e a Torre de Pisa / Coisa Galileu Por Galileu Pisa 1589 | SEM REFERENCIA
+tema | Galileu e a Torre de Pisa | Galileu e a Torre de Pisa / Uma Em Galileu Pisa 1589 | SEM REFERENCIA
 lugar | Pisa, Italia: Praca dos Milagres com a torre inclinada de marmore branco e a cat | Pisa Italia / Pisa Italia 1589 | SEM REFERENCIA
 lugar | Itália | Itália 1589 / Itália landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1589 | 1589 fashion clothing / 16th century clothing painting | SEM REFERENCIA

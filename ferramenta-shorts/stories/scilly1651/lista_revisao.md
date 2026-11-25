@@ -6,21 +6,18 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Você acha que guerra precisa de tiro?": 
-- f1 "Esta durou 335 anos sem nenhum.": 
-- f2 "E o jeito que ela acabou é ainda mais absurdo.": 
-- f3 "Em 1651,": 
-- f4 "piratas das ilhas Scilly atacavam navios holandeses.": 
-- f5 "Dizem que a Holanda mandou navios e declarou guerra às ilhas": 
-- f6 "Acontece que a Inglaterra tomou as ilhas antes da Holanda at": 
-- f7 "Os holandeses foram embora.": 
-- f8 "E ninguém assinou a paz.": 
-- f9 "Em 1985,": 
-- f10 "um historiador perguntou à Holanda:": 
-- f11 "a guerra ainda vale?": 
-- f12 "Em 1986, o embaixador holandês foi às ilhas assinar a paz.": 
-- f13 "335 anos de guerra,": 
-- f14 "zero tiros.": 
-- f15 "E você achando que guerra precisa de tiro.": 
+- f0 "Uma guerra durou 335 anos e ninguém disparou um tiro.": 
+- f1 "E só acabou porque alguém resolveu perguntar.": 
+- f2 "Em 1651,": 
+- f3 "piratas das ilhas Scilly atacavam navios holandeses.": 
+- f4 "A Holanda declarou guerra às ilhas.": 
+- f5 "Acontece que a Inglaterra tomou as ilhas antes da Holanda ch": 
+- f6 "Os holandeses foram embora.": 
+- f7 "E ninguém lembrou de assinar a paz.": 
+- f8 "Três séculos depois,": 
+- f9 "um historiador escreveu para a Holanda.": 
+- f10 "O embaixador veio às ilhas e assinou a paz.": 
+- f11 "Ninguém lembrou de um papel.": 
+- f12 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

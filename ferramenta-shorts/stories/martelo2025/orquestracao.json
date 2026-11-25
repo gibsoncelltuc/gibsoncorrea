@@ -58,9 +58,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Foi em junho de 2025, contra usinas nucleares do Irã.",
+   "frase": "Foi em 2025, contra usinas nucleares do Irã.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,9 +76,9 @@
    "objetos": [
     "kit/mountain_bunker"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "A principal, Fordow, fica a quase noventa metros, dentro de uma montanha.",
+   "frase": "A principal, Fordow, fica dentro de uma montanha.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -136,9 +136,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b6",
-   "frase": "Para despistar, outros aviões foram mandados na direção do Pacífico.",
+   "frase": "Outros aviões foram mandados para despistar.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -156,9 +156,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow.",
+   "frase": "Acontece que, de madrugada, doze bombas caíram sobre Fordow.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -197,9 +197,9 @@
    "objetos": [
     "kit/bunker_bomb"
    ],
-   "palavras": 9,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "O Irã discorda. E a montanha guarda o segredo.",
+   "frase": "O Irã discorda, e a montanha guarda o segredo. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

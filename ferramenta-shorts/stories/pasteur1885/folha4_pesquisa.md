@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Pasteur e a Vacina da Raiva | Pasteur e a Vacina da Raiva / Em França Louis Pasteur 1885 | SEM REFERENCIA
+tema | Pasteur e a Vacina da Raiva | Pasteur e a Vacina da Raiva / Um Em Louis Pasteur França 1885 | SEM REFERENCIA
 lugar | Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas co | Paris laboratorio de Pasteur na Escola Normal Superior / Paris laboratorio de Pasteur na Escola Normal Superior rua d'Ulm 1885 | SEM REFERENCIA
 lugar | França | França 1885 / França landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1885 | 1885 fashion clothing / 1885 street photograph | SEM REFERENCIA

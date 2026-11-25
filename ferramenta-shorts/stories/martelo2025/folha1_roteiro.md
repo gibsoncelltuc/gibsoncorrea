@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 23 - O Martelo da Meia-Noite
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_pista | 10 cenas, 90 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Uma bomba feita para furar montanhas foi usada pela primeira vez.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Foi em junho de 2025, contra usinas nucleares do Irã.
+## Cena b2  (~2.8 s)
+- Narracao: Foi em 2025, contra usinas nucleares do Irã.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: - | mapa: IRÃ
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.1 s)
-- Narracao: A principal, Fordow, fica a quase noventa metros, dentro de uma montanha.
+## Cena b3  (~2.8 s)
+- Narracao: A principal, Fordow, fica dentro de uma montanha.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.4 s)
-- Narracao: Para despistar, outros aviões foram mandados na direção do Pacífico.
+## Cena b6  (~2.1 s)
+- Narracao: Outros aviões foram mandados para despistar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow.
+## Cena b7  (~3.1 s)
+- Narracao: Acontece que, de madrugada, doze bombas caíram sobre Fordow.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@25, cannon@40, thump@55
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Texto na tela: DESTRUÍDAS?
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.1 s)
-- Narracao: O Irã discorda. E a montanha guarda o segredo.
+## Cena b9  (~4.1 s)
+- Narracao: O Irã discorda, e a montanha guarda o segredo. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: segredo -> ring + som de alerta

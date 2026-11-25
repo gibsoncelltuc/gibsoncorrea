@@ -1,12 +1,12 @@
 # CRONOGRAMA - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
-Gerado em 25/11 17:03 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Videogame precisa de mãos? Um macaco jogou só com o pensamento.
+b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Um macaco jogou videogame só com o pensamento.
 b1 | simples | interior madeira | two | CIE | - | monkey_pong | - | E o prêmio de cada acerto era vitamina de banana.
 b2 | chave | loc_cidade | wide | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em 2021, num teste da empresa Neuralink.
 b3 | simples | interior loja | two | CIM, MUS | - | chess_pc | - | Um chip no cérebro lê os sinais dos neurônios.
@@ -14,7 +14,7 @@ b4 | simples | interior loja | close | CIE | - | monkey_pong | - | O macaco Page
 b5 | simples | interior loja | two | CIM | - | monkey_pong | - | Acontece que desligaram o joystick, e ele continuou jogando com a ment
 b6 | chave | loc_cidade | orbit | POV, POV, MUS | 14 | monkey_pong | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O vídeo rodou o mundo e abriu debate sobre testes com animais.
 b7 | simples | interior madeira | two | NOL, CIE | - | chess_pc | - | Em 2024, um paciente paralisado jogou xadrez só pensando.
-b8 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Tudo começou com um macaco e um copo de vitamina.
+b8 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Tudo começou com um copo de vitamina. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -24,14 +24,14 @@ N | Etapa | O que confere | Estado | Proximo passo
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py neuralink2021
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | REFAZER (a etapa anterior mudou) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh neuralink2021
-10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh neuralink2021
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh neuralink2021
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local neuralink2021 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 

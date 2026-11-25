@@ -84,13 +84,13 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "gancho",
-   "say": "Coisa pesada cai mais rápido? Galileu provou que não.",
+   "say": "Uma bola pesada e uma leve caíram no chão ao mesmo tempo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "provou"
+      "na": "pesada"
      }
     ]
    },
@@ -115,7 +115,7 @@
     ]
    ],
    "bloco": "promessa",
-   "say": "E, séculos depois, até uma pena deu razão a ele.",
+   "say": "E, séculos depois, até uma pena provou isso.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -142,7 +142,7 @@
    "mapa": "ITÁLIA",
    "mapa_at": 2,
    "bloco": "prova",
-   "say": "Por volta de 1590, Galileu era um jovem professor em Pisa.",
+   "say": "Em 1590, Galileu era professor em Pisa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -162,7 +162,7 @@
    ],
    "acao": "conversar",
    "bloco": "prova",
-   "say": "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.",
+   "say": "Aristóteles dizia: quanto mais pesado, mais rápido cai.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -284,13 +284,13 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "escalada",
-   "say": "Acontece que as duas caíram no chão ao mesmo tempo.",
+   "say": "Acontece que as duas chegaram juntas ao chão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "caíram"
+      "na": "chegaram"
      }
     ]
    }
@@ -304,13 +304,13 @@
    ],
    "interacao": "cochichar",
    "bloco": "escalada",
-   "say": "Hoje se discute se isso aconteceu mesmo.",
+   "say": "Tem historiador que duvida dessa história.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "discute"
+      "na": "duvida"
      }
     ]
    }
@@ -435,13 +435,13 @@
     "GAL:0:smug"
    ],
    "bloco": "loop",
-   "say": "Até a pena deu razão ao Galileu.",
+   "say": "Aristóteles errou por dois mil anos. Até que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "pena"
+      "na": "por"
      }
     ]
    }
@@ -481,7 +481,7 @@
    "lua": "Apollo 15 hammer feather drop"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: coisa pesada nao cai mais rapido e ate uma pena deu razao a Galileu. Pagamento: as duas bolas cairam juntas em Pisa e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma bola pesada e uma leve cairam juntas, e seculos depois ate uma pena deu razao a Galileu. Pagamento: em Pisa as bolas cairam juntas e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
  "loop_frase_ok": true
 }

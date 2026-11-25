@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Volta de Trump | A Volta de Trump / Perdeu Trump Em Trump Kamala Harris 2024 | SEM REFERENCIA
+tema | A Volta de Trump | A Volta de Trump / Um Em Trump Kamala Harris 2024 | SEM REFERENCIA
 lugar | Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi | Estados Unidos / Estados Unidos 2024 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2024 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2024 | 2024 fashion clothing / 2024 street photograph | SEM REFERENCIA

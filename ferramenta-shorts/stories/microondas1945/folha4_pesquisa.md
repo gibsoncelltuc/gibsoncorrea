@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Micro-ondas e o Chocolate | O Micro-ondas e o Chocolate / Ninguém Por Percy Spencer 1945 | SEM REFERENCIA
+tema | O Micro-ondas e o Chocolate | O Micro-ondas e o Chocolate / Um Por Percy Spencer 1945 | SEM REFERENCIA
 lugar | Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magne | Raytheon Waltham Massachusetts / Raytheon Waltham Massachusetts EUA 1945 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1945 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1945 | 1945 fashion clothing / 1945 street photograph | SEM REFERENCIA

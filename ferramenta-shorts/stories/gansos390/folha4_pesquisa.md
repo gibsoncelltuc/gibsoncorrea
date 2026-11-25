@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Os Gansos que Salvaram Roma | Os Gansos que Salvaram Roma / Ninguém Roma Mas Roma Em Cristo Roma | SEM REFERENCIA
+tema | Os Gansos que Salvaram Roma | Os Gansos que Salvaram Roma / Um Roma Mas Roma Em Cristo Roma | SEM REFERENCIA
 lugar | Roma, colina do Capitólio | Roma colina do Capitólio | Lodovico Pogliaghi - Demagogues take refuge on the (referencias/gansos390/prints/roma_colina_do_capit_lio_fa40b4.jpg); US Capitol east side.JPG (referencias/gansos390/prints/roma_colina_do_capit_lio_a285d8.jpg); US Capitol west side.JPG (referencias/gansos390/prints/roma_colina_do_capit_lio_4cad9f.jpg)
 lugar | Roma | Roman Forum ancient Rome reconstruction painting / Roma / Roma landscape | Foro Romano Musei Capitolini Roma.jpg (referencias/gansos390/prints/roma_ad3dc1.jpg); Forum Romanum (14).jpg (referencias/gansos390/prints/roma_c25c15.jpg); Foro Romano visto dal Vittoriano Roma.jpg (referencias/gansos390/prints/roma_4dbb44.jpg)
 pessoas | gauleses de Breno | Brennus Gaul sack of Rome painting / gauleses de Breno | Giovanni di Ser Giovanni Guidi (called Scheggia) - (referencias/gansos390/prints/gauleses_de_breno_a94eea.jpg); Brennus and Sulpicius (illustration).jpg (referencias/gansos390/prints/gauleses_de_breno_70ce30.jpg); GaulsinRome.jpg (referencias/gansos390/prints/gauleses_de_breno_0eeb14.jpg)

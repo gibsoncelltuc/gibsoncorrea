@@ -79,7 +79,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Videogame precisa de mãos? Um macaco jogou só com o pensamento.",
+   "say": "Um macaco jogou videogame só com o pensamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -384,13 +384,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Tudo começou com um macaco e um copo de vitamina.",
+   "say": "Tudo começou com um copo de vitamina. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "macaco"
+      "na": "vitamina"
      }
     ]
    }
@@ -443,7 +443,7 @@
    "macaco": "Neuralink Pager monkey MindPong 2021"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: um macaco jogou videogame so com o pensamento e o premio era vitamina de banana. Pagamento: o chip leu os neuronios, Pager jogou sem joystick e em 2024 um paciente paralisado jogou xadrez pensando.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um macaco jogou videogame so com o pensamento e ganhava vitamina de banana. Pagamento: o chip leu os neuronios, Pager jogou sem joystick e em 2024 um paciente paralisado jogou xadrez pensando.",
  "loop_frase_ok": true
 }

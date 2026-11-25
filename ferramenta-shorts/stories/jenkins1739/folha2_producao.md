@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
+- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug) | multidao: 12 de ESP/JEN
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, orelha, parlamento
@@ -114,11 +114,9 @@ ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 73% | aberto 15% | detalhe 2%
 - Interacoes: b0 discutir, b1 avanca e o outro recua, b3 empurrar, b4 cochichar, b5 susto, b6 cochichar, b8 entregar, b9 discutir
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~37.2 s (voz real; 95 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py jenkins1739
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.2 s (voz real; 95 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

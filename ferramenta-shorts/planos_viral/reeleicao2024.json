@@ -1,31 +1,35 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "PERDEU E VOLTOU",
- "gancho_cumprido": "Gancho: quem perde a eleicao nao volta, mas Trump voltou, algo que so aconteceu uma vez antes. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos e virou o 2o presidente com mandatos separados, depois de Grover Cleveland.",
+ "gancho_cumprido": "Gancho: um presidente perdeu a eleicao e voltou quatro anos depois, algo que so tinha acontecido uma vez. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos; so Grover Cleveland tinha feito isso.",
  "cenas": [
   [
    0,
    "gancho",
-   "Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.",
-   "voltou"
+   "Um presidente perdeu a eleição e voltou quatro anos depois.",
+   "voltou",
+   {}
   ],
   [
    6,
    "promessa",
    "E isso só tinha acontecido uma vez na história americana.",
-   "história"
+   "história",
+   {}
   ],
   [
    1,
    "prova",
-   "Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.",
-   "escolhiam"
+   "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "escolhiam",
+   {}
   ],
   [
    3,
    "prova",
    "A contagem dos votos entrou pela madrugada.",
-   "contagem"
+   "contagem",
+   {}
   ],
   [
    4,
@@ -48,20 +52,23 @@
   [
    7,
    "pagamento",
-   "Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.",
-   "Cleveland"
+   "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
+   "Cleveland",
+   {}
   ],
   [
    9,
    "pagamento",
    "Antes foi o presidente 45. Agora, o 47.",
-   "presidente"
+   "presidente",
+   {}
   ],
   [
    0,
    "loop",
-   "Perdeu, voltou e ganhou. Uma das maiores viradas da política.",
-   "virada"
+   "Perdeu, voltou e ganhou. E foi assim que...",
+   "voltou",
+   {}
   ]
  ]
 }

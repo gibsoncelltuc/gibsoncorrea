@@ -20,9 +20,9 @@
     "kit/chocolate",
     "kit/microwave"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Ninguém te conta: um chocolate derretido no bolso inventou o micro-ondas.",
+   "frase": "Um chocolate derretido no bolso inventou o micro-ondas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,7 +81,7 @@
    "objetos": [],
    "palavras": 10,
    "cena": "b3",
-   "frase": "Uma peça do radar mandava ondas invisíveis o dia inteiro.",
+   "frase": "Uma peça do radar soltava ondas invisíveis o dia inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -204,13 +204,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/chocolate",
-    "kit/microwave",
-    "kit/popcorn"
+    "kit/microwave"
    ],
    "palavras": 7,
    "cena": "b9",
-   "frase": "O chocolate perdeu. Mas a pipoca agradece.",
+   "frase": "Um lanche perdido. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

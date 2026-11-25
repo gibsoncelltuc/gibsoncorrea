@@ -11,7 +11,7 @@ b5 | two | -  | interior | - | -
 b6 | two | -  | batalha aberta com tiros, tropa, interior | - | -
 b7 | two | -  | batalha aberta com tiros, interior | explodiu (burst + som de tiro/explosao) | -
 b8 | orbit | -  | tropa | - | -
-b9 | two | -  | placa: CHOCOLATE NO BOLSO | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
+b9 | two | -  | placa: CHOCOLATE NO BOLSO | - | -
 
-Mistura de planos: close 0% | medio 82% | aberto 15% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 0% | medio 82% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 10 - A Pia no Twitter
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 85 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um bilionário entrou carregando uma pia na empresa que estava comprando.
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: LET THAT SINK IN
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.1 s)
-- Narracao: Em inglês, sink quer dizer pia e também afundar.
+## Cena b4  (~2.4 s)
+- Narracao: Sink quer dizer pia e também afundar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.1 s)
-- Narracao: Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.
+## Cena b5  (~3.1 s)
+- Narracao: Acontece que, no dia seguinte, o Twitter virou dele.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: CHIEF TWIT
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: Uma pia, um trocadilho e 44 bilhões de dólares.
+## Cena b8  (~2.8 s)
+- Narracao: Uma piada com pia. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

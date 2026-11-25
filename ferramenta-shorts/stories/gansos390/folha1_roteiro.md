@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 05 - Os Gansos que Salvaram Roma
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo | 9 cenas, 93 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: loc_campo | 9 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: um bando de gansos salvou Roma numa noite.
+## Cena b0  (~3.1 s)
+- Narracao: Um bando de gansos barulhentos salvou Roma numa noite.
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@10, squeal@40, squeal@80
 - Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.1 s)
-- Narracao: Acontece que os gansos sagrados de Juno ouviram e começaram a gritar.
+## Cena b5  (~3.4 s)
+- Narracao: Acontece que os gansos sagrados de Juno ouviram e gritaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: squeal@20, squeal@55, squeal@90
-- Efeito + som nas palavras-chave: encena: grita (up) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; gritaram -> ring + som de alerta; encena: grita (up) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: JUNO
 - Funcao na historia: VIRADA
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: loc_campo 
 - Texto na tela: 1.000 LIBRAS
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Os gansos salvaram a colina. O ouro, não.
+## Cena b8  (~3.8 s)
+- Narracao: Os guardas não ouviram, os gansos sim. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: squeal@10, squeal@40, squeal@80
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@30
 - Texto na tela: GANSOS x GAULESES
 - Funcao na historia: FECHO/PIADA FINAL

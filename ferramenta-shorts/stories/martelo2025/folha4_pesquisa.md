@@ -28,8 +28,8 @@ objeto | bunker na montanha | Fordow Fuel Enrichment Plant satellite image Iran 
 heroi | bunker bomb | bomba antibunker GBU-57 / O Martelo da Meia-Noite | Korean GPS Guided Bomb.jpg (referencias/martelo2025/prints/bunker_bomb_ccaeb2.jpg); GB-4 Glide Bomb No 4.jpg (referencias/martelo2025/prints/bunker_bomb_ca15ec.jpg); Fritz X guided bomb USAFM.jpg (referencias/martelo2025/prints/bunker_bomb_99826a.jpg)
 mecanismo | Só a bomba antibunker, de treze toneladas, chega lá. | bomba antibunker treze toneladas chega / bunker bomb diagram | SEM REFERENCIA
 mecanismo | Sete aviões invisíveis B-2 voaram dezoito horas até o alvo. | avioes invisiveis voaram dezoito / b2 air diagram | SEM REFERENCIA
-mecanismo | Para despistar, outros aviões foram mandados na direção do Pacífico. | despistar avioes foram mandados direcao pacifico / b2 air diagram | SEM REFERENCIA
-mecanismo | Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow. | acontece madrugada catorze bombas cairam fordow / mountain bunker diagram | SEM REFERENCIA
+mecanismo | Outros aviões foram mandados para despistar. | avioes foram mandados despistar / b2 air diagram | SEM REFERENCIA
+mecanismo | Acontece que, de madrugada, doze bombas caíram sobre Fordow. | acontece madrugada bombas cairam fordow / mountain bunker diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - A bomba antibunker GBU-57 pesa cerca de 13,6 toneladas e foi projetada para penetrar muitos metros de rocha e concreto antes de explodir; so o bombardeiro B-2 a carrega (fonte: https://en.wikipedia.org/wiki/GBU-57A/B_MOP)

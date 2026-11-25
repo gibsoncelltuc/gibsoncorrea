@@ -182,7 +182,7 @@
     ]
    },
    "bloco": "prova",
-   "say": "Em inglês, sink quer dizer pia e também afundar.",
+   "say": "Sink quer dizer pia e também afundar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -212,13 +212,13 @@
     }
    },
    "bloco": "escalada",
-   "say": "Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.",
+   "say": "Acontece que, no dia seguinte, o Twitter virou dele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "bilhões"
+      "na": "Acontece"
      }
     ]
    }
@@ -293,7 +293,7 @@
    ],
    "set": "loc_cidade",
    "bloco": "loop",
-   "say": "Uma pia, um trocadilho e 44 bilhões de dólares.",
+   "say": "Uma piada com pia. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -343,6 +343,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um bilionario entrou carregando uma pia na empresa que comprava e a pia era uma piada. Pagamento: sink e' pia e afundar; no dia seguinte fechou a compra do Twitter por 44 bilhoes e demitiu os chefes.",
+ "gancho_cumprido": "Gancho: um bilionario entrou carregando uma pia na empresa que comprava, e a pia era uma piada de 44 bilhoes. Pagamento: sink e' pia e afundar; no dia seguinte fechou a compra e demitiu os chefes.",
  "loop_frase_ok": true
 }

@@ -1,20 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 21 - A Volta de Trump
 
-Gerado em 25/11 17:04 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | TRU, REP | - | ballot_box, white_house | - | Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.
+b0 | simples | loc_cidade | two | TRU, REP | - | ballot_box, white_house | - | Um presidente perdeu a eleição e voltou quatro anos depois.
 b1 | chave | loc_pista | wide | REP, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E isso só tinha acontecido uma vez na história americana.
-b2 | simples | loc_cidade | wide | POV | - | white_house | - | Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.
+b2 | simples | loc_cidade | wide | POV | - | white_house | - | Em 2024, americanos escolhiam entre Trump e Kamala Harris.
 b3 | simples | interior loja | two | REP, TRU | - | - | - | A contagem dos votos entrou pela madrugada.
 b4 | simples | interior loja | close | REP | - | - | - | Acontece que Trump venceu todos os estados decisivos: 312 votos.
 b5 | chave | hall | orbit | TRU | 14 | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram, e ele declarou vitória.
-b6 | simples | interior madeira | two | REP, POV | - | scroll | - | Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.
+b6 | simples | interior madeira | two | REP, POV | - | scroll | - | Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.
 b7 | simples | loc_pista | group | TRU | - | white_house | - | Antes foi o presidente 45. Agora, o 47.
-b8 | simples | loc_cidade | two | TRU, REP | - | ballot_box, white_house | - | Perdeu, voltou e ganhou. Uma das maiores viradas da política.
+b8 | simples | loc_cidade | two | TRU, REP | - | ballot_box, white_house | - | Perdeu, voltou e ganhou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/ear_jar | - | -
-b1 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
+b1 | street | two | 14 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_jar | - | -
 b2 | harbor | wide | 1 | reagir | ship, navios de guerra ao fundo, no tamanho real | - | -
 b3 | street | two | 2 | golpe, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
 b4 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -

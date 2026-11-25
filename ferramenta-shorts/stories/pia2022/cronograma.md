@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 10 - A Pia no Twitter
 
-Gerado em 25/11 17:04 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,11 +10,11 @@ b0 | simples | loc_cidade | two | MUS, FUN | - | marco_goldengate, sink | - | Um
 b1 | chave | loc_cidade | wide | FUN, FUN2 | 14 | marco_goldengate, sink | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E a pia era uma piada de 44 bilhões de dólares.
 b2 | simples | interior pedra | two | MUS, FUN2 | - | sink | - | Foi Elon Musk, em 2022, na sede do Twitter.
 b3 | simples | interior loja | two | MUS, FUN | - | - | - | A legenda era um trocadilho em inglês.
-b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/sink (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em ca | Em inglês, sink quer dizer pia e também afundar.
-b5 | chave | interior madeira | two | MUS, FUN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.
+b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/sink (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em ca | Sink quer dizer pia e também afundar.
+b5 | chave | interior madeira | two | MUS, FUN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no dia seguinte, o Twitter virou dele.
 b6 | simples | interior pedra | two | MUS, FUN, FUN2 | - | - | - | No mesmo dia, demitiu o presidente e outros chefes.
 b7 | simples | interior loja | two | MUS | - | phone | - | E mudou o próprio perfil para Chefe Twit.
-b8 | simples | loc_cidade | two | MUS, FUN | - | sink | - | Uma pia, um trocadilho e 44 bilhões de dólares.
+b8 | simples | loc_cidade | two | MUS, FUN | - | sink | - | Uma piada com pia. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

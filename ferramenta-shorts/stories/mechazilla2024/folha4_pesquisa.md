@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Torre que Pegou um Foguete no Ar | A Torre que Pegou um Foguete no Ar / Foguete Este Parece Mas Foi SpaceX Texas 2024 | SEM REFERENCIA
+tema | A Torre que Pegou um Foguete no Ar | A Torre que Pegou um Foguete no Ar / Um Parece Mas Foi SpaceX Texas 2024 | SEM REFERENCIA
 lugar | Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo | Starbase Boca Chica Texas / Starbase Boca Chica Texas 2024 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2024 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2024 | 2024 fashion clothing / 2024 street photograph | SEM REFERENCIA
@@ -27,7 +27,7 @@ objeto | foguete Starship | foguete Starship / foguete Starship 2024 | SEM REFER
 heroi | tower mini | torre Mechazilla / A Torre que Pegou um Foguete no Ar | SEM REFERENCIA
 heroi | booster air | booster air | SEM REFERENCIA
 epoca | foguete da epoca | rocket 2024 / rocket | SEM REFERENCIA
-mecanismo | A ideia: tirar as pernas e fazer a torre agarrar o propulsor. | tirar pernas fazer torre agarrar propulsor / tower catch diagram | SEM REFERENCIA
+mecanismo | A ideia: a torre agarra o propulsor na volta. | torre agarra propulsor / tower catch diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - No 5o voo da Starship (13/10/2024) o propulsor Super Heavy voltou e foi agarrado pelos bracos (chopsticks) da torre de lancamento, a Mechazilla, sem pernas de pouso, para ser reutilizado (fonte: Wikipedia Starship flight test 5)

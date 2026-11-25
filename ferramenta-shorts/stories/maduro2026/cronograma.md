@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 22 - A Operação da Madrugada
 
-Gerado em 25/11 17:02 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, na própria capital, em três 
-b1 | simples | loc_pista | wide | TRU | - | helicopter_air | - | E a operação ganhou um nome que resume tudo.
-b2 | chave | loc_cidade | wide | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em janeiro de 2026, em Caracas, na Venezuela.
+b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital.
+b1 | simples | loc_pista | wide | TRU | - | helicopter_air | - | E tudo levou menos de três horas.
+b2 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em janeiro de 2026, em Caracas, na Venezuela.
 b3 | simples | loc_pista | two | MAD | - | helicopter_air | - | O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterroris
 b4 | chave | loc_pista | crowd | SOL | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram a Força Delta até ele.
 b5 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | corpo: kit/helicopter_air (paira); emissao: velocidade; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Ao mesmo tempo, ataques aéreos desligaram as defesas do país.
-b6 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, Maduro já estava capturado.
-b7 | simples | loc_patio | two | AGE, MAD | - | scroll, airplane | - | Foi levado de avião para Nova York, onde responde a um processo.
-b8 | simples | loc_patio | group | POV, POV, POV | 18 | - | - | Nenhum militar americano morreu, e a notícia dividiu o mundo.
-b9 | simples | loc_cidade | wide | SOL, MAD | - | helicopter_air | - | O nome da operação: Resolução Absoluta.
+b6 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, ele já estava capturado.
+b7 | simples | loc_patio | two | AGE, MAD | - | scroll, airplane | - | Foi levado de avião para Nova York.
+b8 | chave | loc_patio | wide | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia dividiu o mundo inteiro.
+b9 | simples | loc_cidade | wide | SOL, MAD | - | helicopter_air | - | A operação se chamou Resolução Absoluta. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
