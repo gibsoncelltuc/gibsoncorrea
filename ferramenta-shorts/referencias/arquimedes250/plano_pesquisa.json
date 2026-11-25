@@ -70,6 +70,7 @@
    "tipo": "objeto",
    "item": "coroa de ouro (de louros)",
    "consultas": [
+    "gold laurel wreath ancient greek",
     "coroa de ouro",
     "coroa de ouro 2000"
    ]
@@ -78,6 +79,7 @@
    "tipo": "objeto",
    "item": "banheira",
    "consultas": [
+    "ancient greek bathtub terracotta",
     "banheira",
     "banheira 2000"
    ]
@@ -86,6 +88,7 @@
    "tipo": "objeto",
    "item": "balanca de pratos",
    "consultas": [
+    "ancient balance scale",
     "balanca de pratos",
     "balanca de pratos 2000"
    ]
@@ -94,6 +97,7 @@
    "tipo": "objeto",
    "item": "barra de ouro",
    "consultas": [
+    "gold ingot ancient",
     "barra de ouro",
     "barra de ouro 2000"
    ]
@@ -102,6 +106,7 @@
    "tipo": "heroi",
    "item": "bathtub",
    "consultas": [
+    "ancient greek bathtub terracotta",
     "coroa de ouro",
     "Arquimedes e o Eureca"
    ]

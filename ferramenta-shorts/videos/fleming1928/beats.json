@@ -52,34 +52,34 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     -0.4,
+     1.6,
+     -1.0,
      1.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/petri",
      0.0,
-     -0.4,
+     -1.2,
      0.8,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.4,
-     0.4,
+     -1.6,
+     0.8,
+     0.57,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 1.0
+      "y": 1.0,
+      "fixo": true
      }
     ]
    ],
@@ -94,15 +94,15 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/gosma",
-      "lugar": "FRENTE, esquerda",
-      "tela": "5% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -116,7 +116,13 @@
       "na": "mofo"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "_auto_vis": 1
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -201,34 +207,34 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     -0.4,
+     0.6,
      1.0,
+     1.5,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/petri",
      0.0,
-     -0.4,
+     -1.2,
      0.8,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.4,
-     0.4,
+     -1.6,
+     0.8,
+     0.57,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 1.0
+      "y": 1.0,
+      "fixo": true
      }
     ]
    ],
@@ -243,9 +249,15 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/gosma",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -264,11 +276,17 @@
       "quem": 1
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "_auto_vis": 2
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "FLE:0:suspicious"
    ],
@@ -276,39 +294,39 @@
     [
      "kit/bancada",
      0.0,
-     -0.4,
-     1.0,
+     1.4,
+     2.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/petri",
-     0.0,
-     -0.4,
+     2.4,
+     0.2,
      0.8,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.4,
-     0.4,
+     0.6,
+     1.0,
+     1.5,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 1.0
+      "y": 1.0,
+      "fixo": true
      }
     ]
    ],
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/petri",
@@ -317,15 +335,21 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/gosma",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
       "estado": "parado"
      }
     ]
    },
    "interior": "pedra",
-   "detalhe": false,
+   "detalhe": true,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -335,7 +359,13 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide",
+   "_auto_vis": 3
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -361,34 +391,34 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     -0.4,
+     0.6,
      1.0,
+     1.5,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/petri",
      0.0,
-     -0.4,
-     0.8,
+     1.4,
+     2.0,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.4,
-     0.4,
+     -1.6,
+     0.8,
+     0.57,
      {
-      "fixo": true,
       "nocol": true,
-      "y": 1.0
+      "y": 1.0,
+      "fixo": true
      }
     ]
    ],
@@ -402,6 +432,12 @@
      {
       "objeto": "kit/petri",
       "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -421,7 +457,13 @@
       "na": "mofo"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "_auto_vis": 3
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
@@ -557,5 +599,6 @@
   "explicacoes": [
    "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
   ]
- }
+ },
+ "max_wide": 3
 }

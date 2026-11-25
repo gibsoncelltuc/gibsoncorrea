@@ -1,0 +1,1 @@
+# make_video.sh linha 10 (aplicar com a fila PARADA): na limpeza por disco baixo, NAO apagar ckpt/<v> se cenas.txt tem " antigo" (reconstituido para refazer so' trechos) ou se <v> esta na queue.txt. Mesmo criterio ja' aplicado em limpar_disco.sh (25/11).

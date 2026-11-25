@@ -70,6 +70,8 @@ def aplicar(B, slots, ZS):
                 acoes.append({'palavra': na, 'tipo': 'senta', 'quem': q, '_de_encena': True})
                 for k_ in ('cx', 'cz', 'd0', 'd1', '_auto_vis'): b.pop(k_, None)
             elif faz == 'transborda': b.setdefault('_splash_na', []).append([na, alvo])
+            elif faz in VOCAB and VOCAB[faz][1] == 'acao' and 'quem' not in p and alvo and any(isinstance(x, list) and str(x[0]) == str(alvo) for x in (b.get('props') or [])):
+                b.setdefault('_obj_faz', []).append([na, alvo, faz]); b.setdefault('_enc_words', []).append(_n(na))   # 25/11 a acao e' do OBJETO/ANIMAL-PROP (bico quebra a semente): efeito + som preso no objeto, na palavra
             elif faz in VOCAB and VOCAB[faz][1] == 'acao' and p.get('forcar'):   # so' forca quando a tela ainda nao faz (a conferencia mao dupla marca 'forcar')
                 a = {'palavra': na, 'tipo': faz, 'quem': q, '_de_encena': True}
                 if 'alvo_quem' in p: a['alvo'] = p['alvo_quem']

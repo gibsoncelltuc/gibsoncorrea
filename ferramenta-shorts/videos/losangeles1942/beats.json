@@ -203,6 +203,11 @@
      {
       "faz": "mostra",
       "na": "submarino"
+     },
+     {
+      "faz": "atira",
+      "alvo": "kit/submarino_ww2",
+      "na": "atirado"
      }
     ]
    }
@@ -284,6 +289,11 @@
    "encena": {
     "sentido": "afirmativa",
     "passos": [
+     {
+      "faz": "toca",
+      "alvo": "kit/searchlight",
+      "na": "tocaram"
+     },
      {
       "faz": "mostra",
       "na": "holofotes"

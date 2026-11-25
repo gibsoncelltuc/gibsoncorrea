@@ -96,6 +96,8 @@ def thump(t, g=0.9):
 # ---- v13 (24/11): sons de maquina/ciencia para as cenas de objeto e de explicacao ----
 def jato(t, d=1.6, g=0.55):   # propulsor de gas frio: chiado forte de ar comprimido (ataque seco, cauda longa)
     x = noise(d); e = np.minimum(1, tt(d) / 0.03) * np.exp(-tt(d) * (2.2 / d)); lo = lpf(noise(d), 180) * np.exp(-tt(d) * 3) * 1.5; place(sfx, (lpf(hpf(x, 900), 7500) * e + lo * e).astype(np.float32), t, g)
+def sirene(t, d=2.4, g=0.45):   # 25/11 sirene de alerta antiaereo (Los Angeles 1942): tom que sobe e desce devagar
+    x = tt(d); fr = 420 + 360 * (0.5 - 0.5 * np.cos(2 * np.pi * x / 1.2)); s = (np.sin(2 * np.pi * np.cumsum(fr) / SR) + 0.3 * np.sin(2 * np.pi * np.cumsum(fr * 2) / SR)) * np.minimum(1, x / 0.15) * np.minimum(1, (d - x) / 0.3); place(sfx, (s * 0.5).astype(np.float32), t, g)
 def motor_ev(t, d=1.2, g=0.3):   # motor eletrico acelerando: apito que sobe
     x = tt(d); fr = 260 + 1500 * (x / d) ** 1.6; s = (np.sin(2 * np.pi * np.cumsum(fr) / SR) + 0.35 * np.sin(2 * np.pi * np.cumsum(fr * 2.01) / SR)) * np.sin(np.pi * np.minimum(1, x / d)) ** 0.6; place(sfx, (s * 0.4).astype(np.float32), t, g)
 def pouso(t, g=0.9):   # carro pousando: baque da suspensao + sopro de poeira

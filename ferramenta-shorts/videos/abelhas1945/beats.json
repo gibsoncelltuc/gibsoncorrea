@@ -106,10 +106,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -119,7 +115,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "reveal",
@@ -133,8 +134,8 @@
    "props": [
     [
      "kit/beehive",
-     1.4,
-     -0.6,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
@@ -143,7 +144,7 @@
    ],
    "_susp_ok": true,
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "sala de madeira",
     "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -154,10 +155,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "interior": "madeira",
    "encena": {
     "sentido": "afirmativa",
@@ -168,7 +165,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "reveal"
   },
   {
    "shot": "two",
@@ -241,10 +243,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -254,7 +252,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -328,10 +331,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -340,7 +339,12 @@
       "na": "abelha"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -717,7 +721,7 @@
    "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
    "set": "countryside",
    "quadro": {
-    "local": "loc_montanha",
+    "local": "vila rural (casas, cercas, campo)",
     "camera": "plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -740,10 +744,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -754,7 +754,12 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd"
   },
   {
    "shot": "group",
@@ -858,10 +863,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -870,7 +871,12 @@
       "na": "abelha"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "regiao": "europa",
