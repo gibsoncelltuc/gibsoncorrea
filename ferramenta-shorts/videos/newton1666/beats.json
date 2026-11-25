@@ -320,36 +320,36 @@
    },
    "props": [
     [
-     "kit/globe",
+     "kit/moon",
      0.0,
      -1.0,
-     1.5,
+     1.3,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 0.9
      }
     ],
     [
      "kit/apple",
-     -1.3,
-     -0.4,
-     0.8,
+     -1.0,
+     -0.2,
+     0.7,
      {
       "fixo": true
      }
     ],
     [
-     "kit/moon",
-     1.6,
-     -1.6,
-     0.9,
+     "kit/globe",
+     1.0,
+     -0.3,
+     0.8,
      {
-      "fixo": true,
-      "y": 1.8
+      "fixo": true
      }
     ]
    ],
    "explica": {
-    "objeto": "kit/globe",
+    "objeto": "kit/moon",
     "manobra": "parado",
     "rotulos": [
      [

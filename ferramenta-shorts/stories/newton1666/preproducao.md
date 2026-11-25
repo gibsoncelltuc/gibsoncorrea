@@ -10,7 +10,7 @@ b2 | countryside | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando
 b3 | countryside | group | 2 | conversar, INTERAGEM: vai ate o outro | nature/tree_oak, kit/apple | book | -
 b4 | countryside | wide | 2 | reagir, batalha | nature/tree_oak, kit/apple | - | -
 b5 | countryside | two | 1 | conversar | nature/tree_oak, kit/apple | - | -
-b6 | loc_campo | two | 0 | parados (so fala e pisca) | kit/globe, kit/apple, kit/moon | - | -
+b6 | loc_campo | two | 0 | parados (so fala e pisca) | kit/moon, kit/apple, kit/globe | - | -
 b7 | countryside | two | 11 | encena, batalha | - | book | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | mug | -
 b9 | loc_campo | orbit | 7 | parados (so fala e pisca) | kit/apple | - | -

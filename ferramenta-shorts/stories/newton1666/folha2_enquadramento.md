@@ -48,7 +48,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?"
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/globe no centro, manobra "parado"
+- OBJETO: kit/moon no centro, manobra "parado"
 - PASSOS NA TELA: -
 
 ## b7: "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete."
