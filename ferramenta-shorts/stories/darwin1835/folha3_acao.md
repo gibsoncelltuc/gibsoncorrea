@@ -38,7 +38,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: dust na palavra chegou (7.7s): executa: poeira + som
 - ACAO: chega na palavra chegou (7.7s): executa: entra andando pela lateral
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- kit/navio_fragata CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 <!-- /FISICA -->
 
 ## Cena b2 - 10.8s a 18.5s - 24 palavras - plano wide
@@ -75,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 24.4s a 29.0s - 13 palavras - plano two
+## Cena b4 - 24.4s a 29.0s - 13 palavras - plano group
 > "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -129,7 +128,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 41.6s a 45.5s - 14 palavras - plano two
+## Cena b7 - 41.6s a 45.5s - 14 palavras - plano group
 > "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos."
 
 - LEITURA DA FRASE: sentido FATO
@@ -144,7 +143,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 46.6s a 50.5s - 14 palavras - plano group
+## Cena b8 - 46.6s a 50.5s - 14 palavras - plano two
 > "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."
 
 - LEITURA DA FRASE: sentido FATO

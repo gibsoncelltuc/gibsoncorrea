@@ -108,6 +108,13 @@
   },
   {
    "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
+  },
+  {
+   "tipo": "heroi",
    "item": "finch thick",
    "consultas": [
     "finch thick"

@@ -232,6 +232,7 @@ grep -q "petri_mofo" mkvideo.py && grep -q "tampa=False" blender/objetos_refeito
 grep -q 'M=$(realpath "$3")' frase_a_frase.sh || f "frase_a_frase com caminho relativo do mp4 quebrava (cd para a raiz)"
 grep -q "corrida com commit da sessao" sync_ferramenta.sh || f "sync restaurava beats.json ANTIGO por cima de commit novo da sessao (mendel, B)"
 grep -q "GRANDE na chamada final/close vai para o fundo" mkvideo.py || f "objeto heroi grande (balao) gigante e cortado na chamada final (Montgolfier)"
+grep -q "(r'finch|passarinho|tentilh', 0.35, 'H', 'max')" mkvideo.py || f "passarinho (tentilhao) maior que o Darwin: limite de tamanho real de ave pequena"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

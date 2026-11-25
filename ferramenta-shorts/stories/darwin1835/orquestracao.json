@@ -17,6 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/finch"
    ],
    "palavras": 15,
@@ -56,6 +57,7 @@
    ],
    "multidao": 6,
    "objetos": [
+    "kit/bancada",
     "kit/finch",
     "kit/navio_fragata"
    ],
@@ -94,12 +96,13 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GOU"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/finch"
    ],
    "palavras": 13,
@@ -119,6 +122,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/finch_long",
     "kit/finch_thick"
    ],
@@ -139,6 +143,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/finch",
     "kit/finch_long",
     "kit/finch_thick"
@@ -159,12 +164,13 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "DAR"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/finch_thick"
    ],
    "palavras": 14,
@@ -177,7 +183,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "DAR",
     "GOU"
@@ -200,6 +206,7 @@
    ],
    "multidao": 6,
    "objetos": [
+    "kit/bancada",
     "kit/finch"
    ],
    "palavras": 11,
