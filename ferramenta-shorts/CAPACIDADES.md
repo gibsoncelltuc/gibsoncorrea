@@ -24,7 +24,7 @@ bottle, mug, paper, book, lantern, pitchfork, staff, flag, torch, bag, coin, spy
 adrian, beret, bibico, bicorne, bonnet, boonie, bowler, brodie, cap, colonial, crown, fez, hair, helmet, kepi, m1, pickelhaube, quepe, shako, shako_tall, slouch, stahlhelm, straw, tophat, tricorn, turban, wizard
 
 ## Figurino (campos de "outfits")
-jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
+jacket, pants, boots (obrigatorios) | hat + cap (cor) | hair (cor, com hat: hair) | hairStyle: long|bun | beard (cor) | glasses: true | tie (cor da gravata) | pele (tom de pele) | sash, belt, buttons (cor) | build: stout|lanky|kid (crianca) | rifle: true (soldado). Caricaturas prontas: FIGURINOS_FAMOSOS.md
 
 ## Profissoes prontas ("profissao" no figurino: {"PAD": {"profissao": "padeiro"}} e ajuste as cores se quiser)
 padeiro, agricultor, nobre, politico, empresario, rei, general, soldado, marinheiro, cientista, medico, comerciante, pescador, padre, camponesa, jornalista. Cada personagem ganha barba, bigode ou oculos proprios pelo nome + variante; para fixar: "beard": "#cor" | "moustache": "#cor" | "glasses": true/false. Bandeira na mao: "holdCol" e "holdCol2" no figurino mudam as duas cores.
