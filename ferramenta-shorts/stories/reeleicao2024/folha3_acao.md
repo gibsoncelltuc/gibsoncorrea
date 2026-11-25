@@ -1,124 +1,186 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 21 - A Volta de Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
-> "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca."
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+> "Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (3.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | perdeu (0.7s) | EFEITO: puff | fumaca + som | OK |
-| 2 | perdeu (0.7s) | ACAO: perde | mao na testa | OK |
-| 3 | eleição (1.5s) | ACAO: voto | poe o voto na urna | OK |
-| 4 | voltou (4.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | o outro se aproxima | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | 2024 | OK |
+| 1 | Perdeu (0.0s) | EFEITO: puff | fumaca + som | OK |
+| 2 | perdeu (0.0s) | EFEITO: puff | fumaca + som | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | PERDEU E VOLTOU | OK |
+<!-- FISICA -->
 
-## Cena b1 - 6.7s a 11.1s - 13 palavras - plano wide
-> "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra Perdeu (0.0s): executa: fumaca + som
+- EFEITO: puff na palavra perdeu (0.0s): executa: fumaca + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 3.7s a 7.0s - 10 palavras - plano wide
+> "E isso só tinha acontecido uma vez na história americana."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "história" (6.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 7.4s a 11.1s - 11 palavras - plano wide
+> "Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escolhiam" (9.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.5s a 16.3s - 14 palavras - plano crowd
-> "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | urnas (13.3s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | escolher (13.7s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 3 | - | ATUACAO | conversar | OK |
+## Cena b3 - 11.5s a 13.7s - 7 palavras - plano two
+> "A contagem dos votos entrou pela madrugada."
 
-## Cena b3 - 16.7s a 20.4s - 11 palavras - plano two
-> "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | entrou (17.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-
-## Cena b4 - 20.7s a 27.0s - 18 palavras - plano close
-> "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "contagem" (11.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | venceu (21.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venceu (21.9s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
+
+## Cena b4 - 14.1s a 17.4s - 10 palavras - plano close
+> "Acontece que Trump venceu todos os estados decisivos: 312 votos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "venceu" (15.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | venceu (15.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | 312 VOTOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra venceu (15.2s): executa: estrelinhas + som
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 17.8s a 20.0s - 7 palavras - plano orbit
+> "Os apoiadores comemoraram, e ele declarou vitória."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "comemoraram" (18.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | comemoraram (18.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | vitória (20.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | 312 VOTOS | OK |
+| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | VITÓRIA | OK |
+<!-- FISICA -->
 
-## Cena b5 - 27.4s a 31.9s - 13 palavras - plano crowd
-> "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra comemoraram (18.5s): executa: estrelinhas + som
+- EFEITO: stars na palavra vitória (20.0s): executa: estrelinhas + som
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | comemoraram (28.1s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | comemoraram (28.1s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | subiu (30.0s) | ACAO: escala | escala (bracos para cima) | OK |
-| 4 | declarou (31.5s) | ACAO: fala | aponta explicando | OK |
-| 5 | vitória (31.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 6 | vitória (31.9s) | ACAO: vence | bracos para cima + brilho | OK |
-| 7 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 8 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 9 | - | ATUACAO | comemorar | OK |
-| 10 | - | PLACA | VITÓRIA | OK |
+## Cena b6 - 20.4s a 24.4s - 12 palavras - plano two
+> "Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos."
 
-## Cena b6 - 32.2s a 37.8s - 16 palavras - plano two
-> "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Cleveland" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b7 - 38.1s a 42.2s - 12 palavras - plano two
-> "O primeiro foi Grover Cleveland, há mais de cento e trinta anos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+## Cena b7 - 24.8s a 27.4s - 8 palavras - plano group
+> "Antes foi o presidente 45. Agora, o 47."
 
-## Cena b8 - 42.6s a 48.1s - 16 palavras - plano orbit
-> "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-
-## Cena b9 - 48.5s a 53.7s - 15 palavras - plano group
-> "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "presidente" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | 47º | OK |
+<!-- FISICA -->
 
-## Cena b10 - 54.1s a 57.8s - 11 palavras - plano two
-> "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Perdeu (54.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | Perdeu (54.1s) | ACAO: perde | mao na testa | OK |
-| 3 | voltou (54.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 4 | ganhou (55.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | ganhou (55.2s) | ACAO: vence | bracos para cima + brilho | OK |
-| 6 | - | ATUACAO | comemorar | OK |
+## Cena b8 - 27.8s a 31.1s - 10 palavras - plano two
+> "Perdeu, voltou e ganhou. Uma das maiores viradas da política."
 
-## Cena b11 - 58.1s a 62.6s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "virada" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | Perdeu (27.8s) | EFEITO: puff | fumaca + som | OK |
+| 2 | ganhou (28.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | INTERACAO | vai ate o outro | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | PERDEU E VOLTOU | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra Perdeu (27.8s): executa: fumaca + som
+- EFEITO: stars na palavra ganhou (28.9s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

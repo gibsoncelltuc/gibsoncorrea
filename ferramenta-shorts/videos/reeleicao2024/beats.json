@@ -70,36 +70,48 @@
      }
     ]
    ],
-   "text": "2024",
+   "text": "PERDEU E VOLTOU",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois, voltou para a Casa Branca.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/white_house",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "POV:0:grin"
+   ],
+   "acao": "conversar",
+   "bloco": "promessa",
+   "say": "E isso só tinha acontecido uma vez na história americana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "história"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -119,72 +131,26 @@
      }
     ]
    ],
-   "say": "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.",
    "fachada": false,
    "crowd": {
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/white_house",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "ELE:0:grin",
-    "POV:0:suspicious"
-   ],
-   "props": [
-    [
-     "kit/ballot_box",
-     0.0,
-     -1.2,
-     1.1,
+   "d1": 20.0,
+   "bloco": "prova",
+   "say": "Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "escolhiam"
      }
     ]
-   ],
-   "acao": "conversar",
-   "say": "Milhões de americanos foram às urnas escolher entre Trump e a vice-presidente Kamala Harris.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "ELE",
-     "POV"
-    ],
-    "march": false
    }
   },
   {
@@ -195,7 +161,17 @@
     "TRU:0:stern"
    ],
    "acao": "discutir",
-   "say": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
+   "bloco": "prova",
+   "say": "A contagem dos votos entrou pela madrugada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "contagem"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -211,8 +187,18 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
-   "text": "312 VOTOS"
+   "text": "312 VOTOS",
+   "bloco": "escalada",
+   "say": "Acontece que Trump venceu todos os estados decisivos: 312 votos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "venceu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -251,36 +237,25 @@
    ],
    "text": "VITÓRIA",
    "titulo": true,
-   "say": "Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e declarou vitória.",
    "set": "hall",
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/white_house",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:surprised:paper",
-    "POV:0:grin"
-   ],
-   "acao": "conversar",
-   "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Os apoiadores comemoraram, e ele declarou vitória.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comemoraram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -306,64 +281,21 @@
    "sfx": [
     "thump@30"
    ],
-   "say": "O primeiro foi Grover Cleveland, há mais de cento e trinta anos.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/scroll",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "TRU:0:grin"
-   ],
-   "props": [
-    [
-     "kit/white_house",
-     0.0,
-     -10.0,
-     1.4,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "Cleveland"
      }
     ]
-   ],
-   "interacao": "entregar",
-   "say": "Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de novo.",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/white_house",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -394,61 +326,73 @@
    ],
    "text": "47º",
    "titulo": true,
-   "say": "Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quarenta e sete.",
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/white_house",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "bloco": "pagamento",
+   "say": "Antes foi o presidente 45. Agora, o 47.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "presidente"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "TRU:0:smile"
+    "TRU:0:smug",
+    "REP:0:surprised:paper"
    ],
    "props": [
     [
      "kit/ballot_box",
-     2.4,
-     0.2,
-     1.1,
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/white_house",
+     7.0,
+     -14.5,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
-   "acao": "comemorar",
-   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política americana.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
-    "objetos": [
+   "text": "2024",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Perdeu, voltou e ganhou. Uma das maiores viradas da política.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "virada"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "fontes": [
@@ -456,7 +400,6 @@
   "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
   "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
  ],
- "max_wide": 4,
  "visual": {
   "local": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse",
   "quando": "5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio",
@@ -488,5 +431,8 @@
   "buscas": {
    "vitoria": "Trump victory speech Palm Beach November 2024"
   }
- }
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: quem perde a eleicao nao volta, mas Trump voltou, algo que so aconteceu uma vez antes. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos e virou o 2o presidente com mandatos separados, depois de Grover Cleveland.",
+ "loop_frase_ok": true
 }

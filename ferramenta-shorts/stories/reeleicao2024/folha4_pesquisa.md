@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Volta de Trump
 - Epoca: 2024 | Lugar: Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse | Quando: 5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio
 - HEROIS (objeto): kit/ballot_box, kit/white_house
-- HEROIS (personagens): TRU, REP
-- Cenarios: hall, interior galpao, interior loja, interior madeira, interior pedra, loc_cidade, loc_pista
+- HEROIS (personagens): REP, TRU
+- Cenarios: hall, interior loja, interior madeira, loc_cidade, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Volta de Trump | A Volta de Trump / Donald Trump Quatro Casa Branca Foi Estados Unidos Milhões Trump Kamala Harris 2024 | SEM REFERENCIA
+tema | A Volta de Trump | A Volta de Trump / Perdeu Trump Em Trump Kamala Harris 2024 | SEM REFERENCIA
 lugar | Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi | Estados Unidos / Estados Unidos 2024 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2024 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2024 | 2024 fashion clothing / 2024 street photograph | SEM REFERENCIA

@@ -2,17 +2,15 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | comprando (stars + som de sino); encena: chega (point) @2 (acao + som de efeito); encena: pega (lift) @3 (acao + som de efeito); encena: paga (reach) @10 (acao + som de efeito) | -
-b1 | two | -  | interior, mapa | - | -
-b2 | close | -  | interior | encena: tira (lift) @1 (acao + som de efeito); encena: chega (point) @4 (acao + som de efeito); encena: x_fone (lift) @11 (acao + som de efeito) | -
-b3 | two | -  | interior, placa: LET THAT SINK IN | encena: chega (point) @3 (acao + som de efeito); encena: desaba @10 (acao + som de efeito) | -
+b0 | two | -  | placa: LET THAT SINK IN | comprando (stars + som de sino) | -
+b1 | wide | -  | batalha aberta com tiros, tropa | - | -
+b2 | two | -  | interior, mapa | - | -
+b3 | two | -  | interior, placa: LET THAT SINK IN | - | -
 b4 | two | -  | tropa | - | -
-b5 | two | -  | batalha aberta com tiros, interior | encena: x_abre (push) @6 (acao + som de efeito); encena: negocio (reach) @8 (acao + som de efeito) | -
+b5 | two | -  | batalha aberta com tiros, interior | - | -
 b6 | two | -  | interior | - | -
-b7 | two | -  | interior, placa: CHIEF TWIT | encena: escreve (write) @6 (acao + som de efeito) | -
-b8 | wide | -  | batalha aberta com tiros, tropa | - | -
-b9 | orbit | -  | tropa | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b7 | two | -  | interior, placa: CHIEF TWIT | - | -
+b8 | two | -  | placa: LET THAT SINK IN | - | -
 
-Mistura de planos: close 18% | medio 67% | aberto 10% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 3% | medio 90% | aberto 4% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 1 | AVISOS: menos de 2 planos abertos; quase sem close (ponha "shot": "close" numa fala ou reacao)

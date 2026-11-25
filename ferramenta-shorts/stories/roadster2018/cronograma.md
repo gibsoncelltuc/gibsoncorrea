@@ -1,22 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:05 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | arctic | two | MUS | - | roadster | - | Um carro de verdade está dando voltas ao redor do Sol até hoje.
-b1 | transicao | loc_pista | wide | MUS | - | roadster | - | É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoi
-b2 | transicao | loc_pista | wide | MUS | - | rocket | - | Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em C
-b3 | simples | interior loja | two | ENG | - | roadster | - | Acontece que era só um teste, e em vez de um peso de concreto, Musk re
+b0 | simples | arctic | two | MUS | - | roadster | - | Ninguém te conta: um carro de verdade gira em volta do Sol.
+b1 | simples | interior loja | two | STA | - | roadster | - | E o motorista dele não respira.
+b2 | transicao | loc_pista | wide | MUS | - | rocket | - | Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.
+b3 | simples | interior loja | two | ENG | - | roadster | - | Para o teste, em vez de concreto, Musk mandou o próprio carro.
 b4 | chave | loc_pista | wide | ENG | - | falcon_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O foguete decolou com um estrondo!
-b5 | simples | interior loja | two | STA | - | roadster | - | No banco do motorista foi sentado um boneco de astronauta, chamado Sta
-b6 | simples | arctic | orbit | STA | - | roadster | - | No painel, estava escrito: Não entre em pânico.
-b7 | explicativa | arctic | two | sem personagem | - | globe, roadster | corpo: kit/roadster (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som e | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,
-b8 | chave | arctic | wide | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
-b9 | simples | loc_pista | two | MUS | - | roadster, rocket | - | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
-b10 | simples | loc_pista | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b5 | simples | interior loja | two | STA | - | roadster | - | Acontece que no volante ia um boneco astronauta, o Starman.
+b6 | simples | arctic | group | STA | - | roadster | - | No painel, um aviso: não entre em pânico.
+b7 | explicativa | arctic | two | sem personagem | - | globe, roadster | corpo: kit/roadster (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som e | O carro deixou a Terra e foi girar em torno do Sol.
+b8 | transicao | arctic | wide | MUS | - | roadster | - | E continua lá em cima, dando voltas, até hoje.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
