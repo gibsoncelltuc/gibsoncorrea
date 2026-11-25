@@ -1,29 +1,28 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Gerado em 25/11 05:15 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:54 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | ERA, BIB | - | globe, marco_alexandria, stick | - | Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela
-b1 | transicao | loc_campo | reveal | BIB, POV | 8 | apartment, house_two, marco_alexandria, lamppost | - | Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes er
-b2 | simples | loc_montanha | two | ERA, BIB | - | well, tree_palm, bucket | - | Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav
-b3 | chave | loc_montanha | wide | ERA, CAM | - | well, tree_palm | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso significava que o sol estava bem em cima, e nada fazia sombra.
-b4 | explicativa | loc_estudio | two | sem personagem | - | marco_alexandria, stick, tree_palm | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra
-b5 | simples | loc_campo | two | ERA | - | stick, tree_palm | - | Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
-b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a sombra era diferente, e isso só podia acontecer se a Te
-b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades
-b8 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Com uma conta simples, encontrou um número muito perto do tamanho real
-b9 | simples | loc_campo | orbit | ERA | - | marco_alexandria, starlink_sat, stick, well, bucket | - | No fim, uma vara e um poço fizeram o trabalho de um satélite.
-b10 | simples | loc_campo | close | ERA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_campo | two | ERA, BIB | - | globe, marco_alexandria, stick | - | Ninguém te conta: um homem mediu o planeta com uma vara.
+b1 | simples | loc_campo | wide | ERA | - | marco_alexandria, starlink_sat, stick, well | - | E chegou muito perto do número certo, sem satélite.
+b2 | transicao | loc_campo | reveal | BIB, POV | 8 | marco_alexandria | - | Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexand
+b3 | chave | loc_montanha | wide | ERA, BIB | - | well, tree_palm, bucket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.
+b4 | simples | loc_montanha | two | ERA, CAM | - | well, tree_palm | - | Ou seja: lá, ao meio-dia, nada fazia sombra.
+b5 | explicativa | loc_estudio | two | sem personagem | - | marco_alexandria, stick, tree_palm | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Em Alexandria, no mesmo dia, uma vara fazia sombra.
+b6 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que isso só acontece se a Terra for curva.
+b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Ele mediu o ângulo da sombra e a distância entre as cidades.
+b8 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/stick (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Com uma conta simples, achou quase o tamanho real da Terra.
+b9 | simples | loc_campo | two | ERA, BIB | - | starlink_sat, stick, bucket | - | Uma vara e um poço fizeram o trabalho de um satélite.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/16 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/17 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | PENDENTE | 

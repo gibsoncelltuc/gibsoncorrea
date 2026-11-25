@@ -11,35 +11,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao shock; ESP na direita, expressao smug; sem multidao; acao: discutir
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "ORELHA = GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b1 - E o dono dela levou a orelha até o Parlamento.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
+- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug) | multidao: 12 de ESP/JEN
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, orelha, parlamento
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b2 - Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.
 - Cenario: harbor | luz: day | clima: limpo
@@ -50,19 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cuba, navio, robert
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: JEN no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- MAPA: CUBA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (7.0-8.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (8.5-10.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (10.0-11.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b3 - O capitão espanhol cortou a orelha dele com a espada.
 - Cenario: street | luz: day | clima: limpo
@@ -73,17 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, espada, orelha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: CAP (capitao) na esquerda, expressao angry; JEN na direita, expressao scared; sem multidao; acao: golpe
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- SOM: whoosh@70
-- TAKES: sequencia de acao em 3 cameras (2.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b4 - "Leve isso ao seu rei", teria dito o espanhol.
 - Cenario: harbor | luz: day | clima: limpo
@@ -94,15 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: CAP (capitao) na esquerda, expressao smug; JEN na direita, expressao pained; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b5 - Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -113,18 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: PRE na esquerda, expressao angry, segura paper; JEN no centro, expressao sad; ING na direita, expressao angry; PRE no fundo, expressao shout; sem multidao; acao: susto
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "PARLAMENTO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (19.5-21.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (21.1-22.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b6 - Acontece que a Inglaterra só queria uma desculpa para brigar.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -135,15 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desculpa, inglaterra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE na esquerda, expressao smug; ING na direita, expressao suspicious; sem multidao; acao: cochichar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b7 - Em 1739, navios ingleses atacaram portos espanhóis no Caribe.
 - Cenario: harbor | luz: day | clima: limpo
@@ -154,20 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: SOL no centro, expressao angry; multidao de 20 (SOL) marchando ATRAS dos principais; acao: batalha
-- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +80 da cena
-- SOM: cannon@50
-- SOM: cannon@80
-- TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b8 - Foram quase dez anos de guerra por causa de uma orelha.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -178,15 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: ESP na esquerda, expressao relief, segura paper; ING na direita, expressao relief; sem multidao; acao: entregar
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b9 - E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta...
 - Cenario: harbor | luz: day | clima: limpo
@@ -218,15 +122,3 @@ ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh jenkins1739` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao shock; ESP na direita, expressao smug; sem multidao; acao: discutir
-- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (36.8-38.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (38.8-40.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-

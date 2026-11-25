@@ -7,7 +7,7 @@
 - Roupas: {'FRA': 'casaca marrom do seculo 18, colete e meias', 'FIL': 'casaca azul de rapaz', 'COM': 'chapeu de tres pontas', 'POV': 'roupas coloniais'}
 - Cenario real: campo com nuvens escuras e chuva, galpao de madeira; rua colonial de tijolo com casas georgianas
 - Objetos: ['pipa de seda', 'chave de metal', 'garrafa de Leyden', 'para-raios']
-- Cenarios usados no video: countryside, interior loja, interior madeira, interior pedra, street
+- Cenarios usados no video: countryside, interior madeira, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

@@ -12,7 +12,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E o dono dela levou a orelha até o Parlamento."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; multidao de 12 (ESP, JEN) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b2: "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins."

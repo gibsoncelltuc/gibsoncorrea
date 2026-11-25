@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 105 palavras (~36 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.
+## Cena b0  (~3.8 s)
+- Narracao: Ninguém te conta: um homem mediu o planeta com uma vara.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @5 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: UMA VARA = O PLANETA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.2 s)
-- Narracao: Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.
+## Cena b1  (~3.1 s)
+- Narracao: E chegou muito perto do número certo, sem satélite.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~4.1 s)
+- Narracao: Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,17 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: EGITO
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.6 s)
-- Narracao: Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~4.5 s)
-- Narracao: Isso significava que o sol estava bem em cima, e nada fazia sombra.
+## Cena b3  (~4.1 s)
+- Narracao: Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~4.8 s)
-- Narracao: Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.
+## Cena b4  (~2.8 s)
+- Narracao: Ou seja: lá, ao meio-dia, nada fazia sombra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,17 +47,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.1 s)
-- Narracao: Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
+## Cena b5  (~3.1 s)
+- Narracao: Em Alexandria, no mesmo dia, uma vara fazia sombra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~5.5 s)
-- Narracao: Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.
+## Cena b6  (~3.4 s)
+- Narracao: Acontece que isso só acontece se a Terra for curva.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~4.8 s)
-- Narracao: Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.
+## Cena b7  (~4.1 s)
+- Narracao: Ele mediu o ângulo da sombra e a distância entre as cidades.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
-- Narracao: Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.
+## Cena b8  (~3.8 s)
+- Narracao: Com uma conta simples, achou quase o tamanho real da Terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,21 +83,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
-- Narracao: No fim, uma vara e um poço fizeram o trabalho de um satélite.
+## Cena b9  (~3.8 s)
+- Narracao: Uma vara e um poço fizeram o trabalho de um satélite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: UMA VARA = O PLANETA
 - Funcao na historia: FECHO/PIADA FINAL
 

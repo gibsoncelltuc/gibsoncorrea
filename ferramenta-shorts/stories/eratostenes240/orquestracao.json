@@ -1,6 +1,6 @@
 {
  "id": "eratostenes240",
- "ano": null,
+ "ano": 2000,
  "cenarios_trocados": [
   [
    "video",
@@ -8,17 +8,7 @@
    "loc_campo"
   ],
   [
-   "cena 6",
-   "medieval",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "medieval",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
+   "cena 2",
    "medieval",
    "loc_campo"
   ]
@@ -42,9 +32,30 @@
     "kit/marco_alexandria",
     "kit/stick"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela.",
+   "frase": "Ninguém te conta: um homem mediu o planeta com uma vara.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ERA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alexandria",
+    "kit/starlink_sat",
+    "kit/stick",
+    "kit/well"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E chegou muito perto do número certo, sem satélite.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,14 +70,11 @@
    ],
    "multidao": 8,
    "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/marco_alexandria",
-    "nature/lamppost"
+    "kit/marco_alexandria"
    ],
-   "palavras": 21,
-   "cena": "b1",
-   "frase": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,7 +82,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ERA",
     "BIB"
@@ -85,29 +93,9 @@
     "nature/tree_palm",
     "tools/bucket"
    ],
-   "palavras": 19,
-   "cena": "b2",
-   "frase": "Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "ERA",
-    "CAM"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/well",
-    "nature/tree_palm"
-   ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
+   "frase": "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -122,6 +110,26 @@
   },
   {
    "camera": "two",
+   "personagens": [
+    "ERA",
+    "CAM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/well",
+    "nature/tree_palm"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Ou seja: lá, ao meio-dia, nada fazia sombra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [
@@ -129,9 +137,9 @@
     "kit/stick",
     "nature/tree_palm"
    ],
-   "palavras": 14,
-   "cena": "b4",
-   "frase": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -146,31 +154,12 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "ERA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/stick",
-    "nature/tree_palm"
-   ],
-   "palavras": 12,
-   "cena": "b5",
-   "frase": "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
+   "frase": "Acontece que isso só acontece se a Terra for curva.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -188,9 +177,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b7",
-   "frase": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
+   "frase": "Ele mediu o ângulo da sombra e a distância entre as cidades.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -208,9 +197,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
+   "frase": "Com uma conta simples, achou quase o tamanho real da Terra.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -224,37 +213,20 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
-    "ERA"
+    "ERA",
+    "BIB"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_alexandria",
     "kit/starlink_sat",
     "kit/stick",
-    "kit/well",
     "tools/bucket"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b9",
-   "frase": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ERA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Uma vara e um poço fizeram o trabalho de um satélite.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

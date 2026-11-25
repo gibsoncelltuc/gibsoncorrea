@@ -1,33 +1,52 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
-> "Um homem mediu o tamanho do planeta usando só uma vara e a sombra dela."
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Ninguém te conta: um homem mediu o planeta com uma vara."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ERA acao do motor: examina | na palavra "mediu" (0.7s)
+  1) ERA acao do motor: examina | na palavra "mediu" (1.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mediu (0.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | mediu (1.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | UMA VARA = O PLANETA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra mediu (0.7s): executa: examina com lupa/microscopio/balanca
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- ACAO: examina na palavra mediu (1.9s): executa: examina com lupa/microscopio/balanca
+- INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.6s a 13.0s - 21 palavras - plano reveal
-> "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito."
+## Cena b1 - 4.1s a 7.0s - 9 palavras - plano wide
+> "E chegou muito perto do número certo, sem satélite."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Alexandria" (12.2s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "número" (5.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | chegou (4.4s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra chegou (4.4s): executa: poeira + som
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b2 - 7.4s a 11.5s - 12 palavras - plano reveal
+> "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Eratóstenes" (9.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -39,72 +58,55 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b2 - 13.3s a 20.0s - 19 palavras - plano two
-> "Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminava o fundo de um poço."
+## Cena b3 - 11.9s a 15.9s - 12 palavras - plano wide
+> "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ERA acao do motor: le | na palavra "leu" (13.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | leu (13.7s) | ACAO: x_le | le o papel | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_le na palavra leu (13.7s): executa: le o papel
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b3 - 20.4s a 24.8s - 13 palavras - plano wide
-> "Isso significava que o sol estava bem em cima, e nada fazia sombra."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "significava" (20.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "iluminava" (14.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
-
-## Cena b4 - 25.2s a 30.0s - 14 palavras - plano two
-> "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fincada" (27.8s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b5 - 30.4s a 34.4s - 12 palavras - plano two
-> "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais."
-
-- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) ERA mao no queixo, pensando | na palavra "pensou" (30.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | pensou (30.7s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pensa na palavra pensou (30.7s): executa: mao no queixo + brilho de ideia
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 34.8s a 40.4s - 16 palavras - plano two
-> "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva."
+## Cena b4 - 16.3s a 18.9s - 8 palavras - plano two
+> "Ou seja: lá, ao meio-dia, nada fazia sombra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "diferente" (36.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sombra" (18.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b5 - 19.3s a 22.2s - 9 palavras - plano two
+> "Em Alexandria, no mesmo dia, uma vara fazia sombra."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vara" (21.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b6 - 22.6s a 25.9s - 10 palavras - plano two
+> "Acontece que isso só acontece se a Terra for curva."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "curva" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -115,51 +117,41 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 40.7s a 45.6s - 14 palavras - plano two
-> "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
+## Cena b7 - 26.3s a 30.4s - 12 palavras - plano two
+> "Ele mediu o ângulo da sombra e a distância entre as cidades."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ângulo" (41.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ângulo" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 45.9s a 50.7s - 14 palavras - plano two
-> "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
+## Cena b8 - 30.7s a 34.4s - 11 palavras - plano two
+> "Com uma conta simples, achou quase o tamanho real da Terra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto olha/aponta para o alvo | na palavra "encontrou" (47.4s)
+  1) objeto olha/aponta para o alvo | na palavra "conta" (31.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 51.1s a 55.6s - 13 palavras - plano orbit
-> "No fim, uma vara e um poço fizeram o trabalho de um satélite."
+## Cena b9 - 34.8s a 38.5s - 11 palavras - plano two
+> "Uma vara e um poço fizeram o trabalho de um satélite."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "poço" (53.3s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b10 - 55.9s a 60.4s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vara" (35.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | UMA VARA = O PLANETA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

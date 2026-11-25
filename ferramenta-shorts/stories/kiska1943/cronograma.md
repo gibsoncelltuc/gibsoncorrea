@@ -1,24 +1,22 @@
 # CRONOGRAMA - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
-Gerado em 25/11 15:40 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:55 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | USA, CAN | 24 | ship | - | Trinta e quatro mil soldados invadiram uma ilha onde não havia inimigo
-b1 | simples | arctic | group | USA, CAN, USA | - | navio_vapor, airplane | - | Era agosto de mil novecentos e quarenta e três. A ilha de Kiska, no Al
-b2 | simples | harbor | reveal | USA, CAN | - | aviao_ww2, tanque_ww2, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Americanos e canadenses chegaram com navios, aviões e tanques.
-b3 | chave | arctic | crowd | USA | 48 | aviao_ww2, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes do desembarque, bombardearam Kiska durante semanas.
-b4 | chave | arctic | orbit | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No meio do nevoeiro, os soldados desceram em silêncio, prontos para um
-b5 | simples | interior pedra | two | USA, CAN | - | - | - | Mas teve um problema: os japoneses já tinham ido embora.
-b6 | simples | arctic | track | USA, CAN | - | sandbags | - | Eles procuraram o inimigo por dias, em trincheiras vazias.
-b7 | transicao | harbor | wide | sem personagem | - | navios de guerra ao fundo, no tamanho real, ship | - | Semanas antes, navios japoneses levaram cinco mil homens embora em men
-b8 | simples | arctic | group | USA, CAN, USA | - | - | - | Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no 
-b9 | simples | harbor | crowd | USA, CAN | 48 | navio_encouracado, navios de guerra ao fundo, no tamanho real | - | Mais de vinte soldados morreram nesses tiros, e um navio americano ain
-b10 | simples | harbor | prop | USA, CAN | - | dog_sit | - | No fim, só acharam na ilha alguns cachorros abandonados.
-b11 | simples | harbor | two | OFF, USA | - | dog_sit | - | Uma das maiores invasões do Pacífico Norte tomou uma ilha completament
-b12 | simples | harbor | close | USA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | harbor | wide | USA, CAN | 32 | ship | - | Trinta e quatro mil soldados desembarcaram numa ilha. Não tinha inimig
+b1 | simples | harbor | crowd | OFF, USA | 32 | dog_sit | - | E mesmo assim, houve mortos nessa invasão.
+b2 | simples | arctic | group | USA, CAN, USA | - | navio_vapor, airplane | - | Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.
+b3 | simples | harbor | reveal | USA, CAN | - | aviao_ww2, tanque_ww2, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Americanos e canadenses chegaram com navios, aviões e tanques.
+b4 | chave | harbor | wide | USA | 48 | aviao_ww2, canhao_moderno | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Antes de desembarcar, bombardearam a ilha por semanas.
+b5 | simples | interior pedra | two | USA, CAN | - | - | - | Acontece que os japoneses já tinham ido embora.
+b6 | transicao | harbor | wide | sem personagem | - | ship | - | Saíram escondidos na neblina, semanas antes.
+b7 | chave | arctic | crowd | USA, CAN, USA | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No nevoeiro, os Aliados atiraram uns nos outros.
+b8 | simples | harbor | group | USA, CAN | 12 | navio_encouracado | - | Mais de vinte soldados morreram, e um navio bateu numa mina.
+b9 | simples | harbor | prop | USA, CAN | - | dog_sit | - | Na ilha inteira, só acharam alguns cachorros abandonados.
+b10 | transicao | harbor | wide | USA, CAN | 32 | ship | - | Um desembarque gigante contra uma ilha vazia.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

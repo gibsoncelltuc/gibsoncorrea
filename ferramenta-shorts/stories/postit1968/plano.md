@@ -2,18 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | encena: quimico (pour) @1 (acao + som de efeito) | -
-b1 | two | -  | interior, mapa, objeto na mao | - | -
-b2 | two | -  | interior, objeto na mao | encena: quimico (point) @3 (acao + som de efeito) | -
-b3 | group | -  | interior, objeto na mao | - | -
-b4 | two | -  | interior, objeto na mao | encena: fala (point) @7 (acao + som de efeito) | -
-b5 | group | -  | tropa, interior | encena: x_canta (up) @9 (acao + som de efeito) | -
-b6 | two | -  | interior, objeto na mao | encena: desaba @7 (acao + som de efeito) | -
-b7 | wide | -  | batalha aberta com tiros, tropa | encena: pensa (think) @3 (acao + som de efeito) | -
+b0 | two | -  | placa: COLA QUE FALHOU | - | -
+b1 | wide | -  | batalha aberta com tiros, placa: 1980 | - | -
+b2 | two | -  | interior, mapa, objeto na mao | - | -
+b3 | two | -  | interior, objeto na mao | - | -
+b4 | group | -  | interior, objeto na mao | - | -
+b5 | group | -  | tropa, interior | - | -
+b6 | two | -  | interior, objeto na mao | encena: desaba @8 (acao + som de efeito) | -
+b7 | orbit | -  | batalha aberta com tiros | - | -
 b8 | two | -  | tropa | - | -
-b9 | group | -  | batalha aberta com tiros, tropa, placa: POST-IT | encena: x_entrega (reach) @1 (acao + som de efeito) | -
-b10 | orbit | -  | tropa, placa: 1980 | chegou (dust + som de impacto) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b9 | wide | -  | tropa, placa: 1980 | chegou (dust + som de impacto) | -
+b10 | two | -  | placa: COLA QUE FALHOU | - | -
 
-Mistura de planos: close 10% | medio 77% | aberto 13% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 79% | aberto 16% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
