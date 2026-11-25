@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): ETI, JOS
 - Cenarios: interior madeira, loc_campo, loc_patio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 4.5: pequeno demais); nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
+- Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 4.5: pequeno demais)
 
 ## Itens pesquisados
 

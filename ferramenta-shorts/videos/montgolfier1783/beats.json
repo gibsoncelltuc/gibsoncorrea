@@ -220,8 +220,8 @@
     [
      "kit/fire",
      0.0,
-     -7.6,
-     0.8,
+     -6.0,
+     2.5,
      {
       "fixo": true
      }
@@ -292,25 +292,25 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "JOS:0:smile"
    ],
    "animals": [
     [
      "sheep",
-     -0.45,
-     -3.9
+     -0.5,
+     -0.5
     ],
     [
      "duck",
-     0.45,
-     -4.0
+     0.5,
+     -0.6
     ],
     [
      "rooster",
      0.0,
-     -4.4
+     -1.0
     ]
    ],
    "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
@@ -318,7 +318,7 @@
     [
      "kit/balloon",
      0.0,
-     -4.0,
+     -0.6,
      4.5,
      {
       "fixo": true
@@ -329,7 +329,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -353,10 +353,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 1.4,
-   "d0": 9.0,
-   "d1": 8.0,
+   "cz": -0.5,
+   "h": 2.5,
+   "d0": 12.0,
+   "d1": 11.0,
    "quadro_manual": true
   },
   {
@@ -545,7 +545,8 @@
    "h": 1.8,
    "d0": 9.0,
    "d1": 8.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "shot": "wide",
@@ -560,13 +561,12 @@
    },
    "props": [
     [
-     "kit/balloon_air",
+     "kit/balloon",
      0.0,
-     -0.9,
+     -0.6,
      4.5,
      {
-      "fixo": true,
-      "y": 0.4
+      "fixo": true
      }
     ]
    ],
@@ -607,10 +607,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.9,
+   "cz": -0.6,
    "h": 4.5,
-   "d0": 16.0,
-   "d1": 15.0,
+   "d0": 18.0,
+   "d1": 16.0,
    "quadro_manual": true,
    "objetos": false
   },
@@ -699,7 +699,7 @@
    "_cta": true,
    "detalhe": false,
    "mapa": null,
-   "set": "loc_patio",
+   "set": "street",
    "objetos": false,
    "fachada": false,
    "crowd": {

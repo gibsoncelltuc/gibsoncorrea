@@ -10,7 +10,7 @@ b3 [fato] "Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 b4 [negativa] "Só que ninguém sabia se dava para respirar lá em cima."
     - mostra quem=- alvo=- na="respirar"
 b5 [afirmativa] "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta."
-    - chega quem=0 alvo=- na="entraram"
+    - mostra quem=- alvo=- na="cesta"
 b6 [afirmativa] "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão."
     - olha quem=0 alvo=- na="assistiram"
 b7 [fato] "Acontece que o balão levantou voo de verdade, com os bichos dentro."

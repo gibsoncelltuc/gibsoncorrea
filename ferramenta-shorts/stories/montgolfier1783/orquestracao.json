@@ -136,26 +136,25 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "JOS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
-    "kit/marco_versalhes"
+    "kit/balloon"
    ],
    "palavras": 16,
    "cena": "b5",
    "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "REI",
     "RAI"
@@ -206,48 +205,39 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
-    "nature/bush",
-    "nature/tree_oak",
-    "nature/tree_pine"
+    "kit/balloon"
    ],
    "palavras": 21,
    "cena": "b8",
    "frase": "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu.",
-   "classe": "chave",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "camera segue o objeto",
-    "som": "som na palavra da acao"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "POV",
     "POV"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon_air",
+    "kit/balloon",
     "kit/marco_versalhes"
    ],
    "palavras": 12,
    "cena": "b9",
    "frase": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ETI"
    ],
@@ -259,7 +249,7 @@
    "palavras": 6,
    "cena": "b10",
    "frase": "Tudo graças a três bichos corajosos.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -281,7 +271,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "street"
   }
  ]
 }

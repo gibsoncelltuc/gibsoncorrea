@@ -1,1 +1,7 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (20 tomadas)
+VISIBILIDADE: 6 FALHA(S)
+FALHA b3: objeto citado "kit/fire" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b8: objeto citado "kit/balloon" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b5: animal citado aparece pequeno demais no take 1 (media 12% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
+FALHA b3: objeto "kit/fire" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30%
