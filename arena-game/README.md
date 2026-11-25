@@ -15,7 +15,16 @@ npm test             # 9 testes da economia
 
 Controles: **WASD** mover · **Espaço**/clique atacar · **Q/E** ou botão direito + arrastar para girar a câmera ·
 roda do mouse zoom · **Shift** correr · **1–5** habilidades · **B** Loja · **I** Inventário · **K** Habilidades ·
-**M** Mercado · **T** Troca · **O** Torneios · **H** Ajuda.
+**M** Mercado · **T** Troca · **O** Torneios · **H** Ajuda · **P** alterna gráficos alto/desempenho.
+
+## Visual
+
+Tudo é gerado por código (sem baixar modelos): sombreamento estilo desenho animado com contorno, personagem
+estilizado (cabeça grande, olhos com brilho, cabelo que varia por jogador, botas, capa, armadura) que muda com o
+equipamento, inimigos animados, céu com degradê, nuvens, montanhas, lago, árvores, grama ao vento, flores,
+arena de pedra com plataforma de runas brilhantes, tochas com luz, bandeiras, partículas e brilho (bloom).
+Se o computador for lento, o jogo cai sozinho para o modo desempenho (tecla **P** alterna).
+Arquivos: `public/visuals.js` (aparência) e `public/game.js` (jogabilidade). Veja `docs/`.
 
 ## O que tem
 
