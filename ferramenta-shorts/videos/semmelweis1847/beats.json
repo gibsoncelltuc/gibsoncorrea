@@ -370,8 +370,8 @@
      },
      {
       "objeto": "kit/bisturi",
-      "lugar": "FRENTE, esquerda",
-      "tela": "1% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
