@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: O Caderno que Ainda Brilha
 - Epoca: 1898 | Lugar: Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje | Quando: 1898 (descoberta do polonio e do radio); Nobel de 1903 e 1911; morte em 1934; hoje
 - HEROIS (objeto): kit/curie_box
-- HEROIS (personagens): MAR, PRO
+- HEROIS (personagens): MAR, PIE
 - Cenarios: interior galpao, interior pedra, street
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste

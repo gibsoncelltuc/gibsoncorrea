@@ -1,14 +1,14 @@
-# Revisao do storyboard - goodyear1839 (25/11, olhado quadro a quadro, 4a versao)
-b0: OK - inventor falido na cozinha deixou cair a gosma no fogao de ferro, fogao e gosma visiveis, ninguem cortado, sem data no gancho
-b1: OK - mapa dos Estados Unidos e vila americana de mil oitocentos e trinta e nove
-b2: OK - explicacao: borracha com DERRETE NO CALOR e RACHA NO FRIO (botas e capas viravam meleca no verao)
-b3: OK - Charles Goodyear obcecado com a esposa, frasco e tubos das experiencias na cozinha de casa, dinheiro da familia
-b4: OK - dividas e prisao: guarda de farda e Goodyear triste na cela
-b5: OK - mexendo na mistura de borracha com enxofre perto do fogao, ele se atrapalhou
-b6: OK - a gosma caiu em cima do fogao quente, ele esperava que derretesse
-b7: OK - nao derreteu, ficou firme e elastica como couro: borracha vulcanizada, ele comemora ao lado do fogao
-b8: OK - outros copiaram a ideia na rua e ele morreu cheio de dividas
-b9: OK - decadas depois: povo com pneus e bola de couro, PNEUS na tela (pneus, bolas e sapatos do mundo inteiro)
-b10: OK - fabrica de pneus com operarios, pilha de pneus e placa GOODYEAR (ganhou o nome dele, ele nunca soube)
-pesquisa: comparativo modelo x referencia conferido (referencias/goodyear1839/comparativo_ok.md): bola de couro do seculo 19 modelada, fogao de ferro, gosma, borracha
-defeitos procurados: cenario (cozinha, prisao, rua, fabrica) OK; epoca (bola de couro, sem objeto moderno) OK; tamanho (fogao e gosma em escala) OK; cortado (ninguem cortado) OK; multidao (so na rua e no PNEUS) OK; legenda (rotulos e placas nao cobrem a legenda) OK; acao (cair, mexer, comemorar) OK; objeto (fogao, gosma, borracha, pneus visiveis quando citados) OK
+b0: OK - inventor falido na cozinha ao lado do fogao, a gosma caindo no fogao da cozinha
+b1: OK - mil oitocentos e trinta e nove nos Estados Unidos: rua de cidade americana e mapa dos Estados Unidos
+b2: OK - explicacao da borracha: DERRETE NO CALOR com fogo e RACHA NO FRIO, botas viravam meleca
+b3: OK - Charles Goodyear obcecado nas experiencias com frasco e tubos na cozinha, a esposa ao lado
+b4: OK - dividas e prisao: Goodyear com o guarda de farda na sala de pedra da prisao
+b5: OK - mexendo na mistura de borracha com enxofre ao lado do fogao, se atrapalhou
+b6: OK - a gosma caiu em cima do fogao quente, gosma voando ate a chapa
+b7: OK - nao derreteu, firme e elastica: Goodyear comemorando com a borracha vulcanizada na mao
+b8: OK - outros copiaram a ideia: grupo de fabricantes na fabrica, ele morreu com dividas
+b9: OK - borracha em pneus, bolas e sapatos: placa PNEUS, povo com bola de couro e pneus
+b10: OK - fabrica de pneus com o nome dele: placa GOODYEAR e pilhas de pneus
+b11: OK - chamada final COMENTE com Goodyear rindo
+pesquisa: Charles Goodyear, Woburn Massachusetts 1839, fogao de ferro da cozinha, borracha com enxofre, prisao por dividas, morreu em 1860 devendo 200 mil dolares, Goodyear Tire fundada em 1898 sem ligacao com a familia
+defeitos procurados: cenario (cozinha americana de 1839, prisao, fabrica) OK; epoca (fogao de ferro, cartola, bola de couro) OK; tamanho (fogao e pneus em escala real) OK; cortado (Goodyear inteiro, nada na frente dele no b7) OK; multidao (so nos pneus do mundo inteiro) OK; legenda (rotulos e placas no alto) OK; acao (deixou cair, mexendo, comemorar) OK; objeto (gosma, fogao, borracha e pneus visiveis quando citados) OK

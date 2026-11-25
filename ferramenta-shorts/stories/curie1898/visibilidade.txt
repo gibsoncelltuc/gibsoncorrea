@@ -1,2 +1,4 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b4: objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE: 3 FALHA(S)
+FALHA b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b4: objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
