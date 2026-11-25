@@ -90,10 +90,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): PAS (variante 0, expressao surprised) | multidao: 0 de POV
-- Animacao: conversar
+- Personagens principais (2): MAE (variante 0, expressao cry); POV (variante 0, expressao cry)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, filho, porta, raiva
 - RISCOS: nenhum
@@ -101,8 +101,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: PAS no centro, expressao surprised; sem multidao; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MAE na esquerda, expressao cry; POV na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
   - take 1 (20.1-22.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -256,7 +256,7 @@ dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 ## Video inteiro
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 23% | medio 63% | aberto 13% | detalhe 2%
-- Interacoes: b2 avanca e o outro recua, b8 cochichar
+- Interacoes: b2 avanca e o outro recua, b4 o outro se aproxima, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

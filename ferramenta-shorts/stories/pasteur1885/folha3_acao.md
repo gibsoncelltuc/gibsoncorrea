@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
@@ -73,24 +73,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 20.1s a 24.5s - 18 palavras - plano group
+## Cena b4 - 20.1s a 24.5s - 18 palavras - plano two
 > "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) PAS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mãe" (21.0s)
+  1) MAE a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mãe" (21.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (21.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
 | 3 | - | CENA | animal: dog entra caminhando | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (21.1s): executa: poeira + som
 - EMOCAO: angry (a cena toda): executa: o rosto vira "angry" na palavra
 - CENA (a cena toda): executa: animal: dog entra caminhando
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
