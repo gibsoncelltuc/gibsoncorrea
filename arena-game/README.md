@@ -32,6 +32,7 @@ botão direito + arrastar (ou setas) gira a câmera · roda do mouse: zoom · **
 | Recurso | Detalhes |
 |---|---|
 | Avatar | Bonequinho de blocos arredondados com rosto, 5 cabelos, 6 peles, 10 camisas, 8 calças e 4 rostos (tecla **U**). Equipamentos aparecem no corpo: chapéus, elmos, coroas, armaduras, capas, asas, mochila, armas e ferramentas. |
+| Mundo em blocos (estilo Minecraft) | Terreno de **blocos 2×2** com textura pixelada (grama, terra, areia, pedra, neve, cascalho, caminho), degraus de 1 bloco que você sobe sozinho (paredes maiores, só pulando), árvores/cactos/pedras/flores feitos de cubos, sol e lua quadrados, nuvens em blocos. A altura é a mesma no servidor e no navegador. |
 | Mundo | 640×640 com Vila Moeda (praça, fonte, prefeitura com relógio, feira, ferraria), Coliseu, Floresta Sussurrante, Deserto com pirâmide e oásis, Montanhas Geladas com iglus, Fazenda com moinho, Praia com farol e doca, Ruínas e o Castelo do Rei Gosma. Estradas, lagos, mar, **dia e noite** (12 min), nuvens, estrelas, vento na grama. |
 | Online | Veja outros jogadores em tempo real (posição, nome, equipamento), balões de chat e chat global. |
 | Carreira (**C**) | 8 capítulos em ordem: falar com o Prefeito → 8 Gosmas → 5 cristais na floresta → 8 Escorpiões → 8 Lobos → 6 Esqueletos → Rei Gosma → **Dragão Ancião**. Ao vencer, você "zera" o jogo, ganha a Coroa do Herói e um aviso no chat global. |

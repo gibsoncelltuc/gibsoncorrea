@@ -26,14 +26,19 @@ export class Merge {
   box(w, h, d, color, o) {
     return this.add(new THREE.BoxGeometry(w, h, d), color, o);
   }
-  cyl(rt, rb, h, color, o, seg = 10) {
-    return this.add(new THREE.CylinderGeometry(rt, rb, h, seg), color, o);
+  // tudo é quadrado (estilo bloco): cilindros viram prismas, cones viram pirâmides, esferas viram cubos
+  cyl(rt, rb, h, color, o) {
+    const g = new THREE.CylinderGeometry(rt * Math.SQRT2, rb * Math.SQRT2, h, 4, 1);
+    g.rotateY(Math.PI / 4);
+    return this.add(g, color, o);
   }
-  cone(r, h, color, o, seg = 8) {
-    return this.add(new THREE.ConeGeometry(r, h, seg), color, o);
+  cone(r, h, color, o) {
+    const g = new THREE.ConeGeometry(r * Math.SQRT2, h, 4, 1);
+    g.rotateY(Math.PI / 4);
+    return this.add(g, color, o);
   }
-  ball(r, color, o, seg = 10) {
-    return this.add(new THREE.SphereGeometry(r, seg, Math.max(6, seg - 2)), color, o);
+  ball(r, color, o) {
+    return this.add(new THREE.BoxGeometry(r * 1.7, r * 1.7, r * 1.7), color, o);
   }
   geometry() {
     return this.parts.length ? mergeGeometries(this.parts, false) : null;

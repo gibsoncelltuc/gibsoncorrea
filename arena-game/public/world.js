@@ -3,7 +3,8 @@
 import * as THREE from 'three';
 import { Merge, vcMat, Instancer, Colliders, rnd, TAU } from './buildutil.js';
 import { buildNpc } from './avatar.js';
-import { LOCATIONS, LAKES, SEA_LEVEL, CRYSTALS, WORLD_HALF, ROADS, heightAt, biomeWeights, roadDist, smooth } from './shared/world.js';
+import { LOCATIONS, LAKES, SEA_LEVEL, CRYSTALS, WORLD_HALF, BLOCK, heightAt, biomeWeights, roadDist, smooth, colCenter, colOf } from './shared/world.js';
+import { buildTerrain, voxelGeometry, makeAtlas, TILE } from './voxel.js';
 import { buildStructures } from './structures.js';
 
 export function buildOpenWorld(scene, fx) {
@@ -31,8 +32,10 @@ export function buildOpenWorld(scene, fx) {
         void main(){ vec3 d = normalize(vP); float h = clamp(d.y, -0.1, 1.0);
           vec3 top = mix(vec3(0.02,0.04,0.14), vec3(0.20,0.48,0.95), day); vec3 mid = mix(vec3(0.05,0.08,0.22), vec3(0.55,0.78,1.0), day); vec3 hor = mix(vec3(0.10,0.12,0.26), vec3(1.0,0.90,0.78), day);
           vec3 c = mix(hor, mid, smoothstep(0.0, 0.25, h)); c = mix(c, top, smoothstep(0.2, 0.9, h));
-          float s = max(dot(d, normalize(sun)), 0.0); c += vec3(1.0,0.8,0.5) * pow(s, 12.0) * 0.55 * day; c += vec3(1.0,0.97,0.85) * smoothstep(0.9975, 0.9985, s) * day;
-          float m = max(dot(d, normalize(-sun)), 0.0); c += vec3(0.8,0.85,1.0) * smoothstep(0.9985, 0.9992, m) * (1.0 - day);
+          vec3 sn = normalize(sun); float s = max(dot(d, sn), 0.0); c += vec3(1.0,0.8,0.5) * pow(s, 12.0) * 0.4 * day;
+          vec3 t1 = normalize(cross(sn, vec3(0.0,0.0,1.0))); vec3 t2 = cross(sn, t1);
+          if (dot(d, sn) > 0.0) { vec2 q = vec2(dot(d, t1), dot(d, t2)) / dot(d, sn); if (max(abs(q.x), abs(q.y)) < 0.07) c = mix(c, vec3(1.0,0.97,0.8), day); }
+          if (dot(d, -sn) > 0.0) { vec2 q = vec2(dot(d, t1), dot(d, t2)) / dot(d, -sn); if (max(abs(q.x), abs(q.y)) < 0.05) c = mix(c, vec3(0.9,0.93,1.0), 1.0 - day); }
           vec2 g = floor(d.xz / (d.y + 1.2) * 90.0); float st = step(0.9965, h21(g)) * (1.0 - day) * smoothstep(0.05, 0.3, h); c += vec3(st);
           gl_FragColor = vec4(c, 1.0); }`,
     }),
@@ -50,81 +53,44 @@ export function buildOpenWorld(scene, fx) {
   const moon = new THREE.DirectionalLight('#8fa8ff', 0);
   root.add(moon, moon.target);
 
-  // ---------- terreno ----------
+  // ---------- terreno de blocos ----------
   const SZ = WORLD_HALF * 2 + 140;
-  const tg = new THREE.PlaneGeometry(SZ, SZ, 250, 250);
-  tg.rotateX(-Math.PI / 2);
-  const pa = tg.attributes.position;
-  const colors = new Float32Array(pa.count * 3);
-  const C = (h) => new THREE.Color(h);
-  const cGrass = C('#7ed35e');
-  const cGrass2 = C('#5fb855');
-  const cSand = C('#ecd391');
-  const cSnow = C('#f4f9ff');
-  const cForest = C('#3f9a4a');
-  const cFarm = C('#a5d85f');
-  const cRock = C('#8e96a3');
-  const cRoad = C('#cdb07a');
-  const cCastle = C('#8aa06a');
-  const cRuins = C('#8fa17a');
-  const cBeach = C('#f3e2a8');
-  const cUnder = C('#cbb98a');
-  const tmp = new THREE.Color();
-  for (let i = 0; i < pa.count; i++) {
-    const x = pa.getX(i);
-    const z = pa.getZ(i);
-    const h = heightAt(x, z);
-    pa.setY(i, h);
-    const w = biomeWeights(x, z);
-    tmp.copy(cGrass).lerp(cGrass2, 0.5 + 0.5 * Math.sin(x * 0.07) * Math.cos(z * 0.06));
-    tmp.lerp(cForest, w.forest * 0.9);
-    tmp.lerp(cFarm, w.farm * 0.8);
-    tmp.lerp(cSand, w.desert);
-    tmp.lerp(cSnow, w.snow);
-    tmp.lerp(cBeach, w.beach * 0.9);
-    tmp.lerp(cCastle, w.castle * 0.6);
-    tmp.lerp(cRuins, w.ruins * 0.7);
-    tmp.lerp(cRock, smooth(11, 20, h) * 0.9);
-    tmp.lerp(cSnow, smooth(24, 34, h));
-    if (h < SEA_LEVEL + 0.9) tmp.lerp(cBeach, 0.85);
-    if (h < SEA_LEVEL - 0.4) tmp.lerp(cUnder, 0.9);
-    const rd = roadDist(x, z);
-    if (rd < 3.4 && h > SEA_LEVEL) tmp.lerp(cRoad, smooth(3.4, 1.8, rd));
-    colors.set([tmp.r, tmp.g, tmp.b], i * 3);
-  }
-  tg.setAttribute('color', new THREE.BufferAttribute(colors, 3));
-  tg.computeVertexNormals();
-  const terrain = new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.95 }));
-  terrain.receiveShadow = true;
-  root.add(terrain);
-
+  buildTerrain(root);
+  const WATER_Y = -2.2; // um pouco abaixo do topo dos blocos de areia na beira
   // ---------- água ----------
-  const water = new THREE.Mesh(new THREE.PlaneGeometry(SZ + 400, SZ + 400), new THREE.MeshStandardMaterial({ color: '#3aa8e0', roughness: 0.08, metalness: 0.15, transparent: true, opacity: 0.82 }));
+  const water = new THREE.Mesh(new THREE.PlaneGeometry(SZ + 400, SZ + 400), new THREE.MeshStandardMaterial({ color: '#3a6fe0', roughness: 0.25, metalness: 0.05, transparent: true, opacity: 0.78 }));
   water.rotation.x = -Math.PI / 2;
-  water.position.y = SEA_LEVEL;
+  water.position.y = WATER_Y;
   water.receiveShadow = true;
   root.add(water);
-  upd.push((t) => (water.material.opacity = 0.8 + Math.sin(t * 1.2) * 0.04));
+  upd.push((t) => (water.material.opacity = 0.76 + Math.sin(t * 1.2) * 0.04));
+  // lagos congelados: placas de gelo em blocos, caminháveis
   for (const k of LAKES) {
     if (!k.ice) continue;
-    const ice = new THREE.Mesh(new THREE.CircleGeometry(k.r + 3, 40), new THREE.MeshStandardMaterial({ color: '#d4ecff', roughness: 0.12, metalness: 0.1 }));
-    ice.rotation.x = -Math.PI / 2;
-    ice.position.set(k.x, SEA_LEVEL + 0.3, k.z);
-    ice.receiveShadow = true;
+    const m = new Merge();
+    for (let cx = colOf(k.x - k.r - 4); cx <= colOf(k.x + k.r + 4); cx++) {
+      for (let cz = colOf(k.z - k.r - 4); cz <= colOf(k.z + k.r + 4); cz++) {
+        const x = colCenter(cx);
+        const z = colCenter(cz);
+        if (Math.hypot(x - k.x, z - k.z) < k.r + 2) m.box(BLOCK, 0.5, BLOCK, (cx + cz) % 2 ? '#b9e2fb' : '#a8d8f5', { x, y: WATER_Y + 0.15, z });
+      }
+    }
+    const ice = m.mesh(vcMat({ roughness: 0.2, transparent: true, opacity: 0.9 }), { cast: false });
     root.add(ice);
-    col.walk.push({ x: k.x, z: k.z, r: k.r + 2, y: SEA_LEVEL + 0.35 });
+    col.walk.push({ x: k.x, z: k.z, r: k.r + 2, y: WATER_Y + 0.4 });
   }
 
   // ---------- nuvens ----------
   const clouds = [];
   const cloudMat = new THREE.MeshBasicMaterial({ color: '#ffffff', fog: false });
-  for (let i = 0; i < 26; i++) {
+  const cloudGeo = new THREE.BoxGeometry(1, 1, 1);
+  for (let i = 0; i < 34; i++) {
     const c = new THREE.Group();
-    const n = 4 + Math.floor(Math.random() * 3);
+    const n = 5 + Math.floor(Math.random() * 6);
     for (let k = 0; k < n; k++) {
-      const s = new THREE.Mesh(new THREE.SphereGeometry(rnd(6, 11), 12, 9), cloudMat);
-      s.position.set(k * 7 - n * 3.5 + rnd(-2, 2), rnd(-1.5, 2), rnd(-3, 3));
-      s.scale.y = 0.55;
+      const s = new THREE.Mesh(cloudGeo, cloudMat);
+      s.scale.set(12 * (1 + Math.floor(Math.random() * 2)), 4, 12 * (1 + Math.floor(Math.random() * 2)));
+      s.position.set(Math.round(Math.random() * 4 - 2) * 12, 0, Math.round(Math.random() * 3 - 1.5) * 12);
       c.add(s);
     }
     const a = Math.random() * TAU;
@@ -241,73 +207,51 @@ function buildVegetation(ctx) {
     fn(m);
     return m.geometry();
   };
-  const geo = {
-    oak: mk((m) => {
-      m.cyl(0.35, 0.55, 3, '#7a5233', { y: 1.5 }, 7);
-      for (const [x, y, z, s] of [[0, 4.2, 0, 2.1], [0.9, 3.5, 0.5, 1.5], [-0.9, 3.6, -0.4, 1.6], [0.1, 5.2, -0.3, 1.4]]) m.ball(s, y > 4 ? '#6fcf5f' : '#4aa84f', { x, y, z, sy: 0.85 }, 9);
-    }),
-    pine: mk((m) => {
-      m.cyl(0.3, 0.5, 2.4, '#6b4a2b', { y: 1.2 }, 6);
-      for (let k = 0; k < 4; k++) m.cone(2.4 - k * 0.5, 2.6, k % 2 ? '#2f7a4a' : '#357f50', { y: 3 + k * 1.4 }, 8);
-    }),
-    snowpine: mk((m) => {
-      m.cyl(0.3, 0.5, 2.4, '#6b4a2b', { y: 1.2 }, 6);
-      for (let k = 0; k < 4; k++) {
-        m.cone(2.4 - k * 0.5, 2.6, '#2f6a52', { y: 3 + k * 1.4 }, 8);
-        m.cone(1.8 - k * 0.42, 1.2, '#f4f9ff', { y: 3.5 + k * 1.4 }, 8);
+  const T = TILE;
+  const logCol = (k) => [0.92 + (k % 2) * 0.1, 0.92 + (k % 2) * 0.1, 0.92 + (k % 2) * 0.1];
+  const leafLayer = (y, w, tile, tint, skipCorners = true, seed = 0) => {
+    const out = [];
+    const h = (w - 1) / 2;
+    for (let i = -h; i <= h; i++) {
+      for (let k = -h; k <= h; k++) {
+        if (skipCorners && w >= 5 && Math.abs(i) === h && Math.abs(k) === h && (i * 3 + k * 5 + seed) % 2 === 0) continue;
+        const j = 0.85 + (((i * 7 + k * 13 + y * 5 + seed) % 5) / 5) * 0.3;
+        out.push([i, y, k, tile, { col: [tint[0] * j, tint[1] * j, tint[2] * j] }]);
       }
-    }),
-    palm: mk((m) => {
-      for (let k = 0; k < 6; k++) m.cyl(0.28 - k * 0.02, 0.32 - k * 0.02, 1.2, '#a8814f', { x: k * 0.12, y: 0.6 + k * 1.15 }, 7);
-      for (let k = 0; k < 7; k++) {
-        const a = (k / 7) * TAU;
-        m.cone(0.45, 3.4, '#3fb25a', { x: 0.7 + Math.cos(a) * 1.4, y: 7.1, z: Math.sin(a) * 1.4, rz: -Math.cos(a) * 1.2, rx: Math.sin(a) * 1.2 }, 4);
-      }
-      m.ball(0.3, '#7a5233', { x: 0.75, y: 6.9 }, 6);
-    }),
-    cactus: mk((m) => {
-      m.cyl(0.5, 0.55, 4, '#4f9a55', { y: 2 }, 8);
-      m.ball(0.5, '#4f9a55', { y: 4 }, 8);
-      m.cyl(0.3, 0.3, 1.6, '#4f9a55', { x: 0.9, y: 2.2, rz: 0 }, 8);
-      m.cyl(0.3, 0.3, 1.2, '#4f9a55', { x: 0.55, y: 1.6, rz: 1.5708 }, 8);
-      m.cyl(0.28, 0.28, 1.2, '#4f9a55', { x: -0.9, y: 2.8 }, 8);
-      m.cyl(0.28, 0.28, 1.0, '#4f9a55', { x: -0.55, y: 2.2, rz: 1.5708 }, 8);
-    }),
-    dead: mk((m) => {
-      m.cyl(0.25, 0.5, 4, '#5a4636', { y: 2 }, 6);
-      m.cyl(0.12, 0.2, 2.2, '#5a4636', { x: 0.8, y: 3.2, rz: -0.9 }, 5);
-      m.cyl(0.1, 0.18, 1.8, '#5a4636', { x: -0.7, y: 3.6, rz: 0.9 }, 5);
-    }),
-    rock: mk((m) => m.add(new THREE.DodecahedronGeometry(1, 0), '#9aa3b0', { sy: 0.7 })),
-    bush: mk((m) => {
-      m.ball(1.0, '#3f9548', { y: 0.7, sy: 0.8 }, 8);
-      m.ball(0.7, '#4aa84f', { x: 0.7, y: 0.5, sy: 0.8 }, 8);
-    }),
-    flower: mk((m) => {
-      m.cyl(0.03, 0.03, 0.5, '#3f9548', { y: 0.25 }, 4);
-      m.ball(0.17, '#ffffff', { y: 0.55 }, 6);
-    }),
-    tuft: mk((m) => {
-      for (let k = 0; k < 5; k++) m.cone(0.07, 0.8 + (k % 3) * 0.12, k % 2 ? '#7fdc62' : '#5fc15a', { x: (k - 2) * 0.1, y: 0.4, z: ((k * 7) % 3 - 1) * 0.06, rz: (k - 2) * 0.16 }, 3);
-    }),
-    mushroom: mk((m) => {
-      m.cyl(0.12, 0.16, 0.5, '#f2ead8', { y: 0.25 }, 6);
-      m.ball(0.38, '#d8404f', { y: 0.55, sy: 0.6 }, 8);
-    }),
-    cactusSmall: mk((m) => {
-      m.cyl(0.3, 0.34, 1.6, '#5aa860', { y: 0.8 }, 7);
-      m.ball(0.3, '#5aa860', { y: 1.6 }, 7);
-    }),
+    }
+    return out;
   };
-  const mat = vcMat();
-  const swayMat = vcMat({ roughness: 1 });
+  const trunk = (h, tile) => Array.from({ length: h }, (_, j) => [0, j, 0, { side: tile, top: T.logTop, bottom: T.logTop }, { col: logCol(j) }]);
+  const geo = {
+    oak: voxelGeometry([...trunk(4, T.log), ...leafLayer(3, 5, T.leaves, [0.85, 1, 0.8]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(4, 5, T.leaves, [0.9, 1, 0.85], true, 1), ...leafLayer(5, 3, T.leaves, [0.95, 1.05, 0.9]), ...leafLayer(6, 1, T.leaves, [1, 1.1, 0.9])]),
+    oakBig: voxelGeometry([...trunk(6, T.log), ...leafLayer(4, 7, T.leaves, [0.8, 0.95, 0.75], true, 2).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(5, 7, T.leaves, [0.85, 1, 0.8], true, 3).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(6, 5, T.leaves, [0.9, 1.05, 0.85], true, 4), ...leafLayer(7, 3, T.leaves, [1, 1.1, 0.9])]),
+    birch: voxelGeometry([...trunk(5, T.birchLog), ...leafLayer(3, 5, T.leaves, [1.05, 1.25, 0.8]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(4, 5, T.leaves, [1.1, 1.3, 0.85], true, 1).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(5, 3, T.leaves, [1.1, 1.3, 0.85]), ...leafLayer(6, 1, T.leaves, [1.15, 1.35, 0.9])]),
+    pine: voxelGeometry([...trunk(6, T.log), ...leafLayer(2, 5, T.leaves, [0.45, 0.75, 0.55], true).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(3, 3, T.leaves, [0.5, 0.8, 0.6]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(4, 5, T.leaves, [0.45, 0.75, 0.55]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(5, 3, T.leaves, [0.5, 0.8, 0.6]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(6, 3, T.leaves, [0.5, 0.82, 0.62]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(7, 1, T.leaves, [0.55, 0.85, 0.65])]),
+    snowpine: voxelGeometry([...trunk(6, T.log), ...leafLayer(2, 5, T.leaves, [0.4, 0.7, 0.55]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(3, 3, T.snow, [1, 1, 1]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(4, 5, T.leaves, [0.4, 0.7, 0.55]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(5, 3, T.snow, [1, 1, 1]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(6, 3, T.leaves, [0.45, 0.75, 0.6]).filter((b) => !(b[0] === 0 && b[2] === 0)), ...leafLayer(7, 1, T.snow, [1, 1, 1])]),
+    palm: voxelGeometry([[0, 0, 0, T.log], [0, 1, 0, T.log], [0, 2, 0, T.log], [1, 3, 0, T.log], [1, 4, 0, T.log], [1, 5, 0, T.log], ...[[1, 6, 0], [2, 6, 0], [3, 5, 0], [0, 6, 0], [-1, 5, 0], [1, 6, 1], [1, 5, 2], [1, 6, -1], [1, 5, -2], [2, 7, 0], [0, 7, 0], [1, 7, 1], [1, 7, -1]].map(([i, j, k]) => [i, j, k, T.leaves, { col: [0.75, 1.15, 0.75] }])]),
+    cactus: voxelGeometry([[0, 0, 0, T.cactus], [0, 1, 0, T.cactus], [0, 2, 0, T.cactus], [1, 1, 0, T.cactus], [1, 2, 0, T.cactus]]),
+    cactusSmall: voxelGeometry([[0, 0, 0, T.cactus], [0, 1, 0, T.cactus]]),
+    dead: voxelGeometry([[0, 0, 0, T.log, { col: [0.6, 0.55, 0.5] }], [0, 1, 0, T.log, { col: [0.6, 0.55, 0.5] }], [0, 2, 0, T.log, { col: [0.6, 0.55, 0.5] }], [1, 2, 0, T.log, { col: [0.6, 0.55, 0.5] }], [-1, 3, 0, T.log, { col: [0.6, 0.55, 0.5] }], [0, 3, 0, T.log, { col: [0.6, 0.55, 0.5] }]]),
+    rock: voxelGeometry([[0, 0, 0, T.stone], [1, 0, 0, T.stone], [0, 0, 1, T.cobble], [0, 1, 0, T.stone], [-1, 0, 0, T.stone, { s: [1, 0.5, 1] }]]),
+    bush: voxelGeometry([[0, 0, 0, T.leaves, { col: [0.8, 1, 0.8] }], [1, 0, 0, T.leaves, { col: [0.9, 1.05, 0.85], s: [1, 0.5, 1] }]]),
+    flower: voxelGeometry([[0, 0, 0, T.leaves, { s: [0.12, 0.55, 0.12], col: [0.5, 1, 0.5] }], [0, 0, 0, T.snow, { s: [0.4, 0.2, 0.4], col: [1, 1, 1] }]].map((b, n) => (n === 1 ? [0, 0, 0, T.snow, { s: [0.45, 0.2, 0.45], col: [1, 1, 1] }] : b))),
+    tuft: voxelGeometry([[0, 0, 0, T.tuft, { cross: true, s: [0.9, 0.5, 1] }]]),
+    mushroom: voxelGeometry([[0, 0, 0, T.birchLog, { s: [0.2, 0.3, 0.2] }], [0, 0, 0, T.magma, { s: [0.5, 0.25, 0.5], col: [0.6, 0.2, 0.2] }]]),
+    cactusSmall2: null,
+  };
+  delete geo.cactusSmall2;
+  const FL = [[1, 0.35, 0.5], [1, 0.85, 0.2], [1, 1, 1], [0.45, 0.6, 1], [1, 0.6, 0.2], [0.75, 0.5, 1]];
+  FL.forEach((c, n) => (geo['flower' + n] = voxelGeometry([[0, 0, 0, T.leaves, { s: [0.12, 0.5, 0.12], col: [0.5, 1, 0.5] }], [0, 0.5, 0, T.snow, { s: [0.42, 0.22, 0.42], col: c }]])));
+  const atlas = makeAtlas();
+  const mat = new THREE.MeshStandardMaterial({ map: atlas, vertexColors: true, roughness: 1 });
+  const swayMat = new THREE.MeshStandardMaterial({ map: atlas, vertexColors: true, roughness: 1, alphaTest: 0.5, side: THREE.DoubleSide });
   swayMat.onBeforeCompile = (s) => {
     s.uniforms.uTime = ctx.timeU;
     s.vertexShader = 'uniform float uTime;\n' + s.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>
-      float sw = sin(uTime * 1.8 + instanceMatrix[3].x * 0.45 + instanceMatrix[3].z * 0.37) * 0.18 * position.y;
+      float sw = sin(uTime * 1.8 + instanceMatrix[3].x * 0.45 + instanceMatrix[3].z * 0.37) * 0.12 * position.y;
       transformed.x += sw; transformed.z += sw * 0.6;`);
   };
-  const I = Object.fromEntries(Object.entries(geo).map(([k, g]) => [k, new Instancer(g, k === 'tuft' ? swayMat : mat, { cast: !['flower', 'tuft', 'mushroom'].includes(k) })]));
+  const I = Object.fromEntries(Object.entries(geo).map(([k, g]) => [k, new Instancer(g, k === 'tuft' ? swayMat : mat, { cast: !(k.startsWith('flower') || k === 'tuft' || k === 'mushroom') })]));
   const tint = ['#ffffff', '#f2fff0', '#e8ffe0', '#fff4e0'];
   const flowerCols = ['#ff6b8b', '#ffd24a', '#ffffff', '#8fb6ff', '#ff9a4a', '#c08bff'];
   const ok = (x, z, minH = SEA_LEVEL + 0.6) => {
@@ -322,10 +266,17 @@ function buildVegetation(ctx) {
     return !(ctx.keepout ?? []).some((k) => Math.hypot(x - k.x, z - k.z) < k.r);
   };
   const place = (kind, x, z, s, color, r) => {
-    I[kind].add(x, heightAt(x, z) - 0.1, z, Math.random() * TAU, s, color);
-    if (r) col.add(x, z, r * s);
+    if (kind === 'oak') {
+      const q = Math.random();
+      kind = q < 0.6 ? 'oak' : q < 0.82 ? 'oakBig' : 'birch';
+    }
+    if (kind === 'flower') kind = 'flower' + Math.floor(Math.random() * 6);
+    x = colCenter(colOf(x));
+    z = colCenter(colOf(z));
+    I[kind].add(x, heightAt(x, z) - 0.05, z, 0, 1, color);
+    if (r) col.add(x, z, 1.15);
   };
-  const N = 9000;
+  const N = 6500;
   for (let i = 0; i < N; i++) {
     const x = rnd(-WORLD_HALF + 8, WORLD_HALF - 8);
     const z = rnd(-WORLD_HALF + 8, WORLD_HALF - 8);
@@ -368,13 +319,13 @@ function buildVegetation(ctx) {
     }
   }
   // grama ao vento (só onde o chão é verde)
-  for (let i = 0; i < 52000; i++) {
+  for (let i = 0; i < 14000; i++) {
     const x = rnd(-WORLD_HALF, WORLD_HALF);
     const z = rnd(-WORLD_HALF, WORLD_HALF);
     const w = biomeWeights(x, z);
     if (w.desert > 0.3 || w.snow > 0.3 || w.beach > 0.4 || w.castle > 0.5) continue;
     if (!ok(x, z, 0.1) || Math.hypot(x, z) < 70) continue;
-    I.tuft.add(x, heightAt(x, z) - 0.05, z, Math.random() * TAU, rnd(0.6, 1.2), ['#ffffff', '#e8ffe0', '#d8f8c8'][i % 3], rnd(0.7, 1.5));
+    I.tuft.add(x, heightAt(x, z) - 0.05, z, Math.random() * TAU, rnd(0.9, 1.3), ['#ffffff', '#e8ffe0', '#d8f8c8'][i % 3], rnd(0.8, 1.3));
   }
   // miolo da vila: flores, arbustos e algumas árvores entre as casas (longe de estradas e construções)
   for (let i = 0; i < 1800; i++) {
@@ -385,7 +336,7 @@ function buildVegetation(ctx) {
     if (roadDist(x, z) < 6 || (ctx.keepout ?? []).some((k) => Math.hypot(x - k.x, z - k.z) < k.r)) continue;
     if (Math.hypot(x - LOCATIONS.colosseum.x, z - LOCATIONS.colosseum.z) < 40) continue;
     const r = Math.random();
-    if (r < 0.62) I.flower.add(x, heightAt(x, z) - 0.05, z, Math.random() * TAU, rnd(0.9, 1.6), flowerCols[i % 6]);
+    if (r < 0.62) I['flower' + (i % 6)].add(colCenter(colOf(x)) + rnd(-0.6, 0.6), heightAt(x, z) - 0.05, colCenter(colOf(z)) + rnd(-0.6, 0.6), 0, 1, null);
     else if (r < 0.82) place('bush', x, z, rnd(0.7, 1.2), null);
     else if (r < 0.9) place('oak', x, z, rnd(0.8, 1.3), tint[i % 4], 0.5);
     else I.tuft.add(x, heightAt(x, z) - 0.05, z, Math.random() * TAU, rnd(0.7, 1.2), '#e8ffe0', rnd(0.8, 1.3));

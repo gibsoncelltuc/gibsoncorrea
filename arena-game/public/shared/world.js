@@ -62,9 +62,17 @@ export const LAKES = [
   { x: -215, z: 20, r: 24, name: 'Lago Congelado', ice: true },
 ];
 
+// o mundo é feito de blocos de 2x2x2: heightAt devolve a altura do TOPO do bloco da coluna (sempre múltiplo de BLOCK)
+export const BLOCK = 2;
+export const colOf = (v) => Math.floor(v / BLOCK);
+export const colCenter = (c) => (c + 0.5) * BLOCK;
 export function heightAt(x, z) {
+  return Math.floor(rawHeightAt(colCenter(colOf(x)), colCenter(colOf(z))) / BLOCK) * BLOCK;
+}
+export function rawHeightAt(x, z) {
   const L = LOCATIONS;
-  let h = noise(x, z) * 0.42 + 1.5;
+  // colinas suaves (estilo Minecraft: degraus de 1 bloco, com morros e vales) — as zonas planas abaixo zeram isso
+  let h = noise(x, z) * 0.9 + 2 + (Math.sin(x * 0.014 + 0.5) * Math.cos(z * 0.012 - 0.3) + Math.sin(x * 0.03) * Math.sin(z * 0.027)) * 2.4;
   const dT = dist(x, z, L.town);
   h *= smooth(L.town.r - 5, L.town.r + 45, dT);
   // coliseu e castelo: terreno plano

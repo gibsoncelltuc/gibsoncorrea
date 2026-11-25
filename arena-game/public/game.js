@@ -456,7 +456,7 @@ export class Game {
   }
   jump() {
     if (this.dead || !this.onGround || this.battleFrozen) return;
-    this.vy = 11;
+    this.vy = 13;
     this.onGround = false;
     beep(520, 0.06, 'triangle', 0.025);
   }
@@ -648,9 +648,11 @@ export class Game {
     if (mx || mz) {
       const nx = p.x + mx;
       const nz = p.z + mz;
-      if (!W.isDeepWater(nx, nz)) (p.x = nx), (p.z = nz);
-      else if (!W.isDeepWater(nx, p.z)) p.x = nx;
-      else if (!W.isDeepWater(p.x, nz)) p.z = nz;
+      // estilo Minecraft: sobe degraus de 1 bloco sozinho; paredes mais altas só pulando; água funda bloqueia
+      const free = (x, z) => !W.isDeepWater(x, z) && W.groundY(x, z) - p.y <= 2.25;
+      if (free(nx, nz)) (p.x = nx), (p.z = nz);
+      else if (free(nx, p.z)) p.x = nx;
+      else if (free(p.x, nz)) p.z = nz;
       W.col.resolve(p, 0.55);
       p.x = Math.max(-WORLD_HALF + 3, Math.min(WORLD_HALF - 3, p.x));
       p.z = Math.max(-WORLD_HALF + 3, Math.min(WORLD_HALF - 3, p.z));
