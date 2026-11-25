@@ -98,12 +98,12 @@
    "titulo": true,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lua_ceu",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -117,9 +117,9 @@
    "props": [
     [
      "kit/apple",
-     0.6,
      1.0,
-     2.2,
+     1.0,
+     1.09,
      {
       "fixo": true
      }
@@ -467,12 +467,12 @@
    },
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lua_ceu",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
