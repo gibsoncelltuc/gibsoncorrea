@@ -165,3 +165,8 @@ PENDENCIAS EM 24/11 19:35: Lagosta b7 na refazer.txt (depois: revisao_final ja q
 - Novos verbos de 25/11: anda_ate (entra andando ate o objeto), entra_em (entra e senta DENTRO do recipiente), transborda (agua azul espirrando pela borda na palavra).
 
 - NUNCA editar make_video.sh/run_queue.sh com a fila rodando (bash le o script aos pedacos: edicao no meio = "syntax error" e o video para depois do render). Editar so' com a fila parada ou entre um video e outro.
+
+## ESTRUTURA VIRAL (25/11, ordem do Gibson) — VALE ACIMA DAS REGRAS DE TAMANHO E CHAMADA FINAL
+- Todo roteiro segue `ferramenta-shorts/ESTRUTURA_VIRAL.md` (documento "O roteiro vencedor para YouTube Shorts 2026"): 6 blocos por cena ("bloco": gancho, promessa, prova, escalada, pagamento, loop), 30-45 s (75-110 palavras), frase de ate 12 palavras, "gancho_tipo" (perda|ganho|crenca|segredo), texto na tela no gancho, micro-prova com numero/nome antes dos 20 s, final em LOOP (ultima frase emenda na primeira; a ultima imagem repete a 1a cena sozinha), SEM chamada falada para comentar, "loop_frase_ok" e "gancho_cumprido" no topo.
+- `python3 estrutura_viral.py <id>` confere; `--todos` faz a varredura (VARREDURA_ESTRUTURA.md). mkvideo TRAVA roteiro fora da estrutura.
+- TODOS os videos (inclusive os ja entregues) serao refeitos com as mesmas historias e titulos. Piloto: scilly1651 (roteiro antigo em videos/scilly1651/beats_v24.json). Fila antiga guardada em queue_antes_viral.txt.

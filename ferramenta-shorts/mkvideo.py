@@ -25,7 +25,15 @@ for _b in B.get('beats', []):
         elif _c.get('outfits') and _o in _c['outfits']: _c['outfits'] = [x_ for x_ in _c['outfits'] if x_ != _o] or (['POV'] if _OFD.setdefault('POV', {'jacket': '#3f6fb5', 'pants': '#4a3a2a', 'boots': '#1b1b1f', 'hats': ['cap', 'hair', 'straw', 'beret']}) else [])
 # CHAMADA FINAL (ordem do Gibson 23/11): TODO video termina com o narrador pedindo o comentario com o tema do proximo video (cena propria, close no personagem principal apontando para quem assiste)
 CTA_TXT = B.get('cta_texto') or 'Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?'
-if B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
+_VIRAL = bool(B.get('gancho_tipo'))   # 25/11 ESTRUTURA VIRAL (ESTRUTURA_VIRAL.md): o video termina no LOOP (ultima frase emenda na primeira), sem chamada falada
+if _VIRAL and B.get('beats'):
+    _lp = B['beats'][-1]
+    if _lp.get('bloco') == 'loop' and _lp.get('loop_visual', True) is not False and len(B['beats']) > 1:   # a ultima imagem repete a 1a cena (mesmo lugar, gente, objetos e camera) para o replay emendar
+        for _k in ('set', 'interior', 'who', 'props', 'shot', 'hora', 'light', 'fachada', 'crowd', 'cx', 'cz', 'h', 'd0', 'd1', 'quadro_manual', 'regiao', 'detalhe'):
+            if _k in B['beats'][0]: _lp[_k] = json.loads(json.dumps(B['beats'][0][_k]))
+            else: _lp.pop(_k, None)
+        _lp['shot_lock'] = True
+if not _VIRAL and B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
     _w0 = next((w_ for b_ in B['beats'] for w_ in b_.get('who', []) if not w_.startswith(('POV', 'SOL', 'TRO', 'POVO'))), (B['beats'][0].get('who') or ['X:0'])[0])
     _p0 = _w0.split(':')
     _lb = B['beats'][-1]
@@ -2385,7 +2393,11 @@ if B.get('serie') != 'Teste':
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
     if not (B.get('serie') and B.get('ep')) and not ID.startswith(('_', 'teste')): _glob.append(('roteiro sem "serie" e "ep": o video sairia sem EP no titulo', 'por no topo "serie": "Guerras Inusitadas" | "Curiosidade e Ciência" | "Poder e Fama" | "E Se" e "ep": <proximo numero livre da serie>'))
     # ESTRUTURA DE RETENCAO (24/11, Gibson: "o roteiro tem toda uma estrutura que tem que seguir: gancho, gatilho, retencao"): gancho curto -> contexto -> escalada -> VIRADA no meio -> final curto e ironico -> chamada (automatica)
-    if B.get('estrutura_ok') is not True and not ID.startswith(('_', 'teste')):
+    if _VIRAL:   # 25/11: roteiro na estrutura viral -> a checagem e' a do estrutura_viral.py (6 blocos, 12 palavras por frase, 30-45 s, loop)
+        import importlib.util as _ilu; _spv = _ilu.spec_from_file_location('estrutura_viral', 'estrutura_viral.py'); _ev = _ilu.module_from_spec(_spv); _spv.loader.exec_module(_ev)
+        for _f in _ev.checar(ID)[2]: _glob.append(('ESTRUTURA VIRAL: ' + _f, 'corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py ' + ID))
+    if not _VIRAL and not ID.startswith(('_', 'teste', 'zz_')) and B.get('serie') != 'Teste': _glob.append(('roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md)', 'reescrever nos 6 blocos (gancho, promessa, prova, escalada, pagamento, loop), 30-45 s, frases de ate 12 palavras, "gancho_tipo" no topo; conferir com python3 estrutura_viral.py ' + ID))
+    if not _VIRAL and B.get('estrutura_ok') is not True and not ID.startswith(('_', 'teste')):
         _sx = [b_['say'] for b_ in beats]; _sn = lambda t_: unicodedata.normalize('NFKD', t_.lower()).encode('ascii', 'ignore').decode()
         _g1 = re.split(r'(?<=[.!?])\s+', _sx[0].strip())[0]
         if len(_g1.split()) > 16: _glob.append((f'GANCHO longo: a 1a frase tem {len(_g1.split())} palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)', 'reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo'))
@@ -2398,8 +2410,9 @@ if B.get('serie') != 'Teste':
         _phj = json.load(open(f'stories/{ID}/work/phrases.json')); _pht = re.sub(r'\W+', '', ''.join(p_.get('text', '') for p_ in _phj['phrases']).lower()); _bxt = re.sub(r'\W+', '', ''.join(b_['say'] for b_ in beats if not b_.get('_cta')).lower())
         if not _bxt or _bxt not in _pht: raise ValueError('voz antiga: o texto mudou')   # 24/11: voz de um texto antigo dava duracao errada (roteiro encurtado continuava com ~71 s)
         _dur = _phj['frames30'] / 30
-    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + 13) / 2.8   # 24/11: velocidade REAL medida nas vozes (2,6-2,9 palavras/s); 2,5 deixava video com 53 s   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
-    if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
+    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + (0 if _VIRAL else 13)) / 2.8   # 24/11: velocidade REAL medida nas vozes (2,6-2,9 palavras/s); 2,5 deixava video com 53 s   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
+    if _VIRAL and not (28 <= _dur <= 50) and B.get('duracao_ok') is not True: _glob.append((f'video com ~{round(_dur)} s (estrutura viral: 30 a 45 s, limite 50)', 'cortar frases (uma ideia por frase, ate 12 palavras)' if _dur > 50 else 'acrescentar uma micro-prova com numero/nome'))
+    if not _VIRAL and not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
         _glob.append((f'video com ~{round(_dur)} s (o padrao e\' 60 s; aceito de 54 a 66, ja com a chamada final)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 54 else 'cortar frases que nao mudam a imagem') + ' ate ficar em ~60 s (com esta voz, ~150 palavras no total)'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
 _PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),

@@ -7,7 +7,7 @@
    "item": "A Guerra de 335 Anos",
    "consultas": [
     "A Guerra de 335 Anos",
-    "Uma Holanda Tudo Scilly Inglaterra Piratas Holanda 1651"
+    "Você Esta Em Scilly 1651"
    ]
   },
   {
@@ -112,14 +112,6 @@
    "consultas": [
     "ship 1651",
     "ship"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "soldado da epoca",
-   "consultas": [
-    "soldier uniform 1651",
-    "soldier uniform"
    ]
   }
  ]

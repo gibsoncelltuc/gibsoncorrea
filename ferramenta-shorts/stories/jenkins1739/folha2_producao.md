@@ -124,9 +124,11 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 63% | aberto 16% | detalhe 5%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md) -> CORRECAO: reescrever nos 6 blocos (gancho, promessa, prova, escalada, pagamento, loop), 30-45 s, frases de ate 12 palavras, "gancho_tipo" no topo; conferir com python3 estrutura_viral.py jenkins1739
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).
