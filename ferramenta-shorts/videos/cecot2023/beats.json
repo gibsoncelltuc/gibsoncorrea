@@ -59,22 +59,18 @@
    "props": [
     [
      "kit/prison",
-     0,
-     -14.5,
-     1.0
+     0.0,
+     -23.3,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [],
    "sfx": [],
-   "cx": 0,
-   "cz": -14.5,
    "crowd": {
-    "n": 26,
-    "outfits": [
-     "PRE"
-    ],
-    "march": false,
-    "expr": "scared"
+    "n": 0
    },
    "text": "40 MIL PRESOS",
    "titulo": true,
@@ -87,6 +83,26 @@
      {
       "faz": "mostra",
       "na": "prisão"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "crowd",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -106,9 +122,12 @@
    "props": [
     [
      "kit/prison",
-     0,
-     -14.5,
-     1.0
+     0.0,
+     -23.3,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "titulo": true,
@@ -121,6 +140,26 @@
      {
       "faz": "mostra",
       "na": "solução"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "crowd",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_patio",
+    "camera": "plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -136,9 +175,12 @@
    "props": [
     [
      "kit/prison",
-     0,
-     -14.5,
-     1.0
+     0.0,
+     -23.3,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "set": "street",
@@ -150,6 +192,29 @@
      {
       "faz": "mostra",
       "na": "abriu"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "reveal",
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -187,18 +252,16 @@
    "props": [
     [
      "kit/prison",
-     0,
-     -14.5,
-     1.0
+     0.0,
+     -23.3,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "crowd": {
-    "n": 16,
-    "outfits": [
-     "PRE"
-    ],
-    "march": true,
-    "expr": "scared"
+    "n": 0
    },
    "bloco": "prova",
    "say": "O governo decretou estado de exceção contra as gangues.",
@@ -209,6 +272,26 @@
       "faz": "fala",
       "na": "decretou",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "group",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -315,9 +398,12 @@
    "props": [
     [
      "kit/globe",
-     3,
-     -3,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "COPIADO E CRITICADO",
@@ -332,6 +418,23 @@
       "na": "copiado"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "medium",
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "medium; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/globe",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -343,22 +446,18 @@
    "props": [
     [
      "kit/prison",
-     0,
-     -14.5,
-     1.0
+     0.0,
+     -23.3,
+     2.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [],
    "sfx": [],
-   "cx": 0,
-   "cz": -14.5,
    "crowd": {
-    "n": 26,
-    "outfits": [
-     "PRE"
-    ],
-    "march": false,
-    "expr": "scared"
+    "n": 0
    },
    "text": "40 MIL PRESOS",
    "titulo": true,
@@ -371,6 +470,26 @@
      {
       "faz": "mostra",
       "na": "Segurança"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "fachada": false,
+   "_enq_shot": "crowd",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/prison",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -418,5 +537,6 @@
  "cinf": 4.5,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

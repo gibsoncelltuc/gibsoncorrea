@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): GUA (variante 0, expressao stern); BUK (variante 0, expressao smug) | multidao: 26 de POV
+- Personagens principais (2): GUA (variante 0, expressao stern); BUK (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisao
@@ -16,12 +16,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; multidao de 26 (PRE) ATRAS dos principais; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; sem multidao; acao: conversar
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.9-3.7 s): mesmo angulo
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E ninguém concorda se ela é solução ou problema.
@@ -39,18 +37,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: loc_patio; hora: golden
 - CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV na esquerda, expressao surprised; POV no centro, expressao grin; POV na direita, expressao worried; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (4.1-5.5 s): mesmo angulo
-  - take 2 (5.5-7.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Ela abriu em 2023, em El Salvador.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 6 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao nervous) | multidao: 0 de POV
+- Animacao: reagir
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -60,9 +56,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: revelacao (camera sobe e abre); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV na esquerda, expressao surprised; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - O país tinha das maiores taxas de assassinato do mundo.
@@ -81,16 +77,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao worried, segura paper; POV na direita, expressao scared; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (10.0-11.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.7-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - O governo decretou estado de exceção contra as gangues.
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 16 de POV
+- Personagens principais (3): BUK (variante 0, expressao stern); GUA (variante 0, expressao stern); GUA (variante 1, expressao stern) | multidao: 0 de POV
 - Animacao: prender | interacao: avanca e o outro recua
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, gangues, governo
@@ -100,11 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: BUK na esquerda, expressao stern; GUA no centro, expressao stern; GUA na direita, expressao stern; multidao de 16 (PRE) marchando ATRAS dos principais; acao: prender
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (13.7-15.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (15.2-16.7 s): mesmo angulo
+- PERSONAGENS: BUK na esquerda, expressao stern; GUA no centro, expressao stern; GUA na direita, expressao stern; sem multidao; acao: prender
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Muralhas, cercas elétricas e torres de vigia.
@@ -122,7 +114,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/prison no centro, manobra "gira"
 - PASSOS NA TELA: MURALHAS -> CERCAS ELETRICAS -> TORRES DE VIGIA
-- TAKES: 1 take de explicacao (2.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.0 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.
@@ -143,17 +135,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (19.6-21.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (21.6-23.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (19.3-21.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (21.1-22.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Mas houve denúncias de prisões sem julgamento.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
-- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried)
-- Animacao: discutir | interacao: vai ate o outro
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): REP (variante 0, expressao suspicious); POV (variante 0, expressao worried) | multidao: 6 de POV
+- Animacao: discutir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisoes
 - RISCOS: nenhum
@@ -175,7 +167,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao stern, segura paper); POV (variante 0, expressao grin, segura paper)
-- Animacao: encena | interacao: o outro se aproxima
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): modelo
 - RISCOS: nenhum
@@ -187,14 +179,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: BUK na esquerda, expressao stern, segura paper; POV na direita, expressao grin, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "COPIADO E CRITICADO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (25.5-26.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (26.9-28.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b9 - Segurança ou excesso? Foi assim que...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GUA (variante 0, expressao stern); BUK (variante 0, expressao smug) | multidao: 26 de POV
+- Personagens principais (2): GUA (variante 0, expressao stern); BUK (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -210,8 +204,8 @@ kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/prison | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 4% | medio 71% | aberto 25% | detalhe 0%
-- Interacoes: b0 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 vai ate o outro, b8 o outro se aproxima
+- Objeto heroi: kit/prison | grandes momentos: b6, b8 | planos abertos: 6 | mistura: close 5% | medio 57% | aberto 38% | detalhe 0%
+- Interacoes: b0 aproxima-se, b3 discutir, b4 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -225,9 +219,11 @@ kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano de multidao; plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; multidao de 26 (PRE) ATRAS dos principais; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- PERSONAGENS: GUA na esquerda, expressao stern; BUK na direita, expressao smug; sem multidao; acao: conversar
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (28.5-30.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (30.2-31.9 s): mesmo angulo
 <!-- /FICHA -->
 

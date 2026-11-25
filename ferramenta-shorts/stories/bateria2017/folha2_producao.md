@@ -19,9 +19,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "100 DIAS OU GRÁTIS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): mesmo angulo
-  - take 2 (1.9-3.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (0.2-1.7 s): mesmo angulo
+  - take 2 (1.7-3.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - E tudo começou com uma resposta curta, escrita no celular.
@@ -41,9 +41,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao laugh; JOR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/phone: FRENTE, esquerda; tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (4.1-5.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (5.8-7.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (4.4-5.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (5.8-7.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.
@@ -63,9 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.0 m de altura x 6.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: AUSTRÁLIA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (7.8-9.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (9.4-11.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Cem dias para entregar. Senão, seria de graça.
@@ -85,15 +83,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.0 m de altura x 6.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "100 DIAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (10.2-11.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (11.6-13.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b4 - Os jornais calcularam: ele podia perder mais de cinquenta milhões.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao worried) | multidao: 0 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao worried) | multidao: 30 de POV
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, jornais
 - RISCOS: nenhum
@@ -113,10 +113,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que ficou pronta em cerca de cinquenta e cinco dias.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/megapack, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta
 - RISCOS: nenhum
@@ -132,7 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "55 DIAS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Na época, era a maior bateria do mundo.
@@ -150,7 +150,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/megapack no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (2.6 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.0 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b7 - Quem lançou o desafio teve que admitir: ele cumpriu.
@@ -169,9 +169,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CAN na esquerda, expressao laugh; MUS na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (25.2-26.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (26.6-28.1 s): mesmo angulo
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Uma resposta curta, e foi assim que...
@@ -195,10 +193,9 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 0% | medio 79% | aberto 21% | detalhe 0%
+- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 4 | mistura: close 5% | medio 65% | aberto 30% | detalhe 0%
 - Interacoes: b1 susto, b7 aproxima-se
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bateria2017  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bateria2017/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 
@@ -213,6 +210,6 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

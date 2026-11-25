@@ -92,7 +92,25 @@
     ]
    },
    "text": "ERRO DE ETIQUETA",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -138,6 +156,24 @@
      {
       "faz": "mostra",
       "na": "E"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -186,6 +222,18 @@
      {
       "faz": "mostra",
       "na": "chegou"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
      }
     ]
    }
@@ -248,6 +296,30 @@
       "na": "coletou"
      }
     ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -295,6 +367,24 @@
      {
       "faz": "mostra",
       "na": "descobriram"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -362,6 +452,30 @@
      {
       "faz": "mostra",
       "na": "bico"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_long",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -448,6 +562,36 @@
       "na": "bico"
      }
     ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_long",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -495,6 +639,24 @@
      {
       "faz": "mostra",
       "na": "sobrevivia"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -573,6 +735,24 @@
      {
       "faz": "mostra",
       "na": "esqueceu"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

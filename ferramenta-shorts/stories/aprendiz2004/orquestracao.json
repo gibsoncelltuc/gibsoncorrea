@@ -54,24 +54,6 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tv"
-   ],
-   "palavras": 8,
-   "cena": "b1",
-   "frase": "E não foi na política. Foi na televisão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "POV",
     "POV"
    ],
@@ -153,7 +135,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV",

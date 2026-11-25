@@ -222,8 +222,7 @@ kit/boardgame | b0, b1, b3, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close
 ## Video inteiro
 - Objeto heroi: kit/boardgame | grandes momentos: b2, b8 | planos abertos: 2 | mistura: close 9% | medio 73% | aberto 12% | detalhe 6%
 - Interacoes: b0 o outro se aproxima, b3 entregar, b5 discutir, b6 susto, b8 pular, b9 insiste
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py trumpgame1989  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/trumpgame1989/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 

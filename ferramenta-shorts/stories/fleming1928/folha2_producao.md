@@ -20,9 +20,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/petri_mofo: FRENTE, centro (objeto principal da cena); tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "MOFO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (0.2-1.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.5-2.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.6-3.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - E tudo porque o cientista saiu de férias.
@@ -41,7 +41,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FLE no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1928, Alexander Fleming trabalhava num laboratório em Londres.
@@ -61,9 +61,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MED na esquerda, expressao neutral; MED na direita, expressao smile; multidao de 8 (MED, POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: INGLATERRA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (5.7-7.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (7.2-8.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (6.7-8.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.2-9.6 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Ele deixava os pratos de bactérias empilhados na bancada.
@@ -86,9 +86,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/petri: FRENTE, direita; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/petri: FRENTE, esquerda; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/petri: FRENTE, direita; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (9.0-10.7 s): mesmo angulo
-  - take 2 (10.7-12.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (10.0-11.5 s): mesmo angulo
+  - take 2 (11.5-13.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Saiu de férias por um mês e não limpou nada.
@@ -107,9 +107,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FLE na esquerda, expressao grin, segura bag; COL na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (12.6-14.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.4-16.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (13.3-15.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (15.0-16.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Na volta, um prato estava coberto de bolor verde.
@@ -129,9 +129,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: FLE no centro, expressao angry; sem multidao; acao: fala/gesto
 - OBJETO kit/petri_mofo: FRENTE, centro (objeto principal da cena); tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (16.4-18.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (18.1-19.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (17.0-18.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (18.5-20.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que, em volta do mofo, as bactérias tinham sumido.
@@ -156,7 +156,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@40
 - SOM: sting@60
 - TEXTO NA TELA: "BACTÉRIAS SUMIRAM" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (20.4-22.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (22.0-23.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - O mofo matava bactérias. Era a penicilina.
@@ -174,7 +176,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/petri_mofo no centro, manobra "parado"
 - PASSOS NA TELA: MOFO -> PENICILINA -> BACTÉRIA MORRE
-- TAKES: 1 take de explicacao (2.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.2 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Virou remédio e salvou milhões de pessoas.
@@ -193,7 +195,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: MED na esquerda, expressao smile; MED no centro, expressao grin; POV na direita, expressao relief; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Fleming ganhou até o Nobel. E foi assim que...
@@ -236,8 +238,8 @@ kit/petri | b3 | pronto | conferir na folha de contato se le bem; se parecer cai
 - PERSONAGENS: FLE na esquerda, expressao smile, segura book; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/petri_mofo: FRENTE, centro (objeto principal da cena); tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (28.3-30.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (30.1-31.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (29.3-30.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (30.8-32.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

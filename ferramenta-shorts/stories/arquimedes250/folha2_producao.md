@@ -21,7 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
 - SOM: steps@10
 - TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.0-1.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.5-3.0 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b1 - E foi a banheira que pegou um ladrão de ouro.
@@ -40,9 +42,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: REI na esquerda, expressao smile; OUR na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (2.5-4.3 s): mesmo angulo
-  - take 2 (4.3-6.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (3.3-5.0 s): mesmo angulo
+  - take 2 (5.0-6.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Foi em Siracusa, na Sicília, há dois mil anos.
@@ -62,7 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao neutral; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: SICÍLIA (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (7.0-8.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.5-10.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b3 - O rei desconfiou que o ourives misturou prata na coroa.
@@ -81,9 +85,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI na esquerda, expressao stern; OUR na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (9.5-10.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (10.9-12.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (10.4-12.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.1-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Ele mandou Arquimedes achar a resposta, sem estragar a coroa.
@@ -102,9 +106,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI na esquerda, expressao angry, segura paper; ARQ na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (12.4-14.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (14.5-16.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (14.1-15.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (15.8-17.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que, ao entrar na banheira, a água transbordou.
@@ -127,7 +131,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: whoosh@50
 - SOM: ding@70
-- TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - A água que sai tem o tamanho do corpo que entra.
@@ -145,7 +149,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bathtub no centro, manobra "parado"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.7 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b7 - Coroa com prata é maior, e derrama mais água.
@@ -163,7 +167,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/coroa_louros no centro, manobra "parado"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (3.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.9 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Conta a lenda: ele gritou Eureca. A coroa tinha prata.
@@ -187,7 +191,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - SOM: sting@80
 - TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b9 - Dá para enganar muita gente, mas não a água. E foi assim que...
@@ -232,8 +236,9 @@ kit/coroa_louros | b3, b4, b8 | pronto | conferir na folha de contato se le bem;
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
 - SOM: steps@10
 - TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (30.5-32.1 s): mesmo angulo
-  - take 2 (32.1-33.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (32.2-33.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.7-35.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (35.2-36.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

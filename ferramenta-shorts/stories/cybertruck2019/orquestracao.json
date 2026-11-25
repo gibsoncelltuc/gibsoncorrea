@@ -109,11 +109,11 @@
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 30,
    "objetos": [
     "kit/cybertruck"
    ],
@@ -133,7 +133,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "DSG"
    ],
@@ -177,7 +177,7 @@
    "cenario": "hall"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "MUS",
     "DSG"
@@ -189,7 +189,7 @@
    "palavras": 11,
    "cena": "b8",
    "frase": "Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

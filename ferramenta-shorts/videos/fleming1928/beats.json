@@ -90,7 +90,25 @@
     ]
    },
    "text": "MOFO",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/petri_mofo",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -219,6 +237,42 @@
       "na": "empilhados"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/petri",
+      "lugar": "FRENTE, esquerda",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/petri",
+      "lugar": "FRENTE, direita",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/petri",
+      "lugar": "FRENTE, esquerda",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/petri",
+      "lugar": "FRENTE, direita",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -286,6 +340,24 @@
       "na": "bolor"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/petri_mofo",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -348,6 +420,24 @@
      {
       "faz": "mostra",
       "na": "sumido"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e petri_mofo juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri_mofo",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -449,6 +539,24 @@
       "na": "Fleming"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/petri_mofo",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "2% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   }
  ],
@@ -482,5 +590,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um mofo esquecido numa mesa baguncada salvou milhoes, porque o cientista saiu de ferias. Pagamento: o bolor matava as bacterias, virou a penicilina e salvou milhoes; ele ganhou o Nobel.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }

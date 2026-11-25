@@ -93,6 +93,24 @@
       "na": "luzes"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -129,8 +147,8 @@
    "props": [
     [
      "kit/falcon_air",
-     7.0,
-     -14.0,
+     0.0,
+     -8.0,
      1.0,
      {
       "fixo": true
@@ -138,18 +156,14 @@
     ],
     [
      "kit/rocket",
-     2.4,
-     0.2,
+     3.6,
+     -2.0,
      0.5,
      {
       "fixo": true
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "set": "loc_pista",
    "tela": false,
    "bloco": "prova",
@@ -160,6 +174,35 @@
      {
       "faz": "mostra",
       "na": "lançou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 20.6,
+   "d1": 19.6,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "reveal",
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "revelacao (camera sobe e abre); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rocket",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -218,11 +261,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "set": "loc_montanha",
    "bloco": "prova",
    "say": "Viu pelo menos cinquenta e seis luzes em fila.",
@@ -232,6 +270,24 @@
      {
       "faz": "mostra",
       "na": "cinquenta"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "loc_montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -257,9 +313,9 @@
    "props": [
     [
      "kit/phone",
-     0.0,
-     -0.8,
-     0.9,
+     1.0,
+     1.0,
+     0.7,
      {
       "fixo": true
      }
@@ -273,6 +329,19 @@
      {
       "faz": "mostra",
       "na": "relatos"
+     }
+    ]
+   },
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -400,6 +469,24 @@
       "na": "Internet"
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/starlink_train",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   }
  ],
@@ -444,5 +531,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: uma fila de luzes no ceu da Europa foi tratada como ETs e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 6
 }

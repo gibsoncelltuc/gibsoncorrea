@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 5.7s - 8 palavras - plano two
+## Cena b1 - 3.7s a 5.7s - 8 palavras - plano close
 > "E não foi na política. Foi na televisão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -109,7 +109,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 20.4s a 22.1s - 10 palavras - plano orbit
+## Cena b6 - 20.4s a 22.1s - 10 palavras - plano crowd
 > "A final teve uns vinte e oito milhões de espectadores."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -117,13 +117,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | 28 MILHÕES | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 22: parada, reagindo (laugh), sempre ATRAS dos personagens principais

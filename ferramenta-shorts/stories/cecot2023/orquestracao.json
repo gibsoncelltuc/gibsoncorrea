@@ -18,7 +18,8 @@
   {
    "camera": "two",
    "personagens": [
-    "GUA"
+    "GUA",
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
@@ -54,8 +55,9 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
+    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -65,15 +67,9 @@
    "palavras": 7,
    "cena": "b2",
    "frase": "Ela abriu em 2023, em El Salvador.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -101,7 +97,7 @@
     "GUA",
     "GUA"
    ],
-   "multidao": 16,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],
@@ -158,12 +154,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [],
    "palavras": 7,
    "cena": "b7",
@@ -175,7 +171,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "BUK",
     "POV"
@@ -187,9 +183,15 @@
    "palavras": 8,
    "cena": "b8",
    "frase": "O modelo passou a ser copiado e criticado.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -199,7 +201,7 @@
     "GUA",
     "BUK"
    ],
-   "multidao": 26,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],

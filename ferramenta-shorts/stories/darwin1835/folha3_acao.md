@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.3s - 11 palavras - plano two
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
 > "Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra."
 
 - LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "etiqueta" (0.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "etiqueta" (0.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,11 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.6s a 6.0s - 8 palavras - plano two
+## Cena b1 - 4.1s a 6.7s - 8 palavras - plano two
 > "E tudo começou no bico de um passarinho."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "E" (3.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "E" (4.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -38,53 +38,54 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.1s a 8.0s - 7 palavras - plano wide
+## Cena b2 - 7.0s a 9.3s - 7 palavras - plano wide
 > "Em 1835, Darwin chegou às ilhas Galápagos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (7.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (8.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (7.1s) | EFEITO: dust | poeira + som | OK |
+| 1 | chegou (8.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | MAPA | GALÁPAGOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (7.1s): executa: poeira + som
+- EFEITO: dust na palavra chegou (8.1s): executa: poeira + som
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- kit/navio_fragata CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 <!-- /FISICA -->
 
-## Cena b3 - 8.2s a 12.5s - 11 palavras - plano wide
+## Cena b3 - 9.6s a 13.3s - 11 palavras - plano wide
 > "Coletou passarinhos de ilha em ilha, sem anotar de onde vinham."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "coletou" (8.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "coletou" (9.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 13.1s a 15.3s - 6 palavras - plano group
+## Cena b4 - 13.7s a 15.6s - 6 palavras - plano group
 > "Em Londres, descobriram: eram todos tentilhões."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "descobriram" (13.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "descobriram" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobriram: (13.9s) | EFEITO: ring | onda + som | OK |
+| 1 | descobriram: (14.4s) | EFEITO: ring | onda + som | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra descobriram: (13.9s): executa: onda + som
+- EFEITO: ring na palavra descobriram: (14.4s): executa: onda + som
 <!-- /FISICA -->
 
-## Cena b5 - 15.5s a 18.4s - 11 palavras - plano two
+## Cena b5 - 15.9s a 19.6s - 11 palavras - plano two
 > "A diferença estava no bico: grosso para sementes, fino para insetos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (16.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (17.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -97,11 +98,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 18.5s a 22.5s - 12 palavras - plano two
+## Cena b6 - 20.0s a 24.1s - 12 palavras - plano two
 > "Acontece que cada ilha tinha o bico certo para a sua comida."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (20.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (22.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -116,11 +117,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 22.6s a 24.6s - 6 palavras - plano group
+## Cena b7 - 24.4s a 26.3s - 6 palavras - plano group
 > "Quem tinha o bico certo sobrevivia."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sobrevivia" (24.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sobrevivia" (26.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -131,11 +132,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 25.1s a 27.4s - 7 palavras - plano two
+## Cena b8 - 26.7s a 28.9s - 7 palavras - plano two
 > "Em 1859, isso virou a seleção natural."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "seleção" (27.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "seleção" (28.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -152,11 +153,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 27.8s a 31.1s - 7 palavras - plano two
+## Cena b9 - 29.3s a 31.5s - 7 palavras - plano two
 > "Darwin nunca mais esqueceu de anotar. Porque..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esqueceu" (29.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esqueceu" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

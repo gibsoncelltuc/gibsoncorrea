@@ -74,10 +74,6 @@
    ],
    "mapa_at": 1,
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "gancho",
    "say": "Um país pequeno decidiu virar a capital mundial do surfe.",
    "encena": {
@@ -90,7 +86,24 @@
     ]
    },
    "text": "SURF CITY",
-   "titulo": true
+   "titulo": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -112,10 +125,6 @@
     ]
    ],
    "set": "street",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E os surfistas do mundo inteiro foram atrás.",
    "encena": {
@@ -124,6 +133,23 @@
      {
       "faz": "mostra",
       "na": "surfistas"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -149,10 +175,6 @@
     ]
    ],
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "mapa": "EL SALVADOR",
    "detalhe": true,
    "bloco": "prova",
@@ -163,6 +185,23 @@
      {
       "faz": "mostra",
       "na": "lançou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -209,10 +248,6 @@
     ]
    ],
    "set": "harbor",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "prova",
    "say": "Em 2021, o país sediou o Mundial de Surfe.",
    "encena": {
@@ -221,6 +256,29 @@
      {
       "faz": "mostra",
       "na": "sediou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -267,10 +325,6 @@
     ]
    ],
    "set": "harbor",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "escalada",
    "say": "Depois, vieram 294 surfistas, de olho em Paris.",
    "encena": {
@@ -279,6 +333,29 @@
      {
       "faz": "mostra",
       "na": "vieram"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -305,10 +382,6 @@
     ]
    ],
    "interior": "loja",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "O governo promete quinhentos mil empregos, sem garantia.",
    "encena": {
@@ -317,6 +390,23 @@
      {
       "faz": "mostra",
       "na": "promete"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -367,10 +457,6 @@
     ]
    ],
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 2025, o Mundial voltou para lá.",
    "encena": {
@@ -379,6 +465,23 @@
      {
       "faz": "mostra",
       "na": "voltou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -404,10 +507,6 @@
    ],
    "mapa_at": 1,
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "loop",
    "say": "Capital do surfe ou exagero? Só sei que foi assim que...",
    "encena": {
@@ -416,6 +515,23 @@
      {
       "faz": "mostra",
       "na": "do"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/surfboard",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

@@ -21,7 +21,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: sting@60
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E não foi na política. Foi na televisão.
@@ -44,9 +44,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (3.0-4.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (4.6-6.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 2004, estreou o programa O Aprendiz.
@@ -66,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "O APRENDIZ" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Candidatos disputavam um emprego numa empresa dele.
@@ -85,9 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de multidao
 - PERSONAGENS: TRU na esquerda, expressao grin; CND na direita, expressao nervous; multidao de 16 (POV) ATRAS dos principais; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (8.4-10.2 s): mesmo angulo
-  - take 2 (10.2-11.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - A equipe que perdia ia para a sala de reunião.
@@ -108,9 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (12.1-14.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (14.0-15.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que ali Trump apontava o dedo e dizia: você está demitido.
@@ -134,10 +128,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (16.4-17.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (17.9-19.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (19.5-21.0 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (16.1-17.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (17.6-19.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b6 - A final teve uns vinte e oito milhões de espectadores.
@@ -161,7 +154,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "28 MILHÕES" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - No Brasil, a versão teve Roberto Justus.
@@ -204,9 +197,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: conversar
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "2004-2015" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (27.2-28.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (28.9-30.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Virou a marca dele. E foi assim que...
@@ -233,8 +224,7 @@ mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 54% | medio 37% | aberto 7% | detalhe 2%
 - Interacoes: b2 vai ate o outro, b4 discutir, b7 aproxima-se
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py aprendiz2004  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/aprendiz2004/moodboard.jpg
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 
@@ -252,6 +242,6 @@ mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer ca
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: sting@60
 - TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

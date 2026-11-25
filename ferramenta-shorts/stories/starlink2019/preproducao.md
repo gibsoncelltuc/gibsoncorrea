@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 1 | reagir, batalha | kit/starlink_train | - | -
 b1 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/rocket | - | -
-b2 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/falcon_air, kit/starlink_sat | - | -
+b2 | loc_pista | reveal | 1 | parados (so fala e pisca) | kit/falcon_air, kit/starlink_sat | - | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b4 | loc_montanha | wide | 1 | parados (so fala e pisca) | kit/starlink_train | - | -
 b5 | loc_cidade | crowd | 1 | reagir, batalha | kit/phone | - | -

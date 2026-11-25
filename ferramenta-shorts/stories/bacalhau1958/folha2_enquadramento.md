@@ -21,12 +21,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Foram três Guerras do Bacalhau, em quase vinte anos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
-- PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-
-## b2: "Foram três Guerras do Bacalhau, em quase vinte anos."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_leander (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ICE na esquerda, expressao stern; BRI na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_leander: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -63,11 +57,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "E eles cortavam as redes inglesas no meio do mar."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o barco_guarda (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/barco_guarda: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/barco_guarda: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.7 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/navio_leander: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO respingo: no chao; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
 - SOM: creak@30
@@ -82,11 +76,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "As duzentas milhas viraram regra no mundo. E foi assim que..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o barco_guarda (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/barco_guarda: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/barco_guarda: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.7 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/navio_leander: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 28.0 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO respingo: no chao; entra no quadro +40 da cena
 - SOM: creak@40
 - TEXTO NA TELA: "ISLÂNDIA VENCEU" flutuando no alto, na palavra 17 da frase

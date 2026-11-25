@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Bitcoin Feito com Vulcão | Bitcoin Feito com Vulcão / Um Parece Mas Em El Salvador 2021 | SEM REFERENCIA
+tema | Bitcoin Feito com Vulcão | Bitcoin Feito com Vulcão / Um Parece Mas Em El Salvador 2021 | Recognizing Medalists of the 2023 Central American (referencias/vulcao2021/prints/bitcoin_feito_com_vulc_o_24642c.jpg); Recognizing Medalists of the 2023 Central American (referencias/vulcao2021/prints/bitcoin_feito_com_vulc_o_28b4eb.jpg); Yamil Alejandro Bukele Pérez.jpg (referencias/vulcao2021/prints/bitcoin_feito_com_vulc_o_b6f208.jpg)
 lugar | Usina geotermica de Berlin, no vulcao Tecapa (Usulutan, El Salvador): usina com | Usina geotermica de Berlin no vulcao Tecapa / Usina geotermica de Berlin no vulcao Tecapa Usulutan El Salvador 2021 | SEM REFERENCIA
 lugar | El Salvador | El Salvador 2021 / El Salvador landscape | Tomada da cidade de São Salvador século XVIII (pan (referencias/vulcao2021/prints/el_salvador_8bd7f4.jpg); Salvador Dali NYWTS.jpg (referencias/vulcao2021/prints/el_salvador_9c778a.jpg); Salvador Bahia Airport - SSA.jpg (referencias/vulcao2021/prints/el_salvador_7befe9.jpg)
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | HK WC night Johnston Road shop Maple Fashion Cloth (referencias/vulcao2021/prints/roupas_e_ruas_de_2021_b29385.jpg); HK WCD Wan Chai Johnston Road shop clothing Maple  (referencias/vulcao2021/prints/roupas_e_ruas_de_2021_1496e9.jpg); HK WCD Wan Chai Johnston Road shop clothing Maple  (referencias/vulcao2021/prints/roupas_e_ruas_de_2021_cc4f85.jpg)
@@ -24,10 +24,10 @@ objeto | moeda de bitcoin | moeda de bitcoin / moeda de bitcoin 2021 | Coins of 
 objeto | computadores de mineracao (ASIC) | computadores de mineracao / computadores de mineracao 2021 | SEM REFERENCIA
 objeto | turbina | turbina / turbina 2021 | Dampfturbine Laeufer01.jpg (referencias/vulcao2021/prints/turbina_3482fc.jpg); Charles Louis Hett and the Hercules Turbine - 1890 (referencias/vulcao2021/prints/turbina_2e77a8.jpg); Test of ORPC's autonomous turbine generator unit ( (referencias/vulcao2021/prints/turbina_09a5bb.jpg)
 objeto | vulcao | vulcao / vulcao 2021 | SEM REFERENCIA
-heroi | bitcoin | moeda de bitcoin / Bitcoin Feito com Vulcão | SEM REFERENCIA
-heroi | volcano | volcano | SEM REFERENCIA
-heroi | miners | miners | SEM REFERENCIA
-epoca | fabrica da epoca | factory 2021 / factory | SEM REFERENCIA
+heroi | bitcoin | moeda de bitcoin / Bitcoin Feito com Vulcão | Coins of the Italian Republic (500 Lire) silver (C (referencias/vulcao2021/prints/bitcoin_4189d7.jpg); Reverse of 1 Qiran Iranian Coin - Fath Ali Shah Qh (referencias/vulcao2021/prints/bitcoin_da1657.jpg)
+heroi | volcano | volcano | Tavurvur volcano edit.jpg (referencias/vulcao2021/prints/volcano_bbbdad.jpg); Taal Volcano eruption on January 12, 2020.jpg (referencias/vulcao2021/prints/volcano_f94d48.jpg)
+heroi | miners | miners | Miners sculpture Silesian Park Marian Wnuk.jpg (referencias/vulcao2021/prints/miners_fee6ff.jpg); Zheltuga miners 4.jpg (referencias/vulcao2021/prints/miners_12f7c9.jpg); Zheltuga miners 3.jpg (referencias/vulcao2021/prints/miners_109fe4.jpg)
+epoca | fabrica da epoca | factory 2021 / factory | Old Sugar factory (Cukrarna, Ljubljana).jpg (referencias/vulcao2021/prints/fabrica_da_epoca_d85d5e.jpg); Bunya sculpture, Cooroy Butter Factory Arts Centre (referencias/vulcao2021/prints/fabrica_da_epoca_919680.jpg); Cooroy Butter Factory foundation stone, 2021.jpg (referencias/vulcao2021/prints/fabrica_da_epoca_a7d9cd.jpg)
 mecanismo | O vapor da terra gira turbinas e vira eletricidade. | vapor terra turbinas eletricidade / turbina diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

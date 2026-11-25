@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Mais de oitenta mil pessoas lotaram o estádio.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); POV (variante 2, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); POV (variante 2, expressao grin) | multidao: 30 de POV
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, oitenta
 - RISCOS: nenhum
@@ -137,9 +137,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o lutador de Trump venceu, e o estádio foi abaixo.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 18 de POV
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ring, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
@@ -149,7 +149,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: LAS (lutador) no centro, expressao laugh; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: LAS (lutador) no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -185,10 +185,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - E o juiz derrubou Trump também.
 - Cenario: stadium | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): JUI (variante 0, expressao angry); TRU (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: conversar | interacao: discutir
+- Animacao: reagir
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
@@ -209,7 +209,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): TRU (variante 0, expressao smug); VIN (variante 0, expressao shock)
-- Animacao: comemorar | interacao: o outro se aproxima
+- Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fama, hall
 - RISCOS: nenhum
@@ -225,10 +225,9 @@ kit/ball | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 0% | medio 76% | aberto 24% | detalhe 0%
-- Interacoes: b0 susto, b3 cochichar, b4 pular, b7 discutir, b8 discutir, b9 o outro se aproxima
-- RISCOS GERAIS: 
-  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py wrestlemania2007  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/wrestlemania2007/moodboard.jpg
+- Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 6 | mistura: close 4% | medio 58% | aberto 38% | detalhe 0%
+- Interacoes: b0 susto, b3 cochichar, b7 discutir, b9 pular
+- RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
 
