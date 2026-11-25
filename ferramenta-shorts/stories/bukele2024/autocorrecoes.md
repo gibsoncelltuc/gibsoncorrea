@@ -31,3 +31,6 @@
 
 ## 25/11 03:56 autocorrecao de visibilidade
 - b5: objeto citado "kit/ballot_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 03:56 autocorrecao de visibilidade
+- b5: objeto citado "kit/ballot_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
