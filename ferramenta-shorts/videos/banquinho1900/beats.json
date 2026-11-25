@@ -222,7 +222,19 @@
    "cz": -0.6,
    "d0": 8.5,
    "d1": 7.5,
-   "h": 1.8
+   "h": 1.8,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -391,7 +403,19 @@
    "d0": 8.0,
    "d1": 7.0,
    "quadro_manual": true,
-   "h": 1.8
+   "h": 1.8,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/golden_stool",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",

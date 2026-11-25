@@ -32,7 +32,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | HOSPITAL | OK |
+| 1 | - | PLACA | PRA CIMA E PRA BAIXO | OK |
 
 ## Cena b3 - 6.9s a 9.1s - 6 palavras - plano close
 > "Tchau, bichinhos! Meus dentes vão brilhar!"

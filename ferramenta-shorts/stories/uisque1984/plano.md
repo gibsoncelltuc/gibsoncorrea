@@ -12,8 +12,8 @@ b6 | two | -  | objeto na mao | - | -
 b7 | group | -  | - | encena: chega (point) @5 (acao + som de efeito); encena: x_entrega (reach) @8 (acao + som de efeito) | -
 b8 | wide | -  | tropa | encena: x_ri (up) @11 (acao + som de efeito) | -
 b9 | two | -  | interior, objeto na mao | encena: x_aperta (point) @8 (acao + som de efeito) | -
-b10 | group | -  | interior | - | -
-b11 | close | -  | interior, placa: COMENTE! | - | -
+b10 | close | -  | interior | - | -
+b11 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 63% | aberto 21% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 62% | aberto 21% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

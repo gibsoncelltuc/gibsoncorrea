@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 25/11 03:10 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -16,8 +16,8 @@ b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | 
 b7 | simples | arctic | group | CAN, DIN | - | tequila_bolt, flagpole | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
 b8 | simples | arctic | wide | CAN, DIN | - | whisky | - | A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entr
 b9 | simples | interior pedra | two | PRE, MIN | - | - | - | Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
-b10 | simples | interior pedra | group | CAN | - | whisky | - | A guerra mais educada da história acabou sem um tiro e com muito uísqu
-b11 | simples | interior pedra | close | CAN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b10 | simples | interior pedra | close | CAN | - | whisky | - | A guerra mais educada da história acabou sem um tiro e com muito uísqu
+b11 | simples | interior pedra | two | CAN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

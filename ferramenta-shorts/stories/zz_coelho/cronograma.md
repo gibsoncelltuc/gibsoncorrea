@@ -1,15 +1,15 @@
 # CRONOGRAMA - Teste EP 99 - Teste Coelhinho
 
-Gerado em 25/11 15:15 | 4 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 0%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:26 | 4 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 0%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior hospital | two | COE | - | sink, Stool | - | Escova, escova, vai, vai, vai!
-b1 | simples | interior hospital | close | COE | - | sink | - | Um pinguinho de pasta, só isso!
-b2 | simples | interior hospital | two | COE | - | sink | - | Pra cima e pra baixo, bem devagar.
-b3 | simples | interior hospital | close | COE | - | - | - | Tchau, bichinhos! Meus dentes vão brilhar!
+b0 | simples | interior madeira | two | COE | - | sink, Stool | - | Escova, escova, vai, vai, vai!
+b1 | simples | interior madeira | close | COE | - | sink | - | Um pinguinho de pasta, só isso!
+b2 | simples | interior madeira | two | COE | - | sink | - | Pra cima e pra baixo, bem devagar.
+b3 | simples | interior madeira | close | COE | - | - | - | Tchau, bichinhos! Meus dentes vão brilhar!
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -4,9 +4,9 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b0: objeto "kit/lobster" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+2. b0: objeto "kit/lobster" saiu com 8% da altura da tela, a ficha de cena planejou 32%
 3. b1: objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30%
-4. b9: objeto "kit/lobster" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+4. b9: objeto "kit/lobster" saiu com 8% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "A França e o Brasil quase entraram em guerra por causa de um": 

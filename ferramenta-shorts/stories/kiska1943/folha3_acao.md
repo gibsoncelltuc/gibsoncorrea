@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 13 palavras - plano two
@@ -112,7 +112,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | FOGO AMIGO | OK |
 
-## Cena b9 - 46.2s a 50.4s - 15 palavras - plano group
+## Cena b9 - 46.2s a 50.4s - 15 palavras - plano crowd
 > "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -125,9 +125,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | tiros (48.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 4 | bateu (49.9s) | EFEITO: dust | poeira + som | OK |
 | 5 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 6 | - | INTERACAO | empurrar | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | MINA | OK |
+| 6 | - | PLACA | MINA | OK |
 
 ## Cena b10 - 51.5s a 53.7s - 9 palavras - plano prop
 > "No fim, só acharam na ilha alguns cachorros abandonados."

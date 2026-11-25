@@ -19,3 +19,9 @@
 ## 25/11 02:16 autocorrecao de visibilidade
 - b10: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b4: ja corrigida 3 vezes, objeto ENORME "war/flagpole" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho
+
+## 25/11 15:35 autocorrecao de visibilidade
+- b10: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 15:36 autocorrecao de visibilidade
+- b10: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro

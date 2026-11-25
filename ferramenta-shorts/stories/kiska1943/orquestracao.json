@@ -35,7 +35,7 @@
     "CAN",
     "USA"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/navio_vapor",
     "vehicles/airplane"
@@ -192,14 +192,15 @@
    "cenario": "arctic"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "USA",
     "CAN"
    ],
-   "multidao": 12,
+   "multidao": 48,
    "objetos": [
-    "kit/navio_encouracado"
+    "kit/navio_encouracado",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 15,
    "cena": "b9",

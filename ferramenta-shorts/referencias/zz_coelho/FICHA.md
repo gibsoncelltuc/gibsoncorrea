@@ -7,7 +7,7 @@
 - Roupas: cachecol azul
 - Cenario real: banheiro com pia
 - Objetos: escova de dentes
-- Cenarios usados no video: interior hospital
+- Cenarios usados no video: interior madeira
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

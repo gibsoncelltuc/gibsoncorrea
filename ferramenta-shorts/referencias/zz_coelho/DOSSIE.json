@@ -7,7 +7,7 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "interior hospital"
+   "interior madeira"
   ],
   "cenarios_trocados": [
    [
@@ -39,10 +39,13 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/maca",
-  "kit/room_hospital",
+  "kit/room_europa_wood",
   "kit/sink",
-  "mk/Stool"
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Stool",
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "onde": "banheiro",

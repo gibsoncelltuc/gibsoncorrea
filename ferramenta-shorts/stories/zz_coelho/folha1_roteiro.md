@@ -26,7 +26,7 @@ Voz: pt-BR-FranciscaNeural +0% | Clima do video: - | Cenario base: loc_campo | 4
 - Efeitos sonoros marcados: tick@10, tick@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@10, puff@40
-- Texto na tela: HOSPITAL
+- Texto na tela: PRA CIMA E PRA BAIXO
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~2.1 s)

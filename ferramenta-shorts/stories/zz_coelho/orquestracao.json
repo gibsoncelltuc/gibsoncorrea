@@ -32,7 +32,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -50,7 +50,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -68,7 +68,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "interior madeira"
   },
   {
    "camera": "close",
@@ -84,7 +84,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior hospital"
+   "cenario": "interior madeira"
   }
  ]
 }

@@ -70,7 +70,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b10: "A guerra mais educada da história acabou sem um tiro e com muito uísque."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)
 - PERSONAGENS: CAN (soldado) no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/whisky: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
