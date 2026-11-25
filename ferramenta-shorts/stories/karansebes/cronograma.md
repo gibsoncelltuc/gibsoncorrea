@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Gerado em 25/11 05:53 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 10:00 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | chave | countryside | track | HUS, HUS | 6 | lantern | corpo: cavaleiro gal
 b3 | simples | countryside | two | HUS, LOC | 6 | barrel, barrel_r | - | Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 b4 | simples | countryside | group | HUS, HUS | 6 | barrel, lantern | - | Compraram tudo, beberam, e a festa começou.
 b5 | simples | countryside | two | AUT, HUS, AUT | 6 | - | - | Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividi
-b6 | chave | countryside | orbit | HUS | 48 | campfire, tent | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampam
+b6 | chave | countryside | group | HUS | 12 | campfire, tent | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampam
 b7 | chave | countryside | crowd | AUT, AUT, HUS | 48 | house_small, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava 
 b8 | simples | countryside | group | OFF | 6 | cannon | - | Um oficial mandou usar a artilharia, e os canhões dispararam contra o 
 b9 | simples | countryside | two | TUR, TUR | 5 | campfire, tent | - | Dois dias depois, os turcos chegaram e acharam o acampamento abandonad

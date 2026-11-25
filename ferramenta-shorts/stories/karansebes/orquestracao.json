@@ -137,11 +137,11 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "HUS"
    ],
-   "multidao": 48,
+   "multidao": 12,
    "objetos": [
     "kit/campfire",
     "kit/tent"

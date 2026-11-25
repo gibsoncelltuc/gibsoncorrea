@@ -10,7 +10,7 @@ b2 | countryside | track | 8 | encena, andando | tools/lantern | lantern | -
 b3 | countryside | two | 8 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
 b4 | countryside | group | 8 | beber, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
 b5 | countryside | two | 9 | discutir, INTERAGEM: discutir, alguem chega andando | - | - | -
-b6 | countryside | orbit | 13 | conversar, batalha | kit/campfire, kit/tent | - | -
+b6 | countryside | group | 13 | conversar, batalha | kit/campfire, kit/tent | - | -
 b7 | countryside | crowd | 51 | reagir, batalha | buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b8 | countryside | group | 7 | reagir | cannon | - | -
 b9 | countryside | two | 7 | reagir, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/campfire, kit/tent | spyglass | -
