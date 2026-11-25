@@ -7,7 +7,7 @@
    "item": "O Químico que Sonhou com uma Cobra",
    "consultas": [
     "O Químico que Sonhou com uma Cobra",
-    "Um Era Gante Bélgica August Kekulé 1865"
+    "Ninguém Em Bélgica August Kekulé 1865"
    ]
   },
   {
@@ -116,9 +116,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "No sonho, os átomos dançavam como cobras. Até que uma delas mordeu o p",
+   "item": "No sonho, átomos dançavam como cobras.",
    "consultas": [
-    "sonho atomos dancavam cobras mordeu proprio",
+    "sonho atomos dancavam cobras",
+    "snake ring diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Uma delas mordeu o próprio rabo.",
+   "consultas": [
+    "mordeu proprio",
     "snake ring diagram"
    ]
   }

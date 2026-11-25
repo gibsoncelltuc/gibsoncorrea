@@ -1,22 +1,22 @@
 # CRONOGRAMA - Guerras Inusitadas EP 23 - A Morte Branca
 
-Gerado em 25/11 11:32 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:46 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | arctic | wide | FIN, SOV | 48 | barn, haybale, picket_fence, scarecrow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um fazendeiro baixinho virou o soldado mais temido de uma guerra intei
-b1 | chave | arctic | crowd | SOV, SOV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era o inverno de mil novecentos e trinta e nove, e a União Soviética i
-b2 | explicativa | arctic | orbit | FIN, FIN, FIN | 32 | bush, tree_oak, tree_pine | - | Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve 
-b3 | simples | arctic | close | FIN | - | - | - | Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
-b4 | simples | arctic | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.
-b5 | simples | arctic | close | FIN | - | - | - | Dizem que ele mantinha neve na boca, para o vapor da respiração não en
-b6 | chave | arctic | wide | FIN, FIN | - | picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por 
-b7 | simples | arctic | group | SOV | - | - | - | Os soviéticos passaram a chamá-lo de Morte Branca.
-b8 | simples | interior hospital | two | FIN, FIN | - | - | - | Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. 
-b9 | simples | interior madeira | close | FIN | - | - | - | Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só
-b10 | simples | interior madeira | two | FIN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | chave | arctic | wide | FIN, SOV | 48 | barn, haybale, picket_fence, scarecrow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um fazendeiro baixinho virou o soldado mais temido de uma guerra.
+b1 | simples | arctic | close | SOV | - | - | - | Os inimigos tinham tanto medo que deram um apelido a ele.
+b2 | chave | arctic | crowd | SOV, SOV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No inverno de 1939, a União Soviética invadiu a Finlândia.
+b3 | explicativa | arctic | group | FIN, FIN, FIN | - | bush, tree_oak, tree_pine | - | Fazia quarenta graus abaixo de zero na floresta.
+b4 | simples | arctic | close | FIN | - | - | - | Um soldado do campo, baixinho, se chamava Simo Häyhä.
+b5 | simples | arctic | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel na neve por horas.
+b6 | simples | arctic | close | FIN | - | - | - | Dizem que punha neve na boca para o vapor não aparecer.
+b7 | chave | arctic | wide | FIN, FIN | 48 | picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em cerca de cem dias, contam mais de quinhentos abatidos por ele.
+b8 | simples | arctic | close | SOV | - | - | - | Os soviéticos o chamavam de Morte Branca.
+b9 | simples | interior hospital | two | FIN, FIN | - | - | - | Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.
+b10 | simples | arctic | wide | FIN, SOV | 32 | - | - | Viveu até 96 anos e dizia: só fiz meu trabalho.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | PENDENTE | bash auditar_acoes.sh local hayha1939 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh hayha1939
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh hayha1939
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local hayha1939 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
-**Etapa atual:** 13. Auditoria das acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

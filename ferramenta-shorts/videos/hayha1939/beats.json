@@ -29,7 +29,6 @@
  },
  "beats": [
   {
-   "say": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira.",
    "shot": "wide",
    "who": [
     "FIN:3:stern",
@@ -37,24 +36,9 @@
    ],
    "tat": 0,
    "tstyle": "red",
-   "mood": "march",
    "batalha": true,
    "set": "arctic",
-   "clima": "neve",
    "shot_lock": true,
-   "lados": [
-    "FIN",
-    "SOV"
-   ],
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "soldado"
-     }
-    ]
-   },
    "crowd": {
     "n": 14,
     "outfits": [
@@ -67,10 +51,42 @@
    "cx": 0.0,
    "cz": -2.5,
    "d0": 12.0,
-   "d1": 9.5
+   "d1": 9.5,
+   "bloco": "gancho",
+   "say": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soldado"
+     }
+    ]
+   },
+   "text": "MORTE BRANCA",
+   "titulo": true
   },
   {
-   "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
+   "shot": "close",
+   "who": [
+    "SOV:1:shock"
+   ],
+   "tat": 8,
+   "tstyle": "red",
+   "set": "arctic",
+   "bloco": "promessa",
+   "say": "Os inimigos tinham tanto medo que deram um apelido a ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apelido"
+     }
+    ]
+   }
+  },
+  {
    "shot": "reveal",
    "set": "arctic",
    "mapa": "FINLÂNDIA",
@@ -85,6 +101,8 @@
     ],
     "march": true
    },
+   "bloco": "prova",
+   "say": "No inverno de 1939, a União Soviética invadiu a Finlândia.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -97,18 +115,14 @@
    }
   },
   {
-   "say": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
    "shot": "group",
    "who": [
     "FIN:0:stern",
     "FIN:1:nervous",
     "FIN:2:stern"
    ],
-   "text": "-40 °C",
    "tat": 18,
    "tstyle": "white",
-   "mood": "tense",
-   "mapa": "FINLÂNDIA",
    "fx": [
     "puff@30"
    ],
@@ -116,7 +130,6 @@
     "whoosh@30"
    ],
    "set": "arctic",
-   "clima": "neve",
    "hud": {
     "contador": {
      "de": 0,
@@ -125,18 +138,19 @@
      "na": "quarenta"
     }
    },
+   "bloco": "prova",
+   "say": "Fazia quarenta graus abaixo de zero na floresta.",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "neve"
+      "na": "quarenta"
      }
     ]
    }
   },
   {
-   "say": "Um deles era um homem do campo, baixinho, chamado Simo Häyhä.",
    "shot": "close",
    "who": [
     "FIN:3:smile"
@@ -144,42 +158,40 @@
    "text": "SIMO HÄYHÄ",
    "props": [],
    "set": "arctic",
-   "clima": "neve",
    "quadro_manual": true,
    "d0": 5.0,
    "d1": 4.5,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Häyhä"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
-   "shot": "low",
-   "who": [
-    "FIN:3:stern"
-   ],
-   "mood": "tense",
-   "set": "arctic",
-   "clima": "neve",
+   "bloco": "prova",
+   "say": "Um soldado do campo, baixinho, se chamava Simo Häyhä.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_espera",
-      "na": "esperava",
-      "quem": 0
+      "faz": "mostra",
+      "na": "Simo"
      }
     ]
    }
   },
   {
-   "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
+   "shot": "low",
+   "who": [
+    "FIN:3:stern"
+   ],
+   "set": "arctic",
+   "bloco": "escalada",
+   "say": "Vestido de branco, ele esperava imóvel na neve por horas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "esperava"
+     }
+    ]
+   }
+  },
+  {
    "shot": "close",
    "who": [
     "FIN:3:neutral"
@@ -187,12 +199,13 @@
    "text": "NEVE NA BOCA",
    "props": [],
    "set": "arctic",
-   "clima": "neve",
    "quadro_manual": true,
    "d0": 5.0,
    "d1": 4.5,
+   "bloco": "escalada",
+   "say": "Dizem que punha neve na boca para o vapor não aparecer.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -202,7 +215,6 @@
    }
   },
   {
-   "say": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
    "shot": "two",
    "who": [
     "FIN:3:stern",
@@ -213,7 +225,8 @@
    "tstyle": "gold",
    "props": [],
    "set": "arctic",
-   "clima": "neve",
+   "bloco": "escalada",
+   "say": "Em cerca de cem dias, contam mais de quinhentos abatidos por ele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -227,7 +240,6 @@
    }
   },
   {
-   "say": "Os soviéticos passaram a chamá-lo de Morte Branca.",
    "shot": "close",
    "who": [
     "SOV:1:shock"
@@ -236,28 +248,27 @@
    "tat": 8,
    "tstyle": "red",
    "set": "arctic",
-   "clima": "neve",
+   "bloco": "pagamento",
+   "say": "Os soviéticos o chamavam de Morte Branca.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "chamá-lo",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "Morte"
      }
     ]
    }
   },
   {
-   "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
    "shot": "two",
    "who": [
     "FIN:3:pained",
     "FIN:1:sad"
    ],
-   "mood": "calm",
    "interior": "hospital",
+   "bloco": "pagamento",
+   "say": "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -271,7 +282,6 @@
    }
   },
   {
-   "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
    "shot": "close",
    "who": [
     "FIN:3:smile"
@@ -280,14 +290,15 @@
    "tat": 17,
    "tstyle": "white",
    "light": "golden",
-   "mood": "calm",
    "interior": "madeira",
+   "bloco": "loop",
+   "say": "Viveu até 96 anos e dizia: só fiz meu trabalho.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "herói"
+      "na": "trabalho"
      }
     ]
    }
@@ -321,5 +332,8 @@
  "serie": "Guerras Inusitadas",
  "ep": 23,
  "titulo_base": "A Morte Branca",
- "variar_cenario": false
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido da guerra, com apelido dado pelos inimigos. Pagamento: mais de 500 abatidos em cem dias e o apelido Morte Branca.",
+ "loop_frase_ok": true
 }

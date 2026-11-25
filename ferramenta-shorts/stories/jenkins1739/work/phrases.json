@@ -1,0 +1,166 @@
+{
+ "duration": 41.976,
+ "frames30": 1259,
+ "source": "silence-align (cost 2.47)",
+ "segments": [
+  [
+   0.165,
+   1.03329
+  ],
+  [
+   1.30983,
+   3.10508
+  ],
+  [
+   3.97408,
+   6.16783
+  ],
+  [
+   7.02475,
+   8.43529
+  ],
+  [
+   8.72025,
+   9.427
+  ],
+  [
+   9.6575,
+   11.9725
+  ],
+  [
+   12.8178,
+   15.3138
+  ],
+  [
+   16.1646,
+   17.2526
+  ],
+  [
+   17.561,
+   18.6411
+  ],
+  [
+   19.5069,
+   20.1413
+  ],
+  [
+   20.3205,
+   21.3748
+  ],
+  [
+   21.5815,
+   23.3999
+  ],
+  [
+   24.2709,
+   27.2271
+  ],
+  [
+   28.0096,
+   29.5498
+  ],
+  [
+   29.7692,
+   32.471
+  ],
+  [
+   33.3771,
+   35.9595
+  ],
+  [
+   36.8285,
+   38.9363
+  ],
+  [
+   39.7965,
+   41.17
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Ningu\u00e9m te conta:",
+   "s": 0.165,
+   "e": 1.033
+  },
+  {
+   "text": "uma orelha cortada come\u00e7ou uma guerra.",
+   "s": 1.31,
+   "e": 3.105
+  },
+  {
+   "text": "E o dono dela levou a orelha at\u00e9 o Parlamento.",
+   "s": 3.974,
+   "e": 6.168
+  },
+  {
+   "text": "Em 1731, perto de Cuba,",
+   "s": 7.025,
+   "e": 8.435
+  },
+  {
+   "text": "espanh\u00f3is pararam o navio de Robert Jenkins.",
+   "s": 8.72,
+   "e": 11.973
+  },
+  {
+   "text": "O capit\u00e3o espanhol cortou a orelha dele com a espada.",
+   "s": 12.818,
+   "e": 15.314
+  },
+  {
+   "text": "\"Leve isso ao seu rei\",",
+   "s": 16.165,
+   "e": 17.253
+  },
+  {
+   "text": "teria dito o espanhol.",
+   "s": 17.561,
+   "e": 18.641
+  },
+  {
+   "text": "Dizem que,",
+   "s": 19.507,
+   "e": 20.141
+  },
+  {
+   "text": "sete anos depois,",
+   "s": 20.32,
+   "e": 21.375
+  },
+  {
+   "text": "Jenkins mostrou a orelha ao Parlamento.",
+   "s": 21.581,
+   "e": 23.4
+  },
+  {
+   "text": "Acontece que a Inglaterra s\u00f3 queria uma desculpa para brigar.",
+   "s": 24.271,
+   "e": 27.227
+  },
+  {
+   "text": "Em 1739,",
+   "s": 28.01,
+   "e": 29.55
+  },
+  {
+   "text": "navios ingleses atacaram portos espanh\u00f3is no Caribe.",
+   "s": 29.769,
+   "e": 32.471
+  },
+  {
+   "text": "Foram quase dez anos de guerra por causa de uma orelha.",
+   "s": 33.377,
+   "e": 35.959
+  },
+  {
+   "text": "E Jenkins nunca recebeu a orelha de volta.",
+   "s": 36.828,
+   "e": 38.936
+  },
+  {
+   "text": "\u00c9 isso que ningu\u00e9m te conta.",
+   "s": 39.797,
+   "e": 41.17
+  }
+ ]
+}

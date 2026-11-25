@@ -7,7 +7,7 @@ WPS = 2.5                      # palavras por segundo da voz (medido: 153 palavr
 MIN_W, MAX_W, DURO_W = 75, 112, 125   # 30-45 s; limite duro 50 s
 BLOCOS = ['gancho', 'promessa', 'prova', 'escalada', 'pagamento', 'loop']
 TIPOS = {'perda', 'ganho', 'crenca', 'segredo'}
-ENCHE = r'\b(tipo|sabe|entao|ne|ai|basicamente|na verdade|tipo assim)\b'
+ENCHE = r'\b(tipo|sabe|ne|ai)\s*[,?!]|,\s*(tipo|sabe|ne|ai)\b|\bentao\b|\bbasicamente\b|\bna verdade\b|\btipo assim\b'   # 'ninguem sabe' (verbo) nao e' enchimento; 'sabe,' / ', tipo' / 'entao' sao
 NUM = r'\d|\b(um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove|dez|onze|doze|vinte|trinta|cem|cento|mil|milhoes?|bilhao|bilhoes|metade|dobro|primeir\w*)\b'
 CTA = r'comente|comentar|inscrev|curte|curtir|proximo video|link na'
 def n_(t): return unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()

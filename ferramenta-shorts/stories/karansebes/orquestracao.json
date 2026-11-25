@@ -19,9 +19,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
+   "frase": "Um exército inteiro perdeu uma batalha contra si mesmo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -35,6 +35,23 @@
    "cenario": "countryside"
   },
   {
+   "camera": "close",
+   "personagens": [
+    "TUR",
+    "TUR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E o inimigo venceu sem disparar um único tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
    "camera": "orbit",
    "personagens": [
     "AUT",
@@ -44,9 +61,9 @@
    ],
    "multidao": 32,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1788, o exército austríaco tinha soldados de vários países.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -64,7 +81,7 @@
     "tools/lantern"
    ],
    "palavras": 10,
-   "cena": "b2",
+   "cena": "b3",
    "frase": "Numa noite, os hussardos foram na frente procurar o inimigo.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -90,8 +107,8 @@
     "kit/barrel_r"
    ],
    "palavras": 8,
-   "cena": "b3",
-   "frase": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
+   "cena": "b4",
+   "frase": "Acharam moradores vendendo aguardente. Compraram tudo e beberam.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -100,26 +117,6 @@
   },
   {
    "camera": "group",
-   "personagens": [
-    "HUS",
-    "HUS"
-   ],
-   "multidao": 6,
-   "objetos": [
-    "barrel",
-    "tools/lantern"
-   ],
-   "palavras": 7,
-   "cena": "b4",
-   "frase": "Compraram tudo, beberam, e a festa começou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "two",
    "personagens": [
     "AUT",
     "HUS",
@@ -127,9 +124,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
+   "frase": "A infantaria quis um gole. Eles negaram, e alguém atirou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -137,32 +134,23 @@
    "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "close",
    "personagens": [
     "HUS"
    ],
    "multidao": 12,
-   "objetos": [
-    "kit/campfire",
-    "kit/tent"
-   ],
-   "palavras": 12,
+   "objetos": [],
+   "palavras": 6,
    "cena": "b6",
-   "frase": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
-   "classe": "chave",
+   "frase": "No escuro, alguém gritou: Turcos! Turcos!",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "countryside"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "AUT",
     "AUT",
@@ -174,9 +162,9 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 19,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
+   "frase": "Ninguém entendia a língua do vizinho. Todos atiraram em todos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -198,9 +186,9 @@
    "objetos": [
     "cannon"
    ],
-   "palavras": 14,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
+   "frase": "Até os canhões dispararam contra o próprio exército.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -218,9 +206,9 @@
     "kit/campfire",
     "kit/tent"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
+   "frase": "Dois dias depois, os turcos acharam o acampamento abandonado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -228,35 +216,27 @@
    "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
-    "TUR",
-    "TUR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b10",
-   "frase": "Os turcos venceram sem dar um único tiro.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "two",
-   "personagens": [
+    "AUT",
+    "AUT",
+    "AUT",
     "AUT"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
+   "palavras": 10,
+   "cena": "b10",
+   "frase": "Venceram sem um tiro. O exército perdeu para si mesmo.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "countryside"
   }

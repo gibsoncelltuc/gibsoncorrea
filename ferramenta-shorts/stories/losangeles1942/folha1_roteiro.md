@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 102 palavras (~35 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.
+## Cena b0  (~4.1 s)
+- Narracao: Uma cidade inteira atirou no céu a noite toda. Não havia inimigo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@25, cannon@40, cannon@60
-- Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; encena: atira @3 -> acao + som de efeito
 - Efeito visual marcado: burst@25, burst@40, burst@60
-- Texto na tela: -
+- Texto na tela: NENHUM INIMIGO
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.9 s)
-- Narracao: Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.
+## Cena b1  (~3.1 s)
+- Narracao: E até hoje ninguém sabe no que eles atiravam.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.8 s)
+- Narracao: Em fevereiro de 1942, Los Angeles vivia com medo do Japão.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
@@ -20,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: LOS ANGELES
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b2  (~5.5 s)
-- Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
+## Cena b3  (~3.1 s)
+- Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia.
 - Som ambiente: sea
 - Efeitos sonoros marcados: cannon@68
 - Efeito + som nas palavras-chave: objeto: submarino_ww2 atira (na palavra "atirado") -> acao + som de efeito
@@ -29,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: SUBMARINO JAPONÊS
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.5 s)
-- Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.
+## Cena b4  (~3.1 s)
+- Narracao: De madrugada, sirenes tocaram e holofotes varreram o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: objeto: searchlight toca (na palavra "tocaram") -> acao + som de efeito
@@ -38,44 +47,35 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.2 s)
-- Narracao: Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.
+## Cena b5  (~3.8 s)
+- Narracao: Alguém viu um objeto, e os canhões antiaéreos começaram a atirar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@40, cannon@90
-- Efeito + som nas palavras-chave: atirar -> burst + som de tiro/explosao; canhões -> burst + som de tiro/explosao; encena: olha (point) @1 -> acao + som de efeito; encena: atira @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; atirar -> burst + som de tiro/explosao; encena: olha (point) @1 -> acao + som de efeito; encena: atira @10 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@90
 - Texto na tela: FOGO!
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~6.2 s)
-- Narracao: Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça.
+## Cena b6  (~3.4 s)
+- Narracao: Foram mais de mil tiros, e estilhaços caíram na cidade.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
+- Efeito + som nas palavras-chave: tiros -> burst + som de tiro/explosao; caíram -> dust + som de impacto
+- Efeito visual marcado: burst@40, burst@100
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b7  (~4.1 s)
+- Narracao: Acontece que não havia nada lá em cima. Só nuvens e fumaça.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: VIRADA
 
-## Cena b6  (~5.9 s)
-- Narracao: Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; tiros -> burst + som de tiro/explosao; canhão -> burst + som de tiro/explosao; caíram -> dust + som de impacto; pânico -> dust + som de impacto; encena: grita (up) @16 -> acao + som de efeito
-- Efeito visual marcado: burst@40, burst@100
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b7  (~4.8 s)
-- Narracao: No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @5 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.1 s)
-- Narracao: Algumas pessoas morreram, por acidente e por susto, mas nenhum inimigo apareceu.
+## Cena b8  (~3.4 s)
+- Narracao: Algumas pessoas morreram por acidente e susto. Nenhum inimigo apareceu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque
@@ -83,21 +83,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.1 s)
-- Narracao: O único alvo derrotado naquela noite foi o sono de Los Angeles.
+## Cena b9  (~3.1 s)
+- Narracao: O único derrotado foi o sono de Los Angeles.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: cannon@25, cannon@40, cannon@60
 - Efeito + som nas palavras-chave: derrotado -> puff + som de baque
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Efeito visual marcado: burst@25, burst@40, burst@60
+- Texto na tela: NENHUM INIMIGO
 - Funcao na historia: FECHO/PIADA FINAL
 

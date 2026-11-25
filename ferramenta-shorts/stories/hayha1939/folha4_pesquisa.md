@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1939 | Lugar: Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos | Quando: Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos
 - HEROIS (objeto): -
 - HEROIS (personagens): FIN, SOV
-- Cenarios: arctic, interior hospital, interior madeira
+- Cenarios: arctic, interior hospital
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Morte Branca | A Morte Branca / Um Era União Soviética Finlândia Os 1939 | SEM REFERENCIA
+tema | A Morte Branca | A Morte Branca / Um Os No União Soviética Finlândia 1939 | SEM REFERENCIA
 lugar | Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, ter | Front de Kollaa Carelia / Front de Kollaa Carelia Finlandia 1939 | Kollaa river.jpg (referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_718db3.jpg); Kollaa 3.jpg (referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_6e7f12.jpg); Kollaa river 3.jpg (referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_4be802.jpg)
 lugar | Finlândia | Finlândia 1939 / Finlândia landscape | Winter-War-Overview-es.png (referencias/hayha1939/prints/finl_ndia_8b6edb.jpg); Pro-Finlandia.jpg (referencias/hayha1939/prints/finl_ndia_9a8d21.jpg); Jean Sibelius Finlandia 1899 suomeksi, Svenska Tea (referencias/hayha1939/prints/finl_ndia_94ae5a.jpg)
 epoca | roupas e ruas de 1939 | 1939 fashion clothing / 1939 street photograph | Wartime Fashions- Utility Clothing, 1942 D10727.jp (referencias/hayha1939/prints/roupas_e_ruas_de_1939_36c12e.jpg); Fashion model underwater in dolphin tank, Marinela (referencias/hayha1939/prints/roupas_e_ruas_de_1939_49b0f1.jpg)
@@ -26,7 +26,7 @@ objeto | esquis | esquis / esquis 1939 | Esquis (Par), Acervo do Museu Paulista 
 objeto | fogueira | fogueira / fogueira 1939 | EliseuVisconti-P487-Fogueira em Saint Hubert.jpg (referencias/hayha1939/prints/fogueira_1a6e42.jpg)
 objeto | neve na boca | neve na boca / neve na boca 1939 | Snow Scene at Shipka Pass 1.JPG (referencias/hayha1939/prints/neve_na_boca_847d76.jpg); Vulpes vulpes laying in snow.jpg (referencias/hayha1939/prints/neve_na_boca_6f6096.jpg); Mountains in snow, Mountain lake, Chola Valley, Ne (referencias/hayha1939/prints/neve_na_boca_430623.jpg)
 epoca | soldado da epoca | soldier uniform 1939 / soldier uniform | Uniform of Polish Infantry soldier before 1939.PNG (referencias/hayha1939/prints/soldado_da_epoca_746272.jpg); Uniform of soldier of Polish Korpus Ochrony Pogran (referencias/hayha1939/prints/soldado_da_epoca_a1e05a.jpg); Kamouflerade soldater i uniform m39.jpg (referencias/hayha1939/prints/soldado_da_epoca_aff0bd.jpg)
-mecanismo | Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve | soldados finlandeses poucos conheciam floresta chegava quare / diagram | Aba-Novák Soldiers in the Forest 1917.jpg (referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__8d25fd.jpg); Symbolic grave of the soldiers of the Kampinos Gro (referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__e0f146.jpg); Soldiers of the Lithuanian Army in forest, 1920.jp (referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__3cf3f5.jpg)
+mecanismo | Fazia quarenta graus abaixo de zero na floresta. | fazia quarenta graus abaixo floresta / diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

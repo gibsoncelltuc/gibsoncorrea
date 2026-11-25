@@ -22,9 +22,9 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira.",
+   "frase": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -34,6 +34,22 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "Os inimigos tinham tanto medo que deram um apelido a ele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
@@ -45,104 +61,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "FIN",
-    "FIN",
-    "FIN"
-   ],
-   "multidao": 32,
-   "objetos": [
-    "nature/bush",
-    "nature/tree_oak",
-    "nature/tree_pine"
-   ],
-   "palavras": 22,
+   "palavras": 10,
    "cena": "b2",
-   "frase": "Os soldados finlandeses eram poucos, mas conheciam a floresta, a neve e o frio, que chegava a quarenta graus abaixo de zero.",
-   "classe": "explicativa",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Um deles era um homem do campo, baixinho, chamado Simo Häyhä.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b5",
-   "frase": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "FIN",
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "nature/picket_fence"
-   ],
-   "palavras": 22,
-   "cena": "b6",
-   "frase": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
+   "frase": "No inverno de 1939, a União Soviética invadiu a Finlândia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,13 +79,108 @@
   {
    "camera": "group",
    "personagens": [
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Fazia quarenta graus abaixo de zero na floresta.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Um soldado do campo, baixinho, se chamava Simo Häyhä.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Vestido de branco, ele esperava imóvel na neve por horas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FIN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Dizem que punha neve na boca para o vapor não aparecer.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "FIN",
+    "FIN"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Em cerca de cem dias, contam mais de quinhentos abatidos por ele.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "close",
+   "personagens": [
     "SOV"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
-   "cena": "b7",
-   "frase": "Os soviéticos passaram a chamá-lo de Morte Branca.",
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Os soviéticos o chamavam de Morte Branca.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,9 +195,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 24,
-   "cena": "b8",
-   "frase": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Em 1940, uma bala atingiu o rosto dele. Ele sobreviveu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -189,36 +205,21 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
-    "FIN"
+    "FIN",
+    "SOV"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [],
-   "palavras": 20,
-   "cena": "b9",
-   "frase": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Viveu até 96 anos e dizia: só fiz meu trabalho.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "arctic"
   }
  ]
 }
