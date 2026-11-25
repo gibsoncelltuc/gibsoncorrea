@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @1 -> acao + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: LEI APROVADA
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.9 s)
@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@2
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@2
-- Texto na tela: CARTEIRA CHIVO
+- Texto na tela: FORA DO AR
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)

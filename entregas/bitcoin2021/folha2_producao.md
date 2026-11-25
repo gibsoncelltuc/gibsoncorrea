@@ -26,9 +26,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em El Salvador, na América Central, e a ideia foi do presidente Na...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
+- Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: close (rosto e ombros)
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
@@ -47,10 +47,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b2 - Ele anunciou o projeto em junho de dois mil e vinte e um, e o congress...
-- Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): DEP (variante 0, expressao neutral); BUK (variante 0, expressao smile)
+- Personagens principais (3): DEP (variante 0, expressao smile); DEP (variante 1, expressao grin); BUK (variante 0, expressao smile) | multidao: 10 de DEP
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/bitcoin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): congresso, dois, projeto
@@ -58,10 +58,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: DEP na esquerda, expressao neutral; BUK na direita, expressao smile; sem multidao; acao: fala/gesto
+- LOCAL: loc_cidade; hora: golden
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: DEP na esquerda, expressao smile; DEP no centro, expressao grin; BUK na direita, expressao smile; multidao de 10 (DEP) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "LEI APROVADA" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (10.7-12.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (12.2-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -71,9 +72,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b3 - A lei passou a valer em sete de setembro, e o país foi o primeiro do m...
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV/CLI/DEP
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, setembro, valer
 - RISCOS: nenhum
@@ -116,23 +117,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 10 de POV
-- Animacao: conversar | batalha encenada
-- Objetos/modelos: -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CLI (variante 0, expressao surprised)
+- Animacao: - | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aplicativo, lancamento
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: close (rosto e ombros)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: CLI no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +2 da cena
 - SOM: ding@2
-- TEXTO NA TELA: "CARTEIRA CHIVO" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "FORA DO AR" flutuando no alto, na palavra 1 da frase
 - TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
@@ -217,14 +218,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bitcoin | b0, b2, b4, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 17% | detalhe 0%
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 13% | medio 63% | aberto 24% | detalhe 0%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
