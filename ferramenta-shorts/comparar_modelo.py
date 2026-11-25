@@ -6,7 +6,8 @@
 # aprovar_storyboard.sh recusa sem o comparativo conferido; REMODELAR trava ate o objeto ser refeito no Blender (blender/*.py) e comparado de novo.
 # uso: python3 comparar_modelo.py <id>
 import json, os, re, subprocess, sys, unicodedata
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True   # print baixado pela metade nao derruba o comparativo (Gansos)
 ID = sys.argv[1]; R = f'referencias/{ID}'; os.makedirs(R, exist_ok=True)
 B = json.load(open(f'videos/{ID}/beats.json', encoding='utf-8'))
 n = lambda t: unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()
@@ -44,7 +45,8 @@ img = Image.new('RGB', (W, max(1, len(linhas)) * H), 'white'); d = ImageDraw.Dra
 for k, (a, foto, prs) in enumerate(linhas):
     y = k * H; d.text((8, y + 6), f'{a}  (esquerda: MODELO 3D | direita: REFERENCIAS da pesquisa)' + ('' if prs else '  -> SEM REFERENCIA: pesquisar com "visual.buscas" em ingles'), fill='black')
     if foto:
-        m = Image.open(foto).convert('RGB'); m.thumbnail((380, H - 30)); img.paste(m, (5, y + 25))
+        try: m = Image.open(foto).convert('RGB'); m.thumbnail((380, H - 30)); img.paste(m, (5, y + 25))
+        except Exception: d.text((10, y + 40), 'foto do modelo falhou', fill='red')
     for j, pr in enumerate(prs):
         try: r = Image.open(pr).convert('RGB'); r.thumbnail((260, H - 30)); img.paste(r, (400 + j * 268, y + 25))
         except Exception: pass
