@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Gerado em 25/11 12:27 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 14:37 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 

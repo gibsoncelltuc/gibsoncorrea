@@ -92,7 +92,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -102,12 +102,11 @@
      }
     ]
    },
-   "cx": 0.8999999999999999,
-   "cz": -0.6,
-   "h": 1.35,
-   "d0": 5.2,
-   "d1": 4.4,
-   "shot_lock": true,
+   "cx": 0.6,
+   "cz": -0.5,
+   "h": 1.7,
+   "d0": 7.5,
+   "d1": 6.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -480,7 +479,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -490,12 +489,11 @@
      }
     ]
    },
-   "cx": 0.7,
-   "cz": -0.6,
-   "h": 1.35,
-   "d0": 5.2,
-   "d1": 4.4,
-   "shot_lock": true,
+   "cx": 0.6,
+   "cz": -0.5,
+   "h": 1.7,
+   "d0": 7.5,
+   "d1": 6.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",

@@ -14,5 +14,5 @@ b8 | reveal | -  | placa: 1963 | encena: x_aperta (point) @4 (acao + som de efei
 b9 | two | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 63% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 11% | medio 60% | aberto 26% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal
