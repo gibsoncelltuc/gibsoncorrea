@@ -109,19 +109,7 @@
     ]
    },
    "text": "GUERRA DA LAGOSTA",
-   "titulo": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "shot": "two",
@@ -171,18 +159,6 @@
       "na": "lagosta"
      }
     ]
-   },
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -223,6 +199,11 @@
    "detalhe": false,
    "batalha": false,
    "tiros": false,
+   "cx": 0.0,
+   "cz": -5.6,
+   "h": 2.8,
+   "d0": 15.0,
+   "d1": 13.0,
    "bloco": "prova",
    "say": "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.",
    "encena": {
@@ -233,26 +214,7 @@
       "na": "pescavam"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -5.6,
-   "h": 2.8,
-   "d0": 15.0,
-   "d1": 13.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o boat (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "boat",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_auto_vis": 3
+   }
   },
   {
    "explica": {
@@ -320,6 +282,11 @@
    },
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
    "bloco": "escalada",
    "say": "A França mandou um navio de guerra para a costa.",
    "encena": {
@@ -328,24 +295,6 @@
      {
       "faz": "mostra",
       "na": "mandou"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_destroier",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -385,6 +334,11 @@
    "titulo": true,
    "detalhe": false,
    "fachada": false,
+   "cx": 7.0,
+   "cz": -11.2,
+   "h": 2.8,
+   "d0": 20.8,
+   "d1": 17.8,
    "bloco": "escalada",
    "say": "Acontece que o Brasil não recuou e mandou navios e aviões.",
    "encena": {
@@ -395,32 +349,7 @@
       "na": "mandou"
      }
     ]
-   },
-   "cx": 7.0,
-   "cz": -11.2,
-   "h": 2.8,
-   "d0": 20.8,
-   "d1": 17.8,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "ship",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "vehicles/airplane",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_auto_vis": 1
+   }
   },
   {
    "shot": "two",
@@ -453,7 +382,6 @@
     "FRA:0:relief"
    ],
    "acao": "comemorar",
-   "text": "1963",
    "set": "harbor",
    "fx": [
     "stars@20"
@@ -523,18 +451,6 @@
       "na": "lagosta"
      }
     ]
-   },
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/lobster",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   }
  ],
@@ -577,6 +493,5 @@
  "variar_cenario": false,
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: o Brasil quase brigou por lagosta, e a briga dependia de a lagosta andar ou nadar. Pagamento: navios de guerra frente a frente, o tiro nunca veio e o acordo deixou alguns barcos franceses pescarem com limite.",
- "loop_frase_ok": true,
- "max_wide": 3
+ "loop_frase_ok": true
 }

@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
-- Texto na tela: 1963
+- Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~3.1 s)

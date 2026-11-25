@@ -62,7 +62,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
-- TEXTO NA TELA: "1963" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

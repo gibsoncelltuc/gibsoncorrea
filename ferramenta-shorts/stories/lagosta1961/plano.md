@@ -10,7 +10,7 @@ b4 | two | -  | tropa | - | -
 b5 | wide | -  | tropa | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, placa: NAVIOS E AVIÕES | - | -
 b7 | two | -  | interior, objeto na mao | - | -
-b8 | wide | -  | batalha aberta com tiros, placa: 1963 | - | -
+b8 | wide | -  | batalha aberta com tiros | - | -
 b9 | two | -  | tropa, placa: GUERRA DA LAGOSTA | ouro (stars + som de sino) | -
 
 Mistura de planos: close 12% | medio 56% | aberto 26% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

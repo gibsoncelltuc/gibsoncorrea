@@ -67,7 +67,10 @@
    8,
    "pagamento",
    "No fim, alguns barcos franceses puderam pescar, com limite.",
-   "pescar"
+   "pescar",
+   {
+    "text": null
+   }
   ],
   [
    0,
