@@ -118,8 +118,8 @@
   {
    "shot": "reveal",
    "who": [
-    "POV:0:surprised",
-    "POV:1:nervous"
+    "TRU:0:stern",
+    "POV:0:surprised"
    ],
    "mapa": "VENEZUELA",
    "mapa_at": 3,
@@ -133,7 +133,8 @@
       "na": "Caracas"
      }
     ]
-   }
+   },
+   "quadro_manual": true
   },
   {
    "shot": "wide",
@@ -350,7 +351,14 @@
       "na": "capturado"
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "h": 1.5,
+   "cx": 0,
+   "cz": 0,
+   "d0": 6.0,
+   "d1": 5.0
   },
   {
    "shot": "two",

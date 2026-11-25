@@ -42,9 +42,9 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
-    "POV",
+    "TRU",
     "POV"
    ],
    "multidao": 6,
@@ -127,7 +127,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "SOL",
     "MAD"
@@ -137,15 +137,9 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },

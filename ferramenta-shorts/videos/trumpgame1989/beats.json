@@ -92,7 +92,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -146,7 +145,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -191,7 +189,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -208,8 +205,8 @@
    "props": [
     [
      "kit/boardgame",
-     0.0,
-     -1.2,
+     1.6,
+     0.3,
      1.54,
      {
       "fixo": true
@@ -225,24 +222,7 @@
       "na": "caixa"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -276,7 +256,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -341,7 +320,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -359,7 +337,7 @@
     [
      "kit/boardgame",
      0.0,
-     -1.2,
+     0.3,
      1.54,
      {
       "fixo": true
@@ -375,24 +353,7 @@
       "na": "jogo"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
@@ -443,12 +404,11 @@
      }
     ]
    },
-   "_susp_ok": true,
-   "_enq_shot": "crowd",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -480,7 +440,6 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

@@ -41,7 +41,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "close",
    "personagens": [
     "BUK"
    ],
@@ -124,14 +124,13 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "close",
    "personagens": [
     "CLI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/phone",
-    "kit/volcano"
+    "kit/phone"
    ],
    "palavras": 13,
    "cena": "b5",

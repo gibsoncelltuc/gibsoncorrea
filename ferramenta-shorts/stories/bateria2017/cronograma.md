@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Gerado em 25/11 02:29 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:31 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | loc_campo | wide | MUS | - | megapack | - | Em dois mil e dezesse
 b2 | chave | loc_cidade | wide | MUS | 30 | megapack | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os jornais calcularam que ele podia perder mais de cinquenta milhões d
 b3 | simples | interior pedra | two | MUS, JOR | - | megapack | - | O contrato foi fechado no fim de setembro, e o prazo de cem dias começ
 b4 | chave | loc_campo | wide | MUS | - | megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias
-b5 | simples | loc_campo | wide | MUS | - | apartment, house_two, megapack, lamppost | - | A bateria ficou perto da cidade de Jamestown, no interior da Austrália
+b5 | simples | loc_campo | group | MUS | - | apartment, house_two, megapack, lamppost | - | A bateria ficou perto da cidade de Jamestown, no interior da Austrália
 b6 | explicativa | loc_campo | two | sem personagem | - | megapack | corpo: kit/megapack (gira); emissao: brilho; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada ent | A imprensa chamou de a maior bateria do mundo, com cem megawatts de po
 b7 | simples | interior loja | two | CAN, MUS | - | - | - | O empresário que fez o desafio teve que admitir: Musk cumpriu.
 b8 | simples | loc_campo | two | CAN | - | megapack | - | Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d

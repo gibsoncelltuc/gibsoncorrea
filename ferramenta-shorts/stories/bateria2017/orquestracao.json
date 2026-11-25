@@ -114,7 +114,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "MUS"
    ],

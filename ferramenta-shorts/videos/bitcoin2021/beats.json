@@ -96,11 +96,21 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "aceitou"
+     }
+    ]
+   }
   },
   {
    "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "BUK:0:smug"
    ],
@@ -118,7 +128,17 @@
    "cz": 0,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Salvador"
+     }
+    ]
+   }
   },
   {
    "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
@@ -168,7 +188,19 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "titulo": true,
+   "interior": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "anunciou"
+     }
+    ]
+   }
   },
   {
    "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
@@ -189,7 +221,17 @@
    },
    "tiros": false,
    "batalha": false,
-   "impact": true
+   "impact": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "passou"
+     }
+    ]
+   }
   },
   {
    "say": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
@@ -230,7 +272,7 @@
    "impact": false,
    "text": "US$ 30",
    "titulo": true,
-   "detalhe": false,
+   "detalhe": true,
    "vary": false,
    "crowd": {
     "n": 12,
@@ -262,11 +304,21 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "convencer"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "CLI:0:surprised"
    ],
@@ -289,7 +341,7 @@
      "kit/phone",
      0.55,
      0.3,
-     1.08,
+     1.8,
      {
       "fixo": true
      }
@@ -317,7 +369,17 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
@@ -337,7 +399,17 @@
    "batalha": false,
    "impact": false,
    "text": "68% DISCORDAM",
-   "titulo": true
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "pesquisa"
+     }
+    ]
+   }
   },
   {
    "say": "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.",
@@ -358,7 +430,17 @@
      }
     ]
    ],
-   "text": "PREÇO DESPENCOU"
+   "text": "PREÇO DESPENCOU",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "governo"
+     }
+    ]
+   }
   },
   {
    "say": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
@@ -404,7 +486,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Mesmo"
+     }
+    ]
+   }
   },
   {
    "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
@@ -445,7 +537,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "moeda"
+     }
+    ]
+   }
   }
  ],
  "duracao_ok": true,

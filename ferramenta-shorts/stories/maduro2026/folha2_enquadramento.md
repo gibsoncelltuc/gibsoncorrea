@@ -14,7 +14,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: POV na esquerda, expressao surprised; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
+- PERSONAGENS: TRU na esquerda, expressao stern; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: VENEZUELA (cobre a tela 1-2 s)
 

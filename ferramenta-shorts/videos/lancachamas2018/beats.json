@@ -78,6 +78,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "bilionário"
+     }
+    ]
    }
   },
   {
@@ -88,7 +98,17 @@
    ],
    "shot": "two",
    "props": [],
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "dezoito"
+     }
+    ]
+   }
   },
   {
    "say": "Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.",
@@ -99,7 +119,17 @@
    "shot": "two",
    "set": "loc_cidade",
    "text": "50 MIL BONÉS",
-   "verificador": false
+   "verificador": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Antes"
+     }
+    ]
+   }
   },
   {
    "say": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
@@ -141,6 +171,16 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "lança-chamas"
      }
     ]
    }
@@ -187,6 +227,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
    }
   },
   {
@@ -197,7 +247,17 @@
    ],
    "shot": "two",
    "props": [],
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "explicou"
+     }
+    ]
+   }
   },
   {
    "say": "Cada compra vinha com um extintor de incêndio de brinde.",
@@ -230,7 +290,31 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "alvo": 1,
+      "na": "compra"
+     },
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "alvo": 1,
+      "na": "brinde"
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "verificador": false
   },
   {
    "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
@@ -249,7 +333,25 @@
     "march": false,
     "expr": "laugh"
    },
-   "impact": true
+   "impact": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "alvo": 1,
+      "na": "venda"
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "verificador": false
   },
   {
    "say": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
@@ -268,7 +370,24 @@
      "na": "rendeu",
      "dur": 1.0
     }
-   }
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "rendeu"
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "verificador": false
   },
   {
    "say": "O próprio Musk postou vídeos soltando fogo com o aparelho.",
@@ -326,6 +445,16 @@
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "próprio"
      }
     ]
    }
@@ -389,7 +518,17 @@
      }
     ]
    },
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "produto"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

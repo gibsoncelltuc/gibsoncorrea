@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro)
+- CAMERA: close (rosto e ombros)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
@@ -21,7 +21,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: DEP na esquerda, expressao smile; DEP no centro, expressao grin; BUK na direita, expressao smile; multidao de 10 (DEP) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "LEI APROVADA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "LEI APROVADA" flutuando no alto, na palavra 1 da frase
 
 ## b3: "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
@@ -42,12 +42,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: CLI no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +2 da cena
 - SOM: ding@2
-- TEXTO NA TELA: "FORA DO AR" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "FORA DO AR" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b6: "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
@@ -58,13 +58,20 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@3
 - TEXTO NA TELA: "68% DISCORDAM" flutuando no alto, na palavra 1 da frase
 
-## b7: "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
+## b7: "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte."
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: BUK na esquerda, expressao nervous; DEP na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "PREÇO DESPENCOU" numa placa atras dos personagens, na palavra 1 da frase
+
+## b8: "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; DEP na direita, expressao laugh; multidao de 6 (POV, CLI) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b8: "Uma moeda digital, uma lei nova e um país no centro das atenções."
+## b9: "Uma moeda digital, uma lei nova e um país no centro das atenções."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smile; POV (comerciante) no centro, expressao grin; CLI na direita, expressao laugh; sem multidao; acao: fala/gesto

@@ -8,7 +8,7 @@ b0 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/bancada, kit/fl
 b1 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b2 | loc_cidade | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/flamethrower | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bancada, kit/flamethrower | - | -
-b4 | loc_deserto | wide | 19 | encena, batalha | kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire | - | -
+b4 | loc_deserto | wide | 19 | batalha | kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire | - | -
 b5 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/flamethrower | - | -
 b6 | interior loja | two | 2 | comemorar, INTERAGEM: brindar | kit/extinguisher | - | -
 b7 | loc_cidade | crowd | 18 | reagir, batalha | kit/marco_hollywood | - | -
