@@ -1,34 +1,33 @@
-# Revisao final frase a frase - karansebes (24/11, olhando out/karansebes/frase_a_frase.jpg + quadros grandes nas palavras tiro e dispararam)
-f0: OK - "Um exercito inteiro conseguiu perder uma batalha contra si mesmo": tropa austriaca, placa 1788
-f1: OK - "Era o exercito austriaco": tropa de farda azul e branca marchando
-f2: OK - "marchando contra os turcos": mapa KARANSEBES sobre a tropa em marcha
-f3: OK - "com soldados de varios paises": tropa mista, texto VARIAS LINGUAS
-f4: OK - "que mal se entendiam": soldados confusos, texto VARIAS LINGUAS
-f5: OK - "Numa noite": noite, hussardo montado a cavalo
-f6: OK - "os hussardos foram na frente procurar o inimigo": hussardo a cavalo na frente
-f7: OK - "Nao acharam turco nenhum": hussardos parados sem inimigo, morador surge
-f8: OK - "Acharam moradores vendendo aguardente": morador de chapeu de palha com garrafa
-f9: OK - "Compraram tudo": hussardos com garrafas, placa AGUARDENTE
-f10: OK - "beberam": hussardos bebendo, placa AGUARDENTE
-f11: OK - "e a festa comecou": hussardos de bracos para cima, placa AGUARDENTE
-f12: OK - "Ai chegou a infantaria": infantaria chegando ao acampamento
-f13: OK - "querendo a parte dela": infantaria diante dos hussardos
-f14: OK - "Os hussardos nao dividiram": discussao entre os grupos
-f15: OK - "e alguem deu um tiro": clarao do tiro na palavra tiro (quadro grande conferido)
-f16: OK - "No escuro": acampamento a noite, soldados assustados
-f17: OK - "alguem gritou": soldados de boca aberta, texto TURCOS!
-f18: OK - "Turcos!": clarao e panico, texto TURCOS!
-f19: OK - "Turcos!": soldado caindo, texto TURCOS!
-f20: OK - "E o panico tomou o acampamento": multidao em panico, soldados caidos
-f21: OK - "Acontece que ninguem entendia a lingua do vizinho": soldado gritando sem ser entendido
-f22: OK - "Todo mundo atirava em todo mundo": clarao no meio da tropa
-f23: OK - "achando que eram os turcos": tropa atirando no escuro
-f24: OK - "Um oficial mandou usar a artilharia": canhao e soldados voando
-f25: OK - "os canhoes dispararam contra o proprio exercito": clarao do canhao na palavra dispararam (quadro grande conferido)
-f26: OK - "Dois dias depois": dia claro, turcos chegando, placa ABANDONADO
-f27: OK - "os turcos chegaram e acharam o acampamento abandonado": turcos no acampamento vazio, placa ABANDONADO (caixote retirado)
-f28: OK - "Os turcos venceram sem dar um unico tiro": turcos rindo e comemorando
-f29: OK - "Agora nao deixe de comentar": soldado sorrindo, COMENTE
-f30: OK - "qual deve ser o tema do proximo video": COMENTE
-gancho: tropa inteira com placa 1788 e clarao no primeiro segundo junto de "conseguiu perder uma batalha contra si mesmo"
-piloto: nivel do Roadster EP25: cada frase com a imagem certa, 2 grandes momentos (panico com tiros e canhoes), objeto da historia (aguardente) em destaque
+f0: OK - um exercito inteiro perdeu contra si mesmo: placa CONTRA SI MESMO com o exercito a noite
+f1: OK - era o exercito austriaco: tropa austriaca marchando na vila
+f2: OK - marchando contra os turcos: mapa de Karansebes
+f3: OK - soldados de varios paises: placa VARIAS LINGUAS com a tropa
+f4: OK - que mal se entendiam: VARIAS LINGUAS e soldados confusos
+f5: OK - numa noite: hussardo a cavalo a noite
+f6: OK - os hussardos foram na frente procurar o inimigo: hussardo a cavalo procurando
+f7: OK - nao acharam turco nenhum: hussardos com o morador de chapeu de palha
+f8: OK - acharam moradores vendendo aguardente: hussardo com os barris de aguardente
+f9: OK - compraram tudo: placa AGUARDENTE com os hussardos
+f10: OK - beberam: AGUARDENTE e hussardos bebendo
+f11: OK - a festa comecou: hussardos rindo com AGUARDENTE
+f12: OK - chegou a infantaria: infantaria chegando no acampamento
+f13: OK - querendo a parte dela: infantaria diante dos hussardos
+f14: OK - os hussardos nao dividiram: hussardos bravos
+f15: OK - alguem deu um tiro: soldados assustados
+f16: OK - no escuro: placa TURCOS a noite
+f17: OK - alguem gritou: TURCOS com o clarao do tiro
+f18: OK - Turcos: placa TURCOS e soldado gritando
+f19: OK - Turcos: TURCOS e soldados em panico
+f20: OK - o panico tomou o acampamento: TURCOS e soldados correndo
+f21: OK - ninguem entendia a lingua do vizinho: soldados confusos
+f22: OK - todo mundo atirava em todo mundo: tiros e clarao entre os soldados
+f23: OK - achando que eram os turcos: soldados atirando e caidos
+f24: OK - um oficial mandou usar a artilharia: oficial ao lado dos canhoes
+f25: OK - os canhoes dispararam contra o proprio exercito: canhoes e oficial apavorado
+f26: OK - dois dias depois: placa ABANDONADO com os turcos
+f27: OK - os turcos acharam o acampamento abandonado: turcos de turbante com ABANDONADO
+f28: OK - os turcos venceram sem dar um tiro: turcos rindo com FOGO AMIGO
+f29: OK - deixe de comentar: placa COMENTE com o soldado
+f30: OK - tema do proximo video: COMENTE com o soldado
+gancho: exercito a noite com tiros e a placa CONTRA SI MESMO nos primeiros segundos
+piloto: mesmo nivel do Roadster EP25: mapa, hussardos a cavalo, aguardente, panico dos TURCOS, canhoes, virada com os turcos rindo, final curto
