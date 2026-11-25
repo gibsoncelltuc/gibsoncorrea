@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Gerado em 25/11 18:05 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | GAL | - | bola_couro, marco_pisa, pisa_tower | - | Uma bola pesada e uma leve caíram no chão ao mesmo tempo.
-b1 | simples | loc_campo | two | GAL | - | bola_couro | - | E, séculos depois, até uma pena provou isso.
+b1 | simples | street | close | GAL | - | bola_couro | - | E, séculos depois, até uma pena provou isso.
 b2 | transicao | street | reveal | ALU, ALU | - | marco_pisa | - | Em 1590, Galileu era professor em Pisa.
 b3 | simples | interior pedra | two | ARI, ALU | - | - | - | Aristóteles dizia: quanto mais pesado, mais rápido cai.
 b4 | transicao | loc_campo | wide | GAL | - | bola_couro, marco_pisa, pisa_tower, cannonballs | - | Dizem que Galileu levou duas bolas ao alto da torre de Pisa.

@@ -21,7 +21,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 5.9s - 7 palavras - plano two
+## Cena b1 - 3.7s a 5.9s - 7 palavras - plano wide
 > "E ninguém acreditou nele enquanto estava vivo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -71,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 12.2s a 15.2s - 9 palavras - plano two
+## Cena b4 - 12.2s a 15.2s - 9 palavras - plano close
 > "Todas saíram amarelas, como se o verde tivesse sumido."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

@@ -100,16 +100,14 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
-   "multidao": 18,
+   "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/fire",
-    "kit/flamethrower",
-    "kit/marco_hollywood"
+    "kit/flamethrower"
    ],
    "palavras": 7,
    "cena": "b4",
@@ -124,10 +122,10 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_deserto"
+   "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "MUS",
     "CMP"
@@ -147,7 +145,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "CMP",
     "POV"
@@ -166,7 +164,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV"

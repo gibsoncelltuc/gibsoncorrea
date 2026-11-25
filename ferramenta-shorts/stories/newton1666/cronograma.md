@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
-Gerado em 25/11 18:05 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | countryside | wide | NEW, AMI | 6 | apple, tree_oak | - | Ficava 
 b5 | chave | countryside | two | NEW, AMI | - | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que uma maçã caiu bem na frente dele.
 b6 | simples | countryside | close | NEW | - | apple, tree_oak | - | Ele se perguntou: por que ela cai sempre para baixo?
 b7 | explicativa | loc_campo | two | sem personagem | - | lua_ceu | corpo: kit/lua_ceu (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Se a força puxa a maçã, puxa a Lua também?
-b8 | chave | interior madeira | two | NEW | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso virou a lei da gravidade de Newton.
+b8 | chave | loc_campo | two | NEW | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Isso virou a lei da gravidade de Newton.
 b9 | simples | loc_campo | group | NEW | - | apple, lua_ceu | - | E a maçã nem foi comida. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

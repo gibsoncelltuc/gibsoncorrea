@@ -9,8 +9,7 @@
   "cenarios": [
    "interior loja",
    "interior pedra",
-   "loc_cidade",
-   "loc_deserto"
+   "loc_cidade"
   ],
   "cenarios_trocados": [
    [
@@ -48,14 +47,13 @@
   "kit/flamethrower",
   "kit/marco_hollywood",
   "kit/room_eua_shop",
-  "kit/room_europa_shop",
-  "kit/room_verde_stone",
+  "kit/room_europa_stone",
   "kit/tunel_boring",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
   "mk/Crate_Metal",
-  "mk/Shelf_Small_Bottles",
+  "mk/Nightstand_Shelf",
   "mk/Stool",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers",
   "nature/picket_fence"
  ],
  "pesquisa_visual": {

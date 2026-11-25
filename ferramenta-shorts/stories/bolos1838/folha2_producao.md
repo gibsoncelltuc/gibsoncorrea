@@ -25,12 +25,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - E a conta dos bolos nunca foi paga.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CON (variante 0, expressao stern); FRA (variante 0, expressao grin)
 - Animacao: -
-- Objetos/modelos: kit/cake_table
+- Objetos/modelos: kit/marco_ulua, kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolos
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -188,7 +188,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_ulua | b0, b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_ulua | b0, b1, b2, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cake_table | b0, b1, b2, b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/shop | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

@@ -37,7 +37,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/cake_table"
+    "kit/cake_table",
+    "kit/marco_ulua"
    ],
    "palavras": 8,
    "cena": "b1",
@@ -46,7 +47,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "two",

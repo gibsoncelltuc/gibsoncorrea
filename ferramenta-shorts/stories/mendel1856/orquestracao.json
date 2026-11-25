@@ -50,11 +50,11 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MEN"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [],
    "palavras": 7,
    "cena": "b1",
@@ -63,7 +63,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "wide",
@@ -105,7 +105,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MEN"
    ],
@@ -120,7 +120,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_campo"
   },
   {
    "camera": "wide",

@@ -413,16 +413,16 @@
    },
    "set": "loc_campo",
    "objetos": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.5,
-   "d1": 16.7,
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.5,
+   "d1": 16.7
   },
   {
    "shot": "two",

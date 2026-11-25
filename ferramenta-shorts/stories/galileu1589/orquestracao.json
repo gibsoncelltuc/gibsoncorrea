@@ -30,7 +30,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "GAL"
    ],
@@ -45,7 +45,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "reveal",

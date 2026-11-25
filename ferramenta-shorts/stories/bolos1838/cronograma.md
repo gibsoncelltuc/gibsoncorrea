@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 25/11 18:05 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:06 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | França e México entraram em guerra por causa de uma confeitaria.
-b1 | simples | interior madeira | wide | CON, FRA | - | cake_table | - | E a conta dos bolos nunca foi paga.
+b1 | simples | street | wide | CON, FRA | - | cake_table, marco_ulua | - | E a conta dos bolos nunca foi paga.
 b2 | simples | street | two | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja perto da Cidade do México.
 b3 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest | - | Ele disse que oficiais mexicanos saquearam tudo.
 b4 | simples | interior pedra | two | CON, REI | - | - | - | Pediu sessenta mil pesos. A loja valia menos de mil.

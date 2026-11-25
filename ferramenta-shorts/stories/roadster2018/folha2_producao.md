@@ -66,9 +66,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b3 - Em vez de um peso de concreto, Musk mandou o próprio carro.
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao suspicious) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/roadster
@@ -134,7 +134,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No painel, um aviso: não entre em pânico.
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 0 de POV
 - Animacao: -
@@ -192,7 +192,7 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 4 | mistura: close 1% | medio 66% | aberto 33% | detalhe 0%
+- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 5 | mistura: close 1% | medio 51% | aberto 48% | detalhe 0%
 - Interacoes: -
 - RISCOS GERAIS: nenhum
 

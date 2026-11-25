@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: aproxima-se, alguem chega andando | kit/marco_ulua, kit/cake_table | - | -
-b1 | interior madeira | wide | 2 | parados (so fala e pisca) | kit/cake_table | - | -
+b1 | street | wide | 2 | parados (so fala e pisca) | kit/marco_ulua, kit/cake_table | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall | - | -
 b3 | interior loja | two | 2 | pega, INTERAGEM: o outro se aproxima | kit/cake_table, kit/chest, kit/barrel_r | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: pedir | - | paper | -

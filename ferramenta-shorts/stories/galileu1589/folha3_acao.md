@@ -23,7 +23,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.5s a 6.2s - 8 palavras - plano two
+## Cena b1 - 3.5s a 6.2s - 8 palavras - plano close
 > "E, séculos depois, até uma pena provou isso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

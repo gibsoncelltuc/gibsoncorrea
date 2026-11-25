@@ -27,8 +27,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - E, séculos depois, até uma pena provou isso.
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Cenario: street | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GAL (variante 0, expressao smug)
 - Animacao: conversar
@@ -225,7 +225,7 @@ kit/feather | b7, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bola_couro | grandes momentos: b5, b7, b8 | planos abertos: 4 | mistura: close 2% | medio 65% | aberto 31% | detalhe 2%
+- Objeto heroi: kit/bola_couro | grandes momentos: b5, b7, b8 | planos abertos: 4 | mistura: close 9% | medio 58% | aberto 31% | detalhe 2%
 - Interacoes: b3 vai ate o outro, b6 cochichar
 - RISCOS GERAIS: nenhum
 

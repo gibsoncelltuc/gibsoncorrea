@@ -7,7 +7,7 @@ b1 | wide | -  | tropa, animais | - | -
 b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | group | -  | interior | encena: olha (point) @0 (acao + som de efeito) | -
 b4 | two | -  | tropa | - | -
-b5 | two | -  | interior | - | -
+b5 | group | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | tropa, animais | - | -
 b8 | two | -  | tropa, placa: SOBRE PARIS | - | -

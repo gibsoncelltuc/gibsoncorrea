@@ -7,10 +7,10 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | arctic | two | 1 | conversar | kit/roadster | - | -
 b1 | interior loja | two | 1 | conversar | kit/roadster | - | -
 b2 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/rocket | - | -
-b3 | interior loja | two | 1 | conversar | kit/roadster | - | -
+b3 | loc_pista | wide | 1 | conversar | kit/roadster | - | -
 b4 | loc_pista | wide | 1 | reagir, batalha | kit/falcon_air | - | -
 b5 | interior loja | two | 1 | conversar | kit/roadster | - | -
-b6 | arctic | crowd | 1 | parados (so fala e pisca) | kit/roadster | - | -
+b6 | arctic | orbit | 1 | parados (so fala e pisca) | kit/roadster | - | -
 b7 | arctic | two | 0 | parados (so fala e pisca) | kit/roadster, kit/globe | - | -
 b8 | arctic | wide | 1 | parados (so fala e pisca) | kit/roadster | - | -
 

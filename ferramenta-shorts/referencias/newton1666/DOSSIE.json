@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "countryside",
-   "interior madeira",
    "loc_campo",
    "street"
   ],
@@ -37,11 +36,6 @@
   "buildings/shop",
   "kit/apple",
   "kit/lua_ceu",
-  "kit/room_europa_wood",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
   "nature/haybale",
   "nature/scarecrow",
   "nature/tree_oak"

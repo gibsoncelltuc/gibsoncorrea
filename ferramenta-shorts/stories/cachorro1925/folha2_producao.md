@@ -68,7 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b3 - Dizem que um soldado grego cruzou a fronteira atrás do cachorro.
-- Cenario: loc_campo | luz: golden | clima: limpo
+- Cenario: mountain | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
@@ -110,7 +110,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - A Grécia deu quarenta e oito horas para a Bulgária pagar.
-- Cenario: loc_montanha | luz: noite | clima: limpo
+- Cenario: mountain | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)

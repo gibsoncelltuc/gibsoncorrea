@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.4s a 14.4s - 12 palavras - plano two
+## Cena b3 - 10.4s a 14.4s - 12 palavras - plano wide
 > "Em vez de um peso de concreto, Musk mandou o próprio carro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -98,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 23.3s - 8 palavras - plano crowd
+## Cena b6 - 20.7s a 23.3s - 8 palavras - plano orbit
 > "No painel, um aviso: não entre em pânico."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

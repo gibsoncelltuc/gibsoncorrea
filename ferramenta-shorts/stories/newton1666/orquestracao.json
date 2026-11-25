@@ -176,7 +176,7 @@
    "personagens": [
     "NEW"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 8,
    "cena": "b8",
@@ -191,7 +191,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "group",

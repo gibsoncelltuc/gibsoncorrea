@@ -104,7 +104,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "mountain"
   },
   {
    "camera": "two",
@@ -144,7 +144,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "mountain"
   },
   {
    "camera": "wide",

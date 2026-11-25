@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/seringa_pe | - | -
-b1 | interior loja | close | 1 | reagir | kit/syringe | - | -
+b1 | street | close | 1 | reagir | kit/syringe | - | -
 b2 | street | wide | 10 | batalha | - | - | -
 b3 | interior madeira | two | 1 | conversar | - | - | -
 b4 | interior madeira | two | 1 | conversar | kit/bancada, kit/seringa_pe, kit/syringe | - | -

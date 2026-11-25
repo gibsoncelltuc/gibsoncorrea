@@ -25,7 +25,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - E o final dessa aposta ninguém esperava.
-- Cenario: loc_pista | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug)

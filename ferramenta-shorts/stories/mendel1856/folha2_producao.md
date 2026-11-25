@@ -29,10 +29,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - E ninguém acreditou nele enquanto estava vivo.
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MEN (variante 0, expressao sad, segura book)
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MEN (variante 0, expressao sad, segura book) | multidao: 6 de POV
 - Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -98,8 +98,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Todas saíram amarelas, como se o verde tivesse sumido.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: conversar
@@ -239,7 +239,7 @@ kit/bancada | b6, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 0% | medio 74% | aberto 23% | detalhe 3%
+- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 10% | medio 57% | aberto 31% | detalhe 3%
 - Interacoes: b7 cochichar
 - RISCOS GERAIS: nenhum
 

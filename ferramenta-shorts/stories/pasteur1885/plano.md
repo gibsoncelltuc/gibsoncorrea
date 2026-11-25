@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: PRIMEIRA VACINA | (rosto) angry (expr + som de efeito) | -
-b1 | close | -  | interior | - | -
+b1 | close | -  | - | - | -
 b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | -  | interior | (rosto) angry (expr + som de efeito) | -
 b4 | two | -  | tropa, interior | - | -

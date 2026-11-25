@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1941 | Lugar: Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca) | Quando: 1941 (passeio, verao) e anos 1950
 - HEROIS (objeto): kit/burr
 - HEROIS (personagens): MES, TEC
-- Cenarios: arctic, interior madeira, loc_campo, loc_montanha, street
+- Cenarios: interior madeira, loc_montanha, street
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

@@ -77,7 +77,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 15.2s a 18.1s - 9 palavras - plano two
+## Cena b5 - 15.2s a 18.1s - 9 palavras - plano group
 > "Ninguém sabia se dava para respirar lá em cima."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

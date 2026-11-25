@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: GUERRA DOS BOLOS | - | -
-b1 | wide | -  | interior | - | -
+b1 | wide | -  | - | - | -
 b2 | two | -  | tropa, mapa | - | -
 b3 | two | -  | interior | - | -
 b4 | two | -  | interior, objeto na mao | pedido: plano medio dos dois, um pede ao outro (shot + som de efeito) | -

@@ -98,14 +98,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que ele soltava fogo de verdade.
-- Cenario: loc_deserto | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 18 de POV
-- Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Personagens principais (1): MUS (variante 0, expressao laugh)
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/bancada, kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
+- RISCOS: 
+  - a narracao fala de FOGO e nao ha fogo em cena -> CORRECAO: tirar "interior"/"fogo": false desta cena (as labaredas entram sozinhas em cena externa) e por tocha na mao de quem ateia: "who": ["GAU:0:angry:torch", ...]
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
@@ -119,7 +120,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - O nome servia para driblar a alfândega, que barrava lança-chamas.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
@@ -141,7 +142,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - E vinha com um extintor de incêndio junto.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): CMP (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
@@ -160,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Vinte mil unidades esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
@@ -213,8 +214,8 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bancada | b0, b1, b2, b3, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b0, b2, b3, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fire | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b2, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b0, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tunel_boring | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Crate_Metal | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -222,11 +223,12 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 3% | medio 73% | aberto 19% | detalhe 5%
+- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 2% | medio 77% | aberto 16% | detalhe 5%
 - Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 pular, b9 susto
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- b4: a narracao fala de FOGO e nao ha fogo em cena
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).

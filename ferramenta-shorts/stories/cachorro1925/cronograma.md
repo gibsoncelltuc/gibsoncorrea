@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 25/11 18:05 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,9 +9,9 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | loc_campo | track | GRE, BUL | - | dog_sit | - | Um cachorro perdido quase começou uma guerra na Europa.
 b1 | simples | loc_campo | two | GRE | - | dog_sit | - | E até hoje não se sabe nem se o cachorro existiu.
 b2 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em 1925, a fronteira entre Grécia e Bulgária estava tensa.
-b3 | transicao | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego cruzou a fronteira atrás do cachorro.
+b3 | transicao | mountain | track | GRE, GRE | - | - | - | Dizem que um soldado grego cruzou a fronteira atrás do cachorro.
 b4 | simples | mountain | two | BUL, GRE | 12 | - | - | Soldados búlgaros atiraram, e o grego morreu.
-b5 | chave | loc_montanha | orbit | GRE, GRE | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Grécia deu quarenta e oito horas para a Bulgária pagar.
+b5 | chave | mountain | orbit | GRE, GRE | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Grécia deu quarenta e oito horas para a Bulgária pagar.
 b6 | chave | mountain | wide | GRE | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dias depois, vinte mil soldados gregos invadiram a Bulgária.
 b7 | simples | interior madeira | two | DIP | - | - | - | A Bulgária apelou à Liga das Nações.
 b8 | simples | mountain | two | PRE, DIP | 12 | - | - | A Liga mandou parar. A Grécia recuou e pagou indenização.

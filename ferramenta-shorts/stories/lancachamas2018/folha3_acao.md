@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.0s - 9 palavras - plano two
@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 14.4s a 16.7s - 7 palavras - plano wide
+## Cena b4 - 14.4s a 16.7s - 7 palavras - plano two
 > "Acontece que ele soltava fogo de verdade."
 
 - LEITURA DA FRASE: sentido FATO
@@ -88,14 +88,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | fogo (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: burst na palavra fogo (15.9s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 17.0s a 20.4s - 10 palavras - plano two
+## Cena b5 - 17.0s a 20.4s - 10 palavras - plano group
 > "O nome servia para driblar a alfândega, que barrava lança-chamas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -114,7 +116,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 23.3s - 8 palavras - plano group
+## Cena b6 - 20.7s a 23.3s - 8 palavras - plano two
 > "E vinha com um extintor de incêndio junto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -133,7 +135,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 23.7s a 25.9s - 7 palavras - plano crowd
+## Cena b7 - 23.7s a 25.9s - 7 palavras - plano orbit
 > "Vinte mil unidades esgotaram em poucos dias."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
