@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | encena: fala (point) @4 (acao + som de
 b9 | two | -  | interior, placa: HOSPITAL | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 64% | aberto 9% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 22% | medio 63% | aberto 9% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal
