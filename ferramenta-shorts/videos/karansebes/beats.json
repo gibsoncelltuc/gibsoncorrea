@@ -154,9 +154,12 @@
     ],
     [
      "kit/barrel_r",
-     1.6,
-     -0.6,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "hora": "noite",
@@ -167,6 +170,22 @@
      "HUS"
     ],
     "march": false
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/barrel_r",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -280,23 +299,28 @@
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "OFF:0:shock",
-    "AUT:0:pained"
+    "OFF:0:shock"
    ],
    "props": [
     [
      "cannon",
-     2.6,
-     0.6,
-     1.1
+     0.0,
+     -8.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ],
     [
      "cannon",
-     -2.6,
-     0.9,
-     1.1
+     7.0,
+     -14.0,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "mood": "tense",
@@ -318,7 +342,32 @@
     "cannon@85",
     "cannon@97",
     "cannon@109"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.1,
+   "d1": 16.2,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 16.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",

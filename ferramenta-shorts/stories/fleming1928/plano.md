@@ -15,5 +15,5 @@ b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars 
 b10 | close | -  | interior | - | -
 b11 | two | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 15% | medio 71% | aberto 11% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 15% | medio 69% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -105,16 +105,15 @@
   {
    "camera": "two",
    "personagens": [
-    "ARQ",
-    "POV"
+    "ARQ"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 14,
+   "palavras": 20,
    "cena": "b5",
-   "frase": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
+   "frase": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -173,7 +172,7 @@
     "ARQ",
     "OUR"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/crown"
    ],

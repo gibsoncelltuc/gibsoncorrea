@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 47 acoes catalogadas, 47 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 42 acoes catalogadas, 42 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -14,25 +14,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | 1942 | OK |
 
-## Cena b1 - 5.0s a 10.3s - 20 palavras - plano reveal
+## Cena b1 - 5.0s a 10.3s - 20 palavras - plano wide
 > "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | LOS ANGELES | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | MAPA | LOS ANGELES | OK |
 
-## Cena b2 - 11.5s a 16.8s - 16 palavras - plano group
+## Cena b2 - 11.5s a 16.8s - 16 palavras - plano orbit
 > "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | atirado (13.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | SUBMARINO JAPONÊS | OK |
+| 2 | - | PLACA | SUBMARINO JAPONÊS | OK |
 
 ## Cena b3 - 17.8s a 23.2s - 16 palavras - plano low
 > "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
@@ -44,7 +42,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | entregar | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 24.2s a 28.4s - 15 palavras - plano group
+## Cena b4 - 24.2s a 28.4s - 15 palavras - plano wide
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -53,9 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | atirar (27.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | atirar (27.5s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 4 | canhões (28.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | INTERACAO | o outro se aproxima | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | FOGO! | OK |
+| 5 | - | PLACA | FOGO! | OK |
 
 ## Cena b5 - 29.7s a 35.5s - 18 palavras - plano group
 > "Os soldados juravam que havia inimigos no céu. Acontece que não havia nada ali, só nuvens e fumaça."
@@ -65,7 +61,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b6 - 36.8s a 41.2s - 17 palavras - plano group
+## Cena b6 - 36.8s a 41.2s - 17 palavras - plano crowd
 > "Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, que ficou em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -78,8 +74,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 6 | pânico (41.2s) | ACAO: grita | grita de bracos para cima | OK |
 | 7 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 8 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 9 | - | INTERACAO | insiste | OK |
-| 10 | - | ATUACAO | conversar | OK |
 
 ## Cena b7 - 42.3s a 46.5s - 14 palavras - plano two
 > "No dia seguinte, os militares discutiram o que tinha acontecido, e ninguém sabia dizer."
@@ -97,17 +91,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | morreram (48.5s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b9 - 52.8s a 55.6s - 12 palavras - plano orbit
+## Cena b9 - 52.8s a 55.6s - 12 palavras - plano two
 > "O único alvo derrotado naquela noite foi o sono de Los Angeles."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | derrotado (53.5s) | EFEITO: puff | fumaca + som | OK |
 | 2 | derrotado (53.5s) | ACAO: perde | mao na testa | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 56.8s a 60.2s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

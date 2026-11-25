@@ -64,9 +64,12 @@
    "props": [
     [
      "kit/searchlight",
-     1.8,
+     0.0,
      -1.2,
-     1.0
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "1942",
@@ -86,7 +89,23 @@
     ],
     "march": false
    },
-   "_susp_ok": true
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -108,12 +127,11 @@
    "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "set": "harbor",
    "hora": "pordosol",
    "who": [
-    "CID:0:scared",
-    "SOL:0:nervous"
+    "CID:0:scared"
    ],
    "interacao": "cochichar",
    "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
@@ -121,8 +139,11 @@
     [
      "kit/submarino_ww2",
      0.0,
-     -9.0,
-     1.3
+     -12.1,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -135,19 +156,29 @@
    "tat": 2,
    "tstyle": "red",
    "crowd": {
-    "n": 12,
-    "outfits": [
-     "CID",
-     "SOL"
-    ],
-    "march": false
+    "n": 0
    },
+   "_susp_ok": true,
    "cx": 0.0,
-   "cz": -6.0,
-   "h": 2.6,
-   "d0": 19.0,
-   "d1": 16.0,
-   "_susp_ok": true
+   "cz": -8.5,
+   "h": 2.4,
+   "d0": 19.1,
+   "d1": 17.1,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/submarino_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 3
   },
   {
    "shot": "low",
@@ -161,7 +192,7 @@
     [
      "kit/searchlight",
      0.0,
-     -2.4,
+     -1.2,
      1.0,
      {
       "fixo": true
@@ -169,15 +200,21 @@
     ],
     [
      "kit/searchlight",
-     -3.4,
-     -4.6,
-     1.0
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/searchlight",
-     3.6,
-     -5.2,
-     1.0
+     -3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -188,15 +225,42 @@
    ],
    "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
    "shot_lock": true,
-   "detalhe": true
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "street",
    "hora": "noite",
    "who": [
-    "SOL:0:shout",
-    "SOL:1:angry"
+    "SOL:0:shout"
    ],
    "tiros": true,
    "crowd": {
@@ -210,15 +274,21 @@
    "props": [
     [
      "cannon",
-     -2.6,
-     -4.5,
-     1.0
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "cannon",
-     3.0,
-     -5.5,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -232,7 +302,32 @@
    "text": "FOGO!",
    "titulo": true,
    "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
-   "shot_lock": true
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 15.3,
+   "d1": 14.5,
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -284,17 +379,45 @@
    "props": [
     [
      "cannon",
-     -3.0,
-     -2.0,
-     1.0
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/searchlight",
-     4,
-     -6,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -326,7 +449,7 @@
    "_susp_ok": true
   },
   {
-   "shot": "close",
+   "shot": "two",
    "set": "street",
    "hora": "noite",
    "who": [
@@ -335,12 +458,31 @@
    "props": [
     [
      "kit/searchlight",
-     1.8,
-     -1.2,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles."
+   "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "cinf": 1.5,
@@ -371,5 +513,6 @@
    "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles",
    "https://commons.wikimedia.org/wiki/File:Battle_of_Los_Angeles_LA_Times_photo.jpg"
   ]
- }
+ },
+ "max_wide": 4
 }

@@ -38,3 +38,6 @@
 ## 25/11 00:12 autocorrecao de visibilidade
 - b6: ja corrigida 3 vezes, objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b7: objeto "kit/finch_thick" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 00:13 autocorrecao de visibilidade
+- b6: ja corrigida 3 vezes, objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

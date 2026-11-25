@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 43 acoes catalogadas, 43 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 41 acoes catalogadas, 41 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 1.7s - 6 palavras - plano two
@@ -82,13 +82,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | PLACA | SÓ PARA OS RICOS | OK |
 
-## Cena b8 - 39.9s a 43.2s - 11 palavras - plano group
+## Cena b8 - 39.9s a 43.2s - 11 palavras - plano wide
 > "Enquanto isso, o povo fazia fila no frio, com comida racionada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 44.6s a 47.4s - 9 palavras - plano two
 > "Para mandar notícias, soltavam balões por cima do cerco."
@@ -97,9 +96,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | mandar (44.9s) | ACAO: fala | aponta explicando | OK |
 | 2 | soltavam (45.9s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | BALÕES | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | BALÕES | OK |
 
 ## Cena b10 - 48.6s a 53.2s - 15 palavras - plano group
 > "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia."
@@ -107,7 +105,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (51.3s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | PARIS SE RENDEU | OK |
 

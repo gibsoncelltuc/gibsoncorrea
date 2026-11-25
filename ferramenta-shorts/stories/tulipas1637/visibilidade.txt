@@ -1,1 +1,4 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (29 tomadas)
+VISIBILIDADE: 3 FALHA(S)
+FALHA b4: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
+FALHA b4: objeto "kit/scroll" saiu com 0% da altura da tela, a ficha de cena planejou 7%

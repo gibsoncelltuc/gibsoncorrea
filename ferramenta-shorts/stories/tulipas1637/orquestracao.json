@@ -99,7 +99,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "RIC",
     "MER"
@@ -107,6 +107,7 @@
    "multidao": 0,
    "objetos": [
     "buildings/house_small",
+    "kit/marco_amsterdam",
     "kit/scroll",
     "kit/tulip_striped",
     "nature/picket_fence",
@@ -122,7 +123,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "POV",
     "POV"
