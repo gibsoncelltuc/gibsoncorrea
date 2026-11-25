@@ -52,11 +52,11 @@
     [
      "kit/bife_elefante",
      0.0,
-     0.3,
+     -1.2,
      2.2,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -81,7 +81,12 @@
       "na": "elefante"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
@@ -167,22 +172,22 @@
     ],
     [
      "kit/rato",
-     -0.5,
      0.6,
+     1.0,
      2.2,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ],
     [
      "kit/rato",
-     0.6,
-     0.5,
+     3.6,
+     -2.0,
      2.2,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -194,29 +199,28 @@
    "detalhe": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/rato",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/panela",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
+      "objeto": "kit/panela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
       "objeto": "kit/rato",
-      "lugar": "FRENTE, esquerda",
-      "tela": "3% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_auto_vis": 3,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -225,7 +229,13 @@
       "na": "roedores"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
@@ -318,11 +328,11 @@
     [
      "kit/bife_elefante",
      0.0,
-     0.3,
+     -1.2,
      2.2,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -349,7 +359,12 @@
       "na": "Voisin"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
@@ -369,11 +384,11 @@
     [
      "kit/bife_elefante",
      0.0,
-     0.3,
+     -1.2,
      2.2,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -399,7 +414,12 @@
       "quem": 1
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
@@ -433,7 +453,7 @@
     [
      "kit/balloon_air",
      0.0,
-     -19.2,
+     -19.3,
      8.22,
      {
       "fixo": true
@@ -450,11 +470,6 @@
    "who": [
     "PAR:1:surprised"
    ],
-   "cx": 0.0,
-   "cz": -13.4,
-   "h": 2.8,
-   "d0": 26.2,
-   "d1": 24.2,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -472,7 +487,6 @@
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 3,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -482,7 +496,14 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -13.5,
+   "h": 2.8,
+   "d0": 21.6,
+   "d1": 18.6,
+   "_auto_vis": 2
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
@@ -500,8 +521,8 @@
    "props": [
     [
      "kit/panela",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -511,10 +532,6 @@
    "detalhe": false,
    "set": "street",
    "animais": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
@@ -527,7 +544,6 @@
      }
     ]
    },
-   "_auto_vis": 2,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -537,7 +553,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "heroi": "kit/bife_elefante",

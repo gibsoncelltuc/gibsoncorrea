@@ -19,6 +19,18 @@ print('visibilidade OK')
 PYV
 # 25/11 LEITURA ESCRITA (Gibson: "a ferramenta tem que entender o contexto de cada frase"): quem aprova LEU cada frase e escreveu no beats o "encena" (sentido + passos)
 python3 mkvideo.py $ID >/dev/null 2>&1; python3 ficha_nas_folhas.py $ID >/dev/null 2>&1; python3 encenacao.py conferir $ID >> stories/$ID/encenacao_falta.txt 2>/dev/null   # mao dupla: leitura x tela
+# 25/11 REFERENCIA x MODELO 3D (Gibson: "cadê o print da banheira da epoca para modelar no Blender? voce pulou etapa"): cada objeto 3D das cenas ao lado dos prints da pesquisa
+[ -f referencias/$ID/comparativo.jpg ] && [ ! referencias/$ID/comparativo.jpg -ot videos/$ID/beats.json ] || python3 comparar_modelo.py $ID
+python3 - "$ID" <<'PYC' || exit 1
+import re, sys, os, json
+i = sys.argv[1]; R = f'referencias/{i}'
+objs = [l.split(' ')[0] for l in open(f'{R}/comparativo.objs').read().split() ] if os.path.exists(f'{R}/comparativo.objs') else None
+ok = open(f'{R}/comparativo_ok.md').read() if os.path.exists(f'{R}/comparativo_ok.md') else ''
+if not ok.strip(): print(f'FALTA CONFERIR O COMPARATIVO: abra {R}/comparativo.jpg (modelo 3D x foto da pesquisa) e escreva {R}/comparativo_ok.md ("kit/x: OK - ..." ou "kit/x: REMODELAR - ..."); objeto sem foto de referencia = pesquise (visual.buscas em ingles + pesquisar.py)'); sys.exit(1)
+rem = re.findall(r'^(\S+): REMODELAR', ok, re.M)
+if rem: print('OBJETO A REMODELAR NO BLENDER antes do render: ' + ', '.join(rem) + ' (modele com base na foto, rode comparar_modelo.py de novo e troque REMODELAR por OK)'); sys.exit(1)
+print('comparativo referencia x modelo OK')
+PYC
 if [ -s stories/$ID/encenacao_falta.txt ]; then echo "FALTA A LEITURA ESCRITA de frases (encenacao.py): leia cada frase e escreva no beats.json o \"encena\": {\"sentido\": afirmativa|negativa|hipotese|figurada|fato, \"passos\": [{quem, faz, alvo, na}]}:"; sed 's/^/  /' stories/$ID/encenacao_falta.txt; exit 1; fi
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 # 25/11 (sessao A): a ferramenta muda o tempo todo (sync de 1 min); se o hash das folhas mudou mas NENHUMA CENA mudou (mesmo desenho de cada cena), o storyboard olhado continua valendo

@@ -18,6 +18,7 @@ N = json.load(open(f'stories/{ID}/work/phrases.json'))['frames30']
 nf = int(subprocess.run(['ffprobe', '-v', 'error', '-count_frames', '-select_streams', 'v:0', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0', MP4], capture_output=True, text=True).stdout.strip() or 0)
 if abs(nf - N) > 2: print(f'{ID}: o mp4 tem {nf} quadros e a voz pede {N} -> video inteiro'); sys.exit(4)
 C = f'ckpt/{ID}'; os.makedirs(C, exist_ok=True)
+open(f'{C}/cenas.txt', 'w').write('reconstituindo antigo\n')   # marca ja' no inicio: a limpeza de disco nao apaga um ckpt em refacao
 _cut = ','.join(str(k * 150) for k in range(1, (N + 149) // 150))   # um passe so': quadro-chave a cada 150 e corta em trechos
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', MP4, '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '15', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-g', '30', '-keyint_min', '30', '-sc_threshold', '0', '-r', '30',
                 '-force_key_frames', 'expr:eq(mod(n,150),0)', '-f', 'segment', '-segment_frames', _cut, '-reset_timestamps', '1', f'{C}/seg_%03d.mp4'], check=True)

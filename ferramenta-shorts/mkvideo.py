@@ -1596,6 +1596,20 @@ def build_beat(k, b):
         for _q, (_ox, _oz) in enumerate(((-0.7, 0.2), (0.7, 0.2), (0.0, 0.5), (-0.4, -0.2), (0.4, -0.2))):
             fx.append(f"{{ k: 'splash', a: WS({_spi}) + {_q * 4}, b: WS({_spi}) + {40 + _q * 4}, at: [X + {num(_sx + _ox)}, DK + 0.75, {num(_sz + _oz)}], s: 1.0 }}")
         KWSFX.append((_spi, 'thump'))
+    for _ofw, _ofa, _oft in (b.get('_obj_faz') or []):   # 25/11 leitura escrita: acao do OBJETO (passo sem 'quem', alvo = objeto da cena) -> efeito + som no objeto, na palavra
+        _ofj = next((j_ for j_, w_ in enumerate(b['say'].split()) if nrm(w_) == nrm(_ofw) or (nrm(_ofw) and nrm(_ofw) in nrm(w_))), 0); _ofi = starts[k] + _ofj
+        _ofp = next((p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and str(p_[0]) == str(_ofa)), None); _ox_, _oz_ = (float(_ofp[1]), float(_ofp[2])) if _ofp else (0.0, 1.2); _oh_ = 0.9 * (float(_ofp[3]) if _ofp and len(_ofp) > 3 else 1.0)
+        if _oft == 'quebra':
+            pr.append(f"{{ asset: 'kit/semente', a: Math.max({a} + 4, WS({_ofi}) - 24), b: {bb}, at: [X + {num(_ox_ + 0.55)}, {num(_oz_ + 0.45)}], s: 0.9, drop: false }}")
+            fx.append(f"{{ k: 'burst', a: WS({_ofi}) + 2, b: WS({_ofi}) + 18, at: [X + {num(_ox_ + 0.55)}, DK + 0.35, {num(_oz_ + 0.5)}], s: 0.6 }}"); fx.append(f"{{ k: 'stars', a: WS({_ofi}) + 4, b: WS({_ofi}) + 28, at: [X + {num(_ox_ + 0.55)}, DK + 0.6, {num(_oz_ + 0.5)}], s: 0.5 }}"); KWSFX.append((_ofi, 'thump'))
+        elif _oft == 'atira':   # objeto dispara (submarino, canhao, navio): clarao na boca + estouro + estrondo
+            fx.append(f"{{ k: 'flash', a: WS({_ofi}), b: WS({_ofi}) + 10, at: [X + {num(_ox_ + 0.8)}, DK + {num(_oh_ + 0.4)}, {num(_oz_ + 0.4)}], s: 1.2 }}"); fx.append(f"{{ k: 'burst', a: WS({_ofi}) + 2, b: WS({_ofi}) + 22, at: [X + {num(_ox_ + 1.2)}, DK + {num(_oh_ + 0.5)}, {num(_oz_ + 0.4)}], s: 1.3 }}"); KWSFX.append((_ofi, 'cannon')); KICKS.append(f"{{ f: WS({_ofi}) + 2, a: 0.04 }}")
+        elif _oft == 'toca':   # objeto toca/soa (sirene, sino, alarme): ondas de som saindo do objeto + som proprio
+            for _q in range(3): fx.append(f"{{ k: 'ring', a: WS({_ofi}) + {_q * 10}, b: WS({_ofi}) + {_q * 10 + 26}, at: [X + {num(_ox_)}, DK + {num(_oh_ + 0.4)}, {num(_oz_ + 0.3)}], s: {0.6 + 0.25 * _q} }}")
+            KWSFX.append((_ofi, 'sirene' if re.search(r'siren|alarm|alert', nrm(b['say'])) else 'ding'))
+        else:
+            fx.append(f"{{ k: 'stars', a: WS({_ofi}) + 2, b: WS({_ofi}) + 28, at: [X + {num(_ox_)}, DK + {num(_oh_ + 0.3)}, {num(_oz_ + 0.3)}], s: 0.6 }}"); KWSFX.append((_ofi, 'ding'))
+        PLANO.append((k, f'objeto: {_ofa.split("/")[-1]} {_oft} (na palavra "{_ofw}")', 'acao'))
     if b.get('kw') is not False:
         _ngK = _neg_idx(b['say'])
         for j, w in enumerate(b['say'].split()):
@@ -1699,7 +1713,7 @@ def build_beat(k, b):
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
         _enc_ok = b.get('encena') if isinstance(b.get('encena'), dict) and not b['encena'].get('rascunho') else None
         if _enc_ok is not None:   # 25/11 LEITURA ESCRITA MANDA: so' acontece na tela a acao que a leitura da frase pediu (adeus "deu errado" = entregar, "lenhadores" = cortar)
-            _quer = {(p_.get('faz'), nrm(str(p_.get('na', '')))) for p_ in (_enc_ok.get('passos') or [])}; _quer_t = {f_ for f_, _ in _quer} | {'senta'}
+            _quer = {(p_.get('faz'), nrm(str(p_.get('na', '')))) for p_ in (_enc_ok.get('passos') or []) if not ('quem' not in p_ and p_.get('alvo') and [p_.get('na'), p_.get('alvo'), p_.get('faz')] in (b.get('_obj_faz') or []))}; _quer_t = {f_ for f_, _ in _quer} | {'senta'}   # acao do OBJETO (passo sem quem) nao vira acao de personagem
             _encs = [e_ for e_ in _encs if e_[2] in _quer_t and (not any(f_ == e_[2] for f_, w_ in _quer if w_) or any(f_ == e_[2] and w_ and (w_ in nrm(_ws[e_[3]]) or nrm(_ws[e_[3]]) in w_) for f_, w_ in _quer))]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         _punches = []

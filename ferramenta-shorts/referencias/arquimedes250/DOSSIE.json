@@ -38,6 +38,7 @@
   "buildings/castle_tower",
   "buildings/house_small",
   "kit/bathtub",
+  "kit/coroa_louros",
   "kit/crown",
   "kit/room_classico_stone",
   "mk/Bookcase_2",
@@ -73,7 +74,14 @@
   ],
   "explicacoes": [
    "Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua."
-  ]
+  ],
+  "buscas": {
+   "banheira": "ancient greek bathtub terracotta",
+   "bathtub": "ancient greek bathtub terracotta",
+   "coroa de ouro (de louros)": "gold laurel wreath ancient greek",
+   "balanca de pratos": "ancient balance scale",
+   "barra de ouro": "gold ingot ancient"
+  }
  },
  "fontes": [],
  "falta": []

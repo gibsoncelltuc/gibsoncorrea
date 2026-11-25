@@ -74,10 +74,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -86,7 +82,12 @@
       "na": "passarinhos"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
@@ -130,11 +131,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -144,7 +140,13 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
@@ -166,7 +168,7 @@
    ],
    "set": "harbor",
    "quadro": {
-    "local": "praia / palacio",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -178,10 +180,6 @@
     ]
    },
    "objetos": null,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "fachada": false,
    "encena": {
     "sentido": "afirmativa",
@@ -192,7 +190,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -250,10 +253,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -263,7 +262,12 @@
       "quem": 1
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -277,7 +281,7 @@
     [
      "kit/finch_thick",
      0.0,
-     -1.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -285,8 +289,8 @@
     ],
     [
      "kit/finch_long",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -319,20 +323,25 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2,
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
       "na": "bico"
+     },
+     {
+      "faz": "quebra",
+      "alvo": "kit/finch_thick",
+      "na": "quebrar"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
@@ -349,8 +358,8 @@
    "props": [
     [
      "kit/finch_thick",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -358,8 +367,8 @@
     ],
     [
      "kit/finch_long",
-     0.0,
-     1.4,
+     -3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -385,7 +394,7 @@
    ],
    "set": "harbor",
    "quadro": {
-    "local": "praia / palacio",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -410,11 +419,6 @@
    },
    "detalhe": true,
    "objetos": null,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
    "fachada": false,
    "encena": {
     "sentido": "afirmativa",
@@ -424,7 +428,12 @@
       "na": "bico"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -438,8 +447,8 @@
    "props": [
     [
      "kit/finch_thick",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -458,11 +467,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -471,7 +475,12 @@
       "na": "bichos"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
@@ -523,10 +532,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -535,7 +540,12 @@
       "na": "etiquetas"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "visual": {
