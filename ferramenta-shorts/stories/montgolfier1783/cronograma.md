@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 25/11 05:29 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:33 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior madeira | group | NOB, ETI | - | - | - | Só que ningué
 b5 | simples | loc_campo | wide | JOS | - | balloon, marco_versalhes | - | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
 b6 | simples | street | crowd | REI | 30 | balloon, marco_versalhes | - | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
 b7 | chave | loc_campo | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão levantou voo de verdade, com os bichos dentro.
-b8 | chave | loc_campo | two | ETI | - | balloon, bush, tree_oak, tree_pine | corpo: desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira; emissao: VFX 3D preso no objeto (jato/p | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
+b8 | chave | loc_campo | wide | ETI | - | balloon, marco_versalhes, bush, tree_oak, tree_pine | corpo: desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira; emissao: VFX 3D preso no objeto (jato/p | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
 b9 | simples | street | wide | POV | - | balloon, balloon_air, marco_versalhes | - | Dois meses depois, outro balão levou dois homens por cima de Paris.
 b10 | simples | loc_montanha | two | ETI | - | balloon, marco_versalhes | - | Tudo graças a três bichos corajosos.
 b11 | simples | loc_montanha | close | JOS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

@@ -198,13 +198,14 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ETI"
    ],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
+    "kit/marco_versalhes",
     "nature/bush",
     "nature/tree_oak",
     "nature/tree_pine"

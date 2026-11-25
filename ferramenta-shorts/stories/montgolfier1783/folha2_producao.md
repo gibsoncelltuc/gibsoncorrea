@@ -182,18 +182,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Oito minutos depois, ele desceu num bosque a três quilômetros dali, e ...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ETI (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: reagir
-- Objetos/modelos: kit/balloon, nature/tree_pine, nature/tree_oak, nature/bush, sheep, duck, rooster
+- Objetos/modelos: kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bichos, tres
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
@@ -264,7 +264,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balloon | b0, b3, b5, b6, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_versalhes | b0, b1, b5, b6, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_versalhes | b0, b1, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 rooster | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -276,7 +276,7 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b1, b7 | planos abertos: 5 | mistura: close 10% | medio 59% | aberto 31% | detalhe 0%
+- Objeto heroi: kit/balloon | grandes momentos: b1, b7 | planos abertos: 6 | mistura: close 10% | medio 46% | aberto 43% | detalhe 0%
 - Interacoes: b2 avanca e o outro recua, b4 discutir
 - RISCOS GERAIS: nenhum
 
