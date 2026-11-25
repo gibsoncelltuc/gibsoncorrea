@@ -1,30 +1,20 @@
-f0: OK - praca de Paris com Pasteur e Joseph (crianca) ao lado da bancada com a seringa de vidro em pe - frase 'Um menino de nove anos foi o primeiro a receber a vacina contra a raiva'
-f1: OK - mapa FRANCA com marcador - frase 'Era mil oitocentos e oitenta e cinco'
-f2: OK - praca francesa com predios de epoca e cientistas - frase 'na Franca'
-f3: OK - praca com gente de epoca - frase 'e Louis Pasteur ja era famoso por estudar micróbios'
-f4: OK - laboratorio com dois personagens tensos - frase 'Na epoca'
-f5: OK - dois personagens preocupados - frase 'quem era mordido por um animal com raiva quase nunca se salvava'
-f6: OK - Pasteur com a seringa de vidro no laboratorio - frase 'Pasteur tinha criado uma vacina e testado so em animais'
-f7: OK - Pasteur sozinho, sem pessoa sendo vacinada - frase 'nunca em uma pessoa'
-f8: OK - mae e Joseph crianca chorando - frase 'Um dia'
-f9: OK - Joseph crianca chorando com a mae chegando, poeira - frase 'uma mae chegou a porta dele com o filho Joseph'
-f10: OK - mae e Joseph com o cachorro inteiro visivel - frase 'mordido por um cachorro com raiva'
-f11: OK - Pasteur assustado na praca - frase 'Pasteur nao era medico e tinha medo'
-f12: OK - Pasteur decidido - frase 'mas decidiu tentar'
-f13: OK - Pasteur e Joseph no patio com a seringa em pe na bancada - frase 'Acontece que'
-f14: OK - Pasteur aplicando (anel de efeito) e Joseph ao lado - frase 'durante dez dias'
-f15: OK - Pasteur e Joseph com a seringa na bancada (Pasteur encosta na borda do quadro durante o gesto) - frase 'ele aplicou injecoes'
-f16: OK - Pasteur sorrindo e Joseph crianca saudavel - frase 'e o menino nunca ficou doente'
-f17: OK - mae e Joseph na sala com a placa NOTICIA - frase 'Joseph sobreviveu'
-f18: OK - mae e Joseph sob a placa NOTICIA - frase 'e a noticia correu o mundo'
-f19: OK - Joseph adulto de porteiro (farda azul e quepe) com INSTITUTO PASTEUR - frase 'Anos depois'
-f20: OK - porteiro com INSTITUTO PASTEUR - frase 'ele virou o guarda do instituto de Pasteur'
-f21: OK - porteiro com INSTITUTO PASTEUR - frase 'e cuidou do lugar ate o fim da vida'
-f22: OK - multidao reunida com VACINA - frase 'Hoje o Instituto Pasteur ainda leva o nome dele'
-f23: OK - multidao com VACINA - frase 'e a vacina salva vidas no mundo inteiro'
-f24: OK - Pasteur sorrindo no laboratorio - frase 'No fim'
-f25: OK - Pasteur rindo - frase 'uma picada salvou mais que mil discursos'
-f26: OK - Pasteur rindo na praca com COMENTE - frase 'Agora nao deixe de comentar'
-f27: OK - Pasteur grande rindo com COMENTE - frase 'qual deve ser o tema do proximo video'
-gancho: OK - cena 1 com Pasteur e o menino Joseph ao lado da seringa, imagem imediata do tema; a data so entra na segunda frase.
-piloto: OK - mesmo padrao do Roadster EP25: gancho visual, objeto heroi (seringa) legivel e pequeno, final curto com chamada para comentar.
+f0: OK - "Um menino de nove anos foi o primeiro vacinado contra a raiva": Pasteur e o menino Joseph ao lado da bancada com a seringa e a placa PRIMEIRA VACINA.
+f1: OK - "E quem aplicou a vacina nem era médico": Pasteur de chapéu e casaca em primeiro plano, praça de época atrás.
+f2: OK - "Em 1885,": praça de época com vários personagens de época diante dos prédios franceses.
+f3: OK - "Louis Pasteur estudava micróbios na França": mapa com a FRANÇA marcada.
+f4: OK - "Mordida de animal com raiva quase sempre matava": personagem aflito de pé no laboratório de época.
+f5: OK - "A vacina dele só tinha sido testada em animais": Pasteur ao lado da seringa grande na bancada do laboratório.
+f6: OK - "Um dia,": a mãe e Joseph chegando ao laboratório.
+f7: OK - "chegou o menino Joseph,": a mãe e Joseph com poeira de chegada, Joseph visível.
+f8: OK - "mordido por um cachorro": mãe e Joseph chorando e o cachorro inteiro ao lado.
+f9: OK - "Pasteur tinha medo,": Pasteur sozinho, nervoso, prateleiras de frascos atrás.
+f10: OK - "mas decidiu tentar": Pasteur em close, expressão decidida.
+f11: OK - "Acontece que,": Pasteur e Joseph com a seringa na bancada no pátio.
+f12: OK - "depois de dez dias de injeções,": Pasteur com efeito de brilho na seringa, Joseph ao lado.
+f13: OK - "o menino não adoeceu": Pasteur sorrindo, Joseph saudável ao lado da seringa.
+f14: OK - "Joseph sobreviveu,": mãe e Joseph aliviados na sala.
+f15: OK - "e a notícia correu o mundo": mãe e Joseph na sala, notícia comemorada.
+f16: OK - "Um químico arriscou tudo.": fecho repete o gancho, Pasteur e Joseph com a placa PRIMEIRA VACINA.
+f17: OK - "E foi assim que...": mesma cena do gancho, loop emenda com a primeira frase.
+gancho: Pasteur e o menino Joseph ao lado da seringa grande com a placa PRIMEIRA VACINA logo nos primeiros 3 segundos, com a frase do menino de nove anos vacinado.
+piloto: comparado ao Roadster EP25, o objeto herói (seringa) aparece cedo e em close na virada, com efeito de brilho no meio; menos VFX que o piloto, mas sem defeito visível e o fecho emenda no gancho.

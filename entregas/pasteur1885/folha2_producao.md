@@ -2,77 +2,87 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/pasteur1885/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py pasteur1885` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um menino de nove anos foi o primeiro a receber a vacina contra a raiv...
+## Cena b0 - Um menino de nove anos foi o primeiro vacinado contra a raiva.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva, receber, vacina
+- Objetos/modelos: kit/bancada, kit/seringa_pe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva
 - RISCOS: nenhum
 
-## Cena b1 - Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já er...
+## Cena b1 - E quem aplicou a vacina nem era médico.
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): PAS (variante 0, expressao nervous)
+- Animacao: reagir
+- Objetos/modelos: kit/syringe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vacina
+- RISCOS: nenhum
+
+## Cena b2 - Em 1885, Louis Pasteur estudava micróbios na França.
+- Cenario: street | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MED (variante 0, expressao neutral); MED (variante 1, expressao smile) | multidao: 8 de POV/MED
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
 - RISCOS: nenhum
 
-## Cena b2 - Na época, quem era mordido por um animal com raiva quase nunca se salv...
+## Cena b3 - Mordida de animal com raiva quase sempre matava.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): MED (variante 0, expressao sad); POV (variante 0, expressao scared)
-- Animacao: conversar | interacao: o outro se aproxima
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): MED (variante 0, expressao sad)
+- Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, epoca, raiva
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, raiva
 - RISCOS: nenhum
 
-## Cena b3 - Pasteur tinha criado uma vacina e testado só em animais, nunca em uma ...
+## Cena b4 - A vacina dele só tinha sido testada em animais.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PAS (variante 0, expressao suspicious) | multidao: 0 de POV
 - Animacao: conversar
-- Objetos/modelos: kit/syringe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa, vacina
+- Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vacina
 - RISCOS: nenhum
 
-## Cena b4 - Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um...
+## Cena b5 - Um dia, chegou o menino Joseph, mordido por um cachorro.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MAE (variante 0, expressao cry); JOS (variante 0, expressao cry)
-- Animacao: conversar | interacao: insiste
+- Animacao: -
 - Objetos/modelos: dog
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, filho, porta, raiva
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, menino
 - RISCOS: nenhum
 
-## Cena b5 - Pasteur não era médico e tinha medo, mas decidiu tentar.
-- Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+## Cena b6 - Pasteur tinha medo, mas decidiu tentar.
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): PAS (variante 0, expressao nervous)
 - Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
-## Cena b6 - Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca...
+## Cena b7 - Acontece que, depois de dez dias de injeções, o menino não adoeceu.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): PAS (variante 0, expressao relief); JOS (variante 0, expressao smile) | multidao: 0 de POV
+- Animacao: conversar | interacao: o outro se aproxima | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): injecoes, menino
 - RISCOS: nenhum
 
-## Cena b7 - Joseph sobreviveu, e a notícia correu o mundo.
+## Cena b8 - Joseph sobreviveu, e a notícia correu o mundo.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -82,44 +92,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
 
-## Cena b8 - Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): GUA (variante 0, expressao smile)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, instituto, lugar, pasteur
-- RISCOS: nenhum
-
-## Cena b9 - Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vida...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao laugh); MED (variante 0, expressao grin) | multidao: 14 de POV/MED/MAE
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/syringe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): instituto, vacina
-- RISCOS: nenhum
-
-## Cena b10 - No fim, uma picada salvou mais que mil discursos.
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): PAS (variante 0, expressao smug)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): picada
-- RISCOS: nenhum
-
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9 - Um químico arriscou tudo. E foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): PAS (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
+- Animacao: conversar | interacao: insiste
+- Objetos/modelos: kit/bancada, kit/seringa_pe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): quimico
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -127,15 +107,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bancada | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/seringa_pe | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bancada | b0, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/seringa_pe | b0, b4, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/syringe | b1, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 23% | medio 63% | aberto 13% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste
+- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 21% | detalhe 2%
+- Interacoes: b0 avanca e o outro recua, b7 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
