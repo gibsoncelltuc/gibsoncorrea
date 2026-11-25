@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: SOL (soldado) no centro, expressao shout; multidao de 4 (SOL) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: SOL (soldado) no centro, expressao shout; multidao de 3 (SOL) ATRAS dos principais; acao: fala/gesto
 - OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena

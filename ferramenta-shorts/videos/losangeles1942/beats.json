@@ -315,18 +315,19 @@
    ],
    "tiros": true,
    "crowd": {
-    "n": 4,
+    "n": 3,
     "outfits": [
      "SOL"
     ],
     "march": false,
-    "expr": "shout"
+    "expr": "shout",
+    "poucos": true
    },
    "props": [
     [
      "cannon",
-     -2.4,
-     -1.4,
+     -1.8,
+     -1.0,
      1.0,
      {
       "fixo": true
@@ -334,8 +335,8 @@
     ],
     [
      "cannon",
-     2.6,
-     -2.6,
+     2.2,
+     -1.6,
      1.0,
      {
       "fixo": true

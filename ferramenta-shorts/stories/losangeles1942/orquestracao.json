@@ -32,7 +32,7 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "CID",
     "CID"
@@ -42,24 +42,6 @@
    "palavras": 20,
    "cena": "b1",
    "frase": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "CID"
-   ],
-   "multidao": 30,
-   "objetos": [
-    "kit/submarino_ww2"
-   ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -69,6 +51,24 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "CID"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/submarino_ww2"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -99,7 +99,7 @@
    "personagens": [
     "SOL"
    ],
-   "multidao": 32,
+   "multidao": 3,
    "objetos": [
     "cannon",
     "kit/canhao_moderno"

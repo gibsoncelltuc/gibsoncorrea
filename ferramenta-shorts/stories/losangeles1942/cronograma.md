@@ -1,16 +1,16 @@
 # CRONOGRAMA - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Gerado em 25/11 09:37 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 09:40 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | SOL, CID | 12 | apartment, house_two, searchlight, lamppost | - | Uma cidade inteira passou a noite atirando no céu, e não havia inimigo
-b1 | simples | street | reveal | CID, CID | 8 | - | - | Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear
-b2 | chave | harbor | crowd | CID | 30 | submarino_ww2 | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m
+b1 | chave | street | wide | CID, CID | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear
+b2 | simples | harbor | orbit | CID | - | submarino_ww2 | - | Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m
 b3 | simples | harbor | low | SOL, CID | - | apartment, house_two, searchlight, lamppost | - | Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e ho
-b4 | simples | street | wide | SOL | 32 | cannon, canhao_moderno | - | Alguém viu um objeto no céu, e os soldados começaram a atirar com canh
+b4 | simples | street | wide | SOL | 3 | cannon, canhao_moderno | - | Alguém viu um objeto no céu, e os soldados começaram a atirar com canh
 b5 | simples | harbor | group | SOL, GEN | 12 | - | - | Os soldados juravam que havia inimigos no céu. Acontece que não havia 
 b6 | chave | loc_cidade | crowd | CID, CID | 48 | apartment, house_two, cannon, canhao_moderno, searchlight, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q
 b7 | simples | interior madeira | two | GEN, PRE | - | - | - | No dia seguinte, os militares discutiram o que tinha acontecido, e nin
