@@ -120,6 +120,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
+- CAMERA: plano de multidao
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- SOM: sting@40
+- TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
 ## Cena b6 - A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
@@ -129,6 +140,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, madrugada, vizinhos
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: POV na esquerda, expressao angry; JOR na direita, expressao surprised; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "X" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (27.9-29.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (29.5-31.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b7 - A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -141,6 +164,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FIS na esquerda, expressao angry; MUS na direita, expressao worried; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 4 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (31.3-33.1 s): mesmo angulo
+  - take 2 (33.1-34.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (34.9-36.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (36.6-38.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
 ## Cena b8 - A empresa disse que era uma placa temporária para um evento.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
@@ -151,6 +186,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, evento, placa
 - RISCOS: nenhum
 <!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao smug; FIS na direita, expressao suspicious; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (38.7-40.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (40.4-42.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b9 - A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido...
 - Cenario: loc_cidade | luz: noite | clima: limpo
@@ -163,6 +208,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 <!-- FICHA -->
 
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FIS na esquerda, expressao shock; OPE (pedreiro) na direita, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (42.2-43.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (43.8-45.4 s): mesmo angulo
+  - take 3 (45.4-46.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 4 (46.9-48.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
 ## Cena b10 - Moral da história: até trocar de nome precisa de licença da prefeitura...
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
@@ -173,6 +230,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): licenca, prefeitura
 - RISCOS: nenhum
 <!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/phone: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (48.9-50.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (50.3-51.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: golden | clima: limpo

@@ -226,10 +226,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "loja / taverna",
@@ -242,7 +238,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -376,10 +376,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "loja / taverna",
@@ -392,7 +388,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
