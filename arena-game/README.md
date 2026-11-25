@@ -1,69 +1,75 @@
-# Arena das Moedas
+# Arena das Moedas — mundo aberto 3D
 
-RPG de ação 3D no navegador (Three.js) com economia entre jogadores: **loja, equipamentos visíveis no
-personagem, habilidades, mercado, trocas diretas e torneios**. A moeda é **interna do jogo** (não vale dinheiro).
+Jogo de mundo aberto no navegador (Three.js) com **avatar estilo Roblox**, **8 regiões**, **modo carreira**,
+**duelos PvP**, **jogadores online** e uma economia própria (loja, mercado, trocas, torneios).
+A moeda é **interna do jogo** e não vale dinheiro.
+
+![mundo](docs/mundo.png)
 
 ## Como jogar
 
 ```
 cd arena-game
-npm install          # instala three e ws
-npm start            # abre em http://127.0.0.1:8800
+npm install          # three e ws
+npm start            # http://127.0.0.1:8800
 HOST=0.0.0.0 npm start   # amigos na mesma rede entram por http://SEU-IP:8800
-npm test             # 9 testes da economia
+npm test             # 19 testes (economia, mundo online, duelos e integração por WebSocket)
 ```
 
-Controles: **WASD** mover · **Espaço**/clique atacar · **Q/E** ou botão direito + arrastar para girar a câmera ·
-roda do mouse zoom · **Shift** correr · **1–5** habilidades · **B** Loja · **I** Inventário · **K** Habilidades ·
-**M** Mercado · **T** Troca · **O** Torneios · **H** Ajuda · **P** alterna gráficos alto/desempenho.
+Abra duas abas (ou dois computadores) com nomes diferentes para ver o online funcionando.
+Computador com placa de vídeo recomendado: o mundo tem ~700 mil triângulos. A tecla **P** alterna o modo desempenho
+(e o jogo cai sozinho para ele se ficar lento).
 
-## Visual
+## Controles
 
-Tudo é gerado por código (sem baixar modelos): sombreamento estilo desenho animado com contorno, personagem
-estilizado (cabeça grande, olhos com brilho, cabelo que varia por jogador, botas, capa, armadura) que muda com o
-equipamento, inimigos animados, céu com degradê, nuvens, montanhas, lago, árvores, grama ao vento, flores,
-arena de pedra com plataforma de runas brilhantes, tochas com luz, bandeiras, partículas e brilho (bloom).
-Se o computador for lento, o jogo cai sozinho para o modo desempenho (tecla **P** alterna).
-Arquivos: `public/visuals.js` (aparência) e `public/game.js` (jogabilidade). Veja `docs/`.
+**WASD** mover · **Espaço** pular · **Shift** correr · clique ou **F** atacar · **E** falar com NPC ·
+botão direito + arrastar (ou setas) gira a câmera · roda do mouse: zoom · **Tab** mapa grande · **Enter** chat ·
+**1–5** habilidades · painéis: **B** Loja · **I** Inventário · **K** Habilidades · **M** Mercado · **T** Troca ·
+**O** Torneios · **C** Carreira · **V** Batalha · **U** Avatar · **H** Ajuda.
 
 ## O que tem
 
-| Recurso | Como funciona |
+| Recurso | Detalhes |
 |---|---|
-| Moedas | Ganha derrotando inimigos (Gosma, Bruto) e em torneios. Teto de 450 moedas/hora por jogador. |
-| Loja | 17 itens: armas, cabeça, corpo, ferramentas e **pergaminhos de habilidade**. |
-| Equipamento | Muda atributos (ataque, defesa, vida, velocidade, coleta, sorte) **e o visual** do personagem. |
-| Habilidades | Investida, Bola de Fogo, Escudo, Cura, Redemoinho. Aprende-se usando o pergaminho e evolui até o nível 3 com moedas. |
-| Mercado | Anuncie qualquer item livre (inclusive pergaminhos). O item fica em custódia até vender ou cancelar. Taxa de 5% destruída. |
-| Troca direta | Dois jogadores trocam itens e moedas de forma atômica; revalida tudo no momento do "Aceitar"; expira em 10 min. |
-| Torneios | Mata-mata de 4 ou 8, simulado no servidor com os atributos (equipamento importa). Vagas vazias viram bots. 10% do prêmio é destruído. |
-| Personagem | Nível sobe com XP e aumenta vida e ataque. |
+| Avatar | Bonequinho de blocos arredondados com rosto, 5 cabelos, 6 peles, 10 camisas, 8 calças e 4 rostos (tecla **U**). Equipamentos aparecem no corpo: chapéus, elmos, coroas, armaduras, capas, asas, mochila, armas e ferramentas. |
+| Mundo | 640×640 com Vila Moeda (praça, fonte, prefeitura com relógio, feira, ferraria), Coliseu, Floresta Sussurrante, Deserto com pirâmide e oásis, Montanhas Geladas com iglus, Fazenda com moinho, Praia com farol e doca, Ruínas e o Castelo do Rei Gosma. Estradas, lagos, mar, **dia e noite** (12 min), nuvens, estrelas, vento na grama. |
+| Online | Veja outros jogadores em tempo real (posição, nome, equipamento), balões de chat e chat global. |
+| Carreira (**C**) | 7 capítulos em ordem: falar com o Prefeito → 8 Gosmas → 5 cristais na floresta → 8 Escorpiões → 8 Lobos → 6 Esqueletos → **Rei Gosma**. Ao vencer, você "zera" o jogo, ganha a Coroa do Herói e um aviso no chat global. |
+| Batalha (**V**) | Duelo 1×1 no Coliseu com aposta de 10 moedas (10% destruído). O servidor valida distância, intervalo dos golpes e calcula o dano com os atributos reais. Dura 90 s; vence quem derrubar o outro ou tiver mais vida. |
+| Economia | Loja, evolução de habilidades, mercado entre jogadores (taxa de 5% destruída), troca direta atômica e torneios simulados. |
+| Monstros | Gosma, Bruto, Escorpião, Lobo, Esqueleto e o chefe Rei Gosma. Mais longe da vila = mais fortes. A vila é zona segura. |
 
-## Segurança da economia (o que está garantido e o que não está)
+## Segurança: o que está garantido e o que não está
 
-Garantido (testado em `test/economy.test.js`, incluindo um teste aleatório de 1.500 operações):
-- Toda compra, venda, troca e torneio é validada no **servidor**; o cliente só pede.
-- **Auditoria**: `moedas criadas = moedas dos jogadores + custódia de torneios + moedas destruídas`, verificada a cada operação.
-- Não dá para comprar sem saldo, vender item equipado, comprar o próprio anúncio, comprar duas vezes o mesmo anúncio nem trocar item que já foi vendido.
-- Recompensas de inimigo têm intervalo mínimo (350 ms) e teto por hora.
+Garantido e testado (`npm test`):
+- Toda compra, venda, troca, aposta e recompensa é validada no **servidor**.
+- **Auditoria das moedas** (criadas = jogadores + custódia + destruídas) fecha a cada operação, inclusive no teste online que
+  conecta dois jogadores por WebSocket, anda até o Coliseu e faz um duelo completo.
+- **Anti-teleporte**: o servidor limita a velocidade e devolve a posição.
+- **Bioma**: só vale derrotar um monstro estando na região dele; NPC e cristal exigem estar perto.
+- Chat com limite de frequência/tamanho; excesso de mensagens recebe resposta "devagar" (não é descartado em silêncio).
+- Duelo: dano calculado só no servidor; aposta devolvida se o duelo for cancelado, empatar ou o servidor cair.
 
 **Limites conhecidos (importante):**
-- O combate roda no navegador. Um jogador malicioso pode avisar ao servidor que matou inimigos sem ter matado.
-  O teto de 450 moedas/hora limita o estrago, mas **não impede**. Para valer dinheiro real, o combate precisa
-  rodar no servidor.
-- Não há senha: o personagem é guardado por um token no navegador (perdeu o token, perdeu a conta).
-- Ainda não há outros jogadores visíveis na mesma arena em tempo real (a economia é multiplayer; o combate, por ora, é solo).
-- Dados salvos em `data/game.json` (um arquivo). Serve para protótipo, não para milhares de jogadores.
+- O combate contra monstros roda no **navegador**. Um jogador malicioso pode avisar que matou monstros sem matar. O teto de
+  450 moedas/hora e a validação de bioma limitam o estrago, **mas não impedem**. Para valer dinheiro real, precisa rodar no servidor.
+- Os monstros não são compartilhados: cada jogador vê os seus.
+- Não há senha (o personagem é guardado por um token no navegador). Dados em um arquivo JSON (`data/game.json`).
+- Em duelos só vale o ataque corpo a corpo (habilidades ficam desligadas).
+- Ainda não há tela de créditos nem celular/controle (só teclado e mouse).
 
-## Sobre ligar a moeda a um token de verdade
+## Estrutura
 
-Não está ligada. É uma decisão de produto e jurídica (ver conversa): primeiro valide a economia só dentro do jogo.
-Se um dia houver token, o caminho seguro é: combate no servidor, contas com login real, saques limitados e revisão jurídica.
-Nada aqui mexe com carteiras ou chaves privadas.
+```
+server/   economy.js (regras e auditoria) · world.js (presença, chat, duelos) · index.js (rede) · catalog.js
+public/   game.js (jogabilidade) · avatar.js (bonecos) · world.js + structures.js (mundo) · visuals.js (partículas/bloom)
+          ui.js (painéis) · main.js (HUD) · minimap.js · shared/ (mapa e missões, lidos por servidor e cliente)
+test/     economy · world · online (integração por WebSocket)
+```
 
 ## Próximos passos sugeridos
 
-1. Combate e inimigos no servidor (anti-trapaça) e jogadores visíveis na mesma arena.
-2. Torneio com duelo real (PvP) em vez de simulação.
-3. Mais itens, raridades, visuais, mapas e missões; balancear preços com dados de jogo.
-4. Contas com login e banco de dados (SQLite).
+1. Monstros e combate no servidor (anti-trapaça) e monstros compartilhados, para jogar em dupla.
+2. Chefes com fases, dungeons e mais missões; tela de créditos e "novo jogo+".
+3. Duelos 2×2 e torneios com PvP real; ranking.
+4. Contas com senha e banco de dados (SQLite).
