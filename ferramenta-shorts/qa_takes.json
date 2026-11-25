@@ -1,45 +1,94 @@
 {
  "fails": [
   {
-   "f": 1340,
-   "shot": "b7~3",
+   "f": 132,
+   "shot": "b0~2",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.029, 0.334, 0.245, 0.674)"
    ]
   },
   {
-   "f": 1344,
-   "shot": "b7~3",
+   "f": 136,
+   "shot": "b0~2",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.054, 0.33, 0.228, 0.678)"
    ]
   },
   {
-   "f": 1345,
-   "shot": "b7~3",
+   "f": 140,
+   "shot": "b0~2",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.07, 0.327, 0.217, 0.68)"
    ]
   },
   {
-   "f": 1348,
-   "shot": "b7~3",
+   "f": 144,
+   "shot": "b0~2",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.076, 0.326, 0.212, 0.682)"
    ]
   },
   {
-   "f": 1352,
-   "shot": "b7~3",
+   "f": 147,
+   "shot": "b0~2",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "men: head/torso cropped (box -0.078, 0.326, 0.212, 0.682)"
    ]
   },
   {
-   "f": 1356,
-   "shot": "b7~3",
+   "f": 553,
+   "shot": "b3_d",
    "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 556,
+   "shot": "b3_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 560,
+   "shot": "b3_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 564,
+   "shot": "b3_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 568,
+   "shot": "b3_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 616,
+   "shot": "b3_v",
+   "why": [
+    "men: head/torso cropped (box -0.053, 0.307, 0.361, 0.669)"
+   ]
+  },
+  {
+   "f": 620,
+   "shot": "b3_v",
+   "why": [
+    "men: head/torso cropped (box -0.08, 0.308, 0.347, 0.681)"
+   ]
+  },
+  {
+   "f": 622,
+   "shot": "b3_v",
+   "why": [
+    "men: head/torso cropped (box -0.086, 0.308, 0.34, 0.684)"
    ]
   }
  ],
