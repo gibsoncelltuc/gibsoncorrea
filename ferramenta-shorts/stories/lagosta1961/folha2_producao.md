@@ -19,9 +19,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "GUERRA DA LAGOSTA" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (0.2-1.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.8-3.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.9-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - E tudo dependia de uma pergunta: lagosta anda ou nada?
@@ -40,10 +40,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
 - PERSONAGENS: BRA no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (3.7-5.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (5.6-7.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (7.4-9.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (4.1-5.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (5.8-7.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1961, barcos franceses pescavam lagosta em Pernambuco.
@@ -65,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +70 da cena
 - SOM: thump@70
 - MAPA: PERNAMBUCO (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - O Brasil dizia: ela anda no fundo do mar, é nossa.
@@ -83,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/lobster no centro, manobra "parado"
 - PASSOS NA TELA: FUNDO DO MAR -> ANDA -> BRASILEIRA
-- TAKES: 1 take de explicacao (4.4 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.7 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b4 - A França dizia: ela nada, é de quem pescar.
@@ -101,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/lobster no centro, manobra "sobe"
 - PASSOS NA TELA: NADA -> NO MAR -> DE QUEM PESCAR
-- TAKES: 1 take de explicacao (2.8 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.0 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b5 - A França mandou um navio de guerra.
@@ -120,9 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: MFR no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_destroier: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (20.2-21.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (21.5-22.9 s): mesmo angulo
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que o Brasil respondeu com navios e aviões.
@@ -143,7 +140,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "NAVIOS E AVIÕES" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (20.7-22.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (22.2-23.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Mas o tiro nunca veio. Os governos negociaram.
@@ -163,7 +162,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: FRA na esquerda, expressao relief, segura paper; BRA na direita, expressao smile; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - SOM: ding@30
-- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Nenhum tiro, só uma briga sobre um bicho. E foi assim que...
@@ -208,9 +207,8 @@ vehicles/airplane | b6 | pronto | conferir na folha de contato se le bem; se par
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (28.3-29.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (29.8-31.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (31.4-32.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (27.0-29.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (29.1-31.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

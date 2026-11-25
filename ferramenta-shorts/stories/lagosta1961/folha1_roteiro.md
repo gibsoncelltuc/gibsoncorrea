@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 85 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 85 palavras (~29 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Brasil e França quase entraram em guerra por causa de lagosta.
