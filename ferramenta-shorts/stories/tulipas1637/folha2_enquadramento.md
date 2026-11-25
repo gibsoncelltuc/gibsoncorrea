@@ -36,7 +36,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Logo, padeiros e sapateiros também queriam bulbos."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: POV no centro, expressao grin, segura tulip; multidao de 14 (POV, MER) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: POV no centro, expressao grin, segura tulip; sem multidao; acao: fala/gesto
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Os preços desabaram. Quem trocou a casa ficou só com flores."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao shock, segura tulip; multidao de 14 (POV, MER, RIC) ATRAS dos principais; acao: discutir
+- PERSONAGENS: POV no centro, expressao shock, segura tulip; sem multidao; acao: discutir
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tulip_bed: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena

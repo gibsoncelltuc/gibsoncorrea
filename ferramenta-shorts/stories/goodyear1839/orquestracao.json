@@ -57,9 +57,9 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 7,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Nos Estados Unidos, a borracha virou moda.",
+   "frase": "Nos Estados Unidos de 1830, a borracha virou moda.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -110,7 +110,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GUA",
     "GOO"
@@ -124,7 +124,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",

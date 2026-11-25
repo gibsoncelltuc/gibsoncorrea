@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Gerado em 25/11 17:20 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:34 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,10 +8,10 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior madeira | two | GOO | - | gosma, stove | - | Uma gosma caiu no fogão de um inventor falido. E mudou o mundo.
 b1 | simples | interior galpao | two | POV, POV | - | tires | - | E o nome dele está em pneus do mundo inteiro.
-b2 | chave | street | wide | POV, POV | 6 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nos Estados Unidos, a borracha virou moda.
+b2 | chave | street | wide | POV, POV | 6 | stove | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Nos Estados Unidos de 1830, a borracha virou moda.
 b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/borracha (parado); emissao: fogo; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada ent | Mas derretia no calor e rachava no frio.
 b4 | simples | interior madeira | two | GOO, CLA | - | - | - | Charles Goodyear gastou todo o dinheiro da família em testes.
-b5 | simples | interior pedra | two | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
+b5 | simples | interior madeira | group | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
 b6 | simples | interior madeira | two | GOO | - | gosma, stove | - | Um dia, borracha com enxofre caiu no fogão quente.
 b7 | simples | interior madeira | two | GOO | - | stove | - | Acontece que não derreteu. Ficou firme e elástica.
 b8 | chave | street | orbit | POV, POV, CLA | 18 | bola_couro, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era a borracha vulcanizada, hoje em pneus e sapatos.

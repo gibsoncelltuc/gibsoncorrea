@@ -81,10 +81,6 @@
     "ding@30"
    ],
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Abelhas conversam dançando, e a dança é um mapa.",
    "encena": {
@@ -97,7 +93,36 @@
     ]
    },
    "text": "ABELHAS DANÇAM",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -132,6 +157,18 @@
      {
       "faz": "mostra",
       "na": "traduziu"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -182,10 +219,6 @@
    ],
    "set": "countryside",
    "text": "DANÇA",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Karl von Frisch pôs água com açúcar longe da colmeia.",
    "encena": {
@@ -194,6 +227,35 @@
      {
       "faz": "mostra",
       "na": "pôs"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -245,10 +307,6 @@
    "set": "countryside",
    "shot_lock": true,
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "prova",
    "say": "A abelha que achava o açúcar voltava dançando.",
    "encena": {
@@ -257,6 +315,35 @@
      {
       "faz": "mostra",
       "na": "dançando"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -592,10 +679,6 @@
     "ding@30"
    ],
    "set": "countryside",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Repare na próxima abelha que passar. Porque...",
    "encena": {
@@ -604,6 +687,35 @@
      {
       "faz": "mostra",
       "na": "abelha"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bee",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

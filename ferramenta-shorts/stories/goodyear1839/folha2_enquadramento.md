@@ -69,7 +69,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Era a borracha vulcanizada, hoje em pneus e sapatos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e borracha juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao grin; CLA na direita, expressao smile; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao grin; CLA na direita, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/borracha: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/tires: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/ball: FRENTE, esquerda; tamanho na tela: 12% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
