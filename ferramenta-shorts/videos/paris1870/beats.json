@@ -51,27 +51,25 @@
     [
      "kit/bife_elefante",
      0.0,
-     -1.2,
-     2.2,
+     -0.6,
+     1.6,
      {
       "nocol": true,
+      "fixo": true,
+      "y": 0.9
+     }
+    ],
+    [
+     "mk/Table_Large",
+     0.0,
+     -0.6,
+     1.2,
+     {
       "fixo": true
      }
     ]
    ],
    "detalhe": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bife_elefante",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -81,11 +79,11 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -0.4,
+   "d0": 9.0,
+   "d1": 7.5,
+   "quadro_manual": true
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
@@ -451,11 +449,12 @@
    "props": [
     [
      "kit/balloon_air",
-     0.0,
-     -19.3,
-     8.22,
+     1.5,
+     -9.0,
+     2.6,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 3.5
      }
     ]
    ],
@@ -471,18 +470,6 @@
    ],
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "crowd": {
     "n": 0
    },
@@ -496,13 +483,12 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -13.5,
-   "h": 2.8,
-   "d0": 26.3,
-   "d1": 24.3,
-   "_auto_vis": 3
+   "cx": 0.8,
+   "cz": -4.0,
+   "h": 1.6,
+   "d0": 12.0,
+   "d1": 10.0,
+   "quadro_manual": true
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
