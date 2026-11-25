@@ -12,7 +12,7 @@ b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/crown | pap
 b5 | interior pedra | two | 1 | conversar, alguem chega andando, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
-b8 | medieval | orbit | 2 | reagir | kit/crown | - | -
+b8 | medieval | orbit | 2 | reagir | kit/coroa_louros, kit/crown | - | -
 b9 | medieval | crowd | 16 | comemorar, batalha | kit/crown | - | -
 b10 | medieval | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
 b11 | medieval | close | 1 | conversar | - | - | -

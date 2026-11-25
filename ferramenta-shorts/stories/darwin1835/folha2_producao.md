@@ -60,8 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/finch_thick, kit/finch_long
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bico, diferenca
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: quebrar -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b6 - Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida...
 - Cenario: harbor | luz: day | clima: limpo
@@ -129,8 +128,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 cochichar, b8 pular
 - RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- b5: ACAO SEM ANIMACAO na narracao: quebrar
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh darwin1835 bN bM` (so essas cenas).

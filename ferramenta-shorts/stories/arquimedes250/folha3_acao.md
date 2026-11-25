@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 14 palavras - plano track
@@ -36,8 +36,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (9.5s) | ACAO: fala | aponta explicando | OK |
-| 2 | ouro (10.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | ouro (10.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | desconfiou (11.7s) | ACAO: olha | aponta/olha | OK |
 | 3 | - | EMOCAO: distrust | o rosto vira "distrust" na palavra | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | reagir | OK |
@@ -50,8 +50,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | discutir | OK |
+| 1 | trocou (14.2s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 16.6s a 19.8s - 13 palavras - plano two
 > "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa."
@@ -110,8 +111,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ouro (42.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | medir (40.4s) | ACAO: pega | levanta/segura | OK |
+| 2 | ouro (42.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 44.3s a 48.5s - 15 palavras - plano crowd
 > "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."

@@ -4,8 +4,8 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | noite  | tropa, placa: 1942 | encena: atira @6 (acao + som de efeito) | -
 b1 | wide | noite  | batalha aberta com tiros, tropa, mapa | (rosto) scared (expr + som de efeito) | -
-b2 | orbit | pordosol  | tropa, placa: SUBMARINO JAPONÊS | - | -
-b3 | low | noite  | - | - | -
+b2 | orbit | pordosol  | tropa, placa: SUBMARINO JAPONÊS | objeto: submarino_ww2 atira (na palavra "atirado") (acao + som de efeito) | -
+b3 | low | noite  | - | objeto: searchlight toca (na palavra "tocaram") (acao + som de efeito) | -
 b4 | wide | noite  | tropa, placa: FOGO! | atirar (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); encena: olha (point) @1 (acao + som de efeito); encena: atira @11 (acao + som de efeito) | -
 b5 | group | noite  | tropa | - | -
 b6 | crowd | noite  | batalha aberta com tiros, tropa | (rosto) scared (expr + som de efeito); tiros (burst + som de tiro/explosao); canhão (burst + som de tiro/explosao); caíram (dust + som de impacto); pânico (dust + som de impacto); encena: grita (up) @16 (acao + som de efeito) | -

@@ -33,3 +33,14 @@
 ## 25/11 00:28 autocorrecao de visibilidade
 - b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b8: objeto "kit/crown" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 01:50 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, 1.0)
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 01:51 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 01:51 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto

@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: objeto: finch_thick quebra (na palavra "quebrar") -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
