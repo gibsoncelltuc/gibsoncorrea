@@ -56,7 +56,7 @@
      "kit/vagem_verde",
      0.9,
      0.4,
-     1.1,
+     2.6,
      {
       "fixo": true
      }
@@ -98,8 +98,8 @@
    "cx": 0.3,
    "cz": 0.2,
    "h": 1.5,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "objetos": false
   },
@@ -142,18 +142,18 @@
    "props": [
     [
      "kit/vagem_verde",
-     -1.1,
+     -1.0,
      0.4,
-     1.0,
+     2.6,
      {
       "fixo": true
      }
     ],
     [
      "kit/vagem_amarela",
-     1.1,
-     0.4,
      1.0,
+     0.4,
+     2.6,
      {
       "fixo": true
      }
@@ -209,8 +209,8 @@
    },
    "cx": 0.0,
    "cz": 0.2,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "h": 1.4,
    "set": "loc_campo",
@@ -227,7 +227,7 @@
      "kit/vagem_amarela",
      1.1,
      0.4,
-     1.0,
+     2.6,
      {
       "fixo": true
      }
@@ -261,8 +261,8 @@
    },
    "cx": 0.5,
    "cz": 0.2,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "h": 1.4,
    "interior": "pedra",
@@ -301,7 +301,7 @@
      "kit/vagem_amarela",
      0.9,
      0.4,
-     1.0,
+     2.6,
      {
       "fixo": true
      }
@@ -350,8 +350,8 @@
    "cx": 0.0,
    "cz": 0.2,
    "h": 1.4,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "objetos": false
   },
@@ -380,7 +380,7 @@
      "kit/vagem_verde",
      0.35,
      0.3,
-     0.55,
+     1.0,
      {
       "fixo": true,
       "y": 1.22
@@ -390,7 +390,7 @@
      "kit/vagem_amarela",
      1.0,
      0.3,
-     0.55,
+     1.0,
      {
       "fixo": true,
       "y": 1.22
@@ -400,7 +400,7 @@
      "kit/vagem_amarela",
      0.35,
      0.75,
-     0.55,
+     1.0,
      {
       "fixo": true,
       "y": 1.22
@@ -410,7 +410,7 @@
      "kit/vagem_amarela",
      1.0,
      0.75,
-     0.55,
+     1.0,
      {
       "fixo": true,
       "y": 1.22
@@ -635,7 +635,7 @@
      "kit/vagem_verde",
      1.0,
      0.4,
-     1.0,
+     2.6,
      {
       "fixo": true
      }
@@ -671,8 +671,8 @@
    "cx": 0.3,
    "cz": 0.2,
    "h": 1.4,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "objetos": false
   }

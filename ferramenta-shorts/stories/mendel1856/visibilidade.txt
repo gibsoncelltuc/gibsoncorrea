@@ -1,1 +1,8 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (24 tomadas)
+VISIBILIDADE: 7 FALHA(S)
+FALHA b6: objeto citado "kit/vagem_verde" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b0: objeto "kit/vagem_verde" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b2: objeto "kit/vagem_verde" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b2: objeto "kit/vagem_amarela" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+FALHA b3: objeto "kit/vagem_amarela" saiu com 4% da altura da tela, a ficha de cena planejou 32%
+FALHA b5: objeto "kit/vagem_amarela" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+FALHA b10: objeto "kit/vagem_verde" saiu com 5% da altura da tela, a ficha de cena planejou 32%

@@ -1,9 +1,15 @@
-# LISTA UNICA DE REVISAO - mendel1856  (refacoes ate agora: 0; limite: 1)
+# LISTA UNICA DE REVISAO - mendel1856  (refacoes ate agora: 2; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b6: objeto citado "kit/vagem_verde" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+2. b0: objeto "kit/vagem_verde" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+3. b2: objeto "kit/vagem_verde" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+4. b2: objeto "kit/vagem_amarela" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+5. b3: objeto "kit/vagem_amarela" saiu com 4% da altura da tela, a ficha de cena planejou 32%
+6. b5: objeto "kit/vagem_amarela" saiu com 5% da altura da tela, a ficha de cena planejou 32%
+7. b10: objeto "kit/vagem_verde" saiu com 5% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 
