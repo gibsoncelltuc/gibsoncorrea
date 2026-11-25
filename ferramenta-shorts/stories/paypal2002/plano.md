@@ -10,9 +10,9 @@ b4 | two | -  | interior | - | -
 b5 | two | -  | interior | - | -
 b6 | wide | -  | tropa, placa: SPACEX | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: TESLA | - | -
-b8 | wide | -  | tropa | dinheiro (stars + som de sino); encena: entrega (point) @4 (acao + som de efeito) | -
-b9 | two | -  | tropa | chegou (dust + som de impacto) | -
+b8 | two | -  | - | dinheiro (stars + som de sino); encena: entrega (point) @4 (acao + som de efeito) | -
+b9 | wide | -  | tropa | chegou (dust + som de impacto) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 66% | aberto 21% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 67% | aberto 18% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
