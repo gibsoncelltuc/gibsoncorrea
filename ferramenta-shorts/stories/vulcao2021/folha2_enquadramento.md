@@ -13,9 +13,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "El Salvador é um país pequeno da América Central, cheio de vulcões."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 3.2 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -3.6, camera a 20.5 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.2 m de altura x 15.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/volcano: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.5 m de altura x 9.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
 ## b2: "Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao lado do dólar."

@@ -13,3 +13,7 @@
 - b9: objeto ENORME "kit/volcano" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/volcano" menor e sem close (cobria o quadro)
 - b0: objeto "kit/bitcoin" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b2: objeto "kit/bitcoin" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 08:47 autocorrecao de visibilidade
+- b9: ja corrigida 3 vezes, objeto citado "kit/volcano" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b1: objeto ENORME "kit/volcano" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/volcano" menor e sem close (cobria o quadro)
