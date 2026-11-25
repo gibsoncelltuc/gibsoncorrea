@@ -1,0 +1,148 @@
+{
+ "duration": 31.776,
+ "frames30": 953,
+ "source": "silence-align (cost 1.12)",
+ "segments": [
+  [
+   0.0,
+   2.77129
+  ],
+  [
+   3.14538,
+   3.85579
+  ],
+  [
+   3.98792,
+   4.974
+  ],
+  [
+   5.35146,
+   7.10037
+  ],
+  [
+   7.34275,
+   11.88
+  ],
+  [
+   12.2591,
+   14.5548
+  ],
+  [
+   14.9319,
+   17.5169
+  ],
+  [
+   17.8824,
+   19.8609
+  ],
+  [
+   20.1758,
+   21.162
+  ],
+  [
+   21.539,
+   22.7083
+  ],
+  [
+   22.9483,
+   23.3659
+  ],
+  [
+   23.662,
+   25.1842
+  ],
+  [
+   25.5577,
+   26.6817
+  ],
+  [
+   26.9329,
+   28.4375
+  ],
+  [
+   28.8054,
+   30.1032
+  ],
+  [
+   30.4822,
+   31.3316
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Os primeiros passageiros de um bal\u00e3o n\u00e3o foram pessoas.",
+   "s": 0.0,
+   "e": 2.771
+  },
+  {
+   "text": "Foram uma ovelha,",
+   "s": 3.145,
+   "e": 4.974
+  },
+  {
+   "text": "um pato e um galo.",
+   "s": 5.351,
+   "e": 7.1
+  },
+  {
+   "text": "Em 1783, os irm\u00e3os Montgolfier faziam papel. Viram que fuma\u00e7a quente fazia sacos de papel subirem.",
+   "s": 7.343,
+   "e": 11.88
+  },
+  {
+   "text": "Fizeram um bal\u00e3o gigante de pano e papel.",
+   "s": 12.259,
+   "e": 14.555
+  },
+  {
+   "text": "Ningu\u00e9m sabia se dava para respirar l\u00e1 em cima.",
+   "s": 14.932,
+   "e": 17.517
+  },
+  {
+   "text": "Acontece que o bal\u00e3o subiu de verdade,",
+   "s": 17.882,
+   "e": 19.861
+  },
+  {
+   "text": "com os bichos dentro.",
+   "s": 20.176,
+   "e": 21.162
+  },
+  {
+   "text": "Oito minutos depois,",
+   "s": 21.539,
+   "e": 22.708
+  },
+  {
+   "text": "pousou,",
+   "s": 22.948,
+   "e": 23.366
+  },
+  {
+   "text": "e os bichos estavam vivos.",
+   "s": 23.662,
+   "e": 25.184
+  },
+  {
+   "text": "Dois meses depois,",
+   "s": 25.558,
+   "e": 26.682
+  },
+  {
+   "text": "um bal\u00e3o levou dois homens.",
+   "s": 26.933,
+   "e": 28.438
+  },
+  {
+   "text": "Ningu\u00e9m quis ser cobaia.",
+   "s": 28.805,
+   "e": 30.103
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 30.482,
+   "e": 31.332
+  }
+ ]
+}
