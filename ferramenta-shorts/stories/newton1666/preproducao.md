@@ -11,9 +11,9 @@ b3 | countryside | group | 2 | conversar, INTERAGEM: vai ate o outro | nature/tr
 b4 | countryside | wide | 2 | reagir, batalha | nature/tree_oak, kit/apple | - | -
 b5 | countryside | two | 1 | conversar | nature/tree_oak, kit/apple | - | -
 b6 | loc_campo | two | 0 | parados (so fala e pisca) | kit/globe, kit/moon, kit/apple | - | -
-b7 | countryside | two | 1 | encena, batalha | - | book | -
+b7 | countryside | two | 11 | encena, batalha | - | book | -
 b8 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | mug | -
-b9 | loc_campo | orbit | 1 | parados (so fala e pisca) | kit/apple | - | -
+b9 | loc_campo | orbit | 7 | parados (so fala e pisca) | kit/apple | - | -
 b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/apple

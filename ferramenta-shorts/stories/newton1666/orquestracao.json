@@ -166,7 +166,7 @@
    "personagens": [
     "NEW"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 15,
    "cena": "b7",
@@ -205,7 +205,7 @@
    "personagens": [
     "NEW"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/apple"
    ],

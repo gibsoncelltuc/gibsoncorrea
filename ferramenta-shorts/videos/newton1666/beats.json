@@ -43,6 +43,17 @@
    "boots": "#2a2218",
    "hat": "hair",
    "hair": "#6b4a2a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "slouch",
+    "straw",
+    "beret",
+    "hair"
+   ]
   }
  },
  "beats": [
