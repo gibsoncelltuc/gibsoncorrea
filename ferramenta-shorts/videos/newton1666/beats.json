@@ -222,7 +222,7 @@
    "_susp_ok": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "orbit; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/apple",
