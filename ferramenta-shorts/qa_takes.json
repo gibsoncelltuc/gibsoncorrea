@@ -1,14 +1,14 @@
 {
  "fails": [
   {
-   "f": 80,
-   "shot": "b0_v",
+   "f": 64,
+   "shot": "b0_d",
    "why": [
-    "empty take: no character in the take"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 84,
+   "f": 86,
    "shot": "b0_v",
    "why": [
     "empty take: no character in the take"
@@ -39,112 +39,42 @@
    "f": 100,
    "shot": "b0_v",
    "why": [
-    "fun: head/torso cropped (box 0.67, 0.303, 1.034, 0.837)"
-   ]
-  },
-  {
-   "f": 318,
-   "shot": "b2",
-   "why": [
-    "mus: head/torso cropped (box 1.023, 0.457, 1.186, 0.682)"
-   ]
-  },
-  {
-   "f": 320,
-   "shot": "b2",
-   "why": [
-    "mus: head/torso cropped (box 1.022, 0.459, 1.191, 0.672)"
-   ]
-  },
-  {
-   "f": 324,
-   "shot": "b2",
-   "why": [
-    "mus: head/torso cropped (box 0.967, 0.466, 1.16, 0.69)"
-   ]
-  },
-  {
-   "f": 328,
-   "shot": "b2",
-   "why": [
-    "mus: head/torso cropped (box 0.919, 0.46, 1.066, 0.683)"
-   ]
-  },
-  {
-   "f": 332,
-   "shot": "b2",
-   "why": [
-    "mus: head/torso cropped (box 0.842, 0.465, 1.034, 0.689)"
-   ]
-  },
-  {
-   "f": 392,
-   "shot": "b2_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 396,
-   "shot": "b2_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 421,
-   "shot": "b2_v",
-   "why": [
     "empty take: no character in the take"
    ]
   },
   {
-   "f": 424,
-   "shot": "b2_v",
+   "f": 104,
+   "shot": "b0_v",
    "why": [
-    "empty take: no character in the take"
+    "jor: head/torso cropped (box 0.776, 0.239, 1.27, 0.84)"
    ]
   },
   {
-   "f": 428,
-   "shot": "b2_v",
+   "f": 108,
+   "shot": "b0_v",
    "why": [
-    "empty take: no character in the take"
+    "jor: head/torso cropped (box 0.707, 0.341, 1.077, 0.799)"
    ]
   },
   {
-   "f": 432,
-   "shot": "b2_v",
+   "f": 808,
+   "shot": "b5",
    "why": [
-    "mus: head/torso cropped (box -1.289, -0.163, -0.24, 0.92)"
+    "mar: head/torso cropped (box -0.028, 0.414, 0.318, 0.815)"
    ]
   },
   {
-   "f": 436,
-   "shot": "b2_v",
+   "f": 812,
+   "shot": "b5",
    "why": [
-    "mus: head/torso cropped (box -0.608, 0.133, 0.021, 0.862)"
+    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
    ]
   },
   {
-   "f": 440,
-   "shot": "b2_v",
+   "f": 813,
+   "shot": "b5~1",
    "why": [
-    "mus: head/torso cropped (box -0.268, 0.289, 0.181, 0.839)"
-   ]
-  },
-  {
-   "f": 444,
-   "shot": "b2_v",
-   "why": [
-    "mus: head/torso cropped (box -0.1, 0.367, 0.265, 0.825)"
-   ]
-  },
-  {
-   "f": 448,
-   "shot": "b2_v",
-   "why": [
-    "mus: head/torso cropped (box -0.027, 0.418, 0.3, 0.83)"
+    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
    ]
   }
  ],
