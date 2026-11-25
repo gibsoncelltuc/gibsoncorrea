@@ -101,7 +101,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: PAS na esquerda, expressao surprised; MAE na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):

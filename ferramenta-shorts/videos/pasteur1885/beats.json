@@ -195,7 +195,7 @@
   },
   {
    "say": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
-   "shot": "two",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "PAS:0:surprised",
@@ -219,11 +219,11 @@
     ]
    },
    "quadro_manual": true,
-   "cx": 0.4,
+   "cx": 0.0,
    "cz": 0.0,
-   "h": 1.2,
-   "d0": 8.0,
-   "d1": 7.0
+   "h": 1.3,
+   "d0": 9.5,
+   "d1": 9.0
   },
   {
    "say": "Pasteur não era médico e tinha medo, mas decidiu tentar.",
