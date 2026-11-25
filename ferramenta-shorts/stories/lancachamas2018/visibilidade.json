@@ -1,0 +1,1401 @@
+{
+ "id": "lancachamas2018",
+ "falhas": [],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 9,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.69375,
+       "area": 0.045006296696402256,
+       "cx": 0.011697709385573907,
+       "alt": 0.10022572510411508,
+       "altmax": 0.10022572510411508
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37200000000000005
+    },
+    {
+     "f": 23,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.6875,
+       "area": 0.048009015699329256,
+       "cx": 0.04047052958568864,
+       "alt": 0.10273507672462907,
+       "altmax": 0.10273507672462907
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38300000000000006
+    },
+    {
+     "f": 36,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.6875,
+       "area": 0.04964063390007587,
+       "cx": 0.06887297367862455,
+       "alt": 0.10431719175709712,
+       "altmax": 0.10431719175709712
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38699999999999996
+    }
+   ]
+  },
+  {
+   "id": "b0_d",
+   "quadros": [
+    {
+     "f": 52,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.6375,
+       "area": 0.052840344502359304,
+       "cx": 0.06978981029387721,
+       "alt": 0.10754945547640887,
+       "altmax": 0.10754945547640887
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40499999999999997
+    },
+    {
+     "f": 61,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.7625,
+       "area": 0.07677626440912062,
+       "cx": 0.05327932000591612,
+       "alt": 0.12909398464680805,
+       "altmax": 0.12909398464680805
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.516
+    },
+    {
+     "f": 70,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.13674353309544318,
+       "cx": 0.04228902327653572,
+       "alt": 0.1713843381468598,
+       "altmax": 0.1713843381468598
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b0_v",
+   "quadros": [
+    {
+     "f": 87,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.12506313349009024,
+       "cx": 0.031112824207709444,
+       "alt": 0.1644867308510791,
+       "altmax": 0.1644867308510791
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 102,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.725,
+       "area": 0.05383198196649674,
+       "cx": 0.03853061750684314,
+       "alt": 0.10873140462919396,
+       "altmax": 0.10873140462919396
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42100000000000004
+    },
+    {
+     "f": 117,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.61875,
+       "area": 0.04984385170580585,
+       "cx": 0.06901272364254596,
+       "alt": 0.10452995154185168,
+       "altmax": 0.10452995154185168
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38799999999999996
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 140,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.296
+    },
+    {
+     "f": 157,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34600000000000003
+    },
+    {
+     "f": 174,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36500000000000005
+    }
+   ]
+  },
+  {
+   "id": "b1~1",
+   "quadros": [
+    {
+     "f": 198,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.45699999999999996
+    },
+    {
+     "f": 216,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40599999999999997
+    },
+    {
+     "f": 233,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40199999999999997
+    }
+   ]
+  },
+  {
+   "id": "b1~2",
+   "quadros": [
+    {
+     "f": 257,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35600000000000004
+    },
+    {
+     "f": 274,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.35000000000000003
+    },
+    {
+     "f": 291,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.378
+    }
+   ]
+  },
+  {
+   "id": "b1~3",
+   "quadros": [
+    {
+     "f": 315,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40700000000000003
+    },
+    {
+     "f": 333,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.401
+    },
+    {
+     "f": 350,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.385
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 371,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.305
+    },
+    {
+     "f": 384,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.337
+    },
+    {
+     "f": 397,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.382
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 416,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.313
+    },
+    {
+     "f": 429,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.336
+    },
+    {
+     "f": 441,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.334
+    }
+   ]
+  },
+  {
+   "id": "b2_d",
+   "quadros": [
+    {
+     "f": 463,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.627
+    },
+    {
+     "f": 481,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 498,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b2_v",
+   "quadros": [
+    {
+     "f": 521,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.26699999999999996
+    },
+    {
+     "f": 536,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.297
+    },
+    {
+     "f": 550,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.328
+    }
+   ]
+  },
+  {
+   "id": "b2_v~1",
+   "quadros": [
+    {
+     "f": 571,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25199999999999995
+    },
+    {
+     "f": 585,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.296
+    },
+    {
+     "f": 599,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.291
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 623,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.05175957889452463,
+       "cx": 0.4976793961735062,
+       "alt": 0.1361448991476188,
+       "altmax": 0.1361448991476188
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34700000000000003
+    },
+    {
+     "f": 643,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.06951043816603998,
+       "cx": 0.40380063332506616,
+       "alt": 0.15612399839286248,
+       "altmax": 0.15612399839286248
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.393
+    },
+    {
+     "f": 663,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.83125,
+       "vis": 1,
+       "area": 0.1139629160210671,
+       "cx": 0.37070128362102034,
+       "alt": 0.18138020180782388,
+       "altmax": 0.18138020180782388
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.45699999999999996
+    }
+   ]
+  },
+  {
+   "id": "b3~1",
+   "quadros": [
+    {
+     "f": 690,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.12189795676083404,
+       "cx": 0.09044180212485581,
+       "alt": 0.18938623927797468,
+       "altmax": 0.18938623927797468
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.48799999999999993
+    },
+    {
+     "f": 710,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.10046890980745737,
+       "cx": 0.17774230581456651,
+       "alt": 0.16925388520598333,
+       "altmax": 0.16925388520598333
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42100000000000004
+    },
+    {
+     "f": 730,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.08542918186669039,
+       "cx": 0.3034518759106449,
+       "alt": 0.15508131342465487,
+       "altmax": 0.15508131342465487
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.384
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 770,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.75,
+       "area": 0.10719801053540262,
+       "cx": 0.044614320878514024,
+       "alt": 0.15810073106007197,
+       "altmax": 0.15810073106007197
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37600000000000006
+    },
+    {
+     "f": 808,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.65625,
+       "area": 0.11584721866899877,
+       "cx": 0.05257781141019191,
+       "alt": 0.16264903468160638,
+       "altmax": 0.16264903468160638
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.393
+    },
+    {
+     "f": 846,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.55,
+       "area": 0.12363320527585597,
+       "cx": 0.0615509300294077,
+       "alt": 0.16687469631669005,
+       "altmax": 0.16687469631669005
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.418
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 882,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.27199999999999996
+    },
+    {
+     "f": 897,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.301
+    },
+    {
+     "f": 911,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.331
+    }
+   ]
+  },
+  {
+   "id": "b5~1",
+   "quadros": [
+    {
+     "f": 930,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37600000000000006
+    },
+    {
+     "f": 944,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.409
+    },
+    {
+     "f": 958,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38300000000000006
+    }
+   ]
+  },
+  {
+   "id": "b5~2",
+   "quadros": [
+    {
+     "f": 977,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37400000000000005
+    },
+    {
+     "f": 992,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3950000000000001
+    },
+    {
+     "f": 1006,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43899999999999995
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 1026,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 0.648936170212766,
+       "area": 0.017094015010111777,
+       "cx": 0.09315809781253746,
+       "alt": 0.1591225716690624,
+       "altmax": 0.1591225716690624
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.342
+    },
+    {
+     "f": 1042,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 0.7659574468085106,
+       "area": 0.02047203768972888,
+       "cx": -0.021739236393471875,
+       "alt": 0.17372574271431404,
+       "altmax": 0.17372574271431404
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.386
+    },
+    {
+     "f": 1057,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02445872868192017,
+       "cx": -0.1467557887152456,
+       "alt": 0.18907034257122124,
+       "altmax": 0.18907034257122124
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43700000000000006
+    }
+   ]
+  },
+  {
+   "id": "b6~1",
+   "quadros": [
+    {
+     "f": 1078,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 0.6170212765957447,
+       "area": 0.02568671163372776,
+       "cx": -0.11866085607310083,
+       "alt": 0.19411087533740695,
+       "altmax": 0.19411087533740695
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.457
+    },
+    {
+     "f": 1093,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.022863581313168745,
+       "cx": 0.05456948267094515,
+       "alt": 0.18323183996658132,
+       "altmax": 0.18323183996658132
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.406
+    },
+    {
+     "f": 1108,
+     "objs": [
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.020875078471220894,
+       "cx": 0.1751419476190205,
+       "alt": 0.1747290532310261,
+       "altmax": 0.1747290532310261
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.376
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1146,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.16300000000000003
+    },
+    {
+     "f": 1186,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17600000000000005
+    },
+    {
+     "f": 1226,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.20699999999999996
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1265,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.291
+    },
+    {
+     "f": 1282,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.30599999999999994
+    },
+    {
+     "f": 1299,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.393
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1322,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40900000000000003
+    },
+    {
+     "f": 1339,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40800000000000003
+    },
+    {
+     "f": 1356,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4000000000000001
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1376,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.05594141767123275,
+       "cx": 0.4289640446105301,
+       "alt": 0.12478755168886668,
+       "altmax": 0.12478755168886668
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8503937007874016,
+       "area": 0.011696652192278272,
+       "cx": 0.367281264451102,
+       "alt": 0.14388124649700873,
+       "altmax": 0.14388124649700873
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.417
+    },
+    {
+     "f": 1388,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.06419122676857796,
+       "cx": 0.4737914518511009,
+       "alt": 0.12907699357134883,
+       "altmax": 0.12907699357134883
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8582677165354331,
+       "area": 0.013213524828491986,
+       "cx": 0.47758650292749616,
+       "alt": 0.14986408824834455,
+       "altmax": 0.14986408824834455
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.431
+    },
+    {
+     "f": 1399,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.81875,
+       "vis": 1,
+       "area": 0.06725269820430749,
+       "cx": 0.4849703948297643,
+       "alt": 0.13133786844588627,
+       "altmax": 0.13133786844588627
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8661417322834646,
+       "area": 0.014585369012263812,
+       "cx": 0.5804234112913249,
+       "alt": 0.15486563438205783,
+       "altmax": 0.15486563438205783
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43799999999999994
+    }
+   ]
+  },
+  {
+   "id": "b9_d",
+   "quadros": [
+    {
+     "f": 1413,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.08887333254166761,
+       "cx": 0.4698666197959831,
+       "alt": 0.1680071776786406,
+       "altmax": 0.1680071776786406
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8267716535433071,
+       "area": 0.02075563615734173,
+       "cx": 0.6863487911203215,
+       "alt": 0.18427320836177186,
+       "altmax": 0.18427320836177186
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5940000000000001
+    },
+    {
+     "f": 1421,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.09521710179992193,
+       "cx": 0.3090479838370111,
+       "alt": 0.17048073436097652,
+       "altmax": 0.17048073436097652
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8976377952755905,
+       "area": 0.02226268680232692,
+       "cx": 0.5881878816486107,
+       "alt": 0.18968397756535882,
+       "altmax": 0.18968397756535882
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.65
+    },
+    {
+     "f": 1429,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.86875,
+       "vis": 1,
+       "area": 0.14450107538759036,
+       "cx": 0.20400272018423438,
+       "alt": 0.1822458155153029,
+       "altmax": 0.1822458155153029
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.5196850393700787,
+       "area": 0.026585465413764928,
+       "cx": 0.47912035974032674,
+       "alt": 0.20611647255817672,
+       "altmax": 0.20611647255817672
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.76
+    }
+   ]
+  },
+  {
+   "id": "b9_v",
+   "quadros": [
+    {
+     "f": 1444,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.12419668318341688,
+       "cx": 0.12544357488563546,
+       "alt": 0.16519056941833743,
+       "altmax": 0.16519056941833743
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.5984251968503937,
+       "area": 0.023446958980092653,
+       "cx": 0.36908815112760607,
+       "alt": 0.19436643212726668,
+       "altmax": 0.19436643212726668
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.67
+    },
+    {
+     "f": 1457,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.85625,
+       "vis": 1,
+       "area": 0.08706346907850719,
+       "cx": 0.4192350109027212,
+       "alt": 0.15070005581314047,
+       "altmax": 0.15070005581314047
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.8976377952755905,
+       "area": 0.01734717312189864,
+       "cx": 0.48516289088903897,
+       "alt": 0.17025692847540408,
+       "altmax": 0.17025692847540408
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5389999999999999
+    },
+    {
+     "f": 1470,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 0.8,
+       "vis": 1,
+       "area": 0.06955267996365912,
+       "cx": 0.43815059343664786,
+       "alt": 0.14844943232030028,
+       "altmax": 0.14844943232030028
+      },
+      {
+       "a": "kit/phone",
+       "inq": 1,
+       "vis": 0.84251968503937,
+       "area": 0.017285745335571086,
+       "cx": 0.6311761612262836,
+       "alt": 0.1686435213009306,
+       "altmax": 0.1686435213009306
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.505
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1491,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.8875,
+       "area": 0.08789159683148101,
+       "cx": 0.15944947448873348,
+       "alt": 0.14675985972397407,
+       "altmax": 0.14675985972397407
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.08404687750667465,
+       "cx": -0.24275571329970672,
+       "alt": 0.3710792773931709,
+       "altmax": 0.3710792773931709
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38
+    },
+    {
+     "f": 1508,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.8875,
+       "area": 0.10393169701042025,
+       "cx": -0.023519986032516427,
+       "alt": 0.16530896495654723,
+       "altmax": 0.16530896495654723
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.09915122941877064,
+       "cx": -0.4893475510560896,
+       "alt": 0.41466016357987345,
+       "altmax": 0.41466016357987345
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43000000000000005
+    },
+    {
+     "f": 1525,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.88125,
+       "area": 0.12066340574952053,
+       "cx": -0.26100398514254874,
+       "alt": 0.18915210267159113,
+       "altmax": 0.18915210267159113
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 0.8829787234042553,
+       "vis": 1,
+       "area": 0.1044963593955474,
+       "cx": -0.7639154792137066,
+       "alt": 0.4619855279766503,
+       "altmax": 0.4619855279766503
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.494
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1548,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.89375,
+       "area": 0.1373418931495786,
+       "cx": -0.06984705620996456,
+       "alt": 0.18683861515269168,
+       "altmax": 0.18683861515269168
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.13332538241059555,
+       "cx": -0.5030884754394295,
+       "alt": 0.4556538099502019,
+       "altmax": 0.4556538099502019
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.432
+    },
+    {
+     "f": 1565,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.8875,
+       "area": 0.10081702145737956,
+       "cx": 0.12824965894642387,
+       "alt": 0.1561723340835153,
+       "altmax": 0.1561723340835153
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.09781145290855824,
+       "cx": -0.17719293795175742,
+       "alt": 0.3793173470803317,
+       "altmax": 0.3793173470803317
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.3549999999999999
+    },
+    {
+     "f": 1581,
+     "objs": [
+      {
+       "a": "kit/flamethrower",
+       "inq": 1,
+       "vis": 0.89375,
+       "area": 0.09091055988848397,
+       "cx": 0.22687701015390827,
+       "alt": 0.14914130020740565,
+       "altmax": 0.14914130020740565
+      },
+      {
+       "a": "kit/extinguisher",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.08574114404472874,
+       "cx": -0.06317782605726333,
+       "alt": 0.35521644792458307,
+       "altmax": 0.35521644792458307
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34800000000000003
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "quadros": [
+    {
+     "f": 1606,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1626,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1645,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b11~1",
+   "quadros": [
+    {
+     "f": 1672,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1692,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1711,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1258 @@
+{
+ "id": "maduro2026",
+ "falhas": [
+  "b3: objeto citado \"kit/helicopter_air\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 12,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 0.9906542056074766,
+       "area": 0.16404947409907117,
+       "cx": 0.097969141655563,
+       "alt": 0.3719667507432358,
+       "altmax": 0.3719667507432358
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15200000000000002
+    },
+    {
+     "f": 29,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 0.9906542056074766,
+       "area": 0.2360168543712294,
+       "cx": 0.021003536116895094,
+       "alt": 0.4090301948590521,
+       "altmax": 0.4090301948590521
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.16599999999999993
+    },
+    {
+     "f": 46,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.2461311703255901,
+       "cx": -0.06534348057535597,
+       "alt": 0.4558922222525328,
+       "altmax": 0.4558922222525328
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.18999999999999995
+    }
+   ]
+  },
+  {
+   "id": "b0~1",
+   "quadros": [
+    {
+     "f": 70,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.3594585023889405,
+       "cx": -0.06978183362723944,
+       "alt": 0.5889550411017647,
+       "altmax": 0.5889550411017647
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.237
+    },
+    {
+     "f": 88,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 0.9953271028037384,
+       "area": 0.3286300526201056,
+       "cx": 0.07113763760519776,
+       "alt": 0.5673157313267898,
+       "altmax": 0.5673157313267898
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.23100000000000004
+    },
+    {
+     "f": 105,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 0.9953271028037384,
+       "area": 0.276772995072845,
+       "cx": 0.09119178720217308,
+       "alt": 0.521346168657812,
+       "altmax": 0.521346168657812
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21300000000000002
+    }
+   ]
+  },
+  {
+   "id": "b0~2",
+   "quadros": [
+    {
+     "f": 129,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.28441727370833303,
+       "cx": 0.1855588788898222,
+       "alt": 0.5185967218345383,
+       "altmax": 0.5185967218345383
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.20900000000000007
+    },
+    {
+     "f": 146,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.3586305046551477,
+       "cx": -0.07702270293584434,
+       "alt": 0.5713414401471767,
+       "altmax": 0.5713414401471767
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.22899999999999998
+    },
+    {
+     "f": 163,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.48313052392352235,
+       "cx": -0.17660822994255732,
+       "alt": 0.6480898525396483,
+       "altmax": 0.6480898525396483
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.256
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 214,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15900000000000003
+    },
+    {
+     "f": 272,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17900000000000005
+    },
+    {
+     "f": 329,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21199999999999997
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 379,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.9299065420560748,
+       "vis": 1,
+       "area": 0.25204392734427294,
+       "cx": -0.1183432385915415,
+       "alt": 0.5924924000894647,
+       "altmax": 0.5924924000894647
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.19799999999999995
+    },
+    {
+     "f": 397,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.8878504672897196,
+       "vis": 1,
+       "area": 0.2367132961891643,
+       "cx": -0.23940680930465447,
+       "alt": 0.5369789181197037,
+       "altmax": 0.5369789181197037
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21999999999999997
+    },
+    {
+     "f": 414,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.8878504672897196,
+       "vis": 1,
+       "area": 0.28045641017523915,
+       "cx": -0.19513693294199969,
+       "alt": 0.5680382963204441,
+       "altmax": 0.5680382963204441
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.244
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 437,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.7990654205607477,
+       "vis": 1,
+       "area": 0.24200365177374206,
+       "cx": -0.5550628017914394,
+       "alt": 0.5451047756099915,
+       "altmax": 0.5451047756099915
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17899999999999994
+    },
+    {
+     "f": 455,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.8785046728971962,
+       "vis": 1,
+       "area": 0.204711514035346,
+       "cx": -0.5635030538896021,
+       "alt": 0.4748433080115777,
+       "altmax": 0.4748433080115777
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.136
+    },
+    {
+     "f": 472,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.8878504672897196,
+       "vis": 1,
+       "area": 0.20452507974074022,
+       "cx": -0.47284553880474606,
+       "alt": 0.4817016911765454,
+       "altmax": 0.4817016911765454
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.129
+    }
+   ]
+  },
+  {
+   "id": "b2~2",
+   "quadros": [
+    {
+     "f": 495,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.30873451535639024,
+       "cx": -0.2663901690652574,
+       "alt": 0.528317759335915,
+       "altmax": 0.528317759335915
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.16999999999999993
+    },
+    {
+     "f": 513,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.3091933037010771,
+       "cx": -0.05782104132272925,
+       "alt": 0.5492348321310551,
+       "altmax": 0.5492348321310551
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.20499999999999996
+    },
+    {
+     "f": 530,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 1,
+       "vis": 0.8411214953271028,
+       "area": 0.39457236195936024,
+       "cx": -0.03543112466778198,
+       "alt": 0.6035158311070072,
+       "altmax": 0.6035158311070072
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.22899999999999998
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 553,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.102803738317757,
+       "vis": 1,
+       "area": 0.016880871935226964,
+       "cx": -0.8362490530420531,
+       "alt": 0.11594736313825138,
+       "altmax": 0.11594736313825138
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.324
+    },
+    {
+     "f": 569,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.27102803738317754,
+       "vis": 0.41379310344827586,
+       "area": 0.11842228639561778,
+       "cx": -0.7749605986994814,
+       "alt": 0.5406503723492304,
+       "altmax": 0.5406503723492304
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.352
+    },
+    {
+     "f": 585,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.29906542056074764,
+       "vis": 0.46875,
+       "area": 0.15072246353412444,
+       "cx": -0.7128643605306162,
+       "alt": 0.5340631231061963,
+       "altmax": 0.5340631231061963
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.377
+    }
+   ]
+  },
+  {
+   "id": "b3_1",
+   "quadros": [
+    {
+     "f": 606,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.2570093457943925,
+       "vis": 0.38181818181818183,
+       "area": 0.12780778451976074,
+       "cx": 0.603311365394914,
+       "alt": 0.5101845416977155,
+       "altmax": 0.5101845416977155
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.371
+    },
+    {
+     "f": 619,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.04672897196261682,
+       "vis": 1,
+       "area": 0.0039721990442622675,
+       "cx": 0.9459076668159465,
+       "alt": 0.07610339013630502,
+       "altmax": 0.07610339013630502
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.31900000000000006
+    },
+    {
+     "f": 632,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.3177570093457944,
+       "vis": 0.5,
+       "area": 0.15358971116652598,
+       "cx": 0.6562433232029603,
+       "alt": 0.49584009166705184,
+       "altmax": 0.49584009166705184
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.266
+    }
+   ]
+  },
+  {
+   "id": "b3_2",
+   "quadros": [
+    {
+     "f": 658,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.19626168224299065,
+       "vis": 0.19047619047619047,
+       "area": 0.08147509490456034,
+       "cx": 0.2673912422761707,
+       "alt": 0.4016570419424763,
+       "altmax": 0.4016570419424763
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21199999999999997
+    },
+    {
+     "f": 683,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.1588785046728972,
+       "vis": 1,
+       "area": 3.0879001868578175e-8,
+       "cx": -0.1920542019113029,
+       "alt": 0.0001381016217947284,
+       "altmax": 0.0001381016217947284
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.14099999999999996
+    },
+    {
+     "f": 707,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.1588785046728972,
+       "vis": 1,
+       "area": 2.5746168072588664e-8,
+       "cx": -0.33130966573965703,
+       "alt": 0.00012550218855172934,
+       "altmax": 0.00012550218855172934
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.10299999999999998
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 738,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 760,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 782,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b4_x",
+   "quadros": [
+    {
+     "f": 811,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 833,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 854,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 881,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.474
+    },
+    {
+     "f": 899,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.522
+    },
+    {
+     "f": 917,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5860000000000001
+    }
+   ]
+  },
+  {
+   "id": "b5~1",
+   "quadros": [
+    {
+     "f": 942,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.522
+    },
+    {
+     "f": 960,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.48
+    },
+    {
+     "f": 978,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.483
+    }
+   ]
+  },
+  {
+   "id": "b5~2",
+   "quadros": [
+    {
+     "f": 1003,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.422
+    },
+    {
+     "f": 1021,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.46
+    },
+    {
+     "f": 1039,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.51
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 1064,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34900000000000003
+    },
+    {
+     "f": 1082,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37800000000000006
+    },
+    {
+     "f": 1100,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.41200000000000003
+    }
+   ]
+  },
+  {
+   "id": "b6~1",
+   "quadros": [
+    {
+     "f": 1125,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.357
+    },
+    {
+     "f": 1143,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.31699999999999995
+    },
+    {
+     "f": 1161,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.309
+    }
+   ]
+  },
+  {
+   "id": "b6~2",
+   "quadros": [
+    {
+     "f": 1186,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.363
+    },
+    {
+     "f": 1204,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42600000000000005
+    },
+    {
+     "f": 1222,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.46399999999999997
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1246,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0.035555555555555556,
+       "vis": 1,
+       "area": 0.0022454878377109245,
+       "cx": 0.8957184603905275,
+       "alt": 0.034736849641301304,
+       "altmax": 0.034736849641301304
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.9101123595505618,
+       "vis": 1,
+       "area": 0.22377489205615075,
+       "cx": 0.06532248238667282,
+       "alt": 0.2399036312929495,
+       "altmax": 0.2399036312929495
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.256
+    },
+    {
+     "f": 1263,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.8876404494382022,
+       "vis": 1,
+       "area": 0.21918894293062177,
+       "cx": 0.13356870231552714,
+       "alt": 0.2666993755464587,
+       "altmax": 0.2666993755464587
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1279,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.9325842696629213,
+       "vis": 1,
+       "area": 0.3266893487242088,
+       "cx": 0.10459930367288506,
+       "alt": 0.372682519218763,
+       "altmax": 0.372682519218763
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b7_d",
+   "quadros": [
+    {
+     "f": 1298,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.9325842696629213,
+       "vis": 1,
+       "area": 0.2808408521418964,
+       "cx": 0.13884877800403367,
+       "alt": 0.32895860831494456,
+       "altmax": 0.32895860831494456
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1310,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0.3688888888888889,
+       "vis": 1,
+       "area": 0.18590547872632318,
+       "cx": -0.50419456450335,
+       "alt": 0.40248592746882395,
+       "altmax": 0.40248592746882395
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.7752808988764045,
+       "vis": 1,
+       "area": 0.16556783983300402,
+       "cx": 0.19406698992664562,
+       "alt": 0.20579827833010292,
+       "altmax": 0.20579827833010292
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1321,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.3242882651774742,
+       "cx": -0.057660479201696424,
+       "alt": 0.34459529411741263,
+       "altmax": 0.34459529411741263
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.2958801498127341,
+       "vis": 0.9113924050632911,
+       "area": 0.07168236784003497,
+       "cx": 0.5626988341204835,
+       "alt": 0.16975969569814564,
+       "altmax": 0.16975969569814564
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b7_v",
+   "quadros": [
+    {
+     "f": 1341,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0.4266666666666667,
+       "vis": 1,
+       "area": 0.15828540404549496,
+       "cx": -0.5735033859195646,
+       "alt": 0.37319837229707165,
+       "altmax": 0.37319837229707165
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.5692883895131086,
+       "vis": 1,
+       "area": 0.11516891442538706,
+       "cx": 0.3573548546570096,
+       "alt": 0.17949236619728806,
+       "altmax": 0.17949236619728806
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1360,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.9325842696629213,
+       "vis": 1,
+       "area": 0.25555780383032634,
+       "cx": -0.14919123934017792,
+       "alt": 0.3531904773737508,
+       "altmax": 0.3531904773737508
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.08599999999999997
+    },
+    {
+     "f": 1378,
+     "objs": [
+      {
+       "a": "kit/scroll",
+       "inq": 0,
+       "vis": 0,
+       "area": 0,
+       "cx": 9,
+       "altmax": 0
+      },
+      {
+       "a": "vehicles/airplane",
+       "inq": 0.6292134831460674,
+       "vis": 1,
+       "area": 0.22342978974290528,
+       "cx": -0.260626883196731,
+       "alt": 0.30378013152666566,
+       "altmax": 0.30378013152666566
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.08699999999999997
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1429,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.20000000000000007
+    },
+    {
+     "f": 1486,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.23099999999999993
+    },
+    {
+     "f": 1543,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.26599999999999996
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1595,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.24766355140186916,
+       "vis": 0.3584905660377358,
+       "area": 0.1611444775875918,
+       "cx": 0.1186686820281018,
+       "alt": 0.5908120336155741,
+       "altmax": 0.5908120336155741
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.19799999999999995
+    },
+    {
+     "f": 1614,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.22429906542056074,
+       "vis": 1,
+       "area": 0.16380696393736627,
+       "cx": 0.11430584016690379,
+       "alt": 0.5674515703918526,
+       "altmax": 0.5674515703918526
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.23799999999999993
+    },
+    {
+     "f": 1633,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.21962616822429906,
+       "vis": 1,
+       "area": 0.1853000592010507,
+       "cx": 0.12480854433278085,
+       "alt": 0.603385959329344,
+       "altmax": 0.603385959329344
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25
+    }
+   ]
+  },
+  {
+   "id": "b9~1",
+   "quadros": [
+    {
+     "f": 1660,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.17757009345794392,
+       "vis": 1,
+       "area": 0.13704156579749893,
+       "cx": -0.44193351529718666,
+       "alt": 0.5161469429221718,
+       "altmax": 0.5161469429221718
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17399999999999993
+    },
+    {
+     "f": 1679,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.205607476635514,
+       "vis": 1,
+       "area": 0.13497473188428025,
+       "cx": -0.3667232424327698,
+       "alt": 0.5069786300305387,
+       "altmax": 0.5069786300305387
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.1429999999999999
+    },
+    {
+     "f": 1698,
+     "objs": [
+      {
+       "a": "kit/helicopter_air",
+       "inq": 0.21495327102803738,
+       "vis": 1,
+       "area": 0.12632016399318563,
+       "cx": -0.2172119295699512,
+       "alt": 0.49185078824818956,
+       "altmax": 0.49185078824818956
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.136
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1725,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1745,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1764,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1791,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1811,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1830,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}

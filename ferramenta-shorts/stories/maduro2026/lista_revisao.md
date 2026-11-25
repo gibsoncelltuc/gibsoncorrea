@@ -4,8 +4,6 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b3: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b7: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-3. b7: objeto "kit/scroll" saiu com 0% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um presidente foi capturado de madrugada,": 
