@@ -179,10 +179,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Por volta das nove e quarenta, a bandeira caiu.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern)
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Personagens principais (2): GUA (variante 0, expressao pained, segura flag); ING2 (variante 0, expressao stern) | multidao: 0 de POV
+- Animacao: encena
 - Objetos/modelos: kit/forte_colonial, kit/marco_zanzibar, war/flagpole
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bandeira, nove
 - RISCOS: nenhum
@@ -226,11 +226,15 @@ war/flagpole | b8 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/navio_vapor | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 11% | medio 62% | aberto 25% | detalhe 3%
+- Objeto heroi: kit/navio_vapor | grandes momentos: b6 | planos abertos: 4 | mistura: close 9% | medio 57% | aberto 31% | detalhe 3%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b9 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py zanzibar1896
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py zanzibar1896
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh zanzibar1896 bN bM` (so essas cenas).

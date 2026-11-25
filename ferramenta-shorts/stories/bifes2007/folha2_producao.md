@@ -191,9 +191,13 @@ kit/steak | b0, b1, b2, b4, b7, b8 | pronto (HEROI: aparece em close) | conferir
 ## Video inteiro
 - Objeto heroi: kit/steak | grandes momentos: b3, b5 | planos abertos: 1 | mistura: close 2% | medio 91% | aberto 4% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b2 insiste, b3 susto, b4 pedir, b6 vai ate o outro, b7 aproxima-se, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bifes2007
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bifes2007
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bifes2007 bN bM` (so essas cenas).

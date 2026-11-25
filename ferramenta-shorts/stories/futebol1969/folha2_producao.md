@@ -35,9 +35,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: SAL no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (2.7-4.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (4.6-6.5 s): mesmo angulo
@@ -80,9 +80,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
@@ -100,9 +100,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: HON na esquerda, expressao laugh; SAL na direita, expressao sad; multidao de 18 (TOR, HON) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@30
@@ -115,10 +115,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - El Salvador venceu o segundo por três a zero. Torcidas brigaram.
 - Cenario: street | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (4): HON (variante 0, expressao angry); SAL (variante 0, expressao shout); HON (variante 1, expressao shout); SAL (variante 1, expressao angry) | multidao: 10 de HON/SAL
-- Animacao: discutir | interacao: empurrar
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (4): HON (variante 0, expressao angry); SAL (variante 0, expressao shout); HON (variante 1, expressao shout); SAL (variante 1, expressao angry) | multidao: 30 de HON/SAL
+- Animacao: discutir
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): zero
 - RISCOS: nenhum
@@ -137,7 +137,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No terceiro, El Salvador venceu por três a dois, na prorrogação.
 - Cenario: stadium | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (3): SAL (variante 0, expressao laugh); SAL (variante 1, expressao grin); HON (variante 0, expressao sad) | multidao: 18 de SAL/HON
 - Animacao: comemorar | interacao: pular
@@ -148,9 +148,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: dia
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; multidao de 18 (SAL, HON) ATRAS dos principais; acao: comemorar
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (20.5-22.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -219,11 +219,15 @@ kit/volcano | b2, b5, b7 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 4 | mistura: close 2% | medio 68% | aberto 27% | detalhe 3%
-- Interacoes: b0 aproxima-se, b3 avanca e o outro recua, b5 empurrar, b6 pular, b8 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/ball | grandes momentos: b7, b8 | planos abertos: 5 | mistura: close 2% | medio 57% | aberto 38% | detalhe 3%
+- Interacoes: b0 aproxima-se, b3 avanca e o outro recua, b6 pular, b8 o outro se aproxima
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~38.2 s (estimado; 105 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py futebol1969
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py futebol1969
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~38.2 s (estimado; 105 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh futebol1969 bN bM` (so essas cenas).

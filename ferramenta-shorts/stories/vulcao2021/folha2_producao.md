@@ -221,9 +221,15 @@ nature/lamppost | b8 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/bitcoin | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 5% | medio 67% | aberto 28% | detalhe 0%
 - Interacoes: b0 entregar, b3 discutir, b6 o outro se aproxima, b9 susto
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py vulcao2021
+  - ESTRUTURA VIRAL: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py vulcao2021
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py vulcao2021
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.8 s (estimado; 104 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh vulcao2021 bN bM` (so essas cenas).

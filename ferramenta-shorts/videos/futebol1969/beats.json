@@ -80,10 +80,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Guerra por futebol parece exagero? Dois países fizeram uma de verdade.",
    "encena": {
@@ -92,6 +88,23 @@
      {
       "faz": "mostra",
       "na": "futebol"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -104,19 +117,15 @@
    "props": [
     [
      "kit/ball",
-     0.6,
      1.0,
-     0.8,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ]
    ],
    "titulo": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
    "detalhe": false,
    "interior": "madeira",
    "bloco": "promessa",
@@ -127,6 +136,19 @@
      {
       "faz": "mostra",
       "na": "gol"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -176,8 +198,8 @@
     [
      "kit/ball",
      0.0,
-     0.6,
-     0.8,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
@@ -194,10 +216,6 @@
     "march": false,
     "expr": "shout"
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "detalhe": false,
    "bloco": "prova",
    "say": "Depois veio a disputa de uma vaga na Copa: três jogos.",
@@ -207,6 +225,19 @@
      {
       "faz": "mostra",
       "na": "disputa"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -243,17 +274,13 @@
     [
      "kit/ball",
      0.0,
-     -1.2,
-     0.8,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "No primeiro, Honduras venceu por um a zero.",
    "encena": {
@@ -263,6 +290,19 @@
       "faz": "vence",
       "na": "venceu",
       "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -328,8 +368,8 @@
     [
      "kit/ball",
      0.0,
-     -1.2,
-     0.8,
+     1.0,
+     1.31,
      {
       "fixo": true
      }
@@ -339,10 +379,6 @@
    "hora": "dia",
    "text": "PRORROGAÇÃO",
    "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 9,
-   "d1": 7,
    "detalhe": false,
    "crowd": {
     "n": 18,
@@ -362,6 +398,19 @@
       "faz": "vence",
       "na": "venceu",
       "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -446,10 +495,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -461,7 +506,24 @@
     ]
    },
    "bloco": "loop",
-   "say": "Na Copa, El Salvador perdeu os três jogos. Sem um gol."
+   "say": "Na Copa, El Salvador perdeu os três jogos. Sem um gol.",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "estadio",
+    "camera": "plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ball",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
@@ -521,5 +583,6 @@
  },
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas e El Salvador perdeu os tres jogos da Copa sem marcar.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 7
 }

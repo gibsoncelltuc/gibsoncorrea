@@ -84,11 +84,11 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 30,
    "objetos": [
     "kit/megapack"
    ],
@@ -108,7 +108,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],

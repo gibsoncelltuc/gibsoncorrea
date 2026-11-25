@@ -9,10 +9,10 @@ b1 | harbor | close | 1 | conversar | crate, kit/cod | - | -
 b2 | harbor | wide | 2 | parados (so fala e pisca) | kit/navio_leander, kit/cod | - | -
 b3 | harbor | two | 2 | reagir, INTERAGEM: o outro se aproxima | crate | - | -
 b4 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_leander | - | -
-b5 | harbor | group | 0 | batalha | kit/navio_leander | - | -
-b6 | harbor | group | 0 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor | - | -
+b5 | harbor | wide | 1 | batalha | kit/navio_leander, navios de guerra ao fundo, no tamanho real | - | -
+b6 | harbor | wide | 1 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor | - | -
 b7 | harbor | wide | 0 | parados (so fala e pisca) | kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander | - | -
-b8 | harbor | group | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
+b8 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
 b9 | harbor | wide | 0 | batalha | kit/barco_guarda, kit/fishing_net, kit/navio_vapor, kit/navio_leander, kit/cod, navios de guerra ao fundo, no tamanho real | - | -
 
 OBJETO HEROI: kit/cod

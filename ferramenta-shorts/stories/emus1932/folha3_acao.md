@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.0s - 8 palavras - plano two
@@ -118,7 +118,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 23.9s a 28.5s - 10 palavras - plano crowd
+## Cena b7 - 23.9s a 28.5s - 10 palavras - plano wide
 > "O major comparou os emus a tanques. A imprensa riu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -130,22 +130,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | riu (28.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | riu (28.5s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
 | 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | HA HA HA | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | HA HA HA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra riu (28.5s): executa: estrelinhas + som
 - ACAO: x_ri na palavra riu (28.5s): executa: ri de bracos para cima + brilho
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 10: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 28.6s a 33.2s - 12 palavras - plano group
+## Cena b8 - 28.6s a 33.2s - 12 palavras - plano crowd
 > "Depois de seis dias, milhares de balas gastas e poucos emus abatidos."
 
 - LEITURA DA FRASE: sentido FATO
@@ -153,14 +150,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 6 DIAS | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | 6 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

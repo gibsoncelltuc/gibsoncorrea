@@ -78,7 +78,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Os engenheiros comemoraram: era a primeira vez na história."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: ENG na esquerda, expressao laugh; ENG na direita, expressao shout; sem multidao; acao: comemorar
+- PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena

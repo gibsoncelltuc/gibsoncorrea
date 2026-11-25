@@ -1,31 +1,35 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "ABELHAS DANÇAM",
- "gancho_cumprido": "Gancho: abelhas conversam dancando e a danca e' um mapa. Pagamento: voltinhas, o oito, o angulo do sol e a distancia; a descoberta deu o Nobel de 1973.",
+ "gancho_cumprido": "Gancho: abelhas conversam dancando, a danca e' um mapa, e quem traduziu ganhou o Nobel. Pagamento: voltinhas para perto, oito para longe, angulo do sol para a direcao; Nobel de 1973.",
  "cenas": [
   [
    0,
    "gancho",
-   "O que ninguém te conta: abelhas conversam dançando.",
-   "dançando"
+   "Abelhas conversam dançando, e a dança é um mapa.",
+   "dançando",
+   {}
   ],
   [
    1,
    "promessa",
-   "E a dança delas é um mapa que leva até a comida.",
-   "mapa"
+   "E quem traduziu isso ganhou um Prêmio Nobel.",
+   "traduziu",
+   {}
   ],
   [
    2,
    "prova",
    "Karl von Frisch pôs água com açúcar longe da colmeia.",
-   "pôs"
+   "pôs",
+   {}
   ],
   [
    3,
    "prova",
-   "A abelha que achava o açúcar voltava e dançava no favo.",
-   "dançava"
+   "A abelha que achava o açúcar voltava dançando.",
+   "dançando",
+   {}
   ],
   [
    4,
@@ -39,7 +43,7 @@
   [
    5,
    "escalada",
-   "A parte maluca: o ângulo da dança aponta para o sol.",
+   "O ângulo da dança aponta a direção, comparada com o sol.",
    "ângulo",
    {
     "encena_antiga": true
@@ -57,20 +61,23 @@
   [
    7,
    "escalada",
-   "Cientistas riram: inseto com linguagem? Parecia piada.",
-   "riram"
+   "Acontece que os cientistas riram: inseto com linguagem?",
+   "riram",
+   {}
   ],
   [
    9,
    "pagamento",
-   "Em 1973, a dança das abelhas deu a ele o Prêmio Nobel.",
-   "Nobel"
+   "Em 1973, ele ganhou o Nobel por essa dança.",
+   "Nobel",
+   {}
   ],
   [
    0,
    "loop",
-   "Viu uma abelha dançando? Lembre do que ninguém te conta.",
-   "abelha"
+   "Repare na próxima abelha que passar. Porque...",
+   "abelha",
+   {}
   ]
  ]
 }

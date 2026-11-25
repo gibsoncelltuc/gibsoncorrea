@@ -212,9 +212,13 @@ kit/volcano | b1, b2, b3, b5 | pronto | conferir na folha de contato se le bem; 
 ## Video inteiro
 - Objeto heroi: kit/surfboard | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
 - Interacoes: b2 insiste, b4 vai ate o outro, b6 aproxima-se, b7 discutir, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~41.5 s (estimado; 114 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py surfcity2019
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py surfcity2019
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~41.5 s (estimado; 114 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh surfcity2019 bN bM` (so essas cenas).

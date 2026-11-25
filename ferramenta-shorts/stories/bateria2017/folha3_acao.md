@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 11 palavras - plano two
@@ -66,7 +66,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 13.4s a 16.8s - 10 palavras - plano group
+## Cena b4 - 13.4s a 16.8s - 10 palavras - plano wide
 > "Os jornais calcularam: ele podia perder mais de cinquenta milhões."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -76,18 +76,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | perder (14.9s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 50 MILHÕES | OK |
+| 3 | - | PLACA | 50 MILHÕES | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra perder (14.9s): executa: poeira + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 16.9s a 19.7s - 11 palavras - plano group
+## Cena b5 - 16.9s a 19.7s - 11 palavras - plano wide
 > "Acontece que ficou pronta em cerca de cinquenta e cinco dias."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -96,13 +94,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 55 DIAS | OK |
+| 2 | - | PLACA | 55 DIAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

@@ -199,9 +199,11 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 2% | medio 85% | aberto 10% | detalhe 3%
 - Interacoes: b4 entregar, b6 insiste
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bukelebio2021
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).

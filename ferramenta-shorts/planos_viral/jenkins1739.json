@@ -1,36 +1,40 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "ORELHA = GUERRA",
- "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra. Pagamento: foram quase dez anos de guerra por causa da orelha, e Jenkins nunca a recebeu de volta.",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra de nove anos. Pagamento: os espanhois cortaram a orelha de Jenkins, ele a mostrou aos deputados e em 1739 a Inglaterra atacou o Caribe; nove anos de guerra.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: uma orelha cortada começou uma guerra.",
-   "orelha"
+   "Uma orelha cortada começou uma guerra de nove anos.",
+   "orelha",
+   {}
   ],
   [
    9,
    "promessa",
-   "E o dono dela levou a orelha até o Parlamento.",
-   "levou"
+   "E o dono da orelha levou ela até o Parlamento.",
+   "levou",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
-   "pararam"
+   "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
+   "pararam",
+   {}
   ],
   [
    2,
    "prova",
-   "O capitão espanhol cortou a orelha dele com a espada.",
-   "cortou"
+   "O comandante espanhol cortou a orelha dele com a espada.",
+   "cortou",
+   {}
   ],
   [
    3,
    "prova",
-   "\"Leve isso ao seu rei\", teria dito o espanhol.",
+   "\"Leve isso ao seu rei\", teria dito.",
    "dito",
    {
     "riscos_ok": true,
@@ -50,7 +54,7 @@
   [
    4,
    "escalada",
-   "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
+   "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
    "mostrou",
    {
     "props": [
@@ -69,19 +73,21 @@
   [
    5,
    "escalada",
-   "Acontece que a Inglaterra só queria uma desculpa para brigar.",
-   "desculpa"
+   "Acontece que a Inglaterra só queria um pretexto.",
+   "Inglaterra",
+   {}
   ],
   [
    6,
    "escalada",
-   "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
-   "atacaram"
+   "Em 1739, navios ingleses atacaram o Caribe espanhol.",
+   "atacaram",
+   {}
   ],
   [
    7,
    "pagamento",
-   "Foram quase dez anos de guerra por causa de uma orelha.",
+   "Nove anos de guerra, por causa de uma orelha.",
    "guerra",
    {
     "props": [
@@ -100,8 +106,9 @@
   [
    0,
    "loop",
-   "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
-   "orelha"
+   "Jenkins nunca recuperou a orelha. E foi assim que...",
+   "orelha",
+   {}
   ]
  ]
 }

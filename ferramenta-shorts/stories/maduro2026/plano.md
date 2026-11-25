@@ -10,8 +10,8 @@ b4 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | - | -
 b5 | two | noite  | tropa | - | -
 b6 | low | noite  | - | - | -
 b7 | two | -  | - | - | -
-b8 | group | -  | tropa, placa: MUNDO | - | -
+b8 | crowd | -  | tropa, placa: MUNDO | - | -
 b9 | wide | noite  | tropa, placa: 3 HORAS | - | -
 
-Mistura de planos: close 15% | medio 61% | aberto 22% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 15% | medio 51% | aberto 31% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

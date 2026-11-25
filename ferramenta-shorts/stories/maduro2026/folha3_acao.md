@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.0s - 12 palavras - plano two
@@ -135,7 +135,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 33.1s a 37.0s - 10 palavras - plano group
+## Cena b8 - 33.1s a 37.0s - 10 palavras - plano crowd
 > "Nenhum militar americano morreu, e a notícia dividiu o mundo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -143,13 +143,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | MUNDO | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | MUNDO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (surprised), sempre ATRAS dos personagens principais

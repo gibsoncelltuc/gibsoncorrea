@@ -90,10 +90,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Os jornais calcularam: ele podia perder mais de cinquenta milhões.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao worried) | multidao: 0 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao worried) | multidao: 30 de POV
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, jornais
 - RISCOS: nenhum
@@ -113,10 +113,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que ficou pronta em cerca de cinquenta e cinco dias.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/megapack, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta
 - RISCOS: nenhum
@@ -193,11 +193,13 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 0% | medio 80% | aberto 20% | detalhe 0%
+- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 4 | mistura: close 5% | medio 67% | aberto 29% | detalhe 0%
 - Interacoes: b1 susto, b7 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bateria2017
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bateria2017 bN bM` (so essas cenas).

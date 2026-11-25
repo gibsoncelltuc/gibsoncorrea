@@ -8,8 +8,8 @@ b0 | interior loja | two | 1 | encena | kit/megapack | - | -
 b1 | interior madeira | two | 2 | conversar, INTERAGEM: susto | kit/megapack, kit/phone | - | -
 b2 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/megapack | - | -
 b3 | loc_campo | wide | 1 | parados (so fala e pisca) | kit/megapack | - | -
-b4 | loc_cidade | group | 1 | conversar, batalha | kit/megapack | - | -
-b5 | loc_campo | group | 1 | conversar, batalha | kit/megapack, nature/picket_fence | - | -
+b4 | loc_cidade | wide | 31 | batalha | kit/megapack | - | -
+b5 | loc_campo | wide | 1 | batalha | kit/megapack, nature/picket_fence | - | -
 b6 | loc_campo | two | 0 | parados (so fala e pisca) | kit/megapack | - | -
 b7 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b8 | interior loja | two | 1 | conversar | kit/megapack | - | -

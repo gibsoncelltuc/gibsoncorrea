@@ -205,9 +205,13 @@ kit/chess_pc | b3, b7 | pronto | conferir na folha de contato se le bem; se pare
 ## Video inteiro
 - Objeto heroi: kit/monkey_pong | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 15% | medio 71% | aberto 7% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b7 entregar, b8 insiste
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py neuralink2021
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py neuralink2021
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~36.7 s (estimado; 101 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh neuralink2021 bN bM` (so essas cenas).

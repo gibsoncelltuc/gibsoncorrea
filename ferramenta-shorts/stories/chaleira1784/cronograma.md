@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Gerado em 25/11 17:18 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:20 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,9 +11,9 @@ b1 | simples | interior madeira | two | IMP, COZ | - | kettle | - | E aquela cha
 b2 | transicao | harbor | wide | MAR, MAR | - | navio_fragata | - | Em 1784, a Holanda mantinha o rio Escalda fechado.
 b3 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador José Segundo, da Áustria, queria o rio aberto.
 b4 | simples | harbor | wide | IMP | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Ele mandou três navios descerem o rio, achando que ninguém reagiria.
-b5 | simples | harbor | group | MAR, MAR | - | cannon, navio_fragata | - | Acontece que o navio holandês Dolfijn esperava e disparou um tiro.
+b5 | simples | harbor | wide | MAR, MAR | - | cannon, navio_fragata, navios de guerra ao fundo, no tamanho real | - | Acontece que o navio holandês Dolfijn esperava e disparou um tiro.
 b6 | chave | interior madeira | two | IMP, COZ | - | kettle | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala destruiu uma chaleira de sopa no convés.
-b7 | chave | harbor | group | GEN | - | navio_fragata | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem mais tiros.
+b7 | chave | harbor | wide | GEN | - | navio_fragata, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem mais tiros.
 b8 | simples | loc_campo | two | COZ, HOL | - | - | - | O único prejuízo do dia foi o almoço.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -23,7 +23,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (9/16 itens) | PENDENTE | python3 pesquisar.py chaleira1784
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | REFAZER (a etapa anterior mudou) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 

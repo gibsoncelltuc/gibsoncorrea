@@ -110,14 +110,14 @@
    "cenario": "stadium"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "HON",
     "SAL",
     "HON",
     "SAL"
    ],
-   "multidao": 10,
+   "multidao": 30,
    "objetos": [
     "kit/volcano"
    ],
@@ -131,7 +131,7 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "SAL",
     "SAL",

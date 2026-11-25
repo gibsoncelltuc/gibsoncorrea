@@ -161,10 +161,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - O major comparou os emus a tanques. A imprensa riu.
 - Cenario: outback | luz: desert | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): SOL (variante 0, expressao smug) | multidao: 10 de SOL
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Personagens principais (1): SOL (variante 0, expressao smug) | multidao: 0 de FARM
+- Animacao: comemorar
 - Objetos/modelos: vehicles/tank, emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emus, imprensa, major, tanques
 - RISCOS: nenhum
@@ -173,7 +173,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: fazenda aberta; hora: desert
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: SOL no centro, expressao smug; multidao de 10 (SOL) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO vehicles/tank: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.1 m de altura x 9.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "HA HA HA" flutuando no alto, na palavra 9 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
@@ -184,10 +184,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Depois de seis dias, milhares de balas gastas e poucos emus abatidos.
 - Cenario: loc_campo | luz: desert | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SOL (variante 0, expressao pained); SOL (variante 1, expressao pained) | multidao: 5 de SOL/FARM
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, seis
 - RISCOS: nenhum
@@ -232,11 +232,13 @@ vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: - | grandes momentos: b5, b7 | planos abertos: 6 | mistura: close 5% | medio 55% | aberto 37% | detalhe 3%
-- Interacoes: b0 vai ate o outro, b2 susto, b3 pedir, b8 aproxima-se
-- RISCOS GERAIS: nenhum
+- Objeto heroi: - | grandes momentos: b5, b8 | planos abertos: 7 | mistura: close 5% | medio 46% | aberto 49% | detalhe 0%
+- Interacoes: b0 vai ate o outro, b2 susto, b3 pedir
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py emus1932
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).

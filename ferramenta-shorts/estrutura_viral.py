@@ -35,7 +35,7 @@ def checar(id_):
     corpo = [s for s in says if not re.search(CTA, n_(s))] if len(says) > 1 else says
     W = sum(falado(s) for s in corpo); dr = dur_real(id_, corpo); seg = dr or W / WPS
     fonte = 'voz real' if dr else 'estimado'
-    if seg > 45.5: falhas.append(f'acima de 45 s: ~{seg:.1f} s ({fonte}; {W} palavras faladas, anos contam como 6); cortar ate ~{int(45 * WPS)} palavras faladas (ideal ~35 s)')
+    if seg > 36.5: falhas.append(f'acima de 36 s: ~{seg:.1f} s ({fonte}; {W} palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~{int(35 * WPS)} palavras faladas')
     elif seg < 29.5: falhas.append(f'curto demais: ~{seg:.1f} s ({fonte}); minimo 30 s')
     longas = [(k, f) for k, s in enumerate(says) for f in frases(s) if pal(f) > 12]
     for k, f in longas[:6]: falhas.append(f'b{k}: frase com {pal(f)} palavras (max 12): "{f[:70]}"')
@@ -46,6 +46,11 @@ def checar(id_):
     if B.get('gancho_tipo') not in TIPOS: falhas.append('falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json')
     if pal(frases(g)[0] if frases(g) else '') > 12: falhas.append('gancho (1a frase) com mais de 12 palavras: nao cabe em 3 s')
     if re.search(r'\b(1\d{3}|20\d{2})\b|\bmil (seiscentos|setecentos|oitocentos|novecentos|e )|\bdois mil\b|\bem \w+ de\b', n_(frases(g)[0] if frases(g) else '')): falhas.append('gancho comeca com data (data vai para a prova)')
+    f0 = frases(g)[0] if frases(g) else ''
+    if re.match(r'ningu[eé]m te conta', n_(f0)): falhas.append('gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio')
+    fim_ = says[-1].strip() if says else ''
+    if not re.search(r'(\bque|\bporque|\bquando|\bassim|\bpor isso|\bfoi|\bera|\be)\s*(\.\.\.|…)$', n_(fim_)): falhas.append('LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay')
+    elif f0.rstrip().endswith('?'): falhas.append('LOOP: a 1a frase e\' pergunta; ela precisa completar a ultima ("...foi assim que" + "uma orelha comecou uma guerra.")')
     if bt and not (bt[0].get('text') or bt[0].get('hud')): falhas.append('b0 sem texto na tela: gancho precisa de 3 camadas (imagem + TEXTO + frase)')
     bl = [b.get('bloco') for b in bt]
     faltam = [x for x in BLOCOS if x not in bl]
@@ -76,6 +81,12 @@ if __name__ == '__main__':
             W, seg, F, A = checar(id_); ok += not F
             nl = sum(1 for f in F if 'palavras (max 12)' in f) + sum(int(re.search(r'mais (\d+)', f).group(1)) for f in F if f.startswith('... mais'))
             L.append(f'| {id_} | {W} | {seg:.0f} | {nl} | {len(F)}: ' + ' / '.join(f for f in F if 'palavras (max 12)' not in f and not f.startswith('...'))[:300] + ' |')
+        gs = {}
+        for id_ in ids:
+            g0 = n_(json.load(open(f'videos/{id_}/beats.json'))['beats'][0].get('say', ''))
+            gs.setdefault(' '.join(re.findall(r'\w+', g0)[:3]), []).append(id_)
+        rep = {k: v for k, v in gs.items() if len(v) > 2}
+        if rep: L += ['', 'GANCHOS REPETIDOS (mesmas 3 primeiras palavras em mais de 2 videos): ' + '; '.join(f'"{k}": {", ".join(v)}' for k, v in rep.items())]
         L += ['', f'{ok}/{len(ids)} roteiros dentro da estrutura.']
         open('VARREDURA_ESTRUTURA.md', 'w').write('\n'.join(L) + '\n'); print('\n'.join(L[-1:])); print('-> VARREDURA_ESTRUTURA.md')
         sys.exit(0)

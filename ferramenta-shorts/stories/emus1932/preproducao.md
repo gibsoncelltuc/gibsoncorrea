@@ -11,13 +11,13 @@ b3 | interior madeira | two | 8 | reagir, INTERAGEM: pedir | - | paper | -
 b4 | countryside | wide | 8 | parados (so fala e pisca) | mgun, crate | - | -
 b5 | outback | orbit | 2 | encena, batalha | emu | - | -
 b6 | countryside | wide | 1 | parados (so fala e pisca) | vehicles/truck, mgun | - | -
-b7 | outback | crowd | 11 | comemorar, batalha | vehicles/tank, emu | - | -
-b8 | loc_campo | group | 7 | conversar, INTERAGEM: aproxima-se | emu | - | -
+b7 | outback | wide | 1 | comemorar | vehicles/tank, emu | - | -
+b8 | loc_campo | crowd | 7 | batalha | emu | - | -
 b9 | outback | reveal | 2 | parados (so fala e pisca) | emus | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7
-Interacoes entre personagens: b0 vai ate o outro, b2 susto, b3 pedir, b8 aproxima-se
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8
+Interacoes entre personagens: b0 vai ate o outro, b2 susto, b3 pedir
 
 Cenas com personagens parados: 4 de 10 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
 FALTA MODELAR: nada

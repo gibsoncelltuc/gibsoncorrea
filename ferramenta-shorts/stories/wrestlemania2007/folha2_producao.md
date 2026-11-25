@@ -30,8 +30,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JUI (variante 0, expressao angry); TRU (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: reagir
+- Personagens principais (1): JUI (variante 0, expressao angry) | multidao: 0 de POV
+- Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao
 - RISCOS: nenhum
@@ -40,7 +40,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: JUI na esquerda, expressao angry; TRU na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -116,7 +116,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): LAS (variante 0, expressao angry); UMA (variante 0, expressao angry) | multidao: 0 de POV
+- Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, trump
@@ -126,7 +126,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: LAS (lutador) na esquerda, expressao angry; UMA (lutador) na direita, expressao angry; sem multidao; acao: discutir
+- PERSONAGENS: LAS (lutador) no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -161,8 +161,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): TRU (variante 0, expressao laugh); LAS (variante 0, expressao grin); VIB (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: conversar | interacao: discutir
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, vince
 - RISCOS: nenhum
@@ -171,9 +171,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: TRU na esquerda, expressao laugh; LAS (lutador) no centro, expressao grin; VIB na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/clipper: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/clipper: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@40
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
@@ -185,8 +185,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JUI (variante 0, expressao angry); TRU (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: reagir
+- Personagens principais (1): JUI (variante 0, expressao angry) | multidao: 0 de POV
+- Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz
 - RISCOS: nenhum
@@ -195,7 +195,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: JUI na esquerda, expressao angry; TRU na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -224,10 +224,16 @@ kit/ball | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer 
 
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b4, b6 | planos abertos: 6 | mistura: close 4% | medio 58% | aberto 38% | detalhe 0%
-- Interacoes: b0 entregar, b3 cochichar, b7 discutir, b9 pular
-- RISCOS GERAIS: nenhum
+- Interacoes: b0 entregar, b3 cochichar, b9 pular
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py wrestlemania2007
+  - ESTRUTURA VIRAL: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py wrestlemania2007
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py wrestlemania2007
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.5 s (estimado; 103 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: gancho de formula ("Ninguem te conta"): proibido (25/11, Gibson: repetido em 24 videos cansa); cada video tem gancho proprio
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh wrestlemania2007 bN bM` (so essas cenas).

@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 17.1s a 21.3s - 10 palavras - plano group
+## Cena b5 - 17.1s a 21.3s - 10 palavras - plano wide
 > "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b6 - 21.8s a 23.8s - 8 palavras - plano group
+## Cena b6 - 21.8s a 23.8s - 8 palavras - plano wide
 > "A Islândia só tinha barquinhos da guarda costeira."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -122,7 +122,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 28.6s a 32.7s - 12 palavras - plano group
+## Cena b8 - 28.6s a 32.7s - 12 palavras - plano two
 > "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

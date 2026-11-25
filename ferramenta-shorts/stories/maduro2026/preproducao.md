@@ -12,12 +12,12 @@ b4 | loc_pista | crowd | 1 | batalha | kit/helicopter_air | - | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/helicopter_air | - | -
 b6 | loc_pista | low | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b7 | loc_patio | two | 2 | conversar, INTERAGEM: entregar | kit/scroll, vehicles/airplane | - | -
-b8 | loc_patio | group | 21 | reagir, INTERAGEM: aproxima-se | - | - | -
+b8 | loc_patio | crowd | 21 | reagir | - | - | -
 b9 | loc_cidade | wide | 2 | reagir | kit/helicopter_air | - | -
 
 OBJETO HEROI: kit/helicopter_air
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
-Interacoes entre personagens: b0 susto, b6 empurrar, b7 entregar, b8 aproxima-se
+Interacoes entre personagens: b0 susto, b6 empurrar, b7 entregar
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

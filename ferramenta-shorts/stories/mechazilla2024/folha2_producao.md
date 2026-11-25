@@ -204,8 +204,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): ENG (variante 0, expressao laugh); ENG (variante 1, expressao shout) | multidao: 0 de POV
-- Animacao: comemorar | interacao: pular
+- Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de POV
+- Animacao: comemorar
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiros, primeira
 - RISCOS: nenhum
@@ -214,7 +214,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: ENG na esquerda, expressao laugh; ENG na direita, expressao shout; sem multidao; acao: comemorar
+- PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -249,10 +249,14 @@ kit/booster_air | b3, b6, b7 | pronto | conferir na folha de contato se le bem; 
 
 ## Video inteiro
 - Objeto heroi: kit/tower_mini | grandes momentos: b2, b8 | planos abertos: 5 | mistura: close 4% | medio 59% | aberto 33% | detalhe 5%
-- Interacoes: b0 aproxima-se, b9 pular, b10 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- Interacoes: b0 aproxima-se, b10 avanca e o outro recua
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~42.5 s (estimado; 117 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py mechazilla2024
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py mechazilla2024
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~42.5 s (estimado; 117 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mechazilla2024 bN bM` (so essas cenas).

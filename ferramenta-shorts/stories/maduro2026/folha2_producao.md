@@ -176,10 +176,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Nenhum militar americano morreu, e a notícia dividiu o mundo.
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); POV (variante 2, expressao nervous) | multidao: 18 de POV
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
 - RISCOS: nenhum
@@ -222,11 +222,15 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b2, b4 | planos abertos: 4 | mistura: close 15% | medio 61% | aberto 22% | detalhe 3%
-- Interacoes: b0 susto, b6 empurrar, b7 entregar, b8 aproxima-se
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/helicopter_air | grandes momentos: b2, b4 | planos abertos: 5 | mistura: close 15% | medio 51% | aberto 31% | detalhe 3%
+- Interacoes: b0 susto, b6 empurrar, b7 entregar
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py maduro2026
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py maduro2026
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh maduro2026 bN bM` (so essas cenas).

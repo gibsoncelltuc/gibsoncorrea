@@ -115,11 +115,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (0): -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
 - Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/navio_leander
+- Objetos/modelos: kit/navio_leander, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, marinha, pesqueiros
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -135,9 +135,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - A Islândia só tinha barquinhos da guarda costeira.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (0): -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia
@@ -182,7 +182,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BRI (variante 0, expressao pained, segura paper); ICE (variante 0, expressao laugh)
 - Animacao: conversar | interacao: entregar
@@ -227,11 +227,15 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 4 | mistura: close 9% | medio 52% | aberto 34% | detalhe 5%
+- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 6 | mistura: close 13% | medio 42% | aberto 40% | detalhe 5%
 - Interacoes: b3 o outro se aproxima, b8 entregar
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bacalhau1958
+  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bacalhau1958
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~38.5 s (estimado; 106 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bacalhau1958 bN bM` (so essas cenas).

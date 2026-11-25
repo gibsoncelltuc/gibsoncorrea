@@ -11,9 +11,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "E quem ganhou o jogo não fez um gol na Copa."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: SAL no centro, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b2: "Em 1969, Honduras e El Salvador já disputavam terras."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
@@ -26,16 +26,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Depois veio a disputa de uma vaga na Copa: três jogos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: HON na esquerda, expressao grin; SAL na direita, expressao stern; multidao de 6 (HON, SAL) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "3 JOGOS" flutuando no alto, na palavra 1 da frase
 
 ## b4: "No primeiro, Honduras venceu por um a zero."
 - LOCAL: estadio; hora: day
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: HON na esquerda, expressao laugh; SAL na direita, expressao sad; multidao de 18 (TOR, HON) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@30
@@ -51,9 +51,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "No terceiro, El Salvador venceu por três a dois, na prorrogação."
 - LOCAL: estadio; hora: dia
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: SAL na esquerda, expressao laugh; SAL no centro, expressao grin; HON na direita, expressao sad; multidao de 18 (SAL, HON) ATRAS dos principais; acao: comemorar
-- OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PRORROGAÇÃO" flutuando no alto, na palavra 1 da frase
 
 ## b7: "Acontece que, semanas depois, o exército salvadorenho atacou Honduras."

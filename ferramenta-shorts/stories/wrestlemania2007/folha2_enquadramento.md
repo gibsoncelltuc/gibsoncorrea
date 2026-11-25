@@ -14,7 +14,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E no fim, ele mesmo acabou no chão."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: JUI na esquerda, expressao angry; TRU na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: LAS (lutador) na esquerda, expressao angry; UMA (lutador) na direita, expressao angry; sem multidao; acao: discutir
+- PERSONAGENS: LAS (lutador) no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
@@ -65,16 +65,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Trump e Lashley rasparam a cabeça de Vince McMahon."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: TRU na esquerda, expressao laugh; LAS (lutador) no centro, expressao grin; VIB na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/clipper: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/clipper: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@40
 
 ## b8: "E o juiz derrubou Trump também."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: JUI na esquerda, expressao angry; TRU na direita, expressao shock; sem multidao; acao: discutir
+- PERSONAGENS: JUI no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/ring: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30

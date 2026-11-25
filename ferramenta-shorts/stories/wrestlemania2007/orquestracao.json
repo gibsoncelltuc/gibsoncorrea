@@ -37,8 +37,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI",
-    "TRU"
+    "JUI"
    ],
    "multidao": 0,
    "objetos": [
@@ -47,7 +46,7 @@
    "palavras": 8,
    "cena": "b1",
    "frase": "E no fim, ele mesmo acabou no chão.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -118,8 +117,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "LAS",
-    "UMA"
+    "LAS"
    ],
    "multidao": 0,
    "objetos": [
@@ -162,9 +160,7 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU",
-    "LAS",
-    "VIB"
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
@@ -183,8 +179,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI",
-    "TRU"
+    "JUI"
    ],
    "multidao": 0,
    "objetos": [

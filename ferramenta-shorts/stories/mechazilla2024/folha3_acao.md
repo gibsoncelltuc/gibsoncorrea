@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 12 palavras - plano two
@@ -149,15 +149,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | comemoraram: (31.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | PRIMEIRA VEZ | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | PRIMEIRA VEZ | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra comemoraram: (31.6s): executa: estrelinhas + som
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
