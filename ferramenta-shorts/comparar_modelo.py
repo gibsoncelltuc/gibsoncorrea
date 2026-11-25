@@ -16,6 +16,8 @@ usados = []   # objetos 3D que aparecem nas cenas (props) + heroi
 for b in B['beats']:
     for p in b.get('props') or []:
         if isinstance(p, list) and str(p[0]).startswith('kit/') and not re.search(r'kit/(room|rg_|marco|porch)', str(p[0])) and p[0] not in usados: usados.append(p[0])
+    _ex = b.get('explica') if isinstance(b.get('explica'), dict) else {}
+    if str(_ex.get('objeto', '')).startswith('kit/') and _ex['objeto'] not in usados: usados.append(_ex['objeto'])   # objeto da cena de EXPLICACAO tambem (Arquimedes: coroa medieval escapou por aqui)
 if B.get('heroi') and B['heroi'] not in usados: usados.insert(0, B['heroi'])
 def prints_de(asset):   # prints da pesquisa para este objeto: item heroi, ou item cujo nome casa com o nome do asset / sinonimo PT
     nome = asset.split('/')[-1]; sin = {'bathtub': 'banheira', 'crown': 'coroa', 'scale': 'balanca', 'stove': 'fogao', 'petri': 'placa|prato', 'syringe': 'seringa', 'kettle': 'chaleira', 'boardgame': 'tabuleiro', 'flamethrower': 'lanca', 'sink': 'pia', 'phone': 'celular|telefone', 'bife_elefante': 'carne|bife', 'coroa_louros': 'coroa'}.get(nome, nome)

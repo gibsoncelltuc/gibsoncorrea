@@ -217,6 +217,32 @@
    "_susp_ok": true
   },
   {
+   "say": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
+   "shot": "two",
+   "who": [
+    "POV:0:angry",
+    "JOR:0:surprised"
+   ],
+   "set": "street",
+   "hora": "noite",
+   "text": "X",
+   "crowd": {
+    "n": 0
+   },
+   "acao": "discutir",
+   "tiros": false,
+   "batalha": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luz"
+     }
+    ]
+   }
+  },
+  {
    "tiros": false,
    "batalha": false,
    "impact": false,

@@ -97,8 +97,8 @@
    "props": [
     [
      "kit/bathtub",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -131,7 +131,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
@@ -326,7 +327,7 @@
    "interacao": "cochichar",
    "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
    "explica": {
-    "objeto": "kit/crown",
+    "objeto": "kit/coroa_louros",
     "vfx": [
      {
       "k": "onda",
@@ -367,7 +368,7 @@
     [
      "kit/coroa_louros",
      0.0,
-     1.0,
+     1.4,
      2.93,
      {
       "nocol": true,
@@ -403,7 +404,8 @@
      }
     ]
    },
-   "_enq_shot": "two"
+   "_enq_shot": "two",
+   "_auto_vis": 3
   },
   {
    "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
