@@ -329,3 +329,9 @@
 - b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_amarela" saiu com 4% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_amarela" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_verde" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 11:32 autocorrecao de visibilidade
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_amarela" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_amarela" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_verde" saiu com 4% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/vagem_amarela" saiu com 4% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

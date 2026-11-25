@@ -56,7 +56,7 @@
      "kit/vagem_verde",
      0.9,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -98,8 +98,8 @@
    "cx": 0.3,
    "cz": 0.2,
    "h": 1.5,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true,
    "objetos": false
   },
@@ -144,7 +144,7 @@
      "kit/vagem_verde",
      -1.0,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -153,7 +153,7 @@
      "kit/vagem_amarela",
      1.0,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -209,8 +209,8 @@
    },
    "cx": 0.0,
    "cz": 0.2,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true,
    "h": 1.4,
    "set": "loc_campo",
@@ -227,7 +227,7 @@
      "kit/vagem_amarela",
      1.1,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -261,8 +261,8 @@
    },
    "cx": 0.5,
    "cz": 0.2,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true,
    "h": 1.4,
    "interior": "pedra",
@@ -301,7 +301,7 @@
      "kit/vagem_amarela",
      0.9,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -350,8 +350,8 @@
    "cx": 0.0,
    "cz": 0.2,
    "h": 1.4,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true,
    "objetos": false
   },
@@ -427,12 +427,12 @@
    ],
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/vagem_verde",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -443,26 +443,26 @@
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, esquerda",
-      "tela": "2% da altura da tela",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, direita",
-      "tela": "2% da altura da tela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/vagem_amarela",
-      "lugar": "FRENTE, esquerda",
-      "tela": "2% da altura da tela",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
    "text": "3 : 1",
-   "detalhe": false,
+   "detalhe": true,
    "fachada": false,
    "encena": {
     "sentido": "afirmativa",
@@ -474,11 +474,11 @@
     ]
    },
    "quadro_manual": true,
-   "cx": 0.5,
-   "cz": 0.4,
-   "h": 1.3,
-   "d0": 7.5,
-   "d1": 6.5,
+   "cx": 0.6,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 4.2,
+   "d1": 3.8,
    "interior": "pedra",
    "objetos": false
   },
@@ -635,7 +635,7 @@
      "kit/vagem_verde",
      1.0,
      0.4,
-     2.6,
+     1.5,
      {
       "fixo": true
      }
@@ -671,8 +671,8 @@
    "cx": 0.3,
    "cz": 0.2,
    "h": 1.4,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 7.0,
+   "d1": 6.5,
    "quadro_manual": true,
    "objetos": false
   }
