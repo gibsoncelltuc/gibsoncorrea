@@ -15,7 +15,7 @@
     "MUS",
     "ENA"
    ],
-   "multidao": 0,
+   "multidao": 12,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -36,9 +36,8 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 0,

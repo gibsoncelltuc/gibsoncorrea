@@ -14,14 +14,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b1 - 7.1s a 10.7s - 16 palavras - plano reveal
+## Cena b1 - 7.1s a 10.7s - 16 palavras - plano wide
 > "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas."
 
 - LEITURA DA FRASE: sentido FATO
@@ -30,11 +24,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 12.1s a 17.5s - 17 palavras - plano two
 > "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo."
@@ -65,11 +54,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b5 - 30.8s a 34.4s - 14 palavras - plano orbit
 > "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca."
@@ -81,12 +65,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b6 - 35.5s a 39.2s - 11 palavras - plano two
 > "Depois decolou e voou, nos propulsores, por cima de veículos parados."
@@ -97,11 +75,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b7 - 40.5s a 43.8s - 17 palavras - plano two
 > "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo."
@@ -123,12 +96,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b9 - 50.6s a 53.3s - 8 palavras - plano close
 > "Carro voador ou carro que pula? Você decide."
@@ -139,11 +106,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b10 - 54.7s a 58.0s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -152,10 +114,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 

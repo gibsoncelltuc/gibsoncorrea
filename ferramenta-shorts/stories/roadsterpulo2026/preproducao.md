@@ -4,8 +4,8 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_pista | two | 2 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz | - | -
-b1 | loc_pista | reveal | 2 | parados (so fala e pisca) | kit/rampa_curva, kit/telao_led, kit/torre_luz | - | -
+b0 | loc_pista | two | 14 | conversar, INTERAGEM: insiste | kit/roadster26, kit/torre_luz | - | -
+b1 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/rampa_curva, kit/telao_led, kit/torre_luz | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | loc_pista | wide | 11 | parados (so fala e pisca) | kit/roadster26, kit/torre_luz | - | -
