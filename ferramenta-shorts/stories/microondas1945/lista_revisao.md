@@ -3,7 +3,8 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b9~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+1. b3: objeto "kit/chocolate" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+2. b4: objeto "kit/chocolate" saiu com 16% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Uma barra de chocolate derretida no bolso inventou o forno d": 
