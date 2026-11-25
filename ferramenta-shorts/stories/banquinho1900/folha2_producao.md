@@ -44,9 +44,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - O governador inglês exigiu sentar nele.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (1): GOV (variante 0, expressao angry, segura paper)
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): GOV (variante 0, expressao angry, segura paper) | multidao: 0 de GOV
 - Animacao: encena
 - Objetos/modelos: kit/golden_stool
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governador
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 20 de SOL
-- Animacao: - | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -125,7 +125,7 @@ nature/bush | b9 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/golden_stool | grandes momentos: b6, b7 | planos abertos: 4 | mistura: close 10% | medio 65% | aberto 20% | detalhe 5%
+- Objeto heroi: kit/golden_stool | grandes momentos: b6, b7 | planos abertos: 5 | mistura: close 4% | medio 65% | aberto 26% | detalhe 5%
 - Interacoes: b0 discutir, b3 o outro se aproxima, b5 susto, b8 entregar, b9 cochichar, b10 discutir
 - RISCOS GERAIS: nenhum
 

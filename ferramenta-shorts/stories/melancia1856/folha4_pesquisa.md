@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1856 | Lugar: Cidade do Panama, perto da estacao da ferrovia do Panama: ruas de terra, casas coloniais de madeira e pedra, barracas de frutas | Quando: 15 de abril de 1856, fim de tarde
 - HEROIS (objeto): kit/melon
 - HEROIS (personagens): VIA, VEN, PRE
-- Cenarios: interior pedra, jungle, loc_campo, street
+- Cenarios: jungle, loc_campo, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

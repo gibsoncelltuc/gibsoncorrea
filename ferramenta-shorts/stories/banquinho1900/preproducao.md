@@ -8,10 +8,10 @@ b0 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | 
 b1 | countryside | wide | 1 | parados (so fala e pisca) | kit/golden_stool | - | -
 b2 | jungle | reveal | 10 | parados (so fala e pisca) | - | - | -
 b3 | countryside | two | 14 | conversar, INTERAGEM: o outro se aproxima | kit/golden_stool | - | -
-b4 | countryside | close | 1 | encena | kit/golden_stool | paper | -
+b4 | countryside | wide | 1 | encena | kit/golden_stool | paper | -
 b5 | countryside | two | 14 | reagir, INTERAGEM: susto | - | - | -
 b6 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -
-b7 | jungle | orbit | 21 | batalha | - | - | -
+b7 | jungle | orbit | 21 | encena, batalha | - | - | -
 b8 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | kit/golden_stool | paper | -
 b9 | jungle | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool, nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b10 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/golden_stool | - | -

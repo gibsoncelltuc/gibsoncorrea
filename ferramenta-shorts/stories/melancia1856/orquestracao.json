@@ -138,11 +138,11 @@
    "cenario": "street"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "VIA"
    ],
-   "multidao": 48,
+   "multidao": 0,
    "objetos": [
     "vehicles/locomotive"
    ],
@@ -159,7 +159,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -179,7 +179,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
     "VIA"
@@ -193,7 +193,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "street"
   },
   {
    "camera": "two",

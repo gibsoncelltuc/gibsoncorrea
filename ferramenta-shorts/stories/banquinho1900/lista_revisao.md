@@ -6,29 +6,22 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Um governador inglês pediu para sentar num banquinho,": 
-- f1 "e isso começou uma guerra.": 
-- f2 "Era mil e novecentos,": 
-- f3 "e os ingleses mandavam na Costa do Ouro,": 
-- f4 "hoje Gana,": 
-- f5 "terra do povo ashanti.": 
-- f6 "Os ashanti tinham um banquinho dourado sagrado,": 
-- f7 "a alma do povo.": 
-- f8 "Nem o rei sentava nele.": 
-- f9 "Acontece que o governador inglês exigiu o banquinho:": 
-- f10 ""Por que eu ainda não estou sentado nele?"": 
-- f11 "Os líderes ashanti ficaram em choque,": 
-- f12 "porque isso era como pedir para sentar na alma deles.": 
-- f13 "Eles se revoltaram e cercaram o forte onde o governador esta": 
-- f14 "Soldados ingleses marcharam para salvar o governador preso,": 
-- f15 "e a guerra seguiu por vários meses.": 
-- f16 "No fim,": 
-- f17 "os ingleses venceram e a região virou colônia.": 
-- f18 "Mas os ashanti esconderam o banquinho,": 
-- f19 "e os ingleses nunca conseguiram levá-lo.": 
-- f20 "O governador ganhou a guerra,": 
-- f21 "mas o banquinho nunca foi dele.": 
-- f22 "Agora não deixe de comentar:": 
-- f23 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Um banquinho dourado começou uma guerra na África.": 
+- f1 "E quem pediu para sentar nele nunca conseguiu.": 
+- f2 "Em 1900,": 
+- f3 "os ingleses mandavam na atual Gana.": 
+- f4 "O povo ashanti tinha um banquinho sagrado.": 
+- f5 "Nem o rei sentava.": 
+- f6 "O governador inglês exigiu sentar nele.": 
+- f7 "Era como sentar na alma do povo ashanti.": 
+- f8 "Eles se revoltaram e cercaram o forte do governador.": 
+- f9 "Soldados ingleses vieram,": 
+- f10 "e a guerra durou meses.": 
+- f11 "Os ingleses venceram.": 
+- f12 "Acontece que o banquinho tinha sumido.": 
+- f13 "Os ashanti esconderam o banquinho na mata.": 
+- f14 "O governador ganhou,": 
+- f15 "mas nunca teve o banquinho.": 
+- f16 "Foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

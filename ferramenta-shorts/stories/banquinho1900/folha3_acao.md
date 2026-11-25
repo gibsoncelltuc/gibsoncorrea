@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 1.9s - 8 palavras - plano two
@@ -47,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 11.7s a 13.3s - 6 palavras - plano close
+## Cena b4 - 11.7s a 13.3s - 6 palavras - plano wide
 > "O governador inglês exigiu sentar nele."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -55,7 +55,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | exigiu (12.6s) | ACAO: fala | aponta explicando | OK |
 
 ## Cena b5 - 14.0s a 15.6s - 8 palavras - plano two
 > "Era como sentar na alma do povo ashanti."
@@ -88,9 +88,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
-| 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 1 | vieram (20.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | CENA | cavalaria: 4 soldados a cavalo (SOL) | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 
 ## Cena b8 - 22.1s a 24.9s - 9 palavras - plano two
 > "Os ingleses venceram. Acontece que o banquinho tinha sumido."
