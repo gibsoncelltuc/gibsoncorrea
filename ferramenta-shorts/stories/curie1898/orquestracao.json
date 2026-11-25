@@ -143,7 +143,9 @@
     "PIE"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/frasco"
+   ],
    "palavras": 10,
    "cena": "b6",
    "frase": "Ela andava com frascos no bolso, sem saber do perigo.",
@@ -154,9 +156,10 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
-    "MAR"
+    "MAR",
+    "PIE"
    ],
    "multidao": 0,
    "objetos": [],
@@ -167,7 +170,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior hospital"
   },
   {
    "camera": "two",

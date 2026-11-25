@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/postit",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -81,10 +81,6 @@
    },
    "text": "COLA QUE FALHOU",
    "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -97,7 +93,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -109,15 +110,15 @@
     [
      "kit/postit",
      0.0,
-     -1.2,
-     1.5,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
     ]
    ],
    "text": "1980",
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "promessa",
    "say": "E a ideia veio de alguém cantando na igreja.",
    "encena": {
@@ -129,10 +130,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -145,7 +142,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -328,8 +330,8 @@
    "props": [
     [
      "kit/postit",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -349,10 +351,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -365,7 +363,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -377,8 +380,8 @@
    "props": [
     [
      "kit/postit",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -403,10 +406,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -419,7 +418,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   }
  ],
  "visual": {

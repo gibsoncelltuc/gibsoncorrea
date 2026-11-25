@@ -127,3 +127,7 @@
 
 ## 25/11 19:38 autocorrecao de visibilidade
 - b1: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 19:42 autocorrecao de visibilidade
+- b1: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b8: objeto "kit/tires" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)

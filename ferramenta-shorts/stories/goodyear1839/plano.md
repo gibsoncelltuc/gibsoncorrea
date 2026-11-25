@@ -8,7 +8,7 @@ b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | -  | tropa | - | -
 b4 | two | -  | interior, objeto na mao | dinheiro (stars + som de sino) | -
 b5 | group | -  | interior | - | -
-b6 | two | -  | interior | encena: cai (throw) @5 (acao + som de efeito) | -
+b6 | two | -  | interior | encena: cai (throw) @5 (acao + som de efeito); encena: x_espera (point) @5 (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b9 | two | -  | interior, placa: GOSMA NO FOGÃO | ganhou (stars + som de sino) | -

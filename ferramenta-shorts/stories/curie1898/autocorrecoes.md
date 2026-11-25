@@ -93,3 +93,11 @@
 - b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
 - b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)
 - b8: objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 19:39 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 19:40 autocorrecao de visibilidade
+- b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)

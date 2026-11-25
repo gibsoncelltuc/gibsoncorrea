@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.0s - 13 palavras - plano two
@@ -82,7 +82,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caiu (19.0s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | caiu (19.0s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 20.3s a 22.6s - 8 palavras - plano two
 > "Acontece que não derreteu. Ficou firme e elástica."

@@ -106,9 +106,9 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -311,7 +311,7 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -331,15 +331,26 @@
       "na": "com"
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/frasco",
+     0.5,
+     0.9,
+     0.3,
+     {
+      "fixo": true,
+      "y": 1.0
+     }
+    ]
+   ],
+   "detalhe": true
   },
   {
    "shot": "two",
    "who": [
-    "MAR:0:sad"
-   ],
-   "fx": [
-    "ring@40"
+    "MAR:0:sad",
+    "PIE:0:cry"
    ],
    "sfx": [
     "sting@40"
@@ -351,13 +362,18 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "morre",
-      "na": "Acontece",
-      "quem": 0,
-      "forcar": true
+      "faz": "olha",
+      "quem": 1,
+      "alvo": "MAR",
+      "na": "saúde"
      }
     ]
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "interior": "hospital",
+   "quadro_manual": true,
+   "acao": "nenhuma"
   },
   {
    "shot": "two",

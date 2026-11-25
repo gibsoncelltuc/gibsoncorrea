@@ -54,3 +54,18 @@
 ## 24/11 19:46 autocorrecao de visibilidade
 - b0: objeto "kit/postit" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b10: objeto "kit/postit" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:40 autocorrecao de visibilidade
+- b0: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto "kit/postit" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b8: objeto "kit/postit" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto "kit/postit" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 19:41 autocorrecao de visibilidade
+- b0: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b1: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b8: objeto "kit/postit" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/postit" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:41 autocorrecao de visibilidade
+- b1: objeto "kit/postit" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> close no objeto

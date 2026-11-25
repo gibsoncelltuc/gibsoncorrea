@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Gerado em 25/11 19:39 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:42 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | chave | street | wide | POV | 6 | marco_eiffel | corpo: tropa/personagens e
 b3 | simples | interior galpao | two | MAR, PIE | - | pechblenda | - | Mexia toneladas de minério com uma barra de ferro.
 b4 | chave | interior galpao | wide | MAR, PIE | - | curie_box, pechblenda | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Assim descobriram dois elementos novos: polônio e rádio.
 b5 | explicativa | interior galpao | two | sem personagem | - | curie_box | corpo: kit/curie_box (gira); emissao: brilho; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada en | O rádio brilhava no escuro, e ela adorava olhar.
-b6 | simples | interior galpao | group | MAR, PIE | - | - | - | Ela andava com frascos no bolso, sem saber do perigo.
-b7 | simples | street | low | MAR | - | - | - | Acontece que a radiação destruiu a saúde dela.
+b6 | simples | interior galpao | group | MAR, PIE | - | frasco | - | Ela andava com frascos no bolso, sem saber do perigo.
+b7 | simples | interior hospital | two | MAR, PIE | - | - | - | Acontece que a radiação destruiu a saúde dela.
 b8 | simples | interior pedra | two | PRO | - | crate, curie_box | - | Hoje, os cadernos dormem em caixas de chumbo em Paris.
 b9 | simples | interior pedra | group | PRO | - | curie_box | - | Quem quiser ler, precisa de autorização. É por isso que...
 
