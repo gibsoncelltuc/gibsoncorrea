@@ -686,7 +686,7 @@
    "d1": 11.5
   }
  ],
- "exp": 1.008,
+ "exp": 1.129,
  "marco": "kit/marco_hollywood",
  "variar_cenario": false,
  "max_wide": 5,
@@ -723,5 +723,5 @@
    "picape": "Tesla Cybertruck 2019 prototype"
   }
  },
- "cinf": 4.5
+ "cinf": 3.0
 }
