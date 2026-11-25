@@ -3,17 +3,15 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: 40 MIL PRESOS | - | -
-b1 | reveal | -  | tropa, placa: 2023, mapa | - | -
-b2 | two | -  | interior, objeto na mao | - | -
-b3 | orbit | -  | tropa | - | -
-b4 | group | -  | tropa, placa: 40 MIL | - | -
+b1 | crowd | -  | tropa | - | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | interior, objeto na mao | - | -
+b4 | group | -  | tropa | - | -
 b5 | two | -  | tropa | - | -
-b6 | wide | -  | batalha aberta com tiros, objeto na mao | - | -
-b7 | two | -  | placa: SEM JULGAMENTO | encena: protesto (up) @4 (acao + som de efeito) | -
-b8 | orbit | -  | batalha aberta com tiros, objeto na mao | - | -
-b9 | group | -  | tropa, placa: DEBATE | - | -
-b10 | group | -  | placa: COPIADO E CRITICADO, objeto na mao | - | -
-b11 | close | -  | placa: COMENTE! | - | -
+b6 | orbit | -  | batalha aberta com tiros, objeto na mao | - | -
+b7 | wide | -  | tropa, placa: SEM JULGAMENTO | - | -
+b8 | wide | -  | batalha aberta com tiros, placa: COPIADO E CRITICADO, objeto na mao | - | -
+b9 | crowd | -  | tropa, placa: 40 MIL PRESOS | - | -
 
-Mistura de planos: close 11% | medio 65% | aberto 23% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 56% | aberto 40% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

@@ -7,7 +7,7 @@
    "item": "A Operação da Madrugada",
    "consultas": [
     "A Operação da Madrugada",
-    "Um Foi Caracas Venezuela Trump Era Nicolás Maduro 2026"
+    "Um Foi Caracas Venezuela 2026"
    ]
   },
   {
@@ -100,14 +100,6 @@
   },
   {
    "tipo": "epoca",
-   "item": "soldado da epoca",
-   "consultas": [
-    "soldier uniform 2026",
-    "soldier uniform"
-   ]
-  },
-  {
-   "tipo": "epoca",
    "item": "aviao da epoca",
    "consultas": [
     "airplane 2026",
@@ -116,9 +108,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí",
+   "item": "Ao mesmo tempo, ataques aéreos desligaram as defesas do país.",
    "consultas": [
-    "ataques aereos desligaram defesas antiaereas",
+    "ataques aereos desligaram defesas",
     "helicopter air diagram"
    ]
   }

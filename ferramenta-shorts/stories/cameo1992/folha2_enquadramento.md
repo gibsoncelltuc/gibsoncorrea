@@ -2,72 +2,64 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump."
+## b0: "Sete segundos de um filme de Natal ainda geram briga até hoje."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: FUN no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- MAPA: NOVA YORK (cobre a tela 1-2 s)
+- TEXTO NA TELA: "7 SEGUNDOS" flutuando no alto, na palavra 1 da frase
 
-## b1: "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump."
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FUN na esquerda, expressao grin; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "O HOMEM É TRUMP" numa placa atras dos personagens, na palavra 1 da frase
-
-## b2: "A cena dura cerca de sete segundos."
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FUN na esquerda, expressao surprised; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
-- SOM: sting@30
-- TEXTO NA TELA: "7 SEGUNDOS" numa placa atras dos personagens, na palavra 1 da frase
-
-## b3: "Acontece que aquele hotel, o Plaza, pertencia a Trump na época."
-- LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
-- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-
-## b4: "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio."
-- LOCAL: loja / taverna; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: DIR na esquerda, expressao suspicious; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b5: "Segundo o diretor, a participação de Trump foi o preço para usar o hotel."
+## b1: "E a culpa é de um hotel."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DIR na esquerda, expressao smug; TRU na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - SOM: sting@30
-- TEXTO NA TELA: "O PREÇO DO HOTEL" numa placa atras dos personagens, na palavra 1 da frase
 
-## b6: "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer."
+## b2: "Em Esqueceram de Mim 2, Kevin pede informação a um homem."
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FUN na esquerda, expressao grin; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+
+## b3: "O homem era Donald Trump, dono do hotel Plaza."
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FUN na esquerda, expressao surprised; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
+- SOM: sting@30
+- TEXTO NA TELA: "O HOMEM É TRUMP" numa placa atras dos personagens, na palavra 1 da frase
+
+## b4: "O diretor diz que a cena foi o preço do hotel."
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: DIR na esquerda, expressao suspicious; TRU na direita, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+
+## b5: "Acontece que Trump nega: diz que foi a equipe que pediu."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TRU na esquerda, expressao suspicious; DIR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos."
+## b6: "Em 2019, uma TV canadense passou o filme sem a cena."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)
 - PERSONAGENS: JOR na esquerda, expressao shock; JOR2 na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: CANADÁ (cobre a tela 1-2 s)
 
-## b8: "O corte virou assunto por lá, e a discussão ainda dura até hoje."
+## b7: "O corte virou polêmica, e a discussão dura até hoje."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: JOR no centro, expressao suspicious; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos."
-- LOCAL: sala de madeira; hora: golden
+## b8: "Sete segundos de cena. Mais de trinta anos de briga."
+- LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
-- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: fala/gesto
+- PERSONAGENS: FUN no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

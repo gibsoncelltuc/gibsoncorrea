@@ -1,90 +1,18 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 22 - A Operação da Madrugada
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 159 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 101 palavras (~35 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.
+## Cena b0  (~4.1 s)
+- Narracao: Um presidente foi capturado de madrugada, na própria capital, em três horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: -
+- Texto na tela: 3 HORAS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.6 s)
-- Narracao: Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: - | mapa: VENEZUELA
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b2  (~4.1 s)
-- Narracao: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~5.5 s)
-- Narracao: Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: whoosh@20, whoosh@50
-- Texto na tela: DELTA
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~3.8 s)
-- Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20, thump@40
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@20, puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~5.5 s)
-- Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@30
-- Texto na tela: -
-- Funcao na historia: VIRADA
-
-## Cena b6  (~6.2 s)
-- Narracao: Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~5.2 s)
-- Narracao: Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.8 s)
-- Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@30
-- Texto na tela: MUNDO
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.4 s)
-- Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
+## Cena b1  (~3.1 s)
+- Narracao: E a operação ganhou um nome que resume tudo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino
@@ -92,13 +20,76 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b2  (~3.1 s)
+- Narracao: Foi em janeiro de 2026, em Caracas, na Venezuela.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: - | mapa: VENEZUELA
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b3  (~3.8 s)
+- Narracao: O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~3.8 s)
+- Narracao: Às duas da manhã, helicópteros levaram a Força Delta até ele.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: whoosh@20, whoosh@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: whoosh@20, whoosh@50
+- Texto na tela: DELTA
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b5  (~3.4 s)
+- Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas do país.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@20, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@20, puff@40
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~3.8 s)
+- Narracao: Acontece que, em menos de três horas, Maduro já estava capturado.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@30
+- Texto na tela: -
+- Funcao na historia: VIRADA
+
+## Cena b7  (~4.1 s)
+- Narracao: Foi levado de avião para Nova York, onde responde a um processo.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~3.4 s)
+- Narracao: Nenhum militar americano morreu, e a notícia dividiu o mundo.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@30
+- Texto na tela: MUNDO
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~2.1 s)
+- Narracao: O nome da operação: Resolução Absoluta.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@30
+- Texto na tela: 3 HORAS
 - Funcao na historia: FECHO/PIADA FINAL
 
 

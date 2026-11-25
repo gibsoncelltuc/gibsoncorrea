@@ -11,14 +11,17 @@
  "cenas": [
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "SOL",
+    "FARM"
+   ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "A Austrália declarou guerra a um bando de pássaros, e perdeu.",
+   "frase": "Um exército contra pássaros? A Austrália saiu derrotada.",
    "classe": "simples",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
@@ -30,15 +33,32 @@
     "FARM"
    ],
    "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E o placar final virou piada no mundo inteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 0,
    "objetos": [
     "buildings/barn",
     "nature/haybale",
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -51,11 +71,11 @@
     "FARM",
     "AUS"
    ],
-   "multidao": 8,
+   "multidao": 6,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b2",
-   "frase": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Os agricultores pediram ajuda, e o governo mandou soldados.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -68,14 +88,31 @@
     "SOL",
     "SOL"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [
     "crate",
     "mgun"
    ],
    "palavras": 10,
-   "cena": "b3",
+   "cena": "b4",
    "frase": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que os emus se espalharam, e as balas só acertavam poeira.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -85,23 +122,6 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "SOL",
-    "SOL"
-   ],
-   "multidao": 32,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "outback"
   },
@@ -115,9 +135,9 @@
     "mgun",
     "vehicles/truck"
    ],
-   "palavras": 15,
-   "cena": "b5",
-   "frase": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Uma metralhadora num caminhão sacudia tanto que ninguém acertava.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -125,24 +145,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "SOL",
-    "SOL"
-   ],
-   "multidao": 32,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "Depois de seis dias, milhares de cartuchos gastos e poucos emus abatidos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "SOL"
    ],
@@ -150,9 +153,9 @@
    "objetos": [
     "vehicles/tank"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
+   "frase": "O major comparou os emus a tanques. A imprensa riu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -163,53 +166,37 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "AUS",
-    "AUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b8",
-   "frase": "O exército voltou, e o major disse ter abatido novecentos e oitenta e seis, número muito contestado.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "FARM",
-    "FARM"
-   ],
-   "multidao": 5,
-   "objetos": [],
-   "palavras": 21,
-   "cena": "b9",
-   "frase": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
    "cenario": "outback"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 5,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "SOL",
     "FARM"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Placar final: exército zero, emus um.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

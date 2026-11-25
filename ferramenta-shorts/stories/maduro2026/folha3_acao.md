@@ -1,46 +1,69 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 4.7s - 15 palavras - plano wide
-> "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas."
+## Cena b0 - 0.1s a 4.0s - 12 palavras - plano two
+> "Um presidente foi capturado de madrugada, na própria capital, em três horas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAD a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "capturado" (0.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "capturado" (0.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 3 HORAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 6.0s a 11.4s - 19 palavras - plano orbit
-> "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
+## Cena b1 - 4.4s a 7.0s - 9 palavras - plano wide
+> "E a operação ganhou um nome que resume tudo."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: mapa | na palavra "Caracas" (8.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (6.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | ganhou (6.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra ganhou (6.0s): executa: estrelinhas + som
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b2 - 7.1s a 9.7s - 9 palavras - plano wide
+> "Foi em janeiro de 2026, em Caracas, na Venezuela."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Caracas" (8.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | MAPA | VENEZUELA | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | MAPA | VENEZUELA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 12.4s a 16.5s - 12 palavras - plano wide
-> "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
+## Cena b3 - 10.0s a 14.7s - 11 palavras - plano two
+> "O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo."
 
-- LEITURA DA FRASE: sentido FATO
-  1) MAD a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Maduro" (14.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Maduro" (12.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,119 +74,101 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b3 - 18.2s a 23.0s - 16 palavras - plano wide
-> "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava."
+## Cena b4 - 15.2s a 19.9s - 11 palavras - plano crowd
+> "Às duas da manhã, helicópteros levaram a Força Delta até ele."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/helicopter_air | na palavra "helicópteros" (19.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levaram" (18.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | DELTA | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | PLACA | DELTA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 24.2s a 28.0s - 11 palavras - plano two
-> "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
+## Cena b5 - 20.3s a 23.0s - 10 palavras - plano two
+> "Ao mesmo tempo, ataques aéreos desligaram as defesas do país."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/helicopter_air | na palavra "ataques" (25.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "desligaram" (21.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 29.1s a 33.8s - 16 palavras - plano wide
-> "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+## Cena b6 - 24.2s a 28.0s - 11 palavras - plano low
+> "Acontece que, em menos de três horas, Maduro já estava capturado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAD a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "capturado" (32.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "capturado" (28.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b6 - 35.2s a 40.0s - 18 palavras - plano two
-> "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
-
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Trump" (35.2s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | empurrar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 41.3s a 45.3s - 15 palavras - plano wide
-> "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
+## Cena b7 - 29.1s a 32.7s - 12 palavras - plano two
+> "Foi levado de avião para Nova York, onde responde a um processo."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: vehicles/airplane | na palavra "avião" (42.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b8 - 46.5s a 51.6s - 14 palavras - plano crowd
-> "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
-
-- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: multidao | na palavra "mundo" (49.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levado" (29.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | PLACA | MUNDO | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 33.1s a 37.0s - 10 palavras - plano group
+> "Nenhum militar americano morreu, e a notícia dividiu o mundo."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dividiu" (36.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | MUNDO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (surprised), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 52.8s a 55.7s - 10 palavras - plano close
-> "A operação ganhou um nome que resume tudo: Resolução Absoluta."
+## Cena b9 - 37.2s a 38.8s - 6 palavras - plano wide
+> "O nome da operação: Resolução Absoluta."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Resolução" (55.2s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | ganhou (53.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (53.5s): executa: estrelinhas + som
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b10 - 57.2s a 60.5s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (37.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | 3 HORAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
+- ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

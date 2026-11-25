@@ -19,9 +19,9 @@
     "kit/navio_leander",
     "kit/navio_vapor"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
+   "frase": "Marinha grande é invencível? A Islândia provou que não.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -31,6 +31,25 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/cod"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "Com uma arma que parecia piada: um cortador de rede.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -45,10 +64,10 @@
     "kit/cod",
     "kit/navio_leander"
    ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
-   "classe": "simples",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foram três Guerras do Bacalhau, em quase vinte anos.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -62,12 +81,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "crate",
-    "kit/cod"
+    "crate"
    ],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.",
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -83,9 +101,9 @@
    "objetos": [
     "kit/navio_leander"
    ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -100,8 +118,8 @@
     "kit/navio_leander"
    ],
    "palavras": 10,
-   "cena": "b4",
-   "frase": "A marinha mandou fragatas para proteger os barcos de pesca.",
+   "cena": "b5",
+   "frase": "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -123,9 +141,9 @@
     "kit/fishing_net",
     "kit/navio_vapor"
    ],
-   "palavras": 16,
-   "cena": "b5",
-   "frase": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "A Islândia só tinha barquinhos da guarda costeira.",
    "classe": "chave",
    "sujeito": "cenario",
    "briefing": {
@@ -146,38 +164,14 @@
     "kit/barco_guarda",
     "kit/fishing_net",
     "kit/navio_leander",
-    "kit/navio_vapor",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_vapor"
    ],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito.",
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
    "classe": "transicao",
    "sujeito": "cenario",
    "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ICE",
-    "BRI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b7",
-   "frase": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -191,9 +185,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 20,
+   "palavras": 12,
    "cena": "b8",
-   "frase": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
+   "frase": "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -201,37 +195,29 @@
    "cenario": "harbor"
   },
   {
-   "camera": "close",
-   "personagens": [
-    "PES"
-   ],
+   "camera": "wide",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "crate",
-    "kit/cod"
+    "kit/barco_guarda",
+    "kit/cod",
+    "kit/fishing_net",
+    "kit/navio_leander",
+    "kit/navio_vapor",
+    "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Uma guerra inteira, por causa de um bacalhau.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ICE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "frase": "Tudo por um bacalhau. Marinha grande não é invencível.",
+   "classe": "chave",
+   "sujeito": "cenario",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   }

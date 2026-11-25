@@ -3,17 +3,15 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: X | - | -
-b1 | two | -  | interior, mapa | - | -
-b2 | group | -  | batalha aberta com tiros, tropa | encena: pega (lift) @4 (acao + som de efeito) | -
-b3 | two | -  | interior | - | -
-b4 | wide | -  | tropa, placa: E R | - | -
-b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: X | - | -
-b6 | two | noite  | tropa, placa: X | encena: grita (up) @10 (acao + som de efeito) | -
-b7 | two | -  | interior | encena: fala (point) @12 (acao + som de efeito) | -
-b8 | two | -  | interior | - | -
-b9 | two | noite  | - | - | -
-b10 | two | -  | interior | - | -
-b11 | close | -  | interior, placa: COMENTE! | - | -
+b1 | two | -  | interior | - | -
+b2 | two | -  | interior, mapa | - | -
+b3 | group | -  | batalha aberta com tiros, tropa | - | -
+b4 | two | -  | interior | - | -
+b5 | wide | noite  | batalha aberta com tiros, tropa, placa: X | - | -
+b6 | two | noite  | tropa, placa: X | - | -
+b7 | two | -  | interior | - | -
+b8 | orbit | noite  | tropa | - | -
+b9 | two | noite  | placa: X | - | -
 
-Mistura de planos: close 9% | medio 78% | aberto 9% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 2% | medio 82% | aberto 12% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

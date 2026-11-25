@@ -7,7 +7,7 @@
    "item": "O Jogo de Tabuleiro do Trump",
    "consultas": [
     "O Jogo de Tabuleiro do Trump",
-    "Donald Trump Era Nova York Uma 1989"
+    "Ninguém Trump Em Nova York 1989"
    ]
   },
   {
@@ -54,7 +54,6 @@
    "tipo": "pessoas",
    "item": "familias jogando",
    "consultas": [
-    "1980s family playing board game living room",
     "familias jogando",
     "familias jogando 1989"
    ]
@@ -63,7 +62,6 @@
    "tipo": "objeto",
    "item": "caixa do jogo Trump: The Game",
    "consultas": [
-    "Trump The Game board game box 1989",
     "caixa do jogo Trump The Game",
     "caixa do jogo Trump The Game 1989"
    ]
@@ -80,7 +78,6 @@
    "tipo": "objeto",
    "item": "tabuleiro",
    "consultas": [
-    "Trump The Game 1989 Milton Bradley board game",
     "tabuleiro",
     "tabuleiro 1989"
    ]
@@ -89,17 +86,8 @@
    "tipo": "heroi",
    "item": "boardgame",
    "consultas": [
-    "Trump The Game 1989 Milton Bradley board game",
     "caixa do jogo Trump The Game",
     "O Jogo de Tabuleiro do Trump"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 1989",
-    "factory"
    ]
   }
  ]

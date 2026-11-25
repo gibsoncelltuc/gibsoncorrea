@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1992 | Lugar: Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora CBC no Canada | Quando: filmagem em 1992 (inverno de Natal); corte na TV em 2019
 - HEROIS (objeto): kit/tv
 - HEROIS (personagens): TRU, FUN
-- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios: interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,9 +14,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Cameo de Sete Segundos | O Cameo de Sete Segundos / Um Natal Donald Trump Em Esqueceram Mim Kevin Trump 1992 | SEM REFERENCIA
+tema | O Cameo de Sete Segundos | O Cameo de Sete Segundos / Sete Natal Em Esqueceram Mim Kevin 1992 | SEM REFERENCIA
 lugar | Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C | Hotel Plaza Nova York / Hotel Plaza Nova York saguao dourado com lustres set de filmagem emissora CBC no Canada 19 | New York City at night HDR.jpg (referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_a6eb48.jpg); 5th Ave & Central Park South behind The Pond in Ce (referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_fa48b9.jpg); 5th Ave & Central Park South behind The Pond in Ce (referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_417ee7.jpg)
-lugar | Nova York | Nova York 1992 / Nova York landscape | Desfile da Escola de Samba Leão de Nova Iguaçu - S (referencias/cameo1992/prints/nova_york_582a68.jpg); Desfile da Escola de Samba Leão de Nova Iguaçu - S (referencias/cameo1992/prints/nova_york_4f71b0.jpg); Currier and Ives Liberty2.jpg (referencias/cameo1992/prints/nova_york_df22ec.jpg)
 lugar | Canadá | Canadá 1992 / Canadá landscape | Christ at the Column by Antonello da Messina (Louv (referencias/cameo1992/prints/canad__682721.jpg); Bighorn sheep, Canada, 1992 AJT Johnsingh.jpg (referencias/cameo1992/prints/canad__3eac15.jpg); Bighorn sheep, Canada, 1992, AJT Johnsingh.jpg (referencias/cameo1992/prints/canad__5389fa.jpg)
 epoca | roupas e ruas de 1992 | 1992 fashion clothing / 1992 street photograph | Sealskin jacket Olympia Albertville 1992, Danmark. (referencias/cameo1992/prints/roupas_e_ruas_de_1992_27e161.jpg); Sur Broadtail (Breitschwanz) fur coat, Germany 199 (referencias/cameo1992/prints/roupas_e_ruas_de_1992_f6c3a2.jpg); Riki-Sorsa-1992.jpg (referencias/cameo1992/prints/roupas_e_ruas_de_1992_fb19a6.jpg)
 pessoas | Donald Trump (sobretudo escuro e gravata) | Donald Trump sobretudo escuro e gravata / Donald Trump sobretudo escuro e gravata 1992 | Donald Trump official portrait.jpg (referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__2bb10d.jpg); Kim Jong-un and Donald Trump impersonators.jpg (referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__99ccaf.jpg); President Trump Visits St. John's Episcopal Church (referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__34d8e4.jpg)

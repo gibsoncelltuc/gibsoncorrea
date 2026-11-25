@@ -1,89 +1,17 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 9 cenas, 88 palavras (~30 s)
 
 ## Cena b0  (~3.8 s)
-- Narracao: Um homem apostou cinquenta milhões de dólares numa conversa no Twitter.
+- Narracao: Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 100 DIAS OU GRÁTIS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a Austrália do Sul em cem dias, ou seria de graça.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: 100 DIAS | mapa: AUSTRÁLIA
-- Funcao na historia: desenvolvimento
-
-## Cena b2  (~4.5 s)
-- Narracao: Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: perder -> dust + som de impacto
-- Efeito visual marcado: burst@40
-- Texto na tela: 50 MILHÕES
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b3  (~5.2 s)
-- Narracao: O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~5.9 s)
-- Narracao: Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: burst@40
-- Texto na tela: 55 DIAS
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~4.8 s)
-- Narracao: A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: - | mapa: Jamestown
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.8 s)
-- Narracao: A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~3.8 s)
-- Narracao: O empresário que fez o desafio teve que admitir: Musk cumpriu.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~4.8 s)
-- Narracao: Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.4 s)
+## Cena b1  (~3.4 s)
 - Narracao: E tudo começou com uma resposta curta, escrita no celular.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,8 +20,44 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
-- Narracao: Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.
+## Cena b2  (~3.4 s)
+- Narracao: Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: AUSTRÁLIA
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~2.8 s)
+- Narracao: Cem dias para entregar. Senão, seria de graça.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: 100 DIAS
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~3.4 s)
+- Narracao: Os jornais calcularam: ele podia perder mais de cinquenta milhões.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@40
+- Efeito + som nas palavras-chave: perder -> dust + som de impacto
+- Efeito visual marcado: burst@40
+- Texto na tela: 50 MILHÕES
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b5  (~3.8 s)
+- Narracao: Acontece que ficou pronta em cerca de cinquenta e cinco dias.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: burst@40
+- Texto na tela: 55 DIAS
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~2.8 s)
+- Narracao: Na época, era a maior bateria do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -101,13 +65,22 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b7  (~3.1 s)
+- Narracao: Quem lançou o desafio teve que admitir: ele cumpriu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~3.8 s)
+- Narracao: Cinquenta milhões em jogo, por causa de uma conversa no Twitter.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: 100 DIAS OU GRÁTIS
 - Funcao na historia: FECHO/PIADA FINAL
 
 
