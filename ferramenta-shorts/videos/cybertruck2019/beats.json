@@ -303,11 +303,10 @@
    "_susp_ok": true,
    "vary": false,
    "cx": 0.0,
-   "cz": -5.6,
-   "h": 2.8,
-   "d0": 14.4,
-   "d1": 11.4,
-   "_auto_vis": 1
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
@@ -494,8 +493,8 @@
     ],
     [
      "kit/phone",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -550,8 +549,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",

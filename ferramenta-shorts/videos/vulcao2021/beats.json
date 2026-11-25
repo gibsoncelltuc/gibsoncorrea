@@ -59,8 +59,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -118,8 +118,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -132,7 +131,7 @@
     [
      "kit/volcano",
      0.0,
-     -1.0,
+     -8.0,
      0.94,
      {
       "fixo": true
@@ -147,7 +146,7 @@
    },
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -3.6, camera a 20.5 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -169,11 +168,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_auto_vis": 3
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 21.5,
+   "d1": 20.5
   },
   {
    "shot": "two",
@@ -185,8 +183,8 @@
    "props": [
     [
      "kit/bitcoin",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -220,8 +218,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -457,8 +454,8 @@
    "props": [
     [
      "kit/miners",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.0,
      {
       "fixo": true
@@ -479,11 +476,11 @@
    "detalhe": false,
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e miners juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/miners",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -495,7 +492,7 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -506,11 +503,10 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -627,7 +623,7 @@
     [
      "kit/volcano",
      0.0,
-     -18.0,
+     -12.3,
      1.56,
      {
       "fixo": true
@@ -647,7 +643,7 @@
    "fachada": false,
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 3.2 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/volcano",
@@ -675,11 +671,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -9.0,
-   "h": 4.0,
-   "d0": 20.8,
-   "d1": 17.8,
-   "_auto_vis": 3
+   "cz": -2.0,
+   "h": 3.2,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
