@@ -81,3 +81,9 @@
 ## 25/11 14:01 autocorrecao de visibilidade
 - b8: ja corrigida 3 vezes, objeto citado "kit/coin" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b8: ja corrigida 3 vezes, objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 14:03 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 14:04 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro

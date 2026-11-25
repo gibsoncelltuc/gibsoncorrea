@@ -350,7 +350,7 @@
    "d1": 20.0
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "MUS:0:grin"
    ],
@@ -382,7 +382,7 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster2008",
@@ -392,7 +392,7 @@
      }
     ]
    },
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -458,21 +458,15 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/roadster2008",
+      "objeto": "kit/falcon9_land",
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/falcon9_land",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, esquerda",
       "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]

@@ -55,12 +55,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho."
 - LOCAL: loc_pista; hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster2008: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.5 m de altura x 9.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
 - SOM: ding@3
-- TEXTO NA TELA: "TESLA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
 
 ## b8: "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden

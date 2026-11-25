@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Gerado em 25/11 14:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 14:05 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,8 +14,8 @@ b4 | simples | interior pedra | two | MUS, EBY | - | coin | - | O pagamento foi 
 b5 | simples | interior madeira | two | MUS, POV | - | - | - | Elon Musk era o maior acionista do PayPal, então ficou muito rico de r
 b6 | transicao | loc_pista | wide | MUS | - | falcon9_land | - | Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de
 b7 | chave | loc_pista | orbit | MUS | - | roadster2008 | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétric
-b8 | simples | loc_cidade | wide | MUS, POV | 6 | coin, falcon9_land, roadster2008 | - | O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
-b9 | simples | loc_pista | two | MUS | - | falcon_air | - | Quem diria: um pagamento online chegou ao espaço.
+b8 | simples | loc_cidade | two | MUS, POV | - | coin, falcon9_land, roadster2008 | - | O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
+b9 | simples | loc_pista | wide | MUS | - | falcon_air | - | Quem diria: um pagamento online chegou ao espaço.
 b10 | simples | loc_pista | close | EBY | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
