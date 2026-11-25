@@ -17,6 +17,12 @@ if '--modo' in sys.argv:
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ROOT)
 B = json.load(open(f'videos/{ID}/beats.json', encoding='utf-8'))
+_OFD = B.setdefault('outfits', {})   # 25/11 Melancia: multidao com figurino 'POV' que o roteiro nao definiu = 'OUT[a.outfit] is not a function' e o video era PULADO
+for _b in B.get('beats', []):
+    _c = _b.get('crowd') if isinstance(_b.get('crowd'), dict) else {}
+    for _o in [o_ for o_ in (_c.get('outfits') or []) + [str(w_).split(':')[0] for w_ in _b.get('who', [])] if o_ not in _OFD]:
+        if _o in ('POV', 'POVO'): _OFD[_o] = {'jacket': '#3f6fb5', 'pants': '#4a3a2a', 'boots': '#1b1b1f', 'hats': ['cap', 'hair', 'straw', 'beret']}   # povo padrao: casacos e chapeus variados (sem clones)
+        elif _c.get('outfits') and _o in _c['outfits']: _c['outfits'] = [x_ for x_ in _c['outfits'] if x_ != _o] or (['POV'] if _OFD.setdefault('POV', {'jacket': '#3f6fb5', 'pants': '#4a3a2a', 'boots': '#1b1b1f', 'hats': ['cap', 'hair', 'straw', 'beret']}) else [])
 # CHAMADA FINAL (ordem do Gibson 23/11): TODO video termina com o narrador pedindo o comentario com o tema do proximo video (cena propria, close no personagem principal apontando para quem assiste)
 CTA_TXT = B.get('cta_texto') or 'Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?'
 if B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
