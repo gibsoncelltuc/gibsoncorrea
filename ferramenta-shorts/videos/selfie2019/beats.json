@@ -55,8 +55,8 @@
     [
      "kit/smartphone",
      0.0,
-     1.4,
-     2.0,
+     0.3,
+     1.2,
      {
       "fixo": true
      }
@@ -70,7 +70,7 @@
    ],
    "shot_lock": true,
    "crowd": {
-    "n": 16,
+    "n": 8,
     "outfits": [
      "POV"
     ],
@@ -105,11 +105,13 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
+   "cz": -0.8,
+   "d0": 11.0,
+   "d1": 10.5,
    "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "quadro_manual": true,
+   "h": 1.6
   },
   {
    "shot": "two",
@@ -257,10 +259,12 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 1.0,
+   "cz": 0.0,
+   "d0": 9.5,
+   "d1": 9.0,
+   "quadro_manual": true,
+   "h": 1.6
   },
   {
    "shot": "crowd",
@@ -385,9 +389,11 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -0.4,
+   "d0": 9.5,
+   "d1": 9.0,
+   "quadro_manual": true,
+   "h": 1.6
   },
   {
    "shot": "two",
@@ -523,11 +529,13 @@
     ]
    },
    "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
+   "cz": 0.0,
+   "d0": 8.5,
    "d1": 8.0,
    "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "quadro_manual": true,
+   "h": 1.5
   }
  ],
  "fontes": [

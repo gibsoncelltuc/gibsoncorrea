@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | hall | reveal | 18 | encena | mk/BookStand, kit/smartphone | - | -
+b0 | hall | reveal | 10 | encena | mk/BookStand, kit/smartphone | - | -
 b1 | hall | reveal | 14 | conversar | - | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: cochichar | - | - | -

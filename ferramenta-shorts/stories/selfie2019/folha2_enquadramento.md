@@ -4,9 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás."
 - LOCAL: salao; hora: day
-- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/smartphone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/smartphone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 

@@ -1,4 +1,0 @@
-VISIBILIDADE: 3 FALHA(S)
-FALHA b2~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b2~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b8: objeto citado "kit/rocket" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
