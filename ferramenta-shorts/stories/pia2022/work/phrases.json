@@ -1,0 +1,148 @@
+{
+ "duration": 30.48,
+ "frames30": 914,
+ "source": "silence-align (cost 1.52)",
+ "segments": [
+  [
+   0.0,
+   3.5805
+  ],
+  [
+   3.95975,
+   7.43083
+  ],
+  [
+   7.80642,
+   8.67383
+  ],
+  [
+   8.95329,
+   10.144
+  ],
+  [
+   10.3617,
+   11.5041
+  ],
+  [
+   11.8653,
+   13.9352
+  ],
+  [
+   14.3037,
+   15.1771
+  ],
+  [
+   15.3014,
+   16.6126
+  ],
+  [
+   16.9657,
+   17.9524
+  ],
+  [
+   18.2079,
+   19.1276
+  ],
+  [
+   19.3495,
+   20.5312
+  ],
+  [
+   20.9105,
+   21.7911
+  ],
+  [
+   22.0257,
+   24.2132
+  ],
+  [
+   24.5867,
+   27.1375
+  ],
+  [
+   27.5145,
+   28.7337
+  ],
+  [
+   29.1109,
+   30.0519
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um bilion\u00e1rio entrou carregando uma pia na empresa que estava comprando.",
+   "s": 0.0,
+   "e": 3.58
+  },
+  {
+   "text": "E a pia era uma piada de 44 bilh\u00f5es de d\u00f3lares.",
+   "s": 3.96,
+   "e": 7.431
+  },
+  {
+   "text": "Foi Elon Musk,",
+   "s": 7.806,
+   "e": 8.674
+  },
+  {
+   "text": "em 2022,",
+   "s": 8.953,
+   "e": 10.144
+  },
+  {
+   "text": "na sede do Twitter.",
+   "s": 10.362,
+   "e": 11.504
+  },
+  {
+   "text": "A legenda era um trocadilho em ingl\u00eas.",
+   "s": 11.865,
+   "e": 13.935
+  },
+  {
+   "text": "Sink quer dizer pia e tamb\u00e9m afundar.",
+   "s": 14.304,
+   "e": 16.613
+  },
+  {
+   "text": "Acontece que,",
+   "s": 16.966,
+   "e": 17.952
+  },
+  {
+   "text": "no dia seguinte,",
+   "s": 18.208,
+   "e": 19.128
+  },
+  {
+   "text": "o Twitter virou dele.",
+   "s": 19.349,
+   "e": 20.531
+  },
+  {
+   "text": "No mesmo dia,",
+   "s": 20.91,
+   "e": 21.791
+  },
+  {
+   "text": "demitiu o presidente e outros chefes.",
+   "s": 22.026,
+   "e": 24.213
+  },
+  {
+   "text": "E mudou o pr\u00f3prio perfil para Chefe Twit.",
+   "s": 24.587,
+   "e": 27.137
+  },
+  {
+   "text": "Uma piada com pia.",
+   "s": 27.515,
+   "e": 28.734
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.111,
+   "e": 30.052
+  }
+ ]
+}
