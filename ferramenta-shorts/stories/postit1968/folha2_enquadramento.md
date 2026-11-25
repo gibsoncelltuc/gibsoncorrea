@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: whoosh@30
 
-## b6: "Ele pensou: marcadores com a cola fraca."
+## b6: "Ele pensou: e se os marcadores tivessem a cola fraca?"
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o postit (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: FRY no centro, expressao surprised; sem multidao; acao: fala/gesto
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/postit no centro, manobra "gira"
 - PASSOS NA TELA: PAPEL DE RASCUNHO -> AMARELO -> POR ACASO
 
-## b8: "Em 1980, o post-it chegou às lojas."
+## b8: "Em 1980, o post-it chegou às lojas do mundo todo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
