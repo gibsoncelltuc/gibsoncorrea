@@ -3,10 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b0~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um médico pediu aos colegas para lavarem as mãos,": 
