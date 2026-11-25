@@ -225,3 +225,23 @@
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_yellow" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 06:15 autocorrecao de visibilidade
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_yellow" saiu com 12% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b5: objeto "kit/pea_yellow" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b6: objeto "kit/pea_yellow" saiu com 9% da altura da tela, a ficha de cena planejou 18% -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 06:15 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_yellow" saiu com 12% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/pea_green" saiu com 3% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 06:16 autocorrecao de visibilidade
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_yellow" saiu com 12% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
