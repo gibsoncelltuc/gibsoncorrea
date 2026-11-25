@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Gerado em 25/11 20:51 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 21:07 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
