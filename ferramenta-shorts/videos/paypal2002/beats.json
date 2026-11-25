@@ -85,7 +85,27 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "vendido",
+      "quem": 0
+     }
+    ]
+   },
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 1.5,
+     "un": " bi US$",
+     "titulo": "PREÇO DO PAYPAL",
+     "na": "bilhão",
+     "dur": 1.2
+    }
+   }
   },
   {
    "shot": "two",
@@ -125,7 +145,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "comprou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -160,6 +190,15 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandar"
+     }
+    ]
    }
   },
   {
@@ -173,7 +212,17 @@
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
    "set": "street",
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "compra",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -211,7 +260,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ações"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -221,7 +279,16 @@
    ],
    "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rico"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -271,7 +338,16 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fundado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -321,7 +397,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "investiu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -407,7 +492,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "venda",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -450,7 +545,16 @@
    "cz": -2.0,
    "h": 2.8,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
