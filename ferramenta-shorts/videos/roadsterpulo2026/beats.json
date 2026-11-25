@@ -710,5 +710,18 @@
  },
  "gancho_tipo": "crenca",
  "gancho_cumprido": "Gancho: um carro voou na frente dos convidados sem efeito especial, com dois truques escondidos. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou segundos.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "locacao": {
+  "loc_pista": {
+   "itens": [
+    [
+     "kit/palco_evento",
+     0,
+     -14,
+     1.0,
+     0
+    ]
+   ]
+  }
+ }
 }
