@@ -401,18 +401,6 @@
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
      }
     ]
    },
