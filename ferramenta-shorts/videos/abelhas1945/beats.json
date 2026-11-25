@@ -123,7 +123,7 @@
    "d1": 11.5
   },
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
     "FRI:0:smile"
    ],
@@ -133,27 +133,15 @@
    "props": [
     [
      "kit/beehive",
-     0.6,
-     1.0,
-     1.5,
+     1.4,
+     0.2,
+     1.2,
      {
       "fixo": true
      }
     ]
    ],
    "_susp_ok": true,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/beehive",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "interior": "madeira",
    "encena": {
     "sentido": "afirmativa",
@@ -165,13 +153,24 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 7.6,
+   "d1": 7.2,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/beehive",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -805,9 +804,9 @@
    "props": [
     [
      "kit/beehive",
-     2.4,
+     1.4,
      0.2,
-     1.0,
+     1.2,
      {
       "fixo": true
      }
@@ -844,7 +843,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "cx": 0.5,
+   "cz": 0.6,
+   "d0": 8.0,
+   "d1": 7.6,
+   "quadro_manual": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)",
@@ -868,11 +871,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "regiao": "europa",

@@ -24,3 +24,9 @@
 ## 25/11 02:49 autocorrecao de visibilidade
 - b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
 - b1: objeto citado "kit/beehive" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 25/11 02:50 autocorrecao de visibilidade
+- b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 02:51 autocorrecao de visibilidade
+- b1: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

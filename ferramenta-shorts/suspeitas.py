@@ -6,7 +6,7 @@ import json, re, sys, unicodedata, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import sentido
 ID = sys.argv[1]; B = json.load(open(f'videos/{ID}/beats.json')); BT = B['beats']
 n = lambda t: unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()
-MUITA = r'\b(multidao|milhares|centenas|todo mundo|pais inteiro|cidade inteira|povo|exercito|tropas?|soldados|batalhao|plateia|torcida|torcedores|moradores|funcionarios|manifestantes|dancarinos|pessoas|congresso|assembleia|parlamento|senado|deputados|vereadores|eleitores|plateia|convidados)\b'
+MUITA = r'\b(multidao|milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|centenas(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|todo mundo|pais inteiro|cidade inteira|povo|exercito|tropas?|soldados|batalhao|plateia|torcida|torcedores|moradores|funcionarios|manifestantes|dancarinos|pessoas|congresso|assembleia|parlamento|senado|deputados|vereadores|eleitores|plateia|convidados)\b'
 ANIM = r'\b(cavalos?|ursos?|porcos?|galinhas?|emus?|gansos?|vacas?|bois?|cachorros?|caes|gatos?|ovelhas?|cabras?|burros?|veados?|raposas?|lobos?|coelhos?|leao|leoes|elefantes?|patos?|galos?|gaivotas?|passaros|passarinhos|tentilhoes|abelhas?)\b'
 NOITE = r'\b(noite|madrugada|meia-noite|escuro|de noite)\b'
 EXTERNO = r'\b(no mar|na praia|no campo|na rua|nas ruas|na floresta|na mata|no monte|na montanha|no deserto|no ceu|no cais|no porto|na ilha)\b'
@@ -16,7 +16,7 @@ for k, b in enumerate(BT):
     if b.get('explica') or b.get('susp_ok') or b.get('mapa') and len((b.get('say') or '').split()) < 8: continue   # susp_ok: cena revisada no olho (ex.: 'o Congresso ofereceu um acordo' = decisao, nao multidao)
     s = n(b.get('say', '')); who = b.get('who') or []; cr = (b.get('crowd') or {}).get('n') or 0; fx = ' '.join(b.get('fx') or [])
     sc = sentido.cena(b.get('say', ''))
-    _mm = re.search(MUITA, s); _negm = bool(_mm and re.match(r'\s+(nunca|nao|jamais)\b', s[_mm.end():])) or bool(_mm and re.match(r'(milhares|centenas)$', _mm.group(1)) and not re.match(r'\s+de\s+(pessoas|soldados|homens|mulheres|moradores|torcedores|manifestantes|fas|trabalhadores|operarios|criancas)', s[_mm.end():])) or bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
+    _mm = re.search(MUITA, s); _negm = bool(_mm and re.match(r'\s+(nunca|nao|jamais)\b', s[_mm.end():])) or bool(_mm and re.match(r'(milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|centenas)$', _mm.group(1)) and not re.match(r'\s+de\s+(pessoas|soldados|homens|mulheres|moradores|torcedores|manifestantes|fas|trabalhadores|operarios|criancas)', s[_mm.end():])) or bool(_mm and re.search(r'\b(nao|nunca|nem|sem|ninguem)\b(\s+\w+){0,3}\s*$', s[:_mm.start()]))
     if _mm and not _negm and not cr and len(who) < 3 and not b.get('batalha') and not b.get('emus'):
         out.append((k, 'a frase fala de MUITA GENTE e a cena tem ' + str(len(who)) + ' pessoa(s) e nenhuma multidao'))
     TELA = r'\b(aplicativo|app|site|internet|e-?mail|tweet\w*|postou|postava|perfil|redes sociais|celular|online|computador|videogame|transmissao|ao vivo na tv|televisao)\b'
