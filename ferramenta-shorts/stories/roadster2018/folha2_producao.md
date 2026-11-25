@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um carro de verdade está dando voltas em torno do Sol.
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro
 - RISCOS: nenhum
@@ -19,15 +19,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "CARRO NO ESPAÇO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.9-3.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b1 - E o motorista dele não respira.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): motorista
 - RISCOS: nenhum
@@ -38,7 +40,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: STA no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.
@@ -58,9 +60,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.7 m de altura x 2.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (4.9-6.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (6.6-8.3 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (6.3-8.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.2-10.0 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Em vez de um peso de concreto, Musk mandou o próprio carro.
@@ -79,7 +81,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: ENG (cientista) no centro, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (10.4-12.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.4-14.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - O foguete decolou com um estrondo!
@@ -104,15 +108,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: whoosh@10
 - SOM: thump@30
 - SOM: sting@50
-- TAKES: sequencia de acao em 3 cameras (1.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que no volante ia um boneco astronauta, o Starman.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): boneco, starman, volante
 - RISCOS: nenhum
@@ -123,14 +127,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: STA no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (14.4-15.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (15.8-17.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (17.0-18.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.7-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b6 - No painel, um aviso: não entre em pânico.
 - Cenario: arctic | luz: espaco | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 0 de POV
 - Animacao: -
@@ -145,7 +149,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: STA no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "NÃO ENTRE EM PÂNICO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - O carro deixou a Terra e foi girar em torno do Sol.
@@ -163,7 +167,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/roadster no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (2.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (4.1 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Ele continua lá até hoje. Porque...
@@ -188,15 +192,11 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 5 | mistura: close 1% | medio 51% | aberto 48% | detalhe 0%
+- Objeto heroi: kit/roadster | grandes momentos: b4 | planos abertos: 8 | mistura: close 1% | medio 18% | aberto 81% | detalhe 0%
 - Interacoes: -
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: curto demais: ~26.0 s (voz real); minimo 30 s -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py roadster2018
-  - video com ~26 s (estrutura viral: 30 a 45 s, limite 50) -> CORRECAO: acrescentar uma micro-prova com numero/nome
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: curto demais: ~26.0 s (voz real); minimo 30 s
-- geral: video com ~26 s (estrutura viral: 30 a 45 s, limite 50)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadster2018 bN bM` (so essas cenas).
@@ -209,6 +209,6 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

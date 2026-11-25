@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
@@ -21,14 +21,14 @@
    "palavras": 11,
    "cena": "b0",
    "frase": "Um carro de verdade está dando voltas em torno do Sol.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "STA"
    ],
@@ -106,7 +106,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "STA"
    ],
@@ -117,14 +117,14 @@
    "palavras": 10,
    "cena": "b5",
    "frase": "Acontece que no volante ia um boneco astronauta, o Starman.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "STA"
    ],
