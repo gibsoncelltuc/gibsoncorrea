@@ -99,7 +99,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "detalhe": true
   },
   {
    "shot": "group",
@@ -467,9 +468,9 @@
    "props": [
     [
      "kit/melon",
-     0.6,
-     1.0,
-     1.5,
+     0.0,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
@@ -505,7 +506,8 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "detalhe": true
   }
  ],
  "ano": 1856,

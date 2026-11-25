@@ -13,5 +13,5 @@ b7 | two | -  | objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | encena: x_aperta (point) @3 (acao + som de efeito) | -
 b9 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | - | -
 
-Mistura de planos: close 4% | medio 68% | aberto 23% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 66% | aberto 23% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

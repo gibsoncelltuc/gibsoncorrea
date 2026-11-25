@@ -13,5 +13,5 @@ b7 | two | -  | tropa, objeto na mao | (rosto) sad (expr + som de efeito); morre
 b8 | group | -  | objeto na mao | pagar (stars + som de sino) | -
 b9 | two | -  | placa: GUERRA DA MELANCIA | - | -
 
-Mistura de planos: close 4% | medio 78% | aberto 16% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 75% | aberto 16% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
