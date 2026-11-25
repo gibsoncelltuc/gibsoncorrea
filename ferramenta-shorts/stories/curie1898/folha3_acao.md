@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.4s - 11 palavras - plano group
+## Cena b0 - 0.0s a 2.4s - 11 palavras - plano two
 > "Os cadernos de Marie Curie só podem ser lidos com proteção."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -13,13 +13,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | PERIGO | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b1 - 3.1s a 5.2s - 9 palavras - plano two
+## Cena b1 - 3.1s a 5.2s - 9 palavras - plano close
 > "E vão continuar radioativos por mais de mil anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -28,11 +23,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b2 - 5.9s a 8.7s - 11 palavras - plano wide
 > "Em Paris, ela trabalhava num galpão gelado com o marido Pierre."
@@ -44,12 +34,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | FRANÇA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b3 - 9.2s a 11.2s - 9 palavras - plano two
 > "Mexia toneladas de minério com uma barra de ferro."
@@ -62,13 +46,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | Mexia (9.2s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: mistura na palavra Mexia (9.2s): executa: mexe a panela (borbulhando)
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b4 - 11.8s a 14.6s - 8 palavras - plano wide
 > "Assim descobriram dois elementos novos: polônio e rádio."
@@ -81,13 +58,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | descobriram (12.1s) | EFEITO: ring | onda + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | PLACA | TONELADAS DE MINÉRIO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra descobriram (12.1s): executa: onda + som
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b5 - 15.2s a 17.2s - 9 palavras - plano two
 > "O rádio brilhava no escuro, e ela adorava olhar."
@@ -109,12 +79,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b7 - 20.8s a 22.7s - 8 palavras - plano two
 > "Acontece que a radiação destruiu a saúde dela."
@@ -126,12 +90,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | PLACA | HOSPITAL | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b8 - 23.5s a 25.8s - 10 palavras - plano two
 > "Hoje, os cadernos dormem em caixas de chumbo em Paris."
@@ -143,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 26.4s a 29.4s - 10 palavras - plano group
+## Cena b9 - 26.4s a 29.4s - 10 palavras - plano wide
 > "Quem quiser ler, precisa de autorização. É por isso que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -153,10 +111,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ler (27.0s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | PLACA | PERIGO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra ler (27.0s): segura o papel e mexe a mao como se escrevesse
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 

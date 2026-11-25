@@ -4,6 +4,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b5_x: "kit/curie_box" tapando a camera (40% do quadro, colado na lente)
+2. b9: objeto "kit/curie_box" saiu com 16% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Os cadernos de Marie Curie só podem ser lidos com proteção.": 

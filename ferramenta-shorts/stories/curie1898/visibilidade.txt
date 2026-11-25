@@ -1,2 +1,3 @@
-VISIBILIDADE: 1 FALHA(S)
+VISIBILIDADE: 2 FALHA(S)
 FALHA b5_x: "kit/curie_box" tapando a camera (40% do quadro, colado na lente)
+FALHA b9: objeto "kit/curie_box" saiu com 16% da altura da tela, a ficha de cena planejou 32%
