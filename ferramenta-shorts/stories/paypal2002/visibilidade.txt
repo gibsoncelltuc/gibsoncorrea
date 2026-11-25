@@ -1,0 +1,2 @@
+VISIBILIDADE: 1 FALHA(S)
+FALHA b2: objeto "kit/computador_2002" saiu com 14% da altura da tela, a ficha de cena planejou 32%
