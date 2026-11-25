@@ -41,9 +41,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao laugh; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/popcorn: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)
+- PERSONAGENS: SPE no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/popcorn: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
 - SOM: sting@40
@@ -51,9 +51,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Depois testou um ovo, e o ovo explodiu bem na cara de um colega."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
+- PERSONAGENS: SPE no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/egg: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: squeal@50
@@ -66,14 +66,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/microwave: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
 - SOM: sting@70
-- TEXTO NA TELA: "1 MINUTO" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "1 MINUTO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b10: "No fim, o chocolate perdeu, mas a pipoca agradece."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

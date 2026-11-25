@@ -11,3 +11,9 @@
 
 ## 25/11 00:44 autocorrecao de visibilidade
 - b9: objeto "kit/apple" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 02:37 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 02:38 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)

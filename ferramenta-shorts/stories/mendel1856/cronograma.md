@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Gerado em 25/11 02:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:34 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior madeira | two | FRE, MEN | - | - | - | Mendel ficou curi
 b5 | simples | loc_montanha | wide | MEN | - | pea_green, pea_yellow | - | Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, du
 b6 | chave | loc_montanha | wide | MEN | - | pea_green, pea_yellow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am
 b7 | simples | interior madeira | two | MEN, FRE | - | - | - | Ele descobriu que cada filho herda uma instrução do pai e outra da mãe
-b8 | simples | interior madeira | group | MEN, CIE | - | - | - | Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém p
+b8 | simples | interior madeira | close | MEN | - | - | - | Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém p
 b9 | chave | loc_deserto | wide | CIE | - | pea_green, pea_yellow | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só no ano mil e novecentos, já depois da morte dele, os cientistas vir
 b10 | simples | loc_deserto | two | MEN | - | pea_green | - | No fim, a ervilha fez o monge famoso.
 b11 | simples | loc_campo | close | MEN | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -30,13 +30,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh mendel1856
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh mendel1856
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh mendel1856
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local mendel1856 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

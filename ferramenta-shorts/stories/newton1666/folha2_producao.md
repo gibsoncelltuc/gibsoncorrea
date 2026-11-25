@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): NEW (variante 0, expressao smile, segura book); AMI (variante 0, expressao surprised)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (1): NEW (variante 0, expressao smile, segura book)
+- Animacao: encena
 - Objetos/modelos: kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): explicar, nossa
 - RISCOS: nenhum
@@ -15,10 +15,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)
-- PERSONAGENS: NEW na esquerda, expressao smile, segura book; AMI na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1666" numa placa atras dos personagens, na palavra 1 da frase
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
+- PERSONAGENS: NEW no centro, expressao smile, segura book; sem multidao; acao: fala/gesto
+- OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "1666" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (0.2-1.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.8-3.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -51,7 +51,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): NEW (variante 0, expressao neutral); MAE (variante 0, expressao smile)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazenda, rapaz, vinte
 - RISCOS: nenhum
@@ -72,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NEW (variante 0, expressao neutral, segura book); AMI (variante 1, expressao suspicious)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: nature/tree_oak, kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coisas, macieira
 - RISCOS: nenhum
@@ -156,10 +156,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - A resposta virou a lei da gravidade, publicada em mil seiscentos e oit...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): NEW (variante 0, expressao laugh); AMI (variante 0, expressao laugh) | multidao: 14 de LAV/AMI/MAE
-- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gravidade
 - RISCOS: nenhum
@@ -237,8 +237,8 @@ nature/tree_oak | b3, b4 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/apple | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 22% | medio 63% | aberto 9% | detalhe 7%
-- Interacoes: b0 insiste, b2 vai ate o outro, b3 aproxima-se, b6 susto, b7 pular, b8 cochichar
+- Objeto heroi: kit/apple | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 24% | medio 58% | aberto 12% | detalhe 7%
+- Interacoes: b2 insiste, b3 vai ate o outro, b6 susto, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

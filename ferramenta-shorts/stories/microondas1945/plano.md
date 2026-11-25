@@ -11,7 +11,7 @@ b5 | close | -  | interior | encena: fala (point) @4 (acao + som de efeito) | -
 b6 | two | -  | batalha aberta com tiros, tropa, interior | encena: examina (think) @3 (acao + som de efeito) | -
 b7 | two | -  | batalha aberta com tiros, interior | explodiu (burst + som de tiro/explosao); encena: examina (think) @1 (acao + som de efeito) | -
 b8 | orbit | -  | tropa | - | -
-b9 | two | -  | batalha aberta com tiros, tropa, interior, placa: 1 MINUTO | - | -
+b9 | group | -  | batalha aberta com tiros, tropa, interior, placa: 1 MINUTO | - | -
 b10 | close | -  | interior | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
 b11 | close | -  | placa: COMENTE! | - | -
 

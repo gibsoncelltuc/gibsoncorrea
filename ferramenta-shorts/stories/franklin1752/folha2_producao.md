@@ -48,9 +48,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Na época, muita gente achava que o raio era um castigo dos céus, e não...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (3): COM (variante 0, expressao scared); POV (variante 0, expressao scared); FIL (variante 0, expressao sad)
+- Personagens principais (2): COM (variante 0, expressao scared); POV (variante 0, expressao scared)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, ceus, epoca, forca, natureza, raio
@@ -59,8 +59,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) no centro, expressao scared; FIL (agricultor) na direita, expressao sad; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: COM (comerciante) na esquerda, expressao scared; POV (camponesa) na direita, expressao scared; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (11.1-12.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -70,7 +70,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Franklin discordava: para ele, o raio era só uma faísca elétrica gigan...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): COM (variante 0, expressao surprised); FRA (variante 0, expressao smug)
 - Animacao: conversar | interacao: discutir
@@ -183,8 +183,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FRA (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/lightning_rod, buildings/house_small, nature/picket_fence, nature/tree_oak
@@ -194,9 +194,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: limpo
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.3 m de altura x 0.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 0.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/lightning_rod: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 4.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
@@ -249,7 +249,7 @@ nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 23% | medio 61% | aberto 11% | detalhe 6%
+- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 24% | medio 56% | aberto 14% | detalhe 6%
 - Interacoes: b0 susto, b2 aproxima-se, b3 discutir, b4 avanca e o outro recua, b7 cochichar
 - RISCOS GERAIS: nenhum
 

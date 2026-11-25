@@ -12,8 +12,7 @@
   {
    "camera": "two",
    "personagens": [
-    "NEW",
-    "AMI"
+    "NEW"
    ],
    "multidao": 0,
    "objetos": [
@@ -146,7 +145,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "crowd",
    "personagens": [
     "NEW",
     "AMI"

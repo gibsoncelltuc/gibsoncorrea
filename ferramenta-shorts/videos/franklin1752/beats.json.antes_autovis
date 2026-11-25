@@ -56,8 +56,8 @@
    "props": [
     [
      "kit/kite",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.6,
      {
       "fixo": true
@@ -79,10 +79,21 @@
    "set": "loc_campo",
    "fachada": false,
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_solta",
+      "na": "soltou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -100,18 +111,39 @@
     "march": false
    },
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Filadélfia"
+     }
+    ]
+   }
   },
   {
    "say": "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza.",
-   "shot": "group",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "COM:0:scared",
     "POV:0:scared",
     "FIL:0:sad"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "castigo"
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
@@ -121,7 +153,16 @@
     "COM:0:surprised",
     "FRA:0:smug"
    ],
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "faísca"
+     }
+    ]
+   }
   },
   {
    "say": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.",
@@ -134,8 +175,8 @@
    "props": [
     [
      "kit/kite",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.6,
      {
       "fixo": true
@@ -155,10 +196,21 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prendeu",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -166,7 +218,16 @@
    "who": [
     "FRA:0:nervous"
    ],
-   "clima": "tempestade"
+   "clima": "tempestade",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
@@ -195,8 +256,8 @@
    "props": [
     [
      "kit/key",
-     3.6,
-     -2.0,
+     1.6,
+     -1.0,
      1.8,
      {
       "fixo": true
@@ -204,8 +265,8 @@
     ],
     [
      "kit/kite",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      1.6,
      {
       "fixo": true
@@ -231,10 +292,22 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "brilha",
+      "na": "faísca",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": 0.0,
+   "d0": 9.0,
+   "d1": 8.0,
+   "_auto_vis": 3,
+   "h": 3.0
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -244,7 +317,16 @@
     "COM:0:suspicious",
     "FRA:0:relief"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raio"
+     }
+    ]
+   }
   },
   {
    "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
@@ -261,9 +343,9 @@
    "props": [
     [
      "kit/lightning_rod",
-     0.0,
-     -8.0,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -310,18 +392,37 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "para-raios"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 16.2,
-   "d1": 15.4
+   "d1": 15.4,
+   "_auto_vis": 2
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",
    "shot": "close",
    "who": [
     "FRA:0:smug"
-   ]
+   ],
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
   }
  ],
  "visual": {

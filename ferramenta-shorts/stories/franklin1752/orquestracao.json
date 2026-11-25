@@ -46,11 +46,10 @@
    "cenario": "street"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "COM",
-    "POV",
-    "FIL"
+    "POV"
    ],
    "multidao": 0,
    "objetos": [],
@@ -64,7 +63,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "COM",
     "FRA"
@@ -165,7 +164,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "FRA"
    ],

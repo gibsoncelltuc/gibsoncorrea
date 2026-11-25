@@ -120,8 +120,7 @@
   {
    "camera": "two",
    "personagens": [
-    "SPE",
-    "ENG"
+    "SPE"
    ],
    "multidao": 0,
    "objetos": [
@@ -145,8 +144,7 @@
   {
    "camera": "two",
    "personagens": [
-    "SPE",
-    "COL"
+    "SPE"
    ],
    "multidao": 0,
    "objetos": [
@@ -188,7 +186,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "POV"
    ],

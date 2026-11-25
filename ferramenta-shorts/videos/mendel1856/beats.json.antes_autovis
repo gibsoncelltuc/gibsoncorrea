@@ -54,8 +54,8 @@
    "props": [
     [
      "kit/pea_green",
-     1.2,
-     0.2,
+     0.6,
+     1.0,
      1.6,
      {
       "fixo": true
@@ -100,7 +100,7 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -441,9 +441,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_auto_vis": 2
+   "d0": 13.5,
+   "d1": 13.0,
+   "_auto_vis": 3
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -467,11 +467,10 @@
   },
   {
    "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "MEN:0:sad:book",
-    "CIE:0:bored"
+    "MEN:0:sad:book"
    ],
    "acao": "conversar",
    "encena": {
@@ -484,7 +483,10 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
@@ -509,8 +511,8 @@
     ],
     [
      "kit/pea_yellow",
-     0.6,
-     1.0,
+     0.0,
+     1.4,
      3.84,
      {
       "fixo": true
@@ -545,7 +547,7 @@
      }
     ]
    },
-   "detalhe": false,
+   "detalhe": true,
    "fachada": false,
    "_enq_shot": "wide",
    "encena": {
@@ -563,7 +565,7 @@
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",

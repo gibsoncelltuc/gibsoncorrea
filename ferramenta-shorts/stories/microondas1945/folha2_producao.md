@@ -135,8 +135,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SPE (variante 0, expressao laugh); ENG (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: conversar | interacao: discutir | grande momento (efeito + som, sem tiro)
+- Personagens principais (1): SPE (variante 0, expressao laugh) | multidao: 0 de 
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/popcorn
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estourar, graos, pipoca
 - RISCOS: nenhum
@@ -144,9 +144,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao laugh; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/popcorn: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)
+- PERSONAGENS: SPE no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/popcorn: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
 - SOM: sting@40
@@ -158,8 +158,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): SPE (variante 0, expressao grin); COL (variante 0, expressao shock)
-- Animacao: conversar | interacao: cochichar | grande momento (efeito + som, sem tiro)
+- Personagens principais (1): SPE (variante 0, expressao grin)
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/egg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, colega
 - RISCOS: nenhum
@@ -167,9 +167,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)
-- PERSONAGENS: SPE na esquerda, expressao grin; COL na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/egg: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
+- PERSONAGENS: SPE no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/egg: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: squeal@50
@@ -200,7 +200,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
@@ -211,14 +211,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/microwave: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
 - SOM: sting@70
-- TEXTO NA TELA: "1 MINUTO" flutuando no alto, na palavra 1 da frase
+- TEXTO NA TELA: "1 MINUTO" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
@@ -266,7 +266,7 @@ kit/egg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixo
 
 ## Video inteiro
 - Objeto heroi: kit/microwave | grandes momentos: b6, b7, b9 | planos abertos: 2 | mistura: close 20% | medio 59% | aberto 19% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto, b6 discutir, b7 cochichar
+- Interacoes: b0 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

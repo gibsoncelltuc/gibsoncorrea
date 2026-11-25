@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 15 palavras - plano two
@@ -12,14 +12,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 1666 | OK |
+| 1 | - | PLACA | 1666 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -50,14 +46,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | voltou (12.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: chega na palavra voltou (12.7s): executa: entra andando pela lateral
-- INTERACAO (a cena toda): executa: vai ate o outro
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 - CHEGADA (a cena toda): executa: alguem entra andando
 <!-- /FISICA -->
@@ -71,13 +67,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pensando (17.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: pensa na palavra pensando (17.3s): executa: mao no queixo + brilho de ideia
-- INTERACAO (a cena toda): executa: aproxima-se
+- INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -134,7 +130,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 38.1s a 42.3s - 15 palavras - plano group
+## Cena b7 - 38.1s a 42.3s - 15 palavras - plano crowd
 > "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete."
 
 - LEITURA DA FRASE: sentido FATO
@@ -143,14 +139,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | GRAVIDADE | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | GRAVIDADE | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais

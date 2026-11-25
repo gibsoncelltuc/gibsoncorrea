@@ -3,16 +3,8 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b2: objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b0: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-3. b2: objeto "kit/pea_yellow" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-4. b2: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-5. b3: objeto "kit/pea_yellow" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-6. b5: objeto "kit/pea_yellow" saiu com 9% da altura da tela, a ficha de cena planejou 32%
-7. b6: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-8. b9: objeto "kit/pea_green" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-9. b9: objeto "kit/pea_yellow" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-10. b10: objeto "kit/pea_green" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+1. b0: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 32%
+2. b9: objeto "kit/pea_yellow" saiu com 5% da altura da tela, a ficha de cena planejou 18%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 

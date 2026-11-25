@@ -192,10 +192,9 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "SPE:0:laugh",
-    "ENG:0:shock"
+    "SPE:0:laugh"
    ],
    "impact": true,
    "tiros": false,
@@ -214,8 +213,8 @@
    "props": [
     [
      "kit/popcorn",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.2,
      {
       "fixo": true
@@ -224,17 +223,17 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/popcorn",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -245,18 +244,18 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "SPE:0:grin",
-    "COL:0:shock"
+    "SPE:0:grin"
    ],
    "fx": [
     "burst@50",
@@ -269,8 +268,8 @@
    "props": [
     [
      "kit/egg",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -279,17 +278,17 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e egg juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/egg",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -300,10 +299,11 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -353,7 +353,7 @@
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "POV:0:smile"
    ],
@@ -386,7 +386,7 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/microwave",
@@ -397,7 +397,7 @@
     ]
    },
    "detalhe": false,
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -463,5 +463,6 @@
    "forno": "Raytheon Radarange 1947",
    "lab": "Raytheon magnetron laboratory 1940s"
   }
- }
+ },
+ "max_wide": 3
 }

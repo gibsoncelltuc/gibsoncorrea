@@ -4,10 +4,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)
-- PERSONAGENS: NEW na esquerda, expressao smile, segura book; AMI na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1666" numa placa atras dos personagens, na palavra 1 da frase
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
+- PERSONAGENS: NEW no centro, expressao smile, segura book; sem multidao; acao: fala/gesto
+- OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "1666" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

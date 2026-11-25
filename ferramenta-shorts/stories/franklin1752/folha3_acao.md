@@ -39,7 +39,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b2 - 11.1s a 15.6s - 19 palavras - plano group
+## Cena b2 - 11.1s a 15.6s - 19 palavras - plano two
 > "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza."
 
 - LEITURA DA FRASE: sentido FATO
@@ -56,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 17.0s a 20.9s - 12 palavras - plano two
+## Cena b3 - 17.0s a 20.9s - 12 palavras - plano group
 > "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante."
 
 - LEITURA DA FRASE: sentido FATO
@@ -143,7 +143,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 46.5s a 50.6s - 15 palavras - plano group
+## Cena b8 - 46.5s a 50.6s - 15 palavras - plano wide
 > "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 
 - LEITURA DA FRASE: sentido FATO

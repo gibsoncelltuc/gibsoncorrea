@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
@@ -123,14 +123,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | testou (32.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra testou (32.0s): executa: examina com lupa/microscopio/balanca
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -145,15 +143,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | testou (36.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | explodiu (38.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | INTERACAO | cochichar | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra testou (36.7s): executa: examina com lupa/microscopio/balanca
 - EFEITO: burst na palavra explodiu (38.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -172,7 +168,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 46.8s a 50.1s - 15 palavras - plano two
+## Cena b9 - 46.8s a 50.1s - 15 palavras - plano group
 > "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
 
 - LEITURA DA FRASE: sentido FATO

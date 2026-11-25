@@ -70,8 +70,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MEN (padre) na esquerda, expressao sad, segura book; CIE (cientista) na direita, expressao bored; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: MEN (padre) no centro, expressao sad, segura book; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."

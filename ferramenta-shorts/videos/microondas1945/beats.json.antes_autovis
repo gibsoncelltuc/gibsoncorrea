@@ -71,6 +71,16 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chocolate"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -92,7 +102,16 @@
     "march": false
    },
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "radares"
+     }
+    ]
+   }
   },
   {
    "say": "Esses radares tinham uma peça potente, que mandava ondas invisíveis o dia inteiro.",
@@ -102,7 +121,16 @@
     "SPE:0:neutral",
     "ENG:0:suspicious"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ondas"
+     }
+    ]
+   }
   },
   {
    "say": "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso.",
@@ -112,7 +140,17 @@
     "ENG:0:neutral",
     "SPE:0:smile"
    ],
-   "chega": true
+   "chega": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
@@ -123,21 +161,40 @@
     "SPE:0:shock"
    ],
    "interacao": "susto",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "calor",
+      "na": "quente",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.",
    "shot": "close",
    "who": [
     "SPE:0:suspicious"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "perguntou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "SPE:0:laugh",
-    "ENG:0:shock"
+    "SPE:0:laugh"
    ],
    "impact": true,
    "tiros": false,
@@ -157,7 +214,7 @@
     [
      "kit/popcorn",
      0.0,
-     -1.0,
+     -1.2,
      1.2,
      {
       "fixo": true
@@ -176,19 +233,30 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "SPE:0:grin",
-    "COL:0:shock"
+    "SPE:0:grin"
    ],
    "fx": [
     "burst@50",
@@ -221,10 +289,23 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -257,6 +338,16 @@
      }
     ]
    },
+   "_enq_shot": "group",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "forno"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -264,7 +355,7 @@
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "POV:0:smile"
    ],
@@ -297,7 +388,7 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/microwave",
@@ -307,19 +398,38 @@
      }
     ]
    },
+   "detalhe": false,
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cozinha"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "detalhe": false,
-   "_auto_vis": 1
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 2
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",
    "shot": "close",
    "who": [
     "SPE:0:smug"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pipoca"
+     }
+    ]
+   }
   }
  ],
  "visual": {

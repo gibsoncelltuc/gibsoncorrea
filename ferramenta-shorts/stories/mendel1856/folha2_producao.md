@@ -187,10 +187,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém p...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MEN (variante 0, expressao sad, segura book); CIE (variante 0, expressao bored)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Personagens principais (1): MEN (variante 0, expressao sad, segura book)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -198,8 +198,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MEN (padre) na esquerda, expressao sad, segura book; CIE (cientista) na direita, expressao bored; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: MEN (padre) no centro, expressao sad, segura book; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (41.0-42.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -275,8 +275,8 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 12% | medio 55% | aberto 31% | detalhe 2%
-- Interacoes: b4 discutir, b7 cochichar, b8 avanca e o outro recua
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 20% | medio 46% | aberto 31% | detalhe 2%
+- Interacoes: b4 discutir, b7 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

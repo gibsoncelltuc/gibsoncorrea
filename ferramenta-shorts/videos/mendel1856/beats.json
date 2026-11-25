@@ -462,11 +462,10 @@
   },
   {
    "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "MEN:0:sad:book",
-    "CIE:0:bored"
+    "MEN:0:sad:book"
    ],
    "acao": "conversar",
    "encena": {
@@ -479,7 +478,10 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",

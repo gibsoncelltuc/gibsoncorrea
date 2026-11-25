@@ -12,14 +12,14 @@ b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b5 | loc_montanha | wide | 1 | encena | kit/pea_yellow, kit/pea_green | paper | -
 b6 | loc_montanha | wide | 1 | reagir, batalha | kit/pea_yellow, kit/pea_green | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b8 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | book | -
+b8 | interior madeira | close | 1 | conversar | - | book | -
 b9 | loc_deserto | wide | 1 | comemorar, batalha | kit/pea_green, kit/pea_yellow | - | -
 b10 | loc_deserto | two | 1 | conversar | kit/pea_green | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/pea_green
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b4 discutir, b7 cochichar, b8 avanca e o outro recua
+Interacoes entre personagens: b4 discutir, b7 cochichar
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada
