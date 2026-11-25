@@ -1,0 +1,261 @@
+{
+ "duration": 56.04,
+ "frames30": 1681,
+ "source": "silence-align (cost 1.01)",
+ "segments": [
+  [
+   0.164208,
+   3.53092
+  ],
+  [
+   4.52329,
+   5.31371
+  ],
+  [
+   5.56996,
+   7.23163
+  ],
+  [
+   7.46675,
+   8.52033
+  ],
+  [
+   8.7635,
+   9.75117
+  ],
+  [
+   10.6875,
+   12.1798
+  ],
+  [
+   12.4732,
+   13.6392
+  ],
+  [
+   13.8807,
+   15.4555
+  ],
+  [
+   16.4081,
+   17.4353
+  ],
+  [
+   17.657,
+   19.2132
+  ],
+  [
+   20.0861,
+   21.2816
+  ],
+  [
+   22.1674,
+   23.0378
+  ],
+  [
+   23.3194,
+   23.8894
+  ],
+  [
+   24.1028,
+   25.7464
+  ],
+  [
+   25.9955,
+   27.0401
+  ],
+  [
+   27.8928,
+   28.837
+  ],
+  [
+   29.0175,
+   29.9093
+  ],
+  [
+   30.1983,
+   31.6549
+  ],
+  [
+   31.9809,
+   33.9856
+  ],
+  [
+   34.9022,
+   35.7571
+  ],
+  [
+   36.0056,
+   38.4164
+  ],
+  [
+   39.3376,
+   40.7405
+  ],
+  [
+   40.9995,
+   42.7605
+  ],
+  [
+   43.684,
+   45.9898
+  ],
+  [
+   46.9138,
+   47.4953
+  ],
+  [
+   47.7242,
+   50.4364
+  ],
+  [
+   51.3555,
+   52.9301
+  ],
+  [
+   53.2237,
+   55.1648
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um bilion\u00e1rio entrou carregando uma pia na empresa que estava comprando.",
+   "s": 0.164,
+   "e": 3.531
+  },
+  {
+   "text": "Foi Elon Musk,",
+   "s": 4.523,
+   "e": 5.314
+  },
+  {
+   "text": "em outubro de dois mil e vinte e dois,",
+   "s": 5.57,
+   "e": 7.232
+  },
+  {
+   "text": "na sede do Twitter,",
+   "s": 7.467,
+   "e": 8.52
+  },
+  {
+   "text": "em S\u00e3o Francisco.",
+   "s": 8.764,
+   "e": 9.751
+  },
+  {
+   "text": "Ele filmou a pr\u00f3pria entrada,",
+   "s": 10.688,
+   "e": 12.18
+  },
+  {
+   "text": "com a pia nos bra\u00e7os,",
+   "s": 12.473,
+   "e": 13.639
+  },
+  {
+   "text": "e postou o v\u00eddeo na internet.",
+   "s": 13.881,
+   "e": 15.456
+  },
+  {
+   "text": "A legenda dizia:",
+   "s": 16.408,
+   "e": 17.435
+  },
+  {
+   "text": "Entrando na sede do Twitter.",
+   "s": 17.657,
+   "e": 19.213
+  },
+  {
+   "text": "Deixe isso afundar.",
+   "s": 20.086,
+   "e": 21.282
+  },
+  {
+   "text": "\u00c9 um trocadilho:",
+   "s": 22.167,
+   "e": 23.038
+  },
+  {
+   "text": "em ingl\u00eas,",
+   "s": 23.319,
+   "e": 23.889
+  },
+  {
+   "text": "a palavra sink quer dizer pia,",
+   "s": 24.103,
+   "e": 25.746
+  },
+  {
+   "text": "e tamb\u00e9m afundar.",
+   "s": 25.995,
+   "e": 27.04
+  },
+  {
+   "text": "Acontece que,",
+   "s": 27.893,
+   "e": 28.837
+  },
+  {
+   "text": "no dia seguinte,",
+   "s": 29.017,
+   "e": 29.909
+  },
+  {
+   "text": "ele fechou a compra do Twitter,",
+   "s": 30.198,
+   "e": 31.655
+  },
+  {
+   "text": "por quarenta e quatro bilh\u00f5es de d\u00f3lares.",
+   "s": 31.981,
+   "e": 33.986
+  },
+  {
+   "text": "No mesmo dia,",
+   "s": 34.902,
+   "e": 35.757
+  },
+  {
+   "text": "ele demitiu o presidente e outros chefes da empresa.",
+   "s": 36.006,
+   "e": 38.416
+  },
+  {
+   "text": "Ele tamb\u00e9m mudou o perfil,",
+   "s": 39.338,
+   "e": 40.74
+  },
+  {
+   "text": "e escreveu que era o Chefe Twit.",
+   "s": 40.999,
+   "e": 42.761
+  },
+  {
+   "text": "O v\u00eddeo da pia virou piada no mundo inteiro.",
+   "s": 43.684,
+   "e": 45.99
+  },
+  {
+   "text": "Uma pia,",
+   "s": 46.914,
+   "e": 47.495
+  },
+  {
+   "text": "um trocadilho e quarenta e quatro bilh\u00f5es de d\u00f3lares.",
+   "s": 47.724,
+   "e": 50.436
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 51.355,
+   "e": 52.93
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 53.224,
+   "e": 55.165
+  }
+ ]
+}
