@@ -1,4 +1,4 @@
-# LISTA UNICA DE REVISAO - emus1932  (refacoes ate agora: 1; limite: 1)
+# LISTA UNICA DE REVISAO - emus1932  (refacoes ate agora: 0; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
@@ -6,32 +6,23 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "A Austrália declarou guerra a um bando de pássaros,": 
-- f1 "e perdeu.": 
-- f2 "Em mil novecentos e trinta e dois,": 
-- f3 "vinte mil emus invadiram as lavouras de trigo no oeste do pa": 
-- f4 "Agricultores veteranos pediram metralhadoras,": 
-- f5 "e o ministro da Defesa mandou soldados.": 
+- f0 "Um exército perdeu uma guerra contra pássaros.": 
+- f1 "E o placar final virou piada no mundo inteiro.": 
+- f2 "Em 1932,": 
+- f3 "vinte mil emus tomaram as lavouras da Austrália.": 
+- f4 "Os agricultores pediram ajuda,": 
+- f5 "e o governo mandou soldados.": 
 - f6 "O major Meredith levou duas metralhadoras e dez mil balas.": 
-- f7 "Acontece que os emus se dividiram em grupos pequenos e rápid": 
-- f8 "e as balas acertavam só poeira.": 
-- f9 "Numa tentativa,": 
-- f10 "uma metralhadora foi instalada num caminhão,": 
-- f11 "mas ele sacudia tanto que ninguém atirava.": 
-- f12 "Depois de seis dias,": 
-- f13 "milhares de cartuchos gastos e poucos emus abatidos.": 
-- f14 "O major comparou os pássaros a tanques,": 
-- f15 "a imprensa riu,": 
-- f16 "e o governo retirou as tropas.": 
-- f17 "O exército voltou,": 
-- f18 "e o major disse ter abatido novecentos e oitenta e seis,": 
-- f19 "número muito contestado.": 
-- f20 "No fim,": 
-- f21 "o governo preferiu recompensas,": 
-- f22 "e em seis meses pagou por mais de cinquenta mil emus.": 
-- f23 "Exército zero,": 
-- f24 "emus um.": 
-- f25 "Agora não deixe de comentar:": 
-- f26 "qual deve ser o tema do próximo vídeo?": 
+- f7 "Acontece que os emus se espalharam,": 
+- f8 "e as balas só acertavam poeira.": 
+- f9 "Uma metralhadora num caminhão sacudia tanto que ninguém acer": 
+- f10 "O major comparou os emus a tanques.": 
+- f11 "A imprensa riu.": 
+- f12 "Seis dias,": 
+- f13 "milhares de balas,": 
+- f14 "poucos emus abatidos.": 
+- f15 "Exército zero,": 
+- f16 "emus um.": 
+- f17 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado
