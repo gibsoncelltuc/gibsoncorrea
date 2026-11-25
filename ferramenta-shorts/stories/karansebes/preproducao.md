@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | countryside | crowd | 52 | encena, batalha | - | - | -
 b1 | countryside | orbit | 20 | reagir | - | - | -
 b2 | countryside | track | 8 | encena, andando | tools/lantern | lantern | -
-b3 | countryside | two | 8 | reagir, INTERAGEM: aproxima-se | barrel, kit/barrel_r | bottle | -
+b3 | countryside | two | 8 | reagir, INTERAGEM: aproxima-se | kit/barrel_r, barrel | bottle | -
 b4 | countryside | group | 8 | beber, INTERAGEM: brindar | barrel, tools/lantern | mug, bottle | -
 b5 | countryside | two | 9 | discutir, INTERAGEM: discutir, alguem chega andando | - | - | -
 b6 | countryside | group | 13 | conversar, batalha | kit/campfire, kit/tent | - | -

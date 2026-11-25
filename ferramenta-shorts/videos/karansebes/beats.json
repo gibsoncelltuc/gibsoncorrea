@@ -197,19 +197,19 @@
    ],
    "props": [
     [
-     "barrel",
-     1.9,
-     1.0,
-     1.2
-    ],
-    [
      "kit/barrel_r",
-     0.0,
-     -1.2,
+     1.6,
+     -1.6,
      1.0,
      {
       "fixo": true
      }
+    ],
+    [
+     "barrel",
+     2.6,
+     -2.2,
+     1.2
     ]
    ],
    "hora": "noite",
@@ -256,7 +256,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "detalhe": false,
+   "detalhe": true,
    "shot_lock": true
   },
   {

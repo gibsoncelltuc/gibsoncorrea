@@ -74,11 +74,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): HUS (variante 0, expressao shock); LOC (variante 0, expressao grin, segura bottle) | multidao: 6 de AUT/HUS
 - Animacao: reagir | interacao: aproxima-se
-- Objetos/modelos: barrel, kit/barrel_r
+- Objetos/modelos: kit/barrel_r, barrel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -265,8 +265,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 tools/lantern | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/barrel_r | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+barrel | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tent | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -276,13 +276,11 @@ cannon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 9% | medio 72% | aberto 18% | detalhe 0%
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 9% | medio 71% | aberto 18% | detalhe 1%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: 
-  - objeto heroi (kit/barrel_r) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/barrel_r) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).
