@@ -1,2 +1,0 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b2: objeto "kit/submarino_ww2" saiu com 15% da altura da tela, a ficha de cena planejou 30%

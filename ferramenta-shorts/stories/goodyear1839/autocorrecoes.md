@@ -48,3 +48,15 @@
 - b5: ja corrigida 3 vezes, objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b0: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b5: ja corrigida 3 vezes, objeto "kit/stove" saiu com 5% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 00:38 autocorrecao de visibilidade
+- b9: objeto citado "kit/tires" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b7: objeto "kit/stove" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b7: objeto "kit/borracha" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/tires" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b10: objeto "kit/tires" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 00:38 autocorrecao de visibilidade
+- b9: objeto citado "kit/stove" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b10: objeto citado "kit/tires" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b10: objeto "kit/tires" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> close no objeto

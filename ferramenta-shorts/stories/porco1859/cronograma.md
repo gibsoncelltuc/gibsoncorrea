@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Gerado em 25/11 00:35 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:39 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,8 +10,8 @@ b0 | simples | countryside | two | FAZ | - | haybale, picket_fence | - | Dois pa
 b1 | simples | countryside | reveal | FAZ, IRL | - | - | - | Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sab
 b2 | simples | countryside | two | FAZ | - | barn, batatas, flowerbed, haybale, picket_fence, scarecrow, wheelbarrow | - | Um fazendeiro americano pegou um porco comendo as batatas da horta.
 b3 | simples | countryside | two | FAZ | - | house_small, haybale, picket_fence, tree_oak | - | Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.
-b4 | simples | loc_campo | two | FAZ | - | barn, haybale, picket_fence, scarecrow, wheelbarrow | - | O fazendeiro ofereceu dez dólares ao vizinho pelo porco.
-b5 | simples | loc_campo | two | IRL | - | picket_fence | - | O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém ced
+b4 | simples | loc_campo | two | FAZ, IRL | - | barn, haybale, picket_fence, scarecrow, wheelbarrow | - | O fazendeiro ofereceu dez dólares ao vizinho pelo porco.
+b5 | simples | loc_campo | two | IRL, FAZ | - | picket_fence | - | O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém ced
 b6 | simples | harbor | group | AME, AME, FAZ | 16 | barn, haybale, picket_fence, scarecrow | - | Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram s
 b7 | chave | harbor | crowd | ING, AME | 48 | cannon, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra respondeu com navios de guerra. Logo eram centenas de sol
 b8 | simples | interior madeira | two | ALM, ING | - | - | - | O almirante inglês recebeu ordem de atacar, e se recusou: não ia começ

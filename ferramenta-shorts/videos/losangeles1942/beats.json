@@ -90,10 +90,6 @@
     "march": false
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
@@ -105,7 +101,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -127,7 +127,7 @@
    "say": "Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "harbor",
    "hora": "pordosol",
    "who": [
@@ -159,11 +159,6 @@
     "n": 0
    },
    "_susp_ok": true,
-   "cx": 0.0,
-   "cz": -8.5,
-   "h": 2.4,
-   "d0": 19.1,
-   "d1": 17.1,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -178,7 +173,11 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "cx": 0.0,
+   "cz": -5.4,
+   "h": 2.4,
+   "d0": 11.3,
+   "d1": 10.8
   },
   {
    "shot": "low",
@@ -226,10 +225,6 @@
    "say": "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.",
    "shot_lock": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
@@ -253,7 +248,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -303,11 +302,6 @@
    "titulo": true,
    "say": "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos.",
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 15.3,
-   "d1": 14.5,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -327,7 +321,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 15.3,
+   "d1": 14.5
   },
   {
    "shot": "two",
@@ -396,10 +395,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "loc_cidade",
     "camera": "plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
@@ -417,7 +412,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -467,10 +466,6 @@
     ]
    ],
    "say": "O único alvo derrotado naquela noite foi o sono de Los Angeles.",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)",
@@ -482,7 +477,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "cinf": 1.5,

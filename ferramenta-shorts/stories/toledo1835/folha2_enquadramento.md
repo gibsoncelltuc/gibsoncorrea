@@ -4,9 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
 - PERSONAGENS: OHI no centro, expressao stern; sem multidao; acao: fala/gesto
-- OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +106 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +110 da cena
 - SOM: sting@106

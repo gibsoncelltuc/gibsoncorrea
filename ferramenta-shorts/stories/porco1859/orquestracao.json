@@ -93,7 +93,8 @@
   {
    "camera": "two",
    "personagens": [
-    "FAZ"
+    "FAZ",
+    "IRL"
    ],
    "multidao": 0,
    "objetos": [
@@ -115,7 +116,8 @@
   {
    "camera": "two",
    "personagens": [
-    "IRL"
+    "IRL",
+    "FAZ"
    ],
    "multidao": 0,
    "objetos": [

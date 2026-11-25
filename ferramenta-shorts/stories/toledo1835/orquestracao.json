@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "OHI"
    ],

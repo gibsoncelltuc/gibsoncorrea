@@ -1,13 +1,13 @@
-# Revisao do storyboard - losangeles1942 (v2, 24/11, apos conferencia frase a frase)
-pesquisa: Batalha de Los Angeles, 24-25/02/1942; submarino I-17 bombardeou Ellwood (Santa Barbara) no dia 23; holofotes, apagao e mais de 1.400 tiros antiaereos; mortes por acidente e ataque cardiaco
-b0: OK - "Uma cidade inteira passou a noite atirando no ceu" soldado e civil com holofote varrendo o ceu, placa 1942
-b1: OK - "logo depois de Pearl Harbor, e Los Angeles vivia com medo" mapa LOS ANGELES e rua com gente assustada
-b2: CORRIGIDO - submarino nao aparecia -> "um submarino japones tinha atirado na California": submarino com bandeira japonesa no mar, texto SUBMARINO JAPONES, clarao
-b3: OK - "as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o ceu" holofotes com facho no ceu escuro
-b4: OK - "os soldados comecaram a atirar com canhoes antiaereos" canhoes e soldados, texto FOGO!
-b5: OK - "Os soldados juravam que havia inimigos no ceu... so nuvens e fumaca" soldado e general discutindo no cais
-b6: OK - "mais de mil tiros de canhao, e os estilhacos cairam na cidade" clarões e estilhacos na rua
-b7: OK - "os militares discutiram o que tinha acontecido" general e civil discutindo na sala
-b8: OK - "Algumas pessoas morreram... nenhum inimigo apareceu" civis tristes na cidade a noite
-b9: OK - "o unico alvo derrotado naquela noite foi o sono de Los Angeles" civis na rua ao amanhecer; chamada final COMENTE
-defeitos procurados: cenario (Los Angeles 1942), epoca (sem objeto moderno), tamanho (submarino em tamanho real), cortado (ninguem cortado), multidao (sem clone na frente), legenda (texto em cima), acao (cada frase com a acao), objeto (holofote heroi em close)
+# Revisao do storyboard - losangeles1942 (25/11, olhando o storyboard inteiro)
+pesquisa: Batalha de Los Angeles, 24-25/02/1942: alarme falso apos Pearl Harbor e do ataque do submarino japones I-17 em Ellwood; holofotes, mais de 1.400 tiros de artilharia antiaerea, 5 mortes (acidentes e infarto), nenhum inimigo
+b0: OK - "Uma cidade inteira passou a noite atirando no ceu" cidade de noite, holofotes, povo, 1942
+b1: OK - "Era fevereiro de 1942" mapa LOS ANGELES e cidade com medo
+b2: OK - "Na vespera, um submarino japones tinha atirado na California" SUBMARINO JAPONES no mar ao entardecer
+b3: OK - "Na madrugada, as sirenes tocaram" holofotes varrendo o ceu
+b4: OK - "Alguem viu um objeto no ceu" FOGO! soldados atirando
+b5: OK - "Os soldados juravam que havia inimigos" tropa no cais
+b6: OK - "Foram mais de mil tiros de canhao" clarões e povo
+b7: OK - "No dia seguinte, os militares discutiram" sala com general e civil
+b8: OK - "Algumas pessoas morreram" povo na rua de noite
+b9: OK - "O unico alvo derrotado naquela noite foi o sono de Los Angeles" DE NOITE com holofote
+defeitos procurados: final de dia (corrigido), multidao onde a frase fala de gente, tiro so onde e tiro de verdade
