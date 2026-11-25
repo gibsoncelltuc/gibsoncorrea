@@ -90,8 +90,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Acontece que, no púlpito, ele pediu licença por um momento e tirou o c...
 - Cenario: hall | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/smartphone, mk/BookStand
@@ -230,8 +230,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Um segundo de selfie, e a ONU virou assunto.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): BUK (variante 0, expressao smile)
 - Animacao: comemorar
 - Objetos/modelos: kit/smartphone
@@ -268,7 +268,7 @@ kit/marco_onu | b9 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/smartphone | grandes momentos: b7 | planos abertos: 5 | mistura: close 18% | medio 45% | aberto 31% | detalhe 6%
+- Objeto heroi: kit/smartphone | grandes momentos: b7 | planos abertos: 5 | mistura: close 21% | medio 46% | aberto 31% | detalhe 2%
 - Interacoes: b2 discutir, b3 cochichar, b6 avanca e o outro recua, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
