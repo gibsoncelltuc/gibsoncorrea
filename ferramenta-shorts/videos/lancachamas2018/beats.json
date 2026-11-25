@@ -662,7 +662,16 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "MUS",
+     "POV"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   }
  ],
  "exp": 1.0,

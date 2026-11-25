@@ -1,0 +1,6 @@
+VISIBILIDADE: 5 FALHA(S)
+FALHA b1: objeto citado "kit/apple" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b0: objeto "kit/lua_ceu" saiu com 13% da altura da tela, a ficha de cena planejou 32%
+FALHA b1: objeto "kit/apple" saiu com 4% da altura da tela, a ficha de cena planejou 15%
+FALHA b5: objeto "kit/apple" saiu com 5% da altura da tela, a ficha de cena planejou 15%
+FALHA b9: objeto "kit/lua_ceu" saiu com 13% da altura da tela, a ficha de cena planejou 32%

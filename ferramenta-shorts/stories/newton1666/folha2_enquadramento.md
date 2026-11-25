@@ -4,9 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Uma maçã que não caiu na cabeça de Newton mudou tudo."
 - LOCAL: loc_campo; hora: pordosol
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
-- OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/lua_ceu: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.2 m de altura x 5.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "LENDA?" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Ela explicou por que a Lua não cai em cima da gente."
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "E a maçã nem foi comida. Foi assim que..."
 - LOCAL: loc_campo; hora: pordosol
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
-- OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/lua_ceu: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.2 m de altura x 5.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

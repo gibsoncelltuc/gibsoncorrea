@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Grupos de direitos humanos criticaram as prisões em massa."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; multidao de 14 (PRE) ATRAS dos principais; acao: discutir
+- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; sem multidao; acao: discutir
 - OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "PRISÕES EM MASSA" flutuando no alto, na palavra 1 da frase
 

@@ -11,7 +11,7 @@ b3 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | - | - | -
 b4 | loc_campo | wide | 8 | conversar | - | paper | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b6 | loc_patio | orbit | 2 | reagir, batalha | - | paper | -
-b7 | loc_campo | wide | 15 | discutir | kit/prison, kit/volcano | paper | -
+b7 | loc_campo | wide | 1 | discutir | kit/prison, kit/volcano | paper | -
 b8 | loc_cidade | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | paper | -
 b9 | loc_cidade | two | 2 | comemorar, INTERAGEM: vai ate o outro | kit/ballot_box | - | -
 

@@ -340,12 +340,7 @@
    ],
    "fachada": false,
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "PRE"
-    ],
-    "march": false,
-    "expr": "sad"
+    "n": 0
    },
    "detalhe": false,
    "cx": 0.0,
@@ -377,7 +372,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",

@@ -1,0 +1,153 @@
+{
+ "duration": 32.16,
+ "frames30": 965,
+ "source": "silence-align (cost 2.05)",
+ "segments": [
+  [
+   0.0,
+   2.71758
+  ],
+  [
+   2.91967,
+   3.89613
+  ],
+  [
+   4.27383,
+   6.00054
+  ],
+  [
+   6.37483,
+   7.33979
+  ],
+  [
+   7.58817,
+   9.51687
+  ],
+  [
+   9.86067,
+   11.9637
+  ],
+  [
+   12.3375,
+   15.7337
+  ],
+  [
+   16.1202,
+   18.689
+  ],
+  [
+   19.06,
+   19.9506
+  ],
+  [
+   20.2099,
+   21.526
+  ],
+  [
+   21.9046,
+   24.6086
+  ],
+  [
+   24.9866,
+   25.5773
+  ],
+  [
+   25.8327,
+   28.4192
+  ],
+  [
+   28.7921,
+   29.5896
+  ],
+  [
+   29.8002,
+   30.7828
+  ],
+  [
+   31.1532,
+   31.73
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um presidente teve quase 85% dos votos,",
+   "s": 0.0,
+   "e": 2.718
+  },
+  {
+   "text": "e o mundo se dividiu.",
+   "s": 2.92,
+   "e": 3.896
+  },
+  {
+   "text": "E o motivo dessa vota\u00e7\u00e3o \u00e9 pol\u00eamico.",
+   "s": 4.274,
+   "e": 6.001
+  },
+  {
+   "text": "Em 2024,",
+   "s": 6.375,
+   "e": 7.34
+  },
+  {
+   "text": "Bukele tentou a reelei\u00e7\u00e3o em El Salvador.",
+   "s": 7.588,
+   "e": 9.517
+  },
+  {
+   "text": "Ele prometeu acabar com a viol\u00eancia das gangues.",
+   "s": 9.861,
+   "e": 11.964
+  },
+  {
+   "text": "Os assassinatos ca\u00edram de 106 para 2, 4 por cem mil.",
+   "s": 12.338,
+   "e": 15.734
+  },
+  {
+   "text": "Acontece que a Constitui\u00e7\u00e3o proibia reelei\u00e7\u00e3o seguida.",
+   "s": 16.12,
+   "e": 18.689
+  },
+  {
+   "text": "Uma corte liberou,",
+   "s": 19.06,
+   "e": 19.951
+  },
+  {
+   "text": "e cr\u00edticos chamaram de ilegal.",
+   "s": 20.21,
+   "e": 21.526
+  },
+  {
+   "text": "Grupos de direitos humanos criticaram as pris\u00f5es em massa.",
+   "s": 21.905,
+   "e": 24.609
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 24.987,
+   "e": 25.577
+  },
+  {
+   "text": "ele levou 84, 6% dos votos.",
+   "s": 25.833,
+   "e": 28.419
+  },
+  {
+   "text": "Amado por uns,",
+   "s": 28.792,
+   "e": 29.59
+  },
+  {
+   "text": "criticado por outros.",
+   "s": 29.8,
+   "e": 30.783
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 31.153,
+   "e": 31.73
+  }
+ ]
+}

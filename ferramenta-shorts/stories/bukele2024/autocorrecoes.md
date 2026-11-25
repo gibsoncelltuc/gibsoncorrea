@@ -124,3 +124,9 @@
 ## 25/11 06:12 autocorrecao de visibilidade
 - b10: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b5: objeto citado "kit/ballot_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 25/11 19:57 autocorrecao de visibilidade
+- b5: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 19:58 autocorrecao de visibilidade
+- b5: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
