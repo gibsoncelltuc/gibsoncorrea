@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PASSOS NA TELA: -
 
 ## b5: "Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais."
-- LOCAL: vila medieval; hora: desert
+- LOCAL: loc_campo; hora: desert
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: ERA (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
