@@ -89,7 +89,8 @@
      {
       "faz": "cai",
       "na": "cair",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
@@ -444,7 +445,8 @@
      {
       "faz": "fala",
       "na": "copiaram",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }

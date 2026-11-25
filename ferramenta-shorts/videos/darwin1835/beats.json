@@ -222,11 +222,10 @@
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
-   "shot": "two",
+   "shot": "wide",
    "interior": "pedra",
    "who": [
-    "DAR:0:surprised",
-    "GOU:0:shout"
+    "DAR:0:surprised"
    ],
    "interacao": "discutir",
    "props": [
@@ -267,7 +266,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -442,8 +443,7 @@
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "DAR:0:smile",
-    "GOU:0:grin"
+    "DAR:0:smile"
    ],
    "interacao": "cochichar",
    "props": [
@@ -483,7 +483,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",

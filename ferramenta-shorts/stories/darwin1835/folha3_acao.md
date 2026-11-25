@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
@@ -55,13 +55,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GOU fala apontando | na palavra "revelou" (26.3s)
+  1) objeto fala apontando | na palavra "revelou" (26.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | revelou (26.3s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 30.5s a 35.4s - 15 palavras - plano two
 > "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
@@ -95,8 +94,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | cochichar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 46.6s a 50.5s - 14 palavras - plano group
 > "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."

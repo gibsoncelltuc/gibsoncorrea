@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -42,19 +42,19 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_pist
 - Narracao: Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_dirige (point) @5 -> acao + som de efeito; encena: escala (lift) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.8 s)
 - Narracao: Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: voa (point) @3 -> acao + som de efeito; encena: x_desce (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~3.8 s)
 - Narracao: Depois decolou e voou, nos propulsores, por cima de veículos parados.

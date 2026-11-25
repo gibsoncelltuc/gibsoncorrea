@@ -1,0 +1,3 @@
+VISIBILIDADE: 2 FALHA(S)
+FALHA b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b4_d: camera DENTRO de "kit/pechblenda"

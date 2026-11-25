@@ -50,3 +50,12 @@
 - b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
 - b4: objeto citado "kit/pechblenda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b4: objeto "kit/pechblenda" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+
+## 25/11 02:58 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: ja corrigida 3 vezes, camera DENTRO de "kit/pechblenda" -> fica para o olho
+
+## 25/11 02:58 autocorrecao de visibilidade
+- b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: ja corrigida 3 vezes, camera DENTRO de "kit/pechblenda" -> fica para o olho
