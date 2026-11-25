@@ -1697,6 +1697,10 @@ def build_beat(k, b):
         _sy_ = nrm(b['say']); _mat_ok = bool(_alvo) or any(re.search(r_, _sy_) for r_, a_ in ENC_MAT + ENC_RES) or bool(_st.get('mat'))
         _ok = {'mistura': not re.search(r'(mistur|mexe|mexi|combin)\w* (as |os |uns |umas |a |o )?(etiqueta|papel|papeis|carta|nome|ficha|dado|numero|peca|arquivo|documento|foto|cabo|fio|ideia|lingua|cor)', nrm0x(b['say'])), 'cai': _mat_ok, 'vira': _mat_ok, 'calor': _mat_ok or bool(re.search(r'fogao|forno|panela|ferv|aquec|esquent|caldeir', _sy_)), 'golpe': bool(re.search(r'ringue|luta|boxe|lutador|briga|soco|golpe|enfrent', _sy_)), 'bola': bool(re.search(r'futebol|\bcopa\b|\bbola\b|\bgol\b|estadio|chut', _sy_)), 'raspa': bool(re.search(r'cabeca|cabelo|careca|maquina|barba', _sy_)), 'x_come': not (b.get('animals') and re.search(r'porco|vaca|cavalo|cachorro|gato|galinha|ganso|emu|ovelha|cabra|bicho|animal|rato|passaro', _sy_))}
         _encs = [e_ for e_ in _encs if _ok.get(e_[2], True)]
+        _enc_ok = b.get('encena') if isinstance(b.get('encena'), dict) and not b['encena'].get('rascunho') else None
+        if _enc_ok is not None:   # 25/11 LEITURA ESCRITA MANDA: so' acontece na tela a acao que a leitura da frase pediu (adeus "deu errado" = entregar, "lenhadores" = cortar)
+            _quer = {(p_.get('faz'), nrm(str(p_.get('na', '')))) for p_ in (_enc_ok.get('passos') or [])}; _quer_t = {f_ for f_, _ in _quer} | {'senta'}
+            _encs = [e_ for e_ in _encs if e_[2] in _quer_t and (not any(f_ == e_[2] for f_, w_ in _quer if w_) or any(f_ == e_[2] and w_ and (w_ in nrm(_ws[e_[3]]) or nrm(_ws[e_[3]]) in w_) for f_, w_ in _quer))]
         b.setdefault('_enc_words', []).extend(w__ for t__, w__ in _mesmos if _ok.get(t__, True) and t__ in {e_[2] for e_ in _encs})   # "o imperio caiu", "abriram fogo", "a luta virou bagunca" NAO sao processo fisico
         _punches = []
         for n_e, (wi_, gest_, tipo_, j_) in enumerate(_encs[:8]):

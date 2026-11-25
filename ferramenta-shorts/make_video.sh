@@ -45,6 +45,7 @@ if [ "$(cat stories/$ID/STORYBOARD_OK 2>/dev/null)" != "$H3" ]; then
     if [ "${AUTOVIS:-0}" -lt 3 ] && python3 autocorrigir_visibilidade.py $ID >> $L 2>&1; then log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) CORRIGIDA(S) SOZINHA(S) (stories/$ID/autocorrecoes.md) -> storyboard de novo"; rm -f stories/$ID/storyboard.jpg stories/$ID/storyboard.hash stories/$ID/visibilidade.json stories/$ID/visibilidade.txt; AUTOVIS=$(( ${AUTOVIS:-0} + 1 )) exec bash make_video.sh $ID; fi
     log "VISIBILIDADE: $(grep -c '^FALHA' stories/$ID/visibilidade.txt) falha(s) que a autocorrecao nao resolveu (stories/$ID/visibilidade.txt)"
   fi
+  python3 encenacao.py rascunho $ID >> $L 2>&1 || true   # 25/11: leitura de cada frase em RASCUNHO (stories/<id>/leitura.md) para quem aprova LER e corrigir
   python3 lista_revisao.py $ID >> $L 2>&1 || true   # 24/11: lista UNICA com tudo o que a ferramenta achou + uma linha por frase (revisar tudo de uma vez)
   touch stories/$ID/AGUARDA_STORYBOARD; log "AGUARDANDO APROVACAO DO STORYBOARD: abra stories/$ID/storyboard.jpg, confira com a folha 3 e rode ./aprovar_storyboard.sh $ID"; exit 76
 fi
