@@ -254,6 +254,7 @@ if B.get('gancho_tipo') and B.get('continuo') is not False:   # 25/11 FILMAGEM C
             a_, b_, c_ = B['beats'][i_ - 1], B['beats'][i_], B['beats'][i_ + 1]
             if _lug(a_) != _lug(c_) or _lug(a_) == _lug(b_) or b_.get('mapa') or b_.get('explica') or b_.get('fixo_lugar'): continue
             if any(re.search(rx_, _nt(b_.get('say', ''))) for rx_, k_, v_ in _LUGAR): continue
+            if b_.get('hora') or b_.get('clima') or re.search(r'neblina|nevoeiro|neve|gelo|congel|chuva|tempestade|noite|madrugada|deserto|selva', _nt(b_.get('say', ''))): continue   # 25/11 Kiska: 'no nevoeiro' na ilha gelada nao vai para a praia de areia
             if len(set(_lug(x_) for j_, x_ in enumerate(B['beats']) if j_ != i_)) < 3: continue
             if _lug(a_).startswith('interior') and (b_.get('batalha') or b_.get('veiculo') or b_.get('crowd') or b_.get('shot') in ('reveal', 'crowd', 'orbit', 'track')): continue
             b_.pop('set', None); b_.pop('interior', None)

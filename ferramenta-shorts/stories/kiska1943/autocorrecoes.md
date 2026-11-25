@@ -11,3 +11,10 @@
 ## 25/11 18:36 autocorrecao de visibilidade
 - b1: objeto citado "kit/dog_sit" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
 - b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 4.0, cz -4.2), sem multidao na frente
+
+## 25/11 18:37 autocorrecao de visibilidade
+- b1: objeto citado "kit/dog_sit" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 25/11 18:38 autocorrecao de visibilidade
+- b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera mais perto do objeto, 1 personagem de lado
