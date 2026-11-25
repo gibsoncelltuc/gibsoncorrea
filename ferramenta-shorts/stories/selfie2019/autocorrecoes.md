@@ -20,3 +20,12 @@
 - b0: objeto "kit/smartphone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b5: objeto "kit/smartphone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
 - b10: objeto "kit/smartphone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 14:32 autocorrecao de visibilidade
+- b0: objeto "kit/smartphone" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b5: objeto "kit/smartphone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b10: objeto "kit/smartphone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 14:33 autocorrecao de visibilidade
+- b5: objeto "kit/smartphone" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b10: objeto "kit/smartphone" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> close no objeto
