@@ -81,10 +81,6 @@
    "fachada": false,
    "set": "hall",
    "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "reveal",
    "quadro": {
     "local": "salao",
@@ -97,7 +93,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -243,10 +243,6 @@
    "tiros": false,
    "set": "hall",
    "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "crowd",
    "quadro": {
     "local": "salao",
@@ -259,7 +255,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
