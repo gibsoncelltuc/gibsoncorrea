@@ -5,29 +5,29 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b0  (~5.9 s)
 - Narracao: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cai (throw) @3 -> acao + som de efeito
-- Efeito visual marcado: stars@30
-- Texto na tela: 1839
+- Efeitos sonoros marcados: thump@30, ding@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: puff@30, stars@50
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~3.4 s)
 - Narracao: Era mil oitocentos e trinta e nove, nos Estados Unidos.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: desenvolvimento
-
-## Cena b2  (~7.9 s)
-- Narracao: A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: -
+- Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: GRANDE MOMENTO
+
+## Cena b2  (~7.9 s)
+- Narracao: A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
 
 ## Cena b3  (~6.9 s)
 - Narracao: Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa.

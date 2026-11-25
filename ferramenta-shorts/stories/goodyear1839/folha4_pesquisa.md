@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1839 | Lugar: Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois | Quando: inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas
 - HEROIS (objeto): kit/borracha, kit/stove
 - HEROIS (personagens): GOO, CLA
-- Cenarios: hall, interior loja, interior madeira, interior pedra, street
+- Cenarios: hall, interior loja, interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -30,9 +30,10 @@ objeto | pneus e bolas de borracha | vulcanized rubber ball antique / pneus e bo
 heroi | borracha | natural rubber / borracha crua / A Borracha que Caiu no Fogão | Liquid Rubber HB S-200.jpg (referencias/goodyear1839/prints/borracha_0c452e.jpg); Rubber liquid in cans.jpg (referencias/goodyear1839/prints/borracha_9340ff.jpg); Rubber Ball made from Raw Rubber Strips.jpg (referencias/goodyear1839/prints/borracha_650362.jpg)
 heroi | stove | antique cast iron cook stove / stove | Bad Dürrenberg, iron stove in the Laurentius churc (referencias/goodyear1839/prints/stove_029f9c.jpg); Aplysina archeri (Stove-pipe Sponge-pink variation (referencias/goodyear1839/prints/stove_f17213.jpg); Vollmers Mühle Seebach - Stove.jpg (referencias/goodyear1839/prints/stove_62db7c.jpg)
 epoca | fabrica da epoca | factory 1839 / factory | Fabrieken P Regout, 1839.jpg (referencias/goodyear1839/prints/fabrica_da_epoca_b6c329.jpg); Decor op bord met fabrieken P Regout, 1839 (1).jpg (referencias/goodyear1839/prints/fabrica_da_epoca_b14134.jpg); Decor op bord met fabrieken P Regout, 1839 (2).jpg (referencias/goodyear1839/prints/fabrica_da_epoca_4e9566.jpg)
+mecanismo | A borracha estava na moda, mas derretia no calor e rachava no frio. Bo | borracha estava derretia calor rachava botas capas borracha / borracha diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- Borracha natural crua amolece e fica pegajosa no calor e endurece e racha no frio; aquecida com enxofre (vulcanizacao) as cadeias do polimero se ligam e ela fica firme e elastica em qualquer temperatura (Charles Goodyear, patente americana 3633, 1844; Smithsonian/ACS National Historic Chemical Landmark).
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Charles_Goodyear
