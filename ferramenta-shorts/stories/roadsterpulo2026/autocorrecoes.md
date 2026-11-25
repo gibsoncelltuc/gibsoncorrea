@@ -19,3 +19,15 @@
 - b4: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto "kit/cybertruck" saiu com 7% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
+
+## 25/11 03:10 autocorrecao de visibilidade
+- b0: ja corrigida 3 vezes, objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: ja corrigida 3 vezes, objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b5: ja corrigida 3 vezes, objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b0: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b4: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: ja corrigida 3 vezes, objeto "kit/cybertruck" saiu com 7% da altura da tela, a ficha de cena planejou 18% -> fica para o olho

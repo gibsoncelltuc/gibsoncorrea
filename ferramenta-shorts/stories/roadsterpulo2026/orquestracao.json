@@ -15,7 +15,7 @@
     "MUS",
     "ENA"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -36,11 +36,12 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
+    "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/rampa_curva",
     "kit/telao_led",
@@ -96,11 +97,11 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
