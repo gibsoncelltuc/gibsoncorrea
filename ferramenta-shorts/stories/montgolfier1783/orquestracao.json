@@ -13,11 +13,6 @@
    "loc_campo"
   ],
   [
-   "cena 6",
-   "medieval",
-   "loc_campo"
-  ],
-  [
    "cena 8",
    "medieval",
    "loc_campo"
@@ -157,7 +152,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_patio"
   },
   {
    "camera": "orbit",
@@ -287,7 +282,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "loc_patio"
   }
  ]
 }

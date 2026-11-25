@@ -331,7 +331,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "vila medieval",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -342,7 +342,7 @@
      }
     ]
    },
-   "set": "medieval",
+   "set": "loc_patio",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -698,7 +698,7 @@
    "_cta": true,
    "detalhe": false,
    "mapa": null,
-   "set": "palace",
+   "set": "loc_patio",
    "objetos": false,
    "fachada": false,
    "crowd": {
@@ -722,7 +722,7 @@
    "d0": 14.0,
    "d1": 12.0,
    "quadro": {
-    "local": "praia / palacio",
+    "local": "loc_patio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {

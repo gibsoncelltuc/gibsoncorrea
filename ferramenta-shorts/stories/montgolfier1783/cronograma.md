@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 25/11 06:35 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 06:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,13 +11,13 @@ b1 | transicao | street | reveal | POV, POV | 6 | marco_versalhes | - | Era mil 
 b2 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma
 b3 | chave | loc_campo | wide | ETI | - | balloon, fire, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Então fizeram um balão gigante de pano e papel, cheio de ar quente.
 b4 | simples | interior madeira | two | NOB, ETI | - | - | - | Só que ninguém sabia se dava para respirar lá em cima.
-b5 | transicao | loc_campo | wide | JOS | - | balloon, marco_versalhes | - | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
+b5 | transicao | loc_patio | wide | JOS | - | balloon, marco_versalhes | - | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
 b6 | simples | street | orbit | REI, RAI | 30 | marco_versalhes | - | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
 b7 | chave | loc_campo | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão levantou voo de verdade, com os bichos dentro.
 b8 | chave | loc_campo | wide | ETI | - | balloon, marco_versalhes, bush, tree_oak, tree_pine | corpo: desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira; emissao: VFX 3D preso no objeto (jato/p | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
 b9 | transicao | street | wide | POV, POV | - | balloon_air, marco_versalhes | - | Dois meses depois, outro balão levou dois homens por cima de Paris.
 b10 | simples | loc_campo | two | ETI | - | balloon, marco_versalhes | - | Tudo graças a três bichos corajosos.
-b11 | simples | palace | close | JOS | - | balloon | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b11 | simples | loc_patio | close | JOS | - | balloon | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
