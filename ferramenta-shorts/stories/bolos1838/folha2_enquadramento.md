@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MÉXICO (cobre a tela 1-2 s)
 
-## b3: "Ele disse que oficiais mexicanos saquearam tudo."
+## b3: "Ele disse que oficiais mexicanos entraram na loja e comeram os doces."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o cake_table (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: OFI na esquerda, expressao grin; OFI na direita, expressao laugh; sem multidao; acao: pega
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "600.000" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Esse dinheiro nunca chegou. E foi assim que..."
+## b8: "Esse dinheiro dos bolos nunca chegou. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CON na esquerda, expressao shock; OFI na direita, expressao laugh; sem multidao; acao: fala/gesto

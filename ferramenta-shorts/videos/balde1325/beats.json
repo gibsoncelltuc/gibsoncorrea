@@ -64,8 +64,11 @@
     [
      "kit/balde_madeira",
      0.0,
-     -0.8,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": true,
@@ -81,25 +84,48 @@
     ]
    },
    "text": "GUERRA DO BALDE",
-   "titulo": true
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MOD:0:smile"
    ],
    "props": [
     [
      "buildings/castle_tower",
-     0,
-     -12,
-     2.2
+     7.0,
+     -15.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/balde_madeira",
-     0.4,
-     0.8,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -117,7 +143,30 @@
       "na": "guardado"
      }
     ]
-   }
+   },
+   "_enq_shot": "close",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -255,7 +304,8 @@
      {
       "faz": "vence",
       "na": "festa",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "x_ri",
@@ -275,27 +325,39 @@
    "props": [
     [
      "kit/well",
-     1.6,
-     -0.8,
-     1.4
+     3.6,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/balde_madeira",
-     0.2,
-     0.5,
-     2.0
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "buildings/castle_tower",
-     -3.5,
-     -12,
-     1.5
+     7.0,
+     -14.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ],
     [
      "buildings/castle_tower",
-     5,
-     -12,
-     1.5
+     -7.0,
+     -14.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "PORTA DE BOLONHA",
@@ -320,25 +382,67 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/well",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "objetos": false
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
     "MOD:0:smile"
    ],
    "props": [
     [
      "buildings/castle_tower",
-     0,
-     -12,
-     2.2
+     7.0,
+     -15.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ],
     [
      "kit/balde_madeira",
-     0.4,
-     0.8,
-     2.0
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "tiros": false,
@@ -356,7 +460,30 @@
       "na": "torre"
      }
     ]
-   }
+   },
+   "_enq_shot": "close",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -368,8 +495,11 @@
     [
      "kit/balde_madeira",
      0.0,
-     -0.8,
-     2.6
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": true,
@@ -383,7 +513,33 @@
       "na": "balde"
      }
     ]
-   }
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "BOL",
+     "MOD"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "min_momentos": 1,

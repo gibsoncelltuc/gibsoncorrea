@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b7  (~3.1 s)
 - Narracao: O México prometeu pagar, e a França foi embora.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino
 - Efeito visual marcado: -

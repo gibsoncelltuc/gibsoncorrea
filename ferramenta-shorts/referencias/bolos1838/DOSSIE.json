@@ -40,18 +40,12 @@
   "kit/navio_fragata",
   "kit/room_colonial_shop",
   "kit/room_europa_stone",
-  "kit/room_verde_stone",
   "kit/stall",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Cabinet",
   "mk/CandleStick_Stand",
-  "mk/Crate_Wooden",
-  "mk/Nightstand_Shelf",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Nightstand_Shelf"
  ],
  "pesquisa_visual": {
   "local": "Tacubaya",

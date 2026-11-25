@@ -41,8 +41,7 @@
   "mk/Chest_Wood",
   "mk/Table_Large",
   "nature/haybale",
-  "tools/bucket",
-  "tools/lantern"
+  "tools/bucket"
  ],
  "pesquisa_visual": {
   "local": "Zappolino",

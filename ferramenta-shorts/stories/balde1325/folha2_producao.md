@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - E esse balde está guardado até hoje.
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (1): MOD (variante 0, expressao smile)
 - Animacao: conversar
@@ -78,13 +78,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MOD (variante 0, expressao laugh, segura bag); MOD (variante 1, expressao grin) | multidao: 0 de POV
 - Animacao: pega | interacao: aproxima-se
-- Objetos/modelos: kit/well, kit/balde_madeira, buildings/castle_tower, tools/bucket, buildings/house_two, nature/lamppost
+- Objetos/modelos: kit/well, kit/balde_madeira, buildings/castle_tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, cidade, poco, trofeu
 - RISCOS: nenhum
 
 ## Cena b8 - O balde está na torre Ghirlandina, em Módena.
 - Cenario: medieval | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MOD (variante 0, expressao smile)
 - Animacao: conversar
@@ -108,16 +108,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/balde_madeira | b0, b1, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-tools/bucket | b0, b1, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+tools/bucket | b0, b1, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/castle_tower | b1, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/balde_madeira | grandes momentos: b5 | planos abertos: 2 | mistura: close 16% | medio 58% | aberto 15% | detalhe 11%
+- Objeto heroi: kit/balde_madeira | grandes momentos: b5 | planos abertos: 2 | mistura: close 2% | medio 72% | aberto 15% | detalhe 11%
 - Interacoes: b0 susto, b2 o outro se aproxima, b4 insiste, b6 pular, b7 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 25/11 22:52 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 23:52 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest 
 b4 | simples | interior pedra | two | CON, REI | - | - | - | Pediu sessenta mil pesos. A loja valia menos de mil.
 b5 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França assumiu a briga e mandou navios de guerra.
 b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.
-b7 | simples | interior pedra | two | GEN, FRA | - | - | - | O México prometeu pagar, e a França foi embora.
+b7 | simples | harbor | two | GEN, FRA | - | - | - | O México prometeu pagar, e a França foi embora.
 b8 | simples | street | two | CON, OFI | - | cake_table | - | Esse dinheiro dos bolos nunca chegou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

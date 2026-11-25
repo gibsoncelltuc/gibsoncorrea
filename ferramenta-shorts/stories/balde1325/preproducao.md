@@ -5,14 +5,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | medieval | two | 2 | conversar, INTERAGEM: susto | kit/balde_madeira, tools/bucket | - | -
-b1 | medieval | close | 1 | conversar | buildings/castle_tower, kit/balde_madeira, tools/bucket | - | -
+b1 | medieval | two | 1 | conversar | buildings/castle_tower, kit/balde_madeira, tools/bucket | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b3 | loc_campo | crowd | 20 | encena | nature/picket_fence | - | -
 b4 | loc_campo | two | 8 | reagir, INTERAGEM: insiste | - | - | -
 b5 | loc_campo | crowd | 34 | reagir, batalha | - | - | -
 b6 | loc_campo | two | 10 | comemorar, INTERAGEM: pular | - | flag | -
-b7 | medieval | two | 2 | pega, INTERAGEM: aproxima-se | kit/well, kit/balde_madeira, buildings/castle_tower, tools/bucket, buildings/house_two, nature/lamppost | bag | -
-b8 | medieval | close | 1 | conversar | buildings/castle_tower, kit/balde_madeira, tools/bucket | - | -
+b7 | medieval | two | 2 | pega, INTERAGEM: aproxima-se | kit/well, kit/balde_madeira, buildings/castle_tower | bag | -
+b8 | medieval | two | 1 | conversar | buildings/castle_tower, kit/balde_madeira, tools/bucket | - | -
 b9 | medieval | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/balde_madeira, tools/bucket | - | -
 
 OBJETO HEROI: kit/balde_madeira

@@ -11,7 +11,7 @@ b3 | interior loja | two | 2 | pega, INTERAGEM: o outro se aproxima, alguem cheg
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: pedir | - | paper | -
 b5 | harbor | wide | 12 | discutir | kit/marco_ulua, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | crowd | 49 | batalha | kit/marco_ulua, cannon | - | -
-b7 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | paper, coin | -
+b7 | harbor | two | 2 | encena, INTERAGEM: entregar | - | paper, coin | -
 b8 | street | two | 2 | reagir, INTERAGEM: insiste, alguem chega andando | kit/cake_table | - | -
 
 OBJETO HEROI: kit/cake_table

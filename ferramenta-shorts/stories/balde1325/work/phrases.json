@@ -1,0 +1,171 @@
+{
+ "duration": 30.504,
+ "frames30": 915,
+ "source": "silence-align (cost 1.19)",
+ "segments": [
+  [
+   0.0,
+   2.60667
+  ],
+  [
+   2.98642,
+   4.66108
+  ],
+  [
+   5.02446,
+   5.86492
+  ],
+  [
+   6.04342,
+   6.49475
+  ],
+  [
+   6.69337,
+   8.46371
+  ],
+  [
+   8.83108,
+   10.2486
+  ],
+  [
+   10.52,
+   12.8685
+  ],
+  [
+   13.242,
+   15.0895
+  ],
+  [
+   15.4605,
+   17.4973
+  ],
+  [
+   17.7657,
+   18.632
+  ],
+  [
+   19.0073,
+   19.4952
+  ],
+  [
+   19.7219,
+   21.211
+  ],
+  [
+   21.5892,
+   23.802
+  ],
+  [
+   24.18,
+   25.7285
+  ],
+  [
+   25.9522,
+   26.4218
+  ],
+  [
+   26.8006,
+   27.8386
+  ],
+  [
+   28.0589,
+   29.1025
+  ],
+  [
+   29.4817,
+   30.0591
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra de verdade teve um balde de madeira como trof\u00e9u.",
+   "s": 0.0,
+   "e": 2.607
+  },
+  {
+   "text": "E esse balde est\u00e1 guardado at\u00e9 hoje.",
+   "s": 2.986,
+   "e": 4.661
+  },
+  {
+   "text": "M\u00f3dena e Bolonha,",
+   "s": 5.024,
+   "e": 5.865
+  },
+  {
+   "text": "na It\u00e1lia,",
+   "s": 6.043,
+   "e": 6.495
+  },
+  {
+   "text": "disputavam a fronteira havia d\u00e9cadas.",
+   "s": 6.693,
+   "e": 8.464
+  },
+  {
+   "text": "Em 1325,",
+   "s": 8.831,
+   "e": 10.249
+  },
+  {
+   "text": "Bolonha marchou com cerca de trinta mil soldados.",
+   "s": 10.52,
+   "e": 12.868
+  },
+  {
+   "text": "M\u00f3dena tinha menos de oito mil homens.",
+   "s": 13.242,
+   "e": 15.089
+  },
+  {
+   "text": "Acontece que M\u00f3dena atacou ao p\u00f4r do sol,",
+   "s": 15.46,
+   "e": 17.497
+  },
+  {
+   "text": "e Bolonha fugiu.",
+   "s": 17.766,
+   "e": 18.632
+  },
+  {
+   "text": "Depois,",
+   "s": 19.007,
+   "e": 19.495
+  },
+  {
+   "text": "fizeram festa na porta de Bolonha.",
+   "s": 19.722,
+   "e": 21.211
+  },
+  {
+   "text": "E levaram de trof\u00e9u o balde do po\u00e7o da cidade.",
+   "s": 21.589,
+   "e": 23.802
+  },
+  {
+   "text": "O balde est\u00e1 na torre Ghirlandina,",
+   "s": 24.18,
+   "e": 25.729
+  },
+  {
+   "text": "em M\u00f3dena.",
+   "s": 25.952,
+   "e": 26.422
+  },
+  {
+   "text": "Milhares de soldados,",
+   "s": 26.801,
+   "e": 27.839
+  },
+  {
+   "text": "e o pr\u00eamio foi um balde.",
+   "s": 28.059,
+   "e": 29.102
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 29.482,
+   "e": 30.059
+  }
+ ]
+}

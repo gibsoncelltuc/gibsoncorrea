@@ -30,7 +30,7 @@
    "cenario": "medieval"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MOD"
    ],
@@ -151,11 +151,8 @@
    "multidao": 0,
    "objetos": [
     "buildings/castle_tower",
-    "buildings/house_two",
     "kit/balde_madeira",
-    "kit/well",
-    "nature/lamppost",
-    "tools/bucket"
+    "kit/well"
    ],
    "palavras": 10,
    "cena": "b7",
@@ -167,7 +164,7 @@
    "cenario": "medieval"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MOD"
    ],
