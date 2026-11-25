@@ -9,7 +9,7 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "palace",
+   "loc_patio",
    "street"
   ],
   "cenarios_trocados": [
@@ -20,11 +20,6 @@
    ],
    [
     "cena 1",
-    "medieval",
-    "loc_campo"
-   ],
-   [
-    "cena 6",
     "medieval",
     "loc_campo"
    ],
