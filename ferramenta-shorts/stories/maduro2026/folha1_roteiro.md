@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 2026
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.6 s)

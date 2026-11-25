@@ -48,7 +48,7 @@
      "kit/bancada",
      3.6,
      -2.0,
-     1.0,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -154,7 +154,7 @@
      "kit/bancada",
      3.6,
      -2.0,
-     1.0,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -202,6 +202,7 @@
     ]
    },
    "_enq_shot": "two",
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -218,7 +219,7 @@
      "kit/bancada",
      3.6,
      -2.0,
-     1.0,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -267,6 +268,7 @@
     ]
    },
    "_enq_shot": "wide",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -304,7 +306,7 @@
      "kit/extinguisher",
      0.0,
      -1.2,
-     0.75,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -429,7 +431,7 @@
      "kit/bancada",
      -3.6,
      -2.0,
-     1.0,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -502,7 +504,7 @@
      "kit/extinguisher",
      3.6,
      -2.0,
-     0.75,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -512,7 +514,7 @@
      "kit/bancada",
      -3.6,
      -2.0,
-     1.0,
+     2.0,
      {
       "nocol": true,
       "fixo": true

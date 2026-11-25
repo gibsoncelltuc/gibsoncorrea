@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (0.2-1.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (1.5-2.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -73,8 +73,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - O nome dele era Não é um lança-chamas, e custava quinhentos dólares.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/bancada, kit/flamethrower
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; CMP na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (20.4-22.0 s): mesmo angulo
   - take 2 (22.0-23.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -109,7 +109,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
@@ -149,7 +149,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)
 - PERSONAGENS: CMP na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -193,8 +193,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O próprio Musk postou vídeos soltando fogo com o aparelho.
 - Cenario: loc_deserto | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: kit/phone, kit/bancada, kit/flamethrower, kit/fire
@@ -208,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -228,8 +228,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/extinguisher: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/extinguisher: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

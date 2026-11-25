@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao smug)
+- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, homem, twitter
@@ -15,9 +15,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loja / taverna; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (0.2-1.7 s): mesmo angulo
   - take 2 (1.7-3.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MUS (variante 0, expressao nervous); JOR (variante 0, expressao suspicious)
-- Animacao: reagir | interacao: aproxima-se
+- Personagens principais (1): MUS (variante 0, expressao nervous) | multidao: 0 de 
+- Animacao: reagir
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contrato, prazo, setembro
 - RISCOS: nenhum
@@ -83,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao nervous; JOR na direita, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.7 m de altura x 5.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (16.2-18.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (18.0-19.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -133,9 +133,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/megapack: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.3 m de altura x 7.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/megapack: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.3 m de altura x 7.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: Jamestown (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (26.6-28.4 s): mesmo angulo
-  - take 2 (28.4-30.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (26.7-28.5 s): mesmo angulo
+  - take 2 (28.5-30.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b6 - A imprensa chamou de a maior bateria do mundo, com cem megawatts de po...
@@ -153,7 +153,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/megapack no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (5.1 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (3.5 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b7 - O empresário que fez o desafio teve que admitir: Musk cumpriu.
@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAN (variante 0, expressao laugh); MUS (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desafio, empresario
 - RISCOS: nenhum
@@ -172,7 +172,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CAN na esquerda, expressao laugh; MUS na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (36.2-37.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (37.7-39.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b8 - Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d...
@@ -191,18 +193,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
 - PERSONAGENS: CAN no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (40.4-42.1 s): mesmo angulo
-  - take 2 (42.1-43.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (43.8-45.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (40.4-42.3 s): mesmo angulo
+  - take 2 (42.3-44.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b9 - E tudo começou com uma resposta curta, escrita no celular.
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): MUS (variante 0, expressao laugh); JOR (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): MUS (variante 0, expressao laugh)
+- Animacao: conversar
 - Objetos/modelos: kit/megapack, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular
 - RISCOS: nenhum
@@ -210,21 +211,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao laugh; JOR na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (45.8-47.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (47.6-49.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (45.2-46.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (46.5-47.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b10 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): MUS (variante 0, expressao laugh); CAN (variante 0, expressao grin) | multidao: 30 de POV
+- Animacao: encena
 - Objetos/modelos: kit/megapack
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apostar, contrato
 - RISCOS: nenhum
@@ -235,9 +236,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; CAN na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (49.9-51.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (51.3-52.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (49.1-51.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (51.0-52.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -264,8 +265,8 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 4 | mistura: close 11% | medio 57% | aberto 28% | detalhe 4%
-- Interacoes: b3 aproxima-se, b7 avanca e o outro recua, b9 susto, b10 o outro se aproxima
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 5 | mistura: close 11% | medio 51% | aberto 35% | detalhe 2%
+- Interacoes: b7 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -278,6 +279,8 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 1 take continuo (0.0 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (54.2-55.9 s): mesmo angulo
+  - take 2 (55.9-57.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.1s - 13 palavras - plano two
@@ -16,7 +16,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | dinheiro (3.1s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1989 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
@@ -24,7 +23,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: paga na palavra dinheiro (3.1s): executa: estende a mao com moedas + brilho
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
 ## Cena b1 - 4.5s a 8.3s - 16 palavras - plano wide

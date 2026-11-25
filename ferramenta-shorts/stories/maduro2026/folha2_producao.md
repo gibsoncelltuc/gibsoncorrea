@@ -20,7 +20,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2026" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.1-1.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.6-3.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo

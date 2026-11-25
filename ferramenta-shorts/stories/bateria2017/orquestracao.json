@@ -72,8 +72,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "JOR"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -194,8 +193,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "JOR"
+    "MUS"
    ],
    "multidao": 0,
    "objetos": [
@@ -212,12 +210,12 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MUS",
     "CAN"
    ],
-   "multidao": 0,
+   "multidao": 30,
    "objetos": [
     "kit/megapack"
    ],

@@ -20,7 +20,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "1989" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.2-1.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (1.6-3.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe

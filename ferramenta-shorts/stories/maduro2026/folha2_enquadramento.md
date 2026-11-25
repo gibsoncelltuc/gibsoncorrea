@@ -9,7 +9,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2026" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

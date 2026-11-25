@@ -1,0 +1,2 @@
+kit/helicopter_air: OK - helicoptero militar estilizado verde com helice e cabine; na operacao real foram helicopteros de transporte maiores (MH-47/MH-60), as referencias da pesquisa sao helicopteros brasileiros e nao servem; para um video de 60 s serve como simbolo, aparece pequeno ao fundo.
+kit/scroll: OK - pergaminho com fita vermelha sobre base, simboliza o processo na justica; sem referencia.

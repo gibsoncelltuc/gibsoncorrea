@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | wide | noite  | tropa, placa: 2026 | - | -
+b0 | wide | noite  | tropa | - | -
 b1 | orbit | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | wide | noite  | tropa | - | -
 b3 | wide | noite  | tropa, placa: DELTA | - | -
