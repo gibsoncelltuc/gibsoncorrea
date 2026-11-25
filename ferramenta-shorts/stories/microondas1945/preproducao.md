@@ -10,8 +10,8 @@ b2 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b3 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/chocolate | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: susto | kit/chocolate | - | -
 b5 | interior pedra | close | 1 | conversar | - | - | -
-b6 | interior madeira | group | 1 | conversar, batalha | kit/popcorn | - | -
-b7 | interior madeira | two | 1 | conversar, batalha | kit/egg | - | -
+b6 | interior madeira | two | 1 | conversar, batalha | kit/popcorn | - | -
+b7 | interior madeira | group | 1 | conversar, batalha | kit/egg | - | -
 b8 | loc_campo | orbit | 1 | parados (so fala e pisca) | kit/radarange | - | -
 b9 | interior madeira | two | 2 | comemorar, INTERAGEM: pular, batalha | kit/radarange | - | -
 b10 | interior loja | close | 1 | conversar | kit/chocolate, kit/popcorn | - | -
