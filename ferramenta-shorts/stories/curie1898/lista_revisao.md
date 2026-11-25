@@ -3,7 +3,9 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+3. b4: objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Existem cadernos tão perigosos que só podem ser lidos com ro": 
