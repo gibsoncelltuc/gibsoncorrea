@@ -865,7 +865,7 @@ def direct(beats):
     outs = list(B.get('outfits', {}))
     for k, b in enumerate(beats):
         if b.get('shot') == 'track' and not b.get('batalha'): b['shot_lock'] = True   # o roteiro pediu gente andando/correndo: o diretor nao troca por multidao parada
-        if b.get('shot_lock') or (b.get('quadro_manual') and b.get('shot') in ('close', 'two')):   # 25/11 Hayha: close com quadro_manual (d0 5) virava panoramica aberta com a camera DENTRO da fila de soldados
+        if b.get('shot_lock') or (b.get('quadro_manual') and b.get('shot') in ('close', 'two', 'wide', 'low')):   # 25/11 Hayha: close com quadro_manual (d0 5) virava panoramica aberta com a camera DENTRO da fila de soldados
             run = 0 if b.get('shot', 'two') in WIDE else run + 1; continue
         if b.get('interior'):   # dentro de casa: sempre plano medio, sem multidao automatica
             b['shot'] = b.get('shot') if b.get('shot') in ('two', 'close', 'group', 'low') else 'two'; run += 1; wrun = 0; continue

@@ -1,21 +1,21 @@
 # CRONOGRAMA - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Gerado em 25/11 18:28 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:31 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | countryside | crowd | AUT, AUT, AUT, AUT | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um exército inteiro perdeu uma batalha contra ele mesmo.
+b0 | chave | countryside | wide | AUT, AUT, AUT, AUT | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um exército inteiro perdeu uma batalha contra ele mesmo.
 b1 | simples | countryside | close | TUR, TUR | - | - | - | E o inimigo venceu sem disparar um tiro.
-b2 | simples | countryside | orbit | AUT, HUS, AUT, OFF | 32 | - | - | Em 1788, o exército austríaco tinha soldados de vários países.
+b2 | simples | countryside | crowd | AUT, HUS, AUT, OFF | 32 | - | - | Em 1788, o exército austríaco tinha soldados de vários países.
 b3 | chave | countryside | track | HUS, HUS | 6 | lantern | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Numa noite, os hussardos foram procurar o inimigo.
 b4 | simples | countryside | two | HUS, LOC | 6 | barrel, barrel_r | - | Acharam moradores vendendo aguardente e beberam o barril todo.
-b5 | simples | countryside | crowd | AUT, HUS, AUT | 32 | - | - | A infantaria quis um gole. Negaram, e alguém atirou.
+b5 | simples | countryside | orbit | AUT, HUS, AUT | 32 | - | - | A infantaria quis um gole. Negaram, e alguém atirou.
 b6 | simples | countryside | close | HUS | - | - | - | No escuro, alguém gritou: Turcos! Turcos!
-b7 | chave | countryside | orbit | AUT, AUT, HUS | 48 | house_small, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ninguém entendia a língua do vizinho. Todos atiraram em t
-b8 | simples | countryside | group | OFF | 6 | cannon | - | Até os canhões dispararam contra o próprio exército.
-b9 | simples | countryside | two | TUR, TUR | 5 | campfire, tent | - | Os turcos chegaram e acharam o acampamento abandonado.
+b7 | chave | countryside | crowd | AUT, AUT, HUS | 48 | house_small, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ninguém entendia a língua do vizinho. Todos atiraram em t
+b8 | simples | countryside | wide | OFF | 32 | cannon | - | Até os canhões dispararam contra o próprio exército.
+b9 | simples | countryside | group | TUR, TUR | 5 | campfire, tent | - | Os turcos chegaram e acharam o acampamento abandonado.
 b10 | chave | countryside | wide | AUT, AUT, AUT, AUT | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ninguém precisou lutar contra eles. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
