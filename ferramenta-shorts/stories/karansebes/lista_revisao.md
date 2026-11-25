@@ -3,7 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b8: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um exército inteiro perdeu uma batalha contra ele mesmo.": 
