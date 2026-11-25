@@ -1,7 +1,7 @@
 {
- "duration": 47.208,
- "frames30": 1416,
- "source": "silence-align (cost 4.19)",
+ "duration": 43.656,
+ "frames30": 1310,
+ "source": "silence-align (cost 4.21)",
  "segments": [
   [
    0.157208,
@@ -21,15 +21,15 @@
   ],
   [
    11.0513,
-   13.7322
+   13.7336
   ],
   [
    14.5884,
-   17.4833
+   17.4875
   ],
   [
    18.337,
-   21.4985
+   21.5126
   ],
   [
    22.2999,
@@ -37,43 +37,39 @@
   ],
   [
    24.5303,
-   25.7748
+   25.774
   ],
   [
-   26.6143,
-   29.3147
+   26.6295,
+   28.1903
   ],
   [
-   30.1746,
-   31.7365
+   28.5106,
+   30.0406
   ],
   [
-   32.0558,
-   33.5859
+   30.3128,
+   31.283
   ],
   [
-   33.858,
-   34.8283
+   32.1264,
+   33.6862
   ],
   [
-   35.6717,
-   37.2311
+   33.9715,
+   36.4326
   ],
   [
-   37.5168,
-   39.9768
+   37.2953,
+   39.2101
   ],
   [
-   40.8405,
-   42.7554
+   39.3972,
+   40.09
   ],
   [
-   42.9424,
-   43.6352
-  ],
-  [
-   44.4943,
-   46.4194
+   40.9491,
+   42.874
   ]
  ],
  "phrases": [
@@ -100,17 +96,17 @@
   {
    "text": "piratas das ilhas Scilly atacavam navios holandeses.",
    "s": 11.051,
-   "e": 13.732
+   "e": 13.734
   },
   {
    "text": "Dizem que a Holanda mandou navios e declarou guerra \u00e0s ilhas.",
    "s": 14.588,
-   "e": 17.483
+   "e": 17.488
   },
   {
    "text": "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.",
    "s": 18.337,
-   "e": 21.498
+   "e": 21.513
   },
   {
    "text": "Os holandeses foram embora.",
@@ -120,47 +116,42 @@
   {
    "text": "E ningu\u00e9m assinou a paz.",
    "s": 24.53,
-   "e": 25.775
-  },
-  {
-   "text": "A guerra ficou esquecida por mais de trezentos anos.",
-   "s": 26.614,
-   "e": 29.315
+   "e": 25.774
   },
   {
    "text": "Em 1985,",
-   "s": 30.175,
-   "e": 31.736
+   "s": 26.63,
+   "e": 28.19
   },
   {
    "text": "um historiador perguntou \u00e0 Holanda:",
-   "s": 32.056,
-   "e": 34.828
+   "s": 28.511,
+   "e": 31.283
   },
   {
    "text": "a guerra ainda vale?",
-   "s": 35.672,
-   "e": 37.231
+   "s": 32.126,
+   "e": 33.686
   },
   {
    "text": "Em 1986, o embaixador holand\u00eas foi \u00e0s ilhas assinar a paz.",
-   "s": 37.517,
-   "e": 39.977
+   "s": 33.971,
+   "e": 36.433
   },
   {
    "text": "335 anos de guerra,",
-   "s": 40.84,
-   "e": 42.755
+   "s": 37.295,
+   "e": 39.21
   },
   {
    "text": "zero tiros.",
-   "s": 42.942,
-   "e": 43.635
+   "s": 39.397,
+   "e": 40.09
   },
   {
    "text": "E voc\u00ea achando que guerra precisa de tiro.",
-   "s": 44.494,
-   "e": 46.419
+   "s": 40.949,
+   "e": 42.874
   }
  ]
 }
