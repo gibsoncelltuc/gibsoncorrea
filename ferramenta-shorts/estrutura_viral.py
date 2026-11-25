@@ -12,10 +12,10 @@ NUM = r'\d|\b(um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove|dez|onze|do
 CTA = r'comente|comentar|inscrev|curte|curtir|proximo video|link na'
 def n_(t): return unicodedata.normalize('NFKD', str(t).lower()).encode('ascii', 'ignore').decode()
 def frases(t): return [f.strip() for f in re.split(r'(?<=[.!?])\s+|:\s+(?=[A-ZÀ-Ú"])', t.strip()) if f.strip()]
-def pal(t): return len(re.findall(r"[\wÀ-ú$%]+(?:[-'][\wÀ-ú]+)*", t))
+def pal(t): return len(re.findall(r"[\wÀ-ú$%]+(?:[-'.,][\wÀ-ú$%]+)*", t))   # '2,4' e '1.500' contam como 1
 def falado(t):   # palavras FALADAS: '1651' vira 'mil seiscentos e cinquenta e um' (6); '335' -> 5; '96' -> 3
     n_ = 0
-    for w in re.findall(r"[\wÀ-ú$%]+(?:[-'][\wÀ-ú]+)*", t):
+    for w in re.findall(r"[\wÀ-ú$%]+(?:[-'.,][\wÀ-ú$%]+)*", t):
         d = re.sub(r'\D', '', w)
         if d and len(d) == len(re.sub(r'[$%]', '', w)): n_ += {1: 1, 2: 3, 3: 5, 4: 6}.get(len(d), 7)
         else: n_ += 1

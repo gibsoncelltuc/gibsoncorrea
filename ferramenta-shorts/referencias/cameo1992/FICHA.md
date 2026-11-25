@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'sobretudo escuro e gravata vermelha', 'FUN': 'casaco de inverno', 'DIR': 'bone e jaqueta', 'JOR': 'camisa social'}
 - Cenario real: saguao luxuoso do Plaza com lustres e piso de marmore, rua de Nova York no inverno, sala de TV
 - Objetos: ['televisao', 'camera de cinema']
-- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios usados no video: interior loja, interior pedra, loc_cidade
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

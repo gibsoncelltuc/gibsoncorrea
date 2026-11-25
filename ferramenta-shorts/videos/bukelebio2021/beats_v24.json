@@ -1,0 +1,420 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 1,
+ "title": "O Ditador Mais Legal do Mundo",
+ "titulo_base": "O Ditador Mais Legal do Mundo",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "fixo": true,
+   "cap": "#1b1b1f",
+   "capBack": true
+  },
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Um presidente escreveu no próprio perfil que era um ditador.",
+   "shot": "two",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "mapa": "EL SALVADOR",
+   "mapa_at": 1,
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
+   "shot": "crowd",
+   "who": [
+    "POV:0:shout",
+    "POV:1:angry"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": true,
+    "expr": "shout"
+   },
+   "sfx": [
+    "gibber@10"
+   ],
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "text": "DITADOR",
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "say": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
+   "shot": "group",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "text": "O DITADOR MAIS LEGAL DO MUNDO",
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Acontece que a notícia se espalhou pelo mundo.",
+   "shot": "reveal",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "mapa": "MUNDO",
+   "mapa_at": 1,
+   "set": "street"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
+   "shot": "two",
+   "who": [
+    "JOR:0:shock",
+    "JOR2:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "BUK:0:smug"
+   ],
+   "interior": "loja"
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
+   "shot": "two",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "text": "REI FILÓSOFO",
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/ballot_box",
+     3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "riscos_ok": true,
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "JOR2:0:suspicious"
+   ],
+   "interior": "loja",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "say": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "exp": 1.12,
+ "fontes": [
+  "https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html",
+  "https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/",
+  "https://www.britannica.com/biography/Nayib-Bukele"
+ ],
+ "ano": 2021,
+ "regiao": "colonial",
+ "cinf": 4.5,
+ "visual": {
+  "local": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",
+  "quando": "setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia",
+  "participantes": [
+   "Nayib Bukele (jaqueta de couro escura, bone virado ou camisa social, barba)",
+   "manifestantes com cartazes",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "POV": "camiseta e cartaz de protesto",
+   "JOR": "camisa social com microfone"
+  },
+  "cenario": "rua do centro de San Salvador com predios baixos coloniais e multidao; escritorio com celular; redacao de jornal",
+  "objetos": [
+   "celular com o perfil",
+   "cartazes de protesto",
+   "urna de votacao"
+  ],
+  "explicacoes": [
+   "Em setembro de 2021 Bukele mudou a bio no Twitter para \"Dictador\" e depois \"El dictador mas cool del mundo mundial\"; em 2024 usou \"Philosopher King\" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nayib_Bukele",
+   "https://en.wikipedia.org/wiki/2021_Salvadoran_protests"
+  ],
+  "locacoes": [
+   "street",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "protesto": "San Salvador protest September 2021",
+   "presidente": "Nayib Bukele 2021"
+  }
+ }
+}

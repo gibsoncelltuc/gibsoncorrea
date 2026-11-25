@@ -2,17 +2,15 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, mapa | encena: escreve (write) @2 (acao + som de efeito) | -
-b1 | crowd | -  | batalha aberta com tiros, tropa | encena: protesto (up) @16 (acao + som de efeito) | -
-b2 | two | -  | interior, placa: DITADOR | encena: escreve (write) @2 (acao + som de efeito) | -
-b3 | group | -  | batalha aberta com tiros, interior, placa: O DITADOR MAIS LEGAL DO MUNDO | encena: x_entrega (reach) @3 (acao + som de efeito) | -
-b4 | reveal | -  | tropa, mapa | encena: chega (point) @5 (acao + som de efeito) | -
-b5 | two | -  | - | encena: x_le (think) @1 (acao + som de efeito); encena: x_fone (lift) @5 (acao + som de efeito); encena: x_discute (point) @12 (acao + som de efeito) | -
-b6 | two | -  | interior | encena: x_le (think) @2 (acao + som de efeito) | -
-b7 | two | -  | interior, placa: REI FILÓSOFO | encena: voto (reach) @5 (acao + som de efeito) | -
-b8 | two | -  | interior | encena: x_entrega (reach) @7 (acao + som de efeito) | -
-b9 | group | -  | - | encena: x_entrega (reach) @11 (acao + som de efeito) | -
-b10 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | interior, placa: DITADOR | - | -
+b1 | two | -  | - | - | -
+b2 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
+b3 | two | -  | interior, placa: DITADOR | - | -
+b4 | group | -  | batalha aberta com tiros, interior, placa: O DITADOR MAIS LEGAL DO MUNDO | - | -
+b5 | reveal | -  | tropa, mapa | - | -
+b6 | two | -  | interior | - | -
+b7 | two | -  | interior, placa: REI FILÓSOFO | - | -
+b8 | two | -  | interior, placa: DITADOR | - | -
 
-Mistura de planos: close 11% | medio 76% | aberto 8% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 2% | medio 85% | aberto 10% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

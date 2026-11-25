@@ -1,0 +1,71 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "DITADOR",
+ "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: trocou para 'o ditador mais legal do mundo', a frase rodou o mundo, foi lida como ironia e depois virou 'rei filosofo'.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um presidente escreveu no próprio perfil que era um ditador.",
+   "escreveu",
+   {
+    "mapa": null
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E ninguém sabia dizer se era piada ou não.",
+   "piada"
+  ],
+  [
+   1,
+   "prova",
+   "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador.",
+   "protestaram",
+   {
+    "encena_antiga": true,
+    "mapa": "EL SALVADOR"
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Ele respondeu escrevendo uma palavra no perfil: ditador.",
+   "escrevendo"
+  ],
+  [
+   3,
+   "escalada",
+   "Dias depois, trocou para: o ditador mais legal do mundo.",
+   "trocou"
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que a frase se espalhou pelo mundo inteiro.",
+   "espalhou"
+  ],
+  [
+   6,
+   "escalada",
+   "Muitos leram como ironia, feita para provocar os críticos.",
+   "ironia"
+  ],
+  [
+   7,
+   "pagamento",
+   "Em 2024, no dia da eleição, o perfil dizia: rei filósofo.",
+   "perfil",
+   {
+    "riscos_ok": true
+   }
+  ],
+  [
+   9,
+   "loop",
+   "Uma biografia que se troca em dez segundos.",
+   "biografia"
+  ]
+ ]
+}

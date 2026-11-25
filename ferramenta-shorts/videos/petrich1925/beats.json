@@ -361,9 +361,10 @@
    "https://en.wikipedia.org/wiki/Incident_at_Petrich"
   ]
  },
- "serie": "Guerras Inusitadas",
+ "serie": "Teste",
  "ep": 26,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e ninguem sabe o que houve com ele. Pagamento: o soldado foi morto, a Grecia invadiu a Bulgaria, a Liga das Nacoes mandou recuar e pagar indenizacao.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "duplicado_de": "cachorro1925"
 }

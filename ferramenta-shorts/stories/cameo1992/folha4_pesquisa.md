@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1992 | Lugar: Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora CBC no Canada | Quando: filmagem em 1992 (inverno de Natal); corte na TV em 2019
 - HEROIS (objeto): kit/tv
 - HEROIS (personagens): TRU, FUN
-- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios: interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,9 +14,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Cameo de Sete Segundos | O Cameo de Sete Segundos / Um Natal Donald Trump Em Esqueceram Mim Kevin Trump 1992 | SEM REFERENCIA
+tema | O Cameo de Sete Segundos | O Cameo de Sete Segundos / Sete Natal Em Esqueceram Mim Kevin 1992 | SEM REFERENCIA
 lugar | Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C | Hotel Plaza Nova York / Hotel Plaza Nova York saguao dourado com lustres set de filmagem emissora CBC no Canada 19 | SEM REFERENCIA
-lugar | Nova York | Nova York 1992 / Nova York landscape | SEM REFERENCIA
 lugar | Canadá | Canadá 1992 / Canadá landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1992 | 1992 fashion clothing / 1992 street photograph | SEM REFERENCIA
 pessoas | Donald Trump (sobretudo escuro e gravata) | Donald Trump sobretudo escuro e gravata / Donald Trump sobretudo escuro e gravata 1992 | SEM REFERENCIA
