@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/finch, kit/bancada | - | -
-b1 | harbor | reveal | 1 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
+b1 | harbor | wide | 1 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
 b2 | harbor | wide | 8 | encena | kit/finch, kit/bancada, kit/navio_fragata | bag | -
 b3 | harbor | wide | 2 | conversar, batalha | kit/finch | paper | -
 b4 | interior pedra | group | 1 | encena | kit/finch, kit/bancada | paper | -

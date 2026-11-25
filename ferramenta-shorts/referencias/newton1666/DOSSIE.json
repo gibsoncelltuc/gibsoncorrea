@@ -8,13 +8,16 @@
   "luz_base": "day",
   "cenarios": [
    "countryside",
-   "interior hospital",
    "interior madeira",
-   "interior pedra",
-   "loc_campo",
-   "street"
+   "loc_campo"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 2",
+    "medieval",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "carro antigo",
@@ -33,32 +36,18 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/barn",
   "buildings/house_small",
   "buildings/house_two",
   "kit/apple",
-  "kit/gosma",
-  "kit/maca",
-  "kit/panela",
-  "kit/room_azul_stone",
-  "kit/room_hospital",
-  "kit/room_rosa_wood",
-  "kit/room_verde_wood",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
-  "mk/Bench",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
-  "mk/CandleStick_Triple",
-  "mk/Crate_Wooden",
-  "mk/Nightstand_Shelf",
-  "mk/Shelf_Arch",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
+  "kit/lua_ceu",
+  "kit/room_europa_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
   "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Vase_4",
-  "mk/Workbench_Drawers",
   "nature/haybale",
+  "nature/scarecrow",
   "nature/tree_oak"
  ],
  "pesquisa_visual": {

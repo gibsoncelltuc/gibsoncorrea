@@ -5,10 +5,18 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 ## Achados automaticos (ferramenta)
 1. b2: "kit/navio_fragata" cobrindo a tela (87% do quadro: so' se ve uma parede/casco)
 2. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b5~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-5. b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-6. b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+3. b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+4. b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+5. b6~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+6. b6~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+7. b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+8. b2: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+9. b5: objeto citado "kit/finch_long" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+10. b9: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+11. b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 14%
+12. b2: objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32%
+13. b5: objeto "kit/finch_long" saiu com 0% da altura da tela, a ficha de cena planejou 8%
+14. b9: objeto "kit/finch" saiu com 4% da altura da tela, a ficha de cena planejou 14%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um cientista misturou as etiquetas de uns passarinhos,": 

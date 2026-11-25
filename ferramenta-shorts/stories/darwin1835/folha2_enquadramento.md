@@ -40,9 +40,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GOU (cientista) na esquerda, expressao smile; DAR (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/finch_thick: FRENTE, centro (objeto principal da cena); tamanho na tela: 10% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.7 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/finch_long: FRENTE, esquerda; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/finch_thick: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/finch_long: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
@@ -53,9 +53,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DAR (cientista) na esquerda, expressao shock; GOU (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: FRENTE, centro (objeto principal da cena); tamanho na tela: 14% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/finch_thick: FRENTE, esquerda; tamanho na tela: 10% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.7 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- OBJETO kit/finch_long: FRENTE, direita; tamanho na tela: 8% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.6 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/finch_thick: FRENTE, esquerda; tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/finch_long: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
@@ -65,7 +65,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: DAR (cientista) no centro, expressao smile; sem multidao; acao: cochichar
-- OBJETO kit/finch_thick: FRENTE, centro (objeto principal da cena); tamanho na tela: 10% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.7 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/finch_thick: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b8: "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."

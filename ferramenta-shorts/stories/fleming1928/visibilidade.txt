@@ -1,3 +1,7 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+VISIBILIDADE: 6 FALHA(S)
+FALHA b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b2: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b2: objeto citado "kit/petri" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b2: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b6: objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32%
