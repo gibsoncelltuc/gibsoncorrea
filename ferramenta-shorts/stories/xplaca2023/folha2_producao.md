@@ -62,7 +62,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, predio
 - RISCOS: nenhum
 
-## Cena b6 - A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab...
+## Cena b6 - A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.
+- Cenario: loc_cidade | luz: noite | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): POV (variante 0, expressao angry); JOR (variante 0, expressao surprised) | multidao: 0 de 
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, madrugada, vizinhos
+- RISCOS: nenhum
+
+## Cena b7 - A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
@@ -72,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): investigacao, placa, prefeitura, semana
 - RISCOS: nenhum
 
-## Cena b7 - A empresa disse que era uma placa temporária para um evento.
+## Cena b8 - A empresa disse que era uma placa temporária para um evento.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -82,8 +92,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, evento, placa
 - RISCOS: nenhum
 
-## Cena b8 - A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido...
-- Cenario: loc_cidade | luz: golden | clima: limpo
+## Cena b9 - A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido...
+- Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): FIS (variante 0, expressao shock); OPE (variante 0, expressao laugh)
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): policia
 - RISCOS: nenhum
 
-## Cena b9 - Moral da história: até trocar de nome precisa de licença da prefeitura...
+## Cena b10 - Moral da história: até trocar de nome precisa de licença da prefeitura...
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): licenca, prefeitura
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -117,18 +127,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/phone | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b0, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_goldengate | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bench | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/finch | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_small | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_oak | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 10% | medio 78% | aberto 10% | detalhe 2%
-- Interacoes: b1 entregar, b2 o outro se aproxima, b3 insiste, b6 vai ate o outro, b7 aproxima-se, b8 avanca e o outro recua
+- Objeto heroi: kit/phone | grandes momentos: b2, b5 | planos abertos: 2 | mistura: close 9% | medio 78% | aberto 9% | detalhe 4%
+- Interacoes: b1 entregar, b2 o outro se aproxima, b3 insiste, b6 discutir, b7 vai ate o outro, b8 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py xplaca2023  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/xplaca2023/moodboard.jpg
 

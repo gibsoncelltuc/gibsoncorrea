@@ -114,6 +114,27 @@
    "cenario": "loc_campo"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/megapack",
+    "nature/lamppost"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
    "camera": "two",
    "personagens": [],
    "multidao": 0,
@@ -121,7 +142,7 @@
     "kit/megapack"
    ],
    "palavras": 14,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.",
    "classe": "explicativa",
    "sujeito": "objeto",
@@ -144,7 +165,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "O empresário que fez o desafio teve que admitir: Musk cumpriu.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -162,7 +183,7 @@
     "kit/megapack"
    ],
    "palavras": 14,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -182,7 +203,7 @@
     "kit/phone"
    ],
    "palavras": 10,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "E tudo começou com uma resposta curta, escrita no celular.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -201,7 +222,7 @@
     "kit/megapack"
    ],
    "palavras": 13,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -217,7 +238,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

@@ -88,7 +88,16 @@
    ],
    "d0": 6.0,
    "d1": 5.0,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "porco"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -98,7 +107,16 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
+   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ilha"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -111,7 +129,7 @@
      2.2,
      0.8,
      "walk",
-     1.1
+     1.49
     ]
    ],
    "props": [
@@ -158,10 +176,6 @@
    "detalhe": false,
    "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "set": "countryside",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
@@ -174,6 +188,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "pegou",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 6.0,
+   "d1": 5.0,
+   "_enq_shot": "two",
    "_auto_vis": 2
   },
   {
@@ -215,7 +244,16 @@
     ]
    ],
    "set": "countryside",
-   "encena": false
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -249,18 +287,17 @@
    "shot_lock": true,
    "impact": false,
    "detalhe": false,
-   "animals": [
-    [
-     "pig",
-     2.2,
-     1.2,
-     "fall",
-     2.01
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_entrega",
+      "na": "ofereceu",
+      "quem": 0,
+      "alvo_quem": 1
+     }
     ]
-   ],
-   "d0": 6.0,
-   "d1": 5.0,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
@@ -283,18 +320,16 @@
    "shot_lock": true,
    "impact": false,
    "detalhe": false,
-   "animals": [
-    [
-     "pig",
-     2.2,
-     1.2,
-     "fall",
-     2.01
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "grita",
+      "na": "gritou",
+      "quem": 0
+     }
     ]
-   ],
-   "d0": 6.0,
-   "d1": 5.0,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "reveal",
@@ -313,7 +348,17 @@
    "text": "TROPAS",
    "titulo": true,
    "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "ameaçaram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -340,7 +385,17 @@
     "thump@40"
    ],
    "say": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "respondeu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -351,7 +406,17 @@
    "interior": "madeira",
    "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
    "riscos_ok": true,
-   "susp_ok": true
+   "susp_ok": true,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "recusou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -364,7 +429,17 @@
    "acao": "comemorar",
    "text": "FESTAS",
    "tat": 8,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "festas",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -376,7 +451,16 @@
    "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
    "riscos_ok": true,
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "árbitro"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -412,10 +496,6 @@
      1.1
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
@@ -427,7 +507,21 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "porco"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "heroi": "kit/batatas",

@@ -10,3 +10,9 @@
 ## 24/11 15:50 autocorrecao de visibilidade
 - b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 02:11 autocorrecao de visibilidade
+- b9: objeto "kit/scroll" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 02:12 autocorrecao de visibilidade
+- b9: objeto "kit/scroll" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

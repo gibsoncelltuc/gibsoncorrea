@@ -6,14 +6,14 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | medieval | track | 2 | encena, andando | kit/bathtub | - | -
 b1 | medieval | reveal | 10 | parados (so fala e pisca) | kit/bathtub | - | -
-b2 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | kit/crown | - | -
+b2 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | kit/coroa_louros | - | -
 b3 | interior pedra | group | 2 | discutir, INTERAGEM: o outro se aproxima | - | - | -
-b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/crown | paper | -
+b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/coroa_louros | paper | -
 b5 | interior pedra | two | 1 | conversar, alguem chega andando, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
-b8 | medieval | orbit | 2 | reagir | kit/coroa_louros, kit/crown | - | -
-b9 | medieval | crowd | 16 | comemorar, batalha | kit/crown | - | -
+b8 | medieval | orbit | 2 | reagir | kit/coroa_louros | - | -
+b9 | medieval | crowd | 16 | comemorar, batalha | kit/coroa_louros | - | -
 b10 | medieval | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
 b11 | medieval | close | 1 | conversar | - | - | -
 

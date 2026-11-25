@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/crown no centro, manobra "parado"
+- OBJETO: kit/coroa_louros no centro, manobra "parado"
 - PASSOS NA TELA: -
 
 ## b8: "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -48,14 +48,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | 55 DIAS | OK |
 
-## Cena b5 - 28.9s a 33.7s - 14 palavras - plano two
+## Cena b5 - 28.9s a 33.7s - 14 palavras - plano group
+> "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bateria" (29.3s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | MAPA | Jamestown | OK |
+
+## Cena b6 - 34.1s a 38.9s - 14 palavras - plano two
 > "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 34.1s a 37.8s - 11 palavras - plano two
+## Cena b7 - 39.3s a 43.0s - 11 palavras - plano two
 > "O empresário que fez o desafio teve que admitir: Musk cumpriu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -63,23 +74,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b7 - 38.1s a 43.0s - 14 palavras - plano two
+## Cena b8 - 43.3s a 48.1s - 14 palavras - plano two
 > "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 43.3s a 46.7s - 10 palavras - plano two
+## Cena b9 - 48.5s a 51.9s - 10 palavras - plano two
 > "E tudo começou com uma resposta curta, escrita no celular."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | celular (46.7s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | celular (51.9s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 47.0s a 51.5s - 13 palavras - plano group
+## Cena b10 - 52.2s a 56.7s - 13 palavras - plano group
 > "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -87,7 +98,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 51.9s a 56.3s - 13 palavras - plano close
+## Cena b11 - 57.0s a 61.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

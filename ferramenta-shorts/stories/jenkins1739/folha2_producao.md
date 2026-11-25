@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JEN (variante 0, expressao nervous); MAR (variante 0, expressao neutral) | multidao: 8 de MAR
+- Personagens principais (2): JEN (variante 0, expressao nervous); MAR (variante 0, expressao neutral) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, perto

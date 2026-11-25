@@ -17,6 +17,7 @@ Tipo | Item | Consultas | Referencias achadas (print)
 tema | Cem Dias ou de Graça | Cem Dias ou de Graça / Um Twitter Em Elon Musk Austrália Sul Os 2017 | SEM REFERENCIA
 lugar | Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao l | Hornsdale Power Reserve perto de Jamestown Australia do Sul / Hornsdale Power Reserve perto de Jamestown Australia do Sul campo aberto ao lado de um par | SEM REFERENCIA
 lugar | Austrália | Austrália 2017 / Austrália landscape | SEM REFERENCIA
+lugar | Jamestown | Jamestown 2017 / Jamestown landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2017 | 2017 fashion clothing / 2017 street photograph | SEM REFERENCIA
 pessoas | Elon Musk (camiseta e jaqueta escura) | Elon Musk camiseta e jaqueta escura / Elon Musk camiseta e jaqueta escura 2017 | SEM REFERENCIA
 pessoas | Mike Cannon-Brookes, empresario australiano (camiseta e bone) | Mike Cannon-Brookes empresario australiano camiseta e bone / Mike Cannon-Brookes empresario australiano camiseta e bone 2017 | SEM REFERENCIA

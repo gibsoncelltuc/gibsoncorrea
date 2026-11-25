@@ -11,21 +11,21 @@
    ],
    "achados": [
     {
-     "titulo": "Waggle dance photo.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Waggle_dance_photo.png/500px-Waggle_dance_photo.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWaggle_dance_photo.png",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/abelhas1945/prints/as_abelhas_que_dan_am_um_mapa_b12735.jpg",
-     "consulta": "waggle dance honey bee"
-    },
-    {
      "titulo": "Honey Bee Happy Dance (7075103325).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Honey_Bee_Happy_Dance_%287075103325%29.jpg/500px-Honey_Bee_Happy_Dance_%287075103325%29.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AHoney_Bee_Happy_Dance_%287075103325%29.jpg",
      "descricao": "DescriptionHoney \\u003Cspan class=\\",
      "ordem": 1,
      "print": "referencias/abelhas1945/prints/as_abelhas_que_dan_am_um_mapa_61adf2.jpg",
+     "consulta": "bees dance map"
+    },
+    {
+     "titulo": "The Bee Dance - Die Bienentanz-Skulptur, Hohen Neuendorf bei Berlin. (4926454752).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Bee_Dance_-_Die_Bienentanz-Skulptur%2C_Hohen_Neuendorf_bei_Berlin._%284926454752%29.jpg/500px-The_Bee_Dance_-_Die_Bienentanz-Skulptur%2C_Hohen_Neuendorf_bei_Berlin._%284926454752%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Bee_Dance_-_Die_Bienentanz-Skulptur%2C_Hohen_Neuendorf_bei_Berlin._%284926454752%29.jpg",
+     "descricao": "DescriptionThe \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/as_abelhas_que_dan_am_um_mapa_bb050c.jpg",
      "consulta": "bees dance map"
     },
     {
@@ -49,31 +49,31 @@
    ],
    "achados": [
     {
-     "titulo": "Aerial image of the Wolfgangsee (view from the southeast).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg/500px-Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AAerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg",
-     "descricao": "Vormauerstein English Aerial image of the \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/abelhas1945/prints/brunnwinkl_casa_de_verao_a_beira_do_lago_1dc362.jpg",
-     "consulta": "Wolfgangsee lake Austria"
-    },
-    {
      "titulo": "Wolfgangsee-Landscape.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Wolfgangsee-Landscape.jpg/500px-Wolfgangsee-Landscape.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AWolfgangsee-Landscape.jpg",
      "descricao": "0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English \\u003Cspan class=\\",
-     "ordem": 2,
+     "ordem": 1,
      "print": "referencias/abelhas1945/prints/brunnwinkl_casa_de_verao_a_beira_do_lago_174659.jpg",
-     "consulta": "Wolfgangsee lake Austria"
+     "consulta": "Wolfgangsee Austria"
     },
     {
-     "titulo": "Wolfgangsee 6.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wolfgangsee_6.jpg/500px-Wolfgangsee_6.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWolfgangsee_6.jpg",
+     "titulo": "Aerial image of the Wolfgangsee (view from the southeast).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg/500px-Aerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAerial_image_of_the_Wolfgangsee_%28view_from_the_southeast%29.jpg",
+     "descricao": "Vormauerstein English Aerial image of the \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/brunnwinkl_casa_de_verao_a_beira_do_lago_1dc362.jpg",
+     "consulta": "Wolfgangsee Austria"
+    },
+    {
+     "titulo": "Wolfgangsee 7.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Wolfgangsee_7.jpg/500px-Wolfgangsee_7.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWolfgangsee_7.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/abelhas1945/prints/brunnwinkl_casa_de_verao_a_beira_do_lago_bb5146.jpg",
-     "consulta": "Wolfgangsee lake Austria"
+     "ordem": 3,
+     "print": "referencias/abelhas1945/prints/brunnwinkl_casa_de_verao_a_beira_do_lago_fad643.jpg",
+     "consulta": "Wolfgangsee Austria"
     }
    ]
   },
@@ -95,22 +95,22 @@
      "consulta": "Áustria 1945"
     },
     {
-     "titulo": "Vista de Werfen, Austria, 2019-05-17, DD 150.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Vista_de_Werfen%2C_Austria%2C_2019-05-17%2C_DD_150.jpg/500px-Vista_de_Werfen%2C_Austria%2C_2019-05-17%2C_DD_150.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AVista_de_Werfen%2C_Austria%2C_2019-05-17%2C_DD_150.jpg",
-     "descricao": "original. https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English View of Werfen, \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/abelhas1945/prints/_ustria_6f4c93.jpg",
-     "consulta": "Áustria landscape"
+     "titulo": "Consolidated-B-24-Liberators-15AF-460BG-leaving-the-smoldering-railyards-at-Gmund-Austria-23rd-Mar-1945-02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Consolidated-B-24-Liberators-15AF-460BG-leaving-the-smoldering-railyards-at-Gmund-Austria-23rd-Mar-1945-02.jpg/500px-Consolidated-B-24-Liberators-15AF-460BG-leaving-the-smoldering-railyards-at-Gmund-Austria-23rd-Mar-1945-02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AConsolidated-B-24-Liberators-15AF-460BG-leaving-the-smoldering-railyards-at-Gmund-Austria-23rd-Mar-1945-02.jpg",
+     "descricao": "Liberators 15AF 460BG leaving the smoldering railyards at Gmund \\u003Cspan class=\\",
+     "ordem": 14,
+     "print": "referencias/abelhas1945/prints/_ustria_47d225.jpg",
+     "consulta": "Áustria 1945"
     },
     {
-     "titulo": "Mallnitz Stappitz Ankogel-Panorama 01.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Mallnitz_Stappitz_Ankogel-Panorama_01.jpg/500px-Mallnitz_Stappitz_Ankogel-Panorama_01.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMallnitz_Stappitz_Ankogel-Panorama_01.jpg",
-     "descricao": "4285 1473 314 149 13236 4468 Ebeneck English Mallnitz Stappitz Ankogel \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/abelhas1945/prints/_ustria_485eaa.jpg",
-     "consulta": "Áustria landscape"
+     "titulo": "Austria 20 S 1945 - 13.12.45-24.12.47.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Austria_20_S_1945_-_13.12.45-24.12.47.jpg/500px-Austria_20_S_1945_-_13.12.45-24.12.47.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAustria_20_S_1945_-_13.12.45-24.12.47.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 15,
+     "print": "referencias/abelhas1945/prints/_ustria_d1b720.jpg",
+     "consulta": "Áustria 1945"
     }
    ]
   },
@@ -132,21 +132,21 @@
      "consulta": "1945 fashion clothing"
     },
     {
+     "titulo": "London Fashion Designers- the work of Members of the Incorporated Society of London Fashion Designers, London, England, UK, 1945 D23778.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/London_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23778.jpg/500px-London_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23778.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALondon_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23778.jpg",
+     "descricao": "Associated themes British Home Front 1939-\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/abelhas1945/prints/roupas_e_ruas_de_1945_7fab95.jpg",
+     "consulta": "1945 fashion clothing"
+    },
+    {
      "titulo": "London Fashion Designers- the work of Members of the Incorporated Society of London Fashion Designers, London, England, UK, 1945 D23781.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/London_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23781.jpg/500px-London_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23781.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ALondon_Fashion_Designers-_the_work_of_Members_of_the_Incorporated_Society_of_London_Fashion_Designers%2C_London%2C_England%2C_UK%2C_1945_D23781.jpg",
      "descricao": "Associated themes British Home Front 1939-\\u003Cspan class=\\",
      "ordem": 4,
      "print": "referencias/abelhas1945/prints/roupas_e_ruas_de_1945_228283.jpg",
-     "consulta": "1945 fashion clothing"
-    },
-    {
-     "titulo": "Wartime Fashions- Utility Clothing, 1942 D10727.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Wartime_Fashions-_Utility_Clothing%2C_1942_D10727.jpg/500px-Wartime_Fashions-_Utility_Clothing%2C_1942_D10727.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AWartime_Fashions-_Utility_Clothing%2C_1942_D10727.jpg",
-     "descricao": "Ministry \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/abelhas1945/prints/roupas_e_ruas_de_1945_36c12e.jpg",
      "consulta": "1945 fashion clothing"
     }
    ]
@@ -178,12 +178,12 @@
      "consulta": "Karl Frisch"
     },
     {
-     "titulo": "St. Gilgen, Karl von Frisch.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/St._Gilgen%2C_Karl_von_Frisch.jpg/500px-St._Gilgen%2C_Karl_von_Frisch.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASt._Gilgen%2C_Karl_von_Frisch.jpg",
-     "descricao": "DescriptionSt. Gilgen, \\u003Cspan class=\\",
+     "titulo": "Wien Josefstädter Str 17 Tafel Karl von Frisch.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Wien_Josefst%C3%A4dter_Str_17_Tafel_Karl_von_Frisch.jpg/500px-Wien_Josefst%C3%A4dter_Str_17_Tafel_Karl_von_Frisch.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWien_Josefst%C3%A4dter_Str_17_Tafel_Karl_von_Frisch.jpg",
+     "descricao": "Josefstädter Str 17 Tafel \\u003Cspan class=\\",
      "ordem": 5,
-     "print": "referencias/abelhas1945/prints/karl_von_frisch_zoologo_austriaco_de_ocu_cd7c42.jpg",
+     "print": "referencias/abelhas1945/prints/karl_von_frisch_zoologo_austriaco_de_ocu_b27759.jpg",
      "consulta": "Karl Frisch"
     }
    ]
@@ -207,22 +207,22 @@
      "consulta": "assistentes 1945"
     },
     {
-     "titulo": "Katholiek leven, SFA001001924 01.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Katholiek_leven%2C_SFA001001924_01.jpg/500px-Katholiek_leven%2C_SFA001001924_01.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKatholiek_leven%2C_SFA001001924_01.jpg",
-     "descricao": "Nederlands: Omschrijving: Katholiek leven. Religieuze koorboeken. Eén van de \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/abelhas1945/prints/assistentes_49c221.jpg",
-     "consulta": "assistentes 1945"
+     "titulo": "Agriculture Research Service (ARS) (8412949798).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Agriculture_Research_Service_%28ARS%29_%288412949798%29.jpg/500px-Agriculture_Research_Service_%28ARS%29_%288412949798%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAgriculture_Research_Service_%28ARS%29_%288412949798%29.jpg",
+     "descricao": "February 2026 English U.S. Department of Agriculture (USDA) Agricultural \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/abelhas1945/prints/assistentes_edd1ed.jpg",
+     "consulta": "beekeeper research"
     },
     {
-     "titulo": "Katholiek leven, SFA001001925 01.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Katholiek_leven%2C_SFA001001925_01.jpg/500px-Katholiek_leven%2C_SFA001001925_01.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKatholiek_leven%2C_SFA001001925_01.jpg",
-     "descricao": "Nederlands: Omschrijving: Katholiek leven. Religieuze koorboeken. Eén van de \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/abelhas1945/prints/assistentes_4abd07.jpg",
-     "consulta": "assistentes 1945"
+     "titulo": "Beekeeper77-300.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Beekeeper77-300.jpg/500px-Beekeeper77-300.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeekeeper77-300.jpg",
+     "descricao": "with \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/assistentes_23ecf6.jpg",
+     "consulta": "beekeeper research"
     }
    ]
   },
@@ -235,6 +235,24 @@
     "colegas cientistas desconfiados 1945"
    ],
    "achados": [
+    {
+     "titulo": "Colleagues at work.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Colleagues_at_work.jpg/500px-Colleagues_at_work.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AColleagues_at_work.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/abelhas1945/prints/colegas_cientistas_desconfiados_2b7535.jpg",
+     "consulta": "colleagues scientists"
+    },
+    {
+     "titulo": "Scientists-who-saved-lives.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Scientists-who-saved-lives.png/500px-Scientists-who-saved-lives.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AScientists-who-saved-lives.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/colegas_cientistas_desconfiados_e90dcf.jpg",
+     "consulta": "colleagues scientists"
+    },
     {
      "titulo": "Julius Taylor in lab with colleagues.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Julius_Taylor_in_lab_with_colleagues.jpg/500px-Julius_Taylor_in_lab_with_colleagues.jpg",
@@ -271,6 +289,15 @@
      "ordem": 2,
      "print": "referencias/abelhas1945/prints/colmeia_de_vidro_36349f.jpg",
      "consulta": "beehive glass"
+    },
+    {
+     "titulo": "Beehive vase, 1835-1840, blown glass - Sandwich Glass Museum - Sandwich, MA - DSC07987.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Beehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg/500px-Beehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg",
+     "descricao": "publish it under the following license: English Exhibit in the Sandwich \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/abelhas1945/prints/colmeia_de_vidro_4fdae5.jpg",
+     "consulta": "beehive glass"
     }
    ]
   },
@@ -283,31 +310,22 @@
    ],
    "achados": [
     {
-     "titulo": "Sunflower and a bee.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sunflower_and_a_bee.jpg/500px-Sunflower_and_a_bee.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASunflower_and_a_bee.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English sunflower and a \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/abelhas1945/prints/abelhas_marcadas_com_pontinhos_de_tinta_296073.jpg",
+     "titulo": "Beekeeper keeping bees.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Beekeeper_keeping_bees.jpg/500px-Beekeeper_keeping_bees.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeekeeper_keeping_bees.jpg",
+     "descricao": "DescriptionBeekeeper keeping \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/abelhas1945/prints/abelhas_marcadas_com_pontinhos_de_tinta_b42868.jpg",
      "consulta": "bees"
     },
     {
-     "titulo": "Bee mid air.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bee_mid_air.jpg/500px-Bee_mid_air.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABee_mid_air.jpg",
-     "descricao": "was captioned as follows: English: A \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/abelhas1945/prints/abelhas_marcadas_com_pontinhos_de_tinta_ada192.jpg",
-     "consulta": "bees"
-    },
-    {
-     "titulo": "Apis mellifera flying.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Apis_mellifera_flying.jpg/500px-Apis_mellifera_flying.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AApis_mellifera_flying.jpg",
-     "descricao": "Pollen basket Esperanto: Polena korbeto English 12 mm long European Honey \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/abelhas1945/prints/abelhas_marcadas_com_pontinhos_de_tinta_464e5d.jpg",
-     "consulta": "bees"
+     "titulo": "150127 acre - bees PikiWiki Israel.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/150127_acre_-_bees_PikiWiki_Israel.jpg/500px-150127_acre_-_bees_PikiWiki_Israel.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A150127_acre_-_bees_PikiWiki_Israel.jpg",
+     "descricao": "Description150127 acre - \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/abelhas1945/prints/abelhas_marcadas_com_pontinhos_de_tinta_9acea2.jpg",
+     "consulta": "bees 1945"
     }
    ]
   },
@@ -321,21 +339,30 @@
    ],
    "achados": [
     {
-     "titulo": "American bee journal (1881) (17924887118).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/American_bee_journal_%281881%29_%2817924887118%29.jpg/500px-American_bee_journal_%281881%29_%2817924887118%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AAmerican_bee_journal_%281881%29_%2817924887118%29.jpg",
-     "descricao": "americanbeejourn1781hami (find matches) Year: 1861 (1860s) Authors: Subjects: \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/abelhas1945/prints/pratinhos_de_agua_com_acucar_f55cb0.jpg",
+     "titulo": "Melipona quadrifasciata drinking.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Melipona_quadrifasciata_drinking.jpg/500px-Melipona_quadrifasciata_drinking.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMelipona_quadrifasciata_drinking.jpg",
+     "descricao": "DescriptionMelipona quadrifasciata \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/pratinhos_de_agua_com_acucar_2ac89c.jpg",
      "consulta": "bees drinking sugar"
     },
     {
-     "titulo": "Humanitarian aid OCPA-2005-10-28-090517a.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Humanitarian_aid_OCPA-2005-10-28-090517a.jpg/500px-Humanitarian_aid_OCPA-2005-10-28-090517a.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AHumanitarian_aid_OCPA-2005-10-28-090517a.jpg",
-     "descricao": "nước trên chuyến bay từ Muzaffarabad đến Islamabad Swedish Vatten applies \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/abelhas1945/prints/pratinhos_de_agua_com_acucar_b4c399.jpg",
+     "titulo": "011 Jaguar drinking in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/500px-011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Jaguar \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/pratinhos_de_agua_com_acucar_e4f833.jpg",
+     "consulta": "bees drinking"
+    },
+    {
+     "titulo": "182 Angolan giraffe drinking in Etosha National Park Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/182_Angolan_giraffe_drinking_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-182_Angolan_giraffe_drinking_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A182_Angolan_giraffe_drinking_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Angolan giraffe \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/abelhas1945/prints/pratinhos_de_agua_com_acucar_5b7f3b.jpg",
      "consulta": "bees drinking"
     }
    ]
@@ -350,21 +377,30 @@
    ],
    "achados": [
     {
-     "titulo": "Coast watch (1979) (20039265533).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Coast_watch_%281979%29_%2820039265533%29.jpg/500px-Coast_watch_%281979%29_%2820039265533%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACoast_watch_%281979%29_%2820039265533%29.jpg",
-     "descricao": "online version of this book. Text Appearing Before Image: NATURALIST\\u0026#039;S \\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/abelhas1945/prints/caderno_de_anotacoes_25318e.jpg",
-     "consulta": "scientist field notebook"
+     "titulo": "Notebook writing.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Notebook_writing.jpg/500px-Notebook_writing.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANotebook_writing.jpg",
+     "descricao": "22 April 2024 English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/abelhas1945/prints/caderno_de_anotacoes_1626df.jpg",
+     "consulta": "notebook"
     },
     {
-     "titulo": "Spiralbinderücken -- 2022 -- 9739 (bw).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Spiralbinder%C3%BCcken_--_2022_--_9739_%28bw%29.jpg/500px-Spiralbinder%C3%BCcken_--_2022_--_9739_%28bw%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASpiralbinder%C3%BCcken_--_2022_--_9739_%28bw%29.jpg",
-     "descricao": "Attribution-Share Alike 4.0 truetrue English Close-up of a spiral binding comb of a \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/abelhas1945/prints/caderno_de_anotacoes_b19525.jpg",
+     "titulo": "TAHIR SHAH NOTEBOOKS.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TAHIR_SHAH_NOTEBOOKS.jpg/500px-TAHIR_SHAH_NOTEBOOKS.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATAHIR_SHAH_NOTEBOOKS.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English TAHIR SHAH \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/abelhas1945/prints/caderno_de_anotacoes_8b2c76.jpg",
+     "consulta": "notebook"
+    },
+    {
+     "titulo": "Notebook (NIH BioArt 394).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Notebook_%28NIH_BioArt_394%29.png/500px-Notebook_%28NIH_BioArt_394%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANotebook_%28NIH_BioArt_394%29.png",
+     "descricao": "English Generic \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/abelhas1945/prints/caderno_de_anotacoes_bd2aa7.jpg",
      "consulta": "notebook"
     }
    ]
@@ -387,12 +423,21 @@
      "consulta": "beehive glass"
     },
     {
-     "titulo": "Beehive sugar bowl, 1829-1835, blown glass - Sandwich Glass Museum - Sandwich, MA - DSC08000.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Beehive_sugar_bowl%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC08000.jpg/500px-Beehive_sugar_bowl%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC08000.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeehive_sugar_bowl%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC08000.jpg",
+     "titulo": "Beehive vase, 1835-1840, blown glass - Sandwich Glass Museum - Sandwich, MA - DSC07987.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Beehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg/500px-Beehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeehive_vase%2C_1835-1840%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07987.jpg",
      "descricao": "publish it under the following license: English Exhibit in the Sandwich \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/abelhas1945/prints/beehive_350926.jpg",
+     "ordem": 4,
+     "print": "referencias/abelhas1945/prints/beehive_4fdae5.jpg",
+     "consulta": "beehive glass"
+    },
+    {
+     "titulo": "Beehive lamp, 1829-1835, blown glass - Sandwich Glass Museum - Sandwich, MA - DSC07993.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Beehive_lamp%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07993.jpg/500px-Beehive_lamp%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07993.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeehive_lamp%2C_1829-1835%2C_blown_glass_-_Sandwich_Glass_Museum_-_Sandwich%2C_MA_-_DSC07993.jpg",
+     "descricao": "publish it under the following license: English Exhibit in the Sandwich \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/abelhas1945/prints/beehive_6affce.jpg",
      "consulta": "beehive glass"
     }
    ]
@@ -430,6 +475,117 @@
      "ordem": 4,
      "print": "referencias/abelhas1945/prints/bee_464e5d.jpg",
      "consulta": "bee"
+    }
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
+   "consultas": [
+    "comida perto voltinhas comida longe rebolando",
+    "bee diagram"
+   ],
+   "achados": [
+    {
+     "titulo": "Two phase commit seq diagram success 01.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Two_phase_commit_seq_diagram_success_01.png/500px-Two_phase_commit_seq_diagram_success_01.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_phase_commit_seq_diagram_success_01.png",
+     "descricao": "work, hereby publish it under the following license: English The sequence \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/abelhas1945/prints/comida_perto_voltinhas_comida_longe_um_o_4a6c66.jpg",
+     "consulta": "bee diagram"
+    },
+    {
+     "titulo": "Two phase commit seq diagram - a participant aborted.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Two_phase_commit_seq_diagram_-_a_participant_aborted.png/500px-Two_phase_commit_seq_diagram_-_a_participant_aborted.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_phase_commit_seq_diagram_-_a_participant_aborted.png",
+     "descricao": "work, hereby publish it under the following license: English Sequence \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/abelhas1945/prints/comida_perto_voltinhas_comida_longe_um_o_601328.jpg",
+     "consulta": "bee diagram"
+    },
+    {
+     "titulo": "Two phase commit seq diagram - coordinator crash recovery.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Two_phase_commit_seq_diagram_-_coordinator_crash_recovery.png/500px-Two_phase_commit_seq_diagram_-_coordinator_crash_recovery.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_phase_commit_seq_diagram_-_coordinator_crash_recovery.png",
+     "descricao": "work, hereby publish it under the following license: English Sequence \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/abelhas1945/prints/comida_perto_voltinhas_comida_longe_um_o_c44fe4.jpg",
+     "consulta": "bee diagram"
+    }
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada",
+   "consultas": [
+    "incrivel angulo rebolada mostrava direcao comparada",
+    "bee diagram"
+   ],
+   "achados": [
+    {
+     "titulo": "Bee Geometry Diagram (OAW).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bee_Geometry_Diagram_%28OAW%29.png/500px-Bee_Geometry_Diagram_%28OAW%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABee_Geometry_Diagram_%28OAW%29.png",
+     "descricao": "0/PDMCreative Commons Public Domain Mark 1.0falsefalse English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/abelhas1945/prints/e_o_mais_incr_vel_o_ngulo_da_rebolada_mo_658b1d.jpg",
+     "consulta": "bee diagram"
+    },
+    {
+     "titulo": "Two phase commit seq diagram - a participant aborted.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Two_phase_commit_seq_diagram_-_a_participant_aborted.png/500px-Two_phase_commit_seq_diagram_-_a_participant_aborted.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_phase_commit_seq_diagram_-_a_participant_aborted.png",
+     "descricao": "work, hereby publish it under the following license: English Sequence \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/abelhas1945/prints/e_o_mais_incr_vel_o_ngulo_da_rebolada_mo_601328.jpg",
+     "consulta": "bee diagram"
+    },
+    {
+     "titulo": "Two phase commit seq diagram - coordinator crash recovery.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Two_phase_commit_seq_diagram_-_coordinator_crash_recovery.png/500px-Two_phase_commit_seq_diagram_-_coordinator_crash_recovery.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_phase_commit_seq_diagram_-_coordinator_crash_recovery.png",
+     "descricao": "work, hereby publish it under the following license: English Sequence \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/abelhas1945/prints/e_o_mais_incr_vel_o_ngulo_da_rebolada_mo_c44fe4.jpg",
+     "consulta": "bee diagram"
+    }
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
+   "consultas": [
+    "quanto rebolava longe comida danca",
+    "bee diagram"
+   ],
+   "achados": [
+    {
+     "titulo": "Fire dance Indonesia.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fire_dance_Indonesia.jpg/500px-Fire_dance_Indonesia.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFire_dance_Indonesia.jpg",
+     "descricao": "4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Fire \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/abelhas1945/prints/quanto_mais_rebolava_mais_longe_a_comida_f23cdd.jpg",
+     "consulta": "dance"
+    },
+    {
+     "titulo": "'Peacock Dance' Body Art -1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%27Peacock_Dance%27_Body_Art_-1.jpg/500px-%27Peacock_Dance%27_Body_Art_-1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A%27Peacock_Dance%27_Body_Art_-1.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Portrait of a Peacock \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/abelhas1945/prints/quanto_mais_rebolava_mais_longe_a_comida_607096.jpg",
+     "consulta": "dance"
+    },
+    {
+     "titulo": "A Sattriya dancer performing the dance form in Assam, India.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/A_Sattriya_dancer_performing_the_dance_form_in_Assam%2C_India.jpg/500px-A_Sattriya_dancer_performing_the_dance_form_in_Assam%2C_India.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_Sattriya_dancer_performing_the_dance_form_in_Assam%2C_India.jpg",
+     "descricao": "DescriptionA Sattriya \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/abelhas1945/prints/quanto_mais_rebolava_mais_longe_a_comida_9a5f39.jpg",
+     "consulta": "dance"
     }
    ]
   }

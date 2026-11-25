@@ -35,7 +35,12 @@
     "loc_cidade"
    ],
    [
-    "cena 9",
+    "cena 7",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 10",
     "street",
     "loc_cidade"
    ]
@@ -64,6 +69,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/apartment",
+  "buildings/house_small",
   "buildings/house_two",
   "kit/finch",
   "kit/lupa",
@@ -84,7 +90,9 @@
   "mk/Vase_2",
   "mk/Workbench_Drawers",
   "nature/bench",
-  "nature/lamppost"
+  "nature/lamppost",
+  "nature/picket_fence",
+  "nature/tree_oak"
  ],
  "pesquisa_visual": {
   "local": "Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco com a placa na fachada",

@@ -52,7 +52,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bateria, cinquenta, prazo
 - RISCOS: nenhum
 
-## Cena b5 - A imprensa chamou de a maior bateria do mundo, com cem megawatts de po...
+## Cena b5 - A bateria ficou perto da cidade de Jamestown, no interior da Austrália...
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): MUS (variante 0, expressao smile) | multidao: 0 de 
+- Animacao: conversar
+- Objetos/modelos: kit/megapack, buildings/apartment, buildings/house_two, nature/lamppost
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, bateria, cidade, interior, jamestown
+- RISCOS: nenhum
+
+## Cena b6 - A imprensa chamou de a maior bateria do mundo, com cem megawatts de po...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -62,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): imprensa, potencia
 - RISCOS: nenhum
 
-## Cena b6 - O empresário que fez o desafio teve que admitir: Musk cumpriu.
+## Cena b7 - O empresário que fez o desafio teve que admitir: Musk cumpriu.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -72,7 +82,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desafio, empresario
 - RISCOS: nenhum
 
-## Cena b7 - Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d...
+## Cena b8 - Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco d...
 - Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, conversa, obra, twitter
 - RISCOS: nenhum
 
-## Cena b8 - E tudo começou com uma resposta curta, escrita no celular.
+## Cena b9 - E tudo começou com uma resposta curta, escrita no celular.
 - Cenario: interior madeira | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): celular
 - RISCOS: nenhum
 
-## Cena b9 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
+## Cena b10 - Moral da história: antes de apostar cinquenta milhões num prazo, leia ...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -102,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apostar, contrato
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -117,14 +127,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/megapack | b0, b1, b2, b3, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/megapack | b0, b1, b2, b3, b4, b5, b6, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 12% | medio 62% | aberto 21% | detalhe 4%
-- Interacoes: b3 aproxima-se, b6 avanca e o outro recua, b8 susto, b9 o outro se aproxima
+- Objeto heroi: kit/megapack | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 11% | medio 65% | aberto 19% | detalhe 4%
+- Interacoes: b3 aproxima-se, b7 avanca e o outro recua, b9 susto, b10 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bateria2017  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bateria2017/moodboard.jpg
 

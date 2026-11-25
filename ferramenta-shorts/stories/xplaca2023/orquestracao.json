@@ -23,7 +23,12 @@
    "loc_cidade"
   ],
   [
-   "cena 9",
+   "cena 7",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
    "street",
    "loc_cidade"
   ]
@@ -163,13 +168,34 @@
   {
    "camera": "two",
    "personagens": [
+    "POV",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 13,
+   "cena": "b6",
+   "frase": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
     "FIS",
     "MUS"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 20,
-   "cena": "b6",
+   "cena": "b7",
    "frase": "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -186,7 +212,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "A empresa disse que era uma placa temporária para um evento.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -203,7 +229,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 17,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -221,7 +247,7 @@
     "kit/phone"
    ],
    "palavras": 12,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -237,7 +263,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b10",
+   "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

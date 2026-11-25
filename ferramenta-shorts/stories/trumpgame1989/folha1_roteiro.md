@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 141 palavras (~49 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 165 palavras (~57 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinheiro.
@@ -38,7 +38,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.5 s)
+## Cena b4  (~4.5 s)
+- Narracao: O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~5.5 s)
 - Narracao: Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -47,7 +56,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b5  (~4.1 s)
+## Cena b6  (~4.1 s)
 - Narracao: A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
@@ -56,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: 800 MIL
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.1 s)
+## Cena b7  (~4.1 s)
 - Narracao: Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
@@ -65,7 +74,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.2 s)
+## Cena b8  (~3.8 s)
+- Narracao: Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~6.2 s)
 - Narracao: E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
@@ -74,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: VOLTOU
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~2.8 s)
+## Cena b10  (~2.8 s)
 - Narracao: Um jogo sobre ficar bilionário, que virou curiosidade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

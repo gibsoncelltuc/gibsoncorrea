@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 335 ANOS | - | -
 b1 | group | -  | tropa, mapa | - | -
 b2 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b3 | group | -  | - | dinheiro (stars + som de sino); encena: fala (point) @2 (acao + som de efeito) | -
+b3 | group | -  | tropa | dinheiro (stars + som de sino); encena: fala (point) @2 (acao + som de efeito) | -
 b4 | orbit | -  | batalha aberta com tiros, tropa, placa: GUERRA | encena: fala (point) @8 (acao + som de efeito) | -
 b5 | group | -  | tropa, objeto na mao | - | -
 b6 | two | -  | tropa | - | -

@@ -327,7 +327,7 @@
    "interacao": "cochichar",
    "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
    "explica": {
-    "objeto": "kit/crown",
+    "objeto": "kit/coroa_louros",
     "vfx": [
      {
       "k": "onda",

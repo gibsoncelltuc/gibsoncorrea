@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Gerado em 25/11 01:53 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 02:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,14 +8,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | medieval | track | ARQ, POV | - | bathtub | - | Um homem pulou da banheira e saiu correndo pela rua, gritando uma pala
 b1 | transicao | medieval | reveal | POV, POV | 8 | bathtub | - | Foi em Siracusa, na Sicília, há mais de dois mil anos.
-b2 | simples | interior pedra | two | REI, OUR | - | crown | - | O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ou
+b2 | simples | interior pedra | two | REI, OUR | - | coroa_louros | - | O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ou
 b3 | simples | interior pedra | group | REI, OUR | - | - | - | Será que trocou parte do ouro por prata?
-b4 | simples | interior pedra | two | REI, ARQ | - | crown | - | O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
+b4 | simples | interior pedra | two | REI, ARQ | - | coroa_louros | - | O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
 b5 | chave | interior pedra | two | ARQ | - | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água
 b6 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/bathtub (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entr | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q
-b7 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/crown (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entrad | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e
-b8 | simples | medieval | orbit | ARQ, OUR | - | coroa_louros, crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
-b9 | chave | medieval | crowd | ARQ, POV | 14 | crown | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr
+b7 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/coroa_louros (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e
+b8 | simples | medieval | orbit | ARQ, OUR | - | coroa_louros | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
+b9 | chave | medieval | crowd | ARQ, POV | 14 | coroa_louros | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr
 b10 | simples | medieval | two | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
 b11 | simples | medieval | close | ARQ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

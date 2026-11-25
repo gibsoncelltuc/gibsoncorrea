@@ -42,7 +42,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cara, dolares, notas, trump
 - RISCOS: nenhum
 
-## Cena b4 - Acontece que o manual era longo, e as famílias abriam a caixa e não en...
+## Cena b4 - O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo...
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): TRU (variante 0, expressao grin); POV (variante 0, expressao surprised)
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/boardgame, kit/tv
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, comercial, jogo, proprio
+- RISCOS: nenhum
+
+## Cena b5 - Acontece que o manual era longo, e as famílias abriam a caixa e não en...
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
@@ -52,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caixa, familias, manual
 - RISCOS: nenhum
 
-## Cena b5 - A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m...
+## Cena b6 - A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos m...
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -62,7 +72,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, jogos
 - RISCOS: nenhum
 
-## Cena b6 - Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
+## Cena b7 - Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -72,7 +82,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
 
-## Cena b7 - E o jogo voltou às lojas, com regras mais simples e a frase do program...
+## Cena b8 - Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): EXE (variante 0, expressao smile); TRU (variante 0, expressao grin)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/boardgame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinquedos, jogo
+- RISCOS: nenhum
+
+## Cena b9 - E o jogo voltou às lojas, com regras mais simples e a frase do program...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -82,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras
 - RISCOS: nenhum
 
-## Cena b8 - Um jogo sobre ficar bilionário, que virou curiosidade.
+## Cena b10 - Um jogo sobre ficar bilionário, que virou curiosidade.
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -92,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jogo
 - RISCOS: nenhum
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -107,13 +127,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/boardgame | b0, b2, b3, b4, b6, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_liberdade | b0, b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/boardgame | b0, b2, b3, b4, b5, b7, b8, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_liberdade | b0, b1, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/boardgame | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 25% | medio 54% | aberto 17% | detalhe 4%
-- Interacoes: b0 o outro se aproxima, b2 entregar, b4 discutir, b5 susto
+- Objeto heroi: kit/boardgame | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 22% | medio 61% | aberto 14% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b2 entregar, b4 insiste, b5 discutir, b6 susto, b8 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py trumpgame1989  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/trumpgame1989/moodboard.jpg
 

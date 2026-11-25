@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
@@ -39,7 +39,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b4 - 23.0s a 28.5s - 16 palavras - plano two
+## Cena b4 - 23.0s a 27.4s - 13 palavras - plano two
+> "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caixa" (26.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | apareceu (24.1s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+
+## Cena b5 - 27.8s a 33.3s - 16 palavras - plano two
 > "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -47,45 +60,56 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 28.9s a 33.0s - 12 palavras - plano two
+## Cena b6 - 33.7s a 37.8s - 12 palavras - plano two
 > "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (29.6s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (30.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (30.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (32.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (32.2s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | esperava (34.4s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | vender (34.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vender (34.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | vendeu (37.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | vendeu (37.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 6 | - | INTERACAO | susto | OK |
 | 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | 800 MIL | OK |
 
-## Cena b6 - 33.3s a 37.4s - 12 palavras - plano orbit
+## Cena b7 - 38.1s a 42.2s - 12 palavras - plano orbit
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 37.8s a 44.1s - 18 palavras - plano crowd
+## Cena b8 - 42.6s a 46.3s - 11 palavras - plano two
+> "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (44.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+
+## Cena b9 - 46.7s a 53.0s - 18 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (38.9s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (47.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
 
-## Cena b8 - 44.4s a 47.0s - 8 palavras - plano two
+## Cena b10 - 53.3s a 55.9s - 8 palavras - plano two
 > "Um jogo sobre ficar bilionário, que virou curiosidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 47.4s a 51.9s - 13 palavras - plano close
+## Cena b11 - 56.3s a 60.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
