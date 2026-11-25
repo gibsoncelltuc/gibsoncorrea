@@ -15,5 +15,5 @@ b9 | two | -  | interior, objeto na mao | encena: x_aperta (point) @8 (acao + so
 b10 | group | -  | interior | - | -
 b11 | close | -  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 63% | aberto 21% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 65% | aberto 21% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

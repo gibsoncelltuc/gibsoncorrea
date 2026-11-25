@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa...
 - Cenario: arctic | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAN (variante 0, expressao smug); DIN (variante 0, expressao smug)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/bandeira_dinamarca, kit/whisky, kit/tequila_bolt
@@ -136,7 +136,7 @@ kit/bandeira_dinamarca | b7 | pronto | conferir na folha de contato se le bem; s
 
 
 ## Video inteiro
-- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 11% | medio 63% | aberto 21% | detalhe 6%
+- Objeto heroi: kit/whisky | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 11% | medio 65% | aberto 21% | detalhe 4%
 - Interacoes: b0 discutir, b2 discutir, b4 pular, b6 entregar, b7 cochichar, b9 entregar
 - RISCOS GERAIS: nenhum
 
