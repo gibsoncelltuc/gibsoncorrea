@@ -9,7 +9,7 @@ b1 | hall | group | 2 | comemorar, INTERAGEM: pular | kit/cybertruck, kit/steel_
 b2 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 b3 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 b4 | hall | two | 1 | encena | kit/cybertruck, kit/steel_ball | ball | -
-b5 | hall | group | 15 | reagir, batalha | kit/cybertruck | - | -
+b5 | hall | group | 1 | reagir, batalha | kit/cybertruck | - | -
 b6 | hall | group | 1 | reagir, batalha | kit/cybertruck | - | -
 b7 | hall | two | 1 | conversar | kit/steel_ball, kit/cybertruck, kit/phone | - | -
 b8 | hall | group | 2 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/globe | - | -
