@@ -17,7 +17,15 @@ SEGURA=()   # 24/11: com video rodando, so' os scripts que a fila esta EXECUTAND
 if git diff --name-only HEAD FETCH_HEAD | grep -qE 'ferramenta-shorts/(make_video|run_queue|assemble|render)\.sh$' && pgrep -f make_video.sh >/dev/null; then
   SEGURA=(':!ferramenta-shorts/make_video.sh' ':!ferramenta-shorts/run_queue.sh' ':!ferramenta-shorts/assemble.sh' ':!ferramenta-shorts/render.sh'); echo "$(date +%T) scripts da fila seguram ate o video atual terminar; resto da ferramenta atualizado agora"; fi
 git add -A >/dev/null 2>&1; git commit -qm "ckpt antes do sync automatico da ferramenta" >/dev/null 2>&1
+PRE=$(git rev-parse HEAD)
 git merge --no-edit -X theirs FETCH_HEAD >/dev/null 2>&1 || { git merge --abort 2>/dev/null; echo "$(date +%T) merge nao aplicou (historicos diferentes): copiando a ferramenta direto da principal"; }
+# 25/11 (sessao B perdeu edicoes de 6 roteiros): o -X theirs trazia o beats.json da principal por cima do da sessao. ROTEIRO, folhas, pesquisa e filas
+# sao da SESSAO: o que ela mudou desde o ponto comum volta como estava (a principal manda roteiro novo por mensagem + checkout explicito).
+BASE=$(git merge-base $PRE FETCH_HEAD 2>/dev/null)
+if [ -n "$BASE" ] && [ "$(git rev-parse HEAD)" != "$PRE" ]; then
+  MEUS=$(git diff --name-only $BASE $PRE -- ferramenta-shorts/videos ferramenta-shorts/stories ferramenta-shorts/referencias ferramenta-shorts/fila_sessao_A.txt ferramenta-shorts/fila_sessao_B.txt ferramenta-shorts/queue.txt 2>/dev/null)
+  if [ -n "$MEUS" ]; then echo "$MEUS" | while read -r f_; do git cat-file -e $PRE:"$f_" 2>/dev/null && git checkout $PRE -- "$f_" 2>/dev/null; done; git add -A >/dev/null 2>&1; git commit -qm "sync: roteiros/folhas da sessao preservados" >/dev/null 2>&1; fi
+fi
 # FORCA: depois do merge (ou sem ele), cada arquivo da ferramenta fica IGUAL ao da principal -- nenhuma edicao antiga da sessao sobrevive no motor
 git checkout FETCH_HEAD -- "${FERR[@]}" "${SEGURA[@]}" CLAUDE.md .claude 2>/dev/null
 git show FETCH_HEAD:ferramenta-shorts/PAUSA > /dev/null 2>&1 && git checkout FETCH_HEAD -- ferramenta-shorts/PAUSA 2>/dev/null   # a pausa da principal vale para as sessoes
