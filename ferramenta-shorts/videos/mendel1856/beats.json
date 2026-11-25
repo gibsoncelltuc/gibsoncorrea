@@ -166,18 +166,18 @@
    "detalhe": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -234,12 +234,12 @@
    },
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -547,18 +547,18 @@
    },
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
