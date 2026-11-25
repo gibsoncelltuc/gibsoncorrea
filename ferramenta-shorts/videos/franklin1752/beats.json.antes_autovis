@@ -56,8 +56,8 @@
    "props": [
     [
      "kit/kite",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.6,
      {
       "fixo": true
@@ -92,8 +92,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -128,8 +127,7 @@
    "interior": "madeira",
    "who": [
     "COM:0:scared",
-    "POV:0:scared",
-    "FIL:0:sad"
+    "POV:0:scared"
    ],
    "acao": "conversar",
    "encena": {
@@ -143,7 +141,7 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
@@ -175,8 +173,8 @@
    "props": [
     [
      "kit/kite",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.6,
      {
       "fixo": true
@@ -209,8 +207,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -256,8 +253,8 @@
    "props": [
     [
      "kit/key",
-     1.6,
-     -1.0,
+     3.6,
+     -2.0,
      1.8,
      {
       "fixo": true
@@ -265,8 +262,8 @@
     ],
     [
      "kit/kite",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.6,
      {
       "fixo": true
@@ -303,11 +300,9 @@
     ]
    },
    "cx": 0.0,
-   "cz": 0.0,
-   "d0": 9.0,
-   "d1": 8.0,
-   "_auto_vis": 3,
-   "h": 3.0
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -343,8 +338,8 @@
    "props": [
     [
      "kit/lightning_rod",
-     0.6,
-     1.0,
+     0.0,
+     -8.0,
      1.5,
      {
       "fixo": true
@@ -375,7 +370,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lightning_rod",
@@ -404,9 +399,8 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 16.2,
-   "d1": 15.4,
-   "_auto_vis": 2
+   "d0": 19.1,
+   "d1": 18.1
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",
@@ -457,5 +451,6 @@
    "pipa": "Benjamin West Franklin drawing electricity from the sky",
    "cidade": "colonial Philadelphia 1750 street"
   }
- }
+ },
+ "max_wide": 3
 }

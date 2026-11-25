@@ -253,8 +253,8 @@
    "props": [
     [
      "kit/key",
-     3.6,
-     -2.0,
+     0.6,
+     1.0,
      1.8,
      {
       "fixo": true
@@ -302,7 +302,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",

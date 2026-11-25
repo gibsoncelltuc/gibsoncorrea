@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b6: objeto "kit/key" saiu com 14% da altura da tela, a ficha de cena planejou 32%

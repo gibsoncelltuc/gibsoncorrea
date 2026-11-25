@@ -29,3 +29,7 @@
 - b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
 - b6: ja corrigida 3 vezes, objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto "kit/key" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 03:10 autocorrecao de visibilidade
+- b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/key" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
