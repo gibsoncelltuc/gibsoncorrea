@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.5s - 12 palavras - plano two
@@ -114,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | empurrar | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 30.9s a 33.6s - 8 palavras - plano two
+## Cena b9 - 30.9s a 33.6s - 8 palavras - plano wide
 > "Lavar as mãos virou insulto. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -122,7 +122,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | PLACA | LAVE AS MÃOS | OK |
+| 1 | - | ATUACAO | discutir | OK |
+| 2 | - | PLACA | LAVE AS MÃOS | OK |
 

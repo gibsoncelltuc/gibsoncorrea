@@ -68,8 +68,8 @@
    "props": [
     [
      "kit/wash_basin",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -112,8 +112,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -219,10 +218,11 @@
    "d1": 11.5
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "MAE:0:scared",
+    "MAE:1:sad",
     "SEM:0:sad"
    ],
    "fx": [
@@ -237,14 +237,75 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "morriam"
+      "faz": "morre",
+      "na": "morriam",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "props": [
+    [
+     "kit/maca",
+     2.8,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/maca",
+     2.8,
+     -0.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/maca",
+     2.8,
+     0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.8,
+   "d0": 12.5,
+   "d1": 12.0,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/maca",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "KOL:0:shock",
@@ -263,17 +324,65 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "morreu"
+      "faz": "morre",
+      "na": "morreu",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "props": [
+    [
+     "kit/bancada",
+     0.0,
+     -0.6,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bisturi",
+     0.0,
+     -0.6,
+     0.5,
+     {
+      "fixo": true,
+      "y": 1.22
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.8,
+   "d0": 11.0,
+   "d1": 10.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bisturi",
+      "lugar": "FRENTE, esquerda",
+      "tela": "1% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
   },
   {
-   "shot": "close",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "SEM:0:surprised"
+    "SEM:0:stern",
+    "DIR:0:smile"
    ],
    "fx": [
     "stars@20"
@@ -291,7 +400,15 @@
       "na": "sujas"
      }
     ]
-   }
+   },
+   "text": "MÃOS SUJAS",
+   "tat": 8,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.3,
+   "h": 1.8,
+   "d0": 11.0,
+   "d1": 10.5
   },
   {
    "shot": "two",
@@ -442,15 +559,14 @@
   {
    "shot": "two",
    "who": [
-    "SEM:0:stern",
-    "DIR:0:angry"
+    "SEM:0:stern"
    ],
    "acao": "discutir",
    "props": [
     [
      "kit/wash_basin",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -479,21 +595,20 @@
    "_enq_shot": "two",
    "quadro": {
     "local": "hospital",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/wash_basin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "variar_cenario": false,
@@ -535,5 +650,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }

@@ -11,7 +11,7 @@ b5 | group | -  | interior, placa: MÃOS SUJAS | - | -
 b6 | two | -  | interior | - | -
 b7 | orbit | -  | batalha aberta com tiros, tropa, placa: VIDAS SALVAS | caíram (dust + som de impacto) | -
 b8 | two | -  | interior | - | -
-b9 | two | -  | interior, placa: LAVE AS MÃOS | - | -
+b9 | wide | -  | interior, placa: LAVE AS MÃOS | - | -
 
-Mistura de planos: close 1% | medio 86% | aberto 9% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 1% | medio 78% | aberto 18% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

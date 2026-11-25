@@ -13,11 +13,11 @@ b5 | interior hospital | group | 2 | conversar, INTERAGEM: o outro se aproxima |
 b6 | interior hospital | two | 2 | discutir, INTERAGEM: discutir | kit/wash_basin | - | -
 b7 | street | orbit | 3 | comemorar, batalha | kit/wash_basin, kit/marco_viena | - | -
 b8 | interior hospital | two | 2 | discutir, INTERAGEM: empurrar | - | - | -
-b9 | interior hospital | two | 2 | discutir, INTERAGEM: vai ate o outro | kit/wash_basin | - | -
+b9 | interior hospital | wide | 2 | discutir | kit/wash_basin | - | -
 
 OBJETO HEROI: kit/wash_basin
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
-Interacoes entre personagens: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar, b9 vai ate o outro
+Interacoes entre personagens: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar
 
 Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

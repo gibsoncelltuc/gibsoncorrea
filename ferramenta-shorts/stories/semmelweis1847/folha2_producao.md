@@ -94,10 +94,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Lavar as mãos virou insulto. Foi assim que...
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SEM (variante 0, expressao stern); DIR (variante 0, expressao angry)
-- Animacao: discutir | interacao: vai ate o outro
+- Animacao: discutir
 - Objetos/modelos: kit/wash_basin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maos
 - RISCOS: nenhum
@@ -116,8 +116,8 @@ kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 1% | medio 86% | aberto 9% | detalhe 3%
-- Interacoes: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar, b9 vai ate o outro
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 1% | medio 78% | aberto 18% | detalhe 3%
+- Interacoes: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
