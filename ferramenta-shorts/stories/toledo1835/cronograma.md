@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Gerado em 25/11 11:37 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 12:25 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | chave | countryside | crowd | OHI | 48 | - | corpo: tropa/personagens encen
 b4 | chave | countryside | orbit | OHI | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.
 b5 | simples | interior madeira | two | RAP, XER | - | canivete_aberto | - | A única baixa foi um xerife de Michigan, espetado numa briga de tavern
 b6 | simples | interior pedra | two | GOV, OHI | - | - | - | O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.
-b7 | simples | arctic | group | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que
+b7 | simples | arctic | wide | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que
 b8 | simples | arctic | wide | GOV, MIC | 32 | minerio, bush, tree_oak, tree_pine | - | Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 b9 | simples | interior madeira | close | GOV | - | - | - | No fim das contas, Michigan perdeu a guerra, e ficou rico.
 b10 | simples | interior madeira | two | OHI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

@@ -11,14 +11,14 @@ b3 | countryside | crowd | 49 | encena, batalha | - | - | -
 b4 | countryside | orbit | 49 | reagir, batalha | - | - | -
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete_aberto | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
-b7 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b7 | arctic | wide | 3 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
 b8 | arctic | wide | 8 | reagir | kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush | coin | -
 b9 | interior madeira | close | 1 | encena | - | coin | -
 b10 | interior madeira | two | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/canivete_aberto
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
-Interacoes entre personagens: b5 discutir, b6 pedir, b7 tremem de frio
+Interacoes entre personagens: b5 discutir, b6 pedir
 
 Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: OHI na esquerda, expressao grin; MIC no centro, expressao pained; GOV na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
