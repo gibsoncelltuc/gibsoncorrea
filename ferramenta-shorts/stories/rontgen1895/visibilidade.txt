@@ -1,0 +1,3 @@
+VISIBILIDADE: 2 FALHA(S)
+FALHA b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b4: objeto ENORME "kit/xray_plate" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
