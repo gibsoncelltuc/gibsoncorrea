@@ -1171,22 +1171,23 @@ def build_beat(k, b):
     _sy = nrm(b['say']); global AMB
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
     _h = b.get('hora') or ('espaco' if re.search(r'noespaco|noespacosideral|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade|flutuavam|flutuando', _sy) and not b.get('interior') else None) or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
-    _c = b.get('clima') or ('tempestade' if re.search(r'tempestade|temporal|trovao|raios', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
+    _c = b.get('clima') or ('granizo' if re.search(r'granizo|chuvadepedra|pedrasdegelo|pedrinhasdegelo', _sy) else 'tempestade' if re.search(r'tempestade|temporal|trovao|trovoada|relampag|raios|furacao|tufao|ciclone', _sy) else 'gelo' if re.search(r'\bgelo\b|congelad|congelou|congelaram|geada|lagocongelado|riocongelado|marcongelado|derrapou no gelo|escorreg\w* no gelo', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
     AMB['hora'] = B.get('hora'); AMB['clima'] = None if B.get('clima') in (None, 'limpo', 'sol') else B.get('clima')   # hora/clima valem SO na cena onde aparecem (campo ou narracao); fora disso, o padrao do topo do roteiro -- a noite/neve de uma cena nao vaza para o resto do video
     if _h: AMB['hora'] = _h
     if _c: AMB['clima'] = None if _c in ('limpo', 'sol') else _c
-    b['_frio'] = AMB.get('clima') == 'neve'; b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
+    b['_frio'] = AMB.get('clima') in ('neve', 'gelo', 'granizo'); b['_calor'] = AMB.get('clima') == 'calor'   # frio: os personagens tremem; calor: suam (luz de deserto)
     wx = {}
     if not light:
         light = {'noite': 'night', 'espaco': 'space', 'amanhecer': 'dawn', 'pordosol': 'dusk', 'tarde': 'golden'}.get(AMB.get('hora'), LIGHT)
         cl = AMB.get('clima')
-        if cl in ('chuva', 'tempestade') and light != 'night': light = 'storm' if cl == 'tempestade' else 'overcast'
+        if cl in ('chuva', 'tempestade', 'granizo') and light != 'night': light = 'storm' if cl in ('tempestade', 'granizo') else 'overcast'
+        elif cl == 'gelo' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
         elif cl == 'neve' and light not in ('night', 'dusk', 'dawn'): light = 'arctic'
         elif cl == 'neblina' and light not in ('night',): light = 'overcast'
         elif cl == 'calor' and light not in ('night', 'dusk', 'dawn'): light = 'desert'
     if not b.get('interior') or re.search(r'chov\w* dentro|goteira|teto furado|telhado furado|chuva dentro|chovia na sala|chovia no galp', nrm0x(b['say'])):   # 24/11 (Curie): "o galpao tinha o teto furado, chovia dentro" = chuva caindo DENTRO da sala
         cl = AMB.get('clima')
-        wx = {'chuva': {'rain': 0.8, 'wind': 0.8}, 'tempestade': {'rain': 1.0, 'wind': 1.4}, 'neve': {'snow': 0.85, 'wind': 0.5}, 'neblina': {'fog': 0.7, 'wind': 0.3}, 'vento': {'wind': 1.4, 'leaves': 0.7}}.get(cl, {})
+        wx = {'chuva': {'rain': 0.8, 'wind': 0.8}, 'tempestade': {'rain': 1.0, 'wind': 1.4}, 'neve': {'snow': 0.85, 'wind': 0.5}, 'neblina': {'fog': 0.7, 'wind': 0.3}, 'vento': {'wind': 1.4, 'leaves': 0.7}, 'granizo': {'hail': 0.9, 'rain': 0.35, 'wind': 0.9}, 'gelo': {'ice': 0.85, 'snow': 0.18, 'wind': 0.5, 'fog': 0.25}}.get(cl, {})
     if 'wind' in b: wx['wind'] = b['wind']
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
@@ -1611,6 +1612,10 @@ def build_beat(k, b):
         for _q, (_ox, _oz) in enumerate(((-0.7, 0.2), (0.7, 0.2), (0.0, 0.5), (-0.4, -0.2), (0.4, -0.2))):
             fx.append(f"{{ k: 'splash', a: WS({_spi}) + {_q * 4}, b: WS({_spi}) + {40 + _q * 4}, at: [X + {num(_sx + _ox)}, DK + 0.75, {num(_sz + _oz)}], s: 1.0 }}")
         KWSFX.append((_spi, 'thump'))
+    if AMB.get('clima') == 'tempestade' and not b.get('interior') and b.get('raio') is not False and not b.get('explica'):   # 25/11 TEMPESTADE: relampago no ceu de tempo em tempo (alem do da palavra), com trovao
+        _nw = len(b['say'].split())
+        for _q, _jj in enumerate(sorted({max(0, _nw // 6), _nw // 2, min(_nw - 1, 5 * _nw // 6)})):
+            fx.append(f"{{ k: 'raio', a: WS({starts[k] + _jj}), b: WS({starts[k] + _jj}) + 22, at: [X + {num((-6, 7, -2)[_q % 3])}, DK + 8, -12], s: 5.5 }}"); KWSFX.append((starts[k] + _jj, 'cannon'))
     _rw = [j_ for j_, w_ in enumerate(b['say'].split()) if re.match(r'^(raios?|relampag\w*|trovoada|trovao|tempestade)$', nrm(w_)) and not re.search(r'para.?raio', nrm(b['say'].split()[max(0, j_ - 1)] + w_))]
     if _rw and b.get('raio') is not False and not b.get('interior'):   # 25/11 (Franklin): RELAMPAGO no ceu na palavra (raio/relampago/tempestade), com trovao; para-raios nao conta
         for _q, _j in enumerate(_rw[:2]):
