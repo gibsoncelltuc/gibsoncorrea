@@ -8,7 +8,7 @@
    "consultas": [
     "El Salvador bitcoin legal tender 2021 Chivo",
     "O País do Bitcoin",
-    "Um Foi El Salvador América Central Nayib Bukele Em 2021"
+    "Um Foi El Salvador Nayib Bukele Em 2021"
    ]
   },
   {
@@ -116,10 +116,17 @@
    ]
   },
   {
-   "tipo": "mecanismo",
-   "item": "Para convencer o povo, quem baixasse a carteira digital ganhava trinta",
+   "tipo": "heroi",
+   "item": "rack mineracao",
    "consultas": [
-    "convencer baixasse carteira digital ganhava trinta dolares b",
+    "rack mineracao"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
+   "consultas": [
+    "baixasse carteira digital ganhava trinta dolares bitcoin",
     "bitcoin diagram"
    ]
   },
@@ -133,9 +140,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Só que o jogo virou: em dezembro de dois mil e vinte e quatro, o bitco",
+   "item": "Minerar é deixar computadores fazendo contas sem parar, e quem acerta",
    "consultas": [
-    "virou dezembro vinte quatro bitcoin passou dolares",
+    "minerar deixar computadores fazendo contas parar acerta ganh",
+    "rack mineracao diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Mas em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem",
+   "consultas": [
+    "dezembro vinte quatro bitcoin passou dolares",
     "bitcoin diagram"
    ]
   }

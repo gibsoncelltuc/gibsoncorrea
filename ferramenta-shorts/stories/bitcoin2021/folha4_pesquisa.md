@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O País do Bitcoin
 - Epoca: 2021 | Lugar: Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021 | Quando: junho a setembro de 2021, dia
-- HEROIS (objeto): kit/bitcoin, kit/volcano
+- HEROIS (objeto): kit/bitcoin, kit/volcano, kit/rack_mineracao
 - HEROIS (personagens): BUK, DEP
 - Cenarios: loc_cidade, loc_estudio, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O País do Bitcoin | El Salvador bitcoin legal tender 2021 Chivo / O País do Bitcoin / Um Foi El Salvador América Central Nayib Bukele Em 2021 | Criptolegal.jpg (referencias/bitcoin2021/prints/o_pa_s_do_bitcoin_ba9332.jpg); Collection de bois de la Xylothèque du Cirad. Bois (referencias/bitcoin2021/prints/o_pa_s_do_bitcoin_a25842.jpg)
+tema | O País do Bitcoin | El Salvador bitcoin legal tender 2021 Chivo / O País do Bitcoin / Um Foi El Salvador Nayib Bukele Em 2021 | Criptolegal.jpg (referencias/bitcoin2021/prints/o_pa_s_do_bitcoin_ba9332.jpg); Collection de bois de la Xylothèque du Cirad. Bois (referencias/bitcoin2021/prints/o_pa_s_do_bitcoin_a25842.jpg)
 lugar | Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, | San Salvador market street 2021 / Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021 / Ruas e feiras de El Salvador Assembleia Legislativa e mercados de San Salvador 2021 2021 | Chinese Communist troops marched north(1945) 01.jp (referencias/bitcoin2021/prints/ruas_e_feiras_de_el_salvador_assembleia__66a65f.jpg); PIIGS Mk 4 map.png (referencias/bitcoin2021/prints/ruas_e_feiras_de_el_salvador_assembleia__c3d24a.jpg); Communist troops in US ship02.jpg (referencias/bitcoin2021/prints/ruas_e_feiras_de_el_salvador_assembleia__edb0c3.jpg)
 lugar | El Salvador | El Salvador 2021 / El Salvador landscape | Interpretación del artículo 152 ordinal 1o. de la  (referencias/bitcoin2021/prints/el_salvador_b40207.jpg); Al menos 35 periodistas y activistas en El Salvado (referencias/bitcoin2021/prints/el_salvador_c2b0ac.jpg); Al menos 35 periodistas y activistas en El Salvado (referencias/bitcoin2021/prints/el_salvador_3e15d2.jpg)
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | 020211127 Christmas 2021 fashion, Silesia.jpg (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_006331.jpg); 0210306 133704 Fashion in 2021.jpg (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_1a6c78.jpg); 020211107 132834 Fashion in 2021, Silesia.jpg (referencias/bitcoin2021/prints/roupas_e_ruas_de_2021_b6ea49.jpg)
@@ -28,14 +28,17 @@ objeto | barraca de feira | barraca de feira / barraca de feira 2021 | Barraca d
 objeto | globo | globo / globo 2021 | Globo São Paulo Logo.png (referencias/bitcoin2021/prints/globo_8607f2.jpg); Globo Schizler-2015.jpg (referencias/bitcoin2021/prints/globo_61141d.jpg); Drogarias Globo Piauí.jpg (referencias/bitcoin2021/prints/globo_cb015c.jpg)
 heroi | bitcoin | moeda de bitcoin / O País do Bitcoin | Tutorial-burn-1@1x.6a2d0ab4.png (referencias/bitcoin2021/prints/bitcoin_c03b9e.jpg); PayCashWallet PayCashSwap.png (referencias/bitcoin2021/prints/bitcoin_63ebb5.jpg); PayCashSwapLogo1.png (referencias/bitcoin2021/prints/bitcoin_18bca0.jpg)
 heroi | volcano | volcano | Радуга над вулканическими конусами.jpg (referencias/bitcoin2021/prints/volcano_4e2f60.jpg); Fimmvorduhals 2010 03 27 dawn.jpg (referencias/bitcoin2021/prints/volcano_a21273.jpg); Taal Volcano eruption on January 12, 2020.jpg (referencias/bitcoin2021/prints/volcano_f94d48.jpg)
-mecanismo | Para convencer o povo, quem baixasse a carteira digital ganhava trinta | convencer baixasse carteira digital ganhava trinta dolares b / bitcoin diagram | SEM REFERENCIA
+heroi | rack mineracao | rack mineracao | SEM REFERENCIA
+mecanismo | Quem baixasse a carteira digital ganhava trinta dólares em bitcoin. | baixasse carteira digital ganhava trinta dolares bitcoin / bitcoin diagram | SEM REFERENCIA
 mecanismo | Mesmo assim, o governo continuou comprando bitcoins com dinheiro públi | assim governo continuou comprando bitcoins dinheiro publico / bitcoin diagram | SEM REFERENCIA
-mecanismo | Só que o jogo virou: em dezembro de dois mil e vinte e quatro, o bitco | virou dezembro vinte quatro bitcoin passou dolares / bitcoin diagram | SEM REFERENCIA
+mecanismo | Minerar é deixar computadores fazendo contas sem parar, e quem acerta | minerar deixar computadores fazendo contas parar acerta ganh / rack mineracao diagram | SEM REFERENCIA
+mecanismo | Mas em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem | dezembro vinte quatro bitcoin passou dolares / bitcoin diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)
 - O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)
 - O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)
+- Mineracao de bitcoin: computadores especializados (ASIC) fazem calculos para validar os blocos de transacoes; o primeiro que acerta ganha bitcoins novos. El Salvador minera desde 2021 com energia geotermica do vulcao Tecapa (usina estatal LaGeo, Berlin, Usulutan).
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador
