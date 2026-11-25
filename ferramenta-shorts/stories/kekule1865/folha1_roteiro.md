@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 14 - O Químico que Sonhou com uma Cobra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 89 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 11 cenas, 89 palavras (~31 s)
 
 ## Cena b0  (~2.8 s)
 - Narracao: Um segredo da química foi resolvido num cochilo.

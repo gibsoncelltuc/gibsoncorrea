@@ -1,7 +1,7 @@
 {
  "title": "O Cardápio do Zoológico",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "street",
  "light": "day",
  "mood": "playful",
@@ -38,7 +38,6 @@
  },
  "beats": [
   {
-   "say": "Paris já serviu elefante no jantar.",
    "shot": "wide",
    "who": [
     "PAR:0:nervous",
@@ -46,7 +45,6 @@
    ],
    "tat": 0,
    "tstyle": "blue",
-   "animais": false,
    "props": [
     [
      "kit/bife_elefante",
@@ -70,8 +68,16 @@
     ]
    ],
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 11.5,
+   "d1": 10.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "bloco": "gancho",
+   "say": "Paris já serviu elefante no jantar de Natal.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -79,11 +85,8 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.4,
-   "d0": 11.5,
-   "d1": 10.0,
-   "quadro_manual": true,
+   "text": "ELEFANTE NO JANTAR",
+   "titulo": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
@@ -95,29 +98,82 @@
       "estado": "parado"
      }
     ]
-   },
-   "shot_lock": true
+   }
   },
   {
-   "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
+   "shot": "two",
+   "who": [
+    "CHF:0:grin",
+    "PAR:2:shock"
+   ],
+   "tat": 3,
+   "tstyle": "brown",
+   "interior": "loja",
+   "props": [
+    [
+     "kit/bife_elefante",
+     0.0,
+     -1.2,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "bloco": "promessa",
+   "say": "E no cardápio tinha até canguru e lobo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canguru"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "text": "CANGURU E LOBO",
+   "placa": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
    "shot": "reveal",
    "mapa": "FRANÇA",
    "who": [
     "PAR:0:nervous",
     "PAR:1:sad"
    ],
+   "bloco": "prova",
+   "say": "Em 1870, a Prússia cercou Paris, e a comida acabou.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Prússia"
+      "na": "cercou"
      }
     ]
    }
   },
   {
-   "say": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
    "shot": "two",
    "who": [
     "PAR:2:pained",
@@ -146,19 +202,19 @@
    "crowd": {
     "n": 0
    },
-   "vary": false,
+   "bloco": "prova",
+   "say": "Primeiro comeram os cavalos. Depois, cachorros e gatos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "cavalos"
+      "na": "comeram"
      }
     ]
    }
   },
   {
-   "say": "Depois, os roedores, que viraram um prato chique.",
    "shot": "two",
    "who": [
     "PAR:0:shock",
@@ -182,8 +238,8 @@
     ],
     [
      "kit/rato",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      2.2,
      {
       "nocol": true,
@@ -205,8 +261,19 @@
    "tat": 3,
    "tstyle": "red",
    "set": "street",
-   "clima": "neve",
    "detalhe": true,
+   "bloco": "prova",
+   "say": "Depois os roedores, que viraram prato chique.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "roedores"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)",
@@ -231,29 +298,18 @@
      }
     ]
    },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "roedores"
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
-   "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
    "shot": "wide",
    "who": [
     "PAR:1:nervous",
     "PAR:3:nervous"
    ],
-   "mood": "tense",
    "animals": [
     [
      "elephant",
@@ -270,19 +326,19 @@
      1.0
     ]
    ],
+   "bloco": "escalada",
+   "say": "Quando acabou tudo, olharam para o zoológico.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "olha",
-      "na": "olharam",
-      "quem": 0
+      "faz": "mostra",
+      "na": "zoológico"
      }
     ]
    }
   },
   {
-   "say": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
    "shot": "two",
    "who": [
     "BUT:0:grin",
@@ -307,22 +363,21 @@
      0.85
     ]
    ],
-   "clima": "neve",
    "detalhe": false,
+   "bloco": "escalada",
+   "say": "Acontece que um açougueiro comprou os elefantes Castor e Pólux.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "negocio",
-      "na": "comprou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "comprou"
      }
     ]
    }
   },
   {
-   "say": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "CHF:0:grin",
     "PAR:2:shock"
@@ -330,14 +385,12 @@
    "text": "NATAL DE 1870",
    "tat": 3,
    "tstyle": "brown",
-   "mood": "playful",
    "interior": "loja",
-   "clima": "neve",
    "props": [
     [
      "kit/bife_elefante",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      2.2,
      {
       "nocol": true,
@@ -345,12 +398,23 @@
      }
     ]
    ],
-   "animais": false,
    "shot_lock": true,
    "detalhe": true,
+   "bloco": "escalada",
+   "say": "No Natal, um restaurante serviu consomê de elefante.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "serviu"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bife_elefante",
@@ -360,23 +424,14 @@
      }
     ]
    },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Voisin"
-     }
-    ]
-   },
-   "_enq_shot": "two",
+   "fachada": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
-   "say": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
    "shot": "wide",
    "who": [
     "CHF:0:grin",
@@ -385,10 +440,7 @@
    "text": "SÓ PARA OS RICOS",
    "tat": 6,
    "tstyle": "gold",
-   "mood": "playful",
-   "clima": "neve",
    "set": "street",
-   "animais": false,
    "props": [
     [
      "kit/bife_elefante",
@@ -401,6 +453,19 @@
      }
     ]
    ],
+   "detalhe": true,
+   "bloco": "pagamento",
+   "say": "Só os ricos podiam pagar esse luxo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ricos"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
@@ -413,25 +478,12 @@
      }
     ]
    },
-   "detalhe": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_come",
-      "na": "comiam",
-      "quem": 1
-     }
-    ]
-   },
-   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
   },
   {
-   "say": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
    "shot": "wide",
    "who": [
     "PAR:0:surprised",
@@ -444,7 +496,8 @@
     "expr": "sad"
    },
    "set": "street",
-   "animais": false,
+   "bloco": "pagamento",
+   "say": "O povo fazia fila no frio por comida racionada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -456,68 +509,6 @@
    }
   },
   {
-   "say": "Para mandar notícias, soltavam balões por cima do cerco.",
-   "shot": "wide",
-   "props": [
-    [
-     "kit/balloon_air",
-     0.0,
-     -12.0,
-     2.6,
-     {
-      "fixo": true,
-      "y": 1.5
-     }
-    ]
-   ],
-   "clima": "neve",
-   "acao": "conversar",
-   "set": "street",
-   "animais": false,
-   "text": "BALÕES",
-   "tstyle": "blue",
-   "who": [
-    "PAR:1:surprised"
-   ],
-   "fachada": false,
-   "detalhe": false,
-   "crowd": {
-    "n": 0
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_solta",
-      "na": "soltavam",
-      "quem": 0
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -6.0,
-   "h": 3.6,
-   "d0": 17.0,
-   "d1": 15.0,
-   "quadro_manual": true,
-   "titulo": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "az0": 0,
-   "az1": 4
-  },
-  {
-   "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
    "shot": "two",
    "who": [
     "PAR:2:pained",
@@ -527,8 +518,6 @@
    "text": "PARIS SE RENDEU",
    "tat": 10,
    "tstyle": "white",
-   "mood": "calm",
-   "clima": "neve",
    "props": [
     [
      "kit/panela",
@@ -542,7 +531,20 @@
    ],
    "detalhe": false,
    "set": "street",
-   "animais": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "prato",
+      "na": "comida"
+     }
+    ]
+   },
+   "bloco": "loop",
+   "say": "Na fome, até bicho de zoológico vira comida. Foi assim que...",
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
@@ -555,17 +557,6 @@
      }
     ]
    },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "rende",
-      "na": "rendeu",
-      "quem": 0
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -605,5 +596,8 @@
  "ep": 24,
  "titulo_base": "O Cardápio do Zoológico",
  "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
+ "loop_frase_ok": true,
  "max_wide": 6
 }

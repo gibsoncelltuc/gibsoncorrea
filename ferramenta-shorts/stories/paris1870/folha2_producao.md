@@ -74,10 +74,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - No Natal, um restaurante serviu consomê de elefante.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: discutir
+- Animacao: reagir
 - Objetos/modelos: kit/bife_elefante, elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, natal, restaurante
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 10 de PAR
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frio, povo
 - RISCOS: nenhum
@@ -131,8 +131,8 @@ deer | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b6 | planos abertos: 7 | mistura: close 4% | medio 44% | aberto 48% | detalhe 4%
-- Interacoes: b1 susto, b3 avanca e o outro recua, b7 discutir, b9 o outro se aproxima
+- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b6 | planos abertos: 8 | mistura: close 4% | medio 38% | aberto 57% | detalhe 2%
+- Interacoes: b1 susto, b3 avanca e o outro recua, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

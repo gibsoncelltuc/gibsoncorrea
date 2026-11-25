@@ -1627,7 +1627,7 @@ def build_beat(k, b):
         fx.append(f"{{ k: 'birds', a: {a}, b: {bb}, at: [X, DK + {num(4.5 + (k % 3) * 1.5)}, -30], n: {4 + k % 3}, dir: {1 if k % 4 < 2 else -1}, off: {8 + k * 7 % 14} }}")
     if b.get('text'):
         st = TXT[b.get('tstyle', TXT_CYCLE[0] if (b.get('bloco') == 'loop' and _VIRAL) else TXT_CYCLE[k % 4])]   # loop: mesma cor de texto da 1a cena (emenda sem costura)
-        off = int(b.get('tat', 0))
+        off = min(int(b.get('tat', 0)), max(0, len(b['say'].split()) - 4))   # 25/11 Kekule: 'tat' do roteiro antigo (frase mais longa) jogava o texto para DEPOIS da cena e ele nunca aparecia
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
         if b.get('titulo') or B.get('titulos') or shot in WIDE or shot == 'close' or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
             fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
@@ -2237,7 +2237,7 @@ for k, b in enumerate(beats):
     c2.append(f"whoosh(F({a}), 0.4, 0.35)")
     if AMB.get(SET) == 'birds' and b.get('light', LIGHT) in ('day', 'noon', 'dawn', 'golden', 'overcast', 'desert'): c2.append(f"birds(F({a}), F({e}), 6, 0.08)")
     if AMB.get(SET) == 'sea': c2.append(f"sea(F({a}), F({e}), 0.14); gulls(F({a}), F({e}), 3, 0.1)")
-    if b.get('text'): c2.append(f"ding(F(int(_W({starts[k] + int(b.get('tat', 0))}) - 2)), 0.5, {[988, 1175, 880, 1319][k % 4]})")
+    if b.get('text'): c2.append(f"ding(F(int(_W({starts[k] + min(int(b.get('tat', 0)), max(0, len(b['say'].split()) - 4))}) - 2)), 0.5, {[988, 1175, 880, 1319][k % 4]})")
     if b.get('move') or b.get('shot') == 'track': c2.append(f"steps(F({a}), F({e}), 0.12, 0.3)")
     # SOM DA INTERACAO: fala de desenho alternando duas vozes (dialogo/discussao), baque no empurrao, risada na comemoracao
     _it = b.get('_inter'); _ac = b.get('_acao'); _q = lambda q_: f"F({a} + int(({e} - {a}) * {q_}))"

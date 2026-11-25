@@ -1,0 +1,162 @@
+{
+ "duration": 31.536,
+ "frames30": 946,
+ "source": "silence-align (cost 0.56)",
+ "segments": [
+  [
+   0.0,
+   2.15888
+  ],
+  [
+   2.53687,
+   4.66796
+  ],
+  [
+   5.03942,
+   5.91183
+  ],
+  [
+   6.13812,
+   7.73821
+  ],
+  [
+   8.117,
+   10.0042
+  ],
+  [
+   10.3811,
+   11.3225
+  ],
+  [
+   11.702,
+   13.6242
+  ],
+  [
+   14.0035,
+   15.9607
+  ],
+  [
+   16.3379,
+   18.7366
+  ],
+  [
+   19.1093,
+   20.4013
+  ],
+  [
+   20.6845,
+   21.7673
+  ],
+  [
+   22.1372,
+   23.2277
+  ],
+  [
+   23.6041,
+   25.31
+  ],
+  [
+   25.6896,
+   27.5311
+  ],
+  [
+   27.9038,
+   28.7895
+  ],
+  [
+   29.0124,
+   30.158
+  ],
+  [
+   30.5361,
+   31.1128
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um banquinho dourado come\u00e7ou uma guerra na \u00c1frica.",
+   "s": 0.0,
+   "e": 2.159
+  },
+  {
+   "text": "E quem pediu para sentar nele nunca conseguiu.",
+   "s": 2.537,
+   "e": 4.668
+  },
+  {
+   "text": "Em 1900,",
+   "s": 5.039,
+   "e": 5.912
+  },
+  {
+   "text": "os ingleses mandavam na atual Gana.",
+   "s": 6.138,
+   "e": 7.738
+  },
+  {
+   "text": "O povo ashanti tinha um banquinho sagrado.",
+   "s": 8.117,
+   "e": 10.004
+  },
+  {
+   "text": "Nem o rei sentava.",
+   "s": 10.381,
+   "e": 11.322
+  },
+  {
+   "text": "O governador ingl\u00eas exigiu sentar nele.",
+   "s": 11.702,
+   "e": 13.624
+  },
+  {
+   "text": "Era como sentar na alma do povo ashanti.",
+   "s": 14.004,
+   "e": 15.961
+  },
+  {
+   "text": "Eles se revoltaram e cercaram o forte do governador.",
+   "s": 16.338,
+   "e": 18.737
+  },
+  {
+   "text": "Soldados ingleses vieram,",
+   "s": 19.109,
+   "e": 20.401
+  },
+  {
+   "text": "e a guerra durou meses.",
+   "s": 20.684,
+   "e": 21.767
+  },
+  {
+   "text": "Os ingleses venceram.",
+   "s": 22.137,
+   "e": 23.228
+  },
+  {
+   "text": "Acontece que o banquinho tinha sumido.",
+   "s": 23.604,
+   "e": 25.31
+  },
+  {
+   "text": "Os ashanti esconderam o banquinho na mata.",
+   "s": 25.69,
+   "e": 27.531
+  },
+  {
+   "text": "O governador ganhou,",
+   "s": 27.904,
+   "e": 28.79
+  },
+  {
+   "text": "mas nunca teve o banquinho.",
+   "s": 29.012,
+   "e": 30.158
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 30.536,
+   "e": 31.113
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "duration": 30.816,
+ "frames30": 924,
+ "source": "silence-align (cost 1.55)",
+ "segments": [
+  [
+   0.0,
+   2.22517
+  ],
+  [
+   2.60392,
+   4.55179
+  ],
+  [
+   4.94371,
+   6.46971
+  ],
+  [
+   6.71146,
+   8.08046
+  ],
+  [
+   8.45975,
+   10.8182
+  ],
+  [
+   11.1851,
+   12.0247
+  ],
+  [
+   12.2093,
+   13.5756
+  ],
+  [
+   13.9395,
+   14.4185
+  ],
+  [
+   14.6191,
+   16.1545
+  ],
+  [
+   16.5259,
+   18.7165
+  ],
+  [
+   19.096,
+   20.1076
+  ],
+  [
+   20.4442,
+   21.5356
+  ],
+  [
+   21.9146,
+   23.4225
+  ],
+  [
+   23.5855,
+   24.5135
+  ],
+  [
+   24.8879,
+   26.1903
+  ],
+  [
+   26.578,
+   27.7607
+  ],
+  [
+   28.1398,
+   28.6718
+  ],
+  [
+   28.8333,
+   29.7048
+  ],
+  [
+   30.0446,
+   30.3853
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um segredo da qu\u00edmica foi resolvido num cochilo.",
+   "s": 0.0,
+   "e": 2.225
+  },
+  {
+   "text": "E quem deu a resposta foi uma cobra de sonho.",
+   "s": 2.604,
+   "e": 4.552
+  },
+  {
+   "text": "Em 1865,",
+   "s": 4.944,
+   "e": 6.47
+  },
+  {
+   "text": "August Kekul\u00e9 tinha um problema.",
+   "s": 6.711,
+   "e": 8.08
+  },
+  {
+   "text": "Ningu\u00e9m sabia arrumar os seis carbonos do benzeno.",
+   "s": 8.46,
+   "e": 10.818
+  },
+  {
+   "text": "Numa noite fria,",
+   "s": 11.185,
+   "e": 12.025
+  },
+  {
+   "text": "ele cochilou diante da lareira.",
+   "s": 12.209,
+   "e": 13.576
+  },
+  {
+   "text": "No sonho,",
+   "s": 13.94,
+   "e": 14.418
+  },
+  {
+   "text": "\u00e1tomos dan\u00e7avam como cobras.",
+   "s": 14.619,
+   "e": 16.154
+  },
+  {
+   "text": "Acontece que uma delas mordeu o pr\u00f3prio rabo.",
+   "s": 16.526,
+   "e": 18.716
+  },
+  {
+   "text": "Ele acordou num pulo:",
+   "s": 19.096,
+   "e": 20.108
+  },
+  {
+   "text": "o benzeno era um anel!",
+   "s": 20.444,
+   "e": 21.536
+  },
+  {
+   "text": "Esse anel virou base de rem\u00e9dios,",
+   "s": 21.915,
+   "e": 23.422
+  },
+  {
+   "text": "tintas e pl\u00e1sticos.",
+   "s": 23.585,
+   "e": 24.514
+  },
+  {
+   "text": "Muita gente duvida do sonho.",
+   "s": 24.888,
+   "e": 26.19
+  },
+  {
+   "text": "Mas o anel estava certo.",
+   "s": 26.578,
+   "e": 27.761
+  },
+  {
+   "text": "Ele dizia:",
+   "s": 28.14,
+   "e": 28.672
+  },
+  {
+   "text": "aprendam a sonhar.",
+   "s": 28.833,
+   "e": 29.705
+  },
+  {
+   "text": "Porque...",
+   "s": 30.045,
+   "e": 30.385
+  }
+ ]
+}

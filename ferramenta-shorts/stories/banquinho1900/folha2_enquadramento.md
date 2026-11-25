@@ -39,7 +39,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Era como sentar na alma do povo ashanti."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: CHE na esquerda, expressao shock; ASH na direita, expressao angry; sem multidao; acao: susto
+- PERSONAGENS: CHE na esquerda, expressao shock; ASH na direita, expressao angry; multidao de 12 (ASH, CHE) ATRAS dos principais; acao: susto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b6: "Eles se revoltaram e cercaram o forte do governador."

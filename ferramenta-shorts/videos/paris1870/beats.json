@@ -147,6 +147,8 @@
      }
     ]
    },
+   "text": "CANGURU E LOBO",
+   "placa": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -237,7 +239,7 @@
     [
      "kit/rato",
      0.0,
-     -1.2,
+     1.4,
      2.2,
      {
       "nocol": true,
@@ -299,7 +301,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "shot": "wide",
@@ -374,7 +377,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "CHF:0:grin",
     "PAR:2:shock"
@@ -386,8 +389,8 @@
    "props": [
     [
      "kit/bife_elefante",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      2.2,
      {
       "nocol": true,
@@ -408,10 +411,10 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bife_elefante",
@@ -421,10 +424,12 @@
      }
     ]
    },
+   "fachada": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -530,9 +535,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "rende",
-      "na": "zoológico",
-      "quem": 0
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "prato",
+      "na": "comida"
      }
     ]
    },
@@ -593,5 +599,5 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
  "loop_frase_ok": true,
- "max_wide": 5
+ "max_wide": 6
 }
