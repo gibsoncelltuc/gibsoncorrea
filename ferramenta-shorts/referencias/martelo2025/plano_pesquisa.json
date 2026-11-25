@@ -7,7 +7,7 @@
    "item": "O Martelo da Meia-Noite",
    "consultas": [
     "O Martelo da Meia-Noite",
-    "Uma Foi Irã Fordow 2025"
+    "Uma Foi Irã 2025"
    ]
   },
   {
@@ -106,27 +106,18 @@
    ]
   },
   {
-   "tipo": "epoca",
-   "item": "aviao da epoca",
-   "consultas": [
-    "B-2 Spirit bomber 2025",
-    "airplane 2025",
-    "airplane"
-   ]
-  },
-  {
    "tipo": "mecanismo",
-   "item": "Só uma bomba chegava lá, a antibunker, com treze toneladas. E só um av",
+   "item": "Só a bomba antibunker, de treze toneladas, chega lá.",
    "consultas": [
-    "bomba chegava antibunker treze toneladas aviao carrega",
+    "bomba antibunker treze toneladas chega",
     "bunker bomb diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Sete aviões invisíveis saíram do Missouri e viajaram dezoito horas até",
+   "item": "Sete aviões invisíveis B-2 voaram dezoito horas até o alvo.",
    "consultas": [
-    "avioes invisiveis sairam missouri viajaram dezoito",
+    "avioes invisiveis voaram dezoito",
     "b2 air diagram"
    ]
   },
@@ -140,27 +131,10 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Acontece que, de madrugada, catorze bombas caíram, doze delas sobre Fo",
+   "item": "Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow.",
    "consultas": [
     "acontece madrugada catorze bombas cairam fordow",
     "mountain bunker diagram"
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "Um submarino ainda lançou mísseis contra uma terceira usina.",
-   "consultas": [
-    "Ohio class submarine",
-    "submarino lancou misseis contra terceira usina",
-    "submarino moderno diagram"
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "Depois, os aviões voltaram para casa em segurança.",
-   "consultas": [
-    "avioes voltaram seguranca",
-    "b2 air diagram"
    ]
   }
  ]

@@ -23,7 +23,7 @@
     "loc_cidade"
    ],
    [
-    "cena 11",
+    "cena 9",
     "street",
     "loc_cidade"
    ]
@@ -52,23 +52,19 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/chess_pc",
-  "kit/egg",
   "kit/monkey_pong",
-  "kit/phone",
-  "kit/room_azul_wood",
-  "kit/room_eua_shop",
-  "kit/room_europa_wood",
-  "kit/room_verde_shop",
-  "mk/Bed_Twin1",
-  "mk/Bench",
-  "mk/Cabinet",
+  "kit/room_eua_wood",
+  "kit/room_europa_shop",
+  "kit/room_verde_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
   "mk/Crate_Metal",
-  "mk/Nightstand_Shelf",
-  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
   "mk/Stool",
   "mk/Table_Large",
   "mk/Vase_2",
-  "mk/Vase_4"
+  "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh",

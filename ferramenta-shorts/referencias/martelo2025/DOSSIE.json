@@ -16,7 +16,7 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 3",
+    "cena 4",
     "mountain",
     "loc_montanha"
    ]
@@ -47,17 +47,10 @@
   "kit/b2_air",
   "kit/bunker_bomb",
   "kit/mountain_bunker",
-  "kit/room_europa_stone",
   "kit/room_oriente_stone",
-  "kit/submarino_moderno",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Nightstand_Shelf",
-  "mk/Stool",
   "mk/Table_Large"
  ],
  "pesquisa_visual": {

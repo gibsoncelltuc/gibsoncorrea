@@ -7,7 +7,7 @@
    "item": "O Micro-ondas e o Chocolate",
    "consultas": [
     "O Micro-ondas e o Chocolate",
-    "Uma Era Estados Unidos Percy Spencer Esses 1945"
+    "Ninguém Por Percy Spencer 1945"
    ]
   },
   {
@@ -112,14 +112,6 @@
    "consultas": [
     "magnetron",
     "O Micro-ondas e o Chocolate"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 1945",
-    "factory"
    ]
   }
  ]

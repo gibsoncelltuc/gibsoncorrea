@@ -1,30 +1,28 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Gerado em 24/11 23:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:04 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SPE, COL | - | chocolate, microwave | - | Uma barra de chocolate derretida no bolso inventou o forno de micro-on
-b1 | transicao | street | reveal | ENG, ENG | 8 | - | - | Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos
-b2 | simples | interior madeira | two | SPE, ENG | - | - | - | Esses radares tinham uma peça potente, que mandava ondas invisíveis o 
-b3 | simples | interior madeira | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols
-b4 | simples | interior madeira | two | ENG, SPE | - | chocolate | - | Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
-b5 | simples | interior pedra | close | SPE | - | - | - | Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.
-b6 | chave | interior madeira | two | SPE, ENG | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou milho de pipoca, e os grãos começaram a estour
-b7 | chave | interior madeira | two | SPE, COL | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
-b8 | simples | loc_campo | orbit | SPE, COL, ENG | 6 | microwave | - | Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co
-b9 | chave | interior madeira | two | POV, POV | - | microwave | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um 
-b10 | simples | interior loja | close | SPE | - | chocolate, popcorn | - | No fim, o chocolate perdeu, mas a pipoca agradece.
-b11 | simples | street | close | SPE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | SPE, COL | - | chocolate, microwave | - | Ninguém te conta: um chocolate derretido no bolso inventou o micro-ond
+b1 | chave | interior madeira | two | POV, POV | - | microwave | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E hoje ele está em quase toda cozinha.
+b2 | transicao | street | reveal | ENG, ENG | 8 | - | - | Por volta de 1945, Percy Spencer trabalhava com radares.
+b3 | simples | interior galpao | two | SPE, ENG | - | - | - | Uma peça do radar mandava ondas invisíveis o dia inteiro.
+b4 | simples | interior galpao | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dela com chocolate no bolso.
+b5 | simples | interior madeira | two | ENG, SPE | - | chocolate | - | Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
+b6 | chave | interior madeira | two | SPE, ENG | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou pipoca, e os grãos estouraram pela sala.
+b7 | chave | interior madeira | two | SPE, COL | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, que explodiu na cara de um colega.
+b8 | simples | loc_campo | orbit | SPE, COL, ENG | 6 | microwave | - | O primeiro forno era mais alto que uma pessoa.
+b9 | simples | street | two | SPE, COL | - | chocolate, microwave, popcorn | - | O chocolate perdeu. Mas a pipoca agradece.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py microondas1945
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py microondas1945
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
