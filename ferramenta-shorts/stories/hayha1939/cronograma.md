@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 23 - A Morte Branca
 
-Gerado em 25/11 18:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,10 +10,10 @@ b0 | chave | arctic | wide | FIN, SOV | 48 | barn, haybale, picket_fence, scarec
 b1 | simples | arctic | close | SOV | - | - | - | Tão temido que os inimigos deram um apelido a ele.
 b2 | chave | arctic | crowd | SOV, SOV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1939, a União Soviética invadiu a Finlândia.
 b3 | explicativa | arctic | group | FIN, FIN, FIN | - | - | - | Fazia quarenta graus abaixo de zero.
-b4 | transicao | arctic | orbit | FIN | 32 | - | - | Esse soldado se chamava Simo Häyhä.
+b4 | simples | arctic | close | FIN | - | - | - | Esse soldado se chamava Simo Häyhä.
 b5 | simples | arctic | low | FIN | - | - | - | Vestido de branco, ele esperava imóvel na neve por horas.
 b6 | simples | arctic | close | FIN | - | - | - | Dizem que punha neve na boca para o vapor não aparecer.
-b7 | chave | arctic | wide | FIN, FIN | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos
+b7 | chave | arctic | wide | FIN, FIN | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos
 b8 | simples | arctic | close | SOV | - | - | - | Os soviéticos o chamavam de Morte Branca.
 b9 | simples | arctic | wide | FIN, SOV | 32 | - | - | Ele só dizia: fiz o meu trabalho. E foi assim que...
 

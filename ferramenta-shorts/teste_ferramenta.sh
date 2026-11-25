@@ -269,6 +269,7 @@ grep -q "o LOOP repete a 1a cena com a MESMA luz" mkvideo.py || f "loop vira noi
 grep -q "convidad|plateia|publico|multidao|torcida|espectador|curiosos', _t)) else {'n': 0" mkvideo.py || f "carro voa na frente dos convidados e os convidados somem (Roadster)"
 grep -q "FOGO ANTIAEREO = estouros no CEU" mkvideo.py || f "fogo antiaereo sem estouros no ceu (Los Angeles 1942)"
 grep -q "pausa entre frases fica curta" produce_voice.sh || f "voz da estrutura viral com pausas longas estoura 36 s"
+grep -q "close com quadro_manual (d0 5) virava panoramica" mkvideo.py || f "close do roteiro vira panoramica com camera dentro da fila (Hayha)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

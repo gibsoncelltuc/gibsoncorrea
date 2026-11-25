@@ -68,8 +68,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: tense | Cenario base: arctic | 1
 ## Cena b7  (~3.8 s)
 - Narracao: Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: atira @10 -> acao + som de efeito
+- Efeitos sonoros marcados: sting@10, thump@40, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: atira @10 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 100 DIAS
 - Funcao na historia: GRANDE MOMENTO
