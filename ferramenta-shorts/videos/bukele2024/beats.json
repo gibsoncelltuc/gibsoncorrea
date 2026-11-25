@@ -41,6 +41,13 @@
    "hat": "hair",
    "hair": "#9a9a9a",
    "glasses": true
+  },
+  "PRE": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d9d9d9",
+   "hat": "hair",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -124,8 +131,8 @@
   {
    "shot": "two",
    "who": [
-    "BUK:0:grin",
-    "POV:0:smile"
+    "BUK:0:stern",
+    "POV:0:nervous"
    ],
    "say": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
    "fx": [
@@ -147,13 +154,14 @@
    },
    "quadro_manual": true,
    "shot_lock": true,
-   "cx": 0,
-   "cz": 0,
+   "cx": 0.0,
+   "cz": -0.4,
    "h": 1.6,
-   "d0": 11.0,
-   "d1": 10.0,
+   "d0": 8.0,
+   "d1": 6.5,
    "detalhe": false,
-   "vary": false
+   "vary": false,
+   "text": "FIM DAS GANGUES"
   },
   {
    "shot": "two",
@@ -292,8 +300,8 @@
    "shot": "two",
    "interior": false,
    "who": [
-    "REP:0:shock:paper",
-    "BUK:0:smug"
+    "BUK:0:laugh",
+    "REP:0:shock:paper"
    ],
    "fx": [
     "ring@20",
@@ -319,7 +327,12 @@
       "na": "votos"
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.3,
+   "d0": 7.0,
+   "d1": 5.5
   },
   {
    "shot": "two",
@@ -369,11 +382,12 @@
    },
    "quadro_manual": true,
    "shot_lock": true,
-   "cx": 0,
-   "cz": -0.8,
+   "cx": 0.0,
+   "cz": -1.5,
    "h": 1.6,
-   "d0": 8.0,
-   "d1": 7.0
+   "d0": 10.0,
+   "d1": 8.5,
+   "text": "VITÓRIA"
   },
   {
    "shot": "two",
@@ -420,8 +434,8 @@
     [
      "kit/prison",
      0.0,
-     -23.3,
-     2.65,
+     -12.0,
+     1.4,
      {
       "fixo": true
      }
@@ -429,21 +443,14 @@
    ],
    "fachada": false,
    "crowd": {
-    "n": 0
+    "n": 14,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "sad"
    },
    "detalhe": false,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/prison",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -455,12 +462,13 @@
     ]
    },
    "vary": false,
-   "_enq_shot": "wide",
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 15.0,
+   "d1": 13.0,
+   "text": "PRISÕES EM MASSA",
+   "quadro_manual": true
   },
   {
    "shot": "group",

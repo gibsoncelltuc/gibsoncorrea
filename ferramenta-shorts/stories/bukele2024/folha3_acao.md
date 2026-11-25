@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.0s - 11 palavras - plano two
@@ -50,17 +50,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (9.4s) | EFEITO: dust | poeira + som | OK |
 | 2 | prometendo (10.1s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | INTERACAO | susto | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | CHEGADA | alguem entra andando | OK |
+| 6 | - | PLACA | FIM DAS GANGUES | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegou (9.4s): executa: poeira + som
 - ACAO: fala na palavra prometendo (10.1s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - CHEGADA (a cena toda): executa: alguem entra andando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
 ## Cena b3 - 12.9s a 17.6s - 20 palavras - plano two
@@ -89,13 +91,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ilegal (21.5s) | EFEITO: ring | onda + som | OK |
-| 2 | - | INTERACAO | susto | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: ring na palavra ilegal (21.5s): executa: onda + som
-- INTERACAO (a cena toda): executa: susto
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
@@ -118,7 +120,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
 
 - LEITURA DA FRASE: sentido FATO
-  1) REP a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "votos" (33.1s)
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "votos" (33.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -144,12 +146,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | comemorou (36.4s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | VITÓRIA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: vence na palavra comemorou (36.4s): executa: bracos para cima + brilho
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 12: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
@@ -162,14 +166,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caíram (40.0s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | insiste | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | 106 → 2,4 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra caíram (40.0s): executa: poeira + som
-- INTERACAO (a cena toda): executa: insiste
+- INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -184,11 +188,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | PRISÕES EM MASSA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 14: parada, reagindo (sad), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b10 - 50.3s a 54.7s - 16 palavras - plano group

@@ -4,14 +4,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 84,6% | - | -
 b1 | reveal | -  | tropa, placa: NAYIB BUKELE, mapa | - | -
-b2 | two | -  | - | chegou (dust + som de impacto); encena: fala (point) @4 (acao + som de efeito) | -
+b2 | two | -  | placa: FIM DAS GANGUES | chegou (dust + som de impacto); encena: fala (point) @4 (acao + som de efeito) | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | two | -  | objeto na mao | ilegal (ring + som de alerta) | -
 b5 | wide | -  | tropa | - | -
 b6 | orbit | -  | batalha aberta com tiros, placa: 84,6%, objeto na mao | - | -
-b7 | two | dusk  | tropa | (rosto) laugh (expr + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
+b7 | two | dusk  | tropa, placa: VITÓRIA | (rosto) laugh (expr + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
 b8 | two | -  | interior, placa: 106 → 2,4, objeto na mao | caíram (dust + som de impacto) | -
-b9 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
+b9 | wide | -  | batalha aberta com tiros, tropa, placa: PRISÕES EM MASSA, objeto na mao | - | -
 b10 | group | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
