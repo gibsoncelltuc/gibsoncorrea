@@ -82,3 +82,6 @@
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
 - b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 08:01 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro

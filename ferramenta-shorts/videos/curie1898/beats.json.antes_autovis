@@ -191,15 +191,6 @@
      {
       "fixo": true
      }
-    ],
-    [
-     "kit/curie_box",
-     1.8,
-     -1.4,
-     1.0,
-     {
-      "fixo": true
-     }
     ]
    ],
    "fx": [
@@ -236,17 +227,11 @@
    "h": 2.2,
    "quadro": {
     "local": "galpao",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pechblenda juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/curie_box",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/pechblenda",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -413,9 +398,9 @@
    "props": [
     [
      "kit/curie_box",
-     2.4,
-     0.2,
-     1.5,
+     0.9,
+     -1.2,
+     1.1,
      {
       "fixo": true
      }
@@ -434,23 +419,23 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "cx": 0.3,
+   "cz": -0.6,
+   "d0": 8.0,
+   "d1": 6.8,
+   "quadro_manual": true,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
       "objeto": "kit/curie_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
       "estado": "parado"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
