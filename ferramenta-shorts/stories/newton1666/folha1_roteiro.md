@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 01 - Newton e a Maçã
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countryside | 11 cenas, 164 palavras (~57 s)
 
 ## Cena b0  (~5.2 s)
 - Narracao: Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.

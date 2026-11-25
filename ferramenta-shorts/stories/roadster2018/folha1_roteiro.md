@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 153 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: harbor | 11 cenas, 153 palavras (~53 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Um carro de verdade está dando voltas ao redor do Sol até hoje.
