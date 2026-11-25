@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila medieval; hora: day
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao neutral; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: SICÍLIA (cobre a tela 1-2 s)
 
 ## b2: "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives."
@@ -40,7 +40,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)
 - PERSONAGENS: ARQ no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: whoosh@50
@@ -58,9 +58,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ARQ na esquerda, expressao grin; OUR na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/coroa_louros: FRENTE, centro (objeto principal da cena); tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
 ## b9: "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
 - LOCAL: vila medieval; hora: day
@@ -77,5 +77,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: REI na esquerda, expressao smile; OUR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

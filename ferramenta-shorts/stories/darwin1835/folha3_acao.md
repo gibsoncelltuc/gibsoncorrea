@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 26 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
@@ -68,12 +68,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido FATO
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (31.6s)
+  2) objeto acao do motor: quebra | alvo: kit/finch_thick | na palavra "quebrar" (33.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| ! | quebrar | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 1 | - | CENA | objeto: finch_thick quebra (na palavra "quebrar") | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 36.7s a 40.4s - 14 palavras - plano wide
 > "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida."

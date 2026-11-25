@@ -1,13 +1,13 @@
 {
  "id": "arquimedes250",
- "ano": 2000,
+ "ano": -250,
  "itens": [
   {
    "tipo": "tema",
    "item": "Arquimedes e o Eureca",
    "consultas": [
     "Arquimedes e o Eureca",
-    "Um Foi Siracusa Sicília Hierão 2000"
+    "Um Foi Siracusa Sicília Hierão -250"
    ]
   },
   {
@@ -15,23 +15,23 @@
    "item": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra,",
    "consultas": [
     "Siracusa cidade grega na Sicilia",
-    "Siracusa cidade grega na Sicilia 2000"
+    "Siracusa cidade grega na Sicilia -250"
    ]
   },
   {
    "tipo": "lugar",
    "item": "Sicília",
    "consultas": [
-    "Sicília 2000",
+    "Sicília -250",
     "Sicília landscape"
    ]
   },
   {
    "tipo": "epoca",
-   "item": "roupas e ruas de 2000",
+   "item": "roupas e ruas de -250",
    "consultas": [
-    "2000 fashion clothing",
-    "2000 street photograph"
+    "-250 fashion clothing",
+    "-2th century clothing painting"
    ]
   },
   {
@@ -39,7 +39,7 @@
    "item": "Arquimedes, sabio de Siracusa",
    "consultas": [
     "Arquimedes sabio de Siracusa",
-    "Arquimedes sabio de Siracusa 2000"
+    "Arquimedes sabio de Siracusa -250"
    ]
   },
   {
@@ -47,7 +47,7 @@
    "item": "rei Hierao II",
    "consultas": [
     "rei Hierao II",
-    "rei Hierao II 2000"
+    "rei Hierao II -250"
    ]
   },
   {
@@ -55,7 +55,7 @@
    "item": "o ourives da coroa",
    "consultas": [
     "o ourives da coroa",
-    "o ourives da coroa 2000"
+    "o ourives da coroa -250"
    ]
   },
   {
@@ -63,7 +63,7 @@
    "item": "moradores de Siracusa",
    "consultas": [
     "moradores de Siracusa",
-    "moradores de Siracusa 2000"
+    "moradores de Siracusa -250"
    ]
   },
   {
@@ -72,7 +72,7 @@
    "consultas": [
     "gold laurel wreath ancient greek",
     "coroa de ouro",
-    "coroa de ouro 2000"
+    "coroa de ouro -250"
    ]
   },
   {
@@ -81,7 +81,7 @@
    "consultas": [
     "ancient greek bathtub terracotta",
     "banheira",
-    "banheira 2000"
+    "banheira -250"
    ]
   },
   {
@@ -90,7 +90,7 @@
    "consultas": [
     "ancient balance scale",
     "balanca de pratos",
-    "balanca de pratos 2000"
+    "balanca de pratos -250"
    ]
   },
   {
@@ -99,7 +99,7 @@
    "consultas": [
     "gold ingot ancient",
     "barra de ouro",
-    "barra de ouro 2000"
+    "barra de ouro -250"
    ]
   },
   {

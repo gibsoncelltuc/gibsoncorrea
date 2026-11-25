@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Gerado em 25/11 01:25 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 01:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | transicao | street | reveal | MED, MED | 8 | marco_bigben | - | Era mil nov
 b2 | simples | interior madeira | two | FLE, COL | - | - | - | Ele estudava bactérias e deixava os pratos de cultura empilhados na ba
 b3 | chave | loc_campo | wide | FLE, COL | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um dia, ele saiu de férias por um mês e não limpou nada.
 b4 | simples | interior pedra | two | COL, FLE | - | bancada, gosma, petri | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
-b5 | simples | interior pedra | two | FLE | - | bancada, gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
+b5 | simples | interior pedra | group | FLE | - | bancada, gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
 b6 | simples | interior pedra | two | FLE, COL | - | bancada, gosma, petri | - | Acontece que, em volta do mofo, as bactérias tinham sumido.
 b7 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/petri (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
 b8 | simples | interior pedra | group | MED, MED, POV | - | petri | - | Anos depois, outros cientistas transformaram o bolor em remédio, e ele
@@ -30,13 +30,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh fleming1928
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh fleming1928
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh fleming1928
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local fleming1928 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

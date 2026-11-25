@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ARQ (variante 0, expressao grin); OUR (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
-- Objetos/modelos: kit/crown
+- Objetos/modelos: kit/coroa_louros, kit/crown
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
 - RISCOS: nenhum
 
@@ -129,6 +129,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bathtub | b0, b1, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/crown | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coroa_louros | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

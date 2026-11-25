@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
 - Som ambiente: sea
 - Efeitos sonoros marcados: cannon@68
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: objeto: submarino_ww2 atira (na palavra "atirado") -> acao + som de efeito
 - Efeito visual marcado: burst@68
 - Texto na tela: SUBMARINO JAPONÊS
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: objeto: searchlight toca (na palavra "tocaram") -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

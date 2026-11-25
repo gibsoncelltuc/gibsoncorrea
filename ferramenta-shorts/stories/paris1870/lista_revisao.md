@@ -4,7 +4,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b3: objeto "kit/panela" saiu com 13% da altura da tela, a ficha de cena planejou 32%
+2. b3: objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32%
 3. b9: objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)

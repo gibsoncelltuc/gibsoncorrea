@@ -111,7 +111,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "FLE"
    ],

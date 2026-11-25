@@ -9,7 +9,7 @@ b1 | street | reveal | 10 | parados (so fala e pisca) | kit/marco_bigben | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | book | -
 b3 | loc_campo | wide | 2 | reagir, batalha | - | bag | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: discutir | kit/bancada, kit/petri, kit/gosma | - | -
-b5 | interior pedra | two | 1 | conversar | kit/bancada, kit/petri, kit/gosma | - | -
+b5 | interior pedra | group | 1 | conversar | kit/bancada, kit/petri, kit/gosma | - | -
 b6 | interior pedra | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/bancada, kit/petri, kit/gosma | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | interior pedra | group | 3 | comemorar, INTERAGEM: pular | kit/petri | - | -

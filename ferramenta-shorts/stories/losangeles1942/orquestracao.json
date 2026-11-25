@@ -3,7 +3,7 @@
  "ano": 1942,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 82,
+  "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -66,12 +66,10 @@
    "palavras": 16,
    "cena": "b2",
    "frase": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "atirado"
-   ],
+   "acoes_faltando": [],
    "cenario": "harbor"
   },
   {
@@ -93,9 +91,7 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [
-    "tocaram"
-   ],
+   "acoes_faltando": [],
    "cenario": "harbor"
   },
   {

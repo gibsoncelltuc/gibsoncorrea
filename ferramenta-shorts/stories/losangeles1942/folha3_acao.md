@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 37 com animacao, 2 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -35,23 +35,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "submarino" (12.6s)
+  2) objeto atira com a arma (clarao na boca do cano + som) | alvo: kit/submarino_ww2 | na palavra "atirado" (13.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | SUBMARINO JAPONÊS | OK |
-| ! | atirado | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 1 | - | CENA | objeto: submarino_ww2 atira (na palavra "atirado") | OK |
+| 2 | - | PLACA | SUBMARINO JAPONÊS | OK |
 
 ## Cena b3 - 17.8s a 23.2s - 16 palavras - plano low
 > "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "holofotes" (22.0s)
+  1) objeto acao do motor: toca | alvo: kit/searchlight | na palavra "tocaram" (19.3s)
+  2) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "holofotes" (22.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| ! | tocaram | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 1 | - | CENA | objeto: searchlight toca (na palavra "tocaram") | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.2s a 28.4s - 15 palavras - plano wide
 > "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
