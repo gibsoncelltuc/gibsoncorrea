@@ -87,44 +87,22 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 30c3c71a ckpt(jenkins1739): pronto
-- b2fb43f4 ckpt(jenkins1739): fim da sessao de render
-- a369b664 ckpt(jenkins1739): etapa gate
-- 9d58c2c2 ckpt(jenkins1739): etapa fit
-- a6ff3abf ckpt(jenkins1739): etapa style
+- daaabe12 ckpt(jenkins1739): trecho 2
+- 87ccc06d ckpt(jenkins1739): trecho 1
+- b6ab9441 ckpt(jenkins1739): trecho 6
+- 7c32b025 ckpt(jenkins1739): trecho 5
+- f3aa9cb0 ckpt(jenkins1739): trecho 4
 
-**In-progress files (81):**
-- ferramenta-shorts/referencias/zz_coelho/DOSSIE.json
-- ferramenta-shorts/referencias/zz_coelho/FICHA.md
-- ferramenta-shorts/stories/banquinho1900/autocorrecoes.md
-- ferramenta-shorts/stories/banquinho1900/cronograma.md
-- ferramenta-shorts/stories/banquinho1900/folha2_producao.md
-- ferramenta-shorts/stories/banquinho1900/folha3_acao.md
-- ferramenta-shorts/stories/banquinho1900/lista_revisao.md
-- ferramenta-shorts/stories/banquinho1900/precheck.jpg
-- ferramenta-shorts/stories/banquinho1900/storyboard.cenas
-- ferramenta-shorts/stories/banquinho1900/storyboard.hash
-- ferramenta-shorts/stories/banquinho1900/visibilidade.txt
-- ferramenta-shorts/stories/lagosta1961/autocorrecoes.md
-- ferramenta-shorts/stories/lagosta1961/cronograma.md
-- ferramenta-shorts/stories/lagosta1961/folha2_producao.md
-- ferramenta-shorts/stories/lagosta1961/folha3_acao.md
-- ferramenta-shorts/stories/lagosta1961/lista_revisao.md
-- ferramenta-shorts/stories/lagosta1961/precheck.jpg
-- ferramenta-shorts/stories/lagosta1961/storyboard.cenas
-- ferramenta-shorts/stories/lagosta1961/storyboard.hash
-- ferramenta-shorts/stories/lagosta1961/visibilidade.txt
-- ferramenta-shorts/stories/melancia1856/cronograma.md
-- ferramenta-shorts/stories/melancia1856/fails
-- ferramenta-shorts/stories/melancia1856/folha2_producao.md
-- [truncated — 58 more files]
+**In-progress files (2):**
+- ferramenta-shorts/mkvideo.py
+- ferramenta-shorts/teste_ferramenta.sh
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-25 15:36:51 UTC
+**Hook generated:** 2026-11-25 18:00:50 UTC
 <!-- post-compact-recovery-end -->
 
 ## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)

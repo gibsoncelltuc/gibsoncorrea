@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~3.8 s)
 - Narracao: Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
