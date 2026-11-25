@@ -1,25 +1,34 @@
-gancho: Bukele de terno escuro e comerciantes com a moeda de bitcoin diante de predios e texto 9 EM 10 NAO ENTENDIAM, frase 'um pais aceitou o bitcoin como dinheiro, e nove em dez nao entendiam'; sem data; impacto visual medio (moeda grande ao lado).
-piloto: abaixo do Roadster EP25 em acao (so' conversa), mas todos os pontos da lista unica foram corrigidos e o fato novo (compra e queda do preco) aparece; ressalva honesta: a queda do preco so' aparece como texto PRECO DESPENCOU, sem grafico.
-f0: OK - um pais aceitou o bitcoin como dinheiro: Bukele e comerciantes com a moeda e texto 9 EM 10 NAO ENTENDIAM.
-f1: OK - nove em dez moradores nao entendiam: mesmo grupo, rostos de duvida.
-f2: OK - foi em El Salvador: mapa EL SALVADOR.
-f3: OK - na America Central: mesmo mapa.
-f4: OK - a ideia foi do presidente Nayib Bukele: close de Bukele sorrindo (b1 da lista unica).
-f5: OK - ele anunciou o projeto em junho: Bukele com deputados de roxo, placa LEI APROVADA (b2 da lista unica, assembleia na rua).
-f6: OK - o congresso aprovou poucos dias depois: deputados e Bukele, LEI APROVADA.
-f7: OK - a lei passou a valer em sete de setembro: grupo na rua com vulcao e texto 7 DE SETEMBRO.
-f8: OK - o pais foi o primeiro do mundo: mesma cena.
-f9: OK - para convencer o povo: fila com comerciantes, moeda e texto US$ 30.
-f10: OK - prometeu trinta dolares em bitcoin: moeda grande em primeiro plano e US$ 30.
-f11: OK - acontece que: close do cliente de verde com celular azul e FORA DO AR (b5 da lista unica).
-f12: OK - no lancamento: mesmo close.
-f13: OK - o aplicativo ficou fora do ar: celular azul com FORA DO AR e cliente de espanto.
-f14: OK - pesquisa, 68% discordavam: dois personagens discutindo, texto 68% DISCORDAM.
-f15: OK - o governo comprou bitcoins com dinheiro publico: Bukele numa sala com a moeda grande.
-f16: OK - e o preco da moeda despencou: Bukele preocupado com texto PRECO DESPENCOU (sem grafico).
-f17: OK - mesmo assim: personagens na rua com o globo.
-f18: OK - virou assunto no mundo inteiro: personagens comemorando com o globo.
-f19: OK - uma moeda digital: Bukele com papel e a moeda.
-f20: OK - uma lei nova e um pais no centro das atencoes: Bukele e comerciante com a moeda.
-f21: OK - agora nao deixe de comentar: Bukele rindo e COMENTE.
-f22: OK - qual deve ser o tema do proximo video: Bukele rindo e COMENTE.
+f0: OK - presidente com o povo e a moeda bitcoin gigante no alto, dinheiro oficial de um pais inteiro
+f1: OK - mapa de El Salvador com o pino
+f2: OK - o presidente Nayib Bukele em plano medio sorrindo
+f3: OK - setembro de dois mil e vinte e um: placa 1º PAIS DO MUNDO com o povo comemorando
+f4: OK - primeiro pais do mundo: placa e povo em volta, moeda atras do grupo
+f5: OK - carteira digital ganhava trinta dolares: moeda girando no quadro azul do contador de bonus
+f6: OK - primeiro dia: povo com celular e a moeda, cara de duvida
+f7: OK - aplicativo travou: poeira e susto, celular na mao do cliente
+f8: OK - despencou mais de dez por cento: grafico BITCOIN NO DIA 1 caindo em vermelho
+f9: OK - mesmo assim: moeda dourada girando em destaque
+f10: OK - governo comprando bitcoins: contador BITCOINS COMPRADOS subindo
+f11: OK - nao e so comprar: vulcao com ENERGIA DO VULCAO e os racks
+f12: OK - minera bitcoin com a energia de um vulcao: racks de mineracao ao pe do vulcao
+f13: OK - computadores fazendo contas: rack de mineracao com COMPUTADOR CALCULA
+f14: OK - acerta primeiro ganha bitcoins: passos ACERTA PRIMEIRO e GANHA BITCOIN
+f15: OK - em novembro: Bukele rindo com dinheiro e a moeda
+f16: OK - bateu sessenta e nove mil dolares: grafico subindo verde
+f17: OK - acontece que: Bukele ao lado da moeda, virada
+f18: OK - um ano depois: Bukele preocupado com a moeda
+f19: OK - despencou para dezesseis mil: grafico vermelho descendo
+f20: OK - perdeu milhoes no papel: grafico ate US$ 16.000 e Bukele de boca aberta
+f21: OK - pesquisas: povo de cara fechada na rua
+f22: OK - sessenta e oito por cento contra: contador CONTRA O BITCOIN 68 %
+f23: OK - dezembro de dois mil e vinte e quatro: moeda dourada em destaque
+f24: OK - passou de cem mil dolares: grafico 2022-2024 subindo
+f25: OK - reservas: placa PREJUIZO -> LUCRO com o grupo e a moeda
+f26: OK - no prejuizo: placa PREJUIZO -> LUCRO, grupo surpreso
+f27: OK - viraram lucro: grupo comemorando sob a moeda
+f28: OK - aposta maluca ou visao de futuro: Bukele com a moeda
+f29: OK - voce decide: moeda em destaque no por do sol
+f30: OK - deixe de comentar: placa COMENTE com Bukele rindo
+f31: OK - tema do proximo video: COMENTE e Bukele com a moeda
+gancho: presidente com o povo e uma moeda bitcoin gigante no ceu nos primeiros segundos, frase de impacto
+piloto: mesmo nivel do Roadster EP25: graficos de queda e alta, contadores, mineracao no vulcao explicada, moeda heroi em todas as cenas

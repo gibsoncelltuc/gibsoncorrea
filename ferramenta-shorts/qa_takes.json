@@ -1,47 +1,4 @@
 {
- "fails": [
-  {
-   "f": 1340,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  },
-  {
-   "f": 1344,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  },
-  {
-   "f": 1345,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  },
-  {
-   "f": 1348,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  },
-  {
-   "f": 1352,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  },
-  {
-   "f": 1356,
-   "shot": "b7~3",
-   "why": [
-    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }
