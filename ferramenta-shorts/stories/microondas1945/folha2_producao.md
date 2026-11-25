@@ -134,7 +134,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que ele testou milho de pipoca, e os grãos começaram a estour...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): SPE (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
@@ -145,7 +145,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)
 - PERSONAGENS: SPE no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/popcorn: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
@@ -157,7 +157,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): SPE (variante 0, expressao grin)
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
@@ -168,7 +168,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)
 - PERSONAGENS: SPE no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/egg: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena

@@ -113,7 +113,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 31.1s a 35.2s - 15 palavras - plano two
+## Cena b6 - 31.1s a 35.2s - 15 palavras - plano group
 > "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -135,7 +135,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 36.4s a 39.4s - 14 palavras - plano group
+## Cena b7 - 36.4s a 39.4s - 14 palavras - plano two
 > "Depois testou um ovo, e o ovo explodiu bem na cara de um colega."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
