@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile, segura bag; FRE (padre) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
 
@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
 - PERSONAGENS: MEN (padre) na esquerda, expressao grin; FRE (padre) na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
@@ -32,7 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 11.5 m)
 - PERSONAGENS: MEN (padre) na esquerda, expressao surprised; FRE (padre) na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/pea_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b4: "Mendel ficou curioso: para onde tinha ido o verde?"
 - LOCAL: sala de madeira; hora: day
@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
 - PERSONAGENS: MEN (padre) na esquerda, expressao shock; FRE (padre) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
@@ -78,7 +78,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)
 - PERSONAGENS: CIE (cientista) na esquerda, expressao surprised; CIE (cientista) no centro, expressao grin; CIE (cientista) na direita, expressao smile; sem multidao; acao: comemorar
-- OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_green: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
@@ -90,5 +90,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/pea_green: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_green: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

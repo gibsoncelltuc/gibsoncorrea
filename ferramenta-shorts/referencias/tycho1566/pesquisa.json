@@ -6,9 +6,46 @@
    "item": "O Astrônomo do Nariz de Metal",
    "consultas": [
     "O Astrônomo do Nariz de Metal",
-    "Um Era Tycho Brahe Dinamarca Alemanha Numa 1566"
+    "Um Era Tycho Brahe Alemanha Numa 1566"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio",
+   "consultas": [
+    "Rostock",
+    "Rostock Alemanha em 1566 ilha de Hven Dinamarca com o castelo-observatorio Uraniborg 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "20140327 Rostock Marienkirche DSC09871 PtrQs.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/20140327_Rostock_Marienkirche_DSC09871_PtrQs.jpg/500px-20140327_Rostock_Marienkirche_DSC09871_PtrQs.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A20140327_Rostock_Marienkirche_DSC09871_PtrQs.jpg",
+     "descricao": "I, the copyright holder \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/tycho1566/prints/rostock_alemanha_em_1566_ilha_de_hven_di_1a97ff.jpg",
+     "consulta": "Rostock"
+    },
+    {
+     "titulo": "Rostock asv2018-05 img38 NeuerMarkt.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Rostock_asv2018-05_img38_NeuerMarkt.jpg/500px-Rostock_asv2018-05_img38_NeuerMarkt.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARostock_asv2018-05_img38_NeuerMarkt.jpg",
+     "descricao": "https://commons.wikimedia.org/wiki/user:A.Savin author name string: A.Savin object \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/tycho1566/prints/rostock_alemanha_em_1566_ilha_de_hven_di_8c7c28.jpg",
+     "consulta": "Rostock"
+    },
+    {
+     "titulo": "Rostock 20220718, 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rostock_20220718%2C_02.jpg/500px-Rostock_20220718%2C_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARostock_20220718%2C_02.jpg",
+     "descricao": "I, the copyright holder \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/tycho1566/prints/rostock_alemanha_em_1566_ilha_de_hven_di_9a13be.jpg",
+     "consulta": "Rostock"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -56,6 +93,15 @@
    ],
    "achados": [
     {
+     "titulo": "Jan van der Straet Portrait (Alessandro Capponi) 1566.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jan_van_der_Straet_Portrait_%28Alessandro_Capponi%29_1566.jpg/500px-Jan_van_der_Straet_Portrait_%28Alessandro_Capponi%29_1566.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJan_van_der_Straet_Portrait_%28Alessandro_Capponi%29_1566.jpg",
+     "descricao": "DescriptionJan van der Straet Portrait (Alessandro Capponi) \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/roupas_e_ruas_de_1566_89989d.jpg",
+     "consulta": "1566 fashion clothing"
+    },
+    {
      "titulo": "Thomas Percy Earl of Northumberland 1566.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Thomas_Percy_Earl_of_Northumberland_1566.jpg/500px-Thomas_Percy_Earl_of_Northumberland_1566.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AThomas_Percy_Earl_of_Northumberland_1566.jpg",
@@ -72,15 +118,265 @@
      "ordem": 3,
      "print": "referencias/tycho1566/prints/roupas_e_ruas_de_1566_4a0a2f.jpg",
      "consulta": "1566 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Tycho Brahe (bigode longo, gibao nobre, nariz de metal)",
+   "consultas": [
+    "Tycho Brahe bigode longo gibao nobre nariz de metal",
+    "Tycho Brahe bigode longo gibao nobre nariz de metal 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Kopenhagen (DK), Tycho-Brahe-Planetarium -- 2017 -- 1463.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1463.jpg/500px-Kopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1463.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1463.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/tycho_brahe_bigode_longo_gibao_nobre_nar_778470.jpg",
+     "consulta": "Tycho Brahe"
     },
     {
-     "titulo": "Jacobite broadside - Coloured portrait of James VI and I (1566-1625) enh.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Jacobite_broadside_-_Coloured_portrait_of_James_VI_and_I_%281566-1625%29_enh.jpg/500px-Jacobite_broadside_-_Coloured_portrait_of_James_VI_and_I_%281566-1625%29_enh.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJacobite_broadside_-_Coloured_portrait_of_James_VI_and_I_%281566-1625%29_enh.jpg",
-     "descricao": "(\\u003Cspan class=\\",
+     "titulo": "Kopenhagen (DK), Tycho-Brahe-Planetarium -- 2017 -- 1457.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Kopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1457.jpg/500px-Kopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1457.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKopenhagen_%28DK%29%2C_Tycho-Brahe-Planetarium_--_2017_--_1457.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/tycho1566/prints/tycho_brahe_bigode_longo_gibao_nobre_nar_4c43ea.jpg",
+     "consulta": "Tycho Brahe"
+    },
+    {
+     "titulo": "TychoBraheMars.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/TychoBraheMars.jpg/500px-TychoBraheMars.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATychoBraheMars.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 4,
-     "print": "referencias/tycho1566/prints/roupas_e_ruas_de_1566_948838.jpg",
-     "consulta": "1566 fashion clothing"
+     "print": "referencias/tycho1566/prints/tycho_brahe_bigode_longo_gibao_nobre_nar_48071c.jpg",
+     "consulta": "Tycho Brahe"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "primo Manderup Parsbjerg",
+   "consultas": [
+    "primo Manderup Parsbjerg",
+    "primo Manderup Parsbjerg 1566"
+   ],
+   "achados": []
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rei Frederico II da Dinamarca",
+   "consultas": [
+    "rei Frederico II da Dinamarca",
+    "rei Frederico II da Dinamarca 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Frederik III, 1663.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Frederik_III%2C_1663.jpg/500px-Frederik_III%2C_1663.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrederik_III%2C_1663.jpg",
+     "descricao": "English: Portrait \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/rei_frederico_ii_da_dinamarca_0787c6.jpg",
+     "consulta": "rei Frederico II da Dinamarca"
+    },
+    {
+     "titulo": "Frederik III i rustning.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Frederik_III_i_rustning.jpg/500px-Frederik_III_i_rustning.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFrederik_III_i_rustning.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/tycho1566/prints/rei_frederico_ii_da_dinamarca_7b73a4.jpg",
+     "consulta": "rei Frederico II da Dinamarca"
+    },
+    {
+     "titulo": "1581 Frederik 2..jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/1581_Frederik_2..jpg/500px-1581_Frederik_2..jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1581_Frederik_2..jpg",
+     "descricao": "Hans Knieper: Portrait \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/tycho1566/prints/rei_frederico_ii_da_dinamarca_877446.jpg",
+     "consulta": "rei Frederico II da Dinamarca"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Johannes Kepler",
+   "consultas": [
+    "Johannes Kepler",
+    "Johannes Kepler 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Johannes Kepler University Linz - driveway sign PNr°1112.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Johannes_Kepler_University_Linz_-_driveway_sign_PNr%C2%B01112.jpg/500px-Johannes_Kepler_University_Linz_-_driveway_sign_PNr%C2%B01112.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_University_Linz_-_driveway_sign_PNr%C2%B01112.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/johannes_kepler_fa9c08.jpg",
+     "consulta": "Johannes Kepler"
+    },
+    {
+     "titulo": "Johannes Kepler University Linz - bar Teichwerk-small PNr°1115.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Johannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg/500px-Johannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/tycho1566/prints/johannes_kepler_8589c9.jpg",
+     "consulta": "Johannes Kepler"
+    },
+    {
+     "titulo": "Johannes Kepler by Hans von Aachen.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Johannes_Kepler_by_Hans_von_Aachen.jpg/500px-Johannes_Kepler_by_Hans_von_Aachen.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_by_Hans_von_Aachen.jpg",
+     "descricao": "Hans von Aachen: Portrait of a man, possibly \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/tycho1566/prints/johannes_kepler_8d5cf8.jpg",
+     "consulta": "Johannes Kepler"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "nariz de latao",
+   "consultas": [
+    "nariz de latao",
+    "nariz de latao 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Grant of arms2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Grant_of_arms2.jpg/500px-Grant_of_arms2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGrant_of_arms2.jpg",
+     "descricao": "English determination method or standard: SHA-\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/nariz_de_latao_53a65e.jpg",
+     "consulta": "1566"
+    },
+    {
+     "titulo": "Sebastián Martínez (1566) marca de imprenta.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sebasti%C3%A1n_Mart%C3%ADnez_%281566%29_marca_de_imprenta.png/500px-Sebasti%C3%A1n_Mart%C3%ADnez_%281566%29_marca_de_imprenta.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASebasti%C3%A1n_Mart%C3%ADnez_%281566%29_marca_de_imprenta.png",
+     "descricao": "English Spanish Marca del impresor Sebastián Martínez, en \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/tycho1566/prints/nariz_de_latao_bf955b.jpg",
+     "consulta": "1566"
+    },
+    {
+     "titulo": "Beeldenstorm (Iconoclastic Fury) in Antwerpen 1566 Frans Hogenberg.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Beeldenstorm_%28Iconoclastic_Fury%29_in_Antwerpen_1566_Frans_Hogenberg.jpg/500px-Beeldenstorm_%28Iconoclastic_Fury%29_in_Antwerpen_1566_Frans_Hogenberg.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABeeldenstorm_%28Iconoclastic_Fury%29_in_Antwerpen_1566_Frans_Hogenberg.jpg",
+     "descricao": "English determination method or standard: SHA-\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/tycho1566/prints/nariz_de_latao_765577.jpg",
+     "consulta": "1566"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "espadas",
+   "consultas": [
+    "espadas",
+    "espadas 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Falchion Sword by Jack Loomes of Alae Swords & Sword-Site.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Falchion_Sword_by_Jack_Loomes_of_Alae_Swords_%26_Sword-Site.jpg/500px-Falchion_Sword_by_Jack_Loomes_of_Alae_Swords_%26_Sword-Site.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFalchion_Sword_by_Jack_Loomes_of_Alae_Swords_%26_Sword-Site.jpg",
+     "descricao": "medieval falchion \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/espadas_416206.jpg",
+     "consulta": "espadas"
+    },
+    {
+     "titulo": "CoR Members portraits - Juan ESPADAS CEJAS.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/CoR_Members_portraits_-_Juan_ESPADAS_CEJAS.jpg/500px-CoR_Members_portraits_-_Juan_ESPADAS_CEJAS.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACoR_Members_portraits_-_Juan_ESPADAS_CEJAS.jpg",
+     "descricao": "Attribution 2.0 truetrue 1 November 2020 English CoR Members portraits - Juan \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/tycho1566/prints/espadas_dc631d.jpg",
+     "consulta": "espadas"
+    },
+    {
+     "titulo": "Juan Espadas 2015b (cropped).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Juan_Espadas_2015b_%28cropped%29.jpg/500px-Juan_Espadas_2015b_%28cropped%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJuan_Espadas_2015b_%28cropped%29.jpg",
+     "descricao": "DescriptionJuan \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/tycho1566/prints/espadas_718e58.jpg",
+     "consulta": "espadas"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "quadrante mural",
+   "consultas": [
+    "quadrante mural",
+    "quadrante mural 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "Mural consciencia nacional.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mural_consciencia_nacional.JPG/500px-Mural_consciencia_nacional.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMural_consciencia_nacional.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/quadrante_mural_c77f68.jpg",
+     "consulta": "quadrante mural"
+    },
+    {
+     "titulo": "Portrait of a woman (1952) - António Charrua (1925-2008).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Portrait_of_a_woman_%281952%29_-_Ant%C3%B3nio_Charrua_%281925-2008%29.jpg/500px-Portrait_of_a_woman_%281952%29_-_Ant%C3%B3nio_Charrua_%281925-2008%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APortrait_of_a_woman_%281952%29_-_Ant%C3%B3nio_Charrua_%281925-2008%29.jpg",
+     "descricao": "Galeria de Arte Moderna, Sociedade Nacional de Belas-Artes, Lisbon, Galeria \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/tycho1566/prints/quadrante_mural_d79a55.jpg",
+     "consulta": "quadrante mural"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "Uraniborg",
+   "consultas": [
+    "Uraniborg",
+    "Uraniborg 1566"
+   ],
+   "achados": [
+    {
+     "titulo": "MS Uraniborg 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/MS_Uraniborg_01.jpg/500px-MS_Uraniborg_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMS_Uraniborg_01.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Ferry M/S \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/uraniborg_ac747f.jpg",
+     "consulta": "Uraniborg"
+    },
+    {
+     "titulo": "Brahe Uraniborg 1598.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Brahe_Uraniborg_1598.jpg/500px-Brahe_Uraniborg_1598.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrahe_Uraniborg_1598.jpg",
+     "descricao": "Domain Mark 1.0falsefalse Orthographic illustration of Tycho Brahe\\u0026#039;s \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/tycho1566/prints/uraniborg_6f92ea.jpg",
+     "consulta": "Uraniborg"
+    },
+    {
+     "titulo": "Uraniborg angör Landskrona 2020-08-14 04.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Uraniborg_ang%C3%B6r_Landskrona_2020-08-14_04.jpg/500px-Uraniborg_ang%C3%B6r_Landskrona_2020-08-14_04.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUraniborg_ang%C3%B6r_Landskrona_2020-08-14_04.jpg",
+     "descricao": "https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Swedish M/S \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/tycho1566/prints/uraniborg_d0511b.jpg",
+     "consulta": "Uraniborg"
     }
    ]
   },
@@ -88,38 +384,10 @@
    "tipo": "heroi",
    "item": "brass nose",
    "consultas": [
-    "brass nose",
+    "nariz de latao",
     "O Astrônomo do Nariz de Metal"
    ],
-   "achados": [
-    {
-     "titulo": "Medieval monumental brass (FindID 525578).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Medieval_monumental_brass_%28FindID_525578%29.jpg/500px-Medieval_monumental_brass_%28FindID_525578%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMedieval_monumental_brass_%28FindID_525578%29.jpg",
-     "descricao": "monumental \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/tycho1566/prints/brass_nose_bdeac1.jpg",
-     "consulta": "brass nose"
-    },
-    {
-     "titulo": "Aerobee 150 rocket and the nose cone I have at work.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Aerobee_150_rocket_and_the_nose_cone_I_have_at_work.jpg/500px-Aerobee_150_rocket_and_the_nose_cone_I_have_at_work.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AAerobee_150_rocket_and_the_nose_cone_I_have_at_work.jpg",
-     "descricao": "and a narrow \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/tycho1566/prints/brass_nose_d39aaa.jpg",
-     "consulta": "brass nose"
-    },
-    {
-     "titulo": "Fragment of 16th century monumental brass showing a civilian male (FindID 97325).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Fragment_of_16th_century_monumental_brass_showing_a_civilian_male_%28FindID_97325%29.jpg/500px-Fragment_of_16th_century_monumental_brass_showing_a_civilian_male_%28FindID_97325%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AFragment_of_16th_century_monumental_brass_showing_a_civilian_male_%28FindID_97325%29.jpg",
-     "descricao": "\\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/tycho1566/prints/brass_nose_148e9d.jpg",
-     "consulta": "brass nose"
-    }
-   ]
+   "achados": []
   },
   {
    "tipo": "epoca",
@@ -130,6 +398,15 @@
    ],
    "achados": [
     {
+     "titulo": "Gyulai vár 1566.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gyulai_v%C3%A1r_1566.jpg/500px-Gyulai_v%C3%A1r_1566.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGyulai_v%C3%A1r_1566.jpg",
+     "descricao": "DescriptionGyulai vár \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/tycho1566/prints/castelo_da_epoca_5b298d.jpg",
+     "consulta": "castle 1566"
+    },
+    {
      "titulo": "Neuschwanstein Castle 2024-02.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neuschwanstein_Castle_2024-02.jpg/500px-Neuschwanstein_Castle_2024-02.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ANeuschwanstein_Castle_2024-02.jpg",
@@ -139,21 +416,12 @@
      "consulta": "castle 1566"
     },
     {
-     "titulo": "Himeji Castle 0804 1.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Himeji_Castle_0804_1.jpg/500px-Himeji_Castle_0804_1.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AHimeji_Castle_0804_1.jpg",
-     "descricao": "DescriptionHimeji \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/tycho1566/prints/castelo_da_epoca_588cf9.jpg",
-     "consulta": "castle 1566"
-    },
-    {
-     "titulo": "Carisbrooke Castle gatehouse.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Carisbrooke_Castle_gatehouse.jpg/500px-Carisbrooke_Castle_gatehouse.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACarisbrooke_Castle_gatehouse.jpg",
-     "descricao": "DescriptionCarisbrooke \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/tycho1566/prints/castelo_da_epoca_cfd56e.jpg",
+     "titulo": "Castle Neuschwanstein.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Castle_Neuschwanstein.jpg/500px-Castle_Neuschwanstein.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACastle_Neuschwanstein.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/tycho1566/prints/castelo_da_epoca_4d6794.jpg",
      "consulta": "castle 1566"
     }
    ]

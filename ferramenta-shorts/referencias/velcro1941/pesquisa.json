@@ -6,9 +6,46 @@
    "item": "O Cachorro que Inventou o Velcro",
    "consultas": [
     "O Cachorro que Inventou o Velcro",
-    "Uma Era Suíça George Mestral 1941"
+    "Uma Em Suíça George Mestral 1941"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tec",
+   "consultas": [
+    "Alpes suicos perto de Genebra",
+    "Alpes suicos perto de Genebra trilha de montanha oficina/casa de Mestral tecelagem em Lyon"
+   ],
+   "achados": [
+    {
+     "titulo": "Lukmanierpass, Passo del Lucomagno. 20-09-2022. (actm.) 04.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_04.jpg/500px-Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_04.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_04.jpg",
+     "descricao": "Graubünden en Ticino Português: Vista do Lago Santa Maria, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/alpes_suicos_perto_de_genebra_trilha_de__eb7886.jpg",
+     "consulta": "Alpes suicos perto"
+    },
+    {
+     "titulo": "002 Wild Alpine Ibex Swiss Alps and Creux du Van Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/002_Wild_Alpine_Ibex_Swiss_Alps_and_Creux_du_Van_Photo_by_Giles_Laurent.jpg/500px-002_Wild_Alpine_Ibex_Swiss_Alps_and_Creux_du_Van_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A002_Wild_Alpine_Ibex_Swiss_Alps_and_Creux_du_Van_Photo_by_Giles_Laurent.jpg",
+     "descricao": "(Capra ibex) \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/alpes_suicos_perto_de_genebra_trilha_de__715cc9.jpg",
+     "consulta": "Alpes suicos"
+    },
+    {
+     "titulo": "006 Wild Baby Alpine Chamois Creux du Van and Swiss Alps Sunset colors Photo by Giles Laurent.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/006_Wild_Baby_Alpine_Chamois_Creux_du_Van_and_Swiss_Alps_Sunset_colors_Photo_by_Giles_Laurent.jpg/500px-006_Wild_Baby_Alpine_Chamois_Creux_du_Van_and_Swiss_Alps_Sunset_colors_Photo_by_Giles_Laurent.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A006_Wild_Baby_Alpine_Chamois_Creux_du_Van_and_Swiss_Alps_Sunset_colors_Photo_by_Giles_Laurent.jpg",
+     "descricao": "Wild baby alpine chamois and \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/alpes_suicos_perto_de_genebra_trilha_de__c8e927.jpg",
+     "consulta": "Alpes suicos"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -41,7 +78,7 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Martha_Argerich_en_el_Centro_Cultural_Kirchner_-_19781627152.jpg/500px-Martha_Argerich_en_el_Centro_Cultural_Kirchner_-_19781627152.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AMartha_Argerich_en_el_Centro_Cultural_Kirchner_-_19781627152.jpg",
      "descricao": "license, and indicate if changes were made. You may do so \\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 3,
      "print": "referencias/velcro1941/prints/su_a_4c051d.jpg",
      "consulta": "Suíça 1941"
     }
@@ -74,13 +111,272 @@
      "consulta": "1941 fashion clothing"
     },
     {
-     "titulo": "Zomerjurken, mei 1941 Abgeändert, Verändert, RP-P-2009-3891.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Zomerjurken%2C_mei_1941_Abge%C3%A4ndert%2C_Ver%C3%A4ndert%2C_RP-P-2009-3891.jpg/500px-Zomerjurken%2C_mei_1941_Abge%C3%A4ndert%2C_Ver%C3%A4ndert%2C_RP-P-2009-3891.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AZomerjurken%2C_mei_1941_Abge%C3%A4ndert%2C_Ver%C3%A4ndert%2C_RP-P-2009-3891.jpg",
-     "descricao": "350 mm × b 250 mm Onderwerp Wat: \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/velcro1941/prints/roupas_e_ruas_de_1941_92a5d2.jpg",
+     "titulo": "Bunte Beyer-Schnitte, die neue linie, 1941 Kleid aus gestreifter (..) (titel op object), RP-P-2009-2810.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bunte_Beyer-Schnitte%2C_die_neue_linie%2C_1941_Kleid_aus_gestreifter_%28..%29_%28titel_op_object%29%2C_RP-P-2009-2810.jpg/500px-Bunte_Beyer-Schnitte%2C_die_neue_linie%2C_1941_Kleid_aus_gestreifter_%28..%29_%28titel_op_object%29%2C_RP-P-2009-2810.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABunte_Beyer-Schnitte%2C_die_neue_linie%2C_1941_Kleid_aus_gestreifter_%28..%29_%28titel_op_object%29%2C_RP-P-2009-2810.jpg",
+     "descricao": "women\\u0026#039;s clothes), head-gear (HEADSCARF) (+ women\\u0026#039;s clothes), \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/velcro1941/prints/roupas_e_ruas_de_1941_0faa75.jpg",
      "consulta": "1941 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "George de Mestral (terno e chapeu de caca, bigode)",
+   "consultas": [
+    "George de Mestral terno e chapeu de caca bigode",
+    "George de Mestral terno e chapeu de caca bigode 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "GraveGeorgeDeMestral-CimetiereDeCommugny RomanDeckert18072022.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/GraveGeorgeDeMestral-CimetiereDeCommugny_RomanDeckert18072022.jpg/500px-GraveGeorgeDeMestral-CimetiereDeCommugny_RomanDeckert18072022.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGraveGeorgeDeMestral-CimetiereDeCommugny_RomanDeckert18072022.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English The grave of \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/george_de_mestral_terno_e_chapeu_de_caca_0967f8.jpg",
+     "consulta": "George Mestral"
+    },
+    {
+     "titulo": "DeMestralGrave.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/DeMestralGrave.jpg/500px-DeMestralGrave.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADeMestralGrave.jpg",
+     "descricao": "1600×1067× (1606135 bytes) {{Information |Description = The gave of \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/george_de_mestral_terno_e_chapeu_de_caca_2588ad.jpg",
+     "consulta": "George Mestral"
+    },
+    {
+     "titulo": "Henri Georges de Mestral - 1854668981.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Henri_Georges_de_Mestral_-_1854668981.jpg/500px-Henri_Georges_de_Mestral_-_1854668981.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHenri_Georges_de_Mestral_-_1854668981.jpg",
+     "descricao": "Henri \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/velcro1941/prints/george_de_mestral_terno_e_chapeu_de_caca_5aee70.jpg",
+     "consulta": "George Mestral"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "seu cachorro",
+   "consultas": [
+    "seu cachorro",
+    "seu cachorro 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "Igreja e seu cachorro.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Igreja_e_seu_cachorro.jpg/500px-Igreja_e_seu_cachorro.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIgreja_e_seu_cachorro.jpg",
+     "descricao": "distribute \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/velcro1941/prints/seu_cachorro_18d9e5.jpg",
+     "consulta": "seu cachorro"
+    },
+    {
+     "titulo": "Cachorro do CFM.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cachorro_do_CFM.JPG/500px-Cachorro_do_CFM.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACachorro_do_CFM.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/velcro1941/prints/seu_cachorro_9133ac.jpg",
+     "consulta": "seu cachorro"
+    },
+    {
+     "titulo": "Prestes cachorro Príncipe 1936.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Prestes_cachorro_Pr%C3%ADncipe_1936.png/500px-Prestes_cachorro_Pr%C3%ADncipe_1936.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APrestes_cachorro_Pr%C3%ADncipe_1936.png",
+     "descricao": "DescriptionPrestes \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/velcro1941/prints/seu_cachorro_c56674.jpg",
+     "consulta": "seu cachorro"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "teceloes",
+   "consultas": [
+    "teceloes",
+    "teceloes 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "GuatemalaWeavings79.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/GuatemalaWeavings79.jpg/500px-GuatemalaWeavings79.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGuatemalaWeavings79.jpg",
+     "descricao": "truetrue You may select the license of your choice. English Traditional \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/teceloes_44e0d5.jpg",
+     "consulta": "teceloes"
+    },
+    {
+     "titulo": "WEFT-FACED WEAVING ON A FRAME LOOM.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/WEFT-FACED_WEAVING_ON_A_FRAME_LOOM.jpg/500px-WEFT-FACED_WEAVING_ON_A_FRAME_LOOM.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWEFT-FACED_WEAVING_ON_A_FRAME_LOOM.jpg",
+     "descricao": "org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Weft-Faced \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/velcro1941/prints/teceloes_c18e85.jpg",
+     "consulta": "teceloes"
+    },
+    {
+     "titulo": "Weaving 110.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Weaving_110.jpg/500px-Weaving_110.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AWeaving_110.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Women \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/velcro1941/prints/teceloes_677664.jpg",
+     "consulta": "teceloes"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "astronautas da Apollo",
+   "consultas": [
+    "astronautas da Apollo",
+    "astronautas da Apollo 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "Apollo 15 flag, rover, LM, Irwin.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Apollo_15_flag%2C_rover%2C_LM%2C_Irwin.jpg/500px-Apollo_15_flag%2C_rover%2C_LM%2C_Irwin.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AApollo_15_flag%2C_rover%2C_LM%2C_Irwin.jpg",
+     "descricao": "on the Moon saluting the flag during the \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/astronautas_da_apollo_dc6d39.jpg",
+     "consulta": "astronautas da Apollo"
+    },
+    {
+     "titulo": "NASA-Apollo8-Dec24-Earthrise.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/500px-NASA-Apollo8-Dec24-Earthrise.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANASA-Apollo8-Dec24-Earthrise.jpg",
+     "descricao": "taken from \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/velcro1941/prints/astronautas_da_apollo_7a6222.jpg",
+     "consulta": "astronautas da Apollo"
+    },
+    {
+     "titulo": "AS08-13-2329.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/AS08-13-2329.jpg/500px-AS08-13-2329.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAS08-13-2329.jpg",
+     "descricao": "first photo of an Earthrise taken by humans during \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/velcro1941/prints/astronautas_da_apollo_858b1c.jpg",
+     "consulta": "astronautas da Apollo"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "carrapicho de bardana",
+   "consultas": [
+    "carrapicho de bardana",
+    "carrapicho de bardana 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "USSArizona PearlHarbor 2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/USSArizona_PearlHarbor_2.jpg/500px-USSArizona_PearlHarbor_2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUSSArizona_PearlHarbor_2.jpg",
+     "descricao": "Uploaded to: WP:EN by Zoe, 02:41, 4 May 2003 WP:JA by U.S.S.Momotaro, 2004年\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/carrapicho_de_bardana_e6ffa1.jpg",
+     "consulta": "1941"
+    },
+    {
+     "titulo": "1 quarzuhr-pte-muenchen-um-1941-59656.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/1_quarzuhr-pte-muenchen-um-1941-59656.jpg/500px-1_quarzuhr-pte-muenchen-um-1941-59656.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A1_quarzuhr-pte-muenchen-um-1941-59656.jpg",
+     "descricao": "L. Rohde und Dr. H. Schwarz), München, um \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/velcro1941/prints/carrapicho_de_bardana_0a3ebf.jpg",
+     "consulta": "1941"
+    },
+    {
+     "titulo": "Jewish cemetery Hluboká nad Vltavou, 1941 gravestone 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jewish_cemetery_Hlubok%C3%A1_nad_Vltavou%2C_1941_gravestone_01.jpg/500px-Jewish_cemetery_Hlubok%C3%A1_nad_Vltavou%2C_1941_gravestone_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJewish_cemetery_Hlubok%C3%A1_nad_Vltavou%2C_1941_gravestone_01.jpg",
+     "descricao": "Budějovice Wikimedia username: Czeva author name string: Czeva URL: https://commons.wikimedia.org/wiki/User:Czeva determination method or standard: SHA-\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/velcro1941/prints/carrapicho_de_bardana_15542a.jpg",
+     "consulta": "1941"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "microscopio",
+   "consultas": [
+    "microscopio",
+    "microscopio 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/500px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABarbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg",
+     "descricao": "Type: Black-and-white photographs Date: 1947 Local number: SIA Acc. 90-105 [SIA2008-5609] Cite as: Acc. 90-105 - Science Service, Records, 1920s-1970s",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/microscopio_2c3b7d.jpg",
+     "consulta": "microscopio"
+    },
+    {
+     "titulo": "Binocular compound microscope, Carl Zeiss Jena, 1914 (6779276516).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg/500px-Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABinocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg",
+     "descricao": "This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic license. You are free: to share – to copy, distribute and transmit",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/microscopio_97aad6.jpg",
+     "consulta": "microscopio"
+    },
+    {
+     "titulo": "Fine rotative table Microscope 5 (12996283235).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Fine_rotative_table_Microscope_5_%2812996283235%29.jpg/500px-Fine_rotative_table_Microscope_5_%2812996283235%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFine_rotative_table_Microscope_5_%2812996283235%29.jpg",
+     "descricao": "This file is licensed under the Creative Commons Attribution 2.0 Generic license. You are free: to share – to copy, distribute and transmit the work to",
+     "ordem": 3,
+     "print": "referencias/velcro1941/prints/microscopio_40f39a.jpg",
+     "consulta": "microscopio"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fita de velcro de nailon",
+   "consultas": [
+    "fita de velcro de nailon",
+    "fita de velcro de nailon 1941"
+   ],
+   "achados": [
+    {
+     "titulo": "USSArizona PearlHarbor 2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/USSArizona_PearlHarbor_2.jpg/500px-USSArizona_PearlHarbor_2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUSSArizona_PearlHarbor_2.jpg",
+     "descricao": "Uploaded to: WP:EN by Zoe, 02:41, 4 May 2003 WP:JA by U.S.S.Momotaro, 2004年\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/velcro1941/prints/fita_de_velcro_de_nailon_e6ffa1.jpg",
+     "consulta": "1941"
+    },
+    {
+     "titulo": "E 003261 E Maoris in North Africa July 1941.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/E_003261_E_Maoris_in_North_Africa_July_1941.jpg/500px-E_003261_E_Maoris_in_North_Africa_July_1941.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AE_003261_E_Maoris_in_North_Africa_July_1941.jpg",
+     "descricao": "See Template:CC0 if explicit details are needed. English Haka in Egypt, \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/velcro1941/prints/fita_de_velcro_de_nailon_ff080f.jpg",
+     "consulta": "1941"
+    },
+    {
+     "titulo": "Easter 1941 Chicago Youths with Automobile crop 1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Easter_1941_Chicago_Youths_with_Automobile_crop_1.jpg/500px-Easter_1941_Chicago_Youths_with_Automobile_crop_1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEaster_1941_Chicago_Youths_with_Automobile_crop_1.jpg",
+     "descricao": "jurisdiction: United States determination method or standard: work of the federal government of the United States determination method or standard: SHA-\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/velcro1941/prints/fita_de_velcro_de_nailon_53b430.jpg",
+     "consulta": "1941"
     }
    ]
   },
@@ -88,29 +384,10 @@
    "tipo": "heroi",
    "item": "burr",
    "consultas": [
-    "burr",
+    "carrapicho de bardana",
     "O Cachorro que Inventou o Velcro"
    ],
-   "achados": [
-    {
-     "titulo": "Albert G. Burr.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Albert_G._Burr.jpg/500px-Albert_G._Burr.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AAlbert_G._Burr.jpg",
-     "descricao": "en:Albert G. \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/velcro1941/prints/burr_723ad2.jpg",
-     "consulta": "burr"
-    },
-    {
-     "titulo": "Bill Burr by Gage Skidmore.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bill_Burr_by_Gage_Skidmore.jpg/500px-Bill_Burr_by_Gage_Skidmore.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABill_Burr_by_Gage_Skidmore.jpg",
-     "descricao": "truetrue English Bill \\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/velcro1941/prints/burr_9086d7.jpg",
-     "consulta": "burr"
-    }
-   ]
+   "achados": []
   }
  ]
 }

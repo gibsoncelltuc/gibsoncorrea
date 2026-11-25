@@ -44,3 +44,9 @@
 
 ## 24/11 23:16 autocorrecao de visibilidade
 - b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 24/11 23:52 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+
+## 24/11 23:53 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro

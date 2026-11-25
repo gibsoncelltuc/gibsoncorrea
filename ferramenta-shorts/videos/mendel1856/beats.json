@@ -56,8 +56,8 @@
     [
      "kit/pea_green",
      0.0,
-     -1.2,
-     1.6,
+     -0.4,
+     4.8,
      {
       "fixo": true
      }
@@ -81,6 +81,7 @@
      }
     ]
    },
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -114,9 +115,9 @@
    "props": [
     [
      "kit/pea_yellow",
-     3.6,
-     -2.0,
-     1.6,
+     2.0,
+     -0.4,
+     4.8,
      {
       "fixo": true
      }
@@ -124,8 +125,8 @@
     [
      "kit/pea_green",
      0.0,
-     -1.2,
-     1.6,
+     -0.4,
+     3.84,
      {
       "fixo": true
      }
@@ -139,7 +140,7 @@
     "thump@40",
     "ding@60"
    ],
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
@@ -174,8 +175,8 @@
     [
      "kit/pea_yellow",
      0.0,
-     -1.2,
-     1.8,
+     -0.4,
+     4.8,
      {
       "fixo": true
      }
@@ -193,6 +194,7 @@
      }
     ]
    },
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -219,8 +221,8 @@
     [
      "kit/pea_yellow",
      0.0,
-     -1.2,
-     1.5,
+     -0.4,
+     3.6,
      {
       "fixo": true
      }
@@ -264,27 +266,27 @@
    "props": [
     [
      "kit/pea_yellow",
+     2.0,
+     -0.4,
+     4.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     -2.0,
+     -0.4,
      3.6,
-     -2.0,
-     1.5,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     -3.6,
      -2.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/pea_yellow",
-     -3.6,
-     -2.0,
-     1.5,
+     -0.4,
+     3.6,
      {
       "fixo": true
      }
@@ -292,8 +294,8 @@
     [
      "kit/pea_green",
      0.0,
-     -1.2,
-     1.5,
+     -0.4,
+     3.6,
      {
       "fixo": true
      }
@@ -338,6 +340,7 @@
     ]
    },
    "text": "3 : 1",
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -380,17 +383,17 @@
     [
      "kit/pea_green",
      0.0,
-     -1.2,
-     1.6,
+     -0.4,
+     4.8,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     3.6,
-     -2.0,
-     1.6,
+     2.0,
+     -0.4,
+     3.84,
      {
       "fixo": true
      }
@@ -424,6 +427,7 @@
      }
     ]
    },
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -439,8 +443,8 @@
     [
      "kit/pea_green",
      2.4,
-     0.2,
-     1.6,
+     -0.4,
+     4.8,
      {
       "fixo": true
      }
@@ -458,6 +462,7 @@
      }
     ]
    },
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -494,5 +499,7 @@
    "mosteiro": "St Thomas Abbey Brno garden Mendel",
    "ervilha": "pea pods yellow green"
   }
- }
+ },
+ "cinf": 4.5,
+ "exp": 1.12
 }
