@@ -55,7 +55,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
     "POV",
     "POV"
@@ -67,15 +67,9 @@
    "palavras": 9,
    "cena": "b1",
    "frase": "Era mil setecentos e oitenta e três, na França.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -99,25 +93,32 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "ETI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/marco_versalhes"
    ],
    "palavras": 13,
    "cena": "b3",
    "frase": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "NOB",
     "ETI"
@@ -153,7 +154,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "REI"
    ],

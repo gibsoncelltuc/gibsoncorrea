@@ -203,7 +203,6 @@
   },
   {
    "shot": "wide",
-   "interior": "madeira",
    "who": [
     "ETI:0:grin"
    ],
@@ -252,7 +251,8 @@
    "h": 4.5,
    "d0": 22.0,
    "d1": 21.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "set": "loc_campo"
   },
   {
    "shot": "two",
@@ -464,9 +464,9 @@
    },
    "cx": 0.0,
    "cz": -3.0,
-   "h": 4.5,
-   "d0": 22.0,
-   "d1": 21.0,
+   "h": 9.0,
+   "d0": 26.0,
+   "d1": 24.0,
    "quadro_manual": true
   },
   {
@@ -598,9 +598,9 @@
    },
    "cx": 0.0,
    "cz": -3.0,
-   "h": 4.5,
-   "d0": 22.0,
-   "d1": 21.0,
+   "h": 9.0,
+   "d0": 26.0,
+   "d1": 24.0,
    "quadro_manual": true
   },
   {

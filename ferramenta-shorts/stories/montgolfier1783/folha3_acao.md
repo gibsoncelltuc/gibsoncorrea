@@ -19,7 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b1 - 6.3s a 8.6s - 9 palavras - plano wide
+## Cena b1 - 6.3s a 8.6s - 9 palavras - plano reveal
 > "Era mil setecentos e oitenta e três, na França."
 
 - LEITURA DA FRASE: sentido FATO
@@ -27,12 +27,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | MAPA | FRANÇA | OK |
+| 1 | - | MAPA | FRANÇA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -55,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 16.5s a 20.0s - 13 palavras - plano two
+## Cena b3 - 16.5s a 20.0s - 13 palavras - plano wide
 > "Então fizeram um balão gigante de pano e papel, cheio de ar quente."
 
 - LEITURA DA FRASE: sentido FATO
@@ -63,14 +61,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 21.0s a 23.4s - 11 palavras - plano group
+## Cena b4 - 21.0s a 23.4s - 11 palavras - plano two
 > "Só que ninguém sabia se dava para respirar lá em cima."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
@@ -102,7 +102,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: chega na palavra entraram (29.2s): executa: entra andando pela lateral
 <!-- /FISICA -->
 
-## Cena b6 - 30.9s a 35.3s - 15 palavras - plano crowd
+## Cena b6 - 30.9s a 35.3s - 15 palavras - plano orbit
 > "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
