@@ -72,7 +72,6 @@
     "n": 0
    },
    "detalhe": false,
-   "hora": "espaco",
    "bloco": "gancho",
    "say": "Um carro de verdade está dando voltas em torno do Sol.",
    "encena": {
@@ -416,7 +415,6 @@
    "crowd": {
     "n": 0
    },
-   "hora": "espaco",
    "bloco": "escalada",
    "say": "No painel, um aviso: não entre em pânico.",
    "encena": {
@@ -541,7 +539,6 @@
     "n": 0
    },
    "detalhe": false,
-   "hora": "espaco",
    "bloco": "loop",
    "say": "Ele continua lá até hoje. Porque...",
    "encena": {
