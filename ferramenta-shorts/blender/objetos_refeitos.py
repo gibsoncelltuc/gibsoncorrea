@@ -14,7 +14,7 @@ for i in range(6): a = i * math.pi / 3; cil((.41 * math.cos(a), .36, .41 * math.
 for i in range(6): a = i * math.pi / 3 + .52; bola((.46 * math.cos(a), .12, .46 * math.sin(a)), .045, '#fff6f0')
 fim(0.01)
 novo('feather'); tubo([(-1.2, .08, 0), (1.25, .08, 0)], .03, '#d9d2c0'); bola((.2, .08, 0), .5, '#fbf6e6', .12, esc=(2.1, 1, .5)); bola((.95, .08, 0), .2, '#f4efe2', .12, esc=(1.6, 1, .6)); fim(0)   # pena: haste + barbas lisas
-novo('petri'); cil((0, .04, 0), .62, .08, '#c9dfe8'); cil((0, .09, 0), .56, .05, '#f0c9b8'); torno((0, 0, 0), [(.6, .0), (.64, .02), (.64, .2), (.6, .2)], '#dbeef5', 24)                                    # placa de Petri com colonias
+novo('petri'); cil((0, .04, 0), .62, .08, '#c9dfe8'); cil((0, .09, 0), .56, .05, '#f0c9b8'); torno((0, 0, 0), [(.6, .0), (.64, .02), (.64, .2), (.6, .2)], '#dbeef5', 24, tampa=False)                                    # placa de Petri com colonias
 for x, z, r, c in ((.0, .05, .2, '#5aa05a'), (.25, -.2, .1, '#f4efe2'), (-.3, -.15, .08, '#f4efe2'), (-.2, .3, .09, '#f4efe2'), (.32, .25, .07, '#f4efe2')): bola((x, .13, z), r, c, .35)
 bola((.0, .15, .05), .12, '#7cc07c', .4); fim(0)
 novo('pisa_tower')                                             # torre de Pisa: 7 andares redondos com arcadas, inclinada
