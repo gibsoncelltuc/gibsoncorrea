@@ -96,6 +96,14 @@
    "consultas": [
     "pea yellow"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am",
+   "consultas": [
+    "acontece verde voltou ervilhas amarelas verde",
+    "pea green diagram"
+   ]
   }
  ]
 }
