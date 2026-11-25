@@ -1,6 +1,6 @@
 // Catálogo do jogo: itens, habilidades, inimigos e regras de economia. Tudo balanceável aqui.
-export const SLOTS = ['weapon', 'head', 'body', 'tool'];
-export const SLOT_NAMES = { weapon: 'Arma', head: 'Cabeça', body: 'Corpo', tool: 'Ferramenta' };
+export const SLOTS = ['weapon', 'head', 'body', 'tool', 'back'];
+export const SLOT_NAMES = { weapon: 'Arma', head: 'Cabeça', body: 'Corpo', tool: 'Ferramenta', back: 'Costas' };
 
 // stats: atk (ataque), def (defesa), hp (vida), speed (velocidade), pickup (raio de coleta), luck (% moedas extras)
 export const ITEMS = {
@@ -12,6 +12,15 @@ export const ITEMS = {
   hat_cloth: { name: 'Chapéu de Pano', slot: 'head', rarity: 'comum', price: 25, stats: { def: 1 }, color: '#9b6bd6' },
   helm_iron: { name: 'Elmo de Ferro', slot: 'head', rarity: 'incomum', price: 140, stats: { def: 4, hp: 10 }, color: '#a9afb9' },
   crown_gold: { name: 'Coroa Dourada', slot: 'head', rarity: 'épico', price: 800, stats: { def: 6, hp: 35 }, color: '#ffd24a' },
+
+  cap_red: { name: 'Boné Vermelho', slot: 'head', rarity: 'comum', price: 35, stats: { def: 1 }, color: '#e8564f' },
+  bunny_ears: { name: 'Orelhas de Coelho', slot: 'head', rarity: 'incomum', price: 150, stats: { def: 2, speed: 0.3 }, color: '#ffd0e6' },
+  top_hat: { name: 'Cartola Elegante', slot: 'head', rarity: 'raro', price: 260, stats: { def: 3, luck: 8 }, color: '#2b2f4a' },
+  crown_hero: { name: 'Coroa do Herói', slot: 'head', rarity: 'épico', price: 0, noShop: true, stats: { def: 8, hp: 50, atk: 4 }, color: '#ffd24a' },
+
+  cape_red: { name: 'Capa Vermelha', slot: 'back', rarity: 'comum', price: 90, stats: { speed: 0.3 }, color: '#d8404f' },
+  backpack: { name: 'Mochila de Aventura', slot: 'back', rarity: 'comum', price: 60, stats: { pickup: 1 }, color: '#8a5a3a' },
+  wings_angel: { name: 'Asas de Anjo', slot: 'back', rarity: 'épico', price: 480, stats: { speed: 0.8, def: 2 }, color: '#ffffff' },
 
   tunic_green: { name: 'Túnica Verde', slot: 'body', rarity: 'comum', price: 20, stats: { def: 1 }, color: '#3fae6a' },
   armor_iron: { name: 'Armadura de Ferro', slot: 'body', rarity: 'incomum', price: 220, stats: { def: 7, hp: 20 }, color: '#8d94a0' },
@@ -42,6 +51,10 @@ export const MAX_SKILL_LEVEL = 3;
 export const ENEMIES = {
   slime: { name: 'Gosma', hp: 30, atk: 6, speed: 2.2, coins: [3, 8], xp: 12 },
   brute: { name: 'Bruto', hp: 90, atk: 14, speed: 2.8, coins: [12, 24], xp: 40 },
+  scorpion: { name: 'Escorpião', hp: 55, atk: 10, speed: 3.0, coins: [6, 12], xp: 22 },
+  wolf: { name: 'Lobo', hp: 70, atk: 12, speed: 3.6, coins: [8, 16], xp: 28 },
+  skeleton: { name: 'Esqueleto', hp: 85, atk: 15, speed: 2.9, coins: [10, 20], xp: 34 },
+  kingslime: { name: 'Rei Gosma', hp: 900, atk: 28, speed: 2.4, coins: [60, 100], xp: 200 },
 };
 
 export const RULES = {
@@ -52,6 +65,10 @@ export const RULES = {
   maxCoinsPerHour: 450, // teto de moedas ganhas matando inimigos (anti-abuso)
   minClaimGapMs: 350,
   maxPrice: 1_000_000,
+  battleFee: 10, // aposta de cada jogador no duelo (vai para a custódia)
+  battleRakePct: 0.1, // 10% do total é destruído
+  battleSeconds: 90,
+  battleCooldownMs: 450,
 };
 
 export const baseStats = (level) => ({ hp: 100 + 10 * (level - 1), atk: 8 + 2 * (level - 1), def: 0, speed: 0, pickup: 0, luck: 0 });

@@ -11,7 +11,7 @@ html,body { margin:0; height:100%; overflow:hidden; background:var(--bg); color:
 .bar span { position:absolute; inset:0; text-align:center; font-size:11px; line-height:16px; text-shadow:0 1px 2px #000; }
 .hp i { background:linear-gradient(90deg,#e0455a,#ff7a8a); } .xp i { background:linear-gradient(90deg,#4c8dff,#8fb6ff); }
 .coins { margin-top:6px; font-size:16px; } .coins b { color:var(--gold); }
-#hud .keys { position:fixed; top:12px; right:12px; padding:8px 12px; color:var(--mut); font-size:12px; }
+#hud .keys { position:fixed; top:12px; left:50%; transform:translateX(-50%); padding:6px 12px; color:var(--mut); font-size:11px; white-space:nowrap; max-width:60vw; overflow:hidden; text-overflow:ellipsis; }
 #skillbar { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); display:flex; gap:8px; }
 .slot { width:62px; height:62px; position:relative; border-radius:10px; background:var(--card); border:1px solid var(--line); text-align:center; padding-top:6px; font-size:10px; color:var(--mut); overflow:hidden; }
 .slot b { display:block; font-size:16px; color:var(--txt); } .slot.locked { opacity:.35; }
@@ -44,3 +44,19 @@ input,select { background:#10131c; color:var(--txt); border:1px solid var(--line
 .box { padding:24px; width:min(440px,92vw); display:flex; flex-direction:column; gap:12px; } .box h1 { margin:0; }
 .msg { color:var(--bad); min-height:18px; }
 .help p { margin:6px 0; } kbd { background:#1a1f2c; border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:0 6px; }
+
+#hud .quest { position:fixed; top:140px; left:12px; width:250px; padding:10px 12px; }
+.quest small { color:var(--gold); letter-spacing:.06em; } .quest b { display:block; margin:2px 0; } #qText { color:var(--mut); font-size:12px; margin-bottom:4px; } #qHint { font-size:12px; color:#9fe8ff; margin-top:2px; }
+.mm { position:fixed; top:12px; right:12px; width:200px; text-align:center; } #minimap { width:200px; height:200px; border-radius:50%; box-shadow:0 4px 18px rgba(0,0,0,.5); background:#1f6fa8; display:block; }
+#clock { margin-top:4px; font-size:12px; color:#fff; text-shadow:0 1px 3px #000; }
+#placeBanner { position:fixed; top:64px; left:50%; transform:translateX(-50%); font-size:26px; font-weight:800; color:#fff; text-shadow:0 2px 10px #000; opacity:0; pointer-events:none; letter-spacing:.04em; }
+#placeBanner.show { animation:place 3.4s forwards; } @keyframes place { 0%{opacity:0;transform:translate(-50%,-10px)} 12%{opacity:1;transform:translate(-50%,0)} 80%{opacity:1} 100%{opacity:0} }
+#battleHud { position:fixed; top:96px; left:50%; transform:translateX(-50%); display:flex; gap:16px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px 14px; }
+#battleHud .side { width:230px; } #bTimer { font-size:20px; font-weight:800; color:var(--gold); min-width:70px; text-align:center; }
+#prompt { position:fixed; bottom:120px; left:50%; transform:translateX(-50%); background:var(--card); border:1px solid var(--gold); color:#fff; padding:8px 16px; border-radius:999px; font-weight:600; }
+#dialog { position:fixed; bottom:150px; left:50%; transform:translateX(-50%); width:min(560px,92vw); } #dialog .card { padding:14px 18px; } #dialog h4 { margin:0 0 6px; color:var(--gold); } #dialog p { margin:0 0 8px; line-height:1.5; }
+#chat { position:fixed; left:12px; bottom:12px; width:min(380px,70vw); } #chatLog { max-height:150px; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end; gap:2px; margin-bottom:6px; font-size:13px; text-shadow:0 1px 3px #000; }
+#chatLog div { background:rgba(10,12,20,.55); padding:2px 8px; border-radius:8px; } #chatLog b { color:#9fe8ff; } #chatLog .sys { color:#ffd24a; }
+#chatInput { width:100%; opacity:.75; } #chatInput:focus { opacity:1; }
+#bigmap { position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:min(86vh,86vw); height:min(86vh,86vw); border-radius:16px; box-shadow:0 0 0 3px #fff,0 10px 50px rgba(0,0,0,.7); }
+#skillbar { bottom:16px; }

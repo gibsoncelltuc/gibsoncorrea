@@ -1,0 +1,41 @@
+BUSCA COM VALIDAÇÃO · real-2026-11-25-02-32-x6000.json · 60 tokens
+velas por período: treino 535696 · validação 178525 · teste cego 178542 · idade máx. 100000 h · filtro de segurança DESLIGADO
+
+REGRAS DO VÍDEO (referência):
+  train: 68 trades · acerto 19% · expectativa -6.81%/trade · fator de lucro 0.15
+  val  : 21 trades · acerto 43% · expectativa -1.08%/trade · fator de lucro 0.77
+  test : 21 trades · acerto 43% · expectativa -1.95%/trade · fator de lucro 0.60
+
+2500 configurações testadas; 1812 com trades suficientes nos 3 períodos (treino ≥40).
+expectativa POSITIVA: treino 0% · validação 1% · teste cego 5%
+expectativa mediana por trade: treino -4.05% · validação -4.44% · teste -3.39%
+correlação treino×validação: 0.12 · treino×teste: 0.02  (≈0 = o que "funcionou" no treino não se repete)
+
+TOP 5 DO TREINO (o que a busca "achou") e o que aconteceu DEPOIS:
+  lookback 15 · pico de volume 3x · stop 12% · alvo 2R · trailing arma 6% recua 8% · vol5m≥15000
+     treino 45 trades · acerto 51% · expectativa +0.37%/trade · fator de lucro 1.04
+     valid. 18 trades · acerto 33% · expectativa -4.00%/trade · fator de lucro 0.30
+  lookback 15 · pico de volume 4x · stop 16% · alvo 1R · trailing arma 10% recua 12% · vol5m≥15000
+     treino 48 trades · acerto 52% · expectativa -0.45%/trade · fator de lucro 0.92
+     valid. 17 trades · acerto 29% · expectativa -6.13%/trade · fator de lucro 0.33
+  lookback 5 · pico de volume 2x · stop 16% · alvo 1R · trailing arma 10% recua 3% · vol5m≥15000
+     treino 57 trades · acerto 63% · expectativa -0.47%/trade · fator de lucro 0.90
+     valid. 10 trades · acerto 20% · expectativa -8.66%/trade · fator de lucro 0.16
+  lookback 15 · pico de volume 4x · stop 12% · alvo 1.5R · trailing arma 10% recua 8% · vol5m≥5000
+     treino 46 trades · acerto 52% · expectativa -1.03%/trade · fator de lucro 0.80
+     valid. 10 trades · acerto 50% · expectativa -1.82%/trade · fator de lucro 0.64
+  lookback 15 · pico de volume 6x · stop 8% · alvo 5R · trailing arma 10% recua 8% · vol5m≥15000
+     treino 49 trades · acerto 35% · expectativa -1.18%/trade · fator de lucro 0.79
+     valid. 20 trades · acerto 30% · expectativa -6.45%/trade · fator de lucro 0.09
+
+dos 20 melhores do treino, 1 continuaram positivos na validação.
+
+CONFIGURAÇÃO ESCOLHIDA (melhor validação entre os 20 melhores do treino):
+  lookback 15 · pico de volume 2.5x · stop 12% · alvo 5R · trailing arma 10% recua 5% · vol5m≥2000
+  treino 64 trades · acerto 55% · expectativa -1.42%/trade · fator de lucro 0.74
+  valid. 10 trades · acerto 50% · expectativa +2.47%/trade · fator de lucro 1.49
+  TESTE CEGO: 16 trades · acerto 44% · expectativa -1.85%/trade · fator de lucro 0.67
+  intervalo de 95% da expectativa no teste: -7.25% a 3.54% por trade (n=16)
+
+tempo: 1375 s
+AVISOS: tokens antigos/"em alta" (viés de sobrevivência), RugCheck de hoje aplicado ao passado, sem liquidez histórica, vendas sempre executam.

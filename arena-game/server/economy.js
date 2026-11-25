@@ -2,6 +2,8 @@
 // Moeda INTERNA do jogo. Contabilidade: minted (criada) = moedas dos jogadores + escrow de torneios + burned (destruída).
 import crypto from 'node:crypto';
 import { ITEMS, SKILLS, ENEMIES, RULES, SLOTS, MAX_SKILL_LEVEL, baseStats, levelFromXp, xpForLevel } from './catalog.js';
+import { CHAPTERS, FINAL_TITLE } from '../public/shared/quests.js';
+import { cleanAppearance } from '../public/shared/world.js';
 
 export class GameError extends Error {
   constructor(code, msg) {
@@ -30,12 +32,13 @@ const int = (x, lo, hi, what) => {
   return n;
 };
 
-export const emptyData = () => ({ seq: 1, players: {}, listings: [], trades: [], tournaments: [], stats: { minted: 0, burned: 0 } });
+export const emptyData = () => ({ seq: 1, players: {}, listings: [], trades: [], tournaments: [], stats: { minted: 0, burned: 0, escrowBattle: 0 } });
 
 export class Economy {
   constructor(store, opts = {}) {
     this.store = store;
     this.d = store.data;
+    this.d.stats.escrowBattle ??= 0;
     this.now = opts.now ?? Date.now;
     this.rng = opts.rng ?? Math.random;
   }
@@ -54,7 +57,7 @@ export class Economy {
   }
 
   // ---------- contas ----------
-  register(rawName) {
+  register(rawName, appearance) {
     const name = String(rawName ?? '').trim();
     if (!/^[A-Za-z0-9_]{3,16}$/.test(name)) fail('nome', 'Nome: 3 a 16 letras, números ou _');
     if (this.d.players[name.toLowerCase()]) fail('existe', 'Esse nome já está em uso');
@@ -67,6 +70,8 @@ export class Economy {
       inventory: [],
       equipped: Object.fromEntries(SLOTS.map((s) => [s, null])),
       skills: {},
+      ap: cleanAppearance(appearance),
+      career: { chapter: 0, count: 0, got: [], done: false },
       earn: { hour: 0, amount: 0 },
       lastClaim: 0,
       createdAt: this.now(),
@@ -113,7 +118,14 @@ export class Economy {
       equipped: p.equipped,
       skills: p.skills,
       stats: this.stats(p),
+      ap: p.ap ?? cleanAppearance(),
+      career: this.careerView(p),
     };
+  }
+  setAppearance(name, ap) {
+    const p = this.player(name);
+    p.ap = cleanAppearance(ap);
+    this.#commit();
   }
   playersList() {
     return Object.values(this.d.players).map((p) => ({ name: p.name, level: this.level(p) }));
@@ -188,6 +200,11 @@ export class Economy {
 
   // ---------- recompensa por inimigo derrotado (o servidor impõe teto e intervalo) ----------
   claimKill(name, type) {
+    const out = this.#claimKill(name, type);
+    out.career = this.careerEvent(name, 'kill', type);
+    return out;
+  }
+  #claimKill(name, type) {
     const p = this.player(name);
     const en = ENEMIES[type];
     if (!en) fail('inimigo', 'Inimigo inválido');
@@ -417,12 +434,78 @@ export class Economy {
     return this.d.tournaments.slice(-12).map((t) => ({ ...t }));
   }
 
+  // ---------- modo carreira ----------
+  careerView(p) {
+    const c = (p.career ??= { chapter: 0, count: 0, got: [], done: false });
+    const def = CHAPTERS[c.chapter];
+    return { chapter: c.chapter, total: CHAPTERS.length, done: c.done, title: c.done ? FINAL_TITLE : null, quest: def ? { id: def.id, title: def.title, text: def.text, type: def.type, goal: def.goal, count: c.count, loc: def.loc ?? null, reward: def.reward } : null };
+  }
+  #grant(p, reward) {
+    if (reward.coins) {
+      p.coins += reward.coins;
+      this.#mint(reward.coins);
+    }
+    if (reward.xp) p.xp += reward.xp;
+    if (reward.item) this.#giveItem(p, reward.item);
+  }
+  // kind: 'kill' (key = tipo) | 'talk' (key = npc) | 'collect' (key = id do cristal) | 'reach' (key = local). Devolve null se nada mudou.
+  careerEvent(name, kind, key) {
+    const p = this.player(name);
+    const c = (p.career ??= { chapter: 0, count: 0, got: [], done: false });
+    const def = CHAPTERS[c.chapter];
+    if (c.done || !def || def.type !== kind) return null;
+    if (kind === 'kill' && def.enemy !== key) return null;
+    if (kind === 'talk' && def.npc !== key) return null;
+    if (kind === 'collect') {
+      if (!def.ids?.includes(key) || c.got.includes(key)) return null;
+      c.got.push(key);
+    }
+    if (kind === 'reach') return null;
+    c.count++;
+    let completed = null;
+    if (c.count >= def.goal) {
+      this.#grant(p, def.reward);
+      completed = { id: def.id, title: def.title, reward: def.reward };
+      c.chapter++;
+      c.count = 0;
+      c.got = [];
+      if (c.chapter >= CHAPTERS.length) c.done = true;
+    }
+    this.#commit();
+    return { progressed: true, completed, finished: c.done };
+  }
+
+  // ---------- custódia das apostas de batalha ----------
+  battleLock(name, fee) {
+    const p = this.player(name);
+    if (p.coins < fee) fail('moedas', 'Moedas insuficientes para a aposta');
+    p.coins -= fee;
+    this.d.stats.escrowBattle += fee;
+    this.#commit();
+  }
+  battleRefund(name, fee) {
+    const p = this.player(name);
+    p.coins += fee;
+    this.d.stats.escrowBattle -= fee;
+    this.#commit();
+  }
+  // vencedor leva o total menos a taxa (destruída); sem vencedor (empate), cada um recebe de volta
+  battleSettle(winner, pot) {
+    const rake = Math.floor(pot * RULES.battleRakePct);
+    const prize = pot - rake;
+    this.d.stats.escrowBattle -= pot;
+    this.#burn(rake);
+    this.player(winner).coins += prize;
+    this.#commit();
+    return { prize, rake };
+  }
+
   // ---------- auditoria ----------
   audit() {
     const players = Object.values(this.d.players).reduce((s, p) => s + p.coins, 0);
     const escrow = this.d.tournaments.filter((t) => t.status === 'open').reduce((s, t) => s + t.pool, 0);
-    const { minted, burned } = this.d.stats;
-    return { minted, burned, players, escrow, ok: minted === players + escrow + burned };
+    const { minted, burned, escrowBattle } = this.d.stats;
+    return { minted, burned, players, escrow, escrowBattle, ok: minted === players + escrow + escrowBattle + burned };
   }
 }
 

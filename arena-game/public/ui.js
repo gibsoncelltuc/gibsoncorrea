@@ -1,5 +1,7 @@
 // Painéis do jogo (HTML sobre o canvas 3D). Só usa textContent: nada vindo de outros jogadores vira HTML.
 import { net, call, on } from './net.js';
+import { CHAPTERS, FINAL_TITLE } from './shared/quests.js';
+import { SKIN, HAIR_COLOR, SHIRT, PANTS, HAIR_STYLES, FACES } from './shared/world.js';
 
 export const h = (tag, props = {}, ...kids) => {
   const el = document.createElement(tag);
@@ -40,9 +42,12 @@ const TABS = [
   ['market', 'Mercado (M)'],
   ['trade', 'Troca (T)'],
   ['tour', 'Torneios (O)'],
+  ['career', 'Carreira (C)'],
+  ['battle', 'Batalha (V)'],
+  ['avatar', 'Avatar (U)'],
   ['help', 'Ajuda (H)'],
 ];
-const KEYS = { b: 'shop', i: 'inv', k: 'skills', m: 'market', t: 'trade', o: 'tour', h: 'help' };
+const KEYS = { b: 'shop', i: 'inv', k: 'skills', m: 'market', t: 'trade', o: 'tour', c: 'career', v: 'battle', u: 'avatar', h: 'help' };
 let hooks = {};
 
 export function initUI(h2 = {}) {
@@ -61,7 +66,7 @@ export function initUI(h2 = {}) {
       isOpen() && tab === KEYS[k] ? closePanel() : openPanel(KEYS[k]);
     }
   });
-  on('state', () => isOpen() && ['shop', 'inv', 'skills'].includes(tab) && render());
+  on('state', () => isOpen() && ['shop', 'inv', 'skills', 'career', 'avatar'].includes(tab) && render());
   on('market', () => isOpen() && tab === 'market' && render());
   on('trades', () => isOpen() && tab === 'trade' && refreshPending());
   on('tournaments', () => isOpen() && tab === 'tour' && render());
@@ -81,7 +86,7 @@ export function closePanel() {
 function render() {
   tabsEl.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b.dataset.tab === tab));
   body.replaceChildren(h('div', { class: 'mut' }, 'Carregando…'));
-  const fn = { shop: tShop, inv: tInv, skills: tSkills, market: tMarket, trade: tTrade, tour: tTour, help: tHelp }[tab];
+  const fn = { shop: tShop, inv: tInv, skills: tSkills, market: tMarket, trade: tTrade, tour: tTour, career: tCareer, battle: tBattle, avatar: tAvatar, help: tHelp }[tab];
   Promise.resolve(fn()).then((el) => el && body.replaceChildren(el)).catch((e) => body.replaceChildren(h('div', { class: 'bad' }, e.message)));
 }
 
@@ -91,8 +96,8 @@ const header = () => h('div', { class: 'sub' }, h('span', { class: 'pill' }, '�
 let shopFilter = 'all';
 function tShop() {
   const st = net.state;
-  const filters = [['all', 'Tudo'], ['weapon', 'Armas'], ['head', 'Cabeça'], ['body', 'Corpo'], ['tool', 'Ferramentas'], ['scroll', 'Pergaminhos']];
-  const items = Object.entries(net.catalog.items).filter(([, it]) => shopFilter === 'all' || (shopFilter === 'scroll' ? it.kind === 'scroll' : it.slot === shopFilter));
+  const filters = [['all', 'Tudo'], ['weapon', 'Armas'], ['head', 'Cabeça'], ['body', 'Corpo'], ['back', 'Costas'], ['tool', 'Ferramentas'], ['scroll', 'Pergaminhos']];
+  const items = Object.entries(net.catalog.items).filter(([, it]) => !it.noShop).filter(([, it]) => shopFilter === 'all' || (shopFilter === 'scroll' ? it.kind === 'scroll' : it.slot === shopFilter));
   return h('div', {},
     header(),
     h('div', { class: 'sub' }, filters.map(([id, l]) => h('button', { class: 'b' + (shopFilter === id ? ' gold' : ''), onclick: () => ((shopFilter = id), render()) }, l))),
@@ -224,10 +229,53 @@ async function tTour() {
 function tHelp() {
   return h('div', { class: 'help' },
     h('h3', {}, 'Controles'),
-    h('p', {}, h('kbd', {}, 'W A S D'), ' mover · ', h('kbd', {}, 'Espaço'), ' ou clique: atacar · ', h('kbd', {}, 'Q'), '/', h('kbd', {}, 'E'), ' ou arrastar o mouse: girar câmera · roda do mouse: zoom · ', h('kbd', {}, 'Shift'), ' correr'),
+    h('p', {}, h('kbd', {}, 'W A S D'), ' mover · ', h('kbd', {}, 'Espaço'), ' pular · ', h('kbd', {}, 'Shift'), ' correr · clique ou ', h('kbd', {}, 'F'), ' atacar · ', h('kbd', {}, 'E'), ' falar com NPC · botão direito + arrastar ou setas: girar a câmera · roda do mouse: zoom · ', h('kbd', {}, 'Tab'), ' mapa grande · ', h('kbd', {}, 'Enter'), ' chat'),
     h('p', {}, 'Habilidades: ', h('kbd', {}, '1'), ' Investida · ', h('kbd', {}, '2'), ' Bola de Fogo · ', h('kbd', {}, '3'), ' Escudo · ', h('kbd', {}, '4'), ' Cura · ', h('kbd', {}, '5'), ' Redemoinho'),
+    h('p', {}, 'Painéis: ', h('kbd', {}, 'B'), ' Loja · ', h('kbd', {}, 'I'), ' Inventário · ', h('kbd', {}, 'K'), ' Habilidades · ', h('kbd', {}, 'M'), ' Mercado · ', h('kbd', {}, 'T'), ' Troca · ', h('kbd', {}, 'O'), ' Torneios · ', h('kbd', {}, 'C'), ' Carreira · ', h('kbd', {}, 'V'), ' Batalha · ', h('kbd', {}, 'U'), ' Avatar · ', h('kbd', {}, 'P'), ' gráficos'),
+    h('h3', {}, 'O mundo'),
+    h('p', {}, 'Mundo aberto com 8 regiões ligadas por estradas: Vila Moeda (centro, segura), Floresta (norte), Deserto (leste), Montanhas Geladas (oeste), Fazenda (sudoeste), Praia (sul), Ruínas (noroeste) e o Castelo do Rei Gosma (nordeste). Quanto mais longe da vila, mais fortes os monstros e melhores as recompensas.'),
     h('h3', {}, 'Como funciona a economia'),
-    h('p', {}, '🪙 A moeda é INTERNA do jogo e não tem valor em dinheiro. Você ganha derrotando inimigos (há um teto por hora) e em torneios.'),
-    h('p', {}, 'Gaste na Loja (equipamentos e pergaminhos de habilidade), evolua habilidades, venda e compre no Mercado, troque direto com jogadores e dispute torneios.'),
-    h('p', {}, 'Parte das moedas é destruída nas compras da loja, nas taxas do mercado e nos prêmios de torneio, para a economia não inflacionar.'));
+    h('p', {}, '🪙 A moeda é INTERNA do jogo e não tem valor em dinheiro. Você ganha derrotando monstros (há um teto por hora), cumprindo a carreira e vencendo duelos e torneios.'),
+    h('p', {}, 'Gaste na Loja, evolua habilidades, venda e compre no Mercado, troque direto com jogadores. Parte das moedas é destruída em compras, taxas e prêmios, para a economia não inflacionar.'));
+}
+
+// ---------------- Carreira ----------------
+function tCareer() {
+  const c = net.state.career;
+  return h('div', {}, header(),
+    h('p', { class: 'mut' }, 'Modo carreira: cumpra os capítulos em ordem e derrote o Rei Gosma para zerar o jogo.'),
+    c.done ? h('div', { class: 'item r-épico' }, h('h4', {}, `🏆 Você zerou o jogo! Título: ${FINAL_TITLE}`), h('small', {}, 'A Coroa do Herói está no seu inventário. Continue explorando, duelando e negociando!')) : null,
+    h('div', { class: 'list' }, CHAPTERS.map((ch, i) => {
+      const state = i < c.chapter || c.done ? 'feito' : i === c.chapter ? 'atual' : 'bloqueado';
+      return h('div', { style: state === 'atual' ? 'background:#1a2036;border-radius:8px' : '' },
+        h('div', { style: 'width:28px;font-size:18px' }, state === 'feito' ? '✅' : state === 'atual' ? '▶️' : '🔒'),
+        h('div', { class: 'grow' }, h('b', {}, `${ch.id}. ${ch.title}`), h('div', { class: state === 'bloqueado' ? 'mut' : '' }, state === 'bloqueado' ? 'Complete o capítulo anterior.' : ch.text),
+          state === 'atual' && c.quest ? h('div', { class: 'gold' }, `Progresso: ${c.quest.count}/${c.quest.goal}`) : null),
+        h('div', { class: 'mut' }, `🪙 ${ch.reward.coins} · ${ch.reward.xp} XP${ch.reward.item ? ' · 👑 Coroa do Herói' : ''}`));
+    })));
+}
+
+// ---------------- Batalha (duelo 1x1) ----------------
+let queued = false;
+function tBattle() {
+  const r = net.catalog.rules;
+  return h('div', {}, header(),
+    h('p', { class: 'mut' }, `Duelo 1×1 no Coliseu (leste da vila). Cada jogador aposta 🪙 ${r.battleFee}; o vencedor leva o total menos ${r.battleRakePct * 100}% (destruído). Dura até ${r.battleSeconds}s: vence quem derrubar o outro ou tiver mais vida. Seu equipamento vale!`),
+    h('p', { class: 'mut' }, 'O dano é calculado pelo servidor com os atributos reais dos dois jogadores e só conta se vocês estiverem perto. Vá até o Coliseu e entre na fila; quando outro jogador entrar, o duelo começa.'),
+    h('div', { class: 'sub' },
+      queued ? h('button', { class: 'b bad', onclick: () => act(call('battle_leave'), 'Você saiu da fila').then(() => ((queued = false), render())) }, 'Sair da fila') : h('button', { class: 'b gold', disabled: net.state.coins < r.battleFee, onclick: () => act(call('battle_join'), 'Na fila! Aguardando um adversário…').then((x) => { if (x) { queued = true; render(); } }) }, `Entrar na fila (🪙 ${r.battleFee})`),
+      h('span', { class: 'pill' }, queued ? '⏳ Aguardando adversário' : 'Fora da fila')),
+    h('p', { class: 'mut' }, 'Dica: abra duas abas com personagens diferentes para testar sozinho.'));
+}
+on('battle', (m) => {
+  if (m.phase === 'start' || m.phase === 'end') queued = false;
+});
+
+// ---------------- Avatar ----------------
+function tAvatar() {
+  const ap = net.state.ap;
+  const sw = (key, list, label, colors) => h('div', { style: 'margin:10px 0' }, h('b', {}, label),
+    h('div', { class: 'sub', style: 'margin-top:6px' }, list.map((v, i) => h('button', { class: 'b' + (ap[key] === i ? ' gold' : ''), style: colors ? `background:${v};min-width:34px;height:34px;border:3px solid ${ap[key] === i ? '#ffd24a' : '#3a4470'}` : '', title: colors ? '' : v, onclick: () => act(call('appearance', { ap: { ...ap, [key]: i } })) }, colors ? '' : v))));
+  return h('div', {}, header(), h('p', { class: 'mut' }, 'Personalize seu avatar. A mudança aparece na hora no seu personagem e para os outros jogadores.'),
+    sw('skin', SKIN, 'Pele', true), sw('hair', HAIR_STYLES, 'Estilo de cabelo', false), sw('hairColor', HAIR_COLOR, 'Cor do cabelo', true), sw('shirt', SHIRT, 'Camisa', true), sw('pants', PANTS, 'Calça', true), sw('face', FACES, 'Rosto', false));
 }

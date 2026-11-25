@@ -7,6 +7,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { WebSocketServer } from 'ws';
 import { Economy, GameError, emptyData } from './economy.js';
+import { World } from './world.js';
 import { ITEMS, SKILLS, ENEMIES, RULES, SLOTS, SLOT_NAMES, MAX_SKILL_LEVEL } from './catalog.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -40,6 +41,7 @@ class Store {
 
 const store = new Store(DATA_FILE);
 const eco = new Economy(store);
+let world;
 const catalog = { items: ITEMS, skills: SKILLS, enemies: ENEMIES, rules: RULES, slots: SLOTS, slotNames: SLOT_NAMES, maxSkill: MAX_SKILL_LEVEL };
 
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.png': 'image/png', '.svg': 'image/svg+xml' };
@@ -59,24 +61,64 @@ const wss = new WebSocketServer({ server, maxPayload: 16 * 1024 });
 const online = new Map(); // nome -> ws
 
 const send = (ws, obj) => ws.readyState === 1 && ws.send(JSON.stringify(obj));
+const profileOf = (name) => {
+  const p = eco.player(name);
+  const eq = {};
+  for (const slot of SLOTS) eq[slot] = p.inventory.find((i) => i.iid === p.equipped[slot])?.itemId ?? null;
+  return { t: 'profile', n: p.name, ap: p.ap, eq, lv: eco.level(p), done: !!p.career?.done };
+};
+const broadcast = (obj) => online.forEach((ws) => send(ws, obj));
 const pushState = (name) => {
   const ws = online.get(name);
   if (ws) send(ws, { t: 'state', state: eco.view(eco.player(name)) });
+  if (ws) broadcast(profileOf(name));
 };
-const broadcast = (obj) => online.forEach((ws) => send(ws, obj));
+world = new World(eco, { emit: (name, msg) => online.get(name) && send(online.get(name), msg), touch: pushState });
 const toast = (name, msg) => {
   const ws = online.get(name);
   if (ws) send(ws, { t: 'toast', msg });
 };
 
 // cada comando devolve { data, touch: [nomes], bcast: [tipos] }
+function notifyCareer(me, r) {
+  if (!r?.completed) return;
+  toast(me, `📜 Capítulo concluído: ${r.completed.title} (+${r.completed.reward.coins} moedas)`);
+  if (r.finished) broadcast({ t: 'chat', n: '★ Sistema', text: `${me} ZEROU O JOGO e virou Herói da Vila Moeda!` });
+}
 const handlers = {
   buy: (me, m) => ({ data: { iid: eco.buyItem(me, m.itemId) } }),
   equip: (me, m) => void eco.equip(me, m.iid),
   unequip: (me, m) => void eco.unequip(me, m.slot),
   scroll: (me, m) => ({ data: { skill: eco.useScroll(me, m.iid) } }),
   upgrade: (me, m) => ({ data: { level: eco.upgradeSkill(me, m.skill) } }),
-  kill: (me, m) => ({ data: eco.claimKill(me, m.type) }),
+  kill: (me, m) => {
+    if (!world.canKill(me, m.type)) throw new GameError('bioma', 'Esse inimigo não está aqui (posição inválida)');
+    const r = eco.claimKill(me, m.type);
+    notifyCareer(me, r.career);
+    return { data: r };
+  },
+  career: (me) => ({ data: { career: eco.careerView(eco.player(me)) } }),
+  talk: (me, m) => {
+    if (!world.near(me, String(m.npc), 8)) throw new GameError('longe', 'Chegue mais perto');
+    const r = eco.careerEvent(me, 'talk', String(m.npc));
+    notifyCareer(me, r);
+    return { data: { career: eco.careerView(eco.player(me)), progressed: !!r } };
+  },
+  collect: (me, m) => {
+    if (!world.nearCrystal(me, String(m.id))) throw new GameError('longe', 'Chegue mais perto do cristal');
+    const r = eco.careerEvent(me, 'collect', String(m.id));
+    notifyCareer(me, r);
+    return { data: { career: eco.careerView(eco.player(me)), progressed: !!r } };
+  },
+  appearance: (me, m) => void eco.setAppearance(me, m.ap),
+  chat: (me, m) => {
+    const c = world.chat(me, m.text);
+    broadcast({ t: 'chat', ...c });
+  },
+  respawn: (me) => void world.respawn(me),
+  battle_join: (me) => void world.queueJoin(me),
+  battle_leave: (me) => void (world.cancelQueue(me), pushState(me)),
+  battle_hit: (me, m) => ({ data: { dmg: world.hit(me, String(m.target)) } }),
 
   market: () => ({ data: { listings: eco.market() } }),
   list: (me, m) => ({ data: { listing: eco.listItem(me, m.iid, m.price) }, bcast: ['market'] }),
@@ -126,26 +168,43 @@ wss.on('connection', (ws) => {
   const refill = setInterval(() => (budget = 30), 1000);
   ws.on('close', () => {
     clearInterval(refill);
-    if (me && online.get(me) === ws) online.delete(me);
+    if (me && online.get(me) === ws) {
+      online.delete(me);
+      world.leave(me);
+      broadcast({ t: 'left', n: me });
+    }
   });
   ws.on('message', (raw) => {
-    if (--budget < 0) return;
     let m;
     try {
       m = JSON.parse(raw.toString());
     } catch {
       return;
     }
+    if (--budget < 0) {
+      // excesso de mensagens: quem espera resposta recebe um aviso; posições em excesso são simplesmente ignoradas
+      if (m?.id) send(ws, { id: m.id, ok: false, code: 'rapido', error: 'Devagar: mensagens demais por segundo' });
+      return;
+    }
     const reply = (obj) => send(ws, { id: m.id, ...obj });
     try {
       if (m.t === 'register' || m.t === 'login') {
-        const p = m.t === 'register' ? eco.register(m.name) : eco.login(m.token);
+        const p = m.t === 'register' ? eco.register(m.name, m.ap) : eco.login(m.token);
         me = p.name;
         online.get(me)?.close(4000, 'outra aba entrou');
         online.set(me, ws);
-        return reply({ ok: true, token: p.token, state: eco.view(p), catalog });
+        world.join(me);
+        reply({ ok: true, token: p.token, state: eco.view(p), catalog });
+        send(ws, { t: 'profiles', list: [...online.keys()].map(profileOf) });
+        broadcast(profileOf(me));
+        return;
       }
       if (!me) throw new GameError('login', 'Entre primeiro');
+      if (m.t === 'move') {
+        const r = world.move(me, m);
+        if (r.snap) send(ws, { t: 'tp', x: r.snap.x, z: r.snap.z });
+        return;
+      }
       const h = handlers[m.t];
       if (!h) throw new GameError('comando', 'Comando desconhecido');
       const out = h(me, m) ?? {};
@@ -159,6 +218,9 @@ wss.on('connection', (ws) => {
     }
   });
 });
+
+setInterval(() => online.size && broadcast({ t: 'presence', p: world.snapshot() }), 100);
+setInterval(() => world.tick(), 1000);
 
 process.on('SIGINT', () => (store.flush(), process.exit(0)));
 process.on('SIGTERM', () => (store.flush(), process.exit(0)));

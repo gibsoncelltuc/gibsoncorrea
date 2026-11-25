@@ -1,0 +1,6 @@
+MONTE CARLO em mercado SINTÉTICO · 10000 execuções × 24 h · capital inicial $64
+trades por execução (média): 40.7   acerto médio: 45%   drawdown máx. médio: 16%
+capital final  p5 $49 · p25 $56 · mediana $62 · p75 $68 · p95 $78 · máx $103
+terminaram acima do capital inicial : 40%
+terminaram com +100% ou mais         : 0%
+terminaram com -50% ou pior          : 0%

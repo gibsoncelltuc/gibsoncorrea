@@ -17,10 +17,28 @@
     <div class="bar xp"><i id="xpFill"></i><span id="xpText"></span></div>
     <div class="coins">🪙 <b id="hCoins">0</b></div>
   </div>
-  <div class="card keys">B Loja · I Inventário · K Habilidades · M Mercado · T Troca · O Torneios · H Ajuda</div>
+  <div class="card quest" id="questBox" hidden>
+    <small>📜 CARREIRA</small>
+    <b id="qTitle"></b>
+    <div id="qText"></div>
+    <div class="bar xp"><i id="qFill"></i><span id="qCount"></span></div>
+    <div id="qHint"></div>
+  </div>
+  <div class="mm"><canvas id="minimap" width="220" height="220"></canvas><div id="clock">🕒 12:00</div></div>
+  <div class="card keys">B Loja · I Inv. · K Hab. · M Mercado · T Troca · O Torneios · C Carreira · V Batalha · U Avatar · H Ajuda</div>
+  <div id="placeBanner"></div>
+  <div id="battleHud" hidden>
+    <div class="side"><b id="bMe"></b><div class="bar hp"><i id="bMeFill"></i><span id="bMeText"></span></div></div>
+    <div id="bTimer">⚔ 90</div>
+    <div class="side"><b id="bOp"></b><div class="bar hp"><i id="bOpFill"></i><span id="bOpText"></span></div></div>
+  </div>
+  <div id="prompt" hidden></div>
+  <div id="dialog" hidden><div class="card"><h4 id="dName"></h4><p id="dText"></p><small>Aperte E ou Esc para fechar</small></div></div>
+  <div id="chat"><div id="chatLog"></div><input id="chatInput" maxlength="120" placeholder="Enter para conversar" autocomplete="off"></div>
+  <canvas id="bigmap" width="640" height="640" hidden></canvas>
   <div id="skillbar"></div>
   <div id="toasts"></div>
-  <div id="dead" hidden>Você caiu! Voltando para a arena…</div>
+  <div id="dead" hidden>Você caiu! Voltando para a vila…</div>
 </div>
 
 <div id="panel" hidden>
@@ -32,7 +50,7 @@
 <div id="login">
   <div class="card box">
     <h1>Arena das Moedas</h1>
-    <p>RPG de ação 3D com economia entre jogadores. A moeda é <b>interna do jogo</b> (não vale dinheiro real).</p>
+    <p>Mundo aberto 3D com modo carreira, batalhas e jogadores online. A moeda é <b>interna do jogo</b> (não vale dinheiro real). Você personaliza o avatar dentro do jogo (tecla U).</p>
     <input id="nameInput" maxlength="16" placeholder="Nome do personagem (3-16 letras/números)" autocomplete="off">
     <button id="enterBtn">Criar personagem / Entrar</button>
     <div id="loginMsg" class="msg"></div>

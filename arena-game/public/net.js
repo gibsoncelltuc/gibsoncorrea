@@ -47,3 +47,8 @@ export async function enter(kind, payload) {
   net.catalog = r.catalog;
   return r;
 }
+
+// mensagem sem resposta (posição do jogador etc.)
+export function fire(t, data = {}) {
+  if (net.ws?.readyState === 1) net.ws.send(JSON.stringify({ t, ...data }));
+}
