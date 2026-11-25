@@ -1,7 +1,13 @@
 {
  "id": "newton1666",
  "ano": 1666,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 2",
+   "medieval",
+   "loc_campo"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -16,7 +22,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/apple"
+    "kit/apple",
+    "kit/moon"
    ],
    "palavras": 15,
    "cena": "b0",
@@ -30,19 +37,18 @@
   {
    "camera": "reveal",
    "personagens": [
-    "LAV",
-    "LAV"
+    "EST"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 15,
    "cena": "b1",
    "frase": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -52,7 +58,10 @@
    ],
    "multidao": 0,
    "objetos": [
-    "nature/picket_fence"
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
    ],
    "palavras": 15,
    "cena": "b2",
@@ -61,10 +70,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "NEW",
     "AMI"
@@ -84,7 +93,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "NEW",
     "AMI"
@@ -110,12 +119,15 @@
    "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "NEW"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/apple",
+    "nature/tree_oak"
+   ],
    "palavras": 20,
    "cena": "b5",
    "frase": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
@@ -123,32 +135,36 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
-   "personagens": [
-    "NEW",
-    "MAE"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/apple"
+    "kit/apple",
+    "kit/globe",
+    "kit/moon"
    ],
    "palavras": 19,
    "cena": "b6",
    "frase": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/apple (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "two",
    "personagens": [
-    "NEW",
-    "AMI"
+    "NEW"
    ],
    "multidao": 0,
    "objetos": [],
@@ -165,7 +181,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
    "camera": "two",
@@ -185,7 +201,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "NEW"
    ],

@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1666 | Lugar: Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste | Quando: 1665-1666, verao, tarde
 - HEROIS (objeto): kit/apple
 - HEROIS (personagens): NEW, AMI
-- Cenarios: countryside, interior madeira, loc_campo, street
+- Cenarios: countryside, interior madeira, loc_campo
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -26,6 +26,7 @@ objeto | macieira | macieira / macieira 1666 | Bandeira do município de Macieir
 objeto | livros e penas de escrever | livros e penas de escrever / livros e penas de escrever 1666 | Livro das Fortalezas 60- Penas Róias.jpg (referencias/newton1666/prints/livros_e_penas_de_escrever_8aab45.jpg); Praça Afonso Pena - Vista do sebo de livros - Jane (referencias/newton1666/prints/livros_e_penas_de_escrever_168bd0.jpg); Palácio Nacional da Pena - livro 1.jpg (referencias/newton1666/prints/livros_e_penas_de_escrever_cc7805.jpg)
 heroi | apple | maca vermelha / Newton e a Maçã | Red Apple.jpg (referencias/newton1666/prints/apple_9868f1.jpg); Tree with red apples in Barkedal 4.jpg (referencias/newton1666/prints/apple_62a5ae.jpg); Aerial view of Apple Park dllu.jpg (referencias/newton1666/prints/apple_9dbd3c.jpg)
 epoca | fazenda da epoca | farm 1666 / farm | The Farm 1666 Adriaen van de Velde.jpg (referencias/newton1666/prints/fazenda_da_epoca_ba8b05.jpg); Melchior d'Hondecoeter (Utrecht 1636-1695 Amsterda (referencias/newton1666/prints/fazenda_da_epoca_afbbb5.jpg)
+mecanismo | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá | forca galho tambem / apple diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Newton voltou a Woolsthorpe durante a peste (1665-66); segundo William Stukeley, a queda de uma maca o fez pensar na gravidade alcancando a Lua; publicou os Principia em 1687 (fonte: Wikipedia Isaac Newton's apple tree)

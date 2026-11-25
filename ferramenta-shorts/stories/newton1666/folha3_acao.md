@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 15 palavras - plano group
 > "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "maçã" (0.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (2.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -22,14 +22,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | MAPA | INGLATERRA | OK |
+| 1 | - | MAPA | INGLATERRA | OK |
+| 2 | - | PLACA | CAMBRIDGE FECHADA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 10: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b2 - 9.8s a 13.9s - 15 palavras - plano two
@@ -53,7 +53,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - CHEGADA (a cena toda): executa: alguem entra andando
 <!-- /FISICA -->
 
-## Cena b3 - 14.9s a 18.8s - 15 palavras - plano two
+## Cena b3 - 14.9s a 18.8s - 15 palavras - plano group
 > "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -72,7 +72,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 20.0s a 24.4s - 16 palavras - plano orbit
+## Cena b4 - 20.0s a 24.4s - 16 palavras - plano wide
 > "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -91,7 +91,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 25.7s a 31.4s - 20 palavras - plano close
+## Cena b5 - 25.7s a 31.4s - 20 palavras - plano two
 > "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
@@ -101,11 +101,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | perguntou (29.7s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PARA BAIXO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra perguntou (29.7s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
 ## Cena b6 - 32.6s a 37.0s - 19 palavras - plano two
@@ -116,16 +118,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b7 - 38.1s a 42.3s - 15 palavras - plano crowd
+## Cena b7 - 38.1s a 42.3s - 15 palavras - plano two
 > "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete."
 
 - LEITURA DA FRASE: sentido FATO
@@ -134,15 +129,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | GRAVIDADE | OK |
+| 2 | - | PLACA | PRINCIPIA - 1687 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b8 - 43.3s a 45.9s - 10 palavras - plano two
@@ -164,7 +156,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 47.2s a 49.5s - 11 palavras - plano two
+## Cena b9 - 47.2s a 49.5s - 11 palavras - plano orbit
 > "No fim, a maçã mudou a ciência e nem foi comida."
 
 - LEITURA DA FRASE: sentido FATO
@@ -172,12 +164,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b10 - 50.9s a 54.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
