@@ -158,3 +158,6 @@
 
 ## 25/11 01:16 autocorrecao de visibilidade
 - b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 01:21 autocorrecao de visibilidade
+- b3: objeto ENORME "kit/helicopter_air" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/helicopter_air" menor e sem close (cobria o quadro)

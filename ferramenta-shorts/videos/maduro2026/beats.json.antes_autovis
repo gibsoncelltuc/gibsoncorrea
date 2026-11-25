@@ -164,9 +164,9 @@
    "props": [
     [
      "kit/helicopter_air",
-     0.6,
-     1.0,
-     3.0,
+     0.0,
+     -5.0,
+     1.8,
      {
       "fixo": true
      }
@@ -198,12 +198,13 @@
     ]
    },
    "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_auto_vis": 2
+   "h": 3.0,
+   "d0": 16.0,
+   "d1": 15.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0,
+   "cz": -3
   },
   {
    "shot": "wide",
@@ -330,7 +331,7 @@
    "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/scroll",

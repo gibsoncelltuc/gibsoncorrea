@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: prende (push) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: rende (up) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2026
 - Funcao na historia: GANCHO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: prende (push) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: rende (up) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

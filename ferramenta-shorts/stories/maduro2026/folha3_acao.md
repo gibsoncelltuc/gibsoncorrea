@@ -7,21 +7,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b0 - 0.1s a 4.7s - 15 palavras - plano wide
 > "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MAD maos para cima (rendicao) | na palavra "capturado" (0.9s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | capturado (0.9s) | ACAO: prende | empurra/prende | OK |
+| 1 | capturado (0.9s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 2026 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: prende na palavra capturado (0.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: rende na palavra capturado (0.9s): executa: maos para cima (rendicao)
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
 ## Cena b1 - 6.0s a 11.4s - 19 palavras - plano wide
 > "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: mapa | na palavra "Caracas" (8.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -39,6 +45,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 12.4s a 16.5s - 12 palavras - plano wide
 > "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
 
+- LEITURA DA FRASE: sentido FATO
+  1) MAD a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Maduro" (14.1s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | acusado (14.7s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
@@ -52,6 +61,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b3 - 18.2s a 23.0s - 16 palavras - plano wide
 > "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/helicopter_air | na palavra "helicópteros" (19.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -67,6 +79,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 24.2s a 28.0s - 11 palavras - plano two
 > "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/helicopter_air | na palavra "ataques" (25.1s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
@@ -74,21 +89,27 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 29.1s a 33.8s - 16 palavras - plano orbit
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MAD maos para cima (rendicao) | na palavra "capturado" (32.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | capturado (32.0s) | ACAO: prende | empurra/prende | OK |
+| 1 | capturado (32.0s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: prende na palavra capturado (32.0s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: rende na palavra capturado (32.0s): executa: maos para cima (rendicao)
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
 ## Cena b6 - 35.2s a 40.0s - 18 palavras - plano two
 > "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
+
+- LEITURA DA FRASE: sentido FATO
+  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Trump" (35.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -104,12 +125,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 41.3s a 45.3s - 15 palavras - plano wide
 > "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: vehicles/airplane | na palavra "avião" (42.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b8 - 46.5s a 51.6s - 14 palavras - plano crowd
 > "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
+
+- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: multidao | na palavra "mundo" (49.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -127,6 +154,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b9 - 52.8s a 55.7s - 10 palavras - plano close
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."
+
+- LEITURA DA FRASE: sentido FATO
+  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Resolução" (55.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
