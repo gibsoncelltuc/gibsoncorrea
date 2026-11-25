@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Gerado em 24/11 23:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:24 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,10 +11,10 @@ b1 | transicao | medieval | reveal | POV, POV | 8 | bathtub | - | Foi em Siracus
 b2 | simples | interior pedra | two | REI, OUR | - | crown | - | O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ou
 b3 | simples | interior pedra | group | REI, OUR | - | - | - | Será que trocou parte do ouro por prata?
 b4 | simples | interior pedra | two | REI, ARQ | - | crown | - | O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.
-b5 | chave | interior pedra | two | ARQ, POV | - | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira, e a água transbordou
+b5 | chave | interior pedra | two | ARQ | - | bathtub | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água
 b6 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/bathtub (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entr | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q
 b7 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/crown (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entrad | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e
-b8 | simples | medieval | orbit | ARQ, OUR | 6 | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
+b8 | simples | medieval | orbit | ARQ, OUR | - | crown | - | Assim dava para medir a coroa, e comparar com o mesmo peso de ouro pur
 b9 | chave | medieval | crowd | ARQ, POV | 14 | crown | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo pr
 b10 | simples | medieval | two | REI, OUR | - | bathtub | - | No fim, dá para enganar um rei, mas não uma banheira.
 b11 | simples | medieval | close | ARQ | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -31,12 +31,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh arquimedes250
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh arquimedes250
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh arquimedes250
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local arquimedes250 <mp4>
-14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
-**Etapa atual:** 10. Render
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

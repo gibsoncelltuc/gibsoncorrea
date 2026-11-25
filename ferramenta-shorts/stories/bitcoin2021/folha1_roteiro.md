@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 151 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 168 palavras (~58 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.
@@ -65,7 +65,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: 68% DISCORDAM
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
+## Cena b7  (~5.9 s)
+- Narracao: O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino; dinheiro -> stars + som de sino; encena: negocio (reach) @3 -> acao + som de efeito; encena: paga (reach) @6 -> acao + som de efeito; encena: paga (reach) @12 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: PREÇO DESPENCOU
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~3.4 s)
 - Narracao: Mesmo assim, a moeda digital virou assunto no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.5 s)
+## Cena b9  (~4.5 s)
 - Narracao: Uma moeda digital, uma lei nova e um país no centro das atenções.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

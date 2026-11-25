@@ -86,8 +86,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 6 de AUT/HUS
-- Animacao: reagir | interacao: susto
+- Personagens principais (1): OFF (variante 0, expressao shock) | multidao: 6 de AUT/HUS
+- Animacao: reagir
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, canhoes, oficial, proprio
 - RISCOS: nenhum
@@ -140,7 +140,7 @@ cannon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 11% | medio 66% | aberto 21% | detalhe 1%
-- Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b8 susto, b9 avanca e o outro recua, b10 pular
+- Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b9 avanca e o outro recua, b10 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

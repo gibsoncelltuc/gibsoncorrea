@@ -192,8 +192,7 @@
   {
    "camera": "group",
    "personagens": [
-    "OFF",
-    "AUT"
+    "OFF"
    ],
    "multidao": 6,
    "objetos": [

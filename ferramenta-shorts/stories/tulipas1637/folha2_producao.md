@@ -44,17 +44,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Contam que teve gente que trocou terras e casas por um único bulbo.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): RIC (variante 0, expressao grin, segura paper); MER (variante 0, expressao smug, segura tulip) | multidao: 0 de 
-- Animacao: encena | interacao: entregar
-- Objetos/modelos: buildings/house_small, kit/scroll, kit/tulip_striped, nature/picket_fence, nature/tree_oak
+- Animacao: encena
+- Objetos/modelos: buildings/house_small, kit/scroll, kit/tulip_striped, kit/marco_amsterdam, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b5 - Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 2, expressao grin, segura paper); POV (variante 3, expressao smile, segura coin)
 - Animacao: discutir | interacao: reverencia
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tulip_striped | b0, b2, b4 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b0, b1, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b0, b1, b3, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -143,8 +143,8 @@ kit/stall | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b8 | planos abertos: 4 | mistura: close 7% | medio 63% | aberto 28% | detalhe 2%
-- Interacoes: b0 susto, b2 discutir, b4 entregar, b5 reverencia, b6 aproxima-se, b7 vai ate o outro
+- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b8 | planos abertos: 5 | mistura: close 7% | medio 55% | aberto 36% | detalhe 2%
+- Interacoes: b0 susto, b2 discutir, b5 reverencia, b6 aproxima-se, b7 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

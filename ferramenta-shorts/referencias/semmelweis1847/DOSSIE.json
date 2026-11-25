@@ -8,20 +8,9 @@
   "luz_base": "day",
   "cenarios": [
    "interior hospital",
-   "loc_campo"
+   "street"
   ],
-  "cenarios_trocados": [
-   [
-    "video",
-    "street",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
-    "street",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "caravela",
@@ -40,6 +29,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_two",
   "kit/lapide",
   "kit/maca",
   "kit/marco_viena",

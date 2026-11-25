@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: neve
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad)
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad) | multidao: 6 de PAR
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bife_elefante, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, fortuna, ricos
@@ -84,10 +84,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Enquanto isso, o povo fazia fila no frio, com comida racionada.
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 10 de 
-- Animacao: conversar | interacao: vai ate o outro
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 30 de 
+- Animacao: reagir
 - Objetos/modelos: kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, frio, povo
 - RISCOS: nenhum
@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: neve
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PAR (variante 1, expressao surprised); PAR (variante 3, expressao smile)
-- Animacao: conversar | interacao: cochichar
+- Personagens principais (1): PAR (variante 1, expressao surprised) | multidao: 0 de 
+- Animacao: conversar
 - Objetos/modelos: kit/balloon_air, kit/marco_notredame, kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco
 - RISCOS: nenhum
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 0, expressao sad)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/panela, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, paris
 - RISCOS: nenhum
@@ -143,8 +143,8 @@ kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 74% | aberto 11% | detalhe 3%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b8 vai ate o outro, b9 cochichar, b10 insiste
+- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 12% | medio 66% | aberto 19% | detalhe 3%
+- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

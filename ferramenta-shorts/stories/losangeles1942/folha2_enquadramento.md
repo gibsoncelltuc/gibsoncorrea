@@ -20,12 +20,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: pordosol
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: CID (comerciante) na esquerda, expressao scared; SOL (soldado) na direita, expressao nervous; multidao de 12 (CID, SOL) ATRAS dos principais; acao: cochichar
+- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- PERSONAGENS: CID (comerciante) no centro, expressao scared; sem multidao; acao: cochichar
 - OBJETO kit/submarino_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 23.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +68 da cena
 - SOM: cannon@68
-- TEXTO NA TELA: "SUBMARINO JAPONÊS" flutuando no alto, na palavra 3 da frase
+- TEXTO NA TELA: "SUBMARINO JAPONÊS" numa placa atras dos personagens, na palavra 3 da frase
 
 ## b3: "Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
@@ -39,8 +39,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Alguém viu um objeto no céu, e os soldados começaram a atirar com canhões antiaéreos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: SOL (soldado) na esquerda, expressao shout; SOL (soldado) na direita, expressao angry; multidao de 4 (SOL) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- PERSONAGENS: SOL (soldado) no centro, expressao shout; multidao de 4 (SOL) ATRAS dos principais; acao: fala/gesto
 - OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
@@ -80,7 +80,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "O único alvo derrotado naquela noite foi o sono de Los Angeles."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)
 - PERSONAGENS: CID (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/searchlight: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

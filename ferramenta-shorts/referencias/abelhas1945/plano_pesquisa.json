@@ -110,6 +110,30 @@
    "consultas": [
     "bee"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
+   "consultas": [
+    "comida perto voltinhas comida longe rebolando",
+    "bee diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada",
+   "consultas": [
+    "incrivel angulo rebolada mostrava direcao comparada",
+    "bee diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
+   "consultas": [
+    "quanto rebolava longe comida danca",
+    "bee diagram"
+   ]
   }
  ]
 }

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 24/11 23:59 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:01 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,9 +13,10 @@ b3 | chave | loc_pista | reveal | BUK, POV | 8 | volcano | corpo: tropa/personag
 b4 | simples | loc_pista | two | CLI, POV | 12 | bitcoin, stall | - | Para convencer o povo, o governo prometeu trinta dólares em bitcoin a 
 b5 | chave | loc_pista | wide | CLI | - | phone, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas
 b6 | simples | loc_pista | two | CLI, POV | - | - | - | Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e o
-b7 | simples | loc_patio | orbit | BUK, DEP | 6 | bitcoin, coin, globe, volcano | - | Mesmo assim, a moeda digital virou assunto no mundo inteiro.
-b8 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
-b9 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b7 | simples | interior pedra | two | BUK, DEP | - | bitcoin, coin | - | O governo também comprou bitcoins com dinheiro público, e o preço da m
+b8 | simples | loc_patio | orbit | BUK, DEP | 6 | bitcoin, coin, globe, volcano | - | Mesmo assim, a moeda digital virou assunto no mundo inteiro.
+b9 | simples | loc_patio | group | BUK, POV, CLI | - | bitcoin, coin | - | Uma moeda digital, uma lei nova e um país no centro das atenções.
+b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

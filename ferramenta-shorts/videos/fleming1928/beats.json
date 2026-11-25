@@ -53,31 +53,61 @@
     [
      "kit/petri",
      0.0,
-     -0.6,
-     1.2,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/gosma",
-     0.0,
-     -0.6,
-     0.5,
+     -1.6,
+     0.8,
+     0.57,
      {
       "fixo": true
      }
     ],
     [
      "kit/bancada",
-     1.8,
-     -1.2,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
     ]
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/petri",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, esquerda",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -134,7 +164,7 @@
     [
      "kit/petri",
      0.0,
-     1.4,
+     -1.2,
      2.0,
      {
       "fixo": true
@@ -142,8 +172,8 @@
     ],
     [
      "kit/gosma",
-     0.6,
-     1.0,
+     1.6,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -151,7 +181,7 @@
     ]
    ],
    "quadro": {
-    "local": "sala de madeira",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -172,11 +202,11 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3
+   "_auto_vis": 1
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "FLE:0:suspicious"
    ],
@@ -201,7 +231,7 @@
     ]
    ],
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -218,12 +248,13 @@
      }
     ]
    },
+   "interior": "pedra",
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2,
-   "interior": "pedra"
+   "d0": 11.4,
+   "d1": 11.0,
+   "detalhe": false,
+   "_auto_vis": 3
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -269,12 +300,8 @@
    "detalhe": true,
    "text": "BACTÉRIAS SUMIRAM",
    "explica": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
-    "local": "sala de madeira",
+    "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -290,7 +317,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",

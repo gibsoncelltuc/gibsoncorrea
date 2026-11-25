@@ -36,11 +36,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: REI na esquerda, expressao angry, segura paper; ARQ na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b5: "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas."
+## b5: "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
-- PERSONAGENS: ARQ na esquerda, expressao shock; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)
+- PERSONAGENS: ARQ no centro, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/bathtub: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +70 da cena
 - SOM: whoosh@50
@@ -58,9 +58,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano do objeto; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
 - PERSONAGENS: ARQ na esquerda, expressao grin; OUR na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b9: "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
 - LOCAL: vila medieval; hora: day

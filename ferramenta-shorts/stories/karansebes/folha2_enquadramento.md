@@ -59,8 +59,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
-- CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o cannon (alvo z -3.6, camera a 16.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: OFF na esquerda, expressao shock; AUT na direita, expressao pained; multidao de 6 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 16.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- PERSONAGENS: OFF no centro, expressao shock; multidao de 6 (AUT, HUS) ATRAS dos principais; acao: fala/gesto
 - OBJETO cannon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.5 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +85 da cena

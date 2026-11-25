@@ -8,7 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 10",
+   "cena 11",
    "street",
    "loc_cidade"
   ]
@@ -166,6 +166,26 @@
    "cenario": "loc_pista"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DEP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/coin"
+   ],
+   "palavras": 17,
+   "cena": "b7",
+   "frase": "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
    "camera": "orbit",
    "personagens": [
     "BUK",
@@ -179,7 +199,7 @@
     "kit/volcano"
    ],
    "palavras": 10,
-   "cena": "b7",
+   "cena": "b8",
    "frase": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -200,7 +220,7 @@
     "kit/coin"
    ],
    "palavras": 13,
-   "cena": "b8",
+   "cena": "b9",
    "frase": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -216,7 +236,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b9",
+   "cena": "b10",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "classe": "simples",
    "sujeito": "personagem",

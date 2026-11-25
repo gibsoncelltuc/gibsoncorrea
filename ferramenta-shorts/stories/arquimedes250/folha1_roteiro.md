@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 02 - Arquimedes e o Eureca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 169 palavras (~58 s)
 
 ## Cena b0  (~4.8 s)
 - Narracao: Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.8 s)
-- Narracao: Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.
+## Cena b5  (~6.9 s)
+- Narracao: Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@50, ding@70
-- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: transbordou -> splash + som de efeito; encena: senta @5 -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

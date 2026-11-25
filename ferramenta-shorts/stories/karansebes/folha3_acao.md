@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 73 acoes catalogadas, 73 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 72 acoes catalogadas, 72 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -112,8 +112,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 5 | dispararam (46.6s) | EFEITO: burst | estouro/clarao + som | OK |
 | 6 | dispararam (46.6s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
 | 7 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 8 | - | INTERACAO | susto | OK |
-| 9 | - | ATUACAO | reagir | OK |
+| 8 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 49.1s a 52.3s - 11 palavras - plano two
 > "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado."

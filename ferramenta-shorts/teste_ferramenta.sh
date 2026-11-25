@@ -178,6 +178,7 @@ grep -q "objeto CITADO na frase (o fogao)" mkvideo.py || f "objeto citado na fra
 grep -q "morte/doenca nunca vira festa" mkvideo.py || f "cena de morte vira grande momento com multidao rindo (Curie)"
 grep -q "_sem_povo" mkvideo.py && grep -q "multidao so' se a frase fala de gente" mkvideo.py || f "grande momento automatico poe multidao em cena sem gente (Darwin)"
 grep -q "londres|paris" mkvideo.py || f "historia em cidade grande (Londres) perde a rua e vira campo/montanha (Fleming)"
+grep -q "_banho" mkvideo.py && grep -q "transbordou|transbordaram" mkvideo.py || f "entrar na banheira/agua transbordando nao aparece (Arquimedes)"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----

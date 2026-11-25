@@ -14,20 +14,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pear...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): CID (variante 0, expressao nervous); CID (variante 1, expressao scared) | multidao: 8 de POV
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): medo, pearl
 - RISCOS: nenhum
 
 ## Cena b2 - Na véspera, um submarino japonês tinha atirado na Califórnia, e todo m...
 - Cenario: harbor | luz: pordosol | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): CID (variante 0, expressao scared); SOL (variante 0, expressao nervous) | multidao: 12 de CID/SOL
-- Animacao: conversar | interacao: cochichar | grande momento (efeito + som, sem tiro)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CID (variante 0, expressao scared) | multidao: 30 de 
+- Animacao: encena
 - Objetos/modelos: kit/submarino_ww2
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, submarino, vespera
 - RISCOS: nenhum
@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Alguém viu um objeto no céu, e os soldados começaram a atirar com canh...
 - Cenario: street | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): SOL (variante 0, expressao shout); SOL (variante 1, expressao angry) | multidao: 4 de SOL
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): SOL (variante 0, expressao shout) | multidao: 4 de SOL
+- Animacao: encena
 - Objetos/modelos: kit/canhao_moderno, cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atirar, canhoes, objeto, soldados
 - RISCOS: nenhum
@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Foram mais de mil tiros de canhão, e os estilhaços caíram na cidade, q...
 - Cenario: loc_cidade | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): CID (variante 0, expressao scared); CID (variante 1, expressao cry) | multidao: 20 de SOL/POV
-- Animacao: conversar | interacao: insiste | batalha encenada
+- Animacao: encena | batalha encenada
 - Objetos/modelos: kit/canhao_moderno, kit/searchlight, cannon, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canhao, cidade, estilhacos
 - RISCOS: nenhum
@@ -87,17 +87,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): CID (variante 0, expressao sad); CID (variante 1, expressao cry) | multidao: 12 de CID
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b9 - O único alvo derrotado naquela noite foi o sono de Los Angeles.
 - Cenario: street | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): CID (variante 0, expressao smile) | multidao: 8 de POV
-- Animacao: encena
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): CID (variante 0, expressao smile)
+- Animacao: conversar
 - Objetos/modelos: kit/searchlight
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sono
 - RISCOS: nenhum
@@ -127,8 +127,8 @@ cannon | b4, b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/searchlight | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 8% | medio 76% | aberto 14% | detalhe 2%
-- Interacoes: b0 susto, b2 cochichar, b3 entregar, b4 o outro se aproxima, b5 discutir, b6 insiste, b7 susto, b8 vai ate o outro
+- Objeto heroi: kit/searchlight | grandes momentos: b1, b6 | planos abertos: 4 | mistura: close 12% | medio 58% | aberto 26% | detalhe 4%
+- Interacoes: b0 susto, b3 entregar, b5 discutir, b7 susto, b8 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

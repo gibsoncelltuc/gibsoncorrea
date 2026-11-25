@@ -42,19 +42,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Contam que teve gente que trocou terras e casas por um único bulbo."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: RIC na esquerda, expressao grin, segura paper; MER na direita, expressao smug, segura tulip; sem multidao; acao: fala/gesto
 - OBJETO kit/tulip_striped: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO buildings/house_small: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.9 m de altura x 6.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/scroll: FRENTE, esquerda; tamanho na tela: 7% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.5 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
-- TEXTO NA TELA: "1 CASA = 1 BULBO" numa placa atras dos personagens, na palavra 1 da frase
+- OBJETO kit/scroll: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "1 CASA = 1 BULBO" flutuando no alto, na palavra 1 da frase
 
 ## b5: "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_yellow juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao grin, segura paper; POV na direita, expressao smile, segura coin; sem multidao; acao: discutir
 - OBJETO kit/tulip_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
 - LOCAL: sala de madeira; hora: day

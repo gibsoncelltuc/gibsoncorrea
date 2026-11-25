@@ -142,11 +142,10 @@
    "detalhe": false
   },
   {
-   "say": "Acontece que, numa tarde, ele entrou na banheira, e a água transbordou pelas bordas.",
+   "say": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
    "shot": "two",
    "who": [
-    "ARQ:0:shock",
-    "POV:0:surprised"
+    "ARQ:0:surprised"
    ],
    "impact": true,
    "tiros": false,
@@ -172,25 +171,13 @@
     "whoosh@50",
     "ding@70"
    ],
-   "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bathtub",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "batalha": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "interior": "pedra"
   },
   {
    "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
@@ -256,7 +243,7 @@
   },
   {
    "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
-   "shot": "prop",
+   "shot": "two",
    "who": [
     "ARQ:0:grin",
     "OUR:0:nervous"
@@ -264,31 +251,20 @@
    "props": [
     [
      "kit/crown",
-     0.0,
-     -1.2,
-     2.2,
+     0.5,
+     1.5,
+     1.0,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
      }
     ]
    ],
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano do objeto; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/crown",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "set": "medieval",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true
   },
   {
    "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",

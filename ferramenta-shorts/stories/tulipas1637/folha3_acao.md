@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.3s - 11 palavras - plano two
@@ -42,16 +42,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | PLACA | TODO MUNDO | OK |
 
-## Cena b4 - 22.4s a 25.2s - 13 palavras - plano two
+## Cena b4 - 22.4s a 25.2s - 13 palavras - plano wide
 > "Contam que teve gente que trocou terras e casas por um único bulbo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | trocou (23.4s) | ACAO: entrega | entrega | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | PLACA | 1 CASA = 1 BULBO | OK |
+| 2 | - | PLACA | 1 CASA = 1 BULBO | OK |
 
-## Cena b5 - 26.3s a 29.3s - 11 palavras - plano group
+## Cena b5 - 26.3s a 29.3s - 11 palavras - plano two
 > "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
