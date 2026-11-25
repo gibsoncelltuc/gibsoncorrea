@@ -110,23 +110,22 @@
    }
   },
   {
-   "shot": "two",
-   "who": [
-    "NEW:0:smug"
-   ],
-   "props": [
-    [
-     "kit/apple",
-     1.0,
-     1.0,
-     1.09,
-     {
-      "fixo": true
-     }
+   "explica": {
+    "objeto": "kit/apple",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "MAÇÃ",
+      "topo",
+      "Ela"
+     ],
+     [
+      "MESMA FORÇA",
+      "baixo",
+      "Lua"
+     ]
     ]
-   ],
-   "explica": false,
-   "detalhe": true,
+   },
    "set": "loc_campo",
    "bloco": "promessa",
    "say": "Ela explicou por que a Lua não cai em cima da gente.",
@@ -234,8 +233,7 @@
   {
    "shot": "two",
    "who": [
-    "NEW:0:surprised",
-    "AMI:0:shock"
+    "NEW:0:surprised"
    ],
    "impact": true,
    "crowd": {
@@ -250,7 +248,7 @@
     ],
     [
      "kit/apple",
-     0.2,
+     0.5,
      0.9,
      1.9,
      {
@@ -266,12 +264,12 @@
     "thump@40",
     "ding@60"
    ],
-   "cx": 0.2,
-   "cz": 0.0,
-   "d0": 8.0,
-   "d1": 7.0,
+   "cx": 0.3,
+   "cz": 0.3,
+   "d0": 4.4,
+   "d1": 4.0,
    "quadro_manual": true,
-   "h": 1.3,
+   "h": 1.1,
    "bloco": "escalada",
    "say": "Acontece que uma maçã caiu bem na frente dele.",
    "encena": {

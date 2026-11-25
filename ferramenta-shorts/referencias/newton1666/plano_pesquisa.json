@@ -107,6 +107,14 @@
   },
   {
    "tipo": "mecanismo",
+   "item": "Ela explicou por que a Lua não cai em cima da gente.",
+   "consultas": [
+    "explicou gente",
+    "apple diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
    "item": "Se a força puxa a maçã, puxa a Lua também?",
    "consultas": [
     "forca tambem",

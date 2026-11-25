@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 01 - Newton e a Maçã
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.5s - 11 palavras - plano group
@@ -19,7 +19,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.3s a 5.7s - 12 palavras - plano reveal
+## Cena b1 - 3.3s a 5.7s - 12 palavras - plano two
 > "Ela explicou por que a Lua não cai em cima da gente."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -93,14 +93,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | caiu (18.6s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | susto | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra caiu (18.6s): executa: poeira + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -133,7 +131,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 26.5s a 28.1s - 8 palavras - plano two
+## Cena b8 - 26.5s a 28.1s - 8 palavras - plano orbit
 > "Isso virou a lei da gravidade de Newton."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

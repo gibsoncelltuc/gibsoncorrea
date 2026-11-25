@@ -10,10 +10,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "LENDA?" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Ela explicou por que a Lua não cai em cima da gente."
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/apple no centro, manobra "gira"
+- PASSOS NA TELA: -
 
 ## b2: "Em 1666, a peste fechou a universidade de Cambridge."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -38,7 +37,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Acontece que uma maçã caiu bem na frente dele."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: NEW na esquerda, expressao surprised; AMI na direita, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: NEW no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena

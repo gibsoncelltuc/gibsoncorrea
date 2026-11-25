@@ -29,20 +29,22 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
-   "personagens": [
-    "NEW"
-   ],
-   "multidao": 8,
-   "objetos": [
-    "kit/apple"
-   ],
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 12,
    "cena": "b1",
    "frase": "Ela explicou por que a Lua não cai em cima da gente.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/apple (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -107,8 +109,7 @@
   {
    "camera": "two",
    "personagens": [
-    "NEW",
-    "AMI"
+    "NEW"
    ],
    "multidao": 0,
    "objetos": [
@@ -172,11 +173,11 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "NEW"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [],
    "palavras": 8,
    "cena": "b8",

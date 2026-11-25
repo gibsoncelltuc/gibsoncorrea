@@ -5,10 +5,10 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Newton e a Maçã
 - Epoca: 1666 | Lugar: Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste | Quando: 1665-1666, verao, tarde
 - HEROIS (objeto): kit/apple, kit/lua_ceu
-- HEROIS (personagens): NEW, AMI
+- HEROIS (personagens): NEW
 - Cenarios: countryside, loc_campo, street
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/apple: 0.3 m reais -> escala 0.4 (estava 1.3: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.0: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.09: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.9: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.5: grande demais)
+- Tamanho real aplicado: kit/apple: 0.3 m reais -> escala 0.4 (estava 1.3: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.0: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.9: grande demais); kit/apple: 0.3 m reais -> escala 0.4 (estava 1.5: grande demais)
 
 ## Itens pesquisados
 
@@ -27,6 +27,7 @@ objeto | livros e penas de escrever | livros e penas de escrever / livros e pena
 heroi | apple | maca vermelha / Newton e a Maçã | Red Apple.jpg (referencias/newton1666/prints/apple_9868f1.jpg); Tree with red apples in Barkedal 4.jpg (referencias/newton1666/prints/apple_62a5ae.jpg); Aerial view of Apple Park dllu.jpg (referencias/newton1666/prints/apple_9dbd3c.jpg)
 heroi | lua ceu | lua ceu | SEM REFERENCIA
 epoca | fazenda da epoca | farm 1666 / farm | The Farm 1666 Adriaen van de Velde.jpg (referencias/newton1666/prints/fazenda_da_epoca_ba8b05.jpg); Melchior d'Hondecoeter (Utrecht 1636-1695 Amsterda (referencias/newton1666/prints/fazenda_da_epoca_afbbb5.jpg)
+mecanismo | Ela explicou por que a Lua não cai em cima da gente. | explicou gente / apple diagram | SEM REFERENCIA
 mecanismo | Se a força puxa a maçã, puxa a Lua também? | forca tambem / lua ceu diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

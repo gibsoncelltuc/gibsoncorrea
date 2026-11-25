@@ -24,21 +24,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Ela explicou por que a Lua não cai em cima da gente.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): NEW (variante 0, expressao smug) | multidao: 8 de POV
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
-- Objetos/modelos: kit/apple
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gente
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/apple no centro, manobra "gira"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (2.4 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1666, a peste fechou a universidade de Cambridge.
@@ -108,8 +107,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): NEW (variante 0, expressao surprised); AMI (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: conversar | interacao: susto | grande momento (efeito + som, sem tiro)
+- Personagens principais (1): NEW (variante 0, expressao surprised) | multidao: 0 de POV
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: nature/tree_oak, kit/apple
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, maca
 - RISCOS: nenhum
@@ -118,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: NEW na esquerda, expressao surprised; AMI na direita, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: NEW no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -168,9 +167,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Isso virou a lei da gravidade de Newton.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): NEW (variante 0, expressao smug, segura book)
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): NEW (variante 0, expressao smug, segura book) | multidao: 8 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gravidade, newton
@@ -206,7 +205,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/lua_ceu | b0, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/apple | b0, b1, b4, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/apple | b0, b4, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/barn | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/haybale | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -215,8 +214,8 @@ nature/tree_oak | b4, b5, b6 | pronto | conferir na folha de contato se le bem; 
 
 
 ## Video inteiro
-- Objeto heroi: kit/apple | grandes momentos: b5, b8 | planos abertos: 2 | mistura: close 8% | medio 75% | aberto 14% | detalhe 3%
-- Interacoes: b3 insiste, b5 susto
+- Objeto heroi: kit/apple | grandes momentos: b5, b8 | planos abertos: 2 | mistura: close 10% | medio 78% | aberto 9% | detalhe 3%
+- Interacoes: b3 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
