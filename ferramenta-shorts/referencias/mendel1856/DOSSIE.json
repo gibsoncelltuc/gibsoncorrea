@@ -7,7 +7,6 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "hall",
    "interior madeira",
    "loc_campo",
    "loc_patio"
