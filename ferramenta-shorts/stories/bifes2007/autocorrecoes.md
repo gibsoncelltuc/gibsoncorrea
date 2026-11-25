@@ -10,3 +10,7 @@
 - b3: objeto "kit/steak" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b7: objeto "kit/steak" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b9: objeto "kit/steak" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 07:56 autocorrecao de visibilidade
+- b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+- b9: objeto "kit/steak" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> close no objeto

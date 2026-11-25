@@ -16,8 +16,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao grin)
-- Animacao: conversar | interacao: insiste
+- Personagens principais (1): TRU (variante 0, expressao smug)
+- Animacao: conversar
 - Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): loja, maio, oito, partir, trump
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao smug); VEN (variante 0, expressao laugh)
-- Animacao: conversar | interacao: vai ate o outro | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canal, marca, televisao
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CLI (variante 0, expressao suspicious); VEN (variante 0, expressao stern)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marca
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): TRU (variante 0, expressao laugh); CLI (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/steak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bifes, grupo
 - RISCOS: nenhum
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Moral da história: nem todo produto com nome famoso dura mais que uma ...
 - Cenario: interior madeira | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): VEN (variante 0, expressao laugh)
 - Animacao: conversar
 - Objetos/modelos: kit/steak
@@ -125,8 +125,8 @@ kit/stall | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 10% | medio 77% | aberto 12% | detalhe 2%
-- Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
+- Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 10% | medio 75% | aberto 12% | detalhe 4%
+- Interacoes: b0 o outro se aproxima, b2 susto, b3 pedir, b5 insiste, b6 vai ate o outro, b7 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
