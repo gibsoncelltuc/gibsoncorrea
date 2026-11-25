@@ -1,3 +1,2 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b6: objeto "kit/pea_yellow" saiu com 9% da altura da tela, a ficha de cena planejou 18%
-FALHA b6: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30%
+VISIBILIDADE: 1 FALHA(S)
+FALHA b6: objeto citado "kit/pea_yellow" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
