@@ -118,7 +118,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "SPE"
    ],
@@ -142,7 +142,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "SPE"
    ],
