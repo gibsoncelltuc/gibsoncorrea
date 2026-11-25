@@ -59,7 +59,7 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "SEM:0:stern"
    ],
@@ -95,10 +95,10 @@
     ]
    },
    "titulo": true,
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "quadro": {
     "local": "hospital",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/wash_basin",

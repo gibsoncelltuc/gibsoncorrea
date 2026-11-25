@@ -1,4 +1,96 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 52,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 55,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 56,
+   "shot": "b0_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 69,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 72,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 76,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 80,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 84,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 88,
+   "shot": "b0_v",
+   "why": [
+    "fun: head/torso cropped (box 0.908, 0.224, 1.347, 0.873)"
+   ]
+  },
+  {
+   "f": 92,
+   "shot": "b0_v",
+   "why": [
+    "fun: head/torso cropped (box 0.855, 0.315, 1.23, 0.882)"
+   ]
+  },
+  {
+   "f": 96,
+   "shot": "b0_v",
+   "why": [
+    "fun: head/torso cropped (box 0.837, 0.347, 1.212, 0.901)"
+   ]
+  },
+  {
+   "f": 540,
+   "shot": "b5",
+   "why": [
+    "mus: head/torso cropped (box -0.049, 0.381, 0.418, 0.864)"
+   ]
+  },
+  {
+   "f": 820,
+   "shot": "b8",
+   "why": [
+    "mus: head/torso cropped (box -0.021, 0.405, 0.638, 0.984)"
+   ]
+  }
+ ],
  "tiny": []
 }

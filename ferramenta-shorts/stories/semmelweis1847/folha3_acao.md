@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 2.5s - 12 palavras - plano two
+## Cena b0 - 0.1s a 2.5s - 12 palavras - plano group
 > "Um médico pediu para os colegas lavarem as mãos e foi expulso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -169,7 +169,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b9 - 30.9s a 33.6s - 8 palavras - plano wide
+## Cena b9 - 30.9s a 33.6s - 8 palavras - plano group
 > "Lavar as mãos virou insulto. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
