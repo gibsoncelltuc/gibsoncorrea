@@ -1,0 +1,162 @@
+{
+ "duration": 28.224,
+ "frames30": 847,
+ "source": "silence-align (cost 1.47)",
+ "segments": [
+  [
+   0.0,
+   2.51892
+  ],
+  [
+   2.89642,
+   5.19767
+  ],
+  [
+   5.57683,
+   7.06379
+  ],
+  [
+   7.26412,
+   9.15283
+  ],
+  [
+   9.52579,
+   10.282
+  ],
+  [
+   10.4975,
+   11.3307
+  ],
+  [
+   11.5186,
+   12.4588
+  ],
+  [
+   12.8172,
+   14.1952
+  ],
+  [
+   14.4617,
+   14.943
+  ],
+  [
+   15.3212,
+   17.5511
+  ],
+  [
+   17.9293,
+   18.6689
+  ],
+  [
+   19.0277,
+   20.5328
+  ],
+  [
+   20.8895,
+   22.1535
+  ],
+  [
+   22.4,
+   23.2274
+  ],
+  [
+   23.6047,
+   25.2661
+  ],
+  [
+   25.6379,
+   26.8396
+  ],
+  [
+   27.2195,
+   27.7972
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma ma\u00e7\u00e3 que n\u00e3o caiu na cabe\u00e7a de Newton mudou tudo.",
+   "s": 0.0,
+   "e": 2.519
+  },
+  {
+   "text": "Ela explicou por que a Lua n\u00e3o cai em cima da gente.",
+   "s": 2.896,
+   "e": 5.198
+  },
+  {
+   "text": "Em 1666,",
+   "s": 5.577,
+   "e": 7.064
+  },
+  {
+   "text": "a peste fechou a universidade de Cambridge.",
+   "s": 7.264,
+   "e": 9.153
+  },
+  {
+   "text": "Isaac Newton,",
+   "s": 9.526,
+   "e": 10.282
+  },
+  {
+   "text": "de 23 anos,",
+   "s": 10.498,
+   "e": 11.331
+  },
+  {
+   "text": "voltou para a fazenda.",
+   "s": 11.519,
+   "e": 12.459
+  },
+  {
+   "text": "Ficava debaixo de uma macieira,",
+   "s": 12.817,
+   "e": 14.195
+  },
+  {
+   "text": "pensando.",
+   "s": 14.462,
+   "e": 14.943
+  },
+  {
+   "text": "Acontece que uma ma\u00e7\u00e3 caiu bem na frente dele.",
+   "s": 15.321,
+   "e": 17.551
+  },
+  {
+   "text": "Ele se perguntou:",
+   "s": 17.929,
+   "e": 18.669
+  },
+  {
+   "text": "por que ela cai sempre para baixo?",
+   "s": 19.028,
+   "e": 20.533
+  },
+  {
+   "text": "Se a for\u00e7a puxa a ma\u00e7\u00e3,",
+   "s": 20.89,
+   "e": 22.154
+  },
+  {
+   "text": "puxa a Lua tamb\u00e9m?",
+   "s": 22.4,
+   "e": 23.227
+  },
+  {
+   "text": "Isso virou a lei da gravidade de Newton.",
+   "s": 23.605,
+   "e": 25.266
+  },
+  {
+   "text": "E a ma\u00e7\u00e3 nem foi comida.",
+   "s": 25.638,
+   "e": 26.84
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 27.22,
+   "e": 27.797
+  }
+ ]
+}

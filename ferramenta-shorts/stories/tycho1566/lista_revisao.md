@@ -3,7 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um gênio da astronomia perdeu o nariz numa briga por matemát": 

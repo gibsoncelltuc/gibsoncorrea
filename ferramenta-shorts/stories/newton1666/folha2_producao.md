@@ -19,9 +19,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
 - OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "LENDA?" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.9-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - Ela explicou por que a Lua não cai em cima da gente.
@@ -40,9 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (4.1-6.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (6.1-8.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1666, a peste fechou a universidade de Cambridge.
@@ -63,9 +59,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "CAMBRIDGE FECHADA" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: INGLATERRA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (8.5-10.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (10.0-11.5 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (5.6-7.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.2-8.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b3 - Isaac Newton, de 23 anos, voltou para a fazenda.
@@ -84,9 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao smile, segura bag; MAE na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (11.9-13.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (13.4-14.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Ficava debaixo de uma macieira, pensando.
@@ -105,7 +99,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao neutral, segura book; AMI na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que uma maçã caiu bem na frente dele.
@@ -128,7 +122,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
 - SOM: ding@60
-- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Ele se perguntou: por que ela cai sempre para baixo?
@@ -149,9 +143,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - TEXTO NA TELA: "PARA BAIXO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (20.7-22.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (22.4-24.1 s): mesmo angulo
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - Se a força puxa a maçã, puxa a Lua também?
@@ -169,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/lua_ceu no centro, manobra "parado"
 - PASSOS NA TELA: TERRA PUXA A MAÇÃ -> TERRA PUXA A LUA -> MESMA FORÇA
-- TAKES: 1 take de explicacao (3.4 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.2 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b8 - Isso virou a lei da gravidade de Newton.
@@ -193,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - SOM: sting@70
 - TEXTO NA TELA: "PRINCIPIA - 1687" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b9 - E a maçã nem foi comida. Foi assim que...
@@ -223,9 +215,11 @@ nature/tree_oak | b4, b5, b6 | pronto | conferir na folha de contato se le bem; 
 ## Video inteiro
 - Objeto heroi: kit/apple | grandes momentos: b5, b8 | planos abertos: 2 | mistura: close 8% | medio 75% | aberto 14% | detalhe 3%
 - Interacoes: b3 insiste, b5 susto
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: curto demais: ~28.2 s (voz real); minimo 30 s -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py newton1666
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: curto demais: ~28.2 s (voz real); minimo 30 s
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh newton1666 bN bM` (so essas cenas).
@@ -238,8 +232,6 @@ nature/tree_oak | b4, b5, b6 | pronto | conferir na folha de contato se le bem; 
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
 - OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (31.1-32.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (32.6-34.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

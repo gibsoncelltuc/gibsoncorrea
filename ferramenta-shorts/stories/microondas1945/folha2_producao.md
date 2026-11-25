@@ -143,7 +143,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e popcorn juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao laugh; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/popcorn: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/popcorn: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
 - SOM: sting@40

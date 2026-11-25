@@ -16,3 +16,6 @@
 
 ## 25/11 17:57 autocorrecao de visibilidade
 - b0: objeto "kit/brass_nose" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:39 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
