@@ -1,80 +1,45 @@
 {
  "fails": [
   {
-   "f": 64,
-   "shot": "b0_d",
+   "f": 1340,
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 86,
-   "shot": "b0_v",
+   "f": 1344,
+   "shot": "b7~3",
    "why": [
-    "empty take: no character in the take"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 88,
-   "shot": "b0_v",
+   "f": 1345,
+   "shot": "b7~3",
    "why": [
-    "empty take: no character in the take"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 92,
-   "shot": "b0_v",
+   "f": 1348,
+   "shot": "b7~3",
    "why": [
-    "empty take: no character in the take"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 96,
-   "shot": "b0_v",
+   "f": 1352,
+   "shot": "b7~3",
    "why": [
-    "empty take: no character in the take"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 100,
-   "shot": "b0_v",
+   "f": 1356,
+   "shot": "b7~3",
    "why": [
-    "empty take: no character in the take"
-   ]
-  },
-  {
-   "f": 104,
-   "shot": "b0_v",
-   "why": [
-    "jor: head/torso cropped (box 0.776, 0.239, 1.27, 0.84)"
-   ]
-  },
-  {
-   "f": 108,
-   "shot": "b0_v",
-   "why": [
-    "jor: head/torso cropped (box 0.707, 0.341, 1.077, 0.799)"
-   ]
-  },
-  {
-   "f": 808,
-   "shot": "b5",
-   "why": [
-    "mar: head/torso cropped (box -0.028, 0.414, 0.318, 0.815)"
-   ]
-  },
-  {
-   "f": 812,
-   "shot": "b5",
-   "why": [
-    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
-   ]
-  },
-  {
-   "f": 813,
-   "shot": "b5~1",
-   "why": [
-    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],

@@ -3,16 +3,15 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b4: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-3. b5: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-4. b6: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-5. b0: objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30%
-6. b4: objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30%
-7. b6: objeto "kit/roadster26" saiu com 14% da altura da tela, a ficha de cena planejou 30%
-8. b6: objeto "kit/cybertruck" saiu com 7% da altura da tela, a ficha de cena planejou 18%
-9. SUSPEITA b0: a frase fala de MUITA GENTE e a cena tem 2 pessoa(s) e nenhuma multidao
-10. SUSPEITA b4: a frase fala de MUITA GENTE e a cena tem 1 pessoa(s) e nenhuma multidao
+1. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+3. b0: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+4. b1: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+5. b5: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+6. b6: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+7. b0: objeto "kit/torre_luz" saiu com 0% da altura da tela, a ficha de cena planejou 18%
+8. b6: objeto "kit/roadster26" saiu com 13% da altura da tela, a ficha de cena planejou 30%
+9. b6: objeto "kit/cybertruck" saiu com 0% da altura da tela, a ficha de cena planejou 18%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Elon Musk prometeu um carro que voa.": 
