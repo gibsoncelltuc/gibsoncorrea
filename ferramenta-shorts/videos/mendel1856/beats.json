@@ -361,36 +361,36 @@
    "props": [
     [
      "kit/pea_green",
-     -1.4,
-     -1.6,
-     3.6,
+     -0.8,
+     -1.8,
+     3.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     1.5,
-     -1.6,
-     3.2,
+     1.6,
+     -1.8,
+     3.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     0.0,
-     -3.2,
-     3.2,
+     0.4,
+     -3.4,
+     3.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     3.4,
-     -3.2,
      3.2,
+     -3.4,
+     3.0,
      {
       "fixo": true
      }
@@ -448,11 +448,11 @@
    },
    "set": "loc_campo",
    "quadro_manual": true,
-   "cx": 0.0,
+   "cx": 0.2,
    "cz": -0.8,
    "h": 1.5,
-   "d0": 8.0,
-   "d1": 7.0
+   "d0": 9.0,
+   "d1": 8.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",

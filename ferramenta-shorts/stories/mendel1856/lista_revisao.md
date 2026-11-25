@@ -4,7 +4,6 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b6: objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b6: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 30%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 
