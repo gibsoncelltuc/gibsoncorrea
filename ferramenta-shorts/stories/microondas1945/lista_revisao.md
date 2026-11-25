@@ -6,31 +6,22 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Uma barra de chocolate derretida no bolso inventou o forno d": 
-- f1 "Era por volta de mil novecentos e quarenta e cinco,": 
-- f2 "nos Estados Unidos,": 
-- f3 "e o engenheiro Percy Spencer trabalhava numa fábrica de rada": 
-- f4 "Esses radares tinham uma peça potente,": 
-- f5 "que mandava ondas invisíveis o dia inteiro.": 
-- f6 "Um dia,": 
-- f7 "ele chegou perto dessa peça com uma barra de chocolate no bo": 
-- f8 "Pouco depois,": 
-- f9 "sentiu o bolso quente:": 
-- f10 "o chocolate tinha derretido.": 
-- f11 "Spencer ficou curioso e perguntou o que mais aquelas ondas f": 
-- f12 "Acontece que ele testou milho de pipoca,": 
-- f13 "e os grãos começaram a estourar pela sala.": 
-- f14 "Depois testou um ovo,": 
-- f15 "e o ovo explodiu bem na cara de um colega.": 
-- f16 "Dois anos depois,": 
-- f17 "saiu o primeiro forno,": 
-- f18 "mais alto que uma pessoa e com mais de trezentos quilos.": 
-- f19 "Hoje ele cabe em qualquer cozinha,": 
-- f20 "e esquenta a sobra do jantar em um minuto.": 
-- f21 "No fim,": 
-- f22 "o chocolate perdeu,": 
-- f23 "mas a pipoca agradece.": 
-- f24 "Agora não deixe de comentar:": 
-- f25 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Um chocolate derretido no bolso inventou o micro-ondas.": 
+- f1 "E hoje ele está em quase toda cozinha.": 
+- f2 "Por volta de 1945,": 
+- f3 "Percy Spencer trabalhava com radares.": 
+- f4 "Uma peça do radar soltava ondas invisíveis o dia inteiro.": 
+- f5 "Um dia,": 
+- f6 "ele chegou perto dela com chocolate no bolso.": 
+- f7 "Pouco depois,": 
+- f8 "sentiu o bolso quente:": 
+- f9 "o chocolate tinha derretido.": 
+- f10 "Acontece que ele testou pipoca,": 
+- f11 "e os grãos estouraram pela sala.": 
+- f12 "Depois testou um ovo,": 
+- f13 "que explodiu na cara de um colega.": 
+- f14 "O primeiro forno era mais alto que uma pessoa.": 
+- f15 "Um lanche perdido.": 
+- f16 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

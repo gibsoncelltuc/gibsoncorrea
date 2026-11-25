@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Curiosidade e Ciência",
  "ep": 12,
  "title": "O Astrônomo do Nariz de Metal",
@@ -57,16 +57,28 @@
     [
      "kit/brass_nose",
      0.0,
-     -1.2,
-     1.5,
+     -1.0,
+     1.1,
      {
       "fixo": true
      }
     ]
    ],
-   "text": "1566",
-   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
    "detalhe": false,
+   "bloco": "gancho",
+   "say": "Um gênio da astronomia perdeu o nariz numa briga por matemática.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nariz"
+     }
+    ]
+   },
+   "text": "NARIZ DE METAL",
+   "titulo": true,
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)",
@@ -79,27 +91,59 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
+  },
+  {
+   "shot": "two",
+   "hora": "dia",
+   "who": [
+    "TYC:0:sad"
+   ],
+   "props": [
+    [
+     "kit/brass_nose",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "impact": false,
+   "bloco": "promessa",
+   "say": "E passou o resto da vida com um nariz de metal.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "perde",
-      "na": "perdeu",
-      "quem": 0
-     },
-     {
-      "faz": "golpe",
-      "na": "briga",
-      "quem": 0,
-      "alvo_quem": 1
+      "faz": "mostra",
+      "na": "metal"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "reveal",
@@ -109,19 +153,20 @@
    ],
    "mapa": "DINAMARCA",
    "mapa_at": 3,
-   "say": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.",
+   "bloco": "prova",
+   "say": "Em 1566, Tycho Brahe estudava na Alemanha.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Alemanha"
+      "na": "estudava"
      }
     ]
    }
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "TYC:0:angry",
@@ -129,20 +174,17 @@
     "POV:0:surprised:mug"
    ],
    "acao": "discutir",
-   "say": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.",
+   "bloco": "prova",
+   "say": "Numa festa, discutiu com um primo sobre matemática.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_discute",
-      "na": "discutiu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "discutiu"
      }
     ]
-   },
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 1
+   }
   },
   {
    "shot": "two",
@@ -159,16 +201,14 @@
     "whoosh@36",
     "thump@40"
    ],
-   "say": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.",
+   "bloco": "escalada",
+   "say": "Dias depois, os dois resolveram tudo num duelo de espadas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "golpe",
-      "na": "duelo",
-      "quem": 0,
-      "alvo_quem": 1,
-      "forcar": true
+      "faz": "mostra",
+      "na": "duelo"
      }
     ]
    }
@@ -188,71 +228,20 @@
     "whoosh@26",
     "thump@30"
    ],
-   "say": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.",
    "detalhe": false,
-   "variar_cenario": false,
-   "vary": false,
    "shot_lock": true,
    "impact": false,
+   "bloco": "escalada",
+   "say": "Acontece que o primo cortou fora um pedaço do nariz de Tycho.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "golpe",
-      "na": "golpe",
-      "quem": 1,
-      "alvo_quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "cortou"
      }
     ]
    }
-  },
-  {
-   "shot": "two",
-   "hora": "dia",
-   "who": [
-    "TYC:0:sad"
-   ],
-   "props": [
-    [
-     "kit/brass_nose",
-     2.4,
-     0.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
-   "shot_lock": true,
-   "impact": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/brass_nose",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "metal"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
   },
   {
    "shot": "two",
@@ -261,15 +250,15 @@
     "TYC:0:surprised"
    ],
    "interacao": "entregar",
-   "say": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
    "set": "harbor",
+   "bloco": "escalada",
+   "say": "Depois, o rei lhe deu uma ilha só para estudar o céu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_entrega",
-      "na": "deu",
-      "quem": 0
+      "faz": "mostra",
+      "na": "deu"
      }
     ]
    }
@@ -290,7 +279,6 @@
    ],
    "text": "MIL ESTRELAS",
    "titulo": true,
-   "say": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
    "props": [
     [
      "kit/marco_uraniborg",
@@ -317,6 +305,18 @@
     "n": 0
    },
    "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Mediu mais de mil estrelas, sem telescópio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mediu"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -335,22 +335,6 @@
      }
     ]
    },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "constroi",
-      "na": "construiu",
-      "quem": 0
-     },
-     {
-      "faz": "escreve",
-      "na": "anotou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -366,21 +350,20 @@
    ],
    "interacao": "entregar",
    "text": "KEPLER",
-   "say": "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.",
    "fx": [
     "stars@50"
    ],
    "sfx": [
     "ding@50"
    ],
+   "bloco": "pagamento",
+   "say": "Os dados dele ajudaram o astrônomo Kepler.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "examina",
-      "na": "descobrir",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "ajudaram"
      }
     ]
    }
@@ -388,52 +371,52 @@
   {
    "shot": "two",
    "who": [
-    "TYC:0:smug"
+    "TYC:0:angry",
+    "PAR:0:shout"
    ],
+   "acao": "discutir",
    "props": [
     [
      "kit/brass_nose",
-     2.4,
-     0.2,
-     1.2,
+     0.0,
+     -1.2,
+     1.1,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "Com a cabeça nas estrelas, e o nariz de metal.",
-   "verbos_ok": [
-    "entro"
-   ],
+   "detalhe": false,
+   "bloco": "loop",
+   "say": "Cabeça nas estrelas e nariz de metal. Tudo porque...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nariz"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/brass_nose",
-      "lugar": "MEIO, direita (objeto principal da cena)",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "estrelas"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
- "max_wide": 3,
  "visual": {
   "local": "Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio Uraniborg",
   "quando": "dezembro de 1566, noite (duelo); 1576-1597 em Hven",
@@ -469,6 +452,7 @@
    "retrato": "Tycho Brahe portrait nose"
   }
  },
- "cinf": 3.0,
- "exp": 1.254
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um genio da astronomia perdeu o nariz por causa de matematica e viveu com um nariz de metal. Pagamento: o duelo cortou o nariz; depois ganhou uma ilha, mediu mil estrelas e ajudou Kepler.",
+ "loop_frase_ok": true
 }

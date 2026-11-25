@@ -21,7 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "RAIO X" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (0.0-2.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (2.0-4.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Conta-se que ela viu ali a própria morte.
@@ -40,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ANA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1895, Wilhelm Röntgen testava um tubo de vidro.
@@ -60,9 +62,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ALEMANHA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (6.4-8.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (8.1-9.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (7.4-8.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.9-10.4 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Uma noite, cobriu o tubo e apagou a luz.
@@ -83,7 +85,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - SOM: thump@60
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (10.7-12.2 s): mesmo angulo
+  - take 2 (12.2-13.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que, do outro lado da sala, uma tela brilhou no escuro.
@@ -106,9 +110,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +24 da cena
 - SOM: ding@20
 - SOM: sting@24
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (13.9-15.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (15.4-17.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (14.1-16.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (16.1-18.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Pôs a mão na frente e viu os próprios ossos.
@@ -129,7 +133,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (18.5-20.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (20.2-21.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b6 - Depois, fotografou a mão da esposa, Anna, com a aliança.
@@ -148,9 +154,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (20.8-22.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (22.2-23.7 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (22.2-23.9 s): mesmo angulo
+  - take 2 (23.9-25.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b7 - Sem saber o que era, chamou de raio X.
@@ -170,7 +176,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ROE (cientista) na esquerda, expressao smug; JOR (jornalista) na direita, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "RAIO X" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (25.9-27.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (27.4-28.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b8 - Ganhou o primeiro Nobel de Física.
@@ -194,7 +202,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Um raio desconhecido, e foi assim que...
@@ -237,6 +245,6 @@ kit/crookes_tube | b2, b3 | pronto | conferir na folha de contato se le bem; se 
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

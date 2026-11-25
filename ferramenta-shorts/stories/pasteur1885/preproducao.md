@@ -15,7 +15,7 @@ b7 | hall | orbit | 2 | batalha | kit/bancada, kit/seringa_pe, kit/syringe | - |
 b8 | interior madeira | track | 2 | andando | - | - | -
 b9 | street | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/bancada, kit/seringa_pe | - | -
 
-OBJETO HEROI: kit/syringe
+OBJETO HEROI: kit/seringa_pe
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b7
 Interacoes entre personagens: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b9 vai ate o outro
 

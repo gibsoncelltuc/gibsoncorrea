@@ -10,3 +10,9 @@
 
 ## 25/11 02:46 autocorrecao de visibilidade
 - b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 17:56 autocorrecao de visibilidade
+- b0: objeto "kit/brass_nose" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 17:57 autocorrecao de visibilidade
+- b0: objeto "kit/brass_nose" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

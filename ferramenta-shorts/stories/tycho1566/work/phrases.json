@@ -1,0 +1,153 @@
+{
+ "duration": 34.68,
+ "frames30": 1040,
+ "source": "silence-align (cost 1.51)",
+ "segments": [
+  [
+   0.146958,
+   3.086
+  ],
+  [
+   3.84375,
+   5.92942
+  ],
+  [
+   6.72575,
+   8.19796
+  ],
+  [
+   8.42504,
+   9.83158
+  ],
+  [
+   10.6233,
+   11.2286
+  ],
+  [
+   11.4395,
+   13.2011
+  ],
+  [
+   13.9646,
+   14.6697
+  ],
+  [
+   14.9493,
+   17.1018
+  ],
+  [
+   17.9115,
+   20.692
+  ],
+  [
+   21.4762,
+   21.9555
+  ],
+  [
+   22.1946,
+   24.1745
+  ],
+  [
+   24.9685,
+   26.3595
+  ],
+  [
+   26.5401,
+   27.2633
+  ],
+  [
+   28.0567,
+   29.9858
+  ],
+  [
+   30.7533,
+   32.5718
+  ],
+  [
+   33.3782,
+   33.9446
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um g\u00eanio da astronomia perdeu o nariz numa briga por matem\u00e1tica.",
+   "s": 0.147,
+   "e": 3.086
+  },
+  {
+   "text": "E passou o resto da vida com um nariz de metal.",
+   "s": 3.844,
+   "e": 5.929
+  },
+  {
+   "text": "Em 1566,",
+   "s": 6.726,
+   "e": 8.198
+  },
+  {
+   "text": "Tycho Brahe estudava na Alemanha.",
+   "s": 8.425,
+   "e": 9.832
+  },
+  {
+   "text": "Numa festa,",
+   "s": 10.623,
+   "e": 11.229
+  },
+  {
+   "text": "discutiu com um primo sobre matem\u00e1tica.",
+   "s": 11.44,
+   "e": 13.201
+  },
+  {
+   "text": "Dias depois,",
+   "s": 13.965,
+   "e": 14.67
+  },
+  {
+   "text": "os dois resolveram tudo num duelo de espadas.",
+   "s": 14.949,
+   "e": 17.102
+  },
+  {
+   "text": "Acontece que o primo cortou fora um peda\u00e7o do nariz de Tycho.",
+   "s": 17.912,
+   "e": 20.692
+  },
+  {
+   "text": "Depois,",
+   "s": 21.476,
+   "e": 21.956
+  },
+  {
+   "text": "o rei lhe deu uma ilha s\u00f3 para estudar o c\u00e9u.",
+   "s": 22.195,
+   "e": 24.174
+  },
+  {
+   "text": "Mediu mais de mil estrelas,",
+   "s": 24.968,
+   "e": 26.36
+  },
+  {
+   "text": "sem telesc\u00f3pio.",
+   "s": 26.54,
+   "e": 27.263
+  },
+  {
+   "text": "Os dados dele ajudaram o astr\u00f4nomo Kepler.",
+   "s": 28.057,
+   "e": 29.986
+  },
+  {
+   "text": "Cabe\u00e7a nas estrelas e nariz de metal.",
+   "s": 30.753,
+   "e": 32.572
+  },
+  {
+   "text": "Tudo porque...",
+   "s": 33.378,
+   "e": 33.945
+  }
+ ]
+}

@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.6s - 8 palavras - plano two
+## Cena b0 - 0.1s a 2.3s - 8 palavras - plano two
 > "Um chocolate derretido no bolso inventou o micro-ondas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chocolate" (0.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chocolate" (0.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,11 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.0s a 5.6s - 8 palavras - plano two
+## Cena b1 - 3.5s a 4.8s - 8 palavras - plano two
 > "E hoje ele está em quase toda cozinha."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cozinha" (5.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cozinha" (4.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -44,11 +44,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b2 - 5.9s a 8.9s - 9 palavras - plano reveal
+## Cena b2 - 6.1s a 9.5s - 9 palavras - plano reveal
 > "Por volta de 1945, Percy Spencer trabalhava com radares."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Spencer" (7.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Spencer" (8.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -60,11 +60,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b3 - 9.3s a 12.6s - 10 palavras - plano two
+## Cena b3 - 10.7s a 13.0s - 10 palavras - plano two
 > "Uma peça do radar soltava ondas invisíveis o dia inteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ondas" (11.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ondas" (12.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -77,32 +77,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 13.0s a 16.3s - 10 palavras - plano group
+## Cena b4 - 14.2s a 16.5s - 10 palavras - plano group
 > "Um dia, ele chegou perto dela com chocolate no bolso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (14.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (15.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (14.1s) | EFEITO: dust | poeira + som | OK |
+| 1 | chegou (15.1s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (14.1s): executa: poeira + som
+- EFEITO: dust na palavra chegou (15.1s): executa: poeira + som
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 - CHEGADA (a cena toda): executa: alguem entra andando
 <!-- /FISICA -->
 
-## Cena b5 - 16.7s a 20.0s - 10 palavras - plano two
+## Cena b5 - 17.5s a 20.5s - 10 palavras - plano two
 > "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "derretido" (20.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "derretido" (20.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -115,11 +115,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 20.4s a 24.1s - 11 palavras - plano two
+## Cena b6 - 21.8s a 24.7s - 11 palavras - plano two
 > "Acontece que ele testou pipoca, e os grãos estouraram pela sala."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estouraram" (23.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estouraram" (23.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -134,32 +134,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.4s a 28.1s - 11 palavras - plano two
+## Cena b7 - 25.7s a 28.0s - 11 palavras - plano two
 > "Depois testou um ovo, que explodiu na cara de um colega."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "explodiu" (26.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "explodiu" (27.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | explodiu (26.3s) | EFEITO: burst | estouro/clarao + som | OK |
+| 1 | explodiu (27.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra explodiu (26.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- EFEITO: burst na palavra explodiu (27.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 28.5s a 31.5s - 9 palavras - plano orbit
+## Cena b8 - 29.1s a 30.9s - 9 palavras - plano orbit
 > "O primeiro forno era mais alto que uma pessoa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "forno" (29.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "forno" (29.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -174,7 +172,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Um lanche perdido. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perdido" (32.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perdido" (32.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

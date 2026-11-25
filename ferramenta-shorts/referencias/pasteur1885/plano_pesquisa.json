@@ -92,7 +92,7 @@
   },
   {
    "tipo": "heroi",
-   "item": "syringe",
+   "item": "seringa pe",
    "consultas": [
     "seringa de vidro do seculo 19",
     "Pasteur e a Vacina da Raiva"
@@ -103,13 +103,6 @@
    "item": "bancada",
    "consultas": [
     "bancada"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "seringa pe",
-   "consultas": [
-    "seringa pe"
    ]
   }
  ]

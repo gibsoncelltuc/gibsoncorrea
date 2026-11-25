@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 10 - A Pia no Twitter
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
+Voz: pt-BR-AntonioNeural +15% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um bilionário entrou carregando uma pia na empresa que estava comprando.

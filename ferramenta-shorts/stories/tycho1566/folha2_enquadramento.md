@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "NARIZ DE METAL" flutuando no alto, na palavra 1 da frase
 
 ## b1: "E passou o resto da vida com um nariz de metal."

@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
 > "A primeira foto de dentro do corpo assustou a esposa do cientista."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -25,11 +25,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.9s a 5.5s - 8 palavras - plano two
+## Cena b1 - 4.4s a 7.0s - 8 palavras - plano two
 > "Conta-se que ela viu ali a própria morte."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "viu" (4.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "viu" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -40,11 +40,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.4s a 9.7s - 9 palavras - plano wide
+## Cena b2 - 7.4s a 10.4s - 9 palavras - plano wide
 > "Em 1895, Wilhelm Röntgen testava um tubo de vidro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "testava" (8.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "testava" (8.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -57,21 +57,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.8s a 12.9s - 9 palavras - plano two
+## Cena b3 - 10.7s a 13.7s - 9 palavras - plano two
 > "Uma noite, cobriu o tubo e apagou a luz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cobriu" (11.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cobriu" (11.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 13.9s a 17.0s - 12 palavras - plano low
+## Cena b4 - 14.1s a 18.1s - 12 palavras - plano low
 > "Acontece que, do outro lado da sala, uma tela brilhou no escuro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhou" (16.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhou" (17.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -82,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 18.1s a 19.7s - 10 palavras - plano two
+## Cena b5 - 18.5s a 21.9s - 10 palavras - plano two
 > "Pôs a mão na frente e viu os próprios ossos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ossos" (19.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ossos" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -97,11 +97,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 20.8s a 23.7s - 10 palavras - plano group
+## Cena b6 - 22.2s a 25.6s - 10 palavras - plano group
 > "Depois, fotografou a mão da esposa, Anna, com a aliança."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fotografou" (21.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fotografou" (22.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -114,11 +114,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.9s a 26.7s - 9 palavras - plano two
+## Cena b7 - 25.9s a 28.9s - 9 palavras - plano two
 > "Sem saber o que era, chamou de raio X."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chamou" (26.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chamou" (27.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -133,33 +133,33 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 26.8s a 28.0s - 6 palavras - plano orbit
+## Cena b8 - 29.3s a 31.1s - 6 palavras - plano orbit
 > "Ganhou o primeiro Nobel de Física."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Nobel" (27.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Nobel" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Ganhou (26.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | Ganhou (29.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | NOBEL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra Ganhou (26.8s): executa: estrelinhas + som
+- EFEITO: stars na palavra Ganhou (29.3s): executa: estrelinhas + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 29.1s a 30.9s - 7 palavras - plano two
+## Cena b9 - 31.5s a 33.7s - 7 palavras - plano two
 > "Um raio desconhecido, e foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "foi" (30.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "foi" (33.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

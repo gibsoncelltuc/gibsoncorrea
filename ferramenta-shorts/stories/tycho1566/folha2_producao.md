@@ -17,11 +17,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "NARIZ DE METAL" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.9-3.7 s): mesmo angulo
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E passou o resto da vida com um nariz de metal.
@@ -40,9 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)
 - PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (4.1-5.9 s): mesmo angulo
-  - take 2 (5.9-7.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1566, Tycho Brahe estudava na Alemanha.
@@ -62,7 +58,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: DINAMARCA (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (6.7-8.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.1-9.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b3 - Numa festa, discutiu com um primo sobre matemática.
@@ -81,7 +79,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Dias depois, os dois resolveram tudo num duelo de espadas.
@@ -103,9 +101,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@36
 - SOM: thump@40
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (13.7-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (15.3-17.0 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (14.0-15.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (15.3-16.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que o primo cortou fora um pedaço do nariz de Tycho.
@@ -128,9 +126,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +36 da cena
 - SOM: whoosh@26
 - SOM: thump@30
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (17.4-19.4 s): mesmo angulo
-  - take 2 (19.4-21.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - Depois, o rei lhe deu uma ilha só para estudar o céu.
@@ -149,9 +145,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI (rei) na esquerda, expressao grin; TYC (nobre) na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (21.9-23.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.9-25.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - Mediu mais de mil estrelas, sem telescópio.
@@ -176,7 +170,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "MIL ESTRELAS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Os dados dele ajudaram o astrônomo Kepler.
@@ -198,7 +192,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: ding@50
 - TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Cabeça nas estrelas e nariz de metal. Tudo porque...
@@ -240,7 +234,7 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
 - OBJETO kit/brass_nose: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (31.5-33.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (33.0-34.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (30.8-32.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (32.3-33.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

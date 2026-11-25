@@ -1,0 +1,162 @@
+{
+ "duration": 35.016,
+ "frames30": 1050,
+ "source": "silence-align (cost 1.01)",
+ "segments": [
+  [
+   0.145958,
+   2.75675
+  ],
+  [
+   3.53842,
+   5.25154
+  ],
+  [
+   6.0685,
+   7.89521
+  ],
+  [
+   8.18696,
+   9.96142
+  ],
+  [
+   10.7424,
+   13.4077
+  ],
+  [
+   14.1839,
+   14.605
+  ],
+  [
+   14.7975,
+   16.7247
+  ],
+  [
+   17.527,
+   18.2123
+  ],
+  [
+   18.4456,
+   19.467
+  ],
+  [
+   19.6975,
+   21.0004
+  ],
+  [
+   21.7799,
+   23.2843
+  ],
+  [
+   23.4916,
+   24.9258
+  ],
+  [
+   25.6915,
+   26.7
+  ],
+  [
+   26.9269,
+   28.3057
+  ],
+  [
+   29.1099,
+   31.103
+  ],
+  [
+   31.8788,
+   32.7613
+  ],
+  [
+   33.5456,
+   34.2895
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um chocolate derretido no bolso inventou o micro-ondas.",
+   "s": 0.146,
+   "e": 2.757
+  },
+  {
+   "text": "E hoje ele est\u00e1 em quase toda cozinha.",
+   "s": 3.538,
+   "e": 5.252
+  },
+  {
+   "text": "Por volta de 1945,",
+   "s": 6.069,
+   "e": 7.895
+  },
+  {
+   "text": "Percy Spencer trabalhava com radares.",
+   "s": 8.187,
+   "e": 9.961
+  },
+  {
+   "text": "Uma pe\u00e7a do radar soltava ondas invis\u00edveis o dia inteiro.",
+   "s": 10.742,
+   "e": 13.408
+  },
+  {
+   "text": "Um dia,",
+   "s": 14.184,
+   "e": 14.605
+  },
+  {
+   "text": "ele chegou perto dela com chocolate no bolso.",
+   "s": 14.797,
+   "e": 16.725
+  },
+  {
+   "text": "Pouco depois,",
+   "s": 17.527,
+   "e": 18.212
+  },
+  {
+   "text": "sentiu o bolso quente:",
+   "s": 18.446,
+   "e": 19.467
+  },
+  {
+   "text": "o chocolate tinha derretido.",
+   "s": 19.698,
+   "e": 21.0
+  },
+  {
+   "text": "Acontece que ele testou pipoca,",
+   "s": 21.78,
+   "e": 23.284
+  },
+  {
+   "text": "e os gr\u00e3os estouraram pela sala.",
+   "s": 23.492,
+   "e": 24.926
+  },
+  {
+   "text": "Depois testou um ovo,",
+   "s": 25.692,
+   "e": 26.7
+  },
+  {
+   "text": "que explodiu na cara de um colega.",
+   "s": 26.927,
+   "e": 28.306
+  },
+  {
+   "text": "O primeiro forno era mais alto que uma pessoa.",
+   "s": 29.11,
+   "e": 31.103
+  },
+  {
+   "text": "Um lanche perdido.",
+   "s": 31.879,
+   "e": 32.761
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 33.546,
+   "e": 34.289
+  }
+ ]
+}

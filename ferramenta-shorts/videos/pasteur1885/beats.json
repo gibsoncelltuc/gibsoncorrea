@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/syringe",
+ "heroi": "kit/seringa_pe",
  "outfits": {
   "PAS": {
    "jacket": "#2a2a33",
@@ -350,7 +350,7 @@
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "pagamento",
    "say": "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
    "encena": {
