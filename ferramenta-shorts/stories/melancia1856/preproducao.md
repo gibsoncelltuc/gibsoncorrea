@@ -8,7 +8,7 @@ b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/melon | - | -
 b1 | jungle | group | 1 | conversar | kit/melon | - | -
 b2 | loc_campo | wide | 1 | encena | vehicles/locomotive | - | -
 b3 | jungle | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - | -
-b4 | street | group | 7 | comemorar | war/pistol, kit/stall, buildings/shop | - | -
+b4 | street | group | 1 | comemorar | war/pistol, kit/stall, buildings/shop | - | -
 b5 | street | crowd | 21 | encena, batalha | - | - | -
 b6 | street | wide | 1 | discutir, batalha | vehicles/locomotive | - | -
 b7 | street | two | 16 | conversar, INTERAGEM: susto | - | paper | -

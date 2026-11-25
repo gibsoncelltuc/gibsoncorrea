@@ -7,7 +7,7 @@
 - Roupas: {'VEN': 'vendedor de camisa branca e chapeu de palha', 'VIA': 'viajante americano de 1856 com colete, paleto e chapeu de aba', 'MOR': 'morador com camisa simples e chapeu de palha', 'SOL': 'policial local de 1856', 'PRE': 'autoridade de casaca escura'}
 - Cenario real: rua tropical com barracas de frutas, estacao de trem de madeira, palmeiras
 - Objetos: ['melancia', 'barraca de frutas', 'trem a vapor de 1856', 'revolver']
-- Cenarios usados no video: interior pedra, jungle, loc_campo, street
+- Cenarios usados no video: jungle, loc_campo, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
