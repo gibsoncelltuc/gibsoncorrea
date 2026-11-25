@@ -106,12 +106,6 @@
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "kit/fire",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -470,7 +464,7 @@
     [
      "kit/extinguisher",
      0.0,
-     -1.0,
+     -1.2,
      1.5,
      {
       "nocol": true,
@@ -506,8 +500,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "who": [
@@ -636,12 +629,6 @@
      {
       "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/fire",
-      "lugar": "MEIO, esquerda",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }

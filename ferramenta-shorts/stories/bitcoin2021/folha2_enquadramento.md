@@ -61,6 +61,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Maluquice ou visão? Só sei que foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

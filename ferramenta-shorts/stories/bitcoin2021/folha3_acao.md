@@ -144,6 +144,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 8: parada, reagindo (shock), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 

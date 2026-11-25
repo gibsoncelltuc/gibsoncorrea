@@ -63,17 +63,6 @@
       "y": 0.95,
       "fixo": true
      }
-    ],
-    [
-     "kit/fire",
-     3.2,
-     -2.4,
-     0.9,
-     {
-      "nocol": true,
-      "fixo": true,
-      "y": 0.9
-     }
     ]
    ],
    "set": "loc_cidade",
@@ -481,7 +470,7 @@
     [
      "kit/extinguisher",
      0.0,
-     -1.2,
+     -1.0,
      1.5,
      {
       "nocol": true,
@@ -517,7 +506,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_auto_vis": 1
   },
   {
    "who": [
@@ -606,17 +596,6 @@
       "nocol": true,
       "y": 0.95,
       "fixo": true
-     }
-    ],
-    [
-     "kit/fire",
-     3.2,
-     -2.4,
-     0.9,
-     {
-      "nocol": true,
-      "fixo": true,
-      "y": 0.9
      }
     ]
    ],

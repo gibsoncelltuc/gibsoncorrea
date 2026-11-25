@@ -207,7 +207,7 @@ kit/rack_mineracao | b4 | pronto | conferir na folha de contato se le bem; se pa
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; multidao de 8 (POV, CLI) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: BUK na esquerda, expressao smug; POV (comerciante) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (25.9-27.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe

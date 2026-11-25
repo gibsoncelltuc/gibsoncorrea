@@ -1,0 +1,5 @@
+VISIBILIDADE: 4 FALHA(S)
+FALHA b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b2: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b2: objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+FALHA b2: objeto "kit/flamethrower" saiu com 9% da altura da tela, a ficha de cena planejou 32%
