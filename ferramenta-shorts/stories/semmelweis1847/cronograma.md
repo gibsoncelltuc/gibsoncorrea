@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 25/11 19:03 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:04 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | interior hospital | group | SEM | - | wash_basin | - | Um médico
 b1 | simples | street | two | PAR | - | marco_viena, wash_basin | - | Hoje é chamado de salvador das mães.
 b2 | transicao | street | reveal | POV, POV | 6 | maca, marco_viena, room_hospital | - | Em 1847, no hospital de Viena, havia duas alas de parto.
 b3 | simples | interior hospital | wide | MAE, MAE, SEM | - | maca | - | Na ala dos médicos, morriam muito mais mães, de febre.
-b4 | chave | interior hospital | wide | KOL, SEM | - | bisturi | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um colega se cortou numa autópsia e morreu de febre.
+b4 | chave | interior hospital | two | KOL, SEM | - | bisturi | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um colega se cortou numa autópsia e morreu de febre.
 b5 | transicao | interior hospital | wide | SEM, DIR | - | - | - | Acontece que os médicos saíam das autópsias de mãos sujas.
 b6 | simples | interior hospital | two | SEM, KOL | - | wash_basin | - | Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.
 b7 | chave | street | crowd | SEM, MAE, PAR | - | marco_viena, wash_basin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As mortes caíram quase dez vezes.
