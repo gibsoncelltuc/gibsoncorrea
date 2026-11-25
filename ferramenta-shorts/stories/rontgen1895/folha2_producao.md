@@ -144,7 +144,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del...
 - Cenario: interior madeira | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROE (variante 0, expressao grin)
 - Animacao: conversar
@@ -155,7 +155,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: dia
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao grin; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
@@ -282,7 +282,7 @@ kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem;
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 15% | detalhe 2%
+- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 27% | medio 55% | aberto 15% | detalhe 2%
 - Interacoes: b0 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

@@ -8,16 +8,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 16 de POV
 - Animacao: encena
-- Objetos/modelos: mk/BookStand, kit/phone
+- Objetos/modelos: mk/BookStand, kit/smartphone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, plateia, presidente, selfie
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
-- CAMERA: revelacao (camera sobe e abre)
+- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/smartphone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
@@ -119,16 +119,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 20 de POV
 - Animacao: tirar
-- Objetos/modelos: mk/BookStand, kit/phone
+- Objetos/modelos: mk/BookStand, kit/smartphone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costas, plenario, selfie
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao surprised; multidao de 20 (POV) ATRAS dos principais; acao: tirar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/smartphone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@20
@@ -208,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
 - Animacao: comemorar
-- Objetos/modelos: kit/marco_onu, kit/phone
+- Objetos/modelos: kit/marco_onu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, selfie
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -263,8 +263,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 mk/BookStand | b0, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b0, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/smartphone | b4, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/smartphone | b0, b4, b5, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_onu | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

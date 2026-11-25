@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: tira (lift) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; encena: pega (lift) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: quimico (pour) @6 -> acao + som de efeito; encena: examina (think) @7 -> acao + som de efeito; encena: x_solta (up) @13 -> acao + som de efeito; encena: brilha (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@60
-- Efeito + som nas palavras-chave: encena: empurra (push) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: puff@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@24
-- Efeito + som nas palavras-chave: encena: brilha (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@24
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: tira (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

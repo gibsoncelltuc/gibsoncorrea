@@ -66,7 +66,7 @@
    "personagens": [
     "MEN"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/pea_green",
     "kit/pea_yellow"
@@ -120,7 +120,7 @@
    "personagens": [
     "MEN"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/pea_green",
     "kit/pea_yellow"
@@ -135,7 +135,7 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MEN"
    ],
@@ -193,10 +193,8 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "CIE",
-    "CIE",
     "CIE"
    ],
    "multidao": 0,
@@ -220,18 +218,18 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "MEN"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/pea_green"
    ],
    "palavras": 8,
    "cena": "b10",
    "frase": "No fim, a ervilha fez o monge famoso.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

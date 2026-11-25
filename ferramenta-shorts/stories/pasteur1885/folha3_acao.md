@@ -7,6 +7,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
 > "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vacina" (2.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
@@ -56,6 +59,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 15.2s a 18.9s - 14 palavras - plano group
 > "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa."
 
+- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+  1) PAS acao do motor: examina | na palavra "testado" (16.9s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testado (16.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
@@ -71,6 +77,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b4 - 20.1s a 24.5s - 18 palavras - plano close
 > "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PAS chega na cena | na palavra "chegou" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -113,14 +122,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 29.4s a 34.4s - 14 palavras - plano orbit
 > "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PAS entrega o objeto ao alvo | na palavra "aplicou" (32.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | aplicou (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | aplicou (32.0s) | ACAO: entrega | entrega | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra aplicou (32.0s): executa: estende a mao entregando
+- ACAO: entrega na palavra aplicou (32.0s): executa: entrega
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 

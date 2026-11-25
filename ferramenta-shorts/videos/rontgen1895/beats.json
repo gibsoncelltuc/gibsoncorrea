@@ -84,13 +84,14 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "pega",
+      "na": "tirou",
       "quem": 0,
-      "faz": "tira",
-      "na": "tirou"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    },
+   "objetos": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -157,27 +158,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "quimico",
-      "na": "laboratorio"
-     },
-     {
-      "quem": 0,
       "faz": "examina",
-      "na": "testando"
-     },
-     {
-      "quem": 0,
-      "faz": "x_solta",
-      "na": "soltava"
-     },
-     {
-      "quem": 0,
-      "faz": "brilha",
-      "na": "faiscas"
+      "na": "testando",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -225,12 +210,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "pega",
+      "na": "cobriu",
       "quem": 0,
-      "faz": "empurra",
-      "na": "apagou"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -278,15 +263,13 @@
    },
    "_enq_shot": "low",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "brilha",
-      "na": "brilhar"
+      "faz": "mostra",
+      "na": "tela"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -335,12 +318,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "viu"
+      "na": "viu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -348,7 +330,7 @@
    "d1": 8.0
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "interior": "madeira",
    "hora": "dia",
    "who": [
@@ -369,7 +351,7 @@
    "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/xray_plate",
@@ -379,24 +361,23 @@
      }
     ]
    },
-   "_enq_shot": "group",
-   "detalhe": false,
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "chamou"
+      "na": "chamou",
+      "quem": 0
      },
      {
-      "quem": 0,
-      "faz": "tira",
+      "faz": "mostra",
       "na": "fotografou"
      }
-    ],
-    "rascunho": true
+    ]
    },
+   "detalhe": false,
+   "objetos": false,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -437,12 +418,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "olhou"
+      "na": "olhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -507,14 +487,13 @@
    },
    "_enq_shot": "crowd",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "notícia"
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -534,12 +513,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "chamou"
+      "na": "chamou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -577,12 +555,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "ganhou"
+      "na": "ganhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

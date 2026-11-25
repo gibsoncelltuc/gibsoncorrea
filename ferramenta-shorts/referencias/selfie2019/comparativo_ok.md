@@ -1,1 +1,1 @@
-kit/phone: REMODELAR - o modelo e' um painel de tela em pe com base, nao um smartphone na mao; e' o objeto central da historia
+kit/smartphone: OK - smartphone de mao retangular fino com tela grande de icones, camera e moldura escura; bate com a foto do celular na mao (a foto 2013 e' so' referencia de formato)

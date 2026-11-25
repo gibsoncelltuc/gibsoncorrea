@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, ENG
 - Cenarios: arctic, interior loja, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/roadster2008: 4.5 m reais -> escala 1.63 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: kit/roadster2008: 4.5 m reais -> escala 1.59 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 

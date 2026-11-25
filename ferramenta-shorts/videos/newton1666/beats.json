@@ -45,21 +45,19 @@
    "who": [
     "NEW:0:smile:book"
    ],
-   "text": "1666",
    "props": [
     [
      "kit/apple",
      2.4,
      0.2,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
-   "_enq_shot": "group",
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -70,6 +68,19 @@
      }
     ]
    },
+   "_enq_shot": "group",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
+   "detalhe": false,
+   "set": "loc_campo",
+   "moveis": [],
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -135,7 +146,17 @@
      -1.6,
      1.4
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "pensando",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
@@ -159,7 +180,7 @@
      "kit/apple",
      0.0,
      -1.2,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -174,7 +195,6 @@
     "ding@60"
    ],
    "_susp_ok": true,
-   "_enq_shot": "orbit",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "orbit; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
@@ -184,6 +204,16 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     }
+    ]
+   },
+   "_enq_shot": "orbit",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "cai",
+      "na": "caiu"
      }
     ]
    },
@@ -217,7 +247,16 @@
     "MAE:0:shock"
    ],
    "interacao": "susto",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Lua"
+     }
+    ]
+   }
   },
   {
    "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
@@ -288,16 +327,15 @@
      "kit/apple",
      2.4,
      0.2,
-     1.0,
+     2.0,
      {
       "fixo": true
      }
     ]
    ],
    "explica": false,
-   "_enq_shot": "two",
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -308,6 +346,19 @@
      }
     ]
    },
+   "detalhe": true,
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
+   "set": "loc_campo",
+   "moveis": [],
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -345,5 +396,6 @@
    "casa": "Woolsthorpe Manor apple tree",
    "maca": "red apple on branch"
   }
- }
+ },
+ "max_wide": 3
 }

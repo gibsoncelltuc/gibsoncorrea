@@ -51,6 +51,15 @@
      0,
      -1.5,
      2.0
+    ],
+    [
+     "kit/smartphone",
+     1.3,
+     0.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -70,7 +79,8 @@
    },
    "say": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
    "fachada": false,
-   "set": "hall"
+   "set": "hall",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -183,6 +193,15 @@
      0.6,
      1.0,
      2.0
+    ],
+    [
+     "kit/smartphone",
+     1.3,
+     0.2,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -205,7 +224,8 @@
    "say": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
    "fachada": false,
    "tiros": false,
-   "set": "hall"
+   "set": "hall",
+   "objetos": false
   },
   {
    "shot": "two",
@@ -306,7 +326,8 @@
    "titulo": true,
    "say": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
    "fachada": false,
-   "tiros": false
+   "tiros": false,
+   "objetos": false
   },
   {
    "shot": "two",

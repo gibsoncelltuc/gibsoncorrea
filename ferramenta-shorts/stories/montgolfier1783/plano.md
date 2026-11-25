@@ -4,14 +4,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | tropa, animais | - | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
-b2 | group | -  | interior | encena: olha (point) @9 (acao + som de efeito); encena: calor (reach) @13 (acao + som de efeito) | -
-b3 | two | -  | tropa, interior | encena: calor (reach) @12 (acao + som de efeito) | -
+b2 | group | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
+b3 | two | -  | tropa, interior | - | -
 b4 | group | -  | interior | - | -
-b5 | wide | -  | tropa, animais | encena: fala (point) @2 (acao + som de efeito); encena: chega (point) @13 (acao + som de efeito) | -
+b5 | wide | -  | tropa, animais | encena: chega (point) @13 (acao + som de efeito) | -
 b6 | crowd | -  | tropa | encena: olha (point) @9 (acao + som de efeito) | -
-b7 | orbit | -  | batalha aberta com tiros, tropa | encena: pega (lift) @4 (acao + som de efeito) | -
-b8 | wide | -  | tropa, animais | encena: x_desce (point) @4 (acao + som de efeito) | -
-b9 | wide | -  | tropa, placa: VOAMOS | encena: pega (lift) @5 (acao + som de efeito) | -
+b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b8 | wide | -  | tropa, animais | - | -
+b9 | wide | -  | tropa, placa: VOAMOS | - | -
 b10 | two | -  | tropa, animais | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 

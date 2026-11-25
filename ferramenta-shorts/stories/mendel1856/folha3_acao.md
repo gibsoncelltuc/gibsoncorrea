@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -41,34 +41,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN chega na cena | na palavra "cruzou" (11.6s)
-  2) MEN acao do motor: espera | na palavra "esperou" (14.3s)
+  1) MEN acao do motor: espera | na palavra "esperou" (14.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cruzou (11.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 1 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra cruzou (11.6s): executa: entra andando pela lateral
 - ACAO: x_espera na palavra esperou (14.3s): executa: espera de bracos cruzados
 <!-- /FISICA -->
 
 ## Cena b3 - 16.7s a 20.6s - 12 palavras - plano two
 > "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: sai | na palavra "sairam" (18.3s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (18.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | saíram (18.3s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra saíram (18.3s): executa: sai andando pela lateral
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -109,22 +104,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: fala na palavra contou (27.2s): braco estendido apontando para o objeto/lugar citado
 <!-- /FISICA -->
 
-## Cena b6 - 30.8s a 35.9s - 16 palavras - plano two
+## Cena b6 - 30.8s a 35.9s - 16 palavras - plano wide
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN chega na cena | na palavra "voltou" (32.0s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (31.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (32.0s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 3 : 1 | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 3 : 1 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (32.0s): executa: entra andando pela lateral
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
@@ -168,7 +161,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.3s a 51.0s - 18 palavras - plano group
+## Cena b9 - 46.3s a 51.0s - 18 palavras - plano wide
 > "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
 
 - LEITURA DA FRASE: sentido FATO
@@ -178,28 +171,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | viram (49.9s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | GENÉTICA | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | GENÉTICA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: olha na palavra viram (49.9s): braco estendido apontando para o objeto/lugar citado
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b10 - 52.1s a 53.9s - 8 palavras - plano orbit
+## Cena b10 - 52.1s a 53.9s - 8 palavras - plano two
 > "No fim, a ervilha fez o monge famoso."
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "No" (52.1s)
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilha" (52.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b11 - 55.2s a 58.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

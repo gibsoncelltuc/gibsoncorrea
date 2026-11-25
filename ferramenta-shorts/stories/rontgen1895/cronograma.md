@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 25/11 04:18 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:19 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | simples | interior madeira | two | ROE | - | crookes_tube | - | Wilhelm Rö
 b3 | simples | interior madeira | close | ROE | - | crookes_tube | - | Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 b4 | simples | interior madeira | low | ROE | - | xray_plate | - | Acontece que, do outro lado da sala, uma tela começou a brilhar no esc
 b5 | simples | interior madeira | two | ROE | - | crookes_tube, xray_plate | - | Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
-b6 | simples | interior madeira | group | ROE | - | xray_plate | - | Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del
+b6 | simples | interior madeira | close | ROE | - | xray_plate | - | Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del
 b7 | simples | interior madeira | two | ANA | - | xray_plate | - | Conta-se que ela olhou a chapa e disse que tinha visto a própria morte
 b8 | chave | street | orbit | JOR, MED, POV | 14 | marco_wurzburg, xray_plate | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia correu o mundo, e médicos e curiosos queriam ver o raio mist
 b9 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Sem saber o que era, ele chamou de raio X: X, de desconhecido.

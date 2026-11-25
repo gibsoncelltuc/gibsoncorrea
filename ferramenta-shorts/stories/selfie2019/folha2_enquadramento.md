@@ -4,9 +4,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás."
 - LOCAL: salao; hora: day
-- CAMERA: revelacao (camera sobe e abre)
+- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; DIP (politico) na direita, expressao surprised; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/smartphone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 
@@ -42,9 +42,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Virou de costas para o plenário e tirou a selfie com todos atrás."
 - LOCAL: salao; hora: day
-- CAMERA: plano de multidao
+- CAMERA: plano de multidao; plano medio enquadrando personagens e smartphone juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao surprised; multidao de 20 (POV) ATRAS dos principais; acao: tirar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/smartphone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@20

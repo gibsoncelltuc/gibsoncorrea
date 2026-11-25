@@ -17,7 +17,7 @@
    ],
    "multidao": 16,
    "objetos": [
-    "kit/phone",
+    "kit/smartphone",
     "mk/BookStand"
    ],
    "palavras": 15,
@@ -107,7 +107,7 @@
    ],
    "multidao": 20,
    "objetos": [
-    "kit/phone",
+    "kit/smartphone",
     "mk/BookStand"
    ],
    "palavras": 13,
@@ -187,8 +187,7 @@
    ],
    "multidao": 20,
    "objetos": [
-    "kit/marco_onu",
-    "kit/phone"
+    "kit/marco_onu"
    ],
    "palavras": 12,
    "cena": "b9",

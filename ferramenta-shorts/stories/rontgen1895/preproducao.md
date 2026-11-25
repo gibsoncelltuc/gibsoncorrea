@@ -10,7 +10,7 @@ b2 | interior madeira | two | 1 | conversar | kit/crookes_tube | - | -
 b3 | interior madeira | close | 1 | encena | kit/crookes_tube | paper | -
 b4 | interior madeira | low | 1 | conversar | kit/xray_plate | - | -
 b5 | interior madeira | two | 1 | reagir | kit/xray_plate, kit/crookes_tube | - | -
-b6 | interior madeira | group | 1 | conversar | kit/xray_plate | - | -
+b6 | interior madeira | close | 1 | conversar | kit/xray_plate | - | -
 b7 | interior madeira | two | 1 | conversar | kit/xray_plate | - | -
 b8 | street | orbit | 17 | reagir, batalha | kit/xray_plate, kit/marco_wurzburg | paper | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/xray_plate | paper | -
