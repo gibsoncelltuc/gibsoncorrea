@@ -94,3 +94,12 @@
 
 ## 25/11 00:41 autocorrecao de visibilidade
 - b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 01:08 autocorrecao de visibilidade
+- b3: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b3: objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 01:09 autocorrecao de visibilidade
+- b3: camera DENTRO de "kit/helicopter_air" -> "kit/helicopter_air" afastado para o fundo e mira da camera fora dele
+- b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
