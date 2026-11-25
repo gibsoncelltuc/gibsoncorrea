@@ -17,7 +17,7 @@ python3 mkvideo.py $ID >> $L 2>&1; python3 ficha_nas_folhas.py $ID >> $L 2>&1 ||
 # FOLHA 4 (v13): pesquisa de campo automatica antes de tudo (busca cada item do roteiro na internet, baixa os prints e monta o quadro de referencias)
 if [ ! -f referencias/$ID/pesquisa.json ]; then log "pesquisa de campo (folha 4)"; python3 pesquisar.py $ID >> $L 2>&1 || true; python3 mkvideo.py $ID >> $L 2>&1; python3 ficha_nas_folhas.py $ID >> $L 2>&1 || true; fi
 VOICE=$(j voice); RATE=$(j rate); T=$(j file)
-VH=$(python3 -c "import json,hashlib;B=json.load(open('videos/$ID/beats.json'));print(hashlib.md5(' '.join(b['say'] for b in B['beats']).encode()).hexdigest()[:12])")   # texto narrado mudou = voz nova (pendencia da sessao B: a voz antiga ia para o video)
+VH=$(python3 -c "import json,hashlib;B=json.load(open('videos/$ID/beats.json'));print(hashlib.md5((' '.join(b['say'] for b in B['beats']) + str(B.get('rate')) + str(B.get('voice'))).encode()).hexdigest()[:12])")   # 25/11: velocidade/voz mudou = voz nova   # texto narrado mudou = voz nova (pendencia da sessao B: a voz antiga ia para o video)
 if st voice && [ -f stories/$ID/stages/voice.hash ] && [ "$(cat stories/$ID/stages/voice.hash)" != "$VH" ]; then log "o texto do roteiro mudou: refazendo a voz"; rm -rf stories/$ID/stages/voice stories/$ID/voice.mp3 stories/$ID/work; fi
 if st voice && [ ! -f stories/$ID/stages/voice.hash ] && [ -f stories/$ID/script_one.txt ] && ! python3 -c "
 import json,re,sys;n=lambda t: re.sub(r'\W+',' ',t.lower()).strip()
