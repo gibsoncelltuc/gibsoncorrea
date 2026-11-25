@@ -4,8 +4,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Macaco que Jogou Videogame com a Mente
 - Epoca: 2021 | Lugar: Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh | Quando: abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia
-- HEROIS (objeto): kit/monkey_pong, kit/chess_pc
-- HEROIS (personagens): MUS, CIE
+- HEROIS (objeto): kit/monkey_pong
+- HEROIS (personagens): CIE, MUS
 - Cenarios: interior loja, interior madeira, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Um Foi Neuralink 2021 | SEM REFERENCIA
+tema | O Macaco que Jogou Videogame com a Mente | O Macaco que Jogou Videogame com a Mente / Videogame Um Foi Neuralink 2021 | SEM REFERENCIA
 lugar | Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas | Neuralink Fremont California / Neuralink Fremont California 2021 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2021 / Estados Unidos landscape | Tronco de árbol fosilizado, Arizona, Estados Unido (referencias/neuralink2021/prints/estados_unidos_b2f11c.jpg); Fósil de erizo de mar (Pentremites godoni), Waterl (referencias/neuralink2021/prints/estados_unidos_81aca2.jpg); Fósiles de dientes de tiburón tigre (Galeocerdo ad (referencias/neuralink2021/prints/estados_unidos_b1fee4.jpg)
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | HK WC night Johnston Road shop Maple Fashion Cloth (referencias/neuralink2021/prints/roupas_e_ruas_de_2021_b29385.jpg); HK WCD Wan Chai Johnston Road shop clothing Maple  (referencias/neuralink2021/prints/roupas_e_ruas_de_2021_1496e9.jpg); HK WCD Wan Chai Johnston Road shop clothing Maple  (referencias/neuralink2021/prints/roupas_e_ruas_de_2021_cc4f85.jpg)
@@ -28,7 +28,6 @@ objeto | canudo de metal com vitamina de banana | canudo de metal com vitamina d
 objeto | chip N1 (moeda pequena) | chip N1 / chip N1 2021 | HP 1820-0250.jpg (referencias/neuralink2021/prints/chip_n1_moeda_pequena__89e5f1.jpg); Chip RIFC mascot hands to the sides.jpg (referencias/neuralink2021/prints/chip_n1_moeda_pequena__104442.jpg); MCS2521A.jpg (referencias/neuralink2021/prints/chip_n1_moeda_pequena__42cb16.jpg)
 objeto | computador com xadrez | computador com xadrez / computador com xadrez 2021 | Alexander Brudno Computer Chess.png (referencias/neuralink2021/prints/computador_com_xadrez_9271d0.jpg); Cromemco C-10 and System Three in Computer Chess.j (referencias/neuralink2021/prints/computador_com_xadrez_c83e1f.jpg)
 heroi | monkey pong | tela com Pong / O Macaco que Jogou Videogame com a Mente | Signed Pong Cabinet.jpg (referencias/neuralink2021/prints/monkey_pong_4be9e6.jpg); Pong Nawat.jpg (referencias/neuralink2021/prints/monkey_pong_177820.jpg); Atari Pong Table.jpg (referencias/neuralink2021/prints/monkey_pong_76fe7f.jpg)
-heroi | chess pc | chess pc | DGT Pi 3000.jpg (referencias/neuralink2021/prints/chess_pc_6e0cdb.jpg); PCjr.twinSCSI.jpg (referencias/neuralink2021/prints/chess_pc_313489.jpg); Scidvspc1.png (referencias/neuralink2021/prints/chess_pc_83099c.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)

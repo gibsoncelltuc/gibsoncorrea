@@ -10,27 +10,16 @@
    "harbor",
    "interior loja",
    "interior pedra",
-   "loc_campo",
    "loc_cidade"
   ],
   "cenarios_trocados": [
    [
-    "cena 4",
+    "cena 2",
     "street",
     "loc_cidade"
    ],
    [
-    "cena 8",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 10",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 11",
+    "cena 5",
     "street",
     "loc_cidade"
    ]
@@ -61,12 +50,18 @@
   "buildings/shop",
   "kit/room_colonial_stone",
   "kit/room_europa_shop",
+  "kit/room_verde_stone",
   "kit/surfboard",
   "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large"
+  "mk/Crate_Metal",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de pedra, coqueiros, morros verdes)",

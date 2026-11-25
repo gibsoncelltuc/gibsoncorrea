@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Os Bifes com o Nome do Trump
 - Epoca: 2007 | Lugar: Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hoteis Trump em Nova York | Quando: maio a julho de 2007, dia
 - HEROIS (objeto): kit/steak
-- HEROIS (personagens): TRU, VEN
+- HEROIS (personagens): VEN, TRU
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Um Em Donald Trump Trump Steaks Sharper Image Os 2007 | SEM REFERENCIA
+tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Nome Trump Em Trump Trump Steaks 2007 | SEM REFERENCIA
 lugar | Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hot | Estados Unidos / Estados Unidos 2007 | Constitution of the United States - DPLA - 9ca8041 (referencias/bifes2007/prints/estados_unidos_lojas_sharper_image_estud_57b53c.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/bifes2007/prints/estados_unidos_lojas_sharper_image_estud_185b81.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/bifes2007/prints/estados_unidos_lojas_sharper_image_estud_7a8f7d.jpg)
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | Metrobus 9 de Julio - Estados Unidos interior.JPG (referencias/bifes2007/prints/estados_unidos_1a2f5c.jpg); Metrobus 9 de Julio - Estados Unidos interior II.J (referencias/bifes2007/prints/estados_unidos_1750c4.jpg); Metrobus 9 de Julio - Frente Estados Unidos II.JPG (referencias/bifes2007/prints/estados_unidos_1e548d.jpg)
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | One of the types of girls'-fashion in 2007.jpg (referencias/bifes2007/prints/roupas_e_ruas_de_2007_57d288.jpg); Chaoyue Sportswear China Fashion Week 2007 III.jpg (referencias/bifes2007/prints/roupas_e_ruas_de_2007_72c8c5.jpg); Men's and women's fashion in 2007.jpg (referencias/bifes2007/prints/roupas_e_ruas_de_2007_ccd315.jpg)

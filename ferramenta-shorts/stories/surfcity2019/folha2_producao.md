@@ -18,20 +18,39 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- MAPA: EL SALVADOR (cobre a tela 1-2 s)
+- TEXTO NA TELA: "SURF CITY" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (0.2-1.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (1.6-3.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, ...
+## Cena b1 - E os surfistas do mundo inteiro foram atrás.
+- Cenario: loc_cidade | luz: golden | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
+- Animacao: -
+- Objetos/modelos: kit/surfboard, kit/volcano
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): surfistas
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b2 - Em 2019, Nayib Bukele lançou a Surf City em El Salvador.
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao laugh)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/surfboard, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, surf
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): surf
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -40,21 +59,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; JOR na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (4.1-5.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (5.7-7.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (7.3-9.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (9.0-10.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- MAPA: EL SALVADOR (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (6.2-7.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (7.8-9.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b2 - Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzent...
+## Cena b3 - Em 2021, o país sediou o Mundial de Surfe.
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao grin) | multidao: 10 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/surfboard, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentos, mundial, surfe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mundial, surfe
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -67,17 +85,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: ding@40
 - TEXTO NA TELA: "257 ATLETAS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.5 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b3 - Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir...
+## Cena b4 - O evento valia vaga para as Olimpíadas de Tóquio.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): JOR (variante 0, expressao shock); JOR2 (variante 0, expressao laugh)
 - Animacao: reagir | interacao: vai ate o outro
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): olimpiadas, praias, toquio
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): evento, olimpiadas, toquio
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -86,12 +104,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: JOR na esquerda, expressao shock; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (17.7-19.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (19.6-21.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b4 - Em dois mil e vinte e três, vieram duzentos e noventa e quatro competi...
+## Cena b5 - Em 2023, vieram 294 competidores, de olho em Paris.
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -111,17 +127,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - SOM: sting@40
 - TEXTO NA TELA: "294 ATLETAS" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b5 - O governo estimou quinhentos mil empregos em dez anos, mas é uma proje...
+## Cena b6 - O governo promete quinhentos mil empregos, sem garantia.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): BUK (variante 0, expressao grin); JOR2 (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/surfboard
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): auditoria, governo, projecao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): governo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -131,20 +147,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: BUK na esquerda, expressao grin; JOR2 na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "500 MIL EMPREGOS?" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (28.3-30.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.0-31.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (31.6-33.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b6 - Críticos dizem que o projeto na costa preocupa moradores e ambientalis...
+## Cena b7 - Acontece que moradores e ambientalistas se preocupam com a costa.
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): JOR (variante 0, expressao worried); JOR2 (variante 0, expressao suspicious); POV (variante 0, expressao worried)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, projeto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -154,36 +167,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: JOR na esquerda, expressao worried; JOR2 no centro, expressao suspicious; POV na direita, expressao worried; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (34.7-36.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (36.2-37.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 1 (20.5-21.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (21.9-23.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b7 - A Surf City dois leva o projeto para o leste do país.
-- Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): BUK (variante 0, expressao grin); JOR (variante 0, expressao shock)
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): leste, projeto, surf
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila rural (casas, cercas, campo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: BUK na esquerda, expressao grin; JOR na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: EL SALVADOR (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (39.3-40.6 s): mesmo angulo
-  - take 2 (40.6-42.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b8 - Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.
+## Cena b8 - Em 2025, o Mundial voltou para lá.
 - Cenario: harbor | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (3): BUK (variante 0, expressao laugh); JOR (variante 0, expressao grin); JOR2 (variante 0, expressao laugh)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/surfboard
@@ -196,41 +187,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; JOR no centro, expressao grin; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (43.0-44.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (44.6-46.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Entre números otimistas e dúvidas, uma coisa é certa: El Salvador viro...
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+## Cena b9 - Capital do surfe ou promessa grande demais? Você decide.
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
-- Objetos/modelos: kit/surfboard, kit/volcano
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
-- PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (47.4-49.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (49.0-50.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (50.5-52.1 s): mesmo angulo
-<!-- /FICHA -->
-
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): BUK (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- Objetos/modelos: kit/surfboard
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): surfe
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -238,13 +205,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/surfboard | b0, b1, b2, b4, b5, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b1, b2, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/surfboard | b0, b1, b2, b3, b5, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b1, b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 72% | aberto 8% | detalhe 8%
-- Interacoes: b1 insiste, b3 vai ate o outro, b5 aproxima-se, b6 discutir, b7 susto, b8 avanca e o outro recua
+- Objeto heroi: kit/surfboard | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
+- Interacoes: b2 insiste, b4 vai ate o outro, b6 aproxima-se, b7 discutir, b8 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -256,9 +223,12 @@ kit/volcano | b1, b2, b4, b7, b9 | pronto | conferir na folha de contato se le b
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (53.4-55.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (55.1-56.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (25.4-27.1 s): mesmo angulo
+  - take 2 (27.1-28.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

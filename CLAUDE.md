@@ -87,15 +87,44 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- 6843a4e5 storyboards: Bitcoin (rotulos sobrepostos), Arquimedes aprovado, Curie (pechblenda tapava a camera), Darwin (casco do navio tapava, tentilhoes enormes)
-- b0842cdf Goodyear b7: borracha na mao (escondia o personagem); Abelhas volta (render parou por disco cheio)
+- 30c3c71a ckpt(jenkins1739): pronto
+- b2fb43f4 ckpt(jenkins1739): fim da sessao de render
+- a369b664 ckpt(jenkins1739): etapa gate
+- 9d58c2c2 ckpt(jenkins1739): etapa fit
+- a6ff3abf ckpt(jenkins1739): etapa style
+
+**In-progress files (81):**
+- ferramenta-shorts/referencias/zz_coelho/DOSSIE.json
+- ferramenta-shorts/referencias/zz_coelho/FICHA.md
+- ferramenta-shorts/stories/banquinho1900/autocorrecoes.md
+- ferramenta-shorts/stories/banquinho1900/cronograma.md
+- ferramenta-shorts/stories/banquinho1900/folha2_producao.md
+- ferramenta-shorts/stories/banquinho1900/folha3_acao.md
+- ferramenta-shorts/stories/banquinho1900/lista_revisao.md
+- ferramenta-shorts/stories/banquinho1900/precheck.jpg
+- ferramenta-shorts/stories/banquinho1900/storyboard.cenas
+- ferramenta-shorts/stories/banquinho1900/storyboard.hash
+- ferramenta-shorts/stories/banquinho1900/visibilidade.txt
+- ferramenta-shorts/stories/lagosta1961/autocorrecoes.md
+- ferramenta-shorts/stories/lagosta1961/cronograma.md
+- ferramenta-shorts/stories/lagosta1961/folha2_producao.md
+- ferramenta-shorts/stories/lagosta1961/folha3_acao.md
+- ferramenta-shorts/stories/lagosta1961/lista_revisao.md
+- ferramenta-shorts/stories/lagosta1961/precheck.jpg
+- ferramenta-shorts/stories/lagosta1961/storyboard.cenas
+- ferramenta-shorts/stories/lagosta1961/storyboard.hash
+- ferramenta-shorts/stories/lagosta1961/visibilidade.txt
+- ferramenta-shorts/stories/melancia1856/cronograma.md
+- ferramenta-shorts/stories/melancia1856/fails
+- ferramenta-shorts/stories/melancia1856/folha2_producao.md
+- [truncated — 58 more files]
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-25 05:48:08 UTC
+**Hook generated:** 2026-11-25 15:36:51 UTC
 <!-- post-compact-recovery-end -->
 
 ## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)
@@ -136,3 +165,10 @@ PENDENCIAS EM 24/11 19:35: Lagosta b7 na refazer.txt (depois: revisao_final ja q
 - Novos verbos de 25/11: anda_ate (entra andando ate o objeto), entra_em (entra e senta DENTRO do recipiente), transborda (agua azul espirrando pela borda na palavra).
 
 - NUNCA editar make_video.sh/run_queue.sh com a fila rodando (bash le o script aos pedacos: edicao no meio = "syntax error" e o video para depois do render). Editar so' com a fila parada ou entre um video e outro.
+
+## ESTRUTURA VIRAL (25/11, ordem do Gibson) — VALE ACIMA DAS REGRAS DE TAMANHO E CHAMADA FINAL
+- Todo roteiro segue `ferramenta-shorts/ESTRUTURA_VIRAL.md` (documento "O roteiro vencedor para YouTube Shorts 2026"): 6 blocos por cena ("bloco": gancho, promessa, prova, escalada, pagamento, loop), 30-45 s (75-110 palavras), frase de ate 12 palavras, "gancho_tipo" (perda|ganho|crenca|segredo), texto na tela no gancho, micro-prova com numero/nome antes dos 20 s, final em LOOP (ultima frase emenda na primeira; a ultima imagem repete a 1a cena sozinha), SEM chamada falada para comentar, "loop_frase_ok" e "gancho_cumprido" no topo.
+- `python3 estrutura_viral.py <id>` confere; `--todos` faz a varredura (VARREDURA_ESTRUTURA.md). mkvideo TRAVA roteiro fora da estrutura.
+- TODOS os videos (inclusive os ja entregues) serao refeitos com as mesmas historias e titulos. Piloto: scilly1651 (roteiro antigo em videos/scilly1651/beats_v24.json). Fila antiga guardada em queue_antes_viral.txt.
+- 25/11 noite: os 85 roteiros foram REESCRITOS pela principal (planos em ferramenta-shorts/planos_viral/<id>.json, aplicados com reescrever_viral.py; roteiro antigo em videos/<id>/beats_v24.json). Varredura 85/85. Os 37 videos antigos sairam da pasta de entrega (videos_prontos/_antigos_nao_entregar/estrutura_antiga_25-11/). Filas: principal = fila_principal.txt (queue.txt), A e B = as suas; E Se #PAUSADO seguem pausados. petrich1925 e' duplicado de cachorro1925 (fora das filas).
+- Duracao: estrutura_viral.py conta palavras FALADAS (ano = 6) a 2,75/s e usa a voz real quando existe; limite 45 s.

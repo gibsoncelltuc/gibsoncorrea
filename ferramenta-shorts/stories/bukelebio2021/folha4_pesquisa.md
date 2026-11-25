@@ -4,17 +4,17 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Ditador Mais Legal do Mundo
 - Epoca: 2021 | Lugar: San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais | Quando: setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia
-- HEROIS (objeto): kit/phone
-- HEROIS (personagens): BUK, JOR
+- HEROIS (objeto): kit/phone, kit/volcano
+- HEROIS (personagens): BUK
 - Cenarios: interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.96: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Ditador Mais Legal do Mundo | O Ditador Mais Legal do Mundo / Um Era Nayib Bukele El Salvador Dias Primeiro 2021 | SEM REFERENCIA
+tema | O Ditador Mais Legal do Mundo | O Ditador Mais Legal do Mundo / Um Em Nayib Bukele El Salvador 2021 | SEM REFERENCIA
 lugar | San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais | San Salvador El Salvador / San Salvador El Salvador 2021 | Iglesia de San Salvador, Luesia, Zaragoza, España, (referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__72e170.jpg); Church of San Justo and Church of El Salvador, Seg (referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__b52848.jpg); Iglesia de San Salvador, Luesia, Zaragoza, España, (referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__7d6b83.jpg)
 lugar | El Salvador | El Salvador 2021 / El Salvador landscape | Día de la Amistad EE UU - El Salvador (51250394955 (referencias/bukelebio2021/prints/el_salvador_0b86fd.jpg); Día de la Amistad EE UU - El Salvador (51248626122 (referencias/bukelebio2021/prints/el_salvador_fe3317.jpg); Día de la Amistad EE UU - El Salvador (51250101074 (referencias/bukelebio2021/prints/el_salvador_d2bad6.jpg)
 lugar | Mundo | Mundo 2021 / Mundo landscape | Miss World 2021 map.png (referencias/bukelebio2021/prints/mundo_bf271f.jpg); Catedral de María Reina del Mundo, Montreal, Canad (referencias/bukelebio2021/prints/mundo_3726b0.jpg); Logo Manual do Mundo (2021).png (referencias/bukelebio2021/prints/mundo_4ca3fc.jpg)
@@ -26,6 +26,7 @@ objeto | celular com o perfil | celular com o perfil / celular com o perfil 2021
 objeto | cartazes de protesto | cartazes de protesto / cartazes de protesto 2021 | Protestos Estudantes UFSC - 10.05.1968 10.jpg (referencias/bukelebio2021/prints/cartazes_de_protesto_30e632.jpg); Protestos Estudantes UFSC - 10.05.1968 09.jpg (referencias/bukelebio2021/prints/cartazes_de_protesto_7f7bed.jpg); Protestos Estudantes UFSC - 10.05.1968 16.jpg (referencias/bukelebio2021/prints/cartazes_de_protesto_e94601.jpg)
 objeto | urna de votacao | urna de votacao / urna de votacao 2021 | Fidlar EV 2000 DRE voting machine.jpg (referencias/bukelebio2021/prints/urna_de_votacao_bddcde.jpg); Ramlaxman Voting Machine.png (referencias/bukelebio2021/prints/urna_de_votacao_ea5a76.jpg); IVotronicVVPAT.jpg (referencias/bukelebio2021/prints/urna_de_votacao_d1416b.jpg)
 heroi | phone | celular com o perfil / O Ditador Mais Legal do Mundo | ClemensXI.jpg (referencias/bukelebio2021/prints/phone_994c57.jpg); A bad sales day.jpg (referencias/bukelebio2021/prints/phone_e2cc05.jpg); Cavalier Garde Républicaine trois-quart dos.jpg (referencias/bukelebio2021/prints/phone_35afa3.jpg)
+heroi | volcano | volcano | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em setembro de 2021 Bukele mudou a bio no Twitter para "Dictador" e depois "El dictador mas cool del mundo mundial"; em 2024 usou "Philosopher King" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)

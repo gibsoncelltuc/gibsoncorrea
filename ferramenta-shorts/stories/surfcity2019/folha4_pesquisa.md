@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2019 | Lugar: La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de pedra, coqueiros, morros verdes) | Quando: 2019 a 2025, dia de sol
 - HEROIS (objeto): kit/surfboard, kit/volcano
 - HEROIS (personagens): BUK, JOR
-- Cenarios: harbor, interior loja, interior pedra, loc_campo, loc_cidade
+- Cenarios: harbor, interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City Punta Roca El Sunzal Em Mundial Surfe 2019 | Joaquina (3493443153).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_c4c10a.jpg); Joaquina (3494288540).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_cb2955.jpg); Joaquina (3494264460).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_3ab1d2.jpg)
+tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City El Salvador 2019 | Joaquina (3493443153).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_c4c10a.jpg); Joaquina (3494288540).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_cb2955.jpg); Joaquina (3494264460).jpg (referencias/surfcity2019/prints/a_cidade_do_surfe_3ab1d2.jpg)
 lugar | La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de | La Libertad El Salvador / La Libertad El Salvador 2019 | MALECON DEL PUERTO DE LA LIBERTAD. - panoramio.jpg (referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_2ccef1.jpg); Playa la-libertad El-Salvador.jpg (referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_f389e7.jpg); EL PUERTO DE LA LIBERTAD, EL SALVADOR. - panoramio (referencias/surfcity2019/prints/la_libertad_el_salvador_praias_de_el_sun_935b3f.jpg)
 lugar | El Salvador | El Salvador 2019 / El Salvador landscape | El Salvador Palestine Locator.png (referencias/surfcity2019/prints/el_salvador_8a30ed.jpg); Marcha politica De El PCN. Durante los Comisios Pr (referencias/surfcity2019/prints/el_salvador_705b33.jpg); Editatona El Salvador 2019.jpg (referencias/surfcity2019/prints/el_salvador_fc0ce0.jpg)
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | Camp - Notes on Fashion at the Met - Burberry rain (referencias/surfcity2019/prints/roupas_e_ruas_de_2019_d85c36.jpg); Camp - Notes on Fashion at the Met - Moschino (738 (referencias/surfcity2019/prints/roupas_e_ruas_de_2019_c6ccb7.jpg); Camp - Notes on Fashion at the Met - Gucci and Lou (referencias/surfcity2019/prints/roupas_e_ruas_de_2019_c6c141.jpg)

@@ -74,10 +74,6 @@
     "ding@30"
    ],
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Videogame precisa de mãos? Um macaco jogou só com o pensamento.",
    "encena": {
@@ -90,7 +86,24 @@
     ]
    },
    "text": "SÓ COM A MENTE",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -115,10 +128,6 @@
    "sfx": [
     "ding@30"
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E o prêmio de cada acerto era vitamina de banana.",
    "encena": {
@@ -127,6 +136,23 @@
      {
       "faz": "mostra",
       "na": "prêmio"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -163,7 +189,7 @@
     [
      "kit/chess_pc",
      0.0,
-     -0.8,
+     -1.2,
      0.9,
      {
       "fixo": true
@@ -178,6 +204,23 @@
      {
       "faz": "mostra",
       "na": "chip"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/chess_pc",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -200,10 +243,6 @@
     ]
    ],
    "acao": "conversar",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "prova",
    "say": "O macaco Pager aprendeu a jogar Pong com um joystick.",
    "encena": {
@@ -212,6 +251,23 @@
      {
       "faz": "mostra",
       "na": "aprendeu"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -243,10 +299,6 @@
    ],
    "shot_lock": true,
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "escalada",
    "say": "Acontece que desligaram o joystick, e ele continuou jogando com a mente.",
    "encena": {
@@ -255,6 +307,23 @@
      {
       "faz": "mostra",
       "na": "continuou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -295,10 +364,6 @@
    ],
    "text": "MENTE",
    "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "set": "loc_cidade",
    "bloco": "escalada",
    "say": "O vídeo rodou o mundo e abriu debate sobre testes com animais.",
@@ -308,6 +373,23 @@
      {
       "faz": "mostra",
       "na": "rodou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -339,10 +421,6 @@
    ],
    "detalhe": true,
    "shot_lock": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 2024, um paciente paralisado jogou xadrez só pensando.",
    "encena": {
@@ -351,6 +429,23 @@
      {
       "faz": "mostra",
       "na": "jogou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/chess_pc",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -379,10 +474,6 @@
     "ding@30"
    ],
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Tudo começou com um macaco e um copo de vitamina.",
    "encena": {
@@ -391,6 +482,23 @@
      {
       "faz": "mostra",
       "na": "macaco"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

@@ -3,7 +3,7 @@
  "ano": 2007,
  "cenarios_trocados": [
   [
-   "cena 2",
+   "cena 3",
    "street",
    "loc_cidade"
   ]
@@ -25,9 +25,28 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.",
+   "frase": "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JUI",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ring"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E no fim, ele mesmo acabou no chão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -41,34 +60,15 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "kit/marco_detroit"
-   ],
-   "palavras": 18,
-   "cena": "b1",
-   "frase": "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo.",
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Foi em 2007, no maior show de luta livre do mundo.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU",
-    "VIN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b2",
-   "frase": "A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
   },
   {
    "camera": "group",
@@ -80,9 +80,9 @@
    "objetos": [
     "kit/clipper"
    ],
-   "palavras": 16,
+   "palavras": 11,
    "cena": "b3",
-   "frase": "A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada.",
+   "frase": "Cada um escolheu um lutador. A aposta valia uma cabeça raspada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -90,7 +90,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV",
@@ -100,9 +100,9 @@
    "objetos": [
     "kit/ball"
    ],
-   "palavras": 14,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.",
+   "frase": "Mais de oitenta mil pessoas lotaram o estádio.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -118,33 +118,16 @@
   {
    "camera": "wide",
    "personagens": [
-    "LAS"
+    "LAS",
+    "UMA"
    ],
    "multidao": 0,
    "objetos": [
     "kit/ring"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "stadium"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "JUI"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/ring"
-   ],
-   "palavras": 13,
-   "cena": "b6",
-   "frase": "Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça.",
+   "frase": "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -162,8 +145,8 @@
     "kit/ring"
    ],
    "palavras": 12,
-   "cena": "b7",
-   "frase": "No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.",
+   "cena": "b6",
+   "frase": "Acontece que o lutador de Trump venceu, e o estádio foi abaixo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -179,16 +162,18 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
+    "TRU",
+    "LAS",
+    "VIB"
    ],
    "multidao": 0,
    "objetos": [
     "kit/clipper",
     "kit/ring"
    ],
-   "palavras": 13,
-   "cena": "b8",
-   "frase": "Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Trump e Lashley rasparam a cabeça de Vince McMahon.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -198,15 +183,16 @@
   {
    "camera": "wide",
    "personagens": [
-    "JUI"
+    "JUI",
+    "TRU"
    ],
    "multidao": 0,
    "objetos": [
     "kit/ring"
    ],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "E sobrou para Trump: o juiz derrubou ele também.",
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "E o juiz derrubou Trump também.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -214,37 +200,23 @@
    "cenario": "stadium"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "TRU",
-    "JUI"
+    "VIN"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre.",
+   "objetos": [
+    "kit/clipper"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Depois, Trump entrou para o Hall da Fama da luta livre.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "stadium"
   }
  ]
 }

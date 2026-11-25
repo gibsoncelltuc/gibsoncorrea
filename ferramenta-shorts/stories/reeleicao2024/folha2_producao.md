@@ -2,39 +2,58 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/reeleicao2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py reeleicao2024` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Donald Trump perdeu a eleição de dois mil e vinte. Quatro anos depois,...
+## Cena b0 - Perdeu a eleição, acabou? Trump perdeu em 2020 e voltou.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de POV
-- Animacao: conversar
-- Objetos/modelos: kit/ballot_box, kit/white_house, kit/marco_casabranca, buildings/house_small, nature/picket_fence, nature/tree_oak
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dois, eleicao
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: kit/ballot_box, kit/white_house
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eleicao
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)
-- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/ballot_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; REP (jornalista) na direita, expressao surprised, segura paper; sem multidao; acao: fala/gesto
+- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/white_house: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (0.2-2.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (2.0-3.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (3.9-5.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TEXTO NA TELA: "PERDEU E VOLTOU" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b1 - Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos.
+## Cena b1 - E isso só tinha acontecido uma vez na história americana.
+- Cenario: loc_pista | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); POV (variante 0, expressao grin)
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; POV na direita, expressao grin; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (3.5-5.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (5.2-7.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b2 - Em novembro de 2024, americanos escolhiam entre Trump e Kamala Harris.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: -
-- Objetos/modelos: kit/white_house, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, estados
+- Animacao: encena
+- Objetos/modelos: kit/white_house
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -44,38 +63,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/white_house: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b2 - Milhões de americanos foram às urnas escolher entre Trump e a vice-pre...
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ELE (variante 0, expressao grin); POV (variante 0, expressao suspicious) | multidao: 30 de ELE/POV
-- Animacao: conversar
-- Objetos/modelos: kit/ballot_box, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): americanos, urnas, vicepresidente
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
-- PERSONAGENS: ELE na esquerda, expressao grin; POV na direita, expressao suspicious; multidao de 12 (ELE, POV) ATRAS dos principais; acao: conversar
-- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (10.7-12.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (12.8-14.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b3 - A contagem entrou pela madrugada. Os estados indecisos iam decidir tud...
+## Cena b3 - A contagem dos votos entrou pela madrugada.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): REP (variante 0, expressao nervous, segura paper); TRU (variante 0, expressao stern)
 - Animacao: discutir | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contagem, estados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contagem, votos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -84,19 +82,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao nervous, segura paper; TRU na direita, expressao stern; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (16.0-18.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (18.1-20.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b4 - Acontece que Trump venceu em todos os estados decisivos, e somou treze...
+## Cena b4 - Acontece que Trump venceu todos os estados decisivos: 312 votos.
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): REP (variante 0, expressao shock, segura paper)
 - Animacao: comemorar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colegio, estados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -110,15 +106,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TEXTO NA TELA: "312 VOTOS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (21.4-23.2 s): mesmo angulo
-  - take 2 (23.2-25.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (25.0-26.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (13.0-14.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (14.8-16.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b5 - Os apoiadores comemoraram a noite inteira. Trump subiu ao palco e decl...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+## Cena b5 - Os apoiadores comemoraram, e ele declarou vitória.
+- Cenario: hall | luz: noite | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
@@ -137,41 +132,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (28.4-30.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.0-31.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (31.5-33.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (16.8-18.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.3-19.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b6 - Foi um feito raro: ele virou só o segundo presidente da história com d...
-- Cenario: interior galpao | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): REP (variante 0, expressao surprised, segura paper); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, feito
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; POV na direita, expressao grin; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (34.3-36.3 s): mesmo angulo
-  - take 2 (36.3-38.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b7 - O primeiro foi Grover Cleveland, há mais de cento e trinta anos.
+## Cena b6 - Antes dele, só Grover Cleveland voltou assim, há mais de 130 anos.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): REP (variante 0, expressao smile, segura paper); POV (variante 1, expressao suspicious)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -179,43 +152,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: REP (jornalista) na esquerda, expressao smile, segura paper; POV na direita, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (39.8-41.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (41.3-42.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (20.2-21.8 s): mesmo angulo
+  - take 2 (21.8-23.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (23.3-24.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b8 - Em vinte de janeiro de dois mil e vinte e cinco, ele tomou posse de no...
-- Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/white_house, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, novo
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente
-- PERSONAGENS: TRU no centro, expressao grin; sem multidao; acao: entregar
-- OBJETO kit/white_house: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (43.9-45.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (45.4-46.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
-
-## Cena b9 - Antes ele tinha sido o presidente quarenta e cinco. Agora, era o quare...
+## Cena b7 - Antes foi o presidente 45. Agora, o 47.
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: -
-- Objetos/modelos: kit/white_house, kit/marco_casabranca
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, quarenta
+- Objetos/modelos: kit/white_house
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -227,41 +180,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TEXTO NA TELA: "47º" flutuando no alto, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (48.1-49.7 s): mesmo angulo
-  - take 2 (49.7-51.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (51.2-52.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (25.2-26.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (26.8-28.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b10 - Perdeu, voltou e ganhou. Uma das maiores viradas da política americana...
+## Cena b8 - Perdeu, voltou e ganhou. Uma das maiores viradas da política.
 - Cenario: loc_cidade | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): TRU (variante 0, expressao smile)
-- Animacao: comemorar
-- Objetos/modelos: kit/ballot_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, politica
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)
-- PERSONAGENS: TRU no centro, expressao smile; sem multidao; acao: comemorar
-- OBJETO kit/ballot_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (53.8-55.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (55.8-57.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): TRU (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- Personagens principais (2): TRU (variante 0, expressao smug); REP (variante 0, expressao surprised, segura paper)
+- Animacao: conversar | interacao: vai ate o outro
+- Objetos/modelos: kit/ballot_box, kit/white_house
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maiores, politica
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -269,18 +200,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ballot_box | b0, b2, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/white_house | b0, b1, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_casabranca | b0, b1, b2, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_small | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_oak | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ballot_box | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/white_house | b0, b2, b5, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 22% | medio 44% | aberto 31% | detalhe 4%
-- Interacoes: b3 discutir, b6 o outro se aproxima, b7 insiste
+- Objeto heroi: kit/ballot_box | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 16% | medio 52% | aberto 29% | detalhe 3%
+- Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -292,9 +219,16 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (59.2-60.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (60.9-62.6 s): mesmo angulo
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao smug; REP (jornalista) na direita, expressao surprised, segura paper; sem multidao; acao: fala/gesto
+- OBJETO kit/ballot_box: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/white_house: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "2024" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (28.5-30.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (30.4-32.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

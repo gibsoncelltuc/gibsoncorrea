@@ -1,22 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 07 - A Cidade do Surfe
 
-Gerado em 25/11 08:51 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:17 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior pedra | two | BUK | - | surfboard | - | Um país pequeno decidiu virar a capital mundial do surfe.
-b1 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, 
-b2 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzent
-b3 | simples | loc_cidade | two | JOR, JOR2 | - | - | - | Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias vir
-b4 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e três, vieram duzentos e noventa e quatro competi
-b5 | simples | interior loja | two | BUK, JOR2 | - | surfboard | - | O governo estimou quinhentos mil empregos em dez anos, mas é uma proje
-b6 | simples | harbor | group | JOR, JOR2, POV | - | - | - | Críticos dizem que o projeto na costa preocupa moradores e ambientalis
-b7 | simples | loc_campo | two | BUK, JOR | - | volcano | - | A Surf City dois leva o projeto para o leste do país.
-b8 | simples | harbor | group | BUK, JOR, JOR2 | - | surfboard | - | Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.
-b9 | simples | loc_cidade | group | BUK | - | surfboard, volcano | - | Entre números otimistas e dúvidas, uma coisa é certa: El Salvador viro
-b10 | simples | loc_cidade | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b1 | transicao | loc_cidade | reveal | BUK | 8 | surfboard, volcano | - | E os surfistas do mundo inteiro foram atrás.
+b2 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | Em 2019, Nayib Bukele lançou a Surf City em El Salvador.
+b3 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2021, o país sediou o Mundial de Surfe.
+b4 | simples | loc_cidade | two | JOR, JOR2 | - | - | - | O evento valia vaga para as Olimpíadas de Tóquio.
+b5 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2023, vieram 294 competidores, de olho em Paris.
+b6 | simples | interior loja | two | BUK, JOR2 | - | surfboard | - | O governo promete quinhentos mil empregos, sem garantia.
+b7 | simples | harbor | low | JOR, JOR2, POV | - | - | - | Acontece que moradores e ambientalistas se preocupam com a costa.
+b8 | simples | harbor | group | BUK, JOR, JOR2 | - | surfboard | - | Em 2025, o Mundial voltou para lá.
+b9 | simples | interior pedra | two | BUK | - | surfboard | - | Capital do surfe ou promessa grande demais? Você decide.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

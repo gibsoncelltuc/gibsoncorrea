@@ -2,18 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | (rosto) determined (expr + som de efeito); dinheiro (stars + som de sino) | -
-b1 | wide | -  | tropa, mapa | - | -
-b2 | wide | -  | batalha aberta com tiros | - | -
+b0 | two | -  | placa: BITCOIN DE VULCÃO | dinheiro (stars + som de sino) | -
+b1 | two | -  | - | - | -
+b2 | wide | -  | batalha aberta com tiros, mapa | - | -
 b3 | two | -  | interior, objeto na mao | - | -
 b4 | wide | -  | tropa | - | -
 b5 | two | -  | tropa | - | -
 b6 | two | -  | interior | - | -
-b7 | orbit | -  | batalha aberta com tiros | - | -
-b8 | two | -  | objeto na mao | - | -
-b9 | wide | -  | tropa, placa: CIDADE BITCOIN | encena: constroi (hammer) @10 (acao + som de efeito) | -
-b10 | two | -  | - | Dinheiro (stars + som de sino) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b7 | orbit | -  | batalha aberta com tiros, objeto na mao | - | -
+b8 | wide | -  | tropa, placa: CIDADE BITCOIN | - | -
+b9 | two | -  | placa: BITCOIN DE VULCÃO | Dinheiro (stars + som de sino) | -
 
-Mistura de planos: close 12% | medio 53% | aberto 32% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | dentro do padrao do canal
+Mistura de planos: close 5% | medio 67% | aberto 28% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

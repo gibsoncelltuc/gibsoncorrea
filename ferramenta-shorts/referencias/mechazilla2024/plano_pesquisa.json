@@ -7,7 +7,7 @@
    "item": "A Torre que Pegou um Foguete no Ar",
    "consultas": [
     "A Torre que Pegou um Foguete no Ar",
-    "Elon Musk Foi SpaceX Texas Normalmente 2024"
+    "Foguete Este Parece Mas Foi SpaceX Texas 2024"
    ]
   },
   {
@@ -107,18 +107,10 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a",
+   "item": "A ideia: tirar as pernas e fazer a torre agarrar o propulsor.",
    "consultas": [
-    "tirar pernas foguete fazer propria torre agarrar propulsor",
+    "tirar pernas fazer torre agarrar propulsor",
     "tower catch diagram"
-   ]
-  },
-  {
-   "tipo": "mecanismo",
-   "item": "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias",
-   "consultas": [
-    "assim propulsor varias",
-    "booster air diagram"
    ]
   }
  ]

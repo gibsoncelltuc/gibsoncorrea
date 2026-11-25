@@ -23,22 +23,12 @@
     "loc_cidade"
    ],
    [
-    "cena 5",
+    "cena 3",
     "street",
     "loc_cidade"
    ],
    [
     "cena 6",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 10",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 11",
     "street",
     "loc_cidade"
    ]
@@ -66,12 +56,9 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
-  "buildings/house_two",
   "kit/ballot_box",
   "kit/phone",
   "kit/room_azul_shop",
-  "kit/room_classico_shop",
   "kit/room_colonial_stone",
   "kit/room_europa_stone",
   "kit/room_rosa_stone",
@@ -85,8 +72,7 @@
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
   "mk/Stool",
-  "mk/Table_Large",
-  "nature/lamppost"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",

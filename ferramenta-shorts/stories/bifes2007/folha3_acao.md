@@ -1,51 +1,67 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.6s - 14 palavras - plano two
-> "Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses."
+## Cena b0 - 0.1s a 3.3s - 12 palavras - plano two
+> "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bilionário" (0.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sumiu" (2.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | TRUMP STEAKS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.8s a 10.6s - 22 palavras - plano two
-> "Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio."
+## Cena b1 - 3.5s a 6.6s - 10 palavras - plano two
+> "E o resultado foi bem menor do que se imaginava."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Donald" (5.9s)
-  2) TRU entrega o objeto ao alvo | na palavra "vendida" (8.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "resultado" (4.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vendida (8.1s) | ACAO: entrega | entrega | OK |
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 7.1s a 10.1s - 12 palavras - plano two
+> "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (8.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | ESTADOS UNIDOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: entrega na palavra vendida (8.1s): executa: entrega
+- INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 11.6s a 16.2s - 20 palavras - plano group
-> "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres."
+## Cena b3 - 10.4s a 13.4s - 10 palavras - plano group
+> "Os pacotes custavam até novecentos e noventa e nove dólares."
 
-- LEITURA DA FRASE: sentido FATO
-  1) VEN a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pacotes" (11.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "custavam" (11.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -62,11 +78,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 17.6s a 21.8s - 16 palavras - plano two
-> "Acontece que a loja deixou de oferecer os bifes em julho, cerca de dois meses depois."
+## Cena b4 - 13.5s a 16.1s - 11 palavras - plano two
+> "Acontece que, em julho, a loja já não oferecia os bifes."
 
-- LEITURA DA FRASE: sentido FATO
-  1) VEN a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Acontece" (17.6s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "loja" (14.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -81,52 +97,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 23.0s a 26.8s - 13 palavras - plano wide
-> "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares."
+## Cena b5 - 16.2s a 19.8s - 10 palavras - plano wide
+> "Uma reportagem estimou menos de cinquenta mil dólares no total."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reportagem" (23.3s)
-  2) TRU entrega o objeto ao alvo | na palavra "vendas" (24.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estimou" (18.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vendas (24.7s) | ACAO: entrega | entrega | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | PLACA | $ 50 MIL | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | $ 50 MIL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: entrega na palavra vendas (24.7s): executa: entrega
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 28.0s a 30.6s - 10 palavras - plano two
-> "A marca também apareceu na QVC, um canal de televisão."
+## Cena b6 - 20.0s a 21.8s - 7 palavras - plano two
+> "Em 2014, a marca registrada foi cancelada."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marca" (28.2s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | apareceu (28.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra apareceu (28.7s): executa: poeira + som
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-- CHEGADA (a cena toda): executa: alguem entra andando
-<!-- /FISICA -->
-
-## Cena b6 - 32.0s a 35.7s - 12 palavras - plano two
-> "Segundo registros, a marca registrada foi cancelada em dois mil e catorze."
-
-- LEITURA DA FRASE: sentido FATO
-  1) CLI a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Segundo" (32.0s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cancelada" (21.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -139,11 +131,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 36.9s a 40.7s - 12 palavras - plano two
-> "Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump."
+## Cena b7 - 23.0s a 26.1s - 10 palavras - plano two
+> "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Mesmo" (36.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cardápio" (25.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -156,41 +148,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 41.7s a 45.4s - 14 palavras - plano orbit
-> "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio."
+## Cena b8 - 26.2s a 29.6s - 9 palavras - plano two
+> "Nem todo nome famoso dura mais que uma promoção."
 
-- LEITURA DA FRASE: sentido FATO
-  1) TRU a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "resumo" (41.9s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b9 - 46.6s a 50.4s - 14 palavras - plano two
-> "Moral da história: nem todo produto com nome famoso dura mais que uma promoção."
-
-- LEITURA DA FRASE: sentido FATO
-  1) VEN a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Moral" (46.6s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (26.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | TRUMP STEAKS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b10 - 51.6s a 54.9s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

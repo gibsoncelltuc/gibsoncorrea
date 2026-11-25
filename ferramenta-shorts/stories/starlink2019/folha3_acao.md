@@ -1,14 +1,14 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 04 - A Fila de Luzes no Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.8s - 15 palavras - plano two
-> "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador."
+## Cena b0 - 0.2s a 3.4s - 13 palavras - plano two
+> "Uma fila de luzes cruzou o céu da Europa. Disseram que eram ETs."
 
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (0.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (0.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,21 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.0s a 11.9s - 24 palavras - plano reveal
-> "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
+## Cena b1 - 3.5s a 5.7s - 8 palavras - plano two
+> "E a verdade estava num foguete da Flórida."
 
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dezenove" (5.9s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b2 - 13.3s a 18.0s - 13 palavras - plano two
-> "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu."
-
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "depois" (13.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verdade" (5.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -50,30 +40,38 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b3 - 19.1s a 22.8s - 14 palavras - plano wide
-> "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar."
+## Cena b2 - 5.9s a 9.1s - 10 palavras - plano reveal
+> "Em 2019, a SpaceX lançou sessenta satélites de uma vez."
 
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "registrou" (19.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (7.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | 3 MINUTOS | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b3 - 9.5s a 13.5s - 10 palavras - plano two
+> "Um dia depois, o holandês Marco Langbroek filmou o céu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "filmou" (11.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 23.9s a 26.6s - 11 palavras - plano wide
-> "Ele viu pelo menos cinquenta e seis objetos brilhando em linha."
+## Cena b4 - 13.7s a 17.9s - 10 palavras - plano wide
+> "Viu pelo menos cinquenta e seis objetos brilhando em fila."
 
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "menos" (24.6s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhando" (16.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -84,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 27.7s a 32.1s - 16 palavras - plano crowd
-> "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos."
+## Cena b5 - 18.0s a 21.8s - 11 palavras - plano crowd
+> "Acontece que um site de OVNIs recebeu mais de 150 relatos."
 
-- LEITURA DA FRASE: sentido FATO
-  1) JOR a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Acontece" (27.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "relatos" (21.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -101,79 +99,51 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 33.4s a 36.7s - 12 palavras - plano two
-> "Jornais de vários países explicaram que não eram OVNIs, e sim satélites."
+## Cena b6 - 22.0s a 24.9s - 9 palavras - plano two
+> "Os satélites ainda voavam juntos, logo depois do lançamento."
 
-- LEITURA DA FRASE: sentido FATO
-  1) JOR a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Jornais" (33.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | MUNDO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b7 - 38.2s a 41.5s - 11 palavras - plano two
-> "Os satélites ainda estavam juntos, em fila, logo depois do lançamento."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/falcon_air | na palavra "satélites" (38.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voavam" (22.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 42.9s a 46.5s - 16 palavras - plano reveal
-> "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet."
+## Cena b7 - 25.3s a 28.5s - 10 palavras - plano two
+> "Os jornais explicaram: não eram OVNIs, eram satélites de internet."
 
-- LEITURA DA FRASE: sentido FATO
-  1) JOR a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "imagem" (43.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
-- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b9 - 47.8s a 53.2s - 22 palavras - plano two
-> "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas."
-
-- LEITURA DA FRASE: sentido FATO
-  1) AST a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Moral" (47.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "explicaram" (25.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | MUNDO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b10 - 54.7s a 58.0s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+## Cena b8 - 28.7s a 31.6s - 11 palavras - plano wide
+> "Viu uma fila de luzes no céu? Pode ser só internet."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luzes" (30.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | OVNI? | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

@@ -1,29 +1,27 @@
 # CRONOGRAMA - Poder e Fama EP 19 - O Macaco que Jogou Videogame com a Mente
 
-Gerado em 25/11 08:51 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:17 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Um macaco jogou videogame sem usar as mãos, só com o pensamento.
-b1 | chave | loc_cidade | wide | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em dois mil e vinte e um, e a empresa se chama Neuralink.
-b2 | simples | interior loja | two | CIM, MUS | - | chess_pc | - | A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda p
-b3 | simples | interior loja | two | CIE | - | monkey_pong | - | O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar
-b4 | simples | interior madeira | two | CIE | - | monkey_pong | - | A cada acerto, ganhava um golinho de vitamina de banana.
-b5 | simples | interior loja | two | CIM | - | monkey_pong | - | Acontece que, um dia, desligaram o joystick, e o Pager continuou jogan
-b6 | simples | loc_cidade | crowd | POV, POV, MUS | 14 | monkey_pong | - | O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em
-b7 | chave | loc_cidade | orbit | MUS, CIM | - | chess_pc, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o comp
-b8 | simples | interior madeira | two | NOL, CIE | - | chess_pc | - | Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o cor
-b9 | simples | loc_cidade | two | MUS | - | monkey_pong | - | Tudo começou com um macaco, um videogame e um copo de vitamina de bana
-b10 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Videogame precisa de mãos? Um macaco jogou só com o pensamento.
+b1 | simples | interior madeira | two | CIE | - | monkey_pong | - | E o prêmio de cada acerto era vitamina de banana.
+b2 | chave | loc_cidade | wide | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foi em 2021, num teste da empresa Neuralink.
+b3 | simples | interior loja | two | CIM, MUS | - | chess_pc | - | Um chip no cérebro lê os sinais dos neurônios.
+b4 | simples | interior loja | close | CIE | - | monkey_pong | - | O macaco Pager aprendeu a jogar Pong com um joystick.
+b5 | simples | interior loja | two | CIM | - | monkey_pong | - | Acontece que desligaram o joystick, e ele continuou jogando com a ment
+b6 | chave | loc_cidade | orbit | POV, POV, MUS | 14 | monkey_pong | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O vídeo rodou o mundo e abriu debate sobre testes com animais.
+b7 | simples | interior madeira | two | NOL, CIE | - | chess_pc | - | Em 2024, um paciente paralisado jogou xadrez só pensando.
+b8 | simples | loc_cidade | two | MUS, CIE | - | monkey_pong | - | Tudo começou com um macaco e um copo de vitamina.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/15 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

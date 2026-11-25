@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 12 cenas, 167 palavras (~58 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 10 cenas, 98 palavras (~34 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.
+## Cena b0  (~4.1 s)
+- Narracao: Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: -
+- Texto na tela: BATALHA DOS BILIONÁRIOS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.2 s)
-- Narracao: Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo.
+## Cena b1  (~2.8 s)
+- Narracao: E no fim, ele mesmo acabou no chão.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: thump@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: puff@30
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.8 s)
+- Narracao: Foi em 2007, no maior show de luta livre do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,26 +29,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.9 s)
-- Narracao: A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~5.5 s)
-- Narracao: A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada.
+## Cena b3  (~3.8 s)
+- Narracao: Cada um escolheu um lutador. A aposta valia uma cabeça raspada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.8 s)
-- Narracao: Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.
+## Cena b4  (~2.8 s)
+- Narracao: Mais de oitenta mil pessoas lotaram o estádio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: 80 MIL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~5.5 s)
-- Narracao: No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.
+## Cena b5  (~3.4 s)
+- Narracao: O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
@@ -56,17 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~4.5 s)
-- Narracao: Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@30
-- Texto na tela: -
-- Funcao na historia: VIRADA
-
-## Cena b7  (~4.1 s)
-- Narracao: No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
+## Cena b6  (~4.1 s)
+- Narracao: Acontece que o lutador de Trump venceu, e o estádio foi abaixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
@@ -74,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.5 s)
-- Narracao: Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca.
+## Cena b7  (~3.1 s)
+- Narracao: Trump e Lashley rasparam a cabeça de Vince McMahon.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
 - Efeito + som nas palavras-chave: -
@@ -83,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.1 s)
-- Narracao: E sobrou para Trump: o juiz derrubou ele também.
+## Cena b8  (~2.1 s)
+- Narracao: E o juiz derrubou Trump também.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: derrubou -> dust + som de impacto
@@ -92,22 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
-- Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
+## Cena b9  (~3.8 s)
+- Narracao: Depois, Trump entrou para o Hall da Fama da luta livre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: BATALHA DOS BILIONÁRIOS
 - Funcao na historia: FECHO/PIADA FINAL
 
 

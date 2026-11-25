@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'terno escuro e gravata vermelha', 'VIN': 'terno escuro', 'VIB': 'terno escuro, careca', 'LAS': 'sunga e joelheiras', 'JUI': 'camisa listrada de juiz e colete preto', 'POV': 'camiseta de fa'}
 - Cenario real: estadio de futebol americano coberto, ringue iluminado no centro, plateia gigante, telao
 - Objetos: ['ringue', 'maquina de raspar cabelo', 'cadeira de barbeiro']
-- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade, stadium
+- Cenarios usados no video: interior pedra, loc_cidade, stadium
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

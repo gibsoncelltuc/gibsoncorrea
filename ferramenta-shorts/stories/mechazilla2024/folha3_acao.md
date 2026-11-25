@@ -1,49 +1,65 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.4s - 15 palavras - plano two
-> "Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar."
+## Cena b0 - 0.2s a 3.9s - 12 palavras - plano two
+> "Foguete pousa no chão? Este foi agarrado no ar por uma torre."
 
-- LEITURA DA FRASE: sentido FATO
-  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (0.8s)
-  2) MUS martela/constroi | na palavra "construir" (1.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "agarrado" (2.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | construir (1.1s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | MECHAZILLA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: constroi na palavra construir (1.1s): executa: martela e o objeto cresce
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.4s a 9.5s - 18 palavras - plano reveal
-> "Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas."
+## Cena b1 - 4.0s a 6.4s - 10 palavras - plano two
+> "Parece filme de robô gigante. Mas é engenharia de verdade."
 
-- LEITURA DA FRASE: sentido FATO
-  1) POV a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "outubro" (5.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "filme" (4.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | ESTADOS UNIDOS | OK |
+| 1 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b2 - 6.5s a 9.5s - 11 palavras - plano wide
+> "Foi em outubro de 2024, na base da SpaceX, no Texas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Texas" (9.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 10.8s a 16.4s - 18 palavras - plano wide
-> "Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre pernas, que pesam e custam caro."
+## Cena b3 - 10.8s a 14.2s - 11 palavras - plano wide
+> "A parte de baixo do foguete costumava ir para o lixo."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENG a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Normalmente" (10.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lixo" (14.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -54,50 +70,48 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b3 - 17.6s a 22.6s - 19 palavras - plano two
-> "A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre agarrar o propulsor na volta."
+## Cena b4 - 14.6s a 18.8s - 12 palavras - plano two
+> "A ideia: tirar as pernas e fazer a torre agarrar o propulsor."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/tower | na palavra "ideia" (17.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "agarrar" (18.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 23.8s a 26.8s - 12 palavras - plano crowd
-> "Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos."
+## Cena b5 - 19.1s a 20.9s - 7 palavras - plano two
+> "Os engenheiros chamaram a torre de Mechazilla."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENA a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "engenheiros" (23.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chamaram" (19.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | MECHAZILLA | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | MECHAZILLA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 28.3s a 32.0s - 14 palavras - plano wide
-> "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos."
+## Cena b6 - 21.1s a 23.9s - 9 palavras - plano wide
+> "O propulsor decolou com trinta e três motores acesos."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENG a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "teste" (28.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "decolou" (21.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 33.3s a 37.3s - 12 palavras - plano wide
-> "Minutos depois, ele voltou descendo de ré, direto na direção da torre."
+## Cena b7 - 24.5s a 26.6s - 9 palavras - plano wide
+> "Minutos depois, voltou descendo de ré, direto na torre."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENG a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Minutos" (33.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (25.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -108,11 +122,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 38.3s a 43.2s - 15 palavras - plano wide
-> "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar."
+## Cena b8 - 26.8s a 30.9s - 11 palavras - plano wide
+> "Acontece que, no último segundo, os braços se fecharam e seguraram."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENA a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Acontece" (38.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "seguraram" (30.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -125,62 +139,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 44.2s a 46.8s - 9 palavras - plano wide
+## Cena b9 - 31.3s a 35.0s - 9 palavras - plano two
 > "Os engenheiros comemoraram: era a primeira vez na história."
 
-- LEITURA DA FRASE: sentido FATO
-  1) ENG a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "engenheiros" (44.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "comemoraram" (31.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comemoraram: (44.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | comemoraram: (31.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | PRIMEIRA VEZ | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | PRIMEIRA VEZ | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra comemoraram: (44.8s): executa: estrelinhas + som
+- EFEITO: stars na palavra comemoraram: (31.6s): executa: estrelinhas + som
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 47.9s a 51.8s - 15 palavras - plano two
-> "Assim, o propulsor que antes ia para o lixo pode voar de novo, várias vezes."
+## Cena b10 - 35.5s a 39.5s - 11 palavras - plano two
+> "Uma torre que pega foguete no ar. E não é filme."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | alvo: kit/tower_catch | na palavra "Assim" (47.9s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-
-## Cena b10 - 53.2s a 55.3s - 8 palavras - plano close
-> "Parece filme de robô gigante, mas é engenharia."
-
-- LEITURA DA FRASE: sentido FATO
-  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Parece" (53.2s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "torre" (35.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | MECHAZILLA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
-
-## Cena b11 - 56.7s a 60.1s - 13 palavras - plano two
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

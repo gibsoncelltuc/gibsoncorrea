@@ -1,27 +1,36 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 160 palavras (~55 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 91 palavras (~31 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.
+## Cena b0  (~4.1 s)
+- Narracao: Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: TRUMP STEAKS
+- Funcao na historia: GANCHO
+
+## Cena b1  (~3.4 s)
+- Narracao: E o resultado foi bem menor do que se imaginava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GANCHO
+- Funcao na historia: desenvolvimento
 
-## Cena b1  (~7.6 s)
-- Narracao: Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.
+## Cena b2  (~4.1 s)
+- Narracao: Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: entrega (point) @11 -> acao + som de efeito
-- Efeito visual marcado: stars@30
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~6.9 s)
-- Narracao: Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres.
+## Cena b3  (~3.4 s)
+- Narracao: Os pacotes custavam até novecentos e noventa e nove dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: $ 999
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~5.5 s)
-- Narracao: Acontece que a loja deixou de oferecer os bifes em julho, cerca de dois meses depois.
+## Cena b4  (~3.8 s)
+- Narracao: Acontece que, em julho, a loja já não oferecia os bifes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
@@ -38,26 +47,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b4  (~4.5 s)
-- Narracao: Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.
+## Cena b5  (~3.4 s)
+- Narracao: Uma reportagem estimou menos de cinquenta mil dólares no total.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: $ 50 MIL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~3.4 s)
-- Narracao: A marca também apareceu na QVC, um canal de televisão.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.1 s)
-- Narracao: Segundo registros, a marca registrada foi cancelada em dois mil e catorze.
+## Cena b6  (~2.4 s)
+- Narracao: Em 2014, a marca registrada foi cancelada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.1 s)
-- Narracao: Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump.
+## Cena b7  (~3.4 s)
+- Narracao: Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,31 +74,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
-- Narracao: Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.
+## Cena b8  (~3.1 s)
+- Narracao: Nem todo nome famoso dura mais que uma promoção.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~4.8 s)
-- Narracao: Moral da história: nem todo produto com nome famoso dura mais que uma promoção.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: TRUMP STEAKS
 - Funcao na historia: FECHO/PIADA FINAL
 
 

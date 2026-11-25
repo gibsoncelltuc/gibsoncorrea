@@ -17,9 +17,23 @@ if '--modo' in sys.argv:
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ROOT)
 B = json.load(open(f'videos/{ID}/beats.json', encoding='utf-8'))
+_OFD = B.setdefault('outfits', {})   # 25/11 Melancia: multidao com figurino 'POV' que o roteiro nao definiu = 'OUT[a.outfit] is not a function' e o video era PULADO
+for _b in B.get('beats', []):
+    _c = _b.get('crowd') if isinstance(_b.get('crowd'), dict) else {}
+    for _o in [o_ for o_ in (_c.get('outfits') or []) + [str(w_).split(':')[0] for w_ in _b.get('who', [])] if o_ not in _OFD]:
+        if _o in ('POV', 'POVO'): _OFD[_o] = {'jacket': '#3f6fb5', 'pants': '#4a3a2a', 'boots': '#1b1b1f', 'hats': ['cap', 'hair', 'straw', 'beret']}   # povo padrao: casacos e chapeus variados (sem clones)
+        elif _c.get('outfits') and _o in _c['outfits']: _c['outfits'] = [x_ for x_ in _c['outfits'] if x_ != _o] or (['POV'] if _OFD.setdefault('POV', {'jacket': '#3f6fb5', 'pants': '#4a3a2a', 'boots': '#1b1b1f', 'hats': ['cap', 'hair', 'straw', 'beret']}) else [])
 # CHAMADA FINAL (ordem do Gibson 23/11): TODO video termina com o narrador pedindo o comentario com o tema do proximo video (cena propria, close no personagem principal apontando para quem assiste)
 CTA_TXT = B.get('cta_texto') or 'Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?'
-if B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
+_VIRAL = bool(B.get('gancho_tipo'))   # 25/11 ESTRUTURA VIRAL (ESTRUTURA_VIRAL.md): o video termina no LOOP (ultima frase emenda na primeira), sem chamada falada
+if _VIRAL and B.get('beats'):
+    _lp = B['beats'][-1]
+    if _lp.get('bloco') == 'loop' and _lp.get('loop_visual', True) is not False and len(B['beats']) > 1:   # a ultima imagem repete a 1a cena (mesmo lugar, gente, objetos e camera) para o replay emendar
+        for _k in ('set', 'interior', 'who', 'props', 'shot', 'hora', 'light', 'fachada', 'crowd', 'cx', 'cz', 'h', 'd0', 'd1', 'quadro_manual', 'regiao', 'detalhe', 'text', 'titulo', 'tstyle', 'placa'):
+            if _k in B['beats'][0]: _lp[_k] = json.loads(json.dumps(B['beats'][0][_k]))
+            else: _lp.pop(_k, None)
+        _lp['shot_lock'] = True
+if not _VIRAL and B.get('cta') is not False and B.get('beats') and not any(b_.get('_cta') or 'tema do próximo vídeo' in b_.get('say', '') for b_ in B['beats']):
     _w0 = next((w_ for b_ in B['beats'] for w_ in b_.get('who', []) if not w_.startswith(('POV', 'SOL', 'TRO', 'POVO'))), (B['beats'][0].get('who') or ['X:0'])[0])
     _p0 = _w0.split(':')
     _lb = B['beats'][-1]
@@ -105,7 +119,7 @@ _GLEN = {}
 # ===== v13 TAMANHO REAL (24/11, Gibson: "carro tem tamanho de carro, tanque de tanque, balao de gente e' gigante, balao de festa e' pequeno") =====
 # metros reais da MAIOR medida (L = comprimento, H = altura). O boneco tem ~3 unidades de altura => 1 metro real = _KM unidades no cenario.
 _KM = 1.35
-_TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'finch|passarinho|tentilh', 0.6, 'H', 'max'), (r'(^|/)apple$', 0.3, 'H', 'max'), (r'cybertruck', 5.7, 'L', 'min'), (r'roadster|carro_redondo|carro_50|vehicles/car$|taxi|police', 4.5, 'L', 'min'), (r'carro_antigo', 3.9, 'L', 'min'), (r'jeep|jipe', 3.7, 'L', 'min'),
+_TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'finch|passarinho|tentilh', 0.6, 'H', 'max'), (r'(^|/)apple$', 0.3, 'H', 'max'), (r'lobster|lagosta', 1.4, 'L', 'max'), (r'smartphone|kit/phone$|celular', 0.6, 'H', 'max'), (r'cybertruck', 5.7, 'L', 'min'), (r'roadster|carro_redondo|carro_50|vehicles/car$|taxi|police', 4.5, 'L', 'min'), (r'carro_antigo', 3.9, 'L', 'min'), (r'jeep|jipe', 3.7, 'L', 'min'),
              (r'truck|caminh', 7.5, 'L', 'min'), (r'onibus|\bbus', 11.0, 'L', 'min'), (r'tank|tanque(?!_ar)|blindado', 7.0, 'L', 'min'), (r'motorcycle|moto\b', 2.2, 'L', 'min'), (r'bicycle|bicicleta', 1.8, 'L', 'min'),
              (r'wagon|carroca|charrete|diligencia', 3.6, 'L', 'min'), (r'helicopter|helicoptero', 12.0, 'L', 'min'), (r'b2_|aviao|plane|biplano', 12.0, 'L', 'min'), (r'balloon|balao', 14.0, 'H', 'min'),
              (r'canhao_moderno', 4.5, 'L', 'min'), (r'^cannon$|canhao', 2.8, 'L', 'min'), (r'locomotiva|\btrem\b|train', 14.0, 'L', 'min'), (r'trator|tractor', 4.0, 'L', 'min'), (r'barco|boat|canoa', 5.0, 'L', 'min'), (r'piano', 1.6, 'L', 'min'),
@@ -154,6 +168,9 @@ for _b in B['beats']:
         _b['_obj_acao'] = True; _b['shot'] = 'two'; _b['shot_lock'] = True; _b['who'] = (_b.get('who') or [])[:2]; _b['crowd'] = {'n': 0, 'outfits': [w_.split(':')[0] for w_ in _b['who']] or ['POV'], 'march': False}; _b['detalhe'] = False; _b['fachada'] = False
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
 # 1) a narracao escolhe o lugar da cena; 2) nenhum lugar ocupa mais da metade do video e todo video tem pelo menos 3 lugares
+for _b in B['beats']:   # 25/11 Selfie na ONU: o set 'hall' e' um patio SEM TETO (ceu aberto); plenario/assembleia/congresso e' sala fechada de governo
+    _tt = __import__('unicodedata').normalize('NFKD', (_b.get('say', '') + ' ' + str(B.get('titulo') or B.get('title') or '')).lower()).encode('ascii', 'ignore').decode()
+    if _b.get('set') == 'hall' and not _b.get('interior') and re.search(r'\bonu\b|assembleia|plenario|parlamento|congresso|senado|tribunal|pulpito|discurso', _tt): _b.pop('set'); _b['interior'] = 'pedra'
 _EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('interior')}   # o que o roteiro fixou nao muda
 _LUGAR = ((r'australia|\bemus?\b', 'set', 'outback'), (r'desert|areia|egito|egipci|piramide|arabia|saara|faraó|farao|seca\b|caravana', 'set', 'loc_deserto'),
           (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
@@ -745,7 +762,7 @@ ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu',
 _DANCA_OUTRO = r'(atomos|moleculas|cobras|chamas|estrelas|folhas|ondas|particulas|letras|numeros)\s*(\w{0,12}\s*)?danc|danc\w*\s*como|sonho'   # quem danca e' a coisa (sonho, atomos...), nao o personagem
 OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao
     (r'\bbarril\b|\bbarris\b|aguardente|cerveja|\bvinho\b|\brum\b', 'barrel', 1.1, False), (r'caixote|\bcaixas\b|\bcarga\b|mercadoria', 'crate', 1.0, False), (r'\bcanhao\b|\bcanhoes\b|artilharia', 'cannon', 1.0, False),
-    (r'\bbaldes?\b|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'\bbandeiras?\b|estandarte', 'war/flagpole', 1.3, False), (r'\btambor\b|\btambores\b', 'war/drum', 1.4, False),
+    (r'\bbaldes?\b|\bpoco\b', 'tools/bucket', 1.8, False), (r'\bfonte\b|chafariz', 'nature/fountain', 1.2, False), (r'bandeira\w*\s+(d[oa]\s+)?canad', 'kit/bandeira_canada', 1.0, False), (r'bandeira\w*\s+(d[oa]\s+)?dinamar', 'kit/bandeira_dinamarca', 1.0, False), (r'\bbandeiras?\b|estandarte', 'war/flagpole', 1.3, False), (r'\btambor\b|\btambores\b', 'war/drum', 1.4, False),
     (r'trincheira|barricada|sacos de areia', 'war/sandbags', 1.2, False), (r'\bescudos?\b', 'war/shield', 1.5, False), (r'\bfeno\b|trigo|plantac|colheita', 'nature/haybale', 1.1, False), (r'espantalho', 'nature/scarecrow', 1.2, False),
     (r'lanterna|lampiao|lamparina', 'tools/lantern', 1.2, False), (r'\bescadas?\b', 'tools/ladder', 1.2, False), (r'carrinho de mao', 'tools/wheelbarrow', 1.2, False), (r'ferreiro|bigorna', 'tools/anvil', 1.3, False),
     (r'\btulipas?\b|\bbulbos?\b|\bflor\b|\bflores\b', 'kit/tulip_red', 1.3, False), (r'\bcova\b|tumulo|enterr|caixao|cemiterio', 'kit/grave', 1.0, False), (r'\bbatatas?\b|\bhorta\b|\blegumes?\b', 'nature/flowerbed', 1.2, False),
@@ -758,7 +775,7 @@ OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) 
 LUGARES = [  # (palavra na narracao, [(modelo, x, z, escala), ...]) -- cenografia de fundo do lugar citado
     (r'fazenda|fazendeiro|sitio|\bhorta\b|plantac|lavoura|celeiro|curral', [('buildings/barn', 5.5, -10.0, 1.2), ('nature/picket_fence', -3.4, -2.6, 1.3), ('nature/haybale', 3.6, -1.4, 1.1), ('nature/scarecrow', -4.6, -4.5, 1.2)]),
     (r'\bcasa\b|\bcasas\b|vizinho|aldeia|vila\b|vilarejo', [('buildings/house_small', -5.5, -10.0, 1.25), ('nature/picket_fence', 3.4, -2.8, 1.3), ('nature/tree_oak', 6.5, -7.0, 1.3)]),
-    (r'\bigreja\b|\bcatedral\b|\bpadre\b|\bsino\b', [('buildings/church', 5.5, -11.0, 1.2)]),
+    (r'\bigreja\b|\bcatedral\b|\bpadre\b|\bsino\b|\bmosteiro\b|\bconvento\b|\babadia\b|\bmonges?\b', [('buildings/church', 5.5, -11.0, 1.2)]),
     (r'\bmercado\b|\bfeira\b|\bloja\b|comerciante|\bvendedor\b', [('buildings/shop', -5.0, -9.5, 1.25), ('kit/stall', 3.6, -2.6, 1.0)]),
     (r'\bflorestas?\b|\bmata\b|\bbosque\b|\bselva\b', [('nature/tree_pine', -5.5, -8.5, 1.5), ('nature/tree_oak', 5.0, -9.0, 1.5), ('nature/tree_pine', 8.0, -7.5, 1.3), ('nature/bush', -6.5, -4.5, 1.2)]),
     (r'\bacampamento\b|acamparam|\bbarracas\b', [('kit/tent', -4.5, -5.0, 1.3), ('kit/tent', 5.0, -6.5, 1.3), ('kit/campfire', 3.0, -1.2, 1.2)]),
@@ -797,6 +814,11 @@ for _ano_lim, _de, _para in _ERA_TROCA:
 if ANO is not None and ANO < 1950: OBJ_DICT = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]; ENC_RES = [(r_, 'kit/bola_couro' if m_ == 'kit/ball' else m_) for r_, m_ in ENC_RES]   # 25/11 Goodyear: antes de 1950 a bola e' de COURO marrom costurado (a de gomos pretos e brancos e' dos anos 1970)
 if ANO is not None and ANO < 500: OBJ_DICT = [(r_, 'kit/coroa_louros' if m_ == 'kit/crown' else m_, *x_) for r_, m_, *x_ in OBJ_DICT]   # 25/11 'coroa' na Antiguidade = coroa de LOUROS de ouro (pesquisa: Munique 400 a.C., Aigai), nunca a coroa de pontas medieval
 FALTA_MODELAR = r'\b(pao|paes|queijo|peixe|peixes|piano|relogio|estatua|guilhotina|balanca|telefone|radio|bicicleta)\b'
+_BAND_PAIS = [(r'canad', 'kit/bandeira_canada'), (r'dinamar', 'kit/bandeira_dinamarca')]
+def _band_pais(t_):   # pais citado na frase que tem bandeira ('bandeira' ou 'a deles' do pais); o mais perto depois da palavra bandeira
+    t_ = str(t_).lower(); i_ = t_.find('bandeira'); i_ = 0 if i_ < 0 else i_
+    ach_ = sorted((m_.start() if m_.start() >= i_ else 10 ** 6 + m_.start(), md_) for rx_, md_ in _BAND_PAIS for m_ in re.finditer(rx_, t_))
+    return ach_[0][1] if ach_ else None
 def _sem_modelo(ws): return sorted(w_ for w_ in set(ws) if not any(re.search(o_[0], w_) for o_ in OBJ_DICT))   # palavra que ja tem modelo no OBJ_DICT (ex.: radio = elemento quimico da Marie Curie) nao e' falta
 def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto do titulo, ou o objeto mais citado na narracao
     if 'heroi' in B: return B['heroi'] or None
@@ -864,8 +886,8 @@ def direct(beats):
                 elif not b.get('impact'): b['crowd'] = {'n': 0, 'outfits': persons_out[:1] or list(B.get('outfits', {}))[:1] or ['X'], 'march': False}   # cena sem 'who' nao vira ator 'X' (figurino inexistente quebrava o render)
             if not b.get('who') and not b.get('explica') and b['crowd'].get('outfits'): b['who'] = [f"{b['crowd']['outfits'][0]}:0:neutral"]
             _sy = __import__('unicodedata').normalize('NFKD', b.get('say', '').lower()).encode('ascii', 'ignore').decode()
-            if re.search(r'multid|milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
-                b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
+            if not b.get('quadro_manual') and not re.search(r'todo mundo (achava|pensava|temia|acreditava|sabia|dizia|esperava)', _sy) and re.search(r'multid|milhares(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|milhoes|\bmil pessoas|lotad|lotou|lotaram|centenas(?! de (vezes|anos|dias|horas|quilos|toneladas|metros|quilometros|km|dolares|reais|libras|francos|litros))|todo mundo|populac|\bpovo\b|torcida|plateia|publico|cheio de gente|aglomer|protesto|manifesta|fila enorme', _sy) and not b.get('emus'):
+                b['crowd']['n'] = max(int(b['crowd'].get('n', 0)), 30); b['crowd']['lotado'] = True   # 25/11 LA: 'todo mundo achava que vinha mais' e' opiniao (nao poe multidao); cena com quadro_manual = roteiro manda   # "varias pessoas" na narracao: encher a tela de gente (ordem do Gibson 19/11)
         else:
             run += 1
             if b.get('impact') and b.get('crowd') is None and b.get('who') and not b.get('emus'):
@@ -914,6 +936,7 @@ for _ib, _b in enumerate(B['beats']):
 KICKS = []
 AMB = {}
 HEROI = _heroi()
+if HEROI == 'kit/ball' and (ANO or _ANO0 or 2024) < 1950: HEROI = 'kit/bola_couro'   # 25/11 Galileu: antes de 1950 a bola vira de couro (OBJ_DICT troca); o heroi tem que trocar junto senao 'heroi nao aparece'
 STATE = {'mapa': any(_b.get('mapa') for _b in B['beats'])}   # mapa pedido no roteiro: nao cria outro automatico
 KWSFX = []
 _crowd_roteiro = {id(b_) for b_ in beats if isinstance(b_.get('crowd'), dict)}   # multidao que o ROTEIRO pediu fica como esta
@@ -931,6 +954,7 @@ if B.get('director') is not False and len(beats) > 6 and sum(1 for b in beats if
     _OFa = B.get('outfits', {}); _ma = lambda o_: str(o_).startswith(('POV', 'SOL', 'TRO')) or bool(_OFa.get(o_, {}).get('rifle') or _OFa.get(o_, {}).get('hats') or _OFa.get(o_, {}).get('multidao'))
     _cand = [i for i in _cand if not beats[i].get('interior') and not beats[i].get('explica') and not re.search(r'morre|morte|mortes|morta|morto|faleceu|doen|saude|tragedia|vitima|luto|chor|enterr|ferid', nrm(beats[i]['say']))]   # 24/11 (Curie): morte/doenca nunca vira festa com multidao   # 24/11: nada de multidao/batalha automatica dentro de sala
     _cand = [i for i in _cand if any(_ma(w_.split(':')[0]) for w_ in beats[i].get('who', [])) or any(str(k_).startswith(('POV', 'POVO')) for k_ in _OFa)]
+    _cand = [i for i in _cand if not beats[i].get('quadro_manual') and not (isinstance(beats[i].get('crowd'), dict) and beats[i]['crowd'].get('n') == 0)]   # 25/11 LA: cena que o roteiro fechou (quadro_manual / multidao 0) nao vira o grande momento com multidao (tapava o submarino)
     _vir = [i for i in _vir if i in _cand]
     _pick = (_vir or sorted(_cand, key=lambda i: abs(i - (len(beats) * (0.3 if (_im and _im[0] > len(beats) / 2) else 0.7)))) or [None])[0]
     if _pick is not None:
@@ -1044,9 +1068,9 @@ if B.get('director') is not False and B.get('emocao_close') is not False:
             _w0 = _b['who'][0].split(':'); _w0 += [''] * (3 - len(_w0))
             if _w0[2] in ('', 'neutral', 'smile', 'stern'): _w0[2] = 'pleading'; _b['who'][0] = ':'.join(_w0)
             PLANO.append((_k, 'pedido: plano medio dos dois, um pede ao outro', 'shot'))
-        elif _livre and _EMO.search(_sy) and _seq < 2 and _k > 0 and not re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b|\b(pul|salt|danc|comemor|abrac|brind)', _nrm0(_b['say'])):   # v13: emocao DOS DOIS ou com acao de corpo inteiro nao vira close num rosto so'
+        elif _livre and not _b.get('quadro_manual') and not re.search(r'(cachorro|cao|caes|animal|lobo|morcego|vacina|virus|doenca)\w* (com |contra a |da |de )?raiva|raiva (canina|humana)|contra a raiva', _sy) and _EMO.search(_sy) and _seq < 2 and _k > 0 and not re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b|\b(pul|salt|danc|comemor|abrac|brind)', _nrm0(_b['say'])):   # v13: emocao DOS DOIS ou com acao de corpo inteiro nao vira close num rosto so'
             _b['shot'] = 'close'; _b['_emo_close'] = True; _b.pop('perto', None); _seq += 1
-            if len(_b.get('who', [])) > 1: _b['_who_todo'] = list(_b['who']); _b['who'] = _b['who'][:1]   # o close e' de quem sente: so' ele no quadro, centralizado
+            if len(_b.get('who', [])) > 1: _b['_who_todo'] = list(_b['who']); _b['who'] = _b['who'][:1]   # 25/11 Pasteur (B): 'cachorro com raiva' e' a DOENCA (nao emocao) e cena com quadro_manual = roteiro manda; senao a mae sumia. O close e' de quem sente: so' ele no quadro, centralizado
         else: _seq = 0
 # MULTIDAO SEM CLONES (ordem do Gibson): multidao criada pelo diretor usa o figurino de POVO; rei, nobre, cientista, medico, padre, general... sao pessoas unicas e nao viram 12 copias
 _POVO = [k_ for k_, o_ in B.get('outfits', {}).items() if k_ in ('POV', 'POVO') or o_.get('hats')]
@@ -1074,7 +1098,7 @@ def _hud_fx(k, b, a, bb, E):   # graficos colados na parte de cima da tela (vale
         m_ = E.get(kind)
         if m_:
             t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
-            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
+            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 1 if any(float(m_.get(k_, 0)) % 1 for k_ in ('de', 'para')) else 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
             KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
     if E.get('grafico'):   # 25/11 GRAFICO DE LINHA (preco subindo/despencando): {"pontos": [..], "rotulos": ["2021","2022"], "titulo": "...", "un": "US$ ", "na": "palavra"}
         G_ = E['grafico']; t0 = _wf(G_.get('na'), -3, f"({a}) + 6")
@@ -1424,8 +1448,11 @@ def build_beat(k, b):
         fb = {'countryside': ['buildings/house_small', 'buildings/house_two'], 'outback': ['buildings/house_small', 'buildings/windmill'], 'street': ['buildings/shop', 'buildings/house_two'], 'medieval': ['buildings/castle_tower', 'buildings/house_small'], 'harbor': ['buildings/shop', 'buildings/shop']}.get(b.get('set', SET))   # 24/11: farol como fachada tapava o quadro (Kiska, Bolos): so' com farol na narracao
         if fb: pr.append(f"{{ asset: {json.dumps(fb[k % 2])}, at: [X + {num(4.8 if k % 2 else -4.8)}, -11.0], s: 1.05, ry: {num(-0.35 if k % 2 else 0.35)}, drop: false }}")
     # OBJETOS DA HISTORIA: o que a narracao cita e existe na biblioteca entra em cena sozinho (ate 2 por cena)
+    _bp_ = _band_pais(_say_sp)   # 25/11 Uisque: bandeira citada com o PAIS = a bandeira daquele pais (o war/flagpole tem pano listrado generico)
+    if _bp_: props = [[_bp_] + list(p_[1:]) if str(p_[0]) == 'war/flagpole' else p_ for p_ in props]
     if b.get('objetos') is not False and not b.get('veiculo'):
         tem_ = {str(p_[0]) for p_ in props}; n_auto = 0
+        if any(str(t_).startswith('kit/bandeira_') for t_ in tem_): tem_.add('war/flagpole')
         _fam = lambda x_: re.sub(r'_(red|yellow|purple|striped)$', '', str(x_))
         if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video (25/11 Montgolfier: GRANDE na chamada final/close vai para o fundo, -11 m; a -3.6 o balao saia gigante e cortado ao lado do personagem)
             props = props + ([[HEROI, 0.0, (-11.0 if (b.get('_cta') or b.get('shot') == 'close') else -3.6), 1.0]] if _EH_VEIC(HEROI) or (_glb_len(HEROI) or 0) > 2.2 else [[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # objeto GRANDE (carro...) fica atras dos personagens, inteiro no quadro   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
@@ -1581,13 +1608,14 @@ def build_beat(k, b):
     if not b.get('interior') and light in ('day', 'noon', 'golden', 'dawn', 'dusk', 'desert') and not wx.get('rain') and not wx.get('snow') and b.get('passaros') is not False and (k % 2 == 0 or shot in WIDE):
         fx.append(f"{{ k: 'birds', a: {a}, b: {bb}, at: [X, DK + {num(4.5 + (k % 3) * 1.5)}, -30], n: {4 + k % 3}, dir: {1 if k % 4 < 2 else -1}, off: {8 + k * 7 % 14} }}")
     if b.get('text'):
-        st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
+        st = TXT[b.get('tstyle', TXT_CYCLE[0] if (b.get('bloco') == 'loop' and _VIRAL) else TXT_CYCLE[k % 4])]   # loop: mesma cor de texto da 1a cena (emenda sem costura)
         off = int(b.get('tat', 0))
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
         if b.get('titulo') or B.get('titulos') or shot in WIDE or shot == 'close' or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto
             fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
         else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
             _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
+            if len(b.get('who') or []) == 1: _sx = 1.7   # 25/11 PayPal: personagem SOZINHO fica no centro e a placa do centro ficava atras da cabeca dele; vai para o lado
             fx.append(f"{{ k: 'text', a: {a}, b: {bb}, at: [X + {num(_sx)}, DK, {num(-1.3)}], text: {json.dumps(b['text'], ensure_ascii=False)}, s: {num(b.get('tscale', 1.5) * 1.75)}, col: '#3a2416', size: 120, board: {json.dumps(b.get('placa', True))} }}")
     # 24/11 (Chaleira): o CLARAO sai de onde o tiro sai (boca do canhao, do tamanho certo para a distancia da camera) e o IMPACTO acontece em cima do objeto atingido ("a bala acertou e destruiu a chaleira")
     _pp_fx = [p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and len(p_) > 2 and not isinstance(p_[1], str)]
@@ -1870,7 +1898,7 @@ def build_beat(k, b):
             elif tipo_ == 'negocio':
                 pr.append(f"{{ asset: 'kit/coin', a: WS({wi_}) - 2, b: WS({wi_}) + 50, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: (f) => DK + 1.5 + 0.25 * Math.sin(f * 0.2), spinY: 2, s: 0.35, drop: false }}"); KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'tira':
-                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_) and (ANO or 2024) >= 2007: pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
+                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_) and (ANO or _ANO0 or 2024) >= 2007: pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
                 KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'rende':
                 fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 34, at: [X + {num(sl[0])}, DK + 3.0, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))
@@ -1923,6 +1951,7 @@ def build_beat(k, b):
                       'x_costura': ('tick', None, None), 'x_pinta': ('tick', 'stars', None), 'x_bate': ('thump', 'burst', None), 'x_procura': ('tick', None, 'kit/lupa'), 'x_vigia': ('tick', None, None), 'x_saluda': ('sting', None, None),
                       'x_reza': ('ding', 'stars', None), 'x_aplaude': ('ding', 'stars', None), 'x_abraca': ('ding', 'stars', None), 'x_acorda': ('ding', 'stars', None), 'x_espera': ('tick', None, None), 'x_treme': ('creak', None, None),
                       'x_tosse': ('thump', 'puff', None), 'x_nada': ('creak', 'splash', None), 'x_ri': ('laughs', 'stars', None), 'x_abre': ('creak', None, None), 'x_solta': ('ding', 'stars', None), 'x_entrega': ('tick', None, None), 'x_discute': ('sting', None, None), 'x_aperta': ('ding', 'stars', None), 'x_desce': ('thump', 'dust', None), 'x_defende': ('thump', 'ring', None), 'x_dirige': ('tick', 'dust', None)}.get(tipo_, ('tick', None, None))
+                if _X[2] == 'kit/phone' and (ANO or _ANO0 or 2024) < 2007: _X = (_X[0], _X[1], 'kit/tripe_camera' if re.search(r'foto|fotograf|film|retrat', _sy_) else None)   # 25/11 Rontgen (B): celular antes de 2007 = camera de tripe (foto) ou nada
                 if _X[2] and _X[2] not in ' '.join(pr): pr.append(f"{{ asset: {json.dumps(_X[2])}, a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: DK + {1.9 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0}, s: {0.35 if _X[2] in ('kit/phone', 'kit/scroll', 'kit/lupa') else 0.6}, drop: false }}")
                 if _X[1]: fx.append(f"{{ k: {json.dumps(_X[1])}, a: WS({wi_}) + 3, b: WS({wi_}) + 30, at: [X + {num(sl[0] + (0.6 if _X[1] in ('splash', 'puff') else 0))}, DK + {2.6 if _X[1] in ('stars', 'ring') else 1.6}, {num(_z0 + 0.4)}], s: 0.6 }}")
                 if tipo_ == 'x_treme' and acts: _gst.setdefault('inter', []).append(f"inter: {{ k: 'shiver', a: WS({wi_}), b: WS({wi_}) + 50, dir: 1, n: 3, ph: 0 }}")
@@ -2365,7 +2394,11 @@ if B.get('serie') != 'Teste':
         _glob.append(('o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)', 'reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa'))
     if not (B.get('serie') and B.get('ep')) and not ID.startswith(('_', 'teste')): _glob.append(('roteiro sem "serie" e "ep": o video sairia sem EP no titulo', 'por no topo "serie": "Guerras Inusitadas" | "Curiosidade e Ciência" | "Poder e Fama" | "E Se" e "ep": <proximo numero livre da serie>'))
     # ESTRUTURA DE RETENCAO (24/11, Gibson: "o roteiro tem toda uma estrutura que tem que seguir: gancho, gatilho, retencao"): gancho curto -> contexto -> escalada -> VIRADA no meio -> final curto e ironico -> chamada (automatica)
-    if B.get('estrutura_ok') is not True and not ID.startswith(('_', 'teste')):
+    if _VIRAL:   # 25/11: roteiro na estrutura viral -> a checagem e' a do estrutura_viral.py (6 blocos, 12 palavras por frase, 30-45 s, loop)
+        import importlib.util as _ilu; _spv = _ilu.spec_from_file_location('estrutura_viral', 'estrutura_viral.py'); _ev = _ilu.module_from_spec(_spv); _spv.loader.exec_module(_ev)
+        for _f in _ev.checar(ID)[2]: _glob.append(('ESTRUTURA VIRAL: ' + _f, 'corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py ' + ID))
+    if not _VIRAL and not ID.startswith(('_', 'teste', 'zz_')) and B.get('serie') != 'Teste': _glob.append(('roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md)', 'reescrever nos 6 blocos (gancho, promessa, prova, escalada, pagamento, loop), 30-45 s, frases de ate 12 palavras, "gancho_tipo" no topo; conferir com python3 estrutura_viral.py ' + ID))
+    if not _VIRAL and B.get('estrutura_ok') is not True and not ID.startswith(('_', 'teste')):
         _sx = [b_['say'] for b_ in beats]; _sn = lambda t_: unicodedata.normalize('NFKD', t_.lower()).encode('ascii', 'ignore').decode()
         _g1 = re.split(r'(?<=[.!?])\s+', _sx[0].strip())[0]
         if len(_g1.split()) > 16: _glob.append((f'GANCHO longo: a 1a frase tem {len(_g1.split())} palavras (o canal fecha o gancho em ~4 s: 8-16 palavras)', 'reescrever a 1a frase: o fato mais absurdo da historia, curto, com algo em jogo'))
@@ -2378,8 +2411,9 @@ if B.get('serie') != 'Teste':
         _phj = json.load(open(f'stories/{ID}/work/phrases.json')); _pht = re.sub(r'\W+', '', ''.join(p_.get('text', '') for p_ in _phj['phrases']).lower()); _bxt = re.sub(r'\W+', '', ''.join(b_['say'] for b_ in beats if not b_.get('_cta')).lower())
         if not _bxt or _bxt not in _pht: raise ValueError('voz antiga: o texto mudou')   # 24/11: voz de um texto antigo dava duracao errada (roteiro encurtado continuava com ~71 s)
         _dur = _phj['frames30'] / 30
-    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + 13) / 2.8   # 24/11: velocidade REAL medida nas vozes (2,6-2,9 palavras/s); 2,5 deixava video com 53 s   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
-    if not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
+    except Exception: _dur = (sum(len(b_['say'].split()) for b_ in beats) + (0 if _VIRAL else 13)) / 2.8   # 24/11: velocidade REAL medida nas vozes (2,6-2,9 palavras/s); 2,5 deixava video com 53 s   # 24/11: medido nos videos prontos (voz Antonio +10% ~2,5 palavras/s; +13 da chamada final). Antes /2.9 subestimava ~10 s
+    if _VIRAL and not (28 <= _dur <= 50) and B.get('duracao_ok') is not True: _glob.append((f'video com ~{round(_dur)} s (estrutura viral: 30 a 45 s, limite 50)', 'cortar frases (uma ideia por frase, ate 12 palavras)' if _dur > 50 else 'acrescentar uma micro-prova com numero/nome'))
+    if not _VIRAL and not (54 <= _dur <= 66) and B.get('duracao_ok') is not True:   # 24/11, Gibson: "os videos tem 60 s de duracao" (ja contando a chamada final)
         _glob.append((f'video com ~{round(_dur)} s (o padrao e\' 60 s; aceito de 54 a 66, ja com a chamada final)', ('acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao)' if _dur < 54 else 'cortar frases que nao mudam a imagem') + ' ate ficar em ~60 s (com esta voz, ~150 palavras no total)'))
 # ===== v13 OBJETO FORA DE EPOCA: nada do que esta em cena pode ser de outra epoca (bloqueia o render) =====
 _PROP_ERA = (('barrel|Barrel', -9999, 1945, 'barril'), ('crate$|Crate_Wooden', -9999, 1965, 'caixote de madeira'), ('lantern', -9999, 1925, 'lampiao'), ('CandleStick|Candle', -9999, 1920, 'castical'), ('carro_antigo', 1885, 1940, 'carro antigo'), ('carro_50', 1940, 1975, 'carro dos anos 50'),

@@ -19,14 +19,9 @@
     "loc_cidade"
    ],
    [
-    "cena 3",
+    "cena 4",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 5",
-    "outback",
-    "loc_pista"
    ],
    [
     "cena 6",
@@ -34,12 +29,12 @@
     "loc_pista"
    ],
    [
-    "cena 8",
-    "street",
-    "loc_cidade"
+    "cena 7",
+    "outback",
+    "loc_pista"
    ],
    [
-    "cena 11",
+    "cena 8",
     "street",
     "loc_cidade"
    ]
@@ -71,7 +66,6 @@
   "kit/roadster",
   "kit/room_eua_shop",
   "kit/room_europa_shop",
-  "kit/room_verde_shop",
   "kit/tequila_bolt",
   "kit/veg_cacto",
   "nature/picket_fence"

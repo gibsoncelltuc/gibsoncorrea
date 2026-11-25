@@ -1,104 +1,95 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 158 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 102 palavras (~35 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquenta dólares.
+## Cena b0  (~3.8 s)
+- Narracao: Piada se esquece rápido? Esta virou uma garrafa de 250 dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 1º DE ABRIL
+- Texto na tela: PIADA → TEQUILA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido.
+## Cena b1  (~3.4 s)
+- Narracao: E até a garrafa vazia passou a valer uma fortuna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: fortuna -> stars + som de sino
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~4.1 s)
+- Narracao: Em 2018, no dia da mentira, Musk postou que a Tesla faliu.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: faliu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: TESLA FALIU? | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+## Cena b3  (~3.4 s)
+- Narracao: Na foto, aparecia cercado de garrafas de uma tal Teslaquila.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~5.5 s)
-- Narracao: Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.
+## Cena b4  (~3.4 s)
+- Narracao: Muita gente riu. Mas ele levou a ideia a sério.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; (rosto) determined -> expr + som de efeito; riu -> stars + som de sino
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~5.2 s)
-- Narracao: Acontece que o conselho que protege a tequila no México reclamou: o nome tem regras.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+## Cena b5  (~3.4 s)
+- Narracao: Acontece que o México barrou o nome: tequila tem regras.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) annoyed -> expr + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: VIRADA
 
-## Cena b5  (~5.5 s)
-- Narracao: Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.
-- Som ambiente: silencio/sala
+## Cena b6  (~3.1 s)
+- Narracao: Em 2020, saiu como Tesla Tequila, feita no México.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.9 s)
-- Narracao: A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20, ring@50
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~4.1 s)
-- Narracao: Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas.
+## Cena b7  (~3.4 s)
+- Narracao: Cada garrafa custava 250 dólares e esgotou em poucas horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: ESGOTOU
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
-- Narracao: Logo, até garrafas vazias apareceram à venda na internet por mais de mil dólares.
+## Cena b8  (~3.4 s)
+- Narracao: Garrafas vazias apareceram na internet por mais de mil dólares.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~3.4 s)
+- Narracao: Tudo por causa de uma piada de primeiro de abril.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: entrega (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~4.1 s)
-- Narracao: Uma piada do dia da mentira que terminou numa prateleira de verdade.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: PIADA → TEQUILA
 - Funcao na historia: FECHO/PIADA FINAL
 
 

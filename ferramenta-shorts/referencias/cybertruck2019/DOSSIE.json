@@ -5,7 +5,7 @@
   "ano": 2019,
   "era": "atual (1950+)",
   "regiao": "eua",
-  "luz_base": "golden",
+  "luz_base": "day",
   "cenarios": [
    "hall"
   ],
@@ -33,7 +33,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/ball",
   "kit/cybertruck",
   "kit/globe",
   "kit/phone",

@@ -7,7 +7,7 @@
 - Roupas: {'TRU': 'terno azul escuro e gravata vermelha', 'REP': 'bone vermelho e camiseta', 'ELE': 'roupa casual com adesivo de voto', 'POV': 'roupa casual'}
 - Cenario real: fila de votacao com urnas e cabines, palco com bandeiras americanas, Casa Branca e Capitolio
 - Objetos: ['urna e cedulas', 'bandeiras dos EUA', 'Casa Branca']
-- Cenarios usados no video: hall, interior galpao, interior loja, interior madeira, loc_cidade, loc_pista
+- Cenarios usados no video: hall, interior loja, interior madeira, loc_cidade, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

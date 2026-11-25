@@ -3,22 +3,12 @@
  "ano": 2019,
  "cenarios_trocados": [
   [
-   "cena 4",
+   "cena 2",
    "street",
    "loc_cidade"
   ],
   [
-   "cena 8",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
+   "cena 5",
    "street",
    "loc_cidade"
   ]
@@ -49,6 +39,25 @@
    "cenario": "interior pedra"
   },
   {
+   "camera": "reveal",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E os surfistas do mundo inteiro foram atrás.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
    "camera": "two",
    "personagens": [
     "BUK",
@@ -59,9 +68,9 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 24,
-   "cena": "b1",
-   "frase": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 2019, Nayib Bukele lançou a Surf City em El Salvador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -78,9 +87,9 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 21,
-   "cena": "b2",
-   "frase": "Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Em 2021, o país sediou o Mundial de Surfe.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -101,9 +110,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O evento valia vaga para as Olimpíadas de Tóquio.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -120,9 +129,9 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 18,
-   "cena": "b4",
-   "frase": "Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris.",
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Em 2023, vieram 294 competidores, de olho em Paris.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -145,9 +154,9 @@
    "objetos": [
     "kit/surfboard"
    ],
-   "palavras": 17,
-   "cena": "b5",
-   "frase": "O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria.",
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "O governo promete quinhentos mil empregos, sem garantia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -155,7 +164,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "low",
    "personagens": [
     "JOR",
     "JOR2",
@@ -163,33 +172,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b6",
-   "frase": "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Acontece que moradores e ambientalistas se preocupam com a costa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "BUK",
-    "JOR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/volcano"
-   ],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "A Surf City dois leva o projeto para o leste do país.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "group",
@@ -202,9 +192,9 @@
    "objetos": [
     "kit/surfboard"
    ],
-   "palavras": 16,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.",
+   "frase": "Em 2025, o Mundial voltou para lá.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -212,39 +202,22 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/surfboard",
-    "kit/volcano"
+    "kit/surfboard"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas.",
+   "frase": "Capital do surfe ou promessa grande demais? Você decide.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   }
  ]
 }

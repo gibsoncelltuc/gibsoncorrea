@@ -7,10 +7,8 @@ danca1518
 falcon2015
 gansos390
 martelo2025
-paypal2002
 pia2022
 roadster2018
-selfie2019
 rontgen1895
 tycho1566
 semmelweis1847
@@ -20,6 +18,5 @@ velcro1941
 #PAUSADO ese_napoleao
 # acrescentados em 24/11 (roteiros que estavam so nos branches antigos das sessoes)
 galileu1589
-mendel1856
 microondas1945
 pasteur1885

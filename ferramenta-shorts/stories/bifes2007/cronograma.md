@@ -1,22 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Gerado em 25/11 08:51 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:17 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | TRU, VEN | - | steak | - | Um bilionário colocou o próprio nome num bife, e ele sumiu em dois mes
-b1 | simples | interior loja | two | TRU | - | steak | - | Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loj
-b2 | chave | interior pedra | group | VEN, CLI, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os pacotes custavam de cento e noventa e nove a novecentos e noventa e
-b3 | simples | interior loja | two | VEN, CLI | - | steak, picket_fence | - | Acontece que a loja deixou de oferecer os bifes em julho, cerca de doi
-b4 | chave | loc_cidade | wide | TRU, JOR | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma reportagem estimou que as vendas totais nunca passaram de cinquent
-b5 | simples | interior madeira | two | TRU, VEN | - | tv | - | A marca também apareceu na QVC, um canal de televisão.
-b6 | simples | interior pedra | two | CLI, VEN | - | - | - | Segundo registros, a marca registrada foi cancelada em dois mil e cato
-b7 | simples | interior madeira | two | TRU, CLI | - | steak | - | Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Tr
-b8 | transicao | loc_cidade | orbit | TRU, CLI | 8 | shop, stall | - | Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio
-b9 | simples | interior madeira | two | VEN | - | steak | - | Moral da história: nem todo produto com nome famoso dura mais que uma 
-b10 | simples | interior madeira | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | TRU, VEN | - | steak | - | Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.
+b1 | simples | interior madeira | two | VEN | - | steak | - | E o resultado foi bem menor do que se imaginava.
+b2 | simples | interior loja | two | TRU, VEN | - | steak | - | Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.
+b3 | chave | interior pedra | group | VEN, CLI, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os pacotes custavam até novecentos e noventa e nove dólares.
+b4 | simples | interior loja | two | VEN, CLI | - | steak | - | Acontece que, em julho, a loja já não oferecia os bifes.
+b5 | chave | loc_cidade | wide | TRU, JOR | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma reportagem estimou menos de cinquenta mil dólares no total.
+b6 | simples | interior pedra | two | CLI, VEN | - | - | - | Em 2014, a marca registrada foi cancelada.
+b7 | simples | interior madeira | two | TRU, CLI | - | steak | - | Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.
+b8 | simples | loc_cidade | two | TRU, VEN | - | steak | - | Nem todo nome famoso dura mais que uma promoção.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

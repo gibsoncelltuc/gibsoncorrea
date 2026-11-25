@@ -85,10 +85,6 @@
    "detalhe": false,
    "interior": false,
    "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Ninguém te conta: um país fabrica dinheiro digital com um vulcão.",
    "encena": {
@@ -101,7 +97,30 @@
     ]
    },
    "text": "BITCOIN DE VULCÃO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/volcano",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -120,10 +139,6 @@
     ]
    ],
    "acao": "comemorar",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "Parece ficção. Mas aconteceu de verdade.",
    "encena": {
@@ -132,6 +147,23 @@
      {
       "faz": "mostra",
       "na": "ficção"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -154,10 +186,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "mapa": "EL SALVADOR",
    "bloco": "prova",
    "say": "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.",
@@ -167,6 +195,23 @@
      {
       "faz": "mostra",
       "na": "tornou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -191,10 +236,6 @@
    ],
    "acao": "discutir",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Criar bitcoin novo exige computadores fazendo contas sem parar.",
    "encena": {
@@ -203,6 +244,23 @@
      {
       "faz": "mostra",
       "na": "contas"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/miners",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -237,11 +295,6 @@
    "crowd": {
     "n": 0
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "escalada",
    "say": "Para isso, ele usou o calor do vulcão Tecapa.",
    "encena": {
@@ -250,6 +303,24 @@
      {
       "faz": "mostra",
       "na": "usou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/volcano",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -375,10 +446,6 @@
    ],
    "acao": "conversar",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "Acontece que, ao lado da usina, instalaram computadores só para isso.",
    "encena": {
@@ -387,6 +454,29 @@
      {
       "faz": "mostra",
       "na": "instalaram"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/miners",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/miners",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -409,10 +499,6 @@
     ]
    ],
    "acao": "conversar",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
    "encena": {
@@ -421,6 +507,23 @@
      {
       "faz": "mostra",
       "na": "bitcoins"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -456,11 +559,6 @@
    "titulo": true,
    "detalhe": false,
    "fachada": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "pagamento",
    "say": "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
    "encena": {
@@ -469,6 +567,24 @@
      {
       "faz": "mostra",
       "na": "anunciou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/volcano",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -508,10 +624,6 @@
    "detalhe": false,
    "interior": false,
    "objetos": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Dinheiro tirado de vulcão. E ninguém te conta isso.",
    "encena": {
@@ -520,6 +632,29 @@
      {
       "faz": "mostra",
       "na": "vulcão"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/volcano",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -569,5 +704,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um presidente fabricou dinheiro digital com a energia de um vulcao e isso parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 3
 }
