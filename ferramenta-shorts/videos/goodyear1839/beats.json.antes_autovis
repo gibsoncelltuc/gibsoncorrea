@@ -89,7 +89,8 @@
      {
       "faz": "cai",
       "na": "cair",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
@@ -444,7 +445,8 @@
      {
       "faz": "fala",
       "na": "copiaram",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
@@ -550,23 +552,15 @@
   {
    "shot": "two",
    "who": [
-    "GOO:0:smile"
+    "POV:0:smile",
+    "POV:0:grin"
    ],
    "props": [
     [
      "kit/tires",
-     3.6,
-     -2.0,
+     0.0,
+     -0.6,
      2.0,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/borracha",
-     0.6,
-     1.0,
-     1.5,
      {
       "fixo": true
      }
@@ -574,7 +568,7 @@
    ],
    "text": "GOODYEAR",
    "say": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
-   "detalhe": true,
+   "detalhe": false,
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -585,29 +579,24 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 0.5,
-   "cz": 0.6,
-   "d0": 7.6,
-   "d1": 7.2,
+   "cx": 0.0,
+   "cz": -0.2,
+   "d0": 8.0,
+   "d1": 7.6,
    "quadro_manual": true,
    "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tires juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/borracha",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/tires",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "interior": "galpao"
   }
  ],
  "visual": {

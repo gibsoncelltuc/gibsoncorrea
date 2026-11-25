@@ -8,7 +8,7 @@
   "luz_base": "day",
   "cenarios": [
    "hall",
-   "interior loja",
+   "interior galpao",
    "interior madeira",
    "interior pedra",
    "loc_estudio",
@@ -33,7 +33,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
   "kit/bola_couro",
   "kit/borracha",
   "kit/enxofre",
@@ -41,8 +40,8 @@
   "kit/gosma",
   "kit/panela",
   "kit/room_azul_stone",
-  "kit/room_colonial_shop",
   "kit/room_europa_wood",
+  "kit/room_galpao",
   "kit/room_rosa_wood",
   "kit/room_verde_wood",
   "kit/stove",
@@ -57,6 +56,7 @@
   "mk/CandleStick_Triple",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Metal",
   "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
   "mk/Shelf_Arch",
@@ -65,6 +65,7 @@
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Vase_4",
+  "mk/Workbench",
   "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {

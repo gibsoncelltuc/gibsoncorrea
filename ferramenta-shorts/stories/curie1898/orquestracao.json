@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRO"
    ],
@@ -88,8 +88,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MAR",
-    "PIE"
+    "MAR"
    ],
    "multidao": 0,
    "objetos": [
@@ -183,8 +182,7 @@
   {
    "camera": "two",
    "personagens": [
-    "PES",
-    "JOR"
+    "PES"
    ],
    "multidao": 0,
    "objetos": [

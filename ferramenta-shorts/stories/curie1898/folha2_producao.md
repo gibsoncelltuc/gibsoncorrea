@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Existem cadernos tão perigosos que só podem ser lidos com roupa de pro...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
@@ -44,10 +44,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Mexendo em toneladas de minério, eles descobriram dois elementos novos...
 - Cenario: interior galpao | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
-- Personagens principais (2): MAR (variante 0, expressao grin); PIE (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (1): MAR (variante 0, expressao grin)
+- Animacao: conversar
 - Objetos/modelos: kit/pechblenda, kit/curie_box
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): minerio, polonio, radio
 - RISCOS: nenhum
@@ -67,7 +67,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): MAR (variante 0, expressao nervous, segura paper); PIE (variante 0, expressao worried)
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: reagir | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolso, perigo
 - RISCOS: nenhum
@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PES (variante 0, expressao suspicious); JOR (variante 0, expressao nervous)
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): PES (variante 0, expressao suspicious)
+- Animacao: conversar
 - Objetos/modelos: kit/curie_box, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cadernos, chumbo
 - RISCOS: nenhum
@@ -144,8 +144,8 @@ crate | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 25% | medio 68% | aberto 5% | detalhe 2%
-- Interacoes: b2 vai ate o outro, b3 aproxima-se, b4 avanca e o outro recua, b6 o outro se aproxima, b9 susto
+- Objeto heroi: kit/curie_box | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 25% | medio 66% | aberto 5% | detalhe 4%
+- Interacoes: b2 vai ate o outro, b3 aproxima-se, b6 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30, ding@50
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: cai (throw) @4 -> acao + som de efeito
 - Efeito visual marcado: puff@30, stars@50
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -36,6 +36,7 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 whoosh(F(_A[11]), 0.4, 0.35)
 ding(F(int(_W(155) - 2)), 0.5, 1319)
 gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.2)), 4, 260, 0.12); gibber(F(_A[11] + int((_A[12] - _A[11]) * 0.58)), 4, 185, 0.12)
+thump(F(int(_W(4))))
 whoosh(F(int(_W(35))))
 hud(F(int(_W(35))))
 hud(F(int(_W(39))))

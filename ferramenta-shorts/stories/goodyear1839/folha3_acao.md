@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -12,7 +12,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | cair (1.5s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b1 - 6.4s a 8.8s - 10 palavras - plano wide
 > "Era mil oitocentos e trinta e nove, nos Estados Unidos."
@@ -102,9 +103,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (48.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | copiaram (46.4s) | ACAO: fala | aponta explicando | OK |
+| 2 | morreu (48.3s) | EFEITO: puff | fumaca + som | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b9 - 50.1s a 54.2s - 14 palavras - plano orbit
 > "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."
@@ -127,8 +129,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (56.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | GOODYEAR | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | GOODYEAR | OK |
 
 ## Cena b11 - 60.1s a 63.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"

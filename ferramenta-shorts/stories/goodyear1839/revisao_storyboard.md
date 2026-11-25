@@ -1,14 +1,14 @@
-# Revisao do storyboard - goodyear1839 (25/11, olhando o storyboard inteiro)
-pesquisa: Charles Goodyear, Massachusetts (EUA), 1839; borracha que derretia; prisao por dividas; mistura com enxofre caiu no fogao e nao derreteu (vulcanizacao); morreu com dividas; empresa Goodyear (1898)
-b0: OK - "deixou cair uma gosma no fogao da cozinha" fogao entre os dois, gosma caindo, 1839
-b1: OK - "Era 1839, nos Estados Unidos" mapa ESTADOS UNIDOS, cidade de tijolo
-b2: OK - "A borracha estava na moda, mas derretia" povo na rua
-b3: OK - "gastou todo o dinheiro da familia em experiencias" frascos de laboratorio
-b4: OK - "foi parar na prisao" guarda e Goodyear
-b5: OK - "mexendo numa mistura de borracha com enxofre" fogao e panela
-b6: OK - "A gosma caiu em cima do fogao quente" fogao e gosma
-b7: OK - "Acontece que nao derreteu" Goodyear surpreso, camera baixa
-b8: OK - "outros copiaram a ideia" outros no patio
-b9: OK - "pneus, bolas e sapatos" PNEUS, povo e bola
-b10: OK - "Uma fabrica de pneus ganhou o nome dele" placa GOODYEAR com pneus
-defeitos procurados: cenario (EUA 1839 sem vila espanhola), epoca (cartola, nada moderno), tamanho (fogao proporcional), cortado (ninguem), multidao (so onde fala de gente), legenda (texto no alto), acao (gosma caindo, surpresa), objeto (fogao e pneus visiveis)
+# Revisao do storyboard - goodyear1839 (25/11, olhado quadro a quadro, 4a versao)
+b0: OK - inventor falido na cozinha deixou cair a gosma no fogao de ferro, fogao e gosma visiveis, ninguem cortado, sem data no gancho
+b1: OK - mapa dos Estados Unidos e vila americana de mil oitocentos e trinta e nove
+b2: OK - explicacao: borracha com DERRETE NO CALOR e RACHA NO FRIO (botas e capas viravam meleca no verao)
+b3: OK - Charles Goodyear obcecado com a esposa, frasco e tubos das experiencias na cozinha de casa, dinheiro da familia
+b4: OK - dividas e prisao: guarda de farda e Goodyear triste na cela
+b5: OK - mexendo na mistura de borracha com enxofre perto do fogao, ele se atrapalhou
+b6: OK - a gosma caiu em cima do fogao quente, ele esperava que derretesse
+b7: OK - nao derreteu, ficou firme e elastica como couro: borracha vulcanizada, ele comemora ao lado do fogao
+b8: OK - outros copiaram a ideia na rua e ele morreu cheio de dividas
+b9: OK - decadas depois: povo com pneus e bola de couro, PNEUS na tela (pneus, bolas e sapatos do mundo inteiro)
+b10: OK - fabrica de pneus com operarios, pilha de pneus e placa GOODYEAR (ganhou o nome dele, ele nunca soube)
+pesquisa: comparativo modelo x referencia conferido (referencias/goodyear1839/comparativo_ok.md): bola de couro do seculo 19 modelada, fogao de ferro, gosma, borracha
+defeitos procurados: cenario (cozinha, prisao, rua, fabrica) OK; epoca (bola de couro, sem objeto moderno) OK; tamanho (fogao e gosma em escala) OK; cortado (ninguem cortado) OK; multidao (so na rua e no PNEUS) OK; legenda (rotulos e placas nao cobrem a legenda) OK; acao (cair, mexer, comemorar) OK; objeto (fogao, gosma, borracha, pneus visiveis quando citados) OK

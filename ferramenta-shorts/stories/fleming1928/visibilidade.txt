@@ -1,1 +1,3 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (28 tomadas)
+VISIBILIDADE: 2 FALHA(S)
+FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)

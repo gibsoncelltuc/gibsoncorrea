@@ -46,8 +46,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): DAR (variante 0, expressao surprised); GOU (variante 0, expressao shout)
-- Animacao: conversar | interacao: discutir
+- Personagens principais (1): DAR (variante 0, expressao surprised)
+- Animacao: conversar
 - Objetos/modelos: kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): especialista, especies
 - RISCOS: nenhum
@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): DAR (variante 0, expressao smile); GOU (variante 0, expressao grin)
-- Animacao: conversar | interacao: cochichar
+- Personagens principais (1): DAR (variante 0, expressao smile)
+- Animacao: conversar
 - Objetos/modelos: kit/finch_thick
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bichos, bico, filhos
 - RISCOS: nenhum
@@ -125,7 +125,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 
 ## Video inteiro
 - Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 11% | medio 69% | aberto 12% | detalhe 7%
-- Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 discutir, b5 avanca e o outro recua, b7 cochichar, b8 pular
+- Interacoes: b0 vai ate o outro, b2 aproxima-se, b5 avanca e o outro recua, b8 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

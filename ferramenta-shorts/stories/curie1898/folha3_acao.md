@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
+## Cena b0 - 0.2s a 3.7s - 13 palavras - plano group
 > "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção."
 
 - LEITURA DA FRASE: sentido FATO
@@ -53,15 +53,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) MAR mexe a mistura | na palavra "Mexendo" (19.0s)
-  2) PIE acao do motor: examina | na palavra "descobriram" (21.1s)
+  2) objeto acao do motor: examina | na palavra "descobriram" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Mexendo (19.0s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
 | 2 | descobriram (21.1s) | EFEITO: ring | onda + som | OK |
 | 3 | descobriram (21.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 25.0s a 28.4s - 13 palavras - plano close
 > "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
@@ -85,7 +84,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | carregava (29.7s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 34.0s a 37.5s - 13 palavras - plano orbit
@@ -123,8 +122,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 50.5s a 53.3s - 12 palavras - plano close
 > "Para ler, é preciso assinar um termo e usar roupa de proteção."

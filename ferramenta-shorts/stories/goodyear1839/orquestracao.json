@@ -210,11 +210,11 @@
   {
    "camera": "two",
    "personagens": [
-    "GOO"
+    "POV",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/borracha",
     "kit/tires"
    ],
    "palavras": 11,
@@ -224,7 +224,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior galpao"
   },
   {
    "camera": "close",
@@ -240,7 +240,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior galpao"
   }
  ]
 }

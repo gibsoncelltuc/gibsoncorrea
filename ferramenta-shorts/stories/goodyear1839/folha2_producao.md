@@ -103,17 +103,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.
-- Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): GOO (variante 0, expressao smile)
-- Animacao: conversar
-- Objetos/modelos: kit/tires, kit/borracha
+- Cenario: interior galpao | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 0, expressao grin)
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: kit/tires
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, pneus
 - RISCOS: nenhum
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: day | clima: limpo
+- Cenario: interior galpao | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): GOO (variante 0, expressao grin)
@@ -129,14 +129,14 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/stove | b0, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/gosma | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/borracha | b7, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/borracha | b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tires | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bola_couro | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 11% | medio 76% | aberto 11% | detalhe 2%
-- Interacoes: b3 avanca e o outro recua, b4 empurrar
+- Objeto heroi: kit/borracha | grandes momentos: b1, b9 | planos abertos: 3 | mistura: close 11% | medio 78% | aberto 11% | detalhe 0%
+- Interacoes: b3 avanca e o outro recua, b4 empurrar, b10 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

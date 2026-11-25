@@ -41,7 +41,7 @@
     "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/rampa_curva",
     "kit/telao_led",
@@ -101,7 +101,7 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
@@ -122,7 +122,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "ENA"
    ],

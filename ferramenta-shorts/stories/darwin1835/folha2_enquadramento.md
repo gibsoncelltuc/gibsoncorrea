@@ -29,9 +29,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
-- PERSONAGENS: DAR (cientista) na esquerda, expressao surprised; GOU (cientista) na direita, expressao shout; sem multidao; acao: discutir
-- OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)
+- PERSONAGENS: DAR (cientista) no centro, expressao surprised; sem multidao; acao: discutir
+- OBJETO kit/finch: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b5: "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
 - LOCAL: sala de madeira; hora: day
@@ -58,9 +58,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)
-- PERSONAGENS: DAR (cientista) na esquerda, expressao smile; GOU (cientista) na direita, expressao grin; sem multidao; acao: cochichar
-- OBJETO kit/finch_thick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)
+- PERSONAGENS: DAR (cientista) no centro, expressao smile; sem multidao; acao: cochichar
+- OBJETO kit/finch_thick: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b8: "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."
 - LOCAL: sala de madeira; hora: day
