@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | wide | -  | tropa, placa: ILHA VAZIA | encena: chega (point) @5 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
 b1 | crowd | -  | tropa, placa: OPERAÇÃO ILHA VAZIA | mortos (puff + som de baque) | -
 b2 | group | -  | tropa, mapa | - | -
-b3 | reveal | -  | - | chegaram (dust + som de impacto); encena: chega (point) @3 (acao + som de efeito) | -
+b3 | reveal | -  | tropa | chegaram (dust + som de impacto); encena: chega (point) @3 (acao + som de efeito) | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: BOMBARDEIO | - | -
 b5 | two | overcast  | interior, placa: ILHA VAZIA | - | -
 b6 | wide | overcast  | - | - | -
