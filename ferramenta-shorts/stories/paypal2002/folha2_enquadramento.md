@@ -2,24 +2,24 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares."
+## b0: "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
 - SOM: ding@6
-- TEXTO NA TELA: "US$ 1,5 BILHÃO" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "PAYPAL → FOGUETES" flutuando no alto, na palavra 1 da frase
 
-## b1: "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época."
-- LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao smile; EBY (comerciante) na direita, expressao neutral; sem multidao; acao: conversar
-- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/computador_2002: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
-- TEXTO NA TELA: "eBay" numa placa atras dos personagens, na palavra 1 da frase
+## b1: "E tudo começou com um jeito de mandar dinheiro por e-mail."
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 
-## b2: "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco."
+## b2: "O PayPal deixava mandar dinheiro só com um e-mail."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -27,27 +27,30 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/computador_2002: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - TEXTO NA TELA: "E-MAIL = DINHEIRO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b3: "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro."
+## b3: "Em 2002, o eBay comprou o PayPal."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: EBY (comerciante) na esquerda, expressao shock; MUS na direita, expressao smile; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
-## b4: "O pagamento foi em ações do eBay, não em dinheiro vivo."
-- LOCAL: sala de pedra (governo/castelo); hora: golden
+## b4: "Preço: um bilhão e meio de dólares, em ações."
+- LOCAL: sala de pedra (governo/castelo); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao smug; EBY (comerciante) na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
+- SOM: ding@6
+- TEXTO NA TELA: "US$ 1,5 BILHÃO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b5: "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente."
+## b5: "Elon Musk era o maior acionista. Ficou rico de repente."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao grin; POV na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ELON MUSK" numa placa atras dos personagens, na palavra 1 da frase
 
-## b6: "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes."
+## b6: "Acontece que, no mesmo ano, ele tinha fundado a SpaceX."
 - LOCAL: galpao; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
@@ -56,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@3
 - TEXTO NA TELA: "SPACEX" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho."
+## b7: "Dois anos depois, investiu na Tesla, de carros elétricos."
 - LOCAL: loc_pista; hora: dia
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -65,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@3
 - TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
 
-## b8: "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."
+## b8: "O dinheiro do PayPal ajudou a bancar foguetes e carros."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
@@ -73,9 +76,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 
-## b9: "Quem diria: um pagamento online chegou ao espaço."
-- LOCAL: loc_pista; hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.0 m de altura x 5.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+## b9: "Um pagamento online, literalmente, chegou ao espaço."
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
+- SOM: ding@6
 

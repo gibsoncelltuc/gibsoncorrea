@@ -7,7 +7,7 @@
    "item": "O Dia em que o PayPal Foi Vendido",
    "consultas": [
     "O Dia em que o PayPal Foi Vendido",
-    "Um Era PayPal Bay PayPal 2002"
+    "Ninguém SpaceX PayPal 2002"
    ]
   },
   {
@@ -109,6 +109,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "rocket",
+   "consultas": [
+    "rocket"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "carro da epoca",
    "consultas": [
@@ -122,14 +129,6 @@
    "consultas": [
     "rocket 2002",
     "rocket"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 2002",
-    "factory"
    ]
   }
  ]

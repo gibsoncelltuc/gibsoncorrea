@@ -1,138 +1,128 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.9s - 15 palavras - plano two
-> "Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares."
+## Cena b0 - 0.1s a 3.4s - 12 palavras - plano two
+> "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS acao do motor: negocio | na palavra "vendido" (2.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "foguetes" (1.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (1.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | vendido (2.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | US$ 1,5 BILHÃO | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PAYPAL → FOGUETES | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra pagar (1.0s): executa: estrelinhas + som
-- ACAO: negocio na palavra vendido (2.3s): executa: moeda girando (compra/venda)
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.1s a 9.2s - 17 palavras - plano two
-> "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época."
+## Cena b1 - 3.6s a 6.8s - 11 palavras - plano wide
+> "E tudo começou com um jeito de mandar dinheiro por e-mail."
 
-- LEITURA DA FRASE: sentido FATO
-  1) MUS acao do motor: negocio | na palavra "comprou" (6.3s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dinheiro" (6.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprou (6.3s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | comprou (6.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | eBay | OK |
+| 1 | dinheiro (6.3s) | EFEITO: stars | estrelinhas + som | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra comprou (6.3s): executa: estrelinhas + som
-- ACAO: negocio na palavra comprou (6.3s): executa: moeda girando (compra/venda)
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- EFEITO: stars na palavra dinheiro (6.3s): executa: estrelinhas + som
 <!-- /FISICA -->
 
-## Cena b2 - 10.5s a 14.4s - 15 palavras - plano group
-> "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco."
+## Cena b2 - 6.9s a 9.2s - 9 palavras - plano two
+> "O PayPal deixava mandar dinheiro só com um e-mail."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandar" (11.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandar" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dinheiro (12.2s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | dinheiro (8.0s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | E-MAIL = DINHEIRO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dinheiro (12.2s): executa: estrelinhas + som
+- EFEITO: stars na palavra dinheiro (8.0s): executa: estrelinhas + som
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 15.6s a 20.2s - 19 palavras - plano two
-> "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro."
+## Cena b3 - 10.5s a 12.2s - 7 palavras - plano two
+> "Em 2002, o eBay comprou o PayPal."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) EBY acao do motor: negocio | na palavra "compra" (19.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "comprou" (11.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | compra (19.4s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 1 | comprou (11.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | ESTADOS UNIDOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: negocio na palavra compra (19.4s): executa: moeda girando (compra/venda)
-- INTERACAO (a cena toda): executa: vai ate o outro
+- EFEITO: stars na palavra comprou (11.7s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b4 - 21.4s a 24.0s - 11 palavras - plano two
-> "O pagamento foi em ações do eBay, não em dinheiro vivo."
+## Cena b4 - 12.6s a 15.6s - 9 palavras - plano two
+> "Preço: um bilhão e meio de dólares, em ações."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ações" (22.5s)
+  1) MUS acao do motor: negocio | na palavra "bilhão" (12.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | US$ 1,5 BILHÃO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 15.8s a 17.8s - 10 palavras - plano two
+> "Elon Musk era o maior acionista. Ficou rico de repente."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rico" (17.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | ELON MUSK | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b5 - 25.2s a 29.0s - 14 palavras - plano two
-> "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rico" (28.5s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | ELON MUSK | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 30.2s a 34.6s - 14 palavras - plano two
-> "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes."
+## Cena b6 - 17.9s a 21.6s - 10 palavras - plano two
+> "Acontece que, no mesmo ano, ele tinha fundado a SpaceX."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fundado" (32.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fundado" (20.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -145,11 +135,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 35.8s a 41.3s - 17 palavras - plano orbit
-> "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho."
+## Cena b7 - 22.2s a 24.0s - 9 palavras - plano orbit
+> "Dois anos depois, investiu na Tesla, de carros elétricos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "investiu" (37.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "investiu" (22.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -162,51 +152,45 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 42.6s a 45.7s - 13 palavras - plano wide
-> "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros."
+## Cena b8 - 25.2s a 27.8s - 10 palavras - plano two
+> "O dinheiro do PayPal ajudou a bancar foguetes e carros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MUS acao do motor: negocio | na palavra "venda" (43.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bancar" (26.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | dinheiro (42.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | venda (43.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | dinheiro (25.5s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dinheiro (42.7s): executa: estrelinhas + som
-- ACAO: negocio na palavra venda (43.5s): executa: moeda girando (compra/venda)
-<!-- /FISICA -->
-
-## Cena b9 - 46.9s a 49.2s - 8 palavras - plano two
-> "Quem diria: um pagamento online chegou ao espaço."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (48.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | chegou (48.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (48.7s): executa: poeira + som
+- EFEITO: stars na palavra dinheiro (25.5s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 50.3s a 53.6s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+## Cena b9 - 28.1s a 31.3s - 7 palavras - plano two
+> "Um pagamento online, literalmente, chegou ao espaço."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "espaço" (31.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | chegou (30.2s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | INTERACAO | cochichar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | PAYPAL → FOGUETES | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra chegou (30.2s): executa: poeira + som
+- INTERACAO (a cena toda): executa: cochichar
 - ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

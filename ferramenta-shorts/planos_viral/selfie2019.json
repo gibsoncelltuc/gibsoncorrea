@@ -1,0 +1,80 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "SELFIE NA ONU",
+ "gancho_cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "selfie"
+  ],
+  [
+   9,
+   "promessa",
+   "E a foto chamou mais atenção que o discurso inteiro.",
+   "foto",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
+   "Assembleia"
+  ],
+  [
+   3,
+   "prova",
+   "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
+   "Bukele"
+  ],
+  [
+   4,
+   "escalada",
+   "No púlpito, ele pediu licença e pegou o celular.",
+   "pegou",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "pega",
+       "na": "pegou",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que virou de costas e fez uma selfie com o plenário.",
+   "selfie",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Depois avisou: a ONU pode desaparecer como a Kodak.",
+   "avisou",
+   {
+    "interior": "madeira"
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "A selfie rodou o mundo. O discurso ficou em segundo plano.",
+   "rodou"
+  ],
+  [
+   10,
+   "loop",
+   "Um segundo de selfie, e a ONU virou assunto.",
+   "assunto"
+  ]
+ ]
+}

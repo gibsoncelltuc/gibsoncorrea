@@ -25,12 +25,22 @@
     "loc_cidade"
    ],
    [
+    "cena 2",
+    "street",
+    "loc_cidade"
+   ],
+   [
     "cena 4",
     "street",
     "loc_cidade"
    ],
    [
     "cena 9",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 10",
     "street",
     "loc_cidade"
    ]
@@ -62,7 +72,6 @@
   "kit/coin",
   "kit/computador_2002",
   "kit/cone_transito",
-  "kit/falcon_air",
   "kit/palete",
   "kit/roadster2008",
   "kit/rocket",

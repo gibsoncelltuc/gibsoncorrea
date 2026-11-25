@@ -12,14 +12,15 @@
   {
    "camera": "two",
    "personagens": [
-    "GRE",
-    "BUL"
+    "GRE"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 16,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Outubro de mil novecentos e vinte e cinco, na fronteira entre a Grécia e a Bulgária.",
+   "frase": "Ninguém te conta: um cachorro fugido quase começou uma guerra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -27,31 +28,17 @@
    "cenario": "mountain"
   },
   {
-   "camera": "track",
+   "camera": "close",
    "personagens": [
     "GRE"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 21,
-   "cena": "b1",
-   "frase": "Conta a história que um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "track",
-   "personagens": [
-    "GRE"
+   "objetos": [
+    "kit/dog_sit"
    ],
-   "multidao": 0,
-   "objetos": [],
    "palavras": 10,
-   "cena": "b2",
-   "frase": "O soldado correu atrás do cachorro, e atravessou a fronteira.",
+   "cena": "b1",
+   "frase": "E até hoje ninguém sabe o que aconteceu com ele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,49 +46,16 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
+    "GRE",
     "BUL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b3",
-   "frase": "Uma sentinela búlgara viu o soldado, e atirou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "OFF"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b4",
-   "frase": "A Grécia ficou furiosa, e deu um ultimato.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "GRE",
-    "GRE",
-    "GRE"
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b5",
-   "frase": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1925, na fronteira entre a Grécia e a Bulgária.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -117,14 +71,102 @@
   {
    "camera": "two",
    "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Dizem que o cachorro de um soldado grego cruzou a fronteira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O soldado correu atrás e cruzou a fronteira também.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Uma sentinela búlgara viu o soldado e atirou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "OFF"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "A Grécia ficou furiosa e deu um ultimato.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "GRE",
+    "GRE",
+    "GRE"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Dias depois, o exército grego invadiu a Bulgária.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
     "BUL",
     "BUL"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "A Bulgária apelou para a Liga das Nações, o antecessor da ONU.",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "A Bulgária apelou para a Liga das Nações.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -139,9 +181,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b7",
-   "frase": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "A Grécia teve que recuar e pagar uma indenização.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -149,31 +191,17 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "GRE"
-   ],
-   "multidao": 32,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b8",
-   "frase": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "mountain"
-  },
-  {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "GRE"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b9",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 6,
+   "cena": "b10",
+   "frase": "Tudo por causa de um cachorro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

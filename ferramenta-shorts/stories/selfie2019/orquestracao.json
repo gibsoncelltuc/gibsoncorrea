@@ -8,17 +8,12 @@
    "loc_cidade"
   ],
   [
-   "cena 10",
+   "cena 3",
    "street",
    "loc_cidade"
   ],
   [
-   "cena 11",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 12",
+   "cena 8",
    "street",
    "loc_cidade"
   ]
@@ -41,28 +36,29 @@
     "kit/phone",
     "mk/BookStand"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atrás.",
-   "classe": "simples",
+   "frase": "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior pedra"
   },
   {
-   "camera": "reveal",
+   "camera": "crowd",
    "personagens": [
     "POV",
-    "POV"
+    "POV",
+    "REP"
    ],
-   "multidao": 12,
+   "multidao": 20,
    "objetos": [
     "kit/marco_onu"
    ],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil e dezenove.",
+   "frase": "E a foto chamou mais atenção que o discurso inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,19 +68,21 @@
   {
    "camera": "two",
    "personagens": [
-    "DIP",
-    "REP"
+    "POV",
+    "POV"
    ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 7,
+   "multidao": 12,
+   "objetos": [
+    "kit/marco_onu"
+   ],
+   "palavras": 11,
    "cena": "b2",
-   "frase": "Ali, líderes fazem discursos longos e sérios.",
+   "frase": "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -94,9 +92,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b3",
-   "frase": "O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.",
+   "frase": "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -113,9 +111,9 @@
     "kit/phone",
     "mk/BookStand"
    ],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Acontece que, no púlpito, ele pediu licença por um momento e tirou o celular do bolso.",
+   "frase": "No púlpito, ele pediu licença e pegou o celular.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -133,9 +131,9 @@
     "kit/phone",
     "mk/BookStand"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "Virou de costas para o plenário e tirou a selfie com todos atrás.",
+   "frase": "Acontece que virou de costas e fez uma selfie com o plenário.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -149,51 +147,15 @@
     "DIP"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/phone"
-   ],
-   "palavras": 13,
+   "objetos": [],
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Depois explicou: o mundo novo está onde essa foto vai parar, na internet.",
+   "frase": "Depois avisou: a ONU pode desaparecer como a Kodak.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "BUK",
-    "DIP"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b7",
-   "frase": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "REP",
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Propôs que líderes gravassem vídeos de seus discursos, e um concurso de ideias para jovens.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
   },
   {
    "camera": "orbit",
@@ -207,9 +169,9 @@
     "kit/marco_onu",
     "kit/phone"
    ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "A selfie rodou o mundo, e o discurso ficou em segundo plano.",
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "A selfie rodou o mundo. O discurso ficou em segundo plano.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -223,39 +185,23 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
-    "BUK"
+    "BUK",
+    "DIP"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
-    "kit/marco_onu",
-    "kit/phone"
+    "mk/BookStand"
    ],
    "palavras": 9,
-   "cena": "b10",
+   "cena": "b8",
    "frase": "Um segundo de selfie, e a ONU virou assunto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   }
  ]
 }

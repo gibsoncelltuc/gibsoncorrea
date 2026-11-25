@@ -55,52 +55,15 @@
      }
     ]
    ],
-   "text": "US$ 1,5 BILHÃO",
    "fx": [
     "stars@12"
    ],
    "sfx": [
     "ding@6"
    ],
-   "say": "Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares.",
    "fachada": false,
    "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/coin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_susp_tela": true,
-   "_susp_ok": true,
    "tela": false,
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "vendido",
-      "quem": 0
-     }
-    ]
-   },
-   "hud": {
-    "contador": {
-     "de": 0,
-     "para": 1.5,
-     "un": " bi US$",
-     "titulo": "PREÇO DO PAYPAL",
-     "na": "bilhão",
-     "dur": 1.2
-    }
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 13.0,
@@ -108,352 +71,20 @@
    "hora": "dia",
    "light": "day",
    "quadro_manual": true,
-   "h": 1.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:smile",
-    "EBY:0:neutral"
-   ],
-   "acao": "conversar",
-   "say": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
-   "fachada": false,
-   "interior": "madeira",
-   "props": [
-    [
-     "kit/bancada",
-     0.0,
-     -1.2,
-     1.3,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/computador_2002",
-     0.0,
-     -1.2,
-     1.5,
-     {
-      "fixo": true,
-      "y": 1.22
-     }
-    ]
-   ],
-   "text": "eBay",
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "comprou",
-      "quem": 0
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "POV:0:smile",
-    "POV:1:grin"
-   ],
-   "say": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
-   "fachada": false,
-   "props": [
-    [
-     "kit/bancada",
-     0.0,
-     0.9,
-     1.3,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/computador_2002",
-     0.0,
-     0.9,
-     1.5,
-     {
-      "fixo": true,
-      "y": 1.22
-     }
-    ]
-   ],
-   "text": "E-MAIL = DINHEIRO",
-   "interior": "madeira",
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/computador_2002",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "h": 1.5,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "mandar"
+      "na": "foguetes"
      }
     ]
    },
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.3,
-   "h": 1.6,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "objetos": false
-  },
-  {
-   "shot": "two",
-   "who": [
-    "EBY:0:shock",
-    "MUS:0:smile"
-   ],
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 6,
-   "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
-   "fachada": false,
-   "set": "street",
-   "acao": "conversar",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "compra",
-      "quem": 0
-     }
-    ]
-   },
-   "hora": "dia",
-   "light": "day"
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:smug",
-    "EBY:0:smile"
-   ],
-   "props": [
-    [
-     "kit/coin",
-     0.0,
-     -1.2,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "O pagamento foi em ações do eBay, não em dinheiro vivo.",
-   "fachada": false,
-   "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/coin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "ações"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:grin",
-    "POV:0:smile"
-   ],
-   "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
-   "fachada": false,
-   "interior": "madeira",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "rico"
-     }
-    ]
-   },
-   "text": "ELON MUSK",
-   "tat": 0
-  },
-  {
-   "shot": "two",
-   "who": [
-    "MUS:0:laugh"
-   ],
-   "props": [
-    [
-     "kit/rocket",
-     0.0,
-     -3.0,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "text": "SPACEX",
-   "fx": [
-    "stars@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ],
-   "say": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "objetos": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "galpao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/rocket",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "fundado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -1.5,
-   "h": 1.8,
-   "d0": 11.0,
-   "d1": 10.5,
-   "interior": "galpao",
-   "quadro_manual": true
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "MUS:0:grin"
-   ],
-   "props": [
-    [
-     "kit/roadster2008",
-     1.2,
-     -5.0,
-     2.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "text": "TESLA",
-   "fx": [
-    "stars@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ],
-   "say": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
-   "fachada": false,
-   "set": "loc_pista",
-   "crowd": {
-    "n": 0
-   },
-   "objetos": false,
-   "detalhe": false,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster2008",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "investiu"
-     }
-    ]
-   },
-   "hora": "dia",
-   "light": "day",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.0,
-   "d0": 13.0,
-   "d1": 12.5,
-   "_auto_vis": 1,
-   "quadro_manual": true
+   "text": "PAYPAL → FOGUETES",
+   "titulo": true
   },
   {
    "shot": "wide",
@@ -490,111 +121,386 @@
      }
     ]
    ],
-   "say": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
    "fachada": false,
    "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/coin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rocket",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/roadster2008",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "objetos": false,
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "_enq_shot": "wide",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "venda",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "d0": 14.0,
    "d1": 13.0,
-   "_auto_vis": 3,
    "detalhe": true,
    "quadro_manual": true,
    "h": 2.4,
    "hora": "dia",
-   "light": "day"
+   "light": "day",
+   "bloco": "promessa",
+   "say": "E tudo começou com um jeito de mandar dinheiro por e-mail.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dinheiro"
+     }
+    ]
+   }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "MUS:0:smug"
+    "POV:0:smile",
+    "POV:1:grin"
    ],
-   "say": "Quem diria: um pagamento online chegou ao espaço.",
    "fachada": false,
-   "set": "loc_pista",
    "props": [
     [
-     "kit/falcon_air",
+     "kit/bancada",
      0.0,
-     -10.1,
+     0.9,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/computador_2002",
+     0.0,
+     0.9,
      1.5,
+     {
+      "fixo": true,
+      "y": 1.22
+     }
+    ]
+   ],
+   "text": "E-MAIL = DINHEIRO",
+   "interior": "madeira",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.3,
+   "h": 1.6,
+   "d0": 10.5,
+   "d1": 10.0,
+   "objetos": false,
+   "bloco": "prova",
+   "say": "O PayPal deixava mandar dinheiro só com um e-mail.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "EBY:0:shock",
+    "MUS:0:smile"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 6,
+   "fachada": false,
+   "set": "street",
+   "acao": "conversar",
+   "hora": "dia",
+   "light": "day",
+   "bloco": "prova",
+   "say": "Em 2002, o eBay comprou o PayPal.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comprou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:surprised",
+    "EBY:0:grin"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0.0,
+     -0.6,
+     1.3,
      {
       "fixo": true
      }
     ]
    ],
+   "text": "US$ 1,5 BILHÃO",
+   "fx": [
+    "stars@12"
+   ],
+   "sfx": [
+    "ding@6"
+   ],
+   "fachada": false,
    "tela": false,
-   "crowd": {
-    "n": 0
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 1.5,
+     "un": " bi US$",
+     "titulo": "PREÇO DO PAYPAL",
+     "na": "bilhão",
+     "dur": 1.2
+    }
    },
-   "_enq_shot": "wide",
-   "detalhe": false,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
-    "objetos": [
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 13.0,
+   "d1": 12.5,
+   "hora": "dia",
+   "light": "day",
+   "quadro_manual": true,
+   "h": 1.5,
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Preço: um bilhão e meio de dólares, em ações.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/falcon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "negocio",
+      "na": "bilhão",
+      "quem": 0
      }
     ]
-   },
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "POV:0:smile"
+   ],
+   "fachada": false,
+   "interior": "madeira",
+   "text": "ELON MUSK",
+   "tat": 0,
+   "bloco": "escalada",
+   "say": "Elon Musk era o maior acionista. Ficou rico de repente.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "chegou"
+      "na": "rico"
      }
     ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/rocket",
+     0.0,
+     -3.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "SPACEX",
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
    },
+   "objetos": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -1.5,
+   "h": 1.8,
+   "d0": 11.0,
+   "d1": 10.5,
+   "interior": "galpao",
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fundado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/roadster2008",
+     1.2,
+     -5.0,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "TESLA",
+   "fx": [
+    "stars@3"
+   ],
+   "sfx": [
+    "ding@3"
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "objetos": false,
+   "detalhe": false,
    "hora": "dia",
    "light": "day",
    "cx": 0.0,
    "cz": -2.0,
-   "h": 2.8,
-   "d0": 21.0,
-   "d1": 20.0
+   "h": 2.0,
+   "d0": 13.0,
+   "d1": 12.5,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Dois anos depois, investiu na Tesla, de carros elétricos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "investiu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:laugh",
+    "POV:0:smile"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0.6,
+     -0.4,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rocket",
+     -3.4,
+     -4.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/roadster2008",
+     4.2,
+     -5.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "set": "street",
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "d0": 14.0,
+   "d1": 13.0,
+   "detalhe": true,
+   "quadro_manual": true,
+   "h": 2.4,
+   "hora": "dia",
+   "light": "day",
+   "bloco": "pagamento",
+   "say": "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bancar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:surprised",
+    "EBY:0:grin"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0.0,
+     -0.6,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@12"
+   ],
+   "sfx": [
+    "ding@6"
+   ],
+   "fachada": false,
+   "set": "street",
+   "tela": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 13.0,
+   "d1": 12.5,
+   "hora": "dia",
+   "light": "day",
+   "quadro_manual": true,
+   "h": 1.5,
+   "bloco": "loop",
+   "say": "Um pagamento online, literalmente, chegou ao espaço.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "espaço"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
@@ -645,5 +551,7 @@
  },
  "regiao": "eua",
  "min_momentos": 1,
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro ajudou a bancar SpaceX e Tesla.",
+ "loop_frase_ok": true
 }
