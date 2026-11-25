@@ -74,15 +74,34 @@
     "SUL:0:stern",
     "GUA:0:stern"
    ],
-   "text": "MENOS DE 1 HORA",
-   "say": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
+   "text": "38 MINUTOS",
    "tat": 6,
+   "bloco": "gancho",
+   "say": "A guerra mais curta da história durou menos de uma hora.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "guerra"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ALM:0:grin"
+   ],
+   "bloco": "promessa",
+   "say": "E os derrotados ainda pagaram a conta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conta"
      }
     ]
    }
@@ -95,7 +114,8 @@
    ],
    "mapa": "ZANZIBAR",
    "mapa_at": 3,
-   "say": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa.",
+   "bloco": "prova",
+   "say": "Em 1896, em Zanzibar, uma ilha africana, o sultão morreu.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -113,8 +133,6 @@
     "GUA:0:stern"
    ],
    "interior": "pedra",
-   "say": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
-   "riscos_ok": true,
    "acao": "conversar",
    "batalha": false,
    "tiros": false,
@@ -129,29 +147,18 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/throne",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
+   "bloco": "prova",
+   "say": "Um primo ocupou o palácio sem pedir licença aos ingleses.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "ocupou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "ocupou"
      }
     ]
    }
@@ -161,7 +168,6 @@
    "who": [
     "ALM:0:stern:paper"
    ],
-   "say": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
    "props": [
     [
      "kit/navio_vapor",
@@ -178,31 +184,19 @@
     "n": 0
    },
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/navio_vapor",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
    "d1": 20.0,
+   "bloco": "prova",
+   "say": "Os ingleses deram até as nove da manhã para ele sair.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "ultimato",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "deram"
      }
     ]
    }
@@ -223,15 +217,16 @@
    },
    "text": "2.800",
    "titulo": true,
-   "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.",
    "batalha": false,
    "tiros": false,
+   "bloco": "escalada",
+   "say": "Ele juntou quase três mil homens e se trancou lá dentro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "reuniu",
+      "na": "trancou",
       "quem": 0
      }
     ]
@@ -240,7 +235,6 @@
   {
    "text": "9:02",
    "titulo": true,
-   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
    "sfx": [
     "cannon@30",
     "cannon@50"
@@ -293,8 +287,9 @@
    "h": 5.0,
    "d0": 30.0,
    "d1": 28.0,
-   "riscos_ok": true,
    "tiros": true,
+   "bloco": "escalada",
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -306,7 +301,6 @@
    }
   },
   {
-   "say": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
    "sfx": [
     "cannon@20",
     "thump@60"
@@ -338,36 +332,14 @@
      }
     ]
    },
+   "bloco": "escalada",
+   "say": "O palácio pegou fogo, e o primo fugiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "fogo"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "SUL:0:scared"
-   ],
-   "say": "O sultão foi pedir abrigo no consulado da Alemanha.",
-   "interior": "madeira",
-   "crowd": {
-    "n": 0
-   },
-   "batalha": false,
-   "tiros": false,
-   "text": "CONSULADO ALEMÃO",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "pedir",
-      "quem": 0
      }
     ]
    }
@@ -385,12 +357,8 @@
     "thump@40"
    ],
    "text": "9:40",
-   "say": "Por volta das nove e quarenta, a bandeira do palácio caiu.",
    "batalha": false,
    "tiros": false,
-   "verbos_ok": [
-    "caiu"
-   ],
    "props": [
     [
      "kit/forte_colonial",
@@ -402,6 +370,8 @@
      }
     ]
    ],
+   "bloco": "pagamento",
+   "say": "Por volta das nove e quarenta, a bandeira caiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -415,78 +385,25 @@
   {
    "shot": "two",
    "who": [
-    "SUL:0:smile",
-    "ING2:0:grin"
+    "SUL:0:stern",
+    "GUA:0:stern"
    ],
-   "say": "Os ingleses colocaram outro sultão no trono.",
-   "text": "OUTRO SULTÃO",
-   "titulo": true,
-   "batalha": false,
-   "tiros": false,
-   "interior": "pedra",
-   "crowd": {
-    "n": 0
-   },
-   "props": [
-    [
-     "kit/throne",
-     0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/throne",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
+   "text": "MENOS DE 1 HORA",
+   "tat": 6,
+   "bloco": "loop",
+   "say": "E os ingleses mandaram a conta das balas para os derrotados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_entrega",
-      "na": "colocaram",
-      "quem": 1,
-      "alvo_quem": 0,
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "shot": "close",
-   "who": [
-    "ALM:0:grin"
-   ],
-   "say": "E ainda mandaram a conta das balas para os derrotados.",
-   "encena": {
-    "sentido": "figurada",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "mandaram",
-      "quem": 0
+      "faz": "mostra",
+      "na": "conta"
      }
     ]
    }
   }
  ],
  "exp": 0.9,
- "duracao_ok": true,
  "fontes": [
   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
  ],
@@ -541,6 +458,8 @@
    "navio da epoca": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)"
   }
  },
- "max_wide": 4,
- "heroi": "kit/navio_vapor"
+ "heroi": "kit/navio_vapor",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de uma hora e os derrotados ainda pagaram a conta. Pagamento: ultimato, fogo as 9h02, bandeira caida perto das 9h40, novo sultao e a conta das balas.",
+ "loop_frase_ok": true
 }

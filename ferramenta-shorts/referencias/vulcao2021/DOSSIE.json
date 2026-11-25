@@ -7,15 +7,15 @@
   "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
+   "countryside",
    "interior loja",
    "jungle",
    "loc_cidade",
-   "loc_estudio",
-   "loc_pista"
+   "loc_estudio"
   ],
   "cenarios_trocados": [
    [
-    "cena 10",
+    "cena 9",
     "street",
     "loc_cidade"
    ]

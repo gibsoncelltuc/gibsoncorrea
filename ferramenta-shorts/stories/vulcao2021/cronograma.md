@@ -1,23 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Gerado em 24/11 23:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:08 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | jungle | two | BUK, ENG | - | bitcoin, volcano | - | O presidente de El Salvador resolveu fabricar dinheiro digital com a e
-b1 | transicao | jungle | wide | POV | - | volcano | - | El Salvador é um país pequeno da América Central, cheio de vulcões.
-b2 | chave | loc_pista | wide | BUK, ENA | - | bitcoin, coin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em dois mil e vinte e um, Bukele fez do bitcoin uma moeda oficial, ao 
-b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Só que, para criar bitcoins novos, computadores fazem contas sem parar
-b4 | simples | jungle | wide | BUK | - | volcano | - | Então ele mandou a empresa de energia do governo usar o calor do vulcã
-b5 | explicativa | loc_estudio | two | sem personagem | - | turbina, volcano | corpo: kit/turbina (gira); emissao: vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entra | O vapor quente que sai de dentro da terra gira turbinas, e vira eletri
-b6 | simples | interior loja | two | ENG, ENA | - | bitcoin, miners | - | Acontece que, ao lado da usina, instalaram computadores só para minera
-b7 | chave | loc_pista | orbit | BUK | - | bitcoin | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em outubro saiu o primeiro: um pedacinho de bitcoin que valia uns duze
-b8 | simples | loc_pista | two | ENA, ENG | - | bitcoin, volcano | - | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
-b9 | simples | loc_cidade | wide | POV | - | apartment, house_two, bitcoin, volcano, lamppost | - | E ele ainda anunciou o plano de uma Cidade Bitcoin, construída aos pés
-b10 | simples | loc_pista | two | BUK | - | bitcoin, volcano | - | Dinheiro tirado de vulcão. Parece ficção, mas aconteceu de verdade.
-b11 | simples | jungle | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | jungle | two | BUK, ENG | - | bitcoin, volcano | - | Ninguém te conta: um país fabrica dinheiro digital com um vulcão.
+b1 | simples | countryside | two | BUK | - | bitcoin | - | Parece ficção. Mas aconteceu de verdade.
+b2 | chave | jungle | wide | BUK, ENA | - | bitcoin, coin, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.
+b3 | simples | interior loja | two | ENG, BUK | - | bitcoin, miners | - | Criar bitcoin novo exige computadores fazendo contas sem parar.
+b4 | transicao | countryside | wide | BUK | - | volcano | - | Para isso, ele usou o calor do vulcão Tecapa.
+b5 | explicativa | loc_estudio | two | sem personagem | - | turbina, volcano | corpo: kit/turbina (gira); emissao: vapor; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada entra | O vapor da terra gira turbinas e vira eletricidade.
+b6 | simples | interior loja | two | ENG, ENA | - | miners | - | Acontece que, ao lado da usina, instalaram computadores só para isso.
+b7 | chave | countryside | orbit | ENA, ENG | - | bitcoin, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Anos depois, o governo contava quase quinhentos bitcoins feitos com o 
+b8 | transicao | loc_cidade | wide | POV | - | apartment, house_two, bitcoin, volcano, lamppost | - | E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.
+b9 | simples | jungle | two | BUK, ENG | - | bitcoin, volcano | - | Dinheiro tirado de vulcão. E ninguém te conta isso.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

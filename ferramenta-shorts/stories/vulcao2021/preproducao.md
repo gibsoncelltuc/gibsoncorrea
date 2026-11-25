@@ -4,22 +4,20 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | jungle | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bitcoin, kit/volcano | - | -
-b1 | jungle | wide | 1 | parados (so fala e pisca) | kit/volcano | - | -
-b2 | loc_pista | wide | 2 | conversar, batalha | kit/bitcoin, kit/coin | - | -
+b0 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/bitcoin, kit/volcano | - | -
+b1 | countryside | two | 1 | comemorar | kit/bitcoin | - | -
+b2 | jungle | wide | 2 | conversar, batalha | kit/bitcoin, kit/volcano, kit/coin | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/miners, kit/bitcoin | paper | -
-b4 | jungle | wide | 1 | encena | kit/volcano | - | -
+b4 | countryside | wide | 1 | parados (so fala e pisca) | kit/volcano | - | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/volcano, kit/turbina | - | -
-b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/miners, kit/bitcoin | - | -
-b7 | loc_pista | orbit | 1 | comemorar, batalha | kit/bitcoin | - | -
-b8 | loc_pista | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/bitcoin, kit/volcano | paper | -
-b9 | loc_cidade | wide | 1 | encena | kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost | - | -
-b10 | loc_pista | two | 1 | comemorar | kit/bitcoin, kit/volcano | - | -
-b11 | jungle | close | 1 | conversar | - | - | -
+b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/miners | - | -
+b7 | countryside | orbit | 2 | conversar, batalha | kit/bitcoin, kit/volcano | paper | -
+b8 | loc_cidade | wide | 1 | parados (so fala e pisca) | kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b9 | jungle | two | 2 | conversar, INTERAGEM: susto | kit/bitcoin, kit/volcano | - | -
 
 OBJETO HEROI: kit/bitcoin
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b7
-Interacoes entre personagens: b0 o outro se aproxima, b3 discutir, b6 insiste, b8 vai ate o outro
+Interacoes entre personagens: b0 entregar, b3 discutir, b6 o outro se aproxima, b9 susto
 
-Cenas com personagens parados: 2 de 12
+Cenas com personagens parados: 3 de 10
 FALTA MODELAR: nada

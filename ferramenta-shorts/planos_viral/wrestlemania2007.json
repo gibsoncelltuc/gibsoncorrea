@@ -1,0 +1,82 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "BATALHA DOS BILIONÁRIOS",
+ "gancho_cumprido": "Gancho: Trump raspou a cabeca de outro bilionario num ringue e tambem acabou no chao. Pagamento: a aposta dos lutadores, a vitoria de Lashley, a cabeca raspada de McMahon e Trump derrubado pelo juiz.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.",
+   "raspou",
+   {
+    "text": null
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E no fim, ele mesmo acabou no chão.",
+   "chão"
+  ],
+  [
+   1,
+   "prova",
+   "Foi em 2007, no maior show de luta livre do mundo.",
+   "show"
+  ],
+  [
+   3,
+   "prova",
+   "Cada um escolheu um lutador. A aposta valia uma cabeça raspada.",
+   "aposta"
+  ],
+  [
+   4,
+   "prova",
+   "Mais de oitenta mil pessoas lotaram o estádio.",
+   "lotaram"
+  ],
+  [
+   5,
+   "escalada",
+   "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.",
+   "enfrentou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Acontece que o lutador de Trump venceu, e o estádio foi abaixo.",
+   "venceu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Trump e Lashley rasparam a cabeça de Vince McMahon.",
+   "rasparam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "E o juiz derrubou Trump também.",
+   "derrubou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "loop",
+   "Depois, Trump entrou para o Hall da Fama da luta livre.",
+   "Hall"
+  ]
+ ]
+}

@@ -8,12 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 3",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 5",
+   "cena 4",
    "street",
    "loc_cidade"
   ],
@@ -28,7 +23,7 @@
    "loc_cidade"
   ],
   [
-   "cena 10",
+   "cena 9",
    "street",
    "loc_cidade"
   ]
@@ -47,15 +42,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/house_two",
     "kit/marco_goldengate",
-    "kit/phone",
-    "nature/bench",
-    "nature/lamppost"
+    "kit/phone"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura.",
+   "frase": "Trocar de nome é fácil? Esta placa nova virou caso de investigação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,14 +57,32 @@
   {
    "camera": "two",
    "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E tudo por causa de uma letra só.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
     "MUS",
     "OPE"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 2023, Elon Musk trocou o nome do Twitter para X.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -90,9 +100,9 @@
    "objetos": [
     "kit/finch"
    ],
-   "palavras": 12,
-   "cena": "b2",
-   "frase": "Os operários começaram a tirar as letras e o passarinho da fachada.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Operários começaram a tirar as letras e o passarinho da fachada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -113,9 +123,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
-   "cena": "b3",
-   "frase": "Mas o trabalho parou no meio, porque faltavam licenças.",
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "O trabalho parou no meio, porque faltavam licenças.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -124,22 +134,6 @@
   },
   {
    "camera": "wide",
-   "personagens": [
-    "OPE2"
-   ],
-   "multidao": 6,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b4",
-   "frase": "Sobraram só as letras E e R, em cinza, na fachada.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "crowd",
    "personagens": [
     "MUS"
    ],
@@ -150,9 +144,9 @@
     "kit/marco_goldengate",
     "nature/lamppost"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Acontece que depois instalaram um X gigante piscando no alto do prédio.",
+   "frase": "Acontece que instalaram um X gigante piscando no alto do prédio.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -177,9 +171,9 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.",
+   "frase": "A luz entrava nas janelas dos vizinhos de madrugada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,9 +188,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão.",
+   "frase": "Vieram vinte e quatro reclamações num fim de semana.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -204,33 +198,20 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "FIS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "A empresa disse que era uma placa temporária para um evento.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "FIS",
     "OPE"
    ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
-   "cena": "b9",
-   "frase": "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.",
+   "multidao": 8,
+   "objetos": [
+    "buildings/house_two",
+    "nature/bench",
+    "nature/lamppost"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "A prefeitura investigou, e o X foi retirado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -246,30 +227,14 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 12,
-   "cena": "b10",
-   "frase": "Moral da história: até trocar de nome precisa de licença da prefeitura.",
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Até trocar de nome precisa de licença.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_patio"
   }
  ]
 }

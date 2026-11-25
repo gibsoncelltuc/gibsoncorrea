@@ -1,23 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Gerado em 24/11 23:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:08 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | stadium | group | TRU, VIN | - | clipper | - | Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.
-b1 | transicao | loc_cidade | reveal | POV, POV | 6 | marco_detroit | - | Foi em abril de dois mil e sete, em Detroit, no maior show de luta liv
-b2 | simples | interior loja | two | TRU, VIN | - | - | - | A rivalidade era combinada, como todo show de luta: Trump contra o don
-b3 | simples | interior pedra | group | VIN, TRU | - | clipper | - | A aposta: cada um escolheu um lutador, e o dono do perdedor teria a ca
-b4 | chave | stadium | orbit | POV, POV, POV | 30 | ball | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos 
-b5 | simples | stadium | wide | LAS, UMA | - | ring | - | No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umag
-b6 | simples | stadium | wide | JUI | - | ring | - | Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça
-b7 | chave | stadium | wide | LAS | 18 | ball, ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
-b8 | simples | stadium | two | TRU, LAS, VIB | - | clipper, ring | - | Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar c
-b9 | simples | stadium | wide | JUI, TRU | - | ring | - | E sobrou para Trump: o juiz derrubou ele também.
-b10 | simples | interior madeira | two | TRU, JUI | - | - | - | Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
-b11 | simples | interior madeira | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | stadium | group | TRU, VIN | - | clipper | - | Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue
+b1 | simples | stadium | wide | JUI, TRU | - | ring | - | E no fim, ele mesmo acabou no chão.
+b2 | transicao | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em 2007, no maior show de luta livre do mundo.
+b3 | simples | interior pedra | group | VIN, TRU | - | clipper | - | Cada um escolheu um lutador. A aposta valia uma cabeça raspada.
+b4 | chave | stadium | group | POV, POV, POV | 18 | ball | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mais de oitenta mil pessoas lotaram o estádio.
+b5 | transicao | stadium | wide | LAS, UMA | - | ring | - | O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.
+b6 | chave | stadium | group | LAS | 18 | ball, ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o lutador de Trump venceu, e o estádio foi abaixo.
+b7 | simples | stadium | two | TRU, LAS, VIB | - | clipper, ring | - | Trump e Lashley rasparam a cabeça de Vince McMahon.
+b8 | simples | stadium | group | JUI, TRU | - | ring | - | E o juiz derrubou Trump também.
+b9 | simples | stadium | group | TRU, VIN | - | clipper | - | Depois, Trump entrou para o Hall da Fama da luta livre.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

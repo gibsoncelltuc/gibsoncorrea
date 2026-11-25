@@ -2,18 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: MENOS DE 1 HORA | - | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: chega (point) @6 (acao + som de efeito) | -
-b3 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: fala (point) @4 (acao + som de efeito) | -
-b4 | reveal | -  | tropa, placa: 2.800 | encena: chega (point) @2 (acao + som de efeito) | -
-b5 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao) | -
-b6 | two | -  | tropa | - | -
-b7 | two | -  | tropa, interior, placa: CONSULADO ALEMÃO | encena: fala (point) @3 (acao + som de efeito) | -
-b8 | two | -  | interior, placa: 9:40, objeto na mao | caiu (dust + som de impacto) | -
-b9 | group | -  | tropa, interior, placa: OUTRO SULTÃO | encena: x_entrega (point) @2 (acao + som de efeito) | -
-b10 | close | -  | interior | encena: fala (point) @2 (acao + som de efeito) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | placa: 38 MINUTOS | - | -
+b1 | close | noite  | interior | pagaram (stars + som de sino) | -
+b2 | two | -  | mapa | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
+b3 | two | -  | interior | - | -
+b4 | wide | -  | tropa, objeto na mao | - | -
+b5 | reveal | -  | tropa, placa: 2.800 | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa, placa: 9:02 | fogo (burst + som de tiro/explosao) | -
+b7 | two | -  | tropa | - | -
+b8 | wide | -  | batalha aberta com tiros, placa: 9:40, objeto na mao | cavalaria: 4 soldados a cavalo (GUA) (acao + som de efeito); caiu (dust + som de impacto) | -
+b9 | two | -  | placa: 38 MINUTOS | - | -
 
-Mistura de planos: close 19% | medio 59% | aberto 19% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 62% | aberto 25% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

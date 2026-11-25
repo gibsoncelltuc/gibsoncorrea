@@ -1,113 +1,181 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 03 - O X no Prédio do Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
-> "Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura."
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+> "Trocar de nome é fácil? Esta placa nova virou caso de investigação."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "placa" (2.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | investigada (3.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | X | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | X | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.8s a 12.6s - 22 palavras - plano two
-> "Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.4s a 7.0s - 8 palavras - plano two
+> "E tudo por causa de uma letra só."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "letra" (6.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 7.4s a 11.1s - 11 palavras - plano two
+> "Em 2023, Elon Musk trocou o nome do Twitter para X."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trocou" (8.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | SÃO FRANCISCO | OK |
+<!-- FISICA -->
 
-## Cena b2 - 13.0s a 17.0s - 12 palavras - plano group
-> "Os operários começaram a tirar as letras e o passarinho da fachada."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 11.5s a 15.2s - 11 palavras - plano group
+> "Operários começaram a tirar as letras e o passarinho da fachada."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tirar" (12.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tirar (14.4s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.4s a 20.4s - 9 palavras - plano two
-> "Mas o trabalho parou no meio, porque faltavam licenças."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: reagir
+- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b4 - 15.6s a 18.1s - 8 palavras - plano two
+> "O trabalho parou no meio, porque faltavam licenças."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "parou" (16.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b4 - 20.7s a 24.4s - 11 palavras - plano wide
-> "Sobraram só as letras E e R, em cinza, na fachada."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | PLACA | E R | OK |
-
-## Cena b5 - 24.8s a 28.9s - 12 palavras - plano crowd
-> "Acontece que depois instalaram um X gigante piscando no alto do prédio."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | instalaram (25.9s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | PLACA | X | OK |
-
-## Cena b6 - 29.3s a 33.7s - 13 palavras - plano two
-> "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos."
+## Cena b5 - 18.5s a 22.2s - 11 palavras - plano wide
+> "Acontece que instalaram um X gigante piscando no alto do prédio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (29.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piscando" (20.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b6 - 22.6s a 25.6s - 9 palavras - plano two
+> "A luz entrava nas janelas dos vizinhos de madrugada."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (23.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | X | OK |
+<!-- FISICA -->
 
-## Cena b7 - 34.1s a 41.1s - 20 palavras - plano two
-> "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b7 - 25.9s a 28.9s - 9 palavras - plano two
+> "Vieram vinte e quatro reclamações num fim de semana."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reclamações" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | recebeu (34.8s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | abriu (38.5s) | ACAO: x_abre | empurra a porta | OK |
-| 3 | - | INTERACAO | vai ate o outro | OK |
-| 4 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 41.5s a 45.2s - 11 palavras - plano two
-> "A empresa disse que era uma placa temporária para um evento."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
 
-## Cena b9 - 45.6s a 51.5s - 17 palavras - plano two
-> "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
+
+## Cena b8 - 29.3s a 31.9s - 8 palavras - plano orbit
+> "A prefeitura investigou, e o X foi retirado."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "retirado" (31.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | retirado (51.5s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b10 - 51.9s a 55.9s - 12 palavras - plano two
-> "Moral da história: até trocar de nome precisa de licença da prefeitura."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | trocar (53.3s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+## Cena b9 - 32.2s a 34.4s - 7 palavras - plano two
+> "Até trocar de nome precisa de licença."
 
-## Cena b11 - 56.3s a 60.7s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "licença" (34.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 2 | - | PLACA | X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
