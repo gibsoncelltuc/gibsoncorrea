@@ -18,20 +18,22 @@ fim(.012)
 # 2) roadster2008: esportivo baixo vermelho, 2 lugares, conversivel (base Lotus Elise). Comprimento no eixo x ~3.9 m
 novo('roadster2008')
 RED, DK, CH = '#c9232b', '#16171b', '#c8ccd2'
-bola((0, .52, 0), 1.0, RED, achata=.45, seg=26, esc=(1.55, .6, .98))                     # carroceria baixa e larga
-bola((1.25, .46, 0), .7, RED, achata=.5, seg=20, esc=(.95, .45, 1.0))                     # capo comprido na frente
-bola((-1.15, .56, 0), .7, RED, achata=.5, seg=20, esc=(.95, .55, 1.0))                    # traseira alta e curta
-caixa((-.15, .5, 0), (1.5, .22, 1.2), '#2a2b30')                                            # cockpit aberto
-caixa((-.2, .72, 0), (.5, .38, .55), '#202226'); caixa((-.2, .72, .5), (.5, .38, .35), '#202226')   # bancos
-caixa((.32, .85, 0), (.05, .32, 1.15), '#7fb4d4', rot=(0, 0, -.45))                         # para-brisa baixo inclinado
-cil((.5, .82, .35), .17, .03, DK, rot=(0, 0, -.9)); tubo([(.55, .7, .35), (.9, .55, .35)], .03, DK)   # volante
+caixa((0, .42, 0), (3.7, .34, 1.62), RED)                                                   # soleira/corpo baixo e largo
+caixa((1.15, .56, 0), (1.5, .2, 1.5), RED, afina=.8)                                        # capo baixo e inclinado
+caixa((-1.1, .62, 0), (1.3, .3, 1.55), RED, afina=.85)                                      # traseira com tampa do motor
 for sx in (-1.15, 1.15):
-    for sz in (-.88, .88):
-        cil((sx, .3, sz), .3, .24, '#111114', rot=(P, 0, 0)); cil((sx, .3, sz + (.02 if sz > 0 else -.02)), .2, .26, CH, rot=(P, 0, 0)); cil((sx, .3, sz), .07, .27, DK, rot=(P, 0, 0))   # pneu, aro, miolo
-for sz in (-.5, .5): bola((1.75, .5, sz), .13, '#f4f1d8', esc=(1.3, .8, 1.5)); bola((-1.72, .62, sz), .1, '#e8222a', esc=(.6, .7, 1.6))   # farois e lanternas
-caixa((1.82, .35, 0), (.1, .14, .9), DK)                                                    # entrada de ar frontal
-caixa((-1.0, .82, 0), (.9, .12, 1.0), RED); caixa((-1.65, .72, 0), (.1, .06, .9), DK)       # tampa do motor e aerofolio fino
-fim(.03)
+    for sz in (-.75, .75): bola((sx, .5, sz), .42, RED, achata=.6, seg=16, esc=(1.1, .75, .75))   # para-lamas arredondados
+caixa((-.05, .5, 0), (1.25, .2, 1.1), '#2a2b30')                                            # cockpit aberto
+caixa((-.2, .7, -.28), (.42, .34, .42), '#202226'); caixa((-.2, .7, .28), (.42, .34, .42), '#202226')   # dois bancos
+caixa((.52, .78, 0), (.05, .28, 1.3), '#7fb4d4', rot=(0, 0, -.5))                           # para-brisa baixo
+cil((.38, .84, .3), .16, .03, DK, rot=(0, 0, -.9))                                          # volante
+for sx in (-1.15, 1.15):
+    for sz in (-.8, .8):
+        cil((sx, .3, sz), .3, .26, '#111114', rot=(P, 0, 0)); cil((sx, .3, sz + (.02 if sz > 0 else -.02)), .2, .27, CH, rot=(P, 0, 0)); cil((sx, .3, sz), .06, .28, DK, rot=(P, 0, 0))   # pneu, aro, cubo
+for sz in (-.55, .55): bola((1.8, .56, sz), .12, '#f4f1d8', esc=(1.3, .8, 1.5)); bola((-1.8, .66, sz), .1, '#e8222a', esc=(.6, .7, 1.6))   # farois e lanternas
+caixa((1.85, .38, 0), (.1, .16, .95), DK)                                                   # entrada de ar frontal
+caixa((-1.1, .78, 0), (.9, .08, 1.0), '#b01c24'); caixa((0, .42, .84), (1.1, .08, .02), DK); caixa((0, .42, -.84), (1.1, .08, .02), DK)   # tampa do motor e entradas laterais
+fim(.04)
 # 3) radarange: forno de microondas Raytheon Radarange (1947): armario alto de metal, porta com janela e grade, mostradores no topo
 novo('radarange')
 ST, WH = '#cfd3d8', '#e9ebee'
