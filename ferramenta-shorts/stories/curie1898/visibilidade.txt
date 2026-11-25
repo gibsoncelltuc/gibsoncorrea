@@ -1,2 +1,0 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b4: objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32%
