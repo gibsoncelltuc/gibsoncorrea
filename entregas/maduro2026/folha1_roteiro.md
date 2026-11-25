@@ -1,0 +1,109 @@
+# FOLHA 1 - ROTEIRO: Poder e Fama EP 22 - A Operação da Madrugada
+
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 159 palavras (~55 s)
+
+## Cena b0  (~5.2 s)
+- Narracao: Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@30
+- Texto na tela: 2026
+- Funcao na historia: GANCHO
+
+## Cena b1  (~6.6 s)
+- Narracao: Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: - | mapa: VENEZUELA
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b2  (~4.1 s)
+- Narracao: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~5.5 s)
+- Narracao: Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: whoosh@20, whoosh@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: whoosh@20, whoosh@50
+- Texto na tela: DELTA
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~3.8 s)
+- Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@20, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@20, puff@40
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~5.5 s)
+- Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@30
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b6  (~6.2 s)
+- Narracao: Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~5.2 s)
+- Narracao: Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~4.8 s)
+- Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@30
+- Texto na tela: MUNDO
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~3.4 s)
+- Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
+- Funcao na historia: FECHO/PIADA FINAL
+
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela
+- https://www.nytimes.com/2026/01/03/us/politics/trump-capture-maduro-venezuela.html
+- https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/
+- https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela
