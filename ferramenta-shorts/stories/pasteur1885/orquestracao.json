@@ -13,10 +13,11 @@
    "camera": "two",
    "personagens": [
     "PAS",
-    "POV"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/syringe"
    ],
    "palavras": 15,
@@ -84,7 +85,7 @@
    "camera": "two",
    "personagens": [
     "MAE",
-    "POV"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [],
@@ -111,16 +112,17 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "street"
   },
   {
    "camera": "orbit",
    "personagens": [
     "PAS",
-    "POV"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/syringe"
    ],
    "palavras": 14,
@@ -142,7 +144,7 @@
    "camera": "track",
    "personagens": [
     "MAE",
-    "PAS"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [],
@@ -158,8 +160,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MED",
-    "POV"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [],
@@ -170,7 +171,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "hall"
   },
   {
    "camera": "crowd",

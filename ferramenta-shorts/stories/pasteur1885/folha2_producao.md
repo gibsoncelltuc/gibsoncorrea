@@ -6,18 +6,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): PAS (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 0 de POV
+- Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/syringe
+- Objetos/modelos: kit/bancada, kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva, receber, vacina
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
+- PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.1-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.6-3.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -92,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): MAE (variante 0, expressao cry); POV (variante 0, expressao cry)
+- Personagens principais (2): MAE (variante 0, expressao cry); JOS (variante 0, expressao cry)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, filho, porta, raiva
@@ -102,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAE na esquerda, expressao cry; POV na direita, expressao cry; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAE na esquerda, expressao cry; JOS na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
   - take 1 (20.1-22.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -110,7 +111,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - Pasteur não era médico e tinha medo, mas decidiu tentar.
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao nervous)
@@ -132,18 +133,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAS (variante 0, expressao relief); POV (variante 0, expressao smile) | multidao: 0 de POV
+- Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/syringe
+- Objetos/modelos: kit/bancada, kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao relief; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
+- PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
@@ -155,7 +157,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MAE (variante 0, expressao relief); PAS (variante 0, expressao smile)
+- Personagens principais (2): MAE (variante 0, expressao relief); JOS (variante 0, expressao smile)
 - Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): noticia
@@ -165,27 +167,29 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
 - CAMERA: travelling (camera acompanha andando)
-- PERSONAGENS: MAE na esquerda, expressao relief; PAS na direita, expressao smile; sem multidao; acao: reverencia
+- PERSONAGENS: MAE na esquerda, expressao relief; JOS na direita, expressao smile; sem multidao; acao: reverencia
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "NOTÍCIA" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do l...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): MED (variante 0, expressao smile); POV (variante 0, expressao grin)
-- Animacao: conversar | interacao: cochichar
+- Personagens principais (1): GUA (variante 0, expressao smile)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, instituto, lugar, pasteur
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MED na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: cochichar
+- PERSONAGENS: GUA no centro, expressao smile; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "INSTITUTO PASTEUR" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (38.8-40.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (40.4-41.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -250,13 +254,14 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/bancada | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/syringe | b0, b3, b6, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
 - Objeto heroi: kit/syringe | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 23% | medio 63% | aberto 13% | detalhe 2%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b8 cochichar
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

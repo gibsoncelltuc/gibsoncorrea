@@ -40,6 +40,23 @@
    "boots": "#2a2218",
    "hat": "bowler",
    "cap": "#4a3a2a"
+  },
+  "JOS": {
+   "jacket": "#7a5a3a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6a3a1f",
+   "build": "kid"
+  },
+  "GUA": {
+   "jacket": "#2f4a6a",
+   "pants": "#2a2f3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#2f4a6a",
+   "beard": "#6a5a48",
+   "belt": "#c9a227"
   }
  },
  "beats": [
@@ -48,16 +65,26 @@
    "shot": "two",
    "who": [
     "PAS:0:smile",
-    "POV:0:smile"
+    "JOS:0:smile"
    ],
    "props": [
     [
-     "kit/syringe",
+     "kit/bancada",
      0.0,
-     -0.8,
+     -0.6,
      1.3,
      {
       "fixo": true
+     }
+    ],
+    [
+     "kit/syringe",
+     0.0,
+     -0.6,
+     0.45,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -89,10 +116,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.4,
+   "cz": -0.3,
    "h": 1.5,
-   "d0": 8.0,
-   "d1": 7.5,
+   "d0": 8.5,
+   "d1": 8.0,
    "quadro_manual": true,
    "chega": false
   },
@@ -202,7 +229,7 @@
    "interior": "madeira",
    "who": [
     "MAE:0:cry",
-    "POV:0:cry"
+    "JOS:0:cry"
    ],
    "encena": {
     "sentido": "afirmativa",
@@ -215,10 +242,10 @@
     ]
    },
    "cx": 0.2,
-   "cz": 0.0,
+   "cz": 0.2,
    "h": 1.3,
-   "d0": 8.0,
-   "d1": 7.0,
+   "d0": 8.5,
+   "d1": 8.0,
    "verbos_ok": [
     "chegou"
    ],
@@ -227,10 +254,10 @@
    "animals": [
     [
      "dog",
-     1.9,
-     0.6,
+     1.4,
+     1.0,
      "stand",
-     1.3
+     1.0
     ]
    ],
    "quadro_manual": true,
@@ -258,8 +285,8 @@
    "say": "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.",
    "set": "hall",
    "who": [
-    "PAS:0:relief",
-    "POV:0:smile"
+    "PAS:0:smile",
+    "JOS:0:smile"
    ],
    "impact": true,
    "tiros": false,
@@ -276,12 +303,22 @@
    ],
    "props": [
     [
-     "kit/syringe",
+     "kit/bancada",
      0.0,
-     -0.8,
+     -0.6,
      1.3,
      {
       "fixo": true
+     }
+    ],
+    [
+     "kit/syringe",
+     0.0,
+     -0.6,
+     0.45,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -315,10 +352,10 @@
    "shot": "two",
    "fachada": false,
    "cx": 0.0,
-   "cz": -0.4,
+   "cz": -0.3,
    "h": 1.5,
-   "d0": 8.0,
-   "d1": 7.5,
+   "d0": 8.5,
+   "d1": 8.0,
    "quadro_manual": true,
    "chega": false
   },
@@ -328,7 +365,7 @@
    "interior": "madeira",
    "who": [
     "MAE:0:relief",
-    "PAS:0:smile"
+    "JOS:0:smile"
    ],
    "interacao": "reverencia",
    "encena": {
@@ -339,14 +376,15 @@
       "na": "Joseph"
      }
     ]
-   }
+   },
+   "text": "NOTÍCIA",
+   "chega": false
   },
   {
    "say": "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida.",
    "shot": "two",
    "who": [
-    "MED:0:smile",
-    "POV:0:grin"
+    "GUA:0:smile"
    ],
    "interacao": "cochichar",
    "encena": {
@@ -357,7 +395,9 @@
       "na": "instituto"
      }
     ]
-   }
+   },
+   "text": "INSTITUTO PASTEUR",
+   "set": "hall"
   },
   {
    "say": "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",

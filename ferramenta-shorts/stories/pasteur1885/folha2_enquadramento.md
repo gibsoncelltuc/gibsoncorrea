@@ -4,9 +4,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
+- PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b1: "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -30,7 +31,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAE na esquerda, expressao cry; POV na direita, expressao cry; sem multidao; acao: fala/gesto
+- PERSONAGENS: MAE na esquerda, expressao cry; JOS na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b5: "Pasteur não era médico e tinha medo, mas decidiu tentar."
@@ -41,9 +42,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente."
 - LOCAL: salao; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: PAS na esquerda, expressao relief; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/syringe: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)
+- PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/syringe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
@@ -52,14 +54,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b7: "Joseph sobreviveu, e a notícia correu o mundo."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: travelling (camera acompanha andando)
-- PERSONAGENS: MAE na esquerda, expressao relief; PAS na direita, expressao smile; sem multidao; acao: reverencia
+- PERSONAGENS: MAE na esquerda, expressao relief; JOS na direita, expressao smile; sem multidao; acao: reverencia
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "NOTÍCIA" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b8: "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MED na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: cochichar
+- PERSONAGENS: GUA no centro, expressao smile; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "INSTITUTO PASTEUR" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro."
 - LOCAL: salao; hora: day
