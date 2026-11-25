@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, soft music box, gentle acoustic guitar, warm pad, very soft hand percussion, slow lullaby feel, soothing whispered shh sounds, calm kids choir",
+  "lyrics": "[Chorus]\nShhh, shhh, boa noite, estrelinha,\nshhh, shhh, a lua está chegando,\nfecha o olhinho, respira devagarinho,\nshhh, shhh, bons sonhos, meu bebê.\n\n[Verse 1]\nAs estrelas piscam, lá no céu azul,\na lua balança, ninando o mundo,\no ursinho abraçado, a coberta quentinha,\nshhh, shhh, que sono bom.\n\n[Chorus]\nShhh, shhh, boa noite, estrelinha,\nshhh, shhh, a lua está chegando,\nfecha o olhinho, respira devagarinho,\nshhh, shhh, bons sonhos, meu bebê.\n\n[Verse 2]\nOs sonhos vão chegando, bem de mansinho,\ncom nuvens macias e estrelinhas,\na noite é de paz, a noite é de amor,\nshhh, shhh, durma bem.\n\n[Bridge]\nLá, lá, lá, lá,\nboa noite, boa noite,\nlá, lá, lá, lá,\ndorme, estrelinha.\n\n[Chorus]\nShhh, shhh, boa noite, estrelinha,\nshhh, shhh, a lua está chegando,\nfecha o olhinho, respira devagarinho,\nshhh, shhh, bons sonhos, meu bebê.",
+  "duration": 60,
+  "bpm": 96,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

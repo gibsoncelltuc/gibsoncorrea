@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, cheerful birthday nursery-rhyme feel, ukulele and glockenspiel, soft hand claps, little party horn sounds, sweet kids choir",
+  "lyrics": "[Chorus]\nParabéns, parabéns, vamos cantar,\nbate palma, vem dançar,\nhoje é dia de festa, vem pular,\no aniversariante vai brilhar!\n\n[Verse 1]\nTem bolo de chocolate, tem brigadeiro,\ntem balão e confete o dia inteiro,\ntem doce, tem pipoca, tem alegria,\na festa é boa, é de noite e de dia!\n\n[Chorus]\nParabéns, parabéns, vamos cantar,\nbate palma, vem dançar,\nhoje é dia de festa, vem pular,\no aniversariante vai brilhar!\n\n[Verse 2]\nSopra a velinha, faz um pedido,\no desejo é lindo e vai ser cumprido,\num, dois, três, sopra com vontade,\nfeliz aniversário, felicidade!\n\n[Bridge]\nPalma, palma, palma, palma,\ntoda a turma bate palma,\npula, pula, pula, pula,\ntoda a turma faz bagunça!\n\n[Chorus]\nParabéns, parabéns, vamos cantar,\nbate palma, vem dançar,\nhoje é dia de festa, vem pular,\no aniversariante vai brilhar!\n\n[Final Chorus]\nParabéns, parabéns, vamos cantar,\nbate palma, vem dançar,\nhoje é dia de festa, vem pular,\no aniversariante vai brilhar!",
+  "duration": 60,
+  "bpm": 116,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

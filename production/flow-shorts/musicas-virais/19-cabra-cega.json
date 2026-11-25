@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nOlhinhos tapados, vou procurar,\nquem está por perto, vou encontrar,\ndá um passinho, dá outro também,\ndevagar, devagar, vai com jeito, meu bem!\n\n[Verse 1]\nEstica o bracinho, tateia no ar,\nonde será que alguém vai estar?\nEscuto uma risadinha ali,\nvem de lá, vem de lá, é por aqui?\n\n[Chorus]\nOlhinhos tapados, vou procurar,\nquem está por perto, vou encontrar,\ndá um passinho, dá outro também,\ndevagar, devagar, vai com jeito, meu bem!\n\n[Verse 2]\nAchei você, que alegria,\na venda agora é de quem sorria,\namarra com jeito, bem devagar,\nagora é você que vai procurar!\n\n[Bridge]\nPra lá, pra cá, pra lá, pra cá,\nquem será que eu vou achar?\nPra lá, pra cá, pra lá, pra cá,\ncheguei, cheguei, vou te abraçar!\n\n[Chorus]\nOlhinhos tapados, vou procurar,\nquem está por perto, vou encontrar,\ndá um passinho, dá outro também,\ndevagar, devagar, vai com jeito, meu bem!",
+  "duration": 60,
+  "bpm": 100,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

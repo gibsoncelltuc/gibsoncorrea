@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, warm acoustic guitar, soft piano chords, hand claps, light shaker, gentle bass, kids choir",
+  "lyrics": "[Chorus]\nAbraça, abraça, abraça quem tá perto,\num abraço apertado deixa o dia mais esperto,\nabraça, abraça, abraça de verdade,\nabraço é amizade, abraço é felicidade!\n\n[Verse 1]\nAbraça a mamãe, abraça o papai,\no amor é tão grande que nunca se vai,\nabraça o amiguinho, abraça o irmãozinho,\nquem abraça ganha um sorrisinho!\n\n[Chorus]\nAbraça, abraça, abraça quem tá perto,\num abraço apertado deixa o dia mais esperto,\nabraça, abraça, abraça de verdade,\nabraço é amizade, abraço é felicidade!\n\n[Verse 2]\nUm abraço de urso, forte e quentinho,\num abraço de coala, bem devagarinho,\num abraço de polvo, cheio de bracinhos,\ntodo mundo fica felizinho!\n\n[Bridge]\nUm, dois, três, abraço,\nfica pertinho, no meu laço,\num, dois, três, abraço,\neu te dou um grande abraço!\n\n[Chorus]\nAbraça, abraça, abraça quem tá perto,\num abraço apertado deixa o dia mais esperto,\nabraça, abraça, abraça de verdade,\nabraço é amizade, abraço é felicidade!\n\n[Final Chorus]\nAbraça, abraça, abraça quem tá perto,\num abraço apertado deixa o dia mais esperto,\nabraça, abraça, abraça de verdade,\nabraço é amizade, abraço é felicidade!",
+  "duration": 60,
+  "bpm": 108,
+  "vocal_language": "pt",
+  "keyscale": "F major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

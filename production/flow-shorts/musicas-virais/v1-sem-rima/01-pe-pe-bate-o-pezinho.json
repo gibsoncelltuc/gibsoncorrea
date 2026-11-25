@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, bouncy ukulele strums, stomping foot percussion, hand claps on every beat, bright glockenspiel, round bass",
+  "lyrics": "[Chorus]\nPé, pé, bate o pezinho!\nPá, pá, bate a mãozinha!\nGira, gira, devagarinho,\ne dança, dança, dança com a gente!\n\n[Verse 1]\nUm pé aqui, outro pé ali,\npalminha pra lá, palminha pra cá,\nquem tá dançando vai sorrir,\nvem, vem, vem, vem brincar!\n\n[Chorus]\nPé, pé, bate o pezinho!\nPá, pá, bate a mãozinha!\nGira, gira, devagarinho,\ne dança, dança, dança com a gente!\n\n[Verse 2]\nBate o pé bem devagar,\nbate o pé bem depressa,\nbate, bate, bate, bate,\nagora parou e respira!\n\n[Bridge]\nPé, pé, pá, pá!\nPé, pé, pá, pá!\nPé, pé, pá, pá!\nTodo mundo junto, vai!\n\n[Chorus]\nPé, pé, bate o pezinho!\nPá, pá, bate a mãozinha!\nGira, gira, devagarinho,\ne dança, dança, dança com a gente!\n\n[Final Chorus]\nPé, pé, bate o pezinho!\nPá, pá, bate a mãozinha!\nGira, gira, devagarinho,\ne dança, dança, dança com a gente!",
+  "duration": 60,
+  "bpm": 112,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

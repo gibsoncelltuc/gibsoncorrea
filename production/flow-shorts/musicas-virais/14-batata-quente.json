@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nBatata quente, quente, quente,\npassa pro amigo ali na frente,\nbatata quente, quente, quente,\nquem ficar com ela, fica contente!\n\n[Verse 1]\nPassa rápido, passa pro lado,\nnão demora, não fique parado,\na batata esquentou demais,\npassa pro outro, passa pra trás!\n\n[Chorus]\nBatata quente, quente, quente,\npassa pro amigo ali na frente,\nbatata quente, quente, quente,\nquem ficar com ela, fica contente!\n\n[Verse 2]\nA música parou de repente,\nquem está com a batata, levanta contente,\ndá um pulinho, dá uma voltinha,\ne volta pra roda, bem fofinha!\n\n[Bridge]\nPassa, passa, passa,\nquente, quente, quente,\npassa, passa, passa,\nparou, parou, gente!\n\n[Chorus]\nBatata quente, quente, quente,\npassa pro amigo ali na frente,\nbatata quente, quente, quente,\nquem ficar com ela, fica contente!",
+  "duration": 60,
+  "bpm": 112,
+  "vocal_language": "pt",
+  "keyscale": "F major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

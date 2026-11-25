@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nPula no um, pula no dois,\npula no três, e volta depois,\namarelinha, amarelinha,\npula num pé, bem direitinha!\n\n[Verse 1]\nJoga a pedrinha, olha onde vai,\ncai no quadrado e não sai,\npula num pé, bem de levinho,\nsegura o equilíbrio, devagarinho!\n\n[Chorus]\nPula no um, pula no dois,\npula no três, e volta depois,\namarelinha, amarelinha,\npula num pé, bem direitinha!\n\n[Verse 2]\nChegou no céu, que alegria,\ntodo mundo bate palma e assovia,\nagora é a vez do amiguinho,\npula contente, no seu caminho!\n\n[Bridge]\nUm, dois, três, pula outra vez,\nquatro, cinco, seis, é a sua vez,\nsete, oito, nove, dez,\nchegou no céu, olha só, vocês!\n\n[Chorus]\nPula no um, pula no dois,\npula no três, e volta depois,\namarelinha, amarelinha,\npula num pé, bem direitinha!",
+  "duration": 60,
+  "bpm": 104,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

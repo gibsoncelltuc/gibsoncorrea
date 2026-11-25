@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, gentle ukulele strums, soft hand claps, bright glockenspiel, light shaker, soft bouncy bass, sweet kids choir answering the commands",
+  "lyrics": "[Chorus]\nEu fecho os olhos e vou contar,\nvocês se escondem, vou procurar,\natrás da cortina, no armário também,\nonde será que você está, meu bem?\n\n[Verse 1]\nSerá que está embaixo da mesa?\nProcurei com toda a certeza,\nserá que está atrás do portão?\nAchei um pezinho, bem no chão!\n\n[Chorus]\nEu fecho os olhos e vou contar,\nvocês se escondem, vou procurar,\natrás da cortina, no armário também,\nonde será que você está, meu bem?\n\n[Verse 2]\nAchei, achei, que alegria,\nagora é a vez da sua folia,\nvocê conta devagarinho,\ne eu me escondo, bem quietinho!\n\n[Bridge]\nUm, dois, três, quatro, cinco,\njá vou, já vou, já vou,\num, dois, três, quatro, cinco,\nachei, achei, achou!\n\n[Chorus]\nEu fecho os olhos e vou contar,\nvocês se escondem, vou procurar,\natrás da cortina, no armário também,\nonde será que você está, meu bem?",
+  "duration": 60,
+  "bpm": 104,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

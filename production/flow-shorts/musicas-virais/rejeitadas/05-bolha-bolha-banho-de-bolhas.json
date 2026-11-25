@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Gentle cheerful Brazilian nursery-rhyme style children's song for babies and toddlers up to 5 years old, sweet and soft, extremely catchy singalong, warm friendly adult male lead vocal with a sweet kids choir answering the hook, bright and playful but calm and cute, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, bubbly soft plucks, cute popping sounds, ukulele, gentle hand claps, bouncy soft bass, sparkly glockenspiel",
+  "lyrics": "[Chorus]\nBolha, bolha, bolha, vai estourar,\nbolha, bolha, bolha, vou me ensaboar,\nesfrega o bracinho, esfrega o pezinho,\nbolha, bolha, bolha, fico limpinho!\n\n[Verse 1]\nSabonete na mão, cheirinho de flor,\nbolhinha na cabeça, que coisa de amor,\nesfrega a barriguinha, que cosquinha,\nbolha, bolha, bolha, bolhinha!\n\n[Chorus]\nBolha, bolha, bolha, vai estourar,\nbolha, bolha, bolha, vou me ensaboar,\nesfrega o bracinho, esfrega o pezinho,\nbolha, bolha, bolha, fico limpinho!\n\n[Verse 2]\nÁgua morninha, que gostosa que é,\nenxágua o corpinho, da cabeça ao pé,\nbolha, bolha, quanta espuma,\ntchau, sujeira, não sobra nenhuma!\n\n[Bridge]\nBolhinha pra lá, bolhinha pra cá,\nbolha, bolha, quem vai pegar,\nbolhinha pra cá, bolhinha pra lá,\nbolha, bolha, quem vai estourar!\n\n[Chorus]\nBolha, bolha, bolha, vai estourar,\nbolha, bolha, bolha, vou me ensaboar,\nesfrega o bracinho, esfrega o pezinho,\nbolha, bolha, bolha, fico limpinho!",
+  "duration": 60,
+  "bpm": 120,
+  "vocal_language": "pt",
+  "keyscale": "G major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 41
+}

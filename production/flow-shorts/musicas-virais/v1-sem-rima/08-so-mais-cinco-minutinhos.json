@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, extremely catchy singalong earworm, warm friendly adult male lead vocal with a kids choir answering the hook, bright and playful, clean polished mix, the hook starts right on the first beat with no intro, every section lasts exactly 4 bars, short repeated chorus, simple melody in small steps, call and response with the kids choir, the last chorus goes up by a whole step (key change), clear Portuguese pronunciation of every word, funny bouncy bass, playful ukulele, hand claps, quirky xylophone, comedic call and response, kids choir shouting the hook",
+  "lyrics": "[Chorus]\nSó mais cinco minutinhos, só mais um, só mais um!\nJá é hora de dormir? Ah, não, não, não!\nSó mais cinco minutinhos, só mais um, só mais um!\nTá bom, tá bom, tá bom, eu vou!\n\n[Verse 1]\nEscovei os dentes, vesti o pijama,\nquero só mais uma historinha,\nquero só mais um copo d'água,\nquero só mais um abraço!\n\n[Chorus]\nSó mais cinco minutinhos, só mais um, só mais um!\nJá é hora de dormir? Ah, não, não, não!\nSó mais cinco minutinhos, só mais um, só mais um!\nTá bom, tá bom, tá bom, eu vou!\n\n[Verse 2]\nA mamãe disse: já chega, filhinho,\no papai disse: é hora, amiguinho,\na lua já brilha, o sono já vem,\neu bocejo, aaaah!\n\n[Bridge]\nCinco, quatro, três, dois, um...\nShhh... boa noite!\nCinco, quatro, três, dois, um...\nShhh... boa noite!\n\n[Chorus]\nSó mais cinco minutinhos, só mais um, só mais um!\nJá é hora de dormir? Ah, não, não, não!\nSó mais cinco minutinhos, só mais um, só mais um!\nTá bom, tá bom, tá bom, eu vou!\n\n[Final Chorus]\nSó mais cinco minutinhos, só mais um, só mais um!\nJá é hora de dormir? Ah, não, não, não!\nSó mais cinco minutinhos, só mais um, só mais um!\nTá bom, tá bom, tá bom, eu vou!",
+  "duration": 60,
+  "bpm": 120,
+  "vocal_language": "pt",
+  "keyscale": "F major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 23
+}

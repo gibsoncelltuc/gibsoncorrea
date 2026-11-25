@@ -1,0 +1,1097 @@
+{
+ "song": 2,
+ "titulo": "Quem É o Bichinho?",
+ "dur": 60.0,
+ "bpm_pedido": 100,
+ "cobertura": 0.8897058823529411,
+ "palavras": [
+  {
+   "w": "Quem",
+   "t0": 0.6,
+   "t1": 1.18,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 1.18,
+   "t1": 1.44,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 1.46,
+   "t1": 1.7,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 1.7,
+   "t1": 2.04,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 2.08,
+   "t1": 2.32,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 2.32,
+   "t1": 2.58,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 2.58,
+   "t1": 2.7,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bichinho",
+   "t0": 2.7,
+   "t1": 3.44,
+   "line": 0,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "Tem",
+   "t0": 3.44,
+   "t1": 4.04,
+   "line": 1,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bigode",
+   "t0": 4.04,
+   "t1": 4.56,
+   "line": 1,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 4.56,
+   "t1": 4.56,
+   "line": 1,
+   "sec": "Chorus",
+   "medido": false
+  },
+  {
+   "w": "faz",
+   "t0": 4.56,
+   "t1": 4.98,
+   "line": 1,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "carinho",
+   "t0": 4.98,
+   "t1": 5.27,
+   "line": 1,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 5.58,
+   "t1": 5.88,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 5.88,
+   "t1": 6.2,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 6.3,
+   "t1": 6.5,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 6.5,
+   "t1": 6.8,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 6.88,
+   "t1": 7.1,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 7.1,
+   "t1": 7.34,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 7.34,
+   "t1": 7.42,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "amiguinho",
+   "t0": 7.42,
+   "t1": 8.36,
+   "line": 2,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "É",
+   "t0": 8.36,
+   "t1": 8.58,
+   "line": 3,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 8.58,
+   "t1": 8.7,
+   "line": 3,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "gatinho",
+   "t0": 8.7,
+   "t1": 9.38,
+   "line": 3,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bem",
+   "t0": 9.5,
+   "t1": 9.8,
+   "line": 3,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "fofinho",
+   "t0": 9.8,
+   "t1": 10.09,
+   "line": 3,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "O",
+   "t0": 10.78,
+   "t1": 11.2,
+   "line": 4,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "cachorro",
+   "t0": 11.2,
+   "t1": 11.7,
+   "line": 4,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "balança",
+   "t0": 11.7,
+   "t1": 12.32,
+   "line": 4,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 12.32,
+   "t1": 12.5,
+   "line": 4,
+   "sec": "Verse 1",
+   "medido": false
+  },
+  {
+   "w": "rabinho",
+   "t0": 12.5,
+   "t1": 13.0,
+   "line": 4,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "corre",
+   "t0": 13.0,
+   "t1": 13.76,
+   "line": 5,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 13.76,
+   "t1": 13.98,
+   "line": 5,
+   "sec": "Verse 1",
+   "medido": false
+  },
+  {
+   "w": "brinca",
+   "t0": 13.98,
+   "t1": 14.2,
+   "line": 5,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "no",
+   "t0": 14.2,
+   "t1": 14.62,
+   "line": 5,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "jardinho",
+   "t0": 14.62,
+   "t1": 15.48,
+   "line": 5,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "a",
+   "t0": 15.48,
+   "t1": 16.04,
+   "line": 6,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "vaquinha",
+   "t0": 16.04,
+   "t1": 16.56,
+   "line": 6,
+   "sec": "Verse 1",
+   "medido": false
+  },
+  {
+   "w": "dá",
+   "t0": 16.56,
+   "t1": 16.96,
+   "line": 6,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "leitinho",
+   "t0": 16.96,
+   "t1": 17.84,
+   "line": 6,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 17.84,
+   "t1": 18.12,
+   "line": 7,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 18.12,
+   "t1": 18.24,
+   "line": 7,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "pintinho",
+   "t0": 18.24,
+   "t1": 18.86,
+   "line": 7,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 18.86,
+   "t1": 19.08,
+   "line": 7,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "pequenininho",
+   "t0": 19.08,
+   "t1": 20.06,
+   "line": 7,
+   "sec": "Verse 1",
+   "medido": true
+  },
+  {
+   "w": "Quem",
+   "t0": 20.06,
+   "t1": 20.32,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 20.32,
+   "t1": 20.64,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 20.72,
+   "t1": 20.9,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 20.9,
+   "t1": 21.2,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 21.28,
+   "t1": 21.5,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 21.5,
+   "t1": 21.76,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 21.76,
+   "t1": 21.92,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bichinho",
+   "t0": 21.92,
+   "t1": 22.62,
+   "line": 8,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "Tem",
+   "t0": 22.62,
+   "t1": 23.24,
+   "line": 9,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bigode",
+   "t0": 23.24,
+   "t1": 23.68,
+   "line": 9,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 23.68,
+   "t1": 24.12,
+   "line": 9,
+   "sec": "Chorus",
+   "medido": false
+  },
+  {
+   "w": "faz",
+   "t0": 24.12,
+   "t1": 24.2,
+   "line": 9,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "carinho",
+   "t0": 24.2,
+   "t1": 24.78,
+   "line": 9,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 24.78,
+   "t1": 25.12,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 25.12,
+   "t1": 25.42,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 25.5,
+   "t1": 25.7,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 25.7,
+   "t1": 26.0,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 26.18,
+   "t1": 26.3,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 26.3,
+   "t1": 26.5,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 26.5,
+   "t1": 26.62,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "amiguinho",
+   "t0": 26.62,
+   "t1": 27.54,
+   "line": 10,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "É",
+   "t0": 27.54,
+   "t1": 27.78,
+   "line": 11,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 27.78,
+   "t1": 27.92,
+   "line": 11,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "gatinho",
+   "t0": 27.92,
+   "t1": 28.56,
+   "line": 11,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bem",
+   "t0": 28.74,
+   "t1": 29.0,
+   "line": 11,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "fofinho",
+   "t0": 29.0,
+   "t1": 29.88,
+   "line": 11,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "O",
+   "t0": 29.88,
+   "t1": 30.44,
+   "line": 12,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "patinho",
+   "t0": 30.44,
+   "t1": 30.84,
+   "line": 12,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "nada",
+   "t0": 30.84,
+   "t1": 31.08,
+   "line": 12,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "na",
+   "t0": 31.08,
+   "t1": 31.4,
+   "line": 12,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "lagoa",
+   "t0": 31.4,
+   "t1": 32.3,
+   "line": 12,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "a",
+   "t0": 32.44,
+   "t1": 32.86,
+   "line": 13,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "galinha",
+   "t0": 32.86,
+   "t1": 33.32,
+   "line": 13,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 33.32,
+   "t1": 33.58,
+   "line": 13,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "muito",
+   "t0": 33.58,
+   "t1": 34.0,
+   "line": 13,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "boa",
+   "t0": 34.0,
+   "t1": 34.58,
+   "line": 13,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 34.58,
+   "t1": 35.22,
+   "line": 14,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "porquinho",
+   "t0": 35.22,
+   "t1": 35.7,
+   "line": 14,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "rola",
+   "t0": 35.7,
+   "t1": 36.24,
+   "line": 14,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "na",
+   "t0": 36.24,
+   "t1": 36.44,
+   "line": 14,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "lama",
+   "t0": 36.44,
+   "t1": 36.98,
+   "line": 14,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 36.98,
+   "t1": 37.32,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "a",
+   "t0": 37.32,
+   "t1": 37.4,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "ovelhinha",
+   "t0": 37.4,
+   "t1": 38.14,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": false
+  },
+  {
+   "w": "dorme",
+   "t0": 38.14,
+   "t1": 38.7,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "na",
+   "t0": 38.7,
+   "t1": 38.88,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "cama",
+   "t0": 38.88,
+   "t1": 39.4,
+   "line": 15,
+   "sec": "Verse 2",
+   "medido": true
+  },
+  {
+   "w": "Gatinho",
+   "t0": 39.4,
+   "t1": 40.6,
+   "line": 16,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "cachorrinho",
+   "t0": 40.6,
+   "t1": 41.1,
+   "line": 16,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "vaquinha",
+   "t0": 41.1,
+   "t1": 41.76,
+   "line": 16,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "e",
+   "t0": 41.76,
+   "t1": 41.96,
+   "line": 16,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "patinho",
+   "t0": 41.96,
+   "t1": 42.2,
+   "line": 16,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "todos",
+   "t0": 42.2,
+   "t1": 42.44,
+   "line": 17,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "juntinhos",
+   "t0": 42.44,
+   "t1": 43.0,
+   "line": 17,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "que",
+   "t0": 43.1,
+   "t1": 43.34,
+   "line": 17,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "carinho",
+   "t0": 43.34,
+   "t1": 44.24,
+   "line": 17,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "Pintinho",
+   "t0": 44.88,
+   "t1": 45.34,
+   "line": 18,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "porquinho",
+   "t0": 45.58,
+   "t1": 45.84,
+   "line": 18,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "ovelhinha",
+   "t0": 45.84,
+   "t1": 46.37,
+   "line": 18,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "galinha",
+   "t0": 46.37,
+   "t1": 46.9,
+   "line": 18,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "a",
+   "t0": 46.9,
+   "t1": 47.43,
+   "line": 19,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "bicharada",
+   "t0": 47.43,
+   "t1": 47.96,
+   "line": 19,
+   "sec": "Bridge",
+   "medido": false
+  },
+  {
+   "w": "é",
+   "t0": 47.96,
+   "t1": 48.04,
+   "line": 19,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "toda",
+   "t0": 48.04,
+   "t1": 48.26,
+   "line": 19,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "minha",
+   "t0": 48.26,
+   "t1": 48.92,
+   "line": 19,
+   "sec": "Bridge",
+   "medido": true
+  },
+  {
+   "w": "Quem",
+   "t0": 48.92,
+   "t1": 49.24,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 49.24,
+   "t1": 49.36,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 49.36,
+   "t1": 49.8,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 49.8,
+   "t1": 50.0,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 50.0,
+   "t1": 50.32,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 50.32,
+   "t1": 50.6,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 50.6,
+   "t1": 50.72,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bichinho",
+   "t0": 50.72,
+   "t1": 51.44,
+   "line": 20,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "Tem",
+   "t0": 51.6,
+   "t1": 52.06,
+   "line": 21,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bigode",
+   "t0": 52.06,
+   "t1": 52.54,
+   "line": 21,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "e",
+   "t0": 52.54,
+   "t1": 52.54,
+   "line": 21,
+   "sec": "Chorus",
+   "medido": false
+  },
+  {
+   "w": "faz",
+   "t0": 52.54,
+   "t1": 53.0,
+   "line": 21,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "carinho",
+   "t0": 53.0,
+   "t1": 53.56,
+   "line": 21,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 53.56,
+   "t1": 53.94,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 53.94,
+   "t1": 54.2,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 54.2,
+   "t1": 54.5,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 54.5,
+   "t1": 54.8,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "quem",
+   "t0": 54.8,
+   "t1": 55.08,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "é",
+   "t0": 55.08,
+   "t1": 55.34,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 55.34,
+   "t1": 55.44,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "amiguinho",
+   "t0": 55.44,
+   "t1": 56.3,
+   "line": 22,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "É",
+   "t0": 56.34,
+   "t1": 56.58,
+   "line": 23,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "o",
+   "t0": 56.58,
+   "t1": 56.72,
+   "line": 23,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "gatinho",
+   "t0": 56.72,
+   "t1": 57.38,
+   "line": 23,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "bem",
+   "t0": 57.38,
+   "t1": 57.78,
+   "line": 23,
+   "sec": "Chorus",
+   "medido": true
+  },
+  {
+   "w": "fofinho",
+   "t0": 57.78,
+   "t1": 58.66,
+   "line": 23,
+   "sec": "Chorus",
+   "medido": true
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "out": "out/ep01_curto_40s_legendado.mp4",
+  "music": "musica/ep01_acestep_seed23.mp3",
+  "transition": 0.35,
+  "effects": ["smoothleft", "zoomin", "fadewhite"],
+  "segments": [
+    {"clip": "ep01-clips/V01-1.mp4", "dur": 10, "music_start": 0.0,  "fade_out": 0.25},
+    {"clip": "ep01-clips/V01-3.mp4", "dur": 10, "music_start": 19.8, "fade_in": 0.1},
+    {"clip": "ep01-clips/V01-5.mp4", "dur": 10, "music_start": 39.8, "zoom": 1.33, "fade_out": 0.08},
+    {"clip": "ep01-clips/V01-6.mp4", "dur": 10, "music_start": 50.0}
+  ],
+  "captions": [
+    {"text": "Brush, brush, go, go, go!",               "start": 0.0,  "end": 3.3},
+    {"text": "Clean little teeth, hey, hey, hey!",      "start": 5.3,  "end": 8.5},
+    {"text": "Up and down, nice and slow,",             "start": 10.1, "end": 13.6},
+    {"text": "front to back,",                          "start": 14.1, "end": 16.2},
+    {"text": "I'll scrub them clean!",                  "start": 17.2, "end": 18.7},
+    {"text": "Bye-bye, little sweetie,",                "start": 20.1, "end": 22.9},
+    {"text": "my clean teeth will shine!",              "start": 22.9, "end": 25.1},
+    {"text": "Brush, brush, go, go, go!",               "start": 27.5, "end": 29.95},
+    {"text": "Go, go, go, go, go!",                     "start": 30.4, "end": 32.6},
+    {"text": "Brush every morning and every night!",    "start": 34.2, "end": 39.4, "size": 72}
+  ]
+}

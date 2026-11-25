@@ -1,0 +1,15 @@
+{
+  "lm_model": "acestep-5Hz-lm-1.7B-Q8_0.gguf",
+  "synth_model": "acestep-v15-turbo-Q8_0.gguf",
+  "caption": "Cheerful Brazilian children's pop song, bouncy ukulele strumming, shaker, hand claps on beats 2 and 4, bright glockenspiel melody, soft round bass, extremely catchy singalong earworm hook with a simple repeated chorus, warm friendly adult male lead vocal with a kids choir doubling the chorus, playful and happy, clean polished mix, no long intro, each section lasts exactly 4 bars, the vocal starts right on the first beat of every section, clear Portuguese pronunciation of every word, no instrumental break",
+  "lyrics": "[Chorus]\nGuarda, guarda, guarda lá,\ncada coisa em seu lugar!\n\n[Verse 1]\nQuanta bagunça no meu chão!\nCadê a bola? Eu não sei, não!\n\n[Verse 2]\nBlocos na caixa, um, dois, três,\ncarrinho na estante de uma vez!\n\n[Chorus]\nGuarda, guarda, guarda lá,\ncada coisa em seu lugar!\n\n[Bridge]\nOlha só quem estava ali atrás,\na bolinha! Que bom, que bom, demais!\n\n[Final Chorus]\nGuarda, guarda, guarda lá,\ncada coisa em seu lugar!",
+  "duration": 60,
+  "bpm": 96,
+  "vocal_language": "pt",
+  "keyscale": "C major",
+  "timesignature": "4",
+  "inference_steps": 8,
+  "guidance_scale": 1.0,
+  "shift": 3.0,
+  "seed": 41
+}

@@ -1,0 +1,216 @@
+{
+ "out": "out/ep04_FINAL_60s_legendado.mp4",
+ "music": "musica/ep04_acestep_seed23.mp3",
+ "caption_bottom": 1530,
+ "crf": 21,
+ "preset": "slow",
+ "shots": [
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.3,
+   "ax": 0.5,
+   "ay": 0.22,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-1.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "smoothleft"
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.55,
+   "ax": 1.0,
+   "ay": 0.62,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-2.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "zoom": 1.45,
+   "ax": 0.0,
+   "ay": 0.7,
+   "tr": "dissolve"
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.25,
+   "ax": 0.5,
+   "ay": 0.25,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-3.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "circleopen"
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 0.0,
+   "dur": 3.75
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 3.75,
+   "dur": 3.75,
+   "zoom": 1.4,
+   "ax": 0.5,
+   "ay": 0.62,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-4.mp4",
+   "start": 7.5,
+   "dur": 2.5,
+   "tr": "smoothleft"
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 0.0,
+   "dur": 3.4,
+   "zoom": 1.25,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 3.4,
+   "dur": 3.6,
+   "pop": true,
+   "zoom": 1.1,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-5.mp4",
+   "start": 7.0,
+   "dur": 3.0,
+   "zoom": 1.3,
+   "ax": 0.4,
+   "ay": 0.6,
+   "tr": "fadewhite"
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 0.6,
+   "dur": 3.8,
+   "zoom": 1.4,
+   "ax": 0.5,
+   "ay": 0.0
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 4.4,
+   "dur": 3.8,
+   "zoom": 1.1,
+   "ax": 0.5,
+   "ay": 0.0,
+   "pop": true
+  },
+  {
+   "clip": "ep04-clips/V04-6.mp4",
+   "start": 8.2,
+   "dur": 2.4,
+   "zoom": 1.2,
+   "ax": 0.5,
+   "ay": 0.1,
+   "speed": 0.75
+  }
+ ],
+ "captions": [
+  {
+   "text": "Wash, wash, wash your little hands,",
+   "start": 0.03,
+   "end": 3.89
+  },
+  {
+   "text": "scrub, scrub, little bubbles!",
+   "start": 3.92,
+   "end": 7.43
+  },
+  {
+   "text": "Played in the dirt, touched the floor,",
+   "start": 10.15,
+   "end": 14.99
+  },
+  {
+   "text": "dirty little hands, no, no, no!",
+   "start": 15.02,
+   "end": 20.23
+  },
+  {
+   "text": "Palm to palm, the backs too,",
+   "start": 20.26,
+   "end": 24.93
+  },
+  {
+   "text": "between the fingers, don't miss any!",
+   "start": 24.96,
+   "end": 29.99
+  },
+  {
+   "text": "Wash, wash, wash your little hands,",
+   "start": 30.02,
+   "end": 34.21
+  },
+  {
+   "text": "scrub, scrub, little bubbles!",
+   "start": 35.63,
+   "end": 37.73
+  },
+  {
+   "text": "Rinse them well, dry them too,",
+   "start": 41.79,
+   "end": 45.13
+  },
+  {
+   "text": "clean little hands are good for you!",
+   "start": 45.63,
+   "end": 50.57
+  },
+  {
+   "text": "Wash, wash, wash your little hands,",
+   "start": 50.6,
+   "end": 54.73
+  },
+  {
+   "text": "scrub, scrub, little bubbles!",
+   "start": 55.27,
+   "end": 55.95
+  },
+  {
+   "text": "Wash your hands before you eat!",
+   "start": 56.1,
+   "end": 59.3,
+   "size": 72
+  }
+ ],
+ "grade": {
+  "bloom": 0.08,
+  "warm": 0.006
+ }
+}
