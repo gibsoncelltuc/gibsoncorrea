@@ -18,6 +18,9 @@ if f: print('VISIBILIDADE REPROVADA (corrija o beats.json e gere o storyboard de
 print('visibilidade OK')
 PYV
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
+# 25/11 (sessao A): a ferramenta muda o tempo todo (sync de 1 min); se o hash das folhas mudou mas NENHUMA CENA mudou (mesmo desenho de cada cena), o storyboard olhado continua valendo
+if [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" != "$H" ] && [ -s stories/$ID/storyboard.cenas ]; then python3 mkvideo.py $ID >/dev/null 2>&1; python3 ficha_nas_folhas.py $ID >/dev/null 2>&1; ./build3.sh $ID >/dev/null 2>&1; H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
+  if [ "$(python3 cenas_hash.py $ID 2>/dev/null | grep -v '^global')" = "$(cat stories/$ID/storyboard.cenas)" ]; then echo "$H" > stories/$ID/storyboard.hash; echo "so' a ferramenta mudou (nenhuma cena): o storyboard olhado continua valendo"; fi; fi
 [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" = "$H" ] || { echo "o storyboard e' de uma versao ANTIGA das folhas: gere de novo (rm stories/$ID/storyboard.jpg e relance a fila)"; exit 1; }
 if [ ! -f stories/$ID/grade_acoes.jpg ] || [ stories/$ID/grade_acoes.jpg -ot stories/$ID/storyboard.jpg ]; then echo "FALTA A GRADE DE ACOES: ./prechecar.sh $ID acoes  (1 quadro no INSTANTE de cada acao da folha 3) e OLHE cada quadro: a acao escrita embaixo esta acontecendo?"; exit 1; fi
 python3 - "$ID" <<'PYR' || exit 1
