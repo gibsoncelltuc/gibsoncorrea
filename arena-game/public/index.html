@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arena das Moedas</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<canvas id="view"></canvas>
+
+<div id="hud" hidden>
+  <div class="card stats">
+    <div class="who"><b id="hName">—</b> <span id="hLevel">Nv 1</span></div>
+    <div class="bar hp"><i id="hpFill"></i><span id="hpText"></span></div>
+    <div class="bar xp"><i id="xpFill"></i><span id="xpText"></span></div>
+    <div class="coins">🪙 <b id="hCoins">0</b></div>
+  </div>
+  <div class="card keys">B Loja · I Inventário · K Habilidades · M Mercado · T Troca · O Torneios · H Ajuda</div>
+  <div id="skillbar"></div>
+  <div id="toasts"></div>
+  <div id="dead" hidden>Você caiu! Voltando para a arena…</div>
+</div>
+
+<div id="panel" hidden>
+  <div class="tabs" id="tabs"></div>
+  <div class="body" id="panelBody"></div>
+  <button class="close" id="panelClose" aria-label="Fechar">✕</button>
+</div>
+
+<div id="login">
+  <div class="card box">
+    <h1>Arena das Moedas</h1>
+    <p>RPG de ação 3D com economia entre jogadores. A moeda é <b>interna do jogo</b> (não vale dinheiro real).</p>
+    <input id="nameInput" maxlength="16" placeholder="Nome do personagem (3-16 letras/números)" autocomplete="off">
+    <button id="enterBtn">Criar personagem / Entrar</button>
+    <div id="loginMsg" class="msg"></div>
+  </div>
+</div>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>

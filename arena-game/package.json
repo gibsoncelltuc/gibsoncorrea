@@ -1,0 +1,9 @@
+{
+  "name": "arena-game",
+  "private": true,
+  "type": "module",
+  "description": "RPG de ação 3D em arena (Three.js) com economia de moeda interna: loja, mercado, trocas e torneios.",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server/index.js", "test": "node --test test/*.test.js" },
+  "dependencies": { "three": "0.187.0", "ws": "8.23.0" }
+}
