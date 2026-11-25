@@ -254,3 +254,12 @@
 ## 25/11 06:45 autocorrecao de visibilidade
 - b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b6: ja corrigida 3 vezes, objeto "kit/pea_green" saiu com 3% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 06:53 autocorrecao de visibilidade
+- b5: objeto "kit/pea_yellow" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b6: objeto "kit/pea_yellow" saiu com 9% da altura da tela, a ficha de cena planejou 18% -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 06:53 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b6: ja corrigida 3 vezes, objeto "kit/pea_green" saiu com 3% da altura da tela, a ficha de cena planejou 30% -> fica para o olho

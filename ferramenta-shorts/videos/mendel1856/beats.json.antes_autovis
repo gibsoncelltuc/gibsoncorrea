@@ -165,7 +165,7 @@
    ],
    "detalhe": true,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -208,7 +208,8 @@
    "d0": 7.0,
    "d1": 6.5,
    "quadro_manual": true,
-   "h": 1.4
+   "h": 1.4,
+   "set": "loc_campo"
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -233,7 +234,7 @@
     "n": 0
    },
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_patio",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -258,7 +259,8 @@
    "d0": 7.0,
    "d1": 6.5,
    "quadro_manual": true,
-   "h": 1.4
+   "h": 1.4,
+   "set": "loc_patio"
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -305,7 +307,7 @@
     "thump@30"
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -337,6 +339,7 @@
      }
     ]
    },
+   "set": "loc_patio",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -402,7 +405,7 @@
     "sting@60"
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "salao",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -444,6 +447,7 @@
      }
     ]
    },
+   "set": "hall",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -591,7 +595,7 @@
     ]
    ],
    "quadro": {
-    "local": "loc_campo",
+    "local": "loc_patio",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
@@ -616,7 +620,7 @@
      }
     ]
    },
-   "set": "loc_campo",
+   "set": "loc_patio",
    "cx": 0.3,
    "cz": -0.2,
    "h": 1.5,
