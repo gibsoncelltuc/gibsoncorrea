@@ -1,3 +1,2 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b3~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+VISIBILIDADE: 1 FALHA(S)
 FALHA b3: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
