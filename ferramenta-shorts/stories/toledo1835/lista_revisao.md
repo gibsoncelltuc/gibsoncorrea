@@ -4,9 +4,6 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-3. b7~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-4. b7~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Dois estados americanos foram à guerra,": 
