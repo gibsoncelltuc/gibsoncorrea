@@ -1,37 +1,36 @@
-# Revisao final - tulipas1637 (24/11 noite, frase a frase olhado pela principal)
-f0: OK - "Uma única flor já custou o preço de uma casa inteira." -> rua de Amsterda com 1637 e o homem com a tulipa
-f1: OK - "Era a Holanda," -> mapa HOLANDA
-f2: OK - "e a tulipa tinha acabado de chegar do Oriente." -> mesma cena: mapa HOLANDA
-f3: OK - "Colorida," -> mesma cena: mapa HOLANDA
-f4: OK - "rara," -> mesma cena: mapa HOLANDA
-f5: OK - "e na moda." -> mesma cena: mapa HOLANDA
-f6: OK - "Num leilão," -> leilao com moedas e bulbo
-f7: OK - "um oferecia mil moedas por um bulbo," -> mesma cena: leilao com moedas e bulbo
-f8: OK - "e outro pagava duas mil." -> mesma cena: leilao com moedas e bulbo
-f9: OK - "Logo," -> multidao comprando, TODO MUNDO
-f10: OK - "o país inteiro estava comprando." -> mesma cena: multidao comprando, TODO MUNDO
-f11: OK - "Padeiros," -> mesma cena: multidao comprando, TODO MUNDO
-f12: OK - "sapateiros," -> mesma cena: multidao comprando, TODO MUNDO
-f13: OK - "gente que nunca tinha plantado nada." -> mesma cena: multidao comprando, TODO MUNDO
-f14: OK - "Contam que teve gente que trocou terras e casas por um único bulbo." -> homem com a tulipa na cidade
-f15: OK - "Ninguém queria a flor. Queriam revender mais caro na semana seguinte." -> mercadores com papel e tulipa
-f16: OK - "Contam que um marinheiro comeu um bulbo achando que era cebola." -> marinheiro com o bulbo na boca, dentro de casa
-f17: OK - "Valia uma fortuna." -> mesma cena: marinheiro com o bulbo na boca, dentro de casa
-f18: OK - "Acontece que," -> LEILAO, vendedor e compradores parados
-f19: OK - "num leilão de fevereiro," -> mesma cena: LEILAO, vendedor e compradores parados
-f20: OK - "o vendedor abriu os lances," -> mesma cena: LEILAO, vendedor e compradores parados
-f21: OK - "e ninguém levantou a mão." -> mesma cena: LEILAO, vendedor e compradores parados
-f22: OK - "A notícia correu." -> PANICO, multidao
-f23: OK - "Em poucos dias," -> mesma cena: PANICO, multidao
-f24: OK - "todo mundo quis vender," -> mesma cena: PANICO, multidao
-f25: OK - "e não havia mais comprador." -> mesma cena: PANICO, multidao
-f26: OK - "Os preços desabaram." -> mercador triste, precos caindo
-f27: OK - "Quem tinha trocado a casa por flores ficou só com as flores," -> mesma cena: mercador triste, precos caindo
-f28: OK - "e as dívidas." -> mesma cena: mercador triste, precos caindo
-f29: OK - "O marinheiro," -> mesma cena: mercador triste, precos caindo
-f30: OK - "pelo menos," -> marinheiro comendo, almocou bem
-f31: OK - "almoçou bem." -> mesma cena: marinheiro comendo, almocou bem
-f32: OK - "Agora não deixe de comentar:" -> chamada COMENTE
-f33: OK - "qual deve ser o tema do próximo vídeo?" -> mesma cena: chamada COMENTE
-gancho: OK - "Uma unica flor ja custou o preco de uma casa inteira" com 1637 e a tulipa na rua holandesa, sem data falada
-piloto: OK - padrao do piloto: mapa, multidao, leilao, panico, final ironico curto, chamada
+f0: OK - uma unica flor custou o preco de uma casa: mercador com a tulipa e o rico espantado com a moeda
+f1: OK - era a Holanda: mapa da Holanda com o pino e o canteiro de tulipas
+f2: OK - a tulipa tinha acabado de chegar do Oriente: moinho e casas holandesas com tulipas coloridas
+f3: OK - colorida: canteiro de tulipas vermelhas, amarelas e roxas
+f4: OK - rara: homem com a tulipa na frente do moinho
+f5: OK - e na moda: homem cheirando a tulipa no canteiro
+f6: OK - num leilao: dois ricos disputando o bulbo na sala
+f7: OK - um oferecia mil moedas por um bulbo: rico com moeda e o vaso
+f8: OK - outro pagava duas mil: os dois ricos com moedas e o bulbo
+f9: OK - logo: placa TODO MUNDO e multidao no cais
+f10: OK - o pais inteiro estava comprando: TODO MUNDO e gente com tulipas
+f11: OK - padeiros: multidao TODO MUNDO
+f12: OK - sapateiros: multidao com tulipas
+f13: OK - gente que nunca tinha plantado nada: multidao TODO MUNDO
+f14: OK - trocou terras e casas por um unico bulbo: placa 1 CASA = 1 BULBO com o contrato
+f15: OK - queriam revender mais caro: homem com papel e as tulipas amarela e roxa
+f16: OK - marinheiro comeu um bulbo achando que era cebola: marinheiro com a tulipa na boca na sala
+f17: OK - valia uma fortuna: mercador chocado com o marinheiro
+f18: OK - acontece que: placa LEILAO
+f19: OK - leilao de fevereiro: LEILAO com vendedor e compradores
+f20: OK - vendedor abriu os lances: LEILAO e o vendedor
+f21: OK - ninguem levantou a mao: compradores parados no LEILAO
+f22: OK - a noticia correu: placa PANICO e multidao em choque
+f23: OK - em poucos dias: PANICO com a multidao
+f24: OK - todo mundo quis vender: multidao PANICO com tulipas
+f25: OK - nao havia mais comprador: PANICO e caras de susto
+f26: OK - os precos desabaram: rico com cara de dor no canteiro
+f27: OK - trocou a casa por flores e ficou so com as flores: rico triste com a tulipa
+f28: OK - e as dividas: rico chorando com a tulipa
+f29: OK - o marinheiro: marinheiro de boina no jardim
+f30: OK - pelo menos: marinheiro sorrindo
+f31: OK - almocou bem: marinheiro feliz com estrelas
+f32: OK - deixe de comentar: placa COMENTE com o mercador e a tulipa
+f33: OK - tema do proximo video: COMENTE com a tulipa no vaso
+gancho: uma unica flor pelo preco de uma casa, mercador com a tulipa e o rico espantado nos primeiros segundos
+piloto: mesmo nivel do Roadster EP25: mapa, multidao TODO MUNDO, virada no leilao vazio, PANICO, final com humor do marinheiro
