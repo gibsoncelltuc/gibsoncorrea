@@ -23,9 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
 - TEXTO NA TELA: "ERVILHAS = HERANÇA" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.0-1.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.6-3.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E ninguém acreditou nele enquanto estava vivo.
@@ -44,7 +42,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MEN (padre) no centro, expressao sad, segura book; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (3.2-4.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (4.9-6.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1856, Gregor Mendel cuidava da horta de um mosteiro.
@@ -68,9 +68,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/pe_ervilha: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: REPÚBLICA TCHECA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (6.3-7.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.9-9.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Cruzou ervilhas amarelas com ervilhas verdes.
@@ -113,9 +111,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (12.2-13.7 s): mesmo angulo
-  - take 2 (13.7-15.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.4 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b5 - Ele plantou de novo e contou ervilha por ervilha, por anos.
@@ -136,9 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/vagem_amarela: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (15.6-17.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (17.4-19.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que o verde voltou: três amarelas para uma verde.
@@ -166,7 +160,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@40
 - SOM: sting@60
 - TEXTO NA TELA: "3 : 1" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - Cada filho herda uma instrução do pai e outra da mãe.
@@ -185,9 +179,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile; FRE (padre) na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (23.3-25.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (25.1-27.0 s): mesmo angulo
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Só depois da morte dele, viram que estava certo.
@@ -213,7 +205,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@30
 - SOM: sting@70
 - TEXTO NA TELA: "GENÉTICA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b9 - Ele morreu sem saber. E foi assim que...
@@ -260,6 +252,6 @@ kit/bancada | b6, b8 | pronto | conferir na folha de contato se le bem; se parec
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

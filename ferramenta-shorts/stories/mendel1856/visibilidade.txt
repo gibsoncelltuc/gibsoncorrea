@@ -1,1 +1,4 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (27 tomadas)
+VISIBILIDADE: 3 FALHA(S)
+FALHA b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b2: objeto citado "buildings/church" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b6: objeto citado "kit/vagem_verde" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

@@ -4,28 +4,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+## Cena b0 - 0.0s a 2.6s - 10 palavras - plano two
 > "Um monge contando ervilhas descobriu como herdamos o que somos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilhas" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilhas" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobriu (1.5s) | EFEITO: ring | onda + som | OK |
+| 1 | descobriu (1.1s) | EFEITO: ring | onda + som | OK |
 | 2 | - | PLACA | ERVILHAS = HERANÇA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra descobriu (1.5s): executa: onda + som
+- EFEITO: ring na palavra descobriu (1.1s): executa: onda + som
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 5.9s - 7 palavras - plano wide
+## Cena b1 - 3.2s a 6.6s - 7 palavras - plano wide
 > "E ninguém acreditou nele enquanto estava vivo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acreditou" (4.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acreditou" (3.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -36,11 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.3s a 9.6s - 10 palavras - plano wide
+## Cena b2 - 7.3s a 8.9s - 10 palavras - plano wide
 > "Em 1856, Gregor Mendel cuidava da horta de um mosteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cuidava" (7.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cuidava" (8.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,31 +51,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.0s a 11.9s - 6 palavras - plano two
+## Cena b3 - 9.7s a 11.6s - 6 palavras - plano two
 > "Cruzou ervilhas amarelas com ervilhas verdes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: examina | na palavra "cruzou" (10.0s)
-  2) MEN acao do motor: espera | na palavra "cruzou" (10.0s)
+  1) MEN acao do motor: examina | na palavra "cruzou" (9.7s)
+  2) MEN acao do motor: espera | na palavra "cruzou" (9.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Cruzou (10.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | Cruzou (10.0s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 1 | Cruzou (9.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | Cruzou (9.7s) | ACAO: x_espera | espera de bracos cruzados | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra Cruzou (10.0s): executa: examina com lupa/microscopio/balanca
-- ACAO: x_espera na palavra Cruzou (10.0s): executa: espera de bracos cruzados
+- ACAO: examina na palavra Cruzou (9.7s): executa: examina com lupa/microscopio/balanca
+- ACAO: x_espera na palavra Cruzou (9.7s): executa: espera de bracos cruzados
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 12.2s a 15.2s - 9 palavras - plano close
+## Cena b4 - 12.3s a 14.7s - 9 palavras - plano close
 > "Todas saíram amarelas, como se o verde tivesse sumido."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (13.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (12.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -86,29 +86,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 15.6s a 19.3s - 11 palavras - plano wide
+## Cena b5 - 15.5s a 18.0s - 11 palavras - plano wide
 > "Ele plantou de novo e contou ervilha por ervilha, por anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: planta | na palavra "plantou" (15.9s)
-  2) MEN fala apontando | na palavra "contou" (17.4s)
+  1) MEN acao do motor: planta | na palavra "plantou" (15.8s)
+  2) MEN fala apontando | na palavra "contou" (16.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | plantou (15.9s) | ACAO: x_planta | cava/planta + terra | OK |
-| 2 | contou (17.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | plantou (15.8s) | ACAO: x_planta | cava/planta + terra | OK |
+| 2 | contou (16.5s) | ACAO: fala | aponta explicando | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_planta na palavra plantou (15.9s): executa: cava/planta + terra
-- ACAO: fala na palavra contou (17.4s): braco estendido apontando para o objeto/lugar citado
+- ACAO: x_planta na palavra plantou (15.8s): executa: cava/planta + terra
+- ACAO: fala na palavra contou (16.5s): braco estendido apontando para o objeto/lugar citado
 <!-- /FISICA -->
 
-## Cena b6 - 19.6s a 23.0s - 10 palavras - plano two
+## Cena b6 - 18.7s a 21.5s - 10 palavras - plano two
 > "Acontece que o verde voltou: três amarelas para uma verde."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (20.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (19.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -123,11 +123,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 23.3s a 27.0s - 11 palavras - plano two
+## Cena b7 - 22.0s a 24.1s - 11 palavras - plano two
 > "Cada filho herda uma instrução do pai e outra da mãe."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "herda" (24.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "herda" (22.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -140,11 +140,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 27.4s a 30.4s - 9 palavras - plano wide
+## Cena b8 - 24.6s a 26.7s - 9 palavras - plano wide
 > "Só depois da morte dele, viram que estava certo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "viram" (29.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "viram" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -159,21 +159,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 30.7s a 33.3s - 8 palavras - plano two
+## Cena b9 - 27.3s a 29.2s - 8 palavras - plano two
 > "Ele morreu sem saber. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Ele" (30.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Ele" (27.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (31.1s) | EFEITO: puff | fumaca + som | OK |
+| 1 | morreu (27.6s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 3 | - | PLACA | ERVILHAS = HERANÇA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra morreu (31.1s): executa: fumaca + som
+- EFEITO: puff na palavra morreu (27.6s): executa: fumaca + som
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

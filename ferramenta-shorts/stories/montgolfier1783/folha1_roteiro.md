@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Os primeiros passageiros de um balão não foram pessoas.

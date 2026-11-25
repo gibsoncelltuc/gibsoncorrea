@@ -6,7 +6,7 @@
    "item": "O Astrônomo do Nariz de Metal",
    "consultas": [
     "O Astrônomo do Nariz de Metal",
-    "Um Era Tycho Brahe Alemanha Numa 1566"
+    "Um Em Tycho Brahe Alemanha 1566"
    ],
    "achados": []
   },
@@ -49,38 +49,20 @@
   },
   {
    "tipo": "lugar",
-   "item": "Dinamarca",
+   "item": "Alemanha",
    "consultas": [
-    "Dinamarca 1566",
-    "Dinamarca landscape"
+    "Alemanha 1566",
+    "Alemanha landscape"
    ],
    "achados": [
     {
-     "titulo": "Ana de Dinamarca, reina de Inglaterra (Liria Palace).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ana_de_Dinamarca%2C_reina_de_Inglaterra_%28Liria_Palace%29.jpg/500px-Ana_de_Dinamarca%2C_reina_de_Inglaterra_%28Liria_Palace%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AAna_de_Dinamarca%2C_reina_de_Inglaterra_%28Liria_Palace%29.jpg",
-     "descricao": "Spanish: Ana de \\u003Cspan class=\\",
+     "titulo": "Norderney, Dünenlandschaft, Wegweiser -- 2025 -- 9437.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Norderney%2C_D%C3%BCnenlandschaft%2C_Wegweiser_--_2025_--_9437.jpg/500px-Norderney%2C_D%C3%BCnenlandschaft%2C_Wegweiser_--_2025_--_9437.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANorderney%2C_D%C3%BCnenlandschaft%2C_Wegweiser_--_2025_--_9437.jpg",
+     "descricao": "Dune \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/tycho1566/prints/dinamarca_fb4bf2.jpg",
-     "consulta": "Dinamarca 1566"
-    },
-    {
-     "titulo": "Rossana Dinamarca 2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rossana_Dinamarca_2.jpg/500px-Rossana_Dinamarca_2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARossana_Dinamarca_2.jpg",
-     "descricao": "DescriptionRossana \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/tycho1566/prints/dinamarca_13a62f.jpg",
-     "consulta": "Dinamarca"
-    },
-    {
-     "titulo": "Rossana Dinamarca (17334432005).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rossana_Dinamarca_%2817334432005%29.jpg/500px-Rossana_Dinamarca_%2817334432005%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARossana_Dinamarca_%2817334432005%29.jpg",
-     "descricao": "DescriptionRossana \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/tycho1566/prints/dinamarca_4066b1.jpg",
-     "consulta": "Dinamarca"
+     "print": "referencias/tycho1566/prints/alemanha_70ff4b.jpg",
+     "consulta": "Alemanha landscape"
     }
    ]
   },
@@ -152,7 +134,7 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/TychoBraheMars.jpg/500px-TychoBraheMars.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ATychoBraheMars.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 5,
      "print": "referencias/tycho1566/prints/tycho_brahe_bigode_longo_gibao_nobre_nar_48071c.jpg",
      "consulta": "Tycho Brahe"
     }
@@ -222,21 +204,21 @@
      "consulta": "Johannes Kepler"
     },
     {
+     "titulo": "Johannes Kepler University Linz - Bank Building PNr°1113.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Johannes_Kepler_University_Linz_-_Bank_Building_PNr%C2%B01113.jpg/500px-Johannes_Kepler_University_Linz_-_Bank_Building_PNr%C2%B01113.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_University_Linz_-_Bank_Building_PNr%C2%B01113.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/tycho1566/prints/johannes_kepler_5df423.jpg",
+     "consulta": "Johannes Kepler"
+    },
+    {
      "titulo": "Johannes Kepler University Linz - bar Teichwerk-small PNr°1115.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Johannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg/500px-Johannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_University_Linz_-_bar_Teichwerk-small_PNr%C2%B01115.jpg",
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 4,
      "print": "referencias/tycho1566/prints/johannes_kepler_8589c9.jpg",
-     "consulta": "Johannes Kepler"
-    },
-    {
-     "titulo": "Johannes Kepler by Hans von Aachen.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Johannes_Kepler_by_Hans_von_Aachen.jpg/500px-Johannes_Kepler_by_Hans_von_Aachen.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_by_Hans_von_Aachen.jpg",
-     "descricao": "Hans von Aachen: Portrait of a man, possibly \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/tycho1566/prints/johannes_kepler_8d5cf8.jpg",
      "consulta": "Johannes Kepler"
     }
    ]
@@ -353,44 +335,6 @@
    ]
   },
   {
-   "tipo": "objeto",
-   "item": "uraniborg",
-   "consultas": [
-    "Uraniborg Tycho Brahe castle Hven",
-    "uraniborg",
-    "uraniborg 1566"
-   ],
-   "achados": [
-    {
-     "titulo": "Uraniborgskiss 45.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Uraniborgskiss_45.jpg/500px-Uraniborgskiss_45.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AUraniborgskiss_45.jpg",
-     "descricao": "of \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/tycho1566/prints/uraniborg_0eefac.jpg",
-     "consulta": "Uraniborg Tycho Brahe Hven"
-    },
-    {
-     "titulo": "Brahe Uraniborg 1598.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Brahe_Uraniborg_1598.jpg/500px-Brahe_Uraniborg_1598.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrahe_Uraniborg_1598.jpg",
-     "descricao": "illustration of \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/tycho1566/prints/uraniborg_6f92ea.jpg",
-     "consulta": "Uraniborg Tycho Brahe Hven"
-    },
-    {
-     "titulo": "Brahe Stellaeburgi Orthographia 1598.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Brahe_Stellaeburgi_Orthographia_1598.jpg/500px-Brahe_Stellaeburgi_Orthographia_1598.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrahe_Stellaeburgi_Orthographia_1598.jpg",
-     "descricao": "of \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/tycho1566/prints/uraniborg_c4560c.jpg",
-     "consulta": "Uraniborg Tycho Brahe Hven"
-    }
-   ]
-  },
-  {
    "tipo": "heroi",
    "item": "brass nose",
    "consultas": [
@@ -398,43 +342,6 @@
     "O Astrônomo do Nariz de Metal"
    ],
    "achados": []
-  },
-  {
-   "tipo": "epoca",
-   "item": "castelo da epoca",
-   "consultas": [
-    "castle 1566",
-    "castle"
-   ],
-   "achados": [
-    {
-     "titulo": "Neuschwanstein Castle 2024-02.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neuschwanstein_Castle_2024-02.jpg/500px-Neuschwanstein_Castle_2024-02.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ANeuschwanstein_Castle_2024-02.jpg",
-     "descricao": " hereby publish it under the following license: English Neuschwanstein \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/tycho1566/prints/castelo_da_epoca_e1c4e7.jpg",
-     "consulta": "castle 1566"
-    },
-    {
-     "titulo": "Castle Neuschwanstein.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Castle_Neuschwanstein.jpg/500px-Castle_Neuschwanstein.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACastle_Neuschwanstein.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/tycho1566/prints/castelo_da_epoca_4d6794.jpg",
-     "consulta": "castle 1566"
-    },
-    {
-     "titulo": "Himeji Castle 0804 1.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Himeji_Castle_0804_1.jpg/500px-Himeji_Castle_0804_1.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AHimeji_Castle_0804_1.jpg",
-     "descricao": "DescriptionHimeji \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/tycho1566/prints/castelo_da_epoca_588cf9.jpg",
-     "consulta": "castle 1566"
-    }
-   ]
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+15%",
+ "rate": "-5%",
  "serie": "Poder e Fama",
  "ep": 8,
  "title": "O Carro que Foi Parar no Espaço",
@@ -574,8 +574,8 @@
    "quadro_manual": true
   }
  ],
- "cinf": 4.5,
- "exp": 1.12,
+ "cinf": 1.5,
+ "exp": 1.761,
  "visual": {
   "local": "Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, e o espaço",
   "quando": "6 de fevereiro de 2018, tarde (15h45)",

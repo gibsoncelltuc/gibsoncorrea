@@ -225,11 +225,9 @@ kit/balloon_air | b6, b8 | pronto | conferir na folha de contato se le bem; se p
 ## Video inteiro
 - Objeto heroi: kit/balloon | grandes momentos: b2, b6 | planos abertos: 5 | mistura: close 4% | medio 61% | aberto 35% | detalhe 0%
 - Interacoes: b3 avanca e o outro recua, b5 discutir
-- RISCOS GERAIS: 
-  - FOLHA 4: 5 item(ns) sem referencia visual: Os Primeiros Passageiros do Céu, cortesaos e multidao, ovelha, pato e galo, fogueira de palha, Fizeram um balão gigante de pano e papel. -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 5 item(ns) sem referencia visual: Os Primeiros Passageiros do Céu, cortesaos e multidao, ovelha, pato e galo, fogueira de palha, Fizeram um balão gigante de pano e papel.
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh montgolfier1783 bN bM` (so essas cenas).
