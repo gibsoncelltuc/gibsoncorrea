@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural -5% | Clima do video: playful | Cenario base: harbor | 
 - Narracao: Acontece que no volante ia um boneco astronauta, o Starman.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: senta @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

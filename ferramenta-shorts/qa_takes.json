@@ -1,4 +1,103 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 56,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.025, 0.378, 0.227, 0.685)"
+   ]
+  },
+  {
+   "f": 60,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.126, 0.355, 0.178, 0.715)"
+   ]
+  },
+  {
+   "f": 64,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.216, 0.334, 0.13, 0.742)"
+   ]
+  },
+  {
+   "f": 68,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.252, 0.324, 0.113, 0.752)"
+   ]
+  },
+  {
+   "f": 72,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.217, 0.33, 0.132, 0.738)"
+   ]
+  },
+  {
+   "f": 76,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.134, 0.347, 0.173, 0.71)"
+   ]
+  },
+  {
+   "f": 80,
+   "shot": "b0",
+   "why": [
+    "new: head/torso cropped (box -0.049, 0.365, 0.217, 0.682)"
+   ]
+  },
+  {
+   "f": 661,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 664,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 668,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 672,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 676,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 680,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 681,
+   "shot": "b6_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  }
+ ],
  "tiny": []
 }

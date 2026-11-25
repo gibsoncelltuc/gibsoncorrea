@@ -112,12 +112,13 @@
    ],
    "multidao": 0,
    "objetos": [
+    "carro",
     "kit/roadster"
    ],
    "palavras": 10,
    "cena": "b5",
    "frase": "Acontece que no volante ia um boneco astronauta, o Starman.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

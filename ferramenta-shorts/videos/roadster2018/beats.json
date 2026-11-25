@@ -103,7 +103,8 @@
    "h": 2.2,
    "d0": 14.5,
    "d1": 14.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "hora": "espaco"
   },
   {
    "shot": "wide",
@@ -366,8 +367,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Starman"
+      "quem": 0,
+      "faz": "entra_em",
+      "alvo": "carro",
+      "na": "volante"
      }
     ]
    },
@@ -572,7 +575,7 @@
   }
  ],
  "cinf": 1.5,
- "exp": 2.209,
+ "exp": 1.988,
  "visual": {
   "local": "Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, e o espaço",
   "quando": "6 de fevereiro de 2018, tarde (15h45)",
