@@ -26,10 +26,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em El Salvador, na América Central, e a ideia foi do presidente Na...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: close = close no rosto; empurra devagar
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): BUK (variante 0, expressao smug)
-- Animacao: encena
+- Animacao: conversar
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro)
+- CAMERA: close (rosto e ombros)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
@@ -62,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: DEP na esquerda, expressao smile; DEP no centro, expressao grin; BUK na direita, expressao smile; multidao de 10 (DEP) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "LEI APROVADA" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "LEI APROVADA" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (10.7-12.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (12.2-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -91,8 +91,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Para convencer o povo, o governo prometeu trinta dólares em bitcoin a ...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CLI (variante 0, expressao smile, segura coin); POV (variante 0, expressao grin) | multidao: 12 de CLI/POV
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/stall, kit/bitcoin
@@ -162,7 +162,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 3 (36.6-38.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
+## Cena b7 - O governo também comprou bitcoins com dinheiro público, e o preço da m...
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (1): BUK (variante 0, expressao nervous)
+- Animacao: reagir
+- Objetos/modelos: kit/bitcoin, kit/coin
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, governo, moeda, preco
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)
+- PERSONAGENS: BUK no centro, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "PREÇO DESPENCOU" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (39.5-41.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (41.1-42.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (42.6-44.2 s): mesmo angulo
+<!-- /FICHA -->
+
+## Cena b8 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -178,31 +201,33 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; DEP na direita, expressao laugh; multidao de 6 (POV, CLI) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (45.3-46.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (46.6-48.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b8 - Uma moeda digital, uma lei nova e um país no centro das atenções.
+## Cena b9 - Uma moeda digital, uma lei nova e um país no centro das atenções.
 - Cenario: loc_patio | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (3): BUK (variante 0, expressao smile); POV (variante 0, expressao grin); CLI (variante 0, expressao laugh)
+- Personagens principais (2): BUK (variante 0, expressao smile); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/bitcoin, kit/coin
+- Objetos/modelos: kit/bitcoin, kit/volcano, kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao smile; POV (comerciante) no centro, expressao grin; CLI na direita, expressao laugh; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
+- PERSONAGENS: BUK na esquerda, expressao smile; POV (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (43.4-45.0 s): mesmo angulo
-  - take 2 (45.0-46.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (49.3-50.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (50.9-52.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -217,17 +242,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bitcoin | b0, b2, b4, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b3, b5, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b2, b4, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b5, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 13% | medio 63% | aberto 24% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 21% | medio 64% | aberto 13% | detalhe 3%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -241,7 +266,7 @@ kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (48.0-49.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (49.6-51.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (53.9-55.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (55.5-57.2 s): mesmo angulo
 <!-- /FICHA -->
 
