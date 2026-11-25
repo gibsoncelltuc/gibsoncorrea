@@ -56,7 +56,7 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "PRO:0:scared:paper"
    ],
@@ -106,7 +106,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "shot": "wide",
@@ -176,7 +177,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "galpao",
    "who": [
     "MAR:0:grin"
@@ -184,8 +185,8 @@
    "props": [
     [
      "kit/pechblenda",
-     7.0,
-     -14.0,
+     0.0,
+     1.4,
      3.2,
      {
       "fixo": true
@@ -247,7 +248,9 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "detalhe": true,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -429,10 +432,6 @@
     ]
    },
    "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
@@ -444,7 +443,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",

@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: PERIGO, objeto na mao | - | -
+b0 | group | -  | interior, placa: PERIGO, objeto na mao | - | -
 b1 | wide | dia limpo | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | dia limpo | interior, objeto na mao | - | -
 b3 | group | dia chuva | interior, objeto na mao | encena: mistura (stir) @10 (acao + som de efeito) | -
@@ -16,5 +16,5 @@ b10 | close | dia limpo | interior, objeto na mao | encena: x_le (think) @1 (aca
 b11 | two | dia limpo | interior | - | -
 b12 | close | dia  | interior, placa: COMENTE! | - | -
 
-Mistura de planos: close 25% | medio 68% | aberto 5% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 25% | medio 66% | aberto 5% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal

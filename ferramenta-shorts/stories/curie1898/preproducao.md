@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior pedra | two | 1 | encena | kit/curie_box | paper | -
+b0 | interior pedra | group | 1 | encena | kit/curie_box | paper | -
 b1 | street | wide | 7 | batalha | kit/marco_eiffel | - | -
 b2 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
 b3 | interior galpao | group | 2 | conversar, INTERAGEM: aproxima-se | - | paper | -
