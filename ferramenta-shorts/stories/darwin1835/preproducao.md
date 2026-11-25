@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/finch, kit/bancada | - | -
 b1 | harbor | wide | 1 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
 b2 | harbor | wide | 8 | encena | kit/finch, kit/bancada, kit/navio_fragata | bag | -
-b3 | harbor | wide | 2 | conversar, batalha | kit/finch | paper | -
+b3 | harbor | wide | 2 | conversar, batalha | kit/navio_fragata, kit/finch | paper | -
 b4 | interior pedra | group | 1 | encena | kit/finch, kit/bancada | paper | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/finch_thick, kit/finch_long, kit/bancada | - | -
 b6 | harbor | two | 2 | reagir, INTERAGEM: cochichar, batalha | kit/finch_thick, kit/finch_long, kit/finch, kit/bancada | - | -

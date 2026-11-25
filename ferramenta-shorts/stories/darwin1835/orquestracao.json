@@ -78,7 +78,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/finch"
+    "kit/finch",
+    "kit/navio_fragata"
    ],
    "palavras": 15,
    "cena": "b3",

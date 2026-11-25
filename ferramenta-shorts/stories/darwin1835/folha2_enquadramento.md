@@ -22,12 +22,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: DAR (cientista) na esquerda, expressao neutral, segura bag; MAR (marinheiro) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/navio_fragata: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 46.1 m de altura x 43.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b3: "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: DAR (cientista) na esquerda, expressao suspicious, segura paper; MAR (marinheiro) na direita, expressao bored; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 46.1 m de altura x 43.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b4: "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
 - LOCAL: sala de pedra (governo/castelo); hora: day

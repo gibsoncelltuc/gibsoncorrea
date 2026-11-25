@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Darwin e os Tentilhões
 - Epoca: 1835 | Lugar: Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, tartarugas e iguanas; depois Londres | Quando: setembro e outubro de 1835 (Galapagos); 1837 (Gould em Londres); 1859 (o livro); de dia
-- HEROIS (objeto): kit/finch, kit/bancada, kit/finch_thick
+- HEROIS (objeto): kit/finch, kit/bancada, kit/navio_fragata
 - HEROIS (personagens): DAR, MAR
 - Cenarios: countryside, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/finch: 0.6 m reais -> escala 0.87 (estava 1.3: grande demais)
+- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais); kit/finch: 0.6 m reais -> escala 0.87 (estava 1.3: grande demais)
 
 ## Itens pesquisados
 
@@ -28,7 +28,7 @@ objeto | navio HMS Beagle | navio HMS Beagle / navio HMS Beagle 1835 | HMS Beagl
 objeto | livro A Origem das Especies | livro A Origem das Especies / livro A Origem das Especies 1835 | SEM REFERENCIA
 heroi | finch | tentilhoes / Darwin e os Tentilhões | Darwin's finches by Gould.jpg (referencias/darwin1835/prints/finch_ff01ef.jpg); Tentilhões de Darwin.png (referencias/darwin1835/prints/finch_e266b2.jpg); Darwin's finches.jpeg (referencias/darwin1835/prints/finch_6a438a.jpg)
 heroi | bancada | bancada | SEM REFERENCIA
-heroi | finch thick | finch thick | Thick-billed Seed-Finch Sporophila funerea - Flick (referencias/darwin1835/prints/finch_thick_947411.jpg); Sporophila funerea Arrocero piquigrueso Thick-bill (referencias/darwin1835/prints/finch_thick_5d6598.jpg); Sporophila funerea Arrocero piquigrueso Thick-bill (referencias/darwin1835/prints/finch_thick_0c77d4.jpg)
+heroi | navio fragata | navio fragata | SEM REFERENCIA
 epoca | navio da epoca | ship 1835 / ship | HMRC Vulcan (ship, 1835) in 1839 by Huggins (cropp (referencias/darwin1835/prints/navio_da_epoca_206ccf.jpg); Fantastic (ship, 1996) - Sète - October 2018.jpg (referencias/darwin1835/prints/navio_da_epoca_6e7426.jpg); Rio Tagus (ship, 1979), Sète cf11.jpg (referencias/darwin1835/prints/navio_da_epoca_363d29.jpg)
 
 ## Explicacoes (como funciona, com fonte)

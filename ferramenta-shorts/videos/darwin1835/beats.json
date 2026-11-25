@@ -194,6 +194,15 @@
       "nocol": true,
       "fixo": true
      }
+    ],
+    [
+     "kit/navio_fragata",
+     -8.0,
+     -34.0,
+     7.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "set": "harbor",
@@ -256,7 +265,18 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/navio_fragata",
+     -8.0,
+     -34.0,
+     7.65,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",

@@ -8,7 +8,7 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 3. b2: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 4. b2: objeto citado "kit/petri" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 5. b2: objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-6. b6: objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32%
+6. b6: objeto "kit/petri_mofo" saiu com 8% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um mofo esquecido no meio da bagunça acabou salvando milhões": 

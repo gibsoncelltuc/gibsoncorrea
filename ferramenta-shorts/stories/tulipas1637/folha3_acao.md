@@ -14,12 +14,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | susto | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b1 - 3.6s a 9.2s - 17 palavras - plano wide
 > "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda."
@@ -30,11 +24,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | HOLANDA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 10.3s a 14.3s - 14 palavras - plano two
 > "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil."
@@ -50,15 +39,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | pagava (13.6s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 4 | - | INTERACAO | discutir | OK |
 | 5 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: negocio na palavra leilão (10.5s): executa: moeda girando (compra/venda)
-- EFEITO: stars na palavra moedas (12.0s): executa: estrelinhas + som
-- ACAO: paga na palavra pagava (13.6s): executa: estende a mao com moedas + brilho
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b3 - 15.3s a 21.2s - 14 palavras - plano crowd
 > "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada."
@@ -72,15 +52,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | comprando (17.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | PLACA | TODO MUNDO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra comprando (17.0s): executa: estrelinhas + som
-- ACAO: paga na palavra comprando (17.0s): executa: estende a mao com moedas + brilho
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (grin), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b4 - 22.4s a 25.2s - 13 palavras - plano wide
 > "Contam que teve gente que trocou terras e casas por um único bulbo."
@@ -92,12 +63,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | trocou (23.4s) | ACAO: entrega | entrega | OK |
 | 2 | - | PLACA | 1 CASA = 1 BULBO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: entrega na palavra trocou (23.4s): executa: entrega
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b5 - 26.3s a 29.3s - 11 palavras - plano two
 > "Ninguém queria a flor. Queriam revender mais caro na semana seguinte."
@@ -109,12 +74,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | reverencia | OK |
 | 2 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: reverencia
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b6 - 30.5s a 34.7s - 14 palavras - plano two
 > "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
@@ -127,13 +86,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | comeu (31.5s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_come na palavra comeu (31.5s): executa: leva a comida a boca
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b7 - 36.0s a 41.0s - 16 palavras - plano group
 > "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão."
@@ -147,14 +99,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | LEILÃO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_abre na palavra abriu (39.1s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b8 - 42.0s a 47.2s - 15 palavras - plano orbit
 > "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador."
@@ -169,16 +113,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | discutir | OK |
 | 5 | - | PLACA | PÂNICO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra vender (45.7s): executa: estrelinhas + som
-- ACAO: negocio na palavra vender (45.7s): executa: moeda girando (compra/venda)
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 14: parada, reagindo (shock), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b9 - 48.5s a 54.0s - 18 palavras - plano wide
 > "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas."
@@ -189,11 +123,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | flores (52.0s) | ACAO: perde | mao na testa | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: perde na palavra flores (52.0s): executa: mao na testa
-<!-- /FISICA -->
 
 ## Cena b10 - 55.2s a 57.2s - 6 palavras - plano close
 > "O marinheiro, pelo menos, almoçou bem."
@@ -205,12 +134,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | almoçou (56.7s) | ACAO: x_come | leva a comida a boca | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_come na palavra almoçou (56.7s): executa: leva a comida a boca
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b11 - 58.3s a 61.6s - 13 palavras - plano two
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -219,10 +142,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
