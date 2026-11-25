@@ -39,7 +39,7 @@ torno((0, 0, 0), [(0.3, 0), (0.24, 0.18), (0.1, 0.42), (0.14, 0.5), (0.14, 0.7)]
 fim(0.01)
 # ---- canhao do seculo XX (antiaereo/de campanha): troca automatica do canhao antigo de rodas de madeira em historias de 1900 em diante ----
 novo('canhao_moderno')
-for a in (0.5, 2.6, 4.7): caixa((0.9 * math.cos(a), 0.08, 0.9 * math.sin(a)), (1.5, 0.12, 0.22), '#4b5a3c', rot=(0, 0, -a))
+for a in (0.5, 2.6, 4.7): caixa((0.75 * math.cos(a), 0.08, 0.75 * math.sin(a)), (1.5, 0.12, 0.22), '#4b5a3c', rot=(0, -a, 0))   # 25/11 LA: pes em estrela no chao (antes giravam no eixo errado e flutuavam soltos)
 cil((0, 0.35, 0), 0.34, 0.5, '#55653f'); caixa((0, 0.85, 0), (0.7, 0.6, 0.9), '#4b5a3c')
 cil((0, 1.25, 0.9), 0.075, 2.6, '#3c4631', rot=(math.pi / 2 - 0.7, 0, 0)); cil((0, 1.86, 1.62), 0.1, 0.3, '#2f3827', rot=(math.pi / 2 - 0.7, 0, 0))
 caixa((0, 1.0, 0.42), (1.1, 0.8, 0.06), '#55653f', rot=(-0.25, 0, 0)); cil((0.5, 0.9, -0.2), 0.16, 0.06, '#2f3827', rot=(0, math.pi / 2, 0))

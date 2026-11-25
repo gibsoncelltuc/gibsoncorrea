@@ -6,9 +6,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): ROE (variante 0, expressao grin, segura paper); ANA (variante 0, expressao surprised)
-- Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: kit/xray_plate, kit/marco_wurzburg
+- Personagens principais (2): ROE (variante 0, expressao grin); ANA (variante 0, expressao shock)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: kit/xray_alianca, kit/marco_wurzburg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cientista, corpo, dentro, primeira, propria
 - RISCOS: nenhum
 
@@ -43,32 +43,32 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Acontece que, do outro lado da sala, uma tela começou a brilhar no esc...
-- Cenario: interior madeira | luz: study | clima: limpo
+- Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROE (variante 0, expressao surprised)
 - Animacao: conversar
-- Objetos/modelos: kit/xray_plate
+- Objetos/modelos: kit/xray_alianca, kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brilhar, escuro, sala, tela
 - RISCOS: nenhum
 
 ## Cena b5 - Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.
-- Cenario: interior madeira | luz: study | clima: limpo
+- Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROE (variante 0, expressao shock)
 - Animacao: reagir
-- Objetos/modelos: kit/xray_plate, kit/crookes_tube
+- Objetos/modelos: kit/xray_alianca, kit/crookes_tube, kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, proprios, tela, tubo
 - RISCOS: nenhum
 
 ## Cena b6 - Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão del...
 - Cenario: interior madeira | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ROE (variante 0, expressao grin); ANA (variante 0, expressao smile)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/xray_plate
+- Animacao: conversar | interacao: aproxima-se
+- Objetos/modelos: kit/xray_alianca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
 
@@ -78,7 +78,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ANA (variante 0, expressao scared)
 - Animacao: conversar
-- Objetos/modelos: kit/xray_plate
+- Objetos/modelos: kit/xray_alianca, kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chapa, propria
 - RISCOS: nenhum
 
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ROE (variante 0, expressao smug); JOR (variante 0, expressao suspicious, segura paper)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desconhecido, raio
 - RISCOS: nenhum
@@ -127,16 +127,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/xray_plate | b0, b4, b5, b6, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/xray_alianca | b0, b4, b5, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_wurzburg | b0, b1, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/crookes_tube | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/xray_plate | b4, b5, b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 15% | detalhe 2%
-- Interacoes: b0 aproxima-se, b6 avanca e o outro recua, b9 o outro se aproxima
+- Objeto heroi: kit/xray_alianca | grandes momentos: b1, b8 | planos abertos: 3 | mistura: close 18% | medio 62% | aberto 15% | detalhe 4%
+- Interacoes: b0 susto, b6 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

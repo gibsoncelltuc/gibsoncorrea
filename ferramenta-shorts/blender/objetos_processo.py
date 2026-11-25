@@ -48,9 +48,14 @@ def borracha():
     escala(3.6)
     fim(.02)
 def microscopio():
-    novo('microscopio')
-    caixa((0, .02, 0), (.2, .04, .24), '#2a2a30'); tubo([(0, .04, -.08), (0, .2, -.08), (0, .28, -.02)], .025, '#2a2a30')
-    cil((0, .22, .03), .04, .2, '#e8e8ec', rot=(.4, 0, 0)); cil((0, .1, .04), .07, .015, '#e8e8ec'); cil((0, .33, -.02), .025, .06, '#2a2a30', rot=(.4, 0, 0))
+    novo('microscopio')                  # 25/11 Fleming: microscopio de laboratorio 1900-1930 (refs. Zeiss/Leitz): pe em ferradura preto, braco curvo preto, platina redonda, tubo preto com anel de latao, ocular e objetivas
+    caixa((0, .015, -.02), (.2, .03, .22), '#1e1e22'); caixa((-.07, .015, .08), (.06, .03, .08), '#1e1e22'); caixa((.07, .015, .08), (.06, .03, .08), '#1e1e22')   # pe em ferradura
+    tubo([(0, .03, -.08), (0, .14, -.09), (0, .24, -.06), (0, .3, -.01)], .03, '#1e1e22')   # braco curvo
+    cil((0, .14, .02), .075, .012, '#2a2a30'); caixa((0, .14, .02), (.11, .014, .11), '#2a2a30')   # platina
+    cil((0, .1, .02), .025, .02, '#c9a24a')                                                         # espelho/condensador de latao
+    cil((0, .26, .02), .03, .2, '#1e1e22'); cil((0, .23, .02), .034, .02, '#c9a24a'); cil((0, .37, .02), .022, .04, '#c9a24a')   # tubo + anel de latao + ocular
+    for a in (-.4, 0, .4): cil((m.sin(a) * .02, .165, .02 + m.cos(a) * .01), .01, .03, '#9a9aa2')   # objetivas no revolver
+    cil((.05, .22, -.06), .02, .015, '#c9a24a', rot=(0, 0, m.pi / 2)); cil((-.05, .22, -.06), .02, .015, '#c9a24a', rot=(0, 0, m.pi / 2))   # botoes de foco
     escala(3.4)
     fim(.01)
 def balanca():
