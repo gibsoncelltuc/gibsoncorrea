@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | animais, objeto na mao | - | -
+b0 | wide | -  | animais, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais, objeto na mao | animal: pig come (acao + som de efeito) | -
 b3 | two | -  | animais, objeto na mao | animal: pig leva o tiro e cai (acao + som de efeito); atirou (burst + som de tiro/explosao); encena: atira @5 (acao + som de efeito) | -
@@ -16,5 +16,5 @@ b10 | two | -  | interior, placa: 13 ANOS, objeto na mao | (rosto) determined (e
 b11 | two | -  | animais | - | -
 b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 10% | medio 79% | aberto 10% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 10% | medio 74% | aberto 16% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

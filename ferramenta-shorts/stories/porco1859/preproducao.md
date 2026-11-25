@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | countryside | two | 1 | reagir | nature/picket_fence, nature/haybale, pig | pitchfork | -
+b0 | countryside | wide | 1 | reagir | nature/picket_fence, nature/haybale, pig | pitchfork | -
 b1 | countryside | reveal | 2 | parados (so fala e pisca) | - | - | -
 b2 | countryside | two | 1 | encena | nature/flowerbed, nature/picket_fence, nature/scarecrow, tools/wheelbarrow, kit/batatas, buildings/barn, nature/haybale, pig | pitchfork | -
 b3 | countryside | two | 1 | atira | nature/picket_fence, nature/haybale, buildings/house_small, nature/tree_oak, pig | rifle | -
