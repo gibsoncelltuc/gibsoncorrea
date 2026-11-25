@@ -180,10 +180,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -196,7 +192,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "close",
@@ -434,10 +434,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -451,6 +447,10 @@
      }
     ]
    },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "_auto_vis": 1
   },
   {
