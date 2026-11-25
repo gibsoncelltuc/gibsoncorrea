@@ -461,12 +461,6 @@
       "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    },
