@@ -55,10 +55,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b8: "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
-- LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
+- LOCAL: mata tropical (arvores, cabanas); hora: day
+- CAMERA: medium; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: CHE na esquerda, expressao smug; ASH na direita, expressao grin; sem multidao; acao: cochichar
-- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b9: "O governador ganhou a guerra, mas o banquinho nunca foi dele."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

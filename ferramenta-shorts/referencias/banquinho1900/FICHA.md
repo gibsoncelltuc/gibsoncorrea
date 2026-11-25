@@ -7,7 +7,7 @@
 - Roupas: {'GOV': 'uniforme colonial branco com capacete branco', 'ASH': 'pano kente colorido amarrado no ombro', 'CHE': 'chefe ashanti com pano kente e adornos dourados', 'SOL': 'soldado colonial de 1900: farda caqui e capacete', 'PRE': 'funcionario britanico de terno escuro'}
 - Cenario real: aldeia ashanti com casas de barro e palha, floresta tropical, forte de pedra em Kumasi
 - Objetos: ['banquinho dourado (Sika Dwa Kofi)', 'forte britanico', 'fuzis']
-- Cenarios usados no video: countryside, interior loja, interior madeira, interior pedra, jungle
+- Cenarios usados no video: countryside, interior madeira, interior pedra, jungle
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, torre de refletor, veiculo moderno
 - Proibido pelo roteiro: -
 

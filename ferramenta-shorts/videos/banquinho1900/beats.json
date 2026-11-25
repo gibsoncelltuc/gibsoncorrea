@@ -370,20 +370,19 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "medium",
    "who": [
     "CHE:0:smug",
     "ASH:0:grin"
    ],
    "interacao": "cochichar",
    "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
-   "interior": "loja",
    "props": [
     [
      "kit/golden_stool",
-     0.0,
-     -0.8,
-     1.0,
+     0.6,
+     -0.6,
+     1.4,
      {
       "fixo": true
      }
@@ -415,7 +414,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "set": "jungle"
   },
   {
    "shot": "wide",
