@@ -9,7 +9,7 @@ b1 | loc_campo | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/volca
 b2 | loc_cidade | wide | 2 | conversar, batalha | - | - | -
 b3 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/scroll | paper | -
 b4 | loc_patio | two | 2 | reagir, INTERAGEM: susto | - | paper | -
-b5 | loc_campo | wide | 14 | encena | kit/ballot_box, kit/volcano | - | -
+b5 | loc_campo | wide | 14 | parados (so fala e pisca) | kit/ballot_box, kit/volcano | - | -
 b6 | loc_cidade | two | 2 | reagir, INTERAGEM: insiste | - | paper | -
 b7 | loc_cidade | orbit | 13 | comemorar, batalha | kit/porch | - | -
 b8 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | - | paper | -
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/ballot_box
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b7
 Interacoes entre personagens: b0 pular, b1 o outro se aproxima, b3 discutir, b4 susto, b6 insiste, b8 vai ate o outro
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

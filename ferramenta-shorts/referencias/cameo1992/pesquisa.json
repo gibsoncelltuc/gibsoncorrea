@@ -6,9 +6,46 @@
    "item": "O Cameo de Sete Segundos",
    "consultas": [
     "O Cameo de Sete Segundos",
-    "Em Esqueceram Mim Kevin Nova York Numa Kevin Donald Trump 1992"
+    "Um Natal Donald Trump Em Esqueceram Mim Kevin Trump 1992"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C",
+   "consultas": [
+    "Hotel Plaza Nova York",
+    "Hotel Plaza Nova York saguao dourado com lustres set de filmagem emissora CBC no Canada 19"
+   ],
+   "achados": [
+    {
+     "titulo": "New York City at night HDR.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/New_York_City_at_night_HDR.jpg/500px-New_York_City_at_night_HDR.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANew_York_City_at_night_HDR.jpg",
+     "descricao": "English location: \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_a6eb48.jpg",
+     "consulta": "Hotel Plaza Nova York"
+    },
+    {
+     "titulo": "5th Ave & Central Park South behind The Pond in Central Park 04.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_04.jpg/500px-5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_04.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_04.jpg",
+     "descricao": "Park, Cidade de \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_fa48b9.jpg",
+     "consulta": "Hotel Plaza Nova York"
+    },
+    {
+     "titulo": "5th Ave & Central Park South behind The Pond in Central Park 02.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_02.jpg/500px-5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_02.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A5th_Ave_%26_Central_Park_South_behind_The_Pond_in_Central_Park_02.jpg",
+     "descricao": "Park, Cidade de \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/cameo1992/prints/hotel_plaza_nova_york_saguao_dourado_com_417ee7.jpg",
+     "consulta": "Hotel Plaza Nova York"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -41,7 +78,7 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Currier_and_Ives_Liberty2.jpg/500px-Currier_and_Ives_Liberty2.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ACurrier_and_Ives_Liberty2.jpg",
      "descricao": "Day \\u003Cspan class=\\",
-     "ordem": 5,
+     "ordem": 4,
      "print": "referencias/cameo1992/prints/nova_york_df22ec.jpg",
      "consulta": "Nova York 1992"
     }
@@ -74,12 +111,12 @@
      "consulta": "Canadá 1992"
     },
     {
-     "titulo": "Elk bulls in velvet, Canada, 1992, AJT Johnsingh.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Elk_bulls_in_velvet%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg/500px-Elk_bulls_in_velvet%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AElk_bulls_in_velvet%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg",
-     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Elk bulls in velvet, \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/cameo1992/prints/canad__415fb9.jpg",
+     "titulo": "Bighorn sheep, Canada, 1992, AJT Johnsingh.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bighorn_sheep%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg/500px-Bighorn_sheep%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABighorn_sheep%2C_Canada%2C_1992%2C_AJT_Johnsingh.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Bighorn sheep, \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cameo1992/prints/canad__5389fa.jpg",
      "consulta": "Canadá 1992"
     }
    ]
@@ -122,39 +159,243 @@
    ]
   },
   {
+   "tipo": "pessoas",
+   "item": "Donald Trump (sobretudo escuro e gravata)",
+   "consultas": [
+    "Donald Trump sobretudo escuro e gravata",
+    "Donald Trump sobretudo escuro e gravata 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "Donald Trump official portrait.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/500px-Donald_Trump_official_portrait.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADonald_Trump_official_portrait.jpg",
+     "descricao": "portrait of \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__2bb10d.jpg",
+     "consulta": "Donald Trump"
+    },
+    {
+     "titulo": "Kim Jong-un and Donald Trump impersonators.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kim_Jong-un_and_Donald_Trump_impersonators.jpg/500px-Kim_Jong-un_and_Donald_Trump_impersonators.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKim_Jong-un_and_Donald_Trump_impersonators.jpg",
+     "descricao": "English Howard X and Dennis Alan, impersonators of Kim Jong-un and \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__99ccaf.jpg",
+     "consulta": "Donald Trump"
+    },
+    {
+     "titulo": "President Trump Visits St. John's Episcopal Church (49963649028).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/President_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg/500px-President_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APresident_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg",
+     "descricao": "15 June 2020 English author name string: \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cameo1992/prints/donald_trump_sobretudo_escuro_e_gravata__34d8e4.jpg",
+     "consulta": "Donald Trump"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "menino Kevin (gorro e casaco)",
+   "consultas": [
+    "menino Kevin gorro e casaco",
+    "menino Kevin gorro e casaco 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "Kevin bryan tarigan.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kevin_bryan_tarigan.jpg/500px-Kevin_bryan_tarigan.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKevin_bryan_tarigan.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English This is \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cameo1992/prints/menino_kevin_gorro_e_casaco__e40089.jpg",
+     "consulta": "Kevin"
+    },
+    {
+     "titulo": "Kevin Gazaud.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kevin_Gazaud.png/500px-Kevin_Gazaud.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKevin_Gazaud.png",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English French \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/menino_kevin_gorro_e_casaco__fe6c51.jpg",
+     "consulta": "Kevin"
+    },
+    {
+     "titulo": "Kevin Photo edited.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Kevin_Photo_edited.jpg/500px-Kevin_Photo_edited.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKevin_Photo_edited.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English object of statement has role: photographer author \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cameo1992/prints/menino_kevin_gorro_e_casaco__7ccb00.jpg",
+     "consulta": "Kevin"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "diretor Chris Columbus (barba, bone)",
+   "consultas": [
+    "diretor Chris Columbus barba bone",
+    "diretor Chris Columbus barba bone 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "10.13.12HouseOfSecretsPanelByLuigiNovi4.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/10.13.12HouseOfSecretsPanelByLuigiNovi4.jpg/500px-10.13.12HouseOfSecretsPanelByLuigiNovi4.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A10.13.12HouseOfSecretsPanelByLuigiNovi4.jpg",
+     "descricao": "of Secrets co authors, young adult writer Ned Vizzini and filmmaker \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/cameo1992/prints/diretor_chris_columbus_barba_bone__a48f34.jpg",
+     "consulta": "Chris Columbus"
+    },
+    {
+     "titulo": "10.13.12HouseOfSecretsPanelByLuigiNovi1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/10.13.12HouseOfSecretsPanelByLuigiNovi1.jpg/500px-10.13.12HouseOfSecretsPanelByLuigiNovi1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A10.13.12HouseOfSecretsPanelByLuigiNovi1.jpg",
+     "descricao": "of Secrets co authors, young adult writer Ned Vizzini and filmmaker \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/cameo1992/prints/diretor_chris_columbus_barba_bone__6e8020.jpg",
+     "consulta": "Chris Columbus"
+    },
+    {
+     "titulo": "Directors and Producers, Harry Potter series 03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Directors_and_Producers%2C_Harry_Potter_series_03.jpg/500px-Directors_and_Producers%2C_Harry_Potter_series_03.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADirectors_and_Producers%2C_Harry_Potter_series_03.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 8,
+     "print": "referencias/cameo1992/prints/diretor_chris_columbus_barba_bone__c741d9.jpg",
+     "consulta": "Chris Columbus"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "Lidenilson Delfino jornalista.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lidenilson_Delfino_jornalista.png/500px-Lidenilson_Delfino_jornalista.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALidenilson_Delfino_jornalista.png",
+     "descricao": "hereby publish it under the following license: English Lidenilson Delfino \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cameo1992/prints/jornalistas_d45637.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Boletim do Sindicato de Jornalistas, Nº1, Maio de 1941, capa.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Boletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg/500px-Boletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABoletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg",
+     "descricao": "DescriptionBoletim do Sindicato de \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/jornalistas_00a441.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Carteira de Jornalista da Federação Nacional dos Jornalistas Robson Brazzis.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Carteira_de_Jornalista_da_Federa%C3%A7%C3%A3o_Nacional_dos_Jornalistas_Robson_Brazzis.jpg/500px-Carteira_de_Jornalista_da_Federa%C3%A7%C3%A3o_Nacional_dos_Jornalistas_Robson_Brazzis.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACarteira_de_Jornalista_da_Federa%C3%A7%C3%A3o_Nacional_dos_Jornalistas_Robson_Brazzis.jpg",
+     "descricao": "publish it under the following license: English Indentidade profissional do \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/cameo1992/prints/jornalistas_acbb0d.jpg",
+     "consulta": "jornalistas"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "televisao",
+   "consultas": [
+    "televisao",
+    "televisao 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "Logótipo TVI.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Log%C3%B3tipo_TVI.png/500px-Log%C3%B3tipo_TVI.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALog%C3%B3tipo_TVI.png",
+     "descricao": "DescriptionLogótipo \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/televisao_711ca7.jpg",
+     "consulta": "televisao"
+    },
+    {
+     "titulo": "Debate com Luís Montenegro na TVI, Lisboa, Fev.2024 (53514019257).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Debate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg/500px-Debate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADebate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg",
+     "descricao": "Montenegro na \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/cameo1992/prints/televisao_8b05be.jpg",
+     "consulta": "televisao"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "camera de cinema",
+   "consultas": [
+    "camera de cinema",
+    "camera de cinema 1992"
+   ],
+   "achados": [
+    {
+     "titulo": "Blackmagic Cinema Camera.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Blackmagic_Cinema_Camera.JPG/500px-Blackmagic_Cinema_Camera.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABlackmagic_Cinema_Camera.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/cameo1992/prints/camera_de_cinema_652e58.jpg",
+     "consulta": "camera de cinema"
+    },
+    {
+     "titulo": "Alekseev A.A.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alekseev_A.A.jpg/500px-Alekseev_A.A.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAlekseev_A.A.jpg",
+     "descricao": "following conditions: attribution – You must give appropriate credit, provide \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/cameo1992/prints/camera_de_cinema_6c9a8e.jpg",
+     "consulta": "camera de cinema 1992"
+    }
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "tv",
    "consultas": [
-    "tv",
+    "televisao",
     "O Cameo de Sete Segundos"
    ],
    "achados": [
     {
-     "titulo": "CRT color enhanced.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CRT_color_enhanced.png/500px-CRT_color_enhanced.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACRT_color_enhanced.png",
-     "descricao": "English: Illustration showing the interior of a cathode-ray tube for color \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/cameo1992/prints/tv_c57365.jpg",
-     "consulta": "tv"
-    },
-    {
-     "titulo": "LG smart TV.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/LG_smart_TV.jpg/500px-LG_smart_TV.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALG_smart_TV.jpg",
-     "descricao": "smart \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/cameo1992/prints/tv_fca8d0.jpg",
-     "consulta": "tv"
-    },
-    {
-     "titulo": "Television IN A CORNER !.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Television_IN_A_CORNER_%21.jpg/500px-Television_IN_A_CORNER_%21.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATelevision_IN_A_CORNER_%21.jpg",
+     "titulo": "TVI logo.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/TVI_logo.jpg/500px-TVI_logo.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATVI_logo.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/cameo1992/prints/tv_9219ed.jpg",
-     "consulta": "tv"
+     "ordem": 1,
+     "print": "referencias/cameo1992/prints/tv_157ce9.jpg",
+     "consulta": "televisao"
+    },
+    {
+     "titulo": "Logótipo TVI.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Log%C3%B3tipo_TVI.png/500px-Log%C3%B3tipo_TVI.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALog%C3%B3tipo_TVI.png",
+     "descricao": "DescriptionLogótipo \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/cameo1992/prints/tv_711ca7.jpg",
+     "consulta": "televisao"
+    },
+    {
+     "titulo": "Debate com Luís Montenegro na TVI, Lisboa, Fev.2024 (53514019257).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Debate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg/500px-Debate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADebate_com_Lu%C3%ADs_Montenegro_na_TVI%2C_Lisboa%2C_Fev.2024_%2853514019257%29.jpg",
+     "descricao": "Montenegro na \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/cameo1992/prints/tv_8b05be.jpg",
+     "consulta": "televisao"
     }
    ]
   }

@@ -127,7 +127,7 @@
    "palavras": 9,
    "cena": "b5",
    "frase": "No dia da eleição, os salvadorenhos foram às urnas.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

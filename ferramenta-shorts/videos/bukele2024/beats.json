@@ -85,6 +85,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "reeleito"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -99,7 +109,17 @@
    "mapa": "EL SALVADOR",
    "say": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
    "text": "NAYIB BUKELE",
-   "titulo": true
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "mapa",
+      "na": "Salvador"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -115,7 +135,17 @@
    "sfx": [
     "ding@40"
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "prometendo"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -150,6 +180,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/scroll",
+      "na": "Constituição"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -172,7 +212,17 @@
    "batalha": false,
    "impact": false,
    "tiros": false,
-   "interior": false
+   "interior": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "ilegal"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -214,6 +264,16 @@
     ]
    },
    "_enq_shot": "crowd",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "urna",
+      "na": "urnas"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -240,7 +300,17 @@
    ],
    "set": "loc_cidade",
    "text": "84,6%",
-   "titulo": true
+   "titulo": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "votos"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -277,7 +347,17 @@
    "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "light": "dusk",
    "impact": false,
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "comemorou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -301,7 +381,17 @@
      ]
     ]
    },
-   "text": "106 → 2,4"
+   "text": "106 → 2,4",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "grafico",
+      "na": "caíram"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -339,6 +429,16 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "prisao",
+      "na": "prisões"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -376,6 +476,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "populares"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

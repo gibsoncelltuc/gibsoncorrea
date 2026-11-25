@@ -123,7 +123,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao grin); POV (variante 1, expressao smile) | multidao: 12 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/ballot_box, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eleicao, salvadorenhos, urnas
 - RISCOS: nenhum

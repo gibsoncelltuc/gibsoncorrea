@@ -6,9 +6,46 @@
    "item": "O Ditador Mais Legal do Mundo",
    "consultas": [
     "O Ditador Mais Legal do Mundo",
-    "Em El Salvador Nayib Bukele Poucos San Salvador Primeiro 2021"
+    "Um Era Nayib Bukele El Salvador Dias Primeiro 2021"
    ],
    "achados": []
+  },
+  {
+   "tipo": "lugar",
+   "item": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",
+   "consultas": [
+    "San Salvador El Salvador",
+    "San Salvador El Salvador 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Iglesia de San Salvador, Luesia, Zaragoza, España, 2023-01-04, DD 80-82 HDR.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Iglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_80-82_HDR.jpg/500px-Iglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_80-82_HDR.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_80-82_HDR.jpg",
+     "descricao": "Alike 4.0 truetrue English Church of St \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__72e170.jpg",
+     "consulta": "San Salvador El Salvador"
+    },
+    {
+     "titulo": "Church of San Justo and Church of El Salvador, Segovia.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Church_of_San_Justo_and_Church_of_El_Salvador%2C_Segovia.jpg/500px-Church_of_San_Justo_and_Church_of_El_Salvador%2C_Segovia.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AChurch_of_San_Justo_and_Church_of_El_Salvador%2C_Segovia.jpg",
+     "descricao": "choice. 346 842 1992 1672 3456 2592 Church of \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__b52848.jpg",
+     "consulta": "San Salvador El Salvador"
+    },
+    {
+     "titulo": "Iglesia de San Salvador, Luesia, Zaragoza, España, 2023-01-04, DD 37-39 HDR.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Iglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_37-39_HDR.jpg/500px-Iglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_37-39_HDR.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIglesia_de_San_Salvador%2C_Luesia%2C_Zaragoza%2C_Espa%C3%B1a%2C_2023-01-04%2C_DD_37-39_HDR.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Church of St \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/bukelebio2021/prints/san_salvador_el_salvador_ruas_do_centro__7d6b83.jpg",
+     "consulta": "San Salvador El Salvador"
+    }
+   ]
   },
   {
    "tipo": "lugar",
@@ -56,6 +93,15 @@
    ],
    "achados": [
     {
+     "titulo": "Miss World 2021 map.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Miss_World_2021_map.png/500px-Miss_World_2021_map.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMiss_World_2021_map.png",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/mundo_bf271f.jpg",
+     "consulta": "Mundo 2021"
+    },
+    {
      "titulo": "Catedral de María Reina del Mundo, Montreal, Canadá, 2017-08-11, DD 37-39 HDR.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Catedral_de_Mar%C3%ADa_Reina_del_Mundo%2C_Montreal%2C_Canad%C3%A1%2C_2017-08-11%2C_DD_37-39_HDR.jpg/500px-Catedral_de_Mar%C3%ADa_Reina_del_Mundo%2C_Montreal%2C_Canad%C3%A1%2C_2017-08-11%2C_DD_37-39_HDR.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ACatedral_de_Mar%C3%ADa_Reina_del_Mundo%2C_Montreal%2C_Canad%C3%A1%2C_2017-08-11%2C_DD_37-39_HDR.jpg",
@@ -72,15 +118,6 @@
      "ordem": 3,
      "print": "referencias/bukelebio2021/prints/mundo_4ca3fc.jpg",
      "consulta": "Mundo 2021"
-    },
-    {
-     "titulo": "Carla Yules as Miss World Asia 2022.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Carla_Yules_as_Miss_World_Asia_2022.jpg/500px-Carla_Yules_as_Miss_World_Asia_2022.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACarla_Yules_as_Miss_World_Asia_2022.jpg",
-     "descricao": "\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/bukelebio2021/prints/mundo_fd06bc.jpg",
-     "consulta": "Mundo 2021"
     }
    ]
   },
@@ -93,6 +130,15 @@
    ],
    "achados": [
     {
+     "titulo": "HK WC night Johnston Road shop Maple Fashion Clothing Store July 2021 SS2.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/HK_WC_night_Johnston_Road_shop_Maple_Fashion_Clothing_Store_July_2021_SS2.jpg/500px-HK_WC_night_Johnston_Road_shop_Maple_Fashion_Clothing_Store_July_2021_SS2.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHK_WC_night_Johnston_Road_shop_Maple_Fashion_Clothing_Store_July_2021_SS2.jpg",
+     "descricao": "provide a link to \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/roupas_e_ruas_de_2021_b29385.jpg",
+     "consulta": "2021 fashion clothing"
+    },
+    {
      "titulo": "HK WCD Wan Chai Johnston Road shop clothing Maple Fashion July 2021 SS2 02.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/HK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_02.jpg/500px-HK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_02.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AHK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_02.jpg",
@@ -102,22 +148,235 @@
      "consulta": "2021 fashion clothing"
     },
     {
-     "titulo": "020211107 132834 Fashion in 2021, Silesia.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/020211107_132834_Fashion_in_2021%2C_Silesia.jpg/500px-020211107_132834_Fashion_in_2021%2C_Silesia.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A020211107_132834_Fashion_in_2021%2C_Silesia.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/bukelebio2021/prints/roupas_e_ruas_de_2021_b6ea49.jpg",
+     "titulo": "HK WCD Wan Chai Johnston Road shop clothing Maple Fashion July 2021 SS2 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/HK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_01.jpg/500px-HK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHK_WCD_Wan_Chai_Johnston_Road_shop_clothing_Maple_Fashion_July_2021_SS2_01.jpg",
+     "descricao": "provide a link to \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bukelebio2021/prints/roupas_e_ruas_de_2021_1496e9.jpg",
      "consulta": "2021 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Nayib Bukele (jaqueta de couro escura, bone virado ou camisa social, b",
+   "consultas": [
+    "Nayib Bukele jaqueta de couro escura bone virado ou camisa social barba",
+    "Nayib Bukele jaqueta de couro escura bone virado ou camisa social barba 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Presidente Bukele (cropped).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Presidente_Bukele_%28cropped%29.jpg/500px-Presidente_Bukele_%28cropped%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APresidente_Bukele_%28cropped%29.jpg",
+     "descricao": "DescriptionPresidente \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/nayib_bukele_jaqueta_de_couro_escura_bon_cffca9.jpg",
+     "consulta": "Nayib Bukele"
     },
     {
-     "titulo": "Takko Fashion, Ommoord, Rotterdam (2021) 01.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Takko_Fashion%2C_Ommoord%2C_Rotterdam_%282021%29_01.jpg/500px-Takko_Fashion%2C_Ommoord%2C_Rotterdam_%282021%29_01.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATakko_Fashion%2C_Ommoord%2C_Rotterdam_%282021%29_01.jpg",
-     "descricao": "truetrue English A small local Takko \\u003Cspan class=\\",
-     "ordem": 9,
-     "print": "referencias/bukelebio2021/prints/roupas_e_ruas_de_2021_bbf4e5.jpg",
-     "consulta": "2021 fashion clothing"
+     "titulo": "Nayib Bukele (53255923063 6fe7d10a1b o).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Nayib_Bukele_%2853255923063_6fe7d10a1b_o%29.jpg/500px-Nayib_Bukele_%2853255923063_6fe7d10a1b_o%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANayib_Bukele_%2853255923063_6fe7d10a1b_o%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bukelebio2021/prints/nayib_bukele_jaqueta_de_couro_escura_bon_156297.jpg",
+     "consulta": "Nayib Bukele"
+    },
+    {
+     "titulo": "Nayib Bukele and Karim Bukele.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Nayib_Bukele_and_Karim_Bukele.png/500px-Nayib_Bukele_and_Karim_Bukele.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ANayib_Bukele_and_Karim_Bukele.png",
+     "descricao": "org/licenses/by/3.0CC BY 3.0 Creative Commons Attribution 3.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/bukelebio2021/prints/nayib_bukele_jaqueta_de_couro_escura_bon_427ebe.jpg",
+     "consulta": "Nayib Bukele"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "manifestantes com cartazes",
+   "consultas": [
+    "manifestantes com cartazes",
+    "manifestantes com cartazes 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Signs on protest, Ceasefire now, free palestine.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Signs_on_protest%2C_Ceasefire_now%2C_free_palestine.jpg/500px-Signs_on_protest%2C_Ceasefire_now%2C_free_palestine.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASigns_on_protest%2C_Ceasefire_now%2C_free_palestine.jpg",
+     "descricao": "Fevereiro de 2024: Durante manifestação de solidariedade \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bukelebio2021/prints/manifestantes_com_cartazes_9bcbb5.jpg",
+     "consulta": "manifestantes com cartazes"
+    },
+    {
+     "titulo": "Marcha das Vadias in Porto Alegre in 2015 (23429103635).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Marcha_das_Vadias_in_Porto_Alegre_in_2015_%2823429103635%29.jpg/500px-Marcha_das_Vadias_in_Porto_Alegre_in_2015_%2823429103635%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMarcha_das_Vadias_in_Porto_Alegre_in_2015_%2823429103635%29.jpg",
+     "descricao": "described at URL: https://www.flickr.\\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/bukelebio2021/prints/manifestantes_com_cartazes_100537.jpg",
+     "consulta": "manifestantes com cartazes"
+    },
+    {
+     "titulo": "CAE - Comissão de Assuntos Econômicos (34005799774).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/CAE_-_Comiss%C3%A3o_de_Assuntos_Econ%C3%B4micos_%2834005799774%29.jpg/500px-CAE_-_Comiss%C3%A3o_de_Assuntos_Econ%C3%B4micos_%2834005799774%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACAE_-_Comiss%C3%A3o_de_Assuntos_Econ%C3%B4micos_%2834005799774%29.jpg",
+     "descricao": "https://www.flickr.\\u003Cspan class=\\",
+     "ordem": 10,
+     "print": "referencias/bukelebio2021/prints/manifestantes_com_cartazes_c96498.jpg",
+     "consulta": "manifestantes com cartazes"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas",
+   "consultas": [
+    "jornalistas",
+    "jornalistas 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Lidenilson Delfino jornalista.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lidenilson_Delfino_jornalista.png/500px-Lidenilson_Delfino_jornalista.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALidenilson_Delfino_jornalista.png",
+     "descricao": "hereby publish it under the following license: English Lidenilson Delfino \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/jornalistas_d45637.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Boletim do Sindicato de Jornalistas, Nº1, Maio de 1941, capa.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Boletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg/500px-Boletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABoletim_do_Sindicato_de_Jornalistas%2C_N%C2%BA1%2C_Maio_de_1941%2C_capa.jpg",
+     "descricao": "DescriptionBoletim do Sindicato de \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bukelebio2021/prints/jornalistas_00a441.jpg",
+     "consulta": "jornalistas"
+    },
+    {
+     "titulo": "Jornalista Maristela Crispim.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jornalista_Maristela_Crispim.jpg/500px-Jornalista_Maristela_Crispim.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJornalista_Maristela_Crispim.jpg",
+     "descricao": "truetrue English Portuguese Maristela Crispim (Rio de Janeiro, 12 de junho de 1970) é uma \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/bukelebio2021/prints/jornalistas_6b86fc.jpg",
+     "consulta": "jornalistas"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "celular com o perfil",
+   "consultas": [
+    "celular com o perfil",
+    "celular com o perfil 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Corvus caurinus (profile).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Corvus_caurinus_%28profile%29.jpg/500px-Corvus_caurinus_%28profile%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACorvus_caurinus_%28profile%29.jpg",
+     "descricao": "DescriptionCorvus caurinus (\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/bukelebio2021/prints/celular_com_o_perfil_391bbc.jpg",
+     "consulta": "celular perfil"
+    },
+    {
+     "titulo": "DouglasMacArthur.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DouglasMacArthur.jpg/500px-DouglasMacArthur.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADouglasMacArthur.jpg",
+     "descricao": "English Vietnamese Douglas MacArthur applies to jurisdiction: United States determination method or standard: work of the federal government of the United",
+     "ordem": 3,
+     "print": "referencias/bukelebio2021/prints/celular_com_o_perfil_031d87.jpg",
+     "consulta": "celular perfil"
+    },
+    {
+     "titulo": "Senescence.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Senescence.JPG/500px-Senescence.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASenescence.JPG",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following licenses: You may select the license of your choice. English determination",
+     "ordem": 4,
+     "print": "referencias/bukelebio2021/prints/celular_com_o_perfil_edff0e.jpg",
+     "consulta": "celular perfil"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cartazes de protesto",
+   "consultas": [
+    "cartazes de protesto",
+    "cartazes de protesto 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Protestos Estudantes UFSC - 10.05.1968 10.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Protestos_Estudantes_UFSC_-_10.05.1968_10.jpg/500px-Protestos_Estudantes_UFSC_-_10.05.1968_10.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AProtestos_Estudantes_UFSC_-_10.05.1968_10.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/bukelebio2021/prints/cartazes_de_protesto_30e632.jpg",
+     "consulta": "cartazes de protesto"
+    },
+    {
+     "titulo": "Protestos Estudantes UFSC - 10.05.1968 09.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Protestos_Estudantes_UFSC_-_10.05.1968_09.jpg/500px-Protestos_Estudantes_UFSC_-_10.05.1968_09.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AProtestos_Estudantes_UFSC_-_10.05.1968_09.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/bukelebio2021/prints/cartazes_de_protesto_7f7bed.jpg",
+     "consulta": "cartazes de protesto"
+    },
+    {
+     "titulo": "Protestos Estudantes UFSC - 10.05.1968 16.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Protestos_Estudantes_UFSC_-_10.05.1968_16.jpg/500px-Protestos_Estudantes_UFSC_-_10.05.1968_16.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AProtestos_Estudantes_UFSC_-_10.05.1968_16.jpg",
+     "descricao": "estudantes da Universidade Federal de Santa Catarina no dia 10 \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/bukelebio2021/prints/cartazes_de_protesto_e94601.jpg",
+     "consulta": "cartazes de protesto"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "urna de votacao",
+   "consultas": [
+    "urna de votacao",
+    "urna de votacao 2021"
+   ],
+   "achados": [
+    {
+     "titulo": "Fidlar EV 2000 DRE voting machine.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Fidlar_EV_2000_DRE_voting_machine.jpg/500px-Fidlar_EV_2000_DRE_voting_machine.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFidlar_EV_2000_DRE_voting_machine.jpg",
+     "descricao": "under the following license: English A Fidlar Doubleday EV 2000 DRE \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/bukelebio2021/prints/urna_de_votacao_bddcde.jpg",
+     "consulta": "urna de votacao"
+    },
+    {
+     "titulo": "Ramlaxman Voting Machine.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Ramlaxman_Voting_Machine.png/500px-Ramlaxman_Voting_Machine.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARamlaxman_Voting_Machine.png",
+     "descricao": "The Ramlaxman \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/bukelebio2021/prints/urna_de_votacao_ea5a76.jpg",
+     "consulta": "urna de votacao"
+    },
+    {
+     "titulo": "IVotronicVVPAT.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IVotronicVVPAT.jpg/500px-IVotronicVVPAT.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIVotronicVVPAT.jpg",
+     "descricao": "following license: English ES\\u0026amp;S iVotronic direct-recording-electronic (DRE) \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/bukelebio2021/prints/urna_de_votacao_d1416b.jpg",
+     "consulta": "urna de votacao"
     }
    ]
   },
@@ -125,36 +384,36 @@
    "tipo": "heroi",
    "item": "phone",
    "consultas": [
-    "phone",
+    "celular com o perfil",
     "O Ditador Mais Legal do Mundo"
    ],
    "achados": [
     {
-     "titulo": "Northern Electric N415H 02.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Northern_Electric_N415H_02.jpg/500px-Northern_Electric_N415H_02.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ANorthern_Electric_N415H_02.jpg",
-     "descricao": "DescriptionNorthern Electric N415H 02.jpg English: Northern Electric \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/bukelebio2021/prints/phone_9325bc.jpg",
-     "consulta": "phone"
-    },
-    {
-     "titulo": "Telephone in the Botanical Garden of Sao Paulo.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Telephone_in_the_Botanical_Garden_of_Sao_Paulo.jpg/500px-Telephone_in_the_Botanical_Garden_of_Sao_Paulo.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATelephone_in_the_Botanical_Garden_of_Sao_Paulo.jpg",
-     "descricao": "of this work, hereby publish it under the following license: English \\u003Cspan class=\\",
+     "titulo": "ClemensXI.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/ClemensXI.jpg/500px-ClemensXI.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AClemensXI.jpg",
+     "descricao": "English Clemens XI image on the coins Igbo Clemens XI Vietnamese Giáo hoàng Clement XI trên một đồng xu cổ Hindi सिक्कों पर क्लेमेंस XI का चित्र object",
      "ordem": 2,
-     "print": "referencias/bukelebio2021/prints/phone_281578.jpg",
-     "consulta": "phone"
+     "print": "referencias/bukelebio2021/prints/phone_994c57.jpg",
+     "consulta": "celular perfil"
     },
     {
-     "titulo": "Two K6 phone kiosks in Hartley Wintney.JPG",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Two_K6_phone_kiosks_in_Hartley_Wintney.JPG/500px-Two_K6_phone_kiosks_in_Hartley_Wintney.JPG",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwo_K6_phone_kiosks_in_Hartley_Wintney.JPG",
-     "descricao": "DescriptionTwo K6 \\u003Cspan class=\\",
+     "titulo": "A bad sales day.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/A_bad_sales_day.jpg/500px-A_bad_sales_day.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bad_sales_day.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: This file is licensed under the Creative Commons Attribution-Share",
+     "ordem": 6,
+     "print": "referencias/bukelebio2021/prints/phone_e2cc05.jpg",
+     "consulta": "celular perfil"
+    },
+    {
+     "titulo": "Cavalier Garde Républicaine trois-quart dos.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cavalier_Garde_R%C3%A9publicaine_trois-quart_dos.jpg/500px-Cavalier_Garde_R%C3%A9publicaine_trois-quart_dos.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACavalier_Garde_R%C3%A9publicaine_trois-quart_dos.jpg",
+     "descricao": "I, the copyright holder of this work, hereby publish it under the following license: English Traditional Chinese 巴士底日閱兵期間，法國共和國衛隊的一名騎兵 URL: https://commons",
      "ordem": 7,
-     "print": "referencias/bukelebio2021/prints/phone_814878.jpg",
-     "consulta": "phone"
+     "print": "referencias/bukelebio2021/prints/phone_35afa3.jpg",
+     "consulta": "celular perfil"
     }
    ]
   }

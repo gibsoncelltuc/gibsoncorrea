@@ -4,14 +4,14 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: 84,6% | - | -
 b1 | two | -  | placa: NAYIB BUKELE, mapa | - | -
-b2 | wide | -  | batalha aberta com tiros | chegou (dust + som de impacto); encena: chega (point) @1 (acao + som de efeito); encena: fala (point) @4 (acao + som de efeito) | -
-b3 | two | -  | interior, objeto na mao | encena: chega (point) @5 (acao + som de efeito) | -
-b4 | two | -  | objeto na mao | ilegal (ring + som de alerta); encena: duvida (shrug) @8 (acao + som de efeito); encena: x_defende (cross) @11 (acao + som de efeito) | -
-b5 | wide | -  | tropa | encena: voto (reach) @3 (acao + som de efeito); encena: voto (reach) @8 (acao + som de efeito) | -
+b2 | wide | -  | batalha aberta com tiros | chegou (dust + som de impacto); encena: fala (point) @4 (acao + som de efeito) | -
+b3 | two | -  | interior, objeto na mao | - | -
+b4 | two | -  | objeto na mao | ilegal (ring + som de alerta) | -
+b5 | wide | -  | tropa | - | -
 b6 | two | -  | placa: 84,6%, objeto na mao | - | -
-b7 | orbit | dusk  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); encena: chega (point) @2 (acao + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
+b7 | orbit | dusk  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); encena: vence (up) @7 (acao + som de efeito) | -
 b8 | two | -  | interior, placa: 106 → 2,4, objeto na mao | caíram (dust + som de impacto) | -
-b9 | wide | -  | tropa, objeto na mao | encena: protesto (up) @5 (acao + som de efeito) | -
+b9 | wide | -  | tropa, objeto na mao | - | -
 b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
