@@ -70,3 +70,15 @@
 
 ## 25/11 07:17 autocorrecao de visibilidade
 - b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 07:21 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+
+## 25/11 07:22 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 07:40 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)

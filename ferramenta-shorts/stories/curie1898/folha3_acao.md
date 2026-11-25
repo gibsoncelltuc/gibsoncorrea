@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
+## Cena b0 - 0.2s a 3.7s - 13 palavras - plano group
 > "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção."
 
 - LEITURA DA FRASE: sentido FATO
@@ -72,31 +72,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 19.0s a 23.9s - 15 palavras - plano two
+## Cena b4 - 19.0s a 23.9s - 15 palavras - plano wide
 > "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) MAR mexe a mistura | na palavra "Mexendo" (19.0s)
-  2) objeto acao do motor: examina | na palavra "descobriram" (21.1s)
+  2) PIE acao do motor: examina | na palavra "descobriram" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Mexendo (19.0s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
 | 2 | descobriram (21.1s) | EFEITO: ring | onda + som | OK |
 | 3 | descobriram (21.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | TONELADAS DE MINÉRIO | OK |
+| 4 | - | PLACA | TONELADAS DE MINÉRIO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: mistura na palavra Mexendo (19.0s): executa: mexe a panela (borbulhando)
 - EFEITO: ring na palavra descobriram (21.1s): executa: onda + som
 - ACAO: examina na palavra descobriram (21.1s): executa: examina com lupa/microscopio/balanca
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 25.0s a 28.4s - 13 palavras - plano close
+## Cena b5 - 25.0s a 28.4s - 13 palavras - plano two
 > "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -116,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 29.4s a 32.7s - 9 palavras - plano two
+## Cena b6 - 29.4s a 32.7s - 9 palavras - plano group
 > "Ela carregava frascos no bolso. Ninguém sabia do perigo."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)

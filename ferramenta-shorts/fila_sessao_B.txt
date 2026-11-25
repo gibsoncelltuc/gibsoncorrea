@@ -15,7 +15,6 @@ rontgen1895
 tycho1566
 semmelweis1847
 velcro1941
-montgolfier1783
 #PAUSADO ese_dinheiro
 #PAUSADO ese_lua
 #PAUSADO ese_napoleao

@@ -9,7 +9,6 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "loc_montanha",
    "street"
   ],
   "cenarios_trocados": [
@@ -24,17 +23,17 @@
     "loc_campo"
    ],
    [
-    "cena 6",
-    "medieval",
-    "loc_campo"
-   ],
-   [
     "cena 8",
     "medieval",
     "loc_campo"
    ],
    [
     "cena 9",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 11",
     "countryside",
     "loc_campo"
    ]
@@ -62,14 +61,17 @@
   "kit/balloon_air",
   "kit/campfire",
   "kit/marco_versalhes",
+  "kit/room_europa_wood",
   "kit/room_franca_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
   "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large",
-  "nature/bush",
-  "nature/tree_oak",
-  "nature/tree_pine"
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",

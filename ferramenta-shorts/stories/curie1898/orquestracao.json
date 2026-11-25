@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRO"
    ],
@@ -86,9 +86,10 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MAR"
+    "MAR",
+    "PIE"
    ],
    "multidao": 0,
    "objetos": [
@@ -105,7 +106,7 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MAR"
    ],
@@ -123,7 +124,7 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "MAR",
     "PIE"

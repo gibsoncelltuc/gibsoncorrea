@@ -15,7 +15,7 @@ b6 [afirmativa] "A gosma caiu em cima do fogão quente. Ele esperava que derrete
     - cai quem=0 alvo=- na="caiu"
     - x_espera quem=0 alvo=- na="esperava"
 b7 [afirmativa] "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada."
-    - vira quem=0 alvo=- na="elástica"
+    - mostra quem=- alvo=- na="borracha"
 b8 [afirmativa] "Mas outros copiaram a ideia, e ele morreu cheio de dívidas."
     - fala quem=0 alvo=- na="copiaram"
 b9 [fato] "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro."

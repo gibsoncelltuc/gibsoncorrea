@@ -116,3 +116,7 @@
 ## 25/11 02:59 autocorrecao de visibilidade
 - b9: objeto citado "kit/tires" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
 - b9: objeto "kit/tires" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 07:20 autocorrecao de visibilidade
+- b9: objeto "kit/tires" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b9: objeto "kit/borracha" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
