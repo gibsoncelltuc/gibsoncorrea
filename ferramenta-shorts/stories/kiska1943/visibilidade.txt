@@ -1,2 +1,0 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

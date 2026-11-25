@@ -120,8 +120,8 @@
    "props": [
     [
      "kit/dog_sit",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      2.0,
      {
       "fixo": true
@@ -173,7 +173,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 1
   },
   {
    "shot": "group",
@@ -252,8 +252,7 @@
     ]
    ],
    "who": [
-    "USA:0:stern",
-    "CAN:1:smile"
+    "USA:0:stern"
    ],
    "bloco": "prova",
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -288,12 +287,12 @@
    "cx": 0.0,
    "cz": -4.2,
    "h": 2.8,
-   "d0": 13.6,
-   "d1": 10.6,
+   "d0": 13.0,
+   "d1": 11.0,
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "shot": "group",
@@ -699,5 +698,6 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
  "loop_frase_ok": true,
- "max_wide": 5
+ "max_wide": 5,
+ "clima": "neblina"
 }
