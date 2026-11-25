@@ -2059,7 +2059,7 @@ def build_beat(k, b):
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
     elif k > 0:   # 25/11 (Gibson): FILMAGEM CONTINUA -- mesmo cenario = a camera DESLIZA do enquadramento anterior para o novo (sem corte), seguindo os personagens; so' corta seco quando o cenario muda
         _loc = lambda b_: ('int:' + str(b_.get('interior'))) if b_.get('interior') else ('set:' + str(b_.get('set', SET)))
-        if _loc(beats[k - 1]) == _loc(b) and not b.get('mapa') and not b.get('explica') and not beats[k - 1].get('explica') and not b.get('veiculo'): opts.append("trans: 'cut'"); opts.append('glide: true'); opts.append('glideN: 26'); b['_cont'] = True
+        if _loc(beats[k - 1]) == _loc(b) and not b.get('mapa') and not b.get('explica') and not beats[k - 1].get('explica') and not b.get('veiculo'): opts.append("trans: 'cut'"); opts.append('glide: true'); opts.append('glideN: 40'); b['_cont'] = True
         else: opts.append("trans: 'cut'")
     if _VIRAL and not wide and 'nocut: true' not in opts: opts.append('nocut: true')   # continua: dentro da cena nao ha sub-corte; a camera respira e acompanha
     if b.get('vary') is False and not wide: opts.append('vary: false')
