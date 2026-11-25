@@ -59,14 +59,12 @@
      }
     ]
    ],
-   "text": "1941",
    "fx": [
     "stars@30"
    ],
    "sfx": [
     "ding@30"
    ],
-   "say": "Uma das invenções mais usadas do mundo nasceu de um passeio com o cachorro.",
    "animals": [
     [
      "dog",
@@ -74,25 +72,62 @@
      0.8
     ]
    ],
-   "verbos_ok": [
-    "nasce"
-   ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: o velcro nasceu de um passeio com o cachorro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passeio"
+     }
+    ]
+   },
+   "text": "INVENTADO POR UM CACHORRO",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:smile"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.4,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E hoje ela está no seu tênis.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tênis"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -106,11 +141,21 @@
      0.6
     ]
    ],
-   "say": "Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Mestral voltou de uma caminhada com o seu cachorro.",
    "impact": false,
    "shot_lock": true,
    "mapa": "SUÍÇA",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -141,27 +186,25 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "O pelo do cachorro e a calça dele estavam cheios de carrapichos.",
    "impact": false,
    "shot_lock": true,
    "set": "mountain",
    "detalhe": false,
-   "quadro": {
-    "local": "encosta de montanha",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "O cachorro e a calça dele estavam cheios de carrapichos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carrapichos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -189,30 +232,22 @@
      }
     ]
    ],
-   "say": "Curioso, ele levou um carrapicho para casa e olhou no microscópio.",
    "detalhe": true,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/microscopio",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Curioso, ele olhou um carrapicho no microscópio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "olhou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -239,23 +274,21 @@
     "ding@20",
     "sting@50"
    ],
-   "say": "Acontece que cada espinho tinha um ganchinho na ponta, que agarrava nas voltinhas do tecido.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que cada espinho tinha um ganchinho na ponta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ganchinho"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -280,23 +313,21 @@
    "sfx": [
     "sting@20"
    ],
-   "say": "Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Ele pensou: uma fita com ganchinhos e outra com voltinhas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pensou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -305,56 +336,22 @@
     "MES:0:nervous"
    ],
    "acao": "discutir",
-   "say": "Os tecelões riram da ideia. Levou quase dez anos de tentativas até acertar o material.",
    "set": "street",
    "impact": true,
    "crowd": {
     "n": 0
    },
-   "_susp_ok": true
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "MES:0:laugh",
-    "TEC:0:surprised"
-   ],
-   "interacao": "entregar",
-   "props": [
-    [
-     "kit/burr",
-     0.0,
-     -1.2,
-     1.0,
+   "bloco": "escalada",
+   "say": "Os tecelões riram. Levou quase dez anos até acertar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
+      "faz": "mostra",
+      "na": "riram"
      }
     ]
-   ],
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "say": "O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, gancho.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -400,80 +397,70 @@
    ],
    "text": "VELCRO",
    "titulo": true,
-   "say": "Até que astronautas passaram a usar velcro no espaço, e o mundo inteiro quis.",
    "set": "arctic",
-   "quadro": {
-    "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rocket",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/moon",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "pagamento",
+   "say": "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "usaram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "MES:0:smile"
-   ],
-   "animals": [
-    [
-     "dog",
-     1.4,
-     0.6
-    ]
+    "MES:0:surprised",
+    "TEC:0:laugh"
    ],
    "props": [
     [
      "kit/burr",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio de carrapichos.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)",
-    "objetos": [
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.9,
+     0.8
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Tudo graças a um cachorro cheio de carrapichos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/burr",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "cachorro"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
- "max_wide": 3,
  "visual": {
   "local": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca)",
   "quando": "1941 (passeio, verao) e anos 1950",
@@ -506,5 +493,8 @@
    "carrapicho": "burdock burr hooks microscope",
    "montanha": "Swiss Alps trail Jura 1940s"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma invencao usada no mundo todo nasceu de um passeio com o cachorro. Pagamento: os carrapichos tinham ganchinhos; virou o velcro, de nailon, usado ate no espaco.",
+ "loop_frase_ok": true
 }

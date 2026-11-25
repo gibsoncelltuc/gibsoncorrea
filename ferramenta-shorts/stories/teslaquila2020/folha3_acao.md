@@ -1,110 +1,187 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 20 - A Piada que Virou Tequila
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.6s - 14 palavras - plano two
-> "Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquenta dólares."
+## Cena b0 - 0.2s a 2.6s - 11 palavras - plano two
+> "Piada se esquece rápido? Esta virou uma garrafa de 250 dólares."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "garrafa" (2.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 1º DE ABRIL | OK |
+| 3 | - | PLACA | PIADA → TEQUILA | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.1s a 9.9s - 17 palavras - plano reveal
-> "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 3.9s a 7.7s - 10 palavras - plano two
+> "E até a garrafa vazia passou a valer uma fortuna."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vazia" (5.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | postou (8.7s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | fortuna (7.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra fortuna (7.7s): executa: estrelinhas + som
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b2 - 7.9s a 10.2s - 12 palavras - plano reveal
+> "Em 2018, no dia da mentira, Musk postou que a Tesla faliu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "postou" (9.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | faliu (10.2s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
 | 3 | - | PLACA | TESLA FALIU? | OK |
+<!-- FISICA -->
 
-## Cena b2 - 10.0s a 14.4s - 12 palavras - plano two
-> "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra faliu (10.2s): executa: fumaca + som
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | foto (10.2s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | cercado (11.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | INTERACAO | discutir | OK |
-| 4 | - | ATUACAO | discutir | OK |
+## Cena b3 - 10.8s a 14.4s - 10 palavras - plano wide
+> "Na foto, aparecia cercado de garrafas de uma tal Teslaquila."
 
-## Cena b3 - 14.7s a 21.2s - 16 palavras - plano two
-> "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | riu (15.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (15.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | ideia (17.6s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 4 | registrar (19.9s) | ACAO: escreve | escreve/assina | OK |
-| 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 6 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 7 | - | INTERACAO | entregar | OK |
-| 8 | - | ATUACAO | comemorar | OK |
-
-## Cena b4 - 21.4s a 26.2s - 15 palavras - plano wide
-> "Acontece que o conselho que protege a tequila no México reclamou: o nome tem regras."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | reclamou (24.4s) | ACAO: x_discute | discussao cara a cara (dedo apontado) | OK |
-| 2 | - | EMOCAO: annoyed | o rosto vira "annoyed" na palavra | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | discutir | OK |
-
-## Cena b5 - 26.3s a 30.9s - 16 palavras - plano two
-> "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | saiu (27.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 31.2s a 36.8s - 17 palavras - plano two
-> "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | presa (34.9s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-
-## Cena b7 - 37.1s a 40.9s - 12 palavras - plano orbit
-> "Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "garrafas" (13.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | ESGOTOU | OK |
+| 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b8 - 41.3s a 46.1s - 14 palavras - plano two
-> "Logo, até garrafas vazias apareceram à venda na internet por mais de mil dólares."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b4 - 14.7s a 17.8s - 10 palavras - plano two
+> "Muita gente riu. Mas ele levou a ideia a sério."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "riu" (15.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | apareceram (42.4s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | venda (42.9s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | riu (15.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | reagir | OK |
-| 5 | - | CHEGADA | alguem entra andando | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 46.3s a 51.8s - 12 palavras - plano two
-> "Uma piada do dia da mentira que terminou numa prateleira de verdade."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra riu (15.8s): executa: estrelinhas + som
+- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b5 - 18.0s a 22.4s - 10 palavras - plano low
+> "Acontece que o México barrou o nome: tequila tem regras."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "barrou" (20.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b6 - 22.6s a 25.6s - 9 palavras - plano orbit
+> "Em 2020, saiu como Tesla Tequila, feita no México."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "saiu" (23.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+<!-- /FISICA -->
+
+## Cena b7 - 26.0s a 28.3s - 10 palavras - plano orbit
+> "Cada garrafa custava 250 dólares e esgotou em poucas horas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esgotou" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
+| 2 | - | PLACA | ESGOTOU | OK |
+<!-- FISICA -->
 
-## Cena b10 - 51.9s a 57.8s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 20: parada, reagindo (surprised), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b8 - 29.0s a 31.3s - 10 palavras - plano two
+> "Garrafas vazias apareceram na internet por mais de mil dólares."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vazias" (29.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: reagir
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
+
+## Cena b9 - 31.8s a 34.7s - 10 palavras - plano two
+> "Tudo por causa de uma piada de primeiro de abril."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piada" (33.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PIADA → TEQUILA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

@@ -1,22 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Gerado em 25/11 04:16 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:07 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquen
-b1 | simples | loc_cidade | reveal | MUS | 6 | phone, roadster | - | Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla
-b2 | simples | loc_cidade | two | INV, MUS | - | tequila_bolt, picket_fence | - | Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.
-b3 | simples | interior loja | two | FAN, MUS | - | - | - | Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou regi
-b4 | chave | loc_pista | wide | MEX, MUS | - | tequila_bolt, veg_cacto | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o conselho que protege a tequila no México reclamou: o no
-b5 | simples | loc_pista | two | MUS, MEX | - | roadster, tequila_bolt, veg_cacto | - | Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no Méxi
-b6 | simples | interior loja | two | FAN | - | tequila_bolt | - | A garrafa era de vidro soprado à mão, em forma de raio, presa num supo
-b7 | chave | loc_cidade | orbit | FAN, POV, POV | 20 | tequila_bolt | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas hor
-b8 | simples | interior loja | two | POV, FAN | - | phone, tequila_bolt | - | Logo, até garrafas vazias apareceram à venda na internet por mais de m
-b9 | simples | loc_patio | two | MUS | - | tequila_bolt | - | Uma piada do dia da mentira que terminou numa prateleira de verdade.
-b10 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Piada se esquece rápido? Esta virou uma garrafa de 250 dólares.
+b1 | simples | loc_patio | two | MUS | - | tequila_bolt | - | E até a garrafa vazia passou a valer uma fortuna.
+b2 | simples | loc_cidade | reveal | MUS | 6 | phone, roadster | - | Em 2018, no dia da mentira, Musk postou que a Tesla faliu.
+b3 | chave | loc_cidade | wide | INV, MUS | - | tequila_bolt, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na foto, aparecia cercado de garrafas de uma tal Teslaquila.
+b4 | simples | interior loja | two | FAN, MUS | - | - | - | Muita gente riu. Mas ele levou a ideia a sério.
+b5 | simples | loc_pista | low | MEX, MUS | - | tequila_bolt, veg_cacto | - | Acontece que o México barrou o nome: tequila tem regras.
+b6 | chave | loc_pista | orbit | MUS, MEX | - | roadster, tequila_bolt, veg_cacto | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2020, saiu como Tesla Tequila, feita no México.
+b7 | simples | loc_cidade | orbit | FAN, POV, POV | 20 | tequila_bolt | - | Cada garrafa custava 250 dólares e esgotou em poucas horas.
+b8 | simples | interior loja | two | POV, FAN | - | phone, tequila_bolt | - | Garrafas vazias apareceram na internet por mais de mil dólares.
+b9 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Tudo por causa de uma piada de primeiro de abril.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

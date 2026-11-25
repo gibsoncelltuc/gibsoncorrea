@@ -15,7 +15,7 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 3",
+    "cena 4",
     "mountain",
     "loc_montanha"
    ]
@@ -46,15 +46,9 @@
   "kit/moon",
   "kit/rocket",
   "kit/room_europa_wood",
-  "kit/room_verde_wood",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
-  "mk/Stool",
   "mk/Table_Large"
  ],
  "pesquisa_visual": {

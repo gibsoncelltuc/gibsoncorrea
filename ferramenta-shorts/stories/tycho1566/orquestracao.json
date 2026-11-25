@@ -11,11 +11,6 @@
    "cena 8",
    "countryside",
    "loc_campo"
-  ],
-  [
-   "cena 11",
-   "street",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -35,14 +30,32 @@
    "objetos": [
     "kit/brass_nose"
    ],
-   "palavras": 15,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
+   "frase": "Ninguém te conta: um gênio da astronomia perdeu o nariz por matemática.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TYC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/brass_nose"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E passou o resto da vida com um nariz de metal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
   },
   {
    "camera": "wide",
@@ -52,9 +65,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre dinamarquês, estudava na Alemanha.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1566, Tycho Brahe, nobre dinamarquês, estudava na Alemanha.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -76,9 +89,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "Numa festa, ele discutiu com um primo sobre quem era o melhor em matemática.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Numa festa, discutiu com um primo: quem era melhor em matemática?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -93,9 +106,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Dias depois, os dois resolveram a briga num duelo de espadas, no escuro.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Dias depois, os dois resolveram tudo num duelo de espadas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -112,27 +125,9 @@
    "objetos": [
     "kit/brass_nose"
    ],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaço do nariz de Tycho.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_deserto"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TYC"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/brass_nose"
-   ],
-   "palavras": 15,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto.",
+   "frase": "Acontece que o primo cortou fora um pedaço do nariz de Tycho.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -145,14 +140,20 @@
     "REI",
     "TYC"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu.",
-   "classe": "simples",
+   "frase": "Depois, o rei lhe deu uma ilha só para estudar o céu.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -166,18 +167,12 @@
     "kit/marco_uraniborg",
     "kit/tower"
    ],
-   "palavras": 17,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio.",
-   "classe": "chave",
+   "frase": "Lá, ele mediu mais de mil estrelas, sem telescópio.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
@@ -189,9 +184,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol.",
+   "frase": "Os dados dele ajudaram Kepler a entender as órbitas dos planetas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -201,31 +196,16 @@
   {
    "camera": "two",
    "personagens": [
-    "TYC"
+    "TYC",
+    "PAR"
    ],
    "multidao": 0,
    "objetos": [
     "kit/brass_nose"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Com a cabeça nas estrelas, e o nariz de metal.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "TYC"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Cabeça nas estrelas, e nariz de metal.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

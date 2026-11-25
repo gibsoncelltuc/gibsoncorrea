@@ -25,11 +25,6 @@
     "cena 8",
     "countryside",
     "loc_campo"
-   ],
-   [
-    "cena 11",
-    "street",
-    "loc_campo"
    ]
   ]
  },
@@ -52,7 +47,6 @@
  "objetos_em_cena": [
   "buildings/castle_tower",
   "kit/brass_nose",
-  "kit/lupa",
   "kit/marco_uraniborg",
   "kit/room_europa_stone",
   "kit/room_verde_wood",

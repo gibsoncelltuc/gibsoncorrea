@@ -1,29 +1,28 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:07 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | two | TYC, PAR | - | brass_nose | - | Um dos maiores astrônomos da história perdeu o nariz numa briga por ca
-b1 | chave | loc_campo | wide | TYC, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil quinhentos e sessenta e seis, e Tycho Brahe, um jovem nobre di
-b2 | simples | interior madeira | group | TYC, PAR, POV | - | - | - | Numa festa, ele discutiu com um primo sobre quem era o melhor em matem
-b3 | simples | loc_deserto | two | TYC, PAR | - | - | - | Dias depois, os dois resolveram a briga num duelo de espadas, no escur
-b4 | simples | loc_deserto | two | PAR, TYC | - | brass_nose | - | Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç
-b5 | simples | loc_montanha | two | TYC | - | brass_nose | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no
-b6 | simples | harbor | orbit | REI, TYC | 6 | - | - | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
-b7 | chave | loc_campo | orbit | TYC | - | marco_uraniborg, tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
-b8 | simples | interior pedra | two | TYC, KEP | - | - | - | As anotações eram tão precisas, que ajudaram Kepler a descobrir como o
-b9 | simples | loc_montanha | two | TYC | - | brass_nose | - | Com a cabeça nas estrelas, e o nariz de metal.
-b10 | simples | loc_campo | close | TYC | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | two | TYC, PAR | - | brass_nose | - | Ninguém te conta: um gênio da astronomia perdeu o nariz por matemática
+b1 | simples | loc_deserto | two | TYC | - | brass_nose | - | E passou o resto da vida com um nariz de metal.
+b2 | chave | loc_campo | wide | TYC, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1566, Tycho Brahe, nobre dinamarquês, estudava na Alemanha.
+b3 | simples | interior madeira | group | TYC, PAR, POV | - | - | - | Numa festa, discutiu com um primo: quem era melhor em matemática?
+b4 | simples | loc_deserto | two | TYC, PAR | - | - | - | Dias depois, os dois resolveram tudo num duelo de espadas.
+b5 | simples | loc_montanha | two | PAR, TYC | - | brass_nose | - | Acontece que o primo cortou fora um pedaço do nariz de Tycho.
+b6 | chave | harbor | orbit | REI, TYC | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois, o rei lhe deu uma ilha só para estudar o céu.
+b7 | simples | loc_campo | orbit | TYC | - | marco_uraniborg, tower | - | Lá, ele mediu mais de mil estrelas, sem telescópio.
+b8 | simples | interior pedra | two | TYC, KEP | - | - | - | Os dados dele ajudaram Kepler a entender as órbitas dos planetas.
+b9 | simples | loc_campo | two | TYC, PAR | - | brass_nose | - | Cabeça nas estrelas, e nariz de metal.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py tycho1566
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/13 itens) | PENDENTE | python3 pesquisar.py tycho1566
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 

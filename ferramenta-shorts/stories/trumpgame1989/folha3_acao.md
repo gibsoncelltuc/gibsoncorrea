@@ -1,119 +1,177 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
-> "Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinheiro."
+> "Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (4.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dinheiro (4.4s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 1989 | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | TRUMP: O JOGO | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.8s a 10.4s - 16 palavras - plano wide
-> "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra dinheiro (4.4s): executa: estrelinhas + som
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.8s a 7.8s - 9 palavras - plano two
+> "E o jogo empacou por um motivo bem simples."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "motivo" (7.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b2 - 8.1s a 11.9s - 11 palavras - plano wide
+> "Em 1989, ele já era um empresário famoso de Nova York."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "empresário" (10.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
 
-## Cena b2 - 10.7s a 16.7s - 17 palavras - plano two
-> "Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hotéis até ficar o mais rico."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 12.2s a 15.6s - 10 palavras - plano two
+> "No jogo, o objetivo era juntar prédios, cassinos e hotéis."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prédios" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprar (13.3s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.0s a 22.6s - 16 palavras - plano close
-> "As notas eram de dez, cinquenta e cem milhões de dólares, com a cara do Trump."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 15.9s a 20.0s - 12 palavras - plano close
+> "As notas eram de cem milhões de dólares, com a cara dele."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "notas" (16.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
+<!-- FISICA -->
 
-## Cena b4 - 23.0s a 27.4s - 13 palavras - plano two
-> "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+<!-- /FISICA -->
+
+## Cena b5 - 20.4s a 24.1s - 11 palavras - plano two
+> "Acontece que o manual era longo, e ninguém entendia as regras."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caixa" (26.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | apareceu (24.1s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
-
-## Cena b5 - 27.8s a 33.3s - 16 palavras - plano two
-> "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "manual" (21.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b6 - 33.7s a 37.8s - 12 palavras - plano two
-> "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b6 - 24.4s a 27.0s - 8 palavras - plano two
+> "Esperavam dois milhões de jogos. Saíram oitocentos mil."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "milhões" (25.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (34.4s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (34.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (34.8s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (37.0s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (37.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 6 | - | INTERACAO | susto | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | 800 MIL | OK |
+| 1 | - | INTERACAO | susto | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 800 MIL | OK |
+<!-- FISICA -->
 
-## Cena b7 - 38.1s a 42.2s - 12 palavras - plano orbit
-> "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: susto
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b7 - 27.4s a 30.7s - 10 palavras - plano orbit
+> "Em 2004, com o programa O Aprendiz, o jogo voltou."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (30.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 42.6s a 46.3s - 11 palavras - plano two
-> "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos."
+## Cena b8 - 31.1s a 34.8s - 11 palavras - plano group
+> "Desta vez com regras simples e a frase: você está demitido."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (44.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b9 - 46.7s a 53.0s - 18 palavras - plano crowd
-> "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "regras" (32.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (47.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | pular | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
+<!-- FISICA -->
 
-## Cena b10 - 53.3s a 55.9s - 8 palavras - plano two
-> "Um jogo sobre ficar bilionário, que virou curiosidade."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: pular
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 35.2s a 38.5s - 10 palavras - plano two
+> "Um jogo para ficar bilionário, que quase ninguém conseguia jogar."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (35.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | TRUMP: O JOGO | OK |
+<!-- FISICA -->
 
-## Cena b11 - 56.3s a 60.7s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

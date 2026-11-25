@@ -1,22 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:07 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | MES, TEC | - | burr | - | Uma das invenções mais usadas do mundo nasceu de um passeio com o cach
-b1 | simples | street | two | MES | - | - | - | Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Me
-b2 | simples | loc_montanha | two | MES | - | burr | - | O pelo do cachorro e a calça dele estavam cheios de carrapichos.
-b3 | simples | interior madeira | two | MES | - | burr, microscopio | - | Curioso, ele levou um carrapicho para casa e olhou no microscópio.
-b4 | simples | interior madeira | close | MES | - | burr | - | Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na
-b5 | simples | interior madeira | low | MES | - | burr | - | Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
-b6 | chave | street | wide | TEC, MES | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace
-b7 | simples | interior madeira | two | MES, TEC | - | burr | - | O segredo foi o náilon. E o nome juntou velours, veludo, e crochet, ga
-b8 | chave | arctic | wide | AST | - | burr, moon, rocket | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Até que astronautas passaram a usar velcro no espaço, e o mundo inteir
-b9 | simples | loc_campo | two | MES | - | burr | - | Hoje ele está em tênis, mochilas e roupas. Graças a um cachorro cheio 
-b10 | simples | street | close | MES | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | MES, TEC | - | burr | - | Ninguém te conta: o velcro nasceu de um passeio com o cachorro.
+b1 | chave | loc_campo | wide | MES | - | burr | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E hoje ela está no seu tênis.
+b2 | simples | street | two | MES | - | - | - | Em 1941, na Suíça, George de Mestral voltou de uma caminhada.
+b3 | simples | loc_montanha | two | MES | - | burr | - | O cachorro e a calça dele estavam cheios de carrapichos.
+b4 | simples | interior madeira | two | MES | - | burr, microscopio | - | Curioso, ele olhou um carrapicho no microscópio.
+b5 | simples | interior madeira | close | MES | - | burr | - | Acontece que cada espinho tinha um ganchinho na ponta.
+b6 | simples | interior madeira | low | MES | - | burr | - | Ele pensou: uma fita com ganchinhos e outra com voltinhas.
+b7 | chave | street | wide | TEC, MES | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tecelões riram. Levou quase dez anos até acertar.
+b8 | simples | arctic | two | AST | - | burr, moon, rocket | - | Até que astronautas usaram no espaço, e o mundo inteiro quis.
+b9 | simples | street | two | MES, TEC | - | burr | - | Tudo graças a um cachorro cheio de carrapichos.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Cachorro que Inventou o Velcro | O Cachorro que Inventou o Velcro / Uma Em Suíça George Mestral 1941 | SEM REFERENCIA
+tema | O Cachorro que Inventou o Velcro | O Cachorro que Inventou o Velcro / Ninguém Em Suíça George Mestral 1941 | SEM REFERENCIA
 lugar | Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tec | Alpes suicos perto de Genebra / Alpes suicos perto de Genebra trilha de montanha oficina/casa de Mestral tecelagem em Lyon | SEM REFERENCIA
 lugar | Suíça | Suíça 1941 / Suíça landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1941 | 1941 fashion clothing / 1941 street photograph | SEM REFERENCIA

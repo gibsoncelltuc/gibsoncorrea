@@ -7,7 +7,7 @@
    "item": "O Jogo de Tabuleiro do Trump",
    "consultas": [
     "O Jogo de Tabuleiro do Trump",
-    "Donald Trump Era Nova York Uma 1989"
+    "Ninguém Trump Em Nova York 1989"
    ]
   },
   {
@@ -88,14 +88,6 @@
    "consultas": [
     "caixa do jogo Trump The Game",
     "O Jogo de Tabuleiro do Trump"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
-   "consultas": [
-    "factory 1989",
-    "factory"
    ]
   }
  ]
