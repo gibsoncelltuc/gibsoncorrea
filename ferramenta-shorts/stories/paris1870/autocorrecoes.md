@@ -116,3 +116,18 @@
 
 ## 25/11 11:33 autocorrecao de visibilidade
 - b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 19:00 autocorrecao de visibilidade
+- b7: "elephant" tapando a camera (35% do quadro, colado na lente) -> enquadramento trocado para "wide" (o que tapava e cenario)
+- b7: "elephant" cobrindo a tela (63% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b4: objeto "kit/rato" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 19:00 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: objeto "kit/rato" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 19:01 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bife_elefante" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: objeto "kit/rato" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> close no objeto

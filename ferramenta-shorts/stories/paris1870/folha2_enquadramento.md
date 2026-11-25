@@ -14,6 +14,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "CANGURU E LOBO" numa placa atras dos personagens, na palavra 4 da frase
 
 ## b2: "Em 1870, a Prússia cercou Paris, e a comida acabou."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -53,10 +54,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "No Natal, um restaurante serviu consomê de elefante."
 - LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "NATAL DE 1870" numa placa atras dos personagens, na palavra 4 da frase
+- TEXTO NA TELA: "NATAL DE 1870" flutuando no alto, na palavra 4 da frase
 
 ## b8: "Só os ricos podiam pagar esse luxo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

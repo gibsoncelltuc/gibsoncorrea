@@ -1,0 +1,184 @@
+{
+ "duration": 32.472,
+ "frames30": 974,
+ "source": "silence-align (cost 1.18)",
+ "segments": [
+  [
+   0.0,
+   2.14688
+  ],
+  [
+   2.53142,
+   4.31412
+  ],
+  [
+   4.69296,
+   6.05142
+  ],
+  [
+   6.24121,
+   7.36508
+  ],
+  [
+   7.57542,
+   8.35692
+  ],
+  [
+   8.73667,
+   10.0628
+  ],
+  [
+   10.4336,
+   10.9026
+  ],
+  [
+   11.1078,
+   12.0526
+  ],
+  [
+   12.422,
+   13.4365
+  ],
+  [
+   13.6356,
+   14.7223
+  ],
+  [
+   15.1009,
+   15.8842
+  ],
+  [
+   16.0749,
+   17.1054
+  ],
+  [
+   17.4835,
+   20.4855
+  ],
+  [
+   20.8566,
+   21.3386
+  ],
+  [
+   21.5667,
+   23.527
+  ],
+  [
+   23.904,
+   25.5155
+  ],
+  [
+   25.8926,
+   28.3055
+  ],
+  [
+   28.6738,
+   29.1812
+  ],
+  [
+   29.3945,
+   31.076
+  ],
+  [
+   31.4531,
+   32.0297
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Paris j\u00e1 serviu elefante no jantar de Natal.",
+   "s": 0.0,
+   "e": 2.147
+  },
+  {
+   "text": "E no card\u00e1pio tinha at\u00e9 canguru e lobo.",
+   "s": 2.531,
+   "e": 4.314
+  },
+  {
+   "text": "Em 1870, a Pr\u00fassia cercou Paris,",
+   "s": 4.693,
+   "e": 6.051
+  },
+  {
+   "text": "e a comida acabou.",
+   "s": 6.241,
+   "e": 8.357
+  },
+  {
+   "text": "Primeiro comeram os cavalos.",
+   "s": 8.737,
+   "e": 10.063
+  },
+  {
+   "text": "Depois,",
+   "s": 10.434,
+   "e": 10.903
+  },
+  {
+   "text": "cachorros e gatos.",
+   "s": 11.108,
+   "e": 12.053
+  },
+  {
+   "text": "Depois os roedores,",
+   "s": 12.422,
+   "e": 13.437
+  },
+  {
+   "text": "que viraram prato chique.",
+   "s": 13.636,
+   "e": 14.722
+  },
+  {
+   "text": "Quando acabou tudo,",
+   "s": 15.101,
+   "e": 15.884
+  },
+  {
+   "text": "olharam para o zool\u00f3gico.",
+   "s": 16.075,
+   "e": 17.105
+  },
+  {
+   "text": "Acontece que um a\u00e7ougueiro comprou os elefantes Castor e P\u00f3lux.",
+   "s": 17.483,
+   "e": 20.485
+  },
+  {
+   "text": "No Natal,",
+   "s": 20.857,
+   "e": 21.339
+  },
+  {
+   "text": "um restaurante serviu consom\u00ea de elefante.",
+   "s": 21.567,
+   "e": 23.527
+  },
+  {
+   "text": "S\u00f3 os ricos podiam pagar esse luxo.",
+   "s": 23.904,
+   "e": 25.515
+  },
+  {
+   "text": "O povo fazia fila no frio por comida racionada.",
+   "s": 25.893,
+   "e": 28.305
+  },
+  {
+   "text": "Na fome,",
+   "s": 28.674,
+   "e": 29.181
+  },
+  {
+   "text": "at\u00e9 bicho de zool\u00f3gico vira comida.",
+   "s": 29.395,
+   "e": 31.076
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 31.453,
+   "e": 32.03
+  }
+ ]
+}

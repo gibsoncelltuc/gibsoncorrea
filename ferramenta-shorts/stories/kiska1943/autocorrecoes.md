@@ -26,3 +26,6 @@
 ## 25/11 18:58 autocorrecao de visibilidade
 - b1: objeto citado "kit/dog_sit" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b3: ja corrigida 3 vezes, objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 18:59 autocorrecao de visibilidade
+- b3: ja corrigida 3 vezes, objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

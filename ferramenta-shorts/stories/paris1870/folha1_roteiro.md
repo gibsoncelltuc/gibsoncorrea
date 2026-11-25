@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: CANGURU E LOBO
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.4 s)
