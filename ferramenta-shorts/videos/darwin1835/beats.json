@@ -667,7 +667,17 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "impact": true,
+   "shot_lock": true,
+   "fx": [
+    "stars@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "text": "SELEÇÃO NATURAL"
   },
   {
    "say": "No fim, o erro das etiquetas virou um acerto de bico.",

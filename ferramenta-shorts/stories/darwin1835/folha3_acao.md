@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
@@ -46,8 +46,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Achou (19.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.4s a 29.0s - 13 palavras - plano group
 > "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
@@ -103,8 +102,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (46.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
+| 5 | - | PLACA | SELEÇÃO NATURAL | OK |
 
 ## Cena b9 - 51.5s a 54.2s - 11 palavras - plano two
 > "No fim, o erro das etiquetas virou um acerto de bico."

@@ -34,10 +34,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cad...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): DAR (variante 0, expressao suspicious, segura paper) | multidao: 0 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Animacao: conversar
 - Objetos/modelos: kit/navio_fragata, kit/finch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): DAR (variante 0, expressao grin, segura book); GOU (variante 0, expressao laugh)
-- Animacao: comemorar | interacao: pular
+- Animacao: comemorar | interacao: pular | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): selecao
 - RISCOS: nenhum
@@ -125,7 +125,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 59% | aberto 28% | detalhe 4%
+- Objeto heroi: kit/finch | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 8% | medio 55% | aberto 34% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b5 aproxima-se, b6 cochichar, b8 pular
 - RISCOS GERAIS: nenhum
 

@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~5.2 s)
 - Narracao: Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: sea
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: olha (point) @0 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~4.5 s)
 - Narracao: Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.

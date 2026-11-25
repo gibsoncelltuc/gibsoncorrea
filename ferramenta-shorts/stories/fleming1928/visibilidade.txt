@@ -1,5 +1,4 @@
-VISIBILIDADE: 5 FALHA(S)
-FALHA b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+VISIBILIDADE: 4 FALHA(S)
 FALHA b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 FALHA b0: objeto citado "kit/petri_mofo" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 FALHA b2: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

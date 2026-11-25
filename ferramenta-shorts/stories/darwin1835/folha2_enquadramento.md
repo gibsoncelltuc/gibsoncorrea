@@ -74,6 +74,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DAR (cientista) na esquerda, expressao grin, segura book; GOU (cientista) na direita, expressao laugh; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- SOM: sting@20
+- TEXTO NA TELA: "SELEÇÃO NATURAL" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "No fim, o erro das etiquetas virou um acerto de bico."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

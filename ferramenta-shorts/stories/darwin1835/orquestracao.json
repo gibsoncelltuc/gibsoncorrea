@@ -83,15 +83,9 @@
    "palavras": 15,
    "cena": "b3",
    "frase": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -193,9 +187,15 @@
    "palavras": 14,
    "cena": "b8",
    "frase": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "interior madeira"
   },
