@@ -25,9 +25,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Ninguém te conta: o velcro nasceu de um passeio com o cachorro.",
+   "frase": "O velcro nasceu de um passeio com o cachorro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -45,7 +45,7 @@
    ],
    "palavras": 7,
    "cena": "b1",
-   "frase": "E hoje ela está no seu tênis.",
+   "frase": "E hoje ele está no seu tênis.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -83,9 +83,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "O cachorro e a calça dele estavam cheios de carrapichos.",
+   "frase": "O cachorro e a calça estavam cheios de carrapichos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -200,9 +200,9 @@
    "objetos": [
     "kit/burr"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Tudo graças a um cachorro cheio de carrapichos.",
+   "frase": "Um cachorro cheio de carrapichos. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

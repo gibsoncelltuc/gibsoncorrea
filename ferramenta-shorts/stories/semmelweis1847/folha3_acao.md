@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
@@ -16,179 +16,109 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | empurrar | OK |
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | LAVE AS MÃOS | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EMOCAO: pleading (a cena toda): executa: o rosto vira "pleading" na palavra
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b1 - 4.4s a 7.4s - 9 palavras - plano two
-> "E hoje ele é chamado de salvador das mães."
+## Cena b1 - 4.4s a 6.7s - 7 palavras - plano two
+> "Hoje é chamado de salvador das mães."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "salvador" (6.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "salvador" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | LAVE AS MÃOS | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b2 - 7.8s a 11.5s - 11 palavras - plano reveal
+## Cena b2 - 7.0s a 10.7s - 11 palavras - plano reveal
 > "Em 1847, no hospital de Viena, havia duas alas de parto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "alas" (10.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "alas" (10.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ÁUSTRIA | OK |
 | 2 | - | PLACA | HOSPITAL DE VIENA | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b3 - 11.9s a 15.2s - 10 palavras - plano two
+## Cena b3 - 11.1s a 14.4s - 10 palavras - plano two
 > "Na ala dos médicos, morriam muito mais mães, de febre."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morriam" (13.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morriam" (12.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | HOSPITAL | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b4 - 15.6s a 19.3s - 11 palavras - plano two
-> "Um colega se cortou numa autópsia e morreu da mesma febre."
+## Cena b4 - 14.8s a 18.1s - 10 palavras - plano two
+> "Um colega se cortou numa autópsia e morreu de febre."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morreu" (18.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morreu" (17.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | morreu (18.1s) | EFEITO: puff | fumaca + som | OK |
+| 1 | morreu (17.4s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra morreu (18.1s): executa: fumaca + som
-- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b5 - 19.6s a 23.7s - 12 palavras - plano close
-> "Acontece que os médicos iam das autópsias aos partos de mãos sujas."
+## Cena b5 - 18.5s a 21.9s - 10 palavras - plano close
+> "Acontece que os médicos saíam das autópsias de mãos sujas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sujas" (23.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sujas" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b6 - 24.1s a 28.1s - 12 palavras - plano two
+## Cena b6 - 22.2s a 26.3s - 12 palavras - plano two
 > "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lavar" (27.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lavar" (25.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
-
-## Cena b7 - 28.5s a 30.4s - 6 palavras - plano orbit
+## Cena b7 - 26.7s a 28.5s - 6 palavras - plano orbit
 > "As mortes caíram quase dez vezes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caíram" (29.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caíram" (27.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caíram (29.3s) | EFEITO: dust | poeira + som | OK |
+| 1 | caíram (27.4s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VIDAS SALVAS | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra caíram (29.3s): executa: poeira + som
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b8 - 30.7s a 34.1s - 10 palavras - plano two
-> "Mas os médicos se ofenderam, e ele foi mandado embora."
+## Cena b8 - 28.9s a 31.5s - 8 palavras - plano two
+> "Mas os médicos se ofenderam e o expulsaram."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ofenderam" (32.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ofenderam" (30.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | empurrar | OK |
 | 2 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
-
-## Cena b9 - 34.4s a 37.4s - 9 palavras - plano two
-> "Morreu sem reconhecimento. Hoje, lavar as mãos é regra."
+## Cena b9 - 31.9s a 34.4s - 8 palavras - plano two
+> "Lavar as mãos virou insulto. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lavar" (35.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lavar" (31.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Morreu (34.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | PLACA | LAVE AS MÃOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra Morreu (34.4s): executa: fumaca + som
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | LAVE AS MÃOS | OK |
 

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:28 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,8 +11,8 @@ b1 | simples | street | two | JEN, ESP | 12 | ear_jar | - | E o dono da orelha l
 b2 | simples | harbor | wide | JEN | - | navios de guerra ao fundo, no tamanho real, ship | - | Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.
 b3 | chave | street | two | CAP, JEN | - | ear_jar | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O comandante espanhol cortou a orelha dele com a espada.
 b4 | simples | harbor | two | CAP, JEN | - | - | - | "Leve isso ao seu rei", teria dito.
-b5 | simples | interior pedra | group | PRE, JEN, ING, PRE | - | ear_jar | - | Anos depois, dizem, Jenkins mostrou a orelha aos deputados.
-b6 | simples | interior pedra | two | PRE, ING | - | - | - | Acontece que a Inglaterra só queria um pretexto.
+b5 | simples | interior pedra | two | PRE, JEN, ING | - | ear_jar | - | Anos depois, dizem, Jenkins mostrou a orelha aos deputados.
+b6 | simples | interior pedra | group | PRE, ING | - | - | - | Acontece que a Inglaterra só queria um pretexto.
 b7 | chave | harbor | wide | SOL | 48 | navios de guerra ao fundo, no tamanho real, ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1739, navios ingleses atacaram o Caribe espanhol.
 b8 | simples | interior pedra | two | ESP, ING | - | ear_jar | - | Nove anos de guerra, por causa de uma orelha.
 b9 | simples | harbor | two | JEN, ESP | - | ear_jar | - | Jenkins nunca recuperou a orelha. E foi assim que...

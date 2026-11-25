@@ -1,12 +1,12 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "TRUMP: O JOGO",
- "gancho_cumprido": "Gancho: Trump lancou um jogo com o proprio rosto no dinheiro e o jogo empacou. Pagamento: manual dificil, vendeu 800 mil de 2 milhoes, e voltou em 2004 com regras simples e o 'voce esta demitido'.",
+ "gancho_cumprido": "Gancho: Trump lancou um jogo com o proprio rosto no dinheiro e o jogo empacou. Pagamento: manual dificil, vendeu 800 mil de 2 milhoes; voltou em 2004 com regras simples.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro.",
+   "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
    "lançou",
    {
     "text": null
@@ -16,25 +16,29 @@
    10,
    "promessa",
    "E o jogo empacou por um motivo bem simples.",
-   "motivo"
+   "motivo",
+   {}
   ],
   [
    1,
    "prova",
-   "Em 1989, ele já era um empresário famoso de Nova York.",
-   "empresário"
+   "Em 1989, ele já era um empresário famoso.",
+   "empresário",
+   {}
   ],
   [
    2,
    "prova",
    "No jogo, o objetivo era juntar prédios, cassinos e hotéis.",
-   "prédios"
+   "prédios",
+   {}
   ],
   [
    3,
    "prova",
-   "As notas eram de cem milhões de dólares, com a cara dele.",
-   "notas"
+   "As notas tinham a cara dele.",
+   "notas",
+   {}
   ],
   [
    5,
@@ -49,24 +53,27 @@
    6,
    "escalada",
    "Esperavam dois milhões de jogos. Saíram oitocentos mil.",
-   "milhões"
+   "milhões",
+   {}
   ],
   [
    7,
    "pagamento",
-   "Em 2004, com o programa O Aprendiz, o jogo voltou.",
-   "voltou"
+   "Em 2004, com O Aprendiz, o jogo voltou.",
+   "voltou",
+   {}
   ],
   [
    9,
    "pagamento",
-   "Desta vez com regras simples e a frase: você está demitido.",
-   "regras"
+   "Desta vez, com regras bem mais simples.",
+   "regras",
+   {}
   ],
   [
    0,
    "loop",
-   "Um jogo para ficar bilionário, que quase ninguém conseguia jogar.",
+   "Um jogo que ninguém entendia. Foi assim que...",
    "jogo",
    {
     "text": null

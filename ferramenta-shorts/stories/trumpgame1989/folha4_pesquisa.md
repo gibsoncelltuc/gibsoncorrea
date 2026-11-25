@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Ninguém Trump Em Nova York 1989 | SEM REFERENCIA
+tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Donald Trump Em 1989 | SEM REFERENCIA
 lugar | Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas | Estados Unidos / Estados Unidos 1989 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1989 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1989 | 1989 fashion clothing / 1989 street photograph | SEM REFERENCIA

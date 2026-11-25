@@ -1,25 +1,28 @@
 {
- "gancho_tipo": "perda",
+ "gancho_tipo": "segredo",
  "texto_gancho": "LAVE AS MÃOS",
- "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos, foi expulso e hoje e' chamado de salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+ "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
  "cenas": [
   [
    0,
    "gancho",
    "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
-   "expulso"
+   "expulso",
+   {}
   ],
   [
    10,
    "promessa",
-   "E hoje ele é chamado de salvador das mães.",
-   "salvador"
+   "Hoje é chamado de salvador das mães.",
+   "salvador",
+   {}
   ],
   [
    1,
    "prova",
    "Em 1847, no hospital de Viena, havia duas alas de parto.",
-   "alas"
+   "alas",
+   {}
   ],
   [
    3,
@@ -33,7 +36,7 @@
   [
    4,
    "escalada",
-   "Um colega se cortou numa autópsia e morreu da mesma febre.",
+   "Um colega se cortou numa autópsia e morreu de febre.",
    "morreu",
    {
     "encena_antiga": true,
@@ -43,8 +46,9 @@
   [
    5,
    "escalada",
-   "Acontece que os médicos iam das autópsias aos partos de mãos sujas.",
-   "sujas"
+   "Acontece que os médicos saíam das autópsias de mãos sujas.",
+   "sujas",
+   {}
   ],
   [
    6,
@@ -67,14 +71,16 @@
   [
    8,
    "pagamento",
-   "Mas os médicos se ofenderam, e ele foi mandado embora.",
-   "ofenderam"
+   "Mas os médicos se ofenderam e o expulsaram.",
+   "ofenderam",
+   {}
   ],
   [
    0,
    "loop",
-   "Morreu sem reconhecimento. Hoje, lavar as mãos é regra.",
-   "lavar"
+   "Lavar as mãos virou insulto. Foi assim que...",
+   "lavar",
+   {}
   ]
  ]
 }

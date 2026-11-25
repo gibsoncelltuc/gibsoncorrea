@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 17 - Bitcoin Feito com Vulcão
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle | 10 cenas, 99 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: jungle | 10 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: um país fabrica dinheiro digital com um vulcão.
+- Narracao: Um país fabrica dinheiro digital usando a energia de um vulcão.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.
+## Cena b2  (~3.1 s)
+- Narracao: Em 2021, El Salvador tornou o bitcoin moeda oficial.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~3.1 s)
-- Narracao: Criar bitcoin novo exige computadores fazendo contas sem parar.
+## Cena b3  (~2.8 s)
+- Narracao: Criar bitcoin exige computadores fazendo contas sem parar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.1 s)
-- Narracao: Para isso, ele usou o calor do vulcão Tecapa.
+## Cena b4  (~3.4 s)
+- Narracao: Para isso, o governo usou o calor do vulcão Tecapa.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@40
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~4.1 s)
-- Narracao: Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.
+## Cena b7  (~3.4 s)
+- Narracao: Anos depois, o governo contava quase quinhentos bitcoins do vulcão.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.8 s)
-- Narracao: E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.
+## Cena b8  (~3.4 s)
+- Narracao: E anunciou uma Cidade Bitcoin aos pés de outro vulcão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: jungle |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.1 s)
-- Narracao: Dinheiro tirado de vulcão. E ninguém te conta isso.
+- Narracao: Dinheiro tirado da terra quente. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino

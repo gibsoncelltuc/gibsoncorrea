@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Bitcoin Feito com Vulcão | Bitcoin Feito com Vulcão / Ninguém Parece Mas Em Nayib Bukele El Salvador 2021 | SEM REFERENCIA
+tema | Bitcoin Feito com Vulcão | Bitcoin Feito com Vulcão / Um Parece Mas Em El Salvador 2021 | SEM REFERENCIA
 lugar | Usina geotermica de Berlin, no vulcao Tecapa (Usulutan, El Salvador): usina com | Usina geotermica de Berlin no vulcao Tecapa / Usina geotermica de Berlin no vulcao Tecapa Usulutan El Salvador 2021 | SEM REFERENCIA
 lugar | El Salvador | El Salvador 2021 / El Salvador landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2021 | 2021 fashion clothing / 2021 street photograph | SEM REFERENCIA

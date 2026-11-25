@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City El Salvador 2019 | SEM REFERENCIA
+tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City 2019 | SEM REFERENCIA
 lugar | La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de | La Libertad El Salvador / La Libertad El Salvador 2019 | SEM REFERENCIA
 lugar | El Salvador | El Salvador 2019 / El Salvador landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | SEM REFERENCIA

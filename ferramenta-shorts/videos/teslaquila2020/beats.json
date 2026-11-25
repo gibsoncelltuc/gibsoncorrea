@@ -80,7 +80,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Piada se esquece rápido? Esta virou uma garrafa de 250 dólares.",
+   "say": "Uma piada de primeiro de abril virou uma garrafa de 250 dólares.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -146,7 +146,7 @@
    ],
    "text": "TESLA FALIU?",
    "bloco": "prova",
-   "say": "Em 2018, no dia da mentira, Musk postou que a Tesla faliu.",
+   "say": "Em 2018, Musk postou que a Tesla faliu. Era piada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -217,7 +217,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Na foto, aparecia cercado de garrafas de uma tal Teslaquila.",
+   "say": "Na foto, garrafas de uma tal Teslaquila.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -243,13 +243,13 @@
    ],
    "interior": "loja",
    "bloco": "escalada",
-   "say": "Muita gente riu. Mas ele levou a ideia a sério.",
+   "say": "Muitos riram. Ele levou a sério.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "riu"
+      "na": "riram"
      }
     ]
    }
@@ -368,63 +368,6 @@
    }
   },
   {
-   "shot": "crowd",
-   "who": [
-    "FAN:0:shout",
-    "POV:0:surprised",
-    "POV:1:grin"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV",
-     "FAN"
-    ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "props": [
-    [
-     "kit/tequila_bolt",
-     0.0,
-     -1.2,
-     2.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "ring@50"
-   ],
-   "sfx": [
-    "ding@20",
-    "sting@50"
-   ],
-   "text": "ESGOTOU",
-   "titulo": true,
-   "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "bloco": "pagamento",
-   "say": "Cada garrafa custava 250 dólares e esgotou em poucas horas.",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "esgotou"
-     }
-    ]
-   }
-  },
-  {
    "shot": "two",
    "who": [
     "POV:0:smug:paper",
@@ -496,7 +439,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Tudo por causa de uma piada de primeiro de abril.",
+   "say": "Ninguém acreditou na piada. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -545,7 +488,7 @@
    "agave": "blue agave field Jalisco"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma piada de 1o de abril virou uma garrafa de 250 dolares. Pagamento: o nome Teslaquila foi barrado, virou Tesla Tequila em 2020, esgotou em horas e garrafas vazias passaram de mil dolares.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma piada de 1o de abril virou uma garrafa de 250 dolares e ate a vazia valia uma fortuna. Pagamento: o nome Teslaquila foi barrado, saiu como Tesla Tequila em 2020, esgotou e vazias passaram de mil dolares.",
  "loop_frase_ok": true
 }

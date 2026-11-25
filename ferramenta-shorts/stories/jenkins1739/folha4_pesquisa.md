@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Orelha de Jenkins
 - Epoca: 1739 | Lugar: mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento | Quando: abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia
 - HEROIS (objeto): kit/ear_jar
-- HEROIS (personagens): JEN, ESP, PRE, ING
+- HEROIS (personagens): JEN, ESP, ING, CAP
 - Cenarios: harbor, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)

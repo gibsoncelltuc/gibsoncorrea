@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 102 palavras (~35 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 94 palavras (~32 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um médico pediu para os colegas lavarem as mãos e foi expulso.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.1 s)
-- Narracao: E hoje ele é chamado de salvador das mães.
+## Cena b1  (~2.4 s)
+- Narracao: Hoje é chamado de salvador das mães.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.8 s)
-- Narracao: Um colega se cortou numa autópsia e morreu da mesma febre.
+## Cena b4  (~3.4 s)
+- Narracao: Um colega se cortou numa autópsia e morreu de febre.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~4.1 s)
-- Narracao: Acontece que os médicos iam das autópsias aos partos de mãos sujas.
+## Cena b5  (~3.4 s)
+- Narracao: Acontece que os médicos saíam das autópsias de mãos sujas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: VIDAS SALVAS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.4 s)
-- Narracao: Mas os médicos se ofenderam, e ele foi mandado embora.
+## Cena b8  (~2.8 s)
+- Narracao: Mas os médicos se ofenderam e o expulsaram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@50
 - Efeito + som nas palavras-chave: -
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.1 s)
-- Narracao: Morreu sem reconhecimento. Hoje, lavar as mãos é regra.
+## Cena b9  (~2.8 s)
+- Narracao: Lavar as mãos virou insulto. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: Morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: FECHO/PIADA FINAL

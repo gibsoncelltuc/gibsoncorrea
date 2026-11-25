@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 107 palavras (~37 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 92 palavras (~32 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: A primeira foto de dentro do corpo assustou a esposa do cientista.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 1895, na Alemanha, Wilhelm Röntgen testava um tubo de vidro.
+## Cena b2  (~3.1 s)
+- Narracao: Em 1895, Wilhelm Röntgen testava um tubo de vidro.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ALEMANHA
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~4.1 s)
-- Narracao: Uma noite, cobriu o tubo com papelão preto e apagou a luz.
+## Cena b3  (~3.1 s)
+- Narracao: Uma noite, cobriu o tubo e apagou a luz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@60
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.1 s)
-- Narracao: Sem saber o que era, chamou de raio X: X de desconhecido.
+## Cena b7  (~3.1 s)
+- Narracao: Sem saber o que era, chamou de raio X.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: RAIO X
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Ganhou o primeiro Nobel de Física e nunca patenteou a descoberta.
+## Cena b8  (~2.1 s)
+- Narracao: Ganhou o primeiro Nobel de Física.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: Ganhou -> stars + som de sino
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.1 s)
-- Narracao: Tudo começou com uma foto que assustou a esposa.
+## Cena b9  (~2.4 s)
+- Narracao: Um raio desconhecido, e foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: RAIO X
 - Funcao na historia: FECHO/PIADA FINAL

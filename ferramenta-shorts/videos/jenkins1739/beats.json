@@ -318,13 +318,12 @@
    "say": "\"Leve isso ao seu rei\", teria dito."
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "interior": "pedra",
    "who": [
     "PRE:0:angry:paper",
     "JEN:0:sad",
-    "ING:0:angry",
-    "PRE:1:shout"
+    "ING:0:angry"
    ],
    "interacao": "susto",
    "text": "PARLAMENTO",
@@ -367,7 +366,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "detalhe": false,
+   "_auto_vis": 2
   },
   {
    "shot": "two",

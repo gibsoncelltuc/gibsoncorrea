@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 82 palavras (~28 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Ninguém te conta: um carro de verdade gira em volta do Sol.
+## Cena b0  (~3.8 s)
+- Narracao: Um carro de verdade está dando voltas em torno do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -30,7 +30,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.1 s)
-- Narracao: Para o teste, em vez de concreto, Musk mandou o próprio carro.
+- Narracao: Em vez de um peso de concreto, Musk mandou o próprio carro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: E continua lá em cima, dando voltas, até hoje.
+## Cena b8  (~2.1 s)
+- Narracao: Ele continua lá até hoje. Porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -1,31 +1,35 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "CARRO NO ESPAÇO",
- "gancho_cumprido": "Gancho: um carro de verdade da voltas ao redor do Sol ate hoje, com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
+ "gancho_cumprido": "Gancho: um carro de verdade gira em volta do Sol com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: um carro de verdade gira em volta do Sol.",
-   "carro"
+   "Um carro de verdade está dando voltas em torno do Sol.",
+   "carro",
+   {}
   ],
   [
    5,
    "promessa",
    "E o motorista dele não respira.",
-   "motorista"
+   "motorista",
+   {}
   ],
   [
    2,
    "prova",
    "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
-   "testou"
+   "testou",
+   {}
   ],
   [
    3,
    "prova",
-   "Para o teste, em vez de concreto, Musk mandou o próprio carro.",
-   "mandou"
+   "Em vez de um peso de concreto, Musk mandou o próprio carro.",
+   "mandou",
+   {}
   ],
   [
    4,
@@ -40,13 +44,15 @@
    5,
    "escalada",
    "Acontece que no volante ia um boneco astronauta, o Starman.",
-   "Starman"
+   "Starman",
+   {}
   ],
   [
    6,
    "escalada",
    "No painel, um aviso: não entre em pânico.",
-   "pânico"
+   "pânico",
+   {}
   ],
   [
    7,
@@ -60,8 +66,9 @@
   [
    0,
    "loop",
-   "E continua lá em cima, dando voltas, até hoje.",
-   "voltas"
+   "Ele continua lá até hoje. Porque...",
+   "continua",
+   {}
   ]
  ]
 }

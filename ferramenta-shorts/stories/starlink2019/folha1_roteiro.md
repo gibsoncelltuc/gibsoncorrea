@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 04 - A Fila de Luzes no Céu
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 92 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 82 palavras (~28 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Uma fila de luzes cruzou o céu da Europa. Disseram que eram ETs.
+## Cena b0  (~3.8 s)
+- Narracao: Uma fila de luzes cruzou o céu, e chamaram de ETs.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.4 s)
-- Narracao: Viu pelo menos cinquenta e seis objetos brilhando em fila.
+## Cena b4  (~3.1 s)
+- Narracao: Viu pelo menos cinquenta e seis luzes em fila.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: Os jornais explicaram: não eram OVNIs, eram satélites de internet.
+## Cena b7  (~2.4 s)
+- Narracao: Não eram ETs. Eram satélites de internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Viu uma fila de luzes no céu? Pode ser só internet.
+## Cena b8  (~2.4 s)
+- Narracao: Internet no céu, e foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -

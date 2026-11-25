@@ -126,7 +126,7 @@
    "mapa": "ALEMANHA",
    "mapa_at": 3,
    "bloco": "prova",
-   "say": "Em 1895, na Alemanha, Wilhelm Röntgen testava um tubo de vidro.",
+   "say": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -165,7 +165,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "prova",
-   "say": "Uma noite, cobriu o tubo com papelão preto e apagou a luz.",
+   "say": "Uma noite, cobriu o tubo e apagou a luz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -303,7 +303,7 @@
    ],
    "text": "RAIO X",
    "bloco": "pagamento",
-   "say": "Sem saber o que era, chamou de raio X: X de desconhecido.",
+   "say": "Sem saber o que era, chamou de raio X.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -345,7 +345,7 @@
    "text": "NOBEL",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "Ganhou o primeiro Nobel de Física e nunca patenteou a descoberta.",
+   "say": "Ganhou o primeiro Nobel de Física.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -384,13 +384,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Tudo começou com uma foto que assustou a esposa.",
+   "say": "Um raio desconhecido, e foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "foto"
+      "na": "foi"
      }
     ]
    }
@@ -432,6 +432,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista. Pagamento: o tubo coberto fez a tela brilhar, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
+ "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista, que viu ali a propria morte. Pagamento: a tela brilhou, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
  "loop_frase_ok": true
 }

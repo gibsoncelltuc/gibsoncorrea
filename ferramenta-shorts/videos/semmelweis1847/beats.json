@@ -124,7 +124,7 @@
    "d1": 8.0,
    "explica": false,
    "bloco": "promessa",
-   "say": "E hoje ele é chamado de salvador das mães.",
+   "say": "Hoje é chamado de salvador das mães.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -218,7 +218,7 @@
    ],
    "impact": true,
    "bloco": "escalada",
-   "say": "Um colega se cortou numa autópsia e morreu da mesma febre.",
+   "say": "Um colega se cortou numa autópsia e morreu de febre.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -242,7 +242,7 @@
     "ding@20"
    ],
    "bloco": "escalada",
-   "say": "Acontece que os médicos iam das autópsias aos partos de mãos sujas.",
+   "say": "Acontece que os médicos saíam das autópsias de mãos sujas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -362,7 +362,7 @@
     "sting@50"
    ],
    "bloco": "pagamento",
-   "say": "Mas os médicos se ofenderam, e ele foi mandado embora.",
+   "say": "Mas os médicos se ofenderam e o expulsaram.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -404,7 +404,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Morreu sem reconhecimento. Hoje, lavar as mãos é regra.",
+   "say": "Lavar as mãos virou insulto. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -453,7 +453,7 @@
    "medico": "Ignaz Semmelweis portrait"
   }
  },
- "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos, foi expulso e hoje e' chamado de salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
  "loop_frase_ok": true
 }

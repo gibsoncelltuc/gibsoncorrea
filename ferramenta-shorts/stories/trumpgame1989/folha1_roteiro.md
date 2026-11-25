@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 105 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 86 palavras (~30 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro.
+## Cena b0  (~3.8 s)
+- Narracao: Donald Trump lançou um jogo com o próprio rosto no dinheiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 1989, ele já era um empresário famoso de Nova York.
+## Cena b2  (~2.8 s)
+- Narracao: Em 1989, ele já era um empresário famoso.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: As notas eram de cem milhões de dólares, com a cara dele.
+## Cena b4  (~2.1 s)
+- Narracao: As notas tinham a cara dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: 800 MIL
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: Em 2004, com o programa O Aprendiz, o jogo voltou.
+## Cena b7  (~2.8 s)
+- Narracao: Em 2004, com O Aprendiz, o jogo voltou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Desta vez com regras simples e a frase: você está demitido.
+## Cena b8  (~2.4 s)
+- Narracao: Desta vez, com regras bem mais simples.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: VOLTOU
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.4 s)
-- Narracao: Um jogo para ficar bilionário, que quase ninguém conseguia jogar.
+## Cena b9  (~2.8 s)
+- Narracao: Um jogo que ninguém entendia. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

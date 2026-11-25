@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Ninguém te conta: o velcro nasceu de um passeio com o cachorro.
+## Cena b0  (~3.1 s)
+- Narracao: O velcro nasceu de um passeio com o cachorro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -12,7 +12,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~2.4 s)
-- Narracao: E hoje ela está no seu tênis.
+- Narracao: E hoje ele está no seu tênis.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: SUÍÇA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: O cachorro e a calça dele estavam cheios de carrapichos.
+## Cena b3  (~3.1 s)
+- Narracao: O cachorro e a calça estavam cheios de carrapichos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: VELCRO
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Tudo graças a um cachorro cheio de carrapichos.
+## Cena b9  (~3.1 s)
+- Narracao: Um cachorro cheio de carrapichos. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

@@ -28,7 +28,7 @@
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "Ninguém te conta: um país fabrica dinheiro digital com um vulcão.",
+   "frase": "Um país fabrica dinheiro digital usando a energia de um vulcão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,9 +65,9 @@
     "kit/coin",
     "kit/volcano"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.",
+   "frase": "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -91,9 +91,9 @@
     "kit/bitcoin",
     "kit/miners"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Criar bitcoin novo exige computadores fazendo contas sem parar.",
+   "frase": "Criar bitcoin exige computadores fazendo contas sem parar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -109,9 +109,9 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 9,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "Para isso, ele usou o calor do vulcão Tecapa.",
+   "frase": "Para isso, o governo usou o calor do vulcão Tecapa.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -171,9 +171,9 @@
     "kit/bitcoin",
     "kit/volcano"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
+   "frase": "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -199,9 +199,9 @@
     "kit/volcano",
     "nature/lamppost"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "frase": "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -221,7 +221,7 @@
    ],
    "palavras": 9,
    "cena": "b9",
-   "frase": "Dinheiro tirado de vulcão. E ninguém te conta isso.",
+   "frase": "Dinheiro tirado da terra quente. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

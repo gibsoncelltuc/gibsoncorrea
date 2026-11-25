@@ -54,9 +54,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Anos depois, dizem, Jenkins mostrou a orelha aos deputados.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (4): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad); ING (variante 0, expressao angry); PRE (variante 1, expressao shout)
+- Personagens principais (3): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad); ING (variante 0, expressao angry)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
@@ -64,7 +64,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que a Inglaterra só queria um pretexto.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao smug); ING (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: cochichar

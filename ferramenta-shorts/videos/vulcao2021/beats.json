@@ -90,7 +90,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um país fabrica dinheiro digital com um vulcão.",
+   "say": "Um país fabrica dinheiro digital usando a energia de um vulcão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -160,7 +160,7 @@
    "d1": 11.5,
    "mapa": "EL SALVADOR",
    "bloco": "prova",
-   "say": "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.",
+   "say": "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -196,7 +196,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Criar bitcoin novo exige computadores fazendo contas sem parar.",
+   "say": "Criar bitcoin exige computadores fazendo contas sem parar.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -243,7 +243,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "escalada",
-   "say": "Para isso, ele usou o calor do vulcão Tecapa.",
+   "say": "Para isso, o governo usou o calor do vulcão Tecapa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -414,7 +414,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "pagamento",
-   "say": "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
+   "say": "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -462,7 +462,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "pagamento",
-   "say": "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "say": "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -513,13 +513,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Dinheiro tirado de vulcão. E ninguém te conta isso.",
+   "say": "Dinheiro tirado da terra quente. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "vulcão"
+      "na": "Dinheiro"
      }
     ]
    }
@@ -568,6 +568,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um presidente fabricou dinheiro digital com a energia de um vulcao e isso parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
+ "gancho_cumprido": "Gancho: um pais fabrica dinheiro digital com um vulcao, e parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
  "loop_frase_ok": true
 }

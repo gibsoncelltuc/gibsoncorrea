@@ -12,5 +12,5 @@ b6 | group | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
 b8 | wide | espaco  | tropa, placa: CARRO NO ESPAÇO | - | -
 
-Mistura de planos: close 1% | medio 70% | aberto 26% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 1% | medio 72% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

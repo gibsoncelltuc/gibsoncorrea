@@ -84,7 +84,7 @@
    "fachada": false,
    "detalhe": false,
    "bloco": "gancho",
-   "say": "Uma fila de luzes cruzou o céu da Europa. Disseram que eram ETs.",
+   "say": "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -225,13 +225,13 @@
    "d1": 20.0,
    "set": "loc_montanha",
    "bloco": "prova",
-   "say": "Viu pelo menos cinquenta e seis objetos brilhando em fila.",
+   "say": "Viu pelo menos cinquenta e seis luzes em fila.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "brilhando"
+      "na": "cinquenta"
      }
     ]
    }
@@ -346,13 +346,13 @@
    "mapa_at": 1,
    "interior": "loja",
    "bloco": "pagamento",
-   "say": "Os jornais explicaram: não eram OVNIs, eram satélites de internet.",
+   "say": "Não eram ETs. Eram satélites de internet.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "explicaram"
+      "na": "eram"
      }
     ]
    }
@@ -391,13 +391,13 @@
    "fachada": false,
    "detalhe": false,
    "bloco": "loop",
-   "say": "Viu uma fila de luzes no céu? Pode ser só internet.",
+   "say": "Internet no céu, e foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "luzes"
+      "na": "Internet"
      }
     ]
    }
@@ -442,7 +442,7 @@
    "foguete": "Falcon 9 Starlink launch May 2019"
   }
  },
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma fila de luzes no ceu foi tratada como ET e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma fila de luzes no ceu da Europa foi tratada como ETs e a verdade estava num foguete. Pagamento: eram 60 satelites Starlink lancados juntos, ainda em fila; mais de 150 relatos de OVNI.",
  "loop_frase_ok": true
 }

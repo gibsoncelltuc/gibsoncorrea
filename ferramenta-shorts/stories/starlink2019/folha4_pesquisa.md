@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Fila de Luzes no Céu | A Fila de Luzes no Céu / Uma Europa Disseram ETs Flórida Em SpaceX 2019 | SEM REFERENCIA
+tema | A Fila de Luzes no Céu | A Fila de Luzes no Céu / Uma ETs Flórida Em SpaceX 2019 | SEM REFERENCIA
 lugar | Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide | Cabo Canaveral Florida / Cabo Canaveral Florida lancamento do Falcon 9 e ceu noturno da Holanda Leiden Europa 2019 | SEM REFERENCIA
 lugar | Mundo | Mundo 2019 / Mundo landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | SEM REFERENCIA

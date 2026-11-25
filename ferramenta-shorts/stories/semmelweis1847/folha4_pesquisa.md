@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Médico que Mandou Lavar as Mãos | O Médico que Mandou Lavar as Mãos / Um Em Viena 1847 | SEM REFERENCIA
+tema | O Médico que Mandou Lavar as Mãos | O Médico que Mandou Lavar as Mãos / Um Hoje Em Viena 1847 | SEM REFERENCIA
 lugar | Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto | Hospital Geral de Viena / Hospital Geral de Viena Allgemeines Krankenhaus Austria 1847 | SEM REFERENCIA
 lugar | Áustria | Áustria 1847 / Áustria landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1847 | 1847 fashion clothing / 1847 street photograph | SEM REFERENCIA

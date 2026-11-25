@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Raio X de Röntgen | O Raio X de Röntgen / Conta Em Alemanha Wilhelm Röntgen 1895 | SEM REFERENCIA
+tema | O Raio X de Röntgen | O Raio X de Röntgen / Conta Em Wilhelm Röntgen 1895 | SEM REFERENCIA
 lugar | Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio | Instituto de Fisica da Universidade de Wurzburg Baviera / Instituto de Fisica da Universidade de Wurzburg Baviera Alemanha 1895 | SEM REFERENCIA
 lugar | Alemanha | Alemanha 1895 / Alemanha landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1895 | 1895 fashion clothing / 1895 street photograph | SEM REFERENCIA

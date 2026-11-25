@@ -62,7 +62,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | cochichar | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b5 - 16.1s a 18.7s - 9 palavras - plano group
+## Cena b5 - 16.1s a 18.7s - 9 palavras - plano two
 > "Anos depois, dizem, Jenkins mostrou a orelha aos deputados."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -74,7 +74,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | PARLAMENTO | OK |
 
-## Cena b6 - 20.0s a 21.8s - 8 palavras - plano two
+## Cena b6 - 20.0s a 21.8s - 8 palavras - plano group
 > "Acontece que a Inglaterra só queria um pretexto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

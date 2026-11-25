@@ -109,12 +109,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "PRE",
     "JEN",
-    "ING",
-    "PRE"
+    "ING"
    ],
    "multidao": 0,
    "objetos": [
@@ -130,7 +129,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
     "ING"

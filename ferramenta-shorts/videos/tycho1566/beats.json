@@ -70,7 +70,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: um gênio da astronomia perdeu o nariz por matemática.",
+   "say": "Um gênio da astronomia perdeu o nariz numa briga por matemática.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -127,7 +127,7 @@
    "mapa": "DINAMARCA",
    "mapa_at": 3,
    "bloco": "prova",
-   "say": "Em 1566, Tycho Brahe, nobre dinamarquês, estudava na Alemanha.",
+   "say": "Em 1566, Tycho Brahe estudava na Alemanha.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -148,7 +148,7 @@
    ],
    "acao": "discutir",
    "bloco": "prova",
-   "say": "Numa festa, discutiu com um primo: quem era melhor em matemática?",
+   "say": "Numa festa, discutiu com um primo sobre matemática.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -284,7 +284,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "pagamento",
-   "say": "Lá, ele mediu mais de mil estrelas, sem telescópio.",
+   "say": "Mediu mais de mil estrelas, sem telescópio.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -311,7 +311,7 @@
     "ding@50"
    ],
    "bloco": "pagamento",
-   "say": "Os dados dele ajudaram Kepler a entender as órbitas dos planetas.",
+   "say": "Os dados dele ajudaram o astrônomo Kepler.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -346,7 +346,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Cabeça nas estrelas, e nariz de metal.",
+   "say": "Cabeça nas estrelas e nariz de metal. Tudo porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -394,6 +394,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um grande astronomo perdeu o nariz numa briga por matematica e passou a usar nariz de metal. Pagamento: o duelo cortou o nariz, ele ganhou uma ilha, mediu mil estrelas e ajudou Kepler.",
+ "gancho_cumprido": "Gancho: um genio da astronomia perdeu o nariz por causa de matematica e viveu com um nariz de metal. Pagamento: o duelo cortou o nariz; depois ganhou uma ilha, mediu mil estrelas e ajudou Kepler.",
  "loop_frase_ok": true
 }

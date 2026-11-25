@@ -12,5 +12,5 @@ b6 | two | -  | tropa | - | -
 b7 | two | -  | interior, mapa | - | -
 b8 | wide | noite  | batalha aberta com tiros, tropa, placa: OVNI? | - | -
 
-Mistura de planos: close 2% | medio 76% | aberto 21% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 2% | medio 77% | aberto 21% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

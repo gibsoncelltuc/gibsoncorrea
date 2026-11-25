@@ -8,7 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 5",
+   "cena 3",
    "street",
    "loc_cidade"
   ]
@@ -68,14 +68,14 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b2",
-   "frase": "Em 2019, Nayib Bukele lançou a Surf City em El Salvador.",
+   "frase": "Em 2019, o presidente Nayib Bukele lançou a Surf City.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "crowd",
@@ -103,23 +103,6 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "JOR",
-    "JOR2"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b4",
-   "frase": "O evento valia vaga para as Olimpíadas de Tóquio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
    "camera": "crowd",
    "personagens": [
     "BUK"
@@ -129,9 +112,9 @@
     "kit/surfboard",
     "kit/volcano"
    ],
-   "palavras": 9,
-   "cena": "b5",
-   "frase": "Em 2023, vieram 294 competidores, de olho em Paris.",
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Depois, vieram 294 surfistas, de olho em Paris.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -155,7 +138,7 @@
     "kit/surfboard"
    ],
    "palavras": 8,
-   "cena": "b6",
+   "cena": "b5",
    "frase": "O governo promete quinhentos mil empregos, sem garantia.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -173,7 +156,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 10,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Acontece que moradores e ambientalistas se preocupam com a costa.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -193,7 +176,7 @@
     "kit/surfboard"
    ],
    "palavras": 7,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Em 2025, o Mundial voltou para lá.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -210,9 +193,9 @@
    "objetos": [
     "kit/surfboard"
    ],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "Capital do surfe ou promessa grande demais? Você decide.",
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Capital do surfe ou exagero? Só sei que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

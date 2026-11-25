@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Carro que Foi Parar no Espaço | O Carro que Foi Parar no Espaço / Ninguém Sol Em SpaceX Falcon Heavy 2018 | SEM REFERENCIA
+tema | O Carro que Foi Parar no Espaço | O Carro que Foi Parar no Espaço / Um Sol Em SpaceX Falcon Heavy 2018 | SEM REFERENCIA
 lugar | Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, | Cabo Canaveral Complexo de Lançamento 39A do Centro Espacial Kennedy Flórida e o espaço / Cabo Canaveral Complexo de Lançamento 39A do Centro Espacial Kennedy Flórida e o espaço 20 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2018 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2018 | 2018 fashion clothing / 2018 street photograph | SEM REFERENCIA

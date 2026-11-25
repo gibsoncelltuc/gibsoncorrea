@@ -58,9 +58,9 @@
     "kit/crookes_tube",
     "kit/marco_wurzburg"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em 1895, na Alemanha, Wilhelm Röntgen testava um tubo de vidro.",
+   "frase": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -82,9 +82,9 @@
    "objetos": [
     "kit/crookes_tube"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "Uma noite, cobriu o tubo com papelão preto e apagou a luz.",
+   "frase": "Uma noite, cobriu o tubo e apagou a luz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -156,9 +156,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Sem saber o que era, chamou de raio X: X de desconhecido.",
+   "frase": "Sem saber o que era, chamou de raio X.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -176,9 +176,9 @@
    "objetos": [
     "kit/marco_wurzburg"
    ],
-   "palavras": 11,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "Ganhou o primeiro Nobel de Física e nunca patenteou a descoberta.",
+   "frase": "Ganhou o primeiro Nobel de Física.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -201,9 +201,9 @@
    "objetos": [
     "kit/xray_plate"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "Tudo começou com uma foto que assustou a esposa.",
+   "frase": "Um raio desconhecido, e foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

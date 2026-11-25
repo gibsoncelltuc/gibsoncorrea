@@ -34,9 +34,9 @@
    "objetos": [
     "kit/starlink_train"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Uma fila de luzes cruzou o céu da Europa. Disseram que eram ETs.",
+   "frase": "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -113,9 +113,9 @@
    "objetos": [
     "kit/starlink_train"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Viu pelo menos cinquenta e seis objetos brilhando em fila.",
+   "frase": "Viu pelo menos cinquenta e seis luzes em fila.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -178,9 +178,9 @@
    "objetos": [
     "kit/starlink_sat"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Os jornais explicaram: não eram OVNIs, eram satélites de internet.",
+   "frase": "Não eram ETs. Eram satélites de internet.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -196,9 +196,9 @@
    "objetos": [
     "kit/starlink_train"
    ],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Viu uma fila de luzes no céu? Pode ser só internet.",
+   "frase": "Internet no céu, e foi assim que...",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

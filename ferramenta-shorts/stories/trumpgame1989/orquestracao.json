@@ -28,12 +28,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/boardgame",
-    "kit/marco_liberdade"
+    "kit/boardgame"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro.",
+   "frase": "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -65,12 +64,10 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [
-    "kit/marco_liberdade"
-   ],
-   "palavras": 11,
+   "objetos": [],
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1989, ele já era um empresário famoso de Nova York.",
+   "frase": "Em 1989, ele já era um empresário famoso.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -111,9 +108,9 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 12,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "As notas eram de cem milhões de dólares, com a cara dele.",
+   "frase": "As notas tinham a cara dele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,9 +163,9 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Em 2004, com o programa O Aprendiz, o jogo voltou.",
+   "frase": "Em 2004, com O Aprendiz, o jogo voltou.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -184,12 +181,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/boardgame",
-    "kit/marco_liberdade"
+    "kit/boardgame"
    ],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Desta vez com regras simples e a frase: você está demitido.",
+   "frase": "Desta vez, com regras bem mais simples.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -212,9 +208,9 @@
    "objetos": [
     "kit/boardgame"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Um jogo para ficar bilionário, que quase ninguém conseguia jogar.",
+   "frase": "Um jogo que ninguém entendia. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

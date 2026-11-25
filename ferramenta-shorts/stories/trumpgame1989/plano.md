@@ -13,5 +13,5 @@ b7 | orbit | -  | tropa | - | -
 b8 | group | -  | batalha aberta com tiros, tropa, placa: VOLTOU | - | -
 b9 | two | -  | placa: TRUMP: O JOGO | - | -
 
-Mistura de planos: close 14% | medio 68% | aberto 13% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 9% | medio 73% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

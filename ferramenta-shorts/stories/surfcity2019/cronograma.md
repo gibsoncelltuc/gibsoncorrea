@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 07 - A Cidade do Surfe
 
-Gerado em 25/11 17:06 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:28 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,14 +8,13 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior pedra | two | BUK | - | surfboard | - | Um país pequeno decidiu virar a capital mundial do surfe.
 b1 | transicao | loc_cidade | reveal | BUK | 8 | surfboard, volcano | - | E os surfistas do mundo inteiro foram atrás.
-b2 | simples | harbor | two | BUK, JOR | - | surfboard, volcano | - | Em 2019, Nayib Bukele lançou a Surf City em El Salvador.
+b2 | simples | loc_cidade | two | BUK, JOR | - | surfboard, volcano | - | Em 2019, o presidente Nayib Bukele lançou a Surf City.
 b3 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2021, o país sediou o Mundial de Surfe.
-b4 | simples | loc_cidade | two | JOR, JOR2 | - | - | - | O evento valia vaga para as Olimpíadas de Tóquio.
-b5 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2023, vieram 294 competidores, de olho em Paris.
-b6 | simples | interior loja | two | BUK, JOR2 | - | surfboard | - | O governo promete quinhentos mil empregos, sem garantia.
-b7 | simples | harbor | low | JOR, JOR2, POV | - | - | - | Acontece que moradores e ambientalistas se preocupam com a costa.
-b8 | simples | harbor | group | BUK, JOR, JOR2 | - | surfboard | - | Em 2025, o Mundial voltou para lá.
-b9 | simples | interior pedra | two | BUK | - | surfboard | - | Capital do surfe ou promessa grande demais? Você decide.
+b4 | chave | harbor | crowd | BUK | 10 | surfboard, volcano | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois, vieram 294 surfistas, de olho em Paris.
+b5 | simples | interior loja | two | BUK, JOR2 | - | surfboard | - | O governo promete quinhentos mil empregos, sem garantia.
+b6 | simples | harbor | low | JOR, JOR2, POV | - | - | - | Acontece que moradores e ambientalistas se preocupam com a costa.
+b7 | simples | harbor | group | BUK, JOR, JOR2 | - | surfboard | - | Em 2025, o Mundial voltou para lá.
+b8 | simples | interior pedra | two | BUK | - | surfboard | - | Capital do surfe ou exagero? Só sei que foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

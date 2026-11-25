@@ -11,7 +11,7 @@ b5 | two | study  | interior | - | -
 b6 | group | dia  | interior | - | -
 b7 | two | -  | interior, placa: RAIO X, objeto na mao | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | Ganhou (stars + som de sino) | -
-b9 | two | -  | placa: RAIO X, objeto na mao | (rosto) scared (expr + som de efeito) | -
+b9 | two | -  | placa: RAIO X, objeto na mao | - | -
 
-Mistura de planos: close 4% | medio 86% | aberto 7% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 3% | medio 88% | aberto 6% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

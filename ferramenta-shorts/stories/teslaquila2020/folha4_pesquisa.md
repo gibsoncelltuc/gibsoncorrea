@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Piada que Virou Tequila | A Piada que Virou Tequila / Piada Esta Em Musk Tesla 2020 | SEM REFERENCIA
+tema | A Piada que Virou Tequila | A Piada que Virou Tequila / Uma Em Musk Tesla Era 2020 | SEM REFERENCIA
 lugar | Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c | Estados Unidos / Estados Unidos redes sociais fabrica da Tesla e Jalisco Mexico destilaria com campos de ag | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2020 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2020 | 2020 fashion clothing / 2020 street photograph | SEM REFERENCIA
