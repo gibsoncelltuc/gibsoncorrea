@@ -22,7 +22,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ILH (pescador) no centro, expressao grin; multidao de 18 (ILH, MAR) ATRAS dos principais; acao: batalha
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: thump@50
+- SOM: cannon@40
+- SOM: cannon@70
 
 ## b3: "A Holanda mandou navios de guerra e exigiu o dinheiro de volta."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

@@ -23,9 +23,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b2  (~3.8 s)
 - Narracao: Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.
 - Som ambiente: sea
-- Efeitos sonoros marcados: thump@50
+- Efeitos sonoros marcados: thump@50, cannon@40, cannon@70
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: puff@50
+- Efeito visual marcado: puff@50, burst@40, burst@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 

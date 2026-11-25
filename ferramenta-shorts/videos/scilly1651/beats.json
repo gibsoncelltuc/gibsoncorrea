@@ -170,10 +170,14 @@
     ]
    ],
    "fx": [
-    "puff@50"
+    "puff@50",
+    "burst@40",
+    "burst@70"
    ],
    "sfx": [
-    "thump@50"
+    "thump@50",
+    "cannon@40",
+    "cannon@70"
    ],
    "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
    "detalhe": false,

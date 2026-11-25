@@ -12,6 +12,8 @@ gibber(F(_A[1] + int((_A[2] - _A[1]) * 0.2)), 4, 200, 0.12); gibber(F(_A[1] + in
 whoosh(F(_A[2]), 0.4, 0.35)
 sea(F(_A[2]), F(_A[3]), 0.14); gulls(F(_A[2]), F(_A[3]), 3, 0.1)
 thump(F(_A[2] + 50))
+cannon(F(_A[2] + 40))
+cannon(F(_A[2] + 70))
 whoosh(F(_A[3]), 0.4, 0.35)
 sea(F(_A[3]), F(_A[4]), 0.14); gulls(F(_A[3]), F(_A[4]), 3, 0.1)
 whoosh(F(_A[4]), 0.4, 0.35)
