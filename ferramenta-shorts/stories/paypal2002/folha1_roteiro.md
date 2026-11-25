@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Preço: um bilhão e meio de dólares, em ações.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@12
 - Texto na tela: US$ 1,5 BILHÃO
 - Funcao na historia: desenvolvimento

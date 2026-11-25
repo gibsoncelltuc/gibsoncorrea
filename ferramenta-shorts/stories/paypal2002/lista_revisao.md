@@ -1,37 +1,29 @@
-# LISTA UNICA DE REVISAO - paypal2002  (refacoes ate agora: 1; limite: 1)
+# LISTA UNICA DE REVISAO - paypal2002  (refacoes ate agora: 0; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. SUSPEITA b2: a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela
-2. SUSPEITA b8: a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Um serviço para pagar pela internet foi vendido por um bilhã": 
-- f1 "Era o PayPal,": 
-- f2 "e quem comprou foi o eBay,": 
-- f3 "o site de leilões mais famoso da época.": 
-- f4 "O PayPal deixava qualquer um mandar dinheiro só com um e-mai": 
-- f5 "sem precisar de banco.": 
-- f6 "O anúncio saiu em julho de dois mil e dois,": 
-- f7 "nos Estados Unidos,": 
-- f8 "e a compra terminou em outubro.": 
-- f9 "O pagamento foi em ações do eBay,": 
-- f10 "não em dinheiro vivo.": 
-- f11 "Elon Musk era o maior acionista do PayPal,": 
-- f12 "então ficou muito rico de repente.": 
-- f13 "Acontece que,": 
-- f14 "no mesmo ano,": 
-- f15 "ele tinha fundado a SpaceX,": 
-- f16 "uma empresa de foguetes.": 
-- f17 "Dois anos depois,": 
-- f18 "ele investiu na Tesla,": 
-- f19 "uma fábrica de carros elétricos,": 
-- f20 "e virou presidente do conselho.": 
-- f21 "O dinheiro de uma venda na internet ajudou a bancar foguetes": 
-- f22 "Quem diria:": 
-- f23 "um pagamento online chegou ao espaço.": 
-- f24 "Agora não deixe de comentar:": 
-- f25 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Os foguetes da SpaceX nasceram de um site de pagamento.": 
+- f1 "E tudo começou com um jeito de mandar dinheiro por e-mail.": 
+- f2 "O PayPal deixava mandar dinheiro só com um e-mail.": 
+- f3 "Em 2002,": 
+- f4 "o eBay comprou o PayPal.": 
+- f5 "Preço:": 
+- f6 "um bilhão e meio de dólares,": 
+- f7 "em ações.": 
+- f8 "Elon Musk era o maior acionista.": 
+- f9 "Ficou rico de repente.": 
+- f10 "Acontece que,": 
+- f11 "no mesmo ano,": 
+- f12 "ele tinha fundado a SpaceX.": 
+- f13 "Dois anos depois,": 
+- f14 "investiu na Tesla.": 
+- f15 "O dinheiro do PayPal ajudou a bancar foguetes e carros.": 
+- f16 "Um e-mail virou dinheiro,": 
+- f17 "e o dinheiro virou foguete.": 
+- f18 "Foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

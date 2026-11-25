@@ -92,17 +92,17 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b3",
-   "frase": "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
+   "frase": "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "BUK"
    ],
@@ -169,9 +169,9 @@
     "kit/marco_onu",
     "kit/phone"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b7",
-   "frase": "A selfie rodou o mundo. O discurso ficou em segundo plano.",
+   "frase": "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -194,9 +194,9 @@
    "objetos": [
     "mk/BookStand"
    ],
-   "palavras": 7,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "Um segundo bastou. E foi assim que...",
+   "frase": "Um segundo bastou para virar notícia. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

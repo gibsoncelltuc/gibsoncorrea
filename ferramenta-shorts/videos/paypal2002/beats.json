@@ -84,7 +84,19 @@
     ]
    },
    "text": "PAYPAL → FOGUETES",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -119,6 +131,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/tv",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fachada": false,
@@ -141,6 +162,38 @@
      {
       "faz": "mostra",
       "na": "dinheiro"
+     }
+    ]
+   },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/roadster2008",
+      "lugar": "sem medida (modelo nao encontrado)",
+      "tela": "-",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -171,6 +224,15 @@
       "fixo": true,
       "y": 1.22
      }
+    ],
+    [
+     "kit/tv",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "E-MAIL = DINHEIRO",
@@ -190,6 +252,32 @@
      {
       "faz": "mostra",
       "na": "mandar"
+     }
+    ]
+   },
+   "_susp_tela": true,
+   "_susp_ok": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/computador_2002",
+      "lugar": "sem medida (modelo nao encontrado)",
+      "tela": "-",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -272,7 +360,20 @@
      {
       "faz": "negocio",
       "na": "bilhão",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -345,6 +446,18 @@
       "na": "fundado"
      }
     ]
+   },
+   "quadro": {
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -393,6 +506,18 @@
      {
       "faz": "mostra",
       "na": "investiu"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/roadster2008",
+      "lugar": "sem medida (modelo nao encontrado)",
+      "tela": "-",
+      "estado": "parado"
      }
     ]
    }
@@ -454,6 +579,30 @@
       "na": "bancar"
      }
     ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rocket",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/roadster2008",
+      "lugar": "sem medida (modelo nao encontrado)",
+      "tela": "-",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -498,6 +647,18 @@
      {
       "faz": "mostra",
       "na": "e"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/coin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -553,5 +714,6 @@
  "min_momentos": 1,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: os foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro bancou SpaceX e Tesla.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 3
 }

@@ -40,6 +40,8 @@ def verifica(i):
     for k, b in enumerate(B['beats']):
         cs = cenas.get(f'b{k}', [])
         if not cs: continue
+        if B.get('gancho_tipo') and b.get('bloco') == 'loop' and k == len(B['beats']) - 1:   # 25/11 Selfie: o LOOP copia o cenario da 1a cena (mkvideo); confere contra ela
+            b = {**b}; b.pop('set', None); b.pop('interior', None); b.update({k2: B['beats'][0][k2] for k2 in ('set', 'interior') if k2 in B['beats'][0]})
         try: _rl = json.load(open(f'stories/{i}/orquestracao.json'))['cenas'][k]['cenario']
         except Exception: _rl = None
         if b.get('interior') and _rl and not _rl.startswith('interior'):   # 25/11 FILMAGEM CONTINUA: o mkvideo juntou a cena solta ao lugar das vizinhas; vale o cenario real da orquestracao

@@ -18,6 +18,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/tv: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b2: "O PayPal deixava mandar dinheiro só com um e-mail."
 - LOCAL: sala de madeira; hora: golden
@@ -25,6 +26,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/computador_2002: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/tv: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "E-MAIL = DINHEIRO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b3: "Em 2002, o eBay comprou o PayPal."
