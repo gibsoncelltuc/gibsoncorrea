@@ -171,12 +171,13 @@
    ],
    "set": "street",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "operários",
-      "quem": 0
+      "quem": 0,
+      "faz": "pega",
+      "na": "tirar",
+      "forcar": true
      }
     ]
    }
@@ -293,12 +294,13 @@
    "tiros": false,
    "batalha": false,
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "luz",
-      "quem": 0
+      "quem": 0,
+      "faz": "grita",
+      "na": "janelas",
+      "forcar": true
      }
     ]
    }
@@ -315,12 +317,13 @@
    ],
    "interior": "pedra",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "prefeitura",
-      "quem": 0
+      "quem": 0,
+      "faz": "fala",
+      "na": "abriu",
+      "forcar": true
      }
     ]
    }

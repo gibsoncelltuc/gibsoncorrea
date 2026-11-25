@@ -4,12 +4,12 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: X | - | -
 b1 | two | -  | interior, mapa | - | -
-b2 | group | -  | batalha aberta com tiros, tropa | - | -
+b2 | group | -  | batalha aberta com tiros, tropa | encena: pega (lift) @4 (acao + som de efeito) | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | tropa, placa: E R | - | -
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: X | - | -
-b6 | two | noite  | tropa, placa: X | - | -
-b7 | two | -  | interior | - | -
+b6 | two | noite  | tropa, placa: X | encena: grita (up) @10 (acao + som de efeito) | -
+b7 | two | -  | interior | encena: fala (point) @12 (acao + som de efeito) | -
 b8 | two | -  | interior | - | -
 b9 | two | noite  | - | - | -
 b10 | two | -  | interior | - | -
