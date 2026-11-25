@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Médico que Mandou Lavar as Mãos
 - Epoca: 1847 | Lugar: Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto com leitos em fileira, sala de autopsia | Quando: 1846-1849, dia
-- HEROIS (objeto): kit/wash_basin
+- HEROIS (objeto): kit/wash_basin, kit/maca
 - HEROIS (personagens): SEM, DIR
 - Cenarios: interior hospital, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -28,6 +28,7 @@ objeto | bisturi | bisturi / bisturi 1847 | Impugnatura bisturi a piena mano r.j
 objeto | leitos de hospital | leitos de hospital / leitos de hospital 1847 | Dublin Methodist Hospital - Front 1.jpg (referencias/semmelweis1847/prints/leitos_de_hospital_2d2733.jpg); Moore Regional Hospital facility in Pinehurst.jpg (referencias/semmelweis1847/prints/leitos_de_hospital_12cb53.jpg); Ellis Island hospital window mural (01897).jpg (referencias/semmelweis1847/prints/leitos_de_hospital_44377d.jpg)
 objeto | lapide | lapide / lapide 1847 | Cornelius a Lapide (1597-1637).jpg (referencias/semmelweis1847/prints/lapide_a68766.jpg); Christus en Serafijnen Titelpagina voor Cornelius  (referencias/semmelweis1847/prints/lapide_0aaf79.jpg); Cornelius a Lapide (oeuvres complètes).jpg (referencias/semmelweis1847/prints/lapide_3943fc.jpg)
 heroi | wash basin | bacia com agua e cal clorada / O Médico que Mandou Lavar as Mãos | Basin Street in Basin, Montana.jpg (referencias/semmelweis1847/prints/wash_basin_1d1b8d.jpg); BasinWyoming.jpg (referencias/semmelweis1847/prints/wash_basin_e6c7ba.jpg); Map of Euphrates and Tigris rivers basin in yellow (referencias/semmelweis1847/prints/wash_basin_0addca.jpg)
+heroi | maca | maca | SEM REFERENCIA
 epoca | hospital da epoca | hospital 1847 / hospital | Catherine Maude Nichols (1847-1923) - Bethel Hospi (referencias/semmelweis1847/prints/hospital_da_epoca_160ced.jpg); The Great Hall, Royal Hospital, Chelsea by John Ey (referencias/semmelweis1847/prints/hospital_da_epoca_1a5cdd.jpg); Tom Comley Vivian (1847-1908) - Caleb Thornber - E (referencias/semmelweis1847/prints/hospital_da_epoca_c7baa1.jpg)
 
 ## Explicacoes (como funciona, com fonte)

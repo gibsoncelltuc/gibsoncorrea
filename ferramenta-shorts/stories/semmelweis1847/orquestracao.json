@@ -72,10 +72,13 @@
    "camera": "two",
    "personagens": [
     "MAE",
+    "MAE",
     "SEM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/maca"
+   ],
    "palavras": 10,
    "cena": "b3",
    "frase": "Na ala dos médicos, morriam muito mais mães, de febre.",
@@ -92,7 +95,10 @@
     "SEM"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/bancada",
+    "kit/bisturi"
+   ],
    "palavras": 10,
    "cena": "b4",
    "frase": "Um colega se cortou numa autópsia e morreu de febre.",
@@ -109,9 +115,10 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
-    "SEM"
+    "SEM",
+    "DIR"
    ],
    "multidao": 0,
    "objetos": [],

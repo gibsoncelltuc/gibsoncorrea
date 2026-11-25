@@ -71,18 +71,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior hospital | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): MAE (variante 0, expressao scared); SEM (variante 0, expressao sad)
+- Personagens principais (3): MAE (variante 0, expressao scared); MAE (variante 1, expressao sad); SEM (variante 0, expressao sad)
 - Animacao: conversar | interacao: aproxima-se
-- Objetos/modelos: -
+- Objetos/modelos: kit/maca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): febre, medicos
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAE na esquerda, expressao scared; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: MAE na esquerda, expressao scared; MAE no centro, expressao sad; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
@@ -96,16 +98,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
 - Animacao: reagir | interacao: avanca e o outro recua | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: -
+- Objetos/modelos: kit/bancada, kit/bisturi
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, febre
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bisturi: FRENTE, esquerda; tamanho na tela: 1% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
@@ -113,10 +116,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que os médicos saíam das autópsias de mãos sujas.
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): SEM (variante 0, expressao surprised)
-- Animacao: conversar
+- Personagens principais (2): SEM (variante 0, expressao stern); DIR (variante 0, expressao smile)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): autopsias, maos, medicos
 - RISCOS: nenhum
@@ -124,11 +127,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: SEM (medico) no centro, expressao surprised; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
+- TEXTO NA TELA: "MÃOS SUJAS" flutuando no alto, na palavra 9 da frase
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -215,13 +219,15 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/wash_basin | b0, b1, b6, b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_viena | b1, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/maca | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/maca | b2, b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/room_hospital | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bancada | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 12% | medio 76% | aberto 9% | detalhe 3%
-- Interacoes: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b6 discutir, b8 empurrar, b9 vai ate o outro
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 1% | medio 86% | aberto 9% | detalhe 3%
+- Interacoes: b0 empurrar, b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Na ala dos médicos, morriam muito mais mães, de febre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: morre (point) @4 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Um colega se cortou numa autópsia e morreu de febre.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre (point) @7 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
-- Texto na tela: -
+- Texto na tela: MÃOS SUJAS
 - Funcao na historia: VIRADA
 
 ## Cena b6  (~4.1 s)

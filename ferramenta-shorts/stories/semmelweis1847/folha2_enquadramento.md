@@ -28,27 +28,31 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Na ala dos médicos, morriam muito mais mães, de febre."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MAE na esquerda, expressao scared; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- PERSONAGENS: MAE na esquerda, expressao scared; MAE no centro, expressao sad; SEM (medico) na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/maca: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 
 ## b4: "Um colega se cortou numa autópsia e morreu de febre."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bisturi: FRENTE, esquerda; tamanho na tela: 1% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
 ## b5: "Acontece que os médicos saíam das autópsias de mãos sujas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: SEM (medico) no centro, expressao surprised; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
+- TEXTO NA TELA: "MÃOS SUJAS" flutuando no alto, na palavra 9 da frase
 
 ## b6: "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos."
 - LOCAL: sala de madeira; hora: day
