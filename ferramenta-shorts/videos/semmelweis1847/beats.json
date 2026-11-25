@@ -455,7 +455,7 @@
    "detalhe": false,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
       "objeto": "kit/bisturi",
@@ -517,7 +517,7 @@
    "detalhe": false,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/maca",
@@ -828,5 +828,6 @@
    "hospital": "Vienna General Hospital 1840s maternity ward",
    "medico": "Ignaz Semmelweis portrait"
   }
- }
+ },
+ "max_wide": 4
 }
