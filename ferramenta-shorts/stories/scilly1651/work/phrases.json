@@ -1,234 +1,166 @@
 {
- "duration": 60.264,
- "frames30": 1808,
- "source": "silence-align (cost 0.65)",
+ "duration": 47.208,
+ "frames30": 1416,
+ "source": "silence-align (cost 4.19)",
  "segments": [
   [
-   0.145333,
-   3.86017
+   0.157208,
+   1.95267
   ],
   [
-   4.14571,
-   5.11179
+   2.8,
+   5.31483
   ],
   [
-   5.97567,
-   8.11062
+   6.14712,
+   8.44196
   ],
   [
-   8.33854,
-   9.157
+   9.2935,
+   10.765
   ],
   [
-   9.40904,
-   10.3033
+   11.0513,
+   13.7322
   ],
   [
-   11.1696,
-   13.5348
+   14.5884,
+   17.4833
   ],
   [
-   13.8325,
-   15.1785
+   18.337,
+   21.4985
   ],
   [
-   16.0294,
-   19.1189
+   22.2999,
+   23.6738
   ],
   [
-   19.9589,
-   20.5615
+   24.5303,
+   25.7748
   ],
   [
-   20.7993,
-   21.6845
+   26.6143,
+   29.3147
   ],
   [
-   22.0,
-   24.1325
+   30.1746,
+   31.7365
   ],
   [
-   25.0057,
-   27.8782
+   32.0558,
+   33.5859
   ],
   [
-   28.1007,
-   29.828
+   33.858,
+   34.8283
   ],
   [
-   30.6696,
-   33.3517
+   35.6717,
+   37.2311
   ],
   [
-   34.2188,
-   35.8479
+   37.5168,
+   39.9768
   ],
   [
-   36.144,
-   38.6264
+   40.8405,
+   42.7554
   ],
   [
-   39.4944,
-   41.059
+   42.9424,
+   43.6352
   ],
   [
-   41.3383,
-   43.5999
-  ],
-  [
-   44.4273,
-   45.233
-  ],
-  [
-   45.5085,
-   47.4663
-  ],
-  [
-   48.3254,
-   49.6258
-  ],
-  [
-   49.8483,
-   52.1527
-  ],
-  [
-   53.0073,
-   55.1127
-  ],
-  [
-   55.959,
-   57.4036
-  ],
-  [
-   57.6964,
-   59.4578
+   44.4943,
+   46.4194
   ]
  ],
  "phrases": [
   {
-   "text": "Uma ilha min\u00fascula ficou 335 anos em guerra com a Holanda,",
-   "s": 0.145,
-   "e": 3.86
+   "text": "Voc\u00ea acha que guerra precisa de tiro?",
+   "s": 0.157,
+   "e": 1.953
   },
   {
-   "text": "e ningu\u00e9m deu um tiro.",
-   "s": 4.146,
-   "e": 5.112
+   "text": "Esta durou 335 anos sem nenhum.",
+   "s": 2.8,
+   "e": 5.315
   },
   {
-   "text": "Tudo come\u00e7ou em mil seiscentos e cinquenta e um,",
-   "s": 5.976,
-   "e": 8.111
+   "text": "E o jeito que ela acabou \u00e9 ainda mais absurdo.",
+   "s": 6.147,
+   "e": 8.442
   },
   {
-   "text": "nas ilhas Scilly,",
-   "s": 8.339,
-   "e": 9.157
+   "text": "Em 1651,",
+   "s": 9.293,
+   "e": 10.765
   },
   {
-   "text": "perto da Inglaterra.",
-   "s": 9.409,
-   "e": 10.303
+   "text": "piratas das ilhas Scilly atacavam navios holandeses.",
+   "s": 11.051,
+   "e": 13.732
   },
   {
-   "text": "Piratas das ilhas atacavam navios holandeses,",
-   "s": 11.17,
-   "e": 13.535
+   "text": "Dizem que a Holanda mandou navios e declarou guerra \u00e0s ilhas.",
+   "s": 14.588,
+   "e": 17.483
   },
   {
-   "text": "e a Holanda ficou furiosa.",
-   "s": 13.832,
-   "e": 15.178
+   "text": "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.",
+   "s": 18.337,
+   "e": 21.498
   },
   {
-   "text": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
-   "s": 16.029,
-   "e": 19.119
+   "text": "Os holandeses foram embora.",
+   "s": 22.3,
+   "e": 23.674
   },
   {
-   "text": "Dizem que,",
-   "s": 19.959,
-   "e": 20.561
+   "text": "E ningu\u00e9m assinou a paz.",
+   "s": 24.53,
+   "e": 25.775
   },
   {
-   "text": "como ningu\u00e9m pagou,",
-   "s": 20.799,
-   "e": 21.684
+   "text": "A guerra ficou esquecida por mais de trezentos anos.",
+   "s": 26.614,
+   "e": 29.315
   },
   {
-   "text": "o almirante holand\u00eas declarou guerra \u00e0s ilhas.",
-   "s": 22.0,
-   "e": 24.133
+   "text": "Em 1985,",
+   "s": 30.175,
+   "e": 31.736
   },
   {
-   "text": "Acontece que os ingleses assumiram as ilhas pouco depois,",
-   "s": 25.006,
-   "e": 27.878
+   "text": "um historiador perguntou \u00e0 Holanda:",
+   "s": 32.056,
+   "e": 34.828
   },
   {
-   "text": "e ningu\u00e9m se lembrou de fazer a paz.",
-   "s": 28.101,
-   "e": 29.828
+   "text": "a guerra ainda vale?",
+   "s": 35.672,
+   "e": 37.231
   },
   {
-   "text": "A guerra seguiu esquecida por mais de trezentos anos.",
-   "s": 30.67,
-   "e": 33.352
+   "text": "Em 1986, o embaixador holand\u00eas foi \u00e0s ilhas assinar a paz.",
+   "s": 37.517,
+   "e": 39.977
   },
   {
-   "text": "As ilhas seguiram a vida normal,",
-   "s": 34.219,
-   "e": 35.848
+   "text": "335 anos de guerra,",
+   "s": 40.84,
+   "e": 42.755
   },
   {
-   "text": "sem soldados e sem nenhum navio holand\u00eas por perto.",
-   "s": 36.144,
-   "e": 38.626
+   "text": "zero tiros.",
+   "s": 42.942,
+   "e": 43.635
   },
   {
-   "text": "Em mil novecentos e oitenta e cinco,",
-   "s": 39.494,
-   "e": 41.059
-  },
-  {
-   "text": "um historiador perguntou se a guerra ainda valia.",
-   "s": 41.338,
-   "e": 43.6
-  },
-  {
-   "text": "No ano seguinte,",
-   "s": 44.427,
-   "e": 45.233
-  },
-  {
-   "text": "o embaixador holand\u00eas foi at\u00e9 as ilhas.",
-   "s": 45.508,
-   "e": 47.466
-  },
-  {
-   "text": "Os dois assinaram a paz,",
-   "s": 48.325,
-   "e": 49.626
-  },
-  {
-   "text": "e a guerra de 335 anos acabou.",
-   "s": 49.848,
-   "e": 52.153
-  },
-  {
-   "text": "A guerra mais longa e mais calma da hist\u00f3ria.",
-   "s": 53.007,
-   "e": 55.113
-  },
-  {
-   "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 55.959,
-   "e": 57.404
-  },
-  {
-   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 57.696,
-   "e": 59.458
+   "text": "E voc\u00ea achando que guerra precisa de tiro.",
+   "s": 44.494,
+   "e": 46.419
   }
  ]
 }

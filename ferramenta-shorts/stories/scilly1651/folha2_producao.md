@@ -2,124 +2,206 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/scilly1651/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py scilly1651` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém d...
+## Cena b0 - Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilha, tiro
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tiro
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b1 - Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, per...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
+- PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "335 ANOS SEM TIRO" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (0.1-2.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (2.2-4.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b1 - E o jeito que ela acabou é ainda mais absurdo.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): ILH (variante 0, expressao neutral); ILH (variante 1, expressao nervous) | multidao: 8 de ILH
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): ILH (variante 0, expressao neutral); ILH (variante 1, expressao nervous) | multidao: 0 de 
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jeito
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b2 - Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furios...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: ILH (pescador) na esquerda, expressao neutral; ILH (pescador) na direita, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (4.6-6.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (6.0-7.4 s): mesmo angulo
+<!-- /FICHA -->
+
+## Cena b2 - Em 1651, piratas das ilhas Scilly atacavam navios holandeses.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ILH (variante 0, expressao grin) | multidao: 18 de ILH/MAR
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b3 - A Holanda mandou navios de guerra e exigiu o dinheiro de volta.
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): HOL (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: encena
-- Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, holanda
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
+- PERSONAGENS: ILH (pescador) no centro, expressao grin; multidao de 18 (ILH, MAR) ATRAS dos principais; acao: batalha
+- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
+- SOM: thump@50
+- SOM: cannon@40
+- SOM: cannon@70
+- MAPA: ILHAS SCILLY (cobre a tela 1-2 s)
+- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
-## Cena b4 - Dizem que, como ninguém pagou, o almirante holandês declarou guerra às...
+## Cena b3 - Dizem que a Holanda mandou navios e declarou guerra às ilhas.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de 
-- Animacao: encena | batalha encenada
-- Objetos/modelos: ship
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): almirante, ilhas
+- Animacao: - | batalha encenada
+- Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b5 - Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: MAR (marinheiro) no centro, expressao angry; sem multidao; acao: batalha
+- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
+## Cena b4 - Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PRE (variante 0, expressao smug, segura paper); ILH (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazer, ilhas, ingleses
-- RISCOS: nenhum
-
-## Cena b6 - A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguira...
-- Cenario: loc_campo | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin) | multidao: 0 de ILH
-- Animacao: comemorar | interacao: pular
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ilhas, trezentos
-- RISCOS: nenhum
-
-## Cena b7 - Em mil novecentos e oitenta e cinco, um historiador perguntou se a gue...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): PRE (variante 0, expressao surprised, segura book); EMB (variante 0, expressao smile)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): historiador
-- RISCOS: nenhum
-
-## Cena b8 - No ano seguinte, o embaixador holandês foi até as ilhas.
-- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): EMB (variante 0, expressao smile); PRE (variante 0, expressao nervous)
+- Personagens principais (2): PRE (variante 0, expressao smug, segura paper); ILH (variante 0, expressao shock) | multidao: 0 de 
+- Animacao: reagir | interacao: avanca e o outro recua
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda, ilhas, inglaterra
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: PRE (politico) na esquerda, expressao smug, segura paper; ILH (pescador) na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b5 - Os holandeses foram embora. E ninguém assinou a paz.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): HOL (variante 0, expressao stern) | multidao: 0 de 
+- Animacao: encena
+- Objetos/modelos: ship
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holandeses
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: HOL (marinheiro) no centro, expressao stern; sem multidao; acao: fala/gesto
+- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: INDO EMBORA; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (20.0-21.4 s): mesmo angulo
+  - take 2 (21.4-22.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b6 - A guerra ficou esquecida por mais de trezentos anos.
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): ILH (variante 0, expressao smile); ILH (variante 1, expressao grin)
+- Animacao: comemorar | interacao: pular
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): trezentos
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: ILH (pescador) na esquerda, expressao smile; ILH (pescador) na direita, expressao grin; sem multidao; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (23.4-25.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (25.1-26.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b7 - Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): PRE (variante 0, expressao surprised, segura book); EMB (variante 0, expressao smile)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): historiador, holanda
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b9 - Os dois assinaram a paz, e a guerra de 335 anos acabou.
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: PRE (politico) na esquerda, expressao surprised, segura book; EMB (nobre) na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (27.0-28.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.4-29.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b8 - Em 1986, o embaixador holandês foi às ilhas assinar a paz.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): EMB (variante 0, expressao relief, segura paper); PRE (variante 0, expressao relief)
-- Animacao: conversar | interacao: apertar
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): embaixador, ilhas
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b10 - A guerra mais longa e mais calma da história.
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
+- PERSONAGENS: EMB (nobre) na esquerda, expressao relief, segura paper; PRE (politico) na direita, expressao relief; sem multidao; acao: entregar
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (30.7-32.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (32.5-34.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b9 - 335 anos de guerra, zero tiros. E você achando que guerra precisa de t...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ILH (variante 0, expressao smile) | multidao: 0 de ILH
-- Animacao: -
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (2): ILH (variante 0, expressao laugh); HOL (variante 0, expressao smug)
+- Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): ILH (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tiro
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -127,13 +209,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/scroll | b0, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/scroll | b0, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/scroll | grandes momentos: b2, b4 | planos abertos: 4 | mistura: close 11% | medio 67% | aberto 20% | detalhe 2%
-- Interacoes: b0 discutir, b1 susto, b6 pular, b7 avanca e o outro recua, b8 o outro se aproxima, b9 apertar
+- Objeto heroi: kit/scroll | grandes momentos: b2, b3 | planos abertos: 3 | mistura: close 4% | medio 79% | aberto 15% | detalhe 3%
+- Interacoes: b0 discutir, b1 susto, b4 avanca e o outro recua, b6 pular, b7 o outro se aproxima, b8 entregar, b9 discutir
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -142,3 +224,17 @@ ship | b2, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer 
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh scilly1651 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh scilly1651` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
+- PERSONAGENS: ILH (pescador) na esquerda, expressao laugh; HOL (marinheiro) na direita, expressao smug; sem multidao; acao: discutir
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "335 ANOS" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (34.7-36.3 s): mesmo angulo
+  - take 2 (36.3-37.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (37.9-39.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
