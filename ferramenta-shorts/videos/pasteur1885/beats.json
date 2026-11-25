@@ -64,6 +64,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "bloco": "gancho",
    "say": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
    "encena": {
@@ -76,25 +81,7 @@
     ]
    },
    "text": "PRIMEIRA VACINA",
-   "titulo": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/syringe",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "shot": "close",
@@ -173,7 +160,7 @@
     [
      "kit/syringe",
      0.0,
-     -1.2,
+     -0.8,
      1.0,
      {
       "fixo": true
@@ -189,23 +176,6 @@
      {
       "faz": "mostra",
       "na": "testada"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/syringe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -276,7 +246,7 @@
     [
      "kit/syringe",
      0.0,
-     -1.2,
+     -0.8,
      1.0,
      {
       "fixo": true
@@ -292,23 +262,6 @@
      {
       "faz": "mostra",
       "na": "injeções"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": null,
-   "quadro": {
-    "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/syringe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -354,6 +307,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "bloco": "loop",
    "say": "Um químico arriscou tudo. E foi assim que...",
    "encena": {
@@ -362,24 +320,6 @@
      {
       "faz": "mostra",
       "na": "arriscou"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/syringe",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -420,6 +360,5 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: o primeiro vacinado contra a raiva foi um menino de nove anos e quem aplicou nem era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
- "loop_frase_ok": true,
- "max_wide": 3
+ "loop_frase_ok": true
 }
