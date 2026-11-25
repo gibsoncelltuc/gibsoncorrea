@@ -2648,3 +2648,11 @@ print(f"motor v13 (modo unico, 100% local) | {sum(1 for b_ in beats if b_.get('e
 # ===== v13 CRONOGRAMA (24/11, Gibson: "quando chegam o roteiro e as 4 folhas, a ferramenta traca um cronograma para executar as tarefas") =====
 try: __import__('subprocess').run([sys.executable, 'cronograma.py', ID], stdout=__import__('subprocess').DEVNULL, stderr=__import__('subprocess').DEVNULL, timeout=30)
 except Exception: pass
+
+# ===== 25/11 LEITURA x TELA AUTOMATICA (Gibson: storyboard nao volta 2x por causa disso): passo da leitura que a tela nao executou vira acao explicita (encenacao.forcar) e a montagem roda de novo UMA vez, antes do storyboard =====
+if not os.environ.get('_MK_FORCADO'):
+    try:
+        if _ENC.conferir(ID) and _ENC.forcar(ID):
+            os.environ['_MK_FORCADO'] = '1'; print('LEITURA: passos nao executados viraram acao explicita (forcar) -> montando de novo'); sys.stdout.flush()
+            os.execv(sys.executable, [sys.executable] + sys.argv)
+    except Exception as e_: print('LEITURA: forcar falhou:', e_)

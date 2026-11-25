@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Num leilão, um bulbo saiu por duas mil moedas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: moedas -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Logo, padeiros e sapateiros também queriam bulbos.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, ding@80
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: paga (point) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@30, stars@80
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Contam que teve gente trocando casas por um único bulbo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: entrega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1 CASA = 1 BULBO
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que, num leilão de fevereiro, ninguém levantou a mão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_abre (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os preços desabaram. Quem trocou a casa ficou só com flores.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: negocio (point) @2 -> acao + som de efeito
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO

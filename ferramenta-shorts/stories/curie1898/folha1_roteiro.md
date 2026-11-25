@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação destruiu a saúde dela.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: morre (point) @0 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Quem quiser ler, precisa de autorização. É por isso que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: escreve (write) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: PERIGO
 - Funcao na historia: FECHO/PIADA FINAL
