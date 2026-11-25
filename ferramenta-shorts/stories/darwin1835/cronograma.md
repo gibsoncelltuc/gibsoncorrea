@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Gerado em 25/11 05:47 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 08:04 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,11 +10,11 @@ b0 | simples | harbor | two | DAR, MAR | - | finch | - | Um cientista misturou a
 b1 | simples | harbor | reveal | MAR | - | navio_fragata, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Gal
 b2 | simples | harbor | wide | DAR, MAR | 6 | finch, navio_fragata | - | Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A
 b3 | chave | harbor | wide | DAR, MAR | - | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cad
-b4 | simples | interior pedra | two | GOU | - | finch | - | Em Londres, o especialista John Gould revelou: eram todos tentilhões, 
+b4 | simples | interior pedra | group | GOU | - | finch | - | Em Londres, o especialista John Gould revelou: eram todos tentilhões, 
 b5 | simples | interior madeira | two | GOU, DAR | - | finch_long, finch_thick | - | A diferença estava no bico: uns grossos para quebrar sementes, outros 
 b6 | chave | harbor | two | DAR, GOU | - | finch, finch_long, finch_thick | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida
-b7 | simples | interior madeira | two | DAR | - | finch_thick | - | Os bichos com o bico certo sobreviviam melhor, e passavam isso para os
-b8 | simples | interior madeira | group | DAR, GOU | - | - | - | Essa ideia virou a seleção natural, publicada em mil oitocentos e cinq
+b7 | simples | interior madeira | group | DAR | - | finch_thick | - | Os bichos com o bico certo sobreviviam melhor, e passavam isso para os
+b8 | simples | interior madeira | two | DAR, GOU | - | - | - | Essa ideia virou a seleção natural, publicada em mil oitocentos e cinq
 b9 | transicao | countryside | orbit | DAR | 6 | finch | - | No fim, o erro das etiquetas virou um acerto de bico.
 b10 | simples | countryside | close | DAR | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

@@ -186,7 +186,19 @@
    "cz": -6.0,
    "d0": 22.0,
    "d1": 19.0,
-   "h": 4.0
+   "h": 4.0,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -213,7 +225,7 @@
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
-   "shot": "wide",
+   "shot": "group",
    "interior": "pedra",
    "who": [
     "GOU:0:smug:paper"
@@ -222,8 +234,8 @@
    "props": [
     [
      "kit/finch",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -242,24 +254,24 @@
     ]
    },
    "detalhe": false,
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -351,8 +363,8 @@
    "props": [
     [
      "kit/finch_thick",
-     0.6,
-     1.0,
+     1.6,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -360,8 +372,8 @@
     ],
     [
      "kit/finch_long",
-     0.0,
-     1.4,
+     0.6,
+     1.0,
      2.0,
      {
       "fixo": true
@@ -427,11 +439,11 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3
+   "_auto_vis": 2
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "DAR:0:smile"
@@ -450,7 +462,7 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/finch_thick",
@@ -469,13 +481,13 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
+   "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "detalhe": false,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
@@ -506,7 +518,7 @@
    "props": [
     [
      "kit/finch",
-     2.4,
+     1.2,
      0.2,
      1.3,
      {
@@ -540,7 +552,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "visual": {
@@ -577,5 +590,6 @@
  "regiao": "nenhuma",
  "objetos_do_video": {
   "\\bnavio\\b|beagle": "kit/navio_fragata"
- }
+ },
+ "max_wide": 4
 }

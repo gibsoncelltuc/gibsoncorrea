@@ -94,7 +94,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "GOU"
    ],
@@ -159,7 +159,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "DAR"
    ],
@@ -177,7 +177,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "DAR",
     "GOU"

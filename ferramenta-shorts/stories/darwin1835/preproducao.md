@@ -8,11 +8,11 @@ b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/finch | - | 
 b1 | harbor | reveal | 1 | encena | kit/navio_fragata, navios de guerra ao fundo, no tamanho real, navio em movimento | - | -
 b2 | harbor | wide | 8 | encena | kit/finch, kit/navio_fragata | bag | -
 b3 | harbor | wide | 2 | conversar, batalha | kit/finch | paper | -
-b4 | interior pedra | two | 1 | encena | kit/finch | paper | -
+b4 | interior pedra | group | 1 | encena | kit/finch | paper | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/finch_thick, kit/finch_long | - | -
 b6 | harbor | two | 2 | reagir, INTERAGEM: cochichar, batalha | kit/finch_thick, kit/finch_long, kit/finch | - | -
-b7 | interior madeira | two | 1 | conversar | kit/finch_thick | - | -
-b8 | interior madeira | group | 2 | comemorar, INTERAGEM: pular | - | book | -
+b7 | interior madeira | group | 1 | conversar | kit/finch_thick | - | -
+b8 | interior madeira | two | 2 | comemorar, INTERAGEM: pular | - | book | -
 b9 | countryside | orbit | 7 | parados (so fala e pisca) | kit/finch | - | -
 b10 | countryside | close | 1 | conversar | - | - | -
 
