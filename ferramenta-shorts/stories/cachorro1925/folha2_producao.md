@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - E até hoje não se sabe nem se o cachorro existiu.
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GRE (variante 0, expressao sad)
 - Animacao: reagir
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: golden
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 8.0 m)
 - PERSONAGENS: GRE (soldado) no centro, expressao sad; sem multidao; acao: reagir
 - OBJETO kit/dog_sit: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
@@ -211,7 +211,7 @@ dog | b0, b1, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b5 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 20% | detalhe 3%
+- Objeto heroi: kit/dog_sit | grandes momentos: b5 | planos abertos: 3 | mistura: close 2% | medio 75% | aberto 20% | detalhe 3%
 - Interacoes: b4 insiste, b8 entregar
 - RISCOS GERAIS: nenhum
 

@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo
 
-Gerado em 25/11 17:34 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:46 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | track | GRE, BUL | - | dog_sit | - | Um cachorro perdido quase começou uma guerra na Europa.
-b1 | simples | loc_campo | close | GRE | - | dog_sit | - | E até hoje não se sabe nem se o cachorro existiu.
+b1 | simples | loc_campo | two | GRE | - | dog_sit | - | E até hoje não se sabe nem se o cachorro existiu.
 b2 | simples | mountain | reveal | GRE, BUL | 48 | - | - | Em 1925, a fronteira entre Grécia e Bulgária estava tensa.
 b3 | transicao | loc_campo | track | GRE, GRE | - | - | - | Dizem que um soldado grego cruzou a fronteira atrás do cachorro.
 b4 | simples | mountain | two | BUL, GRE | 12 | - | - | Soldados búlgaros atiraram, e o grego morreu.

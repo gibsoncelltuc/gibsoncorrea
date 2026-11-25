@@ -86,11 +86,6 @@
    },
    "text": "CARRO NO ESPAÇO",
    "titulo": true,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -103,10 +98,15 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "STA:0:smile"
    ],
@@ -140,15 +140,10 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster",
@@ -157,7 +152,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -195,11 +195,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 22.4,
-   "d1": 21.3,
    "_enq_shot": "wide",
    "quadro": {
     "local": "loc_pista",
@@ -212,7 +207,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 22.4,
+   "d1": 21.3
   },
   {
    "shot": "wide",
@@ -249,11 +249,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "loja / taverna",
@@ -266,7 +261,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -315,11 +315,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "loc_pista",
@@ -332,10 +327,15 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "STA:0:smile"
    ],
@@ -369,15 +369,10 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster",
@@ -386,10 +381,15 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "STA:0:neutral"
    ],
@@ -424,15 +424,10 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster",
@@ -441,7 +436,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "shot": "wide",
@@ -547,11 +547,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -564,7 +559,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   }
  ],
  "cinf": 4.5,
@@ -601,5 +601,5 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um carro de verdade gira em volta do Sol com um motorista que nao respira. Pagamento: Musk mandou o proprio Roadster no teste do Falcon Heavy, com o boneco Starman e o aviso 'Nao entre em panico'.",
  "loop_frase_ok": true,
- "max_wide": 6
+ "max_wide": 9
 }
