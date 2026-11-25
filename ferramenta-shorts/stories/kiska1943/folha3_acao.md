@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 21 - A Invasão da Ilha Vazia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano wide
@@ -21,6 +21,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: chega na palavra desembarcaram (1.9s): executa: entra andando pela lateral
 - CENA (a cena toda): tropa em fileiras; clarões piscando ao longo da fileira; alguns soldados caem; fumaca baixa
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- ship CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
+- ship CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 - multidao de 24: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
@@ -76,6 +78,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: dust na palavra chegaram (12.2s): executa: poeira + som
 - ACAO: chega na palavra chegaram (12.2s): executa: entra andando pela lateral
+- kit/tanque_ww2 CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
+- kit/aviao_ww2 CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 <!-- /FISICA -->
 
 ## Cena b4 - 14.4s a 16.3s - 6 palavras - plano crowd
@@ -147,7 +151,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 24.8s a 28.5s - 11 palavras - plano group
+## Cena b8 - 24.8s a 28.5s - 11 palavras - plano orbit
 > "Mais de vinte soldados morreram, e um navio bateu numa mina."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -159,9 +163,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | morreram (26.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | bateu (27.8s) | EFEITO: dust | poeira + som | OK |
 | 4 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | conversar | OK |
-| 7 | - | PLACA | MINA | OK |
+| 5 | - | PLACA | MINA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
@@ -169,8 +171,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: morre na palavra morreram (26.3s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - EFEITO: dust na palavra bateu (27.8s): executa: poeira + som
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
@@ -207,6 +207,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 24: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 

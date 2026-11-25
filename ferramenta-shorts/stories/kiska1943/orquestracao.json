@@ -170,17 +170,18 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "orbit",
    "personagens": [
     "USA",
     "CAN"
    ],
-   "multidao": 12,
+   "multidao": 48,
    "objetos": [
-    "kit/navio_encouracado"
+    "kit/navio_encouracado",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 11,
    "cena": "b8",

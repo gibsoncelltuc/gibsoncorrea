@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - No nevoeiro, os Aliados atiraram uns nos outros.
-- Cenario: arctic | luz: overcast | clima: limpo
+- Cenario: harbor | luz: overcast | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained) | multidao: 18 de USA/CAN
@@ -187,11 +187,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Mais de vinte soldados morreram, e um navio bateu numa mina.
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 12 de CAN/USA
-- Animacao: conversar | interacao: empurrar
-- Objetos/modelos: kit/navio_encouracado
+- Animacao: encena
+- Objetos/modelos: kit/navio_encouracado, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, vinte
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -257,8 +257,8 @@ dog | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b7 | planos abertos: 7 | mistura: close 3% | medio 44% | aberto 45% | detalhe 8%
-- Interacoes: b2 aproxima-se, b5 susto, b8 empurrar, b9 avanca e o outro recua
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b7 | planos abertos: 8 | mistura: close 3% | medio 35% | aberto 57% | detalhe 5%
+- Interacoes: b2 aproxima-se, b5 susto, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -272,7 +272,7 @@ dog | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caix
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; multidao de 24 (USA, CAN) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +25 da cena
