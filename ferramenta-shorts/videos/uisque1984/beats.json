@@ -87,7 +87,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "golpe",
+      "na": "brigaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -98,7 +109,17 @@
    ],
    "mapa": "GROENLÂNDIA",
    "mapa_at": 3,
-   "say": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia."
+   "say": "A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlândia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -108,7 +129,17 @@
    ],
    "interacao": "discutir",
    "say": "Os dois países diziam que a ilha era sua, mas ninguém queria guerra de verdade.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Os"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -166,7 +197,18 @@
    "h": 2.6,
    "d0": 28.5,
    "d1": 27.2,
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "desembarcaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -219,7 +261,17 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Eles"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -267,7 +319,18 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 25.5,
-   "d1": 24.3
+   "d1": 24.3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "apareceram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -305,7 +368,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "E"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -315,7 +388,23 @@
    ],
    "interacao": "cochichar",
    "say": "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados.",
-   "set": "arctic"
+   "set": "arctic",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "voltaram"
+     },
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "trocar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -325,7 +414,17 @@
    ],
    "interacao": "cochichar",
    "set": "arctic",
-   "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
+   "say": "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países.",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -335,7 +434,18 @@
     "MIN:0:smile"
    ],
    "interacao": "entregar",
-   "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio."
+   "say": "Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "dividiram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -373,7 +483,17 @@
    "d0": 11.4,
    "d1": 11.0,
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "ano": 1984,

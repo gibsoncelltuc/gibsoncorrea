@@ -96,7 +96,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "bola",
+      "na": "jogo"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -119,7 +130,18 @@
    ],
    "sfx": [
     "thump@70"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "golpe",
+      "na": "brigavam"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -155,7 +177,17 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Aí"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -218,7 +250,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "venceu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -263,7 +306,28 @@
      "quem": 2,
      "alvo": 3
     }
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "golpe",
+      "na": "brigaram"
+     },
+     {
+      "quem": 0,
+      "faz": "golpe",
+      "na": "brigaram"
+     },
+     {
+      "quem": 0,
+      "faz": "empurra",
+      "na": "ruas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -273,7 +337,18 @@
     "PRE:1:nervous"
    ],
    "say": "Acontece que, na véspera do terceiro jogo, El Salvador cortou relações com Honduras.",
-   "hora": "dia"
+   "hora": "dia",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corta",
+      "na": "cortou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -313,6 +388,17 @@
     ],
     "march": false,
     "expr": "laugh"
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "venceu"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -345,6 +431,16 @@
       "estado": "chegando"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Semanas"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -357,7 +453,17 @@
    "say": "A guerra durou cem horas, até a Organização dos Estados Americanos impor um cessar-fogo.",
    "verbos_ok": [
     "impor"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -384,7 +490,18 @@
    "d0": 11.4,
    "d1": 11.0,
    "_auto_vis": 3,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "perde",
+      "na": "perdeu"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "max_wide": 4,

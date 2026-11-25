@@ -67,7 +67,16 @@
    "verbos_ok": [
     "decla"
    ],
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Austrália"
+     }
+    ]
+   }
   },
   {
    "say": "Em mil novecentos e trinta e dois, vinte mil emus invadiram as lavouras de trigo no oeste do país.",
@@ -89,7 +98,17 @@
    "mapa": "AUSTRÁLIA",
    "mapa_at": 3,
    "riscos_ok": true,
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -101,7 +120,16 @@
    "say": "Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.",
    "fachada": false,
    "kw": false,
-   "encena": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediram",
+      "quem": 0
+     }
+    ]
+   },
    "sfx": [
     "ding@20"
    ],
@@ -178,7 +206,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.",
@@ -248,7 +286,17 @@
     "n": 0
    },
    "impact": false,
-   "grua": false
+   "grua": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "balas",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Numa tentativa, uma metralhadora foi instalada num caminhão, mas ele sacudia tanto que ninguém atirava.",
@@ -307,6 +355,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "instalada",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -335,7 +393,16 @@
      "run",
      1.6
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cartuchos"
+     }
+    ]
+   }
   },
   {
    "say": "O major comparou os pássaros a tanques, a imprensa riu, e o governo retirou as tropas.",
@@ -412,6 +479,21 @@
      "SOL"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_ri",
+      "na": "riu",
+      "quem": 0
+     },
+     {
+      "faz": "sai",
+      "na": "retirou",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -455,7 +537,17 @@
    "cx": 3.0,
    "cz": 0.8,
    "h": 2.4,
-   "tiros": false
+   "tiros": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No fim, o governo preferiu recompensas, e em seis meses pagou por mais de cinquenta mil emus. Exército zero, emus um.",
@@ -476,7 +568,17 @@
    },
    "riscos_ok": true,
    "titulo": true,
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "pagou",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "heroi": null,

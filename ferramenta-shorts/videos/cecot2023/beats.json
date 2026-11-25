@@ -79,7 +79,17 @@
    },
    "text": "40 MIL PRESOS",
    "titulo": true,
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "El"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -98,7 +108,17 @@
     ]
    ],
    "say": "Foi inaugurada em janeiro de dois mil e vinte e três, numa área isolada.",
-   "text": "2023"
+   "text": "2023",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Foi"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -107,7 +127,17 @@
     "POV:0:scared"
    ],
    "acao": "discutir",
-   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues."
+   "say": "Por anos, El Salvador teve uma das maiores taxas de assassinato do mundo, por causa das gangues.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Por"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -135,6 +165,16 @@
     ],
     "march": true,
     "expr": "scared"
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Em"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -169,7 +209,23 @@
    "d0": 32,
    "d1": 26,
    "cx": 0,
-   "cz": -14.5
+   "cz": -14.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "guardar"
+     },
+     {
+      "quem": 0,
+      "faz": "constroi",
+      "na": "ergueram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Muralhas altas, cercas elétricas e torres de vigia por todos os lados.",
@@ -181,6 +237,16 @@
      "CERCAS ELETRICAS",
      "TORRES DE VIGIA"
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Muralhas"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -211,6 +277,16 @@
       ""
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -232,7 +308,18 @@
    "batalha": false,
    "impact": false,
    "tiros": false,
-   "text": "SEM JULGAMENTO"
+   "text": "SEM JULGAMENTO",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "protesto",
+      "na": "denunciaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -243,7 +330,17 @@
    ],
    "acao": "discutir",
    "say": "O governo responde que as ruas ficaram seguras.",
-   "set": "loc_patio"
+   "set": "loc_patio",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "O"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -269,7 +366,17 @@
    "titulo": true,
    "say": "A prisão virou símbolo: de segurança para uns, de excesso para outros.",
    "set": "loc_patio",
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "medium",
@@ -287,7 +394,18 @@
    ],
    "say": "E o modelo passou a ser copiado e criticado pelo mundo.",
    "text": "COPIADO E CRITICADO",
-   "titulo": true
+   "titulo": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "escreve",
+      "na": "copiado"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "fontes": [

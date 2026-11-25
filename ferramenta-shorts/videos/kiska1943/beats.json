@@ -79,6 +79,17 @@
      "CAN"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "invadiram"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -111,7 +122,18 @@
     ]
    ],
    "mapa": "ALASCA",
-   "set": "arctic"
+   "set": "arctic",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "ocupada"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
@@ -135,7 +157,18 @@
    "who": [
     "USA:0:stern",
     "CAN:1:smile"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "chegaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Antes do desembarque, bombardearam Kiska durante semanas.",
@@ -175,7 +208,18 @@
    "detalhe": false,
    "_auto_vis": 3,
    "d0": 15.0,
-   "d1": 14.0
+   "d1": 14.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "bombardearam"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No meio do nevoeiro, os soldados desceram em silêncio, prontos para um combate duro.",
@@ -189,7 +233,18 @@
    "light": "overcast",
    "mood": "tense",
    "set": "arctic",
-   "clima": "neblina"
+   "clima": "neblina",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_desce",
+      "na": "desceram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Mas teve um problema: os japoneses já tinham ido embora.",
@@ -203,7 +258,18 @@
    "tstyle": "red",
    "light": "overcast",
    "clima": "neblina",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "embora"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Eles procuraram o inimigo por dias, em trincheiras vazias.",
@@ -216,7 +282,18 @@
    "crowd": {
     "n": 0
    },
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_procura",
+      "na": "procuraram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Semanas antes, navios japoneses levaram cinco mil homens embora em menos de uma hora, escondidos na neblina.",
@@ -240,7 +317,17 @@
    "mood": "calm",
    "set": "harbor",
    "clima": "neblina",
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Semanas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Sem inimigo à vista, os Aliados começaram a atirar uns nos outros, no escuro e na neblina.",
@@ -265,7 +352,18 @@
    "light": "overcast",
    "mood": "tense",
    "set": "arctic",
-   "clima": "neblina"
+   "clima": "neblina",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "atirar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Mais de vinte soldados morreram nesses tiros, e um navio americano ainda bateu numa mina.",
@@ -301,7 +399,28 @@
     ],
     "march": false
    },
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "morre",
+      "na": "morreram"
+     },
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "tiros"
+     },
+     {
+      "quem": 0,
+      "faz": "x_bate",
+      "na": "bateu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No fim, só acharam na ilha alguns cachorros abandonados.",
@@ -338,7 +457,23 @@
     ]
    ],
    "shot_lock": true,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "acharam"
+     },
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "abandonados"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",
@@ -367,7 +502,17 @@
    ],
    "detalhe": true,
    "set": "harbor",
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Uma"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "heroi": "kit/dog_sit",

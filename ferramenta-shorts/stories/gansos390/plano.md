@@ -2,14 +2,14 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | group | noite  | animais | (rosto) relief (expr + som de efeito); encena: x_entrega (reach) @5 (acao + som de efeito) | -
+b0 | group | noite  | animais | (rosto) relief (expr + som de efeito) | -
 b1 | reveal | -  | tropa, placa: 390 a.C., mapa, objeto na mao | encena: queima @14 (acao + som de efeito) | -
-b2 | wide | -  | tropa, placa: CAPITÓLIO | encena: empurra (push) @5 (acao + som de efeito) | -
-b3 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) @2 (acao + som de efeito); encena: x_aperta (reach) @8 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
-b4 | wide | noite  | tropa | - | -
+b2 | wide | -  | tropa, placa: CAPITÓLIO | - | -
+b3 | orbit | -  | batalha aberta com tiros, tropa | encena: chega (point) @2 (acao + som de efeito) | -
+b4 | wide | noite  | tropa | encena: chega (point) @5 (acao + som de efeito) | -
 b5 | wide | noite  | animais, placa: JUNO | encena: grita (up) @12 (acao + som de efeito) | -
 b6 | two | noite  | tropa | encena: empurra (push) @13 (acao + som de efeito); encena: tomba @15 (acao + som de efeito) | -
-b7 | two | noite  | - | - | -
+b7 | two | noite  | - | encena: sai (point) @3 (acao + som de efeito) | -
 b8 | two | dia  | interior, placa: 1.000 LIBRAS, objeto na mao | pagou (stars + som de sino); encena: negocio (reach) @9 (acao + som de efeito); encena: sai @18 (acao + som de efeito) | -
 b9 | group | dia  | tropa, animais | ouro (stars + som de sino) | -
 b10 | close | dia  | placa: COMENTE! | - | -

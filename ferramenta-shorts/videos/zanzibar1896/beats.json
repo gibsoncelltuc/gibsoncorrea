@@ -76,7 +76,17 @@
    ],
    "text": "MENOS DE 1 HORA",
    "say": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
-   "tat": 6
+   "tat": 6,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Uma"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -86,7 +96,17 @@
    ],
    "mapa": "ZANZIBAR",
    "mapa_at": 3,
-   "say": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa."
+   "say": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Foi"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -126,7 +146,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "morre",
+      "na": "morreu"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "ocupou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -166,7 +202,18 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "deram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -186,7 +233,23 @@
    "titulo": true,
    "say": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.",
    "batalha": false,
-   "tiros": false
+   "tiros": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "reuniu"
+     },
+     {
+      "quem": 0,
+      "faz": "x_abre",
+      "na": "trancou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "text": "9:02",
@@ -245,7 +308,17 @@
    "d0": 30.0,
    "d1": 28.0,
    "riscos_ok": true,
-   "tiros": true
+   "tiros": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
@@ -279,6 +352,16 @@
       "na": "calada"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "O"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -293,7 +376,18 @@
    },
    "batalha": false,
    "tiros": false,
-   "text": "CONSULADO ALEMÃO"
+   "text": "CONSULADO ALEMÃO",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "pedir"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -324,7 +418,17 @@
       "fixo": true
      }
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Por"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -367,14 +471,41 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "colocaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "close",
    "who": [
     "ALM:0:grin"
    ],
-   "say": "E ainda mandaram a conta das balas para os derrotados."
+   "say": "E ainda mandaram a conta das balas para os derrotados.",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandaram"
+     },
+     {
+      "quem": 0,
+      "faz": "perde",
+      "na": "derrotados"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "exp": 0.9,

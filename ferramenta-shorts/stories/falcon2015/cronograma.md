@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
 
-Gerado em 24/11 23:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 01:24 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | simples | loc_pista | wide | ENA | - | falcon9_land | - | Depois de soltar 
 b6 | simples | loc_pista | wide | ENG | - | falcon9_land | - | Acontece que ela desceu de ré, de pé, com o motor aceso freando a qued
 b7 | simples | loc_pista | two | ENG | - | falcon9_land | - | E pousou inteira, abrindo as pernas no último segundo.
 b8 | simples | hall | reveal | ENA, ENG | 6 | - | - | Os funcionários da SpaceX comemoraram e se abraçaram.
-b9 | simples | loc_pista | wide | MUS | - | falcon9_land | - | Foi a primeira vez que o primeiro estágio de um foguete orbital voltou
+b9 | transicao | loc_pista | wide | MUS | - | falcon9_land | - | Foi a primeira vez que o primeiro estágio de um foguete orbital voltou
 b10 | simples | harbor | two | MUS, POV | - | falcon9_land | - | Hoje, pousar de ré virou rotina.
 b11 | simples | harbor | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
@@ -26,10 +26,10 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (11/11 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | PENDENTE | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh falcon2015
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
@@ -38,5 +38,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local falcon2015 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 7. Gates
+**Etapa atual:** 4. Travas do roteiro
 

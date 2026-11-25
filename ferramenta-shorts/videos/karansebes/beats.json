@@ -84,7 +84,18 @@
    "lados": [
     "AUT",
     "HUS"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "perde",
+      "na": "perder"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
@@ -107,6 +118,17 @@
      "HUS"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "marchando"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -136,6 +158,16 @@
    },
    "montado": {
     "dir": 1
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Numa"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -186,6 +218,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Não"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -223,7 +265,28 @@
    },
    "acao": "beber",
    "_auto_vis": 3,
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "compraram"
+     },
+     {
+      "quem": 0,
+      "faz": "x_bebe",
+      "na": "beberam"
+     },
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "festa"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
@@ -251,7 +314,23 @@
     ],
     "march": false
    },
-   "acao": "discutir"
+   "acao": "discutir",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "chegou"
+     },
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "tiro"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -272,6 +351,22 @@
     ],
     "march": false,
     "expr": "shock"
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritou"
+     },
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "panico"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -297,7 +392,18 @@
    "lados": [
     "AUT",
     "HUS"
-   ]
+   ],
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "atirava"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
@@ -370,7 +476,28 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "artilharia"
+     },
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "dispararam"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
@@ -385,7 +512,28 @@
    "tstyle": "gold",
    "light": "dawn",
    "mood": "calm",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "chegaram"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "acharam"
+     },
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "abandonado"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Os turcos venceram sem dar um único tiro.",
@@ -399,7 +547,18 @@
    "tstyle": "red",
    "light": "dawn",
    "mood": "calm",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "venceram"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "variar_cenario": false,

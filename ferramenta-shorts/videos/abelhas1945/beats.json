@@ -109,7 +109,28 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "conversam"
+     },
+     {
+      "quem": 0,
+      "faz": "danca",
+      "na": "dancando"
+     },
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "descobriu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -148,7 +169,18 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "estudando"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -224,7 +256,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "constroi",
+      "na": "construiu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -301,7 +344,23 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "voltava"
+     },
+     {
+      "quem": 0,
+      "faz": "danca",
+      "na": "dancava"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -384,6 +443,16 @@
       "longe"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Comida"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -480,6 +549,16 @@
       "sol"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "E"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -569,6 +648,16 @@
       "longe"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Quanto"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -579,7 +668,17 @@
     "FRI:0:nervous:paper"
    ],
    "acao": "discutir",
-   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada."
+   "say": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Muitos"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -666,7 +765,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Ele"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -696,7 +805,18 @@
    "text": "NOBEL",
    "titulo": true,
    "say": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -763,7 +883,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pensa",
+      "na": "segredo"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "regiao": "europa",
