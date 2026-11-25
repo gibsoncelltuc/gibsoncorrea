@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
-- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b1: "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
@@ -69,5 +69,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
 - PERSONAGENS: BRA no centro, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

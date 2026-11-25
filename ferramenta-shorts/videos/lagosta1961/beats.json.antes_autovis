@@ -64,23 +64,22 @@
    ],
    "props": [
     [
-     "kit/bancada",
-     1.2,
-     -0.6,
-     1.2,
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
      {
-      "nocol": true,
       "fixo": true
      }
     ],
     [
      "kit/lobster",
-     1.2,
-     -0.6,
-     0.45,
+     1.0,
+     -0.4,
+     1.0,
      {
       "fixo": true,
-      "y": 0.85
+      "y": 0.95
      }
     ]
    ],
@@ -102,25 +101,19 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -0.5,
-   "h": 1.7,
-   "d0": 7.5,
-   "d1": 6.5,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -453,23 +446,22 @@
    ],
    "props": [
     [
-     "kit/bancada",
+     "crate",
      1.0,
-     -0.6,
-     1.2,
+     -0.4,
+     1.0,
      {
-      "nocol": true,
       "fixo": true
      }
     ],
     [
      "kit/lobster",
      1.0,
-     -0.6,
-     0.45,
+     -0.4,
+     1.0,
      {
       "fixo": true,
-      "y": 0.85
+      "y": 0.95
      }
     ]
    ],
@@ -489,25 +481,19 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -0.5,
-   "h": 1.7,
-   "d0": 7.5,
-   "d1": 6.5,
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/lobster",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
