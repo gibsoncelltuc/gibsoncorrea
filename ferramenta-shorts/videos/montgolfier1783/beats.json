@@ -113,12 +113,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -168,11 +168,11 @@
     ]
    },
    "interior": "madeira",
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -210,12 +210,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -280,12 +280,12 @@
     ]
    },
    "set": "medieval",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -336,12 +336,12 @@
     ]
    },
    "set": "street",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -386,12 +386,12 @@
     ]
    },
    "set": "medieval",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -446,12 +446,12 @@
      1.2
     ]
    ],
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -501,12 +501,12 @@
     ]
    },
    "set": "street",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "shot": "wide",
@@ -566,12 +566,12 @@
     ]
    },
    "set": "loc_montanha",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   }
  ],
  "exp": 0.81,

@@ -85,12 +85,12 @@
    "crowd": {
     "n": 0
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -167,12 +167,12 @@
    "crowd": {
     "n": 0
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -208,12 +208,12 @@
    "crowd": {
     "n": 0
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -265,12 +265,12 @@
     "n": 0
    },
    "detalhe": false,
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -362,12 +362,12 @@
    "text": "3 : 1",
    "detalhe": false,
    "fachada": false,
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -450,12 +450,12 @@
    },
    "detalhe": false,
    "fachada": false,
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -491,12 +491,12 @@
    "crowd": {
     "n": 0
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   }
  ],
  "visual": {
