@@ -208,6 +208,8 @@ assert 'ADITIVO' in open('cenas_hash.py').read()" || f "codigo ADITIVO do motor 
 grep -q "_dmax = round(max(5.5, 7.3" mkvideo.py || f "camera de cena interna fica fora da sala (parede borrada tapando metade da tela, Arquimedes)"
 grep -q "_ERA_TROCA" mkvideo.py && grep -q "kit/bola_couro" mkvideo.py && grep -q "retrato/paisagem nao e' referencia de OBJETO" comparar_modelo.py && grep -q "o que VAI PARA A TELA manda" comparar_modelo.py || f "objeto fora de epoca escrito no roteiro (bola moderna em 1890, coroa medieval) ou comparativo olhando o roteiro cru (Goodyear)"
 grep -q "git fetch -q --depth=1" limpar_disco.sh || f "historico do git (commits ckpt) enche o disco e para a fila"
+grep -q "quadro_manual (o roteiro fixou o quadro)" autocorrigir_visibilidade.py || f "autocorrecao de visibilidade desfaz o quadro_manual do roteiro (Goodyear)"
+grep -q "LENTE MAIS ABERTA na mesma proporcao" mkvideo.py || f "camera presa dentro da sala corta personagem na borda (Curie)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
