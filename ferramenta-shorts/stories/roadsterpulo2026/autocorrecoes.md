@@ -31,3 +31,14 @@
 - b4: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto "kit/roadster26" saiu com 14% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b6: ja corrigida 3 vezes, objeto "kit/cybertruck" saiu com 7% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
+
+## 25/11 03:32 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b1: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/torre_luz" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/roadster26" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/cybertruck" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> fica para o olho

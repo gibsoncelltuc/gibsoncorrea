@@ -1,9 +1,10 @@
-VISIBILIDADE: 8 FALHA(S)
-FALHA b0: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b4: objeto citado "kit/roadster26" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+VISIBILIDADE: 9 FALHA(S)
+FALHA b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+FALHA b0: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b1: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 FALHA b5: objeto citado "kit/torre_luz" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 FALHA b6: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b0: objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30%
-FALHA b4: objeto "kit/roadster26" saiu com 0% da altura da tela, a ficha de cena planejou 30%
-FALHA b6: objeto "kit/roadster26" saiu com 14% da altura da tela, a ficha de cena planejou 30%
-FALHA b6: objeto "kit/cybertruck" saiu com 7% da altura da tela, a ficha de cena planejou 18%
+FALHA b0: objeto "kit/torre_luz" saiu com 0% da altura da tela, a ficha de cena planejou 18%
+FALHA b6: objeto "kit/roadster26" saiu com 13% da altura da tela, a ficha de cena planejou 30%
+FALHA b6: objeto "kit/cybertruck" saiu com 0% da altura da tela, a ficha de cena planejou 18%

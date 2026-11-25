@@ -1,13 +1,13 @@
-b0: CORRIGIDO - "saiu do chao" fazia o Musk sair andando do quadro -> corrigido na ferramenta; agora Musk e a engenheira ficam inteiros diante do carro, que sobe com o jato embaixo
-b1: OK - mapa dos Estados Unidos, depois convidados na base da SpaceX no Texas a noite com a rampa curva e o telao ao fundo, outubro
-b2: OK - estudio so com o carro, raio-X mostra os tanques escondidos, dez bocais sopram ar comprimido para baixo, rotulos e seta de empuxo
-b3: OK - carro no estudio com seta amarela para baixo e rotulo succao, sistema que gruda o carro na pista como ventosa
-b4: OK - o carro acelerou, subiu a rampa curva gigante e ficou de cabeca para baixo no topo, convidados embaixo, sem predio atras
-b5: OK - o carro se soltou do topo, voou girando com o jato e pousou numa nuvem de fumaca branca com onda no chao
-b6: OK - o carro decolou e voou nos propulsores por cima dos veiculos parados, camera seguindo, riscos de velocidade
-b7: OK - carro correndo de lado com propulsor atras e medidor chegando a 97 km/h em menos de um segundo, segundo a Tesla
-b8: OK - dois especialistas de azul desconfiados no galpao com o carro atras, lembraram que durou poucos segundos
-b9: OK - Musk sorrindo na frente do carro parado no galpao, pergunta carro voador ou carro que pula, o carro nao se mexe
-b10: OK - Musk com o T vermelho pedindo para comentar o tema do proximo video, carro atras no galpao
-pesquisa: o quadro de referencias mostra o prototipo do Roadster, a base da SpaceX em McGregor, o esquema de propulsor de gas frio com tanques de nitrogenio e valvulas, o carro-ventilador Brabham para a succao e o Cybercab dourado; comparei carro, mecanismo dos tanques e bocais, veiculos parados e roupa escura do Musk com ele e descartei seis prints sem relacao
-defeitos procurados: cenario de pista e galpao sem capitolio nem fazenda ao fundo; epoca 2026 sem barril nem lampiao; tamanho real do carro batendo no peito do boneco; ninguem cortado nas bordas; multidao so de convidados na cena do mapa, sem clone do Musk; legenda livre de rotulo e medidor; acao de cada frase visivel (voo, rampa, pouso, corrida); objeto heroi o Roadster em todas as cenas
+# Revisao do storyboard - roadsterpulo2026 (25/11, ferramenta atual, camera variada)
+b0: OK - Elon Musk prometeu um carro que voa: diante de convidados o carro saiu do chao com os propulsores e fumaca, close de reacao do convidado
+b1: OK - outubro de dois mil e vinte e seis, mapa dos Estados Unidos, base da SpaceX no Texas com rampa, telao e convidados
+b2: OK - explicacao: propulsores da SpaceX escondidos no carro, DEZ BOCAIS soprando ar comprimido para baixo (EMPUXO)
+b3: OK - explicacao: sistema de succao gruda o carro na pista como uma ventosa, seta SUCCAO, ate de cabeca para baixo
+b4: OK - diante dos convidados (plateia na frente) o carro acelerou e subiu a rampa curva gigante, camera em orbita, ficou de cabeca para baixo
+b5: OK - entao se soltou, voou girando no ar e pousou numa nuvem de fumaca branca, convidado em choque
+b6: OK - depois decolou e voou nos propulsores por cima de veiculos parados, camera acompanhando
+b7: OK - segundo a Tesla de zero a quase cem por hora em menos de um segundo: medidor MENOS DE 1 SEGUNDO, carro correndo
+b8: OK - mas especialistas lembraram no hangar com o carro: durou poucos segundos, nao foi um voo de verdade
+b9: OK - carro voador ou carro que pula? close de Musk com o carro, voce decide, COMENTE
+pesquisa: moodboard da apresentacao do Roadster (carro esportivo prata baixo, evento a noite com plateia, pista e luzes) comparado com o storyboard; comparativo modelo x referencia conferido (comparativo_ok.md)
+defeitos procurados: cenario (pista de noite na base, hangar) OK; epoca (2026, sem objeto fora de epoca) OK; tamanho (carro, rampa e veiculos em escala) OK; cortado (ninguem cortado, closes intencionais) OK; multidao (so convidados nas frases que dizem convidados) OK; legenda (rotulos e medidor nao cobrem a legenda) OK; acao (decolou, subiu a rampa, voou, pousou, correu) OK; objeto (carro, rampa, veiculos parados visiveis quando citados) OK
