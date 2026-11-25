@@ -242,6 +242,7 @@ grep -q "todo mundo achava que vinha mais. e. opiniao" mkvideo.py || f "todo mun
 grep -q "celular antes de 2007 = camera de tripe" mkvideo.py && grep -q "(ANO or _ANO0 or 2024) >= 2007" mkvideo.py || f "celular na mao em 1895 (fotografou) - Rontgen B"
 grep -q "cachorro com raiva' e' a DOENCA" mkvideo.py || f "raiva (doenca) virava close de emocao e o 2o personagem sumia (Pasteur, B)"
 grep -q "bmosteiro" mkvideo.py || f "mosteiro/convento sem igreja no cenario (Mendel)"
+grep -q "(r'lobster|lagosta', 0.6, 'L', 'max')" mkvideo.py || f "lagosta maior que o pescador (tamanho real)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

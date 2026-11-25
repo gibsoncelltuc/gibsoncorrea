@@ -16,6 +16,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/lobster"
    ],
    "palavras": 14,
@@ -184,12 +185,13 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "BRA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/lobster"
    ],
    "palavras": 13,

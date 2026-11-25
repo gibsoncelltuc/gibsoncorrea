@@ -77,9 +77,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b8  (~4.1 s)
 - Narracao: Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
 - Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: x_aperta (point) @4 -> acao + som de efeito; aperto de mao -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: ding@20
+- Efeito + som nas palavras-chave: encena: x_aperta (point) @4 -> acao + som de efeito; aperto de mao -> acao + som de efeito
+- Efeito visual marcado: stars@20
 - Texto na tela: 1963
 - Funcao na historia: desenvolvimento
 
