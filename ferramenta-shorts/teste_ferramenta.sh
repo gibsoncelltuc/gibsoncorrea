@@ -246,6 +246,7 @@ grep -q "(r'lobster|lagosta', 1.4, 'L', 'max')" mkvideo.py || f "lagosta maior q
 python3 -c "
 src=open('mkvideo.py').read(); import re; exec(src[src.index('_BAND_PAIS'):src.index('def _sem_modelo')])
 assert _band_pais('fincaram a bandeira do Canada') == 'kit/bandeira_canada' and _band_pais('os dinamarqueses arrancaram a bandeira e puseram a deles') == 'kit/bandeira_dinamarca'" 2>/dev/null && [ -s web/assets/library/kit/bandeira_canada.glb ] || f "bandeira do pais citado (Uisque: pano listrado generico no lugar da bandeira do Canada/Dinamarca)"
+grep -q "Melancia: multidao com figurino 'POV'" mkvideo.py || f "multidao com figurino POV nao definido derrubava o video (Melancia)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

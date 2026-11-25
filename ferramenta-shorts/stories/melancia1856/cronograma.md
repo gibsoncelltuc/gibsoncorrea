@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 25/11 15:34 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | simples | harbor | wide | VIA | - | locomotive | - | Em mil oitocentos e ci
 b2 | transicao | harbor | wide | VIA | - | navios de guerra ao fundo, no tamanho real, locomotive | - | Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf
 b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou numa barraca, comeu uma fatia de melancia e foi embora 
 b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
-b5 | simples | street | group | VIA | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
+b5 | simples | street | group | VIA | 6 | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 b6 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
 b7 | chave | loc_campo | orbit | VIA | 48 | house_two, lamppost, locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
 b8 | simples | street | two | PRE, MOR | 14 | house_two, lamppost | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f

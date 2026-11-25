@@ -9,7 +9,7 @@ b1 | harbor | wide | 1 | encena | vehicles/locomotive | - | -
 b2 | harbor | wide | 1 | parados (so fala e pisca) | vehicles/locomotive, navios de guerra ao fundo, no tamanho real | - | -
 b3 | jungle | two | 2 | reagir, INTERAGEM: empurrar | kit/stall, kit/melon | - | -
 b4 | street | two | 2 | discutir, INTERAGEM: discutir | kit/stall, buildings/shop | - | -
-b5 | street | group | 1 | encena | war/pistol | - | -
+b5 | street | group | 7 | encena | war/pistol | - | -
 b6 | street | crowd | 21 | encena, batalha | - | - | -
 b7 | loc_campo | orbit | 17 | discutir, batalha | vehicles/locomotive, buildings/house_two, nature/lamppost | - | -
 b8 | street | two | 16 | conversar, INTERAGEM: susto | buildings/house_two, nature/lamppost | paper | -
