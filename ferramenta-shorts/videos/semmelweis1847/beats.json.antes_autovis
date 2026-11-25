@@ -95,10 +95,10 @@
     ]
    },
    "titulo": true,
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "hospital",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/wash_basin",
@@ -112,8 +112,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -306,7 +305,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "KOL:0:shock",
@@ -336,8 +335,8 @@
     [
      "kit/bisturi",
      0.0,
-     1.0,
-     0.45,
+     0.6,
+     1.2,
      {
       "fixo": true
      }
@@ -345,18 +344,18 @@
    ],
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": 0.4,
-   "h": 1.4,
-   "d0": 8.0,
-   "d1": 7.6,
+   "cz": 0.3,
+   "h": 1.7,
+   "d0": 10.0,
+   "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bisturi juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bisturi",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "1% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -465,7 +464,7 @@
     [
      "kit/wash_basin",
      0.0,
-     -1.0,
+     -1.2,
      1.4,
      {
       "fixo": true
@@ -512,8 +511,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   "d1": 11.5
   },
   {
    "shot": "two",

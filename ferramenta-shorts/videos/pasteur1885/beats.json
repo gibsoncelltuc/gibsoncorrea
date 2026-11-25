@@ -358,7 +358,7 @@
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "pagamento",
    "say": "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
    "encena": {

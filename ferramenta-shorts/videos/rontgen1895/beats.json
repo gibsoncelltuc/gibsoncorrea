@@ -363,7 +363,7 @@
    "d1": 8.0
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "hora": "dia",
    "who": [
@@ -407,9 +407,11 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -0.3,
+   "d0": 11.5,
+   "d1": 11.0,
+   "quadro_manual": true,
+   "h": 1.9
   },
   {
    "shot": "two",

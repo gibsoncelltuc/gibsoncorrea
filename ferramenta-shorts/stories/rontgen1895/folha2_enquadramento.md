@@ -52,7 +52,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Depois, fotografou a mão da esposa, Anna, com a aliança."
 - LOCAL: sala de madeira; hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

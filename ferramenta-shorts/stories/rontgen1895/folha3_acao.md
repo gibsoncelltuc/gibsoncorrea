@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.7s - 12 palavras - plano two
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 20.8s a 23.7s - 10 palavras - plano two
+## Cena b6 - 20.8s a 23.7s - 10 palavras - plano wide
 > "Depois, fotografou a mão da esposa, Anna, com a aliança."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -105,16 +105,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
+- ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 24.9s a 26.6s - 9 palavras - plano group
+## Cena b7 - 24.9s a 26.6s - 9 palavras - plano two
 > "Sem saber o que era, chamou de raio X."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

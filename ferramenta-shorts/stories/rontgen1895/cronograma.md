@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
-Gerado em 25/11 19:00 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:03 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | simples | interior madeira | two | ROE | - | crookes_tube | - | Em 1895, Wi
 b3 | simples | interior madeira | close | ROE | - | crookes_tube | - | Uma noite, cobriu o tubo e apagou a luz.
 b4 | simples | interior madeira | two | ROE | - | xray_plate | - | Acontece que, do outro lado da sala, uma tela brilhou no escuro.
 b5 | simples | interior madeira | close | ROE | - | xray_plate | - | Pôs a mão na frente e viu os próprios ossos.
-b6 | simples | interior madeira | two | ROE, ANA | - | xray_plate | - | Depois, fotografou a mão da esposa, Anna, com a aliança.
-b7 | simples | interior madeira | group | ROE, JOR | - | xray_plate | - | Sem saber o que era, chamou de raio X.
+b6 | simples | interior madeira | wide | ROE, ANA | - | xray_plate | - | Depois, fotografou a mão da esposa, Anna, com a aliança.
+b7 | simples | interior madeira | two | ROE, JOR | - | xray_plate | - | Sem saber o que era, chamou de raio X.
 b8 | chave | street | orbit | ROE, MED, POV | 18 | marco_wurzburg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ganhou o primeiro Nobel de Física.
 b9 | simples | street | two | ROE, ANA | - | xray_plate | - | Um raio desconhecido, e foi assim que...
 

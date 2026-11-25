@@ -134,10 +134,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Depois, fotografou a mão da esposa, Anna, com a aliança.
 - Cenario: interior madeira | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ROE (variante 0, expressao grin); ANA (variante 0, expressao nervous)
-- Animacao: conversar | interacao: entregar
+- Animacao: reagir
 - Objetos/modelos: kit/xray_plate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alianca, esposa
 - RISCOS: nenhum
@@ -145,7 +145,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
@@ -155,7 +155,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Sem saber o que era, chamou de raio X.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): ROE (variante 0, expressao smug); JOR (variante 0, expressao suspicious, segura paper)
 - Animacao: conversar | interacao: avanca e o outro recua
@@ -218,8 +218,8 @@ kit/crookes_tube | b2, b3 | pronto | conferir na folha de contato se le bem; se 
 
 
 ## Video inteiro
-- Objeto heroi: kit/xray_plate | grandes momentos: b8 | planos abertos: 1 | mistura: close 22% | medio 70% | aberto 2% | detalhe 6%
-- Interacoes: b0 aproxima-se, b6 entregar, b7 avanca e o outro recua, b9 o outro se aproxima
+- Objeto heroi: kit/xray_plate | grandes momentos: b8 | planos abertos: 2 | mistura: close 22% | medio 59% | aberto 13% | detalhe 6%
+- Interacoes: b0 aproxima-se, b7 avanca e o outro recua, b9 o outro se aproxima
 - RISCOS GERAIS: 
   - menos de 2 grandes momentos -> CORRECAO: "impact": true em duas cenas de acao ("batalha": true SO' se a frase for de luta de verdade)
 

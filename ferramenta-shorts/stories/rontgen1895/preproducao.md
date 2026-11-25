@@ -10,14 +10,14 @@ b2 | interior madeira | two | 1 | conversar | kit/crookes_tube | - | -
 b3 | interior madeira | close | 1 | encena | kit/crookes_tube | paper | -
 b4 | interior madeira | two | 1 | conversar | kit/xray_plate | - | -
 b5 | interior madeira | close | 1 | reagir | kit/xray_plate | - | -
-b6 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/xray_plate | - | -
-b7 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/xray_plate | paper | -
+b6 | interior madeira | wide | 2 | reagir | kit/xray_plate | - | -
+b7 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/xray_plate | paper | -
 b8 | street | orbit | 21 | comemorar, batalha | kit/marco_wurzburg | - | -
 b9 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/xray_plate | paper | -
 
 OBJETO HEROI: kit/xray_plate
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b8
-Interacoes entre personagens: b0 aproxima-se, b6 entregar, b7 avanca e o outro recua, b9 o outro se aproxima
+Interacoes entre personagens: b0 aproxima-se, b7 avanca e o outro recua, b9 o outro se aproxima
 
 Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada
