@@ -2,22 +2,26 @@
 // morte/renascimento e recompensas para todos que causaram dano. O cliente só mostra o que o servidor decide.
 import { ENEMIES, SKILLS, RULES } from './catalog.js';
 import { GameError } from './economy.js';
-import { LOCATIONS, SPAWN, TIER, biomeAt, heightAt, SEA_LEVEL, WORLD_HALF, isSafe } from '../public/shared/world.js';
+import { LOCATIONS, SPAWN, biomeAt, heightAt, SEA_LEVEL, WORLD_HALF, isSafe } from '../public/shared/world.js';
 
 const fail = (code, msg) => {
   throw new GameError(code, msg);
 };
-const SPAWNS = {
-  grass: [['slime', 1]],
-  farm: [['slime', 1]],
-  beach: [['slime', 1]],
-  forest: [['slime', 3], ['brute', 1]],
-  desert: [['scorpion', 1]],
-  snow: [['wolf', 1]],
-  ruins: [['skeleton', 3], ['brute', 1]],
-  castle: [['brute', 1]],
-  town: [],
+// espécies por bioma (vem do bestiário); quanto mais longe da vila, mais forte a espécie sorteada
+const BY_BIOME = {};
+for (const [id, d] of Object.entries(ENEMIES)) if (!d.boss) for (const b of d.biomes) (BY_BIOME[b] ??= []).push([id, d.lv]);
+const pickSpecies = (b, dist, rng) => {
+  const list = BY_BIOME[b];
+  if (!list?.length) return null;
+  const want = 1 + dist / 22 + (rng() - 0.5) * 5;
+  const w = list.map(([, lv]) => 0.12 + 1 / (1 + Math.abs(lv - want) ** 1.5));
+  let r = rng() * w.reduce((a, c) => a + c, 0);
+  for (let i = 0; i < list.length; i++) if ((r -= w[i]) <= 0) return list[i][0];
+  return list[0][0];
 };
+const ELITE = 4;
+const ENRAGED = 8;
+const ROAR = 16;
 const r2 = (n) => Math.round(n * 100) / 100;
 const deepWater = (x, z) => heightAt(x, z) < SEA_LEVEL - 0.9;
 
@@ -33,7 +37,7 @@ export class Combat {
     this.monsters = new Map();
     this.seq = 1;
     this.spawnT = 0;
-    this.bossAt = 0;
+    this.bossAt = {};
   }
 
   // ---------- estado de combate de cada jogador (guardado junto da posição) ----------
@@ -54,16 +58,17 @@ export class Combat {
   }
 
   // ---------- criação de monstros ----------
-  create(type, x, z, tier = 1, boss = false) {
+  create(type, x, z, tier = 1, elite = false) {
     const d = ENEMIES[type];
-    const hp = Math.round(d.hp * (boss ? 1 : tier));
-    const m = { id: 'M' + this.seq++, type, x, z, hx: x, hz: z, yaw: 0, hp, max: hp, atk: d.atk * (1 + 0.2 * (tier - 1)), speed: d.speed, r: d.r, aggro: d.aggro, cd: 0, atkT: 0, moving: false, boss, target: null, contrib: new Map() };
+    const e = elite && !d.boss;
+    const hp = Math.round(d.hp * tier * (e ? 2.6 : 1));
+    const m = { id: 'M' + this.seq++, type, x, z, hx: x, hz: z, yaw: 0, hp, max: hp, atk: d.atk * (e ? 1.4 : 1), speed: d.speed * (e ? 1.1 : 1), r: d.r * (e ? 1.25 : 1), aggro: d.aggro, cd: 0, atkT: 0, moving: false, boss: !!d.boss, elite: e, enraged: false, roarT: 7 + this.rng() * 3, roarFx: 0, minionT: 8, target: null, contrib: new Map() };
     this.monsters.set(m.id, m);
     return m;
   }
   debugSpawn(name, type, dx = 2, dz = 2) {
     const p = this.world.pos.get(name);
-    return this.create(type, p.x + dx, p.z + dz, 1, type === 'kingslime');
+    return this.create(type, p.x + dx, p.z + dz, 1, false);
   }
   #trySpawn(p) {
     for (let i = 0; i < 4; i++) {
@@ -73,13 +78,10 @@ export class Combat {
       const z = p.z + Math.sin(a) * d;
       if (Math.abs(x) > WORLD_HALF - 10 || Math.abs(z) > WORLD_HALF - 10 || deepWater(x, z) || isSafe(x, z)) continue;
       const b = biomeAt(x, z);
-      const table = SPAWNS[b] ?? [];
-      if (!table.length) continue;
+      const type = pickSpecies(b, Math.hypot(x, z), this.rng);
+      if (!type) continue;
       if ([...this.monsters.values()].some((m) => Math.hypot(m.x - x, m.z - z) < 6)) continue;
-      let r = this.rng() * table.reduce((s, t) => s + t[1], 0);
-      let type = table[0][0];
-      for (const [tp, w] of table) if ((r -= w) <= 0) (type = tp), (r = Infinity);
-      this.create(type, x, z, TIER[b] ?? 1);
+      this.create(type, x, z, 1, this.rng() < RULES.eliteChance);
       return;
     }
   }
@@ -167,17 +169,37 @@ export class Combat {
   }
   #die(m) {
     this.monsters.delete(m.id);
-    this.emitNear(m.x, m.z, 100, { t: 'mdie', id: m.id, type: m.type, boss: m.boss, x: r2(m.x), z: r2(m.z) });
-    if (m.boss) this.bossAt = this.now() + RULES.bossRespawnMs;
+    this.emitNear(m.x, m.z, 100, { t: 'mdie', id: m.id, type: m.type, boss: m.boss, elite: m.elite, x: r2(m.x), z: r2(m.z) });
+    if (m.boss) this.bossAt[m.type] = this.now() + RULES.bossRespawnMs;
     for (const name of m.contrib.keys()) {
       const p = this.world.pos.get(name);
       if (!p || Math.hypot(p.x - m.x, p.z - m.z) > 90) continue; // quem já foi embora não leva
       try {
-        const r = this.eco.claimKill(name, m.type, { skipGap: true });
+        const r = this.eco.claimKill(name, m.type, { skipGap: true, mult: m.elite ? 3 : 1 });
         this.onReward(name, r, m);
       } catch {
         /* jogador removido durante a recompensa */
       }
+    }
+  }
+
+  // ---------- chefes: cada região tem o seu; o Dragão só acorda para quem chegou ao último capítulo ----------
+  #bosses(t) {
+    const alive = new Set([...this.monsters.values()].filter((m) => m.boss).map((m) => m.type));
+    for (const [type, d] of Object.entries(ENEMIES)) {
+      if (!d.boss || alive.has(type) || t < (this.bossAt[type] ?? 0)) continue;
+      const L = LOCATIONS[d.at];
+      let ok = false;
+      for (const [n, p] of this.world.pos) {
+        if (Math.hypot(p.x - L.x, p.z - L.z) > Math.max(120, L.r + 70)) continue;
+        if (d.gate !== undefined) {
+          const c = this.eco.player(n).career;
+          if (!(c?.done || (c?.chapter ?? 0) >= d.gate)) continue;
+        }
+        ok = true;
+        break;
+      }
+      if (ok) this.create(type, L.x + (type === 'dragon' ? 18 : 0), L.z - (type === 'dragon' ? -14 : 6), 1, false);
     }
   }
 
@@ -210,8 +232,7 @@ export class Combat {
         for (const m of this.monsters.values()) if (Math.hypot(m.x - p.x, m.z - p.z) < 75) near++;
         if (near < this.perPlayer) this.#trySpawn(p);
       }
-      const C = LOCATIONS.castle;
-      if (t >= this.bossAt && ![...this.monsters.values()].some((m) => m.boss) && [...this.world.pos.values()].some((p) => Math.hypot(p.x - C.x, p.z - C.z) < 175)) this.create('kingslime', C.x, C.z - 6, 1, true);
+      this.#bosses(t);
     }
     // IA
     for (const m of [...this.monsters.values()]) {
@@ -253,6 +274,7 @@ export class Combat {
       }
       m.cd = Math.max(0, m.cd - dt);
       m.atkT = Math.max(0, m.atkT - dt);
+      if (m.boss) this.#bossAbilities(m, dt);
       if (cur && m.cd <= 0 && dist < 1.7 + m.r * 0.6 && Math.abs((cur.y ?? 0) - heightAt(m.x, m.z)) < 3) {
         m.cd = m.boss ? 1.4 : 1.0;
         m.atkT = 0.35;
@@ -270,12 +292,40 @@ export class Combat {
     }
   }
 
+  #bossAbilities(m, dt) {
+    const d = ENEMIES[m.type];
+    if (d.phases && !m.enraged && m.hp < m.max / 2) {
+      m.enraged = true;
+      m.atk *= 1.35;
+      m.speed *= 1.2;
+      m.minionT = 0;
+    }
+    m.roarFx = Math.max(0, m.roarFx - dt);
+    m.roarT -= dt;
+    if (m.roarT <= 0 && m.target) {
+      m.roarT = d.phases ? 7 : 9;
+      m.roarFx = 0.7;
+      for (const [n, p] of this.world.pos) if (this.eligible(this.ps(n)) && Math.hypot(p.x - m.x, p.z - m.z) < 10) this.hurtPlayer(n, m.atk * 0.5);
+    }
+    if (d.phases && m.enraged) {
+      m.minionT -= dt;
+      if (m.minionT <= 0) {
+        m.minionT = 20;
+        const minions = [...this.monsters.values()].filter((o) => o.type === 'imp').length;
+        for (let i = minions; i < 4 && i < minions + 2; i++) {
+          const a = this.rng() * Math.PI * 2;
+          this.create('imp', m.x + Math.cos(a) * 6, m.z + Math.sin(a) * 6, 1, false);
+        }
+      }
+    }
+  }
+
   // ---------- o que cada jogador recebe ----------
   snapshotFor(name) {
     const p = this.world.pos.get(name);
     if (!p) return [];
     const out = [];
-    for (const m of this.monsters.values()) if (Math.hypot(m.x - p.x, m.z - p.z) < 100) out.push([m.id, m.type, r2(m.x), r2(m.z), r2(m.yaw), Math.ceil(m.hp), m.max, (m.moving ? 1 : 0) | (m.atkT > 0 ? 2 : 0)]);
+    for (const m of this.monsters.values()) if (Math.hypot(m.x - p.x, m.z - p.z) < 100) out.push([m.id, m.type, r2(m.x), r2(m.z), r2(m.yaw), Math.ceil(m.hp), m.max, (m.moving ? 1 : 0) | (m.atkT > 0 ? 2 : 0) | (m.elite ? ELITE : 0) | (m.enraged ? ENRAGED : 0) | (m.roarFx > 0 ? ROAR : 0)]);
     return out;
   }
   // vida só é enviada quando muda

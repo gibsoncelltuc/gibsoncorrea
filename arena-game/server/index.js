@@ -109,6 +109,20 @@ const handlers = {
     if (process.env.ARENA_TEST !== '1') throw new GameError('comando', 'Comando desconhecido');
     return { data: { monster: combat.debugSpawn(me, String(m.type), Number(m.dx) || 2, Number(m.dz) || 2).id } };
   },
+  // só em testes/demonstrações: teletransporte e "poder" (nível + moedas para comprar equipamento pelos comandos normais)
+  debug_tp: (me, m) => {
+    if (process.env.ARENA_TEST !== '1') throw new GameError('comando', 'Comando desconhecido');
+    world.teleport(me, Number(m.x), Number(m.z));
+    return { data: { ok: true } };
+  },
+  debug_power: (me, m) => {
+    if (process.env.ARENA_TEST !== '1') throw new GameError('comando', 'Comando desconhecido');
+    const p = eco.player(me);
+    p.xp = Math.max(p.xp, Number(m.xp) || 0);
+    p.coins += Number(m.coins) || 0;
+    if (m.chapter !== undefined) p.career = { chapter: Number(m.chapter), count: 0, got: [], done: false };
+    return { data: { ok: true } };
+  },
   career: (me) => ({ data: { career: eco.careerView(eco.player(me)) } }),
   talk: (me, m) => {
     if (!world.near(me, String(m.npc), 8)) throw new GameError('longe', 'Chegue mais perto');

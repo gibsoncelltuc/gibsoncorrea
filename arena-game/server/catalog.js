@@ -48,21 +48,93 @@ export const SKILLS = {
 };
 export const MAX_SKILL_LEVEL = 3;
 
-export const ENEMIES = {
-  slime: { name: 'Gosma', hp: 30, atk: 6, speed: 2.2, coins: [3, 8], xp: 12, r: 0.8, aggro: 16 },
-  brute: { name: 'Bruto', hp: 90, atk: 14, speed: 2.8, coins: [12, 24], xp: 40, r: 1.05, aggro: 16 },
-  scorpion: { name: 'Escorpião', hp: 55, atk: 10, speed: 3.0, coins: [6, 12], xp: 22, r: 0.9, aggro: 16 },
-  wolf: { name: 'Lobo', hp: 70, atk: 12, speed: 3.6, coins: [8, 16], xp: 28, r: 1.0, aggro: 22 },
-  skeleton: { name: 'Esqueleto', hp: 85, atk: 15, speed: 2.9, coins: [10, 20], xp: 34, r: 0.8, aggro: 16 },
-  kingslime: { name: 'Rei Gosma', hp: 900, atk: 28, speed: 2.4, coins: [60, 100], xp: 200, r: 2.9, aggro: 34 },
+// ---------- bestiário ----------
+// Cada espécie tem nível (lv 1 = fraca ... 18 = muito forte), um "corpo" (base) e uma aparência (hue/sat/lum/scale/acc).
+// Vida, ataque, moedas e XP crescem com o nível; o papel (role) muda o equilíbrio entre vida, dano e velocidade.
+const ROLE = { norm: [1, 1, 1], tank: [1.7, 0.85, 0.85], fast: [0.7, 0.95, 1.35], glass: [0.6, 1.4, 1.05], brute: [1.4, 1.3, 0.9] };
+const spec = (name, base, lv, role, look = {}, biomes = []) => {
+  const [rh, ra, rs] = ROLE[role];
+  return {
+    name, base, lv, biomes, look,
+    hp: Math.round(26 * 1.19 ** (lv - 1) * rh),
+    atk: Math.round(5.5 * 1.13 ** (lv - 1) * ra * 10) / 10,
+    speed: Math.round(2.3 * rs * (1 + lv * 0.012) * 10) / 10,
+    coins: [Math.max(2, Math.round(2.2 * 1.2 ** (lv - 1))), Math.max(4, Math.round(5 * 1.2 ** (lv - 1)))],
+    xp: Math.round(10 * 1.2 ** (lv - 1)),
+    r: 0.8, aggro: 16 + (role === 'fast' ? 5 : 0),
+  };
 };
+// medidas de colisão (r) por corpo
+const BODY_R = { slime: 0.85, brute: 1.15, wolf: 1.0, scorpion: 0.9, skeleton: 0.8, bat: 0.8, spider: 0.95, golem: 1.5, ghost: 0.9, dragon: 3.8 };
+const SP = {
+  // campos, fazenda e praia (lv 1-4)
+  slime: spec('Gosma', 'slime', 1, 'norm', {}, ['grass', 'farm', 'beach']),
+  rat: spec('Ratazana', 'wolf', 1, 'fast', { hue: 20, sat: 0.4, lum: 0.75, scale: 0.5 }, ['grass', 'farm']),
+  slime_blue: spec('Gosma Azul', 'slime', 2, 'norm', { hue: 170 }, ['grass', 'farm', 'beach']),
+  crab: spec('Caranguejo', 'scorpion', 2, 'tank', { hue: -8, scale: 0.8 }, ['beach']),
+  boar: spec('Javali', 'wolf', 3, 'brute', { hue: 25, sat: 0.7, lum: 0.7, scale: 0.9, acc: ['horns'] }, ['grass', 'farm']),
+  slime_red: spec('Gosma Rubra', 'slime', 3, 'glass', { hue: -110, scale: 1.1 }, ['grass', 'beach']),
+  // floresta (lv 3-8)
+  goblin: spec('Goblin', 'skeleton', 3, 'fast', { hue: 70, sat: 1.1, lum: 0.6, scale: 0.75 }, ['forest']),
+  spider: spec('Aranha', 'spider', 4, 'fast', {}, ['forest']),
+  brute: spec('Bruto', 'brute', 5, 'brute', {}, ['forest', 'castle']),
+  wolf_dark: spec('Lobo Sombrio', 'wolf', 6, 'norm', { hue: -10, sat: 0.3, lum: 0.35, acc: ['glow'] }, ['forest']),
+  spider_giant: spec('Aranha Venenosa', 'spider', 7, 'glass', { hue: 90, scale: 1.4 }, ['forest']),
+  treant: spec('Tronco Vivo', 'golem', 8, 'tank', { hue: 70, sat: 0.9, lum: 0.75, acc: ['spikes'] }, ['forest']),
+  // deserto (lv 4-10)
+  scorpion: spec('Escorpião', 'scorpion', 4, 'norm', {}, ['desert']),
+  vulture: spec('Abutre', 'bat', 5, 'fast', { hue: 30, sat: 0.5, lum: 0.7, scale: 1.2 }, ['desert']),
+  mummy: spec('Múmia', 'skeleton', 6, 'tank', { hue: 40, sat: 0.55, lum: 0.9 }, ['desert']),
+  scorpion_black: spec('Escorpião Negro', 'scorpion', 7, 'glass', { hue: 0, sat: 0.1, lum: 0.3, scale: 1.15, acc: ['glow'] }, ['desert']),
+  sand_golem: spec('Golem de Areia', 'golem', 9, 'tank', { hue: 38, sat: 0.7, lum: 1.15 }, ['desert']),
+  // montanhas geladas (lv 6-12)
+  wolf: spec('Lobo', 'wolf', 6, 'fast', {}, ['snow']),
+  slime_ice: spec('Gosma de Gelo', 'slime', 7, 'norm', { hue: 55, lum: 1.25, scale: 1.2 }, ['snow']),
+  wolf_white: spec('Lobo Branco', 'wolf', 8, 'norm', { hue: 0, sat: 0.1, lum: 1.45, scale: 1.1 }, ['snow']),
+  bat_frost: spec('Morcego Gélido', 'bat', 9, 'fast', { hue: 90, lum: 1.2 }, ['snow']),
+  yeti: spec('Yeti', 'brute', 10, 'tank', { hue: 195, sat: 0.2, lum: 1.45, scale: 1.2 }, ['snow']),
+  ice_golem: spec('Golem de Gelo', 'golem', 12, 'tank', { hue: 175, sat: 0.9, lum: 1.3, acc: ['spikes'] }, ['snow']),
+  // ruínas (lv 8-15)
+  skeleton: spec('Esqueleto', 'skeleton', 8, 'norm', {}, ['ruins']),
+  bat: spec('Morcego Noturno', 'bat', 9, 'fast', {}, ['ruins', 'castle']),
+  ghost: spec('Fantasma', 'ghost', 10, 'glass', {}, ['ruins']),
+  skeleton_knight: spec('Esqueleto Cavaleiro', 'skeleton', 11, 'brute', { hue: 215, sat: 0.8, lum: 0.65, scale: 1.25 }, ['ruins']),
+  golem_stone: spec('Golem de Pedra', 'golem', 12, 'tank', {}, ['ruins']),
+  wraith: spec('Espectro', 'ghost', 13, 'glass', { hue: 70, sat: 1.2, lum: 0.8, scale: 1.25, acc: ['horns'] }, ['ruins']),
+  necromancer: spec('Necromante', 'skeleton', 14, 'glass', { hue: 270, sat: 1.2, lum: 0.55, acc: ['crown'] }, ['ruins']),
+  // castelo (lv 13-18)
+  imp: spec('Diabrete', 'bat', 13, 'fast', { hue: 150, sat: 1.3, lum: 0.9, acc: ['horns'] }, ['castle']),
+  ogre_dark: spec('Ogro Negro', 'brute', 14, 'brute', { hue: -5, sat: 0.3, lum: 0.4, scale: 1.3, acc: ['spikes'] }, ['castle']),
+  slime_lava: spec('Gosma de Lava', 'slime', 15, 'norm', { hue: -75, sat: 1.4, lum: 1.0, scale: 1.4, acc: ['glow'] }, ['castle']),
+  dark_knight: spec('Cavaleiro Sombrio', 'skeleton', 16, 'brute', { hue: 260, sat: 0.4, lum: 0.3, scale: 1.35, acc: ['crown', 'glow'] }, ['castle']),
+  reaper: spec('Ceifador', 'ghost', 17, 'glass', { hue: 0, sat: 0, lum: 0.25, scale: 1.5, acc: ['horns', 'glow'] }, ['castle']),
+  golem_lava: spec('Golem de Magma', 'golem', 18, 'tank', { hue: -80, sat: 1.5, lum: 1.1, scale: 1.2, acc: ['spikes', 'glow'] }, ['castle']),
+};
+// chefes: stats escritos à mão. "at" = onde nascem; "gate" = só aparecem para quem já avançou na carreira.
+const boss = (name, base, o) => ({ name, base, boss: true, biomes: [], aggro: 34, ...o });
+const BOSSES = {
+  crabking: boss('Rei Caranguejo', 'scorpion', { lv: 5, hp: 420, atk: 14, speed: 2.6, coins: [30, 55], xp: 90, r: 2.1, at: 'beach', look: { hue: -8, scale: 2.4, acc: ['crown'] } }),
+  ent: boss('Ancião da Floresta', 'golem', { lv: 9, hp: 1100, atk: 22, speed: 2.2, coins: [60, 110], xp: 220, r: 3.0, at: 'forest', look: { hue: 85, sat: 0.9, lum: 0.8, scale: 2.2, acc: ['spikes', 'crown'] } }),
+  pharaoh: boss('Faraó Escorpião', 'scorpion', { lv: 11, hp: 1500, atk: 26, speed: 3.0, coins: [80, 140], xp: 300, r: 2.6, at: 'desert', look: { hue: 45, sat: 1.3, lum: 1.25, scale: 2.6, acc: ['crown', 'glow'] } }),
+  alpha: boss('Lobo Alfa Gélido', 'wolf', { lv: 13, hp: 1800, atk: 30, speed: 4.2, coins: [100, 170], xp: 380, r: 2.4, at: 'snow', look: { hue: 0, sat: 0.1, lum: 1.5, scale: 2.4, acc: ['glow'] } }),
+  lich: boss('Rei Lich', 'skeleton', { lv: 15, hp: 2300, atk: 36, speed: 2.8, coins: [130, 210], xp: 480, r: 2.4, at: 'ruins', look: { hue: 275, sat: 1.3, lum: 0.6, scale: 2.5, acc: ['crown', 'horns', 'glow'] } }),
+  kingslime: boss('Rei Gosma', 'slime', { lv: 16, hp: 2600, atk: 40, speed: 2.4, coins: [160, 240], xp: 600, r: 2.9, at: 'castle', look: {} }),
+  dragon: boss('Dragão Ancião', 'dragon', { lv: 20, hp: 7500, atk: 62, speed: 3.4, coins: [500, 800], xp: 2500, r: 3.8, at: 'castle', gate: 7, aggro: 60, phases: true, look: {} }),
+};
+export const ENEMIES = {};
+for (const [id, d] of Object.entries(SP)) ENEMIES[id] = { ...d, r: BODY_R[d.base] * (d.look.scale ?? 1) };
+for (const [id, d] of Object.entries(BOSSES)) ENEMIES[id] = d;
+// espécies que contam como outra na carreira (ex.: "Gosma Azul" também vale como Gosma)
+for (const [id, d] of Object.entries(ENEMIES)) d.family = id;
+ENEMIES.slime_blue.family = ENEMIES.slime_red.family = 'slime';
+ENEMIES.slime_blue.family = 'slime';
 
 export const RULES = {
   startCoins: 100,
   marketFeePct: 0.05, // 5% de cada venda no mercado é queimado (reduz inflação)
   tournamentRakePct: 0.1, // 10% do prêmio é queimado
   tradeTtlMs: 10 * 60_000,
-  maxCoinsPerHour: 450, // teto de moedas ganhas matando inimigos (anti-abuso)
+  maxCoinsPerHour: 1500, // teto de moedas ganhas matando inimigos (anti-abuso)
   minClaimGapMs: 350,
   maxPrice: 1_000_000,
   battleFee: 10, // aposta de cada jogador no duelo (vai para a custódia)
@@ -72,6 +144,7 @@ export const RULES = {
   attackCooldownMs: 400, // intervalo mínimo entre golpes (servidor)
   reviveMs: 2500,
   bossRespawnMs: 120_000,
+  eliteChance: 0.07, // chance de um monstro nascer "Elite" (mais vida/dano, mais recompensa)
 };
 
 export const baseStats = (level) => ({ hp: 100 + 10 * (level - 1), atk: 8 + 2 * (level - 1), def: 0, speed: 0, pickup: 0, luck: 0 });

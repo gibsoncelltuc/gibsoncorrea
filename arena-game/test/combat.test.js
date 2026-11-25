@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { Economy, GameError, emptyData } from '../server/economy.js';
 import { World } from '../server/world.js';
 import { Combat } from '../server/monsters.js';
-import { RULES } from '../server/catalog.js';
+import { RULES, ENEMIES } from '../server/catalog.js';
 import { LOCATIONS, SPAWN, isSafe } from '../public/shared/world.js';
 
 function setup() {
@@ -39,8 +39,8 @@ test('golpe: o servidor decide alcance, direção e intervalo; recompensa vai pa
   assert.equal(combat.playerAttack('Ana', Math.PI), 0, 'golpe para trás não acerta');
   adv(500);
   throwsCode(() => combat.playerAttack('Ana', 0) && combat.playerAttack('Ana', 0), 'rapido');
-  assert.ok(combat.monsters.get(m.id).hp < 30 || !combat.monsters.has(m.id), 'a gosma levou dano');
-  assert.ok(combat.monsters.has(far.id) && combat.monsters.get(far.id).hp === 30, 'monstro longe não é atingido');
+  assert.ok(combat.monsters.get(m.id).hp < ENEMIES.slime.hp || !combat.monsters.has(m.id), 'a gosma levou dano');
+  assert.ok(combat.monsters.has(far.id) && combat.monsters.get(far.id).hp === ENEMIES.slime.hp, 'monstro longe não é atingido');
   let n = 0;
   while (combat.monsters.has(m.id) && n++ < 20) {
     adv(500);
@@ -146,7 +146,7 @@ test('habilidades: precisam estar aprendidas, respeitam recarga e acertam no ser
   assert.ok(combat.ps('Ana').hp > 10);
   const w = combat.create('slime', FIELD.x + 2, FIELD.z);
   combat.playerSkill('Ana', 'whirl', 0);
-  assert.ok(!combat.monsters.has(w.id) || combat.monsters.get(w.id).hp < 30);
+  assert.ok(!combat.monsters.has(w.id) || combat.monsters.get(w.id).hp < ENEMIES.slime.hp);
   assert.equal(combat.monsters.get(m.id).hp <= hpAfter, true);
 });
 
@@ -156,7 +156,7 @@ test('chefe: aparece com jogador perto do castelo, só um, e renasce depois da m
   put('Ana', C.x, C.z + 40);
   combat.spawnT = 0;
   combat.update(0.1);
-  const bosses = () => [...combat.monsters.values()].filter((m) => m.boss);
+  const bosses = () => [...combat.monsters.values()].filter((m) => m.boss && m.type === 'kingslime');
   assert.equal(bosses().length, 1);
   combat.spawnT = 0;
   combat.update(0.1);
@@ -170,7 +170,7 @@ test('chefe: aparece com jogador perto do castelo, só um, e renasce depois da m
   combat.playerAttack('Ana', 0);
   assert.equal(bosses().length, 0);
   assert.ok(rewards.some((r) => r[2] === 'kingslime'));
-  assert.equal(eco.careerView(eco.player('Ana')).done, true, 'derrotar o chefe zera a carreira');
+  assert.equal(eco.careerView(eco.player('Ana')).quest.id, 8, 'derrotar o Rei Gosma libera o capítulo final');
   combat.spawnT = 0;
   combat.update(0.1);
   assert.equal(bosses().length, 0, 'ainda em espera');
@@ -196,4 +196,65 @@ test('aparecem monstros perto de quem está nos campos, nunca na zona segura, e 
   s.world.leave('Ana');
   combat.update(0.4);
   assert.equal(combat.monsters.size, 0);
+});
+
+test('bestiário: dezenas de espécies, do fraco ao chefe final, com estatísticas coerentes', () => {
+  const regular = Object.entries(ENEMIES).filter(([, d]) => !d.boss);
+  const bosses = Object.entries(ENEMIES).filter(([, d]) => d.boss);
+  assert.ok(regular.length >= 30, `espécies: ${regular.length}`);
+  assert.ok(bosses.length >= 6);
+  const bases = new Set(Object.values(ENEMIES).map((d) => d.base));
+  assert.ok(bases.size >= 8, 'vários corpos diferentes');
+  const lvs = regular.map(([, d]) => d.lv);
+  assert.ok(Math.min(...lvs) === 1 && Math.max(...lvs) >= 17, 'do nível 1 ao 18');
+  assert.ok(ENEMIES.dragon.hp > Math.max(...Object.values(ENEMIES).filter((d) => d !== ENEMIES.dragon).map((d) => d.hp)), 'o Dragão é o mais forte');
+  for (const [id, d] of Object.entries(ENEMIES)) assert.ok(d.hp > 0 && d.atk > 0 && d.xp > 0 && d.coins[1] >= d.coins[0] && d.r > 0, id);
+  assert.equal(ENEMIES.slime_blue.family, 'slime');
+  // o spawn de cada bioma usa espécies variadas e cobre fracas e fortes
+  const st = setup();
+  const combat = new Combat(st.eco, st.world, { now: () => st.clock(), rng: Math.random, emit: () => {}, perPlayer: 12 });
+  st.put('Ana', FIELD.x, FIELD.z);
+  const seen = new Set();
+  for (let i = 0; i < 400; i++) {
+    combat.monsters.clear();
+    combat.bossAt = { crabking: Infinity, ent: Infinity, pharaoh: Infinity, alpha: Infinity, lich: Infinity, kingslime: Infinity, dragon: Infinity };
+    combat.world.pos.get('Ana').x = -280 + (i % 20) * 29;
+    combat.world.pos.get('Ana').z = -300 + Math.floor(i / 20) * 30;
+    for (let k = 0; k < 4; k++) {
+      combat.spawnT = 0;
+      combat.update(0.1);
+    }
+    for (const m of combat.monsters.values()) seen.add(m.type);
+  }
+  assert.ok(seen.size >= 12, `tipos sorteados: ${[...seen]}`);
+});
+
+test('elite: mais vida e dano, recompensa tripla; Dragão só acorda para quem chegou ao capítulo final', () => {
+  const { eco, combat, put, adv, rewards } = setup();
+  put('Ana', FIELD.x, FIELD.z);
+  const a = combat.create('wolf', FIELD.x, FIELD.z + 2);
+  const e = combat.create('wolf', FIELD.x + 10, FIELD.z + 2, 1, true);
+  assert.ok(e.hp > a.hp * 2 && e.elite && e.atk > a.atk);
+  assert.equal(combat.snapshotFor('Ana').find((r) => r[0] === e.id)[7] & 4, 4, 'flag de elite no pacote');
+  const C = LOCATIONS.castle;
+  Object.assign(combat.world.pos.get('Ana'), { x: C.x, z: C.z + 40 });
+  for (let i = 0; i < 3; i++) (combat.spawnT = 0), combat.update(0.1);
+  assert.ok(![...combat.monsters.values()].some((m) => m.type === 'dragon'), 'sem capítulo final, sem dragão');
+  Object.assign(eco.player('Ana'), { career: { chapter: 7, count: 0, got: [], done: false } });
+  combat.bossAt.kingslime = Infinity;
+  combat.spawnT = 0;
+  combat.update(0.1);
+  const d = [...combat.monsters.values()].find((m) => m.type === 'dragon');
+  assert.ok(d, 'dragão apareceu');
+  d.hp = d.max * 0.4;
+  combat.update(0.1);
+  assert.ok(d.enraged, 'fúria abaixo de 50%');
+  d.hp = 1;
+  Object.assign(combat.world.pos.get('Ana'), { x: d.x, z: d.z - 3 });
+  adv(500);
+  combat.playerAttack('Ana', 0);
+  assert.ok(rewards.some((r) => r[2] === 'dragon'));
+  assert.equal(eco.careerView(eco.player('Ana')).done, true, 'derrotar o Dragão zera o jogo');
+  assert.ok(eco.player('Ana').inventory.some((i) => i.itemId === 'crown_hero'));
+  assert.ok(eco.audit().ok);
 });

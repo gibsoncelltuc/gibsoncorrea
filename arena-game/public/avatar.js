@@ -367,7 +367,7 @@ export function animateAvatar(rig, s) {
 }
 
 // ---------- criaturas ----------
-export function buildCreature(type) {
+function buildBase(type) {
   const g = new THREE.Group();
   const rig = { g, type, legs: [] };
   const blob = (r) => {
@@ -629,7 +629,207 @@ export function buildCreature(type) {
     rig.barY = 2.9;
     rig.baseY = 1.4;
     blob(0.8);
+  } else if (type === 'bat') {
+    const fur = std('#5b4a78');
+    const body = mesh(rb(0.75, 0.7, 0.8, 0.28), fur, 0, 1.9, 0, g);
+    rig.body = body;
+    faceOn(body, 0.7, 0.7, 0, 0.04, 0.405, (g2) => eyesAngry(g2, '#ff6a6a'));
+    for (const sx of [-1, 1]) {
+      mesh(new THREE.ConeGeometry(0.14, 0.4, 4), fur, sx * 0.24, 0.5, 0, body);
+      mesh(new THREE.ConeGeometry(0.05, 0.2, 4), std('#f2f0e8'), sx * 0.12, -0.38, 0.36, body).rotation.x = Math.PI;
+    }
+    rig.wings = [];
+    for (const sx of [-1, 1]) {
+      const w = new THREE.Group();
+      w.position.set(sx * 0.35, 0.1, 0);
+      mesh(rb(1.5, 0.05, 0.9, 0.02), std('#3d3254'), sx * 0.75, 0, -0.1, w);
+      mesh(rb(1.5, 0.07, 0.07, 0.02), fur, sx * 0.75, 0.03, 0.3, w);
+      body.add(w);
+      rig.wings.push([w, sx]);
+    }
+    rig.r = 0.8;
+    rig.barY = 2.9;
+    rig.baseY = 1.9;
+    rig.hover = 1.6;
+    blob(0.6);
+  } else if (type === 'spider') {
+    const hide = std('#3b3347');
+    const body = mesh(rb(1.0, 0.7, 1.1, 0.3), hide, 0, 0.85, 0.35, g);
+    rig.body = body;
+    const abd = mesh(rb(1.2, 1.0, 1.4, 0.4), std('#2b2536'), 0, 0.15, -1.2, body);
+    mesh(rb(0.3, 0.05, 0.5, 0.02), glow('#ff3a3a', 1.2), 0, 0.51, -0.1, abd);
+    faceOn(body, 0.9, 0.55, 0, 0.08, 0.565, (g2) => {
+      g2.fillStyle = '#ff4d4d';
+      for (const [x, y, r] of [[34, 60, 11], [94, 60, 11], [54, 36, 7], [74, 36, 7]]) {
+        g2.beginPath();
+        g2.arc(x, y, r, 0, TAU);
+        g2.fill();
+      }
+    });
+    for (const sx of [-1, 1]) mesh(new THREE.ConeGeometry(0.08, 0.35, 5), std('#e8e0f0'), sx * 0.2, -0.2, 0.6, body).rotation.x = Math.PI;
+    for (const sx of [-1, 1]) {
+      for (let i = 0; i < 4; i++) {
+        const pv = new THREE.Group();
+        pv.position.set(sx * 0.45, 0.8, 0.7 - i * 0.42);
+        pv.rotation.y = sx * (0.35 - i * 0.22);
+        mesh(rb(0.9, 0.11, 0.11, 0.04), hide, sx * 0.45, 0.1, 0, pv).rotation.z = sx * -0.45;
+        mesh(rb(0.8, 0.1, 0.1, 0.04), hide, sx * 0.95, -0.25, 0, pv).rotation.z = sx * 0.9;
+        g.add(pv);
+        rig.legs.push(pv);
+      }
+    }
+    rig.r = 0.95;
+    rig.barY = 1.9;
+    rig.baseY = 0.85;
+    blob(1.1);
+  } else if (type === 'golem') {
+    const rock = std('#8c8f99', { roughness: 0.9 });
+    const dark = std('#6c6f79', { roughness: 0.95 });
+    const body = mesh(rb(1.9, 1.7, 1.3, 0.25), rock, 0, 2.0, 0, g);
+    rig.body = body;
+    for (const [x, y, z, w] of [[-0.5, 0.9, 0.2, 0.5], [0.45, 0.3, 0.68, 0.4], [0.3, -0.5, -0.7, 0.55]]) mesh(rb(w, w * 0.7, w, 0.1), dark, x, y, z, body);
+    mesh(rb(0.8, 0.6, 0.15, 0.05), glow('#ffb347', 1.0), 0, 0.1, 0.66, body);
+    const head = mesh(rb(1.0, 0.85, 0.9, 0.2), rock, 0, 1.3, 0.1, body);
+    faceOn(head, 0.9, 0.9, 0, 0, 0.455, (g2) => {
+      g2.fillStyle = '#ffb347';
+      for (const x of [38, 90]) g2.fillRect(x - 12, 46, 24, 14);
+      g2.fillStyle = '#1b1426';
+      g2.fillRect(44, 92, 40, 7);
+    });
+    rig.armL = new THREE.Group();
+    rig.armR = new THREE.Group();
+    for (const [a, x] of [[rig.armL, -1.35], [rig.armR, 1.35]]) {
+      a.position.set(x, 2.7, 0);
+      mesh(rb(0.8, 1.7, 0.8, 0.2), rock, 0, -0.7, 0, a);
+      mesh(rb(1.0, 0.8, 1.0, 0.2), dark, 0, -1.7, 0, a);
+      g.add(a);
+    }
+    for (const sx of [-1, 1]) {
+      const pv = new THREE.Group();
+      pv.position.set(sx * 0.5, 1.2, 0);
+      mesh(rb(0.8, 1.2, 0.8, 0.2), dark, 0, -0.55, 0, pv);
+      g.add(pv);
+      rig.legs.push(pv);
+    }
+    rig.r = 1.5;
+    rig.barY = 4.5;
+    rig.baseY = 2.0;
+    blob(1.5);
+  } else if (type === 'ghost') {
+    const m = std('#cfe9ff', { transparent: true, opacity: 0.72, emissive: '#7fb8ff', emissiveIntensity: 0.55, roughness: 0.3 });
+    const body = mesh(rb(1.1, 1.5, 0.9, 0.5), m, 0, 1.7, 0, g);
+    rig.body = body;
+    faceOn(body, 0.9, 0.9, 0, 0.25, 0.46, (g2) => {
+      g2.fillStyle = '#1b1426';
+      for (const x of [40, 88]) {
+        g2.beginPath();
+        g2.ellipse(x, 56, 11, 17, 0, 0, TAU);
+        g2.fill();
+      }
+      g2.beginPath();
+      g2.ellipse(64, 96, 10, 14, 0, 0, TAU);
+      g2.fill();
+    });
+    for (let i = 0; i < 4; i++) mesh(new THREE.ConeGeometry(0.2, 0.7, 5), m, -0.45 + i * 0.3, -0.95, 0, body).rotation.x = Math.PI;
+    for (const sx of [-1, 1]) mesh(rb(0.3, 0.8, 0.3, 0.14), m, sx * 0.72, -0.1, 0.1, body).rotation.z = sx * 0.5;
+    rig.r = 0.9;
+    rig.barY = 3.1;
+    rig.baseY = 1.7;
+    rig.hover = 0.7;
+    blob(0.7);
+  } else if (type === 'dragon') {
+    const hide = std('#b3322e', { roughness: 0.45 });
+    const belly = std('#e8b36a');
+    const dark = std('#7a1f2e');
+    const body = mesh(rb(2.6, 2.3, 4.4, 0.8), hide, 0, 3.4, 0, g);
+    rig.body = body;
+    mesh(rb(1.8, 1.4, 3.4, 0.5), belly, 0, -0.55, 0.15, body);
+    for (let i = 0; i < 6; i++) mesh(new THREE.ConeGeometry(0.28, 0.8 - i * 0.05, 5), dark, 0, 1.35, 1.6 - i * 0.65, body);
+    const neck = mesh(rb(1.0, 1.0, 1.8, 0.35), hide, 0, 0.85, 2.3, body);
+    neck.rotation.x = -0.5;
+    const head = mesh(rb(1.5, 1.2, 1.9, 0.45), hide, 0, 1.55, 3.1, body);
+    head.rotation.x = 0.15;
+    mesh(rb(1.2, 0.4, 1.4, 0.15), belly, 0, -0.5, 0.2, head);
+    mesh(rb(0.8, 0.2, 0.9, 0.08), glow('#ff8a2a', 2), 0, -0.3, 0.55, head);
+    faceOn(head, 1.4, 1.1, 0, 0.1, 0.96, (g2) => eyesAngry(g2, '#ffd23a'));
+    for (const sx of [-1, 1]) {
+      mesh(new THREE.ConeGeometry(0.22, 1.1, 6), std('#efe6cf'), sx * 0.55, 0.95, -0.4, head).rotation.x = -0.7;
+      mesh(new THREE.ConeGeometry(0.1, 0.4, 5), std('#fff6e0'), sx * 0.4, -0.55, 0.9, head).rotation.x = Math.PI;
+    }
+    let tz = -2.4;
+    let ty = 0.1;
+    let ts = 1.5;
+    for (let i = 0; i < 5; i++) {
+      mesh(rb(ts, ts * 0.9, 1.5, 0.4), hide, 0, ty, tz, body);
+      mesh(new THREE.ConeGeometry(0.18, 0.5, 5), dark, 0, ty + ts * 0.55, tz, body);
+      tz -= 1.2;
+      ty -= 0.15;
+      ts *= 0.8;
+    }
+    rig.wings = [];
+    for (const sx of [-1, 1]) {
+      const w = new THREE.Group();
+      w.position.set(sx * 1.2, 1.1, 0.4);
+      mesh(rb(5.4, 0.12, 3.0, 0.05), dark, sx * 2.7, 0, -0.9, w);
+      mesh(rb(5.4, 0.2, 0.2, 0.06), hide, sx * 2.7, 0.06, 0.55, w);
+      for (const k of [1.4, 2.8, 4.2]) mesh(rb(0.12, 0.14, 2.8, 0.04), hide, sx * k, 0.05, -0.85, w);
+      body.add(w);
+      rig.wings.push([w, sx]);
+    }
+    for (const [x, z] of [[-1.0, 1.3], [1.0, 1.3], [-1.0, -1.3], [1.0, -1.3]]) {
+      const pv = new THREE.Group();
+      pv.position.set(x, 2.3, z);
+      mesh(rb(0.8, 2.4, 0.9, 0.25), hide, 0, -1.1, 0, pv);
+      mesh(rb(0.95, 0.35, 1.2, 0.1), dark, 0, -2.3, 0.15, pv);
+      g.add(pv);
+      rig.legs.push(pv);
+    }
+    rig.r = 3.8;
+    rig.barY = 7.4;
+    rig.baseY = 3.4;
+    blob(3.4);
   }
+  return rig;
+}
+
+// aplica cor (hue/sat/lum), tamanho e acessórios — é assim que poucas formas viram dezenas de monstros diferentes
+export function buildCreature(id, def = {}) {
+  const base = id === 'kingslime' ? 'kingslime' : (def.base ?? id);
+  const look = def.look ?? {};
+  const rig = buildBase(base);
+  rig.id = id;
+  const hsl = {};
+  rig.g.traverse((o) => {
+    if (!o.isMesh || !o.material?.isMeshStandardMaterial) return;
+    const m = o.material.clone(); // material próprio: o brilho de dano não vaza para os outros
+    if (look.hue || look.sat !== undefined || look.lum !== undefined) {
+      for (const k of ['color', 'emissive']) {
+        m[k].getHSL(hsl);
+        const grey = hsl.s < 0.08 && !look.hue;
+        m[k].setHSL(grey ? hsl.h : (hsl.h + (look.hue ?? 0) / 360 + 1) % 1, Math.min(1, hsl.s * (look.sat ?? 1)), Math.min(0.95, hsl.l * (k === 'color' ? (look.lum ?? 1) : 1)));
+      }
+    }
+    o.material = m;
+  });
+  const gold = std('#ffd24a', { emissive: '#ffb300', emissiveIntensity: 0.6, metalness: 0.5 });
+  const top = (rig.barY ?? 2) - 0.7;
+  const w = (rig.r ?? 1) * 0.42;
+  for (const acc of look.acc ?? []) {
+    if (acc === 'horns') for (const sx of [-1, 1]) mesh(new THREE.ConeGeometry(0.16, 0.7, 6), std('#efe6cf'), sx * w, top + 0.2, 0.1, rig.g).rotation.z = -sx * 0.45;
+    if (acc === 'crown') {
+      for (let i = 0; i < 5; i++) {
+        const a = (i / 5) * TAU;
+        mesh(new THREE.ConeGeometry(0.11, 0.38, 5), gold, Math.cos(a) * w * 0.9, top + 0.45, Math.sin(a) * w * 0.9, rig.g);
+      }
+    }
+    if (acc === 'spikes') for (let i = 0; i < 5; i++) mesh(new THREE.ConeGeometry(0.15, 0.55, 5), std('#cfc6b4'), 0, (rig.baseY ?? 1) + 0.6 + (i % 2) * 0.1, 0.5 - i * 0.28, rig.g).rotation.x = -0.3;
+    if (acc === 'glow' && rig.body?.material) {
+      rig.body.material.emissive.copy(rig.body.material.color);
+      rig.body.material.emissiveIntensity = Math.max(rig.body.material.emissiveIntensity, 0.7);
+    }
+  }
+  rig.g.scale.multiplyScalar(look.scale ?? 1);
+  rig.gscale = rig.g.scale.x;
   return rig;
 }
 
@@ -639,6 +839,17 @@ export function animateCreature(rig, e) {
     const sq = Math.sin(t * 5);
     rig.body.scale.set(1 - sq * 0.07, 1 + sq * 0.09, 1 - sq * 0.07);
     rig.body.position.y = rig.baseY + Math.max(0, sq) * 0.12;
+  } else if (rig.wings) {
+    const f = Math.sin(t * (rig.type === 'dragon' ? 4 : 15));
+    rig.body.position.y = rig.baseY + Math.sin(t * 3) * (rig.type === 'dragon' ? 0.08 : 0.15);
+    for (const [w, sx] of rig.wings) w.rotation.z = sx * f * (rig.type === 'dragon' ? 0.45 : 0.8);
+    rig.legs.forEach((l, i) => (l.rotation.x = moving ? Math.sin(t * 5 + (i % 2 ? Math.PI : 0)) * 0.5 : 0));
+  } else if (rig.type === 'ghost') {
+    rig.body.position.y = rig.baseY + Math.sin(t * 2.4) * 0.18;
+    rig.body.rotation.z = Math.sin(t * 1.7) * 0.08;
+  } else if (rig.type === 'spider') {
+    rig.body.position.y = rig.baseY + (moving ? Math.abs(Math.sin(t * 12)) * 0.07 : 0);
+    rig.legs.forEach((l, i) => (l.rotation.y = (l.userData.r0 ??= l.rotation.y) + (moving ? Math.sin(t * 14 + (i % 2) * Math.PI) * 0.32 : 0)));
   } else {
     rig.body.position.y = rig.baseY + (moving ? Math.abs(Math.sin(t * 6)) * 0.12 : Math.sin(t * 2) * 0.03);
     rig.legs.forEach((l, i) => (l.rotation.x = moving ? Math.sin(t * 9 + (i % 2 ? Math.PI : 0)) * 0.7 : 0));

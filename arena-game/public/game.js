@@ -176,9 +176,10 @@ export class Game {
   // ---------- monstros: só desenha o que o servidor manda ----------
   #monster(id, type) {
     const def = net.catalog.enemies[type];
-    const boss = type === 'kingslime';
-    const rig = buildCreature(type);
+    const boss = !!def.boss;
+    const rig = buildCreature(type, def);
     const g = rig.g;
+    const gs = rig.gscale ?? 1;
     const bar = new THREE.Group();
     const bg = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 0.18), new THREE.MeshBasicMaterial({ color: '#1b1426', depthTest: false }));
     const fg = new THREE.Mesh(new THREE.PlaneGeometry(1.44, 0.12).translate(0.72, 0, 0), new THREE.MeshBasicMaterial({ color: boss ? '#ff6a3a' : '#46e0a0', depthTest: false }));
@@ -187,11 +188,58 @@ export class Game {
     fg.renderOrder = 11;
     bar.add(bg, fg);
     bar.position.y = rig.barY;
-    bar.scale.setScalar(boss ? 2.6 : 1);
+    const k = (boss ? 1.8 : 1) / gs;
+    bar.scale.setScalar(k);
     g.add(bar);
+    // rótulo: nível e nome, com cor pela dificuldade em relação ao jogador
+    const cv = document.createElement('canvas');
+    cv.width = 320;
+    cv.height = 56;
+    const tex = new THREE.CanvasTexture(cv);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    const label = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: false, transparent: true }));
+    label.renderOrder = 12;
+    label.scale.set(3.4 * k, 0.6 * k, 1);
+    label.position.y = rig.barY + 0.55 * k;
+    g.add(label);
     this.scene.add(g);
     const m = rig.body?.material;
-    return { id, type, g, rig, body: rig.body, bar, fg, r: rig.r, hp: def.hp, max: def.hp, tx: 0, tz: 0, tyaw: 0, flags: 0, flash: 0, dying: 0, t: Math.random() * 6, atkAnim: 0, boss, em: m?.emissive ? { c: m.emissive.clone(), i: m.emissiveIntensity } : null, init: false };
+    const e = { id, type, def, g, rig, body: rig.body, bar, fg, label, cv, tex, lvSeen: -1, eliteSeen: null, r: rig.r, hp: def.hp, max: def.hp, tx: 0, tz: 0, tyaw: 0, flags: 0, flash: 0, dying: 0, t: Math.random() * 6, atkAnim: 0, boss, hover: rig.hover ?? 0, em: m?.emissive ? { c: m.emissive.clone(), i: m.emissiveIntensity } : null, init: false, aura: null };
+    // variação de tamanho individual (±10%) para que dois do mesmo tipo não fiquem idênticos
+    let h = 0;
+    for (const ch of id) h = (h * 31 + ch.charCodeAt(0)) % 997;
+    if (!boss) g.scale.multiplyScalar(0.92 + (h % 17) / 100);
+    return e;
+  }
+  #relabel(e) {
+    const lv = net.state.level ?? 1;
+    const elite = !!(e.flags & 4);
+    if (e.lvSeen === lv && e.eliteSeen === elite) return;
+    e.lvSeen = lv;
+    e.eliteSeen = elite;
+    const d = e.def.lv - lv;
+    const col = e.boss ? '#d58bff' : d <= -3 ? '#6bff9a' : d <= 1 ? '#ffe066' : d <= 4 ? '#ff9a3a' : '#ff5a5a';
+    const c = e.cv.getContext('2d');
+    c.clearRect(0, 0, 320, 56);
+    c.fillStyle = 'rgba(14,10,24,0.72)';
+    c.beginPath();
+    c.roundRect(4, 6, 312, 44, 14);
+    c.fill();
+    c.strokeStyle = elite ? '#ffd24a' : col;
+    c.lineWidth = 3;
+    c.stroke();
+    c.font = 'bold 26px system-ui, sans-serif';
+    c.textAlign = 'center';
+    c.textBaseline = 'middle';
+    c.fillStyle = col;
+    c.fillText(`${e.boss ? '☠ ' : elite ? '★ ' : ''}Nv ${e.def.lv} · ${e.def.name}`, 160, 29);
+    e.tex.needsUpdate = true;
+    if (elite && !e.aura) {
+      e.aura = new THREE.Mesh(new THREE.RingGeometry(e.r * 0.9, e.r * 1.25, 36), new THREE.MeshBasicMaterial({ color: '#ff3a3a', transparent: true, opacity: 0.7, side: THREE.DoubleSide, blending: THREE.AdditiveBlending, depthWrite: false }));
+      e.aura.rotation.x = -Math.PI / 2;
+      e.aura.position.y = 0.12;
+      e.g.add(e.aura);
+    }
   }
   #mons(list) {
     const seen = new Set();
@@ -208,7 +256,13 @@ export class Game {
       }
       Object.assign(e, { tx: x, tz: z, tyaw: yaw, hp, max });
       if (flags & 2 && !(e.flags & 2)) e.atkAnim = 0.35;
+      if (flags & 16 && !(e.flags & 16)) {
+        this.ring(e.g.position, '#ff5a2a', 9);
+        this.fx.burst(e.g.position.clone().setY(e.g.position.y + 1), { color: '#ff8a3a', count: 40, speed: 9, life: 0.6, size: 0.7, gravity: 0 });
+        beep(90, 0.3, 'sawtooth');
+      }
       e.flags = flags;
+      this.#relabel(e);
     }
     for (const [id, e] of this.mons) {
       if (seen.has(id) || e.dying) continue;
@@ -688,7 +742,7 @@ export class Game {
       const pz = ep.z;
       ep.x += (e.tx - ep.x) * k;
       ep.z += (e.tz - ep.z) * k;
-      ep.y = W.groundY(ep.x, ep.z);
+      ep.y = W.groundY(ep.x, ep.z) + e.hover;
       e.g.rotation.y = angLerp(e.g.rotation.y, e.tyaw, Math.min(1, dt * 10));
       const moving = Math.hypot(ep.x - px, ep.z - pz) / Math.max(dt, 1e-3) > 0.6;
       e.atkAnim = Math.max(0, e.atkAnim - dt);
@@ -700,8 +754,15 @@ export class Game {
         if (e.flash > 0) (m.emissive.set('#ffffff'), (m.emissiveIntensity = 0.9));
         else (m.emissive.copy(e.em.c), (m.emissiveIntensity = e.em.i));
       }
+      const pulse = 0.5 + Math.sin(this.elapsed * 6 + e.t) * 0.5;
+      if (m?.emissive && e.flash <= 0) {
+        if (e.flags & 8) (m.emissive.set('#ff4a1a'), (m.emissiveIntensity = 0.5 + pulse * 0.6));
+        else if (e.flags & 4) (m.emissive.set('#ff2a2a'), (m.emissiveIntensity = 0.3 + pulse * 0.3));
+      }
+      if (e.aura) e.aura.material.opacity = 0.35 + pulse * 0.4;
       e.fg.scale.x = Math.max(0.001, e.hp / e.max);
       e.bar.quaternion.copy(this.camera.quaternion);
+      e.label.material.rotation = 0;
     }
 
     // projéteis, efeitos, moedas

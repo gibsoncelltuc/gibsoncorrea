@@ -201,7 +201,7 @@ export class Economy {
   // ---------- recompensa por inimigo derrotado (o servidor impõe teto e intervalo) ----------
   claimKill(name, type, opts = {}) {
     const out = this.#claimKill(name, type, opts);
-    out.career = this.careerEvent(name, 'kill', type);
+    out.career = this.careerEvent(name, 'kill', ENEMIES[type].family ?? type);
     return out;
   }
   #claimKill(name, type, opts = {}) {
@@ -214,16 +214,17 @@ export class Economy {
     if (t - p.earn.hour > 3_600_000) p.earn = { hour: t, amount: 0 };
     const [lo, hi] = en.coins;
     let coins = lo + Math.floor(this.rng() * (hi - lo + 1));
-    coins = Math.round(coins * (1 + (this.stats(p).luck ?? 0) / 100));
+    coins = Math.round(coins * (opts.mult ?? 1) * (1 + (this.stats(p).luck ?? 0) / 100));
     coins = Math.max(0, Math.min(coins, RULES.maxCoinsPerHour - p.earn.amount));
     p.earn.amount += coins;
     p.coins += coins;
     this.#mint(coins);
     const before = this.level(p);
-    p.xp += en.xp;
+    const xp = Math.round(en.xp * (opts.mult ?? 1));
+    p.xp += xp;
     p.kills++;
     this.#commit();
-    return { coins, xp: en.xp, levelUp: this.level(p) > before };
+    return { coins, xp, levelUp: this.level(p) > before };
   }
 
   // ---------- mercado entre jogadores (o item fica em custódia até vender ou cancelar) ----------
