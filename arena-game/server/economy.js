@@ -199,17 +199,17 @@ export class Economy {
   }
 
   // ---------- recompensa por inimigo derrotado (o servidor impõe teto e intervalo) ----------
-  claimKill(name, type) {
-    const out = this.#claimKill(name, type);
+  claimKill(name, type, opts = {}) {
+    const out = this.#claimKill(name, type, opts);
     out.career = this.careerEvent(name, 'kill', type);
     return out;
   }
-  #claimKill(name, type) {
+  #claimKill(name, type, opts = {}) {
     const p = this.player(name);
     const en = ENEMIES[type];
     if (!en) fail('inimigo', 'Inimigo inválido');
     const t = this.now();
-    if (t - p.lastClaim < RULES.minClaimGapMs) fail('rapido', 'Rápido demais');
+    if (!opts.skipGap && t - p.lastClaim < RULES.minClaimGapMs) fail('rapido', 'Rápido demais');
     p.lastClaim = t;
     if (t - p.earn.hour > 3_600_000) p.earn = { hour: t, amount: 0 };
     const [lo, hi] = en.coins;

@@ -82,7 +82,7 @@ class Client {
 
 before(async () => {
   fs.rmSync(DATA, { force: true });
-  server = spawn(process.execPath, ['server/index.js'], { cwd: root, env: { ...process.env, PORT: String(PORT), DATA_FILE: DATA }, stdio: 'ignore' });
+  server = spawn(process.execPath, ['server/index.js'], { cwd: root, env: { ...process.env, PORT: String(PORT), DATA_FILE: DATA, ARENA_TEST: '1' }, stdio: ['ignore', 'ignore', 'inherit'] });
   for (let i = 0; i < 80; i++) {
     try {
       const r = await fetch(`http://127.0.0.1:${PORT}/`);
@@ -121,8 +121,9 @@ test('online: presença, chat, anti-teleporte, carreira, bioma e duelo PvP com a
   a.pos = { x: snap.x, y: 0, z: snap.z };
 
   step('bioma');
-  // inimigo no bioma errado é recusado (escorpião na vila)
-  await assert.rejects(a.call('kill', { type: 'scorpion' }), (e) => e.code === 'bioma');
+  // o cliente NÃO consegue mais reivindicar mortes: só o servidor credita recompensas
+  await assert.rejects(a.call('kill', { type: 'slime' }), (e) => e.code === 'comando');
+  await assert.rejects(a.call('attack', { yaw: 0 }).then(() => a.call('attack', { yaw: 0 })), (e) => e.code === 'rapido', 'intervalo de golpe é do servidor');
 
   step('carreira cap.1');
   // carreira: falar com o prefeito exige estar perto dele
@@ -134,11 +135,31 @@ test('online: presença, chat, anti-teleporte, carreira, bioma e duelo PvP com a
   await a.until((m) => m.t === 'state' && m.state.coins >= 140);
   step('cap.2 (8 gosmas)');
   await a.walk(0, 60); // campos ao redor da vila (bioma de gosma)
+  const rewardsOf = (c, type) => c.events.filter((m) => m.t === 'reward' && (!type || m.type === type)).length;
   for (let i = 0; i < 8; i++) {
-    await a.call('kill', { type: 'slime' });
-    await sleep(380);
+    await a.call('debug_spawn', { type: 'slime', dx: 0, dz: 1.2 });
+    const before = rewardsOf(a);
+    for (let k = 0; k < 14 && rewardsOf(a) === before; k++) {
+      a.fire('attack', { yaw: 0 });
+      await sleep(430);
+    }
+    assert.ok(rewardsOf(a) > before, `a gosma ${i + 1} deveria ter morrido e dado recompensa do servidor`);
   }
-  assert.equal((await a.call('career')).career.quest.id, 3, 'capítulo 2 concluído');
+  await a.until((m) => m.t === 'state' && m.state.career.chapter === 2);
+  assert.equal((await a.call('career')).career.quest.id, 3, 'capítulo 2 concluído por monstros reais do servidor');
+
+  // cooperação: os dois acertam a MESMA gosma e os dois recebem recompensa
+  step('co-op');
+  await b.walk(0, 60);
+  const [ra, rb] = [rewardsOf(a), rewardsOf(b)];
+  for (let tries = 0; tries < 6 && !(rewardsOf(a) > ra && rewardsOf(b) > rb); tries++) {
+    await a.call('debug_spawn', { type: 'slime', dx: 0, dz: 1.0 });
+    for (let k = 0; k < 6 && !(rewardsOf(a) > ra && rewardsOf(b) > rb); k++) {
+      (k % 2 ? b : a).fire('attack', { yaw: 0 });
+      await sleep(430);
+    }
+  }
+  assert.ok(rewardsOf(a) > ra && rewardsOf(b) > rb, 'os dois jogadores receberam a recompensa do mesmo monstro');
 
   step('duelo: caminhada');
   // duelo: os dois vão ao Coliseu e entram na fila

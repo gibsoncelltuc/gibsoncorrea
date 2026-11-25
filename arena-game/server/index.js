@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { WebSocketServer } from 'ws';
 import { Economy, GameError, emptyData } from './economy.js';
 import { World } from './world.js';
+import { Combat } from './monsters.js';
 import { ITEMS, SKILLS, ENEMIES, RULES, SLOTS, SLOT_NAMES, MAX_SKILL_LEVEL } from './catalog.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -42,6 +43,7 @@ class Store {
 const store = new Store(DATA_FILE);
 const eco = new Economy(store);
 let world;
+let combat;
 const catalog = { items: ITEMS, skills: SKILLS, enemies: ENEMIES, rules: RULES, slots: SLOTS, slotNames: SLOT_NAMES, maxSkill: MAX_SKILL_LEVEL };
 
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.png': 'image/png', '.svg': 'image/svg+xml' };
@@ -74,6 +76,14 @@ const pushState = (name) => {
   if (ws) broadcast(profileOf(name));
 };
 world = new World(eco, { emit: (name, msg) => online.get(name) && send(online.get(name), msg), touch: pushState });
+combat = new Combat(eco, world, {
+  emit: (name, msg) => online.get(name) && send(online.get(name), msg),
+  onReward: (name, r, m) => {
+    online.get(name) && send(online.get(name), { t: 'reward', coins: r.coins, xp: r.xp, levelUp: r.levelUp, x: m.x, z: m.z, type: m.type });
+    notifyCareer(name, r.career);
+    pushState(name);
+  },
+});
 const toast = (name, msg) => {
   const ws = online.get(name);
   if (ws) send(ws, { t: 'toast', msg });
@@ -91,11 +101,13 @@ const handlers = {
   unequip: (me, m) => void eco.unequip(me, m.slot),
   scroll: (me, m) => ({ data: { skill: eco.useScroll(me, m.iid) } }),
   upgrade: (me, m) => ({ data: { level: eco.upgradeSkill(me, m.skill) } }),
-  kill: (me, m) => {
-    if (!world.canKill(me, m.type)) throw new GameError('bioma', 'Esse inimigo não está aqui (posição inválida)');
-    const r = eco.claimKill(me, m.type);
-    notifyCareer(me, r.career);
-    return { data: r };
+  // combate: o cliente só PEDE; o servidor valida alcance, intervalo, dano e recompensas
+  attack: (me, m) => ({ data: { hits: combat.playerAttack(me, Number(m.yaw) || 0) } }),
+  skill: (me, m) => void combat.playerSkill(me, String(m.id), Number(m.yaw) || 0),
+  // só existe nos testes automatizados (ARENA_TEST=1): cria um monstro ao lado do jogador
+  debug_spawn: (me, m) => {
+    if (process.env.ARENA_TEST !== '1') throw new GameError('comando', 'Comando desconhecido');
+    return { data: { monster: combat.debugSpawn(me, String(m.type), Number(m.dx) || 2, Number(m.dz) || 2).id } };
   },
   career: (me) => ({ data: { career: eco.careerView(eco.player(me)) } }),
   talk: (me, m) => {
@@ -186,7 +198,7 @@ wss.on('connection', (ws) => {
       if (m?.id) send(ws, { id: m.id, ok: false, code: 'rapido', error: 'Devagar: mensagens demais por segundo' });
       return;
     }
-    const reply = (obj) => send(ws, { id: m.id, ...obj });
+    const reply = (obj) => m.id !== undefined && send(ws, { id: m.id, ...obj });
     try {
       if (m.t === 'register' || m.t === 'login') {
         const p = m.t === 'register' ? eco.register(m.name, m.ap) : eco.login(m.token);
@@ -219,7 +231,20 @@ wss.on('connection', (ws) => {
   });
 });
 
-setInterval(() => online.size && broadcast({ t: 'presence', p: world.snapshot() }), 100);
+let lastTick = Date.now();
+setInterval(() => {
+  const t = Date.now();
+  const dt = Math.min(0.25, (t - lastTick) / 1000);
+  lastTick = t;
+  if (!online.size) return;
+  broadcast({ t: 'presence', p: world.snapshot() });
+  combat.update(dt);
+  for (const [name, ws] of online) {
+    send(ws, { t: 'mons', m: combat.snapshotFor(name) });
+    const hp = combat.hpMessage(name);
+    if (hp) send(ws, hp);
+  }
+}, 100);
 setInterval(() => world.tick(), 1000);
 
 process.on('SIGINT', () => (store.flush(), process.exit(0)));

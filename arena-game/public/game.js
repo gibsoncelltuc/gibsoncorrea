@@ -5,21 +5,10 @@ import { net, call, fire, on } from './net.js';
 import { Fx, createComposer } from './visuals.js';
 import { buildOpenWorld } from './world.js';
 import { buildAvatar, animateAvatar, buildCreature, animateCreature, nameTag } from './avatar.js';
-import { LOCATIONS, SPAWN, WORLD_HALF, TIER, biomeAt, heightAt } from './shared/world.js';
+import { LOCATIONS, SPAWN, WORLD_HALF, heightAt } from './shared/world.js';
 
 const rnd = (a, b) => a + Math.random() * (b - a);
 const angLerp = (a, b, k) => a + Math.atan2(Math.sin(b - a), Math.cos(b - a)) * k;
-const SPAWNS = {
-  grass: [['slime', 1]],
-  farm: [['slime', 1]],
-  beach: [['slime', 1]],
-  forest: [['slime', 3], ['brute', 1]],
-  desert: [['scorpion', 1]],
-  snow: [['wolf', 1]],
-  ruins: [['skeleton', 3], ['brute', 1]],
-  castle: [['brute', 1]],
-  town: [],
-};
 const PLACES = ['colosseum', 'town', 'castle', 'ruins', 'forest', 'desert', 'snow', 'farm', 'beach'];
 
 let audio;
@@ -50,7 +39,7 @@ export class Game {
     this.dist = 11;
     this.last = performance.now();
     this.elapsed = 0;
-    this.enemies = [];
+    this.mons = new Map(); // monstros compartilhados (o servidor decide tudo)
     this.projectiles = [];
     this.effects = [];
     this.coins = [];
@@ -66,8 +55,6 @@ export class Game {
     this.onGround = true;
     this.dead = false;
     this.battle = null;
-    this.killQueue = [];
-    this.killBusy = false;
     this.facing = new THREE.Vector3(0, 0, 1);
     this.vel = new THREE.Vector3();
     this.hudT = 0;
@@ -75,10 +62,8 @@ export class Game {
     this.lastSent = new THREE.Vector3(1e9, 0, 0);
     this.dustT = 0;
     this.slow = 0;
-    this.sinceHurt = 99;
     this.placeT = 0;
     this.place = '';
-    this.bossT = 0;
     this.crystalCd = 0;
     this.quality = localStorage.getItem('arena-q') ?? 'high';
 
@@ -159,6 +144,122 @@ export class Game {
       if (rig) this.#bubble(rig, m.text);
     });
     on('battle', (m) => this.#battleEvent(m));
+    on('mons', (m) => this.#mons(m.m));
+    on('mhit', (m) => this.#monHit(m));
+    on('mdie', (m) => this.#monDie(m));
+    on('reward', (m) => this.#reward(m));
+    on('hurt', (m) => {
+      const p = this.player.position;
+      this.floatText(p.clone().setY(p.y + 3.2), `-${m.dmg}`, '#ff6b6b');
+      this.fx.burst(p.clone().setY(p.y + 1.4), { color: '#ff5a6a', count: 12, speed: 4, life: 0.4, size: 0.35 });
+      beep(100, 0.1, 'sawtooth');
+    });
+    on('php', (m) => {
+      this.hp = m.hp;
+      this.maxHp = m.max;
+      this.shield = m.sh;
+    });
+    on('died', () => {
+      this.dead = true;
+      this.hooks.dead?.(true);
+      const p = this.player.position;
+      this.fx.burst(p.clone().setY(p.y + 1.2), { color: '#ffffff', count: 40, speed: 5, life: 0.9, size: 0.5 });
+    });
+    on('revive', () => {
+      this.player.position.set(SPAWN.x, heightAt(SPAWN.x, SPAWN.z), SPAWN.z);
+      this.vy = 0;
+      this.dead = false;
+      this.hooks.dead?.(false);
+    });
+    on('fx', (m) => this.#remoteFx(m));
+  }
+  // ---------- monstros: só desenha o que o servidor manda ----------
+  #monster(id, type) {
+    const def = net.catalog.enemies[type];
+    const boss = type === 'kingslime';
+    const rig = buildCreature(type);
+    const g = rig.g;
+    const bar = new THREE.Group();
+    const bg = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 0.18), new THREE.MeshBasicMaterial({ color: '#1b1426', depthTest: false }));
+    const fg = new THREE.Mesh(new THREE.PlaneGeometry(1.44, 0.12).translate(0.72, 0, 0), new THREE.MeshBasicMaterial({ color: boss ? '#ff6a3a' : '#46e0a0', depthTest: false }));
+    fg.position.set(-0.72, 0, 0.01);
+    bg.renderOrder = 10;
+    fg.renderOrder = 11;
+    bar.add(bg, fg);
+    bar.position.y = rig.barY;
+    bar.scale.setScalar(boss ? 2.6 : 1);
+    g.add(bar);
+    this.scene.add(g);
+    const m = rig.body?.material;
+    return { id, type, g, rig, body: rig.body, bar, fg, r: rig.r, hp: def.hp, max: def.hp, tx: 0, tz: 0, tyaw: 0, flags: 0, flash: 0, dying: 0, t: Math.random() * 6, atkAnim: 0, boss, em: m?.emissive ? { c: m.emissive.clone(), i: m.emissiveIntensity } : null, init: false };
+  }
+  #mons(list) {
+    const seen = new Set();
+    for (const [id, type, x, z, yaw, hp, max, flags] of list) {
+      seen.add(id);
+      let e = this.mons.get(id);
+      if (!e) {
+        e = this.#monster(id, type);
+        this.mons.set(id, e);
+      }
+      if (!e.init) {
+        e.g.position.set(x, this.world.groundY(x, z), z);
+        e.init = true;
+      }
+      Object.assign(e, { tx: x, tz: z, tyaw: yaw, hp, max });
+      if (flags & 2 && !(e.flags & 2)) e.atkAnim = 0.35;
+      e.flags = flags;
+    }
+    for (const [id, e] of this.mons) {
+      if (seen.has(id) || e.dying) continue;
+      this.scene.remove(e.g);
+      this.mons.delete(id);
+    }
+  }
+  #monHit(m) {
+    const e = this.mons.get(m.id);
+    const mine = m.by === net.state.name;
+    const y = (e ? e.g.position.y : this.world.groundY(m.x, m.z)) + 2.6;
+    this.floatText(new THREE.Vector3(m.x, y, m.z), String(m.dmg), m.crit ? '#ffb300' : mine ? '#ffffff' : '#bfe9ff');
+    this.fx.burst(new THREE.Vector3(m.x, y - 1.3, m.z), { color: '#fff2a8', count: 9, speed: 5, life: 0.35, size: 0.32 });
+    if (e) e.flash = 0.12;
+    if (mine) this.slow = 0.05;
+    beep(180, 0.05, 'sawtooth');
+  }
+  #monDie(m) {
+    const e = this.mons.get(m.id);
+    const y = this.world.groundY(m.x, m.z) + 1;
+    this.fx.burst(new THREE.Vector3(m.x, y, m.z), { color: m.type === 'slime' ? '#74e590' : '#ff8a5a', count: m.boss ? 90 : 30, speed: m.boss ? 10 : 6.5, life: 0.8, size: 0.55 });
+    if (e) e.dying = 0.4;
+  }
+  #reward(m) {
+    const y = this.world.groundY(m.x, m.z) + 3;
+    this.floatText(new THREE.Vector3(m.x, y, m.z), m.coins ? `+${m.coins} 🪙  +${m.xp} XP` : `+${m.xp} XP (teto de moedas da hora)`, '#ffd24a');
+    for (let i = 0; i < Math.min(10, m.coins); i++) this.dropCoin(new THREE.Vector3(m.x, y - 2, m.z));
+    if (m.levelUp) {
+      this.hooks.toast?.('⬆ Você subiu de nível!');
+      const p = this.player.position;
+      this.fx.burst(p.clone().setY(p.y + 0.3), { color: '#ffe066', count: 70, speed: 6, life: 1.1, size: 0.55, gravity: -1.5 });
+      this.ring(p, '#ffe066', 5);
+    }
+    beep(880, 0.1, 'triangle');
+  }
+  // habilidades de OUTROS jogadores (só o visual; o dano é do servidor)
+  #remoteFx(m) {
+    const y = this.world.groundY(m.x, m.z);
+    const pos = new THREE.Vector3(m.x, y, m.z);
+    if (m.kind === 'fireball') this.#fireballVisual(pos.clone().setY(y + 1.6), new THREE.Vector3(Math.sin(m.yaw), 0, Math.cos(m.yaw)));
+    else if (m.kind === 'whirl') (this.ring(pos, '#e0a0ff', 4.6), this.fx.burst(pos.clone().setY(y + 1), { color: '#e6b3ff', count: 40, speed: 8, life: 0.5, size: 0.45, gravity: 0 }));
+    else if (m.kind === 'heal') (this.ring(pos, '#74f0a7', 3), this.fx.burst(pos.clone().setY(y + 0.2), { color: '#7dffb2', count: 30, speed: 1.8, life: 1.2, size: 0.45, gravity: 2.4 }));
+    else if (m.kind === 'dash') this.fx.burst(pos.clone().setY(y + 0.4), { color: '#bfe9ff', count: 22, speed: 3, life: 0.5, size: 0.5, gravity: 0 });
+  }
+  #fireballVisual(from, dir) {
+    const g = new THREE.Group();
+    g.add(new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 10), new THREE.MeshBasicMaterial({ color: '#ffb347' })));
+    g.add(new THREE.Mesh(new THREE.SphereGeometry(0.7, 14, 10), new THREE.MeshBasicMaterial({ color: '#ff5a1a', transparent: true, opacity: 0.45, blending: THREE.AdditiveBlending, depthWrite: false })));
+    g.position.copy(from).addScaledVector(dir, 1.2);
+    this.scene.add(g);
+    this.projectiles.push({ m: g, v: dir.clone().multiplyScalar(22), life: 1.1 });
   }
   #presence(list) {
     const seen = new Set();
@@ -331,115 +432,16 @@ export class Game {
     return q.loc ? { x: LOCATIONS[q.loc].x, z: LOCATIONS[q.loc].z } : null;
   }
 
-  // ---------- inimigos ----------
-  spawnEnemy(type, x, z, tier = 1, boss = false) {
-    const def = net.catalog.enemies[type];
-    const rig = buildCreature(type);
-    const g = rig.g;
-    const bar = new THREE.Group();
-    const bg = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 0.18), new THREE.MeshBasicMaterial({ color: '#1b1426', depthTest: false }));
-    const fg = new THREE.Mesh(new THREE.PlaneGeometry(1.44, 0.12).translate(0.72, 0, 0), new THREE.MeshBasicMaterial({ color: boss ? '#ff6a3a' : '#46e0a0', depthTest: false }));
-    fg.position.set(-0.72, 0, 0.01);
-    bg.renderOrder = 10;
-    fg.renderOrder = 11;
-    bar.add(bg, fg);
-    bar.position.y = rig.barY;
-    bar.scale.setScalar(boss ? 2.6 : 1);
-    g.add(bar);
-    g.position.set(x, this.world.groundY(x, z), z);
-    this.scene.add(g);
-    const hp = Math.round(def.hp * (boss ? 1 : tier));
-    const e = { type, g, rig, body: rig.body, bar, fg, hp, max: hp, atk: def.atk * (1 + 0.2 * (tier - 1)), speed: def.speed * (boss ? 1 : 1), hitCd: 0, flash: 0, dying: 0, r: rig.r, atkAnim: 0, home: new THREE.Vector3(x, 0, z), boss, aggro: boss ? 34 : type === 'wolf' ? 22 : 16, wander: rnd(0, 6), t: rnd(0, 6), moving: false, em: null };
-    const m = e.body?.material;
-    if (m?.emissive) e.em = { c: m.emissive.clone(), i: m.emissiveIntensity };
-    this.enemies.push(e);
-    return e;
-  }
-  #spawnLogic(dt) {
-    const p = this.player.position;
-    const alive = this.enemies.filter((e) => !e.dying);
-    for (const e of alive) if (!e.boss && e.g.position.distanceTo(p) > 110) this.#drop(e);
-    // chefe do castelo
-    this.bossT -= dt;
-    const C = LOCATIONS.castle;
-    const bossAlive = alive.some((e) => e.boss);
-    if (!bossAlive && this.bossT <= 0 && Math.hypot(p.x - C.x, p.z - C.z) < 170) {
-      this.spawnEnemy('kingslime', C.x, C.z - 6, 1, true);
-      this.bossT = 5;
-    }
-    if (this.battle || alive.length >= 16) return;
-    for (let tries = 0; tries < 3; tries++) {
-      const a = Math.random() * Math.PI * 2;
-      const d = rnd(26, 62);
-      const x = p.x + Math.cos(a) * d;
-      const z = p.z + Math.sin(a) * d;
-      if (Math.abs(x) > WORLD_HALF - 10 || Math.abs(z) > WORLD_HALF - 10) continue;
-      if (this.world.isDeepWater(x, z)) continue;
-      if (Math.hypot(x, z) < 78 || Math.hypot(x - LOCATIONS.colosseum.x, z - LOCATIONS.colosseum.z) < 38) continue;
-      const b = biomeAt(x, z);
-      const table = SPAWNS[b] ?? [];
-      if (!table.length) continue;
-      const tot = table.reduce((s, t) => s + t[1], 0);
-      let r = Math.random() * tot;
-      let type = table[0][0];
-      for (const [tp, w] of table) if ((r -= w) <= 0) (type = tp), (r = Infinity);
-      const tmp = new THREE.Vector3(x, 0, z);
-      this.world.col.resolve(tmp, 1.2);
-      if (this.enemies.some((e) => e.g.position.distanceTo(tmp) < 4)) continue;
-      this.spawnEnemy(type, tmp.x, tmp.z, TIER[b] ?? 1);
-      break;
-    }
-  }
-  #drop(e) {
-    this.scene.remove(e.g);
-    this.enemies.splice(this.enemies.indexOf(e), 1);
-  }
+  // ---------- inimigos (visão do servidor) ----------
   nearestEnemy(range = 7) {
     let best = null;
     let bd = range;
-    for (const e of this.enemies) {
+    for (const e of this.mons.values()) {
       if (e.dying) continue;
       const d = e.g.position.distanceTo(this.player.position);
       if (d < bd) (bd = d), (best = e);
     }
     return best;
-  }
-  hitEnemy(e, dmg, color = '#fff') {
-    if (e.dying) return;
-    e.hp -= dmg;
-    e.flash = 0.12;
-    this.floatText(e.g.position.clone().setY(e.g.position.y + 2.6), String(Math.round(dmg)), color);
-    this.fx.burst(e.g.position.clone().setY(e.g.position.y + 1.3), { color: '#fff2a8', count: 9, speed: 5, life: 0.35, size: 0.32 });
-    this.slow = 0.05;
-    beep(180, 0.05, 'sawtooth');
-    if (e.hp <= 0) {
-      e.dying = 0.4;
-      this.fx.burst(e.g.position.clone().setY(e.g.position.y + 1), { color: e.type === 'slime' ? '#74e590' : '#ff8a5a', count: e.boss ? 90 : 30, speed: e.boss ? 10 : 6.5, life: 0.8, size: 0.55 });
-      this.killQueue.push({ type: e.type, pos: e.g.position.clone() });
-      this.#drain();
-    }
-  }
-  async #drain() {
-    if (this.killBusy) return;
-    this.killBusy = true;
-    while (this.killQueue.length) {
-      const k = this.killQueue.shift();
-      try {
-        const r = await call('kill', { type: k.type });
-        this.floatText(k.pos.clone().setY(k.pos.y + 3), r.coins ? `+${r.coins} 🪙  +${r.xp} XP` : `+${r.xp} XP (teto de moedas da hora)`, '#ffd24a');
-        for (let i = 0; i < Math.min(10, r.coins); i++) this.dropCoin(k.pos);
-        if (r.levelUp) {
-          this.hooks.toast?.('⬆ Você subiu de nível!');
-          this.fx.burst(this.player.position.clone().setY(this.player.position.y + 0.3), { color: '#ffe066', count: 70, speed: 6, life: 1.1, size: 0.55, gravity: -1.5 });
-          this.ring(this.player.position, '#ffe066', 5);
-        }
-        beep(880, 0.1, 'triangle');
-      } catch (err) {
-        if (err.code !== 'rapido') this.hooks.toast?.('⚠ ' + err.message);
-      }
-      await new Promise((r) => setTimeout(r, 380));
-    }
-    this.killBusy = false;
   }
   dropCoin(pos) {
     const c = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.09, 16), new THREE.MeshStandardMaterial({ color: '#ffd24a', emissive: '#ffb300', emissiveIntensity: 1.0, metalness: 0.6, roughness: 0.3 }));
@@ -466,20 +468,9 @@ export class Game {
     }
     const t = this.nearestEnemy(6);
     if (t) this.facing.copy(t.g.position).sub(p).setY(0).normalize();
-    let hit = false;
-    for (const e of this.enemies) {
-      if (e.dying) continue;
-      const to = e.g.position.clone().sub(p).setY(0);
-      const d = to.length();
-      if (d < 3.3 + e.r * 0.5 && to.normalize().dot(this.facing) > 0.15) {
-        const crit = Math.random() < 0.1;
-        this.hitEnemy(e, this.stats.atk * rnd(0.9, 1.1) * (crit ? 1.6 : 1), crit ? '#ffb300' : '#fff');
-        if (!e.boss) e.g.position.addScaledVector(to, 0.8);
-        hit = true;
-      }
-    }
+    fire('attack', { yaw: +Math.atan2(this.facing.x, this.facing.z).toFixed(3) });
     this.fx.burst(p.clone().addScaledVector(this.facing, 1.8).setY(p.y + 1.5), { color: '#ffffff', count: 5, speed: 3, life: 0.25, size: 0.25, gravity: 0 });
-    beep(hit ? 260 : 140, 0.05, 'square');
+    beep(t ? 260 : 140, 0.05, 'square');
   }
   useSkill(id) {
     if (this.dead || !this.enabled || this.battle) return;
@@ -491,24 +482,19 @@ export class Game {
     const p = this.player.position;
     const t = this.nearestEnemy(14);
     if (id !== 'dash' && t) this.facing.copy(t.g.position).sub(p).setY(0).normalize();
+    fire('skill', { id, yaw: +Math.atan2(this.facing.x, this.facing.z).toFixed(3) });
+    // só o visual; dano, cura e escudo são decididos pelo servidor
     if (id === 'dash') {
       this.dashT = 0.22;
       this.vel.copy(this.facing).multiplyScalar(24);
       this.fx.burst(p.clone().setY(p.y + 0.4), { color: '#bfe9ff', count: 22, speed: 3, life: 0.5, size: 0.5, gravity: 0 });
     }
     if (id === 'fireball') {
-      const g = new THREE.Group();
-      g.add(new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 10), new THREE.MeshBasicMaterial({ color: '#ffb347' })));
-      g.add(new THREE.Mesh(new THREE.SphereGeometry(0.7, 14, 10), new THREE.MeshBasicMaterial({ color: '#ff5a1a', transparent: true, opacity: 0.45, blending: THREE.AdditiveBlending, depthWrite: false })));
-      g.position.copy(p).setY(p.y + 1.6).addScaledVector(this.facing, 1.2);
-      this.scene.add(g);
-      this.projectiles.push({ m: g, v: this.facing.clone().multiplyScalar(22), life: 1.5, dmg: sk.dmg[lv - 1] + this.stats.atk * 0.5 });
+      this.#fireballVisual(p.clone().setY(p.y + 1.6), this.facing.clone());
       beep(320, 0.15, 'sawtooth');
     }
     if (id === 'shield') this.shield = sk.dur[lv - 1];
     if (id === 'heal') {
-      this.hp = Math.min(this.maxHp, this.hp + sk.heal[lv - 1]);
-      this.floatText(p.clone().setY(p.y + 3.4), `+${sk.heal[lv - 1]} ♥`, '#74f0a7');
       this.ring(p, '#74f0a7', 3);
       this.fx.burst(p.clone().setY(p.y + 0.2), { color: '#7dffb2', count: 40, speed: 1.8, life: 1.2, size: 0.45, gravity: 2.4 });
       beep(660, 0.2, 'sine');
@@ -517,7 +503,6 @@ export class Game {
       this.spin = 0.5;
       this.ring(p, '#e0a0ff', 4.6);
       this.fx.burst(p.clone().setY(p.y + 1), { color: '#e6b3ff', count: 40, speed: 8, life: 0.5, size: 0.45, gravity: 0 });
-      for (const e of this.enemies) if (!e.dying && e.g.position.distanceTo(p) < 5 + e.r * 0.5) this.hitEnemy(e, sk.dmg[lv - 1] + this.stats.atk * 0.4, '#e0a0ff');
       beep(200, 0.25, 'sawtooth');
     }
   }
@@ -527,27 +512,6 @@ export class Game {
     m.position.set(pos.x, pos.y + 0.15, pos.z);
     this.scene.add(m);
     this.effects.push({ m, t: 0, size });
-  }
-  hurt(n) {
-    if (this.dead || this.dashT > 0 || this.battle) return;
-    n = Math.max(1, Math.round(n - this.stats.def * 0.5)) * (this.shield > 0 ? 0.5 : 1);
-    this.hp -= n;
-    this.sinceHurt = 0;
-    const p = this.player.position;
-    this.floatText(p.clone().setY(p.y + 3.2), `-${Math.round(n)}`, '#ff6b6b');
-    this.fx.burst(p.clone().setY(p.y + 1.4), { color: '#ff5a6a', count: 12, speed: 4, life: 0.4, size: 0.35 });
-    beep(100, 0.1, 'sawtooth');
-    if (this.hp <= 0) {
-      this.dead = true;
-      this.hooks.dead?.(true);
-      this.fx.burst(p.clone().setY(p.y + 1.2), { color: '#ffffff', count: 40, speed: 5, life: 0.9, size: 0.5 });
-      setTimeout(() => {
-        this.hp = this.maxHp;
-        call('respawn').catch(() => this.player.position.set(SPAWN.x, heightAt(SPAWN.x, SPAWN.z), SPAWN.z));
-        this.dead = false;
-        this.hooks.dead?.(false);
-      }, 2500);
-    }
   }
   floatText(world, text, color) {
     const v = world.clone().project(this.camera);
@@ -593,7 +557,6 @@ export class Game {
     this.swing = Math.max(0, this.swing - dt);
     this.shield = Math.max(0, this.shield - dt);
     this.spin = Math.max(0, this.spin - dt);
-    this.sinceHurt += dt;
     this.crystalCd -= dt;
     this.battleFrozen = false;
 
@@ -661,7 +624,6 @@ export class Game {
       this.shieldMesh.position.copy(p).setY(p.y + 1.4);
       this.shieldMesh.scale.setScalar(1 + Math.sin(t * 8) * 0.03);
     }
-    if (this.sinceHurt > 5 && this.hp < this.maxHp && !this.dead) this.hp = Math.min(this.maxHp, this.hp + dt * (2 + this.maxHp * 0.02));
 
     // presença online (10 vezes por segundo quando se mexe; 1 vez por segundo parado)
     this.sendT += dt;
@@ -712,49 +674,26 @@ export class Game {
       }
     }
 
-    // inimigos
-    if (!this.battle) this.#spawnLogic(dt);
-    for (const e of [...this.enemies]) {
+    // monstros do servidor: suaviza posição, anima, barra de vida
+    for (const e of [...this.mons.values()]) {
+      const ep = e.g.position;
       if (e.dying) {
         e.dying -= dt;
         e.g.scale.multiplyScalar(0.88);
-        if (e.dying <= 0) this.#drop(e);
+        if (e.dying <= 0) (this.scene.remove(e.g), this.mons.delete(e.id));
         continue;
       }
-      const ep = e.g.position;
-      const to = p.clone().sub(ep).setY(0);
-      const d = to.length();
-      const home = Math.hypot(ep.x - e.home.x, ep.z - e.home.z);
-      let moveV = null;
-      if (!this.dead && !this.battle && d < e.aggro && home < 60) {
-        if (d > 1.4 + e.r * 0.4) moveV = to.clone().normalize();
-      } else if (home > 4) moveV = new THREE.Vector3(e.home.x - ep.x, 0, e.home.z - ep.z).normalize().multiplyScalar(0.6);
-      else {
-        e.wander -= dt;
-        if (e.wander < 0) e.wander = rnd(2, 5);
-      }
-      e.moving = !!moveV;
-      if (moveV) {
-        ep.addScaledVector(moveV, e.speed * dt);
-        e.g.rotation.y = angLerp(e.g.rotation.y, Math.atan2(moveV.x, moveV.z), Math.min(1, dt * 8));
-      } else if (d < e.aggro) e.g.rotation.y = angLerp(e.g.rotation.y, Math.atan2(to.x, to.z), Math.min(1, dt * 6));
-      e.hitCd = Math.max(0, e.hitCd - dt);
-      e.atkAnim = Math.max(0, e.atkAnim - dt);
-      if (!this.dead && !this.battle && d < 1.7 + e.r * 0.6 && Math.abs(p.y - ep.y) < 2.2 && e.hitCd <= 0) {
-        e.hitCd = e.boss ? 1.4 : 1.0;
-        e.atkAnim = 0.35;
-        this.hurt(e.atk);
-      }
-      for (const o of this.enemies) {
-        if (o === e || o.dying) continue;
-        const dd = ep.distanceTo(o.g.position);
-        if (dd < 1.6 && dd > 0.001) ep.addScaledVector(ep.clone().sub(o.g.position).setY(0).normalize(), dt * 2);
-      }
-      W.col.resolve(ep, e.r * 0.6);
-      if (W.isDeepWater(ep.x, ep.z)) ep.set(e.home.x, ep.y, e.home.z);
+      const k = 1 - Math.exp(-10 * dt);
+      const px = ep.x;
+      const pz = ep.z;
+      ep.x += (e.tx - ep.x) * k;
+      ep.z += (e.tz - ep.z) * k;
       ep.y = W.groundY(ep.x, ep.z);
+      e.g.rotation.y = angLerp(e.g.rotation.y, e.tyaw, Math.min(1, dt * 10));
+      const moving = Math.hypot(ep.x - px, ep.z - pz) / Math.max(dt, 1e-3) > 0.6;
+      e.atkAnim = Math.max(0, e.atkAnim - dt);
       e.t += dt;
-      animateCreature(e.rig, { t: e.t, moving: e.moving, atk: e.atkAnim });
+      animateCreature(e.rig, { t: e.t, moving, atk: e.atkAnim });
       e.flash = Math.max(0, e.flash - dt);
       const m = e.body?.material;
       if (m?.emissive && e.em) {
@@ -770,13 +709,9 @@ export class Game {
       pr.m.position.addScaledVector(pr.v, dt);
       pr.life -= dt;
       this.fx.burst(pr.m.position, { color: '#ff9a3a', count: 2, speed: 0.8, life: 0.3, size: 0.55, gravity: 0 });
-      const hit = this.enemies.find((e) => !e.dying && Math.hypot(e.g.position.x - pr.m.position.x, e.g.position.z - pr.m.position.z) < e.r + 0.7 && Math.abs(e.g.position.y + 1 - pr.m.position.y) < 3.5);
-      if (hit || pr.life <= 0) {
-        if (hit) {
-          this.hitEnemy(hit, pr.dmg, '#ff9a3a');
-          this.ring(pr.m.position, '#ff7a1a', 2.4);
-          this.fx.burst(pr.m.position, { color: '#ff8a2a', count: 36, speed: 7, life: 0.55, size: 0.6 });
-        }
+      if (pr.life <= 0) {
+        this.ring(pr.m.position, '#ff7a1a', 2.4);
+        this.fx.burst(pr.m.position, { color: '#ff8a2a', count: 36, speed: 7, life: 0.55, size: 0.6 });
         this.scene.remove(pr.m);
         this.projectiles.splice(this.projectiles.indexOf(pr), 1);
       }

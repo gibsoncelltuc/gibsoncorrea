@@ -50,7 +50,7 @@ export class World {
 
   // ---------- presença ----------
   join(name) {
-    this.pos.set(name, { x: SPAWN.x, y: 0, z: SPAWN.z, yaw: 0, a: 0, t: this.now() });
+    this.pos.set(name, { name, x: SPAWN.x, y: 0, z: SPAWN.z, yaw: 0, a: 0, t: this.now() });
   }
   leave(name) {
     this.pos.delete(name);

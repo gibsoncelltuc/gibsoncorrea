@@ -148,3 +148,6 @@ export function cleanAppearance(a = {}) {
   return out;
 }
 export { TAU };
+
+// zonas seguras: monstros não entram e jogadores não sofrem dano de monstros dentro delas
+export const isSafe = (x, z) => Math.hypot(x - LOCATIONS.town.x, z - LOCATIONS.town.z) < LOCATIONS.town.r + 4 || Math.hypot(x - LOCATIONS.colosseum.x, z - LOCATIONS.colosseum.z) < LOCATIONS.colosseum.r + 8;

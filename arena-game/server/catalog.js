@@ -49,12 +49,12 @@ export const SKILLS = {
 export const MAX_SKILL_LEVEL = 3;
 
 export const ENEMIES = {
-  slime: { name: 'Gosma', hp: 30, atk: 6, speed: 2.2, coins: [3, 8], xp: 12 },
-  brute: { name: 'Bruto', hp: 90, atk: 14, speed: 2.8, coins: [12, 24], xp: 40 },
-  scorpion: { name: 'Escorpião', hp: 55, atk: 10, speed: 3.0, coins: [6, 12], xp: 22 },
-  wolf: { name: 'Lobo', hp: 70, atk: 12, speed: 3.6, coins: [8, 16], xp: 28 },
-  skeleton: { name: 'Esqueleto', hp: 85, atk: 15, speed: 2.9, coins: [10, 20], xp: 34 },
-  kingslime: { name: 'Rei Gosma', hp: 900, atk: 28, speed: 2.4, coins: [60, 100], xp: 200 },
+  slime: { name: 'Gosma', hp: 30, atk: 6, speed: 2.2, coins: [3, 8], xp: 12, r: 0.8, aggro: 16 },
+  brute: { name: 'Bruto', hp: 90, atk: 14, speed: 2.8, coins: [12, 24], xp: 40, r: 1.05, aggro: 16 },
+  scorpion: { name: 'Escorpião', hp: 55, atk: 10, speed: 3.0, coins: [6, 12], xp: 22, r: 0.9, aggro: 16 },
+  wolf: { name: 'Lobo', hp: 70, atk: 12, speed: 3.6, coins: [8, 16], xp: 28, r: 1.0, aggro: 22 },
+  skeleton: { name: 'Esqueleto', hp: 85, atk: 15, speed: 2.9, coins: [10, 20], xp: 34, r: 0.8, aggro: 16 },
+  kingslime: { name: 'Rei Gosma', hp: 900, atk: 28, speed: 2.4, coins: [60, 100], xp: 200, r: 2.9, aggro: 34 },
 };
 
 export const RULES = {
@@ -69,6 +69,9 @@ export const RULES = {
   battleRakePct: 0.1, // 10% do total é destruído
   battleSeconds: 90,
   battleCooldownMs: 450,
+  attackCooldownMs: 400, // intervalo mínimo entre golpes (servidor)
+  reviveMs: 2500,
+  bossRespawnMs: 120_000,
 };
 
 export const baseStats = (level) => ({ hp: 100 + 10 * (level - 1), atk: 8 + 2 * (level - 1), def: 0, speed: 0, pickup: 0, luck: 0 });

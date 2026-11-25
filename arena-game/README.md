@@ -13,7 +13,7 @@ cd arena-game
 npm install          # three e ws
 npm start            # http://127.0.0.1:8800
 HOST=0.0.0.0 npm start   # amigos na mesma rede entram por http://SEU-IP:8800
-npm test             # 19 testes (economia, mundo online, duelos e integração por WebSocket)
+npm test             # 28 testes (economia, mundo, combate e integração por WebSocket)
 ```
 
 Abra duas abas (ou dois computadores) com nomes diferentes para ver o online funcionando.
@@ -50,10 +50,11 @@ Garantido e testado (`npm test`):
 - Chat com limite de frequência/tamanho; excesso de mensagens recebe resposta "devagar" (não é descartado em silêncio).
 - Duelo: dano calculado só no servidor; aposta devolvida se o duelo for cancelado, empatar ou o servidor cair.
 
+- **Combate no servidor**: monstros são do servidor e compartilhados. Ataques, habilidades, dano, vida, recompensas e morte são
+  calculados lá (recarga, alcance e ângulo validados). O navegador só desenha; avisar "matei" não existe mais.
+- **Cooperação**: quem causa dano e está perto na hora da morte recebe moedas e XP (teto de 450 moedas/hora por jogador).
+
 **Limites conhecidos (importante):**
-- O combate contra monstros roda no **navegador**. Um jogador malicioso pode avisar que matou monstros sem matar. O teto de
-  450 moedas/hora e a validação de bioma limitam o estrago, **mas não impedem**. Para valer dinheiro real, precisa rodar no servidor.
-- Os monstros não são compartilhados: cada jogador vê os seus.
 - Não há senha (o personagem é guardado por um token no navegador). Dados em um arquivo JSON (`data/game.json`).
 - Em duelos só vale o ataque corpo a corpo (habilidades ficam desligadas).
 - Ainda não há tela de créditos nem celular/controle (só teclado e mouse).
@@ -61,7 +62,7 @@ Garantido e testado (`npm test`):
 ## Estrutura
 
 ```
-server/   economy.js (regras e auditoria) · world.js (presença, chat, duelos) · index.js (rede) · catalog.js
+server/   economy.js (regras e auditoria) · monsters.js (monstros e combate) · world.js (presença, chat, duelos) · index.js (rede) · catalog.js
 public/   game.js (jogabilidade) · avatar.js (bonecos) · world.js + structures.js (mundo) · visuals.js (partículas/bloom)
           ui.js (painéis) · main.js (HUD) · minimap.js · shared/ (mapa e missões, lidos por servidor e cliente)
 test/     economy · world · online (integração por WebSocket)
@@ -69,7 +70,6 @@ test/     economy · world · online (integração por WebSocket)
 
 ## Próximos passos sugeridos
 
-1. Monstros e combate no servidor (anti-trapaça) e monstros compartilhados, para jogar em dupla.
-2. Chefes com fases, dungeons e mais missões; tela de créditos e "novo jogo+".
-3. Duelos 2×2 e torneios com PvP real; ranking.
-4. Contas com senha e banco de dados (SQLite).
+1. Chefes com fases, dungeons e mais missões; tela de créditos e "novo jogo+".
+2. Duelos 2×2 e torneios com PvP real; ranking.
+3. Contas com senha e banco de dados (SQLite).
