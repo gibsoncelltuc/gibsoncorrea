@@ -8,7 +8,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao smug); POV (variante 0, expressao shock)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/flamethrower, kit/marco_hollywood
+- Objetos/modelos: kit/bancada, kit/flamethrower, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilionario, lancachamas
 - RISCOS: nenhum
 
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao grin); CMP (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/flamethrower
+- Objetos/modelos: kit/bancada, kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancachamas
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 18 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/flamethrower, kit/marco_hollywood, kit/fire
+- Objetos/modelos: kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, piada
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao laugh)
 - Animacao: conversar
-- Objetos/modelos: kit/flamethrower, kit/phone, kit/fire
+- Objetos/modelos: kit/phone, kit/bancada, kit/flamethrower, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, proprio
 - RISCOS: nenhum
 
@@ -108,7 +108,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); POV (variante 0, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/flamethrower, kit/extinguisher
+- Objetos/modelos: kit/extinguisher, kit/bancada, kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): produto
 - RISCOS: nenhum
 
@@ -127,6 +127,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
+kit/bancada | b0, b3, b4, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b0, b2, b3, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_hollywood | b0, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

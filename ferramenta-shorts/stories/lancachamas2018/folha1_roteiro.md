@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: whoosh@18
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_solta (up) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_solta (up) @4 -> acao + som de efeito; encena: calor (reach) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O próprio Musk postou vídeos soltando fogo com o aparelho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@18
-- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_fone (lift) @3 -> acao + som de efeito; encena: x_solta (up) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao; encena: x_fone (lift) @3 -> acao + som de efeito; encena: x_solta (up) @5 -> acao + som de efeito; encena: calor (reach) @6 -> acao + som de efeito
 - Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

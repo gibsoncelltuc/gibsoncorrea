@@ -81,6 +81,13 @@
     "Not-A-Flamethrower",
     "O Não é um Lança-Chamas"
    ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
   }
  ]
 }

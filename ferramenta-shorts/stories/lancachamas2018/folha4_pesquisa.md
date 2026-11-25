@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Não é um Lança-Chamas
 - Epoca: 2018 | Lugar: Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles | Quando: janeiro a fevereiro de 2018, dia
-- HEROIS (objeto): kit/flamethrower
+- HEROIS (objeto): kit/flamethrower, kit/bancada
 - HEROIS (personagens): MUS, CMP
 - Cenarios: interior loja, interior pedra, loc_cidade, loc_deserto
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -24,6 +24,7 @@ pessoas | compradores | compradores / compradores 2018 | SEM REFERENCIA
 objeto | Not-A-Flamethrower (lanca-chamas preto parecido com fuzil) | Not-A-Flamethrower / Not-A-Flamethrower 2018 | SEM REFERENCIA
 objeto | extintor vermelho de brinde | extintor vermelho de brinde / extintor vermelho de brinde 2018 | SEM REFERENCIA
 heroi | flamethrower | Not-A-Flamethrower / O Não é um Lança-Chamas | SEM REFERENCIA
+heroi | bancada | bancada | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)
