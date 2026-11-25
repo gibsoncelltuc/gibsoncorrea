@@ -76,7 +76,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "MEN"
    ],
@@ -91,7 +91,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_patio"
   },
   {
    "camera": "two",
@@ -152,7 +152,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "hall"
   },
   {
    "camera": "two",
@@ -228,7 +228,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_patio"
   },
   {
    "camera": "close",
@@ -244,7 +244,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "loc_patio"
   }
  ]
 }

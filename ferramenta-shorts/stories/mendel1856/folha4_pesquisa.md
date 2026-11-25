@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1856 | Lugar: Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca | Quando: 1856 a 1866, dia, primavera e verao
 - HEROIS (objeto): kit/pea_green, kit/pea_yellow
 - HEROIS (personagens): MEN, FRE
-- Cenarios: interior madeira, loc_campo, loc_patio
+- Cenarios: hall, interior madeira, loc_campo, loc_patio
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
