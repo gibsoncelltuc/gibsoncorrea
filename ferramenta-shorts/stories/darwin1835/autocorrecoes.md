@@ -151,3 +151,32 @@
 - b7: objeto "kit/bancada" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b9: objeto "kit/finch" saiu com 4% da altura da tela, a ficha de cena planejou 14% -> objeto na frente dos personagens e maior
 - b9: objeto "kit/bancada" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 08:45 autocorrecao de visibilidade
+- b2: quadro_manual (o roteiro fixou o quadro), "kit/navio_fragata" cobrindo a tela (87% do quadro: so' se ve uma parede/casco) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b5: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/finch_long" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b7: objeto citado "kit/finch_thick" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b9: ja corrigida 3 vezes, objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 14% -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b4: ja corrigida 3 vezes, objeto "kit/finch" saiu com 6% da altura da tela, a ficha de cena planejou 14% -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_long" saiu com 0% da altura da tela, a ficha de cena planejou 8% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/finch" saiu com 4% da altura da tela, a ficha de cena planejou 14% -> fica para o olho
+
+## 25/11 08:46 autocorrecao de visibilidade
+- b2: quadro_manual (o roteiro fixou o quadro), "kit/navio_fragata" cobrindo a tela (87% do quadro: so' se ve uma parede/casco) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/finch_long" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 14% -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b5: quadro_manual (o roteiro fixou o quadro), objeto "kit/finch_long" saiu com 0% da altura da tela, a ficha de cena planejou 8% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/finch" saiu com 4% da altura da tela, a ficha de cena planejou 14% -> fica para o olho

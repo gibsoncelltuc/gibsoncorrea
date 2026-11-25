@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
-Gerado em 25/11 08:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 08:47 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | DAR, MAR | - | bancada, finch | - | Um cientista misturou as etiquetas de uns passarinhos, e isso explicou
-b1 | simples | harbor | reveal | MAR | - | navio_fragata, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Gal
+b1 | simples | harbor | wide | MAR | - | navio_fragata, navio em movimento, navios de guerra ao fundo, no tamanho real | - | Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Gal
 b2 | simples | harbor | wide | DAR, MAR | 6 | bancada, finch, navio_fragata | - | Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A
 b3 | chave | harbor | wide | DAR, MAR | - | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cad
 b4 | simples | interior pedra | group | GOU | - | bancada, finch | - | Em Londres, o especialista John Gould revelou: eram todos tentilhões, 
