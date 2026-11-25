@@ -1,14 +1,14 @@
-# Revisao do storyboard - paris1870 (v3, 24/11)
-pesquisa: cerco de Paris 1870-71; Castor e Polux do Jardin d'Acclimatation vendidos ao acougueiro Deboos; cardapio do Voisin no Natal de 1870; baloes montados saindo de Paris
-b0: OK - "Paris ja serviu elefante no jantar" parisienses com a panela na praca, placa 1870
-b1: OK - "A Prussia cercou a cidade" mapa da Franca e praca de Paris com gente
-b2: OK - "comeram os cavalos... cachorros e gatos" cavalo, cachorro e gato na rua com texto CAVALOS, CAES, GATOS
-b3: OK - "roedores, que viraram um prato chique" placa RATOS, chef de cartola com panela
-b4: OK - "olharam para o zoologico" parisienses diante do elefante e do cervo no zoologico
-b5: OK - "O acougueiro comprou dois elefantes, Castor e Polux" acougueiro de branco ao lado dos dois elefantes, placa CASTOR E POLUX
-b6: OK - "No Natal, o restaurante Voisin serviu consome de elefante" chef de cartola e panela no restaurante, placa NATAL DE 1870
-b7: CORRIGIDO - elefante aparecia fora do zoologico e legenda BALOES na frase errada -> rua de Paris sem animais, texto SO PARA OS RICOS com o rico de cartola
-b8: CORRIGIDO - elefante na cena da fila -> "o povo fazia fila no frio, com comida racionada": fila de gente triste na rua de Paris no frio
-b9: CORRIGIDO - frase citava pombo sem modelo -> "soltavam baloes por cima do cerco", balao na praca com placa BALOES
-b10: OK - "Paris se rendeu. De barriga vazia" entardecer na rua, bandeira, texto PARIS SE RENDEU; chamada final COMENTE
-defeitos procurados: cenario (Paris 1870 em todas as cenas de rua), epoca (sem poste/predio moderno), tamanho (elefante em tamanho real), cortado (ninguem cortado), multidao (fila sem clones repetidos na frente), legenda (texto em cima, longe da legenda), acao (cada frase mostra o que diz), objeto (panela heroi com close)
+b0: OK - Paris ja serviu elefante no jantar: parisienses com o bife de elefante na mesa na rua de Paris
+b1: OK - mil oitocentos e setenta, a Prussia cercou a cidade e a comida acabou: mapa da Franca e povo preocupado na rua
+b2: OK - primeiro comeram os cavalos, depois os cachorros e os gatos: placa CAVALOS CAES GATOS com cavalo, cachorro e gato na rua
+b3: OK - os roedores viraram prato chique: placa RATOS com o cozinheiro e os ratos na panela
+b4: OK - quando acabou tudo olharam para o zoologico: elefantes no zoologico com o povo olhando
+b5: OK - o acougueiro comprou dois elefantes, Castor e Polux, e vendeu a carne: placa CASTOR E POLUX com o acougueiro e a moeda
+b6: OK - no Natal o restaurante Voisin serviu consome de elefante: placa NATAL DE 1870 no restaurante com o cardapio ELEFANTE
+b7: OK - carne de elefante custava uma fortuna, so os ricos comiam: placa SO PARA OS RICOS com o rico de cartola
+b8: OK - o povo fazia fila no frio com comida racionada: multidao em fila na neve
+b9: OK - para mandar noticias soltavam baloes por cima do cerco: balao no ceu sobre os predios de Paris e placa BALOES
+b10: OK - em janeiro de 1871 Paris se rendeu de barriga vazia: placa PARIS SE RENDEU com a bandeira e o povo triste
+b11: OK - chamada final COMENTE com o parisiense e o prato
+pesquisa: Cerco de Paris 1870-1871, carne de cavalo, caes, gatos e ratos vendidos nos mercados, elefantes Castor e Pollux do Jardin d'Acclimatation abatidos, menu de Natal do restaurante Voisin, baloes postais, rendicao em 28 de janeiro de 1871
+defeitos procurados: cenario (Paris haussmanniana, restaurante, zoologico) OK; epoca (1870, cartola, quepe, sem objeto moderno) OK; tamanho (elefantes e balao em escala) OK; cortado (ninguem cortado) OK; multidao (so na fila) OK; legenda (placas no alto) OK; acao (comer, vender, esperar na fila, render) OK; objeto (elefantes, ratos, balao e prato visiveis quando citados) OK

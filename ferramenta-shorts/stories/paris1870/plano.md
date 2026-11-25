@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
+b0 | wide | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 2 soldados a cavalo (PAR) (acao + som de efeito) | -
 b3 | group | - neve | placa: RATOS | - | -
@@ -15,5 +15,5 @@ b9 | two | - neve | tropa, placa: BALÕES | encena: x_solta (up) @3 (acao + som 
 b10 | group | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 66% | aberto 19% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 61% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | dentro do padrao do canal

@@ -97,3 +97,14 @@
 - b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 4% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 11:17 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b3: objeto citado "kit/panela" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b3: objeto citado "kit/rato" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b3: objeto "kit/panela" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+- b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 6% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 11:18 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

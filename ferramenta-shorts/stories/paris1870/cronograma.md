@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Gerado em 25/11 10:56 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 11:19 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PAR, PAR | - | bife_elefante, marco_notredame, Table_Large | - | Paris já serviu elefante no jantar.
+b0 | simples | street | wide | PAR, PAR | - | bife_elefante, marco_notredame, Table_Large | - | Paris já serviu elefante no jantar.
 b1 | simples | street | reveal | PAR, PAR | 6 | house_two, marco_notredame, lamppost | - | Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac
 b2 | simples | street | two | PAR, PAR | - | - | - | Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os
 b3 | simples | street | group | PAR, CHF | - | barrel, panela, rato | - | Depois, os roedores, que viraram um prato chique.

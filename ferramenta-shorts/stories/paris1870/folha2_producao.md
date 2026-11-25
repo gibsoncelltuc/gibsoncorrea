@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Paris já serviu elefante no jantar.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Animacao: reagir
 - Objetos/modelos: kit/bife_elefante, mk/Table_Large, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
 - RISCOS: nenhum
@@ -49,7 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 0 de PAR
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: dog, cat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses
 - RISCOS: nenhum
@@ -115,7 +115,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUT (variante 0, expressao grin); PAR (variante 0, expressao shock)
-- Animacao: conversar | interacao: discutir
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: elephant
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, carne
 - RISCOS: nenhum
@@ -137,7 +137,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/bife_elefante
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
 - RISCOS: nenhum
@@ -225,7 +225,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 0, expressao sad)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/panela, kit/marco_notredame
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, paris
 - RISCOS: nenhum
@@ -274,8 +274,8 @@ kit/balloon_air | b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 12% | medio 66% | aberto 19% | detalhe 3%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b10 vai ate o outro
+- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 12% | medio 61% | aberto 23% | detalhe 3%
+- Interacoes: b2 susto, b3 tremem de frio, b5 avanca e o outro recua, b6 discutir, b10 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

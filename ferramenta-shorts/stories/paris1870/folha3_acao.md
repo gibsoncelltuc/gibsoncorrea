@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 1.7s - 6 palavras - plano two
+## Cena b0 - 0.2s a 1.7s - 6 palavras - plano wide
 > "Paris já serviu elefante no jantar."
 
 - LEITURA DA FRASE: sentido FATO
@@ -12,12 +12,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | susto | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
@@ -47,14 +45,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | CENA | cavalaria: 2 soldados a cavalo (PAR) | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | CAVALOS, CÃES, GATOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - CENA (a cena toda): executa: cavalaria: 2 soldados a cavalo (PAR)
-- INTERACAO (a cena toda): executa: avanca e o outro recua
+- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -108,7 +106,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | comprou (23.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | comprou (23.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 3 | vendeu (25.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | - | INTERACAO | discutir | OK |
+| 4 | - | INTERACAO | avanca e o outro recua | OK |
 | 5 | - | ATUACAO | conversar | OK |
 | 6 | - | PLACA | CASTOR E PÓLUX | OK |
 <!-- FISICA -->
@@ -117,7 +115,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: stars na palavra comprou (23.1s): executa: estrelinhas + som
 - ACAO: negocio na palavra comprou (23.1s): executa: moeda girando (compra/venda)
 - EFEITO: stars na palavra vendeu (25.9s): executa: estrelinhas + som
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -130,13 +128,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | NATAL DE 1870 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -204,14 +202,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | rendeu (51.3s) | ACAO: rende | maos para cima (rendicao) | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | PARIS SE RENDEU | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: rende na palavra rendeu (51.3s): executa: maos para cima (rendicao)
-- INTERACAO (a cena toda): executa: vai ate o outro
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
