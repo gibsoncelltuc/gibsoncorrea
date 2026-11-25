@@ -106,13 +106,14 @@
    },
    "set": "loc_cidade",
    "hora": "noite",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
+   "cx": 0,
+   "cz": 0,
+   "h": 1.5,
+   "d0": 6.0,
+   "d1": 5.0,
    "_auto_vis": 3,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "shot_lock": true
   },
   {
    "shot": "reveal",
@@ -160,13 +161,14 @@
     ]
    },
    "hora": "noite",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
+   "cx": 0,
+   "cz": 0,
+   "h": 1.7,
+   "d0": 4.5,
+   "d1": 4.0,
    "_auto_vis": 1,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "shot_lock": true
   },
   {
    "shot": "wide",
@@ -365,13 +367,14 @@
     "n": 0
    },
    "detalhe": true,
-   "cx": 7.0,
-   "cz": -10.8,
-   "d0": 20.4,
-   "d1": 17.4,
-   "h": 2.8,
+   "cx": 2.0,
+   "cz": -3.5,
+   "d0": 12.0,
+   "d1": 10.0,
+   "h": 1.4,
    "_auto_vis": 3,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "shot_lock": true
   },
   {
    "shot": "crowd",
@@ -435,12 +438,13 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
-   "quadro_manual": true
+   "cx": 0,
+   "cz": 0,
+   "h": 1.7,
+   "d0": 4.5,
+   "d1": 4.0,
+   "quadro_manual": true,
+   "shot_lock": true
   }
  ],
  "fontes": [
