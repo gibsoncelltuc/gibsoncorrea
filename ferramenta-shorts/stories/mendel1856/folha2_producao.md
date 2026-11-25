@@ -50,21 +50,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MEN (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: encena
-- Objetos/modelos: kit/pea_yellow, kit/pea_green
+- Animacao: conversar
+- Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ervilhas, filhos
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/pea_green: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.5 m de altura x 5.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/pea_yellow: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.9 m de altura x 6.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_green: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pea_yellow: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Na primeira geração, todas saíram amarelas, como se o verde tivesse su...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/pea_yellow
@@ -275,13 +275,11 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 5 | mistura: close 20% | medio 47% | aberto 31% | detalhe 2%
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 28% | medio 48% | aberto 22% | detalhe 2%
 - Interacoes: b4 discutir, b7 cochichar
-- RISCOS GERAIS: 
-  - objeto heroi (kit/pea_green) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: objeto heroi (kit/pea_green) sem close de camera
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mendel1856 bN bM` (so essas cenas).

@@ -57,7 +57,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MEN"
    ],
@@ -76,7 +76,7 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MEN"
    ],
