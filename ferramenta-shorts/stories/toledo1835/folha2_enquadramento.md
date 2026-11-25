@@ -5,8 +5,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
-- PERSONAGENS: OHI no centro, expressao stern; sem multidao; acao: fala/gesto
-- OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- PERSONAGENS: OHI no centro, expressao stern; multidao de 16 (OHI, MIC) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +106 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +110 da cena
 - SOM: sting@106
@@ -35,16 +35,16 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e teodolito juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: OHI no centro, expressao shock; multidao de 18 (OHI, MIC) ATRAS dos principais; acao: batalha
-- OBJETO kit/teodolito: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "PARA O ALTO" flutuando no alto, na palavra 1 da frase
 
 ## b5: "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: RAP na esquerda, expressao angry; XER na direita, expressao pained; sem multidao; acao: discutir
-- OBJETO kit/canivete_aberto: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/canivete_aberto: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
 - SOM: sting@60
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "ACORDO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b7: "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+- LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: OHI na esquerda, expressao grin; MIC no centro, expressao pained; GOV na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)

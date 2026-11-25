@@ -196,7 +196,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b13 - 61.2s a 64.1s - 8 palavras - plano close
+## Cena b13 - 61.2s a 64.1s - 8 palavras - plano two
 > "Aposta maluca ou visão de futuro? Você decide."
 
 - LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)

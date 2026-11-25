@@ -6,7 +6,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao pained; sem multidao; acao: fala/gesto
-- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b1: "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

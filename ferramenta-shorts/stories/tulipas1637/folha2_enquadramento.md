@@ -52,8 +52,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_yellow juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao grin, segura paper; POV na direita, expressao smile, segura coin; sem multidao; acao: discutir
-- OBJETO kit/tulip_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_yellow: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/tulip_purple: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b6: "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna."
 - LOCAL: sala de madeira; hora: day

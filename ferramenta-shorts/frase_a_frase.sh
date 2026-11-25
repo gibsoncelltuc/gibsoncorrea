@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # CONFERENCIA FRASE A FRASE (24/11, Gibson): 1 quadro do mp4 no meio de cada frase com a frase escrita embaixo; OLHAR se a imagem mostra a frase. uso: frase_a_frase.sh <branch> <id> <mp4> <saida.jpg>  -> 1 quadro no meio de cada frase (timing da sessao), rotulado com a frase
-BR=$1; ID=$2; M=$3; OUT=$4; D=$(mktemp -d); cd /home/user/gibsoncorrea
+BR=$1; ID=$2; M=$(realpath "$3"); OUT=$(realpath -m "$4"); D=$(mktemp -d); cd /home/user/gibsoncorrea   # caminho relativo vale de onde chamou
 git show origin/$BR:ferramenta-shorts/stories/$ID/work/phrases.json > $D/ph.json 2>/dev/null || cp ferramenta-shorts/stories/$ID/work/phrases.json $D/ph.json
 python3 - "$D" "$M" "$OUT" <<'PY'
 import json,sys,subprocess

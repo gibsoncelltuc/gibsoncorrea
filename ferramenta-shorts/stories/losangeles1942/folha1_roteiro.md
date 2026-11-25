@@ -5,29 +5,29 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b0  (~4.8 s)
 - Narracao: Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@40
+- Efeitos sonoros marcados: cannon@25, cannon@40, cannon@60
 - Efeito + som nas palavras-chave: encena: atira @6 -> acao + som de efeito
-- Efeito visual marcado: burst@40
+- Efeito visual marcado: burst@25, burst@40, burst@60
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.9 s)
 - Narracao: Era fevereiro de mil novecentos e quarenta e dois, logo depois de Pearl Harbor, e Los Angeles vivia com medo.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: LOS ANGELES
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)
 - Narracao: Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.
-- Som ambiente: sea
-- Efeitos sonoros marcados: cannon@68
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: cannon@68, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
 - Efeito + som nas palavras-chave: objeto: submarino_ww2 atira (na palavra "atirado") -> acao + som de efeito
 - Efeito visual marcado: burst@68
 - Texto na tela: SUBMARINO JAPONÊS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~5.5 s)
 - Narracao: Na madrugada, as sirenes tocaram, as luzes da cidade se apagaram, e holofotes varreram o céu.

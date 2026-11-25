@@ -32,7 +32,6 @@
   "barrel",
   "buildings/house_two",
   "buildings/shop",
-  "kit/balloon",
   "kit/balloon_air",
   "kit/bife_elefante",
   "kit/coin",
@@ -40,6 +39,7 @@
   "kit/panela",
   "kit/rato",
   "kit/room_franca_shop",
+  "mk/Table_Large",
   "nature/lamppost"
  ],
  "pesquisa_visual": {

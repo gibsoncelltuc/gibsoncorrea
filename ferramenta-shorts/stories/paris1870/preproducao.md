@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/bife_elefante, kit/marco_notredame | - | -
+b0 | street | two | 2 | reagir, INTERAGEM: susto | kit/bife_elefante, mk/Table_Large, kit/marco_notredame | - | -
 b1 | street | reveal | 8 | reagir | kit/marco_notredame, buildings/house_two, nature/lamppost | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | dog, cat | - | -
 b3 | street | group | 2 | reagir, INTERAGEM: tremem de frio | barrel, kit/panela, kit/rato | - | -
