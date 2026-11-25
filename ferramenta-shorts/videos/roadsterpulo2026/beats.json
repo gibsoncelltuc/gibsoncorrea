@@ -111,14 +111,22 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ENA",
+     "MUS"
+    ],
+    "march": false
+   },
+   "_susp_ok": true
   },
   {
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "POV:0:smile"
    ],
-   "shot": "reveal",
+   "shot": "wide",
    "say": "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas.",
    "mapa": "ESTADOS UNIDOS",
    "props": [
@@ -171,19 +179,14 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "crowd": {
     "n": 0
    },
-   "_enq_shot": "reveal",
+   "_enq_shot": "wide",
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "revelacao (camera sobe e abre); plano aberto mirando o rampa_curva (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o rampa_curva (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/rampa_curva",
@@ -210,7 +213,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",

@@ -1,0 +1,2 @@
+VISIBILIDADE: 1 FALHA(S)
+FALHA b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
