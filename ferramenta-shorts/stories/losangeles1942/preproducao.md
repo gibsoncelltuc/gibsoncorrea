@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | street | two | 14 | reagir, INTERAGEM: susto | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | street | wide | 10 | reagir, batalha | - | - | -
-b2 | harbor | orbit | 31 | encena | kit/submarino_ww2 | - | -
+b2 | harbor | orbit | 31 | parados (so fala e pisca) | kit/submarino_ww2 | - | -
 b3 | harbor | low | 2 | conversar, INTERAGEM: entregar | kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b4 | street | wide | 5 | encena | kit/canhao_moderno, cannon | - | -
 b5 | harbor | group | 14 | discutir, INTERAGEM: discutir | - | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/searchlight
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b6
 Interacoes entre personagens: b0 susto, b3 entregar, b5 discutir, b7 susto, b8 o outro se aproxima
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

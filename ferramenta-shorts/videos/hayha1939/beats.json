@@ -48,14 +48,13 @@
     "SOV"
    ],
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Um"
+      "na": "soldado"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -75,15 +74,14 @@
     "march": true
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "invadiu"
+      "na": "invadiu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -116,14 +114,13 @@
     }
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "neve"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -140,15 +137,13 @@
    "d0": 5.0,
    "d1": 4.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "chamado"
+      "faz": "mostra",
+      "na": "Häyhä"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -164,12 +159,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_espera",
-      "na": "esperava"
+      "na": "esperava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -186,14 +180,13 @@
    "d0": 5.0,
    "d1": 4.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Dizem"
+      "na": "neve"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -210,14 +203,15 @@
    "set": "arctic",
    "clima": "neve",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Em"
+      "faz": "atira",
+      "na": "abatidos",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -235,11 +229,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Os"
+      "faz": "fala",
+      "na": "chamá-lo",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -255,17 +250,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "tomba",
+      "na": "atingiu",
       "quem": 0,
-      "faz": "atira",
-      "na": "bala"
-     },
-     {
-      "quem": 0,
-      "faz": "x_acorda",
-      "na": "acordou"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -281,14 +271,13 @@
    "mood": "calm",
    "interior": "madeira",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Viveu"
+      "na": "herói"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

@@ -64,7 +64,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Nessa confusão, lenhadores de New Brunswick prenderam o agente do Maine, e o clima ficou perigoso."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) CAN FALTA ANIMACAO | na palavra "prenderam" (33.6s)
+  1) CAN acao do motor: prende | na palavra "prenderam" (33.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

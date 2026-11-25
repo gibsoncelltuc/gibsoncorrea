@@ -128,11 +128,9 @@ pig | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 ## Video inteiro
 - Objeto heroi: kit/logs | grandes momentos: b5 | planos abertos: 3 | mistura: close 9% | medio 64% | aberto 24% | detalhe 4%
 - Interacoes: b0 discutir, b1 tremem de frio, b2 vai ate o outro, b6 cochichar, b7 entregar, b8 entregar, b9 aproxima-se
-- RISCOS GERAIS: 
-  - b5 FALTA ANIMACAO "prende": construir na ferramenta (encenacao.py VOCAB + motor) antes de renderizar -> CORRECAO: construir a animacao na ferramenta / corrigir o "encena"
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: b5 FALTA ANIMACAO "prende": construir na ferramenta (encenacao.py VOCAB + motor) antes de renderizar
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aroostook1838 bN bM` (so essas cenas).

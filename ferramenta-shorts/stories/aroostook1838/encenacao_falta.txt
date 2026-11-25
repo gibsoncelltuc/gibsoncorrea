@@ -1,1 +1,0 @@
-b5 FALTA ANIMACAO "prende": construir na ferramenta (encenacao.py VOCAB + motor) antes de renderizar

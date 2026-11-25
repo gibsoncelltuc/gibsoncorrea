@@ -38,6 +38,8 @@ def _motor():   # todas as acoes que o motor (mkvideo.py) ja executa, lidas do p
     except Exception: return set()
     t = set(re.findall(r"tipo_ == '([a-z_]+)'", src)) | set(re.findall(r"'(x_[a-z]+)': \(", src))
     for g in re.findall(r"tipo_ in \(([^)]*)\)", src): t |= set(re.findall(r"'([a-z_]+)'", g))
+    t |= set(re.findall(r"\), '([a-z_]+)', \(", src)) | set(re.findall(r"\), '([a-z_]+)'\)", src))   # dicionario universal de acoes: (raizes), 'gesto', 'tipo', ...
+    t |= set(re.findall(r"'(x_[a-z]+)'", src)) | set(re.findall(r"\)\$', '[a-z]+', '([a-z_]+)'\)", src)) | set(re.findall(r"\), '[a-z]+', '([a-z_]+)', \(", src))   # ENC: (regex, gesto, tipo)
     t |= set(re.findall(r"'([a-z_]+)': '(?:punch|push|up|lift|point|think|facepalm|plead|stir|throw|hammer|write)'", src))
     return t
 for _t in _motor():

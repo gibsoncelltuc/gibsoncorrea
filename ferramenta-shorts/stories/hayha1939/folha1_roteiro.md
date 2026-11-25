@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Narracao: Um deles era um homem do campo, baixinho, chamado Simo Häyhä.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: SIMO HÄYHÄ
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Narracao: Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: atira @10 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 100 DIAS
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Narracao: Os soviéticos passaram a chamá-lo de Morte Branca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: MORTE BRANCA
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 1
 - Narracao: Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: atira @8 -> acao + som de efeito; encena: x_acorda (up) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: bala -> burst + som de tiro/explosao; encena: tomba @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HOSPITAL
 - Funcao na historia: desenvolvimento

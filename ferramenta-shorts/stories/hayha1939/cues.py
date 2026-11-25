@@ -70,6 +70,6 @@ gibber(F(_A[10] + int((_A[11] - _A[10]) * 0.2)), 4, 200, 0.12); gibber(F(_A[10] 
 thump(F(int(_W(26))))
 hud(F(int(_W(46))))
 tick(F(int(_W(66))))
+gun(F(int(_W(102))))
 gun(F(int(_W(130))))
-gun(F(int(_W(130))))
-ding(F(int(_W(138))))
+thump(F(int(_W(131))))
