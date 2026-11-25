@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1895, objeto na mao | (rosto) scared (expr + som de efeito); encena: pega (lift) @2 (acao + som de efeito) | -
+b0 | two | -  | objeto na mao | (rosto) scared (expr + som de efeito); encena: pega (lift) @2 (acao + som de efeito) | -
 b1 | crowd | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | study  | interior | encena: examina (think) @7 (acao + som de efeito) | -
 b3 | close | noite  | interior, objeto na mao | encena: pega (lift) @3 (acao + som de efeito) | -

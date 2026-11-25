@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: 1847
+- Texto na tela: HOSPITAL
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.8 s)
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: HOSPITAL
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.8 s)

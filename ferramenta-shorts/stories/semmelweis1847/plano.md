@@ -2,9 +2,9 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | interior, placa: 1847 | (rosto) pleading (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito) | -
+b0 | two | -  | interior, placa: HOSPITAL | (rosto) pleading (expr + som de efeito); encena: fala (point) @2 (acao + som de efeito) | -
 b1 | wide | -  | batalha aberta com tiros, tropa, placa: HOSPITAL DE VIENA, mapa | - | -
-b2 | two | -  | interior, placa: HOSPITAL | - | -
+b2 | two | -  | interior | - | -
 b3 | group | -  | interior | - | -
 b4 | two | -  | interior | (rosto) sad (expr + som de efeito); morreu (puff + som de baque); encena: corta (reach) @6 (acao + som de efeito); encena: morre @13 (acao + som de efeito) | -
 b5 | close | -  | interior | encena: pensa (think) @1 (acao + som de efeito) | -

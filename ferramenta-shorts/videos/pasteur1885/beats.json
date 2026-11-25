@@ -191,13 +191,12 @@
   },
   {
    "say": "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.",
-   "shot": "two",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "PAS:0:surprised",
     "MAE:0:cry"
    ],
-   "chega": true,
    "animals": [
     [
      "dog",
@@ -265,7 +264,7 @@
      }
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "_susp_ok": true,
    "quadro": {
     "local": "salao",

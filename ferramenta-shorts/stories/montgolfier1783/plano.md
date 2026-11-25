@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, animais, placa: 1783 | - | -
+b0 | two | -  | tropa, animais | - | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
 b3 | two | -  | tropa, interior | - | -

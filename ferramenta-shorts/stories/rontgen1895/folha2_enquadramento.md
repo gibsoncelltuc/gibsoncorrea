@@ -9,7 +9,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "1895" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

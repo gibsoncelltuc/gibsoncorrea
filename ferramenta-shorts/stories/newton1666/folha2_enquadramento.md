@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura book; sem multidao; acao: fala/gesto
 - OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1666" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
