@@ -189,7 +189,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Na fome, até bicho de zoológico vira comida. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) PAR maos para cima (rendicao) | na palavra "zoológico" (30.0s)
+  1) PAR olha/aponta para o alvo | alvo: prato | na palavra "comida" (30.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

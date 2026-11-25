@@ -535,9 +535,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "rende",
-      "na": "zoológico",
-      "quem": 0
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "prato",
+      "na": "comida"
      }
     ]
    },
