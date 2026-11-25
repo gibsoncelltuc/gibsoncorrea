@@ -56,8 +56,8 @@
    "props": [
     [
      "kit/stove",
-     1.5,
-     -0.6,
+     3.6,
+     -2.0,
      1.3,
      {
       "fixo": true
@@ -65,9 +65,9 @@
     ],
     [
      "kit/gosma",
-     1.5,
-     -0.2,
-     0.5,
+     1.0,
+     1.0,
+     0.57,
      {
       "fixo": true
      }
@@ -93,7 +93,26 @@
      }
     ]
    },
-   "interior": "madeira"
+   "interior": "madeira",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -194,7 +213,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "GOO:0:grin"
@@ -202,8 +221,8 @@
    "props": [
     [
      "kit/stove",
-     1.5,
-     -0.6,
+     2.4,
+     0.2,
      1.3,
      {
       "fixo": true
@@ -221,7 +240,25 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -232,8 +269,8 @@
    "props": [
     [
      "kit/stove",
-     1.5,
-     -0.6,
+     1.6,
+     -1.0,
      1.3,
      {
       "fixo": true
@@ -241,9 +278,9 @@
     ],
     [
      "kit/gosma",
-     1.5,
-     -0.2,
-     0.5,
+     1.0,
+     1.0,
+     0.57,
      {
       "fixo": true
      }
@@ -273,7 +310,27 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -284,8 +341,8 @@
    "props": [
     [
      "kit/stove",
-     1.5,
-     -0.6,
+     3.6,
+     -2.0,
      1.3,
      {
       "fixo": true
@@ -293,9 +350,9 @@
     ],
     [
      "kit/borracha",
-     1.5,
-     0.4,
-     0.5,
+     2.4,
+     0.2,
+     0.67,
      {
       "fixo": true
      }
@@ -319,7 +376,30 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/borracha",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -386,8 +466,8 @@
     ],
     [
      "kit/stove",
-     0.0,
-     1.4,
+     -3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -445,11 +525,6 @@
     ]
    },
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -458,7 +533,13 @@
       "na": "pneus"
      }
     ]
-   }
+   },
+   "_enq_shot": "crowd",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -477,8 +558,8 @@
     ],
     [
      "kit/tires",
-     0.0,
-     1.4,
+     1.6,
+     -1.0,
      2.0,
      {
       "fixo": true
@@ -506,11 +587,6 @@
     ]
    },
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 3,
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -519,7 +595,13 @@
       "na": "fábrica"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "visual": {

@@ -10,4 +10,8 @@ for m in ../entregas/*/*.mp4; do [ -f "$m" ] || continue; v=$(basename "$(dirnam
 for d in tmp/qs_*; do [ -d "$d" ] || continue; v=${d#tmp/qs_}; [ -f "stories/$v/ENTREGUE" ] && rm -rf "./$d"; done
 find ../videos_prontos/_reprovados -maxdepth 1 -name '*.mp4' -delete 2>/dev/null
 rm -rf /root/.cache/pip 2>/dev/null; (cd .. && git prune-packed 2>/dev/null; find .git/objects -name "tmp_obj_*" -mmin +30 -delete 2>/dev/null)   # objetos soltos do git que ja estao nos pacotes (seguro)
+# 25/11: historico do git (cada trecho renderizado vai para um commit "ckpt") enche o disco. Se o branch ja esta no GitHub (nada "ahead"), corta o historico LOCAL e apaga os objetos antigos; o historico inteiro continua no GitHub.
+if [ "$(df -Pm . | awk 'NR==2{print $4}')" -lt 3000 ] && ! (cd .. && git status -sb | head -1 | grep -q ahead); then
+  (cd .. && B=$(git rev-parse --abbrev-ref HEAD) && timeout 600 git fetch -q --depth=1 origin "$B" 2>/dev/null && git reflog expire --expire=now --all && timeout 1200 git prune --expire=10.minutes.ago) 2>/dev/null
+fi
 echo "$(date +%T) limpeza de disco: $(df -Ph . | awk 'NR==2{print $4}') livres"

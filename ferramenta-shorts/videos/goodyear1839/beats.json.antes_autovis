@@ -49,58 +49,70 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "GOO:0:shock",
-    "CLA:0:surprised"
+    "GOO:0:shock"
    ],
    "props": [
     [
      "kit/stove",
-     0.0,
-     -1.2,
+     3.6,
+     -2.0,
      1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/gosma",
+     1.0,
+     1.0,
+     0.57,
      {
       "fixo": true
      }
     ]
    ],
-   "text": "1839",
    "fx": [
-    "stars@30"
+    "puff@30",
+    "stars@50"
    ],
    "sfx": [
-    "ding@30"
+    "thump@30",
+    "ding@50"
    ],
    "say": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/stove",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "cai",
-      "na": "deixou",
+      "na": "cair",
       "quem": 0
      }
     ]
    },
-   "_auto_vis": 1
+   "interior": "madeira",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -123,12 +135,7 @@
   },
   {
    "shot": "two",
-   "light": "desert",
-   "who": [
-    "GOO:0:sad",
-    "POV:0:angry"
-   ],
-   "acao": "discutir",
+   "who": [],
    "say": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
    "encena": {
     "sentido": "fato",
@@ -137,6 +144,27 @@
       "faz": "mostra",
       "na": "borracha"
      }
+    ]
+   },
+   "explica": {
+    "objeto": "kit/borracha",
+    "vfx": [
+     {
+      "k": "fogo",
+      "na": "calor"
+     }
+    ],
+    "rotulos": [
+     [
+      "DERRETE NO CALOR",
+      "topo",
+      "calor"
+     ],
+     [
+      "RACHA NO FRIO",
+      "baixo",
+      "frio"
+     ]
     ]
    }
   },
@@ -185,17 +213,16 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "interior": "madeira",
    "who": [
-    "GOO:0:grin",
-    "CLA:0:suspicious"
+    "GOO:0:grin"
    ],
    "props": [
     [
      "kit/stove",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.3,
      {
       "fixo": true
@@ -203,23 +230,7 @@
     ]
    ],
    "say": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/stove",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -230,7 +241,23 @@
      }
     ]
    },
-   "_auto_vis": 1
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -243,16 +270,16 @@
      "kit/stove",
      3.6,
      -2.0,
-     2.0,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
-     "kit/borracha",
-     2.4,
-     0.2,
-     1.5,
+     "kit/gosma",
+     1.0,
+     1.0,
+     0.57,
      {
       "fixo": true
      }
@@ -267,6 +294,88 @@
     "sting@40"
    ],
    "say": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "cai",
+      "na": "caiu",
+      "quem": 0
+     },
+     {
+      "faz": "x_espera",
+      "na": "esperava",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/gosma",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "5% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/stove",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GOO:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stove",
+     3.6,
+     -2.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/borracha",
+     2.4,
+     0.2,
+     0.67,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "say": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
+   "acao": "comemorar",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vira",
+      "na": "elástica",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
@@ -285,95 +394,10 @@
      }
     ]
    },
-   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "cai",
-      "na": "caiu",
-      "quem": 0
-     },
-     {
-      "faz": "x_espera",
-      "na": "esperava",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "shot": "low",
-   "interior": "madeira",
-   "who": [
-    "GOO:0:surprised"
-   ],
-   "props": [
-    [
-     "kit/stove",
-     1.6,
-     -1.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/borracha",
-     0.6,
-     1.0,
-     2.0,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fx": [
-    "stars@20"
-   ],
-   "sfx": [
-    "ding@20"
-   ],
-   "say": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
-   "acao": "comemorar",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e borracha juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/borracha",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/stove",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 3,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "vira",
-      "na": "elástica",
-      "quem": 0
-     }
-    ]
-   }
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -422,8 +446,8 @@
    "props": [
     [
      "kit/tires",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "fixo": true
@@ -440,8 +464,8 @@
     ],
     [
      "kit/stove",
-     0.0,
-     1.4,
+     -3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -499,11 +523,6 @@
     ]
    },
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -512,7 +531,12 @@
       "na": "pneus"
      }
     ]
-   }
+   },
+   "_enq_shot": "crowd",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -531,8 +555,8 @@
     ],
     [
      "kit/tires",
-     0.0,
-     1.4,
+     3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -560,11 +584,6 @@
     ]
    },
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 3,
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -573,7 +592,12 @@
       "na": "fábrica"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "visual": {
@@ -617,6 +641,9 @@
    "Estados Unidos": "New England village 1830s",
    "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
    "stove": "antique cast iron cook stove"
-  }
+  },
+  "explicacoes": [
+   "Borracha natural crua amolece e fica pegajosa no calor e endurece e racha no frio; aquecida com enxofre (vulcanizacao) as cadeias do polimero se ligam e ela fica firme e elastica em qualquer temperatura (Charles Goodyear, patente americana 3633, 1844; Smithsonian/ACS National Historic Chemical Landmark)."
+  ]
  }
 }
