@@ -18,10 +18,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b2: "Em 1895, Wilhelm Röntgen testava um tubo de vidro."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
+- PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ALEMANHA (cobre a tela 1-2 s)
 
 ## b3: "Uma noite, cobriu o tubo e apagou a luz."
@@ -38,9 +38,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ROE (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +24 da cena
-- SOM: ding@20
-- SOM: sting@24
+- EFEITO flash: -; entra no quadro +70 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +70 da cena
+- SOM: ding@70
 
 ## b5: "Pôs a mão na frente e viu os próprios ossos."
 - LOCAL: sala de madeira; hora: noite

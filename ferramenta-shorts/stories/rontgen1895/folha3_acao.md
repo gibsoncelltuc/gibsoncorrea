@@ -40,7 +40,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.4s a 9.7s - 9 palavras - plano wide
+## Cena b2 - 6.4s a 9.7s - 9 palavras - plano two
 > "Em 1895, Wilhelm Röntgen testava um tubo de vidro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -48,16 +48,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 1 | - | ATUACAO | conversar | OK |
 | 2 | - | MAPA | ALEMANHA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.8s a 12.9s - 9 palavras - plano two
+## Cena b3 - 10.8s a 12.9s - 9 palavras - plano close
 > "Uma noite, cobriu o tubo e apagou a luz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -67,7 +67,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 13.9s a 17.0s - 12 palavras - plano close
+## Cena b4 - 13.9s a 17.0s - 12 palavras - plano two
 > "Acontece que, do outro lado da sala, uma tela brilhou no escuro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 18.1s a 19.7s - 10 palavras - plano two
+## Cena b5 - 18.1s a 19.7s - 10 palavras - plano close
 > "Pôs a mão na frente e viu os próprios ossos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -97,7 +97,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 20.8s a 23.7s - 10 palavras - plano group
+## Cena b6 - 20.8s a 23.7s - 10 palavras - plano two
 > "Depois, fotografou a mão da esposa, Anna, com a aliança."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -114,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.9s a 26.6s - 9 palavras - plano two
+## Cena b7 - 24.9s a 26.6s - 9 palavras - plano group
 > "Sem saber o que era, chamou de raio X."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

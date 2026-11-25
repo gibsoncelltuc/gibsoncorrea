@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um médico pediu para os colegas lavarem as mãos e foi expulso.
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): SEM (variante 0, expressao stern)
 - Animacao: discutir
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Lavar as mãos virou insulto. Foi assim que...
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): SEM (variante 0, expressao stern)
 - Animacao: discutir
 - Objetos/modelos: kit/wash_basin
@@ -115,7 +115,7 @@ kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 1% | medio 65% | aberto 30% | detalhe 3%
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 1% | medio 57% | aberto 39% | detalhe 3%
 - Interacoes: b4 aproxima-se, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 

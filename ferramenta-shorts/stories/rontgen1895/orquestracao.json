@@ -48,33 +48,25 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "POV",
-    "POV"
+    "ROE"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
-    "kit/crookes_tube",
-    "kit/marco_wurzburg"
+    "kit/crookes_tube"
    ],
    "palavras": 9,
    "cena": "b2",
    "frase": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "ROE"
    ],
@@ -92,7 +84,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "ROE"
    ],
@@ -110,7 +102,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "ROE"
    ],
@@ -128,7 +120,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "ROE",
     "ANA"
@@ -147,7 +139,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "ROE",
     "JOR"

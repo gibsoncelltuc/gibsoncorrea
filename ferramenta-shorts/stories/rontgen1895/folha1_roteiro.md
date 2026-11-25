@@ -22,12 +22,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b2  (~3.1 s)
 - Narracao: Em 1895, Wilhelm Röntgen testava um tubo de vidro.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: - | mapa: ALEMANHA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b3  (~3.1 s)
 - Narracao: Uma noite, cobriu o tubo e apagou a luz.
@@ -41,9 +41,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b4  (~4.1 s)
 - Narracao: Acontece que, do outro lado da sala, uma tela brilhou no escuro.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, sting@24
+- Efeitos sonoros marcados: ding@70
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20, ring@24
+- Efeito visual marcado: stars@20, flash@70, ring@70
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
