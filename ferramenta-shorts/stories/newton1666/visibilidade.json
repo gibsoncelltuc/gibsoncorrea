@@ -1,0 +1,597 @@
+{
+ "id": "newton1666",
+ "falhas": [
+  "b1: objeto citado \"kit/apple\" nao aparece na tela (escondido, fora do quadro ou pequeno demais)",
+  "b1: objeto \"kit/apple\" saiu com 4% da altura da tela, a ficha de cena planejou 15%",
+  "b5: objeto \"kit/apple\" saiu com 5% da altura da tela, a ficha de cena planejou 15%"
+ ],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 19,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 1,
+       "vis": 0.9550561797752809,
+       "area": 0.06984219522427722,
+       "cx": 0.542185094653808,
+       "alt": 0.2090653968946617,
+       "altmax": 0.2090653968946617
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.193
+    },
+    {
+     "f": 47,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 0.8426966292134831,
+       "vis": 0.9733333333333334,
+       "area": 0.0764699734540256,
+       "cx": 0.667178022458829,
+       "alt": 0.25629639386851566,
+       "altmax": 0.25629639386851566
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.25
+    },
+    {
+     "f": 75,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 0.19101123595505617,
+       "vis": 1,
+       "area": 0.039487469576325554,
+       "cx": 0.8029991809608383,
+       "alt": 0.22605502166163688,
+       "altmax": 0.22605502166163688
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38499999999999995
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 113,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.002058941099745739,
+       "cx": -0.11974403079419438,
+       "alt": 0.036982057530867196,
+       "altmax": 0.036982057530867196
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.238
+    },
+    {
+     "f": 140,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0006919299117161376,
+       "cx": 0.002488335793650494,
+       "alt": 0.021018971054157606,
+       "altmax": 0.021018971054157606
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.13799999999999996
+    },
+    {
+     "f": 166,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0007785437463233177,
+       "cx": 0.11506034499083377,
+       "alt": 0.02201194742026555,
+       "altmax": 0.02201194742026555
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.13399999999999995
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 212,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.299
+    },
+    {
+     "f": 252,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43599999999999994
+    },
+    {
+     "f": 291,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.408
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 341,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.506
+    },
+    {
+     "f": 374,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.343
+    },
+    {
+     "f": 407,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.408
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 447,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15200000000000002
+    },
+    {
+     "f": 472,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15100000000000002
+    },
+    {
+     "f": 497,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.238
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 532,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.004407664238307952,
+       "cx": 0.12226885015840884,
+       "alt": 0.05298133619666354,
+       "altmax": 0.05298133619666354
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.448
+    },
+    {
+     "f": 558,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.002312075994696345,
+       "cx": 0.0056376061630021325,
+       "alt": 0.0376449148856651,
+       "altmax": 0.0376449148856651
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.32500000000000007
+    },
+    {
+     "f": 584,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 0.9779411764705882,
+       "area": 0.002758394690108989,
+       "cx": -0.14279109541716492,
+       "alt": 0.04144768889665648,
+       "altmax": 0.04144768889665648
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.37199999999999994
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 609,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.003919296011017743,
+       "cx": 0.16871117906081526,
+       "alt": 0.048937659181728654,
+       "altmax": 0.048937659181728654
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.434
+    },
+    {
+     "f": 620,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.004965566736389815,
+       "cx": 0.22041768078264382,
+       "alt": 0.05728838574514519,
+       "altmax": 0.05728838574514519
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.493
+    },
+    {
+     "f": 630,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.008326714737833002,
+       "cx": 0.369572977666518,
+       "alt": 0.07410405004600892,
+       "altmax": 0.07410405004600892
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.6739999999999999
+    }
+   ]
+  },
+  {
+   "id": "b6_d",
+   "quadros": [
+    {
+     "f": 642,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.008543748363578784,
+       "cx": 0.11898885467049788,
+       "alt": 0.07577065569960703,
+       "altmax": 0.07577065569960703
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.691
+    },
+    {
+     "f": 649,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.0077542562390128175,
+       "cx": 0.0526235825706389,
+       "alt": 0.07203789589206086,
+       "altmax": 0.07203789589206086
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.66
+    },
+    {
+     "f": 656,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.013120461217212047,
+       "cx": -0.059693393397450674,
+       "alt": 0.09324903249737526,
+       "altmax": 0.09324903249737526
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b6_v",
+   "quadros": [
+    {
+     "f": 669,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.03768182082117236,
+       "cx": 0.39843008059304885,
+       "alt": 0.1586680515959204,
+       "altmax": 0.1586680515959204
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 681,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.02333553535287493,
+       "cx": 0.6080940481046947,
+       "alt": 0.12327117019771522,
+       "altmax": 0.12327117019771522
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 692,
+     "objs": [
+      {
+       "a": "kit/apple",
+       "inq": 1,
+       "vis": 1,
+       "area": 0.009131212032970883,
+       "cx": 0.46669501041578476,
+       "alt": 0.07734418212708657,
+       "altmax": 0.07734418212708657
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.71
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 710,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 724,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 737,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b7_x",
+   "quadros": [
+    {
+     "f": 756,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 770,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 783,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 807,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36999999999999994
+    },
+    {
+     "f": 827,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.583
+    },
+    {
+     "f": 847,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 879,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 0.8764044943820225,
+       "vis": 0.9871794871794872,
+       "area": 0.09862522859546312,
+       "cx": -0.6149367786804649,
+       "alt": 0.2617200269713595,
+       "altmax": 0.2617200269713595
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.28500000000000003
+    },
+    {
+     "f": 906,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 1,
+       "vis": 0.9438202247191011,
+       "area": 0.08448868792100965,
+       "cx": -0.5572017306855457,
+       "alt": 0.2199630005619153,
+       "altmax": 0.2199630005619153
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21499999999999997
+    },
+    {
+     "f": 932,
+     "objs": [
+      {
+       "a": "kit/lua_ceu",
+       "inq": 1,
+       "vis": 0.898876404494382,
+       "area": 0.11226429162288502,
+       "cx": -0.4990733839361857,
+       "alt": 0.2575862998398556,
+       "altmax": 0.2575862998398556
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.29900000000000004
+    }
+   ]
+  }
+ ]
+}
