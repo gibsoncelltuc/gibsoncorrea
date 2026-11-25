@@ -89,7 +89,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "cai",
+      "na": "deixou"
+     },
+     {
+      "quem": 0,
+      "faz": "calor",
+      "na": "fogao"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -99,7 +115,17 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e trinta e nove, nos Estados Unidos."
+   "say": "Era mil oitocentos e trinta e nove, nos Estados Unidos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Era"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -109,7 +135,17 @@
     "POV:0:angry"
    ],
    "acao": "discutir",
-   "say": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão."
+   "say": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -124,7 +160,23 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa."
+   "say": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     },
+     {
+      "quem": 0,
+      "faz": "quimico",
+      "na": "experiencias"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -134,7 +186,17 @@
     "GOO:0:sad"
    ],
    "interacao": "empurrar",
-   "say": "Fez tantas dívidas que foi parar na prisão."
+   "say": "Fez tantas dívidas que foi parar na prisão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Fez"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -171,7 +233,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mistura",
+      "na": "mexendo"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -230,7 +303,28 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "cai",
+      "na": "caiu"
+     },
+     {
+      "quem": 0,
+      "faz": "calor",
+      "na": "fogao"
+     },
+     {
+      "quem": 0,
+      "faz": "x_espera",
+      "na": "esperava"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "low",
@@ -289,7 +383,18 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vira",
+      "na": "elastica"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -305,7 +410,28 @@
     "sting@30"
    ],
    "say": "Mas outros copiaram a ideia, e ele morreu cheio de dívidas.",
-   "set": "hall"
+   "set": "hall",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "escreve",
+      "na": "copiaram"
+     },
+     {
+      "quem": 0,
+      "faz": "pensa",
+      "na": "ideia"
+     },
+     {
+      "quem": 0,
+      "faz": "morre",
+      "na": "morreu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -409,7 +535,17 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Décadas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -461,7 +597,18 @@
    "cz": 0.1,
    "d0": 8.4,
    "d1": 8.0,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "visual": {

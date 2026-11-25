@@ -187,7 +187,7 @@
    "palavras": 16,
    "cena": "b9",
    "frase": "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

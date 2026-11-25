@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/falcon9_land
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, primeira
 - RISCOS: nenhum
@@ -133,9 +133,11 @@ kit/falcon9_land | b0, b2, b3, b4, b5, b6, b7, b9, b10 | pronto (HEROI: aparece 
 ## Video inteiro
 - Objeto heroi: kit/falcon9_land | grandes momentos: b3 | planos abertos: 7 | mistura: close 10% | medio 40% | aberto 50% | detalhe 0%
 - Interacoes: b10 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/falcon9_land) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/falcon9_land) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh falcon2015 bN bM` (so essas cenas).

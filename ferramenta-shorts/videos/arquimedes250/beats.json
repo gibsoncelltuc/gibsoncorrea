@@ -154,7 +154,8 @@
       "quem": 0,
       "faz": "olha",
       "na": "desconfiou",
-      "alvo_quem": 1
+      "alvo_quem": 1,
+      "forcar": true
      }
     ]
    }
@@ -175,7 +176,8 @@
      {
       "quem": 0,
       "faz": "pensa",
-      "na": "trocou"
+      "na": "trocou",
+      "forcar": true
      }
     ]
    }
@@ -399,7 +401,8 @@
      {
       "quem": 0,
       "faz": "pega",
-      "na": "medir"
+      "na": "medir",
+      "forcar": true
      }
     ]
    }

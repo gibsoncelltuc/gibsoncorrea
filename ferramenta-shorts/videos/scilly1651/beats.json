@@ -78,7 +78,17 @@
    "acao": "discutir",
    "say": "Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.",
    "set": "harbor",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Uma"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -97,7 +107,17 @@
    "mapa": "ILHAS SCILLY",
    "mapa_at": 3,
    "say": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Tudo"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -135,7 +155,17 @@
    "fachada": false,
    "_auto_vis": 3,
    "d0": 15.0,
-   "d1": 14.0
+   "d1": 14.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Piratas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -154,7 +184,23 @@
    ],
    "say": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
    "set": "harbor",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -187,7 +233,18 @@
    "fachada": false,
    "_auto_vis": 3,
    "d0": 15.0,
-   "d1": 14.0
+   "d1": 14.0,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "declarou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -200,7 +257,17 @@
     "n": 0
    },
    "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.",
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -210,7 +277,23 @@
    ],
    "acao": "comemorar",
    "say": "A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguiram a vida normal, sem soldados e sem nenhum navio holandês por perto.",
-   "set": "countryside"
+   "set": "countryside",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "seguiu"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "seguiram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -219,7 +302,18 @@
     "EMB:0:smile"
    ],
    "say": "Em mil novecentos e oitenta e cinco, um historiador perguntou se a guerra ainda valia.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "perguntou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No ano seguinte, o embaixador holandês foi até as ilhas.",
@@ -229,7 +323,17 @@
     "EMB:0:smile",
     "PRE:0:nervous"
    ],
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "No"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -247,7 +351,18 @@
      1.1
     ]
    ],
-   "say": "Os dois assinaram a paz, e a guerra de 335 anos acabou."
+   "say": "Os dois assinaram a paz, e a guerra de 335 anos acabou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "escreve",
+      "na": "assinaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -267,7 +382,17 @@
    ],
    "say": "A guerra mais longa e mais calma da história.",
    "set": "harbor",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "ano": 1651,

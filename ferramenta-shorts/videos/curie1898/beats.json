@@ -98,7 +98,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Existem"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -114,7 +124,17 @@
    "detalhe": false,
    "_auto_vis": 3,
    "d0": 12.0,
-   "d1": 11.0
+   "d1": 11.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Era"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -126,7 +146,17 @@
    "acao": "conversar",
    "say": "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Marie"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -137,7 +167,18 @@
    ],
    "hora": "dia",
    "clima": "chuva",
-   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
+   "say": "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mistura",
+      "na": "mexia"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -181,7 +222,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mistura",
+      "na": "mexendo"
+     },
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "descobriram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -225,7 +282,23 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "brilha",
+      "na": "brilhava"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "olhar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -236,7 +309,18 @@
    ],
    "say": "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "carregava"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -270,7 +354,18 @@
    "clima": "limpo",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -285,7 +380,18 @@
    ],
    "say": "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu.",
    "hora": "dia",
-   "clima": "limpo"
+   "clima": "limpo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "morre",
+      "na": "morreu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -324,7 +430,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "guardados"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -367,7 +484,23 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_le",
+      "na": "ler"
+     },
+     {
+      "quem": 0,
+      "faz": "escreve",
+      "na": "assinar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -404,7 +537,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Ou"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "objetos_do_video": {

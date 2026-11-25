@@ -107,7 +107,18 @@
      }
     ]
    },
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "salvando"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -126,7 +137,17 @@
    },
    "mapa": "INGLATERRA",
    "mapa_at": 2,
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Era"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
@@ -138,7 +159,23 @@
    ],
    "acao": "conversar",
    "detalhe": false,
-   "explica": false
+   "explica": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "estudava"
+     },
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "empilhados"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
@@ -148,7 +185,18 @@
     "COL:0:shock"
    ],
    "chega": true,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "saiu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
@@ -211,6 +259,22 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "voltou"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "achou"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -272,7 +336,23 @@
     ]
    },
    "interior": "pedra",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "cai",
+      "na": "jogar"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "olhou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -349,6 +429,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -368,6 +458,16 @@
      "PENICILINA",
      "BACTÉRIA MORRE"
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "O"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -379,7 +479,23 @@
     "POV:0:relief"
    ],
    "acao": "comemorar",
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vira",
+      "na": "transformaram"
+     },
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "salvou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
@@ -410,7 +526,18 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No fim, a bagunça dele valeu mais que qualquer faxina.",
@@ -418,7 +545,17 @@
    "who": [
     "FLE:0:smug"
    ],
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "No"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "visual": {

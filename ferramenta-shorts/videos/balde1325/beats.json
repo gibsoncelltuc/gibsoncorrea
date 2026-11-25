@@ -69,7 +69,18 @@
      2.6
     ]
    ],
-   "detalhe": true
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "premio"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -80,7 +91,18 @@
    "mapa": "ITÁLIA",
    "mapa_at": 6,
    "say": "Módena e Bolonha disputavam a fronteira havia décadas.",
-   "tiros": false
+   "tiros": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_discute",
+      "na": "disputavam"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -99,7 +121,23 @@
    "titulo": true,
    "tiros": false,
    "say": "Em mil trezentos e vinte e cinco, Bolonha juntou cerca de trinta mil soldados a pé e marchou contra o território de Módena.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "juntou"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "marchou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -117,7 +155,17 @@
     "poucos": true
    },
    "say": "Módena tinha menos de oito mil homens, e parecia perdida.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Módena"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -140,7 +188,18 @@
     "corre"
    ],
    "say": "Acontece que, ao pôr do sol de quinze de novembro, os modeneses atacaram, e o exército gigante de Bolonha fugiu em poucas horas.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corre",
+      "na": "fugiu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -180,7 +239,23 @@
      1.2
     ]
    ],
-   "text": "MUROS DE BOLONHA"
+   "text": "MUROS DE BOLONHA",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "morre",
+      "na": "morreram"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "chegaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -199,7 +274,33 @@
    },
    "batalha": false,
    "say": "Em vez de invadir, fizeram uma festa lá fora para zombar dos derrotados.",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "invadir"
+     },
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "festa"
+     },
+     {
+      "quem": 0,
+      "faz": "x_ri",
+      "na": "zombar"
+     },
+     {
+      "quem": 0,
+      "faz": "perde",
+      "na": "derrotados"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -244,7 +345,18 @@
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
-   "acao": "pega"
+   "acao": "pega",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "levaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "close",
@@ -270,7 +382,23 @@
    "set": "medieval",
    "fachada": false,
    "shot_lock": true,
-   "text": "TORRE GHIRLANDINA"
+   "text": "TORRE GHIRLANDINA",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "guardado"
+     },
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "vitoria"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -280,7 +408,17 @@
    ],
    "interior": "madeira",
    "tiros": false,
-   "say": "Séculos depois, um poeta transformou a história numa sátira famosa."
+   "say": "Séculos depois, um poeta transformou a história numa sátira famosa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Séculos"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "min_momentos": 1,

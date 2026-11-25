@@ -46,7 +46,17 @@
    "lados": [
     "FIN",
     "SOV"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Um"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
@@ -63,6 +73,17 @@
      "SOV"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "invadiu"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -93,6 +114,16 @@
      "un": "°C",
      "na": "quarenta"
     }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Os"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -107,7 +138,18 @@
    "clima": "neve",
    "quadro_manual": true,
    "d0": 5.0,
-   "d1": 4.5
+   "d1": 4.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "chamado"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Vestido de branco, ele esperava imóvel no meio da neve, horas a fio.",
@@ -117,7 +159,18 @@
    ],
    "mood": "tense",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_espera",
+      "na": "esperava"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Dizem que ele mantinha neve na boca, para o vapor da respiração não entregar a sua posição.",
@@ -131,7 +184,17 @@
    "clima": "neve",
    "quadro_manual": true,
    "d0": 5.0,
-   "d1": 4.5
+   "d1": 4.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Dizem"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Em cerca de cem dias, contam mais de quinhentos inimigos abatidos por ele, com um fuzil de mira de ferro, sem luneta.",
@@ -145,7 +208,17 @@
    "tstyle": "gold",
    "props": [],
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Em"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Os soviéticos passaram a chamá-lo de Morte Branca.",
@@ -157,7 +230,17 @@
    "tat": 8,
    "tstyle": "red",
    "set": "arctic",
-   "clima": "neve"
+   "clima": "neve",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Os"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou.",
@@ -167,7 +250,23 @@
     "FIN:1:nervous"
    ],
    "mood": "calm",
-   "interior": "hospital"
+   "interior": "hospital",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "bala"
+     },
+     {
+      "quem": 0,
+      "faz": "x_acorda",
+      "na": "acordou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho.",
@@ -180,7 +279,17 @@
    "tstyle": "white",
    "light": "golden",
    "mood": "calm",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Viveu"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "heroi": null,

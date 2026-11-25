@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por uma semana, parando só para dormir.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dançou -> stars + som de sino; encena: danca (up) @10 -> acao + som de efeito; encena: dorme @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dançou -> stars + som de sino; encena: danca (up) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTRASBURGO
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sangrando, pedindo socorro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40, thump@90
-- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: danca @7 -> acao + som de efeito; encena: x_chora (facepalm) @11 -> acao + som de efeito; encena: fala (point) @12 -> acao + som de efeito; encena: grita (up) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) shout -> expr + som de efeito; socorro -> ring + som de alerta; encena: danca @7 -> acao + som de efeito; encena: grita (up) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90
 - Texto na tela: 50 A 400
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: O conselho da cidade chamou os médicos, que culparam o sangue quente e receitaram mais dança.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: fala (point) @4 -> acao + som de efeito; encena: danca (up) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dança -> stars + som de sino; encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: A cidade reformou salões e contratou músicos para manter os dançarinos de pé.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: músicos -> stars + som de sino; dançarinos -> stars + som de sino; encena: danca (up) @6 -> acao + som de efeito; encena: danca (up) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: músicos -> stars + som de sino; dançarinos -> stars + som de sino; encena: danca (up) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SALÃO
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Deu errado: mais gente entrou na dança, com medo de um castigo de São Vito, e o conselho proibiu dançar em público.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@50, sting@110
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; dança -> stars + som de sino; dançar -> stars + som de sino; encena: x_entrega (reach) @0 -> acao + som de efeito; encena: chega (point) @4 -> acao + som de efeito; encena: danca (up) @6 -> acao + som de efeito; encena: danca (up) @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; dança -> stars + som de sino; dançar -> stars + som de sino; encena: danca (point) @6 -> acao + som de efeito; encena: fala (point) @18 -> acao + som de efeito
 - Efeito visual marcado: dust@50, puff@110
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Alguns dizem que morriam quinze por dia, mas os documentos da época não citam mortes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: morre @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: medieval
 - Narracao: Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que aconteceu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) distrust -> expr + som de efeito; encena: pensa (think) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

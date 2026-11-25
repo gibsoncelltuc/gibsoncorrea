@@ -94,7 +94,16 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -106,7 +115,16 @@
    "mapa_at": 3,
    "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Canaveral"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -149,7 +167,18 @@
    "cz": -2.0,
    "h": 2.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "queria",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -201,7 +230,16 @@
    "d0": 21.0,
    "d1": 20.0,
    "impact": true,
-   "text": "TOMBOU"
+   "text": "TOMBOU",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tombaram"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -245,7 +283,16 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "decolou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -295,7 +342,16 @@
    "cz": -2.0,
    "h": 3.9,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -348,7 +404,16 @@
     ]
    },
    "vary": false,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -406,7 +471,16 @@
    "quadro_manual": true,
    "riscos_ok": true,
    "obj_acao": false,
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -426,7 +500,22 @@
    "say": "Os funcionários da SpaceX comemoraram e se abraçaram.",
    "fachada": false,
    "set": "hall",
-   "explica": false
+   "explica": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "comemoraram",
+      "quem": 0
+     },
+     {
+      "faz": "x_abraca",
+      "na": "abraçaram",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -469,7 +558,16 @@
    "cz": -2.0,
    "h": 3.6,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -490,7 +588,16 @@
       "fixo": true
      }
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rotina"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

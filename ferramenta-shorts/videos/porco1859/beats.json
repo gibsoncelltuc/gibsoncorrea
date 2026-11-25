@@ -88,7 +88,17 @@
    ],
    "d0": 6.0,
    "d1": 5.0,
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Dois"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -98,7 +108,17 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
+   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Era"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -174,7 +194,18 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "pegou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -215,7 +246,16 @@
     ]
    ],
    "set": "countryside",
-   "encena": false
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Ele"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -248,7 +288,18 @@
    "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "ofereceu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -270,7 +321,23 @@
    "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
    "shot_lock": true,
    "impact": false,
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritou"
+     },
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -289,7 +356,23 @@
    "text": "TROPAS",
    "titulo": true,
    "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_discute",
+      "na": "ameacaram"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -316,7 +399,23 @@
     "thump@40"
    ],
    "say": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "respondeu"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "apontados"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -327,7 +426,18 @@
    "interior": "madeira",
    "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
    "riscos_ok": true,
-   "susp_ok": true
+   "susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "recebeu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "group",
@@ -340,7 +450,23 @@
    "acao": "comemorar",
    "text": "FESTAS",
    "tat": 8,
-   "tstyle": "gold"
+   "tstyle": "gold",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "trocando"
+     },
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "festas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -352,7 +478,17 @@
    "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
    "riscos_ok": true,
    "impact": false,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Treze"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -403,6 +539,16 @@
       "estado": "parado"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
    }
   }
  ],

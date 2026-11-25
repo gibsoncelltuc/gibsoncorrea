@@ -65,7 +65,18 @@
     ]
    ],
    "shot_lock": true,
-   "objetos": false
+   "objetos": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corre",
+      "na": "fugiu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -85,7 +96,17 @@
    "mapa": "BULGÁRIA",
    "mapa_at": 3,
    "say": "Em outubro de mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulgária estava tensa.",
-   "props": []
+   "props": [],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Em"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "track",
@@ -102,7 +123,23 @@
      2.2,
      0.8
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corre",
+      "na": "correu"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "cruzou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -128,7 +165,33 @@
    },
    "shot_lock": true,
    "impact": false,
-   "batalha": false
+   "batalha": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "atira",
+      "na": "atiraram"
+     },
+     {
+      "quem": 0,
+      "faz": "tomba",
+      "na": "tombou"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "pediu"
+     },
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "investigar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -139,7 +202,28 @@
    ],
    "interacao": "susto",
    "say": "A Grécia recusou, e deu quarenta e oito horas para a Bulgária punir os culpados, pedir desculpas e pagar.",
-   "props": []
+   "props": [],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "deu"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "pedir"
+     },
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "pagar"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -165,7 +249,23 @@
    "detalhe": false,
    "d0": 17.0,
    "d1": 16.0,
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "invadiu"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "ocupou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -178,7 +278,17 @@
    "props": [],
    "text": "LIGA DAS NAÇÕES",
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Só"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -196,6 +306,27 @@
      "GRE"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "retirou"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "pagou"
+     }
+    ],
+    "rascunho": true
    }
   },
   {
@@ -220,7 +351,17 @@
      1.5
     ]
    ],
-   "acao": "reagir"
+   "acao": "reagir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Até"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "exp": 1.12,

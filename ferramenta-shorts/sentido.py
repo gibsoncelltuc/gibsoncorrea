@@ -80,3 +80,15 @@ def explicar(say):
 if __name__ == '__main__':
     import sys
     for s in sys.argv[1:]: print(s, '->', explicar(s))
+
+def classificar(say):
+    """25/11: o SENTIDO da frase para o rascunho da leitura (a IA revisa): afirmativa | negativa | hipotese | figurada | fato."""
+    ws = say.split(); nw = [_w(x) for x in ws]; frase = _n(say); fig = figurado(say)
+    viol = [j for j, w in enumerate(nw) if re.match(VIOLENTO, w) or re.match(ARMA, w)]
+    if viol and all(j in fig for j in viol):
+        if any(re.match(NEG_ANTES, w) or w in ('nunca', 'jamais') for w in nw): return 'negativa'
+        if any(re.match(HIPOTESE, w) for w in nw) or re.search(r'\bse\b \w+(sse|ssem)\b', frase): return 'hipotese'
+        return 'figurada'
+    if re.search(r'\b(nunca|jamais|nenhum|nenhuma|ninguem)\b', frase) and not re.search(r'\b(fez|fizeram|atirou|atiraram|lutou|lutaram|venceu|morreu)\b', frase): return 'negativa'
+    if re.match(r'^(era|foi em|em mil|em dois mil|hoje|ate hoje|na epoca)\b', frase) or (re.search(r'\b(mil|milhoes|bilhoes|por cento|anos|dias)\b', frase) and not re.search(r'(ou|aram|eu|iu)\b', frase)): return 'fato'
+    return 'afirmativa'

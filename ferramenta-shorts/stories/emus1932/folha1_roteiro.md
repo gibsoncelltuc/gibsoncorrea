@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Agricultores veteranos pediram metralhadoras, e o ministro da Defesa mandou soldados.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: outback | 
 - Narracao: Acontece que os emus se dividiram em grupos pequenos e rápidos, e as balas acertavam só poeira.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@20, thump@40, thump@60
-- Efeito + som nas palavras-chave: encena: atira @13 -> acao + som de efeito; encena: atira @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: atira @13 -> acao + som de efeito
 - Efeito visual marcado: dust@20, dust@40, dust@60, puff@30
 - Texto na tela: -
 - Funcao na historia: VIRADA

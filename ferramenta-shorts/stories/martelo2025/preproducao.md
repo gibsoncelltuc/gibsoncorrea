@@ -15,7 +15,7 @@ b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b9 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b10 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | - | - | -
-b11 | hall | orbit | 8 | batalha | - | - | -
+b11 | hall | orbit | 8 | encena, batalha | - | - | -
 b12 | hall | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bunker_bomb

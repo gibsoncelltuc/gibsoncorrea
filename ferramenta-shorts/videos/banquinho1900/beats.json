@@ -85,7 +85,18 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "pediu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "reveal",
@@ -109,7 +120,23 @@
    ],
    "sfx": [
     "thump@70"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandavam"
+     },
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "ouro"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -156,7 +183,17 @@
     ],
     "march": false
    },
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Os"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -166,7 +203,17 @@
     "CHE:0:scared"
    ],
    "interacao": "empurrar",
-   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\""
+   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -176,7 +223,18 @@
     "ASH:0:angry"
    ],
    "interacao": "susto",
-   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles."
+   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "pedir"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -227,7 +285,18 @@
    "cz": -3.6,
    "h": 2.8,
    "d0": 32.6,
-   "d1": 31.0
+   "d1": 31.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "cercaram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -249,7 +318,28 @@
    "detalhe": false,
    "d0": 24.0,
    "d1": 21.0,
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "marcharam"
+     },
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "salvar"
+     },
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "seguiu"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -259,7 +349,18 @@
     "PRE:0:smug:paper"
    ],
    "interacao": "entregar",
-   "say": "No fim, os ingleses venceram e a região virou colônia."
+   "say": "No fim, os ingleses venceram e a região virou colônia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "venceram"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -296,7 +397,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Mas"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -332,7 +443,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "ano": 1900,

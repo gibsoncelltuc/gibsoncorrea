@@ -87,7 +87,16 @@
    "h": 2.4,
    "d0": 10.5,
    "d1": 10.0,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bomba"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -99,7 +108,16 @@
    "mapa_at": 6,
    "say": "Foi em junho de dois mil e vinte e cinco, contra usinas nucleares do Irã.",
    "fachada": false,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Irã"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -141,7 +159,16 @@
    "cz": -2.0,
    "h": 2.4,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Fordow"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -163,6 +190,15 @@
       "toneladas"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bomba"
+     }
+    ]
    }
   },
   {
@@ -174,7 +210,17 @@
    "interior": "pedra",
    "text": "MARTELO DA MEIA-NOITE",
    "say": "A missão se chamou Martelo da Meia-Noite.",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -203,6 +249,15 @@
      {
       "k": "velocidade",
       "na": "viajaram"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aviões"
      }
     ]
    }
@@ -234,6 +289,15 @@
      {
       "k": "velocidade",
       "na": "mandados"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aviões"
      }
     ]
    }
@@ -284,7 +348,16 @@
     "cannon@25",
     "cannon@40",
     "thump@55"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombas"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -326,6 +399,15 @@
       "pts": "topo"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "submarino"
+     }
+    ]
    }
   },
   {
@@ -352,6 +434,15 @@
       "na": "voltaram"
      }
     ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltaram"
+     }
+    ]
    }
   },
   {
@@ -363,7 +454,18 @@
    "interior": "pedra",
    "text": "DESTRUÍDAS?",
    "say": "Os Estados Unidos disseram que as usinas foram destruídas.",
-   "fachada": false
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "disseram",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -373,7 +475,18 @@
    ],
    "say": "Mas até hoje ninguém concorda sobre o tamanho do estrago.",
    "fachada": false,
-   "set": "hall"
+   "set": "hall",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "concorda",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   }
  ],
  "fontes": [

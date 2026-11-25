@@ -125,7 +125,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lenhadores"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -139,7 +148,16 @@
    "shot_lock": true,
    "detalhe": false,
    "clima": "neve",
-   "mapa_at": 0.5
+   "mapa_at": 0.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fronteira"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -193,7 +211,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corta",
+      "na": "cortavam",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -235,7 +263,17 @@
    },
    "impact": false,
    "clima": "neve",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -261,7 +299,17 @@
    "impact": false,
    "shot_lock": true,
    "clima": "neve",
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -281,7 +329,18 @@
    "set": "arctic",
    "clima": "neve",
    "_auto_vis": 0,
-   "titulo": true
+   "titulo": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prenderam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -297,7 +356,17 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 0
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "conversar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -308,7 +377,19 @@
    ],
    "interacao": "entregar",
    "say": "Ele ajudou os dois lados a firmar uma trégua, e as tropas nunca chegaram a lutar.",
-   "acao": "discutir"
+   "acao": "discutir",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "trégua",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -318,7 +399,16 @@
     "PRE:1:smile"
    ],
    "interacao": "entregar",
-   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine."
+   "say": "Em mil oitocentos e quarenta e dois, o Tratado Webster-Ashburton definiu a fronteira, e a maior parte da área ficou com o Maine.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Tratado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -339,7 +429,16 @@
    ],
    "fachada": false,
    "interior": "loja",
-   "objetos": false
+   "objetos": false,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Guerra"
+     }
+    ]
+   }
   }
  ],
  "regiao": "europa",
