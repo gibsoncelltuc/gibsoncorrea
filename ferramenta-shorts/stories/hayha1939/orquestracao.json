@@ -95,16 +95,16 @@
    "cenario": "arctic"
   },
   {
-   "camera": "orbit",
+   "camera": "close",
    "personagens": [
     "FIN"
    ],
-   "multidao": 32,
+   "multidao": 0,
    "objetos": [],
    "palavras": 6,
    "cena": "b4",
    "frase": "Esse soldado se chamava Simo Häyhä.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -148,7 +148,7 @@
     "FIN",
     "FIN"
    ],
-   "multidao": 0,
+   "multidao": 48,
    "objetos": [],
    "palavras": 11,
    "cena": "b7",
