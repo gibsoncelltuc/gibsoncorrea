@@ -8,21 +8,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); BIB (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/stick, kit/marco_alexandria, kit/globe
+- Objetos/modelos: kit/stick, kit/globe, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): homem, planeta, sombra, tamanho, vara
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao smile; BIB (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/stick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.0-1.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.7-3.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (3.5-5.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b1 - Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes er...
 - Cenario: loc_campo | luz: desert | clima: limpo
@@ -33,20 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alexandria, bibliotecario, cidade, cristo, duzentos, egito
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: revelacao (camera sobe e abre)
-- PERSONAGENS: BIB (cientista) na esquerda, expressao neutral; POV (comerciante) na direita, expressao smile; multidao de 8 (BIB, POV, CAM) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: EGITO (cobre a tela 1-2 s)
-- TAKES: 4 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (5.6-7.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (7.4-9.3 s): mesmo angulo
-  - take 3 (9.3-11.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (11.2-13.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b2 - Ele leu num papiro que, em Siena, ao meio-dia de verão, o sol iluminav...
 - Cenario: loc_montanha | luz: desert | clima: limpo
@@ -57,19 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/well, nature/tree_palm, tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fundo, poco, verao
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao surprised, segura paper; BIB (cientista) na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETO kit/well: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (13.3-15.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (15.0-16.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (16.6-18.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 4 (18.3-20.0 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b3 - Isso significava que o sol estava bem em cima, e nada fazia sombra.
 - Cenario: loc_montanha | luz: desert | clima: calor
@@ -80,17 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/well, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: praia / palacio; hora: desert; clima: calor
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)
-- PERSONAGENS: ERA (cientista) na esquerda, expressao smile; CAM (agricultor) na direita, expressao neutral; sem multidao; acao: fala/gesto
-- OBJETO kit/well: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (20.4-22.6 s): mesmo angulo
-  - take 2 (22.6-24.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b4 - Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra...
 - Cenario: loc_estudio | luz: desert | clima: calor
@@ -101,14 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/stick, nature/tree_palm, kit/marco_alexandria
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): solo, sombra, vara
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/stick no centro, manobra "parado"
-- PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.8 s): objeto no centro do estudio, rotulos entrando nas palavras
-<!-- /FICHA -->
 
 ## Cena b5 - Ele pensou: se a Terra fosse plana, as duas sombras seriam iguais.
 - Cenario: loc_campo | luz: desert | clima: limpo
@@ -116,20 +58,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): ERA (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/stick, nature/tree_palm
+- Objetos/modelos: kit/globe, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, terra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 8.0 m)
-- PERSONAGENS: ERA (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/stick: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (30.4-32.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (32.4-34.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b6 - Acontece que a sombra era diferente, e isso só podia acontecer se a Te...
 - Cenario: loc_estudio | luz: desert | clima: limpo
@@ -137,17 +68,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (0): - | multidao: 0 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: -
+- Objetos/modelos: kit/globe, kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): sombra, terra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/stick no centro, manobra "parado"
-- PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (5.6 s): objeto no centro do estudio, rotulos entrando nas palavras
-<!-- /FICHA -->
 
 ## Cena b7 - Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades...
 - Cenario: loc_estudio | luz: desert | clima: calor
@@ -155,35 +78,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
-- Objetos/modelos: -
+- Objetos/modelos: kit/stick, nature/tree_palm
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/stick no centro, manobra "parado"
-- PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.9 s): objeto no centro do estudio, rotulos entrando nas palavras
-<!-- /FICHA -->
 
 ## Cena b8 - Com uma conta simples, encontrou um número muito perto do tamanho real...
-- Cenario: loc_estudio | luz: desert | clima: limpo
+- Cenario: interior pedra | luz: desert | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (0): - | multidao: 0 de POV
-- Animacao: -
+- Personagens principais (2): ERA (variante 0, expressao grin, segura paper); BIB (variante 0, expressao surprised)
+- Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): numero, tamanho, terra
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/stick no centro, manobra "parado"
-- PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (4.8 s): objeto no centro do estudio, rotulos entrando nas palavras
-<!-- /FICHA -->
 
 ## Cena b9 - No fim, uma vara e um poço fizeram o trabalho de um satélite.
 - Cenario: loc_campo | luz: desert | clima: limpo
@@ -194,19 +101,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/stick, kit/well, kit/marco_alexandria, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: vila medieval; hora: desert
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ERA (cientista) no centro, expressao smug; sem multidao; acao: comemorar
-- OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/well: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (51.1-52.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (52.6-54.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (54.1-55.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_campo | luz: desert | clima: limpo
@@ -223,21 +117,21 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/stick | b0, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/stick | b0, b4, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b0, b5, b6 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_alexandria | b0, b1, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/well | b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_palm | b2, b3, b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_palm | b2, b3, b4, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 tools/bucket | b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/stick | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 18% | detalhe 4%
-- Interacoes: b0 o outro se aproxima, b2 insiste
+- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 68% | aberto 18% | detalhe 4%
+- Interacoes: b0 o outro se aproxima, b2 insiste, b8 cochichar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -246,13 +140,3 @@ kit/starlink_sat | b9 | pronto | conferir na folha de contato se le bem; se pare
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh eratostenes240 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh eratostenes240` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (55.9-57.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (57.4-58.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (58.9-60.4 s): mesmo angulo
-<!-- /FICHA -->
-

@@ -151,7 +151,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/stick",
+    "kit/globe",
     "nature/tree_palm"
    ],
    "palavras": 12,
@@ -167,7 +167,11 @@
    "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/globe",
+    "kit/stick",
+    "nature/tree_palm"
+   ],
    "palavras": 16,
    "cena": "b6",
    "frase": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
@@ -187,7 +191,10 @@
    "camera": "two",
    "personagens": [],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/stick",
+    "nature/tree_palm"
+   ],
    "palavras": 14,
    "cena": "b7",
    "frase": "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades.",
@@ -205,23 +212,20 @@
   },
   {
    "camera": "two",
-   "personagens": [],
+   "personagens": [
+    "ERA",
+    "BIB"
+   ],
    "multidao": 0,
    "objetos": [],
    "palavras": 14,
    "cena": "b8",
    "frase": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
-   "classe": "explicativa",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "kit/stick (parado)",
-    "emissao": "rotulos/graficos",
-    "luz": "estudio",
-    "camera": "2 enquadramentos sem corte seco",
-    "som": "som em cada entrada"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_estudio"
+   "cenario": "interior pedra"
   },
   {
    "camera": "orbit",
