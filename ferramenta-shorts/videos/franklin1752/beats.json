@@ -133,10 +133,8 @@
   {
    "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
    "shot": "two",
-   "interior": "madeira",
    "who": [
-    "COM:0:surprised",
-    "FRA:0:smug"
+    "FRA:0:surprised"
    ],
    "interacao": "discutir",
    "encena": {
@@ -147,7 +145,8 @@
       "na": "faísca"
      }
     ]
-   }
+   },
+   "clima": "tempestade"
   },
   {
    "say": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.",
@@ -206,8 +205,7 @@
    "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
    "shot": "two",
    "who": [
-    "FRA:0:shock",
-    "FIL:0:scared"
+    "FRA:0:shock:key"
    ],
    "clima": "tempestade",
    "impact": true,
@@ -216,22 +214,18 @@
     "n": 0
    },
    "fx": [
-    "ring@36",
-    "burst@40",
-    "stars@46",
-    "burst@60"
+    "flash@75",
+    "ring@78"
    ],
    "sfx": [
-    "sting@36",
-    "thump@40",
-    "ding@46"
+    "sting@75"
    ],
    "props": [
     [
      "kit/key",
-     3.6,
-     -2.0,
-     1.8,
+     1.0,
+     0.5,
+     2.0,
      {
       "fixo": true
      }
@@ -263,11 +257,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -295,17 +285,17 @@
     [
      "kit/lightning_rod",
      0.0,
-     -8.0,
-     1.3,
+     -2.0,
+     2.2,
      {
       "fixo": true
      }
     ],
     [
-     "kit/lightning_rod",
-     3.6,
-     -2.0,
-     1.2,
+     "buildings/house_two",
+     0.0,
+     -6.0,
+     1.0,
      {
       "fixo": true
      }
@@ -342,11 +332,12 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 16.2,
-   "d1": 15.4
+   "cx": 0,
+   "cz": -2,
+   "h": 3.0,
+   "d0": 11,
+   "d1": 9,
+   "quadro_manual": true
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",

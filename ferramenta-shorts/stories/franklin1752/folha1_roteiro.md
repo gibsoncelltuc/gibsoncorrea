@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um homem soltou uma pipa em plena tempestade para pegar um raio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito; encena: x_solta (up) @2 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -31,9 +31,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b3  (~4.1 s)
 - Narracao: Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: brilha (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~5.2 s)
 - Narracao: O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -59,9 +59,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 ## Cena b6  (~6.6 s)
 - Narracao: Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.
 - Som ambiente: birds
-- Efeitos sonoros marcados: sting@36, thump@40, ding@46
-- Efeito + som nas palavras-chave: encena: brilha (point) @11 -> acao + som de efeito
-- Efeito visual marcado: ring@36, burst@40, stars@46, burst@60
+- Efeitos sonoros marcados: sting@75
+- Efeito + som nas palavras-chave: encena: brilha (point) @11 -> acao + som de efeito; encena: pula @12 -> acao + som de efeito
+- Efeito visual marcado: flash@75, ring@78
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: PARA-RAIOS
 - Funcao na historia: GRANDE MOMENTO

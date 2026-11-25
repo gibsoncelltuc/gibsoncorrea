@@ -26,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "street"
   },
   {
    "camera": "reveal",
@@ -39,7 +39,7 @@
    "palavras": 19,
    "cena": "b1",
    "frase": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -63,9 +63,8 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "COM",
     "FRA"
    ],
    "multidao": 0,
@@ -77,10 +76,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "FRA",
     "FIL"
@@ -116,13 +115,12 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior loja"
   },
   {
    "camera": "orbit",
    "personagens": [
-    "FRA",
-    "FIL"
+    "FRA"
    ],
    "multidao": 0,
    "objetos": [
@@ -164,13 +162,14 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "FRA"
    ],
    "multidao": 0,
    "objetos": [
     "buildings/house_small",
+    "buildings/house_two",
     "kit/lightning_rod",
     "nature/picket_fence",
     "nature/tree_oak"
@@ -206,7 +205,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior pedra"
   },
   {
    "camera": "close",
