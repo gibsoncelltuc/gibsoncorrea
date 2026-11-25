@@ -1,12 +1,12 @@
-pesquisa: o quadro de referencias traz o quadro de Franklin com a pipa e o raio, a gravura "O filosofo e sua pipa", retratos de Franklin de casaca e peruca, a garrafa de Leyden e pipas no ceu; descartei prints errados (placa e monumento da colonia Farnheim, lagos e geleira, mulher de vestido e iluminura indiana, afresco do Inferno, retrato de homem ruivo, tubos de ferro, azulejos coloridos). Comparei com o storyboard: casaca marrom e colete, chuva com pipa de losango vermelho e chave de ferro.
-defeitos procurados: cenario (campo verde sob tempestade, praca de paralelepipedo com casas de enxaimel e salas de madeira; sem arranha-ceu; os predios amarelos de varios andares ao fundo sao altos demais para 1752 mas ficam desfocados), epoca (casaca de Franklin, pipa de losango e chave; sem objeto moderno), tamanho (pipa grande ao lado de Franklin, chave grande), cortado (visibilidade 26 tomadas sem falha), multidao (so poucos personagens e o grupo pequeno do mapa), legenda (PARA-RAIOS e COMENTE acima da faixa da legenda), acao (soltar a pipa, prender a chave, faisca da chave a mao mostrados), objeto (pipa, chave e para-raios aparecem nas frases que os citam).
-b0: OK - um homem soltou uma pipa em plena tempestade para pegar um raio: Franklin e outro personagem sob chuva forte com a pipa vermelha no campo.
-b1: OK - era 1752 na Filadelfia e Franklin queria provar que o raio era eletricidade: mapa dos Estados Unidos e personagens pequenos numa praca de paralelepipedo.
-b2: OK - muita gente achava que o raio era um castigo dos ceus: dois personagens conversando numa sala de madeira.
-b3: OK - Franklin discordava: o raio era so uma faisca eletrica gigante: os dois na sala com estrelinhas.
-b4: OK - numa tarde de chuva ele prendeu uma chave de metal na linha da pipa: Franklin e o ajudante sob chuva com a pipa e a chave.
-b5: OK - o plano era simples e perigoso: Franklin de olhos arregalados sob chuva com a pipa grande atras.
-b6: OK - a linha erigou e uma faisca pulou da chave ate a mao dele: chave preta com ondas de faisca perto da mao de Franklin.
-b7: OK - hoje se discute se isso aconteceu mesmo: os dois na sala com a pipa ao lado.
-b8: OK - Franklin inventou o para-raios e hoje ele protege casas e predios: praca com o texto PARA-RAIOS e casas ao fundo, Franklin pequeno ao lado da haste.
-b9: OK - no fim o raio perdeu a briga para uma chave: Franklin sorrindo com a pipa ao lado e o texto COMENTE depois.
+pesquisa: moodboard e comparativo olhados (pipa de losango, chave, para-raios); roupas e cidade de 1752 conferidas.
+defeitos procurados: personagem cortado, objeto citado pequeno/escondido, relampago ausente na palavra raio, faisca sem chave na mao, para-raios pequeno, interior em cena de tempestade externa.
+b0: OK - tempestade com chuva e pipa de losango visivel atras de Franklin e do filho; relampago programado na palavra "raio" (fx raio no spec).
+b1: OK - mapa ESTADOS UNIDOS e praca da Filadelfia de epoca com gente, sem tiro.
+b2: OK - interior de madeira, dois personagens assustados com a ideia de castigo dos ceus.
+b3: OK - Franklin sozinho no campo em tempestade (sem interior), expressao de duvida, relampago programado na palavra "raio".
+b4: OK - Franklin e filho no campo com chuva, pipa grande visivel, prendendo a chave.
+b5: OK - close de Franklin nervoso explicando o plano, interior simples.
+b6: OK - Franklin com a chave grande na frente e a pipa; flash e anel de faisca na palavra "faisca"; so' Franklin em cena.
+b7: OK - dois personagens no interior discutindo se aconteceu mesmo, sem raio na pipa.
+b8: OK - para-raios alto e grande em frente da casa, placa PARA-RAIOS, Franklin ao lado rindo, clima limpo.
+b9: OK - close de Franklin satisfeito para o fecho com a chamada COMENTE.

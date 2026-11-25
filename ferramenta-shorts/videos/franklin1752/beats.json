@@ -346,16 +346,16 @@
      "kit/lightning_rod",
      0.0,
      -2.0,
-     2.2,
+     1.5,
      {
       "fixo": true
      }
     ],
     [
      "buildings/house_two",
-     0.0,
-     -6.0,
-     1.0,
+     -3.0,
+     -10.0,
+     0.7,
      {
       "fixo": true
      }
@@ -394,9 +394,9 @@
    },
    "cx": 0,
    "cz": -2,
-   "h": 3.0,
-   "d0": 11,
-   "d1": 9,
+   "h": 2.6,
+   "d0": 14,
+   "d1": 12,
    "quadro_manual": true,
    "encena": {
     "sentido": "afirmativa",

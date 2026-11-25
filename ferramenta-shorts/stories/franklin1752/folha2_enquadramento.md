@@ -57,10 +57,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: limpo
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
-- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.3 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO buildings/house_two: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 8.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/lightning_rod: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 0.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO buildings/house_two: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.2 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
