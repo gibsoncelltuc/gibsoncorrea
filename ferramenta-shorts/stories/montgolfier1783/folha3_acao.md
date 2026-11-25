@@ -126,7 +126,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b8 - 25.9s a 28.5s - 8 palavras - plano group
+## Cena b8 - 25.9s a 28.5s - 8 palavras - plano two
 > "Dois meses depois, um balão levou dois homens."
 
 - LEITURA DA FRASE: sentido FATO

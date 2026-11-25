@@ -12,7 +12,7 @@ b4 | interior galpao | group | 2 | conversar, INTERAGEM: vai ate o outro, alguem
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: susto | kit/chocolate | - | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: discutir, batalha | kit/popcorn | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar, batalha | kit/egg | - | -
-b8 | loc_campo | orbit | 7 | parados (so fala e pisca) | kit/radarange | - | -
+b8 | loc_campo | orbit | 1 | parados (so fala e pisca) | kit/radarange | - | -
 b9 | street | two | 2 | conversar, INTERAGEM: aproxima-se | kit/microwave, kit/chocolate | - | -
 
 OBJETO HEROI: kit/microwave

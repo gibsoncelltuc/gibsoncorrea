@@ -95,7 +95,19 @@
     ]
    },
    "text": "LENDA?",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lua_ceu",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -105,9 +117,9 @@
    "props": [
     [
      "kit/apple",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     1.09,
      {
       "fixo": true
      }
@@ -116,10 +128,6 @@
    "explica": false,
    "detalhe": true,
    "set": "loc_campo",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "Ela explicou por que a Lua não cai em cima da gente.",
    "encena": {
@@ -128,6 +136,19 @@
      {
       "faz": "mostra",
       "na": "Lua"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -261,6 +282,18 @@
       "na": "caiu"
      }
     ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -278,9 +311,9 @@
     ],
     [
      "kit/apple",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     1.09,
      {
       "fixo": true
      }
@@ -290,10 +323,6 @@
     "ring@40"
    ],
    "text": "PARA BAIXO",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "escalada",
    "say": "Ele se perguntou: por que ela cai sempre para baixo?",
    "encena": {
@@ -303,6 +332,19 @@
       "faz": "fala",
       "na": "perguntou",
       "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -413,6 +455,18 @@
      {
       "faz": "mostra",
       "na": "maçã"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lua_ceu",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

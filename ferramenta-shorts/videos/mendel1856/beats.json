@@ -111,7 +111,31 @@
     ]
    },
    "text": "ERVILHAS = HERANÇA",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -213,6 +237,42 @@
       "na": "cuidava"
      }
     ]
+   },
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/church",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -279,6 +339,24 @@
       "forcar": true
      }
     ]
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_verde",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -318,6 +396,18 @@
      {
       "faz": "mostra",
       "na": "amarelas"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -371,6 +461,18 @@
       "faz": "fala",
       "na": "contou",
       "quem": 0
+     }
+    ]
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e vagem_amarela juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -463,6 +565,42 @@
      {
       "faz": "mostra",
       "na": "verde"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, direita",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -559,6 +697,30 @@
       "na": "viram"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano aberto (cenario inteiro)",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/vagem_amarela",
+      "lugar": "FRENTE, esquerda",
+      "tela": "11% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -625,6 +787,30 @@
       "na": "Ele"
      }
     ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/vagem_verde",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pe_ervilha",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   }
  ],
@@ -662,5 +848,6 @@
  "exp": 1.129,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um monge contando ervilhas descobriu como herdamos o que somos e ninguem acreditou nele em vida. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae; so depois da morte deram razao.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

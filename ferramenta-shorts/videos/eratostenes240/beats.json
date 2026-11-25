@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/stick",
-     1.2,
-     -0.6,
+     0.0,
+     -1.2,
      1.6,
      {
       "fixo": true
@@ -85,7 +85,24 @@
     ]
    },
    "text": "UMA VARA = O PLANETA",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stick",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -120,11 +137,6 @@
    "crowd": {
     "n": 0
    },
-   "cx": 3.6,
-   "cz": -1.4,
-   "h": 2.8,
-   "d0": 13.0,
-   "d1": 11.0,
    "bloco": "promessa",
    "say": "E chegou perto do número certo, sem satélite.",
    "encena": {
@@ -133,6 +145,30 @@
      {
       "faz": "mostra",
       "na": "número"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.3,
+   "d1": 18.4,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/stick",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/well",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -198,10 +234,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
    "encena": {
@@ -210,6 +242,23 @@
      {
       "faz": "mostra",
       "na": "iluminava"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/well",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -244,10 +293,6 @@
     ]
    ],
    "fachada": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Ou seja: lá, nada fazia sombra.",
    "encena": {
@@ -256,6 +301,23 @@
      {
       "faz": "mostra",
       "na": "sombra"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e well juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/well",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -468,8 +530,8 @@
    "props": [
     [
      "kit/stick",
-     1.2,
-     -0.6,
+     0.0,
+     -1.2,
      1.6,
      {
       "fixo": true
@@ -495,6 +557,23 @@
      {
       "faz": "mostra",
       "na": "foguete"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/stick",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -547,5 +626,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

@@ -12,7 +12,7 @@ b4 | loc_campo | two | 0 | parados (so fala e pisca) | kit/balloon, kit/fire, ki
 b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b6 | loc_campo | orbit | 1 | reagir, batalha | kit/balloon_air, kit/marco_versalhes | - | -
 b7 | loc_campo | two | 1 | reagir | kit/balloon, sheep, duck, rooster | - | -
-b8 | street | group | 12 | reagir, INTERAGEM: o outro se aproxima | kit/balloon_air, kit/marco_versalhes | - | -
+b8 | street | two | 12 | reagir, INTERAGEM: o outro se aproxima | kit/balloon_air, kit/marco_versalhes | - | -
 b9 | street | wide | 1 | parados (so fala e pisca) | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 
 OBJETO HEROI: kit/balloon

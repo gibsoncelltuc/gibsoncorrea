@@ -10,7 +10,7 @@ b4 | two | -  | tropa | - | -
 b5 | two | -  | interior | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | tropa, animais | - | -
-b8 | group | -  | tropa, placa: SOBRE PARIS | - | -
+b8 | two | -  | tropa, placa: SOBRE PARIS | - | -
 b9 | wide | -  | tropa, animais, placa: OVELHA, PATO E GALO | - | -
 
 Mistura de planos: close 4% | medio 70% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

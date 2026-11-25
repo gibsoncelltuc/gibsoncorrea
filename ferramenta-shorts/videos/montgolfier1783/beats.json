@@ -99,11 +99,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "gancho",
    "say": "Os primeiros passageiros de um balão não foram pessoas.",
    "encena": {
@@ -116,7 +111,25 @@
     ]
    },
    "text": "OVELHA, PATO E GALO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -179,6 +192,18 @@
       "na": "ovelha"
      }
     ]
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -226,10 +251,6 @@
     "whoosh@40"
    ],
    "interior": "madeira",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Viram que fumaça quente fazia sacos de papel subirem.",
    "encena": {
@@ -239,6 +260,23 @@
       "faz": "olha",
       "na": "viram",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/campfire",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -379,6 +417,18 @@
       "na": "balão"
      }
     ]
+   },
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -436,6 +486,18 @@
      {
       "faz": "mostra",
       "na": "pousou"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -496,6 +558,18 @@
      {
       "faz": "mostra",
       "na": "balão"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -561,6 +635,18 @@
       "na": "Ninguém"
      }
     ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   }
  ],
@@ -606,5 +692,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 7
 }

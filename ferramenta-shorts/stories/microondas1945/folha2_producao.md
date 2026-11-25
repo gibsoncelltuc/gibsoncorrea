@@ -177,7 +177,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): SPE (variante 0, expressao smile) | multidao: 6 de POV
+- Personagens principais (1): SPE (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/radarange
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoa

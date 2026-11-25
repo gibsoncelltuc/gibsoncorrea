@@ -62,10 +62,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Um homem soltou uma pipa na tempestade para pegar um raio.",
    "encena": {
@@ -78,7 +74,24 @@
     ]
    },
    "text": "PIPA x RAIO",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -164,10 +177,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Contam que ele prendeu uma chave de metal na linha da pipa.",
    "encena": {
@@ -177,6 +186,23 @@
       "faz": "prende",
       "na": "prendeu",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -201,8 +227,8 @@
    "props": [
     [
      "kit/key",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -218,10 +244,6 @@
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "escalada",
    "say": "Acontece que a nuvem passou, e uma faísca pulou da chave.",
    "encena": {
@@ -231,6 +253,29 @@
       "faz": "brilha",
       "na": "faísca",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/key",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -314,6 +359,24 @@
       "na": "inteiro"
      }
     ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/lightning_rod",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/house_two",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -333,10 +396,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Coragem ou loucura? Só sei que foi assim que...",
    "encena": {
@@ -345,6 +404,23 @@
      {
       "faz": "mostra",
       "na": "Coragem"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kite",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -385,5 +461,6 @@
  },
  "gancho_tipo": "perda",
  "gancho_cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio e a descoberta protege casas ate hoje. Pagamento: a chave soltou faisca, provando que o raio e' eletricidade; virou o para-raios.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 3
 }
