@@ -44,3 +44,7 @@
 
 ## 25/11 19:23 autocorrecao de visibilidade
 - b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 20:26 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: quadro_manual (o roteiro fixou o quadro), objeto ENORME "kit/xray_plate" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho

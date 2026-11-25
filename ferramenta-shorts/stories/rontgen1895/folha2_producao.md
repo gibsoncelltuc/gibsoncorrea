@@ -58,7 +58,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ALEMANHA (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (6.4-8.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe

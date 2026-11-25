@@ -166,17 +166,17 @@
    "interior": "madeira",
    "detalhe": true,
    "quadro_manual": true,
-   "cx": 0.6,
-   "cz": 0.2,
-   "h": 1.5,
-   "d0": 7.0,
-   "d1": 6.6,
+   "cx": 0.4,
+   "cz": 0.3,
+   "h": 1.4,
+   "d0": 7.5,
+   "d1": 7.0,
    "props": [
     [
      "kit/crookes_tube",
-     1.0,
-     0.4,
-     1.4,
+     0.9,
+     0.6,
+     2.4,
      {
       "fixo": true
      }

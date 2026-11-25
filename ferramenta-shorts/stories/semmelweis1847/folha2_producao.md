@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um médico pediu para os colegas lavarem as mãos e foi expulso.
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): SEM (variante 0, expressao stern)
 - Animacao: discutir
@@ -15,7 +15,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: hospital; hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)
 - PERSONAGENS: SEM (medico) no centro, expressao stern; sem multidao; acao: discutir
 - OBJETO kit/wash_basin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -150,7 +150,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao grin; KOL (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/wash_basin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 - TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
@@ -203,8 +203,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Lavar as mãos virou insulto. Foi assim que...
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): SEM (variante 0, expressao stern)
 - Animacao: discutir
 - Objetos/modelos: kit/wash_basin
@@ -224,7 +224,7 @@ kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 1% | medio 65% | aberto 30% | detalhe 3%
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 1% | medio 57% | aberto 39% | detalhe 3%
 - Interacoes: b4 aproxima-se, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 

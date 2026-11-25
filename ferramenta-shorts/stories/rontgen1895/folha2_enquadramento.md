@@ -21,7 +21,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/crookes_tube: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ALEMANHA (cobre a tela 1-2 s)
 
 ## b3: "Uma noite, cobriu o tubo e apagou a luz."
