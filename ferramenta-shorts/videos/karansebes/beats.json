@@ -255,7 +255,9 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",

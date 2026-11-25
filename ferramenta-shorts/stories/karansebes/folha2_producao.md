@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): HUS (variante 0, expressao shock); LOC (variante 0, expressao grin, segura bottle) | multidao: 6 de AUT/HUS
 - Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: barrel, kit/barrel_r
@@ -276,11 +276,13 @@ cannon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 9% | medio 71% | aberto 18% | detalhe 1%
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 9% | medio 72% | aberto 18% | detalhe 0%
 - Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b9 avanca e o outro recua, b10 pular
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - objeto heroi (kit/barrel_r) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: objeto heroi (kit/barrel_r) sem close de camera
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).
