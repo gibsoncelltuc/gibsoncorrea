@@ -224,6 +224,7 @@ bad=[f for f in glob.glob('web/*.js')+glob.glob('web/sets/*.js') if not f.endswi
 raise SystemExit(1 if bad else 0)" || f "marca ADITIVO com espaco/linha a mais muda o hash global (todos os videos re-renderizariam)"
 grep -q "'raio X', 'raio misterioso', 'em forma de raio', 'como um trovao' NAO sao relampago" mkvideo.py || f "raio X / em forma de raio / como um trovao viram relampago (Rontgen, Teslaquila)"
 grep -q "'grafico'" web/runtime.js && grep -q "GRAFICO DE LINHA (preco subindo/despencando)" mkvideo.py || f "sem grafico de preco subindo/caindo na tela (Bitcoin)"
+grep -q "sem povo no roteiro, a multidao so' clonaria o Musk" mkvideo.py && grep -q "NUNCA vira multidao de clones, nem quando o roteiro" mkvideo.py || f "multidao de clones do personagem principal (Bateria/Musk)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
