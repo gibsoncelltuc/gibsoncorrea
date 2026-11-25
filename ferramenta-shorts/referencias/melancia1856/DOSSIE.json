@@ -7,7 +7,6 @@
   "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
-   "interior pedra",
    "jungle",
    "loc_campo",
    "street"
@@ -44,12 +43,7 @@
   "buildings/house_two",
   "buildings/shop",
   "kit/melon",
-  "kit/room_colonial_stone",
   "kit/stall",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
   "vehicles/locomotive",
   "war/pistol"
  ],

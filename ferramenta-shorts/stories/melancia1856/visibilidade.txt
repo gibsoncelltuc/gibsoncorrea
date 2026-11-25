@@ -1,17 +1,2 @@
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-
-page.evaluate: TypeError: OUT[a.outfit] is not a function
-    at http://localhost:36497/story.js:219:68
-    at Array.forEach (<anonymous>)
-    at actorsAt (http://localhost:36497/story.js:203:20)
-    at renderCore (http://localhost:36497/main.js:804:16)
-    at window.renderFrame (http://localhost:36497/main.js:846:10)
-    at eval (eval at evaluate (:311:30), <anonymous>:2:67)
-    at async <anonymous>:337:30
-    at /home/user/gibsoncorrea/ferramenta-shorts/visivel.mjs:32:23 {
-  log: []
-}
-
-Node.js v22.23.5
+VISIBILIDADE: 1 FALHA(S)
+FALHA b9: objeto "kit/melon" saiu com 15% da altura da tela, a ficha de cena planejou 32%

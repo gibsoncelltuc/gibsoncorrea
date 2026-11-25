@@ -272,6 +272,7 @@ grep -q "pausa entre frases fica curta" produce_voice.sh || f "voz da estrutura 
 grep -q "close com quadro_manual (d0 5) virava panoramica" mkvideo.py || f "close do roteiro vira panoramica com camera dentro da fila (Hayha)"
 grep -q "Kiska: 'no nevoeiro' na ilha gelada" mkvideo.py || f "filmagem continua juntava cena de neblina/neve com a praia (Kiska)"
 grep -q "Kekule: 'tat' do roteiro antigo" mkvideo.py || f "texto da cena caindo depois da cena (tat maior que a frase)"
+grep -q "Melancia: o LOOP repete tambem o close" mkvideo.py || f "loop sem o close do objeto da 1a cena (Melancia)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
