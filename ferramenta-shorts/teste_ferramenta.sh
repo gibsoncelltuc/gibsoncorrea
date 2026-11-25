@@ -250,6 +250,8 @@ grep -q "Melancia: multidao com figurino 'POV'" mkvideo.py || f "multidao com fi
 grep -q "Uisque: mastro posto 'ao lado'" enquadrar.py || f "bandeira no mastro tapando o rosto do personagem (Uisque)"
 grep -q "Selfie na ONU: o set 'hall'" mkvideo.py || f "ONU/plenario a ceu aberto (set hall sem teto)"
 grep -qF "'smartphone|kit/phone" mkvideo.py || f "celular gigante do tamanho de uma pessoa (Selfie na ONU)"
+grep -qF "1 if any(float(m_.get(k_, 0)) % 1 for k_ in ('de', 'para')) else 0" mkvideo.py || f "contador com valor quebrado (1,5 bi) arredondava para 2 (PayPal)"
+grep -q "PayPal: personagem SOZINHO fica no centro e a placa" mkvideo.py || f "placa atras da cabeca do personagem sozinho (PayPal)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

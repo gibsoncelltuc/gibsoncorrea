@@ -1089,7 +1089,7 @@ def _hud_fx(k, b, a, bb, E):   # graficos colados na parte de cima da tela (vale
         m_ = E.get(kind)
         if m_:
             t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
-            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
+            fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 1 if any(float(m_.get(k_, 0)) % 1 for k_ in ('de', 'para')) else 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
             KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
     if E.get('grafico'):   # 25/11 GRAFICO DE LINHA (preco subindo/despencando): {"pontos": [..], "rotulos": ["2021","2022"], "titulo": "...", "un": "US$ ", "na": "palavra"}
         G_ = E['grafico']; t0 = _wf(G_.get('na'), -3, f"({a}) + 6")
@@ -1606,6 +1606,7 @@ def build_beat(k, b):
             fx.append(f"txt(X, WS({starts[k] + off}, -2), {bb}, {json.dumps(b['text'], ensure_ascii=False)}, '{st[0]}', '{st[1]}', {num(T['h'] + 2.2)}, {{ s: {b.get('tscale', 1.5)}, up: {up} }})")
         else:                                                                           # MODO RICKS: texto numa placa fincada na cena, ao lado dos personagens
             _sx = 0.0   # placa alta, atras e acima das cabecas, no centro do quadro
+            if len(b.get('who') or []) == 1: _sx = 1.7   # 25/11 PayPal: personagem SOZINHO fica no centro e a placa do centro ficava atras da cabeca dele; vai para o lado
             fx.append(f"{{ k: 'text', a: {a}, b: {bb}, at: [X + {num(_sx)}, DK, {num(-1.3)}], text: {json.dumps(b['text'], ensure_ascii=False)}, s: {num(b.get('tscale', 1.5) * 1.75)}, col: '#3a2416', size: 120, board: {json.dumps(b.get('placa', True))} }}")
     # 24/11 (Chaleira): o CLARAO sai de onde o tiro sai (boca do canhao, do tamanho certo para a distancia da camera) e o IMPACTO acontece em cima do objeto atingido ("a bala acertou e destruiu a chaleira")
     _pp_fx = [p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and len(p_) > 2 and not isinstance(p_[1], str)]
