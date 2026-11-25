@@ -36,7 +36,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Acontece que Art Fry cantava no coral da igreja."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: FRY na esquerda, expressao sad; PAD (padre) no centro, expressao smile; POV na direita, expressao smile; multidao de 4 (POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: FRY na esquerda, expressao sad; PAD (padre) no centro, expressao smile; POV na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b5: "E os papeizinhos do hinário viviam caindo."

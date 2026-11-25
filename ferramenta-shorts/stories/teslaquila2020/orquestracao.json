@@ -38,7 +38,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tequila_bolt"
+    "kit/tequila_bolt",
+    "kit/whisky"
    ],
    "palavras": 12,
    "cena": "b0",
@@ -50,13 +51,14 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tequila_bolt"
+    "kit/tequila_bolt",
+    "kit/whisky"
    ],
    "palavras": 10,
    "cena": "b1",
@@ -65,7 +67,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "reveal",
@@ -94,7 +96,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tequila_bolt"
+    "kit/tequila_bolt",
+    "kit/whisky"
    ],
    "palavras": 7,
    "cena": "b3",
@@ -184,7 +187,8 @@
    "multidao": 0,
    "objetos": [
     "kit/phone",
-    "kit/tequila_bolt"
+    "kit/tequila_bolt",
+    "kit/whisky"
    ],
    "palavras": 10,
    "cena": "b7",

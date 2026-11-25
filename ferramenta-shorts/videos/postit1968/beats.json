@@ -53,8 +53,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -68,10 +68,6 @@
     "ding@30"
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Uma cola que falhou virou sucesso no mundo inteiro.",
    "encena": {
@@ -84,7 +80,24 @@
     ]
    },
    "text": "COLA QUE FALHOU",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -95,8 +108,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -105,10 +118,6 @@
    ],
    "text": "1980",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "promessa",
    "say": "E a ideia veio de alguém cantando na igreja.",
    "encena": {
@@ -117,6 +126,23 @@
      {
       "faz": "mostra",
       "na": "cantando"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -180,11 +206,7 @@
    "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 4,
-    "outfits": [
-     "POV"
-    ],
-    "march": false
+    "n": 0
    },
    "interior": "pedra",
    "bloco": "escalada",
@@ -197,7 +219,8 @@
       "na": "cantava"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -260,6 +283,18 @@
       "na": "pensou"
      }
     ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o postit (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -293,8 +328,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -303,10 +338,6 @@
    ],
    "text": "1980",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 1980, o post-it chegou às lojas.",
    "encena": {
@@ -315,6 +346,23 @@
      {
       "faz": "mostra",
       "na": "chegou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -329,8 +377,8 @@
    "props": [
     [
      "kit/postit",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -344,10 +392,6 @@
     "ding@30"
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "A cola não colava direito. E foi assim que...",
    "encena": {
@@ -356,6 +400,23 @@
      {
       "faz": "mostra",
       "na": "cola"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
