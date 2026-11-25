@@ -44,7 +44,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: descobriram -> ring + som de alerta; encena: mistura (stir) @0 -> acao + som de efeito; encena: examina (think) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@40
-- Texto na tela: -
+- Texto na tela: TONELADAS DE MINÉRIO
 - Funcao na historia: desenvolvimento
 
 ## Cena b5  (~4.5 s)

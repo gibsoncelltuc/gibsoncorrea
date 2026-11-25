@@ -177,7 +177,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "galpao",
    "who": [
     "MAR:0:grin"
@@ -185,18 +185,18 @@
    "props": [
     [
      "kit/pechblenda",
-     -2.4,
-     -3.0,
-     2.2,
+     -1.3,
+     -1.6,
+     2.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/curie_box",
-     2.2,
-     -1.2,
-     1.1,
+     1.8,
+     -1.4,
+     1.0,
      {
       "fixo": true
      }
@@ -231,9 +231,9 @@
    "quadro_manual": true,
    "cx": 0.0,
    "cz": -1.0,
-   "d0": 7.2,
-   "d1": 6.8,
-   "h": 2.0,
+   "d0": 8.5,
+   "d1": 7.5,
+   "h": 2.2,
    "quadro": {
     "local": "galpao",
     "camera": "plano medio, 2 personagens de corpo inteiro",
@@ -251,7 +251,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "text": "TONELADAS DE MINÉRIO"
   },
   {
    "shot": "two",

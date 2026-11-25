@@ -3,8 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b4_d: camera DENTRO de "kit/pechblenda"
+1. b4: objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Existem cadernos tão perigosos que só podem ser lidos com ro": 
