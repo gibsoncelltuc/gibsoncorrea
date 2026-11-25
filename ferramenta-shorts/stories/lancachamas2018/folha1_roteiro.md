@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 89 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 89 palavras (~31 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Um bilionário vendeu lança-chamas jurando que não era lança-chamas.

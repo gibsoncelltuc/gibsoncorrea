@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 93 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: street | 9 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um homem soltou uma pipa na tempestade para pegar um raio.

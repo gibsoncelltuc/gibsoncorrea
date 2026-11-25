@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.4s - 11 palavras - plano two
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
 > "Um homem soltou uma pipa na tempestade para pegar um raio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "soltou" (0.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "soltou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -25,28 +25,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 2.9s a 5.1s - 11 palavras - plano two
+## Cena b1 - 4.1s a 7.8s - 11 palavras - plano two
 > "E o que ele descobriu protege a sua casa até hoje."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "protege" (4.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "protege" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobriu (3.7s) | EFEITO: ring | onda + som | OK |
+| 1 | descobriu (5.6s) | EFEITO: ring | onda + som | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: ring na palavra descobriu (3.7s): executa: onda + som
+- EFEITO: ring na palavra descobriu (5.6s): executa: onda + som
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 5.6s a 9.2s - 10 palavras - plano reveal
+## Cena b2 - 8.1s a 11.5s - 10 palavras - plano reveal
 > "Em 1752, Benjamin Franklin queria provar que raio era eletricidade."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "provar" (8.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "provar" (10.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -58,11 +58,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b3 - 10.3s a 12.7s - 10 palavras - plano two
+## Cena b3 - 11.9s a 15.2s - 10 palavras - plano two
 > "Muita gente achava que o raio era castigo dos céus."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "castigo" (12.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "castigo" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -75,49 +75,49 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 13.2s a 15.5s - 12 palavras - plano two
+## Cena b4 - 15.6s a 19.6s - 12 palavras - plano two
 > "Contam que ele prendeu uma chave de metal na linha da pipa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) FRA acao do motor: prende | na palavra "prendeu" (13.9s)
+  1) FRA acao do motor: prende | na palavra "prendeu" (16.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | prendeu (13.9s) | ACAO: prende | empurra/prende | OK |
+| 1 | prendeu (16.7s) | ACAO: prende | empurra/prende | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: prende na palavra prendeu (13.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: prende na palavra prendeu (16.7s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 16.1s a 19.0s - 11 palavras - plano two
+## Cena b5 - 20.0s a 23.7s - 11 palavras - plano two
 > "Acontece que a nuvem passou, e uma faísca pulou da chave."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) FRA acao do motor: brilha | na palavra "faísca" (18.3s)
+  1) FRA acao do motor: brilha | na palavra "faísca" (22.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | faísca (18.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 1 | faísca (22.6s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: brilha na palavra faísca (18.3s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
+- ACAO: brilha na palavra faísca (22.6s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 19.5s a 21.4s - 9 palavras - plano two
+## Cena b6 - 24.1s a 27.0s - 9 palavras - plano two
 > "Se um raio caísse na pipa, ele teria morrido."
 
 - LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raio" (19.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raio" (24.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -130,11 +130,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 22.1s a 24.6s - 10 palavras - plano wide
+## Cena b7 - 27.4s a 30.7s - 10 palavras - plano wide
 > "Daí nasceu o para-raios, que protege prédios no mundo inteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "inteiro" (24.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "inteiro" (30.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -149,11 +149,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 25.4s a 27.8s - 9 palavras - plano two
+## Cena b8 - 31.1s a 34.1s - 9 palavras - plano two
 > "Coragem ou loucura? Só sei que foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Coragem" (25.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Coragem" (31.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

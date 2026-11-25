@@ -88,6 +88,13 @@
    "consultas": [
     "bancada"
    ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "fire",
+   "consultas": [
+    "fire"
+   ]
   }
  ]
 }
