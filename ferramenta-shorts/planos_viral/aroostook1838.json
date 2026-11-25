@@ -1,19 +1,21 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "GUERRA DOS LENHADORES",
- "gancho_cumprido": "Gancho: EUA e Inglaterra quase entraram em guerra por lenhadores, e a guerra ganhou nome de comida. Pagamento: milicias de milhares, mas a tregua e o tratado de 1842 evitaram a luta; virou a Guerra do Porco com Feijao.",
+ "gancho_cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
  "cenas": [
   [
    0,
    "gancho",
-   "Ninguém te conta: lenhadores quase começaram uma guerra entre dois países.",
-   "lenhadores"
+   "Lenhadores quase começaram uma guerra entre dois países.",
+   "lenhadores",
+   {}
   ],
   [
    9,
    "promessa",
    "E essa guerra ganhou nome de comida.",
-   "comida"
+   "comida",
+   {}
   ],
   [
    1,
@@ -27,7 +29,7 @@
   [
    2,
    "prova",
-   "Lenhadores dos dois lados cortavam as mesmas árvores em Aroostook.",
+   "Lenhadores dos dois lados cortavam as mesmas árvores.",
    "cortavam",
    {
     "encena_antiga": true
@@ -64,23 +66,18 @@
   [
    7,
    "pagamento",
-   "Um general americano negociou uma trégua. Ninguém chegou a lutar.",
+   "Um general negociou uma trégua. Ninguém chegou a lutar.",
    "trégua",
    {
     "encena_antiga": true
    }
   ],
   [
-   8,
-   "pagamento",
-   "Em 1842, um tratado dividiu a fronteira de vez.",
-   "tratado"
-  ],
-  [
    0,
    "loop",
-   "O apelido que ficou: Guerra do Porco com Feijão.",
-   "apelido"
+   "O apelido: Guerra do Porco com Feijão. Tudo porque...",
+   "apelido",
+   {}
   ]
  ]
 }

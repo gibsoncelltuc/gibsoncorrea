@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: UMA VARA = O PLANETA | encena: examina (think) @5 (acao + som de efeito) | -
+b0 | two | -  | placa: UMA VARA = O PLANETA | encena: examina (think) @2 (acao + som de efeito) | -
 b1 | wide | -  | tropa | chegou (dust + som de impacto) | -
 b2 | reveal | -  | tropa, mapa | - | -
 b3 | wide | -  | batalha aberta com tiros, objeto na mao | - | -

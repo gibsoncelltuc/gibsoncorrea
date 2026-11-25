@@ -1,21 +1,21 @@
 # CRONOGRAMA - Guerras Inusitadas EP 04 - A Guerra do Balde
 
-Gerado em 25/11 16:58 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Ninguém te conta: uma guerra de verdade teve um balde como troféu.
+b0 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Uma guerra de verdade teve um balde de madeira como troféu.
 b1 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | E esse balde está guardado até hoje.
 b2 | simples | interior pedra | two | NOB, PAP | - | - | - | Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.
 b3 | simples | loc_campo | crowd | BOL, BOL | 18 | picket_fence | - | Em 1325, Bolonha marchou com cerca de trinta mil soldados.
 b4 | simples | loc_campo | two | MOD, MOD | 6 | - | - | Módena tinha menos de oito mil homens.
 b5 | chave | loc_campo | crowd | MOD, BOL | 32 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.
-b6 | simples | loc_campo | two | MOD, MOD | 8 | - | - | Depois, Módena fez festa na porta de Bolonha, para zombar.
-b7 | simples | medieval | two | MOD, MOD | - | castle_tower, house_two, balde_madeira, well, lamppost, bucket | - | E levaram de troféu um balde de madeira do poço da cidade.
-b8 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | O balde ficou na torre Ghirlandina, em Módena.
-b9 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Milhares de soldados. Prêmio final: um balde.
+b6 | simples | loc_campo | two | MOD, MOD | 8 | - | - | Depois, fizeram festa na porta de Bolonha.
+b7 | simples | medieval | two | MOD, MOD | - | castle_tower, house_two, balde_madeira, well, lamppost, bucket | - | E levaram de troféu o balde do poço da cidade.
+b8 | simples | medieval | close | MOD | - | castle_tower, balde_madeira, bucket | - | O balde está na torre Ghirlandina, em Módena.
+b9 | simples | medieval | two | MOD, BOL | - | balde_madeira, bucket | - | Milhares de soldados, e o prêmio foi um balde. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

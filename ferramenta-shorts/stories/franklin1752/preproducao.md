@@ -12,7 +12,7 @@ b4 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/
 b5 | countryside | two | 1 | reagir, batalha | kit/key, kit/kite | key | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/kite | - | -
 b7 | street | orbit | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_two, nature/lamppost | - | -
-b8 | street | two | 2 | discutir, INTERAGEM: discutir | kit/kite, kit/key | - | -
+b8 | street | two | 2 | conversar, INTERAGEM: discutir | kit/kite | - | -
 
 OBJETO HEROI: kit/kite
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b7

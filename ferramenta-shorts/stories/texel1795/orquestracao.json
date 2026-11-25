@@ -18,9 +18,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Navio só se captura com navio? Esta frota caiu para soldados a cavalo.",
+   "frase": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -60,9 +60,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 1795, a França invadia a Holanda num frio absurdo.",
+   "frase": "Em 1795, a França invadia a Holanda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -97,10 +97,10 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 12,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Os navios de guerra ficaram presos no gelo, sem sair do lugar.",
-   "classe": "simples",
+   "frase": "Os navios ficaram presos no gelo.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -196,9 +196,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 7,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "No placar final: cavalaria um, marinha zero.",
+   "frase": "Cavalaria um, marinha zero. E foi assim que...",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 92 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um homem soltou uma pipa na tempestade para pegar um raio.
@@ -66,7 +66,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.4 s)
-- Narracao: Franklin inventou o para-raios, que protege prédios no mundo inteiro.
+- Narracao: Daí nasceu o para-raios, que protege prédios no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
@@ -74,11 +74,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: PARA-RAIOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~2.8 s)
-- Narracao: O raio perdeu a briga para uma chave.
+## Cena b8  (~3.1 s)
+- Narracao: Coragem ou loucura? Só sei que foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; briga -> puff + som de baque
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: PIPA x RAIO
 - Funcao na historia: FECHO/PIADA FINAL

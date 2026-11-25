@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 19 - A Guerra de Aroostook
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: arctic | 9 cenas, 79 palavras (~27 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: lenhadores quase começaram uma guerra entre dois países.
+## Cena b0  (~2.8 s)
+- Narracao: Lenhadores quase começaram uma guerra entre dois países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: - | mapa: MAINE
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: Lenhadores dos dois lados cortavam as mesmas árvores em Aroostook.
+## Cena b3  (~2.8 s)
+- Narracao: Lenhadores dos dois lados cortavam as mesmas árvores.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: corta (hammer) @4 -> acao + som de efeito
@@ -65,26 +65,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: MILÍCIA
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.4 s)
-- Narracao: Um general americano negociou uma trégua. Ninguém chegou a lutar.
+## Cena b7  (~3.1 s)
+- Narracao: Um general negociou uma trégua. Ninguém chegou a lutar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_aperta (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_aperta (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~3.1 s)
-- Narracao: Em 1842, um tratado dividiu a fronteira de vez.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.1 s)
-- Narracao: O apelido que ficou: Guerra do Porco com Feijão.
+- Narracao: O apelido: Guerra do Porco com Feijão. Tudo porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

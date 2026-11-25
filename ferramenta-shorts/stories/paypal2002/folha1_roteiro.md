@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento.
+## Cena b0  (~3.4 s)
+- Narracao: Os foguetes da SpaceX nasceram de um site de pagamento.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: SPACEX
 - Funcao na historia: VIRADA
 
-## Cena b7  (~3.1 s)
-- Narracao: Dois anos depois, investiu na Tesla, de carros elétricos.
+## Cena b7  (~2.1 s)
+- Narracao: Dois anos depois, investiu na Tesla.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: -
@@ -83,11 +83,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.4 s)
-- Narracao: Um pagamento online, literalmente, chegou ao espaço.
+## Cena b9  (~4.1 s)
+- Narracao: Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; dinheiro -> stars + som de sino
 - Efeito visual marcado: stars@12
 - Texto na tela: PAYPAL → FOGUETES
 - Funcao na historia: FECHO/PIADA FINAL

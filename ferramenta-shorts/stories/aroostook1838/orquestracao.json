@@ -31,9 +31,9 @@
     "kit/logs",
     "nature/tree_pine"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Ninguém te conta: lenhadores quase começaram uma guerra entre dois países.",
+   "frase": "Lenhadores quase começaram uma guerra entre dois países.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -85,9 +85,9 @@
     "kit/logs",
     "nature/tree_pine"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Lenhadores dos dois lados cortavam as mesmas árvores em Aroostook.",
+   "frase": "Lenhadores dos dois lados cortavam as mesmas árvores.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -160,33 +160,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Um general americano negociou uma trégua. Ninguém chegou a lutar.",
+   "frase": "Um general negociou uma trégua. Ninguém chegou a lutar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "PRE",
-    "PRE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/scroll"
-   ],
-   "palavras": 9,
-   "cena": "b8",
-   "frase": "Em 1842, um tratado dividiu a fronteira de vez.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
   },
   {
    "camera": "group",
@@ -200,8 +181,8 @@
     "nature/tree_pine"
    ],
    "palavras": 9,
-   "cena": "b9",
-   "frase": "O apelido que ficou: Guerra do Porco com Feijão.",
+   "cena": "b8",
+   "frase": "O apelido: Guerra do Porco com Feijão. Tudo porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

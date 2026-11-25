@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Balde | A Guerra do Balde / Ninguém Módena Bolonha Itália 1325 | SEM REFERENCIA
+tema | A Guerra do Balde | A Guerra do Balde / Uma Módena Bolonha Itália 1325 | SEM REFERENCIA
 lugar | Zappolino | Zappolino Valsamoggia castle hill / Zappolino / Zappolino 1325 | SEM REFERENCIA
 lugar | Itália | Itália 1325 / Itália landscape | Circolo Italiano Building in São Paulo.jpg (referencias/balde1325/prints/it_lia_f9fcb1.jpg); Edifício Itália-12151.jpg (referencias/balde1325/prints/it_lia_3d2537.jpg); Edifício Itália São Paulo 2017-12109.jpg (referencias/balde1325/prints/it_lia_0aa1c6.jpg)
 epoca | roupas e ruas de 1325 | 1325 fashion clothing / 14th century clothing painting | Tsakalis or Initiation Card, Hayagriva, Tibet, 13- (referencias/balde1325/prints/roupas_e_ruas_de_1325_feca46.jpg); Initiation Card (Tsakalis). Hayagriva. Tibet, 13-1 (referencias/balde1325/prints/roupas_e_ruas_de_1325_537e78.jpg); Anonymous portrait painting of the Duchess of Savo (referencias/balde1325/prints/roupas_e_ruas_de_1325_a89827.jpg)

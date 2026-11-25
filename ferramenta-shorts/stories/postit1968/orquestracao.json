@@ -21,7 +21,7 @@
    ],
    "palavras": 9,
    "cena": "b0",
-   "frase": "Esta cola falhou. E virou sucesso no mundo inteiro.",
+   "frase": "Uma cola que falhou virou sucesso no mundo inteiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -41,7 +41,7 @@
    ],
    "palavras": 9,
    "cena": "b1",
-   "frase": "E quem achou a utilidade estava cantando na igreja.",
+   "frase": "E a ideia veio de alguém cantando na igreja.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -91,23 +91,6 @@
   {
    "camera": "group",
    "personagens": [
-    "CHE",
-    "SIL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b4",
-   "frase": "Por anos, ninguém na empresa viu utilidade nela.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "FRY",
     "PAD",
     "POV"
@@ -115,7 +98,7 @@
    "multidao": 4,
    "objetos": [],
    "palavras": 9,
-   "cena": "b5",
+   "cena": "b4",
    "frase": "Acontece que Art Fry cantava no coral da igreja.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -133,9 +116,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 9,
-   "cena": "b6",
-   "frase": "E os papeizinhos que marcavam o hinário viviam caindo.",
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "E os papeizinhos do hinário viviam caindo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -151,9 +134,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Ele pensou: marcadores com a cola fraca. Grudam e saem sem rasgar.",
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "Ele pensou: marcadores com a cola fraca.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -172,8 +155,8 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 11,
-   "cena": "b8",
-   "frase": "O papel saiu amarelo por acaso: era o único de rascunho.",
+   "cena": "b7",
+   "frase": "O papel saiu amarelo por acaso: era o único que tinha.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -196,9 +179,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "Em 1980, o post-it chegou às lojas do mundo todo.",
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Em 1980, o post-it chegou às lojas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -215,9 +198,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 8,
-   "cena": "b10",
-   "frase": "Tudo graças a uma cola que não colava.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "A cola não colava direito. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

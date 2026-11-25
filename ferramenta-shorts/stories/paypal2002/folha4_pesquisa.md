@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Dia em que o PayPal Foi Vendido | O Dia em que o PayPal Foi Vendido / Ninguém SpaceX PayPal 2002 | Ebay and Paypal European HQ - geograph.org.uk - 41 (referencias/paypal2002/prints/o_dia_em_que_o_paypal_foi_vendido_f553f2.jpg)
+tema | O Dia em que o PayPal Foi Vendido | O Dia em que o PayPal Foi Vendido / Os SpaceX PayPal 2002 | Ebay and Paypal European HQ - geograph.org.uk - 41 (referencias/paypal2002/prints/o_dia_em_que_o_paypal_foi_vendido_f553f2.jpg)
 lugar | Escritórios do PayPal em Palo Alto/Mountain View (Califórnia) e sede do eBay em | Escritórios do PayPal em Palo Alto/Mountain View / Escritórios do PayPal em Palo Alto/Mountain View Califórnia e sede do eBay em San Jose 200 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2002 / Estados Unidos landscape | Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/paypal2002/prints/estados_unidos_c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/paypal2002/prints/estados_unidos_185b81.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/paypal2002/prints/estados_unidos_7a8f7d.jpg)
 epoca | roupas e ruas de 2002 | 2002 fashion clothing / 2002 street photograph | Loveparade 2002 Berlin Raver Fashion Clubwear.jpg (referencias/paypal2002/prints/roupas_e_ruas_de_2002_9a3981.jpg); Dempster street terminal circa Summer 2002.jpg (referencias/paypal2002/prints/roupas_e_ruas_de_2002_a8a8c1.jpg); 21 Baratashvili Street - 2002 (15776958336).jpg (referencias/paypal2002/prints/roupas_e_ruas_de_2002_9bf640.jpg)

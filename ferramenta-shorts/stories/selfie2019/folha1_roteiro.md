@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 9 cenas, 92 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: palace | 9 cenas, 90 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um presidente parou o discurso na ONU para tirar uma selfie.
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Texto na tela: SELFIE
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.1 s)
-- Narracao: Um segundo de selfie, e a ONU virou assunto.
+## Cena b8  (~2.4 s)
+- Narracao: Um segundo bastou. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

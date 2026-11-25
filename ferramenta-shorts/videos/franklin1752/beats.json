@@ -305,13 +305,13 @@
    "d1": 8.5,
    "quadro_manual": true,
    "bloco": "pagamento",
-   "say": "Franklin inventou o para-raios, que protege prédios no mundo inteiro.",
+   "say": "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "inventou"
+      "na": "inteiro"
      }
     ]
    }
@@ -338,13 +338,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "O raio perdeu a briga para uma chave.",
+   "say": "Coragem ou loucura? Só sei que foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "chave"
+      "na": "Coragem"
      }
     ]
    }
@@ -384,6 +384,6 @@
   }
  },
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio. Pagamento: a chave soltou faisca, provou que o raio e' eletricidade e virou o para-raios.",
+ "gancho_cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio e a descoberta protege casas ate hoje. Pagamento: a chave soltou faisca, provando que o raio e' eletricidade; virou o para-raios.",
  "loop_frase_ok": true
 }

@@ -84,7 +84,7 @@
     "march": false
    },
    "bloco": "gancho",
-   "say": "Navio só se captura com navio? Esta frota caiu para soldados a cavalo.",
+   "say": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -165,7 +165,7 @@
     ]
    },
    "bloco": "prova",
-   "say": "Em 1795, a França invadia a Holanda num frio absurdo."
+   "say": "Em 1795, a França invadia a Holanda."
   },
   {
    "shot": "wide",
@@ -231,7 +231,7 @@
    "set": "arctic",
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Os navios de guerra ficaram presos no gelo, sem sair do lugar.",
+   "say": "Os navios ficaram presos no gelo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -414,13 +414,13 @@
     "march": false
    },
    "bloco": "loop",
-   "say": "No placar final: cavalaria um, marinha zero.",
+   "say": "Cavalaria um, marinha zero. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "placar"
+      "na": "Cavalaria"
      }
     ]
    }
@@ -456,7 +456,7 @@
  "ep": 22,
  "titulo_base": "A Cavalaria que Capturou uma Frota",
  "variar_cenario": false,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma frota de navios caiu para soldados a cavalo sem tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma frota de navios de guerra caiu para soldados a cavalo sem nenhum tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
  "loop_frase_ok": true
 }

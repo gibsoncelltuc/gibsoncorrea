@@ -8,7 +8,7 @@
    "consultas": [
     "Eratosthenes measuring the Earth illustration shadow well Syene",
     "Eratóstenes Mede a Terra",
-    "Ninguém Há Eratóstenes Alexandria 2000"
+    "Um Terra Há Eratóstenes Alexandria 2000"
    ]
   },
   {
@@ -112,6 +112,14 @@
    ]
   },
   {
+   "tipo": "epoca",
+   "item": "foguete da epoca",
+   "consultas": [
+    "rocket 2000",
+    "rocket"
+   ]
+  },
+  {
    "tipo": "mecanismo",
    "item": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
    "consultas": [
@@ -137,9 +145,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Com uma conta simples, achou quase o tamanho real da Terra.",
+   "item": "A conta deu quase o tamanho real da Terra.",
    "consultas": [
-    "simples achou tamanho terra",
+    "tamanho terra",
     "stick diagram"
    ]
   }

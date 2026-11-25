@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 28 - A Selfie na ONU
 
-Gerado em 25/11 16:57 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior pedra | two | BUK | - | phone, BookStand | - | No púlpi
 b5 | simples | interior pedra | crowd | BUK, POV | 6 | phone, BookStand | - | Acontece que virou de costas e fez uma selfie com o plenário.
 b6 | simples | interior madeira | two | BUK, DIP | - | - | - | Depois avisou: a ONU pode desaparecer como a Kodak.
 b7 | chave | loc_cidade | orbit | POV, POV, REP | 20 | marco_onu, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A selfie rodou o mundo. O discurso ficou em segundo plano.
-b8 | simples | interior pedra | reveal | BUK, DIP | 6 | BookStand | - | Um segundo de selfie, e a ONU virou assunto.
+b8 | simples | interior pedra | reveal | BUK, DIP | 6 | BookStand | - | Um segundo bastou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

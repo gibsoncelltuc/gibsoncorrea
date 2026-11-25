@@ -19,9 +19,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Trinta e quatro mil soldados desembarcaram numa ilha. Não tinha inimigo nenhum.",
+   "frase": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,7 +91,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "USA"
    ],
@@ -100,9 +100,9 @@
     "kit/aviao_ww2",
     "kit/canhao_moderno"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Antes de desembarcar, bombardearam a ilha por semanas.",
+   "frase": "Bombardearam a ilha durante semanas inteiras.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -149,7 +149,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "USA",
     "CAN",
@@ -220,9 +220,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 7,
+   "palavras": 8,
    "cena": "b10",
-   "frase": "Um desembarque gigante contra uma ilha vazia.",
+   "frase": "Uma invasão contra cachorros. E foi assim que...",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},

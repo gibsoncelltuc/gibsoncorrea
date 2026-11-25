@@ -1,0 +1,161 @@
+{
+ "postit1968": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma cola que falhou virou sucesso no mundo, e a ideia veio de quem cantava na igreja. Pagamento: a cola fraca virou marcador de hinario e, em 1980, o post-it.",
+  "says": [
+   "Uma cola que falhou virou sucesso no mundo inteiro.",
+   "E a ideia veio de alguém cantando na igreja.",
+   "Em 1968, Spencer Silver tentava criar uma super cola.",
+   "Saiu o contrário: uma cola que grudava e soltava fácil.",
+   null,
+   "Acontece que Art Fry cantava no coral da igreja.",
+   "E os papeizinhos do hinário viviam caindo.",
+   "Ele pensou: marcadores com a cola fraca.",
+   "O papel saiu amarelo por acaso: era o único que tinha.",
+   "Em 1980, o post-it chegou às lojas.",
+   "A cola não colava direito. E foi assim que..."
+  ]
+ },
+ "eratostenes240": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
+  "says": [
+   "Um homem mediu o tamanho da Terra usando só uma vara.",
+   "E chegou perto do número certo, sem satélite.",
+   "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
+   "Ou seja: lá, nada fazia sombra.",
+   "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "Acontece que isso só acontece se a Terra for curva.",
+   "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "A conta deu quase o tamanho real da Terra.",
+   "Sem foguete, só uma sombra. E foi assim que..."
+  ]
+ },
+ "franklin1752": {
+  "cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio e a descoberta protege casas ate hoje. Pagamento: a chave soltou faisca, provando que o raio e' eletricidade; virou o para-raios.",
+  "says": [
+   "Um homem soltou uma pipa na tempestade para pegar um raio.",
+   "E o que ele descobriu protege a sua casa até hoje.",
+   "Em 1752, Benjamin Franklin queria provar que raio era eletricidade.",
+   "Muita gente achava que o raio era castigo dos céus.",
+   "Contam que ele prendeu uma chave de metal na linha da pipa.",
+   "Acontece que a nuvem passou, e uma faísca pulou da chave.",
+   "Se um raio caísse na pipa, ele teria morrido.",
+   "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
+   "Coragem ou loucura? Só sei que foi assim que..."
+  ]
+ },
+ "kiska1943": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
+  "says": [
+   "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
+   "E mesmo assim, houve mortos nessa invasão.",
+   "Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.",
+   "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "Bombardearam a ilha durante semanas inteiras.",
+   "Acontece que os japoneses já tinham ido embora.",
+   "Saíram escondidos na neblina, semanas antes.",
+   "No nevoeiro, os Aliados atiraram uns nos outros.",
+   "Mais de vinte soldados morreram, e um navio bateu numa mina.",
+   "Na ilha inteira, só acharam alguns cachorros abandonados.",
+   "Uma invasão contra cachorros. E foi assim que..."
+  ],
+  "mod": {
+   "9": {
+    "detalhe": true
+   }
+  }
+ },
+ "texel1795": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma frota de navios de guerra caiu para soldados a cavalo sem nenhum tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
+  "says": [
+   "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
+   "E nenhum dos lados precisou dar um tiro.",
+   "Em 1795, a França invadia a Holanda.",
+   "A frota holandesa estava parada, e o mar congelou em volta.",
+   "Os navios ficaram presos no gelo.",
+   "O chefe da cavalaria francesa teve uma ideia: atacar a cavalo.",
+   "Mas ninguém sabia se o gelo aguentaria os cavalos.",
+   "De noite, os hussardos cruzaram o gelo com panos nos cascos.",
+   "Acontece que os holandeses nem lutaram. A frota inteira se rendeu.",
+   "Cavalaria um, marinha zero. E foi assim que..."
+  ]
+ },
+ "selfie2019": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
+  "says": [
+   "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "E a foto chamou mais atenção que o discurso inteiro.",
+   "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
+   "O presidente de El Salvador, Nayib Bukele, tinha 38 anos.",
+   "No púlpito, ele pediu licença e pegou o celular.",
+   "Acontece que virou de costas e fez uma selfie com o plenário.",
+   "Depois avisou: a ONU pode desaparecer como a Kodak.",
+   "A selfie rodou o mundo. O discurso ficou em segundo plano.",
+   "Um segundo bastou. E foi assim que..."
+  ]
+ },
+ "paypal2002": {
+  "cumprido": "Gancho: os foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro bancou SpaceX e Tesla.",
+  "says": [
+   "Os foguetes da SpaceX nasceram de um site de pagamento.",
+   "E tudo começou com um jeito de mandar dinheiro por e-mail.",
+   "O PayPal deixava mandar dinheiro só com um e-mail.",
+   "Em 2002, o eBay comprou o PayPal.",
+   "Preço: um bilhão e meio de dólares, em ações.",
+   "Elon Musk era o maior acionista. Ficou rico de repente.",
+   "Acontece que, no mesmo ano, ele tinha fundado a SpaceX.",
+   "Dois anos depois, investiu na Tesla.",
+   "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
+   "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que..."
+  ]
+ },
+ "aroostook1838": {
+  "cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
+  "says": [
+   "Lenhadores quase começaram uma guerra entre dois países.",
+   "E essa guerra ganhou nome de comida.",
+   "Em 1838, o Maine e o Canadá inglês disputavam a fronteira.",
+   "Lenhadores dos dois lados cortavam as mesmas árvores.",
+   "O Maine mandou um agente prender os lenhadores do outro lado.",
+   "Acontece que os lenhadores prenderam o agente.",
+   "Os dois lados chamaram milhares de soldados da milícia.",
+   "Um general negociou uma trégua. Ninguém chegou a lutar.",
+   null,
+   "O apelido: Guerra do Porco com Feijão. Tudo porque..."
+  ]
+ },
+ "balde1325": {
+  "cumprido": "Gancho: uma guerra de verdade teve um balde como trofeu e ele esta guardado ate hoje. Pagamento: Modena com menos de oito mil venceu os trinta mil de Bolonha e levou o balde do poco, hoje na torre Ghirlandina.",
+  "says": [
+   "Uma guerra de verdade teve um balde de madeira como troféu.",
+   "E esse balde está guardado até hoje.",
+   "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
+   "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
+   "Módena tinha menos de oito mil homens.",
+   "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
+   "Depois, fizeram festa na porta de Bolonha.",
+   "E levaram de troféu o balde do poço da cidade.",
+   "O balde está na torre Ghirlandina, em Módena.",
+   "Milhares de soldados, e o prêmio foi um balde. Foi assim que..."
+  ]
+ },
+ "bateria2017": {
+  "cumprido": "Gancho: um homem arriscou 50 milhoes numa conversa no Twitter, com uma resposta curta. Pagamento: prometeu a bateria em cem dias ou de graca; entregou em cerca de 55 dias a maior bateria do mundo.",
+  "says": [
+   "Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.",
+   "E tudo começou com uma resposta curta, escrita no celular.",
+   "Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.",
+   "Cem dias para entregar. Senão, seria de graça.",
+   "Os jornais calcularam: ele podia perder mais de cinquenta milhões.",
+   "Acontece que ficou pronta em cerca de cinquenta e cinco dias.",
+   "Na época, era a maior bateria do mundo.",
+   "Quem lançou o desafio teve que admitir: ele cumpriu.",
+   "Uma resposta curta, e foi assim que..."
+  ]
+ }
+}

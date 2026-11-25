@@ -51,9 +51,9 @@
     "kit/coin",
     "kit/rocket"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento.",
+   "frase": "Os foguetes da SpaceX nasceram de um site de pagamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -181,9 +181,9 @@
    "objetos": [
     "kit/roadster2008"
    ],
-   "palavras": 9,
+   "palavras": 6,
    "cena": "b7",
-   "frase": "Dois anos depois, investiu na Tesla, de carros elétricos.",
+   "frase": "Dois anos depois, investiu na Tesla.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -225,11 +225,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/coin"
+    "kit/coin",
+    "kit/rocket"
    ],
-   "palavras": 7,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "Um pagamento online, literalmente, chegou ao espaço.",
+   "frase": "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

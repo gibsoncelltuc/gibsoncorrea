@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Gerado em 25/11 16:58 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | chave | loc_cidade | group | MUS | - | megapack | corpo: tropa/personagens 
 b5 | chave | loc_campo | group | MUS | - | megapack, picket_fence | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ficou pronta em cerca de cinquenta e cinco dias.
 b6 | explicativa | loc_campo | two | sem personagem | - | megapack | corpo: kit/megapack (gira); emissao: brilho; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada ent | Na época, era a maior bateria do mundo.
 b7 | simples | interior loja | two | CAN, MUS | - | - | - | Quem lançou o desafio teve que admitir: ele cumpriu.
-b8 | simples | interior loja | two | MUS | - | megapack | - | Cinquenta milhões em jogo, por causa de uma conversa no Twitter.
+b8 | simples | interior loja | two | MUS | - | megapack | - | Uma resposta curta, e foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

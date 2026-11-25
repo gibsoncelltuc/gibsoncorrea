@@ -70,7 +70,7 @@
    ],
    "detalhe": true,
    "bloco": "gancho",
-   "say": "Ninguém te conta: uma guerra de verdade teve um balde como troféu.",
+   "say": "Uma guerra de verdade teve um balde de madeira como troféu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -248,7 +248,7 @@
    "batalha": false,
    "set": "loc_campo",
    "bloco": "escalada",
-   "say": "Depois, Módena fez festa na porta de Bolonha, para zombar.",
+   "say": "Depois, fizeram festa na porta de Bolonha.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -259,7 +259,7 @@
      },
      {
       "faz": "x_ri",
-      "na": "zombar",
+      "na": "festa",
       "quem": 1
      }
     ]
@@ -309,7 +309,7 @@
    "shot_lock": true,
    "acao": "pega",
    "bloco": "pagamento",
-   "say": "E levaram de troféu um balde de madeira do poço da cidade.",
+   "say": "E levaram de troféu o balde do poço da cidade.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -346,7 +346,7 @@
    "shot_lock": true,
    "text": "TORRE GHIRLANDINA",
    "bloco": "pagamento",
-   "say": "O balde ficou na torre Ghirlandina, em Módena.",
+   "say": "O balde está na torre Ghirlandina, em Módena.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -373,7 +373,7 @@
    ],
    "detalhe": true,
    "bloco": "loop",
-   "say": "Milhares de soldados. Prêmio final: um balde.",
+   "say": "Milhares de soldados, e o prêmio foi um balde. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -429,6 +429,6 @@
  },
  "set_tematico_ok": true,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: uma guerra de verdade teve como trofeu um balde de madeira, e ele existe ate hoje. Pagamento: Modena venceu, levou o balde do poco de Bolonha e ele esta guardado na torre Ghirlandina.",
+ "gancho_cumprido": "Gancho: uma guerra de verdade teve um balde como trofeu e ele esta guardado ate hoje. Pagamento: Modena com menos de oito mil venceu os trinta mil de Bolonha e levou o balde do poco, hoje na torre Ghirlandina.",
  "loop_frase_ok": true
 }

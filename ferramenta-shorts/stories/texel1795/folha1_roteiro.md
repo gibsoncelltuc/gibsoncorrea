@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 10 cenas, 103 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: arctic | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Navio só se captura com navio? Esta frota caiu para soldados a cavalo.
+## Cena b0  (~4.1 s)
+- Narracao: Uma frota de navios de guerra foi capturada por soldados a cavalo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
+- Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: CAVALO x NAVIO
 - Funcao na historia: GANCHO
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 1795, a França invadia a Holanda num frio absurdo.
+## Cena b2  (~2.4 s)
+- Narracao: Em 1795, a França invadia a Holanda.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: absurdo -> ring + som de alerta; encena: chega (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: FROTA CONGELADA
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~4.1 s)
-- Narracao: Os navios de guerra ficaram presos no gelo, sem sair do lugar.
+## Cena b4  (~2.1 s)
+- Narracao: Os navios ficaram presos no gelo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: arctic | 1
 - Texto na tela: RENDIDOS
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~2.4 s)
-- Narracao: No placar final: cavalaria um, marinha zero.
+## Cena b9  (~2.8 s)
+- Narracao: Cavalaria um, marinha zero. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: montado: FRA galopando em cima do animal (horse_sela) atravessando a cena -> acao + som de efeito

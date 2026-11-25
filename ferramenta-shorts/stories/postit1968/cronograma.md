@@ -1,22 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Gerado em 25/11 16:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SIL, CHE | - | postit | - | Esta cola falhou. E virou sucesso no mundo inteiro.
-b1 | chave | street | wide | SIL, CHE | - | church, postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E quem achou a utilidade estava cantando na igreja.
+b0 | simples | street | two | SIL, CHE | - | postit | - | Uma cola que falhou virou sucesso no mundo inteiro.
+b1 | chave | street | wide | SIL, CHE | - | church, postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E a ideia veio de alguém cantando na igreja.
 b2 | simples | interior galpao | two | POV, SIL | - | - | - | Em 1968, Spencer Silver tentava criar uma super cola.
 b3 | simples | interior madeira | two | SIL, CHE | - | - | - | Saiu o contrário: uma cola que grudava e soltava fácil.
-b4 | simples | interior madeira | group | CHE, SIL | - | - | - | Por anos, ninguém na empresa viu utilidade nela.
-b5 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Acontece que Art Fry cantava no coral da igreja.
-b6 | simples | interior pedra | two | FRY, PAD | - | postit | - | E os papeizinhos que marcavam o hinário viviam caindo.
-b7 | chave | street | orbit | FRY | - | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele pensou: marcadores com a cola fraca. Grudam e saem sem rasgar.
-b8 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/postit (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | O papel saiu amarelo por acaso: era o único de rascunho.
-b9 | simples | countryside | wide | SIL, CHE | 6 | postit | - | Em 1980, o post-it chegou às lojas do mundo todo.
-b10 | simples | street | two | SIL, CHE | - | postit | - | Tudo graças a uma cola que não colava.
+b4 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Acontece que Art Fry cantava no coral da igreja.
+b5 | simples | interior pedra | two | FRY, PAD | - | postit | - | E os papeizinhos do hinário viviam caindo.
+b6 | chave | street | orbit | FRY | - | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele pensou: marcadores com a cola fraca.
+b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/postit (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | O papel saiu amarelo por acaso: era o único que tinha.
+b8 | simples | countryside | wide | SIL, CHE | 6 | postit | - | Em 1980, o post-it chegou às lojas.
+b9 | simples | street | two | SIL, CHE | - | postit | - | A cola não colava direito. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -26,7 +25,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (8/14 itens) | PENDENTE | python3 pesquisar.py postit1968
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 

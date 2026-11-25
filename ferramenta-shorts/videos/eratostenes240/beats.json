@@ -73,7 +73,7 @@
     }
    },
    "bloco": "gancho",
-   "say": "Ninguém te conta: um homem mediu o planeta com uma vara.",
+   "say": "Um homem mediu o tamanho da Terra usando só uma vara.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -126,7 +126,7 @@
    "d0": 13.0,
    "d1": 11.0,
    "bloco": "promessa",
-   "say": "E chegou muito perto do número certo, sem satélite.",
+   "say": "E chegou perto do número certo, sem satélite.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -155,7 +155,7 @@
    "mapa": "EGITO",
    "mapa_at": 2,
    "bloco": "prova",
-   "say": "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "say": "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -249,7 +249,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "Ou seja: lá, ao meio-dia, nada fazia sombra.",
+   "say": "Ou seja: lá, nada fazia sombra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -447,7 +447,7 @@
     "comparar_na": "conta"
    },
    "bloco": "pagamento",
-   "say": "Com uma conta simples, achou quase o tamanho real da Terra.",
+   "say": "A conta deu quase o tamanho real da Terra.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -488,13 +488,13 @@
     }
    },
    "bloco": "loop",
-   "say": "Uma vara e um poço fizeram o trabalho de um satélite.",
+   "say": "Sem foguete, só uma sombra. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "vara"
+      "na": "foguete"
      }
     ]
    }
@@ -546,6 +546,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um homem mediu o planeta so com uma vara e a sombra. Pagamento: comparando a sombra de Alexandria com o poco sem sombra de Siena, achou um numero muito perto do tamanho real da Terra.",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
  "loop_frase_ok": true
 }

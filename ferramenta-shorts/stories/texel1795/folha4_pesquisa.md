@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cavalaria que Capturou uma Frota | A Cavalaria que Capturou uma Frota / Navio Esta Em França Holanda 1795 | SEM REFERENCIA
+tema | A Cavalaria que Capturou uma Frota | A Cavalaria que Capturou uma Frota / Uma Em França Holanda 1795 | SEM REFERENCIA
 lugar | Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de gue | Den Helder e o canal de Marsdiep norte da Holanda / Den Helder e o canal de Marsdiep norte da Holanda 1795 | Koopvaarders Schutsluis Nieuwediep Den Helder.jpg (referencias/texel1795/prints/den_helder_e_o_canal_de_marsdiep_norte_d_a70dab.jpg); Den Helder - PWA Singel - Gedicht spuikanaal.jpg (referencias/texel1795/prints/den_helder_e_o_canal_de_marsdiep_norte_d_f2e99e.jpg); Den Helder sluis.jpg (referencias/texel1795/prints/den_helder_e_o_canal_de_marsdiep_norte_d_9b81f3.jpg)
 lugar | Holanda | Holanda 1795 / Holanda landscape | Aurélio Buarque de Holanda Ferreira Signatute.jpg (referencias/texel1795/prints/holanda_16ce50.jpg); Ivo Holanda saudando Jair Bolsonaro em 2019.jpg (referencias/texel1795/prints/holanda_ad7f06.jpg); Hamilton de Holanda 2012.jpg (referencias/texel1795/prints/holanda_919b56.jpg)
 epoca | roupas e ruas de 1795 | 1795 fashion clothing / 18th century clothing painting | Gallery of Fashion, vol.II- April 1 1795 - March 1 (referencias/texel1795/prints/roupas_e_ruas_de_1795_c76f3d.jpg); Gallery of Fashion, vol.II- April 1 1795 - March 1 (referencias/texel1795/prints/roupas_e_ruas_de_1795_1f3710.jpg); Gallery of Fashion, vol.II- April 1 1795 - March 1 (referencias/texel1795/prints/roupas_e_ruas_de_1795_d547b3.jpg)

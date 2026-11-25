@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Invasão da Ilha Vazia | A Invasão da Ilha Vazia / Trinta Não Em Kiska Alasca 1943 | SEM REFERENCIA
+tema | A Invasão da Ilha Vazia | A Invasão da Ilha Vazia / Trinta Em Kiska Alasca 1943 | SEM REFERENCIA
 lugar | Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim | Ilha de Kiska nas Aleutas / Ilha de Kiska nas Aleutas Alasca 1943 | Kiska Island volcano.jpg (referencias/kiska1943/prints/ilha_de_kiska_nas_aleutas_alasca_ilha_vu_7a94ce.jpg); Kiska Island.png (referencias/kiska1943/prints/ilha_de_kiska_nas_aleutas_alasca_ilha_vu_0c3720.jpg); Kiska island volcano scenics mountain.jpg (referencias/kiska1943/prints/ilha_de_kiska_nas_aleutas_alasca_ilha_vu_25e6c1.jpg)
 lugar | Alasca | Alasca 1943 / Alasca landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1943 | 1943 fashion clothing / 1943 street photograph | Austerity Clothes- Fashion Restrictions in Wartime (referencias/kiska1943/prints/roupas_e_ruas_de_1943_dbd766.jpg); Utility Underwear- Clothing Restrictions on the Br (referencias/kiska1943/prints/roupas_e_ruas_de_1943_5cc4cd.jpg); Civilian Battle Dress- Clothing in Wartime Britain (referencias/kiska1943/prints/roupas_e_ruas_de_1943_419339.jpg)

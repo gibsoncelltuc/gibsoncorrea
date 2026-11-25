@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cola que Não Colava | A Cola que Não Colava / Esta Em Spencer Silver 1968 | SEM REFERENCIA
+tema | A Cola que Não Colava | A Cola que Não Colava / Uma Em Spencer Silver 1968 | SEM REFERENCIA
 lugar | laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; | laboratorio da 3M em St. Paul / laboratorio da 3M em St. Paul Minnesota EUA igreja presbiteriana com coral lojas e a cidad | Paul Ehrlich (1854-1915) at work in his laboratory (referencias/postit1968/prints/laboratorio_da_3m_em_st_paul_minnesota_e_791e76.jpg); Paul Ehrlich (1854-1915) at work in his laboratory (referencias/postit1968/prints/laboratorio_da_3m_em_st_paul_minnesota_e_393d56.jpg); Paul Ehrlich at work in his laboratory Wellcome M0 (referencias/postit1968/prints/laboratorio_da_3m_em_st_paul_minnesota_e_6fbb3a.jpg)
 lugar | Estados Unidos | Estados Unidos 1968 / Estados Unidos landscape | Estampilla de los Estados Unidos 1968 001.jpg (referencias/postit1968/prints/estados_unidos_d922ff.jpg); Estampilla de los Estados Unidos 1968 000.jpg (referencias/postit1968/prints/estados_unidos_f170fc.jpg); Estampilla de los Estados Unidos 1968 002.jpg (referencias/postit1968/prints/estados_unidos_ea2ee2.jpg)
 epoca | roupas e ruas de 1968 | 1968 fashion clothing / 1968 street photograph | 1968 Nina Ricci evening dress from the V and A fas (referencias/postit1968/prints/roupas_e_ruas_de_1968_873500.jpg); Rudi Gernreich at Los Angeles Fashion Group's Man  (referencias/postit1968/prints/roupas_e_ruas_de_1968_34c3b0.jpg)
@@ -27,7 +27,7 @@ objeto | hinario com marcadores caindo | hinario com marcadores caindo / hinario
 objeto | frascos de cola | frascos de cola / frascos de cola 1968 | Silver bottle flask.jpg (referencias/postit1968/prints/frascos_de_cola_742efe.jpg); Sancai ewer and flasks, British Museum.jpg (referencias/postit1968/prints/frascos_de_cola_c1826d.jpg); Emperor Aurangzeb's moon-flask, British Museum 01. (referencias/postit1968/prints/frascos_de_cola_a476ee.jpg)
 objeto | amostras gratis | amostras gratis / amostras gratis 1968 | SEM REFERENCIA
 heroi | postit | bloquinho amarelo de post-it / A Cola que Não Colava | SEM REFERENCIA
-mecanismo | O papel saiu amarelo por acaso: era o único de rascunho. | papel amarelo acaso rascunho / postit diagram | SEM REFERENCIA
+mecanismo | O papel saiu amarelo por acaso: era o único que tinha. | papel amarelo acaso tinha / postit diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia "Post-it Note").

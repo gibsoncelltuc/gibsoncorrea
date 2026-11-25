@@ -461,13 +461,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "loop",
-   "say": "Cinquenta milhões em jogo, por causa de uma conversa no Twitter.",
+   "say": "Uma resposta curta, e foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "conversa"
+      "na": "curta"
      }
     ]
    }
@@ -522,6 +522,6 @@
   }
  },
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: um homem apostou 50 milhoes de dolares numa conversa no Twitter. Pagamento: a maior bateria do mundo ficou pronta em cerca de 55 dias, antes do prazo, e ele nao perdeu.",
+ "gancho_cumprido": "Gancho: um homem arriscou 50 milhoes numa conversa no Twitter, com uma resposta curta. Pagamento: prometeu a bateria em cem dias ou de graca; entregou em cerca de 55 dias a maior bateria do mundo.",
  "loop_frase_ok": true
 }

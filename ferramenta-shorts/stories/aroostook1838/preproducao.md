@@ -12,12 +12,11 @@ b4 | loc_campo | wide | 9 | encena | nature/tree_pine | - | -
 b5 | arctic | orbit | 2 | reagir, batalha | - | - | -
 b6 | loc_montanha | wide | 22 | encena | - | - | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: entregar, alguem chega andando | - | paper | -
-b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/scroll | paper | -
-b9 | arctic | group | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine, pig | axe, axe | -
+b8 | arctic | group | 2 | discutir, INTERAGEM: discutir | kit/logs, nature/tree_pine, pig | axe, axe | -
 
 OBJETO HEROI: kit/logs
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b5
-Interacoes entre personagens: b0 discutir, b1 aproxima-se, b2 avanca e o outro recua, b3 vai ate o outro, b7 entregar, b8 entregar, b9 discutir
+Interacoes entre personagens: b0 discutir, b1 aproxima-se, b2 avanca e o outro recua, b3 vai ate o outro, b7 entregar, b8 discutir
 
-Cenas com personagens parados: 0 de 10
+Cenas com personagens parados: 0 de 9
 FALTA MODELAR: nada

@@ -1,13 +1,14 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "CAVALO x NAVIO",
- "gancho_cumprido": "Gancho: uma frota de navios caiu para soldados a cavalo sem tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
+ "gancho_cumprido": "Gancho: uma frota de navios de guerra caiu para soldados a cavalo sem nenhum tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
  "cenas": [
   [
    0,
    "gancho",
-   "Navio só se captura com navio? Esta frota caiu para soldados a cavalo.",
-   "cavalo"
+   "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
+   "cavalo",
+   {}
   ],
   [
    9,
@@ -29,7 +30,7 @@
   [
    1,
    "prova",
-   "Em 1795, a França invadia a Holanda num frio absurdo.",
+   "Em 1795, a França invadia a Holanda.",
    "invadia",
    {
     "text": null,
@@ -56,8 +57,9 @@
   [
    3,
    "prova",
-   "Os navios de guerra ficaram presos no gelo, sem sair do lugar.",
-   "presos"
+   "Os navios ficaram presos no gelo.",
+   "presos",
+   {}
   ],
   [
    5,
@@ -72,7 +74,8 @@
    6,
    "escalada",
    "Mas ninguém sabia se o gelo aguentaria os cavalos.",
-   "gelo"
+   "gelo",
+   {}
   ],
   [
    7,
@@ -95,8 +98,9 @@
   [
    0,
    "loop",
-   "No placar final: cavalaria um, marinha zero.",
-   "placar"
+   "Cavalaria um, marinha zero. E foi assim que...",
+   "Cavalaria",
+   {}
   ]
  ]
 }

@@ -155,7 +155,7 @@
    ],
    "palavras": 10,
    "cena": "b7",
-   "frase": "Franklin inventou o para-raios, que protege prédios no mundo inteiro.",
+   "frase": "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -176,12 +176,11 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/key",
     "kit/kite"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "O raio perdeu a briga para uma chave.",
+   "frase": "Coragem ou loucura? Só sei que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

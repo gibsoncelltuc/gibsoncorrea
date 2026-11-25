@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Eratóstenes Mede a Terra | Eratosthenes measuring the Earth illustration shadow well Syene / Eratóstenes Mede a Terra / Ninguém Há Eratóstenes Alexandria 2000 | Eratosthenes.png (referencias/eratostenes240/prints/erat_stenes_mede_a_terra_ac76e2.jpg)
+tema | Eratóstenes Mede a Terra | Eratosthenes measuring the Earth illustration shadow well Syene / Eratóstenes Mede a Terra / Um Terra Há Eratóstenes Alexandria 2000 | Eratosthenes.png (referencias/eratostenes240/prints/erat_stenes_mede_a_terra_ac76e2.jpg)
 lugar | Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no dese | Alexandria / Alexandria Egito 2000 | Egypt, Alexandria.jpg (referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__1340fc.jpg); Egypt, Alexandria on the Mediterranean Sea.jpg (referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__62a53d.jpg); City of Alexandria Courthouse (September 2023) 01. (referencias/eratostenes240/prints/alexandria_egito_biblioteca_e_patio_com__952249.jpg)
 lugar | Egito | Egito 2000 / Egito landscape | All Gizah Pyramids.jpg (referencias/eratostenes240/prints/egito_15d344.jpg); Vera Egito als Cinemes Girona.jpg (referencias/eratostenes240/prints/egito_f1ae00.jpg); Vera Egito als Cinemes Girona 4.jpg (referencias/eratostenes240/prints/egito_dc1061.jpg)
 epoca | roupas e ruas de 2000 | 2000 fashion clothing / 2000 street photograph | SEM REFERENCIA
@@ -27,10 +27,11 @@ objeto | rolos de papiro | rolos de papiro / rolos de papiro 2000 | GM 1091.jpg 
 objeto | globo | antique terrestrial globe 17th century / globo / globo 2000 | 1860 James Polar Projection of the Globe, Arctic - (referencias/eratostenes240/prints/globo_cc1ae7.jpg); 1691 Sanson Map of the World on Hemisphere Project (referencias/eratostenes240/prints/globo_841ecb.jpg); 1691 Sanson Map of the World on Hemisphere Project (referencias/eratostenes240/prints/globo_c834a9.jpg)
 heroi | stick | wooden stick shadow on desert sand / vara / Eratóstenes Mede a Terra | Indian Farmers' Protest by Ravan Khosa 37 (ed RE1) (referencias/eratostenes240/prints/stick_c36d71.jpg); Shoe On Stick 01.jpg (referencias/eratostenes240/prints/stick_afe4e4.jpg); Walking stick.jpg (referencias/eratostenes240/prints/stick_dcd821.jpg)
 heroi | well | well | Water well in Mongolia.jpg (referencias/eratostenes240/prints/well_fe4dea.jpg); 20170815 Zalipie 5497 DxO.jpg (referencias/eratostenes240/prints/well_6a9958.jpg); Water well in Yangdong Village.jpg (referencias/eratostenes240/prints/well_44ef77.jpg)
+epoca | foguete da epoca | rocket 2000 / rocket | SEM REFERENCIA
 mecanismo | Em Alexandria, no mesmo dia, uma vara fazia sombra. | alexandria fazia sombra / stick diagram | SEM REFERENCIA
 mecanismo | Acontece que isso só acontece se a Terra for curva. | acontece acontece terra curva / stick diagram | SEM REFERENCIA
 mecanismo | Ele mediu o ângulo da sombra e a distância entre as cidades. | mediu angulo sombra distancia cidades / stick diagram | SEM REFERENCIA
-mecanismo | Com uma conta simples, achou quase o tamanho real da Terra. | simples achou tamanho terra / stick diagram | SEM REFERENCIA
+mecanismo | A conta deu quase o tamanho real da Terra. | tamanho terra / stick diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)

@@ -37,6 +37,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/church",
+  "buildings/house_two",
   "buildings/shop",
   "kit/cone_transito",
   "kit/palete",

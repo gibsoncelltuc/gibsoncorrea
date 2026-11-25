@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 9 cenas, 88 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: outback | 9 cenas, 84 palavras (~29 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Cinquenta milhões em jogo, por causa de uma conversa no Twitter.
+## Cena b8  (~2.4 s)
+- Narracao: Uma resposta curta, e foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

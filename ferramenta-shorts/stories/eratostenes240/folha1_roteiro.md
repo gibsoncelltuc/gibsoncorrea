@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 105 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 96 palavras (~33 s)
 
 ## Cena b0  (~3.8 s)
-- Narracao: Ninguém te conta: um homem mediu o planeta com uma vara.
+- Narracao: Um homem mediu o tamanho da Terra usando só uma vara.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (think) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: UMA VARA = O PLANETA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.1 s)
-- Narracao: E chegou muito perto do número certo, sem satélite.
+## Cena b1  (~2.8 s)
+- Narracao: E chegou perto do número certo, sem satélite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.
+## Cena b2  (~3.4 s)
+- Narracao: Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~2.8 s)
-- Narracao: Ou seja: lá, ao meio-dia, nada fazia sombra.
+## Cena b4  (~2.1 s)
+- Narracao: Ou seja: lá, nada fazia sombra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Com uma conta simples, achou quase o tamanho real da Terra.
+## Cena b8  (~3.1 s)
+- Narracao: A conta deu quase o tamanho real da Terra.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
-- Narracao: Uma vara e um poço fizeram o trabalho de um satélite.
+## Cena b9  (~3.1 s)
+- Narracao: Sem foguete, só uma sombra. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

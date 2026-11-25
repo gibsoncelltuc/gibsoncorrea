@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra de Aroostook
 - Epoca: 1838 | Lugar: Maine | Quando: inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842
 - HEROIS (objeto): kit/logs
-- HEROIS (personagens): AME, CAN, PRE
-- Cenarios: arctic, interior loja, interior madeira, interior pedra, loc_campo, loc_montanha
+- HEROIS (personagens): AME, CAN
+- Cenarios: arctic, interior loja, interior madeira, loc_campo, loc_montanha
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra de Aroostook | A Guerra de Aroostook / Ninguém Em Maine Canadá 1838 | SEM REFERENCIA
+tema | A Guerra de Aroostook | A Guerra de Aroostook / Lenhadores Em Maine Canadá 1838 | SEM REFERENCIA
 lugar | Maine | Aroostook County Maine 1840s lithograph forest / Maine / Maine 1838 | Aroostook Valley Railroad Trolley Car 71 at Passen (referencias/aroostook1838/prints/maine_ac639c.jpg); Big Black Site Aroostook Maine.jpg (referencias/aroostook1838/prints/maine_d92292.jpg)
 epoca | roupas e ruas de 1838 | 1838 American clothing fashion plate men / 1838 fashion clothing / 19th century clothing painting | Gigantic Giraffe, The True American, New Orleans 3 (referencias/aroostook1838/prints/roupas_e_ruas_de_1838_50b522.jpg); Non-Native American Nations Control over N America (referencias/aroostook1838/prints/roupas_e_ruas_de_1838_2a9a64.jpg)
 pessoas | Winfield Scott | Winfield Scott 1840 portrait / Winfield Scott / Winfield Scott 1838 | Medal of Major General Winfield Scott MET LC-83 2  (referencias/aroostook1838/prints/winfield_scott_45486b.jpg); Major General Winfield Scott. General in chief, Un (referencias/aroostook1838/prints/winfield_scott_44c2b4.jpg); Medal of Major General Winfield Scott MET LC-83 2  (referencias/aroostook1838/prints/winfield_scott_2a9182.jpg)

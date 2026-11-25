@@ -28,13 +28,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/globe",
     "kit/marco_alexandria",
     "kit/stick"
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "Ninguém te conta: um homem mediu o planeta com uma vara.",
+   "frase": "Um homem mediu o tamanho da Terra usando só uma vara.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -53,9 +52,9 @@
     "kit/stick",
     "kit/well"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b1",
-   "frase": "E chegou muito perto do número certo, sem satélite.",
+   "frase": "E chegou perto do número certo, sem satélite.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,9 +71,9 @@
    "objetos": [
     "kit/marco_alexandria"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b2",
-   "frase": "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "frase": "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -119,9 +118,9 @@
     "kit/well",
     "nature/tree_palm"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Ou seja: lá, ao meio-dia, nada fazia sombra.",
+   "frase": "Ou seja: lá, nada fazia sombra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -197,9 +196,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Com uma conta simples, achou quase o tamanho real da Terra.",
+   "frase": "A conta deu quase o tamanho real da Terra.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -220,13 +219,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/starlink_sat",
-    "kit/stick",
-    "tools/bucket"
+    "kit/rocket",
+    "kit/stick"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Uma vara e um poço fizeram o trabalho de um satélite.",
+   "frase": "Sem foguete, só uma sombra. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

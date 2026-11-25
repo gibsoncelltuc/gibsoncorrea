@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Gerado em 25/11 16:54 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,8 +13,8 @@ b3 | simples | interior madeira | two | COM, POV | - | - | - | Muita gente achav
 b4 | simples | countryside | two | FRA, FIL | - | key, kite | - | Contam que ele prendeu uma chave de metal na linha da pipa.
 b5 | chave | countryside | two | FRA | - | key, kite | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a nuvem passou, e uma faísca pulou da chave.
 b6 | simples | interior madeira | two | COM, FRA | - | kite | - | Se um raio caísse na pipa, ele teria morrido.
-b7 | chave | street | orbit | FRA | - | house_two, lightning_rod, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Franklin inventou o para-raios, que protege prédios no mundo inteiro.
-b8 | simples | street | two | FRA, FIL | - | key, kite | - | O raio perdeu a briga para uma chave.
+b7 | chave | street | orbit | FRA | - | house_two, lightning_rod, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Daí nasceu o para-raios, que protege prédios no mundo inteiro.
+b8 | simples | street | two | FRA, FIL | - | kite | - | Coragem ou loucura? Só sei que foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
