@@ -104,7 +104,7 @@
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/seringa_pe",
@@ -233,7 +233,7 @@
    "_enq_shot": "wide",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/seringa_pe",
@@ -380,7 +380,7 @@
    "_enq_shot": "wide",
    "quadro": {
     "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/seringa_pe",
