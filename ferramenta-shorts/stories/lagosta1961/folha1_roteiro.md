@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~2.8 s)
 - Narracao: Mas o tiro nunca veio. Os governos negociaram.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

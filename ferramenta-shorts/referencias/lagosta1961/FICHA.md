@@ -7,7 +7,7 @@
 - Roupas: {'BRA': 'marinheiro brasileiro de branco', 'FRA': 'marinheiro frances de azul com boina de pompom vermelho', 'PES': 'pescador de camisa simples e chapeu de palha', 'MAR': 'oficial da Marinha de uniforme branco', 'PRE': 'presidente de terno escuro'}
 - Cenario real: mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino
 - Objetos: ['lagosta', 'barcos de pesca', 'navios de guerra', 'avioes de patrulha']
-- Cenarios usados no video: harbor, interior pedra, loc_estudio
+- Cenarios usados no video: harbor, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

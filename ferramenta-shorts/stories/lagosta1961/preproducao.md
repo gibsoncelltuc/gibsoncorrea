@@ -11,7 +11,7 @@ b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b5 | harbor | orbit | 1 | batalha | kit/navio_destroier, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | two | 1 | conversar | ship, vehicles/airplane | - | -
-b7 | interior pedra | two | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
+b7 | harbor | group | 2 | conversar, INTERAGEM: entregar, alguem chega andando | - | paper | -
 b8 | harbor | two | 1 | discutir | crate, kit/lobster | - | -
 
 OBJETO HEROI: kit/lobster

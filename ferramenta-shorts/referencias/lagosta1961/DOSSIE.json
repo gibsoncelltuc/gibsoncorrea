@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
-   "interior pedra",
    "loc_estudio"
   ],
   "cenarios_trocados": []
@@ -36,11 +35,6 @@
   "kit/fishing_net",
   "kit/lobster",
   "kit/navio_destroier",
-  "kit/room_colonial_stone",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large",
   "ship",
   "vehicles/airplane"
  ],

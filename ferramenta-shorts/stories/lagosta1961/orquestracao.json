@@ -151,7 +151,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "FRA",
     "BRA"
@@ -165,7 +165,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "harbor"
   },
   {
    "camera": "two",

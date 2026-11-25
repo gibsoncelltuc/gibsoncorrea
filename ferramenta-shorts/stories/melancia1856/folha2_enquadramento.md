@@ -27,6 +27,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stall juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao grin; VEN (comerciante) na direita, expressao shock; sem multidao; acao: empurrar
 - OBJETO kit/stall: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: boing@60
 
 ## b4: "O vendedor cobrou. O viajante riu e sacou uma arma."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

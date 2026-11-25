@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
-Gerado em 25/11 22:51 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 23:37 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobst
 b4 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/lobster (sobe); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | A França dizia: ela nada, é de quem pescar.
 b5 | chave | harbor | orbit | MFR | - | navio_destroier, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A França mandou um navio de guerra.
 b6 | simples | harbor | two | MAR | - | ship, airplane | - | Acontece que o Brasil respondeu com navios e aviões.
-b7 | simples | interior pedra | two | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os governos negociaram.
+b7 | simples | harbor | group | FRA, BRA | - | - | - | Mas o tiro nunca veio. Os governos negociaram.
 b8 | simples | harbor | two | BRA | - | crate, lobster | - | Nenhum tiro, só uma briga sobre um bicho. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
