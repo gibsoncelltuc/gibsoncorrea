@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um cientista misturou as etiquetas de uns passarinhos, e isso explicou...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): DAR (variante 0, expressao smile); MAR (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/finch, kit/bancada
@@ -95,8 +95,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Em Londres, o especialista John Gould revelou: eram todos tentilhões, ...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): GOU (variante 0, expressao smug, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/finch, kit/bancada
@@ -215,8 +215,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - No fim, o erro das etiquetas virou um acerto de bico.
 - Cenario: countryside | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): DAR (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/finch, kit/bancada
@@ -258,7 +258,7 @@ kit/finch_long | b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 57% | aberto 28% | detalhe 6%
+- Objeto heroi: kit/finch | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 10% | medio 59% | aberto 28% | detalhe 4%
 - Interacoes: b0 vai ate o outro, b5 aproxima-se, b6 cochichar, b8 pular
 - RISCOS GERAIS: nenhum
 

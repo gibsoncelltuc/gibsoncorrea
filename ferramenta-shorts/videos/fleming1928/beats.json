@@ -89,7 +89,7 @@
    "quadro_manual": true,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
       "objeto": "kit/petri_mofo",
@@ -215,7 +215,7 @@
    "quadro_manual": true,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/bancada",
@@ -625,5 +625,5 @@
    "Penicilina: o fungo Penicillium notatum solta uma substancia que impede as bacterias de montar a parede da celula, e elas morrem; em volta do mofo ficou um circulo sem bacterias - Fleming, British Journal of Experimental Pathology, 1929"
   ]
  },
- "max_wide": 3
+ "max_wide": 4
 }

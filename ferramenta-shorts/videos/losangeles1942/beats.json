@@ -106,7 +106,20 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -189,7 +202,19 @@
    "h": 2.4,
    "d0": 13.0,
    "d1": 11.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -6.3, camera a 13.4 m, altura 2.7 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/submarino_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -275,11 +300,11 @@
      }
     ]
    },
+   "_enq_shot": "low",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "low"
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -351,7 +376,25 @@
    "h": 2.4,
    "d0": 12.5,
    "d1": 10.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -457,11 +500,11 @@
      }
     ]
    },
+   "_enq_shot": "crowd",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "crowd"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -551,11 +594,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   }
  ],
  "cinf": 1.5,
