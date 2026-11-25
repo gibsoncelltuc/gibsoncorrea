@@ -234,6 +234,9 @@ grep -q "corrida com commit da sessao" sync_ferramenta.sh || f "sync restaurava 
 grep -q "GRANDE na chamada final/close vai para o fundo" mkvideo.py || f "objeto heroi grande (balao) gigante e cortado na chamada final (Montgolfier)"
 grep -q "(r'finch|passarinho|tentilh', 0.6, 'H', 'max')" mkvideo.py || f "passarinho (tentilhao) maior que o Darwin: limite de tamanho real de ave pequena"
 grep -q "(r'(^|/)apple\$', 0.3, 'H', 'max')" mkvideo.py || f "maca maior que o Newton (tamanho real de fruta)"
+grep -q "vai PARA CIMA do tampo" mkvideo.py || f "placa de Petri/passaro embaixo da bancada (y menor que o tampo)"
+grep -q "petri_mofo ja em cena = nao poe outra placa" mkvideo.py || f "variante do objeto ja em cena (petri_mofo) + objeto base duplicado no chao"
+grep -q "objeto EM CIMA da mesa/bancada" enquadrar.py || f "enquadrar separava a bancada do objeto em cima dela (Darwin)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
