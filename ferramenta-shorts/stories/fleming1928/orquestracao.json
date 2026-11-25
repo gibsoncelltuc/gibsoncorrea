@@ -130,7 +130,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -190,7 +190,7 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "FLE",
     "COL"

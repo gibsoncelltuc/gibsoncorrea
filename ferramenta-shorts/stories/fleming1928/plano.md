@@ -8,12 +8,12 @@ b2 | wide | -  | interior, objeto na mao | encena: examina (think) @1 (acao + so
 b3 | wide | -  | batalha aberta com tiros, objeto na mao | encena: sai @3 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
 b5 | two | -  | interior | encena: olha (point) @7 (acao + som de efeito) | -
-b6 | two | -  | tropa, interior, placa: BACTÉRIAS SUMIRAM | - | -
+b6 | wide | -  | tropa, interior, placa: BACTÉRIAS SUMIRAM | - | -
 b7 | two | -  | tropa, interior | - | -
 b8 | group | -  | interior | (rosto) relief (expr + som de efeito) | -
-b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @8 (acao + som de efeito) | -
+b9 | crowd | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @8 (acao + som de efeito) | -
 b10 | close | -  | - | - | -
 b11 | two | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 9% | medio 57% | aberto 33% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 9% | medio 51% | aberto 40% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

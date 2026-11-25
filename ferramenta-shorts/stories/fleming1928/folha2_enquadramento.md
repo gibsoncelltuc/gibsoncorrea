@@ -48,7 +48,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Acontece que, em volta do mofo, as bactérias tinham sumido."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri_mofo juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e petri_mofo juntos (camera a 11.5 m)
 - PERSONAGENS: FLE na esquerda, expressao shock; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/petri_mofo: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
 - SOM: sting@60
-- TEXTO NA TELA: "BACTÉRIAS SUMIRAM" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "BACTÉRIAS SUMIRAM" flutuando no alto, na palavra 1 da frase
 
 ## b7: "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
