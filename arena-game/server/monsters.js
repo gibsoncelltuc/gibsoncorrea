@@ -66,9 +66,9 @@ export class Combat {
     this.monsters.set(m.id, m);
     return m;
   }
-  debugSpawn(name, type, dx = 2, dz = 2) {
+  debugSpawn(name, type, dx = 2, dz = 2, elite = false) {
     const p = this.world.pos.get(name);
-    return this.create(type, p.x + dx, p.z + dz, 1, false);
+    return this.create(type, p.x + dx, p.z + dz, 1, elite);
   }
   #trySpawn(p) {
     for (let i = 0; i < 4; i++) {

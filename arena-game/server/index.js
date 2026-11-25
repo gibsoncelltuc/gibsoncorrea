@@ -107,7 +107,7 @@ const handlers = {
   // só existe nos testes automatizados (ARENA_TEST=1): cria um monstro ao lado do jogador
   debug_spawn: (me, m) => {
     if (process.env.ARENA_TEST !== '1') throw new GameError('comando', 'Comando desconhecido');
-    return { data: { monster: combat.debugSpawn(me, String(m.type), Number(m.dx) || 2, Number(m.dz) || 2).id } };
+    return { data: { monster: combat.debugSpawn(me, String(m.type), Number(m.dx) || 2, Number(m.dz) || 2, !!m.elite).id } };
   },
   // só em testes/demonstrações: teletransporte e "poder" (nível + moedas para comprar equipamento pelos comandos normais)
   debug_tp: (me, m) => {

@@ -13,7 +13,7 @@ cd arena-game
 npm install          # three e ws
 npm start            # http://127.0.0.1:8800
 HOST=0.0.0.0 npm start   # amigos na mesma rede entram por http://SEU-IP:8800
-npm test             # 28 testes (economia, mundo, combate e integração por WebSocket)
+npm test             # 30 testes (economia, mundo, combate e integração por WebSocket)
 ```
 
 Abra duas abas (ou dois computadores) com nomes diferentes para ver o online funcionando.
@@ -34,10 +34,11 @@ botão direito + arrastar (ou setas) gira a câmera · roda do mouse: zoom · **
 | Avatar | Bonequinho de blocos arredondados com rosto, 5 cabelos, 6 peles, 10 camisas, 8 calças e 4 rostos (tecla **U**). Equipamentos aparecem no corpo: chapéus, elmos, coroas, armaduras, capas, asas, mochila, armas e ferramentas. |
 | Mundo | 640×640 com Vila Moeda (praça, fonte, prefeitura com relógio, feira, ferraria), Coliseu, Floresta Sussurrante, Deserto com pirâmide e oásis, Montanhas Geladas com iglus, Fazenda com moinho, Praia com farol e doca, Ruínas e o Castelo do Rei Gosma. Estradas, lagos, mar, **dia e noite** (12 min), nuvens, estrelas, vento na grama. |
 | Online | Veja outros jogadores em tempo real (posição, nome, equipamento), balões de chat e chat global. |
-| Carreira (**C**) | 7 capítulos em ordem: falar com o Prefeito → 8 Gosmas → 5 cristais na floresta → 8 Escorpiões → 8 Lobos → 6 Esqueletos → **Rei Gosma**. Ao vencer, você "zera" o jogo, ganha a Coroa do Herói e um aviso no chat global. |
+| Carreira (**C**) | 8 capítulos em ordem: falar com o Prefeito → 8 Gosmas → 5 cristais na floresta → 8 Escorpiões → 8 Lobos → 6 Esqueletos → Rei Gosma → **Dragão Ancião**. Ao vencer, você "zera" o jogo, ganha a Coroa do Herói e um aviso no chat global. |
 | Batalha (**V**) | Duelo 1×1 no Coliseu com aposta de 10 moedas (10% destruído). O servidor valida distância, intervalo dos golpes e calcula o dano com os atributos reais. Dura 90 s; vence quem derrubar o outro ou tiver mais vida. |
 | Economia | Loja, evolução de habilidades, mercado entre jogadores (taxa de 5% destruída), troca direta atômica e torneios simulados. |
-| Monstros | Gosma, Bruto, Escorpião, Lobo, Esqueleto e o chefe Rei Gosma. Mais longe da vila = mais fortes. A vila é zona segura. |
+| Monstros | **36 espécies** (nível 1 a 18) em 10 corpos diferentes (gosma, lobo, escorpião, esqueleto, bruto, morcego, aranha, golem, fantasma...) com variações de cor, tamanho e acessórios. Quanto mais longe da vila, mais forte a espécie. **Elites** (7%): mais vida/dano e recompensa tripla. Rótulo "Nv X" colorido pela dificuldade para o seu nível. A vila é zona segura. |
+| Chefes | 5 chefes regionais (Rei Caranguejo, Ancião da Floresta, Faraó Escorpião, Lobo Alfa Gélido, Rei Lich), o **Rei Gosma** no portão do castelo e o **Dragão Ancião** — chefão final (capítulo 8): fúria abaixo de 50% de vida, rugido em área e chama diabretes. |
 
 ## Segurança: o que está garantido e o que não está
 

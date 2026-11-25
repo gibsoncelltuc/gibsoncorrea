@@ -806,7 +806,8 @@ export function buildCreature(id, def = {}) {
       for (const k of ['color', 'emissive']) {
         m[k].getHSL(hsl);
         const grey = hsl.s < 0.08 && !look.hue;
-        m[k].setHSL(grey ? hsl.h : (hsl.h + (look.hue ?? 0) / 360 + 1) % 1, Math.min(1, hsl.s * (look.sat ?? 1)), Math.min(0.95, hsl.l * (k === 'color' ? (look.lum ?? 1) : 1)));
+        const sat0 = look.hue && hsl.s < 0.25 && k === 'color' ? 0.4 : hsl.s; // ossos/pedra (quase cinza) ganham cor de verdade
+        m[k].setHSL(grey ? hsl.h : (hsl.h + (look.hue ?? 0) / 360 + 1) % 1, Math.min(1, sat0 * (look.sat ?? 1)), Math.min(0.95, hsl.l * (k === 'color' ? (look.lum ?? 1) : 1)));
       }
     }
     o.material = m;
