@@ -2,18 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | wide | -  | - | - | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 2 soldados a cavalo (PAR) (acao + som de efeito) | -
-b3 | group | - neve | placa: RATOS | - | -
-b4 | crowd | -  | batalha aberta com tiros, tropa, animais | encena: olha (point) @3 (acao + som de efeito) | -
-b5 | two | - neve | animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino); vendeu (stars + som de sino); encena: negocio (reach) @2 (acao + som de efeito) | -
-b6 | two | - neve | interior, placa: NATAL DE 1870 | - | -
-b7 | orbit | - neve | batalha aberta com tiros, tropa, placa: SÓ PARA OS RICOS | encena: x_come (eat) @11 (acao + som de efeito) | -
-b8 | wide | -  | tropa | - | -
-b9 | two | - neve | tropa, placa: BALÕES | encena: x_solta (up) @3 (acao + som de efeito) | -
-b10 | group | dusk neve | placa: PARIS SE RENDEU | encena: rende (up) @11 (acao + som de efeito) | -
-b11 | close | -  | placa: COMENTE! | - | -
+b0 | wide | -  | animais, placa: ELEFANTE NO JANTAR | - | -
+b1 | two | -  | animais, interior | - | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 2 soldados a cavalo (PAR) (acao + som de efeito) | -
+b4 | group | -  | placa: RATOS | - | -
+b5 | wide | -  | tropa, animais | - | -
+b6 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino) | -
+b7 | two | -  | animais, interior, placa: NATAL DE 1870 | - | -
+b8 | wide | -  | batalha aberta com tiros, placa: SÓ PARA OS RICOS | pagar (stars + som de sino) | -
+b9 | group | -  | tropa | - | -
+b10 | wide | -  | placa: ELEFANTE NO JANTAR | encena: rende (up) @4 (acao + som de efeito) | -
 
-Mistura de planos: close 12% | medio 61% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 5 | dentro do padrao do canal
+Mistura de planos: close 3% | medio 54% | aberto 38% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

@@ -54,7 +54,6 @@
     "MUS:0:grin",
     "ENA:0:surprised"
    ],
-   "say": "Um carro saiu do chão e voou na frente de convidados. E não era efeito especial.",
    "props": [
     [
      "kit/roadster26",
@@ -78,22 +77,6 @@
    "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
-   "obj_acao": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "carro"
-     },
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "voou",
-      "forcar": true
-     }
-    ]
-   },
    "quadro_manual": true,
    "shot": "wide",
    "h": 2.6,
@@ -110,27 +93,50 @@
     "march": false,
     "expr": "shock"
    },
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "carro"
      },
      {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
+      "quem": 0,
+      "faz": "fala",
+      "na": "voou",
+      "forcar": true
+     }
+    ]
+   },
+   "impact": true,
+   "bloco": "gancho",
+   "say": "Carro voador é coisa de filme? Este voou na frente de todos.",
+   "text": "VOOU DE VERDADE",
+   "titulo": true
+  },
+  {
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/roadster26",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interior": "galpao",
+   "quadro_manual": true,
+   "shot": "close",
+   "bloco": "promessa",
+   "say": "E o jeito que ele fez isso parece mágica.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "mágica"
      }
     ]
    }
@@ -141,80 +147,24 @@
     "POV:1:grin"
    ],
    "shot": "reveal",
-   "say": "Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em outubro de dois mil e vinte e seis.",
    "mapa": "ESTADOS UNIDOS",
-   "props": [
-    [
-     "kit/rampa_curva",
-     6,
-     -16,
-     1.0
-    ],
-    [
-     "kit/telao_led",
-     -9,
-     -18,
-     1.3
-    ],
-    [
-     "kit/torre_luz",
-     -10,
-     -9,
-     1.2
-    ],
-    [
-     "kit/torre_luz",
-     11,
-     -10,
-     1.2
-    ]
-   ],
-   "set": "loc_pista",
    "hora": "noite",
    "fachada": false,
+   "quadro_manual": true,
+   "interior": "galpao",
+   "bloco": "prova",
+   "say": "Em 2026, Elon Musk mostrou o novo Roadster no Texas.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "base"
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "revelacao (camera sobe e abre); plano aberto mirando o rampa_curva (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/rampa_curva",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/telao_led",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
+      "na": "mostrou"
      }
     ]
    }
   },
   {
-   "say": "O primeiro truque: um sistema de sucção gruda o carro na pista, como uma ventosa.",
    "explica": {
     "manobra": "parado",
     "rotulos": [
@@ -241,6 +191,8 @@
     ],
     "angulo": "lado"
    },
+   "bloco": "prova",
+   "say": "Primeiro truque: uma sucção gruda o carro na pista, como ventosa.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -259,7 +211,6 @@
    "h": 4.4,
    "d0": 25,
    "d1": 23,
-   "say": "Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "props": [
     [
      "kit/roadster26",
@@ -288,6 +239,9 @@
    "crowd": {
     "n": 0
    },
+   "quadro_manual": true,
+   "bloco": "prova",
+   "say": "Assim ele subiu uma rampa curva e ficou de cabeça para baixo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -296,33 +250,7 @@
       "na": "rampa"
      }
     ]
-   },
-   "quadro_manual": true,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "orbit; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_susp_ok": true
+   }
   },
   {
    "who": [
@@ -332,7 +260,6 @@
    "h": 1.6,
    "d0": 22,
    "d1": 17,
-   "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
      "kit/roadster26",
@@ -365,43 +292,20 @@
     ],
     "march": false
    },
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Depois se soltou, girou no ar e pousou na fumaça.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "voou"
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "camera baixa olhando para cima; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
+      "na": "girou"
      }
     ]
    }
   },
   {
-   "say": "O segundo truque: dez bocais escondidos, que sopram ar comprimido para baixo.",
    "explica": {
     "raiox": "escondidos",
     "pecas": [
@@ -454,6 +358,8 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "Segundo truque: dez bocais sopram ar comprimido para baixo.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -468,7 +374,6 @@
    "who": [
     "MUS:0:laugh"
    ],
-   "say": "Foi assim que ele decolou e voou, nos propulsores, por cima de veículos parados.",
    "props": [
     [
      "kit/roadster26",
@@ -519,6 +424,10 @@
    ],
    "set": "loc_pista",
    "hora": "noite",
+   "quadro_manual": true,
+   "shot": "track",
+   "bloco": "escalada",
+   "say": "Foi assim que ele decolou por cima de carros parados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -527,54 +436,9 @@
       "na": "decolou"
      }
     ]
-   },
-   "quadro_manual": true,
-   "shot": "track",
-   "quadro": {
-    "local": "loc_pista",
-    "camera": "travelling (camera acompanha andando); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/cybercab",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/cybercab",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/cybertruck",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, esquerda",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/torre_luz",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
-   "say": "E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
    "explica": {
     "medidor": {
      "de": 0,
@@ -585,6 +449,8 @@
      "dur": 0.9
     }
    },
+   "bloco": "escalada",
+   "say": "Zero a cem em menos de um segundo.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -600,7 +466,6 @@
     "ENG:0:suspicious",
     "ENA:0:bored"
    ],
-   "say": "Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é um carro voador de verdade.",
    "props": [
     [
      "kit/roadster26",
@@ -610,32 +475,16 @@
     ]
    ],
    "interior": "galpao",
+   "quadro_manual": true,
+   "shot": "two",
+   "bloco": "pagamento",
+   "say": "Mas o voo durou poucos segundos. Ainda não é carro voador.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "especialistas"
-     },
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "lembraram",
-      "forcar": true
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "shot": "two",
-   "quadro": {
-    "local": "galpao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "na": "durou"
      }
     ]
    }
@@ -644,7 +493,6 @@
    "who": [
     "MUS:0:smile"
    ],
-   "say": "Carro voador ou carro que pula? Você decide.",
    "props": [
     [
      "kit/roadster26",
@@ -654,26 +502,16 @@
     ]
    ],
    "interior": "galpao",
+   "quadro_manual": true,
+   "shot": "close",
+   "bloco": "loop",
+   "say": "Carro voador ou carro que pula? Você decide.",
    "encena": {
-    "sentido": "hipotese",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "carro"
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "shot": "close",
-   "quadro": {
-    "local": "galpao",
-    "camera": "close (rosto e ombros); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/roadster26",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "na": "decide"
      }
     ]
    }
@@ -743,5 +581,7 @@
  "herois_nomes": {
   "kit/roadster26": "Tesla Roadster prototype"
  },
- "max_wide": 3
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um carro voou na frente de todos e o segredo sao dois truques. Pagamento: succao para a rampa de cabeca para baixo e bocais de ar comprimido para decolar; o voo durou poucos segundos.",
+ "loop_frase_ok": true
 }

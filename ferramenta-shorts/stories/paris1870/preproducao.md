@@ -4,22 +4,21 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | wide | 2 | reagir | kit/bife_elefante, mk/Table_Large, kit/marco_notredame | - | -
-b1 | street | reveal | 8 | reagir | kit/marco_notredame, buildings/house_two, nature/lamppost | - | -
-b2 | street | two | 2 | conversar, INTERAGEM: susto | dog, cat | - | -
-b3 | street | group | 2 | reagir, INTERAGEM: tremem de frio | barrel, kit/panela, kit/rato | - | -
-b4 | arctic | crowd | 8 | reagir, batalha | buildings/house_two, nature/lamppost, elephant, deer | - | -
-b5 | arctic | two | 2 | conversar, INTERAGEM: avanca e o outro recua | elephant | - | -
-b6 | interior loja | two | 2 | conversar, INTERAGEM: discutir | kit/bife_elefante | - | -
-b7 | street | orbit | 8 | encena, batalha | kit/bife_elefante, kit/marco_notredame | - | -
-b8 | street | wide | 32 | reagir | kit/marco_notredame | - | -
-b9 | street | two | 1 | conversar | kit/balloon_air, kit/marco_notredame | - | -
-b10 | street | group | 2 | conversar, INTERAGEM: o outro se aproxima | kit/panela, kit/marco_notredame | - | -
-b11 | street | close | 1 | conversar | - | - | -
+b0 | street | wide | 2 | reagir | kit/bife_elefante, mk/Table_Large, kit/marco_notredame, elephant | - | -
+b1 | interior loja | two | 2 | conversar, INTERAGEM: susto | kit/bife_elefante, wolf | - | -
+b2 | street | reveal | 8 | reagir | kit/marco_notredame | - | -
+b3 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | dog, cat | - | -
+b4 | street | group | 2 | reagir, INTERAGEM: discutir | barrel, kit/panela, kit/rato | - | -
+b5 | street | wide | 8 | reagir | kit/marco_notredame, elephant, deer | - | -
+b6 | street | orbit | 14 | reagir, batalha | elephant | - | -
+b7 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bife_elefante, elephant | - | -
+b8 | street | wide | 2 | encena, batalha | kit/bife_elefante, kit/marco_notredame | - | -
+b9 | street | group | 12 | conversar, INTERAGEM: vai ate o outro | kit/marco_notredame | - | -
+b10 | street | wide | 2 | reagir | kit/bife_elefante, mk/Table_Large, kit/marco_notredame | - | -
 
 OBJETO HEROI: kit/bife_elefante
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
-Interacoes entre personagens: b2 susto, b3 tremem de frio, b5 avanca e o outro recua, b6 discutir, b10 o outro se aproxima
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b8
+Interacoes entre personagens: b1 susto, b3 avanca e o outro recua, b4 discutir, b7 o outro se aproxima, b9 vai ate o outro
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 0 de 11
 FALTA MODELAR: nada

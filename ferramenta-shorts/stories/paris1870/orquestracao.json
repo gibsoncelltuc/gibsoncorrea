@@ -21,14 +21,33 @@
     "kit/marco_notredame",
     "mk/Table_Large"
    ],
-   "palavras": 6,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Paris já serviu elefante no jantar.",
+   "frase": "Ninguém te conta: Paris já serviu elefante no jantar.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHF",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bife_elefante"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E o cardápio tinha até canguru e lobo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
   },
   {
    "camera": "reveal",
@@ -38,13 +57,11 @@
    ],
    "multidao": 6,
    "objetos": [
-    "buildings/house_two",
-    "kit/marco_notredame",
-    "nature/lamppost"
+    "kit/marco_notredame"
    ],
-   "palavras": 14,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1870, a Prússia cercou Paris, e a comida acabou.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,9 +76,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b2",
-   "frase": "Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os gatos.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Primeiro comeram os cavalos. Depois, os cachorros e os gatos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -80,9 +97,9 @@
     "kit/panela",
     "kit/rato"
    ],
-   "palavras": 8,
-   "cena": "b3",
-   "frase": "Depois, os roedores, que viraram um prato chique.",
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Depois os roedores, que viraram prato chique.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -90,19 +107,35 @@
    "cenario": "street"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "PAR",
     "PAR"
    ],
    "multidao": 6,
    "objetos": [
-    "buildings/house_two",
-    "nature/lamppost"
+    "kit/marco_notredame"
    ],
-   "palavras": 9,
-   "cena": "b4",
-   "frase": "Quando acabou tudo, olharam para o zoológico da cidade.",
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Quando acabou tudo, olharam para o zoológico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "BUT",
+    "PAR"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Um açougueiro comprou os elefantes Castor e Pólux.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -113,24 +146,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "BUT",
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne em pedaços.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -142,9 +158,9 @@
    "objetos": [
     "kit/bife_elefante"
    ],
-   "palavras": 16,
-   "cena": "b6",
-   "frase": "No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de canguru e pernil de lobo.",
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "No Natal, um restaurante serviu consomê de elefante e canguru.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -152,19 +168,19 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "CHF",
     "PAR"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/bife_elefante",
     "kit/marco_notredame"
    ],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Acontece que carne de elefante custava uma fortuna. Só os ricos comiam.",
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Acontece que só os ricos podiam pagar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -178,57 +194,18 @@
    "cenario": "street"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "PAR",
-    "PAR"
-   ],
-   "multidao": 30,
-   "objetos": [
-    "kit/marco_notredame"
-   ],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Enquanto isso, o povo fazia fila no frio, com comida racionada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "PAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/balloon_air",
-    "kit/marco_notredame"
-   ],
-   "palavras": 9,
-   "cena": "b9",
-   "frase": "Para mandar notícias, soltavam balões por cima do cerco.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
    "camera": "group",
    "personagens": [
     "PAR",
     "PAR"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
-    "kit/marco_notredame",
-    "kit/panela"
+    "kit/marco_notredame"
    ],
-   "palavras": 15,
-   "cena": "b10",
-   "frase": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "O povo fazia fila no frio, com comida racionada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -236,15 +213,20 @@
    "cenario": "street"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
+    "PAR",
     "PAR"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/bife_elefante",
+    "kit/marco_notredame",
+    "mk/Table_Large"
+   ],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Em 1871, Paris se rendeu. De barriga vazia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

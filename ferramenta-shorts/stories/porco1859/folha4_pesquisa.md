@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1859 | Lugar: Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com horta, pinheiros, costa com navios | Quando: 15 de junho de 1859 (o tiro no porco), de dia; ocupacao conjunta ate 1872
 - HEROIS (objeto): kit/batatas
 - HEROIS (personagens): FAZ, AME, ING, IRL
-- Cenarios: countryside, harbor, interior madeira, interior pedra, loc_campo
+- Cenarios: countryside, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Porco | A Guerra do Porco / Dois Era Estados Unidos Canadá Um 1859 | SEM REFERENCIA
+tema | A Guerra do Porco | A Guerra do Porco / Dois Em San Juan 1859 | SEM REFERENCIA
 lugar | Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com hor | Ilha de San Juan / Ilha de San Juan entre os EUA e o Canada perto de Vancouver 1859 | San Juan Island bike tour (41812).jpg (referencias/porco1859/prints/ilha_de_san_juan_entre_os_eua_e_o_canada_b577b2.jpg); San Juan Islands aerial.jpg (referencias/porco1859/prints/ilha_de_san_juan_entre_os_eua_e_o_canada_67de6c.jpg); San Juan Islands (9289848943).jpg (referencias/porco1859/prints/ilha_de_san_juan_entre_os_eua_e_o_canada_44857c.jpg)
 lugar | Ilha De San Juan | Ilha De San Juan 1859 / Ilha De San Juan landscape | British troops evacuate San Juan Island, Washingto (referencias/porco1859/prints/ilha_de_san_juan_4c4c5d.jpg); British troops evacuate San Juan Island, Washingto (referencias/porco1859/prints/ilha_de_san_juan_4c4c5d.jpg)
 epoca | roupas e ruas de 1859 | 1859 fashion clothing / 1859 street photograph | The Ladies Gazette of Fashion, The newest Fashions (referencias/porco1859/prints/roupas_e_ruas_de_1859_e993b8.jpg)

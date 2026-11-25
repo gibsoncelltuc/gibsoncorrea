@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 12 cenas, 162 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 95 palavras (~33 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Uma única flor já custou o preço de uma casa inteira.
+## Cena b0  (~3.4 s)
+- Narracao: Uma única flor já custou o preço de uma casa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 1 FLOR = 1 CASA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.
+## Cena b1  (~3.1 s)
+- Narracao: E quem pagou isso perdeu tudo em poucos dias.
+- Som ambiente: birds
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; pagou -> stars + som de sino; perdeu -> puff + som de baque; encena: perde (facepalm) @4 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~4.1 s)
+- Narracao: Em 1637, na Holanda, a tulipa era rara e estava na moda.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,93 +29,66 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.8 s)
-- Narracao: Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil.
+## Cena b3  (~3.8 s)
+- Narracao: Num leilão, um bulbo saía por mil moedas. Depois, duas mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.8 s)
-- Narracao: Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.
-- Som ambiente: sea
+## Cena b4  (~2.4 s)
+- Narracao: Logo, padeiros e sapateiros também queriam bulbos.
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, ding@80
-- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: paga (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, stars@80
 - Texto na tela: TODO MUNDO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~4.5 s)
-- Narracao: Contam que teve gente que trocou terras e casas por um único bulbo.
+## Cena b5  (~3.4 s)
+- Narracao: Contam que teve gente trocando casas por um único bulbo.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 1 CASA = 1 BULBO
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.8 s)
-- Narracao: Ninguém queria a flor. Queriam revender mais caro na semana seguinte.
-- Som ambiente: sea
+## Cena b6  (~3.1 s)
+- Narracao: Um marinheiro comeu um bulbo achando que era cebola.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: encena: x_come (eat) @2 -> acao + som de efeito
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b7  (~3.4 s)
+- Narracao: Acontece que, num leilão de fevereiro, ninguém levantou a mão.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~4.8 s)
-- Narracao: Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (eat) @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~5.5 s)
-- Narracao: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LEILÃO
 - Funcao na historia: VIRADA
 
-## Cena b8  (~5.2 s)
-- Narracao: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.
-- Som ambiente: sea
+## Cena b8  (~3.8 s)
+- Narracao: Os preços desabaram. Quem trocou a casa ficou só com flores.
+- Som ambiente: birds
 - Efeitos sonoros marcados: sting@20, thump@40, thump@90
-- Efeito + som nas palavras-chave: vender -> stars + som de sino; encena: negocio (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: dust@40, puff@90
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~6.2 s)
-- Narracao: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @9 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~2.1 s)
+## Cena b9  (~2.1 s)
 - Narracao: O marinheiro, pelo menos, almoçou bem.
-- Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (eat) @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: 1 FLOR = 1 CASA
 - Funcao na historia: FECHO/PIADA FINAL
 

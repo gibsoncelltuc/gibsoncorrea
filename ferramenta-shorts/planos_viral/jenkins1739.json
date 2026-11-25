@@ -51,7 +51,20 @@
    4,
    "escalada",
    "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
-   "mostrou"
+   "mostrou",
+   {
+    "props": [
+     [
+      "kit/ear_jar",
+      0.0,
+      -1.2,
+      1.2,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
   ],
   [
    5,
@@ -69,7 +82,20 @@
    7,
    "pagamento",
    "Foram quase dez anos de guerra por causa de uma orelha.",
-   "guerra"
+   "guerra",
+   {
+    "props": [
+     [
+      "kit/ear_jar",
+      0.0,
+      -1.2,
+      1.2,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
   ],
   [
    0,

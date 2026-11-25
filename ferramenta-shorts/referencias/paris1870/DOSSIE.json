@@ -7,7 +7,6 @@
   "regiao": "franca",
   "luz_base": "day",
   "cenarios": [
-   "arctic",
    "interior loja",
    "street"
   ],
@@ -32,15 +31,13 @@
   "barrel",
   "buildings/house_two",
   "buildings/shop",
-  "kit/balloon_air",
   "kit/bife_elefante",
-  "kit/coin",
   "kit/marco_notredame",
   "kit/panela",
   "kit/rato",
+  "kit/room_europa_shop",
   "kit/room_franca_shop",
-  "mk/Table_Large",
-  "nature/lamppost"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)",

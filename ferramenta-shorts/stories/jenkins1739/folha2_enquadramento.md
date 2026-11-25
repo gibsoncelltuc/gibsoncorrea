@@ -12,7 +12,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E o dono dela levou a orelha até o Parlamento."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; multidao de 12 (ESP, JEN) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b2: "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins."
@@ -38,9 +38,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de grupo (3+ pessoas)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
 - PERSONAGENS: PRE na esquerda, expressao angry, segura paper; JEN no centro, expressao sad; ING na direita, expressao angry; PRE no fundo, expressao shout; sem multidao; acao: susto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PARLAMENTO" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b6: "Acontece que a Inglaterra só queria uma desculpa para brigar."
@@ -62,9 +62,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Foram quase dez anos de guerra por causa de uma orelha."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
 - PERSONAGENS: ESP na esquerda, expressao relief, segura paper; ING na direita, expressao relief; sem multidao; acao: entregar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b9: "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

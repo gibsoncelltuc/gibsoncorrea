@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 12 - A Guerra da Orelha de Jenkins
 
-Gerado em 25/11 16:46 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:47 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | harbor | two | JEN, ESP | - | ear_jar | - | Ninguém te conta: uma orelha cortada começou uma guerra.
-b1 | simples | street | two | JEN, ESP | 12 | ear_jar | - | E o dono dela levou a orelha até o Parlamento.
+b1 | simples | street | two | JEN, ESP | - | ear_jar | - | E o dono dela levou a orelha até o Parlamento.
 b2 | simples | harbor | wide | JEN | - | navios de guerra ao fundo, no tamanho real, ship | - | Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.
 b3 | chave | street | two | CAP, JEN | - | ear_jar | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O capitão espanhol cortou a orelha dele com a espada.
 b4 | simples | harbor | two | CAP, JEN | - | - | - | "Leve isso ao seu rei", teria dito o espanhol.

@@ -64,7 +64,6 @@
      1.1
     ]
    ],
-   "say": "Dois países quase entraram em guerra por causa de um porco.",
    "props": [
     [
      "nature/picket_fence",
@@ -87,6 +86,13 @@
    ],
    "d0": 8.5,
    "d1": 7.5,
+   "cx": 0.6,
+   "cz": -0.3,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "gancho",
+   "say": "Dois países quase foram à guerra por causa de um porco.",
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -96,11 +102,57 @@
      }
     ]
    },
-   "cx": 0.6,
-   "cz": -0.3,
-   "quadro_manual": true,
-   "shot_lock": true,
-   "detalhe": false
+   "text": "GUERRA DO PORCO",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "FAZ:0:sad"
+   ],
+   "props": [
+    [
+     "kit/cross",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/picket_fence",
+     -2.6,
+     -2.4,
+     1.2
+    ]
+   ],
+   "set": "countryside",
+   "animals": [
+    [
+     "pig",
+     1.6,
+     -0.3,
+     "fall",
+     1.1
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "detalhe": false,
+   "bloco": "promessa",
+   "say": "E a única baixa da guerra foi ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "baixa"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -110,9 +162,11 @@
    ],
    "mapa": "ILHA DE SAN JUAN",
    "mapa_at": 4,
-   "say": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
+   "set": "harbor",
+   "bloco": "prova",
+   "say": "Em 1859, a ilha de San Juan não tinha dono definido.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -177,20 +231,13 @@
     ]
    ],
    "detalhe": true,
-   "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "set": "countryside",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/batatas",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Um fazendeiro americano pegou um porco comendo suas batatas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -200,12 +247,7 @@
       "quem": 0
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -219,7 +261,6 @@
     "gun@24",
     "squeal@30"
    ],
-   "say": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.",
    "impact": false,
    "shot_lock": true,
    "animals": [
@@ -246,6 +287,8 @@
     ]
    ],
    "set": "countryside",
+   "bloco": "prova",
+   "say": "Ele atirou. O porco era de um vizinho inglês.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -284,11 +327,13 @@
      1.1
     ]
    ],
-   "text": "$10",
-   "say": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
+   "text": "$10 x $100",
    "shot_lock": true,
    "impact": false,
    "detalhe": false,
+   "interior": "madeira",
+   "bloco": "prova",
+   "say": "Ofereceu dez dólares. O dono exigiu cem.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -297,38 +342,6 @@
       "na": "ofereceu",
       "quem": 0,
       "alvo_quem": 1
-     }
-    ]
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "IRL:0:shout",
-    "FAZ:0:surprised:money"
-   ],
-   "interacao": "discutir",
-   "acao": "discutir",
-   "text": "$100",
-   "props": [
-    [
-     "nature/picket_fence",
-     3.2,
-     -2.4,
-     1.3
-    ]
-   ],
-   "say": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
-   "shot_lock": true,
-   "impact": false,
-   "detalhe": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "grita",
-      "na": "gritou",
-      "quem": 0
      }
     ]
    }
@@ -349,14 +362,15 @@
    },
    "text": "TROPAS",
    "titulo": true,
-   "say": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
    "set": "harbor",
+   "bloco": "escalada",
+   "say": "Os americanos mandaram soldados para a ilha.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "x_discute",
-      "na": "ameaçaram",
+      "na": "mandaram",
       "quem": 0
      }
     ]
@@ -386,8 +400,9 @@
     "sting@10",
     "thump@40"
    ],
-   "say": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
    "set": "harbor",
+   "bloco": "escalada",
+   "say": "A Inglaterra respondeu com navios de guerra e centenas de soldados.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -406,9 +421,8 @@
     "ING:1:nervous"
    ],
    "interior": "madeira",
-   "say": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
-   "riscos_ok": true,
-   "susp_ok": true,
+   "bloco": "escalada",
+   "say": "Acontece que o almirante inglês recusou atacar por causa de um porco.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -427,11 +441,12 @@
     "AME:0:laugh",
     "ING:1:smile"
    ],
-   "say": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.",
    "acao": "comemorar",
    "text": "FESTAS",
    "tat": 8,
    "tstyle": "gold",
+   "bloco": "pagamento",
+   "say": "Os soldados acabaram fazendo festas juntos. Ninguém deu um tiro.",
    "encena": {
     "sentido": "negativa",
     "passos": [
@@ -444,88 +459,57 @@
    }
   },
   {
-   "shot": "two",
-   "who": [
-    "ALM:0:smile:paper",
-    "AME:1:smile"
-   ],
-   "text": "13 ANOS",
-   "say": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
-   "riscos_ok": true,
-   "impact": false,
-   "shot_lock": true,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "árbitro"
-     }
-    ]
-   }
-  },
-  {
    "shot": "wide",
    "who": [
-    "FAZ:0:sad"
+    "FAZ:0:shock:pitchfork"
    ],
-   "say": "A única baixa da guerra foi o porco.",
-   "riscos_ok": true,
-   "props": [
-    [
-     "kit/cross",
-     2.4,
-     0.2,
-     1.0,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "nature/picket_fence",
-     -2.6,
-     -2.4,
-     1.2
-    ]
-   ],
-   "set": "countryside",
    "animals": [
     [
      "pig",
-     1.6,
-     -0.3,
-     "fall",
+     1.3,
+     0.3,
+     "stand",
      1.1
     ]
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/cross",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
+   "props": [
+    [
+     "nature/picket_fence",
+     -3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/picket_fence",
+     3.2,
+     -2.2,
+     1.3
+    ],
+    [
+     "nature/haybale",
+     -3.6,
+     -0.6,
+     1.1
     ]
-   },
+   ],
+   "d0": 8.5,
+   "d1": 7.5,
+   "cx": 0.6,
+   "cz": -0.3,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "loop",
+   "say": "Treze anos depois, a disputa acabou. Tudo por um porco.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "porco"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "detalhe": false,
-   "_auto_vis": 1
+   }
   }
  ],
  "heroi": "kit/batatas",
@@ -561,6 +545,7 @@
  },
  "sem_mortos": true,
  "min_momentos": 1,
- "estrutura_ok": true,
- "max_wide": 3
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: dois paises quase foram a guerra por um porco, e a unica baixa foi ele. Pagamento: soldados e navios frente a frente, o almirante recusou atacar e ninguem deu um tiro.",
+ "loop_frase_ok": true
 }

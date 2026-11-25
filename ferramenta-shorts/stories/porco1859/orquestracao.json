@@ -21,7 +21,7 @@
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "Dois países quase entraram em guerra por causa de um porco.",
+   "frase": "Dois países quase foram à guerra por causa de um porco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -29,21 +29,40 @@
    "cenario": "countryside"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cross",
+    "nature/picket_fence"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E a única baixa da guerra foi ele.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "FAZ",
     "IRL"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 1859, a ilha de San Juan não tinha dono definido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -60,9 +79,9 @@
     "nature/scarecrow",
     "tools/wheelbarrow"
    ],
-   "palavras": 11,
-   "cena": "b2",
-   "frase": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Um fazendeiro americano pegou um porco comendo suas batatas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -81,9 +100,9 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Ele pegou a espingarda, e atirou. O porco era de um vizinho inglês.",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Ele atirou. O porco era de um vizinho inglês.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,39 +117,18 @@
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/barn",
     "nature/haybale",
     "nature/picket_fence",
-    "nature/scarecrow",
     "tools/wheelbarrow"
    ],
-   "palavras": 9,
-   "cena": "b4",
-   "frase": "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "IRL",
-    "FAZ"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "nature/picket_fence"
-   ],
-   "palavras": 14,
+   "palavras": 7,
    "cena": "b5",
-   "frase": "O dono gritou que o porco valia cem, e recusou o dinheiro. Ninguém cedeu.",
+   "frase": "Ofereceu dez dólares. O dono exigiu cem.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior madeira"
   },
   {
    "camera": "group",
@@ -140,15 +138,10 @@
     "FAZ"
    ],
    "multidao": 16,
-   "objetos": [
-    "buildings/barn",
-    "nature/haybale",
-    "nature/picket_fence",
-    "nature/scarecrow"
-   ],
-   "palavras": 14,
+   "objetos": [],
+   "palavras": 7,
    "cena": "b6",
-   "frase": "Os ingleses ameaçaram prender o fazendeiro, e os americanos mandaram soldados para a ilha.",
+   "frase": "Os americanos mandaram soldados para a ilha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -163,12 +156,11 @@
    ],
    "multidao": 48,
    "objetos": [
-    "cannon",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 19,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "A Inglaterra respondeu com navios de guerra. Logo eram centenas de soldados e canhões, apontados uns para os outros.",
+   "frase": "A Inglaterra respondeu com navios de guerra e centenas de soldados.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -189,9 +181,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 12,
    "cena": "b8",
-   "frase": "O almirante inglês recebeu ordem de atacar, e se recusou: não ia começar uma guerra por um porco.",
+   "frase": "Acontece que o almirante inglês recusou atacar por causa de um porco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -207,26 +199,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b9",
-   "frase": "Os soldados passaram meses trocando insultos, e depois, festas. Ninguém deu um tiro.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "ALM",
-    "AME"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "Treze anos depois, um árbitro decidiu que a ilha era americana.",
+   "frase": "Os soldados acabaram fazendo festas juntos. Ninguém deu um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -240,28 +215,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/cross",
+    "nature/haybale",
     "nature/picket_fence"
    ],
-   "palavras": 8,
-   "cena": "b11",
-   "frase": "A única baixa da guerra foi o porco.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FAZ"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b12",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 10,
+   "cena": "b10",
+   "frase": "Treze anos depois, a disputa acabou. Tudo por um porco.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

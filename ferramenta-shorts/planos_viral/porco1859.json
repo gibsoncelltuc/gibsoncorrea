@@ -1,0 +1,104 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "GUERRA DO PORCO",
+ "gancho_cumprido": "Gancho: dois paises quase foram a guerra por um porco, e a unica baixa foi ele. Pagamento: soldados e navios frente a frente, o almirante recusou atacar e ninguem deu um tiro.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Dois países quase foram à guerra por causa de um porco.",
+   "porco",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   11,
+   "promessa",
+   "E a única baixa da guerra foi ele.",
+   "baixa"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1859, a ilha de San Juan não tinha dono definido.",
+   "ilha",
+   {
+    "set": "harbor"
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Um fazendeiro americano pegou um porco comendo suas batatas.",
+   "pegou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Ele atirou. O porco era de um vizinho inglês.",
+   "atirou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "prova",
+   "Ofereceu dez dólares. O dono exigiu cem.",
+   "dez",
+   {
+    "encena_antiga": true,
+    "text": "$10 x $100",
+    "interior": "madeira",
+    "set": null
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Os americanos mandaram soldados para a ilha.",
+   "mandaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "A Inglaterra respondeu com navios de guerra e centenas de soldados.",
+   "navios",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "escalada",
+   "Acontece que o almirante inglês recusou atacar por causa de um porco.",
+   "recusou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Os soldados acabaram fazendo festas juntos. Ninguém deu um tiro.",
+   "festas",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Treze anos depois, a disputa acabou. Tudo por um porco.",
+   "porco",
+   {}
+  ]
+ ]
+}

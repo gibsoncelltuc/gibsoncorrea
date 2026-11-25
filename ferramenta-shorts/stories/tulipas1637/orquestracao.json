@@ -23,14 +23,33 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Uma única flor já custou o preço de uma casa inteira.",
+   "frase": "Uma única flor já custou o preço de uma casa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E quem pagou isso perdeu tudo em poucos dias.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
   },
   {
    "camera": "wide",
@@ -43,9 +62,9 @@
     "kit/marco_amsterdam",
     "kit/tulip_bed"
    ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.",
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Em 1637, na Holanda, a tulipa era rara e estava na moda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -63,9 +82,9 @@
     "kit/coin",
     "kit/tulip_striped"
    ],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Num leilão, um bulbo saía por mil moedas. Depois, duas mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -73,7 +92,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "POV"
    ],
@@ -82,9 +101,9 @@
     "kit/marco_amsterdam",
     "kit/tulip_bed"
    ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.",
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Logo, padeiros e sapateiros também queriam bulbos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -95,10 +114,10 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "countryside"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "RIC",
     "MER"
@@ -112,29 +131,9 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 13,
-   "cena": "b4",
-   "frase": "Contam que teve gente que trocou terras e casas por um único bulbo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "POV",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tulip_purple",
-    "kit/tulip_yellow"
-   ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte.",
+   "frase": "Contam que teve gente trocando casas por um único bulbo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -151,9 +150,9 @@
    "objetos": [
     "kit/tulip_red"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.",
+   "frase": "Um marinheiro comeu um bulbo achando que era cebola.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -169,12 +168,10 @@
     "RIC"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/stall"
-   ],
-   "palavras": 16,
+   "objetos": [],
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
+   "frase": "Acontece que, num leilão de fevereiro, ninguém levantou a mão.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -182,18 +179,21 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "POV"
    ],
-   "multidao": 30,
+   "multidao": 14,
    "objetos": [
+    "buildings/house_small",
     "kit/marco_amsterdam",
-    "kit/tulip_bed"
+    "kit/tulip_bed",
+    "nature/picket_fence",
+    "nature/tree_oak"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
+   "frase": "Os preços desabaram. Quem trocou a casa ficou só com flores.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -204,61 +204,26 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "RIC"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/house_small",
-    "kit/marco_amsterdam",
-    "kit/tulip_bed",
-    "nature/picket_fence",
-    "nature/tree_oak"
-   ],
-   "palavras": 18,
-   "cena": "b9",
-   "frase": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 6,
-   "cena": "b10",
-   "frase": "O marinheiro, pelo menos, almoçou bem.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
    "cenario": "countryside"
   },
   {
    "camera": "two",
    "personagens": [
-    "MER"
+    "MER",
+    "RIC"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/tulip_striped"
+   ],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "O marinheiro, pelo menos, almoçou bem.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "street"
   }
  ]
 }

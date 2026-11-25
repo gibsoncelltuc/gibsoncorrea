@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: ORELHA = GUERRA | - | -
-b1 | two | -  | tropa | - | -
+b1 | two | -  | - | - | -
 b2 | wide | -  | tropa, mapa | - | -
 b3 | two | -  | batalha aberta com tiros | - | -
 b4 | two | -  | - | encena: fala (point) @6 (acao + som de efeito) | -

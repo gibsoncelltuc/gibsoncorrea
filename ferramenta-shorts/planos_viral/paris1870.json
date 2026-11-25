@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ELEFANTE NO JANTAR",
+ "gancho_cumprido": "Gancho: Paris serviu elefante no jantar, com canguru e lobo no cardapio. Pagamento: no cerco de 1870 a comida acabou, os elefantes do zoologico viraram prato de Natal para os ricos.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: Paris já serviu elefante no jantar.",
+   "elefante"
+  ],
+  [
+   6,
+   "promessa",
+   "E o cardápio tinha até canguru e lobo.",
+   "canguru",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1870, a Prússia cercou Paris, e a comida acabou.",
+   "cercou"
+  ],
+  [
+   2,
+   "prova",
+   "Primeiro comeram os cavalos. Depois, os cachorros e os gatos.",
+   "comeram"
+  ],
+  [
+   3,
+   "prova",
+   "Depois os roedores, que viraram prato chique.",
+   "roedores",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Quando acabou tudo, olharam para o zoológico.",
+   "zoológico"
+  ],
+  [
+   5,
+   "escalada",
+   "Um açougueiro comprou os elefantes Castor e Pólux.",
+   "comprou"
+  ],
+  [
+   6,
+   "escalada",
+   "No Natal, um restaurante serviu consomê de elefante e canguru.",
+   "serviu"
+  ],
+  [
+   7,
+   "pagamento",
+   "Acontece que só os ricos podiam pagar.",
+   "ricos"
+  ],
+  [
+   8,
+   "pagamento",
+   "O povo fazia fila no frio, com comida racionada.",
+   "fila"
+  ],
+  [
+   10,
+   "loop",
+   "Em 1871, Paris se rendeu. De barriga vazia.",
+   "rendeu",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "rende",
+       "na": "rendeu",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ]
+ ]
+}

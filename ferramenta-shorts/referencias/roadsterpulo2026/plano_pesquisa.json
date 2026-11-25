@@ -8,7 +8,7 @@
    "consultas": [
     "Tesla Roadster second generation prototype",
     "O Carro que Voou de Cabeça para Baixo",
-    "Um Era Elon Musk SpaceX Texas 2026"
+    "Carro Este Em Elon Musk Roadster Texas 2026"
    ]
   },
   {
@@ -107,25 +107,24 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O primeiro truque: um sistema de sucção gruda o carro na pista, como u",
+   "item": "Primeiro truque: uma sucção gruda o carro na pista, como ventosa.",
    "consultas": [
-    "truque sistema succao gruda carro pista ventosa",
+    "truque succao gruda carro pista ventosa",
     "roadster26 diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "O segundo truque: dez bocais escondidos, que sopram ar comprimido para",
+   "item": "Segundo truque: dez bocais sopram ar comprimido para baixo.",
    "consultas": [
-    "truque bocais escondidos sopram comprimido baixo",
+    "truque bocais sopram comprimido baixo",
     "roadster26 diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de u",
+   "item": "Zero a cem em menos de um segundo.",
    "consultas": [
-    "tesla",
     "roadster26 diagram"
    ]
   }

@@ -18,31 +18,10 @@
    "objetos": [
     "kit/canivete_aberto"
    ],
-   "palavras": 13,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
+   "frase": "Dois estados americanos foram à guerra. O único ferido levou uma canivetada.",
    "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "reveal",
-   "personagens": [
-    "OHI",
-    "MIC"
-   ],
-   "multidao": 48,
-   "objetos": [
-    "buildings/house_two",
-    "kit/mapa_antigo",
-    "nature/lamppost"
-   ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
-   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -55,9 +34,44 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem perdeu a guerra acabou ficando rico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/mapa_antigo"
+   ],
+   "palavras": 11,
    "cena": "b2",
-   "frase": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
+   "frase": "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -71,9 +85,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b3",
-   "frase": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -93,9 +107,9 @@
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b4",
-   "frase": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -118,31 +132,14 @@
    "objetos": [
     "kit/canivete_aberto"
    ],
-   "palavras": 16,
-   "cena": "b5",
-   "frase": "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.",
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "A única baixa: um xerife esfaqueado com canivete numa taverna.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GOV",
-    "OHI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
   },
   {
    "camera": "wide",
@@ -157,9 +154,9 @@
     "nature/tree_oak",
     "nature/tree_pine"
    ],
-   "palavras": 14,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.",
+   "frase": "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -167,12 +164,12 @@
    "cenario": "arctic"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "GOV",
     "MIC"
    ],
-   "multidao": 32,
+   "multidao": 0,
    "objetos": [
     "kit/minerio",
     "nature/bush",
@@ -181,44 +178,30 @@
    ],
    "palavras": 11,
    "cena": "b8",
-   "frase": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
+   "frase": "Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "GOV"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b9",
-   "frase": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "jungle"
   },
   {
    "camera": "two",
    "personagens": [
     "OHI"
    ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "multidao": 16,
+   "objetos": [
+    "kit/canivete_aberto"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Michigan perdeu a guerra e ficou rico.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   }
  ]
 }
