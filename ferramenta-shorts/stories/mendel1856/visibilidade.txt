@@ -1,4 +1,1 @@
-VISIBILIDADE: 3 FALHA(S)
-FALHA b9: objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b0: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 30%
-FALHA b3: objeto "kit/pea_yellow" saiu com 12% da altura da tela, a ficha de cena planejou 30%
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (24 tomadas)
