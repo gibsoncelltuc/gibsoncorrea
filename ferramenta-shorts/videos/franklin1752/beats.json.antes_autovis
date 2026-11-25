@@ -81,17 +81,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_solta",
-      "na": "soltou"
+      "na": "soltou",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "pega",
-      "na": "pegar"
+      "na": "pegar",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -201,12 +200,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "prende",
-      "na": "prendeu"
+      "na": "prendeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 0.0,
    "cz": -0.6,
@@ -292,17 +290,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "brilha",
-      "na": "faisca"
-     },
-     {
-      "quem": 0,
-      "faz": "pula",
-      "na": "pulou"
+      "na": "faísca",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "cx": 1.2,
    "cz": 0.1,
@@ -319,14 +311,15 @@
    ],
    "interacao": "cochichar",
    "encena": {
-    "sentido": "fato",
+    "sentido": "hipotese",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Hoje"
+      "faz": "pensa",
+      "na": "discute",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -402,12 +395,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "vira",
-      "na": "inventou"
+      "faz": "mostra",
+      "na": "para-raios"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {

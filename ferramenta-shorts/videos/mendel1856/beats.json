@@ -47,16 +47,16 @@
  "beats": [
   {
    "say": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "MEN:0:smile:bag"
    ],
    "props": [
     [
      "kit/pea_green",
-     0.0,
-     -8.0,
-     3.0,
+     1.8,
+     -1.2,
+     2.6,
      {
       "fixo": true
      }
@@ -68,7 +68,7 @@
    "sfx": [
     "ding@60"
    ],
-   "detalhe": false,
+   "detalhe": true,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -94,13 +94,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   }
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -607,12 +601,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   }
  ],
  "visual": {
