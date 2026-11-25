@@ -1,0 +1,189 @@
+{
+ "duration": 31.704,
+ "frames30": 951,
+ "source": "silence-align (cost 0.57)",
+ "segments": [
+  [
+   0.0,
+   2.54083
+  ],
+  [
+   2.92042,
+   4.47175
+  ],
+  [
+   4.69304,
+   5.45637
+  ],
+  [
+   5.82908,
+   6.72092
+  ],
+  [
+   6.91362,
+   9.33204
+  ],
+  [
+   9.71121,
+   10.2359
+  ],
+  [
+   10.4123,
+   11.0202
+  ],
+  [
+   11.2642,
+   13.0124
+  ],
+  [
+   13.3898,
+   13.9312
+  ],
+  [
+   14.1298,
+   14.4013
+  ],
+  [
+   14.5687,
+   15.6437
+  ],
+  [
+   16.0215,
+   16.742
+  ],
+  [
+   16.9425,
+   17.6779
+  ],
+  [
+   17.8698,
+   19.0852
+  ],
+  [
+   19.4646,
+   22.3066
+  ],
+  [
+   22.6796,
+   25.4843
+  ],
+  [
+   25.8502,
+   28.0069
+  ],
+  [
+   28.3854,
+   29.0739
+  ],
+  [
+   29.3012,
+   30.071
+  ],
+  [
+   30.4494,
+   31.2557
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um homem mediu o tamanho da Terra usando s\u00f3 uma vara.",
+   "s": 0.0,
+   "e": 2.541
+  },
+  {
+   "text": "E chegou perto do n\u00famero certo,",
+   "s": 2.92,
+   "e": 4.472
+  },
+  {
+   "text": "sem sat\u00e9lite.",
+   "s": 4.693,
+   "e": 5.456
+  },
+  {
+   "text": "H\u00e1 dois mil anos,",
+   "s": 5.829,
+   "e": 6.721
+  },
+  {
+   "text": "Erat\u00f3stenes cuidava da biblioteca de Alexandria.",
+   "s": 6.914,
+   "e": 9.332
+  },
+  {
+   "text": "Em Siena,",
+   "s": 9.711,
+   "e": 10.236
+  },
+  {
+   "text": "ao meio-dia,",
+   "s": 10.412,
+   "e": 11.02
+  },
+  {
+   "text": "o sol iluminava o fundo de um po\u00e7o.",
+   "s": 11.264,
+   "e": 13.012
+  },
+  {
+   "text": "Ou seja:",
+   "s": 13.39,
+   "e": 13.931
+  },
+  {
+   "text": "l\u00e1,",
+   "s": 14.13,
+   "e": 14.401
+  },
+  {
+   "text": "nada fazia sombra.",
+   "s": 14.569,
+   "e": 15.644
+  },
+  {
+   "text": "Em Alexandria,",
+   "s": 16.021,
+   "e": 16.742
+  },
+  {
+   "text": "no mesmo dia,",
+   "s": 16.942,
+   "e": 17.678
+  },
+  {
+   "text": "uma vara fazia sombra.",
+   "s": 17.87,
+   "e": 19.085
+  },
+  {
+   "text": "Acontece que isso s\u00f3 acontece se a Terra for curva.",
+   "s": 19.465,
+   "e": 22.307
+  },
+  {
+   "text": "Ele mediu o \u00e2ngulo da sombra e a dist\u00e2ncia entre as cidades.",
+   "s": 22.68,
+   "e": 25.484
+  },
+  {
+   "text": "A conta deu quase o tamanho real da Terra.",
+   "s": 25.85,
+   "e": 28.007
+  },
+  {
+   "text": "Sem foguete,",
+   "s": 28.385,
+   "e": 29.074
+  },
+  {
+   "text": "s\u00f3 uma sombra.",
+   "s": 29.301,
+   "e": 30.071
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 30.449,
+   "e": 31.256
+  }
+ ]
+}
