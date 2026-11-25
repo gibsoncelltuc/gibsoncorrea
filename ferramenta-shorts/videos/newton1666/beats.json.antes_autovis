@@ -66,11 +66,11 @@
     [
      "kit/lua_ceu",
      2.0,
-     -10.0,
-     1.4,
+     -9.0,
+     2.6,
      {
       "fixo": true,
-      "y": 6.0
+      "y": 5.5
      }
     ]
    ],
@@ -98,12 +98,12 @@
    "titulo": true,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lua_ceu",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -253,7 +253,7 @@
      "kit/apple",
      0.2,
      0.9,
-     1.0,
+     1.9,
      {
       "fixo": true
      }
@@ -438,20 +438,20 @@
     [
      "kit/lua_ceu",
      2.0,
-     -10.0,
-     1.4,
+     -9.0,
+     2.6,
      {
       "fixo": true,
-      "y": 6.0
+      "y": 5.5
      }
     ]
    ],
    "detalhe": false,
    "set": "loc_campo",
-   "cx": 0.8,
-   "cz": -2.0,
-   "d0": 10.0,
-   "d1": 8.5,
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 11.0,
+   "d1": 10.0,
    "hora": "pordosol",
    "quadro_manual": true,
    "h": 1.6,
@@ -468,12 +468,12 @@
    },
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o lua_ceu (alvo z -3.6, camera a 19.2 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lua_ceu",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
