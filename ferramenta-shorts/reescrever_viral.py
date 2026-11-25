@@ -33,6 +33,10 @@ for c in PL['cenas']:
     b.pop('encena_antiga', None)
     b['encena'] = (O[i].get('encena') if mud.get('encena_antiga') else None) or mud.get('encena') or {'sentido': 'afirmativa', 'passos': [{'faz': 'mostra', 'na': na}]}
     if mud.get('encena_antiga'): b.pop('encena_antiga', None)
+    b['encena'] = json.loads(json.dumps(b['encena']))
+    for ps_ in (b['encena'] or {}).get('passos', []):
+        if ps_.get('na') and ps_['na'].lower() not in say.lower() and na.lower() in say.lower(): ps_['na'] = na   # leitura antiga presa numa palavra que saiu: vai para a palavra da acao na frase nova
+        if ps_.get('na') and ps_['na'].lower() not in say.lower(): print(f'ATENCAO b{len(N)}: palavra "{ps_["na"]}" da leitura nao esta na frase "{say}"')
     N.append(b)
 if PL.get('texto_gancho'): N[0]['text'] = PL['texto_gancho']; N[0]['titulo'] = True
 B['beats'] = N; B['gancho_tipo'] = PL['gancho_tipo']; B['gancho_cumprido'] = PL['gancho_cumprido']; B['loop_frase_ok'] = True

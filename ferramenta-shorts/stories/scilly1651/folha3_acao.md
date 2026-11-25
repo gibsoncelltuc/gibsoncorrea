@@ -54,7 +54,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tomaram" (18.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tomou" (19.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

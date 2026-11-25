@@ -2,12 +2,12 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | track | -  | placa: EUREKA | correu (dust + som de impacto); encena: grita (up) @8 (acao + som de efeito) | -
+b0 | track | -  | placa: EUREKA | correu (dust + som de impacto); encena: corre @5 (acao + som de efeito); encena: grita (up) @8 (acao + som de efeito) | -
 b1 | two | -  | - | ouro (stars + som de sino) | -
 b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | -  | interior | (rosto) distrust (expr + som de efeito); ouro (stars + som de sino) | -
 b4 | group | -  | interior, objeto na mao | (rosto) pleading (expr + som de efeito) | -
-b5 | two | -  | batalha aberta com tiros, tropa, interior | transbordou (splash + som de efeito); encena: senta @0 (acao + som de efeito) | -
+b5 | two | -  | batalha aberta com tiros, tropa, interior | transbordou (splash + som de efeito); encena: senta @8 (acao + som de efeito) | -
 b6 | two | -  | tropa, interior | - | -
 b7 | two | -  | tropa, interior | - | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, placa: EUREKA | (rosto) shout (expr + som de efeito); gritou (ring + som de alerta); encena: grita (up) @4 (acao + som de efeito) | -

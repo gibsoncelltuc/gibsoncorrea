@@ -1,3 +1,0 @@
-b0 passo "corre" preso na palavra "correndo", que nao esta na frase
-b5 passo "anda_ate" preso na palavra "entrou", que nao esta na frase
-b5 passo "entra_em" preso na palavra "entrou", que nao esta na frase

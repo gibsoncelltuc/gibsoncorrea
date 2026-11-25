@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "A Islândia derrotou a marinha inglesa com um cortador de rede."
+## b0: "Marinha grande é invencível? A Islândia provou que não."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
@@ -13,7 +13,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: creak@40
 - TEXTO NA TELA: "ISLÂNDIA VENCEU" flutuando no alto, na palavra 17 da frase
 
-## b1: "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau."
+## b1: "Com uma arma que parecia piada: um cortador de rede."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
+- PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+
+## b2: "De 1958 a 1976, foram três Guerras do Bacalhau."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: ICE na esquerda, expressao stern; BRI na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -21,64 +27,61 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - TEXTO NA TELA: "1958-1976" flutuando no alto, na palavra 15 da frase
 
-## b2: "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa."
+## b3: "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ICE na esquerda, expressao nervous; PES na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "BACALHAU" numa placa atras dos personagens, na palavra 15 da frase
 
-## b3: "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas."
+## b4: "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: ICE no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 
-## b4: "A marinha mandou fragatas para proteger os barcos de pesca."
+## b5: "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 
-## b5: "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede."
+## b6: "A Islândia só tinha barquinhos da guarda costeira."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO kit/barco_guarda: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b6: "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
+## b7: "Mas eles cortavam os cabos das redes inglesas no meio do mar."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -8.2, camera a 57.7 m, altura 6.0 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
-- OBJETO kit/navio_vapor: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/barco_guarda: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 - EFEITO respingo: no chao; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +55 da cena
 - SOM: creak@30
 - SOM: thump@55
 
-## b7: "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ICE na esquerda, expressao stern; BRI na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "OTAN" numa placa atras dos personagens, na palavra 10 da frase
-
-## b8: "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo."
+## b8: "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: BRI na esquerda, expressao pained, segura paper; ICE na direita, expressao laugh; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "VITÓRIA ISLANDESA" flutuando no alto, na palavra 13 da frase
 
-## b9: "Uma guerra inteira, por causa de um bacalhau."
+## b9: "Tudo por um bacalhau. Marinha grande não é invencível."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
-- PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "TUDO POR UM BACALHAU" numa placa atras dos personagens, na palavra 14 da frase
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
+- OBJETO kit/barco_guarda: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/navio_leander: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- EFEITO respingo: no chao; entra no quadro +40 da cena
+- SOM: creak@40
+- TEXTO NA TELA: "ISLÂNDIA VENCEU" flutuando no alto, na palavra 17 da frase
 

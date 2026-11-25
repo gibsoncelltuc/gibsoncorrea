@@ -19,14 +19,33 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
+   "frase": "Uma guerra inteira teve um único tiro. E acertou uma chaleira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IMP",
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E aquela chaleira estava cheia de sopa quente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -36,13 +55,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_fragata"
    ],
-   "palavras": 18,
-   "cena": "b1",
-   "frase": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
-   "classe": "simples",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1784, a Holanda mantinha o rio Escalda fechado.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -56,9 +74,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b2",
-   "frase": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O imperador José Segundo, da Áustria, queria o rio aberto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -75,28 +93,9 @@
     "kit/navio_fragata",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "IMP"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/navio_fragata",
-    "war/flagpole"
-   ],
    "palavras": 11,
    "cena": "b4",
-   "frase": "O maior levava a bandeira do imperador e seguia na frente.",
+   "frase": "Ele mandou três navios descerem o rio, achando que ninguém reagiria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -104,7 +103,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "MAR",
     "MAR"
@@ -114,9 +113,9 @@
     "cannon",
     "kit/navio_fragata"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
+   "frase": "Acontece que o navio holandês Dolfijn esperava e disparou um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -133,9 +132,9 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
+   "frase": "A bala destruiu uma chaleira de sopa no convés.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -149,18 +148,17 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "GEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata",
-    "navios de guerra ao fundo, no tamanho real"
+    "kit/navio_fragata"
    ],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
+   "frase": "O navio austríaco se rendeu na hora, sem mais tiros.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -176,53 +174,19 @@
   {
    "camera": "two",
    "personagens": [
-    "IMP",
+    "COZ",
     "HOL"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 23,
-   "cena": "b8",
-   "frase": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "COZ"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/kettle"
-   ],
    "palavras": 8,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "O único prejuízo do dia foi o almoço.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "COZ"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   }
  ]
 }

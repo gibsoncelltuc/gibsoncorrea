@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra dos Bolos
 - Epoca: 1838 | Lugar: Tacubaya | Quando: 1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)
 - HEROIS (objeto): kit/cake_table
-- HEROIS (personagens): CON, FRA, OFI, REI
+- HEROIS (personagens): CON, OFI, FRA, REI
 - Cenarios: harbor, interior loja, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra dos Bolos | A Guerra dos Bolos / França México Um Tacubaya Cidade México Em 1838 | SEM REFERENCIA
+tema | A Guerra dos Bolos | A Guerra dos Bolos / França México Um Cidade México 1838 | SEM REFERENCIA
 lugar | Tacubaya | Tacubaya Mexico City 1830s / Tacubaya / Tacubaya 1838 | SEM REFERENCIA
 lugar | México | México 1838 / México landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1838 | 1838 fashion clothing / 19th century clothing painting | SEM REFERENCIA

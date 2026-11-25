@@ -1,0 +1,77 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: a Islandia venceu a marinha inglesa com uma arma que parecia piada. Pagamento: os cortadores de rede fizeram a Inglaterra ceder em 1976.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Marinha grande é invencível? A Islândia provou que não.",
+   "Islândia",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "Com uma arma que parecia piada: um cortador de rede.",
+   "cortador",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "De 1958 a 1976, foram três Guerras do Bacalhau.",
+   "três"
+  ],
+  [
+   2,
+   "prova",
+   "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
+   "pescavam"
+  ],
+  [
+   3,
+   "prova",
+   "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
+   "ampliou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
+   "mandou"
+  ],
+  [
+   5,
+   "escalada",
+   "A Islândia só tinha barquinhos da guarda costeira.",
+   "barquinhos"
+  ],
+  [
+   6,
+   "escalada",
+   "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
+   "cortavam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
+   "cedeu"
+  ],
+  [
+   0,
+   "loop",
+   "Tudo por um bacalhau. Marinha grande não é invencível.",
+   "bacalhau",
+   {}
+  ]
+ ]
+}

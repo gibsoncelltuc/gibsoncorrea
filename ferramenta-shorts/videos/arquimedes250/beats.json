@@ -67,7 +67,7 @@
      {
       "quem": 0,
       "faz": "corre",
-      "na": "correndo"
+      "na": "correu"
      },
      {
       "quem": 0,
@@ -240,13 +240,13 @@
       "quem": 0,
       "faz": "anda_ate",
       "alvo": "kit/bathtub",
-      "na": "entrou"
+      "na": "transbordou"
      },
      {
       "quem": 0,
       "faz": "entra_em",
       "alvo": "kit/bathtub",
-      "na": "entrou"
+      "na": "transbordou"
      },
      {
       "alvo": "kit/bathtub",

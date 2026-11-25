@@ -39,7 +39,6 @@
  },
  "beats": [
   {
-   "say": "A Islândia derrotou a marinha inglesa com um cortador de rede.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -83,10 +82,57 @@
    ],
    "sfx": [
     "creak@40"
-   ]
+   ],
+   "bloco": "gancho",
+   "say": "Marinha grande é invencível? A Islândia provou que não.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Islândia"
+     }
+    ]
+   }
   },
   {
-   "say": "Entre mil novecentos e cinquenta e oito e setenta e seis, os dois países travaram três Guerras do Bacalhau.",
+   "shot": "close",
+   "who": [
+    "PES:0:laugh"
+   ],
+   "props": [
+    [
+     "crate",
+     -1.8,
+     0.7,
+     1.0
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tat": 13,
+   "tstyle": "brown",
+   "set": "harbor",
+   "bloco": "promessa",
+   "say": "Com uma arma que parecia piada: um cortador de rede.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cortador"
+     }
+    ]
+   }
+  },
+  {
    "shot": "wide",
    "who": [
     "ICE:0:stern",
@@ -109,15 +155,24 @@
    "text": "1958-1976",
    "tat": 14,
    "tstyle": "blue",
-   "mood": "march",
    "cx": 0,
    "cz": -40,
    "h": 9.0,
    "d0": 50,
-   "d1": 44
+   "d1": 44,
+   "bloco": "prova",
+   "say": "De 1958 a 1976, foram três Guerras do Bacalhau.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "três"
+     }
+    ]
+   }
   },
   {
-   "say": "A Islândia vivia da pesca, mas barcos ingleses pescavam bacalhau pertinho da sua costa.",
    "shot": "two",
    "who": [
     "ICE:1:nervous",
@@ -135,10 +190,20 @@
    "tat": 14,
    "tstyle": "brown",
    "set": "harbor",
-   "detalhe": false
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "A Islândia vivia da pesca, e barcos ingleses pescavam na costa dela.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pescavam"
+     }
+    ]
+   }
   },
   {
-   "say": "Então ela ampliou os limites do mar: doze milhas, cinquenta, e por fim duzentas.",
    "shot": "wide",
    "who": [
     "ICE:2:stern"
@@ -172,10 +237,20 @@
      "na": "doze",
      "dur": 3.2
     }
+   },
+   "bloco": "prova",
+   "say": "Ela ampliou o mar dela: doze milhas, cinquenta, depois duzentas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ampliou"
+     }
+    ]
    }
   },
   {
-   "say": "A marinha mandou fragatas para proteger os barcos de pesca.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -199,10 +274,20 @@
    "d0": 50,
    "d1": 44,
    "detalhe": false,
-   "impact": true
+   "impact": true,
+   "bloco": "escalada",
+   "say": "A Inglaterra mandou fragatas da marinha para proteger os pesqueiros.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
+   }
   },
   {
-   "say": "Acontece que a Islândia só tinha barquinhos da guarda costeira, mas eles tinham cortadores de rede.",
    "shot": "wide",
    "who": [],
    "props": [
@@ -233,7 +318,17 @@
    "d1": 17,
    "impact": true,
    "fachada": false,
-   "_auto_vis": 3
+   "bloco": "escalada",
+   "say": "A Islândia só tinha barquinhos da guarda costeira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "barquinhos"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -279,24 +374,19 @@
    "d1": 25,
    "shot_lock": true,
    "detalhe": false,
-   "say": "Eles cortavam os cabos das redes, e os navios batiam um no outro, de propósito."
+   "bloco": "escalada",
+   "say": "Mas eles cortavam os cabos das redes inglesas no meio do mar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cortavam"
+     }
+    ]
+   }
   },
   {
-   "say": "A Islândia ameaçou fechar a base da Otan e rompeu relações com a Inglaterra.",
-   "shot": "two",
-   "who": [
-    "ICE:1:stern",
-    "BRI:0:shock"
-   ],
-   "text": "OTAN",
-   "tat": 9,
-   "tstyle": "blue",
-   "mood": "march",
-   "detalhe": false,
-   "impact": true
-  },
-  {
-   "say": "Em mil novecentos e setenta e seis, a Inglaterra cedeu, e a zona de duzentas milhas se espalhou pelo mundo.",
    "shot": "wide",
    "who": [
     "BRI:0:pained:paper",
@@ -305,7 +395,6 @@
    "text": "VITÓRIA ISLANDESA",
    "tat": 12,
    "tstyle": "gold",
-   "mood": "playful",
    "interacao": "entregar",
    "props": [
     [
@@ -315,35 +404,75 @@
      1.2
     ]
    ],
-   "fachada": false
+   "fachada": false,
+   "bloco": "pagamento",
+   "say": "Em 1976, a Inglaterra cedeu. As duzentas milhas viraram regra no mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cedeu"
+     }
+    ]
+   }
   },
   {
-   "say": "Uma guerra inteira, por causa de um bacalhau.",
-   "shot": "close",
-   "who": [
-    "PES:0:laugh"
-   ],
+   "shot": "wide",
+   "who": [],
    "props": [
     [
-     "crate",
-     -1.8,
-     0.7,
+     "kit/barco_guarda",
+     2,
+     -13,
      1.0
     ],
     [
-     "kit/cod",
-     1.6,
-     1.8,
-     1.6,
-     {
-      "fixo": true
-     }
+     "kit/fishing_net",
+     6,
+     -14,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     15,
+     -27,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     18,
+     -44,
+     1.0
     ]
    ],
-   "text": "TUDO POR UM BACALHAU",
-   "tat": 13,
-   "tstyle": "brown",
-   "set": "harbor"
+   "text": "ISLÂNDIA VENCEU",
+   "tat": 16,
+   "tstyle": "blue",
+   "cx": 7,
+   "cz": -16,
+   "h": 4.5,
+   "d0": 34,
+   "d1": 30,
+   "detalhe": false,
+   "impact": true,
+   "fx": [
+    "splash@40"
+   ],
+   "sfx": [
+    "creak@40"
+   ],
+   "bloco": "loop",
+   "say": "Tudo por um bacalhau. Marinha grande não é invencível.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bacalhau"
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false,
@@ -382,5 +511,7 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/Cod_Wars"
  ],
- "duracao_ok": true
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: a Islandia venceu a marinha inglesa com uma arma que parecia piada. Pagamento: os cortadores de rede fizeram a Inglaterra ceder em 1976.",
+ "loop_frase_ok": true
 }

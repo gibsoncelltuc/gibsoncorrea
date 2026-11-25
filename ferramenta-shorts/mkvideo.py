@@ -1607,7 +1607,7 @@ def build_beat(k, b):
     if not b.get('interior') and light in ('day', 'noon', 'golden', 'dawn', 'dusk', 'desert') and not wx.get('rain') and not wx.get('snow') and b.get('passaros') is not False and (k % 2 == 0 or shot in WIDE):
         fx.append(f"{{ k: 'birds', a: {a}, b: {bb}, at: [X, DK + {num(4.5 + (k % 3) * 1.5)}, -30], n: {4 + k % 3}, dir: {1 if k % 4 < 2 else -1}, off: {8 + k * 7 % 14} }}")
     if b.get('text'):
-        st = TXT[b.get('tstyle', TXT_CYCLE[k % 4])]
+        st = TXT[b.get('tstyle', TXT_CYCLE[0] if (b.get('bloco') == 'loop' and _VIRAL) else TXT_CYCLE[k % 4])]   # loop: mesma cor de texto da 1a cena (emenda sem costura)
         off = int(b.get('tat', 0))
         up = {'close': 0.55, 'two': 0.46}.get(shot, 0.42)   # em plano fechado o texto sobe para nao cobrir o chapeu
         if b.get('titulo') or B.get('titulos') or shot in WIDE or shot == 'close' or b.get('veiculo') or k == len(beats) - 1 or len(b['text']) > 14:   # titulo flutuante so' a pedido ("titulo": true) ou em plano aberto

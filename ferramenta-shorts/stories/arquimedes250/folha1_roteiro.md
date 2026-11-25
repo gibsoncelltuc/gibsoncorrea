@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ninguém te conta: um gênio correu da banheira gritando pela rua.
 - Som ambiente: birds
 - Efeitos sonoros marcados: steps@10
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: grita (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @5 -> acao + som de efeito; encena: grita (up) @8 -> acao + som de efeito
 - Efeito visual marcado: dust@20
 - Texto na tela: EUREKA
 - Funcao na historia: GANCHO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, ao entrar na banheira, a água transbordou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@50, ding@70
-- Efeito + som nas palavras-chave: transbordou -> splash + som de efeito; encena: senta @0 -> acao + som de efeito
+- Efeito + som nas palavras-chave: transbordou -> splash + som de efeito; encena: senta @8 -> acao + som de efeito
 - Efeito visual marcado: ring@50, stars@70
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

@@ -62,14 +62,44 @@
     "CON:0:shock",
     "OFI:0:laugh"
    ],
-   "say": "A França foi à guerra contra o México por causa de uma conta de confeitaria.",
-   "riscos_ok": true,
    "impact": false,
    "batalha": false,
    "crowd": {
     "n": 0,
     "outfits": [],
     "march": false
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bolos"
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "A França foi à guerra contra o México por causa de bolos.",
+   "text": "GUERRA DOS BOLOS",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "CON:0:stern",
+    "FRA:0:grin"
+   ],
+   "shot_lock": true,
+   "bloco": "promessa",
+   "say": "E a conta nunca foi paga.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conta"
+     }
+    ]
    }
   },
   {
@@ -80,14 +110,24 @@
    ],
    "mapa": "MÉXICO",
    "mapa_at": 6,
-   "say": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
    "crowd": {
     "n": 0,
     "outfits": [],
     "march": false
    },
    "impact": false,
-   "batalha": false
+   "batalha": false,
+   "bloco": "prova",
+   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "loja"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -102,7 +142,6 @@
    "sfx": [
     "thump@50"
    ],
-   "say": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram.",
    "props": [
     [
      "kit/cake_table",
@@ -124,7 +163,18 @@
     ]
    ],
    "acao": "pega",
-   "shot_lock": true
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Em 1832, oficiais mexicanos saquearam a loja, segundo o confeiteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "saquearam"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -133,7 +183,17 @@
     "REI:0:neutral"
    ],
    "interior": "pedra",
-   "say": "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil."
+   "bloco": "prova",
+   "say": "Ele pediu sessenta mil pesos. A loja valia menos de mil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pediu"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -141,7 +201,17 @@
     "REI:0:stern"
    ],
    "interior": "pedra",
-   "say": "O governo francês juntou outras queixas e exigiu seiscentos mil pesos, mas o México não pagou."
+   "bloco": "escalada",
+   "say": "A França exigiu seiscentos mil pesos. O México recusou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "exigiu"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -158,12 +228,22 @@
    },
    "text": "A MARINHA",
    "titulo": true,
-   "say": "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México.",
    "batalha": false,
    "tiros": false,
    "impact": false,
    "shot_lock": true,
-   "set": "harbor"
+   "set": "harbor",
+   "bloco": "escalada",
+   "say": "Acontece que a França mandou navios de guerra e fechou os portos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -180,13 +260,23 @@
     "march": false,
     "expr": "shock"
    },
-   "say": "Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
    "set": "harbor",
    "fx": [],
    "sfx": [
     "cannon@30"
    ],
-   "props": []
+   "props": [],
+   "bloco": "escalada",
+   "say": "Canhões franceses bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombardearam"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -196,19 +286,27 @@
    "sfx": [
     "cannon@30"
    ],
-   "say": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
    "interior": "pedra",
    "impact": false,
    "acao": "nenhuma",
-   "verbos_ok": [
-    "enterr"
-   ],
    "text": "PERNA ENTERRADA COM HONRAS",
    "objetos": false,
    "fx": [
     "stars@20"
    ],
-   "shot_lock": true
+   "shot_lock": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "O general Santa Anna perdeu uma perna nessa guerra."
   },
   {
    "shot": "two",
@@ -217,17 +315,43 @@
     "FRA:0:neutral:coin"
    ],
    "text": "600.000",
-   "say": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e a França foi embora.",
-   "interior": "pedra"
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Em 1839, o México prometeu pagar, e a França foi embora.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prometeu"
+     }
+    ]
+   }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "CON:0:stern",
-    "FRA:0:grin"
+    "CON:0:shock",
+    "OFI:0:laugh"
    ],
-   "say": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um.",
-   "shot_lock": true
+   "impact": false,
+   "batalha": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "bloco": "loop",
+   "say": "Tudo por uma conta de bolos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bolos"
+     }
+    ]
+   }
   }
  ],
  "marco": "kit/marco_ulua",
@@ -272,5 +396,8 @@
    "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
   }
  },
- "min_momentos": 1
+ "min_momentos": 1,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a Franca atacou o Mexico por causa de bolos e a conta nunca foi paga. Pagamento: bombardeio, Veracruz tomada, o Mexico promete pagar em 1839.",
+ "loop_frase_ok": true
 }
