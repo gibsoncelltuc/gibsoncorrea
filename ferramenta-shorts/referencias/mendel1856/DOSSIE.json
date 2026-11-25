@@ -9,17 +9,11 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "loc_deserto",
    "loc_montanha"
   ],
   "cenarios_trocados": [
    [
     "video",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 12",
     "countryside",
     "loc_campo"
    ]

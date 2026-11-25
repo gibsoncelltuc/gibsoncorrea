@@ -15,5 +15,5 @@ b9 | wide | -  | batalha aberta com tiros, tropa, placa: GENÉTICA | encena: olh
 b10 | two | -  | tropa | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 46% | aberto 31% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 45% | aberto 31% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 5 | dentro do padrao do canal

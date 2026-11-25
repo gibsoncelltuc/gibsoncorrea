@@ -4,14 +4,9 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 
 ## Achados automaticos (ferramenta)
 1. b0: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-2. b2: objeto "kit/pea_yellow" saiu com 10% da altura da tela, a ficha de cena planejou 32%
-3. b2: objeto "kit/pea_green" saiu com 8% da altura da tela, a ficha de cena planejou 32%
-4. b3: objeto "kit/pea_yellow" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-5. b6: objeto "kit/pea_yellow" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-6. b6: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 32%
-7. b9: objeto "kit/pea_green" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-8. b9: objeto "kit/pea_yellow" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-9. b10: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+2. b9: objeto "kit/pea_green" saiu com 8% da altura da tela, a ficha de cena planejou 30%
+3. b9: objeto "kit/pea_yellow" saiu com 8% da altura da tela, a ficha de cena planejou 18%
+4. b10: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 
