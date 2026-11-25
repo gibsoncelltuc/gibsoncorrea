@@ -1,24 +1,45 @@
 {
  "fails": [
   {
-   "f": 144,
-   "shot": "b0~2",
+   "f": 1340,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.024, 0.339, 0.242, 0.668)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 147,
-   "shot": "b0~2",
+   "f": 1344,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.026, 0.338, 0.241, 0.669)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 560,
-   "shot": "b3~1",
+   "f": 1345,
+   "shot": "b7~3",
    "why": [
-    "men: head/torso cropped (box -0.029, 0.337, 0.314, 0.68)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+   ]
+  },
+  {
+   "f": 1348,
+   "shot": "b7~3",
+   "why": [
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+   ]
+  },
+  {
+   "f": 1352,
+   "shot": "b7~3",
+   "why": [
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
+   ]
+  },
+  {
+   "f": 1356,
+   "shot": "b7~3",
+   "why": [
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],
