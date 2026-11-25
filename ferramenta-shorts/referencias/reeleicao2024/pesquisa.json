@@ -31,12 +31,58 @@
   },
   {
    "tipo": "lugar",
+   "item": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi",
+   "consultas": [
+    "Estados Unidos",
+    "Estados Unidos 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/500px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AConstitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg",
+     "descricao": "0falsefalse English The Preamble and 1st Article of the Constitution of the \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/reeleicao2024/prints/estados_unidos_secoes_eleitorais_palm_be_57b53c.jpg",
+     "consulta": "Estados Unidos"
+    },
+    {
+     "titulo": "Glaciar Lamplugh, Parque Nacional Bahía del Glaciar, Alaska, Estados Unidos, 2017-08-19, DD 05-07 PAN.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg/500px-Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg",
+     "descricao": "Alaska, \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/reeleicao2024/prints/estados_unidos_secoes_eleitorais_palm_be_185b81.jpg",
+     "consulta": "Estados Unidos"
+    },
+    {
+     "titulo": "Glaciar Lamplugh, Parque Nacional Bahía del Glaciar, Alaska, Estados Unidos, 2017-08-19, DD 129-133 PAN.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_129-133_PAN.jpg/500px-Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_129-133_PAN.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_129-133_PAN.jpg",
+     "descricao": "DescriptionGlaciar Lamplugh, Parque Nacional Bahía del Glaciar, Alaska, \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/reeleicao2024/prints/estados_unidos_secoes_eleitorais_palm_be_7a8f7d.jpg",
+     "consulta": "Estados Unidos"
+    }
+   ]
+  },
+  {
+   "tipo": "lugar",
    "item": "Estados Unidos",
    "consultas": [
     "Estados Unidos 2024",
     "Estados Unidos landscape"
    ],
    "achados": [
+    {
+     "titulo": "ESTADOS UNIDOS LEVAM OURO NA GINÁSTICA FEMININA POR EQUIPES DOS JOGOS OLÍMPICOS RIO 2016 (28849586476).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ESTADOS_UNIDOS_LEVAM_OURO_NA_GIN%C3%81STICA_FEMININA_POR_EQUIPES_DOS_JOGOS_OL%C3%8DMPICOS_RIO_2016_%2828849586476%29.jpg/500px-ESTADOS_UNIDOS_LEVAM_OURO_NA_GIN%C3%81STICA_FEMININA_POR_EQUIPES_DOS_JOGOS_OL%C3%8DMPICOS_RIO_2016_%2828849586476%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AESTADOS_UNIDOS_LEVAM_OURO_NA_GIN%C3%81STICA_FEMININA_POR_EQUIPES_DOS_JOGOS_OL%C3%8DMPICOS_RIO_2016_%2828849586476%29.jpg",
+     "descricao": "indicate if changes were made. You may do so \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/estados_unidos_1a3ecf.jpg",
+     "consulta": "Estados Unidos 2024"
+    },
     {
      "titulo": "Embajada de Estados Unidos en Argentina - 7-3 2024 - EVENTO PUERTO BUENOS AIRES-39 (53572524497).jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Embajada_de_Estados_Unidos_en_Argentina_-_7-3_2024_-_EVENTO_PUERTO_BUENOS_AIRES-39_%2853572524497%29.jpg/500px-Embajada_de_Estados_Unidos_en_Argentina_-_7-3_2024_-_EVENTO_PUERTO_BUENOS_AIRES-39_%2853572524497%29.jpg",
@@ -53,15 +99,6 @@
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 5,
      "print": "referencias/reeleicao2024/prints/estados_unidos_d6f836.jpg",
-     "consulta": "Estados Unidos 2024"
-    },
-    {
-     "titulo": "Sundance Film Festival 2024 - Mitzi Akaha-104A3329.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sundance_Film_Festival_2024_-_Mitzi_Akaha-104A3329.jpg/500px-Sundance_Film_Festival_2024_-_Mitzi_Akaha-104A3329.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASundance_Film_Festival_2024_-_Mitzi_Akaha-104A3329.jpg",
-     "descricao": "for \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/reeleicao2024/prints/estados_unidos_2fc840.jpg",
      "consulta": "Estados Unidos 2024"
     }
    ]
@@ -84,12 +121,12 @@
      "consulta": "2024 fashion clothing"
     },
     {
-     "titulo": "GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe Fashion Tianhe Mall shop clothing October 2024 R12S 18.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_18.jpg/500px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_18.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_18.jpg",
+     "titulo": "GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe Fashion Tianhe Mall shop clothing October 2024 R12S 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_01.jpg/500px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_01.jpg",
      "descricao": "English GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/reeleicao2024/prints/roupas_e_ruas_de_2024_75e66f.jpg",
+     "print": "referencias/reeleicao2024/prints/roupas_e_ruas_de_2024_b35361.jpg",
      "consulta": "2024 fashion clothing"
     },
     {
@@ -97,9 +134,231 @@
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_22.jpg/500px-GD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_22.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AGD_%E5%BB%A3%E6%9D%B1_Guangdong_GZ_%E5%BB%A3%E5%B7%9E_Guangzhou_%E5%A4%A9%E6%B2%B3_Tianhe_Fashion_Tianhe_Mall_shop_clothing_October_2024_R12S_22.jpg",
      "descricao": "English GD 廣東 Guangdong GZ 廣州 Guangzhou 天河 Tianhe \\u003Cspan class=\\",
-     "ordem": 4,
+     "ordem": 3,
      "print": "referencias/reeleicao2024/prints/roupas_e_ruas_de_2024_3418d2.jpg",
      "consulta": "2024 fashion clothing"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Donald Trump (terno azul, gravata vermelha)",
+   "consultas": [
+    "Donald Trump terno azul gravata vermelha",
+    "Donald Trump terno azul gravata vermelha 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Donald Trump official portrait.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/500px-Donald_Trump_official_portrait.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ADonald_Trump_official_portrait.jpg",
+     "descricao": "portrait of \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/donald_trump_terno_azul_gravata_vermelha_2bb10d.jpg",
+     "consulta": "Donald Trump"
+    },
+    {
+     "titulo": "Kim Jong-un and Donald Trump impersonators.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kim_Jong-un_and_Donald_Trump_impersonators.jpg/500px-Kim_Jong-un_and_Donald_Trump_impersonators.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKim_Jong-un_and_Donald_Trump_impersonators.jpg",
+     "descricao": "English Howard X and Dennis Alan, impersonators of Kim Jong-un and \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/reeleicao2024/prints/donald_trump_terno_azul_gravata_vermelha_99ccaf.jpg",
+     "consulta": "Donald Trump"
+    },
+    {
+     "titulo": "President Trump Visits St. John's Episcopal Church (49963649028).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/President_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg/500px-President_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APresident_Trump_Visits_St._John%27s_Episcopal_Church_%2849963649028%29.jpg",
+     "descricao": "15 June 2020 English author name string: \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/reeleicao2024/prints/donald_trump_terno_azul_gravata_vermelha_34d8e4.jpg",
+     "consulta": "Donald Trump"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "apoiadores de bone vermelho",
+   "consultas": [
+    "apoiadores de bone vermelho",
+    "apoiadores de bone vermelho 2024"
+   ],
+   "achados": []
+  },
+  {
+   "tipo": "pessoas",
+   "item": "eleitores",
+   "consultas": [
+    "eleitores",
+    "eleitores 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "São Paulo - SP- Marina Silva visita casa de eleitores na zona sul (4769478242).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/S%C3%A3o_Paulo_-_SP-_Marina_Silva_visita_casa_de_eleitores_na_zona_sul_%284769478242%29.jpg/500px-S%C3%A3o_Paulo_-_SP-_Marina_Silva_visita_casa_de_eleitores_na_zona_sul_%284769478242%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AS%C3%A3o_Paulo_-_SP-_Marina_Silva_visita_casa_de_eleitores_na_zona_sul_%284769478242%29.jpg",
+     "descricao": "DescriptionSão Paulo - SP- Marina Silva visita casa de \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/reeleicao2024/prints/eleitores_0ec807.jpg",
+     "consulta": "eleitores"
+    },
+    {
+     "titulo": "Bpb, Mitgliederentwicklung von nicht im Bundestag vertretenen Parteien (2009-2020).png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bpb%2C_Mitgliederentwicklung_von_nicht_im_Bundestag_vertretenen_Parteien_%282009-2020%29.png/500px-Bpb%2C_Mitgliederentwicklung_von_nicht_im_Bundestag_vertretenen_Parteien_%282009-2020%29.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ABpb%2C_Mitgliederentwicklung_von_nicht_im_Bundestag_vertretenen_Parteien_%282009-2020%29.png",
+     "descricao": "Daten: X.1,BVB/FREIE WÄHLER,Die PARTEI,FAMILIE,FREIE WÄHLER,ÖDP,PIRATEN,Tierschutzpartei,BIW,Volt 2009,null,null,null,135,null,null,null,null,null 2010",
+     "ordem": 13,
+     "print": "referencias/reeleicao2024/prints/eleitores_9b485f.jpg",
+     "consulta": "eleitores"
+    }
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Kamala Harris (citada)",
+   "consultas": [
+    "Kamala Harris citada",
+    "Kamala Harris citada 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Kamala Harris Vice Presidential Portrait.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/500px-Kamala_Harris_Vice_Presidential_Portrait.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKamala_Harris_Vice_Presidential_Portrait.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/kamala_harris_citada__97d203.jpg",
+     "consulta": "Kamala Harris"
+    },
+    {
+     "titulo": "Kamala Harris swearing in Antony Blinken.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Kamala_Harris_swearing_in_Antony_Blinken.jpg/500px-Kamala_Harris_swearing_in_Antony_Blinken.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKamala_Harris_swearing_in_Antony_Blinken.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/reeleicao2024/prints/kamala_harris_citada__55adf0.jpg",
+     "consulta": "Kamala Harris"
+    },
+    {
+     "titulo": "Kamala Harris and the Oxford Kamalas.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Kamala_Harris_and_the_Oxford_Kamalas.jpg/500px-Kamala_Harris_and_the_Oxford_Kamalas.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKamala_Harris_and_the_Oxford_Kamalas.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/reeleicao2024/prints/kamala_harris_citada__7b7827.jpg",
+     "consulta": "Kamala Harris"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "urna e cedulas",
+   "consultas": [
+    "urna e cedulas",
+    "urna e cedulas 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Eleição - Presidente do Senado Federal (54300803329).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300803329%29.jpg/500px-Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300803329%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300803329%29.jpg",
+     "descricao": "criação dos estados e do Distrito Federal. Preenchida a \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/reeleicao2024/prints/urna_e_cedulas_5fdb87.jpg",
+     "consulta": "urna e cedulas"
+    },
+    {
+     "titulo": "Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira (page 42 crop).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_42_crop%29.jpg/500px-Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_42_crop%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_42_crop%29.jpg",
+     "descricao": "DescriptionTudo-o-que-voce-sempre-quis-saber-sobre-a-\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/urna_e_cedulas_34c679.jpg",
+     "consulta": "urna cedulas"
+    },
+    {
+     "titulo": "Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira (page 43 crop).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_43_crop%29.jpg/500px-Tudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_43_crop%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATudo-o-que-voce-sempre-quis-saber-sobre-a-urna-eletronica-brasileira_%28page_43_crop%29.jpg",
+     "descricao": "DescriptionTudo-o-que-voce-sempre-quis-saber-sobre-a-\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/reeleicao2024/prints/urna_e_cedulas_182f33.jpg",
+     "consulta": "urna cedulas"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bandeiras dos EUA",
+   "consultas": [
+    "bandeiras dos EUA",
+    "bandeiras dos EUA 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Hawaje-NoRedLine.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Hawaje-NoRedLine.jpg/500px-Hawaje-NoRedLine.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AHawaje-NoRedLine.jpg",
+     "descricao": "applies to jurisdiction: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/bandeiras_dos_eua_22d742.jpg",
+     "consulta": "bandeiras dos EUA"
+    },
+    {
+     "titulo": "Festa da Independência dos EUA em SP (54602596666).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Festa_da_Independ%C3%AAncia_dos_EUA_em_SP_%2854602596666%29.jpg/500px-Festa_da_Independ%C3%AAncia_dos_EUA_em_SP_%2854602596666%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFesta_da_Independ%C3%AAncia_dos_EUA_em_SP_%2854602596666%29.jpg",
+     "descricao": "Independência \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/reeleicao2024/prints/bandeiras_dos_eua_6ebe87.jpg",
+     "consulta": "bandeiras dos EUA"
+    },
+    {
+     "titulo": "US Capitol dome Jan 2006.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/US_Capitol_dome_Jan_2006.jpg/500px-US_Capitol_dome_Jan_2006.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUS_Capitol_dome_Jan_2006.jpg",
+     "descricao": "select \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/reeleicao2024/prints/bandeiras_dos_eua_8006ff.jpg",
+     "consulta": "bandeiras dos EUA"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "Casa Branca",
+   "consultas": [
+    "Casa Branca",
+    "Casa Branca 2024"
+   ],
+   "achados": [
+    {
+     "titulo": "Casa Branca de Gramido - Valbom, Gondomar - 03.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Casa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_03.jpg/500px-Casa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_03.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACasa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_03.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/reeleicao2024/prints/casa_branca_2f9414.jpg",
+     "consulta": "Casa Branca"
+    },
+    {
+     "titulo": "11.11.93 Casa Branca 1211.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/11.11.93_Casa_Branca_1211.jpg/500px-11.11.93_Casa_Branca_1211.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3A11.11.93_Casa_Branca_1211.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue 17 September 2025 English 1211 at \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/reeleicao2024/prints/casa_branca_e26926.jpg",
+     "consulta": "Casa Branca"
+    },
+    {
+     "titulo": "Casa Branca de Gramido - Valbom, Gondomar - 15.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Casa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_15.jpg/500px-Casa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_15.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACasa_Branca_de_Gramido_-_Valbom%2C_Gondomar_-_15.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/reeleicao2024/prints/casa_branca_818d76.jpg",
+     "consulta": "Casa Branca"
     }
    ]
   },
@@ -107,36 +366,27 @@
    "tipo": "heroi",
    "item": "ballot box",
    "consultas": [
-    "ballot box",
+    "urna e cedulas",
     "A Volta de Trump"
    ],
    "achados": [
     {
-     "titulo": "Glass ballot box - Smithsonian.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Glass_ballot_box_-_Smithsonian.jpg/500px-Glass_ballot_box_-_Smithsonian.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGlass_ballot_box_-_Smithsonian.jpg",
-     "descricao": "Electiontechnology 500×600 (34405 bytes) {{Information| |Description = A glass globe \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/reeleicao2024/prints/ballot_box_bd2da1.jpg",
-     "consulta": "ballot box"
+     "titulo": "Eleição - Presidente do Senado Federal (54300766688).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300766688%29.jpg/500px-Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300766688%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854300766688%29.jpg",
+     "descricao": "criação dos estados e do Distrito Federal. Preenchida a \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/reeleicao2024/prints/ballot_box_1bd349.jpg",
+     "consulta": "urna e cedulas"
     },
     {
-     "titulo": "ES&S M100 precinct-count ballot scanner.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ES%26S_M100_precinct-count_ballot_scanner.jpg/500px-ES%26S_M100_precinct-count_ballot_scanner.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AES%26S_M100_precinct-count_ballot_scanner.jpg",
-     "descricao": "license: English An ES\\u0026amp;S model 100 precinct-count scanner mounted on a \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/reeleicao2024/prints/ballot_box_c5cd80.jpg",
-     "consulta": "ballot box"
-    },
-    {
-     "titulo": "Overview of Ballot box of Czech municipal election 2022 at ZŠ Benešova in Třebíč, Třebíč District.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Overview_of_Ballot_box_of_Czech_municipal_election_2022_at_Z%C5%A0_Bene%C5%A1ova_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg/500px-Overview_of_Ballot_box_of_Czech_municipal_election_2022_at_Z%C5%A0_Bene%C5%A1ova_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AOverview_of_Ballot_box_of_Czech_municipal_election_2022_at_Z%C5%A0_Bene%C5%A1ova_in_T%C5%99eb%C3%AD%C4%8D%2C_T%C5%99eb%C3%AD%C4%8D_District.jpg",
-     "descricao": "DescriptionOverview of \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/reeleicao2024/prints/ballot_box_900a07.jpg",
-     "consulta": "ballot box"
+     "titulo": "Eleição - Presidente do Senado Federal (54299643072).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854299643072%29.jpg/500px-Elei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854299643072%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AElei%C3%A7%C3%A3o_-_Presidente_do_Senado_Federal_%2854299643072%29.jpg",
+     "descricao": "criação dos estados e do Distrito Federal. Preenchida a \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/reeleicao2024/prints/ballot_box_7bb1c3.jpg",
+     "consulta": "urna e cedulas"
     }
    ]
   },
