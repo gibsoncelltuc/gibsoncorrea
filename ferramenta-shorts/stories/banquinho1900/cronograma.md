@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Gerado em 25/11 15:41 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:43 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | countryside | two | CHE, ASH | - | - | - | Os líderes ashanti fi
 b5 | chave | countryside | crowd | ASH | 10 | forte_colonial | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram e cercaram o forte onde o governador estava.
 b6 | chave | jungle | orbit | SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados ingleses marcharam para salvar o governador preso, e a guerra
 b7 | simples | interior pedra | two | GOV, PRE | - | - | - | No fim, os ingleses venceram e a região virou colônia.
-b8 | simples | jungle | medium | CHE, ASH | - | golden_stool | - | Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram
+b8 | simples | jungle | two | CHE, ASH | - | golden_stool | - | Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram
 b9 | simples | countryside | wide | GOV | - | golden_stool | - | O governador ganhou a guerra, mas o banquinho nunca foi dele.
 b10 | simples | countryside | close | GOV | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

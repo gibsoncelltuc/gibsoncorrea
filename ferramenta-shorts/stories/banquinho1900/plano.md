@@ -10,7 +10,7 @@ b4 | two | -  | - | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa, placa: FORTE CERCADO | encena: chega (point) @4 (acao + som de efeito) | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | cavalaria: 4 soldados a cavalo (SOL) (acao + som de efeito); tiros: 5 soldados caem no chao (acao + som de efeito); marcharam (dust + som de impacto); encena: chega (point) @2 (acao + som de efeito) | -
 b7 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); venceram (stars + som de sino); encena: vence (up) @4 (acao + som de efeito) | -
-b8 | medium | -  | - | - | -
+b8 | two | -  | - | - | -
 b9 | wide | -  | tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 

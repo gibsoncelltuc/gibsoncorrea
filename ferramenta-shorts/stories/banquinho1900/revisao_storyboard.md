@@ -1,13 +1,12 @@
-# Revisao do storyboard - banquinho1900 (v2, 24/11, olhando o storyboard inteiro)
-pesquisa: Guerra do Banquinho Dourado (War of the Golden Stool) 1900, Costa do Ouro (Gana); governador Frederick Hodgson pede para sentar no Sika Dwa Kofi, banco sagrado ashanti (alma do povo); revolta liderada por Yaa Asantewaa cerca o forte de Kumasi; tropas britanicas chegam meses depois; banco escondido e nunca entregue
-b0: OK - "Um governador ingles pediu para sentar num banquinho" governador de branco e ashanti com o banquinho dourado e a placa 1900
-b1: OK - "os ingleses mandavam na Costa do Ouro, hoje Gana" mapa GANA e o povo ashanti na mata
-b2: OK - "Os ashanti tinham um banquinho dourado sagrado" chefe de turbante e ashanti com o banquinho dourado entre eles
-b3: OK - "o governador ingles exigiu o banquinho" governador bravo com o papel diante do chefe assustado na sala
-b4: OK - "Os lideres ashanti ficaram em choque" chefe e ashanti com cara de choque na vila
-b5: CORRIGIDO - um ashanti so diante do forte -> "Eles se revoltaram e cercaram o forte" grupo de ashanti bravos diante do forte colonial, texto FORTE CERCADO
-b6: CORRIGIDO - soldado cortado na borda -> "Soldados ingleses marcharam" tropa inglesa em sequencia de batalha (marcha, explosao, vista aberta)
-b7: OK - "os ingleses venceram e a regiao virou colonia" governador comemorando com o politico e o papel na sala
-b8: OK - "os ashanti esconderam o banquinho" chefe e ashanti sorrindo com o banquinho escondido na loja
-b9: OK - "o banquinho nunca foi dele" governador chorando ao lado do banquinho dourado; chamada final COMENTE
-defeitos procurados: cenario (vila ashanti e mata da Costa do Ouro), epoca (1900, forte colonial), tamanho (banquinho heroi grande, forte inteiro), cortado (ninguem cortado), multidao (povo ashanti e tropa inglesa com fardas proprias), legenda (texto no alto), acao (cada frase com a acao), objeto (banquinho no gancho e no fim)
+b0: OK - "Um governador ingles pediu para sentar num banquinho": governador e ashanti ao lado do banquinho dourado grande (gancho)
+b1: OK - "a Costa do Ouro, hoje Gana, terra do povo ashanti": mapa de Gana e povo ashanti na mata
+b2: OK - "um banquinho dourado sagrado, a alma do povo": banquinho dourado no meio do povo
+b3: OK - "o governador ingles exigiu o banquinho": governador bravo com papel diante do chefe assustado, banquinho ao fundo
+b4: OK - "Os lideres ashanti ficaram em choque": chefe e ashanti em choque e com raiva na aldeia
+b5: OK - "se revoltaram e cercaram o forte": ashanti bravos diante do forte, FORTE CERCADO
+b6: OK - "Soldados ingleses marcharam... a guerra seguiu por varios meses": tropa inglesa em batalha na mata
+b7: OK - "os ingleses venceram e a regiao virou colonia": governador aliviado e ministro com documento
+b8: CORRIGIDO - "os ashanti esconderam o banquinho": antes numa loja com estante de livros; agora na mata, chefe e ashanti rindo com o banquinho escondido
+b9: OK - "o banquinho nunca foi dele": governador triste ao lado do banquinho, COMENTE
+pesquisa: Guerra do Banquinho Dourado 1900, Gana (Kumasi), aldeia de cabanas de palha, forte colonial, banquinho dourado com sinos
+defeitos procurados: cenario (aldeia, forte e mata de Gana, certo), epoca (1900, sem nada moderno), tamanho (banquinho grande e visivel), cortado (ninguem), multidao (povo e tropa so onde a frase pede), legenda (texto acima), acao (batalha so na frase de guerra), objeto (banquinho heroi abre e fecha)

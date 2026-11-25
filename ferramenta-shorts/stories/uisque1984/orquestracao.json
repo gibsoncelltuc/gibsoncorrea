@@ -210,7 +210,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
     "CAN"
    ],
@@ -228,7 +228,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CAN"
    ],

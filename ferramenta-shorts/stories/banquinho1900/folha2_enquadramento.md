@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b8: "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
-- CAMERA: medium; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: CHE na esquerda, expressao smug; ASH na direita, expressao grin; sem multidao; acao: cochichar
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

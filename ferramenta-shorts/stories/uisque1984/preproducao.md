@@ -14,8 +14,8 @@ b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/te
 b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | kit/bandeira_dinamarca, kit/whisky, kit/tequila_bolt | - | -
 b8 | arctic | wide | 2 | encena | kit/whisky | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
-b10 | interior pedra | close | 1 | comemorar | kit/whisky | - | -
-b11 | interior pedra | two | 1 | conversar | - | - | -
+b10 | interior pedra | group | 1 | comemorar | kit/whisky | - | -
+b11 | interior pedra | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/whisky
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b5

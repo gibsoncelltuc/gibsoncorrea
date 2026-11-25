@@ -12,7 +12,7 @@ b4 | countryside | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b5 | countryside | crowd | 11 | encena, batalha | kit/forte_colonial | - | -
 b6 | jungle | orbit | 21 | encena, batalha | - | - | -
 b7 | interior pedra | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
-b8 | jungle | medium | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
+b8 | jungle | two | 2 | conversar, INTERAGEM: cochichar | kit/golden_stool | - | -
 b9 | countryside | wide | 1 | encena | kit/golden_stool | - | -
 b10 | countryside | close | 1 | conversar | - | - | -
 

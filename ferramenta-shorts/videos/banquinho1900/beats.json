@@ -370,7 +370,7 @@
    }
   },
   {
-   "shot": "medium",
+   "shot": "two",
    "who": [
     "CHE:0:smug",
     "ASH:0:grin"
@@ -394,24 +394,6 @@
      {
       "faz": "mostra",
       "na": "esconderam"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.4,
-   "d0": 8.0,
-   "d1": 7.0,
-   "quadro_manual": true,
-   "h": 1.8,
-   "quadro": {
-    "local": "mata tropical (arvores, cabanas)",
-    "camera": "medium; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/golden_stool",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    },

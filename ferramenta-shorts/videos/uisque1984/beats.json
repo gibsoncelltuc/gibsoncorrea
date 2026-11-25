@@ -404,9 +404,9 @@
    "props": [
     [
      "kit/bandeira_dinamarca",
-     7.0,
-     -14.0,
+     0.6,
      1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -443,7 +443,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "wide",
@@ -489,7 +490,7 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "CAN:0:smile"
    ],
@@ -533,7 +534,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "ano": 1984,
