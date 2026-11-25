@@ -1,185 +1,80 @@
 {
  "fails": [
   {
-   "f": 40,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.024, 0.446, 0.254, 0.754)"
-   ]
-  },
-  {
-   "f": 44,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.055, 0.441, 0.227, 0.756)"
-   ]
-  },
-  {
-   "f": 48,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.085, 0.447, 0.204, 0.768)"
-   ]
-  },
-  {
-   "f": 52,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.107, 0.439, 0.112, 0.765)"
-   ]
-  },
-  {
-   "f": 56,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.12, 0.442, 0.1, 0.771)"
-   ]
-  },
-  {
-   "f": 60,
-   "shot": "b0",
-   "why": [
-    "mus: head/torso cropped (box -0.127, 0.44, 0.095, 0.77)"
-   ]
-  },
-  {
    "f": 64,
-   "shot": "b0",
+   "shot": "b0_d",
    "why": [
-    "mus: head/torso cropped (box -0.132, 0.439, 0.09, 0.77)"
+    "empty: characters are in the scene but none is in frame"
    ]
   },
   {
-   "f": 65,
-   "shot": "b0~1",
+   "f": 86,
+   "shot": "b0_v",
    "why": [
-    "mus: head/torso cropped (box -0.132, 0.441, 0.091, 0.772)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 68,
-   "shot": "b0~1",
+   "f": 88,
+   "shot": "b0_v",
    "why": [
-    "mus: head/torso cropped (box -0.109, 0.453, 0.123, 0.791)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 948,
-   "shot": "b5~2",
+   "f": 92,
+   "shot": "b0_v",
    "why": [
-    "sta: head/torso cropped (box -0.028, 0.514, 0.214, 0.709)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 952,
-   "shot": "b5~2",
+   "f": 96,
+   "shot": "b0_v",
    "why": [
-    "sta: head/torso cropped (box -0.031, 0.514, 0.213, 0.711)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 956,
-   "shot": "b5~2",
+   "f": 100,
+   "shot": "b0_v",
    "why": [
-    "sta: head/torso cropped (box -0.034, 0.514, 0.214, 0.711)"
+    "empty take: no character in the take"
    ]
   },
   {
-   "f": 1380,
-   "shot": "b9",
+   "f": 104,
+   "shot": "b0_v",
    "why": [
-    "mus: head/torso cropped (box -0.029, 0.491, 0.189, 0.717)"
+    "jor: head/torso cropped (box 0.776, 0.239, 1.27, 0.84)"
    ]
   },
   {
-   "f": 1381,
-   "shot": "b9",
+   "f": 108,
+   "shot": "b0_v",
    "why": [
-    "mus: head/torso cropped (box -0.045, 0.49, 0.179, 0.719)"
+    "jor: head/torso cropped (box 0.707, 0.341, 1.077, 0.799)"
    ]
   },
   {
-   "f": 1384,
-   "shot": "b9",
+   "f": 808,
+   "shot": "b5",
    "why": [
-    "mus: head/torso cropped (box -0.085, 0.48, 0.148, 0.714)"
+    "mar: head/torso cropped (box -0.028, 0.414, 0.318, 0.815)"
    ]
   },
   {
-   "f": 1388,
-   "shot": "b9",
+   "f": 812,
+   "shot": "b5",
    "why": [
-    "mus: head/torso cropped (box -0.055, 0.491, 0.18, 0.732)"
+    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
    ]
   },
   {
-   "f": 1392,
-   "shot": "b9",
+   "f": 813,
+   "shot": "b5~1",
    "why": [
-    "mus: head/torso cropped (box -0.084, 0.478, 0.167, 0.725)"
-   ]
-  },
-  {
-   "f": 1396,
-   "shot": "b9",
-   "why": [
-    "mus: head/torso cropped (box -0.096, 0.492, 0.156, 0.746)"
-   ]
-  },
-  {
-   "f": 1400,
-   "shot": "b9",
-   "why": [
-    "mus: head/torso cropped (box -0.172, 0.478, 0.091, 0.739)"
-   ]
-  },
-  {
-   "f": 1404,
-   "shot": "b9",
-   "why": [
-    "mus: head/torso cropped (box -0.152, 0.493, 0.111, 0.756)"
-   ]
-  },
-  {
-   "f": 1408,
-   "shot": "b9",
-   "why": [
-    "mus: head/torso cropped (box -0.133, 0.477, 0.126, 0.739)"
-   ]
-  },
-  {
-   "f": 1411,
-   "shot": "b9",
-   "why": [
-    "mus: head/torso cropped (box -0.152, 0.488, 0.112, 0.753)"
-   ]
-  },
-  {
-   "f": 1412,
-   "shot": "b9~1",
-   "why": [
-    "mus: head/torso cropped (box -0.16, 0.492, 0.105, 0.758)"
-   ]
-  },
-  {
-   "f": 1416,
-   "shot": "b9~1",
-   "why": [
-    "mus: head/torso cropped (box -0.18, 0.485, 0.096, 0.755)"
-   ]
-  },
-  {
-   "f": 1420,
-   "shot": "b9~1",
-   "why": [
-    "mus: head/torso cropped (box -0.092, 0.52, 0.194, 0.797)"
-   ]
-  },
-  {
-   "f": 1528,
-   "shot": "b9~2",
-   "why": [
-    "mus: head/torso cropped (box -0.032, 0.416, 0.29, 0.747)"
+    "mar: head/torso cropped (box -0.03, 0.414, 0.317, 0.815)"
    ]
   }
  ],
