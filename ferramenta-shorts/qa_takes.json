@@ -1,4 +1,341 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 922,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 924,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 928,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 932,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 936,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 940,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 944,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 948,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 952,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 956,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 960,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 964,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 968,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 972,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 976,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 980,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 984,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 988,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 992,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 996,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1000,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1004,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1008,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1012,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1013,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1016,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1020,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1024,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1028,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1032,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1036,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1040,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1044,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1048,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1052,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1056,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1060,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1064,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1068,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1072,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1076,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1080,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1084,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1088,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1092,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1096,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1100,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 1104,
+   "shot": "b6",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  }
+ ],
  "tiny": []
 }
