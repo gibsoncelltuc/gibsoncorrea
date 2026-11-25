@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: encena: examina (point) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (point) @1 -> acao + som de efeito; encena: x_espera (point) @8 -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

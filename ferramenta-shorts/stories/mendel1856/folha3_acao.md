@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -47,10 +47,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | cruzou (11.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra cruzou (11.6s): executa: examina com lupa/microscopio/balanca
+- ACAO: x_espera na palavra esperou (14.3s): executa: espera de bracos cruzados
 <!-- /FISICA -->
 
 ## Cena b3 - 16.7s a 20.6s - 12 palavras - plano two

@@ -199,7 +199,8 @@
      {
       "faz": "x_espera",
       "na": "esperou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
