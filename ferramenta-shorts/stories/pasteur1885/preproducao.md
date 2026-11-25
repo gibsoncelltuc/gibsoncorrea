@@ -8,7 +8,7 @@ b0 | street | two | 1 | conversar | kit/syringe | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b3 | interior madeira | two | 1 | conversar | kit/syringe | - | -
-b4 | interior madeira | close | 1 | conversar | dog | - | -
+b4 | interior madeira | close | 3 | conversar | dog | - | -
 b5 | interior loja | close | 1 | reagir | - | - | -
 b6 | hall | orbit | 1 | encena, batalha | kit/syringe | - | -
 b7 | interior madeira | track | 2 | andando | - | - | -

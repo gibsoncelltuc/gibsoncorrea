@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito; animal: dog entra caminhando -> acao + som de efeito; chegou -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito; animal: dog entra caminhando -> acao + som de efeito; chegou -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
