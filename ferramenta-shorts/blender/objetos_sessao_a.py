@@ -24,12 +24,16 @@ bola((0, .82, 0), .34, P, .38, rot=(math.pi / 2, 0, 0)); bola((0, .5, 0), .17, P
 arco((0, .84, .07), .3, P2, .05, de=-.4, ate=math.pi + .4); arco((0, .84, .1), .19, P2, .045, de=.1, ate=math.pi - .1)                       # borda e dobra interna
 bola((.0, .52, .12), .06, P2); bola((-.05, .7, .1), .09, P2, .4, rot=(math.pi / 2, 0, 0))
 fim(.015)
-novo('golden_stool')                                  # banquinho dourado ashanti (herói do EP 13)
-GD, GL = '#d9a630', '#f2d060'
-bola((0, .08, 0), .5, GD, .3); cil((0, .3, 0), .13, .4, GL); cil((-.3, .27, 0), .09, .34, GD); cil((.3, .27, 0), .09, .34, GD); cil((0, .3, .2), .08, .4, GD); cil((0, .3, -.2), .08, .4, GD)
-for z in (-.24, -.12, 0, .12, .24): arco((0, .98, z), .56, GL, .07, de=math.pi * 1.18, ate=math.pi * 1.82)                                   # assento curvo em arco
-for x in (-.55, .55): bola((x, .64, 0), .13, GD, 1.3)
-arco((0, .98, .0), .5, '#b0282f', .03, de=math.pi * 1.25, ate=math.pi * 1.75)
+novo('golden_stool')                                  # 25/11 refeito pela foto de 1935 (Wikimedia): base RETANGULAR, coluna central + 4 colunas em volta, assento curvo em sela, tudo OURO; sinos e mascaras penduradas
+GD, GL, GE = '#d9a630', '#f2d060', '#b0802a'
+caixa((0, .06, 0), (1.1, .12, .62), GD); caixa((0, .14, 0), (1.0, .04, .54), GL)                       # base retangular
+cil((0, .45, 0), .14, .62, GL, lados=16)                                                              # coluna central
+for x, z in ((-.32, -.16), (.32, -.16), (-.32, .16), (.32, .16)): cil((x, .45, z), .06, .62, GD, lados=10)   # 4 colunas
+for z in (-.26, -.13, 0, .13, .26): arco((0, 1.32, z), .62, GL, .07, de=math.pi * 1.2, ate=math.pi * 1.8)   # assento em sela
+for x in (-.6, .6): cil((x, .86, 0), .1, .62, GD, rot=(math.pi / 2, 0, 0), lados=12)                 # pontas do assento
+for x in (-.58, .58):                                                                                 # sinos de ouro pendurados nas pontas
+    tubo([(x, .82, .3), (x, .62, .36)], .012, GE); cil((x, .55, .36), .07, .12, GE, raio_topo=.03, lados=10)
+for x in (-.25, .25): bola((x, .42, .34), .1, GE, .4)                                                 # mascaras de ouro
 fim(.02)
 novo('scroll')                                        # pergaminho do tratado de paz (herói do EP 14): rolo deitado sobre suporte, laço e selo
 cil((0, .08, 0), .55, .16, '#7a4a26'); cil((0, .17, 0), .5, .04, '#a8703c')
