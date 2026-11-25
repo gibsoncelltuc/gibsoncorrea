@@ -361,36 +361,36 @@
    "props": [
     [
      "kit/pea_yellow",
-     1.3,
-     0.2,
-     3.0,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/pea_yellow",
-     1.9,
-     -0.6,
-     3.0,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/pea_yellow",
      0.6,
-     -1.0,
-     3.0,
+     0.4,
+     2.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     1.1,
+     -0.4,
+     2.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     0.2,
+     -0.8,
+     2.8,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_green",
-     -1.9,
-     0.3,
-     3.8,
+     -1.4,
+     0.4,
+     3.4,
      {
       "fixo": true
      }
