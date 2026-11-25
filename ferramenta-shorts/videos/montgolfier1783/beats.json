@@ -87,7 +87,6 @@
      }
     ]
    ],
-   "text": "1783",
    "fx": [
     "stars@30"
    ],
@@ -113,6 +112,16 @@
      }
     ]
    },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ovelha"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -128,10 +137,19 @@
    "mapa": "FRANÇA",
    "mapa_at": 3,
    "say": "Era mil setecentos e oitenta e três, na França.",
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "França"
+     }
+    ]
+   }
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "JOS:0:surprised",
     "ETI:0:suspicious"
@@ -141,7 +159,7 @@
      "kit/campfire",
      0.0,
      -1.2,
-     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -154,9 +172,21 @@
     "whoosh@40"
    ],
    "say": "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem.",
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viram",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "group",
    "quadro": {
-    "local": "vila medieval",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
+    "local": "sala de madeira",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e campfire juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/campfire",
@@ -169,22 +199,35 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "interior": "madeira"
+   "d1": 11.5
   },
   {
    "shot": "wide",
-   "interior": "madeira",
-   "who": [
-    "ETI:0:grin"
-   ],
-   "acao": "conversar",
+   "who": [],
    "props": [
     [
      "kit/balloon",
      0.0,
-     -19.3,
-     8.22,
+     -8.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/fire",
+     0.0,
+     -5.8,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/campfire",
+     0.0,
+     -5.8,
+     1.2,
      {
       "fixo": true
      }
@@ -196,23 +239,36 @@
    "crowd": {
     "n": 0
    },
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/balloon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "balão"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "set": "loc_campo",
+   "fx": [
+    "puff@40"
+   ],
+   "explica": {
+    "objeto": "kit/balloon",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "AR QUENTE SOBE",
+      "topo",
+      "quente"
+     ],
+     [
+      "BALAO DE PANO E PAPEL",
+      "baixo",
+      "balão"
+     ]
+    ]
+   },
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -222,7 +278,16 @@
    ],
    "acao": "discutir",
    "say": "Só que ninguém sabia se dava para respirar lá em cima.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "respirar"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -232,28 +297,33 @@
    "animals": [
     [
      "sheep",
-     1.0,
-     -1.2
+     -0.9,
+     -1.3,
+     "stand",
+     1.5
     ],
     [
      "duck",
-     -0.9,
-     -1.3
+     0.9,
+     -1.4,
+     "stand",
+     1.5
     ],
     [
      "rooster",
-     0.2,
-     -1.0
+     0.0,
+     -1.6,
+     "stand",
+     1.5
     ]
    ],
-   "interacao": "entregar",
    "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
    "props": [
     [
      "kit/balloon",
      0.0,
-     -19.3,
-     8.22,
+     -4.0,
+     4.5,
      {
       "fixo": true
      }
@@ -265,7 +335,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "vila medieval",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -276,17 +346,28 @@
      }
     ]
    },
-   "cx": 0.0,
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cesta"
+     }
+    ]
+   },
+   "cx": 0.4,
    "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "set": "medieval"
+   "h": 1.4,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "REI:0:smile"
+    "REI:0:surprised",
+    "RAI:0:smile"
    ],
    "batalha": false,
    "tiros": false,
@@ -299,17 +380,7 @@
     "march": false,
     "expr": "shock"
    },
-   "props": [
-    [
-     "kit/balloon",
-     0.0,
-     -19.3,
-     8.22,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "fx": [
     "ring@30"
    ],
@@ -320,7 +391,7 @@
    "fachada": false,
    "detalhe": false,
    "quadro": {
-    "local": "praia / palacio",
+    "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
@@ -331,12 +402,24 @@
      }
     ]
    },
+   "set": "street",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "assistiram",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "set": "street"
+   "cz": -0.5,
+   "h": 1.5,
+   "d0": 8.0,
+   "d1": 6.5,
+   "objetos": false,
+   "quadro_manual": true
   },
   {
    "shot": "wide",
@@ -347,13 +430,9 @@
     [
      "kit/balloon_air",
      0.0,
-     -19.3,
-     8.22,
+     -8.0,
+     4.5,
      {
-      "mover": [
-       7.0,
-       -19.3
-      ],
       "fixo": true
      }
     ]
@@ -380,19 +459,30 @@
       "objeto": "kit/balloon_air",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
-      "estado": "indo embora"
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "medieval",
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
      }
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "set": "medieval"
+   "cz": -3.0,
+   "h": 9.0,
+   "d0": 26.0,
+   "d1": 24.0,
+   "quadro_manual": true
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "ETI:0:nervous"
    ],
@@ -400,8 +490,8 @@
     [
      "kit/balloon",
      0.0,
-     -19.3,
-     8.22,
+     -9.0,
+     4.5,
      {
       "fixo": true
      }
@@ -415,9 +505,35 @@
    "crowd": {
     "n": 0
    },
+   "animals": [
+    [
+     "sheep",
+     1.2,
+     0.3
+    ],
+    [
+     "duck",
+     -1.2,
+     0.4
+    ],
+    [
+     "rooster",
+     -1.8,
+     0.8
+    ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bosque"
+     }
+    ]
+   },
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/balloon",
@@ -427,52 +543,40 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "animals": [
-    [
-     "sheep",
-     1.6,
-     0.6
-    ],
-    [
-     "duck",
-     -1.6,
-     0.8
-    ],
-    [
-     "rooster",
-     -2.4,
-     1.2
-    ]
-   ]
+   "cz": -0.5,
+   "h": 1.8,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "shot": "wide",
    "who": [
-    "POV:0:laugh"
+    "POV:0:shock",
+    "POV:1:laugh"
    ],
    "batalha": false,
    "tiros": false,
-   "acao": "comemorar",
    "crowd": {
-    "n": 0
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
    },
    "props": [
     [
      "kit/balloon_air",
-     -7.0,
-     -19.3,
-     8.22,
+     1.0,
+     -16.0,
+     4.5,
      {
-      "mover": [
-       0.0,
-       -19.3
-      ],
-      "fixo": true
+      "fixo": true,
+      "y": 6.5
      }
     ]
    ],
@@ -484,29 +588,28 @@
     "ding@20",
     "ding@60"
    ],
-   "text": "VOAMOS",
+   "text": "SOBRE PARIS",
    "titulo": true,
    "say": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
      {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "chegando"
+      "faz": "mostra",
+      "na": "balão"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "set": "street"
+   "cx": 0.5,
+   "cz": -6.0,
+   "h": 1.4,
+   "d0": 20.0,
+   "d1": 17.0,
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "shot": "wide",
@@ -540,8 +643,8 @@
     [
      "kit/balloon",
      0.0,
-     -19.3,
-     8.22,
+     -9.0,
+     4.5,
      {
       "fixo": true
      }
@@ -565,12 +668,69 @@
      }
     ]
    },
+   "set": "countryside",
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bichos"
+     }
+    ]
+   },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "set": "loc_montanha"
+   "cz": -3.0,
+   "h": 2.4,
+   "d0": 13.0,
+   "d1": 12.0,
+   "quadro_manual": true
+  },
+  {
+   "who": [
+    "JOS:0:grin"
+   ],
+   "shot": "two",
+   "say": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "text": "COMENTE!",
+   "_cta": true,
+   "detalhe": false,
+   "mapa": null,
+   "set": "street",
+   "objetos": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -12.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 3.0,
+   "d0": 14.0,
+   "d1": 12.0,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 0.81,

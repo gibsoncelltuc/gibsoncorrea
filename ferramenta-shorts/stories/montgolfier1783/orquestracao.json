@@ -13,17 +13,17 @@
    "loc_campo"
   ],
   [
-   "cena 6",
-   "medieval",
-   "loc_campo"
-  ],
-  [
    "cena 8",
    "medieval",
    "loc_campo"
   ],
   [
    "cena 9",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 11",
    "countryside",
    "loc_campo"
   ]
@@ -55,7 +55,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "reveal",
    "personagens": [
     "POV",
     "POV"
@@ -67,20 +67,14 @@
    "palavras": 9,
    "cena": "b1",
    "frase": "Era mil setecentos e oitenta e três, na França.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "JOS",
     "ETI"
@@ -100,21 +94,27 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "ETI"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/campfire",
+    "kit/fire"
    ],
    "palavras": 13,
    "cena": "b3",
    "frase": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/balloon (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -146,20 +146,26 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
    "camera": "crowd",
    "personagens": [
-    "REI"
+    "REI",
+    "RAI"
    ],
    "multidao": 30,
    "objetos": [
-    "kit/balloon",
     "kit/marco_versalhes"
    ],
    "palavras": 15,
@@ -198,41 +204,31 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "ETI"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
-    "kit/marco_versalhes",
-    "nature/bush",
-    "nature/tree_oak",
-    "nature/tree_pine"
+    "kit/balloon"
    ],
    "palavras": 21,
    "cena": "b8",
    "frase": "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu.",
-   "classe": "chave",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "desce do ar com o jato embaixo e pousa nas rodas com onda de ar e poeira",
-    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
-    "luz": "luz do propulsor acompanha o objeto",
-    "camera": "camera segue o objeto",
-    "som": "som na palavra da acao"
-   },
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
    "camera": "wide",
    "personagens": [
+    "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
-    "kit/balloon",
     "kit/balloon_air",
     "kit/marco_versalhes"
    ],
@@ -262,7 +258,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -270,7 +266,9 @@
     "JOS"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/balloon"
+   ],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
@@ -278,7 +276,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "street"
   }
  ]
 }
