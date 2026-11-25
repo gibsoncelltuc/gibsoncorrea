@@ -6,7 +6,7 @@
  "title": "A Torre que Pegou um Foguete no Ar",
  "titulo_base": "A Torre que Pegou um Foguete no Ar",
  "set": "harbor",
- "light": "day",
+ "light": "golden",
  "mood": "playful",
  "heroi": "kit/tower_mini",
  "outfits": {
@@ -798,5 +798,7 @@
    "torre": "Mechazilla chopsticks catch Super Heavy booster",
    "base": "Starbase Boca Chica launch tower"
   }
- }
+ },
+ "exp": 1.008,
+ "cinf": 4.5
 }

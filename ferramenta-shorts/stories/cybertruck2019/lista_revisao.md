@@ -3,8 +3,8 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b3: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. SUSPEITA b3: a frase fala de MUITA GENTE e a cena tem 1 pessoa(s) e nenhuma multidao
+1. b3~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b3: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Uma picape blindada teve as janelas quebradas ao vivo,": 

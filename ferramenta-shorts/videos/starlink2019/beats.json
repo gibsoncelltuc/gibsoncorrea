@@ -599,7 +599,7 @@
    "d1": 11.5
   }
  ],
- "exp": 1.0,
+ "exp": 1.404,
  "fontes": [
   "https://spaceweatherarchive.com/2019/05/29/starlink-satellite-flares/",
   "https://www.cbc.ca/lite/story/1.5151266",
@@ -638,5 +638,6 @@
    "fila": "Starlink satellite train night sky 2019",
    "foguete": "Falcon 9 Starlink launch May 2019"
   }
- }
+ },
+ "cinf": 1.5
 }

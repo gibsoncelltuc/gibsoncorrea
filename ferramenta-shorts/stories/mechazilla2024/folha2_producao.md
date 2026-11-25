@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/mechazilla2024/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py mechazilla2024` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Elon Musk mandou construir uma torre com braços gigantes, para pegar u...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao grin); ENG (variante 0, expressao surprised)
@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: day
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; ENG na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/tower_mini: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b1 - Foi em outubro de dois mil e vinte e quatro, na base de foguetes da Sp...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: day
+- LOCAL: loc_campo; hora: golden
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -49,7 +49,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b2 - Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre ...
-- Cenario: loc_deserto | luz: day | clima: limpo
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao worried, segura paper) | multidao: 0 de POV
@@ -60,7 +60,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_deserto; hora: day
+- LOCAL: loc_deserto; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 2.7 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao worried, segura paper; sem multidao; acao: discutir
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.8 m de altura x 1.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -71,7 +71,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b3 - A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a...
-- Cenario: loc_deserto | luz: day | clima: limpo
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (0): - | multidao: 0 de POV
@@ -89,7 +89,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENA (variante 0, expressao laugh) | multidao: 0 de POV
@@ -100,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: day
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 3.3 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao laugh; sem multidao; acao: conversar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 9.5 m de altura x 3.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -111,7 +111,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - No dia do teste, o propulsor gigante decolou com trinta e três motores...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de POV
@@ -122,7 +122,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: day
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.1 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -137,7 +137,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Minutos depois, ele voltou descendo de ré, direto na direção da torre.
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao nervous) | multidao: 0 de POV
@@ -148,7 +148,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: day
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o booster_air (alvo z -2.0, camera a 20.0 m, altura 3.5 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/booster_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 10.1 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b7 - Acontece que, no último segundo, os braços se fecharam, e seguraram o ...
-- Cenario: loc_patio | luz: day | clima: limpo
+- Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENA (variante 0, expressao scared) | multidao: 0 de POV
@@ -172,7 +172,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: day
+- LOCAL: loc_patio; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ENA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 15.2 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -185,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - Os engenheiros comemoraram: era a primeira vez na história.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de POV
@@ -196,7 +196,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: day
+- LOCAL: loc_campo; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tower_catch (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/tower_catch: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -209,7 +209,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b9 - Assim, o propulsor que antes ia para o lixo pode voar de novo, várias ...
-- Cenario: loc_deserto | luz: day | clima: limpo
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (0): - | multidao: 0 de POV
@@ -227,7 +227,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Parece filme de robô gigante, mas é engenharia.
-- Cenario: loc_deserto | luz: day | clima: limpo
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MUS (variante 0, expressao smile)
@@ -238,7 +238,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_deserto; hora: day
+- LOCAL: loc_deserto; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tower_mini juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/tower_mini: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -247,7 +247,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_deserto | luz: day | clima: limpo
+- Cenario: loc_deserto | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MUS (variante 0, expressao grin)

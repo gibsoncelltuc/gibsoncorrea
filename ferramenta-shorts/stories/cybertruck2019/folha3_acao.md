@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.4s - 12 palavras - plano two
@@ -44,7 +44,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b3 - 18.4s a 21.9s - 13 palavras - plano wide
+## Cena b3 - 18.4s a 21.9s - 13 palavras - plano two
 > "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia."
 
 - LEITURA DA FRASE: sentido FATO
@@ -53,12 +53,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: reagir
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b4 - 23.1s a 29.5s - 19 palavras - plano wide
@@ -113,7 +116,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 8: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b7 - 43.2s a 48.2s - 16 palavras - plano group
+## Cena b7 - 43.2s a 48.2s - 16 palavras - plano orbit
 > "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape."
 
 - LEITURA DA FRASE: sentido FATO
@@ -121,18 +124,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 146 MIL RESERVAS | OK |
+| 1 | - | PLACA | 146 MIL RESERVAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 49.3s a 53.3s - 15 palavras - plano two
+## Cena b8 - 49.3s a 53.3s - 15 palavras - plano group
 > "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."
 
 - LEITURA DA FRASE: sentido FATO

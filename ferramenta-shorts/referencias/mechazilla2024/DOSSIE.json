@@ -5,7 +5,7 @@
   "ano": 2024,
   "era": "atual (1950+)",
   "regiao": null,
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
    "loc_campo",
    "loc_deserto",

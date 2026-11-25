@@ -73,10 +73,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao shock) | multidao: 30 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): MUS (variante 0, expressao shock); DSG (variante 0, expressao nervous) | multidao: 12 de POV
+- Animacao: reagir | interacao: susto | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, plateia, vidro
 - RISCOS: nenhum
@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: dia
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: MUS no centro, expressao shock; sem multidao; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto
+- PERSONAGENS: MUS na esquerda, expressao shock; DSG na direita, expressao nervous; multidao de 12 (DSG, MUS) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/cybertruck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 7.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +3 da cena
 - SOM: thump@3
@@ -161,10 +161,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarent...
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: -
 - Objetos/modelos: kit/globe, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento, picape
 - RISCOS: nenhum
@@ -184,7 +184,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam...
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: comemorar | interacao: pular
@@ -227,8 +227,8 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/steel_ball | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 12% | medio 40% | aberto 40% | detalhe 7%
-- Interacoes: b7 aproxima-se, b8 pular
+- Objeto heroi: kit/steel_ball | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 10% | medio 37% | aberto 47% | detalhe 5%
+- Interacoes: b3 susto, b8 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

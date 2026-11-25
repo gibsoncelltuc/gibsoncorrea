@@ -245,9 +245,10 @@
   },
   {
    "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "MUS:0:shock"
+    "MUS:0:shock",
+    "DSG:0:nervous"
    ],
    "fx": [
     "burst@3"
@@ -257,12 +258,12 @@
    ],
    "impact": true,
    "crowd": {
-    "n": 14,
+    "n": 12,
     "outfits": [
-     "POV"
+     "DSG",
+     "MUS"
     ],
-    "march": false,
-    "expr": "shock"
+    "march": false
    },
    "props": [
     [
@@ -284,7 +285,7 @@
    "detalhe": false,
    "quadro": {
     "local": "salao",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o cybertruck (alvo z -3.6, camera a 10.6 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/cybertruck",
@@ -305,11 +306,14 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.1,
-   "d1": 10.6
+   "cx": 0,
+   "cz": -2,
+   "h": 1.8,
+   "d0": 10.0,
+   "d1": 9.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "_susp_ok": true
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
@@ -498,7 +502,7 @@
      "kit/phone",
      3.6,
      -2.0,
-     0.9,
+     1.5,
      {
       "fixo": true
      }
