@@ -1,15 +1,15 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 22 - A Praga da Dança
 
-Gerado em 25/11 17:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 22:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | medieval | two | TRO, POV | - | marco_viena | - | Uma mulher começou a dançar na rua e não conseguiu parar.
-b1 | simples | interior madeira | two | MED, POV | - | - | - | E até hoje ninguém sabe ao certo por quê.
+b1 | simples | medieval | reveal | MED, POV | 8 | - | - | E até hoje ninguém sabe ao certo por quê.
 b2 | simples | medieval | two | TRO, POV | - | marco_viena | - | Em 1518, em Estrasburgo, ela dançou por uma semana.
-b3 | chave | street | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos dias, mais de trinta pessoas dançavam também.
+b3 | chave | medieval | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos dias, mais de trinta pessoas dançavam também.
 b4 | simples | medieval | group | POV, TRO, POV, POV | 36 | - | - | Em agosto, eram centenas, com os pés sangrando.
 b5 | simples | interior pedra | two | PRE, MED | - | - | - | Os médicos culparam o sangue quente e receitaram mais dança.
 b6 | chave | hall | orbit | MUS, MUS | 12 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a cidade contratou músicos para manter todos dançando.

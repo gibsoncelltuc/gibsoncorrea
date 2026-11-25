@@ -8,7 +8,6 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
-   "interior loja",
    "interior pedra",
    "loc_campo",
    "loc_estudio"
@@ -35,14 +34,12 @@
   "kit/marco_zanzibar",
   "kit/navio_vapor",
   "kit/navio_vapor_guerra",
-  "kit/room_africa_shop",
-  "kit/room_europa_stone",
+  "kit/room_africa_stone",
   "kit/throne",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
-  "mk/Nightstand_Shelf",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
   "war/flagpole"
  ],
  "pesquisa_visual": {

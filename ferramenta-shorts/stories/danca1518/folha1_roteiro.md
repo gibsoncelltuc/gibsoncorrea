@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b1  (~3.1 s)
 - Narracao: E até hoje ninguém sabe ao certo por quê.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 
 ## Cena b3  (~3.1 s)
 - Narracao: Em poucos dias, mais de trinta pessoas dançavam também.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: encena: danca (up) @7 -> acao + som de efeito
 - Efeito visual marcado: ring@12, dust@40
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 - Narracao: Em agosto, eram centenas, com os pés sangrando.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40, thump@90
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: danca (point) @3 -> acao + som de efeito; encena: grita (up) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@40, dust@90
 - Texto na tela: 50 A 400
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: medieval
 - Narracao: Acontece que a cidade contratou músicos para manter todos dançando.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: músicos -> stars + som de sino; dançando -> stars + som de sino
+- Efeito + som nas palavras-chave: músicos -> stars + som de sino; dançando -> stars + som de sino; encena: danca (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: SALÃO
 - Funcao na historia: GRANDE MOMENTO

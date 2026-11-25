@@ -35,12 +35,12 @@
    "cenario": "medieval"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
     "MED",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [],
    "palavras": 9,
    "cena": "b1",
@@ -49,7 +49,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "medieval"
   },
   {
    "camera": "two",
@@ -93,7 +93,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "medieval"
   },
   {
    "camera": "group",

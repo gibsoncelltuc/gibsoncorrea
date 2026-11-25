@@ -7,7 +7,7 @@
 - Roupas: {'SUL': 'tunica branca, turbante e capa de sultao', 'GUA': 'guarda zanzibari de camisa clara e turbante', 'ING': 'marinheiro britanico de farda branca e azul', 'ALM': 'diplomata alemao de terno claro'}
 - Cenario real: palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896
 - Objetos: ['navio de guerra britanico', 'canhao antigo', 'bandeira do sultao', 'palacio de madeira em chamas']
-- Cenarios usados no video: harbor, interior loja, interior pedra, loc_campo, loc_estudio
+- Cenarios usados no video: harbor, interior pedra, loc_campo, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
 - Proibido pelo roteiro: -
 

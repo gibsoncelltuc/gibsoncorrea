@@ -213,12 +213,14 @@
      {
       "faz": "danca",
       "na": "centenas",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "grita",
       "na": "centenas",
-      "quem": 1
+      "quem": 1,
+      "forcar": true
      }
     ]
    }
@@ -267,7 +269,8 @@
      {
       "faz": "danca",
       "na": "contratou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 87 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 87 palavras (~30 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~3.1 s)
 - Narracao: A bala destruiu a chaleira de sopa no convés.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: thump@55, ding@58
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@50, puff@55

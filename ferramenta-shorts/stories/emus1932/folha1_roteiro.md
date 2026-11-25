@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 
 - Narracao: Um exército perdeu uma guerra contra pássaros.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: EXÉRCITO × EMUS
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 
 - Narracao: Uma metralhadora num caminhão sacudia tanto que ninguém acertava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -68,20 +68,20 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 
 ## Cena b7  (~3.4 s)
 - Narracao: O major comparou os emus a tanques. A imprensa riu.
 - Som ambiente: birds
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @9 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: sai (point) @9 -> acao + som de efeito
+- Efeito visual marcado: -
 - Texto na tela: HA HA HA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b8  (~2.8 s)
 - Narracao: Seis dias, milhares de balas, poucos emus abatidos.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: 6 DIAS
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~2.8 s)
 - Narracao: Exército zero, emus um. E foi assim que...

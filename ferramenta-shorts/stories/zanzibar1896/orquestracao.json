@@ -29,11 +29,11 @@
    "cenario": "harbor"
   },
   {
-   "camera": "close",
+   "camera": "reveal",
    "personagens": [
     "ALM"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [],
    "palavras": 7,
    "cena": "b1",
@@ -42,7 +42,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -114,7 +114,7 @@
    "palavras": 11,
    "cena": "b5",
    "frase": "Ele juntou quase três mil homens e se trancou lá dentro.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -166,10 +166,9 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "GUA",
-    "ING2"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [
@@ -180,15 +179,9 @@
    "palavras": 7,
    "cena": "b8",
    "frase": "Às nove e quarenta, a bandeira caiu.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },

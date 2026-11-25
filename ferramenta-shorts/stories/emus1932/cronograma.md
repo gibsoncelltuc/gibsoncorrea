@@ -1,20 +1,20 @@
 # CRONOGRAMA - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
-Gerado em 25/11 17:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 22:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | outback | two | SOL, FARM | - | - | - | Um exército perdeu uma guerra contra pássaros.
-b1 | transicao | countryside | reveal | FARM, FARM | - | - | - | E o placar final virou piada no mundo inteiro.
+b1 | transicao | outback | reveal | FARM, FARM | - | - | - | E o placar final virou piada no mundo inteiro.
 b2 | simples | outback | group | FARM, FARM | - | barn, haybale, picket_fence, scarecrow | - | Em 1932, vinte mil emus tomaram as lavouras da Austrália.
 b3 | simples | interior madeira | two | FARM, AUS | 6 | - | - | Os agricultores pediram ajuda, e o governo mandou soldados.
 b4 | simples | countryside | wide | SOL, SOL | 32 | crate, mgun | - | O major Meredith levou duas metralhadoras e dez mil balas.
 b5 | chave | outback | orbit | SOL, SOL | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os emus se espalharam, e as balas só acertavam poeira.
-b6 | simples | countryside | wide | SOL | - | mgun, truck | - | Uma metralhadora num caminhão sacudia tanto que ninguém acertava.
-b7 | chave | outback | crowd | SOL | 48 | tank | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O major comparou os emus a tanques. A imprensa riu.
-b8 | simples | loc_campo | group | SOL, SOL | 5 | - | - | Seis dias, milhares de balas, poucos emus abatidos.
+b6 | simples | outback | wide | SOL | - | mgun, truck | - | Uma metralhadora num caminhão sacudia tanto que ninguém acertava.
+b7 | simples | outback | wide | SOL | - | tank | - | O major comparou os emus a tanques. A imprensa riu.
+b8 | chave | loc_campo | crowd | SOL, SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Seis dias, milhares de balas, poucos emus abatidos.
 b9 | transicao | outback | reveal | SOL, FARM | - | - | - | Exército zero, emus um. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

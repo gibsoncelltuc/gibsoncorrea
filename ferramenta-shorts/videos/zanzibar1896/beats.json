@@ -147,10 +147,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Um primo ocupou o palácio sem pedir licença aos ingleses.",
    "encena": {
@@ -161,7 +157,24 @@
       "na": "ocupou"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -184,11 +197,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "prova",
    "say": "Deram até as nove da manhã para ele sair.",
    "encena": {
@@ -199,7 +207,25 @@
       "na": "deram"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "reveal",
@@ -227,7 +253,8 @@
      {
       "faz": "chega",
       "na": "trancou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
@@ -298,6 +325,30 @@
       "na": "fogo"
      }
     ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor_guerra (alvo z -8.2, camera a 78.6 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor_guerra",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -347,8 +398,7 @@
   {
    "shot": "wide",
    "who": [
-    "GUA:0:pained:flag",
-    "ING2:0:stern"
+    "GUA:0:pained:flag"
    ],
    "fx": [
     "dust@40"
@@ -363,7 +413,7 @@
     [
      "kit/forte_colonial",
      0.0,
-     -14.0,
+     -10.2,
      1.0,
      {
       "fixo": true
@@ -380,7 +430,30 @@
       "na": "bandeira"
      }
     ]
-   }
+   },
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "wide",
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/forte_colonial",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -461,5 +534,6 @@
  "heroi": "kit/navio_vapor",
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de quarenta minutos e os derrotados pagaram a conta. Pagamento: ultimato ate as 9h, fogo as 9h02, bandeira caida as 9h40 e a conta das balas.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

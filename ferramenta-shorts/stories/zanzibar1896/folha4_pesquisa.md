@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1896 | Lugar: Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses | Quando: 27 de agosto de 1896, manha, entre 9h00 e 9h40
 - HEROIS (objeto): kit/navio_vapor
 - HEROIS (personagens): GUA, SUL, ALM
-- Cenarios: harbor, interior loja, interior pedra, loc_campo, loc_estudio
+- Cenarios: harbor, interior pedra, loc_campo, loc_estudio
 - Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
 - Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.55: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
 

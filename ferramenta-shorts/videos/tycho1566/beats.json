@@ -58,17 +58,13 @@
      "kit/brass_nose",
      0.0,
      -1.2,
-     1.1,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Um gênio da astronomia perdeu o nariz numa briga por matemática.",
    "encena": {
@@ -81,7 +77,26 @@
     ]
    },
    "text": "NARIZ DE METAL",
-   "titulo": true
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.2,
+   "d0": 11.5,
+   "d1": 11.0,
+   "quadro_manual": true,
+   "h": 1.8
   },
   {
    "shot": "two",
@@ -102,10 +117,6 @@
    ],
    "shot_lock": true,
    "impact": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E passou o resto da vida com um nariz de metal.",
    "encena": {
@@ -116,7 +127,24 @@
       "na": "metal"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "reveal",
@@ -124,7 +152,7 @@
     "TYC:0:smile",
     "POV:0:grin"
    ],
-   "mapa": "DINAMARCA",
+   "mapa": "ALEMANHA",
    "mapa_at": 3,
    "bloco": "prova",
    "say": "Em 1566, Tycho Brahe estudava na Alemanha.",
@@ -278,11 +306,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "pagamento",
    "say": "Mediu mais de mil estrelas, sem telescópio.",
    "encena": {
@@ -293,7 +316,31 @@
       "na": "mediu"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/marco_uraniborg",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -341,10 +388,6 @@
     ]
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Cabeça nas estrelas e nariz de metal. Tudo porque...",
    "encena": {
@@ -355,7 +398,26 @@
       "na": "nariz"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/brass_nose",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 9.0,
+   "d1": 8.6,
+   "quadro_manual": true,
+   "h": 1.5
   }
  ],
  "visual": {

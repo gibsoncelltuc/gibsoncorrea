@@ -311,7 +311,8 @@
      {
       "faz": "chega",
       "na": "atirou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "atira",
@@ -438,7 +439,8 @@
      {
       "faz": "fala",
       "na": "dispararam",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "atira",
@@ -537,7 +539,8 @@
      {
       "faz": "perde",
       "na": "precisou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }

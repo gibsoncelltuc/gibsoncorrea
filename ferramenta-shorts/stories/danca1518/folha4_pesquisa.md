@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1518 | Lugar: Estrasburgo | Quando: julho a setembro de 1518 (verão); 14 de julho, começo da dança
 - HEROIS (objeto): -
 - HEROIS (personagens): TRO, MED
-- Cenarios: countryside, hall, interior madeira, interior pedra, loc_montanha, medieval, street
+- Cenarios: countryside, hall, interior pedra, loc_montanha, medieval
 - Proibido pela epoca: carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

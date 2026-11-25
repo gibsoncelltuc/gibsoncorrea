@@ -7,7 +7,7 @@
 - Roupas: {'TRO': 'vestido e touca de camponesa do século 16', 'POV': 'povo de Estrasburgo de 1518: colete, touca ou chapéu', 'PRE': 'conselheiro de capa escura e chapéu', 'MED': 'médico de túnica escura e chapéu', 'MUS': 'músicos de gibão colorido'}
 - Cenario real: rua estreita de pedras com casas de enxaimel, salão de corporação, capela no alto de um monte, catedral de Estrasburgo
 - Objetos: ['sapatos vermelhos', 'música de gaitas e tambores']
-- Cenarios usados no video: countryside, hall, interior madeira, interior pedra, loc_montanha, medieval, street
+- Cenarios usados no video: countryside, hall, interior pedra, loc_montanha, medieval
 - PROIBIDO pela epoca (a ferramenta bloqueia): carro antigo, carro dos anos 50, encouracado, fragata a vela, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 

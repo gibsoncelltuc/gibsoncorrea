@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 44 acoes catalogadas, 44 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 46 acoes catalogadas, 46 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.2s - 9 palavras - plano wide
@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | atirou (18.2s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
+| 1 | atirou (18.2s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | ATUACAO | discutir | OK |
 
 ## Cena b6 - 19.0s a 21.4s - 6 palavras - plano close
@@ -122,8 +122,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | canhões (26.5s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | dispararam (26.9s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 3 | dispararam (26.9s) | ACAO: fala | aponta explicando | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b9 - 28.9s a 30.7s - 8 palavras - plano group
 > "Os turcos chegaram e acharam o acampamento abandonado."
@@ -147,6 +148,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | PLACA | CONTRA SI MESMO | OK |
+| 1 | precisou (31.9s) | ACAO: perde | mao na testa | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | PLACA | CONTRA SI MESMO | OK |
 
