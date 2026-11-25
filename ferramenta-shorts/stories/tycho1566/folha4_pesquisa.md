@@ -26,6 +26,7 @@ objeto | nariz de latao | nariz de latao / nariz de latao 1566 | SEM REFERENCIA
 objeto | espadas | espadas / espadas 1566 | CoR Members portraits - Juan ESPADAS CEJAS.jpg (referencias/tycho1566/prints/espadas_dc631d.jpg); Juan Espadas 2015c (cropped).jpg (referencias/tycho1566/prints/espadas_b97f29.jpg); Juan Espadas 2015 (cropped).jpg (referencias/tycho1566/prints/espadas_d82a2f.jpg)
 objeto | quadrante mural | quadrante mural / quadrante mural 1566 | Mural consciencia nacional.JPG (referencias/tycho1566/prints/quadrante_mural_c77f68.jpg); Mural raízes dos candangos2.JPG (referencias/tycho1566/prints/quadrante_mural_6a10eb.jpg)
 objeto | Uraniborg | Uraniborg / Uraniborg 1566 | MS Uraniborg 01.jpg (referencias/tycho1566/prints/uraniborg_ac747f.jpg); Uraniborgskiss 45.jpg (referencias/tycho1566/prints/uraniborg_0eefac.jpg); Brahe Uraniborg 1598.jpg (referencias/tycho1566/prints/uraniborg_6f92ea.jpg)
+objeto | uraniborg | Uraniborg Tycho Brahe castle Hven / uraniborg / uraniborg 1566 | SEM REFERENCIA
 heroi | brass nose | nariz de latao / O Astrônomo do Nariz de Metal | SEM REFERENCIA
 epoca | castelo da epoca | castle 1566 / castle | Neuschwanstein Castle 2024-02.jpg (referencias/tycho1566/prints/castelo_da_epoca_e1c4e7.jpg); Castle Neuschwanstein.jpg (referencias/tycho1566/prints/castelo_da_epoca_4d6794.jpg); Himeji Castle 0804 1.jpg (referencias/tycho1566/prints/castelo_da_epoca_588cf9.jpg)
 

@@ -42,6 +42,7 @@
   "kit/room_eua_stone",
   "kit/room_europa_shop",
   "kit/room_verde_shop",
+  "kit/smartphone",
   "mk/Bench",
   "mk/BookStand",
   "mk/Bookcase_2",
@@ -69,7 +70,8 @@
   "objetos": [
    "celular",
    "púlpito",
-   "crachás de delegado"
+   "crachás de delegado",
+   "smartphone"
   ],
   "fontes_visuais": [
    "https://news.un.org/es/story/2019/09/1462902",
@@ -89,7 +91,8 @@
    "roupas e ruas de 2019": "United Nations General Assembly delegates suits 2019",
    "delegados de vários países": "UN General Assembly delegates seated 2019",
    "púlpito": "United Nations General Assembly podium green marble",
-   "phone": "smartphone selfie stick photo"
+   "phone": "smartphone selfie stick photo",
+   "smartphone": "smartphone 2010s touchscreen phone"
   }
  },
  "fontes": [

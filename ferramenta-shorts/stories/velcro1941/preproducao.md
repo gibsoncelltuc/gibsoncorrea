@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | street | two | 2 | conversar, INTERAGEM: insiste | kit/burr, dog | - | -
 b1 | street | two | 1 | conversar | dog | - | -
 b2 | loc_montanha | two | 1 | conversar | kit/burr, dog | - | -
-b3 | interior madeira | two | 1 | conversar | kit/microscopio, kit/burr | - | -
+b3 | interior madeira | two | 1 | conversar | kit/microscopio_antigo, kit/burr | - | -
 b4 | interior madeira | close | 1 | reagir | kit/burr | - | -
 b5 | interior madeira | low | 1 | conversar | kit/burr | - | -
 b6 | street | wide | 2 | discutir, batalha | - | - | -

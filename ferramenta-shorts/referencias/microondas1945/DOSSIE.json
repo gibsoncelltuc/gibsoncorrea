@@ -41,6 +41,7 @@
   "kit/lupa",
   "kit/microwave",
   "kit/popcorn",
+  "kit/radarange",
   "kit/room_azul_wood",
   "kit/room_eua_wood",
   "kit/room_europa_stone",
@@ -85,7 +86,8 @@
    "milho de pipoca",
    "ovo",
    "Radarange (primeiro micro-ondas, 1,8 m)",
-   "forno de micro-ondas moderno"
+   "forno de micro-ondas moderno",
+   "radarange"
   ],
   "explicacoes": [
    "Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)"
@@ -96,7 +98,8 @@
   ],
   "buscas": {
    "forno": "Raytheon Radarange 1947",
-   "lab": "Raytheon magnetron laboratory 1940s"
+   "lab": "Raytheon magnetron laboratory 1940s",
+   "radarange": "Raytheon Radarange 1947 microwave oven"
   }
  },
  "fontes": [],

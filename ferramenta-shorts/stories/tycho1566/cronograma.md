@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
-Gerado em 25/11 04:04 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:16 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | loc_deserto | two | TYC, PAR | - | - | - | Dias depois, os dois r
 b4 | simples | loc_deserto | two | PAR, TYC | - | brass_nose | - | Acontece que o primo acertou um golpe certeiro, e cortou fora um pedaç
 b5 | simples | loc_montanha | two | TYC | - | brass_nose | - | Para esconder o buraco, ele passou a usar um nariz de metal, colado no
 b6 | simples | harbor | orbit | REI, TYC | 6 | - | - | Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para es
-b7 | chave | loc_campo | orbit | TYC | - | marco_uraniborg, tower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
+b7 | chave | loc_campo | orbit | TYC | - | marco_uraniborg, uraniborg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Lá, ele construiu um castelo observatório, e anotou a posição de mais 
 b8 | simples | interior pedra | two | TYC, KEP | - | - | - | As anotações eram tão precisas, que ajudaram Kepler a descobrir como o
 b9 | simples | loc_montanha | two | TYC | - | brass_nose | - | Com a cabeça nas estrelas, e o nariz de metal.
 b10 | simples | loc_campo | close | TYC | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -23,7 +23,7 @@ b10 | simples | loc_campo | close | TYC | - | - | - | Agora não deixe de coment
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/14 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/15 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

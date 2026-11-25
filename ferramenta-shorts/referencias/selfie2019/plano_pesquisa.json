@@ -89,12 +89,12 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "phone",
+   "tipo": "objeto",
+   "item": "smartphone",
    "consultas": [
-    "smartphone selfie stick photo",
-    "celular",
-    "A Selfie na ONU"
+    "smartphone 2010s touchscreen phone",
+    "smartphone",
+    "smartphone 2019"
    ]
   }
  ]

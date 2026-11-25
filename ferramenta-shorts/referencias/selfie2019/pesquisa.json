@@ -133,12 +133,12 @@
      "consulta": "United Nations General Assembly"
     },
     {
-     "titulo": "United Nations General Assembly 2024.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/United_Nations_General_Assembly_2024.jpg/500px-United_Nations_General_Assembly_2024.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AUnited_Nations_General_Assembly_2024.jpg",
-     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/selfie2019/prints/roupas_e_ruas_de_2019_ab13df.jpg",
+     "titulo": "UN General Assembly hall.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/UN_General_Assembly_hall.jpg/500px-UN_General_Assembly_hall.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUN_General_Assembly_hall.jpg",
+     "descricao": "English UN \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/selfie2019/prints/roupas_e_ruas_de_2019_729dee.jpg",
      "consulta": "United Nations General Assembly"
     }
    ]
@@ -246,21 +246,21 @@
      "consulta": "smartphone"
     },
     {
+     "titulo": "Smartphone ownership in 2013.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Smartphone_ownership_in_2013.jpg/500px-Smartphone_ownership_in_2013.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_ownership_in_2013.jpg",
+     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English Countries where more than 50 percent of population owned a \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/selfie2019/prints/celular_fcd900.jpg",
+     "consulta": "smartphone"
+    },
+    {
      "titulo": "Smartphone Use.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_Use.jpg/500px-Smartphone_Use.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_Use.jpg",
      "descricao": "7 June 2022 English Hand holding a \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/selfie2019/prints/celular_dca577.jpg",
-     "consulta": "smartphone"
-    },
-    {
-     "titulo": "Smartphone di varie marche.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Smartphone_di_varie_marche.png/500px-Smartphone_di_varie_marche.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_di_varie_marche.png",
-     "descricao": "org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English Italian \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/selfie2019/prints/celular_278495.jpg",
      "consulta": "smartphone"
     }
    ]
@@ -293,12 +293,12 @@
      "consulta": "United Nations General Assembly"
     },
     {
-     "titulo": "UN General Assembly hall.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/UN_General_Assembly_hall.jpg/500px-UN_General_Assembly_hall.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AUN_General_Assembly_hall.jpg",
-     "descricao": "English UN \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/selfie2019/prints/p_lpito_729dee.jpg",
+     "titulo": "Shore of the East River with Headquarters of the United Nations, New York City, 20231005 1131 2224.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2224.jpg/500px-Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2224.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AShore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2224.jpg",
+     "descricao": "Commons Attribution 4.0 truetrue English Shore \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/selfie2019/prints/p_lpito_e3aca1.jpg",
      "consulta": "United Nations General Assembly"
     }
    ]
@@ -313,12 +313,12 @@
    "achados": []
   },
   {
-   "tipo": "heroi",
-   "item": "phone",
+   "tipo": "objeto",
+   "item": "smartphone",
    "consultas": [
-    "smartphone selfie stick photo",
-    "celular",
-    "A Selfie na ONU"
+    "smartphone 2010s touchscreen phone",
+    "smartphone",
+    "smartphone 2019"
    ],
    "achados": [
     {
@@ -327,7 +327,7 @@
      "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_display_screen.jpg",
      "descricao": "English \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/selfie2019/prints/phone_99e2af.jpg",
+     "print": "referencias/selfie2019/prints/smartphone_99e2af.jpg",
      "consulta": "smartphone"
     },
     {
@@ -336,7 +336,7 @@
      "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_ownership_in_2013.jpg",
      "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English Countries where more than 50 percent of population owned a \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/selfie2019/prints/phone_fcd900.jpg",
+     "print": "referencias/selfie2019/prints/smartphone_fcd900.jpg",
      "consulta": "smartphone"
     },
     {
@@ -345,7 +345,7 @@
      "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_Use.jpg",
      "descricao": "7 June 2022 English Hand holding a \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/selfie2019/prints/phone_dca577.jpg",
+     "print": "referencias/selfie2019/prints/smartphone_dca577.jpg",
      "consulta": "smartphone"
     }
    ]

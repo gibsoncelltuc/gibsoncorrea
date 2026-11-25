@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MES (variante 0, expressao suspicious)
 - Animacao: conversar
-- Objetos/modelos: kit/microscopio, kit/burr
+- Objetos/modelos: kit/microscopio_antigo, kit/burr
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carrapicho, microscopio
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/burr: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/microscopio: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/microscopio_antigo: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (15.4-16.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (16.9-18.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -250,7 +250,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/burr | b0, b2, b3, b4, b5, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b1, b2, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/microscopio | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/microscopio_antigo | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/moon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

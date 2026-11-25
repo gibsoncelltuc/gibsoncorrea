@@ -54,8 +54,8 @@
    "props": [
     [
      "kit/pea_green",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.6,
      {
       "fixo": true
@@ -70,20 +70,32 @@
    ],
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "descobriu"
+     }
+    ],
+    "rascunho": true
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -123,15 +135,15 @@
      "kit/pea_yellow",
      3.6,
      -2.0,
-     1.6,
+     2.0,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_green",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.6,
      {
       "fixo": true
@@ -146,14 +158,14 @@
     "thump@40",
     "ding@60"
    ],
-   "detalhe": false,
+   "detalhe": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -165,10 +177,27 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "cruzou"
+     },
+     {
+      "quem": 0,
+      "faz": "x_espera",
+      "na": "esperou"
+     }
+    ],
+    "rascunho": true
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -179,8 +208,8 @@
    "props": [
     [
      "kit/pea_yellow",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.8,
      {
       "fixo": true
@@ -189,20 +218,32 @@
    ],
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "sairam"
+     }
+    ],
+    "rascunho": true
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -234,8 +275,8 @@
    "props": [
     [
      "kit/pea_yellow",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -250,20 +291,37 @@
    ],
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pea_yellow juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_planta",
+      "na": "plantou"
+     },
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "contou"
+     }
+    ],
+    "rascunho": true
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -281,7 +339,7 @@
      "kit/pea_yellow",
      3.6,
      -2.0,
-     1.5,
+     2.0,
      {
       "fixo": true
      }
@@ -297,7 +355,7 @@
     ],
     [
      "kit/pea_yellow",
-     -3.6,
+     5.4,
      -2.0,
      1.5,
      {
@@ -306,8 +364,8 @@
     ],
     [
      "kit/pea_green",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -324,11 +382,11 @@
    ],
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "orbit; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -346,17 +404,30 @@
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, esquerda",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "text": "3 : 1"
+   "text": "3 : 1",
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "voltou"
+     }
+    ],
+    "rascunho": true
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -419,7 +490,7 @@
      "kit/pea_green",
      0.0,
      -1.2,
-     1.6,
+     2.0,
      {
       "fixo": true
      }
@@ -446,7 +517,7 @@
    "acao": "comemorar",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/pea_green",
@@ -462,10 +533,23 @@
      }
     ]
    },
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "viram"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "group"
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -496,10 +580,21 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "No"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "visual": {
@@ -532,5 +627,6 @@
    "mosteiro": "St Thomas Abbey Brno garden Mendel",
    "ervilha": "pea pods yellow green"
   }
- }
+ },
+ "max_wide": 5
 }

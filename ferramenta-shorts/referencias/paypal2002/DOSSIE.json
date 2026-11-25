@@ -60,11 +60,11 @@
   "kit/coin",
   "kit/falcon9_land",
   "kit/falcon_air",
-  "kit/phone",
-  "kit/roadster",
+  "kit/roadster2008",
   "kit/room_eua_wood",
   "kit/room_europa_stone",
   "kit/room_verde_wood",
+  "kit/smartphone",
   "kit/tv",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",
@@ -96,7 +96,9 @@
   "objetos": [
    "monitor de computador",
    "moedas/dólares",
-   "foguete (SpaceX, fundada em 2002)"
+   "foguete (SpaceX, fundada em 2002)",
+   "smartphone",
+   "roadster2008"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/PayPal",
@@ -109,7 +111,9 @@
    "eBay": "eBay 2002 website homepage",
    "Elon Musk": "Elon Musk 2002 PayPal",
    "SpaceX": "SpaceX Falcon 1 2006 launch pad",
-   "Tesla": "Tesla Motors 2004 early prototype Roadster"
+   "Tesla": "Tesla Motors 2004 early prototype Roadster",
+   "smartphone": "smartphone 2010s touchscreen phone",
+   "roadster2008": "Tesla Roadster 2008 red"
   },
   "explicacoes": [
    "O PayPal permitia enviar dinheiro pelo e-mail; o eBay o comprou por 1,5 bilhão de dólares em ações e a compra foi concluída em 3 de outubro de 2002 (fonte: https://en.wikipedia.org/wiki/PayPal)"

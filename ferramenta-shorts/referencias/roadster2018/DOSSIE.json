@@ -36,7 +36,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/falcon_air",
-  "kit/roadster",
+  "kit/roadster2008",
   "kit/rocket",
   "kit/room_eua_shop",
   "kit/room_europa_shop"
@@ -59,7 +59,8 @@
    "Tesla Roadster vermelho",
    "foguete Falcon Heavy (3 propulsores)",
    "painel com a frase DON'T PANIC",
-   "globo terrestre"
+   "globo terrestre",
+   "roadster2008"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
@@ -68,7 +69,10 @@
   ],
   "explicacoes": [
    "O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)"
-  ]
+  ],
+  "buscas": {
+   "roadster2008": "Tesla Roadster 2008 red"
+  }
  },
  "fontes": [],
  "falta": []

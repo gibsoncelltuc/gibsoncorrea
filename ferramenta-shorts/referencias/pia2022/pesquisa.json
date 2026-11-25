@@ -158,6 +158,15 @@
    ],
    "achados": [
     {
+     "titulo": "Twitter Homepage.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Twitter_Homepage.jpg/500px-Twitter_Homepage.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_Homepage.jpg",
+     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/pia2022/prints/funcionarios_do_twitter_86f3f1.jpg",
+     "consulta": "Twitter"
+    },
+    {
      "titulo": "Twitter-Message-Free-iPads.png",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Twitter-Message-Free-iPads.png/500px-Twitter-Message-Free-iPads.png",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter-Message-Free-iPads.png",
@@ -167,12 +176,12 @@
      "consulta": "Twitter"
     },
     {
-     "titulo": "Ryan Wesley Routh's Twitter Account.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ryan_Wesley_Routh%27s_Twitter_Account.png/500px-Ryan_Wesley_Routh%27s_Twitter_Account.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARyan_Wesley_Routh%27s_Twitter_Account.png",
-     "descricao": "English The official \\u003Cspan class=\\",
-     "ordem": 10,
-     "print": "referencias/pia2022/prints/funcionarios_do_twitter_d99fbd.jpg",
+     "titulo": "Twitter censorship.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Twitter_censorship.jpg/500px-Twitter_censorship.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_censorship.jpg",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/pia2022/prints/funcionarios_do_twitter_9b2ffa.jpg",
      "consulta": "Twitter"
     }
    ]
@@ -221,35 +230,7 @@
     "celular filmando",
     "celular filmando 2022"
    ],
-   "achados": [
-    {
-     "titulo": "Smartphone display screen.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Smartphone_display_screen.jpg/500px-Smartphone_display_screen.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_display_screen.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/pia2022/prints/celular_filmando_99e2af.jpg",
-     "consulta": "smartphone"
-    },
-    {
-     "titulo": "Smartphone Use.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_Use.jpg/500px-Smartphone_Use.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_Use.jpg",
-     "descricao": "7 June 2022 English Hand holding a \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/pia2022/prints/celular_filmando_dca577.jpg",
-     "consulta": "smartphone"
-    },
-    {
-     "titulo": "Leaflet at Narita arrival. Requirement to have a smartphone to enter Japan during COVID-19 pandemic.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Leaflet_at_Narita_arrival._Requirement_to_have_a_smartphone_to_enter_Japan_during_COVID-19_pandemic.jpg/500px-Leaflet_at_Narita_arrival._Requirement_to_have_a_smartphone_to_enter_Japan_during_COVID-19_pandemic.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALeaflet_at_Narita_arrival._Requirement_to_have_a_smartphone_to_enter_Japan_during_COVID-19_pandemic.jpg",
-     "descricao": "following license: English Leaflet at Narita arrival. Requirement to have a \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/pia2022/prints/celular_filmando_f8db03.jpg",
-     "consulta": "smartphone"
-    }
-   ]
+   "achados": []
   },
   {
    "tipo": "objeto",
@@ -260,31 +241,69 @@
    ],
    "achados": [
     {
-     "titulo": "Twitter Logo NYC Office.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Twitter_Logo_NYC_Office.jpg/500px-Twitter_Logo_NYC_Office.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_Logo_NYC_Office.jpg",
-     "descricao": "Attribution-Share Alike 4.0 truetrue For the \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/pia2022/prints/logo_do_twitter_9d521d.jpg",
-     "consulta": "logo do Twitter"
+     "titulo": "Twitter-Message-Free-iPads.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Twitter-Message-Free-iPads.png/500px-Twitter-Message-Free-iPads.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter-Message-Free-iPads.png",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/pia2022/prints/logo_do_twitter_9564ba.jpg",
+     "consulta": "Twitter"
     },
     {
-     "titulo": "2021 Twitter logo - blue.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2021_Twitter_logo_-_blue.png/500px-2021_Twitter_logo_-_blue.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A2021_Twitter_logo_-_blue.png",
+     "titulo": "Twitter censorship.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Twitter_censorship.jpg/500px-Twitter_censorship.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_censorship.jpg",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/pia2022/prints/logo_do_twitter_9b2ffa.jpg",
+     "consulta": "Twitter"
+    },
+    {
+     "titulo": "Icône Twitter Wikipédia en français.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ic%C3%B4ne_Twitter_Wikip%C3%A9dia_en_fran%C3%A7ais.png/500px-Ic%C3%B4ne_Twitter_Wikip%C3%A9dia_en_fran%C3%A7ais.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AIc%C3%B4ne_Twitter_Wikip%C3%A9dia_en_fran%C3%A7ais.png",
+     "descricao": "DescriptionIcône \\u003Cspan class=\\",
+     "ordem": 9,
+     "print": "referencias/pia2022/prints/logo_do_twitter_8a409c.jpg",
+     "consulta": "Twitter"
+    }
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "smartphone",
+   "consultas": [
+    "smartphone 2010s touchscreen phone",
+    "smartphone",
+    "smartphone 2022"
+   ],
+   "achados": [
+    {
+     "titulo": "Smartphone display screen.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Smartphone_display_screen.jpg/500px-Smartphone_display_screen.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_display_screen.jpg",
      "descricao": "English \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/pia2022/prints/logo_do_twitter_259b9a.jpg",
-     "consulta": "logo do Twitter"
+     "ordem": 1,
+     "print": "referencias/pia2022/prints/smartphone_99e2af.jpg",
+     "consulta": "smartphone"
     },
     {
-     "titulo": "Twitter-logo-black.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Twitter-logo-black.png/500px-Twitter-logo-black.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter-logo-black.png",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 8,
-     "print": "referencias/pia2022/prints/logo_do_twitter_e239ea.jpg",
-     "consulta": "logo do Twitter"
+     "titulo": "Smartphone ownership in 2013.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Smartphone_ownership_in_2013.jpg/500px-Smartphone_ownership_in_2013.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_ownership_in_2013.jpg",
+     "descricao": "org/licenses/by/4.0CC BY 4.0 Creative Commons Attribution 4.0 truetrue English Countries where more than 50 percent of population owned a \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/pia2022/prints/smartphone_fcd900.jpg",
+     "consulta": "smartphone"
+    },
+    {
+     "titulo": "Smartphone Use.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_Use.jpg/500px-Smartphone_Use.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASmartphone_Use.jpg",
+     "descricao": "7 June 2022 English Hand holding a \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/pia2022/prints/smartphone_dca577.jpg",
+     "consulta": "smartphone"
     }
    ]
   },
@@ -306,21 +325,21 @@
      "consulta": "Twitter"
     },
     {
+     "titulo": "Twitter-Message-Free-iPads.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Twitter-Message-Free-iPads.png/500px-Twitter-Message-Free-iPads.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter-Message-Free-iPads.png",
+     "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/pia2022/prints/sink_9564ba.jpg",
+     "consulta": "Twitter"
+    },
+    {
      "titulo": "Twitter censorship.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Twitter_censorship.jpg/500px-Twitter_censorship.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_censorship.jpg",
      "descricao": "BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
      "ordem": 6,
      "print": "referencias/pia2022/prints/sink_9b2ffa.jpg",
-     "consulta": "Twitter"
-    },
-    {
-     "titulo": "Twitter algorithm system diagram.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Twitter_algorithm_system_diagram.png/500px-Twitter_algorithm_system_diagram.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATwitter_algorithm_system_diagram.png",
-     "descricao": "English A diagram of the \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/pia2022/prints/sink_9af502.jpg",
      "consulta": "Twitter"
     }
    ]
@@ -343,21 +362,21 @@
      "consulta": "sink diagram"
     },
     {
+     "titulo": "Source-sink hypothesis figure.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Source-sink_hypothesis_figure.jpg/500px-Source-sink_hypothesis_figure.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASource-sink_hypothesis_figure.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English Representation of the source-\\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__552c12.jpg",
+     "consulta": "sink diagram"
+    },
+    {
      "titulo": "Loose lips might sink ships.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Loose_lips_might_sink_ships.jpg/500px-Loose_lips_might_sink_ships.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ALoose_lips_might_sink_ships.jpg",
      "descricao": "DescriptionLoose lips might \\u003Cspan class=\\",
      "ordem": 10,
      "print": "referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__568c27.jpg",
-     "consulta": "sink diagram"
-    },
-    {
-     "titulo": "GST-sink-element.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/GST-sink-element.png/500px-GST-sink-element.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGST-sink-element.png",
-     "descricao": "DescriptionGST-\\u003Cspan class=\\",
-     "ordem": 13,
-     "print": "referencias/pia2022/prints/_um_trocadilho_em_ingl_s_a_palavra_sink__255ad0.jpg",
      "consulta": "sink diagram"
     }
    ]

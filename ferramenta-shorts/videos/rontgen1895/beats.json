@@ -79,11 +79,22 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "tira",
+      "na": "tirou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -141,11 +152,37 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "quimico",
+      "na": "laboratorio"
+     },
+     {
+      "quem": 0,
+      "faz": "examina",
+      "na": "testando"
+     },
+     {
+      "quem": 0,
+      "faz": "x_solta",
+      "na": "soltava"
+     },
+     {
+      "quem": 0,
+      "faz": "brilha",
+      "na": "faiscas"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -183,11 +220,22 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "empurra",
+      "na": "apagou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "low",
@@ -228,11 +276,22 @@
      }
     ]
    },
+   "_enq_shot": "low",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "brilha",
+      "na": "brilhar"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "low"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -271,14 +330,25 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "viu"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "hora": "dia",
    "who": [
@@ -299,7 +369,7 @@
    "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/xray_plate",
@@ -309,11 +379,28 @@
      }
     ]
    },
+   "_enq_shot": "group",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "chamou"
+     },
+     {
+      "quem": 0,
+      "faz": "tira",
+      "na": "fotografou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "wide"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -345,11 +432,22 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "olhou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -407,11 +505,21 @@
      }
     ]
    },
+   "_enq_shot": "crowd",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "A"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "crowd"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -421,7 +529,18 @@
     "JOR:0:suspicious:paper"
    ],
    "text": "RAIO X",
-   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
+   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "chamou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "crowd",
@@ -453,7 +572,18 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
+   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vence",
+      "na": "ganhou"
+     }
+    ],
+    "rascunho": true
+   }
   }
  ],
  "variar_cenario": false,

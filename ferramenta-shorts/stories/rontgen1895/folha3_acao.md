@@ -7,6 +7,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
 > "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE acao do motor: tira | na palavra "tirou" (0.7s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | tirou (0.7s) | ACAO: tira | tira foto (celular + flash) | OK |
@@ -42,6 +45,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b2 - 9.6s a 14.2s - 15 palavras - plano two
 > "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE acao do motor: quimico | na palavra "laboratorio" (11.3s)
+  2) ROE acao do motor: examina | na palavra "testando" (12.3s)
+  3) ROE acao do motor: solta | na palavra "soltava" (13.8s)
+  4) ROE acao do motor: brilha | na palavra "faiscas" (14.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | laboratório (11.3s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
@@ -62,6 +71,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 15.3s a 18.8s - 13 palavras - plano close
 > "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE empurra o alvo | na palavra "apagou" (18.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | apagou (18.2s) | ACAO: empurra | empurra/puxa | OK |
@@ -73,6 +85,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b4 - 19.9s a 23.8s - 14 palavras - plano low
 > "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE acao do motor: brilha | na palavra "brilhar" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -88,6 +103,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 25.0s a 28.2s - 15 palavras - plano two
 > "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE olha/aponta para o alvo | na palavra "viu" (27.1s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | viu (27.1s) | ACAO: olha | aponta/olha | OK |
@@ -99,8 +117,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 29.4s a 34.4s - 16 palavras - plano close
+## Cena b6 - 29.4s a 34.4s - 16 palavras - plano group
 > "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE fala apontando | na palavra "chamou" (31.2s)
+  2) ROE acao do motor: tira | na palavra "fotografou" (32.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -118,6 +140,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 35.6s a 38.5s - 14 palavras - plano two
 > "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ANA olha/aponta para o alvo | na palavra "olhou" (36.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | olhou (36.4s) | ACAO: olha | aponta/olha | OK |
@@ -131,6 +156,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b8 - 39.5s a 43.0s - 14 palavras - plano orbit
 > "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "A" (39.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -151,6 +179,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b9 - 44.5s a 48.0s - 13 palavras - plano two
 > "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE fala apontando | na palavra "chamou" (46.1s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamou (46.1s) | ACAO: fala | aponta explicando | OK |
@@ -168,6 +199,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b10 - 49.6s a 54.0s - 17 palavras - plano crowd
 > "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
+
+- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+  1) ROE comemora a vitoria | na palavra "ganhou" (51.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

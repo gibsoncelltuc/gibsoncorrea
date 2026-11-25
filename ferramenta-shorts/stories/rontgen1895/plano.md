@@ -8,12 +8,12 @@ b2 | two | study  | interior | encena: quimico (pour) @6 (acao + som de efeito);
 b3 | close | noite  | interior, objeto na mao | encena: empurra (push) @10 (acao + som de efeito) | -
 b4 | low | study  | interior | encena: brilha (point) @11 (acao + som de efeito) | -
 b5 | two | study  | interior | encena: olha (point) @9 (acao + som de efeito) | -
-b6 | close | dia  | interior | encena: fala (point) @4 (acao + som de efeito); encena: tira (lift) @9 (acao + som de efeito) | -
+b6 | group | dia  | interior | encena: fala (point) @4 (acao + som de efeito); encena: tira (lift) @9 (acao + som de efeito) | -
 b7 | two | -  | interior | encena: olha (point) @3 (acao + som de efeito) | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOTÍCIA, objeto na mao | relampago no ceu na palavra + trovao (acao + som de efeito) | -
 b9 | two | -  | interior, placa: RAIO X, objeto na mao | encena: fala (point) @6 (acao + som de efeito) | -
 b10 | crowd | -  | tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @6 (acao + som de efeito) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 27% | medio 55% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 18% | medio 65% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -7,6 +7,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b0 - 0.2s a 3.1s - 12 palavras - plano two
 > "Um homem soltou uma pipa em plena tempestade para pegar um raio."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FRA acao do motor: solta | na palavra "soltou" (0.6s)
+  2) FRA pega/levanta o objeto | na palavra "pegar" (2.6s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | soltou (0.6s) | ACAO: x_solta | solta/liberta + brilho | OK |
@@ -79,6 +83,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 22.1s a 26.1s - 16 palavras - plano group
 > "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FRA acao do motor: prende | na palavra "prendeu" (24.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | prendeu (24.4s) | ACAO: prende | empurra/prende | OK |
@@ -110,6 +117,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 33.0s a 38.3s - 19 palavras - plano orbit
 > "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FRA acao do motor: brilha | na palavra "faisca" (36.8s)
+  2) FRA pula | na palavra "pulou" (37.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | faísca (36.8s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
@@ -128,6 +139,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b7 - 39.4s a 45.0s - 19 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Hoje" (39.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
@@ -141,6 +155,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b8 - 46.5s a 50.6s - 15 palavras - plano wide
 > "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FRA acao do motor: vira | na palavra "inventou" (47.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

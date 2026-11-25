@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro
 
-Gerado em 25/11 04:04 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:07 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | street | two | MES, TEC | - | burr | - | Uma das invenções mais usadas do mundo nasceu de um passeio com o cach
 b1 | simples | street | two | MES | - | - | - | Em mil novecentos e quarenta e um, na Suíça, o engenheiro George de Me
 b2 | simples | loc_montanha | two | MES | - | burr | - | O pelo do cachorro e a calça dele estavam cheios de carrapichos.
-b3 | simples | interior madeira | two | MES | - | burr, microscopio | - | Curioso, ele levou um carrapicho para casa e olhou no microscópio.
+b3 | simples | interior madeira | two | MES | - | burr, microscopio_antigo | - | Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 b4 | simples | interior madeira | close | MES | - | burr | - | Acontece que cada espinho tinha um ganchinho na ponta, que agarrava na
 b5 | simples | interior madeira | low | MES | - | burr | - | Ele pensou: e se uma fita tiver ganchinhos, e a outra, voltinhas?
 b6 | chave | street | wide | TEC, MES | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace

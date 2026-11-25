@@ -6,7 +6,7 @@
 - Quem: ['Elon Musk (camiseta escura)', 'engenheiros da SpaceX', 'boneco Starman']
 - Roupas: {'MUS': 'camiseta escura e jeans', 'ENG': 'camisa azul/preta da equipe SpaceX', 'STA': 'traje espacial branco e preto da SpaceX com capacete'}
 - Cenario real: plataforma de lançamento aberta à beira-mar, torre de serviço, gramado; depois o vazio do espaço com a Terra
-- Objetos: ['Tesla Roadster vermelho', 'foguete Falcon Heavy (3 propulsores)', "painel com a frase DON'T PANIC", 'globo terrestre']
+- Objetos: ['Tesla Roadster vermelho', 'foguete Falcon Heavy (3 propulsores)', "painel com a frase DON'T PANIC", 'globo terrestre', 'roadster2008']
 - Cenarios usados no video: arctic, interior loja, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -

@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Selfie na ONU
 - Epoca: 2019 | Lugar: Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River | Quando: 26 de setembro de 2019 (quinta-feira), de dia, 74ª Assembleia Geral da ONU
-- HEROIS (objeto): kit/phone
+- HEROIS (objeto): kit/smartphone
 - HEROIS (personagens): BUK, DIP
 - Cenarios: hall, interior loja, interior pedra, palace
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
@@ -24,7 +24,7 @@ pessoas | repórteres | repórteres / repórteres 2019 | SEM REFERENCIA
 objeto | celular | smartphone camera selfie podium / celular / celular 2019 | Smartphone display screen.jpg (referencias/selfie2019/prints/celular_99e2af.jpg); Smartphone Use.jpg (referencias/selfie2019/prints/celular_dca577.jpg); Smartphone di varie marche.png (referencias/selfie2019/prints/celular_278495.jpg)
 objeto | púlpito | United Nations General Assembly podium green marble / púlpito / púlpito 2019 | Headquarters of the United Nations, New York City, (referencias/selfie2019/prints/p_lpito_5c8932.jpg); Shore of the East River with Headquarters of the U (referencias/selfie2019/prints/p_lpito_f8c1ef.jpg); UN General Assembly hall.jpg (referencias/selfie2019/prints/p_lpito_729dee.jpg)
 objeto | crachás de delegado | crachás de delegado / crachás de delegado 2019 | SEM REFERENCIA
-heroi | phone | smartphone selfie stick photo / celular / A Selfie na ONU | Smartphone display screen.jpg (referencias/selfie2019/prints/phone_99e2af.jpg); Smartphone ownership in 2013.jpg (referencias/selfie2019/prints/phone_fcd900.jpg); Smartphone Use.jpg (referencias/selfie2019/prints/phone_dca577.jpg)
+objeto | smartphone | smartphone 2010s touchscreen phone / smartphone / smartphone 2019 | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Bukele disse que o mundo novo estava no lugar para onde iria a foto, a internet, e que a ONU poderia desaparecer como a Kodak e os dinossauros se não mudasse (fonte: Notícias ONU, 26/9/2019)

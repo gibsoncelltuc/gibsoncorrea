@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Micro-ondas e o Chocolate
 - Epoca: 1945 | Lugar: Raytheon, Waltham, Massachusetts (EUA): laboratorio/fabrica de radares com magnetrons | Quando: cerca de 1945, dia
-- HEROIS (objeto): kit/microwave
+- HEROIS (objeto): kit/radarange
 - HEROIS (personagens): SPE, ENG
 - Cenarios: interior loja, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
@@ -27,7 +27,7 @@ objeto | milho de pipoca | milho de pipoca / milho de pipoca 1945 | SEM REFERENC
 objeto | ovo | ovo / ovo 1945 | Attack on carrier USS Franklin 19 March 1945.jpg (referencias/microondas1945/prints/ovo_ce72a8.jpg); Bones of anti-Nazi German women still are in the c (referencias/microondas1945/prints/ovo_ae2db1.jpg); THE TRIAL OF THE SIXTEEN, JUNE 1945 Presiding judg (referencias/microondas1945/prints/ovo_edec71.jpg)
 objeto | Radarange (primeiro micro-ondas, 1,8 m) | Radarange / Radarange 1945 | Radarange NS Svannah.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__3790f3.jpg); Radarange Amana Microwave.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__4fb1ba.jpg); Amana Radarange Microwave Oven.jpg (referencias/microondas1945/prints/radarange_primeiro_micro_ondas_1_8_m__f397bc.jpg)
 objeto | forno de micro-ondas moderno | forno de micro-ondas moderno / forno de micro-ondas moderno 1945 | Microwave oven flashon.jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_96fc65.jpg); TOSHIBA Microwave Oven ER-J3 .jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_b9909e.jpg); Panasonic MICROWAVE OVEN NN-GM333W.jpg (referencias/microondas1945/prints/forno_de_micro_ondas_moderno_4c3432.jpg)
-heroi | microwave | magnetron / O Micro-ondas e o Chocolate | Micro-aerated chocolate viewed by scanning electro (referencias/microondas1945/prints/microwave_d51f20.jpg); Micro-aerated chocolate viewed by scanning electro (referencias/microondas1945/prints/microwave_887755.jpg); A Wary Micro Nap... (51323238063).jpg (referencias/microondas1945/prints/microwave_660df9.jpg)
+objeto | radarange | Raytheon Radarange 1947 microwave oven / radarange / radarange 1945 | SEM REFERENCIA
 epoca | fabrica da epoca | factory 1945 / factory | Factory concert by the Finnish Radio Symphony Orch (referencias/microondas1945/prints/fabrica_da_epoca_e9646f.jpg); A Penicillin Factory, Girls filling bottles (1945) (referencias/microondas1945/prints/fabrica_da_epoca_91a3e2.jpg); Ohashi Plant of Mitsubishi Nagasaki Arms Factory i (referencias/microondas1945/prints/fabrica_da_epoca_afcccb.jpg)
 
 ## Explicacoes (como funciona, com fonte)

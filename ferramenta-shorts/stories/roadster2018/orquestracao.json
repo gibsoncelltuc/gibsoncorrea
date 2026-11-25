@@ -16,7 +16,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 13,
    "cena": "b0",
@@ -34,7 +34,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 18,
    "cena": "b1",
@@ -70,7 +70,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 20,
    "cena": "b3",
@@ -112,7 +112,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 12,
    "cena": "b5",
@@ -130,7 +130,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 8,
    "cena": "b6",
@@ -147,7 +147,7 @@
    "multidao": 0,
    "objetos": [
     "kit/globe",
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 17,
    "cena": "b7",
@@ -155,7 +155,7 @@
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
-    "corpo": "kit/roadster (gira)",
+    "corpo": "kit/roadster2008 (gira)",
     "emissao": "rotulos/graficos",
     "luz": "estudio",
     "camera": "2 enquadramentos sem corte seco",
@@ -171,7 +171,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster"
+    "kit/roadster2008"
    ],
    "palavras": 10,
    "cena": "b8",
@@ -195,7 +195,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/roadster",
+    "kit/roadster2008",
     "kit/rocket"
    ],
    "palavras": 17,

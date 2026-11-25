@@ -83,6 +83,15 @@
    ]
   },
   {
+   "tipo": "objeto",
+   "item": "smartphone",
+   "consultas": [
+    "smartphone 2010s touchscreen phone",
+    "smartphone",
+    "smartphone 2022"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "sink",
    "consultas": [

@@ -99,6 +99,15 @@
    ]
   },
   {
+   "tipo": "objeto",
+   "item": "uraniborg",
+   "consultas": [
+    "Uraniborg Tycho Brahe castle Hven",
+    "uraniborg",
+    "uraniborg 1566"
+   ]
+  },
+  {
    "tipo": "heroi",
    "item": "brass nose",
    "consultas": [

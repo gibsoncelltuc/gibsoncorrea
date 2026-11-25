@@ -18,7 +18,8 @@
    "multidao": 0,
    "objetos": [
     "kit/chocolate",
-    "kit/microwave"
+    "kit/microwave",
+    "kit/radarange"
    ],
    "palavras": 12,
    "cena": "b0",
@@ -168,13 +169,11 @@
   {
    "camera": "orbit",
    "personagens": [
-    "SPE",
-    "COL",
-    "ENG"
+    "SPE"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
-    "kit/microwave"
+    "kit/radarange"
    ],
    "palavras": 18,
    "cena": "b8",
@@ -193,7 +192,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/microwave"
+    "kit/radarange"
    ],
    "palavras": 15,
    "cena": "b9",

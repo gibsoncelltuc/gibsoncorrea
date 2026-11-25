@@ -6,7 +6,7 @@
 - Quem: ['Elon Musk (camiseta preta, sorrindo, carregando uma pia de porcelana branca)', 'funcionarios do Twitter', 'executivos (Parag Agrawal e outros)']
 - Roupas: {'MUS': 'camiseta preta e calca jeans', 'FUN': 'camisa casual com cracha', 'FUN2': 'moletom e cracha'}
 - Cenario real: saguao do Twitter com piso claro, paredes com o logo do passaro azul, cafeteria; rua do centro de Sao Francisco
-- Objetos: ['pia de banheiro de porcelana branca', 'celular filmando', 'logo do Twitter']
+- Objetos: ['pia de banheiro de porcelana branca', 'celular filmando', 'logo do Twitter', 'smartphone']
 - Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -

@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.5s - 12 palavras - plano two
@@ -159,13 +159,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | saiu (41.9s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | forno (42.7s) | ACAO: calor | vapor/calor saindo | OK |
-| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: sai na palavra saiu (41.9s): executa: sai andando pela lateral
 - ACAO: calor na palavra forno (42.7s): executa: vapor/calor saindo
-- ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
 ## Cena b9 - 46.8s a 50.1s - 15 palavras - plano two

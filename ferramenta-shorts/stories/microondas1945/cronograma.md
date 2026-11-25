@@ -1,12 +1,12 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Gerado em 25/11 04:04 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:14 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SPE, COL | - | chocolate, microwave | - | Uma barra de chocolate derretida no bolso inventou o forno de micro-on
+b0 | simples | street | two | SPE, COL | - | chocolate, microwave, radarange | - | Uma barra de chocolate derretida no bolso inventou o forno de micro-on
 b1 | transicao | street | reveal | ENG, ENG | 8 | - | - | Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos
 b2 | simples | interior madeira | two | SPE, ENG | - | - | - | Esses radares tinham uma peça potente, que mandava ondas invisíveis o 
 b3 | simples | interior madeira | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols
@@ -14,8 +14,8 @@ b4 | simples | interior madeira | two | ENG, SPE | - | chocolate | - | Pouco dep
 b5 | simples | interior pedra | close | SPE | - | - | - | Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.
 b6 | chave | interior madeira | two | SPE | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou milho de pipoca, e os grãos começaram a estour
 b7 | chave | interior madeira | two | SPE | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
-b8 | simples | loc_campo | orbit | SPE, COL, ENG | 6 | microwave | - | Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co
-b9 | chave | interior madeira | two | POV, POV | - | microwave | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um 
+b8 | simples | loc_campo | orbit | SPE | - | radarange | - | Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co
+b9 | chave | interior madeira | two | POV, POV | - | radarange | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um 
 b10 | simples | interior loja | close | SPE | - | chocolate, popcorn | - | No fim, o chocolate perdeu, mas a pipoca agradece.
 b11 | simples | street | close | SPE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

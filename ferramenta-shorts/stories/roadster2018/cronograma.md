@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
-Gerado em 25/11 04:04 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:13 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | arctic | two | MUS | - | roadster | - | Um carro de verdade está dando voltas ao redor do Sol até hoje.
-b1 | transicao | loc_pista | wide | MUS | - | roadster | - | É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoi
+b0 | simples | arctic | two | MUS | - | roadster2008 | - | Um carro de verdade está dando voltas ao redor do Sol até hoje.
+b1 | transicao | loc_pista | wide | MUS | - | roadster2008 | - | É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoi
 b2 | transicao | loc_pista | wide | MUS | - | rocket | - | Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em C
-b3 | simples | interior loja | two | ENG | - | roadster | - | Acontece que era só um teste, e em vez de um peso de concreto, Musk re
+b3 | simples | interior loja | two | ENG | - | roadster2008 | - | Acontece que era só um teste, e em vez de um peso de concreto, Musk re
 b4 | chave | loc_pista | wide | ENG | - | falcon_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O foguete decolou com um estrondo!
-b5 | simples | interior loja | two | STA | - | roadster | - | No banco do motorista foi sentado um boneco de astronauta, chamado Sta
-b6 | simples | arctic | orbit | STA | - | roadster | - | No painel, estava escrito: Não entre em pânico.
-b7 | explicativa | arctic | two | sem personagem | - | globe, roadster | corpo: kit/roadster (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som e | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,
-b8 | chave | arctic | wide | MUS | - | roadster | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
-b9 | simples | loc_pista | two | MUS | - | roadster, rocket | - | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
+b5 | simples | interior loja | two | STA | - | roadster2008 | - | No banco do motorista foi sentado um boneco de astronauta, chamado Sta
+b6 | simples | arctic | orbit | STA | - | roadster2008 | - | No painel, estava escrito: Não entre em pânico.
+b7 | explicativa | arctic | two | sem personagem | - | globe, roadster2008 | corpo: kit/roadster2008 (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: s | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,
+b8 | chave | arctic | wide | MUS | - | roadster2008 | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E ele continua lá em cima, dando voltas, até hoje.
+b9 | simples | loc_pista | two | MUS | - | roadster2008, rocket | - | Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras
 b10 | simples | loc_pista | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

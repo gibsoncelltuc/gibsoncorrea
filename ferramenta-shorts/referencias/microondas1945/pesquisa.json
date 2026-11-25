@@ -131,6 +131,15 @@
    ],
    "achados": [
     {
+     "titulo": "Coat of arms of Henry Percy, 5th Earl of Northumberland (1477-1527) - Percy (16 quarters) impaling Spencer of Ashbury, Devon, Percy Window, Petworth House.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Henry_Percy%2C_5th_Earl_of_Northumberland_%281477-1527%29_-_Percy_%2816_quarters%29_impaling_Spencer_of_Ashbury%2C_Devon%2C_Percy_Window%2C_Petworth_House.png/500px-Coat_of_arms_of_Henry_Percy%2C_5th_Earl_of_Northumberland_%281477-1527%29_-_Percy_%2816_quarters%29_impaling_Spencer_of_Ashbury%2C_Devon%2C_Percy_Window%2C_Petworth_House.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ACoat_of_arms_of_Henry_Percy%2C_5th_Earl_of_Northumberland_%281477-1527%29_-_Percy_%2816_quarters%29_impaling_Spencer_of_Ashbury%2C_Devon%2C_Percy_Window%2C_Petworth_House.png",
+     "descricao": "DescriptionCoat of arms of Henry \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/microondas1945/prints/percy_spencer_terno_gravata_cabelo_pente_b02310.jpg",
+     "consulta": "Percy Spencer"
+    },
+    {
      "titulo": "Coat of arms of Sir Thomas Percy (1504-1537) (2nd son of Henry Percy, 5th Earl of Northumberland), Percy (16 quarters) impaling Harbottle, Percy Window, Petworth House.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_arms_of_Sir_Thomas_Percy_%281504-1537%29_%282nd_son_of_Henry_Percy%2C_5th_Earl_of_Northumberland%29%2C_Percy_%2816_quarters%29_impaling_Harbottle%2C_Percy_Window%2C_Petworth_House.jpg/500px-Coat_of_arms_of_Sir_Thomas_Percy_%281504-1537%29_%282nd_son_of_Henry_Percy%2C_5th_Earl_of_Northumberland%29%2C_Percy_%2816_quarters%29_impaling_Harbottle%2C_Percy_Window%2C_Petworth_House.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ACoat_of_arms_of_Sir_Thomas_Percy_%281504-1537%29_%282nd_son_of_Henry_Percy%2C_5th_Earl_of_Northumberland%29%2C_Percy_%2816_quarters%29_impaling_Harbottle%2C_Percy_Window%2C_Petworth_House.jpg",
@@ -195,12 +204,12 @@
      "consulta": "magnetron"
     },
     {
-     "titulo": "Magnetron section transverse to axis.JPG",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Magnetron_section_transverse_to_axis.JPG/500px-Magnetron_section_transverse_to_axis.JPG",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMagnetron_section_transverse_to_axis.JPG",
-     "descricao": "the license of your choice. English Section through a \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/microondas1945/prints/magnetron_17dc42.jpg",
+     "titulo": "Magnetronbuis.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Magnetronbuis.jpg/500px-Magnetronbuis.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMagnetronbuis.jpg",
+     "descricao": "Creative Commons Attribution-Share Alike 4.0 truetrue English Cavity \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/microondas1945/prints/magnetron_7778b9.jpg",
      "consulta": "magnetron"
     }
    ]
@@ -363,39 +372,31 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "microwave",
+   "tipo": "objeto",
+   "item": "radarange",
    "consultas": [
-    "magnetron",
-    "O Micro-ondas e o Chocolate"
+    "Raytheon Radarange 1947 microwave oven",
+    "radarange",
+    "radarange 1945"
    ],
    "achados": [
     {
-     "titulo": "Micro-aerated chocolate viewed by scanning electron microscopy (vertical).png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Micro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29.png/500px-Micro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMicro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29.png",
-     "descricao": "non-aerated \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/microondas1945/prints/microwave_d51f20.jpg",
-     "consulta": "Micro Chocolate"
+     "titulo": "Radarange NS Svannah.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Radarange_NS_Svannah.jpg/500px-Radarange_NS_Svannah.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARadarange_NS_Svannah.jpg",
+     "descricao": "0 Creative Commons Attribution-Share Alike 4.0 truetrue English Model \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/microondas1945/prints/radarange_3790f3.jpg",
+     "consulta": "radarange"
     },
     {
-     "titulo": "Micro-aerated chocolate viewed by scanning electron microscopy (vertical) (cropped).png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Micro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29_%28cropped%29.png/500px-Micro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29_%28cropped%29.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AMicro-aerated_chocolate_viewed_by_scanning_electron_microscopy_%28vertical%29_%28cropped%29.png",
-     "descricao": "Description\\u003Cspan class=\\",
+     "titulo": "Amana Radarange Microwave Oven.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Amana_Radarange_Microwave_Oven.jpg/500px-Amana_Radarange_Microwave_Oven.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAmana_Radarange_Microwave_Oven.jpg",
+     "descricao": "DescriptionAmana \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/microondas1945/prints/microwave_887755.jpg",
-     "consulta": "Micro Chocolate"
-    },
-    {
-     "titulo": "A Wary Micro Nap... (51323238063).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/A_Wary_Micro_Nap..._%2851323238063%29.jpg/500px-A_Wary_Micro_Nap..._%2851323238063%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_Wary_Micro_Nap..._%2851323238063%29.jpg",
-     "descricao": "DescriptionA Wary \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/microondas1945/prints/microwave_660df9.jpg",
-     "consulta": "Micro Chocolate"
+     "print": "referencias/microondas1945/prints/radarange_f397bc.jpg",
+     "consulta": "radarange"
     }
    ]
   },

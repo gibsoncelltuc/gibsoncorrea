@@ -165,7 +165,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TYC (variante 0, expressao grin, segura paper) | multidao: 0 de 
 - Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/marco_uraniborg, kit/tower
+- Objetos/modelos: kit/marco_uraniborg, kit/uraniborg
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castelo, posicao
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -175,7 +175,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: TYC (nobre) no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/marco_uraniborg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 21.2 m de altura x 36.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 13.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/uraniborg: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.0 m de altura x 10.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
@@ -248,7 +248,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/brass_nose | b0, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/uraniborg | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

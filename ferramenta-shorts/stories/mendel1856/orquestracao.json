@@ -116,11 +116,11 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MEN"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/pea_green",
     "kit/pea_yellow"
@@ -220,18 +220,18 @@
    "cenario": "loc_deserto"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "MEN"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/pea_green"
    ],
    "palavras": 8,
    "cena": "b10",
    "frase": "No fim, a ervilha fez o monge famoso.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

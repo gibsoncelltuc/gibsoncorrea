@@ -11,7 +11,7 @@ b3 | loc_deserto | two | 2 | discutir, INTERAGEM: discutir | - | sword, sword | 
 b4 | loc_deserto | two | 2 | encena, INTERAGEM: susto | kit/brass_nose | sword, sword | -
 b5 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
 b6 | harbor | orbit | 8 | encena | - | - | -
-b7 | loc_campo | orbit | 1 | encena, batalha | kit/marco_uraniborg, kit/tower | paper | -
+b7 | loc_campo | orbit | 1 | encena, batalha | kit/marco_uraniborg, kit/uraniborg | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | loc_montanha | two | 1 | conversar | kit/brass_nose | - | -
 b10 | loc_campo | close | 1 | conversar | - | - | -

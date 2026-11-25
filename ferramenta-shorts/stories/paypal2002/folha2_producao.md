@@ -54,16 +54,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/phone
+- Objetos/modelos: kit/smartphone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banco, email, mandar, paypal
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/phone: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/smartphone: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "E-MAIL = DINHEIRO" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (10.5-12.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -163,16 +163,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: - | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/roadster
+- Objetos/modelos: kit/roadster2008
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carros, conselho, fabrica, tesla
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_pista; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.9 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/roadster2008: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.6 m de altura x 9.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
 - SOM: ding@3
 - TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
@@ -188,7 +188,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao smile)
 - Animacao: conversar | interacao: cochichar
-- Objetos/modelos: kit/coin, kit/roadster, kit/falcon9_land, kit/tv
+- Objetos/modelos: kit/coin, kit/roadster2008, kit/falcon9_land, kit/tv
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, internet, venda
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -198,7 +198,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/roadster: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.9 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/roadster2008: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.6 m de altura x 9.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/falcon9_land: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.3 m de altura x 7.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/tv: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
@@ -242,9 +242,9 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/coin | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tv | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/smartphone | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon9_land | b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/roadster | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster2008 | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/falcon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 

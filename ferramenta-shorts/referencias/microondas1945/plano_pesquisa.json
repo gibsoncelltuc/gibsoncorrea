@@ -107,11 +107,12 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "microwave",
+   "tipo": "objeto",
+   "item": "radarange",
    "consultas": [
-    "magnetron",
-    "O Micro-ondas e o Chocolate"
+    "Raytheon Radarange 1947 microwave oven",
+    "radarange",
+    "radarange 1945"
    ]
   },
   {

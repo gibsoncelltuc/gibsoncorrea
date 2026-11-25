@@ -91,11 +91,12 @@
    ]
   },
   {
-   "tipo": "heroi",
-   "item": "roadster",
+   "tipo": "objeto",
+   "item": "roadster2008",
    "consultas": [
-    "Tesla Roadster vermelho",
-    "O Carro que Foi Parar no Espaço"
+    "Tesla Roadster 2008 red",
+    "roadster2008",
+    "roadster2008 2018"
    ]
   },
   {
@@ -119,7 +120,7 @@
    "item": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol,",
    "consultas": [
     "roadster orbita terra seguiu orbita redor espaco",
-    "roadster diagram"
+    "roadster2008 diagram"
    ]
   }
  ]

@@ -33,3 +33,13 @@
 ## 25/11 03:10 autocorrecao de visibilidade
 - b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
 - b6: objeto "kit/key" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 04:08 autocorrecao de visibilidade
+- b8: quadro_manual (o roteiro fixou o quadro), "buildings/house_two" cobrindo a tela (72% do quadro: so' se ve uma parede/casco) -> fica para o olho
+- b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b8: quadro_manual (o roteiro fixou o quadro), objeto ENORME "kit/lightning_rod" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho
+- b6: objeto "kit/key" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 04:08 autocorrecao de visibilidade
+- b8: quadro_manual (o roteiro fixou o quadro), "buildings/house_two" cobrindo a tela (72% do quadro: so' se ve uma parede/casco) -> fica para o olho
+- b8: quadro_manual (o roteiro fixou o quadro), objeto ENORME "kit/lightning_rod" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho

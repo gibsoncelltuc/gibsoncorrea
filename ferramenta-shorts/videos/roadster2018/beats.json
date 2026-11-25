@@ -8,7 +8,7 @@
  "set": "harbor",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/roadster",
+ "heroi": "kit/roadster2008",
  "outfits": {
   "MUS": {
    "jacket": "#16181d",
@@ -57,7 +57,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -75,10 +75,10 @@
    "detalhe": false,
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -86,12 +86,12 @@
     ]
    },
    "hora": "espaco",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
@@ -101,7 +101,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -119,22 +119,22 @@
    },
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
@@ -174,12 +174,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 22.4,
-   "d1": 21.3,
-   "_enq_shot": "wide"
+   "d1": 21.3
   },
   {
    "say": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
@@ -190,7 +190,7 @@
    "acao": "conversar",
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -208,22 +208,22 @@
    "detalhe": false,
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "O foguete decolou com um estrondo!",
@@ -274,12 +274,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   "d1": 20.0
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
@@ -289,7 +289,7 @@
    ],
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -308,33 +308,33 @@
    },
    "quadro": {
     "local": "loja / taverna",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "STA:0:neutral"
    ],
    "text": "NÃO ENTRE EM PÂNICO",
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -352,10 +352,10 @@
    },
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -363,12 +363,12 @@
     ]
    },
    "hora": "espaco",
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "two"
+   "d1": 10.0
   },
   {
    "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
@@ -377,7 +377,7 @@
    "hora": "espaco",
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -412,7 +412,7 @@
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -431,7 +431,7 @@
    "d0": 10.5,
    "d1": 10.0,
    "explica": {
-    "objeto": "kit/roadster",
+    "objeto": "kit/roadster2008",
     "manobra": "gira",
     "rotulos": [
      [
@@ -456,7 +456,7 @@
    "hora": "espaco",
    "props": [
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -480,22 +480,22 @@
    "detalhe": false,
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   },
   {
    "say": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -514,7 +514,7 @@
      }
     ],
     [
-     "kit/roadster",
+     "kit/roadster2008",
      0.0,
      -8.0,
      2.67,
@@ -542,10 +542,10 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/roadster",
+      "objeto": "kit/roadster2008",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -558,12 +558,12 @@
      }
     ]
    },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "_enq_shot": "wide"
+   "d1": 10.0
   }
  ],
  "cinf": 1.5,
@@ -586,7 +586,8 @@
    "Tesla Roadster vermelho",
    "foguete Falcon Heavy (3 propulsores)",
    "painel com a frase DON'T PANIC",
-   "globo terrestre"
+   "globo terrestre",
+   "roadster2008"
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster",
@@ -595,7 +596,10 @@
   ],
   "explicacoes": [
    "O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)"
-  ]
+  ],
+  "buscas": {
+   "roadster2008": "Tesla Roadster 2008 red"
+  }
  },
  "max_wide": 10
 }

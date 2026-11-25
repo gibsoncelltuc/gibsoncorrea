@@ -4,11 +4,11 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Carro que Foi Parar no Espaço
 - Epoca: 2018 | Lugar: Cabo Canaveral, Complexo de Lançamento 39A do Centro Espacial Kennedy, Flórida, e o espaço | Quando: 6 de fevereiro de 2018, tarde (15h45)
-- HEROIS (objeto): kit/roadster
+- HEROIS (objeto): kit/roadster2008
 - HEROIS (personagens): MUS, ENG
 - Cenarios: arctic, interior loja, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/roadster: 4.5 m reais -> escala 2.67 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: kit/roadster2008: 4.5 m reais -> escala 1.63 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
@@ -25,10 +25,10 @@ objeto | Tesla Roadster vermelho | Tesla Roadster vermelho / Tesla Roadster verm
 objeto | foguete Falcon Heavy (3 propulsores) | foguete Falcon Heavy / foguete Falcon Heavy 2018 | Falcon Heavy Side Boosters landing on LZ1 and LZ2  (referencias/roadster2018/prints/foguete_falcon_heavy_3_propulsores__7a8100.jpg); Falcon 9 Rocket family.png (referencias/roadster2018/prints/foguete_falcon_heavy_3_propulsores__1c740b.jpg); Falcon Heavy version comparison.png (referencias/roadster2018/prints/foguete_falcon_heavy_3_propulsores__b90359.jpg)
 objeto | painel com a frase DON'T PANIC | painel com a frase DON'T PANIC / painel com a frase DON'T PANIC 2018 | Don't panic (4441342131).jpg (referencias/roadster2018/prints/painel_com_a_frase_don_t_panic_148673.jpg); Don't Panic Badge.jpg (referencias/roadster2018/prints/painel_com_a_frase_don_t_panic_55983f.jpg); Don't panic. (4750808745).jpg (referencias/roadster2018/prints/painel_com_a_frase_don_t_panic_c7fd74.jpg)
 objeto | globo terrestre | globo terrestre / globo terrestre 2018 | Brinquedo - Globo Terrestre, Acervo do Museu Pauli (referencias/roadster2018/prints/globo_terrestre_56f1fe.jpg); Brinquedo - Globo Terrestre, Acervo do Museu Pauli (referencias/roadster2018/prints/globo_terrestre_342b91.jpg); Brinquedo - Globo Terrestre, Acervo do Museu Pauli (referencias/roadster2018/prints/globo_terrestre_4e11eb.jpg)
-heroi | roadster | Tesla Roadster vermelho / O Carro que Foi Parar no Espaço | 15-05-23-Berlin-Sachsendamm-Tesla-RalfR-N3S 7354.j (referencias/roadster2018/prints/roadster_3cebd1.jpg); Tesla roadster 2020 prototype.jpg (referencias/roadster2018/prints/roadster_db490f.jpg); Tesla Roadster, Grand Basel 2018 03.jpg (referencias/roadster2018/prints/roadster_98ad9d.jpg)
+objeto | roadster2008 | Tesla Roadster 2008 red / roadster2008 / roadster2008 2018 | SEM REFERENCIA
 epoca | carro da epoca | car 2018 / car | SEM REFERENCIA
 epoca | foguete da epoca | rocket 2018 / rocket | First NASA ISINGLASS rocket launch.jpg (referencias/roadster2018/prints/foguete_da_epoca_1168ff.jpg); Rocket initiating a cremation in Laos.jpg (referencias/roadster2018/prints/foguete_da_epoca_d392d3.jpg); Rocket Wheeler, May 30 2018.jpg (referencias/roadster2018/prints/foguete_da_epoca_f014f6.jpg)
-mecanismo | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, | roadster orbita terra seguiu orbita redor espaco / roadster diagram | Tesla Roadster orbital diagram.png (referencias/roadster2018/prints/o_roadster_saiu_da_rbita_da_terra_e_segu_f52334.jpg); Falcon Heavy Demonstration Mission orbit Feb 6 201 (referencias/roadster2018/prints/o_roadster_saiu_da_rbita_da_terra_e_segu_d17617.jpg)
+mecanismo | O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, | roadster orbita terra seguiu orbita redor espaco / roadster2008 diagram | Tesla Roadster orbital diagram.png (referencias/roadster2018/prints/o_roadster_saiu_da_rbita_da_terra_e_segu_f52334.jpg); Falcon Heavy Demonstration Mission orbit Feb 6 201 (referencias/roadster2018/prints/o_roadster_saiu_da_rbita_da_terra_e_segu_d17617.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - O Roadster foi lancado alem da orbita da Terra e ficou em orbita heliocentrica (ao redor do Sol), cruzando a orbita de Marte (fonte: Wikipedia Elon Musk's Tesla Roadster)

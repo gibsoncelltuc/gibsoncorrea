@@ -89,11 +89,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -159,11 +159,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -173,7 +173,7 @@
    ],
    "props": [
     [
-     "kit/microscopio",
+     "kit/microscopio_antigo",
      3.6,
      -2.0,
      1.5,
@@ -204,18 +204,18 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/microscopio",
+      "objeto": "kit/microscopio_antigo",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -255,11 +255,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "low",
@@ -297,11 +297,11 @@
      }
     ]
    },
+   "_enq_shot": "low",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "low"
+   "d1": 8.0
   },
   {
    "shot": "crowd",
@@ -356,11 +356,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -432,11 +432,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -474,11 +474,11 @@
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   }
  ],
  "max_wide": 3,
@@ -501,7 +501,8 @@
   "objetos": [
    "carrapicho de bardana",
    "microscopio",
-   "fita de velcro de nailon"
+   "fita de velcro de nailon",
+   "microscopio_antigo"
   ],
   "explicacoes": [
    "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
@@ -512,7 +513,8 @@
   ],
   "buscas": {
    "carrapicho": "burdock burr hooks microscope",
-   "montanha": "Swiss Alps trail Jura 1940s"
+   "montanha": "Swiss Alps trail Jura 1940s",
+   "microscopio_antigo": "antique brass compound microscope 1900s"
   }
  }
 }

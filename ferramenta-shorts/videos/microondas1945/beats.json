@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/microwave",
+ "heroi": "kit/radarange",
  "outfits": {
   "SPE": {
    "jacket": "#e9e4d8",
@@ -50,7 +50,7 @@
    ],
    "props": [
     [
-     "kit/microwave",
+     "kit/radarange",
      0.0,
      -1.2,
      1.3,
@@ -61,21 +61,21 @@
    ],
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e radarange juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/microwave",
+      "objeto": "kit/radarange",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
@@ -212,10 +212,6 @@
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
@@ -228,7 +224,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
@@ -256,10 +256,6 @@
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "sala de madeira",
@@ -272,21 +268,23 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
-    "SPE:0:smile",
-    "COL:0:surprised",
-    "ENG:0:shock"
+    "SPE:0:smile"
    ],
    "props": [
     [
-     "kit/microwave",
+     "kit/radarange",
      0.0,
-     -1.2,
+     -8.0,
      2.6,
      {
       "fixo": true
@@ -295,21 +293,27 @@
    ],
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o radarange (alvo z -3.6, camera a 16.7 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/microwave",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "objeto": "kit/radarange",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
    },
+   "_enq_shot": "wide",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "group"
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.5,
+   "d1": 16.7
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
@@ -336,7 +340,7 @@
    "interior": "madeira",
    "props": [
     [
-     "kit/microwave",
+     "kit/radarange",
      0.0,
      -1.2,
      1.0,
@@ -345,23 +349,23 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e radarange juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/microwave",
+      "objeto": "kit/radarange",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",
@@ -401,7 +405,8 @@
    "milho de pipoca",
    "ovo",
    "Radarange (primeiro micro-ondas, 1,8 m)",
-   "forno de micro-ondas moderno"
+   "forno de micro-ondas moderno",
+   "radarange"
   ],
   "explicacoes": [
    "Percy Spencer notou que um magnetron derreteu o chocolate no bolso; testou pipoca e ovo; a Raytheon lancou o Radarange em 1947, com cerca de 1,8 m e 340 kg (fonte: Wikipedia Microwave oven, Percy Spencer)"
@@ -412,7 +417,9 @@
   ],
   "buscas": {
    "forno": "Raytheon Radarange 1947",
-   "lab": "Raytheon magnetron laboratory 1940s"
+   "lab": "Raytheon magnetron laboratory 1940s",
+   "radarange": "Raytheon Radarange 1947 microwave oven"
   }
- }
+ },
+ "max_wide": 3
 }
