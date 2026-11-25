@@ -19,7 +19,7 @@
     "loc_cidade"
    ],
    [
-    "cena 13",
+    "cena 15",
     "street",
     "loc_cidade"
    ]
@@ -48,6 +48,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/bitcoin",
+  "kit/rack_mineracao",
   "kit/volcano"
  ],
  "pesquisa_visual": {
@@ -75,7 +76,8 @@
   "explicacoes": [
    "Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)",
    "O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)",
-   "O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)"
+   "O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)",
+   "Mineracao de bitcoin: computadores especializados (ASIC) fazem calculos para validar os blocos de transacoes; o primeiro que acerta ganha bitcoins novos. El Salvador minera desde 2021 com energia geotermica do vulcao Tecapa (usina estatal LaGeo, Berlin, Usulutan)."
   ],
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
