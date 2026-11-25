@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Às nove e quarenta, a bandeira caiu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente
-- PERSONAGENS: GUA na esquerda, expressao pained, segura flag; ING2 na direita, expressao stern; sem multidao; acao: fala/gesto
+- PERSONAGENS: GUA no centro, expressao pained, segura flag; sem multidao; acao: fala/gesto
 - OBJETO kit/forte_colonial: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 8.1 m de altura x 11.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40

@@ -1,20 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Gerado em 25/11 17:31 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:33 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | stadium | group | TRU, VIN | - | clipper | - | Donald Trump raspou a cabeça de outro bilionário num ringue.
-b1 | simples | stadium | wide | JUI, TRU | - | ring | - | E no fim, ele mesmo acabou no chão.
+b1 | transicao | stadium | wide | JUI | - | ring | - | E no fim, ele mesmo acabou no chão.
 b2 | transicao | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em 2007, no maior show de luta livre.
 b3 | simples | interior pedra | group | VIN, TRU | - | clipper | - | Cada um escolheu um lutador. A aposta valia uma cabeça raspada.
 b4 | chave | stadium | crowd | POV, POV, POV | 30 | ball | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mais de oitenta mil pessoas lotaram o estádio.
-b5 | transicao | stadium | wide | LAS, UMA | - | ring | - | O lutador de Trump enfrentou o gigante Umaga.
+b5 | transicao | stadium | wide | LAS | - | ring | - | O lutador de Trump enfrentou o gigante Umaga.
 b6 | chave | stadium | wide | LAS | - | ball, ring | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o lutador de Trump venceu, e o estádio foi abaixo.
-b7 | simples | stadium | two | TRU, LAS, VIB | - | clipper, ring | - | Trump ajudou a raspar a cabeça de Vince McMahon.
-b8 | simples | stadium | wide | JUI, TRU | - | ring | - | E o juiz derrubou Trump também.
+b7 | simples | stadium | two | TRU | - | clipper, ring | - | Trump ajudou a raspar a cabeça de Vince McMahon.
+b8 | simples | stadium | wide | JUI | - | ring | - | E o juiz derrubou Trump também.
 b9 | simples | stadium | group | TRU, VIN | - | clipper | - | Anos depois, foi para o Hall da Fama. Tudo porque...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

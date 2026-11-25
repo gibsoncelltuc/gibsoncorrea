@@ -1,12 +1,12 @@
 # CRONOGRAMA - Poder e Fama EP 22 - A Operação da Madrugada
 
-Gerado em 25/11 17:31 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:32 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital.
+b0 | simples | loc_cidade | two | SOL | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital.
 b1 | simples | loc_pista | wide | TRU | - | helicopter_air | - | E tudo levou menos de três horas.
 b2 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em janeiro de 2026, em Caracas, na Venezuela.
 b3 | simples | loc_pista | two | MAD | - | helicopter_air | - | O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterroris
@@ -15,7 +15,7 @@ b5 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | cor
 b6 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, ele já estava capturado.
 b7 | simples | loc_patio | two | AGE, MAD | - | scroll, airplane | - | Foi levado de avião para Nova York.
 b8 | chave | loc_patio | wide | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia dividiu o mundo inteiro.
-b9 | simples | loc_cidade | wide | SOL, MAD | - | helicopter_air | - | A operação se chamou Resolução Absoluta. E foi assim que...
+b9 | transicao | loc_cidade | wide | SOL | - | helicopter_air | - | A operação se chamou Resolução Absoluta. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

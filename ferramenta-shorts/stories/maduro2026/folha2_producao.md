@@ -6,8 +6,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: conversar | interacao: susto
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/helicopter_air, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada, presidente, propria
 - RISCOS: nenhum
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
@@ -199,8 +199,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: reagir
+- Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de POV
+- Animacao: -
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): operacao
 - RISCOS: nenhum
@@ -220,7 +220,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 
 ## Video inteiro
 - Objeto heroi: kit/helicopter_air | grandes momentos: b4, b8 | planos abertos: 5 | mistura: close 16% | medio 54% | aberto 31% | detalhe 0%
-- Interacoes: b0 susto, b6 empurrar, b7 entregar
+- Interacoes: b6 empurrar, b7 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -234,7 +234,7 @@ vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se par
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
-- PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: fala/gesto
+- PERSONAGENS: SOL no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30

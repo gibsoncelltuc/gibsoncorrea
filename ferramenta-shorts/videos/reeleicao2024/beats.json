@@ -89,10 +89,6 @@
     ]
    },
    "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -111,7 +107,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -166,11 +166,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -183,7 +178,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -278,11 +278,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "salao",
@@ -295,7 +290,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -332,10 +332,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
@@ -348,7 +344,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -392,11 +392,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -409,7 +404,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -455,10 +455,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -477,7 +473,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "fontes": [

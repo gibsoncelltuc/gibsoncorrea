@@ -94,11 +94,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -111,7 +106,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -140,7 +140,7 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "shot": "reveal",
+   "shot": "wide",
    "who": [
     "AST:0:grin"
    ],
@@ -177,20 +177,15 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 20.6,
-   "d1": 19.6,
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "_enq_shot": "reveal",
+   "_enq_shot": "wide",
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "revelacao (camera sobe e abre); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/falcon_air",
@@ -205,7 +200,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 20.6,
+   "d1": 19.6
   },
   {
    "tiros": false,
@@ -273,11 +273,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "loc_montanha",
@@ -290,7 +285,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "tiros": false,
@@ -470,11 +470,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
@@ -487,7 +482,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.4,
+   "d0": 21.0,
+   "d1": 20.0
   }
  ],
  "exp": 1.0,
