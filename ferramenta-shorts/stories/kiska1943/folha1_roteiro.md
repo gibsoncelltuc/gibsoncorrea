@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: mountain |
 
 ## Cena b7  (~2.8 s)
 - Narracao: No nevoeiro, os Aliados atiraram uns nos outros.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@30, gun@50, gun@65, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
 - Efeito + som nas palavras-chave: atiraram -> burst + som de tiro/explosao; encena: atira @4 -> acao + som de efeito
 - Efeito visual marcado: burst@30, burst@60

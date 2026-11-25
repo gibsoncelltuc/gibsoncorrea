@@ -12,13 +12,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@106
 - TEXTO NA TELA: "1 FERIDO: CANIVETADA" flutuando no alto, na palavra 13 da frase
 
-## b1: "E quem perdeu a guerra acabou ficando rico."
+## b1: "E quem perdeu a guerra ficou rico."
 - LOCAL: sala de madeira; hora: dia
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: GOV no centro, expressao laugh, segura coin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Ohio e Michigan disputavam Toledo por causa de um mapa errado."
+## b2: "Ohio e Michigan disputavam Toledo por um mapa errado."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)
 - PERSONAGENS: OHI na esquerda, expressao stern; MIC na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -33,13 +33,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "23 ANOS" numa placa atras dos personagens, na palavra 1 da frase
 
-## b4: "Ohio mandou a própria milícia. As tropas ficaram frente a frente."
+## b4: "Ohio mandou sua milícia, e as tropas se encararam."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: OHI no centro, expressao stern; multidao de 18 (OHI, MIC) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b5: "Houve gritos e tiros para o alto. Ninguém acertou ninguém."
+## b5: "Teve tiro para o alto, mas ninguém acertou ninguém."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: OHI no centro, expressao shock; multidao de 18 (OHI, MIC) ATRAS dos principais; acao: batalha
@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@60
 - SOM: thump@55
 
-## b7: "Ohio ficou com Toledo. Michigan levou uma floresta gelada."
+## b7: "Ohio levou Toledo. Michigan, uma floresta gelada."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: OHI na esquerda, expressao grin; MIC no centro, expressao pained; GOV na direita, expressao nervous; sem multidao; acao: fala/gesto

@@ -174,12 +174,12 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "CHF",
     "PAR"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/bife_elefante",
     "kit/marco_notredame"

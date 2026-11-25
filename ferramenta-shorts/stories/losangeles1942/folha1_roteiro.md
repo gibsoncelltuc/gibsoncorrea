@@ -5,7 +5,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b0  (~4.1 s)
 - Narracao: Uma cidade atirou no céu a noite toda contra um inimigo invisível.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@25, cannon@40, cannon@60
+- Efeitos sonoros marcados: cannon@25, cannon@40, cannon@60, cannon@6, cannon@22, cannon@34, cannon@50, cannon@62, cannon@78, cannon@90
 - Efeito + som nas palavras-chave: atirou -> burst + som de tiro/explosao; encena: atira @2 -> acao + som de efeito
 - Efeito visual marcado: burst@25, burst@40, burst@60
 - Texto na tela: NENHUM INIMIGO
@@ -50,7 +50,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b5  (~3.4 s)
 - Narracao: Alguém viu algo, e os canhões antiaéreos começaram a atirar.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@40, cannon@90
+- Efeitos sonoros marcados: cannon@40, cannon@90, cannon@6, cannon@22, cannon@34, cannon@50, cannon@62, cannon@78, cannon@90
 - Efeito + som nas palavras-chave: canhões -> burst + som de tiro/explosao; atirar -> burst + som de tiro/explosao; encena: olha (point) @1 -> acao + som de efeito; encena: atira @9 -> acao + som de efeito
 - Efeito visual marcado: burst@40, burst@90
 - Texto na tela: FOGO!
@@ -58,9 +58,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b6  (~3.4 s)
 - Narracao: Foram mais de mil tiros, e estilhaços caíram na cidade.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@40, cannon@100, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
-- Efeito + som nas palavras-chave: tiros -> burst + som de tiro/explosao; caíram -> dust + som de impacto
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: cannon@40, cannon@100, cannon@6, cannon@22, cannon@34, cannon@50, cannon@62, cannon@78, cannon@90
+- Efeito + som nas palavras-chave: caíram -> dust + som de impacto
 - Efeito visual marcado: burst@40, burst@100
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

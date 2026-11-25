@@ -11,14 +11,14 @@ b3 | harbor | reveal | 2 | encena | kit/aviao_ww2, kit/tanque_ww2, navios de gue
 b4 | harbor | crowd | 19 | batalha | kit/aviao_ww2, kit/canhao_moderno | - | -
 b5 | interior pedra | two | 2 | reagir, INTERAGEM: susto | - | - | -
 b6 | harbor | wide | 0 | parados (so fala e pisca) | ship | - | -
-b7 | arctic | orbit | 21 | reagir, batalha | - | - | -
-b8 | harbor | group | 14 | conversar, INTERAGEM: empurrar | kit/navio_encouracado | - | -
+b7 | harbor | orbit | 21 | reagir, batalha | - | - | -
+b8 | harbor | orbit | 14 | encena | kit/navio_encouracado, navios de guerra ao fundo, no tamanho real | - | -
 b9 | harbor | prop | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/dog_sit, dog | - | -
 b10 | harbor | wide | 26 | parados (so fala e pisca) | ship, dog | - | -
 
 OBJETO HEROI: kit/dog_sit
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
-Interacoes entre personagens: b2 aproxima-se, b5 susto, b8 empurrar, b9 avanca e o outro recua
+Interacoes entre personagens: b2 aproxima-se, b5 susto, b9 avanca e o outro recua
 
 Cenas com personagens parados: 3 de 11
 FALTA MODELAR: nada

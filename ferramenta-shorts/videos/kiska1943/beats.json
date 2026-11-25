@@ -88,7 +88,25 @@
    },
    "bloco": "gancho",
    "say": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -121,10 +139,6 @@
    ],
    "detalhe": true,
    "set": "harbor",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "promessa",
    "say": "E mesmo assim, houve mortos nessa invasão.",
    "encena": {
@@ -135,7 +149,30 @@
       "na": "mortos"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "group",
@@ -176,6 +213,24 @@
       "na": "Kiska"
      }
     ]
+   },
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/airplane",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -208,6 +263,24 @@
       "faz": "chega",
       "na": "chegaram",
       "quem": 0
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tanque_ww2 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/tanque_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     },
+     {
+      "objeto": "kit/aviao_ww2",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "chegando"
      }
     ]
    }
@@ -257,6 +330,24 @@
      {
       "faz": "mostra",
       "na": "bombardearam"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o aviao_ww2 (alvo z -4.4, camera a 16.9 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/aviao_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -312,6 +403,24 @@
      {
       "faz": "mostra",
       "na": "escondidos"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -8.2, camera a 101.7 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -392,6 +501,18 @@
       "na": "morreram"
      }
     ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_encouracado (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/navio_encouracado",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -408,8 +529,8 @@
    "props": [
     [
      "kit/dog_sit",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -427,10 +548,6 @@
    ],
    "shot_lock": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Na ilha inteira, só acharam alguns cachorros abandonados.",
    "encena": {
@@ -441,7 +558,30 @@
       "na": "acharam"
      }
     ]
-   }
+   },
+   "_enq_shot": "prop",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano do objeto; plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -474,12 +614,7 @@
     "thump@25"
    ],
    "crowd": {
-    "n": 24,
-    "outfits": [
-     "USA",
-     "CAN"
-    ],
-    "march": true
+    "n": 0
    },
    "bloco": "loop",
    "say": "Uma invasão contra cachorros. E foi assim que...",
@@ -489,6 +624,25 @@
      {
       "faz": "mostra",
       "na": "cachorros"
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -534,5 +688,6 @@
  ],
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }

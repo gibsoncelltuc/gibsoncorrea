@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Gerado em 25/11 18:19 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:25 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,7 +12,7 @@ b2 | chave | street | wide | CID, CID | 8 | - | corpo: tropa/personagens encenam
 b3 | simples | harbor | wide | CID | - | submarino_ww2 | - | Na véspera, um submarino japonês atirou na Califórnia.
 b4 | simples | harbor | low | SOL, CID | - | searchlight | - | De madrugada, sirenes tocaram e holofotes varreram o céu.
 b5 | simples | street | wide | SOL | - | cannon, canhao_moderno | - | Alguém viu algo, e os canhões antiaéreos começaram a atirar.
-b6 | chave | loc_cidade | orbit | CID, CID | 48 | apartment, house_two, canhao_moderno, searchlight, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros, e estilhaços caíram na cidade.
+b6 | chave | loc_cidade | orbit | CID, CID | - | apartment, house_two, canhao_moderno, searchlight, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros, e estilhaços caíram na cidade.
 b7 | simples | loc_cidade | two | SOL, GEN | - | - | - | Acontece que não havia nada lá em cima.
 b8 | simples | loc_cidade | group | CID, CID | 12 | - | - | Algumas pessoas morreram por acidente e susto.
 b9 | simples | street | two | SOL, CID | 12 | searchlight | - | O medo venceu o sono. E foi assim que...

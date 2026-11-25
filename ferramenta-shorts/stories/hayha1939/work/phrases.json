@@ -1,0 +1,153 @@
+{
+ "duration": 33.888,
+ "frames30": 1017,
+ "source": "silence-align (cost 1.47)",
+ "segments": [
+  [
+   0.146458,
+   2.83221
+  ],
+  [
+   3.62192,
+   5.72837
+  ],
+  [
+   6.50992,
+   7.82917
+  ],
+  [
+   8.06229,
+   9.96017
+  ],
+  [
+   10.7798,
+   12.5058
+  ],
+  [
+   13.287,
+   15.0036
+  ],
+  [
+   15.7692,
+   16.6297
+  ],
+  [
+   16.8155,
+   18.4917
+  ],
+  [
+   19.2775,
+   21.7773
+  ],
+  [
+   22.5357,
+   23.3018
+  ],
+  [
+   23.4603,
+   24.2113
+  ],
+  [
+   24.4295,
+   26.4625
+  ],
+  [
+   27.2439,
+   29.1792
+  ],
+  [
+   29.9548,
+   30.6967
+  ],
+  [
+   30.9321,
+   31.6555
+  ],
+  [
+   32.4307,
+   33.1733
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
+   "s": 0.146,
+   "e": 2.832
+  },
+  {
+   "text": "T\u00e3o temido que os inimigos deram um apelido a ele.",
+   "s": 3.622,
+   "e": 5.728
+  },
+  {
+   "text": "Em 1939,",
+   "s": 6.51,
+   "e": 7.829
+  },
+  {
+   "text": "a Uni\u00e3o Sovi\u00e9tica invadiu a Finl\u00e2ndia.",
+   "s": 8.062,
+   "e": 9.96
+  },
+  {
+   "text": "Fazia quarenta graus abaixo de zero.",
+   "s": 10.78,
+   "e": 12.506
+  },
+  {
+   "text": "Esse soldado se chamava Simo H\u00e4yh\u00e4.",
+   "s": 13.287,
+   "e": 15.004
+  },
+  {
+   "text": "Vestido de branco,",
+   "s": 15.769,
+   "e": 16.63
+  },
+  {
+   "text": "ele esperava im\u00f3vel na neve por horas.",
+   "s": 16.816,
+   "e": 18.492
+  },
+  {
+   "text": "Dizem que punha neve na boca para o vapor n\u00e3o aparecer.",
+   "s": 19.277,
+   "e": 21.777
+  },
+  {
+   "text": "Acontece que,",
+   "s": 22.536,
+   "e": 23.302
+  },
+  {
+   "text": "em cem dias,",
+   "s": 23.46,
+   "e": 24.211
+  },
+  {
+   "text": "contam mais de quinhentos inimigos abatidos.",
+   "s": 24.43,
+   "e": 26.462
+  },
+  {
+   "text": "Os sovi\u00e9ticos o chamavam de Morte Branca.",
+   "s": 27.244,
+   "e": 29.179
+  },
+  {
+   "text": "Ele s\u00f3 dizia:",
+   "s": 29.955,
+   "e": 30.697
+  },
+  {
+   "text": "fiz o meu trabalho.",
+   "s": 30.932,
+   "e": 31.655
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 32.431,
+   "e": 33.173
+  }
+ ]
+}

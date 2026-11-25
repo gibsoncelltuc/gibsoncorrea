@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 24 - O Cardápio do Zoológico
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 93 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 11 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~2.8 s)
 - Narracao: Paris já serviu elefante no jantar de Natal.

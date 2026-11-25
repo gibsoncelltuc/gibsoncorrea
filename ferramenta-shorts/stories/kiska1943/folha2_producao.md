@@ -22,9 +22,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +25 da cena
 - SOM: thump@25
 - TEXTO NA TELA: "ILHA VAZIA" flutuando no alto, na palavra 3 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.9-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E mesmo assim, houve mortos nessa invasão.
@@ -45,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/dog_sit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/dog_sit: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "OPERAÇÃO ILHA VAZIA" numa placa atras dos personagens, na palavra 12 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.
@@ -66,9 +64,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO vehicles/airplane: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.3 m de altura x 14.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/navio_vapor: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 26.5 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: ALASCA (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (6.7-8.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (8.7-10.7 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (6.9-8.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.7-10.5 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - Americanos e canadenses chegaram com navios, aviões e tanques.
@@ -89,8 +87,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/tanque_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 2.9 m de altura x 8.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/aviao_ww2: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: CHEGANDO; 4.9 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (11.1-12.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (12.6-14.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (12.1-13.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (13.6-15.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Bombardearam a ilha durante semanas inteiras.
@@ -117,7 +115,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: cannon@60
 - SOM: cannon@82
 - TEXTO NA TELA: "BOMBARDEIO" numa placa atras dos personagens, na palavra 4 da frase
-- TAKES: sequencia de acao em 3 cameras (1.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que os japoneses já tinham ido embora.
@@ -137,7 +135,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: USA na esquerda, expressao shock; CAN na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "ILHA VAZIA" numa placa atras dos personagens, na palavra 11 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b6 - Saíram escondidos na neblina, semanas antes.
@@ -157,11 +155,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - No nevoeiro, os Aliados atiraram uns nos outros.
-- Cenario: arctic | luz: overcast | clima: limpo
+- Cenario: harbor | luz: overcast | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): USA (variante 0, expressao shock); CAN (variante 0, expressao shock); USA (variante 2, expressao pained) | multidao: 18 de USA/CAN
@@ -182,16 +180,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: gun@50
 - SOM: gun@65
 - TEXTO NA TELA: "FOGO AMIGO" numa placa atras dos personagens, na palavra 15 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Mais de vinte soldados morreram, e um navio bateu numa mina.
 - Cenario: harbor | luz: overcast | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): USA (variante 0, expressao sad); CAN (variante 0, expressao sad) | multidao: 12 de CAN/USA
-- Animacao: conversar | interacao: empurrar
-- Objetos/modelos: kit/navio_encouracado
+- Animacao: encena
+- Objetos/modelos: kit/navio_encouracado, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, vinte
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -204,9 +202,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +126 da cena
 - SOM: cannon@126
 - TEXTO NA TELA: "MINA" flutuando no alto, na palavra 15 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (24.8-26.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (26.6-28.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Na ilha inteira, só acharam alguns cachorros abandonados.
@@ -227,7 +223,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/dog_sit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/dog_sit: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "SÓ CACHORROS" numa placa atras dos personagens, na palavra 7 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b10 - Uma invasão contra cachorros. E foi assim que...
@@ -257,11 +253,13 @@ dog | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b7 | planos abertos: 7 | mistura: close 3% | medio 44% | aberto 45% | detalhe 8%
-- Interacoes: b2 aproxima-se, b5 susto, b8 empurrar, b9 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b7 | planos abertos: 8 | mistura: close 3% | medio 35% | aberto 57% | detalhe 5%
+- Interacoes: b2 aproxima-se, b5 susto, b9 avanca e o outro recua
+- RISCOS GERAIS: 
+  - ESTRUTURA VIRAL: acima de 36 s: ~39.2 s (voz real; 99 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py kiska1943
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: ESTRUTURA VIRAL: acima de 36 s: ~39.2 s (voz real; 99 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).
@@ -272,12 +270,14 @@ dog | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caix
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; multidao de 24 (USA, CAN) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +25 da cena
 - SOM: thump@25
 - TEXTO NA TELA: "KISKA 1943" flutuando no alto, na palavra 3 da frase
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (35.6-37.0 s): mesmo angulo
+  - take 2 (37.0-38.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
