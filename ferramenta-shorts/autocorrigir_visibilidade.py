@@ -22,6 +22,7 @@ for falha in V.get('falhas', []):
     feitos.add((m.group(1), m.group(2)))
     k = int(m.group(1)); txt = m.group(2); b = BT[k]; n = int(b.get('_auto_vis', 0))
     if n >= 3: log.append(f'b{k}: ja corrigida 3 vezes, {txt} -> fica para o olho'); continue
+    if b.get('quadro_manual'): log.append(f'b{k}: quadro_manual (o roteiro fixou o quadro), {txt} -> fica para o olho'); continue   # 25/11 Goodyear: a autocorrecao desfazia o quadro escrito a mao
     props = b.setdefault('props', [])
     a = re.search(r'"([^"]+)"', txt); a = a.group(1) if a else ''
     idx = next((j for j, p in enumerate(props) if str(p[0]) == a), None)

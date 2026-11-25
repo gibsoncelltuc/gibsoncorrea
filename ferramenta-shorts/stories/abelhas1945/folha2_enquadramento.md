@@ -14,9 +14,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Karl von Frisch, da Áustria, passou a vida estudando abelhas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)
-- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/beehive: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e beehive juntos (camera a 8.0 m)
+- PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/beehive: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - MAPA: ÁUSTRIA (cobre a tela 1-2 s)
 
 ## b2: "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia."
@@ -76,8 +76,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas."
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) no centro, expressao laugh; COL (cientista) na direita, expressao grin; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: FRI (cientista) na esquerda, expressao laugh; ASS (agricultor) na direita, expressao laugh; multidao de 4 (POV) ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena

@@ -16,8 +16,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: o outro se aproxima
+- Personagens principais (1): POV (variante 0, expressao smile)
+- Animacao: conversar
 - Objetos/modelos: kit/beehive
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): austria
 - RISCOS: nenhum
@@ -94,9 +94,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (3): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh); COL (variante 0, expressao grin) | multidao: 4 de POV
+- Personagens principais (2): FRI (variante 0, expressao laugh); ASS (variante 0, expressao laugh) | multidao: 4 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): premio
@@ -133,7 +133,7 @@ kit/bee | b0, b2, b3, b4, b5, b6, b8, b10 | pronto | conferir na folha de contat
 
 ## Video inteiro
 - Objeto heroi: kit/beehive | grandes momentos: b2, b8 | planos abertos: 2 | mistura: close 12% | medio 78% | aberto 6% | detalhe 4%
-- Interacoes: b0 avanca e o outro recua, b1 o outro se aproxima, b7 discutir, b9 pular
+- Interacoes: b0 avanca e o outro recua, b7 discutir, b9 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

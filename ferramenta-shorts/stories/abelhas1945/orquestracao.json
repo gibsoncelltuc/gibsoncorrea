@@ -68,7 +68,6 @@
   {
    "camera": "two",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -243,11 +242,10 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "FRI",
-    "ASS",
-    "COL"
+    "ASS"
    ],
    "multidao": 4,
    "objetos": [],

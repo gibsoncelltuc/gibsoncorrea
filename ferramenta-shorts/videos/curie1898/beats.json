@@ -58,14 +58,13 @@
   {
    "shot": "two",
    "who": [
-    "PES:0:scared",
-    "JOR:0:surprised"
+    "PRO:0:scared:paper"
    ],
    "props": [
     [
      "kit/curie_box",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -80,31 +79,31 @@
     "ding@30"
    ],
    "say": "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção.",
-   "hora": "dia",
-   "clima": "limpo",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
       "na": "cadernos"
+     }
+    ]
+   },
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -136,7 +135,7 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "galpao",
    "who": [
     "MAR:0:stern:paper",
     "PIE:0:grin"
@@ -157,7 +156,7 @@
   },
   {
    "shot": "wide",
-   "interior": "madeira",
+   "interior": "galpao",
    "who": [
     "MAR:0:stern:paper",
     "PIE:0:grin"
@@ -178,17 +177,26 @@
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "galpao",
    "who": [
     "MAR:0:grin",
     "PIE:0:surprised"
    ],
    "props": [
     [
+     "kit/pechblenda",
+     3.6,
+     -2.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
      "kit/curie_box",
      0.0,
      -1.2,
-     1.5,
+     1.3,
      {
       "fixo": true
      }
@@ -203,22 +211,6 @@
    "say": "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio.",
    "hora": "dia",
    "clima": "limpo",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -233,11 +225,34 @@
       "quem": 1
      }
     ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/minerio",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "galpao",
    "hora": "noite",
    "who": [
     "MAR:0:smile"
@@ -262,22 +277,6 @@
     "sting@50"
    ],
    "say": "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -291,11 +290,28 @@
       "quem": 0
      }
     ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
    "shot": "two",
-   "interior": "madeira",
+   "interior": "galpao",
    "who": [
     "MAR:0:nervous:paper",
     "PIE:0:worried"
@@ -404,6 +420,21 @@
    "say": "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris.",
    "hora": "dia",
    "clima": "limpo",
+   "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cadernos"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 11.5 m)",
@@ -413,20 +444,6 @@
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cadernos"
      }
     ]
    }
@@ -457,22 +474,6 @@
    "say": "Para ler, é preciso assinar um termo e usar roupa de proteção.",
    "hora": "dia",
    "clima": "limpo",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -485,6 +486,23 @@
       "faz": "escreve",
       "na": "assinar",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -508,6 +526,21 @@
    "say": "Ou seja: os cadernos vão continuar radioativos por séculos.",
    "hora": "dia",
    "clima": "limpo",
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cadernos"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
@@ -519,25 +552,12 @@
       "estado": "parado"
      }
     ]
-   },
-   "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "cadernos"
-     }
-    ]
    }
   }
  ],
  "objetos_do_video": {
-  "\\bradio\\b": "kit/curie_box"
+  "\\bradio\\b": "kit/curie_box",
+  "min[eé]rio|pechblenda": "kit/pechblenda"
  },
  "regiao": "franca",
  "visual": {
