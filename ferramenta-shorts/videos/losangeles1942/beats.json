@@ -160,9 +160,9 @@
    "props": [
     [
      "kit/submarino_ww2",
-     1.0,
-     -9.0,
-     1.6,
+     1.5,
+     -27.0,
+     4.0,
      {
       "fixo": true
      }
@@ -197,11 +197,11 @@
      }
     ]
    },
-   "cx": 0.5,
-   "cz": -5.0,
-   "h": 2.4,
-   "d0": 13.0,
-   "d1": 11.5,
+   "cx": 0.8,
+   "cz": -12.0,
+   "h": 3.5,
+   "d0": 24.0,
+   "d1": 21.0,
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -214,7 +214,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "objetos": false
   },
   {
    "shot": "low",
