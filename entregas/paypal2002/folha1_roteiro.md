@@ -7,7 +7,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: negocio (reach) @7 -> acao + som de efeito
-- Efeito visual marcado: stars@6
+- Efeito visual marcado: stars@12
 - Texto na tela: US$ 1,5 BILHÃO
 - Funcao na historia: GANCHO
 
@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: ELON MUSK
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~4.8 s)
