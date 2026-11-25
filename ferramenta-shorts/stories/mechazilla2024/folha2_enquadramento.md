@@ -10,7 +10,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tower_catch: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2024" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas."
 - LOCAL: loc_campo; hora: day

@@ -93,7 +93,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -131,7 +141,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "dezoito"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -229,7 +249,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "aparecia"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -245,7 +275,17 @@
     "ding@40"
    ],
    "say": "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.",
-   "interior": "loja"
+   "interior": "loja",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Muita"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -304,7 +344,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -388,7 +438,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -435,7 +495,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "garrafa"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -495,7 +565,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "custava"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -550,7 +630,30 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "garrafas"
+     },
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "na": "venda",
+      "forcar": true,
+      "alvo_quem": 1
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ]
   },
   {
    "shot": "two",
@@ -586,7 +689,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

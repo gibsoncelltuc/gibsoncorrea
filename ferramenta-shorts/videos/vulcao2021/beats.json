@@ -76,7 +76,6 @@
      }
     ]
    ],
-   "text": "2021",
    "fx": [
     "stars@30"
    ],
@@ -109,7 +108,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "presidente"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -152,7 +161,17 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Salvador"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -189,7 +208,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -228,7 +257,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "criar"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -278,7 +317,17 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Então"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -384,6 +433,16 @@
       "eletricidade"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/volcano",
+      "na": "vapor"
+     }
+    ]
    }
   },
   {
@@ -438,7 +497,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -482,7 +551,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "outubro"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -519,7 +598,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "depois"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -570,7 +659,23 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "ainda"
+     },
+     {
+      "quem": 0,
+      "faz": "constroi",
+      "na": "construída",
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -606,7 +711,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Dinheiro"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

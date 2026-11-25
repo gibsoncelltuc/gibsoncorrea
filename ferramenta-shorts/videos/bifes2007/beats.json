@@ -106,7 +106,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "bilionário"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -148,7 +158,30 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Donald"
+     },
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "na": "vendida",
+      "forcar": true,
+      "alvo_quem": 1
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ]
   },
   {
    "tiros": false,
@@ -168,7 +201,17 @@
    "sfx": [
     "ding@40"
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "pacotes"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -208,7 +251,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -230,7 +283,24 @@
    "sfx": [
     "thump@40"
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "reportagem"
+     },
+     {
+      "quem": 0,
+      "faz": "entrega",
+      "na": "vendas",
+      "forcar": true,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -270,7 +340,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "marca"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -282,7 +362,17 @@
     "CLI:0:suspicious",
     "VEN:0:stern"
    ],
-   "interior": "pedra"
+   "interior": "pedra",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Segundo"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -322,7 +412,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Mesmo"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -334,7 +434,17 @@
     "TRU:0:grin",
     "CLI:0:laugh"
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "resumo"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -373,7 +483,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Moral"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,

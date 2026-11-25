@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Gerado em 25/11 07:19 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,7 +11,7 @@ b1 | transicao | loc_campo | reveal | POV, POV | 6 | tower | - | Foi em outubro 
 b2 | simples | loc_deserto | wide | ENG | - | booster_air | - | Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre 
 b3 | explicativa | loc_deserto | two | sem personagem | - | tower | corpo: kit/tower_catch (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som:  | A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a
 b4 | chave | loc_patio | crowd | ENA | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho
-b5 | simples | loc_patio | wide | ENG | - | booster_air | - | No dia do teste, o propulsor gigante decolou com trinta e três motores
+b5 | transicao | loc_patio | wide | ENG | - | booster_air | - | No dia do teste, o propulsor gigante decolou com trinta e três motores
 b6 | simples | loc_patio | wide | ENG | - | booster_air | - | Minutos depois, ele voltou descendo de ré, direto na direção da torre.
 b7 | chave | loc_patio | wide | ENA | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no último segundo, os braços se fecharam, e seguraram o 
 b8 | simples | loc_campo | wide | ENG | - | tower, tower_catch | - | Os engenheiros comemoraram: era a primeira vez na história.

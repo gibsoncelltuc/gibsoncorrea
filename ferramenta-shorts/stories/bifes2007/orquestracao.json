@@ -189,7 +189,7 @@
    "palavras": 14,
    "cena": "b8",
    "frase": "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

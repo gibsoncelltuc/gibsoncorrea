@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: insiste | kit/tequila_bolt | - | -
-b1 | loc_cidade | reveal | 7 | encena | kit/phone, kit/roadster | - | -
+b1 | loc_cidade | reveal | 7 | parados (so fala e pisca) | kit/phone, kit/roadster | - | -
 b2 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/tequila_bolt, nature/picket_fence | - | -
 b3 | interior loja | two | 2 | comemorar, INTERAGEM: entregar | - | paper | -
 b4 | loc_pista | wide | 2 | discutir, batalha | kit/veg_cacto, kit/tequila_bolt | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/tequila_bolt
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
 Interacoes entre personagens: b0 insiste, b2 discutir, b3 entregar, b5 cochichar, b8 entregar
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

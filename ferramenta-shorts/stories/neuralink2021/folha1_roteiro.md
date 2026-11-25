@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 2021
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~4.8 s)
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: cai (throw) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: A cada acerto, ganhava um golinho de vitamina de banana.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: vence (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Acontece que, um dia, desligaram o joystick, e o Pager continuou jogando só com a mente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: empurra (push) @4 -> acao + som de efeito; encena: cai (throw) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: MENTE
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito; encena: pensa (think) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: cai (throw) @19 -> acao + som de efeito; encena: pensa (think) @22 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

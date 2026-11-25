@@ -104,7 +104,6 @@
      }
     ]
    ],
-   "text": "2007",
    "fx": [
     "stars@30"
    ],
@@ -131,7 +130,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Donald"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -142,7 +151,17 @@
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
    "say": "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo.",
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "abril"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -152,7 +171,17 @@
    ],
    "acao": "discutir",
    "say": "A rivalidade era combinada, como todo show de luta: Trump contra o dono da empresa, Vince McMahon.",
-   "interior": "loja"
+   "interior": "loja",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "rivalidade"
+     }
+    ]
+   }
   },
   {
    "shot": "group",
@@ -197,7 +226,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "aposta"
+     },
+     {
+      "quem": 0,
+      "faz": "perde",
+      "na": "perdedor",
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -227,7 +272,17 @@
    "titulo": true,
    "say": "Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.",
    "set": "stadium",
-   "impact": true
+   "impact": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "oitenta"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -285,7 +340,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "ringue"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -334,7 +399,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -390,7 +465,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "lutador"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -454,7 +539,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Trump"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -511,7 +606,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "sobrou"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -522,7 +627,17 @@
    "props": [],
    "say": "Seis anos depois, Trump entrou para o Hall da Fama da luta livre.",
    "acao": "comemorar",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "depois"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

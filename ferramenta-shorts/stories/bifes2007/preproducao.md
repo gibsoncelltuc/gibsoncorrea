@@ -12,7 +12,7 @@ b4 | loc_cidade | wide | 2 | encena, batalha | - | paper | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/tv | - | -
 b6 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/steak | - | -
-b8 | loc_cidade | orbit | 10 | encena | buildings/shop, kit/stall | - | -
+b8 | loc_cidade | orbit | 10 | parados (so fala e pisca) | buildings/shop, kit/stall | - | -
 b9 | interior madeira | two | 1 | conversar | kit/steak | - | -
 b10 | interior madeira | close | 1 | conversar | - | - | -
 
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/steak
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b4
 Interacoes entre personagens: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

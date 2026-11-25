@@ -2,14 +2,14 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | mapa | briga (puff + som de baque); encena: golpe (punch) @5 (acao + som de efeito) | -
+b0 | two | -  | mapa | briga (puff + som de baque) | -
 b1 | two | -  | batalha aberta com tiros, interior, placa: O HOMEM É TRUMP | - | -
 b2 | group | -  | tropa, interior, placa: 7 SEGUNDOS | - | -
 b3 | two | -  | interior | - | -
 b4 | two | -  | interior | - | -
 b5 | wide | -  | tropa, placa: O PREÇO DO HOTEL | - | -
-b6 | two | -  | interior | (rosto) pleading (expr + som de efeito); encena: fala (point) @9 (acao + som de efeito) | -
-b7 | two | -  | interior, mapa | encena: fala (point) @8 (acao + som de efeito) | -
+b6 | two | -  | interior | (rosto) pleading (expr + som de efeito) | -
+b7 | two | -  | interior, mapa | - | -
 b8 | reveal | -  | batalha aberta com tiros, tropa | discussão (puff + som de baque) | -
 b9 | two | -  | interior | - | -
 b10 | close | -  | interior, placa: COMENTE! | - | -

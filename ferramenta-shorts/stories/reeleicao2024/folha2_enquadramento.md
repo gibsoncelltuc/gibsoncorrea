@@ -10,7 +10,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/white_house: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2024" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Foi em novembro de dois mil e vinte e quatro, nos Estados Unidos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

@@ -8,7 +8,7 @@ b0 | countryside | two | 1 | reagir, batalha | kit/starlink_train | - | -
 b1 | loc_pista | reveal | 7 | parados (so fala e pisca) | kit/falcon_air, kit/starlink_sat | - | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/starlink_sat | - | -
 b3 | countryside | wide | 1 | reagir, batalha | kit/starlink_train, nature/picket_fence | - | -
-b4 | loc_montanha | wide | 1 | encena | kit/starlink_train | - | -
+b4 | loc_montanha | wide | 1 | parados (so fala e pisca) | kit/starlink_train | - | -
 b5 | loc_cidade | crowd | 1 | reagir, batalha | kit/phone | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/starlink_sat | - | -
 b7 | loc_cidade | two | 0 | parados (so fala e pisca) | kit/falcon_air | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/rocket
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b3, b5
 Interacoes entre personagens: b2 avanca e o outro recua, b6 o outro se aproxima, b9 insiste
 
-Cenas com personagens parados: 2 de 11
+Cenas com personagens parados: 3 de 11
 FALTA MODELAR: nada

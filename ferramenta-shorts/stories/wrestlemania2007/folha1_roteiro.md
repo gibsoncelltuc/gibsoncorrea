@@ -6,9 +6,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Donald Trump raspou a cabeça de outro bilionário no meio de um ringue.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: raspa (reach) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: 2007
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: A aposta: cada um escolheu um lutador, e o dono do perdedor teria a cabeça raspada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito; encena: perde (facepalm) @11 -> acao + som de efeito; encena: raspa (reach) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: perde (facepalm) @11 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20
 - Texto na tela: 80 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
-- Efeito + som nas palavras-chave: encena: golpe (punch) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Acontece que o juiz convidado era Steve Austin, e a luta virou bagunça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino; encena: vence (up) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; venceu -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VITÓRIA
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Trump e Lashley seguraram McMahon e rasparam a cabeça dele até ficar careca.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito; encena: raspa (reach) @6 -> acao + som de efeito; encena: raspa (reach) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Narracao: Seis anos depois, Trump entrou para o Hall da Fama da luta livre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

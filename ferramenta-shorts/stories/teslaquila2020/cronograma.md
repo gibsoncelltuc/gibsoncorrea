@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Gerado em 25/11 07:19 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquen
-b1 | simples | loc_cidade | reveal | MUS | 6 | phone, roadster | - | Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla
+b1 | transicao | loc_cidade | reveal | MUS | 6 | phone, roadster | - | Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla
 b2 | simples | loc_cidade | two | INV, MUS | - | tequila_bolt, picket_fence | - | Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.
 b3 | simples | interior loja | two | FAN, MUS | - | - | - | Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou regi
 b4 | chave | loc_pista | wide | MEX, MUS | - | tequila_bolt, veg_cacto | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o conselho que protege a tequila no México reclamou: o no

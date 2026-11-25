@@ -140,7 +140,7 @@
    "palavras": 8,
    "cena": "b4",
    "frase": "Acontece que a notícia se espalhou pelo mundo.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

@@ -137,7 +137,7 @@
    "palavras": 14,
    "cena": "b5",
    "frase": "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

@@ -10,7 +10,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2021" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "El Salvador é um país pequeno da América Central, cheio de vulcões."
 - LOCAL: mata tropical (arvores, cabanas); hora: day

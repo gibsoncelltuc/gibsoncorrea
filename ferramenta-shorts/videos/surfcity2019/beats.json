@@ -92,7 +92,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "pequeno"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -132,7 +142,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "dezenove"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -199,7 +219,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -211,7 +241,17 @@
     "JOR:0:shock",
     "JOR2:0:laugh"
    ],
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Aquele"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -278,7 +318,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -319,7 +369,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "governo"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -333,7 +393,17 @@
     "POV:0:worried"
    ],
    "set": "harbor",
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Críticos"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -347,7 +417,17 @@
    ],
    "mapa": "EL SALVADOR",
    "mapa_at": 1,
-   "set": "countryside"
+   "set": "countryside",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "projeto"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -388,7 +468,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -427,7 +517,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Entre"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

@@ -72,7 +72,7 @@
    "palavras": 17,
    "cena": "b1",
    "frase": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: NOVA YORK
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: CANADÁ
 - Funcao na historia: desenvolvimento

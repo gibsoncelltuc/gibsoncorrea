@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Gerado em 25/11 07:19 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | interior pedra | two | BUK | - | phone | - | Um presidente escrev
 b1 | chave | loc_cidade | crowd | POV, POV | 30 | apartment, house_two, volcano, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes
 b2 | simples | interior pedra | two | BUK | - | phone | - | Primeiro, ele escreveu só uma palavra no perfil: ditador.
 b3 | chave | interior loja | group | BUK, POV, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Alguns dias depois, trocou por uma frase mais longa: o ditador mais le
-b4 | simples | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.
+b4 | transicao | loc_cidade | reveal | BUK | 10 | volcano | - | Acontece que a notícia se espalhou pelo mundo.
 b5 | simples | loc_cidade | two | JOR, JOR2 | - | phone | - | Um jornal de cada país publicou a frase, e muita gente ficou discutind
 b6 | simples | interior loja | two | JOR, BUK | - | - | - | Vários comentaristas leram aquilo como uma ironia, feita para os críti
 b7 | simples | interior pedra | two | BUK | - | ballot_box, phone | - | Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil 

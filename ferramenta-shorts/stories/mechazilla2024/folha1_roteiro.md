@@ -6,9 +6,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Elon Musk mandou construir uma torre com braços gigantes, para pegar um foguete no ar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: constroi (hammer) @3 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: constroi (hammer) @3 -> acao + som de efeito
 - Efeito visual marcado: stars@30
-- Texto na tela: 2024
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~6.2 s)
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinhos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
 - Texto na tela: MECHAZILLA
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: No dia do teste, o propulsor gigante decolou com trinta e três motores acesos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, thump@40
-- Efeito + som nas palavras-chave: encena: voa (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Minutos depois, ele voltou descendo de ré, direto na direção da torre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito; encena: x_desce (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: x_abre (push) @8 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: PEGOU!
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Os engenheiros comemoraram: era a primeira vez na história.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram: -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; comemoraram: -> stars + som de sino
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: PRIMEIRA VEZ
 - Funcao na historia: desenvolvimento

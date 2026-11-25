@@ -9,7 +9,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/clipper: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2007" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Foi em abril de dois mil e sete, em Detroit, no maior show de luta livre do mundo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

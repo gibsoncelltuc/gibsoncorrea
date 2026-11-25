@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: chega (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: OVNI?
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: escreve (write) @1 -> acao + som de efeito; encena: pega (lift) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@40
 - Texto na tela: 3 MINUTOS
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito; encena: brilha (point) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 56
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: escreve (write) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Jornais de vários países explicaram que não eram OVNIs, e sim satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

@@ -70,7 +70,6 @@
      }
     ]
    ],
-   "text": "2024",
    "fx": [
     "stars@30"
    ],
@@ -100,7 +99,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Donald"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -143,7 +152,17 @@
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "novembro"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -188,7 +207,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Milhões"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -198,7 +227,17 @@
     "TRU:0:stern"
    ],
    "acao": "discutir",
-   "say": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo."
+   "say": "A contagem entrou pela madrugada. Os estados indecisos iam decidir tudo.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "contagem"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -215,7 +254,17 @@
     "ding@50"
    ],
    "say": "Acontece que Trump venceu em todos os estados decisivos, e somou trezentos e doze votos no colégio eleitoral.",
-   "text": "312 VOTOS"
+   "text": "312 VOTOS",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -270,7 +319,17 @@
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "apoiadores"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -279,7 +338,17 @@
     "POV:0:grin"
    ],
    "acao": "conversar",
-   "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados."
+   "say": "Foi um feito raro: ele virou só o segundo presidente da história com dois mandatos separados.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "feito"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -322,7 +391,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "primeiro"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -364,7 +443,17 @@
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "vinte"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -415,7 +504,17 @@
    "cz": -2.0,
    "h": 2.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Antes"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -451,7 +550,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Perdeu"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

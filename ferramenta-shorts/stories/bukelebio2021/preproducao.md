@@ -5,10 +5,10 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | interior pedra | two | 1 | conversar | kit/phone | - | -
-b1 | loc_cidade | crowd | 32 | encena, batalha | kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b1 | loc_cidade | crowd | 32 | batalha | kit/volcano, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b2 | interior pedra | two | 1 | conversar | kit/phone | - | -
 b3 | interior loja | group | 3 | conversar, INTERAGEM: entregar, batalha | - | - | -
-b4 | loc_cidade | reveal | 11 | encena | kit/volcano | - | -
+b4 | loc_cidade | reveal | 11 | parados (so fala e pisca) | kit/volcano | - | -
 b5 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | kit/phone | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b7 | interior pedra | two | 1 | conversar | kit/phone, kit/ballot_box | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/phone
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b3
 Interacoes entre personagens: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
 
-Cenas com personagens parados: 0 de 11
+Cenas com personagens parados: 1 de 11
 FALTA MODELAR: nada

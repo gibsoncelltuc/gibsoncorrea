@@ -3,14 +3,14 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | interior, mapa | (rosto) determined (expr + som de efeito) | -
-b1 | two | -  | - | encena: fala (point) @14 (acao + som de efeito) | -
+b1 | two | -  | - | - | -
 b2 | crowd | -  | batalha aberta com tiros, tropa, placa: 257 ATLETAS | - | -
 b3 | two | -  | - | - | -
 b4 | crowd | -  | batalha aberta com tiros, tropa, placa: 294 ATLETAS | - | -
 b5 | two | -  | interior, placa: 500 MIL EMPREGOS? | - | -
 b6 | group | -  | - | - | -
 b7 | two | -  | mapa | - | -
-b8 | group | -  | - | encena: chega (point) @9 (acao + som de efeito) | -
+b8 | group | -  | - | - | -
 b9 | group | -  | - | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 

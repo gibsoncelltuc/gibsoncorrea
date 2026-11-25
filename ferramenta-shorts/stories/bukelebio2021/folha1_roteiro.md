@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um presidente escreveu no próprio perfil que era um ditador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escreve (write) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: gibber@10
-- Efeito + som nas palavras-chave: encena: protesto (up) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Primeiro, ele escreveu só uma palavra no perfil: ditador.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: encena: escreve (write) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@8
 - Texto na tela: DITADOR
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@30
 - Texto na tela: O DITADOR MAIS LEGAL DO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a notícia se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito; encena: x_discute (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@8
-- Efeito + som nas palavras-chave: encena: voto (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@8
 - Texto na tela: REI FILÓSOFO
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

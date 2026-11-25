@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Gerado em 25/11 07:19 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:30 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | chave | loc_cidade | wide | TRU, JOR | - | - | corpo: tropa/personagens enc
 b5 | simples | interior madeira | two | TRU, VEN | - | tv | - | A marca também apareceu na QVC, um canal de televisão.
 b6 | simples | interior pedra | two | CLI, VEN | - | - | - | Segundo registros, a marca registrada foi cancelada em dois mil e cato
 b7 | simples | interior madeira | two | TRU, CLI | - | steak | - | Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Tr
-b8 | simples | loc_cidade | orbit | TRU, CLI | 8 | shop, stall | - | Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio
+b8 | transicao | loc_cidade | orbit | TRU, CLI | 8 | shop, stall | - | Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio
 b9 | simples | interior madeira | two | VEN | - | steak | - | Moral da história: nem todo produto com nome famoso dura mais que uma 
 b10 | simples | interior madeira | close | TRU | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

@@ -21,7 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/volcano: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.3 m de altura x 25.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2021" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (0.2-2.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (2.1-4.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -97,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 0 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): calor, empresa, energia, governo, vulcao
 - RISCOS: nenhum

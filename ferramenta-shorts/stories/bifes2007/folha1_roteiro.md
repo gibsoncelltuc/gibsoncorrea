@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pega (lift) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -14,9 +14,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b1  (~7.6 s)
 - Narracao: Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: negocio (reach) @11 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: encena: entrega (point) @11 -> acao + som de efeito
+- Efeito visual marcado: stars@30
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: negocio (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: entrega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: $ 50 MIL
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: A marca também apareceu na QVC, um canal de televisão.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto; encena: chega (point) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: apareceu -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Segundo registros, a marca registrada foi cancelada em dois mil e catorze.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: escreve (write) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

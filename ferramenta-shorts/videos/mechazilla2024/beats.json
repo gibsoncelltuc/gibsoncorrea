@@ -74,7 +74,6 @@
      }
     ]
    ],
-   "text": "2024",
    "fx": [
     "stars@30"
    ],
@@ -106,7 +105,23 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "constroi",
+      "na": "construir",
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -118,7 +133,17 @@
    "mapa_at": 3,
    "say": "Foi em outubro de dois mil e vinte e quatro, na base de foguetes da SpaceX, no Texas.",
    "objetos": false,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "outubro"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -162,7 +187,17 @@
    "cz": -2.0,
    "h": 2.7,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Normalmente"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -233,6 +268,16 @@
       "volta"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/tower",
+      "na": "ideia"
+     }
+    ]
    }
   },
   {
@@ -278,7 +323,17 @@
    "cz": -2.0,
    "h": 3.3,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "engenheiros"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -347,7 +402,17 @@
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "teste"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -412,7 +477,17 @@
    "cz": -2.0,
    "h": 3.5,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Minutos"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -466,7 +541,17 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -522,7 +607,17 @@
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "engenheiros"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -585,6 +680,16 @@
       "várias"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "kit/tower_catch",
+      "na": "Assim"
+     }
+    ]
    }
   },
   {
@@ -638,7 +743,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Parece"
+     }
+    ]
+   }
   }
  ],
  "fontes": [

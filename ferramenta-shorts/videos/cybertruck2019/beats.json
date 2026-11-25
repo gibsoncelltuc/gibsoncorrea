@@ -85,7 +85,29 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6
+   "d1": 10.6,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "picape"
+     },
+     {
+      "quem": 0,
+      "faz": "cai",
+      "na": "quebradas",
+      "forcar": true
+     }
+    ]
+   },
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ]
   },
   {
    "say": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
@@ -132,7 +154,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6
+   "d1": 10.6,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "novembro"
+     }
+    ]
+   }
   },
   {
    "say": "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela.",
@@ -199,7 +231,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6
+   "d1": 10.6,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "provar"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.",
@@ -257,7 +299,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6
+   "d1": 10.6,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
   },
   {
    "say": "Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.",
@@ -330,7 +382,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 11.1,
-   "d1": 10.6
+   "d1": 10.6,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "tentou"
+     }
+    ]
+   }
   },
   {
    "say": "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.",
@@ -403,7 +465,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Depois"
+     }
+    ]
+   }
   },
   {
    "say": "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.",
@@ -470,7 +542,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "plateia"
+     }
+    ]
+   }
   },
   {
    "say": "Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.",
@@ -516,7 +598,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "Mesmo"
+     }
+    ]
+   }
   },
   {
    "say": "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível.",
@@ -581,7 +673,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "picape"
+     }
+    ]
+   }
   }
  ],
  "exp": 0.9,

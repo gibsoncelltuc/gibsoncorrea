@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

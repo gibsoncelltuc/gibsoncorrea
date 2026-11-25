@@ -31,7 +31,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/phone, kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mentira, tesla
 - RISCOS: nenhum
@@ -215,6 +215,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smug, segura paper; FAN na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/tequila_bolt: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
   - take 1 (41.8-44.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (44.0-46.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto

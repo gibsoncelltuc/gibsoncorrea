@@ -1,13 +1,13 @@
 # CRONOGRAMA - Poder e Fama EP 11 - A Janela do Cybertruck
 
-Gerado em 25/11 07:19 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | hall | two | MUS | - | cybertruck | - | Uma picape blindada teve as janelas quebradas ao vivo, no próprio lanç
-b1 | simples | hall | wide | MUS | - | cybertruck | - | Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresen
+b1 | transicao | hall | wide | MUS | - | cybertruck | - | Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresen
 b2 | simples | hall | wide | DSG | - | cybertruck, steel_ball | - | Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n
 b3 | chave | hall | wide | MUS | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
 b4 | chave | hall | wide | DSG | - | ball, cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou

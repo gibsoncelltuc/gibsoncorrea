@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | hall | two | 1 | conversar | kit/cybertruck | - | -
-b1 | hall | wide | 1 | encena | kit/cybertruck | - | -
+b1 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 b2 | hall | wide | 1 | encena | kit/cybertruck, kit/steel_ball | ball | -
 b3 | hall | wide | 31 | reagir, batalha | kit/cybertruck | - | -
 b4 | hall | wide | 1 | reagir, batalha | kit/cybertruck, kit/ball | - | -
@@ -19,5 +19,5 @@ OBJETO HEROI: kit/steel_ball
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
 Interacoes entre personagens: b7 aproxima-se, b8 pular
 
-Cenas com personagens parados: 0 de 10
+Cenas com personagens parados: 1 de 10
 FALTA MODELAR: nada

@@ -1,11 +1,14 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 07 - A Cidade do Surfe
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.0s - 10 palavras - plano two
 > "Um país pequeno decidiu virar a capital mundial do surfe."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pequeno" (0.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,21 +26,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 4.1s a 10.6s - 24 palavras - plano two
 > "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal."
 
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dezenove" (4.6s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mostrar (8.4s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mostrar (8.4s): braco estendido apontando para o objeto/lugar citado
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b2 - 11.8s a 16.4s - 21 palavras - plano crowd
 > "Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vinte" (12.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -54,6 +61,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 17.7s a 21.6s - 14 palavras - plano two
 > "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete."
 
+- LEITURA DA FRASE: sentido FATO
+  1) JOR a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Aquele" (17.7s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
@@ -67,6 +77,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b4 - 22.8s a 27.1s - 18 palavras - plano crowd
 > "Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vinte" (23.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -82,6 +95,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b5 - 28.3s a 33.3s - 17 palavras - plano two
 > "O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "governo" (28.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -99,6 +115,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 34.7s a 37.7s - 11 palavras - plano group
 > "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas."
 
+- LEITURA DA FRASE: sentido FATO
+  1) JOR a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Críticos" (34.7s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
@@ -112,6 +131,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b7 - 39.3s a 42.0s - 12 palavras - plano two
 > "A Surf City dois leva o projeto para o leste do país."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "projeto" (40.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -129,21 +151,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 43.0s a 46.2s - 16 palavras - plano group
 > "Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal."
 
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vinte" (43.5s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (44.8s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (44.8s): executa: entra andando pela lateral
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b9 - 47.4s a 52.1s - 15 palavras - plano group
 > "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas."
+
+- LEITURA DA FRASE: sentido FATO
+  1) BUK a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Entre" (47.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

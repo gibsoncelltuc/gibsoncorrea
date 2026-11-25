@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 ## Cena b0  (~4.1 s)
 - Narracao: Uma picape blindada teve as janelas quebradas ao vivo, no próprio lançamento.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: quebra (throw) @6 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: ding@30
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@30
 - Texto na tela: CYBERTRUCK | mapa: CALIFÓRNIA
 - Funcao na historia: GANCHO
 
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@3
-- Efeito + som nas palavras-chave: encena: quebra (throw) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@3
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou: pelo menos a bola não atravessou.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@4
-- Efeito + som nas palavras-chave: encena: quebra (throw) @10 -> acao + som de efeito; encena: x_ri (up) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@4
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @2 -> acao + som de efeito; encena: x_entrega (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: hall | 1
 - Narracao: Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarenta mil reservas da picape.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 146 MIL RESERVAS
 - Funcao na historia: desenvolvimento

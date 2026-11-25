@@ -111,7 +111,7 @@
    "palavras": 15,
    "cena": "b4",
    "frase": "Então ele mandou a empresa de energia do governo usar o calor do vulcão Tecapa.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

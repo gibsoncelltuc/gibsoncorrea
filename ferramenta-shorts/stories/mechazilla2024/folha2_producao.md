@@ -21,7 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/tower_catch: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.3 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2024" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
   - take 1 (0.2-2.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (2.3-4.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -116,7 +115,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): propulsor, teste, trinta
 - RISCOS: nenhum
@@ -166,7 +165,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENA (variante 0, expressao scared) | multidao: 0 de POV
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, foguete
 - RISCOS: nenhum

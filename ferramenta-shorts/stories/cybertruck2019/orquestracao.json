@@ -39,7 +39,7 @@
    "palavras": 24,
    "cena": "b1",
    "frase": "Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresentava o Cybertruck, e Musk garantiu que o vidro era super resistente.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

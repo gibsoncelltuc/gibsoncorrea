@@ -20,7 +20,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/clipper: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2007" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.2-1.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
   - take 2 (1.7-3.2 s): mesmo angulo
@@ -120,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
 - RISCOS: nenhum
@@ -144,7 +143,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
 - RISCOS: nenhum

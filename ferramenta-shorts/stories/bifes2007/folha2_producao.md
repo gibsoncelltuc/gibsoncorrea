@@ -39,6 +39,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; VEN na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/steak: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 - TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (4.8-6.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -177,7 +179,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRU (variante 0, expressao grin); CLI (variante 0, expressao laugh) | multidao: 8 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: buildings/shop, kit/stall
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio, carne, loja
 - RISCOS: nenhum
