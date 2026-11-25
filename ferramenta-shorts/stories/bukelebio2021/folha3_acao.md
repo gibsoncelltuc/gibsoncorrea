@@ -108,8 +108,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b6 - 21.2s a 24.0s - 9 palavras - plano two
-> "Muitos leram como ironia, feita para provocar os críticos."
+## Cena b6 - 21.2s a 23.8s - 8 palavras - plano two
+> "Muitos leram como ironia, para provocar os críticos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ironia" (21.8s)
@@ -125,11 +125,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.3s a 27.1s - 11 palavras - plano two
-> "Em 2024, no dia da eleição, o perfil dizia: rei filósofo."
+## Cena b7 - 24.0s a 26.3s - 8 palavras - plano two
+> "Em 2024, o perfil dele dizia: rei filósofo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perfil" (26.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perfil" (24.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -142,11 +142,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 27.7s a 30.3s - 8 palavras - plano two
-> "Uma biografia que se troca em dez segundos."
+## Cena b8 - 26.4s a 28.6s - 9 palavras - plano two
+> "Provocação ou confissão? Só sei que foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "biografia" (27.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Provocação" (26.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

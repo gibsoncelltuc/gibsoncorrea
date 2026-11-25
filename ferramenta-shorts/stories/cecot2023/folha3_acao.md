@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -12,19 +12,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 40 MIL PRESOS | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | 40 MIL PRESOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 26: parada, reagindo (scared), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b1 - 4.1s a 7.0s - 9 palavras - plano crowd
+## Cena b1 - 4.1s a 7.0s - 9 palavras - plano wide
 > "E ninguém concorda se ela é solução ou problema."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -42,14 +39,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | MAPA | EL SALVADOR | OK |
+| 1 | - | MAPA | EL SALVADOR | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -70,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b4 - 13.7s a 16.7s - 9 palavras - plano group
+## Cena b4 - 13.7s a 16.7s - 9 palavras - plano wide
 > "O governo decretou estado de exceção contra as gangues."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -78,14 +71,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | prender | OK |
+| 1 | - | ATUACAO | prender | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: prender
-- multidao de 16: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b5 - 17.0s a 19.3s - 7 palavras - plano two
@@ -117,7 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 24.1s a 26.3s - 7 palavras - plano group
+## Cena b7 - 24.1s a 26.3s - 7 palavras - plano two
 > "Mas houve denúncias de prisões sem julgamento."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -136,7 +126,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 26.7s a 29.3s - 8 palavras - plano group
+## Cena b8 - 26.7s a 29.3s - 8 palavras - plano wide
 > "O modelo passou a ser copiado e criticado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -144,16 +134,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | COPIADO E CRITICADO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 29.6s a 31.5s - 6 palavras - plano crowd
+## Cena b9 - 29.6s a 31.5s - 6 palavras - plano wide
 > "Segurança ou excesso? Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -168,6 +158,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 26: parada, reagindo (scared), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 

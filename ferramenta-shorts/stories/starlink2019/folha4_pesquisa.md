@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Fila de Luzes no Céu | A Fila de Luzes no Céu / Uma Europa Disseram ETs Flórida Em SpaceX 2019 | SEM REFERENCIA
+tema | A Fila de Luzes no Céu | A Fila de Luzes no Céu / Uma ETs Flórida Em SpaceX 2019 | SEM REFERENCIA
 lugar | Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide | Cabo Canaveral Florida / Cabo Canaveral Florida lancamento do Falcon 9 e ceu noturno da Holanda Leiden Europa 2019 | Cape canaveral.jpg (referencias/starlink2019/prints/cabo_canaveral_florida_lancamento_do_fal_b7dbab.jpg); Cabo Canaveral - USA (37511521066).jpg (referencias/starlink2019/prints/cabo_canaveral_florida_lancamento_do_fal_b82ec0.jpg); Cabo Canaveral - USA (37511520186).jpg (referencias/starlink2019/prints/cabo_canaveral_florida_lancamento_do_fal_eb3855.jpg)
 lugar | Mundo | Mundo 2019 / Mundo landscape | Mini Mundo em setembro de 2019 (24).jpg (referencias/starlink2019/prints/mundo_f22275.jpg); Catedral de María Reina del Mundo, Montreal, Canad (referencias/starlink2019/prints/mundo_904a71.jpg); Olympic Stadium Munich - Rows of Seats, April 2019 (referencias/starlink2019/prints/mundo_6f40c0.jpg)
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | Camp - Notes on Fashion at the Met - Burberry rain (referencias/starlink2019/prints/roupas_e_ruas_de_2019_d85c36.jpg); Camp - Notes on Fashion at the Met - Moschino (738 (referencias/starlink2019/prints/roupas_e_ruas_de_2019_c6ccb7.jpg); Camp - Notes on Fashion at the Met - Gucci and Lou (referencias/starlink2019/prints/roupas_e_ruas_de_2019_c6c141.jpg)

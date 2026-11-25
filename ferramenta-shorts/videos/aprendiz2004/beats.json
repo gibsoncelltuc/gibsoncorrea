@@ -108,9 +108,12 @@
    "props": [
     [
      "kit/tv",
-     0,
-     -1.0,
-     1.8
+     0.0,
+     -1.2,
+     1.8,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "O APRENDIZ",
@@ -123,6 +126,23 @@
      {
       "faz": "mostra",
       "na": "estreou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -253,9 +273,12 @@
    "props": [
     [
      "kit/tv",
-     0,
-     -3.0,
-     1.3
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -276,6 +299,23 @@
      {
       "faz": "mostra",
       "na": "milhões"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "crowd",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -317,9 +357,12 @@
    "props": [
     [
      "kit/tv",
-     1.8,
-     -1.2,
-     1.2
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
     ]
    ],
    "acao": "conversar",
@@ -335,6 +378,23 @@
      {
       "faz": "mostra",
       "na": "apresentou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loc_estudio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

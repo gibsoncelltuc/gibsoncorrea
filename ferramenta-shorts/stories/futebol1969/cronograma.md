@@ -11,8 +11,8 @@ b1 | simples | interior madeira | two | SAL | - | ball | - | E quem ganhou o jog
 b2 | transicao | loc_campo | reveal | TOR, TOR | 8 | - | - | Em 1969, os dois países já disputavam terras.
 b3 | simples | street | two | HON, SAL | 6 | ball | - | Depois veio a vaga na Copa: três jogos.
 b4 | simples | stadium | crowd | HON, SAL | 18 | ball | - | No primeiro, Honduras venceu por um a zero.
-b5 | simples | street | group | HON, SAL, HON, SAL | 10 | - | - | El Salvador venceu o segundo por três a zero. Torcidas brigaram.
-b6 | simples | stadium | group | SAL, SAL, HON | 18 | ball | - | No terceiro, El Salvador venceu na prorrogação.
+b5 | simples | street | crowd | HON, SAL, HON, SAL | 30 | - | - | El Salvador venceu o segundo por três a zero. Torcidas brigaram.
+b6 | simples | stadium | two | SAL, SAL, HON | 18 | ball | - | No terceiro, El Salvador venceu na prorrogação.
 b7 | chave | street | crowd | SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, semanas depois, o exército salvadorenho atacou Honduras.
 b8 | chave | street | group | SOL, PRE | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A guerra durou cem horas, até o cessar-fogo.
 b9 | simples | stadium | crowd | HON, SAL | 16 | ball | - | Na Copa, perderam os três jogos, sem um gol. Tudo porque...

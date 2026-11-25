@@ -48,13 +48,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MUNDO (cobre a tela 1-2 s)
 
-## b6: "Muitos leram como ironia, feita para provocar os críticos."
+## b6: "Muitos leram como ironia, para provocar os críticos."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: JOR na esquerda, expressao suspicious; BUK na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Em 2024, no dia da eleição, o perfil dizia: rei filósofo."
+## b7: "Em 2024, o perfil dele dizia: rei filósofo."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@8
 - TEXTO NA TELA: "REI FILÓSOFO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Uma biografia que se troca em dez segundos."
+## b8: "Provocação ou confissão? Só sei que foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK no centro, expressao laugh; sem multidao; acao: fala/gesto

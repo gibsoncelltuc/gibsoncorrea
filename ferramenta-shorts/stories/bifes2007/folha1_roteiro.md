@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 06 - Os Bifes com o Nome do Trump
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 85 palavras (~29 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.
+## Cena b0  (~3.8 s)
+- Narracao: O bife do Trump sumiu das lojas em só dois meses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.
+## Cena b2  (~2.4 s)
+- Narracao: Em 2007, ele lançou a Trump Steaks.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: $ 50 MIL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~2.4 s)
-- Narracao: Em 2014, a marca registrada foi cancelada.
+## Cena b6  (~2.1 s)
+- Narracao: Em 2014, a marca foi cancelada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -66,7 +66,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~3.4 s)
-- Narracao: Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.
+- Narracao: Mesmo assim, o bife seguiu no cardápio dos hotéis dele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: Nem todo nome famoso dura mais que uma promoção.
+## Cena b8  (~3.4 s)
+- Narracao: Nome famoso não salvou a carne. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

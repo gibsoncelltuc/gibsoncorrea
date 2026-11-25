@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 09 - A Guerra do Futebol
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
@@ -103,7 +103,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b5 - 17.0s a 20.7s - 11 palavras - plano group
+## Cena b5 - 17.0s a 20.7s - 11 palavras - plano crowd
 > "El Salvador venceu o segundo por três a zero. Torcidas brigaram."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -117,9 +117,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | brigaram (20.7s) | EFEITO: puff | fumaca + som | OK |
 | 3 | brigaram (20.7s) | ACAO: golpe | soco + estouro | OK |
 | 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 5 | - | INTERACAO | empurrar | OK |
-| 6 | - | ATUACAO | discutir | OK |
-| 7 | - | PLACA | 3 x 0 | OK |
+| 5 | - | ATUACAO | discutir | OK |
+| 6 | - | PLACA | 3 x 0 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
@@ -127,13 +126,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: puff na palavra brigaram (20.7s): executa: fumaca + som
 - ACAO: golpe na palavra brigaram (20.7s): o braco avanca em ~0,2 s ate o alvo; quem leva o golpe recua meio passo, estrelinhas sobre a cabeca
 - EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 - multidao de 10: parada, reagindo (shout), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b6 - 21.1s a 23.3s - 7 palavras - plano group
+## Cena b6 - 21.1s a 23.3s - 7 palavras - plano two
 > "No terceiro, El Salvador venceu na prorrogação."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

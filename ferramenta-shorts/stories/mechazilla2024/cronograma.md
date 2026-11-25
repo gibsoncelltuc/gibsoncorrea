@@ -12,7 +12,7 @@ b2 | chave | loc_campo | wide | POV, POV | 6 | tower | corpo: tropa/personagens 
 b3 | simples | loc_deserto | wide | ENG | - | booster_air | - | A parte de baixo do foguete costumava ir para o lixo.
 b4 | explicativa | loc_deserto | two | sem personagem | - | tower | corpo: kit/tower_catch (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som:  | A ideia: a torre agarra o propulsor na volta.
 b5 | simples | loc_patio | two | ENA | - | tower, tower_catch | - | Os engenheiros chamaram a torre de Mechazilla.
-b6 | simples | loc_patio | group | ENG | - | booster_air | - | O propulsor decolou com trinta e três motores.
+b6 | transicao | loc_patio | wide | ENG | - | booster_air | - | O propulsor decolou com trinta e três motores.
 b7 | simples | loc_patio | wide | ENG | - | booster_air | - | Minutos depois, voltou descendo de ré, direto na torre.
 b8 | chave | loc_patio | wide | ENA | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no último segundo, os braços se fecharam e seguraram.
 b9 | simples | loc_patio | two | MUS, ENG | - | tower_catch, tower_mini | - | Primeira vez na história. E foi assim que...

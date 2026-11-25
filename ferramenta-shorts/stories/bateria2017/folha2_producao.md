@@ -172,14 +172,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Cinquenta milhões em jogo, por causa de uma conversa no Twitter.
+## Cena b8 - Uma resposta curta, e foi assim que...
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
 - Personagens principais (1): MUS (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/megapack
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): conversa, twitter
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -193,13 +193,11 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 4 | mistura: close 5% | medio 67% | aberto 29% | detalhe 0%
+- Objeto heroi: kit/megapack | grandes momentos: b4, b5 | planos abertos: 4 | mistura: close 5% | medio 65% | aberto 30% | detalhe 0%
 - Interacoes: b1 susto, b7 aproxima-se
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bateria2017
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bateria2017 bN bM` (so essas cenas).
@@ -212,8 +210,6 @@ nature/picket_fence | b5 | pronto | conferir na folha de contato se le bem; se p
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/megapack: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (25.5-27.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (27.4-29.3 s): mesmo angulo
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

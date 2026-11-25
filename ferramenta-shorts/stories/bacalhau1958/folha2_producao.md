@@ -112,9 +112,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - A Inglaterra mandou fragatas de guerra.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
-- Personagens principais (0): -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/navio_leander
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra
@@ -132,9 +132,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que a Islândia só tinha barcos da guarda costeira.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (0): -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 0 de ICE
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/barco_guarda, kit/fishing_net, kit/navio_vapor
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): guarda, islandia
@@ -179,7 +179,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Em 1976, a Inglaterra finalmente desistiu da briga.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): BRI (variante 0, expressao pained, segura paper); ICE (variante 0, expressao laugh)
 - Animacao: discutir | interacao: entregar
@@ -222,7 +222,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 4 | mistura: close 9% | medio 52% | aberto 37% | detalhe 2%
+- Objeto heroi: kit/cod | grandes momentos: b0, b5, b6, b9 | planos abertos: 6 | mistura: close 12% | medio 43% | aberto 43% | detalhe 2%
 - Interacoes: b3 o outro se aproxima, b8 entregar
 - RISCOS GERAIS: nenhum
 

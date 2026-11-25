@@ -112,8 +112,10 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
-   "personagens": [],
+   "camera": "wide",
+   "personagens": [
+    "ICE"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/navio_leander"
@@ -122,7 +124,7 @@
    "cena": "b5",
    "frase": "A Inglaterra mandou fragatas de guerra.",
    "classe": "chave",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -134,8 +136,10 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
-   "personagens": [],
+   "camera": "wide",
+   "personagens": [
+    "ICE"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/barco_guarda",
@@ -146,7 +150,7 @@
    "cena": "b6",
    "frase": "Acontece que a Islândia só tinha barcos da guarda costeira.",
    "classe": "chave",
-   "sujeito": "cenario",
+   "sujeito": "personagem",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -177,7 +181,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "BRI",
     "ICE"

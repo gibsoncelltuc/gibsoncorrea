@@ -104,7 +104,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "MAR",
     "MAR"
@@ -112,7 +112,8 @@
    "multidao": 0,
    "objetos": [
     "cannon",
-    "kit/navio_fragata"
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 10,
    "cena": "b5",
@@ -149,13 +150,14 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "GEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/navio_fragata"
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 7,
    "cena": "b7",

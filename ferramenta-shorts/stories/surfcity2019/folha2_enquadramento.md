@@ -15,8 +15,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2019, Nayib Bukele lançou a Surf City em El Salvador."
-- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
+## b2: "Em 2019, o presidente Nayib Bukele lançou a Surf City."
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; JOR na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -32,13 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@40
 - TEXTO NA TELA: "257 ATLETAS" flutuando no alto, na palavra 1 da frase
 
-## b4: "O evento valia vaga para as Olimpíadas de Tóquio."
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: JOR na esquerda, expressao shock; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b5: "Em 2023, vieram 294 competidores, de olho em Paris."
+## b4: "Depois, vieram 294 surfistas, de olho em Paris."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
 - CAMERA: plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smug; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
@@ -48,26 +42,26 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 - TEXTO NA TELA: "294 ATLETAS" flutuando no alto, na palavra 1 da frase
 
-## b6: "O governo promete quinhentos mil empregos, sem garantia."
+## b5: "O governo promete quinhentos mil empregos, sem garantia."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; JOR2 na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "500 MIL EMPREGOS?" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Acontece que moradores e ambientalistas se preocupam com a costa."
+## b6: "Acontece que moradores e ambientalistas se preocupam com a costa."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: JOR na esquerda, expressao worried; JOR2 no centro, expressao suspicious; POV na direita, expressao worried; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Em 2025, o Mundial voltou para lá."
+## b7: "Em 2025, o Mundial voltou para lá."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: golden
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; JOR no centro, expressao grin; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/surfboard: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b9: "Capital do surfe ou promessa grande demais? Você decide."
+## b8: "Capital do surfe ou exagero? Só sei que foi assim que..."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: fala/gesto

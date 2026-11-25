@@ -130,7 +130,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (19.2-20.8 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b6 - Muitos leram como ironia, feita para provocar os críticos.
+## Cena b6 - Muitos leram como ironia, para provocar os críticos.
 - Cenario: interior loja | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -146,19 +146,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: JOR na esquerda, expressao suspicious; BUK na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (21.2-22.6 s): mesmo angulo
-  - take 2 (22.6-24.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b7 - Em 2024, no dia da eleição, o perfil dizia: rei filósofo.
+## Cena b7 - Em 2024, o perfil dele dizia: rei filósofo.
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/phone, kit/ballot_box
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eleicao, perfil
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): perfil
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -171,19 +169,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +8 da cena
 - SOM: ding@8
 - TEXTO NA TELA: "REI FILÓSOFO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (24.3-25.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (25.7-27.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Uma biografia que se troca em dez segundos.
+## Cena b8 - Provocação ou confissão? Só sei que foi assim que...
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): biografia
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -197,13 +193,11 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/phone | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 2% | medio 85% | aberto 10% | detalhe 3%
+- Objeto heroi: kit/phone | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 2% | medio 84% | aberto 11% | detalhe 3%
 - Interacoes: b4 entregar, b6 insiste
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py bukelebio2021
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).
@@ -216,6 +210,6 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

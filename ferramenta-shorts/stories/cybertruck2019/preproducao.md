@@ -9,15 +9,15 @@ b1 | hall | group | 2 | comemorar, INTERAGEM: pular | kit/cybertruck, kit/steel_
 b2 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 b3 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 b4 | hall | two | 1 | encena | kit/cybertruck, kit/steel_ball | ball | -
-b5 | hall | group | 15 | reagir, batalha | kit/cybertruck | - | -
-b6 | hall | group | 1 | reagir, batalha | kit/cybertruck | - | -
+b5 | hall | wide | 31 | reagir, batalha | kit/cybertruck | - | -
+b6 | hall | wide | 1 | reagir, batalha | kit/cybertruck | - | -
 b7 | hall | two | 1 | conversar | kit/steel_ball, kit/cybertruck, kit/phone | - | -
-b8 | hall | group | 2 | conversar, INTERAGEM: aproxima-se, alguem chega andando | kit/globe | - | -
+b8 | hall | orbit | 2 | parados (so fala e pisca) | kit/globe | - | -
 b9 | hall | wide | 1 | parados (so fala e pisca) | kit/cybertruck | - | -
 
 OBJETO HEROI: kit/steel_ball
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b5, b6
-Interacoes entre personagens: b1 pular, b8 aproxima-se
+Interacoes entre personagens: b1 pular
 
-Cenas com personagens parados: 3 de 10
+Cenas com personagens parados: 4 de 10 -> ponha "acao": "conversar|discutir|comemorar|dancar", um objeto na mao ou alguem chegando
 FALTA MODELAR: nada

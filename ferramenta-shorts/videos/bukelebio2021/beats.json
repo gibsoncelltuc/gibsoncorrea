@@ -60,9 +60,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     0.96,
      {
       "fixo": true
      }
@@ -70,10 +70,6 @@
    ],
    "mapa_at": 1,
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "gancho",
    "say": "Um presidente escreveu no próprio perfil que era um ditador.",
    "encena": {
@@ -86,7 +82,20 @@
     ]
    },
    "text": "DITADOR",
-   "titulo": true
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -99,19 +108,15 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     0.96,
      {
       "fixo": true
      }
     ]
    ],
    "set": "street",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "promessa",
    "say": "E ninguém sabia dizer se era piada ou não.",
    "encena": {
@@ -120,6 +125,19 @@
      {
       "faz": "mostra",
       "na": "piada"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -170,9 +188,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     0.96,
      {
       "fixo": true
      }
@@ -185,10 +203,6 @@
     "ding@8"
    ],
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "prova",
    "say": "Ele respondeu escrevendo uma palavra no perfil: ditador.",
    "encena": {
@@ -197,6 +211,19 @@
      {
       "faz": "mostra",
       "na": "escrevendo"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -294,9 +321,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     0.96,
      {
       "fixo": true
      }
@@ -318,10 +345,6 @@
     "ding@8"
    ],
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "riscos_ok": true,
    "bloco": "pagamento",
    "say": "Em 2024, o perfil dele dizia: rei filósofo.",
@@ -331,6 +354,25 @@
      {
       "faz": "mostra",
       "na": "perfil"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -346,19 +388,15 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
      1.0,
+     1.0,
+     0.96,
      {
       "fixo": true
      }
     ]
    ],
    "set": "street",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "loop",
    "say": "Provocação ou confissão? Só sei que foi assim que...",
    "encena": {
@@ -367,6 +405,19 @@
      {
       "faz": "mostra",
       "na": "Provocação"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

@@ -11,10 +11,10 @@ b1 | simples | hall | group | MUS, DSG | - | cybertruck, steel_ball | - | E mesm
 b2 | transicao | hall | wide | MUS | - | cybertruck | - | Em 2019, a Tesla apresentou o Cybertruck.
 b3 | transicao | hall | wide | MUS | - | cybertruck | - | Musk garantiu que o vidro era super resistente.
 b4 | simples | hall | two | DSG | - | cybertruck, steel_ball | - | O designer jogou uma esfera de aço na janela.
-b5 | chave | hall | group | MUS | 14 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente da plateia.
-b6 | chave | hall | group | DSG | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou em outra janela. Também rachou.
+b5 | chave | hall | wide | MUS | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente da plateia.
+b6 | chave | hall | wide | DSG | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou em outra janela. Também rachou.
 b7 | simples | hall | two | MUS | - | cybertruck, phone, steel_ball | - | Musk disse que, nos testes, o vidro aguentava.
-b8 | simples | hall | group | MUS, DSG | - | globe | - | Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.
+b8 | transicao | hall | orbit | MUS, DSG | - | globe | - | Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.
 b9 | simples | hall | wide | MUS | - | cybertruck | - | O vidro falhou, a venda não. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

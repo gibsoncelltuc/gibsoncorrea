@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, FAN
 - Cenarios: interior loja, loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/roadster: 4.5 m reais -> escala 2.67 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais); kit/roadster: 4.5 m reais -> escala 2.67 (estava 1.0: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Piada que Virou Tequila | A Piada que Virou Tequila / Piada Esta Em Musk Tesla 2020 | SEM REFERENCIA
+tema | A Piada que Virou Tequila | A Piada que Virou Tequila / Uma Em Musk Tesla Era 2020 | SEM REFERENCIA
 lugar | Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c | Estados Unidos / Estados Unidos redes sociais fabrica da Tesla e Jalisco Mexico destilaria com campos de ag | Constitution of the United States - DPLA - 9ca8041 (referencias/teslaquila2020/prints/estados_unidos_redes_sociais_fabrica_da__57b53c.jpg); Lago Pippin, Copper Center, Alaska, Estados Unidos (referencias/teslaquila2020/prints/estados_unidos_redes_sociais_fabrica_da__c8c934.jpg); Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/teslaquila2020/prints/estados_unidos_redes_sociais_fabrica_da__185b81.jpg)
 lugar | Estados Unidos | Estados Unidos 2020 / Estados Unidos landscape | Glaciar Lamplugh, Parque Nacional Bahía del Glacia (referencias/teslaquila2020/prints/estados_unidos_185b81.jpg); Parque estatal Chugach, Alaska, Estados Unidos, 20 (referencias/teslaquila2020/prints/estados_unidos_50cb1b.jpg); Río Copper, Glennallen, Alaska, Estados Unidos, 20 (referencias/teslaquila2020/prints/estados_unidos_d322ec.jpg)
 epoca | roupas e ruas de 2020 | 2020 fashion clothing / 2020 street photograph | Camp - Notes on Fashion at the Met - Burberry rain (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_d85c36.jpg); Balaclava as suggested fashion piece for winter 20 (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_4148a9.jpg); HK CWB Fashion Walk mall clothing shop November 20 (referencias/teslaquila2020/prints/roupas_e_ruas_de_2020_c6ce1c.jpg)

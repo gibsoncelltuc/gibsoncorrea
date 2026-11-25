@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses."
+## b0: "O bife do Trump sumiu das lojas em só dois meses."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao grin; VEN na direita, expressao smug; sem multidao; acao: fala/gesto
@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: VEN no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/steak: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele."
+## b2: "Em 2007, ele lançou a Trump Steaks."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; VEN na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -46,19 +46,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@40
 - TEXTO NA TELA: "$ 50 MIL" numa placa atras dos personagens, na palavra 1 da frase
 
-## b6: "Em 2014, a marca registrada foi cancelada."
+## b6: "Em 2014, a marca foi cancelada."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CLI na esquerda, expressao suspicious; VEN na direita, expressao stern; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele."
+## b7: "Mesmo assim, o bife seguiu no cardápio dos hotéis dele."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao laugh; CLI na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/steak: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b8: "Nem todo nome famoso dura mais que uma promoção."
+## b8: "Nome famoso não salvou a carne. E foi assim que..."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao grin; VEN na direita, expressao smug; sem multidao; acao: fala/gesto

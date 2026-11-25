@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 14 de POV
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores
@@ -129,7 +129,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente
-- PERSONAGENS: TRU no centro, expressao laugh; multidao de 14 (REP) ATRAS dos principais; acao: comemorar
+- PERSONAGENS: TRU no centro, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/white_house: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.3 m de altura x 12.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -164,10 +164,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Antes foi o presidente 45. Agora, o 47.
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente
 - RISCOS: nenhum
@@ -205,7 +205,7 @@ kit/scroll | b6 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 17% | medio 62% | aberto 18% | detalhe 3%
+- Objeto heroi: kit/ballot_box | grandes momentos: b1, b5 | planos abertos: 4 | mistura: close 17% | medio 52% | aberto 28% | detalhe 3%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

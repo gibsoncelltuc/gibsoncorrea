@@ -12,5 +12,5 @@ b6 | two | -  | tropa | - | -
 b7 | two | -  | interior | - | -
 b8 | two | -  | interior, placa: 100 DIAS OU GRÁTIS | - | -
 
-Mistura de planos: close 5% | medio 67% | aberto 29% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 5% | medio 65% | aberto 30% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

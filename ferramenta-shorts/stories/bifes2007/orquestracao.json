@@ -25,9 +25,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.",
+   "frase": "O bife do Trump sumiu das lojas em só dois meses.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -62,9 +62,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 12,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.",
+   "frase": "Em 2007, ele lançou a Trump Steaks.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -145,9 +145,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 7,
+   "palavras": 6,
    "cena": "b6",
-   "frase": "Em 2014, a marca registrada foi cancelada.",
+   "frase": "Em 2014, a marca foi cancelada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,7 +166,7 @@
    ],
    "palavras": 10,
    "cena": "b7",
-   "frase": "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.",
+   "frase": "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -183,9 +183,9 @@
    "objetos": [
     "kit/steak"
    ],
-   "palavras": 9,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "Nem todo nome famoso dura mais que uma promoção.",
+   "frase": "Nome famoso não salvou a carne. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

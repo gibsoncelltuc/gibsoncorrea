@@ -104,9 +104,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que o vidro rachou, ao vivo, na frente da plateia.
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao shock) | multidao: 14 de POV
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao shock) | multidao: 30 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frente, plateia, vidro
@@ -125,8 +125,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Ele tentou em outra janela. Também rachou.
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): DSG (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/cybertruck
@@ -167,10 +167,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.
 - Cenario: hall | luz: dia | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
+- Animacao: -
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -209,8 +209,8 @@ kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/steel_ball | grandes momentos: b0, b5, b6 | planos abertos: 3 | mistura: close 0% | medio 68% | aberto 27% | detalhe 5%
-- Interacoes: b1 pular, b8 aproxima-se
+- Objeto heroi: kit/steel_ball | grandes momentos: b0, b5, b6 | planos abertos: 6 | mistura: close 4% | medio 47% | aberto 47% | detalhe 2%
+- Interacoes: b1 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

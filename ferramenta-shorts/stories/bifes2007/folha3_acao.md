@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 3.3s - 12 palavras - plano two
-> "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses."
+## Cena b0 - 0.1s a 3.0s - 11 palavras - plano two
+> "O bife do Trump sumiu das lojas em só dois meses."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sumiu" (2.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sumiu" (1.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,11 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.5s a 6.6s - 10 palavras - plano two
+## Cena b1 - 3.3s a 6.4s - 10 palavras - plano two
 > "E o resultado foi bem menor do que se imaginava."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "resultado" (4.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "resultado" (3.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -38,11 +38,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 7.1s a 10.1s - 12 palavras - plano two
-> "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele."
+## Cena b2 - 6.6s a 8.7s - 7 palavras - plano two
+> "Em 2007, ele lançou a Trump Steaks."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (8.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (7.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -57,11 +57,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.4s a 13.4s - 10 palavras - plano group
+## Cena b3 - 9.0s a 11.7s - 10 palavras - plano group
 > "Os pacotes custavam até novecentos e noventa e nove dólares."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "custavam" (11.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "custavam" (9.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -78,11 +78,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 13.5s a 16.1s - 11 palavras - plano two
+## Cena b4 - 12.1s a 14.4s - 11 palavras - plano two
 > "Acontece que, em julho, a loja já não oferecia os bifes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "loja" (14.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "loja" (13.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -97,11 +97,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 16.2s a 19.8s - 10 palavras - plano wide
+## Cena b5 - 14.8s a 18.2s - 10 palavras - plano wide
 > "Uma reportagem estimou menos de cinquenta mil dólares no total."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estimou" (18.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "estimou" (15.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -114,11 +114,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 20.0s a 21.8s - 7 palavras - plano two
-> "Em 2014, a marca registrada foi cancelada."
+## Cena b6 - 18.3s a 19.8s - 6 palavras - plano two
+> "Em 2014, a marca foi cancelada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cancelada" (21.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cancelada" (19.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -131,11 +131,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 23.0s a 26.1s - 10 palavras - plano two
-> "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele."
+## Cena b7 - 20.0s a 23.9s - 10 palavras - plano two
+> "Mesmo assim, o bife seguiu no cardápio dos hotéis dele."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cardápio" (25.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cardápio" (21.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -148,11 +148,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 26.2s a 29.6s - 9 palavras - plano two
-> "Nem todo nome famoso dura mais que uma promoção."
+## Cena b8 - 24.4s a 26.8s - 10 palavras - plano two
+> "Nome famoso não salvou a carne. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (26.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (24.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

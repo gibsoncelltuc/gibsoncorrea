@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 02 - O Cameo de Sete Segundos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.2s - 12 palavras - plano two
@@ -126,39 +126,37 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b7 - 24.7s a 28.1s - 10 palavras - plano wide
-> "O corte virou polêmica, e a discussão dura até hoje."
+## Cena b7 - 24.7s a 26.3s - 7 palavras - plano wide
+> "O corte virou polêmica no mundo inteiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "polêmica" (25.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | discussão (26.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra discussão (26.3s): executa: fumaca + som
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 28.8s a 30.9s - 10 palavras - plano two
-> "Sete segundos de cena. Mais de trinta anos de briga."
+## Cena b8 - 27.5s a 30.0s - 9 palavras - plano two
+> "Um cameo virou briga política. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "briga" (30.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "briga" (28.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | briga (30.9s) | EFEITO: puff | fumaca + som | OK |
+| 1 | briga (28.8s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 7 SEGUNDOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra briga (30.9s): executa: fumaca + som
+- EFEITO: puff na palavra briga (28.8s): executa: fumaca + som
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->

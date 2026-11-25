@@ -82,7 +82,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 17.4s a 19.3s - 6 palavras - plano group
+## Cena b5 - 17.4s a 19.3s - 6 palavras - plano wide
 > "A Inglaterra mandou fragatas de guerra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -99,7 +99,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b6 - 19.6s a 23.0s - 10 palavras - plano group
+## Cena b6 - 19.6s a 23.0s - 10 palavras - plano wide
 > "Acontece que a Islândia só tinha barcos da guarda costeira."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -124,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 27.0s a 29.6s - 8 palavras - plano group
+## Cena b8 - 27.0s a 29.6s - 8 palavras - plano two
 > "Em 1976, a Inglaterra finalmente desistiu da briga."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

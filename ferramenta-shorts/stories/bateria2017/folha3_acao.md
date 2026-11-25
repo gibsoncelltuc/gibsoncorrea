@@ -129,11 +129,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 25.5s a 29.3s - 11 palavras - plano two
-> "Cinquenta milhões em jogo, por causa de uma conversa no Twitter."
+## Cena b8 - 25.5s a 28.0s - 7 palavras - plano two
+> "Uma resposta curta, e foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "conversa" (28.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "curta" (26.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -151,14 +151,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (22.8-24.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - O corte virou polêmica, e a discussão dura até hoje.
+## Cena b7 - O corte virou polêmica no mundo inteiro.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOR (variante 0, expressao suspicious) | multidao: 10 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corte, discussao
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corte
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -167,17 +167,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: JOR no centro, expressao suspicious; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (1.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - Sete segundos de cena. Mais de trinta anos de briga.
+## Cena b8 - Um cameo virou briga política. E foi assim que...
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): FUN (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/tv
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, cena, trinta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cameo
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -192,13 +192,11 @@ nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 2% | medio 86% | aberto 8% | detalhe 3%
+- Objeto heroi: kit/tv | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 2% | medio 88% | aberto 7% | detalhe 3%
 - Interacoes: b2 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b5 susto, b6 insiste
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py cameo1992
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: LOOP sem emenda: a ultima frase tem que terminar aberta ("...e foi assim que..." / "...por isso que...") para a 1a frase completar a ideia no replay
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cameo1992 bN bM` (so essas cenas).
@@ -211,6 +209,6 @@ nature/lamppost | b1 | pronto | conferir na folha de contato se le bem; se parec
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: FUN no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

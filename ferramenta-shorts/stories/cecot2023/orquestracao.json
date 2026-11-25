@@ -18,10 +18,9 @@
   {
    "camera": "two",
    "personagens": [
-    "GUA",
-    "BUK"
+    "GUA"
    ],
-   "multidao": 26,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],
@@ -35,10 +34,8 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "POV",
-    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -57,25 +54,18 @@
   {
    "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],
    "palavras": 7,
    "cena": "b2",
    "frase": "Ela abriu em 2023, em El Salvador.",
-   "classe": "chave",
+   "classe": "transicao",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -97,13 +87,11 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "BUK",
-    "GUA",
-    "GUA"
+    "BUK"
    ],
-   "multidao": 16,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],
@@ -160,7 +148,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
@@ -177,7 +165,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "BUK",
     "POV"
@@ -189,19 +177,24 @@
    "palavras": 8,
    "cena": "b8",
    "frase": "O modelo passou a ser copiado e criticado.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "GUA",
-    "BUK"
+    "GUA"
    ],
-   "multidao": 26,
+   "multidao": 0,
    "objetos": [
     "kit/prison"
    ],

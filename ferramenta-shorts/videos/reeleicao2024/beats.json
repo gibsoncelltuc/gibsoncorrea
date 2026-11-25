@@ -77,10 +77,6 @@
    "sfx": [
     "ding@30"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Um presidente perdeu a eleição e voltou quatro anos depois.",
    "encena": {
@@ -92,7 +88,30 @@
      }
     ]
    },
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -136,11 +155,6 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "prova",
    "say": "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
    "encena": {
@@ -149,6 +163,24 @@
      {
       "faz": "mostra",
       "na": "escolhiam"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -209,12 +241,7 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "REP"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "props": [
     [
@@ -240,11 +267,6 @@
    "set": "hall",
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "escalada",
    "say": "Os apoiadores comemoraram, e ele declarou vitória.",
    "encena": {
@@ -253,6 +275,24 @@
      {
       "faz": "mostra",
       "na": "comemoraram"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -281,10 +321,6 @@
    "sfx": [
     "thump@30"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
    "encena": {
@@ -293,6 +329,23 @@
      {
       "faz": "mostra",
       "na": "Cleveland"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -328,11 +381,6 @@
    "titulo": true,
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.5,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "pagamento",
    "say": "Antes foi o presidente 45. Agora, o 47.",
    "encena": {
@@ -341,6 +389,24 @@
      {
       "faz": "mostra",
       "na": "presidente"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o white_house (alvo z -2.0, camera a 20.0 m, altura 2.5 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -378,10 +444,6 @@
    "sfx": [
     "ding@30"
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Perdeu, voltou e ganhou. E foi assim que...",
    "encena": {
@@ -390,6 +452,29 @@
      {
       "faz": "mostra",
       "na": "voltou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ballot_box",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/white_house",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -434,5 +519,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um presidente perdeu a eleicao e voltou quatro anos depois, algo que so tinha acontecido uma vez. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos; so Grover Cleveland tinha feito isso.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 3
 }

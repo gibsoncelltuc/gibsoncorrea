@@ -88,10 +88,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "set": "loc_cidade",
    "bloco": "gancho",
    "say": "O bife do Trump sumiu das lojas em só dois meses.",
@@ -105,7 +101,24 @@
     ]
    },
    "text": "TRUMP STEAKS",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
@@ -126,10 +139,6 @@
      }
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "interior": "madeira",
    "bloco": "promessa",
    "say": "E o resultado foi bem menor do que se imaginava.",
@@ -139,6 +148,23 @@
      {
       "faz": "mostra",
       "na": "resultado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -165,10 +191,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "interior": "loja",
    "bloco": "prova",
    "say": "Em 2007, ele lançou a Trump Steaks.",
@@ -178,6 +200,23 @@
      {
       "faz": "mostra",
       "na": "lançou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -232,10 +271,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "interior": "loja",
    "bloco": "escalada",
    "say": "Acontece que, em julho, a loja já não oferecia os bifes.",
@@ -245,6 +280,23 @@
      {
       "faz": "mostra",
       "na": "loja"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -323,10 +375,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "interior": "madeira",
    "bloco": "pagamento",
    "say": "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
@@ -336,6 +384,23 @@
      {
       "faz": "mostra",
       "na": "cardápio"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -360,10 +425,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "set": "loc_cidade",
    "bloco": "loop",
    "say": "Nome famoso não salvou a carne. E foi assim que...",
@@ -373,6 +434,23 @@
      {
       "faz": "mostra",
       "na": "nome"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/steak",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }

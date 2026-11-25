@@ -7,11 +7,11 @@ b1 | close | -  | - | briga (puff + som de baque) | -
 b2 | wide | -  | tropa, placa: 1958-1976 | - | -
 b3 | two | -  | placa: BACALHAU | - | -
 b4 | wide | -  | tropa | - | -
-b5 | group | -  | batalha aberta com tiros, mapa | - | -
-b6 | group | -  | batalha aberta com tiros | - | -
+b5 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
+b6 | wide | -  | batalha aberta com tiros, tropa | - | -
 b7 | wide | -  | - | - | -
-b8 | group | -  | placa: VITÓRIA ISLANDESA, objeto na mao | desistiu (puff + som de baque); briga (puff + som de baque) | -
+b8 | two | -  | placa: VITÓRIA ISLANDESA, objeto na mao | desistiu (puff + som de baque); briga (puff + som de baque) | -
 b9 | wide | -  | batalha aberta com tiros, placa: ISLÂNDIA VENCEU | - | -
 
-Mistura de planos: close 9% | medio 52% | aberto 37% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 43% | aberto 43% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo)

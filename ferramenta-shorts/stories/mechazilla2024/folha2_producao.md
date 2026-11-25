@@ -132,10 +132,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - O propulsor decolou com trinta e três motores.
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de POV
-- Animacao: conversar
+- Animacao: -
 - Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): propulsor, trinta
 - RISCOS: nenhum
@@ -224,7 +224,7 @@ kit/booster_air | b3, b6, b7 | pronto | conferir na folha de contato se le bem; 
 
 
 ## Video inteiro
-- Objeto heroi: kit/tower_mini | grandes momentos: b2, b8 | planos abertos: 4 | mistura: close 4% | medio 61% | aberto 29% | detalhe 5%
+- Objeto heroi: kit/tower_mini | grandes momentos: b2, b8 | planos abertos: 5 | mistura: close 4% | medio 53% | aberto 37% | detalhe 5%
 - Interacoes: b0 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

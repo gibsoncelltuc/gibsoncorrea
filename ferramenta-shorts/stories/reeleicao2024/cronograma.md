@@ -11,9 +11,9 @@ b1 | chave | loc_pista | wide | REP, POV | - | - | corpo: tropa/personagens ence
 b2 | simples | loc_cidade | wide | POV | - | white_house | - | Em 2024, americanos escolhiam entre Trump e Kamala Harris.
 b3 | simples | interior loja | two | REP, TRU | - | - | - | A contagem dos votos entrou pela madrugada.
 b4 | simples | interior loja | close | REP | - | - | - | Acontece que Trump venceu todos os estados decisivos: 312 votos.
-b5 | chave | hall | orbit | TRU | 14 | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram, e ele declarou vitória.
+b5 | chave | hall | orbit | TRU | - | white_house | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os apoiadores comemoraram, e ele declarou vitória.
 b6 | simples | interior madeira | two | REP, POV | - | scroll | - | Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.
-b7 | simples | loc_pista | group | TRU | - | white_house | - | Antes foi o presidente 45. Agora, o 47.
+b7 | transicao | loc_pista | wide | TRU | - | white_house | - | Antes foi o presidente 45. Agora, o 47.
 b8 | simples | loc_cidade | two | TRU, REP | - | ballot_box, white_house | - | Perdeu, voltou e ganhou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

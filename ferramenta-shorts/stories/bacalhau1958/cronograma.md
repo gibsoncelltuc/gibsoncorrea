@@ -11,10 +11,10 @@ b1 | simples | harbor | close | PES | - | crate, cod | - | E o motivo da briga e
 b2 | transicao | harbor | wide | ICE, BRI | - | cod, navio_leander | - | Foram três Guerras do Bacalhau, em quase vinte anos.
 b3 | simples | harbor | two | ICE, PES | - | crate, cod | - | Barcos ingleses pescavam bacalhau na costa da Islândia.
 b4 | transicao | harbor | wide | ICE | - | navio_leander | - | A Islândia ampliou o seu mar: de doze para duzentas milhas.
-b5 | chave | harbor | group | sem personagem | - | navio_leander | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra mandou fragatas de guerra.
-b6 | chave | harbor | group | sem personagem | - | barco_guarda, fishing_net, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a Islândia só tinha barcos da guarda costeira.
+b5 | chave | harbor | wide | ICE | - | navio_leander | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A Inglaterra mandou fragatas de guerra.
+b6 | chave | harbor | wide | ICE | - | barco_guarda, fishing_net, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a Islândia só tinha barcos da guarda costeira.
 b7 | transicao | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | - | E eles cortavam as redes inglesas no meio do mar.
-b8 | simples | harbor | group | BRI, ICE | - | scroll | - | Em 1976, a Inglaterra finalmente desistiu da briga.
+b8 | simples | harbor | two | BRI, ICE | - | scroll | - | Em 1976, a Inglaterra finalmente desistiu da briga.
 b9 | chave | harbor | wide | sem personagem | - | barco_guarda, fishing_net, navio_leander, navio_vapor | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | As duzentas milhas viraram regra no mundo. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
