@@ -71,7 +71,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: NOTÍCIA
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~6.6 s)
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: INSTITUTO PASTEUR
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~5.9 s)

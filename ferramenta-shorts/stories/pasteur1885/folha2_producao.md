@@ -18,7 +18,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/seringa_pe: FRENTE, esquerda; tamanho na tela: 13% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.9 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/seringa_pe: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.1-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.6-3.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -145,7 +145,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/seringa_pe: FRENTE, esquerda; tamanho na tela: 13% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.9 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
+- OBJETO kit/seringa_pe: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@40
