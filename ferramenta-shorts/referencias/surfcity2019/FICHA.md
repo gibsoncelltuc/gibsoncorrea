@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'jaqueta escura e barba', 'JOR': 'camisa social com microfone', 'JOR2': 'camiseta e cracha de imprensa', 'POV': 'roupa de praia'}
 - Cenario real: praia de areia escura vulcanica com ondas longas, coqueiros, palanque do campeonato; rua do porto de La Libertad
 - Objetos: ['pranchas de surfe', 'placa Surf City', 'palanque de competicao']
-- Cenarios usados no video: harbor, interior loja, interior pedra, loc_campo, loc_cidade
+- Cenarios usados no video: harbor, interior loja, interior pedra, loc_cidade
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

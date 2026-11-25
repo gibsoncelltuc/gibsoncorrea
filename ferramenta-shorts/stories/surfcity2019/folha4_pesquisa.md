@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2019 | Lugar: La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de pedra, coqueiros, morros verdes) | Quando: 2019 a 2025, dia de sol
 - HEROIS (objeto): kit/surfboard, kit/volcano
 - HEROIS (personagens): BUK, JOR
-- Cenarios: harbor, interior loja, interior pedra, loc_campo, loc_cidade
+- Cenarios: harbor, interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City Punta Roca El Sunzal Em Mundial Surfe 2019 | SEM REFERENCIA
+tema | A Cidade do Surfe | A Cidade do Surfe / Um Em Nayib Bukele Surf City El Salvador 2019 | SEM REFERENCIA
 lugar | La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de | La Libertad El Salvador / La Libertad El Salvador 2019 | SEM REFERENCIA
 lugar | El Salvador | El Salvador 2019 / El Salvador landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2019 | 2019 fashion clothing / 2019 street photograph | SEM REFERENCIA

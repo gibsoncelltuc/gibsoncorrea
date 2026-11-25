@@ -7,7 +7,7 @@
    "item": "A Fila de Luzes no Céu",
    "consultas": [
     "A Fila de Luzes no Céu",
-    "Uma Europa Em SpaceX Flórida Starlink Um Marco Langbroek 2019"
+    "Uma Europa Disseram ETs Flórida Em SpaceX 2019"
    ]
   },
   {
@@ -76,17 +76,10 @@
   },
   {
    "tipo": "heroi",
-   "item": "rocket",
+   "item": "starlink train",
    "consultas": [
     "foguete Falcon 9",
     "A Fila de Luzes no Céu"
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "starlink train",
-   "consultas": [
-    "starlink train"
    ]
   },
   {
@@ -97,10 +90,18 @@
    ]
   },
   {
-   "tipo": "mecanismo",
-   "item": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
+   "tipo": "epoca",
+   "item": "foguete da epoca",
    "consultas": [
-    "satelites estavam juntos lancamento",
+    "rocket 2019",
+    "rocket"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Os satélites ainda voavam juntos, logo depois do lançamento.",
+   "consultas": [
+    "satelites voavam juntos lancamento",
     "starlink train diagram"
    ]
   }

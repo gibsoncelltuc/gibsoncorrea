@@ -76,8 +76,7 @@
      }
     ]
    ],
-   "text": "1847",
-   "say": "Um médico pediu aos colegas para lavarem as mãos, e foi expulso do hospital.",
+   "text": "LAVE AS MÃOS",
    "fx": [
     "stars@30"
    ],
@@ -85,22 +84,56 @@
     "ding@30"
    ],
    "interior": "hospital",
-   "quadro": {
-    "local": "hospital",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/wash_basin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "expulso"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/wash_basin",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "LAVE AS MÃOS",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "explica": false,
+   "bloco": "promessa",
+   "say": "E hoje ele é chamado de salvador das mães.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "salvador"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -110,7 +143,6 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e quarenta e sete, no grande hospital de Viena, na Áustria.",
    "text": "HOSPITAL DE VIENA",
    "titulo": true,
    "props": [
@@ -130,31 +162,21 @@
      1.0
     ]
    ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/maca",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "SEM:0:worried",
-    "PAR:0:sad"
-   ],
-   "say": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos."
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "alas"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -169,7 +191,17 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
+   "bloco": "prova",
+   "say": "Na ala dos médicos, morriam muito mais mães, de febre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morriam"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -184,7 +216,18 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
+   "impact": true,
+   "bloco": "escalada",
+   "say": "Um colega se cortou numa autópsia e morreu da mesma febre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morreu"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -198,7 +241,17 @@
    "sfx": [
     "ding@20"
    ],
-   "say": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas."
+   "bloco": "escalada",
+   "say": "Acontece que os médicos iam das autópsias aos partos de mãos sujas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sujas"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -224,25 +277,23 @@
    "sfx": [
     "thump@40"
    ],
-   "say": "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.",
    "batalha": false,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/wash_basin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "detalhe": true
+   "detalhe": true,
+   "bloco": "escalada",
+   "say": "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lavar"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -276,26 +327,24 @@
    ],
    "text": "VIDAS SALVAS",
    "titulo": true,
-   "say": "As mortes despencaram quase dez vezes.",
    "batalha": false,
    "tiros": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/wash_basin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_susp_ok": true
+   "impact": true,
+   "bloco": "pagamento",
+   "say": "As mortes caíram quase dez vezes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -306,88 +355,65 @@
    ],
    "acao": "discutir",
    "interacao": "empurrar",
-   "say": "Mas os médicos se ofenderam, e Semmelweis foi mandado embora.",
    "fx": [
     "ring@50"
    ],
    "sfx": [
     "sting@50"
    ],
-   "verbos_ok": [
-    "brigo"
-   ]
+   "bloco": "pagamento",
+   "say": "Mas os médicos se ofenderam, e ele foi mandado embora.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ofenderam"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "MAE:0:cry"
+    "SEM:0:stern",
+    "DIR:0:angry"
    ],
-   "props": [
-    [
-     "kit/lapide",
-     2.4,
-     0.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "Ele morreu em mil oitocentos e sessenta e cinco, sem ser reconhecido.",
-   "detalhe": true,
-   "shot_lock": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lapide juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/lapide",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PAR:0:smile"
-   ],
+   "acao": "discutir",
    "props": [
     [
      "kit/wash_basin",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.0,
      {
       "fixo": true
      }
     ]
    ],
-   "text": "LAVE AS MÃOS",
-   "say": "Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)",
-    "objetos": [
+   "text": "1847",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "interior": "hospital",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Morreu sem reconhecimento. Hoje, lavar as mãos é regra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/wash_basin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "lavar"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "explica": false
+   }
   }
  ],
  "variar_cenario": false,
@@ -426,5 +452,8 @@
    "hospital": "Vienna General Hospital 1840s maternity ward",
    "medico": "Ignaz Semmelweis portrait"
   }
- }
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos, foi expulso e hoje e' chamado de salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+ "loop_frase_ok": true
 }

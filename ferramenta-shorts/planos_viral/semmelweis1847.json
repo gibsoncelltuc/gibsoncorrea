@@ -1,0 +1,80 @@
+{
+ "gancho_tipo": "perda",
+ "texto_gancho": "LAVE AS MÃOS",
+ "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos, foi expulso e hoje e' chamado de salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
+   "expulso"
+  ],
+  [
+   10,
+   "promessa",
+   "E hoje ele é chamado de salvador das mães.",
+   "salvador"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "alas"
+  ],
+  [
+   3,
+   "prova",
+   "Na ala dos médicos, morriam muito mais mães, de febre.",
+   "morriam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Um colega se cortou numa autópsia e morreu da mesma febre.",
+   "morreu",
+   {
+    "encena_antiga": true,
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que os médicos iam das autópsias aos partos de mãos sujas.",
+   "sujas"
+  ],
+  [
+   6,
+   "escalada",
+   "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
+   "lavar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "As mortes caíram quase dez vezes.",
+   "caíram",
+   {
+    "impact": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Mas os médicos se ofenderam, e ele foi mandado embora.",
+   "ofenderam"
+  ],
+  [
+   0,
+   "loop",
+   "Morreu sem reconhecimento. Hoje, lavar as mãos é regra.",
+   "lavar"
+  ]
+ ]
+}
