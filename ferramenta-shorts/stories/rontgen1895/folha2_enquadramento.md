@@ -33,7 +33,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@60
 
 ## b4: "Acontece que, do outro lado da sala, uma tela brilhou no escuro."
-- LOCAL: sala de madeira; hora: study
+- LOCAL: sala de madeira; hora: noite
 - CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@24
 
 ## b5: "Pôs a mão na frente e viu os próprios ossos."
-- LOCAL: sala de madeira; hora: study
+- LOCAL: sala de madeira; hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

@@ -6,8 +6,8 @@ b0 | two | -  | placa: RAIO X, objeto na mao | (rosto) scared (expr + som de efe
 b1 | two | -  | interior | - | -
 b2 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
 b3 | two | noite  | interior, objeto na mao | - | -
-b4 | low | study  | interior | - | -
-b5 | two | study  | interior | - | -
+b4 | low | noite  | interior | - | -
+b5 | two | noite  | interior | - | -
 b6 | group | dia  | interior | - | -
 b7 | two | -  | interior, placa: RAIO X, objeto na mao | - | -
 b8 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | Ganhou (stars + som de sino) | -
