@@ -602,6 +602,16 @@
      "consulta": "factory 1839"
     }
    ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bola de couro (decadas depois)",
+   "achados": [
+    {
+     "print": "referencias/goodyear1839/prints/bola_couro_sec19.jpg",
+     "titulo": "19th century antique leather football (sportantiques.co.uk)"
+    }
+   ]
   }
  ]
 }
