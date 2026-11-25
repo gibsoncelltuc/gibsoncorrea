@@ -59,9 +59,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 ## Cena b6  (~6.2 s)
 - Narracao: Em mil setecentos e trinta e nove, a guerra começou, com navios ingleses atacando portos espanhóis no Caribe.
 - Som ambiente: sea
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: cannon@50, cannon@80
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: burst@50, burst@80
 - Texto na tela: GUERRA
 - Funcao na historia: GRANDE MOMENTO
 

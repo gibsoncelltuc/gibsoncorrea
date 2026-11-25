@@ -1,13 +1,13 @@
-# Revisao do storyboard - jenkins1739 (v3, 24/11)
-pesquisa: Guerra da Orelha de Jenkins 1739-1748; capitao Robert Jenkins abordado em 1731 perto de Cuba pelo guarda-costa espanhol Julio Leon Fandino, que cortou sua orelha; Jenkins no Parlamento em 1738; guerra por comercio no Caribe; nome dado por Thomas Carlyle em 1858
-b0: CORRIGIDO - orelha pequena -> "Uma orelha cortada levou a Inglaterra a guerra contra a Espanha": orelha no pote grande entre os dois capitaes, placa 1739
-b1: OK - "perto de Cuba, um navio espanhol parou o capitao ingles Robert Jenkins" mapa CUBA e navio no cais
-b2: CORRIGIDO - acao invisivel -> "o capitao espanhol arrancou a orelha dele": capitao espanhol com a orelha e estrelas do golpe
-b3: OK - "Va levar isso ao seu rei" espanhol debochando com Jenkins
-b4: CORRIGIDO - sala com duas pessoas -> "relatou a historia ao Parlamento ingles": placa PARLAMENTO com deputados furiosos
-b5: OK - "a Inglaterra queria uma desculpa" ministro e ingles tramando
-b6: OK - "a guerra comecou, com navios ingleses atacando portos espanhois" tropa e navios com texto GUERRA (figurantes da tropa na borda)
-b7: OK - "os dois lados fizeram a paz" diplomatas com o tratado
-b8: OK - "Quem deu o nome... foi um escritor, um seculo depois" escritor com o livro e a orelha
-b9: CORRIGIDO - orelha fora do quadro -> "Jenkins ainda ficou sem ela": Jenkins triste com a orelha entre os dois; chamada final COMENTE
-defeitos procurados: cenario (cais e Parlamento 1739), epoca (navios a vela), tamanho (orelha heroi ampliada de proposito), cortado (so figurantes da tropa no b6), multidao (tropa por farda), legenda (texto em cima), acao (cada frase com a acao), objeto (orelha heroi no gancho e no fim)
+b0: OK - uma orelha cortada levou a Inglaterra a guerra contra a Espanha: Jenkins e o espanhol com a orelha no pote em destaque
+b1: OK - em 1731 perto de Cuba um navio espanhol parou o capitao ingles Robert Jenkins: mapa de Cuba e o navio espanhol no porto com Jenkins
+b2: OK - suspeitaram de contrabando e o capitao espanhol arrancou a orelha dele: espanhol de vermelho com a orelha e Jenkins de azul na praca
+b3: OK - va levar isso ao seu rei, teria dito o espanhol: os dois capitaes no cais conversando
+b4: OK - sete anos depois Jenkins relatou a historia ao Parlamento ingles e os deputados ficaram furiosos: placa PARLAMENTO com os deputados bravos
+b5: OK - a Inglaterra queria uma desculpa para brigar pelo comercio: deputados conversando na sala do Parlamento
+b6: OK - em 1739 a guerra comecou com navios ingleses atacando portos espanhois: placa GUERRA com a tropa, os navios e tiros de canhao
+b7: OK - depois de quase dez anos os dois lados fizeram a paz: os dois diplomatas com o papel na sala
+b8: OK - quem deu o nome foi um escritor um seculo depois: o escritor de preto com o ingles na praca e a orelha no pote
+b9: OK - a orelha custou dez anos de guerra e Jenkins ficou sem ela: Jenkins triste com a orelha no pote
+b10: OK - chamada final COMENTE com Jenkins rindo
+pesquisa: Guerra da Orelha de Jenkins 1739-1748, capitao Robert Jenkins do Rebecca, guarda-costa espanhol Julio Leon Fandino em 1731 perto de Havana, orelha mostrada ao Parlamento em 1738 num pote, nome dado por Thomas Carlyle em 1858
+defeitos procurados: cenario (porto do Caribe, Parlamento de Londres, praca inglesa) OK; epoca (1731-1739, tricornio e casacas, navios a vela) OK; tamanho (orelha no pote pequena, navios em escala) OK; cortado (ninguem cortado) OK; multidao (so na tropa da guerra) OK; legenda (placas no alto) OK; acao (arrancar, falar, atacar com canhoes) OK; objeto (orelha e navios visiveis quando citados) OK

@@ -47,6 +47,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: SOL no centro, expressao angry; multidao de 20 (SOL) marchando ATRAS dos principais; acao: batalha
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +50 da cena
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +80 da cena
+- SOM: cannon@50
+- SOM: cannon@80
 - TEXTO NA TELA: "GUERRA" flutuando no alto, na palavra 1 da frase
 
 ## b7: "Depois de quase dez anos, os dois lados fizeram a paz."
