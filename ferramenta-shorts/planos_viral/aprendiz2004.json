@@ -1,0 +1,82 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "VOCÊ ESTÁ DEMITIDO!",
+ "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo todo. Pagamento: o bordao 'voce esta demitido' no programa O Aprendiz, 28 milhoes na final e mais de dez anos no ar.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "O que ninguém lembra: duas palavras deixaram Trump famoso no mundo todo.",
+   "palavras"
+  ],
+  [
+   5,
+   "promessa",
+   "E não foi na política. Foi num programa de TV.",
+   "programa",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 2004, estreou nos Estados Unidos o programa O Aprendiz.",
+   "estreou"
+  ],
+  [
+   2,
+   "prova",
+   "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "disputavam"
+  ],
+  [
+   4,
+   "prova",
+   "Toda semana, a equipe perdedora ia para a sala de reunião.",
+   "perdedora",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "perde",
+       "na": "perdedora",
+       "quem": 1
+      }
+     ]
+    }
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "E alguém ouvia, com o dedo na cara: você está demitido.",
+   "demitido"
+  ],
+  [
+   6,
+   "escalada",
+   "A final teve cerca de vinte e oito milhões de espectadores.",
+   "milhões"
+  ],
+  [
+   8,
+   "escalada",
+   "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "Justus"
+  ],
+  [
+   9,
+   "pagamento",
+   "Trump apresentou o programa por mais de dez anos.",
+   "apresentou"
+  ],
+  [
+   0,
+   "loop",
+   "Um programa de emprego, famoso por demitir. Tudo por causa de duas palavras.",
+   "palavras"
+  ]
+ ]
+}

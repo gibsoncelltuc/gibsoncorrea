@@ -59,9 +59,45 @@
    "sfx": [
     "sting@60"
    ],
-   "say": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
    "text": "VOCÊ ESTÁ DEMITIDO!",
-   "titulo": true
+   "titulo": true,
+   "bloco": "gancho",
+   "say": "O que ninguém lembra: duas palavras deixaram Trump famoso no mundo todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "palavras"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "promessa",
+   "say": "E não foi na política. Foi num programa de TV.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "programa"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -69,7 +105,6 @@
     "POV:0:smile",
     "POV:1:grin"
    ],
-   "say": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
    "props": [
     [
      "kit/tv",
@@ -79,7 +114,18 @@
     ]
    ],
    "text": "O APRENDIZ",
-   "titulo": true
+   "titulo": true,
+   "bloco": "prova",
+   "say": "Em 2004, estreou nos Estados Unidos o programa O Aprendiz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estreou"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -88,7 +134,6 @@
     "CND:0:nervous"
    ],
    "acao": "conversar",
-   "say": "Dezesseis candidatos disputavam um emprego numa empresa de Donald Trump.",
    "set": "loc_cidade",
    "interior": false,
    "crowd": {
@@ -98,31 +143,18 @@
     ],
     "march": false,
     "expr": "smile"
-   }
-  },
-  {
-   "shot": "two",
-   "who": [
-    "CND:0:grin",
-    "POV:0:surprised"
-   ],
-   "props": [
-    [
-     "kit/stall",
-     1.8,
-     -1.4,
-     1.0
+   },
+   "bloco": "prova",
+   "say": "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
     ]
-   ],
-   "interacao": "entregar",
-   "fx": [
-    "puff@40"
-   ],
-   "sfx": [
-    "thump@40"
-   ],
-   "say": "Toda semana, as equipes faziam tarefas de negócios, como vender limonada.",
-   "detalhe": false
+   }
   },
   {
    "shot": "group",
@@ -140,7 +172,6 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado.",
    "props": [
     [
      "mk/Table_Large",
@@ -160,7 +191,19 @@
      -1.2,
      1.0
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdedora",
+      "quem": 1
+     }
+    ]
+   },
+   "bloco": "prova",
+   "say": "Toda semana, a equipe perdedora ia para a sala de reunião."
   },
   {
    "shot": "close",
@@ -177,7 +220,17 @@
     "ding@50"
    ],
    "text": "VOCÊ ESTÁ DEMITIDO!",
-   "say": "Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido."
+   "bloco": "escalada",
+   "say": "E alguém ouvia, com o dedo na cara: você está demitido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "demitido"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -215,24 +268,17 @@
    ],
    "text": "28 MILHÕES",
    "titulo": true,
-   "say": "A final da primeira temporada teve cerca de vinte e oito milhões de espectadores."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "RAN:0:laugh",
-    "TRU:0:grin"
-   ],
-   "interacao": "abracar",
-   "say": "Bill Rancic venceu e ganhou um salário de duzentos e cinquenta mil dólares.",
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "text": "$250.000",
-   "titulo": true
+   "bloco": "escalada",
+   "say": "A final teve cerca de vinte e oito milhões de espectadores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "milhões"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -248,10 +294,20 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
    "set": "loc_estudio",
    "text": "ROBERTO JUSTUS",
-   "titulo": true
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Justus"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -267,28 +323,46 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Trump apresentou por mais de dez anos, até dois mil e quinze.",
    "detalhe": false,
    "set": "loc_estudio",
    "text": "2004-2015",
-   "titulo": true
+   "titulo": true,
+   "bloco": "pagamento",
+   "say": "Trump apresentou o programa por mais de dez anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apresentou"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
    "who": [
-    "TRU:0:smile"
+    "TRU:0:smug"
    ],
-   "props": [
-    [
-     "kit/tv",
-     -1.4,
-     -0.8,
-     1.0
+   "fx": [
+    "puff@60"
+   ],
+   "sfx": [
+    "sting@60"
+   ],
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "titulo": true,
+   "bloco": "loop",
+   "say": "Um programa de emprego, famoso por demitir. Tudo por causa de duas palavras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "palavras"
+     }
     ]
-   ],
-   "acao": "comemorar",
-   "say": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
-   "detalhe": false
+   }
   }
  ],
  "heroi": "kit/tv",
@@ -330,5 +404,8 @@
   }
  },
  "cinf": 4.5,
- "exp": 1.12
+ "exp": 1.12,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo todo. Pagamento: o bordao 'voce esta demitido' no programa O Aprendiz, 28 milhoes na final e mais de dez anos no ar.",
+ "loop_frase_ok": true
 }

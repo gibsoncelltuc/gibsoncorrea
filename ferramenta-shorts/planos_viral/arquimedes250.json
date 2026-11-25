@@ -1,0 +1,82 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "EUREKA",
+ "gancho_cumprido": "Gancho: um genio correu da banheira gritando e a banheira desmascarou um ladrao de ouro. Pagamento: a agua mostrou que a coroa tinha prata.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um gênio correu da banheira gritando pela rua.",
+   "correu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "promessa",
+   "E foi a banheira que desmascarou um ladrão de ouro.",
+   "desmascarou"
+  ],
+  [
+   1,
+   "prova",
+   "Siracusa, na Sicília, há mais de dois mil anos.",
+   "Siracusa"
+  ],
+  [
+   2,
+   "prova",
+   "O rei Hierão desconfiou que sua coroa de ouro tinha prata.",
+   "desconfiou"
+  ],
+  [
+   4,
+   "prova",
+   "Ele pediu a Arquimedes a verdade, sem estragar a coroa.",
+   "pediu"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que, ao entrar na banheira, a água transbordou.",
+   "transbordou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "A água que sai tem o tamanho do corpo que entra.",
+   "sai",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Coroa com prata é maior e derrama mais água que ouro puro.",
+   "derrama",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Conta a lenda: ele gritou Eureca. E a coroa tinha prata.",
+   "gritou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Dá para enganar muita gente. Mas não uma banheira.",
+   "banheira"
+  ]
+ ]
+}

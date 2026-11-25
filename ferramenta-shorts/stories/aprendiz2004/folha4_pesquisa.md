@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Você Está Demitido | Você Está Demitido / Duas Nova York Em Estados Unidos Aprendiz Dezesseis Donald Trump 2004 | SEM REFERENCIA
+tema | Você Está Demitido | Você Está Demitido / Trump Foi TV Em Estados Unidos Aprendiz 2004 | SEM REFERENCIA
 lugar | Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e c | Nova York EUA / Nova York EUA 2004 | SEM REFERENCIA
 lugar | Brasil | Brasil 2004 / Brasil landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2004 | 2004 fashion clothing / 2004 street photograph | SEM REFERENCIA

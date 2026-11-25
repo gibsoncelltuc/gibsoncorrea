@@ -19,9 +19,28 @@
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.",
+   "frase": "Ninguém te conta: um gênio correu da banheira gritando pela rua.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E foi a banheira que desmascarou um ladrão de ouro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -38,9 +57,9 @@
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 11,
-   "cena": "b1",
-   "frase": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Siracusa, na Sicília, há mais de dois mil anos.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,9 +76,9 @@
    "objetos": [
     "kit/coroa_louros"
    ],
-   "palavras": 14,
-   "cena": "b2",
-   "frase": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O rei Hierão desconfiou que sua coroa de ouro tinha prata.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -70,32 +89,15 @@
    "camera": "group",
    "personagens": [
     "REI",
-    "OUR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
-   "cena": "b3",
-   "frase": "Será que trocou parte do ouro por prata?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "REI",
     "ARQ"
    ],
    "multidao": 0,
    "objetos": [
     "kit/coroa_louros"
    ],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
+   "frase": "Ele pediu a Arquimedes a verdade, sem estragar a coroa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -111,9 +113,9 @@
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 20,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
+   "frase": "Acontece que, ao entrar na banheira, a água transbordou.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -131,9 +133,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
+   "frase": "A água que sai tem o tamanho do corpo que entra.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -151,9 +153,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
+   "palavras": 12,
    "cena": "b7",
-   "frase": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
+   "frase": "Coroa com prata é maior e derrama mais água que ouro puro.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -167,25 +169,6 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "orbit",
-   "personagens": [
-    "ARQ",
-    "OUR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/coroa_louros"
-   ],
-   "palavras": 15,
-   "cena": "b8",
-   "frase": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
    "camera": "crowd",
    "personagens": [
     "ARQ",
@@ -195,9 +178,9 @@
    "objetos": [
     "kit/coroa_louros"
    ],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Conta a lenda: ele gritou Eureca. E a coroa tinha prata.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -213,32 +196,16 @@
   {
    "camera": "two",
    "personagens": [
-    "REI",
-    "OUR"
+    "ARQ",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bathtub"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "No fim, dá para enganar um rei, mas não uma banheira.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "medieval"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ARQ"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Dá para enganar muita gente. Mas não uma banheira.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -6,11 +6,6 @@
    "video",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 12",
-   "street",
-   "loc_cidade"
   ]
  ],
  "metricas": {
@@ -29,14 +24,32 @@
    "objetos": [
     "kit/marco_trumptower"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Duas palavras transformaram um empresário de Nova York numa estrela mundial: você está demitido.",
+   "frase": "O que ninguém lembra: duas palavras deixaram Trump famoso no mundo todo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E não foi na política. Foi num programa de TV.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "two",
@@ -49,9 +62,9 @@
     "kit/marco_trumptower",
     "kit/tv"
    ],
-   "palavras": 13,
-   "cena": "b1",
-   "frase": "Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2004, estreou nos Estados Unidos o programa O Aprendiz.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -68,33 +81,20 @@
    "objetos": [
     "kit/marco_trumptower"
    ],
-   "palavras": 10,
-   "cena": "b2",
-   "frase": "Dezesseis candidatos disputavam um emprego numa empresa de Donald Trump.",
-   "classe": "simples",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Dezesseis candidatos disputavam um emprego na empresa de Trump.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CND",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/stall"
-   ],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Toda semana, as equipes faziam tarefas de negócios, como vender limonada.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
   },
   {
    "camera": "group",
@@ -109,9 +109,9 @@
     "mk/Chair_1",
     "mk/Table_Large"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b4",
-   "frase": "A equipe perdedora ia para a sala de reunião, e alguém era eliminado.",
+   "frase": "Toda semana, a equipe perdedora ia para a sala de reunião.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -125,9 +125,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Acontece que o jeito de eliminar virou marca: apontando o dedo, ele dizia, você está demitido.",
+   "frase": "E alguém ouvia, com o dedo na cara: você está demitido.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -147,9 +147,9 @@
     "kit/tv",
     "nature/picket_fence"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b6",
-   "frase": "A final da primeira temporada teve cerca de vinte e oito milhões de espectadores.",
+   "frase": "A final teve cerca de vinte e oito milhões de espectadores.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -164,23 +164,6 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "RAN",
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b7",
-   "frase": "Bill Rancic venceu e ganhou um salário de duzentos e cinquenta mil dólares.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "wide",
    "personagens": [
     "JUS",
     "POV"
@@ -190,32 +173,8 @@
     "kit/marco_trumptower"
    ],
    "palavras": 11,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_estudio"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tv"
-   ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "Trump apresentou por mais de dez anos, até dois mil e quinze.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -231,25 +190,25 @@
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "Um programa de emprego que acabou ficando famoso justamente por demitir.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Trump apresentou o programa por mais de dez anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "TRU"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "cena": "b9",
+   "frase": "Um programa de emprego, famoso por demitir. Tudo por causa de duas palavras.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

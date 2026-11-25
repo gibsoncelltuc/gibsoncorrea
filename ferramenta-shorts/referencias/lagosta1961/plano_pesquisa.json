@@ -7,7 +7,7 @@
    "item": "A Guerra da Lagosta",
    "consultas": [
     "A Guerra da Lagosta",
-    "França Brasil Era Pernambuco Brasil 1961"
+    "Você Brasil Em Pernambuco 1961"
    ]
   },
   {
@@ -123,6 +123,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "crate",
+   "consultas": [
+    "crate"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "navio da epoca",
    "consultas": [
@@ -132,17 +139,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras",
+   "item": "O Brasil dizia: lagosta anda no fundo do mar, é nossa.",
    "consultas": [
-    "brasil dizia lagosta fundo brasileira",
+    "brasil dizia lagosta fundo nossa",
     "lobster diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "A França respondia que a lagosta nada, e por isso era de quem pescasse",
+   "item": "A França respondia: lagosta nada, é de quem pescar.",
    "consultas": [
-    "franca respondia lagosta pescasse",
+    "franca respondia lagosta pescar",
     "lobster diagram"
    ]
   }

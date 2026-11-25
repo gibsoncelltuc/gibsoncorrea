@@ -1,0 +1,81 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ORELHA = GUERRA",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra. Pagamento: foram quase dez anos de guerra por causa da orelha, e Jenkins nunca a recebeu de volta.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: uma orelha cortada começou uma guerra.",
+   "orelha"
+  ],
+  [
+   9,
+   "promessa",
+   "E o dono dela levou a orelha até o Parlamento.",
+   "levou"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
+   "pararam"
+  ],
+  [
+   2,
+   "prova",
+   "O capitão espanhol cortou a orelha dele com a espada.",
+   "cortou"
+  ],
+  [
+   3,
+   "prova",
+   "\"Leve isso ao seu rei\", teria dito o espanhol.",
+   "dito",
+   {
+    "riscos_ok": true,
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "fala",
+       "na": "dito",
+       "quem": 0,
+       "forcar": true
+      }
+     ]
+    }
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.",
+   "mostrou"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a Inglaterra só queria uma desculpa para brigar.",
+   "desculpa"
+  ],
+  [
+   6,
+   "escalada",
+   "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
+   "atacaram"
+  ],
+  [
+   7,
+   "pagamento",
+   "Foram quase dez anos de guerra por causa de uma orelha.",
+   "guerra"
+  ],
+  [
+   0,
+   "loop",
+   "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
+   "orelha"
+  ]
+ ]
+}

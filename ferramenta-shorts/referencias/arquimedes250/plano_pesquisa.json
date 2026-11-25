@@ -7,7 +7,7 @@
    "item": "Arquimedes e o Eureca",
    "consultas": [
     "Arquimedes e o Eureca",
-    "Um Foi Siracusa Sicília Hierão -250"
+    "Ninguém Siracusa Sicília -250"
    ]
   },
   {
@@ -113,17 +113,17 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q",
+   "item": "A água que sai tem o tamanho do corpo que entra.",
    "consultas": [
-    "percebeu tanto igual tamanho corpo entra",
+    "tamanho corpo entra",
     "bathtub diagram"
    ]
   },
   {
    "tipo": "mecanismo",
-   "item": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e",
+   "item": "Coroa com prata é maior e derrama mais água que ouro puro.",
    "consultas": [
-    "coroa tivesse prata seria derramaria",
+    "coroa prata derrama",
     "coroa louros diagram"
    ]
   }

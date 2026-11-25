@@ -2,17 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | - | -
-b1 | wide | -  | tropa, mapa | - | -
-b2 | two | -  | batalha aberta com tiros | encena: corta (reach) @7 (acao + som de efeito) | -
-b3 | two | -  | - | encena: fala (point) @7 (acao + som de efeito) | -
-b4 | group | -  | interior, placa: PARLAMENTO, objeto na mao | (rosto) angry (expr + som de efeito); encena: fala (point) @4 (acao + som de efeito) | -
-b5 | two | -  | interior | brigar (puff + som de baque); encena: fala (point) @4 (acao + som de efeito) | -
-b6 | wide | -  | batalha aberta com tiros, tropa, placa: GUERRA | - | -
-b7 | two | -  | interior, objeto na mao | encena: x_aperta (point) @10 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
-b8 | two | -  | objeto na mao | - | -
-b9 | group | -  | - | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | placa: ORELHA = GUERRA | - | -
+b1 | two | -  | - | - | -
+b2 | wide | -  | tropa, mapa | - | -
+b3 | two | -  | batalha aberta com tiros | - | -
+b4 | two | -  | - | encena: fala (point) @6 (acao + som de efeito) | -
+b5 | group | -  | interior, placa: PARLAMENTO, objeto na mao | - | -
+b6 | two | -  | interior | brigar (puff + som de baque) | -
+b7 | wide | -  | batalha aberta com tiros, tropa, placa: GUERRA | atacaram (ring + som de alerta) | -
+b8 | two | -  | interior, objeto na mao | - | -
+b9 | two | -  | placa: ORELHA = GUERRA | - | -
 
-Mistura de planos: close 17% | medio 63% | aberto 16% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 73% | aberto 14% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

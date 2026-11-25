@@ -1,124 +1,115 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 11 - A Guerra da Lagosta
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.0s - 14 palavras - plano two
-> "A França e o Brasil quase entraram em guerra por causa de uma lagosta."
+## Cena b0 - 0.2s a 2.7s - 13 palavras - plano two
+> "Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta."
 
-- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (3.0s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (2.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | discutir | OK |
+| 2 | - | PLACA | GUERRA DA LAGOSTA | OK |
 
-## Cena b1 - 4.3s a 8.6s - 16 palavras - plano wide
-> "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
+## Cena b1 - 3.0s a 7.1s - 12 palavras - plano close
+> "E a briga dependia de uma pergunta: a lagosta anda ou nada?"
 
-- LEITURA DA FRASE: sentido FATO
-  1) PES acao do motor: pesca | na palavra "pescavam" (7.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (6.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pescavam (7.1s) | ACAO: x_pesca | puxa a linha + respingo | OK |
-| 2 | - | MAPA | PERNAMBUCO | OK |
+| 1 | briga (4.5s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
-## Cena b2 - 10.1s a 13.6s - 16 palavras - plano two
-> "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira."
+## Cena b2 - 7.6s a 11.0s - 10 palavras - plano wide
+> "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (11.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescavam" (8.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | MAPA | PERNAMBUCO | OK |
+
+## Cena b3 - 11.1s a 13.6s - 11 palavras - plano two
+> "O Brasil dizia: lagosta anda no fundo do mar, é nossa."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anda" (12.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b3 - 14.9s a 18.4s - 14 palavras - plano two
-> "A França respondia que a lagosta nada, e por isso era de quem pescasse."
+## Cena b4 - 14.9s a 17.3s - 9 palavras - plano two
+> "A França respondia: lagosta nada, é de quem pescar."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (16.1s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nada" (16.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 19.6s a 22.5s - 12 palavras - plano wide
-> "A França mandou um navio de guerra para proteger os pescadores dela."
+## Cena b5 - 17.5s a 20.4s - 10 palavras - plano wide
+> "A França mandou um navio de guerra para a costa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MFR fala apontando | na palavra "mandou" (20.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (18.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (20.0s) | ACAO: fala | aponta explicando | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 23.6s a 29.1s - 17 palavras - plano two
-> "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu."
+## Cena b6 - 20.7s a 24.6s - 11 palavras - plano orbit
+> "Acontece que o Brasil não recuou e mandou navios e aviões."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "navios" (26.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (23.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | PLACA | NAVIOS E AVIÕES | OK |
 
-## Cena b6 - 30.3s a 37.2s - 23 palavras - plano orbit
-> "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR olha/aponta para o alvo | na palavra "encararam" (31.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | encararam (31.7s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | discutir | OK |
-
-## Cena b7 - 38.2s a 43.2s - 16 palavras - plano two
-> "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar."
+## Cena b7 - 24.9s a 28.6s - 11 palavras - plano two
+> "Mas o tiro nunca veio. Os dois governos fizeram um acordo."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) FRA fala apontando | na palavra "conversaram" (41.8s)
+  1) FRA fala apontando | na palavra "acordo" (28.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | conversaram (41.8s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | CHEGADA | alguem entra andando | OK |
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b8 - 44.3s a 48.9s - 12 palavras - plano reveal
-> "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite."
+## Cena b8 - 28.8s a 32.3s - 9 palavras - plano wide
+> "No fim, alguns barcos franceses puderam pescar, com limite."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) PES acao do motor: aperta | na palavra "acordo" (45.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescar" (31.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | acordo (45.7s) | ACAO: x_aperta | aperto de mao + brilho | OK |
-| 2 | - | CENA | aperto de mao | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 1963 | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | 1963 | OK |
 
-## Cena b9 - 50.1s a 53.3s - 13 palavras - plano two
-> "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar."
+## Cena b9 - 32.5s a 35.1s - 9 palavras - plano two
+> "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta."
 
-- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (51.8s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-
-## Cena b10 - 54.4s a 57.7s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (35.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | ouro (33.4s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | GUERRA DA LAGOSTA | OK |
 

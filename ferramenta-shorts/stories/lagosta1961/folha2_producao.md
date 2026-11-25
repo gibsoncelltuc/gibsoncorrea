@@ -2,114 +2,104 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/lagosta1961/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py lagosta1961` de novo ate esta folha sair sem risco.
 
-## Cena b0 - A França e o Brasil quase entraram em guerra por causa de uma lagosta.
+## Cena b0 - Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de PES
 - Animacao: discutir
 - Objetos/modelos: crate, kit/lobster
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, franca, lagosta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil
 - RISCOS: nenhum
 
-## Cena b1 - Era mil novecentos e sessenta e um, e barcos franceses pescavam lagost...
+## Cena b1 - E a briga dependia de uma pergunta: a lagosta anda ou nada?
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): PES (variante 0, expressao stern) | multidao: 0 de PES
-- Animacao: encena
-- Objetos/modelos: boat, kit/fishing_net
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, pernambuco
-- RISCOS: nenhum
-
-## Cena b2 - O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras...
-- Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (0): - | multidao: 0 de PES
-- Animacao: -
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo, lagosta
-- RISCOS: nenhum
-
-## Cena b3 - A França respondia que a lagosta nada, e por isso era de quem pescasse...
-- Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (0): - | multidao: 0 de PES
-- Animacao: -
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, lagosta
-- RISCOS: nenhum
-
-## Cena b4 - A França mandou um navio de guerra para proteger os pescadores dela.
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MFR (variante 0, expressao stern) | multidao: 0 de PES
-- Animacao: encena
-- Objetos/modelos: kit/navio_destroier, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca, navio, pescadores
-- RISCOS: nenhum
-
-## Cena b5 - Acontece que o Brasil não recuou. Mandou navios e aviões para a costa,...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de PES
-- Animacao: conversar
-- Objetos/modelos: ship, vehicles/airplane
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, costa, tensao
-- RISCOS: nenhum
-
-## Cena b6 - Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o ...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MAR (variante 0, expressao angry); MFR (variante 0, expressao stern) | multidao: 0 de MAR/PES
-- Animacao: discutir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caso, dois, jornais, lagosta
-- RISCOS: nenhum
-
-## Cena b7 - Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em ...
-- Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): FRA (variante 0, expressao relief, segura paper); BRA (variante 0, expressao smile)
-- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brigar, dois, tiro
-- RISCOS: nenhum
-
-## Cena b8 - Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, c...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PES (variante 0, expressao laugh); FRA (variante 0, expressao relief)
-- Animacao: comemorar
-- Objetos/modelos: navio em movimento
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, limite
-- RISCOS: nenhum
-
-## Cena b9 - No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BRA (variante 0, expressao nervous) | multidao: 0 de PES
 - Animacao: reagir
 - Objetos/modelos: crate, kit/lobster
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lagosta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): briga, lagosta, pergunta
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b2 - Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): PES (variante 0, expressao stern) | multidao: 0 de PES
+- Animacao: -
+- Objetos/modelos: boat, kit/fishing_net
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, pernambuco
+- RISCOS: nenhum
+
+## Cena b3 - O Brasil dizia: lagosta anda no fundo do mar, é nossa.
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): BRA (variante 0, expressao grin)
-- Animacao: conversar
+- Personagens principais (0): - | multidao: 0 de PES
+- Animacao: -
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, fundo
+- RISCOS: nenhum
+
+## Cena b4 - A França respondia: lagosta nada, é de quem pescar.
+- Cenario: loc_estudio | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (0): - | multidao: 0 de PES
+- Animacao: -
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): franca
+- RISCOS: nenhum
+
+## Cena b5 - A França mandou um navio de guerra para a costa.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MFR (variante 0, expressao stern) | multidao: 0 de PES
+- Animacao: -
+- Objetos/modelos: kit/navio_destroier, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, franca, navio
+- RISCOS: nenhum
+
+## Cena b6 - Acontece que o Brasil não recuou e mandou navios e aviões.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MAR (variante 0, expressao angry) | multidao: 0 de PES
+- Animacao: - | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: ship, vehicles/airplane, navios de guerra ao fundo, no tamanho real
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil
+- RISCOS: nenhum
+
+## Cena b7 - Mas o tiro nunca veio. Os dois governos fizeram um acordo.
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): FRA (variante 0, expressao relief, segura paper); BRA (variante 0, expressao smile)
+- Animacao: conversar | interacao: entregar | o ultimo personagem ENTRA andando
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordo, dois, tiro
+- RISCOS: nenhum
+
+## Cena b8 - No fim, alguns barcos franceses puderam pescar, com limite.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PES (variante 0, expressao laugh); FRA (variante 0, expressao relief)
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): limite
+- RISCOS: nenhum
+
+## Cena b9 - Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de PES
+- Animacao: discutir
+- Objetos/modelos: crate, kit/lobster
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lagosta, motivo
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -117,17 +107,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-crate | b0, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/lobster | b0, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-boat | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fishing_net | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/navio_destroier | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-ship | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-vehicles/airplane | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+crate | b0, b1, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/lobster | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+boat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fishing_net | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/navio_destroier | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+vehicles/airplane | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b6 | planos abertos: 4 | mistura: close 11% | medio 60% | aberto 26% | detalhe 4%
+- Objeto heroi: kit/lobster | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 12% | medio 56% | aberto 26% | detalhe 6%
 - Interacoes: b7 entregar
 - RISCOS GERAIS: nenhum
 

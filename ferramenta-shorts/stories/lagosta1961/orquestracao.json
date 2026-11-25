@@ -19,9 +19,28 @@
     "crate",
     "kit/lobster"
    ],
-   "palavras": 14,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
+   "frase": "Você acha que guerra é por petróleo? O Brasil quase brigou por lagosta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/lobster"
+   ],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "E a briga dependia de uma pergunta: a lagosta anda ou nada?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -38,10 +57,10 @@
     "boat",
     "kit/fishing_net"
    ],
-   "palavras": 16,
-   "cena": "b1",
-   "frase": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
-   "classe": "simples",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1961, barcos franceses pescavam lagosta na costa de Pernambuco.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -52,9 +71,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O Brasil dizia: lagosta anda no fundo do mar, é nossa.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -72,9 +91,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "A França respondia: lagosta nada, é de quem pescar.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -97,29 +116,10 @@
     "kit/navio_destroier",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "A França mandou um navio de guerra para proteger os pescadores dela.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "ship",
-    "vehicles/airplane"
-   ],
-   "palavras": 17,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
-   "classe": "simples",
+   "frase": "A França mandou um navio de guerra para a costa.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -128,14 +128,17 @@
   {
    "camera": "orbit",
    "personagens": [
-    "MAR",
-    "MFR"
+    "MAR"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 23,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship",
+    "vehicles/airplane"
+   ],
+   "palavras": 11,
    "cena": "b6",
-   "frase": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
+   "frase": "Acontece que o Brasil não recuou e mandou navios e aviões.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -156,9 +159,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
+   "frase": "Mas o tiro nunca veio. Os dois governos fizeram um acordo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -166,21 +169,25 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "PES",
     "FRA"
    ],
    "multidao": 0,
-   "objetos": [
-    "navio em movimento"
-   ],
-   "palavras": 12,
+   "objetos": [],
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
-   "classe": "simples",
+   "frase": "No fim, alguns barcos franceses puderam pescar, com limite.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "harbor"
   },
@@ -194,25 +201,9 @@
     "crate",
     "kit/lobster"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "BRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Petróleo, ouro, terra? Aqui, o motivo foi uma lagosta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

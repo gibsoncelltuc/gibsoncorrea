@@ -2,37 +2,47 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/jenkins1739/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py jenkins1739` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por q...
+## Cena b0 - Ninguém te conta: uma orelha cortada começou uma guerra.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JEN (variante 0, expressao shock); ESP (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanha, inglaterra, orelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
 
-## Cena b1 - Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol paro...
+## Cena b1 - E o dono dela levou a orelha até o Parlamento.
+- Cenario: street | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/ear_jar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, orelha, parlamento
+- RISCOS: nenhum
+
+## Cena b2 - Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JEN (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, perto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cuba, navio, robert
 - RISCOS: nenhum
 
-## Cena b2 - Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha del...
+## Cena b3 - O capitão espanhol cortou a orelha dele com a espada.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
 - Animacao: golpe | interacao: empurrar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, contrabando, orelha
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, espada, orelha
 - RISCOS: nenhum
 
-## Cena b3 - "Vá levar isso ao seu rei", teria dito o espanhol.
+## Cena b4 - "Leve isso ao seu rei", teria dito o espanhol.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
@@ -42,74 +52,54 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espanhol
 - RISCOS: nenhum
 
-## Cena b4 - Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e o...
+## Cena b5 - Dizem que, sete anos depois, Jenkins mostrou a orelha ao Parlamento.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (4): PRE (variante 0, expressao angry, segura paper); JEN (variante 0, expressao sad); ING (variante 0, expressao angry); PRE (variante 1, expressao shout)
 - Animacao: conversar | interacao: susto
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): deputados
+- Objetos/modelos: kit/ear_jar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
 
-## Cena b5 - Acontece que a Inglaterra queria uma desculpa para brigar com a Espanh...
+## Cena b6 - Acontece que a Inglaterra só queria uma desculpa para brigar.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): PRE (variante 0, expressao smug); ING (variante 0, expressao suspicious)
 - Animacao: discutir | interacao: cochichar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, comercio, desculpa, espanha, inglaterra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desculpa, inglaterra
 - RISCOS: nenhum
 
-## Cena b6 - Em mil setecentos e trinta e nove, a guerra começou, com navios ingles...
+## Cena b7 - Em 1739, navios ingleses atacaram portos espanhóis no Caribe.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): SOL (variante 0, expressao angry) | multidao: 20 de SOL
 - Animacao: - | batalha encenada
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe, navios
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caribe
 - RISCOS: nenhum
 
-## Cena b7 - Depois de quase dez anos, os dois lados fizeram a paz.
+## Cena b8 - Foram quase dez anos de guerra por causa de uma orelha.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ESP (variante 0, expressao relief, segura paper); ING (variante 0, expressao relief)
-- Animacao: conversar | interacao: apertar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois
-- RISCOS: nenhum
-
-## Cena b8 - Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um séc...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PRE (variante 0, expressao smile, segura book); ING (variante 0, expressao grin)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/ear_jar
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escritor, jenkins, orelha, seculo
-- RISCOS: nenhum
-
-## Cena b9 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
-- Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): JEN (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+## Cena b9 - E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta...
+- Cenario: harbor | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): JEN (variante 0, expressao shock); ESP (variante 0, expressao smug)
+- Animacao: discutir | interacao: discutir
+- Objetos/modelos: kit/ear_jar
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): orelha
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -117,18 +107,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/ear_jar | b0, b2, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/ear_jar | b0, b1, b3, b5, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 63% | aberto 16% | detalhe 5%
-- Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md) -> CORRECAO: reescrever nos 6 blocos (gancho, promessa, prova, escalada, pagamento, loop), 30-45 s, frases de ate 12 palavras, "gancho_tipo" no topo; conferir com python3 estrutura_viral.py jenkins1739
+- Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 73% | aberto 14% | detalhe 2%
+- Interacoes: b0 discutir, b1 avanca e o outro recua, b3 empurrar, b4 cochichar, b5 susto, b6 cochichar, b8 entregar, b9 discutir
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: roteiro FORA da estrutura viral (ordem do Gibson 25/11: todo video segue ESTRUTURA_VIRAL.md)
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh jenkins1739 bN bM` (so essas cenas).

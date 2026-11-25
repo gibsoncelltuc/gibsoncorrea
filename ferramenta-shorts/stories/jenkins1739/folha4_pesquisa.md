@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Orelha de Jenkins
 - Epoca: 1739 | Lugar: mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento | Quando: abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia
 - HEROIS (objeto): kit/ear_jar
-- HEROIS (personagens): JEN, PRE, ING, ESP
+- HEROIS (personagens): JEN, ESP, PRE, ING
 - Cenarios: harbor, interior pedra, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Orelha de Jenkins | A Guerra da Orelha de Jenkins / Uma Inglaterra Espanha Em Cuba Robert Jenkins Suspeitaram 1739 | Kartenn brezel skouarn Jenkins.png (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_1c0c57.jpg); Jenkins-Ear-Westindien.png (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_73d8b4.jpg); Captain Jenkins shows his ear to Robert Walpole ca (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_a8340d.jpg)
+tema | A Guerra da Orelha de Jenkins | A Guerra da Orelha de Jenkins / Ninguém Parlamento Em Cuba Robert Jenkins 1739 | Kartenn brezel skouarn Jenkins.png (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_1c0c57.jpg); Jenkins-Ear-Westindien.png (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_73d8b4.jpg); Captain Jenkins shows his ear to Robert Walpole ca (referencias/jenkins1739/prints/a_guerra_da_orelha_de_jenkins_a8340d.jpg)
 lugar | mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda | mar do Caribe perto de Cuba / mar do Caribe perto de Cuba navio mercante ingles Rebecca abordado pela guarda costeira es | Santa Clara (Cuba).jpg (referencias/jenkins1739/prints/mar_do_caribe_perto_de_cuba_navio_mercan_01a173.jpg); A 95 year old woman with her pet rooster, Havana,  (referencias/jenkins1739/prints/mar_do_caribe_perto_de_cuba_navio_mercan_6ac9c7.jpg)
 lugar | Cuba | Cuba 1739 / Cuba landscape | 1739 Plan of the city and harbour of Havanna situa (referencias/jenkins1739/prints/cuba_6e3211.jpg); Cuba 2010 IMG 1739 (4547606044).jpg (referencias/jenkins1739/prints/cuba_b9c1f9.jpg); Neu und verbesserter Plan der St. u. Hafens Havana (referencias/jenkins1739/prints/cuba_46e13f.jpg)
 epoca | roupas e ruas de 1739 | 1739 fashion clothing / 18th century clothing painting | Queen Mary II - 18th century portrait - anonymous  (referencias/jenkins1739/prints/roupas_e_ruas_de_1739_b28ab0.jpg); European School, 18th Century - Portrait of a Nobl (referencias/jenkins1739/prints/roupas_e_ruas_de_1739_d506a8.jpg); European School, 18th century - Female figure.jpg (referencias/jenkins1739/prints/roupas_e_ruas_de_1739_aec204.jpg)
