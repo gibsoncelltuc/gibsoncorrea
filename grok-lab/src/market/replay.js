@@ -48,19 +48,20 @@ export function loadTokens(raw) {
 
 export class ReplayMarket {
   // tokens: saída de loadTokens (pode ser um subconjunto)
-  constructor(tokens) {
+  // opts.from / opts.to: janela de tempo (em minutos absolutos). O histórico anterior a `from` é
+  // pré-carregado para o scanner ter velas, mas só se negocia dentro da janela.
+  constructor(tokens, opts = {}) {
     this.tokens = tokens.map((t) => ({ ...t, cursor: 0, candles: [] }));
     this.live = false;
     this.tMin = Math.min(...this.tokens.map((t) => t.all[0].t));
-    this.tMax = Math.max(...this.tokens.map((t) => t.all[t.all.length - 1].t));
-    this.tick = this.tMin - 1;
-    this.visible = [];
+    this.tMax = Math.min(opts.to ?? Infinity, Math.max(...this.tokens.map((t) => t.all[t.all.length - 1].t)));
+    this.tick = (opts.from ?? this.tMin) - 1;
     this.tokensAll = this.tokens;
     this.tokens = []; // só entram no mercado os tokens que já têm velas
+    this.advanceCandles(); // pré-carrega o histórico até o tick inicial
   }
 
-  step() {
-    this.tick++;
+  advanceCandles() {
     for (const tok of this.tokensAll) {
       while (tok.cursor < tok.all.length && tok.all[tok.cursor].t <= this.tick) {
         tok.candles.push(tok.all[tok.cursor++]);
@@ -70,6 +71,11 @@ export class ReplayMarket {
         this.tokens.push(tok);
       }
     }
+  }
+
+  step() {
+    this.tick++;
+    this.advanceCandles();
   }
 
   get done() {
