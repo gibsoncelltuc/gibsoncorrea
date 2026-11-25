@@ -82,7 +82,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "gancho",
    "say": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
    "encena": {
@@ -216,7 +216,7 @@
      }
     ]
    ],
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "prova",
    "say": "A vacina dele só tinha sido testada em animais.",
    "encena": {
@@ -442,7 +442,7 @@
    "crowd": {
     "n": 0
    },
-   "detalhe": false,
+   "detalhe": true,
    "bloco": "loop",
    "say": "Um químico arriscou tudo. E foi assim que...",
    "encena": {
