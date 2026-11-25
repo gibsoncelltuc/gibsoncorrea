@@ -323,12 +323,7 @@
    "set": "mountain",
    "fachada": false,
    "crowd": {
-    "n": 6,
-    "outfits": [
-     "DAN"
-    ],
-    "march": false,
-    "expr": "relief"
+    "n": 0
    },
    "props": [
     [
@@ -358,6 +353,19 @@
      {
       "faz": "mostra",
       "na": "pararam"
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "encosta de montanha",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "buildings/church",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
