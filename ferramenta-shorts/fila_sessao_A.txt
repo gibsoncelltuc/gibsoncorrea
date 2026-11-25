@@ -25,3 +25,6 @@ cameo1992
 starlink2019
 surfcity2019
 xplaca2023
+fleming1928
+darwin1835
+arquimedes250
