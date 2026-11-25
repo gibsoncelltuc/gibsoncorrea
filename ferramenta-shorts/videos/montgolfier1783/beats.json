@@ -468,7 +468,7 @@
    "d1": 20.0
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "ETI:0:nervous"
    ],
@@ -476,7 +476,7 @@
     [
      "kit/balloon",
      0.0,
-     -9.0,
+     -12.0,
      4.5,
      {
       "fixo": true
@@ -494,18 +494,18 @@
    "animals": [
     [
      "sheep",
-     1.6,
-     0.6
+     1.2,
+     0.3
     ],
     [
      "duck",
-     -1.6,
-     0.8
+     -1.2,
+     0.4
     ],
     [
      "rooster",
-     -2.4,
-     1.2
+     -1.8,
+     0.8
     ]
    ],
    "encena": {
@@ -517,7 +517,6 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
@@ -529,13 +528,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.0,
-   "h": 2.4,
-   "d0": 13.0,
-   "d1": 12.0,
-   "quadro_manual": true
+   }
   },
   {
    "shot": "wide",
@@ -675,6 +668,23 @@
    "d0": 13.0,
    "d1": 12.0,
    "quadro_manual": true
+  },
+  {
+   "who": [
+    "JOS:0:grin"
+   ],
+   "shot": "close",
+   "say": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "text": "COMENTE!",
+   "_cta": true,
+   "detalhe": false,
+   "mapa": null,
+   "set": "loc_montanha",
+   "objetos": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   }
   }
  ],
  "exp": 0.81,
