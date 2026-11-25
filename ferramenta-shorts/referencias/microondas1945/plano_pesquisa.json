@@ -116,6 +116,13 @@
    ]
   },
   {
+   "tipo": "heroi",
+   "item": "chocolate",
+   "consultas": [
+    "chocolate"
+   ]
+  },
+  {
    "tipo": "epoca",
    "item": "fabrica da epoca",
    "consultas": [

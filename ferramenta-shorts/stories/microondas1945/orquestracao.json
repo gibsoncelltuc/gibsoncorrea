@@ -17,6 +17,7 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/chocolate",
     "kit/radarange"
    ],
    "palavras": 12,
@@ -176,7 +177,7 @@
    "palavras": 18,
    "cena": "b8",
    "frase": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
