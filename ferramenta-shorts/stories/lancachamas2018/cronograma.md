@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Gerado em 25/11 04:55 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:01 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -15,7 +15,7 @@ b5 | simples | interior pedra | two | MUS, CMP | - | flamethrower | - | Musk exp
 b6 | simples | interior loja | two | CMP, POV | - | extinguisher | - | Cada compra vinha com um extintor de incêndio de brinde.
 b7 | chave | loc_cidade | crowd | POV, POV | 16 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
 b8 | simples | interior pedra | two | MUS, CMP | - | picket_fence | - | Isso rendeu cerca de dez milhões de dólares para a empresa.
-b9 | chave | loc_deserto | two | MUS | - | bancada, fire, flamethrower, phone | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O próprio Musk postou vídeos soltando fogo com o aparelho.
+b9 | chave | loc_deserto | wide | MUS | 6 | bancada, fire, flamethrower, marco_hollywood, phone | corpo: labaredas 3D; emissao: fumaca; luz: clarao do fogo; camera: plano da cena; som: fogo | O próprio Musk postou vídeos soltando fogo com o aparelho.
 b10 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher, flamethrower | - | Um produto que se chamava de tudo, menos do que parecia.
 b11 | simples | loc_cidade | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 

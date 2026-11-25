@@ -416,7 +416,7 @@
    "who": [
     "MUS:0:laugh"
    ],
-   "shot": "two",
+   "shot": "wide",
    "props": [
     [
      "kit/phone",
@@ -431,7 +431,7 @@
      "kit/bancada",
      -3.6,
      -2.0,
-     1.5,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -454,7 +454,7 @@
    "_susp_ok": true,
    "quadro": {
     "local": "loc_deserto",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/flamethrower",
@@ -486,7 +486,8 @@
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -504,7 +505,7 @@
      "kit/extinguisher",
      3.6,
      -2.0,
-     1.5,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -611,5 +612,6 @@
   "buscas": {
    "produto": "Boring Company Not-A-Flamethrower 2018"
   }
- }
+ },
+ "max_wide": 3
 }

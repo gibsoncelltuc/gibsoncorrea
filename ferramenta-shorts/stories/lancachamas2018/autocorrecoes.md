@@ -85,3 +85,16 @@
 ## 25/11 03:54 autocorrecao de visibilidade
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b10: ja corrigida 3 vezes, objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:01 autocorrecao de visibilidade
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: objeto citado "kit/flamethrower" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b9: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b10: objeto citado "kit/extinguisher" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b10: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b9: objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b10: objeto "kit/extinguisher" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b10: ja corrigida 3 vezes, objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:01 autocorrecao de visibilidade
+- b10: ja corrigida 3 vezes, objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

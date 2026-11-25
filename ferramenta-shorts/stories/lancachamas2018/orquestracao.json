@@ -202,15 +202,16 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MUS"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/bancada",
     "kit/fire",
     "kit/flamethrower",
+    "kit/marco_hollywood",
     "kit/phone"
    ],
    "palavras": 10,

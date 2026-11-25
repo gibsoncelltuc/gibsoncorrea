@@ -11,9 +11,9 @@ b5 | two | -  | interior | - | -
 b6 | two | -  | interior | incêndio (burst + som de tiro/explosao); encena: entrega (point) @1 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
 b7 | crowd | -  | batalha aberta com tiros, tropa | encena: entrega (point) @5 (acao + som de efeito) | -
 b8 | two | -  | interior | encena: vence (up) @1 (acao + som de efeito) | -
-b9 | two | -  | - | fogo (burst + som de tiro/explosao) | -
+b9 | wide | -  | tropa | fogo (burst + som de tiro/explosao) | -
 b10 | two | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 77% | aberto 5% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 70% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

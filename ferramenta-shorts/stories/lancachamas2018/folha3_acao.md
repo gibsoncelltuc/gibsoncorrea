@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 2.9s - 12 palavras - plano two
@@ -177,7 +177,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 45.7s a 47.9s - 10 palavras - plano two
+## Cena b9 - 45.7s a 47.9s - 10 palavras - plano wide
 > "O próprio Musk postou vídeos soltando fogo com o aparelho."
 
 - LEITURA DA FRASE: sentido FATO
@@ -186,12 +186,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fogo (47.2s) | EFEITO: burst | estouro/clarao + som | OK |
-| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: burst na palavra fogo (47.2s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b10 - 49.4s a 51.9s - 11 palavras - plano two

@@ -1,4 +1,2 @@
-VISIBILIDADE: 3 FALHA(S)
-FALHA b9: objeto "kit/phone" saiu com 16% da altura da tela, a ficha de cena planejou 32%
-FALHA b9: objeto "kit/flamethrower" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE: 1 FALHA(S)
 FALHA b10: objeto "kit/flamethrower" saiu com 13% da altura da tela, a ficha de cena planejou 32%

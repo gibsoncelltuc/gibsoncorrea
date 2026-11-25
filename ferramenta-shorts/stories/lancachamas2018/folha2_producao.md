@@ -193,22 +193,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - O próprio Musk postou vídeos soltando fogo com o aparelho.
 - Cenario: loc_deserto | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): MUS (variante 0, expressao laugh)
-- Animacao: conversar
-- Objetos/modelos: kit/phone, kit/bancada, kit/flamethrower, kit/fire
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 6 de POV
+- Animacao: -
+- Objetos/modelos: kit/phone, kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, proprio
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_deserto; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
@@ -228,7 +228,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/extinguisher: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/extinguisher: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
@@ -250,7 +250,7 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bancada | b0, b3, b4, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b0, b2, b3, b4, b5, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b6, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -258,7 +258,7 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 12% | medio 77% | aberto 5% | detalhe 6%
+- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 70% | aberto 12% | detalhe 6%
 - Interacoes: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b5 susto, b6 brindar, b8 insiste, b10 vai ate o outro
 - RISCOS GERAIS: nenhum
 

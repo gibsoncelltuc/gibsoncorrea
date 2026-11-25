@@ -13,7 +13,7 @@ b5 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/flamethrower |
 b6 | interior loja | two | 2 | comemorar, INTERAGEM: brindar | kit/extinguisher | - | -
 b7 | loc_cidade | crowd | 18 | reagir, batalha | kit/marco_hollywood | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: insiste | nature/picket_fence | - | -
-b9 | loc_deserto | two | 1 | conversar | kit/phone, kit/bancada, kit/flamethrower, kit/fire | - | -
+b9 | loc_deserto | wide | 7 | parados (so fala e pisca) | kit/phone, kit/bancada, kit/flamethrower, kit/marco_hollywood, kit/fire | - | -
 b10 | loc_cidade | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/extinguisher, kit/bancada, kit/flamethrower | - | -
 b11 | loc_cidade | close | 1 | conversar | - | - | -
 
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/flamethrower
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
 Interacoes entre personagens: b0 entregar, b1 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b5 susto, b6 brindar, b8 insiste, b10 vai ate o outro
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

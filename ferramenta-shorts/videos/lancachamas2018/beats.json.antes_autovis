@@ -46,8 +46,8 @@
    "props": [
     [
      "kit/bancada",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "nocol": true,
@@ -99,8 +99,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
@@ -153,8 +152,8 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     1.4,
+     3.6,
+     -2.0,
      2.0,
      {
       "nocol": true,
@@ -163,8 +162,8 @@
     ],
     [
      "kit/flamethrower",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "nocol": true,
@@ -203,12 +202,11 @@
     ]
    },
    "_enq_shot": "two",
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
-   "detalhe": true
+   "d1": 11.5
   },
   {
    "say": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
@@ -219,8 +217,8 @@
    "props": [
     [
      "kit/bancada",
-     0.0,
-     1.4,
+     3.6,
+     -2.0,
      2.0,
      {
       "nocol": true,
@@ -229,8 +227,8 @@
     ],
     [
      "kit/flamethrower",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "nocol": true,
@@ -270,12 +268,11 @@
     ]
    },
    "_enq_shot": "wide",
+   "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 3,
-   "detalhe": true
+   "d1": 8.0
   },
   {
    "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
@@ -307,8 +304,8 @@
    "props": [
     [
      "kit/extinguisher",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "nocol": true,
@@ -351,8 +348,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
@@ -433,8 +429,8 @@
     ],
     [
      "kit/bancada",
-     0.6,
-     1.0,
+     -3.6,
+     -2.0,
      1.5,
      {
       "nocol": true,
@@ -494,8 +490,7 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2
+   "d1": 8.0
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",
@@ -507,8 +502,8 @@
    "props": [
     [
      "kit/extinguisher",
-     0.6,
-     1.0,
+     3.6,
+     -2.0,
      1.5,
      {
       "nocol": true,
@@ -517,8 +512,8 @@
     ],
     [
      "kit/bancada",
-     0.0,
-     1.4,
+     -3.6,
+     -2.0,
      2.0,
      {
       "nocol": true,
@@ -577,8 +572,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "d1": 11.5
   }
  ],
  "exp": 1.0,
