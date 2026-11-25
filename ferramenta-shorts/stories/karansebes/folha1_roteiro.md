@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countryside | 11 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: countryside | 11 cenas, 95 palavras (~33 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Um exército inteiro perdeu uma batalha contra ele mesmo.

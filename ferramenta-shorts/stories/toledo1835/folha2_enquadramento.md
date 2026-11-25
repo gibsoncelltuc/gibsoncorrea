@@ -72,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Michigan perdeu e ficou rico. E foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
-- PERSONAGENS: OHI no centro, expressao stern; multidao de 16 (OHI, MIC) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: OHI no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO kit/canivete_aberto: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +106 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +110 da cena

@@ -28,11 +28,11 @@
    "cenario": "countryside"
   },
   {
-   "camera": "close",
+   "camera": "reveal",
    "personagens": [
     "GOV"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [],
    "palavras": 8,
    "cena": "b1",
@@ -41,7 +41,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   },
   {
    "camera": "two",

@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
-Gerado em 25/11 17:21 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:18 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,8 +11,8 @@ b1 | simples | countryside | close | TUR, TUR | - | - | - | E o inimigo venceu s
 b2 | simples | countryside | orbit | AUT, HUS, AUT, OFF | 32 | - | - | Em 1788, o exército austríaco tinha soldados de vários países.
 b3 | chave | countryside | track | HUS, HUS | 6 | lantern | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Numa noite, os hussardos foram procurar o inimigo.
 b4 | simples | countryside | two | HUS, LOC | 6 | barrel, barrel_r | - | Acharam moradores vendendo aguardente e beberam o barril todo.
-b5 | simples | countryside | group | AUT, HUS, AUT | 6 | - | - | A infantaria quis um gole. Negaram, e alguém atirou.
-b6 | simples | countryside | close | HUS | 12 | - | - | No escuro, alguém gritou: Turcos! Turcos!
+b5 | simples | countryside | crowd | AUT, HUS, AUT | 32 | - | - | A infantaria quis um gole. Negaram, e alguém atirou.
+b6 | simples | countryside | close | HUS | - | - | - | No escuro, alguém gritou: Turcos! Turcos!
 b7 | chave | countryside | orbit | AUT, AUT, HUS | 48 | house_small, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ninguém entendia a língua do vizinho. Todos atiraram em t
 b8 | simples | countryside | group | OFF | 6 | cannon | - | Até os canhões dispararam contra o próprio exército.
 b9 | simples | countryside | two | TUR, TUR | 5 | campfire, tent | - | Os turcos chegaram e acharam o acampamento abandonado.
@@ -25,11 +25,11 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/18 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | REFAZER (a etapa anterior mudou) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh karansebes
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
@@ -37,5 +37,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local karansebes <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 4. Travas do roteiro
 

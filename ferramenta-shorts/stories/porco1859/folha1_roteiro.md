@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 06 - A Guerra do Porco
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 93 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countryside | 11 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países quase foram à guerra por causa de um porco.

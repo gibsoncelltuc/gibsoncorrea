@@ -3,37 +3,23 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. SUSPEITA b4: a frase cita ANIMAL e a cena nao tem animal
-2. SUSPEITA b5: a frase cita ANIMAL e a cena nao tem animal
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Dois países quase entraram em guerra por causa de um porco.": 
-- f1 "Era uma ilha pequena entre os Estados Unidos e o Canadá,": 
-- f2 "e ninguém sabia de quem era.": 
-- f3 "Um fazendeiro americano pegou um porco comendo as batatas da": 
-- f4 "Ele pegou a espingarda,": 
-- f5 "e atirou.": 
-- f6 "O porco era de um vizinho inglês.": 
-- f7 "O fazendeiro ofereceu dez dólares ao vizinho pelo porco.": 
-- f8 "O dono gritou que o porco valia cem,": 
-- f9 "e recusou o dinheiro.": 
-- f10 "Ninguém cedeu.": 
-- f11 "Os ingleses ameaçaram prender o fazendeiro,": 
-- f12 "e os americanos mandaram soldados para a ilha.": 
-- f13 "A Inglaterra respondeu com navios de guerra.": 
-- f14 "Logo eram centenas de soldados e canhões,": 
-- f15 "apontados uns para os outros.": 
-- f16 "O almirante inglês recebeu ordem de atacar,": 
-- f17 "e se recusou:": 
-- f18 "não ia começar uma guerra por um porco.": 
-- f19 "Os soldados passaram meses trocando insultos,": 
-- f20 "e depois,": 
-- f21 "festas.": 
-- f22 "Ninguém deu um tiro.": 
-- f23 "Treze anos depois,": 
-- f24 "um árbitro decidiu que a ilha era americana.": 
-- f25 "A única baixa da guerra foi o porco.": 
-- f26 "Agora não deixe de comentar:": 
-- f27 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Dois países quase foram à guerra por causa de um porco.": 
+- f1 "E a única baixa da guerra foi ele.": 
+- f2 "A ilha de San Juan não tinha dono definido.": 
+- f3 "Um fazendeiro americano viu um porco comendo suas batatas.": 
+- f4 "Ele atirou.": 
+- f5 "O porco era de um vizinho inglês.": 
+- f6 "Ofereceu dez dólares.": 
+- f7 "O dono exigiu cem.": 
+- f8 "Os americanos mandaram soldados para a ilha.": 
+- f9 "A Inglaterra respondeu com navios de guerra.": 
+- f10 "Acontece que o almirante inglês se recusou a atacar.": 
+- f11 "Os soldados acabaram fazendo festas juntos.": 
+- f12 "Ninguém deu um tiro,": 
+- f13 "só no porco.": 
+- f14 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

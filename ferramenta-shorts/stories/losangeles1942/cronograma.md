@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 20 - A Batalha de Los Angeles
 
-Gerado em 25/11 17:20 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:19 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,10 +11,10 @@ b1 | simples | street | close | CID | - | searchlight | - | E até hoje ninguém
 b2 | chave | street | wide | CID, CID | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1942, Los Angeles vivia com medo do Japão.
 b3 | simples | harbor | wide | CID | - | submarino_ww2 | - | Na véspera, um submarino japonês atirou na Califórnia.
 b4 | simples | harbor | low | SOL, CID | - | searchlight | - | De madrugada, sirenes tocaram e holofotes varreram o céu.
-b5 | simples | street | wide | SOL | 3 | cannon, canhao_moderno | - | Alguém viu algo, e os canhões antiaéreos começaram a atirar.
+b5 | simples | street | wide | SOL | - | cannon, canhao_moderno | - | Alguém viu algo, e os canhões antiaéreos começaram a atirar.
 b6 | chave | loc_cidade | orbit | CID, CID | 48 | apartment, house_two, canhao_moderno, searchlight, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Foram mais de mil tiros, e estilhaços caíram na cidade.
-b7 | simples | harbor | two | SOL, GEN | 12 | - | - | Acontece que não havia nada lá em cima.
-b8 | simples | loc_cidade | two | CID, CID | 12 | - | - | Algumas pessoas morreram por acidente e susto.
+b7 | simples | loc_cidade | two | SOL, GEN | - | - | - | Acontece que não havia nada lá em cima.
+b8 | simples | loc_cidade | group | CID, CID | 12 | - | - | Algumas pessoas morreram por acidente e susto.
 b9 | simples | street | two | SOL, CID | 12 | searchlight | - | O medo venceu o sono. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
@@ -28,13 +28,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh losangeles1942
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh losangeles1942
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh losangeles1942
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local losangeles1942 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

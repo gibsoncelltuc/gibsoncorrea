@@ -10,7 +10,7 @@ b4 | wide | noite  | tropa | - | -
 b5 | low | noite  | tropa | - | -
 b6 | two | -  | tropa | - | -
 b7 | two | noite  | tropa | - | -
-b8 | two | -  | interior | - | -
+b8 | group | noite  | - | - | -
 b9 | wide | noite  | tropa, placa: VOOU DE VERDADE | - | -
 
 Mistura de planos: close 7% | medio 71% | aberto 21% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)

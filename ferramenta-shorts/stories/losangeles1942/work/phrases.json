@@ -1,0 +1,153 @@
+{
+ "duration": 34.704,
+ "frames30": 1041,
+ "source": "silence-align (cost 1.14)",
+ "segments": [
+  [
+   0.152,
+   3.15725
+  ],
+  [
+   3.95283,
+   6.01042
+  ],
+  [
+   6.79842,
+   8.25417
+  ],
+  [
+   8.48975,
+   10.3095
+  ],
+  [
+   11.0864,
+   11.7381
+  ],
+  [
+   11.9635,
+   13.9882
+  ],
+  [
+   14.7718,
+   15.4199
+  ],
+  [
+   15.5867,
+   17.6845
+  ],
+  [
+   18.4841,
+   19.251
+  ],
+  [
+   19.5701,
+   21.5115
+  ],
+  [
+   22.2983,
+   23.3552
+  ],
+  [
+   23.5227,
+   24.849
+  ],
+  [
+   25.646,
+   27.5757
+  ],
+  [
+   28.3737,
+   30.5254
+  ],
+  [
+   31.3068,
+   32.4488
+  ],
+  [
+   33.248,
+   33.9888
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma cidade atirou no c\u00e9u a noite toda contra um inimigo invis\u00edvel.",
+   "s": 0.152,
+   "e": 3.157
+  },
+  {
+   "text": "E at\u00e9 hoje ningu\u00e9m sabe no que eles atiravam.",
+   "s": 3.953,
+   "e": 6.01
+  },
+  {
+   "text": "Em 1942,",
+   "s": 6.798,
+   "e": 8.254
+  },
+  {
+   "text": "Los Angeles vivia com medo do Jap\u00e3o.",
+   "s": 8.49,
+   "e": 10.309
+  },
+  {
+   "text": "Na v\u00e9spera,",
+   "s": 11.086,
+   "e": 11.738
+  },
+  {
+   "text": "um submarino japon\u00eas atirou na Calif\u00f3rnia.",
+   "s": 11.963,
+   "e": 13.988
+  },
+  {
+   "text": "De madrugada,",
+   "s": 14.772,
+   "e": 15.42
+  },
+  {
+   "text": "sirenes tocaram e holofotes varreram o c\u00e9u.",
+   "s": 15.587,
+   "e": 17.684
+  },
+  {
+   "text": "Algu\u00e9m viu algo,",
+   "s": 18.484,
+   "e": 19.251
+  },
+  {
+   "text": "e os canh\u00f5es antia\u00e9reos come\u00e7aram a atirar.",
+   "s": 19.57,
+   "e": 21.512
+  },
+  {
+   "text": "Foram mais de mil tiros,",
+   "s": 22.298,
+   "e": 23.355
+  },
+  {
+   "text": "e estilha\u00e7os ca\u00edram na cidade.",
+   "s": 23.523,
+   "e": 24.849
+  },
+  {
+   "text": "Acontece que n\u00e3o havia nada l\u00e1 em cima.",
+   "s": 25.646,
+   "e": 27.576
+  },
+  {
+   "text": "Algumas pessoas morreram por acidente e susto.",
+   "s": 28.374,
+   "e": 30.525
+  },
+  {
+   "text": "O medo venceu o sono.",
+   "s": 31.307,
+   "e": 32.449
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 33.248,
+   "e": 33.989
+  }
+ ]
+}

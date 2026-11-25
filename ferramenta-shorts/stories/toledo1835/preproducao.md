@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 17 | conversar | kit/canivete_aberto | - | -
-b1 | interior madeira | close | 1 | encena | - | coin | -
+b1 | countryside | reveal | 9 | encena | - | coin | -
 b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/mapa_antigo | - | -
 b3 | interior madeira | close | 1 | encena | - | paper | -
 b4 | countryside | crowd | 49 | batalha | - | - | -
