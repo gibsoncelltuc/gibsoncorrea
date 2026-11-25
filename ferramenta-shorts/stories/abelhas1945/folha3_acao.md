@@ -17,15 +17,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | dancar | OK |
 | 5 | - | PLACA | ABELHAS DANÇAM | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dançando (0.9s): executa: estrelinhas + som
-- EFEITO: stars na palavra dança (1.8s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b1 - 2.9s a 4.4s - 8 palavras - plano two
 > "E quem traduziu isso ganhou um Prêmio Nobel."
@@ -39,14 +30,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | Prêmio (4.3s) | EFEITO: stars | estrelinhas + som | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | ÁUSTRIA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (3.9s): executa: estrelinhas + som
-- EFEITO: stars na palavra Prêmio (4.3s): executa: estrelinhas + som
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b2 - 5.1s a 7.1s - 10 palavras - plano orbit
 > "Karl von Frisch pôs água com açúcar longe da colmeia."
@@ -59,13 +42,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | DANÇA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b3 - 7.9s a 9.6s - 8 palavras - plano two
 > "A abelha que achava o açúcar voltava dançando."
@@ -77,12 +53,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | dançando (9.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | ATUACAO | dancar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra dançando (9.6s): executa: estrelinhas + som
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-<!-- /FISICA -->
 
 ## Cena b4 - 10.4s a 13.8s - 8 palavras - plano two
 > "Comida perto: voltinhas. Comida longe: um oito, rebolando."
@@ -126,14 +96,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 3 | - | INTERACAO | discutir | OK |
 | 4 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra riram: (21.6s): executa: estrelinhas + som
-- EMOCAO: laugh (a cena toda): executa: o rosto vira "laugh" na palavra
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b8 - 23.5s a 26.4s - 9 palavras - plano two
 > "Em 1973, ele ganhou o Nobel por essa dança."
@@ -148,16 +110,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | INTERACAO | pular | OK |
 | 4 | - | ATUACAO | comemorar | OK |
 | 5 | - | PLACA | NOBEL | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra ganhou (25.4s): executa: estrelinhas + som
-- EFEITO: stars na palavra dança (26.4s): executa: estrelinhas + som
-- INTERACAO (a cena toda): executa: pular
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-- multidao de 4: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b9 - 27.0s a 28.8s - 7 palavras - plano two
 > "Repare na próxima abelha que passar. Porque..."
@@ -170,11 +122,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | ABELHAS DANÇAM | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
