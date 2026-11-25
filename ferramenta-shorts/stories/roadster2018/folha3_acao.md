@@ -4,143 +4,89 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 11 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
+## Cena b0 - 0.2s a 3.3s - 13 palavras - plano two
 > "Um carro de verdade está dando voltas ao redor do Sol até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b1 - 4.8s a 11.1s - 18 palavras - plano wide
+## Cena b1 - 4.4s a 9.8s - 18 palavras - plano wide
 > "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b2 - 11.5s a 18.1s - 19 palavras - plano wide
+## Cena b2 - 10.9s a 16.5s - 19 palavras - plano wide
 > "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ESTADOS UNIDOS | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
-
-## Cena b3 - 18.5s a 25.6s - 20 palavras - plano two
+## Cena b3 - 17.9s a 23.0s - 20 palavras - plano two
 > "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandar (24.4s) | ACAO: fala | aponta explicando | OK |
+| 1 | mandar (22.2s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra mandar (24.4s): braco estendido apontando para o objeto/lugar citado
-- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b4 - 25.9s a 27.8s - 6 palavras - plano wide
+## Cena b4 - 24.2s a 25.5s - 6 palavras - plano wide
 > "O foguete decolou com um estrondo!"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | decolou (26.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
+| 1 | decolou (24.7s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: voa na palavra decolou (26.7s): executa: decola: poeira no chao, olha para cima
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b5 - 28.1s a 32.2s - 12 palavras - plano two
+## Cena b5 - 26.9s a 30.8s - 12 palavras - plano two
 > "No banco do motorista foi sentado um boneco de astronauta, chamado Starman."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | sentado (30.0s) | ACAO: senta | senta | OK |
-| 2 | chamado (31.9s) | ACAO: fala | aponta explicando | OK |
+| 1 | sentado (28.2s) | ACAO: senta | senta | OK |
+| 2 | chamado (30.2s) | ACAO: fala | aponta explicando | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: senta na palavra sentado (30.0s): executa: senta
-- ACAO: fala na palavra chamado (31.9s): braco estendido apontando para o objeto/lugar citado
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b6 - 32.6s a 35.2s - 8 palavras - plano orbit
+## Cena b6 - 32.0s a 34.4s - 8 palavras - plano orbit
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b7 - 35.6s a 41.5s - 17 palavras - plano two
+## Cena b7 - 35.7s a 39.7s - 17 palavras - plano two
 > "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 41.9s a 45.2s - 10 palavras - plano wide
+## Cena b8 - 41.0s a 43.9s - 10 palavras - plano wide
 > "E ele continua lá em cima, dando voltas, até hoje."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b9 - 45.6s a 51.5s - 17 palavras - plano two
+## Cena b9 - 45.1s a 50.0s - 17 palavras - plano two
 > "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 | 2 | - | PLACA | STARMAN | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b10 - 51.9s a 56.3s - 13 palavras - plano close
+## Cena b10 - 51.3s a 54.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
