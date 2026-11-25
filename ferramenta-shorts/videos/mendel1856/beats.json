@@ -405,7 +405,7 @@
     "sting@60"
    ],
    "quadro": {
-    "local": "salao",
+    "local": "loc_campo",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
