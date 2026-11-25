@@ -10,7 +10,8 @@
    "arctic",
    "countryside",
    "interior madeira",
-   "jungle"
+   "jungle",
+   "street"
   ],
   "cenarios_trocados": []
  },
@@ -33,6 +34,7 @@
  "objetos_em_cena": [
   "buildings/house_small",
   "buildings/house_two",
+  "buildings/shop",
   "kit/canivete_aberto",
   "kit/mapa_antigo",
   "kit/minerio",
