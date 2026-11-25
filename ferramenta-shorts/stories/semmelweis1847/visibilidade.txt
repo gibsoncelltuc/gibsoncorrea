@@ -1,2 +1,0 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b7: objeto citado "kit/wash_basin" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
