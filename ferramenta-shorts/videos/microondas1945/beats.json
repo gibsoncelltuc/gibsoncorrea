@@ -188,12 +188,12 @@
    "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o chocolate (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/chocolate",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -238,7 +238,7 @@
    "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/chocolate",
@@ -268,7 +268,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "SPE:0:laugh"
    ],
@@ -297,10 +297,10 @@
      }
     ]
    ],
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/popcorn",
@@ -333,7 +333,7 @@
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "SPE:0:grin"
@@ -357,10 +357,10 @@
      }
     ]
    ],
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/egg",

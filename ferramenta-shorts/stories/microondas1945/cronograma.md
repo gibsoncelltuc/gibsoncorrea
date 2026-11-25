@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Gerado em 25/11 16:23 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 16:27 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,8 +12,8 @@ b2 | simples | interior madeira | two | SPE, ENG | - | - | - | Esses radares tin
 b3 | simples | interior madeira | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols
 b4 | simples | interior madeira | two | ENG, SPE | - | chocolate | - | Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.
 b5 | simples | interior pedra | close | SPE | - | - | - | Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.
-b6 | chave | interior madeira | group | SPE | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou milho de pipoca, e os grãos começaram a estour
-b7 | chave | interior madeira | two | SPE | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
+b6 | chave | interior madeira | two | SPE | - | popcorn | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele testou milho de pipoca, e os grãos começaram a estour
+b7 | chave | interior madeira | group | SPE | - | egg | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois testou um ovo, e o ovo explodiu bem na cara de um colega.
 b8 | transicao | loc_campo | orbit | SPE | - | radarange | - | Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e co
 b9 | chave | interior madeira | two | POV, POV | - | radarange | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um 
 b10 | simples | interior loja | close | SPE | - | chocolate, popcorn | - | No fim, o chocolate perdeu, mas a pipoca agradece.

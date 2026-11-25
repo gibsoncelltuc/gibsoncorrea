@@ -152,7 +152,7 @@
   },
   {
    "say": "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso.",
-   "shot": "wide",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "ENG:0:neutral",
@@ -172,28 +172,28 @@
    "props": [
     [
      "kit/chocolate",
-     0.0,
-     0.8,
-     3.4,
+     0.2,
+     2.2,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 1.7,
-   "d0": 11.0,
-   "d1": 10.5,
+   "cx": 0.1,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 10.0,
+   "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o chocolate (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/chocolate",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -201,7 +201,7 @@
   },
   {
    "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
-   "shot": "wide",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "ENG:0:surprised",
@@ -222,23 +222,23 @@
    "props": [
     [
      "kit/chocolate",
-     0.0,
-     1.0,
-     1.9,
+     0.2,
+     2.2,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 1.8,
-   "d0": 11.5,
-   "d1": 11.0,
+   "cx": 0.1,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 10.0,
+   "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/chocolate",
@@ -268,7 +268,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "SPE:0:laugh"
    ],
@@ -297,10 +297,10 @@
      }
     ]
    ],
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e popcorn juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/popcorn",
@@ -334,7 +334,7 @@
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "SPE:0:grin"
@@ -358,10 +358,10 @@
      }
     ]
    ],
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e egg juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/egg",
