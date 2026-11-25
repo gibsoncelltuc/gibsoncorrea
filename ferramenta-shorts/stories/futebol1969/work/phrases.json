@@ -1,0 +1,198 @@
+{
+ "duration": 37.008,
+ "frames30": 1110,
+ "source": "silence-align (cost 1.22)",
+ "segments": [
+  [
+   0.150292,
+   2.96254
+  ],
+  [
+   3.74875,
+   5.73163
+  ],
+  [
+   6.51233,
+   7.91758
+  ],
+  [
+   8.16667,
+   10.0522
+  ],
+  [
+   10.8283,
+   12.2497
+  ],
+  [
+   12.4824,
+   13.0912
+  ],
+  [
+   13.8735,
+   14.347
+  ],
+  [
+   14.5923,
+   16.05
+  ],
+  [
+   16.8509,
+   18.99
+  ],
+  [
+   19.7551,
+   20.6335
+  ],
+  [
+   21.4425,
+   21.9929
+  ],
+  [
+   22.2017,
+   23.7484
+  ],
+  [
+   24.5602,
+   25.3329
+  ],
+  [
+   25.5101,
+   26.382
+  ],
+  [
+   26.5832,
+   28.5098
+  ],
+  [
+   29.2922,
+   30.5085
+  ],
+  [
+   30.6747,
+   31.5238
+  ],
+  [
+   32.3062,
+   32.7811
+  ],
+  [
+   33.0479,
+   34.1857
+  ],
+  [
+   34.3914,
+   34.9213
+  ],
+  [
+   35.7197,
+   36.2861
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois pa\u00edses fizeram uma guerra de verdade por causa de futebol.",
+   "s": 0.15,
+   "e": 2.963
+  },
+  {
+   "text": "E quem ganhou o jogo n\u00e3o fez um gol na Copa.",
+   "s": 3.749,
+   "e": 5.732
+  },
+  {
+   "text": "Em 1969,",
+   "s": 6.512,
+   "e": 7.918
+  },
+  {
+   "text": "os dois pa\u00edses j\u00e1 disputavam terras.",
+   "s": 8.167,
+   "e": 10.052
+  },
+  {
+   "text": "Depois veio a vaga na Copa:",
+   "s": 10.828,
+   "e": 12.25
+  },
+  {
+   "text": "tr\u00eas jogos.",
+   "s": 12.482,
+   "e": 13.091
+  },
+  {
+   "text": "No primeiro,",
+   "s": 13.873,
+   "e": 14.347
+  },
+  {
+   "text": "Honduras venceu por um a zero.",
+   "s": 14.592,
+   "e": 16.05
+  },
+  {
+   "text": "El Salvador venceu o segundo por tr\u00eas a zero.",
+   "s": 16.851,
+   "e": 18.99
+  },
+  {
+   "text": "Torcidas brigaram.",
+   "s": 19.755,
+   "e": 20.634
+  },
+  {
+   "text": "No terceiro,",
+   "s": 21.442,
+   "e": 21.993
+  },
+  {
+   "text": "El Salvador venceu na prorroga\u00e7\u00e3o.",
+   "s": 22.202,
+   "e": 23.748
+  },
+  {
+   "text": "Acontece que,",
+   "s": 24.56,
+   "e": 25.333
+  },
+  {
+   "text": "semanas depois,",
+   "s": 25.51,
+   "e": 26.382
+  },
+  {
+   "text": "o ex\u00e9rcito salvadorenho atacou Honduras.",
+   "s": 26.583,
+   "e": 28.51
+  },
+  {
+   "text": "A guerra durou cem horas,",
+   "s": 29.292,
+   "e": 30.509
+  },
+  {
+   "text": "at\u00e9 o cessar-fogo.",
+   "s": 30.675,
+   "e": 31.524
+  },
+  {
+   "text": "Na Copa,",
+   "s": 32.306,
+   "e": 32.781
+  },
+  {
+   "text": "perderam os tr\u00eas jogos,",
+   "s": 33.048,
+   "e": 34.186
+  },
+  {
+   "text": "sem um gol.",
+   "s": 34.391,
+   "e": 34.921
+  },
+  {
+   "text": "Tudo porque...",
+   "s": 35.72,
+   "e": 36.286
+  }
+ ]
+}

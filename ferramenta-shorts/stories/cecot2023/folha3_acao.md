@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.6s - 11 palavras - plano two
@@ -12,18 +12,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 40 MIL PRESOS | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | 40 MIL PRESOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.8s a 5.5s - 9 palavras - plano crowd
+## Cena b1 - 3.8s a 5.5s - 9 palavras - plano wide
 > "E ninguém concorda se ela é solução ou problema."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -33,7 +31,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b2 - 6.8s a 8.6s - 7 palavras - plano reveal
+## Cena b2 - 6.8s a 8.6s - 7 palavras - plano wide
 > "Ela abriu em 2023, em El Salvador."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -41,12 +39,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | MAPA | EL SALVADOR | OK |
+| 1 | - | MAPA | EL SALVADOR | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
@@ -67,7 +63,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b4 - 12.9s a 15.1s - 9 palavras - plano group
+## Cena b4 - 12.9s a 15.1s - 9 palavras - plano wide
 > "O governo decretou estado de exceção contra as gangues."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -75,12 +71,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | prender | OK |
+| 1 | - | ATUACAO | prender | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: prender
 <!-- /FISICA -->
 
@@ -113,7 +107,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 23.1s a 25.3s - 7 palavras - plano wide
+## Cena b7 - 23.1s a 25.3s - 7 palavras - plano two
 > "Mas houve denúncias de prisões sem julgamento."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -121,11 +115,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | discutir | OK |
-| 2 | - | PLACA | SEM JULGAMENTO | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | SEM JULGAMENTO | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
@@ -147,7 +143,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 28.5s a 31.9s - 6 palavras - plano crowd
+## Cena b9 - 28.5s a 31.9s - 6 palavras - plano wide
 > "Segurança ou excesso? Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

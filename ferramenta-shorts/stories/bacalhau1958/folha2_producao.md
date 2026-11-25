@@ -39,7 +39,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cod juntos (camera a 8.0 m)
 - PERSONAGENS: PES no centro, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/cod: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final

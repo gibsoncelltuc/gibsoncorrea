@@ -18,8 +18,7 @@
   {
    "camera": "two",
    "personagens": [
-    "SOL",
-    "MAD"
+    "SOL"
    ],
    "multidao": 0,
    "objetos": [
@@ -200,8 +199,7 @@
   {
    "camera": "wide",
    "personagens": [
-    "SOL",
-    "MAD"
+    "SOL"
    ],
    "multidao": 0,
    "objetos": [
@@ -210,7 +208,7 @@
    "palavras": 10,
    "cena": "b9",
    "frase": "A operação se chamou Resolução Absoluta. E foi assim que...",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

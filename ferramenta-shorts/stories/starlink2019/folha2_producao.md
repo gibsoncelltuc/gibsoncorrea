@@ -45,7 +45,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Em 2019, a SpaceX lançou sessenta satélites de uma vez.
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: -
@@ -56,7 +56,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_pista; hora: golden
-- CAMERA: revelacao (camera sobe e abre); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/rocket: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -190,7 +190,7 @@ kit/phone | b5 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/starlink_train | grandes momentos: b0, b5, b8 | planos abertos: 4 | mistura: close 4% | medio 70% | aberto 26% | detalhe 0%
+- Objeto heroi: kit/starlink_train | grandes momentos: b0, b5, b8 | planos abertos: 4 | mistura: close 4% | medio 65% | aberto 31% | detalhe 0%
 - Interacoes: b1 avanca e o outro recua, b3 o outro se aproxima, b7 insiste
 - RISCOS GERAIS: nenhum
 

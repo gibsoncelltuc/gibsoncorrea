@@ -18,8 +18,7 @@
   {
    "camera": "two",
    "personagens": [
-    "GUA",
-    "BUK"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [
@@ -35,10 +34,8 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "POV",
-    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -55,9 +52,8 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -67,7 +63,7 @@
    "palavras": 7,
    "cena": "b2",
    "frase": "Ela abriu em 2023, em El Salvador.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -91,11 +87,9 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "BUK",
-    "GUA",
-    "GUA"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
@@ -154,12 +148,12 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "REP",
     "POV"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [],
    "palavras": 7,
    "cena": "b7",
@@ -196,10 +190,9 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "GUA",
-    "BUK"
+    "GUA"
    ],
    "multidao": 0,
    "objetos": [
