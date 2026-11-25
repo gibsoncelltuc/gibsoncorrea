@@ -266,11 +266,9 @@ kit/veg_cacto | b4, b5 | pronto | conferir na folha de contato se le bem; se par
 ## Video inteiro
 - Objeto heroi: kit/tequila_bolt | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 12% | medio 70% | aberto 12% | detalhe 6%
 - Interacoes: b0 insiste, b2 discutir, b3 entregar, b5 cochichar, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 10 item(ns) sem referencia visual: A Piada que Virou Tequila, Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c, Elon Musk (camiseta preta), fas da Tesla, represent -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: A Piada que Virou Tequila, Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria c, Elon Musk (camiseta preta), fas da Tesla, represent
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh teslaquila2020 bN bM` (so essas cenas).
