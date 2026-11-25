@@ -1,0 +1,189 @@
+{
+ "duration": 34.728,
+ "frames30": 1042,
+ "source": "silence-align (cost 1.53)",
+ "segments": [
+  [
+   0.0,
+   2.45654
+  ],
+  [
+   2.83558,
+   4.72417
+  ],
+  [
+   5.10354,
+   6.524
+  ],
+  [
+   6.80442,
+   9.32796
+  ],
+  [
+   9.701,
+   10.2346
+  ],
+  [
+   10.4619,
+   12.0191
+  ],
+  [
+   12.396,
+   15.1982
+  ],
+  [
+   15.5739,
+   16.8309
+  ],
+  [
+   17.2045,
+   17.6733
+  ],
+  [
+   17.8769,
+   18.6041
+  ],
+  [
+   18.9793,
+   19.5485
+  ],
+  [
+   19.6972,
+   20.333
+  ],
+  [
+   20.6103,
+   21.0108
+  ],
+  [
+   21.3798,
+   21.811
+  ],
+  [
+   22.1821,
+   24.323
+  ],
+  [
+   24.7022,
+   25.874
+  ],
+  [
+   26.2456,
+   28.5222
+  ],
+  [
+   28.8995,
+   31.2427
+  ],
+  [
+   31.6142,
+   33.3551
+  ],
+  [
+   33.7281,
+   34.3059
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um ex\u00e9rcito inteiro perdeu uma batalha contra ele mesmo.",
+   "s": 0.0,
+   "e": 2.457
+  },
+  {
+   "text": "E o inimigo venceu sem disparar um tiro.",
+   "s": 2.836,
+   "e": 4.724
+  },
+  {
+   "text": "Em 1788,",
+   "s": 5.104,
+   "e": 6.524
+  },
+  {
+   "text": "o ex\u00e9rcito austr\u00edaco tinha soldados de v\u00e1rios pa\u00edses.",
+   "s": 6.804,
+   "e": 9.328
+  },
+  {
+   "text": "Numa noite,",
+   "s": 9.701,
+   "e": 10.235
+  },
+  {
+   "text": "os hussardos foram procurar o inimigo.",
+   "s": 10.462,
+   "e": 12.019
+  },
+  {
+   "text": "Acharam moradores vendendo aguardente e beberam o barril todo.",
+   "s": 12.396,
+   "e": 15.198
+  },
+  {
+   "text": "A infantaria quis um gole.",
+   "s": 15.574,
+   "e": 16.831
+  },
+  {
+   "text": "Negaram,",
+   "s": 17.204,
+   "e": 17.673
+  },
+  {
+   "text": "e algu\u00e9m atirou.",
+   "s": 17.877,
+   "e": 18.604
+  },
+  {
+   "text": "No escuro,",
+   "s": 18.979,
+   "e": 19.549
+  },
+  {
+   "text": "algu\u00e9m gritou:",
+   "s": 19.697,
+   "e": 20.333
+  },
+  {
+   "text": "Turcos!",
+   "s": 20.61,
+   "e": 21.011
+  },
+  {
+   "text": "Turcos!",
+   "s": 21.38,
+   "e": 21.811
+  },
+  {
+   "text": "Acontece que ningu\u00e9m entendia a l\u00edngua do vizinho.",
+   "s": 22.182,
+   "e": 24.323
+  },
+  {
+   "text": "Todos atiraram em todos.",
+   "s": 24.702,
+   "e": 25.874
+  },
+  {
+   "text": "At\u00e9 os canh\u00f5es dispararam contra o pr\u00f3prio ex\u00e9rcito.",
+   "s": 26.246,
+   "e": 28.522
+  },
+  {
+   "text": "Os turcos chegaram e acharam o acampamento abandonado.",
+   "s": 28.899,
+   "e": 31.243
+  },
+  {
+   "text": "Ningu\u00e9m precisou lutar contra eles.",
+   "s": 31.614,
+   "e": 33.355
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 33.728,
+   "e": 34.306
+  }
+ ]
+}

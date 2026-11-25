@@ -1,12 +1,12 @@
 # CRONOGRAMA - Guerras Inusitadas EP 22 - A Cavalaria que Capturou uma Frota
 
-Gerado em 25/11 18:23 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:28 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | arctic | wide | FRA | 12 | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Uma frota de navios de guerra foi capturada por soldados a cavalo.
+b0 | chave | arctic | wide | FRA | 8 | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Uma frota de navios de guerra foi capturada por soldados a cavalo.
 b1 | simples | arctic | wide | FRA, FRA | - | ship | - | E nenhum dos lados precisou dar um tiro.
 b2 | simples | arctic | reveal | FRA, NED | - | - | - | Em 1795, a França invadia a Holanda.
 b3 | simples | arctic | group | NED, NED | - | ship | - | A frota holandesa estava parada, e o mar congelou em volta.
@@ -15,7 +15,7 @@ b5 | simples | arctic | group | GEN, OFF | - | - | - | O chefe da cavalaria fran
 b6 | simples | arctic | wide | OFF | - | - | - | Mas ninguém sabia se o gelo aguentaria os cavalos.
 b7 | chave | arctic | two | FRA, FRA | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | De noite, os hussardos cruzaram o gelo com panos nos cascos.
 b8 | chave | arctic | group | NED, FRA | 10 | ship | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os holandeses nem lutaram. A frota inteira se rendeu.
-b9 | chave | arctic | wide | FRA | 12 | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Cavalaria um, marinha zero. E foi assim que...
+b9 | chave | arctic | wide | FRA | 8 | ship | corpo: cavaleiro galopando; emissao: poeira/clarao do tiro; luz: cena; camera: camera acompanha; som: galope | Cavalaria um, marinha zero. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

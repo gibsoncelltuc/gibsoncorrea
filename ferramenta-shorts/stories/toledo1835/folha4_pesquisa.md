@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1835 | Lugar: Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna | Quando: abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)
 - HEROIS (objeto): kit/canivete_aberto
 - HEROIS (personagens): OHI, GOV, MIC
-- Cenarios: arctic, countryside, interior madeira, jungle, street
+- Cenarios: arctic, countryside, interior madeira, jungle
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 

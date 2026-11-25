@@ -76,12 +76,13 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   },
   {
    "camera": "group",
    "personagens": [
-    "OHI"
+    "OHI",
+    "MIC"
    ],
    "multidao": 18,
    "objetos": [],
@@ -92,7 +93,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "countryside"
   },
   {
    "camera": "crowd",

@@ -36,7 +36,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Ohio mandou sua milícia, e as tropas se encararam."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: OHI no centro, expressao stern; multidao de 18 (OHI, MIC) marchando ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: OHI na esquerda, expressao stern; MIC na direita, expressao angry; multidao de 18 (OHI, MIC) ATRAS dos principais; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b5: "Teve tiro para o alto, mas ninguém acertou ninguém."

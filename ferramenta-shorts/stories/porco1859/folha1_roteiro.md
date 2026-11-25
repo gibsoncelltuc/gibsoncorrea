@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Um fazendeiro americano viu um porco comendo suas batatas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito
+- Efeito + som nas palavras-chave: animal: pig come -> acao + som de efeito; encena: olha (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os americanos mandaram soldados para a ilha.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: TROPAS
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Acontece que o almirante inglês se recusou a atacar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: atacar -> ring + som de alerta
+- Efeito + som nas palavras-chave: atacar -> ring + som de alerta; encena: fala (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

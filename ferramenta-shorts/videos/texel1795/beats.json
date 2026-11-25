@@ -74,10 +74,10 @@
    "shot_lock": true,
    "montado": {
     "animal": "horse_sela",
-    "z": -2.5
+    "z": 0.3
    },
    "crowd": {
-    "n": 12,
+    "n": 8,
     "outfits": [
      "FRA"
     ],
@@ -497,10 +497,10 @@
    "shot_lock": true,
    "montado": {
     "animal": "horse_sela",
-    "z": -2.5
+    "z": 0.3
    },
    "crowd": {
-    "n": 12,
+    "n": 8,
     "outfits": [
      "FRA"
     ],

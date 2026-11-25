@@ -10,8 +10,7 @@
    "arctic",
    "countryside",
    "interior madeira",
-   "jungle",
-   "street"
+   "jungle"
   ],
   "cenarios_trocados": []
  },
@@ -34,20 +33,13 @@
  "objetos_em_cena": [
   "buildings/house_small",
   "buildings/house_two",
-  "buildings/shop",
   "kit/canivete_aberto",
   "kit/mapa_antigo",
   "kit/minerio",
-  "kit/room_europa_wood",
   "kit/room_verde_wood",
-  "mk/Barrel",
-  "mk/Bed_Twin1",
   "mk/Bookcase_2",
-  "mk/Cabinet",
-  "mk/CandleStick_Stand",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Nightstand_Shelf",
   "mk/Table_Large",
   "nature/bush",
   "nature/tree_oak",

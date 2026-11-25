@@ -5,7 +5,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "Uma frota de navios de guerra foi capturada por soldados a cavalo."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: FRA no centro, expressao grin; multidao de 12 (FRA) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: FRA no centro, expressao grin; multidao de 8 (FRA) ATRAS dos principais; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
@@ -72,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Cavalaria um, marinha zero. E foi assim que..."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: FRA no centro, expressao grin; multidao de 12 (FRA) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: FRA no centro, expressao grin; multidao de 8 (FRA) ATRAS dos principais; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
