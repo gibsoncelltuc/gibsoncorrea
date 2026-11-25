@@ -69,8 +69,8 @@
    "props": [
     [
      "kit/megapack",
-     0.0,
-     -8.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -110,7 +110,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 2
   },
   {
    "tiros": false,
@@ -194,7 +195,7 @@
     [
      "kit/megapack",
      0.0,
-     -8.0,
+     -1.0,
      2.0,
      {
       "fixo": true
@@ -245,8 +246,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "d0": 13.5,
+   "d1": 13.0,
+   "_auto_vis": 2
   },
   {
    "tiros": false,
@@ -670,15 +672,15 @@
    "batalha": false,
    "impact": false,
    "say": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:laugh"
    ],
    "props": [
     [
      "kit/megapack",
-     0.0,
-     -8.0,
+     0.6,
+     1.0,
      1.5,
      {
       "fixo": true
@@ -717,8 +719,9 @@
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   "d0": 13.5,
+   "d1": 13.0,
+   "_auto_vis": 3
   }
  ],
  "exp": 1.0,

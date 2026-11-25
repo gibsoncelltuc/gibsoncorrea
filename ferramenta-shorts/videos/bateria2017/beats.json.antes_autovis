@@ -262,9 +262,9 @@
    "props": [
     [
      "kit/megapack",
-     0.6,
-     1.0,
-     1.5,
+     1.8,
+     -3.5,
+     1.2,
      {
       "fixo": true
      }
@@ -299,11 +299,11 @@
     "n": 0
    },
    "detalhe": false,
-   "cx": 0,
+   "cx": 0.3,
    "cz": 0,
    "h": 1.5,
-   "d0": 5.0,
-   "d1": 4.5,
+   "d0": 5.8,
+   "d1": 5.2,
    "quadro_manual": true,
    "shot_lock": true,
    "vary": false
@@ -672,7 +672,7 @@
    "batalha": false,
    "impact": false,
    "say": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:laugh"
    ],
@@ -689,7 +689,7 @@
    ],
    "quadro": {
     "local": "loc_cidade",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o megapack (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/megapack",
@@ -700,7 +700,7 @@
     ]
    },
    "set": "loc_cidade",
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "fato",
     "passos": [

@@ -1,6 +1,0 @@
-VISIBILIDADE: 5 FALHA(S)
-FALHA b3: "kit/megapack" tapando a camera (43% do quadro, colado na lente)
-FALHA b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b3~1: "kit/megapack" tapando a camera (50% do quadro, colado na lente)
-FALHA b3~2: "kit/megapack" tapando a camera (45% do quadro, colado na lente)
-FALHA b3~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
