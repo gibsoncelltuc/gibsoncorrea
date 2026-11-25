@@ -350,17 +350,11 @@
    "d1": 7.6,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
       "objeto": "kit/bisturi",
-      "lugar": "FRENTE, esquerda",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
       "tela": "1% da altura da tela",
       "estado": "parado"
      }

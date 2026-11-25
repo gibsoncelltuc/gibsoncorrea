@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "PAS",
     "JOS"
@@ -87,7 +87,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "PAS"
    ],
@@ -140,7 +140,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "PAS",
     "JOS"
@@ -184,7 +184,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "PAS",
     "JOS"
@@ -197,7 +197,7 @@
    "palavras": 8,
    "cena": "b9",
    "frase": "Um químico arriscou tudo. E foi assim que...",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

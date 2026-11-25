@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um menino de nove anos foi o primeiro vacinado contra a raiva.
 - Cenario: street | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: -
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/bancada, kit/seringa_pe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): menino, nove, raiva
 - RISCOS: nenhum
@@ -15,7 +15,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)
 - PERSONAGENS: PAS na esquerda, expressao smile; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/seringa_pe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -85,8 +85,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - A vacina dele só tinha sido testada em animais.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PAS (variante 0, expressao suspicious) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)
 - PERSONAGENS: PAS no centro, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/seringa_pe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
@@ -143,10 +143,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que, depois de dez dias de injeções, o menino não adoeceu.
 - Cenario: hall | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAS (variante 0, expressao relief); JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: - | grande momento (efeito + som, sem tiro)
+- Animacao: conversar | interacao: o outro se aproxima | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bancada, kit/seringa_pe, kit/syringe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): injecoes, menino
 - RISCOS: nenhum
@@ -154,7 +154,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: salao; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 11.5 m)
 - PERSONAGENS: PAS na esquerda, expressao relief; JOS na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/seringa_pe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -186,10 +186,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Um químico arriscou tudo. E foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: -
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/bancada, kit/seringa_pe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): quimico
 - RISCOS: nenhum
@@ -206,8 +206,8 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 
 ## Video inteiro
-- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 7 | mistura: close 13% | medio 28% | aberto 58% | detalhe 0%
-- Interacoes: -
+- Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 3 | mistura: close 11% | medio 68% | aberto 21% | detalhe 0%
+- Interacoes: b0 avanca e o outro recua, b7 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: 
   - objeto heroi (kit/seringa_pe) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
 

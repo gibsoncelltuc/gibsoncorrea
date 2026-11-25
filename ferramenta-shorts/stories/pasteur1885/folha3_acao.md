@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 2.5s - 12 palavras - plano wide
+## Cena b0 - 0.1s a 2.5s - 12 palavras - plano two
 > "Um menino de nove anos foi o primeiro vacinado contra a raiva."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -13,11 +13,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 2 | - | PLACA | PRIMEIRA VACINA | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | PRIMEIRA VACINA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EMOCAO: angry (a cena toda): executa: o rosto vira "angry" na palavra
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -71,7 +75,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 13.8s a 15.8s - 9 palavras - plano wide
+## Cena b4 - 13.8s a 15.8s - 9 palavras - plano two
 > "A vacina dele só tinha sido testada em animais."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -122,7 +126,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b7 - 23.3s a 26.6s - 12 palavras - plano wide
+## Cena b7 - 23.3s a 26.6s - 12 palavras - plano two
 > "Acontece que, depois de dez dias de injeções, o menino não adoeceu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -131,10 +135,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
 ## Cena b8 - 27.7s a 29.8s - 8 palavras - plano track
@@ -147,7 +155,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 30.9s a 33.4s - 8 palavras - plano wide
+## Cena b9 - 30.9s a 33.4s - 8 palavras - plano two
 > "Um químico arriscou tudo. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -155,10 +163,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | PRIMEIRA VACINA | OK |
+| 1 | - | INTERACAO | insiste | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PRIMEIRA VACINA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
