@@ -13,7 +13,7 @@ b5 | loc_campo | wide | 1 | encena | kit/balloon, kit/marco_versalhes, sheep, du
 b6 | street | orbit | 31 | encena | kit/balloon, kit/marco_versalhes | - | -
 b7 | loc_campo | orbit | 1 | reagir, batalha | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
 b8 | loc_campo | wide | 1 | reagir | kit/balloon, kit/marco_versalhes, nature/tree_pine, nature/tree_oak, nature/bush, sheep, duck, rooster | - | -
-b9 | street | wide | 1 | comemorar | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -
+b9 | street | wide | 1 | comemorar | kit/balloon_air, kit/marco_versalhes | - | -
 b10 | loc_montanha | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b11 | loc_montanha | close | 1 | conversar | - | - | -
 

@@ -601,7 +601,8 @@
    "h": 9.0,
    "d0": 26.0,
    "d1": 24.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "shot": "wide",

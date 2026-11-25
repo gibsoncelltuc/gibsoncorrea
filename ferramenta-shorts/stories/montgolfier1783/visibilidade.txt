@@ -1,6 +1,2 @@
-VISIBILIDADE: 5 FALHA(S)
-FALHA b3: objeto citado "kit/balloon" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b7: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+VISIBILIDADE: 1 FALHA(S)
 FALHA b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b7: objeto "kit/balloon_air" saiu com 13% da altura da tela, a ficha de cena planejou 30%
-FALHA b9: objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30%

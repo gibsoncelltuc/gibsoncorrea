@@ -30,3 +30,6 @@
 - b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 13% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 05:51 autocorrecao de visibilidade
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
