@@ -60,7 +60,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_campo; hora: golden
 - CAMERA: medium; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao stern, segura paper; POV na direita, expressao grin, segura paper; sem multidao; acao: fala/gesto
-- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "COPIADO E CRITICADO" flutuando no alto, na palavra 1 da frase
 
 ## b9: "Segurança ou excesso? Foi assim que..."
