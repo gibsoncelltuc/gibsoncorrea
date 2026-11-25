@@ -52,7 +52,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Acontece que a radiação destruiu a saúde dela."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAR no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena

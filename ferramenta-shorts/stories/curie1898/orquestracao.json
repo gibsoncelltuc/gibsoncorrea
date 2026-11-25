@@ -154,12 +154,14 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
     "MAR"
    ],
-   "multidao": 0,
-   "objetos": [],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
    "palavras": 8,
    "cena": "b7",
    "frase": "Acontece que a radiação destruiu a saúde dela.",

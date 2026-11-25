@@ -74,11 +74,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que a radiação destruiu a saúde dela.
 - Cenario: street | luz: dia | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (1): MAR (variante 0, expressao sad)
-- Animacao: conversar
-- Objetos/modelos: -
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MAR (variante 0, expressao sad) | multidao: 6 de POV
+- Animacao: encena
+- Objetos/modelos: kit/marco_eiffel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): radiacao, saude
 - RISCOS: nenhum
 
@@ -108,13 +108,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/curie_box | b0, b1, b4, b5, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_eiffel | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_eiffel | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/pechblenda | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 79% | aberto 7% | detalhe 2%
+- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 4% | medio 79% | aberto 15% | detalhe 2%
 - Interacoes: b3 vai ate o outro, b6 aproxima-se
 - RISCOS GERAIS: nenhum
 

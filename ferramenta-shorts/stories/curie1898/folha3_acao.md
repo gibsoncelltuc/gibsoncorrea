@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 15 acoes catalogadas, 15 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.4s - 11 palavras - plano group
@@ -80,7 +80,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 20.8s a 22.7s - 8 palavras - plano low
+## Cena b7 - 20.8s a 22.7s - 8 palavras - plano wide
 > "Acontece que a radiação destruiu a saúde dela."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -89,7 +89,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | Acontece (20.8s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 23.5s a 25.8s - 10 palavras - plano two
 > "Hoje, os cadernos dormem em caixas de chumbo em Paris."

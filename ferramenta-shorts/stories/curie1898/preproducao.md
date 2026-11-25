@@ -11,7 +11,7 @@ b3 | interior galpao | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/pec
 b4 | interior galpao | wide | 2 | batalha | kit/pechblenda, kit/curie_box | - | -
 b5 | interior galpao | two | 0 | parados (so fala e pisca) | kit/curie_box | - | -
 b6 | interior galpao | group | 2 | reagir, INTERAGEM: aproxima-se | - | paper | -
-b7 | street | low | 1 | conversar | - | - | -
+b7 | street | wide | 7 | encena | kit/marco_eiffel | - | -
 b8 | interior pedra | two | 1 | encena | kit/curie_box, crate | paper | -
 b9 | interior pedra | group | 1 | encena | kit/curie_box | paper | -
 
