@@ -54,7 +54,7 @@
    "props": [
     [
      "kit/pea_green",
-     2.4,
+     1.2,
      0.2,
      1.6,
      {
@@ -99,7 +99,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -147,7 +148,7 @@
     [
      "kit/pea_green",
      0.0,
-     -8.0,
+     -1.0,
      3.84,
      {
       "fixo": true
@@ -200,7 +201,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 1
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -211,7 +213,7 @@
    "props": [
     [
      "kit/pea_yellow",
-     2.4,
+     1.2,
      0.2,
      1.6,
      {
@@ -249,7 +251,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -282,7 +285,7 @@
     [
      "kit/pea_yellow",
      0.0,
-     -8.0,
+     -1.0,
      3.6,
      {
       "fixo": true
@@ -332,7 +335,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 1
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -348,8 +352,8 @@
    "props": [
     [
      "kit/pea_yellow",
-     7.0,
-     -14.0,
+     1.6,
+     -1.0,
      4.8,
      {
       "fixo": true
@@ -375,8 +379,8 @@
     ],
     [
      "kit/pea_green",
-     0.0,
-     -8.0,
+     0.6,
+     1.0,
      3.6,
      {
       "fixo": true
@@ -438,7 +442,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 2
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -498,7 +503,7 @@
     [
      "kit/pea_green",
      0.0,
-     -8.0,
+     -1.0,
      4.8,
      {
       "fixo": true
@@ -506,8 +511,8 @@
     ],
     [
      "kit/pea_yellow",
-     7.0,
-     -14.0,
+     0.6,
+     1.0,
      3.84,
      {
       "fixo": true
@@ -559,7 +564,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 2
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -571,7 +577,7 @@
     [
      "kit/pea_green",
      0.0,
-     -8.0,
+     -1.0,
      4.8,
      {
       "fixo": true
@@ -609,7 +615,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "_auto_vis": 1
   }
  ],
  "visual": {
