@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | group | -  | interior, placa: PERIGO, objeto na mao | - | -
+b0 | two | -  | interior, placa: PERIGO, objeto na mao | - | -
 b1 | wide | dia limpo | batalha aberta com tiros, tropa, mapa | - | -
 b2 | two | dia limpo | interior, objeto na mao | - | -
 b3 | group | dia chuva | interior, objeto na mao | encena: mistura (stir) @10 (acao + som de efeito) | -

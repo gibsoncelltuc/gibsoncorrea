@@ -4,7 +4,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 13 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.7s - 13 palavras - plano group
+## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
 > "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção."
 
 - LEITURA DA FRASE: sentido FATO
