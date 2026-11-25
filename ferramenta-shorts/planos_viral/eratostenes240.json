@@ -1,0 +1,82 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "UMA VARA = O PLANETA",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta so com uma vara e a sombra. Pagamento: comparando a sombra de Alexandria com o poco sem sombra de Siena, achou um numero muito perto do tamanho real da Terra.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um homem mediu o planeta com uma vara.",
+   "mediu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E chegou muito perto do número certo, sem satélite.",
+   "número"
+  ],
+  [
+   1,
+   "prova",
+   "Há mais de dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "Eratóstenes"
+  ],
+  [
+   2,
+   "prova",
+   "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
+   "iluminava"
+  ],
+  [
+   3,
+   "prova",
+   "Ou seja: lá, ao meio-dia, nada fazia sombra.",
+   "sombra"
+  ],
+  [
+   4,
+   "escalada",
+   "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "vara",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que isso só acontece se a Terra for curva.",
+   "curva",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "mediu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Com uma conta simples, achou quase o tamanho real da Terra.",
+   "conta",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Uma vara e um poço fizeram o trabalho de um satélite.",
+   "vara"
+  ]
+ ]
+}

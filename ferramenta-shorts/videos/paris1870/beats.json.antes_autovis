@@ -51,15 +51,39 @@
     [
      "kit/bife_elefante",
      0.0,
-     -1.2,
-     2.2,
+     -0.6,
+     1.6,
      {
       "nocol": true,
+      "fixo": true,
+      "y": 0.9
+     }
+    ],
+    [
+     "mk/Table_Large",
+     0.0,
+     -0.6,
+     1.2,
+     {
       "fixo": true
      }
     ]
    ],
    "detalhe": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "elefante"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 11.5,
+   "d1": 10.0,
+   "quadro_manual": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
@@ -72,20 +96,7 @@
      }
     ]
    },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "elefante"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "shot_lock": true
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
@@ -162,8 +173,8 @@
     ],
     [
      "kit/panela",
-     0.0,
-     1.4,
+     7.0,
+     -14.0,
      2.0,
      {
       "fixo": true
@@ -171,8 +182,8 @@
     ],
     [
      "kit/rato",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      2.2,
      {
       "nocol": true,
@@ -233,8 +244,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "d1": 11.5
   },
   {
    "say": "Quando acabou tudo, olharam para o zoológico da cidade.",
@@ -452,10 +462,11 @@
     [
      "kit/balloon_air",
      0.0,
-     -19.3,
-     8.22,
+     -12.0,
+     2.6,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.5
      }
     ]
    ],
@@ -464,25 +475,12 @@
    "set": "street",
    "animais": false,
    "text": "BALÕES",
-   "tat": 2,
    "tstyle": "blue",
    "who": [
     "PAR:1:surprised"
    ],
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "crowd": {
     "n": 0
    },
@@ -496,13 +494,27 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "cx": 0.0,
-   "cz": -13.5,
-   "h": 2.8,
-   "d0": 21.6,
-   "d1": 18.6,
-   "_auto_vis": 2
+   "cz": -6.0,
+   "h": 3.6,
+   "d0": 17.0,
+   "d1": 15.0,
+   "quadro_manual": true,
+   "titulo": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/balloon_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "az0": 0,
+   "az1": 4
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",

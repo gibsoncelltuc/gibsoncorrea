@@ -53,7 +53,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um presidente escreveu no próprio perfil que era um ditador.",
    "shot": "two",
    "who": [
     "BUK:0:smug"
@@ -69,42 +68,66 @@
      }
     ]
    ],
-   "mapa": "EL SALVADOR",
    "mapa_at": 1,
    "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "presidente"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "gancho",
+   "say": "Um presidente escreveu no próprio perfil que era um ditador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escreveu"
+     }
+    ]
+   },
+   "text": "DITADOR",
+   "titulo": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E ninguém sabia dizer se era piada ou não.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
    "shot": "crowd",
    "who": [
     "POV:0:shout",
@@ -122,13 +145,15 @@
     "gibber@10"
    ],
    "set": "street",
+   "mapa": "EL SALVADOR",
+   "bloco": "prova",
+   "say": "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Nayib"
+      "na": "protestaram"
      }
     ]
    }
@@ -137,7 +162,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
    "shot": "two",
    "who": [
     "BUK:0:laugh"
@@ -161,39 +185,26 @@
     "ding@8"
    ],
    "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Primeiro"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Ele respondeu escrevendo uma palavra no perfil: ditador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escrevendo"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
    "shot": "group",
    "who": [
     "BUK:0:grin",
@@ -208,13 +219,14 @@
     "sting@30"
    ],
    "interior": "loja",
+   "bloco": "escalada",
+   "say": "Dias depois, trocou para: o ditador mais legal do mundo.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Alguns"
+      "na": "trocou"
      }
     ]
    }
@@ -223,7 +235,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Acontece que a notícia se espalhou pelo mundo.",
    "shot": "reveal",
    "who": [
     "BUK:0:smug"
@@ -237,13 +248,14 @@
    "mapa": "MUNDO",
    "mapa_at": 1,
    "set": "street",
+   "bloco": "escalada",
+   "say": "Acontece que a frase se espalhou pelo mundo inteiro.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "espalhou"
      }
     ]
    }
@@ -252,70 +264,20 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
-   "shot": "two",
-   "who": [
-    "JOR:0:shock",
-    "JOR2:0:suspicious"
-   ],
-   "props": [
-    [
-     "kit/phone",
-     0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "jornal"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
    "shot": "two",
    "who": [
     "JOR:0:suspicious",
     "BUK:0:smug"
    ],
    "interior": "loja",
+   "bloco": "escalada",
+   "say": "Muitos leram como ironia, feita para provocar os críticos.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Vários"
+      "na": "ironia"
      }
     ]
    }
@@ -324,7 +286,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
    "shot": "two",
    "who": [
     "BUK:0:grin"
@@ -356,99 +317,28 @@
    "sfx": [
     "ding@8"
    ],
-   "riscos_ok": true,
    "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "depois"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
-   "shot": "two",
-   "who": [
-    "BUK:0:laugh",
-    "JOR2:0:suspicious"
-   ],
-   "interior": "loja",
-   "props": [
-    [
-     "kit/phone",
-     0.0,
-     -1.2,
-     0.9,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
+   "d1": 8.0,
+   "riscos_ok": true,
+   "bloco": "pagamento",
+   "say": "Em 2024, no dia da eleição, o perfil dizia: rei filósofo.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Aliás"
+      "na": "perfil"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
    "shot": "two",
    "who": [
     "BUK:0:laugh"
@@ -465,33 +355,21 @@
     ]
    ],
    "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Conclusão"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "loop",
+   "say": "Uma biografia que se troca em dez segundos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "biografia"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.12,
@@ -538,5 +416,8 @@
    "protesto": "San Salvador protest September 2021",
    "presidente": "Nayib Bukele 2021"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: trocou para 'o ditador mais legal do mundo', a frase rodou o mundo, foi lida como ironia e depois virou 'rei filosofo'.",
+ "loop_frase_ok": true
 }

@@ -41,6 +41,13 @@
    "hat": "hair",
    "hair": "#9a9a9a",
    "glasses": true
+  },
+  "PRE": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d9d9d9",
+   "hat": "hair",
+   "uniforme_fixo": true
   }
  },
  "beats": [
@@ -67,56 +74,56 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um presidente foi reeleito com uma das maiores votações do mundo.",
    "set": "loc_cidade",
    "acao": "comemorar",
    "text": "84,6%",
    "titulo": true,
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "reeleito"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "BUK:0:grin",
-    "POV:0:smile"
-   ],
-   "mapa": "EL SALVADOR",
-   "say": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
-   "text": "NAYIB BUKELE",
-   "titulo": true,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um presidente teve quase 85% dos votos. E muita gente criticou.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "alvo": "mapa",
-      "na": "Salvador"
+      "na": "votos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "BUK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "bloco": "promessa",
+   "say": "E o motivo dessa votação divide o mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "votação"
      }
     ]
    }
@@ -127,7 +134,27 @@
     "BUK:0:grin",
     "POV:0:smile"
    ],
-   "say": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
+   "mapa": "EL SALVADOR",
+   "text": "NAYIB BUKELE",
+   "titulo": true,
+   "bloco": "prova",
+   "say": "Em 2024, em El Salvador, Nayib Bukele tentou a reeleição.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:stern",
+    "POV:0:nervous"
+   ],
    "fx": [
     "stars@40"
    ],
@@ -135,25 +162,61 @@
     "ding@40"
    ],
    "set": "loc_cidade",
-   "encena": {
-    "sentido": "figurada",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "fala",
-      "na": "prometendo"
-     }
-    ]
-   },
    "quadro_manual": true,
    "shot_lock": true,
-   "cx": 0,
-   "cz": 0,
+   "cx": 0.0,
+   "cz": -0.4,
    "h": 1.6,
-   "d0": 11.0,
-   "d1": 10.0,
+   "d0": 8.0,
+   "d1": 6.5,
    "detalhe": false,
-   "vary": false
+   "text": "FIM DAS GANGUES",
+   "bloco": "prova",
+   "say": "Ele prometeu acabar com a violência das gangues.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prometeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "BUK:0:smug"
+   ],
+   "acao": "conversar",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   },
+   "text": "106 → 2,4",
+   "bloco": "prova",
+   "say": "Os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "grafico",
+      "na": "caíram"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -174,34 +237,21 @@
     ]
    ],
    "acao": "discutir",
-   "say": "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação.",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/scroll",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "alvo": "kit/scroll",
-      "na": "Constituição"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Acontece que a Constituição proibia reeleição seguida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "proibia"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -215,85 +265,75 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
    "set": "loc_patio",
    "batalha": false,
    "impact": false,
    "tiros": false,
    "interior": false,
+   "bloco": "escalada",
+   "say": "A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
+      "faz": "mostra",
       "na": "ilegal"
      }
     ]
    }
   },
   {
-   "shot": "crowd",
+   "shot": "wide",
    "who": [
-    "POV:0:grin",
-    "POV:1:smile"
+    "REP:0:suspicious:paper"
    ],
+   "acao": "discutir",
    "props": [
     [
-     "kit/ballot_box",
-     0.6,
-     1.0,
-     1.5,
+     "kit/prison",
+     0.0,
+     -12.0,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
-   "interacao": "entregar",
-   "say": "No dia da eleição, os salvadorenhos foram às urnas.",
-   "set": "loc_campo",
+   "fachada": false,
    "crowd": {
-    "n": 12,
+    "n": 14,
     "outfits": [
-     "POV"
+     "PRE"
     ],
-    "march": false
+    "march": false,
+    "expr": "sad"
    },
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano de multidao; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "crowd",
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 15.0,
+   "d1": 13.0,
+   "text": "PRISÕES EM MASSA",
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Grupos de direitos humanos criticaram as prisões em massa.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "alvo": "urna",
-      "na": "urnas"
+      "na": "criticaram"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
    "interior": false,
    "who": [
-    "REP:0:shock:paper",
-    "BUK:0:smug"
+    "BUK:0:laugh",
+    "REP:0:shock:paper"
    ],
    "fx": [
     "ring@20",
@@ -303,13 +343,16 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
-   "verbos_ok": [
-    "impre"
-   ],
    "set": "loc_cidade",
    "text": "84,6%",
    "titulo": true,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.3,
+   "d0": 7.0,
+   "d1": 5.5,
+   "bloco": "pagamento",
+   "say": "Mesmo assim, Bukele teve 84,6% dos votos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -324,191 +367,45 @@
   {
    "shot": "two",
    "who": [
-    "BUK:0:laugh"
-   ],
-   "batalha": false,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/porch",
-     0.0,
-     -4.5,
-     1.4
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "say": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
-   "light": "dusk",
-   "impact": false,
-   "set": "street",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "vence",
-      "na": "comemorou"
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "shot_lock": true,
-   "cx": 0,
-   "cz": -0.8,
-   "h": 1.6,
-   "d0": 8.0,
-   "d1": 7.0
-  },
-  {
-   "shot": "two",
-   "who": [
-    "REP:0:surprised:paper",
-    "BUK:0:smug"
-   ],
-   "acao": "conversar",
-   "say": "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes.",
-   "hud": {
-    "comparar": [
-     [
-      "2015",
-      106.3,
-      ""
-     ],
-     [
-      "2023",
-      2.4,
-      ""
-     ]
-    ]
-   },
-   "text": "106 → 2,4",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "alvo": "grafico",
-      "na": "caíram"
-     }
-    ]
-   }
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "REP:0:suspicious:paper"
-   ],
-   "acao": "discutir",
-   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
-   "props": [
-    [
-     "kit/prison",
-     0.0,
-     -23.3,
-     2.65,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/prison",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "alvo": "prisao",
-      "na": "prisões"
-     }
-    ]
-   },
-   "vary": false,
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
-  },
-  {
-   "shot": "group",
-   "who": [
-    "BUK:0:smile"
+    "BUK:0:laugh",
+    "POV:0:laugh"
    ],
    "props": [
     [
      "kit/ballot_box",
-     2.4,
-     0.2,
-     1.1,
+     0.0,
+     -1.2,
+     1.3,
      {
       "fixo": true
      }
     ]
    ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "loc_cidade",
    "acao": "comemorar",
-   "say": "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta.",
-   "quadro": {
-    "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/ballot_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
+   "text": "84,6%",
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Amado por muitos, criticado por outros. Você decide.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "populares"
+      "na": "decide"
      }
     ]
-   },
-   "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   }
   }
  ],
  "fontes": [
@@ -555,5 +452,7 @@
  },
  "cinf": 4.5,
  "exp": 1.12,
- "max_wide": 3
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: quase 85% dos votos e muita critica; o motivo da votacao divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
+ "loop_frase_ok": true
 }

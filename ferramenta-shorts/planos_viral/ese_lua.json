@@ -1,0 +1,12 @@
+{"gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: e se a Lua sumisse hoje; o pior viria devagar. Pagamento: noites escuras, mares mais fracos, eixo da Terra balancando e estacoes extremas; ela so se afasta 4 cm por ano.",
+ "cenas": [
+  [0, "gancho", "E se, hoje à noite, a Lua desaparecesse do céu?", "Lua"],
+  [6, "promessa", "O pior não viria na hora. Viria devagar.", "devagar"],
+  [1, "prova", "Primeiro, a escuridão: lua cheia, preta como uma caverna.", "escuridão"],
+  [2, "prova", "Depois, o mar: quem mais puxa as marés é a Lua.", "marés"],
+  [3, "prova", "Sem ela, as marés perderiam mais da metade da força.", "marés"],
+  [6, "escalada", "Acontece que a Lua mantém a Terra girando firme.", "girando"],
+  [7, "escalada", "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas.", "balançaria"],
+  [9, "pagamento", "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano.", "afasta"],
+  [10, "loop", "Hoje à noite, olha para cima e agradece.", "olha"]]}

@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: cavar ate a China nao da certo e o pulo no buraco nunca acabaria. Pagamento: centro a 6 mil km, quente como o Sol; cairia, sairia do outro lado em 40 minutos e voltaria para sempre.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um buraco até a China? Do Brasil, você sairia no meio do Pacífico.",
+   "buraco",
+   {}
+  ],
+  [
+   8,
+   "promessa",
+   "E o pulo nesse buraco nunca acabaria.",
+   "pulo"
+  ],
+  [
+   3,
+   "prova",
+   "O buraco mais fundo do mundo tem doze quilômetros, na Rússia.",
+   "buraco"
+  ],
+  [
+   3,
+   "prova",
+   "Lá embaixo, faz cento e oitenta graus.",
+   "graus"
+  ],
+  [
+   4,
+   "escalada",
+   "O centro da Terra fica a mais de seis mil quilômetros.",
+   "centro"
+  ],
+  [
+   4,
+   "escalada",
+   "E é quase tão quente quanto a superfície do Sol.",
+   "quente"
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, se você pulasse, cairia cada vez mais rápido.",
+   "pulasse",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "pulasse"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Sairia do outro lado em uns quarenta minutos.",
+   "Sairia"
+  ],
+  [
+   8,
+   "pagamento",
+   "Mas, sem ninguém para segurar, cairia de volta. Para sempre.",
+   "cairia",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "cairia"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Para ir ao Japão, a passagem ainda é o melhor caminho.",
+   "passagem"
+  ]
+ ]
+}

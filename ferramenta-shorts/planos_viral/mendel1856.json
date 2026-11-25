@@ -1,0 +1,76 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ERVILHAS = HERANÇA",
+ "gancho_cumprido": "Gancho: um monge contou ervilhas por oito anos e descobriu como herdamos o que somos. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae, a base da genetica.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um monge contando ervilhas descobriu a herança.",
+   "ervilhas"
+  ],
+  [
+   8,
+   "promessa",
+   "E ninguém acreditou nele enquanto estava vivo.",
+   "acreditou"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "cuidava"
+  ],
+  [
+   2,
+   "prova",
+   "Cruzou ervilhas amarelas com verdes e esperou os filhos.",
+   "cruzou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Todas saíram amarelas, como se o verde tivesse sumido.",
+   "amarelas"
+  ],
+  [
+   5,
+   "escalada",
+   "Ele plantou de novo e contou ervilha por ervilha, por anos.",
+   "contou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que o verde voltou: três amarelas para uma verde.",
+   "voltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Cada filho herda uma instrução do pai e outra da mãe.",
+   "herda"
+  ],
+  [
+   9,
+   "pagamento",
+   "Só depois da morte dele, cientistas viram que estava certo.",
+   "viram"
+  ],
+  [
+   0,
+   "loop",
+   "A ervilha fez o monge famoso. Tarde demais.",
+   "ervilha"
+  ]
+ ]
+}

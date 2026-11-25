@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: e se todo o dinheiro sumisse; em menos de um ano a gente inventaria outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "E se todo o dinheiro do mundo sumisse amanhã?",
+   "dinheiro"
+  ],
+  [
+   10,
+   "promessa",
+   "Em menos de um ano, a gente inventaria outro.",
+   "inventaria"
+  ],
+  [
+   1,
+   "prova",
+   "Na primeira manhã, você não teria como pagar o café.",
+   "pagar",
+   {
+    "encena": {
+     "sentido": "negativa",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "pagar"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   2,
+   "prova",
+   "A saída seria a troca: uma galinha por uma cesta de comida.",
+   "troca"
+  ],
+  [
+   3,
+   "escalada",
+   "Acontece que o padeiro pode não querer galinha.",
+   "querer"
+  ],
+  [
+   4,
+   "escalada",
+   "Na ilha de Yap, o dinheiro eram pedras gigantes.",
+   "pedras",
+   {
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Algumas nem saíam do lugar. Todos só lembravam quem era o dono.",
+   "lembravam"
+  ],
+  [
+   8,
+   "pagamento",
+   "Em prisões e guerras, quando o dinheiro some, inventam outro.",
+   "inventam",
+   {
+    "impact": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Dinheiro não é papel. É confiança entre as pessoas.",
+   "confiança",
+   {
+    "batalha": false,
+    "crowd": {
+     "n": 0
+    }
+   }
+  ],
+  [
+   0,
+   "loop",
+   "E se ele sumisse amanhã? Agora você sabe o que viria.",
+   "sumisse"
+  ]
+ ]
+}

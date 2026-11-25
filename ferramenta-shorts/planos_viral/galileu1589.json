@@ -1,0 +1,90 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "PESADO x LEVE",
+ "gancho_cumprido": "Gancho: coisa pesada nao cai mais rapido e ate uma pena deu razao a Galileu. Pagamento: as duas bolas cairam juntas em Pisa e, na Lua em 1971, martelo e pena cairam ao mesmo tempo.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Coisa pesada cai mais rápido? Galileu provou que não.",
+   "provou"
+  ],
+  [
+   8,
+   "promessa",
+   "E, séculos depois, até uma pena deu razão a ele.",
+   "pena",
+   {
+    "detalhe": true,
+    "shot": "two",
+    "props": [
+     [
+      "kit/ball",
+      1.6,
+      -0.6,
+      1.0,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Por volta de 1590, Galileu era um jovem professor em Pisa.",
+   "Galileu"
+  ],
+  [
+   2,
+   "prova",
+   "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai.",
+   "dizia"
+  ],
+  [
+   4,
+   "escalada",
+   "Dizem que Galileu levou duas bolas ao alto da torre de Pisa.",
+   "levou",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que as duas caíram no chão ao mesmo tempo.",
+   "caíram",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Hoje se discute se isso aconteceu mesmo.",
+   "discute"
+  ],
+  [
+   7,
+   "pagamento",
+   "Em 1971, na Lua, um astronauta soltou martelo e pena juntos.",
+   "soltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Os dois caíram exatamente ao mesmo tempo.",
+   "caíram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "loop",
+   "Até a pena deu razão ao Galileu.",
+   "pena"
+  ]
+ ]
+}

@@ -66,7 +66,6 @@
     "OHI:0:stern"
    ],
    "text": "1 FERIDO: CANIVETADA",
-   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
    "set": "countryside",
    "props": [
     [
@@ -91,15 +90,6 @@
    "tstyle": "red",
    "titulo": true,
    "detalhe": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "canivetada"
-     }
-    ]
-   },
    "cx": 0.6,
    "cz": -0.5,
    "d0": 11.0,
@@ -113,11 +103,37 @@
     "march": false,
     "expr": "stern"
    },
-   "lados": [
-    "OHI",
-    "MIC"
+   "quadro_manual": true,
+   "bloco": "gancho",
+   "say": "Dois estados americanos foram à guerra. O único ferido levou uma canivetada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canivetada"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOV:0:laugh:coin"
    ],
-   "quadro_manual": true
+   "hora": "dia",
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E quem perdeu a guerra acabou ficando rico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rico"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -126,7 +142,6 @@
     "MIC:1:stern"
    ],
    "mapa": "TOLEDO",
-   "say": "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
    "set": "countryside",
    "props": [
     [
@@ -142,32 +157,21 @@
    "text": "MAPA ERRADO",
    "tat": 15,
    "tstyle": "red",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/mapa_antigo",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "mapa"
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -175,15 +179,15 @@
     "GOV:0:grin:paper"
    ],
    "interior": "madeira",
-   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
    "text": "23 ANOS",
+   "bloco": "prova",
+   "say": "Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "mandou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "ocupou"
      }
     ]
    }
@@ -201,21 +205,19 @@
     ],
     "march": true
    },
-   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
-   "riscos_ok": true,
-   "sem_mortos": true,
    "tiros": false,
    "batalha": false,
    "impact": false,
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2,
+   "bloco": "prova",
+   "say": "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "fala",
-      "na": "respondeu",
+      "na": "frente",
       "quem": 0
      }
     ]
@@ -238,14 +240,14 @@
    },
    "text": "PARA O ALTO",
    "titulo": true,
-   "say": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
    "set": "countryside",
-   "sem_mortos": true,
-   "lados": [
-    "OHI",
-    "MIC"
-   ],
    "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -255,11 +257,7 @@
       "quem": 0
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -275,41 +273,8 @@
     "sting@60",
     "thump@55"
    ],
-   "say": "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.",
    "shot_lock": true,
    "interior": "madeira",
-   "moveis": [
-    [
-     "mk/Table_Large",
-     -6.6,
-     -1.6,
-     2.2
-    ],
-    [
-     "mk/Barrel",
-     6.8,
-     -2.8,
-     2.2
-    ],
-    [
-     "mk/Barrel_Apples",
-     7.6,
-     0.4,
-     2.0
-    ],
-    [
-     "mk/Mug",
-     -6.4,
-     -1.4,
-     2.0
-    ],
-    [
-     "mk/Bench",
-     5.0,
-     -3.2,
-     2.2
-    ]
-   ],
    "detalhe": true,
    "props": [
     [
@@ -325,61 +290,32 @@
     ]
    ],
    "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 9.5,
+   "d1": 8.5,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "A única baixa: um xerife esfaqueado com canivete numa taverna.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "espeta",
-      "na": "espetado",
+      "na": "esfaqueado",
       "quem": 0,
       "alvo_quem": 1
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.3,
-   "d0": 8.0,
-   "d1": 6.8,
-   "quadro_manual": true
-  },
-  {
-   "shot": "two",
-   "who": [
-    "GOV:0:nervous",
-    "OHI:0:grin:paper"
-   ],
-   "interior": "pedra",
-   "text": "ACORDO",
-   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.",
-   "susp_ok": true,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "mandou",
-      "quem": 0
      }
     ]
    }
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "OHI:1:grin",
     "MIC:1:pained",
     "GOV:0:nervous"
    ],
-   "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "floresta"
-     }
-    ]
-   },
    "set": "arctic",
    "props": [
     [
@@ -413,8 +349,20 @@
    "quadro_manual": true,
    "cx": 0.0,
    "cz": -0.5,
-   "d0": 10.0,
-   "d1": 8.5
+   "d0": 12.5,
+   "d1": 11.0,
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "levou"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -422,8 +370,6 @@
     "GOV:0:shock:coin",
     "MIC:0:grin"
    ],
-   "clima": "neve",
-   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
    "props": [
     [
      "kit/minerio",
@@ -440,45 +386,68 @@
    "tstyle": "gold",
    "titulo": true,
    "detalhe": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/minerio",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "cobre"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   }
   },
   {
-   "shot": "close",
+   "shot": "two",
    "who": [
-    "GOV:0:laugh:coin"
+    "OHI:0:stern"
    ],
-   "clima": "limpo",
-   "hora": "dia",
-   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
-   "interior": "madeira",
+   "text": "1 FERIDO: CANIVETADA",
+   "set": "countryside",
+   "props": [
+    [
+     "kit/canivete_aberto",
+     1.6,
+     0.6,
+     1.8,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@106",
+    "stars@110"
+   ],
+   "sfx": [
+    "sting@106"
+   ],
+   "tat": 12,
+   "tstyle": "red",
+   "titulo": true,
+   "detalhe": false,
+   "cx": 0.6,
+   "cz": -0.5,
+   "d0": 11.0,
+   "d1": 9.0,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "quadro_manual": true,
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "perde",
@@ -486,7 +455,9 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "bloco": "loop",
+   "say": "Michigan perdeu a guerra e ficou rico."
   }
  ],
  "heroi": "kit/canivete_aberto",
@@ -527,5 +498,7 @@
   "https://en.wikipedia.org/wiki/Toledo_War",
   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
  ],
- "max_wide": 4
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, ganhou a floresta gelada e debaixo dela havia cobre e ferro.",
+ "loop_frase_ok": true
 }

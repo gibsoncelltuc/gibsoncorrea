@@ -1,0 +1,102 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "CAVALO x NAVIO",
+ "gancho_cumprido": "Gancho: uma frota de navios caiu para soldados a cavalo sem tiro. Pagamento: o mar congelou, os hussardos cruzaram o gelo de noite e a frota inteira se rendeu.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Navio só se captura com navio? Esta frota caiu para soldados a cavalo.",
+   "cavalo"
+  ],
+  [
+   9,
+   "promessa",
+   "E nenhum dos lados precisou dar um tiro.",
+   "tiro",
+   {
+    "encena": {
+     "sentido": "negativa",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "tiro"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1795, a França invadia a Holanda num frio absurdo.",
+   "invadia",
+   {
+    "text": null,
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "chega",
+       "na": "invadia"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   2,
+   "prova",
+   "A frota holandesa estava parada, e o mar congelou em volta.",
+   "congelou",
+   {
+    "shot": "wide"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Os navios de guerra ficaram presos no gelo, sem sair do lugar.",
+   "presos"
+  ],
+  [
+   5,
+   "escalada",
+   "O chefe da cavalaria francesa teve uma ideia: atacar a cavalo.",
+   "ideia",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Mas ninguém sabia se o gelo aguentaria os cavalos.",
+   "gelo"
+  ],
+  [
+   7,
+   "escalada",
+   "De noite, os hussardos cruzaram o gelo com panos nos cascos.",
+   "cruzaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Acontece que os holandeses nem lutaram. A frota inteira se rendeu.",
+   "rendeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "No placar final: cavalaria um, marinha zero.",
+   "placar"
+  ]
+ ]
+}

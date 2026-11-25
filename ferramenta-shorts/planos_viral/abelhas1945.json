@@ -1,0 +1,76 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ABELHAS DANÇAM",
+ "gancho_cumprido": "Gancho: abelhas conversam dancando e a danca e' um mapa. Pagamento: voltinhas, o oito, o angulo do sol e a distancia; a descoberta deu o Nobel de 1973.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "O que ninguém te conta: abelhas conversam dançando.",
+   "dançando"
+  ],
+  [
+   1,
+   "promessa",
+   "E a dança delas é um mapa que leva até a comida.",
+   "mapa"
+  ],
+  [
+   2,
+   "prova",
+   "Karl von Frisch pôs água com açúcar longe da colmeia.",
+   "pôs"
+  ],
+  [
+   3,
+   "prova",
+   "A abelha que achava o açúcar voltava e dançava no favo.",
+   "dançava"
+  ],
+  [
+   4,
+   "prova",
+   "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
+   "oito",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "A parte maluca: o ângulo da dança aponta para o sol.",
+   "ângulo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Quanto mais rebola, mais longe está a comida.",
+   "rebola",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Cientistas riram: inseto com linguagem? Parecia piada.",
+   "riram"
+  ],
+  [
+   9,
+   "pagamento",
+   "Em 1973, a dança das abelhas deu a ele o Prêmio Nobel.",
+   "Nobel"
+  ],
+  [
+   0,
+   "loop",
+   "Viu uma abelha dançando? Lembre do que ninguém te conta.",
+   "abelha"
+  ]
+ ]
+}

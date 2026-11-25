@@ -1,0 +1,91 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "1 FLOR = 1 CASA",
+ "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo. Pagamento: no leilao de fevereiro ninguem comprou, os precos desabaram e quem trocou a casa ficou so com flores.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma única flor já custou o preço de uma casa.",
+   "flor"
+  ],
+  [
+   9,
+   "promessa",
+   "E quem pagou isso perdeu tudo em poucos dias.",
+   "perdeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1637, na Holanda, a tulipa era rara e estava na moda.",
+   "tulipa"
+  ],
+  [
+   2,
+   "prova",
+   "Num leilão, um bulbo saía por mil moedas. Depois, duas mil.",
+   "mil",
+   {
+    "encena_antiga": true,
+    "detalhe": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Logo, padeiros e sapateiros também queriam bulbos.",
+   "bulbos",
+   {
+    "encena_antiga": true,
+    "impact": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Contam que teve gente trocando casas por um único bulbo.",
+   "trocando",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Um marinheiro comeu um bulbo achando que era cebola.",
+   "comeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Acontece que, num leilão de fevereiro, ninguém levantou a mão.",
+   "levantou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Os preços desabaram. Quem trocou a casa ficou só com flores.",
+   "desabaram",
+   {
+    "encena_antiga": true,
+    "impact": true
+   }
+  ],
+  [
+   10,
+   "loop",
+   "O marinheiro, pelo menos, almoçou bem.",
+   "almoçou"
+  ]
+ ]
+}

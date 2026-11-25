@@ -37,7 +37,6 @@
  },
  "beats": [
   {
-   "say": "Um bilionário vendeu um lança-chamas e jurou que não era um lança-chamas.",
    "who": [
     "MUS:0:smug",
     "POV:0:shock"
@@ -78,16 +77,6 @@
     ]
    ],
    "set": "loc_cidade",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "bilionário"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.8,
    "d0": 9.5,
@@ -100,48 +89,70 @@
     "sting@30"
    ],
    "quadro_manual": true,
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/fire",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "bloco": "gancho",
+   "say": "Um bilionário vendeu lança-chamas dizendo que não era lança-chamas.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "bilionário"
+      "na": "vendeu"
      }
     ]
    },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "NÃO É LANÇA-CHAMAS",
+   "titulo": true
   },
   {
-   "say": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
+   "who": [
+    "MUS:0:laugh",
+    "POV:0:laugh"
+   ],
+   "shot": "two",
+   "props": [
+    [
+     "kit/extinguisher",
+     2.0,
+     -1.5,
+     1.4,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bancada",
+     -2.2,
+     -1.8,
+     1.6,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_cidade",
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.8,
+   "d0": 9.5,
+   "d1": 9.0,
+   "h": 1.6,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "bloco": "promessa",
+   "say": "E o motivo do nome é ainda mais esperto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nome"
+     }
+    ]
+   }
+  },
+  {
    "who": [
     "MUS:0:grin",
     "CMP:0:smile"
@@ -179,16 +190,6 @@
      }
     ]
    ],
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "dezoito"
-     }
-    ]
-   },
    "set": "loc_cidade",
    "text": "BORING COMPANY",
    "quadro_manual": true,
@@ -197,54 +198,20 @@
    "h": 2.2,
    "d0": 13.0,
    "d1": 11.0,
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tunel_boring",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa, lançaria um lança-chamas. Os bonés esgotaram.",
-   "who": [
-    "MUS:0:grin",
-    "POV:0:surprised"
-   ],
-   "shot": "two",
-   "set": "loc_cidade",
-   "text": "50 MIL BONÉS",
-   "verificador": false,
+   "mapa": "ESTADOS UNIDOS",
+   "bloco": "prova",
+   "say": "Em 2018, a Boring Company, de Elon Musk, lançou o aparelho.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Antes"
+      "na": "lançou"
      }
     ]
    }
   },
   {
-   "say": "O nome dele era Não é um lança-chamas, e custava quinhentos dólares.",
    "who": [
     "MUS:0:grin",
     "CMP:0:surprised"
@@ -274,16 +241,6 @@
     ]
    ],
    "interior": "loja",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "lança-chamas"
-     }
-    ]
-   },
    "detalhe": true,
    "cx": 0.0,
    "cz": -0.8,
@@ -300,24 +257,8 @@
     }
    },
    "quadro_manual": true,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "bloco": "prova",
+   "say": "O nome era Não é um lança-chamas. Custava quinhentos dólares.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -327,16 +268,9 @@
       "na": "lança-chamas"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "Acontece que o aparelho soltava fogo de verdade, e essa era a piada.",
    "who": [
     "MUS:0:laugh"
    ],
@@ -366,24 +300,13 @@
    ],
    "set": "loc_deserto",
    "impact": true,
-   "quadro": {
-    "local": "loc_deserto",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que ele soltava fogo de verdade.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -393,16 +316,9 @@
       "na": "Acontece"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
-   "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
    "who": [
     "MUS:0:smug",
     "CMP:0:stern"
@@ -429,25 +345,25 @@
     ]
    ],
    "interior": "loja",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "explicou"
-     }
-    ]
-   },
    "text": "ALFÂNDEGA",
    "quadro_manual": true,
    "cx": 0.0,
    "cz": -0.7,
    "d0": 9.5,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "O nome servia para driblar a alfândega, que barrava lança-chamas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "driblar"
+     }
+    ]
+   }
   },
   {
-   "say": "Cada compra vinha com um extintor de incêndio de brinde.",
    "who": [
     "CMP:0:grin",
     "POV:0:surprised"
@@ -466,44 +382,23 @@
     ]
    ],
    "interior": "loja",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/extinguisher",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "entrega",
-      "alvo_quem": 1,
-      "na": "compra",
-      "forcar": true
-     },
-     {
-      "quem": 1,
-      "faz": "pega",
-      "na": "brinde",
-      "forcar": true
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "E vinha com um extintor de incêndio junto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "extintor"
+     }
+    ]
+   }
   },
   {
-   "say": "Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.",
    "who": [
     "POV:0:shock",
     "POV:1:grin"
@@ -520,21 +415,19 @@
     "expr": "laugh"
    },
    "impact": true,
+   "bloco": "escalada",
+   "say": "Vinte mil unidades esgotaram em poucos dias.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "entrega",
-      "alvo_quem": 1,
-      "na": "venda",
-      "forcar": true
+      "faz": "mostra",
+      "na": "esgotaram"
      }
     ]
    }
   },
   {
-   "say": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
    "who": [
     "MUS:0:laugh",
     "CMP:0:laugh"
@@ -551,6 +444,9 @@
      "dur": 1.0
     }
    },
+   "acao": "comemorar",
+   "bloco": "pagamento",
+   "say": "Isso rendeu cerca de dez milhões de dólares.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -561,30 +457,20 @@
       "forcar": true
      }
     ]
-   },
-   "acao": "comemorar"
+   }
   },
   {
-   "say": "O próprio Musk postou vídeos soltando fogo com o aparelho.",
    "who": [
-    "MUS:0:laugh"
+    "MUS:0:smug",
+    "POV:0:shock"
    ],
-   "shot": "wide",
+   "shot": "two",
    "props": [
     [
-     "kit/phone",
-     3.6,
-     -2.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/bancada",
-     -3.6,
-     -2.0,
-     2.0,
+     0.0,
+     -1.2,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -592,127 +478,51 @@
     ],
     [
      "kit/flamethrower",
-     2.4,
-     0.2,
+     0.0,
+     -1.2,
      1.5,
      {
       "nocol": true,
-      "y": 0.55,
-      "fixo": true
-     }
-    ]
-   ],
-   "set": "loc_deserto",
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "quadro": {
-    "local": "loc_deserto",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "próprio"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
-  },
-  {
-   "say": "Um produto que se chamava de tudo, menos do que parecia.",
-   "who": [
-    "MUS:0:laugh",
-    "POV:0:laugh"
-   ],
-   "shot": "two",
-   "props": [
-    [
-     "kit/extinguisher",
-     2.0,
-     -1.5,
-     1.4,
-     {
-      "nocol": true,
+      "y": 0.95,
       "fixo": true
      }
     ],
     [
-     "kit/bancada",
-     -2.2,
-     -1.8,
+     "kit/fire",
      1.6,
+     -1.2,
+     0.9,
      {
       "nocol": true,
-      "fixo": true
+      "fixo": true,
+      "y": 0.9
      }
     ]
    ],
    "set": "loc_cidade",
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/extinguisher",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": true,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "produto"
-     }
-    ]
-   },
-   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.8,
    "d0": 9.5,
-   "d1": 9.0,
-   "h": 1.6,
+   "d1": 7.5,
+   "fx": [
+    "burst@30",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
    "quadro_manual": true,
-   "shot_lock": true
+   "bloco": "loop",
+   "say": "Um lança-chamas que jurava não ser lança-chamas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jurava"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,
@@ -752,5 +562,7 @@
    "produto": "Boring Company Not-A-Flamethrower 2018"
   }
  },
- "max_wide": 4
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
+ "loop_frase_ok": true
 }

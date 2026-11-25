@@ -1,0 +1,68 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "LET THAT SINK IN",
+ "gancho_cumprido": "Gancho: um bilionario entrou carregando uma pia na empresa que comprava e a pia era uma piada. Pagamento: sink e' pia e afundar; no dia seguinte fechou a compra do Twitter por 44 bilhoes e demitiu os chefes.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um bilionário entrou carregando uma pia na empresa que estava comprando.",
+   "carregando"
+  ],
+  [
+   8,
+   "promessa",
+   "E a pia era uma piada de 44 bilhões de dólares.",
+   "piada"
+  ],
+  [
+   1,
+   "prova",
+   "Foi Elon Musk, em 2022, na sede do Twitter.",
+   "Twitter"
+  ],
+  [
+   3,
+   "prova",
+   "A legenda era um trocadilho em inglês.",
+   "trocadilho"
+  ],
+  [
+   4,
+   "prova",
+   "Em inglês, sink quer dizer pia e também afundar.",
+   "sink",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.",
+   "bilhões",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "No mesmo dia, demitiu o presidente e outros chefes.",
+   "demitiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "E mudou o próprio perfil para Chefe Twit.",
+   "mudou"
+  ],
+  [
+   0,
+   "loop",
+   "Uma pia, um trocadilho e 44 bilhões de dólares.",
+   "pia"
+  ]
+ ]
+}

@@ -1,0 +1,485 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 18,
+ "title": "O Jogo de Tabuleiro do Trump",
+ "titulo_base": "O Jogo de Tabuleiro do Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/boardgame",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "EXE": {
+   "profissao": "empresario"
+  },
+  "PAI": {
+   "jacket": "#6a4a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "moustache": "#3a2a1f"
+  },
+  "FIL": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1f4fa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "EXE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1989",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Donald Trump lançou um jogo de tabuleiro com o próprio rosto no dinheiro.",
+   "verbos_ok": [
+    "lanco"
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Era mil novecentos e oitenta e nove, e ele era um empresário famoso de Nova York."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "EXE:0:grin:paper",
+    "TRU:0:smug"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Uma fábrica de brinquedos fez o jogo: comprar prédios, cassinos e hotéis até ficar o mais rico.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     2.4,
+     0.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "As notas eram de dez, cinquenta e cem milhões de dólares, com a cara do Trump.",
+   "acao": "comemorar",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "say": "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo.",
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     0.3,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caixa"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAI:0:suspicious:paper",
+    "FIL:0:bored"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "EXE:0:sad",
+    "EXE:1:nervous"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "800 MIL",
+   "titulo": true,
+   "say": "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil.",
+   "interior": "pedra"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "EXE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "say": "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.",
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "EXE:0:smile",
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     0.3,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogo"
+     }
+    ]
+   }
+  },
+  {
+   "say": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
+   "set": "street",
+   "shot": "crowd",
+   "who": [
+    "TRU:0:smug",
+    "POV:0:laugh",
+    "POV:1:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.96,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VOLTOU",
+   "titulo": true,
+   "impact": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Um jogo sobre ficar bilionário, que virou curiosidade.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/boardgame",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Trump:_The_Game",
+  "https://www.vox.com/2015/8/19/9176285/donald-trump-board-game"
+ ],
+ "max_wide": 3,
+ "visual": {
+  "local": "Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas de familia",
+  "quando": "1989 (lancamento) e 2004 (relancamento), dia",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha, anos 80)",
+   "executivos da Milton Bradley",
+   "familias jogando"
+  ],
+  "roupas": {
+   "TRU": "terno azul dos anos 80 e gravata vermelha",
+   "EXE": "terno cinza com ombreiras",
+   "PAI": "sueter dos anos 80",
+   "FIL": "camiseta colorida",
+   "POV": "roupa casual"
+  },
+  "cenario": "escritorio luxuoso com vista de Nova York, loja de brinquedos com prateleiras, sala de casa com mesa e o tabuleiro",
+  "objetos": [
+   "caixa do jogo Trump: The Game",
+   "notas de dinheiro com o rosto de Trump",
+   "tabuleiro"
+  ],
+  "explicacoes": [
+   "Trump: The Game (Milton Bradley, 1989) esperava vender 2 milhoes e vendeu cerca de 800 mil; relancado em 2004 pela Parker Brothers com o bordao \"You're fired\" de O Aprendiz (fonte: Wikipedia Trump: The Game)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Trump:_The_Game"
+  ],
+  "buscas": {
+   "jogo": "Trump The Game 1989 board game box"
+  }
+ }
+}

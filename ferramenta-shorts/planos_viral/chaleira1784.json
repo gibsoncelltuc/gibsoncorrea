@@ -1,0 +1,94 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma guerra inteira teve um unico tiro e acertou uma chaleira de sopa. Pagamento: o Dolfijn disparou, a bala destruiu a chaleira e o navio austriaco se rendeu.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma guerra inteira teve um único tiro. E acertou uma chaleira.",
+   "chaleira"
+  ],
+  [
+   6,
+   "promessa",
+   "E aquela chaleira estava cheia de sopa quente.",
+   "sopa",
+   {
+    "detalhe": true,
+    "impact": null,
+    "fx": null,
+    "sfx": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1784, a Holanda mantinha o rio Escalda fechado.",
+   "fechado"
+  ],
+  [
+   2,
+   "prova",
+   "O imperador José Segundo, da Áustria, queria o rio aberto.",
+   "queria"
+  ],
+  [
+   3,
+   "prova",
+   "Ele mandou três navios descerem o rio, achando que ninguém reagiria.",
+   "mandou"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que o navio holandês Dolfijn esperava e disparou um tiro.",
+   "disparou",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "atira",
+       "na": "disparou",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "A bala destruiu uma chaleira de sopa no convés.",
+   "destruiu",
+   {
+    "encena_antiga": true,
+    "detalhe": null
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "O navio austríaco se rendeu na hora, sem mais tiros.",
+   "rendeu",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "rende",
+       "na": "rendeu",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ],
+  [
+   9,
+   "loop",
+   "O único prejuízo do dia foi o almoço.",
+   "almoço"
+  ]
+ ]
+}

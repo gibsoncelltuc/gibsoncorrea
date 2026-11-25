@@ -1,0 +1,77 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "MOFO",
+ "gancho_cumprido": "Gancho: um mofo esquecido salvou milhoes de vidas por causa de uma mesa baguncada. Pagamento: o bolor matava as bacterias, virou a penicilina, salvou milhoes e deu o Nobel.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um mofo esquecido salvou milhões de vidas.",
+   "mofo"
+  ],
+  [
+   10,
+   "promessa",
+   "E tudo por causa de uma mesa bagunçada.",
+   "bagunçada"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1928, em Londres, trabalhava o cientista Alexander Fleming.",
+   "trabalhava",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Ele deixava os pratos de bactérias empilhados na bancada.",
+   "empilhados"
+  ],
+  [
+   3,
+   "prova",
+   "Saiu de férias por um mês e não limpou nada.",
+   "férias"
+  ],
+  [
+   4,
+   "escalada",
+   "Quando voltou, um prato estava coberto de bolor verde.",
+   "bolor"
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, em volta do mofo, as bactérias tinham sumido.",
+   "sumido"
+  ],
+  [
+   7,
+   "escalada",
+   "O mofo matava bactérias. Ele chamou isso de penicilina.",
+   "penicilina",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Virou remédio e salvou milhões de pessoas.",
+   "salvou"
+  ],
+  [
+   9,
+   "pagamento",
+   "Em 1945, Fleming ganhou o Nobel.",
+   "Nobel"
+  ],
+  [
+   0,
+   "loop",
+   "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.",
+   "bagunça"
+  ]
+ ]
+}

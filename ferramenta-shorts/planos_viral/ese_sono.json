@@ -1,0 +1,68 @@
+{
+ "gancho_tipo": "ganho",
+ "gancho_cumprido": "Gancho: nao dormir daria 25 anos a mais acordado, mas tem um preco. Pagamento: Randy Gardner ficou 11 dias acordado e via coisas; o cerebro faz faxina dormindo, sem sono a humanidade so ganharia sono.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "E se ninguém precisasse dormir? Você ganharia 25 anos acordado.",
+   "dormir"
+  ],
+  [
+   9,
+   "promessa",
+   "Mas o preço disso aparece em poucos dias.",
+   "preço"
+  ],
+  [
+   2,
+   "prova",
+   "Cidades funcionariam vinte e quatro horas por dia.",
+   "cidades"
+  ],
+  [
+   3,
+   "prova",
+   "Daria para aprender três línguas e ver todas as séries.",
+   "aprender"
+  ],
+  [
+   4,
+   "escalada",
+   "Em 1964, um estudante americano resolveu testar.",
+   "testar"
+  ],
+  [
+   5,
+   "escalada",
+   "Randy Gardner ficou onze dias seguidos acordado.",
+   "acordado"
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que ele esquecia palavras e via coisas que não existiam.",
+   "esquecia"
+  ],
+  [
+   7,
+   "pagamento",
+   "Dormindo, o cérebro faz uma faxina do que acumulou no dia.",
+   "faxina",
+   {
+    "hud": {
+     "passos": [
+      "DE DIA: O CÉREBRO ACUMULA LIXO",
+      "DORMINDO: FAZ A FAXINA"
+     ]
+    }
+   }
+  ],
+  [
+   10,
+   "loop",
+   "Se você está vendo isso de madrugada, vai dormir.",
+   "dormir"
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+{"gancho_tipo": "segredo", "texto_gancho": "38 MINUTOS",
+ "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de uma hora e os derrotados ainda pagaram a conta. Pagamento: ultimato, fogo as 9h02, bandeira caida perto das 9h40, novo sultao e a conta das balas.",
+ "cenas": [
+  [0, "gancho", "A guerra mais curta da história durou menos de uma hora.", "guerra"],
+  [10, "promessa", "E os derrotados ainda pagaram a conta.", "conta"],
+  [1, "prova", "Em 1896, em Zanzibar, uma ilha africana, o sultão morreu.", "morreu", {"encena_antiga": true}],
+  [2, "prova", "Um primo ocupou o palácio sem pedir licença aos ingleses.", "ocupou"],
+  [3, "prova", "Os ingleses deram até as nove da manhã para ele sair.", "deram"],
+  [4, "escalada", "Ele juntou quase três mil homens e se trancou lá dentro.", "trancou", {"encena_antiga": true}],
+  [5, "escalada", "Acontece que, às nove e dois, os navios ingleses abriram fogo.", "fogo", {"encena_antiga": true}],
+  [6, "escalada", "O palácio pegou fogo, e o primo fugiu.", "fugiu", {"encena_antiga": true}],
+  [8, "pagamento", "Por volta das nove e quarenta, a bandeira caiu.", "caiu", {"encena_antiga": true}],
+  [0, "loop", "E os ingleses mandaram a conta das balas para os derrotados.", "conta"]]}

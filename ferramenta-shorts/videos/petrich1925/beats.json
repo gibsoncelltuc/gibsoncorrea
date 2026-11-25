@@ -38,18 +38,273 @@
  },
  "beats": [
   {
-   "say": "Outubro de mil novecentos e vinte e cinco, na fronteira entre a Grécia e a Bulgária.",
+   "shot": "two",
+   "who": [
+    "GRE:0:shock"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.2,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um cachorro fugido quase começou uma guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fugido"
+     }
+    ]
+   },
+   "text": "GUERRA DO CACHORRO",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GRE:0:grin"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.0,
+     1.0,
+     "stand",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E até hoje ninguém sabe o que aconteceu com ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aconteceu"
+     }
+    ]
+   }
+  },
+  {
    "shot": "wide",
    "who": [
     "GRE:0:neutral",
     "BUL:0:neutral"
    ],
-   "text": "1925",
    "tat": 0,
-   "tstyle": "blue"
+   "tstyle": "blue",
+   "mapa": "GRÉCIA",
+   "bloco": "prova",
+   "say": "Em 1925, na fronteira entre a Grécia e a Bulgária.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fronteira"
+     }
+    ]
+   }
   },
   {
-   "say": "Conta a história que um soldado grego estava de guarda, e o cachorro dele fugiu para o outro lado da fronteira.",
+   "shot": "two",
+   "who": [
+    "GRE:0:shock"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.2,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "bloco": "prova",
+   "say": "Dizem que o cachorro de um soldado grego cruzou a fronteira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cruzou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "who": [
+    "GRE:0:nervous"
+   ],
+   "animals": [
+    [
+     "dog",
+     3.0,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "bloco": "prova",
+   "say": "O soldado correu atrás e cruzou a fronteira também.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "correu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUL:0:shock"
+   ],
+   "fx": [
+    "burst@50"
+   ],
+   "sfx": [
+    "gun@50"
+   ],
+   "bloco": "escalada",
+   "say": "Uma sentinela búlgara viu o soldado e atirou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atirou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "OFF:0:stern",
+    "GRE:1:stern",
+    "GRE:2:nervous"
+   ],
+   "text": "ULTIMATO",
+   "tat": 7,
+   "tstyle": "red",
+   "bloco": "escalada",
+   "say": "A Grécia ficou furiosa e deu um ultimato.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ultimato"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "who": [
+    "GRE:0:stern",
+    "GRE:1:stern",
+    "GRE:2:stern"
+   ],
+   "text": "INVASÃO",
+   "tat": 8,
+   "tstyle": "red",
+   "batalha": true,
+   "bloco": "escalada",
+   "say": "Dias depois, o exército grego invadiu a Bulgária.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "invadiu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUL:1:nervous",
+    "BUL:2:pained"
+   ],
+   "text": "LIGA DAS NAÇÕES",
+   "tat": 6,
+   "tstyle": "blue",
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "A Bulgária apelou para a Liga das Nações.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apelou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OFF:0:pained",
+    "GRE:1:nervous"
+   ],
+   "text": "INDENIZAÇÃO",
+   "tat": 10,
+   "tstyle": "gold",
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "A Grécia teve que recuar e pagar uma indenização.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "recuar"
+     }
+    ]
+   }
+  },
+  {
    "shot": "two",
    "who": [
     "GRE:0:shock"
@@ -65,110 +320,18 @@
    ],
    "text": "O CACHORRO FUGIU",
    "tat": 9,
-   "tstyle": "brown"
-  },
-  {
-   "say": "O soldado correu atrás do cachorro, e atravessou a fronteira.",
-   "shot": "track",
-   "who": [
-    "GRE:0:nervous"
-   ],
-   "animals": [
-    [
-     "dog",
-     3.0,
-     1.2,
-     "trot",
-     1.2
-    ]
-   ],
-   "move": 9
-  },
-  {
-   "say": "Uma sentinela búlgara viu o soldado, e atirou.",
-   "shot": "close",
-   "who": [
-    "BUL:0:shock"
-   ],
-   "fx": [
-    "burst@50"
-   ],
-   "sfx": [
-    "gun@50"
-   ],
-   "mood": "tense"
-  },
-  {
-   "say": "A Grécia ficou furiosa, e deu um ultimato.",
-   "shot": "group",
-   "who": [
-    "OFF:0:stern",
-    "GRE:1:stern",
-    "GRE:2:nervous"
-   ],
-   "text": "ULTIMATO",
-   "tat": 7,
-   "tstyle": "red",
-   "mood": "march"
-  },
-  {
-   "say": "Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich.",
-   "shot": "track",
-   "who": [
-    "GRE:0:stern",
-    "GRE:1:stern",
-    "GRE:2:stern"
-   ],
-   "text": "INVASÃO",
-   "tat": 8,
-   "tstyle": "red",
-   "move": 9,
-   "batalha": true
-  },
-  {
-   "say": "A Bulgária apelou para a Liga das Nações, o antecessor da ONU.",
-   "shot": "two",
-   "who": [
-    "BUL:1:nervous",
-    "BUL:2:pained"
-   ],
-   "text": "LIGA DAS NAÇÕES",
-   "tat": 6,
-   "tstyle": "blue",
-   "mood": "playful",
-   "interior": "pedra"
-  },
-  {
-   "say": "A Liga mandou a Grécia parar, retirar as tropas e pagar uma indenização.",
-   "shot": "two",
-   "who": [
-    "OFF:0:pained",
-    "GRE:1:nervous"
-   ],
-   "text": "INDENIZAÇÃO",
-   "tat": 10,
-   "tstyle": "gold",
-   "interior": "pedra"
-  },
-  {
-   "say": "A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.",
-   "shot": "close",
-   "who": [
-    "GRE:0:grin"
-   ],
-   "animals": [
-    [
-     "dog",
-     2.0,
-     1.0,
-     "stand",
-     1.2
-    ]
-   ],
-   "text": "E O CACHORRO?",
-   "tat": 9,
    "tstyle": "brown",
-   "mood": "playful"
+   "bloco": "loop",
+   "say": "Tudo por causa de um cachorro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   }
   }
  ],
  "heroi": "kit/dog_sit",
@@ -197,5 +360,11 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/Incident_at_Petrich"
   ]
- }
+ },
+ "serie": "Teste",
+ "ep": 26,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e ninguem sabe o que houve com ele. Pagamento: o soldado foi morto, a Grecia invadiu a Bulgaria, a Liga das Nacoes mandou recuar e pagar indenizacao.",
+ "loop_frase_ok": true,
+ "duplicado_de": "cachorro1925"
 }

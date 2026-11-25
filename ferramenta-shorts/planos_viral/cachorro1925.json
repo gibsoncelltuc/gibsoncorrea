@@ -1,0 +1,92 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DO CACHORRO",
+ "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e nem se sabe se ele existiu. Pagamento: soldado morto, invasao grega, a Liga das Nacoes mandou parar e a Grecia pagou indenizacao.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um cachorro perdido quase começou uma guerra.",
+   "cachorro",
+   {
+    "props": [
+     [
+      "kit/dog_sit",
+      0.0,
+      0.6,
+      1.0,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   8,
+   "promessa",
+   "E até hoje não se sabe nem se o cachorro existiu.",
+   "existiu"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1925, a fronteira entre Grécia e Bulgária estava tensa.",
+   "fronteira"
+  ],
+  [
+   2,
+   "prova",
+   "Dizem que um soldado grego cruzou a fronteira atrás do cachorro.",
+   "cruzou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "escalada",
+   "Soldados búlgaros atiraram, e o grego morreu.",
+   "atiraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "A Grécia deu quarenta e oito horas para a Bulgária pagar.",
+   "deu"
+  ],
+  [
+   5,
+   "escalada",
+   "Dias depois, vinte mil soldados gregos invadiram a Bulgária.",
+   "invadiram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "pagamento",
+   "A Bulgária apelou à Liga das Nações, a antecessora da ONU.",
+   "apelou"
+  ],
+  [
+   7,
+   "pagamento",
+   "A Liga mandou parar. A Grécia recuou e pagou indenização.",
+   "recuou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Tudo por um cachorro que talvez nem existisse.",
+   "cachorro"
+  ]
+ ]
+}

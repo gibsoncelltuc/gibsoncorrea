@@ -1,0 +1,13 @@
+{"gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: quase 85% dos votos e muita critica; o motivo da votacao divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
+ "cenas": [
+  [0, "gancho", "Um presidente teve quase 85% dos votos. E muita gente criticou.", "votos"],
+  [10, "promessa", "E o motivo dessa votação divide o mundo.", "votação"],
+  [1, "prova", "Em 2024, em El Salvador, Nayib Bukele tentou a reeleição.", "tentou"],
+  [2, "prova", "Ele prometeu acabar com a violência das gangues.", "prometeu"],
+  [8, "prova", "Os assassinatos caíram de 106 para 2,4 por cem mil.", "caíram", {"encena_antiga": true}],
+  [3, "escalada", "Acontece que a Constituição proibia reeleição seguida.", "proibia"],
+  [4, "escalada", "A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal.", "ilegal"],
+  [9, "escalada", "Grupos de direitos humanos criticaram as prisões em massa.", "criticaram"],
+  [6, "pagamento", "Mesmo assim, Bukele teve 84,6% dos votos.", "votos", {"encena_antiga": true}],
+  [0, "loop", "Amado por muitos, criticado por outros. Você decide.", "decide"]]}

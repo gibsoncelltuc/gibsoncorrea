@@ -42,7 +42,6 @@
  },
  "beats": [
   {
-   "say": "Uma barra de chocolate derretida no bolso inventou o forno de micro-ondas.",
    "shot": "two",
    "who": [
     "SPE:0:smile",
@@ -59,178 +58,25 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/microwave",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "say": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
-   "shot": "reveal",
-   "who": [
-    "ENG:0:neutral",
-    "ENG:1:smile"
-   ],
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "ENG",
-     "COL"
-    ],
-    "march": false
-   },
-   "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 2
-  },
-  {
-   "say": "Esses radares tinham uma peça potente, que mandava ondas invisíveis o dia inteiro.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "SPE:0:neutral",
-    "ENG:0:suspicious"
-   ],
-   "acao": "conversar"
-  },
-  {
-   "say": "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "ENG:0:neutral",
-    "SPE:0:smile"
-   ],
-   "chega": true
-  },
-  {
-   "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "ENG:0:surprised",
-    "SPE:0:shock"
-   ],
-   "interacao": "susto",
-   "detalhe": false
-  },
-  {
-   "say": "Spencer ficou curioso e perguntou o que mais aquelas ondas fariam.",
-   "shot": "close",
-   "who": [
-    "SPE:0:suspicious"
-   ]
-  },
-  {
-   "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "two",
-   "who": [
-    "SPE:0:laugh",
-    "ENG:0:shock"
-   ],
-   "impact": true,
-   "tiros": false,
-   "crowd": {
-    "n": 0
-   },
-   "fx": [
-    "stars@40",
-    "burst@60"
-   ],
-   "sfx": [
-    "sting@40",
-    "thump@60"
-   ],
-   "interior": "madeira",
-   "props": [
-    [
-     "kit/popcorn",
-     0.0,
-     -0.8,
-     1.2,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um chocolate derretido no bolso inventou o micro-ondas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
-     }
-    ]
-   ]
-  },
-  {
-   "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "two",
-   "interior": "madeira",
-   "who": [
-    "SPE:0:grin",
-    "COL:0:shock"
-   ],
-   "fx": [
-    "burst@50",
-    "puff@50"
-   ],
-   "sfx": [
-    "squeal@50"
-   ],
-   "impact": true,
-   "props": [
-    [
-     "kit/egg",
-     0.0,
-     -0.8,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ]
-  },
-  {
-   "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
-   "shot": "group",
-   "who": [
-    "SPE:0:smile",
-    "COL:0:surprised",
-    "ENG:0:shock"
-   ],
-   "props": [
-    [
-     "kit/microwave",
-     0.0,
-     -1.2,
-     2.6,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/microwave",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "chocolate"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "CHOCOLATE NO BOLSO",
+   "titulo": true
   },
   {
-   "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
    "shot": "two",
    "who": [
     "POV:0:smile",
@@ -262,14 +108,254 @@
       "fixo": true
      }
     ]
-   ]
+   ],
+   "bloco": "promessa",
+   "say": "E hoje ele está em quase toda cozinha.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cozinha"
+     }
+    ]
+   }
   },
   {
-   "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",
-   "shot": "close",
+   "shot": "reveal",
    "who": [
-    "SPE:0:smug"
-   ]
+    "ENG:0:neutral",
+    "ENG:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "ENG",
+     "COL"
+    ],
+    "march": false
+   },
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Por volta de 1945, Percy Spencer trabalhava com radares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Spencer"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "galpao",
+   "who": [
+    "SPE:0:neutral",
+    "ENG:0:suspicious"
+   ],
+   "acao": "conversar",
+   "bloco": "prova",
+   "say": "Uma peça do radar mandava ondas invisíveis o dia inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ondas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "galpao",
+   "who": [
+    "ENG:0:neutral",
+    "SPE:0:smile"
+   ],
+   "bloco": "prova",
+   "say": "Um dia, ele chegou perto dela com chocolate no bolso.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ENG:0:surprised",
+    "SPE:0:shock"
+   ],
+   "interacao": "susto",
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "derretido"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SPE:0:laugh",
+    "ENG:0:shock"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "stars@40",
+    "burst@60"
+   ],
+   "sfx": [
+    "sting@40",
+    "thump@60"
+   ],
+   "interior": "madeira",
+   "props": [
+    [
+     "kit/popcorn",
+     0.0,
+     -0.8,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Acontece que ele testou pipoca, e os grãos estouraram pela sala.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estouraram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SPE:0:grin",
+    "COL:0:shock"
+   ],
+   "fx": [
+    "burst@50",
+    "puff@50"
+   ],
+   "sfx": [
+    "squeal@50"
+   ],
+   "impact": true,
+   "props": [
+    [
+     "kit/egg",
+     0.0,
+     -0.8,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Depois testou um ovo, que explodiu na cara de um colega.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "explodiu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "SPE:0:smile",
+    "COL:0:surprised",
+    "ENG:0:shock"
+   ],
+   "props": [
+    [
+     "kit/microwave",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "O primeiro forno era mais alto que uma pessoa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "forno"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SPE:0:smile",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/microwave",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "O chocolate perdeu. Mas a pipoca agradece.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pipoca"
+     }
+    ]
+   }
   }
  ],
  "visual": {
@@ -306,5 +392,8 @@
    "forno": "Raytheon Radarange 1947",
    "lab": "Raytheon magnetron laboratory 1940s"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um chocolate derretido no bolso inventou o micro-ondas. Pagamento: o radar derreteu o chocolate, estourou pipoca e explodiu um ovo; virou o forno que hoje esquenta comida em um minuto.",
+ "loop_frase_ok": true
 }

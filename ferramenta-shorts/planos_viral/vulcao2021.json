@@ -1,0 +1,79 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "BITCOIN DE VULCÃO",
+ "gancho_cumprido": "Gancho: um presidente fabricou dinheiro digital com a energia de um vulcao e isso parece ficcao. Pagamento: o vapor do Tecapa gira turbinas, os computadores mineram e o governo contou quase 500 bitcoins do vulcao.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Ninguém te conta: um país fabrica dinheiro digital com um vulcão.",
+   "vulcão",
+   {
+    "text": null
+   }
+  ],
+  [
+   10,
+   "promessa",
+   "Parece ficção. Mas aconteceu de verdade.",
+   "ficção"
+  ],
+  [
+   2,
+   "prova",
+   "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador.",
+   "tornou",
+   {
+    "mapa": "EL SALVADOR"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Criar bitcoin novo exige computadores fazendo contas sem parar.",
+   "contas"
+  ],
+  [
+   4,
+   "escalada",
+   "Para isso, ele usou o calor do vulcão Tecapa.",
+   "usou"
+  ],
+  [
+   5,
+   "escalada",
+   "O vapor da terra gira turbinas e vira eletricidade.",
+   "gira",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, ao lado da usina, instalaram computadores só para isso.",
+   "instalaram"
+  ],
+  [
+   8,
+   "pagamento",
+   "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão.",
+   "bitcoins"
+  ],
+  [
+   9,
+   "pagamento",
+   "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "anunciou"
+  ],
+  [
+   0,
+   "loop",
+   "Dinheiro tirado de vulcão. E ninguém te conta isso.",
+   "vulcão",
+   {
+    "text": null
+   }
+  ]
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: e se a internet do mundo caisse por um dia; parece impossivel, mas pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais no papel e gente sem saber o que fazer com as maos.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "E se a internet do mundo inteiro caísse amanhã por um dia?",
+   "internet"
+  ],
+  [
+   1,
+   "promessa",
+   "Parece impossível. Mas pedaços disso já aconteceram.",
+   "aconteceram"
+  ],
+  [
+   2,
+   "prova",
+   "Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.",
+   "caíram"
+  ],
+  [
+   3,
+   "prova",
+   "Em 2024, uma atualização com defeito travou oito milhões de computadores.",
+   "travou"
+  ],
+  [
+   4,
+   "escalada",
+   "Sem internet, sem cartão: só dinheiro de papel.",
+   "papel"
+  ],
+  [
+   5,
+   "escalada",
+   "Hospitais e bancos voltariam para a caneta, com filas enormes.",
+   "filas"
+  ],
+  [
+   6,
+   "escalada",
+   "O mais estranho? Não saber o que fazer com as mãos.",
+   "mãos"
+  ],
+  [
+   7,
+   "pagamento",
+   "Gente conversando na rua, jogando bola, olhando para o céu.",
+   "conversando"
+  ],
+  [
+   8,
+   "pagamento",
+   "Pesquisadores dizem que, longe das telas, muita gente dorme melhor.",
+   "dorme"
+  ],
+  [
+   10,
+   "loop",
+   "Você aguentaria um dia? Responde enquanto ainda tem internet.",
+   "internet"
+  ]
+ ]
+}

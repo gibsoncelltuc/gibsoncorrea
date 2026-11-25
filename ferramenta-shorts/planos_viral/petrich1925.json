@@ -1,0 +1,117 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DO CACHORRO",
+ "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e ninguem sabe o que houve com ele. Pagamento: o soldado foi morto, a Grecia invadiu a Bulgaria, a Liga das Nacoes mandou recuar e pagar indenizacao.",
+ "cenas": [
+  [
+   1,
+   "gancho",
+   "Ninguém te conta: um cachorro fugido quase começou uma guerra.",
+   "fugido",
+   {
+    "text": null,
+    "props": [
+     [
+      "kit/dog_sit",
+      1.6,
+      -0.6,
+      1.0,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   8,
+   "promessa",
+   "E até hoje ninguém sabe o que aconteceu com ele.",
+   "aconteceu",
+   {
+    "text": null,
+    "props": [
+     [
+      "kit/dog_sit",
+      1.6,
+      -0.6,
+      1.0,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   0,
+   "prova",
+   "Em 1925, na fronteira entre a Grécia e a Bulgária.",
+   "fronteira",
+   {
+    "text": null,
+    "mapa": "GRÉCIA"
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Dizem que o cachorro de um soldado grego cruzou a fronteira.",
+   "cruzou",
+   {
+    "text": null
+   }
+  ],
+  [
+   2,
+   "prova",
+   "O soldado correu atrás e cruzou a fronteira também.",
+   "correu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "escalada",
+   "Uma sentinela búlgara viu o soldado e atirou.",
+   "atirou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "A Grécia ficou furiosa e deu um ultimato.",
+   "ultimato"
+  ],
+  [
+   5,
+   "escalada",
+   "Dias depois, o exército grego invadiu a Bulgária.",
+   "invadiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "pagamento",
+   "A Bulgária apelou para a Liga das Nações.",
+   "apelou"
+  ],
+  [
+   7,
+   "pagamento",
+   "A Grécia teve que recuar e pagar uma indenização.",
+   "recuar"
+  ],
+  [
+   1,
+   "loop",
+   "Tudo por causa de um cachorro.",
+   "cachorro"
+  ]
+ ]
+}

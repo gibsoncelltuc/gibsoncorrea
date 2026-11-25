@@ -57,7 +57,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um país pequeno decidiu virar a capital mundial do surfe.",
    "shot": "two",
    "who": [
     "BUK:0:smug"
@@ -73,42 +72,66 @@
      }
     ]
    ],
-   "mapa": "EL SALVADOR",
    "mapa_at": 1,
    "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "pequeno"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "gancho",
+   "say": "Um país pequeno decidiu virar a capital mundial do surfe.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "surfe"
+     }
+    ]
+   },
+   "text": "SURF CITY",
+   "titulo": true
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em dois mil e dezenove, o presidente Nayib Bukele lançou a Surf City, para mostrar ao mundo praias como Punta Roca e El Sunzal.",
+   "shot": "two",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/surfboard",
+     2.4,
+     0.2,
+     0.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E os surfistas do mundo inteiro foram atrás.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "surfistas"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
    "shot": "two",
    "who": [
     "BUK:0:grin",
@@ -126,39 +149,27 @@
     ]
    ],
    "set": "harbor",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "dezenove"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "mapa": "EL SALVADOR",
+   "bloco": "prova",
+   "say": "Em 2019, Nayib Bukele lançou a Surf City em El Salvador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lançou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Em dois mil e vinte e um, o país sediou o Mundial de Surfe, com duzentos e cinquenta e sete atletas.",
    "shot": "crowd",
    "who": [
     "BUK:0:grin"
@@ -197,58 +208,40 @@
     ]
    ],
    "set": "harbor",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "crowd",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "vinte"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Em 2021, o país sediou o Mundial de Surfe.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sediou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Aquele evento valeu vaga para as Olimpíadas de Tóquio, e as praias viraram manchete.",
    "shot": "two",
    "who": [
     "JOR:0:shock",
     "JOR2:0:laugh"
    ],
    "set": "street",
+   "bloco": "escalada",
+   "say": "O evento valia vaga para as Olimpíadas de Tóquio.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Aquele"
+      "na": "vaga"
      }
     ]
    }
@@ -257,7 +250,6 @@
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Em dois mil e vinte e três, vieram duzentos e noventa e quatro competidores, de olho em Paris.",
    "shot": "crowd",
    "who": [
     "BUK:0:smug"
@@ -296,45 +288,26 @@
     ]
    ],
    "set": "harbor",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "crowd",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "vinte"
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Em 2023, vieram 294 competidores, de olho em Paris.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vieram"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "O governo estimou quinhentos mil empregos em dez anos, mas é uma projeção oficial, não uma auditoria.",
    "shot": "two",
    "who": [
     "BUK:0:grin",
@@ -353,39 +326,26 @@
     ]
    ],
    "interior": "loja",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "governo"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "O governo promete quinhentos mil empregos, sem garantia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "promete"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Críticos dizem que o projeto na costa preocupa moradores e ambientalistas.",
    "shot": "group",
    "who": [
     "JOR:0:worried",
@@ -394,13 +354,14 @@
    ],
    "set": "harbor",
    "interacao": "discutir",
+   "bloco": "pagamento",
+   "say": "Acontece que moradores e ambientalistas se preocupam com a costa.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Críticos"
+      "na": "preocupam"
      }
     ]
    }
@@ -409,31 +370,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A Surf City dois leva o projeto para o leste do país.",
-   "shot": "two",
-   "who": [
-    "BUK:0:grin",
-    "JOR:0:shock"
-   ],
-   "mapa": "EL SALVADOR",
-   "mapa_at": 1,
-   "set": "countryside",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "projeto"
-     }
-    ]
-   }
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Em dois mil e vinte e cinco, o Mundial voltou a La Bocana e El Sunzal.",
    "shot": "group",
    "who": [
     "BUK:0:laugh",
@@ -452,39 +388,26 @@
     ]
    ],
    "set": "harbor",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e surfboard juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "group",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "vinte"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Em 2025, o Mundial voltou para lá.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Entre números otimistas e dúvidas, uma coisa é certa: El Salvador virou assunto entre surfistas.",
    "shot": "two",
    "who": [
     "BUK:0:smug"
@@ -500,34 +423,23 @@
      }
     ]
    ],
-   "set": "street",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e surfboard juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/surfboard",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Entre"
-     }
-    ]
-   },
+   "mapa_at": 1,
+   "interior": "pedra",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "bloco": "loop",
+   "say": "Capital do surfe ou promessa grande demais? Você decide.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "decide"
+     }
+    ]
+   }
   }
  ],
  "fontes": [
@@ -573,5 +485,8 @@
    "praia": "El Sunzal surf El Salvador",
    "evento": "ISA World Surfing Games 2021 El Salvador"
   }
- }
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um pais pequeno decidiu virar a capital mundial do surfe e os surfistas foram atras. Pagamento: Mundiais de 2021, 2023 e 2025, vagas olimpicas; promessa de empregos e criticas de moradores.",
+ "loop_frase_ok": true
 }

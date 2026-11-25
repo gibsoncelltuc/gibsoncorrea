@@ -1,0 +1,84 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "MORTE BRANCA",
+ "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido da guerra, com apelido dado pelos inimigos. Pagamento: mais de 500 abatidos em cem dias e o apelido Morte Branca.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
+   "temido",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "promessa",
+   "Os inimigos tinham tanto medo que deram um apelido a ele.",
+   "apelido",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "No inverno de 1939, a União Soviética invadiu a Finlândia.",
+   "invadiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Fazia quarenta graus abaixo de zero na floresta.",
+   "quarenta",
+   {
+    "encena_antiga": true,
+    "mapa": null,
+    "text": null
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Um soldado do campo, baixinho, se chamava Simo Häyhä.",
+   "Simo"
+  ],
+  [
+   4,
+   "escalada",
+   "Vestido de branco, ele esperava imóvel na neve por horas.",
+   "esperava"
+  ],
+  [
+   5,
+   "escalada",
+   "Dizem que punha neve na boca para o vapor não aparecer.",
+   "neve"
+  ],
+  [
+   6,
+   "escalada",
+   "Em cerca de cem dias, contam mais de quinhentos abatidos por ele.",
+   "abatidos",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Os soviéticos o chamavam de Morte Branca.",
+   "Morte"
+  ],
+  [
+   9,
+   "loop",
+   "Viveu até 96 anos e dizia: só fiz meu trabalho.",
+   "trabalho"
+  ]
+ ]
+}

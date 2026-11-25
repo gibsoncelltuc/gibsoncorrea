@@ -1,0 +1,84 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DOS BOLOS",
+ "gancho_cumprido": "Gancho: a Franca atacou o Mexico por causa de bolos e a conta nunca foi paga. Pagamento: bombardeio, Veracruz tomada, o Mexico promete pagar em 1839.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "A França foi à guerra contra o México por causa de bolos.",
+   "bolos",
+   {
+    "encena": {
+     "sentido": "fato",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "bolos"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E a conta nunca foi paga.",
+   "conta"
+  ],
+  [
+   1,
+   "prova",
+   "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "loja"
+  ],
+  [
+   2,
+   "prova",
+   "Em 1832, oficiais mexicanos saquearam a loja, segundo o confeiteiro.",
+   "saquearam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Ele pediu sessenta mil pesos. A loja valia menos de mil.",
+   "pediu"
+  ],
+  [
+   4,
+   "escalada",
+   "A França exigiu seiscentos mil pesos. O México recusou.",
+   "exigiu"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a França mandou navios de guerra e fechou os portos.",
+   "mandou"
+  ],
+  [
+   6,
+   "escalada",
+   "Canhões franceses bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "bombardearam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Em 1839, o México prometeu pagar, e a França foi embora.",
+   "prometeu"
+  ],
+  [
+   0,
+   "loop",
+   "Tudo por uma conta de bolos.",
+   "bolos"
+  ]
+ ]
+}

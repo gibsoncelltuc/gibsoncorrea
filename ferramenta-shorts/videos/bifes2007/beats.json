@@ -72,7 +72,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Um bilionário colocou o próprio nome num bife, e ele sumiu em dois meses.",
    "shot": "two",
    "who": [
     "TRU:0:grin",
@@ -89,104 +88,104 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steak",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "set": "loc_cidade",
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "bilionário"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "set": "loc_cidade",
+   "bloco": "gancho",
+   "say": "Nome famoso garante sucesso? O bife do Trump sumiu em dois meses.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sumiu"
+     }
+    ]
+   },
+   "text": "TRUMP STEAKS",
+   "titulo": true
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Em dois mil e sete, Donald Trump lançou a Trump Steaks, vendida na loja Sharper Image a partir de oito de maio.",
    "shot": "two",
    "who": [
-    "TRU:0:smug"
+    "VEN:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E o resultado foi bem menor do que se imaginava.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "resultado"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "VEN:0:grin"
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 1,
    "props": [
     [
      "kit/steak",
-     2.4,
-     0.2,
-     1.5,
+     0.0,
+     -1.2,
+     1.2,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steak",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "interior": "loja",
-   "_enq_shot": "two",
+   "bloco": "prova",
+   "say": "Em 2007, Trump lançou a Trump Steaks, bifes com o nome dele.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Donald"
-     },
-     {
-      "quem": 0,
-      "faz": "entrega",
-      "na": "vendida",
-      "forcar": true,
-      "alvo_quem": 1
+      "na": "lançou"
      }
     ]
-   },
-   "fx": [
-    "stars@30"
-   ],
-   "sfx": [
-    "ding@30"
-   ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Os pacotes custavam de cento e noventa e nove a novecentos e noventa e nove dólares, com bifes e hambúrgueres.",
    "shot": "group",
    "who": [
     "VEN:0:grin",
@@ -201,13 +200,14 @@
     "ding@40"
    ],
    "interior": "pedra",
+   "bloco": "prova",
+   "say": "Os pacotes custavam até novecentos e noventa e nove dólares.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "pacotes"
+      "na": "custavam"
      }
     ]
    }
@@ -216,7 +216,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Acontece que a loja deixou de oferecer os bifes em julho, cerca de dois meses depois.",
    "shot": "two",
    "who": [
     "VEN:0:worried",
@@ -227,46 +226,33 @@
      "kit/steak",
      0.0,
      -1.2,
-     1.5,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steak",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "interior": "loja",
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Acontece"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "Acontece que, em julho, a loja já não oferecia os bifes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "loja"
+     }
+    ]
+   }
   },
   {
    "tiros": false,
    "batalha": false,
    "impact": true,
-   "say": "Uma reportagem estimou que as vendas totais nunca passaram de cinquenta mil dólares.",
    "shot": "two",
    "who": [
     "TRU:0:sad",
@@ -283,20 +269,14 @@
     "thump@40"
    ],
    "set": "loc_cidade",
+   "bloco": "escalada",
+   "say": "Uma reportagem estimou menos de cinquenta mil dólares no total.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "reportagem"
-     },
-     {
-      "quem": 0,
-      "faz": "entrega",
-      "na": "vendas",
-      "forcar": true,
-      "alvo_quem": 1
+      "na": "estimou"
      }
     ]
    }
@@ -305,70 +285,20 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "A marca também apareceu na QVC, um canal de televisão.",
-   "shot": "two",
-   "who": [
-    "TRU:0:smug",
-    "VEN:0:laugh"
-   ],
-   "interior": "madeira",
-   "props": [
-    [
-     "kit/tv",
-     0.0,
-     -1.2,
-     1.2,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "marca"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Segundo registros, a marca registrada foi cancelada em dois mil e catorze.",
    "shot": "two",
    "who": [
     "CLI:0:suspicious",
     "VEN:0:stern"
    ],
    "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Em 2014, a marca registrada foi cancelada.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Segundo"
+      "na": "cancelada"
      }
     ]
    }
@@ -377,7 +307,6 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Mesmo assim, os bifes continuaram sendo servidos em hotéis do grupo Trump.",
    "shot": "two",
    "who": [
     "TRU:0:laugh",
@@ -388,59 +317,25 @@
      "kit/steak",
      0.0,
      -1.2,
-     1.5,
+     1.3,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steak",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "interior": "madeira",
-   "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Mesmo"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "say": "Em resumo, a carne saiu da loja depressa, mas o nome ficou no cardápio.",
-   "shot": "two",
-   "who": [
-    "TRU:0:grin",
-    "CLI:0:laugh"
-   ],
-   "set": "loc_cidade",
+   "d1": 11.5,
+   "interior": "madeira",
+   "bloco": "pagamento",
+   "say": "Mesmo assim, os bifes seguiram no cardápio dos hotéis dele.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "resumo"
+      "na": "cardápio"
      }
     ]
    }
@@ -449,51 +344,38 @@
    "tiros": false,
    "batalha": false,
    "impact": false,
-   "say": "Moral da história: nem todo produto com nome famoso dura mais que uma promoção.",
    "shot": "two",
    "who": [
-    "VEN:0:laugh"
+    "TRU:0:grin",
+    "VEN:0:smug"
    ],
    "props": [
     [
      "kit/steak",
-     2.4,
-     0.2,
-     2.0,
+     0.0,
+     -1.2,
+     1.3,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e steak juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/steak",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "interior": "madeira",
-   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade",
+   "bloco": "loop",
+   "say": "Nem todo nome famoso dura mais que uma promoção.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "Moral"
+      "na": "nome"
      }
     ]
-   },
-   "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "exp": 1.0,
@@ -540,5 +422,8 @@
    "bife": "Trump Steaks Sharper Image 2007",
    "loja": "Sharper Image store 2007"
   }
- }
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: nome famoso nao vende sozinho; o bife de Trump sumiu em dois meses. Pagamento: saiu da loja em julho, vendeu menos de 50 mil dolares e a marca foi cancelada em 2014.",
+ "loop_frase_ok": true
 }

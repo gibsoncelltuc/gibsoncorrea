@@ -45,7 +45,6 @@
  },
  "beats": [
   {
-   "say": "Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.",
    "shot": "two",
    "who": [
     "DAR:0:smile",
@@ -73,6 +72,16 @@
      }
     ]
    ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 12.5,
+   "d1": 11.0,
+   "h": 2.0,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: Darwin misturou as etiquetas de uns passarinhos.",
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -82,33 +91,58 @@
      }
     ]
    },
+   "text": "ERRO DE ETIQUETA",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "DAR:0:smug"
+   ],
+   "props": [
+    [
+     "kit/finch",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bancada",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "countryside",
+   "detalhe": true,
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 7.5,
-   "d1": 6.5,
-   "h": 1.6,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
-    "objetos": [
+   "cz": -0.5,
+   "d0": 9.0,
+   "d1": 7.5,
+   "h": 2.0,
+   "shot_lock": true,
+   "bloco": "promessa",
+   "say": "E esse erro explicou como a vida muda na Terra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "erro"
      }
     ]
    }
   },
   {
-   "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
    "shot": "wide",
    "who": [
     "MAR:0:neutral"
@@ -137,38 +171,26 @@
    "tela": false,
    "fachada": false,
    "detalhe": false,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "chega",
-      "na": "chegou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -14.0,
    "h": 4.5,
    "d0": 34.0,
    "d1": 30.0,
    "quadro_manual": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Em 1835, Darwin chegou às ilhas Galápagos, no navio Beagle.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/navio_fragata",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "chegando"
+      "faz": "mostra",
+      "na": "chegou"
      }
     ]
-   },
-   "shot_lock": true
+   }
   },
   {
-   "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
    "shot": "wide",
    "who": [
     "DAR:0:neutral:bag",
@@ -194,72 +216,41 @@
       "nocol": true,
       "fixo": true
      }
+    ],
+    [
+     "kit/navio_fragata",
+     -8.0,
+     -34.0,
+     7.65,
+     {
+      "fixo": true
+     }
     ]
    ],
    "set": "harbor",
    "objetos": null,
    "fachada": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pega",
-      "na": "Coletou",
-      "quem": 0
-     }
-    ]
-   },
    "detalhe": false,
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 7.5,
-   "d1": 6.5,
-   "h": 1.6,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
-  },
-  {
-   "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
-   "shot": "two",
-   "who": [
-    "DAR:0:suspicious:paper",
-    "MAR:0:bored"
-   ],
-   "acao": "conversar",
-   "set": "harbor",
-   "_auto_vis": 0,
-   "objetos": null,
-   "fachada": false,
+   "cz": -0.5,
+   "d0": 10.5,
+   "d1": 9.0,
+   "h": 2.0,
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Coletou passarinhos de ilha em ilha, sem anotar de onde vinham.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "olha",
-      "na": "Achou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "coletou"
      }
     ]
    }
   },
   {
-   "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
    "shot": "group",
    "interior": "pedra",
    "who": [
@@ -288,45 +279,27 @@
      }
     ]
    ],
-   "_susp_ok": true,
+   "detalhe": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 9.0,
+   "d1": 7.5,
+   "h": 2.0,
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Em Londres, John Gould revelou: eram todos tentilhões.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "revelou",
-      "quem": 1
-     }
-    ]
-   },
-   "detalhe": true,
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 7.5,
-   "d1": 6.5,
-   "h": 1.6,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "revelou"
      }
     ]
    }
   },
   {
-   "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -373,55 +346,27 @@
     "thump@40",
     "ding@60"
    ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 10.5,
+   "d1": 9.0,
+   "h": 2.0,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "A diferença estava no bico: grosso para sementes, fino para insetos.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "bico"
-     },
-     {
-      "faz": "quebra",
-      "alvo": "kit/finch_thick",
-      "na": "quebrar"
-     }
-    ]
-   },
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 6.5,
-   "d1": 5.5,
-   "h": 1.6,
-   "shot_lock": true,
-   "detalhe": false,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch_thick",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/finch_long",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
   },
   {
-   "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
    "shot": "two",
    "who": [
     "DAR:0:shock",
@@ -486,6 +431,15 @@
    "detalhe": false,
    "objetos": null,
    "fachada": false,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 10.5,
+   "d1": 9.0,
+   "quadro_manual": true,
+   "h": 2.0,
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Acontece que cada ilha tinha o bico certo para a sua comida.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -494,47 +448,9 @@
       "na": "bico"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 6.5,
-   "d1": 5.5,
-   "quadro_manual": true,
-   "h": 1.6,
-   "shot_lock": true,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/finch_thick",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/finch_long",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
-   "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
    "shot": "group",
    "interior": "madeira",
    "who": [
@@ -563,43 +479,27 @@
      }
     ]
    ],
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "bichos"
-     }
-    ]
-   },
    "detalhe": true,
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 7.5,
-   "d1": 6.5,
-   "h": 1.6,
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch_thick juntos (camera a 8.0 m)",
-    "objetos": [
+   "cz": -0.5,
+   "d0": 9.0,
+   "d1": 7.5,
+   "h": 2.0,
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Quem tinha o bico certo sobrevivia e passava isso aos filhos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/finch_thick",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "sobrevivia"
      }
     ]
    }
   },
   {
-   "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -607,22 +507,33 @@
     "GOU:0:laugh"
    ],
    "acao": "comemorar",
+   "impact": true,
+   "shot_lock": true,
+   "fx": [
+    "stars@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "text": "SELEÇÃO NATURAL",
+   "bloco": "pagamento",
+   "say": "Em 1859, essa ideia virou a seleção natural.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pensa",
-      "na": "ideia",
-      "quem": 0
+      "faz": "mostra",
+      "na": "seleção"
      }
     ]
    }
   },
   {
-   "say": "No fim, o erro das etiquetas virou um acerto de bico.",
    "shot": "two",
    "who": [
-    "DAR:0:smug"
+    "DAR:0:smile",
+    "MAR:0:surprised"
    ],
    "props": [
     [
@@ -646,38 +557,22 @@
      }
     ]
    ],
-   "set": "countryside",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 12.5,
+   "d1": 11.0,
+   "h": 2.0,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "loop",
+   "say": "Tudo começou com etiquetas trocadas. É isso que ninguém te conta.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "etiquetas"
-     }
-    ]
-   },
-   "detalhe": true,
-   "quadro_manual": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 7.5,
-   "d1": 6.5,
-   "h": 1.6,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -718,5 +613,7 @@
  "objetos_do_video": {
   "\\bnavio\\b|beagle": "kit/navio_fragata"
  },
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Darwin misturou as etiquetas dos passarinhos e isso explicou como a vida muda. Pagamento: Gould mostrou que eram tentilhoes com bicos diferentes por ilha, e isso virou a selecao natural em 1859.",
+ "loop_frase_ok": true
 }

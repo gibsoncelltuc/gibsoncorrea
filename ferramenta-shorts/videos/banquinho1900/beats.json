@@ -66,36 +66,59 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Um governador inglês pediu para sentar num banquinho, e isso começou uma guerra.",
    "set": "countryside",
    "detalhe": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/golden_stool",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "pediu",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_enq_shot": "two"
+   "bloco": "gancho",
+   "say": "Ninguém te conta: sentar num banquinho começou uma guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "banquinho"
+     }
+    ]
+   },
+   "text": "BANQUINHO = GUERRA",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "set": "countryside",
+   "who": [
+    "GOV:0:sad"
+   ],
+   "props": [
+    [
+     "kit/golden_stool",
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E quem pediu para sentar nunca conseguiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sentar"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -113,19 +136,20 @@
    },
    "mapa": "GANA",
    "mapa_at": 3,
-   "say": "Era mil e novecentos, e os ingleses mandavam na Costa do Ouro, hoje Gana, terra do povo ashanti.",
    "fx": [
     "puff@70"
    ],
    "sfx": [
     "thump@70"
    ],
+   "bloco": "prova",
+   "say": "Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Gana"
+      "na": "mandavam"
      }
     ]
    }
@@ -148,21 +172,8 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Os ashanti tinham um banquinho dourado sagrado, a alma do povo. Nem o rei sentava nele.",
    "set": "countryside",
    "detalhe": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/golden_stool",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "crowd": {
     "n": 12,
     "outfits": [
@@ -171,7 +182,12 @@
     ],
     "march": false
    },
-   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -180,22 +196,32 @@
       "na": "banquinho"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   }
   },
   {
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "GOV:0:angry:paper",
-    "CHE:0:scared"
+    "GOV:0:angry:paper"
    ],
    "interacao": "empurrar",
-   "say": "Acontece que o governador inglês exigiu o banquinho: \"Por que eu ainda não estou sentado nele?\"",
+   "props": [
+    [
+     "kit/golden_stool",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "O governador inglês exigiu sentar no banquinho.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -215,13 +241,14 @@
     "ASH:0:angry"
    ],
    "interacao": "susto",
-   "say": "Os líderes ashanti ficaram em choque, porque isso era como pedir para sentar na alma deles.",
+   "bloco": "escalada",
+   "say": "Para os ashanti, era como sentar na alma do povo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "choque"
+      "na": "alma"
      }
     ]
    }
@@ -255,22 +282,16 @@
    ],
    "text": "FORTE CERCADO",
    "titulo": true,
-   "say": "Eles se revoltaram e cercaram o forte onde o governador estava.",
    "detalhe": false,
    "fachada": false,
    "objetos": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/forte_colonial",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Eles se revoltaram e cercaram o forte do governador.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -280,13 +301,7 @@
       "quem": 0
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.8,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "wide"
+   }
   },
   {
    "shot": "wide",
@@ -303,18 +318,18 @@
     "march": true,
     "expr": "stern"
    },
-   "say": "Soldados ingleses marcharam para salvar o governador preso, e a guerra seguiu por vários meses.",
    "props": [],
    "detalhe": false,
    "d0": 24.0,
    "d1": 21.0,
-   "_auto_vis": 0,
+   "bloco": "escalada",
+   "say": "Soldados ingleses vieram, e a guerra durou meses.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "chega",
-      "na": "marcharam",
+      "na": "vieram",
       "quem": 0
      }
     ]
@@ -328,7 +343,8 @@
     "PRE:0:smug:paper"
    ],
    "interacao": "entregar",
-   "say": "No fim, os ingleses venceram e a região virou colônia.",
+   "bloco": "pagamento",
+   "say": "Os ingleses venceram. Acontece que o banquinho tinha sumido.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -347,31 +363,24 @@
     "ASH:0:grin"
    ],
    "interacao": "cochichar",
-   "say": "Mas os ashanti esconderam o banquinho, e os ingleses nunca conseguiram levá-lo.",
-   "interior": "loja",
    "props": [
     [
      "kit/golden_stool",
      0.0,
      -1.2,
-     1.6,
+     1.4,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/golden_stool",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "set": "jungle",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Os ashanti esconderam o banquinho na mata.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -380,59 +389,44 @@
       "na": "esconderam"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   }
   },
   {
-   "shot": "wide",
-   "set": "countryside",
+   "shot": "two",
    "who": [
-    "GOV:0:sad"
+    "GOV:0:smug",
+    "ASH:0:shock"
    ],
    "props": [
     [
      "kit/golden_stool",
-     2.4,
-     0.2,
-     2.0,
+     0.0,
+     -1.2,
+     2.6,
      {
       "fixo": true
      }
     ]
    ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "set": "countryside",
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
    "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
-   "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/golden_stool",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "vence",
-      "na": "ganhou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "ganhou"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "wide"
+   }
   }
  ],
  "ano": 1900,
@@ -463,8 +457,19 @@
   "fontes_visuais": [
    "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
    "https://en.wikipedia.org/wiki/Golden_Stool"
-  ]
+  ],
+  "buscas": {
+   "banquinho dourado (Sika Dwa Kofi)": "Golden Stool Asante Sika Dwa Kofi",
+   "golden stool": "Golden Stool of Asante",
+   "lideres ashanti": "Asante chiefs kente cloth 1900",
+   "fuzis": "Lee-Metford rifle 1900",
+   "A Guerra do Banquinho Dourado": "War of the Golden Stool 1900 Kumasi",
+   "golden_stool": "Ashanti Golden Stool Sika Dwa Kofi photo",
+   "forte_colonial": "Kumasi fort 1900 British fort Ashanti"
+  }
  },
  "variar_cenario": false,
- "max_wide": 4
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um governador pediu para sentar num banquinho e comecou uma guerra; ele nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
+ "loop_frase_ok": true
 }

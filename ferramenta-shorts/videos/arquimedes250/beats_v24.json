@@ -1,0 +1,538 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 2,
+ "title": "Arquimedes e o Eureca",
+ "titulo_base": "Arquimedes e o Eureca",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/bathtub",
+ "outfits": {
+  "ARQ": {
+   "jacket": "#e8dcc0",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#8a8070",
+   "beard": "#8a8070"
+  },
+  "REI": {
+   "jacket": "#7a2a4a",
+   "pants": "#7a2a4a",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "sash": "#e8c45a",
+   "build": "stout"
+  },
+  "OUR": {
+   "jacket": "#c9a040",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "cap": "#4a3a2a",
+   "moustache_on": "#3a2a1a",
+   "hair": "#3a2a1a"
+  },
+  "POV": {
+   "jacket": "#f1efe6",
+   "pants": "#c9b890",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#4a3020"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.",
+   "shot": "two",
+   "who": [
+    "ARQ:0:shout",
+    "POV:0:shock"
+   ],
+   "text": "EUREKA",
+   "chega": true,
+   "fx": [
+    "dust@20"
+   ],
+   "sfx": [
+    "steps@10"
+   ],
+   "set": "medieval",
+   "_auto_vis": 0,
+   "titulo": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "corre",
+      "na": "correndo"
+     },
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritando"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:neutral"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "SICÍLIA",
+   "mapa_at": 2,
+   "props": [
+    [
+     "kit/bathtub",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bathtub",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "medieval",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Siracusa"
+     }
+    ]
+   },
+   "_enq_shot": "reveal",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "REI:0:stern",
+    "OUR:0:nervous"
+   ],
+   "interacao": "discutir",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandou"
+     },
+     {
+      "quem": 0,
+      "faz": "olha",
+      "na": "desconfiou",
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "say": "Será que trocou parte do ouro por prata?",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "REI:0:suspicious",
+    "OUR:0:scared"
+   ],
+   "acao": "discutir",
+   "detalhe": false,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pensa",
+      "na": "trocou",
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "say": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "REI:0:angry:paper",
+    "ARQ:0:surprised"
+   ],
+   "interacao": "entregar",
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "chamou"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
+   "shot": "two",
+   "who": [
+    "ARQ:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/bathtub",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@50",
+    "stars@70"
+   ],
+   "sfx": [
+    "whoosh@50",
+    "ding@70"
+   ],
+   "batalha": false,
+   "interior": "pedra",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bathtub",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "anda_ate",
+      "alvo": "kit/bathtub",
+      "na": "entrou"
+     },
+     {
+      "quem": 0,
+      "faz": "entra_em",
+      "alvo": "kit/bathtub",
+      "na": "entrou"
+     },
+     {
+      "alvo": "kit/bathtub",
+      "faz": "transborda",
+      "na": "transbordou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ARQ:0:smile",
+    "POV:0:smile"
+   ],
+   "interacao": "cochichar",
+   "explica": {
+    "objeto": "kit/bathtub",
+    "vfx": [
+     {
+      "k": "onda",
+      "na": "sai"
+     }
+    ],
+    "rotulos": [
+     [
+      "AGUA QUE SAI",
+      "topo",
+      "sai"
+     ],
+     [
+      "= TAMANHO DO CORPO",
+      "baixo",
+      "tamanho"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "água"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "ARQ:0:smile",
+    "POV:0:smile"
+   ],
+   "interacao": "cochichar",
+   "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
+   "explica": {
+    "objeto": "kit/coroa_louros",
+    "vfx": [
+     {
+      "k": "onda",
+      "na": "derramaria"
+     }
+    ],
+    "rotulos": [
+     [
+      "COM PRATA = MAIOR",
+      "topo",
+      "maior"
+     ],
+     [
+      "DERRAMA MAIS AGUA",
+      "baixo",
+      "derramaria"
+     ]
+    ]
+   },
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "coroa"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
+   "shot": "two",
+   "who": [
+    "ARQ:0:grin",
+    "OUR:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/coroa_louros",
+     0.0,
+     1.4,
+     2.93,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "medieval",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/coroa_louros",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "3% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "medir",
+      "forcar": true
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "_auto_vis": 3
+  },
+  {
+   "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
+   "shot": "crowd",
+   "who": [
+    "ARQ:0:laugh",
+    "POV:0:shock"
+   ],
+   "impact": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV",
+     "OUR"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "text": "EUREKA",
+   "fx": [
+    "stars@30",
+    "burst@80"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@80"
+   ],
+   "acao": "comemorar",
+   "tiros": false,
+   "set": "medieval",
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "grita",
+      "na": "gritou"
+     }
+    ]
+   }
+  },
+  {
+   "say": "No fim, dá para enganar um rei, mas não uma banheira.",
+   "shot": "two",
+   "who": [
+    "REI:0:smile",
+    "OUR:0:sad"
+   ],
+   "props": [
+    [
+     "kit/bathtub",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bathtub",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "medieval",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "banheira"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "visual": {
+  "local": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra, banhos publicos, mar Mediterraneo",
+  "quando": "cerca de 250 a.C., de dia; a historia vem do escritor romano Vitruvio, que contou mais de cem anos depois",
+  "participantes": [
+   "Arquimedes, sabio de Siracusa",
+   "rei Hierao II",
+   "o ourives da coroa",
+   "moradores de Siracusa"
+  ],
+  "roupas": {
+   "ARQ": "tunica (quiton) grega clara e sandalias, barba",
+   "REI": "tunica e manto roxo com coroa de louros de ouro",
+   "OUR": "artesao de tunica simples e avental de couro",
+   "POV": "moradores gregos de tunica"
+  },
+  "cenario": "rua grega antiga com casas de pedra e colunas, sala de banho publico com banheira de pedra, palacio com colunas",
+  "objetos": [
+   "coroa de ouro (de louros)",
+   "banheira",
+   "balanca de pratos",
+   "barra de ouro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eureka_(word)",
+   "https://en.wikipedia.org/wiki/Archimedes"
+  ],
+  "explicacoes": [
+   "Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua."
+  ],
+  "buscas": {
+   "banheira": "ancient greek bathtub terracotta",
+   "bathtub": "ancient greek bathtub terracotta",
+   "coroa de ouro (de louros)": "gold laurel wreath ancient greek",
+   "balanca de pratos": "ancient balance scale",
+   "barra de ouro": "gold ingot ancient"
+  }
+ },
+ "max_wide": 3,
+ "regiao": "classico",
+ "ano": -250
+}

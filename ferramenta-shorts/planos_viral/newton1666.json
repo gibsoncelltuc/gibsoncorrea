@@ -1,0 +1,89 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "LENDA?",
+ "gancho_cumprido": "Gancho: a maca nao caiu na cabeca de Newton e mesmo assim mudou tudo, explicando por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade em 1687.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo.",
+   "maçã"
+  ],
+  [
+   9,
+   "promessa",
+   "Ela explicou por que a Lua não cai na nossa cabeça.",
+   "Lua"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1666, a peste fechou a universidade de Cambridge.",
+   "fechou",
+   {
+    "set": "street"
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Isaac Newton, de 23 anos, voltou para a fazenda da mãe.",
+   "voltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Passava os dias debaixo de uma macieira, pensando.",
+   "pensando",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que uma maçã caiu bem na frente dele.",
+   "caiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Ele se perguntou: por que ela cai sempre para baixo?",
+   "cai",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Se a força puxa a maçã, será que puxa a Lua também?",
+   "puxa",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Virou a lei da gravidade, publicada em 1687.",
+   "gravidade",
+   {
+    "interior": "madeira",
+    "set": null
+   }
+  ],
+  [
+   0,
+   "loop",
+   "A maçã ficou famosa. E nem foi comida.",
+   "maçã"
+  ]
+ ]
+}

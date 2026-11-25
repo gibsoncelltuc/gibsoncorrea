@@ -1,0 +1,79 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "NÃO É LANÇA-CHAMAS",
+ "gancho_cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um bilionário vendeu lança-chamas dizendo que não era lança-chamas.",
+   "vendeu"
+  ],
+  [
+   10,
+   "promessa",
+   "E o motivo do nome é ainda mais esperto.",
+   "nome"
+  ],
+  [
+   1,
+   "prova",
+   "Em 2018, a Boring Company, de Elon Musk, lançou o aparelho.",
+   "lançou",
+   {
+    "mapa": "ESTADOS UNIDOS"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "O nome era Não é um lança-chamas. Custava quinhentos dólares.",
+   "quinhentos",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que ele soltava fogo de verdade.",
+   "fogo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O nome servia para driblar a alfândega, que barrava lança-chamas.",
+   "driblar"
+  ],
+  [
+   6,
+   "escalada",
+   "E vinha com um extintor de incêndio junto.",
+   "extintor"
+  ],
+  [
+   7,
+   "escalada",
+   "Vinte mil unidades esgotaram em poucos dias.",
+   "esgotaram"
+  ],
+  [
+   8,
+   "pagamento",
+   "Isso rendeu cerca de dez milhões de dólares.",
+   "milhões",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Um lança-chamas que jurava não ser lança-chamas.",
+   "jurava"
+  ]
+ ]
+}

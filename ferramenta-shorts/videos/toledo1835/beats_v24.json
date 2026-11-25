@@ -1,0 +1,556 @@
+{
+ "title": "A Guerra de Toledo",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "OHI": {
+   "jacket": "#2f4f8f",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "tophat",
+   "belt": "#2a2218",
+   "buttons": "#e8c45a",
+   "rifle": true,
+   "moustache_on": "#3a2a1f",
+   "uniforme_fixo": true
+  },
+  "MIC": {
+   "jacket": "#4a7a3a",
+   "pants": "#6a5a3a",
+   "boots": "#2a2218",
+   "belt": "#2a2218",
+   "rifle": true,
+   "hats": [
+    "slouch",
+    "straw",
+    "tophat"
+   ],
+   "uniforme_fixo": true
+  },
+  "GOV": {
+   "jacket": "#2a2f3a",
+   "pants": "#3a3f4a",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "buttons": "#c9a24a",
+   "tie": "#f2efe6"
+  },
+  "XER": {
+   "jacket": "#8a5a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#8a6a3a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "RAP": {
+   "jacket": "#3a6ab0",
+   "pants": "#5a4a3a",
+   "boots": "#2a1d14",
+   "hat": "slouch",
+   "build": "lanky"
+  }
+ },
+ "exp": 1.0,
+ "serie": "Guerras Inusitadas",
+ "ep": 3,
+ "titulo_base": "A Guerra de Toledo",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "OHI:0:stern"
+   ],
+   "text": "1 FERIDO: CANIVETADA",
+   "say": "Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.",
+   "set": "countryside",
+   "props": [
+    [
+     "kit/canivete_aberto",
+     1.6,
+     0.6,
+     1.8,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@106",
+    "stars@110"
+   ],
+   "sfx": [
+    "sting@106"
+   ],
+   "tat": 12,
+   "tstyle": "red",
+   "titulo": true,
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canivetada"
+     }
+    ]
+   },
+   "cx": 0.6,
+   "cz": -0.5,
+   "d0": 11.0,
+   "d1": 9.0,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "lados": [
+    "OHI",
+    "MIC"
+   ],
+   "quadro_manual": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OHI:1:stern",
+    "MIC:1:stern"
+   ],
+   "mapa": "TOLEDO",
+   "say": "Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de um erro num mapa antigo.",
+   "set": "countryside",
+   "props": [
+    [
+     "kit/mapa_antigo",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "MAPA ERRADO",
+   "tat": 15,
+   "tstyle": "red",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/mapa_antigo",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mapa"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOV:0:grin:paper"
+   ],
+   "interior": "madeira",
+   "say": "O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.",
+   "text": "23 ANOS",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "OHI:0:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": true
+   },
+   "say": "Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.",
+   "riscos_ok": true,
+   "sem_mortos": true,
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "respondeu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "OHI:2:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "text": "PARA O ALTO",
+   "titulo": true,
+   "say": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
+   "set": "countryside",
+   "sem_mortos": true,
+   "lados": [
+    "OHI",
+    "MIC"
+   ],
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "tiros",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "RAP:0:angry",
+    "XER:0:pained"
+   ],
+   "fx": [
+    "stars@60",
+    "burst@55"
+   ],
+   "sfx": [
+    "sting@60",
+    "thump@55"
+   ],
+   "say": "A única baixa foi um xerife de Michigan, espetado numa briga de taverna com um canivete.",
+   "shot_lock": true,
+   "interior": "madeira",
+   "moveis": [
+    [
+     "mk/Table_Large",
+     -6.6,
+     -1.6,
+     2.2
+    ],
+    [
+     "mk/Barrel",
+     6.8,
+     -2.8,
+     2.2
+    ],
+    [
+     "mk/Barrel_Apples",
+     7.6,
+     0.4,
+     2.0
+    ],
+    [
+     "mk/Mug",
+     -6.4,
+     -1.4,
+     2.0
+    ],
+    [
+     "mk/Bench",
+     5.0,
+     -3.2,
+     2.2
+    ]
+   ],
+   "detalhe": true,
+   "props": [
+    [
+     "kit/canivete_aberto",
+     0.4,
+     -0.4,
+     1.4,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.9
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "espeta",
+      "na": "espetado",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 9.5,
+   "d1": 8.5,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GOV:0:nervous",
+    "OHI:0:grin:paper"
+   ],
+   "interior": "pedra",
+   "text": "ACORDO",
+   "say": "O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.",
+   "susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "OHI:1:grin",
+    "MIC:1:pained",
+    "GOV:0:nervous"
+   ],
+   "say": "Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que ninguém queria.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "floresta"
+     }
+    ]
+   },
+   "set": "arctic",
+   "props": [
+    [
+     "nature/tree_pine",
+     -4.5,
+     -7.5,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     0.5,
+     -9.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     4.5,
+     -7.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 12.5,
+   "d1": 11.0,
+   "shot_lock": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "GOV:0:shock:coin",
+    "MIC:0:grin"
+   ],
+   "clima": "neve",
+   "say": "Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.",
+   "props": [
+    [
+     "kit/minerio",
+     0.6,
+     1.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "COBRE E FERRO",
+   "tat": 6,
+   "tstyle": "gold",
+   "titulo": true,
+   "detalhe": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/minerio",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobre"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GOV:0:laugh:coin"
+   ],
+   "clima": "limpo",
+   "hora": "dia",
+   "say": "No fim das contas, Michigan perdeu a guerra, e ficou rico.",
+   "interior": "madeira",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0
+     }
+    ]
+   }
+  }
+ ],
+ "heroi": "kit/canivete_aberto",
+ "regiao": "generica",
+ "visual": {
+  "local": "Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna",
+  "quando": "abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)",
+  "participantes": [
+   "milicia de Ohio (600)",
+   "milicia de Michigan (1000)",
+   "topografos de Ohio",
+   "Stevens T. Mason, governador de Michigan com 23 anos",
+   "xerife Joseph Wood",
+   "Two Stickney, rapaz de Ohio"
+  ],
+  "roupas": {
+   "OHI": "milicia civil de 1835: casaca, cartola, mosquete de pederneira (sem uniforme de guerra civil)",
+   "MIC": "milicia civil: casaca, chapeu de aba larga/palha/cartola, mosquete",
+   "GOV": "casaca escura de civil, gravata branca, cartola",
+   "XER": "casaca marrom, chapeu de aba",
+   "RAP": "rapaz de casaca simples e chapeu de aba"
+  },
+  "cenario": "campo com mata (Phillips Corners), margem do rio Maumee, taverna de madeira em Toledo, sala do Congresso, floresta gelada da Peninsula Superior",
+  "objetos": [
+   "mosquetes de pederneira",
+   "canivete de bolso",
+   "instrumento de agrimensor em tripe",
+   "mapa antigo com a linha da fronteira"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Toledo_War",
+   "https://commons.wikimedia.org/wiki/File:Phillips_Corners_Battlefield.jpg",
+   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war",
+   "https://www.history.com/articles/the-toledo-war-when-michigan-and-ohio-nearly-came-to-blows"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Toledo_War",
+  "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
+ ],
+ "max_wide": 4
+}

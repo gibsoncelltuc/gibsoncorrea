@@ -1,0 +1,79 @@
+{
+ "gancho_tipo": "crenca",
+ "texto_gancho": "COLA QUE FALHOU",
+ "gancho_cumprido": "Gancho: a cola mais fraca do mundo virou sucesso no planeta. Pagamento: a cola que soltava facil virou o marcador do Art Fry e, em 1980, o post-it.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Esta cola falhou. E virou sucesso no mundo inteiro.",
+   "falhou"
+  ],
+  [
+   10,
+   "promessa",
+   "E quem achou a utilidade estava cantando na igreja.",
+   "cantando"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1968, Spencer Silver tentava criar uma super cola.",
+   "tentava"
+  ],
+  [
+   3,
+   "prova",
+   "Saiu o contrário: uma cola que grudava e soltava fácil.",
+   "grudava"
+  ],
+  [
+   4,
+   "prova",
+   "Por anos, ninguém na empresa viu utilidade nela.",
+   "utilidade"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que Art Fry cantava no coral da igreja.",
+   "cantava"
+  ],
+  [
+   6,
+   "escalada",
+   "E os papeizinhos que marcavam o hinário viviam caindo.",
+   "caindo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Ele pensou: marcadores com a cola fraca. Grudam e saem sem rasgar.",
+   "pensou"
+  ],
+  [
+   8,
+   "pagamento",
+   "O papel saiu amarelo por acaso: era o único de rascunho.",
+   "amarelo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "pagamento",
+   "Em 1980, o post-it chegou às lojas do mundo todo.",
+   "chegou"
+  ],
+  [
+   0,
+   "loop",
+   "Tudo graças a uma cola que não colava.",
+   "cola"
+  ]
+ ]
+}

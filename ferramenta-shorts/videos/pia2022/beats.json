@@ -48,7 +48,6 @@
  },
  "beats": [
   {
-   "say": "Um bilionário entrou carregando uma pia na empresa que estava comprando.",
    "who": [
     "MUS:0:grin",
     "FUN:0:shock"
@@ -65,10 +64,51 @@
      }
     ]
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "bloco": "gancho",
+   "say": "Um bilionário entrou carregando uma pia na empresa que estava comprando.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carregando"
+     }
+    ]
+   },
+   "text": "LET THAT SINK IN",
+   "titulo": true
   },
   {
-   "say": "Foi Elon Musk, em outubro de dois mil e vinte e dois, na sede do Twitter, em São Francisco.",
+   "who": [
+    "FUN:0:laugh",
+    "FUN2:0:laugh"
+   ],
+   "shot": "crowd",
+   "props": [],
+   "set": "loc_cidade",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "FUN",
+     "FUN2"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "bloco": "promessa",
+   "say": "E a pia era uma piada de 44 bilhões de dólares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
+  },
+  {
    "who": [
     "MUS:0:smile",
     "FUN2:0:surprised"
@@ -87,41 +127,20 @@
    ],
    "interior": "pedra",
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3
-  },
-  {
-   "say": "Ele filmou a própria entrada, com a pia nos braços, e postou o vídeo na internet.",
-   "who": [
-    "MUS:0:laugh"
-   ],
-   "shot": "two",
-   "props": [
-    [
-     "kit/sink",
-     0.0,
-     -0.6,
-     1.0,
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Foi Elon Musk, em 2022, na sede do Twitter.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/phone",
-     0.0,
-     -0.8,
-     0.9,
-     {
-      "fixo": true
+      "faz": "mostra",
+      "na": "Twitter"
      }
     ]
-   ],
-   "interior": "pedra",
-   "detalhe": true,
-   "_susp_tela": true,
-   "_susp_ok": true
+   }
   },
   {
-   "say": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",
    "who": [
     "MUS:0:smug",
     "FUN:0:surprised"
@@ -129,10 +148,20 @@
    "shot": "two",
    "props": [],
    "interior": "loja",
-   "text": "LET THAT SINK IN"
+   "text": "LET THAT SINK IN",
+   "bloco": "prova",
+   "say": "A legenda era um trocadilho em inglês.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trocadilho"
+     }
+    ]
+   }
   },
   {
-   "say": "É um trocadilho: em inglês, a palavra sink quer dizer pia, e também afundar.",
    "who": [],
    "shot": "two",
    "props": [],
@@ -151,10 +180,20 @@
       "afundar"
      ]
     ]
+   },
+   "bloco": "prova",
+   "say": "Em inglês, sink quer dizer pia e também afundar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sink"
+     }
+    ]
    }
   },
   {
-   "say": "Acontece que, no dia seguinte, ele fechou a compra do Twitter, por quarenta e quatro bilhões de dólares.",
    "who": [
     "MUS:0:laugh",
     "FUN:0:shock"
@@ -171,10 +210,20 @@
      "na": "quarenta",
      "dur": 1.0
     }
+   },
+   "bloco": "escalada",
+   "say": "Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bilhões"
+     }
+    ]
    }
   },
   {
-   "say": "No mesmo dia, ele demitiu o presidente e outros chefes da empresa.",
    "who": [
     "MUS:0:stern",
     "FUN:0:sad",
@@ -182,10 +231,20 @@
    ],
    "shot": "two",
    "props": [],
-   "interior": "pedra"
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "No mesmo dia, demitiu o presidente e outros chefes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "demitiu"
+     }
+    ]
+   }
   },
   {
-   "say": "Ele também mudou o perfil, e escreveu que era o Chefe Twit.",
    "who": [
     "MUS:0:grin"
    ],
@@ -203,32 +262,22 @@
    ],
    "interior": "loja",
    "text": "CHIEF TWIT",
-   "_susp_tela": true,
-   "_susp_ok": true
-  },
-  {
-   "say": "O vídeo da pia virou piada no mundo inteiro.",
-   "who": [
-    "FUN:0:laugh",
-    "FUN2:0:laugh"
-   ],
-   "shot": "crowd",
-   "props": [],
-   "set": "loc_cidade",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "FUN",
-     "FUN2"
-    ],
-    "march": false,
-    "expr": "laugh"
+   "bloco": "pagamento",
+   "say": "E mudou o próprio perfil para Chefe Twit.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mudou"
+     }
+    ]
    }
   },
   {
-   "say": "Uma pia, um trocadilho e quarenta e quatro bilhões de dólares.",
    "who": [
-    "MUS:0:smug"
+    "MUS:0:grin",
+    "FUN:0:shock"
    ],
    "shot": "two",
    "props": [
@@ -242,7 +291,18 @@
      }
     ]
    ],
-   "set": "loc_cidade"
+   "set": "loc_cidade",
+   "bloco": "loop",
+   "say": "Uma pia, um trocadilho e 44 bilhões de dólares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pia"
+     }
+    ]
+   }
   }
  ],
  "exp": 1.0,
@@ -281,5 +341,8 @@
   "buscas": {
    "pia": "Elon Musk sink Twitter HQ October 2022"
   }
- }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um bilionario entrou carregando uma pia na empresa que comprava e a pia era uma piada. Pagamento: sink e' pia e afundar; no dia seguinte fechou a compra do Twitter por 44 bilhoes e demitiu os chefes.",
+ "loop_frase_ok": true
 }

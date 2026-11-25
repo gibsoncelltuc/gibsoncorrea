@@ -1,0 +1,86 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: uma prisao para 40 mil presos virou noticia e ninguem concorda se e' solucao ou problema. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil, mas houve denuncias de prisoes sem julgamento; o modelo e' copiado e criticado.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma prisão para quarenta mil presos virou notícia no mundo inteiro.",
+   "prisão"
+  ],
+  [
+   9,
+   "promessa",
+   "E ninguém concorda se ela é solução ou problema.",
+   "solução",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Ela fica em El Salvador e abriu em 2023.",
+   "abriu",
+   {
+    "text": null,
+    "set": "street"
+   }
+  ],
+  [
+   2,
+   "prova",
+   "O país tinha uma das maiores taxas de assassinato do mundo.",
+   "taxas",
+   {
+    "interior": "pedra",
+    "set": null
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Em 2022, Nayib Bukele decretou estado de exceção.",
+   "decretou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Muralhas altas, cercas elétricas e torres de vigia por todo lado.",
+   "muralhas",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que os assassinatos despencaram de 106 para 2,4 por cem mil.",
+   "despencaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Mas grupos de direitos humanos denunciaram prisões sem julgamento.",
+   "denunciaram"
+  ],
+  [
+   10,
+   "pagamento",
+   "O modelo passou a ser copiado e criticado pelo mundo.",
+   "copiado"
+  ],
+  [
+   0,
+   "loop",
+   "Segurança para uns, excesso para outros. Você decide.",
+   "decide"
+  ]
+ ]
+}

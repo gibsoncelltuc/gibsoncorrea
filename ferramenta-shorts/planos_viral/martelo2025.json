@@ -1,0 +1,13 @@
+{"gancho_tipo": "segredo", "texto_gancho": "MARTELO DA MEIA-NOITE",
+ "gancho_cumprido": "Gancho: uma bomba feita para furar montanhas foi usada pela primeira vez e ninguem concorda sobre o estrago. Pagamento: sete B-2 voaram 18 horas, 14 bombas caíram, 12 sobre Fordow; os EUA dizem destruidas, o debate continua.",
+ "cenas": [
+  [0, "gancho", "Uma bomba feita para furar montanhas foi usada pela primeira vez.", "bomba"],
+  [11, "promessa", "E até hoje ninguém concorda sobre o estrago.", "estrago"],
+  [1, "prova", "Foi em junho de 2025, contra usinas nucleares do Irã.", "usinas"],
+  [2, "prova", "A principal, Fordow, fica a quase noventa metros, dentro de uma montanha.", "Fordow"],
+  [3, "prova", "Só a bomba antibunker, de treze toneladas, chega lá.", "chega", {"encena_antiga": true}],
+  [5, "escalada", "Sete aviões invisíveis B-2 voaram dezoito horas até o alvo.", "voaram", {"encena_antiga": true}],
+  [6, "escalada", "Para despistar, outros aviões foram mandados na direção do Pacífico.", "despistar", {"encena_antiga": true}],
+  [7, "escalada", "Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow.", "caíram", {"encena_antiga": true}],
+  [10, "pagamento", "Os Estados Unidos disseram que as usinas foram destruídas.", "destruídas"],
+  [0, "loop", "O Irã discorda. E a montanha guarda o segredo.", "segredo"]]}

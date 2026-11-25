@@ -45,14 +45,12 @@
  },
  "beats": [
   {
-   "say": "Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só.",
    "shot": "two",
    "who": [
     "ARQ:0:shout",
     "POV:0:shock"
    ],
    "text": "EUREKA",
-   "chega": true,
    "fx": [
     "dust@20"
    ],
@@ -60,15 +58,16 @@
     "steps@10"
    ],
    "set": "medieval",
-   "_auto_vis": 0,
    "titulo": true,
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um gênio correu da banheira gritando pela rua.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "quem": 0,
       "faz": "corre",
-      "na": "correndo"
+      "na": "correu"
      },
      {
       "quem": 0,
@@ -79,7 +78,40 @@
    }
   },
   {
-   "say": "Foi em Siracusa, na Sicília, há mais de dois mil anos.",
+   "shot": "two",
+   "who": [
+    "REI:0:smile",
+    "OUR:0:sad"
+   ],
+   "props": [
+    [
+     "kit/bathtub",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "medieval",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "promessa",
+   "say": "E foi a banheira que desmascarou um ladrão de ouro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desmascarou"
+     }
+    ]
+   }
+  },
+  {
    "shot": "reveal",
    "who": [
     "POV:0:smile",
@@ -105,37 +137,24 @@
      }
     ]
    ],
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bathtub",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "set": "medieval",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Siracusa, na Sicília, há mais de dois mil anos.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "Siracusa"
      }
     ]
-   },
-   "_enq_shot": "reveal",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   }
   },
   {
-   "say": "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -144,48 +163,19 @@
    ],
    "interacao": "discutir",
    "detalhe": false,
+   "bloco": "prova",
+   "say": "O rei Hierão desconfiou que sua coroa de ouro tinha prata.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "olha",
-      "na": "desconfiou",
-      "alvo_quem": 1,
-      "forcar": true
+      "faz": "mostra",
+      "na": "desconfiou"
      }
     ]
    }
   },
   {
-   "say": "Será que trocou parte do ouro por prata?",
-   "shot": "two",
-   "interior": "pedra",
-   "who": [
-    "REI:0:suspicious",
-    "OUR:0:scared"
-   ],
-   "acao": "discutir",
-   "detalhe": false,
-   "encena": {
-    "sentido": "hipotese",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "pensa",
-      "na": "trocou",
-      "forcar": true
-     }
-    ]
-   }
-  },
-  {
-   "say": "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa.",
    "shot": "two",
    "interior": "pedra",
    "who": [
@@ -194,19 +184,19 @@
    ],
    "interacao": "entregar",
    "detalhe": false,
+   "bloco": "prova",
+   "say": "Ele pediu a Arquimedes a verdade, sem estragar a coroa.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "chamou"
+      "faz": "mostra",
+      "na": "pediu"
      }
     ]
    }
   },
   {
-   "say": "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo.",
    "shot": "two",
    "who": [
     "ARQ:0:surprised"
@@ -237,18 +227,12 @@
    ],
    "batalha": false,
    "interior": "pedra",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bathtub",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que, ao entrar na banheira, a água transbordou.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -256,13 +240,13 @@
       "quem": 0,
       "faz": "anda_ate",
       "alvo": "kit/bathtub",
-      "na": "entrou"
+      "na": "transbordou"
      },
      {
       "quem": 0,
       "faz": "entra_em",
       "alvo": "kit/bathtub",
-      "na": "entrou"
+      "na": "transbordou"
      },
      {
       "alvo": "kit/bathtub",
@@ -270,15 +254,9 @@
       "na": "transbordou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
-   "say": "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra.",
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -307,6 +285,8 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "A água que sai tem o tamanho do corpo que entra.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -325,7 +305,6 @@
     "POV:0:smile"
    ],
    "interacao": "cochichar",
-   "say": "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água.",
    "explica": {
     "objeto": "kit/coroa_louros",
     "vfx": [
@@ -347,6 +326,8 @@
      ]
     ]
    },
+   "bloco": "escalada",
+   "say": "Coroa com prata é maior e derrama mais água que ouro puro.",
    "encena": {
     "sentido": "hipotese",
     "passos": [
@@ -358,57 +339,6 @@
    }
   },
   {
-   "say": "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro.",
-   "shot": "two",
-   "who": [
-    "ARQ:0:grin",
-    "OUR:0:nervous"
-   ],
-   "props": [
-    [
-     "kit/coroa_louros",
-     0.0,
-     1.4,
-     2.93,
-     {
-      "nocol": true,
-      "fixo": true
-     }
-    ]
-   ],
-   "set": "medieval",
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": true,
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/coroa_louros",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "3% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "pega",
-      "na": "medir",
-      "forcar": true
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "_auto_vis": 3
-  },
-  {
-   "say": "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata.",
    "shot": "crowd",
    "who": [
     "ARQ:0:laugh",
@@ -436,7 +366,8 @@
    "acao": "comemorar",
    "tiros": false,
    "set": "medieval",
-   "_auto_vis": 0,
+   "bloco": "pagamento",
+   "say": "Conta a lenda: ele gritou Eureca. E a coroa tinha prata.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -449,50 +380,31 @@
    }
   },
   {
-   "say": "No fim, dá para enganar um rei, mas não uma banheira.",
    "shot": "two",
    "who": [
-    "REI:0:smile",
-    "OUR:0:sad"
+    "ARQ:0:shout",
+    "POV:0:shock"
    ],
-   "props": [
-    [
-     "kit/bathtub",
-     0.0,
-     -1.2,
-     1.0,
-     {
-      "fixo": true
-     }
-    ]
+   "text": "EUREKA",
+   "fx": [
+    "dust@20"
    ],
-   "quadro": {
-    "local": "vila medieval",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bathtub",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "sfx": [
+    "steps@10"
+   ],
    "set": "medieval",
+   "titulo": true,
+   "bloco": "loop",
+   "say": "Dá para enganar muita gente. Mas não uma banheira.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
       "na": "banheira"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   }
  ],
  "visual": {
@@ -532,7 +444,9 @@
    "barra de ouro": "gold ingot ancient"
   }
  },
- "max_wide": 3,
  "regiao": "classico",
- "ano": -250
+ "ano": -250,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um genio correu da banheira gritando e a banheira desmascarou um ladrao de ouro. Pagamento: a agua mostrou que a coroa tinha prata.",
+ "loop_frase_ok": true
 }

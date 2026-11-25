@@ -1,0 +1,94 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um dia famoso parece mudar tudo, mas Waterloo talvez nao mudasse nada. Pagamento: a derrota de 1815 e o exilio; mesmo vencendo, Russia e Austria ja marchavam contra ele.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?",
+   "Waterloo",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "Waterloo"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   8,
+   "promessa",
+   "A resposta dos historiadores vai te surpreender.",
+   "resposta"
+  ],
+  [
+   1,
+   "prova",
+   "Era 18 de junho de 1815, na Bélgica.",
+   "Bélgica"
+  ],
+  [
+   2,
+   "prova",
+   "Napoleão tinha saído do exílio e retomado o poder.",
+   "poder"
+  ],
+  [
+   3,
+   "escalada",
+   "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.",
+   "dispararam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "No fim da tarde, os prussianos chegaram, e Napoleão perdeu.",
+   "perdeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
+   "mandado"
+  ],
+  [
+   8,
+   "pagamento",
+   "Acontece que, para muitos historiadores, a derrota viria igual.",
+   "historiadores",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "Rússia e Áustria já marchavam contra ele com exércitos enormes.",
+   "marchavam",
+   {
+    "encena_antiga": true,
+    "crowd": {
+     "n": 6,
+     "outfits": [
+      "SOL"
+     ],
+     "march": true
+    }
+   }
+  ],
+  [
+   10,
+   "loop",
+   "Um dia famoso nem sempre muda o destino. Só a data.",
+   "destino"
+  ]
+ ]
+}

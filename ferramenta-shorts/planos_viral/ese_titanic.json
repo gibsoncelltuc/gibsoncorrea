@@ -1,0 +1,97 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: se o Titanic nao afundasse, o mar seria mais perigoso. Pagamento: so havia bote para metade; o naufragio criou o tratado de 1914 com bote para todos e a patrulha do gelo que existe ate hoje.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Diziam que era impossível de ir ao fundo. Foi na primeira viagem.",
+   "fundo",
+   {
+    "impact": true
+   }
+  ],
+  [
+   6,
+   "promessa",
+   "E se não tivesse afundado, o mar seria mais perigoso hoje.",
+   "perigoso",
+   {
+    "set": "harbor",
+    "interior": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Abril de 1912. O Titanic levava mais de duas mil pessoas.",
+   "levava"
+  ],
+  [
+   2,
+   "prova",
+   "Perto da meia-noite, o vigia gritou: iceberg à frente!",
+   "gritou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "O gelo rasgou o casco por baixo da água.",
+   "rasgou",
+   {
+    "explica": {
+     "objeto": "kit/iceberg",
+     "manobra": "gira",
+     "rotulos": [
+      [
+       "90% ESCONDIDO",
+       "baixo",
+       "gelo"
+      ]
+     ]
+    },
+    "who": []
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que só havia botes para metade das pessoas.",
+   "botes"
+  ],
+  [
+   4,
+   "escalada",
+   "Cerca de mil e quinhentas pessoas morreram.",
+   "morreram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Em 1914, veio o primeiro grande tratado do mar: bote para todos.",
+   "tratado",
+   {
+    "set": "harbor",
+    "interior": null
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "E criaram uma patrulha de icebergs, que existe até hoje.",
+   "patrulha"
+  ],
+  [
+   10,
+   "loop",
+   "O pior dia do Titanic deixou o mar mais seguro.",
+   "Titanic"
+  ]
+ ]
+}

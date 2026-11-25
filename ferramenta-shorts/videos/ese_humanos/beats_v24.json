@@ -1,0 +1,305 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 2,
+ "title": "E Se os Humanos Sumissem da Terra?",
+ "titulo_base": "E Se os Humanos Sumissem da Terra?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/globe",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/The_World_Without_Us",
+  "https://www.scientificamerican.com/article/earth-without-people/"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "E se, de uma hora para outra, todos os seres humanos sumissem da Terra? O que aconteceria com as cidades?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 3,
+   "say": "No primeiro dia, ninguém mais estaria nas usinas de energia."
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "PRO:0:worried",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "say": "Em poucas horas, as luzes começariam a se apagar, cidade por cidade.",
+   "detalhe": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.8,
+     0.8
+    ],
+    [
+     "cat",
+     -1.8,
+     1.0
+    ]
+   ],
+   "say": "Cachorros e gatos de estimação teriam que se virar sozinhos. Muitos voltariam a caçar."
+  },
+  {
+   "shot": "low",
+   "who": [
+    "PRO:0:surprised:paper"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Em dois dias, o metrô de Nova York ficaria inundado, porque as máquinas que tiram a água dos túneis iriam parar."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 1,
+    "outfits": [
+     "PRO"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "nature/tree_oak",
+     -3.0,
+     -6.0,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.0,
+     -7.0,
+     1.6
+    ],
+    [
+     "nature/bush",
+     0,
+     -4.0,
+     1.8
+    ]
+   ],
+   "animals": [
+    [
+     "deer",
+     2.0,
+     0.8
+    ],
+    [
+     "wolf",
+     -2.2,
+     1.2
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "whoosh@50"
+   ],
+   "text": "20 ANOS",
+   "titulo": true,
+   "say": "Em vinte anos, as ruas virariam florestas. Veados e lobos andariam pelo meio das avenidas."
+  },
+  {
+   "shot": "low",
+   "who": [
+    "PRO:0:stern"
+   ],
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "cannon@30"
+   ],
+   "say": "Acontece que, em algumas centenas de anos, até as grandes pontes de aço cairiam, comidas pela ferrugem."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:suspicious:paper",
+    "POV:0:worried"
+   ],
+   "say": "O que sobraria? Construções de pedra, como as pirâmides, que já resistem há mais de quatro mil anos.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:sad",
+    "POV:1:sad"
+   ],
+   "interacao": "cochichar",
+   "say": "E o plástico. Alguns tipos levariam séculos para se desfazer na natureza."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 1,
+    "outfits": [
+     "PRO"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "animals": [
+    [
+     "deer",
+     1.6,
+     0.8
+    ],
+    [
+     "rabbit",
+     -1.6,
+     1.2
+    ],
+    [
+     "fox",
+     2.6,
+     1.6
+    ]
+   ],
+   "props": [
+    [
+     "nature/tree_oak",
+     -3.0,
+     -6.0,
+     1.6
+    ],
+    [
+     "nature/tree_birch",
+     3.0,
+     -6.0,
+     1.6
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "text": "NATUREZA",
+   "titulo": true,
+   "say": "Em pouco tempo, a natureza tomaria de volta quase tudo o que construímos."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -1.2,
+     1.0
+    ]
+   ],
+   "say": "O planeta seguiria girando, tranquilo. Somos nós que precisamos dele, não o contrário."
+  }
+ ],
+ "exp": 1.0,
+ "visual": {
+  "local": "cidades de hoje (Nova York, metro), florestas, piramides do Egito",
+  "quando": "hoje e o futuro (hipotese), de dia",
+  "participantes": [
+   "moradores (antes de sumir)",
+   "animais: caes, gatos, lobos, veados"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "cidade vazia, ruas tomadas por plantas, metro alagado, ponte enferrujada, piramides",
+  "objetos": [
+   "globo terrestre",
+   "usina de energia",
+   "ponte de aco"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_World_Without_Us",
+   "https://en.wikipedia.org/wiki/Life_After_People"
+  ]
+ }
+}

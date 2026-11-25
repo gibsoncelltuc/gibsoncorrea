@@ -8,7 +8,7 @@
  "set": "countryside",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/pea_green",
+ "heroi": "kit/vagem_verde",
  "outfits": {
   "MEN": {
    "profissao": "padre",
@@ -46,18 +46,34 @@
  },
  "beats": [
   {
-   "say": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
    "shot": "two",
    "who": [
-    "MEN:0:smile:bag",
-    "FRE:0:surprised"
+    "MEN:0:smile:bag"
    ],
    "props": [
     [
-     "kit/pea_green",
-     0.0,
+     "kit/pe_ervilha",
      -1.2,
-     1.6,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.4,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/vagem_verde",
+     0.9,
+     0.4,
+     0.6,
      {
       "fixo": true
      }
@@ -69,63 +85,156 @@
    "sfx": [
     "ding@60"
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
-    "objetos": [
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "objetos": false,
+   "shot_lock": true,
+   "set": "countryside",
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um monge contando ervilhas descobriu a herança.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "ervilhas"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "text": "ERVILHAS = HERANÇA",
+   "titulo": true
   },
   {
-   "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
-   "shot": "reveal",
+   "shot": "wide",
+   "interior": "madeira",
    "who": [
-    "FRE:0:neutral",
-    "FRE:1:smile"
+    "MEN:0:sad:book"
+   ],
+   "acao": "conversar",
+   "props": [],
+   "detalhe": false,
+   "objetos": false,
+   "bloco": "promessa",
+   "say": "E ninguém acreditou nele enquanto estava vivo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acreditou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MEN:0:smile",
+    "FRE:0:neutral"
    ],
    "crowd": {
-    "n": 6,
-    "outfits": [
-     "FRE",
-     "POV"
-    ],
-    "march": false
+    "n": 0
    },
    "mapa": "REPÚBLICA TCHECA",
-   "mapa_at": 2
-  },
-  {
-   "say": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
-   "shot": "two",
-   "who": [
-    "MEN:0:grin",
-    "FRE:0:suspicious"
-   ],
+   "mapa_at": 2,
+   "set": "medieval",
+   "fachada": false,
+   "objetos": false,
    "props": [
     [
-     "kit/pea_yellow",
-     3.6,
-     -2.0,
+     "buildings/church",
+     0.0,
+     -14.0,
      1.6,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_green",
-     0.0,
+     "kit/pe_ervilha",
+     -2.5,
+     -3.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
      -1.2,
-     1.6,
+     -3.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.2,
+     -3.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     2.5,
+     -3.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 16.0,
+   "d1": 13.0,
+   "bloco": "prova",
+   "say": "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cuidava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MEN:0:grin"
+   ],
+   "props": [
+    [
+     "kit/vagem_verde",
+     -1.0,
+     0.4,
+     0.9,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     1.0,
+     0.4,
+     0.9,
      {
       "fixo": true
      }
@@ -139,88 +248,91 @@
     "thump@40",
     "ding@60"
    ],
-   "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+   "detalhe": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
    },
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": 0.2,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "h": 1.4,
+   "set": "loc_campo",
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Cruzou ervilhas amarelas com verdes e esperou os filhos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "cruzou",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "faz": "x_espera",
+      "na": "esperou",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
-   "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
    "shot": "two",
    "who": [
-    "MEN:0:surprised",
-    "FRE:0:shock"
+    "MEN:0:surprised"
    ],
    "props": [
     [
-     "kit/pea_yellow",
-     0.0,
-     -1.2,
-     1.8,
+     "kit/vagem_amarela",
+     1.1,
+     0.4,
+     0.9,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 11.5 m)",
-    "objetos": [
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.5,
+   "cz": 0.2,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "h": 1.4,
+   "interior": "pedra",
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Todas saíram amarelas, como se o verde tivesse sumido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "amarelas"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "Mendel ficou curioso: para onde tinha ido o verde?",
-   "shot": "two",
-   "interior": "madeira",
+   "shot": "wide",
    "who": [
-    "FRE:0:suspicious",
-    "MEN:0:nervous"
-   ],
-   "interacao": "discutir"
-  },
-  {
-   "say": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
-   "shot": "two",
-   "who": [
-    "MEN:0:neutral:paper",
-    "FRE:0:bored:shovel"
+    "MEN:0:neutral:paper"
    ],
    "props": [
     [
-     "kit/pea_yellow",
-     0.0,
-     -1.2,
-     1.5,
+     "kit/vagem_amarela",
+     0.9,
+     0.4,
+     0.9,
      {
       "fixo": true
      }
@@ -232,29 +344,41 @@
    "sfx": [
     "thump@30"
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_yellow juntos (camera a 11.5 m)",
-    "objetos": [
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": 0.2,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "escalada",
+   "say": "Ele plantou de novo e contou ervilha por ervilha, por anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "x_planta",
+      "na": "plantou",
+      "quem": 0
+     },
+     {
+      "faz": "fala",
+      "na": "contou",
+      "quem": 0
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
    "shot": "two",
    "who": [
-    "MEN:0:shock",
-    "FRE:0:surprised"
+    "MEN:0:shock"
    ],
    "impact": true,
    "tiros": false,
@@ -263,39 +387,52 @@
    },
    "props": [
     [
-     "kit/pea_yellow",
-     3.6,
-     -2.0,
-     1.5,
+     "kit/bancada",
+     0.9,
+     0.5,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_yellow",
-     -3.6,
-     -2.0,
-     1.5,
+     "kit/vagem_verde",
+     0.35,
+     0.3,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
      }
     ],
     [
-     "kit/pea_yellow",
-     -3.6,
-     -2.0,
-     1.5,
+     "kit/vagem_amarela",
+     1.0,
+     0.3,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
      }
     ],
     [
-     "kit/pea_green",
-     0.0,
-     -1.2,
-     1.5,
+     "kit/vagem_amarela",
+     0.35,
+     0.75,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     1.0,
+     0.75,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -307,69 +444,54 @@
     "ding@40",
     "sting@60"
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "orbit; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
-    "objetos": [
+   "text": "3 : 1",
+   "detalhe": true,
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.6,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 5.0,
+   "d1": 4.6,
+   "interior": "pedra",
+   "objetos": false,
+   "bloco": "escalada",
+   "say": "Acontece que o verde voltou: três amarelas para uma verde.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "verde"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "text": "3 : 1"
+   }
   },
   {
-   "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
    "shot": "two",
    "interior": "madeira",
    "who": [
     "MEN:0:smile",
     "FRE:0:surprised"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Cada filho herda uma instrução do pai e outra da mãe.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "herda"
+     }
+    ]
+   }
   },
   {
-   "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
-   "shot": "two",
-   "interior": "madeira",
+   "shot": "wide",
    "who": [
-    "MEN:0:sad:book",
-    "CIE:0:bored"
-   ],
-   "acao": "conversar"
-  },
-  {
-   "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
-   "shot": "group",
-   "who": [
-    "CIE:0:surprised",
-    "CIE:1:grin",
-    "CIE:2:smile"
+    "CIE:0:surprised"
    ],
    "impact": true,
    "tiros": false,
@@ -378,21 +500,32 @@
    },
    "props": [
     [
-     "kit/pea_green",
+     "kit/bancada",
      0.0,
-     -1.2,
-     1.6,
+     -0.4,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_yellow",
-     3.6,
-     -2.0,
-     1.6,
+     "kit/vagem_verde",
+     -0.5,
+     -0.4,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     0.6,
+     -0.4,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -406,62 +539,93 @@
     "sting@70"
    ],
    "acao": "comemorar",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e pea_green juntos (camera a 11.5 m)",
-    "objetos": [
+   "detalhe": false,
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.4,
+   "d0": 7.5,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "interior": "pedra",
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Só depois da morte dele, cientistas viram que estava certo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pea_yellow",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "viram"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "No fim, a ervilha fez o monge famoso.",
    "shot": "two",
    "who": [
-    "MEN:0:smug"
+    "MEN:0:smile:bag"
    ],
    "props": [
     [
-     "kit/pea_green",
-     2.4,
-     0.2,
-     1.6,
+     "kit/pe_ervilha",
+     -1.2,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pe_ervilha",
+     1.4,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/vagem_verde",
+     0.9,
+     0.4,
+     0.6,
      {
       "fixo": true
      }
     ]
    ],
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e pea_green juntos (camera a 8.0 m)",
-    "objetos": [
+   "fx": [
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@60"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.7,
+   "d0": 8.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "objetos": false,
+   "shot_lock": true,
+   "set": "countryside",
+   "bloco": "loop",
+   "say": "A ervilha fez o monge famoso. Tarde demais.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
      {
-      "objeto": "kit/pea_green",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
+      "faz": "mostra",
+      "na": "ervilha"
      }
     ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   }
  ],
  "visual": {
@@ -479,7 +643,7 @@
   },
   "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
   "objetos": [
-   "vagens e ervilhas amarelas e verdes",
+   "vagens verdes e amarelas abertas com ervilhas",
    "caderno de anotacoes",
    "vasos de plantas"
   ],
@@ -491,8 +655,12 @@
    "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
   ],
   "buscas": {
-   "mosteiro": "St Thomas Abbey Brno garden Mendel",
-   "ervilha": "pea pods yellow green"
+   "ervilhas": "pea pods open green yellow peas"
   }
- }
+ },
+ "cinf": 3.0,
+ "exp": 1.129,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um monge contou ervilhas por oito anos e descobriu como herdamos o que somos. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae, a base da genetica.",
+ "loop_frase_ok": true
 }

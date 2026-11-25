@@ -1,0 +1,85 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GOSMA NO FOGÃO",
+ "gancho_cumprido": "Gancho: uma gosma caiu no fogao e mudou o mundo; o nome dele esta nos pneus. Pagamento: nasceu a borracha vulcanizada, hoje em pneus, bolas e sapatos, e a fabrica Goodyear ganhou o nome dele.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um inventor falido deixou cair uma gosma no fogão. E mudou o mundo.",
+   "cair",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "promessa",
+   "E o nome dele está em pneus do mundo inteiro.",
+   "pneus"
+  ],
+  [
+   1,
+   "prova",
+   "Nos Estados Unidos, a borracha estava na moda.",
+   "borracha"
+  ],
+  [
+   2,
+   "prova",
+   "Mas derretia no calor e rachava no frio.",
+   "derretia",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Charles Goodyear gastou todo o dinheiro da família em testes.",
+   "gastou"
+  ],
+  [
+   4,
+   "prova",
+   "Fez tantas dívidas que foi parar na prisão.",
+   "prisão"
+  ],
+  [
+   6,
+   "escalada",
+   "Um dia, a mistura de borracha e enxofre caiu no fogão quente.",
+   "caiu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Acontece que não derreteu. Ficou firme e elástica, como couro.",
+   "firme",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "pagamento",
+   "Décadas depois, a borracha dele estava em pneus, bolas e sapatos.",
+   "pneus"
+  ],
+  [
+   8,
+   "pagamento",
+   "Mas outros copiaram, e ele morreu cheio de dívidas.",
+   "copiaram"
+  ],
+  [
+   0,
+   "loop",
+   "A Goodyear dos pneus ganhou o nome dele. Ele nunca soube.",
+   "nome"
+  ]
+ ]
+}

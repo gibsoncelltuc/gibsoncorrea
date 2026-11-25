@@ -76,25 +76,23 @@
      }
     ]
    ],
-   "text": "335 ANOS",
+   "text": "335 ANOS SEM TIRO",
    "interacao": "discutir",
    "acao": "discutir",
-   "say": "Uma ilha minúscula ficou 335 anos em guerra com a Holanda, e ninguém deu um tiro.",
    "set": "harbor",
    "fachada": false,
+   "titulo": true,
+   "bloco": "gancho",
+   "say": "Você acha que guerra precisa de tiro? Esta durou 335 anos sem nenhum.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ilha"
+      "na": "335"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -107,7 +105,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -117,34 +119,28 @@
     "ILH:1:nervous"
    ],
    "crowd": {
-    "n": 8,
-    "outfits": [
-     "ILH"
-    ],
-    "march": false
+    "n": 0
    },
-   "mapa": "ILHAS SCILLY",
-   "mapa_at": 3,
-   "say": "Tudo começou em mil seiscentos e cinquenta e um, nas ilhas Scilly, perto da Inglaterra.",
    "fachada": false,
+   "bloco": "promessa",
+   "say": "E o jeito que ela acabou é ainda mais absurdo.",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Scilly"
+      "na": "absurdo"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "harbor",
    "who": [
     "ILH:0:grin"
    ],
-   "batalha": true,
-   "tiros": false,
    "crowd": {
     "n": 18,
     "outfits": [
@@ -154,6 +150,22 @@
     "march": false,
     "expr": "angry"
    },
+   "mapa": "ILHAS SCILLY",
+   "mapa_at": 2,
+   "fachada": false,
+   "bloco": "prova",
+   "say": "Em 1651, piratas das ilhas Scilly atacavam navios holandeses.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piratas"
+     }
+    ]
+   },
+   "batalha": true,
+   "tiros": false,
    "props": [
     [
      "ship",
@@ -170,32 +182,20 @@
     ]
    ],
    "fx": [
-    "puff@50"
+    "puff@50",
+    "burst@40",
+    "burst@70"
    ],
    "sfx": [
-    "thump@50"
+    "thump@50",
+    "cannon@40",
+    "cannon@70"
    ],
-   "say": "Piratas das ilhas atacavam navios holandeses, e a Holanda ficou furiosa.",
    "detalhe": false,
-   "fachada": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "Piratas"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "ship",
@@ -204,64 +204,15 @@
       "estado": "chegando"
      }
     ]
-   }
-  },
-  {
-   "shot": "group",
-   "who": [
-    "HOL:0:stern",
-    "MAR:0:angry",
-    "MAR:1:stern"
-   ],
-   "props": [
-    [
-     "ship",
-     0.0,
-     -34.5,
-     2.11,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "say": "A Holanda mandou navios de guerra e exigiu o dinheiro de volta.",
-   "set": "harbor",
-   "fachada": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "mandou",
-      "quem": 0
-     }
-    ]
    },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
    "d0": 21.0,
-   "d1": 20.0,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "group",
-   "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "ship",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "d1": 20.0
   },
   {
-   "shot": "group",
+   "shot": "wide",
    "set": "harbor",
    "who": [
     "MAR:0:angry"
@@ -284,28 +235,23 @@
    ],
    "text": "GUERRA",
    "titulo": true,
-   "say": "Dizem que, como ninguém pagou, o almirante holandês declarou guerra às ilhas.",
    "detalhe": false,
    "fachada": false,
+   "bloco": "prova",
+   "say": "Dizem que a Holanda mandou navios e declarou guerra às ilhas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "fala",
-      "na": "declarou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "declarou"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "ship",
@@ -314,7 +260,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "crowd",
@@ -326,36 +277,73 @@
    "crowd": {
     "n": 0
    },
-   "say": "Acontece que os ingleses assumiram as ilhas pouco depois, e ninguém se lembrou de fazer a paz.",
-   "_susp_ok": true,
+   "bloco": "escalada",
+   "say": "Acontece que a Inglaterra tomou as ilhas antes da Holanda atacar.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ingleses"
+      "na": "tomou"
      }
     ]
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "ILH:0:smile",
-    "ILH:1:grin"
+    "HOL:0:stern"
    ],
-   "acao": "comemorar",
-   "say": "A guerra seguiu esquecida por mais de trezentos anos. As ilhas seguiram a vida normal, sem soldados e sem nenhum navio holandês por perto.",
-   "set": "countryside",
+   "props": [
+    [
+     "ship",
+     0.0,
+     -34.5,
+     2.11,
+     {
+      "mover": [
+       7.0,
+       -34.5
+      ],
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "harbor",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "Os holandeses foram embora. E ninguém assinou a paz.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "ilhas"
+      "na": "embora"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "indo embora"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -363,36 +351,15 @@
     "PRE:0:surprised:book",
     "EMB:0:smile"
    ],
-   "say": "Em mil novecentos e oitenta e cinco, um historiador perguntou se a guerra ainda valia.",
    "interior": "madeira",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "fala",
-      "na": "perguntou",
-      "quem": 0
-     }
-    ]
-   }
-  },
-  {
-   "say": "No ano seguinte, o embaixador holandês foi até as ilhas.",
-   "shot": "two",
-   "set": "harbor",
-   "who": [
-    "EMB:0:smile",
-    "PRE:0:nervous"
-   ],
-   "fachada": false,
+   "bloco": "pagamento",
+   "say": "Em 1985, um historiador perguntou à Holanda: a guerra ainda vale?",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "foi",
-      "quem": 0,
-      "forcar": true
+      "faz": "mostra",
+      "na": "perguntou"
      }
     ]
    }
@@ -401,8 +368,7 @@
    "shot": "two",
    "interior": "pedra",
    "who": [
-    "EMB:0:relief:paper",
-    "PRE:0:relief"
+    "EMB:0:relief:paper"
    ],
    "interacao": "entregar",
    "props": [
@@ -416,21 +382,18 @@
      }
     ]
    ],
-   "say": "Os dois assinaram a paz, e a guerra de 335 anos acabou.",
+   "bloco": "pagamento",
+   "say": "Em 1986, o embaixador holandês foi às ilhas assinar a paz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "escreve",
-      "na": "assinaram",
+      "na": "assinar",
       "quem": 0
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
@@ -444,53 +407,62 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
    "who": [
-    "ILH:0:smile"
+    "ILH:0:laugh",
+    "HOL:0:smug"
    ],
    "props": [
     [
      "kit/scroll",
-     2.4,
-     0.2,
-     1.6,
+     0.0,
+     -1.2,
+     2.0,
      {
       "fixo": true
      }
     ]
    ],
-   "say": "A guerra mais longa e mais calma da história.",
+   "text": "335 ANOS",
+   "interacao": "discutir",
+   "acao": "discutir",
    "set": "harbor",
    "fachada": false,
+   "bloco": "loop",
+   "say": "335 anos de guerra, zero tiros. E você achando que guerra precisa de tiro.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "guerra"
+      "na": "zero"
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "two",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/scroll",
-      "lugar": "MEIO, direita (objeto principal da cena)",
+      "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "ano": 1651,
@@ -525,5 +497,9 @@
    "https://en.wikipedia.org/wiki/Isles_of_Scilly"
   ]
  },
- "variar_cenario": false
+ "variar_cenario": false,
+ "gancho_tipo": "crenca",
+ "loop_frase_ok": true,
+ "gancho_cumprido": "Gancho promete uma guerra de 335 anos sem tiro e um final absurdo; o pagamento mostra a paz assinada so em 1986, porque ninguem lembrou de assinar antes.",
+ "max_wide": 5
 }
