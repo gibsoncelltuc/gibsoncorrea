@@ -39,18 +39,17 @@
  },
  "beats": [
   {
-   "shot": "group",
+   "shot": "two",
    "who": [
-    "EBY:0:grin",
     "MUS:0:surprised",
-    "POV:0:smile"
+    "EBY:0:grin"
    ],
    "props": [
     [
      "kit/coin",
      0.0,
-     -1.2,
-     0.92,
+     -0.6,
+     1.3,
      {
       "fixo": true
      }
@@ -58,7 +57,7 @@
    ],
    "text": "US$ 1,5 BILHÃO",
    "fx": [
-    "stars@6"
+    "stars@12"
    ],
    "sfx": [
     "ding@6"
@@ -68,7 +67,7 @@
    "set": "street",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/coin",
@@ -104,8 +103,12 @@
    },
    "cx": 0.0,
    "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "d0": 13.0,
+   "d1": 12.5,
+   "hora": "dia",
+   "light": "golden",
+   "quadro_manual": true,
+   "h": 1.5
   },
   {
    "shot": "two",
@@ -167,10 +170,29 @@
    "fachada": false,
    "props": [
     [
-     "kit/smartphone",
+     "kit/bancada",
      0.0,
+     -0.4,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/computador_2002",
+     0.0,
+     -0.4,
      1.0,
-     0.98,
+     {
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/tv",
+     0.0,
+     -0.8,
+     0.9,
      {
       "fixo": true
      }
@@ -181,12 +203,24 @@
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/smartphone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "11% da altura da tela",
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/computador_2002",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -199,7 +233,15 @@
       "na": "mandar"
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.5,
+   "d0": 8.5,
+   "d1": 8.0,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -222,7 +264,9 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "hora": "dia",
+   "light": "day"
   },
   {
    "shot": "two",
@@ -288,19 +332,21 @@
       "na": "rico"
      }
     ]
-   }
+   },
+   "text": "ELON MUSK",
+   "tat": 0
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "MUS:0:laugh"
    ],
    "props": [
     [
-     "kit/falcon9_land",
+     "kit/rocket",
      0.0,
-     -12.8,
-     1.1,
+     -3.0,
+     1.0,
      {
       "fixo": true
      }
@@ -315,18 +361,17 @@
    ],
    "say": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
    "fachada": false,
-   "set": "loc_pista",
    "crowd": {
     "n": 0
    },
    "objetos": false,
    "detalhe": false,
    "quadro": {
-    "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "local": "galpao",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "kit/falcon9_land",
+      "objeto": "kit/rocket",
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
@@ -344,13 +389,15 @@
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 3.9,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -1.5,
+   "h": 1.8,
+   "d0": 11.0,
+   "d1": 10.5,
+   "interior": "galpao",
+   "quadro_manual": true
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:grin"
    ],
@@ -382,7 +429,7 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster2008",
@@ -392,7 +439,7 @@
      }
     ]
    },
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -402,6 +449,8 @@
      }
     ]
    },
+   "hora": "dia",
+   "light": "day",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -426,7 +475,7 @@
      }
     ],
     [
-     "kit/falcon9_land",
+     "kit/rocket",
      -4.2,
      -7.0,
      1.0,
@@ -458,7 +507,7 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/falcon9_land",
+      "objeto": "kit/rocket",
       "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
@@ -492,7 +541,9 @@
    "_auto_vis": 3,
    "detalhe": true,
    "quadro_manual": true,
-   "h": 2.4
+   "h": 2.4,
+   "hora": "dia",
+   "light": "day"
   },
   {
    "shot": "wide",
@@ -540,6 +591,8 @@
      }
     ]
    },
+   "hora": "dia",
+   "light": "day",
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.8,

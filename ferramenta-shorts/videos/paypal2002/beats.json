@@ -187,6 +187,15 @@
       "fixo": true,
       "y": 1.22
      }
+    ],
+    [
+     "kit/tv",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "E-MAIL = DINHEIRO",
@@ -207,6 +216,12 @@
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/tv",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
@@ -222,9 +237,11 @@
    "quadro_manual": true,
    "cx": 0.0,
    "cz": -0.4,
-   "h": 1.5,
-   "d0": 8.5,
-   "d1": 8.0
+   "h": 1.6,
+   "d0": 11.5,
+   "d1": 11.0,
+   "_susp_tela": true,
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -380,7 +397,7 @@
    "quadro_manual": true
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "MUS:0:grin"
    ],
@@ -412,7 +429,7 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_pista",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o roadster2008 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/roadster2008",
@@ -422,7 +439,7 @@
      }
     ]
    },
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -449,26 +466,26 @@
    "props": [
     [
      "kit/coin",
-     0.0,
-     -0.8,
-     1.4,
+     0.6,
+     -0.4,
+     1.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/rocket",
-     -4.2,
-     -7.0,
-     1.0,
+     -3.4,
+     -4.0,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
      "kit/roadster2008",
-     4.6,
-     -6.0,
+     4.2,
+     -5.0,
      1.8,
      {
       "fixo": true
@@ -517,7 +534,7 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.0,
+   "cz": -2.0,
    "d0": 14.0,
    "d1": 13.0,
    "_auto_vis": 3,

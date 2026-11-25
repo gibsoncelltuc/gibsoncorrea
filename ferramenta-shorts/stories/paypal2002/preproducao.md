@@ -6,7 +6,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/coin | - | -
 b1 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/tv | - | -
-b2 | interior madeira | group | 2 | conversar, INTERAGEM: insiste | kit/bancada, kit/computador_2002 | - | -
+b2 | interior madeira | group | 2 | conversar, INTERAGEM: insiste | kit/bancada, kit/computador_2002, kit/tv | - | -
 b3 | loc_cidade | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: aproxima-se | kit/coin | - | -
 b5 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
