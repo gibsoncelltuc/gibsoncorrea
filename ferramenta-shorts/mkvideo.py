@@ -2010,7 +2010,7 @@ def build_beat(k, b):
     elif b.get('veiculo'): opts.append("hero: { hero: 'none' }")   # motorista fica atras do carro de proposito
     elif persons: opts.append("hero: { hero: 'any', frame: 'medium', minH: 0.07, main: %d }" % len(persons))
     if b.get('trans'): opts.append(f"trans: {json.dumps(b['trans'])}")
-    elif k > 0: opts.append("trans: 'dissolve'")   # canal: quase sem corte seco; troca de cena por fusao curta
+    elif k > 0: opts.append("trans: 'dissolve'" if k % 4 == 0 else "trans: 'cut'")   # 25/11 (Gibson): CORTE SECO na maioria das trocas de cena, fusao curta so' de vez em quando (a camera ja respira dentro da cena)
     if b.get('vary') is False and not wide: opts.append('vary: false')
     mt_ = b.get('montado')
     if mt_ and acts and persons:
