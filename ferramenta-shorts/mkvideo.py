@@ -111,7 +111,7 @@ _GLEN = {}
 # ===== v13 TAMANHO REAL (24/11, Gibson: "carro tem tamanho de carro, tanque de tanque, balao de gente e' gigante, balao de festa e' pequeno") =====
 # metros reais da MAIOR medida (L = comprimento, H = altura). O boneco tem ~3 unidades de altura => 1 metro real = _KM unidades no cenario.
 _KM = 1.35
-_TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'finch|passarinho|tentilh', 0.6, 'H', 'max'), (r'(^|/)apple$', 0.3, 'H', 'max'), (r'lobster|lagosta', 1.4, 'L', 'max'), (r'cybertruck', 5.7, 'L', 'min'), (r'roadster|carro_redondo|carro_50|vehicles/car$|taxi|police', 4.5, 'L', 'min'), (r'carro_antigo', 3.9, 'L', 'min'), (r'jeep|jipe', 3.7, 'L', 'min'),
+_TAM_REAL = ((r'balao_festa|party_balloon|bexiga', 0.4, 'H', 'max'), (r'finch|passarinho|tentilh', 0.6, 'H', 'max'), (r'(^|/)apple$', 0.3, 'H', 'max'), (r'lobster|lagosta', 1.4, 'L', 'max'), (r'smartphone|kit/phone$|celular', 0.6, 'H', 'max'), (r'cybertruck', 5.7, 'L', 'min'), (r'roadster|carro_redondo|carro_50|vehicles/car$|taxi|police', 4.5, 'L', 'min'), (r'carro_antigo', 3.9, 'L', 'min'), (r'jeep|jipe', 3.7, 'L', 'min'),
              (r'truck|caminh', 7.5, 'L', 'min'), (r'onibus|\bbus', 11.0, 'L', 'min'), (r'tank|tanque(?!_ar)|blindado', 7.0, 'L', 'min'), (r'motorcycle|moto\b', 2.2, 'L', 'min'), (r'bicycle|bicicleta', 1.8, 'L', 'min'),
              (r'wagon|carroca|charrete|diligencia', 3.6, 'L', 'min'), (r'helicopter|helicoptero', 12.0, 'L', 'min'), (r'b2_|aviao|plane|biplano', 12.0, 'L', 'min'), (r'balloon|balao', 14.0, 'H', 'min'),
              (r'canhao_moderno', 4.5, 'L', 'min'), (r'^cannon$|canhao', 2.8, 'L', 'min'), (r'locomotiva|\btrem\b|train', 14.0, 'L', 'min'), (r'trator|tractor', 4.0, 'L', 'min'), (r'barco|boat|canoa', 5.0, 'L', 'min'), (r'piano', 1.6, 'L', 'min'),
@@ -160,6 +160,9 @@ for _b in B['beats']:
         _b['_obj_acao'] = True; _b['shot'] = 'two'; _b['shot_lock'] = True; _b['who'] = (_b.get('who') or [])[:2]; _b['crowd'] = {'n': 0, 'outfits': [w_.split(':')[0] for w_ in _b['who']] or ['POV'], 'march': False}; _b['detalhe'] = False; _b['fachada'] = False
 # ===== VARIEDADE DE CENARIO (ordem do Gibson 19/11: "cada video tem que ter cenarios diferentes") =====
 # 1) a narracao escolhe o lugar da cena; 2) nenhum lugar ocupa mais da metade do video e todo video tem pelo menos 3 lugares
+for _b in B['beats']:   # 25/11 Selfie na ONU: o set 'hall' e' um patio SEM TETO (ceu aberto); plenario/assembleia/congresso e' sala fechada de governo
+    _tt = __import__('unicodedata').normalize('NFKD', (_b.get('say', '') + ' ' + str(B.get('titulo') or B.get('title') or '')).lower()).encode('ascii', 'ignore').decode()
+    if _b.get('set') == 'hall' and not _b.get('interior') and re.search(r'\bonu\b|assembleia|plenario|parlamento|congresso|senado|tribunal|pulpito|discurso', _tt): _b.pop('set'); _b['interior'] = 'pedra'
 _EXPL = {i_ for i_, b_ in enumerate(B['beats']) if b_.get('set') or b_.get('interior')}   # o que o roteiro fixou nao muda
 _LUGAR = ((r'australia|\bemus?\b', 'set', 'outback'), (r'desert|areia|egito|egipci|piramide|arabia|saara|faraó|farao|seca\b|caravana', 'set', 'loc_deserto'),
           (r'florest|selva|amazon|\bmata\b|tribo|aldeia|indigena', 'set', 'jungle'),
