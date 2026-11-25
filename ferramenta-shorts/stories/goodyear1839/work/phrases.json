@@ -1,0 +1,162 @@
+{
+ "duration": 29.856,
+ "frames30": 896,
+ "source": "silence-align (cost 0.64)",
+ "segments": [
+  [
+   0.0,
+   2.13546
+  ],
+  [
+   2.50887,
+   3.26225
+  ],
+  [
+   3.62625,
+   5.54175
+  ],
+  [
+   5.92046,
+   8.00704
+  ],
+  [
+   8.21717,
+   9.22854
+  ],
+  [
+   9.60796,
+   11.5694
+  ],
+  [
+   11.9452,
+   14.6566
+  ],
+  [
+   15.0305,
+   16.9137
+  ],
+  [
+   17.2933,
+   17.7016
+  ],
+  [
+   17.9437,
+   19.8861
+  ],
+  [
+   20.2632,
+   21.541
+  ],
+  [
+   21.9202,
+   23.0397
+  ],
+  [
+   23.4079,
+   24.6809
+  ],
+  [
+   24.8833,
+   26.0482
+  ],
+  [
+   26.4199,
+   27.602
+  ],
+  [
+   27.7664,
+   28.4939
+  ],
+  [
+   28.8657,
+   29.4261
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma gosma caiu no fog\u00e3o de um inventor falido.",
+   "s": 0.0,
+   "e": 2.135
+  },
+  {
+   "text": "E mudou o mundo.",
+   "s": 2.509,
+   "e": 3.262
+  },
+  {
+   "text": "E o nome dele est\u00e1 em pneus do mundo inteiro.",
+   "s": 3.626,
+   "e": 5.542
+  },
+  {
+   "text": "Nos Estados Unidos de 1830,",
+   "s": 5.92,
+   "e": 8.007
+  },
+  {
+   "text": "a borracha virou moda.",
+   "s": 8.217,
+   "e": 9.229
+  },
+  {
+   "text": "Mas derretia no calor e rachava no frio.",
+   "s": 9.608,
+   "e": 11.569
+  },
+  {
+   "text": "Charles Goodyear gastou todo o dinheiro da fam\u00edlia em testes.",
+   "s": 11.945,
+   "e": 14.657
+  },
+  {
+   "text": "Fez tantas d\u00edvidas que foi parar na pris\u00e3o.",
+   "s": 15.03,
+   "e": 16.914
+  },
+  {
+   "text": "Um dia,",
+   "s": 17.293,
+   "e": 17.702
+  },
+  {
+   "text": "borracha com enxofre caiu no fog\u00e3o quente.",
+   "s": 17.944,
+   "e": 19.886
+  },
+  {
+   "text": "Acontece que n\u00e3o derreteu.",
+   "s": 20.263,
+   "e": 21.541
+  },
+  {
+   "text": "Ficou firme e el\u00e1stica.",
+   "s": 21.92,
+   "e": 23.04
+  },
+  {
+   "text": "Era a borracha vulcanizada,",
+   "s": 23.408,
+   "e": 24.681
+  },
+  {
+   "text": "hoje em pneus e sapatos.",
+   "s": 24.883,
+   "e": 26.048
+  },
+  {
+   "text": "A Goodyear ganhou o nome dele,",
+   "s": 26.42,
+   "e": 27.602
+  },
+  {
+   "text": "sem ele saber.",
+   "s": 27.766,
+   "e": 28.494
+  },
+  {
+   "text": "Tudo porque...",
+   "s": 28.866,
+   "e": 29.426
+  }
+ ]
+}

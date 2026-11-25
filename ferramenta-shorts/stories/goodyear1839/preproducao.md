@@ -12,7 +12,7 @@ b4 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - 
 b5 | interior madeira | group | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b6 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
 b7 | interior madeira | two | 1 | comemorar | kit/stove | borracha | -
-b8 | street | orbit | 21 | comemorar, batalha | kit/tires, kit/bola_couro, kit/borracha, kit/stove | - | -
+b8 | street | orbit | 3 | comemorar, batalha | kit/tires, kit/bola_couro, kit/borracha, kit/stove | - | -
 b9 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
 
 OBJETO HEROI: kit/borracha

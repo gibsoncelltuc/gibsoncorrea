@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 18 de POV
+- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao grin); CLA (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/tires, kit/bola_couro, kit/borracha, kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
