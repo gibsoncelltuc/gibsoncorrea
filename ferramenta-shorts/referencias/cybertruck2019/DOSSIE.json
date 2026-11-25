@@ -5,7 +5,7 @@
   "ano": 2019,
   "era": "atual (1950+)",
   "regiao": "eua",
-  "luz_base": "day",
+  "luz_base": "golden",
   "cenarios": [
    "hall"
   ],
