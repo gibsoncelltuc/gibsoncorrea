@@ -58,10 +58,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GOO no centro, expressao surprised; sem multidao; acao: comemorar
-- OBJETO kit/borracha: FRENTE, centro (objeto principal da cena); tamanho na tela: 5% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.4 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- PERSONAGENS: GOO no centro, expressao surprised, segura borracha; sem multidao; acao: comemorar
+- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
 

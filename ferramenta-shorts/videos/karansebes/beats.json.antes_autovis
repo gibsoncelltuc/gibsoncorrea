@@ -67,7 +67,6 @@
     "AUT:2:neutral",
     "AUT:3:stern"
    ],
-   "text": "1788",
    "tat": 4,
    "light": "golden",
    "mood": "march",
@@ -84,7 +83,17 @@
    "lados": [
     "AUT",
     "HUS"
-   ]
+   ],
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perder",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
@@ -107,6 +116,16 @@
      "HUS"
     ],
     "march": true
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marchando",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -136,7 +155,19 @@
    },
    "montado": {
     "dir": 1
-   }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "procurar",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "_auto_vis": 1
   },
   {
    "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
@@ -171,10 +202,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
@@ -186,7 +213,30 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "acharam",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "quem": 1,
+      "faz": "entrega",
+      "alvo_quem": 0,
+      "na": "vendendo",
+      "forcar": true
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -204,9 +254,9 @@
     ],
     [
      "tools/lantern",
-     0.6,
-     1.0,
-     1.5
+     0.0,
+     1.4,
+     2.0
     ]
    ],
    "text": "AGUARDENTE",
@@ -222,7 +272,23 @@
     "march": false
    },
    "acao": "beber",
-   "_auto_vis": 2
+   "_auto_vis": 3,
+   "detalhe": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_bebe",
+      "na": "beberam",
+      "quem": 0
+     },
+     {
+      "faz": "vence",
+      "na": "festa",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",
@@ -250,7 +316,22 @@
     ],
     "march": false
    },
-   "acao": "discutir"
+   "acao": "discutir",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegou",
+      "quem": 0
+     },
+     {
+      "faz": "atira",
+      "na": "tiro",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -271,6 +352,16 @@
     ],
     "march": false,
     "expr": "shock"
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "grita",
+      "na": "gritou",
+      "quem": 0
+     }
+    ]
    }
   },
   {
@@ -296,7 +387,17 @@
    "lados": [
     "AUT",
     "HUS"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirava",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
@@ -344,11 +445,6 @@
     "cannon@97",
     "cannon@109"
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -369,6 +465,26 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     },
+     {
+      "faz": "atira",
+      "na": "dispararam"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.1,
+   "d1": 16.2,
+   "_enq_shot": "wide",
    "_auto_vis": 1
   },
   {
@@ -384,7 +500,22 @@
    "tstyle": "gold",
    "light": "dawn",
    "mood": "calm",
-   "detalhe": false
+   "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0
+     },
+     {
+      "faz": "olha",
+      "na": "acharam",
+      "quem": 1
+     }
+    ]
+   }
   },
   {
    "say": "Os turcos venceram sem dar um único tiro.",
@@ -398,7 +529,17 @@
    "tstyle": "red",
    "light": "dawn",
    "mood": "calm",
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceram",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false,

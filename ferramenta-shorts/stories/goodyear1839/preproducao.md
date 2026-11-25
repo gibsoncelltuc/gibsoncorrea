@@ -11,7 +11,7 @@ b3 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua |
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: empurrar | - | - | -
 b5 | interior madeira | two | 1 | conversar | kit/stove | - | -
 b6 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
-b7 | interior madeira | two | 1 | comemorar | kit/stove, kit/borracha | - | -
+b7 | interior madeira | two | 1 | comemorar | kit/stove | borracha | -
 b8 | hall | orbit | 8 | discutir | - | - | -
 b9 | street | orbit | 21 | comemorar, batalha | kit/tires, kit/bola_couro, kit/borracha, kit/stove | - | -
 b10 | interior galpao | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/tires | - | -
