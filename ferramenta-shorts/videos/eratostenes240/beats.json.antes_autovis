@@ -92,15 +92,6 @@
     ]
    },
    "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "vara"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -180,16 +171,6 @@
     ]
    },
    "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_le",
-      "na": "leu",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -240,15 +221,6 @@
     ]
    },
    "_enq_shot": "two",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "sombra"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -328,15 +300,6 @@
       "fincada"
      ]
     ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "vara"
-     }
-    ]
    }
   },
   {
@@ -383,16 +346,6 @@
    },
    "set": "medieval",
    "_enq_shot": "two",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "pensa",
-      "na": "pensou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -490,15 +443,6 @@
       "curva"
      ]
     ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "sombra"
-     }
-    ]
    }
   },
   {
@@ -537,21 +481,6 @@
    },
    "_enq_shot": "wide",
    "detalhe": false,
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "examina",
-      "na": "mediu",
-      "quem": 0
-     },
-     {
-      "faz": "fala",
-      "na": "contou",
-      "quem": 0
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -566,17 +495,7 @@
     "ERA:0:grin:paper",
     "BIB:0:surprised"
    ],
-   "interacao": "cochichar",
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "olha",
-      "na": "encontrou",
-      "quem": 0
-     }
-    ]
-   }
+   "interacao": "cochichar"
   },
   {
    "say": "No fim, uma vara e um poço fizeram o trabalho de um satélite.",
@@ -631,15 +550,6 @@
     "n": 0
    },
    "_enq_shot": "wide",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "satélite"
-     }
-    ]
-   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
