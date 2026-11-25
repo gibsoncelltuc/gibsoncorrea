@@ -1,0 +1,135 @@
+{
+ "duration": 33.168,
+ "frames30": 995,
+ "source": "silence-align (cost 1.87)",
+ "segments": [
+  [
+   0.0,
+   3.48008
+  ],
+  [
+   3.85892,
+   6.12467
+  ],
+  [
+   6.48392,
+   7.52842
+  ],
+  [
+   7.79025,
+   10.5447
+  ],
+  [
+   10.9204,
+   13.882
+  ],
+  [
+   14.2545,
+   17.5552
+  ],
+  [
+   17.9345,
+   18.8882
+  ],
+  [
+   19.1625,
+   20.247
+  ],
+  [
+   20.519,
+   22.7412
+  ],
+  [
+   23.1183,
+   24.5505
+  ],
+  [
+   24.8122,
+   26.6756
+  ],
+  [
+   27.0456,
+   29.3697
+  ],
+  [
+   29.7405,
+   30.9505
+  ],
+  [
+   31.3289,
+   32.7308
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um pa\u00eds inteiro apostou o pr\u00f3prio dinheiro numa moeda digital.",
+   "s": 0.0,
+   "e": 3.48
+  },
+  {
+   "text": "E o final dessa aposta ningu\u00e9m esperava.",
+   "s": 3.859,
+   "e": 6.125
+  },
+  {
+   "text": "Em 2021,",
+   "s": 6.484,
+   "e": 7.528
+  },
+  {
+   "text": "El Salvador adotou o bitcoin como moeda oficial.",
+   "s": 7.79,
+   "e": 10.545
+  },
+  {
+   "text": "Quem baixasse o aplicativo ganhava trinta d\u00f3lares.",
+   "s": 10.92,
+   "e": 13.882
+  },
+  {
+   "text": "O governo at\u00e9 minerava bitcoin com a energia de um vulc\u00e3o.",
+   "s": 14.255,
+   "e": 17.555
+  },
+  {
+   "text": "Acontece que,",
+   "s": 17.934,
+   "e": 18.888
+  },
+  {
+   "text": "em 2022,",
+   "s": 19.163,
+   "e": 20.247
+  },
+  {
+   "text": "o bitcoin despencou para dezesseis mil.",
+   "s": 20.519,
+   "e": 22.741
+  },
+  {
+   "text": "Mas em 2024,",
+   "s": 23.118,
+   "e": 24.55
+  },
+  {
+   "text": "ele passou de cem mil d\u00f3lares.",
+   "s": 24.812,
+   "e": 26.676
+  },
+  {
+   "text": "As reservas no preju\u00edzo viraram lucro.",
+   "s": 27.046,
+   "e": 29.37
+  },
+  {
+   "text": "Maluquice ou vis\u00e3o?",
+   "s": 29.741,
+   "e": 30.951
+  },
+  {
+   "text": "S\u00f3 sei que foi assim que...",
+   "s": 31.329,
+   "e": 32.731
+  }
+ ]
+}

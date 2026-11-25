@@ -17,8 +17,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Em 2021, El Salvador adotou o bitcoin como moeda oficial."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: close (rosto e ombros)
-- PERSONAGENS: BUK no centro, expressao grin; sem multidao; acao: fala/gesto
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: BUK na esquerda, expressao grin; CLI na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 

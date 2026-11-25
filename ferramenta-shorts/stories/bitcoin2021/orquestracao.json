@@ -61,9 +61,10 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
-    "BUK"
+    "BUK",
+    "CLI"
    ],
    "multidao": 0,
    "objetos": [
