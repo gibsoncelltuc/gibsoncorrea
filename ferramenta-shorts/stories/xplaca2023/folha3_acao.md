@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 03 - O X no Prédio do Twitter
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
@@ -97,25 +97,44 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 27.9s a 33.3s - 20 palavras - plano two
+## Cena b6 - 27.9s a 31.1s - 13 palavras - plano two
+> "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (28.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | discutir | OK |
+| 2 | - | ATUACAO | discutir | OK |
+| 3 | - | PLACA | X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b7 - 31.3s a 38.4s - 20 palavras - plano two
 > "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | recebeu (28.6s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | abriu (31.1s) | ACAO: x_abre | empurra a porta | OK |
+| 1 | recebeu (32.4s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 2 | abriu (35.7s) | ACAO: x_abre | empurra a porta | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra recebeu (28.6s): executa: estende a mao entregando
-- ACAO: x_abre na palavra abriu (31.1s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ACAO: x_entrega na palavra recebeu (32.4s): executa: estende a mao entregando
+- ACAO: x_abre na palavra abriu (35.7s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 34.6s a 37.0s - 11 palavras - plano two
+## Cena b8 - 38.7s a 42.1s - 11 palavras - plano two
 > "A empresa disse que era uma placa temporária para um evento."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -129,37 +148,37 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 38.3s a 42.6s - 17 palavras - plano two
+## Cena b9 - 42.2s a 48.5s - 17 palavras - plano two
 > "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | retirado (42.6s) | ACAO: sai | sai andando pela lateral | OK |
+| 1 | retirado (48.5s) | ACAO: sai | sai andando pela lateral | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: sai na palavra retirado (42.6s): executa: sai andando pela lateral
+- ACAO: sai na palavra retirado (48.5s): executa: sai andando pela lateral
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 44.0s a 47.0s - 12 palavras - plano two
+## Cena b10 - 48.9s a 51.8s - 12 palavras - plano two
 > "Moral da história: até trocar de nome precisa de licença da prefeitura."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | trocar (45.2s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | trocar (50.2s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra trocar (45.2s): executa: estende a mao entregando
+- ACAO: x_entrega na palavra trocar (50.2s): executa: estende a mao entregando
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 48.5s a 51.8s - 13 palavras - plano close
+## Cena b11 - 51.8s a 51.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

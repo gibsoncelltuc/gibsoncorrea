@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 05 - Cem Dias ou de Graça
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 11 palavras - plano two
@@ -77,14 +77,29 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b5 - 26.6s a 30.2s - 14 palavras - plano two
+## Cena b5 - 26.6s a 30.2s - 14 palavras - plano wide
+> "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bateria" (26.8s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | MAPA | Jamestown | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b6 - 31.4s a 36.5s - 14 palavras - plano two
 > "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 31.4s a 34.3s - 11 palavras - plano two
+## Cena b7 - 36.8s a 39.4s - 11 palavras - plano two
 > "O empresário que fez o desafio teve que admitir: Musk cumpriu."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -98,7 +113,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 35.7s a 39.4s - 14 palavras - plano two
+## Cena b8 - 40.4s a 45.5s - 14 palavras - plano two
 > "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -110,23 +125,23 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 40.4s a 43.1s - 10 palavras - plano two
+## Cena b9 - 45.8s a 49.4s - 10 palavras - plano two
 > "E tudo começou com uma resposta curta, escrita no celular."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | celular (43.1s) | ACAO: x_fone | celular na mao + toque | OK |
+| 1 | celular (49.4s) | ACAO: x_fone | celular na mao + toque | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_fone na palavra celular (43.1s): executa: celular na mao + toque
+- ACAO: x_fone na palavra celular (49.4s): executa: celular na mao + toque
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 44.4s a 48.1s - 13 palavras - plano group
+## Cena b10 - 49.9s a 52.7s - 13 palavras - plano group
 > "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -140,7 +155,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b10 - 49.4s a 52.7s - 13 palavras - plano close
+## Cena b11 - 52.7s a 52.7s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

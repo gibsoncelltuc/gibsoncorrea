@@ -36,13 +36,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@20
 - SOM: sting@50
 
-## b4: "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
+## b4: "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo."
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: TRU na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: conversar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b5: "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: PAI na esquerda, expressao suspicious, segura paper; FIL na direita, expressao bored; sem multidao; acao: discutir
 - OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b5: "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
+## b6: "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: EXE (empresario) na esquerda, expressao sad; EXE (empresario) na direita, expressao nervous; sem multidao; acao: fala/gesto
@@ -51,7 +57,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "800 MIL" flutuando no alto, na palavra 1 da frase
 
-## b6: "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
+## b7: "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao grin; EXE (empresario) na direita, expressao surprised; sem multidao; acao: entregar
@@ -59,7 +65,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b7: "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
+## b8: "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos."
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
+- PERSONAGENS: EXE (empresario) na esquerda, expressao smile; TRU na direita, expressao grin; sem multidao; acao: conversar
+- OBJETO kit/boardgame: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b9: "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; POV no centro, expressao laugh; POV na direita, expressao grin; sem multidao; acao: comemorar
@@ -70,7 +82,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VOLTOU" flutuando no alto, na palavra 1 da frase
 
-## b8: "Um jogo sobre ficar bilionário, que virou curiosidade."
+## b10: "Um jogo sobre ficar bilionário, que virou curiosidade."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
 - PERSONAGENS: TRU no centro, expressao smile; sem multidao; acao: comemorar

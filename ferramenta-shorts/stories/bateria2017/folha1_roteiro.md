@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 05 - Cem Dias ou de Graça
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 11 cenas, 153 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 12 cenas, 167 palavras (~58 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um homem apostou cinquenta milhões de dólares numa conversa no Twitter.
@@ -48,6 +48,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b5  (~4.8 s)
+- Narracao: A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: Jamestown
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~4.8 s)
 - Narracao: A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -56,7 +65,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.8 s)
+## Cena b7  (~3.8 s)
 - Narracao: O empresário que fez o desafio teve que admitir: Musk cumpriu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -65,7 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.8 s)
+## Cena b8  (~4.8 s)
 - Narracao: Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -74,7 +83,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
+## Cena b9  (~3.4 s)
 - Narracao: E tudo começou com uma resposta curta, escrita no celular.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -83,7 +92,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
+## Cena b10  (~4.5 s)
 - Narracao: Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,7 +101,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~4.5 s)
+## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -

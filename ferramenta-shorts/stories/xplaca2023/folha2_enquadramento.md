@@ -46,25 +46,32 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@40
 - TEXTO NA TELA: "X" flutuando no alto, na palavra 1 da frase
 
-## b6: "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão."
+## b6: "A luz do X piscava de madrugada e entrava nas janelas dos vizinhos."
+- LOCAL: rua de cidade (predios dos dois lados); hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: POV na esquerda, expressao angry; JOR na direita, expressao surprised; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "X" numa placa atras dos personagens, na palavra 1 da frase
+
+## b7: "A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão."
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FIS na esquerda, expressao angry; MUS na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "A empresa disse que era uma placa temporária para um evento."
+## b8: "A empresa disse que era uma placa temporária para um evento."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao smug; FIS na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado."
+## b9: "A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FIS na esquerda, expressao shock; OPE (pedreiro) na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Moral da história: até trocar de nome precisa de licença da prefeitura."
+## b10: "Moral da história: até trocar de nome precisa de licença da prefeitura."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e phone juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto

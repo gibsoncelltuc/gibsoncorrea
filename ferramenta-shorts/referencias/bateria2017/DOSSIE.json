@@ -37,6 +37,8 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/apartment",
+  "buildings/house_two",
   "kit/megapack",
   "kit/phone",
   "kit/room_azul_shop",
@@ -53,6 +55,7 @@
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Vase_4",
+  "nature/lamppost",
   "nature/picket_fence"
  ],
  "pesquisa_visual": {

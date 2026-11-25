@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 18 - O Jogo de Tabuleiro do Trump
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 34 acoes catalogadas, 34 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.1s - 13 palavras - plano two
@@ -66,7 +66,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b4 - 20.6s a 24.5s - 16 palavras - plano two
+## Cena b4 - 20.6s a 23.7s - 13 palavras - plano two
+> "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "caixa" (23.3s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | apareceu (21.3s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | INTERACAO | insiste | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra apareceu (21.3s): executa: poeira + som
+- INTERACAO (a cena toda): executa: insiste
+- ATUACAO (a cena toda): executa: conversar
+- CHEGADA (a cena toda): executa: alguem entra andando
+<!-- /FISICA -->
+
+## Cena b5 - 23.9s a 30.5s - 16 palavras - plano two
 > "Acontece que o manual era longo, e as famílias abriam a caixa e não entendiam nada."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -80,58 +101,75 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b5 - 25.6s a 29.5s - 12 palavras - plano two
+## Cena b6 - 30.6s a 34.4s - 12 palavras - plano two
 > "A fábrica esperava vender dois milhões de jogos, e vendeu oitocentos mil."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | esperava (26.1s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 2 | vender (26.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 3 | vender (26.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 4 | vendeu (28.5s) | EFEITO: stars | estrelinhas + som | OK |
-| 5 | vendeu (28.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | esperava (30.9s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 2 | vender (31.1s) | EFEITO: stars | estrelinhas + som | OK |
+| 3 | vender (31.1s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 4 | vendeu (33.0s) | EFEITO: stars | estrelinhas + som | OK |
+| 5 | vendeu (33.0s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 6 | - | INTERACAO | susto | OK |
 | 7 | - | ATUACAO | conversar | OK |
 | 8 | - | PLACA | 800 MIL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_espera na palavra esperava (26.1s): executa: espera de bracos cruzados
-- EFEITO: stars na palavra vender (26.7s): executa: estrelinhas + som
-- ACAO: negocio na palavra vender (26.7s): executa: moeda girando (compra/venda)
-- EFEITO: stars na palavra vendeu (28.5s): executa: estrelinhas + som
-- ACAO: negocio na palavra vendeu (28.5s): executa: moeda girando (compra/venda)
+- ACAO: x_espera na palavra esperava (30.9s): executa: espera de bracos cruzados
+- EFEITO: stars na palavra vender (31.1s): executa: estrelinhas + som
+- ACAO: negocio na palavra vender (31.1s): executa: moeda girando (compra/venda)
+- EFEITO: stars na palavra vendeu (33.0s): executa: estrelinhas + som
+- ACAO: negocio na palavra vendeu (33.0s): executa: moeda girando (compra/venda)
 - INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 30.5s a 33.1s - 12 palavras - plano orbit
+## Cena b7 - 34.6s a 37.5s - 12 palavras - plano orbit
 > "Em dois mil e quatro, Trump virou estrela do programa O Aprendiz."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b7 - 34.4s a 38.9s - 18 palavras - plano crowd
+## Cena b8 - 37.6s a 42.3s - 11 palavras - plano two
+> "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "jogo" (40.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | vai ate o outro | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 42.4s a 47.5s - 18 palavras - plano crowd
 > "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (35.1s) | ACAO: chega | entra andando pela lateral | OK |
+| 1 | voltou (44.7s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 | 4 | - | PLACA | VOLTOU | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (35.1s): executa: entra andando pela lateral
+- ACAO: chega na palavra voltou (44.7s): executa: entra andando pela lateral
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b8 - 40.4s a 42.7s - 8 palavras - plano two
+## Cena b10 - 47.5s a 47.5s - 8 palavras - plano two
 > "Um jogo sobre ficar bilionário, que virou curiosidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -143,7 +181,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b9 - 44.2s a 47.5s - 13 palavras - plano close
+## Cena b11 - 47.5s a 47.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

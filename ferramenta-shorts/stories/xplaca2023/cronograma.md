@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 03 - O X no Prédio do Twitter
 
-Gerado em 25/11 01:59 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 01:59 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -12,11 +12,12 @@ b2 | chave | loc_cidade | group | OPE, OPE2, MUS | 10 | finch | corpo: tropa/per
 b3 | simples | interior loja | two | OPE, FIS | - | - | - | Mas o trabalho parou no meio, porque faltavam licenças.
 b4 | transicao | loc_cidade | wide | OPE2 | 6 | - | - | Sobraram só as letras E e R, em cinza, na fachada.
 b5 | chave | loc_cidade | crowd | MUS | - | apartment, house_two, marco_goldengate, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que depois instalaram um X gigante piscando no alto do prédio
-b6 | simples | interior pedra | two | FIS, MUS | - | - | - | A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab
-b7 | simples | interior loja | two | MUS, FIS | - | - | - | A empresa disse que era uma placa temporária para um evento.
-b8 | simples | loc_cidade | two | FIS, OPE | - | - | - | A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido
-b9 | simples | interior madeira | two | MUS | - | phone | - | Moral da história: até trocar de nome precisa de licença da prefeitura
-b10 | simples | interior madeira | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b6 | simples | loc_cidade | two | POV, JOR | - | house_small, picket_fence, tree_oak | - | A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.
+b7 | simples | interior pedra | two | FIS, MUS | - | - | - | A prefeitura recebeu vinte e quatro reclamações num fim de semana e ab
+b8 | simples | interior loja | two | MUS, FIS | - | - | - | A empresa disse que era uma placa temporária para um evento.
+b9 | simples | loc_cidade | two | FIS, OPE | - | - | - | A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido
+b10 | simples | interior madeira | two | MUS | - | phone | - | Moral da história: até trocar de nome precisa de licença da prefeitura
+b11 | simples | interior madeira | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -25,7 +26,7 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (4/13 itens) | PENDENTE | python3 pesquisar.py xplaca2023
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 2) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
