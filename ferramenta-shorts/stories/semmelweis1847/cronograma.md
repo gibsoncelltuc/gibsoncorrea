@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
-Gerado em 25/11 06:46 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:00 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 

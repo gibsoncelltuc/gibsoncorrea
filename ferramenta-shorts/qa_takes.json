@@ -1,157 +1,45 @@
 {
  "fails": [
   {
-   "f": 768,
-   "shot": "b5",
+   "f": 1340,
+   "shot": "b7~3",
    "why": [
-    "jos: head/torso cropped (box 0.885, 0.499, 1.026, 0.641)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 769,
-   "shot": "b5",
+   "f": 1344,
+   "shot": "b7~3",
    "why": [
-    "jos: head/torso cropped (box 0.886, 0.5, 1.029, 0.642)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 772,
-   "shot": "b5",
+   "f": 1345,
+   "shot": "b7~3",
    "why": [
-    "jos: head/torso cropped (box 0.891, 0.501, 1.039, 0.645)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 776,
-   "shot": "b5",
+   "f": 1348,
+   "shot": "b7~3",
    "why": [
-    "jos: head/torso cropped (box 0.896, 0.503, 1.051, 0.65)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 803,
-   "shot": "b5_d",
+   "f": 1352,
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   },
   {
-   "f": 804,
-   "shot": "b5_d",
+   "f": 1356,
+   "shot": "b7~3",
    "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 808,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 812,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 816,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 820,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 824,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 825,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 828,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 832,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 836,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 840,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 844,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 847,
-   "shot": "b5_d",
-   "why": [
-    "empty: characters are in the scene but none is in frame"
-   ]
-  },
-  {
-   "f": 912,
-   "shot": "b5_v",
-   "why": [
-    "jos: head/torso cropped (box 0.876, 0.503, 1.043, 0.658)"
-   ]
-  },
-  {
-   "f": 916,
-   "shot": "b5_v",
-   "why": [
-    "jos: head/torso cropped (box 0.88, 0.503, 1.048, 0.659)"
-   ]
-  },
-  {
-   "f": 920,
-   "shot": "b5_v",
-   "why": [
-    "jos: head/torso cropped (box 0.883, 0.503, 1.051, 0.659)"
-   ]
-  },
-  {
-   "f": 922,
-   "shot": "b5_v",
-   "why": [
-    "jos: head/torso cropped (box 0.883, 0.503, 1.052, 0.66)"
+    "goo: HIDDEN behind red_borracha_1/#8a5a3a"
    ]
   }
  ],
