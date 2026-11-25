@@ -4,13 +4,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/bancada, kit/petri_mofo, kit/petri | book | -
+b0 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | kit/bancada, kit/petri_mofo | book | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | kit/marco_bigben | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/petri | book | -
 b3 | loc_campo | wide | 2 | reagir, batalha | - | bag | -
-b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | kit/bancada, kit/petri_mofo, kit/petri | - | -
+b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | kit/bancada, kit/petri_mofo | - | -
 b5 | interior madeira | two | 1 | conversar | kit/bancada, kit/petri_mofo | - | -
-b6 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/bancada, kit/petri_mofo, kit/petri | - | -
+b6 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/bancada, kit/petri_mofo | - | -
 b7 | interior pedra | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | interior galpao | group | 3 | comemorar, INTERAGEM: pular | kit/petri | - | -
 b9 | hall | orbit | 16 | comemorar, batalha | - | - | -

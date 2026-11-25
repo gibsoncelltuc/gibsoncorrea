@@ -778,6 +778,15 @@ for _f in sorted(__import__('glob').glob('obj_dict.d/*.json')):
 if ANO is not None and ANO < 500:
     for _b in B['beats']:
         if isinstance(_b.get('explica'), dict) and _b['explica'].get('objeto') == 'kit/crown': _b['explica']['objeto'] = 'kit/coroa_louros'   # explicacao na Antiguidade tambem
+_MESA_TOPO = {'kit/bancada': 0.94, 'mk/Table_Large': 0.78, 'mk/Table_Small': 0.75, 'kit/table': 0.8}   # altura do tampo no modelo (escala 1)
+for _b in B['beats']:   # 25/11 Fleming/Darwin: objeto pequeno no mesmo lugar de uma mesa/bancada vai PARA CIMA do tampo (antes ficava embaixo, no chao, com y menor que o tampo)
+    _ps = [p_ for p_ in (_b.get('props') or []) if isinstance(p_, list) and len(p_) >= 4]
+    for _m in [p_ for p_ in _ps if str(p_[0]) in _MESA_TOPO]:
+        _top = round(_MESA_TOPO[str(_m[0])] * float(_m[3]) + 0.02, 2)
+        for _o in _ps:
+            if _o is _m or str(_o[0]) in _MESA_TOPO or abs(float(_o[1]) - float(_m[1])) > 0.9 * float(_m[3]) or abs(float(_o[2]) - float(_m[2])) > 0.4 * float(_m[3]): continue
+            if len(_o) < 5 or not isinstance(_o[4], dict): _o[4:] = [{}]
+            if float(_o[4].get('y', 0)) < _top - 0.05 and not _o[4].get('carregado'): _o[4]['y'] = _top
 _ERA_TROCA = [(500, 'kit/crown', 'kit/coroa_louros'), (1950, 'kit/ball', 'kit/bola_couro')]   # 25/11 objeto fora de epoca escrito no ROTEIRO tambem troca (props, explicacao)
 for _ano_lim, _de, _para in _ERA_TROCA:
     if ANO is None or ANO >= _ano_lim: continue
@@ -1421,7 +1430,7 @@ def build_beat(k, b):
         if HEROI and (k == 0 or k == len(beats) - 1) and not wide_pre and not any(_fam(t_) == _fam(HEROI) for t_ in tem_):   # o objeto heroi abre e fecha o video (25/11 Montgolfier: GRANDE na chamada final/close vai para o fundo, -11 m; a -3.6 o balao saia gigante e cortado ao lado do personagem)
             props = props + ([[HEROI, 0.0, (-11.0 if (b.get('_cta') or b.get('shot') == 'close') else -3.6), 1.0]] if _EH_VEIC(HEROI) or (_glb_len(HEROI) or 0) > 2.2 else [[HEROI, 0.0, 2.0, 1.15]] if len(b.get('who', [])) == 2 else [[HEROI, (1.7 if k % 2 else -1.7), -0.5, 1.3]])   # objeto GRANDE (carro...) fica atras dos personagens, inteiro no quadro   # entre os dois, a frente (a placa do ano fica atras); tem_.add(HEROI); b.setdefault('_auto_obj', []).append(HEROI)
         for rx_, as_, sc_, big_ in OBJ_DICT:
-            if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) for t_ in tem_) or not re.search(rx_, _say_sp): continue
+            if n_auto >= 2 or as_ in tem_ or any(_fam(t_) == _fam(as_) or _fam(t_).startswith(_fam(as_) + '_') or _fam(as_).startswith(_fam(t_) + '_') for t_ in tem_) or not re.search(rx_, _say_sp): continue   # 25/11 Fleming: petri_mofo ja em cena = nao poe outra placa de petri gigante no chao
             if _EH_VEIC(as_) and any(_EH_VEIC(t_) for t_ in tem_): continue   # ja tem um carro na cena: nao poe outro carro por cima (roteiro do Roadster 2026 ganhava o Roadster 2018 junto)
             if (big_ is True and (b.get('interior') or wide_pre)) or (big_ == 'in' and not b.get('interior')): continue
             if as_ == 'buildings/castle_tower' and any(str(t_).startswith('kit/marco_') for t_ in tem_): continue   # marco do roteiro ja e' o castelo/palacio
