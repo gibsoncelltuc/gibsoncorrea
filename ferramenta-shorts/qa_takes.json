@@ -1,4 +1,61 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 599,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 1.094, 0.384, 1.375, 0.614)"
+   ]
+  },
+  {
+   "f": 600,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 1.094, 0.384, 1.375, 0.614)"
+   ]
+  },
+  {
+   "f": 604,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 1.112, 0.392, 1.319, 0.611)"
+   ]
+  },
+  {
+   "f": 608,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 1.052, 0.386, 1.269, 0.612)"
+   ]
+  },
+  {
+   "f": 612,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 1.006, 0.381, 1.219, 0.612)"
+   ]
+  },
+  {
+   "f": 616,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 0.937, 0.376, 1.175, 0.613)"
+   ]
+  },
+  {
+   "f": 620,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 0.877, 0.37, 1.103, 0.613)"
+   ]
+  },
+  {
+   "f": 624,
+   "shot": "b4",
+   "why": [
+    "pas: head/torso cropped (box 0.808, 0.364, 1.033, 0.614)"
+   ]
+  }
+ ],
  "tiny": []
 }
