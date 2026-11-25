@@ -71,3 +71,10 @@
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:01 autocorrecao de visibilidade
+- b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
