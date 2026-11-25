@@ -86,7 +86,19 @@
     ]
    },
    "text": "ELEFANTE NO JANTAR",
-   "titulo": true
+   "titulo": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -111,10 +123,6 @@
    ],
    "shot_lock": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "promessa",
    "say": "E no cardápio tinha até canguru e lobo.",
    "encena": {
@@ -125,7 +133,24 @@
       "na": "canguru"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -202,8 +227,8 @@
     ],
     [
      "kit/panela",
-     0.6,
-     1.0,
+     7.0,
+     -14.0,
      2.0,
      {
       "fixo": true
@@ -212,7 +237,7 @@
     [
      "kit/rato",
      0.0,
-     1.4,
+     -1.2,
      2.2,
      {
       "nocol": true,
@@ -235,10 +260,6 @@
    "tstyle": "red",
    "set": "street",
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "Depois os roedores, que viraram prato chique.",
    "encena": {
@@ -249,7 +270,36 @@
       "na": "roedores"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/panela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -347,10 +397,6 @@
    ],
    "shot_lock": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "No Natal, um restaurante serviu consomê de elefante.",
    "encena": {
@@ -361,7 +407,24 @@
       "na": "serviu"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -386,10 +449,6 @@
     ]
    ],
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Só os ricos podiam pagar esse luxo.",
    "encena": {
@@ -400,7 +459,24 @@
       "na": "ricos"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -450,10 +526,6 @@
    ],
    "detalhe": false,
    "set": "street",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -465,7 +537,24 @@
     ]
    },
    "bloco": "loop",
-   "say": "Na fome, até bicho de zoológico vira comida. Foi assim que..."
+   "say": "Na fome, até bicho de zoológico vira comida. Foi assim que...",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/panela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "heroi": "kit/bife_elefante",
@@ -503,5 +592,6 @@
  "variar_cenario": false,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }

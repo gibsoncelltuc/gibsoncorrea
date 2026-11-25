@@ -446,22 +446,16 @@
    }
   },
   {
-   "shot": "crowd",
+   "shot": "low",
    "set": "loc_cidade",
    "hora": "noite",
    "who": [
     "CID:0:scared",
     "CID:1:cry"
    ],
-   "tiros": true,
+   "tiros": false,
    "crowd": {
-    "n": 20,
-    "outfits": [
-     "SOL",
-     "POV"
-    ],
-    "march": false,
-    "expr": "scared"
+    "n": 0
    },
    "fx": [
     "burst@40",
@@ -497,17 +491,17 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "grita",
-      "na": "caíram",
-      "quem": 1
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "céu",
+      "na": "estilhaços"
      }
     ]
    },
    "cx": 0.0,
    "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "crowd",
+   "d0": 9,
+   "d1": 8,
    "quadro": {
     "local": "loc_cidade",
     "camera": "plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
@@ -525,7 +519,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "batalha": false,
+   "quadro_manual": true
   },
   {
    "shot": "two",

@@ -267,6 +267,7 @@ grep -q "glide: o.glide" stories/_h.js || f "cabecalho descarta glide: a camera 
 grep -q "FILMAGEM CONTINUA: o navio/barco grande do fundo" mkvideo.py || f "filmagem continua: navio do fundo some no meio do movimento"
 grep -q "o LOOP repete a 1a cena com a MESMA luz" mkvideo.py || f "loop vira noite sozinho (Lagosta)"
 grep -q "convidad|plateia|publico|multidao|torcida|espectador|curiosos', _t)) else {'n': 0" mkvideo.py || f "carro voa na frente dos convidados e os convidados somem (Roadster)"
+grep -q "FOGO ANTIAEREO = estouros no CEU" mkvideo.py || f "fogo antiaereo sem estouros no ceu (Los Angeles 1942)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

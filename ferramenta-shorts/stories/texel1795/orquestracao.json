@@ -39,7 +39,7 @@
     "FRA",
     "FRA"
    ],
-   "multidao": 12,
+   "multidao": 0,
    "objetos": [
     "ship"
    ],
@@ -124,7 +124,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "OFF"
    ],

@@ -10,7 +10,7 @@ b2 | street | wide | 10 | reagir, batalha | - | - | -
 b3 | harbor | wide | 1 | parados (so fala e pisca) | kit/submarino_ww2 | - | -
 b4 | harbor | low | 2 | conversar, INTERAGEM: insiste | kit/searchlight | - | -
 b5 | street | wide | 1 | encena | kit/canhao_moderno, cannon | - | -
-b6 | loc_cidade | orbit | 22 | batalha | kit/canhao_moderno, kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b6 | loc_cidade | orbit | 2 | batalha | kit/canhao_moderno, kit/searchlight, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b7 | loc_cidade | two | 2 | discutir, INTERAGEM: discutir | - | - | -
 b8 | loc_cidade | group | 14 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b9 | street | two | 14 | comemorar, INTERAGEM: susto | kit/searchlight | - | -

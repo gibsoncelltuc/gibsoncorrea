@@ -10,9 +10,9 @@ b4 | wide | -  | batalha aberta com tiros, placa: RATOS | - | -
 b5 | wide | -  | tropa, animais | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa, animais, placa: CASTOR E PÓLUX | comprou (stars + som de sino) | -
 b7 | two | -  | animais, interior, placa: NATAL DE 1870 | - | -
-b8 | group | -  | placa: SÓ PARA OS RICOS | pagar (stars + som de sino) | -
+b8 | wide | -  | tropa, placa: SÓ PARA OS RICOS | pagar (stars + som de sino) | -
 b9 | two | -  | tropa | - | -
 b10 | wide | -  | placa: ELEFANTE NO JANTAR | - | -
 
-Mistura de planos: close 4% | medio 52% | aberto 41% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 6 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 4% | medio 44% | aberto 48% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 7 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao)

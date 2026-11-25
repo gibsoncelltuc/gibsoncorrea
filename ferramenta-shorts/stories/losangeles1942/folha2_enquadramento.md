@@ -61,8 +61,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b6: "Foram mais de mil tiros, e estilhaços caíram na cidade."
 - LOCAL: loc_cidade; hora: noite
-- CAMERA: plano de multidao; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)
-- PERSONAGENS: CID (comerciante) na esquerda, expressao scared; CID (comerciante) na direita, expressao cry; multidao de 20 (SOL, POV) ATRAS dos principais; acao: fala/gesto
+- CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)
+- PERSONAGENS: CID (comerciante) na esquerda, expressao scared; CID (comerciante) na direita, expressao cry; sem multidao; acao: fala/gesto
 - OBJETO kit/searchlight: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 5.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena

@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E nenhum dos lados precisou dar um tiro."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: FRA na esquerda, expressao laugh; FRA na direita, expressao grin; multidao de 12 (FRA) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: FRA na esquerda, expressao laugh; FRA na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO ship: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 

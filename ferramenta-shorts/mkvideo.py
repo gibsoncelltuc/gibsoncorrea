@@ -1639,8 +1639,17 @@ def build_beat(k, b):
     _can_fx = next((p_ for p_ in _pp_fx if re.search(r'cannon|canhao', str(p_[0]))), None)
     _hit_fx = next((p_ for p_ in _pp_fx if (HEROI and str(p_[0]) == str(HEROI)) or not re.search(r'navio|ship|boat|building|cannon|canhao|vehicles/', str(p_[0]))), None) if re.search(r'(bala|tiro|disparo|canh|bomba|projetil|granada)\w*.*\b(acert|destru|ating|explod|despedac)|\b(acert|destru|ating|despedac)\w*.*(bala|tiro|canh)', nrm0x(b['say'])) else None
     _dcam_fx = float(b.get('d0') or T.get('d0') or 9)
-    for e in b.get('fx', []):
+    _fxl = list(b.get('fx', []))
+    if not any(str(e_).startswith('flak') for e_ in _fxl) and re.search(r'antiaere|atir\w* no ceu|tiros? (para o|pro|no) ceu|mil tiros', nrm0x(b['say'])) and not _SENT.cena(b['say']).get('sem_violencia'): _fxl.append('flak@6')
+    for e in _fxl:
         kind, _, at = e.partition('@'); at = int(at) if at else 4
+        if kind == 'flak':   # 25/11 Los Angeles 1942: FOGO ANTIAEREO = estouros no CEU (nao clarao no chao nem soldado caindo), espalhados pela cena inteira
+            _dur_ = max(30, int(len(b['say'].split()) / 2.75 * 30) - at - 10)
+            for i_ in range(max(5, min(14, _dur_ // 7))):
+                t_ = at + i_ * 7 + (i_ * 5) % 4; _fp = f"[X + {num(float(b.get('cx', 0) or 0) + ((i_ * 37) % 7) - 3.0)}, DK + {num(2.5 + ((i_ * 13) % 6) * 0.3)}, {num(-4.0 - (i_ * 23) % 4)}]"
+                fx.append(f"{{ k: 'burst', a: {a} + {t_}, b: {a} + {t_ + 12}, at: {_fp}, s: {num(9.0 + (i_ % 3) * 1.5)}, col: '#ff8a1f' }}"); fx.append(f"{{ k: 'puff', a: {a} + {t_ + 3}, b: {a} + {t_ + 30}, at: {_fp}, s: {num(4.5 + (i_ % 3) * 0.8)} }}")   # estouro laranja + nuvenzinha de fumaca no ceu (flak)
+                b.setdefault('sfx', []); b['sfx'].append(f'cannon@{t_}') if i_ % 2 == 0 else None
+            continue
         if kind == 'burst' and _hit_fx:
             _sh = float(_hit_fx[3]) if len(_hit_fx) > 3 and not isinstance(_hit_fx[3], dict) else 1.0
             fx.append(f"{{ k: 'burst', a: {a} + {at}, b: {a} + {at + 12}, at: [X + {num(_hit_fx[1])}, DK + {num(0.55 * _sh - 1.5 * max(1.4, _dcam_fx / 7))}, {num(float(_hit_fx[2]) + 0.6 * _sh)}], s: {num(max(1.4, _dcam_fx / 7))} }}")   # o desenho do clarao fica ~1,5*s acima do ponto: desce para o centro cair no objeto; fx.append(f"{{ k: 'puff', a: {a} + {at + 3}, b: {a} + {at + 40}, at: [X + {num(_hit_fx[1])}, DK + 0.2, {num(_hit_fx[2])}], s: 1.1 }}"); continue

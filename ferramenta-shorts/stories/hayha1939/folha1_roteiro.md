@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 23 - A Morte Branca
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: tense | Cenario base: arctic | 10 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: tense | Cenario base: arctic | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Um fazendeiro baixinho virou o soldado mais temido de uma guerra.
