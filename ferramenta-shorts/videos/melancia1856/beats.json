@@ -255,16 +255,16 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "sfx": [
     "boing@60"
    ],
    "fx": [
     "stars@60"
-   ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -301,10 +301,10 @@
      }
     ]
    },
-   "_enq_shot": "group",
+   "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pistol juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "war/pistol",
@@ -316,9 +316,8 @@
    },
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "group",

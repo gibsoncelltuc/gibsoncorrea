@@ -1,0 +1,175 @@
+{
+ "duration": 30.984,
+ "frames30": 930,
+ "source": "silence-align (cost 0.90)",
+ "segments": [
+  [
+   0.0,
+   2.50237
+  ],
+  [
+   2.87133,
+   4.79958
+  ],
+  [
+   5.1795,
+   6.48933
+  ],
+  [
+   6.71417,
+   7.41033
+  ],
+  [
+   7.59983,
+   8.73804
+  ],
+  [
+   9.11721,
+   9.93521
+  ],
+  [
+   10.1204,
+   11.8767
+  ],
+  [
+   12.2555,
+   12.8027
+  ],
+  [
+   12.9793,
+   13.7158
+  ],
+  [
+   13.968,
+   14.8113
+  ],
+  [
+   15.1887,
+   17.7629
+  ],
+  [
+   18.1417,
+   21.2369
+  ],
+  [
+   21.6121,
+   22.1733
+  ],
+  [
+   22.4036,
+   23.5056
+  ],
+  [
+   23.8851,
+   25.2722
+  ],
+  [
+   25.4838,
+   26.4406
+  ],
+  [
+   26.8202,
+   27.7396
+  ],
+  [
+   28.1166,
+   28.861
+  ],
+  [
+   29.2408,
+   30.5525
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma mulher come\u00e7ou a dan\u00e7ar na rua e n\u00e3o conseguiu parar.",
+   "s": 0.0,
+   "e": 2.502
+  },
+  {
+   "text": "E at\u00e9 hoje ningu\u00e9m sabe ao certo por qu\u00ea.",
+   "s": 2.871,
+   "e": 4.8
+  },
+  {
+   "text": "Em 1518, em Estrasburgo,",
+   "s": 5.179,
+   "e": 6.489
+  },
+  {
+   "text": "ela dan\u00e7ou por uma semana.",
+   "s": 6.714,
+   "e": 8.738
+  },
+  {
+   "text": "Em poucos dias,",
+   "s": 9.117,
+   "e": 9.935
+  },
+  {
+   "text": "mais de trinta pessoas dan\u00e7avam tamb\u00e9m.",
+   "s": 10.12,
+   "e": 11.877
+  },
+  {
+   "text": "Em agosto,",
+   "s": 12.255,
+   "e": 12.803
+  },
+  {
+   "text": "eram centenas,",
+   "s": 12.979,
+   "e": 13.716
+  },
+  {
+   "text": "com os p\u00e9s sangrando.",
+   "s": 13.968,
+   "e": 14.811
+  },
+  {
+   "text": "Os m\u00e9dicos culparam o sangue quente e receitaram mais dan\u00e7a.",
+   "s": 15.189,
+   "e": 17.763
+  },
+  {
+   "text": "Acontece que a cidade contratou m\u00fasicos para manter todos dan\u00e7ando.",
+   "s": 18.142,
+   "e": 21.237
+  },
+  {
+   "text": "Deu errado:",
+   "s": 21.612,
+   "e": 22.173
+  },
+  {
+   "text": "mais gente entrou na dan\u00e7a.",
+   "s": 22.404,
+   "e": 23.506
+  },
+  {
+   "text": "Levados a uma capela no monte,",
+   "s": 23.885,
+   "e": 25.272
+  },
+  {
+   "text": "eles finalmente pararam.",
+   "s": 25.484,
+   "e": 26.441
+  },
+  {
+   "text": "Histeria coletiva?",
+   "s": 26.82,
+   "e": 27.74
+  },
+  {
+   "text": "Ningu\u00e9m sabe.",
+   "s": 28.117,
+   "e": 28.861
+  },
+  {
+   "text": "S\u00f3 se sabe que foi assim que...",
+   "s": 29.241,
+   "e": 30.552
+  }
+ ]
+}
