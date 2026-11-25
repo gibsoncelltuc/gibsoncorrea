@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O X no Prédio do Twitter | O X no Prédio do Twitter / Trocar Esta Em Elon Musk Twitter 2023 | SEM REFERENCIA
+tema | O X no Prédio do Twitter | O X no Prédio do Twitter / Uma Em Musk Twitter 2023 | SEM REFERENCIA
 lugar | Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco co | Sede do Twitter/X Market Street Sao Francisco / Sede do Twitter/X Market Street Sao Francisco California 2023 | SEM REFERENCIA
 lugar | São Francisco | São Francisco 2023 / São Francisco landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2023 | 2023 fashion clothing / 2023 street photograph | SEM REFERENCIA

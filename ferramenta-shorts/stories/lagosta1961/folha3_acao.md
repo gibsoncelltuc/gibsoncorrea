@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 12 acoes catalogadas, 12 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+## Cena b0 - 0.2s a 2.5s - 11 palavras - plano two
 > "Brasil e França quase entraram em guerra por causa de lagosta."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (3.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (2.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -21,11 +21,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.1s a 7.4s - 10 palavras - plano close
+## Cena b1 - 3.7s a 8.2s - 10 palavras - plano close
 > "E tudo dependia de uma pergunta: lagosta anda ou nada?"
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (6.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lagosta" (7.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -36,11 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b2 - 7.8s a 10.4s - 8 palavras - plano wide
+## Cena b2 - 8.8s a 10.6s - 8 palavras - plano wide
 > "Em 1961, barcos franceses pescavam lagosta em Pernambuco."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescavam" (9.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pescavam" (9.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -51,31 +51,31 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 10.7s a 14.4s - 11 palavras - plano two
+## Cena b3 - 11.9s a 14.4s - 11 palavras - plano two
 > "O Brasil dizia: ela anda no fundo do mar, é nossa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anda" (12.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "anda" (13.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b4 - 14.8s a 17.8s - 9 palavras - plano two
+## Cena b4 - 15.4s a 17.6s - 9 palavras - plano two
 > "A França dizia: ela nada, é de quem pescar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nada" (16.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nada" (16.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 18.1s a 20.4s - 7 palavras - plano orbit
+## Cena b5 - 18.6s a 19.9s - 7 palavras - plano orbit
 > "A França mandou um navio de guerra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (18.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (19.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -86,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 23.7s - 9 palavras - plano two
+## Cena b6 - 21.0s a 23.4s - 9 palavras - plano two
 > "Acontece que o Brasil respondeu com navios e aviões."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -103,11 +103,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 24.1s a 26.7s - 8 palavras - plano two
+## Cena b7 - 24.5s a 27.0s - 8 palavras - plano two
 > "Mas o tiro nunca veio. Os governos negociaram."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) FRA fala apontando | na palavra "negociaram" (26.7s)
+  1) FRA fala apontando | na palavra "negociaram" (27.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -122,11 +122,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - CHEGADA (a cena toda): executa: alguem entra andando
 <!-- /FISICA -->
 
-## Cena b8 - 27.0s a 31.1s - 12 palavras - plano two
+## Cena b8 - 28.3s a 31.7s - 12 palavras - plano two
 > "Nenhum tiro, só uma briga sobre um bicho. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Nenhum" (27.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Nenhum" (28.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -13,5 +13,5 @@ b7 | two | -  | batalha aberta com tiros, interior | dinheiro (stars + som de si
 b8 | group | -  | tropa, placa: DINHEIRO | Dinheiro (stars + som de sino) | -
 b9 | two | -  | placa: E SE... | - | -
 
-Mistura de planos: close 2% | medio 79% | aberto 17% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 2% | medio 77% | aberto 19% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

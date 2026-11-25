@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_humanos/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_humanos` de novo ate esta folha sair sem risco.
 
-## Cena b0 - E se todos os humanos sumissem da Terra amanhã?
+## Cena b0 - Todos os humanos sumiram da Terra de uma vez.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -26,10 +26,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (1.5-3.0 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b1 - O planeta nem sentiria falta. Veja por quê.
+## Cena b1 - E o planeta nem sentiria falta.
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (1): PRO (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/globe
@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - No primeiro dia, ninguém estaria nas usinas de energia.
@@ -63,17 +63,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MUNDO (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (6.3-7.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (7.8-9.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (5.6-7.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (7.0-8.5 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b3 - Em poucas horas, as luzes se apagariam, cidade por cidade.
-- Cenario: street | luz: noite | clima: limpo
+## Cena b3 - Em poucas horas, as luzes se apagariam.
+- Cenario: interior madeira | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): PRO (variante 0, expressao worried); POV (variante 0, expressao nervous)
 - Animacao: reagir | interacao: entregar
-- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): luzes
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -85,9 +85,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (9.6-11.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.3-13.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Em dois dias, o metrô de Nova York ficaria inundado.
@@ -109,8 +107,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (13.3-15.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (15.0-16.7 s): mesmo angulo
+  - take 1 (11.5-13.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (13.2-14.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b5 - Em vinte anos, as ruas virariam florestas, com lobos nas avenidas.
@@ -138,7 +136,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que até as pontes de aço cairiam, comidas pela ferrugem.
-- Cenario: interior madeira | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): PRO (variante 0, expressao stern)
@@ -156,11 +154,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - SOM: cannon@30
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (21.1-23.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (23.0-24.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (19.3-21.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (21.1-23.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b7 - Sobrariam as pirâmides, que já resistem há mais de quatro mil anos.
+## Cena b7 - Sobrariam as pirâmides, de pé há mais de quatro mil anos.
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -178,9 +176,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (25.2-27.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (27.2-29.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (23.3-25.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (25.1-27.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b8 - E o plástico, que leva séculos para sumir.
@@ -202,14 +200,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Somos nós que precisamos do planeta, não o contrário.
+## Cena b9 - Somos nós que precisamos do planeta. Agora imagina que...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRO (variante 0, expressao stern); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): contrario, planeta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): planeta
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -218,9 +216,6 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/globe | b0, b1, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -229,7 +224,7 @@ wolf | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 11% | medio 71% | aberto 14% | detalhe 4%
+- Objeto heroi: kit/globe | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 11% | medio 72% | aberto 14% | detalhe 2%
 - Interacoes: b0 aproxima-se, b3 entregar, b8 cochichar, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_humanos  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_humanos/moodboard.jpg
@@ -249,7 +244,7 @@ wolf | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (32.6-34.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (34.1-35.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (30.4-31.8 s): mesmo angulo
+  - take 2 (31.8-33.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

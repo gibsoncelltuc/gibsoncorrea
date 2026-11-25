@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um mofo esquecido salvou milhões de vidas."
+## b0: "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: FLE na esquerda, expressao smile, segura book; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -10,13 +10,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "MOFO" flutuando no alto, na palavra 1 da frase
 
-## b1: "E tudo por causa de uma mesa bagunçada."
+## b1: "E tudo porque o cientista saiu de férias."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FLE no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Em 1928, em Londres, trabalhava o cientista Alexander Fleming."
+## b2: "Em 1928, Alexander Fleming trabalhava num laboratório em Londres."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: MED na esquerda, expressao neutral; MED na direita, expressao smile; multidao de 8 (MED, POV) ATRAS dos principais; acao: fala/gesto
@@ -39,7 +39,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: FLE na esquerda, expressao grin, segura bag; COL na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b5: "Quando voltou, um prato estava coberto de bolor verde."
+## b5: "Na volta, um prato estava coberto de bolor verde."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FLE no centro, expressao angry; sem multidao; acao: fala/gesto
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@60
 - TEXTO NA TELA: "BACTÉRIAS SUMIRAM" flutuando no alto, na palavra 1 da frase
 
-## b7: "O mofo matava bactérias. Ele chamou isso de penicilina."
+## b7: "O mofo matava bactérias. Era a penicilina."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/petri_mofo no centro, manobra "parado"
 - PASSOS NA TELA: MOFO -> PENICILINA -> BACTÉRIA MORRE
@@ -69,18 +69,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MED na esquerda, expressao smile; MED no centro, expressao grin; POV na direita, expressao relief; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Em 1945, Fleming ganhou o Nobel."
-- LOCAL: salao; hora: day
-- CAMERA: plano de multidao
-- PERSONAGENS: FLE na esquerda, expressao laugh; COL na direita, expressao laugh; multidao de 14 (MED, COL, POV) ATRAS dos principais; acao: comemorar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
-- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
-- SOM: ding@30
-- SOM: sting@70
-- TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
-
-## b10: "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso."
+## b9: "Fleming ganhou até o Nobel. E foi assim que..."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: FLE na esquerda, expressao smile, segura book; COL na direita, expressao surprised; sem multidao; acao: fala/gesto

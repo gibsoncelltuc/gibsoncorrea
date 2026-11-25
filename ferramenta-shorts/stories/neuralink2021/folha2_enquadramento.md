@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Videogame precisa de mãos? Um macaco jogou só com o pensamento."
+## b0: "Um macaco jogou videogame só com o pensamento."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; CIE (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -65,7 +65,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b8: "Tudo começou com um macaco e um copo de vitamina."
+## b8: "Tudo começou com um copo de vitamina. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; CIE (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto

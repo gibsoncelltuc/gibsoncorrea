@@ -72,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "SELFIE" flutuando no alto, na palavra 1 da frase
 
-## b8: "Um segundo de selfie, e a ONU virou assunto."
+## b8: "Um segundo bastou. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar

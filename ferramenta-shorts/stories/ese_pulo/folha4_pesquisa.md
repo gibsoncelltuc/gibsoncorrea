@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se Todo Mundo Pulasse ao Mesmo Tempo? | E Se Todo Mundo Pulasse ao Mesmo Tempo? / Se Terra Não Mas Somos | SEM REFERENCIA
+tema | E Se Todo Mundo Pulasse ao Mesmo Tempo? | E Se Todo Mundo Pulasse ao Mesmo Tempo? / Oito Terra Mas Somos | SEM REFERENCIA
 lugar | o planeta inteiro: cidades, campos e praias | o planeta inteiro | SEM REFERENCIA
 lugar | Mundo | Mundo / Mundo landscape | SEM REFERENCIA
 pessoas | pessoas do mundo todo | pessoas do mundo todo | SEM REFERENCIA

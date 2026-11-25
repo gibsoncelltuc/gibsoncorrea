@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 89 palavras (~31 s)
 
-## Cena b0  (~3.4 s)
-- Narracao: Se todo mundo pulasse junto, a Terra sairia do lugar?
+## Cena b0  (~3.8 s)
+- Narracao: Oito bilhões de pessoas pulam juntas, e a Terra nem sente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.8 s)
-- Narracao: Não. Mas o problema de verdade seria outro.
+## Cena b1  (~2.4 s)
+- Narracao: Mas o problema de verdade seria outro.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Pode pular aí. A Terra nem vai sentir.
+## Cena b9  (~2.1 s)
+- Narracao: Pode pular aí. Agora imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "E se todo o dinheiro do mundo sumisse amanhã?"
+## b0: "Todo o dinheiro do mundo some amanhã de manhã."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -25,7 +25,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
-## b3: "A saída seria a troca: uma galinha por uma cesta de comida."
+## b3: "A saída seria a troca: uma galinha por comida."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FAZ (agricultor) na esquerda, expressao grin; PAD (padeiro) na direita, expressao suspicious; sem multidao; acao: entregar
@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ILHA DE YAP (cobre a tela 1-2 s)
 
-## b6: "Algumas nem saíam do lugar. Todos só lembravam quem era o dono."
+## b6: "Algumas nem saíam do lugar. Todos lembravam quem era o dono."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRO (cientista) na esquerda, expressao smug, segura paper; POV na direita, expressao surprised; sem multidao; acao: cochichar
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
 
-## b8: "Dinheiro não é papel. É confiança entre as pessoas."
+## b8: "Dinheiro não é papel. É confiança."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao laugh; FAZ (agricultor) na direita, expressao grin; sem multidao; acao: comemorar
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "DINHEIRO" flutuando no alto, na palavra 1 da frase
 
-## b9: "E se ele sumisse amanhã? Agora você sabe o que viria."
+## b9: "Teste mental para hoje: imagina que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: uma guerra de verdade teve um balde como troféu."
+## b0: "Uma guerra de verdade teve um balde de madeira como troféu."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MOD na esquerda, expressao grin; BOL na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -43,13 +43,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MOD na esquerda, expressao stern; BOL na direita, expressao shock; multidao de 32 (MOD, BOL) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b6: "Depois, Módena fez festa na porta de Bolonha, para zombar."
+## b6: "Depois, fizeram festa na porta de Bolonha."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MOD na esquerda, expressao laugh, segura flag; MOD na direita, expressao grin; multidao de 8 (MOD) marchando ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "E levaram de troféu um balde de madeira do poço da cidade."
+## b7: "E levaram de troféu o balde do poço da cidade."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MOD na esquerda, expressao laugh, segura bag; MOD na direita, expressao grin; sem multidao; acao: pega
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO buildings/castle_tower: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 18.5 m de altura x 10.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "PORTA DE BOLONHA" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "O balde ficou na torre Ghirlandina, em Módena."
+## b8: "O balde está na torre Ghirlandina, em Módena."
 - LOCAL: vila medieval; hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: MOD no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -67,7 +67,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO buildings/castle_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 27.1 m de altura x 14.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "TORRE GHIRLANDINA" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "Milhares de soldados. Prêmio final: um balde."
+## b9: "Milhares de soldados, e o prêmio foi um balde. Foi assim que..."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MOD na esquerda, expressao grin; BOL na direita, expressao shock; sem multidao; acao: fala/gesto

@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_dinheiro/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_dinheiro` de novo ate esta folha sair sem risco.
 
-## Cena b0 - E se todo o dinheiro do mundo sumisse amanhã?
+## Cena b0 - Todo o dinheiro do mundo some amanhã de manhã.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -70,14 +70,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (8.3-10.0 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b3 - A saída seria a troca: uma galinha por uma cesta de comida.
+## Cena b3 - A saída seria a troca: uma galinha por comida.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FAZ (variante 0, expressao grin); PAD (variante 0, expressao suspicious)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: chicken
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, comida, galinha, saida
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): galinha, saida
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -86,9 +86,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FAZ (agricultor) na esquerda, expressao grin; PAD (padeiro) na direita, expressao suspicious; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (10.4-12.4 s): mesmo angulo
-  - take 2 (12.4-14.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (10.4-11.9 s): mesmo angulo
+  - take 2 (11.9-13.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que o padeiro pode não querer galinha.
@@ -132,7 +132,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b6 - Algumas nem saíam do lugar. Todos só lembravam quem era o dono.
+## Cena b6 - Algumas nem saíam do lugar. Todos lembravam quem era o dono.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -150,9 +150,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (21.1-23.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (23.1-25.2 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (20.0-21.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (21.9-23.7 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Em prisões e guerras, quando o dinheiro some, inventam outro.
@@ -176,14 +176,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - Dinheiro não é papel. É confiança entre as pessoas.
+## Cena b8 - Dinheiro não é papel. É confiança.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao laugh); FAZ (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -197,15 +197,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "DINHEIRO" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (29.3-30.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (30.8-32.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - E se ele sumisse amanhã? Agora você sabe o que viria.
+## Cena b9 - Teste mental para hoje: imagina que...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/coin
@@ -223,7 +221,7 @@ nature/rocks | b6 | pronto | conferir na folha de contato se le bem; se parecer 
 
 
 ## Video inteiro
-- Objeto heroi: kit/coin | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 2% | medio 79% | aberto 17% | detalhe 2%
+- Objeto heroi: kit/coin | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 2% | medio 77% | aberto 19% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b2 entregar, b3 entregar, b6 cochichar, b8 pular, b9 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_dinheiro  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_dinheiro/moodboard.jpg
@@ -245,8 +243,6 @@ nature/rocks | b6 | pronto | conferir na folha de contato se le bem; se parecer 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (32.6-34.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (34.5-36.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

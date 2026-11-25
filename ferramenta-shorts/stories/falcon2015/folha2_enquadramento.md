@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Foguete era jogado fora depois de um voo. Até que um voltou de ré."
+## b0: "Um foguete gigante voltou do espaço e pousou de ré, de pé."
 - LOCAL: loc_pista; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -56,7 +56,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/falcon9_land no centro, manobra "sobe"
 - PASSOS NA TELA: -
 
-## b7: "E pousou inteira, de pé, abrindo as pernas no fim."
+## b7: "E pousou inteira, abrindo as pernas no último segundo."
 - LOCAL: loc_pista; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente
 - PERSONAGENS: ENG no centro, expressao laugh; sem multidao; acao: fala/gesto
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ENA na esquerda, expressao laugh; ENG na direita, expressao laugh; multidao de 6 (ENG) ATRAS dos principais; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Foi a primeira vez. Hoje, pousar de ré é normal."
+## b9: "Antes, o foguete ia para o lixo. Até que..."
 - LOCAL: loc_pista; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto

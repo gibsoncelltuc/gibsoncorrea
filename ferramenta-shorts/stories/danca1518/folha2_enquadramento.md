@@ -62,14 +62,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@50
 - SOM: sting@110
 
-## b8: "Levados a uma capela no monte, os dançarinos finalmente pararam."
+## b8: "Levados a uma capela no monte, eles finalmente pararam."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o church (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: DAN no centro, expressao relief; multidao de 6 (DAN) ATRAS dos principais; acao: fala/gesto
 - OBJETO buildings/church: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 20.8 m de altura x 16.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "CAPELA DO MONTE" flutuando no alto, na palavra 1 da frase
 
-## b9: "Histeria coletiva? Ninguém sabe ao certo."
+## b9: "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que..."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TRO na esquerda, expressao laugh; POV na direita, expressao shock; sem multidao; acao: fala/gesto

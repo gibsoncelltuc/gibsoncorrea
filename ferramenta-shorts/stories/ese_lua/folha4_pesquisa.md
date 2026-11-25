@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se a Lua Desaparecesse? | E Se a Lua Desaparecesse? / Lua Viria Primeiro | SEM REFERENCIA
+tema | E Se a Lua Desaparecesse? | E Se a Lua Desaparecesse? / Hoje Lua Viria Primeiro | SEM REFERENCIA
 lugar | praia com mar e mares, ceu noturno | praia com mar e mares ceu noturno | SEM REFERENCIA
 lugar | Oceanos | Oceanos / Oceanos landscape | SEM REFERENCIA
 pessoas | observadores do ceu | observadores do ceu | SEM REFERENCIA

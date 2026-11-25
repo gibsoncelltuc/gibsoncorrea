@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 10 cenas, 100 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 10 cenas, 87 palavras (~30 s)
 
 ## Cena b0  (~4.1 s)
-- Narracao: Diziam que era impossível de ir ao fundo. Foi na primeira viagem.
+- Narracao: O navio que não podia afundar foi ao fundo na primeira viagem.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: 1912
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.8 s)
-- Narracao: E se não tivesse afundado, o mar seria mais perigoso hoje.
+## Cena b1  (~4.1 s)
+- Narracao: E é por causa dele que o mar é mais seguro hoje.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Abril de 1912. O Titanic levava mais de duas mil pessoas.
+## Cena b2  (~2.8 s)
+- Narracao: O Titanic levava mais de duas mil pessoas.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: BOTES
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~4.1 s)
-- Narracao: Em 1914, veio o primeiro grande tratado do mar: bote para todos.
+## Cena b7  (~2.8 s)
+- Narracao: Em 1914, veio a regra: bote para todos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: E criaram uma patrulha de icebergs, que existe até hoje.
+## Cena b8  (~2.1 s)
+- Narracao: E criaram uma patrulha de icebergs.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.4 s)
-- Narracao: O pior dia do Titanic deixou o mar mais seguro.
+## Cena b9  (~2.4 s)
+- Narracao: Tudo mudou numa noite gelada. Foi quando...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

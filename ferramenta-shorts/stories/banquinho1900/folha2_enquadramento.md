@@ -2,20 +2,20 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: sentar num banquinho começou uma guerra."
+## b0: "Um banquinho dourado começou uma guerra na África."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao smug; ASH na direita, expressao shock; sem multidao; acao: discutir
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "BANQUINHO = GUERRA" flutuando no alto, na palavra 1 da frase
 
-## b1: "E quem pediu para sentar nunca conseguiu."
+## b1: "E quem pediu para sentar nele nunca conseguiu."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana."
+## b2: "Em 1900, os ingleses mandavam na atual Gana."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: ASH na esquerda, expressao stern; ASH na direita, expressao neutral; multidao de 8 (ASH) ATRAS dos principais; acao: fala/gesto
@@ -24,19 +24,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@70
 - MAPA: GANA (cobre a tela 1-2 s)
 
-## b3: "O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava."
+## b3: "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: CHE na esquerda, expressao stern; ASH na direita, expressao smile; multidao de 12 (ASH, CHE) ATRAS dos principais; acao: conversar
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b4: "O governador inglês exigiu sentar no banquinho."
+## b4: "O governador inglês exigiu sentar nele."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 8.0 m)
 - PERSONAGENS: GOV no centro, expressao angry, segura paper; sem multidao; acao: empurrar
 - OBJETO kit/golden_stool: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b5: "Para os ashanti, era como sentar na alma do povo."
+## b5: "Era como sentar na alma do povo ashanti."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CHE na esquerda, expressao shock; ASH na direita, expressao angry; sem multidao; acao: susto
@@ -67,7 +67,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: CHE na esquerda, expressao smug; ASH na direita, expressao grin; sem multidao; acao: cochichar
 - OBJETO kit/golden_stool: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b10: "O governador ganhou a guerra, mas o banquinho nunca foi dele."
+## b10: "O governador ganhou, mas nunca teve o banquinho. Foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao smug; ASH na direita, expressao shock; sem multidao; acao: discutir

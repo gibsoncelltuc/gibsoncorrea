@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?"
+## b0: "Napoleão ganha em Waterloo, e a Europa muda para sempre."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
 - PERSONAGENS: NAP (general) na esquerda, expressao smug; WEL (general) na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@20
 - SOM: ding@50
 
-## b8: "Rússia e Áustria já marchavam contra ele com exércitos enormes."
+## b8: "Rússia e Áustria já marchavam contra ele."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao worried; multidao de 6 (SOL) marchando ATRAS dos principais; acao: conversar
@@ -79,7 +79,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b9: "Um dia famoso nem sempre muda o destino. Só a data."
+## b9: "Um dia famoso nem sempre muda o destino. Mas imagina que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e crown juntos (camera a 8.0 m)
 - PERSONAGENS: NAP (general) no centro, expressao sad; sem multidao; acao: conversar

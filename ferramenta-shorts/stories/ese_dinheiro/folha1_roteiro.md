@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 06 - E Se o Dinheiro Sumisse do Mundo?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 99 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 87 palavras (~30 s)
 
 ## Cena b0  (~3.1 s)
-- Narracao: E se todo o dinheiro do mundo sumisse amanhã?
+- Narracao: Todo o dinheiro do mundo some amanhã de manhã.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.1 s)
-- Narracao: A saída seria a troca: uma galinha por uma cesta de comida.
+## Cena b3  (~3.1 s)
+- Narracao: A saída seria a troca: uma galinha por comida.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ILHA DE YAP
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~4.1 s)
-- Narracao: Algumas nem saíam do lugar. Todos só lembravam quem era o dono.
+## Cena b6  (~3.8 s)
+- Narracao: Algumas nem saíam do lugar. Todos lembravam quem era o dono.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~3.1 s)
-- Narracao: Dinheiro não é papel. É confiança entre as pessoas.
+## Cena b8  (~2.1 s)
+- Narracao: Dinheiro não é papel. É confiança.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: Dinheiro -> stars + som de sino
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: DINHEIRO
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
-- Narracao: E se ele sumisse amanhã? Agora você sabe o que viria.
+## Cena b9  (~2.1 s)
+- Narracao: Teste mental para hoje: imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

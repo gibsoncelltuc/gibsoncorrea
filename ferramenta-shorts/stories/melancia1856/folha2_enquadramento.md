@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: uma fatia de melancia quase virou guerra."
+## b0: "Uma fatia de melancia quase virou guerra entre dois países."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir
@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: VEN (comerciante) no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/melon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia."
+## b2: "Em 1856, viajantes cruzavam o Panamá atrás de ouro."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o locomotive (alvo z -2.0, camera a 20.0 m, altura 3.1 m), sem multidao na frente
 - PERSONAGENS: VIA (jornalista) no centro, expressao neutral; sem multidao; acao: fala/gesto
@@ -35,7 +35,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO war/pistol: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "ARMA!" flutuando no alto, na palavra 6 da frase
 
-## b5: "Em minutos, a rua virou uma briga de moradores contra viajantes."
+## b5: "Em minutos, virou briga de moradores contra viajantes."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: VEN (comerciante) no centro, expressao shout; multidao de 20 (MOR, VIA) ATRAS dos principais; acao: batalha
@@ -55,13 +55,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura paper; MOR (agricultor) na direita, expressao cry; multidao de 14 (POV) ATRAS dos principais; acao: susto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "No fim, a Colômbia pagou uma indenização aos americanos."
+## b8: "A Colômbia teve que pagar uma indenização aos americanos."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE (politico) na esquerda, expressao sad, segura coin; VIA (jornalista) na direita, expressao smug; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Tudo por uma fatia que ninguém quis pagar."
+## b9: "Tudo por centavos que ninguém pagou. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir

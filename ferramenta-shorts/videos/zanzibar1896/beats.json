@@ -77,7 +77,7 @@
    "text": "38 MINUTOS",
    "tat": 6,
    "bloco": "gancho",
-   "say": "A guerra mais curta da história durou menos de uma hora.",
+   "say": "A guerra mais curta da história durou menos de quarenta minutos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -115,7 +115,7 @@
    "mapa": "ZANZIBAR",
    "mapa_at": 3,
    "bloco": "prova",
-   "say": "Em 1896, em Zanzibar, uma ilha africana, o sultão morreu.",
+   "say": "Em 1896, em Zanzibar, na África, o sultão morreu.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -190,7 +190,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "prova",
-   "say": "Os ingleses deram até as nove da manhã para ele sair.",
+   "say": "Deram até as nove da manhã para ele sair.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -371,7 +371,7 @@
     ]
    ],
    "bloco": "pagamento",
-   "say": "Por volta das nove e quarenta, a bandeira caiu.",
+   "say": "Às nove e quarenta, a bandeira caiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -391,7 +391,7 @@
    "text": "MENOS DE 1 HORA",
    "tat": 6,
    "bloco": "loop",
-   "say": "E os ingleses mandaram a conta das balas para os derrotados.",
+   "say": "Os ingleses mandaram a conta das balas. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -460,6 +460,6 @@
  },
  "heroi": "kit/navio_vapor",
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de uma hora e os derrotados ainda pagaram a conta. Pagamento: ultimato, fogo as 9h02, bandeira caida perto das 9h40, novo sultao e a conta das balas.",
+ "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de quarenta minutos e os derrotados pagaram a conta. Pagamento: ultimato ate as 9h, fogo as 9h02, bandeira caida as 9h40 e a conta das balas.",
  "loop_frase_ok": true
 }

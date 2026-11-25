@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se o Brasil Tivesse Sido Holandês? | E Se o Brasil Tivesse Sido Holandês? / Ninguém Brasil Nova York Em Pernambuco 1630 | SEM REFERENCIA
+tema | E Se o Brasil Tivesse Sido Holandês? | E Se o Brasil Tivesse Sido Holandês? / Um Brasil Nova York Em Pernambuco 1630 | SEM REFERENCIA
 lugar | Recife e Pernambuco (Brasil holandes), Suriname e Nova Amsterda | Recife e Pernambuco / Recife e Pernambuco Brasil holandes Suriname e Nova Amsterda 1630 | SEM REFERENCIA
 lugar | Pernambuco | Pernambuco 1630 / Pernambuco landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1630 | 1630 fashion clothing / 17th century clothing painting | SEM REFERENCIA

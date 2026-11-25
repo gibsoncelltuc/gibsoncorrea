@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque."
+## b0: "Dois países brigaram quase quarenta anos por uma rocha, usando uísque."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smug, segura flag; DIN (soldado) na direita, expressao smug; sem multidao; acao: discutir
@@ -36,7 +36,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 
-## b5: "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque."
+## b5: "Fincaram a bandeira e deixaram uma garrafa de uísque."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smile, segura flag; CAN (soldado) na direita, expressao laugh; sem multidao; acao: comemorar
@@ -51,26 +51,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 
-## b7: "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas."
+## b7: "E deixaram aguardente com um bilhete de boas-vindas."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: DIN (soldado) na esquerda, expressao grin, segura paper; CAN (soldado) na direita, expressao shock; sem multidao; acao: entregar
 - OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b8: "Por décadas, os dois lados trocaram bandeira e garrafa."
-- LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
-- PERSONAGENS: CAN (soldado) na esquerda, expressao smug; DIN (soldado) na direita, expressao smug; sem multidao; acao: cochichar
-- OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bandeira_dinamarca: MEIO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.6 m: mastro atras e ao lado dos personagens, pano acima das cabecas
-
-## b9: "Em 2022, enfim, dividiram a ilha ao meio."
+## b8: "Em 2022, enfim, dividiram a ilha ao meio."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRE (politico) na esquerda, expressao relief, segura paper; MIN (politico) na direita, expressao smile; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b10: "Zero tiros. Só bandeiras e muito uísque."
+## b9: "Nenhum tiro, só garrafas trocadas. E foi assim que..."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smug, segura flag; DIN (soldado) na direita, expressao smug; sem multidao; acao: discutir

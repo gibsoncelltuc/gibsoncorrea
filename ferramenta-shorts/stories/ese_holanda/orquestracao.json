@@ -20,9 +20,9 @@
     "kit/flag_pole",
     "kit/marco_olinda"
    ],
-   "palavras": 12,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos.",
+   "frase": "Um pedaço do Brasil foi holandês por 24 anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -86,9 +86,9 @@
    "objetos": [
     "kit/marco_olinda"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "Maurício de Nassau trouxe pintores e cientistas para Recife.",
+   "frase": "Maurício de Nassau levou artistas para Recife.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -106,9 +106,9 @@
     "buildings/bridge",
     "kit/marco_olinda"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Recife ganhou uma grande ponte e a primeira sinagoga das Américas.",
+   "frase": "Recife ganhou até a primeira sinagoga das Américas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -151,9 +151,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b6",
-   "frase": "Em 1654, os holandeses foram embora de vez.",
+   "frase": "Em 1654, os holandeses foram embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -186,9 +186,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã.",
+   "frase": "Depois, a Holanda trocou Nova Amsterdã pelo Suriname.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -235,9 +235,9 @@
    "objetos": [
     "kit/flag_pole"
    ],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b10",
-   "frase": "E se eles tivessem ficado? O mapa seria outro.",
+   "frase": "Se tivessem ficado, o mapa seria outro. Porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

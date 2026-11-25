@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "LAVE AS MÃOS" flutuando no alto, na palavra 1 da frase
 
-## b1: "E hoje ele é chamado de salvador das mães."
+## b1: "Hoje é chamado de salvador das mães."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 8.0 m)
 - PERSONAGENS: PAR no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -34,7 +34,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 
-## b4: "Um colega se cortou numa autópsia e morreu da mesma febre."
+## b4: "Um colega se cortou numa autópsia e morreu de febre."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -42,7 +42,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
-## b5: "Acontece que os médicos iam das autópsias aos partos de mãos sujas."
+## b5: "Acontece que os médicos saíam das autópsias de mãos sujas."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: SEM (medico) no centro, expressao surprised; sem multidao; acao: fala/gesto
@@ -69,7 +69,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VIDAS SALVAS" flutuando no alto, na palavra 1 da frase
 
-## b8: "Mas os médicos se ofenderam, e ele foi mandado embora."
+## b8: "Mas os médicos se ofenderam e o expulsaram."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: DIR (medico) na esquerda, expressao angry; SEM (medico) na direita, expressao shout; sem multidao; acao: discutir
@@ -77,7 +77,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@50
 
-## b9: "Morreu sem reconhecimento. Hoje, lavar as mãos é regra."
+## b9: "Lavar as mãos virou insulto. Foi assim que..."
 - LOCAL: hospital; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e wash_basin juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao angry; sem multidao; acao: discutir

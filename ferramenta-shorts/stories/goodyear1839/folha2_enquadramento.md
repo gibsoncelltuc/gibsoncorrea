@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um inventor falido deixou cair uma gosma no fogão. E mudou o mundo."
+## b0: "Uma gosma caiu no fogão de um inventor falido. E mudou o mundo."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -21,7 +21,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tires: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "GOODYEAR" numa placa atras dos personagens, na palavra 1 da frase
 
-## b2: "Nos Estados Unidos, a borracha estava na moda."
+## b2: "Nos Estados Unidos, a borracha virou moda."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: GUA (soldado) na esquerda, expressao stern; GOO na direita, expressao sad; sem multidao; acao: empurrar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b6: "Um dia, a mistura de borracha e enxofre caiu no fogão quente."
+## b6: "Um dia, borracha com enxofre caiu no fogão quente."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
 - PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@20
 - SOM: sting@40
 
-## b7: "Acontece que não derreteu. Ficou firme e elástica, como couro."
+## b7: "Acontece que não derreteu. Ficou firme e elástica."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
 - PERSONAGENS: GOO no centro, expressao surprised, segura borracha; sem multidao; acao: comemorar
@@ -66,7 +66,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
 
-## b8: "Décadas depois, a borracha dele estava em pneus, bolas e sapatos."
+## b8: "Era a borracha vulcanizada, hoje em pneus e sapatos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e borracha juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao grin; CLA na direita, expressao smile; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
@@ -79,15 +79,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "PNEUS" flutuando no alto, na palavra 1 da frase
 
-## b9: "Mas outros copiaram, e ele morreu cheio de dívidas."
-- LOCAL: salao; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: COB (empresario) na esquerda, expressao smug; GOO na direita, expressao angry; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
-- SOM: sting@30
-
-## b10: "A Goodyear dos pneus ganhou o nome dele. Ele nunca soube."
+## b9: "A Goodyear ganhou o nome dele, sem ele saber. Tudo porque..."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
 - PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto

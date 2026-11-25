@@ -11,6 +11,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, convidados, frente
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: noite
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS na esquerda, expressao grin; ENA na direita, expressao surprised; multidao de 8 (POV, ENG) ATRAS dos principais; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "VOOU DE VERDADE" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b1 - E ninguém esperava como ele fez isso.
 - Cenario: interior galpao | luz: day | clima: limpo
@@ -21,6 +33,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: galpao; hora: day
+- CAMERA: close (rosto e ombros); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b2 - Elon Musk mostrou o novo Roadster numa base no Texas.
 - Cenario: interior galpao | luz: noite | clima: limpo
@@ -31,6 +52,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): novo, texas
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: galpao; hora: noite
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (6.7-8.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (8.2-9.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b3 - Primeiro truque: uma sucção gruda o carro na pista.
 - Cenario: loc_estudio | luz: day | clima: limpo
@@ -41,6 +74,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, pista, succao
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/roadster26 no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (1.5 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b4 - Assim ele subiu uma rampa e ficou de cabeça para baixo.
 - Cenario: loc_pista | luz: noite | clima: limpo
@@ -51,6 +92,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, rampa
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: noite
+- CAMERA: orbit; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (12.7-14.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (14.1-15.4 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b5 - Depois se soltou, girou no ar e pousou na fumaça.
 - Cenario: loc_pista | luz: noite | clima: limpo
@@ -61,6 +115,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fumaca
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: noite
+- CAMERA: camera baixa olhando para cima; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: ENA no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (15.5-17.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (17.6-19.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b6 - Segundo truque: dez bocais sopram ar comprimido para baixo.
 - Cenario: loc_estudio | luz: day | clima: limpo
@@ -71,6 +138,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/roadster26 no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (2.0 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
 ## Cena b7 - Acontece que foi assim que ele decolou por cima de carros.
 - Cenario: loc_pista | luz: noite | clima: limpo
@@ -81,6 +156,22 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carros
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: noite
+- CAMERA: travelling (camera acompanha andando); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/cybercab: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 6.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/cybercab: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 6.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/cybertruck: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.9 m de altura x 7.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/torre_luz: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 11.9 m de altura x 3.4 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (22.2-24.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (24.0-25.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b8 - Mas o voo durou poucos segundos.
 - Cenario: interior galpao | luz: day | clima: limpo
@@ -91,6 +182,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster26
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: galpao; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: ENG na esquerda, expressao suspicious; ENA na direita, expressao bored; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - Ainda não é carro voador. Mas foi assim que...
 - Cenario: loc_pista | luz: noite | clima: limpo
@@ -125,3 +225,15 @@ kit/cybertruck | b7 | pronto | conferir na folha de contato se le bem; se parece
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadsterpulo2026 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh roadsterpulo2026` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: galpao; hora: day
+- CAMERA: close (rosto e ombros); plano aberto mirando o roadster26 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster26: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.2 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (28.8-30.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (30.4-31.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+

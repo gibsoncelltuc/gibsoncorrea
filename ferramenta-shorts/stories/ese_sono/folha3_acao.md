@@ -5,10 +5,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 
 ## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
-> "E se ninguém precisasse dormir? Você ganharia 25 anos acordado."
+> "Ninguém precisa mais dormir, e você ganha 25 anos acordado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (1.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (1.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -148,11 +148,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 26.7s a 29.6s - 9 palavras - plano two
-> "Se você está vendo isso de madrugada, vai dormir."
+## Cena b8 - 26.7s a 30.4s - 11 palavras - plano two
+> "Se está vendo isso de madrugada, vai dormir. E imagina que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (29.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (29.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

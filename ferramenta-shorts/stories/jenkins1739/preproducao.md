@@ -9,7 +9,7 @@ b1 | street | two | 14 | conversar, INTERAGEM: avanca e o outro recua | kit/ear_
 b2 | harbor | wide | 1 | reagir | ship, navios de guerra ao fundo, no tamanho real | - | -
 b3 | street | two | 2 | golpe, INTERAGEM: empurrar, batalha | kit/ear_jar | - | -
 b4 | harbor | two | 2 | discutir, INTERAGEM: cochichar | - | - | -
-b5 | interior pedra | two | 3 | conversar, INTERAGEM: susto | kit/ear_jar | paper | -
+b5 | interior pedra | two | 2 | conversar, INTERAGEM: susto | kit/ear_jar | paper | -
 b6 | interior pedra | group | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b7 | harbor | wide | 21 | batalha | ship, navios de guerra ao fundo, no tamanho real | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/ear_jar | paper | -

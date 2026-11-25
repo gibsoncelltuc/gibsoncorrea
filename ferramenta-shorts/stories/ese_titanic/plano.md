@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | batalha aberta com tiros, tropa, placa: 1912 | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta) | -
+b0 | two | -  | batalha aberta com tiros, tropa, placa: 1912 | - | -
 b1 | group | -  | - | - | -
 b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | noite  | - | (rosto) shout (expr + som de efeito); gritou: (ring + som de alerta) | -
@@ -10,8 +10,8 @@ b4 | two | noite  | tropa | - | -
 b5 | crowd | noite  | batalha aberta com tiros, tropa, placa: BOTES | - | -
 b6 | orbit | noite  | batalha aberta com tiros, tropa, placa: BOTES | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -
 b7 | close | noite  | - | - | -
-b8 | two | -  | - | - | -
+b8 | two | noite  | - | - | -
 b9 | two | -  | placa: 1912 | - | -
 
-Mistura de planos: close 12% | medio 73% | aberto 12% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 13% | medio 75% | aberto 12% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

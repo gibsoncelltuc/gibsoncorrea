@@ -13,5 +13,5 @@ b7 | two | -  | tropa | - | -
 b8 | wide | -  | batalha aberta com tiros, placa: 9:40, objeto na mao | cavalaria: 4 soldados a cavalo (GUA) (acao + som de efeito); caiu (dust + som de impacto) | -
 b9 | two | -  | placa: 38 MINUTOS | - | -
 
-Mistura de planos: close 11% | medio 62% | aberto 25% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 63% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

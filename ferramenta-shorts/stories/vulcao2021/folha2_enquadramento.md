@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um país fabrica dinheiro digital com um vulcão."
+## b0: "Um país fabrica dinheiro digital usando a energia de um vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; ENG na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -18,20 +18,20 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/bitcoin: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2021, Nayib Bukele tornou o bitcoin moeda oficial de El Salvador."
+## b2: "Em 2021, El Salvador tornou o bitcoin moeda oficial."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao grin; ENA na direita, expressao suspicious; sem multidao; acao: conversar
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: EL SALVADOR (cobre a tela 1-2 s)
 
-## b3: "Criar bitcoin novo exige computadores fazendo contas sem parar."
+## b3: "Criar bitcoin exige computadores fazendo contas sem parar."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e miners juntos (camera a 11.5 m)
 - PERSONAGENS: ENG na esquerda, expressao worried, segura paper; BUK na direita, expressao suspicious; sem multidao; acao: discutir
 - OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b4: "Para isso, ele usou o calor do vulcão Tecapa."
+## b4: "Para isso, o governo usou o calor do vulcão Tecapa."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: BUK no centro, expressao smug; sem multidao; acao: entregar
@@ -51,13 +51,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/miners: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/miners: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b7: "Anos depois, o governo contava quase quinhentos bitcoins feitos com o vulcão."
+## b7: "Anos depois, o governo contava quase quinhentos bitcoins do vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: ENA na esquerda, expressao smile, segura paper; ENG na direita, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/bitcoin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b8: "E ainda anunciou uma Cidade Bitcoin aos pés de outro vulcão."
+## b8: "E anunciou uma Cidade Bitcoin aos pés de outro vulcão."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
@@ -66,7 +66,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "CIDADE BITCOIN" flutuando no alto, na palavra 1 da frase
 
-## b9: "Dinheiro tirado de vulcão. E ninguém te conta isso."
+## b9: "Dinheiro tirado da terra quente. E foi assim que..."
 - LOCAL: mata tropical (arvores, cabanas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao smug; ENG na direita, expressao surprised; sem multidao; acao: fala/gesto

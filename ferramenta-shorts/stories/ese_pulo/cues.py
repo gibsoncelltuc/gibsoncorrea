@@ -1,5 +1,5 @@
 _W = lambda i: _WORDS[min(i, len(_WORDS) - 1)]['s'] * 30   # frame da palavra i
-_A = [0] + [int(_W(i) - 3) for i in [10, 18, 25, 33, 40, 51, 61, 73, 83]] + [FR]
+_A = [0] + [int(_W(i) - 3) for i in [11, 18, 25, 33, 40, 51, 61, 73, 83]] + [FR]
 playful(F(_A[0]), F(_A[10]), 122)
 #--SFX--
 whoosh(F(_A[0]), 0.4, 0.35)

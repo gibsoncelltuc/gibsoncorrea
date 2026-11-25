@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 03 - O X no Prédio do Twitter
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Trocar de nome é fácil? Esta placa nova virou caso de investigação.
+## Cena b0  (~3.4 s)
+- Narracao: Uma placa com uma letra só virou caso de investigação.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: X
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.8 s)
-- Narracao: E tudo por causa de uma letra só.
+## Cena b1  (~3.4 s)
+- Narracao: E a culpa foi de uma luz piscando de madrugada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 2023, Elon Musk trocou o nome do Twitter para X.
+## Cena b2  (~3.4 s)
+- Narracao: Em 2023, Musk trocou o nome do Twitter para X.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: - | mapa: SÃO FRANCISCO
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: Operários começaram a tirar as letras e o passarinho da fachada.
+## Cena b3  (~2.8 s)
+- Narracao: Operários começaram a tirar o passarinho da fachada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~2.8 s)
-- Narracao: O trabalho parou no meio, porque faltavam licenças.
+## Cena b4  (~3.1 s)
+- Narracao: O trabalho parou no meio, por falta de licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: X
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.1 s)
-- Narracao: A luz entrava nas janelas dos vizinhos de madrugada.
+## Cena b6  (~2.4 s)
+- Narracao: A luz entrava nas janelas dos vizinhos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.4 s)
-- Narracao: Até trocar de nome precisa de licença.
+## Cena b9  (~3.4 s)
+- Narracao: Até trocar de nome precisa de licença. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_sono/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_sono` de novo ate esta folha sair sem risco.
 
-## Cena b0 - E se ninguém precisasse dormir? Você ganharia 25 anos acordado.
+## Cena b0 - Ninguém precisa mais dormir, e você ganha 25 anos acordado.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -180,7 +180,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (24.5-26.3 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b8 - Se você está vendo isso de madrugada, vai dormir.
+## Cena b8 - Se está vendo isso de madrugada, vai dormir. E imagina que...
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -203,7 +203,7 @@ kit/ball | b3 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/kettle | grandes momentos: b1, b2 | planos abertos: 2 | mistura: close 18% | medio 73% | aberto 7% | detalhe 3%
+- Objeto heroi: kit/kettle | grandes momentos: b1, b2 | planos abertos: 2 | mistura: close 17% | medio 73% | aberto 7% | detalhe 3%
 - Interacoes: b0 vai ate o outro, b3 entregar, b4 aproxima-se, b5 cochichar, b7 avanca e o outro recua, b8 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_sono  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_sono/moodboard.jpg
@@ -224,8 +224,8 @@ kit/ball | b3 | pronto | conferir na folha de contato se le bem; se parecer caix
 - OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (26.7-28.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (28.1-29.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (26.7-28.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.5-30.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 04 - E Se a Internet Acabasse por Um Dia?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 85 palavras (~29 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: E se a internet do mundo inteiro caísse amanhã por um dia?
+## Cena b0  (~3.4 s)
+- Narracao: A internet do mundo inteiro cai amanhã, por um dia.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.4 s)
-- Narracao: Hospitais e bancos voltariam para a caneta, com filas enormes.
+## Cena b5  (~2.4 s)
+- Narracao: Hospitais e bancos voltariam para a caneta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Pesquisadores dizem que, longe das telas, muita gente dorme melhor.
+## Cena b8  (~2.1 s)
+- Narracao: E muita gente ia dormir melhor.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~3.1 s)
-- Narracao: Você aguentaria um dia? Responde enquanto ainda tem internet.
+## Cena b9  (~1.7 s)
+- Narracao: Você aguentaria? Agora imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

@@ -15,7 +15,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: RIC no centro, expressao pained, segura tulip; sem multidao; acao: nenhuma
 - OBJETO kit/tulip_bed: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.0 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b2: "Em 1637, na Holanda, a tulipa era rara e estava na moda."
+## b2: "Em 1637, na Holanda, a tulipa virou moda."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: POV no centro, expressao smile, segura tulip; sem multidao; acao: fala/gesto
@@ -27,7 +27,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO buildings/windmill: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.7 m de altura x 7.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: HOLANDA (cobre a tela 1-2 s)
 
-## b3: "Num leilão, um bulbo saía por mil moedas. Depois, duas mil."
+## b3: "Num leilão, um bulbo saiu por duas mil moedas."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)
 - PERSONAGENS: RIC na esquerda, expressao stern, segura coin; RIC na direita, expressao shock, segura coin; sem multidao; acao: discutir
@@ -81,7 +81,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@90
 - TEXTO NA TELA: "PÂNICO" flutuando no alto, na palavra 1 da frase
 
-## b9: "O marinheiro, pelo menos, almoçou bem."
+## b9: "Uma loucura que se repete. Foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: MAR no centro, expressao grin; sem multidao; acao: fala/gesto

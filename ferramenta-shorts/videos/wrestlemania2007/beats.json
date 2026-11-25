@@ -118,7 +118,7 @@
    "d1": 11.5,
    "set": "stadium",
    "bloco": "gancho",
-   "say": "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.",
+   "say": "Donald Trump raspou a cabeça de outro bilionário num ringue.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -188,7 +188,7 @@
    "mapa_at": 3,
    "set": "street",
    "bloco": "prova",
-   "say": "Foi em 2007, no maior show de luta livre do mundo.",
+   "say": "Foi em 2007, no maior show de luta livre.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -318,7 +318,7 @@
    "d1": 10.0,
    "set": "stadium",
    "bloco": "escalada",
-   "say": "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.",
+   "say": "O lutador de Trump enfrentou o gigante Umaga.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -433,13 +433,13 @@
    "d1": 10.0,
    "set": "stadium",
    "bloco": "pagamento",
-   "say": "Trump e Lashley rasparam a cabeça de Vince McMahon.",
+   "say": "Trump ajudou a raspar a cabeça de Vince McMahon.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "rasparam"
+      "na": "raspar"
      }
     ]
    }
@@ -501,7 +501,7 @@
    "acao": "comemorar",
    "interior": "madeira",
    "bloco": "loop",
-   "say": "Depois, Trump entrou para o Hall da Fama da luta livre.",
+   "say": "Anos depois, foi para o Hall da Fama. Tudo porque...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -556,6 +556,6 @@
   }
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: Trump raspou a cabeca de outro bilionario num ringue e tambem acabou no chao. Pagamento: a aposta dos lutadores, a vitoria de Lashley, a cabeca raspada de McMahon e Trump derrubado pelo juiz.",
+ "gancho_cumprido": "Gancho: Trump raspou a cabeca de outro bilionario num ringue e acabou no chao. Pagamento: a aposta dos lutadores, a vitoria do lutador de Trump, a cabeca raspada de McMahon e Trump derrubado pelo juiz.",
  "loop_frase_ok": true
 }

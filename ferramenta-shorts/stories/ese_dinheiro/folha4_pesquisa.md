@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se o Dinheiro Sumisse do Mundo? | E Se o Dinheiro Sumisse do Mundo? / Em Na | SEM REFERENCIA
+tema | E Se o Dinheiro Sumisse do Mundo? | E Se o Dinheiro Sumisse do Mundo? / Todo Em Na | SEM REFERENCIA
 lugar | cidade de hoje (padaria, feira) e a ilha de Yap, na Micronesia | cidade de hoje / cidade de hoje padaria feira e a ilha de Yap na Micronesia | SEM REFERENCIA
 lugar | Ilha De Yap | Ilha De Yap / Ilha De Yap landscape | SEM REFERENCIA
 pessoas | padeiro | padeiro | SEM REFERENCIA

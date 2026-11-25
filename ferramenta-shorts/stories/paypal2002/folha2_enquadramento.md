@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: foguetes da SpaceX nasceram de um site de pagamento."
+## b0: "Os foguetes da SpaceX nasceram de um site de pagamento."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@3
 - TEXTO NA TELA: "SPACEX" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Dois anos depois, investiu na Tesla, de carros elétricos."
+## b7: "Dois anos depois, investiu na Tesla."
 - LOCAL: loc_pista; hora: dia
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -76,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
 
-## b9: "Um pagamento online, literalmente, chegou ao espaço."
+## b9: "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto

@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
-> "E se, hoje à noite, a Lua desaparecesse do céu?"
+## Cena b0 - 0.0s a 2.6s - 8 palavras - plano two
+> "Hoje à noite, a Lua desaparece do céu."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (2.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,11 +23,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 6.3s - 8 palavras - plano reveal
+## Cena b1 - 3.0s a 5.6s - 8 palavras - plano reveal
 > "O pior não viria na hora. Viria devagar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "devagar" (6.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "devagar" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -38,11 +38,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b2 - 6.7s a 9.6s - 9 palavras - plano two
+## Cena b2 - 5.9s a 8.9s - 9 palavras - plano two
 > "Primeiro, a escuridão: lua cheia, preta como uma caverna."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escuridão" (7.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "escuridão" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -55,11 +55,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b3 - 10.0s a 13.7s - 11 palavras - plano wide
+## Cena b3 - 9.3s a 13.0s - 11 palavras - plano wide
 > "Depois, o mar: quem mais puxa as marés é a Lua."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (12.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (11.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -72,11 +72,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b4 - 14.1s a 17.4s - 10 palavras - plano two
+## Cena b4 - 13.3s a 16.7s - 10 palavras - plano two
 > "Sem ela, as marés perderiam mais da metade da força."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (15.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marés" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -89,11 +89,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b5 - 17.8s a 20.7s - 9 palavras - plano low
+## Cena b5 - 17.0s a 20.0s - 9 palavras - plano low
 > "Acontece que a Lua mantém a Terra girando firme."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "girando" (20.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "girando" (19.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -104,11 +104,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 21.1s a 25.2s - 12 palavras - plano two
-> "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas."
+## Cena b6 - 20.4s a 23.7s - 10 palavras - plano two
+> "Sem ela, o eixo balançaria, e as estações ficariam extremas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balançaria" (23.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "balançaria" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -121,11 +121,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 25.6s a 30.0s - 13 palavras - plano crowd
-> "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano."
+## Cena b7 - 24.1s a 27.4s - 10 palavras - plano crowd
+> "Boa notícia: ela só se afasta quatro centímetros por ano."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "afasta" (28.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "afasta" (25.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -141,11 +141,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (smile), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 30.4s a 33.0s - 8 palavras - plano two
-> "Hoje à noite, olha para cima e agradece."
+## Cena b8 - 27.8s a 30.4s - 8 palavras - plano two
+> "Olha para cima e agradece. Agora imagina que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "olha" (31.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "olha" (27.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

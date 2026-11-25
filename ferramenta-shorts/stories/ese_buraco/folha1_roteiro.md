@@ -1,18 +1,18 @@
 # FOLHA 1 - ROTEIRO: E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 90 palavras (~31 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Um buraco até a China? Do Brasil, você sairia no meio do Pacífico.
+## Cena b0  (~3.4 s)
+- Narracao: Um buraco atravessando a Terra sairia no meio do Pacífico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: E SE... | mapa: CHINA
+- Texto na tela: E SE...
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~2.4 s)
-- Narracao: E o pulo nesse buraco nunca acabaria.
+- Narracao: E quem pulasse nele cairia para sempre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: - | mapa: RÚSSIA
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~2.4 s)
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~3.4 s)
-- Narracao: Acontece que, se você pulasse, cairia cada vez mais rápido.
+## Cena b6  (~4.1 s)
+- Narracao: Acontece que, se desse para pular, você cairia cada vez mais rápido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Mas, sem ninguém para segurar, cairia de volta. Para sempre.
+## Cena b8  (~2.8 s)
+- Narracao: E, sem ninguém para segurar, cairia de volta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
-- Narracao: Para ir ao Japão, a passagem ainda é o melhor caminho.
+## Cena b9  (~2.1 s)
+- Narracao: Ninguém conseguiu ainda. Mas imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

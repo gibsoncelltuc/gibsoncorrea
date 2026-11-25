@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos."
+## b0: "Um pedaço do Brasil foi holandês por 24 anos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o flag_pole (alvo z -3.6, camera a 19.9 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: NAS (nobre) na esquerda, expressao smug; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -29,13 +29,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: PERNAMBUCO (cobre a tela 1-2 s)
 
-## b3: "Maurício de Nassau trouxe pintores e cientistas para Recife."
+## b3: "Maurício de Nassau levou artistas para Recife."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NAS (nobre) na esquerda, expressao grin; ART (cientista) na direita, expressao smile, segura paper; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Recife ganhou uma grande ponte e a primeira sinagoga das Américas."
+## b4: "Recife ganhou até a primeira sinagoga das Américas."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o bridge (alvo z -5.3, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: NAS (nobre) na esquerda, expressao smug; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -52,7 +52,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@20
 - TEXTO NA TELA: "GUARARAPES" flutuando no alto, na palavra 1 da frase
 
-## b6: "Em 1654, os holandeses foram embora de vez."
+## b6: "Em 1654, os holandeses foram embora."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: NAS (nobre) na esquerda, expressao sad; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -68,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@20
 - SOM: ding@50
 
-## b8: "Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã."
+## b8: "Depois, a Holanda trocou Nova Amsterdã pelo Suriname."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: NAS (nobre) na esquerda, expressao smug; ART (cientista) na direita, expressao grin; sem multidao; acao: entregar
@@ -85,7 +85,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "NOVA YORK" flutuando no alto, na palavra 1 da frase
 
-## b10: "E se eles tivessem ficado? O mapa seria outro."
+## b10: "Se tivessem ficado, o mapa seria outro. Porque..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o flag_pole (alvo z -3.6, camera a 19.9 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: NAS (nobre) na esquerda, expressao smug; POV na direita, expressao surprised; sem multidao; acao: fala/gesto

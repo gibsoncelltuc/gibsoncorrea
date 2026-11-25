@@ -1,22 +1,22 @@
 # CRONOGRAMA - E Se EP 03 - E Se o Brasil Tivesse Sido Holandês?
 
-Gerado em 25/11 17:09 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | NAS, POV | - | flag_pole, marco_olinda | - | Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos.
+b0 | simples | harbor | two | NAS, POV | - | flag_pole, marco_olinda | - | Um pedaço do Brasil foi holandês por 24 anos.
 b1 | chave | countryside | crowd | POV, POV, ART | 20 | skyscraper, marco_olinda | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E essa história termina em Nova York.
 b2 | simples | harbor | reveal | POV, POV | 6 | marco_olinda, navios de guerra ao fundo, no tamanho real | - | Em 1630, navios holandeses tomaram Pernambuco, atrás do açúcar.
-b3 | simples | countryside | two | NAS, ART | - | marco_olinda | - | Maurício de Nassau trouxe pintores e cientistas para Recife.
-b4 | simples | street | two | NAS, POV | - | bridge, marco_olinda | - | Recife ganhou uma grande ponte e a primeira sinagoga das Américas.
+b3 | simples | countryside | two | NAS, ART | - | marco_olinda | - | Maurício de Nassau levou artistas para Recife.
+b4 | simples | street | two | NAS, POV | - | bridge, marco_olinda | - | Recife ganhou até a primeira sinagoga das Américas.
 b5 | chave | jungle | orbit | POR, POR, POV | 18 | marco_olinda | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que portugueses, indígenas e africanos se uniram contra eles.
-b6 | simples | street | two | NAS, POV | - | ship | - | Em 1654, os holandeses foram embora de vez.
+b6 | simples | street | two | NAS, POV | - | ship | - | Em 1654, os holandeses foram embora.
 b7 | simples | interior loja | close | ART | - | - | - | O Suriname, aqui do lado, fala holandês até hoje.
-b8 | simples | street | two | NAS, ART | - | scroll | - | Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã.
+b8 | simples | street | two | NAS, ART | - | scroll | - | Depois, a Holanda trocou Nova Amsterdã pelo Suriname.
 b9 | chave | street | crowd | POV, POV, ART | 20 | house_small, skyscraper, marco_olinda, picket_fence, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Essa vila hoje se chama Nova York.
-b10 | simples | harbor | two | NAS, POV | - | flag_pole | - | E se eles tivessem ficado? O mapa seria outro.
+b10 | simples | harbor | two | NAS, POV | - | flag_pole | - | Se tivessem ficado, o mapa seria outro. Porque...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

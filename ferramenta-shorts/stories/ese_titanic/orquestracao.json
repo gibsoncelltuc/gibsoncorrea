@@ -21,7 +21,7 @@
    ],
    "palavras": 12,
    "cena": "b0",
-   "frase": "Diziam que era impossível de ir ao fundo. Foi na primeira viagem.",
+   "frase": "O navio que não podia afundar foi ao fundo na primeira viagem.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -44,9 +44,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b1",
-   "frase": "E se não tivesse afundado, o mar seria mais perigoso hoje.",
+   "frase": "E é por causa dele que o mar é mais seguro hoje.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -63,9 +63,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Abril de 1912. O Titanic levava mais de duas mil pessoas.",
+   "frase": "O Titanic levava mais de duas mil pessoas.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -175,9 +175,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Em 1914, veio o primeiro grande tratado do mar: bote para todos.",
+   "frase": "Em 1914, veio a regra: bote para todos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,9 +194,9 @@
    "objetos": [
     "kit/iceberg"
    ],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "E criaram uma patrulha de icebergs, que existe até hoje.",
+   "frase": "E criaram uma patrulha de icebergs.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -213,9 +213,9 @@
    "objetos": [
     "kit/iceberg"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b9",
-   "frase": "O pior dia do Titanic deixou o mar mais seguro.",
+   "frase": "Tudo mudou numa noite gelada. Foi quando...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

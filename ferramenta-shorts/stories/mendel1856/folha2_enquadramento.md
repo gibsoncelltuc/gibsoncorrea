@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um monge contando ervilhas descobriu a herança."
+## b0: "Um monge contando ervilhas descobriu como herdamos o que somos."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/pe_ervilha: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: REPÚBLICA TCHECA (cobre a tela 1-2 s)
 
-## b3: "Cruzou ervilhas amarelas com verdes e esperou os filhos."
+## b3: "Cruzou ervilhas amarelas com ervilhas verdes."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e vagem_verde juntos (camera a 8.0 m)
 - PERSONAGENS: MEN (padre) no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -76,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MEN (padre) na esquerda, expressao smile; FRE (padre) na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Só depois da morte dele, cientistas viram que estava certo."
+## b8: "Só depois da morte dele, viram que estava certo."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: CIE (cientista) no centro, expressao surprised; sem multidao; acao: comemorar
@@ -89,7 +89,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "GENÉTICA" flutuando no alto, na palavra 1 da frase
 
-## b9: "A ervilha fez o monge famoso. Tarde demais."
+## b9: "Ele morreu sem saber. E foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto

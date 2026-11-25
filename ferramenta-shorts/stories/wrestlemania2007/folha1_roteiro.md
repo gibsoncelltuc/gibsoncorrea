@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 15 - Trump na Batalha dos Bilionários
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium | 10 cenas, 98 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: stadium | 10 cenas, 91 palavras (~31 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue.
+## Cena b0  (~3.4 s)
+- Narracao: Donald Trump raspou a cabeça de outro bilionário num ringue.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Foi em 2007, no maior show de luta livre do mundo.
+## Cena b2  (~3.1 s)
+- Narracao: Foi em 2007, no maior show de luta livre.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: 80 MIL
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~3.4 s)
-- Narracao: O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga.
+## Cena b5  (~2.8 s)
+- Narracao: O lutador de Trump enfrentou o gigante Umaga.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
@@ -66,7 +66,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b7  (~3.1 s)
-- Narracao: Trump e Lashley rasparam a cabeça de Vince McMahon.
+- Narracao: Trump ajudou a raspar a cabeça de Vince McMahon.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@40
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: stadium 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~3.8 s)
-- Narracao: Depois, Trump entrou para o Hall da Fama da luta livre.
+## Cena b9  (~3.4 s)
+- Narracao: Anos depois, foi para o Hall da Fama. Tudo porque...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

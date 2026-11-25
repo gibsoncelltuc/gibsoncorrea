@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: Trump raspou a cabeça de outro bilionário num ringue."
+## b0: "Donald Trump raspou a cabeça de outro bilionário num ringue."
 - LOCAL: estadio; hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; VIN na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -19,7 +19,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
-## b2: "Foi em 2007, no maior show de luta livre do mundo."
+## b2: "Foi em 2007, no maior show de luta livre."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@20
 - TEXTO NA TELA: "80 MIL" flutuando no alto, na palavra 1 da frase
 
-## b5: "O lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga."
+## b5: "O lutador de Trump enfrentou o gigante Umaga."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: LAS (lutador) na esquerda, expressao angry; UMA (lutador) na direita, expressao angry; sem multidao; acao: discutir
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VITÓRIA" flutuando no alto, na palavra 1 da frase
 
-## b7: "Trump e Lashley rasparam a cabeça de Vince McMahon."
+## b7: "Trump ajudou a raspar a cabeça de Vince McMahon."
 - LOCAL: estadio; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: TRU na esquerda, expressao laugh; LAS (lutador) no centro, expressao grin; VIB na direita, expressao shock; sem multidao; acao: discutir
@@ -79,7 +79,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
 
-## b9: "Depois, Trump entrou para o Hall da Fama da luta livre."
+## b9: "Anos depois, foi para o Hall da Fama. Tudo porque..."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TRU na esquerda, expressao smile; JUI na direita, expressao smile; sem multidao; acao: comemorar

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Uma cidade inteira atirou no céu a noite toda. Não havia inimigo."
+## b0: "Uma cidade atirou no céu a noite toda contra um inimigo invisível."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)
 - PERSONAGENS: SOL (soldado) na esquerda, expressao shock; CID (comerciante) na direita, expressao scared; multidao de 12 (CID, SOL) ATRAS dos principais; acao: susto
@@ -21,14 +21,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: CID (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/searchlight: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em fevereiro de 1942, Los Angeles vivia com medo do Japão."
+## b2: "Em 1942, Los Angeles vivia com medo do Japão."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: CID (comerciante) na esquerda, expressao nervous; CID (comerciante) na direita, expressao scared; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: LOS ANGELES (cobre a tela 1-2 s)
 
-## b3: "Na véspera, um submarino japonês tinha atirado na Califórnia."
+## b3: "Na véspera, um submarino japonês atirou na Califórnia."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: pordosol
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: CID (comerciante) no centro, expressao scared; sem multidao; acao: fala/gesto
@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b5: "Alguém viu um objeto, e os canhões antiaéreos começaram a atirar."
+## b5: "Alguém viu algo, e os canhões antiaéreos começaram a atirar."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: SOL (soldado) no centro, expressao shout; multidao de 3 (SOL) ATRAS dos principais; acao: fala/gesto
@@ -70,19 +70,19 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: cannon@40
 - SOM: cannon@100
 
-## b7: "Acontece que não havia nada lá em cima. Só nuvens e fumaça."
+## b7: "Acontece que não havia nada lá em cima."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SOL (soldado) na esquerda, expressao shout; GEN (general) na direita, expressao surprised; multidao de 12 (GEN, SOL) ATRAS dos principais; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Algumas pessoas morreram por acidente e susto. Nenhum inimigo apareceu."
+## b8: "Algumas pessoas morreram por acidente e susto."
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CID (comerciante) na esquerda, expressao sad; CID (comerciante) na direita, expressao cry; multidao de 12 (CID) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "O único derrotado foi o sono de Los Angeles."
+## b9: "O medo venceu o sono. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)
 - PERSONAGENS: SOL (soldado) na esquerda, expressao shock; CID (comerciante) na direita, expressao scared; multidao de 12 (CID, SOL) ATRAS dos principais; acao: susto

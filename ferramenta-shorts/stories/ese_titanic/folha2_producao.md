@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_titanic/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_titanic` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Diziam que era impossível de ir ao fundo. Foi na primeira viagem.
+## Cena b0 - O navio que não podia afundar foi ao fundo na primeira viagem.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CAP (variante 0, expressao stern); POV (variante 0, expressao surprised) | multidao: 10 de POV
 - Animacao: conversar | interacao: aproxima-se | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/iceberg
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): primeira
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navio, primeira
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -24,7 +24,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (4.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b1 - E se não tivesse afundado, o mar seria mais perigoso hoje.
+## Cena b1 - E é por causa dele que o mar é mais seguro hoje.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -40,12 +40,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern; POV na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (4.4-6.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (6.2-8.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (4.4-6.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (6.5-8.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b2 - Abril de 1912. O Titanic levava mais de duas mil pessoas.
+## Cena b2 - O Titanic levava mais de duas mil pessoas.
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -62,9 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: OCEANO ATLÂNTICO (cobre a tela 1-2 s)
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (8.5-10.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (10.3-12.2 s): mesmo angulo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Perto da meia-noite, o vigia gritou: iceberg à frente!
@@ -86,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - SOM: sting@20
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (12.6-14.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (14.1-15.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (11.9-13.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (13.4-14.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - O gelo rasgou o casco por baixo da água.
@@ -105,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/iceberg no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (3.0 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.9 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que só havia botes para metade das pessoas.
@@ -129,7 +127,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: thump@50
 - TEXTO NA TELA: "BOTES" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Cerca de mil e quinhentas pessoas morreram.
@@ -156,14 +154,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b7 - Em 1914, veio o primeiro grande tratado do mar: bote para todos.
+## Cena b7 - Em 1914, veio a regra: bote para todos.
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PRO (variante 0, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): regra
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -176,15 +174,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: sting@20
 - SOM: ding@50
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (25.2-27.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (27.2-29.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - E criaram uma patrulha de icebergs, que existe até hoje.
-- Cenario: harbor | luz: day | clima: limpo
+## Cena b8 - E criaram uma patrulha de icebergs.
+- Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MAR (variante 0, expressao grin); CAP (variante 0, expressao smile)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/iceberg
@@ -197,19 +193,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o iceberg (alvo z -3.6, camera a 17.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MAR (marinheiro) na esquerda, expressao grin; CAP (marinheiro) na direita, expressao smile; sem multidao; acao: entregar
 - OBJETO kit/iceberg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.9 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (29.6-31.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (31.3-33.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - O pior dia do Titanic deixou o mar mais seguro.
+## Cena b9 - Tudo mudou numa noite gelada. Foi quando...
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): CAP (variante 0, expressao stern); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: tremem de frio
 - Objetos/modelos: kit/iceberg
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pior, titanic
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -225,8 +219,8 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/iceberg | grandes momentos: b0, b5, b6 | planos abertos: 3 | mistura: close 12% | medio 73% | aberto 12% | detalhe 3%
-- Interacoes: b0 aproxima-se, b1 cochichar, b3 discutir, b8 entregar, b9 avanca e o outro recua
+- Objeto heroi: kit/iceberg | grandes momentos: b0, b5, b6 | planos abertos: 3 | mistura: close 13% | medio 75% | aberto 12% | detalhe 0%
+- Interacoes: b0 aproxima-se, b1 cochichar, b3 discutir, b8 entregar, b9 tremem de frio
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_titanic  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_titanic/moodboard.jpg
 
@@ -244,8 +238,6 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 - CAMERA: close (rosto e ombros); plano aberto mirando o iceberg (alvo z -3.6, camera a 12.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: conversar
 - OBJETO kit/iceberg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.6 m de altura x 4.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (33.3-35.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (35.0-36.7 s): mesmo angulo
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

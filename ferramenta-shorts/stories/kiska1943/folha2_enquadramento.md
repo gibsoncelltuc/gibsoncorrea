@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Trinta e quatro mil soldados desembarcaram numa ilha. Não tinha inimigo nenhum."
+## b0: "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; multidao de 24 (USA, CAN) marchando ATRAS dos principais; acao: fala/gesto
@@ -35,11 +35,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tanque_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 2.9 m de altura x 8.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/aviao_ww2: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: CHEGANDO; 4.9 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b4: "Antes de desembarcar, bombardearam a ilha por semanas."
+## b4: "Bombardearam a ilha durante semanas inteiras."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano de grupo (3+ pessoas); plano aberto mirando o aviao_ww2 (alvo z -4.4, camera a 16.9 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: USA no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/aviao_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: CHEGANDO; 4.9 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/aviao_ww2: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.9 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO cannon: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.9 m de altura x 7.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +38 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +60 da cena
@@ -92,7 +92,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/dog_sit: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "SÓ CACHORROS" numa placa atras dos personagens, na palavra 7 da frase
 
-## b10: "Um desembarque gigante contra uma ilha vazia."
+## b10: "Uma invasão contra cachorros. E foi assim que..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: overcast
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: USA na esquerda, expressao stern; CAN na direita, expressao stern; multidao de 24 (USA, CAN) marchando ATRAS dos principais; acao: fala/gesto

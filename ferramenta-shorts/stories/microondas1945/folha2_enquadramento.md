@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um chocolate derretido no bolso inventou o micro-ondas."
+## b0: "Um chocolate derretido no bolso inventou o micro-ondas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao smile; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -27,7 +27,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
-## b3: "Uma peça do radar mandava ondas invisíveis o dia inteiro."
+## b3: "Uma peça do radar soltava ondas invisíveis o dia inteiro."
 - LOCAL: galpao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SPE na esquerda, expressao neutral; ENG na direita, expressao suspicious; sem multidao; acao: conversar
@@ -70,7 +70,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: SPE na esquerda, expressao smile; COL no centro, expressao surprised; ENG na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/microwave: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b9: "O chocolate perdeu. Mas a pipoca agradece."
+## b9: "Um lanche perdido. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)
 - PERSONAGENS: SPE na esquerda, expressao smile; COL na direita, expressao surprised; sem multidao; acao: fala/gesto

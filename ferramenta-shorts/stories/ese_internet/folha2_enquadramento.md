@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "E se a internet do mundo inteiro caísse amanhã por um dia?"
+## b0: "A internet do mundo inteiro cai amanhã, por um dia."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: POV na esquerda, expressao shock; PRO (cientista) na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: thump@40
 
-## b5: "Hospitais e bancos voltariam para a caneta, com filas enormes."
+## b5: "Hospitais e bancos voltariam para a caneta."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao worried; sem multidao; acao: conversar
@@ -67,13 +67,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: POV na esquerda, expressao surprised; POV na direita, expressao grin; sem multidao; acao: entregar
 - OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 12% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
-## b8: "Pesquisadores dizem que, longe das telas, muita gente dorme melhor."
+## b8: "E muita gente ia dormir melhor."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRO (cientista) na esquerda, expressao suspicious; POV na direita, expressao smile; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Você aguentaria um dia? Responde enquanto ainda tem internet."
+## b9: "Você aguentaria? Agora imagina que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: comemorar

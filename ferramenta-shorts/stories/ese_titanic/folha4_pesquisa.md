@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se o Titanic Não Tivesse Afundado? | E Se o Titanic Não Tivesse Afundado? / Diziam Foi Abril Titanic 1912 | SEM REFERENCIA
+tema | E Se o Titanic Não Tivesse Afundado? | E Se o Titanic Não Tivesse Afundado? / Titanic 1912 | SEM REFERENCIA
 lugar | Atlantico Norte, a bordo do Titanic | Atlantico Norte a bordo do Titanic / Atlantico Norte a bordo do Titanic 1912 | SEM REFERENCIA
 lugar | Oceano Atlântico | Oceano Atlântico 1912 / Oceano Atlântico landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1912 | 1912 fashion clothing / 1912 street photograph | SEM REFERENCIA
@@ -24,6 +24,7 @@ pessoas | vigia do cesto da gavea | vigia do cesto da gavea / vigia do cesto da 
 objeto | iceberg | iceberg / iceberg 1912 | SEM REFERENCIA
 objeto | botes salva-vidas | botes salva-vidas / botes salva-vidas 1912 | SEM REFERENCIA
 objeto | navio Titanic | navio Titanic / navio Titanic 1912 | SEM REFERENCIA
+epoca | navio da epoca | ship 1912 / ship | SEM REFERENCIA
 mecanismo | O gelo rasgou o casco por baixo da água. | rasgou casco baixo / iceberg diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)

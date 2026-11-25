@@ -1,21 +1,21 @@
 # CRONOGRAMA - E Se EP 02 - E Se os Humanos Sumissem da Terra?
 
-Gerado em 25/11 17:09 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PRO, POV | - | globe | - | E se todos os humanos sumissem da Terra amanhã?
-b1 | simples | loc_campo | close | PRO | - | globe | - | O planeta nem sentiria falta. Veja por quê.
+b0 | simples | street | two | PRO, POV | - | globe | - | Todos os humanos sumiram da Terra de uma vez.
+b1 | simples | loc_campo | close | PRO | - | globe | - | E o planeta nem sentiria falta.
 b2 | simples | street | reveal | POV, POV | 6 | - | - | No primeiro dia, ninguém estaria nas usinas de energia.
-b3 | simples | street | two | PRO, POV | - | apartment, house_two, lamppost | - | Em poucas horas, as luzes se apagariam, cidade por cidade.
+b3 | simples | interior madeira | two | PRO, POV | - | - | - | Em poucas horas, as luzes se apagariam.
 b4 | simples | street | low | PRO | - | - | - | Em dois dias, o metrô de Nova York ficaria inundado.
 b5 | chave | jungle | crowd | PRO | 1 | bush, tree_oak, tree_pine | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em vinte anos, as ruas virariam florestas, com lobos nas avenidas.
-b6 | simples | interior madeira | low | PRO | - | - | - | Acontece que até as pontes de aço cairiam, comidas pela ferrugem.
-b7 | chave | loc_deserto | wide | PRO, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Sobrariam as pirâmides, que já resistem há mais de quatro mil anos.
+b6 | simples | interior loja | low | PRO | - | - | - | Acontece que até as pontes de aço cairiam, comidas pela ferrugem.
+b7 | chave | loc_deserto | wide | PRO, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Sobrariam as pirâmides, de pé há mais de quatro mil anos.
 b8 | simples | interior loja | two | PRO, POV | - | - | - | E o plástico, que leva séculos para sumir.
-b9 | simples | street | two | PRO, POV | - | globe | - | Somos nós que precisamos do planeta, não o contrário.
+b9 | simples | street | two | PRO, POV | - | globe | - | Somos nós que precisamos do planeta. Agora imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

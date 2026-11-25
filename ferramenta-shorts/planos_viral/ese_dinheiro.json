@@ -1,18 +1,20 @@
 {
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: e se todo o dinheiro sumisse; em menos de um ano a gente inventaria outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "gancho_cumprido": "Gancho: todo o dinheiro do mundo some amanha e em menos de um ano inventamos outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
  "cenas": [
   [
    0,
    "gancho",
-   "E se todo o dinheiro do mundo sumisse amanhã?",
-   "dinheiro"
+   "Todo o dinheiro do mundo some amanhã de manhã.",
+   "dinheiro",
+   {}
   ],
   [
    10,
    "promessa",
    "Em menos de um ano, a gente inventaria outro.",
-   "inventaria"
+   "inventaria",
+   {}
   ],
   [
    1,
@@ -34,14 +36,16 @@
   [
    2,
    "prova",
-   "A saída seria a troca: uma galinha por uma cesta de comida.",
-   "troca"
+   "A saída seria a troca: uma galinha por comida.",
+   "troca",
+   {}
   ],
   [
    3,
    "escalada",
    "Acontece que o padeiro pode não querer galinha.",
-   "querer"
+   "querer",
+   {}
   ],
   [
    4,
@@ -55,8 +59,9 @@
   [
    5,
    "escalada",
-   "Algumas nem saíam do lugar. Todos só lembravam quem era o dono.",
-   "lembravam"
+   "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
+   "lembravam",
+   {}
   ],
   [
    8,
@@ -70,7 +75,7 @@
   [
    9,
    "pagamento",
-   "Dinheiro não é papel. É confiança entre as pessoas.",
+   "Dinheiro não é papel. É confiança.",
    "confiança",
    {
     "batalha": false,
@@ -82,8 +87,9 @@
   [
    0,
    "loop",
-   "E se ele sumisse amanhã? Agora você sabe o que viria.",
-   "sumisse"
+   "Teste mental para hoje: imagina que...",
+   "imagina",
+   {}
   ]
  ]
 }

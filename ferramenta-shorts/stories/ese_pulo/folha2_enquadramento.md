@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Se todo mundo pulasse junto, a Terra sairia do lugar?"
+## b0: "Oito bilhões de pessoas pulam juntas, e a Terra nem sente."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
 
-## b1: "Não. Mas o problema de verdade seria outro."
+## b1: "Mas o problema de verdade seria outro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: POV na esquerda, expressao laugh; POV na direita, expressao grin; sem multidao; acao: abracar
@@ -70,7 +70,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
-## b9: "Pode pular aí. A Terra nem vai sentir."
+## b9: "Pode pular aí. Agora imagina que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: golden
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: comemorar

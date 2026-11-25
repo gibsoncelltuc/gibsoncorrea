@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um bilionário vendeu lança-chamas dizendo que não era lança-chamas."
+## b0: "Um bilionário vendeu lança-chamas jurando que não era lança-chamas."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -14,14 +14,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "NÃO É LANÇA-CHAMAS" flutuando no alto, na palavra 1 da frase
 
-## b1: "E o motivo do nome é ainda mais esperto."
+## b1: "E o motivo desse nome é bem esperto."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2018, a Boring Company, de Elon Musk, lançou o aparelho."
+## b2: "Em 2018, a empresa de túneis de Elon Musk lançou o aparelho."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; CMP na direita, expressao smile; sem multidao; acao: fala/gesto
@@ -71,7 +71,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MUS na esquerda, expressao laugh; CMP na direita, expressao laugh; sem multidao; acao: comemorar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Um lança-chamas que jurava não ser lança-chamas."
+## b9: "O nome mentia, e todo mundo sabia. Foi assim que..."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao shock; sem multidao; acao: fala/gesto

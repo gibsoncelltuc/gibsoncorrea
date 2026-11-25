@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se Ninguém Precisasse Dormir? | E Se Ninguém Precisasse Dormir? / Você Mas Cidades 1964 | SEM REFERENCIA
+tema | E Se Ninguém Precisasse Dormir? | E Se Ninguém Precisasse Dormir? / Ninguém Mas Cidades 1964 | SEM REFERENCIA
 lugar | cidade de hoje e San Diego, EUA (1964) | cidade de hoje e San Diego EUA / cidade de hoje e San Diego EUA 1964 1964 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1964 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1964 | 1964 fashion clothing / 1964 street photograph | SEM REFERENCIA

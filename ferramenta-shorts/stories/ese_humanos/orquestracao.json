@@ -21,7 +21,7 @@
    ],
    "palavras": 9,
    "cena": "b0",
-   "frase": "E se todos os humanos sumissem da Terra amanhã?",
+   "frase": "Todos os humanos sumiram da Terra de uma vez.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,9 +37,9 @@
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b1",
-   "frase": "O planeta nem sentiria falta. Veja por quê.",
+   "frase": "E o planeta nem sentiria falta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -70,19 +70,15 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "nature/lamppost"
-   ],
-   "palavras": 10,
+   "objetos": [],
+   "palavras": 7,
    "cena": "b3",
-   "frase": "Em poucas horas, as luzes se apagariam, cidade por cidade.",
+   "frase": "Em poucas horas, as luzes se apagariam.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   },
   {
    "camera": "low",
@@ -140,7 +136,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior loja"
   },
   {
    "camera": "wide",
@@ -150,9 +146,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Sobrariam as pirâmides, que já resistem há mais de quatro mil anos.",
+   "frase": "Sobrariam as pirâmides, de pé há mais de quatro mil anos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -194,7 +190,7 @@
    ],
    "palavras": 9,
    "cena": "b9",
-   "frase": "Somos nós que precisamos do planeta, não o contrário.",
+   "frase": "Somos nós que precisamos do planeta. Agora imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

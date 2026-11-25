@@ -1,21 +1,21 @@
 # CRONOGRAMA - E Se EP 06 - E Se o Dinheiro Sumisse do Mundo?
 
-Gerado em 25/11 17:09 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PRO, POV | - | coin | - | E se todo o dinheiro do mundo sumisse amanhã?
+b0 | simples | street | two | PRO, POV | - | coin | - | Todo o dinheiro do mundo some amanhã de manhã.
 b1 | simples | countryside | reveal | PRO | 8 | coin | - | Em menos de um ano, a gente inventaria outro.
 b2 | simples | interior loja | two | PAD, POV | - | - | - | Na primeira manhã, você não teria como pagar o café.
-b3 | simples | countryside | two | FAZ, PAD | - | - | - | A saída seria a troca: uma galinha por uma cesta de comida.
+b3 | simples | countryside | two | FAZ, PAD | - | - | - | A saída seria a troca: uma galinha por comida.
 b4 | simples | harbor | wide | PAD, FAZ | 6 | - | - | Acontece que o padeiro pode não querer galinha.
 b5 | chave | street | reveal | POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na ilha de Yap, o dinheiro eram pedras gigantes.
-b6 | simples | harbor | two | PRO, POV | - | rocks | - | Algumas nem saíam do lugar. Todos só lembravam quem era o dono.
+b6 | simples | harbor | two | PRO, POV | - | rocks | - | Algumas nem saíam do lugar. Todos lembravam quem era o dono.
 b7 | chave | interior madeira | two | PRO | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em prisões e guerras, quando o dinheiro some, inventam outro.
-b8 | simples | harbor | group | POV, POV, FAZ | - | - | - | Dinheiro não é papel. É confiança entre as pessoas.
-b9 | simples | street | two | PRO, POV | - | coin | - | E se ele sumisse amanhã? Agora você sabe o que viria.
+b8 | simples | harbor | group | POV, POV, FAZ | - | - | - | Dinheiro não é papel. É confiança.
+b9 | simples | street | two | PRO, POV | - | coin | - | Teste mental para hoje: imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

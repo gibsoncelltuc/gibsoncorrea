@@ -21,7 +21,7 @@
    ],
    "palavras": 10,
    "cena": "b0",
-   "frase": "E se ninguém precisasse dormir? Você ganharia 25 anos acordado.",
+   "frase": "Ninguém precisa mais dormir, e você ganha 25 anos acordado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -176,9 +176,9 @@
    "objetos": [
     "kit/kettle"
    ],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "Se você está vendo isso de madrugada, vai dormir.",
+   "frase": "Se está vendo isso de madrugada, vai dormir. E imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

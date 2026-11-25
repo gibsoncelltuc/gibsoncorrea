@@ -1,13 +1,13 @@
 # CRONOGRAMA - E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?
 
-Gerado em 25/11 17:11 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PRO, POV | 5 | globe | - | Se todo mundo pulasse junto, a Terra sairia do lugar?
-b1 | simples | harbor | two | POV, POV | - | - | - | Não. Mas o problema de verdade seria outro.
+b0 | simples | street | two | PRO, POV | - | globe | - | Oito bilhões de pessoas pulam juntas, e a Terra nem sente.
+b1 | simples | harbor | two | POV, POV | - | - | - | Mas o problema de verdade seria outro.
 b2 | chave | street | crowd | POV, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Somos mais de oito bilhões de pessoas.
 b3 | simples | harbor | two | PRO, POV | - | - | - | Juntas, pesamos mais de quinhentos milhões de toneladas.
 b4 | chave | harbor | crowd | POV, POV, POV | 30 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Todo mundo conta até três, e pula!
@@ -15,7 +15,7 @@ b5 | simples | harbor | close | PRO | - | globe | - | Acontece que a Terra pesa 
 b6 | explicativa | loc_estudio | two | sem personagem | - | globe | corpo: kit/globe (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em c | Ela se mexeria menos que a largura de um átomo.
 b7 | simples | interior madeira | two | PRO, POV | - | - | - | Se todos se juntassem num lugar só, o caos seria a volta.
 b8 | simples | interior madeira | group | PRO, POV | - | - | - | Bilhões de pessoas sem estrada, comida ou água para voltar.
-b9 | simples | street | two | PRO, POV | - | globe | - | Pode pular aí. A Terra nem vai sentir.
+b9 | simples | street | two | PRO, POV | - | globe | - | Pode pular aí. Agora imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

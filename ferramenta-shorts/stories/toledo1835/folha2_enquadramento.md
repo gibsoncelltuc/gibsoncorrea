@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Dois estados americanos foram à guerra. O único ferido levou uma canivetada."
+## b0: "Dois estados foram à guerra, e o único ferido levou uma canivetada."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
 - PERSONAGENS: OHI no centro, expressao stern; multidao de 16 (OHI, MIC) ATRAS dos principais; acao: fala/gesto
@@ -26,7 +26,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "MAPA ERRADO" numa placa atras dos personagens, na palavra 16 da frase
 - MAPA: TOLEDO (cobre a tela 1-2 s)
 
-## b3: "Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo."
+## b3: "O governador de Michigan, de 23 anos, ocupou Toledo."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: GOV no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "PARA O ALTO" flutuando no alto, na palavra 1 da frase
 
-## b6: "A única baixa: um xerife esfaqueado com canivete numa taverna."
+## b6: "O único ferido: um xerife, esfaqueado numa taverna."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: RAP na esquerda, expressao angry; XER na direita, expressao pained; sem multidao; acao: discutir
@@ -62,14 +62,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: OHI na esquerda, expressao grin; MIC no centro, expressao pained; GOV na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna."
+## b8: "Acontece que debaixo da floresta havia cobre e ferro."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)
 - PERSONAGENS: GOV na esquerda, expressao shock, segura coin; MIC na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/minerio: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "COBRE E FERRO" flutuando no alto, na palavra 7 da frase
 
-## b9: "Michigan perdeu a guerra e ficou rico."
+## b9: "Michigan perdeu e ficou rico. E foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)
 - PERSONAGENS: OHI no centro, expressao stern; multidao de 16 (OHI, MIC) ATRAS dos principais; acao: fala/gesto

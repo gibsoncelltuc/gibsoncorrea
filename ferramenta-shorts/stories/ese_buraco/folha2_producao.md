@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_buraco/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_buraco` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Um buraco até a China? Do Brasil, você sairia no meio do Pacífico.
+## Cena b0 - Um buraco atravessando a Terra sairia no meio do Pacífico.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CAV (variante 0, expressao grin, segura shovel); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, buraco, china, pacifico
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): buraco, pacifico, terra
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -21,19 +21,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (0.0-2.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (2.2-4.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.6-3.3 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b1 - E o pulo nesse buraco nunca acabaria.
+## Cena b1 - E quem pulasse nele cairia para sempre.
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (2): CAV (variante 0, expressao shock); PRO (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pulo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -62,8 +62,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao surprised; sem multidao; acao: conversar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (7.4-9.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (9.2-11.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (6.3-8.2 s): mesmo angulo
+  - take 2 (8.2-10.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b3 - Lá embaixo, faz cento e oitenta graus.
@@ -106,8 +106,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: cannon@50
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (14.1-15.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (15.9-17.8 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 1 (13.0-14.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (14.8-16.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b5 - E é quase tão quente quanto a superfície do Sol.
@@ -131,11 +131,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: cannon@50
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (18.1-19.8 s): mesmo angulo
-  - take 2 (19.8-21.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (17.0-18.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (18.7-20.4 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b6 - Acontece que, se você pulasse, cairia cada vez mais rápido.
+## Cena b6 - Acontece que, se desse para pular, você cairia cada vez mais rápido.
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -155,9 +155,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO whoosh: -; entra no quadro +50 da cena
 - SOM: whoosh@20
 - SOM: whoosh@50
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (21.9-23.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (23.5-25.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (20.7-22.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (22.8-24.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b7 - Sairia do outro lado em uns quarenta minutos.
@@ -178,10 +178,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Mas, sem ninguém para segurar, cairia de volta. Para sempre.
+## Cena b8 - E, sem ninguém para segurar, cairia de volta.
 - Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
@@ -197,19 +197,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CAV (agricultor) na esquerda, expressao shock; PRO (cientista) na direita, expressao smug; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (28.5-30.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (30.2-31.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Para ir ao Japão, a passagem ainda é o melhor caminho.
+## Cena b9 - Ninguém conseguiu ainda. Mas imagina que...
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
 - Personagens principais (2): CAV (variante 0, expressao grin, segura shovel); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): melhor, passagem
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -222,7 +220,7 @@ kit/scroll | b2, b3 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 11% | medio 63% | aberto 17% | detalhe 8%
+- Objeto heroi: kit/globe | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 13% | medio 60% | aberto 19% | detalhe 8%
 - Interacoes: b0 insiste, b1 discutir, b2 vai ate o outro, b7 cochichar, b8 reverencia, b9 aproxima-se
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_buraco  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_buraco/moodboard.jpg
@@ -244,8 +242,6 @@ kit/scroll | b2, b3 | pronto | conferir na folha de contato se le bem; se parece
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (32.2-34.0 s): mesmo angulo
-  - take 2 (34.0-35.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

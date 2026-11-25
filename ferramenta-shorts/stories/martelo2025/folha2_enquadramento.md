@@ -17,14 +17,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: POV na esquerda, expressao shrug; POV na direita, expressao worried; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Foi em junho de 2025, contra usinas nucleares do Irã."
+## b2: "Foi em 2025, contra usinas nucleares do Irã."
 - LOCAL: loc_campo; hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: IRÃ (cobre a tela 1-2 s)
 
-## b3: "A principal, Fordow, fica a quase noventa metros, dentro de uma montanha."
+## b3: "A principal, Fordow, fica dentro de uma montanha."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o mountain_bunker (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao stern; sem multidao; acao: fala/gesto
@@ -41,12 +41,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/b2_air no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b6: "Para despistar, outros aviões foram mandados na direção do Pacífico."
+## b6: "Outros aviões foram mandados para despistar."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/b2_air no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b7: "Acontece que, de madrugada, catorze bombas caíram, doze sobre Fordow."
+## b7: "Acontece que, de madrugada, doze bombas caíram sobre Fordow."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/mountain_bunker no centro, manobra "parado"
 - PASSOS NA TELA: -
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "DESTRUÍDAS?" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "O Irã discorda. E a montanha guarda o segredo."
+## b9: "O Irã discorda, e a montanha guarda o segredo. Foi assim que..."
 - LOCAL: loc_pista; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o bunker_bomb (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao stern; sem multidao; acao: fala/gesto

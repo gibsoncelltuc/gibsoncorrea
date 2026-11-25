@@ -1,20 +1,20 @@
 # CRONOGRAMA - E Se EP 07 - E Se a Lua Desaparecesse?
 
-Gerado em 25/11 17:10 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | harbor | two | PRO, POV | - | moon | - | E se, hoje à noite, a Lua desaparecesse do céu?
+b0 | simples | harbor | two | PRO, POV | - | moon | - | Hoje à noite, a Lua desaparece do céu.
 b1 | simples | loc_campo | reveal | PRO | 8 | globe | - | O pior não viria na hora. Viria devagar.
 b2 | simples | interior loja | two | POV, POV | - | - | - | Primeiro, a escuridão: lua cheia, preta como uma caverna.
 b3 | chave | harbor | wide | PES, POV | 6 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Depois, o mar: quem mais puxa as marés é a Lua.
 b4 | simples | loc_campo | two | PES, PRO | - | boat | - | Sem ela, as marés perderiam mais da metade da força.
 b5 | simples | loc_montanha | low | PRO | - | globe | - | Acontece que a Lua mantém a Terra girando firme.
-b6 | simples | loc_montanha | two | PRO, POV | - | globe | - | Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas
-b7 | chave | loc_campo | crowd | POV, PES, PRO | 18 | moon | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Boa notícia: ela não vai embora. Só se afasta quatro centímetros por a
-b8 | simples | harbor | two | PRO, POV | - | moon | - | Hoje à noite, olha para cima e agradece.
+b6 | simples | loc_montanha | two | PRO, POV | - | globe | - | Sem ela, o eixo balançaria, e as estações ficariam extremas.
+b7 | chave | loc_campo | crowd | POV, PES, PRO | 18 | moon | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Boa notícia: ela só se afasta quatro centímetros por ano.
+b8 | simples | harbor | two | PRO, POV | - | moon | - | Olha para cima e agradece. Agora imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se Napoleão Tivesse Vencido em Waterloo? | E Se Napoleão Tivesse Vencido em Waterloo? / Uma Europa Napoleão Waterloo Era Bélgica 1815 | SEM REFERENCIA
+tema | E Se Napoleão Tivesse Vencido em Waterloo? | E Se Napoleão Tivesse Vencido em Waterloo? / Napoleão Waterloo Europa Era Bélgica 1815 | SEM REFERENCIA
 lugar | campo de Waterloo, Belgica; ilha de Santa Helena | campo de Waterloo Belgica ilha de Santa Helena / campo de Waterloo Belgica ilha de Santa Helena 1815 | SEM REFERENCIA
 lugar | Bélgica | Bélgica 1815 / Bélgica landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1815 | 1815 fashion clothing / 19th century clothing painting | SEM REFERENCIA
@@ -26,7 +26,6 @@ objeto | canhoes de 1815 | canhoes de 1815 / canhoes de 1815 1815 | SEM REFERENC
 objeto | bandeiras de batalha | bandeiras de batalha / bandeiras de batalha 1815 | SEM REFERENCIA
 objeto | coroa imperial | coroa imperial / coroa imperial 1815 | SEM REFERENCIA
 heroi | crown | canhoes de 1815 / E Se Napoleão Tivesse Vencido em Waterloo? | SEM REFERENCIA
-epoca | exercito da epoca | army 1815 / army | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

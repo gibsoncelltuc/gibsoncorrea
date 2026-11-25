@@ -13,3 +13,6 @@
 
 ## 25/11 17:27 autocorrecao de visibilidade
 - b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 17:28 autocorrecao de visibilidade
+- b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)

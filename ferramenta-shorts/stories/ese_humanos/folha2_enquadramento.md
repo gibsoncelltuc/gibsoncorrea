@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "E se todos os humanos sumissem da Terra amanhã?"
+## b0: "Todos os humanos sumiram da Terra de uma vez."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
 
-## b1: "O planeta nem sentiria falta. Veja por quê."
+## b1: "E o planeta nem sentiria falta."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -24,7 +24,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MUNDO (cobre a tela 1-2 s)
 
-## b3: "Em poucas horas, as luzes se apagariam, cidade por cidade."
+## b3: "Em poucas horas, as luzes se apagariam."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRO (cientista) na esquerda, expressao worried; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +30 da cena
 - SOM: cannon@30
 
-## b7: "Sobrariam as pirâmides, que já resistem há mais de quatro mil anos."
+## b7: "Sobrariam as pirâmides, de pé há mais de quatro mil anos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: PRO (cientista) na esquerda, expressao suspicious, segura paper; POV na direita, expressao worried; sem multidao; acao: fala/gesto
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PRO (cientista) na esquerda, expressao sad; POV na direita, expressao sad; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Somos nós que precisamos do planeta, não o contrário."
+## b9: "Somos nós que precisamos do planeta. Agora imagina que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto

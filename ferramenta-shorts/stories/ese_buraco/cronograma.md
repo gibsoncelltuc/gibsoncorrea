@@ -1,21 +1,21 @@
 # CRONOGRAMA - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
-Gerado em 25/11 17:09 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | CAV, POV | - | globe | - | Um buraco até a China? Do Brasil, você sairia no meio do Pacífico.
-b1 | simples | interior pedra | two | CAV, PRO | - | - | - | E o pulo nesse buraco nunca acabaria.
+b0 | simples | loc_campo | two | CAV, POV | - | globe | - | Um buraco atravessando a Terra sairia no meio do Pacífico.
+b1 | simples | interior pedra | two | CAV, PRO | - | - | - | E quem pulasse nele cairia para sempre.
 b2 | simples | loc_montanha | two | PRO, POV | - | scroll | - | O buraco mais fundo do mundo tem doze quilômetros, na Rússia.
 b3 | chave | loc_montanha | wide | PRO, POV | - | scroll | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Lá embaixo, faz cento e oitenta graus.
 b4 | simples | loc_campo | wide | PRO | 6 | globe | - | O centro da Terra fica a mais de seis mil quilômetros.
 b5 | simples | loc_deserto | close | PRO | - | globe | - | E é quase tão quente quanto a superfície do Sol.
-b6 | chave | loc_deserto | orbit | CAV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, se você pulasse, cairia cada vez mais rápido.
+b6 | chave | loc_deserto | orbit | CAV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, se desse para pular, você cairia cada vez mais rápido.
 b7 | simples | loc_campo | two | PRO, POV | - | globe | - | Sairia do outro lado em uns quarenta minutos.
-b8 | simples | loc_montanha | two | CAV, PRO | - | - | - | Mas, sem ninguém para segurar, cairia de volta. Para sempre.
-b9 | simples | loc_campo | two | CAV, POV | - | globe | - | Para ir ao Japão, a passagem ainda é o melhor caminho.
+b8 | simples | loc_montanha | two | CAV, PRO | - | - | - | E, sem ninguém para segurar, cairia de volta.
+b9 | simples | loc_campo | two | CAV, POV | - | globe | - | Ninguém conseguiu ainda. Mas imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

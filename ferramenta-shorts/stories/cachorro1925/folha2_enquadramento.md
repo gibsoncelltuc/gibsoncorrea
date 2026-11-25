@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um cachorro perdido quase começou uma guerra."
+## b0: "Um cachorro perdido quase começou uma guerra na Europa."
 - LOCAL: vila rural (casas, cercas, campo); hora: golden
 - CAMERA: travelling (camera acompanha andando); plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)
 - PERSONAGENS: GRE (soldado) na esquerda, expressao shout; BUL (soldado) na direita, expressao shout; sem multidao; acao: fala/gesto
@@ -49,7 +49,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "INVASÃO" flutuando no alto, na palavra 1 da frase
 
-## b7: "A Bulgária apelou à Liga das Nações, a antecessora da ONU."
+## b7: "A Bulgária apelou à Liga das Nações."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: DIP (politico) no centro, expressao sad, segura paper; sem multidao; acao: susto
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PRE (politico) na esquerda, expressao stern, segura paper; DIP (politico) na direita, expressao relief; multidao de 12 (GRE) marchando ATRAS dos principais; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Tudo por um cachorro que talvez nem existisse."
+## b9: "Talvez o cachorro nem existisse. Mas foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: golden
 - CAMERA: travelling (camera acompanha andando)
 - PERSONAGENS: GRE (soldado) na esquerda, expressao shout; BUL (soldado) na direita, expressao shout; sem multidao; acao: fala/gesto

@@ -39,7 +39,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b5: "Anos depois, dizem, Jenkins mostrou a orelha aos deputados."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: PRE na esquerda, expressao angry, segura paper; JEN no centro, expressao sad; ING na direita, expressao angry; sem multidao; acao: susto
+- PERSONAGENS: PRE na esquerda, expressao angry, segura paper; JEN na direita, expressao sad; sem multidao; acao: susto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "PARLAMENTO" flutuando no alto, na palavra 1 da frase
 

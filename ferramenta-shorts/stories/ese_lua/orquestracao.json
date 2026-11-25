@@ -19,9 +19,9 @@
    "objetos": [
     "kit/moon"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "E se, hoje à noite, a Lua desaparecesse do céu?",
+   "frase": "Hoje à noite, a Lua desaparece do céu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -133,9 +133,9 @@
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas.",
+   "frase": "Sem ela, o eixo balançaria, e as estações ficariam extremas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -153,9 +153,9 @@
    "objetos": [
     "kit/moon"
    ],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano.",
+   "frase": "Boa notícia: ela só se afasta quatro centímetros por ano.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -180,7 +180,7 @@
    ],
    "palavras": 8,
    "cena": "b8",
-   "frase": "Hoje à noite, olha para cima e agradece.",
+   "frase": "Olha para cima e agradece. Agora imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

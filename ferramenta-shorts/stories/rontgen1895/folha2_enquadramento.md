@@ -17,14 +17,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ANA no centro, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/xray_plate: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1895, na Alemanha, Wilhelm Röntgen testava um tubo de vidro."
+## b2: "Em 1895, Wilhelm Röntgen testava um tubo de vidro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ALEMANHA (cobre a tela 1-2 s)
 
-## b3: "Uma noite, cobriu o tubo com papelão preto e apagou a luz."
+## b3: "Uma noite, cobriu o tubo e apagou a luz."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)
 - PERSONAGENS: ROE (cientista) no centro, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
@@ -56,14 +56,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin; ANA na direita, expressao nervous; sem multidao; acao: entregar
 - OBJETO kit/xray_plate: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b7: "Sem saber o que era, chamou de raio X: X de desconhecido."
+## b7: "Sem saber o que era, chamou de raio X."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ROE (cientista) na esquerda, expressao smug; JOR (jornalista) na direita, expressao suspicious, segura paper; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "RAIO X" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Ganhou o primeiro Nobel de Física e nunca patenteou a descoberta."
+## b8: "Ganhou o primeiro Nobel de Física."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: ROE (cientista) na esquerda, expressao laugh; MED (medico) no centro, expressao grin; POV na direita, expressao laugh; multidao de 18 (POV, MED, JOR) ATRAS dos principais; acao: comemorar
@@ -74,7 +74,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "NOBEL" flutuando no alto, na palavra 1 da frase
 
-## b9: "Tudo começou com uma foto que assustou a esposa."
+## b9: "Um raio desconhecido, e foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)
 - PERSONAGENS: ROE (cientista) na esquerda, expressao grin, segura paper; ANA na direita, expressao surprised; sem multidao; acao: fala/gesto

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: Trump lançou um jogo com o próprio rosto no dinheiro."
+## b0: "Donald Trump lançou um jogo com o próprio rosto no dinheiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; EXE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: TRU no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/boardgame: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1989, ele já era um empresário famoso de Nova York."
+## b2: "Em 1989, ele já era um empresário famoso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -32,7 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b4: "As notas eram de cem milhões de dólares, com a cara dele."
+## b4: "As notas tinham a cara dele."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)
 - PERSONAGENS: TRU no centro, expressao grin; sem multidao; acao: comemorar
@@ -57,7 +57,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "800 MIL" flutuando no alto, na palavra 1 da frase
 
-## b7: "Em 2004, com o programa O Aprendiz, o jogo voltou."
+## b7: "Em 2004, com O Aprendiz, o jogo voltou."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao grin; EXE (empresario) na direita, expressao surprised; sem multidao; acao: entregar
@@ -65,7 +65,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 
-## b8: "Desta vez com regras simples e a frase: você está demitido."
+## b8: "Desta vez, com regras bem mais simples."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; POV no centro, expressao laugh; POV na direita, expressao grin; sem multidao; acao: comemorar
@@ -76,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VOLTOU" flutuando no alto, na palavra 1 da frase
 
-## b9: "Um jogo para ficar bilionário, que quase ninguém conseguia jogar."
+## b9: "Um jogo que ninguém entendia. Foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)
 - PERSONAGENS: TRU na esquerda, expressao smug; EXE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto

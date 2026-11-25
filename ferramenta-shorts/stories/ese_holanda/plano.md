@@ -14,5 +14,5 @@ b8 | two | -  | - | - | -
 b9 | crowd | -  | batalha aberta com tiros, tropa, placa: NOVA YORK | - | -
 b10 | two | -  | placa: 1630 | - | -
 
-Mistura de planos: close 13% | medio 68% | aberto 13% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 66% | aberto 15% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

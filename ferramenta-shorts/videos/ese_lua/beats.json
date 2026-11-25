@@ -58,7 +58,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "E se, hoje à noite, a Lua desaparecesse do céu?",
+   "say": "Hoje à noite, a Lua desaparece do céu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -231,7 +231,7 @@
    ],
    "interacao": "cochichar",
    "bloco": "escalada",
-   "say": "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas.",
+   "say": "Sem ela, o eixo balançaria, e as estações ficariam extremas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -279,7 +279,7 @@
    "text": "OBRIGADO, LUA",
    "titulo": true,
    "bloco": "pagamento",
-   "say": "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano.",
+   "say": "Boa notícia: ela só se afasta quatro centímetros por ano.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -306,7 +306,7 @@
    ],
    "acao": "conversar",
    "bloco": "loop",
-   "say": "Hoje à noite, olha para cima e agradece.",
+   "say": "Olha para cima e agradece. Agora imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -339,6 +339,6 @@
   ]
  },
  "gancho_tipo": "perda",
- "gancho_cumprido": "Gancho: e se a Lua sumisse hoje; o pior viria devagar. Pagamento: noites escuras, mares mais fracos, eixo da Terra balancando e estacoes extremas; ela so se afasta 4 cm por ano.",
+ "gancho_cumprido": "Gancho: a Lua some hoje a noite e o pior viria devagar. Pagamento: noites escuras, mares mais fracos, eixo da Terra balancando e estacoes extremas; mas ela so se afasta 4 cm por ano.",
  "loop_frase_ok": true
 }

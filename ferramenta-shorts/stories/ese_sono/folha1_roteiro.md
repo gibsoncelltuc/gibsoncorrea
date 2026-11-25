@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 05 - E Se Ninguém Precisasse Dormir?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 81 palavras (~28 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 83 palavras (~29 s)
 
 ## Cena b0  (~3.4 s)
-- Narracao: E se ninguém precisasse dormir? Você ganharia 25 anos acordado.
+- Narracao: Ninguém precisa mais dormir, e você ganha 25 anos acordado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: Se você está vendo isso de madrugada, vai dormir.
+## Cena b8  (~3.8 s)
+- Narracao: Se está vendo isso de madrugada, vai dormir. E imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -

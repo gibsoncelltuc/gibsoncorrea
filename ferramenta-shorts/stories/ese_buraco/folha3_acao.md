@@ -4,8 +4,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.4s - 13 palavras - plano two
-> "Um buraco até a China? Do Brasil, você sairia no meio do Pacífico."
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+> "Um buraco atravessando a Terra sairia no meio do Pacífico."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "buraco" (0.4s)
@@ -14,22 +14,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
-| 3 | - | MAPA | CHINA | OK |
-| 4 | - | PLACA | E SE... | OK |
+| 3 | - | PLACA | E SE... | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.8s a 7.0s - 7 palavras - plano two
-> "E o pulo nesse buraco nunca acabaria."
+## Cena b1 - 3.7s a 5.9s - 7 palavras - plano two
+> "E quem pulasse nele cairia para sempre."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulo" (5.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulasse" (4.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -42,28 +40,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b2 - 7.4s a 11.1s - 11 palavras - plano two
+## Cena b2 - 6.3s a 10.0s - 11 palavras - plano two
 > "O buraco mais fundo do mundo tem doze quilômetros, na Rússia."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "buraco" (7.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "buraco" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | MAPA | RÚSSIA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 11.5s a 13.7s - 7 palavras - plano wide
+## Cena b3 - 10.4s a 12.6s - 7 palavras - plano wide
 > "Lá embaixo, faz cento e oitenta graus."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "graus" (13.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "graus" (12.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -76,11 +76,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 14.1s a 17.8s - 11 palavras - plano wide
+## Cena b4 - 13.0s a 16.7s - 11 palavras - plano wide
 > "O centro da Terra fica a mais de seis mil quilômetros."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "centro" (14.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "centro" (13.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -91,11 +91,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 18.1s a 21.5s - 10 palavras - plano close
+## Cena b5 - 17.0s a 20.4s - 10 palavras - plano close
 > "E é quase tão quente quanto a superfície do Sol."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "quente" (19.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "quente" (18.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -106,11 +106,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b6 - 21.9s a 25.2s - 10 palavras - plano orbit
-> "Acontece que, se você pulasse, cairia cada vez mais rápido."
+## Cena b6 - 20.7s a 24.8s - 12 palavras - plano orbit
+> "Acontece que, se desse para pular, você cairia cada vez mais rápido."
 
 - LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulasse" (23.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pular" (22.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -121,11 +121,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 25.6s a 28.1s - 8 palavras - plano two
+## Cena b7 - 25.2s a 27.8s - 8 palavras - plano two
 > "Sairia do outro lado em uns quarenta minutos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Sairia" (25.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Sairia" (25.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -138,11 +138,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 28.5s a 31.9s - 10 palavras - plano two
-> "Mas, sem ninguém para segurar, cairia de volta. Para sempre."
+## Cena b8 - 28.1s a 30.7s - 8 palavras - plano two
+> "E, sem ninguém para segurar, cairia de volta."
 
 - LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cairia" (30.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cairia" (30.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -155,11 +155,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b9 - 32.2s a 35.9s - 11 palavras - plano two
-> "Para ir ao Japão, a passagem ainda é o melhor caminho."
+## Cena b9 - 31.1s a 33.0s - 6 palavras - plano two
+> "Ninguém conseguiu ainda. Mas imagina que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passagem" (34.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "conseguiu" (31.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
-> "Se todo mundo pulasse junto, a Terra sairia do lugar?"
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Oito bilhões de pessoas pulam juntas, e a Terra nem sente."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulasse" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pulam" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -23,8 +23,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.7s a 6.3s - 8 palavras - plano two
-> "Não. Mas o problema de verdade seria outro."
+## Cena b1 - 4.1s a 6.3s - 7 palavras - plano two
+> "Mas o problema de verdade seria outro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "problema" (4.8s)
@@ -155,8 +155,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 30.7s a 33.3s - 8 palavras - plano two
-> "Pode pular aí. A Terra nem vai sentir."
+## Cena b9 - 30.7s a 32.6s - 6 palavras - plano two
+> "Pode pular aí. Agora imagina que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pular" (31.1s)

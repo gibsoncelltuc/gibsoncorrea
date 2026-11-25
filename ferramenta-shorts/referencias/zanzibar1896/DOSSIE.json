@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 1896,
   "era": "historica",
-  "regiao": null,
+  "regiao": "africa",
   "luz_base": "day",
   "cenarios": [
    "harbor",
@@ -35,8 +35,8 @@
   "kit/marco_zanzibar",
   "kit/navio_vapor",
   "kit/navio_vapor_guerra",
+  "kit/room_africa_shop",
   "kit/room_europa_stone",
-  "kit/room_verde_shop",
   "kit/throne",
   "mk/Barrel",
   "mk/Bed_Twin1",

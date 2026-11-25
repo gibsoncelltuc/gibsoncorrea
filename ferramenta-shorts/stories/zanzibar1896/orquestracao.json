@@ -21,7 +21,7 @@
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "A guerra mais curta da história durou menos de uma hora.",
+   "frase": "A guerra mais curta da história durou menos de quarenta minutos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -54,9 +54,9 @@
    "objetos": [
     "kit/marco_zanzibar"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em 1896, em Zanzibar, uma ilha africana, o sultão morreu.",
+   "frase": "Em 1896, em Zanzibar, na África, o sultão morreu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -92,9 +92,9 @@
     "kit/marco_zanzibar",
     "kit/navio_vapor"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Os ingleses deram até as nove da manhã para ele sair.",
+   "frase": "Deram até as nove da manhã para ele sair.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -177,9 +177,9 @@
     "kit/marco_zanzibar",
     "war/flagpole"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Por volta das nove e quarenta, a bandeira caiu.",
+   "frase": "Às nove e quarenta, a bandeira caiu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -202,7 +202,7 @@
    "objetos": [],
    "palavras": 11,
    "cena": "b9",
-   "frase": "E os ingleses mandaram a conta das balas para os derrotados.",
+   "frase": "Os ingleses mandaram a conta das balas. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

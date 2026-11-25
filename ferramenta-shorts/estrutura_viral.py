@@ -71,7 +71,7 @@ def checar(id_):
         if not B.get('gancho_cumprido'): falhas.append('pagamento nao conferido: escreva em "gancho_cumprido" a frase do pagamento que entrega o que o gancho prometeu')
     return W, seg, falhas, avisos
 
-IGN = re.compile(r'^(teste_|zz_|porco_piloto|sino_bench)|\.md$')
+IGN = re.compile(r'^(teste_|zz_|porco_piloto|sino_bench|petrich1925)|\.md$')
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == '--todos':
         ids = sorted(d for d in os.listdir('videos') if not IGN.search(d) and os.path.exists(f'videos/{d}/beats.json'))

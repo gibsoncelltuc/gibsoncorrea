@@ -54,7 +54,7 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "E se todos os humanos sumissem da Terra amanhã?",
+   "say": "Todos os humanos sumiram da Terra de uma vez.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -79,7 +79,7 @@
     ]
    ],
    "bloco": "promessa",
-   "say": "O planeta nem sentiria falta. Veja por quê.",
+   "say": "E o planeta nem sentiria falta.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -125,7 +125,7 @@
    ],
    "detalhe": false,
    "bloco": "prova",
-   "say": "Em poucas horas, as luzes se apagariam, cidade por cidade.",
+   "say": "Em poucas horas, as luzes se apagariam.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -264,7 +264,7 @@
     "ding@40"
    ],
    "bloco": "pagamento",
-   "say": "Sobrariam as pirâmides, que já resistem há mais de quatro mil anos.",
+   "say": "Sobrariam as pirâmides, de pé há mais de quatro mil anos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -308,7 +308,7 @@
     ]
    ],
    "bloco": "loop",
-   "say": "Somos nós que precisamos do planeta, não o contrário.",
+   "say": "Somos nós que precisamos do planeta. Agora imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -343,6 +343,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: e se os humanos sumissem; o planeta nem sentiria falta. Pagamento: luzes apagam, metro inunda, ruas viram floresta, pontes caem e so sobram piramides e plastico.",
+ "gancho_cumprido": "Gancho: todos os humanos sumiram e o planeta nem sentiria falta. Pagamento: luzes apagam, metro inunda, ruas viram floresta, pontes caem; sobram piramides e plastico.",
  "loop_frase_ok": true
 }

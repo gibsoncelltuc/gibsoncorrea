@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 10 cenas, 99 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: harbor | 10 cenas, 94 palavras (~32 s)
 
 ## Cena b0  (~3.8 s)
-- Narracao: A guerra mais curta da história durou menos de uma hora.
+- Narracao: A guerra mais curta da história durou menos de quarenta minutos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 1896, em Zanzibar, uma ilha africana, o sultão morreu.
+## Cena b2  (~3.1 s)
+- Narracao: Em 1896, em Zanzibar, na África, o sultão morreu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.8 s)
-- Narracao: Os ingleses deram até as nove da manhã para ele sair.
+## Cena b4  (~3.1 s)
+- Narracao: Deram até as nove da manhã para ele sair.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: Por volta das nove e quarenta, a bandeira caiu.
+## Cena b8  (~2.4 s)
+- Narracao: Às nove e quarenta, a bandeira caiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (GUA) -> acao + som de efeito; caiu -> dust + som de impacto
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~3.8 s)
-- Narracao: E os ingleses mandaram a conta das balas para os derrotados.
+- Narracao: Os ingleses mandaram a conta das balas. E foi assim que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

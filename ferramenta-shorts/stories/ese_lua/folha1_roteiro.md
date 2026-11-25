@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 07 - E Se a Lua Desaparecesse?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 90 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 83 palavras (~29 s)
 
-## Cena b0  (~3.4 s)
-- Narracao: E se, hoje à noite, a Lua desaparecesse do céu?
+## Cena b0  (~2.8 s)
+- Narracao: Hoje à noite, a Lua desaparece do céu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b6  (~4.1 s)
-- Narracao: Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas.
+## Cena b6  (~3.4 s)
+- Narracao: Sem ela, o eixo balançaria, e as estações ficariam extremas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~4.5 s)
-- Narracao: Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano.
+## Cena b7  (~3.4 s)
+- Narracao: Boa notícia: ela só se afasta quatro centímetros por ano.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: -
@@ -75,7 +75,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b8  (~2.8 s)
-- Narracao: Hoje à noite, olha para cima e agradece.
+- Narracao: Olha para cima e agradece. Agora imagina que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

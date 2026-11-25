@@ -9,20 +9,20 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "MORTE BRANCA" flutuando no alto, na palavra 1 da frase
 
-## b1: "Os inimigos tinham tanto medo que deram um apelido a ele."
+## b1: "Tão temido que os inimigos deram um apelido a ele."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: SOV no centro, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "No inverno de 1939, a União Soviética invadiu a Finlândia."
+## b2: "Em 1939, a União Soviética invadiu a Finlândia."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: SOV na esquerda, expressao stern; SOV na direita, expressao angry; multidao de 16 (SOV) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FINLÂNDIA (cobre a tela 1-2 s)
 
-## b3: "Fazia quarenta graus abaixo de zero na floresta."
+## b3: "Fazia quarenta graus abaixo de zero."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: FIN na esquerda, expressao stern; FIN no centro, expressao nervous; FIN na direita, expressao stern; sem multidao; acao: fala/gesto
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: whoosh@30
 
-## b4: "Um soldado do campo, baixinho, se chamava Simo Häyhä."
+## b4: "Esse soldado se chamava Simo Häyhä."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FIN no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "NEVE NA BOCA" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Em cerca de cem dias, contam mais de quinhentos abatidos por ele."
+## b7: "Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FIN na esquerda, expressao stern; FIN na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -64,7 +64,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "MORTE BRANCA" numa placa atras dos personagens, na palavra 9 da frase
 
-## b9: "Viveu até 96 anos e dizia: só fiz meu trabalho."
+## b9: "Ele só dizia: fiz o meu trabalho. E foi assim que..."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: FIN no centro, expressao smile; sem multidao; acao: fala/gesto

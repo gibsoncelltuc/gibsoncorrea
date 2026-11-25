@@ -1,11 +1,11 @@
 {
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: se o Titanic nao afundasse, o mar seria mais perigoso. Pagamento: so havia bote para metade; o naufragio criou o tratado de 1914 com bote para todos e a patrulha do gelo que existe ate hoje.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o navio que nao podia afundar afundou na primeira viagem e isso deixou o mar mais seguro. Pagamento: botes so para metade, 1.500 mortos; dai veio o tratado de 1914 com bote para todos e a patrulha do gelo.",
  "cenas": [
   [
    0,
    "gancho",
-   "Diziam que era impossível de ir ao fundo. Foi na primeira viagem.",
+   "O navio que não podia afundar foi ao fundo na primeira viagem.",
    "fundo",
    {
     "impact": true
@@ -14,8 +14,8 @@
   [
    6,
    "promessa",
-   "E se não tivesse afundado, o mar seria mais perigoso hoje.",
-   "perigoso",
+   "E é por causa dele que o mar é mais seguro hoje.",
+   "por",
    {
     "set": "harbor",
     "interior": null
@@ -24,8 +24,9 @@
   [
    1,
    "prova",
-   "Abril de 1912. O Titanic levava mais de duas mil pessoas.",
-   "levava"
+   "O Titanic levava mais de duas mil pessoas.",
+   "levava",
+   {}
   ],
   [
    2,
@@ -60,7 +61,8 @@
    4,
    "escalada",
    "Acontece que só havia botes para metade das pessoas.",
-   "botes"
+   "botes",
+   {}
   ],
   [
    4,
@@ -74,8 +76,8 @@
   [
    7,
    "pagamento",
-   "Em 1914, veio o primeiro grande tratado do mar: bote para todos.",
-   "tratado",
+   "Em 1914, veio a regra: bote para todos.",
+   "todos",
    {
     "set": "harbor",
     "interior": null
@@ -84,14 +86,16 @@
   [
    8,
    "pagamento",
-   "E criaram uma patrulha de icebergs, que existe até hoje.",
-   "patrulha"
+   "E criaram uma patrulha de icebergs.",
+   "patrulha",
+   {}
   ],
   [
    10,
    "loop",
-   "O pior dia do Titanic deixou o mar mais seguro.",
-   "Titanic"
+   "Tudo mudou numa noite gelada. Foi quando...",
+   "Tudo",
+   {}
   ]
  ]
 }

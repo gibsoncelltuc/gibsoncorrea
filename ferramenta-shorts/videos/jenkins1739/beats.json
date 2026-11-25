@@ -322,8 +322,7 @@
    "interior": "pedra",
    "who": [
     "PRE:0:angry:paper",
-    "JEN:0:sad",
-    "ING:0:angry"
+    "JEN:0:sad"
    ],
    "interacao": "susto",
    "text": "PARLAMENTO",
@@ -368,7 +367,7 @@
     ]
    },
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 3
   },
   {
    "shot": "two",

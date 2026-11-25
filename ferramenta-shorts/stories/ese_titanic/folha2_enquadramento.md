@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Diziam que era impossível de ir ao fundo. Foi na primeira viagem."
+## b0: "O navio que não podia afundar foi ao fundo na primeira viagem."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o iceberg (alvo z -3.6, camera a 14.3 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: CAP (marinheiro) na esquerda, expressao stern; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -11,13 +11,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "1912" numa placa atras dos personagens, na palavra 1 da frase
 
-## b1: "E se não tivesse afundado, o mar seria mais perigoso hoje."
+## b1: "E é por causa dele que o mar é mais seguro hoje."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern; POV na direita, expressao surprised; sem multidao; acao: cochichar
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b2: "Abril de 1912. O Titanic levava mais de duas mil pessoas."
+## b2: "O Titanic levava mais de duas mil pessoas."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: revelacao (camera sobe e abre); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
@@ -59,7 +59,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@50
 - TEXTO NA TELA: "BOTES" flutuando no alto, na palavra 1 da frase
 
-## b7: "Em 1914, veio o primeiro grande tratado do mar: bote para todos."
+## b7: "Em 1914, veio a regra: bote para todos."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e scroll juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -69,13 +69,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@20
 - SOM: ding@50
 
-## b8: "E criaram uma patrulha de icebergs, que existe até hoje."
+## b8: "E criaram uma patrulha de icebergs."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o iceberg (alvo z -3.6, camera a 17.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MAR (marinheiro) na esquerda, expressao grin; CAP (marinheiro) na direita, expressao smile; sem multidao; acao: entregar
 - OBJETO kit/iceberg: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.9 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b9: "O pior dia do Titanic deixou o mar mais seguro."
+## b9: "Tudo mudou numa noite gelada. Foi quando..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: close (rosto e ombros); plano aberto mirando o iceberg (alvo z -3.6, camera a 12.6 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: conversar

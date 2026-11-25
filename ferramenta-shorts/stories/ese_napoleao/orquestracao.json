@@ -19,9 +19,9 @@
    "objetos": [
     "kit/crown"
    ],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?",
+   "frase": "Napoleão ganha em Waterloo, e a Europa muda para sempre.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -177,9 +177,9 @@
    "objetos": [
     "kit/scroll"
    ],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Rússia e Áustria já marchavam contra ele com exércitos enormes.",
+   "frase": "Rússia e Áustria já marchavam contra ele.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -198,7 +198,7 @@
    ],
    "palavras": 11,
    "cena": "b9",
-   "frase": "Um dia famoso nem sempre muda o destino. Só a data.",
+   "frase": "Um dia famoso nem sempre muda o destino. Mas imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

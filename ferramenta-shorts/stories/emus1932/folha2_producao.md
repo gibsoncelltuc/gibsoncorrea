@@ -11,6 +11,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercito
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: SOL na esquerda, expressao pained; FARM na direita, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "EXÉRCITO × EMUS" flutuando no alto, na palavra 7 da frase
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b1 - E o placar final virou piada no mundo inteiro.
 - Cenario: countryside | luz: golden | clima: limpo
@@ -21,6 +31,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): placar
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FARM na esquerda, expressao smile; FARM na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (2.6-4.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (4.1-5.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b2 - Em 1932, vinte mil emus tomaram as lavouras da Austrália.
 - Cenario: outback | luz: desert | clima: limpo
@@ -31,6 +52,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow, emus
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): australia, lavouras
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: FARM na esquerda, expressao shock, segura pitchfork; FARM na direita, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "20.000 EMUS" numa placa atras dos personagens, na palavra 4 da frase
+- MAPA: AUSTRÁLIA (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (5.9-7.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (7.6-9.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b3 - Os agricultores pediram ajuda, e o governo mandou soldados.
 - Cenario: interior madeira | luz: desert | clima: limpo
@@ -41,6 +75,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agricultores, governo
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: desert
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FARM na esquerda, expressao nervous, segura paper; AUS na direita, expressao stern; multidao de 6 (FARM) ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- SOM: ding@20
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (9.6-11.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (11.1-12.6 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b4 - O major Meredith levou duas metralhadoras e dez mil balas.
 - Cenario: countryside | luz: desert | clima: limpo
@@ -51,6 +97,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: mgun, crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): major
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mgun juntos (camera a 11.5 m)
+- PERSONAGENS: SOL na esquerda, expressao stern; SOL na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO mgun: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO mgun: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "10.000 BALAS" numa placa atras dos personagens, na palavra 7 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (13.0-14.7 s): mesmo angulo
+  - take 2 (14.7-16.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b5 - Acontece que os emus se espalharam, e as balas só acertavam poeira.
 - Cenario: outback | luz: desert | clima: limpo
@@ -61,6 +120,24 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas, emus
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: SOL na esquerda, expressao angry; SOL na direita, expressao stern; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +60 da cena
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- SOM: thump@20
+- SOM: thump@40
+- SOM: thump@60
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (16.7-18.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.7-20.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b6 - Uma metralhadora num caminhão sacudia tanto que ninguém acertava.
 - Cenario: countryside | luz: desert | clima: limpo
@@ -71,6 +148,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: vehicles/truck, mgun
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): metralhadora
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o truck (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: SOL no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO vehicles/truck: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 2.9 m de altura x 10.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO mgun: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (21.1-22.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (22.6-24.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b7 - O major comparou os emus a tanques. A imprensa riu.
 - Cenario: outback | luz: desert | clima: limpo
@@ -81,6 +170,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: vehicles/tank, emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emus, imprensa, major, tanques
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o tank (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: SOL no centro, expressao smug; multidao de 10 (SOL) marchando ATRAS dos principais; acao: fala/gesto
+- OBJETO vehicles/tank: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.1 m de altura x 9.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "HA HA HA" flutuando no alto, na palavra 9 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (24.4-26.1 s): mesmo angulo
+  - take 2 (26.1-27.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b8 - Seis dias, milhares de balas, poucos emus abatidos.
 - Cenario: loc_campo | luz: desert | clima: limpo
@@ -91,6 +192,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: emu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balas
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: desert
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: SOL na esquerda, expressao pained; SOL na direita, expressao pained; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "6 DIAS" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - Exército zero, emus um. E foi assim que...
 - Cenario: outback | luz: desert | clima: limpo
@@ -129,3 +240,14 @@ vehicles/tank | b7 | pronto | conferir na folha de contato se le bem; se parecer
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh emus1932 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh emus1932` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: fazenda aberta; hora: desert
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: nenhum; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "EXÉRCITO × EMUS" flutuando no alto, na palavra 7 da frase
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+

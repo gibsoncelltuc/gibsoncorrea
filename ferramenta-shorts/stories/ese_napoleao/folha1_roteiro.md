@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 96 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countryside | 10 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?
+## Cena b0  (~3.4 s)
+- Narracao: Napoleão ganha em Waterloo, e a Europa muda para sempre.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b8  (~3.4 s)
-- Narracao: Rússia e Áustria já marchavam contra ele com exércitos enormes.
+## Cena b8  (~2.4 s)
+- Narracao: Rússia e Áustria já marchavam contra ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.8 s)
-- Narracao: Um dia famoso nem sempre muda o destino. Só a data.
+- Narracao: Um dia famoso nem sempre muda o destino. Mas imagina que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

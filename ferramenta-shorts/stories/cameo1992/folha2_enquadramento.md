@@ -51,13 +51,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: CANADÁ (cobre a tela 1-2 s)
 
-## b7: "O corte virou polêmica, e a discussão dura até hoje."
+## b7: "O corte virou polêmica no mundo inteiro."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: JOR no centro, expressao suspicious; multidao de 10 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Sete segundos de cena. Mais de trinta anos de briga."
+## b8: "Um cameo virou briga política. E foi assim que..."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
 - PERSONAGENS: FUN no centro, expressao grin; sem multidao; acao: fala/gesto

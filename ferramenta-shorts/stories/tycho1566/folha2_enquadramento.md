@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um gênio da astronomia perdeu o nariz por matemática."
+## b0: "Um gênio da astronomia perdeu o nariz numa briga por matemática."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir
@@ -15,14 +15,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: TYC (nobre) no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/brass_nose: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1566, Tycho Brahe, nobre dinamarquês, estudava na Alemanha."
+## b2: "Em 1566, Tycho Brahe estudava na Alemanha."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: DINAMARCA (cobre a tela 1-2 s)
 
-## b3: "Numa festa, discutiu com um primo: quem era melhor em matemática?"
+## b3: "Numa festa, discutiu com um primo sobre matemática."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR no centro, expressao shout; POV na direita, expressao surprised, segura mug; sem multidao; acao: discutir
@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: REI (rei) na esquerda, expressao grin; TYC (nobre) na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Lá, ele mediu mais de mil estrelas, sem telescópio."
+## b7: "Mediu mais de mil estrelas, sem telescópio."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o marco_uraniborg (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: TYC (nobre) no centro, expressao grin, segura paper; sem multidao; acao: fala/gesto
@@ -65,7 +65,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "MIL ESTRELAS" flutuando no alto, na palavra 1 da frase
 
-## b8: "Os dados dele ajudaram Kepler a entender as órbitas dos planetas."
+## b8: "Os dados dele ajudaram o astrônomo Kepler."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smug, segura paper; KEP (cientista) na direita, expressao surprised; sem multidao; acao: entregar
@@ -74,7 +74,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@50
 - TEXTO NA TELA: "KEPLER" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "Cabeça nas estrelas, e nariz de metal."
+## b9: "Cabeça nas estrelas e nariz de metal. Tudo porque..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e brass_nose juntos (camera a 11.5 m)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao angry; PAR na direita, expressao shout; sem multidao; acao: discutir

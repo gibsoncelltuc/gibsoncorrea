@@ -14,9 +14,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se Você Cavasse um Buraco Até o Outro Lado da Terra? | E Se Você Cavasse um Buraco Até o Outro Lado da Terra? / Um China Do Brasil Pacífico Rússia | SEM REFERENCIA
+tema | E Se Você Cavasse um Buraco Até o Outro Lado da Terra? | E Se Você Cavasse um Buraco Até o Outro Lado da Terra? / Um Terra Pacífico Rússia | SEM REFERENCIA
 lugar | Brasil (ponto de partida) e o oceano Pacifico perto do Japao (antipoda); poco de | Brasil / Brasil ponto de partida e o oceano Pacifico perto do Japao antipoda poco de Kola na Russia | SEM REFERENCIA
-lugar | China | China / China landscape | SEM REFERENCIA
+lugar | Rússia | Rússia / Rússia landscape | SEM REFERENCIA
 pessoas | um cavador com pa | um cavador com pa | SEM REFERENCIA
 pessoas | um professor de geologia | um professor de geologia | SEM REFERENCIA
 pessoas | curiosos | curiosos | SEM REFERENCIA

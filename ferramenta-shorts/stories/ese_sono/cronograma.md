@@ -1,12 +1,12 @@
 # CRONOGRAMA - E Se EP 05 - E Se Ninguém Precisasse Dormir?
 
-Gerado em 25/11 17:11 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PRO, POV | - | kettle | - | E se ninguém precisasse dormir? Você ganharia 25 anos acordado.
+b0 | simples | street | two | PRO, POV | - | kettle | - | Ninguém precisa mais dormir, e você ganha 25 anos acordado.
 b1 | chave | loc_pista | crowd | POV, POV, RAN | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Mas o preço disso aparece em poucos dias.
 b2 | chave | loc_pista | orbit | POV, POV, POV | 22 | apartment, house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Cidades funcionariam vinte e quatro horas por dia.
 b3 | simples | loc_patio | two | POV, POV | - | ball | - | Daria para aprender três línguas e ver todas as séries.
@@ -14,7 +14,7 @@ b4 | simples | street | group | POV, POV | - | - | - | Em 1964, um estudante ame
 b5 | simples | interior madeira | two | RAN, PRO | - | - | - | Randy Gardner ficou onze dias seguidos acordado.
 b6 | simples | interior galpao | close | RAN | - | - | - | Acontece que ele esquecia palavras e via coisas que não existiam.
 b7 | simples | interior loja | two | PRO, POV | - | - | - | Dormindo, o cérebro faz uma faxina do que acumulou no dia.
-b8 | simples | street | two | PRO, POV | - | kettle | - | Se você está vendo isso de madrugada, vai dormir.
+b8 | simples | street | two | PRO, POV | - | kettle | - | Se está vendo isso de madrugada, vai dormir. E imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Ninguém Trump Foi 2007 | SEM REFERENCIA
+tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Donald Trump Foi 2007 | SEM REFERENCIA
 lugar | Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, tel | Ford Field Detroit / Ford Field Detroit Michigan 2007 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | SEM REFERENCIA

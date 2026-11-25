@@ -1,48 +1,55 @@
 {
  "gancho_tipo": "ganho",
- "gancho_cumprido": "Gancho: nao dormir daria 25 anos a mais acordado, mas tem um preco. Pagamento: Randy Gardner ficou 11 dias acordado e via coisas; o cerebro faz faxina dormindo, sem sono a humanidade so ganharia sono.",
+ "gancho_cumprido": "Gancho: ninguem precisa mais dormir e voce ganha 25 anos acordado, mas o preco aparece em dias. Pagamento: Randy Gardner ficou 11 dias acordado, esquecia palavras e via coisas; dormindo o cerebro faz faxina.",
  "cenas": [
   [
    0,
    "gancho",
-   "E se ninguém precisasse dormir? Você ganharia 25 anos acordado.",
-   "dormir"
+   "Ninguém precisa mais dormir, e você ganha 25 anos acordado.",
+   "dormir",
+   {}
   ],
   [
    9,
    "promessa",
    "Mas o preço disso aparece em poucos dias.",
-   "preço"
+   "preço",
+   {}
   ],
   [
    2,
    "prova",
    "Cidades funcionariam vinte e quatro horas por dia.",
-   "cidades"
+   "cidades",
+   {}
   ],
   [
    3,
    "prova",
    "Daria para aprender três línguas e ver todas as séries.",
-   "aprender"
+   "aprender",
+   {}
   ],
   [
    4,
    "escalada",
    "Em 1964, um estudante americano resolveu testar.",
-   "testar"
+   "testar",
+   {}
   ],
   [
    5,
    "escalada",
    "Randy Gardner ficou onze dias seguidos acordado.",
-   "acordado"
+   "acordado",
+   {}
   ],
   [
    6,
    "escalada",
    "Acontece que ele esquecia palavras e via coisas que não existiam.",
-   "esquecia"
+   "esquecia",
+   {}
   ],
   [
    7,
@@ -61,8 +68,9 @@
   [
    10,
    "loop",
-   "Se você está vendo isso de madrugada, vai dormir.",
-   "dormir"
+   "Se está vendo isso de madrugada, vai dormir. E imagina que...",
+   "dormir",
+   {}
   ]
  ]
 }

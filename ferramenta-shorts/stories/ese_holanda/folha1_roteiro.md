@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 03 - E Se o Brasil Tivesse Sido Holandês?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 11 cenas, 103 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 11 cenas, 88 palavras (~30 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Ninguém te conta: um pedaço do Brasil foi holandês por 24 anos.
+## Cena b0  (~3.1 s)
+- Narracao: Um pedaço do Brasil foi holandês por 24 anos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: - | mapa: PERNAMBUCO
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.1 s)
-- Narracao: Maurício de Nassau trouxe pintores e cientistas para Recife.
+## Cena b3  (~2.4 s)
+- Narracao: Maurício de Nassau levou artistas para Recife.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.8 s)
-- Narracao: Recife ganhou uma grande ponte e a primeira sinagoga das Américas.
+## Cena b4  (~2.8 s)
+- Narracao: Recife ganhou até a primeira sinagoga das Américas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: GUARARAPES
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~2.8 s)
-- Narracao: Em 1654, os holandeses foram embora de vez.
+## Cena b6  (~2.1 s)
+- Narracao: Em 1654, os holandeses foram embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.1 s)
-- Narracao: Em 1667, a Holanda ficou com o Suriname e entregou Nova Amsterdã.
+## Cena b8  (~2.8 s)
+- Narracao: Depois, a Holanda trocou Nova Amsterdã pelo Suriname.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -92,8 +92,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Texto na tela: NOVA YORK
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b10  (~3.1 s)
-- Narracao: E se eles tivessem ficado? O mapa seria outro.
+## Cena b10  (~2.8 s)
+- Narracao: Se tivessem ficado, o mapa seria outro. Porque...
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

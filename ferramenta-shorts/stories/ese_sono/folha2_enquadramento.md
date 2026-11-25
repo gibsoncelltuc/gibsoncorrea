@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "E se ninguém precisasse dormir? Você ganharia 25 anos acordado."
+## b0: "Ninguém precisa mais dormir, e você ganha 25 anos acordado."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao bored; sem multidao; acao: fala/gesto
@@ -68,7 +68,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern; POV na direita, expressao worried; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Se você está vendo isso de madrugada, vai dormir."
+## b8: "Se está vendo isso de madrugada, vai dormir. E imagina que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: conversar

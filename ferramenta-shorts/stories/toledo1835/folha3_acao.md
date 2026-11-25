@@ -14,6 +14,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 16: parada, reagindo (stern), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b1 - 3.7s a 6.6s - 8 palavras - plano close
 > "E quem perdeu a guerra acabou ficando rico."
@@ -25,6 +32,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | perdeu (5.4s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra perdeu (5.4s): executa: fumaca + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+<!-- /FISICA -->
 
 ## Cena b2 - 6.9s a 9.3s - 11 palavras - plano two
 > "Ohio e Michigan disputavam Toledo por causa de um mapa errado."
@@ -38,6 +51,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | MAPA | TOLEDO | OK |
 | 4 | - | PLACA | MAPA ERRADO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+- PLACA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
 ## Cena b3 - 9.6s a 12.7s - 9 palavras - plano close
 > "O governador de Michigan, de 23 anos, ocupou Toledo."
@@ -48,6 +69,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | 23 ANOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b4 - 12.8s a 17.0s - 11 palavras - plano crowd
 > "Ohio mandou a própria milícia. As tropas ficaram frente a frente."
@@ -59,6 +85,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | CENA | cavalaria: 4 soldados a cavalo (OHI) | OK |
 | 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (OHI)
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- multidao de 18: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b5 - 17.2s a 19.7s - 10 palavras - plano orbit
 > "Houve gritos e tiros para o alto. Ninguém acertou ninguém."
@@ -74,6 +107,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 5 | - | ATUACAO | reagir | OK |
 | 6 | - | PLACA | PARA O ALTO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: burst na palavra tiros (18.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- ACAO: atira na palavra tiros (18.3s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- CENA (a cena toda): executa: cavalaria: 4 soldados a cavalo (OHI)
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: parada, reagindo (shock), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b6 - 20.0s a 23.1s - 8 palavras - plano two
 > "O único ferido: um xerife, esfaqueado numa taverna."
@@ -85,6 +129,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
 
 ## Cena b7 - 23.4s a 27.5s - 9 palavras - plano wide
 > "Ohio ficou com Toledo. Michigan levou uma floresta gelada."
@@ -95,6 +145,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b8 - 27.7s a 30.2s - 9 palavras - plano two
 > "Acontece que debaixo da floresta havia cobre e ferro."
@@ -107,6 +162,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | COBRE E FERRO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b9 - 30.5s a 33.5s - 9 palavras - plano two
 > "Michigan perdeu e ficou rico. E foi assim que..."
@@ -121,4 +183,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 1 FERIDO: CANIVETADA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra perdeu (30.8s): executa: fumaca + som
+- ACAO: perde na palavra perdeu (30.8s): executa: mao na testa
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 16: parada, reagindo (stern), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 

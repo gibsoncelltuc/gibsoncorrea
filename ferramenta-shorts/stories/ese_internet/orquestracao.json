@@ -30,9 +30,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "E se a internet do mundo inteiro caísse amanhã por um dia?",
+   "frase": "A internet do mundo inteiro cai amanhã, por um dia.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -129,9 +129,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 7,
    "cena": "b5",
-   "frase": "Hospitais e bancos voltariam para a caneta, com filas enormes.",
+   "frase": "Hospitais e bancos voltariam para a caneta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -183,9 +183,9 @@
    ],
    "multidao": 12,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 6,
    "cena": "b8",
-   "frase": "Pesquisadores dizem que, longe das telas, muita gente dorme melhor.",
+   "frase": "E muita gente ia dormir melhor.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -208,9 +208,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 9,
+   "palavras": 5,
    "cena": "b9",
-   "frase": "Você aguentaria um dia? Responde enquanto ainda tem internet.",
+   "frase": "Você aguentaria? Agora imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

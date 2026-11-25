@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "E se, hoje à noite, a Lua desaparecesse do céu?"
+## b0: "Hoje à noite, a Lua desaparece do céu."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e moon juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -56,13 +56,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@20
 - SOM: ding@50
 
-## b6: "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas."
+## b6: "Sem ela, o eixo balançaria, e as estações ficariam extremas."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao worried; sem multidao; acao: cochichar
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b7: "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano."
+## b7: "Boa notícia: ela só se afasta quatro centímetros por ano."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano de multidao; plano medio enquadrando personagens e moon juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; PES (pescador) no centro, expressao grin; PRO (cientista) na direita, expressao smile; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "OBRIGADO, LUA" flutuando no alto, na palavra 1 da frase
 
-## b8: "Hoje à noite, olha para cima e agradece."
+## b8: "Olha para cima e agradece. Agora imagina que..."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: conversar

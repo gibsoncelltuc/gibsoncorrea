@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: CAN na esquerda, expressao laugh; MUS na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Cinquenta milhões em jogo, por causa de uma conversa no Twitter."
+## b8: "Uma resposta curta, e foi assim que..."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e megapack juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao smug; sem multidao; acao: fala/gesto

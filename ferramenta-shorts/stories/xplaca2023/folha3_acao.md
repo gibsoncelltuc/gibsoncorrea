@@ -4,11 +4,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
-> "Trocar de nome é fácil? Esta placa nova virou caso de investigação."
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+> "Uma placa com uma letra só virou caso de investigação."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "placa" (2.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "placa" (0.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -21,11 +21,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 4.4s a 7.0s - 8 palavras - plano two
-> "E tudo por causa de uma letra só."
+## Cena b1 - 3.7s a 7.0s - 10 palavras - plano two
+> "E a culpa foi de uma luz piscando de madrugada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "letra" (6.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (5.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -36,11 +36,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 7.4s a 11.1s - 11 palavras - plano two
-> "Em 2023, Elon Musk trocou o nome do Twitter para X."
+## Cena b2 - 7.4s a 10.7s - 10 palavras - plano two
+> "Em 2023, Musk trocou o nome do Twitter para X."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trocou" (8.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trocou" (8.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -55,11 +55,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b3 - 11.5s a 15.2s - 11 palavras - plano group
-> "Operários começaram a tirar as letras e o passarinho da fachada."
+## Cena b3 - 11.1s a 13.7s - 8 palavras - plano group
+> "Operários começaram a tirar o passarinho da fachada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tirar" (12.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tirar" (12.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -75,11 +75,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b4 - 15.6s a 18.1s - 8 palavras - plano two
-> "O trabalho parou no meio, porque faltavam licenças."
+## Cena b4 - 14.1s a 17.0s - 9 palavras - plano two
+> "O trabalho parou no meio, por falta de licença."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "parou" (16.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "parou" (14.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -92,11 +92,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 18.5s a 22.2s - 11 palavras - plano wide
+## Cena b5 - 17.4s a 21.1s - 11 palavras - plano wide
 > "Acontece que instalaram um X gigante piscando no alto do prédio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piscando" (20.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piscando" (19.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -109,11 +109,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 22.6s a 25.6s - 9 palavras - plano two
-> "A luz entrava nas janelas dos vizinhos de madrugada."
+## Cena b6 - 21.5s a 23.7s - 7 palavras - plano two
+> "A luz entrava nas janelas dos vizinhos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (23.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "luz" (21.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -128,11 +128,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b7 - 25.9s a 28.9s - 9 palavras - plano two
+## Cena b7 - 24.1s a 27.0s - 9 palavras - plano two
 > "Vieram vinte e quatro reclamações num fim de semana."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reclamações" (27.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reclamações" (25.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -147,11 +147,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - CHEGADA (a cena toda): executa: alguem entra andando
 <!-- /FISICA -->
 
-## Cena b8 - 29.3s a 31.9s - 8 palavras - plano orbit
+## Cena b8 - 27.4s a 30.0s - 8 palavras - plano orbit
 > "A prefeitura investigou, e o X foi retirado."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "retirado" (31.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "retirado" (30.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -162,11 +162,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b9 - 32.2s a 34.4s - 7 palavras - plano two
-> "Até trocar de nome precisa de licença."
+## Cena b9 - 30.4s a 33.7s - 10 palavras - plano two
+> "Até trocar de nome precisa de licença. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "licença" (34.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "licença" (32.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

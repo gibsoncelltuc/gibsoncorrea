@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um bando de gansos salvou Roma numa noite."
+## b0: "Um bando de gansos barulhentos salvou Roma numa noite."
 - LOCAL: vila medieval; hora: noite
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: ROM no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -43,7 +43,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: GAU no centro, expressao stern; sem multidao; acao: fala/gesto
 - OBJETO buildings/castle_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 19.7 m de altura x 10.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b5: "Acontece que os gansos sagrados de Juno ouviram e começaram a gritar."
+## b5: "Acontece que os gansos sagrados de Juno ouviram e gritaram."
 - LOCAL: loc_campo; hora: dia
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: ROM no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -70,7 +70,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "1.000 LIBRAS" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Os gansos salvaram a colina. O ouro, não."
+## b8: "Os guardas não ouviram, os gansos sim. E foi assim que..."
 - LOCAL: vila medieval; hora: noite
 - CAMERA: plano de grupo (3+ pessoas)
 - PERSONAGENS: ROM no centro, expressao shock; sem multidao; acao: fala/gesto

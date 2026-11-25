@@ -323,8 +323,7 @@
    "who": [
     "PRE:0:angry:paper",
     "JEN:0:sad",
-    "ING:0:angry",
-    "PRE:1:shout"
+    "ING:0:angry"
    ],
    "interacao": "susto",
    "text": "PARLAMENTO",
@@ -369,7 +368,7 @@
     ]
    },
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",

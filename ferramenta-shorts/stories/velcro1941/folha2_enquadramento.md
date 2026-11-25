@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: o velcro nasceu de um passeio com o cachorro."
+## b0: "O velcro nasceu de um passeio com o cachorro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)
 - PERSONAGENS: MES na esquerda, expressao surprised; TEC (comerciante) na direita, expressao laugh; sem multidao; acao: fala/gesto
@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "INVENTADO POR UM CACHORRO" flutuando no alto, na palavra 1 da frase
 
-## b1: "E hoje ela está no seu tênis."
+## b1: "E hoje ele está no seu tênis."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -24,7 +24,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: SUÍÇA (cobre a tela 1-2 s)
 
-## b3: "O cachorro e a calça dele estavam cheios de carrapichos."
+## b3: "O cachorro e a calça estavam cheios de carrapichos."
 - LOCAL: encosta de montanha; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 8.0 m)
 - PERSONAGENS: MES no centro, expressao angry; sem multidao; acao: fala/gesto
@@ -76,7 +76,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "VELCRO" flutuando no alto, na palavra 1 da frase
 
-## b9: "Tudo graças a um cachorro cheio de carrapichos."
+## b9: "Um cachorro cheio de carrapichos. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e burr juntos (camera a 11.5 m)
 - PERSONAGENS: MES na esquerda, expressao surprised; TEC (comerciante) na direita, expressao laugh; sem multidao; acao: fala/gesto

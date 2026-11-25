@@ -1,21 +1,21 @@
 # CRONOGRAMA - E Se EP 04 - E Se a Internet Acabasse por Um Dia?
 
-Gerado em 25/11 17:11 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | POV, PRO | - | phone | - | E se a internet do mundo inteiro caísse amanhã por um dia?
+b0 | simples | loc_cidade | two | POV, PRO | - | phone | - | A internet do mundo inteiro cai amanhã, por um dia.
 b1 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Parece impossível. Mas pedaços disso já aconteceram.
 b2 | simples | loc_pista | two | POV, POV | - | phone | - | Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.
 b3 | chave | loc_pista | crowd | PIL, POV, POV | 30 | miners, airplane | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 2024, uma atualização com defeito travou oito milhões de computador
 b4 | simples | interior loja | two | CAI, POV | - | coin | - | Sem internet, sem cartão: só dinheiro de papel.
-b5 | simples | loc_pista | two | PRO, POV | - | - | - | Hospitais e bancos voltariam para a caneta, com filas enormes.
+b5 | simples | loc_pista | two | PRO, POV | - | - | - | Hospitais e bancos voltariam para a caneta.
 b6 | simples | loc_pista | close | PRO | - | phone | - | O mais estranho? Não saber o que fazer com as mãos.
 b7 | simples | loc_cidade | two | POV, POV | - | ball | - | Gente conversando na rua, jogando bola, olhando para o céu.
-b8 | chave | loc_patio | crowd | PRO, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Pesquisadores dizem que, longe das telas, muita gente dorme melhor.
-b9 | simples | loc_cidade | two | POV, PRO | - | phone | - | Você aguentaria um dia? Responde enquanto ainda tem internet.
+b8 | chave | loc_patio | crowd | PRO, POV | 12 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E muita gente ia dormir melhor.
+b9 | simples | loc_cidade | two | POV, PRO | - | phone | - | Você aguentaria? Agora imagina que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

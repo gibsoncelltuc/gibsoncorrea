@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_lua/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_lua` de novo ate esta folha sair sem risco.
 
-## Cena b0 - E se, hoje à noite, a Lua desaparecesse do céu?
+## Cena b0 - Hoje à noite, a Lua desaparece do céu.
 - Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -21,9 +21,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.0-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.6-3.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - O pior não viria na hora. Viria devagar.
@@ -70,8 +68,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: thump@30
 - SOM: sting@50
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (6.7-8.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (8.2-9.6 s): mesmo angulo
+  - take 1 (5.9-7.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.4-8.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b3 - Depois, o mar: quem mais puxa as marés é a Lua.
@@ -92,8 +90,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: OCEANOS (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (10.0-11.8 s): mesmo angulo
-  - take 2 (11.8-13.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (9.3-11.2 s): mesmo angulo
+  - take 2 (11.2-13.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Sem ela, as marés perderiam mais da metade da força.
@@ -115,8 +113,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: sting@40
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (14.1-15.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (15.8-17.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (13.3-15.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (15.0-16.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que a Lua mantém a Terra girando firme.
@@ -140,18 +138,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (17.8-19.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (19.2-20.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 1 (17.0-18.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (18.5-20.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b6 - Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas...
+## Cena b6 - Sem ela, o eixo balançaria, e as estações ficariam extremas.
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao worried)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eixo, estacoes, planeta
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eixo, estacoes
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -160,12 +158,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
 - PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao worried; sem multidao; acao: cochichar
 - OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (21.1-23.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (23.1-25.2 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (20.4-22.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (22.0-23.7 s): mesmo angulo
 <!-- /FICHA -->
 
-## Cena b7 - Boa notícia: ela não vai embora. Só se afasta quatro centímetros por a...
+## Cena b7 - Boa notícia: ela só se afasta quatro centímetros por ano.
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
@@ -186,10 +184,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "OBRIGADO, LUA" flutuando no alto, na palavra 1 da frase
-- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
-## Cena b8 - Hoje à noite, olha para cima e agradece.
+## Cena b8 - Olha para cima e agradece. Agora imagina que...
 - Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
@@ -210,7 +208,7 @@ boat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 
 
 ## Video inteiro
-- Objeto heroi: kit/moon | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 64% | aberto 14% | detalhe 6%
+- Objeto heroi: kit/moon | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 16% | medio 67% | aberto 14% | detalhe 2%
 - Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 avanca e o outro recua, b6 cochichar, b8 o outro se aproxima
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_lua  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_lua/moodboard.jpg

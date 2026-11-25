@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Coisa pesada cai mais rápido? Galileu provou que não."
+## b0: "Uma bola pesada e uma leve caíram no chão ao mesmo tempo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pisa_tower (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: GAL no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -11,20 +11,20 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@30
 - TEXTO NA TELA: "PESADO x LEVE" flutuando no alto, na palavra 1 da frase
 
-## b1: "E, séculos depois, até uma pena deu razão a ele."
+## b1: "E, séculos depois, até uma pena provou isso."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GAL no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETO kit/ball: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 
-## b2: "Por volta de 1590, Galileu era um jovem professor em Pisa."
+## b2: "Em 1590, Galileu era professor em Pisa."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: ALU na esquerda, expressao smile; ALU na direita, expressao neutral; multidao de 8 (ALU) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ITÁLIA (cobre a tela 1-2 s)
 
-## b3: "O sábio Aristóteles dizia: quanto mais pesado, mais rápido cai."
+## b3: "Aristóteles dizia: quanto mais pesado, mais rápido cai."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ARI na esquerda, expressao smug; ALU na direita, expressao bored; sem multidao; acao: conversar
@@ -38,7 +38,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.5 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b5: "Acontece que as duas caíram no chão ao mesmo tempo."
+## b5: "Acontece que as duas chegaram juntas ao chão."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: GAL no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@40
 - SOM: ding@60
 
-## b6: "Hoje se discute se isso aconteceu mesmo."
+## b6: "Tem historiador que duvida dessa história."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GAL na esquerda, expressao neutral, segura book; ALU na direita, expressao suspicious; sem multidao; acao: cochichar
@@ -78,7 +78,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@40
 - SOM: thump@70
 
-## b9: "Até a pena deu razão ao Galileu."
+## b9: "Aristóteles errou por dois mil anos. Até que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: GAL no centro, expressao smug; sem multidao; acao: fala/gesto

@@ -53,13 +53,13 @@
     "ding@30"
    ],
    "bloco": "gancho",
-   "say": "Se todo mundo pulasse junto, a Terra sairia do lugar?",
+   "say": "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "pulasse"
+      "na": "pulam"
      }
     ]
    }
@@ -72,7 +72,7 @@
    ],
    "interacao": "abracar",
    "bloco": "promessa",
-   "say": "Não. Mas o problema de verdade seria outro.",
+   "say": "Mas o problema de verdade seria outro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -303,7 +303,7 @@
    ],
    "acao": "comemorar",
    "bloco": "loop",
-   "say": "Pode pular aí. A Terra nem vai sentir.",
+   "say": "Pode pular aí. Agora imagina que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -336,6 +336,6 @@
   "explicacoes": "A massa da Terra e cerca de 6 x 10^21 toneladas; a humanidade, ~5 x 10^8 toneladas. Um pulo coletivo moveria a Terra menos que a largura de um atomo. Fonte: xkcd What If #8 (Randall Munroe)."
  },
  "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: se todo mundo pulasse junto a Terra sairia do lugar; nao sai, e o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+ "gancho_cumprido": "Gancho: todo mundo pula junto e a Terra nem se mexe; o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
  "loop_frase_ok": true
 }

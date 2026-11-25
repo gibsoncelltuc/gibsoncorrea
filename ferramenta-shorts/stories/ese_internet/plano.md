@@ -13,5 +13,5 @@ b7 | two | -  | - | - | -
 b8 | crowd | -  | batalha aberta com tiros, tropa | - | -
 b9 | two | -  | placa: E SE... | - | -
 
-Mistura de planos: close 13% | medio 68% | aberto 12% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 14% | medio 66% | aberto 12% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

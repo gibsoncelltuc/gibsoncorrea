@@ -65,7 +65,7 @@
    ],
    "impact": true,
    "bloco": "gancho",
-   "say": "Diziam que era impossível de ir ao fundo. Foi na primeira viagem.",
+   "say": "O navio que não podia afundar foi ao fundo na primeira viagem.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -93,13 +93,13 @@
    "interacao": "cochichar",
    "set": "harbor",
    "bloco": "promessa",
-   "say": "E se não tivesse afundado, o mar seria mais perigoso hoje.",
+   "say": "E é por causa dele que o mar é mais seguro hoje.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "perigoso"
+      "na": "por"
      }
     ]
    }
@@ -121,7 +121,7 @@
     ]
    ],
    "bloco": "prova",
-   "say": "Abril de 1912. O Titanic levava mais de duas mil pessoas.",
+   "say": "O Titanic levava mais de duas mil pessoas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -327,13 +327,13 @@
    ],
    "set": "harbor",
    "bloco": "pagamento",
-   "say": "Em 1914, veio o primeiro grande tratado do mar: bote para todos.",
+   "say": "Em 1914, veio a regra: bote para todos.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "tratado"
+      "na": "todos"
      }
     ]
    }
@@ -354,7 +354,7 @@
    ],
    "interacao": "entregar",
    "bloco": "pagamento",
-   "say": "E criaram uma patrulha de icebergs, que existe até hoje.",
+   "say": "E criaram uma patrulha de icebergs.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -380,13 +380,13 @@
    ],
    "acao": "conversar",
    "bloco": "loop",
-   "say": "O pior dia do Titanic deixou o mar mais seguro.",
+   "say": "Tudo mudou numa noite gelada. Foi quando...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Titanic"
+      "na": "Tudo"
      }
     ]
    }
@@ -418,7 +418,7 @@
   "explicacoes": "Cerca de 90% de um iceberg fica abaixo da agua; o gelo raspou o casco abaixo da linha d agua e abriu varios compartimentos. Fonte: Encyclopaedia Britannica, \"Titanic\"."
  },
  "variar_cenario": false,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: se o Titanic nao afundasse, o mar seria mais perigoso. Pagamento: so havia bote para metade; o naufragio criou o tratado de 1914 com bote para todos e a patrulha do gelo que existe ate hoje.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o navio que nao podia afundar afundou na primeira viagem e isso deixou o mar mais seguro. Pagamento: botes so para metade, 1.500 mortos; dai veio o tratado de 1914 com bote para todos e a patrulha do gelo.",
  "loop_frase_ok": true
 }

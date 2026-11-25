@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um carro de verdade gira em volta do Sol."
+## b0: "Um carro de verdade está dando voltas em torno do Sol."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: espaco
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.7 m de altura x 2.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
-## b3: "Para o teste, em vez de concreto, Musk mandou o próprio carro."
+## b3: "Em vez de um peso de concreto, Musk mandou o próprio carro."
 - LOCAL: loja / taverna; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: ENG (cientista) no centro, expressao suspicious; sem multidao; acao: conversar
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/roadster no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b8: "E continua lá em cima, dando voltas, até hoje."
+## b8: "Ele continua lá até hoje. Porque..."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: espaco
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto

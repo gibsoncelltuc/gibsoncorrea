@@ -45,9 +45,9 @@
     "kit/marco_goldengate",
     "kit/phone"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Trocar de nome é fácil? Esta placa nova virou caso de investigação.",
+   "frase": "Uma placa com uma letra só virou caso de investigação.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -63,9 +63,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "E tudo por causa de uma letra só.",
+   "frase": "E a culpa foi de uma luz piscando de madrugada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -80,9 +80,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 10,
    "cena": "b2",
-   "frase": "Em 2023, Elon Musk trocou o nome do Twitter para X.",
+   "frase": "Em 2023, Musk trocou o nome do Twitter para X.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -100,9 +100,9 @@
    "objetos": [
     "kit/finch"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Operários começaram a tirar as letras e o passarinho da fachada.",
+   "frase": "Operários começaram a tirar o passarinho da fachada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -123,9 +123,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "O trabalho parou no meio, porque faltavam licenças.",
+   "frase": "O trabalho parou no meio, por falta de licença.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -171,9 +171,9 @@
     "nature/picket_fence",
     "nature/tree_oak"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b6",
-   "frase": "A luz entrava nas janelas dos vizinhos de madrugada.",
+   "frase": "A luz entrava nas janelas dos vizinhos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -227,9 +227,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 7,
+   "palavras": 10,
    "cena": "b9",
-   "frase": "Até trocar de nome precisa de licença.",
+   "frase": "Até trocar de nome precisa de licença. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

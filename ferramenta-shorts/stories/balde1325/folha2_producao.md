@@ -11,6 +11,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/balde_madeira (FALTA MODELAR), tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, madeira
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MOD na esquerda, expressao grin; BOL na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/balde_madeira: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- TEXTO NA TELA: "GUERRA DO BALDE" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.9-3.7 s): mesmo angulo
+<!-- /FICHA -->
 
 ## Cena b1 - E esse balde está guardado até hoje.
 - Cenario: medieval | luz: day | clima: limpo
@@ -21,6 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/castle_tower, kit/balde_madeira (FALTA MODELAR), tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: MOD no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/balde_madeira: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO buildings/castle_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 27.1 m de altura x 14.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "TORRE GHIRLANDINA" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b2 - Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.
 - Cenario: interior pedra | luz: day | clima: limpo
@@ -31,6 +54,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fronteira, italia
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: NOB na esquerda, expressao stern; PAP (padre) na direita, expressao stern; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ITÁLIA (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (6.7-8.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.3-10.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b3 - Em 1325, Bolonha marchou com cerca de trinta mil soldados.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -41,6 +76,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerca, trinta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: BOL na esquerda, expressao stern; BOL na direita, expressao stern; multidao de 18 (BOL) marchando ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "30.000" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (10.4-12.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (12.1-13.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b4 - Módena tinha menos de oito mil homens.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -51,6 +98,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): oito
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MOD na esquerda, expressao nervous; MOD na direita, expressao pained; multidao de 6 (MOD) ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b5 - Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -61,6 +117,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: MOD na esquerda, expressao stern; BOL na direita, expressao shock; multidao de 32 (MOD, BOL) ATRAS dos principais; acao: batalha
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
 ## Cena b6 - Depois, fizeram festa na porta de Bolonha.
 - Cenario: loc_campo | luz: day | clima: limpo
@@ -71,6 +136,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bolonha, porta
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MOD na esquerda, expressao laugh, segura flag; MOD na direita, expressao grin; multidao de 8 (MOD) marchando ATRAS dos principais; acao: comemorar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b7 - E levaram de troféu o balde do poço da cidade.
 - Cenario: medieval | luz: day | clima: limpo
@@ -81,6 +155,21 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/well, kit/balde_madeira (FALTA MODELAR), buildings/castle_tower, tools/bucket, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, cidade, poco, trofeu
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MOD na esquerda, expressao laugh, segura bag; MOD na direita, expressao grin; sem multidao; acao: pega
+- OBJETO kit/balde_madeira: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO kit/well: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO buildings/castle_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 18.5 m de altura x 10.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO buildings/castle_tower: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 18.5 m de altura x 10.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "PORTA DE BOLONHA" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (23.3-25.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (25.0-26.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b8 - O balde está na torre Ghirlandina, em Módena.
 - Cenario: medieval | luz: day | clima: limpo
@@ -91,6 +180,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: buildings/castle_tower, kit/balde_madeira (FALTA MODELAR), tools/bucket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balde, torre
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: MOD no centro, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/balde_madeira: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- OBJETO buildings/castle_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 27.1 m de altura x 14.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "TORRE GHIRLANDINA" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b9 - Milhares de soldados, e o prêmio foi um balde. Foi assim que...
 - Cenario: medieval | luz: day | clima: limpo
@@ -127,3 +227,15 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh balde1325 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh balde1325` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila medieval; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MOD na esquerda, expressao grin; BOL na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/balde_madeira: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (30.0-32.0 s): mesmo angulo
+  - take 2 (32.0-34.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+

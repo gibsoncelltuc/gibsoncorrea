@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_napoleao/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_napoleao` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?
+## Cena b0 - Napoleão ganha em Waterloo, e a Europa muda para sempre.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -21,9 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "1815" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.9-3.7 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (1.6-3.3 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b1 - A resposta dos historiadores vai te surpreender.
@@ -86,8 +86,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: NAP (general) na esquerda, expressao grin; FRA (soldado) na direita, expressao stern; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (9.6-11.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.1-12.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (9.3-10.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (10.8-12.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo...
@@ -134,7 +134,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: cannon@20
 - SOM: thump@50
-- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (3.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Foi mandado para Santa Helena, uma ilha perdida no Atlântico.
@@ -154,8 +154,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: NAP (general) na esquerda, expressao sad; WEL (general) na direita, expressao smug; sem multidao; acao: empurrar
 - OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (20.7-22.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (22.4-24.1 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (20.4-22.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (22.0-23.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b7 - Acontece que, para muitos historiadores, a derrota viria igual.
@@ -179,18 +179,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: sting@20
 - SOM: ding@50
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (24.4-25.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (25.9-27.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 1 (24.1-25.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (25.6-27.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b8 - Rússia e Áustria já marchavam contra ele com exércitos enormes.
+## Cena b8 - Rússia e Áustria já marchavam contra ele.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried) | multidao: 6 de POV
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/scroll
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): exercitos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -201,19 +201,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (27.8-29.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (29.5-31.1 s): mesmo angulo
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b9 - Um dia famoso nem sempre muda o destino. Só a data.
+## Cena b9 - Um dia famoso nem sempre muda o destino. Mas imagina que...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): NAP (variante 0, expressao smug); WEL (variante 0, expressao stern)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/crown
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): data, destino
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): destino
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -227,7 +225,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/crown | grandes momentos: b4, b5 | planos abertos: 3 | mistura: close 21% | medio 61% | aberto 12% | detalhe 5%
+- Objeto heroi: kit/crown | grandes momentos: b4, b5 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 13% | detalhe 5%
 - Interacoes: b0 vai ate o outro, b3 entregar, b6 empurrar, b8 aproxima-se, b9 avanca e o outro recua
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_napoleao  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_napoleao/moodboard.jpg
@@ -247,7 +245,7 @@ kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer ca
 - PERSONAGENS: NAP (general) no centro, expressao sad; sem multidao; acao: conversar
 - OBJETO kit/crown: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (31.5-33.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (33.4-35.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 1 (30.0-31.9 s): mesmo angulo
+  - take 2 (31.9-33.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 

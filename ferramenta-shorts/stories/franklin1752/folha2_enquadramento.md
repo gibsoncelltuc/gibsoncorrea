@@ -50,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: COM (comerciante) na esquerda, expressao suspicious; FRA (cientista) na direita, expressao relief; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b7: "Franklin inventou o para-raios, que protege prédios no mundo inteiro."
+## b7: "Daí nasceu o para-raios, que protege prédios no mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: FRA (cientista) no centro, expressao laugh; sem multidao; acao: comemorar
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "PARA-RAIOS" flutuando no alto, na palavra 1 da frase
 
-## b8: "O raio perdeu a briga para uma chave."
+## b8: "Coragem ou loucura? Só sei que foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
 - PERSONAGENS: FRA (cientista) na esquerda, expressao grin; FIL (agricultor) na direita, expressao shock; sem multidao; acao: fala/gesto

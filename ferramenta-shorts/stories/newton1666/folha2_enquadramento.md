@@ -2,14 +2,14 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo."
+## b0: "Uma maçã que não caiu na cabeça de Newton mudou tudo."
 - LOCAL: loc_campo; hora: pordosol
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
 - OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "LENDA?" flutuando no alto, na palavra 1 da frase
 
-## b1: "Ela explicou por que a Lua não cai na nossa cabeça."
+## b1: "Ela explicou por que a Lua não cai em cima da gente."
 - LOCAL: loc_campo; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
@@ -23,13 +23,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "CAMBRIDGE FECHADA" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: INGLATERRA (cobre a tela 1-2 s)
 
-## b3: "Isaac Newton, de 23 anos, voltou para a fazenda da mãe."
+## b3: "Isaac Newton, de 23 anos, voltou para a fazenda."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao smile, segura bag; MAE na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Passava os dias debaixo de uma macieira, pensando."
+## b4: "Ficava debaixo de uma macieira, pensando."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao neutral, segura book; AMI na direita, expressao suspicious; sem multidao; acao: fala/gesto
@@ -53,12 +53,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - TEXTO NA TELA: "PARA BAIXO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "Se a força puxa a maçã, será que puxa a Lua também?"
+## b7: "Se a força puxa a maçã, puxa a Lua também?"
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/lua_ceu no centro, manobra "parado"
 - PASSOS NA TELA: TERRA PUXA A MAÇÃ -> TERRA PUXA A LUA -> MESMA FORÇA
 
-## b8: "Virou a lei da gravidade, publicada em 1687."
+## b8: "Isso virou a lei da gravidade de Newton."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW no centro, expressao smug, segura book; sem multidao; acao: fala/gesto
@@ -69,7 +69,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "PRINCIPIA - 1687" numa placa atras dos personagens, na palavra 1 da frase
 
-## b9: "A maçã ficou famosa. E nem foi comida."
+## b9: "E a maçã nem foi comida. Foi assim que..."
 - LOCAL: loc_campo; hora: pordosol
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto

@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Uma fila de luzes cruzou o céu da Europa. Disseram que eram ETs."
+## b0: "Uma fila de luzes cruzou o céu, e chamaram de ETs."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: AST (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: AST (cientista) na esquerda, expressao grin; JOR na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Viu pelo menos cinquenta e seis objetos brilhando em fila."
+## b4: "Viu pelo menos cinquenta e seis luzes em fila."
 - LOCAL: loc_montanha; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
@@ -50,14 +50,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/starlink_train no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b7: "Os jornais explicaram: não eram OVNIs, eram satélites de internet."
+## b7: "Não eram ETs. Eram satélites de internet."
 - LOCAL: loja / taverna; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: JOR na esquerda, expressao suspicious; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MUNDO (cobre a tela 1-2 s)
 
-## b8: "Viu uma fila de luzes no céu? Pode ser só internet."
+## b8: "Internet no céu, e foi assim que..."
 - LOCAL: vila rural (casas, cercas, campo); hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: AST (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto

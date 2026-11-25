@@ -29,12 +29,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "LET THAT SINK IN" numa placa atras dos personagens, na palavra 1 da frase
 
-## b4: "Em inglês, sink quer dizer pia e também afundar."
+## b4: "Sink quer dizer pia e também afundar."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/sink no centro, manobra "gira"
 - PASSOS NA TELA: -
 
-## b5: "Acontece que, no dia seguinte, o Twitter virou dele, por 44 bilhões."
+## b5: "Acontece que, no dia seguinte, o Twitter virou dele."
 - LOCAL: sala de madeira; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao laugh; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -53,7 +53,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "CHIEF TWIT" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Uma pia, um trocadilho e 44 bilhões de dólares."
+## b8: "Uma piada com pia. E foi assim que..."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; FUN na direita, expressao shock; sem multidao; acao: fala/gesto

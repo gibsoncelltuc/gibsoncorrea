@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um presidente teve quase 85% dos votos. E muita gente criticou."
+## b0: "Um presidente teve quase 85% dos votos, e o mundo se dividiu."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: comemorar
@@ -11,13 +11,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "84,6%" flutuando no alto, na palavra 1 da frase
 
-## b1: "E o motivo dessa votação divide o mundo."
+## b1: "E o motivo dessa votação é polêmico."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ballot_box juntos (camera a 8.0 m)
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/ballot_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 2024, em El Salvador, Nayib Bukele tentou a reeleição."
+## b2: "Em 2024, Bukele tentou a reeleição em El Salvador."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao smile; sem multidao; acao: fala/gesto
@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: JUI na esquerda, expressao stern, segura paper; REP (jornalista) na direita, expressao suspicious; sem multidao; acao: discutir
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
-## b6: "A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal."
+## b6: "Uma corte liberou, e críticos chamaram de ilegal."
 - LOCAL: loc_patio; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REP (jornalista) na esquerda, expressao worried, segura paper; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "PRISÕES EM MASSA" flutuando no alto, na palavra 1 da frase
 
-## b8: "Mesmo assim, Bukele teve 84,6% dos votos."
+## b8: "Mesmo assim, ele levou 84,6% dos votos."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK na esquerda, expressao laugh; REP (jornalista) na direita, expressao shock, segura paper; sem multidao; acao: fala/gesto
@@ -73,7 +73,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@50
 - TEXTO NA TELA: "84,6%" flutuando no alto, na palavra 1 da frase
 
-## b9: "Amado por muitos, criticado por outros. Você decide."
+## b9: "Amado por uns, criticado por outros. Foi assim que..."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ballot_box juntos (camera a 11.5 m)
 - PERSONAGENS: BUK na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: comemorar

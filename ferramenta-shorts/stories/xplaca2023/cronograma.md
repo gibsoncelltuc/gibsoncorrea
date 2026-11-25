@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 03 - O X no Prédio do Twitter
 
-Gerado em 25/11 17:07 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:29 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_patio | two | MUS | - | marco_goldengate, phone | - | Trocar de nome é fácil? Esta placa nova virou caso de investigação.
-b1 | simples | interior madeira | two | MUS | - | phone | - | E tudo por causa de uma letra só.
-b2 | simples | interior pedra | two | MUS, OPE | - | - | - | Em 2023, Elon Musk trocou o nome do Twitter para X.
-b3 | chave | loc_cidade | group | OPE, OPE2, MUS | 10 | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Operários começaram a tirar as letras e o passarinho da fachada.
-b4 | simples | interior loja | two | OPE, FIS | - | - | - | O trabalho parou no meio, porque faltavam licenças.
+b0 | simples | loc_patio | two | MUS | - | marco_goldengate, phone | - | Uma placa com uma letra só virou caso de investigação.
+b1 | simples | interior madeira | two | MUS | - | phone | - | E a culpa foi de uma luz piscando de madrugada.
+b2 | simples | interior pedra | two | MUS, OPE | - | - | - | Em 2023, Musk trocou o nome do Twitter para X.
+b3 | chave | loc_cidade | group | OPE, OPE2, MUS | 10 | finch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Operários começaram a tirar o passarinho da fachada.
+b4 | simples | interior loja | two | OPE, FIS | - | - | - | O trabalho parou no meio, por falta de licença.
 b5 | chave | loc_cidade | wide | MUS | - | apartment, house_two, marco_goldengate, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que instalaram um X gigante piscando no alto do prédio.
-b6 | simples | loc_cidade | two | POV, JOR | - | house_small, picket_fence, tree_oak | - | A luz entrava nas janelas dos vizinhos de madrugada.
+b6 | simples | loc_cidade | two | POV, JOR | - | house_small, picket_fence, tree_oak | - | A luz entrava nas janelas dos vizinhos.
 b7 | simples | interior pedra | two | FIS, MUS | - | - | - | Vieram vinte e quatro reclamações num fim de semana.
 b8 | simples | loc_cidade | orbit | FIS, OPE | 8 | house_two, bench, lamppost | - | A prefeitura investigou, e o X foi retirado.
-b9 | simples | loc_patio | two | MUS | - | phone | - | Até trocar de nome precisa de licença.
+b9 | simples | loc_patio | two | MUS | - | phone | - | Até trocar de nome precisa de licença. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

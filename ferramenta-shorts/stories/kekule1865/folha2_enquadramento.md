@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: um segredo da química foi resolvido num cochilo."
+## b0: "Um segredo da química foi resolvido num cochilo."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)
 - PERSONAGENS: KEK (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
@@ -11,13 +11,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "SONHO" flutuando no alto, na palavra 1 da frase
 
-## b1: "E quem deu a resposta foi uma cobra."
+## b1: "E quem deu a resposta foi uma cobra de sonho."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
 - PERSONAGENS: KEK (cientista) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b2: "Em 1865, na Bélgica, August Kekulé tinha um problema."
+## b2: "Em 1865, August Kekulé tinha um problema."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: KEK (cientista) na esquerda, expressao worried; ALU na direita, expressao suspicious, segura paper; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Numa noite fria, ele cochilou de frente para a lareira."
+## b4: "Numa noite fria, ele cochilou diante da lareira."
 - LOCAL: sala de madeira; hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e fireplace juntos (camera a 8.0 m)
 - PERSONAGENS: KEK (cientista) no centro, expressao bored; sem multidao; acao: fala/gesto
@@ -41,12 +41,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/snake_ring no centro, manobra "gira"
 - PASSOS NA TELA: ÁTOMOS -> COBRA -> ANEL
 
-## b6: "Uma delas mordeu o próprio rabo."
+## b6: "Acontece que uma delas mordeu o próprio rabo."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/snake_ring no centro, manobra "gira"
 - PASSOS NA TELA: ÁTOMOS -> COBRA -> ANEL
 
-## b7: "Ele acordou num pulo. O benzeno era um anel!"
+## b7: "Ele acordou num pulo: o benzeno era um anel!"
 - LOCAL: sala de madeira; hora: noite
 - CAMERA: camera baixa olhando para cima; plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)
 - PERSONAGENS: KEK (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
@@ -67,7 +67,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: COL (cientista) no centro, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETO kit/snake_ring: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
-## b10: "Ele dizia: aprendam a sonhar, mas confiram acordados."
+## b10: "Ele dizia: aprendam a sonhar. Porque..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)
 - PERSONAGENS: KEK (cientista) na esquerda, expressao grin; COL (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto

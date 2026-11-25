@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_pulo/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_pulo` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Se todo mundo pulasse junto, a Terra sairia do lugar?
+## Cena b0 - Oito bilhões de pessoas pulam juntas, e a Terra nem sente.
 - Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised) | multidao: 5 de POV
+- Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lugar, terra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pessoas, terra
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -21,15 +21,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (0.0-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (1.6-3.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.9-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b1 - Não. Mas o problema de verdade seria outro.
+## Cena b1 - Mas o problema de verdade seria outro.
 - Cenario: harbor | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): POV (variante 0, expressao laugh); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: abracar
 - Objetos/modelos: -
@@ -42,7 +42,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: POV na esquerda, expressao laugh; POV na direita, expressao grin; sem multidao; acao: abracar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Somos mais de oito bilhões de pessoas.
@@ -195,14 +195,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
   - take 2 (28.7-30.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b9 - Pode pular aí. A Terra nem vai sentir.
+## Cena b9 - Pode pular aí. Agora imagina que...
 - Cenario: street | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): terra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -214,7 +214,7 @@ kit/globe | b0, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folh
 
 
 ## Video inteiro
-- Objeto heroi: kit/globe | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 77% | aberto 5% | detalhe 6%
+- Objeto heroi: kit/globe | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 13% | medio 76% | aberto 5% | detalhe 6%
 - Interacoes: b0 aproxima-se, b1 abracar, b3 avanca e o outro recua, b7 susto, b8 discutir, b9 pular
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_pulo  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_pulo/moodboard.jpg
@@ -233,6 +233,6 @@ kit/globe | b0, b5, b6, b9 | pronto (HEROI: aparece em close) | conferir na folh
 - CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
 - PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

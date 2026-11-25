@@ -7,7 +7,7 @@
    "item": "E Se o Titanic Não Tivesse Afundado?",
    "consultas": [
     "E Se o Titanic Não Tivesse Afundado?",
-    "Diziam Foi Abril Titanic 1912"
+    "Titanic 1912"
    ]
   },
   {
@@ -80,6 +80,14 @@
    "consultas": [
     "navio Titanic",
     "navio Titanic 1912"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1912",
+    "ship"
    ]
   },
   {

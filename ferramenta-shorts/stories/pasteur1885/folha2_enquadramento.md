@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "O primeiro vacinado contra a raiva foi um menino de nove anos."
+## b0: "Um menino de nove anos foi o primeiro vacinado contra a raiva."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto
@@ -15,14 +15,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: PAS no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b2: "Em 1885, na França, Louis Pasteur estudava micróbios."
+## b2: "Em 1885, Louis Pasteur estudava micróbios na França."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: MED na esquerda, expressao neutral; MED na direita, expressao smile; multidao de 8 (POV, MED) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
 
-## b3: "Quem era mordido por um animal com raiva quase nunca se salvava."
+## b3: "Mordida de animal com raiva quase sempre matava."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MED na esquerda, expressao sad; POV na direita, expressao scared; sem multidao; acao: conversar
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PERSONAGENS: MAE na esquerda, expressao relief; PAS na direita, expressao smile; sem multidao; acao: reverencia
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b9: "Anos depois, Joseph virou o guarda do instituto de Pasteur."
+## b9: "Um químico arriscou tudo. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o syringe (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto

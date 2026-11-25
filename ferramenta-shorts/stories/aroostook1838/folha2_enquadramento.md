@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Ninguém te conta: lenhadores quase começaram uma guerra entre dois países."
+## b0: "Lenhadores quase começaram uma guerra entre dois países."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e logs juntos (camera a 11.5 m)
 - PERSONAGENS: AME (agricultor) na esquerda, expressao angry, segura axe; CAN (agricultor) na direita, expressao angry, segura axe; sem multidao; acao: discutir
@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: MAINE (cobre a tela 1-2 s)
 
-## b3: "Lenhadores dos dois lados cortavam as mesmas árvores em Aroostook."
+## b3: "Lenhadores dos dois lados cortavam as mesmas árvores."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e logs juntos (camera a 11.5 m)
 - PERSONAGENS: AME (agricultor) na esquerda, expressao smug, segura axe; CAN (agricultor) na direita, expressao smug, segura axe; sem multidao; acao: discutir
@@ -48,19 +48,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "MILÍCIA" flutuando no alto, na palavra 1 da frase
 
-## b7: "Um general americano negociou uma trégua. Ninguém chegou a lutar."
+## b7: "Um general negociou uma trégua. Ninguém chegou a lutar."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GEN (general) na esquerda, expressao smile, segura paper; PRE (politico) na direita, expressao relief; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b8: "Em 1842, um tratado dividiu a fronteira de vez."
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: PRE (politico) na esquerda, expressao smug, segura paper; PRE (politico) na direita, expressao smile; sem multidao; acao: entregar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b9: "O apelido que ficou: Guerra do Porco com Feijão."
+## b8: "O apelido: Guerra do Porco com Feijão. Tudo porque..."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e logs juntos (camera a 11.5 m)
 - PERSONAGENS: AME (agricultor) na esquerda, expressao angry, segura axe; CAN (agricultor) na direita, expressao angry, segura axe; sem multidao; acao: discutir

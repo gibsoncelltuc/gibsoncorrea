@@ -12,5 +12,5 @@ b6 | two | -  | objeto na mao | - | -
 b7 | crowd | -  | batalha aberta com tiros, tropa, placa: OBRIGADO, LUA | - | -
 b8 | two | noite  | placa: E SE... | - | -
 
-Mistura de planos: close 15% | medio 64% | aberto 14% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 67% | aberto 14% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

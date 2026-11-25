@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um presidente foi capturado de madrugada, na própria capital, em três horas."
+## b0: "Um presidente foi capturado de madrugada, dentro da própria capital."
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -11,7 +11,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@30
 - TEXTO NA TELA: "3 HORAS" flutuando no alto, na palavra 1 da frase
 
-## b1: "E a operação ganhou um nome que resume tudo."
+## b1: "E tudo levou menos de três horas."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: comemorar
@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO: kit/helicopter_air no centro, manobra "paira"
 - PASSOS NA TELA: -
 
-## b6: "Acontece que, em menos de três horas, Maduro já estava capturado."
+## b6: "Acontece que, em menos de três horas, ele já estava capturado."
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: empurrar
@@ -54,14 +54,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 
-## b7: "Foi levado de avião para Nova York, onde responde a um processo."
+## b7: "Foi levado de avião para Nova York."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: AGE na esquerda, expressao stern; MAD na direita, expressao sad; sem multidao; acao: entregar
 - OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 14.3 m de altura x 14.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b8: "Nenhum militar americano morreu, e a notícia dividiu o mundo."
+## b8: "A notícia dividiu o mundo inteiro."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: POV na esquerda, expressao shock; POV no centro, expressao surprised; POV na direita, expressao nervous; multidao de 18 (POV) ATRAS dos principais; acao: fala/gesto
@@ -70,7 +70,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@30
 - TEXTO NA TELA: "MUNDO" flutuando no alto, na palavra 1 da frase
 
-## b9: "O nome da operação: Resolução Absoluta."
+## b9: "A operação se chamou Resolução Absoluta. E foi assim que..."
 - LOCAL: loc_cidade; hora: noite
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
 - PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: fala/gesto

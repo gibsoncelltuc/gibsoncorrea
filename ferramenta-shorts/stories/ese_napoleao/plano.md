@@ -13,5 +13,5 @@ b7 | close | -  | interior | derrota (puff + som de baque) | -
 b8 | two | -  | tropa, interior, objeto na mao | - | -
 b9 | two | -  | placa: 1815 | - | -
 
-Mistura de planos: close 21% | medio 61% | aberto 12% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 22% | medio 60% | aberto 13% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

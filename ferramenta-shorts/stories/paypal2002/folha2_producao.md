@@ -11,6 +11,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/coin, kit/rocket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguetes, pagamento, site, spacex
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
+- SOM: ding@6
+- TEXTO NA TELA: "PAYPAL → FOGUETES" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.6-3.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b1 - E tudo começou com um jeito de mandar dinheiro por e-mail.
 - Cenario: loc_cidade | luz: dia | clima: limpo
@@ -21,6 +35,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/coin, kit/rocket, kit/roadster2008 (FALTA MODELAR)
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jeito, mandar
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (3.7-5.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (5.6-7.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b2 - O PayPal deixava mandar dinheiro só com um e-mail.
 - Cenario: interior madeira | luz: golden | clima: limpo
@@ -31,6 +58,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/bancada, kit/computador_2002 (FALTA MODELAR)
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): email, paypal
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/computador_2002: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- TEXTO NA TELA: "E-MAIL = DINHEIRO" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (7.8-9.2 s): mesmo angulo
+  - take 2 (9.2-10.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b3 - Em 2002, o eBay comprou o PayPal.
 - Cenario: loc_cidade | luz: dia | clima: limpo
@@ -41,6 +81,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ebay, paypal
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: EBY (comerciante) na esquerda, expressao shock; MUS na direita, expressao smile; sem multidao; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b4 - Preço: um bilhão e meio de dólares, em ações.
 - Cenario: interior pedra | luz: dia | clima: limpo
@@ -51,6 +101,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/coin
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilhao, dolares
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de pedra (governo/castelo); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
+- SOM: ding@6
+- TEXTO NA TELA: "US$ 1,5 BILHÃO" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (13.7-15.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (15.2-16.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b5 - Elon Musk era o maior acionista. Ficou rico de repente.
 - Cenario: interior madeira | luz: golden | clima: limpo
@@ -61,6 +125,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): repente
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: MUS na esquerda, expressao grin; POV na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "ELON MUSK" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (17.0-18.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (18.7-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
 
 ## Cena b6 - Acontece que, no mesmo ano, ele tinha fundado a SpaceX.
 - Cenario: interior galpao | luz: golden | clima: limpo
@@ -71,6 +147,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/rocket
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): spacex
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: galpao; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o rocket (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETO kit/rocket: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.1 m de altura x 2.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
+- SOM: ding@3
+- TEXTO NA TELA: "SPACEX" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (20.7-22.4 s): mesmo angulo
+  - take 2 (22.4-24.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
 ## Cena b7 - Dois anos depois, investiu na Tesla.
 - Cenario: loc_pista | luz: dia | clima: limpo
@@ -81,6 +171,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/roadster2008 (FALTA MODELAR)
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tesla
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: dia
+- CAMERA: plano aberto (cenario inteiro)
+- PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +3 da cena
+- SOM: ding@3
+- TEXTO NA TELA: "TESLA" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
 
 ## Cena b8 - O dinheiro do PayPal ajudou a bancar foguetes e carros.
 - Cenario: loc_cidade | luz: dia | clima: limpo
@@ -91,6 +193,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/coin, kit/rocket, kit/roadster2008 (FALTA MODELAR)
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bancar, dinheiro, paypal
 - RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao laugh; POV na direita, expressao smile; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/rocket: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 5.3 m de altura x 2.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/roadster2008: sem medida (modelo nao encontrado); tamanho na tela: -; estado: PARADO
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (26.7-28.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.4-30.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
 
 ## Cena b9 - Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...
 - Cenario: loc_cidade | luz: dia | clima: limpo
@@ -125,3 +240,17 @@ kit/computador_2002 | b2 | FALTA | modelar antes de renderizar
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paypal2002 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh paypal2002` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
+- PERSONAGENS: MUS na esquerda, expressao surprised; EBY (comerciante) na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +12 da cena
+- SOM: ding@6
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (30.4-32.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (32.4-34.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+

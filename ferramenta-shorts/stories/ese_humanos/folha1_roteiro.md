@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 02 - E Se os Humanos Sumissem da Terra?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 97 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.1 s)
-- Narracao: E se todos os humanos sumissem da Terra amanhã?
+- Narracao: Todos os humanos sumiram da Terra de uma vez.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.8 s)
-- Narracao: O planeta nem sentiria falta. Veja por quê.
+## Cena b1  (~2.1 s)
+- Narracao: E o planeta nem sentiria falta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.4 s)
-- Narracao: Em poucas horas, as luzes se apagariam, cidade por cidade.
+## Cena b3  (~2.4 s)
+- Narracao: Em poucas horas, as luzes se apagariam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b7  (~4.1 s)
-- Narracao: Sobrariam as pirâmides, que já resistem há mais de quatro mil anos.
+## Cena b7  (~3.8 s)
+- Narracao: Sobrariam as pirâmides, de pé há mais de quatro mil anos.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -84,7 +84,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.1 s)
-- Narracao: Somos nós que precisamos do planeta, não o contrário.
+- Narracao: Somos nós que precisamos do planeta. Agora imagina que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

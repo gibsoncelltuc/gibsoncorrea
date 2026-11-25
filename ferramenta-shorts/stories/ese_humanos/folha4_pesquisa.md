@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se os Humanos Sumissem da Terra? | E Se os Humanos Sumissem da Terra? / Terra Veja No | SEM REFERENCIA
+tema | E Se os Humanos Sumissem da Terra? | E Se os Humanos Sumissem da Terra? / Todos Terra No | SEM REFERENCIA
 lugar | cidades de hoje (Nova York, metro), florestas, piramides do Egito | cidades de hoje / cidades de hoje Nova York metro florestas piramides do Egito | SEM REFERENCIA
 lugar | Mundo | Mundo / Mundo landscape | SEM REFERENCIA
 pessoas | moradores (antes de sumir) | moradores antes de sumir | SEM REFERENCIA

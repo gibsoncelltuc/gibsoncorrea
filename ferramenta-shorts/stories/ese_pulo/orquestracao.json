@@ -15,13 +15,13 @@
     "PRO",
     "POV"
    ],
-   "multidao": 5,
+   "multidao": 0,
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 10,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Se todo mundo pulasse junto, a Terra sairia do lugar?",
+   "frase": "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -36,9 +36,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "Não. Mas o problema de verdade seria outro.",
+   "frase": "Mas o problema de verdade seria outro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -193,9 +193,9 @@
    "objetos": [
     "kit/globe"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b9",
-   "frase": "Pode pular aí. A Terra nem vai sentir.",
+   "frase": "Pode pular aí. Agora imagina que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
