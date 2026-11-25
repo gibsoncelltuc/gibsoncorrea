@@ -278,10 +278,8 @@
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "COL:0:smug",
     "FLE:0:angry"
    ],
-   "interacao": "discutir",
    "detalhe": true,
    "props": [
     [

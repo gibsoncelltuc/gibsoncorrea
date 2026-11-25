@@ -35,9 +35,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Quando voltou, achou um prato estragado, coberto de bolor verde."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: COL na esquerda, expressao smug; FLE na direita, expressao angry; sem multidao; acao: discutir
+- PERSONAGENS: FLE no centro, expressao angry; sem multidao; acao: fala/gesto
 - OBJETO kit/petri_mofo: FRENTE, centro (objeto principal da cena); tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b5: "Ele ia jogar o prato fora, mas olhou melhor."
 - LOCAL: sala de madeira; hora: day

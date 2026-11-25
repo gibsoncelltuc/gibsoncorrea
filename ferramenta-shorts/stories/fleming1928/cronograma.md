@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Gerado em 25/11 09:48 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 09:50 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | interior madeira | wide | FLE, COL | - | bancada, petri_mofo | - 
 b1 | transicao | street | reveal | MED, MED | 8 | marco_bigben | - | Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era
 b2 | simples | interior madeira | wide | FLE, COL | - | bancada, petri | - | Ele estudava bactérias e deixava os pratos de cultura empilhados na ba
 b3 | chave | loc_campo | wide | FLE, COL | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um dia, ele saiu de férias por um mês e não limpou nada.
-b4 | simples | interior madeira | two | COL, FLE | - | bancada, petri_mofo | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
+b4 | simples | interior madeira | two | FLE | - | bancada, petri_mofo | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
 b5 | simples | interior madeira | two | FLE | - | bancada, petri_mofo | - | Ele ia jogar o prato fora, mas olhou melhor.
 b6 | simples | interior madeira | two | FLE, COL | - | bancada, petri_mofo | - | Acontece que, em volta do mofo, as bactérias tinham sumido.
 b7 | explicativa | interior pedra | two | sem personagem | - | - | corpo: kit/petri_mofo (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: s | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
