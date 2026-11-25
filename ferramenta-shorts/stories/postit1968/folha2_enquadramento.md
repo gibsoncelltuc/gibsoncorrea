@@ -16,7 +16,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "CORAL DA IGREJA" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b2: "Em 1968, Spencer Silver tentava criar uma super cola."
 - LOCAL: galpao; hora: day
@@ -63,11 +63,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - PASSOS NA TELA: PAPEL DE RASCUNHO -> AMARELO -> POR ACASO
 
 ## b8: "Em 1980, o post-it chegou às lojas do mundo todo."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "NAS LOJAS: 1980" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b9: "A cola não colava direito. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
