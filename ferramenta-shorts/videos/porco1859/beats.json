@@ -253,7 +253,8 @@
      {
       "faz": "olha",
       "na": "porco",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
@@ -395,9 +396,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_discute",
-      "na": "mandaram",
-      "quem": 0
+      "quem": 0,
+      "faz": "chega",
+      "na": "soldados",
+      "forcar": true
      }
     ]
    }
@@ -455,7 +457,8 @@
      {
       "faz": "fala",
       "na": "recusou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
