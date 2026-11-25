@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: rende (up) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: 2026
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_discute (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
-- Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
 - Texto na tela: DELTA
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: rende (up) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: MUNDO
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: A operação ganhou um nome que resume tudo: Resolução Absoluta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

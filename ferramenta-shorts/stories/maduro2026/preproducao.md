@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_cidade | wide | 2 | reagir | buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b1 | loc_cidade | wide | 8 | reagir, batalha | - | - | -
 b2 | loc_pista | wide | 1 | discutir | - | - | -
-b3 | loc_pista | wide | 1 | encena | kit/helicopter_air | - | -
+b3 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/helicopter_air | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/helicopter_air | - | -
 b5 | loc_pista | orbit | 2 | reagir, batalha | - | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
@@ -20,5 +20,5 @@ OBJETO HEROI: kit/helicopter_air
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b5
 Interacoes entre personagens: b6 aproxima-se
 
-Cenas com personagens parados: 2 de 11
+Cenas com personagens parados: 3 de 11
 FALTA MODELAR: nada
