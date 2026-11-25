@@ -14,9 +14,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em El Salvador, na América Central, e a ideia foi do presidente Na...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 8 de POV
+- Personagens principais (1): BUK (variante 0, expressao smug)
 - Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
@@ -54,17 +54,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): CLI (variante 0, expressao surprised) | multidao: 10 de POV
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/phone
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): CLI (variante 0, expressao surprised)
+- Animacao: - | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/phone, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aplicativo, lancamento
 - RISCOS: nenhum
 
 ## Cena b6 - Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e o...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CLI (variante 0, expressao nervous); POV (variante 0, expressao shock)
 - Animacao: discutir | interacao: discutir
@@ -72,7 +72,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): decisao, pesquisa, universidade
 - RISCOS: nenhum
 
-## Cena b7 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
+## Cena b7 - O governo também comprou bitcoins com dinheiro público, e o preço da m...
+- Cenario: interior pedra | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): BUK (variante 0, expressao nervous); DEP (variante 0, expressao shock)
+- Animacao: reagir | interacao: entregar
+- Objetos/modelos: kit/bitcoin, kit/coin
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dinheiro, governo, moeda, preco
+- RISCOS: nenhum
+
+## Cena b8 - Mesmo assim, a moeda digital virou assunto no mundo inteiro.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -82,7 +92,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): moeda
 - RISCOS: nenhum
 
-## Cena b8 - Uma moeda digital, uma lei nova e um país no centro das atenções.
+## Cena b9 - Uma moeda digital, uma lei nova e um país no centro das atenções.
 - Cenario: loc_patio | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -92,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atencoes, centro, moeda
 - RISCOS: nenhum
 
-## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
@@ -107,17 +117,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bitcoin | b0, b2, b4, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b3, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bitcoin | b0, b2, b4, b7, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b3, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coin | b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coin | b7, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 3 | mistura: close 11% | medio 72% | aberto 17% | detalhe 0%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b8 vai ate o outro
+- Objeto heroi: kit/bitcoin | grandes momentos: b3, b5 | planos abertos: 4 | mistura: close 12% | medio 67% | aberto 22% | detalhe 0%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b4 insiste, b6 discutir, b7 entregar, b9 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py bitcoin2021  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/bitcoin2021/moodboard.jpg
 

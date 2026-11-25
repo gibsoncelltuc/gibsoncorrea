@@ -5,8 +5,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: O País do Bitcoin
 - Epoca: 2021 | Lugar: Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021 | Quando: junho a setembro de 2021, dia
 - HEROIS (objeto): kit/bitcoin, kit/volcano
-- HEROIS (personagens): BUK, CLI
-- Cenarios: loc_cidade, loc_patio, loc_pista
+- HEROIS (personagens): BUK, DEP
+- Cenarios: interior pedra, loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -32,6 +32,7 @@ heroi | volcano | volcano | manual: fotos de 2021 de El Salvador (Wikimedia Comm
 ## Explicacoes (como funciona, com fonte)
 - Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)
 - O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)
+- O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador

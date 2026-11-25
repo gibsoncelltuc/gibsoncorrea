@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
@@ -15,7 +15,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | 9 EM 10 NÃO ENTENDIAM | OK |
 
-## Cena b1 - 5.2s a 10.4s - 15 palavras - plano reveal
+## Cena b1 - 5.2s a 10.4s - 15 palavras - plano wide
 > "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -52,16 +52,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 4 | - | ATUACAO | conversar | OK |
 | 5 | - | PLACA | US$ 30 | OK |
 
-## Cena b5 - 32.2s a 36.7s - 13 palavras - plano two
+## Cena b5 - 32.2s a 36.7s - 13 palavras - plano wide
 > "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | FORA DO AR | OK |
+| 2 | - | PLACA | FORA DO AR | OK |
 
-## Cena b6 - 37.0s a 42.2s - 15 palavras - plano group
+## Cena b6 - 37.0s a 42.2s - 15 palavras - plano two
 > "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -71,24 +70,38 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | ATUACAO | discutir | OK |
 | 4 | - | PLACA | 68% DISCORDAM | OK |
 
-## Cena b7 - 42.6s a 45.9s - 10 palavras - plano orbit
+## Cena b7 - 42.6s a 48.5s - 17 palavras - plano two
+> "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte."
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | comprou (43.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | comprou (43.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 3 | dinheiro (44.8s) | EFEITO: stars | estrelinhas + som | OK |
+| 4 | dinheiro (44.8s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 5 | moeda (47.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 6 | - | INTERACAO | entregar | OK |
+| 7 | - | ATUACAO | reagir | OK |
+| 8 | - | PLACA | PREÇO DESPENCOU | OK |
+
+## Cena b8 - 48.9s a 52.2s - 10 palavras - plano orbit
 > "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (43.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | virou (44.4s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | moeda (50.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 2 | virou (50.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
 
-## Cena b8 - 46.3s a 50.7s - 13 palavras - plano group
+## Cena b9 - 52.6s a 57.0s - 13 palavras - plano group
 > "Uma moeda digital, uma lei nova e um país no centro das atenções."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (46.7s) | ACAO: paga | estende a mao com moedas + brilho | OK |
+| 1 | moeda (53.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b9 - 51.1s a 55.6s - 13 palavras - plano close
+## Cena b10 - 57.4s a 61.9s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

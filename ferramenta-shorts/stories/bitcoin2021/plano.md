@@ -3,15 +3,16 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa, placa: 9 EM 10 NÃO ENTENDIAM | dinheiro (stars + som de sino); encena: paga (reach) @6 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | encena: pensa (think) @9 (acao + som de efeito) | -
+b1 | wide | -  | mapa | encena: pensa (think) @9 (acao + som de efeito) | -
 b2 | group | -  | tropa, placa: LEI APROVADA | encena: fala (point) @1 (acao + som de efeito) | -
 b3 | reveal | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO | - | -
 b4 | two | -  | tropa, placa: US$ 30, objeto na mao | encena: fala (point) @1 (acao + som de efeito); encena: fala (point) @6 (acao + som de efeito) | -
-b5 | two | -  | batalha aberta com tiros, tropa, placa: FORA DO AR | - | -
-b6 | group | -  | placa: 68% DISCORDAM | encena: fala (point) @5 (acao + som de efeito) | -
-b7 | orbit | -  | tropa | encena: paga (reach) @3 (acao + som de efeito); encena: vira (up) @5 (acao + som de efeito) | -
-b8 | group | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -
-b9 | close | -  | placa: COMENTE! | - | -
+b5 | wide | -  | batalha aberta com tiros, placa: FORA DO AR | - | -
+b6 | two | -  | placa: 68% DISCORDAM | encena: fala (point) @5 (acao + som de efeito) | -
+b7 | two | -  | interior, placa: PREÇO DESPENCOU | comprou (stars + som de sino); dinheiro (stars + som de sino); encena: negocio (reach) @3 (acao + som de efeito); encena: paga (reach) @6 (acao + som de efeito); encena: paga (reach) @12 (acao + som de efeito) | -
+b8 | orbit | -  | tropa | encena: paga (reach) @3 (acao + som de efeito); encena: vira (up) @5 (acao + som de efeito) | -
+b9 | group | -  | - | encena: paga (reach) @1 (acao + som de efeito) | -
+b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 11% | medio 72% | aberto 17% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 12% | medio 67% | aberto 22% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
