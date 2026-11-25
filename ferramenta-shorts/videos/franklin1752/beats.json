@@ -338,17 +338,17 @@
    "props": [
     [
      "kit/lightning_rod",
-     0.8,
+     0.0,
      -2.0,
-     2.1,
+     1.5,
      {
       "fixo": true
      }
     ],
     [
      "buildings/house_two",
-     -3.5,
-     -11.0,
+     -3.0,
+     -10.0,
      0.7,
      {
       "fixo": true
@@ -386,11 +386,11 @@
      }
     ]
    },
-   "cx": 0.4,
+   "cx": 0,
    "cz": -2,
-   "h": 3.0,
-   "d0": 15,
-   "d1": 13,
+   "h": 2.6,
+   "d0": 14,
+   "d1": 12,
    "quadro_manual": true,
    "encena": {
     "sentido": "afirmativa",
