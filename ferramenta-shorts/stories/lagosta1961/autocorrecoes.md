@@ -90,3 +90,9 @@
 - b1: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera mais perto do objeto, 1 personagem de lado
 - b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b1: ja corrigida 3 vezes, objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 14:13 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/lobster" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b1: ja corrigida 3 vezes, objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b1: ja corrigida 3 vezes, objeto "boat" saiu com 9% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
