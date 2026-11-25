@@ -30,7 +30,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b4: "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano de grupo (3+ pessoas)
-- PERSONAGENS: PAS no centro, expressao surprised; multidao de 2 (POV, POV) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: PAS no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b5: "Pasteur não era médico e tinha medo, mas decidiu tentar."
