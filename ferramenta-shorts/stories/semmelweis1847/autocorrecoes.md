@@ -140,3 +140,10 @@
 
 ## 25/11 20:30 autocorrecao de visibilidade
 - b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 20:31 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b7: objeto citado "kit/wash_basin" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 20:31 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro

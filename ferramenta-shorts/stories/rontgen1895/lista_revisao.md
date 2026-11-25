@@ -3,8 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b4: objeto ENORME "kit/xray_plate" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
+- nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "A primeira foto de dentro do corpo assustou a esposa do cien": 

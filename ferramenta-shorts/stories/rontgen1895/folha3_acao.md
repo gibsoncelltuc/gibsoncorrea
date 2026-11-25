@@ -16,6 +16,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | RAIO X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EMOCAO: scared (a cena toda): executa: o rosto vira "scared" na palavra
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b1 - 3.9s a 5.5s - 8 palavras - plano two
 > "Conta-se que ela viu ali a própria morte."
@@ -26,6 +34,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b2 - 6.4s a 9.7s - 9 palavras - plano two
 > "Em 1895, Wilhelm Röntgen testava um tubo de vidro."
@@ -37,6 +50,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | MAPA | ALEMANHA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
 ## Cena b3 - 10.8s a 12.9s - 9 palavras - plano close
 > "Uma noite, cobriu o tubo e apagou a luz."
@@ -58,6 +77,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
 ## Cena b5 - 18.1s a 19.7s - 10 palavras - plano close
 > "Pôs a mão na frente e viu os próprios ossos."
@@ -68,6 +93,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b6 - 20.8s a 23.7s - 10 palavras - plano wide
 > "Depois, fotografou a mão da esposa, Anna, com a aliança."
@@ -79,6 +109,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
 
 ## Cena b7 - 24.9s a 26.6s - 9 palavras - plano two
 > "Sem saber o que era, chamou de raio X."
@@ -91,6 +127,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | RAIO X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
 ## Cena b8 - 26.8s a 28.0s - 6 palavras - plano crowd
 > "Ganhou o primeiro Nobel de Física."
@@ -103,6 +146,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | Ganhou (26.8s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | NOBEL | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: stars na palavra Ganhou (26.8s): executa: estrelinhas + som
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
 
 ## Cena b9 - 29.1s a 30.9s - 7 palavras - plano two
 > "Um raio desconhecido, e foi assim que..."
@@ -115,4 +166,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | RAIO X | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
