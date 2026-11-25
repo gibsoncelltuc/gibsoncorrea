@@ -22,11 +22,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b2: "Ele chegou ao poder prometendo acabar com a violência das gangues."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: BUK na esquerda, expressao stern; POV na direita, expressao nervous; sem multidao; acao: fala/gesto
+- PERSONAGENS: BUK na esquerda, expressao grin; POV na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
-- TEXTO NA TELA: "FIM DAS GANGUES" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b3: "A Constituição proibia a reeleição seguida, mas em dois mil e vinte e um a Suprema Corte mudou a interpretação."
 - LOCAL: sala de madeira; hora: golden
@@ -51,7 +50,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b6: "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: BUK na esquerda, expressao laugh; REP (jornalista) na direita, expressao shock, segura paper; sem multidao; acao: fala/gesto
+- PERSONAGENS: REP (jornalista) na esquerda, expressao shock, segura paper; BUK na direita, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
@@ -68,7 +67,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@20
 - SOM: ding@60
-- TEXTO NA TELA: "VITÓRIA" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b8: "O motivo: os assassinatos caíram de cento e seis para dois vírgula quatro por cem mil habitantes."
 - LOCAL: loc_campo; hora: golden
@@ -80,9 +78,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b9: "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
 - LOCAL: loc_campo; hora: golden
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; multidao de 14 (PRE) ATRAS dos principais; acao: discutir
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.9 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "PRISÕES EM MASSA" flutuando no alto, na palavra 1 da frase
+- PERSONAGENS: REP (jornalista) no centro, expressao suspicious, segura paper; sem multidao; acao: discutir
+- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b10: "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta."
 - LOCAL: loc_campo; hora: golden

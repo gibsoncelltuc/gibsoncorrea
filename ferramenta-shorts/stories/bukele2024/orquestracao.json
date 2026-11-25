@@ -130,8 +130,8 @@
   {
    "camera": "orbit",
    "personagens": [
-    "BUK",
-    "REP"
+    "REP",
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [],
@@ -190,7 +190,7 @@
    "personagens": [
     "REP"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/prison",
     "kit/volcano"

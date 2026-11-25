@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): BUK, REP
 - Cenarios: interior galpao, interior madeira, loc_campo, loc_cidade, loc_patio, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/prison: 11.0 m reais -> escala 2.65 (estava 1.4: pequeno demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 
