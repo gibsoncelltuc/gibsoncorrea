@@ -15,5 +15,5 @@ b9 | two | -  | - | (rosto) sad (expr + som de efeito); morreu (puff + som de ba
 b10 | orbit | -  | batalha aberta com tiros, placa: LAVE AS MÃOS | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 63% | aberto 10% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 20% | medio 65% | aberto 10% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal
