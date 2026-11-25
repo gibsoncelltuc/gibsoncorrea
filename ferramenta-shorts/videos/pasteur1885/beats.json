@@ -78,10 +78,10 @@
      }
     ],
     [
-     "kit/syringe",
+     "kit/seringa_pe",
      0.0,
      -0.6,
-     0.45,
+     0.6,
      {
       "fixo": true,
       "y": 1.22
@@ -122,10 +122,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -0.3,
-   "h": 1.5,
-   "d0": 8.5,
-   "d1": 8.0,
+   "cz": -0.6,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "chega": false
   },
@@ -318,10 +318,10 @@
      }
     ],
     [
-     "kit/syringe",
+     "kit/seringa_pe",
      0.0,
      -0.6,
-     0.45,
+     0.6,
      {
       "fixo": true,
       "y": 1.22
@@ -364,10 +364,10 @@
    "shot": "two",
    "fachada": false,
    "cx": 0.0,
-   "cz": -0.3,
-   "h": 1.5,
-   "d0": 8.5,
-   "d1": 8.0,
+   "cz": -0.6,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro_manual": true,
    "chega": false
   },

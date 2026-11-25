@@ -18,6 +18,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
+    "kit/seringa_pe",
     "kit/syringe"
    ],
    "palavras": 15,
@@ -123,6 +124,7 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
+    "kit/seringa_pe",
     "kit/syringe"
    ],
    "palavras": 14,

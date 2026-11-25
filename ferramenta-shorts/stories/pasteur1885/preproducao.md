@@ -4,13 +4,13 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/syringe | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/seringa_pe, kit/syringe | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b3 | interior madeira | two | 1 | conversar | kit/syringe | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | dog | - | -
 b5 | street | close | 1 | reagir | - | - | -
-b6 | hall | orbit | 2 | encena, batalha | kit/bancada, kit/syringe | - | -
+b6 | hall | orbit | 2 | encena, batalha | kit/bancada, kit/seringa_pe, kit/syringe | - | -
 b7 | interior madeira | track | 2 | andando | - | - | -
 b8 | hall | two | 1 | conversar | - | - | -
 b9 | hall | crowd | 16 | comemorar, batalha | kit/syringe | - | -

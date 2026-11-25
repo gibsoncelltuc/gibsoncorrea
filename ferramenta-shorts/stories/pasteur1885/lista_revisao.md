@@ -1,9 +1,10 @@
-# LISTA UNICA DE REVISAO - pasteur1885  (refacoes ate agora: 0; limite: 1)
+# LISTA UNICA DE REVISAO - pasteur1885  (refacoes ate agora: 1; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b0: objeto "kit/syringe" saiu com 3% da altura da tela, a ficha de cena planejou 32%
+2. b6: objeto "kit/syringe" saiu com 4% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um menino de nove anos foi o primeiro a receber a vacina con": 
