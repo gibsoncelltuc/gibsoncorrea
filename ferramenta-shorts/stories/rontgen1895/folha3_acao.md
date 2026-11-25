@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
@@ -73,7 +73,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | cobriu (16.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: examina na palavra cobriu (16.4s): executa: examina com lupa/microscopio/balanca
+<!-- /FISICA -->
 
 ## Cena b4 - 19.9s a 23.8s - 14 palavras - plano low
 > "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro."

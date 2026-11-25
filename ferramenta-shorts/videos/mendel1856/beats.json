@@ -193,7 +193,8 @@
      {
       "faz": "examina",
       "na": "cruzou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      },
      {
       "faz": "x_espera",

@@ -221,7 +221,8 @@
      {
       "faz": "examina",
       "na": "cobriu",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },

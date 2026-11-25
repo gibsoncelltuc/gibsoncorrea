@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (point) @3 -> acao + som de efeito
 - Efeito visual marcado: puff@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
