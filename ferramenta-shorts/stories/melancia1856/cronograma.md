@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 24/11 23:45 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 01:26 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | VIA, VEN | - | melon | - | Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os 
 b1 | simples | harbor | wide | VIA | - | locomotive | - | Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca
-b2 | simples | harbor | wide | VIA | - | navios de guerra ao fundo, no tamanho real, locomotive | - | Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf
+b2 | transicao | harbor | wide | VIA | - | navios de guerra ao fundo, no tamanho real, locomotive | - | Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf
 b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou numa barraca, comeu uma fatia de melancia e foi embora 
 b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
 b5 | simples | street | group | VIA | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.

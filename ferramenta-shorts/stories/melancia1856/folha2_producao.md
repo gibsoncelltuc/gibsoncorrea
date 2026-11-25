@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): VIA (variante 0, expressao neutral) | multidao: 0 de 
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: vehicles/locomotive, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): istmo, navio, trem
 - RISCOS: nenhum

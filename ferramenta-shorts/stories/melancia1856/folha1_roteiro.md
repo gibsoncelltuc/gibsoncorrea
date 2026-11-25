@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a caminho do ouro da Califórnia.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ouro -> stars + som de sino; encena: chega (point) @8 -> acao + som de efeito; encena: paga (reach) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ouro -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: PANAMÁ
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: confusão -> puff + som de baque
+- Efeito + som nas palavras-chave: confusão -> puff + som de baque; encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ARMA!
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os viajantes se trancaram na estação de trem, e a polícia da cidade entrou na briga.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; briga -> puff + som de baque; encena: empurra (push) @3 -> acao + som de efeito; encena: chega (point) @13 -> acao + som de efeito; encena: golpe (punch) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; briga -> puff + som de baque; encena: chega (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ESTAÇÃO DE TREM
 - Funcao na historia: GRANDE MOMENTO
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que mais de quinze pessoas morreram naquele dia, e a cidade ficou em choque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque; encena: morre @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreram -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: VIRADA

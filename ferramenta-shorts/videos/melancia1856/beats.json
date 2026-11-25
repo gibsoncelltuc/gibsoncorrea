@@ -89,14 +89,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Uma"
+      "na": "melancia"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -145,17 +144,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "cruzavam"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "ouro"
+      "faz": "mostra",
+      "na": "Panamá"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -203,12 +195,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "cruzavam"
+      "faz": "mostra",
+      "na": "trem"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -252,17 +242,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_come",
-      "na": "comeu"
+      "na": "comeu",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "sai",
-      "na": "embora"
+      "na": "embora",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -279,17 +268,17 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_discute",
-      "na": "cobrou"
+      "na": "cobrou",
+      "quem": 1,
+      "alvo_quem": 0
      },
      {
-      "quem": 0,
       "faz": "x_ri",
-      "na": "riu"
+      "na": "riu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -333,14 +322,15 @@
    "d1": 11.0,
    "_auto_vis": 2,
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Irritado"
+      "faz": "pega",
+      "na": "sacou",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -372,12 +362,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "golpe",
-      "na": "briga"
+      "na": "briga",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -434,22 +423,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "empurra",
-      "na": "trancaram"
-     },
-     {
-      "quem": 0,
       "faz": "chega",
-      "na": "entrou"
-     },
-     {
-      "quem": 0,
-      "faz": "golpe",
-      "na": "briga"
+      "na": "entrou",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -473,12 +451,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "morre",
+      "faz": "mostra",
       "na": "morreram"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -495,14 +471,13 @@
    "interacao": "entregar",
    "tiros": false,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "indenização"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -541,14 +516,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Tudo"
+      "na": "melancia"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

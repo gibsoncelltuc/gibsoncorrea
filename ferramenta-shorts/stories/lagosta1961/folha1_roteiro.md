@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: A França mandou um navio de guerra para proteger os pescadores dela.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_defende (cross) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.
 - Som ambiente: sea
 - Efeitos sonoros marcados: tick@40
-- Efeito + som nas palavras-chave: encena: olha (point) @5 -> acao + som de efeito; encena: fala (point) @10 -> acao + som de efeito; encena: olha (point) @21 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @5 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: chega (point) @1 -> acao + som de efeito; encena: x_pesca (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegaram -> dust + som de impacto; encena: x_aperta (point) @4 -> acao + som de efeito; aperto de mao -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1963
 - Funcao na historia: desenvolvimento

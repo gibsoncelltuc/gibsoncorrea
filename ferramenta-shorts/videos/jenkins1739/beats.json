@@ -95,15 +95,13 @@
    "_auto_vis": 3,
    "detalhe": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "levou"
+      "faz": "mostra",
+      "na": "orelha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -136,10 +134,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Em"
+      "na": "navio"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -174,11 +171,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Suspeitaram"
+      "faz": "corta",
+      "na": "arrancou",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -195,11 +194,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "\"Vá"
+      "faz": "fala",
+      "na": "dito",
+      "quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -219,11 +219,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Sete"
+      "faz": "fala",
+      "na": "relatou",
+      "quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -239,12 +240,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "fala",
+      "na": "queria",
       "quem": 0,
-      "faz": "golpe",
-      "na": "brigar"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -281,14 +282,13 @@
    "d0": 12.0,
    "d1": 11.0,
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Em"
+      "na": "navios"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -301,14 +301,16 @@
    "say": "Depois de quase dez anos, os dois lados fizeram a paz.",
    "interior": "pedra",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Depois"
+      "faz": "x_aperta",
+      "na": "paz",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -321,15 +323,13 @@
    "acao": "conversar",
    "say": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois.",
    "encena": {
-    "sentido": "figurada",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "deu"
+      "faz": "mostra",
+      "na": "escritor"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -354,14 +354,13 @@
    "detalhe": false,
    "_auto_vis": 3,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "orelha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

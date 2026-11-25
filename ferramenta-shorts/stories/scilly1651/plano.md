@@ -5,12 +5,12 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | placa: 335 ANOS | - | -
 b1 | group | -  | tropa, mapa | - | -
 b2 | crowd | -  | batalha aberta com tiros, tropa | - | -
-b3 | group | -  | - | dinheiro (stars + som de sino); encena: fala (point) @2 (acao + som de efeito); encena: paga (reach) @9 (acao + som de efeito) | -
+b3 | group | -  | - | dinheiro (stars + som de sino); encena: fala (point) @2 (acao + som de efeito) | -
 b4 | orbit | -  | batalha aberta com tiros, tropa, placa: GUERRA | encena: fala (point) @8 (acao + som de efeito) | -
 b5 | group | -  | tropa, objeto na mao | - | -
-b6 | two | -  | tropa | encena: chega (point) @2 (acao + som de efeito); encena: chega (point) @11 (acao + som de efeito) | -
+b6 | two | -  | tropa | - | -
 b7 | two | -  | interior, objeto na mao | encena: fala (point) @9 (acao + som de efeito) | -
-b8 | two | -  | - | - | -
+b8 | two | -  | - | encena: chega (point) @6 (acao + som de efeito) | -
 b9 | two | -  | interior, objeto na mao | encena: escreve (write) @2 (acao + som de efeito); aperto de mao (acao + som de efeito) | -
 b10 | group | -  | - | - | -
 b11 | close | -  | placa: COMENTE! | - | -

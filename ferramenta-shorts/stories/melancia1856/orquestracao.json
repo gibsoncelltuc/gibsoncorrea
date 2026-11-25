@@ -65,7 +65,7 @@
    "palavras": 14,
    "cena": "b2",
    "frase": "Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacífico.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

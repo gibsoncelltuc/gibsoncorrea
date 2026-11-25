@@ -90,12 +90,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "pediu"
+      "na": "pediu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -125,17 +124,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "mandavam"
-     },
-     {
-      "quem": 0,
-      "faz": "paga",
-      "na": "ouro"
+      "faz": "mostra",
+      "na": "Gana"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -185,14 +177,13 @@
    },
    "_susp_ok": true,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Os"
+      "na": "banquinho"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -208,11 +199,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Acontece"
+      "faz": "fala",
+      "na": "exigiu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -228,12 +219,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "pedir"
+      "faz": "mostra",
+      "na": "choque"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -290,12 +279,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "cercaram"
+      "na": "cercaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -323,22 +311,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "marcharam"
-     },
-     {
-      "quem": 0,
-      "faz": "x_entrega",
-      "na": "salvar"
-     },
-     {
-      "quem": 0,
-      "faz": "chega",
-      "na": "seguiu"
+      "na": "marcharam",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -354,12 +331,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "venceram"
+      "na": "venceram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -399,14 +375,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Mas"
+      "na": "esconderam"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -445,15 +420,14 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "ganhou"
+      "na": "ganhou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

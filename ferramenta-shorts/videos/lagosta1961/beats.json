@@ -106,10 +106,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "lagosta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -173,12 +172,11 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_pesca",
-      "na": "pescavam"
+      "na": "pescavam",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -193,14 +191,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "lagosta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -215,14 +212,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "lagosta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -269,17 +265,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandou"
-     },
-     {
-      "quem": 0,
-      "faz": "x_defende",
-      "na": "proteger"
+      "na": "mandou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -347,10 +337,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "navios"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -372,25 +361,15 @@
    "detalhe": false,
    "_auto_vis": 1,
    "encena": {
-    "sentido": "figurada",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "encararam"
-     },
-     {
+      "na": "encararam",
       "quem": 0,
-      "faz": "fala",
-      "na": "chamaram"
-     },
-     {
-      "quem": 0,
-      "faz": "olha",
-      "na": "achou"
+      "alvo_quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -407,11 +386,11 @@
     "sentido": "negativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "Mas"
+      "faz": "fala",
+      "na": "conversaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    },
    "riscos_ok": true,
    "sfx": [
@@ -432,17 +411,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "x_aperta",
+      "na": "acordo",
       "quem": 0,
-      "faz": "chega",
-      "na": "chegaram"
-     },
-     {
-      "quem": 0,
-      "faz": "x_pesca",
-      "na": "pescar"
+      "alvo_quem": 1,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -487,14 +462,13 @@
    "d1": 10.0,
    "_auto_vis": 1,
    "encena": {
-    "sentido": "negativa",
+    "sentido": "figurada",
     "passos": [
      {
       "faz": "mostra",
-      "na": "No"
+      "na": "lagosta"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],
