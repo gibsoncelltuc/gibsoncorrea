@@ -12,7 +12,7 @@ b2 | simples | countryside | two | NEW, MAE | - | barn, haybale, picket_fence, s
 b3 | simples | countryside | group | NEW, AMI | - | apple, tree_oak | - | Ele passava os dias debaixo de uma macieira, pensando em como as coisa
 b4 | chave | countryside | wide | NEW, AMI | - | apple, tree_oak | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na fr
 b5 | simples | countryside | two | NEW | - | apple, tree_oak | - | Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que
-b6 | explicativa | loc_campo | two | sem personagem | - | apple, globe, moon | corpo: kit/apple (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
+b6 | explicativa | loc_campo | two | sem personagem | - | apple, globe, moon | corpo: kit/globe (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá
 b7 | chave | countryside | two | NEW | 10 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A resposta virou a lei da gravidade, publicada em mil seiscentos e oit
 b8 | simples | interior madeira | two | NEW, AMI | - | - | - | Anos depois, ele mesmo contou essa história a um amigo.
 b9 | simples | loc_campo | orbit | NEW | 6 | apple | - | No fim, a maçã mudou a ciência e nem foi comida.
@@ -30,12 +30,12 @@ N | Etapa | O que confere | Estado | Proximo passo
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
-11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
-12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
-13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | PENDENTE | bash auditar_acoes.sh local newton1666 <mp4>
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh newton1666
+10 | Render | todos os quadros renderizados nesta versao das folhas | REFAZER (a etapa anterior mudou) | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | REFAZER (a etapa anterior mudou) | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | REFAZER (a etapa anterior mudou) | ./conferir.sh newton1666
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local newton1666 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 13. Auditoria das acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

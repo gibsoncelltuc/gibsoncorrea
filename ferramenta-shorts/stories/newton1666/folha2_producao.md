@@ -141,14 +141,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
-- Objetos/modelos: kit/globe, kit/moon, kit/apple
+- Objetos/modelos: kit/globe, kit/apple, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, galho, maca
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/apple no centro, manobra "parado"
+- OBJETO: kit/globe no centro, manobra "parado"
 - PASSOS NA TELA: -
 - TAKES: 1 take de explicacao (4.4 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->

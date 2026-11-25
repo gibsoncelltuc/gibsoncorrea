@@ -321,50 +321,50 @@
    "props": [
     [
      "kit/globe",
-     -1.8,
-     -1.2,
+     0.0,
+     -1.0,
      1.5,
      {
       "fixo": true
      }
     ],
     [
-     "kit/moon",
-     2.6,
-     -3.0,
-     1.0,
+     "kit/apple",
+     -1.3,
+     -0.4,
+     0.8,
      {
-      "fixo": true,
-      "y": 2.5
+      "fixo": true
      }
     ],
     [
-     "kit/apple",
-     0.0,
-     -0.6,
-     1.0,
+     "kit/moon",
+     1.6,
+     -1.6,
+     0.9,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.8
      }
     ]
    ],
    "explica": {
-    "objeto": "kit/apple",
+    "objeto": "kit/globe",
     "manobra": "parado",
     "rotulos": [
      [
       "TERRA PUXA A MACA",
-      "topo",
+      "baixo",
       "maçã"
      ],
      [
       "TERRA PUXA A LUA",
-      "meio",
+      "topo",
       "Lua"
      ],
      [
       "MESMA FORCA",
-      "baixo",
+      "meio",
       "força"
      ]
     ]
