@@ -114,18 +114,6 @@
       "na": "canivetada"
      }
     ]
-   },
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/canivete_aberto",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -136,7 +124,7 @@
    "hora": "dia",
    "interior": "madeira",
    "bloco": "promessa",
-   "say": "E quem perdeu a guerra acabou ficando rico.",
+   "say": "E quem perdeu a guerra ficou rico.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -169,8 +157,12 @@
    "text": "MAPA ERRADO",
    "tat": 15,
    "tstyle": "red",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "prova",
-   "say": "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "say": "Ohio e Michigan disputavam Toledo por um mapa errado.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -179,24 +171,7 @@
       "na": "disputavam"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/mapa_antigo",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "close",
@@ -236,13 +211,13 @@
    "props": [],
    "detalhe": false,
    "bloco": "prova",
-   "say": "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
+   "say": "Ohio mandou sua milícia, e as tropas se encararam.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "fala",
-      "na": "frente",
+      "na": "encararam",
       "quem": 0
      }
     ]
@@ -272,13 +247,13 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "escalada",
-   "say": "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
+   "say": "Teve tiro para o alto, mas ninguém acertou ninguém.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "atira",
-      "na": "tiros",
+      "na": "tiro",
       "quem": 0
      }
     ]
@@ -332,18 +307,6 @@
       "alvo_quem": 1
      }
     ]
-   },
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/canivete_aberto",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -390,7 +353,7 @@
    "d1": 11.0,
    "shot_lock": true,
    "bloco": "escalada",
-   "say": "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "say": "Ohio levou Toledo. Michigan, uma floresta gelada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -410,8 +373,8 @@
    "props": [
     [
      "kit/minerio",
-     0.0,
-     -1.2,
+     0.6,
+     1.0,
      2.0,
      {
       "fixo": true
@@ -423,6 +386,10 @@
    "tstyle": "gold",
    "titulo": true,
    "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Acontece que debaixo da floresta havia cobre e ferro.",
    "encena": {
@@ -433,24 +400,7 @@
       "na": "cobre"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/minerio",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -487,7 +437,13 @@
    "d0": 11.0,
    "d1": 9.0,
    "crowd": {
-    "n": 0
+    "n": 16,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "stern"
    },
    "quadro_manual": true,
    "encena": {
@@ -501,20 +457,7 @@
     ]
    },
    "bloco": "loop",
-   "say": "Michigan perdeu e ficou rico. E foi assim que...",
-   "_susp_ok": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/canivete_aberto",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "say": "Michigan perdeu e ficou rico. E foi assim que..."
   }
  ],
  "heroi": "kit/canivete_aberto",
@@ -557,6 +500,5 @@
  ],
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, levou a floresta gelada e debaixo dela havia cobre e ferro.",
- "loop_frase_ok": true,
- "max_wide": 4
+ "loop_frase_ok": true
 }

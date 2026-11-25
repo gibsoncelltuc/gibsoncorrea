@@ -14,14 +14,14 @@
   [
    9,
    "promessa",
-   "E quem perdeu a guerra acabou ficando rico.",
+   "E quem perdeu a guerra ficou rico.",
    "rico",
    {}
   ],
   [
    1,
    "prova",
-   "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "Ohio e Michigan disputavam Toledo por um mapa errado.",
    "disputavam",
    {}
   ],
@@ -37,8 +37,8 @@
   [
    3,
    "prova",
-   "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
-   "frente",
+   "Ohio mandou sua milícia, e as tropas se encararam.",
+   "encararam",
    {
     "encena_antiga": true
    }
@@ -46,8 +46,8 @@
   [
    4,
    "escalada",
-   "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
-   "tiros",
+   "Teve tiro para o alto, mas ninguém acertou ninguém.",
+   "tiro",
    {
     "encena_antiga": true
    }
@@ -64,7 +64,7 @@
   [
    7,
    "escalada",
-   "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "Ohio levou Toledo. Michigan, uma floresta gelada.",
    "levou",
    {}
   ],

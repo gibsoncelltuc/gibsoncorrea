@@ -34,9 +34,9 @@
    ],
    "multidao": 32,
    "objetos": [],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "E quem perdeu a guerra acabou ficando rico.",
+   "frase": "E quem perdeu a guerra ficou rico.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -53,9 +53,9 @@
    "objetos": [
     "kit/mapa_antigo"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "frase": "Ohio e Michigan disputavam Toledo por um mapa errado.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -79,37 +79,31 @@
    "cenario": "interior madeira"
   },
   {
+   "camera": "group",
+   "personagens": [
+    "OHI"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Ohio mandou sua milícia, e as tropas se encararam.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
    "camera": "crowd",
    "personagens": [
     "OHI"
    ],
    "multidao": 48,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b4",
-   "frase": "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "OHI"
-   ],
-   "multidao": 48,
-   "objetos": [],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
+   "frase": "Teve tiro para o alto, mas ninguém acertou ninguém.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -154,9 +148,9 @@
     "nature/tree_oak",
     "nature/tree_pine"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "frase": "Ohio levou Toledo. Michigan, uma floresta gelada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -164,7 +158,7 @@
    "cenario": "arctic"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "GOV",
     "MIC"
@@ -179,9 +173,15 @@
    "palavras": 9,
    "cena": "b8",
    "frase": "Acontece que debaixo da floresta havia cobre e ferro.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "jungle"
   },
