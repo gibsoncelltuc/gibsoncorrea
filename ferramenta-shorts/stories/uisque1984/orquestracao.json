@@ -94,9 +94,9 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bandeira_canada",
     "kit/tequila_bolt",
-    "kit/whisky",
-    "war/flagpole"
+    "kit/whisky"
    ],
    "palavras": 13,
    "cena": "b4",
@@ -114,7 +114,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "war/flagpole"
+    "kit/bandeira_dinamarca"
    ],
    "palavras": 14,
    "cena": "b5",

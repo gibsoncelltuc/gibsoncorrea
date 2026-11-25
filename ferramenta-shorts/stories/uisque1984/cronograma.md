@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 25/11 15:44 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:47 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,8 +10,8 @@ b0 | simples | arctic | two | CAN, DIN | - | whisky | - | O Canadá e a Dinamarc
 b1 | simples | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é uma rocha gelada e sem gente entre o Canadá e a Groenlân
 b2 | simples | interior madeira | two | CAN, DIN | - | - | - | Os dois países diziam que a ilha era sua, mas ninguém queria guerra de
 b3 | chave | arctic | wide | CAN | 12 | helicopter | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e oitenta e quatro, soldados canadenses desembarcara
-b4 | simples | arctic | two | CAN, CAN | - | tequila_bolt, whisky, flagpole | - | Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca
-b5 | chave | arctic | wide | DIN | - | flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
+b4 | simples | arctic | two | CAN, CAN | - | bandeira_canada, tequila_bolt, whisky | - | Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca
+b5 | chave | arctic | wide | DIN | - | bandeira_dinamarca | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
 b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.
 b7 | simples | arctic | group | CAN, DIN | - | bandeira_dinamarca, tequila_bolt, whisky | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
 b8 | simples | arctic | wide | CAN, DIN | - | whisky | - | A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entr

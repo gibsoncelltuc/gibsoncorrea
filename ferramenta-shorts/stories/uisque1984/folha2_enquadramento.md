@@ -34,13 +34,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smile, segura flag; CAN (soldado) na direita, expressao laugh; sem multidao; acao: comemorar
 - OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO war/flagpole: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.9 m de altura x 2.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/bandeira_canada: MEIO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.6 m: mastro atras e ao lado dos personagens, pano acima das cabecas
 
 ## b5: "Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a bandeira e puseram a deles."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o flagpole (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o bandeira_dinamarca (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: DIN (soldado) no centro, expressao smug, segura flag; sem multidao; acao: fala/gesto
-- OBJETO war/flagpole: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.5 m de altura x 2.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/bandeira_dinamarca: MEIO, esquerda (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m: mastro atras e ao lado dos personagens, pano acima das cabecas
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 
@@ -55,7 +55,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smug; DIN (soldado) na direita, expressao smug; sem multidao; acao: cochichar
 - OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bandeira_dinamarca: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bandeira_dinamarca: MEIO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.6 m: mastro atras e ao lado dos personagens, pano acima das cabecas
 
 ## b8: "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day

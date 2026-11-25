@@ -215,10 +215,10 @@
    ],
    "props": [
     [
-     "war/flagpole",
-     7.0,
-     -14.0,
-     0.9,
+     "kit/bandeira_canada",
+     -3.0,
+     -3.5,
+     1.11,
      {
       "fixo": true
      }
@@ -246,9 +246,9 @@
       "estado": "parado"
      },
      {
-      "objeto": "war/flagpole",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
+      "objeto": "kit/bandeira_canada",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -280,9 +280,9 @@
    },
    "props": [
     [
-     "war/flagpole",
-     0.0,
-     -8.9,
+     "kit/bandeira_dinamarca",
+     -3.0,
+     -3.5,
      1.2,
      {
       "fixo": true
@@ -301,11 +301,11 @@
    "fachada": false,
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o flagpole (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bandeira_dinamarca (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
-      "objeto": "war/flagpole",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "objeto": "kit/bandeira_dinamarca",
+      "lugar": "MEIO, esquerda (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
      }
@@ -323,10 +323,10 @@
    },
    "_enq_shot": "wide",
    "cx": 0.0,
-   "cz": -2.0,
+   "cz": -3.6,
    "h": 2.4,
-   "d0": 21.0,
-   "d1": 20.0
+   "d0": 19.0,
+   "d1": 18.1
   },
   {
    "shot": "two",
@@ -404,9 +404,9 @@
    "props": [
     [
      "kit/bandeira_dinamarca",
-     0.6,
-     1.0,
-     0.9,
+     -3.0,
+     -3.5,
+     1.11,
      {
       "fixo": true
      }
@@ -421,10 +421,6 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -438,14 +434,17 @@
      },
      {
       "objeto": "kit/bandeira_dinamarca",
-      "lugar": "FUNDO, direita",
+      "lugar": "MEIO, esquerda",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_auto_vis": 3,
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -511,7 +510,7 @@
    "interior": "pedra",
    "quadro": {
     "local": "sala de pedra (governo/castelo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e whisky juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/whisky",
@@ -531,12 +530,11 @@
      }
     ]
    },
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "ano": 1984,

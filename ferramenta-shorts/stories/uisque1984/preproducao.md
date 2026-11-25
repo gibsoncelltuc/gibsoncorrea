@@ -8,8 +8,8 @@ b0 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky | flag | -
 b1 | arctic | reveal | 2 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b3 | arctic | wide | 13 | encena, batalha | vehicles/helicopter | flag | -
-b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
-b5 | arctic | wide | 1 | encena, batalha | war/flagpole | flag | -
+b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | kit/bandeira_canada, kit/whisky, kit/tequila_bolt | flag | -
+b5 | arctic | wide | 1 | encena, batalha | kit/bandeira_dinamarca | flag | -
 b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/tequila_bolt | paper | -
 b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | kit/bandeira_dinamarca, kit/whisky, kit/tequila_bolt | - | -
 b8 | arctic | wide | 2 | encena | kit/whisky | - | -
