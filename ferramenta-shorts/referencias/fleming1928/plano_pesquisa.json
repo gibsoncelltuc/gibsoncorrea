@@ -7,7 +7,7 @@
    "item": "Fleming e a Penicilina",
    "consultas": [
     "Fleming e a Penicilina",
-    "Um Era Londres Alexander Fleming Ele Eram 1928"
+    "Ninguém Em Londres Alexander Fleming 1928"
    ]
   },
   {
@@ -106,9 +106,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d",
+   "item": "O mofo matava bactérias. Ele chamou isso de penicilina.",
    "consultas": [
-    "soltava matava bacterias penicilina",
+    "matava bacterias chamou penicilina",
     "petri mofo diagram"
    ]
   }

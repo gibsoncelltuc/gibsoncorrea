@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
+- Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug) | multidao: 12 de ESP/JEN
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dono, orelha, parlamento
@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)
-- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; sem multidao; acao: fala/gesto
+- PERSONAGENS: JEN na esquerda, expressao sad; ESP na direita, expressao smug; multidao de 12 (ESP, JEN) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/ear_jar: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (2.5-4.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto

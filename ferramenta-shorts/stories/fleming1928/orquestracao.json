@@ -20,14 +20,32 @@
     "kit/bancada",
     "kit/petri_mofo"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.",
+   "frase": "Ninguém te conta: um mofo esquecido salvou milhões de vidas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_bigben"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E tudo por causa de uma mesa bagunçada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
   },
   {
    "camera": "reveal",
@@ -39,9 +57,9 @@
    "objetos": [
     "kit/marco_bigben"
    ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1928, em Londres, trabalhava o cientista Alexander Fleming.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -59,9 +77,9 @@
     "kit/bancada",
     "kit/petri"
    ],
-   "palavras": 23,
-   "cena": "b2",
-   "frase": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Ele deixava os pratos de bactérias empilhados na bancada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,9 +94,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Um dia, ele saiu de férias por um mês e não limpou nada.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Saiu de férias por um mês e não limpou nada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -101,28 +119,9 @@
     "kit/bancada",
     "kit/petri_mofo"
    ],
-   "palavras": 10,
-   "cena": "b4",
-   "frase": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FLE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bancada",
-    "kit/petri_mofo"
-   ],
    "palavras": 9,
    "cena": "b5",
-   "frase": "Ele ia jogar o prato fora, mas olhou melhor.",
+   "frase": "Quando voltou, um prato estava coberto de bolor verde.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -154,9 +153,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
+   "frase": "O mofo matava bactérias. Ele chamou isso de penicilina.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -177,12 +176,10 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/petri"
-   ],
-   "palavras": 15,
+   "objetos": [],
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
+   "frase": "Virou remédio e salvou milhões de pessoas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -197,9 +194,9 @@
    ],
    "multidao": 14,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 6,
    "cena": "b9",
-   "frase": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
+   "frase": "Em 1945, Fleming ganhou o Nobel.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -213,36 +210,24 @@
    "cenario": "hall"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
-    "FLE"
+    "FLE",
+    "COL"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
+   "objetos": [
+    "kit/bancada",
+    "kit/petri_mofo"
+   ],
+   "palavras": 11,
    "cena": "b10",
-   "frase": "No fim, a bagunça dele valeu mais que qualquer faxina.",
+   "frase": "A bagunça valeu mais que qualquer faxina. Ninguém te conta isso.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FLE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   }
  ]
 }

@@ -1,0 +1,103 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: cadernos tao perigosos que so se le com roupa especial, e perigosos por mais de mil anos. Pagamento: o radio que ela carregava no bolso deixou os cadernos radioativos; hoje ficam em caixas de chumbo em Paris.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Existem cadernos tão perigosos que só se lê com roupa especial.",
+   "perigosos"
+  ],
+  [
+   9,
+   "promessa",
+   "E vão continuar perigosos por mais de mil anos.",
+   "perigosos"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado.",
+   "trabalhava",
+   {
+    "mapa": "FRANÇA"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "O teto pingava, e ela mexia minério com uma barra de ferro.",
+   "mexia",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "prova",
+   "Assim ela e Pierre acharam dois elementos novos: polônio e rádio.",
+   "acharam",
+   {
+    "impact": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O rádio brilhava no escuro, e ela adorava olhar os frascos.",
+   "brilhava",
+   {
+    "explica": {
+     "objeto": "kit/curie_box",
+     "manobra": "gira",
+     "vfx": [
+      {
+       "k": "brilho"
+      }
+     ]
+    },
+    "who": [],
+    "detalhe": false
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Ela carregava frascos no bolso. Ninguém sabia do perigo.",
+   "carregava"
+  ],
+  [
+   8,
+   "escalada",
+   "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934.",
+   "morreu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "pagamento",
+   "Hoje, os cadernos dela ficam em caixas de chumbo em Paris.",
+   "cadernos"
+  ],
+  [
+   0,
+   "loop",
+   "Para ler, é preciso assinar um termo e vestir proteção.",
+   "ler",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "escreve",
+       "na": "assinar",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ]
+ ]
+}

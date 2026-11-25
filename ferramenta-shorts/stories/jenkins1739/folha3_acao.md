@@ -38,6 +38,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: avanca e o outro recua
 - ATUACAO (a cena toda): executa: conversar
+- multidao de 12: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b2 - 6.1s a 9.4s - 12 palavras - plano wide
@@ -150,6 +151,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - EFEITO: ring na palavra atacaram (27.4s): executa: onda + som
 - GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- ship CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
 - multidao de 20: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 

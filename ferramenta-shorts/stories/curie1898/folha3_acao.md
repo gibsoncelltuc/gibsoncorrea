@@ -1,156 +1,164 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 13 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 3.7s - 13 palavras - plano two
-> "Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção."
+## Cena b0 - 0.2s a 3.2s - 11 palavras - plano two
+> "Existem cadernos tão perigosos que só se lê com roupa especial."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (0.6s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perigosos" (1.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | PERIGO | OK |
+<!-- FISICA -->
 
-## Cena b1 - 4.9s a 7.8s - 11 palavras - plano wide
-> "Era mil oitocentos e noventa e oito, em Paris, na França."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Paris" (7.1s)
+## Cena b1 - 3.5s a 6.3s - 9 palavras - plano close
+> "E vão continuar perigosos por mais de mil anos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perigosos" (5.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 6.9s a 10.3s - 10 palavras - plano wide
+> "Em 1898, em Paris, Marie Curie trabalhava num galpão gelado."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "trabalhava" (9.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | MAPA | FRANÇA | OK |
+<!-- FISICA -->
 
-## Cena b2 - 9.0s a 11.9s - 12 palavras - plano two
-> "Marie Curie trabalhava com o marido Pierre num galpão velho e gelado."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 10.8s a 14.3s - 12 palavras - plano two
+> "O teto pingava, e ela mexia minério com uma barra de ferro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "galpão" (11.1s)
+  1) MAR mexe a mistura | na palavra "mexia" (11.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b3 - 13.3s a 17.9s - 18 palavras - plano group
-> "O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com uma barra de ferro."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR mexe a mistura | na palavra "mexia" (16.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | mexia (16.4s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
+| 1 | mexia (11.9s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
+| 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b4 - 19.0s a 23.9s - 15 palavras - plano wide
-> "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: mistura na palavra mexia (11.9s): executa: mexe a panela (borbulhando)
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 15.0s a 17.8s - 11 palavras - plano wide
+> "Assim ela e Pierre acharam dois elementos novos: polônio e rádio."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR mexe a mistura | na palavra "Mexendo" (19.0s)
-  2) PIE acao do motor: examina | na palavra "descobriram" (21.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acharam" (16.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Mexendo (19.0s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
-| 2 | descobriram (21.1s) | EFEITO: ring | onda + som | OK |
-| 3 | descobriram (21.1s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 4 | - | PLACA | TONELADAS DE MINÉRIO | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | PLACA | TONELADAS DE MINÉRIO | OK |
+<!-- FISICA -->
 
-## Cena b5 - 25.0s a 28.4s - 13 palavras - plano two
-> "O rádio brilhava no escuro, e Marie adorava olhar os frascos à noite."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b5 - 17.9s a 22.5s - 11 palavras - plano two
+> "O rádio brilhava no escuro, e ela adorava olhar os frascos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto acao do motor: brilha | na palavra "brilhava" (25.3s)
-  2) MAR olha/aponta para o alvo | na palavra "olhar" (27.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "brilhava" (19.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | brilhava (25.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
-| 2 | olhar (27.5s) | ACAO: olha | aponta/olha | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b6 - 29.4s a 32.7s - 9 palavras - plano group
+## Cena b6 - 23.0s a 25.7s - 9 palavras - plano group
 > "Ela carregava frascos no bolso. Ninguém sabia do perigo."
 
-- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
-  1) MAR pega/levanta o objeto | na palavra "carregava" (29.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carregava" (23.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | carregava (29.7s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
 
-## Cena b7 - 34.0s a 37.5s - 13 palavras - plano orbit
-> "Ela ganhou dois prêmios Nobel, a primeira pessoa da história a conseguir isso."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b7 - 25.8s a 30.3s - 12 palavras - plano low
+> "Acontece que a radiação destruiu a saúde dela. Ela morreu em 1934."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR comemora a vitoria | na palavra "ganhou" (34.4s)
+  1) MAR cai e fica imovel | na palavra "morreu" (29.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ganhou (34.4s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | ganhou (34.4s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | NOBEL | OK |
-
-## Cena b8 - 38.6s a 44.1s - 18 palavras - plano two
-> "Acontece que a radiação foi destruindo a saúde dela. Em mil novecentos e trinta e quatro, ela morreu."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MAR cai e fica imovel | na palavra "morreu" (44.1s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | morreu (44.1s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (44.1s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 1 | morreu (29.4s) | EFEITO: puff | fumaca + som | OK |
+| 2 | morreu (29.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 45.2s a 49.3s - 13 palavras - plano two
-> "Mas os cadernos dela continuam radioativos, guardados em caixas de chumbo em Paris."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra morreu (29.4s): executa: fumaca + som
+- ACAO: morre na palavra morreu (29.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (45.5s)
+## Cena b8 - 30.6s a 35.2s - 11 palavras - plano two
+> "Hoje, os cadernos dela ficam em caixas de chumbo em Paris."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b10 - 50.5s a 53.3s - 12 palavras - plano close
-> "Para ler, é preciso assinar um termo e usar roupa de proteção."
-
-- LEITURA DA FRASE: sentido FATO
-  1) PRO acao do motor: le | na palavra "ler" (50.8s)
-  2) PRO escreve no papel | na palavra "assinar" (51.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (31.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ler (50.8s) | ACAO: x_le | le o papel | OK |
-| 2 | assinar (51.7s) | ACAO: escreve | escreve/assina | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b11 - 54.5s a 57.6s - 9 palavras - plano two
-> "Ou seja: os cadernos vão continuar radioativos por séculos."
+## Cena b9 - 35.8s a 39.1s - 10 palavras - plano wide
+> "Para ler, é preciso assinar um termo e vestir proteção."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cadernos" (55.4s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-
-## Cena b12 - 58.8s a 62.1s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PRO escreve no papel | na palavra "assinar" (36.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
+| 1 | assinar (36.7s) | ACAO: escreve | escreve/assina | OK |
+| 2 | - | PLACA | PERIGO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: escreve na palavra assinar (36.7s): segura o papel e mexe a mao como se escrevesse
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

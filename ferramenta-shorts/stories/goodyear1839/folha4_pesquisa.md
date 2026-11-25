@@ -4,7 +4,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Borracha que Caiu no Fogão
 - Epoca: 1839 | Lugar: Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois | Quando: inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas
-- HEROIS (objeto): kit/borracha, kit/stove
+- HEROIS (objeto): kit/borracha, kit/stove, kit/gosma
 - HEROIS (personagens): GOO, CLA
 - Cenarios: hall, interior galpao, interior madeira, interior pedra, loc_estudio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Borracha que Caiu no Fogão | Charles Goodyear vulcanization / A Borracha que Caiu no Fogão / Um Era Estados Unidos Botas 1839 | Charles Goodyear.png (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_8854bf.jpg); Charles Goodyear.jpg (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_5692f8.jpg); Southworth and Hawes - Charles Goodyear (Zeno Foto (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_1a6dfa.jpg)
+tema | A Borracha que Caiu no Fogão | Charles Goodyear vulcanization / A Borracha que Caiu no Fogão / Um Em Estados Unidos 1839 | Charles Goodyear.png (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_8854bf.jpg); Charles Goodyear.jpg (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_5692f8.jpg); Southworth and Hawes - Charles Goodyear (Zeno Foto (referencias/goodyear1839/prints/a_borracha_que_caiu_no_fog_o_1a6dfa.jpg)
 lugar | Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao | Woburn / Woburn Massachusetts EUA 1839 | Map of Woburn, MA - 1904 - Walker Massachusetts At (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_a05ced.jpg); Oak Tree Woburn Abbey, Bedfordshire - geograph.org (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_635cbe.jpg); Woburn, Bedfordshire - geograph.org.uk - 6511.jpg (referencias/goodyear1839/prints/woburn_massachusetts_eua_cozinha_de_casa_8767ba.jpg)
 lugar | Estados Unidos | New England village 1830s / Estados Unidos 1839 / Estados Unidos landscape | New England Municipality map.png (referencias/goodyear1839/prints/estados_unidos_475963.jpg); New England commercial fishing vessel.png (referencias/goodyear1839/prints/estados_unidos_3460d1.jpg); By the New England Seashore, by Edward Henry Potth (referencias/goodyear1839/prints/estados_unidos_bb71ea.jpg)
 epoca | roupas e ruas de 1839 | 1839 fashion clothing / 19th century clothing painting | Fashion plate 1839a.jpg (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_3a5630.jpg); Albanian palikars 19th century engraving.jpg (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_53379a.jpg); Anonymous 19th century painting of Léopold Joseph, (referencias/goodyear1839/prints/roupas_e_ruas_de_1839_adcc71.jpg)
@@ -29,8 +29,8 @@ objeto | panelas | 19th century iron cooking pot / panelas / panelas 1839 | Disa
 objeto | pneus e bolas de borracha | vulcanized rubber ball antique / pneus e bolas de borracha / pneus e bolas de borracha 1839 | Roller-hockey-(Quad)-Ball.jpg (referencias/goodyear1839/prints/pneus_e_bolas_de_borracha_182e6f.jpg); VulcanizationMold1941.jpg (referencias/goodyear1839/prints/pneus_e_bolas_de_borracha_541c40.jpg); Borracha vulcanizada vulcanized rubber.JPG (referencias/goodyear1839/prints/pneus_e_bolas_de_borracha_0e7e8b.jpg)
 heroi | borracha | natural rubber / borracha crua / A Borracha que Caiu no Fogão | Liquid Rubber HB S-200.jpg (referencias/goodyear1839/prints/borracha_0c452e.jpg); Rubber liquid in cans.jpg (referencias/goodyear1839/prints/borracha_9340ff.jpg); Rubber Ball made from Raw Rubber Strips.jpg (referencias/goodyear1839/prints/borracha_650362.jpg)
 heroi | stove | antique cast iron cook stove / stove | Bad Dürrenberg, iron stove in the Laurentius churc (referencias/goodyear1839/prints/stove_029f9c.jpg); Aplysina archeri (Stove-pipe Sponge-pink variation (referencias/goodyear1839/prints/stove_f17213.jpg); Vollmers Mühle Seebach - Stove.jpg (referencias/goodyear1839/prints/stove_62db7c.jpg)
-epoca | fabrica da epoca | factory 1839 / factory | Fabrieken P Regout, 1839.jpg (referencias/goodyear1839/prints/fabrica_da_epoca_b6c329.jpg); Decor op bord met fabrieken P Regout, 1839 (1).jpg (referencias/goodyear1839/prints/fabrica_da_epoca_b14134.jpg); Decor op bord met fabrieken P Regout, 1839 (2).jpg (referencias/goodyear1839/prints/fabrica_da_epoca_4e9566.jpg)
-mecanismo | A borracha estava na moda, mas derretia no calor e rachava no frio. Bo | borracha estava derretia calor rachava botas capas borracha / borracha diagram | SEM REFERENCIA
+heroi | gosma | gosma | SEM REFERENCIA
+mecanismo | Mas derretia no calor e rachava no frio. | derretia calor rachava / borracha diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Borracha natural crua amolece e fica pegajosa no calor e endurece e racha no frio; aquecida com enxofre (vulcanizacao) as cadeias do polimero se ligam e ela fica firme e elastica em qualquer temperatura (Charles Goodyear, patente americana 3633, 1844; Smithsonian/ACS National Historic Chemical Landmark).

@@ -20,14 +20,33 @@
     "kit/bancada",
     "kit/finch"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra.",
+   "frase": "Ninguém te conta: Darwin misturou as etiquetas de uns passarinhos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/finch"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E esse erro explicou como a vida muda na Terra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
   },
   {
    "camera": "wide",
@@ -40,9 +59,9 @@
     "navio em movimento",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 16,
-   "cena": "b1",
-   "frase": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1835, Darwin chegou às ilhas Galápagos, no navio Beagle.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,28 +80,9 @@
     "kit/finch",
     "kit/navio_fragata"
    ],
-   "palavras": 24,
-   "cena": "b2",
-   "frase": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "DAR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/finch",
-    "kit/navio_fragata"
-   ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b3",
-   "frase": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
+   "frase": "Coletou passarinhos de ilha em ilha, sem anotar de onde vinham.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -99,9 +99,9 @@
     "kit/bancada",
     "kit/finch"
    ],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
+   "frase": "Em Londres, John Gould revelou: eram todos tentilhões.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -120,9 +120,9 @@
     "kit/finch_long",
     "kit/finch_thick"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
+   "frase": "A diferença estava no bico: grosso para sementes, fino para insetos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -142,9 +142,9 @@
     "kit/finch_long",
     "kit/finch_thick"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
+   "frase": "Acontece que cada ilha tinha o bico certo para a sua comida.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -167,9 +167,9 @@
     "kit/bancada",
     "kit/finch_thick"
    ],
-   "palavras": 14,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
+   "frase": "Quem tinha o bico certo sobrevivia e passava isso aos filhos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -184,9 +184,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 8,
    "cena": "b8",
-   "frase": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
+   "frase": "Em 1859, essa ideia virou a seleção natural.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -202,7 +202,8 @@
   {
    "camera": "two",
    "personagens": [
-    "DAR"
+    "DAR",
+    "MAR"
    ],
    "multidao": 0,
    "objetos": [
@@ -211,28 +212,12 @@
    ],
    "palavras": 11,
    "cena": "b9",
-   "frase": "No fim, o erro das etiquetas virou um acerto de bico.",
+   "frase": "Tudo começou com etiquetas trocadas. É isso que ninguém te conta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "DAR"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "harbor"
   }
  ]
 }

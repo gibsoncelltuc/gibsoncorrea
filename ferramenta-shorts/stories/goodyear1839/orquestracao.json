@@ -19,14 +19,33 @@
     "kit/gosma",
     "kit/stove"
    ],
-   "palavras": 17,
+   "palavras": 13,
    "cena": "b0",
-   "frase": "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre.",
+   "frase": "Um inventor falido deixou cair uma gosma no fogão. E mudou o mundo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tires"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o nome dele está em pneus do mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
   },
   {
    "camera": "wide",
@@ -35,10 +54,12 @@
     "POV"
    ],
    "multidao": 6,
-   "objetos": [],
+   "objetos": [
+    "kit/stove"
+   ],
    "palavras": 10,
-   "cena": "b1",
-   "frase": "Era mil oitocentos e trinta e nove, nos Estados Unidos.",
+   "cena": "b2",
+   "frase": "Em 1839, nos Estados Unidos, a borracha estava na moda.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -56,9 +77,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 23,
-   "cena": "b2",
-   "frase": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Mas derretia no calor e rachava no frio.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -79,9 +100,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 20,
-   "cena": "b3",
-   "frase": "Charles Goodyear ficou obcecado e gastou todo o dinheiro da família em experiências, fazendo testes até na cozinha de casa.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Charles Goodyear gastou todo o dinheiro da família em testes.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -97,7 +118,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 8,
-   "cena": "b4",
+   "cena": "b5",
    "frase": "Fez tantas dívidas que foi parar na prisão.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -112,30 +133,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/stove"
-   ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "GOO"
-   ],
-   "multidao": 0,
-   "objetos": [
     "kit/gosma",
     "kit/stove"
    ],
    "palavras": 12,
    "cena": "b6",
-   "frase": "A gosma caiu em cima do fogão quente. Ele esperava que derretesse.",
+   "frase": "Um dia, a mistura de borracha e enxofre caiu no fogão quente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -151,31 +154,14 @@
    "objetos": [
     "kit/stove"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada.",
+   "frase": "Acontece que não derreteu. Ficou firme e elástica, como couro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "COB",
-    "GOO"
-   ],
-   "multidao": 6,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Mas outros copiaram a ideia, e ele morreu cheio de dívidas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "hall"
   },
   {
    "camera": "orbit",
@@ -191,9 +177,9 @@
     "kit/stove",
     "kit/tires"
    ],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mundo inteiro.",
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Décadas depois, a borracha dele estava em pneus, bolas e sapatos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -209,37 +195,39 @@
   {
    "camera": "two",
    "personagens": [
-    "POV",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tires"
-   ],
-   "palavras": 11,
-   "cena": "b10",
-   "frase": "Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior galpao"
-  },
-  {
-   "camera": "close",
-   "personagens": [
+    "COB",
     "GOO"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Mas outros copiaram, e ele morreu cheio de dívidas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior galpao"
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/stove",
+    "kit/tires"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "A Goodyear dos pneus ganhou o nome dele. Ele nunca soube.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   }
  ]
 }

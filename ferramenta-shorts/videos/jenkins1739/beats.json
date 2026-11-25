@@ -94,10 +94,6 @@
    "interacao": "discutir",
    "acao": "discutir",
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Ninguém te conta: uma orelha cortada começou uma guerra.",
    "encena": {
@@ -110,7 +106,24 @@
     ]
    },
    "text": "ORELHA = GUERRA",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -131,10 +144,6 @@
     ]
    ],
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "promessa",
    "say": "E o dono dela levou a orelha até o Parlamento.",
    "encena": {
@@ -143,6 +152,32 @@
      {
       "faz": "mostra",
       "na": "levou"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ESP",
+     "JEN"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -171,11 +206,6 @@
    ],
    "fachada": false,
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "prova",
    "say": "Em 1731, perto de Cuba, espanhóis pararam o navio de Robert Jenkins.",
    "encena": {
@@ -184,6 +214,24 @@
      {
       "faz": "mostra",
       "na": "pararam"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -217,10 +265,6 @@
     ]
    ],
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "prova",
    "say": "O capitão espanhol cortou a orelha dele com a espada.",
    "encena": {
@@ -229,6 +273,23 @@
      {
       "faz": "mostra",
       "na": "cortou"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -345,11 +406,6 @@
     "cannon@50",
     "cannon@80"
    ],
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "escalada",
    "say": "Em 1739, navios ingleses atacaram portos espanhóis no Caribe.",
    "encena": {
@@ -358,6 +414,24 @@
      {
       "faz": "mostra",
       "na": "atacaram"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
      }
     ]
    }
@@ -403,10 +477,6 @@
    "interacao": "discutir",
    "acao": "discutir",
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "E Jenkins nunca recebeu a orelha de volta. É isso que ninguém te conta.",
    "encena": {
@@ -415,6 +485,23 @@
      {
       "faz": "mostra",
       "na": "orelha"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
