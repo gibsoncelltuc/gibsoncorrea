@@ -36,7 +36,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: whoosh@20, whoosh@50
 - Texto na tela: DELTA
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.8 s)
 - Narracao: Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b5  (~5.5 s)
 - Narracao: Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.
-- Som ambiente: silencio/sala
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: encena: prende (push) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~6.2 s)
 - Narracao: Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado.

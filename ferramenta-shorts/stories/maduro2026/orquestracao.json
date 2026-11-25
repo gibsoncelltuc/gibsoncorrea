@@ -21,16 +21,15 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "SOL",
     "MAD"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
-    "kit/helicopter_air",
     "nature/lamppost"
    ],
    "palavras": 15,
@@ -66,14 +65,12 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "MAD"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/helicopter_air"
-   ],
+   "objetos": [],
    "palavras": 12,
    "cena": "b2",
    "frase": "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.",
@@ -84,7 +81,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
     "SOL"
    ],
@@ -130,7 +127,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "low",
+   "camera": "orbit",
    "personagens": [
     "SOL",
     "MAD"
@@ -140,9 +137,15 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
@@ -164,7 +167,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "AGE",
     "MAD"
@@ -177,14 +180,14 @@
    "palavras": 15,
    "cena": "b7",
    "frase": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "wide",
+   "camera": "crowd",
    "personagens": [
     "POV",
     "POV",
@@ -207,9 +210,7 @@
     "TRU"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/helicopter_air"
-   ],
+   "objetos": [],
    "palavras": 10,
    "cena": "b9",
    "frase": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",

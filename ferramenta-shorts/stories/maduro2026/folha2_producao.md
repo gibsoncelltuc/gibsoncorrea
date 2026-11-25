@@ -4,23 +4,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um presidente foi capturado de madrugada, dentro da própria capital, e...
 - Cenario: loc_cidade | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: conversar | interacao: susto
-- Objetos/modelos: kit/helicopter_air, buildings/apartment, buildings/house_two, nature/lamppost
+- Animacao: reagir
+- Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): madrugada, presidente, propria, tres
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: noite
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: SOL na esquerda, expressao stern; MAD na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "2026" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "2026" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (0.1-1.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.6-3.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -52,20 +52,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b2 - Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MAD (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: discutir
-- Objetos/modelos: kit/helicopter_air
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): narcoterrorismo, presidente
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: noite
-- CAMERA: close (rosto e ombros); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAD no centro, expressao smug; sem multidao; acao: discutir
-- OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
   - take 1 (12.4-14.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
   - take 2 (14.4-16.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -73,10 +73,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Às duas da manhã, helicópteros levaram soldados da Força Delta direto ...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): SOL (variante 0, expressao stern) | multidao: 0 de 
-- Animacao: encena | batalha encenada
+- Animacao: encena
 - Objetos/modelos: kit/helicopter_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, forca
 - RISCOS: nenhum
@@ -115,10 +115,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que, em menos de três horas, Maduro foi capturado e levado pa...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SOL (variante 0, expressao stern); MAD (variante 0, expressao shock)
-- Animacao: conversar | interacao: empurrar
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tres, venezuela
 - RISCOS: nenhum
@@ -161,10 +161,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Maduro foi levado de avião para Nova York, onde responde a um processo...
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): AGE (variante 0, expressao stern); MAD (variante 0, expressao sad) | multidao: 0 de 
-- Animacao: conversar | interacao: entregar
+- Animacao: -
 - Objetos/modelos: kit/scroll, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aviao, justica, processo
 - RISCOS: nenhum
@@ -172,9 +172,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)
 - PERSONAGENS: AGE na esquerda, expressao stern; MAD na direita, expressao sad; sem multidao; acao: entregar
-- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/scroll: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 15.7 m de altura x 15.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
   - take 1 (41.3-43.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -183,7 +183,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op...
 - Cenario: loc_patio | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); POV (variante 2, expressao nervous) | multidao: 18 de POV
 - Animacao: reagir
@@ -212,16 +212,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: comemorar
-- Objetos/modelos: kit/helicopter_air
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): operacao
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: close (rosto e ombros); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente
+- CAMERA: close (rosto e ombros)
 - PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: comemorar
-- OBJETO kit/helicopter_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.4 m de altura x 16.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (52.8-54.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (54.2-55.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -242,17 +242,17 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/helicopter_air | b0, b2, b3, b4, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/helicopter_air | b3, b4 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/helicopter_air | grandes momentos: b1, b3 | planos abertos: 3 | mistura: close 36% | medio 45% | aberto 16% | detalhe 2%
-- Interacoes: b0 susto, b5 empurrar, b6 aproxima-se, b7 entregar
+- Objeto heroi: kit/helicopter_air | grandes momentos: b1, b5 | planos abertos: 7 | mistura: close 19% | medio 28% | aberto 53% | detalhe 0%
+- Interacoes: b6 aproxima-se
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

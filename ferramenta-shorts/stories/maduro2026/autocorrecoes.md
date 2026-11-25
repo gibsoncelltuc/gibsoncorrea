@@ -106,3 +106,55 @@
 
 ## 25/11 01:09 autocorrecao de visibilidade
 - b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 01:12 autocorrecao de visibilidade
+- b0: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b7: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+- b3: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b0: ja corrigida 3 vezes, objeto ENORME "kit/helicopter_air" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho
+- b3: objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 01:12 autocorrecao de visibilidade
+- b0: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, camera DENTRO de "kit/helicopter_air" -> fica para o olho
+- b3: camera DENTRO de "kit/helicopter_air" -> "kit/helicopter_air" afastado para o fundo e mira da camera fora dele
+- b7: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: camera DENTRO de "kit/helicopter_air" -> "kit/helicopter_air" afastado para o fundo e mira da camera fora dele
+- b9: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: ja corrigida 3 vezes, objeto ENORME "kit/helicopter_air" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho
+- b2: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 01:13 autocorrecao de visibilidade
+- b0: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, camera DENTRO de "kit/helicopter_air" -> fica para o olho
+- b7: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: ja corrigida 3 vezes, objeto ENORME "kit/helicopter_air" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> fica para o olho
+- b2: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 01:15 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b2: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b3: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b3: objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+
+## 25/11 01:16 autocorrecao de visibilidade
+- b3: camera DENTRO de "kit/helicopter_air" -> "kit/helicopter_air" afastado para o fundo e mira da camera fora dele
+- b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto "kit/helicopter_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 01:16 autocorrecao de visibilidade
+- b3: ja corrigida 3 vezes, objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

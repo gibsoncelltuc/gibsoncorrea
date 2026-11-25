@@ -1,24 +1,22 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 4.7s - 15 palavras - plano two
+## Cena b0 - 0.1s a 4.7s - 15 palavras - plano wide
 > "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturado (0.9s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | 2026 | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 2026 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: prende na palavra capturado (0.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: conversar
+- ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -38,7 +36,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 12.4s a 16.5s - 12 palavras - plano close
+## Cena b2 - 12.4s a 16.5s - 12 palavras - plano wide
 > "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -52,19 +50,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b3 - 18.2s a 23.0s - 16 palavras - plano crowd
+## Cena b3 - 18.2s a 23.0s - 16 palavras - plano wide
 > "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | levaram (19.9s) | ACAO: pega | levanta/segura | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | PLACA | DELTA | OK |
+| 2 | - | PLACA | DELTA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: pega na palavra levaram (19.9s): executa: levanta/segura
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -75,20 +71,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 29.1s a 33.8s - 16 palavras - plano low
+## Cena b5 - 29.1s a 33.8s - 16 palavras - plano orbit
 > "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturado (32.0s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: prende na palavra capturado (32.0s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
-- ATUACAO (a cena toda): executa: conversar
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
 ## Cena b6 - 35.2s a 40.0s - 18 palavras - plano two
@@ -105,21 +101,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 41.3s a 45.3s - 15 palavras - plano group
+## Cena b7 - 41.3s a 45.3s - 15 palavras - plano wide
 > "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: entregar
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b8 - 46.5s a 51.6s - 14 palavras - plano wide
+## Cena b8 - 46.5s a 51.6s - 14 palavras - plano crowd
 > "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
