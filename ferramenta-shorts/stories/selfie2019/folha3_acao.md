@@ -37,7 +37,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | MAPA | ESTADOS UNIDOS | OK |
 | 4 | - | PLACA | ONU - NOVA YORK | OK |
 
-## Cena b3 - 9.6s a 13.4s - 11 palavras - plano two
+## Cena b3 - 9.6s a 12.8s - 11 palavras - plano two
 > "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -48,19 +48,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 13.6s a 16.1s - 9 palavras - plano close
+## Cena b4 - 13.6s a 15.6s - 9 palavras - plano close
 > "No púlpito, ele pediu licença e pegou o celular."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) BUK pega/levanta o objeto | na palavra "pegou" (15.3s)
+  1) BUK pega/levanta o objeto | na palavra "pegou" (15.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pegou (15.3s) | ACAO: pega | levanta/segura | OK |
+| 1 | pegou (15.2s) | ACAO: pega | levanta/segura | OK |
 | 2 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 16.6s a 19.3s - 12 palavras - plano crowd
+## Cena b5 - 16.3s a 18.8s - 12 palavras - plano crowd
 > "Acontece que virou de costas e fez uma selfie com o plenário."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -70,11 +70,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | tirar | OK |
 
-## Cena b6 - 19.6s a 22.5s - 9 palavras - plano two
+## Cena b6 - 19.4s a 22.0s - 9 palavras - plano two
 > "Depois avisou: a ONU pode desaparecer como a Kodak."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "avisou" (20.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "avisou" (19.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -82,11 +82,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | KODAK? | OK |
 
-## Cena b7 - 22.7s a 26.2s - 12 palavras - plano orbit
+## Cena b7 - 22.7s a 25.8s - 12 palavras - plano orbit
 > "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rodou" (23.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rodou" (23.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -94,11 +94,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | comemorar | OK |
 | 3 | - | PLACA | SELFIE | OK |
 
-## Cena b8 - 26.6s a 27.9s - 10 palavras - plano reveal
+## Cena b8 - 26.5s a 29.1s - 10 palavras - plano reveal
 > "Um segundo bastou para virar notícia. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "assim" (27.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "assim" (28.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

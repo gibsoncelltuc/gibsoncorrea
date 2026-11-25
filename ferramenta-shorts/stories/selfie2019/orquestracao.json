@@ -31,7 +31,7 @@
     "BUK",
     "DIP"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/phone",
     "mk/BookStand"
@@ -52,7 +52,7 @@
     "POV",
     "REP"
    ],
-   "multidao": 20,
+   "multidao": 0,
    "objetos": [
     "kit/marco_onu"
    ],
@@ -190,7 +190,7 @@
     "BUK",
     "DIP"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "mk/BookStand"
    ],

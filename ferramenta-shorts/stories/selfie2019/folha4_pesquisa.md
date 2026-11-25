@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): BUK, DIP
 - Cenarios: interior madeira, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 1.4: grande demais)
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais); kit/phone: 0.6 m reais -> escala 0.7 (estava 0.96: grande demais)
 
 ## Itens pesquisados
 
