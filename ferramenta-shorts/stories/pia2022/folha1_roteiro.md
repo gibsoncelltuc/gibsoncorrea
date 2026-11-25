@@ -13,12 +13,12 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cida
 
 ## Cena b1  (~3.8 s)
 - Narracao: E a pia era uma piada de 44 bilhões de dólares.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.1 s)
 - Narracao: Foi Elon Musk, em 2022, na sede do Twitter.

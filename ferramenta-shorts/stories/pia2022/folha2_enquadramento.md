@@ -12,7 +12,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b1: "E a pia era uma piada de 44 bilhões de dólares."
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano de multidao
-- PERSONAGENS: FUN na esquerda, expressao laugh; FUN2 na direita, expressao laugh; multidao de 14 (FUN, FUN2) ATRAS dos principais; acao: fala/gesto
+- PERSONAGENS: FUN na esquerda, expressao laugh; FUN2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b2: "Foi Elon Musk, em 2022, na sede do Twitter."

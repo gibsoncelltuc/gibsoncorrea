@@ -105,13 +105,7 @@
    "props": [],
    "set": "loc_cidade",
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "FUN",
-     "FUN2"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "bloco": "promessa",
    "say": "E a pia era uma piada de 44 bilhões de dólares.",
@@ -123,7 +117,8 @@
       "na": "piada"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "who": [
