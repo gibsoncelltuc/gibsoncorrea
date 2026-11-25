@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 01 - A Batalha de Karánsebes
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 70 acoes catalogadas, 69 com animacao, 1 faltando -> NAO RENDERIZAR ate zerar
+**Resumo:** 12 frases, 70 acoes catalogadas, 70 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.9s - 10 palavras - plano crowd
@@ -79,17 +79,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) HUS olha/aponta para o alvo | na palavra "acharam" (14.6s)
+  2) LOC entrega o objeto ao alvo | na palavra "vendendo" (17.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | acharam (14.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| ! | vendendo | ACAO SEM ANIMACAO | (nenhuma) - corrigir o roteiro ou marcar a cena | FALTA |
+| 2 | vendendo (17.7s) | ACAO: entrega | entrega | OK |
+| 3 | - | INTERACAO | aproxima-se | OK |
+| 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: olha na palavra acharam (14.6s): braco estendido apontando para o objeto/lugar citado
+- ACAO: entrega na palavra vendendo (17.7s): executa: entrega
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: reagir
 - multidao de 6: parada, reagindo (neutra), sempre ATRAS dos personagens principais

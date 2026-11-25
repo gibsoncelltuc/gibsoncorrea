@@ -49,10 +49,9 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "GOO:0:shock",
-    "CLA:0:surprised"
+    "GOO:0:shock"
    ],
    "props": [
     [
@@ -85,7 +84,7 @@
      }
     ]
    },
-   "detalhe": true,
+   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -99,7 +98,8 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "reveal",
@@ -184,11 +184,10 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
-    "GOO:0:grin",
-    "CLA:0:suspicious"
+    "GOO:0:grin"
    ],
    "props": [
     [
@@ -214,7 +213,7 @@
      }
     ]
    },
-   "detalhe": true,
+   "detalhe": false,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -228,7 +227,8 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -359,9 +359,9 @@
    "detalhe": true,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2,
+   "d0": 11.4,
+   "d1": 11.0,
+   "_auto_vis": 3,
    "encena": {
     "sentido": "afirmativa",
     "passos": [

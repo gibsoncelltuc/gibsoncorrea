@@ -4,12 +4,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou o mundo para sempre."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)
-- PERSONAGENS: GOO na esquerda, expressao shock; CLA na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/stove: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- PERSONAGENS: GOO no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "1839" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "1839" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil oitocentos e trinta e nove, nos Estados Unidos."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
@@ -40,9 +40,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Até que um dia, mexendo numa mistura de borracha com enxofre, ele se atrapalhou."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 11.5 m)
-- PERSONAGENS: GOO na esquerda, expressao grin; CLA na direita, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/stove: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- PERSONAGENS: GOO no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 
 ## b6: "A gosma caiu em cima do fogão quente. Ele esperava que derretesse."
 - LOCAL: sala de madeira; hora: day

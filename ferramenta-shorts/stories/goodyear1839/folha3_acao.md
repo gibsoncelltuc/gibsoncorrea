@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -13,9 +13,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | deixou (1.2s) | ACAO: cai | o material voa da mao e cai no alvo pela GRAVIDADE (parabola, 0,53 s) + respingo | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 1839 | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 1839 | OK |
 
 ## Cena b1 - 6.4s a 8.8s - 10 palavras - plano reveal
 > "Era mil oitocentos e trinta e nove, nos Estados Unidos."
@@ -48,7 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | dinheiro (20.4s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | experiências (21.4s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
+| 3 | - | INTERACAO | avanca e o outro recua | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 25.2s a 26.9s - 8 palavras - plano two
@@ -71,8 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | mexendo (29.1s) | ACAO: mistura | mexe a panela (borbulhando) | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 33.0s a 36.8s - 12 palavras - plano two
 > "A gosma caiu em cima do fogão quente. Ele esperava que derretesse."

@@ -15,5 +15,5 @@ b9 | orbit | -  | batalha aberta com tiros, tropa, placa: PNEUS | - | -
 b10 | two | -  | interior, placa: GOODYEAR | ganhou (stars + som de sino) | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 12% | medio 64% | aberto 18% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 65% | aberto 18% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

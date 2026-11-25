@@ -119,7 +119,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b10 - 50.3s a 53.4s - 14 palavras - plano close
+## Cena b10 - 50.3s a 53.4s - 14 palavras - plano group
 > "A guerra mais educada da história acabou sem um tiro e com muito uísque."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
@@ -129,7 +129,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
 
-## Cena b11 - 54.4s a 57.8s - 13 palavras - plano two
+## Cena b11 - 54.4s a 57.8s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

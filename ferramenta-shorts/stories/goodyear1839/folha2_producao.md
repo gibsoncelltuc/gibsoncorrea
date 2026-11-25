@@ -4,10 +4,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um inventor falido deixou cair uma gosma no fogão da cozinha. E mudou ...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GOO (variante 0, expressao shock); CLA (variante 0, expressao surprised)
-- Animacao: reagir | interacao: avanca e o outro recua
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (1): GOO (variante 0, expressao shock)
+- Animacao: reagir
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cozinha, fogao, gosma, inventor
 - RISCOS: nenhum
@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): GOO (variante 0, expressao stern, segura paper); CLA (variante 0, expressao worried)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, cozinha, dinheiro, familia
 - RISCOS: nenhum
@@ -54,10 +54,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): GOO (variante 0, expressao grin); CLA (variante 0, expressao suspicious)
-- Animacao: conversar | interacao: insiste
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Personagens principais (1): GOO (variante 0, expressao grin)
+- Animacao: conversar
 - Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha, enxofre
 - RISCOS: nenhum
@@ -74,8 +74,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha n...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: low = camera baixa, dramatica (virada)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GOO (variante 0, expressao surprised)
 - Animacao: comemorar
 - Objetos/modelos: kit/stove, kit/borracha
@@ -104,8 +104,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.
 - Cenario: interior loja | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GOO (variante 0, expressao smile)
 - Animacao: conversar
 - Objetos/modelos: kit/stove, kit/tires
@@ -134,8 +134,8 @@ kit/ball | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 4 | mistura: close 12% | medio 64% | aberto 18% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b4 empurrar, b5 insiste
+- Objeto heroi: kit/borracha | grandes momentos: b2, b9 | planos abertos: 4 | mistura: close 12% | medio 65% | aberto 18% | detalhe 5%
+- Interacoes: b3 avanca e o outro recua, b4 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
