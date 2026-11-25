@@ -1642,6 +1642,10 @@ def build_beat(k, b):
         T.setdefault('cx', 0.0); T.setdefault('cz', -1.5)
     elif b.get('crowd') and persons and not mv:   # plano medio com tropa atras: a camera mira nos PERSONAGENS PRINCIPAIS (a tropa marchando puxava a mira para o vazio)
         T.setdefault('cx', round(sum(sl[i] for i in range(len(persons))) / len(persons), 2)); T.setdefault('cz', 1.2)
+    if b.get('interior') and not b.get('quadro_manual'):   # 25/11 (Arquimedes): sala tem 7.8 m ate a parede da frente; camera mais longe fica FORA da sala e a borda da parede entra borrada tapando metade da tela
+        _czi = float(b.get('cz', T.get('cz', 0)) or 0); _dmax = round(max(5.5, 7.3 - max(0.0, _czi)), 2)
+        for kk in ('d0', 'd1'):
+            if (b.get(kk) or T.get(kk) or 0) > _dmax: T[kk] = _dmax if kk == 'd0' else round(_dmax * 0.94, 2); b.pop(kk, None)   # d1 um pouco menor: a camera ainda se aproxima
     for kk in ('h', 'd0', 'd1', 'el', 'fov', 'az0', 'az1', 'cx', 'cz'):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')

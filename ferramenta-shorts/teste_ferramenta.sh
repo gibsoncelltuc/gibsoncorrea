@@ -205,6 +205,7 @@ grep -q "'kit/coroa_louros' if m_ == 'kit/crown'" mkvideo.py && grep -q 'o.hat =
 python3 -c "
 import re; w=open('web/toon.js').read(); assert w.count('/*ADITIVO*/')==w.count('/*FIM ADITIVO*/')
 assert 'ADITIVO' in open('cenas_hash.py').read()" || f "codigo ADITIVO do motor (hat novo) derruba o render de todos os videos"
+grep -q "_dmax = round(max(5.5, 7.3" mkvideo.py || f "camera de cena interna fica fora da sala (parede borrada tapando metade da tela, Arquimedes)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
