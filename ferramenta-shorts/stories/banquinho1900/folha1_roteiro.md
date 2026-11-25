@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: O governador inglês exigiu sentar nele.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countrys
 - Narracao: Soldados ingleses vieram, e a guerra durou meses.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (SOL) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; encena: chega (point) @2 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

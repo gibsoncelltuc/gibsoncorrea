@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Gerado em 25/11 19:14 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:18 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | countryside | two | GOV, ASH | - | golden_stool | - | Um banquinh
 b1 | simples | countryside | wide | GOV | - | golden_stool | - | E quem pediu para sentar nele nunca conseguiu.
 b2 | transicao | jungle | reveal | ASH, ASH | 8 | - | - | Em 1900, os ingleses mandavam na atual Gana.
 b3 | simples | countryside | two | CHE, ASH | 12 | golden_stool | - | O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.
-b4 | simples | countryside | close | GOV | - | golden_stool | - | O governador inglês exigiu sentar nele.
+b4 | simples | countryside | wide | GOV | - | golden_stool | - | O governador inglês exigiu sentar nele.
 b5 | simples | countryside | two | CHE, ASH | 12 | - | - | Era como sentar na alma do povo ashanti.
 b6 | chave | countryside | crowd | ASH | 10 | forte_colonial | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Eles se revoltaram e cercaram o forte do governador.
 b7 | chave | jungle | orbit | SOL | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Soldados ingleses vieram, e a guerra durou meses.

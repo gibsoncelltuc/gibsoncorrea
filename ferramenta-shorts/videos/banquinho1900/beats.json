@@ -238,7 +238,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "GOV:0:angry:paper"
@@ -263,7 +263,8 @@
      {
       "faz": "fala",
       "na": "exigiu",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
@@ -283,7 +284,9 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -404,7 +407,8 @@
      {
       "faz": "chega",
       "na": "vieram",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
@@ -440,9 +444,9 @@
    "props": [
     [
      "kit/golden_stool",
-     0.0,
-     -1.2,
-     1.4,
+     0.6,
+     1.0,
+     1.5,
      {
       "fixo": true
      }
@@ -476,7 +480,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "two",

@@ -62,3 +62,12 @@
 
 ## 25/11 16:13 autocorrecao de visibilidade
 - b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 19:15 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 19:15 autocorrecao de visibilidade
+- b9: objeto "kit/golden_stool" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 19:16 autocorrecao de visibilidade
+- b9: objeto "kit/golden_stool" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
