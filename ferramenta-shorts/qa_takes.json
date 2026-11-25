@@ -1,19 +1,4 @@
 {
- "fails": [
-  {
-   "f": 599,
-   "shot": "b4",
-   "why": [
-    "pas: head/torso cropped (box 0.884, 0.45, 1.022, 0.567)"
-   ]
-  },
-  {
-   "f": 600,
-   "shot": "b4",
-   "why": [
-    "pas: head/torso cropped (box 0.884, 0.45, 1.022, 0.567)"
-   ]
-  }
- ],
+ "fails": [],
  "tiny": []
 }
