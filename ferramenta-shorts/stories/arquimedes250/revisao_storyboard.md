@@ -1,14 +1,14 @@
-# Revisao do storyboard - arquimedes250 (v3, 25/11, depois do pedido do Gibson: banheira e coroa)
-pesquisa: Arquimedes, Siracusa (Sicilia), sec. III a.C.; rei Hierao II, coroa votiva de ouro, suspeita de prata misturada pelo ourives; lenda (Vitruvio) da banheira que transbordou e do grito Eureca; cidade grega com casas brancas, telhas e templo de colunas
-b0: OK - "Um homem pulou da banheira e saiu correndo pela rua, gritando" Arquimedes na rua ao lado da banheira, EUREKA
-b1: OK - "Foi em Siracusa, na Sicilia" mapa SICILIA e moradores na praca
-b2: OK - "O rei Hierao mandou fazer uma coroa de ouro puro, mas desconfiou do ourives" rei de coroa e ourives nervoso
-b3: OK - "Sera que trocou parte do ouro por prata?" rei desconfiado, ourives com medo
-b4: OK - "O rei chamou Arquimedes e pediu a verdade" rei com papel, Arquimedes surpreso
-b5: CORRIGIDO - "ele entrou na banheira bem devagar. E a agua transbordou pelas bordas" Arquimedes de pe, entra, senta DENTRO da banheira e a agua espirra para fora (cena mais longa)
-b6: OK - "o tanto de agua que sai e igual ao tamanho do corpo" explicacao AGUA QUE SAI
-b7: OK - "Se a coroa tivesse prata... derramaria mais agua" explicacao COM PRATA = MAIOR / DERRAMA MAIS AGUA
-b8: CORRIGIDO - "medir a coroa e comparar com o mesmo peso de ouro" coroa em tamanho normal na balanca, entre Arquimedes e o ourives (sem a coroa gigante atras do povo)
-b9: OK - "ele gritou Eureca pela rua" multidao e EUREKA
-b10: OK - "da para enganar um rei, mas nao uma banheira" rei, ourives triste e banheira; chamada final COMENTE no templo
-defeitos procurados: cenario (cidade grega antiga, templo), epoca (nada moderno), tamanho (banheira e coroa visiveis), cortado (ninguem cortado), multidao (so no Eureka), legenda (texto no alto), acao (correr, gritar), objeto (coroa em close nas explicacoes)
+# Revisao do storyboard - arquimedes250 (25/11, olhado quadro a quadro)
+b0: OK - homem pulou da banheira de terracota e saiu correndo pela rua gritando, EUREKA na tela
+b1: OK - mapa da Sicilia com Siracusa marcada, depois a praca com casas claras de dois mil anos atras
+b2: OK - sala: o rei Hierao com coroa de louros desconfia do ourives da coroa de ouro, camera dentro da sala, ninguem cortado
+b3: OK - rei e ourives frente a frente na sala, pergunta se trocou ouro por prata, expressao desconfiada
+b4: OK - o rei chamou Arquimedes na sala e pediu a verdade, papel na mao, coroa sem estragar
+b5: OK - numa tarde ele anda ate a banheira, entrou devagar, senta dentro e a agua transborda com respingos azuis
+b6: OK - explicacao: banheira com rotulos AGUA QUE SAI = TAMANHO DO CORPO, a agua que sai e igual ao tamanho
+b7: OK - explicacao: coroa de louros dourada brilhando, rotulos COM PRATA = MAIOR e DERRAMA MAIS AGUA (prata maior que ouro puro)
+b8: OK - praca: Arquimedes e o ourives com a coroa de louros brilhando para medir e comparar com o ouro puro
+b9: OK - conta a lenda: ele gritou Eureca pela rua, povo na praca com templos gregos, EUREKA na tela
+b10: OK - no fim o rei com coroa de louros e o ourives; banheira na praca e COMENTE (enganar um rei, nao uma banheira)
+pesquisa: prints reais (banheira de Nafplio e de Pilos, coroas de louros de Munique e Aigai); comparativo modelo x referencia conferido (referencias/arquimedes250/comparativo_ok.md)
+defeitos procurados: cenario (Siracusa grega, sala de pedra, praca com templos) OK; epoca (coroa de louros, banheira de terracota, sem objeto moderno) OK; tamanho (banheira e coroa em escala real) OK; cortado (ninguem cortado, camera dentro da sala) OK; multidao (so na cena do Eureca na rua) OK; legenda (rotulos e EUREKA nao cobrem a legenda) OK; acao (entra na banheira, agua transborda, gritou, chamou) OK; objeto (banheira e coroa visiveis quando citados) OK
