@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/bisturi: FRENTE, centro (objeto principal da cena); tamanho na tela: 13% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -138,12 +138,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
-- TEXTO NA TELA: "MÃOS SUJAS" numa placa atras dos personagens, na palavra 14 da frase
+- TEXTO NA TELA: "MÃOS SUJAS" flutuando no alto, na palavra 14 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
   - take 1 (26.2-27.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (27.7-29.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo

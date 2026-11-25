@@ -42,7 +42,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: KOL (medico) na esquerda, expressao shock; SEM (medico) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/bisturi: FRENTE, centro (objeto principal da cena); tamanho na tela: 13% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.0 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -51,12 +51,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b5: "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e maca juntos (camera a 11.5 m)
 - PERSONAGENS: SEM (medico) na esquerda, expressao stern; DIR (medico) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/maca: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
-- TEXTO NA TELA: "MÃOS SUJAS" numa placa atras dos personagens, na palavra 14 da frase
+- TEXTO NA TELA: "MÃOS SUJAS" flutuando no alto, na palavra 14 da frase
 
 ## b6: "Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar."
 - LOCAL: sala de madeira; hora: day

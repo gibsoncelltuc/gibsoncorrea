@@ -1,9 +1,11 @@
-# LISTA UNICA DE REVISAO - semmelweis1847  (refacoes ate agora: 0; limite: 1)
+# LISTA UNICA DE REVISAO - semmelweis1847  (refacoes ate agora: 3; limite: 1)
 
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-- nenhum
+1. b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b4~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+3. b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um médico pediu aos colegas para lavarem as mãos,": 
