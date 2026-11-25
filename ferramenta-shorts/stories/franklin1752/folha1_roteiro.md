@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um homem soltou uma pipa em plena tempestade para pegar um raio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_solta (up) @2 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: relampago no ceu na palavra + trovao -> acao + som de efeito; encena: x_solta (up) @2 -> acao + som de efeito; encena: pega (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO

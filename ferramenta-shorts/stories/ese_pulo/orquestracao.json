@@ -1,0 +1,247 @@
+{
+ "id": "ese_pulo",
+ "ano": null,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 12",
+   "street",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 0,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 17,
+   "cena": "b0",
+   "frase": "E se todas as pessoas do planeta pulassem exatamente no mesmo segundo? A Terra sairia do lugar?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "Somos mais de oito bilhões de pessoas, espalhadas por todos os continentes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b2",
+   "frase": "Juntas, elas pesam mais de quinhentos milhões de toneladas. Parece muito, não parece?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 30,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Então todo mundo conta até três, e pula ao mesmo tempo!",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 14,
+   "cena": "b4",
+   "frase": "Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade junta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 14,
+   "cena": "b5",
+   "frase": "Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir.",
+   "classe": "explicativa",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 22,
+   "objetos": [],
+   "palavras": 21,
+   "cena": "b6",
+   "frase": "O que daria para notar seria o barulho. Bilhões de pés batendo no chão, como um trovão ao redor do mundo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "PRO"
+   ],
+   "multidao": 5,
+   "objetos": [],
+   "palavras": 14,
+   "cena": "b7",
+   "frase": "E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 21,
+   "cena": "b8",
+   "frase": "Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Ou seja: pular junto é fácil. Difícil seria a volta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 15,
+   "cena": "b10",
+   "frase": "A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

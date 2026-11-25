@@ -45,96 +45,53 @@
  },
  "beats": [
   {
-   "say": "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam.",
+   "say": "Um presidente transformou o bitcoin em dinheiro oficial de um país inteiro.",
    "shot": "two",
    "who": [
-    "BUK:0:smile",
-    "POV:0:surprised"
+    "BUK:0:smug",
+    "POV:0:shock"
    ],
    "props": [
     [
      "kit/bitcoin",
      0.0,
-     -1.2,
-     1.3,
+     0.8,
+     2.8,
      {
       "fixo": true
      }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "verbos_ok": [
-    "aceit"
-   ],
-   "text": "9 EM 10 NÃO ENTENDIAM",
-   "titulo": true,
-   "detalhe": false,
-   "vary": false,
    "crowd": {
-    "n": 12,
+    "n": 8,
     "outfits": [
-     "BUK",
-     "POV"
+     "POV",
+     "CLI"
     ],
-    "march": false
-   },
-   "_susp_ok": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+    "march": false,
+    "expr": "shock"
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "aceitou"
+      "na": "bitcoin"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele.",
+   "say": "Foi em El Salvador, na América Central, com o presidente Nayib Bukele.",
    "shot": "close",
    "who": [
-    "BUK:0:smug"
+    "BUK:0:grin"
    ],
    "mapa": "EL SALVADOR",
-   "mapa_at": 1,
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "quadro_manual": true,
-   "d0": 7.5,
-   "d1": 7.0,
-   "shot_lock": true,
-   "h": 1.7,
-   "cx": 0,
-   "cz": 0,
-   "props": [],
-   "detalhe": false,
-   "_auto_vis": 2,
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
       "na": "Salvador"
      }
@@ -142,272 +99,254 @@
    }
   },
   {
-   "say": "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois.",
-   "shot": "group",
+   "say": "Em sete de setembro de dois mil e vinte e um, virou o primeiro país do mundo a fazer isso.",
+   "shot": "reveal",
    "who": [
-    "DEP:0:smile",
-    "DEP:1:grin",
-    "BUK:0:smile"
+    "BUK:0:grin",
+    "DEP:0:smile"
    ],
    "props": [
     [
      "kit/bitcoin",
      0.0,
-     -1.2,
-     1.5,
+     0.8,
+     2.4,
      {
       "fixo": true
      }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "crowd": {
-    "n": 10,
-    "outfits": [
-     "DEP"
-    ],
-    "march": false,
-    "expr": "smile"
-   },
-   "text": "LEI APROVADA",
-   "set": "loc_cidade",
-   "titulo": true,
-   "interior": false,
+   "text": "1º PAÍS DO MUNDO",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "anunciou"
-     }
-    ]
-   },
-   "_enq_shot": "group",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "say": "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso.",
-   "shot": "reveal",
-   "who": [
-    "BUK:0:grin",
-    "POV:0:smile"
-   ],
-   "text": "7 DE SETEMBRO",
-   "crowd": {
-    "n": 8,
-    "outfits": [
-     "POV",
-     "CLI",
-     "DEP"
-    ],
-    "march": false
-   },
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "passou"
+      "na": "primeiro"
      }
     ]
    }
   },
   {
-   "say": "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo.",
+   "say": "Para convencer o povo, quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",
+   "explica": {
+    "objeto": "kit/bitcoin",
+    "manobra": "gira",
+    "contador": {
+     "de": 0,
+     "para": 30,
+     "un": "US$",
+     "titulo": "BÔNUS NA CARTEIRA",
+     "na": "trinta",
+     "dur": 1.0
+    }
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carteira"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Acontece que, no primeiro dia, o aplicativo travou, e o bitcoin despencou mais de dez por cento.",
    "shot": "two",
    "who": [
-    "CLI:0:smile:coin",
-    "POV:0:grin"
+    "CLI:0:shock:phone",
+    "POV:0:surprised"
    ],
-   "acao": "conversar",
    "props": [
-    [
-     "kit/stall",
-     3.6,
-     -2.0,
-     1.2,
-     {
-      "fixo": true
-     }
-    ],
     [
      "kit/bitcoin",
      0.0,
-     -1.2,
-     1.5,
+     0.8,
+     1.8,
      {
       "fixo": true
      }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "fx": [
-    "stars@3"
-   ],
-   "sfx": [
-    "ding@3"
-   ],
-   "impact": false,
-   "text": "US$ 30",
-   "titulo": true,
-   "detalhe": true,
-   "vary": false,
-   "crowd": {
-    "n": 12,
-    "outfits": [
-     "CLI",
-     "POV"
+   "hud": {
+    "grafico": {
+     "pontos": [
+      52700,
+      52100,
+      49500,
+      46000,
+      43000
+     ],
+     "rotulos": [
+      "MANHÃ",
+      "NOITE"
+     ],
+     "titulo": "BITCOIN NO DIA 1",
+     "un": "US$ ",
+     "na": "despencou",
+     "dur": 1.3
+    }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "despencou"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Mesmo assim, o governo continuou comprando bitcoins com dinheiro público.",
+   "explica": {
+    "objeto": "kit/bitcoin",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "DINHEIRO PÚBLICO",
+      "topo",
+      "dinheiro"
+     ]
     ],
-    "march": false
-   },
-   "_susp_ok": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/stall",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
+    "contador": {
+     "de": 0,
+     "para": 2300,
+     "un": "",
+     "titulo": "BITCOINS COMPRADOS",
+     "na": "comprando",
+     "dur": 1.4
+    }
    },
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "convencer"
+      "na": "comprando"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
-   "say": "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas.",
-   "shot": "wide",
-   "who": [
-    "CLI:0:surprised"
-   ],
-   "text": "FORA DO AR",
-   "fx": [
-    "stars@2"
-   ],
-   "sfx": [
-    "ding@2"
-   ],
-   "tiros": false,
-   "batalha": false,
-   "impact": true,
-   "verbos_ok": [
-    "lanco"
-   ],
-   "riscos_ok": true,
-   "props": [
-    [
-     "kit/phone",
-     0.55,
-     0.3,
-     1.08,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "detalhe": false,
-   "quadro_manual": true,
-   "shot_lock": true,
-   "cx": -0.2,
-   "cz": 0.1,
-   "h": 1.4,
-   "d0": 5.2,
-   "d1": 4.8,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e phone juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Acontece"
-     }
-    ]
-   },
-   "_auto_vis": 2
-  },
-  {
-   "say": "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão.",
+   "say": "Em novembro, o bitcoin bateu sessenta e nove mil dólares, e Bukele comemorou.",
    "shot": "two",
    "who": [
-    "CLI:0:nervous",
-    "POV:0:shock"
+    "BUK:0:laugh",
+    "DEP:0:grin"
    ],
-   "acao": "discutir",
-   "fx": [
-    "burst@3"
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     0.8,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
    ],
-   "sfx": [
-    "thump@3"
+   "hud": {
+    "grafico": {
+     "pontos": [
+      43000,
+      47000,
+      55000,
+      61000,
+      66000,
+      69000
+     ],
+     "rotulos": [
+      "SET 2021",
+      "NOV 2021"
+     ],
+     "titulo": "BITCOIN",
+     "un": "US$ ",
+     "na": "bateu",
+     "dur": 1.4
+    }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bateu"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Mas um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel.",
+   "shot": "two",
+   "who": [
+    "BUK:0:nervous"
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "text": "68% DISCORDAM",
-   "titulo": true,
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     0.8,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "hud": {
+    "grafico": {
+     "pontos": [
+      69000,
+      58000,
+      47000,
+      38000,
+      29000,
+      20000,
+      16000
+     ],
+     "rotulos": [
+      "NOV 2021",
+      "NOV 2022"
+     ],
+     "titulo": "BITCOIN",
+     "un": "US$ ",
+     "na": "despencou",
+     "dur": 1.6
+    }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "despencou"
+     }
+    ]
+   }
+  },
+  {
+   "say": "E uma pesquisa mostrou que sessenta e oito por cento da população era contra.",
+   "shot": "group",
+   "who": [
+    "CLI:0:angry",
+    "POV:0:stern",
+    "POV:1:angry"
+   ],
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 68,
+     "un": "%",
+     "titulo": "CONTRA O BITCOIN",
+     "na": "sessenta",
+     "dur": 1.0
+    }
+   },
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
       "na": "pesquisa"
      }
@@ -415,165 +354,94 @@
    }
   },
   {
-   "say": "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte.",
-   "who": [
-    "BUK:0:nervous"
-   ],
+   "say": "Só que o jogo virou: em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem mil dólares.",
+   "explica": {
+    "objeto": "kit/bitcoin",
+    "manobra": "gira",
+    "grafico": {
+     "pontos": [
+      16000,
+      26000,
+      42000,
+      61000,
+      70000,
+      100000
+     ],
+     "rotulos": [
+      "2022",
+      "2024"
+     ],
+     "titulo": "BITCOIN",
+     "un": "US$ ",
+     "na": "passou",
+     "dur": 1.5
+    }
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passou"
+     }
+    ]
+   }
+  },
+  {
+   "say": "E as reservas do país, que estavam no prejuízo, viraram lucro.",
    "shot": "two",
-   "interior": "pedra",
-   "props": [
-    [
-     "kit/bitcoin",
-     0.6,
-     1.0,
-     1.5,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "text": "PREÇO DESPENCOU",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "governo"
-     }
-    ]
-   },
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "cx": 0,
-   "cz": 0,
-   "d0": 7.5,
-   "d1": 7.0,
-   "quadro_manual": true,
-   "shot_lock": true,
-   "h": 1.5,
-   "vary": false,
-   "_auto_vis": 2
-  },
-  {
-   "say": "Mesmo assim, a moeda digital virou assunto no mundo inteiro.",
-   "shot": "orbit",
    "who": [
-    "BUK:0:grin",
-    "DEP:0:laugh"
-   ],
-   "props": [
-    [
-     "kit/globe",
-     0.0,
-     -1.2,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "POV",
-     "CLI"
-    ],
-    "march": false
-   },
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "orbit; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/globe",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "quem": 0,
-      "faz": "mostra",
-      "na": "Mesmo"
-     }
-    ]
-   },
-   "_enq_shot": "orbit",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "say": "Uma moeda digital, uma lei nova e um país no centro das atenções.",
-   "shot": "wide",
-   "who": [
-    "BUK:0:smile",
-    "POV:0:grin"
+    "BUK:0:smug",
+    "DEP:0:surprised"
    ],
    "props": [
     [
      "kit/bitcoin",
      0.0,
-     -1.2,
-     1.4,
+     0.8,
+     3.0,
      {
       "fixo": true
      }
     ]
    ],
-   "tiros": false,
-   "batalha": false,
-   "impact": false,
-   "detalhe": false,
-   "vary": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
+   "text": "PREJUÍZO → LUCRO",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
       "faz": "mostra",
-      "na": "moeda"
+      "na": "reservas"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
+  },
+  {
+   "say": "Aposta maluca ou visão de futuro? Você decide.",
+   "shot": "close",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     0.8,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Aposta"
+     }
+    ]
+   }
   }
  ],
  "duracao_ok": true,
@@ -635,5 +503,6 @@
  },
  "cinf": 3.0,
  "exp": 1.254,
- "max_wide": 3
+ "max_wide": 3,
+ "ano": 2021
 }

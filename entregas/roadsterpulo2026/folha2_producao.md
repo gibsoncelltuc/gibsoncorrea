@@ -2,77 +2,77 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/roadsterpulo2026/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py roadsterpulo2026` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Elon Musk prometeu um carro que voa. E, diante de convidados, o carro ...
+## Cena b0 - Um carro saiu do chão e voou na frente de convidados. E não era efeito...
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised)
+- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised) | multidao: 8 de POV/ENG
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26, kit/torre_luz
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, chao, convidados
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, chao, convidados, frente
 - RISCOS: nenhum
 
-## Cena b1 - Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Tex...
+## Cena b1 - Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em ou...
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/rampa_curva, kit/telao_led, kit/torre_luz
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, spacex, texas
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, elon, nova, spacex, texas
 - RISCOS: nenhum
 
-## Cena b2 - O segredo são propulsores da SpaceX escondidos no carro: dez bocais qu...
+## Cena b2 - O primeiro truque: um sistema de sucção gruda o carro na pista, como u...
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, segredo, spacex
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, pista, sistema, succao, ventosa
 - RISCOS: nenhum
 
-## Cena b3 - E um sistema de sucção gruda o carro na pista, como uma ventosa, até d...
-- Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (0): - | multidao: 0 de 
-- Animacao: -
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, pista, sistema, succao, ventosa
-- RISCOS: nenhum
-
-## Cena b4 - Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante...
+## Cena b3 - Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de ca...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
-- Animacao: encena
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Animacao: -
 - Objetos/modelos: kit/roadster26, kit/torre_luz
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, convidados, rampa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, rampa
 - RISCOS: nenhum
 
-## Cena b5 - Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran...
+## Cena b4 - Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran...
 - Cenario: loc_pista | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ENA (variante 0, expressao shock) | multidao: 0 de POV
-- Animacao: reagir
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fumaca
 - RISCOS: nenhum
 
-## Cena b6 - Depois decolou e voou, nos propulsores, por cima de veículos parados.
-- Cenario: loc_pista | luz: noite | clima: limpo
+## Cena b5 - O segundo truque: dez bocais escondidos, que sopram ar comprimido para...
+- Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (0): - | multidao: 0 de 
+- Animacao: -
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- RISCOS: nenhum
+
+## Cena b6 - Foi assim que ele decolou e voou, nos propulsores, por cima de veículo...
+- Cenario: loc_pista | luz: noite | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MUS (variante 0, expressao laugh) | multidao: 0 de MUS
 - Animacao: conversar
 - Objetos/modelos: kit/roadster26, kit/cybercab, kit/cybertruck, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): propulsores, veiculos
 - RISCOS: nenhum
 
-## Cena b7 - Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um s...
+## Cena b7 - E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de u...
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
@@ -82,14 +82,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): tesla, zero
 - RISCOS: nenhum
 
-## Cena b8 - Mas especialistas lembraram: aquilo durou poucos segundos, não foi um ...
+## Cena b8 - Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é ...
 - Cenario: interior galpao | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): ENG (variante 0, expressao suspicious); ENA (variante 0, expressao bored)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/roadster26
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro
 - RISCOS: nenhum
 
 ## Cena b9 - Carro voador ou carro que pula? Você decide.
@@ -117,8 +117,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/roadster26 | b0, b4, b5, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/torre_luz | b0, b1, b4, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/roadster26 | b0, b3, b4, b6, b8, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/torre_luz | b0, b1, b3, b4, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rampa_curva | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/telao_led | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/cybercab | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -126,7 +126,7 @@ kit/cybertruck | b6 | pronto | conferir na folha de contato se le bem; se parece
 
 
 ## Video inteiro
-- Objeto heroi: kit/roadster26 | grandes momentos: - | planos abertos: 2 | mistura: close 5% | medio 79% | aberto 17% | detalhe 0%
+- Objeto heroi: kit/roadster26 | grandes momentos: b4 | planos abertos: 3 | mistura: close 7% | medio 73% | aberto 21% | detalhe 0%
 - Interacoes: b0 insiste, b8 vai ate o outro
 - RISCOS GERAIS: nenhum
 

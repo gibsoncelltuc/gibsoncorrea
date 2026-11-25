@@ -2,17 +2,19 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, placa: 9 EM 10 NÃO ENTENDIAM | dinheiro (stars + som de sino) | -
+b0 | two | -  | tropa | dinheiro (stars + som de sino) | -
 b1 | close | -  | mapa | - | -
-b2 | group | -  | tropa, placa: LEI APROVADA | - | -
-b3 | reveal | -  | batalha aberta com tiros, tropa, placa: 7 DE SETEMBRO | - | -
-b4 | two | -  | tropa, placa: US$ 30, objeto na mao | - | -
-b5 | wide | -  | batalha aberta com tiros, placa: FORA DO AR | - | -
-b6 | two | -  | placa: 68% DISCORDAM | - | -
-b7 | two | -  | interior, placa: PREÇO DESPENCOU | comprou (stars + som de sino); dinheiro (stars + som de sino) | -
-b8 | orbit | -  | tropa | - | -
-b9 | two | -  | - | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b2 | reveal | -  | tropa, placa: 1º PAÍS DO MUNDO | - | -
+b3 | two | -  | tropa | - | -
+b4 | wide | -  | batalha aberta com tiros, objeto na mao | - | -
+b5 | two | -  | tropa | - | -
+b6 | two | -  | - | (rosto) laugh (expr + som de efeito); bateu (dust + som de impacto) | -
+b7 | orbit | -  | tropa | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque) | -
+b8 | orbit | -  | batalha aberta com tiros | - | -
+b9 | two | -  | tropa | - | -
+b10 | two | -  | placa: PREJUÍZO → LUCRO | - | -
+b11 | close | -  | - | - | -
+b12 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 21% | medio 64% | aberto 13% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 22% | medio 53% | aberto 21% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal
