@@ -105,7 +105,7 @@
      "kit/flamethrower",
      0.0,
      -1.2,
-     1.3,
+     1.5,
      {
       "fixo": true
      }
@@ -269,7 +269,7 @@
      "kit/phone",
      3.6,
      -2.0,
-     0.9,
+     1.5,
      {
       "fixo": true
      }
@@ -313,7 +313,7 @@
      "kit/flamethrower",
      0.0,
      -1.2,
-     1.3,
+     1.5,
      {
       "fixo": true
      }
@@ -322,7 +322,7 @@
      "kit/extinguisher",
      3.6,
      -2.0,
-     1.2,
+     2.0,
      {
       "fixo": true
      }
@@ -347,6 +347,7 @@
      }
     ]
    },
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,

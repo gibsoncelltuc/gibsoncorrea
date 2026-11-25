@@ -1,0 +1,485 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 22,
+ "title": "A Operação da Madrugada",
+ "titulo_base": "A Operação da Madrugada",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/helicopter_air",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "SOL": {
+   "jacket": "#5a6440",
+   "pants": "#5a6440",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#4a5236"
+  },
+  "MAD": {
+   "jacket": "#2a3a5a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "moustache": "#1b1b1f",
+   "pele": "#c99067",
+   "build": "stout"
+  },
+  "AGE": {
+   "jacket": "#1b1b1f",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "glasses": true
+  },
+  "GEN": {
+   "profissao": "general"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "props": [
+    [
+     "kit/helicopter_air",
+     0.0,
+     -1.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "2026",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um presidente foi capturado de madrugada, dentro da própria capital, em menos de três horas.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/helicopter_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "loc_cidade",
+   "hora": "noite",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "VENEZUELA",
+   "mapa_at": 3,
+   "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MAD:0:smug"
+   ],
+   "acao": "discutir",
+   "say": "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo.",
+   "props": [
+    [
+     "kit/helicopter_air",
+     0.0,
+     -11.1,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/helicopter_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "hora": "noite",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_auto_vis": 1
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/helicopter_air",
+     0.6,
+     1.0,
+     3.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "text": "DELTA",
+   "titulo": true,
+   "say": "Às duas da manhã, helicópteros levaram soldados da Força Delta direto ao complexo onde Maduro estava.",
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/helicopter_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [],
+   "props": [
+    [
+     "kit/helicopter_air",
+     0.0,
+     -11.1,
+     3.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@40"
+   ],
+   "say": "Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do país.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/helicopter_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "explica": {
+    "objeto": "kit/helicopter_air",
+    "manobra": "paira",
+    "vfx": [
+     {
+      "k": "velocidade",
+      "na": "ataques"
+     }
+    ],
+    "rotulos": [
+     [
+      "ATAQUE AEREO",
+      "topo",
+      "ataques"
+     ],
+     [
+      "DEFESAS DESLIGADAS",
+      "meio",
+      "desligaram"
+     ]
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "SOL:0:stern",
+    "MAD:0:shock"
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que, em menos de três horas, Maduro foi capturado e levado para fora da Venezuela."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:stern",
+    "GEN:0:grin"
+   ],
+   "acao": "conversar",
+   "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "AGE:0:stern",
+    "MAD:0:sad"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "vehicles/airplane",
+     7.0,
+     -15.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/scroll",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "vehicles/airplane",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 7.0,
+   "cz": -10.5,
+   "d0": 20.0,
+   "d1": 17.0,
+   "h": 2.8,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 1
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "POV:2:nervous"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "MUNDO",
+   "titulo": true,
+   "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "props": [
+    [
+     "kit/helicopter_air",
+     0.0,
+     -11.1,
+     3.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "A operação ganhou um nome que resume tudo: Resolução Absoluta.",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/helicopter_air",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela",
+  "https://www.nytimes.com/2026/01/03/us/politics/trump-capture-maduro-venezuela.html",
+  "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+  "https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela"
+ ],
+ "heroi_sem_close_ok": true,
+ "max_wide": 7,
+ "visual": {
+  "local": "Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sala de acompanhamento); depois Nova York",
+  "quando": "madrugada de 3 de janeiro de 2026, noite",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha)",
+   "Nicolas Maduro (bigode, jaqueta)",
+   "soldados da Forca Delta (uniforme camuflado, capacete, oculos de visao noturna)",
+   "diretor da CIA e secretario de Estado"
+  ],
+  "roupas": {
+   "TRU": "terno azul e gravata vermelha",
+   "MAD": "jaqueta escura e bigode",
+   "SOL": "uniforme camuflado e capacete",
+   "AGE": "terno escuro",
+   "GEN": "farda verde"
+  },
+  "cenario": "cidade de Caracas a noite com morros, complexo cercado; sala com telas; aviao para Nova York",
+  "objetos": [
+   "helicopteros militares",
+   "aviao",
+   "mandado judicial"
+  ],
+  "explicacoes": [
+   "Operacao Absolute Resolve (3/1/2026): forcas especiais dos EUA capturaram Nicolas Maduro em Caracas e o levaram a Nova York para responder a acusacoes de narcoterrorismo (fonte: Wikipedia 2026 United States strikes in Venezuela / capture of Nicolas Maduro)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro"
+  ],
+  "buscas": {
+   "helicoptero": "MH-60 Black Hawk night operation",
+   "cidade": "Caracas at night"
+  }
+ },
+ "cinf": 1.5,
+ "exp": 1.572
+}

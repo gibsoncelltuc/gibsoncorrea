@@ -3,16 +3,16 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | noite  | tropa, placa: 2026 | encena: prende (push) @3 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | group | noite  | tropa | encena: x_discute (point) @6 (acao + som de efeito) | -
+b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
+b2 | close | noite  | tropa | encena: x_discute (point) @6 (acao + som de efeito) | -
 b3 | crowd | noite  | batalha aberta com tiros, tropa, placa: DELTA | encena: pega (lift) @5 (acao + som de efeito) | -
 b4 | two | noite  | tropa | - | -
 b5 | low | noite  | - | encena: prende (push) @9 (acao + som de efeito) | -
 b6 | two | -  | interior | - | -
-b7 | two | -  | - | - | -
+b7 | group | -  | tropa | - | -
 b8 | wide | -  | tropa, placa: MUNDO | encena: x_entrega (reach) @10 (acao + som de efeito) | -
-b9 | wide | -  | batalha aberta com tiros, tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b9 | close | -  | tropa | ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 22% | medio 55% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 36% | medio 45% | aberto 16% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

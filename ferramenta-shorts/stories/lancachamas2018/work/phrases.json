@@ -1,7 +1,7 @@
 {
- "duration": 49.248,
- "frames30": 1477,
- "source": "silence-align (cost 0.44)",
+ "duration": 57.504,
+ "frames30": 1725,
+ "source": "silence-align (cost 0.59)",
  "segments": [
   [
    0.159375,
@@ -9,7 +9,7 @@
   ],
   [
    4.36371,
-   5.42604
+   5.426
   ],
   [
    5.59462,
@@ -28,64 +28,84 @@
    11.3031
   ],
   [
-   12.1501,
-   13.9567
+   12.1517,
+   12.5741
   ],
   [
-   14.1724,
-   15.7392
+   12.8096,
+   13.6882
   ],
   [
-   16.6154,
-   19.0065
+   13.978,
+   16.0715
   ],
   [
-   19.2767,
-   20.0849
+   16.3055,
+   17.6047
   ],
   [
-   20.921,
-   23.3253
+   18.4513,
+   19.5422
   ],
   [
-   23.5389,
-   24.8177
+   20.4222,
+   22.2275
   ],
   [
-   25.6876,
-   28.2245
+   22.4446,
+   24.0094
   ],
   [
-   29.141,
-   30.7544
+   24.8876,
+   27.2787
   ],
   [
-   30.9755,
-   32.7561
+   27.5489,
+   28.3571
   ],
   [
-   33.6134,
-   36.5721
+   29.1932,
+   31.5962
   ],
   [
-   37.4253,
-   40.3354
+   31.811,
+   33.0903
   ],
   [
-   41.175,
-   42.7522
+   33.9598,
+   36.4967
   ],
   [
-   42.9943,
-   44.1081
+   37.4132,
+   39.0265
   ],
   [
-   44.9389,
-   46.3834
+   39.2475,
+   41.0288
   ],
   [
-   46.6762,
-   48.4378
+   41.8856,
+   44.8443
+  ],
+  [
+   45.6974,
+   48.6078
+  ],
+  [
+   49.4472,
+   51.0243
+  ],
+  [
+   51.2665,
+   52.3801
+  ],
+  [
+   53.2087,
+   54.6578
+  ],
+  [
+   54.9485,
+   56.7101
   ]
  ],
  "phrases": [
@@ -120,79 +140,104 @@
    "e": 11.303
   },
   {
+   "text": "Antes,",
+   "s": 12.152,
+   "e": 12.574
+  },
+  {
+   "text": "ele tinha brincado:",
+   "s": 12.81,
+   "e": 13.688
+  },
+  {
+   "text": "se vendesse cinquenta mil bon\u00e9s da empresa,",
+   "s": 13.978,
+   "e": 16.072
+  },
+  {
+   "text": "lan\u00e7aria um lan\u00e7a-chamas.",
+   "s": 16.305,
+   "e": 17.605
+  },
+  {
+   "text": "Os bon\u00e9s esgotaram.",
+   "s": 18.451,
+   "e": 19.542
+  },
+  {
    "text": "O nome dele era N\u00e3o \u00e9 um lan\u00e7a-chamas,",
-   "s": 12.15,
-   "e": 13.957
+   "s": 20.422,
+   "e": 22.227
   },
   {
    "text": "e custava quinhentos d\u00f3lares.",
-   "s": 14.172,
-   "e": 15.739
+   "s": 22.445,
+   "e": 24.009
   },
   {
    "text": "Acontece que o aparelho soltava fogo de verdade,",
-   "s": 16.615,
-   "e": 19.006
+   "s": 24.888,
+   "e": 27.279
   },
   {
    "text": "e essa era a piada.",
-   "s": 19.277,
-   "e": 20.085
+   "s": 27.549,
+   "e": 28.357
   },
   {
    "text": "Musk explicou que o nome era para driblar a alf\u00e2ndega,",
-   "s": 20.921,
-   "e": 23.325
+   "s": 29.193,
+   "e": 31.596
   },
   {
    "text": "que barrava lan\u00e7a-chamas.",
-   "s": 23.539,
-   "e": 24.818
+   "s": 31.811,
+   "e": 33.09
   },
   {
    "text": "Cada compra vinha com um extintor de inc\u00eandio de brinde.",
-   "s": 25.688,
-   "e": 28.224
+   "s": 33.96,
+   "e": 36.497
   },
   {
    "text": "Foram vinte mil unidades \u00e0 venda,",
-   "s": 29.141,
-   "e": 30.754
+   "s": 37.413,
+   "e": 39.026
   },
   {
    "text": "e elas esgotaram em poucos dias.",
-   "s": 30.976,
-   "e": 32.756
+   "s": 39.248,
+   "e": 41.029
   },
   {
    "text": "Isso rendeu cerca de dez milh\u00f5es de d\u00f3lares para a empresa.",
-   "s": 33.613,
-   "e": 36.572
+   "s": 41.886,
+   "e": 44.844
   },
   {
    "text": "O pr\u00f3prio Musk postou v\u00eddeos soltando fogo com o aparelho.",
-   "s": 37.425,
-   "e": 40.335
+   "s": 45.697,
+   "e": 48.608
   },
   {
    "text": "Um produto que se chamava de tudo,",
-   "s": 41.175,
-   "e": 42.752
+   "s": 49.447,
+   "e": 51.024
   },
   {
    "text": "menos do que parecia.",
-   "s": 42.994,
-   "e": 44.108
+   "s": 51.267,
+   "e": 52.38
   },
   {
    "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 44.939,
-   "e": 46.383
+   "s": 53.209,
+   "e": 54.658
   },
   {
    "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 46.676,
-   "e": 48.438
+   "s": 54.949,
+   "e": 56.71
   }
  ]
 }

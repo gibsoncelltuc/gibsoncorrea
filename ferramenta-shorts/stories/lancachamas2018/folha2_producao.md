@@ -11,17 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bilionario, lancachamas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (0.2-1.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (1.5-2.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b1 - Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a emp...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -32,19 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): boring, elon, empresa, estados, produto, tuneis
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao grin; CMP na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (4.4-6.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (6.0-7.7 s): mesmo angulo
-  - take 3 (7.7-9.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 4 (9.3-10.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b2 - Antes, ele tinha brincado: se vendesse cinquenta mil bonés da empresa,...
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -55,19 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bones, empresa, lancachamas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "50 MIL BONÉS" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (12.2-14.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (14.1-16.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (16.0-17.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b3 - O nome dele era Não é um lança-chamas, e custava quinhentos dólares.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -78,17 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancachamas
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao grin; CMP na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (18.3-20.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (20.0-21.6 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b4 - Acontece que o aparelho soltava fogo de verdade, e essa era a piada.
 - Cenario: loc_deserto | luz: golden | clima: limpo
@@ -99,15 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower, kit/marco_hollywood, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, piada
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_deserto; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b5 - Musk explicou que o nome era para driblar a alfândega, que barrava lan...
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -118,17 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alfandega
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao smug; CMP na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (26.8-28.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (28.9-31.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b6 - Cada compra vinha com um extintor de incêndio de brinde.
 - Cenario: interior loja | luz: golden | clima: limpo
@@ -139,17 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brinde, extintor, incendio
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)
-- PERSONAGENS: CMP na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/extinguisher: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (31.1-32.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (32.9-34.7 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b7 - Foram vinte mil unidades à venda, e elas esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -160,15 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): venda
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de multidao
-- PERSONAGENS: POV na esquerda, expressao shock; POV na direita, expressao grin; multidao de 16 (POV) ATRAS dos principais; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (3.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
-<!-- /FICHA -->
 
 ## Cena b8 - Isso rendeu cerca de dez milhões de dólares para a empresa.
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -179,17 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, empresa
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: MUS na esquerda, expressao laugh; CMP na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (39.0-40.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (40.8-42.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b9 - O próprio Musk postou vídeos soltando fogo com o aparelho.
 - Cenario: loc_deserto | luz: golden | clima: limpo
@@ -200,18 +101,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower, kit/phone, kit/fire
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aparelho, proprio
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_deserto; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
-- PERSONAGENS: MUS no centro, expressao laugh; sem multidao; acao: fala/gesto
-- OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/phone: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (43.0-44.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (44.9-46.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-<!-- /FICHA -->
 
 ## Cena b10 - Um produto que se chamava de tudo, menos do que parecia.
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -222,16 +111,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/flamethrower, kit/extinguisher
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): produto
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_cidade; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)
-- PERSONAGENS: MUS na esquerda, expressao smug; POV na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/flamethrower: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/extinguisher: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.4 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -267,10 +146,3 @@ kit/phone | b9 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh lancachamas2018 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh lancachamas2018` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 1 take continuo (0.0 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-

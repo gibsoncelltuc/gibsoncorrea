@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 22 - A Operação da Madrugada
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 4.7s - 15 palavras - plano two
@@ -10,31 +10,35 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | capturado (0.9s) | ACAO: prende | empurra/prende | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | 2026 | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | 2026 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: prende na palavra capturado (0.9s): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- INTERACAO (a cena toda): executa: susto
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 6.0s a 11.4s - 19 palavras - plano reveal
+## Cena b1 - 6.0s a 11.4s - 19 palavras - plano wide
 > "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-| 2 | - | MAPA | VENEZUELA | OK |
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | MAPA | VENEZUELA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): executa: reagir
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 12.4s a 16.5s - 12 palavras - plano group
+## Cena b2 - 12.4s a 16.5s - 12 palavras - plano close
 > "Era o presidente venezuelano Nicolás Maduro, acusado pela justiça americana de narcoterrorismo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -101,7 +105,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 41.3s a 45.3s - 15 palavras - plano two
+## Cena b7 - 41.3s a 45.3s - 15 palavras - plano group
 > "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -132,21 +136,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 18: parada, reagindo (surprised), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b9 - 52.8s a 55.7s - 10 palavras - plano wide
+## Cena b9 - 52.8s a 55.7s - 10 palavras - plano close
 > "A operação ganhou um nome que resume tudo: Resolução Absoluta."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ganhou (53.5s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | ganhou (53.5s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 3 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - EFEITO: stars na palavra ganhou (53.5s): executa: estrelinhas + som
 - ACAO: vence na palavra ganhou (53.5s): executa: bracos para cima + brilho
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 

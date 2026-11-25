@@ -1,0 +1,4 @@
+VISIBILIDADE: 3 FALHA(S)
+FALHA b3: objeto citado "kit/helicopter_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b7: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b7: objeto "kit/scroll" saiu com 0% da altura da tela, a ficha de cena planejou 32%

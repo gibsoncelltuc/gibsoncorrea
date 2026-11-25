@@ -63,9 +63,10 @@
  },
  "beats": [
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "SOL:0:stern"
+    "SOL:0:stern",
+    "MAD:0:shock"
    ],
    "props": [
     [
@@ -122,7 +123,7 @@
    "say": "Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, numa operação autorizada por Trump."
   },
   {
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "MAD:0:smug"
    ],
@@ -312,7 +313,7 @@
    "say": "Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA e do secretário de Estado."
   },
   {
-   "shot": "two",
+   "shot": "group",
    "who": [
     "AGE:0:stern",
     "MAD:0:sad"
@@ -322,16 +323,16 @@
      "kit/scroll",
      0.0,
      -1.2,
-     1.0,
+     2.0,
      {
       "fixo": true
      }
     ],
     [
      "vehicles/airplane",
-     7.0,
-     -15.0,
-     1.0,
+     5.0,
+     -7.5,
+     1.1,
      {
       "fixo": true
      }
@@ -341,7 +342,7 @@
    "say": "Maduro foi levado de avião para Nova York, onde responde a um processo na justiça.",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/scroll",
@@ -357,6 +358,10 @@
      }
     ]
    },
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -390,7 +395,7 @@
    "say": "Nenhum militar americano morreu. A notícia parou o mundo, e dividiu opiniões entre países."
   },
   {
-   "shot": "wide",
+   "shot": "close",
    "who": [
     "TRU:0:smug"
    ],
@@ -438,7 +443,7 @@
   "https://www.cnn.com/2026/01/03/politics/nicolas-maduro-capture-venezuela"
  ],
  "heroi_sem_close_ok": true,
- "max_wide": 7,
+ "max_wide": 8,
  "visual": {
   "local": "Caracas, Venezuela (complexo militar, cidade a noite) e Mar-a-Lago, Florida (sala de acompanhamento); depois Nova York",
   "quando": "madrugada de 3 de janeiro de 2026, noite",
@@ -471,5 +476,7 @@
    "helicoptero": "MH-60 Black Hawk night operation",
    "cidade": "Caracas at night"
   }
- }
+ },
+ "cinf": 1.5,
+ "exp": 1.572
 }
