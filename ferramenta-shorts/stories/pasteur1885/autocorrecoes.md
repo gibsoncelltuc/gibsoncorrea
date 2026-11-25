@@ -63,3 +63,11 @@
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 17:46 autocorrecao de visibilidade
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b4: objeto "kit/syringe" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+- b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
