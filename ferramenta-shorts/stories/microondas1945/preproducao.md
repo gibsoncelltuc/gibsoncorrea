@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/radarange, kit/microwave, kit/chocolate | - | -
+b0 | street | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/radarange | - | -
 b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b3 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro, alguem chega andando | kit/chocolate | - | -

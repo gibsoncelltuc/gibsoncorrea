@@ -1,12 +1,12 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 05 - O Micro-ondas e o Chocolate
 
-Gerado em 25/11 04:17 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 04:18 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | SPE, COL | - | chocolate, microwave, radarange | - | Uma barra de chocolate derretida no bolso inventou o forno de micro-on
+b0 | simples | street | two | SPE, COL | - | radarange | - | Uma barra de chocolate derretida no bolso inventou o forno de micro-on
 b1 | transicao | street | reveal | ENG, ENG | 8 | - | - | Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos
 b2 | simples | interior madeira | two | SPE, ENG | - | - | - | Esses radares tinham uma peça potente, que mandava ondas invisíveis o 
 b3 | simples | interior madeira | group | ENG, SPE | - | chocolate | - | Um dia, ele chegou perto dessa peça com uma barra de chocolate no bols
