@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 6 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: mk/BookStand, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, presidente, selfie
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
+- Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: kit/marco_onu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): discurso, foto
@@ -86,7 +86,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 6 de POV
+- Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: mk/BookStand
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -

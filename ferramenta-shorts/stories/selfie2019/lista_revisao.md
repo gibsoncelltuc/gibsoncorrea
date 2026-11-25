@@ -6,30 +6,22 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 - nenhum
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
-- f0 "Um presidente parou o discurso na ONU para tirar uma selfie ": 
-- f1 "Foi na Assembleia Geral da ONU,": 
-- f2 "em Nova York,": 
-- f3 "em setembro de dois mil e dezenove.": 
-- f4 "Ali,": 
-- f5 "líderes fazem discursos longos e sérios.": 
-- f6 "O presidente de El Salvador,": 
-- f7 "Nayib Bukele,": 
-- f8 "tinha trinta e oito anos.": 
-- f9 "Acontece que,": 
-- f10 "no púlpito,": 
-- f11 "ele pediu licença por um momento e tirou o celular do bolso.": 
-- f12 "Virou de costas para o plenário e tirou a selfie com todos a": 
-- f13 "Depois explicou:": 
-- f14 "o mundo novo está onde essa foto vai parar,": 
-- f15 "na internet.": 
-- f16 "E avisou que a ONU pode desaparecer como a Kodak e os dinoss": 
-- f17 "Propôs que líderes gravassem vídeos de seus discursos,": 
-- f18 "e um concurso de ideias para jovens.": 
-- f19 "A selfie rodou o mundo,": 
-- f20 "e o discurso ficou em segundo plano.": 
-- f21 "Um segundo de selfie,": 
-- f22 "e a ONU virou assunto.": 
-- f23 "Agora não deixe de comentar:": 
-- f24 "qual deve ser o tema do próximo vídeo?": 
+- f0 "Um presidente parou o discurso na ONU para tirar uma selfie.": 
+- f1 "E a foto chamou mais atenção que o discurso inteiro.": 
+- f2 "Foi na Assembleia Geral da ONU,": 
+- f3 "em Nova York,": 
+- f4 "em 2019.": 
+- f5 "O presidente de El Salvador,": 
+- f6 "Nayib Bukele,": 
+- f7 "tinha só 38 anos.": 
+- f8 "No púlpito,": 
+- f9 "ele pediu licença e pegou o celular.": 
+- f10 "Acontece que virou de costas e fez uma selfie com o plenário": 
+- f11 "Depois avisou:": 
+- f12 "a ONU pode desaparecer como a Kodak.": 
+- f13 "A selfie rodou o mundo inteiro.": 
+- f14 "O discurso ficou em segundo plano.": 
+- f15 "Um segundo bastou para virar notícia.": 
+- f16 "E foi assim que...": 
 
 ## Itens gerais conferidos (marque): gancho nos 5 s | virada no meio | final + COMENTE | 54-66 s | cenario/epoca | fardas | objeto heroi | legenda livre | ninguem cortado

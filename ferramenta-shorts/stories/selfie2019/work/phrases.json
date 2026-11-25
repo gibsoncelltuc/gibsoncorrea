@@ -1,234 +1,162 @@
 {
- "duration": 54.912,
- "frames30": 1647,
- "source": "silence-align (cost 0.98)",
+ "duration": 29.712,
+ "frames30": 891,
+ "source": "silence-align (cost 0.83)",
  "segments": [
   [
-   0.156083,
-   3.96258
+   0.0,
+   2.63121
   ],
   [
-   4.89879,
-   6.36442
+   3.01021,
+   5.48912
   ],
   [
-   6.62104,
-   7.31283
+   5.87058,
+   7.22858
   ],
   [
-   7.55183,
-   9.1115
+   7.45446,
+   8.12429
   ],
   [
-   9.98242,
-   10.3263
+   8.30825,
+   9.22958
   ],
   [
-   10.5785,
-   12.829
+   9.60596,
+   10.7803
   ],
   [
-   13.6855,
-   14.989
+   10.9838,
+   11.7646
   ],
   [
-   15.2002,
-   16.035
+   11.9374,
+   13.1792
   ],
   [
-   16.2319,
-   17.418
+   13.5537,
+   14.0888
   ],
   [
-   18.2906,
-   19.1514
+   14.2829,
+   15.9141
   ],
   [
-   19.3435,
-   19.9333
+   16.2817,
+   19.0648
   ],
   [
-   20.1334,
-   22.9932
+   19.4228,
+   20.1444
   ],
   [
-   23.8633,
-   27.1997
+   20.4275,
+   22.3018
   ],
   [
-   28.0462,
-   28.9913
+   22.6802,
+   24.1182
   ],
   [
-   29.3417,
-   31.4294
+   24.4962,
+   26.108
   ],
   [
-   31.6141,
-   32.3402
+   26.4865,
+   28.1494
   ],
   [
-   33.2088,
-   36.6613
-  ],
-  [
-   37.539,
-   40.281
-  ],
-  [
-   40.5127,
-   42.3589
-  ],
-  [
-   43.2043,
-   44.3627
-  ],
-  [
-   44.595,
-   46.3883
-  ],
-  [
-   47.2485,
-   48.3843
-  ],
-  [
-   48.6141,
-   49.7413
-  ],
-  [
-   50.6,
-   52.0443
-  ],
-  [
-   52.3371,
-   54.0988
+   28.5272,
+   29.2676
   ]
  ],
  "phrases": [
   {
-   "text": "Um presidente parou o discurso na ONU para tirar uma selfie com a plateia atr\u00e1s.",
-   "s": 0.156,
-   "e": 3.963
+   "text": "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "s": 0.0,
+   "e": 2.631
+  },
+  {
+   "text": "E a foto chamou mais aten\u00e7\u00e3o que o discurso inteiro.",
+   "s": 3.01,
+   "e": 5.489
   },
   {
    "text": "Foi na Assembleia Geral da ONU,",
-   "s": 4.899,
-   "e": 6.364
+   "s": 5.871,
+   "e": 7.229
   },
   {
    "text": "em Nova York,",
-   "s": 6.621,
-   "e": 7.313
+   "s": 7.454,
+   "e": 8.124
   },
   {
-   "text": "em setembro de dois mil e dezenove.",
-   "s": 7.552,
-   "e": 9.111
-  },
-  {
-   "text": "Ali,",
-   "s": 9.982,
-   "e": 10.326
-  },
-  {
-   "text": "l\u00edderes fazem discursos longos e s\u00e9rios.",
-   "s": 10.579,
-   "e": 12.829
+   "text": "em 2019.",
+   "s": 8.308,
+   "e": 9.23
   },
   {
    "text": "O presidente de El Salvador,",
-   "s": 13.685,
-   "e": 14.989
+   "s": 9.606,
+   "e": 10.78
   },
   {
    "text": "Nayib Bukele,",
-   "s": 15.2,
-   "e": 16.035
+   "s": 10.984,
+   "e": 11.765
   },
   {
-   "text": "tinha trinta e oito anos.",
-   "s": 16.232,
-   "e": 17.418
+   "text": "tinha s\u00f3 38 anos.",
+   "s": 11.937,
+   "e": 13.179
   },
   {
-   "text": "Acontece que,",
-   "s": 18.291,
-   "e": 19.151
+   "text": "No p\u00falpito,",
+   "s": 13.554,
+   "e": 14.089
   },
   {
-   "text": "no p\u00falpito,",
-   "s": 19.343,
-   "e": 19.933
+   "text": "ele pediu licen\u00e7a e pegou o celular.",
+   "s": 14.283,
+   "e": 15.914
   },
   {
-   "text": "ele pediu licen\u00e7a por um momento e tirou o celular do bolso.",
-   "s": 20.133,
-   "e": 22.993
+   "text": "Acontece que virou de costas e fez uma selfie com o plen\u00e1rio.",
+   "s": 16.282,
+   "e": 19.065
   },
   {
-   "text": "Virou de costas para o plen\u00e1rio e tirou a selfie com todos atr\u00e1s.",
-   "s": 23.863,
-   "e": 27.2
+   "text": "Depois avisou:",
+   "s": 19.423,
+   "e": 20.144
   },
   {
-   "text": "Depois explicou:",
-   "s": 28.046,
-   "e": 28.991
+   "text": "a ONU pode desaparecer como a Kodak.",
+   "s": 20.427,
+   "e": 22.302
   },
   {
-   "text": "o mundo novo est\u00e1 onde essa foto vai parar,",
-   "s": 29.342,
-   "e": 31.429
+   "text": "A selfie rodou o mundo inteiro.",
+   "s": 22.68,
+   "e": 24.118
   },
   {
-   "text": "na internet.",
-   "s": 31.614,
-   "e": 32.34
+   "text": "O discurso ficou em segundo plano.",
+   "s": 24.496,
+   "e": 26.108
   },
   {
-   "text": "E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.",
-   "s": 33.209,
-   "e": 36.661
+   "text": "Um segundo bastou para virar not\u00edcia.",
+   "s": 26.486,
+   "e": 28.149
   },
   {
-   "text": "Prop\u00f4s que l\u00edderes gravassem v\u00eddeos de seus discursos,",
-   "s": 37.539,
-   "e": 40.281
-  },
-  {
-   "text": "e um concurso de ideias para jovens.",
-   "s": 40.513,
-   "e": 42.359
-  },
-  {
-   "text": "A selfie rodou o mundo,",
-   "s": 43.204,
-   "e": 44.363
-  },
-  {
-   "text": "e o discurso ficou em segundo plano.",
-   "s": 44.595,
-   "e": 46.388
-  },
-  {
-   "text": "Um segundo de selfie,",
-   "s": 47.248,
-   "e": 48.384
-  },
-  {
-   "text": "e a ONU virou assunto.",
-   "s": 48.614,
-   "e": 49.741
-  },
-  {
-   "text": "Agora n\u00e3o deixe de comentar:",
-   "s": 50.6,
-   "e": 52.044
-  },
-  {
-   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
-   "s": 52.337,
-   "e": 54.099
+   "text": "E foi assim que...",
+   "s": 28.527,
+   "e": 29.268
   }
  ]
 }

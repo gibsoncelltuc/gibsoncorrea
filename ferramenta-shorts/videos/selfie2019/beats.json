@@ -61,12 +61,7 @@
    ],
    "shot_lock": true,
    "crowd": {
-    "n": 6,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "neutral"
+    "n": 0
    },
    "fachada": false,
    "interior": "pedra",
@@ -82,7 +77,8 @@
     ]
    },
    "text": "SELFIE NA ONU",
-   "titulo": true
+   "titulo": true,
+   "_susp_ok": true
   },
   {
    "shot": "crowd",
@@ -93,12 +89,7 @@
    ],
    "acao": "comemorar",
    "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
+    "n": 0
    },
    "fx": [
     "stars@20",
@@ -122,7 +113,8 @@
       "na": "foto"
      }
     ]
-   }
+   },
+   "_susp_ok": true
   },
   {
    "shot": "two",
@@ -185,9 +177,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
-     1.4,
+     1.0,
+     1.0,
+     0.96,
      {
       "y": 1.5,
       "fixo": true
@@ -211,10 +203,6 @@
    "objetos": false,
    "fachada": false,
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "interior": "pedra",
    "encena": {
     "sentido": "afirmativa",
@@ -227,7 +215,20 @@
     ]
    },
    "bloco": "escalada",
-   "say": "No púlpito, ele pediu licença e pegou o celular."
+   "say": "No púlpito, ele pediu licença e pegou o celular.",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -352,9 +353,9 @@
    "props": [
     [
      "kit/phone",
-     2.4,
-     0.2,
-     1.2,
+     1.0,
+     1.0,
+     0.96,
      {
       "y": 1.3,
       "fixo": true
@@ -364,10 +365,6 @@
    "acao": "comemorar",
    "objetos": false,
    "fachada": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "set": "street",
    "bloco": "loop",
    "say": "Um segundo bastou para virar notícia. E foi assim que...",
@@ -377,6 +374,19 @@
      {
       "faz": "mostra",
       "na": "assim"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/phone",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -431,5 +441,6 @@
  "min_momentos": 1,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um presidente parou o discurso na ONU para tirar selfie e a foto chamou mais atencao que o discurso. Pagamento: a selfie rodou o mundo e o discurso ficou em segundo plano.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

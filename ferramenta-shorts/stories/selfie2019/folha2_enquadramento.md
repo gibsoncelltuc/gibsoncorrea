@@ -29,8 +29,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - TEXTO NA TELA: "ONU - NOVA YORK" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
-## b3: "O presidente de El Salvador, Nayib Bukele, tinha 38 anos."
-- LOCAL: praia / palacio; hora: day
+## b3: "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos."
+- LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK na esquerda, expressao smug; DIP (politico) na direita, expressao suspicious; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -61,7 +61,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "KODAK?" numa placa atras dos personagens, na palavra 1 da frase
 
-## b7: "A selfie rodou o mundo. O discurso ficou em segundo plano."
+## b7: "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao surprised; REP (jornalista) na direita, expressao grin; multidao de 20 (POV) ATRAS dos principais; acao: comemorar
@@ -72,7 +72,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 - TEXTO NA TELA: "SELFIE" flutuando no alto, na palavra 1 da frase
 
-## b8: "Um segundo bastou. E foi assim que..."
+## b8: "Um segundo bastou para virar notícia. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUK no centro, expressao smile; sem multidao; acao: comemorar
