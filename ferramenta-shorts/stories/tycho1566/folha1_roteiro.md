@@ -26,7 +26,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_camp
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: - | mapa: DINAMARCA
+- Texto na tela: - | mapa: ALEMANHA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~2.8 s)

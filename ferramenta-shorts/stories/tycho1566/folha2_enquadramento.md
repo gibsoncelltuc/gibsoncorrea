@@ -20,7 +20,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: DINAMARCA (cobre a tela 1-2 s)
+- MAPA: ALEMANHA (cobre a tela 1-2 s)
 
 ## b3: "Numa festa, discutiu com um primo sobre matemática."
 - LOCAL: sala de madeira; hora: day

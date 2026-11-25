@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: revelacao (camera sobe e abre)
 - PERSONAGENS: TYC (nobre) na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- MAPA: DINAMARCA (cobre a tela 1-2 s)
+- MAPA: ALEMANHA (cobre a tela 1-2 s)
 - TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
   - take 1 (6.7-8.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (8.1-9.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
@@ -218,9 +218,11 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/brass_nose | grandes momentos: b2, b6 | planos abertos: 3 | mistura: close 4% | medio 79% | aberto 14% | detalhe 3%
 - Interacoes: b0 discutir, b3 avanca e o outro recua, b4 discutir, b5 susto, b8 entregar, b9 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: 5 item(ns) sem referencia visual: O Astrônomo do Nariz de Metal, Alemanha, primo Manderup Parsbjerg, nariz de latao, brass nose -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: 5 item(ns) sem referencia visual: O Astrônomo do Nariz de Metal, Alemanha, primo Manderup Parsbjerg, nariz de latao, brass nose
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tycho1566 bN bM` (so essas cenas).

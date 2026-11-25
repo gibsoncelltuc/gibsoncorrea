@@ -1,0 +1,153 @@
+{
+ "duration": 25.992,
+ "frames30": 780,
+ "source": "silence-align (cost 0.79)",
+ "segments": [
+  [
+   0.0,
+   2.60675
+  ],
+  [
+   2.98612,
+   4.53971
+  ],
+  [
+   4.91712,
+   5.75067
+  ],
+  [
+   5.98425,
+   7.61279
+  ],
+  [
+   7.83758,
+   8.70162
+  ],
+  [
+   9.07708,
+   10.4353
+  ],
+  [
+   10.7097,
+   12.0298
+  ],
+  [
+   12.4078,
+   14.0336
+  ],
+  [
+   14.4074,
+   16.7156
+  ],
+  [
+   16.909,
+   17.408
+  ],
+  [
+   17.7876,
+   18.3318
+  ],
+  [
+   18.6202,
+   19.13
+  ],
+  [
+   19.3616,
+   20.3023
+  ],
+  [
+   20.6809,
+   23.1075
+  ],
+  [
+   23.4773,
+   24.833
+  ],
+  [
+   25.2102,
+   25.561
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um carro de verdade est\u00e1 dando voltas em torno do Sol.",
+   "s": 0.0,
+   "e": 2.607
+  },
+  {
+   "text": "E o motorista dele n\u00e3o respira.",
+   "s": 2.986,
+   "e": 4.54
+  },
+  {
+   "text": "Em 2018,",
+   "s": 4.917,
+   "e": 5.751
+  },
+  {
+   "text": "a SpaceX testou o Falcon Heavy,",
+   "s": 5.984,
+   "e": 7.613
+  },
+  {
+   "text": "seu maior foguete.",
+   "s": 7.838,
+   "e": 8.702
+  },
+  {
+   "text": "Em vez de um peso de concreto,",
+   "s": 9.077,
+   "e": 10.435
+  },
+  {
+   "text": "Musk mandou o pr\u00f3prio carro.",
+   "s": 10.71,
+   "e": 12.03
+  },
+  {
+   "text": "O foguete decolou com um estrondo!",
+   "s": 12.408,
+   "e": 14.034
+  },
+  {
+   "text": "Acontece que no volante ia um boneco astronauta,",
+   "s": 14.407,
+   "e": 16.716
+  },
+  {
+   "text": "o Starman.",
+   "s": 16.909,
+   "e": 17.408
+  },
+  {
+   "text": "No painel,",
+   "s": 17.788,
+   "e": 18.332
+  },
+  {
+   "text": "um aviso:",
+   "s": 18.62,
+   "e": 19.13
+  },
+  {
+   "text": "n\u00e3o entre em p\u00e2nico.",
+   "s": 19.362,
+   "e": 20.302
+  },
+  {
+   "text": "O carro deixou a Terra e foi girar em torno do Sol.",
+   "s": 20.681,
+   "e": 23.108
+  },
+  {
+   "text": "Ele continua l\u00e1 at\u00e9 hoje.",
+   "s": 23.477,
+   "e": 24.833
+  },
+  {
+   "text": "Porque...",
+   "s": 25.21,
+   "e": 25.561
+  }
+ ]
+}
