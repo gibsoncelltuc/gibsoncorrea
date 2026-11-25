@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b8: objeto "kit/tires" saiu com 11% da altura da tela, a ficha de cena planejou 32%
