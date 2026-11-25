@@ -1,0 +1,166 @@
+{
+ "duration": 32.592,
+ "frames30": 978,
+ "source": "silence-align (cost 0.96)",
+ "segments": [
+  [
+   0.151208,
+   2.88179
+  ],
+  [
+   3.65904,
+   5.06742
+  ],
+  [
+   5.30279,
+   6.42875
+  ],
+  [
+   7.20162,
+   8.52913
+  ],
+  [
+   8.80421,
+   11.0715
+  ],
+  [
+   11.8691,
+   12.6846
+  ],
+  [
+   12.9037,
+   14.0194
+  ],
+  [
+   14.2107,
+   14.6335
+  ],
+  [
+   15.4157,
+   16.2404
+  ],
+  [
+   16.4329,
+   16.8769
+  ],
+  [
+   17.1224,
+   17.8818
+  ],
+  [
+   18.616,
+   20.2275
+  ],
+  [
+   21.0349,
+   23.686
+  ],
+  [
+   24.4766,
+   25.5876
+  ],
+  [
+   26.3757,
+   27.5628
+  ],
+  [
+   28.3432,
+   28.9409
+  ],
+  [
+   29.1415,
+   30.343
+  ],
+  [
+   31.1323,
+   31.8747
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Brasil e Fran\u00e7a quase entraram em guerra por causa de lagosta.",
+   "s": 0.151,
+   "e": 2.882
+  },
+  {
+   "text": "E tudo dependia de uma pergunta:",
+   "s": 3.659,
+   "e": 6.429
+  },
+  {
+   "text": "lagosta anda ou nada?",
+   "s": 7.202,
+   "e": 8.529
+  },
+  {
+   "text": "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
+   "s": 8.804,
+   "e": 11.072
+  },
+  {
+   "text": "O Brasil dizia:",
+   "s": 11.869,
+   "e": 12.685
+  },
+  {
+   "text": "ela anda no fundo do mar,",
+   "s": 12.904,
+   "e": 14.019
+  },
+  {
+   "text": "\u00e9 nossa.",
+   "s": 14.211,
+   "e": 14.633
+  },
+  {
+   "text": "A Fran\u00e7a dizia:",
+   "s": 15.416,
+   "e": 16.24
+  },
+  {
+   "text": "ela nada,",
+   "s": 16.433,
+   "e": 16.877
+  },
+  {
+   "text": "\u00e9 de quem pescar.",
+   "s": 17.122,
+   "e": 17.882
+  },
+  {
+   "text": "A Fran\u00e7a mandou um navio de guerra.",
+   "s": 18.616,
+   "e": 20.227
+  },
+  {
+   "text": "Acontece que o Brasil respondeu com navios e avi\u00f5es.",
+   "s": 21.035,
+   "e": 23.686
+  },
+  {
+   "text": "Mas o tiro nunca veio.",
+   "s": 24.477,
+   "e": 25.588
+  },
+  {
+   "text": "Os governos negociaram.",
+   "s": 26.376,
+   "e": 27.563
+  },
+  {
+   "text": "Nenhum tiro,",
+   "s": 28.343,
+   "e": 28.941
+  },
+  {
+   "text": "s\u00f3 uma briga sobre um bicho.",
+   "s": 29.142,
+   "e": 30.343
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 31.132,
+   "e": 31.875
+  }
+ ]
+}

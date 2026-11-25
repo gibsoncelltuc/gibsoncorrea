@@ -4,160 +4,103 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 9 frases, 18 acoes catalogadas, 18 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+## Cena b0 - 0.2s a 2.9s - 10 palavras - plano two
 > "Uma guerra durou 335 anos e ninguém disparou um tiro."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "335" (1.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "335" (1.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 335 ANOS SEM TIRO | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
-
-## Cena b1 - 3.7s a 5.9s - 7 palavras - plano group
+## Cena b1 - 4.1s a 5.7s - 7 palavras - plano group
 > "E só acabou porque alguém resolveu perguntar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perguntar" (5.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perguntar" (5.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
 | 2 | - | INTERACAO | susto | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
-- INTERACAO (a cena toda): executa: susto
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b2 - 6.3s a 9.3s - 9 palavras - plano crowd
+## Cena b2 - 6.8s a 10.3s - 9 palavras - plano crowd
 > "Em 1651, piratas das ilhas Scilly atacavam navios holandeses."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piratas" (7.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "piratas" (8.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | MAPA | ILHAS SCILLY | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- ship CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
-- multidao de 18: parada, reagindo (angry), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
-
-## Cena b3 - 9.6s a 11.5s - 6 palavras - plano orbit
+## Cena b3 - 11.7s a 13.0s - 6 palavras - plano orbit
 > "A Holanda declarou guerra às ilhas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "declarou" (10.4s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "declarou" (12.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | GUERRA | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b4 - 11.9s a 15.6s - 11 palavras - plano two
+## Cena b4 - 14.1s a 16.6s - 11 palavras - plano two
 > "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tomou" (13.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tomou" (15.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | avanca e o outro recua | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b5 - 15.9s a 19.6s - 11 palavras - plano wide
+## Cena b5 - 17.6s a 21.1s - 11 palavras - plano wide
 > "Os holandeses foram embora. E ninguém lembrou de assinar a paz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "embora" (17.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "embora" (18.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ship INDO EMBORA: parte do lugar da ficha e sai pela direita do quadro ate o fim da cena
-<!-- /FISICA -->
-
-## Cena b6 - 20.0s a 23.0s - 9 palavras - plano two
+## Cena b6 - 22.0s a 24.5s - 9 palavras - plano two
 > "Três séculos depois, um historiador escreveu para a Holanda."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "historiador" (21.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "historiador" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | o outro se aproxima | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b7 - 23.3s a 26.3s - 9 palavras - plano two
+## Cena b7 - 25.6s a 27.5s - 9 palavras - plano two
 > "O embaixador veio às ilhas e assinou a paz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) EMB escreve no papel | na palavra "assinou" (25.6s)
+  1) EMB escreve no papel | na palavra "assinou" (27.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | assinou (25.6s) | ACAO: escreve | escreve/assina | OK |
-<!-- FISICA -->
+| 1 | assinou (27.0s) | ACAO: escreve | escreve/assina | OK |
 
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra assinou (25.6s): segura o papel e mexe a mao como se escrevesse
-<!-- /FISICA -->
-
-## Cena b8 - 26.7s a 29.6s - 9 palavras - plano two
+## Cena b8 - 28.5s a 31.1s - 9 palavras - plano two
 > "Ninguém lembrou de um papel. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "papel" (28.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "papel" (29.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | 335 ANOS SEM TIRO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
