@@ -67,6 +67,9 @@ for k, b in enumerate(BT):
     principal = next((q for q in objs if HEROI and fam(q[0]) == fam(HEROI)), None) or next((q for q in objs if re.sub(r'[^a-z]', '', str(q[0]).split('/')[-1])[:5] in re.sub(r'[^a-z]', '', t)), None) or (objs[0] if objs else None)
     fichas = []; cena = {}; plano_extra = None
     manual = b.get('quadro_manual') or b.get('veiculo') or b.get('montado') or SO_DESC
+    _mesas = [p_ for p_ in (b.get('props') or []) if isinstance(p_, list) and len(p_) >= 4 and str(p_[0]) in ('kit/bancada', 'mk/Table_Large', 'mk/Table_Small', 'kit/table')]
+    if any(abs(float(o_[1]) - float(m_[1])) < 0.9 and abs(float(o_[2]) - float(m_[2])) < 0.5 for m_ in _mesas for o_ in (b.get('props') or []) if isinstance(o_, list) and len(o_) >= 4 and o_ is not m_):
+        manual = True   # 25/11 Darwin: objeto EM CIMA da mesa/bancada -- reenquadrar separava a mesa (ia para o fundo) do objeto (ficava flutuando)
     manual = manual or any(VEIC.search(str(q[0])) and not (len(q) > 4 and isinstance(q[4], dict) and (q[4].get('fixo') or q[4].get('carregado'))) for q in objs)   # 25/11 (Roadster): veiculo que ANIMA (sem 'fixo' no roteiro: sobe rampa, voa, pousa) nao e' reenquadrado; marcar 'fixo' matava a animacao
     usados_x = []
     for p in sorted(objs, key=lambda q: q is not principal):

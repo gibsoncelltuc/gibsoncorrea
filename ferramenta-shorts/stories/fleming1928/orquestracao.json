@@ -18,7 +18,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/petri",
     "kit/petri_mofo"
    ],
    "palavras": 12,
@@ -101,7 +100,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/petri",
     "kit/petri_mofo"
    ],
    "palavras": 10,
@@ -141,7 +139,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/petri",
     "kit/petri_mofo"
    ],
    "palavras": 10,

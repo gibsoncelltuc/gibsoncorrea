@@ -1,14 +1,14 @@
-# Revisao do storyboard - tulipas1637 (v3, 24/11 noite)
-pesquisa: Mania das tulipas na Republica Holandesa (1634-1637): bulbos raros (Semper Augustus, listrados por virus) negociados em tavernas e leiloes; preco de um bulbo chegou ao de uma casa em Amsterda; compradores de todas as profissoes revendiam contratos; em fevereiro de 1637, em Haarlem, um leilao ficou sem comprador e os precos desabaram; historia do marinheiro que comeu o bulbo pensando ser cebola (Mackay, contada como anedota)
-b0: CORRIGIDO - sala vazia com personagens minusculos -> "Uma unica flor ja custou o preco de uma casa inteira" comerciante com a tulipa e o rico com as moedas na rua de Amsterda, 1637
-b1: OK - "Era a Holanda... a tulipa tinha acabado de chegar do Oriente" mapa HOLANDA e o canteiro de tulipas
-b2: OK - "um oferecia mil moedas por um bulbo" dois ricos disputando no leilao com o vaso
-b3: CORRIGIDO - uma pessoa so -> "Logo, o pais inteiro estava comprando" multidao comprando tulipas, TODO MUNDO
-b4: OK - "trocou terras e casas por um unico bulbo" comprador com a tulipa no cais
-b5: OK - "Ninguem queria a flor. Queriam revender" dois compradores com a tulipa amarela
-b6: OK - "um marinheiro comeu um bulbo achando que era cebola" marinheiro com a flor na boca e o comerciante assustado
-b7: OK - "num leilao de fevereiro... ninguem levantou a mao" leilao parado, LEILAO
-b8: OK - "todo mundo quis vender, e nao havia mais comprador" multidao em panico, PANICO
-b9: OK - "Os precos desabaram" rico desesperado com a tulipa
-b10: OK - "O marinheiro, pelo menos, almocou bem" marinheiro sorrindo; chamada final COMENTE
-defeitos procurados: cenario (Amsterda do seculo XVII, canal, leilao), epoca (1637), tamanho (tulipa heroi visivel), cortado (ninguem cortado), multidao (compradores com roupas da epoca), legenda (texto no alto), acao (cada frase com a acao), objeto (tulipa no gancho e no fim)
+b0: OK - uma unica flor custou o preco de uma casa inteira: mercador com a tulipa listrada e o rico espantado com a moeda
+b1: OK - Holanda, tulipa chegou do Oriente, colorida, rara e na moda: mapa da Holanda, moinho e canteiro de tulipas coloridas
+b2: OK - num leilao um oferecia mil moedas e outro duas mil: dois ricos com moedas disputando o bulbo na sala
+b3: OK - o pais inteiro comprando, padeiros e sapateiros: placa TODO MUNDO e multidao no cais com tulipas
+b4: OK - trocou terras e casas por um unico bulbo: placa 1 CASA = 1 BULBO, rico com o papel e o mercador com a tulipa
+b5: OK - ninguem queria a flor, queriam revender mais caro: dois homens com papel e moeda e as tulipas amarela e roxa em close
+b6: OK - marinheiro comeu um bulbo achando que era cebola: marinheiro com a tulipa na mao e o mercador chocado na sala
+b7: OK - leilao de fevereiro, ninguem levantou a mao: placa LEILAO com o vendedor e os compradores parados
+b8: OK - a noticia correu, todo mundo quis vender: placa PANICO e multidao em choque no cais
+b9: OK - os precos desabaram, ficou com as flores e as dividas: rico com a tulipa, cara de dor, no canteiro
+b10: OK - o marinheiro almocou bem: marinheiro sorrindo no jardim
+b11: OK - chamada final COMENTE com o mercador e a tulipa
+pesquisa: mania das tulipas na Republica Holandesa 1636-1637, bulbo Semper Augustus vendido pelo preco de uma casa em Amsterda, leiloes em tavernas, colapso em fevereiro de 1637 em Haarlem, historia do marinheiro que comeu o bulbo (Mackay)
+defeitos procurados: cenario (Amsterda com casas de tijolo, moinho, canal) OK; epoca (1637, roupas e chapeus de epoca, sem objeto moderno) OK; tamanho (tulipas em vaso no tamanho certo) OK; cortado (ninguem cortado no leilao e no close das tulipas) OK; multidao (so no TODO MUNDO e no PANICO) OK; legenda (placas no alto) OK; acao (oferecer moeda, comer o bulbo, ninguem levanta a mao) OK; objeto (tulipas visiveis quando citadas) OK
