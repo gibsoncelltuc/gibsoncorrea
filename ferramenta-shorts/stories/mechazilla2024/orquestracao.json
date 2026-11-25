@@ -67,8 +67,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/booster_air",
-    "kit/tower"
+    "kit/booster_air"
    ],
    "palavras": 18,
    "cena": "b2",
@@ -151,8 +150,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/booster_air",
-    "kit/tower"
+    "kit/booster_air"
    ],
    "palavras": 12,
    "cena": "b6",

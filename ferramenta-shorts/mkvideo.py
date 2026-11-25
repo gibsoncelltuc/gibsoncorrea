@@ -1991,6 +1991,8 @@ def build_beat(k, b):
             if _m: _vis.add(_m.group(1))
             _pr2.append(_p)
         pr = _pr2
+    for d_, a_ in (('kit/balloon', 'kit/balloon_air'), ('kit/rocket', 'kit/falcon_air'), ('kit/tower', 'kit/booster_air')):   # 25/11 Paris: o mesmo objeto JA NO AR e parado = dois (balao de festa gigante no chao)
+        if any(f'"{a_}"' in x_ for x_ in pr): pr = [x_ for x_ in pr if f'asset: "{d_}"' not in x_]
     if pr: opts.append(f"props: [{', '.join(pr)}]")
     if fx: opts.append(f"fx: [{', '.join(fx)}]")
     call = f"S('b{k}', {a}, {bb}, X, {json.dumps(light)}, {{ {', '.join(opts)} }})"; _multi = False
@@ -2091,6 +2093,10 @@ for _b in beats:   # DECOLAGEM A RISCA: "decolou/lancado/subiu ao ceu" com fogue
         for _p in _b.get('props', []):
             _air = {'kit/rocket': 'kit/falcon_air', 'kit/balloon': 'kit/balloon_air', 'kit/tower': 'kit/booster_air'}.get(str(_p[0]))
             if _air and os.path.exists(f'web/assets/library/{_air}.glb'): _p[0] = _air
+for _b in beats:   # 25/11 Paris: balao/foguete JA NO AR na cena + a mesma palavra puxando o modelo parado = dois baloes (um de festa gigante no chao) -> fica so' o do ar
+    _ps_ = [str(p_[0]) for p_ in _b.get('props', [])]
+    _dup_ = {d_ for d_, a_ in (('kit/balloon', 'kit/balloon_air'), ('kit/rocket', 'kit/falcon_air'), ('kit/tower', 'kit/booster_air')) if a_ in _ps_}
+    if _dup_: _b['props'] = [p_ for p_ in _b['props'] if str(p_[0]) not in _dup_]
 # v13 EPOCA: troca sozinho o que a propria ferramenta poria fora de epoca (canhao antigo em guerra do seculo XX, castical/caixote em sala moderna)
 _ano_e = ANO or _ANO0
 _ERA_SWAP = (('cannon', 1900, 'kit/canhao_moderno'), ('mk/CandleStick_Stand', 1920, 'mk/Stool'), ('mk/CandleStick_Triple', 1920, 'mk/Vase_2'), ('mk/Crate_Wooden', 1965, 'mk/Crate_Metal'), ('mk/Barrel', 1945, 'mk/Crate_Metal'), ('barrel', 1945, 'mk/Crate_Metal'), ('crate', 1965, 'mk/Crate_Metal'))

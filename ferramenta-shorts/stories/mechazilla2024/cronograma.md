@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
-Gerado em 25/11 05:54 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:56 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,11 +8,11 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_patio | two | MUS, ENG | - | tower, tower_catch, tower_mini | - | Elon Musk mandou construir uma torre com braços gigantes, para pegar u
 b1 | transicao | loc_campo | reveal | POV, POV | 6 | tower | - | Foi em outubro de dois mil e vinte e quatro, na base de foguetes da Sp
-b2 | simples | loc_deserto | wide | ENG | - | booster_air, tower | - | Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre 
+b2 | simples | loc_deserto | wide | ENG | - | booster_air | - | Normalmente, a parte de baixo do foguete é descartada, ou pousa sobre 
 b3 | explicativa | loc_deserto | two | sem personagem | - | tower | corpo: kit/tower_catch (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som:  | A ideia de Musk: tirar as pernas do foguete, e fazer a própria torre a
 b4 | chave | loc_patio | crowd | ENA | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os engenheiros chamaram a torre de Mechazilla, e os braços de pauzinho
 b5 | simples | loc_patio | wide | ENG | - | booster_air | - | No dia do teste, o propulsor gigante decolou com trinta e três motores
-b6 | simples | loc_patio | wide | ENG | - | booster_air, tower | - | Minutos depois, ele voltou descendo de ré, direto na direção da torre.
+b6 | simples | loc_patio | wide | ENG | - | booster_air | - | Minutos depois, ele voltou descendo de ré, direto na direção da torre.
 b7 | chave | loc_patio | wide | ENA | - | tower, tower_catch | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, no último segundo, os braços se fecharam, e seguraram o 
 b8 | simples | loc_campo | wide | ENG | - | tower, tower_catch | - | Os engenheiros comemoraram: era a primeira vez na história.
 b9 | explicativa | loc_deserto | two | sem personagem | - | tower_catch | corpo: kit/booster_air (sobe); emissao: fogo; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada en | Assim, o propulsor que antes ia para o lixo pode voar de novo, várias 

@@ -227,6 +227,8 @@ grep -q "'grafico'" web/runtime.js && grep -q "GRAFICO DE LINHA (preco subindo/d
 grep -q "sem povo no roteiro, a multidao so' clonaria o Musk" mkvideo.py && grep -q "NUNCA vira multidao de clones, nem quando o roteiro" mkvideo.py || f "multidao de clones do personagem principal (Bateria/Musk)"
 grep -q "TIMING_SRC" mk_lingua.sh || f "versao em outra lingua troca de cena antes da frase (tempos da voz nova no lugar da original)"
 grep -q "roteiros/folhas da sessao preservados" sync_ferramenta.sh || f "sync da sessao sobrescreve o beats.json que a sessao editou (sessao B perdeu 6 roteiros)"
+grep -q "o mesmo objeto JA NO AR e parado" mkvideo.py || f "balao do cerco (no ar) + balao de festa gigante no chao na mesma cena (Paris b9)"
+grep -q "petri_mofo" mkvideo.py && grep -q "tampa=False" blender/objetos_refeitos.py || f "placa de Petri saia como disco branco fechado; mofo/bolor sem a placa com mofo (Fleming)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

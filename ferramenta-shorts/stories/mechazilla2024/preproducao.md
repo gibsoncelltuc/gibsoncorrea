@@ -6,11 +6,11 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_patio | two | 2 | conversar, INTERAGEM: aproxima-se | kit/tower_mini, kit/tower_catch, kit/tower | - | -
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | kit/tower | - | -
-b2 | loc_deserto | wide | 1 | discutir | kit/booster_air, kit/tower | paper | -
+b2 | loc_deserto | wide | 1 | discutir | kit/booster_air | paper | -
 b3 | loc_deserto | two | 0 | parados (so fala e pisca) | kit/tower | - | -
 b4 | loc_patio | crowd | 1 | conversar, batalha | kit/tower_catch, kit/tower | - | -
 b5 | loc_patio | wide | 1 | encena | kit/booster_air | - | -
-b6 | loc_patio | wide | 1 | reagir | kit/booster_air, kit/tower | - | -
+b6 | loc_patio | wide | 1 | reagir | kit/booster_air | - | -
 b7 | loc_patio | wide | 1 | encena, batalha | kit/tower_catch, kit/tower | - | -
 b8 | loc_campo | wide | 1 | comemorar | kit/tower_catch, kit/tower | - | -
 b9 | loc_deserto | two | 0 | parados (so fala e pisca) | kit/tower_catch | - | -
