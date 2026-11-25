@@ -4,32 +4,32 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 **Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 3.0s - 9 palavras - plano two
+## Cena b0 - 0.0s a 2.5s - 9 palavras - plano two
 > "Um bilionário vendeu lança-chamas jurando que não era lança-chamas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vendeu" (0.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vendeu" (0.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vendeu (0.7s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | vendeu (0.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | NÃO É LANÇA-CHAMAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: stars na palavra vendeu (0.7s): executa: estrelinhas + som
+- EFEITO: stars na palavra vendeu (0.6s): executa: estrelinhas + som
 - INTERACAO (a cena toda): executa: entregar
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 3.3s a 5.9s - 8 palavras - plano two
+## Cena b1 - 3.5s a 4.9s - 8 palavras - plano two
 > "E o motivo desse nome é bem esperto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (4.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "nome" (4.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -42,11 +42,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b2 - 6.3s a 10.4s - 12 palavras - plano wide
+## Cena b2 - 5.7s a 8.7s - 12 palavras - plano wide
 > "Em 2018, a empresa de túneis de Elon Musk lançou o aparelho."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (9.6s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lançou" (8.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -59,11 +59,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 10.7s a 14.1s - 10 palavras - plano two
+## Cena b3 - 9.7s a 12.9s - 10 palavras - plano two
 > "O nome era Não é um lança-chamas. Custava quinhentos dólares."
 
 - LEITURA DA FRASE: sentido FATO
-  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lança-chamas" (13.0s)
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "lança-chamas" (10.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -78,28 +78,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 14.4s a 16.7s - 7 palavras - plano two
+## Cena b4 - 13.6s a 15.5s - 7 palavras - plano two
 > "Acontece que ele soltava fogo de verdade."
 
 - LEITURA DA FRASE: sentido FATO
-  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Acontece" (14.4s)
+  1) MUS a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Acontece" (13.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | fogo (15.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 1 | fogo (15.0s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra fogo (15.9s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- EFEITO: burst na palavra fogo (15.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b5 - 17.0s a 20.4s - 10 palavras - plano group
+## Cena b5 - 16.1s a 18.9s - 10 palavras - plano group
 > "O nome servia para driblar a alfândega, que barrava lança-chamas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "driblar" (18.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "driblar" (17.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -114,30 +114,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 20.7s a 23.3s - 8 palavras - plano two
+## Cena b6 - 19.9s a 21.6s - 8 palavras - plano two
 > "E vinha com um extintor de incêndio junto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "extintor" (22.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "extintor" (20.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | incêndio (23.0s) | EFEITO: burst | estouro/clarao + som | OK |
+| 1 | incêndio (21.3s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra incêndio (23.0s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- EFEITO: burst na palavra incêndio (21.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
 - INTERACAO (a cena toda): executa: insiste
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 23.7s a 25.9s - 7 palavras - plano wide
+## Cena b7 - 22.3s a 24.5s - 7 palavras - plano wide
 > "Vinte mil unidades esgotaram em poucos dias."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esgotaram" (24.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esgotaram" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -151,30 +151,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - multidao de 16: parada, reagindo (laugh), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
-## Cena b8 - 26.3s a 28.9s - 8 palavras - plano two
+## Cena b8 - 25.1s a 27.2s - 8 palavras - plano two
 > "Isso rendeu cerca de dez milhões de dólares."
 
 - LEITURA DA FRASE: sentido FATO
-  1) MUS comemora a vitoria | na palavra "rendeu" (26.7s)
+  1) MUS comemora a vitoria | na palavra "rendeu" (25.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rendeu (26.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 1 | rendeu (25.5s) | ACAO: vence | bracos para cima + brilho | OK |
 | 2 | - | INTERACAO | pular | OK |
 | 3 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vence na palavra rendeu (26.7s): executa: bracos para cima + brilho
+- ACAO: vence na palavra rendeu (25.5s): executa: bracos para cima + brilho
 - INTERACAO (a cena toda): executa: pular
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
-## Cena b9 - 29.3s a 32.6s - 10 palavras - plano two
+## Cena b9 - 28.0s a 30.9s - 10 palavras - plano two
 > "O nome mentia, e todo mundo sabia. Foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mentia" (30.0s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mentia" (28.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
