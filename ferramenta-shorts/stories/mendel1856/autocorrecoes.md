@@ -294,3 +294,6 @@
 
 ## 25/11 08:14 autocorrecao de visibilidade
 - b6: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/pea_green" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 08:32 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/pea_yellow" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

@@ -26,6 +26,7 @@ objeto | caderno de anotacoes | caderno de anotacoes / caderno de anotacoes 1856
 objeto | vasos de plantas | vasos de plantas / vasos de plantas 1856 | Cienfuegos (Cuba) by Édouard Laplante and Leonardo (referencias/mendel1856/prints/vasos_de_plantas_731690.jpg); Planter Boat.jpg (referencias/mendel1856/prints/vasos_de_plantas_975a77.jpg)
 heroi | pea green | vagens e ervilhas amarelas e verdes / Mendel e as Ervilhas | NCI peas in pod.jpg (referencias/mendel1856/prints/pea_green_6f7e64.jpg); Fairbanks - Mendel Tall and Dwarf Pea Plants.jpg (referencias/mendel1856/prints/pea_green_b27a42.jpg); Gregor Mendel - characteristics of pea plants - en (referencias/mendel1856/prints/pea_green_d8c2da.jpg)
 heroi | pea yellow | pea yellow | Yellow peas.jpg (referencias/mendel1856/prints/pea_yellow_6aca8f.jpg); Pea protein milk with yellow split peas.jpg (referencias/mendel1856/prints/pea_yellow_a4be34.jpg); Goya yellow split peas.jpg (referencias/mendel1856/prints/pea_yellow_a3a1cc.jpg)
+mecanismo | Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am | acontece verde voltou ervilhas amarelas verde / pea green diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Mendel cruzou ervilhas (1856-1863), viu a proporcao 3:1 na segunda geracao, publicou em 1866 e foi redescoberto em 1900 (fonte: Wikipedia Gregor Mendel, Experiments on Plant Hybridization)

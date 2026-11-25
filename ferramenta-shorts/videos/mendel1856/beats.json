@@ -350,9 +350,7 @@
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
    "shot": "wide",
-   "who": [
-    "MEN:0:shock"
-   ],
+   "who": [],
    "impact": true,
    "tiros": false,
    "crowd": {
@@ -360,37 +358,37 @@
    },
    "props": [
     [
-     "kit/pea_yellow",
-     1.2,
-     -0.9,
-     3.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/pea_yellow",
-     2.0,
-     -1.2,
-     3.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/pea_yellow",
-     0.7,
-     -1.6,
-     3.2,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/pea_green",
-     -1.1,
-     0.3,
-     3.6,
+     0.0,
+     -1.0,
+     3.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     -1.8,
+     -1.0,
+     2.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     1.8,
+     -1.0,
+     2.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     0.0,
+     -2.6,
+     2.6,
      {
       "fixo": true
      }
@@ -437,23 +435,33 @@
    "text": "3 : 1",
    "detalhe": false,
    "fachada": false,
-   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "voltou"
+      "na": "verde"
      }
     ]
    },
    "set": "hall",
-   "cx": 0.5,
-   "cz": -0.4,
-   "h": 1.5,
-   "d0": 8.0,
-   "d1": 7.5,
-   "quadro_manual": true
+   "explica": {
+    "objeto": "kit/pea_green",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "O VERDE VOLTOU",
+      "topo",
+      "verde"
+     ],
+     [
+      "3 AMARELAS : 1 VERDE",
+      "baixo",
+      "conta"
+     ]
+    ]
+   },
+   "shot_lock": true
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
