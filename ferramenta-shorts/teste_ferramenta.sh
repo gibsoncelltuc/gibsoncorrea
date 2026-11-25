@@ -275,6 +275,7 @@ grep -q "Kekule: 'tat' do roteiro antigo" mkvideo.py || f "texto da cena caindo 
 grep -q "Melancia: o LOOP repete tambem o close" mkvideo.py || f "loop sem o close do objeto da 1a cena (Melancia)"
 grep -q 'teslaquila"' obj_dict.d/principal.json || f "garrafa qualquer virava a garrafa-raio da Teslaquila (Uisque)"
 grep -q "'storm', 'arctic', 'desert')" verificar_execucao.py || f "dia de neve (luz arctic) travava a verificacao (Curie)"
+grep -q "LEITURA x TELA AUTOMATICA" mkvideo.py || f "passo da leitura nao executado devolvia o storyboard (forcar manual)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

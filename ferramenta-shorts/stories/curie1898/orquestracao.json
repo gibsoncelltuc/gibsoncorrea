@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRO"
    ],
@@ -28,7 +28,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "close",
+   "camera": "two",
    "personagens": [
     "PES"
    ],
@@ -189,7 +189,7 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "PRO"
    ],

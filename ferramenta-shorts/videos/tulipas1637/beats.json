@@ -304,14 +304,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "negocio",
-      "na": "leilão",
-      "quem": 0
-     },
-     {
-      "faz": "paga",
-      "na": "mil",
-      "quem": 1
+      "quem": 0,
+      "faz": "mostra",
+      "alvo": "bulbo",
+      "na": "moedas"
      }
     ]
    },
@@ -393,7 +389,8 @@
      {
       "faz": "paga",
       "na": "bulbos",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
@@ -482,7 +479,8 @@
       "faz": "entrega",
       "na": "trocando",
       "quem": 0,
-      "alvo_quem": 1
+      "alvo_quem": 1,
+      "forcar": true
      }
     ]
    },
@@ -586,7 +584,8 @@
      {
       "faz": "x_abre",
       "na": "levantou",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    }
@@ -644,7 +643,8 @@
      {
       "faz": "negocio",
       "na": "desabaram",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },

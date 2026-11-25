@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Os cadernos de Marie Curie só podem ser lidos com proteção.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - E vão continuar radioativos por mais de mil anos.
 - Cenario: interior pedra | luz: dia | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PES (variante 0, expressao suspicious)
 - Animacao: conversar
@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Quem quiser ler, precisa de autorização. É por isso que...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
 - Objetos/modelos: kit/curie_box
@@ -114,7 +114,7 @@ crate | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote
 
 
 ## Video inteiro
-- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 17% | detalhe 2%
+- Objeto heroi: kit/curie_box | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 79% | aberto 7% | detalhe 2%
 - Interacoes: b3 vai ate o outro, b6 aproxima-se
 - RISCOS GERAIS: nenhum
 

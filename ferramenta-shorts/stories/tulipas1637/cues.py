@@ -42,5 +42,7 @@ gibber(F(_A[9] + int((_A[10] - _A[9]) * 0.2)), 4, 230, 0.12); gibber(F(_A[9] + i
 ding(F(int(_W(12))))
 thump(F(int(_W(14))))
 ding(F(int(_W(35))))
-ding(F(int(_W(28))))
+ding(F(int(_W(42))))
 tick(F(int(_W(55))))
+creak(F(int(_W(69))))
+ding(F(int(_W(74))))

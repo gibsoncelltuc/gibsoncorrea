@@ -1,10 +1,10 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 14 acoes catalogadas, 14 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 16 acoes catalogadas, 16 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 2.4s - 11 palavras - plano two
+## Cena b0 - 0.0s a 2.4s - 11 palavras - plano group
 > "Os cadernos de Marie Curie só podem ser lidos com proteção."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -14,7 +14,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | PLACA | PERIGO | OK |
 
-## Cena b1 - 3.1s a 5.2s - 9 palavras - plano close
+## Cena b1 - 3.1s a 5.2s - 9 palavras - plano two
 > "E vão continuar radioativos por mais de mil anos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -88,7 +88,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | Acontece (20.8s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 23.5s a 25.8s - 10 palavras - plano two
 > "Hoje, os cadernos dormem em caixas de chumbo em Paris."
@@ -100,7 +101,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b9 - 26.4s a 29.4s - 10 palavras - plano wide
+## Cena b9 - 26.4s a 29.4s - 10 palavras - plano group
 > "Quem quiser ler, precisa de autorização. É por isso que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -108,5 +109,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | PLACA | PERIGO | OK |
+| 1 | ler (27.0s) | ACAO: escreve | escreve/assina | OK |
+| 2 | - | PLACA | PERIGO | OK |
 
