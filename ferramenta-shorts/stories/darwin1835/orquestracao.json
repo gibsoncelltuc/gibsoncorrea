@@ -65,7 +65,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "wide",
@@ -90,7 +90,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "two",
@@ -156,7 +156,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "palace"
+   "cenario": "harbor"
   },
   {
    "camera": "two",

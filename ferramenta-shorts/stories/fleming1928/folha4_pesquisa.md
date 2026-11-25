@@ -4,9 +4,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Fleming e a Penicilina
 - Epoca: 1928 | Lugar: Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microscopio, janela, placas de vidro empilhadas | Quando: agosto e setembro de 1928 (ferias e a descoberta); Nobel em 1945
-- HEROIS (objeto): kit/petri, kit/gosma
+- HEROIS (objeto): kit/petri, kit/bancada, kit/gosma
 - HEROIS (personagens): FLE, COL
-- Cenarios: hall, interior madeira, interior pedra, loc_campo, loc_cidade
+- Cenarios: hall, interior madeira, interior pedra, loc_campo, street
 - Proibido pela epoca: canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -25,6 +25,7 @@ objeto | placa de Petri com mofo | placa de Petri com mofo / placa de Petri com 
 objeto | microscopio | microscopio / microscopio 1928 | Barbara McClintock (1902-1992) shown in her labora (referencias/fleming1928/prints/microscopio_2c3b7d.jpg); Fine rotative table Microscope 5 (12996283235).jpg (referencias/fleming1928/prints/microscopio_40f39a.jpg); Microscopio ottico.JPG (referencias/fleming1928/prints/microscopio_842347.jpg)
 objeto | frascos de vidro | frascos de vidro / frascos de vidro 1928 | Frasco de vidro romano MN 03.jpg (referencias/fleming1928/prints/frascos_de_vidro_2f15c7.jpg); Frasco ovóide, Casa Museu Eva Klabin.jpg (referencias/fleming1928/prints/frascos_de_vidro_cee1cd.jpg); Mulheres de Expressão (2367425033).jpg (referencias/fleming1928/prints/frascos_de_vidro_e6ba07.jpg)
 heroi | petri | placa de Petri com mofo / Fleming e a Penicilina | Synthetic Production of Penicillin TR1468.jpg (referencias/fleming1928/prints/petri_6a4ae5.jpg); Alexander Fleming 3.jpg (referencias/fleming1928/prints/petri_499d1a.jpg); Alexander Fleming 1945.jpg (referencias/fleming1928/prints/petri_98bb4d.jpg)
+heroi | bancada | bancada | SEM REFERENCIA
 heroi | gosma | gosma | GOSMA OSTAN.jpg (referencias/fleming1928/prints/gosma_0f0ea9.jpg); Purdue debris (1906) (14780904434).jpg (referencias/fleming1928/prints/gosma_adbf77.jpg)
 mecanismo | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d | soltava matava bacterias penicilina / petri diagram | Diagram of the petri dish.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_10ae28.jpg); Petri Net 2.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_a31f8c.jpg); Petri Net 3.png (referencias/fleming1928/prints/o_mofo_soltava_algo_que_matava_as_bact_r_ba227c.jpg)
 

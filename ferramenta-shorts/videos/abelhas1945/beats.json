@@ -123,9 +123,9 @@
    "props": [
     [
      "kit/beehive",
-     0.0,
-     -1.2,
-     1.5,
+     1.4,
+     -0.6,
+     1.0,
      {
       "fixo": true
      }
@@ -147,7 +147,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "interior": "madeira"
   },
   {
    "shot": "two",
@@ -637,7 +638,7 @@
    "text": "TESTE",
    "titulo": true,
    "say": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
-   "set": "loc_montanha",
+   "set": "countryside",
    "quadro": {
     "local": "loc_montanha",
     "camera": "plano de multidao; plano medio enquadrando personagens e beehive juntos (camera a 11.5 m)",

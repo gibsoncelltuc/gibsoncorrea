@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1945 | Lugar: Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo | Quando: verao de 1944-1945 (decifrou a danca), Nobel em dezembro de 1973
 - HEROIS (objeto): kit/beehive, kit/bee
 - HEROIS (personagens): FRI, COL
-- Cenarios: interior madeira, interior pedra, loc_campo, loc_estudio, loc_montanha
+- Cenarios: interior madeira, interior pedra, loc_campo, loc_estudio
 - Proibido pela epoca: canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

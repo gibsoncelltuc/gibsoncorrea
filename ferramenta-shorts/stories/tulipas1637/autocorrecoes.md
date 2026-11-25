@@ -46,3 +46,13 @@
 - b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/tulip_purple" menor e sem close (cobria o quadro)
 - b4: ja corrigida 3 vezes, objeto "kit/scroll" saiu com 0% da altura da tela, a ficha de cena planejou 7% -> fica para o olho
 - conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 00:41 autocorrecao de visibilidade
+- b1: objeto citado "kit/tulip_bed" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto citado "kit/tulip_purple" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b4: objeto "kit/scroll" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b5: objeto "kit/tulip_purple" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 00:42 autocorrecao de visibilidade
+- b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/tulip_purple" menor e sem close (cobria o quadro)
+- conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)

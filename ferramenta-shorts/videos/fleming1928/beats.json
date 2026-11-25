@@ -51,37 +51,38 @@
    "interior": "madeira",
    "props": [
     [
+     "kit/bancada",
+     0.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
      "kit/petri",
      0.0,
-     1.4,
-     2.0,
+     -0.4,
+     0.8,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 0.95
      }
     ],
     [
      "kit/gosma",
-     -1.6,
-     0.8,
-     0.57,
+     0.0,
+     -0.4,
+     0.4,
      {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/bancada",
-     0.6,
-     1.0,
-     1.5,
-     {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 1.0
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
@@ -106,7 +107,6 @@
      }
     ]
    },
-   "_auto_vis": 3,
    "detalhe": true
   },
   {
@@ -126,7 +126,7 @@
    },
    "mapa": "INGLATERRA",
    "mapa_at": 2,
-   "set": "loc_cidade"
+   "set": "street"
   },
   {
    "say": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
@@ -162,21 +162,35 @@
    "detalhe": true,
    "props": [
     [
+     "kit/bancada",
+     0.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
      "kit/petri",
      0.0,
-     -1.2,
-     2.0,
+     -0.4,
+     0.8,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 0.95
      }
     ],
     [
      "kit/gosma",
-     1.6,
-     -1.0,
-     1.5,
+     0.0,
+     -0.4,
+     0.4,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 1.0
      }
     ]
    ],
@@ -197,12 +211,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 1
+   }
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
@@ -212,21 +221,35 @@
    ],
    "props": [
     [
-     "kit/petri",
-     2.4,
-     0.2,
-     1.9,
+     "kit/bancada",
+     0.0,
+     -0.4,
+     1.0,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.0,
+     -0.4,
+     0.8,
+     {
+      "fixo": true,
+      "nocol": true,
+      "y": 0.95
      }
     ],
     [
      "kit/gosma",
-     0.6,
-     1.0,
-     1.5,
+     0.0,
+     -0.4,
+     0.4,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 1.0
      }
     ]
    ],
@@ -249,12 +272,7 @@
     ]
    },
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "detalhe": false,
-   "_auto_vis": 3
+   "detalhe": false
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -279,21 +297,35 @@
    "interior": "pedra",
    "props": [
     [
+     "kit/bancada",
+     0.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "nocol": true
+     }
+    ],
+    [
      "kit/petri",
      0.0,
-     -1.2,
-     1.2,
+     -0.4,
+     0.8,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 0.95
      }
     ],
     [
      "kit/gosma",
-     -1.6,
-     0.8,
-     0.57,
+     0.0,
+     -0.4,
+     0.4,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 1.0
      }
     ]
    ],
@@ -317,11 +349,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",

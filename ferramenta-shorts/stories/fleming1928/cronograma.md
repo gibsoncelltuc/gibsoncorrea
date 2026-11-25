@@ -1,18 +1,18 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Gerado em 25/11 00:14 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:42 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | interior madeira | two | FLE, COL | - | bancada, gosma, petri | - | Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
-b1 | transicao | loc_cidade | reveal | MED, MED | 8 | marco_bigben | - | Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era
+b1 | transicao | street | reveal | MED, MED | 8 | marco_bigben | - | Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era
 b2 | simples | interior madeira | two | FLE, COL | - | - | - | Ele estudava bactérias e deixava os pratos de cultura empilhados na ba
 b3 | chave | loc_campo | wide | FLE, COL | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Um dia, ele saiu de férias por um mês e não limpou nada.
-b4 | simples | interior pedra | two | COL, FLE | - | gosma, petri | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
-b5 | simples | interior pedra | close | FLE | - | gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
-b6 | simples | interior pedra | two | FLE, COL | - | gosma, petri | - | Acontece que, em volta do mofo, as bactérias tinham sumido.
+b4 | simples | interior pedra | two | COL, FLE | - | bancada, gosma, petri | - | Quando voltou, achou um prato estragado, coberto de bolor verde.
+b5 | simples | interior pedra | two | FLE | - | bancada, gosma, petri | - | Ele ia jogar o prato fora, mas olhou melhor.
+b6 | simples | interior pedra | two | FLE, COL | - | bancada, gosma, petri | - | Acontece que, em volta do mofo, as bactérias tinham sumido.
 b7 | explicativa | interior madeira | two | sem personagem | - | - | corpo: kit/petri (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em | O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d
 b8 | simples | interior pedra | group | MED, MED, POV | - | petri | - | Anos depois, outros cientistas transformaram o bolor em remédio, e ele
 b9 | chave | hall | orbit | FLE, COL | 14 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.
@@ -24,7 +24,7 @@ b11 | simples | interior madeira | two | FLE | - | - | - | Agora não deixe de c
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/13 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (13/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

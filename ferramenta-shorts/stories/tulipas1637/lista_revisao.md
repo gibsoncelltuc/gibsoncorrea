@@ -3,9 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b4: objeto citado "kit/scroll" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
-3. b4: objeto "kit/scroll" saiu com 0% da altura da tela, a ficha de cena planejou 7%
+1. b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Uma única flor já custou o preço de uma casa inteira.": 
