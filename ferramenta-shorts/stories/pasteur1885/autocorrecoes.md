@@ -85,3 +85,8 @@
 - b9: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:02 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), objeto "kit/seringa_pe" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

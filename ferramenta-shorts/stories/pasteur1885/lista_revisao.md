@@ -3,11 +3,9 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b9: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b0: objeto "kit/seringa_pe" saiu com 15% da altura da tela, a ficha de cena planejou 32%
-3. b7: objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-4. b7: objeto "kit/seringa_pe" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-5. b9: objeto "kit/bancada" saiu com 8% da altura da tela, a ficha de cena planejou 32%
+1. b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b7: objeto "kit/seringa_pe" saiu com 16% da altura da tela, a ficha de cena planejou 32%
+3. b9: objeto "kit/bancada" saiu com 15% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um menino de nove anos foi o primeiro vacinado contra a raiv": 
