@@ -1,0 +1,4 @@
+VISIBILIDADE: 3 FALHA(S)
+FALHA b5: objeto "kit/ball" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+FALHA b5: objeto "war/cannonballs" saiu com 8% da altura da tela, a ficha de cena planejou 18%
+FALHA b7: objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 32%

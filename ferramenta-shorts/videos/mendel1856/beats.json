@@ -81,15 +81,15 @@
     ]
    },
    "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   }
+   "d1": 10.0
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -162,15 +162,15 @@
      }
     ]
    },
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   }
+   "d1": 10.0
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -202,15 +202,15 @@
     ]
    },
    "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   }
+   "d1": 10.0
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -257,16 +257,16 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0,
    "fachada": false,
    "crowd": {
     "n": 0
    },
-   "detalhe": false
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -357,12 +357,12 @@
    },
    "text": "3 : 1",
    "detalhe": false,
+   "fachada": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false
+   "d1": 10.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -444,12 +444,12 @@
     ]
    },
    "detalhe": false,
+   "fachada": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false
+   "d1": 10.0
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -481,15 +481,15 @@
     ]
    },
    "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   }
+   "d1": 10.0
   }
  ],
  "visual": {

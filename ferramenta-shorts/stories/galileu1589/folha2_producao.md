@@ -20,10 +20,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/pisa_tower: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +30 da cena
 - SOM: thump@30
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): mesmo angulo
-  - take 2 (1.9-3.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (3.7-5.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (0.2-2.2 s): mesmo angulo
+  - take 2 (2.2-4.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - Conta a história que, em Pisa, na Itália, por volta de mil quinhentos ...
@@ -43,11 +42,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ALU na esquerda, expressao smile; ALU na direita, expressao neutral; multidao de 8 (ALU) ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: ITÁLIA (cobre a tela 1-2 s)
-- TAKES: 4 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (5.9-7.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (7.8-9.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (9.8-11.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 4 (11.8-13.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 4 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (5.4-7.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (7.1-8.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (8.7-10.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 4 (10.3-12.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b2 - O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, ma...
@@ -66,10 +65,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ARI na esquerda, expressao smug; ALU na direita, expressao bored; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (14.1-15.9 s): mesmo angulo
-  - take 2 (15.9-17.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (17.8-19.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (13.4-15.0 s): mesmo angulo
+  - take 2 (15.0-16.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 3 (16.5-18.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b3 - Mas Galileu Galilei achou estranho e resolveu provar o contrário.
@@ -88,9 +87,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e ball juntos (camera a 11.5 m)
 - PERSONAGENS: ALU na esquerda, expressao smug; ALU no centro, expressao bored; PRO na direita, expressao smug; sem multidao; acao: conversar
 - OBJETO kit/ball: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (20.0-21.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (21.6-23.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
+  - take 1 (19.2-20.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (20.6-22.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b4 - Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pes...
@@ -110,11 +109,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: GAL no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.5 m de altura x 1.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 3 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (23.7-25.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (25.6-27.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (27.4-29.3 s): mesmo angulo
+- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 12.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TAKES: 2 takes (troca de angulo a cada ~2.0 s, sem corte seco):
+  - take 1 (23.2-25.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (25.2-27.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo ...
@@ -132,14 +130,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: GAL no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 3.8 m de altura x 6.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 12.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
 - SOM: ding@60
-- TAKES: sequencia de acao em 3 cameras (4.8 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (4.0 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - Hoje se discute se isso aconteceu mesmo, porque a história vem de um a...
@@ -158,10 +156,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: GAL na esquerda, expressao neutral, segura book; ALU na direita, expressao suspicious; sem multidao; acao: cochichar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 3 takes (troca de angulo a cada ~2.0 s, sem corte seco):
-  - take 1 (34.8-36.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (36.8-38.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (38.7-40.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (34.0-35.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (35.6-37.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 3 (37.1-38.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
 ## Cena b7 - Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um ...
@@ -180,12 +178,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e hammer juntos (camera a 8.0 m)
 - PERSONAGENS: AST no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO tools/hammer: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/feather: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/feather: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 0.2 m de altura x 5.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +70 da cena
 - SOM: ding@40
 - SOM: thump@70
-- TAKES: sequencia de acao em 3 cameras (8.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (6.3 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b8 - No fim, até a pena deu razão ao Galileu.
@@ -204,9 +202,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: close (rosto e ombros)
 - PERSONAGENS: GAL no centro, expressao smug; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (49.6-51.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (51.1-52.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
@@ -247,8 +243,8 @@ kit/feather | b7 | pronto | conferir na folha de contato se le bem; se parecer c
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (53.0-55.2 s): mesmo angulo
-  - take 2 (55.2-57.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (50.9-52.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (52.6-54.3 s): mesmo angulo
 <!-- /FICHA -->
 
