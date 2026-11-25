@@ -366,7 +366,7 @@
     ],
     [
      "kit/pea_yellow",
-     -7.0,
+     11.0,
      -14.0,
      3.6,
      {
@@ -415,7 +415,7 @@
      },
      {
       "objeto": "kit/pea_yellow",
-      "lugar": "FUNDO, esquerda",
+      "lugar": "FUNDO, direita",
       "tela": "18% da altura da tela",
       "estado": "parado"
      }
