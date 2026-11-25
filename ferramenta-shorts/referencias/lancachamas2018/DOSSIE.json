@@ -42,6 +42,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "kit/bancada",
   "kit/coin",
   "kit/extinguisher",
   "kit/fire",

@@ -182,6 +182,13 @@ grep -q "londres|paris" mkvideo.py || f "historia em cidade grande (Londres) per
 grep -q "_banho" mkvideo.py && grep -q "transbordou|transbordaram" mkvideo.py || f "entrar na banheira/agua transbordando nao aparece (Arquimedes)"
 grep -q "storyboard.cenas" make_video.sh && grep -q "nenhuma cena" aprovar_storyboard.sh || f "storyboard aprovado fica \"versao ANTIGA\" so' porque a ferramenta mudou (sessao A)"
 grep -q "_shot_autor" enquadrar.py || f "enquadrar desfaz shot/who que o roteiro mudou (sessao A)"
+python3 -c "
+import encenacao as E
+B={'beats':[{'say':'ele entrou na banheira e a agua transbordou','who':['ARQ:0:shock'],'encena':{'sentido':'afirmativa','passos':[{'quem':0,'faz':'entra_em','alvo':'kit/bathtub','na':'entrou'},{'alvo':'kit/bathtub','faz':'transborda','na':'transbordou'}]}},{'say':'nenhum soldado deu um tiro','encena':{'sentido':'negativa','passos':[]}},{'say':'sem leitura'},{'say':'ele voou','encena':{'sentido':'afirmativa','passos':[{'quem':0,'faz':'levita','na':'voou'}]}}]}
+R=E.validar(B); E.aplicar(B, lambda n:[0.0]*n, [1.3])
+ok = any('SEM LEITURA' in m for i,m in R) and any('FALTA ANIMACAO' in m for i,m in R) and B['beats'][1]['tiros'] is False and any(a['tipo']=='senta' for a in B['beats'][0]['acoes']) and B['beats'][0]['_splash_na']
+raise SystemExit(0 if ok else 1)" || f "encenacao escrita (sentido + passos) nao funciona"
+grep -q "_ENC.aplicar" mkvideo.py && grep -q "FALTA A LEITURA ESCRITA" aprovar_storyboard.sh || f "encenacao escrita nao esta ligada no motor/aprovacao"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----

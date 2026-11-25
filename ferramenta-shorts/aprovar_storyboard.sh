@@ -17,6 +17,9 @@ f = [x for x in V['falhas'] if re.match(r'b\d+', x).group(0) not in ok]
 if f: print('VISIBILIDADE REPROVADA (corrija o beats.json e gere o storyboard de novo):\n  ' + '\n  '.join(f)); sys.exit(1)
 print('visibilidade OK')
 PYV
+# 25/11 LEITURA ESCRITA (Gibson: "a ferramenta tem que entender o contexto de cada frase"): quem aprova LEU cada frase e escreveu no beats o "encena" (sentido + passos)
+python3 mkvideo.py $ID >/dev/null 2>&1; python3 ficha_nas_folhas.py $ID >/dev/null 2>&1
+if [ -s stories/$ID/encenacao_falta.txt ]; then echo "FALTA A LEITURA ESCRITA de frases (encenacao.py): leia cada frase e escreva no beats.json o \"encena\": {\"sentido\": afirmativa|negativa|hipotese|figurada|fato, \"passos\": [{quem, faz, alvo, na}]}:"; sed 's/^/  /' stories/$ID/encenacao_falta.txt; exit 1; fi
 H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")
 # 25/11 (sessao A): a ferramenta muda o tempo todo (sync de 1 min); se o hash das folhas mudou mas NENHUMA CENA mudou (mesmo desenho de cada cena), o storyboard olhado continua valendo
 if [ "$(cat stories/$ID/storyboard.hash 2>/dev/null)" != "$H" ] && [ -s stories/$ID/storyboard.cenas ]; then python3 mkvideo.py $ID >/dev/null 2>&1; python3 ficha_nas_folhas.py $ID >/dev/null 2>&1; ./build3.sh $ID >/dev/null 2>&1; H=$(python3 -c "import json;print(json.load(open('stories/$ID/folhas.json'))['hash_producao'])")

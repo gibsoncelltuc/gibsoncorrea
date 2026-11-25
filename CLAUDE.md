@@ -131,3 +131,8 @@ PENDENCIAS EM 24/11 19:35: Lagosta b7 na refazer.txt (depois: revisao_final ja q
 ## REVISAO GERAL DOS 50 ROTEIROS (24/11 23h, ordem do Gibson: "parar tudo, corrigir tudo, depois renderizar do comeco")
 - As 3 sessoes foram paradas; a principal corrigiu TODOS os 50 roteiros pendentes (13 principal + Tulipas, 19 A, 17 B) frase a frase e cena a cena: 0 risco, 0 suspeita, coerencia OK. Renders/storyboards antigos apagados; as 3 filas religadas do comeco (queue.txt de cada uma).
 - Regras novas na ferramenta (suspeitas.py --corrigir roda sozinho na fila; teste_ferramenta.sh cobre): celular/app/internet sem tela (celular so >=2007, TV >=1950); congresso/assembleia/eleitores = multidao; BATALHA escondida em frase sem luta e' desligada; MULTIDAO SEM MOTIVO em cena intima e' tirada; momento automatico nunca dentro de sala; tropa/armas so' em cena de luta; "Batalha dos X" (nome de evento) nao e' luta; "ninguem atirava" sem tiro; duracao nao usa voz de texto antigo.
+
+## LEITURA ESCRITA DE CADA FRASE (25/11, pedido do Gibson: "solucao definitiva para a ferramenta entender o contexto")
+- A ferramenta (codigo) nao entende frase; quem entende e' a IA. Toda frase leva no beats.json o "encena": {"sentido": afirmativa|negativa|hipotese|figurada|fato, "passos": [{quem, faz, alvo, na}]} escrito por quem LEU a frase (encenacao.py; GUIA "LEITURA ESCRITA"). A ferramenta so' executa; a folha 3 mostra a leitura passo a passo.
+- aprovar_storyboard.sh RECUSA sem leitura em todas as frases. Passo com verbo que a ferramenta nao tem = FALTA ANIMACAO (trava): construir a animacao, nunca pular.
+- Novos verbos de 25/11: anda_ate (entra andando ate o objeto), entra_em (entra e senta DENTRO do recipiente), transborda (agua azul espirrando pela borda na palavra).
