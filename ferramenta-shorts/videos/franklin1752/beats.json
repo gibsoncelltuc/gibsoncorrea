@@ -79,7 +79,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -182,7 +183,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -223,8 +225,8 @@
    "props": [
     [
      "kit/key",
-     1.0,
-     0.5,
+     3.6,
+     -2.0,
      2.0,
      {
       "fixo": true
@@ -232,8 +234,8 @@
     ],
     [
      "kit/kite",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.6,
      {
       "fixo": true
@@ -242,11 +244,11 @@
    ],
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "orbit; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/kite",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
@@ -257,7 +259,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -316,7 +323,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 15.4 m, altura 2.4 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lightning_rod",
@@ -325,9 +332,9 @@
       "estado": "parado"
      },
      {
-      "objeto": "kit/lightning_rod",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "objeto": "buildings/house_two",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -388,5 +395,6 @@
    "pipa": "Benjamin West Franklin drawing electricity from the sky",
    "cidade": "colonial Philadelphia 1750 street"
   }
- }
+ },
+ "max_wide": 3
 }

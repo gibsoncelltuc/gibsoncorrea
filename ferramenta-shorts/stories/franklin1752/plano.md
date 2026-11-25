@@ -10,9 +10,9 @@ b4 | group | - chuva | - | encena: prende (push) @7 (acao + som de efeito) | -
 b5 | close | - tempestade | interior | - | -
 b6 | orbit | - tempestade | batalha aberta com tiros, tropa, objeto na mao | encena: brilha (point) @11 (acao + som de efeito); encena: pula @12 (acao + som de efeito) | -
 b7 | two | -  | interior | - | -
-b8 | group | - limpo | batalha aberta com tiros, tropa, placa: PARA-RAIOS | encena: vira (up) @2 (acao + som de efeito) | -
+b8 | wide | - limpo | batalha aberta com tiros, tropa, placa: PARA-RAIOS | encena: vira (up) @2 (acao + som de efeito) | -
 b9 | close | -  | interior | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque) | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 25% | medio 61% | aberto 11% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 2 | dentro do padrao do canal
+Mistura de planos: close 27% | medio 56% | aberto 14% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

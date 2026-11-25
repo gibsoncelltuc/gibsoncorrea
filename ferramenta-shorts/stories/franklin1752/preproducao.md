@@ -12,7 +12,7 @@ b4 | countryside | group | 2 | conversar, INTERAGEM: avanca e o outro recua | ki
 b5 | interior loja | close | 1 | reagir | kit/kite, kit/key | - | -
 b6 | countryside | orbit | 1 | reagir, batalha | kit/key, kit/kite | key | -
 b7 | interior madeira | two | 2 | discutir, INTERAGEM: cochichar | kit/kite | - | -
-b8 | street | group | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_two, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
+b8 | street | wide | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_two, buildings/house_small, nature/picket_fence, nature/tree_oak | - | -
 b9 | interior pedra | close | 1 | conversar | kit/key | - | -
 b10 | street | close | 1 | conversar | - | - | -
 

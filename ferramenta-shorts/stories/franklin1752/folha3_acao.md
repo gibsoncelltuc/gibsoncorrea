@@ -139,7 +139,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b8 - 46.5s a 50.6s - 15 palavras - plano group
+## Cena b8 - 46.5s a 50.6s - 15 palavras - plano wide
 > "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

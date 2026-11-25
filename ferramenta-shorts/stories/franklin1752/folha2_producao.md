@@ -179,8 +179,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Franklin então inventou o para-raios, e hoje ele protege casas e prédi...
 - Cenario: street | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FRA (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/lightning_rod, buildings/house_two, buildings/house_small, nature/picket_fence, nature/tree_oak
@@ -246,7 +246,7 @@ nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 2 | mistura: close 25% | medio 61% | aberto 11% | detalhe 4%
+- Objeto heroi: kit/kite | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 14% | detalhe 4%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b7 cochichar
 - RISCOS GERAIS: nenhum
 
