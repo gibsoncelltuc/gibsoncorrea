@@ -100,7 +100,8 @@
    "h": 1.5,
    "d0": 8.0,
    "d1": 7.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -129,7 +130,8 @@
     ]
    },
    "set": "medieval",
-   "fachada": false
+   "fachada": false,
+   "objetos": false
   },
   {
    "say": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
@@ -211,7 +213,8 @@
    "d1": 7.0,
    "quadro_manual": true,
    "h": 1.4,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "objetos": false
   },
   {
    "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
@@ -262,7 +265,8 @@
    "d1": 7.0,
    "quadro_manual": true,
    "h": 1.4,
-   "interior": "pedra"
+   "interior": "pedra",
+   "objetos": false
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -283,7 +287,8 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "objetos": false
   },
   {
    "say": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
@@ -347,7 +352,8 @@
    "h": 1.4,
    "d0": 8.0,
    "d1": 7.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "objetos": false
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
@@ -455,7 +461,8 @@
    "h": 1.3,
    "d0": 7.5,
    "d1": 6.5,
-   "interior": "pedra"
+   "interior": "pedra",
+   "objetos": false
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -475,7 +482,8 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "objetos": false
   },
   {
    "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
@@ -498,7 +506,8 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "objetos": false
   },
   {
    "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
@@ -588,7 +597,8 @@
    "d0": 7.5,
    "d1": 6.5,
    "quadro_manual": true,
-   "interior": "pedra"
+   "interior": "pedra",
+   "objetos": false
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -639,7 +649,8 @@
    "h": 1.4,
    "d0": 8.0,
    "d1": 7.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "objetos": false
   }
  ],
  "visual": {

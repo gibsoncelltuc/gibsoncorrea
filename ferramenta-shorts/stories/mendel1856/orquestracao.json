@@ -27,7 +27,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green",
     "kit/vagem_verde"
    ],
    "palavras": 14,
@@ -46,13 +45,7 @@
     "FRE"
    ],
    "multidao": 6,
-   "objetos": [
-    "buildings/barn",
-    "nature/flowerbed",
-    "nature/haybale",
-    "nature/picket_fence",
-    "nature/scarecrow"
-   ],
+   "objetos": [],
    "palavras": 19,
    "cena": "b1",
    "frase": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
@@ -69,7 +62,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green",
     "kit/vagem_amarela",
     "kit/vagem_verde"
    ],
@@ -124,7 +116,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green",
     "kit/vagem_amarela"
    ],
    "palavras": 14,
@@ -144,7 +135,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/pea_green",
     "kit/vagem_amarela",
     "kit/vagem_verde"
    ],
@@ -229,7 +219,6 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green",
     "kit/vagem_verde"
    ],
    "palavras": 8,

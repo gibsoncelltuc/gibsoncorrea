@@ -40,10 +40,8 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/barn",
   "kit/bancada",
   "kit/lupa",
-  "kit/pea_green",
   "kit/room_azul_stone",
   "kit/room_colonial_stone",
   "kit/room_europa_wood",
@@ -68,11 +66,7 @@
   "mk/Table_Large",
   "mk/Vase_2",
   "mk/Vase_4",
-  "mk/Workbench_Drawers",
-  "nature/flowerbed",
-  "nature/haybale",
-  "nature/picket_fence",
-  "nature/scarecrow"
+  "mk/Workbench_Drawers"
  ],
  "pesquisa_visual": {
   "local": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca",
