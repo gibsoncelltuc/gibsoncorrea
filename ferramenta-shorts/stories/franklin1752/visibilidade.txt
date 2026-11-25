@@ -1,3 +1,0 @@
-VISIBILIDADE: 2 FALHA(S)
-FALHA b8: "buildings/house_two" cobrindo a tela (72% do quadro: so' se ve uma parede/casco)
-FALHA b8: objeto ENORME "kit/lightning_rod" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close

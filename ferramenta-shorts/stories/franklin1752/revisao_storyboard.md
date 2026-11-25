@@ -1,5 +1,5 @@
 pesquisa: moodboard e comparativo olhados (pipa de losango, chave, para-raios); roupas e cidade de 1752 conferidas.
-defeitos procurados: personagem cortado, objeto citado pequeno/escondido, relampago ausente na palavra raio, faisca sem chave na mao, para-raios pequeno, interior em cena de tempestade externa.
+defeitos procurados: cenario (certo), epoca (sem objeto fora de epoca), tamanho (objetos legiveis), cortado (nenhum personagem cortado), multidao (so onde a frase pede), legenda (sem texto cobrindo), acao (cada frase tem o gesto), objeto (citados aparecem).
 b0: OK - tempestade com chuva e pipa de losango visivel atras de Franklin e do filho; relampago programado na palavra "raio" (fx raio no spec).
 b1: OK - mapa ESTADOS UNIDOS e praca da Filadelfia de epoca com gente, sem tiro.
 b2: OK - interior de madeira, dois personagens assustados com a ideia de castigo dos ceus.

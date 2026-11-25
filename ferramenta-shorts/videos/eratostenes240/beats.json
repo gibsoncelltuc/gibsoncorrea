@@ -100,12 +100,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "examina",
-      "na": "mediu"
+      "na": "mediu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -190,12 +189,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_le",
-      "na": "leu"
+      "na": "leu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -248,14 +246,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Isso"
+      "na": "significava"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -338,10 +335,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Em"
+      "na": "fincada"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -393,15 +389,14 @@
    "d0": 8.4,
    "d1": 8.0,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "hipotese",
     "passos": [
      {
-      "quem": 0,
       "faz": "pensa",
-      "na": "pensou"
+      "na": "pensou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -502,10 +497,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "diferente"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -553,17 +547,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "examina",
-      "na": "mediu"
+      "na": "mediu",
+      "quem": 0
      },
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "contou"
+      "na": "contou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -579,12 +572,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "encontrou"
+      "na": "encontrou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -647,14 +639,13 @@
    "d1": 11.0,
    "_auto_vis": 1,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "No"
+      "na": "poço"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

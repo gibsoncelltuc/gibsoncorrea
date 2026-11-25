@@ -76,11 +76,27 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "x_solta",
+      "na": "soltou"
+     },
+     {
+      "quem": 0,
+      "faz": "pega",
+      "na": "pegar"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -180,11 +196,22 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "prende",
+      "na": "prendeu"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -260,11 +287,27 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "brilha",
+      "na": "faisca"
+     },
+     {
+      "quem": 0,
+      "faz": "pula",
+      "na": "pulou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_enq_shot": "two"
+   "d1": 8.0
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -274,7 +317,17 @@
     "COM:0:suspicious",
     "FRA:0:relief"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Hoje"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
@@ -293,16 +346,16 @@
      "kit/lightning_rod",
      0.0,
      -2.0,
-     2.2,
+     1.5,
      {
       "fixo": true
      }
     ],
     [
      "buildings/house_two",
-     0.0,
-     -6.0,
-     1.0,
+     -3.0,
+     -10.0,
+     0.7,
      {
       "fixo": true
      }
@@ -323,7 +376,7 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o lightning_rod (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/lightning_rod",
@@ -341,10 +394,21 @@
    },
    "cx": 0,
    "cz": -2,
-   "h": 3.0,
-   "d0": 11,
-   "d1": 9,
-   "quadro_manual": true
+   "h": 2.6,
+   "d0": 14,
+   "d1": 12,
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "vira",
+      "na": "inventou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",

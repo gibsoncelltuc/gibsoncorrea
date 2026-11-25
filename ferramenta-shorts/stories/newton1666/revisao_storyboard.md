@@ -1,5 +1,5 @@
 pesquisa: moodboard e comparativo olhados; macieira, fazenda inglesa, roupa de 1666, maca vermelha comparada com a foto (kit/apple OK).
-defeitos procurados: personagem cortado, maca escondida, maca virando hospital, multidao sem motivo, tiro/explosao em frase pacifica, predio de outra epoca, texto cobrindo legenda.
+defeitos procurados: cenario (certo), epoca (sem objeto fora de epoca), tamanho (objetos legiveis), cortado (nenhum personagem cortado), multidao (so onde a frase pede), legenda (sem texto cobrindo), acao (cada frase tem o gesto), objeto (citados aparecem).
 b0: OK - Newton com livro e maca grande visivel no campo (gancho da maca).
 b1: OK - mapa INGLATERRA e cena da peste/universidade sem tiro.
 b2: OK - Newton e a mae na fazenda, ambos inteiros no quadro.

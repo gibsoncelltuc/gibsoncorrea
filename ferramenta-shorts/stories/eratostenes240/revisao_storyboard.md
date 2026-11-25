@@ -1,12 +1,12 @@
-pesquisa: o quadro de referencias traz as piramides de Gize, a gravura de Eratostenes, fotos antigas de caravana de camelos, rolos de papiro, um poco de deserto e globos antigos; descartei os prints errados (mapa de batimetria, mulher sentada, homem de oculos, pessoa pintando, pa de pedreiro, estacao de trem amarela, pedacos de ceramica, rotas comerciais, folheto de guerra, senhores sentados, arvores sem folha). Comparei com o storyboard: deserto de areia com poco de pedra, palmeiras, vara fincada, globo azul e piramides de fundo, de acordo com o Egito antigo.
-defeitos procurados: cenario (praia verde com palmeiras em Alexandria, deserto amarelo no poco de Siena, montanhas pontudas na cena da vara que lembram piramides; nao ha predio moderno), epoca (tunicas e gravatas sao do figurino do canal, sem objeto moderno alem do satelite pedido no final), tamanho (globo, poco e vara proporcionais aos dois personagens), cortado (visibilidade 21 tomadas sem falha), multidao (so poucos personagens e a caravana no mapa, sem clones), legenda (texto EGITO e COMENTE fora da faixa da legenda), acao (andar entre as cidades, medir a sombra, apontar o globo), objeto (poco, vara, globo, papiro e satelite aparecem nas frases que os citam).
-b0: OK - um homem mediu o tamanho do planeta usando so uma vara e a sombra dela: dois personagens com um globo azul diante de palmeiras num gramado.
-b1: OK - era por volta de duzentos e quarenta antes de Cristo e Eratostenes era o bibliotecario da cidade de Alexandria no Egito: mapa do Egito com marcador e personagens diante de uma biblioteca de colunas.
-b2: OK - ele leu num papiro que em Siena ao meio-dia de verao o sol iluminava o fundo de um poco: dois personagens com um papel diante de um poco de pedra no deserto.
-b3: OK - isso significava que o sol estava bem em cima e nada fazia sombra: os dois ao redor do poco no deserto com raios de luz.
-b4: OK - em Alexandria no mesmo dia uma vara fincada no solo fazia uma sombra pequena: personagem ao lado de uma vara fincada na terra com palmeiras e montanhas ao fundo.
-b5: OK - ele pensou se a Terra fosse plana as duas sombras seriam iguais: personagem pensativo ao lado do globo azul no chao.
-b6: OK - acontece que a sombra era diferente e isso so podia acontecer se a Terra fosse curva: camera girando em volta do globo azul com o personagem ao lado.
-b7: OK - ele mediu o angulo da sombra e contou os passos entre as duas cidades: dois personagens andando lado a lado diante da biblioteca.
-b8: OK - com uma conta simples encontrou um numero muito perto do tamanho real da Terra: os dois numa sala de pedra conversando com um papel.
-b9: OK - no fim uma vara e um poco fizeram o trabalho de um satelite: personagem de bracos abertos entre o poco, a vara e um satelite azul.
+pesquisa: moodboard e comparativo olhados (vara/gnomon, poco, globo, papiro, Farol de Alexandria ao fundo); cenario egipcio com palmeiras e predios claros.
+defeitos procurados: cenario (egipcio, certo), epoca (240 a.C., sem objeto moderno), tamanho (vara, poco e globo legiveis), cortado (nenhum personagem cortado), multidao (so onde a frase pede), legenda (sem texto cobrindo), acao (cada frase tem o gesto), objeto (citados aparecem).
+b0: OK - Eratostenes e bibliotecario com a vara ao fundo e o globo do planeta no centro, Farol ao fundo.
+b1: OK - mapa EGITO e praca com os bibliotecarios, epoca certa.
+b2: OK - Eratostenes lendo o papiro ao lado do poco de pedra e palmeiras.
+b3: OK - poco visivel com os dois personagens, sol alto, sem sombra.
+b4: OK - cena de explicacao com vara fincada e sombra pequena (HUD ALEXANDRIA: SOMBRA PEQUENA).
+b5: OK - Eratostenes pensou se a Terra fosse plana e as duas sombras iguais: pensando ao lado do globo da Terra, expressao de duvida.
+b6: OK - globo grande e sombra diferente na explicacao, orbita ao redor do globo.
+b7: OK - Eratostenes mede/anda entre as duas cidades, vara visivel.
+b8: OK - Eratostenes com a conta no papel e o bibliotecario surpreso.
+b9: OK - no fim, uma vara e um poco fizeram o trabalho de um satelite: vara e poco em plano aberto, fecho com COMENTE.
