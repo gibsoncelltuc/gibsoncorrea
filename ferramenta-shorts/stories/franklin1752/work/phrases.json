@@ -1,0 +1,135 @@
+{
+ "duration": 31.896,
+ "frames30": 957,
+ "source": "silence-align (cost 1.49)",
+ "segments": [
+  [
+   0.0,
+   2.90858
+  ],
+  [
+   3.28804,
+   5.96175
+  ],
+  [
+   6.32604,
+   8.10558
+  ],
+  [
+   8.306,
+   11.2963
+  ],
+  [
+   11.6736,
+   14.5532
+  ],
+  [
+   14.9283,
+   17.7881
+  ],
+  [
+   18.1566,
+   19.7492
+  ],
+  [
+   20.077,
+   21.6413
+  ],
+  [
+   22.0204,
+   23.4471
+  ],
+  [
+   23.6684,
+   24.5653
+  ],
+  [
+   24.9408,
+   26.2407
+  ],
+  [
+   26.514,
+   28.2777
+  ],
+  [
+   28.6548,
+   29.811
+  ],
+  [
+   30.1909,
+   31.4527
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um homem soltou uma pipa na tempestade para pegar um raio.",
+   "s": 0.0,
+   "e": 2.909
+  },
+  {
+   "text": "E o que ele descobriu protege a sua casa at\u00e9 hoje.",
+   "s": 3.288,
+   "e": 5.962
+  },
+  {
+   "text": "Em 1752,",
+   "s": 6.326,
+   "e": 8.106
+  },
+  {
+   "text": "Benjamin Franklin queria provar que raio era eletricidade.",
+   "s": 8.306,
+   "e": 11.296
+  },
+  {
+   "text": "Muita gente achava que o raio era castigo dos c\u00e9us.",
+   "s": 11.674,
+   "e": 14.553
+  },
+  {
+   "text": "Contam que ele prendeu uma chave de metal na linha da pipa.",
+   "s": 14.928,
+   "e": 17.788
+  },
+  {
+   "text": "Acontece que a nuvem passou,",
+   "s": 18.157,
+   "e": 19.749
+  },
+  {
+   "text": "e uma fa\u00edsca pulou da chave.",
+   "s": 20.077,
+   "e": 21.641
+  },
+  {
+   "text": "Se um raio ca\u00edsse na pipa,",
+   "s": 22.02,
+   "e": 23.447
+  },
+  {
+   "text": "ele teria morrido.",
+   "s": 23.668,
+   "e": 24.565
+  },
+  {
+   "text": "Da\u00ed nasceu o para-raios,",
+   "s": 24.941,
+   "e": 26.241
+  },
+  {
+   "text": "que protege pr\u00e9dios no mundo inteiro.",
+   "s": 26.514,
+   "e": 28.278
+  },
+  {
+   "text": "Coragem ou loucura?",
+   "s": 28.655,
+   "e": 29.811
+  },
+  {
+   "text": "S\u00f3 sei que foi assim que...",
+   "s": 30.191,
+   "e": 31.453
+  }
+ ]
+}

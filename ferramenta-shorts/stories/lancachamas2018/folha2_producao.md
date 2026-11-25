@@ -96,12 +96,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b4 - Acontece que ele soltava fogo de verdade.
-- Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
-- Personagens principais (1): MUS (variante 0, expressao laugh, segura torch)
+- Cenario: loc_deserto | luz: golden | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MUS (variante 0, expressao laugh, segura torch) | multidao: 18 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/bancada, kit/flamethrower, kit/fire
+- Objetos/modelos: kit/flamethrower, kit/fire, kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -111,8 +111,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh, segura torch; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/fire: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/fire: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +20 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 - TAKES: sequencia de acao em 3 cameras (1.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
@@ -120,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - O nome servia para driblar a alfândega, que barrava lança-chamas.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): MUS (variante 0, expressao smug); CMP (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
@@ -142,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - E vinha com um extintor de incêndio junto.
 - Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): CMP (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: insiste
@@ -161,7 +160,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Vinte mil unidades esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
@@ -212,10 +211,10 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bancada | b0, b1, b2, b3, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bancada | b0, b1, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/flamethrower | b0, b2, b3, b4, b5, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/fire | b0, b4, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_hollywood | b0, b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_hollywood | b0, b2, b4, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/extinguisher | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tunel_boring | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Crate_Metal | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -223,7 +222,7 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 2% | medio 74% | aberto 16% | detalhe 8%
+- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 3% | medio 70% | aberto 19% | detalhe 8%
 - Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 pular, b9 susto
 - RISCOS GERAIS: nenhum
 

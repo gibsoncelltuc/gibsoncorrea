@@ -44,8 +44,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)
 - PERSONAGENS: MUS no centro, expressao laugh, segura torch; sem multidao; acao: fala/gesto
 - OBJETO kit/flamethrower: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/fire: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/fire: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 3.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +20 da cena
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
 

@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2018 | Lugar: Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles | Quando: janeiro a fevereiro de 2018, dia
 - HEROIS (objeto): kit/flamethrower, kit/bancada, kit/fire
 - HEROIS (personagens): MUS, CMP
-- Cenarios: interior loja, interior pedra, loc_cidade
+- Cenarios: interior loja, interior pedra, loc_cidade, loc_deserto
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

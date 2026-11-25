@@ -361,16 +361,6 @@
    "shot": "wide",
    "props": [
     [
-     "kit/bancada",
-     3.6,
-     -2.0,
-     2.0,
-     {
-      "nocol": true,
-      "fixo": true
-     }
-    ],
-    [
      "kit/flamethrower",
      2.4,
      0.2,
@@ -735,5 +725,6 @@
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
  "loop_frase_ok": true,
- "max_wide": 3
+ "max_wide": 3,
+ "continuo": false
 }

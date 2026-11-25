@@ -78,7 +78,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b4 - 13.6s a 15.5s - 7 palavras - plano two
+## Cena b4 - 13.6s a 15.5s - 7 palavras - plano wide
 > "Acontece que ele soltava fogo de verdade."
 
 - LEITURA DA FRASE: sentido FATO
@@ -95,7 +95,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b5 - 16.1s a 18.9s - 10 palavras - plano group
+## Cena b5 - 16.1s a 18.9s - 10 palavras - plano two
 > "O nome servia para driblar a alfândega, que barrava lança-chamas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -114,7 +114,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b6 - 19.9s a 21.6s - 8 palavras - plano two
+## Cena b6 - 19.9s a 21.6s - 8 palavras - plano group
 > "E vinha com um extintor de incêndio junto."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -133,7 +133,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b7 - 22.3s a 24.5s - 7 palavras - plano wide
+## Cena b7 - 22.3s a 24.5s - 7 palavras - plano crowd
 > "Vinte mil unidades esgotaram em poucos dias."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'jaqueta preta e calca escura', 'CMP': 'camisa verde com logo da empresa', 'POV': 'roupa casual'}
 - Cenario real: escritorio moderno, loja com caixas do produto, deserto aberto, rua de cidade americana
 - Objetos: ['Not-A-Flamethrower (lanca-chamas preto parecido com fuzil)', 'extintor vermelho de brinde']
-- Cenarios usados no video: interior loja, interior pedra, loc_cidade
+- Cenarios usados no video: interior loja, interior pedra, loc_cidade, loc_deserto
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 
