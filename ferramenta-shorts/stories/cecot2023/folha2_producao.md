@@ -11,18 +11,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisao
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao stern; sem multidao; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
-  - take 1 (0.0-1.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (1.9-3.7 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b1 - E ninguém concorda se ela é solução ou problema.
 - Cenario: loc_patio | luz: golden | clima: limpo
@@ -33,17 +21,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_patio; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (4.1-5.5 s): mesmo angulo
-  - take 2 (5.5-7.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
 
 ## Cena b2 - Ela abriu em 2023, em El Salvador.
 - Cenario: loc_cidade | luz: golden | clima: limpo
@@ -54,16 +31,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- MAPA: EL SALVADOR (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b3 - O país tinha das maiores taxas de assassinato do mundo.
 - Cenario: interior pedra | luz: golden | clima: limpo
@@ -74,17 +41,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinato, maiores
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de pedra (governo/castelo); hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REP (jornalista) na esquerda, expressao worried, segura paper; POV na direita, expressao scared; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (10.0-11.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (11.7-13.3 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b4 - O governo decretou estado de exceção contra as gangues.
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -95,17 +51,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): excecao, gangues, governo
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: BUK no centro, expressao stern; sem multidao; acao: prender
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (13.7-15.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (15.2-16.7 s): mesmo angulo
-<!-- /FICHA -->
 
 ## Cena b5 - Muralhas, cercas elétricas e torres de vigia.
 - Cenario: loc_estudio | luz: golden | clima: limpo
@@ -116,14 +61,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): vigia
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/prison no centro, manobra "gira"
-- PASSOS NA TELA: MURALHAS -> CERCAS ELETRICAS -> TORRES DE VIGIA
-- TAKES: 1 take de explicacao (2.3 s): objeto no centro do estudio, rotulos entrando nas palavras
-<!-- /FICHA -->
 
 ## Cena b6 - Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -134,19 +71,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REP (jornalista) na esquerda, expressao surprised, segura paper; BUK na direita, expressao smug; sem multidao; acao: conversar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
-- SOM: ding@40
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (19.6-21.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (21.6-23.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
 
 ## Cena b7 - Mas houve denúncias de prisões sem julgamento.
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -157,18 +81,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prisoes
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REP (jornalista) na esquerda, expressao suspicious; POV na direita, expressao worried; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
-- SOM: sting@30
-- TEXTO NA TELA: "SEM JULGAMENTO" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b8 - O modelo passou a ser copiado e criticado.
 - Cenario: loc_pista | luz: golden | clima: limpo
@@ -179,16 +91,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): modelo
 - RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: medium; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
-- PERSONAGENS: BUK na esquerda, expressao stern, segura paper; POV na direita, expressao grin, segura paper; sem multidao; acao: fala/gesto
-- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "COPIADO E CRITICADO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
 
 ## Cena b9 - Segurança ou excesso? Foi assim que...
 - Cenario: loc_campo | luz: golden | clima: limpo
@@ -220,14 +122,3 @@ kit/globe | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cecot2023 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh cecot2023` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: golden
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: GUA no centro, expressao stern; sem multidao; acao: conversar
-- OBJETO kit/prison: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 14.8 m de altura x 35.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "40 MIL PRESOS" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
-<!-- /FICHA -->
-

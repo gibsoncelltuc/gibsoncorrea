@@ -1,0 +1,126 @@
+{
+ "duration": 33.048,
+ "frames30": 991,
+ "source": "silence-align (cost 0.64)",
+ "segments": [
+  [
+   0.150333,
+   3.02504
+  ],
+  [
+   3.80537,
+   5.951
+  ],
+  [
+   6.75329,
+   8.14642
+  ],
+  [
+   8.3095,
+   8.981
+  ],
+  [
+   9.74933,
+   12.1322
+  ],
+  [
+   12.9102,
+   15.3833
+  ],
+  [
+   16.1588,
+   16.6623
+  ],
+  [
+   16.8615,
+   18.5192
+  ],
+  [
+   19.3321,
+   23.2811
+  ],
+  [
+   24.0765,
+   26.201
+  ],
+  [
+   26.9884,
+   28.9904
+  ],
+  [
+   29.8018,
+   30.8978
+  ],
+  [
+   31.7349,
+   32.3165
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma pris\u00e3o para quarenta mil presos virou not\u00edcia no mundo inteiro.",
+   "s": 0.15,
+   "e": 3.025
+  },
+  {
+   "text": "E ningu\u00e9m concorda se ela \u00e9 solu\u00e7\u00e3o ou problema.",
+   "s": 3.805,
+   "e": 5.951
+  },
+  {
+   "text": "Ela abriu em 2023,",
+   "s": 6.753,
+   "e": 8.146
+  },
+  {
+   "text": "em El Salvador.",
+   "s": 8.309,
+   "e": 8.981
+  },
+  {
+   "text": "O pa\u00eds tinha das maiores taxas de assassinato do mundo.",
+   "s": 9.749,
+   "e": 12.132
+  },
+  {
+   "text": "O governo decretou estado de exce\u00e7\u00e3o contra as gangues.",
+   "s": 12.91,
+   "e": 15.383
+  },
+  {
+   "text": "Muralhas,",
+   "s": 16.159,
+   "e": 16.662
+  },
+  {
+   "text": "cercas el\u00e9tricas e torres de vigia.",
+   "s": 16.861,
+   "e": 18.519
+  },
+  {
+   "text": "Acontece que os assassinatos ca\u00edram de 106 para 2, 4 por cem mil.",
+   "s": 19.332,
+   "e": 23.281
+  },
+  {
+   "text": "Mas houve den\u00fancias de pris\u00f5es sem julgamento.",
+   "s": 24.076,
+   "e": 26.201
+  },
+  {
+   "text": "O modelo passou a ser copiado e criticado.",
+   "s": 26.988,
+   "e": 28.99
+  },
+  {
+   "text": "Seguran\u00e7a ou excesso?",
+   "s": 29.802,
+   "e": 30.898
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 31.735,
+   "e": 32.316
+  }
+ ]
+}
