@@ -36,14 +36,13 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "crowd",
+   "camera": "reveal",
    "personagens": [
     "FUN",
     "FUN2"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
-    "kit/marco_goldengate",
     "kit/sink"
    ],
    "palavras": 11,

@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto, alguem chega andando | kit/sink, kit/marco_goldengate | - | -
-b1 | loc_cidade | crowd | 2 | encena | kit/marco_goldengate, kit/sink | - | -
+b1 | loc_cidade | reveal | 10 | encena | kit/sink | - | -
 b2 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/sink | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -

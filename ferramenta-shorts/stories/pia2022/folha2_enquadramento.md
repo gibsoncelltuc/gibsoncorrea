@@ -6,12 +6,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "LET THAT SINK IN" flutuando no alto, na palavra 1 da frase
 
 ## b1: "E a pia era uma piada de 44 bilhões de dólares."
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de multidao
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FUN na esquerda, expressao laugh; FUN2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
@@ -19,7 +19,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smile; FUN2 na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
 
 ## b3: "A legenda era um trocadilho em inglês."
@@ -57,5 +57,5 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 

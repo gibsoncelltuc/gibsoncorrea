@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um bilionário entrou carregando uma pia na empresa que estava comprand...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MUS (variante 0, expressao grin); FUN (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/sink, kit/marco_goldengate
@@ -17,34 +17,38 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "LET THAT SINK IN" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (0.0-1.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.9-3.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
 ## Cena b1 - E a pia era uma piada de 44 bilhões de dólares.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao laugh) | multidao: 0 de POV
+- Personagens principais (2): FUN (variante 0, expressao laugh); FUN2 (variante 0, expressao laugh) | multidao: 8 de POV
 - Animacao: encena
-- Objetos/modelos: kit/marco_goldengate, kit/sink
+- Objetos/modelos: kit/sink
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dolares, piada
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: loc_cidade; hora: golden
-- CAMERA: plano de multidao
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FUN na esquerda, expressao laugh; FUN2 na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (4.1-5.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (5.9-7.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b2 - Foi Elon Musk, em 2022, na sede do Twitter.
 - Cenario: interior pedra | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao smile); FUN2 (variante 0, expressao surprised)
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/sink
@@ -56,9 +60,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: sala de pedra (governo/castelo); hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao smile; FUN2 na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: ESTADOS UNIDOS (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (8.1-9.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (9.6-11.1 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b3 - A legenda era um trocadilho em inglês.
@@ -78,7 +84,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS na esquerda, expressao smug; FUN na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "LET THAT SINK IN" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.6 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b4 - Sink quer dizer pia e também afundar.
@@ -96,7 +102,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/sink no centro, manobra "gira"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (1.3 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.2 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b5 - Acontece que, no dia seguinte, o Twitter virou dele.
@@ -115,7 +121,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao laugh; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: sequencia de acao em 3 cameras (2.6 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+- TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b6 - No mesmo dia, demitiu o presidente e outros chefes.
@@ -134,7 +140,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MUS na esquerda, expressao stern; FUN no centro, expressao sad; FUN2 na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (20.0-21.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (21.5-23.0 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - E mudou o próprio perfil para Chefe Twit.
@@ -154,7 +162,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - TEXTO NA TELA: "CHIEF TWIT" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b8 - Uma piada com pia. E foi assim que...
@@ -173,12 +181,12 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/sink | b0, b1, b2, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_goldengate | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_goldengate | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/sink | grandes momentos: b5 | planos abertos: 1 | mistura: close 0% | medio 83% | aberto 14% | detalhe 3%
+- Objeto heroi: kit/sink | grandes momentos: b5 | planos abertos: 1 | mistura: close 0% | medio 89% | aberto 8% | detalhe 3%
 - Interacoes: b0 susto, b2 o outro se aproxima, b3 insiste, b5 discutir, b6 vai ate o outro, b8 cochichar
 - RISCOS GERAIS: nenhum
 
@@ -194,7 +202,7 @@ kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 - LOCAL: loc_cidade; hora: golden
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e sink juntos (camera a 11.5 m)
 - PERSONAGENS: MUS na esquerda, expressao grin; FUN na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- OBJETO kit/sink: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
