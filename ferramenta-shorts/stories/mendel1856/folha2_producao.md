@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MEN (padre) no centro, expressao smile, segura bag; sem multidao; acao: fala/gesto
-- OBJETO kit/pea_green: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 5.2 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_green: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.4 m de altura x 4.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: ding@60
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
@@ -76,8 +76,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Na primeira geração, todas saíram amarelas, como se o verde tivesse su...
 - Cenario: loc_montanha | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MEN (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/pea_yellow
@@ -275,7 +275,7 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 26% | medio 48% | aberto 22% | detalhe 4%
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 28% | medio 48% | aberto 22% | detalhe 2%
 - Interacoes: b4 discutir, b7 cochichar
 - RISCOS GERAIS: nenhum
 
