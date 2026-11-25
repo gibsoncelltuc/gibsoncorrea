@@ -217,12 +217,11 @@
      }
     ]
    ],
-   "quadro_manual": true,
    "cx": 0.0,
    "cz": -0.6,
-   "d0": 8.5,
-   "d1": 7.5,
-   "h": 1.8,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
@@ -398,10 +397,6 @@
     ]
    },
    "set": "jungle",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "mata tropical (arvores, cabanas)",
@@ -414,7 +409,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
