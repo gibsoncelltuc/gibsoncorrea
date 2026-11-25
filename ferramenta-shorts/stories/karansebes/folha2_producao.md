@@ -131,11 +131,9 @@ kit/tent | b9 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/barrel_r | grandes momentos: b0, b7, b10 | planos abertos: 5 | mistura: close 21% | medio 47% | aberto 30% | detalhe 2%
 - Interacoes: b1 pular, b4 brindar, b9 aproxima-se
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~40.9 s (voz real; 100 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py karansebes
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~40.9 s (voz real; 100 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh karansebes bN bM` (so essas cenas).

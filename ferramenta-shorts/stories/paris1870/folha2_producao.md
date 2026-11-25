@@ -133,11 +133,9 @@ deer | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote,
 ## Video inteiro
 - Objeto heroi: kit/bife_elefante | grandes momentos: b4, b6 | planos abertos: 7 | mistura: close 4% | medio 44% | aberto 48% | detalhe 4%
 - Interacoes: b1 susto, b3 avanca e o outro recua, b7 discutir, b9 o outro se aproxima
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~37.9 s (voz real; 98 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py paris1870
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~37.9 s (voz real; 98 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paris1870 bN bM` (so essas cenas).

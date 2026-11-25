@@ -131,11 +131,9 @@ dog | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caix
 ## Video inteiro
 - Objeto heroi: kit/dog_sit | grandes momentos: b4, b7 | planos abertos: 8 | mistura: close 3% | medio 35% | aberto 57% | detalhe 5%
 - Interacoes: b2 aproxima-se, b5 susto, b9 avanca e o outro recua
-- RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: acima de 36 s: ~39.2 s (voz real; 99 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py kiska1943
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: acima de 36 s: ~39.2 s (voz real; 99 palavras faladas, anos contam como 6); o documento quer abaixo de 35 s: cortar ate ~96 palavras faladas
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh kiska1943 bN bM` (so essas cenas).
