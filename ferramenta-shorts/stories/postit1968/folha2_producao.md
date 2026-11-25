@@ -127,14 +127,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b6 - Ele pensou: marcadores com a cola fraca.
+## Cena b6 - Ele pensou: e se os marcadores tivessem a cola fraca?
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): FRY (variante 0, expressao surprised)
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/postit
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, marcadores
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -147,7 +147,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@20
 - SOM: sting@40
-- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b7 - O papel saiu amarelo por acaso: era o único que tinha.
@@ -168,7 +168,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - TAKES: 1 take de explicacao (3.9 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
-## Cena b8 - Em 1980, o post-it chegou às lojas.
+## Cena b8 - Em 1980, o post-it chegou às lojas do mundo todo.
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
@@ -185,7 +185,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: SIL (cientista) na esquerda, expressao smile; CHE (empresario) na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/postit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "1980" numa placa atras dos personagens, na palavra 1 da frase
-- TAKES: 1 take continuo (1.2 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - A cola não colava direito. E foi assim que...
@@ -208,14 +208,12 @@ buildings/church | b1 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 4% | medio 82% | aberto 14% | detalhe 0%
+- Objeto heroi: kit/postit | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 4% | medio 78% | aberto 18% | detalhe 0%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b5 vai ate o outro, b9 empurrar
 - RISCOS GERAIS: 
-  - ESTRUTURA VIRAL: curto demais: ~29.3 s (voz real); minimo 30 s -> CORRECAO: corrigir o roteiro (ESTRUTURA_VIRAL.md) e conferir com python3 estrutura_viral.py postit1968
   - FOLHA 4: 7 item(ns) sem referencia visual: A Cola que Não Colava, Art Fry, colega que cantava no coral, chefes da 3M, hinario com marcadores caindo, amostras gratis, postit, O papel saiu amarelo por acas -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 
-## RESUMO: 2 risco(s) em aberto
-- geral: ESTRUTURA VIRAL: curto demais: ~29.3 s (voz real); minimo 30 s
+## RESUMO: 1 risco(s) em aberto
 - geral: FOLHA 4: 7 item(ns) sem referencia visual: A Cola que Não Colava, Art Fry, colega que cantava no coral, chefes da 3M, hinario com marcadores caindo, amostras gratis, postit, O papel saiu amarelo por acas
 
 ## Reparos depois do render

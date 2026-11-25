@@ -112,11 +112,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b6 - 17.5s a 19.4s - 7 palavras - plano orbit
-> "Ele pensou: marcadores com a cola fraca."
+## Cena b6 - 17.5s a 20.0s - 10 palavras - plano orbit
+> "Ele pensou: e se os marcadores tivessem a cola fraca?"
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pensou" (17.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pensou" (17.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -127,38 +127,38 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 20.1s a 24.0s - 11 palavras - plano two
+## Cena b7 - 20.6s a 24.5s - 11 palavras - plano two
 > "O papel saiu amarelo por acaso: era o único que tinha."
 
 - LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "papel" (20.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "papel" (20.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 24.5s a 25.7s - 7 palavras - plano wide
-> "Em 1980, o post-it chegou às lojas."
+## Cena b8 - 25.1s a 26.9s - 10 palavras - plano wide
+> "Em 1980, o post-it chegou às lojas do mundo todo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (25.3s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (25.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | chegou (25.3s) | EFEITO: dust | poeira + som | OK |
+| 1 | chegou (25.8s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | PLACA | 1980 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (25.3s): executa: poeira + som
+- EFEITO: dust na palavra chegou (25.8s): executa: poeira + som
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b9 - 26.4s a 28.7s - 9 palavras - plano two
+## Cena b9 - 27.6s a 29.9s - 9 palavras - plano two
 > "A cola não colava direito. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cola" (26.5s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cola" (27.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

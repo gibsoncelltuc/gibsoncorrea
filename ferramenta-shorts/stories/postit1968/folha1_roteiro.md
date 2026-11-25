@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 87 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 93 palavras (~32 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Uma cola que falhou virou sucesso no mundo inteiro.
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b6  (~2.4 s)
-- Narracao: Ele pensou: marcadores com a cola fraca.
+## Cena b6  (~3.4 s)
+- Narracao: Ele pensou: e se os marcadores tivessem a cola fraca?
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, sting@40
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.4 s)
-- Narracao: Em 1980, o post-it chegou às lojas.
+## Cena b8  (~3.4 s)
+- Narracao: Em 1980, o post-it chegou às lojas do mundo todo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto

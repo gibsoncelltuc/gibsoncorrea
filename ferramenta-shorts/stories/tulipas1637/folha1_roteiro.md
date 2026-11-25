@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countryside | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Uma única flor já custou o preço de uma casa.
@@ -31,7 +31,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 
 ## Cena b3  (~3.1 s)
 - Narracao: Num leilão, um bulbo saiu por duas mil moedas.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito
 - Efeito visual marcado: -

@@ -1,0 +1,166 @@
+{
+ "duration": 29.64,
+ "frames30": 889,
+ "source": "silence-align (cost 1.11)",
+ "segments": [
+  [
+   0.0,
+   2.08146
+  ],
+  [
+   2.44467,
+   4.64329
+  ],
+  [
+   5.01162,
+   6.45133
+  ],
+  [
+   6.65479,
+   7.14363
+  ],
+  [
+   7.33408,
+   8.26342
+  ],
+  [
+   8.641,
+   9.13229
+  ],
+  [
+   9.33617,
+   11.185
+  ],
+  [
+   11.5557,
+   11.8713
+  ],
+  [
+   12.1478,
+   14.1283
+  ],
+  [
+   14.5009,
+   16.9239
+  ],
+  [
+   17.2929,
+   19.509
+  ],
+  [
+   19.8845,
+   20.664
+  ],
+  [
+   20.8873,
+   21.8399
+  ],
+  [
+   22.0175,
+   22.9869
+  ],
+  [
+   23.3596,
+   24.3772
+  ],
+  [
+   24.7594,
+   26.6963
+  ],
+  [
+   27.0668,
+   28.2485
+  ],
+  [
+   28.6246,
+   29.2014
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma \u00fanica flor j\u00e1 custou o pre\u00e7o de uma casa.",
+   "s": 0.0,
+   "e": 2.081
+  },
+  {
+   "text": "E quem pagou isso perdeu tudo em poucos dias.",
+   "s": 2.445,
+   "e": 4.643
+  },
+  {
+   "text": "Em 1637, na Holanda,",
+   "s": 5.012,
+   "e": 6.451
+  },
+  {
+   "text": "a tulipa virou moda.",
+   "s": 6.655,
+   "e": 8.263
+  },
+  {
+   "text": "Num leil\u00e3o,",
+   "s": 8.641,
+   "e": 9.132
+  },
+  {
+   "text": "um bulbo saiu por duas mil moedas.",
+   "s": 9.336,
+   "e": 11.185
+  },
+  {
+   "text": "Logo,",
+   "s": 11.556,
+   "e": 11.871
+  },
+  {
+   "text": "padeiros e sapateiros tamb\u00e9m queriam bulbos.",
+   "s": 12.148,
+   "e": 14.128
+  },
+  {
+   "text": "Contam que teve gente trocando casas por um \u00fanico bulbo.",
+   "s": 14.501,
+   "e": 16.924
+  },
+  {
+   "text": "Um marinheiro comeu um bulbo achando que era cebola.",
+   "s": 17.293,
+   "e": 19.509
+  },
+  {
+   "text": "Acontece que,",
+   "s": 19.884,
+   "e": 20.664
+  },
+  {
+   "text": "num leil\u00e3o de fevereiro,",
+   "s": 20.887,
+   "e": 21.84
+  },
+  {
+   "text": "ningu\u00e9m levantou a m\u00e3o.",
+   "s": 22.017,
+   "e": 22.987
+  },
+  {
+   "text": "Os pre\u00e7os desabaram.",
+   "s": 23.36,
+   "e": 24.377
+  },
+  {
+   "text": "Quem trocou a casa ficou s\u00f3 com flores.",
+   "s": 24.759,
+   "e": 26.696
+  },
+  {
+   "text": "Uma loucura que se repete.",
+   "s": 27.067,
+   "e": 28.248
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 28.625,
+   "e": 29.201
+  }
+ ]
+}

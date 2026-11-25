@@ -89,14 +89,14 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "POV"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "kit/marco_amsterdam",
     "kit/tulip_bed"
@@ -117,7 +117,7 @@
    "cenario": "countryside"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "RIC",
     "MER"
@@ -179,11 +179,11 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "POV"
    ],
-   "multidao": 14,
+   "multidao": 0,
    "objetos": [
     "buildings/house_small",
     "kit/marco_amsterdam",

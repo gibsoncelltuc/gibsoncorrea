@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 95 palavras (~33 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Os cadernos de Marie Curie só podem ser lidos com proteção.

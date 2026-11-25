@@ -83,10 +83,6 @@
    },
    "text": "GUERRA DO UÍSQUE",
    "titulo": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -99,7 +95,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -211,11 +211,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -228,7 +223,12 @@
       "estado": "chegando"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -270,10 +270,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -292,7 +288,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "wide",
@@ -335,11 +335,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.0,
-   "d1": 18.1,
    "_enq_shot": "wide",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -352,7 +347,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.0,
+   "d1": 18.1
   },
   {
    "shot": "two",
@@ -384,10 +384,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -400,7 +396,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -435,8 +435,8 @@
    "props": [
     [
      "kit/whisky",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -456,10 +456,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "campo de gelo e neve (mar congelado, rochas)",
@@ -473,7 +469,10 @@
      }
     ]
    },
-   "_auto_vis": 2
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "ano": 1984,

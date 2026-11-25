@@ -3,7 +3,7 @@
 #   python3 estrutura_viral.py --todos     -> varredura de todos os roteiros (videos/*), tabela em VARREDURA_ESTRUTURA.md
 import json, re, sys, os, glob, unicodedata
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-WPS = 2.75                     # palavras FALADAS por segundo (medido na voz: Jenkins 115 em 42,0 s; Scilly 131 em 47,2 s)
+WPS = 2.9                      # palavras FALADAS por segundo com a voz +20% e pausa curta (25/11: Karansebes 100 em 34,8 s; Post-it 97 em 29,3 s)
 MIN_W, MAX_W, DURO_W = 75, 112, 125   # 30-45 s; limite duro 50 s
 BLOCOS = ['gancho', 'promessa', 'prova', 'escalada', 'pagamento', 'loop']
 TIPOS = {'perda', 'ganho', 'crenca', 'segredo'}

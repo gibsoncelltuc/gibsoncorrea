@@ -134,9 +134,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 7,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Ele pensou: marcadores com a cola fraca.",
+   "frase": "Ele pensou: e se os marcadores tivessem a cola fraca?",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -179,9 +179,9 @@
    "objetos": [
     "kit/postit"
    ],
-   "palavras": 7,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "Em 1980, o post-it chegou às lojas.",
+   "frase": "Em 1980, o post-it chegou às lojas do mundo todo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

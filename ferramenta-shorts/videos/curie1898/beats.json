@@ -80,10 +80,6 @@
    ],
    "detalhe": false,
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
    "bloco": "gancho",
    "say": "Os cadernos de Marie Curie só podem ser lidos com proteção.",
    "encena": {
@@ -94,7 +90,24 @@
       "na": "proteção"
      }
     ]
-   }
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "two",
@@ -128,6 +141,18 @@
      {
       "faz": "mostra",
       "na": "por"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -220,6 +245,18 @@
      {
       "faz": "mostra",
       "na": "Assim"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "galpao",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e pechblenda juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/pechblenda",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -343,10 +380,6 @@
     "sting@20"
    ],
    "hora": "dia",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "pagamento",
    "say": "Hoje, os cadernos dormem em caixas de chumbo em Paris.",
    "encena": {
@@ -357,7 +390,24 @@
       "na": "cadernos"
      }
     ]
-   }
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "shot": "wide",
@@ -384,10 +434,6 @@
    ],
    "detalhe": false,
    "interior": "pedra",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -399,7 +445,24 @@
     ]
    },
    "bloco": "loop",
-   "say": "Quem quiser ler, precisa de autorização. É por isso que..."
+   "say": "Quem quiser ler, precisa de autorização. É por isso que...",
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/curie_box",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "objetos_do_video": {
@@ -438,5 +501,6 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: os cadernos de Marie Curie so podem ser lidos com protecao e seguem radioativos por mais de mil anos. Pagamento: o radio que ela carregava no bolso contaminou tudo; os cadernos ficam em caixas de chumbo.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 5
 }
