@@ -4,7 +4,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Existem cadernos tão perigosos que só podem ser lidos com roupa de pro...
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): PRO (variante 0, expressao scared, segura paper)
 - Animacao: encena
@@ -15,12 +15,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
 - PERSONAGENS: PRO no centro, expressao scared, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
-- TEXTO NA TELA: "PERIGO" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "PERIGO" flutuando no alto, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (0.2-1.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (1.9-3.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -104,12 +104,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: galpao; hora: dia; clima: limpo
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: MAR no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/pechblenda: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/pechblenda: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
+- TEXTO NA TELA: "TONELADAS DE MINÉRIO" flutuando no alto, na palavra 1 da frase
 - TAKES: 3 takes (troca de angulo a cada ~1.6 s, sem corte seco):
   - take 1 (19.0-20.6 s): mesmo angulo
   - take 2 (20.6-22.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto

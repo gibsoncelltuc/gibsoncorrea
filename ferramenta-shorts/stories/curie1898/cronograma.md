@@ -1,12 +1,12 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Gerado em 25/11 05:47 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 07:18 | 13 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | interior pedra | group | PRO | - | curie_box | - | Existem cadernos tão perigosos que só podem ser lidos com roupa de pro
+b0 | simples | interior pedra | two | PRO | - | curie_box | - | Existem cadernos tão perigosos que só podem ser lidos com roupa de pro
 b1 | chave | street | wide | POV | 6 | marco_eiffel | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Era mil oitocentos e noventa e oito, em Paris, na França.
 b2 | simples | interior galpao | two | MAR, PIE | - | - | - | Marie Curie trabalhava com o marido Pierre num galpão velho e gelado.
 b3 | simples | interior galpao | group | MAR, PIE | - | - | - | O galpão tinha o teto furado, chovia dentro, e ela mexia a mistura com

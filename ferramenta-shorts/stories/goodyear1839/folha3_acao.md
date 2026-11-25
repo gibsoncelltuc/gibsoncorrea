@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 5.3s - 17 palavras - plano two
@@ -127,16 +127,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha nascido a borracha vulcanizada."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) GOO acao do motor: vira | na palavra "elástica" (41.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "borracha" (44.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | elástica (41.1s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
-| 2 | - | ATUACAO | comemorar | OK |
+| 1 | - | ATUACAO | comemorar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: vira na palavra elástica (41.1s): executa: o material vira o produto, que surge girando em destaque
 - ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 <!-- /FISICA -->
 
