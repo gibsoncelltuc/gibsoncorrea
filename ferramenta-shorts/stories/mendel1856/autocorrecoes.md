@@ -178,3 +178,15 @@
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 8% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_yellow" saiu com 8% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
 - b10: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 05:32 autocorrecao de visibilidade
+- b2: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/pea_yellow" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (0.0, -1.0)
+- b6: objeto "kit/pea_yellow" saiu com 9% da altura da tela, a ficha de cena planejou 18% -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/pea_green" saiu com 10% da altura da tela, a ficha de cena planejou 30% -> objeto na frente dos personagens e maior
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 05:32 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b6: ja corrigida 3 vezes, objeto "kit/pea_green" saiu com 3% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
