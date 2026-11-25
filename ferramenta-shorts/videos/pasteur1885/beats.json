@@ -52,7 +52,7 @@
  },
  "beats": [
   {
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "PAS:0:smile",
     "JOS:0:smile"
@@ -97,10 +97,10 @@
    "text": "PRIMEIRA VACINA",
    "titulo": true,
    "cx": 0.3,
-   "cz": 0.2,
-   "h": 1.5,
-   "d0": 7.2,
-   "d1": 6.8,
+   "cz": 0.1,
+   "h": 1.9,
+   "d0": 9.5,
+   "d1": 9.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -370,12 +370,12 @@
      }
     ]
    },
-   "shot": "two",
+   "shot": "wide",
    "cx": 0.3,
-   "cz": 0.2,
-   "h": 1.4,
-   "d0": 6.3,
-   "d1": 6.0,
+   "cz": 0.1,
+   "h": 1.9,
+   "d0": 9.5,
+   "d1": 9.0,
    "fachada": false,
    "_enq_shot": "wide",
    "quadro": {

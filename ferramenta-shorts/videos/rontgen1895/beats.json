@@ -451,8 +451,8 @@
     [
      "kit/xray_plate",
      0.0,
-     0.2,
-     1.2,
+     1.6,
+     1.0,
      {
       "fixo": true
      }
@@ -490,11 +490,11 @@
    },
    "detalhe": true,
    "cx": 0.0,
-   "cz": 0.0,
-   "d0": 8.5,
-   "d1": 8.0,
+   "cz": 0.9,
+   "d0": 8.0,
+   "d1": 7.6,
    "quadro_manual": true,
-   "h": 1.6
+   "h": 1.5
   }
  ],
  "variar_cenario": false,

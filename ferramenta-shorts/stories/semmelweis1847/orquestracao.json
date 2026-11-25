@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "SEM"
    ],
@@ -194,7 +194,7 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "SEM"
    ],

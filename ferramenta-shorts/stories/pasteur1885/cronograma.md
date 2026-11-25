@@ -1,21 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 25/11 18:39 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:41 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | PAS, JOS | - | bancada, seringa_pe | - | Um menino de nove anos foi o primeiro vacinado contra a raiva.
+b0 | simples | street | wide | PAS, JOS | - | bancada, seringa_pe | - | Um menino de nove anos foi o primeiro vacinado contra a raiva.
 b1 | simples | street | close | PAS | - | syringe | - | E quem aplicou a vacina nem era médico.
 b2 | chave | street | wide | MED, MED | 8 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1885, Louis Pasteur estudava micróbios na França.
 b3 | simples | interior madeira | two | MED | - | - | - | Mordida de animal com raiva quase sempre matava.
 b4 | simples | interior madeira | wide | PAS | - | bancada, seringa_pe, syringe | - | A vacina dele só tinha sido testada em animais.
 b5 | simples | interior madeira | wide | MAE, JOS | - | - | - | Um dia, chegou o menino Joseph, mordido por um cachorro.
 b6 | simples | interior loja | wide | PAS | - | - | - | Pasteur tinha medo, mas decidiu tentar.
-b7 | chave | hall | two | PAS, JOS | - | bancada, seringa_pe, syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, depois de dez dias de injeções, o menino não adoeceu.
+b7 | chave | hall | wide | PAS, JOS | - | bancada, seringa_pe, syringe | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, depois de dez dias de injeções, o menino não adoeceu.
 b8 | simples | interior madeira | track | MAE, JOS | - | - | - | Joseph sobreviveu, e a notícia correu o mundo.
-b9 | simples | street | two | PAS, JOS | - | bancada, seringa_pe | - | Um químico arriscou tudo. E foi assim que...
+b9 | transicao | street | wide | PAS, JOS | - | bancada, seringa_pe | - | Um químico arriscou tudo. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -24,10 +24,10 @@ N | Etapa | O que confere | Estado | Proximo passo
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
 2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (11/13 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | PENDENTE | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
 9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh pasteur1885
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
@@ -36,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local pasteur1885 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 7. Gates
+**Etapa atual:** 4. Travas do roteiro
 
