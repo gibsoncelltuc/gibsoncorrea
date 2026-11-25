@@ -8,9 +8,9 @@ b0 | loc_cidade | two | 10 | reagir, INTERAGEM: susto | kit/bitcoin, kit/volcano
 b1 | loc_cidade | close | 1 | conversar | kit/volcano | - | -
 b2 | loc_patio | reveal | 8 | parados (so fala e pisca) | kit/bitcoin, kit/volcano | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b4 | loc_patio | wide | 2 | reagir, batalha | kit/bitcoin | phone | -
+b4 | loc_patio | wide | 2 | reagir, batalha | kit/bitcoin, kit/phone | phone | -
 b5 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
-b6 | loc_pista | wide | 7 | parados (so fala e pisca) | kit/volcano, kit/rack_mineracao, kit/bitcoin | - | -
+b6 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/volcano, kit/rack_mineracao, kit/bitcoin | - | -
 b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | loc_pista | two | 1 | encena | kit/bitcoin | - | -
 b9 | loc_cidade | orbit | 1 | reagir, batalha | kit/bitcoin | - | -
