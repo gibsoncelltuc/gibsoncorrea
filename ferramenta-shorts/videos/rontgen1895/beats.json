@@ -226,9 +226,9 @@
    "props": [
     [
      "kit/xray_plate",
-     0.9,
-     0.5,
-     2.0,
+     0.0,
+     1.2,
+     1.6,
      {
       "fixo": true
      }
@@ -269,12 +269,12 @@
    },
    "hora": "noite",
    "detalhe": false,
-   "cx": 0.5,
-   "cz": 0.2,
-   "d0": 8.0,
-   "d1": 7.6,
+   "cx": 0.0,
+   "cz": 0.8,
+   "d0": 7.0,
+   "d1": 6.6,
    "quadro_manual": true,
-   "h": 1.6
+   "h": 1.5
   },
   {
    "shot": "two",
@@ -450,9 +450,9 @@
    "props": [
     [
      "kit/xray_plate",
-     0.9,
-     0.5,
-     2.2,
+     0.0,
+     1.2,
+     1.6,
      {
       "fixo": true
      }
@@ -489,12 +489,12 @@
     ]
    },
    "detalhe": true,
-   "cx": 0.5,
-   "cz": 0.2,
-   "d0": 8.0,
-   "d1": 7.6,
+   "cx": 0.0,
+   "cz": 0.8,
+   "d0": 7.0,
+   "d1": 6.6,
    "quadro_manual": true,
-   "h": 1.6
+   "h": 1.5
   }
  ],
  "variar_cenario": false,
