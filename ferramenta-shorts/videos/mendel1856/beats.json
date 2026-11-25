@@ -361,18 +361,18 @@
    "props": [
     [
      "kit/pea_green",
+     -1.6,
      -1.4,
-     -1.1,
-     4.4,
+     4.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/pea_yellow",
-     1.5,
+     1.6,
      -1.4,
-     3.6,
+     4.2,
      {
       "fixo": true
      }
@@ -421,8 +421,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "h": 1.5,
-   "d0": 8.5,
-   "d1": 7.5
+   "d0": 9.0,
+   "d1": 8.0
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
