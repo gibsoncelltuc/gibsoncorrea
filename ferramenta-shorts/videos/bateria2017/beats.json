@@ -330,6 +330,52 @@
    "d1": 10.0
   },
   {
+   "say": "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul.",
+   "shot": "wide",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -8.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/megapack",
+     7.0,
+     -14.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_campo",
+   "fachada": false,
+   "detalhe": false,
+   "mapa": "Jamestown",
+   "tiros": false,
+   "batalha": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bateria"
+     }
+    ]
+   },
+   "classe": "simples"
+  },
+  {
    "tiros": false,
    "batalha": false,
    "impact": false,

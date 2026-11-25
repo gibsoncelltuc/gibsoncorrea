@@ -195,6 +195,36 @@
    "d1": 8.0
   },
   {
+   "say": "O próprio Trump apareceu no comercial de TV, segurando a caixa do jogo.",
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     1.6,
+     0.3,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caixa"
+     }
+    ]
+   }
+  },
+  {
    "shot": "two",
    "interior": "madeira",
    "who": [
@@ -294,6 +324,36 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5
+  },
+  {
+   "say": "Dessa vez, quem fabricou o jogo foi outra empresa de brinquedos.",
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "EXE:0:smile",
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     0.3,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogo"
+     }
+    ]
+   }
   },
   {
    "say": "E o jogo voltou às lojas, com regras mais simples e a frase do programa: você está demitido.",
