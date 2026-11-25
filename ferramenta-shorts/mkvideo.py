@@ -1208,7 +1208,7 @@ def _explica(k, b, light, a, bb):
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))
     return call
 
-_PR_FUNDO = {}
+_PR_FUNDO = {}; _LUZ0 = {}
 def build_beat(k, b):
     shot = b.get('shot', 'two')
     if shot == 'close' and len(b.get('who', [])) >= 2 and re.search(r'\b(os dois|as duas|ambos|ambas|juntos|juntas|todos|um ao outro|um no outro|entre eles)\b', _nrm0(b['say'])): shot = b['shot'] = 'two'   # v13: a frase fala dos DOIS -> os dois no quadro (nada de close em um so')
@@ -1247,7 +1247,9 @@ def build_beat(k, b):
     who = b.get('who', []); animals = b.get('animals', []); props = b.get('props', [])
     wide_pre = shot in WIDE
     if b.get('interior') and not b.get('light'): light = 'study_dark' if (b.get('hora') == 'noite' or re.search(r'apagou a luz|apagaram a luz|apagou as luzes|no escuro|escurid|luz apagada|a noite toda|madrugada|de noite|\bnoites?\b', b['say'].lower())) else 'study'   # dentro de casa a noite/luz apagada: sala na penumbra
-    if b.get('interior') == 'galpao' and not b.get('light') and light not in ('night', 'dusk', 'study_dark'): light = 'overcast'   # 25/11 Curie: de noite o galpao fica escuro (noite), nao nublado   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
+    if k == 0: _LUZ0['v'] = light
+    if b.get('interior') == 'galpao' and not b.get('light') and light not in ('night', 'dusk', 'study_dark'): light = 'overcast'
+    if _VIRAL and b.get('bloco') == 'loop' and not b.get('light') and _LUZ0.get('v'): light = _LUZ0['v']   # 25/11 Lagosta: o LOOP repete a 1a cena com a MESMA luz (nao vira noite sozinho)   # 25/11 Curie: de noite o galpao fica escuro (noite), nao nublado   # galpao iluminado: luz branca fria (nao a luz amarela de sala)
     mv = b.get('move', 8 if shot == 'track' else 0)
     a, bb = f'A[{k}]', f'A[{k + 1}] - 1'
     if b.get('explica'): return _explica(k, b, light, a, bb)   # v13: cena de explicacao sem personagem
