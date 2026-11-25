@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | tropa | - | -
-b1 | wide | -  | batalha aberta com tiros, tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
+b1 | wide | -  | tropa, mapa | encena: x_pesca (lift) @10 (acao + som de efeito) | -
 b2 | two | -  | tropa | - | -
 b3 | two | -  | tropa | - | -
 b4 | wide | -  | tropa | encena: fala (point) @2 (acao + som de efeito) | -
@@ -14,5 +14,5 @@ b8 | reveal | -  | placa: 1963 | chegaram (dust + som de impacto); encena: x_ape
 b9 | wide | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 13% | medio 60% | aberto 27% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 56% | aberto 34% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 5 | AVISOS: sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

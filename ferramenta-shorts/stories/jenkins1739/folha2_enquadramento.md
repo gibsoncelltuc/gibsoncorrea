@@ -10,8 +10,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b1: "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: revelacao (camera sobe e abre); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: JEN na esquerda, expressao nervous; MAR na direita, expressao neutral; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: JEN no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: CUBA (cobre a tela 1-2 s)
 

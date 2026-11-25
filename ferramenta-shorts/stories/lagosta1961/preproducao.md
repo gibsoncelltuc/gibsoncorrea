@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 1 | discutir | kit/lobster | - | -
-b1 | harbor | wide | 1 | encena, batalha | boat, kit/fishing_net | - | -
+b1 | harbor | wide | 1 | encena | boat, kit/fishing_net | - | -
 b2 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b3 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b4 | harbor | wide | 1 | encena | kit/navio_destroier, navios de guerra ao fundo, no tamanho real | - | -
@@ -17,7 +17,7 @@ b9 | harbor | wide | 1 | reagir | kit/lobster | - | -
 b10 | harbor | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/lobster
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b1, b6
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b6
 Interacoes entre personagens: b7 entregar
 
 Cenas com personagens parados: 2 de 11

@@ -40,15 +40,9 @@
    "palavras": 16,
    "cena": "b1",
    "frase": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
   },

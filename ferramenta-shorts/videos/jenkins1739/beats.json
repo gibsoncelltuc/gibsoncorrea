@@ -104,10 +104,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -120,14 +116,17 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
-   "shot": "reveal",
+   "shot": "wide",
    "set": "harbor",
    "who": [
-    "JEN:0:nervous",
-    "MAR:0:neutral"
+    "JEN:0:nervous"
    ],
    "crowd": {
     "n": 0
@@ -155,17 +154,12 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "fachada": false,
-   "_enq_shot": "reveal",
+   "_enq_shot": "wide",
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "revelacao (camera sobe e abre); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "ship",
@@ -174,7 +168,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -218,10 +217,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -234,7 +229,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   },
   {
    "shot": "two",
@@ -350,11 +349,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "fachada": false,
    "_enq_shot": "wide",
    "quadro": {
@@ -368,7 +362,12 @@
       "estado": "chegando"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -440,10 +439,6 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -456,7 +451,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
   }
  ],
  "ano": 1739,

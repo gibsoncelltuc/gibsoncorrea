@@ -113,3 +113,6 @@
 - b3: objeto citado "kit/panela" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
 - b3: objeto "kit/panela" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> objeto na frente dos personagens e maior
 - b3: objeto "kit/rato" saiu com 6% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 11:33 autocorrecao de visibilidade
+- b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

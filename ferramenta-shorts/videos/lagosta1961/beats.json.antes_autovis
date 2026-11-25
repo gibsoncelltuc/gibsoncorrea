@@ -73,7 +73,6 @@
      }
     ]
    ],
-   "text": "1961",
    "interacao": "discutir",
    "acao": "discutir",
    "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
@@ -95,6 +94,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -153,6 +162,17 @@
    },
    "batalha": false,
    "tiros": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_pesca",
+      "na": "pescavam",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -5.6,
    "h": 2.8,
@@ -170,6 +190,15 @@
      "ANDA",
      "BRASILEIRA"
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
    }
   },
   {
@@ -181,6 +210,15 @@
      "NADA",
      "NO MAR",
      "DE QUEM PESCAR"
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
     ]
    }
   },
@@ -219,6 +257,17 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -279,6 +328,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navios"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 7.0,
    "cz": -11.2,
    "h": 2.8,
@@ -303,7 +362,18 @@
    "say": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "encararam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -315,7 +385,16 @@
    "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
    "interior": "pedra",
    "kw": false,
-   "encena": false,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "conversaram",
+      "quem": 0
+     }
+    ]
+   },
    "riscos_ok": true,
    "sfx": [
     "ding@30"
@@ -330,7 +409,19 @@
    "acao": "comemorar",
    "text": "1963",
    "say": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
-   "set": "harbor"
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "acordo",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -367,6 +458,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -412,5 +513,5 @@
   ]
  },
  "variar_cenario": false,
- "max_wide": 5
+ "max_wide": 6
 }

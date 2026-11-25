@@ -3,8 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b3: objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+1. b3: objeto "kit/rato" saiu com 12% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Paris já serviu elefante no jantar.": 

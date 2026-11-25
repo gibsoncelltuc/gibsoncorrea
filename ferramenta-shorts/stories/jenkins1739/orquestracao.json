@@ -29,10 +29,9 @@
    "cenario": "harbor"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "JEN",
-    "MAR"
+    "JEN"
    ],
    "multidao": 0,
    "objetos": [

@@ -117,7 +117,19 @@
     "OHI",
     "MIC"
    ],
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -340,7 +352,19 @@
    "cz": -0.3,
    "d0": 8.0,
    "d1": 6.8,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",

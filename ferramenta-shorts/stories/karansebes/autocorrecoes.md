@@ -23,3 +23,6 @@
 
 ## 25/11 10:00 autocorrecao de visibilidade
 - b4: ja corrigida 3 vezes, objeto citado "tools/lantern" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 11:34 autocorrecao de visibilidade
+- b4: ja corrigida 3 vezes, objeto citado "tools/lantern" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

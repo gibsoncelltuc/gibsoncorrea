@@ -18,7 +18,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: PERNAMBUCO
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.5 s)
 - Narracao: O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.

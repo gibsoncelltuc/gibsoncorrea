@@ -1,0 +1,666 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 9,
+ "title": "Mendel e as Ervilhas",
+ "titulo_base": "Mendel e as Ervilhas",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/pea_green",
+ "outfits": {
+  "MEN": {
+   "profissao": "padre",
+   "jacket": "#6a5a4a",
+   "pants": "#6a5a4a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#8a7a5a",
+   "beard": "#8a7a5a"
+  },
+  "FRE": {
+   "profissao": "padre",
+   "jacket": "#4a3a2a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#5a4a3a"
+  },
+  "CIE": {
+   "profissao": "cientista",
+   "jacket": "#3a4a6a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6a4a2a",
+   "glasses": true
+  },
+  "POV": {
+   "profissao": "agricultor",
+   "jacket": "#8a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  }
+ },
+ "beats": [
+  {
+   "say": "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos.",
+   "shot": "two",
+   "who": [
+    "MEN:0:smile:bag"
+   ],
+   "props": [
+    [
+     "kit/pea_green",
+     0.8,
+     0.3,
+     4.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@60"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "descobriu",
+      "quem": 0
+     }
+    ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": -0.3,
+   "cz": 0.0,
+   "h": 1.5,
+   "d0": 8.5,
+   "d1": 7.5,
+   "quadro_manual": true
+  },
+  {
+   "say": "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta.",
+   "shot": "reveal",
+   "who": [
+    "FRE:0:neutral",
+    "FRE:1:smile"
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "FRE",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "REPÚBLICA TCHECA",
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Brno"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
+   "shot": "two",
+   "who": [
+    "MEN:0:grin"
+   ],
+   "props": [
+    [
+     "kit/pea_green",
+     0.9,
+     0.2,
+     3.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     -0.9,
+     0.2,
+     3.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "dust@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "thump@40",
+    "ding@60"
+   ],
+   "detalhe": true,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "cruzou",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "faz": "x_espera",
+      "na": "esperou",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": 0.1,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "h": 1.4,
+   "set": "loc_campo"
+  },
+  {
+   "say": "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido.",
+   "shot": "two",
+   "who": [
+    "MEN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/pea_yellow",
+     0.8,
+     0.3,
+     3.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "loc_patio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "amarelas"
+     }
+    ]
+   },
+   "cx": -0.2,
+   "cz": 0.1,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "h": 1.4,
+   "set": "loc_patio"
+  },
+  {
+   "say": "Mendel ficou curioso: para onde tinha ido o verde?",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "FRE:0:suspicious",
+    "MEN:0:nervous"
+   ],
+   "interacao": "discutir",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "curioso",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "say": "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos.",
+   "shot": "wide",
+   "who": [
+    "MEN:0:neutral:paper"
+   ],
+   "props": [
+    [
+     "kit/pea_yellow",
+     0.0,
+     -1.0,
+     3.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "dust@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "quadro": {
+    "local": "loc_patio",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_planta",
+      "na": "plantou",
+      "quem": 0
+     },
+     {
+      "faz": "fala",
+      "na": "contou",
+      "quem": 0
+     }
+    ]
+   },
+   "set": "loc_patio",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_auto_vis": 1
+  },
+  {
+   "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
+   "shot": "wide",
+   "who": [
+    "MEN:0:shock"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/pea_yellow",
+     1.6,
+     -1.0,
+     4.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     -7.0,
+     -14.0,
+     3.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     11.0,
+     -14.0,
+     3.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_green",
+     0.6,
+     1.0,
+     3.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "text": "3 : 1",
+   "detalhe": false,
+   "fachada": false,
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   },
+   "set": "hall",
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MEN:0:smile",
+    "FRE:0:surprised"
+   ],
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "descobriu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "say": "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção.",
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "MEN:0:sad:book"
+   ],
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "escreve",
+      "na": "Publicou",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 2
+  },
+  {
+   "say": "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo.",
+   "shot": "wide",
+   "who": [
+    "CIE:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/pea_green",
+     -1.4,
+     0.9,
+     4.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/pea_yellow",
+     1.4,
+     0.9,
+     4.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "GENÉTICA",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar",
+   "detalhe": false,
+   "fachada": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viram",
+      "quem": 0
+     }
+    ]
+   },
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/pea_yellow",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.6,
+   "d0": 8.0,
+   "d1": 7.5,
+   "quadro_manual": true
+  },
+  {
+   "say": "No fim, a ervilha fez o monge famoso.",
+   "shot": "wide",
+   "who": [
+    "MEN:0:smug"
+   ],
+   "props": [
+    [
+     "kit/pea_green",
+     1.2,
+     -0.5,
+     3.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "loc_patio",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/pea_green",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ervilha"
+     }
+    ]
+   },
+   "set": "loc_patio",
+   "cx": 0.3,
+   "cz": -0.2,
+   "h": 1.5,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true
+  }
+ ],
+ "visual": {
+  "local": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca",
+  "quando": "1856 a 1866, dia, primavera e verao",
+  "participantes": [
+   "Gregor Mendel (habito preto de monge agostiniano, oculos redondos)",
+   "frades do mosteiro",
+   "cientistas de 1900 (de Vries, Correns, Tschermak) de terno"
+  ],
+  "roupas": {
+   "MEN": "habito preto de monge e oculos",
+   "FRE": "habito preto",
+   "CIE": "terno escuro e barba do seculo 19"
+  },
+  "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
+  "objetos": [
+   "vagens e ervilhas amarelas e verdes",
+   "caderno de anotacoes",
+   "vasos de plantas"
+  ],
+  "explicacoes": [
+   "Mendel cruzou ervilhas (1856-1863), viu a proporcao 3:1 na segunda geracao, publicou em 1866 e foi redescoberto em 1900 (fonte: Wikipedia Gregor Mendel, Experiments on Plant Hybridization)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Gregor_Mendel",
+   "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
+  ],
+  "buscas": {
+   "mosteiro": "St Thomas Abbey Brno garden Mendel",
+   "ervilha": "pea pods yellow green"
+  }
+ },
+ "cinf": 3.0,
+ "exp": 1.254,
+ "max_wide": 8
+}

@@ -71,9 +71,9 @@
    "props": [
     [
      "kit/canivete_aberto",
-     2.4,
-     0.2,
-     3.0,
+     1.6,
+     0.6,
+     1.8,
      {
       "nocol": true,
       "fixo": true
@@ -91,6 +91,33 @@
    "tstyle": "red",
    "titulo": true,
    "detalhe": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canivetada"
+     }
+    ]
+   },
+   "cx": 0.6,
+   "cz": -0.5,
+   "d0": 11.0,
+   "d1": 9.0,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "OHI",
+     "MIC"
+    ],
+    "march": false,
+    "expr": "stern"
+   },
+   "lados": [
+    "OHI",
+    "MIC"
+   ],
+   "quadro_manual": true,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
@@ -102,21 +129,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "canivetada"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -240,34 +253,11 @@
    "say": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
    "set": "countryside",
    "sem_mortos": true,
-   "props": [
-    [
-     "kit/teodolito",
-     2.4,
-     0.2,
-     1.1,
-     {
-      "fixo": true
-     }
-    ]
-   ],
    "lados": [
     "OHI",
     "MIC"
    ],
    "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e teodolito juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/teodolito",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -278,7 +268,6 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -337,27 +326,17 @@
    "props": [
     [
      "kit/canivete_aberto",
-     0.0,
-     -1.2,
-     2.2,
+     0.4,
+     -0.4,
+     1.4,
      {
-      "fixo": true
+      "fixo": true,
+      "nocol": true,
+      "y": 0.9
      }
     ]
    ],
    "acao": "discutir",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/canivete_aberto",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -369,11 +348,23 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -0.3,
+   "d0": 8.0,
+   "d1": 6.8,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "15% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -412,7 +403,42 @@
       "na": "floresta"
      }
     ]
-   }
+   },
+   "set": "arctic",
+   "props": [
+    [
+     "nature/tree_pine",
+     -4.5,
+     -7.5,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     0.5,
+     -9.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     4.5,
+     -7.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.5,
+   "d0": 10.0,
+   "d1": 8.5
   },
   {
    "shot": "wide",

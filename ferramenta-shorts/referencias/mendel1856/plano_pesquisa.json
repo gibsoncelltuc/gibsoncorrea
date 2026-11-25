@@ -60,10 +60,10 @@
   },
   {
    "tipo": "objeto",
-   "item": "vagens e ervilhas amarelas e verdes",
+   "item": "vagens verdes e amarelas abertas com ervilhas",
    "consultas": [
-    "vagens e ervilhas amarelas e verdes",
-    "vagens e ervilhas amarelas e verdes 1856"
+    "vagens verdes e amarelas abertas com ervilhas",
+    "vagens verdes e amarelas abertas com ervilhas 1856"
    ]
   },
   {
@@ -84,17 +84,24 @@
   },
   {
    "tipo": "heroi",
-   "item": "pea green",
+   "item": "vagem verde",
    "consultas": [
-    "vagens e ervilhas amarelas e verdes",
+    "vagens verdes e amarelas abertas com ervilhas",
     "Mendel e as Ervilhas"
    ]
   },
   {
    "tipo": "heroi",
-   "item": "pea yellow",
+   "item": "vagem amarela",
    "consultas": [
-    "pea yellow"
+    "vagem amarela"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "pe ervilha",
+   "consultas": [
+    "pe ervilha"
    ]
   }
  ]

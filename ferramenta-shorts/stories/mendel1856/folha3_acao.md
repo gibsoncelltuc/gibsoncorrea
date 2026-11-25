@@ -1,114 +1,212 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
+## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
 > "Um monge passou oito anos contando ervilhas e descobriu como herdamos o que somos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MEN acao do motor: examina | na palavra "descobriu" (2.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobriu (3.0s) | EFEITO: ring | onda + som | OK |
-| 2 | descobriu (3.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | descobriu (2.4s) | EFEITO: ring | onda + som | OK |
+| 2 | descobriu (2.4s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.2s a 11.9s - 19 palavras - plano reveal
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: ring na palavra descobriu (2.4s): executa: onda + som
+- ACAO: examina na palavra descobriu (2.4s): executa: examina com lupa/microscopio/balanca
+<!-- /FISICA -->
+
+## Cena b1 - 5.0s a 10.1s - 19 palavras - plano wide
 > "Era mil oitocentos e cinquenta e seis, num mosteiro de Brno, e o monge Gregor Mendel cuidava da horta."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Brno" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | REPÚBLICA TCHECA | OK |
+<!-- FISICA -->
 
-## Cena b2 - 12.2s a 17.4s - 15 palavras - plano two
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b2 - 11.3s a 15.5s - 15 palavras - plano two
 > "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MEN acao do motor: examina | na palavra "cruzou" (11.6s)
+  2) MEN acao do motor: espera | na palavra "esperou" (14.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cruzou (12.6s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | esperou (15.2s) | ACAO: x_espera | espera de bracos cruzados | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | cruzou (11.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | esperou (14.3s) | ACAO: x_espera | espera de bracos cruzados | OK |
+| 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b3 - 17.8s a 21.9s - 12 palavras - plano group
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: examina na palavra cruzou (11.6s): executa: examina com lupa/microscopio/balanca
+- ACAO: x_espera na palavra esperou (14.3s): executa: espera de bracos cruzados
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b3 - 16.7s a 20.6s - 12 palavras - plano two
 > "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | saíram (19.3s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 22.2s a 25.2s - 9 palavras - plano two
-> "Mendel ficou curioso: para onde tinha ido o verde?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b5 - 25.6s a 30.4s - 14 palavras - plano two
-> "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | plantou (25.9s) | ACAO: x_planta | cava/planta + terra | OK |
-| 2 | contou (28.1s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | insiste | OK |
-
-## Cena b6 - 30.7s a 36.3s - 16 palavras - plano orbit
-> "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | voltou (32.2s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | reagir | OK |
-| 4 | - | PLACA | 3 : 1 | OK |
-
-## Cena b7 - 36.7s a 41.5s - 14 palavras - plano two
-> "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | descobriu (37.0s) | EFEITO: ring | onda + som | OK |
-| 2 | descobriu (37.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 3 | - | INTERACAO | cochichar | OK |
-| 4 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 41.9s a 46.7s - 14 palavras - plano group
-> "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Publicou (41.9s) | ACAO: x_fone | celular na mao + toque | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b9 - 47.0s a 53.3s - 18 palavras - plano group
-> "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | viram (51.9s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | INTERACAO | pular | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | GENÉTICA | OK |
-
-## Cena b10 - 53.7s a 56.3s - 8 palavras - plano two
-> "No fim, a ervilha fez o monge famoso."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (18.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b11 - 56.7s a 61.1s - 13 palavras - plano close
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 21.9s a 24.5s - 9 palavras - plano two
+> "Mendel ficou curioso: para onde tinha ido o verde?"
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) FRE mao no queixo, pensando | na palavra "curioso" (22.5s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | curioso (22.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | - | INTERACAO | discutir | OK |
+| 3 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pensa na palavra curioso (22.5s): executa: mao no queixo + brilho de ideia
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b5 - 25.5s a 29.6s - 14 palavras - plano wide
+> "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MEN acao do motor: planta | na palavra "plantou" (25.8s)
+  2) MEN fala apontando | na palavra "contou" (27.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | plantou (25.8s) | ACAO: x_planta | cava/planta + terra | OK |
+| 2 | contou (27.2s) | ACAO: fala | aponta explicando | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: x_planta na palavra plantou (25.8s): executa: cava/planta + terra
+- ACAO: fala na palavra contou (27.2s): braco estendido apontando para o objeto/lugar citado
+<!-- /FISICA -->
+
+## Cena b6 - 30.8s a 35.9s - 16 palavras - plano two
+> "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (31.8s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 3 : 1 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b7 - 36.9s a 40.0s - 14 palavras - plano two
+> "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MEN acao do motor: examina | na palavra "descobriu" (37.2s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | descobriu (37.2s) | EFEITO: ring | onda + som | OK |
+| 2 | descobriu (37.2s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 3 | - | INTERACAO | cochichar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: ring na palavra descobriu (37.2s): executa: onda + som
+- ACAO: examina na palavra descobriu (37.2s): executa: examina com lupa/microscopio/balanca
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 41.0s a 44.8s - 14 palavras - plano close
+> "Publicou tudo em mil oitocentos e sessenta e seis, mas quase ninguém prestou atenção."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) MEN escreve no papel | na palavra "Publicou" (41.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | Publicou (41.0s) | ACAO: escreve | escreve/assina | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: escreve na palavra Publicou (41.0s): segura o papel e mexe a mao como se escrevesse
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 46.3s a 51.0s - 18 palavras - plano two
+> "Só no ano mil e novecentos, já depois da morte dele, os cientistas viram que ele estava certo."
+
+- LEITURA DA FRASE: sentido FATO
+  1) CIE olha/aponta para o alvo | na palavra "viram" (49.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | viram (49.9s) | ACAO: olha | aponta/olha | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | GENÉTICA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: olha na palavra viram (49.9s): braco estendido apontando para o objeto/lugar citado
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b10 - 52.1s a 53.9s - 8 palavras - plano orbit
+> "No fim, a ervilha fez o monge famoso."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilha" (52.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b11 - 55.2s a 58.5s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
