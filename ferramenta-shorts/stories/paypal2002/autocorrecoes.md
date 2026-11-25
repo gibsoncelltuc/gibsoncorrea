@@ -116,3 +116,10 @@
 ## 25/11 15:26 autocorrecao de visibilidade
 - b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
 - b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 15:26 autocorrecao de visibilidade
+- b7: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 15:35 autocorrecao de visibilidade
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho

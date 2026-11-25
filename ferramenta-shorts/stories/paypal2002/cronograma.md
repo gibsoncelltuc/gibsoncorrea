@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Gerado em 25/11 15:26 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:35 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,7 +8,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | two | MUS, EBY | - | coin | - | Um serviço para pagar pela internet foi vendido por um bilhão e meio d
 b1 | simples | interior madeira | two | MUS, EBY | - | tv | - | Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso
-b2 | simples | interior madeira | group | POV, POV | - | bancada, computador_2002, tv | - | O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem pre
+b2 | simples | interior madeira | group | POV, POV | - | bancada, computador_2002 | - | O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem pre
 b3 | simples | loc_cidade | two | EBY, MUS | - | - | - | O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a co
 b4 | simples | interior pedra | two | MUS, EBY | - | coin | - | O pagamento foi em ações do eBay, não em dinheiro vivo.
 b5 | simples | interior madeira | two | MUS, POV | - | - | - | Elon Musk era o maior acionista do PayPal, então ficou muito rico de r

@@ -30,3 +30,9 @@
 
 ## 25/11 02:35 autocorrecao de visibilidade
 - b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 15:35 autocorrecao de visibilidade
+- b6: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b3: quadro_manual (o roteiro fixou o quadro), objeto "kit/chocolate" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/chocolate" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

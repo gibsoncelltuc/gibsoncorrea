@@ -187,15 +187,6 @@
       "fixo": true,
       "y": 1.22
      }
-    ],
-    [
-     "kit/tv",
-     0.0,
-     -0.8,
-     0.9,
-     {
-      "fixo": true
-     }
     ]
    ],
    "text": "E-MAIL = DINHEIRO",
@@ -214,12 +205,6 @@
      {
       "objeto": "kit/computador_2002",
       "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, esquerda",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }

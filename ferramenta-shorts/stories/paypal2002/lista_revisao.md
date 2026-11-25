@@ -3,7 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b2: objeto "kit/computador_2002" saiu com 14% da altura da tela, a ficha de cena planejou 32%
+1. b2: objeto citado "kit/tv" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 2. SUSPEITA b8: a frase fala de CELULAR/INTERNET/TELA e a cena nao tem celular nem tela
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)

@@ -268,7 +268,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "SPE:0:laugh"
    ],
@@ -328,11 +328,13 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "wide",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "SPE:0:grin"
@@ -387,7 +389,9 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
