@@ -1,90 +1,18 @@
 # FOLHA 1 - ROTEIRO: E Se EP 05 - E Se Ninguém Precisasse Dormir?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 81 palavras (~28 s)
 
-## Cena b0  (~4.8 s)
-- Narracao: Você passa um terço da vida dormindo. E se ninguém precisasse dormir nunca mais?
+## Cena b0  (~3.4 s)
+- Narracao: E se ninguém precisasse dormir? Você ganharia 25 anos acordado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: dorme @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.9 s)
-- Narracao: Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a mais, acordado.
-- Som ambiente: birds
-- Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b2  (~5.5 s)
-- Narracao: As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora.
-- Som ambiente: birds
-- Efeitos sonoros marcados: ding@20, ding@50
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; festa -> stars + som de sino; encena: vence (up) @12 -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@50
-- Texto na tela: 24 HORAS
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b3  (~4.5 s)
-- Narracao: Daria tempo de aprender três línguas, um instrumento, e ver todas as séries.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b4  (~6.2 s)
-- Narracao: Mas será que o corpo aguenta? Em mil novecentos e sessenta e quatro, um estudante americano tentou descobrir.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: examina (think) @17 -> acao + som de efeito
-- Efeito visual marcado: stars@40
-- Texto na tela: - | mapa: ESTADOS UNIDOS
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~5.2 s)
-- Narracao: Randy Gardner, de dezessete anos, ficou acordado por onze dias seguidos, num experimento de escola.
-- Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: quimico (pour) @12 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~5.5 s)
-- Narracao: Acontece que, no fim, ele já esquecia palavras, ficava confuso e via coisas que não existiam.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@20, thump@50
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@20, puff@50
-- Texto na tela: -
-- Funcao na historia: VIRADA
-
-## Cena b7  (~6.2 s)
-- Narracao: Hoje sabemos por quê: dormindo, o cérebro faz uma faxina e lava o que acumulou durante o dia.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: dorme @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~3.8 s)
-- Narracao: Para não dormir, precisaríamos de outro cérebro. Nenhum café resolve isso.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~3.8 s)
-- Narracao: Ou seja: sem dormir, a humanidade não ganharia tempo. Ganharia sono.
+## Cena b1  (~2.8 s)
+- Narracao: Mas o preço disso aparece em poucos dias.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@30
 - Efeito + som nas palavras-chave: -
@@ -92,13 +20,67 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: ZZZ
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b10  (~5.2 s)
-- Narracao: Então, se você está vendo isso de madrugada, a ciência manda um recado: vai dormir.
+## Cena b2  (~2.8 s)
+- Narracao: Cidades funcionariam vinte e quatro horas por dia.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@20, ding@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@20, stars@50
+- Texto na tela: 24 HORAS
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b3  (~3.4 s)
+- Narracao: Daria para aprender três línguas e ver todas as séries.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~2.4 s)
+- Narracao: Em 1964, um estudante americano resolveu testar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: olha (point) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito
 - Efeito visual marcado: stars@40
+- Texto na tela: - | mapa: ESTADOS UNIDOS
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~2.4 s)
+- Narracao: Randy Gardner ficou onze dias seguidos acordado.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b6  (~3.8 s)
+- Narracao: Acontece que ele esquecia palavras e via coisas que não existiam.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@20, thump@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@20, puff@50
+- Texto na tela: -
+- Funcao na historia: VIRADA
+
+## Cena b7  (~3.8 s)
+- Narracao: Dormindo, o cérebro faz uma faxina do que acumulou no dia.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b8  (~3.1 s)
+- Narracao: Se você está vendo isso de madrugada, vai dormir.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: ding@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: stars@40
+- Texto na tela: E SE...
 - Funcao na historia: FECHO/PIADA FINAL
 
 

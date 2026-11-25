@@ -1,105 +1,185 @@
 # FOLHA 3 - ACOES - E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
-> "Diziam que ele era praticamente impossível de afundar. Afundou na primeira viagem. E se tivesse desviado do iceberg?"
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+> "Diziam que era impossível de ir ao fundo. Foi na primeira viagem."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | impossível (1.9s) | EFEITO: ring | onda + som | OK |
-| 2 | impossível (1.9s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
-| 3 | afundar (2.6s) | ACAO: desaba | desaba: nuvem de poeira + tremor | OK |
-| 4 | Afundou (3.0s) | EFEITO: dust | poeira + som | OK |
-| 5 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
-| 6 | - | INTERACAO | aproxima-se | OK |
-| 7 | - | ATUACAO | conversar | OK |
-| 8 | - | PLACA | 1912 | OK |
-
-## Cena b1 - 6.7s a 12.6s - 17 palavras - plano reveal
-> "Abril de mil novecentos e doze. O Titanic levava mais de duas mil pessoas para Nova York."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fundo" (2.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | MAPA | OCEANO ATLÂNTICO | OK |
+| 1 | impossível (1.1s) | EFEITO: ring | onda + som | OK |
+| 2 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
+| 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 4 | - | INTERACAO | aproxima-se | OK |
+| 5 | - | ATUACAO | conversar | OK |
+| 6 | - | PLACA | 1912 | OK |
+<!-- FISICA -->
 
-## Cena b2 - 13.0s a 17.8s - 14 palavras - plano two
-> "Perto da meia-noite, o vigia gritou: iceberg à frente! Não deu tempo de desviar."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: ring na palavra impossível (1.1s): executa: onda + som
+- EMOCAO: shock (a cena toda): executa: o rosto vira "shock" na palavra
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | gritou: (14.8s) | EFEITO: ring | onda + som | OK |
-| 2 | gritou (14.8s) | ACAO: grita | grita de bracos para cima | OK |
-| 3 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
-| 4 | - | INTERACAO | discutir | OK |
-| 5 | - | ATUACAO | discutir | OK |
+## Cena b1 - 4.4s a 8.1s - 11 palavras - plano group
+> "E se não tivesse afundado, o mar seria mais perigoso hoje."
 
-## Cena b3 - 18.1s a 23.7s - 16 palavras - plano close
-> "O gelo rasgou o casco por baixo da água, onde fica a maior parte do iceberg."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-
-## Cena b4 - 24.1s a 29.3s - 15 palavras - plano crowd
-> "Acontece que só havia botes para metade das pessoas. Cerca de mil e quinhentas morreram."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | morreram (29.3s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreram (29.3s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | PLACA | BOTES | OK |
-
-## Cena b5 - 29.6s a 31.9s - 7 palavras - plano two
-> "E se o Titanic tivesse chegado inteiro?"
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | avanca e o outro recua | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | CHEGADA | alguem entra andando | OK |
-
-## Cena b6 - 32.2s a 37.4s - 15 palavras - plano two
-> "Seria só mais um navio de luxo, esquecido. E as regras do mar continuariam fracas."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perigoso" (7.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b7 - 37.8s a 45.9s - 23 palavras - plano close
-> "Por causa do naufrágio, os países fizeram em mil novecentos e catorze o primeiro grande tratado de segurança no mar: bote para todos."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 8.5s a 12.2s - 11 palavras - plano reveal
+> "Abril de 1912. O Titanic levava mais de duas mil pessoas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "levava" (10.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | - | MAPA | OCEANO ATLÂNTICO | OK |
+<!-- FISICA -->
 
-## Cena b8 - 46.3s a 50.4s - 12 palavras - plano two
-> "E criaram uma patrulha só para vigiar icebergs. Ela existe até hoje."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b3 - 12.6s a 15.6s - 9 palavras - plano two
+> "Perto da meia-noite, o vigia gritou: iceberg à frente!"
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "gritou" (14.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vigiar (48.5s) | ACAO: x_vigia | vigia de bracos cruzados | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | gritou: (14.4s) | EFEITO: ring | onda + som | OK |
+| 2 | - | EMOCAO: shout | o rosto vira "shout" na palavra | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
+<!-- FISICA -->
 
-## Cena b9 - 50.7s a 55.2s - 13 palavras - plano orbit
-> "Ou seja: a tragédia do Titanic ajudou a salvar milhares de vidas depois."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: ring na palavra gritou: (14.4s): executa: onda + som
+- EMOCAO: shout (a cena toda): executa: o rosto vira "shout" na palavra
+- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
+<!-- /FISICA -->
+
+## Cena b4 - 15.9s a 18.9s - 9 palavras - plano two
+> "O gelo rasgou o casco por baixo da água."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "rasgou" (16.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b5 - 19.3s a 22.2s - 9 palavras - plano crowd
+> "Acontece que só havia botes para metade das pessoas."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "botes" (20.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | ATUACAO | comemorar | OK |
-| 3 | - | PLACA | VIDAS SALVAS | OK |
+| 2 | - | PLACA | BOTES | OK |
+<!-- FISICA -->
 
-## Cena b10 - 55.6s a 60.7s - 15 palavras - plano close
-> "Às vezes, o pior dia da história é o que deixa o futuro mais seguro."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 22: parada, reagindo (scared), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b6 - 22.6s a 24.8s - 7 palavras - plano orbit
+> "Cerca de mil e quinhentas pessoas morreram."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "morreram" (24.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | morreram (24.8s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 3 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 4 | - | PLACA | BOTES | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra morreram (24.8s): executa: fumaca + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 22: parada, reagindo (scared), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b7 - 25.2s a 29.3s - 12 palavras - plano close
+> "Em 1914, veio o primeiro grande tratado do mar: bote para todos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tratado" (27.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b8 - 29.6s a 33.0s - 10 palavras - plano two
+> "E criaram uma patrulha de icebergs, que existe até hoje."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "patrulha" (30.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | entregar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b9 - 33.3s a 36.7s - 10 palavras - plano two
+> "O pior dia do Titanic deixou o mar mais seguro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Titanic" (34.8s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 1912 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

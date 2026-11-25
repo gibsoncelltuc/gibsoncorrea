@@ -1,101 +1,169 @@
 # FOLHA 3 - ACOES - E Se EP 05 - E Se Ninguém Precisasse Dormir?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 9 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.9s - 14 palavras - plano two
-> "Você passa um terço da vida dormindo. E se ninguém precisasse dormir nunca mais?"
+## Cena b0 - 0.0s a 3.3s - 10 palavras - plano two
+> "E se ninguém precisasse dormir? Você ganharia 25 anos acordado."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | dormindo (1.5s) | ACAO: dorme | dormindo | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | E SE... | OK |
-
-## Cena b1 - 6.0s a 9.9s - 17 palavras - plano two
-> "Numa vida de setenta e cinco anos, isso daria uns vinte e cinco anos a mais, acordado."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
+| 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
 
-## Cena b2 - 11.3s a 16.5s - 16 palavras - plano crowd
-> "As cidades funcionariam vinte e quatro horas por dia. Escola, trabalho e festa a qualquer hora."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | festa (15.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | festa (15.8s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | comemorar | OK |
-| 6 | - | PLACA | 24 HORAS | OK |
+## Cena b1 - 3.7s a 6.3s - 8 palavras - plano crowd
+> "Mas o preço disso aparece em poucos dias."
 
-## Cena b3 - 17.6s a 21.9s - 13 palavras - plano two
-> "Daria tempo de aprender três línguas, um instrumento, e ver todas as séries."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b4 - 23.0s a 28.6s - 18 palavras - plano reveal
-> "Mas será que o corpo aguenta? Em mil novecentos e sessenta e quatro, um estudante americano tentou descobrir."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | descobrir (28.6s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | MAPA | ESTADOS UNIDOS | OK |
-
-## Cena b5 - 29.9s a 35.2s - 15 palavras - plano two
-> "Randy Gardner, de dezessete anos, ficou acordado por onze dias seguidos, num experimento de escola."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | experimento (34.5s) | ACAO: quimico | frasco e tubos de ensaio + fumacinha | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b6 - 36.4s a 41.3s - 16 palavras - plano low
-> "Acontece que, no fim, ele já esquecia palavras, ficava confuso e via coisas que não existiam."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
-
-## Cena b7 - 42.6s a 47.4s - 18 palavras - plano two
-> "Hoje sabemos por quê: dormindo, o cérebro faz uma faxina e lava o que acumulou durante o dia."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | dormindo (43.9s) | ACAO: dorme | dormindo | OK |
-| 2 | - | INTERACAO | avanca e o outro recua | OK |
-| 3 | - | ATUACAO | conversar | OK |
-
-## Cena b8 - 48.4s a 52.8s - 11 palavras - plano two
-> "Para não dormir, precisaríamos de outro cérebro. Nenhum café resolve isso."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | entregar | OK |
-| 2 | - | ATUACAO | conversar | OK |
-
-## Cena b9 - 54.1s a 58.6s - 11 palavras - plano orbit
-> "Ou seja: sem dormir, a humanidade não ganharia tempo. Ganharia sono."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "preço" (4.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | PLACA | ZZZ | OK |
+<!-- FISICA -->
 
-## Cena b10 - 59.8s a 64.4s - 15 palavras - plano close
-> "Então, se você está vendo isso de madrugada, a ciência manda um recado: vai dormir."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 18: parada, reagindo (bored), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b2 - 6.7s a 9.3s - 8 palavras - plano orbit
+> "Cidades funcionariam vinte e quatro horas por dia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cidades" (6.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | vendo (61.0s) | ACAO: olha | aponta/olha | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | 24 HORAS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 22: parada, reagindo (laugh), sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b3 - 9.6s a 13.0s - 10 palavras - plano two
+> "Daria para aprender três línguas e ver todas as séries."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "aprender" (10.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 13.3s a 15.6s - 7 palavras - plano group
+> "Em 1964, um estudante americano resolveu testar."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "testar" (15.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | MAPA | ESTADOS UNIDOS | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
+
+## Cena b5 - 15.9s a 18.1s - 7 palavras - plano two
+> "Randy Gardner ficou onze dias seguidos acordado."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "acordado" (18.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | cochichar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: cochichar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b6 - 18.5s a 22.2s - 11 palavras - plano close
+> "Acontece que ele esquecia palavras e via coisas que não existiam."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esquecia" (19.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b7 - 22.6s a 26.3s - 11 palavras - plano two
+> "Dormindo, o cérebro faz uma faxina do que acumulou no dia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "faxina" (24.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 26.7s a 29.6s - 9 palavras - plano two
+> "Se você está vendo isso de madrugada, vai dormir."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dormir" (29.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | E SE... | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

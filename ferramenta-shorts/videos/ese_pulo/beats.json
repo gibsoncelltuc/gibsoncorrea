@@ -52,7 +52,36 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "E se todas as pessoas do planeta pulassem exatamente no mesmo segundo? A Terra sairia do lugar?"
+   "bloco": "gancho",
+   "say": "Se todo mundo pulasse junto, a Terra sairia do lugar?",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pulasse"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin"
+   ],
+   "interacao": "abracar",
+   "bloco": "promessa",
+   "say": "Não. Mas o problema de verdade seria outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "problema"
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -62,7 +91,17 @@
    ],
    "mapa": "MUNDO",
    "mapa_at": 3,
-   "say": "Somos mais de oito bilhões de pessoas, espalhadas por todos os continentes."
+   "bloco": "prova",
+   "say": "Somos mais de oito bilhões de pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bilhões"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -71,7 +110,17 @@
     "POV:0:suspicious"
    ],
    "acao": "conversar",
-   "say": "Juntas, elas pesam mais de quinhentos milhões de toneladas. Parece muito, não parece?"
+   "bloco": "prova",
+   "say": "Juntas, pesamos mais de quinhentos milhões de toneladas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "toneladas"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -101,7 +150,17 @@
    ],
    "text": "3, 2, 1...",
    "titulo": true,
-   "say": "Então todo mundo conta até três, e pula ao mesmo tempo!"
+   "bloco": "escalada",
+   "say": "Todo mundo conta até três, e pula!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pula"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -122,14 +181,21 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que a Terra pesa trilhões de vezes mais que toda a humanidade junta."
+   "bloco": "escalada",
+   "say": "Acontece que a Terra pesa trilhões de vezes mais que nós.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Terra"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
-   "who": [
-    "PRO:0:grin",
-    "POV:0:shock"
-   ],
+   "who": [],
    "props": [
     [
      "kit/globe",
@@ -139,45 +205,40 @@
     ]
    ],
    "interacao": "susto",
-   "say": "Ela se mexeria menos que a largura de um átomo. Nenhum instrumento conseguiria medir."
-  },
-  {
-   "shot": "crowd",
-   "who": [
-    "POV:0:shock",
-    "POV:1:scared",
-    "POV:2:surprised"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 22,
-    "outfits": [
-     "POV"
+   "explica": {
+    "objeto": "kit/globe",
+    "manobra": "gira",
+    "comparar": [
+     [
+      "TERRA",
+      6000000000000000,
+      "mi t"
+     ],
+     [
+      "NÓS",
+      500,
+      "mi t"
+     ]
     ],
-    "march": false,
-    "expr": "shock"
+    "rotulos": [
+     [
+      "MENOS QUE UM ÁTOMO",
+      "cima",
+      "átomo"
+     ]
+    ]
    },
-   "fx": [
-    "burst@20",
-    "puff@40"
-   ],
-   "sfx": [
-    "cannon@20",
-    "thump@40"
-   ],
-   "text": "BUM!",
-   "titulo": true,
-   "say": "O que daria para notar seria o barulho. Bilhões de pés batendo no chão, como um trovão ao redor do mundo."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "POV:0:worried",
-    "PRO:0:suspicious"
-   ],
-   "acao": "discutir",
-   "say": "E se, para facilitar, todo mundo se juntasse num lugar só, para pular junto?"
+   "bloco": "escalada",
+   "say": "Ela se mexeria menos que a largura de um átomo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mexeria"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -191,16 +252,41 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Aí seria o caos: bilhões de pessoas presas no mesmo lugar, sem estrada, comida ou água para todos voltarem para casa."
+   "bloco": "pagamento",
+   "say": "Se todos se juntassem num lugar só, o caos seria a volta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caos"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
    "who": [
-    "POV:0:laugh",
-    "POV:1:grin"
+    "PRO:0:stern:paper",
+    "POV:1:nervous"
    ],
-   "interacao": "abracar",
-   "say": "Ou seja: pular junto é fácil. Difícil seria a volta."
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "bloco": "pagamento",
+   "say": "Bilhões de pessoas sem estrada, comida ou água para voltar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltar"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -216,8 +302,40 @@
     ]
    ],
    "acao": "comemorar",
-   "say": "A Terra não liga para o nosso pulo. Mas pode pular aí: ninguém vai sentir."
+   "bloco": "loop",
+   "say": "Pode pular aí. A Terra nem vai sentir.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pular"
+     }
+    ]
+   }
   }
  ],
- "exp": 1.0
+ "exp": 1.0,
+ "visual": {
+  "local": "o planeta inteiro: cidades, campos e praias",
+  "quando": "hoje (hipotese), de dia",
+  "participantes": [
+   "pessoas do mundo todo"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "multidoes pulando em varios lugares, globo terrestre",
+  "objetos": [
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://what-if.xkcd.com/8/",
+   "https://en.wikipedia.org/wiki/Earth_mass"
+  ],
+  "explicacoes": "A massa da Terra e cerca de 6 x 10^21 toneladas; a humanidade, ~5 x 10^8 toneladas. Um pulo coletivo moveria a Terra menos que a largura de um atomo. Fonte: xkcd What If #8 (Randall Munroe)."
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: se todo mundo pulasse junto a Terra sairia do lugar; nao sai, e o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+ "loop_frase_ok": true
 }

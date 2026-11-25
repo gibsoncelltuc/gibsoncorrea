@@ -25,16 +25,16 @@
 | darwin1835 | 112 | 41 | 0 | 0:  |
 | emus1932 | 100 | 36 | 0 | 0:  |
 | eratostenes240 | 105 | 38 | 0 | 0:  |
-| ese_buraco | 164 | 60 | 2 | 6: acima de 45 s: ~59.6 s (estimado; 164 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b10: palavra de enchimento "entao" / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa,  |
-| ese_dinheiro | 163 | 59 | 4 | 8: acima de 45 s: ~59.3 s (estimado; 163 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b3: palavra de enchimento "ai," / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa, pro |
-| ese_holanda | 169 | 61 | 7 | 10: acima de 45 s: ~61.5 s (estimado; 169 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa, prova, escalada, pagamento, loop |
-| ese_humanos | 165 | 60 | 5 | 9: acima de 45 s: ~60.0 s (estimado; 165 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / gancho (1a frase) com mais de 12 palavras: nao cabe em 3 s / blocos faltando ("bloco" em cada c |
-| ese_internet | 152 | 55 | 4 | 9: acima de 45 s: ~55.3 s (estimado; 152 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b10: palavra de enchimento "ai," / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / gancho (1a frase) com mais de 12 palavras: nao cabe em 3 s / |
-| ese_lua | 162 | 59 | 3 | 7: acima de 45 s: ~58.9 s (estimado; 162 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b10: palavra de enchimento "entao" / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa,  |
-| ese_napoleao | 163 | 59 | 4 | 7: acima de 45 s: ~59.3 s (estimado; 163 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa, prova, escalada, pagamento, loop |
-| ese_pulo | 162 | 59 | 4 | 8: acima de 45 s: ~58.9 s (estimado; 162 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b3: palavra de enchimento "entao" / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa, p |
-| ese_sono | 164 | 60 | 6 | 10: acima de 45 s: ~59.6 s (estimado; 164 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / b10: palavra de enchimento "entao" / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa,  |
-| ese_titanic | 165 | 60 | 4 | 7: acima de 45 s: ~60.0 s (estimado; 165 palavras faladas, anos contam como 6); cortar ate ~123 palavras faladas (ideal ~35 s) / falta "gancho_tipo" (perda | ganho | crenca | segredo) no topo do beats.json / blocos faltando ("bloco" em cada cena): gancho, promessa, prova, escalada, pagamento, loop |
+| ese_buraco | 98 | 36 | 0 | 0:  |
+| ese_dinheiro | 99 | 36 | 0 | 0:  |
+| ese_holanda | 120 | 44 | 0 | 0:  |
+| ese_humanos | 97 | 35 | 0 | 0:  |
+| ese_internet | 108 | 39 | 0 | 0:  |
+| ese_lua | 90 | 33 | 0 | 0:  |
+| ese_napoleao | 103 | 37 | 0 | 0:  |
+| ese_pulo | 91 | 33 | 0 | 0:  |
+| ese_sono | 88 | 32 | 0 | 0:  |
+| ese_titanic | 110 | 40 | 0 | 0:  |
 | falcon2015 | 100 | 36 | 0 | 0:  |
 | fleming1928 | 108 | 39 | 0 | 0:  |
 | franklin1752 | 97 | 35 | 0 | 0:  |
@@ -88,4 +88,4 @@
 | xplaca2023 | 99 | 36 | 0 | 0:  |
 | zanzibar1896 | 104 | 38 | 0 | 0:  |
 
-75/85 roteiros dentro da estrutura.
+85/85 roteiros dentro da estrutura.

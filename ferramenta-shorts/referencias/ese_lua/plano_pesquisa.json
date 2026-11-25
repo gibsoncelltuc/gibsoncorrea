@@ -1,0 +1,72 @@
+{
+ "id": "ese_lua",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se a Lua Desaparecesse?",
+   "consultas": [
+    "E Se a Lua Desaparecesse?",
+    "Lua Viria Primeiro"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "praia com mar e mares, ceu noturno",
+   "consultas": [
+    "praia com mar e mares ceu noturno"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Oceanos",
+   "consultas": [
+    "Oceanos",
+    "Oceanos landscape"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "observadores do ceu",
+   "consultas": [
+    "observadores do ceu"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "animais da praia",
+   "consultas": [
+    "animais da praia"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "Lua",
+   "consultas": [
+    "Lua"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "globo terrestre",
+   "consultas": [
+    "globo terrestre"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "moon",
+   "consultas": [
+    "Lua",
+    "E Se a Lua Desaparecesse?"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "globe",
+   "consultas": [
+    "globe"
+   ]
+  }
+ ]
+}

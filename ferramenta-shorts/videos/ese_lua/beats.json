@@ -57,108 +57,17 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "E se, hoje à noite, a Lua simplesmente desaparecesse do céu?"
-  },
-  {
-   "shot": "two",
-   "hora": "noite",
-   "who": [
-    "POV:0:shock",
-    "POV:1:scared"
-   ],
-   "fx": [
-    "puff@30",
-    "ring@50"
-   ],
-   "sfx": [
-    "thump@30",
-    "sting@50"
-   ],
-   "say": "A primeira mudança seria a escuridão. Noite de lua cheia, preta como uma caverna."
-  },
-  {
-   "shot": "reveal",
-   "who": [
-    "PES:0:surprised",
-    "POV:0:grin"
-   ],
-   "mapa": "OCEANOS",
-   "mapa_at": 3,
-   "say": "A segunda, no mar. Quem mais puxa as marés é a Lua."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PES:0:worried",
-    "PRO:0:stern:paper"
-   ],
-   "props": [
-    [
-     "boat",
-     2.0,
-     -8.0,
-     0.8
+   "bloco": "gancho",
+   "say": "E se, hoje à noite, a Lua desaparecesse do céu?",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Lua"
+     }
     ]
-   ],
-   "acao": "conversar",
-   "say": "Sem ela, as marés perderiam mais da metade da força. Só o Sol continuaria puxando.",
-   "fx": [
-    "ring@40"
-   ],
-   "sfx": [
-    "sting@40"
-   ]
-  },
-  {
-   "shot": "two",
-   "who": [
-    "PRO:0:sad",
-    "POV:0:sad"
-   ],
-   "animals": [
-    [
-     "gull",
-     1.8,
-     0.8
-    ]
-   ],
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "say": "Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos animais iam se perder no escuro."
-  },
-  {
-   "shot": "crowd",
-   "hora": "noite",
-   "who": [
-    "POV:0:shock",
-    "POV:1:surprised",
-    "PES:0:scared"
-   ],
-   "batalha": true,
-   "tiros": false,
-   "crowd": {
-    "n": 20,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "shock"
-   },
-   "fx": [
-    "burst@30",
-    "puff@50"
-   ],
-   "sfx": [
-    "cannon@30",
-    "thump@50"
-   ],
-   "text": "SEM LUA",
-   "titulo": true,
-   "say": "O mundo inteiro olharia para cima, sem acreditar."
+   }
   },
   {
    "shot": "close",
@@ -181,7 +90,130 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o pior viria devagar. A Lua funciona como um peso que mantém a Terra girando firme."
+   "bloco": "promessa",
+   "say": "O pior não viria na hora. Viria devagar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "devagar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "hora": "noite",
+   "who": [
+    "POV:0:shock",
+    "POV:1:scared"
+   ],
+   "fx": [
+    "puff@30",
+    "ring@50"
+   ],
+   "sfx": [
+    "thump@30",
+    "sting@50"
+   ],
+   "bloco": "prova",
+   "say": "Primeiro, a escuridão: lua cheia, preta como uma caverna.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escuridão"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "PES:0:surprised",
+    "POV:0:grin"
+   ],
+   "mapa": "OCEANOS",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Depois, o mar: quem mais puxa as marés é a Lua.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "marés"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PES:0:worried",
+    "PRO:0:stern:paper"
+   ],
+   "props": [
+    [
+     "boat",
+     2.0,
+     -8.0,
+     0.8
+    ]
+   ],
+   "acao": "conversar",
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "bloco": "prova",
+   "say": "Sem ela, as marés perderiam mais da metade da força.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "marés"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "escalada",
+   "say": "Acontece que a Lua mantém a Terra girando firme.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "girando"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -198,22 +230,17 @@
     ]
    ],
    "interacao": "cochichar",
-   "say": "Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as estações podiam ficar extremas."
-  },
-  {
-   "shot": "two",
-   "who": [
-    "POV:0:surprised",
-    "POV:1:grin"
-   ],
-   "acao": "conversar",
-   "say": "E os dias parariam de ficar mais compridos, porque é a Lua que freia a Terra, bem devagar.",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ]
+   "bloco": "escalada",
+   "say": "Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balançaria"
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -251,7 +278,17 @@
    ],
    "text": "OBRIGADO, LUA",
    "titulo": true,
-   "say": "Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros por ano."
+   "bloco": "pagamento",
+   "say": "Boa notícia: ela não vai embora. Só se afasta quatro centímetros por ano.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "afasta"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -268,7 +305,40 @@
     ]
    ],
    "acao": "conversar",
-   "say": "Então hoje, olha para cima e agradece. Ela trabalha mais do que parece."
+   "bloco": "loop",
+   "say": "Hoje à noite, olha para cima e agradece.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "olha"
+     }
+    ]
+   }
   }
- ]
+ ],
+ "visual": {
+  "local": "praia com mar e mares, ceu noturno",
+  "quando": "hoje a noite (hipotese)",
+  "participantes": [
+   "observadores do ceu",
+   "animais da praia"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "praia a noite, mar com mare, ceu estrelado sem lua",
+  "objetos": [
+   "Lua",
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Moon",
+   "https://en.wikipedia.org/wiki/Tide"
+  ]
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: e se a Lua sumisse hoje; o pior viria devagar. Pagamento: noites escuras, mares mais fracos, eixo da Terra balancando e estacoes extremas; ela so se afasta 4 cm por ano.",
+ "loop_frase_ok": true
 }

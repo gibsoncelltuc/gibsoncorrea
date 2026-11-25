@@ -2,7 +2,7 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/ese_lua/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py ese_lua` de novo ate esta folha sair sem risco.
 
-## Cena b0 - E se, hoje à noite, a Lua simplesmente desaparecesse do céu?
+## Cena b0 - E se, hoje à noite, a Lua desaparecesse do céu?
 - Cenario: harbor | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
@@ -11,103 +11,190 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b1 - A primeira mudança seria a escuridão. Noite de lua cheia, preta como u...
-- Cenario: countryside | luz: noite | clima: limpo
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e moon juntos (camera a 11.5 m)
+- PERSONAGENS: PRO (cientista) na esquerda, expressao grin; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETO kit/moon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "E SE..." numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (0.0-1.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (1.6-3.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b1 - O pior não viria na hora. Viria devagar.
+- Cenario: loc_campo | luz: noite | clima: limpo
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): PRO (variante 0, expressao shock) | multidao: 8 de POV
+- Animacao: reagir
+- Objetos/modelos: kit/globe
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): pior
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
+- PERSONAGENS: PRO (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: sting@20
+- SOM: ding@50
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b2 - Primeiro, a escuridão: lua cheia, preta como uma caverna.
+- Cenario: interior loja | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao scared)
 - Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caverna, escuridao, primeira
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caverna, escuridao
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b2 - A segunda, no mar. Quem mais puxa as marés é a Lua.
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: POV na esquerda, expressao shock; POV na direita, expressao scared; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +30 da cena
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +50 da cena
+- SOM: thump@30
+- SOM: sting@50
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (6.7-8.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.2-9.6 s): mesmo angulo
+<!-- /FICHA -->
+
+## Cena b3 - Depois, o mar: quem mais puxa as marés é a Lua.
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PES (variante 0, expressao surprised); POV (variante 0, expressao grin) | multidao: 6 de PES/POV
-- Animacao: -
+- Personagens principais (2): PES (variante 0, expressao surprised); POV (variante 0, expressao grin) | multidao: 6 de POV
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mares, segunda
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): mares
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b3 - Sem ela, as marés perderiam mais da metade da força. Só o Sol continua...
-- Cenario: countryside | luz: day | clima: limpo
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: revelacao (camera sobe e abre)
+- PERSONAGENS: PES (pescador) na esquerda, expressao surprised; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: OCEANOS (cobre a tela 1-2 s)
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (10.0-11.8 s): mesmo angulo
+  - take 2 (11.8-13.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b4 - Sem ela, as marés perderiam mais da metade da força.
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PES (variante 0, expressao worried); PRO (variante 0, expressao stern, segura paper)
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: boat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): forca, mares, metade
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b4 - Bichos da praia que vivem do sobe e desce da água iam sofrer, e muitos...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): PRO (variante 0, expressao sad); POV (variante 0, expressao sad)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: gull
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): agua, escuro, praia, sobe
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o boat (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: PES (pescador) na esquerda, expressao worried; PRO (cientista) na direita, expressao stern, segura paper; sem multidao; acao: conversar
+- OBJETO boat: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 4.5 m de altura x 6.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- SOM: sting@40
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (14.1-15.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (15.8-17.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
-## Cena b5 - O mundo inteiro olharia para cima, sem acreditar.
-- Cenario: street | luz: noite | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): POV (variante 0, expressao shock); POV (variante 1, expressao surprised); PES (variante 0, expressao scared) | multidao: 20 de POV
-- Animacao: reagir | batalha encenada
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
-
-## Cena b6 - Acontece que o pior viria devagar. A Lua funciona como um peso que man...
-- Cenario: street | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+## Cena b5 - Acontece que a Lua mantém a Terra girando firme.
+- Cenario: loc_montanha | luz: day | clima: limpo
+- Camera: low = camera baixa, dramatica (virada)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): PRO (variante 0, expressao shock)
 - Animacao: reagir
 - Objetos/modelos: kit/globe
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): peso, pior, terra
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): terra
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b7 - Sem ela, em milhões de anos, o eixo do planeta iria balançar, e as est...
-- Cenario: street | luz: noite | clima: limpo
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e globe juntos (camera a 8.0 m)
+- PERSONAGENS: PRO (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/globe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: sting@20
+- SOM: ding@50
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (17.8-19.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (19.2-20.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b6 - Sem ela, o eixo do planeta balançaria, e as estações ficariam extremas...
+- Cenario: loc_montanha | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 0, expressao worried)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): eixo, estacoes, planeta
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b8 - E os dias parariam de ficar mais compridos, porque é a Lua que freia a...
-- Cenario: street | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin)
-- Animacao: conversar | interacao: insiste
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ficar, terra
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- PERSONAGENS: PRO (cientista) na esquerda, expressao stern, segura paper; POV na direita, expressao worried; sem multidao; acao: cochichar
+- OBJETO kit/globe: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
+  - take 1 (21.1-23.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (23.1-25.2 s): mesmo angulo
+<!-- /FICHA -->
 
-## Cena b9 - Boa notícia: ela não vai embora. Só se afasta uns quatro centímetros p...
-- Cenario: street | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+## Cena b7 - Boa notícia: ela não vai embora. Só se afasta quatro centímetros por a...
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao smile); PES (variante 0, expressao grin); PRO (variante 0, expressao smile) | multidao: 18 de POV
 - Animacao: comemorar | batalha encenada
 - Objetos/modelos: kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b10 - Então hoje, olha para cima e agradece. Ela trabalha mais do que parece...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e moon juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; PES (pescador) no centro, expressao grin; PRO (cientista) na direita, expressao smile; multidao de 18 (POV) ATRAS dos principais; acao: comemorar
+- OBJETO kit/moon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "OBRIGADO, LUA" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (4.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
+## Cena b8 - Hoje à noite, olha para cima e agradece.
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): PRO (variante 0, expressao smile)
-- Animacao: conversar
+- Personagens principais (2): PRO (variante 0, expressao grin); POV (variante 0, expressao surprised)
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -117,20 +204,31 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/moon | b0, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-boat | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-gull | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/moon | b0, b7, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/globe | b1, b5, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+boat | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/moon | grandes momentos: b5, b9 | planos abertos: 3 | mistura: close 11% | medio 73% | aberto 9% | detalhe 7%
-- Interacoes: b0 vai ate o outro, b1 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b7 cochichar, b8 insiste
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/moon | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 64% | aberto 14% | detalhe 6%
+- Interacoes: b0 vai ate o outro, b2 aproxima-se, b4 avanca e o outro recua, b6 cochichar, b8 o outro se aproxima
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py ese_lua  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/ese_lua/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh ese_lua bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh ese_lua` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: noite
+- CAMERA: close (rosto e ombros); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)
+- PERSONAGENS: PRO (cientista) no centro, expressao smile; sem multidao; acao: conversar
+- OBJETO kit/moon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.6 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+

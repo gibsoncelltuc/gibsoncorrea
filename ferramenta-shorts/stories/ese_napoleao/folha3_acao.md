@@ -1,108 +1,193 @@
 # FOLHA 3 - ACOES - E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 5.2s - 15 palavras - plano two
-> "Uma única tarde mudou a história da Europa. E se Napoleão tivesse vencido em Waterloo?"
+## Cena b0 - 0.0s a 3.7s - 11 palavras - plano two
+> "Uma tarde mudou a Europa? E se Napoleão ganhasse em Waterloo?"
+
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Waterloo" (3.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | 1815 | OK |
+<!-- FISICA -->
 
-## Cena b1 - 5.6s a 10.4s - 14 palavras - plano reveal
-> "Era dezoito de junho de mil oitocentos e quinze, perto de Waterloo, na Bélgica."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: vai ate o outro
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b1 - 4.1s a 6.3s - 7 palavras - plano close
+> "A resposta dos historiadores vai te surpreender."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "resposta" (4.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b2 - 6.7s a 9.3s - 8 palavras - plano reveal
+> "Era 18 de junho de 1815, na Bélgica."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Bélgica" (9.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | BÉLGICA | OK |
+<!-- FISICA -->
 
-## Cena b2 - 10.7s a 16.7s - 17 palavras - plano group
-> "Napoleão tinha fugido do exílio, reunido um exército, e voltado ao poder na França em poucos dias."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
+<!-- /FISICA -->
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+## Cena b3 - 9.6s a 12.6s - 9 palavras - plano two
+> "Napoleão tinha saído do exílio e retomado o poder."
 
-## Cena b3 - 17.0s a 22.2s - 15 palavras - plano orbit
-> "Na batalha, ele enfrentou os ingleses do duque de Wellington. Canhões dispararam o dia inteiro."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | enfrentou (18.1s) | ACAO: golpe | soco + estouro | OK |
-| 2 | Canhões (20.7s) | EFEITO: burst | estouro/clarao + som | OK |
-| 3 | Canhões (20.7s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-| 4 | dispararam (21.1s) | EFEITO: burst | estouro/clarao + som | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
-| 7 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 8 | - | PLACA | WATERLOO | OK |
-
-## Cena b4 - 22.6s a 26.7s - 12 palavras - plano crowd
-> "Os ingleses resistiram por horas, e o combate ficou por um fio."
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "poder" (12.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
-| 3 | - | ATUACAO | reagir | OK |
-
-## Cena b5 - 27.0s a 32.2s - 15 palavras - plano orbit
-> "No fim da tarde, chegou o exército prussiano para ajudar Wellington. E Napoleão foi derrotado."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | chegou (28.5s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (28.5s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | derrotado (32.2s) | EFEITO: puff | fumaca + som | OK |
-| 4 | derrotado (32.2s) | ACAO: perde | mao na testa | OK |
-| 5 | - | CENA | tiros: 5 soldados caem no chao | OK |
-| 6 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-
-## Cena b6 - 32.6s a 37.8s - 15 palavras - plano two
-> "Ele foi mandado para Santa Helena, uma ilha perdida no oceano Atlântico, e morreu lá."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | morreu (37.4s) | EFEITO: puff | fumaca + som | OK |
-| 2 | morreu (37.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
-| 4 | - | INTERACAO | empurrar | OK |
-| 5 | - | ATUACAO | conversar | OK |
-
-## Cena b7 - 38.1s a 43.0s - 14 palavras - plano two
-> "E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | INTERACAO | discutir | OK |
-| 2 | - | ATUACAO | discutir | OK |
-
-## Cena b8 - 43.3s a 47.8s - 13 palavras - plano close
-> "Acontece que a maioria dos historiadores pensa diferente: ele provavelmente perderia mesmo assim."
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | perderia (47.0s) | ACAO: perde | mao na testa | OK |
+| 1 | - | INTERACAO | entregar | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b9 - 48.1s a 53.7s - 16 palavras - plano two
-> "Exércitos enormes da Rússia e da Áustria já marchavam contra ele. Waterloo só apressou o fim."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: entregar
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b4 - 13.0s a 16.7s - 11 palavras - plano crowd
+> "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dispararam" (15.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | Canhões (15.2s) | EFEITO: burst | estouro/clarao + som | OK |
+| 2 | dispararam (15.6s) | EFEITO: burst | estouro/clarao + som | OK |
+| 3 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 4 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
+| 6 | - | PLACA | WATERLOO | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: burst na palavra Canhões (15.2s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- EFEITO: burst na palavra dispararam (15.6s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- CENA (a cena toda): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
+- BATALHA (a cena toda): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+- multidao de 20: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b5 - 17.0s a 20.4s - 10 palavras - plano orbit
+> "No fim da tarde, os prussianos chegaram, e Napoleão perdeu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "perdeu" (20.4s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | chegaram (19.3s) | EFEITO: dust | poeira + som | OK |
+| 2 | perdeu (20.4s) | EFEITO: puff | fumaca + som | OK |
+| 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 4 | - | CENA | tiros: 5 soldados caem no chao | OK |
+| 5 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: dust na palavra chegaram (19.3s): executa: poeira + som
+- EFEITO: puff na palavra perdeu (20.4s): executa: fumaca + som
+- EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
+- CENA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- GRANDE MOMENTO (a cena toda): multidao atras dos personagens reage (susto/euforia) com efeito e som, SEM tiros e sem ninguem cair
+- multidao de 18: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b6 - 20.7s a 24.1s - 10 palavras - plano two
+> "Foi mandado para Santa Helena, uma ilha perdida no Atlântico."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandado" (21.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | empurrar | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): as duas maos empurram em ~0,3 s; o outro cambaleia para tras
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b7 - 24.4s a 27.4s - 9 palavras - plano close
+> "Acontece que, para muitos historiadores, a derrota viria igual."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "historiadores" (25.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | derrota (26.7s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: puff na palavra derrota (26.7s): executa: fumaca + som
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 27.8s a 31.1s - 10 palavras - plano two
+> "Rússia e Áustria já marchavam contra ele com exércitos enormes."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "marchavam" (29.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
-## Cena b10 - 54.1s a 60.0s - 17 palavras - plano close
-> "Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem."
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+- multidao de 6: marcha no lugar, passos sincronizados, sempre ATRAS dos personagens principais
+<!-- /FISICA -->
+
+## Cena b9 - 31.5s a 35.2s - 11 palavras - plano two
+> "Um dia famoso nem sempre muda o destino. Só a data."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "destino" (34.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | 1815 | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
 

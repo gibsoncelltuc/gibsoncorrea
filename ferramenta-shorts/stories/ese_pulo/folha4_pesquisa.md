@@ -3,10 +3,10 @@
 Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py ese_pulo` busca cada item na internet, baixa os prints (referencias/ese_pulo/prints/) e monta o quadro referencias/ese_pulo/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
 
 - Historia: E Se Todo Mundo Pulasse ao Mesmo Tempo?
-- Epoca: ? | Lugar: ? | Quando: ?
+- Epoca: ? | Lugar: o planeta inteiro: cidades, campos e praias | Quando: hoje (hipotese), de dia
 - HEROIS (objeto): kit/globe
 - HEROIS (personagens): PRO
-- Cenarios: interior madeira, interior pedra, loc_campo, loc_deserto, loc_montanha
+- Cenarios: harbor, interior madeira, loc_estudio, street
 - Proibido pela epoca: -
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,13 +14,206 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | E Se Todo Mundo Pulasse ao Mesmo Tempo? | E Se Todo Mundo Pulasse ao Mesmo Tempo? / Terra Somos Juntas Parece | SEM REFERENCIA
+tema | E Se Todo Mundo Pulasse ao Mesmo Tempo? | E Se Todo Mundo Pulasse ao Mesmo Tempo? / Se Terra Não Mas Somos | SEM REFERENCIA
+lugar | o planeta inteiro: cidades, campos e praias | o planeta inteiro | SEM REFERENCIA
 lugar | Mundo | Mundo / Mundo landscape | SEM REFERENCIA
-heroi | globe | globe / E Se Todo Mundo Pulasse ao Mesmo Tempo? | SEM REFERENCIA
-mecanismo | Ela se mexeria menos que a largura de um átomo. Nenhum instrumento con | mexeria largura atomo nenhum instrumento conseguiria medir / diagram | SEM REFERENCIA
+pessoas | pessoas do mundo todo | pessoas do mundo todo | SEM REFERENCIA
+objeto | globo terrestre | globo terrestre | SEM REFERENCIA
+heroi | globe | globo terrestre / E Se Todo Mundo Pulasse ao Mesmo Tempo? | SEM REFERENCIA
+mecanismo | Ela se mexeria menos que a largura de um átomo. | mexeria largura atomo / globe diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
-- -
+- A
+-  
+- m
+- a
+- s
+- s
+- a
+-  
+- d
+- a
+-  
+- T
+- e
+- r
+- r
+- a
+-  
+- e
+-  
+- c
+- e
+- r
+- c
+- a
+-  
+- d
+- e
+-  
+- 6
+-  
+- x
+-  
+- 1
+- 0
+- ^
+- 2
+- 1
+-  
+- t
+- o
+- n
+- e
+- l
+- a
+- d
+- a
+- s
+- ;
+-  
+- a
+-  
+- h
+- u
+- m
+- a
+- n
+- i
+- d
+- a
+- d
+- e
+- ,
+-  
+- ~
+- 5
+-  
+- x
+-  
+- 1
+- 0
+- ^
+- 8
+-  
+- t
+- o
+- n
+- e
+- l
+- a
+- d
+- a
+- s
+- .
+-  
+- U
+- m
+-  
+- p
+- u
+- l
+- o
+-  
+- c
+- o
+- l
+- e
+- t
+- i
+- v
+- o
+-  
+- m
+- o
+- v
+- e
+- r
+- i
+- a
+-  
+- a
+-  
+- T
+- e
+- r
+- r
+- a
+-  
+- m
+- e
+- n
+- o
+- s
+-  
+- q
+- u
+- e
+-  
+- a
+-  
+- l
+- a
+- r
+- g
+- u
+- r
+- a
+-  
+- d
+- e
+-  
+- u
+- m
+-  
+- a
+- t
+- o
+- m
+- o
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- x
+- k
+- c
+- d
+-  
+- W
+- h
+- a
+- t
+-  
+- I
+- f
+-  
+- #
+- 8
+-  
+- (
+- R
+- a
+- n
+- d
+- a
+- l
+- l
+-  
+- M
+- u
+- n
+- r
+- o
+- e
+- )
+- .
 
 ## Fontes visuais do roteirista
-- -
+- https://what-if.xkcd.com/8/
+- https://en.wikipedia.org/wiki/Earth_mass
