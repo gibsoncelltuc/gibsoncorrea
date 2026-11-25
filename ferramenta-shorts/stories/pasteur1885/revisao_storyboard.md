@@ -1,4 +1,4 @@
-# Revisao do storyboard - pasteur1885 (25/11, olhado quadro a quadro)
+# Revisao do storyboard - pasteur1885 (25/11, olhado quadro a quadro, 2a versao com seringa fixa)
 b0: OK - "um menino de nove anos foi o primeiro a receber a vacina": praca de Paris, personagem pequeno com a seringa grande em primeiro plano
 b1: OK - "mil oitocentos e oitenta e cinco, na Franca, Louis Pasteur": Pasteur de chapeu na praca, mapa FRANCA, predios franceses
 b2: OK - "quem era mordido por um animal com raiva quase nunca se salvava": gente assustada na rua/laboratorio, sem tiro nem explosao
