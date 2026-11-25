@@ -8,7 +8,7 @@ b2 [negativa] "Na época, quem era mordido por um animal com raiva quase nunca s
 b3 [negativa] "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa."
     - examina quem=0 alvo=- na="testado"
 b4 [afirmativa] "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
-    - chega quem=0 alvo=- na="chegou"
+    - mostra quem=0 alvo=- na="mãe"
 b5 [afirmativa] "Pasteur não era médico e tinha medo, mas decidiu tentar."
     - pensa quem=0 alvo=- na="tentar"
 b6 [afirmativa] "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente."

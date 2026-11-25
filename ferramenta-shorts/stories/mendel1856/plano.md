@@ -5,15 +5,15 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | tropa, objeto na mao | descobriu (ring + som de alerta); encena: examina (think) @8 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | tropa | encena: examina (point) @1 (acao + som de efeito); encena: x_espera (point) @8 (acao + som de efeito) | -
-b3 | two | -  | tropa | - | -
+b3 | two | -  | tropa, interior | - | -
 b4 | two | -  | interior | encena: pensa (think) @2 (acao + som de efeito) | -
 b5 | wide | -  | tropa, objeto na mao | encena: x_planta (hammer) @1 (acao + som de efeito); encena: fala (point) @7 (acao + som de efeito) | -
-b6 | wide | -  | batalha aberta com tiros, tropa, placa: 3 : 1 | - | -
+b6 | two | -  | batalha aberta com tiros, tropa, interior, placa: 3 : 1 | - | -
 b7 | two | -  | interior | descobriu (ring + som de alerta); encena: examina (think) @1 (acao + som de efeito) | -
 b8 | close | -  | interior, objeto na mao | encena: escreve (write) @0 (acao + som de efeito) | -
-b9 | wide | -  | batalha aberta com tiros, tropa, placa: GENÉTICA | encena: olha (point) @13 (acao + som de efeito) | -
-b10 | two | -  | tropa | - | -
+b9 | two | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | encena: olha (point) @13 (acao + som de efeito) | -
+b10 | wide | -  | tropa | - | -
 b11 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 20% | medio 55% | aberto 22% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | dentro do padrao do canal
+Mistura de planos: close 16% | medio 59% | aberto 20% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | dentro do padrao do canal

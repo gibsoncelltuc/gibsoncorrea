@@ -6,6 +6,11 @@
    "video",
    "countryside",
    "loc_campo"
+  ],
+  [
+   "cena 2",
+   "medieval",
+   "loc_campo"
   ]
  ],
  "metricas": {
@@ -22,7 +27,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green"
+    "kit/pea_green",
+    "kit/vagem_verde"
    ],
    "palavras": 14,
    "cena": "b0",
@@ -64,7 +70,8 @@
    "multidao": 0,
    "objetos": [
     "kit/pea_green",
-    "kit/pea_yellow"
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
    ],
    "palavras": 15,
    "cena": "b2",
@@ -82,7 +89,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_yellow"
+    "kit/vagem_amarela"
    ],
    "palavras": 12,
    "cena": "b3",
@@ -91,7 +98,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -117,7 +124,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_yellow"
+    "kit/pea_green",
+    "kit/vagem_amarela"
    ],
    "palavras": 14,
    "cena": "b5",
@@ -126,17 +134,19 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MEN"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
     "kit/pea_green",
-    "kit/pea_yellow"
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
    ],
    "palavras": 16,
    "cena": "b6",
@@ -151,7 +161,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -187,14 +197,15 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "CIE"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green",
-    "kit/pea_yellow"
+    "kit/bancada",
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
    ],
    "palavras": 18,
    "cena": "b9",
@@ -209,25 +220,26 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MEN"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/pea_green"
+    "kit/pea_green",
+    "kit/vagem_verde"
    ],
    "palavras": 8,
    "cena": "b10",
    "frase": "No fim, a ervilha fez o monge famoso.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -243,7 +255,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "loc_campo"
   }
  ]
 }

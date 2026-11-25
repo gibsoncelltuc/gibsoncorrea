@@ -1,0 +1,882 @@
+{
+ "id": "pasteur1885",
+ "falhas": [],
+ "tomadas": [
+  {
+   "id": "b0",
+   "quadros": [
+    {
+     "f": 12,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 0.9523809523809523,
+       "area": 0.049628981630684854,
+       "cx": 0.0797099931125255,
+       "alt": 0.08565339922920986,
+       "altmax": 0.08565339922920986
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.281
+    },
+    {
+     "f": 30,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9336283185840708,
+       "vis": 0.995260663507109,
+       "area": 0.08473167678404493,
+       "cx": 0.1200665901928144,
+       "alt": 0.09643292911442697,
+       "altmax": 0.09643292911442697
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.31399999999999995
+    },
+    {
+     "f": 48,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.915929203539823,
+       "vis": 1,
+       "area": 0.1073257150432456,
+       "cx": -0.03914156506957189,
+       "alt": 0.11179178598927175,
+       "altmax": 0.11179178598927175
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.357
+    }
+   ]
+  },
+  {
+   "id": "b0~1",
+   "quadros": [
+    {
+     "f": 73,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.6415929203539823,
+       "vis": 0.993103448275862,
+       "area": 0.10954783442587576,
+       "cx": 0.14260086300658587,
+       "alt": 0.13378101219985428,
+       "altmax": 0.13378101219985428
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.511
+    },
+    {
+     "f": 91,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.6504424778761062,
+       "vis": 0.9523809523809523,
+       "area": 0.16076702123984896,
+       "cx": -0.0255434897099443,
+       "alt": 0.16534985902666727,
+       "altmax": 0.16534985902666727
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.54
+    },
+    {
+     "f": 109,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.7876106194690266,
+       "vis": 0.9775280898876404,
+       "area": 0.14237589210980914,
+       "cx": -0.024427238190459666,
+       "alt": 0.15395785009296747,
+       "altmax": 0.15395785009296747
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.5129999999999999
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "quadros": [
+    {
+     "f": 160,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.347
+    },
+    {
+     "f": 217,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.184
+    },
+    {
+     "f": 274,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.11999999999999994
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "quadros": [
+    {
+     "f": 322,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.399
+    },
+    {
+     "f": 336,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44399999999999995
+    },
+    {
+     "f": 350,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.479
+    }
+   ]
+  },
+  {
+   "id": "b2~1",
+   "quadros": [
+    {
+     "f": 369,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.504
+    },
+    {
+     "f": 383,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.487
+    },
+    {
+     "f": 397,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43999999999999995
+    }
+   ]
+  },
+  {
+   "id": "b2~2",
+   "quadros": [
+    {
+     "f": 416,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.4109999999999999
+    },
+    {
+     "f": 430,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.34099999999999997
+    },
+    {
+     "f": 444,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.351
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "quadros": [
+    {
+     "f": 464,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 0.9714285714285714,
+       "area": 0.12212643060013549,
+       "cx": -0.03925064464199873,
+       "alt": 0.1307330365508186,
+       "altmax": 0.1307330365508186
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.43999999999999995
+    },
+    {
+     "f": 480,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9070796460176991,
+       "vis": 0.9609756097560975,
+       "area": 0.13695392273015272,
+       "cx": -0.017065310511213683,
+       "alt": 0.13963540038248534,
+       "altmax": 0.13963540038248534
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.477
+    },
+    {
+     "f": 495,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.7831858407079646,
+       "vis": 0.903954802259887,
+       "area": 0.14789321024894253,
+       "cx": 0.003046915151571794,
+       "alt": 0.1483735240589608,
+       "altmax": 0.1483735240589608
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.516
+    }
+   ]
+  },
+  {
+   "id": "b3_d",
+   "quadros": [
+    {
+     "f": 513,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.5752212389380531,
+       "vis": 0.9307692307692308,
+       "area": 0.14216883786409987,
+       "cx": 0.15989646851127814,
+       "alt": 0.17743736270150468,
+       "altmax": 0.17743736270150468
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.639
+    },
+    {
+     "f": 523,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.8761061946902655,
+       "vis": 0.9343434343434344,
+       "area": 0.11265938971634916,
+       "cx": -0.11746587420048377,
+       "alt": 0.12833329703647722,
+       "altmax": 0.12833329703647722
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.463
+    },
+    {
+     "f": 533,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 0.819047619047619,
+       "area": 0.07712942682370039,
+       "cx": -0.17923838162675104,
+       "alt": 0.10492285885890099,
+       "altmax": 0.10492285885890099
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.36
+    }
+   ]
+  },
+  {
+   "id": "b3_v",
+   "quadros": [
+    {
+     "f": 552,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 1,
+       "vis": 0.8938053097345132,
+       "area": 0.05914463082737286,
+       "cx": 0.07686246821786485,
+       "alt": 0.07951877784198008,
+       "altmax": 0.07951877784198008
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.26899999999999996
+    },
+    {
+     "f": 570,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 0.9523809523809523,
+       "area": 0.10710621940365629,
+       "cx": -0.03943316541865083,
+       "alt": 0.12238621837009167,
+       "altmax": 0.12238621837009167
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40800000000000003
+    },
+    {
+     "f": 587,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 0.9333333333333333,
+       "area": 0.12529722428041434,
+       "cx": -0.03288164830108786,
+       "alt": 0.1323183020380826,
+       "altmax": 0.1323183020380826
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44599999999999995
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "quadros": [
+    {
+     "f": 610,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42999999999999994
+    },
+    {
+     "f": 627,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.488
+    },
+    {
+     "f": 643,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.56
+    }
+   ]
+  },
+  {
+   "id": "b4~1",
+   "quadros": [
+    {
+     "f": 666,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.55
+    },
+    {
+     "f": 683,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.499
+    },
+    {
+     "f": 700,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.469
+    }
+   ]
+  },
+  {
+   "id": "b4~2",
+   "quadros": [
+    {
+     "f": 723,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.414
+    },
+    {
+     "f": 740,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.479
+    },
+    {
+     "f": 756,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.557
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "quadros": [
+    {
+     "f": 779,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.542
+    },
+    {
+     "f": 796,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.604
+    },
+    {
+     "f": 812,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.638
+    }
+   ]
+  },
+  {
+   "id": "b5~1",
+   "quadros": [
+    {
+     "f": 835,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.618
+    },
+    {
+     "f": 852,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.549
+    },
+    {
+     "f": 868,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.537
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "quadros": [
+    {
+     "f": 915,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.9292035398230089,
+       "vis": 1,
+       "area": 0.10513446578139447,
+       "cx": 0.39591931126366586,
+       "alt": 0.17960533339189813,
+       "altmax": 0.17960533339189813
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.356
+    },
+    {
+     "f": 968,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.7168141592920354,
+       "vis": 0.9444444444444444,
+       "area": 0.107132488595083,
+       "cx": 0.16628943643974498,
+       "alt": 0.1561624185818512,
+       "altmax": 0.1561624185818512
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 1,
+     "altP": 0.488
+    },
+    {
+     "f": 1021,
+     "objs": [
+      {
+       "a": "kit/syringe",
+       "inq": 0.7256637168141593,
+       "vis": 0.9573170731707317,
+       "area": 0.1568274989061791,
+       "cx": -0.2073221938621858,
+       "alt": 0.1983164527860079,
+       "altmax": 0.1983164527860079
+      }
+     ],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.498
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "quadros": [
+    {
+     "f": 1078,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.42800000000000005
+    },
+    {
+     "f": 1109,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44000000000000006
+    },
+    {
+     "f": 1139,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.47000000000000003
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "quadros": [
+    {
+     "f": 1173,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.38
+    },
+    {
+     "f": 1190,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.41100000000000003
+    },
+    {
+     "f": 1207,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.44100000000000006
+    }
+   ]
+  },
+  {
+   "id": "b8~1",
+   "quadros": [
+    {
+     "f": 1231,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.40599999999999997
+    },
+    {
+     "f": 1249,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.325
+    },
+    {
+     "f": 1266,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.307
+    }
+   ]
+  },
+  {
+   "id": "b8~2",
+   "quadros": [
+    {
+     "f": 1290,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.414
+    },
+    {
+     "f": 1307,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.478
+    },
+    {
+     "f": 1324,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.531
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "quadros": [
+    {
+     "f": 1368,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.15200000000000002
+    },
+    {
+     "f": 1416,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.17900000000000005
+    },
+    {
+     "f": 1463,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.21099999999999997
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "quadros": [
+    {
+     "f": 1506,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.521
+    },
+    {
+     "f": 1524,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.567
+    },
+    {
+     "f": 1541,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.627
+    }
+   ]
+  },
+  {
+   "id": "b10~1",
+   "quadros": [
+    {
+     "f": 1564,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.639
+    },
+    {
+     "f": 1581,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.628
+    },
+    {
+     "f": 1598,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0.604
+    }
+   ]
+  },
+  {
+   "id": "b11",
+   "quadros": [
+    {
+     "f": 1623,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1643,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1662,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  },
+  {
+   "id": "b11~1",
+   "quadros": [
+    {
+     "f": 1689,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1709,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    },
+    {
+     "f": 1728,
+     "objs": [],
+     "bloq": null,
+     "dentro": null,
+     "cortado": 0,
+     "altP": 0
+    }
+   ]
+  }
+ ]
+}

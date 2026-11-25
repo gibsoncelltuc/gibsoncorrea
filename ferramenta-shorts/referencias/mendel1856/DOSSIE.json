@@ -7,15 +7,19 @@
   "regiao": null,
   "luz_base": "day",
   "cenarios": [
-   "hall",
    "interior madeira",
-   "loc_campo",
-   "loc_patio"
+   "interior pedra",
+   "loc_campo"
   ],
   "cenarios_trocados": [
    [
     "video",
     "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 2",
+    "medieval",
     "loc_campo"
    ]
   ]
@@ -37,20 +41,34 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
+  "kit/bancada",
   "kit/lupa",
   "kit/pea_green",
-  "kit/pea_yellow",
+  "kit/room_azul_stone",
+  "kit/room_colonial_stone",
   "kit/room_europa_wood",
-  "kit/room_verde_wood",
+  "kit/room_rosa_wood",
+  "kit/room_verde_stone",
+  "kit/vagem_amarela",
+  "kit/vagem_verde",
   "mk/Barrel",
   "mk/Bed_Twin1",
+  "mk/Bench",
   "mk/Bookcase_2",
   "mk/Cabinet",
   "mk/CandleStick_Stand",
+  "mk/CandleStick_Triple",
   "mk/Chair_1",
   "mk/Chest_Wood",
+  "mk/Crate_Wooden",
   "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
   "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers",
   "nature/flowerbed",
   "nature/haybale",
   "nature/picket_fence",
@@ -71,7 +89,7 @@
   },
   "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
   "objetos": [
-   "vagens e ervilhas amarelas e verdes",
+   "vagens verdes e amarelas abertas com ervilhas",
    "caderno de anotacoes",
    "vasos de plantas"
   ],
@@ -83,8 +101,7 @@
    "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
   ],
   "buscas": {
-   "mosteiro": "St Thomas Abbey Brno garden Mendel",
-   "ervilha": "pea pods yellow green"
+   "ervilhas": "pea pods open green yellow peas"
   }
  },
  "fontes": [],

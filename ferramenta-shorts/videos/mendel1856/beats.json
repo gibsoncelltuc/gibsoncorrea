@@ -8,7 +8,7 @@
  "set": "countryside",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/pea_green",
+ "heroi": "kit/vagem_verde",
  "outfits": {
   "MEN": {
    "profissao": "padre",
@@ -53,10 +53,10 @@
    ],
    "props": [
     [
-     "kit/pea_green",
-     0.8,
-     0.3,
-     4.2,
+     "kit/vagem_verde",
+     0.9,
+     0.4,
+     1.1,
      {
       "fixo": true
      }
@@ -68,7 +68,7 @@
    "sfx": [
     "ding@60"
    ],
-   "detalhe": false,
+   "detalhe": true,
    "fachada": false,
    "crowd": {
     "n": 0
@@ -95,11 +95,11 @@
      }
     ]
    },
-   "cx": -0.3,
-   "cz": 0.0,
+   "cx": 0.3,
+   "cz": 0.2,
    "h": 1.5,
-   "d0": 8.5,
-   "d1": 7.5,
+   "d0": 8.0,
+   "d1": 7.0,
    "quadro_manual": true
   },
   {
@@ -127,7 +127,9 @@
       "na": "Brno"
      }
     ]
-   }
+   },
+   "set": "medieval",
+   "fachada": false
   },
   {
    "say": "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos.",
@@ -137,19 +139,19 @@
    ],
    "props": [
     [
-     "kit/pea_green",
-     0.9,
-     0.2,
-     3.2,
+     "kit/vagem_verde",
+     -1.1,
+     0.4,
+     1.0,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_yellow",
-     -0.9,
-     0.2,
-     3.2,
+     "kit/vagem_amarela",
+     1.1,
+     0.4,
+     1.0,
      {
       "fixo": true
      }
@@ -204,9 +206,9 @@
     ]
    },
    "cx": 0.0,
-   "cz": 0.1,
-   "d0": 7.0,
-   "d1": 6.5,
+   "cz": 0.2,
+   "d0": 8.0,
+   "d1": 7.0,
    "quadro_manual": true,
    "h": 1.4,
    "set": "loc_campo"
@@ -219,10 +221,10 @@
    ],
    "props": [
     [
-     "kit/pea_yellow",
-     0.8,
-     0.3,
-     3.8,
+     "kit/vagem_amarela",
+     1.1,
+     0.4,
+     1.0,
      {
       "fixo": true
      }
@@ -254,13 +256,13 @@
      }
     ]
    },
-   "cx": -0.2,
-   "cz": 0.1,
-   "d0": 7.0,
-   "d1": 6.5,
+   "cx": 0.5,
+   "cz": 0.2,
+   "d0": 8.0,
+   "d1": 7.0,
    "quadro_manual": true,
    "h": 1.4,
-   "set": "hall"
+   "interior": "pedra"
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -291,10 +293,10 @@
    ],
    "props": [
     [
-     "kit/pea_yellow",
-     0.5,
-     0.3,
-     3.2,
+     "kit/vagem_amarela",
+     0.9,
+     0.4,
+     1.0,
      {
       "fixo": true
      }
@@ -339,17 +341,17 @@
      }
     ]
    },
-   "set": "hall",
-   "cx": -0.6,
-   "cz": 0.0,
-   "h": 1.5,
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": 0.2,
+   "h": 1.4,
    "d0": 8.0,
    "d1": 7.0,
    "quadro_manual": true
   },
   {
    "say": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "MEN:0:shock"
    ],
@@ -360,21 +362,52 @@
    },
    "props": [
     [
-     "kit/pea_green",
-     1.5,
-     -1.0,
-     3.2,
+     "kit/bancada",
+     0.9,
+     0.5,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_yellow",
-     1.5,
-     -2.8,
-     3.2,
+     "kit/vagem_verde",
+     0.35,
+     0.3,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     1.0,
+     0.3,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     0.35,
+     0.75,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     1.0,
+     0.75,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -416,13 +449,13 @@
      }
     ]
    },
-   "set": "loc_campo",
    "quadro_manual": true,
-   "cx": 0.2,
-   "cz": -0.6,
-   "h": 1.5,
-   "d0": 8.5,
-   "d1": 7.5
+   "cx": 0.5,
+   "cz": 0.4,
+   "h": 1.3,
+   "d0": 7.5,
+   "d1": 6.5,
+   "interior": "pedra"
   },
   {
    "say": "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe.",
@@ -480,21 +513,32 @@
    },
    "props": [
     [
-     "kit/pea_green",
-     -1.4,
-     0.9,
-     4.0,
+     "kit/bancada",
+     0.0,
+     -0.4,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
-     "kit/pea_yellow",
-     1.4,
-     0.9,
-     4.0,
+     "kit/vagem_verde",
+     -0.5,
+     -0.4,
+     0.55,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.22
+     }
+    ],
+    [
+     "kit/vagem_amarela",
+     0.6,
+     -0.4,
+     0.55,
+     {
+      "fixo": true,
+      "y": 1.22
      }
     ]
    ],
@@ -538,13 +582,13 @@
      }
     ]
    },
-   "set": "loc_campo",
    "cx": 0.0,
    "cz": -0.4,
-   "h": 1.6,
-   "d0": 8.0,
-   "d1": 7.5,
-   "quadro_manual": true
+   "h": 1.4,
+   "d0": 7.5,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "interior": "pedra"
   },
   {
    "say": "No fim, a ervilha fez o monge famoso.",
@@ -554,10 +598,10 @@
    ],
    "props": [
     [
-     "kit/pea_green",
-     1.2,
-     -0.5,
-     3.6,
+     "kit/vagem_verde",
+     1.0,
+     0.4,
+     1.0,
      {
       "fixo": true
      }
@@ -589,12 +633,12 @@
      }
     ]
    },
-   "set": "loc_patio",
+   "set": "loc_campo",
    "cx": 0.3,
-   "cz": -0.2,
-   "h": 1.5,
-   "d0": 7.0,
-   "d1": 6.5,
+   "cz": 0.2,
+   "h": 1.4,
+   "d0": 8.0,
+   "d1": 7.0,
    "quadro_manual": true
   }
  ],
@@ -613,7 +657,7 @@
   },
   "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
   "objetos": [
-   "vagens e ervilhas amarelas e verdes",
+   "vagens verdes e amarelas abertas com ervilhas",
    "caderno de anotacoes",
    "vasos de plantas"
   ],
@@ -625,8 +669,7 @@
    "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
   ],
   "buscas": {
-   "mosteiro": "St Thomas Abbey Brno garden Mendel",
-   "ervilha": "pea pods yellow green"
+   "ervilhas": "pea pods open green yellow peas"
   }
  },
  "cinf": 3.0,

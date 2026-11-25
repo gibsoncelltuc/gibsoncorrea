@@ -83,3 +83,23 @@ caixa((.13, .46, .08), (.02, .03, .1), '#d8d8d8'); caixa((-.13, .46, .08), (.02,
 cil((0, .22, .06), .09, .015, '#e8f2f8', rot=(-.4, 0, 0), lados=14); tubo([(0, .2, -.1), (0, .18, .0)], .015, BR2)   # espelho
 cil((.1, .55, -.14), .03, .05, BR2, rot=(0, 0, P), lados=10)                                # parafuso de foco
 fim(.012)
+# 6) vagens de ervilha abertas em forma de canoa (com 6 ervilhas) e pe de ervilha: Mendel. Escala real: vagem ~0.5 m no modelo (0.4-0.6 na cena = 20-30 cm)
+def _vagem(nome, casca, ervilha):
+    novo(nome)
+    bola((0, .09, 0), .5, casca, achata=.5, seg=24, esc=(1.1, .32, .36))                       # casca da vagem (canoa) com pontas afinadas
+    bola((.56, .09, 0), .1, casca, esc=(2.2, .5, .6)); bola((-.56, .1, 0), .09, casca, esc=(2.0, .5, .6))
+    for i in range(6): bola((-.38 + i * .152, .2, 0), .085, ervilha, seg=14)                    # ervilhas redondas dentro da casca
+    caixa((0, .2, 0), (1.05, .015, .09), casca)                                                   # costura da vagem
+    tubo([(-.6, .1, 0), (-.72, .24, 0)], .012, '#5f8a3a')                                         # pedunculo
+    fim(.015)
+_vagem('vagem_verde', '#5fae3f', '#9bdc4a')
+_vagem('vagem_amarela', '#e0c030', '#ffd400')
+novo('pe_ervilha')                                                                              # planta em vaso com estaca, folhas e 3 vagens penduradas
+cil((0, .18, 0), .3, .36, '#a8532e', raio_topo=.34, lados=18); cil((0, .36, 0), .31, .04, '#4a3022', lados=18)
+cil((0, 1.0, 0), .02, 1.3, '#8a6a3a', lados=8)
+for (y, a) in ((.55, 0), (.75, 2.1), (.95, 4.2), (1.15, 1.0), (1.35, 3.1)):
+    import math as _m
+    bola((.18 * _m.cos(a), y, .18 * _m.sin(a)), .13, '#3f9a3a', esc=(1.6, .35, 1.0), seg=12)
+for (x, y, z) in ((.22, .9, .1), (-.2, 1.05, -.1), (.1, 1.25, -.2)):
+    bola((x, y, z), .11, '#6cc04a', esc=(.45, 1.5, .45), seg=10)
+fim(.01)
