@@ -12,7 +12,7 @@ b4 | loc_campo | close | 1 | conversar | kit/vagem_amarela | - | -
 b5 | loc_campo | wide | 1 | encena | kit/vagem_amarela | paper | -
 b6 | interior pedra | two | 1 | reagir, batalha | kit/bancada, kit/vagem_verde, kit/vagem_amarela | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b8 | interior pedra | two | 1 | comemorar, batalha | kit/bancada, kit/vagem_verde, kit/vagem_amarela | - | -
+b8 | interior pedra | wide | 1 | comemorar, batalha | kit/bancada, kit/vagem_verde, kit/vagem_amarela | - | -
 b9 | loc_campo | two | 1 | encena | kit/pe_ervilha, kit/vagem_verde | bag | -
 
 OBJETO HEROI: kit/vagem_verde

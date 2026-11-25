@@ -63,7 +63,7 @@
     "MUS",
     "CMP"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/bancada",
     "kit/flamethrower",
@@ -164,7 +164,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"

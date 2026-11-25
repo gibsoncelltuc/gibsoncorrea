@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Gerado em 25/11 18:31 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 18:33 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | loc_campo | close | MEN | - | vagem_amarela | - | Todas saíram a
 b5 | simples | loc_campo | wide | MEN | - | vagem_amarela | - | Ele plantou de novo e contou ervilha por ervilha, por anos.
 b6 | chave | interior pedra | two | MEN | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o verde voltou: três amarelas para uma verde.
 b7 | simples | interior madeira | two | MEN, FRE | - | - | - | Cada filho herda uma instrução do pai e outra da mãe.
-b8 | chave | interior pedra | two | CIE | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só depois da morte dele, viram que estava certo.
+b8 | chave | interior pedra | wide | CIE | - | bancada, vagem_amarela, vagem_verde | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Só depois da morte dele, viram que estava certo.
 b9 | simples | loc_campo | two | MEN | - | pe_ervilha, vagem_verde | - | Ele morreu sem saber. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

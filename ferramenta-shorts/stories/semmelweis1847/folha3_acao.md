@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 13 - O Médico que Mandou Lavar as Mãos
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.5s - 12 palavras - plano two
@@ -57,7 +57,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b3 - 11.2s a 14.0s - 10 palavras - plano two
+## Cena b3 - 11.2s a 14.0s - 10 palavras - plano wide
 > "Na ala dos médicos, morriam muito mais mães, de febre."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -66,15 +66,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | morriam (12.4s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | HOSPITAL | OK |
+| 2 | - | PLACA | HOSPITAL | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: morre na palavra morriam (12.4s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -90,7 +86,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | morreu (16.8s) | ACAO: morre | cai no chao (ou tumulo se morreu anos depois) | OK |
 | 3 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
 | 4 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 5 | - | INTERACAO | avanca e o outro recua | OK |
+| 5 | - | INTERACAO | aproxima-se | OK |
 | 6 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
@@ -99,11 +95,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: morre na palavra morreu (16.8s): o corpo inclina para tras e cai no chao em ~0,4 s (poeira no impacto) e fica deitado ate o fim da cena
 - EMOCAO: sad (a cena toda): executa: o rosto vira "sad" na palavra
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: avanca e o outro recua
+- INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: reagir
 <!-- /FISICA -->
 
-## Cena b5 - 18.2s a 20.7s - 10 palavras - plano group
+## Cena b5 - 18.2s a 20.7s - 10 palavras - plano wide
 > "Acontece que os médicos saíam das autópsias de mãos sujas."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -111,14 +107,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | o outro se aproxima | OK |
-| 2 | - | ATUACAO | conversar | OK |
-| 3 | - | PLACA | MÃOS SUJAS | OK |
+| 1 | - | PLACA | MÃOS SUJAS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
@@ -139,7 +131,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
 <!-- /FISICA -->
 
-## Cena b7 - 25.4s a 26.9s - 6 palavras - plano orbit
+## Cena b7 - 25.4s a 26.9s - 6 palavras - plano crowd
 > "As mortes caíram quase dez vezes."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

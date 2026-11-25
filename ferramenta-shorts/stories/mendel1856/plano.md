@@ -10,8 +10,8 @@ b4 | close | -  | tropa | - | -
 b5 | wide | -  | tropa, objeto na mao | encena: x_planta (hammer) @1 (acao + som de efeito); encena: fala (point) @5 (acao + som de efeito) | -
 b6 | two | -  | batalha aberta com tiros, tropa, interior, placa: 3 : 1 | - | -
 b7 | two | -  | interior | - | -
-b8 | two | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | - | -
+b8 | wide | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | - | -
 b9 | two | -  | tropa, placa: ERVILHAS = HERANÇA, objeto na mao | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 
-Mistura de planos: close 10% | medio 57% | aberto 31% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 12% | medio 51% | aberto 34% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

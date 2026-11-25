@@ -12,12 +12,12 @@ b4 | loc_campo | two | 0 | parados (so fala e pisca) | kit/balloon, kit/fire, ki
 b5 | loc_campo | group | 2 | discutir, INTERAGEM: discutir | - | - | -
 b6 | loc_campo | orbit | 1 | reagir, batalha | kit/balloon_air, kit/marco_versalhes | - | -
 b7 | loc_campo | two | 1 | reagir | kit/balloon, sheep, duck, rooster | - | -
-b8 | street | two | 12 | reagir, INTERAGEM: o outro se aproxima | kit/balloon_air, kit/marco_versalhes | - | -
+b8 | street | wide | 12 | reagir | kit/balloon_air, kit/marco_versalhes | - | -
 b9 | street | wide | 1 | parados (so fala e pisca) | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 
 OBJETO HEROI: kit/balloon
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b6
-Interacoes entre personagens: b3 avanca e o outro recua, b5 discutir, b8 o outro se aproxima
+Interacoes entre personagens: b3 avanca e o outro recua, b5 discutir
 
 Cenas com personagens parados: 3 de 10
 FALTA MODELAR: nada

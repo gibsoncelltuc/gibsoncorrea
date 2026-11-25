@@ -175,10 +175,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Dois meses depois, um balão levou dois homens.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao laugh) | multidao: 10 de POV
-- Animacao: reagir | interacao: o outro se aproxima
+- Animacao: reagir
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao
 - RISCOS: nenhum
@@ -223,8 +223,8 @@ kit/balloon_air | b6, b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/balloon | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 4% | medio 70% | aberto 26% | detalhe 0%
-- Interacoes: b3 avanca e o outro recua, b5 discutir, b8 o outro se aproxima
+- Objeto heroi: kit/balloon | grandes momentos: b2, b6 | planos abertos: 5 | mistura: close 4% | medio 61% | aberto 35% | detalhe 0%
+- Interacoes: b3 avanca e o outro recua, b5 discutir
 - RISCOS GERAIS: 
   - FOLHA 4: 5 item(ns) sem referencia visual: Os Primeiros Passageiros do Céu, cortesaos e multidao, ovelha, pato e galo, fogueira de palha, Fizeram um balão gigante de pano e papel. -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
 

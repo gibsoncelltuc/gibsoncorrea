@@ -68,7 +68,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "MAE",
     "MAE",
@@ -114,7 +114,7 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "SEM",
     "DIR"
@@ -124,7 +124,7 @@
    "palavras": 10,
    "cena": "b5",
    "frase": "Acontece que os médicos saíam das autópsias de mãos sujas.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -150,7 +150,7 @@
    "cenario": "interior hospital"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "SEM",
     "MAE",

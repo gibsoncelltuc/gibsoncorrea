@@ -6,12 +6,12 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: entregar | kit/bancada, kit/flamethrower, kit/fire, kit/marco_hollywood | - | -
 b1 | loc_cidade | two | 2 | conversar, INTERAGEM: aproxima-se | kit/extinguisher, kit/bancada | - | -
-b2 | loc_cidade | wide | 8 | parados (so fala e pisca) | kit/tunel_boring, kit/bancada, kit/flamethrower, kit/marco_hollywood | - | -
+b2 | loc_cidade | wide | 2 | parados (so fala e pisca) | kit/tunel_boring, kit/bancada, kit/flamethrower, kit/marco_hollywood | - | -
 b3 | interior loja | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/bancada, kit/flamethrower | - | -
 b4 | interior loja | two | 1 | conversar, batalha | kit/bancada, kit/flamethrower | - | -
 b5 | interior loja | group | 2 | conversar, INTERAGEM: o outro se aproxima | mk/Crate_Metal, kit/flamethrower | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/extinguisher | - | -
-b7 | loc_cidade | orbit | 18 | reagir, batalha | kit/marco_hollywood | - | -
+b7 | loc_cidade | wide | 18 | reagir, batalha | kit/marco_hollywood | - | -
 b8 | interior pedra | two | 2 | comemorar, INTERAGEM: pular | nature/picket_fence | - | -
 b9 | loc_cidade | two | 2 | conversar, INTERAGEM: susto | kit/bancada, kit/flamethrower, kit/fire | - | -
 

@@ -140,7 +140,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 27.4s a 30.4s - 9 palavras - plano two
+## Cena b8 - 27.4s a 30.4s - 9 palavras - plano wide
 > "Só depois da morte dele, viram que estava certo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA

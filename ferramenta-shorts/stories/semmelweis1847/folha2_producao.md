@@ -69,10 +69,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Na ala dos médicos, morriam muito mais mães, de febre.
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): MAE (variante 0, expressao scared); MAE (variante 1, expressao sad); SEM (variante 0, expressao sad)
-- Animacao: conversar | interacao: aproxima-se
+- Animacao: encena
 - Objetos/modelos: kit/maca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): febre, medicos
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): KOL (variante 0, expressao shock); SEM (variante 0, expressao surprised)
-- Animacao: reagir | interacao: avanca e o outro recua | grande momento (efeito + som, sem tiro)
+- Animacao: reagir | interacao: aproxima-se | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bancada, kit/bisturi
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, febre
 - RISCOS: nenhum
@@ -116,10 +116,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Acontece que os médicos saíam das autópsias de mãos sujas.
 - Cenario: interior hospital | luz: day | clima: limpo
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): SEM (variante 0, expressao stern); DIR (variante 0, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima
+- Animacao: -
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): autopsias, maos, medicos
 - RISCOS: nenhum
@@ -159,7 +159,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - As mortes caíram quase dez vezes.
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (3): SEM (variante 0, expressao laugh); MAE (variante 0, expressao laugh); PAR (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
@@ -226,8 +226,8 @@ kit/bisturi | b4 | pronto | conferir na folha de contato se le bem; se parecer c
 
 
 ## Video inteiro
-- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 1% | medio 78% | aberto 18% | detalhe 3%
-- Interacoes: b3 aproxima-se, b4 avanca e o outro recua, b5 o outro se aproxima, b6 discutir, b8 empurrar
+- Objeto heroi: kit/wash_basin | grandes momentos: b4, b7 | planos abertos: 5 | mistura: close 1% | medio 57% | aberto 39% | detalhe 3%
+- Interacoes: b4 aproxima-se, b6 discutir, b8 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

@@ -4,12 +4,12 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: NÃO É LANÇA-CHAMAS | vendeu (stars + som de sino) | -
 b1 | two | -  | - | - | -
-b2 | wide | -  | tropa, placa: BORING COMPANY, mapa | - | -
+b2 | wide | -  | placa: BORING COMPANY, mapa | - | -
 b3 | two | -  | interior, placa: "NÃO É UM LANÇA-CHAMAS" | - | -
 b4 | two | -  | batalha aberta com tiros, interior | fogo (burst + som de tiro/explosao) | -
 b5 | group | -  | interior, placa: ALFÂNDEGA | - | -
 b6 | two | -  | interior | incêndio (burst + som de tiro/explosao) | -
-b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
+b7 | wide | -  | batalha aberta com tiros, tropa | - | -
 b8 | two | -  | interior | encena: vence (up) @1 (acao + som de efeito) | -
 b9 | two | -  | placa: NÃO É LANÇA-CHAMAS | - | -
 

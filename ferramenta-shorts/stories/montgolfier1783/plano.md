@@ -10,8 +10,8 @@ b4 | two | -  | tropa | - | -
 b5 | group | -  | - | - | -
 b6 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b7 | two | -  | tropa, animais | - | -
-b8 | two | -  | tropa, placa: SOBRE PARIS | - | -
+b8 | wide | -  | tropa, placa: SOBRE PARIS | - | -
 b9 | wide | -  | tropa, animais, placa: OVELHA, PATO E GALO | - | -
 
-Mistura de planos: close 4% | medio 70% | aberto 26% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)
+Mistura de planos: close 4% | medio 61% | aberto 35% | detalhe 0%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 5 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao); sem detalhe de objeto (ponha um objeto em "props" ou um "text" numa cena de 11+ palavras)

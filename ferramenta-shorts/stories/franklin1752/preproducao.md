@@ -11,7 +11,7 @@ b3 | interior madeira | two | 2 | conversar, INTERAGEM: aproxima-se | - | - | -
 b4 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/kite, kit/key | - | -
 b5 | countryside | two | 1 | reagir, batalha | kit/key, kit/kite | key | -
 b6 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | kit/kite | - | -
-b7 | street | orbit | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_two, nature/lamppost | - | -
+b7 | street | wide | 1 | comemorar, batalha | kit/lightning_rod, buildings/house_two, nature/lamppost | - | -
 b8 | street | two | 2 | conversar, INTERAGEM: discutir | kit/kite | - | -
 
 OBJETO HEROI: kit/kite

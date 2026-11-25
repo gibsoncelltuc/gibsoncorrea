@@ -192,8 +192,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Só depois da morte dele, viram que estava certo.
 - Cenario: interior pedra | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): CIE (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/bancada, kit/vagem_verde, kit/vagem_amarela
@@ -239,7 +239,7 @@ kit/bancada | b6, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 10% | medio 57% | aberto 31% | detalhe 3%
+- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 12% | medio 51% | aberto 34% | detalhe 3%
 - Interacoes: b7 cochichar
 - RISCOS GERAIS: nenhum
 
