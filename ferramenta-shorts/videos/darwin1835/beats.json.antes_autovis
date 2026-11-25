@@ -74,6 +74,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passarinhos"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -121,6 +131,17 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -145,9 +166,9 @@
      }
     ]
    ],
-   "set": "palace",
+   "set": "harbor",
    "quadro": {
-    "local": "praia / palacio",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -158,8 +179,19 @@
      }
     ]
    },
-   "fachada": false,
    "objetos": null,
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "Coletou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -173,10 +205,20 @@
     "MAR:0:bored"
    ],
    "acao": "conversar",
-   "set": "palace",
-   "fachada": false,
+   "set": "harbor",
    "_auto_vis": 0,
-   "objetos": null
+   "objetos": null,
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "Achou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",
@@ -211,6 +253,17 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "revelou",
+      "quem": 1
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -228,7 +281,7 @@
     [
      "kit/finch_thick",
      0.0,
-     -1.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -236,8 +289,8 @@
     ],
     [
      "kit/finch_long",
-     0.6,
-     1.0,
+     1.6,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -270,11 +323,26 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bico"
+     },
+     {
+      "faz": "quebra",
+      "alvo": "kit/finch_thick",
+      "na": "quebrar"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 1
   },
   {
    "say": "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida.",
@@ -325,9 +393,9 @@
     "ding@40",
     "sting@60"
    ],
-   "set": "palace",
+   "set": "harbor",
    "quadro": {
-    "local": "praia / palacio",
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
     "objetos": [
      {
@@ -351,8 +419,18 @@
     ]
    },
    "detalhe": true,
-   "fachada": false,
    "objetos": null,
+   "fachada": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bico"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -391,6 +469,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bichos"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -405,7 +493,17 @@
     "DAR:0:grin:book",
     "GOU:0:laugh"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "ideia",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No fim, o erro das etiquetas virou um acerto de bico.",
@@ -437,6 +535,16 @@
      }
     ]
    },
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "etiquetas"
+     }
+    ]
+   },
+   "_enq_shot": "two",
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

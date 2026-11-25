@@ -12,11 +12,11 @@
   {
    "camera": "two",
    "personagens": [
-    "GOO",
-    "CLA"
+    "GOO"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/gosma",
     "kit/stove"
    ],
    "palavras": 17,
@@ -29,7 +29,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
@@ -39,25 +39,6 @@
    "palavras": 10,
    "cena": "b1",
    "frase": "Era mil oitocentos e trinta e nove, nos Estados Unidos.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "GOO",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/stove"
-   ],
-   "palavras": 23,
-   "cena": "b2",
-   "frase": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -69,6 +50,26 @@
    },
    "acoes_faltando": [],
    "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 23,
+   "cena": "b2",
+   "frase": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/borracha (parado)",
+    "emissao": "fogo",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",
@@ -107,8 +108,7 @@
   {
    "camera": "two",
    "personagens": [
-    "GOO",
-    "CLA"
+    "GOO"
    ],
    "multidao": 0,
    "objetos": [
@@ -130,7 +130,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/borracha",
+    "kit/gosma",
     "kit/stove"
    ],
    "palavras": 12,
@@ -143,7 +143,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "low",
+   "camera": "two",
    "personagens": [
     "GOO"
    ],
@@ -187,7 +187,7 @@
    ],
    "multidao": 18,
    "objetos": [
-    "kit/ball",
+    "kit/bola_couro",
     "kit/borracha",
     "kit/stove",
     "kit/tires"

@@ -71,12 +71,12 @@
    "props": [
     [
      "kit/canivete_aberto",
-     1.0,
-     1.2,
+     2.4,
+     0.2,
      3.0,
      {
-      "fixo": true,
-      "nocol": true
+      "nocol": true,
+      "fixo": true
      }
     ]
    ],
@@ -93,7 +93,7 @@
    "detalhe": false,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/canivete_aberto",
@@ -111,7 +111,12 @@
       "na": "canivetada"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -136,10 +141,6 @@
    "text": "MAPA ERRADO",
    "tat": 15,
    "tstyle": "red",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
@@ -160,7 +161,12 @@
       "na": "mapa"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "close",
@@ -250,10 +256,6 @@
     "MIC"
    ],
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e teodolito juntos (camera a 8.0 m)",
@@ -275,7 +277,12 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "shot": "two",
@@ -339,10 +346,6 @@
     ]
    ],
    "acao": "discutir",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 11.5 m)",
@@ -365,7 +368,12 @@
       "alvo_quem": 1
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "shot": "two",
@@ -417,8 +425,8 @@
    "props": [
     [
      "kit/minerio",
-     0.0,
-     1.4,
+     0.6,
+     1.0,
      2.0,
      {
       "fixo": true
@@ -430,10 +438,6 @@
    "tstyle": "gold",
    "titulo": true,
    "detalhe": true,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
@@ -446,7 +450,6 @@
      }
     ]
    },
-   "_auto_vis": 3,
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -455,7 +458,13 @@
       "na": "cobre"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "wide",
+   "_auto_vis": 2
   },
   {
    "shot": "close",

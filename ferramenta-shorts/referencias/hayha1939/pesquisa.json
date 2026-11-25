@@ -8,35 +8,7 @@
     "A Morte Branca",
     "Um Era União Soviética Finlândia Os 1939"
    ],
-   "achados": [
-    {
-     "titulo": "Simo hayha honorary rifle.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Simo_hayha_honorary_rifle.jpg/500px-Simo_hayha_honorary_rifle.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_hayha_honorary_rifle.jpg",
-     "descricao": "|Description={{en|1=\\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/hayha1939/prints/a_morte_branca_f58ccd.jpg",
-     "consulta": "A Morte Branca"
-    },
-    {
-     "titulo": "Simo Häyhä. 1942.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Simo_H%C3%A4yh%C3%A4._1942.jpg/500px-Simo_H%C3%A4yh%C3%A4._1942.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_H%C3%A4yh%C3%A4._1942.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/hayha1939/prints/a_morte_branca_7f49f3.jpg",
-     "consulta": "A Morte Branca"
-    },
-    {
-     "titulo": "Simo Häyhä. February 1940.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Simo_H%C3%A4yh%C3%A4._February_1940.jpg/500px-Simo_H%C3%A4yh%C3%A4._February_1940.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_H%C3%A4yh%C3%A4._February_1940.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/a_morte_branca_f107cf.jpg",
-     "consulta": "A Morte Branca"
-    }
-   ]
+   "achados": []
   },
   {
    "tipo": "lugar",
@@ -56,21 +28,21 @@
      "consulta": "Front Kollaa"
     },
     {
+     "titulo": "Kollaa 3.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kollaa_3.jpg/500px-Kollaa_3.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKollaa_3.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_6e7f12.jpg",
+     "consulta": "Front Kollaa"
+    },
+    {
      "titulo": "Kollaa river 3.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kollaa_river_3.jpg/500px-Kollaa_river_3.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AKollaa_river_3.jpg",
      "descricao": "Description\\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_4be802.jpg",
-     "consulta": "Front Kollaa"
-    },
-    {
-     "titulo": "Kollaa 2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kollaa_2.jpg/500px-Kollaa_2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AKollaa_2.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/hayha1939/prints/front_de_kollaa_carelia_finlandia_flores_235235.jpg",
      "consulta": "Front Kollaa"
     }
    ]
@@ -84,24 +56,6 @@
    ],
    "achados": [
     {
-     "titulo": "A Finnish Maxim M-32 machine gun nest during the Winter War.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/A_Finnish_Maxim_M-32_machine_gun_nest_during_the_Winter_War.jpg/500px-A_Finnish_Maxim_M-32_machine_gun_nest_during_the_Winter_War.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_Finnish_Maxim_M-32_machine_gun_nest_during_the_Winter_War.jpg",
-     "descricao": "Maxim M-32 machine gun being manned by \\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/hayha1939/prints/finl_ndia_cabb7b.jpg",
-     "consulta": "Finlândia 1939"
-    },
-    {
-     "titulo": "1939-1940 Winter war soldiers.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/1939-1940_Winter_war_soldiers.png/500px-1939-1940_Winter_war_soldiers.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A1939-1940_Winter_war_soldiers.png",
-     "descricao": "Attribution-Share Alike 4.0 truetrue English \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/hayha1939/prints/finl_ndia_8a5739.jpg",
-     "consulta": "Finlândia 1939"
-    },
-    {
      "titulo": "Winter-War-Overview-es.png",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Winter-War-Overview-es.png/500px-Winter-War-Overview-es.png",
      "pagina": "https://commons.wikimedia.org/wiki/File%3AWinter-War-Overview-es.png",
@@ -109,6 +63,24 @@
      "ordem": 4,
      "print": "referencias/hayha1939/prints/finl_ndia_8b6edb.jpg",
      "consulta": "Finlândia 1939"
+    },
+    {
+     "titulo": "Pro-Finlandia.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pro-Finlandia.jpg/500px-Pro-Finlandia.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3APro-Finlandia.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/hayha1939/prints/finl_ndia_9a8d21.jpg",
+     "consulta": "Finlândia"
+    },
+    {
+     "titulo": "Jean Sibelius Finlandia 1899 suomeksi, Svenska Teatern, Helsinki.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jean_Sibelius_Finlandia_1899_suomeksi%2C_Svenska_Teatern%2C_Helsinki.jpg/500px-Jean_Sibelius_Finlandia_1899_suomeksi%2C_Svenska_Teatern%2C_Helsinki.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AJean_Sibelius_Finlandia_1899_suomeksi%2C_Svenska_Teatern%2C_Helsinki.jpg",
+     "descricao": "Alike 4.0 truetrue English Memorial plaque in \\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/hayha1939/prints/finl_ndia_94ae5a.jpg",
+     "consulta": "Finlândia"
     }
    ]
   },
@@ -127,15 +99,6 @@
      "descricao": "Information Photo Division Photographer Description English: Wartime \\u003Cspan class=\\",
      "ordem": 1,
      "print": "referencias/hayha1939/prints/roupas_e_ruas_de_1939_36c12e.jpg",
-     "consulta": "1939 fashion clothing"
-    },
-    {
-     "titulo": "Summer 1939 Schiaparelli dress.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Summer_1939_Schiaparelli_dress.jpg/500px-Summer_1939_Schiaparelli_dress.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASummer_1939_Schiaparelli_dress.jpg",
-     "descricao": "Visitors to the \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/roupas_e_ruas_de_1939_1688cc.jpg",
      "consulta": "1939 fashion clothing"
     },
     {
@@ -195,31 +158,31 @@
    ],
    "achados": [
     {
-     "titulo": "Larry Thorne.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Larry_Thorne.jpg/500px-Larry_Thorne.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALarry_Thorne.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
+     "titulo": "Unidentified young soldier in Confederate infantry uniform.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Unidentified_young_soldier_in_Confederate_infantry_uniform.jpg/500px-Unidentified_young_soldier_in_Confederate_infantry_uniform.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AUnidentified_young_soldier_in_Confederate_infantry_uniform.jpg",
+     "descricao": "I, \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_1a585a.jpg",
-     "consulta": "soldados finlandeses"
+     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_4d3190.jpg",
+     "consulta": "soldiers"
     },
     {
-     "titulo": "Lauri Törni in 1951.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lauri_T%C3%B6rni_in_1951.jpg/500px-Lauri_T%C3%B6rni_in_1951.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALauri_T%C3%B6rni_in_1951.jpg",
-     "descricao": "English \\u003Cspan class=\\",
+     "titulo": "Soldier onboard M77 Ulvön in Lysekil 1.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Soldier_onboard_M77_Ulv%C3%B6n_in_Lysekil_1.jpg/500px-Soldier_onboard_M77_Ulv%C3%B6n_in_Lysekil_1.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldier_onboard_M77_Ulv%C3%B6n_in_Lysekil_1.jpg",
+     "descricao": "I, \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_246cb4.jpg",
-     "consulta": "soldados finlandeses"
+     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_2eb96a.jpg",
+     "consulta": "soldiers"
     },
     {
-     "titulo": "Lieutenant Lauri Törni in 1944.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lieutenant_Lauri_T%C3%B6rni_in_1944.jpg/500px-Lieutenant_Lauri_T%C3%B6rni_in_1944.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALieutenant_Lauri_T%C3%B6rni_in_1944.jpg",
-     "descricao": "luutnantti \\u003Cspan class=\\",
+     "titulo": "ANA soldier with RPG-7 in 2013-cropped.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ANA_soldier_with_RPG-7_in_2013-cropped.jpg/500px-ANA_soldier_with_RPG-7_in_2013-cropped.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AANA_soldier_with_RPG-7_in_2013-cropped.jpg",
+     "descricao": "jurisdiction: United States determination method or standard: work of \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_b6cf28.jpg",
-     "consulta": "soldados finlandeses"
+     "print": "referencias/hayha1939/prints/soldados_finlandeses_de_esqui_e_camuflag_36e73c.jpg",
+     "consulta": "soldiers"
     }
    ]
   },
@@ -232,31 +195,31 @@
    ],
    "achados": [
     {
-     "titulo": "RAF Search and Rescue Helicopter in the Cairngorms MOD 45155350.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/RAF_Search_and_Rescue_Helicopter_in_the_Cairngorms_MOD_45155350.jpg/500px-RAF_Search_and_Rescue_Helicopter_in_the_Cairngorms_MOD_45155350.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ARAF_Search_and_Rescue_Helicopter_in_the_Cairngorms_MOD_45155350.jpg",
+     "titulo": "Red Army monument in Mikolin (Nikoline) 01.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Red_Army_monument_in_Mikolin_%28Nikoline%29_01.jpg/500px-Red_Army_monument_in_Mikolin_%28Nikoline%29_01.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARed_Army_monument_in_Mikolin_%28Nikoline%29_01.jpg",
      "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/exercito_vermelho_cf48be.jpg",
-     "consulta": "Exercito Vermelho"
+     "ordem": 4,
+     "print": "referencias/hayha1939/prints/exercito_vermelho_039a87.jpg",
+     "consulta": "army Vermelho"
     },
     {
-     "titulo": "The Soviet Union 1925 CPA 167A stamp (1st standard issue of Soviet Union. 5th issue. Red Army man) cancelled.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Soviet_Union_1925_CPA_167A_stamp_%281st_standard_issue_of_Soviet_Union._5th_issue._Red_Army_man%29_cancelled.jpg/500px-The_Soviet_Union_1925_CPA_167A_stamp_%281st_standard_issue_of_Soviet_Union._5th_issue._Red_Army_man%29_cancelled.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Soviet_Union_1925_CPA_167A_stamp_%281st_standard_issue_of_Soviet_Union._5th_issue._Red_Army_man%29_cancelled.jpg",
-     "descricao": "1925 CPA 167A stamp (1st standard issue of Soviet Union. 5th issue. \\u003Cspan class=\\",
+     "titulo": "Red army soldiers at Komarno 1944.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Red_army_soldiers_at_Komarno_1944.jpg/500px-Red_army_soldiers_at_Komarno_1944.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARed_army_soldiers_at_Komarno_1944.jpg",
+     "descricao": "Commons Attribution-Share Alike 4.0 truetrue English Platoon of the Danube \\u003Cspan class=\\",
      "ordem": 5,
-     "print": "referencias/hayha1939/prints/exercito_vermelho_cbc7e8.jpg",
-     "consulta": "Exercito Vermelho"
+     "print": "referencias/hayha1939/prints/exercito_vermelho_efc0ec.jpg",
+     "consulta": "army Vermelho"
     },
     {
-     "titulo": "The Soviet Union 1928 CPA 193 IA stamp (1st standard issue of Soviet Union. 11th issue. Red Army man).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/The_Soviet_Union_1928_CPA_193_IA_stamp_%281st_standard_issue_of_Soviet_Union._11th_issue._Red_Army_man%29.jpg/500px-The_Soviet_Union_1928_CPA_193_IA_stamp_%281st_standard_issue_of_Soviet_Union._11th_issue._Red_Army_man%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Soviet_Union_1928_CPA_193_IA_stamp_%281st_standard_issue_of_Soviet_Union._11th_issue._Red_Army_man%29.jpg",
-     "descricao": "1928 CPA 193 IA stamp (1st standard issue of Soviet Union. 11th issue. \\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/hayha1939/prints/exercito_vermelho_6be6cb.jpg",
-     "consulta": "Exercito Vermelho"
+     "titulo": "Red Army General Staff Academy graduates.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Red_Army_General_Staff_Academy_graduates.jpg/500px-Red_Army_General_Staff_Academy_graduates.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARed_Army_General_Staff_Academy_graduates.jpg",
+     "descricao": "org/publicdomain/mark/1.0/PDMCreative Commons Public Domain Mark 1.0falsefalse English \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/hayha1939/prints/exercito_vermelho_5c55d1.jpg",
+     "consulta": "army Vermelho"
     }
    ]
   },
@@ -269,31 +232,31 @@
    ],
    "achados": [
     {
-     "titulo": "Designated Marksman Rifle 2.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Designated_Marksman_Rifle_2.jpg/500px-Designated_Marksman_Rifle_2.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ADesignated_Marksman_Rifle_2.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
+     "titulo": "Chinese Type 56-1 Assault Rifle front sight.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Chinese_Type_56-1_Assault_Rifle_front_sight.jpg/500px-Chinese_Type_56-1_Assault_Rifle_front_sight.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AChinese_Type_56-1_Assault_Rifle_front_sight.jpg",
+     "descricao": "Attribution-Share Alike 4.0 truetrue English Chinese Type 56-1 Assault \\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_ee0c1a.jpg",
-     "consulta": "fuzil mira"
+     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_bb0177.jpg",
+     "consulta": "rifle iron"
     },
     {
-     "titulo": "Squad Designated Marksman Rifle 1.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Squad_Designated_Marksman_Rifle_1.jpg/500px-Squad_Designated_Marksman_Rifle_1.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASquad_Designated_Marksman_Rifle_1.jpg",
-     "descricao": "first female to graduate from U.S. Army Marksmanship Unit\\u0026#039;s Squad \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_bc8737.jpg",
-     "consulta": "fuzil mira"
-    },
-    {
-     "titulo": "GA Squad Designated Marksman Rifle.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/GA_Squad_Designated_Marksman_Rifle.jpg/500px-GA_Squad_Designated_Marksman_Rifle.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AGA_Squad_Designated_Marksman_Rifle.jpg",
-     "descricao": "DescriptionGA Squad \\u003Cspan class=\\",
+     "titulo": "Rifle Adjustments 150321-A-NB545-576.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Rifle_Adjustments_150321-A-NB545-576.jpg/500px-Rifle_Adjustments_150321-A-NB545-576.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARifle_Adjustments_150321-A-NB545-576.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 4,
-     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_b3a89a.jpg",
-     "consulta": "fuzil mira"
+     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_4729d9.jpg",
+     "consulta": "rifle iron"
+    },
+    {
+     "titulo": "Rifle, hunting (AM 553153-20).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Rifle%2C_hunting_%28AM_553153-20%29.jpg/500px-Rifle%2C_hunting_%28AM_553153-20%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARifle%2C_hunting_%28AM_553153-20%29.jpg",
+     "descricao": "Attribution: Auckland Museum You are free: to share – to copy, distribute \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/hayha1939/prints/fuzil_de_mira_de_ferro_9d8cba.jpg",
+     "consulta": "rifle iron"
     }
    ]
   },
@@ -306,30 +269,30 @@
    ],
    "achados": [
     {
-     "titulo": "Priit Narusk at Tour de Ski.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Priit_Narusk_at_Tour_de_Ski.jpg/500px-Priit_Narusk_at_Tour_de_Ski.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3APriit_Narusk_at_Tour_de_Ski.jpg",
+     "titulo": "Esquis (Par), Acervo do Museu Paulista da USP (1).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%281%29.jpg/500px-Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%281%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEsquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%281%29.jpg",
      "descricao": "\\u003Cspan class=\\",
-     "ordem": 1,
-     "print": "referencias/hayha1939/prints/esquis_a46337.jpg",
+     "ordem": 5,
+     "print": "referencias/hayha1939/prints/esquis_eb6279.jpg",
      "consulta": "esquis"
     },
     {
-     "titulo": "20200222 FIS NC COC Eisenerz PRC HS109 Men Manuel Einkemmer 850 4588.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/20200222_FIS_NC_COC_Eisenerz_PRC_HS109_Men_Manuel_Einkemmer_850_4588.jpg/500px-20200222_FIS_NC_COC_Eisenerz_PRC_HS109_Men_Manuel_Einkemmer_850_4588.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3A20200222_FIS_NC_COC_Eisenerz_PRC_HS109_Men_Manuel_Einkemmer_850_4588.jpg",
-     "descricao": "This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license. You are free: to share – to copy, distribute and transmit",
-     "ordem": 2,
-     "print": "referencias/hayha1939/prints/esquis_ca2813.jpg",
+     "titulo": "Esquis (Par), Acervo do Museu Paulista da USP (7).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%287%29.jpg/500px-Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%287%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEsquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%287%29.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/hayha1939/prints/esquis_2c891e.jpg",
      "consulta": "esquis"
     },
     {
-     "titulo": "La Toussuire Ski Resort Wide.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/La_Toussuire_Ski_Resort_Wide.jpg/500px-La_Toussuire_Ski_Resort_Wide.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALa_Toussuire_Ski_Resort_Wide.jpg",
-     "descricao": "Toussuire \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/esquis_82a1cf.jpg",
+     "titulo": "Esquis (Par), Acervo do Museu Paulista da USP (8).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%288%29.jpg/500px-Esquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%288%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEsquis_%28Par%29%2C_Acervo_do_Museu_Paulista_da_USP_%288%29.jpg",
+     "descricao": "\\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/hayha1939/prints/esquis_879170.jpg",
      "consulta": "esquis"
     }
    ]
@@ -343,30 +306,12 @@
    ],
    "achados": [
     {
-     "titulo": "Large bonfire.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Large_bonfire.jpg/500px-Large_bonfire.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALarge_bonfire.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/hayha1939/prints/fogueira_56e58e.jpg",
-     "consulta": "fogueira"
-    },
-    {
-     "titulo": "Lag Ba'Omer bonfire Tel Aviv Israel.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Lag_Ba%27Omer_bonfire_Tel_Aviv_Israel.jpg/500px-Lag_Ba%27Omer_bonfire_Tel_Aviv_Israel.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALag_Ba%27Omer_bonfire_Tel_Aviv_Israel.jpg",
-     "descricao": "DescriptionLag Ba\\u0026#039;Omer \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/fogueira_13ed5a.jpg",
-     "consulta": "fogueira"
-    },
-    {
-     "titulo": "Tupinambá cannibals (de Bry, 1593).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Tupinamb%C3%A1_cannibals_%28de_Bry%2C_1593%29.jpg/500px-Tupinamb%C3%A1_cannibals_%28de_Bry%2C_1593%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ATupinamb%C3%A1_cannibals_%28de_Bry%2C_1593%29.jpg",
-     "descricao": "https://creativecommons.org/publicdomain/mark/1.0/PDMCreative Commons Public Domain Mark 1.0falsefalse English start time: 20 December 2016",
-     "ordem": 4,
-     "print": "referencias/hayha1939/prints/fogueira_7ba656.jpg",
+     "titulo": "EliseuVisconti-P487-Fogueira em Saint Hubert.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/EliseuVisconti-P487-Fogueira_em_Saint_Hubert.jpg/500px-EliseuVisconti-P487-Fogueira_em_Saint_Hubert.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEliseuVisconti-P487-Fogueira_em_Saint_Hubert.jpg",
+     "descricao": "Eliseu Visconti: \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/hayha1939/prints/fogueira_1a6e42.jpg",
      "consulta": "fogueira"
     }
    ]
@@ -380,68 +325,31 @@
    ],
    "achados": [
     {
-     "titulo": "Aécio Neves - Pronunciamento no julgamento do impeachment - 30 08 2016 (29241563242).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563242%29.jpg/500px-A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563242%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563242%29.jpg",
-     "descricao": "Commons Attribution 2.0 truetrue 4 May 2019 English author name string: Aécio \\u003Cspan class=\\",
+     "titulo": "Snow Scene at Shipka Pass 1.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Snow_Scene_at_Shipka_Pass_1.JPG/500px-Snow_Scene_at_Shipka_Pass_1.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASnow_Scene_at_Shipka_Pass_1.JPG",
+     "descricao": "Description\\u003Cspan class=\\",
      "ordem": 1,
-     "print": "referencias/hayha1939/prints/neve_na_boca_d7b433.jpg",
-     "consulta": "neve na boca"
+     "print": "referencias/hayha1939/prints/neve_na_boca_847d76.jpg",
+     "consulta": "snow"
     },
     {
-     "titulo": "Aécio Neves - Pronunciamento no julgamento do impeachment - 30 08 2016 (29241563012).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563012%29.jpg/500px-A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563012%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829241563012%29.jpg",
-     "descricao": "URL: https://www.flickr.com/people/65174296@N06 author name string: Aécio \\u003Cspan class=\\",
+     "titulo": "Vulpes vulpes laying in snow.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Vulpes_vulpes_laying_in_snow.jpg/500px-Vulpes_vulpes_laying_in_snow.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AVulpes_vulpes_laying_in_snow.jpg",
+     "descricao": "Vulpes vulpes laying in \\u003Cspan class=\\",
      "ordem": 2,
-     "print": "referencias/hayha1939/prints/neve_na_boca_b865f7.jpg",
-     "consulta": "neve na boca"
+     "print": "referencias/hayha1939/prints/neve_na_boca_6f6096.jpg",
+     "consulta": "snow"
     },
     {
-     "titulo": "Aécio Neves - Pronunciamento no julgamento do impeachment - 30 08 2016 (29270933921).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829270933921%29.jpg/500px-A%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829270933921%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AA%C3%A9cio_Neves_-_Pronunciamento_no_julgamento_do_impeachment_-_30_08_2016_%2829270933921%29.jpg",
-     "descricao": "Commons Attribution 2.0 truetrue 4 May 2019 English author name string: Aécio \\u003Cspan class=\\",
+     "titulo": "Mountains in snow, Mountain lake, Chola Valley, Nepal, Himalayas.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mountains_in_snow%2C_Mountain_lake%2C_Chola_Valley%2C_Nepal%2C_Himalayas.jpg/500px-Mountains_in_snow%2C_Mountain_lake%2C_Chola_Valley%2C_Nepal%2C_Himalayas.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AMountains_in_snow%2C_Mountain_lake%2C_Chola_Valley%2C_Nepal%2C_Himalayas.jpg",
+     "descricao": "2688 Malanphulan 3765 187 186 146 4032 2688 Taboche English Mountains in \\u003Cspan class=\\",
      "ordem": 3,
-     "print": "referencias/hayha1939/prints/neve_na_boca_cb94eb.jpg",
-     "consulta": "neve na boca"
-    }
-   ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "campfire",
-   "consultas": [
-    "fuzil de mira de ferro",
-    "A Morte Branca"
-   ],
-   "achados": [
-    {
-     "titulo": "Simo Häyhä. 1942.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Simo_H%C3%A4yh%C3%A4._1942.jpg/500px-Simo_H%C3%A4yh%C3%A4._1942.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_H%C3%A4yh%C3%A4._1942.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 2,
-     "print": "referencias/hayha1939/prints/campfire_7f49f3.jpg",
-     "consulta": "A Morte Branca"
-    },
-    {
-     "titulo": "Simo Häyhä. February 1940.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Simo_H%C3%A4yh%C3%A4._February_1940.jpg/500px-Simo_H%C3%A4yh%C3%A4._February_1940.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_H%C3%A4yh%C3%A4._February_1940.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 3,
-     "print": "referencias/hayha1939/prints/campfire_f107cf.jpg",
-     "consulta": "A Morte Branca"
-    },
-    {
-     "titulo": "Simo Hayha.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Simo_Hayha.jpg/500px-Simo_Hayha.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ASimo_Hayha.jpg",
-     "descricao": "English Polish Fiński strzelec wyborowy \\u003Cspan class=\\",
-     "ordem": 5,
-     "print": "referencias/hayha1939/prints/campfire_969ab7.jpg",
-     "consulta": "A Morte Branca"
+     "print": "referencias/hayha1939/prints/neve_na_boca_430623.jpg",
+     "consulta": "snow"
     }
    ]
   },
@@ -491,31 +399,31 @@
    ],
    "achados": [
     {
-     "titulo": "CMB Timeline300 no WMAP.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/500px-CMB_Timeline300_no_WMAP.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACMB_Timeline300_no_WMAP.jpg",
-     "descricao": "DescriptionCMB Timeline300 no WMAP.jpg English: Timeline of the universe. A \\u003Cspan class=\\",
-     "ordem": 21,
-     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__53683d.jpg",
-     "consulta": "diagram"
+     "titulo": "Aba-Novák Soldiers in the Forest 1917.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aba-Nov%C3%A1k_Soldiers_in_the_Forest_1917.jpg/500px-Aba-Nov%C3%A1k_Soldiers_in_the_Forest_1917.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAba-Nov%C3%A1k_Soldiers_in_the_Forest_1917.jpg",
+     "descricao": "Vilmos Aba-Novák: \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__8d25fd.jpg",
+     "consulta": "soldiers forest"
     },
     {
-     "titulo": "The violent youth of solar proxies.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_violent_youth_of_solar_proxies.jpg/500px-The_violent_youth_of_solar_proxies.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_violent_youth_of_solar_proxies.jpg",
-     "descricao": "English determination method or standard: SHA-1",
-     "ordem": 22,
-     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__751e49.jpg",
-     "consulta": "diagram"
+     "titulo": "Symbolic grave of the soldiers of the Kampinos Group (Młociny Forest) 02.JPG",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Symbolic_grave_of_the_soldiers_of_the_Kampinos_Group_%28M%C5%82ociny_Forest%29_02.JPG/500px-Symbolic_grave_of_the_soldiers_of_the_Kampinos_Group_%28M%C5%82ociny_Forest%29_02.JPG",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASymbolic_grave_of_the_soldiers_of_the_Kampinos_Group_%28M%C5%82ociny_Forest%29_02.JPG",
+     "descricao": "DescriptionSymbolic grave of the \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__e0f146.jpg",
+     "consulta": "soldiers forest"
     },
     {
-     "titulo": "Littleboy inner1 info.png",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Littleboy_inner1_info.png/500px-Littleboy_inner1_info.png",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ALittleboy_inner1_info.png",
-     "descricao": "File:Little Boy internal \\u003Cspan class=\\",
-     "ordem": 23,
-     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__fa1ed7.jpg",
-     "consulta": "diagram"
+     "titulo": "Soldiers of the Lithuanian Army in forest, 1920.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Soldiers_of_the_Lithuanian_Army_in_forest%2C_1920.jpg/500px-Soldiers_of_the_Lithuanian_Army_in_forest%2C_1920.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ASoldiers_of_the_Lithuanian_Army_in_forest%2C_1920.jpg",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 8,
+     "print": "referencias/hayha1939/prints/os_soldados_finlandeses_eram_poucos_mas__3cf3f5.jpg",
+     "consulta": "soldiers forest"
     }
    ]
   }

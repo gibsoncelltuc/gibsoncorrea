@@ -55,7 +55,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 14,
    "cena": "b2",
@@ -91,7 +91,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 13,
    "cena": "b4",
@@ -157,7 +157,7 @@
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
-    "corpo": "kit/crown (parado)",
+    "corpo": "kit/coroa_louros (parado)",
     "emissao": "onda",
     "luz": "estudio",
     "camera": "2 enquadramentos sem corte seco",
@@ -174,8 +174,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/coroa_louros",
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 15,
    "cena": "b8",
@@ -194,7 +193,7 @@
    ],
    "multidao": 14,
    "objetos": [
-    "kit/crown"
+    "kit/coroa_louros"
    ],
    "palavras": 15,
    "cena": "b9",

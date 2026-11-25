@@ -139,6 +139,14 @@
     "factory 1839",
     "factory"
    ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "A borracha estava na moda, mas derretia no calor e rachava no frio. Bo",
+   "consultas": [
+    "borracha estava derretia calor rachava botas capas borracha",
+    "borracha diagram"
+   ]
   }
  ]
 }

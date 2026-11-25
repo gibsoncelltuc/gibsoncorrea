@@ -129,7 +129,7 @@
      2.2,
      0.8,
      "walk",
-     1.1
+     1.49
     ]
    ],
    "props": [
@@ -176,10 +176,6 @@
    "detalhe": false,
    "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
    "set": "countryside",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
@@ -192,7 +188,6 @@
      }
     ]
    },
-   "_auto_vis": 2,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -202,7 +197,13 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 9.0,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -495,10 +496,6 @@
      1.1
     ]
    ],
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
@@ -519,7 +516,12 @@
       "na": "porco"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "heroi": "kit/batatas",

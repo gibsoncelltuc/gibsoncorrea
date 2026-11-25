@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: countrysid
 - Narracao: Não acharam turco nenhum. Acharam moradores vendendo aguardente.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito; encena: entrega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

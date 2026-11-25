@@ -5,8 +5,9 @@ Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTE
 ## Achados automaticos (ferramenta)
 1. b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
 2. b0: animal citado aparece pequeno demais no take 1 (media 0% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
-3. b4: animal citado aparece pequeno demais no take 1 (media 0% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
-4. b5: animal citado aparece pequeno demais no take 1 (media 0% da altura da tela; precisa de 13%+ em media em todo take): camera mais perto ou animal maior
+3. b2: objeto "kit/batatas" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+4. SUSPEITA b4: a frase cita ANIMAL e a cena nao tem animal
+5. SUSPEITA b5: a frase cita ANIMAL e a cena nao tem animal
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Dois países quase entraram em guerra por causa de um porco.": 

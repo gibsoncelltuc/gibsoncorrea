@@ -28,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): REI (variante 0, expressao stern); OUR (variante 0, expressao nervous)
 - Animacao: reagir | interacao: discutir
-- Objetos/modelos: kit/crown
+- Objetos/modelos: kit/coroa_louros
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ourives, ouro
 - RISCOS: nenhum
 
@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): REI (variante 0, expressao angry, segura paper); ARQ (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/crown
+- Objetos/modelos: kit/coroa_louros
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa
 - RISCOS: nenhum
 
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ARQ (variante 0, expressao grin); OUR (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
-- Objetos/modelos: kit/coroa_louros, kit/crown
+- Objetos/modelos: kit/coroa_louros
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, ouro
 - RISCOS: nenhum
 
@@ -98,7 +98,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): ARQ (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 14 de POV/OUR
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/crown
+- Objetos/modelos: kit/coroa_louros
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): coroa, lenda
 - RISCOS: nenhum
 
@@ -128,8 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/bathtub | b0, b1, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/crown | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/coroa_louros | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/coroa_louros | b2, b4, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
