@@ -101,12 +101,10 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "bola",
-      "na": "jogo"
+      "faz": "mostra",
+      "na": "futebol"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -135,12 +133,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "golpe",
-      "na": "brigavam"
+      "faz": "mostra",
+      "na": "Honduras"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -183,10 +179,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Aí"
+      "na": "Copa"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -255,12 +250,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "venceu"
+      "na": "venceu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -311,22 +305,24 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "golpe",
-      "na": "brigaram"
+      "na": "brigaram",
+      "quem": 0,
+      "alvo_quem": 1
      },
      {
-      "quem": 0,
       "faz": "golpe",
-      "na": "brigaram"
+      "na": "brigaram",
+      "quem": 1,
+      "alvo_quem": 0
      },
      {
-      "quem": 0,
       "faz": "empurra",
-      "na": "ruas"
+      "na": "ruas",
+      "quem": 2,
+      "alvo_quem": 3
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -342,12 +338,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "corta",
-      "na": "cortou"
+      "faz": "fala",
+      "na": "cortou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -393,12 +388,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vence",
-      "na": "venceu"
+      "na": "venceu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -437,10 +431,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Semanas"
+      "na": "atacou"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -459,10 +452,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "guerra"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -495,12 +487,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "perde",
-      "na": "perdeu"
+      "na": "perdeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

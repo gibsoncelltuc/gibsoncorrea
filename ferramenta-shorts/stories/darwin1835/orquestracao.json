@@ -3,7 +3,7 @@
  "ano": 1835,
  "cenarios_trocados": [],
  "metricas": {
-  "acoes_encenadas": 100,
+  "acoes_encenadas": 91,
   "acoes_chave_com_efeito": 100,
   "explicacoes_cobertas": 100,
   "cenario_e_epoca_ok": 100
@@ -128,7 +128,9 @@
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [],
+   "acoes_faltando": [
+    "quebrar"
+   ],
    "cenario": "interior madeira"
   },
   {

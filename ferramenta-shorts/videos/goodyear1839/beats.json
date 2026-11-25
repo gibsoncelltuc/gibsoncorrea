@@ -94,17 +94,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "cai",
-      "na": "deixou"
-     },
-     {
-      "quem": 0,
-      "faz": "calor",
-      "na": "fogao"
+      "na": "deixou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -121,10 +115,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Era"
+      "na": "Estados"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -137,14 +130,13 @@
    "acao": "discutir",
    "say": "A borracha estava na moda, mas derretia no calor e rachava no frio. Botas e capas de borracha viravam uma meleca no verão.",
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "A"
+      "na": "borracha"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -165,17 +157,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "paga",
-      "na": "dinheiro"
-     },
-     {
-      "quem": 0,
       "faz": "quimico",
-      "na": "experiencias"
+      "na": "experiências",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -192,10 +178,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Fez"
+      "na": "prisão"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -238,12 +223,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "mistura",
-      "na": "mexendo"
+      "na": "mexendo",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -308,22 +292,16 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "cai",
-      "na": "caiu"
+      "na": "caiu",
+      "quem": 0
      },
      {
-      "quem": 0,
-      "faz": "calor",
-      "na": "fogao"
-     },
-     {
-      "quem": 0,
       "faz": "x_espera",
-      "na": "esperava"
+      "na": "esperava",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -388,12 +366,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "vira",
-      "na": "elastica"
+      "na": "elástica",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -415,22 +392,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "escreve",
-      "na": "copiaram"
-     },
-     {
-      "quem": 0,
-      "faz": "pensa",
-      "na": "ideia"
-     },
-     {
-      "quem": 0,
-      "faz": "morre",
-      "na": "morreu"
+      "faz": "fala",
+      "na": "copiaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -537,14 +503,13 @@
    "d1": 11.5,
    "_auto_vis": 3,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Décadas"
+      "na": "pneus"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -602,12 +567,10 @@
     "sentido": "negativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "vence",
-      "na": "ganhou"
+      "faz": "mostra",
+      "na": "fábrica"
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

@@ -20,7 +20,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: discutir
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
-- RISCOS: nenhum
+- RISCOS: 
+  - ACAO SEM ANIMACAO na narracao: brigavam -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
 
 ## Cena b2 - Aí veio a disputa por uma vaga na Copa do Mundo: três jogos, um contra...
 - Cenario: street | luz: day | clima: limpo
@@ -133,7 +134,8 @@ nature/lamppost | b6 | pronto | conferir na folha de contato se le bem; se parec
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py futebol1969  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/futebol1969/moodboard.jpg
 
-## RESUMO: 1 risco(s) em aberto
+## RESUMO: 2 risco(s) em aberto
+- b1: ACAO SEM ANIMACAO na narracao: brigavam
 - geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render

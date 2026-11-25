@@ -74,15 +74,13 @@
     ]
    },
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "x_come",
-      "na": "jantar"
+      "faz": "mostra",
+      "na": "elefante"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -97,12 +95,10 @@
     "sentido": "fato",
     "passos": [
      {
-      "quem": 0,
-      "faz": "chega",
-      "na": "cercou"
+      "faz": "mostra",
+      "na": "Prússia"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -141,10 +137,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Primeiro"
+      "na": "cavalos"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -227,10 +222,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Depois"
+      "na": "roedores"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -261,12 +255,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "olha",
-      "na": "olharam"
+      "na": "olharam",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -301,17 +294,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "negocio",
-      "na": "comprou"
-     },
-     {
-      "quem": 0,
-      "faz": "negocio",
-      "na": "vendeu"
+      "na": "comprou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -359,10 +346,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "No"
+      "na": "Voisin"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -408,12 +394,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "x_come",
-      "na": "comiam"
+      "na": "comiam",
+      "quem": 1
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -436,10 +421,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Enquanto"
+      "na": "fila"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -493,17 +477,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "fala",
-      "na": "mandar"
-     },
-     {
-      "quem": 0,
       "faz": "x_solta",
-      "na": "soltavam"
+      "na": "soltavam",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -554,12 +532,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "rende",
-      "na": "rendeu"
+      "na": "rendeu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],

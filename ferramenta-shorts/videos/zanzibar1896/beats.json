@@ -78,14 +78,13 @@
    "say": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
    "tat": 6,
    "encena": {
-    "sentido": "afirmativa",
+    "sentido": "fato",
     "passos": [
      {
       "faz": "mostra",
-      "na": "Uma"
+      "na": "guerra"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -102,10 +101,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Foi"
+      "na": "Zanzibar"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -151,17 +149,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "morre",
-      "na": "morreu"
-     },
-     {
-      "quem": 0,
       "faz": "chega",
-      "na": "ocupou"
+      "na": "ocupou",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -207,12 +199,12 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "fala",
+      "na": "ultimato",
       "quem": 0,
-      "faz": "x_entrega",
-      "na": "deram"
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -235,20 +227,14 @@
    "batalha": false,
    "tiros": false,
    "encena": {
-    "sentido": "hipotese",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "chega",
-      "na": "reuniu"
-     },
-     {
-      "quem": 0,
-      "faz": "x_abre",
-      "na": "trancou"
+      "na": "reuniu",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -314,10 +300,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Acontece"
+      "na": "fogo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -358,10 +343,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "O"
+      "na": "fogo"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -381,12 +365,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "pedir"
+      "na": "pedir",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -424,10 +407,9 @@
     "passos": [
      {
       "faz": "mostra",
-      "na": "Por"
+      "na": "bandeira"
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -476,12 +458,13 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "quem": 0,
-      "faz": "pega",
-      "na": "colocaram"
+      "faz": "x_entrega",
+      "na": "colocaram",
+      "quem": 1,
+      "alvo_quem": 0,
+      "forcar": true
      }
-    ],
-    "rascunho": true
+    ]
    }
   },
   {
@@ -494,17 +477,11 @@
     "sentido": "figurada",
     "passos": [
      {
-      "quem": 0,
       "faz": "fala",
-      "na": "mandaram"
-     },
-     {
-      "quem": 0,
-      "faz": "perde",
-      "na": "derrotados"
+      "na": "mandaram",
+      "quem": 0
      }
-    ],
-    "rascunho": true
+    ]
    }
   }
  ],
