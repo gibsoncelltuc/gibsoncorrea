@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Narracao: Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @3 -> acao + som de efeito; encena: fala (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 1666
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Narracao: Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_abre (push) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: INGLATERRA
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Narracao: Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @8 -> acao + som de efeito; encena: mistura (stir) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pensa (think) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Narracao: Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto; encena: x_solta (up) @7 -> acao + som de efeito; encena: cai (throw) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
 - Efeito visual marcado: burst@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 - Narracao: A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: encena: vira (up) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: GRAVIDADE
 - Funcao na historia: GRANDE MOMENTO

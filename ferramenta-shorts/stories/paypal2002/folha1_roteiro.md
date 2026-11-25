@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@6
-- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: paga (reach) @3 -> acao + som de efeito; encena: negocio (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino; encena: entrega (point) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@6
 - Texto na tela: US$ 1,5 BILHÃO
 - Funcao na historia: GANCHO
@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprou -> stars + som de sino; encena: negocio (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprou -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: eBay
 - Funcao na historia: desenvolvimento
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: fala (point) @5 -> acao + som de efeito; encena: paga (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: E-MAIL = DINHEIRO
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: negocio (reach) @15 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: entrega (point) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @1 -> acao + som de efeito; encena: negocio (reach) @4 -> acao + som de efeito; encena: x_entrega (reach) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: entrega (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Narracao: Quem diria: um pagamento online chegou ao espaço.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: chegou -> dust + som de impacto
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

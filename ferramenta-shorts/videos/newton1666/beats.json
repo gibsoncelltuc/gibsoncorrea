@@ -71,6 +71,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -91,7 +100,16 @@
     "march": false
    },
    "mapa": "INGLATERRA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Cambridge"
+     }
+    ]
+   }
   },
   {
    "say": "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe.",
@@ -101,7 +119,17 @@
     "NEW:0:neutral",
     "MAE:0:smile"
    ],
-   "chega": true
+   "chega": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.",
@@ -117,7 +145,17 @@
      -1.6,
      1.4
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "pensando",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
@@ -169,6 +207,15 @@
     ]
    },
    "_enq_shot": "orbit",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "cai",
+      "na": "caiu"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -179,7 +226,17 @@
    "shot": "close",
    "who": [
     "NEW:0:suspicious"
-   ]
+   ],
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "perguntou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
@@ -189,7 +246,16 @@
     "MAE:0:shock"
    ],
    "interacao": "susto",
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Lua"
+     }
+    ]
+   }
   },
   {
    "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
@@ -218,7 +284,16 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gravidade"
+     }
+    ]
+   }
   },
   {
    "say": "Anos depois, ele mesmo contou essa história a um amigo.",
@@ -228,7 +303,17 @@
     "NEW:0:smile:mug",
     "AMI:1:smile"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "contou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No fim, a maçã mudou a ciência e nem foi comida.",
@@ -262,6 +347,15 @@
    },
    "detalhe": true,
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

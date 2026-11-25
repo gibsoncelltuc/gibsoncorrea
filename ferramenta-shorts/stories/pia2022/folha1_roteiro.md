@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: Um bilionário entrou carregando uma pia na empresa que estava comprando.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: chega (point) @2 -> acao + som de efeito; encena: pega (lift) @3 -> acao + som de efeito; encena: paga (reach) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: comprando -> stars + som de sino; encena: chega (point) @2 -> acao + som de efeito; encena: pega (lift) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: Ele filmou a própria entrada, com a pia nos braços, e postou o vídeo na internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito; encena: chega (point) @4 -> acao + som de efeito; encena: x_fone (lift) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LET THAT SINK IN
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: Acontece que, no dia seguinte, ele fechou a compra do Twitter, por quarenta e quatro bilhões de dólares.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_abre (push) @6 -> acao + som de efeito; encena: negocio (reach) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: negocio (reach) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: No mesmo dia, ele demitiu o presidente e outros chefes da empresa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

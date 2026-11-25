@@ -31,3 +31,17 @@
 
 ## 25/11 00:54 autocorrecao de visibilidade
 - b7: ja corrigida 3 vezes, objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 18% -> fica para o olho
+
+## 25/11 01:46 autocorrecao de visibilidade
+- b4: objeto citado "kit/ball" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+- b4: objeto citado "war/cannonballs" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b7: objeto citado "kit/feather" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b4: objeto "war/cannonballs" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+- b5: objeto "war/cannonballs" saiu com 4% da altura da tela, a ficha de cena planejou 18% -> objeto trazido para perto do centro (-1.6, -1.0)
+- b7: objeto "kit/feather" saiu com 1% da altura da tela, a ficha de cena planejou 18% -> objeto na frente dos personagens e maior
+
+## 25/11 01:47 autocorrecao de visibilidade
+- b7: objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+
+## 25/11 01:47 autocorrecao de visibilidade
+- b7: ja corrigida 3 vezes, objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 18% -> fica para o olho

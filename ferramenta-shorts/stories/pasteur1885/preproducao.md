@@ -5,7 +5,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 1 | conversar | kit/syringe | - | -
-b1 | street | reveal | 10 | encena | - | - | -
+b1 | street | reveal | 10 | parados (so fala e pisca) | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b3 | interior madeira | group | 2 | conversar, INTERAGEM: susto | kit/syringe | - | -
 b4 | interior madeira | close | 1 | conversar | dog | - | -
@@ -21,5 +21,5 @@ OBJETO HEROI: kit/syringe
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
 Interacoes entre personagens: b2 avanca e o outro recua, b3 susto, b8 cochichar
 
-Cenas com personagens parados: 0 de 12
+Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

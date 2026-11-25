@@ -90,6 +90,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -111,7 +120,17 @@
    "impact": false,
    "shot_lock": true,
    "mapa": "SUÍÇA",
-   "mapa_at": 3
+   "mapa_at": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -160,6 +179,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carrapichos"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -212,6 +240,21 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levou",
+      "quem": 0
+     },
+     {
+      "faz": "olha",
+      "na": "olhou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -256,6 +299,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ganchinho"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -298,6 +350,16 @@
     ]
    },
    "_enq_shot": "low",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "pensou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -316,7 +378,17 @@
    "crowd": {
     "n": 0
    },
-   "_susp_ok": true
+   "_susp_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_ri",
+      "na": "riram",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -357,6 +429,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "náilon"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -434,6 +515,15 @@
    },
    "detalhe": true,
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "astronautas"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -476,6 +566,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tênis"
+     }
+    ]
+   },
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

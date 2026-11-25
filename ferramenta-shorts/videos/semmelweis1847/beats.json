@@ -101,7 +101,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "pediu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -147,7 +157,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Viena"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -156,7 +175,16 @@
     "SEM:0:worried",
     "PAR:0:sad"
    ],
-   "say": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos."
+   "say": "O hospital tinha duas alas de parto: uma de parteiras e outra de médicos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ala"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -171,7 +199,16 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa."
+   "say": "Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "febre"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -186,7 +223,22 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre."
+   "say": "Um dia, o amigo Kolletschka se cortou com um bisturi numa autópsia, e morreu da mesma febre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corta",
+      "na": "cortou",
+      "quem": 0
+     },
+     {
+      "faz": "morre",
+      "na": "morreu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -200,7 +252,17 @@
    "sfx": [
     "ding@20"
    ],
-   "say": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas."
+   "say": "Ele entendeu: os médicos saíam das autópsias e iam direto aos partos, de mãos sujas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "entendeu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -245,7 +307,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_lava",
+      "na": "lavar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -299,7 +371,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mortes"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -319,7 +400,22 @@
    ],
    "verbos_ok": [
     "brigo"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_discute",
+      "na": "ofenderam",
+      "quem": 0
+     },
+     {
+      "faz": "sai",
+      "na": "embora",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -356,7 +452,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "morreu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -393,7 +499,16 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "salvador"
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false,

@@ -80,7 +80,9 @@
     "FUN"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/sink"
+   ],
    "palavras": 11,
    "cena": "b3",
    "frase": "A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.",

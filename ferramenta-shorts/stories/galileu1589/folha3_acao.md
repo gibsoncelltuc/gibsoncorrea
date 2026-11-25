@@ -7,6 +7,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b0 - 0.2s a 4.2s - 16 palavras - plano two
 > "Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) GAL cai no chao | na palavra "chao" (3.5s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | caíram (3.1s) | EFEITO: dust | poeira + som | OK |
@@ -23,6 +26,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 5.4s a 12.0s - 22 palavras - plano reveal
 > "Conta a história que, em Pisa, na Itália, por volta de mil quinhentos e noventa, um jovem professor desafiou um sábio famoso."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Conta" (5.4s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | ITÁLIA | OK |
@@ -35,6 +41,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b2 - 13.4s a 18.1s - 16 palavras - plano two
 > "O sábio era Aristóteles, que dizia que quanto mais pesado o objeto, mais rápido ele cai."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "O" (13.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -49,6 +58,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b3 - 19.2s a 22.0s - 10 palavras - plano group
 > "Mas Galileu Galilei achou estranho e resolveu provar o contrário."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ALU olha/aponta para o alvo | na palavra "achou" (20.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -68,12 +80,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b4 - 23.2s a 27.2s - 16 palavras - plano wide
 > "Dizem que ele foi até a torre inclinada de Pisa, com duas bolas de pesos diferentes."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Dizem" (23.2s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b5 - 28.8s a 32.8s - 14 palavras - plano wide
 > "Acontece que, quando ele soltou as duas, elas caíram no chão ao mesmo tempo."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) GAL acao do motor: solta | na palavra "soltou" (30.6s)
+  2) GAL cai no chao | na palavra "chao" (32.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -95,6 +114,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 34.0s a 38.7s - 17 palavras - plano two
 > "Hoje se discute se isso aconteceu mesmo, porque a história vem de um aluno dele, anos depois."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Hoje" (34.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | cochichar | OK |
@@ -108,6 +130,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b7 - 40.0s a 46.3s - 23 palavras - plano two
 > "Mas em mil novecentos e setenta e um, na Lua, um astronauta soltou um martelo e uma pena, e os dois caíram juntos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) AST acao do motor: solta | na palavra "soltou" (43.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -126,6 +151,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b8 - 47.6s a 49.5s - 9 palavras - plano close
 > "No fim, até a pena deu razão ao Galileu."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) GAL acao do motor: entrega | na palavra "deu" (48.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

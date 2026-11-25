@@ -79,6 +79,16 @@
    "set": "loc_campo",
    "fachada": false,
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_solta",
+      "na": "soltou",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -100,7 +110,16 @@
     "march": false
    },
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Filadélfia"
+     }
+    ]
+   }
   },
   {
    "say": "Na época, muita gente achava que o raio era um castigo dos céus, e não uma força da natureza.",
@@ -111,7 +130,16 @@
     "POV:0:scared",
     "FIL:0:sad"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "castigo"
+     }
+    ]
+   }
   },
   {
    "say": "Franklin discordava: para ele, o raio era só uma faísca elétrica gigante.",
@@ -121,7 +149,16 @@
     "COM:0:surprised",
     "FRA:0:smug"
    ],
-   "interacao": "discutir"
+   "interacao": "discutir",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "faísca"
+     }
+    ]
+   }
   },
   {
    "say": "Contam que, numa tarde de chuva, ele prendeu uma chave de metal na linha da pipa.",
@@ -155,6 +192,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prendeu",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -166,7 +213,16 @@
    "who": [
     "FRA:0:nervous"
    ],
-   "clima": "tempestade"
+   "clima": "tempestade",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, quando a nuvem passou, a linha eriçou, e uma faísca pulou da chave até a mão dele.",
@@ -231,6 +287,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "brilha",
+      "na": "faísca",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -244,7 +310,16 @@
     "COM:0:suspicious",
     "FRA:0:relief"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raio"
+     }
+    ]
+   }
   },
   {
    "say": "Franklin então inventou o para-raios, e hoje ele protege casas e prédios no mundo inteiro.",
@@ -310,6 +385,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "para-raios"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -321,7 +405,16 @@
    "shot": "close",
    "who": [
     "FRA:0:smug"
-   ]
+   ],
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chave"
+     }
+    ]
+   }
   }
  ],
  "visual": {

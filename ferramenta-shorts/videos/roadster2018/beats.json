@@ -91,7 +91,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carro"
+     }
+    ]
+   }
   },
   {
    "say": "É um Tesla Roadster vermelho, lançado em fevereiro de dois mil e dezoito pela SpaceX, de Elon Musk.",
@@ -134,7 +143,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Roadster"
+     }
+    ]
+   }
   },
   {
    "say": "Era o voo de estreia do Falcon Heavy, o maior foguete da empresa, em Cabo Canaveral, nos Estados Unidos.",
@@ -179,7 +197,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 22.4,
-   "d1": 21.3
+   "d1": 21.3,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Falcon"
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que era só um teste, e em vez de um peso de concreto, Musk resolveu mandar o próprio carro.",
@@ -223,7 +250,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandar",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "O foguete decolou com um estrondo!",
@@ -279,7 +316,16 @@
    "cz": -2.0,
    "h": 3.0,
    "d0": 21.0,
-   "d1": 20.0
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "voa",
+      "na": "decolou"
+     }
+    ]
+   }
   },
   {
    "say": "No banco do motorista foi sentado um boneco de astronauta, chamado Starman.",
@@ -323,7 +369,17 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "senta",
+      "na": "sentado",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "No painel, estava escrito: Não entre em pânico.",
@@ -368,7 +424,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "painel"
+     }
+    ]
+   }
   },
   {
    "say": "O Roadster saiu da órbita da Terra e seguiu em órbita ao redor do Sol, no espaço.",
@@ -445,6 +510,15 @@
       "Sol"
      ]
     ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "órbita"
+     }
+    ]
    }
   },
   {
@@ -495,7 +569,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltas"
+     }
+    ]
+   }
   },
   {
    "say": "Um carro, um boneco e um aviso no painel: uma das maiores brincadeiras da história do espaço.",
@@ -563,7 +646,16 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aviso"
+     }
+    ]
+   }
   }
  ],
  "cinf": 1.5,

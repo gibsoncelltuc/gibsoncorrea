@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, na ala dos médicos, morriam muito mais mães, de uma febre misteriosa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: morre @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele pôs uma bacia com água e cloro na porta, e obrigou os médicos a lavar as mãos antes de entrar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: x_lava (stir) @15 -> acao + som de efeito; encena: chega (point) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_lava (stir) @15 -> acao + som de efeito
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: As mortes despencaram quase dez vezes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: tomba @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, stars@60
 - Texto na tela: VIDAS SALVAS
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas os médicos se ofenderam, e Semmelweis foi mandado embora.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@50
-- Efeito + som nas palavras-chave: encena: x_discute (point) @4 -> acao + som de efeito; encena: fala (point) @8 -> acao + som de efeito; encena: sai @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_discute (point) @4 -> acao + som de efeito; encena: sai @9 -> acao + som de efeito
 - Efeito visual marcado: ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, a ciência provou que ele estava certo. Hoje, é chamado de salvador das mães.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito; encena: fala (point) @11 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: LAVE AS MÃOS
 - Funcao na historia: GRANDE MOMENTO

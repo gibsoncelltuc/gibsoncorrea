@@ -1,13 +1,13 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
-Gerado em 25/11 01:30 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 01:48 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | PAS | - | syringe | - | Um menino de nove anos foi o primeiro a receber a vacina contra a raiv
-b1 | simples | street | reveal | MED, MED | 8 | - | - | Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já er
+b1 | transicao | street | reveal | MED, MED | 8 | - | - | Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já er
 b2 | simples | interior madeira | two | MED, POV | - | - | - | Na época, quem era mordido por um animal com raiva quase nunca se salv
 b3 | simples | interior madeira | group | PAS, MED | - | syringe | - | Pasteur tinha criado uma vacina e testado só em animais, nunca em uma 
 b4 | simples | interior madeira | close | PAS | - | - | - | Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um

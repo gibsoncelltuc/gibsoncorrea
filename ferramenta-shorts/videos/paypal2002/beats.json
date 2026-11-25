@@ -82,6 +82,18 @@
    "_susp_ok": true,
    "tela": false,
    "_enq_shot": "group",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "vendido",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -122,6 +134,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "eBay"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -161,6 +182,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "e-mail"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -177,7 +207,19 @@
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
    "set": "street",
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "compra",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -212,6 +254,15 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ações"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -225,7 +276,16 @@
    ],
    "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acionista"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -271,6 +331,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "SpaceX"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 3.9,
@@ -321,6 +390,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Tesla"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -399,7 +477,19 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "venda",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -438,6 +528,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "espaço"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 2.8,

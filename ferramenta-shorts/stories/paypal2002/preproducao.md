@@ -13,12 +13,12 @@ b5 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua |
 b6 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/falcon9_land | - | -
 b7 | loc_pista | orbit | 1 | batalha | kit/roadster | - | -
 b8 | loc_cidade | two | 2 | conversar, INTERAGEM: cochichar | kit/coin, kit/roadster, kit/falcon9_land | - | -
-b9 | loc_pista | wide | 1 | encena | kit/falcon_air | - | -
+b9 | loc_pista | wide | 1 | parados (so fala e pisca) | kit/falcon_air | - | -
 b10 | loc_pista | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/coin
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b7
 Interacoes entre personagens: b0 entregar, b1 o outro se aproxima, b2 insiste, b3 vai ate o outro, b4 aproxima-se, b5 avanca e o outro recua, b8 cochichar
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 2 de 11
 FALTA MODELAR: nada

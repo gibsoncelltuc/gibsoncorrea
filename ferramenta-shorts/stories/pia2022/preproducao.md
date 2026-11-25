@@ -7,7 +7,7 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 b0 | loc_cidade | two | 2 | conversar, INTERAGEM: susto, alguem chega andando | kit/sink, kit/marco_goldengate | - | -
 b1 | interior pedra | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/sink | - | -
 b2 | interior pedra | close | 1 | conversar | kit/sink, kit/phone | - | -
-b3 | interior loja | two | 2 | conversar, INTERAGEM: insiste | - | - | -
+b3 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/sink | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b5 | interior madeira | two | 2 | reagir, INTERAGEM: discutir, batalha | - | - | -
 b6 | interior pedra | two | 3 | conversar, INTERAGEM: vai ate o outro | - | - | -

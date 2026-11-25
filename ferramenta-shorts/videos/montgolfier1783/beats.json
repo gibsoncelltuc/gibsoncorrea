@@ -114,6 +114,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ovelha"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -129,7 +138,16 @@
    "mapa": "FRANÇA",
    "mapa_at": 3,
    "say": "Era mil setecentos e oitenta e três, na França.",
-   "set": "street"
+   "set": "street",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "França"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -169,6 +187,16 @@
    },
    "interior": "madeira",
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viram",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -211,6 +239,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -225,7 +262,16 @@
    ],
    "acao": "discutir",
    "say": "Só que ninguém sabia se dava para respirar lá em cima.",
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "respirar"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -281,6 +327,16 @@
    },
    "set": "medieval",
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "entraram",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -337,6 +393,16 @@
    },
    "set": "street",
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "assistiram",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -387,6 +453,15 @@
    },
    "set": "medieval",
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -447,6 +522,15 @@
     ]
    ],
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bosque"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -502,6 +586,15 @@
    },
    "set": "street",
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,
@@ -567,6 +660,15 @@
    },
    "set": "loc_montanha",
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bichos"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -2.0,
    "h": 4.0,

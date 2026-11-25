@@ -7,7 +7,7 @@ b1 | wide | -  | tropa | - | -
 b2 | wide | -  | tropa, mapa | - | -
 b3 | two | -  | tropa, interior | (rosto) determined (expr + som de efeito); encena: fala (point) @16 (acao + som de efeito) | -
 b4 | wide | -  | batalha aberta com tiros, tropa | encena: voa (point) @2 (acao + som de efeito) | -
-b5 | two | -  | tropa, interior | encena: senta @5 (acao + som de efeito); encena: fala (point) @10 (acao + som de efeito) | -
+b5 | two | -  | tropa, interior | encena: senta @5 (acao + som de efeito) | -
 b6 | orbit | espaco  | tropa, placa: NÃO ENTRE EM PÂNICO | - | -
 b7 | two | espaco  | tropa | - | -
 b8 | wide | espaco  | batalha aberta com tiros, tropa | - | -

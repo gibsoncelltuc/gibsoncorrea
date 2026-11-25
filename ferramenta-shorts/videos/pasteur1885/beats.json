@@ -78,6 +78,15 @@
     ]
    },
    "_enq_shot": "wide",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vacina"
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
@@ -100,7 +109,16 @@
     "march": false
    },
    "mapa": "FRANÇA",
-   "mapa_at": 2
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "micróbios"
+     }
+    ]
+   }
   },
   {
    "say": "Na época, quem era mordido por um animal com raiva quase nunca se salvava.",
@@ -110,7 +128,16 @@
     "MED:0:sad",
     "POV:0:scared"
    ],
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raiva"
+     }
+    ]
+   }
   },
   {
    "say": "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa.",
@@ -146,6 +173,16 @@
     ]
    },
    "_enq_shot": "two",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testado",
+      "quem": 0
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -166,14 +203,35 @@
      1.6,
      0.6
     ]
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "say": "Pasteur não era médico e tinha medo, mas decidiu tentar.",
    "shot": "close",
    "who": [
     "PAS:0:nervous"
-   ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "tentar",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "say": "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.",
@@ -221,6 +279,18 @@
     ]
    },
    "_enq_shot": null,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "aplicou",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -234,7 +304,16 @@
     "MAE:0:relief",
     "PAS:0:smile"
    ],
-   "interacao": "reverencia"
+   "interacao": "reverencia",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Joseph"
+     }
+    ]
+   }
   },
   {
    "say": "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida.",
@@ -243,7 +322,16 @@
     "MED:0:smile",
     "POV:0:grin"
    ],
-   "interacao": "cochichar"
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "instituto"
+     }
+    ]
+   }
   },
   {
    "say": "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro.",
@@ -274,14 +362,32 @@
     "ding@30",
     "sting@70"
    ],
-   "acao": "comemorar"
+   "acao": "comemorar",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Instituto"
+     }
+    ]
+   }
   },
   {
    "say": "No fim, uma picada salvou mais que mil discursos.",
    "shot": "close",
    "who": [
     "PAS:0:smug"
-   ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "picada"
+     }
+    ]
+   }
   }
  ],
  "max_wide": 3,

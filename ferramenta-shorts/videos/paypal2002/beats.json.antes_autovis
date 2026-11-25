@@ -81,6 +81,23 @@
    "_susp_tela": true,
    "_susp_ok": true,
    "tela": false,
+   "_enq_shot": "group",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "pagar"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "vendido"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -120,6 +137,18 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "comprou"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -158,6 +187,23 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "fala",
+      "na": "mandar"
+     },
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -174,7 +220,23 @@
    "say": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
    "fachada": false,
    "set": "street",
-   "acao": "conversar"
+   "acao": "conversar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "sai",
+      "na": "saiu"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "compra"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "two",
@@ -208,6 +270,17 @@
      }
     ]
    },
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "O"
+     }
+    ],
+    "rascunho": true
+   },
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
@@ -221,7 +294,17 @@
    ],
    "say": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
    "fachada": false,
-   "interior": "madeira"
+   "interior": "madeira",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Elon"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -265,6 +348,17 @@
       "estado": "parado"
      }
     ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ],
+    "rascunho": true
    },
    "cx": 0.0,
    "cz": -2.0,
@@ -314,6 +408,17 @@
       "estado": "parado"
      }
     ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Dois"
+     }
+    ],
+    "rascunho": true
    },
    "cx": 0.0,
    "cz": -3.6,
@@ -394,7 +499,28 @@
      }
     ]
    },
-   "_auto_vis": 3
+   "_auto_vis": 3,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "paga",
+      "na": "dinheiro"
+     },
+     {
+      "quem": 0,
+      "faz": "negocio",
+      "na": "venda"
+     },
+     {
+      "quem": 0,
+      "faz": "x_entrega",
+      "na": "ajudou"
+     }
+    ],
+    "rascunho": true
+   }
   },
   {
    "shot": "wide",
@@ -431,6 +557,18 @@
       "estado": "parado"
      }
     ]
+   },
+   "_enq_shot": "wide",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "chega",
+      "na": "chegou"
+     }
+    ],
+    "rascunho": true
    },
    "cx": 0.0,
    "cz": -2.0,

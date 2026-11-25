@@ -188,15 +188,15 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "track",
+   "camera": "orbit",
    "personagens": [
-    "ERA",
-    "CAM"
+    "ERA"
    ],
    "multidao": 0,
    "objetos": [
     "buildings/apartment",
     "buildings/house_two",
+    "kit/marco_alexandria",
     "kit/stick",
     "nature/lamppost"
    ],
@@ -227,12 +227,13 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "ERA"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/marco_alexandria",
     "kit/starlink_sat",
     "kit/stick",
     "kit/well",

@@ -84,7 +84,17 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "tira",
+      "na": "tirou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "reveal",
@@ -94,7 +104,16 @@
    ],
    "mapa": "ALEMANHA",
    "mapa_at": 3,
-   "say": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha."
+   "say": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Alemanha"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -137,7 +156,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "testando",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -179,7 +208,18 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "cobriu",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
   },
   {
    "shot": "low",
@@ -224,7 +264,16 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tela"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -267,7 +316,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viu",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -306,7 +365,22 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     },
+     {
+      "faz": "tira",
+      "na": "fotografou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -342,7 +416,17 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "olhou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -404,7 +488,16 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "notícia"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -414,7 +507,17 @@
     "JOR:0:suspicious:paper"
    ],
    "text": "RAIO X",
-   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
+   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamou",
+      "quem": 0
+     }
+    ]
+   }
   },
   {
    "shot": "crowd",
@@ -446,7 +549,17 @@
    ],
    "text": "NOBEL",
    "titulo": true,
-   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
+   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "ganhou",
+      "quem": 0
+     }
+    ]
+   }
   }
  ],
  "variar_cenario": false,

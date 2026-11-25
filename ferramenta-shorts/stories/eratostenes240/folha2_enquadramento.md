@@ -46,8 +46,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
 - LOCAL: praia / palacio; hora: desert
-- CAMERA: travelling (camera acompanha andando); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
-- PERSONAGENS: ERA (cientista) na esquerda, expressao neutral; CAM (agricultor) na direita, expressao grin; sem multidao; acao: fala/gesto
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: ERA (cientista) no centro, expressao neutral; sem multidao; acao: fala/gesto
 - OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b8: "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra."
@@ -58,7 +58,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 - LOCAL: vila medieval; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o stick (alvo z -3.6, camera a 18.4 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: ERA (cientista) no centro, expressao smug; sem multidao; acao: comemorar
 - OBJETO kit/stick: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.0 m de altura x 1.0 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/well: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

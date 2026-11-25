@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: FRANÇA
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Pasteur não era médico e tinha medo, mas decidiu tentar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; (rosto) determined -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) scared -> expr + som de efeito; (rosto) determined -> expr + som de efeito; encena: pensa (think) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40, sting@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: entrega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: ring@40, stars@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -96,7 +96,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: No fim, uma picada salvou mais que mil discursos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito; encena: x_entrega (reach) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

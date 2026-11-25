@@ -1,11 +1,14 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.1s - 15 palavras - plano two
 > "Um menino de nove anos foi o primeiro a receber a vacina contra a raiva."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "vacina" (2.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -21,20 +24,24 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b1 - 4.2s a 9.3s - 18 palavras - plano reveal
 > "Era mil oitocentos e oitenta e cinco, na França, e Louis Pasteur já era famoso por estudar micróbios."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "micróbios" (9.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | estudar (8.8s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | MAPA | FRANÇA | OK |
+| 1 | - | MAPA | FRANÇA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: examina na palavra estudar (8.8s): executa: examina com lupa/microscopio/balanca
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 - multidao de 8: parada, reagindo (neutra), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b2 - 10.5s a 13.9s - 14 palavras - plano two
 > "Na época, quem era mordido por um animal com raiva quase nunca se salvava."
+
+- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "raiva" (13.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -52,6 +59,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 15.2s a 18.9s - 14 palavras - plano group
 > "Pasteur tinha criado uma vacina e testado só em animais, nunca em uma pessoa."
 
+- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+  1) PAS acao do motor: examina | na palavra "testado" (16.9s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testado (16.9s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
@@ -67,6 +77,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b4 - 20.1s a 24.5s - 18 palavras - plano close
 > "Um dia, uma mãe chegou à porta dele com o filho Joseph, mordido por um cachorro com raiva."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PAS chega na cena | na palavra "chegou" (21.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -88,14 +101,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b5 - 25.7s a 28.3s - 10 palavras - plano close
 > "Pasteur não era médico e tinha medo, mas decidiu tentar."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PAS mao no queixo, pensando | na palavra "tentar" (28.3s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 2 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 1 | tentar (28.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 2 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
+| 3 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 4 | - | ATUACAO | reagir | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: pensa na palavra tentar (28.3s): executa: mao no queixo + brilho de ideia
 - EMOCAO: scared (a cena toda): executa: o rosto vira "scared" na palavra
 - EMOCAO: determined (a cena toda): executa: o rosto vira "determined" na palavra
 - ATUACAO (a cena toda): executa: reagir
@@ -104,19 +122,25 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 29.4s a 34.4s - 14 palavras - plano orbit
 > "Acontece que, durante dez dias, ele aplicou injeções, e o menino nunca ficou doente."
 
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) PAS entrega o objeto ao alvo | na palavra "aplicou" (32.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | aplicou (32.0s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | aplicou (32.0s) | ACAO: entrega | entrega | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra aplicou (32.0s): executa: estende a mao entregando
+- ACAO: entrega na palavra aplicou (32.0s): executa: entrega
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
 ## Cena b7 - 35.4s a 37.7s - 8 palavras - plano track
 > "Joseph sobreviveu, e a notícia correu o mundo."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Joseph" (35.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -124,6 +148,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b8 - 38.8s a 43.5s - 19 palavras - plano two
 > "Anos depois, ele virou o guarda do instituto de Pasteur, e cuidou do lugar até o fim da vida."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "instituto" (40.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -138,6 +165,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 ## Cena b9 - 44.7s a 48.7s - 17 palavras - plano crowd
 > "Hoje o Instituto Pasteur ainda leva o nome dele, e a vacina salva vidas no mundo inteiro."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Instituto" (44.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -156,15 +186,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b10 - 49.9s a 52.4s - 9 palavras - plano close
 > "No fim, uma picada salvou mais que mil discursos."
 
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "picada" (51.0s)
+
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | salvou (51.5s) | ACAO: x_entrega | estende a mao entregando | OK |
-| 2 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | EMOCAO: relief | o rosto vira "relief" na palavra | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: x_entrega na palavra salvou (51.5s): executa: estende a mao entregando
 - EMOCAO: relief (a cena toda): executa: o rosto vira "relief" na palavra
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
