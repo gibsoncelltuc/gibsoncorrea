@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paypal2002/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paypal2002` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um serviço para pagar pela internet foi vendido por um bilhão e meio d...
-- Cenario: loc_cidade | luz: noite | clima: limpo
+- Cenario: loc_cidade | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised); POV (variante 0, expressao smile)
@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- LOCAL: rua de cidade (predios dos dois lados); hora: dia
 - CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e coin juntos (camera a 11.5 m)
 - PERSONAGENS: EBY (comerciante) na esquerda, expressao grin; MUS no centro, expressao surprised; POV na direita, expressao smile; sem multidao; acao: fala/gesto
-- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/coin: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +6 da cena
 - SOM: ding@6
 - TEXTO NA TELA: "US$ 1,5 BILHÃO" numa placa atras dos personagens, na palavra 1 da frase

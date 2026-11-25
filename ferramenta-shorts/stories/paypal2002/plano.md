@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | group | noite  | placa: US$ 1,5 BILHÃO | pagar (stars + som de sino); encena: negocio (reach) @7 (acao + som de efeito) | -
+b0 | group | dia  | placa: US$ 1,5 BILHÃO | pagar (stars + som de sino); encena: negocio (reach) @7 (acao + som de efeito) | -
 b1 | two | -  | interior, placa: eBay | comprou (stars + som de sino); encena: negocio (reach) @5 (acao + som de efeito) | -
 b2 | group | -  | interior, placa: E-MAIL = DINHEIRO | dinheiro (stars + som de sino) | -
 b3 | two | -  | mapa | encena: negocio (reach) @15 (acao + som de efeito) | -
