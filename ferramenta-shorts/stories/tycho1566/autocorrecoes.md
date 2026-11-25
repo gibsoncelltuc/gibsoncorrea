@@ -19,3 +19,6 @@
 
 ## 25/11 19:39 autocorrecao de visibilidade
 - b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 21:11 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

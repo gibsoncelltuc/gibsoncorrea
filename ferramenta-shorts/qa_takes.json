@@ -1,4 +1,61 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 288,
+   "shot": "b2_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 289,
+   "shot": "b2_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 292,
+   "shot": "b2_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 296,
+   "shot": "b2_d",
+   "why": [
+    "empty: characters are in the scene but none is in frame"
+   ]
+  },
+  {
+   "f": 304,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 308,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 312,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 316,
+   "shot": "b2_v",
+   "why": [
+    "mus: head/torso cropped (box -0.199, 0.082, 0.266, 0.783)"
+   ]
+  }
+ ],
  "tiny": []
 }

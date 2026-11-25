@@ -137,3 +137,6 @@
 
 ## 25/11 17:55 autocorrecao de visibilidade
 - b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 21:11 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho

@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/roadster2018/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py roadster2018` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um carro de verdade está dando voltas em torno do Sol.
-- Cenario: arctic | luz: espaco | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: campo de gelo e neve (mar congelado, rochas); hora: espaco
+- LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o roadster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MUS no centro, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/roadster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.0 m de altura x 6.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -171,7 +171,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - Ele continua lá até hoje. Porque...
-- Cenario: arctic | luz: espaco | clima: limpo
+- Cenario: arctic | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
