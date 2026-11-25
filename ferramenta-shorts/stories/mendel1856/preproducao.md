@@ -9,7 +9,7 @@ b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | nature/flowerbed, natu
 b2 | loc_campo | two | 1 | conversar | kit/pea_green, kit/pea_yellow | - | -
 b3 | loc_patio | two | 1 | conversar | kit/pea_yellow | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
-b5 | loc_patio | wide | 1 | encena | kit/pea_yellow, kit/pea_green | paper | -
+b5 | loc_patio | wide | 1 | encena | kit/pea_yellow | paper | -
 b6 | hall | two | 0 | batalha | kit/pea_green, kit/pea_yellow | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
 b8 | interior madeira | close | 1 | conversar | - | book | -
