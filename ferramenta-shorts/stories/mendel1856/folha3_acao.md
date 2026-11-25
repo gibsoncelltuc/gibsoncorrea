@@ -41,7 +41,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Ele cruzou ervilhas amarelas com ervilhas verdes, e esperou para ver a cor dos filhos."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: espera | na palavra "esperou" (14.3s)
+  1) MEN acao do motor: examina | na palavra "cruzou" (11.6s)
+  2) MEN acao do motor: espera | na palavra "esperou" (14.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -55,7 +56,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b3 - 16.7s a 20.6s - 12 palavras - plano two
 > "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
 
-- LEITURA DA FRASE: sentido FATO
+- LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "amarelas" (18.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -107,8 +108,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b6 - 30.8s a 35.9s - 16 palavras - plano wide
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "verde" (31.8s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "voltou" (32.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -185,7 +186,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b10 - 52.1s a 53.9s - 8 palavras - plano two
 > "No fim, a ervilha fez o monge famoso."
 
-- LEITURA DA FRASE: sentido FATO
+- LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilha" (52.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

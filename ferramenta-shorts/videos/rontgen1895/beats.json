@@ -84,10 +84,9 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pega",
+      "faz": "tira",
       "na": "tirou",
-      "quem": 0,
-      "forcar": true
+      "quem": 0
      }
     ]
    },
@@ -161,6 +160,16 @@
       "faz": "examina",
       "na": "testando",
       "quem": 0
+     },
+     {
+      "faz": "x_solta",
+      "na": "soltava",
+      "quem": 0
+     },
+     {
+      "faz": "brilha",
+      "na": "faíscas",
+      "quem": 0
      }
     ]
    },
@@ -210,10 +219,9 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "pega",
+      "faz": "examina",
       "na": "cobriu",
-      "quem": 0,
-      "forcar": true
+      "quem": 0
      }
     ]
    },
@@ -263,11 +271,12 @@
    },
    "_enq_shot": "low",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "tela"
+      "faz": "brilha",
+      "na": "brilhar",
+      "quem": 0
      }
     ]
    },
@@ -371,8 +380,9 @@
       "quem": 0
      },
      {
-      "faz": "mostra",
-      "na": "fotografou"
+      "faz": "tira",
+      "na": "fotografou",
+      "quem": 0
      }
     ]
    },
@@ -487,7 +497,7 @@
    },
    "_enq_shot": "crowd",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -552,7 +562,7 @@
    "titulo": true,
    "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta.",
    "encena": {
-    "sentido": "negativa",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "vence",

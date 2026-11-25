@@ -191,6 +191,11 @@
     "sentido": "afirmativa",
     "passos": [
      {
+      "faz": "examina",
+      "na": "cruzou",
+      "quem": 0
+     },
+     {
       "faz": "x_espera",
       "na": "esperou",
       "quem": 0
@@ -239,7 +244,7 @@
     ]
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -427,11 +432,11 @@
    "fachada": false,
    "_enq_shot": "wide",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "verde"
+      "na": "voltou"
      }
     ]
    },
@@ -592,7 +597,7 @@
     "n": 0
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",

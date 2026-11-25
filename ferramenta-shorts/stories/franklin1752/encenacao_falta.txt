@@ -1,5 +1,0 @@
-b0 leitura em RASCUNHO (gerada pela maquina): a IA tem que LER a frase, corrigir sentido/passos e apagar "rascunho"
-b4 leitura em RASCUNHO (gerada pela maquina): a IA tem que LER a frase, corrigir sentido/passos e apagar "rascunho"
-b6 leitura em RASCUNHO (gerada pela maquina): a IA tem que LER a frase, corrigir sentido/passos e apagar "rascunho"
-b7 leitura em RASCUNHO (gerada pela maquina): a IA tem que LER a frase, corrigir sentido/passos e apagar "rascunho"
-b8 leitura em RASCUNHO (gerada pela maquina): a IA tem que LER a frase, corrigir sentido/passos e apagar "rascunho"

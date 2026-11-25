@@ -8,9 +8,9 @@ b2 | two | -  | interior | - | -
 b3 | two | - tempestade | - | - | -
 b4 | group | - chuva | - | encena: prende (push) @7 (acao + som de efeito) | -
 b5 | close | - tempestade | interior | - | -
-b6 | orbit | - tempestade | batalha aberta com tiros, tropa, objeto na mao | encena: brilha (point) @11 (acao + som de efeito); encena: pula @12 (acao + som de efeito) | -
-b7 | two | -  | interior | - | -
-b8 | wide | - limpo | batalha aberta com tiros, tropa, placa: PARA-RAIOS | encena: vira (up) @2 (acao + som de efeito) | -
+b6 | orbit | - tempestade | batalha aberta com tiros, tropa, objeto na mao | encena: brilha (point) @11 (acao + som de efeito) | -
+b7 | two | -  | interior | encena: pensa (think) @2 (acao + som de efeito) | -
+b8 | wide | - limpo | batalha aberta com tiros, tropa, placa: PARA-RAIOS | - | -
 b9 | close | -  | interior | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque) | -
 b10 | close | -  | placa: COMENTE! | - | -
 

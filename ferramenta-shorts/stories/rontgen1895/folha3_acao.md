@@ -1,25 +1,25 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 11 - O Raio X de Röntgen
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.3s - 16 palavras - plano two
 > "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ROE pega/levanta o objeto | na palavra "tirou" (0.7s)
+  1) ROE acao do motor: tira | na palavra "tirou" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | tirou (0.7s) | ACAO: pega | levanta/segura | OK |
+| 1 | tirou (0.7s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
 | 3 | - | INTERACAO | aproxima-se | OK |
 | 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra tirou (0.7s): executa: levanta/segura
+- ACAO: tira na palavra tirou (0.7s): executa: tira foto (celular + flash)
 - EMOCAO: scared (a cena toda): executa: o rosto vira "scared" na palavra
 - INTERACAO (a cena toda): executa: aproxima-se
 - ATUACAO (a cena toda): executa: conversar
@@ -47,15 +47,21 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) ROE acao do motor: examina | na palavra "testando" (12.3s)
+  2) ROE acao do motor: solta | na palavra "soltava" (13.8s)
+  3) ROE acao do motor: brilha | na palavra "faíscas" (14.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | testando (12.3s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | soltava (13.8s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 3 | faíscas (14.2s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 4 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: examina na palavra testando (12.3s): executa: examina com lupa/microscopio/balanca
+- ACAO: x_solta na palavra soltava (13.8s): executa: solta/liberta + brilho
+- ACAO: brilha na palavra faíscas (14.2s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -63,29 +69,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ROE pega/levanta o objeto | na palavra "cobriu" (16.4s)
+  1) ROE acao do motor: examina | na palavra "cobriu" (16.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cobriu (16.4s) | ACAO: pega | levanta/segura | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra cobriu (16.4s): executa: levanta/segura
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b4 - 19.9s a 23.8s - 14 palavras - plano low
 > "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro."
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "tela" (22.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) ROE acao do motor: brilha | na palavra "brilhar" (23.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | brilhar (23.3s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
+| 2 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ACAO: brilha na palavra brilhar (23.3s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -111,16 +114,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) ROE fala apontando | na palavra "chamou" (31.2s)
-  2) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fotografou" (32.7s)
+  2) ROE acao do motor: tira | na palavra "fotografou" (32.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chamou (31.2s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 2 | fotografou (32.7s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 3 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ACAO: fala na palavra chamou (31.2s): braco estendido apontando para o objeto/lugar citado
+- ACAO: tira na palavra fotografou (32.7s): executa: tira foto (celular + flash)
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
@@ -144,7 +149,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b8 - 39.5s a 43.0s - 14 palavras - plano orbit
 > "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso."
 
-- LEITURA DA FRASE: sentido FATO
+- LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "notícia" (39.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -185,7 +190,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 ## Cena b10 - 49.6s a 54.0s - 17 palavras - plano crowd
 > "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
 
-- LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
+- LEITURA DA FRASE: sentido AFIRMATIVA
   1) ROE comemora a vitoria | na palavra "ganhou" (51.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
