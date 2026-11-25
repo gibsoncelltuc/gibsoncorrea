@@ -1,2 +1,8 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b9: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30%
+VISIBILIDADE: 7 FALHA(S)
+FALHA b0: objeto "kit/pea_green" saiu com 12% da altura da tela, a ficha de cena planejou 30%
+FALHA b2: objeto "kit/pea_green" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+FALHA b2: objeto "kit/pea_yellow" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+FALHA b3: objeto "kit/pea_yellow" saiu com 13% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/pea_yellow" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+FALHA b10: objeto "kit/pea_green" saiu com 14% da altura da tela, a ficha de cena planejou 30%
