@@ -21,3 +21,7 @@
 - b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
 - b9: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b6: objeto "kit/xray_plate" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 18:11 autocorrecao de visibilidade
+- b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
