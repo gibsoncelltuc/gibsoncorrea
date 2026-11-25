@@ -13,8 +13,8 @@ b5 | interior madeira | two | 1 | conversar | kit/stove | - | -
 b6 | interior madeira | two | 1 | reagir | kit/stove, kit/gosma | - | -
 b7 | interior madeira | two | 1 | comemorar | kit/stove, kit/borracha | - | -
 b8 | hall | orbit | 8 | discutir | - | - | -
-b9 | street | orbit | 21 | comemorar, batalha | kit/tires, kit/bola_couro, kit/stove, kit/borracha | - | -
-b10 | interior loja | two | 1 | conversar | kit/stove, kit/tires | - | -
+b9 | street | orbit | 21 | comemorar, batalha | kit/tires, kit/bola_couro, kit/borracha, kit/stove | - | -
+b10 | interior loja | two | 1 | conversar | kit/tires, kit/borracha | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/borracha

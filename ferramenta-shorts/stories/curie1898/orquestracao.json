@@ -12,13 +12,11 @@
   {
    "camera": "two",
    "personagens": [
-    "PES",
-    "JOR"
+    "PRO"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/curie_box",
-    "kit/marco_eiffel"
+    "kit/curie_box"
    ],
    "palavras": 13,
    "cena": "b0",
@@ -27,7 +25,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior pedra"
   },
   {
    "camera": "wide",
@@ -68,7 +66,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "group",
@@ -85,7 +83,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
@@ -95,7 +93,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/curie_box"
+    "kit/curie_box",
+    "kit/pechblenda"
    ],
    "palavras": 15,
    "cena": "b4",
@@ -104,7 +103,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "close",
@@ -122,7 +121,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "two",
@@ -139,7 +138,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior galpao"
   },
   {
    "camera": "orbit",
@@ -240,7 +239,7 @@
   {
    "camera": "close",
    "personagens": [
-    "PES"
+    "PRO"
    ],
    "multidao": 0,
    "objetos": [],

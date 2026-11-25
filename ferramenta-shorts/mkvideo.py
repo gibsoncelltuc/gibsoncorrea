@@ -1652,8 +1652,12 @@ def build_beat(k, b):
         T.setdefault('cx', round(sum(sl[i] for i in range(len(persons))) / len(persons), 2)); T.setdefault('cz', 1.2)
     if b.get('interior') and not b.get('quadro_manual'):   # 25/11 (Arquimedes): sala tem 7.8 m ate a parede da frente; camera mais longe fica FORA da sala e a borda da parede entra borrada tapando metade da tela
         _czi = float(b.get('cz', T.get('cz', 0)) or 0); _dmax = round(max(5.5, 7.3 - max(0.0, _czi)), 2)
+        _dorig = float(b.get('d0') or T.get('d0') or 0)
         for kk in ('d0', 'd1'):
             if (b.get(kk) or T.get(kk) or 0) > _dmax: T[kk] = _dmax if kk == 'd0' else round(_dmax * 0.94, 2); b.pop(kk, None)   # d1 um pouco menor: a camera ainda se aproxima
+        if _dorig > _dmax:   # camera mais perto = LENTE MAIS ABERTA na mesma proporcao: o quadro continua do mesmo tamanho (Curie: Pierre saia cortado)
+            import math as _m; _f0 = float(b.get('fov', T.get('fov', 44)) or 44)
+            T['fov'] = round(min(72.0, 2 * _m.degrees(_m.atan(_dorig / _dmax * _m.tan(_m.radians(_f0 / 2))))), 1); b.pop('fov', None)
     for kk in ('h', 'd0', 'd1', 'el', 'fov', 'az0', 'az1', 'cx', 'cz'):
         v = b.get(kk, T.get(kk))
         if v is not None: opts.append(f'{kk}: {num(v)}')

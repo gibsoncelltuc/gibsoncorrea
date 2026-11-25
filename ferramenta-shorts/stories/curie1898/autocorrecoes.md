@@ -30,3 +30,8 @@
 ## 24/11 22:27 autocorrecao de visibilidade
 - b0: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
 - b5: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 02:43 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
