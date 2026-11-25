@@ -169,8 +169,7 @@
    }
   },
   {
-   "shot": "wide",
-   "interior": "madeira",
+   "shot": "two",
    "who": [
     "MED:0:sad"
    ],
@@ -188,7 +187,24 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 2
+   "_auto_vis": 2,
+   "set": "loc_cidade",
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.8,
+     "stand",
+     1.0
+    ]
+   ],
+   "text": "RAIVA",
+   "cx": 0.3,
+   "cz": 0.3,
+   "h": 1.6,
+   "d0": 9.5,
+   "d1": 9.0,
+   "quadro_manual": true
   },
   {
    "shot": "two",
@@ -258,7 +274,23 @@
    "crowd": {
     "n": 0
    },
-   "quadro_manual": true
+   "quadro_manual": true,
+   "animals": [
+    [
+     "rabbit",
+     -1.7,
+     0.9,
+     "stand",
+     0.9
+    ],
+    [
+     "dog",
+     1.9,
+     0.9,
+     "stand",
+     0.9
+    ]
+   ]
   },
   {
    "shot": "wide",
@@ -293,7 +325,8 @@
    "cz": 0.2,
    "h": 1.6,
    "d0": 10.5,
-   "d1": 10.0
+   "d1": 10.0,
+   "fx": []
   },
   {
    "shot": "wide",
@@ -400,13 +433,11 @@
    "quadro_manual": true
   },
   {
-   "shot": "track",
-   "interior": "madeira",
+   "shot": "crowd",
    "who": [
     "MAE:0:relief",
     "JOS:0:smile"
    ],
-   "interacao": "reverencia",
    "bloco": "pagamento",
    "say": "Joseph sobreviveu, e a notícia correu o mundo.",
    "encena": {
@@ -418,7 +449,12 @@
      }
     ]
    },
-   "chega": false
+   "chega": false,
+   "set": "loc_cidade",
+   "crowd": {
+    "n": 10
+   },
+   "text": "NOTÍCIA NO MUNDO"
   },
   {
    "shot": "two",

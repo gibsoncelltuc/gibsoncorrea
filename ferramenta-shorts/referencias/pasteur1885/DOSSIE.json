@@ -10,6 +10,7 @@
    "hall",
    "interior loja",
    "interior madeira",
+   "loc_cidade",
    "street"
   ],
   "cenarios_trocados": []
@@ -33,18 +34,12 @@
   "kit/bancada",
   "kit/room_europa_shop",
   "kit/room_franca_wood",
-  "kit/room_verde_wood",
   "kit/seringa_pe",
   "kit/syringe",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Wooden",
-  "mk/Shelf_Small_Bottles",
-  "mk/Stool",
-  "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Workbench_Drawers"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur",

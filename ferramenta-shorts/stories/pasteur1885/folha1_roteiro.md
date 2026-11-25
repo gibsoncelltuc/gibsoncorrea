@@ -35,7 +35,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) angry -> expr + som de efeito
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: RAIVA
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.1 s)
@@ -80,7 +80,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: NOTÍCIA NO MUNDO
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~2.8 s)

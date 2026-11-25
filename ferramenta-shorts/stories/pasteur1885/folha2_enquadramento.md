@@ -24,10 +24,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - MAPA: FRANÇA (cobre a tela 1-2 s)
 
 ## b3: "Mordida de animal com raiva quase sempre matava."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano aberto (cenario inteiro)
+- LOCAL: loc_cidade; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MED no centro, expressao sad; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "RAIVA" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b4: "A vacina dele só tinha sido testada em animais."
 - LOCAL: sala de madeira; hora: day
@@ -60,10 +61,11 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@60
 
 ## b8: "Joseph sobreviveu, e a notícia correu o mundo."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: travelling (camera acompanha andando)
-- PERSONAGENS: MAE na esquerda, expressao relief; JOS na direita, expressao smile; sem multidao; acao: reverencia
+- LOCAL: loc_cidade; hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: MAE na esquerda, expressao relief; JOS na direita, expressao smile; multidao de 10 () ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TEXTO NA TELA: "NOTÍCIA NO MUNDO" flutuando no alto, na palavra 1 da frase
 
 ## b9: "Um químico arriscou tudo. E foi assim que..."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

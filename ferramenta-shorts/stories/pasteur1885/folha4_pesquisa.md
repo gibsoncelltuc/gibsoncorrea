@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1885 | Lugar: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur | Quando: julho de 1885, dia
 - HEROIS (objeto): kit/seringa_pe, kit/bancada
 - HEROIS (personagens): PAS, JOS
-- Cenarios: hall, interior loja, interior madeira, street
+- Cenarios: hall, interior loja, interior madeira, loc_cidade, street
 - Proibido pela epoca: caravela, carro dos anos 50, encouracado, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 

@@ -84,7 +84,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -167,12 +167,12 @@
    "cenario": "hall"
   },
   {
-   "camera": "track",
+   "camera": "two",
    "personagens": [
     "MAE",
     "JOS"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [],
    "palavras": 8,
    "cena": "b8",
@@ -181,7 +181,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
