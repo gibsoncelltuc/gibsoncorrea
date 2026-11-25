@@ -13,14 +13,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | OVNI? | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra cruzou (1.2s): executa: entra andando pela lateral
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b1 - 5.0s a 11.9s - 24 palavras - plano reveal
 > "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial."
@@ -37,13 +29,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | filmou (17.5s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: tira na palavra filmou (17.5s): executa: tira foto (celular + flash)
-- INTERACAO (a cena toda): executa: avanca e o outro recua
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b3 - 19.1s a 22.8s - 14 palavras - plano wide
 > "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar."
@@ -55,15 +40,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 3 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 4 | - | ATUACAO | reagir | OK |
 | 5 | - | PLACA | 3 MINUTOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra registrou (19.3s): segura o papel e mexe a mao como se escrevesse
-- ACAO: pega na palavra levava (21.1s): executa: levanta/segura
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b4 - 23.9s a 26.6s - 11 palavras - plano wide
 > "Ele viu pelo menos cinquenta e seis objetos brilhando em linha."
@@ -73,13 +49,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | viu (24.2s) | ACAO: olha | aponta/olha | OK |
 | 2 | brilhando (26.0s) | ACAO: brilha | o objeto brilha na palavra (ondas de luz + estrelas) | OK |
 | 3 | - | PLACA | 56 | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra viu (24.2s): braco estendido apontando para o objeto/lugar citado
-- ACAO: brilha na palavra brilhando (26.0s): executa: o objeto brilha na palavra (ondas de luz + estrelas)
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
 ## Cena b5 - 27.7s a 32.1s - 16 palavras - plano crowd
 > "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos."
@@ -89,13 +58,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | registrou (30.4s) | ACAO: escreve | escreve/assina | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 3 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: escreve na palavra registrou (30.4s): segura o papel e mexe a mao como se escrevesse
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
 
 ## Cena b6 - 33.4s a 36.7s - 12 palavras - plano two
 > "Jornais de vários países explicaram que não eram OVNIs, e sim satélites."
@@ -106,14 +68,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | MUNDO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra explicaram (34.4s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: conversar
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b7 - 38.2s a 41.5s - 11 palavras - plano two
 > "Os satélites ainda estavam juntos, em fila, logo depois do lançamento."
@@ -129,13 +83,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | espalhou (44.5s) | ACAO: chega | entra andando pela lateral | OK |
 | 2 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra espalhou (44.5s): executa: entra andando pela lateral
-- ATUACAO (a cena toda): executa: reagir
-- multidao de 10: parada, reagindo (neutra), sempre ATRAS dos personagens principais
-<!-- /FISICA -->
 
 ## Cena b9 - 47.8s a 53.2s - 22 palavras - plano two
 > "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas."
@@ -145,13 +92,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | olhar (48.9s) | ACAO: olha | aponta/olha | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra olhar (48.9s): braco estendido apontando para o objeto/lugar citado
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b10 - 54.7s a 58.0s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
@@ -160,10 +100,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | COMENTE! | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): executa: conversar
-- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
-<!-- /FISICA -->
 
