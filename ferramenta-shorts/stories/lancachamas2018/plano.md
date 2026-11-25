@@ -9,9 +9,9 @@ b3 | two | -  | interior, placa: "NÃO É UM LANÇA-CHAMAS" | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa | fogo (burst + som de tiro/explosao) | -
 b5 | two | -  | interior, placa: ALFÂNDEGA | - | -
 b6 | group | -  | interior | incêndio (burst + som de tiro/explosao) | -
-b7 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b7 | group | -  | batalha aberta com tiros, tropa | - | -
 b8 | two | -  | interior | encena: vence (up) @1 (acao + som de efeito) | -
 b9 | two | -  | placa: NÃO É LANÇA-CHAMAS | - | -
 
-Mistura de planos: close 3% | medio 73% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 2% | medio 77% | aberto 16% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

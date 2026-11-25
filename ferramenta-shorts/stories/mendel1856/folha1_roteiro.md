@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: Todas saíram amarelas, como se o verde tivesse sumido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

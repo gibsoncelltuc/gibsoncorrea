@@ -193,10 +193,7 @@
   },
   {
    "camera": "two",
-   "personagens": [
-    "ERA",
-    "BIB"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [],
    "palavras": 9,
@@ -212,7 +209,7 @@
     "som": "som em cada entrada"
    },
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_estudio"
   },
   {
    "camera": "two",

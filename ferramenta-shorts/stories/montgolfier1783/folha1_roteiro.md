@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
 
 ## Cena b0  (~3.1 s)
 - Narracao: Os primeiros passageiros de um balão não foram pessoas.
@@ -25,9 +25,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: - | mapa: FRANÇA
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b3  (~3.1 s)
 - Narracao: Viram que fumaça quente fazia sacos de papel subirem.

@@ -15,7 +15,7 @@ b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b8 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b9 | loc_campo | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/stick, kit/rocket | - | -
 
-OBJETO HEROI: kit/globe
+OBJETO HEROI: kit/stick
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b6
 Interacoes entre personagens: b0 o outro se aproxima, b4 insiste, b9 vai ate o outro
 

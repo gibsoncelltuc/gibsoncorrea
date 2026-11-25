@@ -16,11 +16,6 @@
    "cena 8",
    "jungle",
    "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
   ]
  ],
  "metricas": {
@@ -69,7 +64,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "POV",
     "POV"
@@ -83,7 +78,13 @@
    "frase": "Em 1783, os irmãos Montgolfier faziam papel.",
    "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
@@ -179,8 +180,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
-    "kit/fire"
+    "kit/balloon"
    ],
    "palavras": 9,
    "cena": "b7",

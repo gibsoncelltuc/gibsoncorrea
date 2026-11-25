@@ -8,11 +8,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Um homem mediu o tamanho da Terra usando só uma vara."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) ERA acao do motor: examina | na palavra "mediu" (0.5s)
+  1) ERA acao do motor: examina | na palavra "mediu" (0.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mediu (0.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 1 | mediu (0.7s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | UMA VARA = O PLANETA | OK |
@@ -51,6 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | EGITO | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
@@ -67,6 +68,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
@@ -109,6 +111,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+<!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
@@ -132,9 +135,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | encontrou (43.4s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b9 - 32.2s a 35.2s - 9 palavras - plano two
 > "Sem foguete, só uma sombra. E foi assim que..."

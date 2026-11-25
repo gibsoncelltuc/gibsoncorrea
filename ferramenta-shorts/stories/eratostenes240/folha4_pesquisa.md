@@ -36,6 +36,7 @@ mecanismo | A conta deu quase o tamanho real da Terra. | tamanho terra / stick d
 ## Explicacoes (como funciona, com fonte)
 - Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)
 - Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)
+- Eratostenes: sombra em Alexandria de 7,2 graus (1/50 do circulo), distancia Siena-Alexandria de 5.000 estadios, circunferencia ~250.000 estadios (~39.400 km); valor real 40.075 km (Cleomedes, De motu circulari).
 
 ## Fontes visuais do roteirista
 - https://en.wikipedia.org/wiki/Eratosthenes

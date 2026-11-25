@@ -88,19 +88,7 @@
     ]
    },
    "text": "PAÍS DO BITCOIN",
-   "titulo": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "shot": "two",
@@ -118,6 +106,10 @@
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "promessa",
    "say": "E o final dessa aposta ninguém esperava.",
    "encena": {
@@ -128,24 +120,7 @@
       "na": "aposta"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "close",
@@ -252,6 +227,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 23.0,
+   "d1": 21.9,
    "bloco": "escalada",
    "say": "O governo até minerava bitcoin com a energia de um vulcão.",
    "encena": {
@@ -262,49 +242,7 @@
       "na": "minerava"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o volcano (alvo z -3.6, camera a 21.9 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/volcano",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rack_mineracao",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rack_mineracao",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rack_mineracao",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/rack_mineracao",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 23.0,
-   "d1": 21.9
+   }
   },
   {
    "shot": "two",
@@ -343,6 +281,10 @@
      "dur": 1.6
     }
    },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "escalada",
    "say": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
    "encena": {
@@ -353,24 +295,7 @@
       "na": "despencou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "explica": {
@@ -441,18 +366,6 @@
       "na": "lucro"
      }
     ]
-   },
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -495,18 +408,6 @@
      {
       "faz": "mostra",
       "na": "Maluquice"
-     }
-    ]
-   },
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/bitcoin",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }

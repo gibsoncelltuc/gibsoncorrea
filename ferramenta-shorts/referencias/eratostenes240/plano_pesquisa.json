@@ -97,19 +97,11 @@
   },
   {
    "tipo": "heroi",
-   "item": "globe",
-   "consultas": [
-    "antique terrestrial globe 17th century",
-    "vara",
-    "Eratóstenes Mede a Terra"
-   ]
-  },
-  {
-   "tipo": "heroi",
    "item": "stick",
    "consultas": [
     "wooden stick shadow on desert sand",
-    "stick"
+    "vara",
+    "Eratóstenes Mede a Terra"
    ]
   },
   {

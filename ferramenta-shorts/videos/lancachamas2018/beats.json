@@ -101,31 +101,7 @@
     ]
    },
    "text": "NÃO É LANÇA-CHAMAS",
-   "titulo": true,
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/fire",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "who": [
@@ -172,24 +148,6 @@
      {
       "faz": "mostra",
       "na": "nome"
-     }
-    ]
-   },
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/extinguisher",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -251,30 +209,6 @@
       "na": "lançou"
      }
     ]
-   },
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tunel_boring",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -334,24 +268,6 @@
       "na": "lança-chamas"
      }
     ]
-   },
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -385,6 +301,10 @@
    "set": "loc_deserto",
    "impact": true,
    "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "escalada",
    "say": "Acontece que ele soltava fogo de verdade.",
    "encena": {
@@ -396,30 +316,7 @@
       "na": "Acontece"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_deserto",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "who": [
@@ -485,6 +382,10 @@
     ]
    ],
    "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "escalada",
    "say": "E vinha com um extintor de incêndio junto.",
    "encena": {
@@ -495,24 +396,7 @@
       "na": "extintor"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e extinguisher juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/extinguisher",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "who": [
@@ -638,30 +522,6 @@
       "na": "mentia"
      }
     ]
-   },
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/flamethrower",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/fire",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   }
  ],
@@ -704,6 +564,5 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
- "loop_frase_ok": true,
- "max_wide": 3
+ "loop_frase_ok": true
 }

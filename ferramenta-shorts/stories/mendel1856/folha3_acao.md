@@ -10,9 +10,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "ervilhas" (1.1s)
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: examina | na palavra "descobriu" (2.4s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | descobriu (1.5s) | EFEITO: ring | onda + som | OK |
@@ -45,9 +42,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cuidava" (7.8s)
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Brno" (7.8s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | REPÚBLICA TCHECA | OK |
@@ -63,10 +57,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) MEN acao do motor: examina | na palavra "cruzou" (10.0s)
   2) MEN acao do motor: espera | na palavra "cruzou" (10.0s)
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) MEN acao do motor: examina | na palavra "cruzou" (11.6s)
-  2) MEN acao do motor: espera | na palavra "esperou" (14.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

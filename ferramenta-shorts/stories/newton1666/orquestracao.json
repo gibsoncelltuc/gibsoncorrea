@@ -1,13 +1,7 @@
 {
  "id": "newton1666",
  "ano": 1666,
- "cenarios_trocados": [
-  [
-   "cena 2",
-   "medieval",
-   "loc_campo"
-  ]
- ],
+ "cenarios_trocados": [],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -93,7 +87,8 @@
   {
    "camera": "wide",
    "personagens": [
-    "NEW"
+    "NEW",
+    "AMI"
    ],
    "multidao": 6,
    "objetos": [
@@ -136,11 +131,11 @@
    "cenario": "countryside"
   },
   {
-   "camera": "orbit",
+   "camera": "close",
    "personagens": [
     "NEW"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/apple",
     "nature/tree_oak"

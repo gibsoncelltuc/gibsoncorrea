@@ -1,6 +1,0 @@
-VISIBILIDADE: 5 FALHA(S)
-FALHA b9: objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b0: objeto "kit/seringa_pe" saiu com 15% da altura da tela, a ficha de cena planejou 32%
-FALHA b7: objeto "kit/bancada" saiu com 14% da altura da tela, a ficha de cena planejou 32%
-FALHA b7: objeto "kit/seringa_pe" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-FALHA b9: objeto "kit/bancada" saiu com 8% da altura da tela, a ficha de cena planejou 32%

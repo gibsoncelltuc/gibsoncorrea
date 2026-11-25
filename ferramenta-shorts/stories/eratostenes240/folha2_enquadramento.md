@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um homem mediu o tamanho da Terra usando só uma vara."
 - LOCAL: praia / palacio; hora: desert
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stick juntos (camera a 11.5 m)
 - PERSONAGENS: ERA (cientista) na esquerda, expressao smile; BIB (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/stick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "UMA VARA = O PLANETA" flutuando no alto, na palavra 1 da frase

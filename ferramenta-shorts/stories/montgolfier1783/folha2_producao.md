@@ -21,7 +21,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - SOM: ding@30
 - TEXTO NA TELA: "OVELHA, PATO E GALO" flutuando no alto, na palavra 1 da frase
-- TAKES: 1 take continuo (2.3 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.0-1.5 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.5-3.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b1 - Foram uma ovelha, um pato e um galo.
@@ -40,15 +42,15 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b2 - Em 1783, os irmãos Montgolfier faziam papel.
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): irmaos
 - RISCOS: nenhum
@@ -60,7 +62,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
-- TAKES: 1 take continuo (1.7 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b3 - Viram que fumaça quente fazia sacos de papel subirem.
@@ -81,9 +83,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - OBJETO kit/campfire: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - SOM: whoosh@40
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (8.4-10.1 s): mesmo angulo
-  - take 2 (10.1-11.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (8.9-10.4 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (10.4-11.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b4 - Fizeram um balão gigante de pano e papel.
@@ -101,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/balloon no centro, manobra "parado"
 - PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (1.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+- TAKES: 1 take de explicacao (2.6 s): objeto no centro do estudio, rotulos entrando nas palavras
 <!-- /FICHA -->
 
 ## Cena b5 - Ninguém sabia se dava para respirar lá em cima.
@@ -120,9 +122,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NOB (nobre) na esquerda, expressao suspicious; ETI (comerciante) na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (14.3-16.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (16.0-17.7 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (15.2-16.6 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (16.6-18.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que o balão subiu de verdade, com os bichos dentro.
@@ -145,9 +147,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
 - SOM: whoosh@20
 - SOM: ding@50
-- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
-  - take 1 (18.1-19.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (19.7-21.3 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (18.5-20.4 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (20.4-22.2 s): mesmo angulo
 <!-- /FICHA -->
 
 ## Cena b7 - Oito minutos depois, pousou, e os bichos estavam vivos.
@@ -167,8 +169,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: ETI (comerciante) no centro, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (21.6-23.1 s): mesmo angulo
-  - take 2 (23.1-24.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 1 (22.6-24.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (24.1-25.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
 ## Cena b8 - Dois meses depois, um balão levou dois homens.
@@ -192,9 +194,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - SOM: ding@20
 - SOM: ding@60
 - TEXTO NA TELA: "SOBRE PARIS" flutuando no alto, na palavra 1 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
-  - take 1 (24.8-26.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (26.6-28.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b9 - Ninguém quis ser cobaia. E foi assim que...
@@ -242,6 +242,6 @@ kit/balloon_air | b6, b8 | pronto | conferir na folha de contato se le bem; se p
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

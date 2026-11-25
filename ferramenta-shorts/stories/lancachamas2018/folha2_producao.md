@@ -160,10 +160,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b7 - Vinte mil unidades esgotaram em poucos dias.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): POV (variante 0, expressao shock); POV (variante 1, expressao grin) | multidao: 16 de POV
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Animacao: reagir | interacao: vai ate o outro | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_hollywood
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -222,8 +222,8 @@ nature/picket_fence | b8 | pronto | conferir na folha de contato se le bem; se p
 
 
 ## Video inteiro
-- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 3 | mistura: close 3% | medio 73% | aberto 19% | detalhe 5%
-- Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b8 pular, b9 susto
+- Objeto heroi: kit/flamethrower | grandes momentos: b4, b7 | planos abertos: 2 | mistura: close 2% | medio 77% | aberto 16% | detalhe 5%
+- Interacoes: b0 entregar, b1 aproxima-se, b3 avanca e o outro recua, b5 o outro se aproxima, b6 insiste, b7 vai ate o outro, b8 pular, b9 susto
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

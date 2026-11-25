@@ -12,13 +12,7 @@
    "loc_campo",
    "street"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 2",
-    "medieval",
-    "loc_campo"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "carro antigo",

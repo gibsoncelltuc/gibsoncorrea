@@ -10,9 +10,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "maçã" (0.4s)
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (2.6s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | PLACA | LENDA? | OK |
@@ -28,9 +25,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (5.9s)
 
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Cambridge" (8.6s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
@@ -40,9 +34,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "fechou" (10.0s)
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) NEW chega na cena | na palavra "voltou" (12.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -83,9 +74,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) NEW mao no queixo, pensando | na palavra "pensando" (17.0s)
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) NEW mao no queixo, pensando | na palavra "pensando" (17.3s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | pensando (17.0s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
@@ -100,9 +88,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
   1) objeto deixa cair/joga o objeto | na palavra "caiu" (18.9s)
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto deixa cair/joga o objeto | na palavra "caiu" (23.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -125,9 +110,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)
   1) NEW fala apontando | na palavra "perguntou" (21.5s)
 
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) NEW fala apontando | na palavra "contou" (44.8s)
-
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | perguntou (21.5s) | ACAO: fala | aponta explicando | OK |
@@ -146,9 +128,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 - LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
   1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Lua" (27.4s)
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "maçã" (48.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
