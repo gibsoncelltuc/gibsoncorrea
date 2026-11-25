@@ -32,9 +32,9 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 ## Cena b3  (~3.8 s)
 - Narracao: Um americano comeu uma fatia de melancia e não quis pagar.
 - Som ambiente: birds
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_come (eat) @2 -> acao + som de efeito
-- Efeito visual marcado: -
+- Efeitos sonoros marcados: boing@60
+- Efeito + som nas palavras-chave: encena: x_come (point) @2 -> acao + som de efeito; encena: sai (point) @2 -> acao + som de efeito
+- Efeito visual marcado: stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Narracao: Os viajantes se trancaram na estação de trem.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ESTAÇÃO DE TREM
 - Funcao na historia: GRANDE MOMENTO

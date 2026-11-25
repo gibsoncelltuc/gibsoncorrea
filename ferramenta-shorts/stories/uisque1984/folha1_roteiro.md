@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: arctic |
 - Narracao: Acontece que os dinamarqueses voltaram e puseram a bandeira deles.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: chega (point) @6 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO

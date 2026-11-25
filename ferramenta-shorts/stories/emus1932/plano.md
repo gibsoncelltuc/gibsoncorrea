@@ -9,7 +9,7 @@ b3 | two | -  | tropa, interior, objeto na mao | pedido: plano medio dos dois, u
 b4 | wide | -  | tropa, placa: 10.000 BALAS | - | -
 b5 | orbit | -  | batalha aberta com tiros, tropa, animais | encena: atira @8 (acao + som de efeito) | -
 b6 | wide | -  | - | encena: pega (lift) @4 (acao + som de efeito) | -
-b7 | wide | -  | tropa, animais, placa: HA HA HA | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: sai (point) @9 (acao + som de efeito) | -
+b7 | wide | -  | tropa, animais, placa: HA HA HA | (rosto) laugh (expr + som de efeito); riu (stars + som de sino); encena: x_ri (up) @9 (acao + som de efeito); encena: sai (point) @9 (acao + som de efeito) | -
 b8 | crowd | -  | batalha aberta com tiros, tropa, animais, placa: 6 DIAS | - | -
 b9 | reveal | desert  | animais, placa: EXÉRCITO × EMUS | - | -
 

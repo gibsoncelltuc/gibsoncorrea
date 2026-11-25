@@ -8,7 +8,7 @@ b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @4 (acao + som de efeito); desembarque: navios chegando e tropa descendo na praia (acao + som de efeito) | -
 b5 | two | -  | objeto na mao | - | -
-b6 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
+b6 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega (point) @6 (acao + som de efeito) | -
 b7 | two | -  | objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | encena: x_aperta (point) @3 (acao + som de efeito) | -
 b9 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | - | -

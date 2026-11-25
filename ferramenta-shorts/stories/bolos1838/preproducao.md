@@ -5,14 +5,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | street | two | 2 | reagir, INTERAGEM: aproxima-se, alguem chega andando | kit/marco_ulua, kit/cake_table | - | -
-b1 | interior madeira | wide | 2 | parados (so fala e pisca) | kit/cake_table | - | -
+b1 | street | wide | 2 | parados (so fala e pisca) | kit/marco_ulua, kit/cake_table | - | -
 b2 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/marco_ulua, kit/cake_table, buildings/shop, kit/stall | - | -
-b3 | interior loja | two | 2 | pega, INTERAGEM: o outro se aproxima | kit/cake_table, kit/chest, kit/barrel_r | - | -
+b3 | interior loja | two | 2 | pega, INTERAGEM: o outro se aproxima, alguem chega andando | kit/cake_table, kit/chest, kit/barrel_r | - | -
 b4 | interior pedra | two | 2 | conversar, INTERAGEM: pedir | - | paper | -
 b5 | harbor | wide | 12 | discutir | kit/marco_ulua, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | crowd | 49 | batalha | kit/marco_ulua, cannon | - | -
 b7 | interior pedra | two | 2 | encena, INTERAGEM: entregar | - | paper, coin | -
-b8 | street | two | 2 | reagir, INTERAGEM: insiste, alguem chega andando | - | - | -
+b8 | street | two | 2 | reagir, INTERAGEM: insiste, alguem chega andando | kit/cake_table | - | -
 
 OBJETO HEROI: kit/cake_table
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 1  << AVISO: menos de 2 -> b6

@@ -165,13 +165,13 @@
    "acao": "pega",
    "shot_lock": true,
    "bloco": "prova",
-   "say": "Ele disse que oficiais mexicanos saquearam tudo.",
+   "say": "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "saquearam"
+      "na": "mexicanos"
      }
     ]
    }
@@ -294,7 +294,7 @@
     "march": false
    },
    "bloco": "loop",
-   "say": "Esse dinheiro nunca chegou. E foi assim que...",
+   "say": "Esse dinheiro dos bolos nunca chegou. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [

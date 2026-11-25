@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 31 acoes catalogadas, 31 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.5s - 10 palavras - plano two
@@ -47,8 +47,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comeu (10.3s) | ACAO: x_come | leva a comida a boca | OK |
-| 2 | - | INTERACAO | empurrar | OK |
-| 3 | - | ATUACAO | reagir | OK |
+| 2 | comeu (10.3s) | ACAO: sai | sai andando pela lateral | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b4 - 12.5s a 15.0s - 10 palavras - plano group
 > "O vendedor cobrou. O viajante riu e sacou uma arma."
@@ -85,9 +86,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | ATUACAO | discutir | OK |
-| 3 | - | PLACA | ESTAÇÃO DE TREM | OK |
+| 1 | trancaram (19.7s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 3 | - | ATUACAO | discutir | OK |
+| 4 | - | PLACA | ESTAÇÃO DE TREM | OK |
 
 ## Cena b7 - 21.3s a 23.8s - 9 palavras - plano two
 > "Acontece que mais de quinze pessoas morreram naquele dia."

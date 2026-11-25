@@ -8,10 +8,10 @@ b2 | two | -  | interior, mapa | - | -
 b3 | crowd | -  | tropa, placa: 30.000 | encena: chega (point) @3 (acao + som de efeito) | -
 b4 | two | -  | tropa | - | -
 b5 | crowd | -  | batalha aberta com tiros, tropa | fugiu (dust + som de impacto); encena: corre @10 (acao + som de efeito) | -
-b6 | two | -  | tropa, objeto na mao | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
+b6 | two | -  | tropa, objeto na mao | (rosto) laugh (expr + som de efeito); festa (stars + som de sino); encena: x_ri (up) @2 (acao + som de efeito) | -
 b7 | two | -  | tropa, placa: PORTA DE BOLONHA, objeto na mao | encena: pega (lift) @1 (acao + som de efeito) | -
 b8 | close | -  | placa: TORRE GHIRLANDINA | - | -
 b9 | two | -  | placa: GUERRA DO BALDE | prêmio (stars + som de sino) | -
 
-Mistura de planos: close 16% | medio 61% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 16% | medio 58% | aberto 15% | detalhe 11%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

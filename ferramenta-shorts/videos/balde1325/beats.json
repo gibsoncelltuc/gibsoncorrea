@@ -260,7 +260,8 @@
      {
       "faz": "x_ri",
       "na": "festa",
-      "quem": 1
+      "quem": 1,
+      "forcar": true
      }
     ]
    }

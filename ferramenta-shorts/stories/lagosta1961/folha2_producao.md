@@ -84,8 +84,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Nenhum tiro, só uma briga sobre um bicho. E foi assim que...
 - Cenario: harbor | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): BRA (variante 0, expressao angry) | multidao: 0 de PES
 - Animacao: discutir
 - Objetos/modelos: crate, kit/lobster
@@ -107,7 +107,7 @@ vehicles/airplane | b6 | pronto | conferir na folha de contato se le bem; se par
 
 
 ## Video inteiro
-- Objeto heroi: kit/lobster | grandes momentos: b5 | planos abertos: 2 | mistura: close 11% | medio 71% | aberto 12% | detalhe 6%
+- Objeto heroi: kit/lobster | grandes momentos: b5 | planos abertos: 2 | mistura: close 11% | medio 68% | aberto 12% | detalhe 9%
 - Interacoes: b7 entregar
 - RISCOS GERAIS: nenhum
 

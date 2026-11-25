@@ -12,5 +12,5 @@ b6 | two | -  | tropa, placa: NAVIOS E AVIÕES | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | noite  | tropa, placa: GUERRA DA LAGOSTA | - | -
 
-Mistura de planos: close 11% | medio 71% | aberto 12% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 11% | medio 68% | aberto 12% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

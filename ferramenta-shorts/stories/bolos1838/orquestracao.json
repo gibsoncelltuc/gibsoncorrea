@@ -37,7 +37,8 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/cake_table"
+    "kit/cake_table",
+    "kit/marco_ulua"
    ],
    "palavras": 8,
    "cena": "b1",
@@ -46,7 +47,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "street"
   },
   {
    "camera": "two",
@@ -82,9 +83,9 @@
     "kit/cake_table",
     "kit/chest"
    ],
-   "palavras": 7,
+   "palavras": 12,
    "cena": "b3",
-   "frase": "Ele disse que oficiais mexicanos saquearam tudo.",
+   "frase": "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -177,10 +178,12 @@
     "OFI"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 8,
+   "objetos": [
+    "kit/cake_table"
+   ],
+   "palavras": 10,
    "cena": "b8",
-   "frase": "Esse dinheiro nunca chegou. E foi assim que...",
+   "frase": "Esse dinheiro dos bolos nunca chegou. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

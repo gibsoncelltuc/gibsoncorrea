@@ -13,5 +13,5 @@ b7 | wide | -  | batalha aberta com tiros, tropa, placa: GUERRA | atacaram (ring
 b8 | two | -  | objeto na mao | - | -
 b9 | two | -  | placa: ORELHA = GUERRA | - | -
 
-Mistura de planos: close 10% | medio 70% | aberto 15% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 10% | medio 68% | aberto 15% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

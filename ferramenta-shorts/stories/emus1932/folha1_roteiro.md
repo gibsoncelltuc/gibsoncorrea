@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: outback | 
 - Narracao: O major comparou os emus a tanques. A imprensa riu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: sai (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) laugh -> expr + som de efeito; riu -> stars + som de sino; encena: x_ri (up) @9 -> acao + som de efeito; encena: sai (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: HA HA HA
 - Funcao na historia: desenvolvimento

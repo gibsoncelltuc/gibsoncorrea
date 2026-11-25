@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 9 cenas, 84 palavras (~29 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: França e México entraram em guerra por causa de uma confeitaria.
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: MÉXICO
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~2.4 s)
-- Narracao: Ele disse que oficiais mexicanos saquearam tudo.
+## Cena b3  (~4.1 s)
+- Narracao: Ele disse que oficiais mexicanos entraram na loja e comeram os doces.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50
 - Efeito + som nas palavras-chave: -
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~2.8 s)
-- Narracao: Esse dinheiro nunca chegou. E foi assim que...
+## Cena b8  (~3.4 s)
+- Narracao: Esse dinheiro dos bolos nunca chegou. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

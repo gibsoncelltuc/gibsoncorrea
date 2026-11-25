@@ -331,7 +331,8 @@
      {
       "faz": "chega",
       "na": "puseram",
-      "quem": 0
+      "quem": 0,
+      "forcar": true
      }
     ]
    },

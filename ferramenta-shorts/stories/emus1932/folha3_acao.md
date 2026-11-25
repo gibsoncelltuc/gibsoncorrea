@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Guerras Inusitadas EP 02 - A Guerra dos Emus
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 26 acoes catalogadas, 26 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 2.2s - 7 palavras - plano two
@@ -96,10 +96,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | riu (27.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (27.8s) | ACAO: sai | sai andando pela lateral | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | ATUACAO | comemorar | OK |
-| 5 | - | PLACA | HA HA HA | OK |
+| 2 | riu (27.8s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | riu (27.8s) | ACAO: sai | sai andando pela lateral | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | HA HA HA | OK |
 
 ## Cena b8 - 28.1s a 30.7s - 8 palavras - plano crowd
 > "Seis dias, milhares de balas, poucos emus abatidos."

@@ -94,8 +94,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Jenkins nunca recuperou a orelha. E foi assim que...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): JEN (variante 0, expressao shock); ESP (variante 0, expressao smug)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/ear_jar
@@ -112,7 +112,7 @@ ship | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 70% | aberto 15% | detalhe 5%
+- Objeto heroi: kit/ear_jar | grandes momentos: b3, b7 | planos abertos: 2 | mistura: close 10% | medio 68% | aberto 15% | detalhe 7%
 - Interacoes: b0 discutir, b1 avanca e o outro recua, b3 empurrar, b4 cochichar, b5 susto, b6 cochichar, b8 entregar, b9 discutir
 - RISCOS GERAIS: nenhum
 

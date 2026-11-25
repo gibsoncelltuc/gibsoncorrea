@@ -37,8 +37,8 @@
   [
    2,
    "prova",
-   "Ele disse que oficiais mexicanos saquearam tudo.",
-   "saquearam",
+   "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
+   "mexicanos",
    {
     "encena_antiga": true
    }
@@ -76,7 +76,7 @@
   [
    0,
    "loop",
-   "Esse dinheiro nunca chegou. E foi assim que...",
+   "Esse dinheiro dos bolos nunca chegou. E foi assim que...",
    "dinheiro",
    {}
   ]
