@@ -93,27 +93,24 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "ETI"
-   ],
+   "camera": "two",
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
-    "kit/fire",
-    "kit/marco_versalhes"
+    "kit/fire"
    ],
    "palavras": 13,
    "cena": "b3",
    "frase": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
-   "classe": "chave",
-   "sujeito": "personagem",
+   "classe": "explicativa",
+   "sujeito": "objeto",
    "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
+    "corpo": "kit/balloon (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
    },
    "acoes_faltando": [],
    "cenario": "loc_campo"
@@ -148,14 +145,20 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "transicao",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_patio"
   },
   {
-   "camera": "orbit",
+   "camera": "crowd",
    "personagens": [
     "REI",
     "RAI"

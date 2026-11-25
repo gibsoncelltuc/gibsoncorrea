@@ -26,12 +26,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: whoosh@40
 
 ## b3: "Então fizeram um balão gigante de pano e papel, cheio de ar quente."
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: ETI (comerciante) no centro, expressao grin; sem multidao; acao: conversar
-- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO kit/fire: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 6.6 m de altura x 4.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/balloon no centro, manobra "parado"
+- PASSOS NA TELA: -
 
 ## b4: "Só que ninguém sabia se dava para respirar lá em cima."
 - LOCAL: sala de madeira; hora: day

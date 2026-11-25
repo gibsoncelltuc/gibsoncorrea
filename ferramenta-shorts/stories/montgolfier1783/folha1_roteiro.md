@@ -31,12 +31,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b3  (~4.5 s)
 - Narracao: Então fizeram um balão gigante de pano e papel, cheio de ar quente.
-- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
 ## Cena b4  (~3.8 s)
 - Narracao: Só que ninguém sabia se dava para respirar lá em cima.
@@ -49,12 +49,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b5  (~5.5 s)
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b6  (~5.2 s)
 - Narracao: Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão.

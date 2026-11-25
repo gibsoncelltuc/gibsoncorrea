@@ -203,10 +203,7 @@
   },
   {
    "shot": "wide",
-   "who": [
-    "ETI:0:grin"
-   ],
-   "acao": "conversar",
+   "who": [],
    "props": [
     [
      "kit/balloon",
@@ -234,7 +231,7 @@
     "n": 0
    },
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
@@ -261,16 +258,27 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -3.0,
-   "h": 4.5,
-   "d0": 22.0,
-   "d1": 21.0,
-   "quadro_manual": true,
    "set": "loc_campo",
    "fx": [
     "puff@40"
-   ]
+   ],
+   "explica": {
+    "objeto": "kit/balloon",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "AR QUENTE SOBE",
+      "topo",
+      "quente"
+     ],
+     [
+      "BALAO DE PANO E PAPEL",
+      "baixo",
+      "balão"
+     ]
+    ]
+   },
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -300,17 +308,23 @@
     [
      "sheep",
      -0.5,
-     -0.8
+     -3.8,
+     "stand",
+     1.6
     ],
     [
      "duck",
      0.5,
-     -0.9
+     -3.9,
+     "stand",
+     1.6
     ],
     [
      "rooster",
      0.0,
-     -1.2
+     -4.3,
+     "stand",
+     1.6
     ]
    ],
    "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
@@ -318,7 +332,7 @@
     [
      "kit/balloon",
      0.0,
-     -0.9,
+     -4.0,
      4.5,
      {
       "fixo": true
@@ -352,11 +366,11 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.7,
-   "h": 1.0,
-   "d0": 5.5,
-   "d1": 5.0,
+   "cx": 0.4,
+   "cz": -2.0,
+   "h": 1.4,
+   "d0": 9.0,
+   "d1": 8.0,
    "quadro_manual": true
   },
   {
@@ -582,7 +596,7 @@
    "titulo": true,
    "say": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
    "fachada": false,
-   "detalhe": true,
+   "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",

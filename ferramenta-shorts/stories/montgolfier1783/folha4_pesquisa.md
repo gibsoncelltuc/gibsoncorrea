@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Os Primeiros Passageiros do Céu
 - Epoca: 1783 | Lugar: Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris | Quando: 19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris
 - HEROIS (objeto): kit/balloon
-- HEROIS (personagens): ETI, JOS
+- HEROIS (personagens): JOS, ETI
 - Cenarios: interior madeira, loc_campo, loc_patio, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 4.5: pequeno demais)
@@ -28,6 +28,7 @@ objeto | fogueira de palha | fogueira de palha / fogueira de palha 1783 | SEM RE
 heroi | balloon | balao de papel e pano azul com ornamentos dourados / Os Primeiros Passageiros do Céu | 2006 Ojiya balloon festival night 004.jpg (referencias/montgolfier1783/prints/balloon_25cd6e.jpg); Cappadocia Balloon Inflating Wikimedia Commons.JPG (referencias/montgolfier1783/prints/balloon_53280b.jpg); Inside of a hot air balloon.jpg (referencias/montgolfier1783/prints/balloon_7ba965.jpg)
 epoca | balao da epoca | hot air balloon 1783 / hot air balloon | 1783 balloonj.jpg (referencias/montgolfier1783/prints/balao_da_epoca_6b532b.jpg); Mongolfier brothers' hot air balloon from 1783.jpg (referencias/montgolfier1783/prints/balao_da_epoca_b4b3bb.jpg); Wonderful Balloon Ascents, 1870 - Ascent of the 19 (referencias/montgolfier1783/prints/balao_da_epoca_6cb94e.jpg)
 epoca | fabrica da epoca | factory 1783 / factory | WomanFactory1940s.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_71260e.jpg); Sandakan Sabah Plywood-Factory-23.jpg (referencias/montgolfier1783/prints/fabrica_da_epoca_d26e53.jpg); Photo of Espanya Industrial factory, Sants, Barcel (referencias/montgolfier1783/prints/fabrica_da_epoca_bbd3d0.jpg)
+mecanismo | Então fizeram um balão gigante de pano e papel, cheio de ar quente. | entao fizeram balao gigante papel cheio quente / balloon diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)
