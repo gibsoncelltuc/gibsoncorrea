@@ -49,12 +49,12 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
     "DAR",
     "MAR"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/finch",
     "kit/navio_fragata"
@@ -132,7 +132,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "DAR",
     "GOU"
@@ -194,18 +194,18 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "DAR"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/finch"
    ],
    "palavras": 11,
    "cena": "b9",
    "frase": "No fim, o erro das etiquetas virou um acerto de bico.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

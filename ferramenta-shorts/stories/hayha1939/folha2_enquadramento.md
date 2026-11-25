@@ -5,7 +5,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b0: "Um fazendeiro baixinho virou o soldado mais temido de uma guerra inteira."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic; clima: neve
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: FIN na esquerda, expressao stern; SOV na direita, expressao shock; sem multidao; acao: batalha
+- PERSONAGENS: FIN na esquerda, expressao stern; SOV na direita, expressao shock; multidao de 14 (SOV) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b1: "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia."
@@ -62,7 +62,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b8: "Em março de mil novecentos e quarenta, uma bala atingiu o rosto dele. Ele sobreviveu, e acordou no dia em que a guerra terminou."
 - LOCAL: hospital; hora: arctic
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao nervous; sem multidao; acao: fala/gesto
+- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b9: "Viveu até os noventa e seis anos, e nunca se achou herói. Dizia que só tinha feito o seu trabalho."

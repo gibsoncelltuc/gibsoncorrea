@@ -15,8 +15,8 @@ b9 | orbit | -  | batalha aberta com tiros | (rosto) sad (expr + som de efeito);
 b10 | group | -  | - | - | -
 b11 | two | -  | tropa | - | -
 b12 | wide | -  | tropa, placa: PREJUÍZO → LUCRO | - | -
-b13 | close | -  | - | - | -
+b13 | two | -  | - | - | -
 b14 | close | -  | placa: COMENTE! | - | -
 
-Mistura de planos: close 18% | medio 54% | aberto 24% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 15% | medio 57% | aberto 24% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 5 | dentro do padrao do canal

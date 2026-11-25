@@ -161,19 +161,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (1): GOO (variante 0, expressao surprised)
+- Personagens principais (1): GOO (variante 0, expressao surprised, segura borracha)
 - Animacao: comemorar
-- Objetos/modelos: kit/stove, kit/borracha
+- Objetos/modelos: kit/stove
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): borracha
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: GOO no centro, expressao surprised; sem multidao; acao: comemorar
-- OBJETO kit/borracha: FRENTE, centro (objeto principal da cena); tamanho na tela: 5% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.4 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-- OBJETO kit/stove: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e stove juntos (camera a 8.0 m)
+- PERSONAGENS: GOO no centro, expressao surprised, segura borracha; sem multidao; acao: comemorar
+- OBJETO kit/stove: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - SOM: ding@20
 - TAKES: 4 takes (troca de angulo a cada ~1.6 s, sem corte seco):
@@ -273,9 +272,9 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/stove | b0, b5, b6, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/gosma | b0, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/borracha | b7, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tires | b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/bola_couro | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/borracha | b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

@@ -84,7 +84,7 @@
   },
   {
    "tipo": "heroi",
-   "item": "petri",
+   "item": "petri mofo",
    "consultas": [
     "placa de Petri com mofo",
     "Fleming e a Penicilina"
@@ -99,9 +99,9 @@
   },
   {
    "tipo": "heroi",
-   "item": "gosma",
+   "item": "petri",
    "consultas": [
-    "gosma"
+    "petri"
    ]
   },
   {
@@ -109,7 +109,7 @@
    "item": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d",
    "consultas": [
     "soltava matava bacterias penicilina",
-    "petri diagram"
+    "petri mofo diagram"
    ]
   }
  ]

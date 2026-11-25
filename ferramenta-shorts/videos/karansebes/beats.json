@@ -60,7 +60,7 @@
  "beats": [
   {
    "say": "Um exército inteiro conseguiu perder uma batalha contra si mesmo.",
-   "shot": "track",
+   "shot": "wide",
    "who": [
     "AUT:0:neutral",
     "AUT:1:stern",
@@ -68,8 +68,6 @@
     "AUT:3:stern"
    ],
    "tat": 4,
-   "light": "golden",
-   "mood": "march",
    "batalha": true,
    "crowd": {
     "n": 24,
@@ -93,7 +91,22 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "hora": "noite",
+   "fx": [
+    "burst@20",
+    "burst@45",
+    "smoke@30"
+   ],
+   "sfx": [
+    "cannon@20",
+    "cannon@45"
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.0,
+   "d0": 13.0,
+   "d1": 10.5
   },
   {
    "say": "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam.",
@@ -138,9 +151,9 @@
    "props": [
     [
      "tools/lantern",
-     0.0,
-     0.8,
-     1.0
+     0.6,
+     1.0,
+     1.5
     ]
    ],
    "move": 7,
@@ -166,7 +179,8 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
@@ -201,10 +215,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
@@ -234,7 +244,12 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -406,18 +421,18 @@
    "props": [
     [
      "cannon",
-     0.0,
-     -1.0,
-     1.1,
+     -2.4,
+     -0.8,
+     1.7,
      {
       "fixo": true
      }
     ],
     [
      "cannon",
-     7.0,
-     -14.0,
-     1.1,
+     2.6,
+     -1.6,
+     1.7,
      {
       "fixo": true
      }
@@ -443,32 +458,8 @@
     "cannon@97",
     "cannon@109"
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2,
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 16.2 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "_auto_vis": 1,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -482,7 +473,13 @@
       "na": "dispararam"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -1.0,
+   "h": 2.0,
+   "d0": 11.0,
+   "d1": 9.0,
+   "quadro_manual": true
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",

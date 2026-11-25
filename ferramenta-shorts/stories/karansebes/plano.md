@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | crowd | golden  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); perder (dust + som de impacto); encena: perde (facepalm) @4 (acao + som de efeito) | -
+b0 | crowd | noite  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de efeito); perder (dust + som de impacto); encena: perde (facepalm) @4 (acao + som de efeito) | -
 b1 | orbit | golden  | tropa, placa: VÁRIAS LÍNGUAS, mapa | marchando (dust + som de impacto); encena: chega (point) @4 (acao + som de efeito) | -
 b2 | track | noite  | tropa, objeto na mao | encena: chega (point) @7 (acao + som de efeito); montado: HUS galopando em cima do animal (horse_sela) atravessando a cena (acao + som de efeito) | -
 b3 | two | noite  | tropa, objeto na mao | encena: olha (point) @1 (acao + som de efeito); encena: entrega (point) @6 (acao + som de efeito) | -

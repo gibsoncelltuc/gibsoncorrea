@@ -14,7 +14,7 @@
    "personagens": [
     "OHI"
    ],
-   "multidao": 0,
+   "multidao": 16,
    "objetos": [
     "kit/canivete_aberto"
    ],
@@ -92,9 +92,7 @@
     "OHI"
    ],
    "multidao": 48,
-   "objetos": [
-    "kit/teodolito"
-   ],
+   "objetos": [],
    "palavras": 11,
    "cena": "b4",
    "frase": "Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.",
@@ -166,7 +164,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "jungle"
+   "cenario": "arctic"
   },
   {
    "camera": "wide",

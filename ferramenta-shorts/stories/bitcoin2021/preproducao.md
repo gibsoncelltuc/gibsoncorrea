@@ -17,7 +17,7 @@ b9 | loc_cidade | orbit | 1 | reagir, batalha | kit/bitcoin | - | -
 b10 | loc_cidade | group | 3 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b11 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
 b12 | loc_pista | wide | 8 | parados (so fala e pisca) | kit/bitcoin | - | -
-b13 | loc_pista | close | 1 | conversar | kit/bitcoin | - | -
+b13 | loc_pista | two | 1 | conversar | kit/bitcoin | - | -
 b14 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/bitcoin

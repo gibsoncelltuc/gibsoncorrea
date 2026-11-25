@@ -17,6 +17,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - ATUACAO (a cena toda): executa: reagir
+- multidao de 14: parada, reagindo (scared), sempre ATRAS dos personagens principais
 <!-- /FISICA -->
 
 ## Cena b1 - 4.2s a 8.5s - 17 palavras - plano crowd

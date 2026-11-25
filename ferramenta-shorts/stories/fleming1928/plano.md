@@ -12,8 +12,8 @@ b6 | two | -  | tropa, interior, placa: BACTÉRIAS SUMIRAM | - | -
 b7 | two | -  | tropa, interior | - | -
 b8 | group | -  | interior | (rosto) relief (expr + som de efeito) | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: NOBEL | ganhou (stars + som de sino); encena: vence (up) @8 (acao + som de efeito) | -
-b10 | close | -  | interior | - | -
-b11 | two | -  | interior, placa: COMENTE! | - | -
+b10 | close | -  | - | - | -
+b11 | two | -  | placa: COMENTE! | - | -
 
 Mistura de planos: close 9% | medio 75% | aberto 11% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

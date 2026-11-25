@@ -1,19 +1,19 @@
 # CRONOGRAMA - Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Gerado em 25/11 02:06 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:53 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | countryside | two | OHI | - | canivete_aberto | - | Dois estados americanos foram à guerra, e o único ferido levou uma can
+b0 | simples | countryside | two | OHI | 16 | canivete_aberto | - | Dois estados americanos foram à guerra, e o único ferido levou uma can
 b1 | transicao | countryside | reveal | OHI, MIC | 48 | house_two, mapa_antigo, lamppost | - | Ohio e Michigan juravam que a cidade de Toledo era deles, por causa de
 b2 | simples | interior madeira | close | GOV | - | - | - | O governador de Michigan tinha só vinte e três anos, e mandou a milíci
 b3 | chave | countryside | crowd | OHI | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ohio respondeu com a própria milícia, e as duas tropas chegaram à beir
-b4 | chave | countryside | orbit | OHI | 48 | teodolito | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.
+b4 | chave | countryside | orbit | OHI | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Houve gritos, ameaças e tiros para o alto. Ninguém acertou ninguém.
 b5 | simples | interior madeira | two | RAP, XER | - | canivete_aberto | - | A única baixa foi um xerife de Michigan, espetado numa briga de tavern
 b6 | simples | interior pedra | two | GOV, OHI | - | - | - | O presidente mandou os dois pararem, e o Congresso ofereceu um acordo.
-b7 | simples | jungle | group | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que
+b7 | simples | arctic | group | OHI, MIC, GOV | - | bush, tree_oak, tree_pine | - | Ohio ficou com Toledo. Michigan levou um pedaço de floresta gelada que
 b8 | simples | arctic | wide | GOV, MIC | 32 | minerio, bush, tree_oak, tree_pine | - | Só que debaixo daquela floresta havia cobre e ferro. Uma fortuna.
 b9 | simples | interior madeira | close | GOV | - | - | - | No fim das contas, Michigan perdeu a guerra, e ficou rico.
 b10 | simples | interior madeira | two | OHI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?

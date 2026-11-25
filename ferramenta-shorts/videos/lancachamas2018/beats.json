@@ -46,8 +46,8 @@
    "props": [
     [
      "kit/bancada",
-     3.6,
-     -2.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "nocol": true,
@@ -61,12 +61,45 @@
      1.5,
      {
       "nocol": true,
-      "y": 0.55,
+      "y": 0.95,
       "fixo": true
+     }
+    ],
+    [
+     "kit/fire",
+     1.6,
+     -1.2,
+     0.9,
+     {
+      "nocol": true,
+      "fixo": true,
+      "y": 0.9
      }
     ]
    ],
    "set": "loc_cidade",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "bilionário"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.8,
+   "d0": 9.5,
+   "d1": 7.5,
+   "fx": [
+    "burst@30",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "quadro_manual": true,
    "quadro": {
     "local": "loc_cidade",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
@@ -80,6 +113,12 @@
      {
       "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/fire",
+      "lugar": "MEIO, esquerda",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -107,9 +146,39 @@
     "MUS:0:grin",
     "CMP:0:smile"
    ],
-   "shot": "two",
-   "props": [],
-   "interior": "pedra",
+   "shot": "wide",
+   "props": [
+    [
+     "kit/tunel_boring",
+     0.0,
+     -7.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/bancada",
+     2.4,
+     -1.6,
+     1.3,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/flamethrower",
+     2.4,
+     -1.6,
+     1.2,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ]
+   ],
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -117,6 +186,38 @@
       "quem": 0,
       "faz": "mostra",
       "na": "dezoito"
+     }
+    ]
+   },
+   "set": "loc_cidade",
+   "text": "BORING COMPANY",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 2.2,
+   "d0": 13.0,
+   "d1": 11.0,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/flamethrower",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tunel_boring",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -152,9 +253,9 @@
    "props": [
     [
      "kit/bancada",
-     3.6,
-     -2.0,
-     2.0,
+     0.0,
+     -1.2,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -167,12 +268,38 @@
      1.5,
      {
       "nocol": true,
-      "y": 0.55,
+      "y": 0.95,
       "fixo": true
      }
     ]
    ],
    "interior": "loja",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "lança-chamas"
+     }
+    ]
+   },
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.8,
+   "d0": 9.0,
+   "d1": 7.0,
+   "text": "\"NÃO É UM LANÇA-CHAMAS\"",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 500,
+     "un": "dólares",
+     "na": "custava",
+     "dur": 1.0
+    }
+   },
+   "quadro_manual": true,
    "quadro": {
     "local": "loja / taverna",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e flamethrower juntos (camera a 11.5 m)",
@@ -227,7 +354,7 @@
     ],
     [
      "kit/flamethrower",
-     1.2,
+     2.4,
      0.2,
      1.5,
      {
@@ -272,18 +399,36 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 1
+   "d1": 8.0
   },
   {
    "say": "Musk explicou que o nome era para driblar a alfândega, que barrava lança-chamas.",
    "who": [
     "MUS:0:smug",
-    "CMP:0:nervous"
+    "CMP:0:stern"
    ],
    "shot": "two",
-   "props": [],
-   "interior": "pedra",
+   "props": [
+    [
+     "crate",
+     0.0,
+     -1.4,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "crate",
+     0.9,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interior": "loja",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -293,7 +438,13 @@
       "na": "explicou"
      }
     ]
-   }
+   },
+   "text": "ALFÂNDEGA",
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.7,
+   "d0": 9.5,
+   "d1": 8.0
   },
   {
    "say": "Cada compra vinha com um extintor de incêndio de brinde.",
@@ -386,7 +537,7 @@
    "say": "Isso rendeu cerca de dez milhões de dólares para a empresa.",
    "who": [
     "MUS:0:laugh",
-    "CMP:0:grin"
+    "CMP:0:laugh"
    ],
    "shot": "two",
    "props": [],
@@ -410,7 +561,8 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "acao": "comemorar"
   },
   {
    "say": "O próprio Musk postou vídeos soltando fogo com o aparelho.",
@@ -430,8 +582,8 @@
     ],
     [
      "kit/bancada",
-     -1.6,
-     -1.0,
+     -3.6,
+     -2.0,
      2.0,
      {
       "nocol": true,
@@ -440,8 +592,8 @@
     ],
     [
      "kit/flamethrower",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "nocol": true,
@@ -492,14 +644,13 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 2
+   "d1": 8.0
   },
   {
    "say": "Um produto que se chamava de tudo, menos do que parecia.",
    "who": [
-    "MUS:0:smug",
-    "POV:0:grin"
+    "MUS:0:laugh",
+    "POV:0:laugh"
    ],
    "shot": "two",
    "props": [
@@ -601,5 +752,5 @@
    "produto": "Boring Company Not-A-Flamethrower 2018"
   }
  },
- "max_wide": 3
+ "max_wide": 4
 }

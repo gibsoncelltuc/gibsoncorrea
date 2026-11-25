@@ -10,8 +10,7 @@
    "arctic",
    "countryside",
    "interior madeira",
-   "interior pedra",
-   "jungle"
+   "interior pedra"
   ],
   "cenarios_trocados": []
  },
@@ -41,7 +40,6 @@
   "kit/room_europa_wood",
   "kit/room_rosa_wood",
   "kit/room_verde_wood",
-  "kit/teodolito",
   "mk/Barrel",
   "mk/Barrel_Apples",
   "mk/Bench",

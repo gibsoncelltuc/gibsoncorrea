@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: arctic | luz: arctic | clima: neve
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): FIN (variante 3, expressao stern); SOV (variante 0, expressao shock)
+- Personagens principais (2): FIN (variante 3, expressao stern); SOV (variante 0, expressao shock) | multidao: 48 de SOV
 - Animacao: reagir
 - Objetos/modelos: buildings/barn, nature/picket_fence, nature/haybale, nature/scarecrow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fazendeiro, soldado
@@ -16,7 +16,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: arctic; clima: neve
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: FIN na esquerda, expressao stern; SOV na direita, expressao shock; sem multidao; acao: batalha
+- PERSONAGENS: FIN na esquerda, expressao stern; SOV na direita, expressao shock; multidao de 14 (SOV) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: sequencia de acao em 3 cameras (2.9 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
@@ -182,7 +182,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior hospital | luz: arctic | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao nervous)
+- Personagens principais (2): FIN (variante 3, expressao pained); FIN (variante 1, expressao sad)
 - Animacao: conversar | interacao: cochichar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bala, rosto
@@ -192,7 +192,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: hospital; hora: arctic
 - CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao nervous; sem multidao; acao: fala/gesto
+- PERSONAGENS: FIN na esquerda, expressao pained; FIN na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TAKES: 4 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (41.9-43.7 s): mesmo angulo

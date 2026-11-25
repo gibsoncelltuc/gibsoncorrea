@@ -75,10 +75,14 @@
    "interacao": "susto",
    "say": "Uma cidade inteira passou a noite atirando no céu, e não havia inimigo nenhum.",
    "fx": [
-    "burst@40"
+    "burst@25",
+    "burst@40",
+    "burst@60"
    ],
    "sfx": [
-    "cannon@40"
+    "cannon@25",
+    "cannon@40",
+    "cannon@60"
    ],
    "crowd": {
     "n": 12,
@@ -89,18 +93,6 @@
     "march": false
    },
    "_susp_ok": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/searchlight",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -114,8 +106,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_enq_shot": "two"
+   "d1": 11.5
   },
   {
    "shot": "reveal",
@@ -152,14 +143,13 @@
    "who": [
     "CID:0:scared"
    ],
-   "interacao": "cochichar",
    "say": "Na véspera, um submarino japonês tinha atirado na Califórnia, e todo mundo achava que vinha mais.",
    "props": [
     [
      "kit/submarino_ww2",
-     0.0,
-     -12.1,
-     1.3,
+     1.0,
+     -9.0,
+     1.6,
      {
       "fixo": true
      }
@@ -180,18 +170,6 @@
    "_susp_ok": true,
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -5.4, camera a 10.8 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/submarino_ww2",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -206,12 +184,12 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -5.4,
+   "cx": 0.5,
+   "cz": -5.0,
    "h": 2.4,
-   "d0": 11.3,
-   "d1": 10.8,
-   "_enq_shot": "wide"
+   "d0": 13.0,
+   "d1": 11.5,
+   "quadro_manual": true
   },
   {
    "shot": "low",
@@ -322,8 +300,8 @@
    "props": [
     [
      "cannon",
-     0.0,
-     -8.0,
+     -2.4,
+     -1.4,
      1.0,
      {
       "fixo": true
@@ -331,8 +309,8 @@
     ],
     [
      "cannon",
-     7.0,
-     -14.0,
+     2.6,
+     -2.6,
      1.0,
      {
       "fixo": true
@@ -353,24 +331,6 @@
    "shot_lock": true,
    "fachada": false,
    "detalhe": false,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "cannon",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -387,11 +347,11 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.6,
+   "cz": -1.5,
    "h": 2.4,
-   "d0": 15.3,
-   "d1": 14.5,
-   "_enq_shot": "wide"
+   "d0": 12.5,
+   "d1": 10.5,
+   "quadro_manual": true
   },
   {
    "shot": "two",
