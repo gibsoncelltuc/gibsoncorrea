@@ -260,7 +260,7 @@
    "d1": 6.5,
    "quadro_manual": true,
    "h": 1.4,
-   "set": "loc_patio"
+   "set": "hall"
   },
   {
    "say": "Mendel ficou curioso: para onde tinha ido o verde?",
@@ -339,7 +339,7 @@
      }
     ]
    },
-   "set": "loc_patio",
+   "set": "hall",
    "cx": -0.6,
    "cz": 0.0,
    "h": 1.5,

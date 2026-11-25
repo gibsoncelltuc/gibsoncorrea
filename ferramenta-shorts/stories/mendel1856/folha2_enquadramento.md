@@ -29,7 +29,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: ding@60
 
 ## b3: "Na primeira geração, todas saíram amarelas, como se o verde tivesse sumido."
-- LOCAL: loc_patio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MEN (padre) no centro, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_yellow: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.5 m de altura x 5.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -41,7 +41,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b5: "Ele plantou as amarelas de novo e contou tudo, ervilha por ervilha, durante anos."
-- LOCAL: loc_patio; hora: day
+- LOCAL: salao; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pea_yellow (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: MEN (padre) no centro, expressao neutral, segura paper; sem multidao; acao: fala/gesto
 - OBJETO kit/pea_yellow: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores

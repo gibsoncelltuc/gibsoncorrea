@@ -91,7 +91,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "hall"
   },
   {
    "camera": "two",
@@ -126,7 +126,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_patio"
+   "cenario": "hall"
   },
   {
    "camera": "wide",
