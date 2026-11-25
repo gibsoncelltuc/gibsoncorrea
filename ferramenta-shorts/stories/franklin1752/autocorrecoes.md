@@ -51,3 +51,7 @@
 ## 25/11 04:40 autocorrecao de visibilidade
 - b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
 - b6: objeto "kit/key" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 04:44 autocorrecao de visibilidade
+- b6: objeto citado "kit/key" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
+- b6: objeto "kit/key" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
