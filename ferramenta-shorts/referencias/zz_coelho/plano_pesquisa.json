@@ -1,0 +1,38 @@
+{
+ "id": "zz_coelho",
+ "ano": 2024,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Teste Coelhinho",
+   "consultas": [
+    "Teste Coelhinho",
+    "Escova Um Pra 2024"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2024",
+   "consultas": [
+    "2024 fashion clothing",
+    "2024 street photograph"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "escova de dentes",
+   "consultas": [
+    "escova de dentes",
+    "escova de dentes 2024"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "sink",
+   "consultas": [
+    "sink",
+    "Teste Coelhinho"
+   ]
+  }
+ ]
+}

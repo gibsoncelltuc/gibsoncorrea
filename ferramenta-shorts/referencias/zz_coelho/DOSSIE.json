@@ -1,0 +1,64 @@
+{
+ "id": "zz_coelho",
+ "titulo": "Teste EP 99 - Teste Coelhinho",
+ "ancoras": {
+  "ano": 2024,
+  "era": "atual (1950+)",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "interior hospital"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/maca",
+  "kit/room_hospital",
+  "kit/sink",
+  "mk/Stool"
+ ],
+ "pesquisa_visual": {
+  "onde": "banheiro",
+  "quando": "manha",
+  "quem": "coelhinho",
+  "roupas": "cachecol azul",
+  "cenario": "banheiro com pia",
+  "objetos": "escova de dentes",
+  "buscas": {
+   "banheiro": "cartoon bathroom blue tiles"
+  }
+ },
+ "fontes": [],
+ "falta": [
+  "local",
+  "participantes",
+  "fontes_visuais"
+ ]
+}

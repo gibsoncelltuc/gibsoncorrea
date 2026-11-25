@@ -1,0 +1,90 @@
+{
+ "id": "zz_coelho",
+ "ano": 2024,
+ "cenarios_trocados": [
+  [
+   "video",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 0,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "COE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/sink",
+    "mk/Stool"
+   ],
+   "palavras": 5,
+   "cena": "b0",
+   "frase": "Escova, escova, vai, vai, vai!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "COE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/sink"
+   ],
+   "palavras": 6,
+   "cena": "b1",
+   "frase": "Um pinguinho de pasta, só isso!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/sink"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Pra cima e pra baixo, bem devagar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "COE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b3",
+   "frase": "Tchau, bichinhos! Meus dentes vão brilhar!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  }
+ ]
+}
