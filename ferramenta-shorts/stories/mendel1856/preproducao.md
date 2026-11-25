@@ -4,22 +4,22 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/pea_green | bag | -
+b0 | loc_campo | two | 1 | encena | kit/pea_green | bag | -
 b1 | loc_campo | reveal | 8 | parados (so fala e pisca) | nature/flowerbed, nature/picket_fence, buildings/barn, nature/haybale, nature/scarecrow | - | -
-b2 | loc_montanha | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/pea_yellow, kit/pea_green | - | -
-b3 | loc_montanha | group | 2 | conversar, INTERAGEM: susto | kit/pea_yellow | - | -
+b2 | loc_montanha | wide | 1 | encena | kit/pea_yellow, kit/pea_green | - | -
+b3 | loc_montanha | two | 1 | conversar | kit/pea_yellow | - | -
 b4 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
-b5 | loc_montanha | two | 2 | encena, INTERAGEM: insiste | kit/pea_yellow, kit/pea_green | paper, shovel | -
-b6 | loc_montanha | orbit | 2 | reagir, batalha | kit/pea_yellow, kit/pea_green | - | -
+b5 | loc_montanha | wide | 1 | encena | kit/pea_yellow, kit/pea_green | paper | -
+b6 | loc_montanha | wide | 1 | reagir, batalha | kit/pea_yellow, kit/pea_green | - | -
 b7 | interior madeira | two | 2 | conversar, INTERAGEM: cochichar | - | - | -
-b8 | interior madeira | group | 2 | conversar, INTERAGEM: vai ate o outro | - | book | -
-b9 | loc_deserto | group | 3 | comemorar, INTERAGEM: pular, batalha | kit/pea_green, kit/pea_yellow | - | -
+b8 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | - | book | -
+b9 | loc_deserto | wide | 1 | comemorar, batalha | kit/pea_green, kit/pea_yellow | - | -
 b10 | loc_deserto | two | 1 | conversar | kit/pea_green | - | -
 b11 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/pea_green
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b9
-Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 susto, b4 discutir, b5 insiste, b7 cochichar, b8 vai ate o outro, b9 pular
+Interacoes entre personagens: b4 discutir, b7 cochichar, b8 avanca e o outro recua
 
 Cenas com personagens parados: 1 de 12
 FALTA MODELAR: nada

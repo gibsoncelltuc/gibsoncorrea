@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 03 - Galileu e a Torre de Pisa
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +5% | Clima do video: playful | Cenario base: street | 10 cenas, 156 palavras (~54 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Uma bola pesada e outra leve foram soltas juntas e caíram no chão ao mesmo tempo.

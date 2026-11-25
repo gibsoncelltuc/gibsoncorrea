@@ -3,7 +3,7 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Um homem soltou uma pipa em plena tempestade para pegar um raio."
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: tempestade
+- LOCAL: loc_campo; hora: day; clima: tempestade
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kite juntos (camera a 11.5 m)
 - PERSONAGENS: FRA (cientista) na esquerda, expressao grin; FIL (agricultor) na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/kite: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa

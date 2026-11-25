@@ -23,8 +23,7 @@
   {
    "camera": "two",
    "personagens": [
-    "MEN",
-    "FRE"
+    "MEN"
    ],
    "multidao": 0,
    "objetos": [
@@ -63,10 +62,9 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MEN",
-    "FRE"
+    "MEN"
    ],
    "multidao": 0,
    "objetos": [
@@ -83,10 +81,9 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
-    "MEN",
-    "FRE"
+    "MEN"
    ],
    "multidao": 0,
    "objetos": [
@@ -119,10 +116,9 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "MEN",
-    "FRE"
+    "MEN"
    ],
    "multidao": 0,
    "objetos": [
@@ -139,10 +135,9 @@
    "cenario": "loc_montanha"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
-    "MEN",
-    "FRE"
+    "MEN"
    ],
    "multidao": 0,
    "objetos": [
@@ -199,10 +194,8 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "group",
+   "camera": "wide",
    "personagens": [
-    "CIE",
-    "CIE",
     "CIE"
    ],
    "multidao": 0,

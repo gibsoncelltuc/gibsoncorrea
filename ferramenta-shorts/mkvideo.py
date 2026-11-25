@@ -783,6 +783,7 @@ def _heroi():   # OBJETO HEROI do video: "heroi" no topo do roteiro, ou o objeto
     best = max(((len(re.findall(rx_, allt)), as_) for rx_, as_, sc_, big_ in OBJ_DICT if big_ is False), default=(0, None))
     return best[1] if best[0] >= 2 else None
 KW = [  # (regex da palavra, efeito, golpe de camera) -- animacao nas palavras-chave da narracao
+    (re.compile(r'^(transbordou|transbordaram|transbordando|espirrou|espirrando|derramou|derramando|mergulhou|mergulharam)$'), 'splash', 0.05),   # 25/11 (Arquimedes): agua transbordando = respingo na palavra
     (re.compile(r'^(tiro|tiros|disparou|dispararam|disparo|disparos|atirava|atiravam|atirou|atiraram|atirar|explodiu|explodiram|explosao|canhoes|canhao|fogo|bomba|bombas|metralhadora|metralhadoras|balas|bala|artilharia)$'), 'burst', 0.09),
     (re.compile(r'^(gritou|gritaram|gritava|gritavam|berrou|berrava|socorro|ataque|atacar|atacaram|alarme)$'), 'ring', 0.06),
     (re.compile(r'^(panico|correu|correram|fugiu|fugiram|correria|debandada|fuga|retirada|recuou|recuaram|bateu|marchando|marchava|marcharam|perder)$'), 'dust', 0.07),
@@ -984,6 +985,17 @@ for _b in beats:   # "entraram escondidos" -> alguem chega andando; "as luzes se
     if re.search(r'marchav|marcharam|marchou|marchando|desfil', _sy) and _EXERC and not _b.get('crowd'): _b['crowd'] = {'n': 10, 'outfits': [([w_.split(':')[0] for w_ in _b.get('who', []) if w_.split(':')[0] in _EXERC] or _EXERC)[0]], 'march': True}
     if re.search(r'danca|dancav|dancaram|dancou', _sy) and not _b.get('acao') and not re.search(_DANCA_OUTRO, _sy): _b['acao'] = 'dancar'
     if 'hora' not in _b and re.search(r'apagar|apagou|apagaram|escuridao|breu|semluz|blecaute|apagao', _sy): _b['hora'] = 'noite'
+for _b in beats:   # 25/11 BANHO (Gibson: "mostrar ele entrando na banheira, a agua transbordando"): quem entra na banheira SENTA dentro dela (borda na frente da cintura)
+    _sb = nrm0x(_b['say'])
+    if re.search(r'banheira|tina|banho', _sb) and re.search(r'\b(entr|mergulh|sent|deit)\w*', _sb) and _b.get('who') and not _b.get('explica'):
+        _ti = next((i_ for i_, p_ in enumerate(_b.get('props') or []) if isinstance(p_, list) and re.search(r'bathtub|banheira|tina', str(p_[0]))), None)
+        _x0 = slots(len(_b['who']))[0]; _tub = ['kit/bathtub', _x0, round(ZS[0] + 0.35, 2), 1.15, {'fixo': True, 'nocol': True}]   # nocol: o boneco entra NA banheira (a fisica nao empurra para fora)
+        if _ti is None: _b.setdefault('props', []).append(_tub)
+        else: _b['props'][_ti] = _tub
+        _we = next((w_.strip('.,!?') for w_ in _b['say'].split() if re.match(r'^(entr|mergulh|sent|deit)', nrm(w_))), None)
+        if _we and not any(a_.get('tipo') == 'senta' for a_ in (_b.get('acoes') or [])): _b.setdefault('acoes', []).append({'palavra': _we, 'tipo': 'senta', 'quem': 0})
+        for k_ in ('cx', 'cz', 'd0', 'd1', '_auto_vis'): _b.pop(k_, None)
+        _b['_banho'] = True
 for _b in beats:   # ESPACO (19/11): "no espaco/em orbita/na lua" -> chao lunar (arctic acinzentado) + ceu preto estrelado
     if not _b.get('interior') and re.search(r'noespaco|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade', nrm(_b['say'])):
         _b.setdefault('set', 'arctic'); _b.setdefault('hora', 'espaco')

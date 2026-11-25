@@ -1,12 +1,12 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 07 - Franklin, a Pipa e o Raio
 
-Gerado em 25/11 00:00 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 00:25 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | FRA, FIL | - | kite | - | Um homem soltou uma pipa em plena tempestade para pegar um raio.
+b0 | simples | loc_campo | two | FRA, FIL | - | kite | - | Um homem soltou uma pipa em plena tempestade para pegar um raio.
 b1 | transicao | street | reveal | COM, POV | 8 | - | - | Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Frank
 b2 | simples | interior madeira | group | COM, POV, FIL | - | - | - | Na época, muita gente achava que o raio era um castigo dos céus, e não
 b3 | simples | interior madeira | two | COM, FRA | - | - | - | Franklin discordava: para ele, o raio era só uma faísca elétrica gigan

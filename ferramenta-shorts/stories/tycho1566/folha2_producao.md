@@ -254,11 +254,9 @@ kit/tower | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/brass_nose | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 12% | medio 67% | aberto 17% | detalhe 4%
 - Interacoes: b0 discutir, b2 avanca e o outro recua, b3 discutir, b4 susto, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 10 item(ns) sem referencia visual: O Astrônomo do Nariz de Metal, Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio, Tycho Brahe (bigode longo, gibao nobre, nariz de -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: O Astrônomo do Nariz de Metal, Rostock (Alemanha) em 1566; ilha de Hven (Dinamarca) com o castelo-observatorio, Tycho Brahe (bigode longo, gibao nobre, nariz de
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tycho1566 bN bM` (so essas cenas).
