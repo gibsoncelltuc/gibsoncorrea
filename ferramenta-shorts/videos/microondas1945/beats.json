@@ -328,8 +328,10 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "d0": 8.6,
+   "d1": 8.2,
+   "quadro_manual": true,
+   "h": 2.2
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
@@ -388,8 +390,10 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "d0": 8.6,
+   "d1": 8.2,
+   "quadro_manual": true,
+   "h": 2.2
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
