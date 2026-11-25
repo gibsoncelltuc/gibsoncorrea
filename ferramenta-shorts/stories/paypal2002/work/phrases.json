@@ -1,180 +1,243 @@
 {
- "duration": 29.784,
- "frames30": 894,
- "source": "silence-align (cost 0.83)",
+ "duration": 54.624,
+ "frames30": 1639,
+ "source": "silence-align (cost 0.49)",
  "segments": [
   [
-   0.0,
-   2.51633
+   0.142292,
+   4.20567
   ],
   [
-   2.89579,
-   5.30675
+   5.07733,
+   5.71471
   ],
   [
-   5.68629,
-   7.99787
+   6.02704,
+   7.18825
   ],
   [
-   8.37275,
-   9.17458
+   7.44117,
+   9.61229
   ],
   [
-   9.32271,
-   10.3684
+   10.4657,
+   13.3847
   ],
   [
-   10.7471,
-   11.0587
+   13.6548,
+   14.7617
   ],
   [
-   11.3109,
-   12.5698
+   15.6154,
+   17.5889
   ],
   [
-   12.7043,
-   13.2625
+   17.7883,
+   18.8309
   ],
   [
-   13.6357,
-   15.1307
+   19.1097,
+   20.546
   ],
   [
-   15.5095,
-   16.5551
+   21.4076,
+   23.061
   ],
   [
-   16.9343,
-   17.7187
+   23.2485,
+   24.3254
   ],
   [
-   17.9173,
-   18.5299
+   25.1803,
+   27.2104
   ],
   [
-   18.6842,
-   20.1495
+   27.4833,
+   29.2828
   ],
   [
-   20.5199,
-   21.5075
+   30.1525,
+   31.0263
   ],
   [
-   21.7138,
-   22.6913
+   31.2567,
+   31.9371
   ],
   [
-   23.0605,
-   25.6692
+   32.0986,
+   33.5597
   ],
   [
-   26.0408,
-   27.0857
+   33.8173,
+   34.9888
   ],
   [
-   27.2869,
-   28.3997
+   35.8465,
+   36.8624
   ],
   [
-   28.777,
-   29.3532
+   37.0594,
+   38.1434
+  ],
+  [
+   38.407,
+   40.0703
+  ],
+  [
+   40.3385,
+   41.7123
+  ],
+  [
+   42.5726,
+   46.0163
+  ],
+  [
+   46.8855,
+   47.4079
+  ],
+  [
+   47.6464,
+   49.4606
+  ],
+  [
+   50.3157,
+   51.7604
+  ],
+  [
+   52.0531,
+   53.8147
   ]
  ],
  "phrases": [
   {
-   "text": "Os foguetes da SpaceX nasceram de um site de pagamento.",
-   "s": 0.0,
-   "e": 2.516
+   "text": "Um servi\u00e7o para pagar pela internet foi vendido por um bilh\u00e3o e meio de d\u00f3lares.",
+   "s": 0.142,
+   "e": 4.206
   },
   {
-   "text": "E tudo come\u00e7ou com um jeito de mandar dinheiro por e-mail.",
-   "s": 2.896,
-   "e": 5.307
+   "text": "Era o PayPal,",
+   "s": 5.077,
+   "e": 5.715
   },
   {
-   "text": "O PayPal deixava mandar dinheiro s\u00f3 com um e-mail.",
-   "s": 5.686,
-   "e": 7.998
+   "text": "e quem comprou foi o eBay,",
+   "s": 6.027,
+   "e": 7.188
   },
   {
-   "text": "Em 2002,",
-   "s": 8.373,
-   "e": 9.175
+   "text": "o site de leil\u00f5es mais famoso da \u00e9poca.",
+   "s": 7.441,
+   "e": 9.612
   },
   {
-   "text": "o eBay comprou o PayPal.",
-   "s": 9.323,
-   "e": 10.368
+   "text": "O PayPal deixava qualquer um mandar dinheiro s\u00f3 com um e-mail,",
+   "s": 10.466,
+   "e": 13.385
   },
   {
-   "text": "Pre\u00e7o:",
-   "s": 10.747,
-   "e": 11.059
+   "text": "sem precisar de banco.",
+   "s": 13.655,
+   "e": 14.762
   },
   {
-   "text": "um bilh\u00e3o e meio de d\u00f3lares,",
-   "s": 11.311,
-   "e": 12.57
+   "text": "O an\u00fancio saiu em julho de dois mil e dois,",
+   "s": 15.615,
+   "e": 17.589
   },
   {
-   "text": "em a\u00e7\u00f5es.",
-   "s": 12.704,
-   "e": 13.262
+   "text": "nos Estados Unidos,",
+   "s": 17.788,
+   "e": 18.831
   },
   {
-   "text": "Elon Musk era o maior acionista.",
-   "s": 13.636,
-   "e": 15.131
+   "text": "e a compra terminou em outubro.",
+   "s": 19.11,
+   "e": 20.546
   },
   {
-   "text": "Ficou rico de repente.",
-   "s": 15.509,
-   "e": 16.555
+   "text": "O pagamento foi em a\u00e7\u00f5es do eBay,",
+   "s": 21.408,
+   "e": 23.061
+  },
+  {
+   "text": "n\u00e3o em dinheiro vivo.",
+   "s": 23.248,
+   "e": 24.325
+  },
+  {
+   "text": "Elon Musk era o maior acionista do PayPal,",
+   "s": 25.18,
+   "e": 27.21
+  },
+  {
+   "text": "ent\u00e3o ficou muito rico de repente.",
+   "s": 27.483,
+   "e": 29.283
   },
   {
    "text": "Acontece que,",
-   "s": 16.934,
-   "e": 17.719
+   "s": 30.152,
+   "e": 31.026
   },
   {
    "text": "no mesmo ano,",
-   "s": 17.917,
-   "e": 18.53
+   "s": 31.257,
+   "e": 31.937
   },
   {
-   "text": "ele tinha fundado a SpaceX.",
-   "s": 18.684,
-   "e": 20.149
+   "text": "ele tinha fundado a SpaceX,",
+   "s": 32.099,
+   "e": 33.56
+  },
+  {
+   "text": "uma empresa de foguetes.",
+   "s": 33.817,
+   "e": 34.989
   },
   {
    "text": "Dois anos depois,",
-   "s": 20.52,
-   "e": 21.508
+   "s": 35.846,
+   "e": 36.862
   },
   {
-   "text": "investiu na Tesla.",
-   "s": 21.714,
-   "e": 22.691
+   "text": "ele investiu na Tesla,",
+   "s": 37.059,
+   "e": 38.143
   },
   {
-   "text": "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
-   "s": 23.061,
-   "e": 25.669
+   "text": "uma f\u00e1brica de carros el\u00e9tricos,",
+   "s": 38.407,
+   "e": 40.07
   },
   {
-   "text": "Um e-mail virou dinheiro,",
-   "s": 26.041,
-   "e": 27.086
+   "text": "e virou presidente do conselho.",
+   "s": 40.339,
+   "e": 41.712
   },
   {
-   "text": "e o dinheiro virou foguete.",
-   "s": 27.287,
-   "e": 28.4
+   "text": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
+   "s": 42.573,
+   "e": 46.016
   },
   {
-   "text": "Foi assim que...",
-   "s": 28.777,
-   "e": 29.353
+   "text": "Quem diria:",
+   "s": 46.886,
+   "e": 47.408
+  },
+  {
+   "text": "um pagamento online chegou ao espa\u00e7o.",
+   "s": 47.646,
+   "e": 49.461
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 50.316,
+   "e": 51.76
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 52.053,
+   "e": 53.815
   }
  ]
 }
