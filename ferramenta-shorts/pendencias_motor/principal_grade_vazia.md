@@ -1,0 +1,1 @@
+# make_video.sh (aplicar com a fila PARADA): a "grade de acoes" quebra com ValueError "cannot write empty image" quando o video nao tem acao com instante na folha 3 (Roadster 25/11). Conserto: se nao houver quadro, pular a grade (gerar um JPG 1x1 ou nao chamar save) em vez de falhar o video.
