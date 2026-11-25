@@ -1,12 +1,8 @@
-VISIBILIDADE: 11 FALHA(S)
-FALHA b2: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
-FALHA b2~1: "kit/navio_fragata" cobrindo a tela (77% do quadro: so' se ve uma parede/casco)
-FALHA b2~2: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
-FALHA b2~3: "kit/navio_fragata" cobrindo a tela (77% do quadro: so' se ve uma parede/casco)
-FALHA b2~4: "kit/navio_fragata" cobrindo a tela (73% do quadro: so' se ve uma parede/casco)
-FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b5~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32%
-FALHA b6: objeto "kit/finch_thick" saiu com 16% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE: 7 FALHA(S)
+FALHA b2: objeto "kit/finch" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+FALHA b5: objeto "kit/finch_thick" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+FALHA b5: objeto "kit/finch_long" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+FALHA b6: objeto "kit/finch_thick" saiu com 12% da altura da tela, a ficha de cena planejou 32%
+FALHA b6: objeto "kit/finch_long" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b6: objeto "kit/finch" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/finch" saiu com 13% da altura da tela, a ficha de cena planejou 32%

@@ -8,10 +8,17 @@
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
+   "loc_campo",
    "stadium",
    "street"
   ],
-  "cenarios_trocados": []
+  "cenarios_trocados": [
+   [
+    "cena 3",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
  },
  "proibido_pela_epoca": [
   "barril",
@@ -33,20 +40,14 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
-  "buildings/house_small",
   "buildings/house_two",
   "buildings/shop",
   "kit/ball",
   "kit/room_colonial_wood",
-  "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large",
-  "nature/lamppost",
-  "nature/picket_fence",
-  "nature/tree_oak"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexico, e a fronteira entre Honduras e El Salvador",

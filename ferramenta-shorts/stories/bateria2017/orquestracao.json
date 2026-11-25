@@ -20,12 +20,32 @@
    ],
    "palavras": 11,
    "cena": "b0",
-   "frase": "Um homem apostou cinquenta milhões de dólares numa conversa no Twitter.",
+   "frase": "Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/megapack",
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E tudo começou com uma resposta curta, escrita no celular.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -36,10 +56,10 @@
    "objetos": [
     "kit/megapack"
    ],
-   "palavras": 22,
-   "cena": "b1",
-   "frase": "Em dois mil e dezessete, Elon Musk prometeu baterias gigantes para a Austrália do Sul em cem dias, ou seria de graça.",
-   "classe": "simples",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -50,13 +70,31 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 30,
+   "multidao": 0,
    "objetos": [
     "kit/megapack"
    ],
-   "palavras": 13,
-   "cena": "b2",
-   "frase": "Os jornais calcularam que ele podia perder mais de cinquenta milhões de dólares.",
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Cem dias para entregar. Senão, seria de graça.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Os jornais calcularam: ele podia perder mais de cinquenta milhões.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -70,26 +108,7 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "JOR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/megapack"
-   ],
-   "palavras": 15,
-   "cena": "b3",
-   "frase": "O contrato foi fechado no fim de setembro, e o prazo de cem dias começou.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "MUS"
    ],
@@ -98,9 +117,9 @@
     "kit/megapack",
     "nature/picket_fence"
    ],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Acontece que a bateria ficou pronta em cerca de cinquenta e cinco dias, bem antes do prazo.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que ficou pronta em cerca de cinquenta e cinco dias.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -114,36 +133,15 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "group",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/megapack",
-    "nature/lamppost"
-   ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "A bateria ficou perto da cidade de Jamestown, no interior da Austrália do Sul.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
    "camera": "two",
    "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/megapack"
    ],
-   "palavras": 14,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "A imprensa chamou de a maior bateria do mundo, com cem megawatts de potência.",
+   "frase": "Na época, era a maior bateria do mundo.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -164,9 +162,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b7",
-   "frase": "O empresário que fez o desafio teve que admitir: Musk cumpriu.",
+   "frase": "Quem lançou o desafio teve que admitir: ele cumpriu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -176,75 +174,20 @@
   {
    "camera": "two",
    "personagens": [
-    "CAN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/megapack"
-   ],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Ou seja, uma conversa no Twitter virou uma obra de cinquenta e cinco dias.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "JOR"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/megapack",
-    "kit/phone"
-   ],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "E tudo começou com uma resposta curta, escrita no celular.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "MUS",
-    "CAN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/megapack"
-   ],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Moral da história: antes de apostar cinquenta milhões num prazo, leia o contrato.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
     "MUS"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "objetos": [
+    "kit/megapack"
+   ],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Uma resposta curta, e foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior loja"
   }
  ]
 }

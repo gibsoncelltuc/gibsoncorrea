@@ -5,20 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | countryside | two | 17 | conversar | kit/canivete_aberto | - | -
-b1 | countryside | reveal | 10 | parados (so fala e pisca) | kit/mapa_antigo, buildings/house_two, nature/lamppost | - | -
-b2 | interior madeira | close | 1 | encena | - | paper | -
-b3 | countryside | crowd | 49 | encena, batalha | - | - | -
-b4 | countryside | orbit | 49 | reagir, batalha | - | - | -
-b5 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete_aberto | - | -
-b6 | interior pedra | two | 2 | reagir, INTERAGEM: pedir | - | paper | -
-b7 | arctic | group | 3 | conversar, INTERAGEM: tremem de frio | nature/tree_pine, nature/tree_oak, nature/bush | - | -
-b8 | arctic | wide | 8 | reagir | kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush | coin | -
-b9 | interior madeira | close | 1 | encena | - | coin | -
-b10 | interior madeira | two | 1 | conversar | - | - | -
+b1 | interior madeira | close | 1 | encena | - | coin | -
+b2 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/mapa_antigo | - | -
+b3 | interior madeira | close | 1 | encena | - | paper | -
+b4 | countryside | crowd | 49 | batalha | - | - | -
+b5 | countryside | orbit | 19 | reagir, batalha | - | - | -
+b6 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | kit/canivete_aberto | - | -
+b7 | arctic | wide | 3 | reagir | nature/tree_pine, nature/tree_oak, nature/bush | - | -
+b8 | jungle | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/minerio, nature/tree_pine, nature/tree_oak, nature/bush | coin | -
+b9 | countryside | two | 17 | conversar | kit/canivete_aberto | - | -
 
 OBJETO HEROI: kit/canivete_aberto
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b4
-Interacoes entre personagens: b5 discutir, b6 pedir, b7 tremem de frio
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b5
+Interacoes entre personagens: b2 avanca e o outro recua, b6 discutir, b8 o outro se aproxima
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 0 de 10
 FALTA MODELAR: nada

@@ -2,17 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | noite  | tropa | encena: atira @6 (acao + som de efeito) | -
-b1 | reveal | noite  | tropa, mapa | (rosto) scared (expr + som de efeito) | -
-b2 | crowd | pordosol  | batalha aberta com tiros, tropa, placa: SUBMARINO JAPONÊS | objeto: submarino_ww2 atira (na palavra "atirado") (acao + som de efeito) | -
-b3 | low | noite  | - | objeto: searchlight toca (na palavra "tocaram") (acao + som de efeito) | -
-b4 | wide | noite  | tropa, placa: FOGO! | atirar (burst + som de tiro/explosao); canhões (burst + som de tiro/explosao); encena: olha (point) @1 (acao + som de efeito); encena: atira @11 (acao + som de efeito) | -
-b5 | group | noite  | tropa | - | -
-b6 | crowd | noite  | batalha aberta com tiros, tropa | (rosto) scared (expr + som de efeito); tiros (burst + som de tiro/explosao); canhão (burst + som de tiro/explosao); caíram (dust + som de impacto); pânico (dust + som de impacto); encena: grita (up) @16 (acao + som de efeito) | -
-b7 | two | -  | interior, objeto na mao | encena: x_discute (point) @5 (acao + som de efeito) | -
+b0 | two | noite  | tropa, placa: NENHUM INIMIGO | atirou (burst + som de tiro/explosao); encena: atira @2 (acao + som de efeito) | -
+b1 | close | noite  | - | - | -
+b2 | wide | noite  | batalha aberta com tiros, tropa, mapa | (rosto) scared (expr + som de efeito) | -
+b3 | wide | pordosol  | tropa, placa: SUBMARINO JAPONÊS | objeto: submarino_ww2 atira (na palavra "atirou") (acao + som de efeito); atirou (burst + som de tiro/explosao) | -
+b4 | low | noite  | - | objeto: searchlight toca (na palavra "tocaram") (acao + som de efeito) | -
+b5 | wide | noite  | tropa, placa: FOGO! | canhões (burst + som de tiro/explosao); atirar (burst + som de tiro/explosao); encena: olha (point) @1 (acao + som de efeito); encena: atira @9 (acao + som de efeito) | -
+b6 | orbit | noite  | batalha aberta com tiros, tropa | tiros (burst + som de tiro/explosao); caíram (dust + som de impacto) | -
+b7 | two | noite  | tropa | - | -
 b8 | two | noite  | tropa | (rosto) sad (expr + som de efeito); morreram (puff + som de baque) | -
-b9 | two | noite  | - | derrotado (puff + som de baque) | -
-b10 | close | noite  | placa: COMENTE! | - | -
+b9 | two | noite  | tropa, placa: NENHUM INIMIGO | (rosto) scared (expr + som de efeito); (rosto) laugh (expr + som de efeito); venceu (stars + som de sino) | -
 
-Mistura de planos: close 12% | medio 61% | aberto 23% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 57% | aberto 27% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

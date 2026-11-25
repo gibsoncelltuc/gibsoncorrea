@@ -1,0 +1,190 @@
+# FICHA DE REFERENCIA - E Se EP 10 - E Se o Titanic Não Tivesse Afundado?
+
+- Ano/epoca: 1912 (historica)
+- Onde: Atlantico Norte, a bordo do Titanic
+- Quando: 14 e 15 de abril de 1912, de noite
+- Quem: ['passageiros', 'tripulacao', 'vigia do cesto da gavea']
+- Roupas: {'PAS': 'passageiro de 1912 de terno e chapeu', 'TRI': 'marinheiro de 1912', 'POV': 'passageiros de 1912'}
+- Cenario real: navio gigante de quatro chamines, mar escuro, iceberg, botes salva-vidas
+- Objetos: ['iceberg', 'botes salva-vidas', 'navio Titanic']
+- Cenarios usados no video: harbor, loc_estudio
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
+- Proibido pelo roteiro: -
+
+## Explicacoes (ciencia)
+- C
+- e
+- r
+- c
+- a
+-  
+- d
+- e
+-  
+- 9
+- 0
+- %
+-  
+- d
+- e
+-  
+- u
+- m
+-  
+- i
+- c
+- e
+- b
+- e
+- r
+- g
+-  
+- f
+- i
+- c
+- a
+-  
+- a
+- b
+- a
+- i
+- x
+- o
+-  
+- d
+- a
+-  
+- a
+- g
+- u
+- a
+- ;
+-  
+- o
+-  
+- g
+- e
+- l
+- o
+-  
+- r
+- a
+- s
+- p
+- o
+- u
+-  
+- o
+-  
+- c
+- a
+- s
+- c
+- o
+-  
+- a
+- b
+- a
+- i
+- x
+- o
+-  
+- d
+- a
+-  
+- l
+- i
+- n
+- h
+- a
+-  
+- d
+-  
+- a
+- g
+- u
+- a
+-  
+- e
+-  
+- a
+- b
+- r
+- i
+- u
+-  
+- v
+- a
+- r
+- i
+- o
+- s
+-  
+- c
+- o
+- m
+- p
+- a
+- r
+- t
+- i
+- m
+- e
+- n
+- t
+- o
+- s
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- E
+- n
+- c
+- y
+- c
+- l
+- o
+- p
+- a
+- e
+- d
+- i
+- a
+-  
+- B
+- r
+- i
+- t
+- a
+- n
+- n
+- i
+- c
+- a
+- ,
+-  
+- "
+- T
+- i
+- t
+- a
+- n
+- i
+- c
+- "
+- .
+
+## Fontes visuais
+- https://en.wikipedia.org/wiki/Titanic
+- https://en.wikipedia.org/wiki/International_Ice_Patrol
+
+## Fontes da historia
+- https://en.wikipedia.org/wiki/Titanic
+- https://en.wikipedia.org/wiki/International_Convention_for_the_Safety_of_Life_at_Sea
+- https://en.wikipedia.org/wiki/International_Ice_Patrol

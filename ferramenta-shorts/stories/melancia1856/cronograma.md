@@ -1,30 +1,28 @@
 # CRONOGRAMA - Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Gerado em 25/11 03:10 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | street | two | VIA, VEN | - | melon | - | Uma fatia de melancia sem pagar começou uma briga entre o Panamá e os 
-b1 | simples | harbor | wide | VIA | - | locomotive | - | Em mil oitocentos e cinquenta e seis, viajantes cruzavam o Panamá a ca
-b2 | transicao | harbor | wide | VIA | - | navios de guerra ao fundo, no tamanho real, locomotive | - | Eles desciam do navio e cruzavam o istmo de trem, rumo ao oceano Pacíf
-b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um deles parou numa barraca, comeu uma fatia de melancia e foi embora 
-b4 | simples | street | two | VEN, VIA | - | shop, stall | - | O vendedor cobrou a fatia, e o viajante só riu.
-b5 | simples | street | group | VIA | - | pistol | - | Irritado, o viajante sacou uma arma, e a confusão começou ali mesmo.
-b6 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos minutos, a rua virou uma briga enorme entre moradores e viaj
-b7 | chave | loc_campo | orbit | VIA | 48 | house_two, lamppost, locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os viajantes se trancaram na estação de trem, e a polícia da cidade en
-b8 | simples | street | two | PRE, MOR | 14 | house_two, lamppost | - | Acontece que mais de quinze pessoas morreram naquele dia, e a cidade f
-b9 | simples | interior pedra | two | PRE, VIA | - | - | - | O Panamá era da Colômbia, e a Colômbia acabou pagando uma indenização 
-b10 | simples | jungle | group | VEN | - | melon | - | Tudo isso por uma fatia de melancia que custava poucos centavos.
-b11 | simples | jungle | close | VIA | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | VIA, VEN | - | melon | - | Uma fatia de melancia quase virou guerra entre dois países.
+b1 | simples | jungle | group | VEN | - | melon | - | E a fatia custava só uns centavos.
+b2 | simples | loc_campo | wide | VIA | - | locomotive | - | Em 1856, viajantes cruzavam o Panamá atrás de ouro.
+b3 | simples | jungle | two | VIA, VEN | - | melon, stall | - | Um americano comeu uma fatia de melancia e não quis pagar.
+b4 | simples | street | group | VIA | 6 | shop, stall, pistol | - | O vendedor cobrou. O viajante riu e sacou uma arma.
+b5 | chave | street | crowd | VEN | 20 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em minutos, virou briga de moradores contra viajantes.
+b6 | chave | loc_campo | orbit | VIA | 48 | locomotive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Os viajantes se trancaram na estação de trem.
+b7 | simples | street | two | PRE, MOR | 14 | - | - | Acontece que mais de quinze pessoas morreram naquele dia.
+b8 | simples | interior pedra | two | PRE, VIA | - | - | - | A Colômbia teve que pagar uma indenização aos americanos.
+b9 | simples | street | two | VIA, VEN | - | melon | - | Tudo por centavos que ninguém pagou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (16/17 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (16/15 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 

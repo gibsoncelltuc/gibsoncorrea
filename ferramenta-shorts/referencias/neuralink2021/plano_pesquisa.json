@@ -113,13 +113,6 @@
     "tela com Pong",
     "O Macaco que Jogou Videogame com a Mente"
    ]
-  },
-  {
-   "tipo": "heroi",
-   "item": "chess pc",
-   "consultas": [
-    "chess pc"
-   ]
   }
  ]
 }

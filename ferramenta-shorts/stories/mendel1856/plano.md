@@ -2,18 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, objeto na mao | descobriu (ring + som de alerta); encena: examina (think) @8 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | tropa | encena: examina (point) @1 (acao + som de efeito); encena: x_espera (point) @8 (acao + som de efeito) | -
-b3 | two | -  | tropa, interior | - | -
-b4 | two | -  | interior | encena: pensa (think) @2 (acao + som de efeito) | -
-b5 | wide | -  | tropa, objeto na mao | encena: x_planta (hammer) @1 (acao + som de efeito); encena: fala (point) @7 (acao + som de efeito) | -
+b0 | two | -  | tropa, placa: ERVILHAS = HERANÇA, objeto na mao | descobriu (ring + som de alerta) | -
+b1 | two | -  | interior, objeto na mao | - | -
+b2 | wide | -  | tropa, mapa | - | -
+b3 | two | -  | tropa | encena: examina (point) @0 (acao + som de efeito); encena: x_espera (point) @0 (acao + som de efeito) | -
+b4 | two | -  | tropa, interior | - | -
+b5 | wide | -  | tropa, objeto na mao | encena: x_planta (hammer) @1 (acao + som de efeito); encena: fala (point) @5 (acao + som de efeito) | -
 b6 | two | -  | batalha aberta com tiros, tropa, interior, placa: 3 : 1 | - | -
-b7 | two | -  | interior | descobriu (ring + som de alerta); encena: examina (think) @1 (acao + som de efeito) | -
-b8 | close | -  | interior, objeto na mao | encena: escreve (write) @0 (acao + som de efeito) | -
-b9 | two | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | encena: olha (point) @13 (acao + som de efeito) | -
-b10 | wide | -  | tropa | - | -
-b11 | close | -  | placa: COMENTE! | - | -
+b7 | two | -  | interior | - | -
+b8 | two | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | - | -
+b9 | two | -  | tropa, placa: ERVILHAS = HERANÇA, objeto na mao | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 
-Mistura de planos: close 16% | medio 59% | aberto 20% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 0% | medio 74% | aberto 23% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

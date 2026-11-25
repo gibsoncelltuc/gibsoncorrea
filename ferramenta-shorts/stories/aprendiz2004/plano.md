@@ -3,17 +3,15 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | close | -  | placa: VOCÊ ESTÁ DEMITIDO! | - | -
-b1 | two | -  | placa: O APRENDIZ | - | -
-b2 | crowd | -  | tropa | encena: x_discute (point) @2 (acao + som de efeito) | -
-b3 | two | -  | - | vender (stars + som de sino); encena: negocio (reach) @9 (acao + som de efeito) | -
-b4 | group | -  | interior | encena: perde (facepalm) @2 (acao + som de efeito) | -
-b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | encena: olha (point) @8 (acao + som de efeito) | -
+b1 | close | -  | interior | - | -
+b2 | two | -  | placa: O APRENDIZ | - | -
+b3 | crowd | -  | batalha aberta com tiros, tropa | - | -
+b4 | group | -  | interior | encena: perde (facepalm) @3 (acao + som de efeito) | -
+b5 | close | -  | interior, placa: VOCÊ ESTÁ DEMITIDO! | - | -
 b6 | crowd | -  | batalha aberta com tiros, tropa, placa: 28 MILHÕES | - | -
-b7 | two | -  | placa: $250.000 | (rosto) laugh (expr + som de efeito); venceu (stars + som de sino); ganhou (stars + som de sino); encena: vence (up) @2 (acao + som de efeito) | -
-b8 | wide | -  | batalha aberta com tiros, placa: ROBERTO JUSTUS, mapa | - | -
-b9 | two | -  | placa: 2004-2015 | encena: fala (point) @1 (acao + som de efeito) | -
-b10 | close | -  | - | - | -
-b11 | two | -  | placa: COMENTE! | - | -
+b7 | two | -  | placa: ROBERTO JUSTUS, mapa | - | -
+b8 | close | -  | placa: 2004-2015 | - | -
+b9 | close | -  | placa: VOCÊ ESTÁ DEMITIDO! | - | -
 
-Mistura de planos: close 28% | medio 55% | aberto 12% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 54% | medio 37% | aberto 7% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal

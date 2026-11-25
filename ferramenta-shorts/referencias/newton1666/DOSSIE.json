@@ -9,7 +9,8 @@
   "cenarios": [
    "countryside",
    "interior madeira",
-   "loc_campo"
+   "loc_campo",
+   "street"
   ],
   "cenarios_trocados": [
    [
@@ -39,8 +40,9 @@
   "buildings/barn",
   "buildings/house_small",
   "buildings/house_two",
+  "buildings/shop",
   "kit/apple",
-  "kit/moon",
+  "kit/lua_ceu",
   "kit/room_europa_wood",
   "mk/Bookcase_2",
   "mk/Chair_1",

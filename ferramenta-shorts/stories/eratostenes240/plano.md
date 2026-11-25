@@ -2,17 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | - | encena: examina (think) @2 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | objeto na mao | encena: x_le (think) @1 (acao + som de efeito) | -
-b3 | wide | - calor | batalha aberta com tiros | - | -
-b4 | two | - calor | tropa | - | -
-b5 | two | -  | - | encena: pensa (think) @1 (acao + som de efeito) | -
+b0 | two | -  | placa: UMA VARA = O PLANETA | encena: examina (think) @2 (acao + som de efeito) | -
+b1 | wide | -  | tropa | chegou (dust + som de impacto) | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | wide | -  | batalha aberta com tiros, objeto na mao | - | -
+b4 | two | -  | - | - | -
+b5 | two | -  | tropa | - | -
 b6 | two | -  | batalha aberta com tiros, tropa | - | -
-b7 | two | - calor | tropa | - | -
-b8 | two | -  | interior, objeto na mao | encena: olha (point) @4 (acao + som de efeito) | -
-b9 | orbit | -  | tropa | - | -
-b10 | close | -  | placa: COMENTE! | - | -
+b7 | two | -  | tropa | - | -
+b8 | two | -  | tropa | - | -
+b9 | two | -  | placa: UMA VARA = O PLANETA | - | -
 
-Mistura de planos: close 10% | medio 68% | aberto 18% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 2% | medio 76% | aberto 19% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

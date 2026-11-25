@@ -4,17 +4,17 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: O Ditador Mais Legal do Mundo
 - Epoca: 2021 | Lugar: San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais | Quando: setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia
-- HEROIS (objeto): kit/phone
-- HEROIS (personagens): BUK, JOR
+- HEROIS (objeto): kit/phone, kit/volcano
+- HEROIS (personagens): BUK
 - Cenarios: interior loja, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Ditador Mais Legal do Mundo | O Ditador Mais Legal do Mundo / Um Era Nayib Bukele El Salvador Dias Primeiro 2021 | SEM REFERENCIA
+tema | O Ditador Mais Legal do Mundo | O Ditador Mais Legal do Mundo / Um Em Nayib Bukele El Salvador 2021 | SEM REFERENCIA
 lugar | San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais | San Salvador El Salvador / San Salvador El Salvador 2021 | SEM REFERENCIA
 lugar | El Salvador | El Salvador 2021 / El Salvador landscape | SEM REFERENCIA
 lugar | Mundo | Mundo 2021 / Mundo landscape | SEM REFERENCIA
@@ -26,6 +26,7 @@ objeto | celular com o perfil | celular com o perfil / celular com o perfil 2021
 objeto | cartazes de protesto | cartazes de protesto / cartazes de protesto 2021 | SEM REFERENCIA
 objeto | urna de votacao | urna de votacao / urna de votacao 2021 | SEM REFERENCIA
 heroi | phone | celular com o perfil / O Ditador Mais Legal do Mundo | SEM REFERENCIA
+heroi | volcano | volcano | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em setembro de 2021 Bukele mudou a bio no Twitter para "Dictador" e depois "El dictador mas cool del mundo mundial"; em 2024 usou "Philosopher King" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)

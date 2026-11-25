@@ -2,57 +2,64 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça."
+## b0: "Uma maçã que não caiu na cabeça de Newton mudou tudo."
 - LOCAL: loc_campo; hora: pordosol
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
 - PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
-- OBJETO kit/moon: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.9 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "LENDA?" flutuando no alto, na palavra 1 da frase
 
-## b1: "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge."
-- LOCAL: vila medieval; hora: day
+## b1: "Ela explicou por que a Lua não cai em cima da gente."
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+
+## b2: "Em 1666, a peste fechou a universidade de Cambridge."
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: EST no centro, expressao scared; multidao de 10 (POV) marchando ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "CAMBRIDGE FECHADA" numa placa atras dos personagens, na palavra 1 da frase
 - MAPA: INGLATERRA (cobre a tela 1-2 s)
 
-## b2: "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe."
+## b3: "Isaac Newton, de 23 anos, voltou para a fazenda."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao smile, segura bag; MAE na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b3: "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem."
+## b4: "Ficava debaixo de uma macieira, pensando."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao neutral, segura book; AMI na direita, expressao suspicious; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b4: "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele."
+## b5: "Acontece que uma maçã caiu bem na frente dele."
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW na esquerda, expressao surprised; AMI na direita, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
 - SOM: ding@60
 
-## b5: "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo."
+## b6: "Ele se perguntou: por que ela cai sempre para baixo?"
 - LOCAL: vila rural (casas, cercas, campo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW no centro, expressao suspicious; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/apple: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - TEXTO NA TELA: "PARA BAIXO" numa placa atras dos personagens, na palavra 1 da frase
 
-## b6: "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?"
+## b7: "Se a força puxa a maçã, puxa a Lua também?"
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/moon no centro, manobra "parado"
-- PASSOS NA TELA: -
+- OBJETO: kit/lua_ceu no centro, manobra "parado"
+- PASSOS NA TELA: TERRA PUXA A MAÇÃ -> TERRA PUXA A LUA -> MESMA FORÇA
 
-## b7: "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete."
-- LOCAL: vila rural (casas, cercas, campo); hora: day
+## b8: "Isso virou a lei da gravidade de Newton."
+- LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: NEW no centro, expressao smug, segura book; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
@@ -62,15 +69,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@70
 - TEXTO NA TELA: "PRINCIPIA - 1687" numa placa atras dos personagens, na palavra 1 da frase
 
-## b8: "Anos depois, ele mesmo contou essa história a um amigo."
-- LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: NEW na esquerda, expressao smile, segura mug; AMI na direita, expressao smile; sem multidao; acao: cochichar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b9: "No fim, a maçã mudou a ciência e nem foi comida."
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)
-- PERSONAGENS: NEW no centro, expressao smug; sem multidao; acao: fala/gesto
-- OBJETO kit/apple: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.0 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+## b9: "E a maçã nem foi comida. Foi assim que..."
+- LOCAL: loc_campo; hora: pordosol
+- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e lua_ceu juntos (camera a 8.0 m)
+- PERSONAGENS: NEW no centro, expressao smile, segura apple; sem multidao; acao: fala/gesto
+- OBJETO kit/lua_ceu: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 

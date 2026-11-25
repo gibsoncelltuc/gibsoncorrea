@@ -1,7 +1,13 @@
 {
  "id": "falcon2015",
  "ano": 2015,
- "cenarios_trocados": [],
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ]
+ ],
  "metricas": {
   "acoes_encenadas": 100,
   "acoes_chave_com_efeito": 100,
@@ -18,9 +24,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 17,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Durante décadas, todo foguete era jogado fora depois de um voo. Até que um desceu de ré.",
+   "frase": "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -28,21 +34,23 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
-    "POV",
+    "MUS",
     "POV"
    ],
    "multidao": 6,
-   "objetos": [],
-   "palavras": 13,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 8,
    "cena": "b1",
-   "frase": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
+   "frase": "E hoje isso virou rotina no mundo inteiro.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "wide",
@@ -53,17 +61,17 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 13,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.",
+   "frase": "Elon Musk queria reaproveitar foguetes. Muitos achavam impossível.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
     "ENG"
    ],
@@ -71,9 +79,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 13,
+   "palavras": 6,
    "cena": "b3",
-   "frase": "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.",
+   "frase": "As primeiras tentativas tombaram no mar.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -87,7 +95,7 @@
    "cenario": "harbor"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "MUS"
    ],
@@ -95,45 +103,9 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "ENA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon9_land"
-   ],
-   "palavras": 13,
-   "cena": "b5",
-   "frase": "Depois de soltar o topo, a parte de baixo voltou para a Terra.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "ENG"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon9_land"
-   ],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
+   "frase": "Em 2015, o Falcon 9 decolou com onze satélites.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -142,6 +114,46 @@
   },
   {
    "camera": "two",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Depois de soltar o topo, a parte de baixo voltou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Acontece que ela desceu de ré, com o motor freando a queda.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/falcon9_land (sobe)",
+    "emissao": "jato",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
    "personagens": [
     "ENG"
    ],
@@ -159,7 +171,7 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "reveal",
+   "camera": "group",
    "personagens": [
     "ENA",
     "ENG"
@@ -184,49 +196,14 @@
    "objetos": [
     "kit/falcon9_land"
    ],
-   "palavras": 16,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.",
+   "frase": "Antes, o foguete ia para o lixo. Até que...",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "MUS",
-    "POV"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon9_land"
-   ],
-   "palavras": 6,
-   "cena": "b10",
-   "frase": "Hoje, pousar de ré virou rotina.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "harbor"
   }
  ]
 }

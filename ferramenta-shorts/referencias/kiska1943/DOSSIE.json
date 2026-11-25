@@ -36,7 +36,6 @@
   "kit/aviao_ww2",
   "kit/canhao_moderno",
   "kit/dog_sit",
-  "kit/lupa",
   "kit/navio_encouracado",
   "kit/navio_vapor",
   "kit/room_azul_stone",
@@ -46,8 +45,7 @@
   "mk/Chest_Wood",
   "mk/Table_Large",
   "ship",
-  "vehicles/airplane",
-  "war/sandbags"
+  "vehicles/airplane"
  ],
  "pesquisa_visual": {
   "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",

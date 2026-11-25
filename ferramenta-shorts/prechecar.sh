@@ -37,7 +37,10 @@ PYA
   python3 - acoes_frames.txt $F/stories/$ID/grade_acoes.jpg <<'PYB'
 import sys
 from PIL import Image, ImageDraw
-L = [l.rstrip('\n').split('\t') for l in open(sys.argv[1])]; im = Image.open('x_strip.jpg'); n = len(L); w = im.width // max(1, n); h = im.height; C = 7
+L = [l.rstrip('\n').split('\t') for l in open(sys.argv[1]) if l.strip()]
+if not L: Image.new('RGB', (400, 60), 'white').save(sys.argv[2]); print(f'-> {sys.argv[2]} (0 acoes catalogadas)'); sys.exit(0)   # 25/11 Lagosta: roteiro curto sem acao catalogada quebrava a fila
+im = Image.open('x_strip.jpg'); n = len(L); w = im.width // max(1, n); h = im.height; C = 7
+if w < 1: Image.new('RGB', (400, 60), 'white').save(sys.argv[2]); sys.exit(0)
 out = Image.new('RGB', (C * w, ((n + C - 1) // C) * (h + 26)), 'white'); d = ImageDraw.Draw(out)
 for i, (f, t) in enumerate(L):
     x, y = (i % C) * w, (i // C) * (h + 26); out.paste(im.crop((i * w, 0, (i + 1) * w, h)), (x, y)); d.text((x + 3, y + h + 2), t[:46], fill='black'); d.text((x + 3, y + h + 13), t[46:92], fill='black')

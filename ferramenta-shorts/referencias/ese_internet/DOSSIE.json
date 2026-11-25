@@ -1,0 +1,84 @@
+{
+ "id": "ese_internet",
+ "titulo": "E Se EP 04 - E Se a Internet Acabasse por Um Dia?",
+ "ancoras": {
+  "ano": 2021,
+  "era": "atual (1950+)",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "interior loja",
+   "loc_cidade",
+   "loc_patio",
+   "loc_pista"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ],
+   [
+    "cena 8",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/ball",
+  "kit/coin",
+  "kit/miners",
+  "kit/phone",
+  "kit/room_azul_shop",
+  "vehicles/airplane"
+ ],
+ "pesquisa_visual": {
+  "local": "cidades de hoje: ruas, bancos, hospitais, aeroportos",
+  "quando": "hoje (hipotese); quedas reais em 4/10/2021 e 19/7/2024",
+  "participantes": [
+   "pessoas comuns com celular",
+   "funcionarios de banco e hospital",
+   "passageiros"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "ruas com gente olhando o celular, filas em banco, aeroporto parado, praca com gente conversando",
+  "objetos": [
+   "celular",
+   "computador",
+   "dinheiro de papel"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2021_Facebook_outage",
+   "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages",
+  "https://en.wikipedia.org/wiki/2021_Facebook_outage"
+ ],
+ "falta": []
+}

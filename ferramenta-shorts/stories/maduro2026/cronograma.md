@@ -1,29 +1,28 @@
 # CRONOGRAMA - Poder e Fama EP 22 - A Operação da Madrugada
 
-Gerado em 24/11 23:45 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:26 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital, e
-b1 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em janeiro de dois mil e vinte e seis, em Caracas, na Venezuela, n
-b2 | simples | loc_pista | group | MAD | - | helicopter_air | - | Era o presidente venezuelano Nicolás Maduro, acusado pela justiça amer
-b3 | chave | loc_pista | crowd | SOL | 48 | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram soldados da Força Delta direto 
-b4 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | corpo: kit/helicopter_air (paira); emissao: velocidade; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Ao mesmo tempo, ataques aéreos desligaram as defesas antiaéreas do paí
-b5 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, Maduro foi capturado e levado pa
-b6 | simples | interior loja | two | TRU, GEN | - | - | - | Trump acompanhou tudo de longe, na Flórida, ao lado do diretor da CIA 
-b7 | simples | loc_pista | two | AGE, MAD | - | scroll, airplane | - | Maduro foi levado de avião para Nova York, onde responde a um processo
-b8 | simples | loc_patio | wide | POV, POV, POV | 18 | - | - | Nenhum militar americano morreu. A notícia parou o mundo, e dividiu op
-b9 | chave | loc_patio | wide | TRU | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A operação ganhou um nome que resume tudo: Resolução Absoluta.
-b10 | simples | loc_cidade | close | MAD | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_cidade | two | SOL, MAD | - | apartment, house_two, helicopter_air, lamppost | - | Um presidente foi capturado de madrugada, dentro da própria capital.
+b1 | simples | loc_pista | wide | TRU | - | helicopter_air | - | E tudo levou menos de três horas.
+b2 | simples | loc_cidade | reveal | POV, POV | 6 | - | - | Foi em janeiro de 2026, em Caracas, na Venezuela.
+b3 | simples | loc_pista | two | MAD | - | helicopter_air | - | O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterroris
+b4 | chave | loc_pista | crowd | SOL | - | helicopter_air | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Às duas da manhã, helicópteros levaram a Força Delta até ele.
+b5 | explicativa | loc_estudio | two | sem personagem | - | helicopter_air | corpo: kit/helicopter_air (paira); emissao: velocidade; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Ao mesmo tempo, ataques aéreos desligaram as defesas do país.
+b6 | simples | loc_pista | low | SOL, MAD | - | - | - | Acontece que, em menos de três horas, ele já estava capturado.
+b7 | simples | loc_patio | two | AGE, MAD | - | scroll, airplane | - | Foi levado de avião para Nova York.
+b8 | chave | loc_patio | wide | POV, POV, POV | 18 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A notícia dividiu o mundo inteiro.
+b9 | simples | loc_cidade | wide | SOL, MAD | - | helicopter_air | - | A operação se chamou Resolução Absoluta. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/15 itens) | PENDENTE | python3 pesquisar.py maduro2026
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/14 itens) | PENDENTE | python3 pesquisar.py maduro2026
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
 4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
 5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 

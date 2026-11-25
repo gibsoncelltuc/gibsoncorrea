@@ -5,21 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | stadium | group | 2 | conversar, INTERAGEM: susto | kit/clipper | - | -
-b1 | loc_cidade | reveal | 8 | parados (so fala e pisca) | kit/marco_detroit | - | -
-b2 | interior loja | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b1 | stadium | wide | 2 | reagir | kit/ring | - | -
+b2 | loc_cidade | reveal | 8 | parados (so fala e pisca) | - | - | -
 b3 | interior pedra | group | 2 | conversar, INTERAGEM: cochichar | kit/clipper | - | -
-b4 | stadium | orbit | 33 | comemorar, batalha | kit/ball | - | -
-b5 | stadium | wide | 2 | encena | kit/ring | - | -
-b6 | stadium | wide | 1 | encena | kit/ring | - | -
-b7 | stadium | wide | 19 | comemorar, batalha | kit/ring, kit/ball | - | -
-b8 | stadium | two | 3 | conversar, INTERAGEM: discutir | kit/ring, kit/clipper | - | -
-b9 | stadium | wide | 2 | reagir | kit/ring | - | -
-b10 | interior madeira | two | 2 | comemorar, INTERAGEM: pular, alguem chega andando | - | - | -
-b11 | interior madeira | close | 1 | conversar | - | - | -
+b4 | stadium | group | 21 | comemorar, INTERAGEM: pular, batalha | kit/ball | - | -
+b5 | stadium | wide | 2 | parados (so fala e pisca) | kit/ring | - | -
+b6 | stadium | group | 19 | comemorar, batalha | kit/ring, kit/ball | - | -
+b7 | stadium | two | 3 | conversar, INTERAGEM: discutir | kit/ring, kit/clipper | - | -
+b8 | stadium | group | 2 | conversar, INTERAGEM: discutir | kit/ring | - | -
+b9 | stadium | group | 2 | comemorar, INTERAGEM: o outro se aproxima | kit/clipper | - | -
 
 OBJETO HEROI: nenhum achado (ponha 'heroi': 'kit/...' no topo do roteiro)
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b7
-Interacoes entre personagens: b0 susto, b2 discutir, b3 cochichar, b8 discutir, b10 pular
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b6
+Interacoes entre personagens: b0 susto, b3 cochichar, b4 pular, b7 discutir, b8 discutir, b9 o outro se aproxima
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 2 de 10
 FALTA MODELAR: nada

@@ -7,7 +7,7 @@
    "item": "A Batalha de Los Angeles",
    "consultas": [
     "A Batalha de Los Angeles",
-    "Uma Era Pearl Harbor Los Angeles Na Califórnia 1942"
+    "Uma Em Los Angeles Japão 1942"
    ]
   },
   {
@@ -103,22 +103,6 @@
    "item": "canhao moderno",
    "consultas": [
     "canhao moderno"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "canhao da epoca",
-   "consultas": [
-    "cannon 1942",
-    "cannon"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "soldado da epoca",
-   "consultas": [
-    "soldier uniform 1942",
-    "soldier uniform"
    ]
   }
  ]

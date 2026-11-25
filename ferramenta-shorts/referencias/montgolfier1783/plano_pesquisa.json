@@ -7,7 +7,7 @@
    "item": "Os Primeiros Passageiros do Céu",
    "consultas": [
     "Os Primeiros Passageiros do Céu",
-    "Os Foram Era França Os Montgolfier 1783"
+    "Os Foram Em Montgolfier 1783"
    ]
   },
   {
@@ -107,11 +107,11 @@
    ]
   },
   {
-   "tipo": "epoca",
-   "item": "fabrica da epoca",
+   "tipo": "mecanismo",
+   "item": "Fizeram um balão gigante de pano e papel.",
    "consultas": [
-    "factory 1783",
-    "factory"
+    "fizeram balao gigante papel",
+    "balloon diagram"
    ]
   },
   {

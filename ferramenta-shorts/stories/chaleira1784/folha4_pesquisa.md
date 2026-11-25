@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: A Guerra da Chaleira
 - Epoca: 1784 | Lugar: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo | Quando: 8 de outubro de 1784, dia claro de outono
 - HEROIS (objeto): kit/kettle, kit/navio_fragata
-- HEROIS (personagens): IMP, COZ, MAR, HOL
+- HEROIS (personagens): COZ, IMP, MAR, HOL
 - Cenarios: harbor, interior madeira, interior pedra, loc_campo
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Chaleira | Kettle War 1784 Dolfijn Le Louis Scheldt / A Guerra da Chaleira / Uma Foi Holanda Escalda José Segundo Antuérpia 1784 | SEM REFERENCIA
+tema | A Guerra da Chaleira | Kettle War 1784 Dolfijn Le Louis Scheldt / A Guerra da Chaleira / Uma Em Holanda Escalda 1784 | SEM REFERENCIA
 lugar | Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R | Antwerp Scheldt river 18th century painting ships / Rio Escalda / Rio Escalda Scheldt entre Antuérpia e a Holanda Países Baixos austríacos e República Holan | manual: gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa
 lugar | Holanda | Dutch Republic 18th century harbor painting / Holanda 1784 / Holanda landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1784 | 1784 fashion clothing / 18th century clothing painting | SEM REFERENCIA

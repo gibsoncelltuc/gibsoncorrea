@@ -32,7 +32,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "boat",
-  "buildings/shop",
+  "crate",
   "kit/fishing_net",
   "kit/lobster",
   "kit/navio_destroier",

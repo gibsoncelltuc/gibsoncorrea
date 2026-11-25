@@ -1,0 +1,65 @@
+{
+ "id": "ese_dinheiro",
+ "titulo": "E Se EP 06 - E Se o Dinheiro Sumisse do Mundo?",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "harbor",
+   "interior loja",
+   "interior madeira",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/coin",
+  "kit/room_europa_wood",
+  "kit/room_rosa_shop",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Nightstand_Shelf",
+  "nature/rocks"
+ ],
+ "pesquisa_visual": {
+  "local": "cidade de hoje (padaria, feira) e a ilha de Yap, na Micronesia",
+  "quando": "hoje (hipotese); pedras rai de Yap usadas ha seculos",
+  "participantes": [
+   "padeiro",
+   "fazendeiro",
+   "professor",
+   "moradores"
+  ],
+  "roupas": {
+   "PAD": "padeiro de avental",
+   "FAZ": "fazendeiro de chapeu de palha",
+   "PRO": "professor",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "padaria, feira de troca na praca, ilha tropical com grandes pedras furadas",
+  "objetos": [
+   "moedas",
+   "galinha",
+   "cesta de comida",
+   "pedras rai de Yap"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Rai_stones",
+   "https://en.wikipedia.org/wiki/Barter"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://en.wikipedia.org/wiki/Barter"
+ ],
+ "falta": []
+}

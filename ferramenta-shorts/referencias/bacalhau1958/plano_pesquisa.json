@@ -7,7 +7,7 @@
    "item": "As Guerras do Bacalhau",
    "consultas": [
     "As Guerras do Bacalhau",
-    "Islândia Entre Guerras Bacalhau Islândia 1958"
+    "Islândia Foram Guerras Bacalhau 1958"
    ]
   },
   {
@@ -125,14 +125,6 @@
    "item": "fishing net",
    "consultas": [
     "fishing net"
-   ]
-  },
-  {
-   "tipo": "epoca",
-   "item": "navio da epoca",
-   "consultas": [
-    "ship 1958",
-    "ship"
    ]
   }
  ]

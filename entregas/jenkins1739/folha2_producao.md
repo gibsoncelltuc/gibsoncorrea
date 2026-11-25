@@ -14,20 +14,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol paro...
 - Cenario: harbor | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): JEN (variante 0, expressao nervous); MAR (variante 0, expressao neutral) | multidao: 8 de MAR
+- Personagens principais (1): JEN (variante 0, expressao nervous) | multidao: 0 de 
 - Animacao: reagir
 - Objetos/modelos: ship, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, cuba, navio, perto
 - RISCOS: nenhum
 
 ## Cena b2 - Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha del...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): CAP (variante 0, expressao angry); JEN (variante 0, expressao scared)
-- Animacao: golpe | interacao: empurrar | batalha encenada
+- Animacao: golpe | interacao: empurrar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ear_jar
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitao, contrabando, orelha
 - RISCOS: nenhum
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Depois de quase dez anos, os dois lados fizeram a paz.
-- Cenario: palace | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): ESP (variante 0, expressao relief, segura paper); ING (variante 0, expressao relief)
@@ -83,7 +83,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um séc...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): PRE (variante 0, expressao smile, segura book); ING (variante 0, expressao grin)
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): JEN (variante 0, expressao sad); ESP (variante 0, expressao smug)
@@ -103,7 +103,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): JEN (variante 0, expressao grin)
@@ -122,7 +122,7 @@ ship | b1, b6 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 68% | aberto 11% | detalhe 5%
+- Objeto heroi: kit/ear_jar | grandes momentos: b2, b6 | planos abertos: 2 | mistura: close 17% | medio 63% | aberto 16% | detalhe 5%
 - Interacoes: b0 discutir, b2 empurrar, b3 cochichar, b4 susto, b5 cochichar, b7 apertar, b8 entregar, b9 avanca e o outro recua
 - RISCOS GERAIS: nenhum
 

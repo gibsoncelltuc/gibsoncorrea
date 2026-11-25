@@ -2,17 +2,15 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | - tempestade | - | relampago no ceu na palavra + trovao (acao + som de efeito); encena: x_solta (up) @2 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | - | -
-b2 | two | -  | interior | - | -
-b3 | two | - tempestade | - | - | -
-b4 | group | - chuva | - | encena: prende (push) @7 (acao + som de efeito) | -
-b5 | close | - tempestade | interior | - | -
-b6 | orbit | - tempestade | batalha aberta com tiros, tropa, objeto na mao | encena: brilha (point) @11 (acao + som de efeito) | -
-b7 | two | -  | interior | encena: pensa (think) @2 (acao + som de efeito) | -
-b8 | wide | - limpo | batalha aberta com tiros, tropa, placa: PARA-RAIOS | - | -
-b9 | close | -  | interior | (rosto) sad (expr + som de efeito); perdeu (puff + som de baque); briga (puff + som de baque) | -
-b10 | close | -  | placa: COMENTE! | - | -
+b0 | two | -  | placa: PIPA x RAIO | relampago no ceu na palavra + trovao (acao + som de efeito) | -
+b1 | two | -  | interior | descobriu (ring + som de alerta) | -
+b2 | reveal | -  | tropa, mapa | - | -
+b3 | two | -  | interior | - | -
+b4 | two | -  | - | encena: prende (push) @3 (acao + som de efeito) | -
+b5 | two | -  | batalha aberta com tiros, tropa, objeto na mao | encena: brilha (point) @7 (acao + som de efeito) | -
+b6 | two | -  | interior | - | -
+b7 | orbit | -  | batalha aberta com tiros, tropa, placa: PARA-RAIOS | - | -
+b8 | two | -  | placa: PIPA x RAIO | - | -
 
-Mistura de planos: close 27% | medio 56% | aberto 14% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 2% | medio 82% | aberto 10% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

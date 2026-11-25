@@ -7,7 +7,7 @@
 - Roupas: {'HON': 'camisa azul e calcao branco', 'SAL': 'camisa branca com faixa azul e calcao azul', 'PRE': 'terno escuro e chapeu coco', 'SOL': 'farda verde com capacete'}
 - Cenario real: estadios cheios de torcida, rua de cidade da America Central de 1969 e fronteira com aviao e soldados
 - Objetos: ['bola de futebol', 'trave', 'aviao de combate', 'panela']
-- Cenarios usados no video: interior madeira, stadium, street
+- Cenarios usados no video: interior madeira, loc_campo, stadium, street
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carroca, castical, encouracado, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

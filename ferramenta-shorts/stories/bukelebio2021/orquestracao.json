@@ -13,22 +13,12 @@
    "loc_cidade"
   ],
   [
-   "cena 5",
+   "cena 3",
    "street",
    "loc_cidade"
   ],
   [
    "cena 6",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 10",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
    "street",
    "loc_cidade"
   ]
@@ -59,6 +49,25 @@
    "cenario": "interior pedra"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E ninguém sabia dizer se era piada ou não.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
    "camera": "crowd",
    "personagens": [
     "POV",
@@ -66,14 +75,11 @@
    ],
    "multidao": 30,
    "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "kit/volcano",
-    "nature/lamppost"
+    "kit/volcano"
    ],
-   "palavras": 21,
-   "cena": "b1",
-   "frase": "Era Nayib Bukele, de El Salvador, em dois mil e vinte e um. Dias antes, milhares protestaram nas ruas da capital.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -95,9 +101,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 9,
-   "cena": "b2",
-   "frase": "Primeiro, ele escreveu só uma palavra no perfil: ditador.",
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Ele respondeu escrevendo uma palavra no perfil: ditador.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -113,9 +119,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 15,
-   "cena": "b3",
-   "frase": "Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Dias depois, trocou para: o ditador mais legal do mundo.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -137,29 +143,10 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 8,
-   "cena": "b4",
-   "frase": "Acontece que a notícia se espalhou pelo mundo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "JOR",
-    "JOR2"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/phone"
-   ],
-   "palavras": 18,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.",
-   "classe": "simples",
+   "frase": "Acontece que a frase se espalhou pelo mundo inteiro.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -173,9 +160,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Vários comentaristas leram aquilo como uma ironia, feita para os críticos dele.",
+   "frase": "Muitos leram como ironia, para provocar os críticos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -192,9 +179,9 @@
     "kit/ballot_box",
     "kit/phone"
    ],
-   "palavras": 19,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Anos depois, no dia da eleição de dois mil e vinte e quatro, o perfil dele dizia: rei filósofo.",
+   "frase": "Em 2024, o perfil dele dizia: rei filósofo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -204,55 +191,20 @@
   {
    "camera": "two",
    "personagens": [
-    "BUK",
-    "JOR2"
+    "BUK"
    ],
    "multidao": 0,
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b8",
-   "frase": "Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.",
+   "frase": "Provocação ou confissão? Só sei que foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/phone"
-   ],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   }
  ]
 }

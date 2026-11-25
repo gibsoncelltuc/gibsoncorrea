@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'jaqueta escura', 'CAN': 'camiseta e bone', 'JOR': 'camisa social com bloco de notas'}
 - Cenario real: campo seco e plano com fileiras de baterias brancas Tesla Powerpack e turbinas eolicas ao fundo; escritorio com celular
 - Objetos: ['baterias Tesla Powerpack em fileiras', 'celular com o tweet', 'contrato']
-- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_campo, loc_cidade
+- Cenarios usados no video: interior loja, interior madeira, loc_campo, loc_cidade
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

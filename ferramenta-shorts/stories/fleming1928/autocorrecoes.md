@@ -50,3 +50,52 @@
 ## 25/11 03:05 autocorrecao de visibilidade
 - b5: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
 - b6: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 08:47 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 08:51 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 08:54 autocorrecao de visibilidade
+- b0: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto "kit/bancada" saiu com 0% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 09:36 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri_mofo" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 09:48 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri_mofo" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 09:55 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri_mofo" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 09:58 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b0: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/petri_mofo" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b2: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/bancada" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b6: quadro_manual (o roteiro fixou o quadro), objeto "kit/petri_mofo" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

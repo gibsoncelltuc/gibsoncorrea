@@ -1,42 +1,40 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 25/11 07:52 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | JOS | - | balloon, marco_versalhes | - | Os primeiros passageiros de um balão não foram pessoas. Foram uma ovel
-b1 | transicao | street | reveal | POV, POV | 6 | marco_versalhes | - | Era mil setecentos e oitenta e três, na França.
-b2 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fuma
-b3 | explicativa | loc_campo | two | sem personagem | - | balloon, fire | corpo: kit/balloon (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Então fizeram um balão gigante de pano e papel, cheio de ar quente.
-b4 | simples | interior madeira | two | NOB, ETI | - | - | - | Só que ninguém sabia se dava para respirar lá em cima.
-b5 | chave | loc_campo | wide | JOS | - | balloon, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entr
-b6 | simples | street | crowd | REI, RAI | 30 | marco_versalhes | - | Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no me
-b7 | chave | loc_campo | orbit | POV | - | balloon, balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão levantou voo de verdade, com os bichos dentro.
-b8 | simples | loc_campo | two | ETI | - | balloon | - | Oito minutos depois, ele desceu num bosque a três quilômetros dali, e 
-b9 | simples | street | two | POV, POV | - | balloon | - | Dois meses depois, outro balão levou dois homens por cima de Paris.
-b10 | transicao | loc_campo | wide | ETI | - | balloon, marco_versalhes | - | Tudo graças a três bichos corajosos.
-b11 | simples | street | close | JOS | - | balloon | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | street | two | JOS | - | balloon, marco_versalhes | - | Os primeiros passageiros de um balão não foram pessoas.
+b1 | transicao | loc_campo | wide | JOS | - | balloon, marco_versalhes | - | Foram uma ovelha, um pato e um galo.
+b2 | chave | street | wide | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1783, os irmãos Montgolfier faziam papel.
+b3 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Viram que fumaça quente fazia sacos de papel subirem.
+b4 | explicativa | loc_campo | two | sem personagem | - | balloon, campfire, fire | corpo: kit/balloon (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Fizeram um balão gigante de pano e papel.
+b5 | simples | interior madeira | two | NOB, ETI | - | - | - | Ninguém sabia se dava para respirar lá em cima.
+b6 | chave | loc_campo | orbit | POV | - | balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão subiu de verdade, com os bichos dentro.
+b7 | simples | loc_campo | two | ETI | - | balloon | - | Oito minutos depois, pousou, e os bichos estavam vivos.
+b8 | simples | street | group | POV, POV | 10 | balloon_air, marco_versalhes | - | Dois meses depois, um balão levou dois homens.
+b9 | simples | street | wide | JOS | - | balloon, marco_versalhes | - | Ninguém quis ser cobaia. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/15 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (10/14 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
-5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
-6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
-7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh montgolfier1783
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | REFAZER (a etapa anterior mudou) | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh montgolfier1783
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh montgolfier1783
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local montgolfier1783 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 9. Revisao escrita e aprovacao
+**Etapa atual:** 4. Travas do roteiro
 

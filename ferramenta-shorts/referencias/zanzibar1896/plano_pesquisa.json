@@ -8,7 +8,7 @@
    "consultas": [
     "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
     "A Guerra de 38 Minutos",
-    "Uma Foi Zanzibar 1896"
+    "Em Zanzibar 1896"
    ]
   },
   {
@@ -118,9 +118,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
+   "item": "O palácio pegou fogo, e o primo fugiu.",
    "consultas": [
-    "palacio pegou artilharia sultao calada",
+    "palacio pegou primo fugiu",
     "forte colonial diagram"
    ]
   }

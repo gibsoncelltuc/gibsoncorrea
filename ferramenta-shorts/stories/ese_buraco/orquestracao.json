@@ -1,0 +1,212 @@
+{
+ "id": "ese_buraco",
+ "ano": null,
+ "cenarios_trocados": [
+  [
+   "video",
+   "outback",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "CAV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um buraco atravessando a Terra sairia no meio do Pacífico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAV",
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E quem pulasse nele cairia para sempre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "O buraco mais fundo do mundo tem doze quilômetros, na Rússia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Lá embaixo, faz cento e oitenta graus.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "O centro da Terra fica a mais de seis mil quilômetros.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "E é quase tão quente quanto a superfície do Sol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "CAV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Acontece que, se desse para pular, você cairia cada vez mais rápido.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Sairia do outro lado em uns quarenta minutos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAV",
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "E, sem ninguém para segurar, cairia de volta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Ninguém conseguiu ainda. Mas imagina que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

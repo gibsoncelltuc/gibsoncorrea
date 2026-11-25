@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Donald Trump Era Nova York Uma 1989 | SEM REFERENCIA
+tema | O Jogo de Tabuleiro do Trump | O Jogo de Tabuleiro do Trump / Donald Trump Em 1989 | SEM REFERENCIA
 lugar | Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas | Estados Unidos / Estados Unidos 1989 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 1989 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1989 | 1989 fashion clothing / 1989 street photograph | SEM REFERENCIA
@@ -25,7 +25,6 @@ objeto | caixa do jogo Trump: The Game | caixa do jogo Trump The Game / caixa do
 objeto | notas de dinheiro com o rosto de Trump | notas de dinheiro com o rosto de Trump / notas de dinheiro com o rosto de Trump 1989 | SEM REFERENCIA
 objeto | tabuleiro | tabuleiro / tabuleiro 1989 | SEM REFERENCIA
 heroi | boardgame | caixa do jogo Trump The Game / O Jogo de Tabuleiro do Trump | SEM REFERENCIA
-epoca | fabrica da epoca | factory 1989 / factory | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Trump: The Game (Milton Bradley, 1989) esperava vender 2 milhoes e vendeu cerca de 800 mil; relancado em 2004 pela Parker Brothers com o bordao "You're fired" de O Aprendiz (fonte: Wikipedia Trump: The Game)

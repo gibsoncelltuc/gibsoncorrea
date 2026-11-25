@@ -13,12 +13,7 @@
    "loc_cidade"
   ],
   [
-   "cena 8",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 9",
+   "cena 7",
    "street",
    "loc_cidade"
   ]
@@ -39,9 +34,9 @@
    "objetos": [
     "kit/starlink_train"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador.",
+   "frase": "Uma fila de luzes cruzou o céu, e chamaram de ETs.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -55,6 +50,25 @@
    "cenario": "countryside"
   },
   {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E a verdade estava num foguete da Flórida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
    "camera": "reveal",
    "personagens": [
     "AST"
@@ -64,9 +78,9 @@
     "kit/falcon_air",
     "kit/starlink_sat"
    ],
-   "palavras": 24,
-   "cena": "b1",
-   "frase": "Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta satélites de uma vez: os primeiros do Starlink, a internet espacial.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2019, a SpaceX lançou sessenta satélites de uma vez.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -80,40 +94,13 @@
     "JOR"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/starlink_sat"
-   ],
-   "palavras": 13,
-   "cena": "b2",
-   "frase": "Um dia depois, um rastreador de satélites holandês, Marco Langbroek, filmou o céu.",
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Um dia depois, o holandês Marco Langbroek filmou o céu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "countryside"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "AST"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/starlink_train",
-    "nature/picket_fence"
-   ],
-   "palavras": 14,
-   "cena": "b3",
-   "frase": "Ele registrou uma fila de luzes, que levava cerca de três minutos para passar.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
    "acoes_faltando": [],
    "cenario": "countryside"
   },
@@ -126,17 +113,17 @@
    "objetos": [
     "kit/starlink_train"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "Ele viu pelo menos cinquenta e seis objetos brilhando em linha.",
-   "classe": "simples",
+   "frase": "Viu pelo menos cinquenta e seis luzes em fila.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_montanha"
   },
   {
-   "camera": "crowd",
+   "camera": "group",
    "personagens": [
     "JOR"
    ],
@@ -144,9 +131,9 @@
    "objetos": [
     "kit/phone"
    ],
-   "palavras": 16,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "Acontece que o site holandês de avistamentos de OVNIs registrou mais de cento e cinquenta relatos.",
+   "frase": "Acontece que um site de OVNIs recebeu mais de 150 relatos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -155,6 +142,28 @@
     "luz": "clarao",
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Os satélites ainda voavam juntos, logo depois do lançamento.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/starlink_train (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
    },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
@@ -169,9 +178,9 @@
    "objetos": [
     "kit/starlink_sat"
    ],
-   "palavras": 12,
-   "cena": "b6",
-   "frase": "Jornais de vários países explicaram que não eram OVNIs, e sim satélites.",
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Não eram ETs. Eram satélites de internet.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -179,80 +188,28 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
-   "personagens": [],
-   "multidao": 0,
-   "objetos": [
-    "kit/falcon_air"
-   ],
-   "palavras": 11,
-   "cena": "b7",
-   "frase": "Os satélites ainda estavam juntos, em fila, logo depois do lançamento.",
-   "classe": "explicativa",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "kit/starlink_train (parado)",
-    "emissao": "rotulos/graficos",
-    "luz": "estudio",
-    "camera": "2 enquadramentos sem corte seco",
-    "som": "som em cada entrada"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "reveal",
-   "personagens": [
-    "JOR"
-   ],
-   "multidao": 10,
-   "objetos": [
-    "kit/phone"
-   ],
-   "palavras": 16,
-   "cena": "b8",
-   "frase": "A imagem da fila de luzes se espalhou por vários países e foi assunto na internet.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "AST",
-    "JOR2"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/rocket",
-    "kit/starlink_sat"
-   ],
-   "palavras": 22,
-   "cena": "b9",
-   "frase": "Moral da história: se olhar o céu e vir uma fila de luzes, pode ser uma fila de satélites, e não alienígenas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_montanha"
-  },
-  {
-   "camera": "close",
+   "camera": "wide",
    "personagens": [
     "AST"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
+   "objetos": [
+    "kit/starlink_train"
+   ],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Internet no céu, e foi assim que...",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "countryside"
   }
  ]
 }

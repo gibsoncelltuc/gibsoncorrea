@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2007 | Lugar: Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, telao e fogos | Quando: 1 de abril de 2007 (WrestleMania 23), noite
 - HEROIS (objeto): kit/ring, kit/clipper
 - HEROIS (personagens): TRU, VIN, LAS, JUI
-- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, stadium
+- Cenarios: interior pedra, loc_cidade, stadium
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Donald Trump Foi Detroit Trump Vince McMahon 2007 | SEM REFERENCIA
+tema | Trump na Batalha dos Bilionários | Trump na Batalha dos Bilionários / Donald Trump Foi 2007 | SEM REFERENCIA
 lugar | Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, tel | Ford Field Detroit / Ford Field Detroit Michigan 2007 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | SEM REFERENCIA

@@ -3,16 +3,15 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | batalha aberta com tiros, placa: ISLÂNDIA VENCEU | - | -
-b1 | wide | -  | tropa, placa: 1958-1976 | encena: empurra (push) @14 (acao + som de efeito) | -
-b2 | two | -  | placa: BACALHAU | encena: x_pesca (lift) @8 (acao + som de efeito) | -
-b3 | wide | -  | tropa | - | -
-b4 | group | -  | batalha aberta com tiros | - | -
-b5 | group | -  | batalha aberta com tiros | - | -
-b6 | wide | -  | - | - | -
-b7 | two | -  | batalha aberta com tiros, tropa, placa: OTAN, mapa | encena: x_discute (point) @2 (acao + som de efeito); encena: empurra (push) @3 (acao + som de efeito) | -
-b8 | group | -  | placa: VITÓRIA ISLANDESA, objeto na mao | encena: chega (point) @17 (acao + som de efeito) | -
-b9 | close | -  | placa: TUDO POR UM BACALHAU | - | -
-b10 | two | -  | placa: COMENTE! | - | -
+b1 | close | -  | - | briga (puff + som de baque) | -
+b2 | wide | -  | tropa, placa: 1958-1976 | - | -
+b3 | two | -  | placa: BACALHAU | - | -
+b4 | wide | -  | tropa | - | -
+b5 | group | -  | batalha aberta com tiros, mapa | - | -
+b6 | group | -  | batalha aberta com tiros | - | -
+b7 | wide | -  | - | - | -
+b8 | group | -  | placa: VITÓRIA ISLANDESA, objeto na mao | desistiu (puff + som de baque); briga (puff + som de baque) | -
+b9 | wide | -  | batalha aberta com tiros, placa: ISLÂNDIA VENCEU | - | -
 
-Mistura de planos: close 4% | medio 61% | aberto 31% | detalhe 4%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 9% | medio 52% | aberto 37% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | dentro do padrao do canal

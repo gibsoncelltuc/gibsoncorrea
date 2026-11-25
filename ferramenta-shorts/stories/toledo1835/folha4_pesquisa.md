@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1835 | Lugar: Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corners, rio Maumee, a vila de Toledo com taverna | Quando: abril a setembro de 1835 (Phillips Corners: domingo, 26/abr/1835, de dia; facada na taverna: julho de 1835)
 - HEROIS (objeto): kit/canivete_aberto
 - HEROIS (personagens): OHI, GOV, MIC
-- Cenarios: arctic, countryside, interior madeira, interior pedra
+- Cenarios: arctic, countryside, interior madeira, jungle
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nature/bush: 11.0 m reais -> escala 4.1 (estava 1.2: pequeno demais)
 
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra de Toledo | A Guerra de Toledo / Dois Ohio Michigan Toledo Michigan Toledo 1835 | Willy Toledo NO A LA GUERRA DE LIBIA.jpg (referencias/toledo1835/prints/a_guerra_de_toledo_52e546.jpg); Ocaña, Toledo - Monumento a los Caídos del bando n (referencias/toledo1835/prints/a_guerra_de_toledo_517b65.jpg); Ocaña, Toledo - Monumento a los Caídos del bando n (referencias/toledo1835/prints/a_guerra_de_toledo_cde62c.jpg)
+tema | A Guerra de Toledo | A Guerra de Toledo / Dois Ohio Michigan Toledo 1835 | Willy Toledo NO A LA GUERRA DE LIBIA.jpg (referencias/toledo1835/prints/a_guerra_de_toledo_52e546.jpg); Ocaña, Toledo - Monumento a los Caídos del bando n (referencias/toledo1835/prints/a_guerra_de_toledo_517b65.jpg); Ocaña, Toledo - Monumento a los Caídos del bando n (referencias/toledo1835/prints/a_guerra_de_toledo_cde62c.jpg)
 lugar | Faixa de Toledo (Ohio x Territorio de Michigan): campos e matas de Phillips Corn | Faixa de Toledo / Faixa de Toledo Ohio x Territorio de Michigan 1835 | SEM REFERENCIA
 lugar | Toledo | Toledo 1835 / Toledo landscape | Disputed Toledo Strip.png (referencias/toledo1835/prints/toledo_ce33a9.jpg); Upper peninsula Toledo War.png (referencias/toledo1835/prints/toledo_5773c2.jpg); Toledowarphillipswar3.jpg (referencias/toledo1835/prints/toledo_7dcbd8.jpg)
 epoca | roupas e ruas de 1835 | 1835 fashion clothing / 19th century clothing painting | The World of Fashion, 1835, RP-P-2009-2622.jpg (referencias/toledo1835/prints/roupas_e_ruas_de_1835_882887.jpg); Charles Francois Jalabert painting peintre French  (referencias/toledo1835/prints/roupas_e_ruas_de_1835_cbe242.jpg); French School 19th-century Woman holding an umbrel (referencias/toledo1835/prints/roupas_e_ruas_de_1835_15ebdf.jpg)

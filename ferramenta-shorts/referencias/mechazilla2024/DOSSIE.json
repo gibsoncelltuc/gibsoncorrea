@@ -13,12 +13,7 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 4",
-    "outback",
-    "loc_deserto"
-   ],
-   [
-    "cena 10",
+    "cena 5",
     "outback",
     "loc_deserto"
    ]
@@ -47,7 +42,6 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/booster_air",
-  "kit/rocket",
   "kit/tower",
   "kit/tower_catch",
   "kit/tower_mini"

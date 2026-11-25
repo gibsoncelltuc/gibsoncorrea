@@ -1,0 +1,202 @@
+{
+ "id": "ese_dinheiro",
+ "ano": null,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Todo o dinheiro do mundo some amanhã de manhã.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Em menos de um ano, a gente inventaria outro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAD",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Na primeira manhã, você não teria como pagar o café.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ",
+    "PAD"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "A saída seria a troca: uma galinha por comida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PAD",
+    "FAZ"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Acontece que o padeiro pode não querer galinha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Na ilha de Yap, o dinheiro eram pedras gigantes.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/rocks"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Em prisões e guerras, quando o dinheiro some, inventam outro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "POV",
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "Dinheiro não é papel. É confiança.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Teste mental para hoje: imagina que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

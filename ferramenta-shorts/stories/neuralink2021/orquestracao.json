@@ -13,7 +13,7 @@
    "loc_cidade"
   ],
   [
-   "cena 11",
+   "cena 9",
    "street",
    "loc_cidade"
   ]
@@ -35,14 +35,32 @@
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b0",
-   "frase": "Um macaco jogou videogame sem usar as mãos, só com o pensamento.",
+   "frase": "Um macaco jogou videogame só com o pensamento.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/monkey_pong"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o prêmio de cada acerto era vitamina de banana.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
   },
   {
    "camera": "wide",
@@ -52,9 +70,9 @@
    ],
    "multidao": 6,
    "objetos": [],
-   "palavras": 14,
-   "cena": "b1",
-   "frase": "Foi em dois mil e vinte e um, e a empresa se chama Neuralink.",
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Foi em 2021, num teste da empresa Neuralink.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -77,27 +95,9 @@
    "objetos": [
     "kit/chess_pc"
    ],
-   "palavras": 18,
-   "cena": "b2",
-   "frase": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "CIE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/monkey_pong"
-   ],
-   "palavras": 18,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick.",
+   "frase": "Um chip no cérebro lê os sinais dos neurônios.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -105,7 +105,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "two",
+   "camera": "close",
    "personagens": [
     "CIE"
    ],
@@ -115,12 +115,12 @@
    ],
    "palavras": 10,
    "cena": "b4",
-   "frase": "A cada acerto, ganhava um golinho de vitamina de banana.",
+   "frase": "O macaco Pager aprendeu a jogar Pong com um joystick.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "interior loja"
   },
   {
    "camera": "two",
@@ -131,9 +131,9 @@
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "Acontece que, um dia, desligaram o joystick, e o Pager continuou jogando só com a mente.",
+   "frase": "Acontece que desligaram o joystick, e ele continuou jogando com a mente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -141,7 +141,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "crowd",
+   "camera": "orbit",
    "personagens": [
     "POV",
     "POV",
@@ -151,29 +151,9 @@
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "MUS",
-    "CIM"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/chess_pc",
-    "kit/phone"
-   ],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
+   "frase": "O vídeo rodou o mundo e abriu debate sobre testes com animais.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -196,9 +176,9 @@
    "objetos": [
     "kit/chess_pc"
    ],
-   "palavras": 23,
-   "cena": "b8",
-   "frase": "Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Em 2024, um paciente paralisado jogou xadrez só pensando.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -208,31 +188,16 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS"
+    "MUS",
+    "CIE"
    ],
    "multidao": 0,
    "objetos": [
     "kit/monkey_pong"
    ],
-   "palavras": 14,
-   "cena": "b9",
-   "frase": "Tudo começou com um macaco, um videogame e um copo de vitamina de banana.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Tudo começou com um copo de vitamina. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

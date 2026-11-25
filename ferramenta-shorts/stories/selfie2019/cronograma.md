@@ -1,23 +1,20 @@
 # CRONOGRAMA - Poder e Fama EP 28 - A Selfie na ONU
 
-Gerado em 25/11 15:26 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:24 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | hall | reveal | BUK, DIP | 8 | smartphone, BookStand | - | Um presidente parou o discurso na ONU para tirar uma selfie com a plat
-b1 | simples | hall | reveal | POV, POV | 12 | - | - | Foi na Assembleia Geral da ONU, em Nova York, em setembro de dois mil 
-b2 | simples | interior pedra | two | DIP, REP | - | - | - | Ali, líderes fazem discursos longos e sérios.
-b3 | simples | interior loja | two | BUK, DIP | - | - | - | O presidente de El Salvador, Nayib Bukele, tinha trinta e oito anos.
-b4 | simples | hall | low | BUK | - | smartphone, BookStand | - | Acontece que, no púlpito, ele pediu licença por um momento e tirou o c
-b5 | simples | hall | crowd | BUK, POV | 20 | smartphone, BookStand | - | Virou de costas para o plenário e tirou a selfie com todos atrás.
-b6 | simples | hall | two | BUK, DIP | - | smartphone | - | Depois explicou: o mundo novo está onde essa foto vai parar, na intern
-b7 | chave | hall | orbit | BUK, DIP | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E avisou que a ONU pode desaparecer como a Kodak e os dinossauros.
-b8 | simples | interior loja | two | REP, BUK | - | - | - | Propôs que líderes gravassem vídeos de seus discursos, e um concurso d
-b9 | simples | palace | crowd | POV, POV, REP | 20 | marco_onu | - | A selfie rodou o mundo, e o discurso ficou em segundo plano.
-b10 | simples | interior pedra | two | BUK | - | smartphone | - | Um segundo de selfie, e a ONU virou assunto.
-b11 | simples | interior pedra | close | BUK | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | transicao | interior pedra | reveal | BUK, DIP | 6 | phone, BookStand | - | Um presidente parou o discurso na ONU para tirar uma selfie.
+b1 | simples | loc_cidade | crowd | POV, POV, REP | 20 | marco_onu | - | E a foto chamou mais atenção que o discurso inteiro.
+b2 | simples | loc_cidade | two | POV, POV | 12 | marco_onu | - | Foi na Assembleia Geral da ONU, em Nova York, em 2019.
+b3 | simples | palace | two | BUK, DIP | - | - | - | O presidente de El Salvador, Nayib Bukele, tinha 38 anos.
+b4 | simples | interior pedra | two | BUK | - | phone, BookStand | - | No púlpito, ele pediu licença e pegou o celular.
+b5 | simples | interior pedra | crowd | BUK, POV | 6 | phone, BookStand | - | Acontece que virou de costas e fez uma selfie com o plenário.
+b6 | simples | interior madeira | two | BUK, DIP | - | - | - | Depois avisou: a ONU pode desaparecer como a Kodak.
+b7 | chave | loc_cidade | orbit | POV, POV, REP | 20 | marco_onu, phone | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A selfie rodou o mundo. O discurso ficou em segundo plano.
+b8 | simples | interior pedra | reveal | BUK, DIP | 6 | BookStand | - | Um segundo bastou. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

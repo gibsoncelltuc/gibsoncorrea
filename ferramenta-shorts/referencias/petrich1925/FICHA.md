@@ -1,4 +1,4 @@
-# FICHA DE REFERENCIA - A Guerra do Cachorro Perdido
+# FICHA DE REFERENCIA - Guerras Inusitadas EP 26 - A Guerra do Cachorro Perdido
 
 - Ano/epoca: 1925 (historica)
 - Onde: Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra
@@ -7,7 +7,7 @@
 - Roupas: {'GRE': 'soldado grego de 1925: farda caqui, quepe, fuzil', 'BUL': 'soldado bulgaro: farda verde-acinzentada, quepe', 'OFF': 'oficial grego de caqui com quepe'}
 - Cenario real: montanhas secas com pedras e mata baixa, posto de fronteira; salao de reunioes da Liga das Nacoes
 - Objetos: ['cachorro', 'fuzis', 'bandeira branca', 'documento do ultimato']
-- Cenarios usados no video: interior madeira, interior pedra, loc_campo, mountain
+- Cenarios usados no video: interior madeira, interior pedra, loc_campo, loc_montanha, mountain
 - PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro dos anos 50, castical, escudo, fragata a vela, galera a remo, navio a vapor de guerra, navio a vela, navio de guerra moderno, objeto moderno, tambor de guerra, torre de refletor, veiculo moderno
 - Proibido pelo roteiro: -
 

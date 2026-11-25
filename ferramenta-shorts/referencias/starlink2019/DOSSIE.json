@@ -25,12 +25,7 @@
     "loc_cidade"
    ],
    [
-    "cena 8",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 9",
+    "cena 7",
     "street",
     "loc_cidade"
    ]
@@ -58,14 +53,14 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_small",
+  "buildings/house_two",
   "kit/falcon_air",
   "kit/phone",
   "kit/rocket",
   "kit/room_eua_shop",
+  "kit/room_europa_shop",
   "kit/starlink_sat",
-  "kit/starlink_train",
-  "nature/picket_fence"
+  "kit/starlink_train"
  ],
  "pesquisa_visual": {
   "local": "Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leiden), Europa",

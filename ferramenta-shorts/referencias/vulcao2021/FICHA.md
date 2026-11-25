@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'jaqueta escura e barba', 'ENG': 'capacete branco e colete laranja', 'ENA': 'capacete amarelo e camisa azul', 'POV': 'roupa casual'}
 - Cenario real: vulcao coberto de mata com nuvens de vapor, usina com canos prateados e torres, container com fileiras de computadores de mineracao
 - Objetos: ['moeda de bitcoin', 'computadores de mineracao (ASIC)', 'turbina', 'vulcao']
-- Cenarios usados no video: interior loja, jungle, loc_cidade, loc_estudio, loc_pista
+- Cenarios usados no video: countryside, interior loja, jungle, loc_cidade, loc_estudio
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

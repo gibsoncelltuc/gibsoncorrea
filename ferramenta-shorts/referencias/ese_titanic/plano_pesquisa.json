@@ -1,0 +1,102 @@
+{
+ "id": "ese_titanic",
+ "ano": 1912,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se o Titanic Não Tivesse Afundado?",
+   "consultas": [
+    "E Se o Titanic Não Tivesse Afundado?",
+    "Titanic 1912"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Atlantico Norte, a bordo do Titanic",
+   "consultas": [
+    "Atlantico Norte a bordo do Titanic",
+    "Atlantico Norte a bordo do Titanic 1912"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Oceano Atlântico",
+   "consultas": [
+    "Oceano Atlântico 1912",
+    "Oceano Atlântico landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1912",
+   "consultas": [
+    "1912 fashion clothing",
+    "1912 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "passageiros",
+   "consultas": [
+    "passageiros",
+    "passageiros 1912"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "tripulacao",
+   "consultas": [
+    "tripulacao",
+    "tripulacao 1912"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "vigia do cesto da gavea",
+   "consultas": [
+    "vigia do cesto da gavea",
+    "vigia do cesto da gavea 1912"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "iceberg",
+   "consultas": [
+    "iceberg",
+    "iceberg 1912"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "botes salva-vidas",
+   "consultas": [
+    "botes salva-vidas",
+    "botes salva-vidas 1912"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio Titanic",
+   "consultas": [
+    "navio Titanic",
+    "navio Titanic 1912"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1912",
+    "ship"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O gelo rasgou o casco por baixo da água.",
+   "consultas": [
+    "rasgou casco baixo",
+    "iceberg diagram"
+   ]
+  }
+ ]
+}

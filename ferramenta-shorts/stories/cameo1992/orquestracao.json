@@ -8,7 +8,7 @@
    "loc_cidade"
   ],
   [
-   "cena 6",
+   "cena 2",
    "street",
    "loc_cidade"
   ]
@@ -27,13 +27,33 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/marco_liberdade",
     "kit/tv"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um filme de Natal ainda briga por causa de sete segundos com Donald Trump.",
+   "frase": "Sete segundos de um filme de Natal ainda geram briga até hoje.",
    "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "DIR",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E a culpa é de um hotel.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -47,9 +67,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 28,
-   "cena": "b1",
-   "frase": "Em mil novecentos e noventa e dois, no filme Esqueceram de Mim 2, Kevin pergunta a um homem onde fica o saguão do hotel. O homem é Trump.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em Esqueceram de Mim 2, Kevin pede informação a um homem.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -69,12 +89,10 @@
     "TRU"
    ],
    "multidao": 0,
-   "objetos": [
-    "nature/picket_fence"
-   ],
-   "palavras": 7,
-   "cena": "b2",
-   "frase": "A cena dura cerca de sete segundos.",
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "O homem era Donald Trump, dono do hotel Plaza.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -84,32 +102,14 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tv"
-   ],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Acontece que aquele hotel, o Plaza, pertencia a Trump na época.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "DIR",
     "TRU"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 11,
    "cena": "b4",
-   "frase": "O diretor Chris Columbus disse, anos depois, que a equipe queria o saguão e não conseguiria refazê-lo num estúdio.",
+   "frase": "O diretor diz que a cena foi o preço do hotel.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -117,37 +117,16 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
-   "personagens": [
-    "DIR",
-    "TRU"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "buildings/apartment",
-    "buildings/house_two",
-    "nature/lamppost"
-   ],
-   "palavras": 14,
-   "cena": "b5",
-   "frase": "Segundo o diretor, a participação de Trump foi o preço para usar o hotel.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "TRU",
     "DIR"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b6",
-   "frase": "Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que Trump nega: diz que foi a equipe que pediu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -164,9 +143,9 @@
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 15,
-   "cena": "b7",
-   "frase": "Em dois mil e dezenove, uma emissora canadense exibiu o filme sem esses sete segundos.",
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Em 2019, uma TV canadense passou o filme sem a cena.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -174,17 +153,15 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "JOR"
    ],
    "multidao": 10,
-   "objetos": [
-    "kit/marco_liberdade"
-   ],
-   "palavras": 13,
-   "cena": "b8",
-   "frase": "O corte virou assunto por lá, e a discussão ainda dura até hoje.",
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "O corte virou polêmica no mundo inteiro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -200,36 +177,20 @@
   {
    "camera": "two",
    "personagens": [
-    "TRU"
+    "FUN"
    ],
    "multidao": 0,
    "objetos": [
     "kit/tv"
    ],
-   "palavras": 15,
-   "cena": "b9",
-   "frase": "Moral da história: um cameo de sete segundos gera conversa por mais de trinta anos.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Um cameo virou briga política. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FUN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_cidade"
   }
  ]
 }

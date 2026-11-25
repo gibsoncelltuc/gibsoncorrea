@@ -1,81 +1,81 @@
 # FOLHA 1 - ROTEIRO: E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback | 11 cenas, 164 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 90 palavras (~31 s)
 
-## Cena b0  (~6.2 s)
-- Narracao: Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?
-- Som ambiente: birds
+## Cena b0  (~3.4 s)
+- Narracao: Um buraco atravessando a Terra sairia no meio do Pacífico.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: cava (hammer) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: E SE...
 - Funcao na historia: GANCHO
 
-## Cena b1  (~6.6 s)
-- Narracao: Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.
-- Som ambiente: birds
-- Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; surpresa: -> ring + som de alerta; encena: grita (up) @1 -> acao + som de efeito
-- Efeito visual marcado: stars@40
-- Texto na tela: - | mapa: OCEANO PACÍFICO
-- Funcao na historia: desenvolvimento
-
-## Cena b2  (~4.5 s)
-- Narracao: Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente.
-- Som ambiente: birds
-- Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: cava (hammer) @2 -> acao + som de efeito
-- Efeito visual marcado: puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~5.9 s)
-- Narracao: O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus.
-- Som ambiente: birds
+## Cena b1  (~2.4 s)
+- Narracao: E quem pulasse nele cairia para sempre.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~6.6 s)
-- Narracao: Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol.
+## Cena b2  (~3.8 s)
+- Narracao: O buraco mais fundo do mundo tem doze quilômetros, na Rússia.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: - | mapa: RÚSSIA
+- Funcao na historia: desenvolvimento
+
+## Cena b3  (~2.4 s)
+- Narracao: Lá embaixo, faz cento e oitenta graus.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: -
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b4  (~3.8 s)
+- Narracao: O centro da Terra fica a mais de seis mil quilômetros.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, cannon@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@20, burst@50
 - Texto na tela: -
-- Funcao na historia: VIRADA
+- Funcao na historia: desenvolvimento
 
-## Cena b5  (~4.1 s)
-- Narracao: Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco.
+## Cena b5  (~3.4 s)
+- Narracao: E é quase tão quente quanto a superfície do Sol.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: cannon@20, thump@50
-- Efeito + som nas palavras-chave: encena: pula @9 -> acao + som de efeito
-- Efeito visual marcado: burst@20, puff@50
-- Texto na tela: 5.000 °C
-- Funcao na historia: GRANDE MOMENTO
+- Efeitos sonoros marcados: sting@20, cannon@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@20, burst@50
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
 
-## Cena b6  (~6.2 s)
-- Narracao: Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora.
-- Som ambiente: birds
+## Cena b6  (~4.1 s)
+- Narracao: Acontece que, se desse para pular, você cairia cada vez mais rápido.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@20, whoosh@50
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: whoosh@20, whoosh@50
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~4.1 s)
-- Narracao: Depois iria freando, e sairia do outro lado em uns quarenta minutos.
-- Som ambiente: birds
+## Cena b7  (~2.8 s)
+- Narracao: Sairia do outro lado em uns quarenta minutos.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.8 s)
-- Narracao: Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre.
+## Cena b8  (~2.8 s)
+- Narracao: E, sem ninguém para segurar, cairia de volta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,22 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: outback 
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Os cientistas chamam isso de túnel da gravidade.
+## Cena b9  (~2.1 s)
+- Narracao: Ninguém conseguiu ainda. Mas imagina que...
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
+- Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: stars@20, stars@60
-- Texto na tela: 40 MINUTOS
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b10  (~4.8 s)
-- Narracao: Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem.
-- Som ambiente: birds
-- Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: encena: negocio (reach) @11 -> acao + som de efeito
-- Efeito visual marcado: stars@40
-- Texto na tela: -
+- Efeito visual marcado: stars@30
+- Texto na tela: E SE...
 - Funcao na historia: FECHO/PIADA FINAL
 
 

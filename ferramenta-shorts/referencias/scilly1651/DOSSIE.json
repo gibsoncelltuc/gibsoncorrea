@@ -14,12 +14,7 @@
   ],
   "cenarios_trocados": [
    [
-    "cena 6",
-    "countryside",
-    "loc_campo"
-   ],
-   [
-    "cena 7",
+    "cena 5",
     "countryside",
     "loc_campo"
    ]
@@ -42,7 +37,6 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/shop",
   "kit/navio_fragata",
   "kit/room_europa_wood",
   "kit/room_verde_stone",

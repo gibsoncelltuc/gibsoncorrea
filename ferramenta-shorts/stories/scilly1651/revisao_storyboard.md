@@ -1,14 +1,11 @@
-# Revisao do storyboard - scilly1651 (v2, 24/11)
-pesquisa: Guerra dos 335 Anos entre a Holanda e as ilhas Scilly (1651-1986), almirante Maarten Tromp, historiador Roy Duncan em 1985, embaixador Jonkheer Rein Huydecoper assinou a paz em 17/04/1986
-b0: OK - "Uma ilha minuscula ficou 335 anos em guerra com a Holanda" ilheu e holandes com o pergaminho, placa 335 ANOS
-b1: OK - "em 1651, nas ilhas Scilly, perto da Inglaterra" mapa ILHAS SCILLY e ilheus no cais
-b2: OK - "Piratas das ilhas atacavam navios holandeses" ilheus e marinheiros com navio (figurantes na borda)
-b3: OK - "A Holanda mandou navios de guerra e exigiu o dinheiro" holandeses diante dos navios
-b4: OK - "o almirante holandes declarou guerra as ilhas" tropa holandesa com texto GUERRA
-b5: OK - "os ingleses assumiram as ilhas" politico ingles com tropa de casacas vermelhas
-b6: OK - "A guerra seguiu esquecida por mais de trezentos anos" ilheus comemorando no campo
-b7: CORRIGIDO - campo -> "um historiador perguntou se a guerra ainda valia": historiador na biblioteca com o embaixador
-b8: OK - "o embaixador holandes foi ate as ilhas" embaixador e ingles no cais
-b9: OK - "Os dois assinaram a paz" sala com o pergaminho da paz
-b10: OK - "A guerra mais longa e mais calma da historia" ilheu com o pergaminho no cais; chamada final COMENTE
-defeitos procurados: cenario (cais sem parede tapando), epoca (navios a vela de 1651), tamanho (pergaminho heroi ampliado), cortado (so figurantes no b2/b4), multidao (tropas por farda), legenda (texto em cima), acao (cada frase com a acao), objeto (pergaminho heroi no gancho e no fim)
+b0: OK - "Uma guerra durou 335 anos e ninguem disparou um tiro.": ilheu e holandes no cais com o pergaminho e 335 ANOS SEM TIRO (gancho em 3 camadas)
+b1: OK - "E so acabou porque alguem resolveu perguntar.": close do pergaminho e ilheus no cais
+b2: OK - "Em 1651, piratas das ilhas Scilly atacavam navios holandeses.": mapa das Scilly, piratas no cais e navio
+b3: OK - "A Holanda declarou guerra as ilhas.": almirante holandes, GUERRA, navios
+b4: OK - "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.": ingles com documento e ilheu no campo
+b5: OK - "Os holandeses foram embora. E ninguem lembrou de assinar a paz.": navio holandes indo no mar
+b6: OK - "Tres seculos depois, um historiador escreveu para a Holanda.": historiador e embaixador na sala
+b7: OK - "O embaixador veio as ilhas e assinou a paz.": embaixador com o papel e o pergaminho
+b8: OK - "Ninguem lembrou de um papel. E foi assim que...": LOOP, mesma cena, texto e cor da 1a
+pesquisa: ilhas Scilly 1651/1986, cais e mar, navios a vela, pergaminho do tratado, sem tiro
+defeitos procurados: cenario (cais, campo, sala), epoca (1651 navios a vela; 1985 sala), tamanho (navio grande, pergaminho visivel), cortado (ninguem), multidao (so piratas em b2), legenda (texto em cima), acao (sem tiro/explosao em frase sem luta), objeto (pergaminho abre e fecha no loop)

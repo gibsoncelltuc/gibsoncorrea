@@ -34,16 +34,18 @@
    "cenario": "arctic"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
    "personagens": [
     "FRA",
-    "NED"
+    "FRA"
    ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 17,
+   "multidao": 12,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 8,
    "cena": "b1",
-   "frase": "Era mil setecentos e noventa e cinco, a França invadia a Holanda, e fazia um frio absurdo.",
+   "frase": "E nenhum dos lados precisou dar um tiro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -51,7 +53,24 @@
    "cenario": "arctic"
   },
   {
-   "camera": "orbit",
+   "camera": "reveal",
+   "personagens": [
+    "FRA",
+    "NED"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Em 1795, a França invadia a Holanda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "group",
    "personagens": [
     "NED",
     "NED"
@@ -60,9 +79,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "A frota holandesa estava ancorada perto de Den Helder, e o mar congelou em volta dela.",
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "A frota holandesa estava parada, e o mar congelou em volta.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -78,10 +97,10 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 11,
-   "cena": "b3",
-   "frase": "Os navios ficaram presos no gelo, sem conseguir sair do lugar.",
-   "classe": "simples",
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Os navios ficaram presos no gelo.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -90,15 +109,14 @@
   {
    "camera": "group",
    "personagens": [
-    "FRA",
-    "FRA",
+    "GEN",
     "OFF"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 12,
-   "cena": "b4",
-   "frase": "Do outro lado, os franceses tinham cavalaria, os hussardos, e nenhum navio.",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "O chefe da cavalaria francesa teve uma ideia: atacar a cavalo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -108,30 +126,13 @@
   {
    "camera": "two",
    "personagens": [
-    "GEN",
     "OFF"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b5",
-   "frase": "O chefe da cavalaria teve uma ideia maluca: atacar a frota a cavalo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "low",
-   "personagens": [
-    "OFF"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b6",
-   "frase": "Só que ninguém sabia se o gelo ia aguentar o peso de centenas de cavalos.",
+   "frase": "Mas ninguém sabia se o gelo aguentaria os cavalos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -146,9 +147,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "Na noite de vinte e três de janeiro, os hussardos atravessaram o gelo, com panos nos cascos dos cavalos.",
+   "frase": "De noite, os hussardos cruzaram o gelo com panos nos cascos.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -171,9 +172,9 @@
    "objetos": [
     "ship"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b8",
-   "frase": "Acontece que os holandeses nem tentaram lutar. A frota inteira se rendeu.",
+   "frase": "Acontece que os holandeses nem lutaram. A frota inteira se rendeu.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -187,43 +188,26 @@
    "cenario": "arctic"
   },
   {
-   "camera": "crowd",
+   "camera": "wide",
    "personagens": [
-    "FRA",
     "FRA"
    ],
    "multidao": 12,
    "objetos": [
     "ship"
    ],
-   "palavras": 17,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "Mais de uma dezena de navios de guerra, capturados por soldados a cavalo. Cavalaria um, marinha zero.",
+   "frase": "Cavalaria um, marinha zero. E foi assim que...",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
+    "corpo": "cavaleiro galopando",
+    "emissao": "poeira/clarao do tiro",
+    "luz": "cena",
+    "camera": "camera acompanha",
+    "som": "galope"
    },
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
    "acoes_faltando": [],
    "cenario": "arctic"
   }

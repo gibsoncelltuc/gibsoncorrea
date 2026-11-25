@@ -216,8 +216,8 @@
     ],
     [
      "kit/ball",
-     1.0,
-     1.0,
+     2.4,
+     0.2,
      1.31,
      {
       "fixo": true
@@ -249,15 +249,19 @@
      }
     ]
    },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
@@ -297,8 +301,8 @@
     ],
     [
      "kit/ball",
-     1.0,
-     1.0,
+     2.4,
+     0.2,
      1.31,
      {
       "fixo": true
@@ -335,15 +339,19 @@
      }
     ]
    },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/ball",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {

@@ -8,14 +8,9 @@
    "loc_cidade"
   ],
   [
-   "cena 3",
+   "cena 4",
    "street",
    "loc_cidade"
-  ],
-  [
-   "cena 5",
-   "outback",
-   "loc_pista"
   ],
   [
    "cena 6",
@@ -23,14 +18,9 @@
    "loc_pista"
   ],
   [
-   "cena 8",
-   "street",
-   "loc_cidade"
-  ],
-  [
-   "cena 11",
-   "street",
-   "loc_cidade"
+   "cena 7",
+   "outback",
+   "loc_pista"
   ]
  ],
  "metricas": {
@@ -50,14 +40,32 @@
    "objetos": [
     "kit/tequila_bolt"
    ],
-   "palavras": 14,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquenta dólares.",
+   "frase": "Uma piada de primeiro de abril virou uma garrafa de 250 dólares.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tequila_bolt"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E até a garrafa vazia passou a valer uma fortuna.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
   },
   {
    "camera": "reveal",
@@ -69,9 +77,9 @@
     "kit/phone",
     "kit/roadster"
    ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido.",
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2018, Musk postou que a Tesla faliu. Era piada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -79,22 +87,27 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "INV",
     "MUS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/tequila_bolt",
-    "nature/picket_fence"
+    "kit/tequila_bolt"
    ],
-   "palavras": 12,
-   "cena": "b2",
-   "frase": "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.",
-   "classe": "simples",
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Na foto, garrafas de uma tal Teslaquila.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -106,9 +119,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.",
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Muitos riram. Ele levou a sério.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -116,7 +129,7 @@
    "cenario": "interior loja"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "MEX",
     "MUS"
@@ -126,9 +139,9 @@
     "kit/tequila_bolt",
     "kit/veg_cacto"
    ],
-   "palavras": 15,
-   "cena": "b4",
-   "frase": "Acontece que o conselho que protege a tequila no México reclamou: o nome tem regras.",
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que o México barrou o nome: tequila tem regras.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -153,58 +166,14 @@
     "kit/tequila_bolt",
     "kit/veg_cacto"
    ],
-   "palavras": 16,
-   "cena": "b5",
-   "frase": "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.",
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Em 2020, saiu como Tesla Tequila, feita no México.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_pista"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FAN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tequila_bolt"
-   ],
-   "palavras": 17,
-   "cena": "b6",
-   "frase": "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "FAN",
-    "POV",
-    "POV"
-   ],
-   "multidao": 20,
-   "objetos": [
-    "kit/tequila_bolt"
-   ],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
   },
   {
    "camera": "two",
@@ -217,9 +186,9 @@
     "kit/phone",
     "kit/tequila_bolt"
    ],
-   "palavras": 14,
-   "cena": "b8",
-   "frase": "Logo, até garrafas vazias apareceram à venda na internet por mais de mil dólares.",
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Garrafas vazias apareceram na internet por mais de mil dólares.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -229,31 +198,16 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS"
+    "MUS",
+    "FAN"
    ],
    "multidao": 0,
    "objetos": [
     "kit/tequila_bolt"
    ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "Uma piada do dia da mentira que terminou numa prateleira de verdade.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_patio"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Ninguém acreditou na piada. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -20,9 +20,9 @@
     "kit/cake_table",
     "kit/marco_ulua"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "A França foi à guerra contra o México por causa de uma conta de confeitaria.",
+   "frase": "França e México entraram em guerra por causa de uma confeitaria.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -30,7 +30,26 @@
    "cenario": "street"
   },
   {
-   "camera": "reveal",
+   "camera": "wide",
+   "personagens": [
+    "CON",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cake_table"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E a conta dos bolos nunca foi paga.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "CON",
     "OFI"
@@ -42,10 +61,10 @@
     "kit/marco_ulua",
     "kit/stall"
    ],
-   "palavras": 13,
-   "cena": "b1",
-   "frase": "Um confeiteiro francês tinha uma loja em Tacubaya, perto da Cidade do México.",
-   "classe": "transicao",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -63,9 +82,9 @@
     "kit/cake_table",
     "kit/chest"
    ],
-   "palavras": 16,
-   "cena": "b2",
-   "frase": "Em mil oitocentos e trinta e dois, oficiais mexicanos saquearam a loja, ou só não pagaram.",
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Ele disse que oficiais mexicanos saquearam tudo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -79,28 +98,10 @@
     "REI"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/cake_table"
-   ],
-   "palavras": 16,
-   "cena": "b3",
-   "frase": "O confeiteiro reclamou ao rei e pediu sessenta mil pesos. A loja valia menos de mil.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "REI"
-   ],
-   "multidao": 0,
    "objetos": [],
-   "palavras": 16,
+   "palavras": 10,
    "cena": "b4",
-   "frase": "O governo francês juntou outras queixas e exigiu seiscentos mil pesos, mas o México não pagou.",
+   "frase": "Pediu sessenta mil pesos. A loja valia menos de mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -118,9 +119,9 @@
     "kit/marco_ulua",
     "navios de guerra ao fundo, no tamanho real"
    ],
-   "palavras": 16,
+   "palavras": 12,
    "cena": "b5",
-   "frase": "Acontece que a França mandou a esquadra, e navios de guerra fecharam os portos do México.",
+   "frase": "Acontece que a França assumiu a briga e mandou navios de guerra.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -137,9 +138,9 @@
     "cannon",
     "kit/marco_ulua"
    ],
-   "palavras": 15,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Canhões franceses bombardearam a fortaleza de San Juan de Ulúa, e os soldados tomaram Veracruz.",
+   "frase": "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -155,30 +156,14 @@
   {
    "camera": "two",
    "personagens": [
-    "GEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 16,
-   "cena": "b7",
-   "frase": "Santa Anna foi ferido na perna por metralha, e a perna foi enterrada com honras militares.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "GEN",
     "FRA"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b8",
-   "frase": "Em março de mil oitocentos e trinta e nove, o México prometeu pagar, e a França foi embora.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "O México prometeu pagar, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -186,34 +171,16 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "CON",
-    "FRA"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/marco_ulua"
-   ],
-   "palavras": 16,
-   "cena": "b9",
-   "frase": "A conta nunca foi paga, e a França voltou em mil oitocentos e sessenta e um.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "CON"
+    "OFI"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Esse dinheiro nunca chegou. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

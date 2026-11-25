@@ -19,9 +19,9 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Uma orelha cortada levou a Inglaterra à guerra contra a Espanha, por quase dez anos.",
+   "frase": "Uma orelha cortada começou uma guerra de nove anos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -29,19 +29,37 @@
    "cenario": "harbor"
   },
   {
-   "camera": "reveal",
+   "camera": "two",
    "personagens": [
     "JEN",
-    "MAR"
+    "ESP"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o dono da orelha levou ela até o Parlamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JEN"
    ],
    "multidao": 0,
    "objetos": [
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 19,
-   "cena": "b1",
-   "frase": "Em mil setecentos e trinta e um, perto de Cuba, um navio espanhol parou o capitão inglês Robert Jenkins.",
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -58,9 +76,9 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 11,
-   "cena": "b2",
-   "frase": "Suspeitaram de contrabando, e o capitão espanhol arrancou a orelha dele.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O comandante espanhol cortou a orelha dele com a espada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -81,9 +99,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
-   "cena": "b3",
-   "frase": "\"Vá levar isso ao seu rei\", teria dito o espanhol.",
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "\"Leve isso ao seu rei\", teria dito.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -91,18 +109,18 @@
    "cenario": "harbor"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "PRE",
-    "JEN",
-    "ING",
-    "PRE"
+    "JEN"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 15,
-   "cena": "b4",
-   "frase": "Sete anos depois, Jenkins relatou a história ao Parlamento inglês, e os deputados ficaram furiosos.",
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -110,16 +128,16 @@
    "cenario": "interior pedra"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "PRE",
     "ING"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 18,
-   "cena": "b5",
-   "frase": "Acontece que a Inglaterra queria uma desculpa para brigar com a Espanha por causa do comércio no Caribe.",
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Acontece que a Inglaterra só queria um pretexto.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -136,9 +154,9 @@
     "navios de guerra ao fundo, no tamanho real",
     "ship"
    ],
-   "palavras": 18,
-   "cena": "b6",
-   "frase": "Em mil setecentos e trinta e nove, a guerra começou, com navios ingleses atacando portos espanhóis no Caribe.",
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -158,10 +176,12 @@
     "ING"
    ],
    "multidao": 0,
-   "objetos": [],
-   "palavras": 11,
-   "cena": "b7",
-   "frase": "Depois de quase dez anos, os dois lados fizeram a paz.",
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Nove anos de guerra, por causa de uma orelha.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -171,25 +191,6 @@
   {
    "camera": "two",
    "personagens": [
-    "PRE",
-    "ING"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/ear_jar"
-   ],
-   "palavras": 16,
-   "cena": "b8",
-   "frase": "Quem deu o nome de Guerra da Orelha de Jenkins foi um escritor, um século depois.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "JEN",
     "ESP"
    ],
@@ -197,30 +198,14 @@
    "objetos": [
     "kit/ear_jar"
    ],
-   "palavras": 13,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "A orelha custou dez anos de guerra, e Jenkins ainda ficou sem ela.",
+   "frase": "Jenkins nunca recuperou a orelha. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "JEN"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "harbor"
   }
  ]
 }

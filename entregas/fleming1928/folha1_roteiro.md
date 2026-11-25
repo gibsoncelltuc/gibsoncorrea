@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 150 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 160 palavras (~55 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.2 s)
-- Narracao: Era mil novecentos e vinte e oito, num hospital de Londres, e o cientista Alexander Fleming era famoso pela mesa bagunçada.
+## Cena b1  (~5.9 s)
+- Narracao: Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,26 +20,26 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: INGLATERRA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.2 s)
-- Narracao: Ele estudava bactérias, e deixava os pratos de cultura empilhados na bancada, sem pressa nenhuma.
+## Cena b2  (~7.9 s)
+- Narracao: Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: examina (think) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b3  (~4.5 s)
-- Narracao: Um dia, ele saiu de férias por duas semanas e não limpou nada.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
+- Narracao: Um dia, ele saiu de férias por um mês e não limpou nada.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: encena: sai @3 -> acao + som de efeito
+- Efeito visual marcado: ring@12, dust@40
 - Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~4.1 s)
-- Narracao: Quando voltou, achou um prato com bolor verde e disse: "Que sujeira!"
+## Cena b4  (~3.4 s)
+- Narracao: Quando voltou, achou um prato estragado, coberto de bolor verde.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ele ia jogar o prato fora, mas olhou melhor.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: olha (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -62,8 +62,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: ding@40, sting@60
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@40, stars@60
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Texto na tela: BACTÉRIAS SUMIRAM
+- Funcao na historia: VIRADA
 
 ## Cena b7  (~5.9 s)
 - Narracao: O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.
@@ -78,16 +78,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) relief -> expr + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.5 s)
-- Narracao: Fleming ganhou, junto com dois colegas, o prêmio Nobel em mil novecentos e quarenta e cinco.
+## Cena b9  (~3.8 s)
+- Narracao: Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
-- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; prêmio -> stars + som de sino
+- Efeito + som nas palavras-chave: ganhou -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@30, burst@70
 - Texto na tela: NOBEL
 - Funcao na historia: GRANDE MOMENTO
@@ -99,5 +99,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

@@ -1,53 +1,62 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 12 cenas, 144 palavras (~50 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: march | Cenario base: harbor | 10 cenas, 94 palavras (~32 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Uma guerra durou menos de uma hora, e é considerada a mais curta da história.
+## Cena b0  (~3.8 s)
+- Narracao: A guerra mais curta da história durou menos de quarenta minutos.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: MENOS DE 1 HORA
+- Texto na tela: 38 MINUTOS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~5.5 s)
-- Narracao: Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa.
+## Cena b1  (~2.4 s)
+- Narracao: E os derrotados ainda pagaram a conta.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: pagaram -> stars + som de sino
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.1 s)
+- Narracao: Em 1896, em Zanzibar, na África, o sultão morreu.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ZANZIBAR
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: O sultão morreu, e um primo ocupou o palácio sem pedir licença.
+## Cena b3  (~3.4 s)
+- Narracao: Um primo ocupou o palácio sem pedir licença aos ingleses.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.5 s)
-- Narracao: Os ingleses deram um ultimato: sair do palácio até as nove da manhã.
-- Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@10, thump@40
-- Efeito + som nas palavras-chave: encena: fala (point) @4 -> acao + som de efeito
-- Efeito visual marcado: ring@12, dust@40
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b4  (~5.5 s)
-- Narracao: O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.
+## Cena b4  (~3.1 s)
+- Narracao: Deram até as nove da manhã para ele sair.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b5  (~3.8 s)
+- Narracao: Ele juntou quase três mil homens e se trancou lá dentro.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: 2.800
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.8 s)
+## Cena b6  (~3.8 s)
 - Narracao: Acontece que, às nove e dois, os navios ingleses abriram fogo.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: cannon@30, cannon@50
@@ -56,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: 9:02
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.8 s)
-- Narracao: O palácio pegou fogo, e a artilharia do sultão foi calada.
+## Cena b7  (~2.8 s)
+- Narracao: O palácio pegou fogo, e o primo fugiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: cannon@20, thump@60
 - Efeito + som nas palavras-chave: -
@@ -65,49 +74,22 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: harbor | 1
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~3.1 s)
-- Narracao: O sultão foi pedir abrigo no consulado da Alemanha.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @3 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: CONSULADO ALEMÃO
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~3.8 s)
-- Narracao: Por volta das nove e quarenta, a bandeira do palácio caiu.
+## Cena b8  (~2.4 s)
+- Narracao: Às nove e quarenta, a bandeira caiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: caiu -> dust + som de impacto
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (GUA) -> acao + som de efeito; caiu -> dust + som de impacto
 - Efeito visual marcado: dust@40
 - Texto na tela: 9:40
-- Funcao na historia: desenvolvimento
+- Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~2.4 s)
-- Narracao: Os ingleses colocaram outro sultão no trono.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: OUTRO SULTÃO
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~3.4 s)
-- Narracao: E ainda mandaram a conta das balas para os derrotados.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9  (~3.8 s)
+- Narracao: Os ingleses mandaram a conta das balas. E foi assim que...
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: 38 MINUTOS
 - Funcao na historia: FECHO/PIADA FINAL
 
 

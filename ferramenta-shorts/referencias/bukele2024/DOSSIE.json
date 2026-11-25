@@ -7,20 +7,12 @@
   "regiao": "colonial",
   "luz_base": "golden",
   "cenarios": [
-   "interior galpao",
    "interior madeira",
    "loc_campo",
    "loc_cidade",
-   "loc_patio",
-   "loc_pista"
+   "loc_patio"
   ],
-  "cenarios_trocados": [
-   [
-    "cena 8",
-    "street",
-    "loc_cidade"
-   ]
-  ]
+  "cenarios_trocados": []
  },
  "proibido_pela_epoca": [
   "barril",
@@ -45,21 +37,14 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/ballot_box",
-  "kit/cone_transito",
-  "kit/globe",
-  "kit/palete",
-  "kit/porch",
   "kit/prison",
   "kit/room_colonial_wood",
-  "kit/room_galpao",
   "kit/scroll",
   "kit/volcano",
   "mk/Bookcase_2",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Crate_Metal",
-  "mk/Table_Large",
-  "mk/Workbench"
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",

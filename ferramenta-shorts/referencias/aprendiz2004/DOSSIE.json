@@ -4,7 +4,7 @@
  "ancoras": {
   "ano": 2004,
   "era": "atual (1950+)",
-  "regiao": "eua",
+  "regiao": "colonial",
   "luz_base": "day",
   "cenarios": [
    "interior madeira",
@@ -15,11 +15,6 @@
   "cenarios_trocados": [
    [
     "video",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 12",
     "street",
     "loc_cidade"
    ]
@@ -47,16 +42,19 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/coin",
   "kit/marco_trumptower",
-  "kit/room_eua_wood",
-  "kit/stall",
+  "kit/room_colonial_wood",
+  "kit/room_europa_wood",
   "kit/tv",
+  "mk/Bed_Twin1",
   "mk/Bookcase_2",
+  "mk/Cabinet",
   "mk/Chair_1",
   "mk/Chest_Wood",
-  "mk/Table_Large",
-  "nature/picket_fence"
+  "mk/Crate_Metal",
+  "mk/Nightstand_Shelf",
+  "mk/Stool",
+  "mk/Table_Large"
  ],
  "pesquisa_visual": {
   "local": "Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e cadeiras de couro; escritório e arranha-céu em Manhattan; rua com barraca de limonada",

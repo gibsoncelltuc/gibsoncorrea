@@ -80,3 +80,19 @@
 ## 25/11 05:31 autocorrecao de visibilidade
 - b5: objeto ENORME "kit/tulip_purple" cobrindo o quadro (mais de 60% da altura da tela): menor ou sem close -> "kit/tulip_purple" menor e sem close (cobria o quadro)
 - conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 08:48 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b1: objeto citado "kit/tulip_bed" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto "buildings/windmill" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> camera mais perto do objeto, 1 personagem de lado
+- b4: objeto "kit/scroll" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 08:49 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 08:52 autocorrecao de visibilidade
+- b1: objeto citado "kit/tulip_bed" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto citado "buildings/windmill" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto "buildings/windmill" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> camera mais perto do objeto, 1 personagem de lado
+- b4: objeto "kit/scroll" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)

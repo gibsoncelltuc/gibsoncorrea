@@ -3,11 +3,11 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/karansebes/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py karansebes` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um exército inteiro conseguiu perder uma batalha contra si mesmo.
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: countryside | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (4): AUT (variante 0, expressao neutral); AUT (variante 1, expressao stern); AUT (variante 2, expressao neutral); AUT (variante 3, expressao stern) | multidao: 48 de AUT/HUS
-- Animacao: encena | batalha encenada
+- Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): batalha, exercito
 - RISCOS: nenhum
@@ -38,7 +38,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): HUS (variante 0, expressao shock); LOC (variante 0, expressao grin, segura bottle) | multidao: 6 de AUT/HUS
 - Animacao: reagir | interacao: aproxima-se
-- Objetos/modelos: barrel, kit/barrel_r
+- Objetos/modelos: kit/barrel_r, barrel
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
@@ -64,10 +64,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - No escuro, alguém gritou: "Turcos! Turcos!" E o pânico tomou o acampam...
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (1): HUS (variante 1, expressao shock) | multidao: 12 de AUT/HUS
-- Animacao: conversar | batalha encenada
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/campfire, kit/tent
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acampamento, escuro, panico
 - RISCOS: nenhum
@@ -86,8 +86,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (2): OFF (variante 0, expressao shock); AUT (variante 0, expressao pained) | multidao: 6 de AUT/HUS
-- Animacao: reagir | interacao: susto
+- Personagens principais (1): OFF (variante 0, expressao shock) | multidao: 6 de AUT/HUS
+- Animacao: reagir
 - Objetos/modelos: cannon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): artilharia, canhoes, oficial, proprio
 - RISCOS: nenhum
@@ -128,8 +128,8 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 tools/lantern | b2, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/barrel_r | b3 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+barrel | b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tent | b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -139,8 +139,8 @@ cannon | b8 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 4 | mistura: close 11% | medio 66% | aberto 21% | detalhe 1%
-- Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b8 susto, b9 avanca e o outro recua, b10 pular
+- Objeto heroi: kit/barrel_r | grandes momentos: b0, b6, b7 | planos abertos: 3 | mistura: close 9% | medio 71% | aberto 18% | detalhe 1%
+- Interacoes: b3 aproxima-se, b4 brindar, b5 discutir, b9 avanca e o outro recua, b10 pular
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

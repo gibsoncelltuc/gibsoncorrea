@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Os Bifes com o Nome do Trump
 - Epoca: 2007 | Lugar: Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hoteis Trump em Nova York | Quando: maio a julho de 2007, dia
 - HEROIS (objeto): kit/steak
-- HEROIS (personagens): TRU, VEN
+- HEROIS (personagens): VEN, TRU
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Um Em Donald Trump Trump Steaks Sharper Image Os 2007 | SEM REFERENCIA
+tema | Os Bifes com o Nome do Trump | Os Bifes com o Nome do Trump / Trump Em Trump Steaks 2007 | SEM REFERENCIA
 lugar | Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hot | Estados Unidos / Estados Unidos 2007 | SEM REFERENCIA
 lugar | Estados Unidos | Estados Unidos 2007 / Estados Unidos landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2007 | 2007 fashion clothing / 2007 street photograph | SEM REFERENCIA

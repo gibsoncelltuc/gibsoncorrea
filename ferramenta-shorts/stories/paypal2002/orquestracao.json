@@ -13,12 +13,22 @@
    "loc_cidade"
   ],
   [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
    "cena 4",
    "street",
    "loc_cidade"
   ],
   [
    "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
    "street",
    "loc_cidade"
   ]
@@ -38,11 +48,33 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/coin"
+    "kit/coin",
+    "kit/rocket"
    ],
-   "palavras": 15,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um serviço para pagar pela internet foi vendido por um bilhão e meio de dólares.",
+   "frase": "Os foguetes da SpaceX nasceram de um site de pagamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/coin",
+    "kit/roadster2008",
+    "kit/rocket"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E tudo começou com um jeito de mandar dinheiro por e-mail.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -52,25 +84,6 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS",
-    "EBY"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/tv"
-   ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era o PayPal, e quem comprou foi o eBay, o site de leilões mais famoso da época.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
     "POV",
     "POV"
    ],
@@ -79,9 +92,9 @@
     "kit/bancada",
     "kit/computador_2002"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "O PayPal deixava qualquer um mandar dinheiro só com um e-mail, sem precisar de banco.",
+   "frase": "O PayPal deixava mandar dinheiro só com um e-mail.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -96,9 +109,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 19,
+   "palavras": 7,
    "cena": "b3",
-   "frase": "O anúncio saiu em julho de dois mil e dois, nos Estados Unidos, e a compra terminou em outubro.",
+   "frase": "Em 2002, o eBay comprou o PayPal.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -115,9 +128,9 @@
    "objetos": [
     "kit/coin"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b4",
-   "frase": "O pagamento foi em ações do eBay, não em dinheiro vivo.",
+   "frase": "Preço: um bilhão e meio de dólares, em ações.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -132,9 +145,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b5",
-   "frase": "Elon Musk era o maior acionista do PayPal, então ficou muito rico de repente.",
+   "frase": "Elon Musk era o maior acionista. Ficou rico de repente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -150,9 +163,9 @@
    "objetos": [
     "kit/rocket"
    ],
-   "palavras": 14,
+   "palavras": 10,
    "cena": "b6",
-   "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX, uma empresa de foguetes.",
+   "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -168,9 +181,9 @@
    "objetos": [
     "kit/roadster2008"
    ],
-   "palavras": 17,
+   "palavras": 6,
    "cena": "b7",
-   "frase": "Dois anos depois, ele investiu na Tesla, uma fábrica de carros elétricos, e virou presidente do conselho.",
+   "frase": "Dois anos depois, investiu na Tesla.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -195,9 +208,9 @@
     "kit/roadster2008",
     "kit/rocket"
    ],
-   "palavras": 13,
+   "palavras": 10,
    "cena": "b8",
-   "frase": "O dinheiro de uma venda na internet ajudou a bancar foguetes e carros.",
+   "frase": "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -207,36 +220,22 @@
   {
    "camera": "two",
    "personagens": [
-    "MUS"
+    "MUS",
+    "EBY"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/falcon_air"
+    "kit/coin",
+    "kit/rocket"
    ],
-   "palavras": 8,
+   "palavras": 12,
    "cena": "b9",
-   "frase": "Quem diria: um pagamento online chegou ao espaço.",
+   "frase": "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_pista"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "MUS"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b10",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_pista"
+   "cenario": "loc_cidade"
   }
  ]
 }

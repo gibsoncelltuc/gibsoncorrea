@@ -2,114 +2,179 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/starlink2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py starlink2019` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Uma fila de luzes cruzou o céu da Europa, e virou caso de disco voador...
+## Cena b0 - Uma fila de luzes cruzou o céu, e chamaram de ETs.
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/starlink_train
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): disco, europa, fila, luzes
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b1 - Em maio de dois mil e dezenove, a SpaceX lançou da Flórida sessenta sa...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AST (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TEXTO NA TELA: "OVNI?" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+
+## Cena b1 - E a verdade estava num foguete da Flórida.
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): JOR (variante 0, expressao suspicious); JOR2 (variante 0, expressao laugh)
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: kit/rocket
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): florida
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: JOR na esquerda, expressao suspicious; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b2 - Em 2019, a SpaceX lançou sessenta satélites de uma vez.
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): AST (variante 0, expressao grin) | multidao: 6 de POV
 - Animacao: -
 - Objetos/modelos: kit/falcon_air, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, florida, internet, primeiros, spacex, starlink
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): spacex
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b2 - Um dia depois, um rastreador de satélites holandês, Marco Langbroek, f...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_pista; hora: golden
+- CAMERA: revelacao (camera sobe e abre); plano aberto mirando o falcon_air (alvo z -3.6, camera a 19.6 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/falcon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 3.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/rocket: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (7.0-8.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (8.7-10.4 s): mesmo angulo
+<!-- /FICHA -->
+
+## Cena b3 - Um dia depois, o holandês Marco Langbroek filmou o céu.
 - Cenario: countryside | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): AST (variante 0, expressao grin); JOR (variante 0, expressao smug)
-- Animacao: conversar | interacao: avanca e o outro recua
-- Objetos/modelos: kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): rastreador, satelites
+- Animacao: conversar | interacao: o outro se aproxima
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holandes
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b3 - Ele registrou uma fila de luzes, que levava cerca de três minutos para...
-- Cenario: countryside | luz: noite | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/starlink_train, nature/picket_fence
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, tres
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: AST (cientista) na esquerda, expressao grin; JOR na direita, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (10.7-12.4 s): mesmo angulo
+  - take 2 (12.4-14.1 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
-## Cena b4 - Ele viu pelo menos cinquenta e seis objetos brilhando em linha.
+## Cena b4 - Viu pelo menos cinquenta e seis luzes em fila.
 - Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de 
-- Animacao: encena
+- Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de POV
+- Animacao: -
 - Objetos/modelos: kit/starlink_train
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b5 - Acontece que o site holandês de avistamentos de OVNIs registrou mais d...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_montanha; hora: noite
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AST (cientista) no centro, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "56" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (14.4-15.9 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (15.9-17.4 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b5 - Acontece que um site de OVNIs recebeu mais de 150 relatos.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 0 de 
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avistamentos, cento, ovnis, site
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ovnis, site
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b6 - Jornais de vários países explicaram que não eram OVNIs, e sim satélite...
-- Cenario: interior loja | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): JOR (variante 0, expressao suspicious); JOR2 (variante 0, expressao laugh)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): varios
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: golden
+- CAMERA: plano de multidao
+- PERSONAGENS: JOR no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/phone: FRENTE, centro (objeto principal da cena); tamanho na tela: 11% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.8 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +40 da cena
+- SOM: sting@40
+- TAKES: sequencia de acao em 3 cameras (3.7 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
-## Cena b7 - Os satélites ainda estavam juntos, em fila, logo depois do lançamento.
+## Cena b6 - Os satélites ainda voavam juntos, logo depois do lançamento.
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancamento, satelites
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b8 - A imagem da fila de luzes se espalhou por vários países e foi assunto ...
-- Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 10 de POV
-- Animacao: reagir
-- Objetos/modelos: kit/phone
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, imagem, internet, luzes
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/starlink_train no centro, manobra "parado"
+- PASSOS NA TELA: -
+- TAKES: 1 take de explicacao (2.9 s): objeto no centro do estudio, rotulos entrando nas palavras
+<!-- /FICHA -->
 
-## Cena b9 - Moral da história: se olhar o céu e vir uma fila de luzes, pode ser um...
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): AST (variante 0, expressao laugh); JOR2 (variante 0, expressao laugh)
+## Cena b7 - Não eram ETs. Eram satélites de internet.
+- Cenario: interior loja | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): JOR (variante 0, expressao suspicious); JOR2 (variante 0, expressao laugh)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: kit/rocket, kit/starlink_sat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, satelites
+- Objetos/modelos: kit/starlink_sat
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_montanha | luz: noite | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (1): AST (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: golden
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: JOR na esquerda, expressao suspicious; JOR2 na direita, expressao laugh; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- MAPA: MUNDO (cobre a tela 1-2 s)
+- TAKES: 1 take continuo (2.2 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b8 - Internet no céu, e foi assim que...
+- Cenario: countryside | luz: noite | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de POV
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
+- Objetos/modelos: kit/starlink_train
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -117,17 +182,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/starlink_train | b0, b3, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/falcon_air | b1, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/starlink_sat | b1, b2, b6, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/phone | b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rocket | b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_train | b0, b4, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rocket | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/falcon_air | b2, b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/starlink_sat | b2, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/rocket | grandes momentos: b0, b3, b5 | planos abertos: 5 | mistura: close 11% | medio 57% | aberto 27% | detalhe 5%
-- Interacoes: b2 avanca e o outro recua, b6 o outro se aproxima, b9 insiste
+- Objeto heroi: kit/starlink_train | grandes momentos: b0, b5, b8 | planos abertos: 3 | mistura: close 2% | medio 77% | aberto 21% | detalhe 0%
+- Interacoes: b1 avanca e o outro recua, b3 o outro se aproxima, b7 insiste
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py starlink2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/starlink2019/moodboard.jpg
 
@@ -138,3 +202,16 @@ kit/rocket | b9 | pronto (HEROI: aparece em close) | conferir na folha de contat
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh starlink2019 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh starlink2019` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: vila rural (casas, cercas, campo); hora: noite
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o starlink_train (alvo z -2.0, camera a 20.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: AST (cientista) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/starlink_train: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 6.2 m de altura x 17.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
+- SOM: ding@40
+- TEXTO NA TELA: "OVNI?" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (2.2 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
+

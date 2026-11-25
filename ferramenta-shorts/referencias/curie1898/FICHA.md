@@ -12,7 +12,257 @@
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)
+- O
+-  
+- r
+- a
+- d
+- i
+- o
+-  
+- e
+- m
+- i
+- t
+- e
+-  
+- r
+- a
+- d
+- i
+- a
+- c
+- a
+- o
+-  
+- e
+-  
+- b
+- r
+- i
+- l
+- h
+- a
+-  
+- n
+- o
+-  
+- e
+- s
+- c
+- u
+- r
+- o
+-  
+- (
+- r
+- a
+- d
+- i
+- o
+- l
+- u
+- m
+- i
+- n
+- e
+- s
+- c
+- e
+- n
+- c
+- i
+- a
+- )
+- ;
+-  
+- a
+-  
+- r
+- a
+- d
+- i
+- a
+- c
+- a
+- o
+-  
+- c
+- o
+- n
+- t
+- a
+- m
+- i
+- n
+- a
+-  
+- p
+- a
+- p
+- e
+- l
+-  
+- e
+-  
+- o
+- b
+- j
+- e
+- t
+- o
+- s
+-  
+- p
+- o
+- r
+-  
+- s
+- e
+- c
+- u
+- l
+- o
+- s
+-  
+- (
+- m
+- e
+- i
+- a
 - -
+- v
+- i
+- d
+- a
+-  
+- d
+- o
+-  
+- r
+- a
+- d
+- i
+- o
+- -
+- 2
+- 2
+- 6
+- :
+-  
+- c
+- e
+- r
+- c
+- a
+-  
+- d
+- e
+-  
+- 1
+- 6
+- 0
+- 0
+-  
+- a
+- n
+- o
+- s
+- )
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- B
+- i
+- b
+- l
+- i
+- o
+- t
+- h
+- e
+- q
+- u
+- e
+-  
+- n
+- a
+- t
+- i
+- o
+- n
+- a
+- l
+- e
+-  
+- d
+- e
+-  
+- F
+- r
+- a
+- n
+- c
+- e
+-  
+- (
+- c
+- a
+- d
+- e
+- r
+- n
+- o
+- s
+-  
+- e
+- m
+-  
+- c
+- a
+- i
+- x
+- a
+- s
+-  
+- d
+- e
+-  
+- c
+- h
+- u
+- m
+- b
+- o
+- )
+-  
+- e
+-  
+- W
+- i
+- k
+- i
+- p
+- e
+- d
+- i
+- a
+-  
+- "
+- R
+- a
+- d
+- i
+- u
+- m
+- "
+- .
 
 ## Fontes visuais
 - https://en.wikipedia.org/wiki/Marie_Curie

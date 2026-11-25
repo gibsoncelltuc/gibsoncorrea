@@ -4,21 +4,20 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | harbor | two | 2 | conversar, INTERAGEM: aproxima-se | kit/iceberg, kit/marco_liberdade | - | -
-b1 | harbor | reveal | 32 | parados (so fala e pisca) | ship, kit/marco_liberdade | - | -
-b2 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/iceberg, kit/marco_liberdade | - | -
-b3 | countryside | close | 1 | reagir | kit/iceberg, kit/marco_liberdade | - | -
-b4 | street | crowd | 25 | encena, batalha | boat, kit/marco_liberdade, nature/picket_fence | - | -
-b5 | street | two | 2 | conversar, INTERAGEM: avanca e o outro recua, alguem chega andando | kit/marco_liberdade | paper | -
-b6 | harbor | two | 2 | conversar, INTERAGEM: cochichar | ship, kit/marco_liberdade | - | -
-b7 | street | close | 1 | reagir | kit/scroll, kit/marco_liberdade | - | -
-b8 | street | two | 2 | conversar, INTERAGEM: entregar | kit/iceberg, kit/marco_liberdade | - | -
-b9 | street | orbit | 33 | comemorar, batalha | ship, kit/marco_liberdade | - | -
-b10 | harbor | close | 1 | conversar | kit/iceberg, kit/marco_liberdade | - | -
+b0 | harbor | two | 12 | conversar, INTERAGEM: aproxima-se, batalha | kit/iceberg | - | -
+b1 | harbor | group | 2 | conversar, INTERAGEM: cochichar | ship | - | -
+b2 | harbor | reveal | 32 | parados (so fala e pisca) | ship | - | -
+b3 | harbor | two | 2 | discutir, INTERAGEM: discutir | kit/iceberg | - | -
+b4 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/iceberg | - | -
+b5 | harbor | crowd | 25 | batalha | boat | - | -
+b6 | harbor | orbit | 25 | batalha | boat, nature/picket_fence | - | -
+b7 | harbor | close | 1 | reagir | kit/scroll | - | -
+b8 | harbor | two | 2 | conversar, INTERAGEM: entregar | kit/iceberg | - | -
+b9 | harbor | two | 2 | conversar, INTERAGEM: tremem de frio | kit/iceberg | - | -
 
-OBJETO HEROI: kit/iceberg - aparece em 5 cena(s), close nele em 0  << AVISO: sem close no objeto heroi
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b9
-Interacoes entre personagens: b0 aproxima-se, b2 discutir, b5 avanca e o outro recua, b6 cochichar, b8 entregar
+OBJETO HEROI: kit/iceberg
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 3 -> b0, b5, b6
+Interacoes entre personagens: b0 aproxima-se, b1 cochichar, b3 discutir, b8 entregar, b9 tremem de frio
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 2 de 10
 FALTA MODELAR: nada

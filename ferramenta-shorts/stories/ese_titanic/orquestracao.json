@@ -1,0 +1,226 @@
+{
+ "id": "ese_titanic",
+ "ano": 1912,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "CAP",
+    "POV"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/iceberg"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "O navio que não podia afundar foi ao fundo na primeira viagem.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "E é por causa dele que o mar é mais seguro hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "O Titanic levava mais de duas mil pessoas.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "CAP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/iceberg"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Perto da meia-noite, o vigia gritou: iceberg à frente!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/iceberg"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O gelo rasgou o casco por baixo da água.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/iceberg (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "MAR"
+   ],
+   "multidao": 22,
+   "objetos": [
+    "boat"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que só havia botes para metade das pessoas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "MAR"
+   ],
+   "multidao": 22,
+   "objetos": [
+    "boat",
+    "nature/picket_fence"
+   ],
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "Cerca de mil e quinhentas pessoas morreram.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Em 1914, veio a regra: bote para todos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "CAP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/iceberg"
+   ],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "E criaram uma patrulha de icebergs.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/iceberg"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Tudo mudou numa noite gelada. Foi quando...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

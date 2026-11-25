@@ -4,17 +4,17 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Guerra da Lagosta
 - Epoca: 1961 | Lugar: litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros | Quando: 1961 a 1963, de dia
-- HEROIS (objeto): kit/lobster
-- HEROIS (personagens): BRA, PES, MFR, MAR
+- HEROIS (objeto): kit/lobster, crate
+- HEROIS (personagens): BRA
 - Cenarios: harbor, interior pedra, loc_estudio
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/lobster: 1.4 m reais -> escala 0.58 (estava 1.0: grande demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Lagosta | A Guerra da Lagosta / França Brasil Era Pernambuco Brasil 1961 | Brazilian Boeing B-17 flies over the French destro (referencias/lagosta1961/prints/a_guerra_da_lagosta_d75698.jpg); A Guerra da Lagosta.jpg (referencias/lagosta1961/prints/a_guerra_da_lagosta_ab3250.jpg); Brazilian cruiser Tamandaré (C12) underway with de (referencias/lagosta1961/prints/a_guerra_da_lagosta_269e93.jpg)
+tema | A Guerra da Lagosta | A Guerra da Lagosta / Brasil França Em Pernambuco 1961 | Brazilian Boeing B-17 flies over the French destro (referencias/lagosta1961/prints/a_guerra_da_lagosta_d75698.jpg); A Guerra da Lagosta.jpg (referencias/lagosta1961/prints/a_guerra_da_lagosta_ab3250.jpg); Brazilian cruiser Tamandaré (C12) underway with de (referencias/lagosta1961/prints/a_guerra_da_lagosta_269e93.jpg)
 lugar | litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa | litoral de Pernambuco e do Nordeste do Brasil / litoral de Pernambuco e do Nordeste do Brasil 1961 | Panóplia do Nordeste do Brasil.jpg (referencias/lagosta1961/prints/litoral_de_pernambuco_e_do_nordeste_do_b_4ed092.jpg); Brazil pernambuco triunfo portal.jpg (referencias/lagosta1961/prints/litoral_de_pernambuco_e_do_nordeste_do_b_7f266a.jpg)
 lugar | Pernambuco | Pernambuco 1961 / Pernambuco landscape | Supermarket in recife, pernambuco, Brazil.jpg (referencias/lagosta1961/prints/pernambuco_1c1bd9.jpg); Teatro de Santa Isabel, Recife, Pernambuco, Brasil (referencias/lagosta1961/prints/pernambuco_1c6d88.jpg); Golden Chapel, Recife, Pernambuco, Brazil.jpg (referencias/lagosta1961/prints/pernambuco_e3d50c.jpg)
 epoca | roupas e ruas de 1961 | 1961 fashion clothing / 1961 street photograph | Tøj til kvinde fra korjaker i Østsibirien - Woman’ (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_ff7746.jpg); Moscow 1961 street clock (cropped).jpg (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_93b4fd.jpg); Trolleybuses on Gorkogo Street June 1961.jpg (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_011e23.jpg)
@@ -29,9 +29,10 @@ objeto | barcos de pesca | barcos de pesca / barcos de pesca 1961 | Catalan boat
 objeto | navios de guerra | navios de guerra / navios de guerra 1961 | Navios de guerra britânicos - pintura anónima (c.1 (referencias/lagosta1961/prints/navios_de_guerra_8ebcd6.jpg)
 objeto | avioes de patrulha | avioes de patrulha / avioes de patrulha 1961 | S-2 Tracker - Avião de patrulha marítima e luta an (referencias/lagosta1961/prints/avioes_de_patrulha_a856c8.jpg); Academia da força Aérea (AFA) em Pirassununga-SP.  (referencias/lagosta1961/prints/avioes_de_patrulha_3050fc.jpg); Academia da Força Aérea (AFA) em Pirassununga. Aer (referencias/lagosta1961/prints/avioes_de_patrulha_e8227a.jpg)
 heroi | lobster | lagosta / A Guerra da Lagosta | Lobster-issue2-1983.jpg (referencias/lagosta1961/prints/lobster_8c360c.jpg); Lobster from Maine Trenton Lobster Pound.jpg (referencias/lagosta1961/prints/lobster_3926ad.jpg); White Lobster in research tank.jpg (referencias/lagosta1961/prints/lobster_1c5461.jpg)
+heroi | crate | crate | SEM REFERENCIA
 epoca | navio da epoca | ship 1961 / ship | Paul (ship, 1961).jpg (referencias/lagosta1961/prints/navio_da_epoca_3fa7b7.jpg); Paul (ship, 1961) 04.jpg (referencias/lagosta1961/prints/navio_da_epoca_80ecde.jpg)
-mecanismo | O Brasil dizia que a lagosta anda no fundo do mar, e por isso era bras | brasil dizia lagosta fundo brasileira / lobster diagram | Angry Lobster in research tank.jpg (referencias/lagosta1961/prints/o_brasil_dizia_que_a_lagosta_anda_no_fun_aaa3fd.jpg); Lobster-issue2-1983.jpg (referencias/lagosta1961/prints/o_brasil_dizia_que_a_lagosta_anda_no_fun_8c360c.jpg); Lobster from Maine Trenton Lobster Pound.jpg (referencias/lagosta1961/prints/o_brasil_dizia_que_a_lagosta_anda_no_fun_3926ad.jpg)
-mecanismo | A França respondia que a lagosta nada, e por isso era de quem pescasse | franca respondia lagosta pescasse / lobster diagram | Lobster-issue2-1983.jpg (referencias/lagosta1961/prints/a_fran_a_respondia_que_a_lagosta_nada_e__8c360c.jpg); Lobster in research tank.jpg (referencias/lagosta1961/prints/a_fran_a_respondia_que_a_lagosta_nada_e__2b2721.jpg); Lobster (NIH BioArt 624).png (referencias/lagosta1961/prints/a_fran_a_respondia_que_a_lagosta_nada_e__d8d804.jpg)
+mecanismo | O Brasil dizia: ela anda no fundo do mar, é nossa. | brasil dizia fundo nossa / lobster diagram | SEM REFERENCIA
+mecanismo | A França dizia: ela nada, é de quem pescar. | franca dizia pescar / lobster diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004).

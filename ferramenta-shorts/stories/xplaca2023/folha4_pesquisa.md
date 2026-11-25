@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): MUS, OPE
 - Cenarios: interior loja, interior madeira, interior pedra, loc_cidade, loc_patio
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: nenhum objeto precisou de ajuste
+- Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 1.0: grande demais); kit/finch: 0.6 m reais -> escala 0.87 (estava 1.3: grande demais)
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O X no Prédio do Twitter | O X no Prédio do Twitter / Uma Foi Elon Musk Twitter São Francisco Os 2023 | SEM REFERENCIA
+tema | O X no Prédio do Twitter | O X no Prédio do Twitter / Uma Em Musk Twitter 2023 | SEM REFERENCIA
 lugar | Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco co | Sede do Twitter/X Market Street Sao Francisco / Sede do Twitter/X Market Street Sao Francisco California 2023 | SEM REFERENCIA
 lugar | São Francisco | São Francisco 2023 / São Francisco landscape | SEM REFERENCIA
 epoca | roupas e ruas de 2023 | 2023 fashion clothing / 2023 street photograph | SEM REFERENCIA

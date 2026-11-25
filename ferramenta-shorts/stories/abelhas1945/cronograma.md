@@ -1,23 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 20 - As Abelhas que Dançam um Mapa
 
-Gerado em 25/11 07:40 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:19 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_campo | two | FRI, COL | - | bee, beehive | - | As abelhas conversam dançando. E foi um cientista teimoso que descobri
-b1 | simples | interior madeira | two | FRI | - | beehive | - | Karl von Frisch, da Áustria, passou a vida estudando abelhas.
-b2 | chave | loc_campo | wide | FRI, ASS | - | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar n
-b3 | simples | loc_campo | two | FRI | - | bee, beehive | - | Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava
-b4 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.
-b5 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | E o mais incrível: o ângulo da rebolada mostrava a direção, comparada 
-b6 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Quanto mais rebolava, mais longe a comida. Era um mapa de dança!
-b7 | simples | interior madeira | two | COL, FRI | - | - | - | Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada
-b8 | chave | loc_campo | orbit | FRI, COL | - | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.
-b9 | simples | interior pedra | two | FRI, ASS | 4 | - | - | Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobe
-b10 | simples | loc_campo | two | FRI | - | bee, beehive | - | Da próxima vez que vir uma abelha, lembre: ela pode estar contando um 
-b11 | simples | loc_campo | close | FRI | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | loc_campo | two | FRI, COL | - | bee, beehive | - | Abelhas conversam dançando, e a dança é um mapa.
+b1 | simples | interior madeira | two | FRI | - | beehive | - | E quem traduziu isso ganhou um Prêmio Nobel.
+b2 | chave | loc_campo | orbit | FRI, ASS | - | bee, beehive | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Karl von Frisch pôs água com açúcar longe da colmeia.
+b3 | simples | loc_campo | two | FRI | - | bee, beehive | - | A abelha que achava o açúcar voltava dançando.
+b4 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Comida perto: voltinhas. Comida longe: um oito, rebolando.
+b5 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | O ângulo da dança aponta a direção, comparada com o sol.
+b6 | explicativa | loc_estudio | two | sem personagem | - | bee, beehive | corpo: kit/bee (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cad | Quanto mais rebola, mais longe está a comida.
+b7 | simples | interior madeira | two | COL, FRI | - | - | - | Acontece que os cientistas riram: inseto com linguagem?
+b8 | simples | interior pedra | two | FRI, ASS | 4 | - | - | Em 1973, ele ganhou o Nobel por essa dança.
+b9 | simples | loc_campo | two | FRI, COL | - | bee, beehive | - | Repare na próxima abelha que passar. Porque...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
@@ -30,13 +28,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
-10 | Render | todos os quadros renderizados nesta versao das folhas | PENDENTE | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh abelhas1945
+10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh abelhas1945
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local abelhas1945 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 10. Render
+**Etapa atual:** 8. Storyboard e grade de acoes
 

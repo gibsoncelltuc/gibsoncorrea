@@ -9,7 +9,6 @@
   "cenarios": [
    "interior loja",
    "interior madeira",
-   "interior pedra",
    "loc_campo",
    "loc_cidade"
   ],
@@ -37,25 +36,16 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/apartment",
-  "buildings/house_two",
   "kit/megapack",
   "kit/phone",
   "kit/room_azul_shop",
-  "kit/room_europa_stone",
-  "kit/room_rosa_wood",
+  "kit/room_europa_wood",
   "kit/room_verde_shop",
   "mk/Bed_Twin1",
-  "mk/Bench",
   "mk/Cabinet",
   "mk/Crate_Metal",
   "mk/Nightstand_Shelf",
-  "mk/Shelf_Arch",
   "mk/Stool",
-  "mk/Table_Large",
-  "mk/Vase_2",
-  "mk/Vase_4",
-  "nature/lamppost",
   "nature/picket_fence"
  ],
  "pesquisa_visual": {

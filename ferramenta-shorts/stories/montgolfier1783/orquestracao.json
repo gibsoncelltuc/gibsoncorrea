@@ -8,18 +8,13 @@
    "loc_campo"
   ],
   [
-   "cena 1",
+   "cena 7",
    "medieval",
    "loc_campo"
   ],
   [
    "cena 8",
-   "medieval",
-   "loc_campo"
-  ],
-  [
-   "cena 9",
-   "countryside",
+   "jungle",
    "loc_campo"
   ],
   [
@@ -45,10 +40,29 @@
     "kit/balloon",
     "kit/marco_versalhes"
    ],
-   "palavras": 17,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "Os primeiros passageiros de um balão não foram pessoas. Foram uma ovelha, um pato e um galo.",
+   "frase": "Os primeiros passageiros de um balão não foram pessoas.",
    "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JOS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balloon",
+    "kit/marco_versalhes"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "Foram uma ovelha, um pato e um galo.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -64,10 +78,10 @@
    "objetos": [
     "kit/marco_versalhes"
    ],
-   "palavras": 9,
-   "cena": "b1",
-   "frase": "Era mil setecentos e oitenta e três, na França.",
-   "classe": "transicao",
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Em 1783, os irmãos Montgolfier faziam papel.",
+   "classe": "chave",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -83,9 +97,9 @@
    "objetos": [
     "kit/campfire"
    ],
-   "palavras": 19,
-   "cena": "b2",
-   "frase": "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Viram que fumaça quente fazia sacos de papel subirem.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -98,11 +112,12 @@
    "multidao": 0,
    "objetos": [
     "kit/balloon",
+    "kit/campfire",
     "kit/fire"
    ],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Fizeram um balão gigante de pano e papel.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -123,58 +138,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b4",
-   "frase": "Só que ninguém sabia se dava para respirar lá em cima.",
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Ninguém sabia se dava para respirar lá em cima.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "wide",
-   "personagens": [
-    "JOS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/balloon",
-    "kit/marco_versalhes"
-   ],
-   "palavras": 16,
-   "cena": "b5",
-   "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "crowd",
-   "personagens": [
-    "REI",
-    "RAI"
-   ],
-   "multidao": 30,
-   "objetos": [
-    "kit/marco_versalhes"
-   ],
-   "palavras": 15,
-   "cena": "b6",
-   "frase": "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
   },
   {
    "camera": "orbit",
@@ -183,13 +154,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon",
     "kit/balloon_air",
     "kit/marco_versalhes"
    ],
-   "palavras": 12,
-   "cena": "b7",
-   "frase": "Acontece que o balão levantou voo de verdade, com os bichos dentro.",
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Acontece que o balão subiu de verdade, com os bichos dentro.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -209,11 +179,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon",
+    "kit/fire"
    ],
-   "palavras": 21,
-   "cena": "b8",
-   "frase": "Oito minutos depois, ele desceu num bosque a três quilômetros dali, e os bichos estavam vivos: dava para respirar no céu.",
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Oito minutos depois, pousou, e os bichos estavam vivos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -221,18 +192,19 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "POV",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 10,
    "objetos": [
-    "kit/balloon"
+    "kit/balloon_air",
+    "kit/marco_versalhes"
    ],
-   "palavras": 12,
-   "cena": "b9",
-   "frase": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Dois meses depois, um balão levou dois homens.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -242,34 +214,16 @@
   {
    "camera": "wide",
    "personagens": [
-    "ETI"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
     "kit/balloon",
     "kit/marco_versalhes"
    ],
-   "palavras": 6,
-   "cena": "b10",
-   "frase": "Tudo graças a três bichos corajosos.",
-   "classe": "transicao",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "JOS"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/balloon"
-   ],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Ninguém quis ser cobaia. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -18,12 +18,11 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/petri",
     "kit/petri_mofo"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b0",
-   "frase": "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas.",
+   "frase": "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -31,7 +30,25 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "reveal",
+   "camera": "close",
+   "personagens": [
+    "FLE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_bigben"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E tudo porque o cientista saiu de férias.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
    "personagens": [
     "MED",
     "MED"
@@ -40,17 +57,23 @@
    "objetos": [
     "kit/marco_bigben"
    ],
-   "palavras": 17,
-   "cena": "b1",
-   "frase": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
-   "classe": "transicao",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1928, Alexander Fleming trabalhava num laboratório em Londres.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -60,9 +83,9 @@
     "kit/bancada",
     "kit/petri"
    ],
-   "palavras": 23,
-   "cena": "b2",
-   "frase": "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam.",
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Ele deixava os pratos de bactérias empilhados na bancada.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -70,16 +93,16 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "FLE",
     "COL"
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Um dia, ele saiu de férias por um mês e não limpou nada.",
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Saiu de férias por um mês e não limpou nada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -95,27 +118,6 @@
   {
    "camera": "two",
    "personagens": [
-    "COL",
-    "FLE"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bancada",
-    "kit/petri",
-    "kit/petri_mofo"
-   ],
-   "palavras": 10,
-   "cena": "b4",
-   "frase": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
-   "personagens": [
     "FLE"
    ],
    "multidao": 0,
@@ -125,7 +127,7 @@
    ],
    "palavras": 9,
    "cena": "b5",
-   "frase": "Ele ia jogar o prato fora, mas olhou melhor.",
+   "frase": "Na volta, um prato estava coberto de bolor verde.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -133,7 +135,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -141,7 +143,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/petri",
     "kit/petri_mofo"
    ],
    "palavras": 10,
@@ -158,9 +159,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 7,
    "cena": "b7",
-   "frase": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
+   "frase": "O mofo matava bactérias. Era a penicilina.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -181,12 +182,10 @@
     "POV"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/petri"
-   ],
-   "palavras": 15,
+   "objetos": [],
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Anos depois, outros cientistas transformaram o bolor em remédio, e ele salvou milhões de pessoas.",
+   "frase": "Virou remédio e salvou milhões de pessoas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,59 +193,24 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "orbit",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
    ],
-   "multidao": 14,
-   "objetos": [],
-   "palavras": 11,
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/petri_mofo"
+   ],
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Em mil novecentos e quarenta e cinco, Fleming ganhou o Nobel.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "hall"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FLE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b10",
-   "frase": "No fim, a bagunça dele valeu mais que qualquer faxina.",
+   "frase": "Fleming ganhou até o Nobel. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "street"
-  },
-  {
-   "camera": "two",
-   "personagens": [
-    "FLE"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
+   "cenario": "interior madeira"
   }
  ]
 }

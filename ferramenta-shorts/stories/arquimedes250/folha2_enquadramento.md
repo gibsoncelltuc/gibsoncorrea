@@ -2,7 +2,7 @@
 
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
-## b0: "Um homem pulou da banheira e saiu correndo pela rua, gritando uma palavra só."
+## b0: "Um homem saiu correndo da banheira, gritando pela rua."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: ARQ na esquerda, expressao shout; POV na direita, expressao shock; sem multidao; acao: fala/gesto
@@ -11,32 +11,32 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: steps@10
 - TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
 
-## b1: "Foi em Siracusa, na Sicília, há mais de dois mil anos."
+## b1: "E foi a banheira que pegou um ladrão de ouro."
+- LOCAL: vila medieval; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
+- PERSONAGENS: REI na esquerda, expressao smile; OUR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+
+## b2: "Foi em Siracusa, na Sicília, há dois mil anos."
 - LOCAL: vila medieval; hora: day
 - CAMERA: revelacao (camera sobe e abre); plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
 - PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao neutral; multidao de 8 (POV) ATRAS dos principais; acao: fala/gesto
 - OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - MAPA: SICÍLIA (cobre a tela 1-2 s)
 
-## b2: "O rei Hierão mandou fazer uma coroa de ouro puro, mas desconfiou do ourives."
+## b3: "O rei desconfiou que o ourives misturou prata na coroa."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI na esquerda, expressao stern; OUR na direita, expressao nervous; sem multidao; acao: discutir
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b3: "Será que trocou parte do ouro por prata?"
-- LOCAL: sala de pedra (governo/castelo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: REI na esquerda, expressao suspicious; OUR na direita, expressao scared; sem multidao; acao: discutir
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-
-## b4: "O rei chamou Arquimedes e pediu a verdade, mas sem estragar a coroa."
+## b4: "Ele mandou Arquimedes achar a resposta, sem estragar a coroa."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: REI na esquerda, expressao angry, segura paper; ARQ na direita, expressao surprised; sem multidao; acao: entregar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
-## b5: "Acontece que, numa tarde, ele entrou na banheira bem devagar. E a água transbordou pelas bordas, molhando o chão todo."
+## b5: "Acontece que, ao entrar na banheira, a água transbordou."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 8.0 m)
 - PERSONAGENS: ARQ no centro, expressao surprised; sem multidao; acao: fala/gesto
@@ -46,23 +46,17 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: whoosh@50
 - SOM: ding@70
 
-## b6: "Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo que entra."
+## b6: "A água que sai tem o tamanho do corpo que entra."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/bathtub no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b7: "Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e derramaria mais água."
+## b7: "Coroa com prata é maior, e derrama mais água."
 - LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
 - OBJETO: kit/coroa_louros no centro, manobra "parado"
 - PASSOS NA TELA: -
 
-## b8: "Assim dava para medir a coroa, e comparar com o mesmo peso de ouro puro."
-- LOCAL: vila medieval; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
-- PERSONAGENS: ARQ na esquerda, expressao grin; OUR na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/coroa_louros: FRENTE, centro (objeto principal da cena); tamanho na tela: 3% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.2 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
-
-## b9: "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
+## b8: "Conta a lenda: ele gritou Eureca. A coroa tinha prata."
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: ARQ na esquerda, expressao laugh; POV na direita, expressao shock; multidao de 14 (POV, OUR) ATRAS dos principais; acao: comemorar
@@ -73,9 +67,12 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: sting@80
 - TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
 
-## b10: "No fim, dá para enganar um rei, mas não uma banheira."
+## b9: "Dá para enganar muita gente, mas não a água. E foi assim que..."
 - LOCAL: vila medieval; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bathtub juntos (camera a 11.5 m)
-- PERSONAGENS: REI na esquerda, expressao smile; OUR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/bathtub: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.9 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: ARQ na esquerda, expressao shout; POV na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO poeira nos pes: no chao, aos pes; entra no quadro +20 da cena
+- SOM: steps@10
+- TEXTO NA TELA: "EUREKA" flutuando no alto, na palavra 1 da frase
 

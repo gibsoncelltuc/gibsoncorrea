@@ -23,17 +23,7 @@
    "loc_campo"
   ],
   [
-   "cena 9",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 11",
-   "countryside",
-   "loc_campo"
-  ],
-  [
-   "cena 12",
+   "cena 10",
    "countryside",
    "loc_campo"
   ]
@@ -56,9 +46,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 15,
+   "palavras": 9,
    "cena": "b0",
-   "frase": "As abelhas conversam dançando. E foi um cientista teimoso que descobriu o que elas dizem.",
+   "frase": "Abelhas conversam dançando, e a dança é um mapa.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -74,9 +64,9 @@
    "objetos": [
     "kit/beehive"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b1",
-   "frase": "Karl von Frisch, da Áustria, passou a vida estudando abelhas.",
+   "frase": "E quem traduziu isso ganhou um Prêmio Nobel.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -84,7 +74,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "orbit",
    "personagens": [
     "FRI",
     "ASS"
@@ -94,9 +84,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 19,
+   "palavras": 10,
    "cena": "b2",
-   "frase": "Ele construiu uma colmeia de vidro e pôs pratinhos com água e açúcar no jardim, bem longe da colmeia.",
+   "frase": "Karl von Frisch pôs água com açúcar longe da colmeia.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -119,9 +109,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 16,
+   "palavras": 8,
    "cena": "b3",
-   "frase": "Acontece que, quando uma abelha achava o açúcar, ela voltava e dançava em cima do favo.",
+   "frase": "A abelha que achava o açúcar voltava dançando.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -136,9 +126,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 10,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Comida perto: voltinhas. Comida longe: um oito, rebolando no meio.",
+   "frase": "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -159,9 +149,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b5",
-   "frase": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
+   "frase": "O ângulo da dança aponta a direção, comparada com o sol.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -182,9 +172,9 @@
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "Quanto mais rebolava, mais longe a comida. Era um mapa de dança!",
+   "frase": "Quanto mais rebola, mais longe está a comida.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -205,40 +195,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "Muitos cientistas não acreditaram. Inseto com linguagem? Parecia piada.",
+   "frase": "Acontece que os cientistas riram: inseto com linguagem?",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "FRI",
-    "COL"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bee",
-    "kit/beehive"
-   ],
-   "palavras": 11,
-   "cena": "b8",
-   "frase": "Ele repetiu os testes centenas de vezes. As abelhas sempre acertavam.",
-   "classe": "chave",
-   "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
   },
   {
    "camera": "two",
@@ -248,9 +212,9 @@
    ],
    "multidao": 4,
    "objetos": [],
-   "palavras": 19,
-   "cena": "b9",
-   "frase": "Já idoso, em mil novecentos e setenta e três, ele ganhou o Prêmio Nobel, dividido com outros dois cientistas.",
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Em 1973, ele ganhou o Nobel por essa dança.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -260,32 +224,17 @@
   {
    "camera": "two",
    "personagens": [
-    "FRI"
+    "FRI",
+    "COL"
    ],
    "multidao": 0,
    "objetos": [
     "kit/bee",
     "kit/beehive"
    ],
-   "palavras": 14,
-   "cena": "b10",
-   "frase": "Da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_campo"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "FRI"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Repare na próxima abelha que passar. Porque...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

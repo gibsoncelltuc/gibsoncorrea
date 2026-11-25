@@ -5,20 +5,18 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/moon | - | -
-b1 | countryside | two | 2 | reagir, INTERAGEM: aproxima-se | - | - | -
-b2 | harbor | reveal | 8 | parados (so fala e pisca) | - | - | -
-b3 | countryside | two | 2 | conversar, INTERAGEM: avanca e o outro recua | boat | paper | -
-b4 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | gull | - | -
-b5 | street | crowd | 23 | reagir, batalha | - | - | -
-b6 | street | two | 1 | reagir | kit/globe | - | -
-b7 | street | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
-b8 | street | two | 2 | conversar, INTERAGEM: insiste | - | - | -
-b9 | street | orbit | 21 | comemorar, batalha | kit/moon | - | -
-b10 | harbor | close | 1 | conversar | kit/moon | - | -
+b1 | loc_campo | reveal | 9 | reagir | kit/globe | - | -
+b2 | interior loja | two | 2 | reagir, INTERAGEM: aproxima-se | - | - | -
+b3 | harbor | wide | 8 | batalha | - | - | -
+b4 | loc_campo | two | 2 | conversar, INTERAGEM: avanca e o outro recua | boat | paper | -
+b5 | loc_montanha | low | 1 | reagir | kit/globe | - | -
+b6 | loc_montanha | two | 2 | conversar, INTERAGEM: cochichar | kit/globe | paper | -
+b7 | loc_campo | crowd | 21 | comemorar, batalha | kit/moon | - | -
+b8 | harbor | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/moon | - | -
 
-OBJETO HEROI: kit/moon - aparece em 3 cena(s), close nele em 1
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b9
-Interacoes entre personagens: b0 vai ate o outro, b1 aproxima-se, b3 avanca e o outro recua, b4 o outro se aproxima, b7 cochichar, b8 insiste
+OBJETO HEROI: kit/moon
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b3, b7
+Interacoes entre personagens: b0 vai ate o outro, b2 aproxima-se, b4 avanca e o outro recua, b6 cochichar, b8 o outro se aproxima
 
-Cenas com personagens parados: 1 de 11
+Cenas com personagens parados: 0 de 9
 FALTA MODELAR: nada

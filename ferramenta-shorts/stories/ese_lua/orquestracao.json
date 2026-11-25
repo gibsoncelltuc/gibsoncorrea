@@ -1,0 +1,191 @@
+{
+ "id": "ese_lua",
+ "ano": null,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/moon"
+   ],
+   "palavras": 8,
+   "cena": "b0",
+   "frase": "Hoje à noite, a Lua desaparece do céu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "O pior não viria na hora. Viria devagar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Primeiro, a escuridão: lua cheia, preta como uma caverna.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PES",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Depois, o mar: quem mais puxa as marés é a Lua.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PES",
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "boat"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Sem ela, as marés perderiam mais da metade da força.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que a Lua mantém a Terra girando firme.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Sem ela, o eixo balançaria, e as estações ficariam extremas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "PES",
+    "PRO"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/moon"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Boa notícia: ela só se afasta quatro centímetros por ano.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/moon"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Olha para cima e agradece. Agora imagina que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

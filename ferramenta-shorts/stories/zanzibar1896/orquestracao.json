@@ -19,9 +19,9 @@
    "objetos": [
     "kit/marco_zanzibar"
    ],
-   "palavras": 15,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Uma guerra durou menos de uma hora, e é considerada a mais curta da história.",
+   "frase": "A guerra mais curta da história durou menos de quarenta minutos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -29,19 +29,35 @@
    "cenario": "harbor"
   },
   {
-   "camera": "reveal",
+   "camera": "close",
+   "personagens": [
+    "ALM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E os derrotados ainda pagaram a conta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "SUL",
     "POV"
    ],
-   "multidao": 8,
+   "multidao": 0,
    "objetos": [
     "kit/marco_zanzibar"
    ],
-   "palavras": 16,
-   "cena": "b1",
-   "frase": "Foi em mil oitocentos e noventa e seis, em Zanzibar, uma ilha africana sob influência inglesa.",
-   "classe": "transicao",
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1896, em Zanzibar, na África, o sultão morreu.",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -57,9 +73,9 @@
    "objetos": [
     "kit/throne"
    ],
-   "palavras": 12,
-   "cena": "b2",
-   "frase": "O sultão morreu, e um primo ocupou o palácio sem pedir licença.",
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Um primo ocupou o palácio sem pedir licença aos ingleses.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -76,20 +92,14 @@
     "kit/marco_zanzibar",
     "kit/navio_vapor"
    ],
-   "palavras": 13,
-   "cena": "b3",
-   "frase": "Os ingleses deram um ultimato: sair do palácio até as nove da manhã.",
-   "classe": "chave",
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Deram até as nove da manhã para ele sair.",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
-   "cenario": "harbor"
+   "cenario": "loc_campo"
   },
   {
    "camera": "reveal",
@@ -101,10 +111,10 @@
    "objetos": [
     "kit/marco_zanzibar"
    ],
-   "palavras": 16,
-   "cena": "b4",
-   "frase": "O primo reuniu quase três mil homens, com fuzis e mosquetes, e se trancou lá dentro.",
-   "classe": "simples",
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Ele juntou quase três mil homens e se trancou lá dentro.",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -121,7 +131,7 @@
     "navios de guerra ao fundo, no tamanho real"
    ],
    "palavras": 11,
-   "cena": "b5",
+   "cena": "b6",
    "frase": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
    "classe": "chave",
    "sujeito": "cenario",
@@ -140,9 +150,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
-   "cena": "b6",
-   "frase": "O palácio pegou fogo, e a artilharia do sultão foi calada.",
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "O palácio pegou fogo, e o primo fugiu.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -156,23 +166,7 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "two",
-   "personagens": [
-    "SUL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 9,
-   "cena": "b7",
-   "frase": "O sultão foi pedir abrigo no consulado da Alemanha.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior madeira"
-  },
-  {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "GUA",
     "ING2"
@@ -180,62 +174,35 @@
    "multidao": 0,
    "objetos": [
     "kit/forte_colonial",
+    "kit/marco_zanzibar",
     "war/flagpole"
    ],
-   "palavras": 11,
+   "palavras": 7,
    "cena": "b8",
-   "frase": "Por volta das nove e quarenta, a bandeira do palácio caiu.",
-   "classe": "simples",
+   "frase": "Às nove e quarenta, a bandeira caiu.",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
-   "cenario": "interior pedra"
+   "cenario": "loc_campo"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "SUL",
-    "ING2"
+    "GUA"
    ],
    "multidao": 0,
-   "objetos": [
-    "kit/throne"
-   ],
-   "palavras": 7,
+   "objetos": [],
+   "palavras": 11,
    "cena": "b9",
-   "frase": "Os ingleses colocaram outro sultão no trono.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior pedra"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "ALM"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b10",
-   "frase": "E ainda mandaram a conta das balas para os derrotados.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "interior loja"
-  },
-  {
-   "camera": "close",
-   "personagens": [
-    "SUL"
-   ],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 13,
-   "cena": "b11",
-   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "frase": "Os ingleses mandaram a conta das balas. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

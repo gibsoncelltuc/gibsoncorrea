@@ -19,14 +19,9 @@
     "loc_cidade"
    ],
    [
-    "cena 3",
+    "cena 4",
     "street",
     "loc_cidade"
-   ],
-   [
-    "cena 5",
-    "outback",
-    "loc_pista"
    ],
    [
     "cena 6",
@@ -34,14 +29,9 @@
     "loc_pista"
    ],
    [
-    "cena 8",
-    "street",
-    "loc_cidade"
-   ],
-   [
-    "cena 11",
-    "street",
-    "loc_cidade"
+    "cena 7",
+    "outback",
+    "loc_pista"
    ]
   ]
  },
@@ -67,15 +57,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "kit/coin",
   "kit/phone",
   "kit/roadster",
   "kit/room_eua_shop",
   "kit/room_europa_shop",
-  "kit/room_verde_shop",
   "kit/tequila_bolt",
-  "kit/veg_cacto",
-  "nature/picket_fence"
+  "kit/veg_cacto"
  ],
  "pesquisa_visual": {
   "local": "Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria com campos de agave azul)",

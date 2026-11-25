@@ -2,17 +2,16 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | tropa, placa: E SE..., objeto na mao | encena: cava (hammer) @4 (acao + som de efeito) | -
-b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); surpresa: (ring + som de alerta); encena: grita (up) @1 (acao + som de efeito) | -
-b2 | two | -  | objeto na mao | encena: cava (hammer) @2 (acao + som de efeito) | -
-b3 | two | -  | objeto na mao | - | -
-b4 | low | -  | - | - | -
-b5 | crowd | -  | batalha aberta com tiros, tropa, placa: 5.000 °C | encena: pula @9 (acao + som de efeito) | -
-b6 | group | -  | tropa | - | -
+b0 | two | -  | placa: E SE..., objeto na mao | - | -
+b1 | two | -  | interior | - | -
+b2 | two | -  | mapa, objeto na mao | - | -
+b3 | wide | -  | batalha aberta com tiros, objeto na mao | - | -
+b4 | wide | -  | tropa | - | -
+b5 | close | -  | - | - | -
+b6 | orbit | -  | batalha aberta com tiros | - | -
 b7 | two | -  | objeto na mao | - | -
-b8 | two | -  | interior | - | -
-b9 | orbit | -  | batalha aberta com tiros, tropa, placa: 40 MINUTOS | - | -
-b10 | close | -  | - | encena: negocio (reach) @11 (acao + som de efeito) | -
+b8 | two | -  | - | - | -
+b9 | two | -  | placa: E SE..., objeto na mao | - | -
 
-Mistura de planos: close 23% | medio 59% | aberto 11% | detalhe 7%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 60% | aberto 19% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

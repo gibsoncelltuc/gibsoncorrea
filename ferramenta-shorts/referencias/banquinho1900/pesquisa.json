@@ -5,6 +5,7 @@
    "tipo": "tema",
    "item": "A Guerra do Banquinho Dourado",
    "consultas": [
+    "War of the Golden Stool 1900 Kumasi",
     "A Guerra do Banquinho Dourado",
     "Um Era Costa Ouro Gana Os Nem 1900"
    ],
@@ -28,21 +29,21 @@
      "consulta": "Kumasi capital"
     },
     {
+     "titulo": "Kronum Kumasi 2018-11-08 (130246).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Kronum_Kumasi_2018-11-08_%28130246%29.jpg/500px-Kronum_Kumasi_2018-11-08_%28130246%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKronum_Kumasi_2018-11-08_%28130246%29.jpg",
+     "descricao": "DescriptionKronum \\u003Cspan class=\\",
+     "ordem": 2,
+     "print": "referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__1b253a.jpg",
+     "consulta": "Kumasi capital"
+    },
+    {
      "titulo": "National Cultural Centre in Ghana, Kumasi.jpg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/National_Cultural_Centre_in_Ghana%2C_Kumasi.jpg/500px-National_Cultural_Centre_in_Ghana%2C_Kumasi.jpg",
      "pagina": "https://commons.wikimedia.org/wiki/File%3ANational_Cultural_Centre_in_Ghana%2C_Kumasi.jpg",
      "descricao": "Attribution-Share Alike 4.0 truetrue English A visit to the National Cultural Centre in \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__ff12f0.jpg",
-     "consulta": "Kumasi capital"
-    },
-    {
-     "titulo": "Cultural Centre, Kumasi.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Cultural_Centre%2C_Kumasi.jpg/500px-Cultural_Centre%2C_Kumasi.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3ACultural_Centre%2C_Kumasi.jpg",
-     "descricao": "serene beauty of nature lies at the very core of the cultural center in \\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/banquinho1900/prints/kumasi_capital_do_povo_ashanti_na_costa__bd540c.jpg",
      "consulta": "Kumasi capital"
     }
    ]
@@ -162,10 +163,39 @@
    "tipo": "pessoas",
    "item": "lideres ashanti",
    "consultas": [
+    "Asante chiefs kente cloth 1900",
     "lideres ashanti",
     "lideres ashanti 1900"
    ],
-   "achados": []
+   "achados": [
+    {
+     "titulo": "Kingdom of Ashanti (Asanteman).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kingdom_of_Ashanti_%28Asanteman%29.jpg/500px-Kingdom_of_Ashanti_%28Asanteman%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AKingdom_of_Ashanti_%28Asanteman%29.jpg",
+     "descricao": "Map of the Kingdom of \\u003Cspan class=\\",
+     "ordem": 6,
+     "print": "referencias/banquinho1900/prints/lideres_ashanti_7b7626.jpg",
+     "consulta": "Asante 1900"
+    },
+    {
+     "titulo": "Chair used by Ashanti kings during the Ashanti Empire.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chair_used_by_Ashanti_kings_during_the_Ashanti_Empire.jpg/500px-Chair_used_by_Ashanti_kings_during_the_Ashanti_Empire.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AChair_used_by_Ashanti_kings_during_the_Ashanti_Empire.jpg",
+     "descricao": "DescriptionChair used by \\u003Cspan class=\\",
+     "ordem": 7,
+     "print": "referencias/banquinho1900/prints/lideres_ashanti_3f2bc3.jpg",
+     "consulta": "Asante 1900"
+    },
+    {
+     "titulo": "An Aku Mma doll.y. Ashanti, Ghana, West Africa. Wellcome M0014384.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/An_Aku_Mma_doll.y._Ashanti%2C_Ghana%2C_West_Africa._Wellcome_M0014384.jpg/500px-An_Aku_Mma_doll.y._Ashanti%2C_Ghana%2C_West_Africa._Wellcome_M0014384.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AAn_Aku_Mma_doll.y._Ashanti%2C_Ghana%2C_West_Africa._Wellcome_M0014384.jpg",
+     "descricao": "doll.y. \\u003Cspan class=\\",
+     "ordem": 9,
+     "print": "referencias/banquinho1900/prints/lideres_ashanti_4a436f.jpg",
+     "consulta": "Asante 1900"
+    }
+   ]
   },
   {
    "tipo": "pessoas",
@@ -245,10 +275,39 @@
    "tipo": "objeto",
    "item": "banquinho dourado (Sika Dwa Kofi)",
    "consultas": [
+    "Golden Stool Asante Sika Dwa Kofi",
     "banquinho dourado",
     "banquinho dourado 1900"
    ],
-   "achados": []
+   "achados": [
+    {
+     "titulo": "Golden stool 31 January 1935.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Golden_stool_31_January_1935.jpg/500px-Golden_stool_31_January_1935.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGolden_stool_31_January_1935.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/banquinho1900/prints/banquinho_dourado_sika_dwa_kofi__94414f.jpg",
+     "consulta": "Golden Stool Asante Sika Dwa Kofi"
+    },
+    {
+     "titulo": "Golden Stool, South Tottenham, N15 (2626259376).jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_Stool%2C_South_Tottenham%2C_N15_%282626259376%29.jpg/500px-Golden_Stool%2C_South_Tottenham%2C_N15_%282626259376%29.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGolden_Stool%2C_South_Tottenham%2C_N15_%282626259376%29.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 4,
+     "print": "referencias/banquinho1900/prints/banquinho_dourado_sika_dwa_kofi__71ed1e.jpg",
+     "consulta": "Golden Stool Asante Sika Dwa Kofi"
+    },
+    {
+     "titulo": "The Coming of the Ashanti Golden Stool - NARA - 558798.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Coming_of_the_Ashanti_Golden_Stool_-_NARA_-_558798.jpg/500px-The_Coming_of_the_Ashanti_Golden_Stool_-_NARA_-_558798.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Coming_of_the_Ashanti_Golden_Stool_-_NARA_-_558798.jpg",
+     "descricao": "The Coming of the Ashanti \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/banquinho1900/prints/banquinho_dourado_sika_dwa_kofi__1d2d69.jpg",
+     "consulta": "Golden Stool Asante Sika Dwa Kofi"
+    }
+   ]
   },
   {
    "tipo": "objeto",
@@ -259,13 +318,13 @@
    ],
    "achados": [
     {
-     "titulo": "Fort Pierce Inlet Fort Pierce Florida photo Don Ramey Logan.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Fort_Pierce_Inlet_Fort_Pierce_Florida_photo_Don_Ramey_Logan.jpg/500px-Fort_Pierce_Inlet_Fort_Pierce_Florida_photo_Don_Ramey_Logan.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AFort_Pierce_Inlet_Fort_Pierce_Florida_photo_Don_Ramey_Logan.jpg",
-     "descricao": "English \\u003Cspan class=\\",
-     "ordem": 7,
-     "print": "referencias/banquinho1900/prints/forte_britanico_d3e96f.jpg",
-     "consulta": "fort"
+     "titulo": "The Capture of the Forts at Taku.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Capture_of_the_Forts_at_Taku.jpg/500px-The_Capture_of_the_Forts_at_Taku.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Capture_of_the_Forts_at_Taku.jpg",
+     "descricao": "DescriptionThe Capture of the \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/banquinho1900/prints/forte_britanico_2ad7bc.jpg",
+     "consulta": "fort 1900"
     },
     {
      "titulo": "Fort de Cotonou-1900.jpg",
@@ -277,12 +336,12 @@
      "consulta": "fort 1900"
     },
     {
-     "titulo": "Fort de Cotonou-1900 (cropped).jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fort_de_Cotonou-1900_%28cropped%29.jpg/500px-Fort_de_Cotonou-1900_%28cropped%29.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AFort_de_Cotonou-1900_%28cropped%29.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 6,
-     "print": "referencias/banquinho1900/prints/forte_britanico_42259d.jpg",
+     "titulo": "Fort Worden 1900.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fort_Worden_1900.jpg/500px-Fort_Worden_1900.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AFort_Worden_1900.jpg",
+     "descricao": "Science Center, Enlisted Men\\u0026#039;s Barracks (225) and Bliss Vista cottage at \\u003Cspan class=\\",
+     "ordem": 5,
+     "print": "referencias/banquinho1900/prints/forte_britanico_60a88f.jpg",
      "consulta": "fort 1900"
     }
    ]
@@ -291,19 +350,59 @@
    "tipo": "objeto",
    "item": "fuzis",
    "consultas": [
+    "Lee-Metford rifle 1900",
     "fuzis",
     "fuzis 1900"
    ],
-   "achados": []
+   "achados": [
+    {
+     "titulo": "Lee-Metford Mk II - AM.032034.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lee-Metford_Mk_II_-_AM.032034.jpg/500px-Lee-Metford_Mk_II_-_AM.032034.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ALee-Metford_Mk_II_-_AM.032034.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/banquinho1900/prints/fuzis_1e0cf4.jpg",
+     "consulta": "Lee Metford"
+    },
+    {
+     "titulo": "EB1911 - Rifle - Fig. 5 - 6 Lee-Metford.png",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/EB1911_-_Rifle_-_Fig._5_-_6_Lee-Metford.png/500px-EB1911_-_Rifle_-_Fig._5_-_6_Lee-Metford.png",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AEB1911_-_Rifle_-_Fig._5_-_6_Lee-Metford.png",
+     "descricao": "English \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/banquinho1900/prints/fuzis_ea734c.jpg",
+     "consulta": "Lee Metford"
+    }
+   ]
   },
   {
    "tipo": "heroi",
    "item": "golden stool",
    "consultas": [
+    "Golden Stool of Asante",
     "banquinho dourado",
     "A Guerra do Banquinho Dourado"
    ],
-   "achados": []
+   "achados": [
+    {
+     "titulo": "Golden stool 31 January 1935.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Golden_stool_31_January_1935.jpg/500px-Golden_stool_31_January_1935.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AGolden_stool_31_January_1935.jpg",
+     "descricao": "Description\\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/banquinho1900/prints/golden_stool_94414f.jpg",
+     "consulta": "Golden Stool Asante"
+    },
+    {
+     "titulo": "The Childrens Museum of Indianapolis - Queen Mothers stool.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/The_Childrens_Museum_of_Indianapolis_-_Queen_Mothers_stool.jpg/500px-The_Childrens_Museum_of_Indianapolis_-_Queen_Mothers_stool.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3AThe_Childrens_Museum_of_Indianapolis_-_Queen_Mothers_stool.jpg",
+     "descricao": "the \\u003Cspan class=\\",
+     "ordem": 3,
+     "print": "referencias/banquinho1900/prints/golden_stool_693ae6.jpg",
+     "consulta": "Golden Stool Asante"
+    }
+   ]
   },
   {
    "tipo": "epoca",
@@ -313,6 +412,15 @@
     "soldier uniform"
    ],
    "achados": [
+    {
+     "titulo": "Rider, soldier, uniform, men, saddle Fortepan 96147.jpg",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Rider%2C_soldier%2C_uniform%2C_men%2C_saddle_Fortepan_96147.jpg/500px-Rider%2C_soldier%2C_uniform%2C_men%2C_saddle_Fortepan_96147.jpg",
+     "pagina": "https://commons.wikimedia.org/wiki/File%3ARider%2C_soldier%2C_uniform%2C_men%2C_saddle_Fortepan_96147.jpg",
+     "descricao": "DescriptionRider, \\u003Cspan class=\\",
+     "ordem": 1,
+     "print": "referencias/banquinho1900/prints/soldado_da_epoca_45f874.jpg",
+     "consulta": "soldier uniform 1900"
+    },
     {
      "titulo": "726 Indian soldiers, 1900 (CHANDLESS 35).jpeg",
      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/726_Indian_soldiers%2C_1900_%28CHANDLESS_35%29.jpeg/500px-726_Indian_soldiers%2C_1900_%28CHANDLESS_35%29.jpeg",
@@ -329,15 +437,6 @@
      "descricao": "DescriptionTableau, sword, \\u003Cspan class=\\",
      "ordem": 3,
      "print": "referencias/banquinho1900/prints/soldado_da_epoca_cad30d.jpg",
-     "consulta": "soldier uniform 1900"
-    },
-    {
-     "titulo": "Uniform, wall clock, map, portrait, office, chair, sword, man, soldier Fortepan 13455.jpg",
-     "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Uniform%2C_wall_clock%2C_map%2C_portrait%2C_office%2C_chair%2C_sword%2C_man%2C_soldier_Fortepan_13455.jpg/500px-Uniform%2C_wall_clock%2C_map%2C_portrait%2C_office%2C_chair%2C_sword%2C_man%2C_soldier_Fortepan_13455.jpg",
-     "pagina": "https://commons.wikimedia.org/wiki/File%3AUniform%2C_wall_clock%2C_map%2C_portrait%2C_office%2C_chair%2C_sword%2C_man%2C_soldier_Fortepan_13455.jpg",
-     "descricao": "Description\\u003Cspan class=\\",
-     "ordem": 4,
-     "print": "referencias/banquinho1900/prints/soldado_da_epoca_cc028d.jpg",
      "consulta": "soldier uniform 1900"
     }
    ]

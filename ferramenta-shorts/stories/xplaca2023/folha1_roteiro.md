@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 03 - O X no Prédio do Twitter
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 12 cenas, 165 palavras (~57 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~4.5 s)
-- Narracao: Uma empresa trocou de nome, e a placa nova acabou investigada pela prefeitura.
+## Cena b0  (~3.4 s)
+- Narracao: Uma placa com uma letra só virou caso de investigação.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: examina (think) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: X
 - Funcao na historia: GANCHO
 
-## Cena b1  (~7.6 s)
-- Narracao: Foi em julho de dois mil e vinte e três: Elon Musk trocou o nome do Twitter para X, em São Francisco.
+## Cena b1  (~3.4 s)
+- Narracao: E a culpa foi de uma luz piscando de madrugada.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~3.4 s)
+- Narracao: Em 2023, Musk trocou o nome do Twitter para X.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,17 +29,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: - | mapa: SÃO FRANCISCO
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Os operários começaram a tirar as letras e o passarinho da fachada.
+## Cena b3  (~2.8 s)
+- Narracao: Operários começaram a tirar o passarinho da fachada.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: tira (lift) @4 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b3  (~3.1 s)
-- Narracao: Mas o trabalho parou no meio, porque faltavam licenças.
+## Cena b4  (~3.1 s)
+- Narracao: O trabalho parou no meio, por falta de licença.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,26 +47,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.8 s)
-- Narracao: Sobraram só as letras E e R, em cinza, na fachada.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: E R
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~4.1 s)
-- Narracao: Acontece que depois instalaram um X gigante piscando no alto do prédio.
+## Cena b5  (~3.8 s)
+- Narracao: Acontece que instalaram um X gigante piscando no alto do prédio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: encena: pega (lift) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@40
 - Texto na tela: X
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~4.5 s)
-- Narracao: A luz do X piscava de madrugada e entrava nas janelas dos vizinhos.
+## Cena b6  (~2.4 s)
+- Narracao: A luz entrava nas janelas dos vizinhos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,17 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: X
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~6.9 s)
-- Narracao: A prefeitura recebeu vinte e quatro reclamações num fim de semana e abriu uma investigação: a placa não tinha permissão.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @2 -> acao + som de efeito; encena: x_abre (push) @12 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b8  (~3.8 s)
-- Narracao: A empresa disse que era uma placa temporária para um evento.
+## Cena b7  (~3.1 s)
+- Narracao: Vieram vinte e quatro reclamações num fim de semana.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,31 +74,22 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~5.9 s)
-- Narracao: A polícia foi ao local, mas concluiu que nenhum crime tinha acontecido, e o X foi retirado.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: sai @16 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b10  (~4.1 s)
-- Narracao: Moral da história: até trocar de nome precisa de licença da prefeitura.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @4 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b8  (~2.8 s)
+- Narracao: A prefeitura investigou, e o X foi retirado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b9  (~3.4 s)
+- Narracao: Até trocar de nome precisa de licença. Foi assim que...
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: X
 - Funcao na historia: FECHO/PIADA FINAL
 
 

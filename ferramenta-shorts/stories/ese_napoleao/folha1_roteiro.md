@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: E Se EP 08 - E Se Napoleão Tivesse Vencido em Waterloo?
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 163 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: countryside | 10 cenas, 92 palavras (~32 s)
 
-## Cena b0  (~5.2 s)
-- Narracao: Uma única tarde mudou a história da Europa. E se Napoleão tivesse vencido em Waterloo?
+## Cena b0  (~3.4 s)
+- Narracao: Napoleão ganha em Waterloo, e a Europa muda para sempre.
 - Som ambiente: birds
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: 1815
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.8 s)
-- Narracao: Era dezoito de junho de mil oitocentos e quinze, perto de Waterloo, na Bélgica.
+## Cena b1  (~2.4 s)
+- Narracao: A resposta dos historiadores vai te surpreender.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: sting@20, ding@50
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@20, stars@50
+- Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b2  (~2.8 s)
+- Narracao: Era 18 de junho de 1815, na Bélgica.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,71 +29,53 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: BÉLGICA
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~5.9 s)
-- Narracao: Napoleão tinha fugido do exílio, reunido um exército, e voltado ao poder na França em poucos dias.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+## Cena b3  (~3.1 s)
+- Narracao: Napoleão tinha saído do exílio e retomado o poder.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
+- Funcao na historia: desenvolvimento
 
-## Cena b3  (~5.2 s)
-- Narracao: Na batalha, ele enfrentou os ingleses do duque de Wellington. Canhões dispararam o dia inteiro.
+## Cena b4  (~3.8 s)
+- Narracao: Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@20, cannon@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; Canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; encena: golpe (punch) @3 -> acao + som de efeito; encena: atira @10 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeitos sonoros marcados: cannon@20, cannon@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; Canhões -> burst + som de tiro/explosao; dispararam -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: burst@20, burst@50
 - Texto na tela: WATERLOO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~4.1 s)
-- Narracao: Os ingleses resistiram por horas, e o combate ficou por um fio.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: sting@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
-- Efeito visual marcado: ring@30
-- Texto na tela: -
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b5  (~5.2 s)
-- Narracao: No fim da tarde, chegou o exército prussiano para ajudar Wellington. E Napoleão foi derrotado.
+## Cena b5  (~3.4 s)
+- Narracao: No fim da tarde, os prussianos chegaram, e Napoleão perdeu.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@20, thump@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; chegou -> dust + som de impacto; derrotado -> puff + som de baque; encena: chega (point) @4 -> acao + som de efeito; encena: perde (facepalm) @14 -> acao + som de efeito
+- Efeitos sonoros marcados: cannon@20, thump@50, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; chegaram -> dust + som de impacto; perdeu -> puff + som de baque
 - Efeito visual marcado: burst@20, puff@50
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~5.2 s)
-- Narracao: Ele foi mandado para Santa Helena, uma ilha perdida no oceano Atlântico, e morreu lá.
+## Cena b6  (~3.4 s)
+- Narracao: Foi mandado para Santa Helena, uma ilha perdida no Atlântico.
 - Som ambiente: sea
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @13 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b7  (~4.8 s)
-- Narracao: E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa.
-- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~4.5 s)
-- Narracao: Acontece que a maioria dos historiadores pensa diferente: ele provavelmente perderia mesmo assim.
+## Cena b7  (~3.1 s)
+- Narracao: Acontece que, para muitos historiadores, a derrota viria igual.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
-- Efeito + som nas palavras-chave: encena: perde (facepalm) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: derrota -> puff + som de baque
 - Efeito visual marcado: ring@20, stars@50
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b9  (~5.5 s)
-- Narracao: Exércitos enormes da Rússia e da Áustria já marchavam contra ele. Waterloo só apressou o fim.
+## Cena b8  (~2.4 s)
+- Narracao: Rússia e Áustria já marchavam contra ele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
 - Efeito + som nas palavras-chave: -
@@ -92,13 +83,13 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~5.9 s)
-- Narracao: Às vezes, um dia famoso não muda o destino. Só escolhe a data em que ele vem.
+## Cena b9  (~3.8 s)
+- Narracao: Um dia famoso nem sempre muda o destino. Mas imagina que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: -
+- Texto na tela: 1815
 - Funcao na historia: FECHO/PIADA FINAL
 
 

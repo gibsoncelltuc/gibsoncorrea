@@ -6,15 +6,15 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1870 | Lugar: Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante) | Quando: 19 de setembro de 1870 a 28 de janeiro de 1871 (Natal de 1870 com neve e frio forte)
 - HEROIS (objeto): kit/bife_elefante
 - HEROIS (personagens): PAR, CHF
-- Cenarios: arctic, interior loja, street
+- Cenarios: interior loja, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | O Cardápio do Zoológico | O Cardápio do Zoológico / Paris Era Prússia Primeiro Depois 1870 | SEM REFERENCIA
+tema | O Cardápio do Zoológico | O Cardápio do Zoológico / Paris Natal Em Prússia Paris 1870 | SEM REFERENCIA
 lugar | Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas | Paris sitiada / Paris sitiada 1870 | Plan de Paris en 1657.JPG (referencias/paris1870/prints/paris_sitiada_bulevares_de_haussmann_com_4af884.jpg); Paris - Eiffelturm und Marsfeld2.jpg (referencias/paris1870/prints/paris_sitiada_bulevares_de_haussmann_com_47800e.jpg); Turgot map of Paris - Norman B. Leventhal Map Cent (referencias/paris1870/prints/paris_sitiada_bulevares_de_haussmann_com_c3a760.jpg)
 lugar | França | França 1870 / França landscape | Helmuth Karl Bernhard von Moltke Günther BNF Galli (referencias/paris1870/prints/fran_a_dfd243.jpg); ALFORD(1870) p067 VILLA FRANCA HARBOUR.jpg (referencias/paris1870/prints/fran_a_af6e82.jpg); Sebastiano La Franca 1807-1870.jpg (referencias/paris1870/prints/fran_a_ec5c8e.jpg)
 epoca | roupas e ruas de 1870 | 1870 fashion clothing / 1870 street photograph | COSTUME CIVIL Historical clothing FRENCH European  (referencias/paris1870/prints/roupas_e_ruas_de_1870_91a66a.jpg); Crinoline, 1870-1880. MoMu - Fashion Museum Provin (referencias/paris1870/prints/roupas_e_ruas_de_1870_cc264c.jpg); Biedermeier Fashion MET DP844342.jpg (referencias/paris1870/prints/roupas_e_ruas_de_1870_aceffa.jpg)

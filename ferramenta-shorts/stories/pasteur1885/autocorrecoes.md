@@ -44,3 +44,6 @@
 ## 25/11 17:33 autocorrecao de visibilidade
 - b7: objeto citado "kit/syringe" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b9: objeto citado "kit/syringe" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 25/11 17:34 autocorrecao de visibilidade
+- b9: objeto citado "kit/syringe" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto

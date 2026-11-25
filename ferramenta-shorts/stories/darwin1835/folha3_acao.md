@@ -1,139 +1,33 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 08 - Darwin e os Tentilhões
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 20 acoes catalogadas, 20 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.1s a 4.1s - 15 palavras - plano two
-> "Um cientista misturou as etiquetas de uns passarinhos, e isso explicou a vida na Terra."
+## Cena b0 - 0.1s a 3.3s - 11 palavras - plano two
+> "Uma etiqueta trocada ajudou Darwin a explicar a vida na Terra."
 
 - LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passarinhos" (2.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "etiqueta" (0.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | INTERACAO | vai ate o outro | OK |
 | 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | ERRO DE ETIQUETA | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - INTERACAO (a cena toda): executa: vai ate o outro
 - ATUACAO (a cena toda): executa: conversar
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
-## Cena b1 - 5.2s a 9.7s - 16 palavras - plano reveal
-> "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle."
-
-- LEITURA DA FRASE: sentido FATO
-  1) MAR chega na cena | na palavra "chegou" (7.7s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | chegou (7.7s) | EFEITO: dust | poeira + som | OK |
-| 2 | chegou (7.7s) | ACAO: chega | entra andando pela lateral | OK |
-| 3 | - | MAPA | GALÁPAGOS | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: dust na palavra chegou (7.7s): executa: poeira + som
-- ACAO: chega na palavra chegou (7.7s): executa: entra andando pela lateral
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-- kit/navio_fragata CHEGANDO: entra pela esquerda do quadro e desliza ate o lugar da ficha em ~85% da cena (velocidade constante, sem tremer)
-<!-- /FISICA -->
-
-## Cena b2 - 10.8s a 18.5s - 24 palavras - plano wide
-> "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo."
+## Cena b1 - 3.6s a 6.0s - 8 palavras - plano two
+> "E tudo começou no bico de um passarinho."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) DAR pega/levanta o objeto | na palavra "Coletou" (10.8s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Coletou (10.8s) | ACAO: pega | levanta/segura | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pega na palavra Coletou (10.8s): executa: levanta/segura
-<!-- /FISICA -->
-
-## Cena b3 - 19.6s a 23.3s - 15 palavras - plano wide
-> "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) DAR olha/aponta para o alvo | na palavra "Achou" (19.6s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | Achou (19.6s) | ACAO: olha | aponta/olha | OK |
-| 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: olha na palavra Achou (19.6s): braco estendido apontando para o objeto/lugar citado
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b4 - 24.4s a 29.0s - 13 palavras - plano two
-> "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto fala apontando | na palavra "revelou" (26.3s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | revelou (26.3s) | ACAO: fala | aponta explicando | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: fala na palavra revelou (26.3s): braco estendido apontando para o objeto/lugar citado
-<!-- /FISICA -->
-
-## Cena b5 - 30.5s a 35.4s - 15 palavras - plano two
-> "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (31.6s)
-  2) objeto acao do motor: quebra | alvo: kit/finch_thick | na palavra "quebrar" (33.0s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | CENA | objeto: finch_thick quebra (na palavra "quebrar") | OK |
-| 2 | - | INTERACAO | aproxima-se | OK |
-| 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- CENA (a cena toda): executa: objeto: finch_thick quebra (na palavra "quebrar")
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
-
-## Cena b6 - 36.7s a 40.4s - 14 palavras - plano two
-> "Acontece que, em cada ilha, o bico tinha mudado de acordo com a comida."
-
-- LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (38.8s)
-
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | INTERACAO | cochichar | OK |
-| 3 | - | ATUACAO | reagir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: cochichar
-- ATUACAO (a cena toda): executa: reagir
-<!-- /FISICA -->
-
-## Cena b7 - 41.6s a 45.5s - 14 palavras - plano two
-> "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos."
-
-- LEITURA DA FRASE: sentido FATO
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bichos" (41.8s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "E" (3.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
@@ -144,45 +38,135 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b8 - 46.6s a 50.5s - 14 palavras - plano group
-> "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove."
+## Cena b2 - 6.1s a 8.0s - 7 palavras - plano wide
+> "Em 1835, Darwin chegou às ilhas Galápagos."
 
-- LEITURA DA FRASE: sentido FATO
-  1) DAR mao no queixo, pensando | na palavra "ideia" (46.9s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "chegou" (7.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (46.9s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 1 | chegou (7.1s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | MAPA | GALÁPAGOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: pensa na palavra ideia (46.9s): executa: mao no queixo + brilho de ideia
-- INTERACAO (a cena toda): executa: pular
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- EFEITO: dust na palavra chegou (7.1s): executa: poeira + som
+- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b9 - 51.5s a 54.2s - 11 palavras - plano orbit
-> "No fim, o erro das etiquetas virou um acerto de bico."
+## Cena b3 - 8.2s a 12.5s - 11 palavras - plano wide
+> "Coletou passarinhos de ilha em ilha, sem anotar de onde vinham."
 
-- LEITURA DA FRASE: sentido FIGURADA (nada de tiro, explosao ou batalha na tela)
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "etiquetas" (52.7s)
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "coletou" (8.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b10 - 55.3s a 58.6s - 13 palavras - plano close
-> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+## Cena b4 - 13.1s a 15.3s - 6 palavras - plano group
+> "Em Londres, descobriram: eram todos tentilhões."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "descobriram" (13.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | descobriram: (13.9s) | EFEITO: ring | onda + som | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- EFEITO: ring na palavra descobriram: (13.9s): executa: onda + som
+<!-- /FISICA -->
+
+## Cena b5 - 15.5s a 18.4s - 11 palavras - plano two
+> "A diferença estava no bico: grosso para sementes, fino para insetos."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (16.7s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | aproxima-se | OK |
+| 2 | - | ATUACAO | conversar | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: aproxima-se
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b6 - 18.5s a 22.5s - 12 palavras - plano two
+> "Acontece que cada ilha tinha o bico certo para a sua comida."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bico" (20.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | reagir | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: avanca e o outro recua
+- ATUACAO (a cena toda): executa: reagir
+<!-- /FISICA -->
+
+## Cena b7 - 22.6s a 24.6s - 6 palavras - plano group
+> "Quem tinha o bico certo sobrevivia."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "sobrevivia" (24.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
-| 2 | - | PLACA | COMENTE! | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- ATUACAO (a cena toda): executa: conversar
+<!-- /FISICA -->
+
+## Cena b8 - 25.1s a 27.4s - 7 palavras - plano two
+> "Em 1859, isso virou a seleção natural."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "seleção" (27.1s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+| 2 | - | INTERACAO | pular | OK |
+| 3 | - | ATUACAO | comemorar | OK |
+| 4 | - | PLACA | SELEÇÃO NATURAL | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- INTERACAO (a cena toda): executa: pular
+- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
+- PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
+<!-- /FISICA -->
+
+## Cena b9 - 27.8s a 31.1s - 7 palavras - plano two
+> "Darwin nunca mais esqueceu de anotar. Porque..."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "esqueceu" (29.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | o outro se aproxima | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | ERRO DE ETIQUETA | OK |
+<!-- FISICA -->
+
+**FISICA E MOVIMENTO (como cada acao acontece na tela):**
+- INTERACAO (a cena toda): executa: o outro se aproxima
 - ATUACAO (a cena toda): executa: conversar
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->

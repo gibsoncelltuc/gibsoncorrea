@@ -1,18 +1,27 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 161 palavras (~56 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 10 cenas, 87 palavras (~30 s)
 
-## Cena b0  (~5.5 s)
-- Narracao: Um químico inventou a cola mais fraca do mundo, e ela virou sucesso no planeta inteiro.
+## Cena b0  (~3.1 s)
+- Narracao: Uma cola que falhou virou sucesso no mundo inteiro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: encena: quimico (pour) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@30
-- Texto na tela: -
+- Texto na tela: COLA QUE FALHOU
 - Funcao na historia: GANCHO
 
-## Cena b1  (~4.1 s)
-- Narracao: Era mil novecentos e sessenta e oito, numa fábrica dos Estados Unidos.
+## Cena b1  (~3.1 s)
+- Narracao: E a ideia veio de alguém cantando na igreja.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@10, thump@40
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: ring@12, dust@40
+- Texto na tela: 1980
+- Funcao na historia: GRANDE MOMENTO
+
+## Cena b2  (~3.1 s)
+- Narracao: Em 1968, Spencer Silver tentava criar uma super cola.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,62 +29,44 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~2.4 s)
-- Narracao: Spencer Silver tentava criar uma super cola.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: thump@40
-- Efeito + som nas palavras-chave: encena: quimico (point) @3 -> acao + som de efeito
-- Efeito visual marcado: puff@40
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b3  (~5.2 s)
-- Narracao: Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.
+## Cena b3  (~3.4 s)
+- Narracao: Saiu o contrário: uma cola que grudava e soltava fácil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@30
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b4  (~3.1 s)
+- Narracao: Acontece que Art Fry cantava no coral da igreja.
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b4  (~6.2 s)
-- Narracao: Por anos, ninguém viu utilidade nela. Silver mostrava a cola para todo mundo dentro da empresa, e nada.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @7 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b5  (~4.8 s)
-- Narracao: Em mil novecentos e setenta e quatro, Art Fry cantava no coral da igreja.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_canta (up) @9 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b6  (~2.8 s)
-- Narracao: Os papeizinhos que marcavam o hinário viviam caindo.
+## Cena b5  (~2.4 s)
+- Narracao: E os papeizinhos do hinário viviam caindo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@30
-- Efeito + som nas palavras-chave: encena: desaba @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: desaba @6 -> acao + som de efeito
 - Efeito visual marcado: puff@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b7  (~5.5 s)
-- Narracao: Aí veio a ideia: marcadores com a cola fraca. Grudam, não caem, e saem sem rasgar.
-- Som ambiente: birds | batalha: tiros e gritos a cena inteira
+## Cena b6  (~2.4 s)
+- Narracao: Ele pensou: marcadores com a cola fraca.
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: ding@20, sting@40
-- Efeito + som nas palavras-chave: encena: pensa (think) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b8  (~4.5 s)
-- Narracao: O papel saiu amarelo por acaso: era o único de rascunho à mão.
+## Cena b7  (~3.8 s)
+- Narracao: O papel saiu amarelo por acaso: era o único que tinha.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,17 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~4.5 s)
-- Narracao: Então distribuíram amostras de graça para vários escritórios, e quase todos quiseram comprar.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: ding@20, ding@60
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @1 -> acao + som de efeito
-- Efeito visual marcado: stars@20, stars@60
-- Texto na tela: POST-IT
-- Funcao na historia: GRANDE MOMENTO
-
-## Cena b10  (~5.5 s)
-- Narracao: Em mil novecentos e oitenta, o post-it chegou às lojas. Graças a uma cola que falhou.
+## Cena b8  (~2.4 s)
+- Narracao: Em 1980, o post-it chegou às lojas.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto
@@ -101,12 +83,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 1980
 - Funcao na historia: desenvolvimento
 
-## Cena b11  (~4.5 s)
-- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b9  (~3.1 s)
+- Narracao: A cola não colava direito. E foi assim que...
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: -
-- Texto na tela: COMENTE!
+- Efeito visual marcado: stars@30
+- Texto na tela: COLA QUE FALHOU
 - Funcao na historia: FECHO/PIADA FINAL
 

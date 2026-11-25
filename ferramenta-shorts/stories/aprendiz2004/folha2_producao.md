@@ -2,47 +2,95 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/aprendiz2004/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py aprendiz2004` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela mu...
+## Cena b0 - Duas palavras deixaram Donald Trump famoso no mundo inteiro.
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/marco_trumptower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresario, nova
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b1 - Em dois mil e quatro, estreou nos Estados Unidos o programa O Aprendiz...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
+- SOM: sting@60
+- TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b1 - E não foi na política. Foi na televisão.
+- Cenario: interior madeira | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): TRU (variante 0, expressao smug)
+- Animacao: conversar
+- Objetos/modelos: kit/tv
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): politica, televisao
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: sting@20
+- SOM: ding@50
+- TAKES: 2 takes (troca de angulo a cada ~1.6 s, sem corte seco):
+  - take 1 (3.0-4.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (4.6-6.2 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+<!-- /FICHA -->
+
+## Cena b2 - Em 2004, estreou o programa O Aprendiz.
 - Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/tv, kit/marco_trumptower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, estados, programa
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, programa
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b2 - Dezesseis candidatos disputavam um emprego numa empresa de Donald Trum...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao smile; POV na direita, expressao grin; sem multidao; acao: fala/gesto
+- OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 3.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "O APRENDIZ" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (2.0 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b3 - Candidatos disputavam um emprego numa empresa dele.
 - Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRU (variante 0, expressao grin); CND (variante 0, expressao nervous) | multidao: 16 de POV
-- Animacao: conversar
+- Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_trumptower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): donald, emprego
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emprego
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b3 - Toda semana, as equipes faziam tarefas de negócios, como vender limona...
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
-- Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/stall
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipes, negocios
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_cidade; hora: day
+- CAMERA: plano de multidao
+- PERSONAGENS: TRU na esquerda, expressao grin; CND na direita, expressao nervous; multidao de 16 (POV) ATRAS dos principais; acao: conversar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
+  - take 1 (8.4-10.2 s): mesmo angulo
+  - take 2 (10.2-11.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
 
-## Cena b4 - A equipe perdedora ia para a sala de reunião, e alguém era eliminado.
+## Cena b4 - A equipe que perdia ia para a sala de reunião.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
@@ -51,75 +99,124 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Objetos/modelos: mk/Table_Large, mk/Chair_1
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): equipe, reuniao, sala
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b5 - Acontece que o jeito de eliminar virou marca: apontando o dedo, ele di...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: plano de grupo (3+ pessoas)
+- PERSONAGENS: TRU na esquerda, expressao stern; CND no centro, expressao nervous; POV na direita, expressao worried; POV no fundo, expressao nervous; sem multidao; acao: discutir
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
+- SOM: sting@30
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (12.1-14.0 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (14.0-15.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b5 - Acontece que ali Trump apontava o dedo e dizia: você está demitido.
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dedo, eliminar, jeito
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dedo
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b6 - A final da primeira temporada teve cerca de vinte e oito milhões de es...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: sala de madeira; hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +50 da cena
+- SOM: sting@20
+- SOM: ding@50
+- TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" numa placa atras dos personagens, na palavra 1 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (16.4-17.9 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (17.9-19.5 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 3 (19.5-21.0 s): mesmo angulo
+<!-- /FICHA -->
+
+## Cena b6 - A final teve uns vinte e oito milhões de espectadores.
 - Cenario: loc_pista | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao shout); CND (variante 0, expressao laugh) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
-- Objetos/modelos: kit/tv, kit/marco_trumptower, nature/picket_fence
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espectadores, primeira, vinte
+- Objetos/modelos: kit/tv, kit/marco_trumptower
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espectadores
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b7 - Bill Rancic venceu e ganhou um salário de duzentos e cinquenta mil dól...
-- Cenario: loc_pista | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): RAN (variante 0, expressao laugh); TRU (variante 0, expressao grin)
-- Animacao: comemorar | interacao: abracar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duzentos, salario
-- RISCOS: nenhum
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: plano de multidao; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)
+- PERSONAGENS: POV na esquerda, expressao laugh; POV no centro, expressao shout; CND na direita, expressao laugh; multidao de 22 (POV) ATRAS dos principais; acao: comemorar
+- OBJETO kit/tv: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@20
+- SOM: ding@60
+- TEXTO NA TELA: "28 MILHÕES" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (3.4 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
+<!-- /FICHA -->
 
-## Cena b8 - No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
+## Cena b7 - No Brasil, a versão teve Roberto Justus.
 - Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (2): JUS (variante 0, expressao smug); POV (variante 0, expressao surprised)
-- Animacao: - | grande momento (efeito + som, sem tiro)
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_trumptower
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, roberto
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): brasil, versao
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b9 - Trump apresentou por mais de dez anos, até dois mil e quinze.
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_estudio; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: JUS (empresario) na esquerda, expressao smug; POV na direita, expressao surprised; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
+- SOM: ding@30
+- TEXTO NA TELA: "ROBERTO JUSTUS" flutuando no alto, na palavra 1 da frase
+- MAPA: BRASIL (cobre a tela 1-2 s)
+- TAKES: 1 take continuo (1.9 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+
+## Cena b8 - Ele apresentou o programa por mais de dez anos.
 - Cenario: loc_estudio | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: kit/tv
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): programa
 - RISCOS: nenhum
+<!-- FICHA -->
 
-## Cena b10 - Um programa de emprego que acabou ficando famoso justamente por demiti...
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loc_estudio; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)
+- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: conversar
+- OBJETO kit/tv: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "2004-2015" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (27.2-28.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (28.9-30.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+<!-- /FICHA -->
+
+## Cena b9 - Virou a marca dele. E foi assim que...
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): TRU (variante 0, expressao smile)
-- Animacao: comemorar
-- Objetos/modelos: kit/tv
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): emprego, programa
-- RISCOS: nenhum
-
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_cidade | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): TRU (variante 0, expressao grin)
+- Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
 - Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marca
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -127,17 +224,15 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_trumptower | b0, b1, b2, b6, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tv | b1, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_trumptower | b0, b2, b3, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tv | b1, b2, b6, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Table_Large | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b6, b8 | planos abertos: 3 | mistura: close 28% | medio 55% | aberto 12% | detalhe 4%
-- Interacoes: b1 vai ate o outro, b3 entregar, b4 discutir, b7 abracar
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 54% | medio 37% | aberto 7% | detalhe 2%
+- Interacoes: b2 vai ate o outro, b4 discutir, b7 aproxima-se
 - RISCOS GERAIS: 
   - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py aprendiz2004  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/aprendiz2004/moodboard.jpg
 
@@ -148,3 +243,16 @@ nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se p
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh aprendiz2004 bN bM` (so essas cenas).
 - Mudou narracao, ferramenta ou muitas cenas: `./refazer_tudo.sh aprendiz2004` (render completo).
 - Personagem cortado: tire gente do "who" ou use "shot": "group". Cena vazia: confira "who". Objeto fora do quadro: ponha em "props" com x entre -2 e 2. Luz estourada: "hora"/"clima" na cena.
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
+- CAMERA: close (rosto e ombros)
+- PERSONAGENS: TRU no centro, expressao smug; sem multidao; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +60 da cena
+- SOM: sting@60
+- TEXTO NA TELA: "VOCÊ ESTÁ DEMITIDO!" flutuando no alto, na palavra 1 da frase
+- TAKES: 1 take continuo (1.8 s), a camera desliza devagar do enquadramento inicial ao final
+<!-- /FICHA -->
+

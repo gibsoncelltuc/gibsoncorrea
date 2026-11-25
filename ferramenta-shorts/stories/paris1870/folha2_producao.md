@@ -2,14 +2,14 @@
 
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paris1870/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paris1870` de novo ate esta folha sair sem risco.
 
-## Cena b0 - Paris já serviu elefante no jantar.
+## Cena b0 - Paris já serviu elefante no jantar de Natal.
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
-- Objetos/modelos: kit/bife_elefante, mk/Table_Large, kit/marco_notredame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar
+- Animacao: reagir
+- Objetos/modelos: kit/bife_elefante, mk/Table_Large, kit/marco_notredame, elephant
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): jantar, natal
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -18,17 +18,41 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao pained; sem multidao; acao: fala/gesto
 - OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TAKES: 1 take continuo (1.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TEXTO NA TELA: "ELEFANTE NO JANTAR" flutuando no alto, na palavra 1 da frase
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (0.2-1.6 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (1.6-3.1 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b1 - Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida ac...
+## Cena b1 - E no cardápio tinha até canguru e lobo.
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
+- Animacao: conversar | interacao: susto
+- Objetos/modelos: kit/bife_elefante, wolf
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cardapio
+- RISCOS: nenhum
+<!-- FICHA -->
+
+### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
+- LOCAL: loja / taverna; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
+- PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (3.3-4.8 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (4.8-6.2 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+<!-- /FICHA -->
+
+## Cena b2 - Em 1870, a Prússia cercou Paris, e a comida acabou.
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao sad) | multidao: 6 de PAR
 - Animacao: reagir
-- Objetos/modelos: kit/marco_notredame, buildings/house_two, nature/lamppost
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, comida, prussia
+- Objetos/modelos: kit/marco_notredame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, prussia
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -38,20 +62,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - MAPA: FRANÇA (cobre a tela 1-2 s)
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (2.8-4.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (4.3-5.9 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 3 (5.9-7.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (6.9-8.8 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (8.8-10.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b2 - Primeiro, os parisienses comeram os cavalos. Depois, os cachorros e os...
+## Cena b3 - Primeiro comeram os cavalos. Depois, cachorros e gatos.
 - Cenario: street | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 3, expressao nervous) | multidao: 0 de PAR
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: dog, cat
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorros, cavalos, gatos, parisienses
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cavalos
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -61,44 +84,43 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - PERSONAGENS: PAR na esquerda, expressao pained; PAR na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "CAVALOS, CÃES, GATOS" numa placa atras dos personagens, na palavra 6 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (8.5-10.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (10.2-12.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 3 (12.0-13.7 s): mesmo angulo
+- TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
+  - take 1 (11.9-13.8 s): mesmo angulo
+  - take 2 (13.8-15.7 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b3 - Depois, os roedores, que viraram um prato chique.
-- Cenario: street | luz: day | clima: neve
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+## Cena b4 - Depois os roedores, que viraram prato chique.
+- Cenario: street | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 0, expressao shock); CHF (variante 0, expressao grin)
-- Animacao: reagir | interacao: tremem de frio
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: barrel, kit/panela, kit/rato
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): prato, roedores
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): roedores
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)
 - PERSONAGENS: PAR na esquerda, expressao shock; CHF na direita, expressao grin; sem multidao; acao: fala/gesto
 - OBJETO kit/rato: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/panela: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.9 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - OBJETO kit/rato: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 0.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "RATOS" numa placa atras dos personagens, na palavra 4 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (14.9-16.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (16.3-17.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (15.9-17.4 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (17.4-18.8 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b4 - Quando acabou tudo, olharam para o zoológico da cidade.
-- Cenario: arctic | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+## Cena b5 - Quando acabou tudo, olharam para o zoológico.
+- Cenario: street | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): PAR (variante 1, expressao nervous); PAR (variante 3, expressao nervous) | multidao: 6 de PAR
-- Animacao: reagir | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: buildings/house_two, nature/lamppost, elephant, deer
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, zoologico
+- Animacao: reagir
+- Objetos/modelos: kit/marco_notredame, elephant, deer
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): zoologico
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -107,84 +129,81 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: PAR na esquerda, expressao nervous; PAR na direita, expressao nervous; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
+- TAKES: 1 take continuo (2.1 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b5 - O açougueiro comprou dois elefantes, Castor e Pólux, e vendeu a carne ...
-- Cenario: arctic | luz: day | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): BUT (variante 0, expressao grin); PAR (variante 0, expressao shock)
-- Animacao: conversar | interacao: discutir
+## Cena b6 - Acontece que um açougueiro comprou os elefantes Castor e Pólux.
+- Cenario: street | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): BUT (variante 0, expressao grin); PAR (variante 0, expressao shock) | multidao: 12 de PAR
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: elephant
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, carne
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acougueiro, elefantes
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: BUT na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "CASTOR E PÓLUX" numa placa atras dos personagens, na palavra 7 da frase
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
-  - take 1 (22.4-24.6 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (24.6-26.8 s): mesmo angulo
+  - take 1 (21.3-23.5 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+  - take 2 (23.5-25.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
 <!-- /FICHA -->
 
-## Cena b6 - No Natal, o restaurante Voisin serviu consomê de elefante, ensopado de...
-- Cenario: interior loja | luz: day | clima: neve
+## Cena b7 - No Natal, um restaurante serviu consomê de elefante.
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 2, expressao shock)
-- Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/bife_elefante
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): canguru, elefante, lobo, natal, restaurante
+- Animacao: conversar | interacao: discutir
+- Objetos/modelos: kit/bife_elefante, elephant
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, natal, restaurante
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loja / taverna; hora: day; clima: neve
+- LOCAL: loja / taverna; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao shock; sem multidao; acao: fala/gesto
 - OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "NATAL DE 1870" numa placa atras dos personagens, na palavra 4 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (28.1-29.8 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (29.8-31.6 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 3 (31.6-33.3 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (25.9-27.4 s): mesmo angulo
+  - take 2 (27.4-28.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
-## Cena b7 - Acontece que carne de elefante custava uma fortuna. Só os ricos comiam...
-- Cenario: street | luz: day | clima: neve
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad) | multidao: 6 de PAR
-- Animacao: encena | grande momento (efeito + som, sem tiro)
+## Cena b8 - Só os ricos podiam pagar esse luxo.
+- Cenario: street | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
+- Personagens principais (2): CHF (variante 0, expressao grin); PAR (variante 0, expressao sad)
+- Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/bife_elefante, kit/marco_notredame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): elefante, fortuna, ricos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ricos
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
+- LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)
 - PERSONAGENS: CHF na esquerda, expressao grin; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/bife_elefante: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "SÓ PARA OS RICOS" flutuando no alto, na palavra 7 da frase
-- TAKES: 2 takes (troca de angulo a cada ~2.1 s, sem corte seco):
-  - take 1 (34.5-36.6 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-  - take 2 (36.6-38.7 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+- TAKES: 1 take continuo (2.6 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
-## Cena b8 - Enquanto isso, o povo fazia fila no frio, com comida racionada.
+## Cena b9 - O povo fazia fila no frio por comida racionada.
 - Cenario: street | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 30 de PAR
-- Animacao: reagir
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (2): PAR (variante 0, expressao surprised); PAR (variante 1, expressao shock) | multidao: 10 de PAR
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/marco_notredame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comida, frio, povo
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frio, povo
 - RISCOS: nenhum
 <!-- FICHA -->
 
@@ -193,64 +212,19 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: PAR na esquerda, expressao surprised; PAR na direita, expressao shock; multidao de 10 () ATRAS dos principais; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (39.9-41.5 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (41.5-43.2 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- TAKES: 2 takes (troca de angulo a cada ~1.5 s, sem corte seco):
+  - take 1 (32.2-33.7 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
+  - take 2 (33.7-35.1 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
 <!-- /FICHA -->
 
-## Cena b9 - Para mandar notícias, soltavam balões por cima do cerco.
-- Cenario: street | luz: day | clima: neve
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): PAR (variante 1, expressao surprised) | multidao: 0 de PAR
-- Animacao: conversar
-- Objetos/modelos: kit/balloon_air, kit/marco_notredame, kit/balloon
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cerco
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: day; clima: neve
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: PAR no centro, expressao surprised; sem multidao; acao: conversar
-- OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "BALÕES" flutuando no alto, na palavra 3 da frase
-- TAKES: 2 takes (troca de angulo a cada ~1.4 s, sem corte seco):
-  - take 1 (44.6-46.0 s): gira 8 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (46.0-47.4 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
-<!-- /FICHA -->
-
-## Cena b10 - Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barri...
-- Cenario: street | luz: dusk | clima: neve
-- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): PAR (variante 2, expressao pained); PAR (variante 0, expressao sad)
-- Animacao: conversar | interacao: vai ate o outro
-- Objetos/modelos: kit/panela, kit/marco_notredame
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): barriga, paris
-- RISCOS: nenhum
-<!-- FICHA -->
-
-### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: rua de cidade (predios dos dois lados); hora: dusk; clima: neve
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
-- PERSONAGENS: PAR na esquerda, expressao pained; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
-- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "PARIS SE RENDEU" numa placa atras dos personagens, na palavra 11 da frase
-- TAKES: 3 takes (troca de angulo a cada ~1.5 s, sem corte seco):
-  - take 1 (48.6-50.1 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
-  - take 2 (50.1-51.7 s): mesmo angulo
-  - take 3 (51.7-53.2 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-<!-- /FICHA -->
-
-## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+## Cena b10 - Na fome, até bicho de zoológico vira comida. Foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (1): PAR (variante 0, expressao grin)
-- Animacao: conversar
-- Objetos/modelos: -
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): PAR (variante 0, expressao nervous); PAR (variante 1, expressao pained)
+- Animacao: reagir
+- Objetos/modelos: kit/bife_elefante, mk/Table_Large, kit/marco_notredame
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, zoologico
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -258,25 +232,22 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/bife_elefante | b0, b6, b7 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-mk/Table_Large | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_notredame | b0, b1, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/house_two | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/lamppost | b1, b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-dog | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-cat | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-barrel | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/panela | b3, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/rato | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-elephant | b4, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-deer | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon_air | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/bife_elefante | b0, b1, b7, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+mk/Table_Large | b0, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_notredame | b0, b2, b5, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+elephant | b0, b5, b6, b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+wolf | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+dog | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+cat | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+barrel | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/panela | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/rato | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+deer | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b7 | planos abertos: 4 | mistura: close 12% | medio 66% | aberto 19% | detalhe 3%
-- Interacoes: b0 susto, b2 avanca e o outro recua, b3 tremem de frio, b5 discutir, b6 o outro se aproxima, b10 vai ate o outro
+- Objeto heroi: kit/bife_elefante | grandes momentos: b4, b6 | planos abertos: 6 | mistura: close 4% | medio 52% | aberto 41% | detalhe 4%
+- Interacoes: b1 susto, b3 avanca e o outro recua, b7 discutir, b8 entregar, b9 o outro se aproxima
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
@@ -288,9 +259,14 @@ kit/balloon | b9 | pronto | conferir na folha de contato se le bem; se parecer c
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- (sem ficha)
-- TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
-  - take 1 (54.4-56.0 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
-  - take 2 (56.0-57.7 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
+- LOCAL: rua de cidade (predios dos dois lados); hora: dusk
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)
+- PERSONAGENS: PAR na esquerda, expressao pained; PAR na direita, expressao sad; sem multidao; acao: fala/gesto
+- OBJETO kit/panela: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "PARIS SE RENDEU" numa placa atras dos personagens, na palavra 11 da frase
+- TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
+  - take 1 (35.2-36.9 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
+  - take 2 (36.9-38.6 s): mesmo angulo
+  - take 3 (38.6-40.3 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto
 <!-- /FICHA -->
 
