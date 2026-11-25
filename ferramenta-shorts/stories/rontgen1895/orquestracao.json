@@ -130,9 +130,10 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "close",
+   "camera": "group",
    "personagens": [
-    "ROE"
+    "ROE",
+    "ANA"
    ],
    "multidao": 0,
    "objetos": [
