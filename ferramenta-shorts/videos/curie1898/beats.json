@@ -177,7 +177,7 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "interior": "galpao",
    "who": [
     "MAR:0:grin"
@@ -185,18 +185,18 @@
    "props": [
     [
      "kit/pechblenda",
-     0.0,
-     1.4,
-     3.2,
+     -2.4,
+     -3.0,
+     2.2,
      {
       "fixo": true
      }
     ],
     [
      "kit/curie_box",
-     2.4,
-     0.2,
-     1.2,
+     2.2,
+     -1.2,
+     1.1,
      {
       "fixo": true
      }
@@ -227,30 +227,13 @@
     ]
    },
    "_enq_shot": "two",
-   "quadro": {
-    "local": "galpao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/curie_box",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/pechblenda",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "detalhe": true,
-   "_auto_vis": 3
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 7.2,
+   "d1": 6.8,
+   "h": 2.0
   },
   {
    "shot": "two",

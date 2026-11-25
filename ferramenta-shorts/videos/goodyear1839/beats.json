@@ -355,7 +355,7 @@
    "shot": "two",
    "interior": "madeira",
    "who": [
-    "GOO:0:surprised"
+    "GOO:0:surprised:borracha"
    ],
    "props": [
     [
@@ -365,17 +365,6 @@
      1.3,
      {
       "fixo": true
-     }
-    ],
-    [
-     "kit/borracha",
-     1.3,
-     0.2,
-     0.45,
-     {
-      "fixo": true,
-      "y": 1.05,
-      "nocol": true
      }
     ]
    ],

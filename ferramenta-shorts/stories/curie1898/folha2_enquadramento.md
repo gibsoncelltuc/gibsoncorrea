@@ -32,10 +32,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b4: "Mexendo em toneladas de minério, eles descobriram dois elementos novos: o polônio e o rádio."
 - LOCAL: galpao; hora: dia; clima: limpo
-- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e curie_box juntos (camera a 8.0 m)
+- CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: MAR no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETO kit/curie_box: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/pechblenda: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 2.2 m de altura x 5.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/curie_box: FRENTE, centro (objeto principal da cena); tamanho na tela: 15% da altura da tela; estado: PARADO; objeto pequeno ampliado para 1.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
+- OBJETO kit/pechblenda: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +40 da cena
 - SOM: ding@40
 

@@ -740,7 +740,7 @@ for _rz, _ge, _tp, _proib in _RAIZ:
     ENC.append((r'^(' + '|'.join(_rz) + r')(' + _sf + r')$', _ge, _tp))
 ENC_MAT = [(r'borracha|latex|seiva|goma|gosma|massa|pasta|cola|mistura', 'kit/gosma'), (r'enxofre|polvora|\bpo\b', 'kit/enxofre'), (r'quimic|acido|liquido|reagente', 'kit/frasco'), (r'ovo', 'kit/egg'), (r'chocolate', 'kit/chocolate')]
 ENC_RES = [(r'borracha|elastic|firme|couro|vulcaniz', 'kit/borracha'), (r'pneu', 'kit/tires'), (r'\bbola\b', 'kit/ball'), (r'pipoca', 'kit/popcorn'), (r'chocolate', 'kit/chocolate'),
-           (r'post.?it|bilhete', 'kit/postit'), (r'velcro|carrapicho', 'kit/burr'), (r'penicilina|mofo|bolor|placa', 'kit/petri'), (r'raio.?x|radiograf', 'kit/xray_plate'), (r'vacina|seringa', 'kit/syringe'),
+           (r'post.?it|bilhete', 'kit/postit'), (r'velcro|carrapicho', 'kit/burr'), (r'mofo|bolor|penicilina', 'kit/petri_mofo'), (r'placa de petri|placa|prato de cultura|pratos de cultura', 'kit/petri'), (r'raio.?x|radiograf', 'kit/xray_plate'), (r'vacina|seringa', 'kit/syringe'),
            (r'foguete', 'kit/rocket'), (r'balao', 'kit/balloon'), (r'para.?raio', 'kit/lightning_rod'), (r'microondas', 'kit/microwave'), (r'telefone|celular', 'kit/phone'), (r'televis', 'kit/tv'), (r'moeda|bitcoin', 'kit/bitcoin')]
 _DANCA_OUTRO = r'(atomos|moleculas|cobras|chamas|estrelas|folhas|ondas|particulas|letras|numeros)\s*(\w{0,12}\s*)?danc|danc\w*\s*como|sonho'   # quem danca e' a coisa (sonho, atomos...), nao o personagem
 OBJ_DICT = [  # (palavra na narracao, objeto 3D da biblioteca, escala, grande?) -- usado para por objetos em cena e na pre-producao

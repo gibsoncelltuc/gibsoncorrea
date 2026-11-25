@@ -7,7 +7,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (objeto): kit/bathtub
 - HEROIS (personagens): ARQ, REI
 - Cenarios: interior madeira, interior pedra, medieval
-- Proibido pela epoca: canhao antigo, caravela, carro antigo, carro dos anos 50, encouracado, fragata a vela, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- Proibido pela epoca: canhao antigo, caravela, carro antigo, carro dos anos 50, encouracado, fragata a vela, globo de mesa (o mais antigo e de 1492), navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados

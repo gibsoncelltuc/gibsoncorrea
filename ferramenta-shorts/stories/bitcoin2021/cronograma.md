@@ -1,6 +1,6 @@
 # CRONOGRAMA - Poder e Fama EP 09 - O País do Bitcoin
 
-Gerado em 25/11 05:23 | 15 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:47 | 15 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 

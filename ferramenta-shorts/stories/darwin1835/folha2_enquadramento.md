@@ -17,7 +17,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano de grupo (3+ pessoas); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)
 - PERSONAGENS: DAR (cientista) na esquerda, expressao neutral, segura bag; MAR (marinheiro) na direita, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/finch: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
@@ -37,8 +37,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)
 - PERSONAGENS: GOU (cientista) na esquerda, expressao smile; DAR (cientista) na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/finch_thick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/finch_long: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/finch_thick: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/finch_long: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO poeira nos pes: no chao, aos pes; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40

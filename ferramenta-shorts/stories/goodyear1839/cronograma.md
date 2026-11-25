@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão
 
-Gerado em 25/11 05:26 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 05:46 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | simples | interior madeira | two | GOO, CLA | - | - | - | Charles Goodyear 
 b4 | simples | interior pedra | two | GUA, GOO | - | - | - | Fez tantas dívidas que foi parar na prisão.
 b5 | simples | interior madeira | two | GOO | - | stove | - | Até que um dia, mexendo numa mistura de borracha com enxofre, ele se a
 b6 | simples | interior madeira | two | GOO | - | gosma, stove | - | A gosma caiu em cima do fogão quente. Ele esperava que derretesse.
-b7 | simples | interior madeira | two | GOO | - | borracha, stove | - | Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha n
+b7 | simples | interior madeira | two | GOO | - | stove | - | Acontece que não derreteu. Ficou firme e elástica, como couro. Tinha n
 b8 | simples | hall | orbit | COB, GOO | 6 | - | - | Mas outros copiaram a ideia, e ele morreu cheio de dívidas.
 b9 | chave | street | orbit | POV, POV, CLA | 18 | bola_couro, borracha, stove, tires | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Décadas depois, a borracha dele estava em pneus, bolas e sapatos do mu
 b10 | simples | interior galpao | two | POV, POV | - | tires | - | Uma fábrica de pneus ganhou o nome dele. Ele nunca soube.

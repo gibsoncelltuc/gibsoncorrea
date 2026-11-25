@@ -55,3 +55,13 @@
 - b3: objeto "kit/panela" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> close no objeto
 - b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 6% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b9: objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> close no objeto
+
+## 25/11 05:33 autocorrecao de visibilidade
+- b9: objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera mais perto do objeto, 1 personagem de lado
+- b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
+
+## 25/11 05:34 autocorrecao de visibilidade
+- b9: ja corrigida 3 vezes, objeto citado "kit/balloon_air" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b3: ja corrigida 3 vezes, objeto "kit/rato" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b9: ja corrigida 3 vezes, objeto "kit/balloon_air" saiu com 0% da altura da tela, a ficha de cena planejou 30% -> fica para o olho

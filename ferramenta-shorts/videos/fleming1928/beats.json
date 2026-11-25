@@ -8,7 +8,7 @@
  "set": "street",
  "light": "day",
  "mood": "playful",
- "heroi": "kit/petri",
+ "heroi": "kit/petri_mofo",
  "outfits": {
   "FLE": {
    "jacket": "#f4f4f0",
@@ -52,8 +52,8 @@
    "props": [
     [
      "kit/bancada",
-     0.6,
-     1.0,
+     0.0,
+     -1.6,
      1.5,
      {
       "nocol": true,
@@ -61,52 +61,17 @@
      }
     ],
     [
-     "kit/petri",
+     "kit/petri_mofo",
      0.0,
-     -1.2,
-     0.8,
+     -1.6,
+     0.55,
      {
       "nocol": true,
       "y": 0.95,
       "fixo": true
      }
-    ],
-    [
-     "kit/gosma",
-     -1.6,
-     0.8,
-     0.57,
-     {
-      "nocol": true,
-      "y": 1.0,
-      "fixo": true
-     }
     ]
    ],
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/petri",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/gosma",
-      "lugar": "FRENTE, esquerda",
-      "tela": "5% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "detalhe": true,
    "encena": {
     "sentido": "fato",
@@ -117,12 +82,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cz": -0.8,
+   "d0": 9.0,
+   "d1": 7.5,
+   "quadro_manual": true
   },
   {
    "say": "Era mil novecentos e vinte e oito, em Londres, e Alexander Fleming era famoso pela mesa bagunçada.",
@@ -172,7 +136,68 @@
       "quem": 0
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/bancada",
+     0.0,
+     -1.6,
+     1.5,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     -0.5,
+     -1.6,
+     0.45,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.0,
+     -1.6,
+     0.45,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.5,
+     -1.6,
+     0.45,
+     {
+      "nocol": true,
+      "y": 0.95,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/petri",
+     0.25,
+     -1.5,
+     0.45,
+     {
+      "nocol": true,
+      "y": 1.05,
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 9.5,
+   "d1": 8.5,
+   "quadro_manual": true
   },
   {
    "say": "Um dia, ele saiu de férias por um mês e não limpou nada.",
@@ -197,7 +222,7 @@
   {
    "say": "Quando voltou, achou um prato estragado, coberto de bolor verde.",
    "shot": "two",
-   "interior": "pedra",
+   "interior": "madeira",
    "who": [
     "COL:0:smug",
     "FLE:0:angry"
@@ -207,8 +232,8 @@
    "props": [
     [
      "kit/bancada",
-     3.6,
-     -2.0,
+     0.0,
+     -1.6,
      1.5,
      {
       "nocol": true,
@@ -216,52 +241,17 @@
      }
     ],
     [
-     "kit/petri",
+     "kit/petri_mofo",
      0.0,
-     -1.2,
-     0.8,
+     -1.6,
+     0.6,
      {
       "nocol": true,
       "y": 0.95,
       "fixo": true
      }
-    ],
-    [
-     "kit/gosma",
-     -1.6,
-     0.8,
-     0.57,
-     {
-      "nocol": true,
-      "y": 1.0,
-      "fixo": true
-     }
     ]
    ],
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/petri",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/gosma",
-      "lugar": "FRENTE, esquerda",
-      "tela": "5% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -277,77 +267,42 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -1.0,
+   "d0": 8.0,
+   "d1": 6.5,
+   "quadro_manual": true
   },
   {
    "say": "Ele ia jogar o prato fora, mas olhou melhor.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "FLE:0:suspicious"
    ],
    "props": [
     [
      "kit/bancada",
-     3.6,
-     -2.0,
-     2.0,
+     0.0,
+     -1.6,
+     1.5,
      {
       "nocol": true,
       "fixo": true
      }
     ],
     [
-     "kit/petri",
-     2.4,
-     0.2,
-     0.8,
+     "kit/petri_mofo",
+     0.0,
+     -1.6,
+     0.6,
      {
       "nocol": true,
       "y": 0.95,
       "fixo": true
      }
-    ],
-    [
-     "kit/gosma",
-     0.0,
-     1.4,
-     2.0,
-     {
-      "nocol": true,
-      "y": 1.0,
-      "fixo": true
-     }
     ]
    ],
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e petri juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/petri",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/gosma",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "interior": "pedra",
+   "interior": "madeira",
    "detalhe": true,
    "encena": {
     "sentido": "afirmativa",
@@ -359,16 +314,15 @@
      }
     ]
    },
-   "_enq_shot": "group",
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
-   "_auto_vis": 3
+   "cx": 0.0,
+   "cz": -0.8,
+   "d0": 7.5,
+   "d1": 6.0,
+   "quadro_manual": true
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
-   "shot": "wide",
+   "shot": "two",
    "who": [
     "FLE:0:shock",
     "COL:0:surprised"
@@ -386,12 +340,12 @@
     "ding@40",
     "sting@60"
    ],
-   "interior": "pedra",
+   "interior": "madeira",
    "props": [
     [
      "kit/bancada",
-     0.6,
-     1.0,
+     0.0,
+     -1.6,
      1.5,
      {
       "nocol": true,
@@ -399,24 +353,13 @@
      }
     ],
     [
-     "kit/petri",
+     "kit/petri_mofo",
      0.0,
-     1.4,
-     2.0,
+     -1.6,
+     0.8,
      {
       "nocol": true,
       "y": 0.95,
-      "fixo": true
-     }
-    ],
-    [
-     "kit/gosma",
-     -1.6,
-     0.8,
-     0.57,
-     {
-      "nocol": true,
-      "y": 1.0,
       "fixo": true
      }
     ]
@@ -424,30 +367,6 @@
    "detalhe": true,
    "text": "BACTÉRIAS SUMIRAM",
    "explica": false,
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e petri juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/petri",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/gosma",
-      "lugar": "FRENTE, esquerda",
-      "tela": "5% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -457,24 +376,23 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3
+   "cz": -1.0,
+   "d0": 8.5,
+   "d1": 7.0,
+   "quadro_manual": true
   },
   {
    "say": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome de penicilina.",
    "shot": "two",
-   "interior": "madeira",
+   "interior": "pedra",
    "who": [
     "FLE:0:smile",
     "COL:0:relief"
    ],
    "interacao": "cochichar",
    "explica": {
-    "objeto": "kit/petri",
+    "objeto": "kit/petri_mofo",
     "manobra": "parado",
     "passos": [
      "MOFO",
@@ -501,7 +419,7 @@
     "POV:0:relief"
    ],
    "acao": "comemorar",
-   "interior": "pedra",
+   "interior": "galpao",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -559,7 +477,6 @@
    "who": [
     "FLE:0:smug"
    ],
-   "interior": "madeira",
    "encena": {
     "sentido": "figurada",
     "passos": [
@@ -568,7 +485,8 @@
       "na": "bagunça"
      }
     ]
-   }
+   },
+   "set": "street"
   }
  ],
  "visual": {

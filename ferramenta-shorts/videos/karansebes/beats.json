@@ -138,9 +138,9 @@
    "props": [
     [
      "tools/lantern",
-     0.0,
-     0.8,
-     1.0
+     0.6,
+     1.0,
+     1.5
     ]
    ],
    "move": 7,
@@ -166,7 +166,8 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
@@ -201,10 +202,6 @@
     ],
     "march": false
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
@@ -234,7 +231,12 @@
       "forcar": true
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -443,11 +445,6 @@
     "cannon@97",
     "cannon@109"
    ],
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 17.1,
-   "d1": 16.2,
    "fachada": false,
    "detalhe": false,
    "quadro": {
@@ -468,7 +465,6 @@
      }
     ]
    },
-   "_auto_vis": 1,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -482,7 +478,14 @@
       "na": "dispararam"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 17.1,
+   "d1": 16.2,
+   "_enq_shot": "wide",
+   "_auto_vis": 1
   },
   {
    "say": "Dois dias depois, os turcos chegaram e acharam o acampamento abandonado.",
