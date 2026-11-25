@@ -10,7 +10,6 @@
    "countryside",
    "interior madeira",
    "loc_campo",
-   "loc_deserto",
    "outback"
   ],
   "cenarios_trocados": []
@@ -34,9 +33,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "buildings/barn",
-  "buildings/house_small",
   "crate",
-  "kit/coin",
   "kit/room_colonial_wood",
   "mgun",
   "mk/Bookcase_2",

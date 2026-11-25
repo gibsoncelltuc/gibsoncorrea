@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 11 - A Janela do Cybertruck
 
-Gerado em 24/11 23:45 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:01 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | hall | two | MUS | - | cybertruck | - | Uma picape blindada teve as janelas quebradas ao vivo, no próprio lanç
-b1 | simples | hall | wide | MUS | - | cybertruck | - | Foi em novembro de dois mil e dezenove, na Califórnia. A Tesla apresen
-b2 | simples | hall | wide | DSG | - | cybertruck, steel_ball | - | Para provar, o designer Franz von Holzhausen jogou uma esfera de aço n
-b3 | chave | hall | wide | MUS | 30 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente de toda a plateia.
-b4 | chave | hall | wide | DSG | - | ball, cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou de novo, em outra janela, e ela também rachou. Musk brincou
-b5 | simples | hall | two | MUS | - | cybertruck, phone, steel_ball | - | Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tin
-b6 | simples | hall | orbit | MUS, DSG | 30 | globe, phone | - | A plateia riu, a internet também, e a cena deu o que falar no mundo in
-b7 | simples | hall | group | MUS, DSG | - | cybertruck, globe | - | Mesmo assim, poucos dias depois, Musk anunciou mais de cento e quarent
-b8 | simples | hall | two | MUS, DSG | - | cybertruck, steel_ball | - | Uma picape, uma esfera de aço e uma janela que não aguentou: um lançam
-b9 | simples | hall | close | MUS | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | chave | hall | two | MUS | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Uma picape blindada teve as janelas rachadas ao vivo, no lançamento.
+b1 | simples | hall | group | MUS, DSG | - | cybertruck, steel_ball | - | E mesmo assim, ela virou um sucesso de reservas.
+b2 | transicao | hall | wide | MUS | - | cybertruck | - | Em 2019, na Califórnia, a Tesla apresentou o Cybertruck.
+b3 | transicao | hall | wide | MUS | - | cybertruck | - | Musk garantiu que o vidro era super resistente.
+b4 | simples | hall | two | DSG | - | cybertruck, steel_ball | - | O designer jogou uma esfera de aço na janela.
+b5 | chave | hall | group | MUS | 14 | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o vidro rachou, ao vivo, na frente da plateia.
+b6 | chave | hall | group | DSG | - | cybertruck | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele tentou em outra janela. Também rachou.
+b7 | simples | hall | two | MUS | - | cybertruck, phone, steel_ball | - | Musk disse que, nos testes, a esfera nem arranhava o vidro.
+b8 | simples | hall | group | MUS, DSG | - | globe | - | Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.
+b9 | simples | hall | wide | MUS | - | cybertruck | - | A janela quebrou. As reservas, não.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

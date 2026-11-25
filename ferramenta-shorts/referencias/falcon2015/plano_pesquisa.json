@@ -8,7 +8,7 @@
    "consultas": [
     "SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1",
     "O Foguete que Voltou de Ré",
-    "Durante Até Foi Cabo Canaveral Flórida Elon Musk Muitos 2015"
+    "Foguete Até Elon Musk Muitos 2015"
    ]
   },
   {
@@ -21,11 +21,10 @@
   },
   {
    "tipo": "lugar",
-   "item": "Estados Unidos",
+   "item": "Flórida",
    "consultas": [
-    "map of Florida Cape Canaveral",
-    "Estados Unidos 2015",
-    "Estados Unidos landscape"
+    "Flórida 2015",
+    "Flórida landscape"
    ]
   },
   {
@@ -95,6 +94,14 @@
     "Falcon 9 rocket standing on launch pad Cape Canaveral",
     "rocket 2015",
     "rocket"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Acontece que ela desceu de ré, com o motor freando a queda.",
+   "consultas": [
+    "acontece desceu motor freando queda",
+    "falcon9 land diagram"
    ]
   }
  ]

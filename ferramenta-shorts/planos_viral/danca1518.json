@@ -1,0 +1,86 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "NÃO PARAVA DE DANÇAR",
+ "gancho_cumprido": "Gancho: uma mulher comecou a dancar e nao conseguia parar, e ninguem sabe por que. Pagamento: centenas dancaram com os pes sangrando, os medicos receitaram mais danca e so pararam numa capela no monte.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma mulher começou a dançar na rua e não conseguiu parar.",
+   "dançar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E até hoje ninguém sabe ao certo por quê.",
+   "ninguém"
+  ],
+  [
+   1,
+   "prova",
+   "Em 1518, em Estrasburgo, ela dançou por uma semana.",
+   "dançou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Em poucos dias, mais de trinta pessoas dançavam também.",
+   "dançavam",
+   {
+    "encena_antiga": true,
+    "set": "street"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Em agosto, eram centenas, com os pés sangrando.",
+   "centenas",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Os médicos culparam o sangue quente e receitaram mais dança.",
+   "receitaram"
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a cidade contratou músicos para manter todos dançando.",
+   "contratou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Deu errado: mais gente entrou na dança.",
+   "entrou",
+   {
+    "set": "countryside"
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Levados a uma capela no monte, os dançarinos finalmente pararam.",
+   "pararam"
+  ],
+  [
+   0,
+   "loop",
+   "Histeria coletiva? Ninguém sabe ao certo.",
+   "ninguém"
+  ]
+ ]
+}

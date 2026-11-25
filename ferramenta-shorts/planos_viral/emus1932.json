@@ -1,0 +1,107 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: a Australia perdeu uma guerra para passaros e o placar virou piada. Pagamento: metralhadoras, caminhao, seis dias e milhares de balas para poucos emus; o major comparou os emus a tanques.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um exército contra pássaros? A Austrália saiu derrotada.",
+   "derrotada",
+   {
+    "who": [
+     "SOL:0:pained",
+     "FARM:0:laugh"
+    ],
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "perde",
+       "na": "derrotada",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E o placar final virou piada no mundo inteiro.",
+   "piada",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1932, vinte mil emus tomaram as lavouras de trigo.",
+   "emus",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Os agricultores pediram ajuda, e o governo mandou soldados.",
+   "mandou",
+   {
+    "crowd": {
+     "n": 6,
+     "outfits": [
+      "FARM"
+     ],
+     "march": false
+    }
+   }
+  ],
+  [
+   3,
+   "prova",
+   "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "levou"
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que os emus se espalharam, e as balas só acertavam poeira.",
+   "espalharam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Uma metralhadora num caminhão sacudia tanto que ninguém acertava.",
+   "sacudia",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "O major comparou os emus a tanques. A imprensa riu.",
+   "riu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "pagamento",
+   "Depois de seis dias, milhares de balas gastas e poucos emus abatidos.",
+   "abatidos",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Placar final: exército zero, emus um.",
+   "placar"
+  ]
+ ]
+}

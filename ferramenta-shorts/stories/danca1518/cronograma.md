@@ -1,22 +1,21 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 22 - A Praga da Dança
 
-Gerado em 25/11 01:24 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:00 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | medieval | two | TRO, POV | - | marco_viena | - | Uma mulher começou a dançar no meio da rua, e não conseguiu mais parar
-b1 | simples | medieval | two | TRO, POV | - | marco_viena | - | Era julho de mil quinhentos e dezoito, em Estrasburgo. Ela dançou por 
-b2 | chave | medieval | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos dias, mais de trinta pessoas dançavam também, incluindo o ma
-b3 | simples | medieval | group | POV, TRO, POV, POV | 36 | - | - | Em agosto, de cinquenta a quatrocentas pessoas dançavam, com os pés sa
-b4 | simples | interior pedra | two | PRE, MED | - | - | - | O conselho da cidade chamou os médicos, que culparam o sangue quente e
-b5 | simples | hall | wide | MUS, MUS | 12 | house_two, lamppost | - | A cidade reformou salões e contratou músicos para manter os dançarinos
-b6 | chave | medieval | orbit | PRE, POV | - | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Deu errado: mais gente entrou na dança, com medo de um castigo de São 
-b7 | simples | loc_campo | two | PRE, MED | - | - | - | Alguns dizem que morriam quinze por dia, mas os documentos da época nã
-b8 | simples | loc_montanha | wide | DAN | 6 | church, marco_viena | - | No fim, os dançarinos foram levados a uma capela no alto de um monte, 
-b9 | simples | interior madeira | close | MED | - | - | - | Hoje se suspeita de histeria coletiva, mas ninguém sabe ao certo o que
-b10 | simples | interior madeira | close | PRE | - | - | - | Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+b0 | simples | medieval | two | TRO, POV | - | marco_viena | - | Uma mulher começou a dançar na rua e não conseguiu parar.
+b1 | simples | interior madeira | two | MED, POV | - | - | - | E até hoje ninguém sabe ao certo por quê.
+b2 | simples | medieval | two | TRO, POV | - | marco_viena | - | Em 1518, em Estrasburgo, ela dançou por uma semana.
+b3 | chave | street | crowd | TRO, POV, POV, POV | 48 | - | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em poucos dias, mais de trinta pessoas dançavam também.
+b4 | simples | medieval | group | POV, TRO, POV, POV | 36 | - | - | Em agosto, eram centenas, com os pés sangrando.
+b5 | simples | interior pedra | two | PRE, MED | - | - | - | Os médicos culparam o sangue quente e receitaram mais dança.
+b6 | chave | hall | orbit | MUS, MUS | 12 | house_two, lamppost | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que a cidade contratou músicos para manter todos dançando.
+b7 | simples | countryside | two | PRE, POV | - | - | - | Deu errado: mais gente entrou na dança.
+b8 | simples | loc_montanha | wide | DAN | 6 | church, marco_viena | - | Levados a uma capela no monte, os dançarinos finalmente pararam.
+b9 | simples | medieval | two | TRO, POV | - | - | - | Histeria coletiva? Ninguém sabe ao certo.
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 
