@@ -242,11 +242,9 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: kit/tv | grandes momentos: b1, b8 | planos abertos: 2 | mistura: close 9% | medio 77% | aberto 11% | detalhe 2%
 - Interacoes: b1 aproxima-se, b2 avanca e o outro recua, b4 o outro se aproxima, b6 susto, b7 insiste
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: O Cameo de Sete Segundos, Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C, Donald Trump (sobretudo escuro e gravata), menino Ke -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: O Cameo de Sete Segundos, Hotel Plaza, Nova York (saguao dourado com lustres), set de filmagem; emissora C, Donald Trump (sobretudo escuro e gravata), menino Ke
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cameo1992 bN bM` (so essas cenas).

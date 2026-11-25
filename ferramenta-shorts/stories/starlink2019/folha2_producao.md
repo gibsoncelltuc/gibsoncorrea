@@ -244,11 +244,9 @@ kit/rocket | b9 | pronto (HEROI: aparece em close) | conferir na folha de contat
 ## Video inteiro
 - Objeto heroi: kit/rocket | grandes momentos: b0, b3, b5 | planos abertos: 5 | mistura: close 11% | medio 57% | aberto 27% | detalhe 5%
 - Interacoes: b2 avanca e o outro recua, b6 o outro se aproxima, b9 insiste
-- RISCOS GERAIS: 
-  - FOLHA 4: 9 item(ns) sem referencia visual: A Fila de Luzes no Céu, Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide, astronomo amador Marco Langbroek com camera e tripe, j -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 9 item(ns) sem referencia visual: A Fila de Luzes no Céu, Cabo Canaveral, Florida (lancamento do Falcon 9) e ceu noturno da Holanda (Leide, astronomo amador Marco Langbroek com camera e tripe, j
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh starlink2019 bN bM` (so essas cenas).

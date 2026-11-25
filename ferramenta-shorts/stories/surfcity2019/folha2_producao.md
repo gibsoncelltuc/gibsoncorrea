@@ -245,11 +245,9 @@ kit/volcano | b1, b2, b4, b7, b9 | pronto | conferir na folha de contato se le b
 ## Video inteiro
 - Objeto heroi: kit/surfboard | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 12% | medio 72% | aberto 8% | detalhe 8%
 - Interacoes: b1 insiste, b3 vai ate o outro, b5 aproxima-se, b6 discutir, b7 susto, b8 avanca e o outro recua
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de, Nayib Bukele (jaqueta escura, bone), surfistas com prancha, jornalistas, morado -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: La Libertad, El Salvador: praias de El Sunzal, Punta Roca e La Bocana (ondas de, Nayib Bukele (jaqueta escura, bone), surfistas com prancha, jornalistas, morado
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh surfcity2019 bN bM` (so essas cenas).

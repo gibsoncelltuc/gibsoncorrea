@@ -245,11 +245,9 @@ kit/ballot_box | b7 | pronto | conferir na folha de contato se le bem; se parece
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b1, b3 | planos abertos: 2 | mistura: close 11% | medio 76% | aberto 8% | detalhe 5%
 - Interacoes: b3 entregar, b5 discutir, b6 insiste, b8 vai ate o outro
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: O Ditador Mais Legal do Mundo, San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais, Nayib Bukele (jaqueta de couro escura, bone vir -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: O Ditador Mais Legal do Mundo, San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais, Nayib Bukele (jaqueta de couro escura, bone vir
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bukelebio2021 bN bM` (so essas cenas).

@@ -271,11 +271,9 @@ kit/booster_air | b2, b5, b6 | pronto | conferir na folha de contato se le bem; 
 ## Video inteiro
 - Objeto heroi: kit/tower_mini | grandes momentos: b4, b7 | planos abertos: 7 | mistura: close 7% | medio 46% | aberto 43% | detalhe 3%
 - Interacoes: b0 aproxima-se
-- RISCOS GERAIS: 
-  - FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 10 item(ns) sem referencia visual: A Torre que Pegou um Foguete no Ar, Starbase, Boca Chica, Texas: torre de lancamento de aco ao lado da praia, campo, Elon Musk (camiseta preta), engenheiros da 
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh mechazilla2024 bN bM` (so essas cenas).

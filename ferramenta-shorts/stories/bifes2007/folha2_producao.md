@@ -239,11 +239,9 @@ kit/stall | b8 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/steak | grandes momentos: b2, b4 | planos abertos: 2 | mistura: close 10% | medio 77% | aberto 12% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b1 insiste, b2 susto, b3 pedir, b5 vai ate o outro, b6 aproxima-se, b7 avanca e o outro recua
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: Os Bifes com o Nome do Trump, Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hot, Donald Trump (terno escuro e gravata vermelha),  -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Os Bifes com o Nome do Trump, Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hot, Donald Trump (terno escuro e gravata vermelha), 
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh bifes2007 bN bM` (so essas cenas).

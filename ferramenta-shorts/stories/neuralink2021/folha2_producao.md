@@ -250,11 +250,9 @@ kit/phone | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 11% | medio 66% | aberto 15% | detalhe 7%
 - Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b8 entregar
-- RISCOS GERAIS: 
-  - FOLHA 4: 11 item(ns) sem referencia visual: O Macaco que Jogou Videogame com a Mente, Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas, macaco Pager (macaco-rhesus de 9 ano -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 11 item(ns) sem referencia visual: O Macaco que Jogou Videogame com a Mente, Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; cas, macaco Pager (macaco-rhesus de 9 ano
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh neuralink2021 bN bM` (so essas cenas).

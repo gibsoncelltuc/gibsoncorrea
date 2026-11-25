@@ -227,11 +227,9 @@ kit/globe | b6, b7 | pronto | conferir na folha de contato se le bem; se parecer
 ## Video inteiro
 - Objeto heroi: kit/steel_ball | grandes momentos: b3, b4 | planos abertos: 5 | mistura: close 12% | medio 40% | aberto 40% | detalhe 7%
 - Interacoes: b7 aproxima-se, b8 pular
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: A Janela do Cybertruck, Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e pla, Elon Musk (jaqueta de couro preta), designer Franz von
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cybertruck2019 bN bM` (so essas cenas).
