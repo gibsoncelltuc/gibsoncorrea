@@ -60,6 +60,7 @@ PT_EN = dict(x.split(':') for x in ('abelha:bee abelhas:bees colmeia:beehive col
   'galinha:chicken ganso:goose gansos:geese cachorro:dog gato:cat urso:bear emu:emu tulipa:tulip tulipas:tulips bulbo:bulb bulbos:bulbs comerciante:merchant '
   'comerciantes:merchants inventor:inventor presidente:president governador:governor marinheiro:sailor marinheiros:sailors policia:police tribunal:courtroom juiz:judge '
   'escola:school professor:teacher medico:doctor hospital:hospital doente:patient remedio:medicine mofo:mold placa:plate danca:dance dancam:dance mapa:map sol:sun '
+  'banheira:bathtub banheiras:bathtubs tina:tub coroa:crown coroas:crowns louro:laurel louros:laurel ouro:gold prata:silver balanca:scale ourives:goldsmith rei:king rainha:queen trono:throne papiro:papyrus vara:stick poco:well fogao:stove panela:pot microscopio:microscope prato:dish frasco:flask frascos:flasks garrafa:bottle cesta:basket barril:barrel canivete:penknife martelo:hammer serrote:saw lanterna:lantern vela:candle relogio:clock telefone:telephone celular:smartphone computador:computer maquina:machine motor:engine turbina:turbine satelite:satellite submarino:submarine tanque:tank navio:ship navios:ships barco:boat barcos:boats frota:fleet cofre:safe moeda:coin moedas:coins nota:banknote dinheiro:money bife:steak carne:meat elefante:elephant elefantes:elephants rato:rat ratos:rats colmeia:beehive abelha:bee abelhas:bees ervilha:pea ervilhas:peas maca:apple pipa:kite chave:key raio:lightning seringa:syringe bacia:basin pena:feather torre:tower castelo:castle templo:temple igreja:church '
   'noite:night antigo:antique antiga:antique quente:hot crua:raw cru:raw seculo:century epoca:period').split())
 def ingles(q):
     import unicodedata
@@ -77,11 +78,14 @@ for it in plano['itens']:
     for q in it['consultas']:   # consultas de reserva, cada vez mais simples: so' os nomes proprios; as 3 primeiras palavras fortes; as 2 primeiras
         prop = ' '.join(re.findall(r'\b[A-Z][\w]+', q)); fortes = [w for w in re.findall(r'[\w]{4,}', q) if w.lower() not in ('para', 'como', 'sobre', 'entre', 'estilo', 'grupo', 'branco', 'soltando', 'embaixo')]
         qs += [x for x in ((prop,) if it['tipo'] in ('tema', 'mecanismo', 'epoca') else (prop, ' '.join(fortes[:3]), ' '.join(fortes[:2]))) if x and len(x) > 3 and len(x.split()) >= (2 if it['tipo'] in ('tema', 'mecanismo') else 1)]   # tema e mecanismo: so' nomes proprios (busca solta traz imagem que nao tem nada a ver)
-    qs += [ingles(q) for q in it['consultas'] if len(ingles(q).split()) >= 1]   # reserva em ingles (o Commons e' quase todo em ingles)
+    qs = [ingles(q) for q in it['consultas'] if len(ingles(q).split()) >= 1] + qs   # 25/11: INGLES PRIMEIRO (o Commons e' quase todo em ingles; em portugues voltava lixo)
     for q in list(dict.fromkeys([q for q in qs if q.strip()]))[:8]:
         for r_ in commons(q, 3 - len(achados) + 6):
             if len(achados) >= 3: break
             fn = f"{D}/prints/{re.sub(r'[^a-z0-9]+', '_', it['item'].lower())[:40]}_{hashlib.md5(r_['thumb'].encode()).hexdigest()[:6]}.jpg"
+            _tk = {w[:5] for w in re.findall(r'[a-z]{4,}', (q + ' ' + ingles(q) + ' ' + it['item']).lower()) if w not in ('para', 'como', 'sobre', 'entre', 'with', 'from', 'that', 'this', 'estilo', 'grupo', 'epoca', 'antigo', 'antiga', 'ancient')}
+            _txr = (r_['titulo'] + ' ' + r_.get('descricao', '')).lower()
+            if _tk and not any(t_ in _txr for t_ in _tk): continue   # 25/11 (Arquimedes: "banheira"/"coroa" trouxeram LEOES): o resultado tem que falar do item buscado
             if ruim(r_['titulo'], fn):
                 if os.path.exists(fn): os.remove(fn)
                 continue

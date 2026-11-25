@@ -138,7 +138,7 @@ python3 checagem_coerencia.py _teste_r3b 2>&1 | grep -q "R3 b0" || f "dois lados
 grep -q "a.i >= nWho" visivel.mjs || f "figurante de multidao na borda trava o storyboard como personagem cortado"
 grep -q "if not _gente: cena\['crowd'\]" enquadrar.py || f "ficha de cena tira a multidao de 'cercaram o forte' (Banquinho b5)"
 grep -q "chov.w\* dentro|goteira|teto furado" mkvideo.py || f "chovia dentro do galpao sai sem chuva (Curie b3)"
-grep -q "def ingles(q)" pesquisar.py && grep -q "qs += \[ingles(q)" pesquisar.py || f "pesquisa visual so' busca em portugues (Goodyear/Abelhas travaram sem referencia)"
+grep -q "def ingles(q)" pesquisar.py && grep -q "qs = \[ingles(q) for q in" pesquisar.py || f "pesquisa visual so' busca em portugues (Goodyear/Abelhas travaram sem referencia)"
 grep -q "personagem PONTINHO" visivel.mjs && grep -q "'PONTINHO' in txt" autocorrigir_visibilidade.py && grep -q "if n_p and d > 22.0" enquadrar.py || f "personagem vira pontinho com objeto grande (camera a 80 m, Gansos b4)"
 grep -q "v.length < 0.13)" visivel.mjs || f "animal citado pequeno passa com 10% da tela (Gansos b9)"
 grep -q "_hit_fx" mkvideo.py && grep -q "_can_fx" mkvideo.py || f "clarao do tiro sai nos personagens e nao no canhao/objeto atingido (Chaleira b5/b6)"
@@ -191,6 +191,16 @@ raise SystemExit(0 if ok else 1)" || f "encenacao escrita (sentido + passos) nao
 grep -q "encenacao.py rascunho" make_video.sh && grep -q "encenacao.py conferir" aprovar_storyboard.sh && python3 -c "import sentido as S; raise SystemExit(0 if [S.classificar(x) for x in ['Nenhum soldado deu um tiro.','Os soldados atiraram.','Eles quase entraram em guerra.','Foi uma guerra de precos.']]==['negativa','afirmativa','hipotese','figurada'] else 1)" && grep -q "_ENC.aplicar" mkvideo.py && grep -q "FALTA A LEITURA ESCRITA" aprovar_storyboard.sh || f "encenacao escrita nao esta ligada no motor/aprovacao"
 grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
 grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
+python3 -c "
+import encenacao as E
+B={'beats':[{'say':'bicos grossos para quebrar sementes','who':['DAR:0'],'props':[['kit/finch_thick',0,-1,1.5,{}]],'encena':{'sentido':'fato','passos':[{'faz':'quebra','alvo':'kit/finch_thick','na':'quebrar'}]}}]}
+E.aplicar(B, lambda n:[0.0]*n, [1.3]); b=B['beats'][0]
+raise SystemExit(0 if b.get('_obj_faz')==[['quebrar','kit/finch_thick','quebra']] and not b.get('acoes') else 1)" && grep -q "_obj_faz" mkvideo.py || f "acao do OBJETO (bico quebra a semente) vira FALTA ou vira acao de personagem (Darwin)"
+[ -f comparar_modelo.py ] && grep -q "comparativo_ok.md" aprovar_storyboard.sh && grep -q "REMODELAR" aprovar_storyboard.sh || f "pesquisa nao vira modelo: falta o comparativo referencia x modelo 3D (banheira do Arquimedes)"
+grep -q ' antigo" "$d/cenas.txt"' limpar_disco.sh && grep -q "reconstituindo antigo" reconstituir.py || f "limpeza de disco apaga o ckpt reconstituido de video em refacao (Arquimedes)"
+python3 - <<'Q' || f "mkvideo.py com erro de Python (variavel apagada por comentario)"
+import ast; ast.parse(open('mkvideo.py').read()); s=open('mkvideo.py').read(); raise SystemExit(0 if '_quer_t = {' in s and s.index('_quer_t = {') < s.index('e_[2] in _quer_t') else 1)
+Q
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

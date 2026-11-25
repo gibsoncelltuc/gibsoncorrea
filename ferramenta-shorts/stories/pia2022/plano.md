@@ -5,7 +5,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 b0 | two | -  | - | comprando (stars + som de sino); encena: chega (point) @2 (acao + som de efeito); encena: pega (lift) @3 (acao + som de efeito) | -
 b1 | two | -  | interior, mapa | - | -
 b2 | close | -  | interior | encena: tira (lift) @1 (acao + som de efeito) | -
-b3 | two | -  | interior, placa: LET THAT SINK IN | encena: desaba @10 (acao + som de efeito) | -
+b3 | two | -  | interior, placa: LET THAT SINK IN | objeto: sink desaba (na palavra "afundar") (acao + som de efeito) | -
 b4 | two | -  | tropa | - | -
 b5 | two | -  | batalha aberta com tiros, interior | encena: negocio (reach) @8 (acao + som de efeito) | -
 b6 | two | -  | interior | encena: fala (point) @4 (acao + som de efeito) | -

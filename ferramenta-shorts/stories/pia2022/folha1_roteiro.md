@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +1% | Clima do video: playful | Cenario base: loc_cidad
 - Narracao: A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: desaba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: objeto: sink desaba (na palavra "afundar") -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: LET THAT SINK IN
 - Funcao na historia: desenvolvimento
