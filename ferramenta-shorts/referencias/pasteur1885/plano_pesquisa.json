@@ -97,6 +97,20 @@
     "seringa de vidro do seculo 19",
     "Pasteur e a Vacina da Raiva"
    ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "seringa pe",
+   "consultas": [
+    "seringa pe"
+   ]
   }
  ]
 }

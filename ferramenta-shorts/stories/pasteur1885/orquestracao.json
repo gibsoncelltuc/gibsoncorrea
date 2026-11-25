@@ -12,11 +12,13 @@
   {
    "camera": "two",
    "personagens": [
-    "PAS"
+    "PAS",
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/syringe"
+    "kit/bancada",
+    "kit/seringa_pe"
    ],
    "palavras": 12,
    "cena": "b0",
@@ -107,8 +109,8 @@
   {
    "camera": "two",
    "personagens": [
-    "PAS",
-    "MAE"
+    "MAE",
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [],
@@ -141,10 +143,12 @@
    "camera": "orbit",
    "personagens": [
     "PAS",
-    "MED"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bancada",
+    "kit/seringa_pe",
     "kit/syringe"
    ],
    "palavras": 12,
@@ -166,7 +170,7 @@
    "camera": "track",
    "personagens": [
     "MAE",
-    "PAS"
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [],
@@ -180,18 +184,20 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
-    "PAS"
+    "PAS",
+    "JOS"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/syringe"
+    "kit/bancada",
+    "kit/seringa_pe"
    ],
    "palavras": 8,
    "cena": "b9",
    "frase": "Um químico arriscou tudo. E foi assim que...",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

@@ -11,7 +11,7 @@ b5 | two | -  | animais, interior | animal: dog entra caminhando (acao + som de 
 b6 | close | -  | interior | (rosto) scared (expr + som de efeito); (rosto) determined (expr + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b8 | track | -  | interior | - | -
-b9 | wide | -  | tropa, placa: PRIMEIRA VACINA | - | -
+b9 | two | -  | tropa, placa: PRIMEIRA VACINA | - | -
 
-Mistura de planos: close 20% | medio 61% | aberto 17% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 3 | dentro do padrao do canal
+Mistura de planos: close 20% | medio 70% | aberto 8% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 2 | dentro do padrao do canal

@@ -4,8 +4,8 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: Pasteur e a Vacina da Raiva
 - Epoca: 1885 | Lugar: Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur | Quando: julho de 1885, dia
-- HEROIS (objeto): kit/syringe
-- HEROIS (personagens): PAS, MED
+- HEROIS (objeto): kit/syringe, kit/bancada, kit/seringa_pe
+- HEROIS (personagens): PAS, JOS
 - Cenarios: hall, interior loja, interior madeira, street
 - Proibido pela epoca: caravela, carro dos anos 50, encouracado, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
@@ -26,6 +26,8 @@ objeto | seringa de vidro do seculo 19 | seringa de vidro do seculo 19 / seringa
 objeto | frascos com medula de coelho | frascos com medula de coelho / frascos com medula de coelho 1885 | Round-bottom flasks (stacked).PNG (referencias/pasteur1885/prints/frascos_com_medula_de_coelho_079dcf.jpg); Flask, powder (AM 1932.233-1).jpg (referencias/pasteur1885/prints/frascos_com_medula_de_coelho_6c7aa3.jpg)
 objeto | microscopio | microscopio / microscopio 1885 | Fine rotative table Microscope 5 (12996283235).jpg (referencias/pasteur1885/prints/microscopio_40f39a.jpg); Microscope MET DP108688.jpg (referencias/pasteur1885/prints/microscopio_5a25a2.jpg); Microscope-OA 10767-IMG 3565-gradient.jpg (referencias/pasteur1885/prints/microscopio_475870.jpg)
 heroi | syringe | seringa de vidro do seculo 19 / Pasteur e a Vacina da Raiva | Alexander Wood's Hypodermic syringe, 19th century  (referencias/pasteur1885/prints/syringe_693522.jpg); Syringe from Ship's Medicine Chest, from an Aberde (referencias/pasteur1885/prints/syringe_e1dbab.jpg)
+heroi | bancada | bancada | SEM REFERENCIA
+heroi | seringa pe | seringa pe | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Em 6/7/1885 Joseph Meister, mordido por um cao raivoso, recebeu 13 inoculacoes em 10 dias da vacina de Pasteur e sobreviveu; mais tarde trabalhou como zelador do Instituto Pasteur (fonte: Wikipedia Joseph Meister, Rabies vaccine)

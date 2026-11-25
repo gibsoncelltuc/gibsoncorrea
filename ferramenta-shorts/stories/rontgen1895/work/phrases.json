@@ -1,0 +1,171 @@
+{
+ "duration": 31.824,
+ "frames30": 955,
+ "source": "silence-align (cost 1.77)",
+ "segments": [
+  [
+   0.156625,
+   3.08158
+  ],
+  [
+   3.88867,
+   5.65275
+  ],
+  [
+   6.44846,
+   7.90354
+  ],
+  [
+   8.17033,
+   10.0208
+  ],
+  [
+   10.8022,
+   11.3083
+  ],
+  [
+   11.5933,
+   13.0598
+  ],
+  [
+   13.8532,
+   14.6152
+  ],
+  [
+   14.8824,
+   15.9597
+  ],
+  [
+   16.197,
+   17.3367
+  ],
+  [
+   18.1305,
+   20.0372
+  ],
+  [
+   20.8274,
+   21.3077
+  ],
+  [
+   21.5228,
+   22.8078
+  ],
+  [
+   22.9757,
+   23.2239
+  ],
+  [
+   23.4628,
+   24.074
+  ],
+  [
+   24.8578,
+   25.8105
+  ],
+  [
+   26.0942,
+   28.3196
+  ],
+  [
+   29.095,
+   30.113
+  ],
+  [
+   30.3886,
+   31.0773
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "s": 0.157,
+   "e": 3.082
+  },
+  {
+   "text": "Conta-se que ela viu ali a pr\u00f3pria morte.",
+   "s": 3.889,
+   "e": 5.653
+  },
+  {
+   "text": "Em 1895,",
+   "s": 6.448,
+   "e": 7.904
+  },
+  {
+   "text": "Wilhelm R\u00f6ntgen testava um tubo de vidro.",
+   "s": 8.17,
+   "e": 10.021
+  },
+  {
+   "text": "Uma noite,",
+   "s": 10.802,
+   "e": 11.308
+  },
+  {
+   "text": "cobriu o tubo e apagou a luz.",
+   "s": 11.593,
+   "e": 13.06
+  },
+  {
+   "text": "Acontece que,",
+   "s": 13.853,
+   "e": 14.615
+  },
+  {
+   "text": "do outro lado da sala,",
+   "s": 14.882,
+   "e": 15.96
+  },
+  {
+   "text": "uma tela brilhou no escuro.",
+   "s": 16.197,
+   "e": 17.337
+  },
+  {
+   "text": "P\u00f4s a m\u00e3o na frente e viu os pr\u00f3prios ossos.",
+   "s": 18.131,
+   "e": 20.037
+  },
+  {
+   "text": "Depois,",
+   "s": 20.827,
+   "e": 21.308
+  },
+  {
+   "text": "fotografou a m\u00e3o da esposa,",
+   "s": 21.523,
+   "e": 22.808
+  },
+  {
+   "text": "Anna,",
+   "s": 22.976,
+   "e": 23.224
+  },
+  {
+   "text": "com a alian\u00e7a.",
+   "s": 23.463,
+   "e": 24.074
+  },
+  {
+   "text": "Sem saber o que era,",
+   "s": 24.858,
+   "e": 25.811
+  },
+  {
+   "text": "chamou de raio X. Ganhou o primeiro Nobel de F\u00edsica.",
+   "s": 26.094,
+   "e": 28.32
+  },
+  {
+   "text": "Um raio desconhecido,",
+   "s": 29.095,
+   "e": 30.113
+  },
+  {
+   "text": "e foi assim que...",
+   "s": 30.389,
+   "e": 31.077
+  }
+ ]
+}

@@ -30,10 +30,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "kit/bancada",
   "kit/room_azul_wood",
   "kit/room_europa_wood",
   "kit/room_franca_shop",
   "kit/room_verde_shop",
+  "kit/seringa_pe",
   "kit/syringe",
   "mk/Barrel",
   "mk/Bed_Twin1",
