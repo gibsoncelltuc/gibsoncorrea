@@ -264,7 +264,8 @@
       "na": "injeções"
      }
     ]
-   }
+   },
+   "_auto_vis": 1
   },
   {
    "shot": "track",
@@ -295,7 +296,7 @@
     [
      "kit/syringe",
      0.0,
-     -8.0,
+     -1.0,
      1.3,
      {
       "fixo": true
@@ -322,7 +323,8 @@
       "na": "arriscou"
      }
     ]
-   }
+   },
+   "_auto_vis": 1
   }
  ],
  "visual": {
