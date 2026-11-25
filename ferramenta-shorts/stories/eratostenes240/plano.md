@@ -9,7 +9,7 @@ b3 | wide | - calor | batalha aberta com tiros | - | -
 b4 | two | - calor | tropa | - | -
 b5 | two | -  | - | encena: pensa (think) @1 (acao + som de efeito) | -
 b6 | two | -  | batalha aberta com tiros, tropa | - | -
-b7 | track | -  | - | encena: examina (think) @1 (acao + som de efeito); encena: fala (point) @7 (acao + som de efeito) | -
+b7 | track | -  | tropa | encena: examina (think) @1 (acao + som de efeito); encena: fala (point) @7 (acao + som de efeito) | -
 b8 | two | -  | interior, objeto na mao | encena: olha (point) @4 (acao + som de efeito) | -
 b9 | orbit | -  | tropa | - | -
 b10 | close | -  | placa: COMENTE! | - | -

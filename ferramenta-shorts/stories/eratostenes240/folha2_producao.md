@@ -151,7 +151,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: desert | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (2): ERA (variante 0, expressao neutral); CAM (variante 0, expressao grin)
+- Personagens principais (2): ERA (variante 0, expressao neutral); CAM (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: encena
 - Objetos/modelos: kit/stick, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): angulo, duas, passos, sombra
@@ -193,7 +193,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: desert | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 6 de POV
+- Personagens principais (1): ERA (variante 0, expressao smug) | multidao: 0 de 
 - Animacao: comemorar
 - Objetos/modelos: kit/stick, kit/well, tools/bucket, kit/starlink_sat
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): poco, satelite, trabalho, vara
