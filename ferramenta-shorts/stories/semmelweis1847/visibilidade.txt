@@ -1,1 +1,2 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (12 tomadas)
+VISIBILIDADE: 1 FALHA(S)
+FALHA b7: objeto citado "kit/wash_basin" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
