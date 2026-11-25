@@ -55,17 +55,17 @@
     [
      "kit/finch",
      0.0,
-     -1.2,
-     1.4,
+     1.0,
+     1.09,
      {
-      "fixo": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/bancada",
-     0.0,
-     -1.2,
+     1.6,
+     -1.0,
      1.3,
      {
       "nocol": true,
@@ -82,10 +82,26 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 1
   },
   {
    "say": "Em mil oitocentos e trinta e cinco, Charles Darwin chegou às ilhas Galápagos, no navio Beagle.",
@@ -132,7 +148,19 @@
    "h": 4.5,
    "d0": 34.0,
    "d1": 30.0,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   }
   },
   {
    "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
@@ -186,11 +214,17 @@
    "h": 4.0,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro)",
     "objetos": [
      {
       "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
@@ -231,19 +265,19 @@
    "props": [
     [
      "kit/finch",
-     2.4,
-     0.2,
-     1.5,
+     0.5,
+     1.0,
+     1.09,
      {
-      "fixo": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/bancada",
-     2.4,
-     0.2,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -262,10 +296,26 @@
     ]
    },
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano de grupo (3+ pessoas)",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
    "say": "A diferença estava no bico: uns grossos para quebrar sementes, outros finos para pegar insetos.",
@@ -337,16 +387,22 @@
    "h": 1.8,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
     "objetos": [
      {
       "objeto": "kit/finch_thick",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "10% da altura da tela",
       "estado": "parado"
      },
      {
       "objeto": "kit/finch_long",
+      "lugar": "FRENTE, esquerda",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
       "lugar": "MEIO, direita",
       "tela": "32% da altura da tela",
       "estado": "parado"
@@ -434,7 +490,37 @@
    "d0": 7.5,
    "d1": 6.5,
    "quadro_manual": true,
-   "h": 1.8
+   "h": 1.8,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "FRENTE, esquerda",
+      "tela": "10% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/finch_long",
+      "lugar": "FRENTE, direita",
+      "tela": "8% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Os bichos com o bico certo sobreviviam melhor, e passavam isso para os filhos.",
@@ -447,19 +533,19 @@
    "props": [
     [
      "kit/finch_thick",
-     2.4,
-     0.2,
-     1.5,
+     0.5,
+     1.0,
+     0.76,
      {
-      "fixo": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/bancada",
-     2.4,
-     0.2,
-     1.3,
+     0.6,
+     1.0,
+     1.5,
      {
       "nocol": true,
       "fixo": true
@@ -476,10 +562,26 @@
     ]
    },
    "detalhe": false,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0
+   "_enq_shot": "group",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano de grupo (3+ pessoas)",
+    "objetos": [
+     {
+      "objeto": "kit/finch_thick",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "10% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
    "say": "Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.",
@@ -514,15 +616,15 @@
      1.0,
      1.5,
      {
-      "fixo": true,
-      "y": 0.95
+      "y": 0.95,
+      "fixo": true
      }
     ],
     [
      "kit/bancada",
-     0.6,
-     1.0,
-     1.3,
+     0.0,
+     1.4,
+     2.0,
      {
       "nocol": true,
       "fixo": true
@@ -539,10 +641,27 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro",
+    "objetos": [
+     {
+      "objeto": "kit/finch",
+      "lugar": "FRENTE, centro (objeto principal da cena)",
+      "tela": "14% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bancada",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 3,
+   "detalhe": true
   }
  ],
  "visual": {

@@ -1,7 +1,0 @@
-VISIBILIDADE: 6 FALHA(S)
-FALHA b2: "kit/navio_fragata" cobrindo a tela (87% do quadro: so' se ve uma parede/casco)
-FALHA b5: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b5~1: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b5~2: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-FALHA b2: objeto citado "kit/finch" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-FALHA b2: objeto "kit/finch" saiu com 0% da altura da tela, a ficha de cena planejou 32%
