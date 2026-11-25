@@ -36,26 +36,26 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
     "BUK",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b1",
    "frase": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "BUK",
     "POV"
@@ -65,15 +65,9 @@
    "palavras": 11,
    "cena": "b2",
    "frase": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -127,39 +121,23 @@
    "palavras": 9,
    "cena": "b5",
    "frase": "No dia da eleição, os salvadorenhos foram às urnas.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
-    "REP",
-    "BUK"
+    "BUK",
+    "REP"
    ],
    "multidao": 0,
    "objetos": [],
    "palavras": 15,
    "cena": "b6",
    "frase": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "loc_cidade"
-  },
-  {
-   "camera": "orbit",
-   "personagens": [
-    "BUK"
-   ],
-   "multidao": 16,
-   "objetos": [],
-   "palavras": 10,
-   "cena": "b7",
-   "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -169,6 +147,24 @@
     "camera": "4 cameras em sequencia",
     "som": "tiros e gritos"
    },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/porch"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -190,30 +186,36 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "REP",
-    "POV"
+    "REP"
    ],
-   "multidao": 0,
+   "multidao": 14,
    "objetos": [
-    "kit/prison"
+    "kit/prison",
+    "kit/volcano"
    ],
    "palavras": 15,
    "cena": "b9",
    "frase": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },
   {
-   "camera": "orbit",
+   "camera": "group",
    "personagens": [
     "BUK"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"
