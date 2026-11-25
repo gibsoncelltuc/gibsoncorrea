@@ -94,7 +94,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
 <!-- /FISICA -->
 
-## Cena b7 - 37.3s a 40.7s - 14 palavras - plano orbit
+## Cena b7 - 37.3s a 40.7s - 14 palavras - plano track
 > "Ele mediu o ângulo da sombra, e contou os passos entre as duas cidades."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -124,7 +124,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b9 - 46.9s a 49.7s - 13 palavras - plano wide
+## Cena b9 - 46.9s a 49.7s - 13 palavras - plano orbit
 > "No fim, uma vara e um poço fizeram o trabalho de um satélite."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |

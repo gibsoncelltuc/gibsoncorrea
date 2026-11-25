@@ -11,9 +11,9 @@ b3 | loc_montanha | wide | 2 | batalha | kit/well, nature/tree_palm | - | -
 b4 | loc_estudio | two | 0 | parados (so fala e pisca) | kit/stick, nature/tree_palm, kit/marco_alexandria | - | -
 b5 | loc_campo | two | 1 | conversar | kit/globe, nature/tree_palm | - | -
 b6 | loc_estudio | two | 0 | batalha | kit/globe, kit/stick, nature/tree_palm | - | -
-b7 | loc_campo | orbit | 1 | encena | kit/stick, kit/marco_alexandria, buildings/apartment, buildings/house_two, nature/lamppost | - | -
+b7 | loc_montanha | track | 2 | encena, andando | kit/stick, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: cochichar | - | paper | -
-b9 | loc_campo | wide | 1 | comemorar | kit/stick, kit/well, kit/marco_alexandria, tools/bucket, kit/starlink_sat | - | -
+b9 | loc_campo | orbit | 7 | comemorar | kit/stick, kit/well, tools/bucket, kit/starlink_sat | - | -
 b10 | loc_campo | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/globe
