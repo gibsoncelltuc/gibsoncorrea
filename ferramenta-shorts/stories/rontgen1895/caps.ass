@@ -66,41 +66,43 @@ Dialogue: 0,0:00:33.32,0:00:33.59,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy11
 Dialogue: 0,0:00:33.61,0:00:34.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dela,
 Dialogue: 0,0:00:34.14,0:00:34.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com a
 Dialogue: 0,0:00:34.38,0:00:34.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}aliança.
-Dialogue: 0,0:00:35.59,0:00:35.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Dizem que
-Dialogue: 0,0:00:35.97,0:00:36.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ela olhou
-Dialogue: 0,0:00:36.48,0:00:37.05,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a chapa,
-Dialogue: 0,0:00:37.07,0:00:37.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e disse:
-Dialogue: 0,0:00:37.77,0:00:38.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}"Eu vi
-Dialogue: 0,0:00:38.09,0:00:38.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a minha
-Dialogue: 0,0:00:38.56,0:00:39.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}morte."
-Dialogue: 0,0:00:39.56,0:00:40.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A notícia
-Dialogue: 0,0:00:40.02,0:00:40.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}correu o
-Dialogue: 0,0:00:40.48,0:00:41.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mundo.
-Dialogue: 0,0:00:41.63,0:00:42.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Jornais,
-Dialogue: 0,0:00:42.46,0:00:42.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}médicos e
-Dialogue: 0,0:00:42.97,0:00:43.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}curiosos queriam
-Dialogue: 0,0:00:43.80,0:00:44.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ver o
-Dialogue: 0,0:00:44.14,0:00:45.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}raio misterioso.
-Dialogue: 0,0:00:45.86,0:00:46.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Como ninguém
-Dialogue: 0,0:00:46.41,0:00:46.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sabia o
-Dialogue: 0,0:00:46.82,0:00:47.42,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que era,
-Dialogue: 0,0:00:47.44,0:00:48.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ele chamou
-Dialogue: 0,0:00:48.28,0:00:48.68,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de raio
-Dialogue: 0,0:00:48.70,0:00:49.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}X.
-Dialogue: 0,0:00:49.10,0:00:49.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}X, de
-Dialogue: 0,0:00:49.35,0:00:50.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}desconhecido.
-Dialogue: 0,0:00:50.81,0:00:51.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em mil
-Dialogue: 0,0:00:51.08,0:00:51.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}novecentos e
-Dialogue: 0,0:00:51.78,0:00:52.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um,
-Dialogue: 0,0:00:52.16,0:00:52.62,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Röntgen ganhou
-Dialogue: 0,0:00:52.64,0:00:53.26,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o primeiro
-Dialogue: 0,0:00:53.28,0:00:53.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Prêmio Nobel
-Dialogue: 0,0:00:53.76,0:00:54.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de Física
-Dialogue: 0,0:00:54.24,0:00:54.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}da história.
-Dialogue: 0,0:00:55.57,0:00:56.02,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E nunca
-Dialogue: 0,0:00:56.04,0:00:56.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quis patentear
-Dialogue: 0,0:00:56.66,0:00:57.70,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a descoberta.
-Dialogue: 0,0:00:58.30,0:00:58.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O raio
-Dialogue: 0,0:00:58.62,0:00:59.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}X era
-Dialogue: 0,0:00:59.09,0:00:59.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de todo
-Dialogue: 0,0:00:59.56,0:01:00.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mundo.
+Dialogue: 0,0:00:35.60,0:00:36.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Conta-se que
+Dialogue: 0,0:00:36.05,0:00:36.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ela olhou
+Dialogue: 0,0:00:36.66,0:00:37.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a chapa
+Dialogue: 0,0:00:37.12,0:00:37.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e disse
+Dialogue: 0,0:00:37.42,0:00:37.85,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que tinha
+Dialogue: 0,0:00:37.87,0:00:38.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}visto a
+Dialogue: 0,0:00:38.33,0:00:38.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}própria morte.
+Dialogue: 0,0:00:39.49,0:00:39.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A notícia
+Dialogue: 0,0:00:39.94,0:00:40.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}correu o
+Dialogue: 0,0:00:40.38,0:00:40.93,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mundo,
+Dialogue: 0,0:00:41.04,0:00:41.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e médicos
+Dialogue: 0,0:00:41.52,0:00:42.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e curiosos
+Dialogue: 0,0:00:42.15,0:00:42.61,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}queriam ver
+Dialogue: 0,0:00:42.63,0:00:42.93,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o raio
+Dialogue: 0,0:00:42.95,0:00:43.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}misterioso.
+Dialogue: 0,0:00:44.45,0:00:44.89,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Sem saber
+Dialogue: 0,0:00:44.91,0:00:45.19,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o que
+Dialogue: 0,0:00:45.21,0:00:45.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}era,
+Dialogue: 0,0:00:45.79,0:00:46.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ele chamou
+Dialogue: 0,0:00:46.49,0:00:46.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de raio
+Dialogue: 0,0:00:46.84,0:00:47.22,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}X:
+Dialogue: 0,0:00:47.24,0:00:47.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}X,
+Dialogue: 0,0:00:47.87,0:00:48.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de desconhecido.
+Dialogue: 0,0:00:49.57,0:00:49.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em mil
+Dialogue: 0,0:00:49.84,0:00:50.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}novecentos e
+Dialogue: 0,0:00:50.52,0:00:50.90,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um,
+Dialogue: 0,0:00:50.92,0:00:51.34,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Röntgen ganhou
+Dialogue: 0,0:00:51.36,0:00:51.94,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o primeiro
+Dialogue: 0,0:00:51.96,0:00:52.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Nobel de
+Dialogue: 0,0:00:52.40,0:00:52.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Física,
+Dialogue: 0,0:00:52.97,0:00:53.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e nunca
+Dialogue: 0,0:00:53.42,0:00:54.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}patenteou a
+Dialogue: 0,0:00:54.02,0:00:54.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}descoberta.
+Dialogue: 0,0:00:55.45,0:00:56.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Agora não
+Dialogue: 0,0:00:56.09,0:00:56.39,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}deixe de
+Dialogue: 0,0:00:56.41,0:00:57.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}comentar:
+Dialogue: 0,0:00:57.19,0:00:57.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}qual deve
+Dialogue: 0,0:00:57.54,0:00:57.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ser o
+Dialogue: 0,0:00:57.89,0:00:58.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tema do
+Dialogue: 0,0:00:58.42,0:00:59.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}próximo vídeo?
