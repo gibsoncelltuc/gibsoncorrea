@@ -1,1 +1,3 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (28 tomadas)
+VISIBILIDADE: 2 FALHA(S)
+FALHA b1: objeto citado "kit/dog_sit" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b3: objeto citado "kit/tanque_ww2" nao aparece na tela (escondido, fora do quadro ou pequeno demais)

@@ -15,7 +15,7 @@ b5 [afirmativa] "Alguém viu algo, e os canhões antiaéreos começaram a atirar
     - olha quem=0 alvo=- na="viu"
     - atira quem=0 alvo=- na="atirar"
 b6 [afirmativa] "Foram mais de mil tiros, e estilhaços caíram na cidade."
-    - grita quem=1 alvo=- na="caíram"
+    - olha quem=0 alvo=céu na="estilhaços"
 b7 [fato] "Acontece que não havia nada lá em cima."
     - mostra quem=- alvo=- na="nada"
 b8 [afirmativa] "Algumas pessoas morreram por acidente e susto."
