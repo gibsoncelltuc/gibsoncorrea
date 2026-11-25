@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 86 palavras (~30 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 10 cenas, 89 palavras (~31 s)
 
 ## Cena b0  (~3.1 s)
-- Narracao: Um bilionário vendeu lança-chamas dizendo que não era lança-chamas.
+- Narracao: Um bilionário vendeu lança-chamas jurando que não era lança-chamas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: vendeu -> stars + som de sino
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: NÃO É LANÇA-CHAMAS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~3.1 s)
-- Narracao: E o motivo do nome é ainda mais esperto.
+## Cena b1  (~2.8 s)
+- Narracao: E o motivo desse nome é bem esperto.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 2018, a Boring Company, de Elon Musk, lançou o aparelho.
+## Cena b2  (~4.1 s)
+- Narracao: Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.4 s)
-- Narracao: Um lança-chamas que jurava não ser lança-chamas.
+## Cena b9  (~3.4 s)
+- Narracao: O nome mentia, e todo mundo sabia. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: -

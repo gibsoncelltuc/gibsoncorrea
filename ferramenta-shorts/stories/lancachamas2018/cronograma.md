@@ -1,21 +1,21 @@
 # CRONOGRAMA - Poder e Fama EP 12 - O Não é um Lança-Chamas
 
-Gerado em 25/11 16:54 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower, marco_hollywood | - | Um bilionário vendeu lança-chamas dizendo que não era lança-chamas.
-b1 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher | - | E o motivo do nome é ainda mais esperto.
-b2 | transicao | loc_cidade | wide | MUS, CMP | 6 | bancada, flamethrower, marco_hollywood, tunel_boring | - | Em 2018, a Boring Company, de Elon Musk, lançou o aparelho.
+b0 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower, marco_hollywood | - | Um bilionário vendeu lança-chamas jurando que não era lança-chamas.
+b1 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher | - | E o motivo desse nome é bem esperto.
+b2 | transicao | loc_cidade | wide | MUS, CMP | 6 | bancada, flamethrower, marco_hollywood, tunel_boring | - | Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.
 b3 | simples | interior loja | two | MUS, CMP | - | bancada, flamethrower | - | O nome era Não é um lança-chamas. Custava quinhentos dólares.
 b4 | chave | loc_deserto | wide | MUS | 18 | bancada, fire, flamethrower, marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele soltava fogo de verdade.
 b5 | simples | interior loja | two | MUS, CMP | - | flamethrower, Crate_Metal | - | O nome servia para driblar a alfândega, que barrava lança-chamas.
 b6 | simples | interior loja | group | CMP, POV | - | extinguisher | - | E vinha com um extintor de incêndio junto.
 b7 | chave | loc_cidade | group | POV, POV | 16 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Vinte mil unidades esgotaram em poucos dias.
 b8 | simples | interior pedra | two | MUS, CMP | - | picket_fence | - | Isso rendeu cerca de dez milhões de dólares.
-b9 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower | - | Um lança-chamas que jurava não ser lança-chamas.
+b9 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower | - | O nome mentia, e todo mundo sabia. Foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

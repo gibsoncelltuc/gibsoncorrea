@@ -1,7 +1,7 @@
 {
  "gancho_tipo": "segredo",
  "texto_gancho": "OVELHA, PATO E GALO",
- "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos, pousou oito minutos depois com todos vivos e abriu caminho para o voo humano.",
+ "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
  "cenas": [
   [
    0,
@@ -24,14 +24,15 @@
   [
    1,
    "prova",
-   "Em 1783, os irmãos Montgolfier faziam papel na França.",
-   "Montgolfier"
+   "Em 1783, os irmãos Montgolfier faziam papel.",
+   "Montgolfier",
+   {}
   ],
   [
    2,
    "prova",
-   "Eles viram que fumaça quente fazia sacos de papel flutuarem.",
-   "flutuarem",
+   "Viram que fumaça quente fazia sacos de papel subirem.",
+   "fumaça",
    {
     "encena_antiga": true
    }
@@ -39,7 +40,7 @@
   [
    3,
    "prova",
-   "Fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "Fizeram um balão gigante de pano e papel.",
    "balão",
    {
     "encena_antiga": true
@@ -48,17 +49,9 @@
   [
    4,
    "escalada",
-   "Mas ninguém sabia se dava para respirar lá em cima.",
-   "respirar"
-  ],
-  [
-   6,
-   "escalada",
-   "Em Versalhes, o rei Luís Dezesseis assistiu no meio da multidão.",
-   "assistiu",
-   {
-    "encena_antiga": true
-   }
+   "Ninguém sabia se dava para respirar lá em cima.",
+   "respirar",
+   {}
   ],
   [
    7,
@@ -82,7 +75,7 @@
   [
    9,
    "pagamento",
-   "Dois meses depois, um balão levou dois homens sobre Paris.",
+   "Dois meses depois, um balão levou dois homens.",
    "levou",
    {
     "encena_antiga": true
@@ -91,8 +84,9 @@
   [
    10,
    "loop",
-   "Tudo graças a três bichos corajosos.",
-   "bichos"
+   "Ninguém quis ser cobaia. E foi assim que...",
+   "Ninguém",
+   {}
   ]
  ]
 }

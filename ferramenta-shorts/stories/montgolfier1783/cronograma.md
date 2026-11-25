@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
-Gerado em 25/11 16:54 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -8,15 +8,14 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 ---|---|---|---|---|---|---|---|---
 b0 | simples | street | two | JOS | - | balloon, marco_versalhes | - | Os primeiros passageiros de um balão não foram pessoas.
 b1 | transicao | loc_campo | wide | JOS | - | balloon, marco_versalhes | - | Foram uma ovelha, um pato e um galo.
-b2 | chave | street | wide | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1783, os irmãos Montgolfier faziam papel na França.
-b3 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Eles viram que fumaça quente fazia sacos de papel flutuarem.
-b4 | explicativa | loc_campo | two | sem personagem | - | balloon, campfire, fire | corpo: kit/balloon (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Fizeram um balão gigante de pano e papel, cheio de ar quente.
-b5 | simples | interior madeira | two | NOB, ETI | - | - | - | Mas ninguém sabia se dava para respirar lá em cima.
-b6 | simples | street | group | REI, RAI | 16 | marco_versalhes | - | Em Versalhes, o rei Luís Dezesseis assistiu no meio da multidão.
-b7 | chave | loc_campo | orbit | POV | - | balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão subiu de verdade, com os bichos dentro.
-b8 | simples | loc_campo | two | ETI | - | balloon | - | Oito minutos depois, pousou, e os bichos estavam vivos.
-b9 | simples | street | group | POV, POV | 10 | balloon_air, marco_versalhes | - | Dois meses depois, um balão levou dois homens sobre Paris.
-b10 | transicao | street | wide | JOS | - | balloon, marco_versalhes | - | Tudo graças a três bichos corajosos.
+b2 | chave | street | wide | POV, POV | 6 | marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1783, os irmãos Montgolfier faziam papel.
+b3 | simples | interior madeira | group | JOS, ETI | - | campfire | - | Viram que fumaça quente fazia sacos de papel subirem.
+b4 | explicativa | loc_campo | two | sem personagem | - | balloon, campfire, fire | corpo: kit/balloon (parado); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | Fizeram um balão gigante de pano e papel.
+b5 | simples | interior madeira | two | NOB, ETI | - | - | - | Ninguém sabia se dava para respirar lá em cima.
+b6 | chave | loc_campo | orbit | POV | - | balloon_air, marco_versalhes | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o balão subiu de verdade, com os bichos dentro.
+b7 | simples | loc_campo | two | ETI | - | balloon | - | Oito minutos depois, pousou, e os bichos estavam vivos.
+b8 | simples | street | group | POV, POV | 10 | balloon_air, marco_versalhes | - | Dois meses depois, um balão levou dois homens.
+b9 | simples | street | wide | JOS | - | balloon, marco_versalhes | - | Ninguém quis ser cobaia. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

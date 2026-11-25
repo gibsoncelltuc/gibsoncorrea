@@ -13,5 +13,5 @@ b7 | group | dia  | interior, placa: LEILÃO, objeto na mao | - | -
 b8 | group | -  | batalha aberta com tiros, tropa, placa: PÂNICO, objeto na mao | - | -
 b9 | two | -  | placa: 1 FLOR = 1 CASA, objeto na mao | - | -
 
-Mistura de planos: close 0% | medio 73% | aberto 22% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 0% | medio 76% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

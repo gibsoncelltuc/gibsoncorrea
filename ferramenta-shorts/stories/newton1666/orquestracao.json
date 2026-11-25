@@ -19,9 +19,9 @@
     "kit/apple",
     "kit/lua_ceu"
    ],
-   "palavras": 13,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo.",
+   "frase": "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -37,9 +37,9 @@
    "objetos": [
     "kit/apple"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b1",
-   "frase": "Ela explicou por que a Lua não cai na nossa cabeça.",
+   "frase": "Ela explicou por que a Lua não cai em cima da gente.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -75,9 +75,9 @@
     "nature/picket_fence",
     "nature/scarecrow"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "Isaac Newton, de 23 anos, voltou para a fazenda da mãe.",
+   "frase": "Isaac Newton, de 23 anos, voltou para a fazenda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -95,9 +95,9 @@
     "kit/apple",
     "nature/tree_oak"
    ],
-   "palavras": 8,
+   "palavras": 6,
    "cena": "b4",
-   "frase": "Passava os dias debaixo de uma macieira, pensando.",
+   "frase": "Ficava debaixo de uma macieira, pensando.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -156,9 +156,9 @@
    "objetos": [
     "kit/lua_ceu"
    ],
-   "palavras": 12,
+   "palavras": 10,
    "cena": "b7",
-   "frase": "Se a força puxa a maçã, será que puxa a Lua também?",
+   "frase": "Se a força puxa a maçã, puxa a Lua também?",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -180,7 +180,7 @@
    "objetos": [],
    "palavras": 8,
    "cena": "b8",
-   "frase": "Virou a lei da gravidade, publicada em 1687.",
+   "frase": "Isso virou a lei da gravidade de Newton.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -203,9 +203,9 @@
     "kit/apple",
     "kit/lua_ceu"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "A maçã ficou famosa. E nem foi comida.",
+   "frase": "E a maçã nem foi comida. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

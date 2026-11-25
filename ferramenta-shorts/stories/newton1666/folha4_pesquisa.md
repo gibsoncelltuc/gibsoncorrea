@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Newton e a Maçã | Newton e a Maçã / Newton Ela Lua Em Cambridge 1666 | Apple Newton MessagePad H1000 NMAH Case.jpg (referencias/newton1666/prints/newton_e_a_ma__020d0e.jpg); Apple Newton MessagePad H1000 in NMAH Case and Acc (referencias/newton1666/prints/newton_e_a_ma__f51dac.jpg); Apple Newton PCB.jpg (referencias/newton1666/prints/newton_e_a_ma__2c3c42.jpg)
+tema | Newton e a Maçã | Newton e a Maçã / Uma Newton Ela Lua Em Cambridge 1666 | Apple Newton MessagePad H1000 NMAH Case.jpg (referencias/newton1666/prints/newton_e_a_ma__020d0e.jpg); Apple Newton MessagePad H1000 in NMAH Case and Acc (referencias/newton1666/prints/newton_e_a_ma__f51dac.jpg); Apple Newton PCB.jpg (referencias/newton1666/prints/newton_e_a_ma__2c3c42.jpg)
 lugar | Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar co | Woolsthorpe Manor Lincolnshire Inglaterra / Woolsthorpe Manor Lincolnshire Inglaterra 1666 | Woolsthorpe Manor - west facade.jpg (referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_dcb4a0.jpg); Woolsthorpe Manor.jpg (referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_f9ef1b.jpg); Woolsthorpe Manor Farmstead, Woolsthorpe-by-Colste (referencias/newton1666/prints/woolsthorpe_manor_lincolnshire_inglaterr_c9aad3.jpg)
 lugar | Inglaterra | Inglaterra 1666 / Inglaterra landscape | Monumento al Gran Incendio de Londres, Londres, In (referencias/newton1666/prints/inglaterra_d57bd4.jpg); Monumento al Gran Incendio de Londres, Londres, In (referencias/newton1666/prints/inglaterra_2e2641.jpg); Monumento al Gran Incendio de Londres, Londres, In (referencias/newton1666/prints/inglaterra_601723.jpg)
 epoca | roupas e ruas de 1666 | 1666 fashion clothing / 17th century clothing painting | Saint Catherine of Alexandria (Naples 17th century (referencias/newton1666/prints/roupas_e_ruas_de_1666_bcf29f.jpg); The future Louis XIV of France as Dauphin in an an (referencias/newton1666/prints/roupas_e_ruas_de_1666_1c1ab5.jpg); French School, 17th Century (series) - Monsieur l' (referencias/newton1666/prints/roupas_e_ruas_de_1666_b0c7f0.jpg)
@@ -27,7 +27,7 @@ objeto | livros e penas de escrever | livros e penas de escrever / livros e pena
 heroi | apple | maca vermelha / Newton e a Maçã | Red Apple.jpg (referencias/newton1666/prints/apple_9868f1.jpg); Tree with red apples in Barkedal 4.jpg (referencias/newton1666/prints/apple_62a5ae.jpg); Aerial view of Apple Park dllu.jpg (referencias/newton1666/prints/apple_9dbd3c.jpg)
 heroi | lua ceu | lua ceu | SEM REFERENCIA
 epoca | fazenda da epoca | farm 1666 / farm | The Farm 1666 Adriaen van de Velde.jpg (referencias/newton1666/prints/fazenda_da_epoca_ba8b05.jpg); Melchior d'Hondecoeter (Utrecht 1636-1695 Amsterda (referencias/newton1666/prints/fazenda_da_epoca_afbbb5.jpg)
-mecanismo | Se a força puxa a maçã, será que puxa a Lua também? | forca tambem / lua ceu diagram | SEM REFERENCIA
+mecanismo | Se a força puxa a maçã, puxa a Lua também? | forca tambem / lua ceu diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Newton voltou a Woolsthorpe durante a peste (1665-66); segundo William Stukeley, a queda de uma maca o fez pensar na gravidade alcancando a Lua; publicou os Principia em 1687 (fonte: Wikipedia Isaac Newton's apple tree)

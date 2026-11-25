@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 14 - A Guerra de 335 Anos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor | 9 cenas, 81 palavras (~28 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor | 9 cenas, 81 palavras (~28 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Uma guerra durou 335 anos e ninguém disparou um tiro.

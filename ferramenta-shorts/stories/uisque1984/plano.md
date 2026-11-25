@@ -10,9 +10,8 @@ b4 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: chega 
 b5 | two | -  | objeto na mao | - | -
 b6 | group | -  | batalha aberta com tiros, tropa, objeto na mao | - | -
 b7 | two | -  | objeto na mao | - | -
-b8 | group | -  | - | encena: x_entrega (reach) @5 (acao + som de efeito) | -
-b9 | two | -  | interior, objeto na mao | encena: x_aperta (point) @3 (acao + som de efeito) | -
-b10 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | - | -
+b8 | two | -  | interior, objeto na mao | encena: x_aperta (point) @3 (acao + som de efeito) | -
+b9 | two | -  | placa: GUERRA DO UÍSQUE, objeto na mao | - | -
 
-Mistura de planos: close 1% | medio 76% | aberto 17% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 1% | medio 74% | aberto 20% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 89 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 86 palavras (~30 s)
 
-## Cena b0  (~3.8 s)
-- Narracao: Um presidente teve quase 85% dos votos. E muita gente criticou.
+## Cena b0  (~4.1 s)
+- Narracao: Um presidente teve quase 85% dos votos, e o mundo se dividiu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: 84,6%
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.8 s)
-- Narracao: E o motivo dessa votação divide o mundo.
+## Cena b1  (~2.4 s)
+- Narracao: E o motivo dessa votação é polêmico.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.4 s)
-- Narracao: Em 2024, em El Salvador, Nayib Bukele tentou a reeleição.
+## Cena b2  (~3.1 s)
+- Narracao: Em 2024, Bukele tentou a reeleição em El Salvador.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
@@ -56,8 +56,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
-## Cena b6  (~3.8 s)
-- Narracao: A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal.
+## Cena b6  (~2.8 s)
+- Narracao: Uma corte liberou, e críticos chamaram de ilegal.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
 - Efeito + som nas palavras-chave: ilegal -> ring + som de alerta
@@ -75,7 +75,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: desenvolvimento
 
 ## Cena b8  (~2.4 s)
-- Narracao: Mesmo assim, Bukele teve 84,6% dos votos.
+- Narracao: Mesmo assim, ele levou 84,6% dos votos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20, ding@50
 - Efeito + som nas palavras-chave: -
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: 84,6%
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Amado por muitos, criticado por outros. Você decide.
+## Cena b9  (~3.1 s)
+- Narracao: Amado por uns, criticado por outros. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: -

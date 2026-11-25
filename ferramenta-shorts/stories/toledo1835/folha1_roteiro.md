@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 100 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 96 palavras (~33 s)
 
 ## Cena b0  (~4.1 s)
-- Narracao: Dois estados americanos foram à guerra. O único ferido levou uma canivetada.
+- Narracao: Dois estados foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@106
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: MAPA ERRADO | mapa: TOLEDO
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo.
+## Cena b3  (~3.1 s)
+- Narracao: O governador de Michigan, de 23 anos, ocupou Toledo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -56,11 +56,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: PARA O ALTO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b6  (~3.4 s)
-- Narracao: A única baixa: um xerife esfaqueado com canivete numa taverna.
+## Cena b6  (~2.8 s)
+- Narracao: O único ferido: um xerife, esfaqueado numa taverna.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60, thump@55
-- Efeito + som nas palavras-chave: encena: espeta (punch) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: stars@60, burst@55
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,17 +74,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.8 s)
-- Narracao: Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna.
+## Cena b8  (~3.1 s)
+- Narracao: Acontece que debaixo da floresta havia cobre e ferro.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: fortuna -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: COBRE E FERRO
 - Funcao na historia: VIRADA
 
-## Cena b9  (~2.4 s)
-- Narracao: Michigan perdeu a guerra e ficou rico.
+## Cena b9  (~3.1 s)
+- Narracao: Michigan perdeu e ficou rico. E foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@106
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @1 -> acao + som de efeito

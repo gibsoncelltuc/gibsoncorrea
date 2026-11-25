@@ -1,0 +1,166 @@
+{
+ "toledo1835": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, levou a floresta gelada e debaixo dela havia cobre e ferro.",
+  "says": [
+   "Dois estados foram à guerra, e o único ferido levou uma canivetada.",
+   "E quem perdeu a guerra acabou ficando rico.",
+   "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "O governador de Michigan, de 23 anos, ocupou Toledo.",
+   "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
+   "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
+   "O único ferido: um xerife, esfaqueado numa taverna.",
+   "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "Acontece que debaixo da floresta havia cobre e ferro.",
+   "Michigan perdeu e ficou rico. E foi assim que..."
+  ]
+ },
+ "tulipas1637": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo em dias. Pagamento: bulbos de mil e duas mil moedas, casas trocadas por bulbos; no leilao de fevereiro ninguem comprou e os precos desabaram.",
+  "says": [
+   "Uma única flor já custou o preço de uma casa.",
+   "E quem pagou isso perdeu tudo em poucos dias.",
+   "Em 1637, na Holanda, a tulipa virou moda.",
+   "Num leilão, um bulbo saiu por duas mil moedas.",
+   "Logo, padeiros e sapateiros também queriam bulbos.",
+   "Contam que teve gente trocando casas por um único bulbo.",
+   "Um marinheiro comeu um bulbo achando que era cebola.",
+   "Acontece que, num leilão de fevereiro, ninguém levantou a mão.",
+   "Os preços desabaram. Quem trocou a casa ficou só com flores.",
+   "Uma loucura que se repete. Foi assim que..."
+  ]
+ },
+ "melancia1856": {
+  "cumprido": "Gancho: uma fatia de melancia de centavos quase virou guerra entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
+  "says": [
+   "Uma fatia de melancia quase virou guerra entre dois países.",
+   "E a fatia custava só uns centavos.",
+   "Em 1856, viajantes cruzavam o Panamá atrás de ouro.",
+   "Um americano comeu uma fatia de melancia e não quis pagar.",
+   "O vendedor cobrou. O viajante riu e sacou uma arma.",
+   "Em minutos, virou briga de moradores contra viajantes.",
+   "Os viajantes se trancaram na estação de trem.",
+   "Acontece que mais de quinze pessoas morreram naquele dia.",
+   "A Colômbia teve que pagar uma indenização aos americanos.",
+   "Tudo por centavos que ninguém pagou. E foi assim que..."
+  ]
+ },
+ "uisque1984": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando uisque, e acabou educadamente. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
+  "says": [
+   "Dois países brigaram quase quarenta anos por uma rocha, usando uísque.",
+   "E essa guerra acabou do jeito mais educado possível.",
+   "A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.",
+   "Canadá e Dinamarca diziam que a ilha era deles.",
+   "Em 1984, soldados canadenses desembarcaram lá.",
+   "Fincaram a bandeira e deixaram uma garrafa de uísque.",
+   "Acontece que os dinamarqueses voltaram e puseram a bandeira deles.",
+   "E deixaram aguardente com um bilhete de boas-vindas.",
+   null,
+   "Em 2022, enfim, dividiram a ilha ao meio.",
+   "Nenhum tiro, só garrafas trocadas. E foi assim que..."
+  ]
+ },
+ "banquinho1900": {
+  "cumprido": "Gancho: um banquinho dourado comecou uma guerra e quem pediu para sentar nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
+  "says": [
+   "Um banquinho dourado começou uma guerra na África.",
+   "E quem pediu para sentar nele nunca conseguiu.",
+   "Em 1900, os ingleses mandavam na atual Gana.",
+   "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
+   "O governador inglês exigiu sentar nele.",
+   "Era como sentar na alma do povo ashanti.",
+   "Eles se revoltaram e cercaram o forte do governador.",
+   "Soldados ingleses vieram, e a guerra durou meses.",
+   "Os ingleses venceram. Acontece que o banquinho tinha sumido.",
+   "Os ashanti esconderam o banquinho na mata.",
+   "O governador ganhou, mas nunca teve o banquinho. Foi assim que..."
+  ]
+ },
+ "mendel1856": {
+  "cumprido": "Gancho: um monge contando ervilhas descobriu como herdamos o que somos e ninguem acreditou nele em vida. Pagamento: a conta 3 para 1 mostrou que herdamos uma instrucao do pai e outra da mae; so depois da morte deram razao.",
+  "says": [
+   "Um monge contando ervilhas descobriu como herdamos o que somos.",
+   "E ninguém acreditou nele enquanto estava vivo.",
+   "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "Cruzou ervilhas amarelas com ervilhas verdes.",
+   "Todas saíram amarelas, como se o verde tivesse sumido.",
+   "Ele plantou de novo e contou ervilha por ervilha, por anos.",
+   "Acontece que o verde voltou: três amarelas para uma verde.",
+   "Cada filho herda uma instrução do pai e outra da mãe.",
+   "Só depois da morte dele, viram que estava certo.",
+   "Ele morreu sem saber. E foi assim que..."
+  ],
+  "mod": {
+   "0": {
+    "detalhe": true
+   }
+  }
+ },
+ "lancachamas2018": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um bilionario vendeu lanca-chamas jurando que nao era, e o motivo do nome e' esperto. Pagamento: o nome driblava a alfandega, vinha com extintor, 20 mil esgotaram e renderam 10 milhoes.",
+  "says": [
+   "Um bilionário vendeu lança-chamas jurando que não era lança-chamas.",
+   "E o motivo desse nome é bem esperto.",
+   "Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.",
+   "O nome era Não é um lança-chamas. Custava quinhentos dólares.",
+   "Acontece que ele soltava fogo de verdade.",
+   "O nome servia para driblar a alfândega, que barrava lança-chamas.",
+   "E vinha com um extintor de incêndio junto.",
+   "Vinte mil unidades esgotaram em poucos dias.",
+   "Isso rendeu cerca de dez milhões de dólares.",
+   "O nome mentia, e todo mundo sabia. Foi assim que..."
+  ]
+ },
+ "bukele2024": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: um presidente teve quase 85% dos votos e o motivo divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
+  "says": [
+   "Um presidente teve quase 85% dos votos, e o mundo se dividiu.",
+   "E o motivo dessa votação é polêmico.",
+   "Em 2024, Bukele tentou a reeleição em El Salvador.",
+   "Ele prometeu acabar com a violência das gangues.",
+   "Os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "Acontece que a Constituição proibia reeleição seguida.",
+   "Uma corte liberou, e críticos chamaram de ilegal.",
+   "Grupos de direitos humanos criticaram as prisões em massa.",
+   "Mesmo assim, ele levou 84,6% dos votos.",
+   "Amado por uns, criticado por outros. Foi assim que..."
+  ]
+ },
+ "montgolfier1783": {
+  "cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
+  "says": [
+   "Os primeiros passageiros de um balão não foram pessoas.",
+   "Foram uma ovelha, um pato e um galo.",
+   "Em 1783, os irmãos Montgolfier faziam papel.",
+   "Viram que fumaça quente fazia sacos de papel subirem.",
+   "Fizeram um balão gigante de pano e papel.",
+   "Ninguém sabia se dava para respirar lá em cima.",
+   null,
+   "Acontece que o balão subiu de verdade, com os bichos dentro.",
+   "Oito minutos depois, pousou, e os bichos estavam vivos.",
+   "Dois meses depois, um balão levou dois homens.",
+   "Ninguém quis ser cobaia. E foi assim que..."
+  ]
+ },
+ "newton1666": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: uma maca que nao caiu na cabeca de Newton explicou por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade.",
+  "says": [
+   "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
+   "Ela explicou por que a Lua não cai em cima da gente.",
+   "Em 1666, a peste fechou a universidade de Cambridge.",
+   "Isaac Newton, de 23 anos, voltou para a fazenda.",
+   "Ficava debaixo de uma macieira, pensando.",
+   "Acontece que uma maçã caiu bem na frente dele.",
+   "Ele se perguntou: por que ela cai sempre para baixo?",
+   "Se a força puxa a maçã, puxa a Lua também?",
+   "Isso virou a lei da gravidade de Newton.",
+   "E a maçã nem foi comida. Foi assim que..."
+  ]
+ }
+}

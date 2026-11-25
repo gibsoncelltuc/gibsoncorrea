@@ -4,7 +4,7 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | placa: BANQUINHO = GUERRA | - | -
 b1 | wide | -  | tropa | (rosto) pleading (expr + som de efeito) | -
-b2 | reveal | -  | tropa, mapa | Ouro (stars + som de sino) | -
+b2 | reveal | -  | tropa, mapa | - | -
 b3 | two | -  | tropa | - | -
 b4 | two | -  | interior, objeto na mao | - | -
 b5 | two | -  | - | - | -
@@ -14,5 +14,5 @@ b8 | two | -  | interior, objeto na mao | (rosto) laugh (expr + som de efeito); 
 b9 | two | -  | - | - | -
 b10 | two | -  | placa: BANQUINHO = GUERRA | ganhou (stars + som de sino) | -
 
-Mistura de planos: close 3% | medio 72% | aberto 19% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 71% | aberto 20% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

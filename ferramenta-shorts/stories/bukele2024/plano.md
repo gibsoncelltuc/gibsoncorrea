@@ -13,5 +13,5 @@ b7 | wide | -  | tropa, placa: PRISÕES EM MASSA, objeto na mao | - | -
 b8 | two | -  | placa: 84,6%, objeto na mao | - | -
 b9 | two | -  | placa: 84,6% | - | -
 
-Mistura de planos: close 5% | medio 63% | aberto 29% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 4% | medio 64% | aberto 29% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

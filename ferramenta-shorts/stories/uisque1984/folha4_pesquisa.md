@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra do Uísque | A Guerra do Uísque / Guerra Dois Hans Canadá Groenlândia 1984 | Women's whisky war in Ohio - sketched by John R. C (referencias/uisque1984/prints/a_guerra_do_u_sque_28733f.jpg)
+tema | A Guerra do Uísque | A Guerra do Uísque / Dois Hans Canadá Groenlândia 1984 | Women's whisky war in Ohio - sketched by John R. C (referencias/uisque1984/prints/a_guerra_do_u_sque_28733f.jpg)
 lugar | Ilha Hans, rochedo de 1,3 km2 sem moradores no estreito de Nares, entre a ilha c | Ilha Hans rochedo de 1 3 km2 sem moradores no estreito de Nares entre a ilha canadense de  | Wfm hans island landsat.jpg (referencias/uisque1984/prints/ilha_hans_rochedo_de_1_3_km2_sem_morador_c8ffa6.jpg); Nares strait border (Kennedy channel).png (referencias/uisque1984/prints/ilha_hans_rochedo_de_1_3_km2_sem_morador_b16c79.jpg); Wfm hans island-circled landsat.jpg (referencias/uisque1984/prints/ilha_hans_rochedo_de_1_3_km2_sem_morador_5e008d.jpg)
 lugar | Groenlândia | Groenlândia 1984 / Groenlândia landscape | SEM REFERENCIA
 epoca | roupas e ruas de 1984 | 1984 fashion clothing / 1984 street photograph | High Street, Edinburgh, 1984 - geograph.org.uk - 1 (referencias/uisque1984/prints/roupas_e_ruas_de_1984_d5bb86.jpg); New Orleans Canal Street 700 Block Uptown Side 192 (referencias/uisque1984/prints/roupas_e_ruas_de_1984_563fac.jpg)

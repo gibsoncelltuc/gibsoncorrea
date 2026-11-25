@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 16,
  "title": "A Guerra da Melancia",
@@ -75,7 +75,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: uma fatia de melancia quase virou guerra.",
+   "say": "Uma fatia de melancia quase virou guerra entre dois países.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -152,7 +152,7 @@
    "d0": 21.0,
    "d1": 20.0,
    "bloco": "prova",
-   "say": "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.",
+   "say": "Em 1856, viajantes cruzavam o Panamá atrás de ouro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -269,7 +269,7 @@
    "d0": 18.0,
    "d1": 17.0,
    "bloco": "escalada",
-   "say": "Em minutos, a rua virou uma briga de moradores contra viajantes.",
+   "say": "Em minutos, virou briga de moradores contra viajantes.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -371,7 +371,7 @@
    "interacao": "entregar",
    "tiros": false,
    "bloco": "pagamento",
-   "say": "No fim, a Colômbia pagou uma indenização aos americanos.",
+   "say": "A Colômbia teve que pagar uma indenização aos americanos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -407,13 +407,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Tudo por uma fatia que ninguém quis pagar.",
+   "say": "Tudo por centavos que ninguém pagou. E foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "fatia"
+      "na": "foi"
      }
     ]
    }
@@ -452,6 +452,6 @@
   ]
  },
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: uma fatia de melancia sem pagar comecou uma briga entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
+ "gancho_cumprido": "Gancho: uma fatia de melancia de centavos quase virou guerra entre paises. Pagamento: a briga virou motim com mais de quinze mortos e a Colombia pagou indenizacao aos americanos.",
  "loop_frase_ok": true
 }

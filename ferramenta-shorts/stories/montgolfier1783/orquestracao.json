@@ -8,12 +8,12 @@
    "loc_campo"
   ],
   [
-   "cena 8",
+   "cena 7",
    "medieval",
    "loc_campo"
   ],
   [
-   "cena 9",
+   "cena 8",
    "jungle",
    "loc_campo"
   ]
@@ -73,9 +73,9 @@
    "objetos": [
     "kit/marco_versalhes"
    ],
-   "palavras": 9,
+   "palavras": 7,
    "cena": "b2",
-   "frase": "Em 1783, os irmãos Montgolfier faziam papel na França.",
+   "frase": "Em 1783, os irmãos Montgolfier faziam papel.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -98,9 +98,9 @@
    "objetos": [
     "kit/campfire"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "Eles viram que fumaça quente fazia sacos de papel flutuarem.",
+   "frase": "Viram que fumaça quente fazia sacos de papel subirem.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -116,9 +116,9 @@
     "kit/campfire",
     "kit/fire"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b4",
-   "frase": "Fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "frase": "Fizeram um balão gigante de pano e papel.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -139,33 +139,14 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Mas ninguém sabia se dava para respirar lá em cima.",
+   "frase": "Ninguém sabia se dava para respirar lá em cima.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "interior madeira"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "REI",
-    "RAI"
-   ],
-   "multidao": 16,
-   "objetos": [
-    "kit/marco_versalhes"
-   ],
-   "palavras": 11,
-   "cena": "b6",
-   "frase": "Em Versalhes, o rei Luís Dezesseis assistiu no meio da multidão.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "street"
   },
   {
    "camera": "orbit",
@@ -178,7 +159,7 @@
     "kit/marco_versalhes"
    ],
    "palavras": 11,
-   "cena": "b7",
+   "cena": "b6",
    "frase": "Acontece que o balão subiu de verdade, com os bichos dentro.",
    "classe": "chave",
    "sujeito": "personagem",
@@ -202,7 +183,7 @@
     "kit/balloon"
    ],
    "palavras": 9,
-   "cena": "b8",
+   "cena": "b7",
    "frase": "Oito minutos depois, pousou, e os bichos estavam vivos.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -221,9 +202,9 @@
     "kit/balloon_air",
     "kit/marco_versalhes"
    ],
-   "palavras": 10,
-   "cena": "b9",
-   "frase": "Dois meses depois, um balão levou dois homens sobre Paris.",
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Dois meses depois, um balão levou dois homens.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -240,10 +221,10 @@
     "kit/balloon",
     "kit/marco_versalhes"
    ],
-   "palavras": 6,
-   "cena": "b10",
-   "frase": "Tudo graças a três bichos corajosos.",
-   "classe": "transicao",
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Ninguém quis ser cobaia. E foi assim que...",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],

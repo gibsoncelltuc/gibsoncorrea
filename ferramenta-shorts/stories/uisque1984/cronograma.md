@@ -1,22 +1,21 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 25/11 16:52 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 17:22 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | arctic | two | CAN, DIN | - | whisky | - | Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.
+b0 | simples | arctic | two | CAN, DIN | - | whisky | - | Dois países brigaram quase quarenta anos por uma rocha, usando uísque.
 b1 | transicao | arctic | wide | CAN, DIN | - | - | - | E essa guerra acabou do jeito mais educado possível.
 b2 | transicao | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.
 b3 | simples | interior madeira | two | CAN, DIN | - | - | - | Canadá e Dinamarca diziam que a ilha era deles.
 b4 | chave | arctic | wide | CAN | 12 | helicopter | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1984, soldados canadenses desembarcaram lá.
-b5 | simples | arctic | two | CAN, CAN | - | bandeira_canada, tequila_bolt, whisky | - | Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.
+b5 | simples | arctic | two | CAN, CAN | - | bandeira_canada, tequila_bolt, whisky | - | Fincaram a bandeira e deixaram uma garrafa de uísque.
 b6 | chave | arctic | group | DIN | - | bandeira_dinamarca | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os dinamarqueses voltaram e puseram a bandeira deles.
-b7 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.
-b8 | simples | arctic | group | CAN, DIN | - | bandeira_dinamarca, tequila_bolt, whisky | - | Por décadas, os dois lados trocaram bandeira e garrafa.
-b9 | simples | interior pedra | two | PRE, MIN | - | - | - | Em 2022, enfim, dividiram a ilha ao meio.
-b10 | simples | arctic | two | CAN, DIN | - | whisky, flagpole | - | Zero tiros. Só bandeiras e muito uísque.
+b7 | simples | arctic | two | DIN, CAN | - | barrel, whisky | - | E deixaram aguardente com um bilhete de boas-vindas.
+b8 | simples | interior pedra | two | PRE, MIN | - | - | - | Em 2022, enfim, dividiram a ilha ao meio.
+b9 | simples | arctic | two | CAN, DIN | - | tequila_bolt, whisky | - | Nenhum tiro, só garrafas trocadas. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

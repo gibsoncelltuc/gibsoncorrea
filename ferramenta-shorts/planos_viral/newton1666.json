@@ -1,19 +1,21 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "LENDA?",
- "gancho_cumprido": "Gancho: a maca nao caiu na cabeca de Newton e mesmo assim mudou tudo, explicando por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade em 1687.",
+ "gancho_cumprido": "Gancho: uma maca que nao caiu na cabeca de Newton explicou por que a Lua nao cai. Pagamento: a mesma forca que puxa a maca puxa a Lua; virou a lei da gravidade.",
  "cenas": [
   [
    0,
    "gancho",
-   "A maçã não caiu na cabeça de Newton. E mesmo assim mudou tudo.",
-   "maçã"
+   "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
+   "maçã",
+   {}
   ],
   [
    9,
    "promessa",
-   "Ela explicou por que a Lua não cai na nossa cabeça.",
-   "Lua"
+   "Ela explicou por que a Lua não cai em cima da gente.",
+   "Lua",
+   {}
   ],
   [
    1,
@@ -27,7 +29,7 @@
   [
    2,
    "prova",
-   "Isaac Newton, de 23 anos, voltou para a fazenda da mãe.",
+   "Isaac Newton, de 23 anos, voltou para a fazenda.",
    "voltou",
    {
     "encena_antiga": true
@@ -36,7 +38,7 @@
   [
    3,
    "prova",
-   "Passava os dias debaixo de uma macieira, pensando.",
+   "Ficava debaixo de uma macieira, pensando.",
    "pensando",
    {
     "encena_antiga": true
@@ -63,7 +65,7 @@
   [
    6,
    "escalada",
-   "Se a força puxa a maçã, será que puxa a Lua também?",
+   "Se a força puxa a maçã, puxa a Lua também?",
    "puxa",
    {
     "encena_antiga": true
@@ -72,7 +74,7 @@
   [
    7,
    "pagamento",
-   "Virou a lei da gravidade, publicada em 1687.",
+   "Isso virou a lei da gravidade de Newton.",
    "gravidade",
    {
     "interior": "madeira",
@@ -82,8 +84,9 @@
   [
    0,
    "loop",
-   "A maçã ficou famosa. E nem foi comida.",
-   "maçã"
+   "E a maçã nem foi comida. Foi assim que...",
+   "maçã",
+   {}
   ]
  ]
 }

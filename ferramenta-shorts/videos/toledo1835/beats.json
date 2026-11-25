@@ -1,7 +1,7 @@
 {
  "title": "A Guerra de Toledo",
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "set": "countryside",
  "light": "day",
  "mood": "playful",
@@ -105,7 +105,7 @@
    },
    "quadro_manual": true,
    "bloco": "gancho",
-   "say": "Dois estados americanos foram à guerra. O único ferido levou uma canivetada.",
+   "say": "Dois estados foram à guerra, e o único ferido levou uma canivetada.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -181,7 +181,7 @@
    "interior": "madeira",
    "text": "23 ANOS",
    "bloco": "prova",
-   "say": "Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo.",
+   "say": "O governador de Michigan, de 23 anos, ocupou Toledo.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -296,7 +296,7 @@
    "d1": 8.5,
    "quadro_manual": true,
    "bloco": "escalada",
-   "say": "A única baixa: um xerife esfaqueado com canivete numa taverna.",
+   "say": "O único ferido: um xerife, esfaqueado numa taverna.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -391,7 +391,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "pagamento",
-   "say": "Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna.",
+   "say": "Acontece que debaixo da floresta havia cobre e ferro.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -457,7 +457,7 @@
     ]
    },
    "bloco": "loop",
-   "say": "Michigan perdeu a guerra e ficou rico."
+   "say": "Michigan perdeu e ficou rico. E foi assim que..."
   }
  ],
  "heroi": "kit/canivete_aberto",
@@ -498,7 +498,7 @@
   "https://en.wikipedia.org/wiki/Toledo_War",
   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
  ],
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, ganhou a floresta gelada e debaixo dela havia cobre e ferro.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, levou a floresta gelada e debaixo dela havia cobre e ferro.",
  "loop_frase_ok": true
 }

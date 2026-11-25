@@ -20,9 +20,9 @@
     "kit/ballot_box",
     "kit/volcano"
    ],
-   "palavras": 11,
+   "palavras": 12,
    "cena": "b0",
-   "frase": "Um presidente teve quase 85% dos votos. E muita gente criticou.",
+   "frase": "Um presidente teve quase 85% dos votos, e o mundo se dividiu.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -38,9 +38,9 @@
    "objetos": [
     "kit/ballot_box"
    ],
-   "palavras": 8,
+   "palavras": 7,
    "cena": "b1",
-   "frase": "E o motivo dessa votação divide o mundo.",
+   "frase": "E o motivo dessa votação é polêmico.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,9 +57,9 @@
    "objetos": [
     "kit/volcano"
    ],
-   "palavras": 10,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em 2024, em El Salvador, Nayib Bukele tentou a reeleição.",
+   "frase": "Em 2024, Bukele tentou a reeleição em El Salvador.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -133,9 +133,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b6",
-   "frase": "A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal.",
+   "frase": "Uma corte liberou, e críticos chamaram de ilegal.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -177,7 +177,7 @@
    "objetos": [],
    "palavras": 7,
    "cena": "b8",
-   "frase": "Mesmo assim, Bukele teve 84,6% dos votos.",
+   "frase": "Mesmo assim, ele levou 84,6% dos votos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -194,9 +194,9 @@
    "objetos": [
     "kit/ballot_box"
    ],
-   "palavras": 8,
+   "palavras": 9,
    "cena": "b9",
-   "frase": "Amado por muitos, criticado por outros. Você decide.",
+   "frase": "Amado por uns, criticado por outros. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

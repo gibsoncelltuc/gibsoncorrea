@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Guerras Inusitadas",
  "ep": 13,
  "title": "A Guerra do Banquinho Dourado",
@@ -73,7 +73,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Ninguém te conta: sentar num banquinho começou uma guerra.",
+   "say": "Um banquinho dourado começou uma guerra na África.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -109,7 +109,7 @@
    "d0": 8.4,
    "d1": 8.0,
    "bloco": "promessa",
-   "say": "E quem pediu para sentar nunca conseguiu.",
+   "say": "E quem pediu para sentar nele nunca conseguiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -143,7 +143,7 @@
     "thump@70"
    ],
    "bloco": "prova",
-   "say": "Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana.",
+   "say": "Em 1900, os ingleses mandavam na atual Gana.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -187,7 +187,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava.",
+   "say": "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -221,7 +221,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "prova",
-   "say": "O governador inglês exigiu sentar no banquinho.",
+   "say": "O governador inglês exigiu sentar nele.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -242,7 +242,7 @@
    ],
    "interacao": "susto",
    "bloco": "escalada",
-   "say": "Para os ashanti, era como sentar na alma do povo.",
+   "say": "Era como sentar na alma do povo ashanti.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -417,7 +417,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "O governador ganhou a guerra, mas o banquinho nunca foi dele.",
+   "say": "O governador ganhou, mas nunca teve o banquinho. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -470,6 +470,6 @@
  },
  "variar_cenario": false,
  "gancho_tipo": "segredo",
- "gancho_cumprido": "Gancho: um governador pediu para sentar num banquinho e comecou uma guerra; ele nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
+ "gancho_cumprido": "Gancho: um banquinho dourado comecou uma guerra e quem pediu para sentar nunca conseguiu. Pagamento: os ashanti cercaram o forte, os ingleses venceram, mas o banquinho foi escondido e nunca foi dele.",
  "loop_frase_ok": true
 }

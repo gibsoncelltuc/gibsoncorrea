@@ -1,31 +1,35 @@
 {
- "gancho_tipo": "crenca",
+ "gancho_tipo": "segredo",
  "texto_gancho": "GUERRA DO UÍSQUE",
- "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando so bebida. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
+ "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando uisque, e acabou educadamente. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
  "cenas": [
   [
    0,
    "gancho",
-   "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.",
-   "uísque"
+   "Dois países brigaram quase quarenta anos por uma rocha, usando uísque.",
+   "uísque",
+   {}
   ],
   [
    8,
    "promessa",
    "E essa guerra acabou do jeito mais educado possível.",
-   "educado"
+   "educado",
+   {}
   ],
   [
    1,
    "prova",
    "A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.",
-   "Hans"
+   "Hans",
+   {}
   ],
   [
    2,
    "prova",
    "Canadá e Dinamarca diziam que a ilha era deles.",
-   "diziam"
+   "diziam",
+   {}
   ],
   [
    3,
@@ -39,7 +43,7 @@
   [
    4,
    "escalada",
-   "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.",
+   "Fincaram a bandeira e deixaram uma garrafa de uísque.",
    "fincaram",
    {
     "encena_antiga": true
@@ -57,17 +61,8 @@
   [
    6,
    "escalada",
-   "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.",
+   "E deixaram aguardente com um bilhete de boas-vindas.",
    "deixaram",
-   {
-    "encena_antiga": true
-   }
-  ],
-  [
-   7,
-   "escalada",
-   "Por décadas, os dois lados trocaram bandeira e garrafa.",
-   "trocaram",
    {
     "encena_antiga": true
    }
@@ -84,8 +79,9 @@
   [
    0,
    "loop",
-   "Zero tiros. Só bandeiras e muito uísque.",
-   "uísque"
+   "Nenhum tiro, só garrafas trocadas. E foi assim que...",
+   "garrafas",
+   {}
   ]
  ]
 }

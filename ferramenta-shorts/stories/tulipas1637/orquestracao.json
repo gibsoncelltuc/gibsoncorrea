@@ -62,9 +62,9 @@
     "kit/marco_amsterdam",
     "kit/tulip_bed"
    ],
-   "palavras": 12,
+   "palavras": 8,
    "cena": "b2",
-   "frase": "Em 1637, na Holanda, a tulipa era rara e estava na moda.",
+   "frase": "Em 1637, na Holanda, a tulipa virou moda.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -82,9 +82,9 @@
     "kit/coin",
     "kit/tulip_striped"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b3",
-   "frase": "Num leilão, um bulbo saía por mil moedas. Depois, duas mil.",
+   "frase": "Num leilão, um bulbo saiu por duas mil moedas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -216,9 +216,9 @@
    "objetos": [
     "kit/tulip_striped"
    ],
-   "palavras": 6,
+   "palavras": 8,
    "cena": "b9",
-   "frase": "O marinheiro, pelo menos, almoçou bem.",
+   "frase": "Uma loucura que se repete. Foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 11 cenas, 103 palavras (~36 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 10 cenas, 90 palavras (~31 s)
 
-## Cena b0  (~4.1 s)
-- Narracao: Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.
+## Cena b0  (~3.8 s)
+- Narracao: Dois países brigaram quase quarenta anos por uma rocha, usando uísque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: brigaram -> puff + som de baque
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~3.8 s)
-- Narracao: Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.
+## Cena b5  (~3.1 s)
+- Narracao: Fincaram a bandeira e deixaram uma garrafa de uísque.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.8 s)
-- Narracao: E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.
+## Cena b7  (~2.8 s)
+- Narracao: E deixaram aguardente com um bilhete de boas-vindas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -74,16 +74,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.1 s)
-- Narracao: Por décadas, os dois lados trocaram bandeira e garrafa.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_entrega (reach) @5 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
-
-## Cena b9  (~2.8 s)
+## Cena b8  (~2.8 s)
 - Narracao: Em 2022, enfim, dividiram a ilha ao meio.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
@@ -92,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.4 s)
-- Narracao: Zero tiros. Só bandeiras e muito uísque.
+## Cena b9  (~3.1 s)
+- Narracao: Nenhum tiro, só garrafas trocadas. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

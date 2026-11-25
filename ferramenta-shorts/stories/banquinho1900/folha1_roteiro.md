@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 13 - A Guerra do Banquinho Dourado
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 100 palavras (~34 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 93 palavras (~32 s)
 
-## Cena b0  (~3.1 s)
-- Narracao: Ninguém te conta: sentar num banquinho começou uma guerra.
+## Cena b0  (~2.8 s)
+- Narracao: Um banquinho dourado começou uma guerra na África.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: BANQUINHO = GUERRA
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.4 s)
-- Narracao: E quem pediu para sentar nunca conseguiu.
+## Cena b1  (~2.8 s)
+- Narracao: E quem pediu para sentar nele nunca conseguiu.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
@@ -20,17 +20,17 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 1900, os ingleses mandavam na Costa do Ouro, hoje Gana.
+## Cena b2  (~2.8 s)
+- Narracao: Em 1900, os ingleses mandavam na atual Gana.
 - Som ambiente: birds
 - Efeitos sonoros marcados: thump@70
-- Efeito + som nas palavras-chave: Ouro -> stars + som de sino
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: puff@70
 - Texto na tela: - | mapa: GANA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~4.1 s)
-- Narracao: O povo ashanti tinha um banquinho dourado sagrado. Nem o rei sentava.
+## Cena b3  (~3.8 s)
+- Narracao: O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~2.4 s)
-- Narracao: O governador inglês exigiu sentar no banquinho.
+## Cena b4  (~2.1 s)
+- Narracao: O governador inglês exigiu sentar nele.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -47,8 +47,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.4 s)
-- Narracao: Para os ashanti, era como sentar na alma do povo.
+## Cena b5  (~2.8 s)
+- Narracao: Era como sentar na alma do povo ashanti.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -93,7 +93,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Funcao na historia: desenvolvimento
 
 ## Cena b10  (~3.8 s)
-- Narracao: O governador ganhou a guerra, mas o banquinho nunca foi dele.
+- Narracao: O governador ganhou, mas nunca teve o banquinho. Foi assim que...
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ganhou -> stars + som de sino

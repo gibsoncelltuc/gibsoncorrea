@@ -19,9 +19,9 @@
    "objetos": [
     "kit/whisky"
    ],
-   "palavras": 12,
+   "palavras": 11,
    "cena": "b0",
-   "frase": "Guerra precisa de tiro? Dois países brigaram quase 40 anos com uísque.",
+   "frase": "Dois países brigaram quase quarenta anos por uma rocha, usando uísque.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -115,9 +115,9 @@
     "kit/tequila_bolt",
     "kit/whisky"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b5",
-   "frase": "Fincaram a bandeira do Canadá e deixaram uma garrafa de uísque.",
+   "frase": "Fincaram a bandeira e deixaram uma garrafa de uísque.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -157,33 +157,11 @@
    "multidao": 0,
    "objetos": [
     "barrel",
-    "kit/tequila_bolt",
     "kit/whisky"
    ],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b7",
-   "frase": "E deixaram uma garrafa de aguardente com um bilhete de boas-vindas.",
-   "classe": "simples",
-   "sujeito": "personagem",
-   "briefing": {},
-   "acoes_faltando": [],
-   "cenario": "arctic"
-  },
-  {
-   "camera": "group",
-   "personagens": [
-    "CAN",
-    "DIN"
-   ],
-   "multidao": 0,
-   "objetos": [
-    "kit/bandeira_dinamarca",
-    "kit/tequila_bolt",
-    "kit/whisky"
-   ],
-   "palavras": 9,
-   "cena": "b8",
-   "frase": "Por décadas, os dois lados trocaram bandeira e garrafa.",
+   "frase": "E deixaram aguardente com um bilhete de boas-vindas.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -199,7 +177,7 @@
    "multidao": 0,
    "objetos": [],
    "palavras": 8,
-   "cena": "b9",
+   "cena": "b8",
    "frase": "Em 2022, enfim, dividiram a ilha ao meio.",
    "classe": "simples",
    "sujeito": "personagem",
@@ -215,12 +193,12 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/whisky",
-    "war/flagpole"
+    "kit/tequila_bolt",
+    "kit/whisky"
    ],
-   "palavras": 7,
-   "cena": "b10",
-   "frase": "Zero tiros. Só bandeiras e muito uísque.",
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Nenhum tiro, só garrafas trocadas. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

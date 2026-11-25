@@ -32,7 +32,7 @@
    ],
    "palavras": 10,
    "cena": "b0",
-   "frase": "Ninguém te conta: uma fatia de melancia quase virou guerra.",
+   "frase": "Uma fatia de melancia quase virou guerra entre dois países.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -66,9 +66,9 @@
    "objetos": [
     "vehicles/locomotive"
    ],
-   "palavras": 11,
+   "palavras": 9,
    "cena": "b2",
-   "frase": "Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.",
+   "frase": "Em 1856, viajantes cruzavam o Panamá atrás de ouro.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -122,9 +122,9 @@
    ],
    "multidao": 20,
    "objetos": [],
-   "palavras": 11,
+   "palavras": 8,
    "cena": "b5",
-   "frase": "Em minutos, a rua virou uma briga de moradores contra viajantes.",
+   "frase": "Em minutos, virou briga de moradores contra viajantes.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
@@ -188,7 +188,7 @@
    "objetos": [],
    "palavras": 9,
    "cena": "b8",
-   "frase": "No fim, a Colômbia pagou uma indenização aos americanos.",
+   "frase": "A Colômbia teve que pagar uma indenização aos americanos.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -205,9 +205,9 @@
    "objetos": [
     "kit/melon"
    ],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b9",
-   "frase": "Tudo por uma fatia que ninguém quis pagar.",
+   "frase": "Tudo por centavos que ninguém pagou. E foi assim que...",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

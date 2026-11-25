@@ -1,13 +1,97 @@
-{"gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, ganhou a floresta gelada e debaixo dela havia cobre e ferro.",
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois estados foram a guerra, o unico ferido levou uma canivetada e quem perdeu ficou rico. Pagamento: Michigan perdeu Toledo, levou a floresta gelada e debaixo dela havia cobre e ferro.",
  "cenas": [
-  [0, "gancho", "Dois estados americanos foram à guerra. O único ferido levou uma canivetada.", "canivetada", {"encena_antiga": true}],
-  [9, "promessa", "E quem perdeu a guerra acabou ficando rico.", "rico"],
-  [1, "prova", "Ohio e Michigan disputavam Toledo por causa de um mapa errado.", "disputavam"],
-  [2, "prova", "Em 1835, o governador de Michigan, de 23 anos, ocupou Toledo.", "ocupou", {"text": "23 ANOS"}],
-  [3, "prova", "Ohio mandou a própria milícia. As tropas ficaram frente a frente.", "frente", {"encena_antiga": true}],
-  [4, "escalada", "Houve gritos e tiros para o alto. Ninguém acertou ninguém.", "tiros", {"encena_antiga": true}],
-  [5, "escalada", "A única baixa: um xerife esfaqueado com canivete numa taverna.", "esfaqueado", {"encena_antiga": true}],
-  [7, "escalada", "Ohio ficou com Toledo. Michigan levou uma floresta gelada.", "levou"],
-  [8, "pagamento", "Acontece que debaixo da floresta havia cobre e ferro. Uma fortuna.", "cobre"],
-  [0, "loop", "Michigan perdeu a guerra e ficou rico.", "perdeu", {"encena": {"sentido": "afirmativa", "passos": [{"faz": "perde", "na": "perdeu", "quem": 0}]}}]]}
+  [
+   0,
+   "gancho",
+   "Dois estados foram à guerra, e o único ferido levou uma canivetada.",
+   "canivetada",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E quem perdeu a guerra acabou ficando rico.",
+   "rico",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Ohio e Michigan disputavam Toledo por causa de um mapa errado.",
+   "disputavam",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O governador de Michigan, de 23 anos, ocupou Toledo.",
+   "ocupou",
+   {
+    "text": "23 ANOS"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Ohio mandou a própria milícia. As tropas ficaram frente a frente.",
+   "frente",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Houve gritos e tiros para o alto. Ninguém acertou ninguém.",
+   "tiros",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O único ferido: um xerife, esfaqueado numa taverna.",
+   "esfaqueado",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Ohio ficou com Toledo. Michigan levou uma floresta gelada.",
+   "levou",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Acontece que debaixo da floresta havia cobre e ferro.",
+   "cobre",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Michigan perdeu e ficou rico. E foi assim que...",
+   "perdeu",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "perde",
+       "na": "perdeu",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ]
+ ]
+}

@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 16 - A Guerra da Melancia
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 94 palavras (~32 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.4 s)
-- Narracao: Ninguém te conta: uma fatia de melancia quase virou guerra.
+- Narracao: Uma fatia de melancia quase virou guerra entre dois países.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~3.8 s)
-- Narracao: Em 1856, viajantes cruzavam o Panamá atrás do ouro da Califórnia.
+## Cena b2  (~3.1 s)
+- Narracao: Em 1856, viajantes cruzavam o Panamá atrás de ouro.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: ouro -> stars + som de sino
@@ -47,11 +47,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: ARMA!
 - Funcao na historia: desenvolvimento
 
-## Cena b5  (~3.8 s)
-- Narracao: Em minutos, a rua virou uma briga de moradores contra viajantes.
+## Cena b5  (~2.8 s)
+- Narracao: Em minutos, virou briga de moradores contra viajantes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: golpe (punch) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: BRIGA
 - Funcao na historia: GRANDE MOMENTO
@@ -75,16 +75,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: VIRADA
 
 ## Cena b8  (~3.1 s)
-- Narracao: No fim, a Colômbia pagou uma indenização aos americanos.
+- Narracao: A Colômbia teve que pagar uma indenização aos americanos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pagou -> stars + som de sino
+- Efeito + som nas palavras-chave: pagar -> stars + som de sino
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b9  (~2.8 s)
-- Narracao: Tudo por uma fatia que ninguém quis pagar.
+## Cena b9  (~3.4 s)
+- Narracao: Tudo por centavos que ninguém pagou. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

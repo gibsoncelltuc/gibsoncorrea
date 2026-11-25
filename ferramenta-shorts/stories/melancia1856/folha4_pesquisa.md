@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | A Guerra da Melancia | A Guerra da Melancia / Ninguém Em Panamá Califórnia 1856 | SEM REFERENCIA
+tema | A Guerra da Melancia | A Guerra da Melancia / Uma Em Panamá 1856 | SEM REFERENCIA
 lugar | Cidade do Panama, perto da estacao da ferrovia do Panama: ruas de terra, casas c | Cidade do Panama perto da estacao da ferrovia do Panama / Cidade do Panama perto da estacao da ferrovia do Panama 1856 | Panama pictures - nature and life in the land of t (referencias/melancia1856/prints/cidade_do_panama_perto_da_estacao_da_fer_15290f.jpg); Panama pictures; nature and life in the land of th (referencias/melancia1856/prints/cidade_do_panama_perto_da_estacao_da_fer_38e75e.jpg); View of Bridges and Approach to Town of San Carlos (referencias/melancia1856/prints/cidade_do_panama_perto_da_estacao_da_fer_a5e73d.jpg)
 lugar | Panamá | Panamá 1856 / Panamá landscape | Monumento a Belisario Porras - Panamá.JPG (referencias/melancia1856/prints/panam__cb8807.jpg); Ciudad de Panamá - Panamá.jpg (referencias/melancia1856/prints/panam__d7bd0f.jpg); Casa Museo del Banco Nacional de Panamá en Ciudad  (referencias/melancia1856/prints/panam__d1d03f.jpg)
 epoca | roupas e ruas de 1856 | 1856 fashion clothing / 1856 street photograph | Photograph of a street-scene in Ferozepore, Punjab (referencias/melancia1856/prints/roupas_e_ruas_de_1856_f5ba4c.jpg); President Street Station - Baltimore 1856.jpg (referencias/melancia1856/prints/roupas_e_ruas_de_1856_7d770e.jpg); Main Street, Newmarket in 1856.jpg (referencias/melancia1856/prints/roupas_e_ruas_de_1856_815773.jpg)

@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 21 - A Febre das Tulipas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Uma única flor já custou o preço de uma casa.
@@ -20,8 +20,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.1 s)
-- Narracao: Em 1637, na Holanda, a tulipa era rara e estava na moda.
+## Cena b2  (~2.8 s)
+- Narracao: Em 1637, na Holanda, a tulipa virou moda.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -29,8 +29,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: HOLANDA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.8 s)
-- Narracao: Num leilão, um bulbo saía por mil moedas. Depois, duas mil.
+## Cena b3  (~3.1 s)
+- Narracao: Num leilão, um bulbo saiu por duas mil moedas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: negocio (reach) @1 -> acao + som de efeito
@@ -83,8 +83,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: PÂNICO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b9  (~2.1 s)
-- Narracao: O marinheiro, pelo menos, almoçou bem.
+## Cena b9  (~2.8 s)
+- Narracao: Uma loucura que se repete. Foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -

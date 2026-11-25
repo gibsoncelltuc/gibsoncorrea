@@ -1,9 +1,9 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: loc_campo | 10 cenas, 91 palavras (~31 s)
 
 ## Cena b0  (~3.4 s)
-- Narracao: Ninguém te conta: um monge contando ervilhas descobriu a herança.
+- Narracao: Um monge contando ervilhas descobriu como herdamos o que somos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@60
 - Efeito + som nas palavras-chave: descobriu -> ring + som de alerta
@@ -29,11 +29,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: - | mapa: REPÚBLICA TCHECA
 - Funcao na historia: desenvolvimento
 
-## Cena b3  (~3.1 s)
-- Narracao: Cruzou ervilhas amarelas com verdes e esperou os filhos.
+## Cena b3  (~2.1 s)
+- Narracao: Cruzou ervilhas amarelas com ervilhas verdes.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@40, ding@60
-- Efeito + som nas palavras-chave: encena: examina (point) @0 -> acao + som de efeito; encena: x_espera (point) @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: examina (point) @0 -> acao + som de efeito; encena: x_espera (point) @0 -> acao + som de efeito
 - Efeito visual marcado: dust@40, stars@60
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -74,8 +74,8 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b8  (~3.4 s)
-- Narracao: Só depois da morte dele, cientistas viram que estava certo.
+## Cena b8  (~3.1 s)
+- Narracao: Só depois da morte dele, viram que estava certo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30, sting@70
 - Efeito + som nas palavras-chave: -
@@ -84,10 +84,10 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~2.8 s)
-- Narracao: A ervilha fez o monge famoso. Tarde demais.
+- Narracao: Ele morreu sem saber. E foi assim que...
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@60
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque
 - Efeito visual marcado: stars@60
 - Texto na tela: ERVILHAS = HERANÇA
 - Funcao na historia: FECHO/PIADA FINAL

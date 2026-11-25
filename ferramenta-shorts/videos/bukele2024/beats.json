@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "serie": "Poder e Fama",
  "ep": 26,
  "title": "O Presidente dos 85 por Cento",
@@ -83,7 +83,7 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "gancho",
-   "say": "Um presidente teve quase 85% dos votos. E muita gente criticou.",
+   "say": "Um presidente teve quase 85% dos votos, e o mundo se dividiu.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -117,7 +117,7 @@
    "d0": 11.4,
    "d1": 11.0,
    "bloco": "promessa",
-   "say": "E o motivo dessa votação divide o mundo.",
+   "say": "E o motivo dessa votação é polêmico.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -138,7 +138,7 @@
    "text": "NAYIB BUKELE",
    "titulo": true,
    "bloco": "prova",
-   "say": "Em 2024, em El Salvador, Nayib Bukele tentou a reeleição.",
+   "say": "Em 2024, Bukele tentou a reeleição em El Salvador.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -271,7 +271,7 @@
    "tiros": false,
    "interior": false,
    "bloco": "escalada",
-   "say": "A Suprema Corte mudou a interpretação, e críticos chamaram de ilegal.",
+   "say": "Uma corte liberou, e críticos chamaram de ilegal.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -352,7 +352,7 @@
    "d0": 7.0,
    "d1": 5.5,
    "bloco": "pagamento",
-   "say": "Mesmo assim, Bukele teve 84,6% dos votos.",
+   "say": "Mesmo assim, ele levou 84,6% dos votos.",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -396,13 +396,13 @@
    "d0": 12.1,
    "d1": 11.5,
    "bloco": "loop",
-   "say": "Amado por muitos, criticado por outros. Você decide.",
+   "say": "Amado por uns, criticado por outros. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "decide"
+      "na": "criticado"
      }
     ]
    }
@@ -452,7 +452,7 @@
  },
  "cinf": 4.5,
  "exp": 1.12,
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: quase 85% dos votos e muita critica; o motivo da votacao divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente teve quase 85% dos votos e o motivo divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
  "loop_frase_ok": true
 }

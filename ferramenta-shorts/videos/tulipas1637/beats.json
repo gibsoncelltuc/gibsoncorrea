@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "title": "A Febre das Tulipas",
  "set": "countryside",
  "light": "day",
@@ -197,7 +197,7 @@
    "d0": 21.0,
    "d1": 19.0,
    "bloco": "prova",
-   "say": "Em 1637, na Holanda, a tulipa era rara e estava na moda.",
+   "say": "Em 1637, na Holanda, a tulipa virou moda.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -233,7 +233,7 @@
    "d1": 11.5,
    "detalhe": true,
    "bloco": "prova",
-   "say": "Num leilão, um bulbo saía por mil moedas. Depois, duas mil.",
+   "say": "Num leilão, um bulbo saiu por duas mil moedas.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -524,13 +524,13 @@
     "MAR:0:grin"
    ],
    "bloco": "loop",
-   "say": "O marinheiro, pelo menos, almoçou bem.",
+   "say": "Uma loucura que se repete. Foi assim que...",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "almoçou"
+      "na": "assim"
      }
     ]
    }
@@ -568,7 +568,7 @@
  "serie": "Curiosidade e Ciência",
  "ep": 21,
  "titulo_base": "A Febre das Tulipas",
- "gancho_tipo": "crenca",
- "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo. Pagamento: no leilao de fevereiro ninguem comprou, os precos desabaram e quem trocou a casa ficou so com flores.",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo em dias. Pagamento: bulbos de mil e duas mil moedas, casas trocadas por bulbos; no leilao de fevereiro ninguem comprou e os precos desabaram.",
  "loop_frase_ok": true
 }

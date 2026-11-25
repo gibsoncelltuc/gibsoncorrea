@@ -7,7 +7,7 @@
    "item": "Os Primeiros Passageiros do Céu",
    "consultas": [
     "Os Primeiros Passageiros do Céu",
-    "Os Foram Em Montgolfier França 1783"
+    "Os Foram Em Montgolfier 1783"
    ]
   },
   {
@@ -108,9 +108,9 @@
   },
   {
    "tipo": "mecanismo",
-   "item": "Fizeram um balão gigante de pano e papel, cheio de ar quente.",
+   "item": "Fizeram um balão gigante de pano e papel.",
    "consultas": [
-    "fizeram balao gigante papel cheio quente",
+    "fizeram balao gigante papel",
     "balloon diagram"
    ]
   }
