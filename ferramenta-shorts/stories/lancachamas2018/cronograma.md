@@ -10,7 +10,7 @@ b0 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower, ma
 b1 | simples | loc_cidade | two | MUS, POV | - | bancada, extinguisher | - | E o motivo desse nome é bem esperto.
 b2 | transicao | loc_cidade | wide | MUS, CMP | - | bancada, flamethrower, marco_hollywood, tunel_boring | - | Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.
 b3 | simples | interior loja | two | MUS, CMP | - | bancada, flamethrower | - | O nome era Não é um lança-chamas. Custava quinhentos dólares.
-b4 | chave | interior loja | two | MUS | - | bancada, flamethrower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele soltava fogo de verdade.
+b4 | chave | interior loja | two | MUS | - | bancada, fire, flamethrower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que ele soltava fogo de verdade.
 b5 | simples | interior loja | group | MUS, CMP | - | flamethrower, Crate_Metal | - | O nome servia para driblar a alfândega, que barrava lança-chamas.
 b6 | simples | interior loja | two | CMP, POV | - | extinguisher | - | E vinha com um extintor de incêndio junto.
 b7 | chave | loc_cidade | wide | POV, POV | 16 | marco_hollywood | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Vinte mil unidades esgotaram em poucos dias.
@@ -22,10 +22,10 @@ b9 | simples | loc_cidade | two | MUS, POV | - | bancada, fire, flamethrower | -
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (9/11 itens) | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (9/12 itens) | FEITO | 
 3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
+5 | Voz | narracao neural gerada e tempos por palavra | PENDENTE | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
@@ -36,5 +36,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local lancachamas2018 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 4. Travas do roteiro
+**Etapa atual:** 5. Voz
 

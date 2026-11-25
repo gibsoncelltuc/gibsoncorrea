@@ -43,7 +43,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: fogo -> burst + som de tiro/explosao
-- Efeito visual marcado: -
+- Efeito visual marcado: puff@20, puff@60
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
