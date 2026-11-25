@@ -12,5 +12,5 @@ b6 | two | -  | tropa | - | -
 b7 | two | -  | placa: PREJUÍZO → LUCRO | - | -
 b8 | two | -  | tropa, placa: PAÍS DO BITCOIN | - | -
 
-Mistura de planos: close 14% | medio 59% | aberto 21% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 14% | medio 56% | aberto 21% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

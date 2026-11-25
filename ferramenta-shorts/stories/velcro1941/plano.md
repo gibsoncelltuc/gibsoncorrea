@@ -13,5 +13,5 @@ b7 | wide | -  | batalha aberta com tiros, tropa | (rosto) laugh (expr + som de 
 b8 | two | espaco  | placa: VELCRO | - | -
 b9 | two | -  | animais, placa: INVENTADO POR UM CACHORRO | - | -
 
-Mistura de planos: close 13% | medio 75% | aberto 6% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 13% | medio 73% | aberto 6% | detalhe 8%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 2 | dentro do padrao do canal

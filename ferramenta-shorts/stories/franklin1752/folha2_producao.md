@@ -180,8 +180,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Coragem ou loucura? Só sei que foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): FRA (variante 0, expressao grin); FIL (variante 0, expressao shock)
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/kite
@@ -201,7 +201,7 @@ nature/lamppost | b7 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/kite | grandes momentos: b5, b7 | planos abertos: 2 | mistura: close 2% | medio 82% | aberto 10% | detalhe 6%
+- Objeto heroi: kit/kite | grandes momentos: b5, b7 | planos abertos: 2 | mistura: close 2% | medio 79% | aberto 10% | detalhe 8%
 - Interacoes: b0 susto, b3 aproxima-se, b4 avanca e o outro recua, b6 cochichar, b8 discutir
 - RISCOS GERAIS: nenhum
 

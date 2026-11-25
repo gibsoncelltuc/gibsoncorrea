@@ -175,8 +175,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Esse dinheiro nunca chegou. E foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CON (variante 0, expressao shock); OFI (variante 0, expressao laugh) | multidao: 0 de 
 - Animacao: reagir | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
@@ -198,7 +198,7 @@ cannon | b6 | pronto | conferir na folha de contato se le bem; se parecer caixot
 
 
 ## Video inteiro
-- Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 3 | mistura: close 2% | medio 65% | aberto 27% | detalhe 6%
+- Objeto heroi: kit/cake_table | grandes momentos: b6 | planos abertos: 3 | mistura: close 2% | medio 62% | aberto 27% | detalhe 9%
 - Interacoes: b0 aproxima-se, b2 avanca e o outro recua, b3 o outro se aproxima, b4 pedir, b7 entregar, b8 insiste
 - RISCOS GERAIS: nenhum
 

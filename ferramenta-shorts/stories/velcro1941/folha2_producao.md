@@ -203,8 +203,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Um cachorro cheio de carrapichos. E foi assim que...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MES (variante 0, expressao surprised); TEC (variante 0, expressao laugh)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/burr, dog
@@ -224,7 +224,7 @@ kit/moon | b8 | pronto | conferir na folha de contato se le bem; se parecer caix
 
 
 ## Video inteiro
-- Objeto heroi: kit/burr | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 13% | medio 75% | aberto 6% | detalhe 5%
+- Objeto heroi: kit/burr | grandes momentos: b1, b7 | planos abertos: 2 | mistura: close 13% | medio 73% | aberto 6% | detalhe 8%
 - Interacoes: b0 insiste, b9 vai ate o outro
 - RISCOS GERAIS: 
   - FOLHA 4: 5 item(ns) sem referencia visual: O Cachorro que Inventou o Velcro, teceloes, carrapicho de bardana, fita de velcro de nailon, burr -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}

@@ -200,8 +200,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Amado por uns, criticado por outros. Foi assim que...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao laugh); POV (variante 0, expressao laugh)
 - Animacao: comemorar | interacao: vai ate o outro
 - Objetos/modelos: kit/ballot_box
@@ -220,7 +220,7 @@ kit/prison | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 4% | medio 64% | aberto 29% | detalhe 3%
+- Objeto heroi: kit/ballot_box | grandes momentos: b2, b6 | planos abertos: 4 | mistura: close 4% | medio 61% | aberto 29% | detalhe 6%
 - Interacoes: b0 pular, b3 susto, b5 discutir, b8 o outro se aproxima, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

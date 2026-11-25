@@ -12,5 +12,5 @@ b6 | crowd | -  | batalha aberta com tiros, tropa | tiros: 5 soldados caem no ch
 b7 | two | -  | interior, placa: 600.000, objeto na mao | pagar (stars + som de sino) | -
 b8 | two | -  | tropa, placa: GUERRA DOS BOLOS | - | -
 
-Mistura de planos: close 2% | medio 65% | aberto 27% | detalhe 6%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 2% | medio 62% | aberto 27% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

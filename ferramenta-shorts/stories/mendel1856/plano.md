@@ -13,5 +13,5 @@ b7 | two | -  | interior | - | -
 b8 | wide | -  | batalha aberta com tiros, tropa, interior, placa: GENÉTICA | - | -
 b9 | two | -  | tropa, placa: ERVILHAS = HERANÇA, objeto na mao | (rosto) sad (expr + som de efeito); morreu (puff + som de baque) | -
 
-Mistura de planos: close 12% | medio 51% | aberto 34% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Mistura de planos: close 12% | medio 49% | aberto 34% | detalhe 5%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 4 | dentro do padrao do canal

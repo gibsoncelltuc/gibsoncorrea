@@ -180,8 +180,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Sem foguete, só uma sombra. E foi assim que...
 - Cenario: loc_campo | luz: desert | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ERA (variante 0, expressao smile); BIB (variante 0, expressao surprised)
 - Animacao: conversar | interacao: vai ate o outro
 - Objetos/modelos: kit/stick, kit/rocket
@@ -203,7 +203,7 @@ kit/rocket | b9 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/stick | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 2% | medio 76% | aberto 19% | detalhe 3%
+- Objeto heroi: kit/stick | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 2% | medio 74% | aberto 19% | detalhe 5%
 - Interacoes: b0 o outro se aproxima, b4 insiste, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

@@ -172,8 +172,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - Maluquice ou visão? Só sei que foi assim que...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): BUK (variante 0, expressao smug); POV (variante 0, expressao shock) | multidao: 8 de POV/CLI
 - Animacao: conversar | interacao: discutir
 - Objetos/modelos: kit/bitcoin
@@ -192,7 +192,7 @@ kit/rack_mineracao | b4 | pronto | conferir na folha de contato se le bem; se pa
 
 
 ## Video inteiro
-- Objeto heroi: kit/bitcoin | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 14% | medio 59% | aberto 21% | detalhe 6%
+- Objeto heroi: kit/bitcoin | grandes momentos: b1, b5 | planos abertos: 3 | mistura: close 14% | medio 56% | aberto 21% | detalhe 9%
 - Interacoes: b0 susto, b7 avanca e o outro recua, b8 discutir
 - RISCOS GERAIS: nenhum
 

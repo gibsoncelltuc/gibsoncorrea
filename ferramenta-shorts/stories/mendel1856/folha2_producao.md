@@ -218,8 +218,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b9 - Ele morreu sem saber. E foi assim que...
 - Cenario: loc_campo | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MEN (variante 0, expressao smile, segura bag) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/pe_ervilha, kit/vagem_verde
@@ -239,7 +239,7 @@ kit/bancada | b6, b8 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 12% | medio 51% | aberto 34% | detalhe 3%
+- Objeto heroi: kit/vagem_verde | grandes momentos: b6, b8 | planos abertos: 4 | mistura: close 12% | medio 49% | aberto 34% | detalhe 5%
 - Interacoes: b7 cochichar
 - RISCOS GERAIS: nenhum
 
