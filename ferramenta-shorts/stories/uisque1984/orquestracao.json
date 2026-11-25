@@ -160,8 +160,9 @@
    ],
    "multidao": 0,
    "objetos": [
+    "kit/bandeira_dinamarca",
     "kit/tequila_bolt",
-    "war/flagpole"
+    "kit/whisky"
    ],
    "palavras": 15,
    "cena": "b7",

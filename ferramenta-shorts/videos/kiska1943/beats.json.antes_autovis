@@ -518,7 +518,7 @@
     [
      "kit/dog_sit",
      0.0,
-     -1.2,
+     -1.0,
      1.0,
      {
       "fixo": true
@@ -568,7 +568,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "_auto_vis": 1
   },
   {
    "say": "Uma das maiores invasões do Pacífico Norte tomou uma ilha completamente vazia.",

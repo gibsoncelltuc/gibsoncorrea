@@ -93,7 +93,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: arctic; clima: neblina
 - CAMERA: plano do objeto; plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)
 - PERSONAGENS: USA na esquerda, expressao surprised; CAN na direita, expressao surprised; sem multidao; acao: fala/gesto
-- OBJETO kit/dog_sit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/dog_sit: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.7 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/dog_sit: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "SÓ CACHORROS" numa placa atras dos personagens, na palavra 7 da frase
 

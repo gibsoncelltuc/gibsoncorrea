@@ -11,7 +11,7 @@ b3 | arctic | wide | 13 | encena, batalha | vehicles/helicopter | flag | -
 b4 | arctic | two | 2 | comemorar, INTERAGEM: pular | war/flagpole, kit/whisky, kit/tequila_bolt | flag | -
 b5 | arctic | wide | 1 | encena, batalha | war/flagpole | flag | -
 b6 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel, kit/tequila_bolt | paper | -
-b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | war/flagpole, kit/tequila_bolt | - | -
+b7 | arctic | group | 2 | conversar, INTERAGEM: cochichar | kit/bandeira_dinamarca, kit/whisky, kit/tequila_bolt | - | -
 b8 | arctic | wide | 2 | encena | kit/whisky | - | -
 b9 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b10 | interior pedra | close | 1 | comemorar | kit/whisky | - | -

@@ -404,8 +404,8 @@
    "quadro_manual": true,
    "h": 1.8,
    "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
+    "local": "mata tropical (arvores, cabanas)",
+    "camera": "medium; plano medio enquadrando personagens e golden_stool juntos (camera a 11.5 m)",
     "objetos": [
      {
       "objeto": "kit/golden_stool",

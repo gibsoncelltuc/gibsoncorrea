@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 25/11 15:36 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 15:41 | 12 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -13,7 +13,7 @@ b3 | chave | arctic | wide | CAN | 12 | helicopter | corpo: tropa/personagens en
 b4 | simples | arctic | two | CAN, CAN | - | tequila_bolt, whisky, flagpole | - | Eles fincaram a bandeira do Canadá e deixaram uma garrafa de uísque ca
 b5 | chave | arctic | wide | DIN | - | flagpole | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que, pouco depois, os dinamarqueses apareceram, arrancaram a 
 b6 | simples | arctic | two | DIN, CAN | - | barrel, tequila_bolt, whisky | - | E deixaram um bilhete de boas-vindas, com uma garrafa de aguardente.
-b7 | simples | arctic | group | CAN, DIN | - | tequila_bolt, flagpole | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
+b7 | simples | arctic | group | CAN, DIN | - | bandeira_dinamarca, tequila_bolt, whisky | - | Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa
 b8 | simples | arctic | wide | CAN, DIN | - | whisky | - | A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entr
 b9 | simples | interior pedra | two | PRE, MIN | - | - | - | Em dois mil e vinte e dois, enfim, dividiram a ilha ao meio.
 b10 | simples | interior pedra | close | CAN | - | whisky | - | A guerra mais educada da história acabou sem um tiro e com muito uísqu

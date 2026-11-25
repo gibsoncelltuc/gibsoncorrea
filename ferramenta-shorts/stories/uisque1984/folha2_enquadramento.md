@@ -52,9 +52,10 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b7: "Durante anos, os dois lados voltaram lá para trocar bandeira e garrafa, sempre muito educados."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)
 - PERSONAGENS: CAN (soldado) na esquerda, expressao smug; DIN (soldado) na direita, expressao smug; sem multidao; acao: cochichar
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/whisky: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bandeira_dinamarca: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 4.1 m de altura x 2.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b8: "A brincadeira ficou famosa como a Guerra do Uísque, e virou piada entre os dois países."
 - LOCAL: campo de gelo e neve (mar congelado, rochas); hora: day

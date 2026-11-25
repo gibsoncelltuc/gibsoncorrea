@@ -400,7 +400,27 @@
       "alvo_quem": 1
      }
     ]
-   }
+   },
+   "props": [
+    [
+     "kit/bandeira_dinamarca",
+     3.0,
+     -6.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/whisky",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "shot": "wide",
