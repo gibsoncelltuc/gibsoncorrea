@@ -11,7 +11,7 @@ b5 | wide | -  | tropa | - | -
 b6 | two | -  | - | - | -
 b7 | two | -  | interior, objeto na mao | - | -
 b8 | two | -  | interior, objeto na mao | encena: escreve (write) @8 (acao + som de efeito) | -
-b9 | two | -  | placa: 335 ANOS | - | -
+b9 | two | -  | placa: 335 ANOS SEM TIRO | - | -
 
 Mistura de planos: close 4% | medio 79% | aberto 15% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

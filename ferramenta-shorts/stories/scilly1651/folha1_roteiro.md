@@ -89,6 +89,6 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 335 ANOS
+- Texto na tela: 335 ANOS SEM TIRO
 - Funcao na historia: FECHO/PIADA FINAL
 

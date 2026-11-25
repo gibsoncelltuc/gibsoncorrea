@@ -29,7 +29,7 @@ _VIRAL = bool(B.get('gancho_tipo'))   # 25/11 ESTRUTURA VIRAL (ESTRUTURA_VIRAL.m
 if _VIRAL and B.get('beats'):
     _lp = B['beats'][-1]
     if _lp.get('bloco') == 'loop' and _lp.get('loop_visual', True) is not False and len(B['beats']) > 1:   # a ultima imagem repete a 1a cena (mesmo lugar, gente, objetos e camera) para o replay emendar
-        for _k in ('set', 'interior', 'who', 'props', 'shot', 'hora', 'light', 'fachada', 'crowd', 'cx', 'cz', 'h', 'd0', 'd1', 'quadro_manual', 'regiao', 'detalhe'):
+        for _k in ('set', 'interior', 'who', 'props', 'shot', 'hora', 'light', 'fachada', 'crowd', 'cx', 'cz', 'h', 'd0', 'd1', 'quadro_manual', 'regiao', 'detalhe', 'text', 'titulo', 'tstyle', 'placa'):
             if _k in B['beats'][0]: _lp[_k] = json.loads(json.dumps(B['beats'][0][_k]))
             else: _lp.pop(_k, None)
         _lp['shot_lock'] = True
