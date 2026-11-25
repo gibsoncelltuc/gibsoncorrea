@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | - tempestade | - | encena: x_solta (up) @2 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
+b0 | two | - tempestade | - | relampago no ceu na palavra + trovao (acao + som de efeito); encena: x_solta (up) @2 (acao + som de efeito); encena: pega (lift) @9 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | group | -  | interior | - | -
 b3 | two | -  | interior | encena: brilha (point) @9 (acao + som de efeito) | -

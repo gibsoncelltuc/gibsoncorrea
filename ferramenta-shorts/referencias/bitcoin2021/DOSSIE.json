@@ -7,8 +7,8 @@
   "regiao": "colonial",
   "luz_base": "golden",
   "cenarios": [
-   "interior pedra",
    "loc_cidade",
+   "loc_estudio",
    "loc_patio",
    "loc_pista"
   ],
@@ -19,7 +19,7 @@
     "loc_cidade"
    ],
    [
-    "cena 11",
+    "cena 13",
     "street",
     "loc_cidade"
    ]
@@ -48,16 +48,7 @@
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
   "kit/bitcoin",
-  "kit/coin",
-  "kit/globe",
-  "kit/phone",
-  "kit/room_colonial_stone",
-  "kit/stall",
-  "kit/volcano",
-  "mk/Bookcase_2",
-  "mk/Chair_1",
-  "mk/Chest_Wood",
-  "mk/Table_Large"
+  "kit/volcano"
  ],
  "pesquisa_visual": {
   "local": "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021",

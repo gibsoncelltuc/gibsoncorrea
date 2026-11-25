@@ -1,0 +1,38 @@
+{
+ "id": "ese_pulo",
+ "ano": null,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+   "consultas": [
+    "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+    "Terra Somos Juntas Parece"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Mundo",
+   "consultas": [
+    "Mundo",
+    "Mundo landscape"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "globe",
+   "consultas": [
+    "globe",
+    "E Se Todo Mundo Pulasse ao Mesmo Tempo?"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Ela se mexeria menos que a largura de um átomo. Nenhum instrumento con",
+   "consultas": [
+    "mexeria largura atomo nenhum instrumento conseguiria medir",
+    "diagram"
+   ]
+  }
+ ]
+}

@@ -1064,6 +1064,10 @@ def _hud_fx(k, b, a, bb, E):   # graficos colados na parte de cima da tela (vale
             t0 = _wf(m_.get('na'), -3, f"Math.round({a} + ({bb} - ({a})) * 0.35)")
             fx.append(f"{{ k: {json.dumps(kind)}, a: {t0}, b: {bb}, de: {num(m_.get('de', 0))}, para: {num(m_.get('para', 100))}, un: {json.dumps(m_.get('un', ''))}, titulo: {json.dumps(str(m_.get('titulo', '')).upper())}, dur: {int(round(float(m_.get('dur', 1.0)) * 30))}, dec: {int(m_.get('dec', 0))}{', max: ' + num(m_['max']) if 'max' in m_ else ''}, up: {num(m_.get("up", 0.6))} }}")
             KWSFX.append((starts[k] + (_wj(m_.get('na')) if _wj(m_.get('na')) is not None else len(ws) // 3), 'hud'))
+    if E.get('grafico'):   # 25/11 GRAFICO DE LINHA (preco subindo/despencando): {"pontos": [..], "rotulos": ["2021","2022"], "titulo": "...", "un": "US$ ", "na": "palavra"}
+        G_ = E['grafico']; t0 = _wf(G_.get('na'), -3, f"({a}) + 6")
+        fx.append(f"{{ k: 'grafico', a: {t0}, b: {bb}, pontos: {json.dumps([float(x_) for x_ in G_.get('pontos', [0, 1])])}, rotulos: {json.dumps(G_.get('rotulos', []), ensure_ascii=False)}, titulo: {json.dumps(str(G_.get('titulo', '')).upper(), ensure_ascii=False)}, un: {json.dumps(G_.get('un', ''))}, suf: {json.dumps(G_.get('suf', ''))}, dur: {int(round(float(G_.get('dur', 1.4)) * 30))}{', cor: ' + json.dumps(G_['cor']) if G_.get('cor') else ''} }}")
+        KWSFX.append((starts[k] + (_wj(G_.get('na')) if _wj(G_.get('na')) is not None else 1), 'hud'))
     if E.get('passos'):
         t0 = _wf(E.get('passos_na'), -3, f"({a}) + 8"); fx.append(f"{{ k: 'passos', a: {t0}, b: {bb}, itens: {json.dumps([str(x_).upper() for x_ in E['passos']][:4], ensure_ascii=False)}, up: {num(E.get("passos_up", 0.58))} }}")
         for i_ in range(min(4, len(E['passos']))): KWSFX.append((starts[k] + min(len(ws) - 1, 1 + i_ * max(1, len(ws) // (len(E['passos']) + 1))), 'hud'))
@@ -1130,7 +1134,7 @@ def _explica(k, b, light, a, bb):
     fx += _hud_fx(k, b, a, bb, E)
     if b.get('text'): fx.append(f"txt(X, {a} + 6, {bb}, {json.dumps(b['text'])}, '#fff6e0', '#17305c', 4.4)")
     # camera: sem corte seco; 2 enquadramentos (3/4 de frente -> o angulo que mostra o mecanismo). HUD colado em cima ocupa a parte alta: o objeto fica um pouco abaixo do centro.
-    hud_on = any(E.get(x_) for x_ in ('medidor', 'contador', 'passos', 'comparar'))
+    hud_on = any(E.get(x_) for x_ in ('medidor', 'contador', 'passos', 'comparar', 'grafico'))
     cy = (1.5 if man in ('paira', 'sobe') else 0.0) + Hs * 0.5 + (0.2 if hud_on else -0.9)
     d0 = round(Ls * (2.55 if hud_on else 2.4) + 2.0, 2); ang = E.get('angulo') or ('baixo' if any(v_.get('k') == 'jato' for v_ in vfx_in) else 'lado')
     k0 = (0.0, cy, z0, d0, 26, 10, 44); k1 = (0.0, cy, z0, round(d0 * 0.9, 2), 12, 8, 44)
@@ -1150,7 +1154,7 @@ def _explica(k, b, light, a, bb):
     _cf = f", camFollow: {{ asset: {json.dumps(obj)}, k: 1, ky: 0 }}" if man == 'corre' else ''
     if dur_ok: call = f"{{ ...{body(f'b{k}', a, mid + ' - 1')}, cam: [{Kc(a, k0)}, {Kc(mid + ' - 1', k1)}], nocut: true, vary: false, creep: 0{_cf} }}, {{ ...{body(f'b{k}_x', mid, bb).replace(chr(39) + 'dissolve' + chr(39), chr(39) + 'cut' + chr(39))}, cam: [{Kc(mid, k2)}, {Kc(bb, k3)}], nocut: true, vary: false, glide: true, glideN: 22, creep: 0{_cf} }}"
     else: call = f"{{ ...{body(f'b{k}', a, bb)}, cam: [{Kc(a, k0)}, {Kc(bb, k3)}], nocut: true, vary: false, creep: 0{_cf} }}"
-    b['_explica_ok'] = {'objeto': obj, 'manobra': man, 'vfx': [v_.get('k', 'jato') for v_ in vfx_in], 'rotulos': nrot, 'graficos': [x_ for x_ in ('medidor', 'contador', 'passos', 'comparar') if E.get(x_)], 'raiox': bool(xr)}
+    b['_explica_ok'] = {'objeto': obj, 'manobra': man, 'vfx': [v_.get('k', 'jato') for v_ in vfx_in], 'rotulos': nrot, 'graficos': [x_ for x_ in ('medidor', 'contador', 'passos', 'comparar', 'grafico') if E.get(x_)], 'raiox': bool(xr)}
     if b.get('set') and b['set'] != SET and b['set'] in SETS_X: call = ''.join(pt_ if i_ % 2 else re.sub(r'\bX\b', 'X_' + b['set'], pt_) for i_, pt_ in enumerate(re.split(r'("(?:[^"\\]|\\.)*")', call)))
     return call
 
@@ -1171,7 +1175,7 @@ def build_beat(k, b):
     _sy = nrm(b['say']); global AMB
     # HORA DO DIA e CLIMA: campos "hora" (dia|tarde|pordosol|noite|amanhecer) e "clima" (sol|calor|chuva|tempestade|neve|neblina|vento|limpo), ou pelas palavras da narracao. Ficam valendo ate mudar.
     _h = b.get('hora') or ('espaco' if re.search(r'noespaco|noespacosideral|emorbita|naorbita|nalua|superficiedalua|estacaoespacial|gravidadezero|semgravidade|flutuavam|flutuando', _sy) and not b.get('interior') else None) or ('noite' if re.search(r'noite|noescuro|madrugada|meianoite', _sy) else 'amanhecer' if re.search(r'amanhecer|manhaseguinte|nascerdosol|aurora|demanha', _sy) else 'pordosol' if re.search(r'pordosol|entardecer|anoitecer|fimdetarde|finaldetarde|fimdodia', _sy) else 'tarde' if re.search(r'atarde|detarde|natarde', _sy) else 'dia' if re.search(r'diaseguinte|diasdepois|semanasdepois|mesesdepois|anosdepois|meiodia|duranteodia', _sy) else None)
-    _c = b.get('clima') or ('granizo' if re.search(r'granizo|chuvadepedra|pedrasdegelo|pedrinhasdegelo', _sy) else 'tempestade' if re.search(r'tempestade|temporal|trovao|trovoada|relampag|raios|furacao|tufao|ciclone', _sy) else 'gelo' if re.search(r'\bgelo\b|congelad|congelou|congelaram|geada|lagocongelado|riocongelado|marcongelado|derrapou no gelo|escorreg\w* no gelo', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
+    _c = b.get('clima') or ('granizo' if re.search(r'granizo|chuvadepedra|pedrasdegelo|pedrinhasdegelo', _sy) else 'tempestade' if (re.search(r'tempestade|temporal|trovoada|relampag|furacao|tufao|ciclone', _sy) or (re.search(r'trovao|raios', _sy) and re.search(r'chuva|chov|nuvem|nuvens|ceu|tempo ruim|pipa', _sy) and not re.search(r'comoumtrovao|comoumraio|raiox|raiosx|formaderaio|raiomisterioso', _sy))) else 'gelo' if re.search(r'\bgelo\b|congelad|congelou|congelaram|geada|lagocongelado|riocongelado|marcongelado|derrapou no gelo|escorreg\w* no gelo', _sy) else 'chuva' if re.search(r'chuva|chovia|chovendo|choveu|aguaceiro', _sy) else 'neve' if re.search(r'neve|nevasca|nevava|nevando|inverno|congel|geada|muitofrio|friointenso|frioextremo|gelado|gelada', _sy) else 'neblina' if re.search(r'neblina|nevoeiro|nevoa|cerracao', _sy) else 'calor' if re.search(r'calor|solforte|solquente|escaldante|\\bseca\\b|sedeinsuport|muitoquente|deserto', _sy) else 'vento' if re.search(r'ventania|vendaval|furacao|ventoforte|\\bvento\\b|ventava|ventando', _sy) else None)
     AMB['hora'] = B.get('hora'); AMB['clima'] = None if B.get('clima') in (None, 'limpo', 'sol') else B.get('clima')   # hora/clima valem SO na cena onde aparecem (campo ou narracao); fora disso, o padrao do topo do roteiro -- a noite/neve de uma cena nao vaza para o resto do video
     if _h: AMB['hora'] = _h
     if _c: AMB['clima'] = None if _c in ('limpo', 'sol') else _c
@@ -1614,9 +1618,12 @@ def build_beat(k, b):
         KWSFX.append((_spi, 'thump'))
     if AMB.get('clima') == 'tempestade' and not b.get('interior') and b.get('raio') is not False and not b.get('explica'):   # 25/11 TEMPESTADE: relampago no ceu de tempo em tempo (alem do da palavra), com trovao
         _nw = len(b['say'].split())
-        for _q, _jj in enumerate(sorted({max(0, _nw // 6), _nw // 2, min(_nw - 1, 5 * _nw // 6)})):
+        for _q, _jj in enumerate([_nw // 2]):   # 1 relampago de fundo por cena (mais os das palavras raio/relampago): mais que isso cansa
             fx.append(f"{{ k: 'raio', a: WS({starts[k] + _jj}), b: WS({starts[k] + _jj}) + 22, at: [X + {num((-6, 7, -2)[_q % 3])}, DK + 8, -12], s: 5.5 }}"); KWSFX.append((starts[k] + _jj, 'cannon'))
-    _rw = [j_ for j_, w_ in enumerate(b['say'].split()) if re.match(r'^(raios?|relampag\w*|trovoada|trovao|tempestade)$', nrm(w_)) and not re.search(r'para.?raio', nrm(b['say'].split()[max(0, j_ - 1)] + w_))]
+    _ws_r = b['say'].split(); _clima_r = re.search(r'tempestade|temporal|trovoada|relampag|chuva|chov|nuvem|nuvens|\bceu\b|pipa|furacao', nrm0x(b['say']))
+    _rw = [j_ for j_, w_ in enumerate(_ws_r) if re.match(r'^(raios?|relampag\w*|trovoada|trovao|tempestade)$', nrm(w_)) and not re.search(r'para.?raio', nrm(_ws_r[max(0, j_ - 1)] + w_))
+           and not (j_ + 1 < len(_ws_r) and re.match(r'^x\W*$', nrm(_ws_r[j_ + 1]))) and not re.search(r'(como|forma de|em forma de)$', nrm0x(' '.join(_ws_r[max(0, j_ - 3):j_])).replace(' um', '').replace(' uma', '').strip())
+           and (re.match(r'^(relampag\w*|trovoada|tempestade)$', nrm(w_)) or _clima_r)]   # 25/11: 'raio X', 'raio misterioso', 'em forma de raio', 'como um trovao' NAO sao relampago
     if _rw and b.get('raio') is not False and not b.get('interior'):   # 25/11 (Franklin): RELAMPAGO no ceu na palavra (raio/relampago/tempestade), com trovao; para-raios nao conta
         for _q, _j in enumerate(_rw[:2]):
             fx.append(f"{{ k: 'raio', a: WS({starts[k] + _j}), b: WS({starts[k] + _j}) + 24, at: [X + {num(2.5 - 5 * _q)}, DK + 7.5, -9], s: 5.0 }}"); KWSFX.append((starts[k] + _j, 'cannon'))

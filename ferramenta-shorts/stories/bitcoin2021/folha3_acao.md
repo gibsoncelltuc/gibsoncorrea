@@ -1,107 +1,141 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 09 - O País do Bitcoin
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 39 acoes catalogadas, 39 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 13 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.0s a 4.8s - 14 palavras - plano two
-> "Um país aceitou o bitcoin como dinheiro, e nove em dez moradores não entendiam."
+## Cena b0 - 0.0s a 4.1s - 12 palavras - plano two
+> "Um presidente transformou o bitcoin em dinheiro oficial de um país inteiro."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bitcoin" (1.5s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | dinheiro (2.2s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | dinheiro (2.2s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 3 | - | INTERACAO | avanca e o outro recua | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | 9 EM 10 NÃO ENTENDIAM | OK |
+| 2 | - | INTERACAO | susto | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b1 - 5.2s a 10.4s - 15 palavras - plano wide
-> "Foi em El Salvador, na América Central, e a ideia foi do presidente Nayib Bukele."
+## Cena b1 - 4.4s a 8.5s - 12 palavras - plano close
+> "Foi em El Salvador, na América Central, com o presidente Nayib Bukele."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Salvador" (5.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ideia (8.5s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
+| 1 | - | ATUACAO | conversar | OK |
 | 2 | - | MAPA | EL SALVADOR | OK |
 
-## Cena b2 - 10.7s a 17.8s - 20 palavras - plano group
-> "Ele anunciou o projeto em junho de dois mil e vinte e um, e o congresso aprovou poucos dias depois."
+## Cena b2 - 8.9s a 15.9s - 20 palavras - plano reveal
+> "Em sete de setembro de dois mil e vinte e um, virou o primeiro país do mundo a fazer isso."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "primeiro" (13.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | anunciou (11.1s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | LEI APROVADA | OK |
+| 1 | - | PLACA | 1º PAÍS DO MUNDO | OK |
 
-## Cena b3 - 18.1s a 25.2s - 20 palavras - plano reveal
-> "A lei passou a valer em sete de setembro, e o país foi o primeiro do mundo a fazer isso."
+## Cena b3 - 16.3s a 21.1s - 14 palavras - plano two
+> "Para convencer o povo, quem baixasse a carteira digital ganhava trinta dólares em bitcoin."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | PLACA | 7 DE SETEMBRO | OK |
-
-## Cena b4 - 25.6s a 31.9s - 18 palavras - plano two
-> "Para convencer o povo, o governo prometeu trinta dólares em bitcoin a quem baixasse a carteira digital Chivo."
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "carteira" (18.9s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | convencer (25.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | prometeu (27.8s) | ACAO: fala | aponta explicando | OK |
-| 3 | - | INTERACAO | insiste | OK |
-| 4 | - | ATUACAO | conversar | OK |
-| 5 | - | PLACA | US$ 30 | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b5 - 32.2s a 36.7s - 13 palavras - plano wide
-> "Acontece que, no lançamento, o aplicativo ficou fora do ar por algumas horas."
+## Cena b4 - 21.5s a 27.4s - 17 palavras - plano wide
+> "Acontece que, no primeiro dia, o aplicativo travou, e o bitcoin despencou mais de dez por cento."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencou" (25.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | PLACA | FORA DO AR | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 37.0s a 42.2s - 15 palavras - plano two
-> "Uma pesquisa da Universidade Centro-Americana mostrou que sessenta e oito por cento discordavam da decisão."
+## Cena b5 - 27.8s a 31.1s - 10 palavras - plano two
+> "Mesmo assim, o governo continuou comprando bitcoins com dinheiro público."
 
-| # | palavra (instante) | acao catalogada | animacao executada | ok? |
-|---|---|---|---|---|
-| 1 | mostrou (38.9s) | ACAO: fala | aponta explicando | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
-| 4 | - | PLACA | 68% DISCORDAM | OK |
-
-## Cena b7 - 42.6s a 48.5s - 17 palavras - plano two
-> "O governo também comprou bitcoins com dinheiro público, e o preço da moeda despencou no ano seguinte."
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "comprando" (29.6s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprou (43.7s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | comprou (43.7s) | ACAO: negocio | moeda girando (compra/venda) | OK |
-| 3 | dinheiro (44.8s) | EFEITO: stars | estrelinhas + som | OK |
-| 4 | dinheiro (44.8s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 5 | moeda (47.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 6 | - | INTERACAO | entregar | OK |
-| 7 | - | ATUACAO | reagir | OK |
-| 8 | - | PLACA | PREÇO DESPENCOU | OK |
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 48.9s a 52.2s - 10 palavras - plano orbit
-> "Mesmo assim, a moeda digital virou assunto no mundo inteiro."
+## Cena b6 - 31.5s a 35.9s - 13 palavras - plano two
+> "Em novembro, o bitcoin bateu sessenta e nove mil dólares, e Bukele comemorou."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bateu" (33.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (50.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | virou (50.7s) | ACAO: vira | o material vira o produto, que surge girando em destaque | OK |
+| 1 | bateu (33.0s) | EFEITO: dust | poeira + som | OK |
+| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 3 | - | INTERACAO | empurrar | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
-## Cena b9 - 52.6s a 57.0s - 13 palavras - plano group
-> "Uma moeda digital, uma lei nova e um país no centro das atenções."
+## Cena b7 - 36.3s a 41.5s - 15 palavras - plano orbit
+> "Mas um ano depois, despencou para dezesseis mil, e o país perdeu milhões no papel."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "despencou" (37.8s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | moeda (53.0s) | ACAO: paga | estende a mao com moedas + brilho | OK |
-| 2 | - | INTERACAO | vai ate o outro | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | perdeu (40.4s) | EFEITO: puff | fumaca + som | OK |
+| 2 | - | EMOCAO: sad | o rosto vira "sad" na palavra | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b10 - 57.4s a 61.9s - 13 palavras - plano close
+## Cena b8 - 41.9s a 46.7s - 14 palavras - plano orbit
+> "E uma pesquisa mostrou que sessenta e oito por cento da população era contra."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "pesquisa" (42.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
+
+## Cena b9 - 47.0s a 54.4s - 21 palavras - plano two
+> "Só que o jogo virou: em dezembro de dois mil e vinte e quatro, o bitcoin passou de cem mil dólares."
+
+- LEITURA DA FRASE: sentido AFIRMATIVA
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "passou" (53.0s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+
+## Cena b10 - 54.8s a 58.5s - 11 palavras - plano two
+> "E as reservas do país, que estavam no prejuízo, viraram lucro."
+
+- LEITURA DA FRASE: sentido FATO
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "reservas" (55.6s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | INTERACAO | avanca e o outro recua | OK |
+| 2 | - | ATUACAO | conversar | OK |
+| 3 | - | PLACA | PREJUÍZO → LUCRO | OK |
+
+## Cena b11 - 58.9s a 61.5s - 8 palavras - plano close
+> "Aposta maluca ou visão de futuro? Você decide."
+
+- LEITURA DA FRASE: sentido HIPOTESE (nada de tiro, explosao ou batalha na tela)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "Aposta" (58.9s)
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+
+## Cena b12 - 61.9s a 66.3s - 13 palavras - plano close
 > "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
