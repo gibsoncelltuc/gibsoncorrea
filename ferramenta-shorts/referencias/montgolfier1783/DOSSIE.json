@@ -9,7 +9,7 @@
   "cenarios": [
    "interior madeira",
    "loc_campo",
-   "loc_montanha",
+   "palace",
    "street"
   ],
   "cenarios_trocados": [
@@ -37,6 +37,11 @@
     "cena 9",
     "countryside",
     "loc_campo"
+   ],
+   [
+    "cena 11",
+    "countryside",
+    "loc_campo"
    ]
   ]
  },
@@ -61,6 +66,7 @@
   "kit/balloon",
   "kit/balloon_air",
   "kit/campfire",
+  "kit/fire",
   "kit/marco_versalhes",
   "kit/room_europa_wood",
   "kit/room_franca_wood",

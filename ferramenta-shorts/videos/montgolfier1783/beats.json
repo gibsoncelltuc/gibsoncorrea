@@ -252,6 +252,12 @@
       "lugar": "FUNDO, centro (objeto principal da cena)",
       "tela": "30% da altura da tela",
       "estado": "parado"
+     },
+     {
+      "objeto": "kit/fire",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    },
@@ -653,7 +659,7 @@
    },
    "detalhe": false,
    "quadro": {
-    "local": "loc_montanha",
+    "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
@@ -714,7 +720,19 @@
    "cz": -3.0,
    "h": 3.0,
    "d0": 14.0,
-   "d1": 12.0
+   "d1": 12.0,
+   "quadro": {
+    "local": "praia / palacio",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/balloon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "exp": 0.81,
