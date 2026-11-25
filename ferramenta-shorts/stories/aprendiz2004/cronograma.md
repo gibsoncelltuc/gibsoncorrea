@@ -7,7 +7,7 @@ Gerado em 25/11 17:33 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_cidade | close | TRU | - | marco_trumptower | - | Duas palavras deixaram Donald Trump famoso no mundo inteiro.
-b1 | simples | interior madeira | two | TRU | - | tv | - | E não foi na política. Foi na televisão.
+b1 | simples | interior madeira | close | TRU | - | tv | - | E não foi na política. Foi na televisão.
 b2 | simples | loc_pista | two | POV, POV | - | marco_trumptower, tv | - | Em 2004, estreou o programa O Aprendiz.
 b3 | chave | loc_cidade | crowd | TRU, CND | 16 | marco_trumptower | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Candidatos disputavam um emprego numa empresa dele.
 b4 | simples | interior madeira | group | TRU, CND, POV, POV | - | Chair_1, Table_Large | - | A equipe que perdia ia para a sala de reunião.
@@ -28,13 +28,13 @@ N | Etapa | O que confere | Estado | Proximo passo
 5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
-8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | PENDENTE | 
-9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | BLOQUEADO (etapa anterior pendente) | ./aprovar_storyboard.sh aprendiz2004
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | PENDENTE | ./aprovar_storyboard.sh aprendiz2004
 10 | Render | todos os quadros renderizados nesta versao das folhas | BLOQUEADO (etapa anterior pendente) | 
 11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | BLOQUEADO (etapa anterior pendente) | 
 12 | Conferencia | conferir.sh sem falha e folha de contato olhada | BLOQUEADO (etapa anterior pendente) | ./conferir.sh aprendiz2004
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | REFAZER (a etapa anterior mudou) | bash auditar_acoes.sh local aprendiz2004 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | REFAZER (a etapa anterior mudou) | 
 
-**Etapa atual:** 8. Storyboard e grade de acoes
+**Etapa atual:** 9. Revisao escrita e aprovacao
 

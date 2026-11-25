@@ -14,7 +14,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - E não foi na política. Foi na televisão.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): TRU (variante 0, expressao smug)
 - Animacao: conversar
@@ -114,7 +114,7 @@ mk/Chair_1 | b4 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 45% | medio 46% | aberto 7% | detalhe 2%
+- Objeto heroi: kit/tv | grandes momentos: b3, b6 | planos abertos: 2 | mistura: close 54% | medio 37% | aberto 7% | detalhe 2%
 - Interacoes: b2 vai ate o outro, b4 discutir, b7 aproxima-se
 - RISCOS GERAIS: nenhum
 

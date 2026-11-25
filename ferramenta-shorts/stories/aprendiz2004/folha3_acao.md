@@ -15,7 +15,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | conversar | OK |
 | 2 | - | PLACA | VOCÊ ESTÁ DEMITIDO! | OK |
 
-## Cena b1 - 3.7s a 5.7s - 8 palavras - plano two
+## Cena b1 - 3.7s a 5.7s - 8 palavras - plano close
 > "E não foi na política. Foi na televisão."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
