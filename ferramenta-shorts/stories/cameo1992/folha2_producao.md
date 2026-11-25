@@ -48,7 +48,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto
-- Personagens principais (2): FUN (variante 0, expressao surprised); TRU (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (2): FUN (variante 0, expressao surprised); TRU (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: conversar | interacao: avanca e o outro recua
 - Objetos/modelos: nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cena, sete
@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): DIR (variante 0, expressao smug); TRU (variante 0, expressao stern) | multidao: 0 de 
+- Personagens principais (2): DIR (variante 0, expressao smug); TRU (variante 0, expressao stern) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): diretor, hotel, participacao, preco, trump

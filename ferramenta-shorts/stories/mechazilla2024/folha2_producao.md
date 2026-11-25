@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao worried, segura paper) | multidao: 0 de 
+- Personagens principais (1): ENG (variante 0, expressao worried, segura paper) | multidao: 0 de POV
 - Animacao: discutir
 - Objetos/modelos: kit/booster_air, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): baixo, foguete
@@ -75,7 +75,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): foguete, musk, pernas, propria, propulsor
@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_patio | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENA (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): ENA (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, engenheiros, mechazilla, pauzinhos, torre
@@ -115,7 +115,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_patio | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (1): ENG (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/booster_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): propulsor, teste, trinta
@@ -141,7 +141,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_patio | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao nervous) | multidao: 0 de 
+- Personagens principais (1): ENG (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: reagir
 - Objetos/modelos: kit/booster_air, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direcao, torre
@@ -165,7 +165,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_patio | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENA (variante 0, expressao scared) | multidao: 0 de 
+- Personagens principais (1): ENA (variante 0, expressao scared) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bracos, foguete
@@ -189,7 +189,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_campo | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): ENG (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar
 - Objetos/modelos: kit/tower_catch, kit/tower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): engenheiros, primeira
@@ -213,7 +213,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_deserto | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/tower_catch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lixo, novo, propulsor

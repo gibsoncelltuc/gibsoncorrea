@@ -215,7 +215,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): REP (variante 0, expressao suspicious, segura paper) | multidao: 0 de 
+- Personagens principais (1): REP (variante 0, expressao suspicious, segura paper) | multidao: 0 de POV
 - Animacao: discutir
 - Objetos/modelos: kit/prison, kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos, estado, excecao, prisoes

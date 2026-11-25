@@ -113,7 +113,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/marco_goldengate, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): alto, predio
@@ -135,7 +135,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): POV (variante 0, expressao angry); JOR (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (2): POV (variante 0, expressao angry); JOR (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, madrugada, vizinhos

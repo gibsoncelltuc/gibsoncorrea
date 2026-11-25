@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de 
+- Personagens principais (1): LAS (variante 0, expressao angry) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gigante, lutador, mcmahon, ringue, trump
@@ -143,7 +143,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): JUI (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz, luta
@@ -166,7 +166,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): LAS (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ring, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estadio, lutador, trump
@@ -190,7 +190,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/ring, kit/clipper
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca
@@ -214,7 +214,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: stadium | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JUI (variante 0, expressao angry) | multidao: 0 de 
+- Personagens principais (1): JUI (variante 0, expressao angry) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/ring
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): juiz

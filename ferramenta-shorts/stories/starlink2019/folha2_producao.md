@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
+- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/starlink_train
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): disco, europa, fila, luzes
@@ -74,7 +74,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de 
+- Personagens principais (1): AST (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/starlink_train, nature/picket_fence
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fila, luzes, tres
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_montanha | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): AST (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/starlink_train
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
@@ -118,7 +118,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 0 de 
+- Personagens principais (1): JOR (variante 0, expressao shock) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avistamentos, cento, ovnis, site
@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/falcon_air
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lancamento, satelites

@@ -93,7 +93,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): TRU (variante 0, expressao sad); JOR (variante 0, expressao smug, segura paper) | multidao: 0 de 
+- Personagens principais (2): TRU (variante 0, expressao sad); JOR (variante 0, expressao smug, segura paper) | multidao: 0 de POV
 - Animacao: encena | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cinquenta, reportagem, vendas

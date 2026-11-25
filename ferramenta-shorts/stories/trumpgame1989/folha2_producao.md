@@ -142,7 +142,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): EXE (variante 0, expressao sad); EXE (variante 1, expressao nervous) | multidao: 0 de 
+- Personagens principais (2): EXE (variante 0, expressao sad); EXE (variante 1, expressao nervous) | multidao: 0 de POV
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fabrica, jogos
@@ -208,7 +208,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 0 de 
+- Personagens principais (3): TRU (variante 0, expressao smug); POV (variante 0, expressao laugh); POV (variante 1, expressao grin) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/boardgame, kit/marco_liberdade
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): frase, jogo, lojas, programa, regras

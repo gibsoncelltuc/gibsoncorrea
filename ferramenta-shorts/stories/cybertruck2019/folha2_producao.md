@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): janelas, picape, proprio
@@ -29,7 +29,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): california, cybertruck, dois, tesla, vidro
@@ -52,7 +52,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): DSG (variante 0, expressao stern, segura ball) | multidao: 0 de 
+- Personagens principais (1): DSG (variante 0, expressao stern, segura ball) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/cybertruck, kit/steel_ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): designer, esfera, janela
@@ -94,7 +94,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): DSG (variante 0, expressao nervous) | multidao: 0 de 
+- Personagens principais (1): DSG (variante 0, expressao nervous) | multidao: 0 de POV
 - Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/cybertruck, kit/ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bola, novo
@@ -161,7 +161,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/globe, kit/cybertruck
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cento, picape
@@ -184,7 +184,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: dia | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (2): MUS (variante 0, expressao laugh); DSG (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: comemorar | interacao: pular
 - Objetos/modelos: kit/cybertruck, kit/steel_ball
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): esfera, janela, lancamento, picape

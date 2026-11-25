@@ -31,7 +31,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, vulcoes
@@ -96,7 +96,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: jungle | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): BUK (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): calor, empresa, energia, governo, vulcao
@@ -119,7 +119,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_estudio | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): - | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/volcano, kit/turbina
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dentro, terra, vapor
@@ -206,7 +206,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao surprised) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: encena
 - Objetos/modelos: kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, plano

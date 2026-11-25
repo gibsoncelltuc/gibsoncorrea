@@ -32,7 +32,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de 
+- Personagens principais (1): POV (variante 0, expressao smile) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, estados
@@ -121,7 +121,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: hall | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de 
+- Personagens principais (1): TRU (variante 0, expressao laugh) | multidao: 0 de POV
 - Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores
@@ -192,7 +192,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao grin) | multidao: 0 de 
+- Personagens principais (1): TRU (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: - | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, janeiro, novo
@@ -213,7 +213,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de 
+- Personagens principais (1): TRU (variante 0, expressao smug) | multidao: 0 de POV
 - Animacao: -
 - Objetos/modelos: kit/white_house, kit/marco_casabranca
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): presidente, quarenta
