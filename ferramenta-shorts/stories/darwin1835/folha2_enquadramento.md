@@ -26,8 +26,8 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: DAR (cientista) na esquerda, expressao suspicious, segura paper; MAR (marinheiro) na direita, expressao bored; sem multidao; acao: conversar
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: DAR (cientista) no centro, expressao suspicious, segura paper; sem multidao; acao: conversar
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 46.1 m de altura x 43.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b4: "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes."

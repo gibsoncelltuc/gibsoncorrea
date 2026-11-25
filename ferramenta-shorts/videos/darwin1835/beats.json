@@ -254,10 +254,9 @@
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "DAR:0:suspicious:paper",
-    "MAR:0:bored"
+    "DAR:0:suspicious:paper"
    ],
    "acao": "conversar",
    "set": "harbor",
@@ -284,19 +283,14 @@
      }
     ]
    ],
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "crowd": {
     "n": 0
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "detalhe": false,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_fragata",
@@ -305,7 +299,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "say": "Em Londres, o especialista John Gould revelou: eram todos tentilhões, de espécies diferentes.",

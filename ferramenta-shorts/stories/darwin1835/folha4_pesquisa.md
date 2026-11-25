@@ -5,7 +5,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Historia: Darwin e os Tentilhões
 - Epoca: 1835 | Lugar: Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, tartarugas e iguanas; depois Londres | Quando: setembro e outubro de 1835 (Galapagos); 1837 (Gould em Londres); 1859 (o livro); de dia
 - HEROIS (objeto): kit/finch, kit/bancada, kit/navio_fragata
-- HEROIS (personagens): DAR, MAR
+- HEROIS (personagens): DAR, GOU
 - Cenarios: countryside, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais); kit/finch: 0.6 m reais -> escala 0.87 (estava 1.3: grande demais)
