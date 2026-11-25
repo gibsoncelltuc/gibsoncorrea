@@ -81,8 +81,8 @@
    },
    "cx": 0.0,
    "cz": -0.4,
-   "d0": 9.0,
-   "d1": 7.5,
+   "d0": 11.5,
+   "d1": 10.0,
    "quadro_manual": true,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
@@ -95,7 +95,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "shot_lock": true
   },
   {
    "say": "Era mil oitocentos e setenta. A Prússia cercou a cidade, e a comida acabou.",
