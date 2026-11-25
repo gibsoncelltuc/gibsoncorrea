@@ -83,11 +83,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Em 1980, o post-it chegou às lojas do mundo todo.
-- Cenario: countryside | luz: day | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): SIL (variante 0, expressao smile); CHE (variante 0, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (2): SIL (variante 0, expressao smile); CHE (variante 0, expressao grin)
+- Animacao: conversar | interacao: aproxima-se | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): lojas, postit
 - RISCOS: nenhum
@@ -112,8 +112,8 @@ buildings/church | b1 | pronto | conferir na folha de contato se le bem; se pare
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 4% | medio 78% | aberto 18% | detalhe 0%
-- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b5 vai ate o outro, b9 empurrar
+- Objeto heroi: kit/postit | grandes momentos: b1, b6 | planos abertos: 2 | mistura: close 4% | medio 89% | aberto 7% | detalhe 0%
+- Interacoes: b0 discutir, b2 avanca e o outro recua, b3 o outro se aproxima, b4 insiste, b5 vai ate o outro, b8 aproxima-se, b9 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

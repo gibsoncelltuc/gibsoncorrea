@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 1.9s - 9 palavras - plano two
@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | PLACA | 1980 | OK |
+| 2 | - | PLACA | CORAL DA IGREJA | OK |
 
 ## Cena b2 - 5.0s a 8.6s - 9 palavras - plano two
 > "Em 1968, Spencer Silver tentava criar uma super cola."
@@ -93,7 +93,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
-## Cena b8 - 25.1s a 26.9s - 10 palavras - plano wide
+## Cena b8 - 25.1s a 26.9s - 10 palavras - plano two
 > "Em 1980, o post-it chegou às lojas do mundo todo."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -102,7 +102,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | chegou (25.8s) | EFEITO: dust | poeira + som | OK |
-| 2 | - | PLACA | 1980 | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
+| 4 | - | CHEGADA | alguem entra andando | OK |
+| 5 | - | PLACA | NAS LOJAS: 1980 | OK |
 
 ## Cena b9 - 27.6s a 29.9s - 9 palavras - plano two
 > "A cola não colava direito. E foi assim que..."

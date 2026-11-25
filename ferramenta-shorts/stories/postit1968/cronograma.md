@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Gerado em 25/11 19:41 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 20:50 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -14,7 +14,7 @@ b4 | simples | interior pedra | group | FRY, PAD, POV | - | - | - | Acontece que
 b5 | simples | interior pedra | two | FRY, PAD | - | postit | - | E os papeizinhos do hinário viviam caindo.
 b6 | chave | street | orbit | FRY | - | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele pensou: e se os marcadores tivessem a cola fraca?
 b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/postit (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | O papel saiu amarelo por acaso: era o único que tinha.
-b8 | simples | countryside | wide | SIL, CHE | 6 | postit | - | Em 1980, o post-it chegou às lojas do mundo todo.
+b8 | simples | interior loja | two | SIL, CHE | - | postit | - | Em 1980, o post-it chegou às lojas do mundo todo.
 b9 | simples | street | two | SIL, CHE | - | postit | - | A cola não colava direito. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

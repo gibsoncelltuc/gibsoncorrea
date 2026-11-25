@@ -7,8 +7,8 @@
   "regiao": "eua",
   "luz_base": "day",
   "cenarios": [
-   "countryside",
    "interior galpao",
+   "interior loja",
    "interior madeira",
    "interior pedra",
    "loc_estudio",
@@ -42,6 +42,7 @@
   "kit/cone_transito",
   "kit/palete",
   "kit/postit",
+  "kit/room_azul_shop",
   "kit/room_europa_wood",
   "kit/room_galpao",
   "kit/room_verde_stone",

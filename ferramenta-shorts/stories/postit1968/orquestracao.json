@@ -170,12 +170,12 @@
    "cenario": "loc_estudio"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "SIL",
     "CHE"
    ],
-   "multidao": 6,
+   "multidao": 0,
    "objetos": [
     "kit/postit"
    ],
@@ -186,7 +186,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "countryside"
+   "cenario": "interior loja"
   },
   {
    "camera": "two",

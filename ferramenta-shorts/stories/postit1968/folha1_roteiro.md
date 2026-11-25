@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: ring@12, dust@40
-- Texto na tela: 1980
+- Texto na tela: CORAL DA IGREJA
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b2  (~3.1 s)
@@ -76,11 +76,11 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~3.4 s)
 - Narracao: Em 1980, o post-it chegou às lojas do mundo todo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto
 - Efeito visual marcado: -
-- Texto na tela: 1980
+- Texto na tela: NAS LOJAS: 1980
 - Funcao na historia: desenvolvimento
 
 ## Cena b9  (~3.1 s)
