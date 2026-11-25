@@ -1,0 +1,171 @@
+{
+ "duration": 29.808,
+ "frames30": 894,
+ "source": "silence-align (cost 1.46)",
+ "segments": [
+  [
+   0.0,
+   2.63008
+  ],
+  [
+   3.00771,
+   4.87608
+  ],
+  [
+   5.24829,
+   6.704
+  ],
+  [
+   6.95058,
+   8.87204
+  ],
+  [
+   9.25117,
+   11.6418
+  ],
+  [
+   12.0215,
+   14.3613
+  ],
+  [
+   14.7321,
+   15.1634
+  ],
+  [
+   15.3737,
+   16.4831
+  ],
+  [
+   16.6868,
+   17.6922
+  ],
+  [
+   18.0714,
+   18.8896
+  ],
+  [
+   19.0902,
+   19.9841
+  ],
+  [
+   20.3373,
+   21.063
+  ],
+  [
+   21.2642,
+   22.7668
+  ],
+  [
+   22.97,
+   23.9398
+  ],
+  [
+   24.3158,
+   25.2837
+  ],
+  [
+   25.5533,
+   26.7029
+  ],
+  [
+   27.0802,
+   28.2658
+  ],
+  [
+   28.627,
+   29.3666
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
+   "s": 0.0,
+   "e": 2.63
+  },
+  {
+   "text": "E quem aplicou a vacina nem era m\u00e9dico.",
+   "s": 3.008,
+   "e": 4.876
+  },
+  {
+   "text": "Em 1885,",
+   "s": 5.248,
+   "e": 6.704
+  },
+  {
+   "text": "Louis Pasteur estudava micr\u00f3bios na Fran\u00e7a.",
+   "s": 6.951,
+   "e": 8.872
+  },
+  {
+   "text": "Mordida de animal com raiva quase sempre matava.",
+   "s": 9.251,
+   "e": 11.642
+  },
+  {
+   "text": "A vacina dele s\u00f3 tinha sido testada em animais.",
+   "s": 12.021,
+   "e": 14.361
+  },
+  {
+   "text": "Um dia,",
+   "s": 14.732,
+   "e": 15.163
+  },
+  {
+   "text": "chegou o menino Joseph,",
+   "s": 15.374,
+   "e": 16.483
+  },
+  {
+   "text": "mordido por um cachorro.",
+   "s": 16.687,
+   "e": 17.692
+  },
+  {
+   "text": "Pasteur tinha medo,",
+   "s": 18.071,
+   "e": 18.89
+  },
+  {
+   "text": "mas decidiu tentar.",
+   "s": 19.09,
+   "e": 19.984
+  },
+  {
+   "text": "Acontece que,",
+   "s": 20.337,
+   "e": 21.063
+  },
+  {
+   "text": "depois de dez dias de inje\u00e7\u00f5es,",
+   "s": 21.264,
+   "e": 22.767
+  },
+  {
+   "text": "o menino n\u00e3o adoeceu.",
+   "s": 22.97,
+   "e": 23.94
+  },
+  {
+   "text": "Joseph sobreviveu,",
+   "s": 24.316,
+   "e": 25.284
+  },
+  {
+   "text": "e a not\u00edcia correu o mundo.",
+   "s": 25.553,
+   "e": 26.703
+  },
+  {
+   "text": "Um qu\u00edmico arriscou tudo.",
+   "s": 27.08,
+   "e": 28.266
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 28.627,
+   "e": 29.367
+  }
+ ]
+}
