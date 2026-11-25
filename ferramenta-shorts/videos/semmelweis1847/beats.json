@@ -336,7 +336,7 @@
      "kit/bisturi",
      0.0,
      0.6,
-     0.6,
+     1.5,
      {
       "fixo": true
      }
@@ -345,9 +345,9 @@
    "quadro_manual": true,
    "cx": 0.0,
    "cz": 0.3,
-   "h": 1.5,
-   "d0": 8.5,
-   "d1": 8.0,
+   "h": 1.4,
+   "d0": 6.5,
+   "d1": 6.0,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bisturi juntos (camera a 11.5 m)",
