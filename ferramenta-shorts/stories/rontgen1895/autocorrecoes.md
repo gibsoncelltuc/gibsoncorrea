@@ -38,3 +38,6 @@
 
 ## 25/11 18:40 autocorrecao de visibilidade
 - b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+
+## 25/11 18:43 autocorrecao de visibilidade
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/xray_plate" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
