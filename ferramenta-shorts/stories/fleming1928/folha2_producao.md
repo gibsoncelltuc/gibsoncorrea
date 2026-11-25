@@ -95,8 +95,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b4 - Quando voltou, achou um prato estragado, coberto de bolor verde.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao angry)
 - Animacao: conversar
 - Objetos/modelos: kit/bancada, kit/petri_mofo
@@ -117,8 +117,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b5 - Ele ia jogar o prato fora, mas olhou melhor.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): FLE (variante 0, expressao suspicious)
 - Animacao: conversar
 - Objetos/modelos: kit/bancada, kit/petri_mofo
@@ -137,8 +137,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que, em volta do mofo, as bactérias tinham sumido.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): FLE (variante 0, expressao shock); COL (variante 0, expressao surprised) | multidao: 0 de POV
 - Animacao: reagir | interacao: aproxima-se
 - Objetos/modelos: kit/bancada, kit/petri_mofo
@@ -267,7 +267,7 @@ kit/petri | b2, b8 | pronto | conferir na folha de contato se le bem; se parecer
 
 
 ## Video inteiro
-- Objeto heroi: kit/petri_mofo | grandes momentos: b3, b9 | planos abertos: 5 | mistura: close 9% | medio 53% | aberto 33% | detalhe 4%
+- Objeto heroi: kit/petri_mofo | grandes momentos: b3, b9 | planos abertos: 5 | mistura: close 9% | medio 57% | aberto 33% | detalhe 0%
 - Interacoes: b6 aproxima-se, b8 pular
 - RISCOS GERAIS: nenhum
 

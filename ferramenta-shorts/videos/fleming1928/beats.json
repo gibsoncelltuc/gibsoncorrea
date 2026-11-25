@@ -280,7 +280,7 @@
    "who": [
     "FLE:0:angry"
    ],
-   "detalhe": true,
+   "detalhe": false,
    "props": [
     [
      "kit/bancada",
@@ -308,14 +308,8 @@
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "voltou",
-      "quem": 1
-     },
-     {
-      "faz": "olha",
-      "na": "achou",
-      "quem": 1
+      "faz": "mostra",
+      "na": "prato"
      }
     ]
    },
@@ -374,7 +368,7 @@
     ]
    ],
    "interior": "madeira",
-   "detalhe": true,
+   "detalhe": false,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -407,7 +401,8 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "shot_lock": true
   },
   {
    "say": "Acontece que, em volta do mofo, as bactérias tinham sumido.",
@@ -453,7 +448,7 @@
      }
     ]
    ],
-   "detalhe": true,
+   "detalhe": false,
    "text": "BACTÉRIAS SUMIRAM",
    "explica": false,
    "encena": {

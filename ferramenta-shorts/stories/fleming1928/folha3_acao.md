@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 04 - Fleming e a Penicilina
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 23 acoes catalogadas, 23 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.3s - 12 palavras - plano wide
@@ -70,19 +70,14 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "Quando voltou, achou um prato estragado, coberto de bolor verde."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto chega na cena | na palavra "voltou" (23.3s)
-  2) objeto olha/aponta para o alvo | na palavra "achou" (23.9s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prato" (24.3s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | voltou (23.3s) | ACAO: chega | entra andando pela lateral | OK |
-| 2 | achou (23.9s) | ACAO: olha | aponta/olha | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | conversar | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra voltou (23.3s): executa: entra andando pela lateral
-- ACAO: olha na palavra achou (23.9s): braco estendido apontando para o objeto/lugar citado
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
