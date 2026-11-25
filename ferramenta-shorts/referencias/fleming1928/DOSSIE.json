@@ -7,7 +7,6 @@
   "regiao": "europa",
   "luz_base": "day",
   "cenarios": [
-   "hall",
    "interior galpao",
    "interior madeira",
    "interior pedra",
@@ -35,14 +34,12 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "buildings/house_two",
-  "buildings/shop",
   "kit/bancada",
   "kit/marco_bigben",
-  "kit/microscopio",
   "kit/petri",
   "kit/petri_mofo",
   "kit/room_azul_wood",
+  "kit/room_colonial_wood",
   "kit/room_europa_wood",
   "kit/room_galpao",
   "kit/room_verde_wood",

@@ -75,6 +75,10 @@
    "sfx": [
     "ding@30"
    ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "gancho",
    "say": "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
    "encena": {
@@ -87,24 +91,7 @@
     ]
    },
    "text": "TRUMP: O JOGO",
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "titulo": true
   },
   {
    "shot": "two",
@@ -123,6 +110,10 @@
     ]
    ],
    "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "promessa",
    "say": "E o jogo empacou por um motivo bem simples.",
    "encena": {
@@ -133,24 +124,7 @@
       "na": "motivo"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "reveal",
@@ -197,6 +171,10 @@
    "sfx": [
     "ding@40"
    ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "prova",
    "say": "No jogo, o objetivo era juntar prédios, cassinos e hotéis.",
    "encena": {
@@ -207,24 +185,7 @@
       "na": "prédios"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -252,6 +213,10 @@
     "sting@50"
    ],
    "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "bloco": "prova",
    "say": "As notas tinham a cara dele.",
    "encena": {
@@ -262,24 +227,7 @@
       "na": "notas"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "two",
@@ -300,6 +248,10 @@
     ]
    ],
    "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "escalada",
    "say": "Acontece que o manual era longo, e ninguém entendia as regras.",
    "encena": {
@@ -310,24 +262,7 @@
       "na": "manual"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -385,6 +320,10 @@
    "sfx": [
     "ding@40"
    ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Em 2004, com O Aprendiz, o jogo voltou.",
    "encena": {
@@ -395,24 +334,7 @@
       "na": "voltou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "set": "street",
@@ -450,6 +372,10 @@
    "text": "VOLTOU",
    "titulo": true,
    "impact": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Desta vez, com regras bem mais simples.",
    "encena": {
@@ -460,24 +386,7 @@
       "na": "regras"
      }
     ]
-   },
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -502,6 +411,10 @@
    "sfx": [
     "ding@30"
    ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "loop",
    "say": "Um jogo que ninguém entendia. Foi assim que...",
    "encena": {
@@ -512,24 +425,7 @@
       "na": "jogo"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e boardgame juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/boardgame",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   }
  ],
  "fontes": [

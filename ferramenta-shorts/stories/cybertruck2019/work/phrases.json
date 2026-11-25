@@ -1,0 +1,198 @@
+{
+ "duration": 35.592,
+ "frames30": 1068,
+ "source": "silence-align (cost 1.40)",
+ "segments": [
+  [
+   0.147083,
+   2.56217
+  ],
+  [
+   2.77046,
+   3.42817
+  ],
+  [
+   4.20783,
+   6.33621
+  ],
+  [
+   7.11708,
+   8.01142
+  ],
+  [
+   8.20308,
+   9.62237
+  ],
+  [
+   10.4056,
+   12.5919
+  ],
+  [
+   13.3855,
+   15.4659
+  ],
+  [
+   16.2662,
+   17.6815
+  ],
+  [
+   17.8668,
+   18.3065
+  ],
+  [
+   18.4927,
+   19.4379
+  ],
+  [
+   20.2217,
+   21.56
+  ],
+  [
+   22.3326,
+   23.0245
+  ],
+  [
+   23.8081,
+   24.6276
+  ],
+  [
+   24.8137,
+   25.435
+  ],
+  [
+   25.6697,
+   26.4708
+  ],
+  [
+   27.2593,
+   27.865
+  ],
+  [
+   28.0639,
+   28.8695
+  ],
+  [
+   29.0663,
+   31.1279
+  ],
+  [
+   31.914,
+   32.6197
+  ],
+  [
+   32.8492,
+   33.4375
+  ],
+  [
+   34.2777,
+   34.8619
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma picape blindada teve as janelas rachadas ao vivo,",
+   "s": 0.147,
+   "e": 2.562
+  },
+  {
+   "text": "no lan\u00e7amento.",
+   "s": 2.77,
+   "e": 3.428
+  },
+  {
+   "text": "E mesmo assim virou sucesso de reservas.",
+   "s": 4.208,
+   "e": 6.336
+  },
+  {
+   "text": "Em 2019,",
+   "s": 7.117,
+   "e": 8.011
+  },
+  {
+   "text": "a Tesla apresentou o Cybertruck.",
+   "s": 8.203,
+   "e": 9.622
+  },
+  {
+   "text": "Musk garantiu que o vidro era super resistente.",
+   "s": 10.406,
+   "e": 12.592
+  },
+  {
+   "text": "O designer jogou uma esfera de a\u00e7o na janela.",
+   "s": 13.386,
+   "e": 15.466
+  },
+  {
+   "text": "Acontece que o vidro rachou,",
+   "s": 16.266,
+   "e": 17.681
+  },
+  {
+   "text": "ao vivo,",
+   "s": 17.867,
+   "e": 18.306
+  },
+  {
+   "text": "na frente da plateia.",
+   "s": 18.493,
+   "e": 19.438
+  },
+  {
+   "text": "Ele tentou em outra janela.",
+   "s": 20.222,
+   "e": 21.56
+  },
+  {
+   "text": "Tamb\u00e9m rachou.",
+   "s": 22.333,
+   "e": 23.024
+  },
+  {
+   "text": "Musk disse que,",
+   "s": 23.808,
+   "e": 24.628
+  },
+  {
+   "text": "nos testes,",
+   "s": 24.814,
+   "e": 25.435
+  },
+  {
+   "text": "o vidro aguentava.",
+   "s": 25.67,
+   "e": 26.471
+  },
+  {
+   "text": "Mesmo assim,",
+   "s": 27.259,
+   "e": 27.865
+  },
+  {
+   "text": "em poucos dias,",
+   "s": 28.064,
+   "e": 28.869
+  },
+  {
+   "text": "vieram mais de 140 mil reservas.",
+   "s": 29.066,
+   "e": 31.128
+  },
+  {
+   "text": "O vidro falhou,",
+   "s": 31.914,
+   "e": 32.62
+  },
+  {
+   "text": "a venda n\u00e3o.",
+   "s": 32.849,
+   "e": 33.438
+  },
+  {
+   "text": "Foi assim que...",
+   "s": 34.278,
+   "e": 34.862
+  }
+ ]
+}

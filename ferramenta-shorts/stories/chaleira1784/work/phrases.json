@@ -1,0 +1,121 @@
+{
+ "duration": 30.936,
+ "frames30": 928,
+ "source": "silence-align (cost 1.11)",
+ "segments": [
+  [
+   0.155667,
+   1.67737
+  ],
+  [
+   1.89237,
+   2.87604
+  ],
+  [
+   3.67221,
+   5.67713
+  ],
+  [
+   6.46983,
+   7.99887
+  ],
+  [
+   8.16742,
+   10.6526
+  ],
+  [
+   11.4429,
+   13.3594
+  ],
+  [
+   14.1444,
+   15.7982
+  ],
+  [
+   16.1019,
+   17.5358
+  ],
+  [
+   18.3199,
+   20.9922
+  ],
+  [
+   21.777,
+   23.9535
+  ],
+  [
+   24.7382,
+   26.4298
+  ],
+  [
+   27.227,
+   28.6906
+  ],
+  [
+   29.4801,
+   30.2209
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra inteira teve um \u00fanico tiro,",
+   "s": 0.156,
+   "e": 2.876
+  },
+  {
+   "text": "e ele acertou uma chaleira.",
+   "s": 3.672,
+   "e": 5.677
+  },
+  {
+   "text": "E dentro dela tinha sopa quente para o almo\u00e7o.",
+   "s": 6.47,
+   "e": 7.999
+  },
+  {
+   "text": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
+   "s": 8.167,
+   "e": 10.653
+  },
+  {
+   "text": "O imperador da \u00c1ustria queria o rio aberto.",
+   "s": 11.443,
+   "e": 13.359
+  },
+  {
+   "text": "Mandou tr\u00eas navios descerem o rio,",
+   "s": 14.144,
+   "e": 15.798
+  },
+  {
+   "text": "certo de que ningu\u00e9m reagiria.",
+   "s": 16.102,
+   "e": 17.536
+  },
+  {
+   "text": "Acontece que um navio holand\u00eas esperava e disparou um tiro.",
+   "s": 18.32,
+   "e": 20.992
+  },
+  {
+   "text": "A bala destruiu a chaleira de sopa no conv\u00e9s.",
+   "s": 21.777,
+   "e": 23.953
+  },
+  {
+   "text": "O navio austr\u00edaco se rendeu na hora.",
+   "s": 24.738,
+   "e": 26.43
+  },
+  {
+   "text": "Perderam o almo\u00e7o e a coragem.",
+   "s": 27.227,
+   "e": 28.691
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.48,
+   "e": 30.221
+  }
+ ]
+}

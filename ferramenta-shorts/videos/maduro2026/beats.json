@@ -65,7 +65,8 @@
   {
    "shot": "wide",
    "who": [
-    "SOL:0:stern"
+    "SOL:0:stern",
+    "MAD:0:shock"
    ],
    "props": [
     [
@@ -90,6 +91,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_cidade",
    "hora": "noite",
    "bloco": "gancho",
@@ -103,25 +109,7 @@
      }
     ]
    },
-   "titulo": true,
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/helicopter_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   "titulo": true
   },
   {
    "shot": "wide",
@@ -145,6 +133,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
    "bloco": "promessa",
    "say": "E tudo levou menos de três horas.",
    "encena": {
@@ -155,25 +148,7 @@
       "na": "levou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/helicopter_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "reveal",
@@ -217,6 +192,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
    "hora": "noite",
    "bloco": "prova",
    "say": "O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo.",
@@ -228,25 +208,7 @@
       "na": "Maduro"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/helicopter_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -282,6 +244,11 @@
    "titulo": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
    "bloco": "escalada",
    "say": "Às duas da manhã, helicópteros levaram a Força Delta até ele.",
    "encena": {
@@ -292,25 +259,7 @@
       "na": "levaram"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/helicopter_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   },
   {
    "shot": "wide",
@@ -432,6 +381,10 @@
     ]
    ],
    "interacao": "entregar",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "pagamento",
    "say": "Foi levado de avião para Nova York.",
    "encena": {
@@ -442,30 +395,7 @@
       "na": "levado"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e scroll juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/scroll",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "vehicles/airplane",
-      "lugar": "FUNDO, direita",
-      "tela": "18% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "crowd",
@@ -507,7 +437,8 @@
   {
    "shot": "wide",
    "who": [
-    "SOL:0:stern"
+    "SOL:0:stern",
+    "MAD:0:shock"
    ],
    "props": [
     [
@@ -532,6 +463,11 @@
     "n": 0
    },
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
    "set": "loc_cidade",
    "hora": "noite",
    "bloco": "loop",
@@ -544,25 +480,7 @@
       "na": "Resolução"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "loc_cidade",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter_air (alvo z -2.0, camera a 20.0 m, altura 2.6 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/helicopter_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0
+   }
   }
  ],
  "fontes": [
@@ -607,6 +525,5 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: um presidente foi capturado de madrugada na propria capital em menos de tres horas, numa operacao de nome forte. Pagamento: Forca Delta de helicoptero, defesas desligadas, Maduro levado para Nova York; operacao Resolucao Absoluta.",
- "loop_frase_ok": true,
- "max_wide": 8
+ "loop_frase_ok": true
 }

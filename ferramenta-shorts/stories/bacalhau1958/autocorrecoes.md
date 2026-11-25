@@ -89,3 +89,12 @@
 
 ## 24/11 15:09 autocorrecao de visibilidade
 - b8: "kit/room_europa_stone" cobrindo a tela (60% do quadro: so' se ve uma parede/casco) -> plano aberto sem fachada (o que cobria a tela era cenario)
+
+## 25/11 17:35 autocorrecao de visibilidade
+- b2: personagem PONTINHO (maior: 0% da altura da tela; precisa de 6%+): camera longe demais dos personagens -> camera perto dos personagens (d 20.0) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)
+- b4: personagem PONTINHO (maior: 0% da altura da tela; precisa de 6%+): camera longe demais dos personagens -> camera perto dos personagens (d 20.0) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)
+- b0: objeto "kit/barco_guarda" saiu com 7% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (1.0, -1.0)
+- b6: objeto "kit/barco_guarda" saiu com 8% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (1.5, -1.0)
+- b7: objeto "kit/barco_guarda" saiu com 7% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (1.0, -1.0)
+- b8: objeto "kit/scroll" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto "kit/barco_guarda" saiu com 7% da altura da tela, a ficha de cena planejou 30% -> objeto trazido para perto do centro (1.0, -1.0)

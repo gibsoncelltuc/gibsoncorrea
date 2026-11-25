@@ -31,8 +31,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
-  "boat",
-  "buildings/house_small",
+  "buildings/house_two",
   "buildings/shop",
   "kit/bancada",
   "kit/finch",
@@ -42,7 +41,6 @@
   "kit/room_colonial_stone",
   "kit/room_europa_wood",
   "kit/room_verde_wood",
-  "kit/semente",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Bookcase_2",

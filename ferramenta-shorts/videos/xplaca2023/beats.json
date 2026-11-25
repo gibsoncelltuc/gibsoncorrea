@@ -83,15 +83,19 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
    "text": "X",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "set": "loc_patio",
    "bloco": "gancho",
    "say": "Uma placa com uma letra só virou caso de investigação.",
@@ -104,20 +108,7 @@
      }
     ]
    },
-   "titulo": true,
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_patio",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "tiros": false,
@@ -130,14 +121,18 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "interior": "madeira",
    "bloco": "promessa",
    "say": "E a culpa foi de uma luz piscando de madrugada.",
@@ -147,19 +142,6 @@
      {
       "faz": "mostra",
       "na": "luz"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
      }
     ]
    }
@@ -359,14 +341,18 @@
    "props": [
     [
      "kit/phone",
+     2.4,
+     0.2,
      1.0,
-     1.0,
-     0.96,
      {
       "fixo": true
      }
     ]
    ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "interior": "madeira",
    "bloco": "loop",
    "say": "Até trocar de nome precisa de licença. Foi assim que...",
@@ -376,19 +362,6 @@
      {
       "faz": "mostra",
       "na": "licença"
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro",
-    "objetos": [
-     {
-      "objeto": "kit/phone",
-      "lugar": "FRENTE, centro (objeto principal da cena)",
-      "tela": "15% da altura da tela",
-      "estado": "parado"
      }
     ]
    }

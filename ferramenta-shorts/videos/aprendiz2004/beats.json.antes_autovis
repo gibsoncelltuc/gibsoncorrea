@@ -113,8 +113,8 @@
    "_susp_ok": true,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
+   "d0": 11.4,
+   "d1": 11.0,
    "_enq_shot": "close",
    "quadro": {
     "local": "sala de madeira",
@@ -129,7 +129,7 @@
     ]
    },
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",

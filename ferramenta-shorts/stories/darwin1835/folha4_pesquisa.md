@@ -8,13 +8,13 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): DAR, MAR
 - Cenarios: countryside, harbor, interior madeira, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/finch: 0.6 m reais -> escala 0.87 (estava 1.3: grande demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Darwin e os Tentilhões | Darwin e os Tentilhões / Um Terra Em Charles Darwin Galápagos Beagle Coletou Beagle 1835 | Darwin's finches by Gould.jpg (referencias/darwin1835/prints/darwin_e_os_tentilh_es_ff01ef.jpg); Tentilhões de Darwin.png (referencias/darwin1835/prints/darwin_e_os_tentilh_es_e266b2.jpg); Charles Darwin sentado - 1854 - Image 225735.jpg (referencias/darwin1835/prints/darwin_e_os_tentilh_es_3d5f04.jpg)
+tema | Darwin e os Tentilhões | Darwin e os Tentilhões / Uma Darwin Terra Em Darwin Galápagos 1835 | Darwin's finches by Gould.jpg (referencias/darwin1835/prints/darwin_e_os_tentilh_es_ff01ef.jpg); Tentilhões de Darwin.png (referencias/darwin1835/prints/darwin_e_os_tentilh_es_e266b2.jpg); Charles Darwin sentado - 1854 - Image 225735.jpg (referencias/darwin1835/prints/darwin_e_os_tentilh_es_3d5f04.jpg)
 lugar | Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, t | Ilhas Galapagos no Pacifico / Ilhas Galapagos no Pacifico Equador 1835 | Giant tortoise of the galapagos islands.jpg (referencias/darwin1835/prints/ilhas_galapagos_no_pacifico_equador_roch_d7bcc4.jpg); Grapsus grapsus Galapagos Islands.jpg (referencias/darwin1835/prints/ilhas_galapagos_no_pacifico_equador_roch_410e42.jpg); Galapagos photos on 13 October 2023 by the Compreh (referencias/darwin1835/prints/ilhas_galapagos_no_pacifico_equador_roch_b3debe.jpg)
 lugar | Galápagos | Galápagos 1835 / Galápagos landscape | Solanum cheesmaniae herbarium sheet Charles Darwin (referencias/darwin1835/prints/gal_pagos_5de5f5.jpg); Galápagos Islands ESA23188644 (Isabela).jpeg (referencias/darwin1835/prints/gal_pagos_fa79ca.jpg); Galápagos Islands ESA23188644.jpeg (referencias/darwin1835/prints/gal_pagos_b0b303.jpg)
 epoca | roupas e ruas de 1835 | 1835 fashion clothing / 19th century clothing painting | The World of Fashion, 1835, RP-P-2009-2622.jpg (referencias/darwin1835/prints/roupas_e_ruas_de_1835_882887.jpg); Dutch Painting in the 19th Century - Ary Scheffer  (referencias/darwin1835/prints/roupas_e_ruas_de_1835_fb20ad.jpg); Charles Francois Jalabert painting peintre French  (referencias/darwin1835/prints/roupas_e_ruas_de_1835_cbe242.jpg)
@@ -29,7 +29,6 @@ objeto | livro A Origem das Especies | livro A Origem das Especies / livro A Ori
 heroi | finch | tentilhoes / Darwin e os Tentilhões | Darwin's finches by Gould.jpg (referencias/darwin1835/prints/finch_ff01ef.jpg); Tentilhões de Darwin.png (referencias/darwin1835/prints/finch_e266b2.jpg); Darwin's finches.jpeg (referencias/darwin1835/prints/finch_6a438a.jpg)
 heroi | bancada | bancada | SEM REFERENCIA
 heroi | finch thick | finch thick | Thick-billed Seed-Finch Sporophila funerea - Flick (referencias/darwin1835/prints/finch_thick_947411.jpg); Sporophila funerea Arrocero piquigrueso Thick-bill (referencias/darwin1835/prints/finch_thick_5d6598.jpg); Sporophila funerea Arrocero piquigrueso Thick-bill (referencias/darwin1835/prints/finch_thick_0c77d4.jpg)
-epoca | navio da epoca | ship 1835 / ship | HMRC Vulcan (ship, 1835) in 1839 by Huggins (cropp (referencias/darwin1835/prints/navio_da_epoca_206ccf.jpg); Fantastic (ship, 1996) - Sète - October 2018.jpg (referencias/darwin1835/prints/navio_da_epoca_6e7426.jpg); Rio Tagus (ship, 1979), Sète cf11.jpg (referencias/darwin1835/prints/navio_da_epoca_363d29.jpg)
 
 ## Explicacoes (como funciona, com fonte)
 - -

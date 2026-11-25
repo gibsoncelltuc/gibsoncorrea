@@ -1,1 +1,4 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (27 tomadas)
+VISIBILIDADE: 3 FALHA(S)
+FALHA b4: objeto citado "kit/navio_fragata" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b4: personagem PONTINHO (maior: 0% da altura da tela; precisa de 6%+): camera longe demais dos personagens
+FALHA b4: objeto "kit/navio_fragata" saiu com 4% da altura da tela, a ficha de cena planejou 30%

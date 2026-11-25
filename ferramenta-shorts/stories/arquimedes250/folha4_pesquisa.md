@@ -14,7 +14,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 Tipo | Item | Consultas | Referencias achadas (print)
 ---|---|---|---
-tema | Arquimedes e o Eureca | Arquimedes e o Eureca / Um Foi Siracusa Sicília Hierão -250 | SEM REFERENCIA
+tema | Arquimedes e o Eureca | Arquimedes e o Eureca / Um Foi Siracusa Sicília -250 | SEM REFERENCIA
 lugar | Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra, | Siracusa cidade grega na Sicilia / Siracusa cidade grega na Sicilia -250 | Siracusa - Palazzo del Vermexio 3163.jpg (referencias/arquimedes250/prints/siracusa_cidade_grega_na_sicilia_casas_d_538495.jpg); Boat Excursions Sebastiano Tel 368997391 - Siracus (referencias/arquimedes250/prints/siracusa_cidade_grega_na_sicilia_casas_d_c1552b.jpg); Boat Excursions Sebastiano Tel 368997391 - Siracus (referencias/arquimedes250/prints/siracusa_cidade_grega_na_sicilia_casas_d_ed0ec8.jpg)
 lugar | Sicília | Sicília -250 / Sicília landscape | Sicily-EO.JPG (referencias/arquimedes250/prints/sic_lia_9be525.jpg); 20101207-etna-full (14213006863).jpg (referencias/arquimedes250/prints/sic_lia_82e146.jpg)
 epoca | roupas e ruas de -250 | -250 fashion clothing / -2th century clothing painting | SEM REFERENCIA
@@ -27,8 +27,8 @@ objeto | banheira | ancient greek bathtub terracotta / banheira / banheira -250 
 objeto | balanca de pratos | ancient balance scale / balanca de pratos / balanca de pratos -250 | Witches Scale, Oudewater.jpg (referencias/arquimedes250/prints/balanca_de_pratos_6f8d9b.jpg); Weighing scale.jpg (referencias/arquimedes250/prints/balanca_de_pratos_d89e69.jpg)
 objeto | barra de ouro | gold ingot ancient / barra de ouro / barra de ouro -250 | SEM REFERENCIA
 heroi | bathtub | ancient greek bathtub terracotta / coroa de ouro / Arquimedes e o Eureca | Bathtub, large terracotta, 2nd century BC, AM Nafp (referencias/arquimedes250/prints/heroi_banheira_nafplio.jpg); Nestor palace Bathtub, Pylos (Wikimedia Commons) (referencias/arquimedes250/prints/heroi_banheira_nestor.jpg)
-mecanismo | Ele percebeu que o tanto de água que sai é igual ao tamanho do corpo q | percebeu tanto igual tamanho corpo entra / bathtub diagram | Bathtub metaphor.png (referencias/arquimedes250/prints/ele_percebeu_que_o_tanto_de_gua_que_sai__a3e808.jpg); Why bathtubs overflow.png (referencias/arquimedes250/prints/ele_percebeu_que_o_tanto_de_gua_que_sai__084f6d.jpg)
-mecanismo | Se a coroa tivesse prata, seria maior que o ouro puro de mesmo peso, e | coroa tivesse prata seria derramaria / coroa louros diagram | Golden Laurel wreath 400BC, Staatliche Antikensamm (referencias/arquimedes250/prints/coroa_louros_munique.jpg); Royal crown (gold wreath), Aigai (Wikimedia Common (referencias/arquimedes250/prints/coroa_louros_aigai.jpg); Fragment of an ancient Greek gold wreath (Wikimedi (referencias/arquimedes250/prints/coroa_louros_fragmento.jpg)
+mecanismo | A água que sai tem o tamanho do corpo que entra. | tamanho corpo entra / bathtub diagram | SEM REFERENCIA
+mecanismo | Coroa com prata é maior, e derrama mais água. | coroa prata derrama / coroa louros diagram | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua.

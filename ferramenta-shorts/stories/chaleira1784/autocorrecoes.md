@@ -67,3 +67,8 @@
 
 ## 24/11 19:12 autocorrecao de visibilidade
 - b4: personagem PONTINHO (maior: 4% da altura da tela; precisa de 6%+): camera longe demais dos personagens -> camera perto dos personagens (d 20.0) e objeto grande empurrado para o fundo (continua inteiro pela perspectiva)
+
+## 25/11 17:36 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/navio_fragata" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b4: quadro_manual (o roteiro fixou o quadro), personagem PONTINHO (maior: 0% da altura da tela; precisa de 6%+): camera longe demais dos personagens -> fica para o olho
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/navio_fragata" saiu com 4% da altura da tela, a ficha de cena planejou 30% -> fica para o olho

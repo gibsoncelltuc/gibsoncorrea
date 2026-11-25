@@ -1,1 +1,10 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (24 tomadas)
+VISIBILIDADE: 9 FALHA(S)
+FALHA b2: objeto citado "kit/navio_leander" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b4: objeto citado "kit/navio_leander" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b0: objeto "kit/barco_guarda" saiu com 6% da altura da tela, a ficha de cena planejou 30%
+FALHA b2: objeto "kit/navio_leander" saiu com 3% da altura da tela, a ficha de cena planejou 30%
+FALHA b4: objeto "kit/navio_leander" saiu com 4% da altura da tela, a ficha de cena planejou 30%
+FALHA b6: objeto "kit/barco_guarda" saiu com 8% da altura da tela, a ficha de cena planejou 30%
+FALHA b7: objeto "kit/barco_guarda" saiu com 7% da altura da tela, a ficha de cena planejou 30%
+FALHA b8: objeto "kit/scroll" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+FALHA b9: objeto "kit/barco_guarda" saiu com 7% da altura da tela, a ficha de cena planejou 30%

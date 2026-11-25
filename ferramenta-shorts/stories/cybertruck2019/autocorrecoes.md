@@ -18,3 +18,10 @@
 - b3: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 0.0, cz -5.6), sem multidao na frente
 - b6: objeto citado "kit/phone" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.6, -1.0)
 - b6: objeto "kit/phone" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 17:36 autocorrecao de visibilidade
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: objeto citado "kit/cybertruck" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 0.0, cz -5.6), sem multidao na frente
+- b7: objeto citado "kit/phone" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/steel_ball" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b7: objeto "kit/phone" saiu com 0% da altura da tela, a ficha de cena planejou 11% -> close no objeto

@@ -112,6 +112,10 @@
    ],
    "detalhe": false,
    "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "set": "stadium",
    "bloco": "gancho",
    "say": "Donald Trump raspou a cabeça de outro bilionário num ringue.",
@@ -125,29 +129,13 @@
     ]
    },
    "text": "BATALHA DOS BILIONÁRIOS",
-   "titulo": true,
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/clipper",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "titulo": true
   },
   {
    "shot": "wide",
    "who": [
-    "JUI:0:angry"
+    "JUI:0:angry",
+    "TRU:0:shock"
    ],
    "props": [
     [
@@ -172,6 +160,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "set": "stadium",
    "bloco": "promessa",
    "say": "E no fim, ele mesmo acabou no chão.",
@@ -183,25 +176,7 @@
       "na": "chão"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/ring",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "reveal",
@@ -250,6 +225,10 @@
    ],
    "detalhe": false,
    "interior": "pedra",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
    "bloco": "prova",
    "say": "Cada um escolheu um lutador. A aposta valia uma cabeça raspada.",
    "encena": {
@@ -260,24 +239,7 @@
       "na": "aposta"
      }
     ]
-   },
-   "_enq_shot": "group",
-   "quadro": {
-    "local": "sala de pedra (governo/castelo)",
-    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e clipper juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/clipper",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "crowd",
@@ -322,7 +284,8 @@
   {
    "shot": "wide",
    "who": [
-    "LAS:0:angry"
+    "LAS:0:angry",
+    "UMA:0:angry"
    ],
    "props": [
     [
@@ -348,6 +311,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "set": "stadium",
    "bloco": "escalada",
    "say": "O lutador de Trump enfrentou o gigante Umaga.",
@@ -359,25 +327,7 @@
       "na": "enfrentou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/ring",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "wide",
@@ -388,7 +338,12 @@
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 0
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shout"
    },
    "props": [
     [
@@ -413,6 +368,11 @@
    "titulo": true,
    "fachada": false,
    "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "set": "stadium",
    "impact": true,
    "bloco": "escalada",
@@ -425,30 +385,14 @@
       "na": "venceu"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/ring",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "wide",
    "who": [
-    "TRU:0:laugh"
+    "TRU:0:laugh",
+    "LAS:0:grin",
+    "VIB:0:shock"
    ],
    "props": [
     [
@@ -482,6 +426,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "set": "stadium",
    "bloco": "pagamento",
    "say": "Trump ajudou a raspar a cabeça de Vince McMahon.",
@@ -493,36 +442,13 @@
       "na": "raspar"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/ring",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/clipper",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "wide",
    "who": [
-    "JUI:0:angry"
+    "JUI:0:angry",
+    "TRU:0:shock"
    ],
    "props": [
     [
@@ -547,6 +473,11 @@
    "crowd": {
     "n": 0
    },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
    "set": "stadium",
    "bloco": "pagamento",
    "say": "E o juiz derrubou Trump também.",
@@ -558,25 +489,7 @@
       "na": "derrubou"
      }
     ]
-   },
-   "_enq_shot": "wide",
-   "quadro": {
-    "local": "estadio",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ring (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/ring",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "two",
@@ -644,6 +557,5 @@
  },
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: Trump raspou a cabeca de outro bilionario num ringue e acabou no chao. Pagamento: a aposta dos lutadores, a vitoria do lutador de Trump, a cabeca raspada de McMahon e Trump derrubado pelo juiz.",
- "loop_frase_ok": true,
- "max_wide": 7
+ "loop_frase_ok": true
 }

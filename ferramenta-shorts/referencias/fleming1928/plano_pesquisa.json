@@ -7,7 +7,7 @@
    "item": "Fleming e a Penicilina",
    "consultas": [
     "Fleming e a Penicilina",
-    "Um Era Londres Alexander Fleming Ele Eram 1928"
+    "Um Em Alexander Fleming Londres 1928"
    ]
   },
   {
@@ -105,10 +105,18 @@
    ]
   },
   {
-   "tipo": "mecanismo",
-   "item": "O mofo soltava algo que matava as bactérias, e ele deu a isso o nome d",
+   "tipo": "epoca",
+   "item": "laboratorio da epoca",
    "consultas": [
-    "soltava matava bacterias penicilina",
+    "laboratory 1928",
+    "laboratory"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O mofo matava bactérias. Era a penicilina.",
+   "consultas": [
+    "matava bacterias penicilina",
     "petri mofo diagram"
    ]
   }

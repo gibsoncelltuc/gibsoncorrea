@@ -1,0 +1,135 @@
+{
+ "duration": 33.768,
+ "frames30": 1013,
+ "source": "silence-align (cost 1.50)",
+ "segments": [
+  [
+   0.150542,
+   2.81525
+  ],
+  [
+   3.60371,
+   5.08167
+  ],
+  [
+   5.92092,
+   7.24696
+  ],
+  [
+   7.46992,
+   8.53075
+  ],
+  [
+   9.31792,
+   11.92
+  ],
+  [
+   12.7081,
+   13.979
+  ],
+  [
+   14.1264,
+   15.6185
+  ],
+  [
+   16.4106,
+   18.1847
+  ],
+  [
+   18.9966,
+   21.6396
+  ],
+  [
+   22.4043,
+   24.5618
+  ],
+  [
+   25.3108,
+   26.7909
+  ],
+  [
+   26.9884,
+   28.9115
+  ],
+  [
+   29.68,
+   31.5189
+  ],
+  [
+   32.3031,
+   33.047
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "A Isl\u00e2ndia derrotou a marinha inglesa usando um cortador de rede.",
+   "s": 0.151,
+   "e": 2.815
+  },
+  {
+   "text": "E o motivo da briga era o bacalhau.",
+   "s": 3.604,
+   "e": 5.082
+  },
+  {
+   "text": "Foram tr\u00eas Guerras do Bacalhau,",
+   "s": 5.921,
+   "e": 7.247
+  },
+  {
+   "text": "em quase vinte anos.",
+   "s": 7.47,
+   "e": 8.531
+  },
+  {
+   "text": "Barcos ingleses pescavam bacalhau na costa da Isl\u00e2ndia.",
+   "s": 9.318,
+   "e": 11.92
+  },
+  {
+   "text": "A Isl\u00e2ndia ampliou o seu mar:",
+   "s": 12.708,
+   "e": 13.979
+  },
+  {
+   "text": "de doze para duzentas milhas.",
+   "s": 14.126,
+   "e": 15.618
+  },
+  {
+   "text": "A Inglaterra mandou fragatas de guerra.",
+   "s": 16.411,
+   "e": 18.185
+  },
+  {
+   "text": "Acontece que a Isl\u00e2ndia s\u00f3 tinha barcos da guarda costeira.",
+   "s": 18.997,
+   "e": 21.64
+  },
+  {
+   "text": "E eles cortavam as redes inglesas no meio do mar.",
+   "s": 22.404,
+   "e": 24.562
+  },
+  {
+   "text": "Em 1976,",
+   "s": 25.311,
+   "e": 26.791
+  },
+  {
+   "text": "a Inglaterra finalmente desistiu da briga.",
+   "s": 26.988,
+   "e": 28.912
+  },
+  {
+   "text": "As duzentas milhas viraram regra no mundo.",
+   "s": 29.68,
+   "e": 31.519
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 32.303,
+   "e": 33.047
+  }
+ ]
+}

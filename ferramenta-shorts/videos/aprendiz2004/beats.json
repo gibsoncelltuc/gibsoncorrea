@@ -74,7 +74,7 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "close",
    "interior": "madeira",
    "who": [
     "TRU:0:smug"
@@ -97,39 +97,7 @@
       "na": "política"
      }
     ]
-   },
-   "props": [
-    [
-     "kit/tv",
-     2.4,
-     0.2,
-     0.9,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "_susp_tela": true,
-   "_susp_ok": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_enq_shot": "close",
-   "quadro": {
-    "local": "sala de madeira",
-    "camera": "close (rosto e ombros); plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "detalhe": false,
-   "_auto_vis": 2
+   }
   },
   {
    "shot": "two",
@@ -140,12 +108,9 @@
    "props": [
     [
      "kit/tv",
-     0.0,
-     -1.2,
-     1.8,
-     {
-      "fixo": true
-     }
+     0,
+     -1.0,
+     1.8
     ]
    ],
    "text": "O APRENDIZ",
@@ -160,24 +125,7 @@
       "na": "estreou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "crowd",
@@ -291,7 +239,7 @@
     "POV:1:shout",
     "CND:0:laugh"
    ],
-   "batalha": false,
+   "batalha": true,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
@@ -305,12 +253,9 @@
    "props": [
     [
      "kit/tv",
-     0.0,
-     -1.2,
-     1.3,
-     {
-      "fixo": true
-     }
+     0,
+     -3.0,
+     1.3
     ]
    ],
    "fx": [
@@ -333,24 +278,7 @@
       "na": "milhões"
      }
     ]
-   },
-   "_enq_shot": "crowd",
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano de multidao; plano medio enquadrando personagens e tv juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "two",
@@ -389,12 +317,9 @@
    "props": [
     [
      "kit/tv",
-     2.4,
-     0.2,
-     1.2,
-     {
-      "fixo": true
-     }
+     1.8,
+     -1.2,
+     1.2
     ]
    ],
    "acao": "conversar",
@@ -412,24 +337,7 @@
       "na": "apresentou"
      }
     ]
-   },
-   "_enq_shot": "two",
-   "quadro": {
-    "local": "loc_estudio",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tv juntos (camera a 8.0 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tv",
-      "lugar": "MEIO, direita (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0
+   }
   },
   {
    "shot": "close",

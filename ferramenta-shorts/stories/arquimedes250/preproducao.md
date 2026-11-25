@@ -5,21 +5,19 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
 b0 | medieval | track | 2 | encena, andando | kit/bathtub | - | -
-b1 | medieval | reveal | 10 | parados (so fala e pisca) | kit/bathtub | - | -
-b2 | interior pedra | two | 2 | reagir, INTERAGEM: discutir | kit/coroa_louros | - | -
-b3 | interior pedra | group | 2 | discutir, INTERAGEM: o outro se aproxima | - | - | -
-b4 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | kit/coroa_louros | paper | -
+b1 | medieval | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
+b2 | medieval | reveal | 10 | parados (so fala e pisca) | kit/bathtub | - | -
+b3 | interior pedra | two | 2 | conversar, INTERAGEM: discutir | kit/coroa_louros | - | -
+b4 | interior pedra | group | 2 | conversar, INTERAGEM: entregar | kit/coroa_louros | paper | -
 b5 | interior pedra | two | 1 | conversar, alguem chega andando, batalha | kit/bathtub | - | -
 b6 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
 b7 | interior madeira | two | 0 | parados (so fala e pisca) | - | - | -
-b8 | medieval | orbit | 2 | reagir | kit/coroa_louros | - | -
-b9 | medieval | crowd | 16 | comemorar, batalha | kit/coroa_louros | - | -
-b10 | medieval | two | 2 | conversar, INTERAGEM: insiste | kit/bathtub | - | -
-b11 | medieval | close | 1 | conversar | - | - | -
+b8 | medieval | crowd | 16 | comemorar, batalha | kit/coroa_louros | - | -
+b9 | medieval | two | 2 | conversar, INTERAGEM: susto | - | - | -
 
 OBJETO HEROI: kit/bathtub
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b9
-Interacoes entre personagens: b2 discutir, b3 o outro se aproxima, b4 entregar, b10 insiste
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b5, b8
+Interacoes entre personagens: b1 insiste, b3 discutir, b4 entregar, b9 susto
 
-Cenas com personagens parados: 3 de 12
+Cenas com personagens parados: 3 de 10
 FALTA MODELAR: nada
