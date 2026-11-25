@@ -1113,7 +1113,15 @@ const hatOn = (p, o, hp, H, cx, hc, light, seed, facing, side)=>{
             ]
         ])[0];
         p.ell(bx, by, 0.45 * W, 0.05 * HH, "#1d1b22", ow, 0, 360, a * 180 / Math.PI);
-    } else if (["helmet", "bowler", "straw", "slouch", "fez", "turban", "crown", "beret", "wizard", "tricorn", "bicorne", "kepi", "pickelhaube", "stahlhelm", "brodie", "adrian", "m1", "quepe", "colonial", "bibico", "boonie"].includes(o.hat)) {
+    /*ADITIVO*/} else if (o.hat === "laurel") {   /* 25/11 COROA DE LOUROS de ouro (rei/sabio da Antiguidade grega e romana; ref.: coroa de Munique 400 a.C. e de Aigai). Galho na testa, folhas douradas subindo para os lados */
+        const yb = crown + 0.26 * HH, deg = a * 180 / Math.PI;
+        for (let r = 0; r < 2; r++) for (let i = -5; i <= 5; i++) {
+            if (i === 0 && r === 0) continue;
+            const t = i / 5, [lx, ly] = R([[cx + i * 8.6 * u, yb - (r ? 7 * u : 0) - 0.05 * HH * t * t]])[0];
+            p.ell(lx, ly, 7.2 * u, 3.0 * u, (i + r) % 2 ? "#f2c230" : "#d9a020", 1.1 * u, 0, 360, deg + (i < 0 ? -1 : 1) * (28 + 30 * Math.abs(t)) + (r ? (i < 0 ? -18 : 18) : 0));
+        }
+        const [kx, ky] = R([[cx, yb - 3 * u]])[0]; p.ell(kx, ky, 3.6 * u, 3.6 * u, "#e8b830", 1.1 * u);
+    /*FIM ADITIVO*/} else if (["helmet", "bowler", "straw", "slouch", "fez", "turban", "crown", "beret", "wizard", "tricorn", "bicorne", "kepi", "pickelhaube", "stahlhelm", "brodie", "adrian", "m1", "quepe", "colonial", "bibico", "boonie"].includes(o.hat)) {
         /* chapeus novos (canal: >=25 tipos). dome = meia elipse sobre a testa */
         const deg = a * 180 / Math.PI, yb = crown + 0.24 * HH;
         const dome = (y, w, h, n = 16)=>{ const q = []; for(let i = 0; i <= n; i++){ const t = Math.PI * i / n; q.push([cx - w * Math.cos(t), y - h * Math.sin(t)]); } return q; };
