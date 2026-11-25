@@ -1,19 +1,19 @@
 # CRONOGRAMA - Poder e Fama EP 20 - A Piada que Virou Tequila
 
-Gerado em 25/11 17:27 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:30 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Uma piada de primeiro de abril virou uma garrafa de 250 dólares.
-b1 | simples | loc_patio | two | MUS | - | tequila_bolt | - | E até a garrafa vazia passou a valer uma fortuna.
+b0 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt, whisky | - | Uma piada de primeiro de abril virou uma garrafa de 250 dólares.
+b1 | simples | loc_cidade | close | MUS | - | tequila_bolt, whisky | - | E até a garrafa vazia passou a valer uma fortuna.
 b2 | simples | loc_cidade | reveal | MUS | 6 | phone, roadster | - | Em 2018, Musk postou que a Tesla faliu. Era piada.
-b3 | chave | loc_cidade | wide | INV, MUS | - | tequila_bolt | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na foto, garrafas de uma tal Teslaquila.
+b3 | chave | loc_cidade | wide | INV, MUS | - | tequila_bolt, whisky | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Na foto, garrafas de uma tal Teslaquila.
 b4 | simples | interior loja | two | FAN, MUS | - | - | - | Muitos riram. Ele levou a sério.
 b5 | chave | loc_pista | orbit | MEX, MUS | - | tequila_bolt, veg_cacto | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que o México barrou o nome: tequila tem regras.
 b6 | simples | loc_pista | two | MUS, MEX | - | roadster, tequila_bolt, veg_cacto | - | Em 2020, saiu como Tesla Tequila, feita no México.
-b7 | simples | interior loja | two | POV, FAN | - | phone, tequila_bolt | - | Garrafas vazias apareceram na internet por mais de mil dólares.
+b7 | simples | interior loja | two | POV, FAN | - | phone, tequila_bolt, whisky | - | Garrafas vazias apareceram na internet por mais de mil dólares.
 b8 | simples | loc_cidade | two | MUS, FAN | - | tequila_bolt | - | Ninguém acreditou na piada. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)

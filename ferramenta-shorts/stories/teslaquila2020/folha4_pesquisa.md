@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 2020 | Lugar: Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria com campos de agave azul) | Quando: 1 de abril de 2018; lancamento em 5 de novembro de 2020, dia
 - HEROIS (objeto): kit/tequila_bolt, kit/veg_cacto
 - HEROIS (personagens): MUS, FAN
-- Cenarios: interior loja, loc_cidade, loc_patio, loc_pista
+- Cenarios: interior loja, loc_cidade, loc_pista
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: kit/phone: 0.6 m reais -> escala 0.7 (estava 0.9: grande demais); kit/roadster: 4.5 m reais -> escala 2.67 (estava 1.0: pequeno demais)
 

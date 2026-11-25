@@ -7,7 +7,7 @@
 - Roupas: {'MUS': 'camiseta preta', 'FAN': 'camiseta com logo T', 'INV': 'terno', 'MEX': 'camisa social e chapeu de palha', 'POV': 'roupa casual'}
 - Cenario real: campo de agave azul no Mexico, destilaria, loja online/sala, rua
 - Objetos: ['garrafa de vidro em forma de raio com suporte de metal', 'agave azul', 'placa da Tesla']
-- Cenarios usados no video: interior loja, loc_cidade, loc_patio, loc_pista
+- Cenarios usados no video: interior loja, loc_cidade, loc_pista
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

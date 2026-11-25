@@ -1,6 +1,6 @@
 # CRONOGRAMA - Curiosidade e Ciência EP 15 - A Cola que Não Colava
 
-Gerado em 25/11 17:24 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -10,7 +10,7 @@ b0 | simples | street | two | SIL, CHE | - | postit | - | Uma cola que falhou vi
 b1 | chave | street | wide | SIL, CHE | - | church, postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | E a ideia veio de alguém cantando na igreja.
 b2 | simples | interior galpao | two | POV, SIL | - | - | - | Em 1968, Spencer Silver tentava criar uma super cola.
 b3 | simples | interior madeira | two | SIL, CHE | - | - | - | Saiu o contrário: uma cola que grudava e soltava fácil.
-b4 | simples | interior pedra | group | FRY, PAD, POV | 4 | - | - | Acontece que Art Fry cantava no coral da igreja.
+b4 | simples | interior pedra | group | FRY, PAD, POV | - | - | - | Acontece que Art Fry cantava no coral da igreja.
 b5 | simples | interior pedra | two | FRY, PAD | - | postit | - | E os papeizinhos do hinário viviam caindo.
 b6 | chave | street | orbit | FRY | - | postit | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Ele pensou: marcadores com a cola fraca.
 b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/postit (gira); emissao: rotulos/graficos; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em  | O papel saiu amarelo por acaso: era o único que tinha.

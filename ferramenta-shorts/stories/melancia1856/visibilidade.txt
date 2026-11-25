@@ -1,2 +1,1 @@
-VISIBILIDADE: 1 FALHA(S)
-FALHA b9: objeto "kit/melon" saiu com 15% da altura da tela, a ficha de cena planejou 32%
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (16 tomadas)

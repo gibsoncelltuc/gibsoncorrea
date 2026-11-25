@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Gerado em 25/11 19:28 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 25/11 19:30 | 10 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -11,11 +11,11 @@ b1 | transicao | arctic | wide | CAN, DIN | - | - | - | E essa guerra acabou do 
 b2 | transicao | arctic | reveal | CAN, DIN | - | - | - | A ilha Hans é uma rocha gelada entre Canadá e Groenlândia.
 b3 | simples | interior madeira | two | CAN, DIN | - | - | - | Canadá e Dinamarca diziam que a ilha era deles.
 b4 | chave | arctic | wide | CAN | 12 | helicopter | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Em 1984, soldados canadenses desembarcaram lá.
-b5 | simples | arctic | two | CAN, CAN | - | bandeira_canada, tequila_bolt, whisky | - | Fincaram a bandeira e deixaram uma garrafa de uísque.
+b5 | simples | arctic | two | CAN, CAN | - | bandeira_canada, whisky | - | Fincaram a bandeira e deixaram uma garrafa de uísque.
 b6 | chave | arctic | wide | DIN | - | bandeira_dinamarca | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Acontece que os dinamarqueses voltaram e puseram a bandeira deles.
 b7 | simples | arctic | two | DIN, CAN | - | barrel, whisky | - | E deixaram aguardente com um bilhete de boas-vindas.
 b8 | simples | interior pedra | two | PRE, MIN | - | - | - | Em 2022, enfim, dividiram a ilha ao meio.
-b9 | simples | arctic | two | CAN, DIN | - | tequila_bolt, whisky | - | Nenhum tiro, só garrafas trocadas. E foi assim que...
+b9 | simples | arctic | two | CAN, DIN | - | whisky | - | Nenhum tiro, só garrafas trocadas. E foi assim que...
 
 ## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
 

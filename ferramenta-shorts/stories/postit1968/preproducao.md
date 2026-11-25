@@ -8,7 +8,7 @@ b0 | street | two | 2 | discutir, INTERAGEM: discutir | kit/postit | - | -
 b1 | street | wide | 2 | batalha | kit/postit, buildings/church | - | -
 b2 | interior galpao | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | paper | -
 b3 | interior madeira | two | 2 | reagir, INTERAGEM: o outro se aproxima | - | paper | -
-b4 | interior pedra | group | 7 | conversar, INTERAGEM: insiste | - | - | -
+b4 | interior pedra | group | 3 | conversar, INTERAGEM: insiste | - | - | -
 b5 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/postit | paper | -
 b6 | street | orbit | 1 | batalha | kit/postit | - | -
 b7 | loc_estudio | two | 0 | parados (so fala e pisca) | - | - | -
