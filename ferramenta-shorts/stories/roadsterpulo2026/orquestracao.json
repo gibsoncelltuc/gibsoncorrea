@@ -20,9 +20,9 @@
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 17,
+   "palavras": 16,
    "cena": "b0",
-   "frase": "Elon Musk prometeu um carro que voa. E, diante de convidados, o carro dele saiu do chão.",
+   "frase": "Um carro saiu do chão e voou na frente de convidados. E não era efeito especial.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -47,9 +47,9 @@
     "kit/telao_led",
     "kit/torre_luz"
    ],
-   "palavras": 16,
+   "palavras": 22,
    "cena": "b1",
-   "frase": "Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Texas.",
+   "frase": "Era a nova invenção de Elon Musk, numa base da SpaceX, no Texas, em outubro de dois mil e vinte e seis.",
    "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
@@ -61,29 +61,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 15,
    "cena": "b2",
-   "frase": "O segredo são propulsores da SpaceX escondidos no carro: dez bocais que sopram ar comprimido para baixo.",
-   "classe": "explicativa",
-   "sujeito": "objeto",
-   "briefing": {
-    "corpo": "kit/roadster26 (paira) em raio-X",
-    "emissao": "jato",
-    "luz": "estudio",
-    "camera": "2 enquadramentos sem corte seco",
-    "som": "som em cada entrada"
-   },
-   "acoes_faltando": [],
-   "cenario": "loc_estudio"
-  },
-  {
-   "camera": "two",
-   "personagens": [],
-   "multidao": 0,
-   "objetos": [],
-   "palavras": 18,
-   "cena": "b3",
-   "frase": "E um sistema de sucção gruda o carro na pista, como uma ventosa, até de cabeça para baixo.",
+   "frase": "O primeiro truque: um sistema de sucção gruda o carro na pista, como uma ventosa.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -101,14 +81,14 @@
    "personagens": [
     "MUS"
    ],
-   "multidao": 10,
+   "multidao": 0,
    "objetos": [
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 17,
-   "cena": "b4",
-   "frase": "Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "palavras": 16,
+   "cena": "b3",
+   "frase": "Com ele, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -132,7 +112,7 @@
     "kit/torre_luz"
    ],
    "palavras": 14,
-   "cena": "b5",
+   "cena": "b4",
    "frase": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "classe": "chave",
    "sujeito": "objeto",
@@ -148,6 +128,26 @@
   },
   {
    "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "O segundo truque: dez bocais escondidos, que sopram ar comprimido para baixo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (paira) em raio-X",
+    "emissao": "jato",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
    "personagens": [
     "MUS"
    ],
@@ -158,9 +158,9 @@
     "kit/roadster26",
     "kit/torre_luz"
    ],
-   "palavras": 11,
+   "palavras": 14,
    "cena": "b6",
-   "frase": "Depois decolou e voou, nos propulsores, por cima de veículos parados.",
+   "frase": "Foi assim que ele decolou e voou, nos propulsores, por cima de veículos parados.",
    "classe": "chave",
    "sujeito": "objeto",
    "briefing": {
@@ -178,9 +178,9 @@
    "personagens": [],
    "multidao": 0,
    "objetos": [],
-   "palavras": 17,
+   "palavras": 18,
    "cena": "b7",
-   "frase": "Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
+   "frase": "E, segundo a Tesla, ele vai de zero a quase cem por hora em menos de um segundo.",
    "classe": "explicativa",
    "sujeito": "objeto",
    "briefing": {
@@ -203,9 +203,9 @@
    "objetos": [
     "kit/roadster26"
    ],
-   "palavras": 13,
+   "palavras": 16,
    "cena": "b8",
-   "frase": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
+   "frase": "Mas especialistas lembraram: o voo durou poucos segundos. Ainda não é um carro voador de verdade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
