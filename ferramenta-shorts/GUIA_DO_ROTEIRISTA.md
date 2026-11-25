@@ -203,3 +203,16 @@ O que a ferramenta **sabe** animar (escreva o roteiro com isto): andar, chegar a
 **Guerra sem tiro.** `"tiros": false` na batalha = impasse: ninguém voa, não há clarão. "Canhões" na frase só gera explosão se a frase disser que dispararam.
 
 **Cidade só com cidade.** Rua, prédios e o kit de cidade da região só entram se a narração ou a pesquisa falarem de cidade/rua/loja/praça. História de fazenda, ilha, mato ou acampamento não ganha prédio de tijolo.
+
+## LEITURA ESCRITA DE CADA FRASE — "encena" (25/11, obrigatorio; o storyboard nao e' aprovado sem ela)
+A ferramenta nao entende frase: ela le palavra por palavra. Quem ENTENDE e' a IA que escreve/revisa o roteiro. Por isso, para CADA frase, escreva no beat:
+```json
+"encena": {"sentido": "afirmativa",
+  "passos": [{"quem": 0, "faz": "anda_ate", "alvo": "kit/bathtub", "na": "entrou"},
+             {"quem": 0, "faz": "entra_em", "alvo": "kit/bathtub", "na": "entrou"},
+             {"alvo": "kit/bathtub", "faz": "transborda", "na": "transbordou"}]}
+```
+- `sentido`: **afirmativa** (aconteceu: tiro, briga, explosao aparecem) | **negativa** ("nenhum soldado deu um tiro", "o tiro nunca veio") | **hipotese** ("quase", "ameacou", "se tivesse") | **figurada** ("guerra de precos", "bateu recorde") | **fato** (data, numero, explicacao). Negativa/hipotese/figurada = NADA de tiro, explosao ou batalha na tela, sempre.
+- `passos`: o que a TELA mostra, em ordem, preso na palavra `na` da narracao (`quem` = indice no "who"). Verbos (`faz`) em `encenacao.py` VOCAB: anda_ate, entra_em, transborda, senta, dorme, ajoelha, tomba, morre, pula, corre, golpe, empurra, atira, grita, vence, fala, olha, pensa, perde, rende, pega, mistura, cai, constroi, escreve, entrega, chega, desaba, mostra.
+- Precisa de uma acao que nao existe? NAO pule: o passo vira "FALTA ANIMACAO" e trava; a correcao e' construir a animacao na ferramenta (encenacao.py + motor) e depois renderizar.
+- A folha 3 mostra a LEITURA DA FRASE passo a passo (quem, o que, qual objeto 3D, em qual palavra e segundo). Conferir ali antes de aprovar o storyboard.
