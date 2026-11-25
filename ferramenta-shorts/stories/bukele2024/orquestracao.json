@@ -36,26 +36,26 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "two",
+   "camera": "reveal",
    "personagens": [
     "BUK",
     "POV"
    ],
-   "multidao": 0,
+   "multidao": 8,
    "objetos": [
     "kit/volcano"
    ],
    "palavras": 13,
    "cena": "b1",
    "frase": "Foi em El Salvador, na América Central, e o presidente era Nayib Bukele.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_campo"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "BUK",
     "POV"
@@ -65,15 +65,9 @@
    "palavras": 11,
    "cena": "b2",
    "frase": "Ele chegou ao poder prometendo acabar com a violência das gangues.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -134,7 +128,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "orbit",
    "personagens": [
     "REP",
     "BUK"
@@ -144,14 +138,20 @@
    "palavras": 15,
    "cena": "b6",
    "frase": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
   {
-   "camera": "orbit",
+   "camera": "two",
    "personagens": [
     "BUK"
    ],
@@ -162,15 +162,9 @@
    "palavras": 10,
    "cena": "b7",
    "frase": "Os apoiadores lotaram as ruas, e ele comemorou numa sacada.",
-   "classe": "chave",
+   "classe": "simples",
    "sujeito": "personagem",
-   "briefing": {
-    "corpo": "tropa/personagens encenam a batalha",
-    "emissao": "claroes de tiro, fumaca e poeira",
-    "luz": "clarao",
-    "camera": "4 cameras em sequencia",
-    "som": "tiros e gritos"
-   },
+   "briefing": {},
    "acoes_faltando": [],
    "cenario": "loc_cidade"
   },
@@ -192,14 +186,14 @@
    "cenario": "interior galpao"
   },
   {
-   "camera": "wide",
+   "camera": "group",
    "personagens": [
-    "REP"
+    "REP",
+    "POV"
    ],
    "multidao": 0,
    "objetos": [
-    "kit/prison",
-    "kit/volcano"
+    "kit/prison"
    ],
    "palavras": 15,
    "cena": "b9",
@@ -211,11 +205,11 @@
    "cenario": "loc_pista"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "BUK"
    ],
-   "multidao": 0,
+   "multidao": 6,
    "objetos": [
     "kit/ballot_box",
     "kit/globe"
@@ -223,9 +217,15 @@
    "palavras": 16,
    "cena": "b10",
    "frase": "Amado por muitos e criticado por outros, ele virou um dos presidentes mais populares do planeta.",
-   "classe": "simples",
+   "classe": "chave",
    "sujeito": "personagem",
-   "briefing": {},
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
    "acoes_faltando": [],
    "cenario": "loc_pista"
   },

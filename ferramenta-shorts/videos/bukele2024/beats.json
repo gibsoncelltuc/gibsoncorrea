@@ -145,7 +145,14 @@
       "na": "prometendo"
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0,
+   "cz": 0,
+   "h": 1.5,
+   "d0": 6.5,
+   "d1": 6.0
   },
   {
    "shot": "two",
@@ -233,8 +240,8 @@
    "props": [
     [
      "kit/ballot_box",
-     0.6,
-     1.0,
+     0.0,
+     -1.0,
      1.5,
      {
       "fixo": true
@@ -278,7 +285,7 @@
    "cz": -0.6,
    "d0": 12.1,
    "d1": 11.5,
-   "_auto_vis": 2
+   "_auto_vis": 1
   },
   {
    "shot": "two",
@@ -314,7 +321,7 @@
    }
   },
   {
-   "shot": "low",
+   "shot": "two",
    "who": [
     "BUK:0:laugh"
    ],
@@ -333,8 +340,8 @@
     [
      "kit/porch",
      0.0,
-     -3.5,
-     1.6
+     -4.5,
+     1.4
     ]
    ],
    "fx": [
@@ -358,7 +365,14 @@
       "na": "comemorou"
      }
     ]
-   }
+   },
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0,
+   "cz": -0.8,
+   "h": 1.6,
+   "d0": 8.0,
+   "d1": 7.0
   },
   {
    "shot": "two",
@@ -395,9 +409,10 @@
    }
   },
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
-    "REP:0:suspicious:paper"
+    "REP:0:suspicious:paper",
+    "POV:0:worried"
    ],
    "acao": "discutir",
    "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
@@ -405,8 +420,8 @@
     [
      "kit/prison",
      0.0,
-     -23.3,
-     2.65,
+     -9.0,
+     0.8,
      {
       "fixo": true
      }
@@ -419,7 +434,7 @@
    "detalhe": false,
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o prison (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/prison",
@@ -429,7 +444,6 @@
      }
     ]
    },
-   "_enq_shot": "wide",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -440,11 +454,13 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "cx": 0,
+   "cz": -3,
+   "h": 1.8,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -454,7 +470,7 @@
    "props": [
     [
      "kit/ballot_box",
-     2.4,
+     1.2,
      0.2,
      1.1,
      {
@@ -490,7 +506,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_auto_vis": 1
   }
  ],
  "fontes": [

@@ -14,20 +14,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em El Salvador, na América Central, e o presidente era Nayib Bukel...
 - Cenario: loc_campo | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
-- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: conversar | interacao: o outro se aproxima
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile) | multidao: 8 de POV
+- Animacao: -
 - Objetos/modelos: kit/volcano
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): america, presidente
 - RISCOS: nenhum
 
 ## Cena b2 - Ele chegou ao poder prometendo acabar com a violência das gangues.
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 0, expressao smile)
-- Animacao: conversar | grande momento (efeito + som, sem tiro)
+- Animacao: conversar | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): gangues, violencia
 - RISCOS: nenhum
@@ -64,20 +64,20 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b6 - Acontece que o resultado impressionou: Bukele teve quase oitenta e cin...
 - Cenario: loc_cidade | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): REP (variante 0, expressao shock, segura paper); BUK (variante 0, expressao smug)
-- Animacao: reagir | interacao: insiste
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): resultado, votos
 - RISCOS: nenhum
 
 ## Cena b7 - Os apoiadores lotaram as ruas, e ele comemorou numa sacada.
 - Cenario: loc_cidade | luz: dusk | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa
 - Personagens principais (1): BUK (variante 0, expressao laugh) | multidao: 12 de POV
-- Animacao: comemorar | grande momento (efeito + som, sem tiro)
+- Animacao: comemorar
 - Objetos/modelos: kit/porch
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): apoiadores, ruas
 - RISCOS: nenhum
@@ -87,27 +87,27 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): REP (variante 0, expressao surprised, segura paper); BUK (variante 0, expressao smug)
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): assassinatos, cento, motivo
 - RISCOS: nenhum
 
 ## Cena b9 - Organizações de direitos humanos, porém, criticaram as prisões em mass...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: wide = ABERTO fixo
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): REP (variante 0, expressao suspicious, segura paper) | multidao: 0 de POV
-- Animacao: discutir
-- Objetos/modelos: kit/prison, kit/volcano
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (2): REP (variante 0, expressao suspicious, segura paper); POV (variante 0, expressao worried) | multidao: 0 de POV
+- Animacao: discutir | interacao: empurrar
+- Objetos/modelos: kit/prison
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): direitos, estado, excecao, prisoes
 - RISCOS: nenhum
 
 ## Cena b10 - Amado por muitos e criticado por outros, ele virou um dos presidentes ...
 - Cenario: loc_pista | luz: golden | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): BUK (variante 0, expressao smile)
-- Animacao: comemorar
+- Camera: wide = ABERTO fixo [momento criado pela ferramenta]
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): BUK (variante 0, expressao smile) | multidao: 6 de POV
+- Animacao: comemorar | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/ballot_box, kit/globe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): planeta, presidentes
 - RISCOS: nenhum
@@ -128,7 +128,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/ballot_box | b0, b5, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/volcano | b0, b1, b5, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/volcano | b0, b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/porch | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/prison | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -136,8 +136,8 @@ kit/globe | b10 | pronto | conferir na folha de contato se le bem; se parecer ca
 
 
 ## Video inteiro
-- Objeto heroi: kit/ballot_box | grandes momentos: b2, b7 | planos abertos: 4 | mistura: close 10% | medio 67% | aberto 19% | detalhe 4%
-- Interacoes: b0 pular, b1 o outro se aproxima, b3 discutir, b4 susto, b6 insiste, b8 vai ate o outro
+- Objeto heroi: kit/ballot_box | grandes momentos: b6, b10 | planos abertos: 4 | mistura: close 12% | medio 70% | aberto 17% | detalhe 2%
+- Interacoes: b0 pular, b2 o outro se aproxima, b3 discutir, b4 susto, b8 insiste, b9 empurrar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar
