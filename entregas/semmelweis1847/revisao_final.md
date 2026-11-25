@@ -1,32 +1,16 @@
-f0: OK - Semmelweis e colega junto da placa HOSPITAL e da bacia - frase 'Um medico pediu aos colegas para lavarem as maos'
-f1: OK - os dois no hospital - frase 'e foi expulso do hospital'
-f2: OK - mapa AUSTRIA com marcador - frase 'Era mil oitocentos e quarenta e sete'
-f3: OK - placa HOSPITAL DE VIENA inteira (o mapa ja saiu) com gente de epoca - frase 'no grande hospital de Viena'
-f4: OK - placa HOSPITAL DE VIENA - frase 'na Austria'
-f5: OK - parteira e medico lado a lado com leitos de cada lado - frase 'O hospital tinha duas alas de parto'
-f6: OK - placa PARTEIRAS x MEDICOS e as duas fileiras de leitos com parteira e medico - frase 'uma de parteiras e outra de medicos'
-f7: OK - mae e medico tensos junto dos leitos - frase 'Acontece que'
-f8: OK - mae (efeito de anel) e medico na ala - frase 'na ala dos medicos'
-f9: OK - grafico MORTES NA ALA com PARTEIRAS x MEDICOS e uma mae caindo - frase 'morriam muito mais maes'
-f10: OK - grafico subindo ate 10 para os medicos e a mae deitada no chao - frase 'de uma febre misteriosa'
-f11: OK - Semmelweis e Kolletschka junto da mesa de autopsia com o bisturi pequeno - frase 'Um dia'
-f12: OK - Kolletschka e Semmelweis com o bisturi sobre a mesa - frase 'o amigo Kolletschka se cortou com um bisturi numa autopsia'
-f13: OK - Kolletschka caido com poeira e Semmelweis em pe - frase 'e morreu da mesma febre'
-f14: OK - dois medicos sob a placa MAOS SUJAS - frase 'Ele entendeu'
-f15: OK - medicos saindo da ala com a placa MAOS SUJAS (a cartola cobre parte da placa) - frase 'os medicos saiam das autopsias e iam direto aos partos'
-f16: OK - dois medicos sob MAOS SUJAS - frase 'de maos sujas'
-f17: OK - dois medicos conversando junto da bacia - frase 'Ele pos uma bacia com agua e cloro na porta'
-f18: OK - bacia com agua em close - frase 'e obrigou os medicos a lavar as maos antes de entrar'
-f19: OK - grafico MORTES NA ALA caindo com ANTES/DEPOIS e medicos comemorando - frase 'As mortes despencaram quase dez vezes'
-f20: OK - medicos ofendidos - frase 'Mas os medicos se ofenderam'
-f21: OK - medicos, Semmelweis de costas - frase 'e Semmelweis foi mandado embora'
-f22: OK - parteira triste junto das lapides - frase 'Ele morreu em mil oitocentos e sessenta e cinco'
-f23: OK - lapides com cruz - frase 'sem ser reconhecido'
-f24: OK - Semmelweis na praca com LAVE AS MAOS e a bacia - frase 'Anos depois'
-f25: OK - Semmelweis sorrindo com a bacia - frase 'a ciencia provou que ele estava certo'
-f26: OK - Semmelweis na praca com LAVE AS MAOS - frase 'Hoje'
-f27: OK - bacia em primeiro plano com LAVE AS MAOS - frase 'e chamado de salvador das maes'
-f28: OK - Semmelweis rindo com COMENTE - frase 'Agora nao deixe de comentar'
-f29: OK - Semmelweis grande rindo com COMENTE - frase 'qual deve ser o tema do proximo video'
-gancho: OK - cena 1 com Semmelweis e o colega junto da placa HOSPITAL e estrelas, impacto visual imediato; a data so entra na terceira frase.
-piloto: OK - mesmo padrao do Roadster EP25: gancho visual, objeto heroi (bacia) legivel, graficos em tela, final curto com chamada para comentar.
+f0: OK - "Um medico pediu para os colegas lavarem as maos e foi expulso": Semmelweis de jaleco inteiro na enfermaria ao lado da bacia, texto LAVE AS MAOS
+f1: OK - "Hoje e chamado de salvador das maes": Semmelweis em close na rua com a placa LAVE AS MAOS e a bacia ao lado
+f2: OK - "Em 1847, no hospital de Viena,": mapa AUSTRIA sobre a cena
+f3: OK - "havia duas alas de parto": vista do HOSPITAL DE VIENA com grupo de pessoas de epoca; as duas alas aparecem so como o conjunto do hospital (nao ha duas alas separadas no motor)
+f4: OK - "Na ala dos medicos,": tres maes em vestidos roxos ao lado dos leitos, texto HOSPITAL
+f5: OK - "morriam muito mais maes,": uma mae com anel de impacto e outra caida ao lado do leito
+f6: OK - "de febre.": mae de pe com cara de febre e outra caida ao lado do leito
+f7: OK - "Um colega se cortou numa autopsia e morreu de febre.": bisturi grande em pe no centro com anel de impacto e os dois medicos inteiros no quadro
+f8: OK - "Acontece que os medicos saiam das autopsias de maos sujas.": dois medicos de jaleco e cartola lado a lado, o da esquerda com estrelas
+f9: OK - "Ele pos cloro numa bacia e obrigou todos a lavar as maos.": bacia de cloro em primeiro plano entre Semmelweis e o colega, os dois inteiros no quadro
+f10: OK - "As mortes cairam quase dez vezes.": rua com mae, paciente e Semmelweis comemorando e poeira, texto VIDAS SALVAS
+f11: OK - "Mas os medicos se ofenderam e o expulsaram.": colega de cartola e Semmelweis furioso frente a frente
+f12: OK - "Lavar as maos virou insulto.": Semmelweis diante da bacia na enfermaria, texto LAVE AS MAOS (repete o gancho)
+f13: OK - "Foi assim que...": a mesma cena do gancho com a bacia, loop emenda na primeira frase
+gancho: Semmelweis ao lado da bacia de lavar maos com o texto LAVE AS MAOS logo nos primeiros 3 segundos, com a frase do medico expulso por pedir que lavassem as maos.
+piloto: comparado ao Roadster EP25, o objeto heroi (bacia) aparece cedo e em close na virada e o bisturi com anel marca o momento de impacto; menos VFX que o piloto, mas sem corte, cena vazia ou objeto sumido; unico ponto fraco: "duas alas de parto" e' mostrado como a vista do hospital, sem duas alas separadas.
