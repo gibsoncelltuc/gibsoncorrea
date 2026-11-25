@@ -3,8 +3,8 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b0: objeto "kit/pea_green" saiu com 13% da altura da tela, a ficha de cena planejou 32%
-2. b9: objeto "kit/pea_yellow" saiu com 5% da altura da tela, a ficha de cena planejou 18%
+1. b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
+2. b9: objeto citado "kit/pea_yellow" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Um monge passou oito anos contando ervilhas e descobriu como": 
