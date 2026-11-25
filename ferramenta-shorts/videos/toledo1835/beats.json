@@ -61,7 +61,7 @@
  "titulo_base": "A Guerra de Toledo",
  "beats": [
   {
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "OHI:0:stern"
    ],
@@ -71,9 +71,12 @@
    "props": [
     [
      "kit/canivete_aberto",
-     0.5,
-     1.6,
-     4.5
+     2.4,
+     0.2,
+     4.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "fx": [
@@ -87,6 +90,22 @@
    "tstyle": "red",
    "titulo": true,
    "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e canivete_aberto juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
    "_auto_vis": 2
   },
   {
@@ -101,14 +120,33 @@
    "props": [
     [
      "kit/mapa_antigo",
-     1.9,
-     -0.6,
-     1.0
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ]
    ],
    "text": "MAPA ERRADO",
    "tat": 15,
-   "tstyle": "red"
+   "tstyle": "red",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e mapa_antigo juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/mapa_antigo",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "close",
@@ -165,9 +203,12 @@
    "props": [
     [
      "kit/teodolito",
-     -2.6,
-     -0.4,
-     1.1
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
     ]
    ],
    "lados": [
@@ -175,7 +216,22 @@
     "MIC"
    ],
    "detalhe": false,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e teodolito juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/teodolito",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -231,11 +287,30 @@
     [
      "kit/canivete_aberto",
      0.0,
-     0.6,
-     2.2
+     -1.2,
+     2.2,
+     {
+      "fixo": true
+     }
     ]
    ],
-   "acao": "discutir"
+   "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e canivete_aberto juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/canivete_aberto",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -269,8 +344,8 @@
     [
      "kit/minerio",
      0.0,
-     0.4,
-     1.6,
+     1.4,
+     2.0,
      {
       "fixo": true
      }
@@ -280,7 +355,24 @@
    "tat": 6,
    "tstyle": "gold",
    "titulo": true,
-   "detalhe": false
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e minerio juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/minerio",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 3
   },
   {
    "shot": "close",
@@ -330,5 +422,6 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/Toledo_War",
   "https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war"
- ]
+ ],
+ "max_wide": 4
 }

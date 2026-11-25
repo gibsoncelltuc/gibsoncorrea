@@ -204,9 +204,9 @@
     ],
     [
      "tools/lantern",
-     1.1,
-     0.8,
-     1.0
+     0.0,
+     1.4,
+     2.0
     ]
    ],
    "text": "AGUARDENTE",
@@ -222,7 +222,8 @@
     "march": false
    },
    "acao": "beber",
-   "_auto_vis": 1
+   "_auto_vis": 3,
+   "detalhe": true
   },
   {
    "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não dividiram, e alguém deu um tiro.",

@@ -53,16 +53,15 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:shock:pitchfork",
-    "IRL:0:angry"
+    "FAZ:0:shock:pitchfork"
    ],
    "animals": [
     [
      "pig",
      2.6,
-     1.0,
+     1.2,
      "stand",
-     1.1
+     2.01
     ]
    ],
    "text": "1859",
@@ -86,7 +85,10 @@
      -0.6,
      1.1
     ]
-   ]
+   ],
+   "d0": 6.0,
+   "d1": 5.0,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
@@ -145,14 +147,34 @@
     ],
     [
      "kit/batatas",
-     0.0,
-     1.4,
-     1.0
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
     ]
    ],
    "detalhe": false,
    "say": "Um fazendeiro americano pegou um porco comendo as batatas da horta.",
-   "set": "countryside"
+   "set": "countryside",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e batatas juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/batatas",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "_auto_vis": 2
   },
   {
    "shot": "two",
@@ -198,8 +220,7 @@
   {
    "shot": "two",
    "who": [
-    "FAZ:0:nervous:money",
-    "IRL:0:angry"
+    "FAZ:0:nervous:money"
    ],
    "interacao": "entregar",
    "props": [
@@ -231,17 +252,19 @@
     [
      "pig",
      2.2,
-     -0.6,
+     1.2,
      "fall",
-     1.1
+     2.01
     ]
-   ]
+   ],
+   "d0": 6.0,
+   "d1": 5.0,
+   "_auto_vis": 3
   },
   {
    "shot": "two",
    "who": [
-    "IRL:0:shout",
-    "FAZ:0:surprised:money"
+    "IRL:0:shout"
    ],
    "interacao": "discutir",
    "acao": "discutir",
@@ -262,11 +285,14 @@
     [
      "pig",
      2.2,
-     -0.6,
+     1.2,
      "fall",
-     1.1
+     2.01
     ]
-   ]
+   ],
+   "d0": 6.0,
+   "d1": 5.0,
+   "_auto_vis": 3
   },
   {
    "shot": "reveal",
@@ -360,9 +386,12 @@
    "props": [
     [
      "kit/cross",
-     2.6,
-     -1.6,
-     1.0
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
     ],
     [
      "nature/picket_fence",
@@ -380,7 +409,23 @@
      "fall",
      1.1
     ]
-   ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cross juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/cross",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   }
  ],
  "heroi": "kit/batatas",

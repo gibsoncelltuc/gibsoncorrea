@@ -60,7 +60,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crown juntos (camera a 11.5 m)
 - PERSONAGENS: ARQ na esquerda, expressao grin; OUR na direita, expressao nervous; sem multidao; acao: fala/gesto
-- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.6 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/crown: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 
 ## b9: "Conta a lenda que ele gritou Eureca pela rua. E a coroa tinha mesmo prata."
 - LOCAL: vila medieval; hora: day

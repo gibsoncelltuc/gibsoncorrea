@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "OHI"
    ],
@@ -169,12 +169,12 @@
    "cenario": "jungle"
   },
   {
-   "camera": "low",
+   "camera": "wide",
    "personagens": [
     "GOV",
     "MIC"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [
     "kit/minerio",
     "nature/bush",
