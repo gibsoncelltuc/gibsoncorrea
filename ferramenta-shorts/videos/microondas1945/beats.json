@@ -74,7 +74,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era por volta de mil novecentos e quarenta e cinco, nos Estados Unidos, e o engenheiro Percy Spencer trabalhava numa fábrica de radares.",
@@ -179,7 +180,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
@@ -223,7 +225,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -259,7 +262,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "group"
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
@@ -310,7 +314,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "wide"
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",

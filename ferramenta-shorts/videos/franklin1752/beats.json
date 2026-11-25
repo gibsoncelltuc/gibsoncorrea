@@ -81,7 +81,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era mil setecentos e cinquenta e dois, na Filadélfia, e Benjamin Franklin queria provar que o raio era eletricidade.",
@@ -156,7 +157,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "O plano era simples e perigoso: se a pipa pegasse eletricidade, a chave soltaria faíscas.",
@@ -231,7 +233,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Hoje se discute se isso aconteceu mesmo. E se um raio tivesse caído na pipa, ele não teria sobrevivido.",
@@ -310,7 +313,8 @@
    "cz": -3.6,
    "h": 2.4,
    "d0": 16.2,
-   "d1": 15.4
+   "d1": 15.4,
+   "_enq_shot": "wide"
   },
   {
    "say": "No fim, o raio perdeu a briga para uma chave.",

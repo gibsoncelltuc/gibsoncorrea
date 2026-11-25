@@ -73,7 +73,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
@@ -170,7 +171,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "orbit"
   },
   {
    "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
@@ -262,7 +264,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   }
  ],
  "visual": {

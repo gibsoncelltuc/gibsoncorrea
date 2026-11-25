@@ -94,7 +94,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Era por volta de duzentos e quarenta antes de Cristo, e Eratóstenes era o bibliotecário da cidade de Alexandria, no Egito.",
@@ -163,7 +164,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Isso significava que o sol estava bem em cima, e nada fazia sombra.",
@@ -212,7 +214,8 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5
+   "d1": 11.5,
+   "_enq_shot": "two"
   },
   {
    "say": "Em Alexandria, no mesmo dia, uma vara fincada no solo fazia uma sombra pequena.",
@@ -321,7 +324,7 @@
    ],
    "fachada": false,
    "quadro": {
-    "local": "vila medieval",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e globe juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -336,7 +339,8 @@
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
-   "d1": 8.0
+   "d1": 8.0,
+   "_enq_shot": "two"
   },
   {
    "say": "Acontece que a sombra era diferente, e isso só podia acontecer se a Terra fosse curva.",
@@ -463,15 +467,16 @@
      }
     ]
    },
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
    "cx": 0.0,
    "cz": -3.6,
    "h": 2.4,
    "d0": 19.3,
    "d1": 18.4,
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false
+   "_enq_shot": "wide"
   },
   {
    "say": "Com uma conta simples, encontrou um número muito perto do tamanho real da Terra.",
@@ -532,15 +537,15 @@
     ]
    },
    "set": "medieval",
-   "cx": 3.6,
-   "cz": -1.4,
-   "h": 2.8,
-   "d0": 13.0,
-   "d1": 11.0,
    "crowd": {
     "n": 0
    },
-   "_auto_vis": 1
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.3,
+   "d1": 18.4,
+   "_enq_shot": "wide"
   }
  ],
  "exp": 0.9,
