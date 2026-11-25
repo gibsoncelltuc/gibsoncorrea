@@ -41,9 +41,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e ball juntos (camera a 8.0 m)
 - PERSONAGENS: GAL no centro, expressao shock; sem multidao; acao: fala/gesto
-- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/ball: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.4 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/pisa_tower: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 2.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 7.5 m de altura x 12.3 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO war/cannonballs: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 12.0 m de altura x 19.7 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
 - SOM: thump@40
