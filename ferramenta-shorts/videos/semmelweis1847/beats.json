@@ -242,19 +242,20 @@
     [
      "kit/bisturi",
      0.0,
-     -0.3,
-     2.5,
+     0.6,
+     3.2,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 1.0
      }
     ]
    ],
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.2,
+   "cz": 0.2,
    "h": 1.4,
-   "d0": 6.5,
-   "d1": 6.0,
+   "d0": 8.5,
+   "d1": 8.0,
    "detalhe": true,
    "quadro": {
     "local": "sala de madeira",
