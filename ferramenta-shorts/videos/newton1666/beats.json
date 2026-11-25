@@ -76,10 +76,10 @@
    ],
    "detalhe": false,
    "set": "loc_campo",
-   "cx": 0.8,
-   "cz": -2.0,
-   "d0": 10.0,
-   "d1": 8.5,
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 11.0,
+   "d1": 10.0,
    "hora": "pordosol",
    "quadro_manual": true,
    "h": 1.6,
@@ -305,15 +305,15 @@
    "props": [
     [
      "nature/tree_oak",
-     -2.2,
-     -1.6,
+     -2.6,
+     -2.5,
      1.4
     ],
     [
      "kit/apple",
-     1.0,
-     1.0,
-     1.09,
+     0.9,
+     0.5,
+     1.5,
      {
       "fixo": true
      }
@@ -347,7 +347,14 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.4,
+   "cz": 0.2,
+   "h": 1.4,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true,
+   "detalhe": true
   },
   {
    "shot": "two",
