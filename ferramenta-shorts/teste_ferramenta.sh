@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+trap "rm -rf referencias/_teste_* stories/_teste_* videos/_teste_* 2>/dev/null" EXIT   # 25/11: o teste nao deixa sobra no repositorio
 # TESTE RAPIDO DA FERRAMENTA (npm test): sintaxe do motor, biblioteca 3D consistente e regras do diretor. Nao renderiza nada.
 cd "$(dirname "$0")"; ok=0; f() { echo "FALHOU: $1"; ok=1; }
 for j in web/runtime.js web/toonbase.js web/acting.js web/tail.js stories/_h.js; do node --check "$j" 2>/dev/null || f "sintaxe $j"; done
