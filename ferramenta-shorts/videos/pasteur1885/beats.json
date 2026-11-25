@@ -95,18 +95,18 @@
    "detalhe": false,
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/syringe",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "objeto": "kit/seringa_pe",
+      "lugar": "FRENTE, esquerda",
+      "tela": "13% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -332,18 +332,18 @@
    "_susp_ok": true,
    "quadro": {
     "local": "salao",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e syringe juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)",
     "objetos": [
      {
-      "objeto": "kit/syringe",
+      "objeto": "kit/bancada",
       "lugar": "MEIO, centro (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      },
      {
-      "objeto": "kit/bancada",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
+      "objeto": "kit/seringa_pe",
+      "lugar": "FRENTE, esquerda",
+      "tela": "13% da altura da tela",
       "estado": "parado"
      }
     ]
