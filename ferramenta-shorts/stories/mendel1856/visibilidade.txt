@@ -1,1 +1,2 @@
-VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (24 tomadas)
+VISIBILIDADE: 1 FALHA(S)
+FALHA b6: objeto "kit/pea_green" saiu com 11% da altura da tela, a ficha de cena planejou 30%
