@@ -58,7 +58,7 @@
      "kit/brass_nose",
      0.0,
      -1.2,
-     1.1,
+     1.5,
      {
       "fixo": true
      }
@@ -348,5 +348,7 @@
    "castelo": "Uraniborg engraving Hven",
    "retrato": "Tycho Brahe portrait nose"
   }
- }
+ },
+ "cinf": 3.0,
+ "exp": 1.254
 }

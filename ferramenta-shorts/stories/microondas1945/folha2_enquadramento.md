@@ -66,14 +66,14 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b9: "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)
 - PERSONAGENS: POV no centro, expressao smile; sem multidao; acao: comemorar
 - OBJETO kit/microwave: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +30 da cena
 - EFEITO clarao/explosao: na frente, na altura do peito do 1o personagem; entra no quadro +70 da cena
 - SOM: ding@30
 - SOM: sting@70
-- TEXTO NA TELA: "1 MINUTO" numa placa atras dos personagens, na palavra 1 da frase
+- TEXTO NA TELA: "1 MINUTO" flutuando no alto, na palavra 1 da frase
 
 ## b10: "No fim, o chocolate perdeu, mas a pipoca agradece."
 - LOCAL: rua de cidade (predios dos dois lados); hora: day

@@ -263,7 +263,7 @@
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
     "POV:0:smile"
    ],
@@ -296,7 +296,7 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/microwave",
@@ -306,6 +306,7 @@
      }
     ]
    },
+   "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,

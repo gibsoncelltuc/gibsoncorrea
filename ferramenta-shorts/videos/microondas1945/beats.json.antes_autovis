@@ -201,8 +201,8 @@
    "props": [
     [
      "kit/egg",
-     0.6,
-     1.0,
+     0.0,
+     -1.2,
      1.5,
      {
       "fixo": true
@@ -224,8 +224,7 @@
    "cx": 0.0,
    "cz": -0.6,
    "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "d1": 11.5
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
@@ -265,10 +264,9 @@
   },
   {
    "say": "Hoje ele cabe em qualquer cozinha, e esquenta a sobra do jantar em um minuto.",
-   "shot": "two",
+   "shot": "wide",
    "who": [
-    "POV:0:smile",
-    "POV:1:grin"
+    "POV:0:smile"
    ],
    "impact": true,
    "tiros": false,
@@ -289,8 +287,8 @@
    "props": [
     [
      "kit/microwave",
-     0.6,
-     1.0,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -299,21 +297,22 @@
    ],
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 11.5 m)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e microwave juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/microwave",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "say": "No fim, o chocolate perdeu, mas a pipoca agradece.",

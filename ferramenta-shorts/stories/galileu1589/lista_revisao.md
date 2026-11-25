@@ -3,9 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b5: objeto "kit/ball" saiu com 12% da altura da tela, a ficha de cena planejou 32%
-2. b5: objeto "war/cannonballs" saiu com 8% da altura da tela, a ficha de cena planejou 18%
-3. b7: objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 32%
+1. b7: objeto "kit/feather" saiu com 6% da altura da tela, a ficha de cena planejou 18%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Uma bola pesada e outra leve foram soltas juntas e caíram no": 
