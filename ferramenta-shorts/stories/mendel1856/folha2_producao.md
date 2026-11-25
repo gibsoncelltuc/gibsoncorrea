@@ -138,21 +138,30 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b6 - Acontece que o verde voltou, e sempre na mesma conta: três ervilhas am...
-- Cenario: hall | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (0): - | multidao: 0 de POV
-- Animacao: - | grande momento (efeito + som, sem tiro)
+- Cenario: loc_campo | luz: day | clima: limpo
+- Camera: wide = ABERTO fixo
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): MEN (variante 0, expressao shock) | multidao: 0 de POV
+- Animacao: reagir | grande momento (efeito + som, sem tiro)
 - Objetos/modelos: kit/pea_green, kit/pea_yellow
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): verde
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/pea_green no centro, manobra "parado"
-- PASSOS NA TELA: -
-- TAKES: 1 take de explicacao (5.1 s): objeto no centro do estudio, rotulos entrando nas palavras
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MEN (padre) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/pea_green: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@40
+- SOM: sting@60
+- TEXTO NA TELA: "3 : 1" flutuando no alto, na palavra 1 da frase
+- TAKES: sequencia de acao em 3 cameras (5.1 s): 1) plano medio baixo na tropa (30%); 2) travelling lateral acompanhando a acao (25%); 3) grua subindo ate a vista de cima do campo (45%)
 <!-- /FICHA -->
 
 ## Cena b7 - Ele descobriu que cada filho herda uma instrução do pai e outra da mãe...
@@ -266,7 +275,7 @@ kit/pea_yellow | b2, b3, b5, b6, b9 | pronto | conferir na folha de contato se l
 
 
 ## Video inteiro
-- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 3 | mistura: close 18% | medio 60% | aberto 19% | detalhe 2%
+- Objeto heroi: kit/pea_green | grandes momentos: b6, b9 | planos abertos: 4 | mistura: close 20% | medio 55% | aberto 22% | detalhe 2%
 - Interacoes: b4 discutir, b7 cochichar
 - RISCOS GERAIS: nenhum
 

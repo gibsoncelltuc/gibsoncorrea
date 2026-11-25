@@ -129,8 +129,10 @@
    "cenario": "loc_patio"
   },
   {
-   "camera": "two",
-   "personagens": [],
+   "camera": "wide",
+   "personagens": [
+    "MEN"
+   ],
    "multidao": 0,
    "objetos": [
     "kit/pea_green",
@@ -139,8 +141,8 @@
    "palavras": 16,
    "cena": "b6",
    "frase": "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde.",
-   "classe": "explicativa",
-   "sujeito": "objeto",
+   "classe": "chave",
+   "sujeito": "personagem",
    "briefing": {
     "corpo": "tropa/personagens encenam a batalha",
     "emissao": "claroes de tiro, fumaca e poeira",
@@ -149,7 +151,7 @@
     "som": "tiros e gritos"
    },
    "acoes_faltando": [],
-   "cenario": "hall"
+   "cenario": "loc_campo"
   },
   {
    "camera": "two",

@@ -49,9 +49,18 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@30
 
 ## b6: "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
-- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
-- OBJETO: kit/pea_green no centro, manobra "parado"
-- PASSOS NA TELA: -
+- LOCAL: loc_campo; hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o pea_green (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: MEN (padre) no centro, expressao shock; sem multidao; acao: fala/gesto
+- OBJETO kit/pea_green: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, esquerda; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/pea_yellow: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 1.3 m de altura x 4.6 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO anel de impacto: acima da cabeca; entra no quadro +40 da cena
+- EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
+- SOM: ding@40
+- SOM: sting@60
+- TEXTO NA TELA: "3 : 1" flutuando no alto, na palavra 1 da frase
 
 ## b7: "Ele descobriu que cada filho herda uma instrução do pai e outra da mãe."
 - LOCAL: sala de madeira; hora: day

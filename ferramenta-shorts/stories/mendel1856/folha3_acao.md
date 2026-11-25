@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 09 - Mendel e as Ervilhas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 28 acoes catalogadas, 28 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.9s - 14 palavras - plano two
@@ -109,7 +109,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ACAO: fala na palavra contou (27.2s): braco estendido apontando para o objeto/lugar citado
 <!-- /FISICA -->
 
-## Cena b6 - 30.8s a 35.9s - 16 palavras - plano two
+## Cena b6 - 30.8s a 35.9s - 16 palavras - plano wide
 > "Acontece que o verde voltou, e sempre na mesma conta: três ervilhas amarelas para uma verde."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -118,11 +118,13 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-| 2 | - | PLACA | 3 : 1 | OK |
+| 2 | - | ATUACAO | reagir | OK |
+| 3 | - | PLACA | 3 : 1 | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
 - GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
+- ATUACAO (a cena toda): executa: reagir
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 
