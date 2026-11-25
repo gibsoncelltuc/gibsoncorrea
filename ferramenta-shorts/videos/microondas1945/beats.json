@@ -152,7 +152,7 @@
   },
   {
    "say": "Um dia, ele chegou perto dessa peça com uma barra de chocolate no bolso.",
-   "shot": "wide",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "ENG:0:neutral",
@@ -172,28 +172,28 @@
    "props": [
     [
      "kit/chocolate",
-     0.0,
-     0.8,
-     3.4,
+     0.2,
+     2.2,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 1.7,
-   "d0": 11.0,
-   "d1": 10.5,
+   "cx": 0.1,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 10.0,
+   "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o chocolate (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/chocolate",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
       "estado": "parado"
      }
     ]
@@ -201,7 +201,7 @@
   },
   {
    "say": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
-   "shot": "wide",
+   "shot": "two",
    "interior": "madeira",
    "who": [
     "ENG:0:surprised",
@@ -222,20 +222,20 @@
    "props": [
     [
      "kit/chocolate",
-     0.0,
-     1.0,
-     1.9,
+     0.2,
+     2.2,
+     1.5,
      {
       "fixo": true
      }
     ]
    ],
    "quadro_manual": true,
-   "cx": 0.0,
-   "cz": 0.0,
-   "h": 1.8,
-   "d0": 11.5,
-   "d1": 11.0,
+   "cx": 0.1,
+   "cz": 0.5,
+   "h": 1.5,
+   "d0": 10.0,
+   "d1": 9.5,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e chocolate juntos (camera a 11.5 m)",
@@ -268,7 +268,7 @@
   },
   {
    "say": "Acontece que ele testou milho de pipoca, e os grãos começaram a estourar pela sala.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "SPE:0:laugh"
    ],
@@ -328,13 +328,12 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Depois testou um ovo, e o ovo explodiu bem na cara de um colega.",
-   "shot": "group",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "SPE:0:grin"
@@ -389,9 +388,8 @@
    "detalhe": false,
    "cx": 1.2,
    "cz": 0.1,
-   "d0": 11.4,
-   "d1": 11.0,
-   "_auto_vis": 2
+   "d0": 8.4,
+   "d1": 8.0
   },
   {
    "say": "Dois anos depois, saiu o primeiro forno, mais alto que uma pessoa e com mais de trezentos quilos.",
