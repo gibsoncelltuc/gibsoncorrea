@@ -34,7 +34,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@10, thump@40
 - Efeito + som nas palavras-chave: -
-- Efeito visual marcado: ring@12, dust@40
+- Efeito visual marcado: puff@40
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 - Narracao: A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: chega (point) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -103,7 +103,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_camp
 
 ## Cena b11  (~4.5 s)
 - Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -

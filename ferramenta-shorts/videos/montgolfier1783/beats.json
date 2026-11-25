@@ -216,6 +216,15 @@
      {
       "fixo": true
      }
+    ],
+    [
+     "kit/fire",
+     0.0,
+     -7.6,
+     0.8,
+     {
+      "fixo": true
+     }
     ]
    ],
    "say": "Então fizeram um balão gigante de pano e papel, cheio de ar quente.",
@@ -252,7 +261,10 @@
    "d0": 22.0,
    "d1": 21.0,
    "quadro_manual": true,
-   "set": "loc_campo"
+   "set": "loc_campo",
+   "fx": [
+    "puff@40"
+   ]
   },
   {
    "shot": "two",
@@ -281,28 +293,27 @@
    "animals": [
     [
      "sheep",
-     1.0,
-     -1.2
+     -0.45,
+     -2.2
     ],
     [
      "duck",
-     -0.9,
-     -1.3
+     0.45,
+     -2.3
     ],
     [
      "rooster",
-     0.2,
-     -1.0
+     0.0,
+     -2.7
     ]
    ],
-   "interacao": "entregar",
    "say": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
    "props": [
     [
      "kit/balloon",
      0.0,
-     -19.3,
-     8.22,
+     -2.3,
+     4.5,
      {
       "fixo": true
      }
@@ -326,27 +337,27 @@
     ]
    },
    "set": "medieval",
-   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "chega",
-      "na": "entraram",
-      "quem": 0
+      "faz": "mostra",
+      "na": "cesta"
      }
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -1.5,
+   "h": 1.2,
+   "d0": 7.0,
+   "d1": 6.5,
+   "quadro_manual": true
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "REI:0:smile"
+    "REI:0:surprised",
+    "RAI:0:smile"
    ],
    "batalha": false,
    "tiros": false,
@@ -359,17 +370,7 @@
     "march": false,
     "expr": "shock"
    },
-   "props": [
-    [
-     "kit/balloon",
-     0.0,
-     -19.3,
-     8.22,
-     {
-      "fixo": true
-     }
-    ]
-   ],
+   "props": [],
    "fx": [
     "ring@30"
    ],
@@ -392,7 +393,6 @@
     ]
    },
    "set": "street",
-   "_enq_shot": "wide",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -404,10 +404,12 @@
     ]
    },
    "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0
+   "cz": -0.5,
+   "h": 1.5,
+   "d0": 8.0,
+   "d1": 6.5,
+   "objetos": false,
+   "quadro_manual": true
   },
   {
    "shot": "wide",
@@ -541,11 +543,11 @@
   {
    "shot": "wide",
    "who": [
-    "POV:0:laugh"
+    "POV:0:laugh",
+    "POV:1:laugh"
    ],
    "batalha": false,
    "tiros": false,
-   "acao": "comemorar",
    "crowd": {
     "n": 0
    },
@@ -553,10 +555,11 @@
     [
      "kit/balloon_air",
      0.0,
-     -8.0,
+     -0.9,
      4.5,
      {
-      "fixo": true
+      "fixo": true,
+      "y": 0.4
      }
     ]
    ],
@@ -597,10 +600,10 @@
     ]
    },
    "cx": 0.0,
-   "cz": -3.0,
-   "h": 9.0,
-   "d0": 26.0,
-   "d1": 24.0,
+   "cz": -0.9,
+   "h": 4.5,
+   "d0": 16.0,
+   "d1": 15.0,
    "quadro_manual": true,
    "objetos": false
   },
@@ -661,7 +664,7 @@
      }
     ]
    },
-   "set": "loc_montanha",
+   "set": "countryside",
    "_enq_shot": "wide",
    "encena": {
     "sentido": "fato",
@@ -683,18 +686,35 @@
    "who": [
     "JOS:0:grin"
    ],
-   "shot": "close",
+   "shot": "two",
    "say": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
    "text": "COMENTE!",
    "_cta": true,
    "detalhe": false,
    "mapa": null,
-   "set": "loc_montanha",
+   "set": "palace",
    "objetos": false,
    "fachada": false,
    "crowd": {
     "n": 0
-   }
+   },
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -12.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 3.0,
+   "d0": 14.0,
+   "d1": 12.0
   }
  ],
  "exp": 0.81,

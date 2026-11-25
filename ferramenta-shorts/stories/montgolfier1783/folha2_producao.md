@@ -76,7 +76,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): ETI (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar | grande momento (efeito + som, sem tiro)
-- Objetos/modelos: kit/balloon, kit/marco_versalhes
+- Objetos/modelos: kit/balloon, kit/fire, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): balao, pano
 - RISCOS: nenhum
 <!-- FICHA -->
@@ -86,6 +86,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao grin; sem multidao; acao: conversar
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/fire: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 2.1 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +40 da cena
 - TAKES: 2 takes (troca de angulo a cada ~1.8 s, sem corte seco):
   - take 1 (16.5-18.2 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
   - take 2 (18.2-20.0 s): gira 12 graus para a direita, camera mais baixa, olhando um pouco de baixo
@@ -115,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: encena
+- Animacao: -
 - Objetos/modelos: kit/balloon, kit/marco_versalhes, sheep, duck, rooster
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cesta, frente, galo, ovelha, pato, solucao
 - RISCOS: nenhum
@@ -124,7 +126,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: vila medieval; hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: entregar
+- PERSONAGENS: JOS (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TAKES: 3 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (24.6-26.3 s): gira 14 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe
@@ -136,18 +138,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): REI (variante 0, expressao smile) | multidao: 30 de POV/NOB
+- Personagens principais (2): REI (variante 0, expressao surprised); RAI (variante 0, expressao smile) | multidao: 30 de POV/NOB
 - Animacao: encena
-- Objetos/modelos: kit/balloon, kit/marco_versalhes
+- Objetos/modelos: kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): multidao
 - RISCOS: nenhum
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
-- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
-- PERSONAGENS: REI (rei) no centro, expressao smile; multidao de 16 (POV, NOB) ATRAS dos principais; acao: fala/gesto
-- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: REI (rei) na esquerda, expressao surprised; RAI na direita, expressao smile; multidao de 16 (POV, NOB) ATRAS dos principais; acao: fala/gesto
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - EFEITO anel de impacto: acima da cabeca; entra no quadro +30 da cena
 - SOM: sting@30
 - TAKES: 2 takes (troca de angulo a cada ~2.2 s, sem corte seco):
@@ -207,8 +209,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: street | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): POV (variante 0, expressao laugh) | multidao: 0 de POV
-- Animacao: comemorar
+- Personagens principais (2): POV (variante 0, expressao laugh); POV (variante 1, expressao laugh) | multidao: 0 de POV
+- Animacao: -
 - Objetos/modelos: kit/balloon_air, kit/marco_versalhes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): paris
 - RISCOS: nenhum
@@ -217,7 +219,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
 - LOCAL: rua de cidade (predios dos dois lados); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
-- PERSONAGENS: POV no centro, expressao laugh; sem multidao; acao: comemorar
+- PERSONAGENS: POV na esquerda, expressao laugh; POV na direita, expressao laugh; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +20 da cena
 - EFEITO estrelinhas sobre a cabeca (susto/tontura): acima da cabeca; entra no quadro +60 da cena
@@ -230,7 +232,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b10 - Tudo graças a três bichos corajosos.
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto
 - Personagens principais (1): ETI (variante 0, expressao smile) | multidao: 0 de POV
@@ -241,7 +243,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_montanha; hora: day
+- LOCAL: vila rural (casas, cercas, campo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: ETI (comerciante) no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
@@ -249,12 +251,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b11 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: loc_montanha | luz: day | clima: limpo
+- Cenario: palace | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): JOS (variante 0, expressao grin) | multidao: 0 de POV
 - Animacao: conversar
-- Objetos/modelos: -
+- Objetos/modelos: kit/balloon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
@@ -263,12 +265,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/balloon | b0, b3, b5, b6, b7, b8, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/balloon | b0, b3, b5, b7, b8, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/marco_versalhes | b0, b1, b3, b5, b6, b7, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 sheep | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 duck | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 rooster | b0, b5, b8, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/campfire | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/fire | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/balloon_air | b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_pine | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -289,10 +292,10 @@ nature/bush | b8 | pronto | conferir na folha de contato se le bem; se parecer c
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_montanha; hora: day
-- CAMERA: close (rosto e ombros)
+- LOCAL: praia / palacio; hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o balloon (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: JOS (comerciante) no centro, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/balloon: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - TEXTO NA TELA: "COMENTE!" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.7 s, sem corte seco):
   - take 1 (56.4-58.0 s): gira 18 graus para a esquerda, camera mais alta, olhando um pouco de cima, um pouco mais longe

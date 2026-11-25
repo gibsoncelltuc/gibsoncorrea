@@ -26,6 +26,11 @@
    "cena 9",
    "countryside",
    "loc_campo"
+  ],
+  [
+   "cena 11",
+   "countryside",
+   "loc_campo"
   ]
  ],
  "metricas": {
@@ -100,6 +105,7 @@
    "multidao": 0,
    "objetos": [
     "kit/balloon",
+    "kit/fire",
     "kit/marco_versalhes"
    ],
    "palavras": 13,
@@ -147,7 +153,7 @@
    "palavras": 16,
    "cena": "b5",
    "frase": "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -156,11 +162,11 @@
   {
    "camera": "orbit",
    "personagens": [
-    "REI"
+    "REI",
+    "RAI"
    ],
    "multidao": 30,
    "objetos": [
-    "kit/balloon",
     "kit/marco_versalhes"
    ],
    "palavras": 15,
@@ -229,6 +235,7 @@
   {
    "camera": "wide",
    "personagens": [
+    "POV",
     "POV"
    ],
    "multidao": 0,
@@ -239,7 +246,7 @@
    "palavras": 12,
    "cena": "b9",
    "frase": "Dois meses depois, outro balão levou dois homens por cima de Paris.",
-   "classe": "simples",
+   "classe": "transicao",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
@@ -262,7 +269,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "loc_campo"
   },
   {
    "camera": "close",
@@ -270,7 +277,9 @@
     "JOS"
    ],
    "multidao": 0,
-   "objetos": [],
+   "objetos": [
+    "kit/balloon"
+   ],
    "palavras": 13,
    "cena": "b11",
    "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
@@ -278,7 +287,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_montanha"
+   "cenario": "palace"
   }
  ]
 }

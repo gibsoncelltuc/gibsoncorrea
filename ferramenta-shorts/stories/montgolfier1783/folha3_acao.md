@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 19 acoes catalogadas, 19 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 17 acoes catalogadas, 17 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.2s - 17 palavras - plano two
@@ -91,16 +91,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 > "A solução: mandar bichos na frente. Uma ovelha, um pato e um galo entraram na cesta."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) JOS chega na cena | na palavra "entraram" (29.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "cesta" (29.7s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | entraram (29.2s) | ACAO: chega | entra andando pela lateral | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: chega na palavra entraram (29.2s): executa: entra andando pela lateral
-<!-- /FISICA -->
+| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
 
 ## Cena b6 - 30.9s a 35.3s - 15 palavras - plano orbit
 > "Em Versalhes, o rei Luís dezesseis e Maria Antonieta assistiram, no meio de uma multidão."
@@ -158,12 +153,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | VOAMOS | OK |
+| 1 | - | PLACA | VOAMOS | OK |
 <!-- FISICA -->
 
 **FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ATUACAO (a cena toda): bracos para cima e pulinhos curtos durante a frase
 - PLACA (a cena toda): texto entra com um pulo de escala (~0,2 s) e fica ate o fim da cena
 <!-- /FISICA -->
 

@@ -7,7 +7,7 @@ b1 | reveal | -  | tropa, mapa | - | -
 b2 | group | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
 b3 | wide | -  | batalha aberta com tiros, tropa | - | -
 b4 | two | -  | interior | - | -
-b5 | wide | -  | tropa, animais | encena: chega (point) @13 (acao + som de efeito) | -
+b5 | wide | -  | tropa, animais | - | -
 b6 | orbit | -  | tropa | encena: olha (point) @9 (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -
 b8 | wide | -  | tropa, animais | - | -
