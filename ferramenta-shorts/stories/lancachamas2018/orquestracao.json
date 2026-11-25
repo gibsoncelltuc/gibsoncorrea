@@ -24,7 +24,6 @@
    "multidao": 0,
    "objetos": [
     "kit/bancada",
-    "kit/fire",
     "kit/flamethrower",
     "kit/marco_hollywood"
    ],
@@ -38,26 +37,21 @@
    "cenario": "loc_cidade"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
     "MUS",
     "CMP"
    ],
-   "multidao": 6,
-   "objetos": [
-    "kit/bancada",
-    "kit/flamethrower",
-    "kit/marco_hollywood",
-    "kit/tunel_boring"
-   ],
+   "multidao": 0,
+   "objetos": [],
    "palavras": 22,
    "cena": "b1",
    "frase": "Foi em dois mil e dezoito, nos Estados Unidos. A Boring Company, a empresa de túneis de Elon Musk, lançou o produto.",
-   "classe": "transicao",
+   "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_cidade"
+   "cenario": "interior pedra"
   },
   {
    "camera": "two",
@@ -133,8 +127,7 @@
    ],
    "multidao": 0,
    "objetos": [
-    "kit/flamethrower",
-    "mk/Crate_Metal"
+    "kit/flamethrower"
    ],
    "palavras": 13,
    "cena": "b5",
@@ -143,10 +136,10 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior loja"
+   "cenario": "interior pedra"
   },
   {
-   "camera": "group",
+   "camera": "two",
    "personagens": [
     "CMP",
     "POV"

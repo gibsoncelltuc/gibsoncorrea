@@ -5,9 +5,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 ## Cena b0  (~4.1 s)
 - Narracao: Um bilionário vendeu um lança-chamas e jurou que não era um lança-chamas.
 - Som ambiente: silencio/sala
-- Efeitos sonoros marcados: sting@30
+- Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) determined -> expr + som de efeito; vendeu -> stars + som de sino
-- Efeito visual marcado: burst@30, stars@50
+- Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GANCHO
 
@@ -17,7 +17,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: BORING COMPANY | mapa: ESTADOS UNIDOS
+- Texto na tela: - | mapa: ESTADOS UNIDOS
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~5.9 s)
@@ -35,7 +35,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: "NÃO É UM LANÇA-CHAMAS"
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b4  (~4.5 s)
@@ -53,7 +53,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cida
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: ALFÂNDEGA
+- Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b6  (~3.4 s)
