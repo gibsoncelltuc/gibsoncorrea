@@ -176,7 +176,7 @@ for _b in B['beats']:   # 24/11 SENTIDO: frase cuja violencia e' toda negada/fig
     if _sc.get('nao_cozinha'): _b['_nao_cozinha'] = True
 for i_, _b in enumerate(B['beats']):
     if i_ in _EXPL or _b.get('mapa') or B.get('variar_cenario') is False: continue
-    _t = __import__('unicodedata').normalize('NFKD', _b['say'].lower()).encode('ascii', 'ignore').decode()
+    _t = __import__('unicodedata').normalize('NFKD', re.sub(r'maç(ã|a)s?', 'pomo', _b['say'].lower())).encode('ascii', 'ignore').decode()   # 25/11 (Newton, sessao B): 'maçã' sem acento vira 'maca' de hospital
     for rx_, k_, v_ in _LUGAR:
         if re.search(rx_, _t):
             _b['_lug_ok'] = True   # a narracao CITOU o lugar: a variedade nunca tira a cena dele (estadio lotado continua no estadio)
@@ -1841,7 +1841,7 @@ def build_beat(k, b):
             elif tipo_ == 'negocio':
                 pr.append(f"{{ asset: 'kit/coin', a: WS({wi_}) - 2, b: WS({wi_}) + 50, at: [X + {num(_hx)}, {num(_z0 + 0.6)}], y: (f) => DK + 1.5 + 0.25 * Math.sin(f * 0.2), spinY: 2, s: 0.35, drop: false }}"); KWSFX.append((wi_, 'ding'))
             elif tipo_ == 'tira':
-                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_): pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
+                if re.search(r'foto|selfie|fotograf|film|grav|celular', _sy_) and (ANO or 2024) >= 2007: pr.append(f"{{ asset: 'kit/phone', a: WS({wi_}) - 4, b: {bb}, at: [X + {num(_hx)}, {num(_z0 + 0.5)}], y: DK + 2.0, s: 0.35, drop: false }}"); fx.append(f"{{ k: 'flash', a: WS({wi_}) + 6, b: WS({wi_}) + 12, at: [X + {num(_hx)}, DK + 0.8, {num(_z0 + 0.7)}], s: 1.2 }}")
                 KWSFX.append((wi_, 'tick'))
             elif tipo_ == 'rende':
                 fx.append(f"{{ k: 'stars', a: WS({wi_}) + 4, b: WS({wi_}) + 34, at: [X + {num(sl[0])}, DK + 3.0, {num(_z0)}], s: 0.6 }}"); KWSFX.append((wi_, 'sting'))

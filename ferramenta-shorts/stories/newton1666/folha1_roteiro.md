@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +7% | Clima do video: playful | Cenario base: countrysi
 
 ## Cena b5  (~6.9 s)
 - Narracao: Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -

@@ -112,7 +112,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b5 - Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): NEW (variante 0, expressao suspicious)
