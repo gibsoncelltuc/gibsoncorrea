@@ -223,7 +223,6 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e seringa_pe juntos (camera a 8.0 m)
 - PERSONAGENS: PAS no centro, expressao smile; sem multidao; acao: fala/gesto
 - OBJETO kit/seringa_pe: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.2 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
-- OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 

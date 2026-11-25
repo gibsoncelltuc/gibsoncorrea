@@ -421,22 +421,12 @@
    ],
    "props": [
     [
-     "kit/bancada",
-     0.9,
-     0.3,
-     1.6,
-     {
-      "fixo": true
-     }
-    ],
-    [
      "kit/seringa_pe",
      0.9,
      0.3,
      1.4,
      {
-      "fixo": true,
-      "y": 1.22
+      "fixo": true
      }
     ]
    ],
