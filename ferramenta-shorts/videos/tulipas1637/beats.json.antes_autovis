@@ -1,6 +1,6 @@
 {
  "voice": "pt-BR-AntonioNeural",
- "rate": "+10%",
+ "rate": "+20%",
  "title": "A Febre das Tulipas",
  "set": "countryside",
  "light": "day",
@@ -62,8 +62,26 @@
      }
     ]
    ],
-   "say": "Uma única flor já custou o preço de uma casa inteira.",
    "detalhe": false,
+   "set": "street",
+   "titulo": true,
+   "bloco": "gancho",
+   "say": "Uma única flor já custou o preço de uma casa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "flor"
+     }
+    ]
+   },
+   "text": "1 FLOR = 1 CASA",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "rua de cidade (predios dos dois lados)",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
@@ -75,23 +93,61 @@
       "estado": "parado"
      }
     ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "RIC:0:pained:tulip"
+   ],
+   "props": [
+    [
+     "kit/tulip_bed",
+     0.0,
+     -8.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "acao": "nenhuma",
+   "crowd": {
+    "n": 0
    },
-   "set": "street",
-   "titulo": true,
+   "detalhe": false,
+   "bloco": "promessa",
+   "say": "E quem pagou isso perdeu tudo em poucos dias.",
    "encena": {
     "sentido": "fato",
     "passos": [
      {
-      "faz": "mostra",
-      "na": "flor"
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0,
+      "forcar": true
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/tulip_bed",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -159,9 +215,25 @@
    },
    "mapa": "HOLANDA",
    "mapa_at": 2,
-   "say": "Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara, e na moda.",
    "fachada": false,
    "detalhe": false,
+   "bloco": "prova",
+   "say": "Em 1637, na Holanda, a tulipa virou moda.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tulipa"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
@@ -203,22 +275,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "tulipa"
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "two",
@@ -239,7 +296,29 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Num leilão, um oferecia mil moedas por um bulbo, e outro pagava duas mil.",
+   "detalhe": true,
+   "bloco": "prova",
+   "say": "Num leilão, um bulbo saiu por duas mil moedas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "leilão",
+      "quem": 0
+     },
+     {
+      "faz": "paga",
+      "na": "mil",
+      "quem": 1
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
@@ -251,27 +330,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "leilão",
-      "quem": 0
-     },
-     {
-      "faz": "paga",
-      "na": "pagava",
-      "quem": 1
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "wide",
@@ -310,12 +369,7 @@
     ]
    ],
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV",
-     "MER"
-    ],
-    "expr": "grin"
+    "n": 0
    },
    "fx": [
     "stars@30",
@@ -327,9 +381,28 @@
    ],
    "text": "TODO MUNDO",
    "titulo": true,
-   "say": "Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.",
    "fachada": false,
    "detalhe": false,
+   "impact": true,
+   "bloco": "prova",
+   "say": "Logo, padeiros e sapateiros também queriam bulbos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "paga",
+      "na": "bulbos",
+      "quem": 0
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
@@ -353,23 +426,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "paga",
-      "na": "comprando",
-      "quem": 0
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "wide",
@@ -411,9 +468,28 @@
    "crowd": {
     "n": 0
    },
-   "say": "Contam que teve gente que trocou terras e casas por um único bulbo.",
    "fachada": false,
    "detalhe": true,
+   "impact": false,
+   "text": "1 CASA = 1 BULBO",
+   "bloco": "escalada",
+   "say": "Contam que teve gente trocando casas por um único bulbo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "entrega",
+      "na": "trocando",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
     "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e tulip_striped juntos (camera a 11.5 m)",
@@ -437,95 +513,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "impact": false,
-   "text": "1 CASA = 1 BULBO",
-   "acoes": [
-    {
-     "palavra": "trocou",
-     "tipo": "entrega",
-     "quem": 0,
-     "alvo": 1
-    }
-   ],
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "entrega",
-      "na": "trocou",
-      "quem": 0,
-      "alvo_quem": 1
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
-  },
-  {
-   "shot": "two",
-   "who": [
-    "POV:2:grin:paper",
-    "POV:3:smile:coin"
-   ],
-   "props": [
-    [
-     "kit/tulip_yellow",
-     -0.6,
-     -1.2,
-     0.9,
-     {
-      "fixo": true
-     }
-    ],
-    [
-     "kit/tulip_purple",
-     0.6,
-     -1.4,
-     0.9,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "acao": "discutir",
-   "say": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte.",
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "mostra",
-      "na": "flor"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -0.5,
-   "d0": 11.5,
-   "d1": 10.0,
-   "quadro_manual": true,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_yellow juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tulip_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tulip_purple",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "shot_lock": true
+   }
   },
   {
    "shot": "two",
@@ -546,7 +534,23 @@
     ]
    ],
    "acao": "discutir",
-   "say": "Contam que um marinheiro comeu um bulbo achando que era cebola. Valia uma fortuna.",
+   "bloco": "escalada",
+   "say": "Um marinheiro comeu um bulbo achando que era cebola.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_come",
+      "na": "comeu",
+      "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_red juntos (camera a 11.5 m)",
@@ -558,22 +562,7 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "x_come",
-      "na": "comeu",
-      "quem": 0
-     }
-    ]
-   },
-   "_enq_shot": "two",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5
+   }
   },
   {
    "shot": "group",
@@ -587,13 +576,14 @@
    "hora": "dia",
    "acao": "nenhuma",
    "text": "LEILÃO",
-   "say": "Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou a mão.",
+   "bloco": "escalada",
+   "say": "Acontece que, num leilão de fevereiro, ninguém levantou a mão.",
    "encena": {
     "sentido": "negativa",
     "passos": [
      {
       "faz": "x_abre",
-      "na": "abriu",
+      "na": "levantou",
       "quem": 0
      }
     ]
@@ -627,14 +617,7 @@
     ]
    ],
    "crowd": {
-    "n": 14,
-    "outfits": [
-     "POV",
-     "MER",
-     "RIC"
-    ],
-    "march": false,
-    "expr": "shock"
+    "n": 0
    },
    "fx": [
     "dust@40",
@@ -648,13 +631,31 @@
    "text": "PÂNICO",
    "titulo": true,
    "acao": "discutir",
-   "say": "A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais comprador.",
-   "clima": "limpo",
    "fachada": false,
    "detalhe": false,
+   "impact": true,
+   "bloco": "pagamento",
+   "say": "Os preços desabaram. Quem trocou a casa ficou só com flores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "negocio",
+      "na": "desabaram",
+      "quem": 0
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "_enq_shot": "wide",
    "quadro": {
     "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/tulip_bed",
@@ -669,90 +670,21 @@
       "estado": "parado"
      }
     ]
-   },
-   "encena": {
-    "sentido": "afirmativa",
-    "passos": [
-     {
-      "faz": "negocio",
-      "na": "vender",
-      "quem": 0
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
-  },
-  {
-   "shot": "wide",
-   "who": [
-    "RIC:0:pained:tulip"
-   ],
-   "props": [
-    [
-     "kit/tulip_bed",
-     0.0,
-     -8.0,
-     1.3,
-     {
-      "fixo": true
-     }
-    ]
-   ],
-   "fachada": false,
-   "acao": "nenhuma",
-   "say": "Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as flores, e as dívidas.",
-   "crowd": {
-    "n": 0
-   },
-   "detalhe": false,
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tulip_bed (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/tulip_bed",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "encena": {
-    "sentido": "fato",
-    "passos": [
-     {
-      "faz": "perde",
-      "na": "flores",
-      "quem": 0,
-      "forcar": true
-     }
-    ]
-   },
-   "_enq_shot": "wide",
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 10.5,
-   "d1": 10.0
+   }
   },
   {
    "shot": "close",
    "who": [
     "MAR:0:grin"
    ],
-   "say": "O marinheiro, pelo menos, almoçou bem.",
+   "bloco": "loop",
+   "say": "Uma loucura que se repete. Foi assim que...",
    "encena": {
-    "sentido": "fato",
+    "sentido": "afirmativa",
     "passos": [
      {
-      "faz": "x_come",
-      "na": "almoçou",
-      "quem": 0
+      "faz": "mostra",
+      "na": "assim"
      }
     ]
    }
@@ -790,5 +722,8 @@
  "serie": "Curiosidade e Ciência",
  "ep": 21,
  "titulo_base": "A Febre das Tulipas",
- "max_wide": 6
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma flor custou o preco de uma casa e quem pagou perdeu tudo em dias. Pagamento: bulbos de mil e duas mil moedas, casas trocadas por bulbos; no leilao de fevereiro ninguem comprou e os precos desabaram.",
+ "loop_frase_ok": true,
+ "max_wide": 5
 }
