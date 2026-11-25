@@ -4,7 +4,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b0: "Um mofo esquecido no meio da bagunça acabou salvando milhões de vidas."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- CAMERA: plano aberto (cenario inteiro)
 - PERSONAGENS: FLE na esquerda, expressao smile, segura book; COL na direita, expressao surprised; sem multidao; acao: fala/gesto
 - OBJETO kit/petri_mofo: FRENTE, centro (objeto principal da cena); tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, entre os personagens, sem tapar rosto
 - OBJETO kit/bancada: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -18,9 +18,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b2: "Ele estudava bactérias e deixava os pratos de cultura empilhados na bancada. Eram pratinhos de vidro com uma gelatina onde as bactérias cresciam."
 - LOCAL: sala de madeira; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
+- CAMERA: plano aberto (cenario inteiro); plano medio enquadrando personagens e bancada juntos (camera a 11.5 m)
 - PERSONAGENS: FLE na esquerda, expressao neutral, segura book; COL na direita, expressao suspicious; sem multidao; acao: conversar
-- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.4 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
+- OBJETO kit/bancada: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/petri: FRENTE, esquerda; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/petri: FRENTE, direita; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto
 - OBJETO kit/petri: FRENTE, esquerda; tamanho na tela: 2% da altura da tela; estado: PARADO; objeto pequeno ampliado para 0.1 m (le de longe): NA FRENTE, ao lado, sem tapar rosto

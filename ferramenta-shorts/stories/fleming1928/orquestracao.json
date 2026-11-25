@@ -10,7 +10,7 @@
  },
  "cenas": [
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
@@ -49,7 +49,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
     "FLE",
     "COL"
