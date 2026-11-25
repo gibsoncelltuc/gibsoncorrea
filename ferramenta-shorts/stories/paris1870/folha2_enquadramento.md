@@ -69,7 +69,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto
 - PERSONAGENS: PAR no centro, expressao surprised; sem multidao; acao: conversar
 - OBJETO kit/balloon_air: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 18.9 m de altura x 11.8 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "BALÕES" flutuando no alto, na palavra 3 da frase
+- TEXTO NA TELA: "BALÕES" flutuando no alto, na palavra 1 da frase
 
 ## b10: "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia."
 - LOCAL: rua de cidade (predios dos dois lados); hora: dusk; clima: neve

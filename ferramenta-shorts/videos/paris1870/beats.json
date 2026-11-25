@@ -461,12 +461,12 @@
    "props": [
     [
      "kit/balloon_air",
-     1.5,
-     -9.0,
-     2.6,
+     1.2,
+     -14.0,
+     3.2,
      {
       "fixo": true,
-      "y": 3.5
+      "y": 2.0
      }
     ]
    ],
@@ -475,7 +475,6 @@
    "set": "street",
    "animais": false,
    "text": "BALÕES",
-   "tat": 2,
    "tstyle": "blue",
    "who": [
     "PAR:1:surprised"
@@ -495,24 +494,13 @@
      }
     ]
    },
-   "cx": 0.8,
-   "cz": -4.0,
-   "h": 1.6,
-   "d0": 12.0,
-   "d1": 10.0,
+   "cx": 0.6,
+   "cz": -5.0,
+   "h": 1.3,
+   "d0": 13.0,
+   "d1": 11.0,
    "quadro_manual": true,
-   "quadro": {
-    "local": "rua de cidade (predios dos dois lados)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o balloon_air (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
-    "objetos": [
-     {
-      "objeto": "kit/balloon_air",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   }
+   "titulo": true
   },
   {
    "say": "Em janeiro de mil oitocentos e setenta e um, Paris se rendeu. De barriga vazia.",
