@@ -80,7 +80,7 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "JOS",
     "ETI"
@@ -117,7 +117,7 @@
    "cenario": "interior madeira"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "NOB",
     "ETI"

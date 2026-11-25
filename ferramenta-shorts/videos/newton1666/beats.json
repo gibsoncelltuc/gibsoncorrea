@@ -41,7 +41,7 @@
  "beats": [
   {
    "say": "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
     "NEW:0:smile:book"
    ],
@@ -58,7 +58,7 @@
    ],
    "quadro": {
     "local": "loc_campo",
-    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/apple",
@@ -68,7 +68,7 @@
      }
     ]
    },
-   "_enq_shot": "wide",
+   "_enq_shot": "group",
    "encena": {
     "sentido": "fato",
     "passos": [

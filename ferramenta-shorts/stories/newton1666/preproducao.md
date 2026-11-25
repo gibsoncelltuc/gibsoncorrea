@@ -4,7 +4,7 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | loc_campo | two | 1 | encena | kit/apple | book | -
+b0 | loc_campo | group | 1 | encena | kit/apple | book | -
 b1 | countryside | reveal | 10 | reagir | - | - | -
 b2 | interior madeira | two | 2 | conversar, INTERAGEM: insiste, alguem chega andando | nature/picket_fence | - | -
 b3 | countryside | two | 2 | conversar, INTERAGEM: vai ate o outro | nature/tree_oak, kit/apple | book | -

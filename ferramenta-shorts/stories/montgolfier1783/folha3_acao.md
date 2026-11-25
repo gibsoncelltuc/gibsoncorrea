@@ -36,7 +36,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
 <!-- /FISICA -->
 
-## Cena b2 - 9.8s a 15.1s - 19 palavras - plano two
+## Cena b2 - 9.8s a 15.1s - 19 palavras - plano group
 > "Os irmãos Montgolfier, donos de uma fábrica de papel, viram que a fumaça quente fazia sacos de papel flutuarem."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -70,7 +70,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 - ATUACAO (a cena toda): executa: conversar
 <!-- /FISICA -->
 
-## Cena b4 - 21.0s a 23.4s - 11 palavras - plano two
+## Cena b4 - 21.0s a 23.4s - 11 palavras - plano group
 > "Só que ninguém sabia se dava para respirar lá em cima."
 
 - LEITURA DA FRASE: sentido NEGATIVA (nada de tiro, explosao ou batalha na tela)

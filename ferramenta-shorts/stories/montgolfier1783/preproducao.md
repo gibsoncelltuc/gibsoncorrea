@@ -6,9 +6,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 1 | conversar | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b1 | street | wide | 8 | batalha | kit/marco_versalhes | - | -
-b2 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire | - | -
+b2 | interior madeira | group | 2 | conversar, INTERAGEM: avanca e o outro recua | kit/campfire | - | -
 b3 | interior madeira | two | 1 | conversar | kit/balloon | - | -
-b4 | interior madeira | two | 2 | discutir, INTERAGEM: discutir | - | - | -
+b4 | interior madeira | group | 2 | discutir, INTERAGEM: discutir | - | - | -
 b5 | loc_campo | wide | 1 | encena | kit/balloon, kit/marco_versalhes, sheep, duck, rooster | - | -
 b6 | street | crowd | 31 | encena | kit/balloon, kit/marco_versalhes | - | -
 b7 | loc_campo | orbit | 1 | reagir, batalha | kit/balloon_air, kit/marco_versalhes, kit/balloon | - | -

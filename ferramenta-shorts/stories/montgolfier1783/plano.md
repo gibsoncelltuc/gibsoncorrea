@@ -4,9 +4,9 @@ Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Pal
 ---|---|---|---|---|---
 b0 | two | -  | tropa, animais | - | -
 b1 | wide | -  | batalha aberta com tiros, tropa, mapa | - | -
-b2 | two | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
+b2 | group | -  | interior | encena: olha (point) @9 (acao + som de efeito) | -
 b3 | two | -  | tropa, interior | - | -
-b4 | two | -  | interior | - | -
+b4 | group | -  | interior | - | -
 b5 | wide | -  | tropa, animais | encena: chega (point) @13 (acao + som de efeito) | -
 b6 | crowd | -  | tropa | encena: olha (point) @9 (acao + som de efeito) | -
 b7 | orbit | -  | batalha aberta com tiros, tropa | - | -

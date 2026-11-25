@@ -41,17 +41,15 @@
  "beats": [
   {
    "say": "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.",
-   "shot": "wide",
+   "shot": "group",
    "who": [
-    "NEW:0:smile:book",
-    "AMI:0:surprised"
+    "NEW:0:smile:book"
    ],
-   "text": "1666",
    "props": [
     [
      "kit/apple",
-     0.0,
-     -1.2,
+     2.4,
+     0.2,
      1.5,
      {
       "fixo": true
@@ -59,18 +57,18 @@
     ]
    ],
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
+    "local": "loc_campo",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
       "objeto": "kit/apple",
-      "lugar": "MEIO, centro (objeto principal da cena)",
+      "lugar": "MEIO, direita (objeto principal da cena)",
       "tela": "32% da altura da tela",
       "estado": "parado"
      }
     ]
    },
-   "_enq_shot": "two",
+   "_enq_shot": "wide",
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -80,11 +78,13 @@
      }
     ]
    },
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "detalhe": false,
+   "set": "loc_campo",
+   "moveis": [],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
    "_auto_vis": 1
   },
   {
@@ -336,7 +336,7 @@
    ],
    "explica": false,
    "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
+    "local": "loc_campo",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
     "objetos": [
      {
@@ -358,6 +358,8 @@
      }
     ]
    },
+   "set": "loc_campo",
+   "moveis": [],
    "cx": 1.2,
    "cz": 0.1,
    "d0": 8.4,
@@ -395,5 +397,6 @@
    "casa": "Woolsthorpe Manor apple tree",
    "maca": "red apple on branch"
   }
- }
+ },
+ "max_wide": 3
 }

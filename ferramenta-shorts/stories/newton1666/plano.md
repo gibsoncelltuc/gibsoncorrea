@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | objeto na mao | - | -
+b0 | group | -  | objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | interior | encena: chega (point) @9 (acao + som de efeito) | -
 b3 | two | -  | objeto na mao | encena: pensa (think) @8 (acao + som de efeito) | -
