@@ -149,7 +149,19 @@
    "cz": -1.0,
    "d0": 11.0,
    "d1": 9.5,
-   "quadro_manual": true
+   "quadro_manual": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "revelacao (camera sobe e abre); plano medio enquadrando personagens e bitcoin juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bitcoin",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "say": "Quem baixasse a carteira digital ganhava trinta dólares em bitcoin.",

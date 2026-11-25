@@ -8,3 +8,6 @@
 
 ## 25/11 06:12 autocorrecao de visibilidade
 - b4: objeto "kit/phone" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+
+## 25/11 06:22 autocorrecao de visibilidade
+- b4: objeto "kit/phone" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
