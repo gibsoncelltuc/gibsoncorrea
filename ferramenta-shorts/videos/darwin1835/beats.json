@@ -150,7 +150,7 @@
   },
   {
    "say": "Coletou bichos, plantas e uns passarinhos pequenos, de ilha em ilha. A viagem do Beagle durou quase cinco anos, dando a volta ao mundo.",
-   "shot": "group",
+   "shot": "wide",
    "who": [
     "DAR:0:neutral:bag",
     "MAR:0:smile"
@@ -167,18 +167,6 @@
     ]
    ],
    "set": "harbor",
-   "quadro": {
-    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/finch",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "objetos": null,
    "fachada": false,
    "encena": {
@@ -192,12 +180,13 @@
     ]
    },
    "_enq_shot": "two",
+   "detalhe": false,
+   "quadro_manual": true,
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 3,
-   "detalhe": false
+   "cz": -6.0,
+   "d0": 22.0,
+   "d1": 19.0,
+   "h": 4.0
   },
   {
    "say": "Achou que eram aves bem diferentes, e nem anotou de que ilha vinha cada uma.",
@@ -283,18 +272,18 @@
    "props": [
     [
      "kit/finch_thick",
-     -0.8,
-     1.4,
-     2.2,
+     -0.7,
+     0.6,
+     1.3,
      {
       "fixo": true
      }
     ],
     [
      "kit/finch_long",
-     0.8,
-     1.4,
-     2.2,
+     0.7,
+     0.6,
+     1.3,
      {
       "fixo": true
      }
@@ -324,10 +313,10 @@
    },
    "quadro_manual": true,
    "cx": 0.0,
-   "cz": 0.9,
-   "d0": 6.6,
-   "d1": 6.2,
-   "h": 1.8,
+   "cz": 0.3,
+   "d0": 7.4,
+   "d1": 7.0,
+   "h": 1.9,
    "quadro": {
     "local": "sala de madeira",
     "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e finch_thick juntos (camera a 11.5 m)",

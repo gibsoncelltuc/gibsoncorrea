@@ -29,3 +29,6 @@
 
 ## 25/11 02:06 autocorrecao de visibilidade
 - b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 05:47 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)

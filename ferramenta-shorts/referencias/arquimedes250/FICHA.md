@@ -8,7 +8,7 @@
 - Cenario real: rua grega antiga com casas de pedra e colunas, sala de banho publico com banheira de pedra, palacio com colunas
 - Objetos: ['coroa de ouro (de louros)', 'banheira', 'balanca de pratos', 'barra de ouro']
 - Cenarios usados no video: interior madeira, interior pedra, medieval
-- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carro dos anos 50, encouracado, fragata a vela, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
+- PROIBIDO pela epoca (a ferramenta bloqueia): canhao antigo, caravela, carro antigo, carro dos anos 50, encouracado, fragata a vela, globo de mesa (o mais antigo e de 1492), navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Proibido pelo roteiro: -
 
 ## Explicacoes (ciencia)

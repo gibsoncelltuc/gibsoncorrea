@@ -272,13 +272,6 @@
    "explica": {
     "objeto": "kit/bitcoin",
     "manobra": "gira",
-    "rotulos": [
-     [
-      "DINHEIRO PÚBLICO",
-      "topo",
-      "dinheiro"
-     ]
-    ],
     "contador": {
      "de": 0,
      "para": 2300,
@@ -418,18 +411,6 @@
    "explica": {
     "objeto": "kit/rack_mineracao",
     "manobra": "gira",
-    "rotulos": [
-     [
-      "CONTAS SEM PARAR",
-      "topo",
-      "contas"
-     ],
-     [
-      "BITCOIN NOVO",
-      "baixo",
-      "bitcoins"
-     ]
-    ],
     "passos": [
      "COMPUTADOR CALCULA",
      "ACERTA PRIMEIRO",
