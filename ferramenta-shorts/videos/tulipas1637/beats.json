@@ -476,9 +476,9 @@
    "props": [
     [
      "kit/tulip_yellow",
-     0.0,
+     -0.6,
      -1.2,
-     1.3,
+     0.9,
      {
       "fixo": true
      }
@@ -486,8 +486,8 @@
     [
      "kit/tulip_purple",
      0.6,
-     1.0,
-     1.5,
+     -1.4,
+     0.9,
      {
       "fixo": true
      }
@@ -495,24 +495,6 @@
    ],
    "acao": "discutir",
    "say": "Ninguém queria a flor. Queriam revender mais caro na semana seguinte.",
-   "quadro": {
-    "local": "vila rural (casas, cercas, campo)",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tulip_yellow juntos (camera a 11.5 m)",
-    "objetos": [
-     {
-      "objeto": "kit/tulip_yellow",
-      "lugar": "MEIO, centro (objeto principal da cena)",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/tulip_purple",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
    "encena": {
     "sentido": "fato",
     "passos": [
@@ -522,12 +504,11 @@
      }
     ]
    },
-   "_enq_shot": "two",
    "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
-   "_auto_vis": 2
+   "cz": -0.7,
+   "d0": 10.0,
+   "d1": 8.5,
+   "quadro_manual": true
   },
   {
    "shot": "two",

@@ -10,7 +10,7 @@
    "jacket": "#f4f6fa",
    "pants": "#e4ecf6",
    "boots": "#c8d4e4",
-   "hat": "boonie",
+   "hat": "helmet",
    "cap": "#f4f6fa",
    "belt": "#8a7a50",
    "rifle": true,
@@ -54,7 +54,20 @@
       "na": "soldado"
      }
     ]
-   }
+   },
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "SOV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 12.0,
+   "d1": 9.5
   },
   {
    "say": "Era o inverno de mil novecentos e trinta e nove, e a União Soviética invadiu a Finlândia.",
@@ -241,7 +254,7 @@
    "shot": "two",
    "who": [
     "FIN:3:pained",
-    "FIN:1:nervous"
+    "FIN:1:sad"
    ],
    "mood": "calm",
    "interior": "hospital",
