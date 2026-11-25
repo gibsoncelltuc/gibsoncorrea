@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 09 - O País do Bitcoin
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
+Voz: pt-BR-AntonioNeural -5% | Clima do video: playful | Cenario base: loc_cidade | 9 cenas, 79 palavras (~27 s)
 
 ## Cena b0  (~3.4 s)
 - Narracao: Um país inteiro apostou o próprio dinheiro numa moeda digital.
