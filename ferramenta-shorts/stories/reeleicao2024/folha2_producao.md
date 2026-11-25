@@ -279,11 +279,9 @@ kit/scroll | b7 | pronto | conferir na folha de contato se le bem; se parecer ca
 ## Video inteiro
 - Objeto heroi: kit/ballot_box | grandes momentos: b5, b8 | planos abertos: 5 | mistura: close 22% | medio 46% | aberto 31% | detalhe 2%
 - Interacoes: b0 o outro se aproxima, b3 discutir, b6 insiste, b7 vai ate o outro
-- RISCOS GERAIS: 
-  - FOLHA 4: 8 item(ns) sem referencia visual: Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi, Donald Trump (terno azul, gravata vermelha), apoiadores de bone vermelho, elei -> CORRECAO: por a consulta em ingles em "visual": {"buscas": {"<item>": "<consulta>"}} e rodar pesquisar.py de novo, ou registrar a referencia vista em "visual": {"referencias": {"<item>": "<url/descricao>"}}
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 1 risco(s) em aberto
-- geral: FOLHA 4: 8 item(ns) sem referencia visual: Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noi, Donald Trump (terno azul, gravata vermelha), apoiadores de bone vermelho, elei
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh reeleicao2024 bN bM` (so essas cenas).
