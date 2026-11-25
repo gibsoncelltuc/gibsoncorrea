@@ -211,6 +211,8 @@ grep -q "git fetch -q --depth=1" limpar_disco.sh || f "historico do git (commits
 grep -q "quadro_manual (o roteiro fixou o quadro)" autocorrigir_visibilidade.py || f "autocorrecao de visibilidade desfaz o quadro_manual do roteiro (Goodyear)"
 grep -q "LENTE MAIS ABERTA na mesma proporcao" mkvideo.py || f "camera presa dentro da sala corta personagem na borda (Curie)"
 grep -q "light not in ('night', 'dusk', 'study_dark'): light = 'overcast'" mkvideo.py && grep -q "'overcast', 'noon', 'storm'" verificar_execucao.py || f "galpao a noite sai nublado e trava o video (Curie)"
+python3 -c "
+import re; s=open('suspeitas.py').read(); R=eval(re.search(r\"^MUITA = (r'.*')\",s,re.M).group(1)); raise SystemExit(0 if not re.search(R,'repetiu os testes centenas de vezes') and re.search(R,'centenas de pessoas') else 1)" || f "'centenas de vezes' vira multidao de clones (Abelhas)"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }
