@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): PAR, CHF
 - Cenarios: arctic, interior loja, street
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
-- Tamanho real aplicado: kit/balloon: 14.0 m reais -> escala 8.22 (estava 1.0: pequeno demais)
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
 
 ## Itens pesquisados
 

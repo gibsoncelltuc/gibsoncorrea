@@ -76,12 +76,12 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~4.8 s)
 - Narracao: Essa ideia virou a seleção natural, publicada em mil oitocentos e cinquenta e nove.
-- Som ambiente: silencio/sala
-- Efeitos sonoros marcados: -
+- Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
+- Efeitos sonoros marcados: sting@20
 - Efeito + som nas palavras-chave: encena: pensa (think) @1 -> acao + som de efeito
-- Efeito visual marcado: -
-- Texto na tela: -
-- Funcao na historia: desenvolvimento
+- Efeito visual marcado: stars@20, ring@40
+- Texto na tela: SELEÇÃO NATURAL
+- Funcao na historia: GRANDE MOMENTO
 
 ## Cena b9  (~3.8 s)
 - Narracao: No fim, o erro das etiquetas virou um acerto de bico.

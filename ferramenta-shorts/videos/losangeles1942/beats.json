@@ -205,7 +205,7 @@
    "quadro_manual": true,
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -6.3, camera a 13.4 m, altura 2.7 m), multidao ATRAS dos personagens, na frente do objeto",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
     "objetos": [
      {
       "objeto": "kit/submarino_ww2",

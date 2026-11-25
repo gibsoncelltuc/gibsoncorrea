@@ -13,7 +13,7 @@ b5 | arctic | two | 2 | conversar, INTERAGEM: discutir | elephant | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bife_elefante | - | -
 b7 | street | orbit | 8 | encena, batalha | kit/bife_elefante, kit/marco_notredame | - | -
 b8 | street | wide | 32 | reagir | kit/marco_notredame | - | -
-b9 | street | two | 1 | conversar | kit/balloon_air, kit/marco_notredame, kit/balloon | - | -
+b9 | street | two | 1 | conversar | kit/balloon_air, kit/marco_notredame | - | -
 b10 | street | group | 2 | conversar, INTERAGEM: vai ate o outro | kit/panela, kit/marco_notredame | - | -
 b11 | street | close | 1 | conversar | - | - | -
 
