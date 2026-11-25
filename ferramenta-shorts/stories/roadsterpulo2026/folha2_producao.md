@@ -6,7 +6,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised) | multidao: 12 de ENA/MUS
+- Personagens principais (2): MUS (variante 0, expressao grin); ENA (variante 0, expressao surprised) | multidao: 0 de 
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carro, chao, convidados
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: loc_pista | luz: noite | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 10 de POV/ENG
+- Personagens principais (1): MUS (variante 0, expressao grin) | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/roadster26, kit/torre_luz
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabeca, carro, convidados, rampa

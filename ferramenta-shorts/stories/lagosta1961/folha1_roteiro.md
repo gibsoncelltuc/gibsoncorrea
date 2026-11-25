@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
-- Texto na tela: 1961
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)

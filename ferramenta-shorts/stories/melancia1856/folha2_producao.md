@@ -18,7 +18,6 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e melon juntos (camera a 11.5 m)
 - PERSONAGENS: VIA (jornalista) na esquerda, expressao smug; VEN (comerciante) na direita, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/melon: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.2 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
-- TEXTO NA TELA: "1856" numa placa atras dos personagens, na palavra 1 da frase
 - TAKES: 2 takes (troca de angulo a cada ~1.9 s, sem corte seco):
   - take 1 (0.2-2.0 s): mesmo angulo
   - take 2 (2.0-3.9 s): gira 16 graus para a direita, camera mais baixa, olhando um pouco de baixo, um pouco mais perto

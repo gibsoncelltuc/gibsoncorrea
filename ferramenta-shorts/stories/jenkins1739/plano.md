@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1739 | - | -
+b0 | two | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | batalha aberta com tiros | encena: corta (reach) @7 (acao + som de efeito) | -
 b3 | two | -  | - | encena: fala (point) @7 (acao + som de efeito) | -

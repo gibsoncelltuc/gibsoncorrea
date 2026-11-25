@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: travelling (camera acompanha andando)
 - PERSONAGENS: AUT na esquerda, expressao neutral; AUT no centro, expressao stern; AUT na direita, expressao neutral; AUT no fundo, expressao stern; multidao de 24 (AUT, HUS) ATRAS dos principais; acao: batalha
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "1788" numa placa atras dos personagens, na palavra 5 da frase
 
 ## b1: "Era o exército austríaco, marchando contra os turcos, com soldados de vários países, que mal se entendiam."
 - LOCAL: vila rural (casas, cercas, campo); hora: golden

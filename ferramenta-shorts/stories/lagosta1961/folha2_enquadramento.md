@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o lobster (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente
 - PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
 - OBJETO kit/lobster: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 0.8 m de altura x 4.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
-- TEXTO NA TELA: "1961" flutuando no alto, na palavra 1 da frase
 
 ## b1: "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day

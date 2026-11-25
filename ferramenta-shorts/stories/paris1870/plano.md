@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: 1870 | - | -
+b0 | two | -  | - | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | tropa, animais, placa: CAVALOS, CÃES, GATOS | cavalaria: 2 soldados a cavalo (PAR) (acao + som de efeito) | -
 b3 | group | - neve | placa: RATOS | - | -

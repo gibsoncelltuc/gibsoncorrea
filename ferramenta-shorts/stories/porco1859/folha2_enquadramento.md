@@ -7,7 +7,6 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: FAZ no centro, expressao shock, segura pitchfork; sem multidao; acao: fala/gesto
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
-- TEXTO NA TELA: "1859" numa placa atras dos personagens, na palavra 1 da frase
 
 ## b1: "Era uma ilha pequena entre os Estados Unidos e o Canadá, e ninguém sabia de quem era."
 - LOCAL: vila rural (casas, cercas, campo); hora: day

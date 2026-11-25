@@ -2,7 +2,7 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | animais, placa: 1859, objeto na mao | - | -
+b0 | two | -  | animais, objeto na mao | - | -
 b1 | reveal | -  | tropa, mapa | - | -
 b2 | two | -  | animais, objeto na mao | animal: pig come (acao + som de efeito) | -
 b3 | two | -  | animais, objeto na mao | animal: pig leva o tiro e cai (acao + som de efeito); atirou (burst + som de tiro/explosao); encena: atira @5 (acao + som de efeito) | -

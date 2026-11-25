@@ -8,7 +8,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic |
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: brigaram -> puff + som de baque
 - Efeito visual marcado: -
-- Texto na tela: 1984
+- Texto na tela: -
 - Funcao na historia: GANCHO
 
 ## Cena b1  (~5.5 s)

@@ -6,11 +6,11 @@ Gerado em 25/11 03:09 | 11 cenas | metricas: acoes_encenadas 100%, acoes_chave_c
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
-b0 | chave | loc_pista | two | MUS, ENA | 12 | roadster26, torre_luz | corpo: decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a | Elon Musk prometeu um carro que voa. E, diante de convidados, o carro 
+b0 | chave | loc_pista | two | MUS, ENA | - | roadster26, torre_luz | corpo: decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a | Elon Musk prometeu um carro que voa. E, diante de convidados, o carro 
 b1 | transicao | loc_pista | wide | POV | - | rampa_curva, telao_led, torre_luz | - | Foi em outubro de dois mil e vinte e seis, numa base da SpaceX, no Tex
 b2 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/roadster26 (paira) em raio-X; emissao: jato; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som  | O segredo são propulsores da SpaceX escondidos no carro: dez bocais qu
 b3 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/roadster26 (parado); emissao: onda; luz: estudio; camera: 2 enquadramentos sem corte seco; som: som em cada e | E um sistema de sucção gruda o carro na pista, como uma ventosa, até d
-b4 | chave | loc_pista | wide | MUS | 10 | roadster26, torre_luz | corpo: acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo; emissao: VFX 3D preso no objeto (jato/poeira | Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante
+b4 | chave | loc_pista | wide | MUS | - | roadster26, torre_luz | corpo: acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo; emissao: VFX 3D preso no objeto (jato/poeira | Diante dos convidados, o carro acelerou, subiu uma rampa curva gigante
 b5 | chave | loc_pista | orbit | ENA | - | roadster26, torre_luz | corpo: se solta do topo, voa girando com o jato dos propulsores saindo de baixo e pousa numa nuvem branca (onda de ar no | Então se soltou, voou girando no ar e pousou numa nuvem de fumaça bran
 b6 | chave | loc_pista | two | MUS | - | cybercab, cybertruck, roadster26, torre_luz | corpo: decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a | Depois decolou e voou, nos propulsores, por cima de veículos parados.
 b7 | explicativa | loc_estudio | two | sem personagem | - | - | corpo: kit/roadster26 (corre); emissao: velocidade, jato, pneu; luz: estudio; camera: 2 enquadramentos sem corte seco; s | Segundo a Tesla, ele vai de zero a quase cem por hora em menos de um s
