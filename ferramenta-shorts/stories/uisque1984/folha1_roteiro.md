@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 17 - A Guerra do Uísque
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: arctic | 10 cenas, 90 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: arctic | 10 cenas, 90 palavras (~31 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: Dois países brigaram quase quarenta anos por uma rocha, usando uísque.

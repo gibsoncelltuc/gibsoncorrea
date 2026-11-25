@@ -1,0 +1,153 @@
+{
+ "duration": 31.656,
+ "frames30": 950,
+ "source": "silence-align (cost 1.63)",
+ "segments": [
+  [
+   0.0,
+   2.58433
+  ],
+  [
+   2.83579,
+   3.55987
+  ],
+  [
+   3.93825,
+   6.36804
+  ],
+  [
+   6.74717,
+   9.36833
+  ],
+  [
+   9.74962,
+   12.0432
+  ],
+  [
+   12.4145,
+   13.809
+  ],
+  [
+   14.0566,
+   15.8761
+  ],
+  [
+   16.2551,
+   18.5037
+  ],
+  [
+   18.8833,
+   21.8951
+  ],
+  [
+   22.2678,
+   24.5632
+  ],
+  [
+   24.9392,
+   25.858
+  ],
+  [
+   26.0464,
+   26.3921
+  ],
+  [
+   26.6191,
+   27.7215
+  ],
+  [
+   28.1012,
+   28.7456
+  ],
+  [
+   28.9261,
+   30.1062
+  ],
+  [
+   30.479,
+   31.2191
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Dois pa\u00edses brigaram quase quarenta anos por uma rocha,",
+   "s": 0.0,
+   "e": 2.584
+  },
+  {
+   "text": "usando u\u00edsque.",
+   "s": 2.836,
+   "e": 3.56
+  },
+  {
+   "text": "E essa guerra acabou do jeito mais educado poss\u00edvel.",
+   "s": 3.938,
+   "e": 6.368
+  },
+  {
+   "text": "A ilha Hans \u00e9 uma rocha gelada entre Canad\u00e1 e Groenl\u00e2ndia.",
+   "s": 6.747,
+   "e": 9.368
+  },
+  {
+   "text": "Canad\u00e1 e Dinamarca diziam que a ilha era deles.",
+   "s": 9.75,
+   "e": 12.043
+  },
+  {
+   "text": "Em 1984,",
+   "s": 12.415,
+   "e": 13.809
+  },
+  {
+   "text": "soldados canadenses desembarcaram l\u00e1.",
+   "s": 14.057,
+   "e": 15.876
+  },
+  {
+   "text": "Fincaram a bandeira e deixaram uma garrafa de u\u00edsque.",
+   "s": 16.255,
+   "e": 18.504
+  },
+  {
+   "text": "Acontece que os dinamarqueses voltaram e puseram a bandeira deles.",
+   "s": 18.883,
+   "e": 21.895
+  },
+  {
+   "text": "E deixaram aguardente com um bilhete de boas-vindas.",
+   "s": 22.268,
+   "e": 24.563
+  },
+  {
+   "text": "Em 2022,",
+   "s": 24.939,
+   "e": 25.858
+  },
+  {
+   "text": "enfim,",
+   "s": 26.046,
+   "e": 26.392
+  },
+  {
+   "text": "dividiram a ilha ao meio.",
+   "s": 26.619,
+   "e": 27.721
+  },
+  {
+   "text": "Nenhum tiro,",
+   "s": 28.101,
+   "e": 28.746
+  },
+  {
+   "text": "s\u00f3 garrafas trocadas.",
+   "s": 28.926,
+   "e": 30.106
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 30.479,
+   "e": 31.219
+  }
+ ]
+}

@@ -70,10 +70,6 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "gancho",
    "say": "Dois países brigaram quase quarenta anos por uma rocha, usando uísque.",
    "encena": {
@@ -86,7 +82,24 @@
     ]
    },
    "text": "GUERRA DO UÍSQUE",
-   "titulo": true
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "wide",
@@ -186,11 +199,6 @@
    "impact": true,
    "detalhe": false,
    "fachada": false,
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 2.6,
-   "d0": 21.0,
-   "d1": 20.0,
    "bloco": "prova",
    "say": "Em 1984, soldados canadenses desembarcaram lá.",
    "encena": {
@@ -200,6 +208,24 @@
       "faz": "chega",
       "na": "desembarcaram",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o helicopter (alvo z -2.0, camera a 20.0 m, altura 2.6 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "vehicles/helicopter",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
      }
     ]
    }
@@ -233,10 +259,6 @@
    ],
    "acao": "comemorar",
    "detalhe": false,
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "Fincaram a bandeira e deixaram uma garrafa de uísque.",
    "encena": {
@@ -245,6 +267,29 @@
      {
       "faz": "mostra",
       "na": "bandeira"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/bandeira_canada",
+      "lugar": "MEIO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -278,11 +323,6 @@
    "impact": true,
    "detalhe": false,
    "fachada": false,
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 19.0,
-   "d1": 18.1,
    "bloco": "escalada",
    "say": "Acontece que os dinamarqueses voltaram e puseram a bandeira deles.",
    "encena": {
@@ -292,6 +332,24 @@
       "faz": "chega",
       "na": "puseram",
       "quem": 0
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.0,
+   "d1": 18.1,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o bandeira_dinamarca (alvo z -3.6, camera a 18.1 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/bandeira_dinamarca",
+      "lugar": "MEIO, esquerda (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -315,10 +373,6 @@
     ]
    ],
    "set": "arctic",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "escalada",
    "say": "E deixaram aguardente com um bilhete de boas-vindas.",
    "encena": {
@@ -327,6 +381,23 @@
      {
       "faz": "mostra",
       "na": "bilhete"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -374,10 +445,6 @@
    ],
    "interacao": "discutir",
    "acao": "discutir",
-   "cx": 0.0,
-   "cz": -0.6,
-   "d0": 12.1,
-   "d1": 11.5,
    "bloco": "loop",
    "say": "Nenhum tiro, só garrafas trocadas. E foi assim que...",
    "encena": {
@@ -386,6 +453,23 @@
      {
       "faz": "mostra",
       "na": "garrafas"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e whisky juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/whisky",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -424,5 +508,6 @@
  "variar_cenario": false,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: dois paises brigaram quase 40 anos por uma ilha usando uisque, e acabou educadamente. Pagamento: trocavam bandeira e garrafa a cada visita e em 2022 dividiram a ilha ao meio.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

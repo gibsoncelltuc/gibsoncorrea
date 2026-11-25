@@ -10,7 +10,7 @@ b2 | arctic | reveal | 2 | parados (so fala e pisca) | - | - | -
 b3 | interior madeira | two | 2 | conversar, INTERAGEM: discutir | - | - | -
 b4 | arctic | wide | 13 | encena, batalha | vehicles/helicopter | flag | -
 b5 | arctic | two | 2 | comemorar, INTERAGEM: pular | kit/bandeira_canada, kit/whisky, kit/tequila_bolt | flag | -
-b6 | arctic | group | 1 | encena, batalha | kit/bandeira_dinamarca | flag | -
+b6 | arctic | wide | 1 | encena, batalha | kit/bandeira_dinamarca | flag | -
 b7 | arctic | two | 2 | reagir, INTERAGEM: entregar | kit/whisky, barrel | paper | -
 b8 | interior pedra | two | 2 | conversar, INTERAGEM: entregar | - | paper | -
 b9 | arctic | two | 2 | discutir, INTERAGEM: discutir | kit/whisky, kit/tequila_bolt | flag | -
