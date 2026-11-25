@@ -36,8 +36,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
-- Personagens principais (2): MED (variante 0, expressao sad); POV (variante 0, expressao scared)
-- Animacao: conversar | interacao: o outro se aproxima
+- Personagens principais (1): MED (variante 0, expressao sad)
+- Animacao: conversar
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): animal, raiva
 - RISCOS: nenhum
@@ -57,7 +57,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): MAE (variante 0, expressao cry); JOS (variante 0, expressao cry)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, menino
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAS (variante 0, expressao smile); JOS (variante 0, expressao smile) | multidao: 0 de POV
-- Animacao: conversar | interacao: vai ate o outro
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/bancada, kit/seringa_pe
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): quimico
 - RISCOS: nenhum
@@ -115,7 +115,7 @@ dog | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, 
 
 ## Video inteiro
 - Objeto heroi: kit/seringa_pe | grandes momentos: b2, b7 | planos abertos: 2 | mistura: close 20% | medio 66% | aberto 8% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b9 vai ate o outro
+- Interacoes: b0 avanca e o outro recua, b5 o outro se aproxima, b9 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

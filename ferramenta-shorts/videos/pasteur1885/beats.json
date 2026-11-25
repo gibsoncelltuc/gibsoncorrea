@@ -172,8 +172,7 @@
    "shot": "wide",
    "interior": "madeira",
    "who": [
-    "MED:0:sad",
-    "POV:0:scared"
+    "MED:0:sad"
    ],
    "acao": "conversar",
    "bloco": "prova",
@@ -189,7 +188,7 @@
    },
    "props": [],
    "detalhe": false,
-   "_auto_vis": 1
+   "_auto_vis": 2
   },
   {
    "shot": "two",

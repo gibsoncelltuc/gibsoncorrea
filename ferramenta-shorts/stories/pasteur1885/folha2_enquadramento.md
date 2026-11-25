@@ -26,7 +26,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 ## b3: "Mordida de animal com raiva quase sempre matava."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano aberto (cenario inteiro)
-- PERSONAGENS: MED na esquerda, expressao sad; POV na direita, expressao scared; sem multidao; acao: conversar
+- PERSONAGENS: MED no centro, expressao sad; sem multidao; acao: conversar
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 
 ## b4: "A vacina dele só tinha sido testada em animais."

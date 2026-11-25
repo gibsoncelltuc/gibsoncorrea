@@ -169,7 +169,7 @@
    }
   },
   {
-   "shot": "two",
+   "shot": "wide",
    "interior": "madeira",
    "who": [
     "MED:0:sad",
@@ -186,7 +186,10 @@
       "na": "Mordida"
      }
     ]
-   }
+   },
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1
   },
   {
    "shot": "two",

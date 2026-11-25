@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 22 acoes catalogadas, 22 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 10 frases, 21 acoes catalogadas, 21 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 2.5s - 12 palavras - plano two
@@ -47,8 +47,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | EMOCAO: angry | o rosto vira "angry" na palavra | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 13.8s a 15.8s - 9 palavras - plano two
 > "A vacina dele só tinha sido testada em animais."
@@ -70,7 +69,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | chegou (17.6s) | EFEITO: dust | poeira + som | OK |
 | 2 | - | CENA | animal: dog entra caminhando | OK |
-| 3 | - | INTERACAO | insiste | OK |
+| 3 | - | INTERACAO | o outro se aproxima | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 20.7s a 22.3s - 6 palavras - plano close
@@ -113,7 +112,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | vai ate o outro | OK |
+| 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
 | 3 | - | PLACA | PRIMEIRA VACINA | OK |
 
