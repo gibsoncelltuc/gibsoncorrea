@@ -16,14 +16,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | o outro se aproxima | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | UM ÚNICO TIRO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: burst na palavra tiro (1.3s): clarao laranja que cresce em ~0,15 s, nuvem de fumaca que sobe e some em ~1 s, estrondo grave
-- INTERACAO (a cena toda): executa: o outro se aproxima
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
 ## Cena b1 - 3.1s a 5.3s - 11 palavras - plano group
 > "E dentro dela tinha sopa quente para o almoço da tripulação."
@@ -35,12 +27,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | insiste | OK |
 | 2 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): executa: insiste
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b2 - 6.1s a 9.7s - 11 palavras - plano wide
 > "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros."
@@ -50,11 +36,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | MAPA | HOLANDA | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- MAPA (a cena toda): mapa entra em ~0,3 s e cobre a tela por 1-2 s, com o ponto do lugar pulsando
-<!-- /FISICA -->
 
 ## Cena b3 - 10.6s a 13.4s - 10 palavras - plano two
 > "O imperador da Áustria, José Segundo, queria o rio aberto."
@@ -66,12 +47,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | INTERACAO | discutir | OK |
 | 2 | - | ATUACAO | discutir | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- INTERACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-- ATUACAO (a cena toda): os dois inclinam o tronco um para o outro alternando, bocas abertas, gesto de apontar
-<!-- /FISICA -->
 
 ## Cena b4 - 14.1s a 17.1s - 11 palavras - plano wide
 > "Mandou três navios descerem o rio, certo de que ninguém reagiria."
@@ -91,11 +66,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | disparou (19.8s) | ACAO: atira | arma na mao, aponta, clarao e som de tiro | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: atira na palavra disparou (19.8s): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
 ## Cena b6 - 21.0s a 23.5s - 12 palavras - plano two
 > "A bala destruiu a chaleira de sopa bem no meio do convés."
@@ -108,13 +78,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-- INTERACAO (a cena toda): executa: vai ate o outro
-- ATUACAO (a cena toda): executa: conversar
-<!-- /FISICA -->
 
 ## Cena b7 - 24.1s a 26.6s - 11 palavras - plano wide
 > "O navio austríaco se rendeu na hora, sem dar nenhum tiro."
@@ -126,12 +89,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | rendeu (25.0s) | ACAO: rende | maos para cima (rendicao) | OK |
 | 2 | - | GRANDE MOMENTO | plano de impacto: efeito + som na palavra-chave (sem tiro) | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- ACAO: rende na palavra rendeu (25.0s): executa: maos para cima (rendicao)
-- GRANDE MOMENTO (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 
 ## Cena b8 - 27.3s a 30.3s - 12 palavras - plano two
 > "Perderam o almoço, a sopa e a coragem. E foi assim que..."
@@ -145,12 +102,4 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | reagir | OK |
 | 4 | - | PLACA | UM ÚNICO TIRO | OK |
-<!-- FISICA -->
-
-**FISICA E MOVIMENTO (como cada acao acontece na tela):**
-- EFEITO: puff na palavra Perderam (27.3s): executa: fumaca + som
-- INTERACAO (a cena toda): executa: aproxima-se
-- ATUACAO (a cena toda): executa: reagir
-- PLACA (a cena toda): clarao no cano da arma por ~0,25 s + estampido; a arma recua; o alvo (se houver) tomba
-<!-- /FISICA -->
 

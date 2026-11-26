@@ -24,9 +24,9 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 
 ## b3: "Ele disse que oficiais mexicanos entraram na loja e comeram os doces."
 - LOCAL: loja / taverna; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro; plano aberto mirando o cake_table (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cake_table juntos (camera a 11.5 m)
 - PERSONAGENS: OFI na esquerda, expressao grin; OFI na direita, expressao laugh; sem multidao; acao: pega
-- OBJETO kit/cake_table: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 3.2 m de altura x 4.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO kit/cake_table: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 2.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/chest: MEIO, direita; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.0 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - OBJETO kit/barrel_r: MEIO, esquerda; tamanho na tela: 32% da altura da tela; estado: PARADO; 1.1 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena

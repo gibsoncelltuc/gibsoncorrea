@@ -1,0 +1,4 @@
+VISIBILIDADE: 3 FALHA(S)
+FALHA b3: objeto citado "kit/cake_table" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+FALHA b3: objeto "kit/cake_table" saiu com 0% da altura da tela, a ficha de cena planejou 30%
+FALHA b3: objeto "kit/chest" saiu com 7% da altura da tela, a ficha de cena planejou 32%
