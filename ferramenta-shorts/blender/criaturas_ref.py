@@ -90,13 +90,13 @@ def isopode_gigante():   # foto: oval achatado, ~12 placas largas sobrepostas co
 
 def polvo_dumbo():   # foto: forma de SINO, bracos ligados por membrana (saia), 'orelhas' em cima, cor branco-rosado/laranja
     limpar()
-    esp = [(0, 1.2, 0, .25), (0, .85, 0, .6), (0, .4, 0, .62), (0, .05, 0, .45)]
+    esp = [(0, 1.2, 0, .25), (0, .85, 0, .6), (0, .4, 0, .66), (0, -.05, 0, .62)]
     ga = [esp]
     for k in range(8):
         a = k * math.pi / 4; ga.append([(0, 0, 0, .35), (math.cos(a) * .55, -.3, math.sin(a) * .55, .1), (math.cos(a) * .85, -.5, math.sin(a) * .85, .05)])
     corpo(ga, '#e89a78', '#f4c8b0')
-    o = peca('cone', (0, -.28, 0), .9, '#ec9e7e', prof=.45); o.active_material.node_tree.nodes['Principled BSDF'].inputs['Alpha'].default_value = .75; o.active_material.blend_method = 'BLEND'   # saia de membrana (sino)
-    for z in (1, -1): peca('bola', (0, .95, z * .6), 1.0, '#e89a78', esc=(.32, .1, .3), rot=(0, 0, 0))   # orelhas
+    peca('bola', (0, -.12, 0), .9, '#f0a888', esc=(1.0, .2, 1.0))   # saia de membrana entre os bracos (disco achatado ligado ao corpo)
+    for z in (1, -1): peca('bola', (0, .9, z * .62), 1.0, '#e89a78', esc=(.3, .08, .35), rot=(.5 * z, 0, 0))   # orelhas inclinadas
     olhos(.42, .55, .3, .1, '#1a1a1a'); exportar('polvo_dumbo')
 
 def peixe_bolha():   # foto (no fundo do mar): corpo de peixe gelatinoso rosado, cabeca grande e larga, afina para a cauda
