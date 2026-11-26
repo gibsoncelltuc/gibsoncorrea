@@ -7,20 +7,20 @@ const W = 1920, H = 1080, FPS = 30;
 const SPEC = await (await fetch('spec.json?t=' + Date.now())).json();
 const ren = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); ren.setSize(W, H); ren.setPixelRatio(1);
 ren.outputColorSpace = THREE.SRGBColorSpace; ren.toneMapping = THREE.ACESFilmicToneMapping; ren.toneMappingExposure = 1.05;
-ren.shadowMap.enabled = true; ren.shadowMap.type = THREE.PCFSoftShadowMap;
+ren.shadowMap.enabled = true; ren.shadowMap.type = THREE.PCFShadowMap;
 const out = document.createElement('canvas'); out.width = W; out.height = H; document.body.appendChild(out); const g = out.getContext('2d');
 const scene = new THREE.Scene(); scene.fog = new THREE.FogExp2(0x000000, 0.03);
 const cam = new THREE.PerspectiveCamera(36, W / H, 0.05, 400);
 const hemi = new THREE.HemisphereLight(0xcfe6ff, 0x3a3020, 0.9); scene.add(hemi);
-const sun = new THREE.DirectionalLight(0xfff0d8, 2.6); sun.position.set(8, 14, 10); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
-Object.assign(sun.shadow.camera, { left: -14, right: 14, top: 14, bottom: -14, near: 1, far: 60 }); scene.add(sun); scene.add(sun.target);
+const sun = new THREE.DirectionalLight(0xfff0d8, 2.6); sun.position.set(8, 14, 10); sun.castShadow = true; sun.shadow.mapSize.set(1024, 1024);
+Object.assign(sun.shadow.camera, { left: -14, right: 14, top: 14, bottom: -14, near: 1, far: 60 }); scene.add(sun); scene.add(sun.target); const rim = new THREE.DirectionalLight(0xffe2b8, 1.3); rim.position.set(-6, 5, -9); scene.add(rim);
 const rnd = (i) => { const x = Math.sin(i * 12.9898) * 43758.5453; return x - Math.floor(x); };
 // chao (terra: cor da era / mar: areia escura)
 const chao = new THREE.Mesh(new THREE.CircleGeometry(120, 64), new THREE.MeshStandardMaterial({ color: 0x6a5a40, roughness: 1 })); chao.rotation.x = -Math.PI / 2; chao.receiveShadow = true; scene.add(chao);
 // relevo leve no chao (pedrinhas)
 const pedras = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 0), new THREE.MeshStandardMaterial({ color: 0x555048, roughness: 1, flatShading: true }), 160);
 { const m4 = new THREE.Matrix4(); for (let i = 0; i < 160; i++) { const r = 6 + rnd(i) * 40, a = rnd(i + 5) * 6.283, s = .1 + rnd(i + 9) * .6; m4.compose(new THREE.Vector3(Math.cos(a) * r, s * .3, Math.sin(a) * r), new THREE.Quaternion().setFromEuler(new THREE.Euler(rnd(i) * 3, rnd(i + 1) * 3, 0)), new THREE.Vector3(s, s * .6, s)); pedras.setMatrixAt(i, m4); } }
-pedras.receiveShadow = true; scene.add(pedras);
+pedras.receiveShadow = false; scene.add(pedras);
 // particulas (mar: neve marinha / terra frio: neve caindo)
 const N = 2200, pos = new Float32Array(N * 3); for (let i = 0; i < N; i++) { pos[i * 3] = (rnd(i) - .5) * 40; pos[i * 3 + 1] = rnd(i + 7) * 14; pos[i * 3 + 2] = (rnd(i + 13) - .5) * 40; }
 const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
@@ -29,13 +29,35 @@ const part = new THREE.Points(pg, new THREE.PointsMaterial({ color: 0xffffff, si
 const raios = new THREE.Group(); for (let i = 0; i < 7; i++) { const p = new THREE.Mesh(new THREE.PlaneGeometry(1.6, 40), new THREE.MeshBasicMaterial({ color: 0x9fd8ff, transparent: true, opacity: .05, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending })); p.position.set((rnd(i) - .5) * 24, 12, (rnd(i + 3) - .5) * 16 - 4); p.rotation.z = .25; raios.add(p); } scene.add(raios);
 
 const loader = new GLTFLoader(), MOD = {}; const carregar = (n) => new Promise((r, e) => loader.load(n.includes('/') ? `assets/library/${n}.glb` : `assets/library/kit/${n}.glb`, (gl) => r(gl.scene), undefined, e));
+const TIPO_ANIMAL = (n) => !['samambaia', 'licopsida'].includes(n) && !n.includes('/');
 const nomes = new Set(); for (const b of SPEC.blocos) { for (const m of b.modelos || []) nomes.add(m.n); for (const x of b.extras || []) nomes.add(x.n); if (b.flora) nomes.add(b.flora); }
 for (const n of nomes) {
   const o = await carregar(n); const box = new THREE.Box3().setFromObject(o), sz = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3());
   o.position.set(-c.x, -box.min.y, -c.z); const base = new THREE.Group(); base.add(o);   // origem no chao, centro no meio
-  o.traverse((m) => { if (m.isMesh) { m.castShadow = true; m.receiveShadow = true; if (m.material) { m.material.roughness = .8; m.material.metalness = 0; } } });
-  MOD[n] = { base, comp: Math.max(sz.x, sz.z), alt: sz.y, inst: [] };
+  const UN = { uT: { value: 0 }, uAmp: { value: 0 }, uK: { value: 1 }, uFreq: { value: 3 }, uLeg: { value: 0 }, uLegH: { value: 0 }, uJaw: { value: 0 }, uJawX: { value: 2 }, uJawY: { value: 0 }, uJawMin: { value: 0 }, uXmin: { value: box.min.x }, uLen: { value: sz.x }, uYmin: { value: box.min.y }, uAlt: { value: sz.y }, uBob: { value: 0 }, uWing: { value: 0 }, uSerp: { value: 0 } };
+  o.traverse((m) => { if (m.isMesh) { m.castShadow = true; m.receiveShadow = true; if (m.material) { m.material = m.material.clone(); m.material.roughness = .62; m.material.metalness = 0;
+    m.material.onBeforeCompile = (sh) => { Object.assign(sh.uniforms, UN); sh.vertexShader = 'uniform float uT,uAmp,uK,uFreq,uLeg,uLegH,uJaw,uJawX,uJawY,uJawMin,uXmin,uLen,uYmin,uAlt,uBob,uWing,uSerp;\n' + sh.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>
+      { vec3 p = transformed; float xn = clamp((p.x - uXmin) / uLen, 0., 1.); float yn = (p.y - uYmin) / uAlt;
+        float wv = mix(pow(1. - xn, 1.6), 1., uSerp); p.z += uAmp * uLen * wv * sin(uK * 6.2832 * xn - uT * uFreq);
+        if (yn < uLegH) { float ph = (p.z > 0. ? 0. : 3.1416) + (xn > .5 ? 3.1416 : 0.); float lf = (uLegH - yn) / uLegH; p.x += uLeg * uLen * lf * sin(uT * uFreq + ph); p.y += max(0., uLeg * uLen * .45 * lf * sin(uT * uFreq + ph + 1.57)); }
+        else p.y += uBob * uAlt * sin(uT * uFreq * 2.);
+        if (xn > uJawX && yn < uJawY && yn > uJawMin) { p.y -= (p.x - (uXmin + uJawX * uLen)) * sin(uJaw); }
+        if (abs(p.z) > .12 * uLen) p.y += uWing * abs(p.z) * sin(uT * 28.);
+        transformed = p; }`); }; } } });
+  if (!TIPO_ANIMAL(n)) o.traverse((m) => { if (m.isMesh) { m.castShadow = false; m.receiveShadow = false; } });
+  MOD[n] = { base, comp: Math.max(sz.x, sz.z), alt: sz.y, inst: [], UN };
 }
+const ANIM = {
+  reptil: { terra: { uAmp: .05, uK: .8, uFreq: 4, uLeg: .05, uLegH: .22, uJawX: .8, uJawY: .5, uJawMin: .22, uBob: .01, mov: .35 }, mar: { uAmp: .12, uK: .9, uFreq: 3, uJawX: .8, uJawY: .5, uJawMin: .22, mov: .4 } },
+  bipede: { terra: { uAmp: .03, uK: .6, uFreq: 3.2, uLeg: .07, uLegH: .5, uJawX: .8, uJawY: .86, uJawMin: .68, uBob: .015, mov: .5 } },
+  mamifero: { terra: { uAmp: .03, uK: .7, uFreq: 4.5, uLeg: .07, uLegH: .55, uJawX: .86, uJawY: .75, uJawMin: .55, uBob: .015, mov: .45 } },
+  peixe: { mar: { uAmp: .1, uK: .9, uFreq: 3, uJawX: .86, uJawY: .45, uJawMin: 0, mov: .5 } },
+  ondula: { mar: { uAmp: .06, uK: 1.5, uFreq: 4, mov: .3 } }, concha: { mar: { uAmp: .02, uK: .5, uFreq: 2, mov: .25 } },
+  centopeia: { terra: { uAmp: .04, uK: 2, uFreq: 6, uLeg: .02, uLegH: .55, mov: .3 } }, cobra: { terra: { uAmp: .06, uK: 1, uFreq: 2.2, uSerp: 1, mov: .35 } }, asa: { terra: { uWing: .5 } } };
+const TIPO = { crocodilo: 'reptil', deinosuchus: 'reptil', purussaurus: 'reptil', megalania: 'reptil', postosuchus: 'reptil', trex: 'bipede', allosaurus: 'bipede', inostrancevia: 'mamifero', dunkleosteus: 'peixe', megalodon: 'peixe', anomalocaris: 'ondula', cameroceras: 'concha', arthropleura: 'centopeia', titanoboa: 'cobra', meganeura: 'asa' };
+function animar(n, MAR, t, j) { const M = MOD[n]; const tipo = ANIM[TIPO[n]]; if (!tipo) return 0; const P = tipo[MAR ? 'mar' : 'terra'] || tipo.terra || tipo.mar; const U = M.UN;
+  for (const k of ['uAmp', 'uK', 'uFreq', 'uLeg', 'uLegH', 'uJawX', 'uJawY', 'uJawMin', 'uBob', 'uWing', 'uSerp']) U[k].value = P[k] ?? (k === 'uJawX' ? 2 : k === 'uK' ? 1 : k === 'uFreq' ? 3 : 0);
+  U.uT.value = t + j * 1.7; const c = ((t + j * 2.3) % 5.5) / 5.5; U.uJaw.value = .42 * Math.pow(Math.max(0, Math.sin(Math.min(1, c / .25) * Math.PI)), 1.5); return P.mov || 0; }
 function instancia(n, k) { const M = MOD[n]; while (M.inst.length <= k) { const c = M.base.clone(); c.visible = false; scene.add(c); M.inst.push(c); } return M.inst[k]; }
 const ease = (t) => t * t * (3 - 2 * t), cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lerp = (a, b, t) => a + (b - a) * t;
 const TIERC = { S: '#ff4d4d', A: '#ff9f40', B: '#ffd84a', C: '#9be15d', D: '#5db8e1', F: '#8a8a8a' };
@@ -57,17 +79,24 @@ function frame(f) {
   const ms = B.lista ? [] : (B.modelos || []); const maxm = Math.max(...ms.map((m) => m.m), .1); const U = 4.2 / maxm; let totalw = 0;
   const lista = ms.map((m) => { const M = MOD[m.n]; const k = (m.m * U) / M.comp; const w = M.comp * k; totalw += w; return { m, M, k, w }; });
   const gap = .6; totalw += gap * (lista.length - 1); let x = -totalw / 2; const yb = MAR ? 1.4 : 0;
-  lista.forEach(({ m, M, k, w }, j) => { const o = instancia(m.n, 0); o.visible = true; o.scale.setScalar(k); x += w / 2;
-    const bob = MAR ? .15 * Math.sin(t * 1.2 + j) : 0; o.position.set(x, yb + bob + (m.y || 0) * U, (m.z || 0) * U); o.rotation.set(0, (m.ry || 0) + (MAR ? .08 * Math.sin(t * .6 + j) : 0), MAR ? .04 * Math.sin(t + j) : 0); x += w / 2 + gap; });
+  const tb = t - B.a; let avanco = 0;
+  lista.forEach(({ m, M, k, w }, j) => { const o = instancia(m.n, 0); o.visible = true; o.scale.setScalar(k); x += w / 2; const mov = animar(m.n, MAR, t, j); avanco = Math.max(avanco, mov);
+    const bob = MAR ? .15 * Math.sin(t * 1.2 + j) : 0; o.position.set(x + tb * mov * (B.lista ? 0 : 1) * .6, yb + bob + (m.y || 0) * U, (m.z || 0) * U); o.rotation.set(0, (m.ry || 0) + (MAR ? .08 * Math.sin(t * .6 + j) : 0), MAR ? .04 * Math.sin(t + j) : 0); x += w / 2 + gap; });
   // extras (cardumes, plantas pequenas): espalhados na frente/atras
-  (B.extras || []).forEach((e, je) => { const M = MOD[e.n]; const k = (e.m * U) / M.comp; for (let q = 0; q < (e.q || 1); q++) { const o = instancia(e.n, q); o.visible = true; o.scale.setScalar(Math.max(k, e.min || 0)); const r = 1.2 + rnd(q + je * 31) * 4.5, a = rnd(q * 3 + je) * 6.283; o.position.set(Math.cos(a) * r * 1.3, (e.voa ? 1.5 + rnd(q) * 1.5 + .2 * Math.sin(t * 3 + q) : 0) + (MAR && e.voa ? 0 : 0), Math.sin(a) * r - 1); o.rotation.y = rnd(q + 11) * 6.28 + (e.voa ? t * .3 : 0); } });
+  (B.extras || []).forEach((e, je) => { const M = MOD[e.n]; const k = (e.m * U) / M.comp; for (let q = 0; q < (e.q || 1); q++) { const o = instancia(e.n, q); o.visible = true; o.scale.setScalar(Math.max(k, e.min || 0)); const r = 1.2 + rnd(q + je * 31) * 4.5, a = rnd(q * 3 + je) * 6.283; o.position.set(Math.cos(a) * r * 1.3, (e.voa ? 1.5 + rnd(q) * 1.5 + .2 * Math.sin(t * 3 + q) : 0) + (MAR && e.voa ? 0 : 0), Math.sin(a) * r - 1); o.rotation.y = rnd(q + 11) * 6.28 + (e.voa ? t * .3 : 0); animar(e.n, MAR, t, q); } });
   // flora: em volta, longe da camera
-  if (B.flora) { const M = MOD[B.flora]; const k = (B.flora_m || 3.5) / M.alt; for (let q = 0; q < 26; q++) { const o = instancia(B.flora, q); o.visible = true; o.scale.setScalar(k * (.7 + rnd(q + 40) * .6)); const a = -Math.PI * .1 + rnd(q + 3) * Math.PI * 1.2 + Math.PI, r = 8 + rnd(q + 8) * 20; o.position.set(Math.cos(a) * r, 0, Math.sin(a) * r * .8 - 2); o.rotation.y = rnd(q) * 6.28; } }
-  // camera: de lado (comparar tamanhos), com orbita suave
-  const span = Math.max(totalw, 3), R = span * 1.15 + 2.4, az = (B.cam === 'close' ? lerp(.35, .1, ease(u)) : lerp(-.45, .45, u)) + (B.az || 0);
+  if (B.flora) { const M = MOD[B.flora]; const k = (B.flora_m || 3.5) / M.alt; for (let q = 0; q < 16; q++) { const o = instancia(B.flora, q); o.visible = true; o.scale.setScalar(k * (.7 + rnd(q + 40) * .6)); const a = -Math.PI * .1 + rnd(q + 3) * Math.PI * 1.2 + Math.PI, r = 8 + rnd(q + 8) * 20; o.position.set(Math.cos(a) * r, 0, Math.sin(a) * r * .8 - 2); o.rotation.y = rnd(q) * 6.28; } }
+  // camera: PLANOS com corte a cada ~5 s: aberto de lado / close no heroi / close no rival / baixo 3/4 / alto
+  const span = Math.max(totalw, 3), R = span * 1.15 + 2.4; const cx0 = tb * avanco * .6 * (B.lista ? 0 : 1);
   const alvoY = (MAR ? yb : 0) + Math.min(2.2, Math.max(.6, Math.max(...lista.map((l) => l.M.alt * l.k), 1) * .45));
-  const RR = B.cam === 'close' ? R * lerp(.8, .62, ease(u)) : R;
-  cam.position.set(Math.sin(az) * RR, alvoY + .8 + RR * .12, Math.cos(az) * RR); cam.lookAt(0, alvoY, 0);
+  const DUR = 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR, fimTier = B.tier && t > B.b - 4.8;
+  const cabeca = (l) => { const o = MOD[l.m.n].inst[0]; return new THREE.Vector3(o.position.x + l.w * .4, o.position.y + l.M.alt * l.k * .6, o.position.z); };
+  let tipo = (sh + bi) % 5; if (sh === 0 || fimTier || B.lista || !lista.length) tipo = 0; if (tipo === 2 && lista.length < 2) tipo = 3;
+  if (tipo === 1 || tipo === 2) { const l = tipo === 1 ? lista[0] : lista[lista.length - 1]; const h = cabeca(l), hs = Math.max(.5, l.M.alt * l.k);
+    cam.position.set(h.x + hs * lerp(1.6, 1.2, us), h.y + hs * .35, h.z + hs * lerp(2.4, 1.9, us)); cam.lookAt(h.x - hs * .2, h.y - hs * .1, h.z); }
+  else if (tipo === 3) { cam.position.set(cx0 + span * .55, (MAR ? yb : 0) + .35, R * .55 + lerp(.4, 0, us)); cam.lookAt(cx0 - span * .1, alvoY + .3, 0); }
+  else if (tipo === 4) { cam.position.set(cx0 + lerp(-1, 1, us), alvoY + R * .85, R * .45); cam.lookAt(cx0, (MAR ? yb : 0), 0); }
+  else { const az = lerp(-.4, .4, B.lista ? u : (tipo === 0 && sh === 0 ? us * .5 : us)) + (B.az || 0); cam.position.set(cx0 + Math.sin(az) * R, alvoY + .8 + R * .12, Math.cos(az) * R); cam.lookAt(cx0, alvoY, 0); }
   sun.target.position.set(0, 0, 0);
   ren.render(scene, cam); g.drawImage(ren.domElement, 0, 0);
   const fade = Math.min(cl((t - B.a) / .4), cl((B.b - t) / .4)); if (fade < 1) { g.fillStyle = `rgba(0,0,0,${1 - fade})`; g.fillRect(0, 0, W, H); }
@@ -78,7 +107,7 @@ function frame(f) {
   if (B.rotulo && op > 0) { g.globalAlpha = op; txt(B.rotulo, 70, 118, 70, '#ffffff'); g.globalAlpha = 1; }
   if (B.prof && op > 0) { g.globalAlpha = op; g.font = '900 40px "Arial Black"'; const bw2 = g.measureText(B.prof).width + 60; g.fillStyle = 'rgba(0,0,0,.6)'; g.fillRect(W - 70 - bw2, 66, bw2, 74); g.strokeStyle = '#ffd84a'; g.lineWidth = 4; g.strokeRect(W - 70 - bw2, 66, bw2, 74); txt(B.prof, W - 70 - bw2 / 2, 118, 40, '#ffe9a8', 'center', 6); g.globalAlpha = 1; }
   // nomes + tamanho embaixo de cada animal
-  if (op > 0 && ms.length) { const v = new THREE.Vector3(); g.globalAlpha = op;
+  if (op > 0 && ms.length && !(tipo === 1 || tipo === 2)) { const v = new THREE.Vector3(); g.globalAlpha = op;
     lista.forEach(({ m }) => { const o = MOD[m.n].inst[0]; v.set(o.position.x, o.position.y - .25, o.position.z).project(cam); const sx = (v.x + 1) / 2 * W, sy = Math.min(H - 190, (1 - v.y) / 2 * H + 40);
       if (m.rotulo) { txt(m.rotulo, sx, sy, 38, '#ffffff', 'center', 8); txt(m.tam || '', sx, sy + 44, 30, '#ffd84a', 'center', 7); } }); g.globalAlpha = 1; }
   // titulo do video no gancho

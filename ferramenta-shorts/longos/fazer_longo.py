@@ -17,7 +17,9 @@ inp = []; flt = []
 for k, (v, a) in enumerate(lista): inp += ['-i', v]; flt.append(f'[{k}]adelay={int(a * 1000 + 250)}|{int(a * 1000 + 250)}[v{k}]')
 n = len(lista)
 flt.append(''.join(f'[v{k}]' for k in range(n)) + f'amix=inputs={n}:normalize=0[voz]')
-flt.append(f'sine=f=55:d={TOTAL}[s1];sine=f=82.5:d={TOTAL}[s2];anoisesrc=d={TOTAL}:c=brown:a=0.4[nz];[s1][s2][nz]amix=3,lowpass=f=300,volume=0.10,afade=t=in:d=2,afade=t=out:st={TOTAL - 3}:d=3[amb]')
+if S.get('trilha') == 'cine':
+    import trilha_cine; trilha_cine.gerar(f'{D}/trilha.wav', TOTAL, blocos); inp += ['-i', f'{D}/trilha.wav']; flt.append(f'[{n}]volume=0.32[amb]')
+else: flt.append(f'sine=f=55:d={TOTAL}[s1];sine=f=82.5:d={TOTAL}[s2];anoisesrc=d={TOTAL}:c=brown:a=0.4[nz];[s1][s2][nz]amix=3,lowpass=f=300,volume=0.10,afade=t=in:d=2,afade=t=out:st={TOTAL - 3}:d=3[amb]')
 flt.append('[voz][amb]amix=2:normalize=0,loudnorm=I=-14:TP=-1.5[out]')
 subprocess.run(['ffmpeg', '-v', 'error', '-y', *inp, '-filter_complex', ';'.join(flt), '-map', '[out]', '-ar', '48000', f'{D}/audio.wav'], check=True)
 ini, du = (float(sys.argv[3]), float(sys.argv[4])) if len(sys.argv) > 4 else (0, TOTAL)
