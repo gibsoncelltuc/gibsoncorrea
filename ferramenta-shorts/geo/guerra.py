@@ -233,6 +233,7 @@ def quebrar(txt, f, maxw):
         else: ls[-1] = (ls[-1] + ' ' + w).strip()
     return ls
 def legenda(tt):
+    if os.environ.get('SEM_LEGENDA'): return None
     for k in range(NS):
         a, b, d = SEG[k]
         if a <= tt < b:
