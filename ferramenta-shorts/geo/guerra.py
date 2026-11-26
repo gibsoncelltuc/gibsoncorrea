@@ -119,7 +119,7 @@ EVENTOS = []  # (tipo, t, dados)
 for k, it in enumerate(ITENS):
     for ac in it.get('acts', []):
         if ac['type'] == 'fleet':
-            F = FROTAS.setdefault(ac['id'], {'side': ac['side'], 'n': ac['n'], 'mov': []}); F['mov'].append((gt(k, ac['f0']), gt(k, ac['f1']), ac['from'], ac['to']))
+            F = FROTAS.setdefault(ac['id'], {'side': ac['side'], 'n': ac['n'], 'mov': [], 'kind': ac.get('kind', 'porta_avioes')}); F['mov'].append((gt(k, ac['f0']), gt(k, ac['f1']), ac['from'], ac['to']))
         elif ac['type'] == 'planes': EVENTOS.append(('planes', gt(k, ac['f0']), dict(ac, t1=gt(k, ac['f1']))))
         elif ac['type'] == 'arrow': EVENTOS.append(('arrow', gt(k, ac['f0']), dict(ac, t1=gt(k, ac['f1']), tfim=SEG[k][1])))
         elif ac['type'] == 'boom':
@@ -137,7 +137,10 @@ def navios(F, tt):   # posicoes (lat, lon) de cada navio em formacao + rumo
     if pos is None: return []
     a, b, e = head; p2 = gcpt(a, b, min(1, e + .02)); ang = math.atan2(-(p2[0] - pos[0]), (p2[1] - pos[1]) * math.cos(math.radians(pos[0])) + 1e-9)
     return [(pos[0], pos[1], ang, i) for i in range(F['n'])]   # mesmo centro; a formacao e' aplicada na tela (FORM)
-FORM = [(-60, -55), (60, -55), (-60, 55), (60, 55), (0, -120), (0, 120)]
+FORM = [(.62, -.5), (.62, .5), (-.62, -.5), (-.62, .5), (0, -1.0), (0, 1.0)]   # (ao longo do rumo, de lado) em comprimentos de navio
+def forma(x, y, ang, i, esc):
+    L = 230 * esc * .62 * .76; a, b = FORM[i % len(FORM)]; a *= L * 1.15; b *= L * .7
+    return x + a * math.cos(ang) - b * math.sin(ang), y + a * math.sin(ang) + b * math.cos(ang)
 
 # ---------- desenho dos tokens (estilo jogo de estrategia) ----------
 def cor_lado(sd): return tuple(R['sides'][sd]['cor'])
@@ -146,6 +149,24 @@ def poli(d, pts, x, y, ang, esc, fill, outline=None, w=3):
     d.polygon(P, fill=fill, outline=outline, width=w)
 CASCO = [(-36, -11), (30, -11), (42, 0), (30, 11), (-36, 11)]; CONVES = [(-32, -7), (28, -7), (35, 0), (28, 7), (-32, 7)]; ILHA = [(4, -10), (16, -10), (16, -5), (4, -5)]
 AVIAO = [(18, 0), (4, -3), (0, -16), (-5, -16), (-3, -3), (-14, -2), (-17, -8), (-20, -8), (-18, 0), (-20, 8), (-17, 8), (-14, 2), (-3, 3), (-5, 16), (0, 16), (4, 3)]
+SPR = {}
+def sprite(nome, k, tam, escuro=0.0):
+    chave = (nome, k, tam, round(escuro, 1))
+    if chave not in SPR:
+        im = Image.open(f'dados/sprites/{nome}_{k:02d}.png').convert('RGBA'); im = im.resize((tam, tam), Image.LANCZOS)
+        if escuro > 0:
+            r, g, b, a = im.split(); f = 1 - .6 * escuro; im = Image.merge('RGBA', (r.point(lambda v: int(v * f)), g.point(lambda v: int(v * f * .9)), b.point(lambda v: int(v * f * .8)), a))
+        SPR[chave] = im
+    return SPR[chave]
+def rumo(ang): return int(round(ang / (math.pi / 8))) % 16
+def blit(cam, im, x, y, sombra=True):
+    if sombra:
+        sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); sh.putalpha(im.getchannel('A').point(lambda v: int(v * .45))); cam.alpha_composite(sh.filter(ImageFilter.GaussianBlur(4)), (int(x - im.width / 2 + 10), int(y - im.height / 2 + 14)))
+    cam.alpha_composite(im, (int(x - im.width / 2), int(y - im.height / 2)))
+def navio3d(cam, x, y, ang, kind, esc, dano):
+    tam = int(230 * esc * .62 * (1 - .2 * dano)); blit(cam, sprite(kind, rumo(ang), max(20, tam), min(1, dano)), x, y)
+def aviao3d(cam, x, y, ang, flag, esc):
+    nome = f'aviao_{flag}' if os.path.exists(f'dados/sprites/aviao_{flag}_00.png') else 'aviao_us'; blit(cam, sprite(nome, rumo(ang), int(105 * esc / 2.4)), x, y)
 def desenha_navio(d, x, y, ang, sd, esc=1.0, dano=0.0):
     poli(d, [(px + 2, py + 3) for px, py in CASCO], x, y, ang, esc, (0, 0, 0, 90))
     poli(d, CASCO, x, y, ang, esc, (70, 74, 80, 255), cor_lado(sd) + (255,), 3)
@@ -227,14 +248,14 @@ def quadro(fi):
     for fid, F in FROTAS.items():
         for (la, lo, ang, i) in navios(F, tt):
             ti = AFUND.get((fid, i)); dano = 0 if ti is None or tt < ti else min(1, (tt - ti) / 3)
-            x, y, c = P((la, lo)); fx_, fy_ = FORM[i % len(FORM)]; x += fx_ * esc_nav * .8; y += fy_ * esc_nav * .8
+            x, y, c = P((la, lo)); x, y = forma(x, y, ang, i, esc_nav)
             if c <= 0: continue
             pos, head = frota_pos(F, tt)
             if head and head[2] < 1:   # rastro de espuma
                 for j in range(1, 9): r9 = max(1.5, 6 - j * .5); wx, wy = x - math.cos(ang) * j * 9 * esc_nav, y - math.sin(ang) * j * 9 * esc_nav; d.ellipse([wx - r9, wy - r9 * .8, wx + r9, wy + r9 * .8], fill=(255, 255, 255, 150 - j * 15))
             if dano > 0:
                 for j in range(5): rr = (12 + j * 9) * esc_nav; cy = y - j * 26 * esc_nav - (tt * 30 % 20); d.ellipse([x - rr + j * 6, cy - rr, x + rr + j * 6, cy + rr], fill=(35, 35, 35, 170 - j * 25))
-            desenha_navio(d, x, y, ang, F['side'], esc_nav * (1 - .25 * dano), dano)
+            navio3d(cam, x, y, ang, F.get('kind', 'porta_avioes'), esc_nav, dano)
             if dano > 0: d.ellipse([x - 16 * esc_nav, y - 16 * esc_nav, x + 16 * esc_nav, y + 16 * esc_nav], fill=(255, 120 + int(60 * math.sin(tt * 20)), 20, 220))
         pos, _ = frota_pos(F, tt)
         if pos:   # bandeirinha da frota
@@ -245,16 +266,16 @@ def quadro(fi):
         if tp == 'planes' and t0 <= tt <= ac['t1']:
             e = (tt - t0) / max(.1, ac['t1'] - t0)
             for j in range(ac['n']):
-                ej = max(0, min(1, e - j * .035)); la, lo = gcpt(ac['from'], ac['to'], ej); la2, lo2 = gcpt(ac['from'], ac['to'], min(1, ej + .02))
-                x, y, c = P((la, lo)); x2, y2, _ = P((la2, lo2)); ang = math.atan2(y2 - y, x2 - x); off = ((j % 3) - 1) * 52; x += -math.sin(ang) * off; y += math.cos(ang) * off
+                ej = max(0, min(1, e - (j // 3) * .09 - (j % 3 == 1) * .03)); la, lo = gcpt(ac['from'], ac['to'], ej); la2, lo2 = gcpt(ac['from'], ac['to'], min(1, ej + .02))
+                x, y, c = P((la, lo)); x2, y2, _ = P((la2, lo2)); ang = math.atan2(y2 - y, x2 - x); off = ((j % 3) - 1) * 115; x += -math.sin(ang) * off; y += math.cos(ang) * off
                 for q in range(1, 7): d.ellipse([x - math.cos(ang) * q * 12 - 3, y - math.sin(ang) * q * 12 - 3, x - math.cos(ang) * q * 12 + 3, y - math.sin(ang) * q * 12 + 3], fill=(255, 255, 255, 120 - q * 15))
-                desenha_aviao(d, x, y, ang, ac['side'], 2.4)
+                aviao3d(cam, x, y, ang, R['sides'][ac['side']]['flag'], 2.4)
     # explosoes
     for (tp, t0, ac) in EVENTOS:
         if tp == 'boom' and 0 <= tt - t0 <= 1.4:
             if 'ship' in ac:
                 F = FROTAS[ac['ship'][0]]; nv = [q for q in navios(F, tt) if q[3] == ac['ship'][1]]
-                if nv: x, y, c = P(nv[0][:2]); fx_, fy_ = FORM[ac['ship'][1] % len(FORM)]; x += fx_ * esc_nav * .8; y += fy_ * esc_nav * .8; explosao(d, x, y, (tt - t0) / 1.4, 1.1)
+                if nv: x, y, c = P(nv[0][:2]); x, y = forma(x, y, nv[0][2], ac['ship'][1], esc_nav); explosao(d, x, y, (tt - t0) / 1.4, 1.1)
             else:
                 for j in range(ac.get('n', 1)): x, y, c = P(ac['at']); explosao(d, x + (j - 1) * 50, y + (j % 2) * 30, (tt - t0 - j * .2) / 1.4, .9)
     pil.alpha_composite(cam); d = ImageDraw.Draw(pil)
