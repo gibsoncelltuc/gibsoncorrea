@@ -7,3 +7,7 @@ fila.log
 *.log
 www/spec.json
 www_croc/
+v*/segs/
+v*/segs.txt
+v*/voz_antiga/
+v*/*.mid
