@@ -263,3 +263,11 @@
 - b1: quadro_manual (o roteiro fixou o quadro), objeto "kit/lobster" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
 - b2: ja corrigida 3 vezes, objeto "boat" saiu com 8% da altura da tela, a ficha de cena planejou 30% -> fica para o olho
 - b8: quadro_manual (o roteiro fixou o quadro), objeto "kit/lobster" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 26/11 01:08 autocorrecao de visibilidade
+- b2: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 0.0, cz -5.6), sem multidao na frente
+- b6: objeto citado "vehicles/airplane" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> camera em plano aberto mirando o objeto (cx 7.0, cz -11.2), sem multidao na frente
+- b0: quadro_manual (o roteiro fixou o quadro), objeto "kit/lobster" saiu com 10% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b1: quadro_manual (o roteiro fixou o quadro), objeto "kit/lobster" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+- b2: objeto "boat" saiu com 8% da altura da tela, a ficha de cena planejou 30% -> camera em plano aberto mirando o objeto (cx 7.0, cz -11.2), sem multidao na frente
+- b8: quadro_manual (o roteiro fixou o quadro), objeto "kit/lobster" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

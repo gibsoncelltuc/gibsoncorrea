@@ -281,6 +281,7 @@ grep -q "Selfie: o LOOP copia o cenario da 1a cena" verificar_execucao.py || f "
 grep -q "piso 'tremendo' = manchas de luz" web/sets/loc.js || f "piso da pista tremendo a noite (z-fighting, Roadster)"
 grep -q "BLOCOS DE CENARIO" mkvideo.py || f "filmagem continua: cenario trocando a cada cena (blocos de 3+)"
 grep -q "a volta do detalhe (camera saindo do objeto) era reprovada no gate" qa_takes.mjs || f "gate reprovava a volta do detalhe (Bolos/Chaleira)"
+grep -q "som que nao existe ('boing') derrubava o audio" mkvideo.py || f "sfx inexistente derruba o audio do video"
 # ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
 grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

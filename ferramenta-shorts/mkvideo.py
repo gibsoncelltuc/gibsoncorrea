@@ -2270,6 +2270,8 @@ for k, b in enumerate(beats):
     if b.get('_galope'): c2.append(f"steps(F({a}), F({e}), 0.19, 0.55)")   # cascos do cavalo galopando
     for e2 in b.get('sfx', []):
         name, _, at = e2.partition('@'); at = int(at) if at else 4
+        _SFX_OK = set(re.findall(r'^def (\w+)\(', open('audio_story.py').read(), re.M)) - {'FE', 'Wf', 'place', 'lpf', 'hpf', 'noise', 'tt', 'env', 'tone', 'section'}
+        if name not in _SFX_OK: name = 'ding'   # 26/11 Melancia: som que nao existe ('boing') derrubava o audio do video inteiro (mix_raw.wav faltando)
         c2.append(f"{name}(F({a} + {at}))" if name not in ('steps', 'sea', 'gulls', 'birds') else f"{name}(F({a} + {at}), F({e}))")
 for wi, nm in KWSFX: c2.append(f"{nm}(F(int(_W({wi}))))")
 # ---------- PRE-PRODUCAO: o que o roteiro pede ANTES de animar (cenario, personagens, objetos, plano e acao de cada cena; o que falta modelar) ----------
