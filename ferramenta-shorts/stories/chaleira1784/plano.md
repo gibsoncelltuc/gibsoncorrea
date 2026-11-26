@@ -12,5 +12,5 @@ b6 | two | -  | batalha aberta com tiros | - | -
 b7 | wide | -  | batalha aberta com tiros, tropa, objeto na mao | encena: rende (up) @4 (acao + som de efeito) | -
 b8 | two | -  | placa: UM ÚNICO TIRO | Perderam (puff + som de baque) | -
 
-Mistura de planos: close 2% | medio 56% | aberto 40% | detalhe 2%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
-Planos abertos: 4 | AVISOS: aberto demais (personagem pequeno por muito tempo); quase sem close (ponha "shot": "close" numa fala ou reacao)
+Mistura de planos: close 2% | medio 59% | aberto 36% | detalhe 3%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
+Planos abertos: 4 | AVISOS: quase sem close (ponha "shot": "close" numa fala ou reacao)

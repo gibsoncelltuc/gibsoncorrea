@@ -12,7 +12,7 @@ b4 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios d
 b5 | harbor | wide | 2 | encena | cannon, kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle | - | -
 b7 | harbor | wide | 1 | encena, batalha | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | flag | -
-b8 | loc_campo | two | 2 | reagir, INTERAGEM: aproxima-se | - | - | -
+b8 | loc_campo | two | 2 | reagir, INTERAGEM: aproxima-se | kit/kettle | - | -
 
 OBJETO HEROI: kit/kettle
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b6, b7

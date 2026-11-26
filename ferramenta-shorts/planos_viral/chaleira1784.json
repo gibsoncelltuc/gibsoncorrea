@@ -12,7 +12,7 @@
   [
    6,
    "promessa",
-   "E dentro dela tinha sopa quente para o almoço.",
+   "E dentro dela tinha sopa quente para o almoço da tripulação.",
    "sopa",
    {
     "detalhe": true,
@@ -31,7 +31,7 @@
   [
    2,
    "prova",
-   "O imperador da Áustria queria o rio aberto.",
+   "O imperador da Áustria, José Segundo, queria o rio aberto.",
    "queria",
    {}
   ],
@@ -63,7 +63,7 @@
   [
    6,
    "escalada",
-   "A bala destruiu a chaleira de sopa no convés.",
+   "A bala destruiu a chaleira de sopa bem no meio do convés.",
    "destruiu",
    {
     "encena_antiga": true,
@@ -73,7 +73,7 @@
   [
    7,
    "pagamento",
-   "O navio austríaco se rendeu na hora.",
+   "O navio austríaco se rendeu na hora, sem dar nenhum tiro.",
    "rendeu",
    {
     "encena": {
@@ -91,7 +91,7 @@
   [
    9,
    "loop",
-   "Perderam o almoço e a coragem. E foi assim que...",
+   "Perderam o almoço, a sopa e a coragem. E foi assim que...",
    "almoço",
    {}
   ]
