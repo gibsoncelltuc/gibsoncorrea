@@ -82,7 +82,7 @@ function frame(f) {
     lista.forEach(({ m }) => { const o = MOD[m.n].inst[0]; v.set(o.position.x, o.position.y - .25, o.position.z).project(cam); const sx = (v.x + 1) / 2 * W, sy = Math.min(H - 190, (1 - v.y) / 2 * H + 40);
       if (m.rotulo) { txt(m.rotulo, sx, sy, 38, '#ffffff', 'center', 8); txt(m.tam || '', sx, sy + 44, 30, '#ffd84a', 'center', 7); } }); g.globalAlpha = 1; }
   // titulo do video no gancho
-  if (bi === 0 && t < 6 && SPEC.titulo) { const o2 = Math.min(cl(t / .6), cl((6 - t) / .6)); g.globalAlpha = o2; txt(SPEC.titulo.toUpperCase(), W / 2, H / 2 - 40, 70, '#ffffff', 'center', 14); g.globalAlpha = 1; }
+  if (bi === 0 && t < 6 && SPEC.titulo) { const o2 = Math.min(cl(t / .6), cl((6 - t) / .6)); g.globalAlpha = o2; { let fs = 70; g.font = `900 ${fs}px "Arial Black"`; while (g.measureText(SPEC.titulo.toUpperCase()).width > W - 160 && fs > 30) { fs -= 2; g.font = `900 ${fs}px "Arial Black"`; } txt(SPEC.titulo.toUpperCase(), W / 2, H / 2 - 40, fs, '#ffffff', 'center', 12); } g.globalAlpha = 1; }
   // NOTA DE TIER no fim do bloco
   if (B.tier) { const ta = B.b - 4.6; if (t > ta) { const p = cl((t - ta) / .35), esc = 1 + .25 * Math.sin(p * Math.PI) * (1 - p) + (1 - p) * .4; const s = 230 * esc, cx = W - 330, cy = H / 2 - 30;
       g.globalAlpha = p; g.fillStyle = TIERC[B.tier]; g.strokeStyle = '#000'; g.lineWidth = 10; g.fillRect(cx - s / 2, cy - s / 2, s, s); g.strokeRect(cx - s / 2, cy - s / 2, s, s);
