@@ -161,7 +161,7 @@
    },
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_fragata",
@@ -235,7 +235,7 @@
    },
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
     "objetos": [
      {
       "objeto": "kit/navio_fragata",
@@ -424,11 +424,6 @@
    },
    "bloco": "pagamento",
    "say": "O navio austríaco se rendeu na hora, sem dar nenhum tiro.",
-   "cx": 0.0,
-   "cz": -2.0,
-   "h": 4.0,
-   "d0": 21.0,
-   "d1": 20.0,
    "_enq_shot": "wide",
    "quadro": {
     "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
@@ -441,7 +436,12 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
   },
   {
    "shot": "two",
@@ -472,10 +472,6 @@
      }
     ]
    },
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "_enq_shot": "two",
    "quadro": {
     "local": "sala de madeira",
@@ -488,7 +484,11 @@
       "estado": "parado"
      }
     ]
-   }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
   }
  ],
  "visual": {
