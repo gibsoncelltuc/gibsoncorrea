@@ -79,9 +79,9 @@
   {
    "say": "But American codebreakers had secretly cracked Japan's messages.",
    "view": [
-    24,
-    -160,
-    3500
+    25,
+    -165,
+    4500
    ],
    "hl": [],
    "pins": [
@@ -93,7 +93,17 @@
      "label": "PEARL HARBOR"
     }
    ],
-   "icon": "🔓"
+   "icon": "🔓",
+   "radio": {
+    "de": [
+     21.35,
+     -157.97
+    ]
+   },
+   "carimbo": {
+    "txt": "CODE CRACKED",
+    "t": 1.6
+   }
   },
   {
    "say": "Three US carriers were already waiting, hidden near Midway.",
@@ -300,5 +310,6 @@
    "USA: -1 CARRIER",
    0
   ]
- ]
+ ],
+ "voz": "en-US-BrianMultilingualNeural"
 }

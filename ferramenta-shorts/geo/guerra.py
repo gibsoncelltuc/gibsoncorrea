@@ -31,6 +31,15 @@ ease = lambda x: x * x * (3 - 2 * x)
 def vista(k): la, lo, km = ITENS[k]['view']; return la, lo, W / (km / 6371)
 TR = .8
 def camera(tt):
+    la, lo, s = camera0(tt)
+    for (tp, t0, ac) in EVENTOS if 'EVENTOS' in globals() else []:
+        if tp == 'boom' and -1.0 <= tt - t0 <= 2.2:
+            u = tt - t0; env = (min(1, (u + 1.0) / .6) if u < 0 else max(0, 1 - max(0, u - 1.2) / 1.0)); env = ease(env)
+            if 'ship' in ac: pos, _ = frota_pos(FROTAS[ac['ship'][0]], t0); tl, to = pos if pos else (la, lo)
+            else: tl, to = ac['at']
+            la, lo = la + (tl - la) * .7 * env, lo + ((to - lo + 180) % 360 - 180) * .7 * env; s = s * (1 + .9 * env)
+    return la, lo, s
+def camera0(tt):
     k = max(i for i in range(NS) if SEG[i][0] - .3 <= tt or i == 0)
     la1, lo1, s1 = vista(k)
     if k == 0: return la1, lo1 + 6 * tt, s1 * (1 + .04 * tt)
@@ -175,15 +184,27 @@ def desenha_navio(d, x, y, ang, sd, esc=1.0, dano=0.0):
 def desenha_aviao(d, x, y, ang, sd, esc=1.0):
     poli(d, [(px + 3, py + 5) for px, py in AVIAO], x, y, ang, esc, (0, 0, 0, 80))
     poli(d, AVIAO, x, y, ang, esc, (225, 228, 232, 255), cor_lado(sd) + (255,), 2)
-def explosao(d, x, y, u, esc=1.0):   # u: 0..1 (1,4 s)
+def explosao(d, x, y, u, esc=1.0, agua=True):   # u: 0..1 (1,4 s) -> clarao, bola de fogo, onda de choque, destrocos, coluna d'agua, brasas, fumaca
     if u < 0 or u > 1: return
-    r = (30 + 140 * u ** .5) * esc
-    if u < .15: d.ellipse([x - r * 1.3, y - r * 1.3, x + r * 1.3, y + r * 1.3], fill=(255, 255, 230, int(230 * (1 - u / .15))))
-    for i in range(9):
-        a = i * .7 + 1.3; rr = r * (.35 + .25 * ((i * 37) % 5) / 5); cx, cy = x + math.cos(a) * r * .45, y + math.sin(a) * r * .45 - u * 60 * esc
-        al = int(255 * max(0, 1 - u * 1.2)); d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], fill=(255, 140 + (i % 3) * 30, 30, al))
-    for i in range(6):   # fumaca subindo
-        rr = r * (.4 + .1 * i) * u; cy = y - u * (90 + 30 * i) * esc; d.ellipse([x - rr + i * 8, cy - rr, x + rr + i * 8, cy + rr], fill=(40, 40, 40, int(180 * u * (1 - u))))
+    rr_ = np.random.default_rng(int(x * 7 + y * 13) % 9999)
+    if u < .12: R0 = (60 + 500 * u) * esc; d.ellipse([x - R0, y - R0, x + R0, y + R0], fill=(255, 255, 235, int(240 * (1 - u / .12))))
+    rs = (40 + 320 * u ** .45) * esc; d.ellipse([x - rs, y - rs * .55, x + rs, y + rs * .55], outline=(255, 255, 255, int(220 * (1 - u))), width=max(2, int(8 * (1 - u))))   # onda de choque
+    if agua and u < .7:   # coluna d'agua
+        h = (220 * min(1, u / .25)) * esc * (1 - max(0, u - .4) / .3 if u > .4 else 1); w2 = 34 * esc
+        d.polygon([(x - w2, y), (x - w2 * .4, y - h), (x + w2 * .4, y - h), (x + w2, y)], fill=(235, 245, 255, int(200 * (1 - u))))
+    r = (30 + 150 * u ** .5) * esc
+    for k in range(14):   # bola de fogo em camadas
+        a = k * 2.399; rk = r * (.3 + .35 * rr_.random()); cx, cy = x + math.cos(a) * r * .5 * rr_.random(), y + math.sin(a) * r * .4 * rr_.random() - u * 70 * esc
+        cor = (255, int(90 + 140 * rr_.random() * (1 - u)), int(20 * (1 - u)), int(255 * max(0, 1 - u * 1.25))); d.ellipse([cx - rk, cy - rk, cx + rk, cy + rk], fill=cor)
+    for k in range(5): rk = r * .25 * (1 - u); d.ellipse([x - rk, y - rk - u * 40 * esc, x + rk, y + rk - u * 40 * esc], fill=(255, 255, 200, int(255 * (1 - u))))   # nucleo branco
+    for k in range(26):   # destrocos voando com gravidade
+        a = rr_.random() * 6.283; v = (120 + 260 * rr_.random()) * esc; px = x + math.cos(a) * v * u; py = y + math.sin(a) * v * u * .6 - (300 * u - 380 * u * u) * esc
+        sz = (3 + 5 * rr_.random()) * esc * (1 - u * .5); d.rectangle([px - sz, py - sz, px + sz, py + sz], fill=(40, 30, 25, int(255 * (1 - u))))
+    for k in range(30):   # brasas
+        a = rr_.random() * 6.283; v = (60 + 200 * rr_.random()) * esc; px = x + math.cos(a) * v * u; py = y + math.sin(a) * v * u - 150 * u * esc
+        d.ellipse([px - 3, py - 3, px + 3, py + 3], fill=(255, 200, 80, int(255 * (1 - u))))
+    for k in range(8):   # fumaca
+        rk = r * (.5 + .15 * k) * u; cy = y - u * (100 + 35 * k) * esc; d.ellipse([x - rk + k * 9, cy - rk, x + rk + k * 9, cy + rk], fill=(30, 30, 30, int(190 * u * (1 - u) * 1.6)))
 def seta(d, pts, cor, prog, larg=26):
     if prog <= 0 or len(pts) < 2: return
     n = max(2, int(len(pts) * prog)); P = pts[:n]
@@ -244,7 +265,7 @@ def quadro(fi):
             d.ellipse([x - 13, y - 13, x + 13, y + 13], fill=(240, 200, 40, 255), outline=(0, 0, 0, 255), width=4)
             f = fonte(FX, 40); w = f.getlength(pn['label']); d.rounded_rectangle([x - w / 2 - 20, y + 30, x + w / 2 + 20, y + 92], 12, fill=(255, 255, 255, 240), outline=(0, 0, 0, 255), width=3); d.text((x, y + 61), pn['label'], font=f, fill=(20, 20, 20), anchor='mm')
     # frotas (com rastro) e navios em chamas / afundando
-    esc_nav = max(1.6, min(2.6, s / 3000))
+    esc_nav = max(1.6, min(4.2, s / 3000))
     for fid, F in FROTAS.items():
         for (la, lo, ang, i) in navios(F, tt):
             ti = AFUND.get((fid, i)); dano = 0 if ti is None or tt < ti else min(1, (tt - ti) / 3)
@@ -279,9 +300,19 @@ def quadro(fi):
             else:
                 for j in range(ac.get('n', 1)): x, y, c = P(ac['at']); explosao(d, x + (j - 1) * 50, y + (j % 2) * 30, (tt - t0 - j * .2) / 1.4, .9)
     pil.alpha_composite(cam); d = ImageDraw.Draw(pil)
-    # icone do fato
+    # icone do fato (+ carimbo e ondas de radio quando houver)
     if it.get('icon') and tt > SEG[k][0] + .2:
-        e2 = emoji(it['icon'], 230); pil.alpha_composite(e2, (W // 2 - e2.width // 2 + 220, int(H * .3)))
+        uu = tt - SEG[k][0]; pul = 1 + .08 * math.sin(uu * 6); e2 = emoji(it['icon'], int(230 * pul)); pil.alpha_composite(e2, (W // 2 - e2.width // 2 + 220, int(H * .3)))
+    if it.get('radio'):
+        d2 = ImageDraw.Draw(pil); x0r, y0r, _ = P(it['radio']['de'])
+        for q in range(5):
+            rr2 = ((tt * 260 + q * 120) % 600); d2.ellipse([x0r - rr2, y0r - rr2, x0r + rr2, y0r + rr2], outline=(120, 220, 255, int(255 * (1 - rr2 / 600))), width=5)
+    if it.get('carimbo') and tt > SEG[k][0] + it['carimbo'].get('t', 1.2):
+        uu = tt - SEG[k][0] - it['carimbo'].get('t', 1.2); pop = min(1, uu / .18); esc3 = 1 + 1.6 * (1 - pop)
+        f3 = fonte(FB, int(96 * esc3)); txt3 = it['carimbo']['txt']; w3 = f3.getlength(txt3)
+        lay = Image.new('RGBA', (int(w3 + 80), int(f3.size * 1.6)), (0, 0, 0, 0)); dl = ImageDraw.Draw(lay)
+        dl.rounded_rectangle([6, 6, lay.width - 6, lay.height - 6], 18, outline=(230, 30, 30, 255), width=12); dl.text((lay.width / 2, lay.height / 2), txt3, font=f3, fill=(230, 30, 30, 255), anchor='mm')
+        lay = lay.rotate(-12, expand=True); pil.alpha_composite(lay, (int(W / 2 - lay.width / 2), int(H * .52 - lay.height / 2)))
     # placar USA vs X (estilo jogo)
     if k > 0:
         a, b = R['sides']; f = fonte(FB, 46); y0 = 70
@@ -321,20 +352,32 @@ if __name__ == '__main__':
         sys.exit()
     import multiprocessing as mp
     with mp.get_context('fork').Pool(4) as pool: list(pool.imap_unordered(trabalho, [(i, min(N, i + 30)) for i in range(0, N, 30)]))
-    import audio_geo; audio_geo.montar(OUT, SEG, TOTAL)
-    # explosoes e motores no audio
+    # AUDIO: voz tratada (grave + presenca + compressor + leve sala) + trilha ORQUESTRAL + whoosh + explosoes/motores
+    sys.path.insert(0, '../longos'); import trilha_orq
+    imp = [t0 for (tp, t0, ac) in EVENTOS if tp in ('boom', 'hud')]
+    trilha_orq.gerar(f'{OUT}/orq.wav', TOTAL + 1, impactos=sorted(set(round(x, 2) for x in imp)), blocos=[a for (a, b, d) in SEG[1:]], humor='epico', bpm=96)
     SR = 48000; n = int(TOTAL * SR); fx = np.zeros(n); rr = np.random.default_rng(2)
+    import scipy.signal as sg
+    for (a, b, d) in SEG[1:]:   # whoosh nas trocas
+        i0 = int(max(0, a - .35) * SR); L = int(.7 * SR); wl = np.arange(L) / SR; w = rr.standard_normal(L) * np.sin(np.pi * wl / .7) ** 2
+        bb, aa = sg.butter(2, [500, 3500], 'band', fs=SR); fx[i0:i0 + L] += sg.lfilter(bb, aa, w)[:max(0, n - i0)] * .35
     for (tp, t0, ac) in EVENTOS:
         if tp == 'boom':
             for j in range(ac.get('n', 1)):
-                a = int((t0 + j * .2) * SR); L = int(1.6 * SR); tt2 = np.arange(L) / SR; b = rr.standard_normal(L) * np.exp(-tt2 * 3.2); b = np.convolve(b, np.ones(40) / 40, 'same') * 3 + np.sin(2 * np.pi * (45 + 40 * np.exp(-tt2 * 8)) * tt2) * np.exp(-tt2 * 4)
-                fx[a:a + L] += b[:max(0, n - a)] * .5
+                a = int((t0 + j * .2) * SR); L = int(2.2 * SR); tt2 = np.arange(L) / SR; b = rr.standard_normal(L) * np.exp(-tt2 * 2.6)
+                b = sg.lfilter(*sg.butter(2, 900, 'low', fs=SR), b) * 4 + np.sin(2 * np.pi * (40 + 50 * np.exp(-tt2 * 7)) * tt2) * np.exp(-tt2 * 3) * 1.2
+                fx[a:a + L] += b[:max(0, n - a)] * .55
         if tp == 'planes':
-            a = int(t0 * SR); L = int((ac['t1'] - t0) * SR); tt2 = np.arange(L) / SR; env = np.sin(np.pi * tt2 / max(.1, tt2[-1])) ; b = rr.standard_normal(L); b = np.convolve(b, np.ones(12) / 12, 'same') * env * (1 + .3 * np.sin(2 * np.pi * 90 * tt2))
-            fx[a:a + L] += b[:max(0, n - a)] * .25
+            a = int(t0 * SR); L = int((ac['t1'] - t0) * SR); tt2 = np.arange(L) / SR; env = np.sin(np.pi * tt2 / max(.1, tt2[-1]))
+            b = sg.lfilter(*sg.butter(2, [80, 600], 'band', fs=SR), rr.standard_normal(L)) * env * (1 + .35 * np.sin(2 * np.pi * 70 * tt2)) * 2.2; fx[a:a + L] += b[:max(0, n - a)] * .3
     import wave
     w = wave.open(f'{OUT}/fx.wav', 'wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(fx, -1, 1) * 32767).astype(np.int16).tobytes()); w.close()
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{OUT}/audio.wav', '-i', f'{OUT}/fx.wav', '-filter_complex', '[1]volume=0.9[f];[0][f]amix=2:normalize=0,alimiter=limit=0.95[o]', '-map', '[o]', f'{OUT}/audio2.wav'], check=True)
+    inp = ['-i', f'{OUT}/orq.wav', '-i', f'{OUT}/fx.wav']; flt = []
+    for k, (a, b, d) in enumerate(SEG):
+        inp += ['-i', f'{OUT}/voz/s{k:02d}.mp3']; flt.append(f'[{k + 2}]adelay={int(a * 1000)}|{int(a * 1000)}[v{k}]')
+    flt.append(''.join(f'[v{k}]' for k in range(len(SEG))) + f'amix=inputs={len(SEG)}:normalize=0,highpass=f=70,equalizer=f=140:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=150:makeup=4,aecho=0.8:0.4:35:0.08,volume=1.5[voz]')
+    flt.append('[0]volume=0.42[m];[1]volume=1.0[f];[voz]asplit[vz][sc];[m][sc]sidechaincompress=threshold=0.04:ratio=6:attack=20:release=300[md];[vz][md][f]amix=3:normalize=0,loudnorm=I=-14:TP=-1.2[out]')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', *inp, '-filter_complex', ';'.join(flt), '-map', '[out]', '-ar', '48000', '-t', str(TOTAL), f'{OUT}/audio2.wav'], check=True)
     nome = f'{OUT}/{RID}.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', str(FPS), '-i', f'{OUT}/frames/f%05d.jpg', '-i', f'{OUT}/audio2.wav', '-c:v', 'libx264', '-crf', '19', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', nome], check=True)
     print('pronto', nome, round(TOTAL, 1), 's')
