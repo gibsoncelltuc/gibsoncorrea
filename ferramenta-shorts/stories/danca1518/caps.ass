@@ -10,99 +10,55 @@ Style: Cap,Inter Black,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,10
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
-Dialogue: 0,0:00:00.15,0:00:00.79,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Uma mulher
-Dialogue: 0,0:00:00.81,0:00:01.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}começou a
-Dialogue: 0,0:00:01.30,0:00:01.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançar no
-Dialogue: 0,0:00:01.79,0:00:02.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}meio da
-Dialogue: 0,0:00:02.12,0:00:02.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}rua,
-Dialogue: 0,0:00:02.54,0:00:02.85,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e não
-Dialogue: 0,0:00:02.87,0:00:03.51,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}conseguiu mais
-Dialogue: 0,0:00:03.53,0:00:04.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}parar.
-Dialogue: 0,0:00:04.66,0:00:05.25,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Era julho
-Dialogue: 0,0:00:05.27,0:00:05.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de mil
-Dialogue: 0,0:00:05.57,0:00:06.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quinhentos e
-Dialogue: 0,0:00:06.18,0:00:06.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dezoito,
-Dialogue: 0,0:00:06.89,0:00:07.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em Estrasburgo.
-Dialogue: 0,0:00:08.52,0:00:09.03,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Ela dançou
-Dialogue: 0,0:00:09.05,0:00:09.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}por uma
-Dialogue: 0,0:00:09.45,0:00:10.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}semana,
-Dialogue: 0,0:00:10.10,0:00:10.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}parando só
-Dialogue: 0,0:00:10.66,0:00:11.48,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}para dormir.
-Dialogue: 0,0:00:12.04,0:00:12.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em poucos
-Dialogue: 0,0:00:12.73,0:00:13.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dias,
-Dialogue: 0,0:00:13.15,0:00:13.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais de
-Dialogue: 0,0:00:13.54,0:00:14.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}trinta pessoas
-Dialogue: 0,0:00:14.31,0:00:15.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançavam também,
-Dialogue: 0,0:00:15.30,0:00:15.77,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}incluindo o
-Dialogue: 0,0:00:15.79,0:00:16.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}marido dela.
-Dialogue: 0,0:00:17.25,0:00:18.09,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em agosto,
-Dialogue: 0,0:00:18.11,0:00:18.72,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de cinquenta
-Dialogue: 0,0:00:18.74,0:00:19.52,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a quatrocentas
-Dialogue: 0,0:00:19.54,0:00:19.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pessoas
-Dialogue: 0,0:00:19.85,0:00:20.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançavam,
-Dialogue: 0,0:00:20.65,0:00:20.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com os
-Dialogue: 0,0:00:20.98,0:00:21.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pés sangrando,
-Dialogue: 0,0:00:21.86,0:00:22.94,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pedindo socorro.
-Dialogue: 0,0:00:23.55,0:00:24.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}O conselho
-Dialogue: 0,0:00:24.19,0:00:24.66,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}da cidade
-Dialogue: 0,0:00:24.68,0:00:25.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}chamou os
-Dialogue: 0,0:00:25.16,0:00:25.74,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}médicos,
-Dialogue: 0,0:00:25.77,0:00:26.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que culparam
-Dialogue: 0,0:00:26.38,0:00:26.67,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}o sangue
-Dialogue: 0,0:00:26.69,0:00:26.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quente e
-Dialogue: 0,0:00:27.00,0:00:27.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}receitaram mais
-Dialogue: 0,0:00:27.77,0:00:28.33,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dança.
-Dialogue: 0,0:00:28.93,0:00:29.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}A cidade
-Dialogue: 0,0:00:29.40,0:00:30.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}reformou salões
-Dialogue: 0,0:00:30.18,0:00:30.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e contratou
-Dialogue: 0,0:00:30.80,0:00:31.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}músicos para
-Dialogue: 0,0:00:31.43,0:00:31.87,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}manter os
-Dialogue: 0,0:00:31.89,0:00:32.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançarinos de
-Dialogue: 0,0:00:32.67,0:00:33.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pé.
-Dialogue: 0,0:00:33.67,0:00:34.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Deu errado:
-Dialogue: 0,0:00:34.51,0:00:34.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais gente
-Dialogue: 0,0:00:34.87,0:00:35.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}entrou na
-Dialogue: 0,0:00:35.39,0:00:35.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dança,
-Dialogue: 0,0:00:36.04,0:00:36.41,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com medo
-Dialogue: 0,0:00:36.43,0:00:36.67,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}de um
-Dialogue: 0,0:00:36.69,0:00:37.19,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}castigo de
-Dialogue: 0,0:00:37.21,0:00:37.85,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}São Vito,
-Dialogue: 0,0:00:37.95,0:00:38.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e o
-Dialogue: 0,0:00:38.25,0:00:38.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}conselho proibiu
-Dialogue: 0,0:00:39.00,0:00:39.43,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançar em
-Dialogue: 0,0:00:39.45,0:00:39.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}público.
-Dialogue: 0,0:00:40.60,0:00:41.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Alguns dizem
-Dialogue: 0,0:00:41.40,0:00:41.97,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que morriam
-Dialogue: 0,0:00:41.99,0:00:42.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quinze por
-Dialogue: 0,0:00:42.39,0:00:42.84,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dia,
-Dialogue: 0,0:00:42.86,0:00:43.16,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mas os
-Dialogue: 0,0:00:43.19,0:00:43.98,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}documentos da
-Dialogue: 0,0:00:44.00,0:00:44.47,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}época não
-Dialogue: 0,0:00:44.49,0:00:45.40,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}citam mortes.
-Dialogue: 0,0:00:45.99,0:00:46.64,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}No fim,
-Dialogue: 0,0:00:46.66,0:00:47.28,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}os dançarinos
-Dialogue: 0,0:00:47.30,0:00:47.92,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foram levados
-Dialogue: 0,0:00:47.94,0:00:48.31,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a uma
-Dialogue: 0,0:00:48.33,0:00:48.82,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}capela no
-Dialogue: 0,0:00:48.84,0:00:49.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}alto de
-Dialogue: 0,0:00:49.23,0:00:49.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}um monte,
-Dialogue: 0,0:00:49.79,0:00:50.44,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com sapatos
-Dialogue: 0,0:00:50.46,0:00:50.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}vermelhos
-Dialogue: 0,0:00:50.97,0:00:51.63,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}benzidos,
-Dialogue: 0,0:00:51.65,0:00:51.90,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e a
-Dialogue: 0,0:00:51.92,0:00:52.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dança parou.
-Dialogue: 0,0:00:53.32,0:00:53.58,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Hoje se
-Dialogue: 0,0:00:53.60,0:00:54.14,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}suspeita de
-Dialogue: 0,0:00:54.16,0:00:54.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}histeria
-Dialogue: 0,0:00:54.57,0:00:55.36,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}coletiva,
-Dialogue: 0,0:00:55.38,0:00:55.80,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mas ninguém
-Dialogue: 0,0:00:55.82,0:00:56.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sabe ao
-Dialogue: 0,0:00:56.12,0:00:56.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}certo o
-Dialogue: 0,0:00:56.56,0:00:57.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que aconteceu.
-Dialogue: 0,0:00:58.13,0:00:58.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Agora não
-Dialogue: 0,0:00:58.77,0:00:59.07,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}deixe de
-Dialogue: 0,0:00:59.09,0:00:59.83,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}comentar:
-Dialogue: 0,0:00:59.87,0:01:00.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}qual deve
-Dialogue: 0,0:01:00.22,0:01:00.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ser o
-Dialogue: 0,0:01:00.57,0:01:01.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}tema do
-Dialogue: 0,0:01:01.10,0:01:01.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}próximo vídeo?
+Dialogue: 0,0:00:00.00,0:00:00.54,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Uma mulher
+Dialogue: 0,0:00:00.56,0:00:00.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}começou a
+Dialogue: 0,0:00:00.97,0:00:01.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançar na
+Dialogue: 0,0:00:01.39,0:00:01.65,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}rua e
+Dialogue: 0,0:00:01.67,0:00:02.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}não conseguiu
+Dialogue: 0,0:00:02.22,0:00:02.75,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}parar.
+Dialogue: 0,0:00:02.87,0:00:03.20,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}E até
+Dialogue: 0,0:00:03.22,0:00:03.73,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}hoje ninguém
+Dialogue: 0,0:00:03.75,0:00:04.08,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sabe ao
+Dialogue: 0,0:00:04.10,0:00:04.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}certo por
+Dialogue: 0,0:00:04.62,0:00:05.12,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}quê.
+Dialogue: 0,0:00:05.18,0:00:05.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em 1518,
+Dialogue: 0,0:00:05.55,0:00:06.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}em Estrasburgo,
+Dialogue: 0,0:00:06.71,0:00:07.50,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}ela dançou
+Dialogue: 0,0:00:07.52,0:00:08.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}por uma
+Dialogue: 0,0:00:08.13,0:00:08.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}semana.
+Dialogue: 0,0:00:09.12,0:00:09.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em poucos
+Dialogue: 0,0:00:09.73,0:00:10.10,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dias,
+Dialogue: 0,0:00:10.12,0:00:10.45,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais de
+Dialogue: 0,0:00:10.47,0:00:11.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}trinta pessoas
+Dialogue: 0,0:00:11.17,0:00:12.13,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançavam também.
+Dialogue: 0,0:00:12.26,0:00:12.96,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Em agosto,
+Dialogue: 0,0:00:12.98,0:00:13.95,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}eram centenas,
+Dialogue: 0,0:00:13.97,0:00:14.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}com os
+Dialogue: 0,0:00:14.25,0:00:15.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pés sangrando.
+Dialogue: 0,0:00:15.19,0:00:15.62,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Os médicos
+Dialogue: 0,0:00:15.64,0:00:16.23,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}culparam o
+Dialogue: 0,0:00:16.25,0:00:16.53,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sangue quente
+Dialogue: 0,0:00:16.55,0:00:17.29,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}e receitaram
+Dialogue: 0,0:00:17.31,0:00:18.01,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais dança.
+Dialogue: 0,0:00:18.14,0:00:18.71,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Acontece que
+Dialogue: 0,0:00:18.73,0:00:19.15,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}a cidade
+Dialogue: 0,0:00:19.17,0:00:19.60,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}contratou
+Dialogue: 0,0:00:19.62,0:00:20.18,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}músicos para
+Dialogue: 0,0:00:20.20,0:00:20.78,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}manter todos
+Dialogue: 0,0:00:20.80,0:00:21.49,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dançando.
+Dialogue: 0,0:00:21.61,0:00:22.38,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Deu errado:
+Dialogue: 0,0:00:22.40,0:00:22.70,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}mais gente
+Dialogue: 0,0:00:22.72,0:00:23.17,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}entrou na
+Dialogue: 0,0:00:23.19,0:00:23.76,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}dança.
+Dialogue: 0,0:00:23.89,0:00:24.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Levados a
+Dialogue: 0,0:00:24.39,0:00:25.00,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}uma capela
+Dialogue: 0,0:00:25.02,0:00:25.46,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}no monte,
+Dialogue: 0,0:00:25.48,0:00:26.06,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}eles finalmente
+Dialogue: 0,0:00:26.08,0:00:26.69,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}pararam.
+Dialogue: 0,0:00:26.82,0:00:27.19,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Histeria
+Dialogue: 0,0:00:27.21,0:00:27.99,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}coletiva?
+Dialogue: 0,0:00:28.12,0:00:29.11,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Ninguém sabe.
+Dialogue: 0,0:00:29.24,0:00:29.55,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}Só se
+Dialogue: 0,0:00:29.57,0:00:29.88,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}sabe que
+Dialogue: 0,0:00:29.90,0:00:30.37,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}foi assim
+Dialogue: 0,0:00:30.39,0:00:30.89,Cap,,0,0,0,,{\an5\pos(540,1338)\fscx112\fscy112\t(0,90,\fscx100\fscy100)\fad(30,30)}que...
