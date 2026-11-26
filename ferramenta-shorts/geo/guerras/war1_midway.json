@@ -285,7 +285,7 @@
    ]
   },
   {
-   "say": "Japan lost four carriers. America lost one. The Pacific War had turned.",
+   "say": "Japan lost four carriers. America lost one. The Pacific War had turned. Which battle should I show next?",
    "view": [
     27,
     168,
@@ -311,5 +311,6 @@
    0
   ]
  ],
- "voz": "en-US-BrianMultilingualNeural"
+ "voz": "en-US-BrianMultilingualNeural",
+ "pergunta": "COMMENT: WHICH BATTLE SHOULD I SHOW NEXT?"
 }

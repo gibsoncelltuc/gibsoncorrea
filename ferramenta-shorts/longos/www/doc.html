@@ -24,7 +24,7 @@ if (ESP) { scene.fog = null; snow.material.size = .045; snow.material.opacity = 
   hemi.intensity = .12; lamp.intensity = 0; rim.intensity = 0; const sun = new THREE.DirectionalLight(0xfff1dc, 3.2); sun.position.set(6, 2, 4); scene.add(sun); }
 const loader = new GLTFLoader(), MOD = {};
 for (const n of [...new Set(SPEC.blocos.map((b) => b.modelo).filter(Boolean))]) {
-  const gl = await new Promise((r, e) => loader.load(`assets/library/kit/${n}.glb`, r, undefined, e)); const o = gl.scene;
+  const gl = await new Promise((r, e) => loader.load(n.includes('/') ? `assets/library/${n}.glb` : `assets/library/kit/${n}.glb`, r, undefined, e)); const o = gl.scene;
   const box = new THREE.Box3().setFromObject(o), sz = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3()), k = 2.0 / Math.max(sz.x, sz.y, sz.z);
   const piv = new THREE.Group(); o.position.sub(c); piv.add(o); piv.userData.k = k; piv.visible = false; scene.add(piv); MOD[n] = piv;
   const eixoX = sz.x >= sz.z; const UN = { uT: { value: 0 }, uAmp: { value: 0 }, uK: { value: 1 }, uFreq: { value: 3 }, uXmin: { value: eixoX ? box.min.x : box.min.z }, uLen: { value: eixoX ? sz.x : sz.z }, uYmin: { value: box.min.y }, uAlt: { value: sz.y }, uPulsa: { value: 0 }, uTent: { value: 0 }, uEixo: { value: eixoX ? 0 : 1 } };
@@ -52,7 +52,7 @@ function frame(f) {
     m.visible = true; const k = m.userData.k * (B.escala || 1); m.scale.setScalar(k * (1 + .02 * Math.sin(t * 2)));
     m.position.set(0, .12 * Math.sin(t * 1.3), 0); m.rotation.set(.05 * Math.sin(t * .9), .25 * Math.sin(t * .35), .04 * Math.sin(t * 1.1));
     const UN = m.userData.UN, mv = MOVE(B.modelo); for (const k of ['uAmp', 'uK', 'uFreq', 'uPulsa', 'uTent']) UN[k].value = mv[k] ?? (k === 'uK' ? 1 : k === 'uFreq' ? 3 : 0); UN.uT.value = t;
-    const tb = t - B.a, DUR = 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR; const vivo = Object.keys(mv).length > 0 && !/recife|fonte/.test(B.modelo);
+    const tb = t - B.a, DUR = SPEC.corte || 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR; const vivo = Object.keys(mv).length > 0 && !/recife|fonte/.test(B.modelo);
     if (vivo) { m.position.x += .35 * Math.sin(t * .23); m.rotation.y += .5 * Math.sin(t * .17); }   // nada para um lado e outro
     if (ESP && !/sonda|horizons/.test(B.modelo)) { m.rotation.set(.12, t * .09, 0); m.position.x = 0; }   // planeta gira
     if (B.cam === 'passagem') { m.position.x = lerp(-3.2, 3.2, u); m.rotation.y = 0; }

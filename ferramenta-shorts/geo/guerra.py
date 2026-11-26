@@ -47,7 +47,11 @@ def camera0(tt):
     la0, lo0, s0 = vista(k - 1)
     if k - 1 == 0: lo0 += 6 * (SEG[k][0] - .3); s0 *= 1 + .04 * (SEG[k][0] - .3)
     drift = 1 + .025 * max(0, tt - SEG[k][0])
-    if u >= 1: return la1, lo1, s1 * drift
+    if u >= 1:   # RITMO: 'punch-in' a cada ~2,2 s (alterna aberto/fechado com zoom rapido) + leve deslize lateral
+        q = (tt - SEG[k][0] - TR) / 2.2; fase = int(q) % 2; e2 = ease(min(1, (q - int(q)) / .12)); alvo = 1.38 if fase else 1.0; antes = 1.0 if fase else 1.38
+        if int(q) == 0: antes = 1.0
+        z = antes + (alvo - antes) * e2; pan = .012 * (1 if int(q) % 4 < 2 else -1) * (q - int(q)) * 9000 / max(1, s1 / W * 6371 / 1000) * 0
+        return la1, lo1 + .0 * pan, s1 * drift * z
     e = ease(max(0, u)); lat, lon = latlon(slerp(unit(la0, lo0), unit(la1, lo1), e)); s = math.exp(math.log(s0) + (math.log(s1) - math.log(s0)) * e)
     return lat, lon, s
 
@@ -334,6 +338,10 @@ def quadro(fi):
     if it.get('final') and tt > SEG[k][0] + .3:   # placar final
         f = fonte(FB, 70); d.rounded_rectangle([90, H * .58, W - 90, H * .58 + 250], 26, fill=(10, 12, 18, 225), outline=(255, 214, 0, 255), width=5)
         for i3, (txt3, sd3) in enumerate(R.get('placar', [])): tx(d, (W / 2, H * .58 + 70 + i3 * 105), txt3, f if f.getlength(txt3) < W - 220 else fonte(FB, 54), tuple(min(255, c + 60) for c in cor_lado(sd3)), 8)
+    if it.get('final') and R.get('pergunta') and tt > TOTAL - 4.2:
+        pq = min(1, (tt - (TOTAL - 4.2)) / .3); f4 = fonte(FB, 64); ls4 = quebrar(R['pergunta'], f4, W - 160); y4 = H * .36
+        d.rounded_rectangle([60, y4 - 70, W - 60, y4 + len(ls4) * 76 + 10], 26, fill=(255, 214, 0, int(235 * pq)), outline=(0, 0, 0, 255), width=5)
+        for l4 in ls4: d.text((W / 2, y4), l4, font=f4, fill=(10, 10, 10), anchor='mm'); y4 += 76
     w = legenda(tt)
     if w: f = fonte(FB, 92); f = f if f.getlength(w) < W - 120 else fonte(FB, 70); tx(d, (W / 2, H * .8), w, f, (255, 255, 255), 10)
     img = cv2.cvtColor(np.array(pil.convert('RGB')), cv2.COLOR_RGB2BGR)

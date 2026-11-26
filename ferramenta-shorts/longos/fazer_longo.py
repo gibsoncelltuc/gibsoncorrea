@@ -3,14 +3,14 @@
 import json, subprocess, sys, os, re
 S = json.load(open(sys.argv[1])); D = sys.argv[2]; os.chdir(os.path.dirname(os.path.abspath(__file__)))
 dur = lambda p: float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
-GAP = 1.4; t = 0.0; blocos = []; lista = []
+GAP = S.get('gap', 1.4); t = 0.0; blocos = []; lista = []
 for i, b in enumerate(S['blocos']):
     v = f'{D}/voz/b{i:02d}.mp3'; d = dur(v); a = t; t += d + GAP
     fr = [s.strip() for s in re.split(r'(?<=[.!?:])\s+', b['texto']) if s.strip()]
     tot = sum(len(x) for x in fr); c = a + .25; frases = []
     for x in fr: L = d * len(x) / tot; frases.append([round(c, 2), round(c + L, 2), x]); c += L
     blocos.append({**{k: b[k] for k in b if k != 'texto'}, 'a': round(a, 2), 'b': round(t, 2), 'frases': frases}); lista.append((v, a))
-json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'tiers': S.get('tiers'), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
+json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'tiers': S.get('tiers'), 'corte': S.get('corte', 5.2), 'tier_antes': S.get('tier_antes', 4.6), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
 TOTAL = t; print('duracao', round(TOTAL, 1), 's')
 # audio: voz posicionada + fundo grave (drone) baixo
 inp = []; flt = []
@@ -18,7 +18,7 @@ for k, (v, a) in enumerate(lista): inp += ['-i', v]; flt.append(f'[{k}]adelay={i
 n = len(lista)
 flt.append(''.join(f'[v{k}]' for k in range(n)) + f'amix=inputs={n}:normalize=0[voz]')
 if S.get('trilha') == 'orq':
-    import trilha_orq; trilha_orq.gerar(f'{D}/trilha.wav', TOTAL + 1, impactos=[b['b'] - 4.6 for b in blocos if b.get('tier')], blocos=[b['a'] for b in blocos], humor=S.get('humor', 'epico'), bpm=S.get('bpm', 84))
+    import trilha_orq; trilha_orq.gerar(f'{D}/trilha.wav', TOTAL + 1, impactos=[b['b'] - S.get('tier_antes', 4.6) for b in blocos if b.get('tier')], blocos=[b['a'] for b in blocos], humor=S.get('humor', 'epico'), bpm=S.get('bpm', 84))
     inp += ['-i', f'{D}/trilha.wav']; flt[-1] = flt[-1].replace('[voz]', ',highpass=f=70,equalizer=f=140:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=150:makeup=4,aecho=0.8:0.4:35:0.07[voz]')
     flt.append(f'[{n}]volume=0.38[amb0];[voz]asplit[voz][sc];[amb0][sc]sidechaincompress=threshold=0.04:ratio=5:attack=20:release=350[amb]')
 elif S.get('trilha') == 'cine':

@@ -108,9 +108,9 @@ function frame(f) {
   // flora: em volta, longe da camera
   if (B.flora) { const M = MOD[B.flora]; const k = (B.flora_m || 3.5) / M.alt; for (let q = 0; q < 16; q++) { const o = instancia(B.flora, q); o.visible = true; o.scale.setScalar(k * (.7 + rnd(q + 40) * .6)); const a = -Math.PI * .1 + rnd(q + 3) * Math.PI * 1.2 + Math.PI, r = 8 + rnd(q + 8) * 20; o.position.set(Math.cos(a) * r, 0, Math.sin(a) * r * .8 - 2); o.rotation.y = rnd(q) * 6.28; } }
   // camera: PLANOS com corte a cada ~5 s: aberto de lado / close no heroi / close no rival / baixo 3/4 / alto
-  const span = Math.max(totalw, 3), R = span * 1.15 + 2.4; const cx0 = tb * avanco * .6 * (B.lista ? 0 : 1);
-  const alvoY = (MAR ? yb : 0) + Math.min(2.2, Math.max(.6, Math.max(...lista.map((l) => l.M.alt * l.k), 1) * .45));
-  const DUR = 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR, fimTier = B.tier && t > B.b - 4.8;
+  const hmax = Math.max(...lista.map((l) => l.M.alt * l.k), 1), span = Math.max(totalw, 3), R = Math.max(span * 1.15 + 2.4, hmax * 2.4); const cx0 = tb * avanco * .6 * (B.lista ? 0 : 1);
+  const alvoY = (MAR ? yb : 0) + Math.min(3.6, Math.max(.6, hmax * .45));
+  const DUR = SPEC.corte || 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR, fimTier = B.tier && t > B.b - (SPEC.tier_antes || 4.6) - .2;
   const cabeca = (l) => { const o = MOD[l.m.n].inst[lista.filter((q) => q.m.n === l.m.n).indexOf(l)]; return new THREE.Vector3(o.position.x + l.w * .4, o.position.y + l.M.alt * l.k * .6, o.position.z); };
   let tipo = (sh + bi) % 5; if (sh === 0 || fimTier || B.lista || !lista.length) tipo = 0; if (tipo === 2 && lista.length < 2) tipo = 3;
   if (tipo === 1 || tipo === 2) { const l = tipo === 1 ? lista[0] : lista[lista.length - 1]; const h = cabeca(l), hs = Math.max(.5, l.M.alt * l.k);
@@ -134,7 +134,10 @@ function frame(f) {
   // titulo do video no gancho
   if (bi === 0 && t < 6 && SPEC.titulo) { const o2 = Math.min(cl(t / .6), cl((6 - t) / .6)); g.globalAlpha = o2; { let fs = 70; g.font = `900 ${fs}px "Arial Black"`; while (g.measureText(SPEC.titulo.toUpperCase()).width > W - 160 && fs > 30) { fs -= 2; g.font = `900 ${fs}px "Arial Black"`; } txt(SPEC.titulo.toUpperCase(), W / 2, H / 2 - 40, fs, '#ffffff', 'center', 12); } g.globalAlpha = 1; }
   // NOTA DE TIER no fim do bloco
-  if (B.tier) { const ta = B.b - 4.6; if (t > ta) { const p = cl((t - ta) / .35), esc = 1 + .25 * Math.sin(p * Math.PI) * (1 - p) + (1 - p) * .4; const s = 230 * esc, cx = W - 330, cy = H / 2 - 30;
+  if (B.tier) { const ta0 = B.b - (SPEC.tier_antes || 4.6);
+    if (t > ta0 - 2.4 && t < ta0) { const q2 = t - (ta0 - 2.4); const n3 = 3 - Math.floor(q2 / .8); g.globalAlpha = Math.min(1, q2 / .2);   // interacao: chute antes da nota
+      g.fillStyle = 'rgba(0,0,0,.55)'; g.fillRect(W - 560, H / 2 - 190, 460, 300); txt('YOUR GUESS?', W - 330, H / 2 - 110, 54, '#ffd84a', 'center', 8); txt(String(Math.max(1, n3)), W - 330, H / 2 + 60, 150 * (1 + .25 * (1 - (q2 % .8) / .8)), '#ffffff', 'center', 12); g.globalAlpha = 1; }
+    const ta = ta0; if (t > ta) { const p = cl((t - ta) / .35), esc = 1 + .25 * Math.sin(p * Math.PI) * (1 - p) + (1 - p) * .4; const s = 230 * esc, cx = W - 330, cy = H / 2 - 30;
       g.globalAlpha = p; g.fillStyle = TIERC[B.tier]; g.strokeStyle = '#000'; g.lineWidth = 10; g.fillRect(cx - s / 2, cy - s / 2, s, s); g.strokeRect(cx - s / 2, cy - s / 2, s, s);
       g.font = `900 ${170 * esc}px "Arial Black"`; g.textAlign = 'center'; g.fillStyle = '#111'; g.fillText(B.tier, cx, cy + 60 * esc);
       txt(B.veredito || (B.tier + ' TIER'), cx, cy + s / 2 + 70, 48, '#ffffff', 'center', 9); g.globalAlpha = 1; } }
