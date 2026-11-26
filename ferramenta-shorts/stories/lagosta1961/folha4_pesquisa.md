@@ -8,7 +8,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - HEROIS (personagens): BRA
 - Cenarios: harbor, loc_estudio
 - Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
-- Tamanho real aplicado: kit/lobster: 1.4 m reais -> escala 0.58 (estava 1.0: grande demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
+- Tamanho real aplicado: kit/lobster: 1.4 m reais -> escala 0.58 (estava 1.5: grande demais); kit/lobster: 1.4 m reais -> escala 0.58 (estava 1.0: grande demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
 
 ## Itens pesquisados
 
