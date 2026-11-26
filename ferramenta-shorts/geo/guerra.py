@@ -15,7 +15,7 @@ ISO2 = {k: v['properties']['ISO_A2_EH'].lower() for k, v in PA.items()}
 def aneis(code):
     g = PA[code]['geometry']; polys = g['coordinates'] if g['type'] == 'MultiPolygon' else [g['coordinates']]
     return [np.array(p[0], dtype=np.float64) for p in polys]
-PAL = json.load(open(f'{OUT}/voz/palavras.json')); NS = len(PAL); GAP = .35; t = .25; SEG = []
+PAL = json.load(open(f'{OUT}/voz/palavras.json')); NS = len(PAL); GAP = .15; t = .2; SEG = []
 for k in range(NS): d = dur(f'{OUT}/voz/s{k:02d}.mp3'); SEG.append((t, t + d + GAP, d)); t += d + GAP
 TOTAL = t + .6
 ITENS = [{'view': R.get('hook_view', [25, 140, 14000])}] + R['items']   # bloco 0 = gancho (globo)
@@ -29,7 +29,7 @@ def slerp(a, b, e):
     return a if om < 1e-6 else (math.sin((1 - e) * om) * a + math.sin(e * om) * b) / math.sin(om)
 ease = lambda x: x * x * (3 - 2 * x)
 def vista(k): la, lo, km = ITENS[k]['view']; return la, lo, W / (km / 6371)
-TR = .8
+TR = .55
 def camera(tt):
     la, lo, s = camera0(tt)
     for (tp, t0, ac) in EVENTOS if 'EVENTOS' in globals() else []:
@@ -48,7 +48,7 @@ def camera0(tt):
     if k - 1 == 0: lo0 += 6 * (SEG[k][0] - .3); s0 *= 1 + .04 * (SEG[k][0] - .3)
     drift = 1 + .025 * max(0, tt - SEG[k][0])
     if u >= 1:   # RITMO: 'punch-in' a cada ~2,2 s (alterna aberto/fechado com zoom rapido) + leve deslize lateral
-        q = (tt - SEG[k][0] - TR) / 2.2; fase = int(q) % 2; e2 = ease(min(1, (q - int(q)) / .12)); alvo = 1.38 if fase else 1.0; antes = 1.0 if fase else 1.38
+        q = (tt - SEG[k][0] - TR) / 1.3; fase = int(q) % 2; e2 = ease(min(1, (q - int(q)) / .12)); alvo = 1.38 if fase else 1.0; antes = 1.0 if fase else 1.38
         if int(q) == 0: antes = 1.0
         z = antes + (alvo - antes) * e2; pan = .012 * (1 if int(q) % 4 < 2 else -1) * (q - int(q)) * 9000 / max(1, s1 / W * 6371 / 1000) * 0
         return la1, lo1 + .0 * pan, s1 * drift * z

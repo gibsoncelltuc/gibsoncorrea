@@ -1,6 +1,6 @@
 # voz em ingles por trecho (gancho + itens) com o tempo de cada palavra: geo/out/<id>/voz/sNN.mp3 + palavras.json
 import asyncio, json, os, sys, edge_tts
-VOZ, RATE = 'en-US-AndrewNeural', '+6%'
+VOZ, RATE = 'en-US-AndrewNeural', '+10%'
 async def um(txt, mp3, voz=None):
     c = edge_tts.Communicate(txt, voz or VOZ, rate=RATE, boundary='WordBoundary', proxy=os.environ.get('HTTPS_PROXY'))
     pal = []

@@ -22,10 +22,10 @@
    ]
   }
  ],
- "hook": "In just six minutes, America changed the entire war in the Pacific.",
+ "hook": "Six minutes. That's how long it took America to win the Pacific.",
  "items": [
   {
-   "say": "June 1942. Japan sends four aircraft carriers to capture Midway, a tiny American island.",
+   "say": "June 1942. Japan sends four carriers to take Midway.",
    "view": [
     27,
     168,
@@ -57,8 +57,8 @@
       30.6,
       179.4
      ],
-     "f0": 0.05,
-     "f1": 0.95
+     "f0": 0.0,
+     "f1": 1.0
     },
     {
      "type": "arrow",
@@ -71,19 +71,18 @@
       28.21,
       -177.37
      ],
-     "f0": 0.2,
-     "f1": 0.7
+     "f0": 0.05,
+     "f1": 0.8
     }
    ]
   },
   {
-   "say": "But American codebreakers had secretly cracked Japan's messages.",
+   "say": "But America cracked their code.",
    "view": [
     25,
     -165,
     4500
    ],
-   "hl": [],
    "pins": [
     {
      "ll": [
@@ -102,11 +101,11 @@
    },
    "carimbo": {
     "txt": "CODE CRACKED",
-    "t": 1.6
+    "t": 0.5
    }
   },
   {
-   "say": "Three US carriers were already waiting, hidden near Midway.",
+   "say": "Three US carriers were already waiting.",
    "view": [
     26,
     -168,
@@ -149,13 +148,13 @@
       32.0,
       -173.2
      ],
-     "f0": 0.05,
-     "f1": 0.6
+     "f0": 0.0,
+     "f1": 0.7
     }
    ]
   },
   {
-   "say": "Japanese planes struck Midway first.",
+   "say": "Japan hit Midway first.",
    "view": [
     29.5,
     -179,
@@ -184,7 +183,7 @@
       -177.37
      ],
      "f0": 0.0,
-     "f1": 0.6
+     "f1": 0.55
     },
     {
      "type": "boom",
@@ -192,13 +191,13 @@
       28.21,
       -177.37
      ],
-     "f": 0.62,
+     "f": 0.58,
      "n": 3
     }
    ]
   },
   {
-   "say": "Then American dive bombers found the Japanese fleet, with its decks full of fuel and bombs.",
+   "say": "Then the American dive bombers found them.",
    "view": [
     31,
     -177.5,
@@ -208,7 +207,7 @@
     {
      "type": "planes",
      "side": 0,
-     "n": 8,
+     "n": 9,
      "from": [
       32.0,
       -173.2
@@ -218,12 +217,12 @@
       179.4
      ],
      "f0": 0.0,
-     "f1": 0.85
+     "f1": 0.95
     }
    ]
   },
   {
-   "say": "In about six minutes, three Japanese carriers were on fire.",
+   "say": "One. Two. Three carriers on fire.",
    "view": [
     30.6,
     179.4,
@@ -236,7 +235,7 @@
       "kb",
       0
      ],
-     "f": 0.15
+     "f": 0.08
     },
     {
      "type": "boom",
@@ -252,17 +251,17 @@
       "kb",
       2
      ],
-     "f": 0.55
+     "f": 0.62
     },
     {
      "type": "hud",
      "value": 3,
-     "f": 0.6
+     "f": 0.65
     }
    ]
   },
   {
-   "say": "By nightfall, the fourth one was hit too.",
+   "say": "By night, the fourth.",
    "view": [
     30.6,
     179.4,
@@ -275,17 +274,17 @@
       "kb",
       3
      ],
-     "f": 0.45
+     "f": 0.2
     },
     {
      "type": "hud",
      "value": 4,
-     "f": 0.5
+     "f": 0.3
     }
    ]
   },
   {
-   "say": "Japan lost four carriers. America lost one. The Pacific War had turned. Which battle should I show next?",
+   "say": "Japan lost four. America lost one. Which battle should I show next?",
    "view": [
     27,
     168,
