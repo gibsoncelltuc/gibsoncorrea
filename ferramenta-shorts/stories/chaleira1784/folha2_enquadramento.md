@@ -9,7 +9,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "UM ÚNICO TIRO" flutuando no alto, na palavra 1 da frase
 
-## b1: "E dentro dela tinha sopa quente para o almoço."
+## b1: "E dentro dela tinha sopa quente para o almoço da tripulação."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
@@ -22,7 +22,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 - MAPA: HOLANDA (cobre a tela 1-2 s)
 
-## b3: "O imperador da Áustria queria o rio aberto."
+## b3: "O imperador da Áustria, José Segundo, queria o rio aberto."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: IMP na esquerda, expressao angry; GEN na direita, expressao nervous; sem multidao; acao: discutir
@@ -46,7 +46,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +110 da cena
 - SOM: cannon@105
 
-## b6: "A bala destruiu a chaleira de sopa no convés."
+## b6: "A bala destruiu a chaleira de sopa bem no meio do convés."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
@@ -56,13 +56,13 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: thump@55
 - SOM: ding@58
 
-## b7: "O navio austríaco se rendeu na hora."
+## b7: "O navio austríaco se rendeu na hora, sem dar nenhum tiro."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
 - PERSONAGENS: GEN no centro, expressao scared, segura flag; sem multidao; acao: fala/gesto
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
-## b8: "Perderam o almoço e a coragem. E foi assim que..."
+## b8: "Perderam o almoço, a sopa e a coragem. E foi assim que..."
 - LOCAL: sala de madeira; hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
 - PERSONAGENS: COZ no centro, expressao sad; sem multidao; acao: fala/gesto

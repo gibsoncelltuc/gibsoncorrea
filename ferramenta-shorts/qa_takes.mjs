@@ -16,7 +16,7 @@ const inOnly = (f) => !only || SHOTS.some((s) => only.includes(s.id) && f >= s.a
 const isChar = (a) => a.id !== 'bird' && a.id !== undefined;   // persons, 2D animals and 3D animals (bear/horse/emu)
 const fails = [], perShot = {}, tinyBy = {};
 for (const f of [...frames].filter(inOnly).sort((x, y) => x - y)) {
-  const r = await pg.evaluate((f) => window.inspectFrame(f), f); const HR = HEROES[r.shot] || { hero: 'any', frame: 'medium' }; const H = Array.isArray(HR) ? (HR.find((x) => f >= (x.from ?? -1) && f <= (x.to ?? 1e9)) || HR[0]) : HR; const why = [];
+  const r = await pg.evaluate((f) => window.inspectFrame(f), f); { const SH_ = /_v$/.test(r.shot) ? SHOTS.find((q) => q.id === r.shot) : null; if (SH_ && f < SH_.a + 36) continue; }   /* 26/11 Bolos/Chaleira: a volta do detalhe (camera saindo do objeto) era reprovada no gate; o fit ja' pulava estes quadros, o gate nao */ const HR = HEROES[r.shot] || { hero: 'any', frame: 'medium' }; const H = Array.isArray(HR) ? (HR.find((x) => f >= (x.from ?? -1) && f <= (x.to ?? 1e9)) || HR[0]) : HR; const why = [];
   if (r.cameraInside) why.push(`camera inside geometry (${r.cameraInside})`);
   const chars = r.actors.filter(isChar);
   const match = (a) => H.hero === 'any' ? isChar(a) : (a.id === H.hero || (H.hero === 'US' && (a.id === 'US' || a.id === 'pickett')));

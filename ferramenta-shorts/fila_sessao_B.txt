@@ -1,16 +1,12 @@
 # REFACAO COM PESQUISA VISUAL (ordem do Gibson 23/11): cada roteiro ganha "visual" (onde, quando, quem, roupas da epoca, cenario, objetos, fontes visuais) e e' refeito do zero com a ferramenta nova.
 aroostook1838
-balde1325
-bolos1838
 cachorro1925
-danca1518
 falcon2015
 gansos390
 martelo2025
 pia2022
 roadster2018
 rontgen1895
-tycho1566
 semmelweis1847
 velcro1941
 #PAUSADO ese_dinheiro

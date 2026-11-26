@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): MAR (variante 0, expressao stern); MAR (variante 1, expressao stern) | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): holanda
@@ -46,7 +46,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: harbor | luz: day | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (1): IMP (variante 0, expressao shout) | multidao: 0 de 
+- Personagens principais (0): - | multidao: 0 de 
 - Animacao: -
 - Objetos/modelos: kit/navio_fragata, navios de guerra ao fundo, no tamanho real
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -

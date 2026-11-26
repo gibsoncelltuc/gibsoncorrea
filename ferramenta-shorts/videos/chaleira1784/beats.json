@@ -115,14 +115,23 @@
       "na": "sopa"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
    "shot": "wide",
-   "who": [
-    "MAR:0:stern",
-    "MAR:1:stern"
-   ],
+   "who": [],
    "mapa": "HOLANDA",
    "set": "harbor",
    "props": [
@@ -147,11 +156,18 @@
    "bloco": "prova",
    "say": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
    "encena": {
-    "sentido": "afirmativa",
-    "passos": [
+    "sentido": "fato",
+    "passos": []
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
      {
-      "faz": "mostra",
-      "na": "fechou"
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -178,9 +194,7 @@
   },
   {
    "shot": "wide",
-   "who": [
-    "IMP:0:shout"
-   ],
+   "who": [],
    "set": "harbor",
    "props": [
     [
@@ -216,11 +230,30 @@
    "bloco": "prova",
    "say": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
    "encena": {
-    "sentido": "afirmativa",
-    "passos": [
+    "sentido": "fato",
+    "passos": []
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
      {
-      "faz": "mostra",
-      "na": "mandou"
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -277,7 +310,25 @@
     ]
    },
    "bloco": "escalada",
-   "say": "Acontece que um navio holandês esperava e disparou um tiro."
+   "say": "Acontece que um navio holandês esperava e disparou um tiro.",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -324,6 +375,18 @@
       "na": "destruiu"
      }
     ]
+   },
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
    }
   },
   {
@@ -335,7 +398,7 @@
     [
      "kit/navio_fragata",
      0.0,
-     -18.2,
+     -33.7,
      7.06,
      {
       "fixo": true
@@ -349,11 +412,6 @@
    "crowd": {
     "n": 0
    },
-   "cx": 0.0,
-   "cz": -8.2,
-   "h": 6.0,
-   "d0": 102.3,
-   "d1": 97.4,
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -365,7 +423,25 @@
     ]
    },
    "bloco": "pagamento",
-   "say": "O navio austríaco se rendeu na hora, sem dar nenhum tiro."
+   "say": "O navio austríaco se rendeu na hora, sem dar nenhum tiro.",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
   },
   {
    "shot": "two",
@@ -385,10 +461,6 @@
    ],
    "interior": "madeira",
    "detalhe": true,
-   "cx": 1.2,
-   "cz": 0.1,
-   "d0": 8.4,
-   "d1": 8.0,
    "bloco": "loop",
    "say": "Perderam o almoço, a sopa e a coragem. E foi assim que...",
    "encena": {
@@ -397,6 +469,23 @@
      {
       "faz": "mostra",
       "na": "almoço"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
      }
     ]
    }
@@ -466,5 +555,6 @@
  "marco": false,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: uma guerra inteira teve um unico tiro e ele acertou uma chaleira de sopa. Pagamento: o Dolfijn disparou, a bala destruiu a chaleira e o navio austriaco se rendeu.",
- "loop_frase_ok": true
+ "loop_frase_ok": true,
+ "max_wide": 4
 }

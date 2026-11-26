@@ -6,9 +6,9 @@ Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | 
 ---|---|---|---|---|---|---|---
 b0 | loc_campo | two | 2 | reagir, INTERAGEM: o outro se aproxima | kit/kettle | - | -
 b1 | loc_campo | group | 2 | conversar, INTERAGEM: insiste | kit/kettle | - | -
-b2 | harbor | wide | 2 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
+b2 | harbor | wide | 0 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b3 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | - | -
-b4 | harbor | wide | 1 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
+b4 | harbor | wide | 0 | parados (so fala e pisca) | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b5 | harbor | wide | 2 | encena | cannon, kit/navio_fragata, navios de guerra ao fundo, no tamanho real | - | -
 b6 | harbor | two | 2 | conversar, INTERAGEM: vai ate o outro, batalha | kit/kettle | - | -
 b7 | harbor | wide | 1 | encena, batalha | kit/navio_fragata, navios de guerra ao fundo, no tamanho real | flag | -

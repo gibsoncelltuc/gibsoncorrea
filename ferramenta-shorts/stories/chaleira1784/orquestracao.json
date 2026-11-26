@@ -49,10 +49,7 @@
   },
   {
    "camera": "wide",
-   "personagens": [
-    "MAR",
-    "MAR"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/navio_fragata",
@@ -62,7 +59,7 @@
    "cena": "b2",
    "frase": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
    "classe": "transicao",
-   "sujeito": "personagem",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
@@ -86,9 +83,7 @@
   },
   {
    "camera": "wide",
-   "personagens": [
-    "IMP"
-   ],
+   "personagens": [],
    "multidao": 0,
    "objetos": [
     "kit/navio_fragata",
@@ -97,8 +92,8 @@
    "palavras": 11,
    "cena": "b4",
    "frase": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
-   "classe": "simples",
-   "sujeito": "personagem",
+   "classe": "transicao",
+   "sujeito": "cenario",
    "briefing": {},
    "acoes_faltando": [],
    "cenario": "harbor"
