@@ -6,7 +6,7 @@ def _wav(p, x):
     w.writeframes((np.repeat(x[:, None], 2, 1) * 32767).astype(np.int16).tobytes()); w.close()
 def montar(OUT, SEG, TOTAL):
     n = int(TOTAL * SR); t = np.arange(n) / SR; rng = np.random.default_rng(1)
-    bpm = 100; beat = 60 / bpm
+    bpm = 118; beat = 60 / bpm
     acordes = [(55.0, 65.41, 82.41), (43.65, 55.0, 65.41), (49.0, 61.74, 73.42), (41.2, 55.0, 61.74)]   # Am F G E (graves)
     pad = np.zeros(n); bass = np.zeros(n)
     for i, ac in enumerate(acordes * 20):
@@ -18,7 +18,14 @@ def montar(OUT, SEG, TOTAL):
     kick = np.zeros(n); k1 = np.arange(int(.25 * SR)) / SR; kk = np.sin(2 * np.pi * (50 + 90 * np.exp(-k1 * 30)) * k1) * np.exp(-k1 * 9)
     for i in range(int(TOTAL / beat)):
         a = int(i * beat * SR); kick[a:a + len(kk)] += kk[:n - a]
-    musica = .10 * pad + .16 * bass * (.6 + .4 * np.sin(2 * np.pi * t / beat)) + .22 * kick
+    hat = np.zeros(n); clap = np.zeros(n); Lh = int(.05 * SR); hh = rng.standard_normal(Lh) * np.exp(-np.arange(Lh) / SR * 90)
+    Lc = int(.18 * SR); cc = rng.standard_normal(Lc) * np.exp(-np.arange(Lc) / SR * 22)
+    import scipy.signal as sg0; bh, ah = sg0.butter(2, 7000, 'high', fs=SR); hh = sg0.lfilter(bh, ah, hh); bc, ac = sg0.butter(2, [900, 4000], 'band', fs=SR); cc = sg0.lfilter(bc, ac, cc)
+    for i in range(int(TOTAL / (beat / 2))):
+        a = int(i * beat / 2 * SR); hat[a:a + Lh] += hh[:max(0, min(Lh, n - a))] * (.6 if i % 2 else .35)
+        if i % 4 == 2: clap[a:a + Lc] += cc[:max(0, min(Lc, n - a))]
+    duck = 1 - .35 * np.exp(-((t % beat) / .12))   # 'bombeia' com o bumbo
+    musica = (.10 * pad + .18 * bass) * duck + .26 * kick + .08 * hat + .12 * clap
     whoosh = np.zeros(n); L = int(.7 * SR); wl = np.arange(L) / SR
     ruido = rng.standard_normal(L); env = np.sin(np.pi * wl / .7) ** 2
     import scipy.signal as sg

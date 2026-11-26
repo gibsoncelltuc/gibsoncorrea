@@ -177,6 +177,11 @@ def emoji(ch, tam):
 def sobrepor(img, tt):
     pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).convert('RGBA'); d = ImageDraw.Draw(pil)
     k = max(i for i in range(NS) if SEG[i][0] - ANT <= tt or i == 0); a = SEG[k][0] - ANT
+    if k == 0 and tt < SEG[0][1]:   # gancho: titulo grande no alto, entra com pulo
+        po = min(1, tt / .25); f = fonte(FB, 104); ls = quebrar(R['title'], f, W - 100)
+        while max(f.getlength(l) for l in ls) > W - 70: f = fonte(FB, f.size - 6); ls = quebrar(R['title'], f, W - 100)
+        y = 210
+        for i2, l in enumerate(ls): texto_contorno(d, (W / 2, y), l, f, (255, 214, 0) if i2 % 2 == 0 else (255, 255, 255), 12); y += f.size * 1.12
     if k > 0:
         it = R['items'][k - 1]; u = tt - a - VOO + .1
         if u > 0:

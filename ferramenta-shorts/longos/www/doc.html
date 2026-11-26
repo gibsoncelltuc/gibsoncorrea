@@ -27,10 +27,19 @@ for (const n of [...new Set(SPEC.blocos.map((b) => b.modelo).filter(Boolean))]) 
   const gl = await new Promise((r, e) => loader.load(`assets/library/kit/${n}.glb`, r, undefined, e)); const o = gl.scene;
   const box = new THREE.Box3().setFromObject(o), sz = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3()), k = 2.0 / Math.max(sz.x, sz.y, sz.z);
   const piv = new THREE.Group(); o.position.sub(c); piv.add(o); piv.userData.k = k; piv.visible = false; scene.add(piv); MOD[n] = piv;
+  const eixoX = sz.x >= sz.z; const UN = { uT: { value: 0 }, uAmp: { value: 0 }, uK: { value: 1 }, uFreq: { value: 3 }, uXmin: { value: eixoX ? box.min.x : box.min.z }, uLen: { value: eixoX ? sz.x : sz.z }, uYmin: { value: box.min.y }, uAlt: { value: sz.y }, uPulsa: { value: 0 }, uTent: { value: 0 }, uEixo: { value: eixoX ? 0 : 1 } };
+  piv.userData.UN = UN;
+  o.traverse((m) => { if (m.isMesh && m.material) { m.material = m.material.clone(); m.material.onBeforeCompile = (sh) => { Object.assign(sh.uniforms, UN); sh.vertexShader = 'uniform float uT,uAmp,uK,uFreq,uXmin,uLen,uYmin,uAlt,uPulsa,uTent,uEixo;\n' + sh.vertexShader.replace('#include <begin_vertex>', `#include <begin_vertex>
+    { vec3 p = transformed; float ax = uEixo < .5 ? p.x : p.z; float xn = clamp((ax - uXmin) / uLen, 0., 1.); float yn = clamp((p.y - uYmin) / uAlt, 0., 1.);
+      float sw = uAmp * uLen * pow(1. - xn, 1.5) * sin(uK * 6.2832 * xn - uT * uFreq); if (uEixo < .5) p.z += sw; else p.x += sw;
+      float pul = 1. + uPulsa * sin(uT * 2.2) * (yn > .55 ? 1. : .3); p.x *= pul; p.z *= pul; p.y += uPulsa * .3 * uAlt * sin(uT * 2.2 - 1.) * (1. - yn);
+      float tw = uTent * uAlt * (1. - yn) * (1. - yn); p.x += tw * sin(uT * 2.5 + p.y * 6. + p.z * 3.); p.z += tw * cos(uT * 2.1 + p.y * 5.);
+      transformed = p; }`); }; } });
   const glows = [];
   o.traverse((m) => { if (m.isMesh && m.material) { m.material.roughness = .85; m.material.metalness = 0; const e = m.material.emissive; if (e && (e.r + e.g + e.b) > .05) { m.geometry.computeBoundingSphere(); const big = m.geometry.boundingSphere.radius * k > .5; m.material.emissiveIntensity = big ? .3 : 1.0; if (!big) glows.push(m); } } });
   for (const m of glows) { m.geometry.computeBoundingSphere(); const bs = m.geometry.boundingSphere, sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW, color: m.material.emissive.clone(), blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, opacity: .9 })); sp.position.copy(bs.center); sp.scale.setScalar(Math.max(.25, bs.radius * 5)); m.add(sp); }   /* bioluminescencia: halo de luz em volta de tudo que brilha */
 }
+const MOVE = (n) => /agua_viva/.test(n) ? { uPulsa: .12, uTent: .12 } : /lula|polvo/.test(n) ? { uTent: .18, uAmp: .03, uFreq: 2 } : /peixe|tubarao/.test(n) ? { uAmp: .09, uK: .9, uFreq: 3.2 } : /isopode/.test(n) ? { uAmp: .03, uK: 2, uFreq: 5 } : /recife|fonte/.test(n) ? { uTent: .05 } : {};
 const ease = (t) => t * t * (3 - 2 * t), cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lerp = (a, b, t) => a + (b - a) * t;
 const colA = new THREE.Color(0x0b4a73), colB = new THREE.Color(0x020812), colC = new THREE.Color(0x173a52), bg = new THREE.Color();
 function frame(f) {
@@ -42,9 +51,17 @@ function frame(f) {
   if (m) {
     m.visible = true; const k = m.userData.k * (B.escala || 1); m.scale.setScalar(k * (1 + .02 * Math.sin(t * 2)));
     m.position.set(0, .12 * Math.sin(t * 1.3), 0); m.rotation.set(.05 * Math.sin(t * .9), .25 * Math.sin(t * .35), .04 * Math.sin(t * 1.1));
+    const UN = m.userData.UN, mv = MOVE(B.modelo); for (const k of ['uAmp', 'uK', 'uFreq', 'uPulsa', 'uTent']) UN[k].value = mv[k] ?? (k === 'uK' ? 1 : k === 'uFreq' ? 3 : 0); UN.uT.value = t;
+    const tb = t - B.a, DUR = 5.2, sh = Math.floor(tb / DUR), us = (tb - sh * DUR) / DUR; const vivo = Object.keys(mv).length > 0 && !/recife|fonte/.test(B.modelo);
+    if (vivo) { m.position.x += .35 * Math.sin(t * .23); m.rotation.y += .5 * Math.sin(t * .17); }   // nada para um lado e outro
+    if (ESP && !/sonda|horizons/.test(B.modelo)) { m.rotation.set(.12, t * .09, 0); m.position.x = 0; }   // planeta gira
     if (B.cam === 'passagem') { m.position.x = lerp(-3.2, 3.2, u); m.rotation.y = 0; }
-    const R = B.cam === 'close' ? lerp(5.6, 4.8, ease(u)) : B.cam === 'passagem' ? 5.2 : 4.6, az = B.cam === 'orbita' ? lerp(-0.9, 0.9, u) : B.cam === 'passagem' ? 0 : lerp(-.35, .35, u);
-    P.set(Math.sin(az) * R + (B.cam === 'passagem' ? m.position.x * .45 : 0), .55 + .25 * Math.sin(t * .4), Math.cos(az) * R); L.set(B.cam === 'passagem' ? m.position.x * .7 : 0, -.22, 0);
+    const tipo = B.cam === 'passagem' ? 9 : (sh === 0 ? 0 : (sh + i) % 4);
+    if (tipo === 9) { P.set(m.position.x * .45, .55, 5.2); L.set(m.position.x * .7, -.22, 0); }
+    else if (tipo === 1) { const R = lerp(3.4, 2.8, us); P.set(Math.sin(.5 + us * .3) * R + m.position.x, .35, Math.cos(.5 + us * .3) * R); L.set(m.position.x + .25, .05, 0); }            // close
+    else if (tipo === 2) { P.set(lerp(-2.5, 2.5, us) + m.position.x, -.9, 3.4); L.set(m.position.x, .1, 0); }                                                                              // de baixo, passando
+    else if (tipo === 3) { P.set(m.position.x + .8, 3.6, 2.4); L.set(m.position.x, -.2, 0); }                                                                                              // de cima
+    else { const R = B.cam === 'close' ? lerp(5.6, 4.8, ease(us)) : 4.6, az = lerp(-0.7, 0.7, us); P.set(Math.sin(az) * R + m.position.x * .5, .55 + .25 * Math.sin(t * .4), Math.cos(az) * R); L.set(m.position.x * .5, -.22, 0); }
   } else { P.set(0, 0, 5); L.set(0, -1, 0); sp = 1.6; }
   cam.position.copy(P); cam.lookAt(L); lamp.position.copy(P).add(new THREE.Vector3(.6, .8, 0)); lamp.target.position.copy(L);
   if (ESP) { scene.background = new THREE.Color(0x01020a); snow.rotation.y = t * .004; } else {
