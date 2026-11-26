@@ -27,3 +27,6 @@
 
 ## 26/11 00:12 autocorrecao de visibilidade
 - b5: objeto "kit/ear_jar" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 26/11 00:13 autocorrecao de visibilidade
+- b5: objeto "kit/ear_jar" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior

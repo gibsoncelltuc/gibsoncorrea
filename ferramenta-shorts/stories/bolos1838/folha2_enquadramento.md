@@ -32,7 +32,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +50 da cena
 - SOM: thump@50
 
-## b4: "Pediu sessenta mil pesos. A loja valia menos de mil."
+## b4: "Pediu sessenta mil pesos de indenização. A loja valia menos de mil."
 - LOCAL: sala de pedra (governo/castelo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro
 - PERSONAGENS: CON na esquerda, expressao stern, segura paper; REI na direita, expressao neutral; sem multidao; acao: fala/gesto
@@ -45,7 +45,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETOS: so cenario (nenhum objeto da historia nesta cena)
 - TEXTO NA TELA: "A MARINHA" flutuando no alto, na palavra 1 da frase
 
-## b6: "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz."
+## b6: "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz."
 - LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano de multidao
 - PERSONAGENS: FRA no centro, expressao stern; multidao de 20 (FRA, OFI) ATRAS dos principais; acao: batalha

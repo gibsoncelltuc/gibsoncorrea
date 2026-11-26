@@ -3,7 +3,7 @@
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
 b0 | two | -  | placa: UM ÚNICO TIRO | tiro (burst + som de tiro/explosao) | -
-b1 | two | -  | interior | - | -
+b1 | group | -  | - | - | -
 b2 | wide | -  | tropa, mapa | - | -
 b3 | two | -  | interior | - | -
 b4 | wide | -  | tropa | - | -

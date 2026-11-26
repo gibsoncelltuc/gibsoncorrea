@@ -1,13 +1,13 @@
 # CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
 
-Gerado em 25/11 22:51 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 26/11 00:17 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
 Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
 ---|---|---|---|---|---|---|---|---
 b0 | simples | loc_campo | two | COZ, HOL | - | kettle | - | Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.
-b1 | simples | interior madeira | two | IMP, COZ | - | kettle | - | E dentro dela tinha sopa quente para o almoço.
+b1 | simples | loc_campo | group | IMP, COZ | - | kettle | - | E dentro dela tinha sopa quente para o almoço.
 b2 | transicao | harbor | wide | MAR, MAR | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.
 b3 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador da Áustria queria o rio aberto.
 b4 | simples | harbor | wide | IMP | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Mandou três navios descerem o rio, certo de que ninguém reagiria.

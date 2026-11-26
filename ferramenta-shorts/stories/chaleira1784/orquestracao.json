@@ -29,7 +29,7 @@
    "cenario": "loc_campo"
   },
   {
-   "camera": "two",
+   "camera": "group",
    "personagens": [
     "IMP",
     "COZ"
@@ -45,7 +45,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "interior madeira"
+   "cenario": "loc_campo"
   },
   {
    "camera": "wide",

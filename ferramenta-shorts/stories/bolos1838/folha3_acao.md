@@ -51,7 +51,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | ATUACAO | pega | OK |
 | 3 | - | CHEGADA | alguem entra andando | OK |
 
-## Cena b4 - 12.4s a 16.2s - 12 palavras - plano two
+## Cena b4 - 12.4s a 16.0s - 12 palavras - plano two
 > "Pediu sessenta mil pesos de indenização. A loja valia menos de mil."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
@@ -63,48 +63,48 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | pedir | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b5 - 16.4s a 19.3s - 12 palavras - plano wide
+## Cena b5 - 16.5s a 19.0s - 12 palavras - plano wide
 > "Acontece que a França assumiu a briga e mandou navios de guerra."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (18.2s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "mandou" (18.4s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | briga (17.7s) | EFEITO: puff | fumaca + som | OK |
+| 1 | briga (18.0s) | EFEITO: puff | fumaca + som | OK |
 | 2 | - | ATUACAO | discutir | OK |
 | 3 | - | PLACA | A MARINHA | OK |
 
-## Cena b6 - 19.9s a 23.9s - 12 palavras - plano crowd
+## Cena b6 - 19.7s a 23.1s - 12 palavras - plano crowd
 > "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bombardearam" (20.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "bombardearam" (20.0s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | Canhões (19.9s) | EFEITO: burst | estouro/clarao + som | OK |
+| 1 | Canhões (19.7s) | EFEITO: burst | estouro/clarao + som | OK |
 | 2 | - | CENA | tiros: 5 soldados caem no chao | OK |
 | 3 | - | CENA | explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo, os dois exercitos um contra o outro | OK |
 
-## Cena b7 - 24.4s a 27.3s - 11 palavras - plano two
+## Cena b7 - 23.8s a 26.1s - 11 palavras - plano two
 > "O México prometeu pagar a conta, e a França foi embora."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prometeu" (24.7s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "prometeu" (24.2s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pagar (24.9s) | EFEITO: stars | estrelinhas + som | OK |
+| 1 | pagar (24.6s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | - | INTERACAO | entregar | OK |
 | 3 | - | PLACA | 600.000 | OK |
 
-## Cena b8 - 28.0s a 28.6s - 10 palavras - plano two
+## Cena b8 - 26.9s a 29.7s - 10 palavras - plano two
 > "Esse dinheiro dos bolos nunca chegou. E foi assim que..."
 
 - LEITURA DA FRASE: sentido AFIRMATIVA
-  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dinheiro" (28.1s)
+  1) objeto a camera mostra o objeto/lugar citado (sem acao de personagem) | na palavra "dinheiro" (27.1s)
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|

@@ -1,4 +1,194 @@
 {
- "fails": [],
+ "fails": [
+  {
+   "f": 53,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 56,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 60,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 64,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 68,
+   "shot": "b0_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 70,
+   "shot": "b0_v",
+   "why": [
+    "ofi: head/torso cropped (box 0.72, 0.261, 1.161, 0.845)"
+   ]
+  },
+  {
+   "f": 72,
+   "shot": "b0_v",
+   "why": [
+    "ofi: head/torso cropped (box 0.661, 0.307, 1.043, 0.819)"
+   ]
+  },
+  {
+   "f": 227,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 228,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 232,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 236,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 240,
+   "shot": "b2_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 244,
+   "shot": "b2_v",
+   "why": [
+    "ofi: head/torso cropped (box 1.092, 0.152, 2.052, 1.015)"
+   ]
+  },
+  {
+   "f": 247,
+   "shot": "b2_v",
+   "why": [
+    "ofi: head/torso cropped (box 0.931, 0.264, 1.562, 0.877)"
+   ]
+  },
+  {
+   "f": 248,
+   "shot": "b2_v",
+   "why": [
+    "ofi: head/torso cropped (box 0.89, 0.288, 1.449, 0.847)"
+   ]
+  },
+  {
+   "f": 292,
+   "shot": "b3",
+   "why": [
+    "ofi: head/torso cropped (box -0.071, 0.63, 0.509, 1.149)"
+   ]
+  },
+  {
+   "f": 296,
+   "shot": "b3",
+   "why": [
+    "ofi: head/torso cropped (box -0.024, 0.63, 0.508, 1.123)"
+   ]
+  },
+  {
+   "f": 768,
+   "shot": "b7_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 772,
+   "shot": "b7_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 776,
+   "shot": "b7_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 780,
+   "shot": "b7_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 867,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 868,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 872,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 876,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 880,
+   "shot": "b8_v",
+   "why": [
+    "empty take: no character in the take"
+   ]
+  },
+  {
+   "f": 884,
+   "shot": "b8_v",
+   "why": [
+    "ofi: head/torso cropped (box 0.835, 0.256, 1.248, 0.81)"
+   ]
+  }
+ ],
  "tiny": []
 }

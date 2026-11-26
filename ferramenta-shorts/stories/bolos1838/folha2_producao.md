@@ -36,7 +36,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
-- Personagens principais (2): OFI (variante 0, expressao grin); OFI (variante 1, expressao laugh)
+- Personagens principais (2): OFI (variante 0, expressao grin); OFI (variante 1, expressao laugh) | multidao: 0 de 
 - Animacao: pega | interacao: o outro se aproxima | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/cake_table, kit/chest, kit/barrel_r
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): doces, loja
