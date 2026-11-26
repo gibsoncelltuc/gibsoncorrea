@@ -24,3 +24,6 @@
 ## 25/11 18:12 autocorrecao de visibilidade
 - b3: objeto citado "kit/ear_jar" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
 - b5: objeto "kit/ear_jar" saiu com 12% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 26/11 00:12 autocorrecao de visibilidade
+- b5: objeto "kit/ear_jar" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)

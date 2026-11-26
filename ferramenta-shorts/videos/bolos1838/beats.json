@@ -146,29 +146,20 @@
     [
      "kit/cake_table",
      0.0,
-     -8.0,
-     1.7,
-     {
-      "fixo": true
-     }
+     1.0,
+     1.7
     ],
     [
      "kit/chest",
-     3.6,
-     -2.0,
-     1.1,
-     {
-      "fixo": true
-     }
+     -1.2,
+     1.4,
+     1.1
     ],
     [
      "kit/barrel_r",
-     -3.6,
-     -2.0,
-     1.0,
-     {
-      "fixo": true
-     }
+     1.4,
+     1.6,
+     1.0
     ]
    ],
    "acao": "pega",
@@ -183,41 +174,6 @@
       "na": "mexicanos"
      }
     ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.2,
-   "d1": 10.7,
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "two",
-   "detalhe": false,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o cake_table (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cake_table",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/chest",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/barrel_r",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
    }
   },
   {
@@ -228,7 +184,7 @@
    ],
    "interior": "pedra",
    "bloco": "prova",
-   "say": "Pediu sessenta mil pesos. A loja valia menos de mil.",
+   "say": "Pediu sessenta mil pesos de indenização. A loja valia menos de mil.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -293,7 +249,7 @@
    ],
    "props": [],
    "bloco": "escalada",
-   "say": "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "say": "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -395,6 +351,5 @@
  "min_momentos": 1,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: Franca e Mexico entraram em guerra por uma confeitaria e a conta nunca foi paga. Pagamento: o confeiteiro pediu 60 mil pesos, a Franca bloqueou os portos e tomou Veracruz; o Mexico prometeu pagar.",
- "loop_frase_ok": true,
- "max_wide": 3
+ "loop_frase_ok": true
 }

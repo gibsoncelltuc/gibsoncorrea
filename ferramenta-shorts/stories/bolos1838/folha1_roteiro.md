@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 95 palavras (~33 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 101 palavras (~35 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: França e México entraram em guerra por causa de uma confeitaria.
@@ -38,8 +38,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
-## Cena b4  (~3.4 s)
-- Narracao: Pediu sessenta mil pesos. A loja valia menos de mil.
+## Cena b4  (~4.1 s)
+- Narracao: Pediu sessenta mil pesos de indenização. A loja valia menos de mil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito
@@ -56,10 +56,10 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: A MARINHA
 - Funcao na historia: VIRADA
 
-## Cena b6  (~2.8 s)
-- Narracao: Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.
+## Cena b6  (~4.1 s)
+- Narracao: Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.
 - Som ambiente: sea | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68
+- Efeitos sonoros marcados: cannon@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
 - Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; Canhões -> burst + som de tiro/explosao; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -

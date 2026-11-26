@@ -134,6 +134,14 @@
     "soldier uniform 1838",
     "soldier uniform"
    ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "porto da epoca",
+   "consultas": [
+    "harbor 1838",
+    "harbor"
+   ]
   }
  ]
 }

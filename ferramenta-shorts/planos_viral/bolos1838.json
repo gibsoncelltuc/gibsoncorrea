@@ -46,7 +46,7 @@
   [
    3,
    "prova",
-   "Pediu sessenta mil pesos. A loja valia menos de mil.",
+   "Pediu sessenta mil pesos de indenização. A loja valia menos de mil.",
    "pediu",
    {}
   ],
@@ -60,7 +60,7 @@
   [
    6,
    "escalada",
-   "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.",
    "bombardearam",
    {
     "encena_antiga": true

@@ -100,9 +100,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 10,
+   "palavras": 12,
    "cena": "b4",
-   "frase": "Pediu sessenta mil pesos. A loja valia menos de mil.",
+   "frase": "Pediu sessenta mil pesos de indenização. A loja valia menos de mil.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -139,9 +139,9 @@
     "cannon",
     "kit/marco_ulua"
    ],
-   "palavras": 8,
+   "palavras": 12,
    "cena": "b6",
-   "frase": "Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.",
+   "frase": "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.",
    "classe": "chave",
    "sujeito": "personagem",
    "briefing": {
