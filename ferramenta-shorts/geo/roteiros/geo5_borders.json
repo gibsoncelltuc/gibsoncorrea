@@ -16,7 +16,8 @@
    ],
    "big": "THROUGH HOUSES",
    "label": "Baarle",
-   "flag": "be"
+   "flag": "be",
+   "icon": "🏠"
   },
   {
    "say": "Point Roberts is part of the USA, but you can only drive there through Canada.",
@@ -32,7 +33,8 @@
    ],
    "big": "ONLY BY CANADA",
    "label": "Point Roberts",
-   "flag": "us"
+   "flag": "us",
+   "icon": "🚗"
   },
   {
    "say": "Kaliningrad is a piece of Russia, stuck between Poland and Lithuania.",
@@ -49,7 +51,8 @@
    ],
    "big": "CUT OFF",
    "label": "Kaliningrad",
-   "flag": "ru"
+   "flag": "ru",
+   "icon": "🧩"
   },
   {
    "say": "Bir Tawil is land that no country wants. Not Egypt, not Sudan.",
@@ -64,7 +67,8 @@
    ],
    "big": "NO OWNER",
    "label": "Bir Tawil",
-   "flag": ""
+   "flag": "",
+   "icon": "❓"
   },
   {
    "say": "Pheasant Island switches between Spain and France every six months.",
@@ -80,7 +84,8 @@
    ],
    "big": "EVERY 6 MONTHS",
    "label": "Pheasant Island",
-   "flag": ""
+   "flag": "",
+   "icon": "🏝️"
   },
   {
    "say": "The Diomede Islands: Russia and the USA, less than three miles apart, but almost a full day apart in time.",
@@ -96,7 +101,8 @@
    ],
    "big": "21 HOURS APART",
    "label": "Diomede Islands",
-   "flag": ""
+   "flag": "",
+   "icon": "🕐"
   },
   {
    "say": "Llívia is a Spanish town completely surrounded by France.",
@@ -112,7 +118,8 @@
    ],
    "big": "INSIDE FRANCE",
    "label": "Llívia",
-   "flag": "es"
+   "flag": "es",
+   "icon": "🏘️"
   },
   {
    "say": "And Vatican City is an entire country inside a city.",
@@ -125,7 +132,8 @@
    ],
    "big": "COUNTRY IN A CITY",
    "label": "Vatican City",
-   "flag": "va"
+   "flag": "va",
+   "icon": "⛪"
   }
  ],
  "id": "geo5_borders"

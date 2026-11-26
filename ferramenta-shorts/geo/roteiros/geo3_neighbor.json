@@ -10,7 +10,8 @@
    "hl2": [
     "ESP"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🤝"
   },
   {
    "say": "Canada only borders the United States.",
@@ -20,7 +21,8 @@
    "hl2": [
     "USA"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🍁"
   },
   {
    "say": "Ireland only borders the United Kingdom.",
@@ -30,7 +32,8 @@
    "hl2": [
     "GBR"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "☘️"
   },
   {
    "say": "Denmark only borders Germany.",
@@ -40,7 +43,8 @@
    "hl2": [
     "DEU"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🧱"
   },
   {
    "say": "South Korea only borders North Korea.",
@@ -50,7 +54,8 @@
    "hl2": [
     "PRK"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🚧"
   },
   {
    "say": "Haiti only borders the Dominican Republic.",
@@ -60,7 +65,8 @@
    "hl2": [
     "DOM"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🏝️"
   },
   {
    "say": "Qatar only borders Saudi Arabia.",
@@ -70,7 +76,8 @@
    "hl2": [
     "SAU"
    ],
-   "big": "1 NEIGHBOR"
+   "big": "1 NEIGHBOR",
+   "icon": "🏜️"
   },
   {
    "say": "And Lesotho is completely surrounded by South Africa.",
@@ -80,7 +87,8 @@
    "hl2": [
     "ZAF"
    ],
-   "big": "SURROUNDED"
+   "big": "SURROUNDED",
+   "icon": "⛰️"
   }
  ],
  "id": "geo3_neighbor"

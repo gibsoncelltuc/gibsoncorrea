@@ -13,7 +13,8 @@
    ],
    "big": "134°F",
    "label": "Death Valley",
-   "flag": "us"
+   "flag": "us",
+   "icon": "🔥"
   },
   {
    "say": "The coldest town on Earth: Oymyakon, Russia. Minus 90 degrees.",
@@ -26,7 +27,8 @@
    ],
    "big": "-90°F",
    "label": "Oymyakon",
-   "flag": "ru"
+   "flag": "ru",
+   "icon": "🥶"
   },
   {
    "say": "The coldest temperature ever: minus 128 degrees, at Vostok Station, Antarctica.",
@@ -37,7 +39,8 @@
    ],
    "big": "-128°F",
    "label": "Vostok Station",
-   "flag": "aq"
+   "flag": "aq",
+   "icon": "❄️"
   },
   {
    "say": "The wettest place on Earth: Mawsynram, India.",
@@ -50,7 +53,8 @@
    ],
    "big": "WETTEST",
    "label": "Mawsynram",
-   "flag": "in"
+   "flag": "in",
+   "icon": "🌧️"
   },
   {
    "say": "The driest: the Atacama Desert, in Chile.",
@@ -63,7 +67,8 @@
    ],
    "big": "DRIEST",
    "label": "Atacama Desert",
-   "flag": "cl"
+   "flag": "cl",
+   "icon": "🏜️"
   },
   {
    "say": "The highest point: Mount Everest, 29,032 feet.",
@@ -76,7 +81,8 @@
    ],
    "big": "29,032 FT",
    "label": "Mount Everest",
-   "flag": "np"
+   "flag": "np",
+   "icon": "🏔️"
   },
   {
    "say": "The lowest land: the Dead Sea, more than 1,400 feet below sea level.",
@@ -89,7 +95,8 @@
    ],
    "big": "-1,400 FT",
    "label": "Dead Sea",
-   "flag": ""
+   "flag": "",
+   "icon": "🌊"
   },
   {
    "say": "And the deepest point: the Mariana Trench, almost 36,000 feet deep.",
@@ -100,7 +107,8 @@
    ],
    "big": "-36,000 FT",
    "label": "Mariana Trench",
-   "flag": ""
+   "flag": "",
+   "icon": "🌊"
   }
  ],
  "id": "geo4_extreme"

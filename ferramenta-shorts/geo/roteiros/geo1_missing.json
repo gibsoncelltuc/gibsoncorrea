@@ -7,14 +7,18 @@
    "hl": [
     "CRI"
    ],
-   "big": "NO ARMY"
+   "big": "NO ARMY",
+   "icon": "🪖",
+   "nao": true
   },
   {
    "say": "Saudi Arabia has no permanent rivers.",
    "hl": [
     "SAU"
    ],
-   "big": "NO RIVERS"
+   "big": "NO RIVERS",
+   "icon": "🌊",
+   "nao": true
   },
   {
    "say": "Monaco has no airport.",
@@ -25,21 +29,27 @@
    "pin": [
     43.74,
     7.42
-   ]
+   ],
+   "icon": "✈️",
+   "nao": true
   },
   {
    "say": "Iceland has no mosquitoes.",
    "hl": [
     "ISL"
    ],
-   "big": "NO MOSQUITOES"
+   "big": "NO MOSQUITOES",
+   "icon": "🦟",
+   "nao": true
   },
   {
    "say": "Ireland has no native snakes.",
    "hl": [
     "IRL"
    ],
-   "big": "NO SNAKES"
+   "big": "NO SNAKES",
+   "icon": "🐍",
+   "nao": true
   },
   {
    "say": "Nauru has no official capital.",
@@ -50,14 +60,18 @@
    "pin": [
     -0.53,
     166.93
-   ]
+   ],
+   "icon": "🏛️",
+   "nao": true
   },
   {
    "say": "And Bhutan's capital has no traffic lights.",
    "hl": [
     "BTN"
    ],
-   "big": "NO TRAFFIC LIGHTS"
+   "big": "NO TRAFFIC LIGHTS",
+   "icon": "🚦",
+   "nao": true
   }
  ],
  "id": "geo1_missing"

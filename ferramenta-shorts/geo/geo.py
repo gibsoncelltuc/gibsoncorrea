@@ -45,9 +45,9 @@ def slerp(a, b, e):
     if om < 1e-6: return a
     return (math.sin((1 - e) * om) * a + math.sin(e * om) * b) / math.sin(om)
 ease = lambda x: x * x * (3 - 2 * x)
-VOO = 1.1
+VOO = .85; ANT = .5
 def camera(tt):
-    k = max(i for i in range(NS) if SEG[i][0] <= tt or i == 0); a = SEG[k][0]
+    k = max(i for i in range(NS) if SEG[i][0] - ANT <= tt or i == 0); a = SEG[k][0] - ANT
     if k == 0:   # gancho: globo girando
         return 18.0, -60.0 + 14 * tt, GLOBO_S * (1 + .05 * tt)
     la0, lo0, s0 = VISTAS[k - 1]; la1, lo1, s1 = VISTAS[k]
@@ -103,21 +103,46 @@ def projetar(lon, lat, lat0, lon0, s):
     x = CX + s * np.cos(f) * np.sin(l - l0); y = CY - s * (math.cos(f0) * np.sin(f) - math.sin(f0) * np.cos(f) * np.cos(l - l0))
     return np.stack([x, y], 1), cosc
 
-def desenhar_paises(img, codes, cor, a, lat0, lon0, s):
+FLAGBGR = {}
+def flag_bgr(code):
+    iso = ISO2.get(code, '')
+    if iso not in FLAGBGR:
+        pth = f'dados/flags/{iso}.png'
+        FLAGBGR[iso] = cv2.cvtColor(np.array(Image.open(pth).convert('RGB')), cv2.COLOR_RGB2BGR) if os.path.exists(pth) else None
+    return FLAGBGR[iso]
+def desenhar_paises(img, codes, cor, a, lat0, lon0, s, forca=.9):
+    # pinta o pais com a PROPRIA BANDEIRA (como nos videos virais), contorno branco com brilho
     if a <= 0 or not codes: return img
-    cam = img.copy(); linhas = []
+    out = img.copy(); linhas = []
     for code in codes:
+        polys = []
         for r in aneis(code):
             p, cc = projetar(r[:, 0], r[:, 1], lat0, lon0, s)
             if (cc < .05).any() or np.abs(p).max() > 60000: continue
-            pts = np.round(p * 4).astype(np.int32); cv2.fillPoly(cam, [pts], cor, cv2.LINE_AA, 2); linhas.append(pts)
-    img = cv2.addWeighted(cam, .38 * a, img, 1 - .38 * a, 0)
-    brilho = np.zeros_like(img)
-    for pts in linhas: cv2.polylines(brilho, [pts], True, (255, 255, 255), 9, cv2.LINE_AA, 2)
-    brilho = cv2.GaussianBlur(brilho, (0, 0), 6)
-    img = cv2.add(img, (brilho * (.8 * a)).astype(np.uint8))
-    for pts in linhas: cv2.polylines(img, [pts], True, tuple(int(c * a + 255 * (1 - a)) for c in cor), 4, cv2.LINE_AA, 2)
-    return img
+            polys.append(np.round(p * 4).astype(np.int32))
+        if not polys: continue
+        linhas += polys
+        mask = np.zeros(img.shape[:2], np.uint8)
+        for pts in polys: cv2.fillPoly(mask, [pts], 255, cv2.LINE_AA, 2)
+        # a bandeira cobre o maior pedaco do pais (bbox do maior poligono), esticada
+        big = max(polys, key=lambda q: cv2.contourArea(q.astype(np.float32) / 4))
+        x, y, w, h = cv2.boundingRect((big / 4).astype(np.int32))
+        fb = flag_bgr(code)
+        if fb is None or w < 2 or h < 2: camada = np.full_like(img, cor)
+        else:
+            camada = np.full_like(img, cor); fr = cv2.resize(fb, (w, h), interpolation=cv2.INTER_AREA)
+            x0, y0 = max(0, x), max(0, y); x1, y1 = min(W, x + w), min(H, y + h)
+            if x1 > x0 and y1 > y0: camada[y0:y1, x0:x1] = fr[y0 - y:y1 - y, x0 - x:x1 - x]
+            # outros pedacos (ilhas) fora do bbox: cor media da bandeira
+            media = fb.reshape(-1, 3).mean(0); fora = np.ones(img.shape[:2], bool); fora[y0:y1, x0:x1] = False; camada[fora] = media
+        m = (mask.astype(np.float32) / 255 * forca * a)[..., None]
+        out = (out * (1 - m) + camada * m).astype(np.uint8)
+    brilho = np.zeros_like(out)
+    for pts in linhas: cv2.polylines(brilho, [pts], True, (255, 255, 255), 10, cv2.LINE_AA, 2)
+    brilho = cv2.GaussianBlur(brilho, (0, 0), 7)
+    out = cv2.add(out, (brilho * (.7 * a)).astype(np.uint8))
+    for pts in linhas: cv2.polylines(out, [pts], True, (255, 255, 255), 3, cv2.LINE_AA, 2)
+    return out
 
 # ---------- textos ----------
 def fonte(p, n): return ImageFont.truetype(p, n)
@@ -133,65 +158,57 @@ def bandeira(c):
     return FLAGS[c]
 ISO2 = {k: v['properties']['ISO_A2_EH'].lower() for k, v in PA.items()}
 
-def legenda(tt):   # 1 a 3 palavras por vez, a atual em amarelo
+def legenda(tt):   # UMA palavra por vez, branca, no meio (como os videos de referencia)
     for k in range(NS):
-        a, b, d = SEG[k]; a0 = a + .0
+        a, b, d = SEG[k]
         if a <= tt < b:
-            pw = PAL[k]; i = max([j for j, w in enumerate(pw) if a0 + w[0] <= tt] or [0])
-            gs = [[0]]
-            for j in range(1, len(pw)):
-                if len(gs[-1]) >= 3 or pw[j][0] - pw[j - 1][1] > .2: gs.append([j])
-                else: gs[-1].append(j)
-            gi = next(g for g in gs if i in g); g0 = gi[0]; grupo = [pw[j] for j in gi]
-            if tt > a0 + pw[-1][1] + .25: return None
-            return [(w[2], g0 + j == i) for j, w in enumerate(grupo)]
+            pw = PAL[k]
+            if tt > a + pw[-1][1] + .2: return None
+            i = max([j for j, w in enumerate(pw) if a + w[0] <= tt] or [0])
+            return pw[i][2]
     return None
+EMOJI = ImageFont.truetype('/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf', 109); EMO = {}
+def emoji(ch, tam):
+    if ch not in EMO:
+        im = Image.new('RGBA', (160, 160)); ImageDraw.Draw(im).text((80, 80), ch.replace('\ufe0f', ''), font=EMOJI, embedded_color=True, anchor='mm'); EMO[ch] = im.crop(im.getbbox())
+    e = EMO[ch]; return e.resize((tam, int(tam * e.height / e.width)), Image.LANCZOS)
 
 def sobrepor(img, tt):
-    pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil)
-    k = max(i for i in range(NS) if SEG[i][0] <= tt or i == 0); a = SEG[k][0]
-    if k == 0:   # titulo do gancho
-        f = fonte(FB, 118); linhas = quebrar(R['title'], f, W - 110)
-        while max(f.getlength(l) for l in linhas) > W - 80: f = fonte(FB, f.size - 6); linhas = quebrar(R['title'], f, W - 110)
-        y = 200 - (len(linhas) - 1) * f.size * .3
-        for ln in linhas: texto_contorno(d, (W / 2, y), ln, f, (255, 214, 0), 12); y += f.size * 1.15
-    else:
-        it = R['items'][k - 1]; u = tt - a - VOO + .15
+    pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).convert('RGBA'); d = ImageDraw.Draw(pil)
+    k = max(i for i in range(NS) if SEG[i][0] - ANT <= tt or i == 0); a = SEG[k][0] - ANT
+    if k > 0:
+        it = R['items'][k - 1]; u = tt - a - VOO + .1
         if u > 0:
-            pop = min(1, u / .25); esc = 1 + .25 * (1 - pop) * math.sin(pop * math.pi)
-            # numero + texto grande no alto
-            f = caber(it['big'], FB, int(104 * esc), W - 100); texto_contorno(d, (W / 2, 260), it['big'], f, (255, 214, 0), 12)
-            fn = fonte(FB, 58); texto_contorno(d, (W / 2, 150), f'#{k}', fn, (255, 255, 255), 8)
-            # bandeira + nome no ponto
+            pop = min(1, u / .3); esc = 1 + .3 * math.sin(min(1, u / .3) * math.pi) * (1 - min(1, u / .3)) + .15 * math.sin(min(1, u / .3) * math.pi)
             lat0, lon0, s = camera(tt)
             if 'pin' in it: la, lo = it['pin']
             else: p = PA[it['hl'][0]]['properties']; la, lo = p['LABEL_Y'], p['LABEL_X']
             pp, cc = projetar(np.array([lo]), np.array([la]), lat0, lon0, s); x, y = pp[0]
-            x = min(max(x, 220), W - 220); y = min(max(y, 520), H - 760)
+            x = min(max(x, 230), W - 230); y = min(max(y, 480), H - 760)
             if 'pin' in it:
-                d.ellipse([x - 16, y - 16, x + 16, y + 16], fill=(230, 40, 40), outline=(255, 255, 255), width=5)
                 for rr in range(3):
                     raio = 16 + ((tt * 40 + rr * 25) % 75); al = int(255 * (1 - (raio - 16) / 75))
-                    d.ellipse([x - raio, y - raio, x + raio, y + raio], outline=(255, 255, 255, al), width=3)
-            nome = it.get('label') or PA[it['hl'][0]]['properties']['NAME']
-            fl = it['flag'] if 'flag' in it else ISO2.get(it['hl'][0], '')
-            fnm = fonte(FX, int(52 * min(1, pop * 1.2))) if pop > .1 else None
-            if fnm:
-                tw = fnm.getlength(nome); by = y + 60
-                d.rounded_rectangle([x - tw / 2 - 26, by - 40, x + tw / 2 + 26, by + 40], 40, fill=(255, 255, 255))
-                d.text((x, by), nome, font=fnm, fill=(20, 20, 20), anchor='mm')
-                if fl and os.path.exists(f'dados/flags/{fl}.png'):
-                    bw = int(190 * pop); bh = int(bw * .75)
-                    if bw > 10:
-                        b = bandeira(fl).resize((bw, bh), Image.LANCZOS); fx, fy = int(x - bw / 2), int(y - 40 - bh)
-                        d.rounded_rectangle([fx - 6, fy - 6, fx + bw + 6, fy + bh + 6], 10, fill=(255, 255, 255)); pil.paste(b, (fx, fy), b)
-    lg = legenda(tt)
-    if lg:
-        f = fonte(FB, 92); txt = ' '.join(w for w, _ in lg)
-        f = caber(txt, FB, 92, W - 100); x = W / 2 - f.getlength(txt) / 2; y = H - 560
-        for w, at in lg:
-            texto_contorno(d, (x, y), w, f, (255, 214, 0) if at else (255, 255, 255), 11, 'lm'); x += f.getlength(w + ' ')
-    return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
+                    d.ellipse([x - raio, y - raio, x + raio, y + raio], outline=(255, 255, 255, al), width=4)
+                d.ellipse([x - 15, y - 15, x + 15, y + 15], fill=(230, 40, 40), outline=(255, 255, 255), width=5)
+            nome = (it.get('label') or PA[it['hl'][0]]['properties']['NAME']).upper()
+            fnm = fonte(FX, 46); tw = fnm.getlength(nome); by = y + 70
+            al = int(255 * pop)
+            d.rounded_rectangle([x - tw / 2 - 24, by - 34, x + tw / 2 + 24, by + 34], 12, fill=(255, 255, 255, al), outline=(30, 30, 30, al), width=3)
+            d.text((x, by), nome, font=fnm, fill=(25, 25, 25, al), anchor='mm')
+            if it.get('icon'):   # icone do fato, ao lado do pais
+                tam = int(190 * esc * pop) if pop > .05 else 0
+                if tam > 8:
+                    e = emoji(it['icon'], tam); ex = int(min(W - e.width - 40, x + 70)); ey = int(max(380, y - e.height - 60))
+                    sombra = Image.new('RGBA', e.size, (0, 0, 0, 0)); sombra.putalpha(e.getchannel('A').point(lambda v: int(v * .5)))
+                    pil.alpha_composite(sombra.filter(ImageFilter.GaussianBlur(8)), (ex + 8, ey + 12)); pil.alpha_composite(e, (ex, ey))
+                    if it.get('nao'):   # proibido: circulo vermelho cortado
+                        r0 = max(e.width, e.height) * .62; cx0, cy0 = ex + e.width / 2, ey + e.height / 2; lw = max(6, int(tam * .07))
+                        d.ellipse([cx0 - r0, cy0 - r0, cx0 + r0, cy0 + r0], outline=(225, 30, 30, 255), width=lw)
+                        q = r0 * .7071; d.line([cx0 - q, cy0 - q, cx0 + q, cy0 + q], fill=(225, 30, 30, 255), width=lw)
+    w = legenda(tt)
+    if w:
+        f = caber(w, FB, 96, W - 120); texto_contorno(d, (W / 2, H * .68), w, f, (255, 255, 255), 9)
+    return cv2.cvtColor(np.array(pil.convert('RGB')), cv2.COLOR_RGB2BGR)
 
 def quebrar(txt, f, maxw):
     ws = txt.split(); ls = ['']
@@ -202,10 +219,10 @@ def quebrar(txt, f, maxw):
 
 def quadro(fi):
     tt = fi / FPS; lat0, lon0, s = camera(tt); img = terra(lat0, lon0, s)
-    k = max(i for i in range(NS) if SEG[i][0] <= tt or i == 0)
+    k = max(i for i in range(NS) if SEG[i][0] - ANT <= tt or i == 0)
     if k > 0:
-        it = R['items'][k - 1]; a = min(1, max(0, (tt - SEG[k][0] - VOO + .2) / .5))
-        img = desenhar_paises(img, it.get('hl2', []), (60, 60, 235), a, lat0, lon0, s)
+        it = R['items'][k - 1]; a = min(1, max(0, (tt - SEG[k][0] + ANT - VOO + .1) / .35))
+        img = desenhar_paises(img, it.get('hl2', []), (90, 90, 90), a, lat0, lon0, s, .55)
         img = desenhar_paises(img, it.get('hl', []), (0, 214, 255), a, lat0, lon0, s)
     img = sobrepor(img, tt)
     fad = min(1, tt / .3, (TOTAL - tt) / .3)
