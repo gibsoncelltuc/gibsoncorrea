@@ -12,11 +12,12 @@
    "texto": "Existe um animal no fundo do mar que não morre de velhice. Quando fica velho, ele simplesmente volta a ser bebê. E faz isso de novo, e de novo. Até o fim deste vídeo você vai entender como isso é possível. Mas antes, desça comigo. Porque lá embaixo vivem criaturas que parecem ter saído de outro planeta."
   },
   {
-   "modelo": "",
+   "modelo": "batiscafo_trieste",
    "rotulo": "",
    "prof": "200 m → 11.000 m",
-   "cam": "descida",
-   "texto": "O fundo do mar é o lugar menos explorado da Terra. Conhecemos melhor a superfície da Lua do que o fundo dos nossos oceanos. Lá não chega luz, o frio é de quase zero grau e a pressão esmagaria um carro. Mais de setenta por cento do fundo do oceano ainda não foi mapeado em detalhe. E cada vez que um robô desce até lá, aparece uma criatura que ninguém tinha visto. E mesmo assim, tem vida. Muita vida. Estas são as onze criaturas mais estranhas que já encontramos lá. E a última é a que vai mudar o que você pensa sobre a morte."
+   "cam": "passagem",
+   "texto": "O fundo do mar é o lugar menos explorado da Terra. Conhecemos melhor a superfície da Lua do que o fundo dos nossos oceanos. Lá não chega luz, o frio é de quase zero grau e a pressão esmagaria um carro. Mais de setenta por cento do fundo do oceano ainda não foi mapeado em detalhe. E cada vez que um robô desce até lá, aparece uma criatura que ninguém tinha visto. E mesmo assim, tem vida. Muita vida. Estas são as onze criaturas mais estranhas que já encontramos lá. E a última é a que vai mudar o que você pensa sobre a morte.",
+   "luz": 0.3
   },
   {
    "modelo": "peixe_diabo",

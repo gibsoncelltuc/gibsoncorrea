@@ -1,12 +1,4 @@
 duracao 480.5 s
-node:internal/modules/run_main:123
-    triggerUncaughtException(
-    ^
-
-page.evaluate: Target page, context or browser has been closed
-    at /home/user/gibsoncorrea/ferramenta-shorts/longos/render_longo.mjs:14:69
-    at async file:///home/user/gibsoncorrea/ferramenta-shorts/longos/render_longo.mjs:11:1 {
-  log: []
-}
-
-Node.js v22.23.5
+300/14290 quadros, 0.26 s/quadro/navegador
+600/14290 quadros, 0.21 s/quadro/navegador
+900/14290 quadros, 0.21 s/quadro/navegador
