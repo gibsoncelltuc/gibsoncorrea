@@ -13,10 +13,10 @@
    "texto": "Em 1960, dois homens desceram até o ponto mais fundo da Terra, dentro de uma esfera de aço do tamanho de uma geladeira. Quando chegaram lá embaixo, uma janela rachou. E o que eles viram pela outra janela mudou tudo o que a gente sabia sobre a vida. Hoje você vai fazer essa mesma viagem. Do sol da superfície até o fundo do abismo. E eu aviso: quanto mais fundo, mais assustador."
   },
   {
-   "modelo": "",
+   "modelo": "recife_coral",
    "rotulo": "ZONA DA LUZ",
    "prof": "0 → 200 m",
-   "cam": "descida",
+   "cam": "orbita",
    "luz": 1.0,
    "de": 0,
    "ate": 200,
@@ -50,10 +50,10 @@
    "texto": "Na fronteira entre o crepúsculo e a escuridão vive o animal que inspirou a lenda do Kraken: a lula-gigante. Ela pode ter o comprimento de um ônibus e olhos do tamanho de um prato. Esses olhos enormes servem para ver um único perigo no escuro: o brilho que o cachalote faz ao nadar, mexendo os bichinhos luminosos da água. Lula-gigante e cachalote travam uma guerra no escuro que nenhum ser humano jamais viu ao vivo."
   },
   {
-   "modelo": "",
+   "modelo": "peixe_vibora",
    "rotulo": "ZONA DA MEIA-NOITE",
    "prof": "1.000 → 4.000 m",
-   "cam": "descida",
+   "cam": "orbita",
    "luz": 0.12,
    "de": 1000,
    "ate": 4000,
@@ -68,30 +68,30 @@
    "texto": "Nessa escuridão, comida é rara. Por isso os caçadores daqui são feitos para não perder nenhuma chance. O peixe-diabo usa uma lanterna na cabeça como isca. Muitos peixes têm bocas enormes e estômagos que esticam, para engolir presas maiores que eles mesmos. Quando você não sabe quando vai comer de novo, você come tudo o que aparece."
   },
   {
-   "modelo": "",
+   "modelo": "fonte_hidrotermal",
    "rotulo": "FONTES HIDROTERMAIS",
    "prof": "2.500 m",
-   "cam": "descida",
+   "cam": "orbita",
    "luz": 0.07,
    "de": 2000,
    "ate": 2500,
    "texto": "Mas nem todo o fundo do mar é gelado. Em alguns lugares, o chão se abre e solta água a mais de trezentos e cinquenta graus. São as fontes hidrotermais. E em volta delas existe vida sem nenhuma luz do sol. Vermes de tubo do tamanho de uma pessoa, caranguejos brancos e camarões cegos vivem da energia química que sai das rochas. Alguns cientistas acham que a vida na Terra pode ter começado num lugar assim."
   },
   {
-   "modelo": "",
+   "modelo": "titanic_fundo",
    "rotulo": "O TITANIC",
    "prof": "3.800 m",
-   "cam": "descida",
+   "cam": "orbita",
    "luz": 0.06,
    "de": 3000,
    "ate": 3800,
    "texto": "No caminho para baixo, a três mil e oitocentos metros, passamos por um lugar famoso. É ali que está o Titanic. O navio afundou em 1912, mas só foi encontrado em 1985, setenta e três anos depois. Até hoje, os destroços estão sendo devorados por bactérias que comem ferro. Os cientistas calculam que, em algumas décadas, grande parte do casco pode desaparecer."
   },
   {
-   "modelo": "",
+   "modelo": "copo_isopor",
    "rotulo": "A PRESSÃO",
    "prof": "4.000 m",
-   "cam": "descida",
+   "cam": "close",
    "luz": 0.05,
    "de": 3800,
    "ate": 4000,

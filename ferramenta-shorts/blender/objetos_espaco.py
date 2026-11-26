@@ -13,18 +13,21 @@ def anel(c, r0, r1, col, lados=72): torno(c, [(r0, 0), (r1, 0)], col, lados=lado
 novo('saturno')
 planeta_faixas((0, 0, 0), 1.0, ['#c9b07a', '#d8c08a', '#e3cf9a', '#d9b97e', '#e8d6a6', '#cfae74', '#e2cc98', '#d6bb84', '#c4a46c', '#b89c66'])
 for r0, r1, col in [(1.25, 1.5, '#b9a684'), (1.52, 1.95, '#e0d2b0'), (1.99, 2.05, '#3a3428'), (2.07, 2.3, '#cbbd9c')]: anel((0, 0, 0), r0, r1, col)
-prisma((0, .995, 0), [(math.cos(a) * .32, math.sin(a) * .32) for a in [i * math.pi / 3 for i in range(6)]], .01, '#7f8f9a')   # o hexagono no polo (visto de cima)
+hx = [(.34 * math.cos(i * math.pi / 3), .945, .34 * math.sin(i * math.pi / 3)) for i in range(7)]; tubo(hx, .022, '#6f8796', passo=.6)   # o hexagono no polo: contorno colado na esfera
 fim(0)
 
 novo('encelado')
 planeta_faixas((0, 0, 0), 1.0, ['#e8f2f8', '#f4f8fb', '#ffffff', '#f2f7fa', '#e6eef4'], lados=32)
-for i in range(4): tubo([(-.3 + i * .2, -.98, 0), (-.35 + i * .25, -1.6, .05), (-.4 + i * .3, -2.3, .1)], .05 + .02 * i, '#dff3ff', passo=1.2)   # geiseres do polo sul
-for i in range(5): tubo([(-.6 + i * .3, -.6, .78), (-.55 + i * .3, -.3, .9)], .012, '#7fb6d6')   # listras de tigre
+import random; random.seed(7)
+for gx, gz in [(-.22, .1), (0, -.05), (.22, .12)]:   # jatos dos geiseres do polo sul: spray de graozinhos de gelo abrindo em leque
+    for k in range(40):
+        d = random.random() ** .7 * 1.3; sp = .04 + d * .22
+        bola((gx * (1 + d) + random.uniform(-sp, sp), -.96 - d, gz * (1 + d) + random.uniform(-sp, sp)), .018 + .012 * random.random(), '#e6f3fa', seg=6)
 fim(0)
 
 novo('tita')
 planeta_faixas((0, 0, 0), 1.0, ['#c47a2c', '#d78a34', '#e09a42', '#d58833', '#c27326'], lados=32)
-torno((0, 0, 0), [(.01, -1.08), (.75, -.8), (1.08, 0), (.75, .8), (.01, 1.08)], '#e9a44c', lados=32, tampa=False)   # nevoa da atmosfera
+torno((0, 0, 0), [(max(.01, 1.07 * math.cos(-math.pi / 2 + math.pi * j / 16)), 1.07 * math.sin(-math.pi / 2 + math.pi * j / 16)) for j in range(17)], '#e9a44c', lados=40, tampa=False)   # nevoa da atmosfera
 fim(0)
 
 novo('sonda_cassini')
