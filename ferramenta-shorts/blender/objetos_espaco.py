@@ -40,9 +40,17 @@ fim(.01)
 
 novo('plutao')
 planeta_faixas((0, 0, 0), 1.0, ['#8a6a55', '#a88a72', '#c9ab8f', '#bda087', '#9c7c64', '#7d5f4c'], lados=40)
-bola((.15, -.05, .93), .42, '#f3ead8', esc=(1.15, 1, .25))            # o coracao (Tombaugh Regio)
-bola((-.25, .05, .9), .32, '#efe3cc', esc=(1, 1.1, .25))
-bola((-.7, -.2, .55), .28, '#5a3e32', esc=(1, .7, .3))                 # Cthulhu (regiao escura)
+def mancha(cx, cy, dentro, col, passo=.055, r=.06):   # regiao colorida colada na superficie: graozinhos achatados na esfera (cx, cy = centro em angulos)
+    n = int(1 / passo)
+    for a in range(-n, n + 1):
+        for b in range(-n, n + 1):
+            u, v = a * passo, b * passo
+            if not dentro(u, v): continue
+            lo, la = cx + u, cy + v; d = (math.cos(la) * math.sin(lo), math.sin(la), math.cos(la) * math.cos(lo))
+            bola((d[0] * .975, d[1] * .975, d[2] * .975), r, col, seg=8)
+coracao = lambda u, v: ((u / .42) ** 2 + (v / .42 + .1) ** 2 - 1) ** 3 - (u / .42) ** 2 * (v / .42 + .1) ** 3 <= 0
+mancha(.25, -.05, coracao, '#f1e6d0')                                                    # o coracao (Tombaugh Regio)
+mancha(-.55, -.25, lambda u, v: (u / .42) ** 2 + (v / .17) ** 2 <= 1, '#4a2f26')         # Cthulhu, a baleia escura
 fim(0)
 
 novo('caronte')
