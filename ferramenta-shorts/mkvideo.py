@@ -2441,7 +2441,7 @@ _b0 = beats[0] if beats else {}
 if beats and not B.get('gancho_ok') and not any(_b0.get(k_) for k_ in ('text', 'fx', 'impact', 'batalha', 'explica', 'montado', 'veiculo', 'animals', 'hud', 'mapa')) and not _b0.get('props'):   # ordem do Gibson 24/11: IMPACTO nos 5 primeiros segundos
     _glob.append(('GANCHO sem impacto visual nos 5 primeiros segundos (cena 1 so com gente parada)', 'na cena 1: o objeto heroi em "props", "text" grande, "fx"/"impact", animal ou veiculo em acao - a imagem tem que surpreender junto com a frase'))
 _cl = __import__('collections').Counter(_lug(b_) for b_ in beats)
-if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < 3 or _cl.most_common(1)[0][1] > (len(beats) * 0.7 if B.get('gancho_tipo') else len(beats) // 2)):
+if len(beats) >= 6 and B.get('variar_cenario') is not False and (len(_cl) < (2 if B.get('gancho_tipo') else 3) or _cl.most_common(1)[0][1] > (len(beats) * 0.9 if B.get('gancho_tipo') else len(beats) // 2)):
     _glob.append((f'pouca variedade de cenario ({dict(_cl)}): o video fica parecendo todos os outros', 'pelo menos 3 lugares e nenhum em mais da metade das cenas: troque "set"/"interior" de algumas cenas (lugares: ' + ', '.join(SETS_X) + ' | interior: madeira, pedra, loja)'))
 # ===== v13 PADROES DO CANAL (roteiro): gancho sem data, 55 a 75 segundos =====
 if B.get('serie') != 'Teste':

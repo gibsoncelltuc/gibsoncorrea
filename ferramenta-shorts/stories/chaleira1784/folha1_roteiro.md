@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~4.1 s)
 - Narracao: Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: tiro -> burst + som de tiro/explosao
 - Efeito visual marcado: -
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~3.8 s)
 - Narracao: E dentro dela tinha sopa quente para o almoço da tripulação.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b8  (~4.1 s)
 - Narracao: Perderam o almoço, a sopa e a coragem. E foi assim que...
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: Perderam -> puff + som de baque
 - Efeito visual marcado: -

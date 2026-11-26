@@ -3,14 +3,14 @@
 Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
 
 ## b0: "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira."
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: COZ na esquerda, expressao shock; HOL na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "UM ÚNICO TIRO" flutuando no alto, na palavra 1 da frase
 
 ## b1: "E dentro dela tinha sopa quente para o almoço da tripulação."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -47,7 +47,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - SOM: cannon@105
 
 ## b6: "A bala destruiu a chaleira de sopa bem no meio do convés."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -63,7 +63,7 @@ Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, e
 - OBJETO kit/navio_fragata: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 42.6 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
 
 ## b8: "Perderam o almoço, a sopa e a coragem. E foi assim que..."
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
 - PERSONAGENS: COZ no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa

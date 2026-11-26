@@ -8,8 +8,7 @@
   "luz_base": "day",
   "cenarios": [
    "harbor",
-   "interior pedra",
-   "loc_campo"
+   "interior pedra"
   ],
   "cenarios_trocados": []
  },

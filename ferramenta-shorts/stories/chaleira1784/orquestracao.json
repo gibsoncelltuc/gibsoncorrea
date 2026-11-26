@@ -26,7 +26,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "group",
@@ -45,7 +45,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   },
   {
    "camera": "wide",
@@ -186,7 +186,7 @@
    "sujeito": "personagem",
    "briefing": {},
    "acoes_faltando": [],
-   "cenario": "loc_campo"
+   "cenario": "harbor"
   }
  ]
 }

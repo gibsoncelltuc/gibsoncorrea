@@ -6,7 +6,7 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 - Epoca: 1784 | Lugar: Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo | Quando: 8 de outubro de 1784, dia claro de outono
 - HEROIS (objeto): kit/kettle, kit/navio_fragata
 - HEROIS (personagens): COZ, IMP, HOL, GEN
-- Cenarios: harbor, interior pedra, loc_campo
+- Cenarios: harbor, interior pedra
 - Proibido pela epoca: caravela, carro antigo, carro dos anos 50, encouracado, escudo, galera a remo, navio a vapor, navio a vapor de guerra, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo a motor, veiculo moderno
 - Tamanho real aplicado: kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 1.0: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.8: pequeno demais); kit/navio_fragata: 30.0 m reais -> escala 7.06 (estava 0.7: pequeno demais)
 

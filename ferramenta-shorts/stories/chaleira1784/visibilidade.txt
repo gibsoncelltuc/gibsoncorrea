@@ -1,0 +1,1 @@
+VISIBILIDADE OK: objetos citados aparecem, nada tapando a camera, camera fora dos objetos (11 tomadas)

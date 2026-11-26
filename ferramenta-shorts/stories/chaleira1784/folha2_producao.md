@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/chaleira1784/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py chaleira1784` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): COZ (variante 0, expressao shock); HOL (variante 0, expressao grin)
@@ -14,16 +14,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: loc_campo; hora: day
-- CAMERA: plano medio, 2 personagens de corpo inteiro
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: COZ na esquerda, expressao shock; HOL na direita, expressao grin; sem multidao; acao: fala/gesto
-- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
 - TEXTO NA TELA: "UM ÚNICO TIRO" flutuando no alto, na palavra 1 da frase
 - TAKES: 1 take continuo (2.5 s), a camera desliza devagar do enquadramento inicial ao final
 <!-- /FICHA -->
 
 ## Cena b1 - E dentro dela tinha sopa quente para o almoço da tripulação.
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): IMP (variante 0, expressao surprised); COZ (variante 0, expressao scared)
@@ -34,7 +34,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -142,7 +142,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 11.5 m)
 - PERSONAGENS: IMP na esquerda, expressao surprised; COZ na direita, expressao scared; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, centro (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.8 m: entre e um pouco atras dos personagens, mesmo plano, tamanho de uma pessoa
@@ -173,7 +173,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 <!-- /FICHA -->
 
 ## Cena b8 - Perderam o almoço, a sopa e a coragem. E foi assim que...
-- Cenario: loc_campo | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): COZ (variante 0, expressao shock); HOL (variante 0, expressao grin)
@@ -206,7 +206,7 @@ cannon | b5 | pronto | conferir na folha de contato se le bem; se parecer caixot
 <!-- FICHA -->
 
 ### FICHA TECNICA DA CENA (lugar, camera, personagens, objetos, efeitos, texto)
-- LOCAL: sala de madeira; hora: day
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
 - CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)
 - PERSONAGENS: COZ no centro, expressao sad; sem multidao; acao: fala/gesto
 - OBJETO kit/kettle: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 1.5 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
