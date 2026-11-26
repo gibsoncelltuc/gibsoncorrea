@@ -3,9 +3,7 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b3: objeto citado "kit/cake_table" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-2. b3: objeto "kit/cake_table" saiu com 0% da altura da tela, a ficha de cena planejou 30%
-3. b3: objeto "kit/chest" saiu com 7% da altura da tela, a ficha de cena planejou 32%
+1. b3: objeto "kit/chest" saiu com 8% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "França e México entraram em guerra por causa de uma confeita": 
