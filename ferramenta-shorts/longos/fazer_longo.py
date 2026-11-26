@@ -27,3 +27,4 @@ nome = f'{D}/{S["id"]}' + ('_teste' if len(sys.argv) > 4 else '') + '.mp4'
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-start_number', str(f0), '-i', f'{D}/frames/f%05d.jpg', '-ss', str(ini), '-t', str((f1 - f0 + 1) / 30), '-i', f'{D}/audio.wav',
                 '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', nome], check=True)
 print('pronto', nome)
+if len(sys.argv) <= 4: import shutil; shutil.rmtree(f'{D}/frames', ignore_errors=True)   # disco: os quadros (~1,5 GB) saem depois do mp4 pronto
