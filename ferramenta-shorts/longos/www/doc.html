@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><script type="module">
+import * as THREE from './lib/three.module.js';
+import { GLTFLoader } from './lib/GLTFLoader.js';
+const W = 1920, H = 1080, FPS = 30;
+const SPEC = await (await fetch('spec.json?t=' + Date.now())).json();   // { blocos:[{modelo,rotulo,prof,cam,a,b,frases:[[a,b,txt]],escala,frio}], titulo }
+const ren = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); ren.setSize(W, H); ren.setPixelRatio(1);
+ren.outputColorSpace = THREE.SRGBColorSpace; ren.toneMapping = THREE.ACESFilmicToneMapping; ren.toneMappingExposure = 1.0;
+const out = document.createElement('canvas'); out.width = W; out.height = H; document.body.appendChild(out); const g = out.getContext('2d');
+const scene = new THREE.Scene(); scene.fog = new THREE.FogExp2(0x031424, 0.06);
+const cam = new THREE.PerspectiveCamera(38, W / H, 0.05, 200);
+const hemi = new THREE.HemisphereLight(0x6fb6ff, 0x02040a, 0.7); scene.add(hemi);
+const lamp = new THREE.SpotLight(0xdff4ff, 22, 30, 0.6, 0.7, 1.2); scene.add(lamp); scene.add(lamp.target);   // farol do submarino
+const rim = new THREE.DirectionalLight(0x3aa0ff, 1.4); rim.position.set(-3, 4, -5); scene.add(rim);
+// neve marinha
+const N = 2600, pos = new Float32Array(N * 3), rnd = (i) => { const x = Math.sin(i * 12.9898) * 43758.5453; return x - Math.floor(x); };
+for (let i = 0; i < N; i++) { pos[i * 3] = (rnd(i) - .5) * 30; pos[i * 3 + 1] = (rnd(i + 7) - .5) * 30; pos[i * 3 + 2] = (rnd(i + 13) - .5) * 30; }
+const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+const snow = new THREE.Points(pg, new THREE.PointsMaterial({ color: 0xcfe6ff, size: 0.035, transparent: true, opacity: .75, depthWrite: false })); scene.add(snow);
+// modelos
+const GLOW = (() => { const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d'), gr = x.createRadialGradient(64, 64, 0, 64, 64, 64); gr.addColorStop(0, 'rgba(255,255,255,1)'); gr.addColorStop(.25, 'rgba(255,255,255,.55)'); gr.addColorStop(1, 'rgba(255,255,255,0)'); x.fillStyle = gr; x.fillRect(0, 0, 128, 128); const t = new THREE.CanvasTexture(c); return t; })();
+const loader = new GLTFLoader(), MOD = {};
+for (const n of [...new Set(SPEC.blocos.map((b) => b.modelo).filter(Boolean))]) {
+  const gl = await new Promise((r, e) => loader.load(`assets/library/kit/${n}.glb`, r, undefined, e)); const o = gl.scene;
+  const box = new THREE.Box3().setFromObject(o), sz = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3()), k = 2.4 / Math.max(sz.x, sz.y, sz.z);
+  const piv = new THREE.Group(); o.position.sub(c); piv.add(o); piv.userData.k = k; piv.visible = false; scene.add(piv); MOD[n] = piv;
+  const glows = [];
+  o.traverse((m) => { if (m.isMesh && m.material) { m.material.roughness = .85; m.material.metalness = 0; const e = m.material.emissive; if (e && (e.r + e.g + e.b) > .05) { m.material.emissiveIntensity = 1.0; glows.push(m); } } });
+  for (const m of glows) { m.geometry.computeBoundingSphere(); const bs = m.geometry.boundingSphere, sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: GLOW, color: m.material.emissive.clone(), blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, opacity: .9 })); sp.position.copy(bs.center); sp.scale.setScalar(Math.max(.25, bs.radius * 5)); m.add(sp); }   /* bioluminescencia: halo de luz em volta de tudo que brilha */
+}
+const ease = (t) => t * t * (3 - 2 * t), cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lerp = (a, b, t) => a + (b - a) * t;
+const colA = new THREE.Color(0x0b4a73), colB = new THREE.Color(0x020812), colC = new THREE.Color(0x173a52), bg = new THREE.Color();
+function frame(f) {
+  const t = f / FPS, i = SPEC.blocos.findIndex((b) => t >= b.a && t < b.b), B = SPEC.blocos[i < 0 ? SPEC.blocos.length - 1 : i], u = cl((t - B.a) / Math.max(.1, B.b - B.a));
+  Object.values(MOD).forEach((m) => (m.visible = false));
+  const deep = B.cam === 'descida' ? u : 1; bg.copy(colA).lerp(B.frio ? colC : colB, deep); scene.background = bg; scene.fog.color.copy(bg);
+  let sp = 0.15, P = new THREE.Vector3(), L = new THREE.Vector3();
+  const m = MOD[B.modelo];
+  if (m) {
+    m.visible = true; const k = m.userData.k * (B.escala || 1); m.scale.setScalar(k * (1 + .02 * Math.sin(t * 2)));
+    m.position.set(0, .12 * Math.sin(t * 1.3), 0); m.rotation.set(.05 * Math.sin(t * .9), .25 * Math.sin(t * .35), .04 * Math.sin(t * 1.1));
+    if (B.cam === 'passagem') { m.position.x = lerp(-3.2, 3.2, u); m.rotation.y = 0; }
+    const R = B.cam === 'close' ? lerp(4.0, 3.1, ease(u)) : B.cam === 'passagem' ? 5.2 : 4.6, az = B.cam === 'orbita' ? lerp(-0.9, 0.9, u) : B.cam === 'passagem' ? 0 : lerp(-.35, .35, u);
+    P.set(Math.sin(az) * R + (B.cam === 'passagem' ? m.position.x * .45 : 0), .55 + .25 * Math.sin(t * .4), Math.cos(az) * R); L.set(B.cam === 'passagem' ? m.position.x * .7 : 0, 0, 0);
+  } else { P.set(0, 0, 5); L.set(0, -1, 0); sp = 1.6; }
+  cam.position.copy(P); cam.lookAt(L); lamp.position.copy(P).add(new THREE.Vector3(.6, .8, 0)); lamp.target.position.copy(L);
+  const a = snow.geometry.attributes.position; for (let j = 0; j < N; j++) { let y = pos[j * 3 + 1] + ((t * sp + rnd(j) * 3) % 30); a.array[j * 3 + 1] = ((y + 15) % 30) - 15; } a.needsUpdate = true;
+  ren.render(scene, cam);
+  g.drawImage(ren.domElement, 0, 0);
+  const fade = Math.min(cl((t - B.a) / .4), cl((B.b - t) / .4)); if (fade < 1) { g.fillStyle = `rgba(0,0,0,${1 - fade})`; g.fillRect(0, 0, W, H); }
+  // vinheta
+  const vg = g.createRadialGradient(W / 2, H / 2, H * .35, W / 2, H / 2, H * .95); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,.55)'); g.fillStyle = vg; g.fillRect(0, 0, W, H);
+  g.lineJoin = 'round';
+  const txt = (s, x, y, size, col, al = 'left', bw = 10) => { g.font = `900 ${size}px "Arial Black", Impact, sans-serif`; g.textAlign = al; g.lineWidth = bw; g.strokeStyle = '#000'; g.strokeText(s, x, y); g.fillStyle = col; g.fillText(s, x, y); };
+  const op = cl((t - B.a - .3) / .5);
+  if (B.rotulo && op > 0) { g.globalAlpha = op; const [num, ...rest] = B.rotulo.split(' '); txt(num, 70, 120, 74, '#ffd23a'); g.font = '900 74px "Arial Black"'; const w = g.measureText(num + ' ').width; txt(rest.join(' '), 70 + w, 120, 74, '#ffffff'); g.globalAlpha = 1; }
+  if (B.prof && op > 0) { g.globalAlpha = op; g.fillStyle = 'rgba(0,20,40,.65)'; g.fillRect(W - 430, 64, 360, 78); g.strokeStyle = '#59c8ff'; g.lineWidth = 4; g.strokeRect(W - 430, 64, 360, 78); txt('▼ ' + B.prof, W - 250, 120, 44, '#bfe9ff', 'center', 6); g.globalAlpha = 1; }
+  if (i === 1 && t - B.a < 5) { const o2 = Math.min(cl((t - B.a) / .5), cl((B.a + 5 - t) / .5)); g.globalAlpha = o2; txt(SPEC.titulo.toUpperCase(), W / 2, H / 2, 64, '#ffffff', 'center', 12); g.globalAlpha = 1; }
+  const fr = (B.frases || []).find((q) => t >= q[0] && t < q[1]);
+  if (fr) { const words = fr[2].split(' '), lines = ['']; g.font = '800 54px Arial, sans-serif'; for (const w of words) { const s = (lines[lines.length - 1] + ' ' + w).trim(); if (g.measureText(s).width > 1500) lines.push(w); else lines[lines.length - 1] = s; }
+    lines.forEach((l, k) => { const y = H - 70 - (lines.length - 1 - k) * 66; g.textAlign = 'center'; g.lineWidth = 12; g.strokeStyle = '#000'; g.strokeText(l, W / 2, y); g.fillStyle = '#fff'; g.fillText(l, W / 2, y); }); }
+}
+window.renderFrame = frame; window.getFrame = (q) => out.toDataURL('image/jpeg', q); window.ready = true;
+</script></body></html>
