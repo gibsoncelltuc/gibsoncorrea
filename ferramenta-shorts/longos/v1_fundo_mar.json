@@ -1,27 +1,101 @@
 {
  "id": "v1_fundo_mar",
  "titulo": "As Criaturas do Fundo do Mar que NÃO Deveriam Existir",
- "voz": "pt-BR-AntonioNeural", "rate": "+4%",
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "-3%",
  "blocos": [
-  {"modelo": "agua_viva_imortal", "rotulo": "", "prof": "", "cam": "close",
-   "texto": "Existe um animal no fundo do mar que não morre de velhice. Quando fica velho, ele simplesmente volta a ser bebê. E faz isso de novo, e de novo. Até o fim deste vídeo você vai entender como isso é possível. Mas antes, desça comigo. Porque lá embaixo vivem criaturas que parecem ter saído de outro planeta."},
-  {"modelo": "", "rotulo": "", "prof": "200 m → 11.000 m", "cam": "descida",
-   "texto": "O fundo do mar é o lugar menos explorado da Terra. Conhecemos melhor a superfície da Lua do que o fundo dos nossos oceanos. Lá não chega luz, o frio é de quase zero grau e a pressão esmagaria um carro. E mesmo assim, tem vida. Muita vida. Estas são as oito criaturas mais estranhas que já encontramos lá. E a última é a que vai mudar o que você pensa sobre a morte."},
-  {"modelo": "peixe_diabo", "rotulo": "8. PEIXE-DIABO", "prof": "1.000 m", "cam": "orbita",
-   "texto": "A mil metros de profundidade, tudo é escuro. Aí aparece uma luzinha balançando. Parece comida. Parece seguro. É uma armadilha. O peixe-diabo carrega na cabeça uma vara com uma lanterna viva, cheia de bactérias que brilham. Os peixes chegam perto da luz e somem dentro de uma boca cheia de dentes de vidro. Mas o mais estranho não é a caça. É o amor. Em várias espécies, o macho é minúsculo. Quando encontra uma fêmea, ele morde o corpo dela, e nunca mais solta. Os dois se fundem. O macho perde os olhos, perde os órgãos, vira só uma parte do corpo dela. Uma fêmea pode carregar vários maridos grudados para sempre."},
-  {"modelo": "peixe_barril", "rotulo": "7. PEIXE DE CABEÇA TRANSPARENTE", "prof": "700 m", "cam": "orbita",
-   "texto": "Agora imagine um peixe com a cabeça de vidro. Ele existe. O peixe-barril tem a frente da cabeça transparente, como uma cúpula. E aqueles dois pontos que parecem olhos? São narinas. Os olhos de verdade estão lá dentro: duas esferas verdes que giram para cima, para enxergar a comida contra a pouquíssima luz que vem da superfície. Por décadas, os cientistas só tinham visto esse peixe morto, todo amassado. Só em 2009 um robô conseguiu filmar um vivo, e aí entenderam o segredo da cabeça de vidro. Até aqui, estranho. Mas o próximo parece saído de um filme de terror."},
-  {"modelo": "tubarao_duende", "rotulo": "6. TUBARÃO-DUENDE", "prof": "1.300 m", "cam": "passagem",
-   "texto": "O tubarão-duende é rosa, tem um focinho comprido como uma lâmina e quase não é visto vivo. Quando ele ataca, a mandíbula inteira dispara para fora da cabeça, como um estilingue, e puxa a presa para dentro. Ele é chamado de fóssil vivo, porque a família dele vem de uma linhagem de mais de cem milhões de anos. Os dinossauros caminhavam na Terra, e os ancestrais dele já caçavam no escuro."},
-  {"modelo": "lula_vampira", "rotulo": "5. LULA-VAMPIRA DO INFERNO", "prof": "900 m", "cam": "orbita",
-   "texto": "O nome assusta: lula-vampira do inferno. Mas a história é outra. Ela não é lula, nem polvo. É a última sobrevivente de um grupo antigo. Vive numa camada do mar com tão pouco oxigênio que quase nada consegue respirar ali. E não chupa sangue de ninguém. Ela come a neve marinha, os restos que caem lá de cima. Quando se sente ameaçada, vira a própria capa do avesso e cobre o corpo. Parece monstro. É só um animal tentando sobreviver num lugar impossível. E então chegamos ao gigante que os marinheiros chamavam de monstro."},
-  {"modelo": "lula_gigante", "rotulo": "4. LULA-GIGANTE", "prof": "600 m", "cam": "passagem", "escala": 1.6,
-   "texto": "Por séculos, marinheiros contaram histórias do Kraken, um monstro com braços capazes de puxar um navio. A gente achava que era lenda. Era a lula-gigante. Ela pode passar de doze metros, o comprimento de um ônibus. E tem um dos maiores olhos do reino animal, do tamanho de um prato de jantar. Mesmo assim, ninguém tinha visto uma viva até 2004, quando cientistas japoneses tiraram as primeiras fotos. O primeiro vídeo só veio em 2012."},
-  {"modelo": "polvo_dumbo", "rotulo": "3. POLVO-DUMBO", "prof": "7.000 m", "cam": "close",
-   "texto": "Nem tudo lá embaixo é assustador. O polvo-dumbo tem duas nadadeiras que parecem as orelhas do elefante do desenho. Ele bate as orelhas devagar e flutua. E esse polvo fofo bateu um recorde: foi filmado a quase sete mil metros de profundidade. É o polvo que vive mais fundo de todos."},
-  {"modelo": "tubarao_groenlandia", "rotulo": "2. TUBARÃO-DA-GROENLÂNDIA", "prof": "ÁRTICO", "cam": "passagem", "frio": true,
-   "texto": "Agora, um animal que pode ser mais velho que o Brasil. O tubarão-da-groenlândia vive nas águas geladas do Ártico, nada devagar, quase parando, e cresce cerca de um centímetro por ano. Em 2016, cientistas estimaram a idade de um deles: entre 272 e 512 anos. Pode existir um tubarão nadando hoje que já era vivo quando Pedro Álvares Cabral chegou aqui. Quinhentos anos parece muito. Mas o último animal da lista não tem fim."},
-  {"modelo": "agua_viva_imortal", "rotulo": "1. ÁGUA-VIVA IMORTAL", "prof": "4,5 mm", "cam": "close",
-   "texto": "Ela tem o tamanho de uma unha. Quando fica velha, doente ou machucada, a água-viva imortal faz o que nenhum outro animal faz: volta no tempo. O corpo dela se transforma de novo na fase de bebê, gruda no fundo e recomeça a vida do zero. Na teoria, ela pode repetir isso para sempre. Ela não é invencível: pode ser comida ou pegar uma doença. Mas de velhice, ela não morre. E é por isso que o fundo do mar ainda guarda segredos que a gente nem imagina. Existe um animal lá embaixo que não morre de velhice."}
+  {
+   "modelo": "agua_viva_imortal",
+   "rotulo": "",
+   "prof": "",
+   "cam": "close",
+   "texto": "Existe um animal no fundo do mar que não morre de velhice. Quando fica velho, ele simplesmente volta a ser bebê. E faz isso de novo, e de novo. Até o fim deste vídeo você vai entender como isso é possível. Mas antes, desça comigo. Porque lá embaixo vivem criaturas que parecem ter saído de outro planeta."
+  },
+  {
+   "modelo": "",
+   "rotulo": "",
+   "prof": "200 m → 11.000 m",
+   "cam": "descida",
+   "texto": "O fundo do mar é o lugar menos explorado da Terra. Conhecemos melhor a superfície da Lua do que o fundo dos nossos oceanos. Lá não chega luz, o frio é de quase zero grau e a pressão esmagaria um carro. Mais de setenta por cento do fundo do oceano ainda não foi mapeado em detalhe. E cada vez que um robô desce até lá, aparece uma criatura que ninguém tinha visto. E mesmo assim, tem vida. Muita vida. Estas são as onze criaturas mais estranhas que já encontramos lá. E a última é a que vai mudar o que você pensa sobre a morte."
+  },
+  {
+   "modelo": "peixe_diabo",
+   "rotulo": "11. PEIXE-DIABO",
+   "prof": "1.000 m",
+   "cam": "orbita",
+   "texto": "A mil metros de profundidade, tudo é escuro. Aí aparece uma luzinha balançando. Parece comida. Parece seguro. É uma armadilha. O peixe-diabo carrega na cabeça uma vara com uma lanterna viva, cheia de bactérias que brilham. Os peixes chegam perto da luz e somem dentro de uma boca cheia de dentes de vidro. Mas o mais estranho não é a caça. É o amor. Em várias espécies, o macho é minúsculo. Quando encontra uma fêmea, ele morde o corpo dela, e nunca mais solta. Os dois se fundem. O macho perde os olhos, perde os órgãos, vira só uma parte do corpo dela. Uma fêmea pode carregar vários maridos grudados para sempre."
+  },
+  {
+   "modelo": "peixe_vibora",
+   "rotulo": "10. PEIXE-VÍBORA",
+   "prof": "1.500 m",
+   "cam": "orbita",
+   "texto": "Se o peixe-diabo assusta, o peixe-víbora assusta mais. Os dentes dele são tão grandes que não cabem dentro da boca. Eles ficam para fora, curvados, quase encostando nos olhos. Para engolir uma presa, ele abre a mandíbula num ângulo tão grande que a cabeça parece se desmontar. E na barriga, fileiras de pontinhos de luz piscam no escuro, chamando a próxima vítima."
+  },
+  {
+   "modelo": "peixe_barril",
+   "rotulo": "9. PEIXE DE CABEÇA TRANSPARENTE",
+   "prof": "700 m",
+   "cam": "orbita",
+   "texto": "Agora imagine um peixe com a cabeça de vidro. Ele existe. O peixe-barril tem a frente da cabeça transparente, como uma cúpula. E aqueles dois pontos que parecem olhos? São narinas. Os olhos de verdade estão lá dentro: duas esferas verdes que giram para cima, para enxergar a comida contra a pouquíssima luz que vem da superfície. Por décadas, os cientistas só tinham visto esse peixe morto, todo amassado. Só em 2009 um robô conseguiu filmar um vivo, e aí entenderam o segredo da cabeça de vidro. Até aqui, estranho. Mas o próximo parece saído de um filme de terror."
+  },
+  {
+   "modelo": "peixe_bolha",
+   "rotulo": "8. PEIXE-BOLHA",
+   "prof": "1.000 m",
+   "cam": "close",
+   "texto": "Você já viu essa cara. O peixe-bolha foi eleito o animal mais feio do mundo em 2013. Mas tem um detalhe que quase ninguém conta. Lá no fundo, com a pressão enorme do mar, ele parece um peixe normal. A cara de geleia triste só aparece quando ele é puxado para a superfície, e o corpo dele se desfaz sem a pressão. Ou seja: a gente transformou o peixe-bolha no animal mais feio do mundo."
+  },
+  {
+   "modelo": "tubarao_duende",
+   "rotulo": "7. TUBARÃO-DUENDE",
+   "prof": "1.300 m",
+   "cam": "passagem",
+   "texto": "O tubarão-duende é rosa, tem um focinho comprido como uma lâmina e quase não é visto vivo. Quando ele ataca, a mandíbula inteira dispara para fora da cabeça, como um estilingue, e puxa a presa para dentro. Ele é chamado de fóssil vivo, porque a família dele vem de uma linhagem de mais de cem milhões de anos. Os dinossauros caminhavam na Terra, e os ancestrais dele já caçavam no escuro. A maioria dos tubarões-duende conhecidos foi pescada por acidente, perto do Japão. Até hoje, quase ninguém viu um caçando de verdade."
+  },
+  {
+   "modelo": "lula_vampira",
+   "rotulo": "6. LULA-VAMPIRA DO INFERNO",
+   "prof": "900 m",
+   "cam": "orbita",
+   "texto": "O nome assusta: lula-vampira do inferno. Mas a história é outra. Ela não é lula, nem polvo. É a última sobrevivente de um grupo antigo. Vive numa camada do mar com tão pouco oxigênio que quase nada consegue respirar ali. E não chupa sangue de ninguém. Ela come a neve marinha, os restos que caem lá de cima. Quando se sente ameaçada, vira a própria capa do avesso e cobre o corpo. Parece monstro. É só um animal tentando sobreviver num lugar impossível. E então chegamos ao gigante que os marinheiros chamavam de monstro."
+  },
+  {
+   "modelo": "isopode_gigante",
+   "rotulo": "5. ISÓPODE-GIGANTE",
+   "prof": "2.000 m",
+   "cam": "orbita",
+   "texto": "Sabe aquele tatuzinho de jardim? Agora imagine um do tamanho de um gato. O isópode-gigante vive no fundo do mar comendo o que cai lá de cima, como baleias mortas. E ele aguenta a fome como nenhum outro animal. Num aquário do Japão, um isópode ficou mais de cinco anos sem comer nada. Os cuidadores ofereciam comida, e ele simplesmente recusava."
+  },
+  {
+   "modelo": "lula_gigante",
+   "rotulo": "4. LULA-GIGANTE",
+   "prof": "600 m",
+   "cam": "passagem",
+   "escala": 1.6,
+   "texto": "Por séculos, marinheiros contaram histórias do Kraken, um monstro com braços capazes de puxar um navio. A gente achava que era lenda. Era a lula-gigante. Ela pode passar de doze metros, o comprimento de um ônibus. E tem um dos maiores olhos do reino animal, do tamanho de um prato de jantar. Mesmo assim, ninguém tinha visto uma viva até 2004, quando cientistas japoneses tiraram as primeiras fotos. O primeiro vídeo só veio em 2012. E quem tem coragem de caçar um animal desses? O cachalote. Muitos cachalotes têm cicatrizes redondas na pele, marcas das ventosas de lulas-gigantes que lutaram até o fim."
+  },
+  {
+   "modelo": "polvo_dumbo",
+   "rotulo": "3. POLVO-DUMBO",
+   "prof": "7.000 m",
+   "cam": "close",
+   "texto": "Nem tudo lá embaixo é assustador. O polvo-dumbo tem duas nadadeiras que parecem as orelhas do elefante do desenho. Ele bate as orelhas devagar e flutua. E esse polvo fofo bateu um recorde: foi filmado a quase sete mil metros de profundidade. É o polvo que vive mais fundo de todos. Ele não persegue a comida. Engole inteiros os pequenos crustáceos e vermes que encontra no fundo, e segue flutuando."
+  },
+  {
+   "modelo": "tubarao_groenlandia",
+   "rotulo": "2. TUBARÃO-DA-GROENLÂNDIA",
+   "prof": "ÁRTICO",
+   "cam": "passagem",
+   "frio": true,
+   "texto": "Agora, um animal que pode ser mais velho que o Brasil. O tubarão-da-groenlândia vive nas águas geladas do Ártico, nada devagar, quase parando, e cresce cerca de um centímetro por ano. Em 2016, cientistas estimaram a idade de um deles: entre 272 e 512 anos. Para descobrir a idade, os cientistas estudaram o olho dele. O miolo do cristalino se forma antes do nascimento e nunca muda: é como um relógio guardado dentro do animal. Pode existir um tubarão nadando hoje que já era vivo quando Pedro Álvares Cabral chegou aqui. Quinhentos anos parece muito. Mas o último animal da lista não tem fim."
+  },
+  {
+   "modelo": "agua_viva_imortal",
+   "rotulo": "1. ÁGUA-VIVA IMORTAL",
+   "prof": "4,5 mm",
+   "cam": "close",
+   "texto": "Ela tem o tamanho de uma unha. Quando fica velha, doente ou machucada, a água-viva imortal faz o que nenhum outro animal faz: volta no tempo. O corpo dela se transforma de novo na fase de bebê, gruda no fundo e recomeça a vida do zero. Na teoria, ela pode repetir isso para sempre. Ela não é invencível: pode ser comida ou pegar uma doença. Mas de velhice, ela não morre. E é por isso que o fundo do mar ainda guarda segredos que a gente nem imagina. Existe um animal lá embaixo que não morre de velhice."
+  }
  ]
 }

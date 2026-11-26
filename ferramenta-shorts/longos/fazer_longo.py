@@ -3,7 +3,7 @@
 import json, subprocess, sys, os, re
 S = json.load(open(sys.argv[1])); D = sys.argv[2]; os.chdir(os.path.dirname(os.path.abspath(__file__)))
 dur = lambda p: float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
-GAP = 1.0; t = 0.0; blocos = []; lista = []
+GAP = 1.4; t = 0.0; blocos = []; lista = []
 for i, b in enumerate(S['blocos']):
     v = f'{D}/voz/b{i:02d}.mp3'; d = dur(v); a = t; t += d + GAP
     fr = [s.strip() for s in re.split(r'(?<=[.!?:])\s+', b['texto']) if s.strip()]
