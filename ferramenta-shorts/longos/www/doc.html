@@ -19,6 +19,9 @@ const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.Buf
 const snow = new THREE.Points(pg, new THREE.PointsMaterial({ color: 0xcfe6ff, size: 0.035, transparent: true, opacity: .75, depthWrite: false })); scene.add(snow);
 // modelos
 const GLOW = (() => { const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d'), gr = x.createRadialGradient(64, 64, 0, 64, 64, 64); gr.addColorStop(0, 'rgba(255,255,255,1)'); gr.addColorStop(.25, 'rgba(255,255,255,.55)'); gr.addColorStop(1, 'rgba(255,255,255,0)'); x.fillStyle = gr; x.fillRect(0, 0, 128, 128); const t = new THREE.CanvasTexture(c); return t; })();
+const ESP = SPEC.ambiente === 'espaco';
+if (ESP) { scene.fog = null; snow.material.size = .045; snow.material.opacity = .95; snow.material.color.set(0xffffff); for (let i = 0; i < N; i++) { const r = 60 + rnd(i + 3) * 40, th = rnd(i) * 6.283, ph = Math.acos(2 * rnd(i + 9) - 1); pos[i * 3] = r * Math.sin(ph) * Math.cos(th); pos[i * 3 + 1] = r * Math.cos(ph); pos[i * 3 + 2] = r * Math.sin(ph) * Math.sin(th); } snow.material.sizeAttenuation = false; snow.material.size = 1.6; pg.attributes.position.needsUpdate = true;
+  hemi.intensity = .12; lamp.intensity = 0; rim.intensity = 0; const sun = new THREE.DirectionalLight(0xfff1dc, 3.2); sun.position.set(6, 2, 4); scene.add(sun); }
 const loader = new GLTFLoader(), MOD = {};
 for (const n of [...new Set(SPEC.blocos.map((b) => b.modelo).filter(Boolean))]) {
   const gl = await new Promise((r, e) => loader.load(`assets/library/kit/${n}.glb`, r, undefined, e)); const o = gl.scene;
@@ -33,7 +36,7 @@ const colA = new THREE.Color(0x0b4a73), colB = new THREE.Color(0x020812), colC =
 function frame(f) {
   const t = f / FPS, i = SPEC.blocos.findIndex((b) => t >= b.a && t < b.b), B = SPEC.blocos[i < 0 ? SPEC.blocos.length - 1 : i], u = cl((t - B.a) / Math.max(.1, B.b - B.a));
   Object.values(MOD).forEach((m) => (m.visible = false));
-  const deep = B.luz !== undefined ? 1 - (B.de !== undefined && B.cam === 'descida' ? lerp(B.luz, B.luz * .4, u) : B.luz) : (B.cam === 'descida' ? u : 1); bg.copy(colA).lerp(B.frio ? colC : colB, deep); hemi.intensity = .25 + .6 * (1 - deep); scene.background = bg; scene.fog.color.copy(bg);
+  if (!ESP) { } const deep = ESP ? 1 : B.luz !== undefined ? 1 - (B.de !== undefined && B.cam === 'descida' ? lerp(B.luz, B.luz * .4, u) : B.luz) : (B.cam === 'descida' ? u : 1); if (!ESP) { bg.copy(colA).lerp(B.frio ? colC : colB, deep); scene.background = bg; scene.fog.color.copy(bg); hemi.intensity = .25 + .6 * (1 - deep); }
   let sp = 0.15, P = new THREE.Vector3(), L = new THREE.Vector3();
   const m = MOD[B.modelo];
   if (m) {
@@ -44,7 +47,8 @@ function frame(f) {
     P.set(Math.sin(az) * R + (B.cam === 'passagem' ? m.position.x * .45 : 0), .55 + .25 * Math.sin(t * .4), Math.cos(az) * R); L.set(B.cam === 'passagem' ? m.position.x * .7 : 0, 0, 0);
   } else { P.set(0, 0, 5); L.set(0, -1, 0); sp = 1.6; }
   cam.position.copy(P); cam.lookAt(L); lamp.position.copy(P).add(new THREE.Vector3(.6, .8, 0)); lamp.target.position.copy(L);
-  const a = snow.geometry.attributes.position; for (let j = 0; j < N; j++) { let y = pos[j * 3 + 1] + ((t * sp + rnd(j) * 3) % 30); a.array[j * 3 + 1] = ((y + 15) % 30) - 15; } a.needsUpdate = true;
+  if (ESP) { scene.background = new THREE.Color(0x01020a); snow.rotation.y = t * .004; } else {
+  const a = snow.geometry.attributes.position; for (let j = 0; j < N; j++) { let y = pos[j * 3 + 1] + ((t * sp + rnd(j) * 3) % 30); a.array[j * 3 + 1] = ((y + 15) % 30) - 15; } a.needsUpdate = true; }
   ren.render(scene, cam);
   g.drawImage(ren.domElement, 0, 0);
   const fade = Math.min(cl((t - B.a) / .4), cl((B.b - t) / .4)); if (fade < 1) { g.fillStyle = `rgba(0,0,0,${1 - fade})`; g.fillRect(0, 0, W, H); }

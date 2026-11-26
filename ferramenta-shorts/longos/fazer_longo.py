@@ -10,7 +10,7 @@ for i, b in enumerate(S['blocos']):
     tot = sum(len(x) for x in fr); c = a + .25; frases = []
     for x in fr: L = d * len(x) / tot; frases.append([round(c, 2), round(c + L, 2), x]); c += L
     blocos.append({**{k: b[k] for k in b if k != 'texto'}, 'a': round(a, 2), 'b': round(t, 2), 'frases': frases}); lista.append((v, a))
-json.dump({'titulo': S['titulo'], 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
+json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
 TOTAL = t; print('duracao', round(TOTAL, 1), 's')
 # audio: voz posicionada + fundo grave (drone) baixo
 inp = []; flt = []
