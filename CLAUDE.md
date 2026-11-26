@@ -87,22 +87,43 @@ Fila: `cd ferramenta-shorts && bash status.sh` | `bash run_queue.sh` (ids em `qu
 **Branch:** claude/bold-sagan-dskrsj
 
 **Recent commits:**
-- daaabe12 ckpt(jenkins1739): trecho 2
-- 87ccc06d ckpt(jenkins1739): trecho 1
-- b6ab9441 ckpt(jenkins1739): trecho 6
-- 7c32b025 ckpt(jenkins1739): trecho 5
-- f3aa9cb0 ckpt(jenkins1739): trecho 4
+- e793fe8d7 longos: roteiros v3 Saturno e v4 Plutao (8 min), modelos do espaco, ambiente espaco no renderizador, fila dos longos
+- 1b97f37b4 longo v2 (descida ao fundo do mar): roteiro, modelos e voz
+- 6dbb3fa7a longo v1: 11 criaturas (+peixe-vibora, peixe-bolha, isopode-gigante), 8 min, voz mais calma
+- 9866bfde3 longos 16:9: 8 criaturas do fundo do mar no Blender, renderizador de documentario (oceano escuro, neve marinha, bioluminescencia, legendas) e narracao do video 1
+- 845b63caf longos 16:9: plano (fundo do mar e espaco) e roteiro do video 1
 
-**In-progress files (2):**
-- ferramenta-shorts/mkvideo.py
-- ferramenta-shorts/teste_ferramenta.sh
+**In-progress files (30):**
+- ferramenta-shorts/longos/v1/render.log
+- ferramenta-shorts/longos/v2_descida.json
+- ferramenta-shorts/longos/www/doc.html
+- ferramenta-shorts/longos/www/spec.json
+- ferramenta-shorts/blender/objetos_fundo_mar4.py
+- ferramenta-shorts/longos/fila.log
+- ferramenta-shorts/longos/v1/spec_v1.json
+- ferramenta-shorts/longos/v1/v1_fundo_mar.mp4
+- ferramenta-shorts/longos/v2/render.log
+- ferramenta-shorts/longos/vt/fr.txt
+- ferramenta-shorts/longos/vt/v3_saturno_teste.mp4
+- ferramenta-shorts/longos/vt/voz/b00.mp3
+- ferramenta-shorts/longos/vt/voz/b01.mp3
+- ferramenta-shorts/longos/vt/voz/b02.mp3
+- ferramenta-shorts/longos/vt/voz/b03.mp3
+- ferramenta-shorts/longos/vt/voz/b04.mp3
+- ferramenta-shorts/longos/vt/voz/b05.mp3
+- ferramenta-shorts/longos/vt/voz/b06.mp3
+- ferramenta-shorts/longos/vt/voz/b07.mp3
+- ferramenta-shorts/longos/vt/voz/b08.mp3
+- ferramenta-shorts/longos/vt/voz/b09.mp3
+- ferramenta-shorts/longos/vt/voz/b10.mp3
+- [truncated — 8 more files]
 
 **Project reminders:**
 - Verify the file content before claiming an edit is done
 - Run tests before declaring task complete
 - Re-read CLAUDE.md if you're unsure of project conventions
 
-**Hook generated:** 2026-11-25 18:00:50 UTC
+**Hook generated:** 2026-11-26 03:33:09 UTC
 <!-- post-compact-recovery-end -->
 
 ## PASTA DE ENTREGA SEM MISTURA (ordem do Gibson 24/11)
