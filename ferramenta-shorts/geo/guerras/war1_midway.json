@@ -1,0 +1,304 @@
+{
+ "id": "war1_midway",
+ "title": "HOW THE USA WON THE PACIFIC IN 6 MINUTES",
+ "year": "JUNE 1942",
+ "sides": [
+  {
+   "name": "USA",
+   "flag": "us",
+   "cor": [
+    70,
+    140,
+    255
+   ]
+  },
+  {
+   "name": "JAPAN",
+   "flag": "jp",
+   "cor": [
+    235,
+    60,
+    60
+   ]
+  }
+ ],
+ "hook": "In just six minutes, America changed the entire war in the Pacific.",
+ "items": [
+  {
+   "say": "June 1942. Japan sends four aircraft carriers to capture Midway, a tiny American island.",
+   "view": [
+    27,
+    168,
+    9500
+   ],
+   "hl": [
+    "JPN"
+   ],
+   "pins": [
+    {
+     "ll": [
+      28.21,
+      -177.37
+     ],
+     "label": "MIDWAY"
+    }
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "kb",
+     "side": 1,
+     "n": 4,
+     "from": [
+      33.2,
+      135.5
+     ],
+     "to": [
+      30.6,
+      179.4
+     ],
+     "f0": 0.05,
+     "f1": 0.95
+    },
+    {
+     "type": "arrow",
+     "side": 1,
+     "from": [
+      33.2,
+      135.5
+     ],
+     "to": [
+      28.21,
+      -177.37
+     ],
+     "f0": 0.2,
+     "f1": 0.7
+    }
+   ]
+  },
+  {
+   "say": "But American codebreakers had secretly cracked Japan's messages.",
+   "view": [
+    24,
+    -160,
+    3500
+   ],
+   "hl": [],
+   "pins": [
+    {
+     "ll": [
+      21.35,
+      -157.97
+     ],
+     "label": "PEARL HARBOR"
+    }
+   ],
+   "icon": "🔓"
+  },
+  {
+   "say": "Three US carriers were already waiting, hidden near Midway.",
+   "view": [
+    26,
+    -168,
+    4200
+   ],
+   "pins": [
+    {
+     "ll": [
+      28.21,
+      -177.37
+     ],
+     "label": "MIDWAY"
+    }
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "tf",
+     "side": 0,
+     "n": 3,
+     "from": [
+      21.35,
+      -157.97
+     ],
+     "to": [
+      32.0,
+      -173.2
+     ],
+     "f0": 0.0,
+     "f1": 0.9
+    },
+    {
+     "type": "arrow",
+     "side": 0,
+     "from": [
+      21.35,
+      -157.97
+     ],
+     "to": [
+      32.0,
+      -173.2
+     ],
+     "f0": 0.05,
+     "f1": 0.6
+    }
+   ]
+  },
+  {
+   "say": "Japanese planes struck Midway first.",
+   "view": [
+    29.5,
+    -179,
+    1900
+   ],
+   "pins": [
+    {
+     "ll": [
+      28.21,
+      -177.37
+     ],
+     "label": "MIDWAY"
+    }
+   ],
+   "acts": [
+    {
+     "type": "planes",
+     "side": 1,
+     "n": 6,
+     "from": [
+      30.6,
+      179.4
+     ],
+     "to": [
+      28.21,
+      -177.37
+     ],
+     "f0": 0.0,
+     "f1": 0.6
+    },
+    {
+     "type": "boom",
+     "at": [
+      28.21,
+      -177.37
+     ],
+     "f": 0.62,
+     "n": 3
+    }
+   ]
+  },
+  {
+   "say": "Then American dive bombers found the Japanese fleet, with its decks full of fuel and bombs.",
+   "view": [
+    31,
+    -177.5,
+    1700
+   ],
+   "acts": [
+    {
+     "type": "planes",
+     "side": 0,
+     "n": 8,
+     "from": [
+      32.0,
+      -173.2
+     ],
+     "to": [
+      30.6,
+      179.4
+     ],
+     "f0": 0.0,
+     "f1": 0.85
+    }
+   ]
+  },
+  {
+   "say": "In about six minutes, three Japanese carriers were on fire.",
+   "view": [
+    30.6,
+    179.4,
+    700
+   ],
+   "acts": [
+    {
+     "type": "boom",
+     "ship": [
+      "kb",
+      0
+     ],
+     "f": 0.15
+    },
+    {
+     "type": "boom",
+     "ship": [
+      "kb",
+      1
+     ],
+     "f": 0.35
+    },
+    {
+     "type": "boom",
+     "ship": [
+      "kb",
+      2
+     ],
+     "f": 0.55
+    },
+    {
+     "type": "hud",
+     "value": 3,
+     "f": 0.6
+    }
+   ]
+  },
+  {
+   "say": "By nightfall, the fourth one was hit too.",
+   "view": [
+    30.6,
+    179.4,
+    900
+   ],
+   "acts": [
+    {
+     "type": "boom",
+     "ship": [
+      "kb",
+      3
+     ],
+     "f": 0.45
+    },
+    {
+     "type": "hud",
+     "value": 4,
+     "f": 0.5
+    }
+   ]
+  },
+  {
+   "say": "Japan lost four carriers. America lost one. The Pacific War had turned.",
+   "view": [
+    27,
+    168,
+    9500
+   ],
+   "hl": [
+    "JPN"
+   ],
+   "final": true
+  }
+ ],
+ "hud": {
+  "label": "JAPANESE CARRIERS LOST",
+  "total": 4
+ },
+ "placar": [
+  [
+   "JAPAN: -4 CARRIERS",
+   1
+  ],
+  [
+   "USA: -1 CARRIER",
+   0
+  ]
+ ]
+}

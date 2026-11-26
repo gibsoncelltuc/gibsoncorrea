@@ -10,7 +10,7 @@ async def um(txt, mp3):
             elif ch['type'] == 'WordBoundary': pal.append([ch['offset'] / 1e7, (ch['offset'] + ch['duration']) / 1e7, ch['text']])
     return pal
 async def main(rid):
-    R = json.load(open(f'roteiros/{rid}.json')); d = f'out/{rid}/voz'; os.makedirs(d, exist_ok=True)
+    R = json.load(open(f'roteiros/{rid}.json' if os.path.exists(f'roteiros/{rid}.json') else f'guerras/{rid}.json')); d = f'out/{rid}/voz'; os.makedirs(d, exist_ok=True)
     txts = [R['hook']] + [i['say'] for i in R['items']]; tudo = []
     for k, t in enumerate(txts):
         for tent in range(4):
