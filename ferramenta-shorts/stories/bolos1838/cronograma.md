@@ -1,6 +1,6 @@
 # CRONOGRAMA - Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Gerado em 25/11 23:52 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+Gerado em 26/11 00:01 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
 
 ## 1. Plano de cenas (o que cada frase vai mostrar)
 
@@ -9,7 +9,7 @@ Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado 
 b0 | simples | street | two | CON, OFI | - | cake_table, marco_ulua | - | França e México entraram em guerra por causa de uma confeitaria.
 b1 | simples | street | wide | CON, FRA | - | cake_table, marco_ulua | - | E a conta dos bolos nunca foi paga.
 b2 | simples | street | two | CON, OFI | - | shop, cake_table, marco_ulua, stall | - | Um confeiteiro francês tinha uma loja perto da Cidade do México.
-b3 | simples | interior loja | two | OFI, OFI | - | barrel_r, cake_table, chest | - | Ele disse que oficiais mexicanos entraram na loja e comeram os doces.
+b3 | simples | interior loja | wide | OFI | 32 | barrel_r, cake_table, chest | - | Ele disse que oficiais mexicanos entraram na loja e comeram os doces.
 b4 | simples | interior pedra | two | CON, REI | - | - | - | Pediu sessenta mil pesos. A loja valia menos de mil.
 b5 | simples | harbor | wide | FRA, FRA | 32 | marco_ulua, navios de guerra ao fundo, no tamanho real | - | Acontece que a França assumiu a briga e mandou navios de guerra.
 b6 | chave | harbor | crowd | FRA | 48 | cannon, marco_ulua | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | Canhões bombardearam a fortaleza, e soldados tomaram Veracruz.
@@ -21,10 +21,10 @@ b8 | simples | street | two | CON, OFI | - | cake_table | - | Esse dinheiro dos 
 N | Etapa | O que confere | Estado | Proximo passo
 ---|---|---|---|---
 1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
-2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (0/16 itens) | PENDENTE | python3 pesquisar.py bolos1838
-3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | REFAZER (a etapa anterior mudou) | 
-4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | BLOQUEADO (etapa anterior pendente) | corrigir o roteiro conforme a folha 2
-5 | Voz | narracao neural gerada e tempos por palavra | BLOQUEADO (etapa anterior pendente) | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (15/16 itens) | FEITO | 
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 1) | PENDENTE | corrigir o roteiro conforme a folha 2
+5 | Voz | narracao neural gerada e tempos por palavra | REFAZER (a etapa anterior mudou) | 
 6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | BLOQUEADO (etapa anterior pendente) | 
 7 | Gates | camera OK, todas as tomadas OK, estilo OK | BLOQUEADO (etapa anterior pendente) | 
 8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | BLOQUEADO (etapa anterior pendente) | 
@@ -35,5 +35,5 @@ N | Etapa | O que confere | Estado | Proximo passo
 13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | BLOQUEADO (etapa anterior pendente) | bash auditar_acoes.sh local bolos1838 <mp4>
 14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
 
-**Etapa atual:** 2. Pesquisa de campo
+**Etapa atual:** 4. Travas do roteiro
 

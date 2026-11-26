@@ -72,12 +72,11 @@
    "cenario": "street"
   },
   {
-   "camera": "two",
+   "camera": "wide",
    "personagens": [
-    "OFI",
     "OFI"
    ],
-   "multidao": 0,
+   "multidao": 32,
    "objetos": [
     "kit/barrel_r",
     "kit/cake_table",
