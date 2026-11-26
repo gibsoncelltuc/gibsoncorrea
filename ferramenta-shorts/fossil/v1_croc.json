@@ -2,7 +2,7 @@
  "id": "v1_croc",
  "pagina": "fossil.html",
  "titulo": "Could a Saltwater Crocodile Survive Every Prehistoric Era?",
- "voz": "en-US-AndrewNeural",
+ "voz": "en-US-AndrewMultilingualNeural",
  "rate": "-4%",
  "tiers": {
   "S": [
@@ -37,7 +37,7 @@
    "flora_m": 4.5,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -56,7 +56,7 @@
    "flora_m": 4.5,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -73,7 +73,7 @@
    "chao": "#4a4538",
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -105,7 +105,7 @@
    "chao": "#454035",
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -123,6 +123,12 @@
      "m": 0.1,
      "q": 14,
      "min": 0.06
+    },
+    {
+     "n": "real/Jaekelopterus",
+     "m": 2.5,
+     "q": 2,
+     "min": 0.4
     }
    ],
    "rotulo": "ORDOVICIAN & SILURIAN",
@@ -137,7 +143,7 @@
    "chao": "#4a4636",
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -164,7 +170,7 @@
    "flora_m": 9,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -198,7 +204,7 @@
    "nevoa": 0.022,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -225,7 +231,7 @@
    "flora_m": 4,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -252,13 +258,13 @@
    "flora_m": 10,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
     },
     {
-     "n": "allosaurus",
+     "n": "real/Dilophosaurus",
      "m": 9,
      "rotulo": "ALLOSAURUS",
      "tam": "30 FT"
@@ -279,19 +285,19 @@
    "flora_m": 4.5,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
     },
     {
-     "n": "deinosuchus",
+     "n": "real/Sarcosuchus",
      "m": 10,
      "rotulo": "DEINOSUCHUS",
      "tam": "33 FT"
     },
     {
-     "n": "trex",
+     "n": "real/RampagingT-Rex",
      "m": 12,
      "rotulo": "T. REX",
      "tam": "40 FT"
@@ -312,13 +318,13 @@
    "flora_m": 4.5,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
     },
     {
-     "n": "titanoboa",
+     "n": "real/Snake",
      "m": 13,
      "rotulo": "TITANOBOA",
      "tam": "42 FT"
@@ -336,13 +342,13 @@
    "chao": "#5a5440",
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
     },
     {
-     "n": "megalodon",
+     "n": "real/Megalodon",
      "m": 15,
      "rotulo": "MEGALODON",
      "tam": "50 FT"
@@ -363,13 +369,13 @@
    "flora_m": 6,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
     },
     {
-     "n": "megalania",
+     "n": "real/Komododragon",
      "m": 5.5,
      "rotulo": "MEGALANIA",
      "tam": "18 FT"
@@ -389,7 +395,7 @@
    "flora_m": 4.5,
    "modelos": [
     {
-     "n": "crocodilo",
+     "n": "real/Sarcosuchus",
      "m": 6,
      "rotulo": "SALTWATER CROC",
      "tam": "20 FT"
@@ -401,5 +407,5 @@
    "texto": "So here's the final list. The Pleistocene is S tier, because they literally survived it. The Carboniferous, the Triassic, the Jurassic and the Paleocene are A tier. The Devonian, the Cretaceous and the Miocene are B tier. The Permian is C, because of that extinction. And the Cambrian and the Ordovician are F, because there was simply nothing to eat. Saltwater crocodiles are survivors. They don't need to be the biggest animal around. They just need warm water and patience. Do you agree with this list? Which era do you think they would struggle in the most? Let me know in the comments."
   }
  ],
- "trilha": "cine"
+ "trilha": "orq"
 }

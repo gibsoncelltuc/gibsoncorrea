@@ -17,7 +17,11 @@ inp = []; flt = []
 for k, (v, a) in enumerate(lista): inp += ['-i', v]; flt.append(f'[{k}]adelay={int(a * 1000 + 250)}|{int(a * 1000 + 250)}[v{k}]')
 n = len(lista)
 flt.append(''.join(f'[v{k}]' for k in range(n)) + f'amix=inputs={n}:normalize=0[voz]')
-if S.get('trilha') == 'cine':
+if S.get('trilha') == 'orq':
+    import trilha_orq; trilha_orq.gerar(f'{D}/trilha.wav', TOTAL + 1, impactos=[b['b'] - 4.6 for b in blocos if b.get('tier')], blocos=[b['a'] for b in blocos], humor=S.get('humor', 'epico'), bpm=S.get('bpm', 84))
+    inp += ['-i', f'{D}/trilha.wav']; flt[-1] = flt[-1].replace('[voz]', ',highpass=f=70,equalizer=f=140:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=150:makeup=4,aecho=0.8:0.4:35:0.07[voz]')
+    flt.append(f'[{n}]volume=0.38[amb0];[voz]asplit[voz][sc];[amb0][sc]sidechaincompress=threshold=0.04:ratio=5:attack=20:release=350[amb]')
+elif S.get('trilha') == 'cine':
     import trilha_cine; trilha_cine.gerar(f'{D}/trilha.wav', TOTAL, blocos); inp += ['-i', f'{D}/trilha.wav']; flt.append(f'[{n}]volume=0.32[amb]')
 else: flt.append(f'sine=f=55:d={TOTAL}[s1];sine=f=82.5:d={TOTAL}[s2];anoisesrc=d={TOTAL}:c=brown:a=0.4[nz];[s1][s2][nz]amix=3,lowpass=f=300,volume=0.10,afade=t=in:d=2,afade=t=out:st={TOTAL - 3}:d=3[amb]')
 flt.append('[voz][amb]amix=2:normalize=0,loudnorm=I=-14:TP=-1.5[out]')
