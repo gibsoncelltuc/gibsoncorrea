@@ -91,7 +91,7 @@
    ],
    "shot_lock": true,
    "bloco": "promessa",
-   "say": "E a conta dos bolos nunca foi paga.",
+   "say": "E a conta dos bolos nunca foi paga de verdade.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -118,21 +118,22 @@
    "impact": false,
    "batalha": false,
    "bloco": "prova",
-   "say": "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "say": "Um confeiteiro francês tinha uma doceria perto da Cidade do México.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
      {
       "faz": "mostra",
-      "na": "loja"
+      "na": "confeiteiro"
      }
     ]
    }
   },
   {
-   "shot": "wide",
+   "shot": "two",
    "who": [
-    "OFI:0:grin"
+    "OFI:0:grin",
+    "OFI:1:laugh"
    ],
    "interior": "loja",
    "fx": [
@@ -145,29 +146,20 @@
     [
      "kit/cake_table",
      0.0,
-     -8.0,
-     1.7,
-     {
-      "fixo": true
-     }
+     1.0,
+     1.7
     ],
     [
      "kit/chest",
-     3.6,
-     -2.0,
-     1.1,
-     {
-      "fixo": true
-     }
+     -1.2,
+     1.4,
+     1.1
     ],
     [
      "kit/barrel_r",
-     -3.6,
-     -2.0,
-     1.0,
-     {
-      "fixo": true
-     }
+     1.4,
+     1.6,
+     1.0
     ]
    ],
    "acao": "pega",
@@ -182,42 +174,7 @@
       "na": "mexicanos"
      }
     ]
-   },
-   "fachada": false,
-   "crowd": {
-    "n": 0
-   },
-   "_enq_shot": "wide",
-   "detalhe": false,
-   "quadro": {
-    "local": "loja / taverna",
-    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cake_table (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente",
-    "objetos": [
-     {
-      "objeto": "kit/cake_table",
-      "lugar": "FUNDO, centro (objeto principal da cena)",
-      "tela": "30% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/chest",
-      "lugar": "MEIO, direita",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     },
-     {
-      "objeto": "kit/barrel_r",
-      "lugar": "MEIO, esquerda",
-      "tela": "32% da altura da tela",
-      "estado": "parado"
-     }
-    ]
-   },
-   "cx": 0.0,
-   "cz": -3.6,
-   "h": 2.4,
-   "d0": 11.2,
-   "d1": 10.7
+   }
   },
   {
    "shot": "two",
@@ -312,7 +269,7 @@
    "text": "600.000",
    "interior": "pedra",
    "bloco": "pagamento",
-   "say": "O México prometeu pagar, e a França foi embora.",
+   "say": "O México prometeu pagar a conta, e a França foi embora.",
    "encena": {
     "sentido": "afirmativa",
     "passos": [
@@ -394,6 +351,5 @@
  "min_momentos": 1,
  "gancho_tipo": "segredo",
  "gancho_cumprido": "Gancho: Franca e Mexico entraram em guerra por uma confeitaria e a conta nunca foi paga. Pagamento: o confeiteiro pediu 60 mil pesos, a Franca bloqueou os portos e tomou Veracruz; o Mexico prometeu pagar.",
- "loop_frase_ok": true,
- "max_wide": 4
+ "loop_frase_ok": true
 }

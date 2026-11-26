@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 91 palavras (~31 s)
+Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street | 9 cenas, 95 palavras (~33 s)
 
 ## Cena b0  (~3.8 s)
 - Narracao: França e México entraram em guerra por causa de uma confeitaria.
@@ -11,8 +11,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: GUERRA DOS BOLOS
 - Funcao na historia: GANCHO
 
-## Cena b1  (~2.8 s)
-- Narracao: E a conta dos bolos nunca foi paga.
+## Cena b1  (~3.4 s)
+- Narracao: E a conta dos bolos nunca foi paga de verdade.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -21,7 +21,7 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: desenvolvimento
 
 ## Cena b2  (~3.8 s)
-- Narracao: Um confeiteiro francês tinha uma loja perto da Cidade do México.
+- Narracao: Um confeiteiro francês tinha uma doceria perto da Cidade do México.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: -
@@ -65,8 +65,8 @@ Voz: pt-BR-AntonioNeural +20% | Clima do video: playful | Cenario base: street |
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b7  (~3.1 s)
-- Narracao: O México prometeu pagar, e a França foi embora.
+## Cena b7  (~3.8 s)
+- Narracao: O México prometeu pagar a conta, e a França foi embora.
 - Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: pagar -> stars + som de sino

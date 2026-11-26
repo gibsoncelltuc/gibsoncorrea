@@ -31,6 +31,7 @@
  ],
  "proibido_pelo_roteiro": [],
  "objetos_em_cena": [
+  "buildings/house_two",
   "buildings/shop",
   "cannon",
   "kit/barrel_r",
@@ -40,12 +41,12 @@
   "kit/navio_fragata",
   "kit/room_colonial_shop",
   "kit/room_europa_stone",
-  "kit/stall",
   "mk/Barrel",
   "mk/Bed_Twin1",
   "mk/Cabinet",
   "mk/CandleStick_Stand",
-  "mk/Nightstand_Shelf"
+  "mk/Nightstand_Shelf",
+  "nature/lamppost"
  ],
  "pesquisa_visual": {
   "local": "Tacubaya",

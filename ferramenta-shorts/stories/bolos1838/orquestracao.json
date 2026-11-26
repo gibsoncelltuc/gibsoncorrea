@@ -40,9 +40,9 @@
     "kit/cake_table",
     "kit/marco_ulua"
    ],
-   "palavras": 8,
+   "palavras": 10,
    "cena": "b1",
-   "frase": "E a conta dos bolos nunca foi paga.",
+   "frase": "E a conta dos bolos nunca foi paga de verdade.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -57,14 +57,14 @@
    ],
    "multidao": 0,
    "objetos": [
-    "buildings/shop",
+    "buildings/house_two",
     "kit/cake_table",
     "kit/marco_ulua",
-    "kit/stall"
+    "nature/lamppost"
    ],
    "palavras": 11,
    "cena": "b2",
-   "frase": "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
+   "frase": "Um confeiteiro francês tinha uma doceria perto da Cidade do México.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},
@@ -72,11 +72,12 @@
    "cenario": "street"
   },
   {
-   "camera": "wide",
+   "camera": "two",
    "personagens": [
+    "OFI",
     "OFI"
    ],
-   "multidao": 32,
+   "multidao": 0,
    "objetos": [
     "kit/barrel_r",
     "kit/cake_table",
@@ -161,9 +162,9 @@
    ],
    "multidao": 0,
    "objetos": [],
-   "palavras": 9,
+   "palavras": 11,
    "cena": "b7",
-   "frase": "O México prometeu pagar, e a França foi embora.",
+   "frase": "O México prometeu pagar a conta, e a França foi embora.",
    "classe": "simples",
    "sujeito": "personagem",
    "briefing": {},

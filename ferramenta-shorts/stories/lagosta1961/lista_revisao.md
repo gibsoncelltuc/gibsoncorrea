@@ -3,12 +3,11 @@
 Regra: olhar o storyboard/frase_a_frase INTEIRO e completar esta lista toda ANTES de devolver. Quem refaz corrige todos os itens de uma vez.
 
 ## Achados automaticos (ferramenta)
-1. b8: personagem CORTADO na borda do quadro (boneco grande saindo da tela)
-2. b2: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
-3. b0: objeto "kit/lobster" saiu com 10% da altura da tela, a ficha de cena planejou 32%
-4. b1: objeto "kit/lobster" saiu com 11% da altura da tela, a ficha de cena planejou 32%
-5. b2: objeto "boat" saiu com 8% da altura da tela, a ficha de cena planejou 30%
-6. b8: objeto "kit/lobster" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+1. b2: objeto citado "boat" nao aparece na tela (escondido, fora do quadro ou pequeno demais)
+2. b0: objeto "kit/lobster" saiu com 10% da altura da tela, a ficha de cena planejou 32%
+3. b1: objeto "kit/lobster" saiu com 11% da altura da tela, a ficha de cena planejou 32%
+4. b2: objeto "boat" saiu com 8% da altura da tela, a ficha de cena planejou 30%
+5. b8: objeto "kit/lobster" saiu com 9% da altura da tela, a ficha de cena planejou 32%
 
 ## Achados do olho (uma linha por frase: OK ou DEFEITO + o que fazer)
 - f0 "Brasil e França quase entraram em guerra por causa de lagost": 

@@ -23,15 +23,15 @@
   [
    9,
    "promessa",
-   "E a conta dos bolos nunca foi paga.",
+   "E a conta dos bolos nunca foi paga de verdade.",
    "conta",
    {}
   ],
   [
    1,
    "prova",
-   "Um confeiteiro francês tinha uma loja perto da Cidade do México.",
-   "loja",
+   "Um confeiteiro francês tinha uma doceria perto da Cidade do México.",
+   "confeiteiro",
    {}
   ],
   [
@@ -69,7 +69,7 @@
   [
    8,
    "pagamento",
-   "O México prometeu pagar, e a França foi embora.",
+   "O México prometeu pagar a conta, e a França foi embora.",
    "prometeu",
    {}
   ],
