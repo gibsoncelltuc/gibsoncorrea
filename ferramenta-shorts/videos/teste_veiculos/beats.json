@@ -1,0 +1,76 @@
+{
+ "title": "Teste de Veiculos",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "director": false,
+ "outfits": {
+  "CID": {
+   "jacket": "#3b6fb5",
+   "pants": "#2d3550",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#4a3020"
+  },
+  "SOL": {
+   "jacket": "#6f7a3d",
+   "pants": "#5d6733",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#5d6733",
+   "rifle": true
+  }
+ },
+ "beats": [
+  {
+   "say": "Um homem dirigia seu carro vermelho pela avenida.",
+   "shot": "two",
+   "who": [],
+   "veiculo": {
+    "asset": "vehicles/car",
+    "de": -3,
+    "para": 3,
+    "z": 1.5,
+    "motorista": "CID:0:smile"
+   }
+  },
+  {
+   "say": "Do outro lado vinha um táxi amarelo, com pressa.",
+   "shot": "two",
+   "who": [],
+   "veiculo": {
+    "asset": "vehicles/taxi",
+    "de": 3,
+    "para": -3,
+    "z": 1.5,
+    "motorista": "CID:5:stern"
+   }
+  },
+  {
+   "say": "No quartel, o jipe e o caminhão esperavam os soldados.",
+   "shot": "two",
+   "who": [],
+   "veiculo": {
+    "asset": "vehicles/jeep",
+    "de": -2,
+    "para": 2,
+    "z": 1.5,
+    "motorista": "SOL:0:stern"
+   },
+   "props": [
+    [
+     "vehicles/truck",
+     1.0,
+     -3.5,
+     1.0,
+     {
+      "ry": 1.2
+     }
+    ]
+   ]
+  }
+ ],
+ "exp": 1.0
+}

@@ -1,0 +1,84 @@
+{
+ "id": "arquimedes250",
+ "titulo": "Curiosidade e Ciência EP 02 - Arquimedes e o Eureca",
+ "ancoras": {
+  "ano": -250,
+  "era": "historica",
+  "regiao": "classico",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "medieval"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "fragata a vela",
+  "globo de mesa (o mais antigo e de 1492)",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/castle_tower",
+  "buildings/house_small",
+  "kit/bathtub",
+  "kit/coroa_louros",
+  "kit/room_classico_stone",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra, banhos publicos, mar Mediterraneo",
+  "quando": "cerca de 250 a.C., de dia; a historia vem do escritor romano Vitruvio, que contou mais de cem anos depois",
+  "participantes": [
+   "Arquimedes, sabio de Siracusa",
+   "rei Hierao II",
+   "o ourives da coroa",
+   "moradores de Siracusa"
+  ],
+  "roupas": {
+   "ARQ": "tunica (quiton) grega clara e sandalias, barba",
+   "REI": "tunica e manto roxo com coroa de louros de ouro",
+   "OUR": "artesao de tunica simples e avental de couro",
+   "POV": "moradores gregos de tunica"
+  },
+  "cenario": "rua grega antiga com casas de pedra e colunas, sala de banho publico com banheira de pedra, palacio com colunas",
+  "objetos": [
+   "coroa de ouro (de louros)",
+   "banheira",
+   "balanca de pratos",
+   "barra de ouro"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eureka_(word)",
+   "https://en.wikipedia.org/wiki/Archimedes"
+  ],
+  "explicacoes": [
+   "Principio do deslocamento: um corpo mergulhado desloca um volume de agua igual ao seu proprio volume (Vitruvio, De Architectura, livro IX). Prata e menos densa que o ouro: uma coroa com prata no mesmo peso tem volume maior e desloca mais agua."
+  ],
+  "buscas": {
+   "banheira": "ancient greek bathtub terracotta",
+   "bathtub": "ancient greek bathtub terracotta",
+   "coroa de ouro (de louros)": "gold laurel wreath ancient greek",
+   "balanca de pratos": "ancient balance scale",
+   "barra de ouro": "gold ingot ancient"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

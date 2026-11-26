@@ -1,0 +1,216 @@
+{
+ "id": "newton1666",
+ "ano": 1666,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "group",
+   "personagens": [
+    "NEW"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/apple",
+    "kit/lua_ceu"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Uma maçã que não caiu na cabeça de Newton mudou tudo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "NEW"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/apple"
+   ],
+   "palavras": 12,
+   "cena": "b1",
+   "frase": "Ela explicou por que a Lua não cai em cima da gente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EST"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1666, a peste fechou a universidade de Cambridge.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NEW",
+    "MAE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Isaac Newton, de 23 anos, voltou para a fazenda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "NEW",
+    "AMI"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/apple",
+    "nature/tree_oak"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Ficava debaixo de uma macieira, pensando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NEW",
+    "AMI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/apple",
+    "nature/tree_oak"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que uma maçã caiu bem na frente dele.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "NEW"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/apple",
+    "nature/tree_oak"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Ele se perguntou: por que ela cai sempre para baixo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/lua_ceu"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Se a força puxa a maçã, puxa a Lua também?",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/lua_ceu (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NEW"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Isso virou a lei da gravidade de Newton.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "NEW"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/apple",
+    "kit/lua_ceu"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "E a maçã nem foi comida. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

@@ -1,0 +1,610 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 18,
+ "title": "Os Primeiros Passageiros do Céu",
+ "titulo_base": "Os Primeiros Passageiros do Céu",
+ "set": "medieval",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/balloon",
+ "outfits": {
+  "JOS": {
+   "profissao": "comerciante",
+   "hair": "#e8e4da",
+   "hat": "hair"
+  },
+  "ETI": {
+   "profissao": "comerciante",
+   "hair": "#d8d4ca",
+   "hat": "hair",
+   "jacket": "#5a2a2a"
+  },
+  "REI": {
+   "profissao": "rei"
+  },
+  "RAI": {
+   "jacket": "#d98ab0",
+   "pants": "#d98ab0",
+   "boots": "#f4f1e8",
+   "hat": "hair",
+   "hair": "#f4f1e8",
+   "hairStyle": "bun"
+  },
+  "NOB": {
+   "profissao": "nobre"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "slouch",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "JOS:0:grin"
+   ],
+   "animals": [
+    [
+     "sheep",
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
+     1.6,
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -19.3,
+     8.22,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "street",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "gancho",
+   "say": "Os primeiros passageiros de um balão não foram pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   },
+   "text": "OVELHA, PATO E GALO",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "JOS:0:smile"
+   ],
+   "animals": [
+    [
+     "sheep",
+     -0.9,
+     -1.3,
+     "stand",
+     1.5
+    ],
+    [
+     "duck",
+     0.9,
+     -1.4,
+     "stand",
+     1.5
+    ],
+    [
+     "rooster",
+     0.0,
+     -1.6,
+     "stand",
+     1.5
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -4.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "loc_campo",
+   "cx": 0.4,
+   "cz": -2.0,
+   "h": 1.4,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true,
+   "bloco": "promessa",
+   "say": "Foram uma ovelha, um pato e um galo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ovelha"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "FRANÇA",
+   "mapa_at": 3,
+   "set": "street",
+   "bloco": "prova",
+   "say": "Em 1783, os irmãos Montgolfier faziam papel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Montgolfier"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "JOS:0:surprised",
+    "ETI:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/campfire",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@40"
+   ],
+   "interior": "madeira",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Viram que fumaça quente fazia sacos de papel subirem.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -8.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/fire",
+     0.0,
+     -5.8,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/campfire",
+     0.0,
+     -5.8,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "set": "loc_campo",
+   "fx": [
+    "puff@40"
+   ],
+   "explica": {
+    "objeto": "kit/balloon",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "AR QUENTE SOBE",
+      "topo",
+      "quente"
+     ],
+     [
+      "BALAO DE PANO E PAPEL",
+      "baixo",
+      "balão"
+     ]
+    ]
+   },
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Fizeram um balão gigante de pano e papel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NOB:0:suspicious",
+    "ETI:0:nervous"
+   ],
+   "acao": "discutir",
+   "interior": "madeira",
+   "bloco": "escalada",
+   "say": "Ninguém sabia se dava para respirar lá em cima.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "respirar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:shock"
+   ],
+   "props": [
+    [
+     "kit/balloon_air",
+     0.0,
+     -8.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "ding@50"
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "medieval",
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 9.0,
+   "d0": 26.0,
+   "d1": 24.0,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Acontece que o balão subiu de verdade, com os bichos dentro.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ETI:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -9.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": false,
+   "set": "jungle",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "animals": [
+    [
+     "sheep",
+     1.2,
+     0.3
+    ],
+    [
+     "duck",
+     -1.2,
+     0.4
+    ],
+    [
+     "rooster",
+     -1.8,
+     0.8
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.5,
+   "h": 1.8,
+   "d0": 9.0,
+   "d1": 8.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Oito minutos depois, pousou, e os bichos estavam vivos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:shock",
+    "POV:1:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/balloon_air",
+     1.0,
+     -16.0,
+     4.5,
+     {
+      "fixo": true,
+      "y": 6.5
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "SOBRE PARIS",
+   "titulo": true,
+   "fachada": false,
+   "detalhe": false,
+   "set": "street",
+   "cx": 0.5,
+   "cz": -6.0,
+   "h": 1.4,
+   "d0": 20.0,
+   "d1": 17.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "pagamento",
+   "say": "Dois meses depois, um balão levou dois homens.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balão"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ETI:0:smile"
+   ],
+   "animals": [
+    [
+     "sheep",
+     -1.6,
+     1.2,
+     "stand",
+     0.9
+    ],
+    [
+     "duck",
+     0.0,
+     1.6,
+     "stand",
+     0.9
+    ],
+    [
+     "rooster",
+     1.6,
+     1.2,
+     "stand",
+     0.9
+    ]
+   ],
+   "props": [
+    [
+     "kit/balloon",
+     0.0,
+     -9.0,
+     4.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "countryside",
+   "cx": 0.0,
+   "cz": -3.0,
+   "h": 2.4,
+   "d0": 13.0,
+   "d1": 12.0,
+   "quadro_manual": true,
+   "bloco": "loop",
+   "say": "Ninguém quis ser cobaia. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Ninguém"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 0.81,
+ "visual": {
+  "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",
+  "quando": "19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris",
+  "participantes": [
+   "Joseph e Etienne Montgolfier (casaca, peruca empoada)",
+   "rei Luis XVI e Maria Antonieta",
+   "cortesaos e multidao",
+   "ovelha, pato e galo"
+  ],
+  "roupas": {
+   "JOS": "casaca marrom e peruca do seculo 18",
+   "ETI": "casaca azul e peruca",
+   "REI": "casaca dourada e manto real",
+   "NOB": "roupa de corte com peruca",
+   "POV": "roupas do povo do seculo 18"
+  },
+  "cenario": "patio de Versalhes com o palacio ao fundo, balao azul e dourado decorado, multidao; bosque de Vaucresson; fabrica de papel",
+  "objetos": [
+   "balao de papel e pano azul com ornamentos dourados",
+   "cesto de vime com os animais",
+   "fogueira de palha"
+  ],
+  "explicacoes": [
+   "Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+   "https://commons.wikimedia.org/wiki/Category:Montgolfier_balloon"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "interior madeira",
+   "street",
+   "loc_montanha"
+  ],
+  "buscas": {
+   "balao": "Montgolfier balloon Versailles 1783 engraving"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: os primeiros passageiros de um balao nao foram pessoas, foram uma ovelha, um pato e um galo. Pagamento: o balao subiu com os bichos e pousou com todos vivos; dois meses depois, dois homens voaram.",
+ "loop_frase_ok": true
+}

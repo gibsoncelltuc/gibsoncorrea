@@ -1,0 +1,219 @@
+{
+ "id": "microondas1945",
+ "ano": 1945,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SPE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/chocolate",
+    "kit/microwave"
+   ],
+   "palavras": 8,
+   "cena": "b0",
+   "frase": "Um chocolate derretido no bolso inventou o micro-ondas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/microwave"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E hoje ele está em quase toda cozinha.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "ENG",
+    "ENG"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Por volta de 1945, Percy Spencer trabalhava com radares.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SPE",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Uma peça do radar soltava ondas invisíveis o dia inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ENG",
+    "SPE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/chocolate"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Um dia, ele chegou perto dela com chocolate no bolso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "SPE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/chocolate"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Pouco depois, sentiu o bolso quente: o chocolate tinha derretido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SPE",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/popcorn"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Acontece que ele testou pipoca, e os grãos estouraram pela sala.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SPE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/egg"
+   ],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Depois testou um ovo, que explodiu na cara de um colega.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SPE",
+    "COL",
+    "ENG"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/microwave"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "O primeiro forno era mais alto que uma pessoa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SPE",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/microwave"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Um lanche perdido. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

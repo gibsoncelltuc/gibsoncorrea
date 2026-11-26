@@ -1,0 +1,141 @@
+{
+ "id": "martelo2025",
+ "ano": 2025,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Martelo da Meia-Noite",
+   "consultas": [
+    "O Martelo da Meia-Noite",
+    "Uma Foi Irã 2025"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Fordow, Natanz e Isfahan (Irã); base de Whiteman, Missouri (EUA)",
+   "consultas": [
+    "Fordow enrichment plant",
+    "Fordow Natanz e Isfahan",
+    "Fordow Natanz e Isfahan Irã base de Whiteman Missouri EUA 2025"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Irã",
+   "consultas": [
+    "Irã 2025",
+    "Irã landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2025",
+   "consultas": [
+    "US Air Force airmen B-2 maintenance Whiteman 2025",
+    "2025 fashion clothing",
+    "2025 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Força Aérea dos EUA",
+   "consultas": [
+    "US Air Force B-2 Spirit Whiteman Air Force Base hangar",
+    "Força Aérea dos EUA",
+    "Força Aérea dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "tripulações de B-2",
+   "consultas": [
+    "B-2 Spirit pilots flight crew cockpit",
+    "tripulações de B-2",
+    "tripulações de B-2 2025"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Marinha dos EUA",
+   "consultas": [
+    "US Navy Ohio-class submarine surfaced",
+    "Marinha dos EUA",
+    "Marinha dos EUA 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bomba antibunker GBU-57",
+   "consultas": [
+    "bomba antibunker GBU-57",
+    "bomba antibunker GBU-57 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bombardeiro B-2 Spirit",
+   "consultas": [
+    "bombardeiro B-2 Spirit",
+    "bombardeiro B-2 Spirit 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "submarino",
+   "consultas": [
+    "Ohio-class guided missile submarine USS Georgia",
+    "submarino",
+    "submarino 2025"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bunker na montanha",
+   "consultas": [
+    "Fordow Fuel Enrichment Plant satellite image Iran mountain",
+    "bunker na montanha",
+    "bunker na montanha 2025"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bunker bomb",
+   "consultas": [
+    "bomba antibunker GBU-57",
+    "O Martelo da Meia-Noite"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Só a bomba antibunker, de treze toneladas, chega lá.",
+   "consultas": [
+    "bomba antibunker treze toneladas chega",
+    "bunker bomb diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Sete aviões invisíveis B-2 voaram dezoito horas até o alvo.",
+   "consultas": [
+    "avioes invisiveis voaram dezoito",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Outros aviões foram mandados para despistar.",
+   "consultas": [
+    "avioes foram mandados despistar",
+    "b2 air diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Acontece que, de madrugada, doze bombas caíram sobre Fordow.",
+   "consultas": [
+    "acontece madrugada bombas cairam fordow",
+    "mountain bunker diagram"
+   ]
+  }
+ ]
+}

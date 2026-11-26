@@ -1,0 +1,449 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 19,
+ "title": "O Macaco que Jogou Videogame com a Mente",
+ "titulo_base": "O Macaco que Jogou Videogame com a Mente",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/monkey_pong",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "X"
+  },
+  "CIE": {
+   "profissao": "medico",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "CIM": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "NOL": {
+   "jacket": "#2a5a3a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#5a3a22"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CIE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um macaco jogou videogame só com o pensamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogou"
+     }
+    ]
+   },
+   "text": "SÓ COM A MENTE",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "CIE:0:grin:mug"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E o prêmio de cada acerto era vitamina de banana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prêmio"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Foi em 2021, num teste da empresa Neuralink.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Neuralink"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:stern:paper",
+    "MUS:0:suspicious"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "prova",
+   "say": "Um chip no cérebro lê os sinais dos neurônios.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chip"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIE:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "O macaco Pager aprendeu a jogar Pong com um joystick.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aprendeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:shock"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que desligaram o joystick, e ele continuou jogando com a mente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "continuou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "MUS:0:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/monkey_pong",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "MENTE",
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade",
+   "bloco": "escalada",
+   "say": "O vídeo rodou o mundo e abriu debate sobre testes com animais.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rodou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "NOL:0:grin",
+    "CIE:0:surprised"
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -1.2,
+     1.7,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Em 2024, um paciente paralisado jogou xadrez só pensando.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CIE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "street",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Tudo começou com um copo de vitamina. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vitamina"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://neuralink.com/updates/pager-plays-mindpong/",
+  "https://www.bbc.com/news/technology-56688812"
+ ],
+ "exp": 1.0,
+ "variar_cenario": false,
+ "visual": {
+  "local": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh",
+  "quando": "abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia",
+  "participantes": [
+   "macaco Pager (macaco-rhesus de 9 anos)",
+   "cientistas de jaleco",
+   "Elon Musk",
+   "Noland Arbaugh (cadeira de rodas)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "CIE": "jaleco branco",
+   "CIM": "jaleco azul",
+   "NOL": "camiseta casual, cadeira de rodas",
+   "POV": "roupa casual"
+  },
+  "cenario": "sala de laboratorio clara com tela mostrando Pong e um canudo de metal; sala de casa com computador",
+  "objetos": [
+   "tela com Pong",
+   "joystick",
+   "canudo de metal com vitamina de banana",
+   "chip N1 (moeda pequena)",
+   "computador com xadrez"
+  ],
+  "explicacoes": [
+   "Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Neuralink"
+  ],
+  "locacoes": [
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_cidade",
+   "street"
+  ],
+  "buscas": {
+   "macaco": "Neuralink Pager monkey MindPong 2021"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um macaco jogou videogame so com o pensamento e ganhava vitamina de banana. Pagamento: o chip leu os neuronios, Pager jogou sem joystick e em 2024 um paciente paralisado jogou xadrez pensando.",
+ "loop_frase_ok": true
+}

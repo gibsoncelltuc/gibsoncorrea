@@ -1,0 +1,115 @@
+{
+ "title": "THE MOST EXTREME PLACES ON EARTH",
+ "hook": "These are the most extreme places on planet Earth.",
+ "items": [
+  {
+   "say": "The hottest temperature ever recorded: 134 degrees, in Death Valley, USA.",
+   "hl": [
+    "USA"
+   ],
+   "pin": [
+    36.46,
+    -116.87
+   ],
+   "big": "134°F",
+   "label": "Death Valley",
+   "flag": "us",
+   "icon": "🔥"
+  },
+  {
+   "say": "The coldest town on Earth: Oymyakon, Russia. Minus 90 degrees.",
+   "hl": [
+    "RUS"
+   ],
+   "pin": [
+    63.46,
+    142.79
+   ],
+   "big": "-90°F",
+   "label": "Oymyakon",
+   "flag": "ru",
+   "icon": "🥶"
+  },
+  {
+   "say": "The coldest temperature ever: minus 128 degrees, at Vostok Station, Antarctica.",
+   "hl": [],
+   "pin": [
+    -78.46,
+    106.84
+   ],
+   "big": "-128°F",
+   "label": "Vostok Station",
+   "flag": "aq",
+   "icon": "❄️"
+  },
+  {
+   "say": "The wettest place on Earth: Mawsynram, India.",
+   "hl": [
+    "IND"
+   ],
+   "pin": [
+    25.3,
+    91.58
+   ],
+   "big": "WETTEST",
+   "label": "Mawsynram",
+   "flag": "in",
+   "icon": "🌧️"
+  },
+  {
+   "say": "The driest: the Atacama Desert, in Chile.",
+   "hl": [
+    "CHL"
+   ],
+   "pin": [
+    -24.5,
+    -69.25
+   ],
+   "big": "DRIEST",
+   "label": "Atacama Desert",
+   "flag": "cl",
+   "icon": "🏜️"
+  },
+  {
+   "say": "The highest point: Mount Everest, 29,032 feet.",
+   "hl": [
+    "NPL"
+   ],
+   "pin": [
+    27.988,
+    86.925
+   ],
+   "big": "29,032 FT",
+   "label": "Mount Everest",
+   "flag": "np",
+   "icon": "🏔️"
+  },
+  {
+   "say": "The lowest land: the Dead Sea, more than 1,400 feet below sea level.",
+   "hl": [
+    "JOR"
+   ],
+   "pin": [
+    31.5,
+    35.5
+   ],
+   "big": "-1,400 FT",
+   "label": "Dead Sea",
+   "flag": "",
+   "icon": "🌊"
+  },
+  {
+   "say": "And the deepest point: the Mariana Trench, almost 36,000 feet deep.",
+   "hl": [],
+   "pin": [
+    11.35,
+    142.2
+   ],
+   "big": "-36,000 FT",
+   "label": "Mariana Trench",
+   "flag": "",
+   "icon": "🌊"
+  }
+ ],
+ "id": "geo4_extreme"
+}

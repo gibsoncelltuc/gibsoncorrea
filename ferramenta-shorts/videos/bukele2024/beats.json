@@ -1,0 +1,458 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 26,
+ "title": "O Presidente dos 85 por Cento",
+ "titulo_base": "O Presidente dos 85 por Cento",
+ "set": "loc_campo",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/ballot_box",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "POV": {
+   "jacket": "#2aa7c9",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "straw",
+    "cap",
+    "hair",
+    "beret"
+   ]
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "JUI": {
+   "jacket": "#1b1b1f",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#9a9a9a",
+   "glasses": true
+  },
+  "PRE": {
+   "jacket": "#f2f2f2",
+   "pants": "#f2f2f2",
+   "boots": "#d9d9d9",
+   "hat": "hair",
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "POV:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "loc_cidade",
+   "acao": "comemorar",
+   "text": "84,6%",
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um presidente teve quase 85% dos votos, e o mundo se dividiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "votos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "BUK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "bloco": "promessa",
+   "say": "E o motivo dessa votação é polêmico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "votação"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:smile"
+   ],
+   "mapa": "EL SALVADOR",
+   "text": "NAYIB BUKELE",
+   "titulo": true,
+   "bloco": "prova",
+   "say": "Em 2024, Bukele tentou a reeleição em El Salvador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:stern",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "set": "loc_cidade",
+   "quadro_manual": true,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "h": 1.6,
+   "d0": 8.0,
+   "d1": 6.5,
+   "detalhe": false,
+   "text": "FIM DAS GANGUES",
+   "bloco": "prova",
+   "say": "Ele prometeu acabar com a violência das gangues.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prometeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "BUK:0:smug"
+   ],
+   "acao": "conversar",
+   "hud": {
+    "comparar": [
+     [
+      "2015",
+      106.3,
+      ""
+     ],
+     [
+      "2023",
+      2.4,
+      ""
+     ]
+    ]
+   },
+   "text": "106 → 2,4",
+   "bloco": "prova",
+   "say": "Os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "alvo": "grafico",
+      "na": "caíram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "JUI:0:stern:paper",
+    "REP:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Acontece que a Constituição proibia reeleição seguida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "proibia"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:worried:paper",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "set": "loc_patio",
+   "batalha": false,
+   "impact": false,
+   "tiros": false,
+   "interior": false,
+   "bloco": "escalada",
+   "say": "Uma corte liberou, e críticos chamaram de ilegal.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ilegal"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "REP:0:suspicious:paper"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/prison",
+     0.0,
+     -12.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "PRE"
+    ],
+    "march": false,
+    "expr": "sad"
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -5.0,
+   "h": 2.4,
+   "d0": 15.0,
+   "d1": 13.0,
+   "text": "PRISÕES EM MASSA",
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Grupos de direitos humanos criticaram as prisões em massa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "criticaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": false,
+   "who": [
+    "BUK:0:laugh",
+    "REP:0:shock:paper"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "set": "loc_cidade",
+   "text": "84,6%",
+   "titulo": true,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -0.3,
+   "d0": 7.0,
+   "d1": 5.5,
+   "bloco": "pagamento",
+   "say": "Mesmo assim, ele levou 84,6% dos votos.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "quem": 0,
+      "faz": "mostra",
+      "na": "votos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh",
+    "POV:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "loc_cidade",
+   "acao": "comemorar",
+   "text": "84,6%",
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Amado por uns, criticado por outros. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "criticado"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
+  "https://www.idea.int/democracytracker/report/el-salvador/february-2024",
+  "https://en.wikipedia.org/wiki/Crime_in_El_Salvador",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12459783/"
+ ],
+ "visual": {
+  "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",
+  "quando": "4/fev/2024; apuracao e comemoracao de noite",
+  "participantes": [
+   "Nayib Bukele (terno escuro, bone preto virado para tras nos anos de governo)",
+   "apoiadores de camisa azul-ciano (cor do Nuevas Ideas)",
+   "eleitores",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca",
+   "POV": "camisetas e bones azul-ciano",
+   "JUI": "toga preta (Sala Constitucional)",
+   "REP": "camisa com crachá de imprensa"
+  },
+  "cenario": "fachada clara do Palacio Nacional com sacada, multidao na praca a noite, bandeiras azuis e brancas, urnas de papelao com cabine",
+  "objetos": [
+   "urnas",
+   "bandeira de El Salvador (azul e branca)",
+   "cartaz com rosto de Bukele"
+  ],
+  "fontes_visuais": [
+   "https://www.gettyimages.com/editorial-images/news/event/salvadorians-vote-in-presidential-election/776100638",
+   "https://www.youtube.com/watch?v=FX3aCqFx_g0"
+  ],
+  "buscas": {
+   "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao": "Palacio Nacional San Salvador El Salvador",
+   "urnas": "El Salvador election ballot box voting 2024",
+   "eleitores": "El Salvador voters queue election 2024",
+   "jornalistas": "journalists press conference El Salvador",
+   "roupas e ruas de 2024": "San Salvador street 2024",
+   "cartaz com rosto de Bukele": "Nayib Bukele campaign poster Nuevas Ideas",
+   "ballot box": "ballot box election voting booth",
+   "O Presidente dos 85 por Cento": "Nayib Bukele 2024 election night balcony"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.12,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente teve quase 85% dos votos e o motivo divide o mundo. Pagamento: assassinatos cairam de 106 para 2,4 por cem mil; criticas a reeleicao e as prisoes em massa; venceu com 84,6%.",
+ "loop_frase_ok": true
+}

@@ -1,0 +1,542 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 11,
+ "title": "A Guerra da Lagosta",
+ "titulo_base": "A Guerra da Lagosta",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/lobster",
+ "outfits": {
+  "BRA": {
+   "jacket": "#2e9b4f",
+   "pants": "#f2c230",
+   "boots": "#1b1b1f",
+   "hat": "hair"
+  },
+  "FRA": {
+   "jacket": "#2f4fb5",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#d33a3a"
+  },
+  "PES": {
+   "jacket": "#e0a030",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "straw",
+    "cap",
+    "hair"
+   ]
+  },
+  "MAR": {
+   "jacket": "#1e3a6e",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1e3a6e"
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  },
+  "MFR": {
+   "jacket": "#f1efe6",
+   "pants": "#1e3a6e",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#1e3a6e",
+   "stripes": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BRA:0:angry"
+   ],
+   "props": [
+    [
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.95
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "say": "A França e o Brasil quase entraram em guerra por causa de uma lagosta.",
+   "set": "harbor",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   },
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "PES:0:stern"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "mapa": "PERNAMBUCO",
+   "mapa_at": 3,
+   "props": [
+    [
+     "boat",
+     0.0,
+     -8.0,
+     2.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/fishing_net",
+     1.8,
+     0.8,
+     1.2
+    ]
+   ],
+   "say": "Era mil novecentos e sessenta e um, e barcos franceses pescavam lagostas na costa de Pernambuco.",
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o boat (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "boat",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "batalha": false,
+   "tiros": false,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "x_pesca",
+      "na": "pescavam",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -5.6,
+   "h": 2.8,
+   "d0": 15.0,
+   "d1": 13.0,
+   "_auto_vis": 3
+  },
+  {
+   "say": "O Brasil dizia que a lagosta anda no fundo do mar, e por isso era brasileira.",
+   "explica": {
+    "objeto": "kit/lobster",
+    "manobra": "parado",
+    "passos": [
+     "FUNDO DO MAR",
+     "ANDA",
+     "BRASILEIRA"
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   }
+  },
+  {
+   "say": "A França respondia que a lagosta nada, e por isso era de quem pescasse.",
+   "explica": {
+    "objeto": "kit/lobster",
+    "manobra": "sobe",
+    "passos": [
+     "NADA",
+     "NO MAR",
+     "DE QUEM PESCAR"
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MFR:0:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_destroier",
+     0.0,
+     -25.1,
+     8.27,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "A França mandou um navio de guerra para proteger os pescadores dela.",
+   "set": "harbor",
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_destroier",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "MAR:0:angry"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "ship",
+     0.0,
+     -34.5,
+     2.11,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "vehicles/airplane",
+     7.0,
+     -16.0,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "NAVIOS E AVIÕES",
+   "titulo": true,
+   "say": "Acontece que o Brasil não recuou. Mandou navios e aviões para a costa, e a tensão subiu.",
+   "detalhe": false,
+   "fachada": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "vehicles/airplane",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "navios"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "cx": 7.0,
+   "cz": -11.2,
+   "h": 2.8,
+   "d0": 20.8,
+   "d1": 17.8,
+   "_auto_vis": 1
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "MAR:0:angry",
+    "MFR:0:stern"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "tick@40"
+   ],
+   "say": "Marinheiros dos dois lados se encararam no mar. Os jornais chamaram o caso de Guerra da Lagosta, e o mundo inteiro achou graça.",
+   "props": [],
+   "detalhe": false,
+   "_auto_vis": 1,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "encararam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRA:0:relief:paper",
+    "BRA:0:smile"
+   ],
+   "interacao": "entregar",
+   "say": "Mas o tiro nunca veio. Os dois governos se reuniram e conversaram, em vez de brigar.",
+   "interior": "pedra",
+   "kw": false,
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "conversaram",
+      "quem": 0
+     }
+    ]
+   },
+   "riscos_ok": true,
+   "sfx": [
+    "ding@30"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PES:0:laugh",
+    "FRA:0:relief"
+   ],
+   "acao": "comemorar",
+   "text": "1963",
+   "say": "Depois, chegaram a um acordo: alguns barcos franceses podiam pescar, com limite.",
+   "set": "harbor",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "acordo",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   },
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "kw": false
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BRA:0:nervous"
+   ],
+   "props": [
+    [
+     "crate",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/lobster",
+     1.0,
+     -0.4,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.95
+     }
+    ]
+   ],
+   "say": "No fim, ninguém perguntou para a lagosta de que lado ela queria ficar.",
+   "set": "harbor",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": true,
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lagosta"
+     }
+    ]
+   },
+   "cx": 0.5,
+   "cz": -0.3,
+   "h": 1.6,
+   "d0": 6.5,
+   "d1": 5.5,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/lobster",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  }
+ ],
+ "ano": 1961,
+ "regiao": "colonial",
+ "exp": 1.0,
+ "visual": {
+  "local": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros",
+  "quando": "1961 a 1963, de dia",
+  "participantes": [
+   "pescadores franceses em barcos lagosteiros",
+   "pescadores brasileiros",
+   "Marinha do Brasil",
+   "Marinha francesa (contratorpedeiro Tartu)",
+   "presidente Joao Goulart",
+   "presidente Charles de Gaulle"
+  ],
+  "roupas": {
+   "BRA": "marinheiro brasileiro de branco",
+   "FRA": "marinheiro frances de azul com boina de pompom vermelho",
+   "PES": "pescador de camisa simples e chapeu de palha",
+   "MAR": "oficial da Marinha de uniforme branco",
+   "PRE": "presidente de terno escuro"
+  },
+  "cenario": "mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino",
+  "objetos": [
+   "lagosta",
+   "barcos de pesca",
+   "navios de guerra",
+   "avioes de patrulha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Lobster_War",
+   "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta"
+  ],
+  "explicacoes": [
+   "Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004)."
+  ]
+ },
+ "variar_cenario": false,
+ "max_wide": 6
+}

@@ -1,0 +1,93 @@
+{
+ "id": "bolos1838",
+ "titulo": "Guerras Inusitadas EP 07 - A Guerra dos Bolos",
+ "ancoras": {
+  "ano": 1838,
+  "era": "historica",
+  "regiao": "colonial",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior loja",
+   "interior pedra",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "cannon",
+  "kit/barrel_r",
+  "kit/cake_table",
+  "kit/chest",
+  "kit/marco_ulua",
+  "kit/navio_fragata",
+  "kit/room_colonial_shop",
+  "kit/room_europa_stone",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Nightstand_Shelf",
+  "nature/lamppost"
+ ],
+ "pesquisa_visual": {
+  "local": "Tacubaya",
+  "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
+  "participantes": [
+   "confeiteiro francês",
+   "rei Luís Filipe",
+   "Santa Anna",
+   "almirante Baudin",
+   "oficial mexicano de 1830"
+  ],
+  "roupas": {
+   "CON": "avental e gorro brancos de confeiteiro",
+   "OFI": "oficial mexicano: casaca verde (cor da bandeira) com faixa vermelha e shako, diferente do frances azul com calca vermelha",
+   "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
+   "REI": "rei de coroa e manto roxo",
+   "GEN": "Santa Anna: casaca verde com faixa vermelha, dragonas douradas e bicorne"
+  },
+  "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
+  "objetos": [
+   "bolos e doces",
+   "papel de queixa",
+   "moedas",
+   "canhão do século 19"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pastry_War",
+   "referencias/bolos1838/moodboard.jpg"
+  ],
+  "buscas": {
+   "Tacubaya": "Tacubaya Mexico City 1830s",
+   "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
+   "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
+   "Luís Filipe": "Louis-Philippe king of France portrait",
+   "Baudin": "Charles Baudin admiral 1838",
+   "confeiteiro": "19th century pastry chef shop engraving",
+   "soldado da epoca": "Mexican army officer 1830s uniform",
+   "confeiteiro francês": "French pastry chef 19th century",
+   "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

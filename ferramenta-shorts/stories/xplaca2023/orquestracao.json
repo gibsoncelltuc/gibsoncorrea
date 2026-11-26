@@ -1,0 +1,240 @@
+{
+ "id": "xplaca2023",
+ "ano": 2023,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 4",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 7",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Uma placa com uma letra só virou caso de investigação.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E a culpa foi de uma luz piscando de madrugada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "OPE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2023, Musk trocou o nome do Twitter para X.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "OPE",
+    "OPE2",
+    "MUS"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/finch"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Operários começaram a tirar o passarinho da fachada.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OPE",
+    "FIS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O trabalho parou no meio, por falta de licença.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/marco_goldengate",
+    "nature/lamppost"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que instalaram um X gigante piscando no alto do prédio.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "A luz entrava nas janelas dos vizinhos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FIS",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Vieram vinte e quatro reclamações num fim de semana.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "FIS",
+    "OPE"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "buildings/house_two",
+    "nature/bench",
+    "nature/lamppost"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "A prefeitura investigou, e o X foi retirado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Até trocar de nome precisa de licença. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  }
+ ]
+}

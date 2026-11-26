@@ -1,0 +1,131 @@
+{
+ "id": "bacalhau1958",
+ "ano": 1958,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "As Guerras do Bacalhau",
+   "consultas": [
+    "As Guerras do Bacalhau",
+    "Islândia Foram Guerras Bacalhau 1958"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de p",
+   "consultas": [
+    "Atlântico Norte mar aberto perto da costa da Islândia",
+    "Atlântico Norte mar aberto perto da costa da Islândia Reykjavik e a costa de pesca águas c"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1958",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1958",
+   "consultas": [
+    "1958 fashion clothing",
+    "1958 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "consultas": [
+    "guarda costeira da Islândia uniforme azul-marinho bonés",
+    "guarda costeira da Islândia uniforme azul-marinho bonés 1958"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "consultas": [
+    "marinheiros da Marinha Real britânica uniforme branco e azul",
+    "marinheiros da Marinha Real britânica uniforme branco e azul 1958"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "pescadores de capa amarela",
+   "consultas": [
+    "pescadores de capa amarela",
+    "pescadores de capa amarela 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bacalhau",
+   "consultas": [
+    "bacalhau",
+    "bacalhau 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caixote de peixe",
+   "consultas": [
+    "caixote de peixe",
+    "caixote de peixe 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navio da guarda costeira",
+   "consultas": [
+    "navio da guarda costeira",
+    "navio da guarda costeira 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fragata britânica",
+   "consultas": [
+    "fragata britânica",
+    "fragata britânica 1958"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cabo de rede de pesca",
+   "consultas": [
+    "cabo de rede de pesca",
+    "cabo de rede de pesca 1958"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "cod",
+   "consultas": [
+    "bacalhau",
+    "As Guerras do Bacalhau"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "navio leander",
+   "consultas": [
+    "navio leander"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "barco guarda",
+   "consultas": [
+    "barco guarda"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "fishing net",
+   "consultas": [
+    "fishing net"
+   ]
+  }
+ ]
+}

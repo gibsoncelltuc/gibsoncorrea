@@ -1,0 +1,126 @@
+{
+ "duration": 30.264,
+ "frames30": 908,
+ "source": "silence-align (cost 0.16)",
+ "segments": [
+  [
+   0.0,
+   2.64954
+  ],
+  [
+   3.02867,
+   5.246
+  ],
+  [
+   5.62483,
+   8.60883
+  ],
+  [
+   8.98475,
+   12.05
+  ],
+  [
+   12.4195,
+   14.3955
+  ],
+  [
+   14.7792,
+   16.1194
+  ],
+  [
+   16.4923,
+   19.313
+  ],
+  [
+   19.6907,
+   21.337
+  ],
+  [
+   21.5687,
+   23.458
+  ],
+  [
+   23.8246,
+   25.2432
+  ],
+  [
+   25.4813,
+   26.5482
+  ],
+  [
+   26.928,
+   28.698
+  ],
+  [
+   29.0738,
+   29.8135
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Fran\u00e7a e M\u00e9xico entraram em guerra por causa de uma confeitaria.",
+   "s": 0.0,
+   "e": 2.65
+  },
+  {
+   "text": "E a conta dos bolos nunca foi paga de verdade.",
+   "s": 3.029,
+   "e": 5.246
+  },
+  {
+   "text": "Um confeiteiro franc\u00eas tinha uma doceria perto da Cidade do M\u00e9xico.",
+   "s": 5.625,
+   "e": 8.609
+  },
+  {
+   "text": "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
+   "s": 8.985,
+   "e": 12.05
+  },
+  {
+   "text": "Pediu sessenta mil pesos de indeniza\u00e7\u00e3o.",
+   "s": 12.419,
+   "e": 14.396
+  },
+  {
+   "text": "A loja valia menos de mil.",
+   "s": 14.779,
+   "e": 16.119
+  },
+  {
+   "text": "Acontece que a Fran\u00e7a assumiu a briga e mandou navios de guerra.",
+   "s": 16.492,
+   "e": 19.313
+  },
+  {
+   "text": "Canh\u00f5es bombardearam a fortaleza,",
+   "s": 19.691,
+   "e": 21.337
+  },
+  {
+   "text": "e os soldados tomaram o porto de Veracruz.",
+   "s": 21.569,
+   "e": 23.458
+  },
+  {
+   "text": "O M\u00e9xico prometeu pagar a conta,",
+   "s": 23.825,
+   "e": 25.243
+  },
+  {
+   "text": "e a Fran\u00e7a foi embora.",
+   "s": 25.481,
+   "e": 26.548
+  },
+  {
+   "text": "Esse dinheiro dos bolos nunca chegou.",
+   "s": 26.928,
+   "e": 28.698
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.074,
+   "e": 29.814
+  }
+ ]
+}

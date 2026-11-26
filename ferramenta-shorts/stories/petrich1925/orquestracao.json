@@ -1,0 +1,212 @@
+{
+ "id": "petrich1925",
+ "ano": 1925,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Ninguém te conta: um cachorro fugido quase começou uma guerra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E até hoje ninguém sabe o que aconteceu com ele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GRE",
+    "BUL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1925, na fronteira entre a Grécia e a Bulgária.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Dizem que o cachorro de um soldado grego cruzou a fronteira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O soldado correu atrás e cruzou a fronteira também.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Uma sentinela búlgara viu o soldado e atirou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "OFF"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "A Grécia ficou furiosa e deu um ultimato.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "GRE",
+    "GRE",
+    "GRE"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Dias depois, o exército grego invadiu a Bulgária.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUL",
+    "BUL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "A Bulgária apelou para a Liga das Nações.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "OFF",
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "A Grécia teve que recuar e pagar uma indenização.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 6,
+   "cena": "b10",
+   "frase": "Tudo por causa de um cachorro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  }
+ ]
+}

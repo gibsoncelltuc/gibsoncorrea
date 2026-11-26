@@ -1,0 +1,82 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: a Islandia derrotou a marinha inglesa com um cortador de rede, numa briga por peixe. Pagamento: barquinhos cortavam as redes inglesas e, em 1976, a Inglaterra desistiu; as 200 milhas viraram regra.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "A Islândia derrotou a marinha inglesa usando um cortador de rede.",
+   "Islândia",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E o motivo da briga era o bacalhau.",
+   "bacalhau",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Foram três Guerras do Bacalhau, em quase vinte anos.",
+   "três",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Barcos ingleses pescavam bacalhau na costa da Islândia.",
+   "pescavam",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A Islândia ampliou o seu mar: de doze para duzentas milhas.",
+   "ampliou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "A Inglaterra mandou fragatas de guerra.",
+   "mandou",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a Islândia só tinha barcos da guarda costeira.",
+   "barcos",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "E eles cortavam as redes inglesas no meio do mar.",
+   "cortavam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Em 1976, a Inglaterra finalmente desistiu da briga.",
+   "Inglaterra",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "As duzentas milhas viraram regra no mundo. E foi assim que...",
+   "duzentas",
+   {}
+  ]
+ ]
+}

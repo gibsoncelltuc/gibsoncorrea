@@ -1,0 +1,201 @@
+{
+ "id": "pasteur1885",
+ "ano": 1885,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem aplicou a vacina nem era médico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MED",
+    "MED"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1885, Louis Pasteur estudava micróbios na França.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MED",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Mordida de animal com raiva quase sempre matava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PAS",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "A vacina dele só tinha sido testada em animais.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAS",
+    "MAE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Um dia, chegou o menino Joseph, mordido por um cachorro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Pasteur tinha medo, mas decidiu tentar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "PAS",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "MAE",
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Joseph sobreviveu, e a notícia correu o mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PAS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/syringe"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Um químico arriscou tudo. E foi assim que...",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

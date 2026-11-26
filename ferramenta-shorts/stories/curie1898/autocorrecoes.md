@@ -1,0 +1,116 @@
+
+## 24/11 18:04 autocorrecao de visibilidade
+- b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+- b10: objeto "kit/curie_box" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 24/11 18:05 autocorrecao de visibilidade
+- b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+- b5: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b10: objeto "kit/curie_box" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 18:05 autocorrecao de visibilidade
+- b1: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 24/11 19:48 autocorrecao de visibilidade
+- b4: objeto "kit/curie_box" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 19:49 autocorrecao de visibilidade
+- b4: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 24/11 22:26 autocorrecao de visibilidade
+- b0: objeto "kit/curie_box" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 24/11 22:27 autocorrecao de visibilidade
+- b0: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b5: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 02:43 autocorrecao de visibilidade
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 02:53 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: objeto "kit/pechblenda" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.6, -1.0)
+- b4: objeto "kit/curie_box" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 02:54 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 02:57 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: objeto citado "kit/pechblenda" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b4: objeto "kit/pechblenda" saiu com 0% da altura da tela, a ficha de cena planejou 18% -> close no objeto
+
+## 25/11 02:58 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: ja corrigida 3 vezes, camera DENTRO de "kit/pechblenda" -> fica para o olho
+
+## 25/11 02:58 autocorrecao de visibilidade
+- b4: ja corrigida 3 vezes, personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b4: ja corrigida 3 vezes, camera DENTRO de "kit/pechblenda" -> fica para o olho
+
+## 25/11 07:16 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 07:17 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 07:17 autocorrecao de visibilidade
+- b4: quadro_manual (o roteiro fixou o quadro), objeto "kit/pechblenda" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 07:21 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+
+## 25/11 07:22 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 07:40 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b9: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- conserto DESFEITO: criaria risco novo nas folhas (fica para o olho)
+
+## 25/11 08:01 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 08:02 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+
+## 25/11 19:39 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)
+- b8: objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 19:39 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)
+- b7: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 25/11 19:40 autocorrecao de visibilidade
+- b5: "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> "kit/curie_box" foi para o lado e para tras (4.6, -3.0)
+
+## 25/11 19:43 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b5: ja corrigida 3 vezes, "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> fica para o olho
+- b8: objeto citado "kit/curie_box" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (1.2, 0.2)
+
+## 25/11 19:44 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b5: ja corrigida 3 vezes, "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> fica para o olho
+
+## 25/11 19:44 autocorrecao de visibilidade
+- b5: ja corrigida 3 vezes, "kit/curie_box" tapando a camera (40% do quadro, colado na lente) -> fica para o olho
+- b9: objeto "kit/curie_box" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (1.2, 0.2)

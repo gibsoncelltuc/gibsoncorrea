@@ -1,0 +1,215 @@
+{
+ "id": "goodyear1839",
+ "ano": 1839,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/stove"
+   ],
+   "palavras": 13,
+   "cena": "b0",
+   "frase": "Uma gosma caiu no fogão de um inventor falido. E mudou o mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tires"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o nome dele está em pneus do mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/stove"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Nos Estados Unidos de 1830, a borracha virou moda.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Mas derretia no calor e rachava no frio.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/borracha (parado)",
+    "emissao": "fogo",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO",
+    "CLA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Charles Goodyear gastou todo o dinheiro da família em testes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "GUA",
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Fez tantas dívidas que foi parar na prisão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/stove"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Um dia, borracha com enxofre caiu no fogão quente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/stove"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Acontece que não derreteu. Ficou firme e elástica.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "CLA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bola_couro",
+    "kit/borracha",
+    "kit/stove",
+    "kit/tires"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Era a borracha vulcanizada, hoje em pneus e sapatos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/gosma",
+    "kit/stove"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "A Goodyear ganhou o nome dele, sem ele saber. Tudo porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  }
+ ]
+}

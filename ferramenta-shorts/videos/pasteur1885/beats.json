@@ -1,0 +1,364 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 6,
+ "title": "Pasteur e a Vacina da Raiva",
+ "titulo_base": "Pasteur e a Vacina da Raiva",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/syringe",
+ "outfits": {
+  "PAS": {
+   "jacket": "#2a2a33",
+   "pants": "#2a2a33",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "cap": "#2a2a33",
+   "beard": "#c9c2b0"
+  },
+  "MAE": {
+   "jacket": "#7a3f5a",
+   "pants": "#4a2a3a",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "cap": "#e8dcc0",
+   "build": "stout"
+  },
+  "MED": {
+   "jacket": "#f4f4f0",
+   "pants": "#4a4a54",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#f4f4f0",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#6a5a4a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "cap": "#4a3a2a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "PAS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -8.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "bloco": "gancho",
+   "say": "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vacina"
+     }
+    ]
+   },
+   "text": "PRIMEIRA VACINA",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PAS:0:nervous"
+   ],
+   "bloco": "promessa",
+   "say": "E quem aplicou a vacina nem era médico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "médico"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "MED:0:neutral",
+    "MED:1:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "MED"
+    ],
+    "march": false
+   },
+   "mapa": "FRANÇA",
+   "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Em 1885, Louis Pasteur estudava micróbios na França.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Pasteur"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MED:0:sad",
+    "POV:0:scared"
+   ],
+   "acao": "conversar",
+   "bloco": "prova",
+   "say": "Mordida de animal com raiva quase sempre matava.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Mordida"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAS:0:suspicious",
+    "MED:0:nervous"
+   ],
+   "acao": "conversar",
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "prova",
+   "say": "A vacina dele só tinha sido testada em animais.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "testada"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAS:0:surprised",
+    "MAE:0:cry"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Um dia, chegou o menino Joseph, mordido por um cachorro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PAS:0:nervous"
+   ],
+   "bloco": "escalada",
+   "say": "Pasteur tinha medo, mas decidiu tentar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentar"
+     }
+    ]
+   }
+  },
+  {
+   "set": "hall",
+   "who": [
+    "PAS:0:relief",
+    "MED:0:surprised"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -0.8,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "pagamento",
+   "say": "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "injeções"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "interior": "madeira",
+   "who": [
+    "MAE:0:relief",
+    "PAS:0:smile"
+   ],
+   "interacao": "reverencia",
+   "bloco": "pagamento",
+   "say": "Joseph sobreviveu, e a notícia correu o mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sobreviveu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "PAS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/syringe",
+     0.0,
+     -8.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "bloco": "loop",
+   "say": "Um químico arriscou tudo. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "arriscou"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur",
+  "quando": "julho de 1885, dia",
+  "participantes": [
+   "Louis Pasteur (barba grisalha, casaca preta, solideu)",
+   "Joseph Meister, menino alsaciano de 9 anos",
+   "a mae de Joseph",
+   "medicos Vulpian e Grancher"
+  ],
+  "roupas": {
+   "PAS": "sobrecasaca preta e barba grisalha",
+   "MED": "sobrecasaca escura e cartola",
+   "MAE": "vestido longo escuro e touca",
+   "POV": "roupas do seculo 19"
+  },
+  "cenario": "laboratorio do seculo 19 com frascos, tubos e microscopio; predio do Instituto Pasteur em Paris",
+  "objetos": [
+   "seringa de vidro do seculo 19",
+   "frascos com medula de coelho",
+   "microscopio"
+  ],
+  "explicacoes": [
+   "Em 6/7/1885 Joseph Meister, mordido por um cao raivoso, recebeu 13 inoculacoes em 10 dias da vacina de Pasteur e sobreviveu; mais tarde trabalhou como zelador do Instituto Pasteur (fonte: Wikipedia Joseph Meister, Rabies vaccine)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Joseph_Meister",
+   "https://en.wikipedia.org/wiki/Louis_Pasteur"
+  ],
+  "buscas": {
+   "lab": "Louis Pasteur laboratory 1885",
+   "instituto": "Institut Pasteur Paris 19th century"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o primeiro vacinado contra a raiva foi um menino de nove anos e quem aplicou nem era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
+ "loop_frase_ok": true
+}

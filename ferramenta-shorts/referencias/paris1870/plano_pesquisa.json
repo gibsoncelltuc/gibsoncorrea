@@ -1,0 +1,126 @@
+{
+ "id": "paris1870",
+ "ano": 1870,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Cardápio do Zoológico",
+   "consultas": [
+    "O Cardápio do Zoológico",
+    "Paris Natal Em Prússia Paris 1870"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas",
+   "consultas": [
+    "Paris sitiada",
+    "Paris sitiada 1870"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "França",
+   "consultas": [
+    "França 1870",
+    "França landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1870",
+   "consultas": [
+    "1870 fashion clothing",
+    "1870 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "parisienses famintos",
+   "consultas": [
+    "parisienses famintos",
+    "parisienses famintos 1870"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Guarda Nacional de quepe",
+   "consultas": [
+    "Guarda Nacional de quepe",
+    "Guarda Nacional de quepe 1870"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "o acougueiro Deboos da Boucherie Anglaise",
+   "consultas": [
+    "o acougueiro Deboos da Boucherie Anglaise",
+    "o acougueiro Deboos da Boucherie Anglaise 1870"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "o chef do Cafe Voisin",
+   "consultas": [
+    "o chef do Cafe Voisin",
+    "o chef do Cafe Voisin 1870"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "os elefantes Castor e Polux",
+   "consultas": [
+    "os elefantes Castor e Polux",
+    "os elefantes Castor e Polux 1870"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "panelas e o cardapio do Natal",
+   "consultas": [
+    "panelas e o cardapio do Natal",
+    "panelas e o cardapio do Natal 1870"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "carne de elefante no acougue",
+   "consultas": [
+    "carne de elefante no acougue",
+    "carne de elefante no acougue 1870"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "baloes de gas",
+   "consultas": [
+    "baloes de gas",
+    "baloes de gas 1870"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pombos-correio",
+   "consultas": [
+    "pombos-correio",
+    "pombos-correio 1870"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bife elefante",
+   "consultas": [
+    "panelas e o cardapio do Natal",
+    "O Cardápio do Zoológico"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "cavalo da epoca",
+   "consultas": [
+    "horse cavalry 1870",
+    "horse cavalry"
+   ]
+  }
+ ]
+}

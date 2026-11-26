@@ -1,0 +1,189 @@
+{
+ "duration": 29.616,
+ "frames30": 888,
+ "source": "silence-align (cost 1.67)",
+ "segments": [
+  [
+   0.0,
+   1.34437
+  ],
+  [
+   1.58512,
+   2.48287
+  ],
+  [
+   2.86221,
+   4.70604
+  ],
+  [
+   5.08404,
+   7.56137
+  ],
+  [
+   7.93642,
+   9.99017
+  ],
+  [
+   10.3696,
+   11.0235
+  ],
+  [
+   11.2602,
+   11.8662
+  ],
+  [
+   12.237,
+   12.922
+  ],
+  [
+   13.1373,
+   13.583
+  ],
+  [
+   13.8129,
+   14.322
+  ],
+  [
+   14.6994,
+   16.3612
+  ],
+  [
+   16.5962,
+   17.5675
+  ],
+  [
+   17.9472,
+   18.781
+  ],
+  [
+   18.9466,
+   20.0785
+  ],
+  [
+   20.458,
+   21.9315
+  ],
+  [
+   22.157,
+   23.1483
+  ],
+  [
+   23.525,
+   24.946
+  ],
+  [
+   25.1861,
+   26.6112
+  ],
+  [
+   26.989,
+   28.4866
+  ],
+  [
+   28.8442,
+   29.1807
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Abelhas conversam dan\u00e7ando,",
+   "s": 0.0,
+   "e": 1.344
+  },
+  {
+   "text": "e a dan\u00e7a \u00e9 um mapa.",
+   "s": 1.585,
+   "e": 2.483
+  },
+  {
+   "text": "E quem traduziu isso ganhou um Pr\u00eamio Nobel.",
+   "s": 2.862,
+   "e": 4.706
+  },
+  {
+   "text": "Karl von Frisch p\u00f4s \u00e1gua com a\u00e7\u00facar longe da colmeia.",
+   "s": 5.084,
+   "e": 7.561
+  },
+  {
+   "text": "A abelha que achava o a\u00e7\u00facar voltava dan\u00e7ando.",
+   "s": 7.936,
+   "e": 9.99
+  },
+  {
+   "text": "Comida perto:",
+   "s": 10.37,
+   "e": 11.024
+  },
+  {
+   "text": "voltinhas.",
+   "s": 11.26,
+   "e": 11.866
+  },
+  {
+   "text": "Comida longe:",
+   "s": 12.237,
+   "e": 12.922
+  },
+  {
+   "text": "um oito,",
+   "s": 13.137,
+   "e": 13.583
+  },
+  {
+   "text": "rebolando.",
+   "s": 13.813,
+   "e": 14.322
+  },
+  {
+   "text": "O \u00e2ngulo da dan\u00e7a aponta a dire\u00e7\u00e3o,",
+   "s": 14.699,
+   "e": 16.361
+  },
+  {
+   "text": "comparada com o sol.",
+   "s": 16.596,
+   "e": 17.567
+  },
+  {
+   "text": "Quanto mais rebola,",
+   "s": 17.947,
+   "e": 18.781
+  },
+  {
+   "text": "mais longe est\u00e1 a comida.",
+   "s": 18.947,
+   "e": 20.078
+  },
+  {
+   "text": "Acontece que os cientistas riram:",
+   "s": 20.458,
+   "e": 21.931
+  },
+  {
+   "text": "inseto com linguagem?",
+   "s": 22.157,
+   "e": 23.148
+  },
+  {
+   "text": "Em 1973,",
+   "s": 23.525,
+   "e": 24.946
+  },
+  {
+   "text": "ele ganhou o Nobel por essa dan\u00e7a.",
+   "s": 25.186,
+   "e": 26.611
+  },
+  {
+   "text": "Repare na pr\u00f3xima abelha que passar.",
+   "s": 26.989,
+   "e": 28.487
+  },
+  {
+   "text": "Porque...",
+   "s": 28.844,
+   "e": 29.181
+  }
+ ]
+}

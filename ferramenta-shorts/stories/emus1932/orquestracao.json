@@ -1,0 +1,206 @@
+{
+ "id": "emus1932",
+ "ano": 1932,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b0",
+   "frase": "Um exército perdeu uma guerra contra pássaros.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E o placar final virou piada no mundo inteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FARM",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1932, vinte mil emus tomaram as lavouras da Austrália.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FARM",
+    "AUS"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Os agricultores pediram ajuda, e o governo mandou soldados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "mgun"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "O major Meredith levou duas metralhadoras e dez mil balas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que os emus se espalharam, e as balas só acertavam poeira.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "mgun",
+    "vehicles/truck"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Uma metralhadora num caminhão sacudia tanto que ninguém acertava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "vehicles/tank"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "O major comparou os emus a tanques. A imprensa riu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "SOL",
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Seis dias, milhares de balas, poucos emus abatidos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "SOL",
+    "FARM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Exército zero, emus um. E foi assim que...",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "outback"
+  }
+ ]
+}

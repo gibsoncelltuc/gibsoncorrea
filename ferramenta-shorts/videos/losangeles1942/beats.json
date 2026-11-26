@@ -1,0 +1,679 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 20,
+ "title": "A Batalha de Los Angeles",
+ "titulo_base": "A Batalha de Los Angeles",
+ "set": "street",
+ "mood": "playful",
+ "heroi": "kit/searchlight",
+ "outfits": {
+  "SOL": {
+   "profissao": "soldado",
+   "jacket": "#5d6a3a",
+   "pants": "#4a5a2a",
+   "boots": "#2a2218",
+   "hat": "brodie",
+   "rifle": true
+  },
+  "CID": {
+   "profissao": "comerciante",
+   "jacket": "#8a5a34",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#3b3f52"
+  },
+  "GEN": {
+   "profissao": "general",
+   "jacket": "#4a5a3a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "quepe",
+   "cap": "#4a5a3a"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "tie": "#2a5aa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "hair",
+    "slouch"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "SOL:0:shock",
+    "CID:0:scared"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "susto",
+   "fx": [
+    "burst@25",
+    "burst@40",
+    "burst@60"
+   ],
+   "sfx": [
+    "cannon@25",
+    "cannon@40",
+    "cannon@60"
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID",
+     "SOL"
+    ],
+    "march": false
+   },
+   "bloco": "gancho",
+   "say": "Uma cidade atirou no céu a noite toda contra um inimigo invisível.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirou",
+      "quem": 0
+     }
+    ]
+   },
+   "text": "NENHUM INIMIGO",
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "CID:0:smile"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E até hoje ninguém sabe no que eles atiravam.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atiravam"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "reveal",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "CID:0:nervous",
+    "CID:1:scared"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "LOS ANGELES",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1942, Los Angeles vivia com medo do Japão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "medo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "hora": "pordosol",
+   "who": [
+    "CID:0:scared"
+   ],
+   "props": [
+    [
+     "kit/submarino_ww2",
+     1.5,
+     -27.0,
+     4.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@68"
+   ],
+   "sfx": [
+    "cannon@68"
+   ],
+   "text": "SUBMARINO JAPONÊS",
+   "tat": 2,
+   "tstyle": "red",
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.8,
+   "cz": -12.0,
+   "h": 3.5,
+   "d0": 24.0,
+   "d1": 21.0,
+   "quadro_manual": true,
+   "objetos": false,
+   "bloco": "prova",
+   "say": "Na véspera, um submarino japonês atirou na Califórnia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "submarino"
+     },
+     {
+      "faz": "atira",
+      "alvo": "kit/submarino_ww2",
+      "na": "atirou"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o submarino_ww2 (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/submarino_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "set": "harbor",
+   "hora": "noite",
+   "who": [
+    "SOL:0:stern",
+    "CID:0:shock"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/searchlight",
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/searchlight",
+     -3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "bloco": "prova",
+   "say": "De madrugada, sirenes tocaram e holofotes varreram o céu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "toca",
+      "alvo": "kit/searchlight",
+      "na": "tocaram"
+     },
+     {
+      "faz": "mostra",
+      "na": "holofotes"
+     }
+    ]
+   },
+   "_enq_shot": "low",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "SOL:0:shout"
+   ],
+   "tiros": true,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "cannon",
+     -1.8,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     2.2,
+     -1.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@40",
+    "burst@90"
+   ],
+   "sfx": [
+    "cannon@40",
+    "cannon@90"
+   ],
+   "text": "FOGO!",
+   "titulo": true,
+   "shot_lock": true,
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -1.5,
+   "h": 2.4,
+   "d0": 12.5,
+   "d1": 10.5,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Alguém viu algo, e os canhões antiaéreos começaram a atirar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "viu",
+      "quem": 0
+     },
+     {
+      "faz": "atira",
+      "na": "atirar",
+      "quem": 0
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -3.6, camera a 14.5 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "set": "loc_cidade",
+   "hora": "noite",
+   "who": [
+    "CID:0:scared",
+    "CID:1:cry"
+   ],
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "burst@40",
+    "burst@100"
+   ],
+   "sfx": [
+    "cannon@40",
+    "cannon@100"
+   ],
+   "props": [
+    [
+     "cannon",
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/searchlight",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Foram mais de mil tiros, e estilhaços caíram na cidade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "céu",
+      "na": "estilhaços"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 9,
+   "d1": 8,
+   "quadro": {
+    "local": "loc_cidade",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "batalha": false,
+   "quadro_manual": true
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "hora": "noite",
+   "who": [
+    "SOL:0:shout",
+    "GEN:0:surprised"
+   ],
+   "acao": "discutir",
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "escalada",
+   "say": "Acontece que não havia nada lá em cima.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nada"
+     }
+    ]
+   },
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CID:0:sad",
+    "CID:1:cry"
+   ],
+   "set": "loc_cidade",
+   "hora": "noite",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID"
+    ],
+    "march": false
+   },
+   "bloco": "pagamento",
+   "say": "Algumas pessoas morreram por acidente e susto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morreram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "hora": "noite",
+   "who": [
+    "SOL:0:shock",
+    "CID:0:scared"
+   ],
+   "props": [
+    [
+     "kit/searchlight",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "susto",
+   "fx": [
+    "burst@25",
+    "burst@40",
+    "burst@60"
+   ],
+   "sfx": [
+    "cannon@25",
+    "cannon@40",
+    "cannon@60"
+   ],
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CID",
+     "SOL"
+    ],
+    "march": false
+   },
+   "bloco": "loop",
+   "say": "O medo venceu o sono. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sono"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e searchlight juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/searchlight",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "cinf": 1.5,
+ "exp": 2.771,
+ "visual": {
+  "local": "Los Angeles (California): ruas do centro com predios dos anos 1940, baterias antiaereas na costa e nos morros, holofotes cruzando o ceu",
+  "quando": "madrugada de 24 para 25 de fevereiro de 1942 (sirenes as 2h25, tiros das 3h16 as 4h14, fim do alerta as 7h21); vespera: submarino japones I-17 atacou Ellwood no fim da tarde de 23/fev",
+  "participantes": [
+   "artilharia antiaerea do Exercito dos EUA",
+   "moradores de Los Angeles",
+   "militares e politicos no dia seguinte"
+  ],
+  "roupas": {
+   "SOL": "soldado americano de 1942: uniforme verde-oliva, capacete M1917 (Brodie)",
+   "GEN": "oficial com quepe de servico",
+   "CID": "morador de 1942: paleto e chapeu de aba",
+   "PRE": "politico de terno escuro e chapeu-coco",
+   "POV": "moradores de casaco e chapeu dos anos 40"
+  },
+  "cenario": "cidade no apagao a noite, fachos de holofote se cruzando no ceu, explosoes de fumaca dos tiros antiaereos, estilhacos caindo nas ruas",
+  "objetos": [
+   "holofotes antiaereos",
+   "canhoes antiaereos",
+   "sirenes",
+   "jornal do dia seguinte"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Los_Angeles",
+   "https://commons.wikimedia.org/wiki/File:Battle_of_Los_Angeles_LA_Times_photo.jpg"
+  ]
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: uma cidade atirou no ceu a noite toda contra um inimigo invisivel e ninguem sabe no que atiravam. Pagamento: mais de mil tiros, estilhacos na cidade, mortes por acidente e nada no ceu.",
+ "loop_frase_ok": true,
+ "max_wide": 4
+}

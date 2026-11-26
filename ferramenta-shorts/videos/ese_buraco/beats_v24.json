@@ -1,0 +1,295 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "E Se",
+ "ep": 9,
+ "title": "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
+ "titulo_base": "E Se Você Cavasse um Buraco Até o Outro Lado da Terra?",
+ "set": "outback",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/globe",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "CAV": {
+   "profissao": "agricultor",
+   "hat": "helmet",
+   "cap": "#f2a01a"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole",
+  "https://www.antipodesmap.com/",
+  "https://en.wikipedia.org/wiki/Gravity_train"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "CAV:0:grin:shovel",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?"
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "OCEANO PACÍFICO",
+   "mapa_at": 3,
+   "say": "Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAV:0:stern:shovel",
+    "PRO:0:suspicious"
+   ],
+   "props": [
+    [
+     "tools/shovel",
+     1.6,
+     -0.6,
+     1.2
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "say": "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "burst@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "cannon@50"
+   ],
+   "say": "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:scared",
+    "CAV:0:surprised"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "fx": [
+    "burst@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "cannon@20",
+    "thump@50"
+   ],
+   "text": "5.000 °C",
+   "titulo": true,
+   "say": "Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco."
+  },
+  {
+   "shot": "low",
+   "who": [
+    "CAV:0:scared"
+   ],
+   "fx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "whoosh@50"
+   ],
+   "say": "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin:paper",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "cochichar",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAV:0:shock",
+    "PRO:0:smug"
+   ],
+   "acao": "discutir",
+   "say": "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:laugh",
+    "CAV:0:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "40 MINUTOS",
+   "titulo": true,
+   "say": "Os cientistas chamam isso de túnel da gravidade."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "say": "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem.",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ]
+  }
+ ],
+ "visual": {
+  "local": "Brasil (ponto de partida) e o oceano Pacifico perto do Japao (antipoda); poco de Kola, na Russia",
+  "quando": "hoje, de dia (hipotese)",
+  "participantes": [
+   "um cavador com pa",
+   "um professor de geologia",
+   "curiosos"
+  ],
+  "roupas": {
+   "CAV": "roupa de trabalho com capacete",
+   "PRO": "professor de jaleco",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "terreno com buraco, camadas de rocha, globo terrestre mostrando o caminho ate o outro lado",
+  "objetos": [
+   "pa",
+   "globo terrestre",
+   "perfil das camadas da Terra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole",
+   "https://en.wikipedia.org/wiki/Gravity_train"
+  ]
+ }
+}

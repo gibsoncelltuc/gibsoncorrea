@@ -1,0 +1,551 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 11,
+ "title": "A Janela do Cybertruck",
+ "titulo_base": "A Janela do Cybertruck",
+ "set": "hall",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/steel_ball",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "T"
+  },
+  "DSG": {
+   "jacket": "#2a2d33",
+   "pants": "#3a3d44",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3a2a",
+   "pele": "#e8c8a8"
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "mapa_at": 3,
+   "set": "hall",
+   "hora": "dia",
+   "crowd": {
+    "n": 0
+   },
+   "text": "VIDRO BLINDADO?",
+   "titulo": true,
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "gancho",
+   "say": "Uma picape blindada teve as janelas rachadas ao vivo, no lançamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rachadas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:smile"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/steel_ball",
+     0.0,
+     -1.2,
+     1.03,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "promessa",
+   "say": "E mesmo assim virou sucesso de reservas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sucesso"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "mapa": "CALIFÓRNIA",
+   "bloco": "prova",
+   "say": "Em 2019, a Tesla apresentou o Cybertruck.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apresentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "prova",
+   "say": "Musk garantiu que o vidro era super resistente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "garantiu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "DSG:0:stern:ball"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "prova",
+   "say": "O designer jogou uma esfera de aço na janela.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:shock"
+   ],
+   "fx": [
+    "burst@3"
+   ],
+   "sfx": [
+    "thump@3"
+   ],
+   "impact": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "set": "hall",
+   "hora": "dia",
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "escalada",
+   "say": "Acontece que o vidro rachou, ao vivo, na frente da plateia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rachou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "DSG:0:nervous"
+   ],
+   "fx": [
+    "burst@4"
+   ],
+   "sfx": [
+    "thump@4"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "set": "hall",
+   "hora": "dia",
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "escalada",
+   "say": "Ele tentou em outra janela. Também rachou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/steel_ball",
+     2.4,
+     0.2,
+     1.03,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/cybertruck",
+     7.0,
+     -14.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "set": "hall",
+   "hora": "dia",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Musk disse que, nos testes, o vidro aguentava.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disse"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "orbit",
+   "who": [
+    "MUS:0:laugh",
+    "DSG:0:grin"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "tiros": false,
+   "batalha": false,
+   "set": "hall",
+   "hora": "dia",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "text": "146 MIL RESERVAS",
+   "bloco": "pagamento",
+   "say": "Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "reservas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/cybertruck",
+     0.0,
+     -8.0,
+     1.37,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "mapa_at": 3,
+   "set": "hall",
+   "hora": "dia",
+   "crowd": {
+    "n": 0
+   },
+   "text": "CYBERTRUCK",
+   "titulo": true,
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 11.1,
+   "d1": 10.6,
+   "bloco": "loop",
+   "say": "O vidro falhou, a venda não. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "falhou"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 0.9,
+ "marco": "kit/marco_hollywood",
+ "variar_cenario": false,
+ "visual": {
+  "local": "Tesla Design Studio, Hawthorne, California: palco escuro com luzes de neon e plateia",
+  "quando": "21 de novembro de 2019, noite",
+  "participantes": [
+   "Elon Musk (jaqueta de couro preta)",
+   "designer Franz von Holzhausen (camiseta preta)",
+   "plateia de convidados"
+  ],
+  "roupas": {
+   "MUS": "jaqueta de couro preta",
+   "DSG": "camiseta preta e calca escura",
+   "POV": "roupa casual"
+  },
+  "cenario": "palco escuro com luzes de neon, a picape angular de aco no centro, telao atras",
+  "objetos": [
+   "Cybertruck de aco inox",
+   "esfera de aco",
+   "marreta"
+  ],
+  "explicacoes": [
+   "No lancamento do Cybertruck (21/11/2019) a esfera de aco rachou as duas janelas \"armor glass\"; Musk disse \"it didn't go through, that's the plus side\"; dias depois anunciou 146 mil reservas (fonte: Wikipedia Tesla Cybertruck)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+  ],
+  "locacoes": [
+   "hall"
+  ],
+  "buscas": {
+   "lancamento": "Cybertruck unveiling 2019 broken window",
+   "picape": "Tesla Cybertruck 2019 prototype"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a picape 'blindada' teve as janelas rachadas ao vivo e mesmo assim virou sucesso. Pagamento: a esfera de aco rachou duas janelas na frente da plateia, mas vieram mais de 140 mil reservas.",
+ "loop_frase_ok": true
+}

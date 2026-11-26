@@ -1,0 +1,194 @@
+{
+ "id": "bolos1838",
+ "ano": 1838,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "CON",
+    "OFI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cake_table",
+    "kit/marco_ulua"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "França e México entraram em guerra por causa de uma confeitaria.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "CON",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cake_table",
+    "kit/marco_ulua"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E a conta dos bolos nunca foi paga de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CON",
+    "OFI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_two",
+    "kit/cake_table",
+    "kit/marco_ulua",
+    "nature/lamppost"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Um confeiteiro francês tinha uma doceria perto da Cidade do México.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OFI",
+    "OFI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/barrel_r",
+    "kit/cake_table",
+    "kit/chest"
+   ],
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CON",
+    "REI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Pediu sessenta mil pesos de indenização. A loja valia menos de mil.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "FRA",
+    "FRA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/marco_ulua",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que a França assumiu a briga e mandou navios de guerra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FRA"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "cannon",
+    "kit/marco_ulua"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GEN",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "O México prometeu pagar a conta, e a França foi embora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CON",
+    "OFI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cake_table"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Esse dinheiro dos bolos nunca chegou. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

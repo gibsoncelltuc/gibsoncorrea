@@ -1,0 +1,557 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 14,
+ "title": "O Químico que Sonhou com uma Cobra",
+ "titulo_base": "O Químico que Sonhou com uma Cobra",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/snake_ring",
+ "outfits": {
+  "KEK": {
+   "profissao": "cientista",
+   "beard": "#4a3422",
+   "moustache": "#4a3422",
+   "hair": "#4a3422"
+  },
+  "ALU": {
+   "jacket": "#2a4a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a4a2a"
+  },
+  "COL": {
+   "profissao": "cientista",
+   "beard": "#9a9a9a",
+   "hair": "#9a9a9a"
+  },
+  "POV": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "tophat",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "KEK:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "SONHO",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "gancho",
+   "say": "Um segredo da química foi resolvido num cochilo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cochilo"
+     }
+    ]
+   },
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "KEK:0:smile"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E quem deu a resposta foi uma cobra de sonho.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobra"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "close",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "close (rosto e ombros); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile"
+   ],
+   "mapa": "BÉLGICA",
+   "mapa_at": 3,
+   "impact": true,
+   "props": [],
+   "detalhe": false,
+   "d0": 12.0,
+   "d1": 11.0,
+   "bloco": "prova",
+   "say": "Em 1865, August Kekulé tinha um problema.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "problema"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KEK:0:worried",
+    "ALU:0:suspicious:paper"
+   ],
+   "acao": "discutir",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 6,
+     "un": "CARBONOS",
+     "na": "seis"
+    }
+   },
+   "bloco": "prova",
+   "say": "Ninguém sabia arrumar os seis carbonos do benzeno.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "seis"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:bored"
+   ],
+   "props": [
+    [
+     "kit/fireplace",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "mk/Chair_1",
+     0.0,
+     0.95,
+     1.3,
+     {
+      "drop": false
+     }
+    ]
+   ],
+   "bloco": "prova",
+   "say": "Numa noite fria, ele cochilou diante da lareira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cochilou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e fireplace juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/fireplace",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "hora": "noite",
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "explica": {
+    "objeto": "kit/snake_ring",
+    "manobra": "gira",
+    "passos": [
+     "ÁTOMOS",
+     "COBRA",
+     "ANEL"
+    ]
+   },
+   "bloco": "escalada",
+   "say": "No sonho, átomos dançavam como cobras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dançavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "hora": "noite",
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "explica": {
+    "objeto": "kit/snake_ring",
+    "manobra": "gira",
+    "passos": [
+     "ÁTOMOS",
+     "COBRA",
+     "ANEL"
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que uma delas mordeu o próprio rabo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mordeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "hora": "noite",
+   "who": [
+    "KEK:0:shock"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "bloco": "escalada",
+   "say": "Ele acordou num pulo: o benzeno era um anel!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acordou"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "low",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "COL:0:suspicious"
+   ],
+   "text": "REMÉDIOS, TINTAS, PLÁSTICOS",
+   "tat": 15,
+   "tstyle": "gold",
+   "props": [
+    [
+     "kit/snake_ring",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Esse anel virou base de remédios, tintas e plásticos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "anel"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "COL:0:suspicious"
+   ],
+   "tat": 15,
+   "tstyle": "gold",
+   "props": [
+    [
+     "kit/snake_ring",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Muita gente duvida do sonho. Mas o anel estava certo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "duvida"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e snake_ring juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "KEK:0:grin",
+    "COL:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/snake_ring",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1865",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Ele dizia: aprendam a sonhar. Porque...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sonhar"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e snake_ring juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/snake_ring",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  }
+ ],
+ "variar_cenario": false,
+ "cinf": 1.5,
+ "exp": 1.972,
+ "regiao": "europa",
+ "visual": {
+  "local": "Gante (Belgica): gabinete de professor com lareira, livros e vidraria de laboratorio; Berlim: salao de festa da Sociedade Alema de Quimica",
+  "quando": "1865 (a descoberta, numa noite fria); 1890 (a Benzolfest em Berlim, quando ele contou o sonho)",
+  "participantes": [
+   "August Kekule, professor de quimica de barba cheia",
+   "colegas quimicos",
+   "alunos",
+   "convidados da Benzolfest"
+  ],
+  "roupas": {
+   "KEK": "sobrecasaca escura dos anos 1860, colete, barba e bigode castanhos",
+   "COL": "quimico mais velho de sobrecasaca e barba grisalha",
+   "ALU": "aluno de paleto escuro",
+   "POV": "publico de 1865 com chapeu-coco e cartola"
+  },
+  "cenario": "gabinete com lareira acesa e poltrona, quadro com formulas, frascos de laboratorio; salao de banquete em Berlim",
+  "objetos": [
+   "anel do benzeno (cobra mordendo o rabo)",
+   "lareira",
+   "poltrona",
+   "papel com desenhos de moleculas",
+   "frascos de quimica"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+   "https://en.wikipedia.org/wiki/Benzene#History"
+  ],
+  "explicacoes": [
+   "Anel do benzeno: seis atomos de carbono ligados em anel fechado (hexagono), proposto por August Kekule em 1865 (Bulletin de la Societe Chimique de Paris); o sonho da cobra mordendo o rabo foi contado por ele em 1890, no Benzolfest de Berlim"
+  ]
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um segredo da quimica resolvido num cochilo, com a resposta de uma cobra de sonho. Pagamento: a cobra mordendo o rabo mostrou o anel do benzeno, base de remedios, tintas e plasticos.",
+ "loop_frase_ok": true,
+ "max_wide": 3
+}

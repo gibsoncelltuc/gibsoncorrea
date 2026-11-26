@@ -1,0 +1,231 @@
+{
+ "id": "porco1859",
+ "ano": 1859,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "wide",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/haybale",
+    "nature/picket_fence"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Dois países quase foram à guerra por causa de um porco.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cross",
+    "nature/picket_fence"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E a única baixa da guerra foi ele.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ",
+    "IRL"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "A ilha de San Juan não tinha dono definido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/barn",
+    "kit/batatas",
+    "nature/flowerbed",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/scarecrow",
+    "tools/wheelbarrow"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Um fazendeiro americano viu um porco comendo suas batatas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "nature/haybale",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Ele atirou. O porco era de um vizinho inglês.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FAZ",
+    "IRL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/haybale",
+    "nature/picket_fence",
+    "tools/wheelbarrow"
+   ],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Ofereceu dez dólares. O dono exigiu cem.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "AME",
+    "AME",
+    "FAZ"
+   ],
+   "multidao": 16,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "Os americanos mandaram soldados para a ilha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ING",
+    "AME"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "A Inglaterra respondeu com navios de guerra.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ALM",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Acontece que o almirante inglês se recusou a atacar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ING",
+    "AME",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Os soldados acabaram fazendo festas juntos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "FAZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/haybale",
+    "nature/picket_fence"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "Ninguém deu um tiro, só no porco. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

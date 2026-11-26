@@ -1,0 +1,232 @@
+{
+ "id": "mendel1856",
+ "ano": 1856,
+ "cenarios_trocados": [
+  [
+   "video",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 1",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "medieval",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pe_ervilha",
+    "kit/vagem_verde"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um monge contando ervilhas descobriu como herdamos o que somos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E ninguém acreditou nele enquanto estava vivo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/church",
+    "kit/pe_ervilha"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1856, Gregor Mendel cuidava da horta de um mosteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
+   ],
+   "palavras": 6,
+   "cena": "b3",
+   "frase": "Cruzou ervilhas amarelas com ervilhas verdes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/vagem_amarela"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Todas saíram amarelas, como se o verde tivesse sumido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/vagem_amarela"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Ele plantou de novo e contou ervilha por ervilha, por anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que o verde voltou: três amarelas para uma verde.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN",
+    "FRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Cada filho herda uma instrução do pai e outra da mãe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/vagem_amarela",
+    "kit/vagem_verde"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Só depois da morte dele, viram que estava certo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pe_ervilha",
+    "kit/vagem_verde"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Ele morreu sem saber. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "newton1666",
+ "titulo": "Curiosidade e Ciência EP 01 - Newton e a Maçã",
+ "ancoras": {
+  "ano": 1666,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "interior madeira",
+   "loc_campo",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/barn",
+  "buildings/house_small",
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/apple",
+  "kit/lua_ceu",
+  "kit/room_europa_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/haybale",
+  "nature/scarecrow",
+  "nature/tree_oak"
+ ],
+ "pesquisa_visual": {
+  "local": "Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste",
+  "quando": "1665-1666, verao, tarde",
+  "participantes": [
+   "Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)",
+   "a mae Hannah",
+   "William Stukeley (amigo, anos depois)"
+  ],
+  "roupas": {
+   "NEW": "casaca marrom simples do seculo 17, camisa branca, cabelo comprido",
+   "MAE": "vestido escuro e touca",
+   "AMI": "casaca e peruca",
+   "LAV": "roupa de camponeses ingleses"
+  },
+  "cenario": "fazenda inglesa de pedra calcaria, pomar com macieira, campo verde; sala com lareira",
+  "objetos": [
+   "maca vermelha",
+   "macieira",
+   "livros e penas de escrever"
+  ],
+  "explicacoes": [
+   "Newton voltou a Woolsthorpe durante a peste (1665-66); segundo William Stukeley, a queda de uma maca o fez pensar na gravidade alcancando a Lua; publicou os Principia em 1687 (fonte: Wikipedia Isaac Newton's apple tree)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Woolsthorpe_Manor",
+   "https://en.wikipedia.org/wiki/Isaac_Newton%27s_apple_tree"
+  ],
+  "buscas": {
+   "casa": "Woolsthorpe Manor apple tree",
+   "maca": "red apple on branch"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

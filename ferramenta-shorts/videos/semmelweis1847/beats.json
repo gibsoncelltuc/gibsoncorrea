@@ -1,0 +1,459 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 13,
+ "title": "O Médico que Mandou Lavar as Mãos",
+ "titulo_base": "O Médico que Mandou Lavar as Mãos",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/wash_basin",
+ "outfits": {
+  "SEM": {
+   "profissao": "medico",
+   "moustache": "#5a3a22",
+   "hair": "#5a3a22",
+   "hat": "hair"
+  },
+  "DIR": {
+   "profissao": "medico",
+   "beard": "#9a9a9a",
+   "hair": "#9a9a9a",
+   "hat": "tophat",
+   "cap": "#1b1b1f"
+  },
+  "KOL": {
+   "profissao": "medico",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "PAR": {
+   "jacket": "#e8e4da",
+   "pants": "#4a5a7a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun",
+   "glasses": false
+  },
+  "MAE": {
+   "jacket": "#b56a8a",
+   "pants": "#4a2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a4a2a",
+   "hairStyle": "bun"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "cap",
+    "straw",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SEM:0:stern",
+    "DIR:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/wash_basin",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "LAVE AS MÃOS",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "interior": "hospital",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "expulso"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAR:0:smile"
+   ],
+   "props": [
+    [
+     "kit/wash_basin",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "LAVE AS MÃOS",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "explica": false,
+   "bloco": "promessa",
+   "say": "Hoje é chamado de salvador das mães.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "salvador"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ÁUSTRIA",
+   "mapa_at": 3,
+   "text": "HOSPITAL DE VIENA",
+   "titulo": true,
+   "props": [
+    [
+     "kit/maca",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/room_hospital",
+     0,
+     -6,
+     1.0
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "alas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MAE:0:scared",
+    "SEM:0:sad"
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "bloco": "prova",
+   "say": "Na ala dos médicos, morriam muito mais mães, de febre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morriam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "KOL:0:shock",
+    "SEM:0:surprised"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "impact": true,
+   "bloco": "escalada",
+   "say": "Um colega se cortou numa autópsia e morreu de febre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "morreu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "SEM:0:surprised"
+   ],
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "bloco": "escalada",
+   "say": "Acontece que os médicos saíam das autópsias de mãos sujas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sujas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SEM:0:grin",
+    "KOL:0:smile"
+   ],
+   "props": [
+    [
+     "kit/wash_basin",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "batalha": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "detalhe": true,
+   "bloco": "escalada",
+   "say": "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lavar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "SEM:0:laugh",
+    "MAE:0:laugh",
+    "PAR:0:grin"
+   ],
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/wash_basin",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VIDAS SALVAS",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "impact": true,
+   "bloco": "pagamento",
+   "say": "As mortes caíram quase dez vezes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "DIR:0:angry",
+    "SEM:0:shout"
+   ],
+   "acao": "discutir",
+   "interacao": "empurrar",
+   "fx": [
+    "ring@50"
+   ],
+   "sfx": [
+    "sting@50"
+   ],
+   "bloco": "pagamento",
+   "say": "Mas os médicos se ofenderam e o expulsaram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ofenderam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SEM:0:stern",
+    "DIR:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/wash_basin",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1847",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "interior": "hospital",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Lavar as mãos virou insulto. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lavar"
+     }
+    ]
+   }
+  }
+ ],
+ "variar_cenario": false,
+ "visual": {
+  "local": "Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto com leitos em fileira, sala de autopsia",
+  "quando": "1846-1849, dia",
+  "participantes": [
+   "Ignaz Semmelweis (calvo, bigode, sobrecasaca escura)",
+   "medicos e estudantes de sobrecasaca",
+   "parteiras de avental branco",
+   "maes gravidas",
+   "Jakob Kolletschka"
+  ],
+  "roupas": {
+   "SEM": "sobrecasaca escura e bigode",
+   "DIR": "sobrecasaca e costeletas grisalhas",
+   "PAR": "vestido escuro e avental branco",
+   "MAE": "camisola branca de hospital",
+   "KOL": "sobrecasaca e barba"
+  },
+  "cenario": "enfermaria longa com leitos de ferro em fileira, paredes claras, janelas altas; bacia de agua clorada na porta",
+  "objetos": [
+   "bacia com agua e cal clorada",
+   "bisturi",
+   "leitos de hospital",
+   "lapide"
+  ],
+  "explicacoes": [
+   "Na Primeira Clinica (medicos) de Viena a febre puerperal matava muito mais que na Segunda (parteiras); apos a morte de Kolletschka, Semmelweis impos a lavagem com cal clorada em 1847 e a mortalidade caiu de cerca de 18% para 2%; foi demitido e morreu em 1865 (fonte: Wikipedia Ignaz Semmelweis)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+   "https://en.wikipedia.org/wiki/Vienna_General_Hospital"
+  ],
+  "buscas": {
+   "hospital": "Vienna General Hospital 1840s maternity ward",
+   "medico": "Ignaz Semmelweis portrait"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um medico pediu para lavarem as maos e foi expulso; hoje e' o salvador das maes. Pagamento: a bacia com cloro fez as mortes cairem quase dez vezes, mas ele foi mandado embora.",
+ "loop_frase_ok": true
+}

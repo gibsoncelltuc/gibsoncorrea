@@ -1,0 +1,211 @@
+{
+ "id": "jenkins1739",
+ "ano": 1739,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "JEN",
+    "ESP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Uma orelha cortada começou uma guerra de nove anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JEN",
+    "ESP"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o dono da orelha levou ela até o Parlamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CAP",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O comandante espanhol cortou a orelha dele com a espada.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "CAP",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "\"Leve isso ao seu rei\", teria dito.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "JEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRE",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Acontece que a Inglaterra só queria um pretexto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ESP",
+    "ING"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Nove anos de guerra, por causa de uma orelha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JEN",
+    "ESP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ear_jar"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Jenkins nunca recuperou a orelha. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

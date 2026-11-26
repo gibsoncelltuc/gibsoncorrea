@@ -1,0 +1,88 @@
+{
+ "id": "darwin1835",
+ "titulo": "Curiosidade e Ciência EP 08 - Darwin e os Tentilhões",
+ "ancoras": {
+  "ano": 1835,
+  "era": "historica",
+  "regiao": "nenhuma",
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "harbor",
+   "interior madeira",
+   "interior pedra"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/bancada",
+  "kit/finch",
+  "kit/finch_long",
+  "kit/finch_thick",
+  "kit/navio_fragata",
+  "kit/room_colonial_stone",
+  "kit/room_europa_wood",
+  "kit/room_verde_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "Ilhas Galapagos, no Pacifico (Equador): rocha vulcanica preta, cactos, praias, tartarugas e iguanas; depois Londres",
+  "quando": "setembro e outubro de 1835 (Galapagos); 1837 (Gould em Londres); 1859 (o livro); de dia",
+  "participantes": [
+   "Charles Darwin, naturalista de 26 anos",
+   "marinheiros do HMS Beagle",
+   "capitao Robert FitzRoy",
+   "John Gould, ornitologo"
+  ],
+  "roupas": {
+   "DAR": "cavalheiro ingles de 1835: casaca, colete, gravata de laco, chapeu",
+   "MAR": "marinheiro da Marinha Real de 1835: camisa listrada e chapeu de palha",
+   "GOU": "cientista de 1837 de casaca escura e gravata",
+   "POV": "cientistas e publico de casaca"
+  },
+  "cenario": "ilha vulcanica com cactos e rochas pretas, navio a vela HMS Beagle ancorado, gabinete de estudo em Londres com aves empalhadas",
+  "objetos": [
+   "tentilhoes",
+   "caderno de anotacoes",
+   "navio HMS Beagle",
+   "livro A Origem das Especies"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Darwin%27s_finches",
+   "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

@@ -1,0 +1,500 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 16,
+ "title": "O Cachorro que Inventou o Velcro",
+ "titulo_base": "O Cachorro que Inventou o Velcro",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/burr",
+ "outfits": {
+  "MES": {
+   "jacket": "#5a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "moustache": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "TEC": {
+   "profissao": "comerciante"
+  },
+  "AST": {
+   "jacket": "#f4f4f2",
+   "pants": "#f4f4f2",
+   "boots": "#d4d4d8",
+   "hat": "helmet",
+   "cap": "#f4f4f2",
+   "sash": "#2f6fd0"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:surprised",
+    "TEC:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.9,
+     0.8
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "O velcro nasceu de um passeio com o cachorro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passeio"
+     }
+    ]
+   },
+   "text": "INVENTADO POR UM CACHORRO",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:smile"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.4,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E hoje ele está no seu tênis.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tênis"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:smile"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ],
+   "impact": false,
+   "shot_lock": true,
+   "mapa": "SUÍÇA",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:angry"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     0.6
+    ]
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "impact": false,
+   "shot_lock": true,
+   "set": "mountain",
+   "detalhe": false,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "O cachorro e a calça estavam cheios de carrapichos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carrapichos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MES:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/microscopio",
+     3.6,
+     -2.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Curioso, ele olhou um carrapicho no microscópio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "olhou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "MES:0:shock"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que cada espinho tinha um ganchinho na ponta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ganchinho"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "MES:0:grin"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Ele pensou: uma fita com ganchinhos e outra com voltinhas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pensou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "TEC:0:laugh",
+    "MES:0:nervous"
+   ],
+   "acao": "discutir",
+   "set": "street",
+   "impact": true,
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "escalada",
+   "say": "Os tecelões riram. Levou quase dez anos até acertar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "riram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AST:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rocket",
+     7.0,
+     -14.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/moon",
+     -7.0,
+     -14.0,
+     5.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VELCRO",
+   "titulo": true,
+   "set": "arctic",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "pagamento",
+   "say": "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "usaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MES:0:surprised",
+    "TEC:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/burr",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.9,
+     0.8
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Um cachorro cheio de carrapichos. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca)",
+  "quando": "1941 (passeio, verao) e anos 1950",
+  "participantes": [
+   "George de Mestral (terno e chapeu de caca, bigode)",
+   "seu cachorro",
+   "teceloes",
+   "astronautas da Apollo"
+  ],
+  "roupas": {
+   "MES": "casaco de tweed e chapeu",
+   "TEC": "avental de oficina",
+   "AST": "traje espacial branco",
+   "POV": "roupa dos anos 50"
+  },
+  "cenario": "trilha nos Alpes com pinheiros e montanhas, sala com microscopio, fabrica de tecido; espaco",
+  "objetos": [
+   "carrapicho de bardana",
+   "microscopio",
+   "fita de velcro de nailon"
+  ],
+  "explicacoes": [
+   "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Velcro",
+   "https://en.wikipedia.org/wiki/George_de_Mestral"
+  ],
+  "buscas": {
+   "carrapicho": "burdock burr hooks microscope",
+   "montanha": "Swiss Alps trail Jura 1940s"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o velcro nasceu de um passeio com o cachorro e hoje esta no seu tenis. Pagamento: os carrapichos tinham ganchinhos; virou a fita de ganchos e voltinhas, usada ate no espaco.",
+ "loop_frase_ok": true
+}

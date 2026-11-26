@@ -1,0 +1,70 @@
+{
+ "id": "paris1870",
+ "titulo": "Guerras Inusitadas EP 24 - O Cardápio do Zoológico",
+ "ancoras": {
+  "ano": 1870,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "day",
+  "cenarios": [
+   "interior loja",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "barrel",
+  "buildings/house_two",
+  "kit/bife_elefante",
+  "kit/marco_notredame",
+  "kit/panela",
+  "kit/rato",
+  "kit/room_europa_shop",
+  "kit/room_franca_shop",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)",
+  "quando": "19 de setembro de 1870 a 28 de janeiro de 1871 (Natal de 1870 com neve e frio forte)",
+  "participantes": [
+   "parisienses famintos",
+   "Guarda Nacional de quepe",
+   "o acougueiro Deboos da Boucherie Anglaise",
+   "o chef do Cafe Voisin",
+   "os elefantes Castor e Polux"
+  ],
+  "roupas": {
+   "PAR": "parisienses de 1870: casaco, cartola, chapeu-coco ou quepe da Guarda Nacional",
+   "BUT": "acougueiro de avental branco",
+   "CHF": "dono de restaurante de fraque e cartola"
+  },
+  "cenario": "rua de Paris com neve no inverno, fila no acougue, zoologico com os elefantes, salao de restaurante, baloes subindo com noticias",
+  "objetos": [
+   "panelas e o cardapio do Natal",
+   "carne de elefante no acougue",
+   "baloes de gas",
+   "pombos-correio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)",
+   "https://en.wikipedia.org/wiki/Castor_and_Pollux_(elephants)"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

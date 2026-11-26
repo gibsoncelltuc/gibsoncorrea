@@ -1,0 +1,124 @@
+{
+ "id": "fleming1928",
+ "ano": 1928,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Fleming e a Penicilina",
+   "consultas": [
+    "Fleming e a Penicilina",
+    "Um Em Alexander Fleming Londres 1928"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hospital St Mary's, Londres: laboratorio pequeno com bancada de madeira, microsc",
+   "consultas": [
+    "Hospital St Mary's Londres",
+    "Hospital St Mary's Londres 1928"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1928",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1928",
+   "consultas": [
+    "1928 fashion clothing",
+    "1928 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Alexander Fleming",
+   "consultas": [
+    "Alexander Fleming",
+    "Alexander Fleming 1928"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "colegas do laboratorio",
+   "consultas": [
+    "colegas do laboratorio",
+    "colegas do laboratorio 1928"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Howard Florey e Ernst Chain, que transformaram em remedio",
+   "consultas": [
+    "Howard Florey e Ernst Chain que transformaram em remedio",
+    "Howard Florey e Ernst Chain que transformaram em remedio 1928"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "placa de Petri com mofo",
+   "consultas": [
+    "placa de Petri com mofo",
+    "placa de Petri com mofo 1928"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "microscopio",
+   "consultas": [
+    "microscopio",
+    "microscopio 1928"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "frascos de vidro",
+   "consultas": [
+    "frascos de vidro",
+    "frascos de vidro 1928"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "petri mofo",
+   "consultas": [
+    "placa de Petri com mofo",
+    "Fleming e a Penicilina"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bancada",
+   "consultas": [
+    "bancada"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "petri",
+   "consultas": [
+    "petri"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "laboratorio da epoca",
+   "consultas": [
+    "laboratory 1928",
+    "laboratory"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O mofo matava bactérias. Era a penicilina.",
+   "consultas": [
+    "matava bacterias penicilina",
+    "petri mofo diagram"
+   ]
+  }
+ ]
+}

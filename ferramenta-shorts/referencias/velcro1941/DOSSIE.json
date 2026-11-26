@@ -1,0 +1,89 @@
+{
+ "id": "velcro1941",
+ "titulo": "Curiosidade e Ciência EP 16 - O Cachorro que Inventou o Velcro",
+ "ancoras": {
+  "ano": 1941,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "arctic",
+   "interior madeira",
+   "loc_campo",
+   "loc_montanha",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 4",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/burr",
+  "kit/microscopio",
+  "kit/moon",
+  "kit/rocket",
+  "kit/room_europa_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Alpes suicos perto de Genebra (trilha de montanha), oficina/casa de Mestral; tecelagem em Lyon (Franca)",
+  "quando": "1941 (passeio, verao) e anos 1950",
+  "participantes": [
+   "George de Mestral (terno e chapeu de caca, bigode)",
+   "seu cachorro",
+   "teceloes",
+   "astronautas da Apollo"
+  ],
+  "roupas": {
+   "MES": "casaco de tweed e chapeu",
+   "TEC": "avental de oficina",
+   "AST": "traje espacial branco",
+   "POV": "roupa dos anos 50"
+  },
+  "cenario": "trilha nos Alpes com pinheiros e montanhas, sala com microscopio, fabrica de tecido; espaco",
+  "objetos": [
+   "carrapicho de bardana",
+   "microscopio",
+   "fita de velcro de nailon"
+  ],
+  "explicacoes": [
+   "George de Mestral notou em 1941 que os carrapichos de bardana tinham ganchos que prendiam em lacos; desenvolveu o fecho de nailon e patenteou o Velcro (velours + crochet) em 1955; a NASA o popularizou nas missoes Apollo (fonte: Wikipedia Velcro, George de Mestral)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Velcro",
+   "https://en.wikipedia.org/wiki/George_de_Mestral"
+  ],
+  "buscas": {
+   "carrapicho": "burdock burr hooks microscope",
+   "montanha": "Swiss Alps trail Jura 1940s"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

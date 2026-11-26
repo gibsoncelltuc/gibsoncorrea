@@ -1,0 +1,554 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 24,
+ "title": "O Foguete que Voltou de Ré",
+ "titulo_base": "O Foguete que Voltou de Ré",
+ "set": "loc_pista",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/falcon9_land",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "X"
+  },
+  "ENG": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "glasses": true
+  },
+  "ENA": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "POV": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "cap",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "gancho",
+   "say": "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   },
+   "text": "DE RÉ",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smile",
+    "POV:0:smile"
+   ],
+   "fachada": false,
+   "set": "harbor",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E hoje isso virou rotina no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rotina"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "acao": "discutir",
+   "fachada": false,
+   "set": "street",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -10.3,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "objetos": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "prova",
+   "say": "Elon Musk queria reaproveitar foguetes. Muitos achavam impossível.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "reaproveitar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ENG:0:shock"
+   ],
+   "fx": [
+    "splash@30",
+    "puff@40"
+   ],
+   "sfx": [
+    "splash@30"
+   ],
+   "fachada": false,
+   "set": "harbor",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "rz": 1.45,
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "impact": true,
+   "text": "TOMBOU",
+   "bloco": "prova",
+   "say": "As primeiras tentativas tombaram no mar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tombaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:stern"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "text": "11 SATÉLITES",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "mapa": "FLÓRIDA",
+   "bloco": "prova",
+   "say": "Em 2015, o Falcon 9 decolou com onze satélites.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "decolou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ENA:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "thump@40"
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Depois de soltar o topo, a parte de baixo voltou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40",
+    "dust@80"
+   ],
+   "sfx": [
+    "ding@30",
+    "thump@50"
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro_manual": true,
+   "explica": {
+    "objeto": "kit/falcon9_land",
+    "manobra": "sobe",
+    "vfx": [
+     {
+      "k": "jato"
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que ela desceu de ré, com o motor freando a queda.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [
+    "ENG:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@60",
+    "dust@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "thump@60"
+   ],
+   "text": "POUSOU!",
+   "titulo": true,
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro_manual": true,
+   "bloco": "pagamento",
+   "say": "E pousou inteira, abrindo as pernas no último segundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "ENA:0:laugh",
+    "ENG:0:laugh"
+   ],
+   "acao": "comemorar",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "ENG"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fachada": false,
+   "set": "hall",
+   "explica": false,
+   "bloco": "pagamento",
+   "say": "Os funcionários da SpaceX comemoraram e se abraçaram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "comemoraram",
+      "quem": 0
+     },
+     {
+      "faz": "x_abraca",
+      "na": "abraçaram",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "loop",
+   "say": "Antes, o foguete ia para o lixo. Até que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "para"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+  "https://www.spacex.com/launches/"
+ ],
+ "heroi_sem_close_ok": true,
+ "min_momentos": 1,
+ "regiao": "eua",
+ "visual": {
+  "local": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)",
+  "quando": "21 de dezembro de 2015, noite (20h29 local)",
+  "participantes": [
+   "Elon Musk",
+   "engenheiros da SpaceX"
+  ],
+  "roupas": {
+   "MUS": "camisa preta e calça escura",
+   "ENG": "engenheiros de camisa azul e boné",
+   "ENA": "engenheira de camisa azul e coque"
+  },
+  "cenario": "pista de concreto com foguete Falcon 9, costa da Flórida ao fundo",
+  "objetos": [
+   "foguete Falcon 9 com pernas de pouso",
+   "primeiro estágio descendo de ré",
+   "satélites Orbcomm"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+   "referencias/falcon2015/moodboard.jpg"
+  ],
+  "buscas": {
+   "Falcon 9 pouso": "SpaceX Falcon 9 first stage landing Landing Zone 1 December 2015",
+   "Cabo Canaveral": "Cape Canaveral Space Launch Complex 40 aerial",
+   "Elon Musk": "Elon Musk SpaceX 2015",
+   "engenheiros SpaceX": "SpaceX mission control employees cheering landing",
+   "satélites Orbcomm": "Orbcomm OG2 satellite",
+   "Estados Unidos": "map of Florida Cape Canaveral",
+   "roupas e ruas de 2015": "SpaceX employees 2015 hawthorne factory photo",
+   "primeiro estágio descendo de ré": "Falcon 9 first stage landing Cape Canaveral December 2015 photo",
+   "foguete da época": "Falcon 9 rocket landing legs deployed",
+   "O Foguete que Voltou de Ré": "SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1",
+   "foguete da epoca": "Falcon 9 rocket standing on launch pad Cape Canaveral"
+  },
+  "explicacoes": "O primeiro estagio do Falcon 9 se separa, vira, reacende os motores para frear (queima de reentrada e de pouso) e abre quatro pernas antes de tocar o chao. Fonte: SpaceX, missao ORBCOMM-2 (21/12/2015), Landing Zone 1, Cabo Canaveral."
+ },
+ "cinf": 1.5,
+ "exp": 1.404,
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um foguete voltou de re depois de decolar, e hoje isso e' rotina. Pagamento: em 2015 o primeiro estagio do Falcon 9 desceu de re e pousou inteiro, de pe.",
+ "loop_frase_ok": true
+}

@@ -1,0 +1,214 @@
+{
+ "id": "futebol1969",
+ "ano": 1969,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "HON",
+    "SAL"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Dois países fizeram uma guerra de verdade por causa de futebol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SAL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E quem ganhou o jogo não fez um gol na Copa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "TOR",
+    "TOR"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1969, os dois países já disputavam terras.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "HON",
+    "SAL"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Depois veio a vaga na Copa: três jogos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "HON",
+    "SAL"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "No primeiro, Honduras venceu por um a zero.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "HON",
+    "SAL",
+    "HON",
+    "SAL"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "El Salvador venceu o segundo por três a zero. Torcidas brigaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SAL",
+    "SAL",
+    "HON"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "No terceiro, El Salvador venceu na prorrogação.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Acontece que, semanas depois, o exército salvadorenho atacou Honduras.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "SOL",
+    "PRE"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "A guerra durou cem horas, até o cessar-fogo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "HON",
+    "SAL"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Na Copa, perderam os três jogos, sem um gol. Tudo porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  }
+ ]
+}

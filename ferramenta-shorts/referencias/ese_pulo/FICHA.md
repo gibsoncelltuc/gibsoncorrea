@@ -1,0 +1,211 @@
+# FICHA DE REFERENCIA - E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?
+
+- Ano/epoca: None (None)
+- Onde: o planeta inteiro: cidades, campos e praias
+- Quando: hoje (hipotese), de dia
+- Quem: ['pessoas do mundo todo']
+- Roupas: {'POV': 'roupa comum de hoje'}
+- Cenario real: multidoes pulando em varios lugares, globo terrestre
+- Objetos: ['globo terrestre']
+- Cenarios usados no video: harbor, interior madeira, loc_estudio, street
+- PROIBIDO pela epoca (a ferramenta bloqueia): -
+- Proibido pelo roteiro: -
+
+## Explicacoes (ciencia)
+- A
+-  
+- m
+- a
+- s
+- s
+- a
+-  
+- d
+- a
+-  
+- T
+- e
+- r
+- r
+- a
+-  
+- e
+-  
+- c
+- e
+- r
+- c
+- a
+-  
+- d
+- e
+-  
+- 6
+-  
+- x
+-  
+- 1
+- 0
+- ^
+- 2
+- 1
+-  
+- t
+- o
+- n
+- e
+- l
+- a
+- d
+- a
+- s
+- ;
+-  
+- a
+-  
+- h
+- u
+- m
+- a
+- n
+- i
+- d
+- a
+- d
+- e
+- ,
+-  
+- ~
+- 5
+-  
+- x
+-  
+- 1
+- 0
+- ^
+- 8
+-  
+- t
+- o
+- n
+- e
+- l
+- a
+- d
+- a
+- s
+- .
+-  
+- U
+- m
+-  
+- p
+- u
+- l
+- o
+-  
+- c
+- o
+- l
+- e
+- t
+- i
+- v
+- o
+-  
+- m
+- o
+- v
+- e
+- r
+- i
+- a
+-  
+- a
+-  
+- T
+- e
+- r
+- r
+- a
+-  
+- m
+- e
+- n
+- o
+- s
+-  
+- q
+- u
+- e
+-  
+- a
+-  
+- l
+- a
+- r
+- g
+- u
+- r
+- a
+-  
+- d
+- e
+-  
+- u
+- m
+-  
+- a
+- t
+- o
+- m
+- o
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- x
+- k
+- c
+- d
+-  
+- W
+- h
+- a
+- t
+-  
+- I
+- f
+-  
+- #
+- 8
+-  
+- (
+- R
+- a
+- n
+- d
+- a
+- l
+- l
+-  
+- M
+- u
+- n
+- r
+- o
+- e
+- )
+- .
+
+## Fontes visuais
+- https://what-if.xkcd.com/8/
+- https://en.wikipedia.org/wiki/Earth_mass
+
+## Fontes da historia
+- https://what-if.xkcd.com/8/

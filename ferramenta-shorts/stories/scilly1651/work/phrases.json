@@ -1,0 +1,126 @@
+{
+ "duration": 31.944,
+ "frames30": 958,
+ "source": "silence-align (cost 1.21)",
+ "segments": [
+  [
+   0.151083,
+   3.29004
+  ],
+  [
+   4.07483,
+   6.09008
+  ],
+  [
+   6.82337,
+   8.16871
+  ],
+  [
+   8.43192,
+   10.8953
+  ],
+  [
+   11.6726,
+   13.2852
+  ],
+  [
+   14.0732,
+   16.9063
+  ],
+  [
+   17.6388,
+   18.9013
+  ],
+  [
+   19.6821,
+   21.2445
+  ],
+  [
+   22.0388,
+   22.9779
+  ],
+  [
+   23.2186,
+   24.8508
+  ],
+  [
+   25.6155,
+   27.677
+  ],
+  [
+   28.4549,
+   29.67
+  ],
+  [
+   30.4717,
+   31.2154
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra durou 335 anos e ningu\u00e9m disparou um tiro.",
+   "s": 0.151,
+   "e": 3.29
+  },
+  {
+   "text": "E s\u00f3 acabou porque algu\u00e9m resolveu perguntar.",
+   "s": 4.075,
+   "e": 6.09
+  },
+  {
+   "text": "Em 1651,",
+   "s": 6.823,
+   "e": 8.169
+  },
+  {
+   "text": "piratas das ilhas Scilly atacavam navios holandeses.",
+   "s": 8.432,
+   "e": 10.895
+  },
+  {
+   "text": "A Holanda declarou guerra \u00e0s ilhas.",
+   "s": 11.673,
+   "e": 13.285
+  },
+  {
+   "text": "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.",
+   "s": 14.073,
+   "e": 16.906
+  },
+  {
+   "text": "Os holandeses foram embora.",
+   "s": 17.639,
+   "e": 18.901
+  },
+  {
+   "text": "E ningu\u00e9m lembrou de assinar a paz.",
+   "s": 19.682,
+   "e": 21.244
+  },
+  {
+   "text": "Tr\u00eas s\u00e9culos depois,",
+   "s": 22.039,
+   "e": 22.978
+  },
+  {
+   "text": "um historiador escreveu para a Holanda.",
+   "s": 23.219,
+   "e": 24.851
+  },
+  {
+   "text": "O embaixador veio \u00e0s ilhas e assinou a paz.",
+   "s": 25.616,
+   "e": 27.677
+  },
+  {
+   "text": "Ningu\u00e9m lembrou de um papel.",
+   "s": 28.455,
+   "e": 29.67
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 30.472,
+   "e": 31.215
+  }
+ ]
+}

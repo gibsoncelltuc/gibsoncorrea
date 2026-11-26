@@ -1,0 +1,84 @@
+{
+ "id": "pasteur1885",
+ "titulo": "Curiosidade e Ciência EP 06 - Pasteur e a Vacina da Raiva",
+ "ancoras": {
+  "ano": 1885,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "day",
+  "cenarios": [
+   "hall",
+   "interior loja",
+   "interior madeira",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/room_azul_wood",
+  "kit/room_europa_wood",
+  "kit/room_franca_shop",
+  "kit/room_verde_shop",
+  "kit/syringe",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bench",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/CandleStick_Triple",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
+  "mk/Table_Large",
+  "mk/Vase_4"
+ ],
+ "pesquisa_visual": {
+  "local": "Paris, laboratorio de Pasteur na Escola Normal Superior (rua d'Ulm): bancadas com frascos; depois o Instituto Pasteur",
+  "quando": "julho de 1885, dia",
+  "participantes": [
+   "Louis Pasteur (barba grisalha, casaca preta, solideu)",
+   "Joseph Meister, menino alsaciano de 9 anos",
+   "a mae de Joseph",
+   "medicos Vulpian e Grancher"
+  ],
+  "roupas": {
+   "PAS": "sobrecasaca preta e barba grisalha",
+   "MED": "sobrecasaca escura e cartola",
+   "MAE": "vestido longo escuro e touca",
+   "POV": "roupas do seculo 19"
+  },
+  "cenario": "laboratorio do seculo 19 com frascos, tubos e microscopio; predio do Instituto Pasteur em Paris",
+  "objetos": [
+   "seringa de vidro do seculo 19",
+   "frascos com medula de coelho",
+   "microscopio"
+  ],
+  "explicacoes": [
+   "Em 6/7/1885 Joseph Meister, mordido por um cao raivoso, recebeu 13 inoculacoes em 10 dias da vacina de Pasteur e sobreviveu; mais tarde trabalhou como zelador do Instituto Pasteur (fonte: Wikipedia Joseph Meister, Rabies vaccine)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Joseph_Meister",
+   "https://en.wikipedia.org/wiki/Louis_Pasteur"
+  ],
+  "buscas": {
+   "lab": "Louis Pasteur laboratory 1885",
+   "instituto": "Institut Pasteur Paris 19th century"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

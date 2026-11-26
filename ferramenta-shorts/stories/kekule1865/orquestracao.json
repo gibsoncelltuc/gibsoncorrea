@@ -1,0 +1,229 @@
+{
+ "id": "kekule1865",
+ "ano": 1865,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 8,
+   "cena": "b0",
+   "frase": "Um segredo da química foi resolvido num cochilo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E quem deu a resposta foi uma cobra de sonho.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Em 1865, August Kekulé tinha um problema.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK",
+    "ALU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Ninguém sabia arrumar os seis carbonos do benzeno.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/fireplace",
+    "mk/Chair_1"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Numa noite fria, ele cochilou diante da lareira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b5",
+   "frase": "No sonho, átomos dançavam como cobras.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/snake_ring (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Acontece que uma delas mordeu o próprio rabo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/snake_ring (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "KEK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Ele acordou num pulo: o benzeno era um anel!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "COL"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Esse anel virou base de remédios, tintas e plásticos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Muita gente duvida do sonho. Mas o anel estava certo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KEK",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/snake_ring"
+   ],
+   "palavras": 6,
+   "cena": "b10",
+   "frase": "Ele dizia: aprendam a sonhar. Porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

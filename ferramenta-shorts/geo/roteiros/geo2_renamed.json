@@ -1,0 +1,74 @@
+{
+ "title": "COUNTRIES THAT CHANGED THEIR NAMES",
+ "hook": "You've probably been using the old names of these countries.",
+ "items": [
+  {
+   "say": "Persia became Iran in 1935.",
+   "hl": [
+    "IRN"
+   ],
+   "big": "PERSIA → IRAN",
+   "icon": "📜"
+  },
+  {
+   "say": "Siam became Thailand in 1939.",
+   "hl": [
+    "THA"
+   ],
+   "big": "SIAM → THAILAND",
+   "icon": "🐘"
+  },
+  {
+   "say": "Ceylon became Sri Lanka in 1972.",
+   "hl": [
+    "LKA"
+   ],
+   "big": "CEYLON → SRI LANKA",
+   "icon": "🫖"
+  },
+  {
+   "say": "Burma became Myanmar in 1989.",
+   "hl": [
+    "MMR"
+   ],
+   "big": "BURMA → MYANMAR",
+   "icon": "🛕"
+  },
+  {
+   "say": "Zaire became the Democratic Republic of the Congo in 1997.",
+   "hl": [
+    "COD"
+   ],
+   "big": "ZAIRE → DR CONGO",
+   "label": "DR Congo",
+   "icon": "🌳"
+  },
+  {
+   "say": "The Czech Republic became Czechia in 2016.",
+   "hl": [
+    "CZE"
+   ],
+   "big": "CZECH REP. → CZECHIA",
+   "icon": "🏰"
+  },
+  {
+   "say": "Swaziland became Eswatini in 2018.",
+   "hl": [
+    "SWZ"
+   ],
+   "big": "SWAZILAND → ESWATINI",
+   "label": "Eswatini",
+   "icon": "👑"
+  },
+  {
+   "say": "And Turkey is now officially Türkiye, since 2022.",
+   "hl": [
+    "TUR"
+   ],
+   "big": "TURKEY → TÜRKIYE",
+   "label": "Türkiye",
+   "icon": "🦃"
+  }
+ ],
+ "id": "geo2_renamed"
+}

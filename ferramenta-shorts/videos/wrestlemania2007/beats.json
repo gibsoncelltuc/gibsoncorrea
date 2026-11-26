@@ -1,0 +1,561 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 15,
+ "title": "Trump na Batalha dos Bilionários",
+ "titulo_base": "Trump na Batalha dos Bilionários",
+ "set": "stadium",
+ "light": "day",
+ "mood": "playful",
+ "heroi": null,
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "VIN": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "tie": "#5a5a62",
+   "pele": "#f0c8a0"
+  },
+  "VIB": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f0c8a0",
+   "tie": "#5a5a62",
+   "pele": "#f0c8a0"
+  },
+  "LAS": {
+   "jacket": "#7a4a2e",
+   "pants": "#27408b",
+   "boots": "#e8c45a",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "pele": "#7a4a2e",
+   "build": "stout",
+   "profissao": "lutador",
+   "trunks": "#27408b",
+   "trunkBand": "#e8c45a",
+   "gloves": "#2a6ad8"
+  },
+  "UMA": {
+   "jacket": "#8a5a3a",
+   "pants": "#d8282f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "pele": "#8a5a3a",
+   "build": "stout",
+   "profissao": "lutador",
+   "trunks": "#d8282f",
+   "trunkBand": "#1b1b1f",
+   "gloves": "#d8282f"
+  },
+  "JUI": {
+   "jacket": "#f4f4f2",
+   "pants": "#1b1b1f",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f0c8a0",
+   "beard": "#5a3a22",
+   "pele": "#f0c8a0"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "group",
+   "who": [
+    "TRU:0:smug",
+    "VIN:0:shock"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     0.0,
+     -1.2,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "detalhe": false,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "stadium",
+   "bloco": "gancho",
+   "say": "Donald Trump raspou a cabeça de outro bilionário num ringue.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raspou"
+     }
+    ]
+   },
+   "text": "BATALHA DOS BILIONÁRIOS",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "JUI:0:angry",
+    "TRU:0:shock"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "stadium",
+   "bloco": "promessa",
+   "say": "E no fim, ele mesmo acabou no chão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chão"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "set": "street",
+   "bloco": "prova",
+   "say": "Foi em 2007, no maior show de luta livre.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "show"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "VIN:0:smug",
+    "TRU:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/clipper",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "cochichar",
+   "fx": [
+    "ring@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "detalhe": false,
+   "interior": "pedra",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Cada um escolheu um lutador. A aposta valia uma cabeça raspada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aposta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:shout",
+    "POV:2:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "fx": [
+    "stars@20"
+   ],
+   "sfx": [
+    "ding@20"
+   ],
+   "text": "80 MIL",
+   "titulo": true,
+   "set": "stadium",
+   "impact": true,
+   "bloco": "prova",
+   "say": "Mais de oitenta mil pessoas lotaram o estádio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lotaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "LAS:0:angry",
+    "UMA:0:angry"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "detalhe": false,
+   "shot_lock": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "stadium",
+   "bloco": "escalada",
+   "say": "O lutador de Trump enfrentou o gigante Umaga.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "enfrentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "LAS:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "kit/ring",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VITÓRIA",
+   "titulo": true,
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "stadium",
+   "impact": true,
+   "bloco": "escalada",
+   "say": "Acontece que o lutador de Trump venceu, e o estádio foi abaixo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "venceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:laugh",
+    "LAS:0:grin",
+    "VIB:0:shock"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/clipper",
+     3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@40"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "stadium",
+   "bloco": "pagamento",
+   "say": "Trump ajudou a raspar a cabeça de Vince McMahon.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raspar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "JUI:0:angry",
+    "TRU:0:shock"
+   ],
+   "props": [
+    [
+     "kit/ring",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "stadium",
+   "bloco": "pagamento",
+   "say": "E o juiz derrubou Trump também.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "derrubou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smile",
+    "JUI:0:smile"
+   ],
+   "props": [],
+   "acao": "comemorar",
+   "interior": "madeira",
+   "bloco": "loop",
+   "say": "Anos depois, foi para o Hall da Fama. Tudo porque...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Hall"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/WrestleMania_23",
+  "https://www.denverpost.com/2015/06/26/that-time-bobby-lashley-pro-wrestled-alongside-donald-trump-2/"
+ ],
+ "exp": 0.81,
+ "variar_cenario": false,
+ "visual": {
+  "local": "Ford Field, Detroit (Michigan): estadio coberto lotado com ringue no centro, telao e fogos",
+  "quando": "1 de abril de 2007 (WrestleMania 23), noite",
+  "participantes": [
+   "Donald Trump (terno escuro, gravata vermelha)",
+   "Vince McMahon (terno, cabelo grisalho)",
+   "Bobby Lashley (lutador de sunga)",
+   "Umaga (lutador samoano tatuado)",
+   "Stone Cold Steve Austin (juiz convidado, careca, colete preto)",
+   "80 mil fas"
+  ],
+  "roupas": {
+   "TRU": "terno escuro e gravata vermelha",
+   "VIN": "terno escuro",
+   "VIB": "terno escuro, careca",
+   "LAS": "sunga e joelheiras",
+   "JUI": "camisa listrada de juiz e colete preto",
+   "POV": "camiseta de fa"
+  },
+  "cenario": "estadio de futebol americano coberto, ringue iluminado no centro, plateia gigante, telao",
+  "objetos": [
+   "ringue",
+   "maquina de raspar cabelo",
+   "cadeira de barbeiro"
+  ],
+  "explicacoes": [
+   "WrestleMania 23 (1/4/2007, Ford Field, 80.103 pessoas): \"Battle of the Billionaires\", Lashley (Trump) venceu Umaga (McMahon) com Steve Austin de juiz; Trump e Lashley rasparam McMahon e Austin aplicou um Stunner em Trump; Trump entrou no WWE Hall of Fame em 2013 (fonte: Wikipedia WrestleMania 23)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/WrestleMania_23"
+  ],
+  "buscas": {
+   "ringue": "WrestleMania 23 Battle of the Billionaires",
+   "estadio": "Ford Field WrestleMania 23 crowd"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Trump raspou a cabeca de outro bilionario num ringue e acabou no chao. Pagamento: a aposta dos lutadores, a vitoria do lutador de Trump, a cabeca raspada de McMahon e Trump derrubado pelo juiz.",
+ "loop_frase_ok": true
+}

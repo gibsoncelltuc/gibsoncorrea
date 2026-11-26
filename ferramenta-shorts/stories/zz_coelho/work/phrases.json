@@ -1,0 +1,54 @@
+{
+ "duration": 10.344,
+ "frames30": 310,
+ "source": "silence-align (cost 0.63)",
+ "segments": [
+  [
+   0.157083,
+   2.20221
+  ],
+  [
+   2.5225,
+   4.25883
+  ],
+  [
+   4.573,
+   6.61133
+  ],
+  [
+   6.90508,
+   7.85508
+  ],
+  [
+   8.17387,
+   9.50629
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Escova, escova, vai, vai,",
+   "s": 0.157,
+   "e": 2.202
+  },
+  {
+   "text": "vai! Um pinguinho de pasta, s\u00f3 isso!",
+   "s": 2.522,
+   "e": 4.259
+  },
+  {
+   "text": "Pra cima e pra baixo, bem devagar.",
+   "s": 4.573,
+   "e": 6.611
+  },
+  {
+   "text": "Tchau, bichinhos!",
+   "s": 6.905,
+   "e": 7.855
+  },
+  {
+   "text": "Meus dentes v\u00e3o brilhar!",
+   "s": 8.174,
+   "e": 9.506
+  }
+ ]
+}

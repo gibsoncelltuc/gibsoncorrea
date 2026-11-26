@@ -1,0 +1,162 @@
+{
+ "duration": 29.976,
+ "frames30": 899,
+ "source": "silence-align (cost 0.81)",
+ "segments": [
+  [
+   0.0,
+   2.69413
+  ],
+  [
+   3.07,
+   5.48925
+  ],
+  [
+   5.85562,
+   6.35604
+  ],
+  [
+   6.55483,
+   8.80392
+  ],
+  [
+   9.18958,
+   11.4361
+  ],
+  [
+   11.8157,
+   13.7966
+  ],
+  [
+   14.0602,
+   14.791
+  ],
+  [
+   15.1531,
+   16.327
+  ],
+  [
+   16.6095,
+   17.3835
+  ],
+  [
+   17.7403,
+   19.2257
+  ],
+  [
+   19.4879,
+   20.3973
+  ],
+  [
+   20.7755,
+   23.0796
+  ],
+  [
+   23.4582,
+   23.7619
+  ],
+  [
+   23.9445,
+   26.0734
+  ],
+  [
+   26.4486,
+   27.1902
+  ],
+  [
+   27.4021,
+   28.4355
+  ],
+  [
+   28.8113,
+   29.5371
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Os cadernos de Marie Curie s\u00f3 podem ser lidos com prote\u00e7\u00e3o.",
+   "s": 0.0,
+   "e": 2.694
+  },
+  {
+   "text": "E v\u00e3o continuar radioativos por mais de mil anos.",
+   "s": 3.07,
+   "e": 5.489
+  },
+  {
+   "text": "Em Paris,",
+   "s": 5.856,
+   "e": 6.356
+  },
+  {
+   "text": "ela trabalhava num galp\u00e3o gelado com o marido Pierre.",
+   "s": 6.555,
+   "e": 8.804
+  },
+  {
+   "text": "Mexia toneladas de min\u00e9rio com uma barra de ferro.",
+   "s": 9.19,
+   "e": 11.436
+  },
+  {
+   "text": "Assim descobriram dois elementos novos:",
+   "s": 11.816,
+   "e": 13.797
+  },
+  {
+   "text": "pol\u00f4nio e r\u00e1dio.",
+   "s": 14.06,
+   "e": 14.791
+  },
+  {
+   "text": "O r\u00e1dio brilhava no escuro,",
+   "s": 15.153,
+   "e": 16.327
+  },
+  {
+   "text": "e ela adorava olhar.",
+   "s": 16.61,
+   "e": 17.384
+  },
+  {
+   "text": "Ela andava com frascos no bolso,",
+   "s": 17.74,
+   "e": 19.226
+  },
+  {
+   "text": "sem saber do perigo.",
+   "s": 19.488,
+   "e": 20.397
+  },
+  {
+   "text": "Acontece que a radia\u00e7\u00e3o destruiu a sa\u00fade dela.",
+   "s": 20.776,
+   "e": 23.08
+  },
+  {
+   "text": "Hoje,",
+   "s": 23.458,
+   "e": 23.762
+  },
+  {
+   "text": "os cadernos dormem em caixas de chumbo em Paris.",
+   "s": 23.945,
+   "e": 26.073
+  },
+  {
+   "text": "Quem quiser ler,",
+   "s": 26.449,
+   "e": 27.19
+  },
+  {
+   "text": "precisa de autoriza\u00e7\u00e3o.",
+   "s": 27.402,
+   "e": 28.436
+  },
+  {
+   "text": "\u00c9 por isso que...",
+   "s": 28.811,
+   "e": 29.537
+  }
+ ]
+}

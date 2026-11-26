@@ -1,0 +1,206 @@
+{
+ "id": "surfcity2019",
+ "ano": 2019,
+ "cenarios_trocados": [
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um país pequeno decidiu virar a capital mundial do surfe.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E os surfistas do mundo inteiro foram atrás.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2019, o presidente Nayib Bukele lançou a Surf City.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Em 2021, o país sediou o Mundial de Surfe.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/surfboard",
+    "kit/volcano"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Depois, vieram 294 surfistas, de olho em Paris.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "O governo promete quinhentos mil empregos, sem garantia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "JOR",
+    "JOR2",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que moradores e ambientalistas se preocupam com a costa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Em 2025, o Mundial voltou para lá.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/surfboard"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Capital do surfe ou exagero? Só sei que foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

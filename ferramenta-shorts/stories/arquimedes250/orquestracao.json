@@ -1,0 +1,214 @@
+{
+ "id": "arquimedes250",
+ "ano": -250,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "track",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um homem saiu correndo da banheira, gritando pela rua.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E foi a banheira que pegou um ladrão de ouro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foi em Siracusa, na Sicília, há dois mil anos.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REI",
+    "OUR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coroa_louros"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O rei desconfiou que o ourives misturou prata na coroa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "REI",
+    "ARQ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coroa_louros"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Ele mandou Arquimedes achar a resposta, sem estragar a coroa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ARQ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bathtub"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que, ao entrar na banheira, a água transbordou.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "A água que sai tem o tamanho do corpo que entra.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bathtub (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Coroa com prata é maior, e derrama mais água.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/coroa_louros (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/coroa_louros"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Conta a lenda: ele gritou Eureca. A coroa tinha prata.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ARQ",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 13,
+   "cena": "b9",
+   "frase": "Dá para enganar muita gente, mas não a água. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  }
+ ]
+}

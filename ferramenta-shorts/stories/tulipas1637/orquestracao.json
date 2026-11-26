@@ -1,0 +1,229 @@
+{
+ "id": "tulipas1637",
+ "ano": 1637,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MER",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_amsterdam",
+    "kit/tulip_striped",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Uma única flor já custou o preço de uma casa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E quem pagou isso perdeu tudo em poucos dias.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/windmill",
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1637, na Holanda, a tulipa virou moda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "RIC",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/tulip_striped"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Num leilão, um bulbo saiu por duas mil moedas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_amsterdam",
+    "kit/tulip_bed"
+   ],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Logo, padeiros e sapateiros também queriam bulbos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "RIC",
+    "MER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_amsterdam",
+    "kit/scroll",
+    "kit/tulip_striped",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Contam que teve gente trocando casas por um único bulbo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "MER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tulip_red"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Um marinheiro comeu um bulbo achando que era cebola.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MER",
+    "POV",
+    "POV",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Acontece que, num leilão de fevereiro, ninguém levantou a mão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/house_small",
+    "kit/marco_amsterdam",
+    "kit/tulip_bed",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Os preços desabaram. Quem trocou a casa ficou só com flores.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MER",
+    "RIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tulip_striped"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Uma loucura que se repete. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

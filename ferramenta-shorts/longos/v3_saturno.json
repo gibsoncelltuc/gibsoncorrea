@@ -1,0 +1,127 @@
+{
+ "id": "v3_saturno",
+ "ambiente": "espaco",
+ "titulo": "Por que Saturno é o Planeta Mais Assustador",
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "-11%",
+ "blocos": [
+  {
+   "modelo": "saturno",
+   "rotulo": "",
+   "prof": "",
+   "cam": "close",
+   "texto": "No polo norte de Saturno existe uma tempestade com seis lados perfeitos. Cada lado desse hexágono é maior que o planeta Terra inteiro. E ela gira lá em cima há décadas, sem parar. Ninguém consegue explicar direito como uma tempestade fica com formato geométrico. E esse nem é o fato mais estranho de Saturno. Fica até o fim, porque o último vai te deixar sem palavras.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "O GIGANTE QUE FLUTUA",
+   "prof": "1,4 BILHÃO km",
+   "cam": "orbita",
+   "texto": "Saturno é o segundo maior planeta do sistema solar. Caberiam mais de setecentas Terras dentro dele. Mas tem um detalhe que parece piada. Saturno é tão pouco denso que, se existisse uma banheira grande o bastante, ele flutuaria na água. Isso porque ele não tem chão. Saturno é quase todo feito de hidrogênio e hélio, gases que ficam cada vez mais espessos conforme você desce, até virar uma espécie de líquido estranho.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "SEM CHÃO",
+   "prof": "",
+   "cam": "close",
+   "texto": "Imagine cair em Saturno. Você atravessa as nuvens, e não encontra superfície nenhuma. A pressão aumenta, o calor aumenta, e você é esmagado muito antes de chegar a qualquer lugar sólido. Uma sonda que caísse lá seria destruída aos poucos, como uma lata no fundo do mar. E os ventos lá em cima chegam a mil e oitocentos quilômetros por hora. Mais rápidos que o som aqui na Terra.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "UM DIA EM SATURNO",
+   "prof": "10h33",
+   "cam": "orbita",
+   "texto": "Saturno gira muito rápido. Um dia lá dura só dez horas e meia. Mas um ano é enorme: Saturno leva vinte e nove anos para dar uma volta no Sol. Cada estação dura mais de sete anos. E esse giro rápido deixa o planeta achatado nos polos, como uma bola de borracha apertada. Dá para ver o achatamento até num telescópio pequeno.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "O HEXÁGONO",
+   "prof": "POLO NORTE",
+   "cam": "orbita",
+   "texto": "Agora, de volta ao hexágono. Ele foi visto pela primeira vez pelas sondas Voyager, nos anos oitenta. Depois, a sonda Cassini fotografou de perto e confirmou: são seis lados quase retos, girando juntos. A melhor explicação é que correntes de vento de velocidades diferentes formam ondas, e essas ondas se encaixam em seis pontas. Cientistas até já recriaram hexágonos em laboratório, girando água num tanque. Mas ver isso acontecer num planeta inteiro é outra coisa.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "CHUVA DE DIAMANTES",
+   "prof": "",
+   "cam": "close",
+   "texto": "E dentro de Saturno pode acontecer algo ainda mais louco. Alguns cientistas calculam que os raios das tempestades quebram o metano da atmosfera e soltam carbono. Esse carbono cai, vira grafite, e com a pressão gigantesca lá dentro pode se transformar em diamante. Ou seja: em Saturno, talvez chova diamante. A maioria derreteria antes de chegar ao fundo, mas a ideia é tão impressionante quanto assustadora.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "A TEMPESTADE QUE ABRAÇOU O PLANETA",
+   "prof": "2010",
+   "cam": "close",
+   "texto": "Mais ou menos a cada trinta anos, uma tempestade gigante nasce em Saturno. Em 2010, a sonda Cassini acompanhou uma delas desde o começo. Ela começou como uma mancha branca e foi crescendo, até dar a volta no planeta inteiro, como um cinto. Durou meses. Os raios dessa tempestade eram milhares de vezes mais fortes que os da Terra.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "OS ANÉIS",
+   "prof": "282.000 km",
+   "cam": "orbita",
+   "texto": "E então, os anéis. Eles são o que faz Saturno ser o planeta mais bonito do céu. De ponta a ponta, eles se espalham por centenas de milhares de quilômetros. Mas a espessura é ridícula: na maior parte, só uns dez metros, a altura de um prédio de três andares. E eles não são sólidos. São bilhões de pedaços de gelo e rocha, alguns do tamanho de um grão de areia, outros do tamanho de uma casa, girando sem parar.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "OS ANÉIS VÃO SUMIR",
+   "prof": "",
+   "cam": "close",
+   "texto": "Só que os anéis estão desaparecendo. A NASA descobriu que eles estão caindo dentro do planeta, numa espécie de chuva de gelo puxada pela gravidade. Nesse ritmo, em algumas centenas de milhões de anos, eles podem sumir. Isso quer dizer que nós temos sorte. Os dinossauros talvez nunca tenham visto os anéis no céu. E daqui a muito tempo, talvez ninguém mais veja.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "AS ORELHAS DE SATURNO",
+   "prof": "1610",
+   "cam": "orbita",
+   "texto": "Os anéis já confundiram muita gente. Em 1610, Galileu apontou o telescópio para Saturno e viu duas bolinhas grudadas nos lados. Achou que eram orelhas, ou duas luas. Anos depois, as orelhas sumiram, e ele não entendeu nada. Só em 1655 o holandês Christiaan Huygens explicou: era um anel. E as orelhas somem de verdade de tempos em tempos. Quando a Terra fica alinhada com os anéis, eles ficam de lado e quase desaparecem do telescópio. Isso aconteceu de novo em 2025.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "MAIS DE 270 LUAS",
+   "prof": "",
+   "cam": "orbita",
+   "texto": "Saturno também é o rei das luas. Já são mais de duzentas e setenta luas confirmadas, o maior número de todo o sistema solar. A maioria é pequena, do tamanho de uma cidade. Mas duas delas estão entre os lugares mais interessantes que a humanidade já encontrou. E uma delas pode ter vida.",
+   "escala": 1.5
+  },
+  {
+   "modelo": "encelado",
+   "rotulo": "ENCÉLADO",
+   "prof": "LUA DE SATURNO",
+   "cam": "close",
+   "texto": "Encélado é uma lua pequena, toda branca, coberta de gelo. Parece morta. Mas no polo sul dela existem rachaduras que soltam jatos de água para o espaço, como gêiseres gigantes. A sonda Cassini voou através desses jatos e provou: embaixo do gelo existe um oceano de água salgada. E nele foram encontrados ingredientes importantes para a vida, como o fósforo. Encélado é hoje um dos melhores lugares para procurar vida fora da Terra."
+  },
+  {
+   "modelo": "tita",
+   "rotulo": "TITÃ",
+   "prof": "LUA DE SATURNO",
+   "cam": "close",
+   "texto": "E tem Titã, a maior lua de Saturno, maior até que o planeta Mercúrio. Titã tem uma atmosfera grossa, laranja, mais densa que a nossa. E tem lagos, rios e mares. Só que não são de água. São de metano e etano líquidos, a menos cento e setenta graus. Lá chove gás de cozinha. Em 2005, a sonda Huygens pousou em Titã e mandou fotos do chão. Foi o pouso mais distante da história."
+  },
+  {
+   "modelo": "sonda_cassini",
+   "rotulo": "O FIM DA CASSINI",
+   "prof": "2017",
+   "cam": "passagem",
+   "texto": "A sonda Cassini estudou Saturno por treze anos. Quando o combustível estava acabando, os cientistas tomaram uma decisão difícil. Para não correr o risco de ela cair em Encélado ou Titã e contaminar um possível lar de vida, mandaram a Cassini mergulhar dentro de Saturno. Em 2017, ela entrou na atmosfera do planeta, mandando dados até o último segundo, e queimou como um meteoro."
+  },
+  {
+   "modelo": "saturno",
+   "rotulo": "",
+   "prof": "",
+   "cam": "orbita",
+   "texto": "Um planeta sem chão, com ventos mais rápidos que o som, chuva de diamantes, anéis que estão sumindo e luas que podem esconder vida. Saturno não é só bonito. Ele é o lugar mais estranho do nosso quintal cósmico. E tudo começa lá em cima, no polo norte, onde existe uma tempestade com seis lados perfeitos.",
+   "escala": 1.5
+  }
+ ],
+ "trilha": "cine"
+}

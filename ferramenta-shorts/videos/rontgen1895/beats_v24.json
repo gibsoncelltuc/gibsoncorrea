@@ -1,0 +1,480 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 11,
+ "title": "O Raio X de Röntgen",
+ "titulo_base": "O Raio X de Röntgen",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/xray_plate",
+ "outfits": {
+  "ROE": {
+   "profissao": "cientista",
+   "beard": "#5a4a3a",
+   "hair": "#5a4a3a"
+  },
+  "ANA": {
+   "jacket": "#7a3a6a",
+   "pants": "#3b2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a34",
+   "hairStyle": "bun",
+   "glasses": false
+  },
+  "JOR": {
+   "profissao": "jornalista"
+  },
+  "MED": {
+   "profissao": "medico"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "cap",
+    "straw",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "ROE:0:grin:paper",
+    "ANA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1895",
+   "say": "Um cientista tirou a primeira foto de dentro do corpo humano, e assustou a própria esposa.",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ALEMANHA",
+   "mapa_at": 3,
+   "say": "Era mil oitocentos e noventa e cinco, numa cidade da Alemanha."
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:stern"
+   ],
+   "props": [
+    [
+     "kit/crookes_tube",
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Wilhelm Röntgen passava as noites no laboratório, testando um tubo de vidro que soltava faíscas.",
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/crookes_tube",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:suspicious:paper"
+   ],
+   "props": [
+    [
+     "kit/crookes_tube",
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Numa noite, ele cobriu o tubo com papelão preto, e apagou a luz.",
+   "fx": [
+    "puff@60"
+   ],
+   "sfx": [
+    "thump@60"
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e crookes_tube juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/crookes_tube",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@24"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@24"
+   ],
+   "say": "Acontece que, do outro lado da sala, uma tela começou a brilhar no escuro.",
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "camera baixa olhando para cima; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:shock"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Ele pôs a mão na frente do tubo, e viu os próprios ossos na tela.",
+   "light": "study",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "dia",
+   "who": [
+    "ROE:0:grin",
+    "ANA:0:nervous"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Duas semanas depois, ele chamou a esposa, Anna, e fotografou a mão dela, com a aliança.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ANA:0:scared"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Conta-se que ela olhou a chapa e disse que tinha visto a própria morte.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e xray_plate juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "JOR:0:surprised:paper",
+    "MED:0:grin",
+    "POV:0:shock"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "JOR",
+     "MED",
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30",
+    "ring@60"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@60"
+   ],
+   "text": "NOTÍCIA",
+   "titulo": true,
+   "say": "A notícia correu o mundo, e médicos e curiosos queriam ver o raio misterioso.",
+   "verbos_ok": [
+    "corre"
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e xray_plate juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/xray_plate",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:smug",
+    "JOR:0:suspicious:paper"
+   ],
+   "text": "RAIO X",
+   "say": "Sem saber o que era, ele chamou de raio X: X, de desconhecido."
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ROE:0:laugh",
+    "MED:0:grin",
+    "POV:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "MED",
+     "JOR"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOBEL",
+   "titulo": true,
+   "say": "Em mil novecentos e um, Röntgen ganhou o primeiro Nobel de Física, e nunca patenteou a descoberta."
+  }
+ ],
+ "variar_cenario": false,
+ "max_wide": 3,
+ "visual": {
+  "local": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio escuro com tubo de Crookes",
+  "quando": "8 de novembro de 1895, noite; 22 de dezembro de 1895 (mao de Anna)",
+  "participantes": [
+   "Wilhelm Rontgen (barba cheia escura, sobrecasaca)",
+   "Anna Bertha Rontgen (vestido longo, cabelo preso)",
+   "jornalistas e medicos"
+  ],
+  "roupas": {
+   "ROE": "sobrecasaca escura e barba cheia",
+   "ANA": "vestido longo escuro do seculo 19",
+   "JOR": "terno e chapeu coco",
+   "MED": "sobrecasaca e oculos",
+   "POV": "roupas do fim do seculo 19"
+  },
+  "cenario": "laboratorio de fisica do seculo 19 com bancadas, bobina de inducao, tubo de vidro e tela fluorescente; sala de jornal",
+  "objetos": [
+   "tubo de Crookes",
+   "tela de platinocianeto de bario",
+   "chapa fotografica da mao com anel",
+   "papelao preto"
+  ],
+  "explicacoes": [
+   "Em 8/11/1895 Rontgen viu uma tela fluorescente brilhar com o tubo coberto; em 22/12 radiografou a mao de Anna com o anel; chamou de raios X; recebeu o primeiro Nobel de Fisica (1901) e nao patenteou (fonte: Wikipedia Wilhelm Rontgen, X-ray)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+   "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"
+  ],
+  "buscas": {
+   "mao": "Rontgen hand of Anna Bertha 1895 x-ray",
+   "lab": "Rontgen laboratory Wurzburg"
+  }
+ }
+}

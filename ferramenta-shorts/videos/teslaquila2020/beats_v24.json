@@ -1,0 +1,599 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 20,
+ "title": "A Piada que Virou Tequila",
+ "titulo_base": "A Piada que Virou Tequila",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/tequila_bolt",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "T"
+  },
+  "INV": {
+   "profissao": "empresario"
+  },
+  "MEX": {
+   "jacket": "#2a4a3a",
+   "pants": "#2a2a30",
+   "boots": "#3a2a1a",
+   "hat": "hair",
+   "hair": "#1b1b1f",
+   "moustache": "#1b1b1f",
+   "tie": "#d8282f",
+   "pele": "#c99067"
+  },
+  "FAN": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "FAN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "1º DE ABRIL",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Uma piada de primeiro de abril virou uma garrafa de duzentos e cinquenta dólares.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Em dois mil e dezoito, no dia da mentira, Elon Musk postou que a Tesla tinha falido.",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "TESLA FALIU?"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "INV:0:shock",
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tequila_bolt",
+     3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tequila_bolt",
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tequila_bolt",
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/tequila_bolt",
+     -3.6,
+     -2.0,
+     1.65,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "say": "Na foto, ele aparecia cercado de garrafas de uma tal de Teslaquila.",
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAN:0:laugh",
+    "MUS:0:grin:paper"
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "say": "Muita gente riu. Mas ele resolveu levar a ideia a sério, e tentou registrar o nome.",
+   "interior": "loja"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MEX:0:angry",
+    "MUS:0:surprised"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "say": "Acontece que o conselho que protege a tequila no México reclamou: o nome tem regras.",
+   "set": "outback",
+   "props": [
+    [
+     "kit/veg_cacto",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/veg_cacto",
+     7.0,
+     -14.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e veg_cacto juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "MEX:0:smile"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/veg_cacto",
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/veg_cacto",
+     7.0,
+     -14.0,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/veg_cacto",
+     -3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "cochichar",
+   "say": "Em dois mil e vinte, saiu com outro nome: Tesla Tequila, feita no México, com agave.",
+   "set": "outback",
+   "interior": false,
+   "quadro": {
+    "local": "fazenda aberta",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/veg_cacto",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "FAN:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     2.4,
+     0.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "say": "A garrafa era de vidro soprado à mão, em forma de raio, presa num suporte de metal.",
+   "acao": "comemorar",
+   "shot_lock": true,
+   "detalhe": true,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FAN:0:shout",
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV",
+     "FAN"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0.0,
+     -1.2,
+     2.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "text": "ESGOTOU",
+   "titulo": true,
+   "say": "Cada uma custava duzentos e cinquenta dólares, e esgotou em poucas horas.",
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:smug:paper",
+    "FAN:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     0.0,
+     -1.2,
+     1.65,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "say": "Logo, até garrafas vazias apareceram à venda na internet por mais de mil dólares.",
+   "interior": "loja",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_susp_tela": true,
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/tequila_bolt",
+     2.4,
+     0.2,
+     1.65,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Uma piada do dia da mentira que terminou numa prateleira de verdade.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e tequila_bolt juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/tequila_bolt",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "fontes": [
+  "https://www.cnbc.com/make-it/2020/11/06/elon-musks-tesla-tequila.html",
+  "https://www.businessinsider.com/tesla-tequila-teslaquila-resold-online-ebay-empty-bottle-2020-11"
+ ],
+ "max_wide": 3,
+ "visual": {
+  "local": "Estados Unidos (redes sociais, fabrica da Tesla) e Jalisco, Mexico (destilaria com campos de agave azul)",
+  "quando": "1 de abril de 2018; lancamento em 5 de novembro de 2020, dia",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "fas da Tesla",
+   "representante do Conselho Regulador da Tequila",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "FAN": "camiseta com logo T",
+   "INV": "terno",
+   "MEX": "camisa social e chapeu de palha",
+   "POV": "roupa casual"
+  },
+  "cenario": "campo de agave azul no Mexico, destilaria, loja online/sala, rua",
+  "objetos": [
+   "garrafa de vidro em forma de raio com suporte de metal",
+   "agave azul",
+   "placa da Tesla"
+  ],
+  "explicacoes": [
+   "Teslaquila nasceu da piada de 1/4/2018; o Conselho Regulador da Tequila contestou o nome; em 2020 saiu como Tesla Tequila, anejo de Jalisco, a US$ 250, esgotando em horas; garrafas vazias foram revendidas por mais de US$ 1.000 (fonte: Wikipedia Tesla Tequila)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Tesla_Tequila"
+  ],
+  "buscas": {
+   "garrafa": "Tesla Tequila lightning bolt bottle",
+   "agave": "blue agave field Jalisco"
+  }
+ }
+}

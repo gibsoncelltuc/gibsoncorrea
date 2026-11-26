@@ -1,0 +1,88 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DO BALDE",
+ "gancho_cumprido": "Gancho: uma guerra de verdade teve um balde como trofeu e ele esta guardado ate hoje. Pagamento: Modena com menos de oito mil venceu os trinta mil de Bolonha e levou o balde do poco, hoje na torre Ghirlandina.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma guerra de verdade teve um balde de madeira como troféu.",
+   "balde",
+   {}
+  ],
+  [
+   8,
+   "promessa",
+   "E esse balde está guardado até hoje.",
+   "guardado",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
+   "disputavam",
+   {
+    "interior": "pedra",
+    "set": null
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
+   "marchou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Módena tinha menos de oito mil homens.",
+   "menos",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
+   "atacou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Depois, fizeram festa na porta de Bolonha.",
+   "festa",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "E levaram de troféu o balde do poço da cidade.",
+   "levaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "O balde está na torre Ghirlandina, em Módena.",
+   "torre",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Milhares de soldados, e o prêmio foi um balde. Foi assim que...",
+   "balde",
+   {}
+  ]
+ ]
+}

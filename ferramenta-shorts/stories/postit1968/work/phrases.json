@@ -1,0 +1,148 @@
+{
+ "duration": 30.432,
+ "frames30": 913,
+ "source": "silence-align (cost 1.87)",
+ "segments": [
+  [
+   0.0,
+   2.27579
+  ],
+  [
+   2.65454,
+   4.64867
+  ],
+  [
+   5.02804,
+   6.45267
+  ],
+  [
+   6.70779,
+   8.91154
+  ],
+  [
+   9.28538,
+   10.0949
+  ],
+  [
+   10.355,
+   12.0631
+  ],
+  [
+   12.4402,
+   14.8753
+  ],
+  [
+   15.2543,
+   17.0794
+  ],
+  [
+   17.4567,
+   18.0762
+  ],
+  [
+   18.4095,
+   20.2084
+  ],
+  [
+   20.5846,
+   22.1455
+  ],
+  [
+   22.3592,
+   23.2272
+  ],
+  [
+   23.6065,
+   24.8188
+  ],
+  [
+   25.0833,
+   27.2188
+  ],
+  [
+   27.5961,
+   28.8861
+  ],
+  [
+   29.2634,
+   30.0034
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma cola que falhou virou sucesso no mundo inteiro.",
+   "s": 0.0,
+   "e": 2.276
+  },
+  {
+   "text": "E a ideia veio de algu\u00e9m cantando na igreja.",
+   "s": 2.655,
+   "e": 4.649
+  },
+  {
+   "text": "Em 1968,",
+   "s": 5.028,
+   "e": 6.453
+  },
+  {
+   "text": "Spencer Silver tentava criar uma super cola.",
+   "s": 6.708,
+   "e": 8.912
+  },
+  {
+   "text": "Saiu o contr\u00e1rio:",
+   "s": 9.285,
+   "e": 10.095
+  },
+  {
+   "text": "uma cola que grudava e soltava f\u00e1cil.",
+   "s": 10.355,
+   "e": 12.063
+  },
+  {
+   "text": "Acontece que Art Fry cantava no coral da igreja.",
+   "s": 12.44,
+   "e": 14.875
+  },
+  {
+   "text": "E os papeizinhos do hin\u00e1rio viviam caindo.",
+   "s": 15.254,
+   "e": 17.079
+  },
+  {
+   "text": "Ele pensou:",
+   "s": 17.457,
+   "e": 18.076
+  },
+  {
+   "text": "e se os marcadores tivessem a cola fraca?",
+   "s": 18.41,
+   "e": 20.208
+  },
+  {
+   "text": "O papel saiu amarelo por acaso:",
+   "s": 20.585,
+   "e": 23.227
+  },
+  {
+   "text": "era o \u00fanico que tinha.",
+   "s": 23.607,
+   "e": 24.819
+  },
+  {
+   "text": "Em 1980, o post-it chegou \u00e0s lojas do mundo todo.",
+   "s": 25.083,
+   "e": 27.219
+  },
+  {
+   "text": "A cola n\u00e3o colava direito.",
+   "s": 27.596,
+   "e": 28.886
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.263,
+   "e": 30.003
+  }
+ ]
+}

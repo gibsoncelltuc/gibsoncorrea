@@ -1,0 +1,392 @@
+{
+ "pig": {
+  "file": "animals/pig.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.25,
+  "height_m": 1.12,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#f7a8b8",
+   "belly": "#ffd0d9",
+   "snout": "#f08aa0"
+  }
+ },
+ "sheep": {
+  "file": "animals/sheep.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.0,
+  "height_m": 0.98,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#f6f2ea",
+   "belly": "#efe9dd",
+   "snout": "#3d343b"
+  }
+ },
+ "cow": {
+  "file": "animals/cow.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.7,
+  "height_m": 1.45,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#fbf7f0",
+   "belly": "#ffe3e8",
+   "snout": "#f4b6c0"
+  }
+ },
+ "horse": {
+  "file": "animals/horse.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.9,
+  "height_m": 1.8,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#a25f36",
+   "belly": "#b7774a",
+   "snout": "#8a4f2c"
+  }
+ },
+ "goat": {
+  "file": "animals/goat.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.1,
+  "height_m": 1.12,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#efe3cf",
+   "belly": "#f7efe0",
+   "snout": "#e3d3ba"
+  }
+ },
+ "dog": {
+  "file": "animals/dog.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.0,
+  "height_m": 0.92,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#d49a5c",
+   "belly": "#f4e2c4",
+   "snout": "#e9c28f"
+  }
+ },
+ "cat": {
+  "file": "animals/cat.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 0.7,
+  "height_m": 0.58,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#ec9a44",
+   "belly": "#fbe3c0",
+   "snout": "#fbe3c0"
+  }
+ },
+ "donkey": {
+  "file": "animals/donkey.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.5,
+  "height_m": 1.45,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#9a958f",
+   "belly": "#d8d2c8",
+   "snout": "#e1dad0"
+  }
+ },
+ "deer": {
+  "file": "animals/deer.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.5,
+  "height_m": 1.55,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#b5763c",
+   "belly": "#f0dfc0",
+   "snout": "#a8683a"
+  }
+ },
+ "fox": {
+  "file": "animals/fox.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 0.9,
+  "height_m": 0.72,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#e8742a",
+   "belly": "#fbeedc",
+   "snout": "#f6e4cc"
+  }
+ },
+ "wolf": {
+  "file": "animals/wolf.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.3,
+  "height_m": 1.15,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#8a8f98",
+   "belly": "#d8dce2",
+   "snout": "#a8adb5"
+  }
+ },
+ "bear": {
+  "file": "animals/bear.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.7,
+  "height_m": 1.5,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#7a4a2a",
+   "belly": "#8a5a3a",
+   "snout": "#c8a070"
+  }
+ },
+ "rabbit": {
+  "file": "animals/rabbit.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 0.5,
+  "height_m": 0.44,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#d8d0c4",
+   "belly": "#f4efe6",
+   "snout": "#e8e0d4"
+  }
+ },
+ "lion": {
+  "file": "animals/lion.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 1.7,
+  "height_m": 1.4,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#d8a24a",
+   "belly": "#ecd098",
+   "snout": "#e8c878"
+  }
+ },
+ "elephant": {
+  "file": "animals/elephant.glb",
+  "kind": "quadruped",
+  "parts": [
+   "body",
+   "head",
+   "earL",
+   "earR",
+   "eyeL",
+   "eyeR",
+   "mouth",
+   "legFL",
+   "legFR",
+   "legBL",
+   "legBR",
+   "tail"
+  ],
+  "length_m": 3.0,
+  "height_m": 2.7,
+  "facing": "+Z (three.js)",
+  "colors": {
+   "body": "#9a9fa8",
+   "belly": "#b8bcc4",
+   "snout": "#8a8f98"
+  }
+ }
+}

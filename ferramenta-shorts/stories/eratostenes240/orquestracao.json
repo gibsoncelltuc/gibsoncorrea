@@ -1,0 +1,235 @@
+{
+ "id": "eratostenes240",
+ "ano": 2000,
+ "cenarios_trocados": [
+  [
+   "video",
+   "palace",
+   "loc_campo"
+  ],
+  [
+   "cena 2",
+   "medieval",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ERA",
+    "BIB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alexandria",
+    "kit/stick"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Um homem mediu o tamanho da Terra usando só uma vara.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ERA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alexandria",
+    "kit/starlink_sat",
+    "kit/stick",
+    "kit/well"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E chegou perto do número certo, sem satélite.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BIB",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/marco_alexandria"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ERA",
+    "BIB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/well",
+    "nature/tree_palm",
+    "tools/bucket"
+   ],
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ERA",
+    "CAM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/well",
+    "nature/tree_palm"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Ou seja: lá, nada fazia sombra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_alexandria",
+    "kit/stick",
+    "nature/tree_palm"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/stick (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que isso só acontece se a Terra for curva.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/stick (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "A conta deu quase o tamanho real da Terra.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/stick (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ERA",
+    "BIB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket",
+    "kit/stick"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Sem foguete, só uma sombra. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

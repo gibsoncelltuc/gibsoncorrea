@@ -1,0 +1,703 @@
+{
+ "title": "A Invasão da Ilha Vazia",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "mountain",
+ "light": "overcast",
+ "mood": "march",
+ "assets": [
+  "ship"
+ ],
+ "outfits": {
+  "USA": {
+   "jacket": "#6a7440",
+   "pants": "#5a6334",
+   "boots": "#2a2218",
+   "hat": "m1",
+   "cap": "#5a6334",
+   "belt": "#8a7a50",
+   "rifle": true
+  },
+  "CAN": {
+   "jacket": "#8a7a50",
+   "pants": "#6a5a38",
+   "boots": "#2a2218",
+   "hat": "brodie",
+   "cap": "#8a7a50",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "OFF": {
+   "jacket": "#6a7440",
+   "pants": "#8a7a50",
+   "boots": "#2a2218",
+   "hat": "quepe",
+   "cap": "#5a6334",
+   "buttons": "#e8c45a",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
+   "props": [
+    [
+     "ship",
+     -5,
+     -7,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "ILHA VAZIA",
+   "tat": 2,
+   "tstyle": "white",
+   "set": "harbor",
+   "fx": [
+    "dust@25"
+   ],
+   "sfx": [
+    "thump@25"
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "USA",
+     "CAN"
+    ],
+    "march": true
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "desembarcaram"
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
+   "titulo": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OFF:0:pained",
+    "USA:0:surprised"
+   ],
+   "text": "OPERAÇÃO ILHA VAZIA",
+   "tat": 11,
+   "tstyle": "white",
+   "props": [
+    [
+     "kit/dog_sit",
+     0.0,
+     -1.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/dog_sit",
+     3.6,
+     -2.0,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "set": "harbor",
+   "bloco": "promessa",
+   "say": "E mesmo assim, houve mortos nessa invasão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mortos"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 1
+  },
+  {
+   "shot": "group",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern",
+    "USA:1:grin"
+   ],
+   "crowd": {
+    "n": 8,
+    "expr": "stern"
+   },
+   "tat": 5,
+   "tstyle": "gold",
+   "props": [
+    [
+     "vehicles/airplane",
+     1.6,
+     -1.6,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     -1.8,
+     -3.0,
+     1.0
+    ]
+   ],
+   "mapa": "ALASCA",
+   "set": "arctic",
+   "bloco": "prova",
+   "say": "Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Kiska"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "campo de gelo e neve (mar congelado, rochas)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o airplane (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "vehicles/airplane",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -4,
+     -9,
+     1.0
+    ],
+    [
+     "kit/tanque_ww2",
+     0.0,
+     -6,
+     1.0
+    ]
+   ],
+   "who": [
+    "USA:0:stern"
+   ],
+   "bloco": "prova",
+   "say": "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "chegaram",
+      "quem": 0
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o tanque_ww2 (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/tanque_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     },
+     {
+      "objeto": "kit/aviao_ww2",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -4.2,
+   "h": 2.8,
+   "d0": 13.0,
+   "d1": 11.0,
+   "crowd": {
+    "n": 0
+   },
+   "_auto_vis": 3
+  },
+  {
+   "shot": "group",
+   "who": [
+    "USA:2:grin"
+   ],
+   "props": [
+    [
+     "kit/aviao_ww2",
+     -3.0,
+     -8.0,
+     1.0
+    ],
+    [
+     "cannon",
+     2.4,
+     0.6,
+     1.2
+    ]
+   ],
+   "fx": [
+    "burst@38",
+    "burst@60",
+    "burst@82"
+   ],
+   "sfx": [
+    "cannon@38",
+    "cannon@60",
+    "cannon@82"
+   ],
+   "set": "harbor",
+   "text": "BOMBARDEIO",
+   "tat": 3,
+   "tstyle": "red",
+   "detalhe": false,
+   "d0": 15.0,
+   "d1": 14.0,
+   "impact": true,
+   "bloco": "prova",
+   "say": "Bombardearam a ilha durante semanas inteiras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombardearam"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano de grupo (3+ pessoas); plano aberto mirando o aviao_ww2 (alvo z -4.4, camera a 16.9 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/aviao_ww2",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "USA:1:shock",
+    "CAN:0:shock"
+   ],
+   "text": "ILHA VAZIA",
+   "tat": 10,
+   "tstyle": "red",
+   "light": "overcast",
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "Acontece que os japoneses já tinham ido embora.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "embora"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "ship",
+     -2,
+     -6,
+     1.3
+    ],
+    [
+     "ship",
+     6,
+     -9,
+     1.1
+    ]
+   ],
+   "light": "overcast",
+   "set": "harbor",
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Saíram escondidos na neblina, semanas antes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escondidos"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -8.2, camera a 101.7 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "USA:0:shock",
+    "CAN:0:shock",
+    "USA:2:pained"
+   ],
+   "fx": [
+    "burst@30",
+    "burst@60"
+   ],
+   "sfx": [
+    "gun@30",
+    "gun@50",
+    "gun@65"
+   ],
+   "text": "FOGO AMIGO",
+   "tat": 14,
+   "tstyle": "red",
+   "light": "overcast",
+   "set": "arctic",
+   "bloco": "escalada",
+   "say": "No nevoeiro, os Aliados atiraram uns nos outros.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atirar",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "USA:0:sad",
+    "CAN:0:sad"
+   ],
+   "props": [
+    [
+     "kit/navio_encouracado",
+     -3.0,
+     -24.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@126"
+   ],
+   "sfx": [
+    "cannon@126"
+   ],
+   "text": "MINA",
+   "tat": 14,
+   "tstyle": "red",
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "CAN",
+     "USA"
+    ],
+    "march": false
+   },
+   "bloco": "pagamento",
+   "say": "Mais de vinte soldados morreram, e um navio bateu numa mina.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "morre",
+      "na": "morreram"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_encouracado (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "kit/navio_encouracado",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "prop",
+   "who": [
+    "USA:1:surprised",
+    "CAN:0:surprised"
+   ],
+   "text": "SÓ CACHORROS",
+   "tat": 6,
+   "tstyle": "brown",
+   "light": "arctic",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/dog_sit",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/dog_sit",
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "bloco": "pagamento",
+   "say": "Na ilha inteira, só acharam alguns cachorros abandonados.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acharam"
+     }
+    ]
+   },
+   "_enq_shot": "prop",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano do objeto; plano medio enquadrando personagens e dog_sit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/dog_sit",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "USA:0:stern",
+    "CAN:0:stern"
+   ],
+   "props": [
+    [
+     "ship",
+     -5,
+     -7,
+     1.3
+    ],
+    [
+     "ship",
+     4,
+     -9,
+     1.3
+    ]
+   ],
+   "text": "KISKA 1943",
+   "tat": 2,
+   "tstyle": "white",
+   "set": "harbor",
+   "fx": [
+    "dust@25"
+   ],
+   "sfx": [
+    "thump@25"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "loop",
+   "say": "Uma invasão contra cachorros. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorros"
+     }
+    ]
+   },
+   "_susp_ok": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  }
+ ],
+ "heroi": "kit/dog_sit",
+ "visual": {
+  "local": "Ilha de Kiska, nas Aleutas (Alasca): ilha vulcanica sem arvores, tundra de capim e pedras, praias de cascalho, mar frio, neblina constante",
+  "quando": "desembarque em 15 de agosto de 1943 (os japoneses tinham saido em 28 de julho, escondidos na neblina)",
+  "participantes": [
+   "cerca de 34 mil soldados americanos e canadenses",
+   "marinha americana",
+   "guarnicao japonesa (ja evacuada)",
+   "cachorros deixados na ilha"
+  ],
+  "roupas": {
+   "USA": "soldado americano de 1943: uniforme verde-oliva, capacete M1, fuzil",
+   "CAN": "soldado canadense: uniforme caqui, capacete Brodie",
+   "OFF": "oficial americano com quepe"
+  },
+  "cenario": "praia de cascalho cinza com navios de desembarque, encostas de tundra sem arvores, neblina densa, vulcao ao fundo",
+  "objetos": [
+   "navios de guerra e de desembarque",
+   "avioes",
+   "canhoes",
+   "cachorros abandonados"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Operation_Cottage",
+   "https://en.wikipedia.org/wiki/Kiska"
+  ]
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 21,
+ "titulo_base": "A Invasão da Ilha Vazia",
+ "variar_cenario": false,
+ "aliados": [
+  [
+   "USA",
+   "CAN",
+   "OFF"
+  ]
+ ],
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: 34 mil soldados desembarcaram numa ilha sem inimigo e mesmo assim houve mortos. Pagamento: os japoneses ja tinham saido, os aliados atiraram uns nos outros e so acharam cachorros.",
+ "loop_frase_ok": true,
+ "max_wide": 5,
+ "clima": "neblina"
+}

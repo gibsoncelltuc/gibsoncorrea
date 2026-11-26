@@ -1,0 +1,539 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 8,
+ "title": "A Guerra de 38 Minutos",
+ "titulo_base": "A Guerra de 38 Minutos",
+ "set": "harbor",
+ "light": "day",
+ "mood": "march",
+ "outfits": {
+  "SUL": {
+   "jacket": "#f1ece0",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "turban",
+   "cap": "#c0262d",
+   "sash": "#e8c45a",
+   "build": "stout"
+  },
+  "GUA": {
+   "jacket": "#b5333a",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "fez",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "ING": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "belt": "#8a5a34",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "ALM": {
+   "jacket": "#22306a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "buttons": "#e8c45a",
+   "sash": "#e8c45a",
+   "build": "stout"
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "turban",
+    "fez",
+    "cap"
+   ],
+   "cap": "#f1ece0"
+  },
+  "ING2": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#f1efe6",
+   "belt": "#8a5a34",
+   "buttons": "#e8c45a",
+   "rifle": false
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:stern",
+    "GUA:0:stern"
+   ],
+   "text": "38 MINUTOS",
+   "tat": 6,
+   "bloco": "gancho",
+   "say": "A guerra mais curta da história durou menos de quarenta minutos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "guerra"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ALM:0:grin"
+   ],
+   "bloco": "promessa",
+   "say": "E os derrotados ainda pagaram a conta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:neutral",
+    "POV:1:neutral"
+   ],
+   "mapa": "ZANZIBAR",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1896, em Zanzibar, na África, o sultão morreu.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Zanzibar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:grin",
+    "GUA:0:stern"
+   ],
+   "interior": "pedra",
+   "acao": "conversar",
+   "batalha": false,
+   "tiros": false,
+   "props": [
+    [
+     "kit/throne",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "prova",
+   "say": "Um primo ocupou o palácio sem pedir licença aos ingleses.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ocupou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e throne juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/throne",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ALM:0:stern:paper"
+   ],
+   "props": [
+    [
+     "kit/navio_vapor",
+     0.0,
+     -25.7,
+     2.25,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Deram até as nove da manhã para ele sair.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "deram"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "GUA:0:stern",
+    "GUA:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "GUA",
+     "POV"
+    ],
+    "march": true
+   },
+   "text": "2.800",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "bloco": "escalada",
+   "say": "Ele juntou quase três mil homens e se trancou lá dentro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "trancou",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "text": "9:02",
+   "titulo": true,
+   "sfx": [
+    "cannon@30",
+    "cannon@50"
+   ],
+   "fx": [
+    "burst@25",
+    "puff@30",
+    "burst@45",
+    "puff@50"
+   ],
+   "props": [
+    [
+     "kit/navio_vapor_guerra",
+     -3.0,
+     -34.0,
+     0.55,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     -2.5,
+     -2.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     2.5,
+     -2.0,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "harbor",
+   "shot": "wide",
+   "who": [],
+   "crowd": {
+    "n": 0
+   },
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -12.0,
+   "h": 5.0,
+   "d0": 30.0,
+   "d1": 28.0,
+   "tiros": true,
+   "bloco": "escalada",
+   "say": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fogo"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_vapor_guerra (alvo z -8.2, camera a 78.6 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_vapor_guerra",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "sfx": [
+    "cannon@20",
+    "thump@60"
+   ],
+   "explica": {
+    "objeto": "kit/forte_colonial",
+    "rotulos": [
+     [
+      "PALACIO EM CHAMAS",
+      "cima",
+      "palácio"
+     ],
+     [
+      "BANDEIRA CAIU",
+      "baixo",
+      "bandeira"
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "fogo",
+      "na": "fogo",
+      "pts": "topo",
+      "pot": 2
+     },
+     {
+      "k": "onda",
+      "na": "calada"
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "O palácio pegou fogo, e o primo fugiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fogo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "GUA:0:pained:flag"
+   ],
+   "fx": [
+    "dust@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "text": "9:40",
+   "batalha": false,
+   "tiros": false,
+   "props": [
+    [
+     "kit/forte_colonial",
+     0.0,
+     -10.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "pagamento",
+   "say": "Às nove e quarenta, a bandeira caiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bandeira"
+     }
+    ]
+   },
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "wide",
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o forte_colonial (alvo z -2.0, camera a 20.0 m, altura 2.8 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/forte_colonial",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.8,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SUL:0:stern",
+    "GUA:0:stern"
+   ],
+   "text": "MENOS DE 1 HORA",
+   "tat": 6,
+   "bloco": "loop",
+   "say": "Os ingleses mandaram a conta das balas. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conta"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 0.9,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+ ],
+ "visual": {
+  "local": "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses",
+  "quando": "27 de agosto de 1896, manha, entre 9h00 e 9h40",
+  "participantes": [
+   "sultao Khalid bin Barghash e guardas zanzibaris",
+   "oficiais e marinheiros da Marinha Real britanica",
+   "consul britanico Basil Cave",
+   "consul da Alemanha"
+  ],
+  "roupas": {
+   "SUL": "tunica branca, turbante e capa de sultao",
+   "GUA": "guarda zanzibari de camisa clara e turbante",
+   "ING": "marinheiro britanico de farda branca e azul",
+   "ALM": "diplomata alemao de terno claro"
+  },
+  "cenario": "palacio de madeira do sultao em Stone Town, porto com cruzadores e canhoneiras britanicas, 1896",
+  "objetos": [
+   "navio de guerra britanico",
+   "canhao antigo",
+   "bandeira do sultao",
+   "palacio de madeira em chamas"
+  ],
+  "explicacoes": [
+   "O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)",
+   "Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+   "https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War"
+  ],
+  "buscas": {
+   "A Guerra de 38 Minutos": "Anglo-Zanzibar War 1896 Stone Town palace bombardment",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "Stone Town Zanzibar sultan palace 1896"
+  },
+  "referencias": {
+   "A Guerra de 38 Minutos": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "Zanzibar": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "roupas e ruas de 1896": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "sultao Khalid bin Barghash e guardas zanzibaris": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "oficiais e marinheiros da Marinha Real britanica": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul britanico Basil Cave": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "consul da Alemanha": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio de guerra britanico": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "canhao antigo": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "bandeira do sultao": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "palacio de madeira em chamas": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)",
+   "navio da epoca": "fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)"
+  }
+ },
+ "heroi": "kit/navio_vapor",
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a guerra mais curta da historia durou menos de quarenta minutos e os derrotados pagaram a conta. Pagamento: ultimato ate as 9h, fogo as 9h02, bandeira caida as 9h40 e a conta das balas.",
+ "loop_frase_ok": true,
+ "max_wide": 4
+}

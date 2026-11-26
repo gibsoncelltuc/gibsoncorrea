@@ -1,0 +1,413 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 3,
+ "title": "O X no Prédio do Twitter",
+ "titulo_base": "O X no Prédio do Twitter",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "fixo": true
+  },
+  "OPE": {
+   "profissao": "pedreiro",
+   "jacket": "#e0a020",
+   "pants": "#3a3a3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#e0a020"
+  },
+  "OPE2": {
+   "profissao": "pedreiro",
+   "jacket": "#c85a2a",
+   "pants": "#3a3a3a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#c85a2a"
+  },
+  "FIS": {
+   "jacket": "#3a4a6a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a2a2a",
+   "glasses": true,
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "X",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "set": "loc_patio",
+   "bloco": "gancho",
+   "say": "Uma placa com uma letra só virou caso de investigação.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "placa"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E a culpa foi de uma luz piscando de madrugada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luz"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "OPE:0:shock"
+   ],
+   "mapa": "SÃO FRANCISCO",
+   "mapa_at": 1,
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Em 2023, Musk trocou o nome do Twitter para X.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trocou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "group",
+   "who": [
+    "OPE:0:nervous",
+    "OPE2:0:suspicious",
+    "MUS:0:worried"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "set": "street",
+   "bloco": "prova",
+   "say": "Operários começaram a tirar o passarinho da fachada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tirar"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "OPE:0:shock",
+    "FIS:0:stern"
+   ],
+   "interior": "loja",
+   "bloco": "prova",
+   "say": "O trabalho parou no meio, por falta de licença.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "parou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "crowd",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "X",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "set": "street",
+   "hora": "noite",
+   "bloco": "escalada",
+   "say": "Acontece que instalaram um X gigante piscando no alto do prédio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piscando"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:angry",
+    "JOR:0:surprised"
+   ],
+   "set": "street",
+   "hora": "noite",
+   "text": "X",
+   "crowd": {
+    "n": 0
+   },
+   "acao": "discutir",
+   "tiros": false,
+   "batalha": false,
+   "bloco": "escalada",
+   "say": "A luz entrava nas janelas dos vizinhos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "luz"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "FIS:0:angry",
+    "MUS:0:worried"
+   ],
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Vieram vinte e quatro reclamações num fim de semana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "reclamações"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "FIS:0:shock",
+    "OPE:0:laugh"
+   ],
+   "set": "street",
+   "bloco": "pagamento",
+   "say": "A prefeitura investigou, e o X foi retirado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "retirado"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira",
+   "bloco": "loop",
+   "say": "Até trocar de nome precisa de licença. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "licença"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.0,
+ "fontes": [
+  "https://english.alarabiya.net/News/world/2023/08/01/-X-sign-removed-from-San-Francisco-building-that-was-Twitter-s-headquarters",
+  "https://www.thewrap.com/x-headquarters-loses-sign/",
+  "https://www.ktvu.com/news/confusion-during-removal-of-twitter-sign-from-san-francisco-headquarters"
+ ],
+ "ano": 2023,
+ "regiao": "eua",
+ "visual": {
+  "local": "Sede do Twitter/X, Market Street, Sao Francisco (California): predio art deco com a placa na fachada",
+  "quando": "24 a 31 de julho de 2023, dia e noite",
+  "participantes": [
+   "Elon Musk (camiseta preta)",
+   "operarios com guindaste e capacete",
+   "fiscais da prefeitura",
+   "policiais"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "OPE": "capacete amarelo e colete laranja",
+   "OPE2": "capacete branco e colete",
+   "FIS": "camisa social com cracha da prefeitura"
+  },
+  "cenario": "fachada de predio antigo de Sao Francisco com letras TWITTER e passaro azul, guindaste, depois um X luminoso branco piscando no telhado a noite",
+  "objetos": [
+   "placa com letras",
+   "passaro azul",
+   "X luminoso",
+   "guindaste"
+  ],
+  "explicacoes": [
+   "Em 24/7/2023 o Twitter virou X; a remocao das letras foi interrompida pela policia por falta de licenca (sobraram \"er\"); o X luminoso no telhado gerou 24 reclamacoes e investigacao da prefeitura e foi retirado em 31/7 (fonte: Wikipedia Rebranding of Twitter as X)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Twitter_under_Elon_Musk"
+  ],
+  "buscas": {
+   "placa": "X sign Twitter headquarters San Francisco July 2023"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma placa com uma letra so virou caso de investigacao por causa de uma luz. Pagamento: o X gigante piscava nas janelas, vieram 24 reclamacoes e a prefeitura mandou tirar.",
+ "loop_frase_ok": true
+}

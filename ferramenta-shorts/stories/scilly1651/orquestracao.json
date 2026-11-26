@@ -1,0 +1,193 @@
+{
+ "id": "scilly1651",
+ "ano": 1651,
+ "cenarios_trocados": [
+  [
+   "cena 5",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ILH",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Uma guerra durou 335 anos e ninguém disparou um tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ILH",
+    "ILH"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E só acabou porque alguém resolveu perguntar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ILH"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "navios de guerra ao fundo, no tamanho real",
+    "ship"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1651, piratas das ilhas Scilly atacavam navios holandeses.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 6,
+   "cena": "b3",
+   "frase": "A Holanda declarou guerra às ilhas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "ILH"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Acontece que a Inglaterra tomou as ilhas antes da Holanda chegar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Os holandeses foram embora. E ninguém lembrou de assinar a paz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "EMB"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Três séculos depois, um historiador escreveu para a Holanda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EMB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "O embaixador veio às ilhas e assinou a paz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ILH",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Ninguém lembrou de um papel. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

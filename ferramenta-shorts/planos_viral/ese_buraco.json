@@ -1,0 +1,96 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um buraco atravessando a Terra sairia no Pacifico e quem pulasse cairia para sempre. Pagamento: o centro esta a 6 mil km e quente como o Sol; cairia, sairia do outro lado em 40 minutos e voltaria.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um buraco atravessando a Terra sairia no meio do Pacífico.",
+   "buraco",
+   {}
+  ],
+  [
+   8,
+   "promessa",
+   "E quem pulasse nele cairia para sempre.",
+   "pulasse",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "O buraco mais fundo do mundo tem doze quilômetros, na Rússia.",
+   "buraco",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Lá embaixo, faz cento e oitenta graus.",
+   "graus",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "O centro da Terra fica a mais de seis mil quilômetros.",
+   "centro",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "E é quase tão quente quanto a superfície do Sol.",
+   "quente",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, se desse para pular, você cairia cada vez mais rápido.",
+   "pular",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "pular"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Sairia do outro lado em uns quarenta minutos.",
+   "Sairia",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "E, sem ninguém para segurar, cairia de volta.",
+   "cairia",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "cairia"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Ninguém conseguiu ainda. Mas imagina que...",
+   "conseguiu",
+   {}
+  ]
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 9,
+ "title": "A Guerra do Futebol",
+ "titulo_base": "A Guerra do Futebol",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ball",
+ "outfits": {
+  "HON": {
+   "jacket": "#2f6fd0",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "hair"
+  },
+  "SAL": {
+   "jacket": "#f1efe6",
+   "pants": "#27408b",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "sash": "#27408b"
+  },
+  "TOR": {
+   "jacket": "#d9742a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "hair"
+   ]
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  },
+  "SOL": {
+   "jacket": "#5d7a3a",
+   "pants": "#4a5a2a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "rifle": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "crowd",
+   "who": [
+    "HON:0:angry",
+    "SAL:0:shout"
+   ],
+   "text": "HONDURAS x EL SALVADOR",
+   "set": "stadium",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     -1.2,
+     1.31,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Dois países fizeram uma guerra de verdade por causa de futebol.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "futebol"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SAL:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0.6,
+     1.0,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "titulo": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 11.4,
+   "d1": 11.0,
+   "detalhe": false,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E quem ganhou o jogo não fez um gol na Copa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gol"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "TOR:0:stern",
+    "TOR:1:angry"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "TOR"
+    ],
+    "march": false
+   },
+   "mapa": "HONDURAS",
+   "mapa_at": 3,
+   "fx": [
+    "puff@70"
+   ],
+   "sfx": [
+    "thump@70"
+   ],
+   "set": "countryside",
+   "bloco": "prova",
+   "say": "Em 1969, os dois países já disputavam terras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "HON:0:grin",
+    "SAL:0:stern"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     0.6,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "3 JOGOS",
+   "titulo": true,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Depois veio a vaga na Copa: três jogos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Depois"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "set": "stadium",
+   "who": [
+    "HON:0:laugh",
+    "SAL:0:sad"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "TOR",
+     "HON"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "text": "1 x 0",
+   "titulo": true,
+   "fx": [
+    "stars@30",
+    "stars@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "thump@70"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     -1.2,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "No primeiro, Honduras venceu por um a zero.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "HON:0:angry",
+    "SAL:0:shout",
+    "HON:1:shout",
+    "SAL:1:angry"
+   ],
+   "interacao": "empurrar",
+   "acao": "discutir",
+   "hora": "dia",
+   "text": "3 x 0",
+   "titulo": true,
+   "set": "street",
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "bloco": "escalada",
+   "say": "El Salvador venceu o segundo por três a zero. Torcidas brigaram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "golpe",
+      "na": "brigaram",
+      "quem": 0,
+      "alvo_quem": 1
+     },
+     {
+      "faz": "golpe",
+      "na": "brigaram",
+      "quem": 1,
+      "alvo_quem": 0
+     },
+     {
+      "faz": "empurra",
+      "na": "brigaram",
+      "quem": 2,
+      "alvo_quem": 3
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "set": "stadium",
+   "who": [
+    "SAL:0:laugh",
+    "SAL:1:grin",
+    "HON:0:sad"
+   ],
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     -1.2,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "hora": "dia",
+   "text": "PRORROGAÇÃO",
+   "titulo": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 9,
+   "d1": 7,
+   "detalhe": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "SAL",
+     "HON"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "bloco": "escalada",
+   "say": "No terceiro, El Salvador venceu na prorrogação.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "SOL:0:stern"
+   ],
+   "batalha": true,
+   "props": [],
+   "text": "GUERRA",
+   "titulo": true,
+   "hora": "dia",
+   "detalhe": false,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   },
+   "bloco": "escalada",
+   "say": "Acontece que, semanas depois, o exército salvadorenho atacou Honduras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atacou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SOL:0:nervous",
+    "PRE:0:stern:paper"
+   ],
+   "text": "100 HORAS",
+   "bloco": "pagamento",
+   "say": "A guerra durou cem horas, até o cessar-fogo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "durou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "HON:0:angry",
+    "SAL:0:shout"
+   ],
+   "text": "HONDURAS x EL SALVADOR",
+   "set": "stadium",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "HON",
+     "SAL"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "kit/ball",
+     0.0,
+     -1.2,
+     1.31,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perderam",
+      "quem": 1
+     }
+    ]
+   },
+   "bloco": "loop",
+   "say": "Na Copa, perderam os três jogos, sem um gol. Tudo porque..."
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Football_War"
+ ],
+ "visual": {
+  "local": "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexico, e a fronteira entre Honduras e El Salvador",
+  "quando": "8 de junho a 18 de julho de 1969",
+  "participantes": [
+   "torcedores e jogadores de Honduras (camisa azul)",
+   "torcedores e jogadores de El Salvador (camisa branca e azul)",
+   "diplomatas de terno",
+   "soldados salvadorenhos de uniforme verde"
+  ],
+  "roupas": {
+   "HON": "camisa azul e calcao branco",
+   "SAL": "camisa branca com faixa azul e calcao azul",
+   "PRE": "terno escuro e chapeu coco",
+   "SOL": "farda verde com capacete"
+  },
+  "cenario": "estadios cheios de torcida, rua de cidade da America Central de 1969 e fronteira com aviao e soldados",
+  "objetos": [
+   "bola de futebol",
+   "trave",
+   "aviao de combate",
+   "panela"
+  ],
+  "explicacoes": [
+   "Honduras venceu o primeiro jogo por 1 a 0; El Salvador venceu o segundo por 3 a 0 e o terceiro por 3 a 2 na prorrogacao, na Cidade do Mexico (fonte: Wikipedia Football War)",
+   "El Salvador rompeu relacoes na noite de 26 de junho e atacou em 14 de julho; a guerra durou 14 a 18 de julho, as cem horas (fonte: Wikipedia Football War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Football_War",
+   "https://commons.wikimedia.org/wiki/Category:Football_War"
+  ],
+  "buscas": {
+   "A Guerra do Futebol": "Football War 1969 Honduras El Salvador",
+   "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic": "Estadio Nacional Tegucigalpa 1969"
+  },
+  "referencias": {
+   "A Guerra do Futebol": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "Estadios de Tegucigalpa (Honduras), San Salvador (El Salvador) e Cidade do Mexic": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "América Central": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "roupas e ruas de 1969": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "torcedores e jogadores de Honduras (camisa azul)": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "torcedores e jogadores de El Salvador (camisa branca e azul)": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "diplomatas de terno": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "soldados salvadorenhos de uniforme verde": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "bola de futebol": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "trave": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "aviao de combate": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "panela": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "ball": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "volcano": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)",
+   "exercito da epoca": "fotos da Guerra do Futebol de 1969 (Wikipedia Football War): avioes de helice F4U Corsair e P-51 Mustang da forca aerea salvadorenha, estadio de Tegucigalpa, camisas azul de Honduras e branca de El Salvador, bola de futebol de couro (https://en.wikipedia.org/wiki/Football_War)"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: dois paises fizeram uma guerra de verdade por causa de futebol e o vencedor do jogo nao fez gol na Copa. Pagamento: tres jogos, brigas, guerra de cem horas, e El Salvador perdeu os tres jogos da Copa sem marcar.",
+ "loop_frase_ok": true
+}

@@ -1,0 +1,126 @@
+{
+ "id": "semmelweis1847",
+ "ano": 1847,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Médico que Mandou Lavar as Mãos",
+   "consultas": [
+    "O Médico que Mandou Lavar as Mãos",
+    "Um Hoje Em Viena 1847"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Hospital Geral de Viena (Allgemeines Krankenhaus), Austria: enfermarias de parto",
+   "consultas": [
+    "Hospital Geral de Viena",
+    "Hospital Geral de Viena Allgemeines Krankenhaus Austria 1847"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Áustria",
+   "consultas": [
+    "Áustria 1847",
+    "Áustria landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1847",
+   "consultas": [
+    "1847 fashion clothing",
+    "1847 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Ignaz Semmelweis (calvo, bigode, sobrecasaca escura)",
+   "consultas": [
+    "Ignaz Semmelweis calvo bigode sobrecasaca escura",
+    "Ignaz Semmelweis calvo bigode sobrecasaca escura 1847"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "medicos e estudantes de sobrecasaca",
+   "consultas": [
+    "medicos e estudantes de sobrecasaca",
+    "medicos e estudantes de sobrecasaca 1847"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "parteiras de avental branco",
+   "consultas": [
+    "parteiras de avental branco",
+    "parteiras de avental branco 1847"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "maes gravidas",
+   "consultas": [
+    "maes gravidas",
+    "maes gravidas 1847"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Jakob Kolletschka",
+   "consultas": [
+    "Jakob Kolletschka",
+    "Jakob Kolletschka 1847"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bacia com agua e cal clorada",
+   "consultas": [
+    "bacia com agua e cal clorada",
+    "bacia com agua e cal clorada 1847"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "bisturi",
+   "consultas": [
+    "bisturi",
+    "bisturi 1847"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "leitos de hospital",
+   "consultas": [
+    "leitos de hospital",
+    "leitos de hospital 1847"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "lapide",
+   "consultas": [
+    "lapide",
+    "lapide 1847"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "wash basin",
+   "consultas": [
+    "bacia com agua e cal clorada",
+    "O Médico que Mandou Lavar as Mãos"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "hospital da epoca",
+   "consultas": [
+    "hospital 1847",
+    "hospital"
+   ]
+  }
+ ]
+}

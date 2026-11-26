@@ -1,0 +1,218 @@
+{
+ "id": "cecot2023",
+ "ano": 2023,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GUA",
+    "BUK"
+   ],
+   "multidao": 26,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Uma prisão para quarenta mil presos virou notícia no mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E ninguém concorda se ela é solução ou problema.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Ela abriu em 2023, em El Salvador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O país tinha das maiores taxas de assassinato do mundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "GUA",
+    "GUA"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "O governo decretou estado de exceção contra as gangues.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Muralhas, cercas elétricas e torres de vigia.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/prison (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "REP",
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Acontece que os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Mas houve denúncias de prisões sem julgamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "O modelo passou a ser copiado e criticado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "GUA",
+    "BUK"
+   ],
+   "multidao": 26,
+   "objetos": [
+    "kit/prison"
+   ],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Segurança ou excesso? Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

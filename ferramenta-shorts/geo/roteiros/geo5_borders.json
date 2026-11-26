@@ -1,0 +1,140 @@
+{
+ "title": "THE WEIRDEST BORDERS IN THE WORLD",
+ "hook": "These are the strangest borders on the planet.",
+ "items": [
+  {
+   "say": "In Baarle, the border between Belgium and the Netherlands runs right through houses.",
+   "hl": [
+    "BEL"
+   ],
+   "hl2": [
+    "NLD"
+   ],
+   "pin": [
+    51.44,
+    4.93
+   ],
+   "big": "THROUGH HOUSES",
+   "label": "Baarle",
+   "flag": "be",
+   "icon": "🏠"
+  },
+  {
+   "say": "Point Roberts is part of the USA, but you can only drive there through Canada.",
+   "hl": [
+    "USA"
+   ],
+   "hl2": [
+    "CAN"
+   ],
+   "pin": [
+    48.98,
+    -123.06
+   ],
+   "big": "ONLY BY CANADA",
+   "label": "Point Roberts",
+   "flag": "us",
+   "icon": "🚗"
+  },
+  {
+   "say": "Kaliningrad is a piece of Russia, stuck between Poland and Lithuania.",
+   "hl": [
+    "RUS"
+   ],
+   "hl2": [
+    "POL",
+    "LTU"
+   ],
+   "pin": [
+    54.7,
+    20.5
+   ],
+   "big": "CUT OFF",
+   "label": "Kaliningrad",
+   "flag": "ru",
+   "icon": "🧩"
+  },
+  {
+   "say": "Bir Tawil is land that no country wants. Not Egypt, not Sudan.",
+   "hl": [],
+   "hl2": [
+    "EGY",
+    "SDN"
+   ],
+   "pin": [
+    21.87,
+    33.75
+   ],
+   "big": "NO OWNER",
+   "label": "Bir Tawil",
+   "flag": "",
+   "icon": "❓"
+  },
+  {
+   "say": "Pheasant Island switches between Spain and France every six months.",
+   "hl": [
+    "ESP"
+   ],
+   "hl2": [
+    "FRA"
+   ],
+   "pin": [
+    43.342,
+    -1.766
+   ],
+   "big": "EVERY 6 MONTHS",
+   "label": "Pheasant Island",
+   "flag": "",
+   "icon": "🏝️"
+  },
+  {
+   "say": "The Diomede Islands: Russia and the USA, less than three miles apart, but almost a full day apart in time.",
+   "hl": [
+    "RUS"
+   ],
+   "hl2": [
+    "USA"
+   ],
+   "pin": [
+    65.78,
+    -169.0
+   ],
+   "big": "21 HOURS APART",
+   "label": "Diomede Islands",
+   "flag": "",
+   "icon": "🕐"
+  },
+  {
+   "say": "Llívia is a Spanish town completely surrounded by France.",
+   "hl": [
+    "FRA"
+   ],
+   "hl2": [
+    "ESP"
+   ],
+   "pin": [
+    42.465,
+    1.98
+   ],
+   "big": "INSIDE FRANCE",
+   "label": "Llívia",
+   "flag": "es",
+   "icon": "🏘️"
+  },
+  {
+   "say": "And Vatican City is an entire country inside a city.",
+   "hl": [
+    "VAT"
+   ],
+   "pin": [
+    41.903,
+    12.453
+   ],
+   "big": "COUNTRY IN A CITY",
+   "label": "Vatican City",
+   "flag": "va",
+   "icon": "⛪"
+  }
+ ],
+ "id": "geo5_borders"
+}

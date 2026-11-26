@@ -1,0 +1,102 @@
+{
+ "id": "rontgen1895",
+ "ano": 1895,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Raio X de Röntgen",
+   "consultas": [
+    "O Raio X de Röntgen",
+    "Conta Em Wilhelm Röntgen 1895"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio",
+   "consultas": [
+    "Instituto de Fisica da Universidade de Wurzburg Baviera",
+    "Instituto de Fisica da Universidade de Wurzburg Baviera Alemanha 1895"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Alemanha",
+   "consultas": [
+    "Alemanha 1895",
+    "Alemanha landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1895",
+   "consultas": [
+    "1895 fashion clothing",
+    "1895 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Wilhelm Rontgen (barba cheia escura, sobrecasaca)",
+   "consultas": [
+    "Wilhelm Rontgen barba cheia escura sobrecasaca",
+    "Wilhelm Rontgen barba cheia escura sobrecasaca 1895"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Anna Bertha Rontgen (vestido longo, cabelo preso)",
+   "consultas": [
+    "Anna Bertha Rontgen vestido longo cabelo preso",
+    "Anna Bertha Rontgen vestido longo cabelo preso 1895"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "jornalistas e medicos",
+   "consultas": [
+    "jornalistas e medicos",
+    "jornalistas e medicos 1895"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tubo de Crookes",
+   "consultas": [
+    "tubo de Crookes",
+    "tubo de Crookes 1895"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "tela de platinocianeto de bario",
+   "consultas": [
+    "tela de platinocianeto de bario",
+    "tela de platinocianeto de bario 1895"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "chapa fotografica da mao com anel",
+   "consultas": [
+    "chapa fotografica da mao com anel",
+    "chapa fotografica da mao com anel 1895"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "papelao preto",
+   "consultas": [
+    "papelao preto",
+    "papelao preto 1895"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "xray plate",
+   "consultas": [
+    "tubo de Crookes",
+    "O Raio X de Röntgen"
+   ]
+  }
+ ]
+}

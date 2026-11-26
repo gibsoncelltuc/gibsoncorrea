@@ -1,0 +1,221 @@
+{
+ "id": "trumpgame1989",
+ "ano": 1989,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "EXE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E o jogo empacou por um motivo bem simples.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1989, ele já era um empresário famoso.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EXE",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "No jogo, o objetivo era juntar prédios, cassinos e hotéis.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "As notas tinham a cara dele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAI",
+    "FIL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que o manual era longo, e ninguém entendia as regras.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EXE",
+    "EXE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Esperavam dois milhões de jogos. Saíram oitocentos mil.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "TRU",
+    "EXE"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Em 2004, com O Aprendiz, o jogo voltou.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Desta vez, com regras bem mais simples.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "EXE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/boardgame"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Um jogo que ninguém entendia. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

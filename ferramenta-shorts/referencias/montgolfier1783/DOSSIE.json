@@ -1,0 +1,107 @@
+{
+ "id": "montgolfier1783",
+ "titulo": "Curiosidade e Ciência EP 18 - Os Primeiros Passageiros do Céu",
+ "ancoras": {
+  "ano": 1783,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "loc_campo",
+   "street"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 7",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 8",
+    "jungle",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/balloon",
+  "kit/balloon_air",
+  "kit/campfire",
+  "kit/marco_versalhes",
+  "kit/room_europa_wood",
+  "kit/room_franca_wood",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Annonay (fabrica de papel dos Montgolfier) e Palacio de Versalhes, patio diante do palacio; Paris",
+  "quando": "19 de setembro de 1783, dia; 21 de novembro de 1783 em Paris",
+  "participantes": [
+   "Joseph e Etienne Montgolfier (casaca, peruca empoada)",
+   "rei Luis XVI e Maria Antonieta",
+   "cortesaos e multidao",
+   "ovelha, pato e galo"
+  ],
+  "roupas": {
+   "JOS": "casaca marrom e peruca do seculo 18",
+   "ETI": "casaca azul e peruca",
+   "REI": "casaca dourada e manto real",
+   "NOB": "roupa de corte com peruca",
+   "POV": "roupas do povo do seculo 18"
+  },
+  "cenario": "patio de Versalhes com o palacio ao fundo, balao azul e dourado decorado, multidao; bosque de Vaucresson; fabrica de papel",
+  "objetos": [
+   "balao de papel e pano azul com ornamentos dourados",
+   "cesto de vime com os animais",
+   "fogueira de palha"
+  ],
+  "explicacoes": [
+   "Em 19/09/1783, em Versalhes, o balao dos Montgolfier levou uma ovelha, um pato e um galo por cerca de 8 minutos e pousou a uns 3 km; em 21/11/1783 Pilatre de Rozier e o marques d'Arlandes voaram sobre Paris (fonte: Wikipedia Montgolfier brothers)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+   "https://commons.wikimedia.org/wiki/Category:Montgolfier_balloon"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "interior madeira",
+   "street",
+   "loc_montanha"
+  ],
+  "buscas": {
+   "balao": "Montgolfier balloon Versailles 1783 engraving"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

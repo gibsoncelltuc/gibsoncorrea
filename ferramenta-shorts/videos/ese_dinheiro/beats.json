@@ -1,0 +1,360 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "E Se",
+ "ep": 6,
+ "title": "E Se o Dinheiro Sumisse do Mundo?",
+ "titulo_base": "E Se o Dinheiro Sumisse do Mundo?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/coin",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "PAD": {
+   "profissao": "padeiro"
+  },
+  "FAZ": {
+   "profissao": "agricultor"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Rai_stones",
+  "https://en.wikipedia.org/wiki/Barter"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "gancho",
+   "say": "Todo o dinheiro do mundo some amanhã de manhã.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dinheiro"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "bloco": "promessa",
+   "say": "Em menos de um ano, a gente inventaria outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inventaria"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "PAD:0:shock",
+    "POV:0:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pagar"
+     }
+    ]
+   },
+   "bloco": "prova",
+   "say": "Na primeira manhã, você não teria como pagar o café."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FAZ:0:grin",
+    "PAD:0:suspicious"
+   ],
+   "animals": [
+    [
+     "chicken",
+     1.8,
+     0.8
+    ]
+   ],
+   "interacao": "entregar",
+   "bloco": "prova",
+   "say": "A saída seria a troca: uma galinha por comida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "troca"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAD:0:angry",
+    "FAZ:0:shout"
+   ],
+   "animals": [
+    [
+     "chicken",
+     1.8,
+     0.8
+    ]
+   ],
+   "acao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "bloco": "escalada",
+   "say": "Acontece que o padeiro pode não querer galinha.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "querer"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "mapa": "ILHA DE YAP",
+   "mapa_at": 3,
+   "impact": true,
+   "bloco": "escalada",
+   "say": "Na ilha de Yap, o dinheiro eram pedras gigantes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pedras"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:smug:paper",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "nature/rocks",
+     1.8,
+     -1.6,
+     1.6
+    ]
+   ],
+   "interacao": "cochichar",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "escalada",
+   "say": "Algumas nem saíam do lugar. Todos lembravam quem era o dono.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lembravam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:shock"
+   ],
+   "fx": [
+    "ring@20"
+   ],
+   "sfx": [
+    "sting@20"
+   ],
+   "impact": true,
+   "bloco": "pagamento",
+   "say": "Em prisões e guerras, quando o dinheiro some, inventam outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inventam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:laugh",
+    "FAZ:0:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "DINHEIRO",
+   "titulo": true,
+   "bloco": "pagamento",
+   "say": "Dinheiro não é papel. É confiança.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "confiança"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/coin",
+     0,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "loop",
+   "say": "Teste mental para hoje: imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "imagina"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "cidade de hoje (padaria, feira) e a ilha de Yap, na Micronesia",
+  "quando": "hoje (hipotese); pedras rai de Yap usadas ha seculos",
+  "participantes": [
+   "padeiro",
+   "fazendeiro",
+   "professor",
+   "moradores"
+  ],
+  "roupas": {
+   "PAD": "padeiro de avental",
+   "FAZ": "fazendeiro de chapeu de palha",
+   "PRO": "professor",
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "padaria, feira de troca na praca, ilha tropical com grandes pedras furadas",
+  "objetos": [
+   "moedas",
+   "galinha",
+   "cesta de comida",
+   "pedras rai de Yap"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Rai_stones",
+   "https://en.wikipedia.org/wiki/Barter"
+  ]
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: todo o dinheiro do mundo some amanha e em menos de um ano inventamos outro. Pagamento: troca, pedras de Yap, e prisoes e guerras mostram que dinheiro e' confianca.",
+ "loop_frase_ok": true
+}

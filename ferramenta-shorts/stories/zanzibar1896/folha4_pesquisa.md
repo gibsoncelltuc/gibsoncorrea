@@ -1,0 +1,40 @@
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 08 - A Guerra de 38 Minutos
+
+Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py zanzibar1896` busca cada item na internet, baixa os prints (referencias/zanzibar1896/prints/) e monta o quadro referencias/zanzibar1896/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
+
+- Historia: A Guerra de 38 Minutos
+- Epoca: 1896 | Lugar: Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingleses | Quando: 27 de agosto de 1896, manha, entre 9h00 e 9h40
+- HEROIS (objeto): kit/navio_vapor
+- HEROIS (personagens): GUA, SUL, ALM
+- Cenarios: harbor, interior pedra, loc_campo, loc_estudio
+- Proibido pela epoca: caravela, carro dos anos 50, escudo, fragata a vela, galera a remo, navio de guerra moderno, objeto moderno, predio de apartamentos, torre de refletor, veiculo moderno
+- Tamanho real aplicado: kit/navio_vapor: 30.0 m reais -> escala 2.25 (estava 1.0: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.55: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.8: pequeno demais); kit/navio_vapor_guerra: 30.0 m reais -> escala 7.66 (estava 0.7: pequeno demais)
+
+## Itens pesquisados
+
+Tipo | Item | Consultas | Referencias achadas (print)
+---|---|---|---
+tema | A Guerra de 38 Minutos | Anglo-Zanzibar War 1896 Stone Town palace bombardment / A Guerra de 38 Minutos / Em Zanzibar 1896 | Zanzibar 1896 H0061-L351324101.jpg (referencias/zanzibar1896/prints/a_guerra_de_38_minutos_1566bd.jpg); Stone town ,Zanzibar.jpg (referencias/zanzibar1896/prints/a_guerra_de_38_minutos_8332b6.jpg)
+lugar | Palacio do sultao em Stone Town, Zanzibar, e o porto com navios de guerra ingles | Stone Town Zanzibar sultan palace 1896 / Palacio do sultao em Stone Town Zanzibar e o porto com navios de guerra ingleses / Palacio do sultao em Stone Town Zanzibar e o porto com navios de guerra ingleses 1896 | Zanzibar 1896 H0061-L351324101.jpg (referencias/zanzibar1896/prints/palacio_do_sultao_em_stone_town_zanzibar_1566bd.jpg); Stone town ,Zanzibar.jpg (referencias/zanzibar1896/prints/palacio_do_sultao_em_stone_town_zanzibar_8332b6.jpg)
+lugar | Zanzibar | Zanzibar 1896 / Zanzibar landscape | Zanzibar 1896 H0061-L351324101.jpg (referencias/zanzibar1896/prints/zanzibar_1566bd.jpg); Campagnemedaille van Zanzibar 1896.png (referencias/zanzibar1896/prints/zanzibar_0ef7d7.jpg); 1902 2half Zanzibar Yv57 Mi55 SG192 bright blue.jp (referencias/zanzibar1896/prints/zanzibar_aa871d.jpg)
+epoca | roupas e ruas de 1896 | 1896 fashion clothing / 1896 street photograph | Streetcars diverted around Park Street station con (referencias/zanzibar1896/prints/roupas_e_ruas_de_1896_7f9e78.jpg); Looking north on Tremont Street by King's Chapel,  (referencias/zanzibar1896/prints/roupas_e_ruas_de_1896_ea789a.jpg); Looking northerly on Tremont Street from Eliot Str (referencias/zanzibar1896/prints/roupas_e_ruas_de_1896_a160f2.jpg)
+pessoas | sultao Khalid bin Barghash e guardas zanzibaris | sultao Khalid bin Barghash e guardas zanzibaris / sultao Khalid bin Barghash e guardas zanzibaris 1896 | Bundesarchiv Bild 105-DOA0295, Deutsch-Ostafrika,  (referencias/zanzibar1896/prints/sultao_khalid_bin_barghash_e_guardas_zan_e12b92.jpg); Kalid bin Barghash.jpg (referencias/zanzibar1896/prints/sultao_khalid_bin_barghash_e_guardas_zan_404306.jpg); Bundesarchiv Bild 105-DOA0908, Deutsch-Ostafrika,  (referencias/zanzibar1896/prints/sultao_khalid_bin_barghash_e_guardas_zan_da10f2.jpg)
+pessoas | oficiais e marinheiros da Marinha Real britanica | oficiais e marinheiros da Marinha Real britanica / oficiais e marinheiros da Marinha Real britanica 1896 | REMINISCENCIAS - Officialidade do Corpo de Marinhe (referencias/zanzibar1896/prints/oficiais_e_marinheiros_da_marinha_real_b_82893d.jpg); REMINISCENCIAS - Officialidade do Corpo de Marinhe (referencias/zanzibar1896/prints/oficiais_e_marinheiros_da_marinha_real_b_82893d.jpg)
+pessoas | consul britanico Basil Cave | consul britanico Basil Cave / consul britanico Basil Cave 1896 | Gravina in Puglia - chiesa grotta di San Basilio d (referencias/zanzibar1896/prints/consul_britanico_basil_cave_5edecd.jpg); H. Basilius van Caesarea, kerkvader, RP-P-1896-A-1 (referencias/zanzibar1896/prints/consul_britanico_basil_cave_b84967.jpg); H. Basilius van Caesarea, kerkvader Basilius, Biss (referencias/zanzibar1896/prints/consul_britanico_basil_cave_2a490e.jpg)
+pessoas | consul da Alemanha | consul da Alemanha / consul da Alemanha 1896 | manual: fotos de 1896 de Zanzibar e da guerra (Wikimedia Commons, Anglo-Zanzibar War): palacio de Stone Town, album com as ruinas do palacio bombardeado, retrato do sultao de turbante e tunica escura, cruzador a vapor britanico de 1896 com chamines e canhao de tiro rapido Nordenfelt (https://en.wikipedia.org/wiki/Anglo-Zanzibar_War)
+objeto | navio de guerra britanico | navio de guerra britanico / navio de guerra britanico 1896 | Stéphane Cardone (ship).jpg (referencias/zanzibar1896/prints/navio_de_guerra_britanico_6190b4.jpg); Fantastic (ship, 1996) - Sète - October 2018.jpg (referencias/zanzibar1896/prints/navio_de_guerra_britanico_6e7426.jpg); Chemical Challenger (ship, 2015) Sète cf01.jpg (referencias/zanzibar1896/prints/navio_de_guerra_britanico_24d1ac.jpg)
+objeto | canhao antigo | canhao antigo / canhao antigo 1896 | Philippe Mercier (1689-1760) - A Boy Drawing from  (referencias/zanzibar1896/prints/canhao_antigo_3ffe8c.jpg); Athens Acropolis Antique Cannon (28365535681).jpg (referencias/zanzibar1896/prints/canhao_antigo_479d0d.jpg); Thai Grand Palace, Bangkok, Antique Cannon Maker's (referencias/zanzibar1896/prints/canhao_antigo_facdd5.jpg)
+objeto | bandeira do sultao | bandeira do sultao / bandeira do sultao 1896 | Flag-of-Israel-4-Zachi-Evenor.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_e96b2d.jpg); Torre del Oro flag Seville Spain.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_92cf9f.jpg); Winchester cathedral flags.jpg (referencias/zanzibar1896/prints/bandeira_do_sultao_430d14.jpg)
+objeto | palacio de madeira em chamas | palacio de madeira em chamas / palacio de madeira em chamas 1896 | Wooden boomerang asv2021-05.jpg (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_ec4e5c.jpg); Russian peasant girls in front of a traditional wo (referencias/zanzibar1896/prints/palacio_de_madeira_em_chamas_36bcdf.jpg)
+heroi | navio vapor | navio de guerra britanico / A Guerra de 38 Minutos | Stéphane Cardone (ship).jpg (referencias/zanzibar1896/prints/navio_vapor_6190b4.jpg); Rio Tagus (ship, 1979), Sète cf11.jpg (referencias/zanzibar1896/prints/navio_vapor_363d29.jpg); Amadeus (ship, 1910), Sète cf01.jpg (referencias/zanzibar1896/prints/navio_vapor_b96721.jpg)
+epoca | navio da epoca | ship 1896 / ship | Viper (ship, 1896) - Cassier's 1897-08.png (referencias/zanzibar1896/prints/navio_da_epoca_72cc04.jpg); Rickmer Rickmers (ship, 1896).jpg (referencias/zanzibar1896/prints/navio_da_epoca_cbe427.jpg); Rickmer Rickmers (ship, 1896) - b.jpg (referencias/zanzibar1896/prints/navio_da_epoca_d17727.jpg)
+mecanismo | O palácio pegou fogo, e o primo fugiu. | palacio pegou primo fugiu / forte colonial diagram | SEM REFERENCIA
+
+## Explicacoes (como funciona, com fonte)
+- O ultimato expirou as 9h00; o bombardeio comecou as 9h02, o palacio pegou fogo e a bandeira foi derrubada; os tiros cessaram entre 9h40 e 9h46 (fonte: Wikipedia Anglo-Zanzibar War)
+- Khalid fugiu para o consulado alemao; os aliados dele pagaram reparacoes de 300 mil rupias pelo custo das balas e dos saques (fonte: Wikipedia Anglo-Zanzibar War)
+- Guerra Anglo-Zanzibar (27/8/1896): navios da Royal Navy bombardearam o palacio do sultao Khalid a partir das 9h02; o palacio pegou fogo, a artilharia foi silenciada e a bandeira derrubada; cessar-fogo por volta das 9h40 (fonte: Wikipedia, Anglo-Zanzibar War).
+
+## Fontes visuais do roteirista
+- https://en.wikipedia.org/wiki/Anglo-Zanzibar_War
+- https://commons.wikimedia.org/wiki/Category:Anglo-Zanzibar_War

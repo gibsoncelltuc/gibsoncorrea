@@ -1,0 +1,103 @@
+{
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: todo mundo pula junto e a Terra nem se mexe; o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
+   "pulam",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "Mas o problema de verdade seria outro.",
+   "problema",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Somos mais de oito bilhões de pessoas.",
+   "bilhões",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Juntas, pesamos mais de quinhentos milhões de toneladas.",
+   "toneladas",
+   {}
+  ],
+  [
+   3,
+   "escalada",
+   "Todo mundo conta até três, e pula!",
+   "pula",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que a Terra pesa trilhões de vezes mais que nós.",
+   "Terra",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Ela se mexeria menos que a largura de um átomo.",
+   "mexeria",
+   {
+    "explica": {
+     "objeto": "kit/globe",
+     "manobra": "gira",
+     "comparar": [
+      [
+       "TERRA",
+       6000000000000000,
+       "mi t"
+      ],
+      [
+       "NÓS",
+       500,
+       "mi t"
+      ]
+     ],
+     "rotulos": [
+      [
+       "MENOS QUE UM ÁTOMO",
+       "cima",
+       "átomo"
+      ]
+     ]
+    },
+    "who": []
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Se todos se juntassem num lugar só, o caos seria a volta.",
+   "caos",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Bilhões de pessoas sem estrada, comida ou água para voltar.",
+   "voltar",
+   {}
+  ],
+  [
+   10,
+   "loop",
+   "Pode pular aí. Agora imagina que...",
+   "pular",
+   {}
+  ]
+ ]
+}

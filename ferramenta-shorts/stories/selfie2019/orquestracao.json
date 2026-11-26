@@ -1,0 +1,206 @@
+{
+ "id": "selfie2019",
+ "ano": 2019,
+ "cenarios_trocados": [
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 8",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_onu"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E a foto chamou mais atenção que o discurso inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/marco_onu"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Foi na Assembleia Geral da ONU, em Nova York, em 2019.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O presidente de El Salvador, Nayib Bukele, tinha só 38 anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "No púlpito, ele pediu licença e pegou o celular.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/phone",
+    "mk/BookStand"
+   ],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que virou de costas e fez uma selfie com o plenário.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Depois avisou: a ONU pode desaparecer como a Kodak.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "POV",
+    "POV",
+    "REP"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/marco_onu",
+    "kit/phone"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "A selfie rodou o mundo inteiro. O discurso ficou em segundo plano.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK",
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "mk/BookStand"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Um segundo bastou para virar notícia. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

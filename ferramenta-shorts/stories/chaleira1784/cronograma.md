@@ -1,0 +1,39 @@
+# CRONOGRAMA - Guerras Inusitadas EP 10 - A Guerra da Chaleira
+
+Gerado em 26/11 01:18 | 9 cenas | metricas: acoes_encenadas 100%, acoes_chave_com_efeito 100%, explicacoes_cobertas 100%, cenario_e_epoca_ok 100%
+
+## 1. Plano de cenas (o que cada frase vai mostrar)
+
+Cena | Classe | Cenario | Camera | Quem | Multidao | Objetos | Efeito planejado | Frase
+---|---|---|---|---|---|---|---|---
+b0 | simples | harbor | two | COZ, HOL | - | kettle | - | Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.
+b1 | simples | harbor | group | IMP, COZ | - | kettle | - | E dentro dela tinha sopa quente para o almoço da tripulação.
+b2 | transicao | harbor | wide | sem personagem | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.
+b3 | simples | interior pedra | two | IMP, GEN | - | - | - | O imperador da Áustria, José Segundo, queria o rio aberto.
+b4 | transicao | harbor | wide | sem personagem | - | navio_fragata, navios de guerra ao fundo, no tamanho real | - | Mandou três navios descerem o rio, certo de que ninguém reagiria.
+b5 | simples | harbor | wide | MAR, MAR | - | cannon, navio_fragata, navios de guerra ao fundo, no tamanho real | - | Acontece que um navio holandês esperava e disparou um tiro.
+b6 | chave | harbor | two | IMP, COZ | - | kettle | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | A bala destruiu a chaleira de sopa bem no meio do convés.
+b7 | chave | harbor | wide | GEN | - | navio_fragata, navios de guerra ao fundo, no tamanho real | corpo: tropa/personagens encenam a batalha; emissao: claroes de tiro, fumaca e poeira; luz: clarao; camera: 4 cameras em | O navio austríaco se rendeu na hora, sem dar nenhum tiro.
+b8 | simples | harbor | two | COZ, HOL | - | kettle | - | Perderam o almoço, a sopa e a coragem. E foi assim que...
+
+## 2. Etapas (em ordem; nenhuma comeca com a anterior pendente)
+
+N | Etapa | O que confere | Estado | Proximo passo
+---|---|---|---|---
+1 | Roteiro e 4 folhas | folha 1 (roteiro), 2 (producao), 3 (acao) e 4 (pesquisa) geradas; triagem de cada frase | FEITO | 
+2 | Pesquisa de campo | cada item do raio-X com referencia; quadro de prints olhado (16/16 itens) | FEITO | 
+3 | Modelagem do que falta | todo objeto das cenas existe na biblioteca 3D, da epoca e no tamanho real | FEITO | 
+4 | Travas do roteiro | folha 2 com 0 risco e folha 3 com 0 acao faltando (riscos agora: 0) | FEITO | 
+5 | Voz | narracao neural gerada e tempos por palavra | FEITO | 
+6 | Estilo e enquadramento | autoajuste de luz/cor e ajuste de camera de cada tomada | FEITO | 
+7 | Gates | camera OK, todas as tomadas OK, estilo OK | FEITO | 
+8 | Storyboard e grade de acoes | video inteiro em quadros + 1 quadro no instante de cada acao | FEITO | 
+9 | Revisao escrita e aprovacao | uma linha por frase conferindo com a folha 3 e com o quadro da pesquisa | FEITO | 
+10 | Render | todos os quadros renderizados nesta versao das folhas | FEITO | 
+11 | Montagem e som | trechos + voz + musica + efeitos; volume normalizado | FEITO | 
+12 | Conferencia | conferir.sh sem falha e folha de contato olhada | FEITO | 
+13 | Auditoria das acoes | 1 quadro do mp4 em cada palavra de acao | PENDENTE | bash auditar_acoes.sh local chaleira1784 <mp4>
+14 | Entrega | mp4 original 1080x1920 enviado; commit e push | BLOQUEADO (etapa anterior pendente) | 
+
+**Etapa atual:** 13. Auditoria das acoes
+

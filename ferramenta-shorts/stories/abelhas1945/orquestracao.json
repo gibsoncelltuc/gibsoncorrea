@@ -1,0 +1,245 @@
+{
+ "id": "abelhas1945",
+ "ano": 1945,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_campo"
+  ],
+  [
+   "cena 1",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 4",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Abelhas conversam dançando, e a dança é um mapa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/beehive"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem traduziu isso ganhou um Prêmio Nobel.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "FRI",
+    "ASS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Karl von Frisch pôs água com açúcar longe da colmeia.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "A abelha que achava o açúcar voltava dançando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "O ângulo da dança aponta a direção, comparada com o sol.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Quanto mais rebola, mais longe está a comida.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bee (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COL",
+    "FRI"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Acontece que os cientistas riram: inseto com linguagem?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "ASS"
+   ],
+   "multidao": 4,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Em 1973, ele ganhou o Nobel por essa dança.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FRI",
+    "COL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bee",
+    "kit/beehive"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Repare na próxima abelha que passar. Porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

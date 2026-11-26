@@ -1,0 +1,210 @@
+{
+ "id": "bukelebio2021",
+ "ano": 2021,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "street"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 6",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um presidente escreveu no próprio perfil que era um ditador.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E ninguém sabia dizer se era piada ou não.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Ele respondeu escrevendo uma palavra no perfil: ditador.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Dias depois, trocou para: o ditador mais legal do mundo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que a frase se espalhou pelo mundo inteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Muitos leram como ironia, para provocar os críticos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/phone"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Em 2024, o perfil dele dizia: rei filósofo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Provocação ou confissão? Só sei que foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

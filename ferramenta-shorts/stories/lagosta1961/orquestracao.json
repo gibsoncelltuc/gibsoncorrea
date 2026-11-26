@@ -1,0 +1,190 @@
+{
+ "id": "lagosta1961",
+ "ano": 1961,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/lobster"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Brasil e França quase entraram em guerra por causa de lagosta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/lobster"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E tudo dependia de uma pergunta: lagosta anda ou nada?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "boat",
+    "kit/fishing_net"
+   ],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O Brasil dizia: ela anda no fundo do mar, é nossa.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/lobster (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "A França dizia: ela nada, é de quem pescar.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/lobster (sobe)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MFR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/navio_destroier",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "A França mandou um navio de guerra.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "ship",
+    "vehicles/airplane"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Acontece que o Brasil respondeu com navios e aviões.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FRA",
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Mas o tiro nunca veio. Os governos negociaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BRA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/lobster"
+   ],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

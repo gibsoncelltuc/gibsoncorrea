@@ -1,0 +1,489 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 19,
+ "title": "O Macaco que Jogou Videogame com a Mente",
+ "titulo_base": "O Macaco que Jogou Videogame com a Mente",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/monkey_pong",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "X"
+  },
+  "CIE": {
+   "profissao": "medico",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "CIM": {
+   "profissao": "cientista",
+   "beard": "#3a2a1f",
+   "hair": "#3a2a1f"
+  },
+  "NOL": {
+   "jacket": "#2a5a3a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#5a3a22"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:grin",
+    "CIE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     0.0,
+     -1.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "2021",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Um macaco jogou videogame sem usar as mãos, só com o pensamento.",
+   "set": "street",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em dois mil e vinte e um, e a empresa se chama Neuralink."
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:stern:paper",
+    "MUS:0:suspicious"
+   ],
+   "acao": "conversar",
+   "say": "A ideia é um chip no cérebro, que lê os sinais dos neurônios e manda para o computador.",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "_susp_tela": true,
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIE:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "conversar",
+   "say": "O voluntário foi o Pager, um macaco de nove anos, que aprendeu a jogar Pong com um joystick.",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "CIE:0:grin:mug"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "A cada acerto, ganhava um golinho de vitamina de banana.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CIM:0:shock"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "say": "Acontece que, um dia, desligaram o joystick, e o Pager continuou jogando só com a mente.",
+   "shot_lock": true,
+   "detalhe": true,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shock",
+    "POV:1:surprised",
+    "MUS:0:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "surprised"
+   },
+   "props": [
+    [
+     "kit/monkey_pong",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "MENTE",
+   "titulo": true,
+   "say": "O vídeo rodou o mundo, e também abriu debate sobre o uso de animais em pesquisa.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano de multidao; plano medio enquadrando personagens e monkey_pong juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smug",
+    "CIM:0:grin"
+   ],
+   "acao": "discutir",
+   "say": "Segundo a empresa, o objetivo é ajudar quem é paralisado a usar o computador só pensando.",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/chess_pc",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/phone",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "NOL:0:grin",
+    "CIE:0:surprised"
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "interacao": "entregar",
+   "say": "Em dois mil e vinte e quatro, o primeiro paciente, que não mexia o corpo do pescoço para baixo, jogou xadrez só pensando.",
+   "props": [
+    [
+     "kit/chess_pc",
+     0.0,
+     -1.2,
+     1.7,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "shot_lock": true,
+   "verbos_ok": [
+    "jogo",
+    "jogo"
+   ],
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e chess_pc juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/chess_pc",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "props": [
+    [
+     "kit/monkey_pong",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "say": "Tudo começou com um macaco, um videogame e um copo de vitamina de banana.",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e monkey_pong juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/monkey_pong",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "fontes": [
+  "https://neuralink.com/updates/pager-plays-mindpong/",
+  "https://www.bbc.com/news/technology-56688812"
+ ],
+ "exp": 1.0,
+ "variar_cenario": false,
+ "visual": {
+  "local": "Neuralink, Fremont, California: laboratorio com o macaco diante de uma tela; casa do paciente Noland Arbaugh",
+  "quando": "abril de 2021 (video do Pager); janeiro-marco de 2024 (primeiro paciente), dia",
+  "participantes": [
+   "macaco Pager (macaco-rhesus de 9 anos)",
+   "cientistas de jaleco",
+   "Elon Musk",
+   "Noland Arbaugh (cadeira de rodas)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta",
+   "CIE": "jaleco branco",
+   "CIM": "jaleco azul",
+   "NOL": "camiseta casual, cadeira de rodas",
+   "POV": "roupa casual"
+  },
+  "cenario": "sala de laboratorio clara com tela mostrando Pong e um canudo de metal; sala de casa com computador",
+  "objetos": [
+   "tela com Pong",
+   "joystick",
+   "canudo de metal com vitamina de banana",
+   "chip N1 (moeda pequena)",
+   "computador com xadrez"
+  ],
+  "explicacoes": [
+   "Neuralink mostrou em abril de 2021 o macaco Pager jogando Pong so com o implante; em 2024 Noland Arbaugh, tetraplegico, jogou xadrez com o implante (fonte: Wikipedia Neuralink)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Neuralink"
+  ],
+  "locacoes": [
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_cidade",
+   "street"
+  ],
+  "buscas": {
+   "macaco": "Neuralink Pager monkey MindPong 2021"
+  }
+ }
+}

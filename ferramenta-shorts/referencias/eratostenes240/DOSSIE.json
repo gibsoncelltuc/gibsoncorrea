@@ -1,0 +1,102 @@
+{
+ "id": "eratostenes240",
+ "titulo": "Curiosidade e Ciência EP 10 - Eratóstenes Mede a Terra",
+ "ancoras": {
+  "ano": 2000,
+  "era": "historica",
+  "regiao": "classico",
+  "luz_base": "desert",
+  "cenarios": [
+   "loc_campo",
+   "loc_estudio",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "palace",
+    "loc_campo"
+   ],
+   [
+    "cena 2",
+    "medieval",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/lupa",
+  "kit/marco_alexandria",
+  "kit/rocket",
+  "kit/starlink_sat",
+  "kit/stick",
+  "kit/well",
+  "nature/tree_palm",
+  "tools/bucket"
+ ],
+ "pesquisa_visual": {
+  "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
+  "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
+  "participantes": [
+   "Eratostenes (tunica grega branca e manto, barba)",
+   "bibliotecario assistente",
+   "camelos e caravana para medir a distancia"
+  ],
+  "roupas": {
+   "ERA": "tunica (quiton) branca com manto azul, sandalias",
+   "BIB": "tunica clara",
+   "CAM": "tunica e turbante de caravaneiro"
+  },
+  "cenario": "cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra",
+  "objetos": [
+   "vara (gnomon)",
+   "poco de pedra",
+   "rolos de papiro",
+   "globo"
+  ],
+  "explicacoes": [
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)",
+   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)",
+   "Eratostenes: sombra em Alexandria de 7,2 graus (1/50 do circulo), distancia Siena-Alexandria de 5.000 estadios, circunferencia ~250.000 estadios (~39.400 km); valor real 40.075 km (Cleomedes, De motu circulari)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eratosthenes",
+   "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+  ],
+  "buscas": {
+   "vara": "Eratosthenes gnomon shadow experiment",
+   "cidade": "ancient Alexandria library illustration",
+   "Alexandria (Egito): Biblioteca e patio com obelisco": "Library of Alexandria ancient reconstruction painting",
+   "bibliotecario assistente": "ancient Greek scholar scroll library illustration",
+   "vara (gnomon)": "ancient gnomon sundial shadow stick",
+   "globo": "antique terrestrial globe 17th century",
+   "stick": "wooden stick shadow on desert sand",
+   "poco de pedra": "ancient stone well desert Egypt",
+   "globe": "antique terrestrial globe 17th century",
+   "Eratóstenes Mede a Terra": "Eratosthenes measuring the Earth illustration shadow well Syene"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

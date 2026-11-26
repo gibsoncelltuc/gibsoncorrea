@@ -1,0 +1,52 @@
+{
+ "id": "ese_pulo",
+ "titulo": "E Se EP 01 - E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": null,
+  "luz_base": "golden",
+  "cenarios": [
+   "harbor",
+   "interior madeira",
+   "loc_estudio",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/globe",
+  "kit/room_azul_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "o planeta inteiro: cidades, campos e praias",
+  "quando": "hoje (hipotese), de dia",
+  "participantes": [
+   "pessoas do mundo todo"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "multidoes pulando em varios lugares, globo terrestre",
+  "objetos": [
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://what-if.xkcd.com/8/",
+   "https://en.wikipedia.org/wiki/Earth_mass"
+  ],
+  "explicacoes": "A massa da Terra e cerca de 6 x 10^21 toneladas; a humanidade, ~5 x 10^8 toneladas. Um pulo coletivo moveria a Terra menos que a largura de um atomo. Fonte: xkcd What If #8 (Randall Munroe)."
+ },
+ "fontes": [
+  "https://what-if.xkcd.com/8/"
+ ],
+ "falta": []
+}

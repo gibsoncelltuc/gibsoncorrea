@@ -1,0 +1,133 @@
+{
+ "title": "Teste de Personagens",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "A": {
+   "jacket": "#8a7a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#5a6334"
+  },
+  "B": {
+   "jacket": "#3a3a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bowler"
+  },
+  "C": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "D": {
+   "jacket": "#8a7a4a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "slouch"
+  },
+  "E": {
+   "jacket": "#b5333a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "fez"
+  },
+  "F": {
+   "jacket": "#e8e0c8",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "turban"
+  },
+  "G": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown"
+  },
+  "H": {
+   "jacket": "#2f5f6a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "beret"
+  },
+  "I": {
+   "jacket": "#4a3a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "wizard"
+  },
+  "N": {
+   "jacket": "#5d7a3a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218"
+  },
+  "M": {
+   "jacket": "#b5653f",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "straw",
+    "bowler",
+    "cap",
+    "beret"
+   ],
+   "cap": "#8a2b2b"
+  }
+ },
+ "beats": [
+  {
+   "shot": "group",
+   "who": [
+    "A:0:neutral",
+    "B:1:smile:paper",
+    "C:2:grin:pitchfork",
+    "D:3:stern"
+   ],
+   "fachada": false,
+   "say": "Capacete, chapéu coco, chapéu de palha e chapéu australiano.",
+   "text": "1788"
+  },
+  {
+   "shot": "group",
+   "who": [
+    "E:0:neutral:mug",
+    "F:1:smile:spyglass",
+    "G:2:grin:coin",
+    "H:3:stern:book"
+   ],
+   "fachada": false,
+   "say": "Fez, turbante, coroa e boina, cada um com um objeto.",
+   "text": "AGUARDENTE"
+  },
+  {
+   "shot": "group",
+   "who": [
+    "I:0:neutral:staff",
+    "N:0:smile:lantern",
+    "N:2:grin:bottle",
+    "N:4:stern:bag"
+   ],
+   "fachada": false,
+   "say": "Mago, e três cortes de cabelo diferentes, sem chapéu."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "M:0:neutral:flag",
+    "M:1:smile:torch",
+    "M:2:grin",
+    "M:3:stern",
+    "N:1:shock",
+    "N:3:laugh"
+   ],
+   "fachada": false,
+   "say": "E uma turma misturada, com tocha e bandeira.",
+   "text": "10.000 BALAS"
+  }
+ ]
+}

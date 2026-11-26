@@ -1,0 +1,101 @@
+{
+ "id": "cachorro1925",
+ "titulo": "Guerras Inusitadas EP 18 - A Guerra do Cão Fugitivo",
+ "ancoras": {
+  "ano": 1925,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior madeira",
+   "loc_campo",
+   "loc_montanha",
+   "mountain"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 1",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 2",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 4",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 6",
+    "mountain",
+    "loc_montanha"
+   ],
+   [
+    "cena 10",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro dos anos 50",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "tambor de guerra",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/dog_sit",
+  "kit/room_europa_wood",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large"
+ ],
+ "pesquisa_visual": {
+  "local": "Fronteira entre Grécia e Bulgária, monte Belasitsa e a cidade de Petrich",
+  "quando": "18 a 29 de outubro de 1925, outono",
+  "participantes": [
+   "soldado grego",
+   "soldados búlgaros",
+   "general Pangalos"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda cáqui-azulada e capacete",
+   "BUL": "soldado búlgaro de 1925: farda cáqui verde e quepe",
+   "PRE": "político de terno escuro e chapéu",
+   "DIP": "diplomata de terno cinza"
+  },
+  "cenario": "posto de fronteira nas montanhas, cidade de Petrich, sala da Liga das Nações em Genebra",
+  "objetos": [
+   "fuzil de 1925"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+   "referencias/cachorro1925/moodboard.jpg"
+  ],
+  "buscas": {
+   "Petrich": "Petrich Bulgaria 1920s",
+   "soldado grego": "Greek soldier 1925 uniform",
+   "soldado búlgaro": "Bulgarian soldier 1925 uniform",
+   "Pangalos": "Theodoros Pangalos 1925 portrait",
+   "exército da época": "Bulgarian soldiers 1920s photograph",
+   "roupas e ruas de 1925": "Bulgaria 1920s street photograph"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

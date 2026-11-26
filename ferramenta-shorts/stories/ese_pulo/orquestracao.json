@@ -1,0 +1,206 @@
+{
+ "id": "ese_pulo",
+ "ano": null,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "Mas o problema de verdade seria outro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Somos mais de oito bilhões de pessoas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Juntas, pesamos mais de quinhentos milhões de toneladas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 30,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Todo mundo conta até três, e pula!",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que a Terra pesa trilhões de vezes mais que nós.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Ela se mexeria menos que a largura de um átomo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/globe (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Se todos se juntassem num lugar só, o caos seria a volta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Bilhões de pessoas sem estrada, comida ou água para voltar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe"
+   ],
+   "palavras": 6,
+   "cena": "b9",
+   "frase": "Pode pular aí. Agora imagina que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

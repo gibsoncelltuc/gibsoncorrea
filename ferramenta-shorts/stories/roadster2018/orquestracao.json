@@ -1,0 +1,186 @@
+{
+ "id": "roadster2018",
+ "ano": 2018,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Um carro de verdade está dando voltas em torno do Sol.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "STA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 6,
+   "cena": "b1",
+   "frase": "E o motorista dele não respira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 2018, a SpaceX testou o Falcon Heavy, seu maior foguete.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 12,
+   "cena": "b3",
+   "frase": "Em vez de um peso de concreto, Musk mandou o próprio carro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "O foguete decolou com um estrondo!",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "STA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que no volante ia um boneco astronauta, o Starman.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "STA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "No painel, um aviso: não entre em pânico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/globe",
+    "kit/roadster"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "O carro deixou a Terra e foi girar em torno do Sol.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "Ele continua lá até hoje. Porque...",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  }
+ ]
+}

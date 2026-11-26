@@ -1,0 +1,551 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 10,
+ "title": "Eratóstenes Mede a Terra",
+ "titulo_base": "Eratóstenes Mede a Terra",
+ "set": "palace",
+ "light": "desert",
+ "mood": "playful",
+ "heroi": "kit/stick",
+ "outfits": {
+  "ERA": {
+   "profissao": "cientista",
+   "jacket": "#e8dcc0",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "beard": "#c9c2b0"
+  },
+  "BIB": {
+   "profissao": "cientista",
+   "jacket": "#7a5a3a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "hair",
+   "hair": "#3a2a1a",
+   "glasses": true
+  },
+  "POV": {
+   "profissao": "comerciante",
+   "jacket": "#c9783a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "turban"
+  },
+  "CAM": {
+   "profissao": "agricultor",
+   "jacket": "#8a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "ERA:0:smile",
+    "BIB:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     1.2,
+     -0.6,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 40000,
+     "un": "KM",
+     "titulo": "VOLTA DA TERRA",
+     "na": "tamanho",
+     "dur": 1.4
+    }
+   },
+   "bloco": "gancho",
+   "say": "Um homem mediu o tamanho da Terra usando só uma vara.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "examina",
+      "na": "mediu",
+      "quem": 0
+     }
+    ]
+   },
+   "text": "UMA VARA = O PLANETA",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ERA:0:smug"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     0.0,
+     -8.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/well",
+     3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "fachada": false,
+   "acao": "comemorar",
+   "set": "medieval",
+   "crowd": {
+    "n": 0
+   },
+   "cx": 3.6,
+   "cz": -1.4,
+   "h": 2.8,
+   "d0": 13.0,
+   "d1": 11.0,
+   "bloco": "promessa",
+   "say": "E chegou perto do número certo, sem satélite.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "número"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "BIB:0:neutral",
+    "POV:0:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "BIB",
+     "POV",
+     "CAM"
+    ],
+    "march": false
+   },
+   "mapa": "EGITO",
+   "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Eratóstenes"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ERA:0:surprised:paper",
+    "BIB:0:suspicious"
+   ],
+   "acao": "conversar",
+   "detalhe": false,
+   "props": [
+    [
+     "kit/well",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "iluminava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ERA:0:smile",
+    "CAM:0:neutral"
+   ],
+   "props": [
+    [
+     "kit/well",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Ou seja: lá, nada fazia sombra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sombra"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/stick",
+     0.0,
+     -8.0,
+     2.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_palm",
+     -3.2,
+     -6.0,
+     1.5
+    ],
+    [
+     "nature/tree_palm",
+     3.4,
+     -7.5,
+     1.6
+    ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "shot_lock": true,
+   "crowd": {
+    "n": 0
+   },
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 19.3,
+   "d1": 18.4,
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "VARA",
+      "topo",
+      "vara"
+     ],
+     [
+      "SOMBRA PEQUENA",
+      "baixo",
+      "sombra"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "SOL",
+      "",
+      "fincada"
+     ]
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "vara"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "orbit",
+   "who": [],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [],
+   "fx": [
+    "ring@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@40",
+    "sting@60"
+   ],
+   "fachada": false,
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "rotulos": [
+     [
+      "SOMBRAS DIFERENTES",
+      "topo",
+      "diferente"
+     ],
+     [
+      "TERRA CURVA",
+      "baixo",
+      "curva"
+     ]
+    ],
+    "setas": [
+     [
+      "baixo",
+      "SOL",
+      "",
+      "sombra"
+     ]
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Acontece que isso só acontece se a Terra for curva.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "curva"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "medidor": {
+     "de": 0,
+     "para": 7.2,
+     "un": "GRAUS",
+     "titulo": "ANGULO DA SOMBRA",
+     "na": "ângulo",
+     "dec": 1
+    },
+    "rotulos": [
+     [
+      "5.000 ESTADIOS",
+      "baixo",
+      "passos"
+     ]
+    ]
+   },
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ângulo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [],
+   "explica": {
+    "objeto": "kit/stick",
+    "manobra": "parado",
+    "comparar": [
+     [
+      "ERATOSTENES",
+      39375
+     ],
+     [
+      "REAL",
+      40075
+     ]
+    ],
+    "comparar_na": "conta"
+   },
+   "bloco": "pagamento",
+   "say": "A conta deu quase o tamanho real da Terra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "conta",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ERA:0:smile",
+    "BIB:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/stick",
+     1.2,
+     -0.6,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 40000,
+     "un": "KM",
+     "titulo": "VOLTA DA TERRA",
+     "na": "tamanho",
+     "dur": 1.4
+    }
+   },
+   "bloco": "loop",
+   "say": "Sem foguete, só uma sombra. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foguete"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 0.9,
+ "regiao": "classico",
+ "marco": "kit/marco_alexandria",
+ "visual": {
+  "local": "Alexandria (Egito): Biblioteca e patio com obelisco; Siena (Assua): poco no deserto a beira do Nilo",
+  "quando": "cerca de 240 a.C., meio-dia do solsticio de verao, sol forte",
+  "participantes": [
+   "Eratostenes (tunica grega branca e manto, barba)",
+   "bibliotecario assistente",
+   "camelos e caravana para medir a distancia"
+  ],
+  "roupas": {
+   "ERA": "tunica (quiton) branca com manto azul, sandalias",
+   "BIB": "tunica clara",
+   "CAM": "tunica e turbante de caravaneiro"
+  },
+  "cenario": "cidade helenistica com colunas, palmeiras, areia; poco de pedra; vara fincada no chao com sombra",
+  "objetos": [
+   "vara (gnomon)",
+   "poco de pedra",
+   "rolos de papiro",
+   "globo"
+  ],
+  "explicacoes": [
+   "Eratostenes comparou a sombra ao meio-dia em Alexandria (cerca de 7,2 graus) com Siena (sem sombra) e a distancia entre as cidades (5000 estadios) para calcular a circunferencia da Terra, cerca de 250 mil estadios (fonte: Wikipedia Eratosthenes)",
+   "Ao meio-dia do solsticio, em Siena o sol ficava a pino (sem sombra no poco) e em Alexandria a vara fazia sombra de cerca de 7 graus; a diferenca so existe se a Terra for curva (fonte: Wikipedia Eratosthenes)",
+   "Eratostenes: sombra em Alexandria de 7,2 graus (1/50 do circulo), distancia Siena-Alexandria de 5.000 estadios, circunferencia ~250.000 estadios (~39.400 km); valor real 40.075 km (Cleomedes, De motu circulari)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Eratosthenes",
+   "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+  ],
+  "buscas": {
+   "vara": "Eratosthenes gnomon shadow experiment",
+   "cidade": "ancient Alexandria library illustration",
+   "Alexandria (Egito): Biblioteca e patio com obelisco": "Library of Alexandria ancient reconstruction painting",
+   "bibliotecario assistente": "ancient Greek scholar scroll library illustration",
+   "vara (gnomon)": "ancient gnomon sundial shadow stick",
+   "globo": "antique terrestrial globe 17th century",
+   "stick": "wooden stick shadow on desert sand",
+   "poco de pedra": "ancient stone well desert Egypt",
+   "globe": "antique terrestrial globe 17th century",
+   "Eratóstenes Mede a Terra": "Eratosthenes measuring the Earth illustration shadow well Syene"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
+ "loop_frase_ok": true
+}

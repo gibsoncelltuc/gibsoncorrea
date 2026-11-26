@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# boot.sh -- roda no inicio de toda sessao (hook SessionStart). Rapido e nao bloqueante: instala o que faltar e RELANCA a fila se houver video pendente.
+cd "$(dirname "$0")"; mkdir -p logs
+{
+  echo "$(date +%T) boot"
+  BR_=$(git rev-parse --abbrev-ref HEAD 2>/dev/null); case "$BR_" in claude/prod-a*) FILA_=fila_sessao_A.txt;; claude/prod-b*) FILA_=fila_sessao_B.txt;; *) FILA_=fila_principal.txt;; esac   # cada sessao so' faz a PROPRIA fila (24/11: a sessao B reiniciou e pegou a fila da principal)
+  [ -s queue.txt ] && [ "$(cat logs/.fila_origem 2>/dev/null)" != "$FILA_" ] && { echo "queue.txt era de outra fila ($(cat logs/.fila_origem 2>/dev/null)): recriando de $FILA_"; : > queue.txt; }
+  [ -s queue.txt ] || { grep -v "^#" $FILA_ > queue.txt 2>/dev/null && echo "$FILA_" > logs/.fila_origem && echo "fila recriada de $FILA_"; }   # 23/11: queue.txt nao vai para o git; num container novo a fila volta sozinha
+  C_=$(python3 -m certifi 2>/dev/null); [ -n "$C_" ] && [ -f /root/.ccr/ca-bundle.crt ] && ! grep -q "ccr-agent" "$C_" && { echo "# ccr-agent-proxy" >> "$C_"; cat /root/.ccr/ca-bundle.crt >> "$C_"; }   # 23/11: edge-tts (aiohttp) so confia no certifi -> sem isso a voz neural falha pelo proxy
+  [ -e /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0 ] || apt-get install -y -q libegl1 libgl1-mesa-dri libgles2 >/dev/null 2>&1   # rasterizador rapido (llvmpipe)
+  command -v espeak-ng >/dev/null || (apt-get install -y -q espeak-ng >/dev/null 2>&1 || (apt-get update -q >/dev/null 2>&1 && apt-get install -y -q espeak-ng >/dev/null 2>&1))
+  python3 -c "import edge_tts, PIL, numpy" 2>/dev/null || pip install -q edge-tts pillow numpy >/dev/null 2>&1
+  [ -e node_modules/playwright ] || { mkdir -p node_modules; ln -sfn /usr/local/lib/node_modules_global/playwright node_modules/playwright; }
+  bash garantir_sync.sh   # 24/11: a sincronia da ferramenta (60 s) liga ANTES da trava de pausa -- sessao pausada tambem recebe as correcoes
+  [ -f PAUSA ] && { echo "PAUSA: producao parada por ordem do Gibson (apague ferramenta-shorts/PAUSA para retomar)"; exit 0; }   # 24/11: reinicio do ambiente nao religa fila/watchdog/auto-aprovacao durante a pausa
+  PEND=$(grep -v '^#' queue.txt 2>/dev/null | awk 'NF{print $1}' | while read -r id; do [ -f stories/$id/DONE ] || echo $id; done | head -1)
+  if [ -n "$PEND" ]; then echo "pendente: $PEND -> relancando fila"; nohup bash run_queue.sh >> logs/queue.log 2>&1 & else echo "nada pendente"; fi
+  BR=$(git -C .. rev-parse --abbrev-ref HEAD 2>/dev/null)   # WATCHDOG (19/11): nas sessoes A/B o sync da ferramenta volta sozinho apos reinicio
+  bash garantir_sync.sh
+  if [ "$BR" = "claude/bold-sagan-dskrsj" ] && ! pgrep -f "watchdog.sh" >/dev/null; then nohup setsid bash -c 'while true; do bash watchdog.sh >> logs/watchdog.log 2>&1; sleep 60; done' > /dev/null 2>&1 & echo "watchdog relancado (principal)"; fi   # 19/11: watchdog volta sozinho apos reinicio do ambiente
+  pgrep -f auto_aprovar.sh >/dev/null || nohup setsid bash auto_aprovar.sh > /dev/null 2>&1 &   # auto-aprovacao de seguranca (cota acabou)
+} >> logs/boot.log 2>&1 &
+exit 0

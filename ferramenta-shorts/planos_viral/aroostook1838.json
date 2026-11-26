@@ -1,0 +1,83 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DOS LENHADORES",
+ "gancho_cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Lenhadores quase começaram uma guerra entre dois países.",
+   "lenhadores",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E essa guerra ganhou nome de comida.",
+   "comida",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1838, o Maine e o Canadá inglês disputavam a fronteira.",
+   "disputavam",
+   {
+    "set": "countryside"
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Lenhadores dos dois lados cortavam as mesmas árvores.",
+   "cortavam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "escalada",
+   "O Maine mandou um agente prender os lenhadores do outro lado.",
+   "prender",
+   {
+    "encena_antiga": true,
+    "set": "countryside"
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que os lenhadores prenderam o agente.",
+   "prenderam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Os dois lados chamaram milhares de soldados da milícia.",
+   "chamaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Um general negociou uma trégua. Ninguém chegou a lutar.",
+   "trégua",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "O apelido: Guerra do Porco com Feijão. Tudo porque...",
+   "apelido",
+   {}
+  ]
+ ]
+}

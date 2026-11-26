@@ -1,0 +1,4 @@
+b0: corte na borda e' o CLOSE de reacao do convidado (take planejado); torre de luz e' cenario, nao citada
+b1: torre de luz e' cenario (nao citada); a base da SpaceX aparece com rampa e telao
+b4: corte na borda e' o close do convidado em choque no pouso; torre de luz e' cenario
+b6: veiculos parados aparecem (Cybercab embaixo do carro); Cybertruck fora do quadro de proposito; carro voando alto

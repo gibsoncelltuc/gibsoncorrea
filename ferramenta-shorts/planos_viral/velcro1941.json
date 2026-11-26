@@ -1,0 +1,85 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "INVENTADO POR UM CACHORRO",
+ "gancho_cumprido": "Gancho: o velcro nasceu de um passeio com o cachorro e hoje esta no seu tenis. Pagamento: os carrapichos tinham ganchinhos; virou a fita de ganchos e voltinhas, usada ate no espaco.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "O velcro nasceu de um passeio com o cachorro.",
+   "passeio",
+   {
+    "text": null
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E hoje ele está no seu tênis.",
+   "tênis",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1941, na Suíça, George de Mestral voltou de uma caminhada.",
+   "voltou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O cachorro e a calça estavam cheios de carrapichos.",
+   "carrapichos",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Curioso, ele olhou um carrapicho no microscópio.",
+   "olhou",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que cada espinho tinha um ganchinho na ponta.",
+   "ganchinho",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Ele pensou: uma fita com ganchinhos e outra com voltinhas.",
+   "pensou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Os tecelões riram. Levou quase dez anos até acertar.",
+   "riram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Até que astronautas usaram no espaço, e o mundo inteiro quis.",
+   "usaram",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um cachorro cheio de carrapichos. E foi assim que...",
+   "cachorro",
+   {
+    "text": null
+   }
+  ]
+ ]
+}

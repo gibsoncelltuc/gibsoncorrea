@@ -1,0 +1,423 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 1,
+ "title": "O Ditador Mais Legal do Mundo",
+ "titulo_base": "O Ditador Mais Legal do Mundo",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "fixo": true,
+   "cap": "#1b1b1f",
+   "capBack": true
+  },
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "mapa_at": 1,
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "gancho",
+   "say": "Um presidente escreveu no próprio perfil que era um ditador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escreveu"
+     }
+    ]
+   },
+   "text": "DITADOR",
+   "titulo": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E ninguém sabia dizer se era piada ou não.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "crowd",
+   "who": [
+    "POV:0:shout",
+    "POV:1:angry"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": true,
+    "expr": "shout"
+   },
+   "sfx": [
+    "gibber@10"
+   ],
+   "set": "street",
+   "mapa": "EL SALVADOR",
+   "bloco": "prova",
+   "say": "Em 2021, milhares protestaram contra Nayib Bukele em El Salvador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "protestaram"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "text": "DITADOR",
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Ele respondeu escrevendo uma palavra no perfil: ditador.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escrevendo"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "group",
+   "who": [
+    "BUK:0:grin",
+    "POV:0:shock",
+    "POV:1:shock"
+   ],
+   "text": "O DITADOR MAIS LEGAL DO MUNDO",
+   "fx": [
+    "burst@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "Dias depois, trocou para: o ditador mais legal do mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trocou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "reveal",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ]
+   },
+   "mapa": "MUNDO",
+   "mapa_at": 1,
+   "set": "street",
+   "bloco": "escalada",
+   "say": "Acontece que a frase se espalhou pelo mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "espalhou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "JOR:0:suspicious",
+    "BUK:0:smug"
+   ],
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "Muitos leram como ironia, para provocar os críticos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ironia"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "text": "REI FILÓSOFO",
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/ballot_box",
+     3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@8"
+   ],
+   "sfx": [
+    "ding@8"
+   ],
+   "interior": "pedra",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "riscos_ok": true,
+   "bloco": "pagamento",
+   "say": "Em 2024, o perfil dele dizia: rei filósofo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "perfil"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "BUK:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "street",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "loop",
+   "say": "Provocação ou confissão? Só sei que foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Provocação"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.12,
+ "fontes": [
+  "https://news.yahoo.com/el-salvadors-millennial-president-switched-043818079.html",
+  "https://emisorasunidas.com/2021/09/21/bukele-descripcion-twitter-el-dictador-mas-cool/",
+  "https://www.britannica.com/biography/Nayib-Bukele"
+ ],
+ "ano": 2021,
+ "regiao": "colonial",
+ "cinf": 4.5,
+ "visual": {
+  "local": "San Salvador, El Salvador: ruas do centro e gabinete presidencial; redes sociais",
+  "quando": "setembro de 2021 (protestos de 15/09) e fevereiro de 2024, dia",
+  "participantes": [
+   "Nayib Bukele (jaqueta de couro escura, bone virado ou camisa social, barba)",
+   "manifestantes com cartazes",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura e barba",
+   "POV": "camiseta e cartaz de protesto",
+   "JOR": "camisa social com microfone"
+  },
+  "cenario": "rua do centro de San Salvador com predios baixos coloniais e multidao; escritorio com celular; redacao de jornal",
+  "objetos": [
+   "celular com o perfil",
+   "cartazes de protesto",
+   "urna de votacao"
+  ],
+  "explicacoes": [
+   "Em setembro de 2021 Bukele mudou a bio no Twitter para \"Dictador\" e depois \"El dictador mas cool del mundo mundial\"; em 2024 usou \"Philosopher King\" (fonte: Wikipedia Nayib Bukele; BBC News 21/09/2021)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Nayib_Bukele",
+   "https://en.wikipedia.org/wiki/2021_Salvadoran_protests"
+  ],
+  "locacoes": [
+   "street",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "protesto": "San Salvador protest September 2021",
+   "presidente": "Nayib Bukele 2021"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente se chamou de ditador no proprio perfil e ninguem sabia se era piada. Pagamento: depois dos protestos escreveu 'ditador', trocou para 'o ditador mais legal do mundo', lido como ironia; depois 'rei filosofo'.",
+ "loop_frase_ok": true
+}

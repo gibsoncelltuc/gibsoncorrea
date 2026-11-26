@@ -1,0 +1,214 @@
+{
+ "id": "rontgen1895",
+ "ano": 1895,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "ROE",
+    "ANA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_wurzburg",
+    "kit/xray_plate"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ANA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "Conta-se que ela viu ali a própria morte.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/crookes_tube",
+    "kit/marco_wurzburg"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crookes_tube"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Uma noite, cobriu o tubo e apagou a luz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "ROE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 12,
+   "cena": "b4",
+   "frase": "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Pôs a mão na frente e viu os próprios ossos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ROE",
+    "ANA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Depois, fotografou a mão da esposa, Anna, com a aliança.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROE",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Sem saber o que era, chamou de raio X.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ROE",
+    "MED",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/marco_wurzburg"
+   ],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "Ganhou o primeiro Nobel de Física.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROE",
+    "ANA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/xray_plate"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Um raio desconhecido, e foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

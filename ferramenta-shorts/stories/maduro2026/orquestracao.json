@@ -1,0 +1,220 @@
+{
+ "id": "maduro2026",
+ "ano": 2026,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SOL",
+    "MAD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/helicopter_air",
+    "nature/lamppost"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um presidente foi capturado de madrugada, dentro da própria capital.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E tudo levou menos de três horas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foi em janeiro de 2026, em Caracas, na Venezuela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O alvo era Nicolás Maduro, acusado nos Estados Unidos de narcoterrorismo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Às duas da manhã, helicópteros levaram a Força Delta até ele.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Ao mesmo tempo, ataques aéreos desligaram as defesas do país.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/helicopter_air (paira)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "SOL",
+    "MAD"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Acontece que, em menos de três horas, ele já estava capturado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "AGE",
+    "MAD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll",
+    "vehicles/airplane"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Foi levado de avião para Nova York.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "A notícia dividiu o mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "SOL",
+    "MAD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/helicopter_air"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "A operação se chamou Resolução Absoluta. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ABELHAS DANÇAM",
+ "gancho_cumprido": "Gancho: abelhas conversam dancando, a danca e' um mapa, e quem traduziu ganhou o Nobel. Pagamento: voltinhas para perto, oito para longe, angulo do sol para a direcao; Nobel de 1973.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Abelhas conversam dançando, e a dança é um mapa.",
+   "dançando",
+   {}
+  ],
+  [
+   1,
+   "promessa",
+   "E quem traduziu isso ganhou um Prêmio Nobel.",
+   "traduziu",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Karl von Frisch pôs água com açúcar longe da colmeia.",
+   "pôs",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A abelha que achava o açúcar voltava dançando.",
+   "dançando",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "Comida perto: voltinhas. Comida longe: um oito, rebolando.",
+   "oito",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "O ângulo da dança aponta a direção, comparada com o sol.",
+   "ângulo",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Quanto mais rebola, mais longe está a comida.",
+   "rebola",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Acontece que os cientistas riram: inseto com linguagem?",
+   "riram",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "Em 1973, ele ganhou o Nobel por essa dança.",
+   "Nobel",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Repare na próxima abelha que passar. Porque...",
+   "abelha",
+   {}
+  ]
+ ]
+}

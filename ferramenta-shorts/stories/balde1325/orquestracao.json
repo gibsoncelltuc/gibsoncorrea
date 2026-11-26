@@ -1,0 +1,207 @@
+{
+ "id": "balde1325",
+ "ano": 1325,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "BOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Uma guerra de verdade teve um balde de madeira como troféu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower",
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E esse balde está guardado até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NOB",
+    "PAP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "BOL",
+    "BOL"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Módena tinha menos de oito mil homens.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "MOD",
+    "BOL"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b6",
+   "frase": "Depois, fizeram festa na porta de Bolonha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower",
+    "kit/balde_madeira",
+    "kit/well"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "E levaram de troféu o balde do poço da cidade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower",
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "O balde está na torre Ghirlandina, em Módena.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MOD",
+    "BOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/balde_madeira",
+    "tools/bucket"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "Milhares de soldados, e o prêmio foi um balde. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  }
+ ]
+}

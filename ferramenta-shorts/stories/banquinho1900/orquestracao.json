@@ -1,0 +1,227 @@
+{
+ "id": "banquinho1900",
+ "ano": 1900,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 8,
+   "cena": "b0",
+   "frase": "Um banquinho dourado começou uma guerra na África.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E quem pediu para sentar nele nunca conseguiu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "ASH",
+    "ASH"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Em 1900, os ingleses mandavam na atual Gana.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "O povo ashanti tinha um banquinho sagrado. Nem o rei sentava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "O governador inglês exigiu sentar nele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Era como sentar na alma do povo ashanti.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ASH"
+   ],
+   "multidao": 10,
+   "objetos": [
+    "kit/forte_colonial"
+   ],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Eles se revoltaram e cercaram o forte do governador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SOL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Soldados ingleses vieram, e a guerra durou meses.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "PRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Os ingleses venceram. Acontece que o banquinho tinha sumido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CHE",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool",
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 7,
+   "cena": "b9",
+   "frase": "Os ashanti esconderam o banquinho na mata.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GOV",
+    "ASH"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/golden_stool"
+   ],
+   "palavras": 11,
+   "cena": "b10",
+   "frase": "O governador ganhou, mas nunca teve o banquinho. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

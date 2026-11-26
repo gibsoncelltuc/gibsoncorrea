@@ -1,0 +1,131 @@
+{
+ "id": "arquimedes250",
+ "ano": -250,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Arquimedes e o Eureca",
+   "consultas": [
+    "Arquimedes e o Eureca",
+    "Um Foi Siracusa Sicília -250"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Siracusa, cidade grega na Sicilia: casas de pedra clara, colunas, ruas de pedra,",
+   "consultas": [
+    "Siracusa cidade grega na Sicilia",
+    "Siracusa cidade grega na Sicilia -250"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Sicília",
+   "consultas": [
+    "Sicília -250",
+    "Sicília landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de -250",
+   "consultas": [
+    "-250 fashion clothing",
+    "-2th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Arquimedes, sabio de Siracusa",
+   "consultas": [
+    "Arquimedes sabio de Siracusa",
+    "Arquimedes sabio de Siracusa -250"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rei Hierao II",
+   "consultas": [
+    "rei Hierao II",
+    "rei Hierao II -250"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "o ourives da coroa",
+   "consultas": [
+    "o ourives da coroa",
+    "o ourives da coroa -250"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "moradores de Siracusa",
+   "consultas": [
+    "moradores de Siracusa",
+    "moradores de Siracusa -250"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "coroa de ouro (de louros)",
+   "consultas": [
+    "gold laurel wreath ancient greek",
+    "coroa de ouro",
+    "coroa de ouro -250"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "banheira",
+   "consultas": [
+    "ancient greek bathtub terracotta",
+    "banheira",
+    "banheira -250"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "balanca de pratos",
+   "consultas": [
+    "ancient balance scale",
+    "balanca de pratos",
+    "balanca de pratos -250"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "barra de ouro",
+   "consultas": [
+    "gold ingot ancient",
+    "barra de ouro",
+    "barra de ouro -250"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bathtub",
+   "consultas": [
+    "ancient greek bathtub terracotta",
+    "coroa de ouro",
+    "Arquimedes e o Eureca"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "A água que sai tem o tamanho do corpo que entra.",
+   "consultas": [
+    "tamanho corpo entra",
+    "bathtub diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Coroa com prata é maior, e derrama mais água.",
+   "consultas": [
+    "coroa prata derrama",
+    "coroa louros diagram"
+   ]
+  }
+ ]
+}

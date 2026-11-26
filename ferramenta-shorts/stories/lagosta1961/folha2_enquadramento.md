@@ -1,0 +1,63 @@
+# FOLHA 2 - FICHA DE CENA (gerada por enquadrar.py; a ferramenta monta cada cena com estes dados)
+
+Cada cena: LOCAL, CAMERA, PERSONAGENS, OBJETOS (lugar, tamanho real e na tela, estado), EFEITOS e TEXTO. Os olhos da ferramenta conferem na tela se o planejado apareceu.
+
+## b0: "Brasil e França quase entraram em guerra por causa de lagosta."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
+- PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
+- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+- TEXTO NA TELA: "GUERRA DA LAGOSTA" flutuando no alto, na palavra 1 da frase
+
+## b1: "E tudo dependia de uma pergunta: lagosta anda ou nada?"
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
+- PERSONAGENS: BRA no centro, expressao nervous; sem multidao; acao: fala/gesto
+- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+
+## b2: "Em 1961, barcos franceses pescavam lagosta em Pernambuco."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o boat (alvo z -3.6, camera a 10.7 m, altura 2.4 m), sem multidao na frente
+- PERSONAGENS: PES no centro, expressao stern; sem multidao; acao: fala/gesto
+- OBJETO boat: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 5.3 m de altura x 7.9 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- EFEITO nuvem de fumaca nos pes: no chao, aos pes; entra no quadro +70 da cena
+- SOM: thump@70
+- MAPA: PERNAMBUCO (cobre a tela 1-2 s)
+
+## b3: "O Brasil dizia: ela anda no fundo do mar, é nossa."
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/lobster no centro, manobra "parado"
+- PASSOS NA TELA: FUNDO DO MAR -> ANDA -> BRASILEIRA
+
+## b4: "A França dizia: ela nada, é de quem pescar."
+- LOCAL: estudio de explicacao (fundo azul quadriculado, sem personagens)
+- OBJETO: kit/lobster no centro, manobra "sobe"
+- PASSOS NA TELA: NADA -> NO MAR -> DE QUEM PESCAR
+
+## b5: "A França mandou um navio de guerra."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o navio_destroier (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: MFR no centro, expressao stern; sem multidao; acao: fala/gesto
+- OBJETO kit/navio_destroier: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 25.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+
+## b6: "Acontece que o Brasil respondeu com navios e aviões."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente
+- PERSONAGENS: MAR no centro, expressao angry; sem multidao; acao: fala/gesto
+- OBJETO ship: FUNDO, centro (objeto principal da cena); tamanho na tela: 30% da altura da tela; estado: PARADO; 44.3 m de altura x 40.5 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- OBJETO vehicles/airplane: FUNDO, direita; tamanho na tela: 18% da altura da tela; estado: PARADO; 17.1 m de altura x 17.1 m: ATRAS dos personagens, de lado, ocupando a largura do quadro (a ponta pode sair da tela); personagens na frente, menores
+- TEXTO NA TELA: "NAVIOS E AVIÕES" flutuando no alto, na palavra 1 da frase
+
+## b7: "Mas o tiro nunca veio. Os governos negociaram."
+- LOCAL: sala de pedra (governo/castelo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro
+- PERSONAGENS: FRA na esquerda, expressao relief, segura paper; BRA na direita, expressao smile; sem multidao; acao: entregar
+- OBJETOS: so cenario (nenhum objeto da historia nesta cena)
+- SOM: ding@30
+
+## b8: "Nenhum tiro, só uma briga sobre um bicho. E foi assim que..."
+- LOCAL: cais de madeira na beira do mar (agua e horizonte ao fundo); hora: day
+- CAMERA: plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e lobster juntos (camera a 8.0 m)
+- PERSONAGENS: BRA no centro, expressao angry; sem multidao; acao: discutir
+- OBJETO kit/lobster: MEIO, direita (objeto principal da cena); tamanho na tela: 32% da altura da tela; estado: PARADO; 0.3 m: ao lado do personagem, mesmo plano, tamanho de uma pessoa
+

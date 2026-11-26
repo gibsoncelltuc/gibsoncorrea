@@ -1,0 +1,79 @@
+
+## 24/11 20:02 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b1: objeto "kit/bathtub" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b5: objeto "kit/bathtub" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 21:11 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b8: objeto citado "kit/crown" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/bathtub" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 21:11 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 24/11 22:29 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/bathtub" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 22:30 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 24/11 23:28 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b5: objeto "kit/bathtub" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 24/11 23:29 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+
+## 25/11 00:28 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, -1.0)
+- b8: objeto "kit/crown" saiu com 8% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 00:28 autocorrecao de visibilidade
+- b1: objeto citado "kit/bathtub" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b8: objeto "kit/crown" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 01:50 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, 1.0)
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 01:51 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 01:51 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 25/11 01:54 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, 1.0)
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 01:54 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 01:55 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 25/11 01:59 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, 1.0)
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 02:00 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 02:01 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto
+
+## 25/11 02:17 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto trazido para perto do centro (0.0, 1.0)
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 02:18 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> objeto na frente dos personagens e maior
+- b1: objeto "kit/bathtub" saiu com 15% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 02:19 autocorrecao de visibilidade
+- b8: objeto citado "kit/coroa_louros" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> close no objeto

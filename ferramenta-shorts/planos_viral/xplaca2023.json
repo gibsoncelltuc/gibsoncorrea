@@ -1,0 +1,77 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "X",
+ "gancho_cumprido": "Gancho: uma placa com uma letra so virou caso de investigacao por causa de uma luz. Pagamento: o X gigante piscava nas janelas, vieram 24 reclamacoes e a prefeitura mandou tirar.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma placa com uma letra só virou caso de investigação.",
+   "placa",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "E a culpa foi de uma luz piscando de madrugada.",
+   "luz",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 2023, Musk trocou o nome do Twitter para X.",
+   "trocou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Operários começaram a tirar o passarinho da fachada.",
+   "tirar",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "O trabalho parou no meio, por falta de licença.",
+   "parou",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que instalaram um X gigante piscando no alto do prédio.",
+   "piscando",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "A luz entrava nas janelas dos vizinhos.",
+   "luz",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Vieram vinte e quatro reclamações num fim de semana.",
+   "reclamações",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "A prefeitura investigou, e o X foi retirado.",
+   "retirado",
+   {}
+  ],
+  [
+   10,
+   "loop",
+   "Até trocar de nome precisa de licença. Foi assim que...",
+   "licença",
+   {}
+  ]
+ ]
+}

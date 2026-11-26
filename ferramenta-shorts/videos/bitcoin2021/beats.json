@@ -1,0 +1,479 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 9,
+ "title": "O País do Bitcoin",
+ "titulo_base": "O País do Bitcoin",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/bitcoin",
+ "outfits": {
+  "BUK": {
+   "jacket": "#22252c",
+   "pants": "#2a2d33",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "beard": "#2a201a",
+   "pele": "#e8c8a8",
+   "capBack": true
+  },
+  "DEP": {
+   "jacket": "#6a4a8a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a1a10",
+   "tie": "#d8282f"
+  },
+  "POV": {
+   "profissao": "comerciante",
+   "jacket": "#c9783a",
+   "pants": "#e8dcc0",
+   "boots": "#6a4a2a",
+   "hat": "straw"
+  },
+  "CLI": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug",
+    "POV:0:shock"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     -2.6,
+     3.0,
+     {
+      "fixo": true,
+      "y": 1.5
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "CLI"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 12.5,
+   "d1": 11.0,
+   "quadro_manual": true,
+   "bloco": "gancho",
+   "say": "Um país inteiro apostou o próprio dinheiro numa moeda digital.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dinheiro"
+     }
+    ]
+   },
+   "text": "PAÍS DO BITCOIN",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     2.4,
+     0.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E o final dessa aposta ninguém esperava.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aposta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUK:0:grin"
+   ],
+   "mapa": "EL SALVADOR",
+   "bloco": "prova",
+   "say": "Em 2021, El Salvador adotou o bitcoin como moeda oficial.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "adotou"
+     }
+    ]
+   }
+  },
+  {
+   "explica": {
+    "objeto": "kit/bitcoin",
+    "manobra": "gira",
+    "contador": {
+     "de": 0,
+     "para": 30,
+     "un": "US$",
+     "titulo": "BÔNUS NA CARTEIRA",
+     "na": "trinta",
+     "dur": 1.0
+    }
+   },
+   "bloco": "prova",
+   "say": "Quem baixasse o aplicativo ganhava trinta dólares.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trinta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "BUK:0:smug"
+   ],
+   "fachada": false,
+   "props": [
+    [
+     "kit/volcano",
+     0.0,
+     -8.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rack_mineracao",
+     3.6,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rack_mineracao",
+     -3.6,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rack_mineracao",
+     5.4,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rack_mineracao",
+     -5.4,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@30",
+    "puff@60"
+   ],
+   "text": "ENERGIA DO VULCÃO",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 23.0,
+   "d1": 21.9,
+   "bloco": "escalada",
+   "say": "O governo até minerava bitcoin com a energia de um vulcão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "minerava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     2.4,
+     0.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "hud": {
+    "grafico": {
+     "pontos": [
+      69000,
+      58000,
+      47000,
+      38000,
+      29000,
+      20000,
+      16000
+     ],
+     "rotulos": [
+      "NOV 2021",
+      "NOV 2022"
+     ],
+     "titulo": "BITCOIN",
+     "un": "US$ ",
+     "na": "despencou",
+     "dur": 1.6
+    }
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "despencou"
+     }
+    ]
+   }
+  },
+  {
+   "explica": {
+    "objeto": "kit/bitcoin",
+    "manobra": "gira",
+    "grafico": {
+     "pontos": [
+      16000,
+      26000,
+      42000,
+      61000,
+      70000,
+      100000
+     ],
+     "rotulos": [
+      "2022",
+      "2024"
+     ],
+     "titulo": "BITCOIN",
+     "un": "US$ ",
+     "na": "passou",
+     "dur": 1.5
+    }
+   },
+   "bloco": "pagamento",
+   "say": "Mas em 2024, ele passou de cem mil dólares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "passou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug",
+    "DEP:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     -2.6,
+     3.0,
+     {
+      "fixo": true,
+      "y": 1.5
+     }
+    ]
+   ],
+   "text": "PREJUÍZO → LUCRO",
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 12.5,
+   "d1": 11.0,
+   "quadro_manual": true,
+   "bloco": "pagamento",
+   "say": "As reservas no prejuízo viraram lucro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lucro"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUK:0:smug",
+    "POV:0:shock"
+   ],
+   "props": [
+    [
+     "kit/bitcoin",
+     0.0,
+     -2.6,
+     3.0,
+     {
+      "fixo": true,
+      "y": 1.5
+     }
+    ]
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "POV",
+     "CLI"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "cx": 0.0,
+   "cz": -1.0,
+   "d0": 12.5,
+   "d1": 11.0,
+   "quadro_manual": true,
+   "bloco": "loop",
+   "say": "Maluquice ou visão? Só sei que foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Maluquice"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+  "https://www.aljazeera.com/economy/2021/9/7/glitches-protests-as-bitcoin-becomes-legal-tender-in-el-salvador"
+ ],
+ "visual": {
+  "local": "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador, 2021",
+  "quando": "junho a setembro de 2021, dia",
+  "participantes": [
+   "presidente Nayib Bukele (jaqueta escura e bone)",
+   "deputados da Assembleia Legislativa de terno",
+   "comerciantes de chapeu de palha e camisa laranja",
+   "clientes comuns de camisa verde"
+  ],
+  "roupas": {
+   "BUK": "jaqueta escura, bone e barba",
+   "DEP": "terno roxo com gravata vermelha",
+   "POV": "comerciante de chapeu de palha",
+   "CLI": "camisa verde e calca azul"
+  },
+  "cenario": "rua com barraca de feira e comerciantes, sala da assembleia, celulares com a carteira Chivo",
+  "objetos": [
+   "moeda de bitcoin",
+   "carteira digital Chivo",
+   "barraca de feira",
+   "globo"
+  ],
+  "explicacoes": [
+   "Bukele anunciou o projeto em 5 de junho de 2021; a Assembleia aprovou a Lei do Bitcoin em 9 de junho (62 de 84 votos) e ela entrou em vigor em 7 de setembro de 2021 (fonte: Wikipedia Bitcoin in El Salvador)",
+   "O governo prometeu US$ 30 em bitcoin a quem se cadastrasse na carteira Chivo, que ficou fora do ar por horas no lancamento; pesquisa da UCA: 68% discordavam da decisao e 9 em 10 nao entendiam o que era bitcoin (fonte: Wikipedia Bitcoin in El Salvador)",
+   "O governo de El Salvador comprou bitcoins com dinheiro publico a partir de setembro de 2021; em 2022 o preco do bitcoin caiu mais de 60% (fonte: Wikipedia Bitcoin in El Salvador)",
+   "Mineracao de bitcoin: computadores especializados (ASIC) fazem calculos para validar os blocos de transacoes; o primeiro que acerta ganha bitcoins novos. El Salvador minera desde 2021 com energia geotermica do vulcao Tecapa (usina estatal LaGeo, Berlin, Usulutan)."
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador",
+   "https://commons.wikimedia.org/wiki/Category:Bitcoin"
+  ],
+  "buscas": {
+   "O País do Bitcoin": "El Salvador bitcoin legal tender 2021 Chivo",
+   "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,": "San Salvador market street 2021"
+  },
+  "referencias": {
+   "O País do Bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "Ruas e feiras de El Salvador, Assembleia Legislativa e mercados de San Salvador,": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "El Salvador": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "roupas e ruas de 2021": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "presidente Nayib Bukele (jaqueta escura e bone)": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "deputados da Assembleia Legislativa de terno": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "comerciantes de chapeu de palha e camisa laranja": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "clientes comuns de camisa verde": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "moeda de bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "carteira digital Chivo": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "barraca de feira": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "globo": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "bitcoin": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)",
+   "volcano": "fotos de 2021 de El Salvador (Wikimedia Commons, Bitcoin in El Salvador): retrato do presidente Nayib Bukele de jaqueta e faixa azul e branca, bandeira azul e branca com o escudo, feira de rua e lojas de San Salvador, moeda dourada de bitcoin e a carteira Chivo no celular (https://en.wikipedia.org/wiki/Bitcoin_in_El_Salvador)"
+  }
+ },
+ "cinf": 3.0,
+ "exp": 1.254,
+ "ano": 2021,
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: um pais apostou o proprio dinheiro numa moeda digital e o final ninguem esperava. Pagamento: o bitcoin caiu para 16 mil e depois passou de 100 mil; as reservas viraram lucro.",
+ "loop_frase_ok": true
+}

@@ -1,0 +1,206 @@
+{
+ "id": "zanzibar1896",
+ "ano": 1896,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "A guerra mais curta da história durou menos de quarenta minutos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "ALM"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E os derrotados ainda pagaram a conta.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1896, em Zanzibar, na África, o sultão morreu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/throne"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Um primo ocupou o palácio sem pedir licença aos ingleses.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ALM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_zanzibar",
+    "kit/navio_vapor"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Deram até as nove da manhã para ele sair.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "GUA",
+    "GUA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/marco_zanzibar"
+   ],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Ele juntou quase três mil homens e se trancou lá dentro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "cannon",
+    "kit/marco_zanzibar",
+    "kit/navio_vapor_guerra",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Acontece que, às nove e dois, os navios ingleses abriram fogo.",
+   "classe": "chave",
+   "sujeito": "cenario",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "O palácio pegou fogo, e o primo fugiu.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/forte_colonial (parado)",
+    "emissao": "fogo, onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/forte_colonial",
+    "kit/marco_zanzibar",
+    "war/flagpole"
+   ],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Às nove e quarenta, a bandeira caiu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SUL",
+    "GUA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Os ingleses mandaram a conta das balas. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

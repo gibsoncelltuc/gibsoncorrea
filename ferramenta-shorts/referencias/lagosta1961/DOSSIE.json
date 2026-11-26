@@ -1,0 +1,76 @@
+{
+ "id": "lagosta1961",
+ "titulo": "Guerras Inusitadas EP 11 - A Guerra da Lagosta",
+ "ancoras": {
+  "ano": 1961,
+  "era": "atual (1950+)",
+  "regiao": "colonial",
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "loc_estudio"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "boat",
+  "crate",
+  "kit/fishing_net",
+  "kit/lobster",
+  "kit/navio_destroier",
+  "ship",
+  "vehicles/airplane"
+ ],
+ "pesquisa_visual": {
+  "local": "litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros",
+  "quando": "1961 a 1963, de dia",
+  "participantes": [
+   "pescadores franceses em barcos lagosteiros",
+   "pescadores brasileiros",
+   "Marinha do Brasil",
+   "Marinha francesa (contratorpedeiro Tartu)",
+   "presidente Joao Goulart",
+   "presidente Charles de Gaulle"
+  ],
+  "roupas": {
+   "BRA": "marinheiro brasileiro de branco",
+   "FRA": "marinheiro frances de azul com boina de pompom vermelho",
+   "PES": "pescador de camisa simples e chapeu de palha",
+   "MAR": "oficial da Marinha de uniforme branco",
+   "PRE": "presidente de terno escuro"
+  },
+  "cenario": "mar aberto com navios de guerra cinzentos dos anos 1960, barcos de pesca, porto nordestino",
+  "objetos": [
+   "lagosta",
+   "barcos de pesca",
+   "navios de guerra",
+   "avioes de patrulha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Lobster_War",
+   "https://pt.wikipedia.org/wiki/Guerra_da_Lagosta"
+  ],
+  "explicacoes": [
+   "Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004)."
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

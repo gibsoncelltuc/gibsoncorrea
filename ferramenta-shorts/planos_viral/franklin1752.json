@@ -1,0 +1,84 @@
+{
+ "gancho_tipo": "perda",
+ "texto_gancho": "PIPA x RAIO",
+ "gancho_cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio e a descoberta protege casas ate hoje. Pagamento: a chave soltou faisca, provando que o raio e' eletricidade; virou o para-raios.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um homem soltou uma pipa na tempestade para pegar um raio.",
+   "soltou",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E o que ele descobriu protege a sua casa até hoje.",
+   "protege",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1752, Benjamin Franklin queria provar que raio era eletricidade.",
+   "provar",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Muita gente achava que o raio era castigo dos céus.",
+   "castigo",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "Contam que ele prendeu uma chave de metal na linha da pipa.",
+   "prendeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que a nuvem passou, e uma faísca pulou da chave.",
+   "pulou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Se um raio caísse na pipa, ele teria morrido.",
+   "morrido",
+   {
+    "encena": {
+     "sentido": "hipotese",
+     "passos": [
+      {
+       "faz": "mostra",
+       "na": "raio"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
+   "inteiro",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Coragem ou loucura? Só sei que foi assim que...",
+   "Coragem",
+   {}
+  ]
+ ]
+}

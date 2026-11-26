@@ -1,0 +1,115 @@
+{
+ "id": "banquinho1900",
+ "ano": 1900,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Banquinho Dourado",
+   "consultas": [
+    "War of the Golden Stool 1900 Kumasi",
+    "A Guerra do Banquinho Dourado",
+    "Um Em Gana 1900"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Kumasi, capital do povo ashanti, na Costa do Ouro britanica (hoje Gana): aldeias",
+   "consultas": [
+    "Kumasi capital do povo ashanti na Costa do Ouro britanica",
+    "Kumasi capital do povo ashanti na Costa do Ouro britanica hoje Gana 1900"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Gana",
+   "consultas": [
+    "Gana 1900",
+    "Gana landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1900",
+   "consultas": [
+    "1900 fashion clothing",
+    "1900 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "governador Frederic Hodgson",
+   "consultas": [
+    "governador Frederic Hodgson",
+    "governador Frederic Hodgson 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "lideres ashanti",
+   "consultas": [
+    "Asante chiefs kente cloth 1900",
+    "lideres ashanti",
+    "lideres ashanti 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "rainha-mae Yaa Asantewaa, que liderou a revolta",
+   "consultas": [
+    "rainha-mae Yaa Asantewaa que liderou a revolta",
+    "rainha-mae Yaa Asantewaa que liderou a revolta 1900"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "soldados britanicos e africanos da forca colonial",
+   "consultas": [
+    "soldados britanicos e africanos da forca colonial",
+    "soldados britanicos e africanos da forca colonial 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "banquinho dourado (Sika Dwa Kofi)",
+   "consultas": [
+    "Golden Stool Asante Sika Dwa Kofi",
+    "banquinho dourado",
+    "banquinho dourado 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "forte britanico",
+   "consultas": [
+    "forte britanico",
+    "forte britanico 1900"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "fuzis",
+   "consultas": [
+    "Lee-Metford rifle 1900",
+    "fuzis",
+    "fuzis 1900"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "golden stool",
+   "consultas": [
+    "Golden Stool of Asante",
+    "banquinho dourado",
+    "A Guerra do Banquinho Dourado"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1900",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

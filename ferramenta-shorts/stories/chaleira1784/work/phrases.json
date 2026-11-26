@@ -1,0 +1,162 @@
+{
+ "duration": 30.84,
+ "frames30": 925,
+ "source": "silence-align (cost 1.71)",
+ "segments": [
+  [
+   0.0,
+   1.52071
+  ],
+  [
+   1.73571,
+   2.71933
+  ],
+  [
+   3.09746,
+   5.70158
+  ],
+  [
+   6.08775,
+   7.61625
+  ],
+  [
+   7.78475,
+   10.2687
+  ],
+  [
+   10.6422,
+   11.6695
+  ],
+  [
+   11.8585,
+   12.5872
+  ],
+  [
+   12.8567,
+   13.7615
+  ],
+  [
+   14.1391,
+   15.7873
+  ],
+  [
+   16.0957,
+   17.535
+  ],
+  [
+   17.9095,
+   20.5747
+  ],
+  [
+   20.9537,
+   23.6904
+  ],
+  [
+   24.0638,
+   25.6835
+  ],
+  [
+   25.913,
+   26.8775
+  ],
+  [
+   27.2568,
+   28.1574
+  ],
+  [
+   28.337,
+   29.2834
+  ],
+  [
+   29.6622,
+   30.4024
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma guerra inteira teve um \u00fanico tiro,",
+   "s": 0.0,
+   "e": 1.521
+  },
+  {
+   "text": "e ele acertou uma chaleira.",
+   "s": 1.736,
+   "e": 2.719
+  },
+  {
+   "text": "E dentro dela tinha sopa quente para o almo\u00e7o da tripula\u00e7\u00e3o.",
+   "s": 3.097,
+   "e": 5.702
+  },
+  {
+   "text": "Em 1784,",
+   "s": 6.088,
+   "e": 7.616
+  },
+  {
+   "text": "a Holanda fechou o rio Escalda aos navios estrangeiros.",
+   "s": 7.785,
+   "e": 10.269
+  },
+  {
+   "text": "O imperador da \u00c1ustria,",
+   "s": 10.642,
+   "e": 11.669
+  },
+  {
+   "text": "Jos\u00e9 Segundo,",
+   "s": 11.858,
+   "e": 12.587
+  },
+  {
+   "text": "queria o rio aberto.",
+   "s": 12.857,
+   "e": 13.761
+  },
+  {
+   "text": "Mandou tr\u00eas navios descerem o rio,",
+   "s": 14.139,
+   "e": 15.787
+  },
+  {
+   "text": "certo de que ningu\u00e9m reagiria.",
+   "s": 16.096,
+   "e": 17.535
+  },
+  {
+   "text": "Acontece que um navio holand\u00eas esperava e disparou um tiro.",
+   "s": 17.91,
+   "e": 20.575
+  },
+  {
+   "text": "A bala destruiu a chaleira de sopa bem no meio do conv\u00e9s.",
+   "s": 20.954,
+   "e": 23.69
+  },
+  {
+   "text": "O navio austr\u00edaco se rendeu na hora,",
+   "s": 24.064,
+   "e": 25.683
+  },
+  {
+   "text": "sem dar nenhum tiro.",
+   "s": 25.913,
+   "e": 26.878
+  },
+  {
+   "text": "Perderam o almo\u00e7o,",
+   "s": 27.257,
+   "e": 28.157
+  },
+  {
+   "text": "a sopa e a coragem.",
+   "s": 28.337,
+   "e": 29.283
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.662,
+   "e": 30.402
+  }
+ ]
+}

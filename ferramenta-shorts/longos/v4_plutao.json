@@ -1,0 +1,122 @@
+{
+ "id": "v4_plutao",
+ "ambiente": "espaco",
+ "titulo": "Plutão NÃO é o que Pensávamos",
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "-11%",
+ "blocos": [
+  {
+   "modelo": "plutao",
+   "rotulo": "",
+   "prof": "",
+   "cam": "close",
+   "texto": "Em 2006, Plutão foi expulso da lista de planetas. Parecia o fim da história. Mas no mesmo ano, uma nave saiu da Terra em direção a ele. Nove anos e meio depois, ela chegou. E as fotos que mandou mostraram que Plutão não era nada do que a gente pensava. Até o fim deste vídeo, você vai ver por que alguns cientistas acham que ele esconde um oceano."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "A DESCOBERTA",
+   "prof": "1930",
+   "cam": "orbita",
+   "texto": "Plutão foi descoberto em 1930 por um jovem astrônomo americano de vinte e quatro anos, Clyde Tombaugh. Ele comparava fotos do céu tiradas em noites diferentes, procurando um pontinho que se mexesse. E o nome Plutão foi sugerido por uma menina inglesa de onze anos, Venetia Burney, que gostava de mitologia. Plutão era o deus do mundo dos mortos, um nome perfeito para um mundo tão escuro e distante."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "MENOR QUE A LUA",
+   "prof": "2.377 km",
+   "cam": "close",
+   "texto": "Por setenta e seis anos, Plutão foi o nono planeta. Mas ele é pequeno. Bem pequeno. É menor que a nossa Lua, e mais estreito que o Brasil de ponta a ponta. E os astrônomos começaram a encontrar outros corpos parecidos lá no fundo do sistema solar, alguns quase do mesmo tamanho. Se Plutão era planeta, todos eles também teriam que ser."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "REBAIXADO",
+   "prof": "2006",
+   "cam": "orbita",
+   "texto": "Em 2006, a União Astronômica Internacional decidiu as regras. Para ser planeta, um corpo precisa limpar o caminho da própria órbita, e Plutão divide o caminho dele com muitos outros objetos. Resultado: ele foi rebaixado a planeta-anão. Muita gente ficou revoltada. Teve escola que mudou o livro, teve protesto, teve até quem dissesse que Plutão foi injustiçado. E a discussão continua até hoje."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "A CULPA FOI DE ÉRIS",
+   "prof": "2005",
+   "cam": "orbita",
+   "texto": "O que derrubou Plutão de vez foi uma descoberta de 2005. Astrônomos encontraram Éris, um mundo gelado ainda mais distante, quase do mesmo tamanho de Plutão e com mais massa que ele. Ou Éris virava o décimo planeta, ou as regras tinham que mudar. E logo apareceriam outros. O sistema solar poderia ter dezenas de planetas. Foi aí que os astrônomos decidiram criar a categoria de planeta-anão."
+  },
+  {
+   "modelo": "new_horizons",
+   "rotulo": "NEW HORIZONS",
+   "prof": "9,5 ANOS",
+   "cam": "passagem",
+   "texto": "Enquanto isso, a nave New Horizons viajava. Ela saiu da Terra em janeiro de 2006, meses antes do rebaixamento, e foi a nave mais rápida já lançada até então. Mesmo assim, levou nove anos e meio para chegar. E dentro dela ia uma homenagem: um pouco das cinzas de Clyde Tombaugh, o homem que descobriu Plutão. Ele finalmente iria visitar o mundo que encontrou."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "O CORAÇÃO",
+   "prof": "14/07/2015",
+   "cam": "close",
+   "texto": "Em quatorze de julho de 2015, a New Horizons passou por Plutão. E a primeira foto nítida emocionou o mundo: Plutão tem um coração. Uma enorme região clara, em forma de coração, na superfície. A metade desse coração é uma planície gigante de gelo de nitrogênio, lisa, sem nenhuma cratera. E isso foi a primeira grande surpresa. Sem crateras quer dizer que aquela superfície é nova. Alguma coisa está renovando o chão de Plutão."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "UM MUNDO VIVO",
+   "prof": "",
+   "cam": "orbita",
+   "texto": "Os cientistas esperavam uma bola de gelo morta, parada há bilhões de anos. Encontraram o contrário. O gelo do coração se mexe devagar, como lava de uma lâmpada, formando blocos que sobem e descem. Existem montanhas de gelo de água com até seis quilômetros de altura. E existem estruturas que parecem vulcões de gelo. Plutão é um mundo ativo."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "A BALEIA ESCURA",
+   "prof": "",
+   "cam": "close",
+   "texto": "Ao lado do coração existe uma região enorme e escura, avermelhada, que os cientistas apelidaram de Cthulhu, e que muita gente acha parecida com uma baleia. Aquela cor vem de compostos chamados tolinas, que se formam quando a luz ultravioleta do Sol bate no metano e no nitrogênio. Ou seja: o próprio céu de Plutão vai pintando o chão de vermelho, devagar, ao longo de milhões de anos."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "CÉU AZUL",
+   "prof": "",
+   "cam": "close",
+   "texto": "E Plutão tem até céu azul. Ele tem uma atmosfera fininha, com camadas de névoa que, quando a luz do sol passa por trás, brilham num azul parecido com o nosso. Mas não se engane. Lá, o sol é só uma estrela muito brilhante, e a temperatura fica perto de duzentos e trinta graus abaixo de zero. Ao meio-dia em Plutão, a luz parece um fim de tarde aqui na Terra."
+  },
+  {
+   "modelo": "caronte",
+   "rotulo": "CARONTE",
+   "prof": "LUA DE PLUTÃO",
+   "cam": "close",
+   "texto": "Plutão tem uma lua chamada Caronte, quase com metade do tamanho dele. As duas são tão próximas em tamanho que Caronte não gira exatamente em volta de Plutão. As duas giram em volta de um ponto no espaço entre elas, como duas pessoas dançando de mãos dadas. E uma sempre mostra a mesma face para a outra. Quem morasse em Plutão veria Caronte parado no céu, sem nunca nascer nem se pôr."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "COMO SERIA PISAR EM PLUTÃO",
+   "prof": "",
+   "cam": "close",
+   "texto": "E se você pudesse pisar em Plutão? A gravidade lá é muito fraca, só uns seis por cento da da Terra. Uma pessoa de cem quilos pesaria pouco mais de seis. Um pulo normal te levaria a vários metros de altura, e você ficaria vários segundos flutuando antes de cair. Mas sem um traje especial, o frio de duzentos e trinta graus negativos congelaria tudo em instantes."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "UM ANO EM PLUTÃO",
+   "prof": "248 ANOS",
+   "cam": "orbita",
+   "texto": "Plutão é tão distante que leva duzentos e quarenta e oito anos para dar uma volta no Sol. Desde que foi descoberto, em 1930, ele ainda não completou nem uma volta. O primeiro aniversário de Plutão, contando da descoberta, só vai acontecer no ano de 2178. Ninguém vivo hoje vai estar aqui para comemorar."
+  },
+  {
+   "modelo": "new_horizons",
+   "rotulo": "ALÉM DE PLUTÃO",
+   "prof": "6,6 BILHÕES km",
+   "cam": "passagem",
+   "texto": "E a New Horizons não parou em Plutão. Ela seguiu viagem, e no primeiro dia de 2019 passou por Arrokoth, um pequeno mundo gelado em forma de boneco de neve. É o objeto mais distante que uma nave da humanidade já visitou de perto. Arrokoth é uma sobra do começo do sistema solar, praticamente intocada há quatro bilhões e meio de anos. Uma cápsula do tempo voando no escuro."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "O OCEANO ESCONDIDO",
+   "prof": "",
+   "cam": "close",
+   "texto": "E agora, a maior surpresa. A posição do coração de Plutão e o jeito como ele racha por fora fizeram muitos cientistas desconfiarem de algo incrível: embaixo da casca de gelo, Plutão pode ter um oceano de água líquida. Um oceano escondido, no mundo mais frio e escuro que já visitamos. Se isso for verdade, até os lugares mais distantes do sistema solar podem guardar água, e quem sabe, condições para a vida."
+  },
+  {
+   "modelo": "plutao",
+   "rotulo": "",
+   "prof": "",
+   "cam": "orbita",
+   "texto": "O pequeno planeta que foi expulso da lista virou um dos mundos mais fascinantes que já exploramos. Com coração, montanhas de gelo, céu azul e talvez um oceano. Plutão perdeu o título, mas ganhou o respeito. Porque em 2006, Plutão foi expulso da lista de planetas."
+  }
+ ],
+ "trilha": "cine"
+}

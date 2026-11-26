@@ -1,0 +1,210 @@
+{
+ "id": "martelo2025",
+ "ano": 2025,
+ "cenarios_trocados": [
+  [
+   "cena 4",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bunker_bomb"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Uma bomba feita para furar montanhas foi usada pela primeira vez.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E até hoje ninguém concorda sobre o estrago.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Foi em 2025, contra usinas nucleares do Irã.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/mountain_bunker"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "A principal, Fordow, fica dentro de uma montanha.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Só a bomba antibunker, de treze toneladas, chega lá.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bunker_bomb (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Sete aviões invisíveis B-2 voaram dezoito horas até o alvo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Outros aviões foram mandados para despistar.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/b2_air (parado)",
+    "emissao": "velocidade",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Acontece que, de madrugada, doze bombas caíram sobre Fordow.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/mountain_bunker (parado)",
+    "emissao": "fogo, onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "GEN",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Os Estados Unidos disseram que as usinas foram destruídas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bunker_bomb"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "O Irã discorda, e a montanha guarda o segredo. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  }
+ ]
+}

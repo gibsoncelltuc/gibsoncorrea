@@ -1,0 +1,51 @@
+{
+ "id": "ese_lua",
+ "titulo": "E Se EP 07 - E Se a Lua Desaparecesse?",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "interior loja",
+   "loc_campo",
+   "loc_montanha"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "boat",
+  "buildings/shop",
+  "kit/globe",
+  "kit/moon",
+  "kit/room_colonial_shop"
+ ],
+ "pesquisa_visual": {
+  "local": "praia com mar e mares, ceu noturno",
+  "quando": "hoje a noite (hipotese)",
+  "participantes": [
+   "observadores do ceu",
+   "animais da praia"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "praia a noite, mar com mare, ceu estrelado sem lua",
+  "objetos": [
+   "Lua",
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Moon",
+   "https://en.wikipedia.org/wiki/Tide"
+  ]
+ },
+ "fontes": [
+  "https://science.nasa.gov/moon/",
+  "https://oceanservice.noaa.gov/education/tutorial_tides/tides02_cause.html"
+ ],
+ "falta": []
+}

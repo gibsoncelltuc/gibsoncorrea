@@ -1,0 +1,196 @@
+{
+ "id": "cameo1992",
+ "ano": 1992,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Sete segundos de um filme de Natal ainda geram briga até hoje.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "DIR",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E a culpa é de um hotel.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FUN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em Esqueceram de Mim 2, Kevin pede informação a um homem.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "FUN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "O homem era Donald Trump, dono do hotel Plaza.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIR",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "O diretor diz que a cena foi o preço do hotel.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "DIR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "Acontece que Trump nega: diz que foi a equipe que pediu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JOR",
+    "JOR2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Em 2019, uma TV canadense passou o filme sem a cena.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JOR"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "O corte virou polêmica no mundo inteiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Um cameo virou briga política. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

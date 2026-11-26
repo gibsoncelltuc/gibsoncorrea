@@ -1,0 +1,394 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "E Se",
+ "ep": 8,
+ "title": "E Se Napoleão Tivesse Vencido em Waterloo?",
+ "titulo_base": "E Se Napoleão Tivesse Vencido em Waterloo?",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/crown",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "NAP": {
+   "profissao": "general",
+   "hat": "tophat",
+   "cap": "#1b1b1f",
+   "jacket": "#1f3f8a"
+  },
+  "WEL": {
+   "profissao": "general",
+   "jacket": "#b02a2a"
+  },
+  "FRA": {
+   "profissao": "soldado",
+   "jacket": "#1f3f8a"
+  },
+  "ING": {
+   "profissao": "soldado",
+   "jacket": "#b02a2a"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+  "https://en.wikipedia.org/wiki/Hundred_Days"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "NAP:0:smug",
+    "WEL:0:stern"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     0,
+     -1.2,
+     1.0
+    ]
+   ],
+   "text": "1815",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Waterloo"
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "Napoleão ganha em Waterloo, e a Europa muda para sempre."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "promessa",
+   "say": "A resposta dos historiadores vai te surpreender.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "resposta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "FRA:0:stern",
+    "FRA:1:grin"
+   ],
+   "mapa": "BÉLGICA",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Era 18 de junho de 1815, na Bélgica.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Bélgica"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAP:0:grin",
+    "FRA:0:stern"
+   ],
+   "interacao": "entregar",
+   "bloco": "prova",
+   "say": "Napoleão tinha saído do exílio e retomado o poder.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "poder"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRA:0:angry",
+    "ING:0:shout",
+    "FRA:1:shout"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "FRA",
+     "ING"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "fx": [
+    "burst@20",
+    "burst@50"
+   ],
+   "sfx": [
+    "cannon@20",
+    "cannon@50"
+   ],
+   "text": "WATERLOO",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dispararam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ING:0:shout",
+    "ING:1:grin",
+    "FRA:0:scared"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "ING",
+     "FRA"
+    ],
+    "march": true,
+    "expr": "shout"
+   },
+   "fx": [
+    "burst@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "cannon@20",
+    "thump@50"
+   ],
+   "bloco": "escalada",
+   "say": "No fim da tarde, os prussianos chegaram, e Napoleão perdeu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "perdeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NAP:0:sad",
+    "WEL:0:smug"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "empurrar",
+   "set": "harbor",
+   "bloco": "escalada",
+   "say": "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "pagamento",
+   "say": "Acontece que, para muitos historiadores, a derrota viria igual.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "historiadores"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:worried"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true
+   },
+   "bloco": "pagamento",
+   "say": "Rússia e Áustria já marchavam contra ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "marchavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "NAP:0:sad"
+   ],
+   "props": [
+    [
+     "kit/crown",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "conversar",
+   "bloco": "loop",
+   "say": "Um dia famoso nem sempre muda o destino. Mas imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "destino"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "campo de Waterloo, Belgica; ilha de Santa Helena",
+  "quando": "18 de junho de 1815, de dia ate o fim da tarde",
+  "participantes": [
+   "Napoleao Bonaparte",
+   "duque de Wellington",
+   "exercito prussiano de Blucher",
+   "soldados franceses e ingleses"
+  ],
+  "roupas": {
+   "NAP": "bicorne e casaco cinza de Napoleao",
+   "FRA": "soldado frances de 1815 de casaca azul",
+   "ING": "casaco vermelho britanico de 1815",
+   "PRU": "prussiano de 1815 de azul escuro"
+  },
+  "cenario": "campos verdes com fazendas, fumaca de canhoes, colinas",
+  "objetos": [
+   "canhoes de 1815",
+   "bandeiras de batalha",
+   "coroa imperial"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+   "https://en.wikipedia.org/wiki/Saint_Helena"
+  ]
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: Napoleao vence em Waterloo e a resposta dos historiadores surpreende. Pagamento: ele perdeu em 1815 e foi exilado; para muitos historiadores, com Russia e Austria marchando, a derrota viria igual.",
+ "loop_frase_ok": true
+}

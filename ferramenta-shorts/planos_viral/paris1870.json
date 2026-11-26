@@ -1,0 +1,97 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ELEFANTE NO JANTAR",
+ "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Paris já serviu elefante no jantar de Natal.",
+   "elefante",
+   {}
+  ],
+  [
+   6,
+   "promessa",
+   "E no cardápio tinha até canguru e lobo.",
+   "canguru",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1870, a Prússia cercou Paris, e a comida acabou.",
+   "cercou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Primeiro comeram os cavalos. Depois, cachorros e gatos.",
+   "comeram",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Depois os roedores, que viraram prato chique.",
+   "roedores",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Quando acabou tudo, olharam para o zoológico.",
+   "zoológico",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que um açougueiro comprou os elefantes Castor e Pólux.",
+   "comprou",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "No Natal, um restaurante serviu consomê de elefante.",
+   "serviu",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Só os ricos podiam pagar esse luxo.",
+   "ricos",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "O povo fazia fila no frio por comida racionada.",
+   "fila",
+   {}
+  ],
+  [
+   10,
+   "loop",
+   "Na fome, até bicho de zoológico vira comida. Foi assim que...",
+   "zoológico",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "rende",
+       "na": "zoológico",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ]
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 7,
+ "title": "A Guerra dos Bolos",
+ "titulo_base": "A Guerra dos Bolos",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "CON": {
+   "jacket": "#f1ece0",
+   "pants": "#f1ece0",
+   "boots": "#2a2218",
+   "hat": "beret",
+   "cap": "#f1ece0",
+   "build": "stout"
+  },
+  "OFI": {
+   "jacket": "#2f6a3a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "belt": "#c0262d",
+   "buttons": "#e8c45a",
+   "rifle": true,
+   "uniforme_fixo": true,
+   "sash": "#c0262d"
+  },
+  "FRA": {
+   "jacket": "#27408b",
+   "pants": "#c0262d",
+   "boots": "#2a2218",
+   "hat": "shako_tall",
+   "belt": "#f1efe6",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "REI": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "build": "stout"
+  },
+  "GEN": {
+   "jacket": "#2f6a3a",
+   "pants": "#f1efe6",
+   "boots": "#2a2218",
+   "hat": "bicorne",
+   "buttons": "#e8c45a",
+   "sash": "#c0262d",
+   "moustache_on": "#2a1c12",
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:shock",
+    "OFI:0:laugh"
+   ],
+   "impact": false,
+   "batalha": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "confeitaria"
+     }
+    ]
+   },
+   "bloco": "gancho",
+   "say": "França e México entraram em guerra por causa de uma confeitaria.",
+   "text": "GUERRA DOS BOLOS",
+   "titulo": true
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "CON:0:stern",
+    "FRA:0:grin"
+   ],
+   "shot_lock": true,
+   "bloco": "promessa",
+   "say": "E a conta dos bolos nunca foi paga de verdade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:smile",
+    "OFI:1:neutral"
+   ],
+   "mapa": "MÉXICO",
+   "mapa_at": 6,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false,
+   "batalha": false,
+   "bloco": "prova",
+   "say": "Um confeiteiro francês tinha uma doceria perto da Cidade do México.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "confeiteiro"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OFI:0:grin",
+    "OFI:1:laugh"
+   ],
+   "interior": "loja",
+   "fx": [
+    "puff@50"
+   ],
+   "sfx": [
+    "thump@50"
+   ],
+   "props": [
+    [
+     "kit/cake_table",
+     0.0,
+     -1.6,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/chest",
+     3.6,
+     -2.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/barrel_r",
+     -3.6,
+     -2.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "pega",
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Ele disse que oficiais mexicanos entraram na loja e comeram os doces.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mexicanos"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -1.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 9.5,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "_enq_shot": "two",
+   "detalhe": false,
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e cake_table juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/cake_table",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/chest",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/barrel_r",
+      "lugar": "MEIO, esquerda",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "quadro_manual": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:stern:paper",
+    "REI:0:neutral"
+   ],
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Pediu sessenta mil pesos de indenização. A loja valia menos de mil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pediu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "FRA:0:stern",
+    "FRA:1:stern"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "FRA"
+    ],
+    "march": false
+   },
+   "text": "A MARINHA",
+   "titulo": true,
+   "batalha": false,
+   "tiros": false,
+   "impact": false,
+   "shot_lock": true,
+   "set": "harbor",
+   "bloco": "escalada",
+   "say": "Acontece que a França assumiu a briga e mandou navios de guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "FRA:0:stern"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "FRA",
+     "OFI"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "set": "harbor",
+   "fx": [],
+   "sfx": [
+    "cannon@30"
+   ],
+   "props": [],
+   "bloco": "escalada",
+   "say": "Canhões bombardearam a fortaleza, e os soldados tomaram o porto de Veracruz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bombardearam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GEN:0:neutral:paper",
+    "FRA:0:neutral:coin"
+   ],
+   "text": "600.000",
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "O México prometeu pagar a conta, e a França foi embora.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prometeu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CON:0:shock",
+    "OFI:0:laugh"
+   ],
+   "impact": false,
+   "batalha": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "bloco": "loop",
+   "say": "Esse dinheiro dos bolos nunca chegou. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dinheiro"
+     }
+    ]
+   }
+  }
+ ],
+ "marco": "kit/marco_ulua",
+ "regiao": "colonial",
+ "visual": {
+  "local": "Tacubaya",
+  "quando": "1832 (saque da confeitaria); novembro e dezembro de 1838 (bloqueio e ataque a Veracruz); março de 1839 (paz)",
+  "participantes": [
+   "confeiteiro francês",
+   "rei Luís Filipe",
+   "Santa Anna",
+   "almirante Baudin",
+   "oficial mexicano de 1830"
+  ],
+  "roupas": {
+   "CON": "avental e gorro brancos de confeiteiro",
+   "OFI": "oficial mexicano: casaca verde (cor da bandeira) com faixa vermelha e shako, diferente do frances azul com calca vermelha",
+   "FRA": "soldado/marinheiro francês de casaca azul e calça vermelha",
+   "REI": "rei de coroa e manto roxo",
+   "GEN": "Santa Anna: casaca verde com faixa vermelha, dragonas douradas e bicorne"
+  },
+  "cenario": "loja de doces em Tacubaya, sala de palácio de pedra, porto de Veracruz com fortaleza",
+  "objetos": [
+   "bolos e doces",
+   "papel de queixa",
+   "moedas",
+   "canhão do século 19"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Pastry_War",
+   "referencias/bolos1838/moodboard.jpg"
+  ],
+  "buscas": {
+   "Tacubaya": "Tacubaya Mexico City 1830s",
+   "San Juan de Ulúa": "San Juan de Ulua fortress Veracruz 1838 French bombardment",
+   "Santa Anna": "Antonio Lopez de Santa Anna portrait 1830s",
+   "Luís Filipe": "Louis-Philippe king of France portrait",
+   "Baudin": "Charles Baudin admiral 1838",
+   "confeiteiro": "19th century pastry chef shop engraving",
+   "soldado da epoca": "Mexican army officer 1830s uniform",
+   "confeiteiro francês": "French pastry chef 19th century",
+   "oficial mexicano de 1830": "Mexican army officer 1830s uniform Santa Anna era"
+  }
+ },
+ "min_momentos": 1,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Franca e Mexico entraram em guerra por uma confeitaria e a conta nunca foi paga. Pagamento: o confeiteiro pediu 60 mil pesos, a Franca bloqueou os portos e tomou Veracruz; o Mexico prometeu pagar.",
+ "loop_frase_ok": true,
+ "max_wide": 3
+}

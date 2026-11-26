@@ -1,0 +1,469 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 18,
+ "title": "O Jogo de Tabuleiro do Trump",
+ "titulo_base": "O Jogo de Tabuleiro do Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/boardgame",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "EXE": {
+   "profissao": "empresario"
+  },
+  "PAI": {
+   "jacket": "#6a4a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "moustache": "#3a2a1f"
+  },
+  "FIL": {
+   "jacket": "#d8282f",
+   "pants": "#2a3a5a",
+   "boots": "#f4f1e8",
+   "hat": "cap",
+   "cap": "#1f4fa8"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "EXE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Donald Trump lançou um jogo com o próprio rosto no dinheiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lançou"
+     }
+    ]
+   },
+   "text": "TRUMP: O JOGO",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smile"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "E o jogo empacou por um motivo bem simples.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "motivo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1989, ele já era um empresário famoso.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "empresário"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "EXE:0:grin:paper",
+    "TRU:0:smug"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "No jogo, o objetivo era juntar prédios, cassinos e hotéis.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prédios"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "TRU:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     2.4,
+     0.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@50"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@50"
+   ],
+   "acao": "comemorar",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "As notas tinham a cara dele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "notas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "PAI:0:suspicious:paper",
+    "FIL:0:bored"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "acao": "discutir",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Acontece que o manual era longo, e ninguém entendia as regras.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "manual"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "EXE:0:sad",
+    "EXE:1:nervous"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "800 MIL",
+   "titulo": true,
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "Esperavam dois milhões de jogos. Saíram oitocentos mil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "milhões"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "EXE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "entregar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Em 2004, com O Aprendiz, o jogo voltou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
+  },
+  {
+   "set": "street",
+   "shot": "crowd",
+   "who": [
+    "TRU:0:smug",
+    "POV:0:laugh",
+    "POV:1:grin"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.96,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VOLTOU",
+   "titulo": true,
+   "impact": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Desta vez, com regras bem mais simples.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "regras"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "EXE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/boardgame",
+     0.0,
+     -1.2,
+     1.54,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Um jogo que ninguém entendia. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "jogo"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Trump:_The_Game",
+  "https://www.vox.com/2015/8/19/9176285/donald-trump-board-game"
+ ],
+ "visual": {
+  "local": "Estados Unidos: escritorio na Trump Tower (Nova York), lojas de brinquedo, salas de familia",
+  "quando": "1989 (lancamento) e 2004 (relancamento), dia",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha, anos 80)",
+   "executivos da Milton Bradley",
+   "familias jogando"
+  ],
+  "roupas": {
+   "TRU": "terno azul dos anos 80 e gravata vermelha",
+   "EXE": "terno cinza com ombreiras",
+   "PAI": "sueter dos anos 80",
+   "FIL": "camiseta colorida",
+   "POV": "roupa casual"
+  },
+  "cenario": "escritorio luxuoso com vista de Nova York, loja de brinquedos com prateleiras, sala de casa com mesa e o tabuleiro",
+  "objetos": [
+   "caixa do jogo Trump: The Game",
+   "notas de dinheiro com o rosto de Trump",
+   "tabuleiro"
+  ],
+  "explicacoes": [
+   "Trump: The Game (Milton Bradley, 1989) esperava vender 2 milhoes e vendeu cerca de 800 mil; relancado em 2004 pela Parker Brothers com o bordao \"You're fired\" de O Aprendiz (fonte: Wikipedia Trump: The Game)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Trump:_The_Game"
+  ],
+  "buscas": {
+   "jogo": "Trump The Game 1989 board game box"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Trump lancou um jogo com o proprio rosto no dinheiro e o jogo empacou. Pagamento: manual dificil, vendeu 800 mil de 2 milhoes; voltou em 2004 com regras simples.",
+ "loop_frase_ok": true
+}

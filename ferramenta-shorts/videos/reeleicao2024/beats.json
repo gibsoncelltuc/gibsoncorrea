@@ -1,0 +1,438 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 21,
+ "title": "A Volta de Trump",
+ "titulo_base": "A Volta de Trump",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ballot_box",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "ELE": {
+   "jacket": "#7a3a2a",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#d8282f"
+  },
+  "REP": {
+   "profissao": "jornalista"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "REP:0:surprised:paper"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/white_house",
+     7.0,
+     -14.5,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PERDEU E VOLTOU",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um presidente perdeu a eleição e voltou quatro anos depois.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   },
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "REP:0:surprised:paper",
+    "POV:0:grin"
+   ],
+   "acao": "conversar",
+   "bloco": "promessa",
+   "say": "E isso só tinha acontecido uma vez na história americana.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "história"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "prova",
+   "say": "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escolhiam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "REP:0:nervous:paper",
+    "TRU:0:stern"
+   ],
+   "acao": "discutir",
+   "bloco": "prova",
+   "say": "A contagem dos votos entrou pela madrugada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "contagem"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "loja",
+   "who": [
+    "REP:0:shock:paper"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "text": "312 VOTOS",
+   "bloco": "escalada",
+   "say": "Acontece que Trump venceu todos os estados decisivos: 312 votos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "venceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "REP"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "VITÓRIA",
+   "titulo": true,
+   "set": "hall",
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "escalada",
+   "say": "Os apoiadores comemoraram, e ele declarou vitória.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comemoraram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "REP:0:smile:paper",
+    "POV:1:suspicious"
+   ],
+   "props": [
+    [
+     "kit/scroll",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "thump@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "pagamento",
+   "say": "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Cleveland"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/white_house",
+     0.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "text": "47º",
+   "titulo": true,
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.5,
+   "d0": 21.0,
+   "d1": 20.0,
+   "bloco": "pagamento",
+   "say": "Antes foi o presidente 45. Agora, o 47.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "presidente"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "REP:0:surprised:paper"
+   ],
+   "props": [
+    [
+     "kit/ballot_box",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/white_house",
+     7.0,
+     -14.5,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "2024",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Perdeu, voltou e ganhou. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://ballotpedia.org/Presidential_election,_2024",
+  "https://en.wikipedia.org/wiki/Second_presidency_of_Donald_Trump",
+  "https://www.wbtv.com/2024/11/06/ap-projects-donald-trump-elected-2nd-term-2024-presidential-election/"
+ ],
+ "visual": {
+  "local": "Estados Unidos: secoes eleitorais, Palm Beach Convention Center (Florida) na noite da vitoria, Capitolio em Washington na posse",
+  "quando": "5 e 6 de novembro de 2024 (noite e madrugada); posse em 20 de janeiro de 2025, dia frio",
+  "participantes": [
+   "Donald Trump (terno azul, gravata vermelha)",
+   "apoiadores de bone vermelho",
+   "eleitores",
+   "Kamala Harris (citada)"
+  ],
+  "roupas": {
+   "TRU": "terno azul escuro e gravata vermelha",
+   "REP": "bone vermelho e camiseta",
+   "ELE": "roupa casual com adesivo de voto",
+   "POV": "roupa casual"
+  },
+  "cenario": "fila de votacao com urnas e cabines, palco com bandeiras americanas, Casa Branca e Capitolio",
+  "objetos": [
+   "urna e cedulas",
+   "bandeiras dos EUA",
+   "Casa Branca"
+  ],
+  "explicacoes": [
+   "Trump venceu a eleicao de 5/11/2024 com 312 votos no colegio eleitoral, vencendo os sete estados decisivos; tomou posse em 20/1/2025 como 47o presidente; Grover Cleveland (22o e 24o) foi o unico antes com mandatos nao consecutivos (fonte: Wikipedia 2024 United States presidential election)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2024_United_States_presidential_election",
+   "https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump"
+  ],
+  "buscas": {
+   "vitoria": "Trump victory speech Palm Beach November 2024"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um presidente perdeu a eleicao e voltou quatro anos depois, algo que so tinha acontecido uma vez. Pagamento: em 2024 venceu todos os estados decisivos com 312 votos; so Grover Cleveland tinha feito isso.",
+ "loop_frase_ok": true
+}

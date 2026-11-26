@@ -1,0 +1,437 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 11,
+ "title": "O Raio X de Röntgen",
+ "titulo_base": "O Raio X de Röntgen",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/xray_plate",
+ "outfits": {
+  "ROE": {
+   "profissao": "cientista",
+   "beard": "#5a4a3a",
+   "hair": "#5a4a3a"
+  },
+  "ANA": {
+   "jacket": "#7a3a6a",
+   "pants": "#3b2a3a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a34",
+   "hairStyle": "bun",
+   "glasses": false
+  },
+  "JOR": {
+   "profissao": "jornalista"
+  },
+  "MED": {
+   "profissao": "medico"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bowler",
+    "cap",
+    "straw",
+    "beret"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "ROE:0:grin:paper",
+    "ANA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "A primeira foto de dentro do corpo assustou a esposa do cientista.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foto"
+     }
+    ]
+   },
+   "text": "RAIO X",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ANA:0:scared"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "promessa",
+   "say": "Conta-se que ela viu ali a própria morte.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "viu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ALEMANHA",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Em 1895, Wilhelm Röntgen testava um tubo de vidro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "testava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:suspicious:paper"
+   ],
+   "props": [
+    [
+     "kit/crookes_tube",
+     2.4,
+     0.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@60"
+   ],
+   "sfx": [
+    "thump@60"
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "prova",
+   "say": "Uma noite, cobriu o tubo e apagou a luz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cobriu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "low",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@24"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@24"
+   ],
+   "light": "study",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que, do outro lado da sala, uma tela brilhou no escuro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "brilhou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:shock"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     2.4,
+     0.2,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "light": "study",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Pôs a mão na frente e viu os próprios ossos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ossos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "hora": "dia",
+   "who": [
+    "ROE:0:grin",
+    "ANA:0:nervous"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "escalada",
+   "say": "Depois, fotografou a mão da esposa, Anna, com a aliança.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fotografou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "ROE:0:smug",
+    "JOR:0:suspicious:paper"
+   ],
+   "text": "RAIO X",
+   "bloco": "pagamento",
+   "say": "Sem saber o que era, chamou de raio X.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chamou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "ROE:0:laugh",
+    "MED:0:grin",
+    "POV:0:laugh"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "POV",
+     "MED",
+     "JOR"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "NOBEL",
+   "titulo": true,
+   "bloco": "pagamento",
+   "say": "Ganhou o primeiro Nobel de Física.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Nobel"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ROE:0:grin:paper",
+    "ANA:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/xray_plate",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Um raio desconhecido, e foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "foi"
+     }
+    ]
+   }
+  }
+ ],
+ "variar_cenario": false,
+ "visual": {
+  "local": "Instituto de Fisica da Universidade de Wurzburg, Baviera (Alemanha): laboratorio escuro com tubo de Crookes",
+  "quando": "8 de novembro de 1895, noite; 22 de dezembro de 1895 (mao de Anna)",
+  "participantes": [
+   "Wilhelm Rontgen (barba cheia escura, sobrecasaca)",
+   "Anna Bertha Rontgen (vestido longo, cabelo preso)",
+   "jornalistas e medicos"
+  ],
+  "roupas": {
+   "ROE": "sobrecasaca escura e barba cheia",
+   "ANA": "vestido longo escuro do seculo 19",
+   "JOR": "terno e chapeu coco",
+   "MED": "sobrecasaca e oculos",
+   "POV": "roupas do fim do seculo 19"
+  },
+  "cenario": "laboratorio de fisica do seculo 19 com bancadas, bobina de inducao, tubo de vidro e tela fluorescente; sala de jornal",
+  "objetos": [
+   "tubo de Crookes",
+   "tela de platinocianeto de bario",
+   "chapa fotografica da mao com anel",
+   "papelao preto"
+  ],
+  "explicacoes": [
+   "Em 8/11/1895 Rontgen viu uma tela fluorescente brilhar com o tubo coberto; em 22/12 radiografou a mao de Anna com o anel; chamou de raios X; recebeu o primeiro Nobel de Fisica (1901) e nao patenteou (fonte: Wikipedia Wilhelm Rontgen, X-ray)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+   "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"
+  ],
+  "buscas": {
+   "mao": "Rontgen hand of Anna Bertha 1895 x-ray",
+   "lab": "Rontgen laboratory Wurzburg"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: a primeira foto de dentro do corpo assustou a esposa do cientista, que viu ali a propria morte. Pagamento: a tela brilhou, ele viu os ossos, fotografou a mao de Anna e chamou de raio X; ganhou o Nobel.",
+ "loop_frase_ok": true
+}

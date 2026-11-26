@@ -1,0 +1,232 @@
+{
+ "id": "vulcao2021",
+ "ano": 2021,
+ "cenarios_trocados": [
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/volcano"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Um país fabrica dinheiro digital usando a energia de um vulcão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 6,
+   "cena": "b1",
+   "frase": "Parece ficção. Mas aconteceu de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/coin",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 2021, El Salvador tornou o bitcoin moeda oficial.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/miners"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Criar bitcoin exige computadores fazendo contas sem parar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Para isso, o governo usou o calor do vulcão Tecapa.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/turbina",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "O vapor da terra gira turbinas e vira eletricidade.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/turbina (gira)",
+    "emissao": "vapor",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/miners"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Acontece que, ao lado da usina, instalaram computadores só para isso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ENA",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Anos depois, o governo contava quase quinhentos bitcoins do vulcão.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/apartment",
+    "buildings/house_two",
+    "kit/bitcoin",
+    "kit/volcano",
+    "nature/lamppost"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "E anunciou uma Cidade Bitcoin aos pés de outro vulcão.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Dinheiro tirado da terra quente. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  }
+ ]
+}

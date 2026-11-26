@@ -1,0 +1,77 @@
+{
+ "id": "ese_holanda",
+ "titulo": "E Se EP 03 - E Se o Brasil Tivesse Sido Holandês?",
+ "ancoras": {
+  "ano": 1630,
+  "era": "historica",
+  "regiao": "holanda",
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "harbor",
+   "interior loja",
+   "jungle",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/bridge",
+  "buildings/house_small",
+  "buildings/shop",
+  "buildings/skyscraper",
+  "kit/flag_pole",
+  "kit/marco_olinda",
+  "kit/navio_fragata",
+  "kit/room_holanda_shop",
+  "kit/scroll",
+  "nature/haybale",
+  "nature/tree_oak",
+  "ship"
+ ],
+ "pesquisa_visual": {
+  "local": "Recife e Pernambuco (Brasil holandes), Suriname e Nova Amsterda",
+  "quando": "1630 a 1654, de dia; troca de 1667 (Tratado de Breda)",
+  "participantes": [
+   "Mauricio de Nassau",
+   "soldados holandeses",
+   "colonos portugueses, indigenas e africanos"
+  ],
+  "roupas": {
+   "HOL": "holandes do sec. XVII: gibao escuro, gola branca larga, chapeu de aba",
+   "POR": "colono portugues do sec. XVII",
+   "SOL": "soldado do sec. XVII com morion"
+  },
+  "cenario": "porto de Recife com navios a vela, engenhos de acucar, ponte de madeira, casas holandesas",
+  "objetos": [
+   "navios a vela do sec. XVII",
+   "canas de acucar",
+   "bandeira holandesa"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Dutch_Brazil",
+   "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+  ]
+ },
+ "fontes": [
+  "https://pt.wikipedia.org/wiki/Brasil_Holand%C3%AAs",
+  "https://en.wikipedia.org/wiki/Kahal_Zur_Israel_Synagogue",
+  "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+ ],
+ "falta": []
+}

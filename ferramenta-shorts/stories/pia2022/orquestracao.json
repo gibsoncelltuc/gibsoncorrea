@@ -1,0 +1,199 @@
+{
+ "id": "pia2022",
+ "ano": 2022,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Um bilionário entrou carregando uma pia na empresa que estava comprando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "FUN",
+    "FUN2"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/marco_goldengate",
+    "kit/sink"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E a pia era uma piada de 44 bilhões de dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN2"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/sink"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foi Elon Musk, em 2022, na sede do Twitter.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "A legenda era um trocadilho em inglês.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Sink quer dizer pia e também afundar.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/sink (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Acontece que, no dia seguinte, o Twitter virou dele.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN",
+    "FUN2"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "No mesmo dia, demitiu o presidente e outros chefes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/phone"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "E mudou o próprio perfil para Chefe Twit.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "FUN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/sink"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Uma piada com pia. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

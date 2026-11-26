@@ -1,0 +1,162 @@
+{
+ "duration": 29.712,
+ "frames30": 891,
+ "source": "silence-align (cost 0.83)",
+ "segments": [
+  [
+   0.0,
+   2.63121
+  ],
+  [
+   3.01021,
+   5.48912
+  ],
+  [
+   5.87058,
+   7.22858
+  ],
+  [
+   7.45446,
+   8.12429
+  ],
+  [
+   8.30825,
+   9.22958
+  ],
+  [
+   9.60596,
+   10.7803
+  ],
+  [
+   10.9838,
+   11.7646
+  ],
+  [
+   11.9374,
+   13.1792
+  ],
+  [
+   13.5537,
+   14.0888
+  ],
+  [
+   14.2829,
+   15.9141
+  ],
+  [
+   16.2817,
+   19.0648
+  ],
+  [
+   19.4228,
+   20.1444
+  ],
+  [
+   20.4275,
+   22.3018
+  ],
+  [
+   22.6802,
+   24.1182
+  ],
+  [
+   24.4962,
+   26.108
+  ],
+  [
+   26.4865,
+   28.1494
+  ],
+  [
+   28.5272,
+   29.2676
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Um presidente parou o discurso na ONU para tirar uma selfie.",
+   "s": 0.0,
+   "e": 2.631
+  },
+  {
+   "text": "E a foto chamou mais aten\u00e7\u00e3o que o discurso inteiro.",
+   "s": 3.01,
+   "e": 5.489
+  },
+  {
+   "text": "Foi na Assembleia Geral da ONU,",
+   "s": 5.871,
+   "e": 7.229
+  },
+  {
+   "text": "em Nova York,",
+   "s": 7.454,
+   "e": 8.124
+  },
+  {
+   "text": "em 2019.",
+   "s": 8.308,
+   "e": 9.23
+  },
+  {
+   "text": "O presidente de El Salvador,",
+   "s": 9.606,
+   "e": 10.78
+  },
+  {
+   "text": "Nayib Bukele,",
+   "s": 10.984,
+   "e": 11.765
+  },
+  {
+   "text": "tinha s\u00f3 38 anos.",
+   "s": 11.937,
+   "e": 13.179
+  },
+  {
+   "text": "No p\u00falpito,",
+   "s": 13.554,
+   "e": 14.089
+  },
+  {
+   "text": "ele pediu licen\u00e7a e pegou o celular.",
+   "s": 14.283,
+   "e": 15.914
+  },
+  {
+   "text": "Acontece que virou de costas e fez uma selfie com o plen\u00e1rio.",
+   "s": 16.282,
+   "e": 19.065
+  },
+  {
+   "text": "Depois avisou:",
+   "s": 19.423,
+   "e": 20.144
+  },
+  {
+   "text": "a ONU pode desaparecer como a Kodak.",
+   "s": 20.427,
+   "e": 22.302
+  },
+  {
+   "text": "A selfie rodou o mundo inteiro.",
+   "s": 22.68,
+   "e": 24.118
+  },
+  {
+   "text": "O discurso ficou em segundo plano.",
+   "s": 24.496,
+   "e": 26.108
+  },
+  {
+   "text": "Um segundo bastou para virar not\u00edcia.",
+   "s": 26.486,
+   "e": 28.149
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 28.527,
+   "e": 29.268
+  }
+ ]
+}

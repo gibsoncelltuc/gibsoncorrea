@@ -1,0 +1,213 @@
+{
+ "id": "danca1518",
+ "ano": 1518,
+ "cenarios_trocados": [
+  [
+   "cena 9",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Uma mulher começou a dançar na rua e não conseguiu parar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "MED",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E até hoje ninguém sabe ao certo por quê.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1518, em Estrasburgo, ela dançou por uma semana.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TRO",
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Em poucos dias, mais de trinta pessoas dançavam também.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "TRO",
+    "POV",
+    "POV"
+   ],
+   "multidao": 36,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Em agosto, eram centenas, com os pés sangrando.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MED"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Os médicos culparam o sangue quente e receitaram mais dança.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS",
+    "MUS"
+   ],
+   "multidao": 12,
+   "objetos": [
+    "buildings/house_two",
+    "nature/lamppost"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que a cidade contratou músicos para manter todos dançando.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRE",
+    "DAN"
+   ],
+   "multidao": 10,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Deu errado: mais gente entrou na dança.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "DAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/church"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Levados a uma capela no monte, eles finalmente pararam.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRO",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Histeria coletiva? Ninguém sabe. Só se sabe que foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  }
+ ]
+}

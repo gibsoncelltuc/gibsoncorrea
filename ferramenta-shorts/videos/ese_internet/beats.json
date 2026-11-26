@@ -1,0 +1,363 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "E Se",
+ "ep": 4,
+ "title": "E Se a Internet Acabasse por Um Dia?",
+ "titulo_base": "E Se a Internet Acabasse por Um Dia?",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/phone",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  },
+  "CAI": {
+   "profissao": "comerciante"
+  },
+  "PIL": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f2f5c"
+  }
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages",
+  "https://en.wikipedia.org/wiki/2021_Facebook_outage"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:shock",
+    "PRO:0:grin"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     0,
+     -1.2,
+     1.3
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "gancho",
+   "say": "A internet do mundo inteiro cai amanhã, por um dia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "internet"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:nervous"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 3,
+   "bloco": "promessa",
+   "say": "Parece impossível. Mas pedaços disso já aconteceram.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aconteceram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:angry",
+    "POV:1:shout"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "bloco": "prova",
+   "say": "Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caíram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "PIL:0:worried",
+    "POV:0:angry",
+    "POV:1:shout"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "vehicles/airplane",
+     2.4,
+     -10.0,
+     1.0
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "puff@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "thump@50"
+   ],
+   "text": "PANE",
+   "titulo": true,
+   "bloco": "prova",
+   "say": "Em 2024, uma atualização com defeito travou oito milhões de computadores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "travou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "loja",
+   "who": [
+    "CAI:0:nervous",
+    "POV:0:angry"
+   ],
+   "interacao": "discutir",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "detalhe": false,
+   "props": [
+    [
+     "kit/coin",
+     1.2,
+     -0.8,
+     1.0
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Sem internet, sem cartão: só dinheiro de papel.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:worried"
+   ],
+   "acao": "conversar",
+   "bloco": "escalada",
+   "say": "Hospitais e bancos voltariam para a caneta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Hospitais"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     1.6,
+     -0.8,
+     1.2
+    ]
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "escalada",
+   "say": "O mais estranho? Não saber o que fazer com as mãos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mãos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/ball",
+     1.6,
+     -0.6,
+     1.0
+    ]
+   ],
+   "bloco": "pagamento",
+   "say": "Gente conversando na rua, jogando bola, olhando para o céu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "conversando"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:suspicious",
+    "POV:0:smile"
+   ],
+   "acao": "conversar",
+   "bloco": "pagamento",
+   "say": "E muita gente ia dormir melhor.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "dormir"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/phone",
+     -1.4,
+     -0.8,
+     1.1
+    ]
+   ],
+   "acao": "comemorar",
+   "bloco": "loop",
+   "say": "Você aguentaria? Agora imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "imagina"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "cidades de hoje: ruas, bancos, hospitais, aeroportos",
+  "quando": "hoje (hipotese); quedas reais em 4/10/2021 e 19/7/2024",
+  "participantes": [
+   "pessoas comuns com celular",
+   "funcionarios de banco e hospital",
+   "passageiros"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "ruas com gente olhando o celular, filas em banco, aeroporto parado, praca com gente conversando",
+  "objetos": [
+   "celular",
+   "computador",
+   "dinheiro de papel"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/2021_Facebook_outage",
+   "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+  ]
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: a internet do mundo cai amanha por um dia, e pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais na caneta e gente sem saber o que fazer com as maos.",
+ "loop_frase_ok": true
+}

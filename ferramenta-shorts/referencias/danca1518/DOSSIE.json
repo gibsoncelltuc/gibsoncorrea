@@ -1,0 +1,84 @@
+{
+ "id": "danca1518",
+ "titulo": "Curiosidade e Ciência EP 22 - A Praga da Dança",
+ "ancoras": {
+  "ano": 1518,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "hall",
+   "interior pedra",
+   "medieval"
+  ],
+  "cenarios_trocados": [
+   [
+    "cena 9",
+    "mountain",
+    "loc_montanha"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "fragata a vela",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/church",
+  "buildings/house_small",
+  "kit/marco_viena",
+  "kit/room_azul_stone",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "tools/lantern"
+ ],
+ "pesquisa_visual": {
+  "local": "Estrasburgo",
+  "quando": "julho a setembro de 1518 (verão); 14 de julho, começo da dança",
+  "participantes": [
+   "Frau Troffea",
+   "médicos de 1518",
+   "conselho de Estrasburgo"
+  ],
+  "roupas": {
+   "TRO": "vestido e touca de camponesa do século 16",
+   "POV": "povo de Estrasburgo de 1518: colete, touca ou chapéu",
+   "PRE": "conselheiro de capa escura e chapéu",
+   "MED": "médico de túnica escura e chapéu",
+   "MUS": "músicos de gibão colorido"
+  },
+  "cenario": "rua estreita de pedras com casas de enxaimel, salão de corporação, capela no alto de um monte, catedral de Estrasburgo",
+  "objetos": [
+   "sapatos vermelhos",
+   "música de gaitas e tambores"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+   "referencias/danca1518/moodboard.jpg (gravura alemã de 1600 da epidemia)"
+  ],
+  "buscas": {
+   "Estrasburgo": "Strasbourg half-timbered houses medieval street",
+   "Frau Troffea": "dancing plague 1518 engraving Hendrick Hondius",
+   "médicos de 1518": "16th century physician engraving",
+   "conselho de Estrasburgo": "16th century town council Strasbourg",
+   "sapatos vermelhos": "red shoes 16th century",
+   "música de gaitas e tambores": "16th century musicians bagpipe drum woodcut"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

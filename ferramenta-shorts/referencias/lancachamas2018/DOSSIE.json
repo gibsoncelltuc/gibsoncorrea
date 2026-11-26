@@ -1,0 +1,98 @@
+{
+ "id": "lancachamas2018",
+ "titulo": "Poder e Fama EP 12 - O Não é um Lança-Chamas",
+ "ancoras": {
+  "ano": 2018,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "golden",
+  "cenarios": [
+   "interior loja",
+   "interior pedra",
+   "loc_cidade",
+   "loc_deserto"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "street",
+    "loc_cidade"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "feno/espantalho",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/bancada",
+  "kit/extinguisher",
+  "kit/fire",
+  "kit/flamethrower",
+  "kit/marco_hollywood",
+  "kit/room_eua_shop",
+  "kit/room_europa_shop",
+  "kit/room_verde_stone",
+  "kit/tunel_boring",
+  "mk/Crate_Metal",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Vase_2",
+  "mk/Workbench_Drawers",
+  "nature/picket_fence"
+ ],
+ "pesquisa_visual": {
+  "local": "Estados Unidos: escritorio da Boring Company em Los Angeles (Hawthorne), deserto para testes, ruas de Los Angeles",
+  "quando": "janeiro a fevereiro de 2018, dia",
+  "participantes": [
+   "Elon Musk (jaqueta preta)",
+   "funcionarios da Boring Company",
+   "compradores"
+  ],
+  "roupas": {
+   "MUS": "jaqueta preta e calca escura",
+   "CMP": "camisa verde com logo da empresa",
+   "POV": "roupa casual"
+  },
+  "cenario": "escritorio moderno, loja com caixas do produto, deserto aberto, rua de cidade americana",
+  "objetos": [
+   "Not-A-Flamethrower (lanca-chamas preto parecido com fuzil)",
+   "extintor vermelho de brinde"
+  ],
+  "explicacoes": [
+   "Not-A-Flamethrower: 20 mil unidades a US$ 500, esgotadas em cerca de 4 dias (US$ 10 milhoes); acompanhava extintor; Musk disse que o nome era para contornar a proibicao de envio de lanca-chamas (fonte: Wikipedia The Boring Company)",
+   "Em dezembro de 2017 Musk prometeu lancar o lanca-chamas quando a Boring Company vendesse 50 mil bones; os bones esgotaram (fonte: Wikipedia The Boring Company)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_Boring_Company#Not-A-Flamethrower"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "loc_deserto",
+   "interior pedra",
+   "interior loja"
+  ],
+  "buscas": {
+   "produto": "Boring Company Not-A-Flamethrower 2018"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

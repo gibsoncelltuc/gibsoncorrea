@@ -1,0 +1,207 @@
+{
+ "id": "bukele2024",
+ "ano": 2024,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/volcano"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um presidente teve quase 85% dos votos, e o mundo se dividiu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E o motivo dessa votação é polêmico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 2024, Bukele tentou a reeleição em El Salvador.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Ele prometeu acabar com a violência das gangues.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "REP",
+    "BUK"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Os assassinatos caíram de 106 para 2,4 por cem mil.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JUI",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Acontece que a Constituição proibia reeleição seguida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Uma corte liberou, e críticos chamaram de ilegal.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "REP"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/prison",
+    "kit/volcano"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Grupos de direitos humanos criticaram as prisões em massa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Mesmo assim, ele levou 84,6% dos votos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Amado por uns, criticado por outros. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

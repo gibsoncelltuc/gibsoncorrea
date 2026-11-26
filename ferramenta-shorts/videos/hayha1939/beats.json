@@ -1,0 +1,322 @@
+{
+ "title": "A Morte Branca",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "arctic",
+ "light": "arctic",
+ "mood": "tense",
+ "outfits": {
+  "FIN": {
+   "jacket": "#f4f6fa",
+   "pants": "#e4ecf6",
+   "boots": "#c8d4e4",
+   "hat": "helmet",
+   "cap": "#f4f6fa",
+   "belt": "#8a7a50",
+   "rifle": true,
+   "uniforme_fixo": true
+  },
+  "SOV": {
+   "jacket": "#6a6a50",
+   "pants": "#5a5a44",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#4f5a3f",
+   "belt": "#2a2218",
+   "rifle": true,
+   "uniforme_fixo": true
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "FIN:3:stern",
+    "SOV:0:shock"
+   ],
+   "tat": 0,
+   "tstyle": "red",
+   "batalha": true,
+   "set": "arctic",
+   "shot_lock": true,
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "SOV"
+    ],
+    "march": false,
+    "expr": "scared"
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 12.0,
+   "d1": 9.5,
+   "bloco": "gancho",
+   "say": "Um fazendeiro baixinho virou o soldado mais temido de uma guerra.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soldado"
+     }
+    ]
+   },
+   "text": "MORTE BRANCA",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "SOV:1:shock"
+   ],
+   "tat": 8,
+   "tstyle": "red",
+   "set": "arctic",
+   "bloco": "promessa",
+   "say": "Tão temido que os inimigos deram um apelido a ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apelido"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "set": "arctic",
+   "mapa": "FINLÂNDIA",
+   "who": [
+    "SOV:0:stern",
+    "SOV:1:angry"
+   ],
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "SOV"
+    ],
+    "march": true
+   },
+   "bloco": "prova",
+   "say": "Em 1939, a União Soviética invadiu a Finlândia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "invadiu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "FIN:0:stern",
+    "FIN:1:nervous",
+    "FIN:2:stern"
+   ],
+   "tat": 18,
+   "tstyle": "white",
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "whoosh@30"
+   ],
+   "set": "arctic",
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": -40,
+     "un": "°C",
+     "na": "quarenta"
+    }
+   },
+   "bloco": "prova",
+   "say": "Fazia quarenta graus abaixo de zero.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "quarenta"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FIN:3:smile"
+   ],
+   "text": "SIMO HÄYHÄ",
+   "props": [],
+   "set": "arctic",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5,
+   "bloco": "prova",
+   "say": "Esse soldado se chamava Simo Häyhä.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Simo"
+     }
+    ]
+   },
+   "impact": false,
+   "crowd": {
+    "n": 0
+   }
+  },
+  {
+   "shot": "low",
+   "who": [
+    "FIN:3:stern"
+   ],
+   "set": "arctic",
+   "bloco": "escalada",
+   "say": "Vestido de branco, ele esperava imóvel na neve por horas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "esperava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FIN:3:neutral"
+   ],
+   "text": "NEVE NA BOCA",
+   "props": [],
+   "set": "arctic",
+   "quadro_manual": true,
+   "d0": 5.0,
+   "d1": 4.5,
+   "bloco": "escalada",
+   "say": "Dizem que punha neve na boca para o vapor não aparecer.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "neve"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FIN:3:stern",
+    "FIN:0:shock"
+   ],
+   "text": "100 DIAS",
+   "tat": 4,
+   "tstyle": "gold",
+   "props": [],
+   "set": "arctic",
+   "bloco": "escalada",
+   "say": "Acontece que, em cem dias, contam mais de quinhentos inimigos abatidos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "abatidos",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "SOV:1:shock"
+   ],
+   "text": "MORTE BRANCA",
+   "tat": 8,
+   "tstyle": "red",
+   "set": "arctic",
+   "bloco": "pagamento",
+   "say": "Os soviéticos o chamavam de Morte Branca.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Morte"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FIN:3:smile"
+   ],
+   "text": "SÓ FEZ O SEU TRABALHO",
+   "tat": 17,
+   "tstyle": "white",
+   "light": "golden",
+   "interior": "madeira",
+   "bloco": "loop",
+   "say": "Ele só dizia: fiz o meu trabalho. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trabalho"
+     }
+    ]
+   }
+  }
+ ],
+ "heroi": null,
+ "visual": {
+  "local": "Front de Kollaa, Carelia (Finlandia): floresta de pinheiros coberta de neve, terreno plano com morros baixos",
+  "quando": "Guerra de Inverno, 30/nov/1939 a 13/mar/1940; ferido em 6/mar/1940; temperaturas de ate -40 C, dias curtos",
+  "participantes": [
+   "Simo Hayha, fazendeiro e atirador de 1,52 m",
+   "soldados finlandeses de esqui e camuflagem branca",
+   "Exercito Vermelho"
+  ],
+  "roupas": {
+   "FIN": "camuflagem branca de neve por cima da farda, capuz/gorro branco, fuzil Mosin-Nagant M/28-30 de mira de ferro",
+   "SOV": "soldado sovietico: capote verde-acinzentado, capacete SSh-39, fuzil"
+  },
+  "cenario": "floresta de pinheiros com neve funda, trincheiras rasas, fogueira de acampamento, hospital de campanha",
+  "objetos": [
+   "fuzil de mira de ferro",
+   "esquis",
+   "fogueira",
+   "neve na boca"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Simo_H%C3%A4yh%C3%A4",
+   "https://commons.wikimedia.org/wiki/File:Simo_H%C3%A4yh%C3%A4_1940.jpg"
+  ]
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 23,
+ "titulo_base": "A Morte Branca",
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um fazendeiro baixinho virou o soldado mais temido e ganhou apelido dos inimigos. Pagamento: de branco, imovel na neve a -40, mais de 500 abatidos em cem dias; os sovieticos o chamavam de Morte Branca.",
+ "loop_frase_ok": true
+}

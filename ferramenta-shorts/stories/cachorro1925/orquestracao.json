@@ -1,0 +1,224 @@
+{
+ "id": "cachorro1925",
+ "ano": 1925,
+ "cenarios_trocados": [
+  [
+   "cena 1",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 2",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 4",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 6",
+   "mountain",
+   "loc_montanha"
+  ],
+  [
+   "cena 10",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "track",
+   "personagens": [
+    "GRE",
+    "BUL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um cachorro perdido quase começou uma guerra na Europa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E até hoje não se sabe nem se o cachorro existiu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "GRE",
+    "BUL"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1925, a fronteira entre Grécia e Bulgária estava tensa.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "GRE",
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Dizem que um soldado grego cruzou a fronteira atrás do cachorro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUL",
+    "GRE"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Soldados búlgaros atiraram, e o grego morreu.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "GRE",
+    "GRE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b5",
+   "frase": "A Grécia deu quarenta e oito horas para a Bulgária pagar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GRE"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Dias depois, vinte mil soldados gregos invadiram a Bulgária.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "A Bulgária apelou à Liga das Nações.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "DIP"
+   ],
+   "multidao": 12,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "A Liga mandou parar. A Grécia recuou e pagou indenização.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "GRE",
+    "BUL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Talvez o cachorro nem existisse. Mas foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  }
+ ]
+}

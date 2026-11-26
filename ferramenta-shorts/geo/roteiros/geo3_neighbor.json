@@ -1,0 +1,95 @@
+{
+ "title": "COUNTRIES WITH ONLY ONE NEIGHBOR",
+ "hook": "These countries share a border with only one other country.",
+ "items": [
+  {
+   "say": "Portugal only borders Spain.",
+   "hl": [
+    "PRT"
+   ],
+   "hl2": [
+    "ESP"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🤝"
+  },
+  {
+   "say": "Canada only borders the United States.",
+   "hl": [
+    "CAN"
+   ],
+   "hl2": [
+    "USA"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🍁"
+  },
+  {
+   "say": "Ireland only borders the United Kingdom.",
+   "hl": [
+    "IRL"
+   ],
+   "hl2": [
+    "GBR"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "☘️"
+  },
+  {
+   "say": "Denmark only borders Germany.",
+   "hl": [
+    "DNK"
+   ],
+   "hl2": [
+    "DEU"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🧱"
+  },
+  {
+   "say": "South Korea only borders North Korea.",
+   "hl": [
+    "KOR"
+   ],
+   "hl2": [
+    "PRK"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🚧"
+  },
+  {
+   "say": "Haiti only borders the Dominican Republic.",
+   "hl": [
+    "HTI"
+   ],
+   "hl2": [
+    "DOM"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🏝️"
+  },
+  {
+   "say": "Qatar only borders Saudi Arabia.",
+   "hl": [
+    "QAT"
+   ],
+   "hl2": [
+    "SAU"
+   ],
+   "big": "1 NEIGHBOR",
+   "icon": "🏜️"
+  },
+  {
+   "say": "And Lesotho is completely surrounded by South Africa.",
+   "hl": [
+    "LSO"
+   ],
+   "hl2": [
+    "ZAF"
+   ],
+   "big": "SURROUNDED",
+   "icon": "⛰️"
+  }
+ ],
+ "id": "geo3_neighbor"
+}

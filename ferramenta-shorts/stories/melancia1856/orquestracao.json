@@ -1,0 +1,218 @@
+{
+ "id": "melancia1856",
+ "ano": 1856,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "harbor",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Uma fatia de melancia quase virou guerra entre dois países.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E a fatia custava só uns centavos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "vehicles/locomotive"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 1856, viajantes cruzavam o Panamá atrás de ouro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon",
+    "kit/stall"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Um americano comeu uma fatia de melancia e não quis pagar.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/shop",
+    "kit/stall",
+    "war/pistol"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "O vendedor cobrou. O viajante riu e sacou uma arma.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 20,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Em minutos, virou briga de moradores contra viajantes.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "vehicles/locomotive"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "Os viajantes se trancaram na estação de trem.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRE",
+    "MOR"
+   ],
+   "multidao": 14,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Acontece que mais de quinze pessoas morreram naquele dia.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "PRE",
+    "VIA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "A Colômbia teve que pagar uma indenização aos americanos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VIA",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/melon"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Tudo por centavos que ninguém pagou. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  }
+ ]
+}

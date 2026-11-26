@@ -1,0 +1,341 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "E Se",
+ "ep": 1,
+ "title": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+ "titulo_base": "E Se Todo Mundo Pulasse ao Mesmo Tempo?",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/globe",
+ "outfits": {
+  "PRO": {
+   "profissao": "cientista",
+   "hair": "#5a3a22",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "straw"
+   ]
+  }
+ },
+ "fontes": [
+  "https://what-if.xkcd.com/8/"
+ ],
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:grin",
+    "POV:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     0,
+     -1.4,
+     1.0
+    ]
+   ],
+   "text": "E SE...",
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "bloco": "gancho",
+   "say": "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pulam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:grin"
+   ],
+   "interacao": "abracar",
+   "bloco": "promessa",
+   "say": "Mas o problema de verdade seria outro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "problema"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "MUNDO",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Somos mais de oito bilhões de pessoas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bilhões"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:0:suspicious"
+   ],
+   "acao": "conversar",
+   "bloco": "prova",
+   "say": "Juntas, pesamos mais de quinhentos milhões de toneladas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "toneladas"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:shout",
+    "POV:1:laugh",
+    "POV:2:grin"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "shout"
+   },
+   "fx": [
+    "puff@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "thump@40"
+   ],
+   "text": "3, 2, 1...",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Todo mundo conta até três, e pula!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pula"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smug"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.1
+    ]
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "bloco": "escalada",
+   "say": "Acontece que a Terra pesa trilhões de vezes mais que nós.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Terra"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [],
+   "props": [
+    [
+     "kit/globe",
+     1.6,
+     -0.8,
+     1.0
+    ]
+   ],
+   "interacao": "susto",
+   "explica": {
+    "objeto": "kit/globe",
+    "manobra": "gira",
+    "comparar": [
+     [
+      "TERRA",
+      6000000000000000,
+      "mi t"
+     ],
+     [
+      "NÓS",
+      500,
+      "mi t"
+     ]
+    ],
+    "rotulos": [
+     [
+      "MENOS QUE UM ÁTOMO",
+      "cima",
+      "átomo"
+     ]
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Ela se mexeria menos que a largura de um átomo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mexeria"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "bloco": "pagamento",
+   "say": "Se todos se juntassem num lugar só, o caos seria a volta.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "caos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PRO:0:stern:paper",
+    "POV:1:nervous"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "bloco": "pagamento",
+   "say": "Bilhões de pessoas sem estrada, comida ou água para voltar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PRO:0:smile"
+   ],
+   "props": [
+    [
+     "kit/globe",
+     -1.4,
+     -0.8,
+     1.0
+    ]
+   ],
+   "acao": "comemorar",
+   "bloco": "loop",
+   "say": "Pode pular aí. Agora imagina que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pular"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.0,
+ "visual": {
+  "local": "o planeta inteiro: cidades, campos e praias",
+  "quando": "hoje (hipotese), de dia",
+  "participantes": [
+   "pessoas do mundo todo"
+  ],
+  "roupas": {
+   "POV": "roupa comum de hoje"
+  },
+  "cenario": "multidoes pulando em varios lugares, globo terrestre",
+  "objetos": [
+   "globo terrestre"
+  ],
+  "fontes_visuais": [
+   "https://what-if.xkcd.com/8/",
+   "https://en.wikipedia.org/wiki/Earth_mass"
+  ],
+  "explicacoes": "A massa da Terra e cerca de 6 x 10^21 toneladas; a humanidade, ~5 x 10^8 toneladas. Um pulo coletivo moveria a Terra menos que a largura de um atomo. Fonte: xkcd What If #8 (Randall Munroe)."
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: todo mundo pula junto e a Terra nem se mexe; o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+ "loop_frase_ok": true
+}

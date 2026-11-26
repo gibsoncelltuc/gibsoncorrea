@@ -1,0 +1,482 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Guerras Inusitadas",
+ "ep": 10,
+ "title": "A Guerra da Chaleira",
+ "titulo_base": "A Guerra da Chaleira",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/kettle",
+ "outfits": {
+  "IMP": {
+   "jacket": "#f1efe6",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "crown",
+   "sash": "#c0262d",
+   "build": "stout"
+  },
+  "GEN": {
+   "jacket": "#f1efe6",
+   "pants": "#c0262d",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "buttons": "#e8c45a"
+  },
+  "AUS": {
+   "jacket": "#f1efe6",
+   "pants": "#3b3f52",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "belt": "#c0262d",
+   "rifle": true
+  },
+  "HOL": {
+   "jacket": "#d9742a",
+   "pants": "#27408b",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#27408b",
+   "rifle": true
+  },
+  "COZ": {
+   "jacket": "#f6f0e6",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "build": "stout"
+  },
+  "MAR": {
+   "jacket": "#d9742a",
+   "pants": "#27408b",
+   "boots": "#1b1b1f",
+   "hat": "beret",
+   "cap": "#27408b"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "COZ:0:shock",
+    "HOL:0:grin"
+   ],
+   "text": "UM ÚNICO TIRO",
+   "say": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira de sopa.",
+   "titulo": true,
+   "set": "loc_campo"
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MAR:0:stern",
+    "MAR:1:stern"
+   ],
+   "mapa": "HOLANDA",
+   "say": "Foi em mil setecentos e oitenta e quatro. A Holanda mantinha o rio Escalda fechado aos navios estrangeiros.",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_fragata",
+     14,
+     -34,
+     1.0
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 6,
+   "cz": -14,
+   "h": 3.5,
+   "d0": 24,
+   "d1": 20,
+   "quadro_manual": true
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "IMP:0:angry",
+    "GEN:0:nervous"
+   ],
+   "acao": "discutir",
+   "say": "O imperador José Segundo, da Áustria, queria o rio aberto para os navios de Antuérpia."
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "IMP:0:shout"
+   ],
+   "say": "Convencido de que os holandeses não reagiriam, ele mandou três navios descerem o rio.",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_fragata",
+     -34,
+     -46,
+     1.0
+    ],
+    [
+     "kit/navio_fragata",
+     0,
+     -50,
+     1.0
+    ],
+    [
+     "kit/navio_fragata",
+     34,
+     -46,
+     1.0
+    ]
+   ],
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0,
+   "cz": -46,
+   "h": 14,
+   "d0": 74,
+   "d1": 66,
+   "quadro_manual": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "IMP:0:smug"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "3 NAVIOS",
+   "titulo": true,
+   "say": "O maior levava a bandeira do imperador e seguia na frente.",
+   "set": "harbor",
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 102.3,
+   "d1": 97.4
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MAR:0:stern",
+    "MAR:1:angry"
+   ],
+   "batalha": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "cannon",
+     -1.5,
+     -10.0,
+     2.4
+    ],
+    [
+     "kit/navio_fragata",
+     8,
+     -46,
+     1.0
+    ]
+   ],
+   "fx": [
+    "burst@105",
+    "puff@110"
+   ],
+   "sfx": [
+    "cannon@105"
+   ],
+   "say": "Acontece que o navio de guerra holandês Dolfijn estava esperando, e disparou um único tiro.",
+   "fachada": false,
+   "detalhe": true,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.5 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "tiros": false,
+   "cx": 0,
+   "cz": -22,
+   "h": 6.0,
+   "d0": 46,
+   "d1": 40,
+   "quadro_manual": true,
+   "impact": false,
+   "_auto_vis": 3
+  },
+  {
+   "shot": "two",
+   "who": [
+    "IMP:0:surprised",
+    "COZ:0:scared"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     0.0,
+     1.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@50",
+    "puff@55"
+   ],
+   "sfx": [
+    "thump@55",
+    "ding@58"
+   ],
+   "say": "A bala acertou e destruiu uma chaleira de sopa no convés do navio do imperador.",
+   "detalhe": false,
+   "impact": true,
+   "batalha": false,
+   "tiros": false,
+   "fachada": false,
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "d0": 9.5,
+   "d1": 8.5,
+   "_auto_vis": 0,
+   "interior": "madeira"
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "GEN:0:scared:flag"
+   ],
+   "say": "O navio austríaco se rendeu na hora, sem trocar nem um tiro a mais.",
+   "props": [
+    [
+     "kit/navio_fragata",
+     0.0,
+     -18.2,
+     7.06,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "set": "harbor",
+   "impact": true,
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o navio_fragata (alvo z -8.2, camera a 97.4 m, altura 6.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/navio_fragata",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -8.2,
+   "h": 6.0,
+   "d0": 102.3,
+   "d1": 97.4
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "IMP:0:sad",
+    "HOL:0:smug:money"
+   ],
+   "interacao": "entregar",
+   "say": "Depois, a França mediou a paz, em mil setecentos e oitenta e cinco. O rio continuou fechado, e a Holanda pagou uma indenização.",
+   "light": "day"
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COZ:0:sad"
+   ],
+   "props": [
+    [
+     "kit/kettle",
+     2.4,
+     0.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "O único prejuízo do dia foi o almoço.",
+   "quadro": {
+    "local": "sala de madeira",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e kettle juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/kettle",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "interior": "madeira",
+   "detalhe": true,
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "visual": {
+  "local": "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e República Holandesa; margens baixas, forte de Lillo e rio largo",
+  "quando": "8 de outubro de 1784, dia claro de outono",
+  "participantes": [
+   "imperador José II da Áustria (casaca clara com faixa vermelha)",
+   "oficiais e marinheiros austríacos de farda clara e azul",
+   "marinheiros holandeses de casaca laranja e calça azul",
+   "cozinheiro do navio de avental e touca branca"
+  ],
+  "roupas": {
+   "IMP": "casaca clara com faixa vermelha e coroa",
+   "AUS": "farda clara, calça azul-acinzentada e shako",
+   "HOL": "casaca laranja, calça azul e boina",
+   "COZ": "touca e avental claros de cozinheiro"
+  },
+  "cenario": "rio largo com margens baixas, porto de Antuérpia e navio de guerra holandês Dolfijn contra o navio mercante Le Louis, com a bandeira do imperador",
+  "objetos": [
+   "chaleira de sopa",
+   "canhão de bordo",
+   "navio mercante Le Louis",
+   "navio de guerra Dolfijn",
+   "bandeira imperial"
+  ],
+  "explicacoes": [
+   "O Escalda estava fechado aos navios desde 1585 e a Paz de Vestfália confirmou isso em 1648 (fonte: Wikipedia Kettle War)",
+   "Só um tiro foi disparado e acertou uma chaleira de sopa; o Le Louis se rendeu e o Tratado de Fontainebleau (1785) manteve o rio fechado, com a Holanda pagando compensação de 2 milhões de florins (outras fontes dizem 10) (fonte: Wikipedia Kettle War)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kettle_War",
+   "https://commons.wikimedia.org/wiki/Category:Kettle_War"
+  ],
+  "buscas": {
+   "A Guerra da Chaleira": "Kettle War 1784 Dolfijn Le Louis Scheldt",
+   "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R": "Antwerp Scheldt river 18th century painting ships",
+   "Holanda": "Dutch Republic 18th century harbor painting",
+   "imperador José II da Áustria (casaca clara com faixa vermelha)": "Joseph II Holy Roman Emperor portrait 18th century",
+   "oficiais e marinheiros austríacos de farda clara e azul": "Austrian infantry uniform 1780s",
+   "marinheiros holandeses de casaca laranja e calça azul": "Dutch navy sailors 18th century uniform",
+   "cozinheiro do navio de avental e touca branca": "ship cook 18th century galley painting",
+   "chaleira de sopa": "18th century iron soup kettle cauldron",
+   "canhão de bordo": "18th century ship cannon deck",
+   "navio mercante Le Louis": "Dutch brig 1780s ship painting",
+   "navio de guerra Dolfijn": "Dutch schooner 18th century warship 1784",
+   "bandeira imperial": "Holy Roman Empire imperial flag double-headed eagle",
+   "kettle": "18th century iron soup kettle cauldron",
+   "navio da epoca": "18th century sailing ship brig painting"
+  },
+  "referencias": {
+   "Rio Escalda (Scheldt), entre Antuérpia e a Holanda, Países Baixos austríacos e R": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "imperador José II da Áustria (casaca clara com faixa vermelha)": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "oficiais e marinheiros austríacos de farda clara e azul": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "marinheiros holandeses de casaca laranja e calça azul": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "cozinheiro do navio de avental e touca branca": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "chaleira de sopa": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "canhão de bordo": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "navio mercante Le Louis": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "navio de guerra Dolfijn": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "bandeira imperial": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa",
+   "kettle": "gravura de 1784 do Rijksmuseum (RP-P-OB-85.344): escuna holandesa Dolfijn atirando no brigue imperial Le Louis, ambos a vela, no Escalda, perto de Lillo (https://en.wikipedia.org/wiki/Kettle_War); roupas e objetos seguem a pesquisa escrita (Kettle War, Wikipedia): bandeira do imperador do Sacro Império, casacas claras austríacas, casacas laranja holandesas, chaleira de ferro de sopa"
+  }
+ },
+ "marco": false,
+ "max_wide": 5
+}

@@ -1,0 +1,208 @@
+{
+ "id": "toledo1835",
+ "ano": 1835,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "OHI"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/canivete_aberto"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Dois estados foram à guerra, e o único ferido levou uma canivetada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E quem perdeu a guerra ficou rico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/mapa_antigo"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Ohio e Michigan disputavam Toledo por um mapa errado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "O governador de Michigan, de 23 anos, ocupou Toledo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "OHI",
+    "MIC"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Ohio mandou sua milícia, e as tropas se encararam.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "OHI"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "Teve tiro para o alto, mas ninguém acertou ninguém.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "RAP",
+    "XER"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/canivete_aberto"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "O único ferido: um xerife, esfaqueado numa taverna.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "OHI",
+    "MIC",
+    "GOV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Ohio levou Toledo. Michigan, uma floresta gelada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GOV",
+    "MIC"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/minerio",
+    "nature/bush",
+    "nature/tree_oak",
+    "nature/tree_pine"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Acontece que debaixo da floresta havia cobre e ferro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "jungle"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "OHI"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/canivete_aberto"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Michigan perdeu e ficou rico. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

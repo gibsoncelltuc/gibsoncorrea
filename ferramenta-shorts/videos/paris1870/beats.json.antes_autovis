@@ -1,0 +1,603 @@
+{
+ "title": "O Cardápio do Zoológico",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "PAR": {
+   "jacket": "#6a5a7a",
+   "pants": "#3b3f52",
+   "boots": "#4a3426",
+   "hats": [
+    "bowler",
+    "tophat",
+    "kepi"
+   ],
+   "cap": "#2a2a3a",
+   "moustache_on": "#3a2a1f"
+  },
+  "BUT": {
+   "jacket": "#f1efe6",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "slouch",
+   "cap": "#3a2a1f",
+   "moustache_on": "#3a2a1f",
+   "build": "stout"
+  },
+  "CHF": {
+   "jacket": "#f1efe6",
+   "pants": "#2a2f3a",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "PAR:0:nervous",
+    "PAR:1:pained"
+   ],
+   "tat": 0,
+   "tstyle": "blue",
+   "props": [
+    [
+     "kit/bife_elefante",
+     0.0,
+     -0.6,
+     1.6,
+     {
+      "nocol": true,
+      "fixo": true,
+      "y": 0.9
+     }
+    ],
+    [
+     "mk/Table_Large",
+     0.0,
+     -0.6,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "cx": 0.0,
+   "cz": -0.4,
+   "d0": 11.5,
+   "d1": 10.0,
+   "quadro_manual": true,
+   "shot_lock": true,
+   "bloco": "gancho",
+   "say": "Paris já serviu elefante no jantar de Natal.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "elefante"
+     }
+    ]
+   },
+   "text": "ELEFANTE NO JANTAR",
+   "titulo": true,
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CHF:0:grin",
+    "PAR:2:shock"
+   ],
+   "tat": 3,
+   "tstyle": "brown",
+   "interior": "loja",
+   "props": [
+    [
+     "kit/bife_elefante",
+     0.0,
+     -1.2,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "bloco": "promessa",
+   "say": "E no cardápio tinha até canguru e lobo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "canguru"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "text": "CANGURU E LOBO",
+   "placa": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "reveal",
+   "mapa": "FRANÇA",
+   "who": [
+    "PAR:0:nervous",
+    "PAR:1:sad"
+   ],
+   "bloco": "prova",
+   "say": "Em 1870, a Prússia cercou Paris, e a comida acabou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cercou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAR:2:pained",
+    "PAR:3:nervous"
+   ],
+   "animals": [
+    [
+     "dog",
+     1.6,
+     1.2,
+     "stand",
+     1.1
+    ],
+    [
+     "cat",
+     -1.8,
+     1.0,
+     "stand",
+     1.0
+    ]
+   ],
+   "text": "CAVALOS, CÃES, GATOS",
+   "tat": 5,
+   "tstyle": "brown",
+   "shot_lock": true,
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "prova",
+   "say": "Primeiro comeram os cavalos. Depois, cachorros e gatos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comeram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAR:0:shock",
+    "CHF:0:grin"
+   ],
+   "props": [
+    [
+     "barrel",
+     2.4,
+     0.8,
+     1.1
+    ],
+    [
+     "kit/panela",
+     7.0,
+     -14.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rato",
+     0.6,
+     1.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ],
+    [
+     "kit/rato",
+     3.6,
+     -2.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "RATOS",
+   "tat": 3,
+   "tstyle": "red",
+   "set": "street",
+   "detalhe": true,
+   "bloco": "prova",
+   "say": "Depois os roedores, que viraram prato chique.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "roedores"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e rato juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/panela",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/rato",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "PAR:1:nervous",
+    "PAR:3:nervous"
+   ],
+   "animals": [
+    [
+     "elephant",
+     3.0,
+     -2.6,
+     "stand",
+     0.9
+    ],
+    [
+     "deer",
+     -3.2,
+     -2.2,
+     "stand",
+     1.0
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Quando acabou tudo, olharam para o zoológico.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "zoológico"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUT:0:grin",
+    "PAR:0:shock"
+   ],
+   "text": "CASTOR E PÓLUX",
+   "tat": 6,
+   "tstyle": "gold",
+   "animals": [
+    [
+     "elephant",
+     3.2,
+     -2.4,
+     "stand",
+     0.9
+    ],
+    [
+     "elephant",
+     -3.4,
+     -2.8,
+     "stand",
+     0.85
+    ]
+   ],
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "Acontece que um açougueiro comprou os elefantes Castor e Pólux.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comprou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "CHF:0:grin",
+    "PAR:2:shock"
+   ],
+   "text": "NATAL DE 1870",
+   "tat": 3,
+   "tstyle": "brown",
+   "interior": "loja",
+   "props": [
+    [
+     "kit/bife_elefante",
+     0.6,
+     1.0,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "detalhe": true,
+   "bloco": "escalada",
+   "say": "No Natal, um restaurante serviu consomê de elefante.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "serviu"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "fachada": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "CHF:0:grin",
+    "PAR:0:sad"
+   ],
+   "text": "SÓ PARA OS RICOS",
+   "tat": 6,
+   "tstyle": "gold",
+   "set": "street",
+   "props": [
+    [
+     "kit/bife_elefante",
+     0.0,
+     -1.2,
+     2.2,
+     {
+      "nocol": true,
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "pagamento",
+   "say": "Só os ricos podiam pagar esse luxo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ricos"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e bife_elefante juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/bife_elefante",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "PAR:0:surprised",
+    "PAR:1:shock"
+   ],
+   "props": [],
+   "crowd": {
+    "n": 10,
+    "march": false,
+    "expr": "sad"
+   },
+   "set": "street",
+   "bloco": "pagamento",
+   "say": "O povo fazia fila no frio por comida racionada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fila"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "PAR:2:pained",
+    "PAR:0:sad"
+   ],
+   "light": "dusk",
+   "text": "PARIS SE RENDEU",
+   "tat": 10,
+   "tstyle": "white",
+   "props": [
+    [
+     "kit/panela",
+     0.0,
+     -1.2,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "set": "street",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "quem": 0,
+      "alvo": "prato",
+      "na": "comida"
+     }
+    ]
+   },
+   "bloco": "loop",
+   "say": "Na fome, até bicho de zoológico vira comida. Foi assim que...",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e panela juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/panela",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "heroi": "kit/bife_elefante",
+ "regiao": "franca",
+ "visual": {
+  "local": "Paris sitiada: bulevares de Haussmann com predios de pedra clara, lampioes a gas; Jardin des Plantes (zoologico); restaurante Voisin (salao elegante)",
+  "quando": "19 de setembro de 1870 a 28 de janeiro de 1871 (Natal de 1870 com neve e frio forte)",
+  "participantes": [
+   "parisienses famintos",
+   "Guarda Nacional de quepe",
+   "o acougueiro Deboos da Boucherie Anglaise",
+   "o chef do Cafe Voisin",
+   "os elefantes Castor e Polux"
+  ],
+  "roupas": {
+   "PAR": "parisienses de 1870: casaco, cartola, chapeu-coco ou quepe da Guarda Nacional",
+   "BUT": "acougueiro de avental branco",
+   "CHF": "dono de restaurante de fraque e cartola"
+  },
+  "cenario": "rua de Paris com neve no inverno, fila no acougue, zoologico com os elefantes, salao de restaurante, baloes subindo com noticias",
+  "objetos": [
+   "panelas e o cardapio do Natal",
+   "carne de elefante no acougue",
+   "baloes de gas",
+   "pombos-correio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)",
+   "https://en.wikipedia.org/wiki/Castor_and_Pollux_(elephants)"
+  ]
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 24,
+ "titulo_base": "O Cardápio do Zoológico",
+ "variar_cenario": false,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: Paris serviu elefante no jantar de Natal, com canguru e lobo. Pagamento: no cerco de 1870 a comida acabou, os elefantes Castor e Polux viraram consome para os ricos enquanto o povo passava fome.",
+ "loop_frase_ok": true,
+ "max_wide": 6
+}

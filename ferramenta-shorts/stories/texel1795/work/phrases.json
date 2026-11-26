@@ -1,0 +1,162 @@
+{
+ "duration": 35.808,
+ "frames30": 1074,
+ "source": "silence-align (cost 1.34)",
+ "segments": [
+  [
+   0.14975,
+   3.17738
+  ],
+  [
+   3.9395,
+   5.74879
+  ],
+  [
+   6.53029,
+   8.09108
+  ],
+  [
+   8.30158,
+   9.53854
+  ],
+  [
+   10.3365,
+   11.8314
+  ],
+  [
+   12.0395,
+   13.2165
+  ],
+  [
+   13.9809,
+   15.5296
+  ],
+  [
+   16.3178,
+   18.5002
+  ],
+  [
+   18.6843,
+   19.4808
+  ],
+  [
+   20.2592,
+   22.6353
+  ],
+  [
+   23.4223,
+   23.8691
+  ],
+  [
+   24.1148,
+   26.4899
+  ],
+  [
+   27.2713,
+   29.1454
+  ],
+  [
+   29.9487,
+   31.218
+  ],
+  [
+   32.0237,
+   32.6657
+  ],
+  [
+   32.883,
+   33.5735
+  ],
+  [
+   34.3404,
+   35.0828
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma frota de navios de guerra foi capturada por soldados a cavalo.",
+   "s": 0.15,
+   "e": 3.177
+  },
+  {
+   "text": "E nenhum dos lados precisou dar um tiro.",
+   "s": 3.939,
+   "e": 5.749
+  },
+  {
+   "text": "Em 1795,",
+   "s": 6.53,
+   "e": 8.091
+  },
+  {
+   "text": "a Fran\u00e7a invadia a Holanda.",
+   "s": 8.302,
+   "e": 9.539
+  },
+  {
+   "text": "A frota holandesa estava parada,",
+   "s": 10.336,
+   "e": 11.831
+  },
+  {
+   "text": "e o mar congelou em volta.",
+   "s": 12.04,
+   "e": 13.216
+  },
+  {
+   "text": "Os navios ficaram presos no gelo.",
+   "s": 13.981,
+   "e": 15.53
+  },
+  {
+   "text": "O chefe da cavalaria francesa teve uma ideia:",
+   "s": 16.318,
+   "e": 18.5
+  },
+  {
+   "text": "atacar a cavalo.",
+   "s": 18.684,
+   "e": 19.481
+  },
+  {
+   "text": "Mas ningu\u00e9m sabia se o gelo aguentaria os cavalos.",
+   "s": 20.259,
+   "e": 22.635
+  },
+  {
+   "text": "De noite,",
+   "s": 23.422,
+   "e": 23.869
+  },
+  {
+   "text": "os hussardos cruzaram o gelo com panos nos cascos.",
+   "s": 24.115,
+   "e": 26.49
+  },
+  {
+   "text": "Acontece que os holandeses nem lutaram.",
+   "s": 27.271,
+   "e": 29.145
+  },
+  {
+   "text": "A frota inteira se rendeu.",
+   "s": 29.949,
+   "e": 31.218
+  },
+  {
+   "text": "Cavalaria um,",
+   "s": 32.024,
+   "e": 32.666
+  },
+  {
+   "text": "marinha zero.",
+   "s": 32.883,
+   "e": 33.574
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 34.34,
+   "e": 35.083
+  }
+ ]
+}

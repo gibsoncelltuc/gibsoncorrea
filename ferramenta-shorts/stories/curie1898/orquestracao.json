@@ -1,0 +1,213 @@
+{
+ "id": "curie1898",
+ "ano": 1898,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Os cadernos de Marie Curie só podem ser lidos com proteção.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PES"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "E vão continuar radioativos por mais de mil anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_eiffel"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em Paris, ela trabalhava num galpão gelado com o marido Pierre.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/pechblenda"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Mexia toneladas de minério com uma barra de ferro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box",
+    "kit/pechblenda"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Assim descobriram dois elementos novos: polônio e rádio.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "O rádio brilhava no escuro, e ela adorava olhar.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/curie_box (gira)",
+    "emissao": "brilho",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/frasco"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Ela andava com frascos no bolso, sem saber do perigo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAR",
+    "PIE"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Acontece que a radiação destruiu a saúde dela.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "crate",
+    "kit/curie_box"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Hoje, os cadernos dormem em caixas de chumbo em Paris.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/curie_box"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Quem quiser ler, precisa de autorização. É por isso que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  }
+ ]
+}

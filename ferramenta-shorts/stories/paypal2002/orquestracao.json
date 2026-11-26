@@ -1,0 +1,243 @@
+{
+ "id": "paypal2002",
+ "ano": 2002,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 1",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 2",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 4",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 9",
+   "street",
+   "loc_cidade"
+  ],
+  [
+   "cena 10",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/rocket"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Os foguetes da SpaceX nasceram de um site de pagamento.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/roadster2008",
+    "kit/rocket",
+    "kit/tv"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E tudo começou com um jeito de mandar dinheiro por e-mail.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/computador_2002",
+    "kit/tv"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "O PayPal deixava mandar dinheiro só com um e-mail.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "EBY",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Em 2002, o eBay comprou o PayPal.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Preço: um bilhão e meio de dólares, em ações.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Elon Musk era o maior acionista. Ficou rico de repente.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Acontece que, no mesmo ano, ele tinha fundado a SpaceX.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster2008"
+   ],
+   "palavras": 6,
+   "cena": "b7",
+   "frase": "Dois anos depois, investiu na Tesla.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/roadster2008",
+    "kit/rocket"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "EBY"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/coin",
+    "kit/rocket"
+   ],
+   "palavras": 12,
+   "cena": "b9",
+   "frase": "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

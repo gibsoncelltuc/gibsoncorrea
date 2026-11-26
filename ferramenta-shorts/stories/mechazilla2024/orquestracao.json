@@ -1,0 +1,224 @@
+{
+ "id": "mechazilla2024",
+ "ano": 2024,
+ "cenarios_trocados": [
+  [
+   "cena 5",
+   "outback",
+   "loc_deserto"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch",
+    "kit/tower_mini"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um foguete gigante foi agarrado no ar por uma torre com braços.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower_catch",
+    "kit/tower_mini"
+   ],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Parece filme de robô. Mas é engenharia de verdade.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/tower"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foi em 2024, na base da SpaceX, no Texas.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/booster_air"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "A parte de baixo do foguete costumava ir para o lixo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "A ideia: a torre agarra o propulsor na volta.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/tower_catch (parado)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch"
+   ],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Os engenheiros chamaram a torre de Mechazilla.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/booster_air"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "O propulsor decolou com trinta e três motores.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/booster_air"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Minutos depois, voltou descendo de ré, direto na torre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower",
+    "kit/tower_catch"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Acontece que, no último segundo, os braços se fecharam e seguraram.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tower_catch",
+    "kit/tower_mini"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Primeira vez na história. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  }
+ ]
+}

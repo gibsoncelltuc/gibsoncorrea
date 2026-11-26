@@ -1,0 +1,117 @@
+{
+ "id": "newton1666",
+ "ano": 1666,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Newton e a Maçã",
+   "consultas": [
+    "Newton e a Maçã",
+    "Uma Newton Ela Lua Em Cambridge 1666"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar co",
+   "consultas": [
+    "Woolsthorpe Manor Lincolnshire Inglaterra",
+    "Woolsthorpe Manor Lincolnshire Inglaterra 1666"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Inglaterra",
+   "consultas": [
+    "Inglaterra 1666",
+    "Inglaterra landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1666",
+   "consultas": [
+    "1666 fashion clothing",
+    "17th century clothing painting"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)",
+   "consultas": [
+    "Isaac Newton jovem 23 anos cabelo comprido casaca simples",
+    "Isaac Newton jovem 23 anos cabelo comprido casaca simples 1666"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "a mae Hannah",
+   "consultas": [
+    "a mae Hannah",
+    "a mae Hannah 1666"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "William Stukeley (amigo, anos depois)",
+   "consultas": [
+    "William Stukeley amigo anos depois",
+    "William Stukeley amigo anos depois 1666"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "maca vermelha",
+   "consultas": [
+    "maca vermelha",
+    "maca vermelha 1666"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "macieira",
+   "consultas": [
+    "macieira",
+    "macieira 1666"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "livros e penas de escrever",
+   "consultas": [
+    "livros e penas de escrever",
+    "livros e penas de escrever 1666"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "apple",
+   "consultas": [
+    "maca vermelha",
+    "Newton e a Maçã"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "lua ceu",
+   "consultas": [
+    "lua ceu"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "fazenda da epoca",
+   "consultas": [
+    "farm 1666",
+    "farm"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Se a força puxa a maçã, puxa a Lua também?",
+   "consultas": [
+    "forca tambem",
+    "lua ceu diagram"
+   ]
+  }
+ ]
+}

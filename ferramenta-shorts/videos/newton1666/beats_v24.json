@@ -1,0 +1,480 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+7%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 1,
+ "title": "Newton e a Maçã",
+ "titulo_base": "Newton e a Maçã",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/apple",
+ "outfits": {
+  "NEW": {
+   "jacket": "#5a4632",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#cfc7b8"
+  },
+  "AMI": {
+   "jacket": "#3b6fb5",
+   "pants": "#2d3550",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "LAV": {
+   "jacket": "#8a6a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "MAE": {
+   "jacket": "#7a3f5a",
+   "pants": "#4a2a3a",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "cap": "#e8dcc0",
+   "build": "stout"
+  },
+  "EST": {
+   "jacket": "#18181c",
+   "pants": "#18181c",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6b4a2a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "slouch",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "say": "Uma única maçã ajudou a explicar por que a Lua não cai na nossa cabeça.",
+   "shot": "group",
+   "who": [
+    "NEW:0:smile:apple"
+   ],
+   "props": [
+    [
+     "kit/lua_ceu",
+     2.0,
+     -10.0,
+     1.4,
+     {
+      "fixo": true,
+      "y": 6.0
+     }
+    ]
+   ],
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano de grupo (3+ pessoas); plano medio enquadrando personagens e moon juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/moon",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Lua"
+     }
+    ]
+   },
+   "detalhe": false,
+   "set": "loc_campo",
+   "moveis": [],
+   "cx": 0.8,
+   "cz": -2.0,
+   "d0": 10.0,
+   "d1": 8.5,
+   "hora": "pordosol",
+   "quadro_manual": true,
+   "h": 1.6
+  },
+  {
+   "say": "Era mil seiscentos e sessenta e seis, e a peste fechou a universidade de Cambridge.",
+   "shot": "two",
+   "who": [
+    "EST:0:scared"
+   ],
+   "crowd": {
+    "n": 10,
+    "outfits": [
+     "POV"
+    ],
+    "march": true,
+    "expr": "scared"
+   },
+   "mapa": "INGLATERRA",
+   "mapa_at": 2,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Cambridge"
+     }
+    ]
+   },
+   "set": "medieval",
+   "text": "CAMBRIDGE FECHADA",
+   "tstyle": "red"
+  },
+  {
+   "say": "Um rapaz de vinte e três anos, Isaac Newton, voltou para a fazenda da mãe.",
+   "shot": "two",
+   "who": [
+    "NEW:0:smile:bag",
+    "MAE:0:smile"
+   ],
+   "chega": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "voltou",
+      "quem": 0
+     }
+    ]
+   },
+   "set": "countryside",
+   "fachada": true
+  },
+  {
+   "say": "Ele passava os dias debaixo de uma macieira, pensando em como as coisas se mexem.",
+   "shot": "two",
+   "who": [
+    "NEW:0:neutral:book",
+    "AMI:1:suspicious"
+   ],
+   "props": [
+    [
+     "nature/tree_oak",
+     -2.2,
+     -1.6,
+     1.4
+    ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pensa",
+      "na": "pensando",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "say": "Acontece que, numa tarde, uma maçã se soltou do galho e caiu bem na frente dele.",
+   "shot": "two",
+   "who": [
+    "NEW:0:surprised",
+    "AMI:0:shock"
+   ],
+   "impact": true,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "nature/tree_oak",
+     -2.4,
+     -2.0,
+     1.4
+    ],
+    [
+     "kit/apple",
+     0.2,
+     0.9,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "burst@40",
+    "stars@60"
+   ],
+   "sfx": [
+    "thump@40",
+    "ding@60"
+   ],
+   "_susp_ok": true,
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "cai",
+      "na": "caiu"
+     }
+    ]
+   },
+   "cx": 0.2,
+   "cz": 0.0,
+   "d0": 8.0,
+   "d1": 7.0,
+   "quadro_manual": true,
+   "h": 1.3
+  },
+  {
+   "say": "Ela não caiu na cabeça dele, isso é lenda. Ele só se perguntou por que ela cai sempre para baixo.",
+   "shot": "two",
+   "who": [
+    "NEW:0:suspicious"
+   ],
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "perguntou",
+      "quem": 0
+     }
+    ]
+   },
+   "set": "countryside",
+   "props": [
+    [
+     "nature/tree_oak",
+     -2.2,
+     -1.6,
+     1.4
+    ],
+    [
+     "kit/apple",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "ring@40"
+   ],
+   "text": "PARA BAIXO",
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "say": "Se a força puxa a maçã lá do galho, será que ela também puxa a Lua, lá no céu?",
+   "shot": "two",
+   "who": [],
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Lua"
+     }
+    ]
+   },
+   "props": [
+    [
+     "kit/lua_ceu",
+     0.0,
+     -1.0,
+     1.0,
+     {
+      "fixo": true,
+      "y": 0.6
+     }
+    ]
+   ],
+   "explica": {
+    "objeto": "kit/lua_ceu",
+    "manobra": "parado",
+    "passos": [
+     "TERRA PUXA A MAÇÃ",
+     "TERRA PUXA A LUA",
+     "MESMA FORÇA"
+    ]
+   },
+   "shot_lock": true
+  },
+  {
+   "say": "A resposta virou a lei da gravidade, publicada em mil seiscentos e oitenta e sete.",
+   "shot": "two",
+   "who": [
+    "NEW:0:smug:book"
+   ],
+   "impact": true,
+   "text": "PRINCIPIA - 1687",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "gravidade"
+     }
+    ]
+   },
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": 0.0,
+   "h": 1.5,
+   "d0": 7.0,
+   "d1": 6.5
+  },
+  {
+   "say": "Anos depois, ele mesmo contou essa história a um amigo.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "NEW:0:smile:mug",
+    "AMI:1:smile"
+   ],
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "contou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "say": "No fim, a maçã mudou a ciência e nem foi comida.",
+   "shot": "two",
+   "who": [
+    "NEW:0:smug"
+   ],
+   "props": [
+    [
+     "kit/apple",
+     2.4,
+     0.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "explica": false,
+   "quadro": {
+    "local": "loc_campo",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e apple juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/apple",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": true,
+   "_enq_shot": "two",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maçã"
+     }
+    ]
+   },
+   "set": "loc_campo",
+   "moveis": [],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  }
+ ],
+ "visual": {
+  "local": "Woolsthorpe Manor, Lincolnshire, Inglaterra: casa de pedra da fazenda e pomar com macieira; Cambridge fechada pela peste",
+  "quando": "1665-1666, verao, tarde",
+  "participantes": [
+   "Isaac Newton jovem (23 anos, cabelo comprido, casaca simples)",
+   "a mae Hannah",
+   "William Stukeley (amigo, anos depois)"
+  ],
+  "roupas": {
+   "NEW": "casaca marrom simples do seculo 17, camisa branca, cabelo comprido",
+   "MAE": "vestido escuro e touca",
+   "AMI": "casaca e peruca",
+   "LAV": "roupa de camponeses ingleses"
+  },
+  "cenario": "fazenda inglesa de pedra calcaria, pomar com macieira, campo verde; sala com lareira",
+  "objetos": [
+   "maca vermelha",
+   "macieira",
+   "livros e penas de escrever"
+  ],
+  "explicacoes": [
+   "Newton voltou a Woolsthorpe durante a peste (1665-66); segundo William Stukeley, a queda de uma maca o fez pensar na gravidade alcancando a Lua; publicou os Principia em 1687 (fonte: Wikipedia Isaac Newton's apple tree)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Woolsthorpe_Manor",
+   "https://en.wikipedia.org/wiki/Isaac_Newton%27s_apple_tree"
+  ],
+  "buscas": {
+   "casa": "Woolsthorpe Manor apple tree",
+   "maca": "red apple on branch"
+  }
+ },
+ "max_wide": 3,
+ "cinf": 4.5,
+ "exp": 1.12
+}

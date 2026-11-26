@@ -1,0 +1,209 @@
+{
+ "id": "falcon2015",
+ "ano": 2015,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E hoje isso virou rotina no mundo inteiro.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Elon Musk queria reaproveitar foguetes. Muitos achavam impossível.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 6,
+   "cena": "b3",
+   "frase": "As primeiras tentativas tombaram no mar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Em 2015, o Falcon 9 decolou com onze satélites.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Depois de soltar o topo, a parte de baixo voltou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Acontece que ela desceu de ré, com o motor freando a queda.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/falcon9_land (sobe)",
+    "emissao": "jato",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "E pousou inteira, abrindo as pernas no último segundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ENA",
+    "ENG"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Os funcionários da SpaceX comemoraram e se abraçaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Antes, o foguete ia para o lixo. Até que...",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "goodyear1839",
+ "titulo": "Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão",
+ "ancoras": {
+  "ano": 1839,
+  "era": "historica",
+  "regiao": "europa",
+  "luz_base": "day",
+  "cenarios": [
+   "interior galpao",
+   "interior madeira",
+   "loc_estudio",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/bola_couro",
+  "kit/borracha",
+  "kit/gosma",
+  "kit/room_azul_wood",
+  "kit/room_europa_wood",
+  "kit/room_galpao",
+  "kit/room_rosa_wood",
+  "kit/stove",
+  "kit/tires",
+  "mk/Barrel",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/CandleStick_Triple",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Metal",
+  "mk/Crate_Wooden",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois",
+  "quando": "inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas",
+  "participantes": [
+   "Charles Goodyear, inventor falido",
+   "Clarissa, a esposa",
+   "credores e guardas da prisao de devedores",
+   "concorrentes que copiaram a ideia"
+  ],
+  "roupas": {
+   "GOO": "sobrecasaca escura, colete, cartola (anos 1830)",
+   "CLA": "vestido longo e coque",
+   "GUA": "guarda de prisao com bone de servico",
+   "COB": "cobrador de terno",
+   "POV": "povo dos anos 1830"
+  },
+  "cenario": "cozinha com fogao de ferro a lenha e panelas, cela de pedra, sala de tribunal, rua de vila americana",
+  "objetos": [
+   "borracha crua (gosma)",
+   "enxofre",
+   "fogao de ferro quente",
+   "panelas",
+   "pneus e bolas de borracha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Charles_Goodyear",
+   "https://en.wikipedia.org/wiki/Vulcanization"
+  ],
+  "buscas": {
+   "A Borracha que Caiu no Fogão": "Charles Goodyear vulcanization",
+   "credores e guardas da prisao de devedores": "debtors prison interior engraving",
+   "concorrentes que copiaram a ideia": "Goodyear India rubber patent",
+   "borracha crua (gosma)": "natural rubber latex raw",
+   "fogao de ferro quente": "antique cast iron cook stove",
+   "pneus e bolas de borracha": "vulcanized rubber ball antique",
+   "borracha": "natural rubber",
+   "panelas": "19th century iron cooking pot",
+   "Clarissa, a esposa": "1830s woman dress portrait",
+   "Estados Unidos": "New England village 1830s",
+   "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois": "Woburn Massachusetts 19th century",
+   "stove": "antique cast iron cook stove"
+  },
+  "explicacoes": [
+   "Borracha natural crua amolece e fica pegajosa no calor e endurece e racha no frio; aquecida com enxofre (vulcanizacao) as cadeias do polimero se ligam e ela fica firme e elastica em qualquer temperatura (Charles Goodyear, patente americana 3633, 1844; Smithsonian/ACS National Historic Chemical Landmark)."
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

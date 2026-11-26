@@ -1,0 +1,348 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 10,
+ "title": "A Pia no Twitter",
+ "titulo_base": "A Pia no Twitter",
+ "set": "street",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/sink",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "X"
+  },
+  "FUN": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "FUN2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "who": [
+    "MUS:0:grin",
+    "FUN:0:shock"
+   ],
+   "shot": "two",
+   "props": [
+    [
+     "kit/sink",
+     0.0,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_cidade",
+   "bloco": "gancho",
+   "say": "Um bilionário entrou carregando uma pia na empresa que estava comprando.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "carregando"
+     }
+    ]
+   },
+   "text": "LET THAT SINK IN",
+   "titulo": true
+  },
+  {
+   "who": [
+    "FUN:0:laugh",
+    "FUN2:0:laugh"
+   ],
+   "shot": "crowd",
+   "props": [],
+   "set": "loc_cidade",
+   "crowd": {
+    "n": 14,
+    "outfits": [
+     "FUN",
+     "FUN2"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "bloco": "promessa",
+   "say": "E a pia era uma piada de 44 bilhões de dólares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "piada"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:smile",
+    "FUN2:0:surprised"
+   ],
+   "shot": "two",
+   "props": [
+    [
+     "kit/sink",
+     0.0,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interior": "pedra",
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "bloco": "prova",
+   "say": "Foi Elon Musk, em 2022, na sede do Twitter.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Twitter"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:smug",
+    "FUN:0:surprised"
+   ],
+   "shot": "two",
+   "props": [],
+   "interior": "loja",
+   "text": "LET THAT SINK IN",
+   "bloco": "prova",
+   "say": "A legenda era um trocadilho em inglês.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "trocadilho"
+     }
+    ]
+   }
+  },
+  {
+   "who": [],
+   "shot": "two",
+   "props": [],
+   "explica": {
+    "objeto": "kit/sink",
+    "manobra": "gira",
+    "rotulos": [
+     [
+      "SINK = PIA",
+      "topo",
+      "pia"
+     ],
+     [
+      "SINK = AFUNDAR",
+      "meio",
+      "afundar"
+     ]
+    ]
+   },
+   "bloco": "prova",
+   "say": "Sink quer dizer pia e também afundar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sink"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:laugh",
+    "FUN:0:shock"
+   ],
+   "shot": "two",
+   "props": [],
+   "interior": "madeira",
+   "impact": true,
+   "hud": {
+    "contador": {
+     "de": 0,
+     "para": 44,
+     "un": "bilhões de dólares",
+     "na": "quarenta",
+     "dur": 1.0
+    }
+   },
+   "bloco": "escalada",
+   "say": "Acontece que, no dia seguinte, o Twitter virou dele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Acontece"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:stern",
+    "FUN:0:sad",
+    "FUN2:0:shock"
+   ],
+   "shot": "two",
+   "props": [],
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "No mesmo dia, demitiu o presidente e outros chefes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "demitiu"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:grin"
+   ],
+   "shot": "two",
+   "props": [
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interior": "loja",
+   "text": "CHIEF TWIT",
+   "bloco": "pagamento",
+   "say": "E mudou o próprio perfil para Chefe Twit.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mudou"
+     }
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:grin",
+    "FUN:0:shock"
+   ],
+   "shot": "two",
+   "props": [
+    [
+     "kit/sink",
+     0.0,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_cidade",
+   "bloco": "loop",
+   "say": "Uma piada com pia. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pia"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.0,
+ "regiao": "eua",
+ "visual": {
+  "local": "Sede do Twitter, Market Street, Sao Francisco (California): saguao moderno com o passaro azul",
+  "quando": "26 a 27 de outubro de 2022, dia",
+  "participantes": [
+   "Elon Musk (camiseta preta, sorrindo, carregando uma pia de porcelana branca)",
+   "funcionarios do Twitter",
+   "executivos (Parag Agrawal e outros)"
+  ],
+  "roupas": {
+   "MUS": "camiseta preta e calca jeans",
+   "FUN": "camisa casual com cracha",
+   "FUN2": "moletom e cracha"
+  },
+  "cenario": "saguao do Twitter com piso claro, paredes com o logo do passaro azul, cafeteria; rua do centro de Sao Francisco",
+  "objetos": [
+   "pia de banheiro de porcelana branca",
+   "celular filmando",
+   "logo do Twitter"
+  ],
+  "explicacoes": [
+   "Em 26/10/2022 Musk entrou na sede do Twitter com uma pia e escreveu \"Entering Twitter HQ - let that sink in\"; em 27/10 concluiu a compra por US$ 44 bilhoes e demitiu o CEO Parag Agrawal e outros executivos; mudou a bio para \"Chief Twit\" (fonte: Wikipedia Acquisition of Twitter by Elon Musk)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "interior pedra",
+   "interior loja",
+   "interior madeira"
+  ],
+  "buscas": {
+   "pia": "Elon Musk sink Twitter HQ October 2022"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um bilionario entrou carregando uma pia na empresa que comprava, e a pia era uma piada de 44 bilhoes. Pagamento: sink e' pia e afundar; no dia seguinte fechou a compra e demitiu os chefes.",
+ "loop_frase_ok": true
+}

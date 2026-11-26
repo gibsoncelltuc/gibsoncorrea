@@ -1,0 +1,233 @@
+{
+ "id": "kiska1943",
+ "ano": 1943,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "wide",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "Trinta e quatro mil soldados desembarcaram numa ilha sem nenhum inimigo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "OFF",
+    "USA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E mesmo assim, houve mortos nessa invasão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "USA",
+    "CAN",
+    "USA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/navio_vapor",
+    "vehicles/airplane"
+   ],
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Em 1943, a ilha de Kiska, no Alasca, estava com os japoneses.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "kit/aviao_ww2",
+    "kit/tanque_ww2",
+    "navio em movimento",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Americanos e canadenses chegaram com navios, aviões e tanques.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "USA"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/aviao_ww2",
+    "kit/canhao_moderno"
+   ],
+   "palavras": 6,
+   "cena": "b4",
+   "frase": "Bombardearam a ilha durante semanas inteiras.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "Acontece que os japoneses já tinham ido embora.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Saíram escondidos na neblina, semanas antes.",
+   "classe": "transicao",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "USA",
+    "CAN",
+    "USA"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "No nevoeiro, os Aliados atiraram uns nos outros.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "arctic"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "kit/navio_encouracado",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Mais de vinte soldados morreram, e um navio bateu numa mina.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "prop",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/dog_sit"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Na ilha inteira, só acharam alguns cachorros abandonados.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "USA",
+    "CAN"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "ship"
+   ],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Uma invasão contra cachorros. E foi assim que...",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

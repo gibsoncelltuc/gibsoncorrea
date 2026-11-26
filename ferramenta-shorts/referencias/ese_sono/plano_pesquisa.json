@@ -1,0 +1,94 @@
+{
+ "id": "ese_sono",
+ "ano": 1964,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "E Se Ninguém Precisasse Dormir?",
+   "consultas": [
+    "E Se Ninguém Precisasse Dormir?",
+    "Ninguém Mas Cidades 1964"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "cidade de hoje e San Diego, EUA (1964)",
+   "consultas": [
+    "cidade de hoje e San Diego EUA",
+    "cidade de hoje e San Diego EUA 1964 1964"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 1964",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1964",
+   "consultas": [
+    "1964 fashion clothing",
+    "1964 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Randy Gardner, estudante de 17 anos",
+   "consultas": [
+    "Randy Gardner estudante de 17 anos",
+    "Randy Gardner estudante de 17 anos 1964"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "cientistas",
+   "consultas": [
+    "cientistas",
+    "cientistas 1964"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "pessoas comuns",
+   "consultas": [
+    "pessoas comuns",
+    "pessoas comuns 1964"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cafe",
+   "consultas": [
+    "cafe",
+    "cafe 1964"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "relogio",
+   "consultas": [
+    "relogio",
+    "relogio 1964"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "cerebro (explicacao)",
+   "consultas": [
+    "cerebro",
+    "cerebro 1964"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "kettle",
+   "consultas": [
+    "cafe",
+    "E Se Ninguém Precisasse Dormir?"
+   ]
+  }
+ ]
+}

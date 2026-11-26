@@ -1,0 +1,210 @@
+{
+ "id": "semmelweis1847",
+ "ano": 1847,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "SEM",
+    "DIR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/wash_basin"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um médico pediu para os colegas lavarem as mãos e foi expulso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/wash_basin"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "Hoje é chamado de salvador das mães.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/maca",
+    "kit/marco_viena",
+    "kit/room_hospital"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 1847, no hospital de Viena, havia duas alas de parto.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAE",
+    "SEM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Na ala dos médicos, morriam muito mais mães, de febre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "KOL",
+    "SEM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Um colega se cortou numa autópsia e morreu de febre.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "SEM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que os médicos saíam das autópsias de mãos sujas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SEM",
+    "KOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/wash_basin"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Ele pôs cloro numa bacia e obrigou todos a lavar as mãos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "SEM",
+    "MAE",
+    "PAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_viena",
+    "kit/wash_basin"
+   ],
+   "palavras": 6,
+   "cena": "b7",
+   "frase": "As mortes caíram quase dez vezes.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "street"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "DIR",
+    "SEM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Mas os médicos se ofenderam e o expulsaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "SEM",
+    "DIR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/wash_basin"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Lavar as mãos virou insulto. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior hospital"
+  }
+ ]
+}

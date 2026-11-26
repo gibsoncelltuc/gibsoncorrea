@@ -1,0 +1,487 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 19,
+ "title": "A Guerra de Aroostook",
+ "titulo_base": "A Guerra de Aroostook",
+ "set": "arctic",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/logs",
+ "outfits": {
+  "AME": {
+   "profissao": "agricultor",
+   "jacket": "#2a5aa8",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#2a5aa8"
+  },
+  "CAN": {
+   "profissao": "agricultor",
+   "jacket": "#c9742a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#8a2a2a"
+  },
+  "MIL": {
+   "profissao": "soldado",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "ING": {
+   "profissao": "soldado",
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "GEN": {
+   "profissao": "general",
+   "jacket": "#1f3a8a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "bicorne",
+   "cap": "#1f3a8a"
+  },
+  "PRE": {
+   "profissao": "politico",
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat",
+   "tie": "#b0282f"
+  }
+ },
+ "beats": [
+  {
+   "shot": "group",
+   "set": "arctic",
+   "who": [
+    "AME:0:angry:axe",
+    "CAN:0:angry:axe"
+   ],
+   "props": [
+    [
+     "kit/logs",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "fachada": false,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Lenhadores quase começaram uma guerra entre dois países.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lenhadores"
+     }
+    ]
+   },
+   "text": "GUERRA DOS LENHADORES",
+   "titulo": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "AME:0:smile",
+    "AME:1:grin"
+   ],
+   "props": [],
+   "animals": [
+    [
+     "pig",
+     0.0,
+     1.3,
+     "stand",
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "interior": "loja",
+   "objetos": false,
+   "bloco": "promessa",
+   "say": "E essa guerra ganhou nome de comida.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "comida"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "set": "countryside",
+   "who": [
+    "AME:0:neutral",
+    "CAN:0:angry"
+   ],
+   "mapa": "MAINE",
+   "shot_lock": true,
+   "detalhe": false,
+   "mapa_at": 0.5,
+   "bloco": "prova",
+   "say": "Em 1838, o Maine e o Canadá inglês disputavam a fronteira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "set": "arctic",
+   "who": [
+    "AME:0:smug:axe",
+    "CAN:0:smug:axe"
+   ],
+   "acao": "discutir",
+   "fachada": false,
+   "props": [
+    [
+     "kit/logs",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Lenhadores dos dois lados cortavam as mesmas árvores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corta",
+      "na": "cortavam",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "countryside",
+   "who": [
+    "AME:0:shout"
+   ],
+   "fachada": false,
+   "props": [
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "AME"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "impact": false,
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "O Maine mandou um agente prender os lenhadores do outro lado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "mandou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAN:0:angry",
+    "AME:0:shock"
+   ],
+   "interacao": "empurrar",
+   "props": [],
+   "text": "PRESO",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "set": "arctic",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "Acontece que os lenhadores prenderam o agente.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prenderam",
+      "quem": 0,
+      "alvo_quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "loc_montanha",
+   "who": [
+    "MIL:0:angry",
+    "ING:0:angry"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "MIL",
+     "ING"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "text": "MILÍCIA",
+   "titulo": true,
+   "impact": false,
+   "shot_lock": true,
+   "bloco": "escalada",
+   "say": "Os dois lados chamaram milhares de soldados da milícia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "chamaram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "GEN:0:smile:paper",
+    "PRE:0:relief"
+   ],
+   "interacao": "entregar",
+   "acao": "discutir",
+   "bloco": "pagamento",
+   "say": "Um general negociou uma trégua. Ninguém chegou a lutar.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "x_aperta",
+      "na": "trégua",
+      "quem": 0,
+      "alvo_quem": 1,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "set": "arctic",
+   "who": [
+    "AME:0:angry:axe",
+    "CAN:0:angry:axe"
+   ],
+   "props": [
+    [
+     "kit/logs",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "nature/tree_pine",
+     -3.0,
+     -5.5,
+     1.6
+    ],
+    [
+     "nature/tree_pine",
+     3.2,
+     -6.5,
+     1.7
+    ],
+    [
+     "nature/tree_pine",
+     -1.0,
+     -9.0,
+     1.8
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "fachada": false,
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "impact": false,
+   "shot_lock": true,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "O apelido: Guerra do Porco com Feijão. Tudo porque...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apelido"
+     }
+    ]
+   }
+  }
+ ],
+ "regiao": "europa",
+ "visual": {
+  "local": "Maine",
+  "quando": "inverno de 1838-1839: fevereiro de 1839, neve e frio no norte do Maine; tratado em 1842",
+  "participantes": [
+   "Winfield Scott",
+   "Daniel Webster e Lord Ashburton",
+   "lenhador de 1838"
+  ],
+  "roupas": {
+   "AME": "casaco de la azul, gorro de la, botas (lenhador americano, gravura de lenhador de Maine ~1830)",
+   "CAN": "casaco de la laranja/marrom, gorro (lenhador de New Brunswick)",
+   "MIL": "milicia do Maine: casaca azul, calca clara, shako",
+   "ING": "soldado britannico: casaca vermelha, calca clara, shako",
+   "GEN": "general Scott: uniforme azul de gala",
+   "PRE": "diplomatas de 1842: casaca e cartola escura"
+  },
+  "cenario": "mata de pinheiros e rio, acampamento de toras; fortes de madeira (Fort Fairfield, Fort Kent); sala de tratado em madeira/pedra",
+  "objetos": [
+   "toras de pinheiro",
+   "machado de lenhador",
+   "bois de arraste"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Aroostook_War",
+   "referencias/aroostook1838/moodboard.jpg (mapa da fronteira, gravura de lenhador, moda de 1838, toras, soldados)"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "loc_montanha",
+   "interior pedra",
+   "interior madeira"
+  ],
+  "buscas": {
+   "Maine": "Aroostook County Maine 1840s lithograph forest",
+   "Winfield Scott": "Winfield Scott 1840 portrait",
+   "Daniel Webster e Lord Ashburton": "Webster Ashburton Treaty 1842",
+   "lenhador de 1838": "lumberjack Maine 19th century engraving",
+   "toras de pinheiro": "log drive Maine 19th century",
+   "machado de lenhador": "felling axe 19th century",
+   "bois de arraste": "oxen hauling logs 19th century Maine",
+   "soldado da epoca": "Maine militia 1839 uniform",
+   "roupas e ruas de 1838": "1838 American clothing fashion plate men"
+  }
+ },
+ "min_momentos": 1,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: lenhadores quase comecaram uma guerra e ela ganhou nome de comida. Pagamento: o agente preso, milhares de milicianos, uma tregua sem luta e o apelido Guerra do Porco com Feijao.",
+ "loop_frase_ok": true
+}

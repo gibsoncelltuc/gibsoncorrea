@@ -1,0 +1,162 @@
+{
+ "duration": 34.128,
+ "frames30": 1024,
+ "source": "silence-align (cost 1.39)",
+ "segments": [
+  [
+   0.143833,
+   2.43017
+  ],
+  [
+   3.22283,
+   5.25008
+  ],
+  [
+   6.04325,
+   6.67604
+  ],
+  [
+   6.92083,
+   9.51596
+  ],
+  [
+   10.3022,
+   12.732
+  ],
+  [
+   13.5106,
+   14.531
+  ],
+  [
+   14.7822,
+   15.328
+  ],
+  [
+   16.11,
+   16.7219
+  ],
+  [
+   16.8598,
+   17.2073
+  ],
+  [
+   17.4433,
+   19.2021
+  ],
+  [
+   19.9865,
+   22.1695
+  ],
+  [
+   22.9592,
+   24.4037
+  ],
+  [
+   24.6082,
+   26.6896
+  ],
+  [
+   27.4742,
+   28.3938
+  ],
+  [
+   28.651,
+   29.5441
+  ],
+  [
+   30.3317,
+   31.8829
+  ],
+  [
+   32.6652,
+   33.4079
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma orelha cortada come\u00e7ou uma guerra de nove anos.",
+   "s": 0.144,
+   "e": 2.43
+  },
+  {
+   "text": "E o dono da orelha levou ela at\u00e9 o Parlamento.",
+   "s": 3.223,
+   "e": 5.25
+  },
+  {
+   "text": "Perto de Cuba,",
+   "s": 6.043,
+   "e": 6.676
+  },
+  {
+   "text": "espanh\u00f3is pararam o navio do capit\u00e3o Robert Jenkins.",
+   "s": 6.921,
+   "e": 9.516
+  },
+  {
+   "text": "O comandante espanhol cortou a orelha dele com a espada.",
+   "s": 10.302,
+   "e": 12.732
+  },
+  {
+   "text": "\"Leve isso ao seu rei\",",
+   "s": 13.511,
+   "e": 14.531
+  },
+  {
+   "text": "teria dito.",
+   "s": 14.782,
+   "e": 15.328
+  },
+  {
+   "text": "Anos depois,",
+   "s": 16.11,
+   "e": 16.722
+  },
+  {
+   "text": "dizem,",
+   "s": 16.86,
+   "e": 17.207
+  },
+  {
+   "text": "Jenkins mostrou a orelha aos deputados.",
+   "s": 17.443,
+   "e": 19.202
+  },
+  {
+   "text": "Acontece que a Inglaterra s\u00f3 queria um pretexto.",
+   "s": 19.986,
+   "e": 22.169
+  },
+  {
+   "text": "Em 1739,",
+   "s": 22.959,
+   "e": 24.404
+  },
+  {
+   "text": "navios ingleses atacaram o Caribe espanhol.",
+   "s": 24.608,
+   "e": 26.69
+  },
+  {
+   "text": "Nove anos de guerra,",
+   "s": 27.474,
+   "e": 28.394
+  },
+  {
+   "text": "por causa de uma orelha.",
+   "s": 28.651,
+   "e": 29.544
+  },
+  {
+   "text": "Jenkins nunca recuperou a orelha.",
+   "s": 30.332,
+   "e": 31.883
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 32.665,
+   "e": 33.408
+  }
+ ]
+}

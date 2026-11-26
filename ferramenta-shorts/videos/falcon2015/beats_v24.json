@@ -1,0 +1,651 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Poder e Fama",
+ "ep": 24,
+ "title": "O Foguete que Voltou de Ré",
+ "titulo_base": "O Foguete que Voltou de Ré",
+ "set": "loc_pista",
+ "light": "golden",
+ "mood": "playful",
+ "heroi": "kit/falcon9_land",
+ "outfits": {
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "logo": "X"
+  },
+  "ENG": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f",
+   "glasses": true
+  },
+  "ENA": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "hairStyle": "bun"
+  },
+  "POV": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "cap",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "say": "Durante décadas, todo foguete era jogado fora depois de um voo. Até que um desceu de ré.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "say": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
+   "fachada": false,
+   "set": "loc_campo",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Canaveral"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smile"
+   ],
+   "acao": "discutir",
+   "say": "Elon Musk queria reaproveitar foguetes, em vez de jogá-los fora. Muitos achavam impossível.",
+   "fachada": false,
+   "set": "hall",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -10.3,
+     0.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "objetos": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "salao",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 2.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 2.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "queria",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ENG:0:shock"
+   ],
+   "fx": [
+    "splash@30",
+    "puff@40"
+   ],
+   "sfx": [
+    "splash@30"
+   ],
+   "say": "As primeiras tentativas de pouso deram errado, e os foguetes tombaram no mar.",
+   "fachada": false,
+   "set": "harbor",
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "rz": 1.45,
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "objetos": false,
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "impact": true,
+   "text": "TOMBOU",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tombaram"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:stern"
+   ],
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "say": "Em vinte e um de dezembro, o Falcon nove decolou com onze satélites.",
+   "fachada": false,
+   "set": "loc_pista",
+   "text": "11 SATÉLITES",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "decolou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ENA:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "whoosh@20",
+    "puff@40"
+   ],
+   "sfx": [
+    "whoosh@20",
+    "thump@40"
+   ],
+   "say": "Depois de soltar o topo, a parte de baixo voltou para a Terra.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "voltou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [
+    "ENG:0:shock"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@40",
+    "dust@80"
+   ],
+   "sfx": [
+    "ding@30",
+    "thump@50"
+   ],
+   "say": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "vary": false,
+   "quadro_manual": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "desceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "hora": "noite",
+   "who": [
+    "ENG:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.8,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@60",
+    "dust@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "thump@60"
+   ],
+   "text": "POUSOU!",
+   "titulo": true,
+   "say": "E pousou inteira, abrindo as pernas no último segundo.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.9,
+   "d0": 21.0,
+   "d1": 20.0,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -3.6, camera a 43.9 m, altura 3.9 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "vary": false,
+   "quadro_manual": true,
+   "riscos_ok": true,
+   "obj_acao": false,
+   "_auto_vis": 0,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "ENA:0:laugh",
+    "ENG:0:laugh"
+   ],
+   "acao": "comemorar",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "ENG"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "say": "Os funcionários da SpaceX comemoraram e se abraçaram.",
+   "fachada": false,
+   "set": "hall",
+   "explica": false,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "comemoraram",
+      "quem": 0
+     },
+     {
+      "faz": "x_abraca",
+      "na": "abraçaram",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -11.9,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PRIMEIRA VEZ",
+   "say": "Foi a primeira vez que o primeiro estágio de um foguete orbital voltou e pousou inteiro.",
+   "fachada": false,
+   "set": "loc_pista",
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "quadro": {
+    "local": "loc_pista",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o falcon9_land (alvo z -2.0, camera a 20.0 m, altura 3.6 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/falcon9_land",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.6,
+   "d0": 21.0,
+   "d1": 20.0,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pousou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "MUS:0:smile",
+    "POV:0:smile"
+   ],
+   "say": "Hoje, pousar de ré virou rotina.",
+   "fachada": false,
+   "set": "harbor",
+   "props": [
+    [
+     "kit/falcon9_land",
+     0.0,
+     -12.0,
+     1.1,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "rotina"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+  "https://www.spacex.com/launches/"
+ ],
+ "heroi_sem_close_ok": true,
+ "min_momentos": 1,
+ "regiao": "eua",
+ "visual": {
+  "local": "Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)",
+  "quando": "21 de dezembro de 2015, noite (20h29 local)",
+  "participantes": [
+   "Elon Musk",
+   "engenheiros da SpaceX"
+  ],
+  "roupas": {
+   "MUS": "camisa preta e calça escura",
+   "ENG": "engenheiros de camisa azul e boné",
+   "ENA": "engenheira de camisa azul e coque"
+  },
+  "cenario": "pista de concreto com foguete Falcon 9, costa da Flórida ao fundo",
+  "objetos": [
+   "foguete Falcon 9 com pernas de pouso",
+   "primeiro estágio descendo de ré",
+   "satélites Orbcomm"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+   "referencias/falcon2015/moodboard.jpg"
+  ],
+  "buscas": {
+   "Falcon 9 pouso": "SpaceX Falcon 9 first stage landing Landing Zone 1 December 2015",
+   "Cabo Canaveral": "Cape Canaveral Space Launch Complex 40 aerial",
+   "Elon Musk": "Elon Musk SpaceX 2015",
+   "engenheiros SpaceX": "SpaceX mission control employees cheering landing",
+   "satélites Orbcomm": "Orbcomm OG2 satellite",
+   "Estados Unidos": "map of Florida Cape Canaveral",
+   "roupas e ruas de 2015": "SpaceX employees 2015 hawthorne factory photo",
+   "primeiro estágio descendo de ré": "Falcon 9 first stage landing Cape Canaveral December 2015 photo",
+   "foguete da época": "Falcon 9 rocket landing legs deployed",
+   "O Foguete que Voltou de Ré": "SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1",
+   "foguete da epoca": "Falcon 9 rocket standing on launch pad Cape Canaveral"
+  },
+  "explicacoes": "O primeiro estagio do Falcon 9 se separa, vira, reacende os motores para frear (queima de reentrada e de pouso) e abre quatro pernas antes de tocar o chao. Fonte: SpaceX, missao ORBCOMM-2 (21/12/2015), Landing Zone 1, Cabo Canaveral."
+ },
+ "max_wide": 10,
+ "cinf": 1.5,
+ "exp": 1.404,
+ "variar_cenario": false
+}

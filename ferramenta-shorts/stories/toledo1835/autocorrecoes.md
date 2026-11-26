@@ -1,0 +1,108 @@
+
+## 24/11 13:58 autocorrecao de visibilidade
+- b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 24/11 13:58 autocorrecao de visibilidade
+- b3: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+- b4: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 24/11 14:24 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("wide") para o personagem caber inteiro
+
+## 24/11 14:25 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> um personagem a menos na cena (o da borda saia cortado)
+
+## 25/11 00:30 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> enquadramento mais aberto ("group") para o personagem caber inteiro
+- b8: objeto "kit/minerio" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 00:31 autocorrecao de visibilidade
+- b0: personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> camera mais afastada para o personagem caber inteiro
+- b8: objeto "kit/minerio" saiu com 9% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 00:32 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> close no objeto
+
+## 25/11 02:05 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 02:06 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 05:47 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 05:48 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 11:35 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 11:37 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 11:38 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b7: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 13:31 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 13:32 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 13:33 autocorrecao de visibilidade
+- b5: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+
+## 25/11 13:42 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+
+## 25/11 13:44 autocorrecao de visibilidade
+- b8: objeto "kit/minerio" saiu com 11% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+
+## 25/11 18:21 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:27 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:27 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:28 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:30 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 13% da altura da tela, a ficha de cena planejou 32% -> objeto trazido para perto do centro (0.0, -1.0)
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:31 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b8: objeto "kit/minerio" saiu com 14% da altura da tela, a ficha de cena planejou 32% -> objeto na frente dos personagens e maior
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho
+
+## 25/11 18:32 autocorrecao de visibilidade
+- b6: quadro_manual (o roteiro fixou o quadro), personagem CORTADO na borda do quadro (boneco grande saindo da tela) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto citado "kit/canivete_aberto" nao aparece na tela (escondido, fora do quadro ou pequeno demais) -> fica para o olho
+- b9: quadro_manual (o roteiro fixou o quadro), objeto "kit/canivete_aberto" saiu com 16% da altura da tela, a ficha de cena planejou 32% -> fica para o olho

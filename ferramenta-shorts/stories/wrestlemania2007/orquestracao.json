@@ -1,0 +1,222 @@
+{
+ "id": "wrestlemania2007",
+ "ano": 2007,
+ "cenarios_trocados": [
+  [
+   "cena 3",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "VIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/clipper"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Donald Trump raspou a cabeça de outro bilionário num ringue.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "JUI",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ring"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E no fim, ele mesmo acabou no chão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Foi em 2007, no maior show de luta livre.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VIN",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/clipper"
+   ],
+   "palavras": 11,
+   "cena": "b3",
+   "frase": "Cada um escolheu um lutador. A aposta valia uma cabeça raspada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "POV",
+    "POV"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/ball"
+   ],
+   "palavras": 8,
+   "cena": "b4",
+   "frase": "Mais de oitenta mil pessoas lotaram o estádio.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "LAS",
+    "UMA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ring"
+   ],
+   "palavras": 8,
+   "cena": "b5",
+   "frase": "O lutador de Trump enfrentou o gigante Umaga.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "LAS"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/ball",
+    "kit/ring"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "Acontece que o lutador de Trump venceu, e o estádio foi abaixo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "LAS",
+    "VIB"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/clipper",
+    "kit/ring"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Trump ajudou a raspar a cabeça de Vince McMahon.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "JUI",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ring"
+   ],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "E o juiz derrubou Trump também.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "VIN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/clipper"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "Anos depois, foi para o Hall da Fama. Tudo porque...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "stadium"
+  }
+ ]
+}

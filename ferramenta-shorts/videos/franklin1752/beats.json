@@ -1,0 +1,389 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 7,
+ "title": "Franklin, a Pipa e o Raio",
+ "titulo_base": "Franklin, a Pipa e o Raio",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/kite",
+ "outfits": {
+  "FRA": {
+   "profissao": "cientista",
+   "jacket": "#6a4a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#c9c2b0",
+   "glasses": true
+  },
+  "FIL": {
+   "profissao": "agricultor",
+   "jacket": "#3b6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "hair",
+   "hair": "#6a4a2a"
+  },
+  "COM": {
+   "profissao": "comerciante",
+   "jacket": "#8a3a3a",
+   "pants": "#3a3a44",
+   "boots": "#2a2218",
+   "hat": "bowler",
+   "cap": "#2a2a33"
+  },
+  "POV": {
+   "profissao": "camponesa",
+   "jacket": "#6a8a5a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "bonnet",
+   "cap": "#e8dcc0"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "FRA:0:grin",
+    "FIL:0:shock"
+   ],
+   "props": [
+    [
+     "kit/kite",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "gancho",
+   "say": "Um homem soltou uma pipa na tempestade para pegar um raio.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soltou"
+     }
+    ]
+   },
+   "text": "PIPA x RAIO",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "FRA:0:smug"
+   ],
+   "bloco": "promessa",
+   "say": "E o que ele descobriu protege a sua casa até hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "protege"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "COM:0:neutral",
+    "POV:0:smile"
+   ],
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "COM",
+     "POV"
+    ],
+    "march": false
+   },
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 2,
+   "bloco": "prova",
+   "say": "Em 1752, Benjamin Franklin queria provar que raio era eletricidade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "provar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "interior": "madeira",
+   "who": [
+    "COM:0:scared",
+    "POV:0:scared"
+   ],
+   "acao": "conversar",
+   "props": [],
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Muita gente achava que o raio era castigo dos céus.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "castigo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRA:0:suspicious",
+    "FIL:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/kite",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "prova",
+   "say": "Contam que ele prendeu uma chave de metal na linha da pipa.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "prende",
+      "na": "prendeu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRA:0:shock:key"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "fx": [
+    "flash@75",
+    "ring@78"
+   ],
+   "sfx": [
+    "sting@75"
+   ],
+   "props": [
+    [
+     "kit/key",
+     0.6,
+     1.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/kite",
+     2.4,
+     0.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "escalada",
+   "say": "Acontece que a nuvem passou, e uma faísca pulou da chave.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "brilha",
+      "na": "faísca",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COM:0:suspicious",
+    "FRA:0:relief"
+   ],
+   "interacao": "cochichar",
+   "encena": {
+    "sentido": "hipotese",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "raio"
+     }
+    ]
+   },
+   "bloco": "escalada",
+   "say": "Se um raio caísse na pipa, ele teria morrido."
+  },
+  {
+   "shot": "wide",
+   "set": "street",
+   "who": [
+    "FRA:0:laugh"
+   ],
+   "impact": true,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "props": [
+    [
+     "kit/lightning_rod",
+     0.0,
+     -1.5,
+     4.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "buildings/house_two",
+     0.0,
+     -6.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PARA-RAIOS",
+   "fx": [
+    "stars@30",
+    "burst@70"
+   ],
+   "sfx": [
+    "ding@30",
+    "sting@70"
+   ],
+   "acao": "comemorar",
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 3.0,
+   "d0": 10.0,
+   "d1": 8.5,
+   "quadro_manual": true,
+   "bloco": "pagamento",
+   "say": "Daí nasceu o para-raios, que protege prédios no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "inteiro"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRA:0:grin",
+    "FIL:0:shock"
+   ],
+   "props": [
+    [
+     "kit/kite",
+     0.0,
+     -1.2,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "bloco": "loop",
+   "say": "Coragem ou loucura? Só sei que foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Coragem"
+     }
+    ]
+   }
+  }
+ ],
+ "visual": {
+  "local": "Filadelfia, colonia da Pensilvania: campo aberto perto de um galpao, ruas de tijolo",
+  "quando": "junho de 1752, tarde de tempestade",
+  "participantes": [
+   "Benjamin Franklin (casaca marrom, colete, culotes, cabelo grisalho comprido)",
+   "filho William",
+   "moradores coloniais"
+  ],
+  "roupas": {
+   "FRA": "casaca marrom do seculo 18, colete e meias",
+   "FIL": "casaca azul de rapaz",
+   "COM": "chapeu de tres pontas",
+   "POV": "roupas coloniais"
+  },
+  "cenario": "campo com nuvens escuras e chuva, galpao de madeira; rua colonial de tijolo com casas georgianas",
+  "objetos": [
+   "pipa de seda",
+   "chave de metal",
+   "garrafa de Leyden",
+   "para-raios"
+  ],
+  "explicacoes": [
+   "Experimento da pipa (1752): a chave na linha molhada soltou faiscas, mostrando que a nuvem tinha carga eletrica; Franklin inventou o para-raios (fonte: Wikipedia Kite experiment, Lightning rod)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Kite_experiment",
+   "https://commons.wikimedia.org/wiki/Category:Benjamin_Franklin"
+  ],
+  "buscas": {
+   "pipa": "Benjamin West Franklin drawing electricity from the sky",
+   "cidade": "colonial Philadelphia 1750 street"
+  }
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: um homem soltou uma pipa na tempestade para pegar um raio e a descoberta protege casas ate hoje. Pagamento: a chave soltou faisca, provando que o raio e' eletricidade; virou o para-raios.",
+ "loop_frase_ok": true
+}

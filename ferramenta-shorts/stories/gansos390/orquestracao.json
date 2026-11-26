@@ -1,0 +1,181 @@
+{
+ "id": "gansos390",
+ "ano": null,
+ "cenarios_trocados": [
+  [
+   "cena 4",
+   "mountain",
+   "loc_montanha"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "group",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um bando de gansos barulhentos salvou Roma numa noite.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b1",
+   "frase": "Mas o ouro de Roma foi embora mesmo assim.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "GAU"
+   ],
+   "multidao": 8,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 390 antes de Cristo, os gauleses tomaram Roma.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Os romanos que sobraram se trancaram no Capitólio, uma colina.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_montanha"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GAU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "buildings/castle_tower"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Numa noite sem lua, os gauleses chegaram em silêncio à muralha.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que os gansos sagrados de Juno ouviram e gritaram.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MAN",
+    "GAU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "O barulho acordou o soldado Marco Mânlio, que barrou a subida.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ROM",
+    "GAU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Depois de sete meses de fome, Roma pagou mil libras de ouro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ROM"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 11,
+   "cena": "b8",
+   "frase": "Os guardas não ouviram, os gansos sim. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "medieval"
+  }
+ ]
+}

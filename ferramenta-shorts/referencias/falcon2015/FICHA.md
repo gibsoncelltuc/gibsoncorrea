@@ -1,0 +1,255 @@
+# FICHA DE REFERENCIA - Poder e Fama EP 24 - O Foguete que Voltou de Ré
+
+- Ano/epoca: 2015 (atual (1950+))
+- Onde: Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento)
+- Quando: 21 de dezembro de 2015, noite (20h29 local)
+- Quem: ['Elon Musk', 'engenheiros da SpaceX']
+- Roupas: {'MUS': 'camisa preta e calça escura', 'ENG': 'engenheiros de camisa azul e boné', 'ENA': 'engenheira de camisa azul e coque'}
+- Cenario real: pista de concreto com foguete Falcon 9, costa da Flórida ao fundo
+- Objetos: ['foguete Falcon 9 com pernas de pouso', 'primeiro estágio descendo de ré', 'satélites Orbcomm']
+- Cenarios usados no video: hall, harbor, loc_cidade, loc_pista
+- PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
+- Proibido pelo roteiro: -
+
+## Explicacoes (ciencia)
+- O
+-  
+- p
+- r
+- i
+- m
+- e
+- i
+- r
+- o
+-  
+- e
+- s
+- t
+- a
+- g
+- i
+- o
+-  
+- d
+- o
+-  
+- F
+- a
+- l
+- c
+- o
+- n
+-  
+- 9
+-  
+- s
+- e
+-  
+- s
+- e
+- p
+- a
+- r
+- a
+- ,
+-  
+- v
+- i
+- r
+- a
+- ,
+-  
+- r
+- e
+- a
+- c
+- e
+- n
+- d
+- e
+-  
+- o
+- s
+-  
+- m
+- o
+- t
+- o
+- r
+- e
+- s
+-  
+- p
+- a
+- r
+- a
+-  
+- f
+- r
+- e
+- a
+- r
+-  
+- (
+- q
+- u
+- e
+- i
+- m
+- a
+-  
+- d
+- e
+-  
+- r
+- e
+- e
+- n
+- t
+- r
+- a
+- d
+- a
+-  
+- e
+-  
+- d
+- e
+-  
+- p
+- o
+- u
+- s
+- o
+- )
+-  
+- e
+-  
+- a
+- b
+- r
+- e
+-  
+- q
+- u
+- a
+- t
+- r
+- o
+-  
+- p
+- e
+- r
+- n
+- a
+- s
+-  
+- a
+- n
+- t
+- e
+- s
+-  
+- d
+- e
+-  
+- t
+- o
+- c
+- a
+- r
+-  
+- o
+-  
+- c
+- h
+- a
+- o
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- S
+- p
+- a
+- c
+- e
+- X
+- ,
+-  
+- m
+- i
+- s
+- s
+- a
+- o
+-  
+- O
+- R
+- B
+- C
+- O
+- M
+- M
+- -
+- 2
+-  
+- (
+- 2
+- 1
+- /
+- 1
+- 2
+- /
+- 2
+- 0
+- 1
+- 5
+- )
+- ,
+-  
+- L
+- a
+- n
+- d
+- i
+- n
+- g
+-  
+- Z
+- o
+- n
+- e
+-  
+- 1
+- ,
+-  
+- C
+- a
+- b
+- o
+-  
+- C
+- a
+- n
+- a
+- v
+- e
+- r
+- a
+- l
+- .
+
+## Fontes visuais
+- https://en.wikipedia.org/wiki/Falcon_9_flight_20
+- referencias/falcon2015/moodboard.jpg
+
+## Fontes da historia
+- https://en.wikipedia.org/wiki/Falcon_9_flight_20
+- https://www.spacex.com/launches/

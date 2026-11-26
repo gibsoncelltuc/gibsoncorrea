@@ -1,0 +1,232 @@
+{
+ "id": "roadsterpulo2026",
+ "ano": 2026,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENA"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Um carro voou na frente dos convidados, e não era efeito especial.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E ninguém esperava como ele fez isso.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Elon Musk mostrou o novo Roadster numa base no Texas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior galpao"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Primeiro truque: uma sucção gruda o carro na pista.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (parado)",
+    "emissao": "onda",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Assim ele subiu uma rampa e ficou de cabeça para baixo.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "acelera e sobe a rampa curva gigante ate ficar de cabeca para baixo",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Depois se soltou, girou no ar e pousou na fumaça.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "se solta do topo, voa girando com o jato dos propulsores saindo de baixo e pousa numa nuvem branca (onda de ar no chao)",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "plano aberto no objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Segundo truque: dez bocais sopram ar comprimido para baixo.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/roadster26 (paira) em raio-X",
+    "emissao": "jato",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/cybercab",
+    "kit/cybertruck",
+    "kit/roadster26",
+    "kit/torre_luz"
+   ],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "Acontece que foi assim que ele decolou por cima de carros.",
+   "classe": "chave",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "decola com o jato dos propulsores embaixo e a onda de ar no chao, sobe 5 m, voa atravessando a cena inclinado e a camera acompanha",
+    "emissao": "VFX 3D preso no objeto (jato/poeira/onda/fumaca de pneu/linhas de velocidade)",
+    "luz": "luz do propulsor acompanha o objeto",
+    "camera": "camera segue o objeto",
+    "som": "som na palavra da acao"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/roadster26"
+   ],
+   "palavras": 6,
+   "cena": "b8",
+   "frase": "Mas o voo durou poucos segundos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "ENA"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/roadster26",
+    "kit/torre_luz"
+   ],
+   "palavras": 9,
+   "cena": "b9",
+   "frase": "Ainda não é carro voador. Mas foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  }
+ ]
+}

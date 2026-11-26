@@ -1,0 +1,85 @@
+{
+ "id": "balde1325",
+ "titulo": "Guerras Inusitadas EP 04 - A Guerra do Balde",
+ "ancoras": {
+  "ano": 1325,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "interior pedra",
+   "loc_campo",
+   "medieval"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "fragata a vela",
+  "globo de mesa (o mais antigo e de 1492)",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/castle_tower",
+  "buildings/house_small",
+  "kit/balde_madeira",
+  "kit/room_rosa_stone",
+  "kit/well",
+  "mk/Bookcase_2",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Table_Large",
+  "nature/haybale",
+  "tools/bucket"
+ ],
+ "pesquisa_visual": {
+  "local": "Zappolino",
+  "quando": "15 de novembro de 1325, ao pôr do sol; outono",
+  "participantes": [
+   "exército de Bolonha",
+   "exército de Módena",
+   "Passerino Bonacolsi",
+   "Alessandro Tassoni"
+  ],
+  "roupas": {
+   "MOD": "gibelinos: sobrecota amarela, elmo de ferro",
+   "BOL": "guelfos de Bolonha: sobrecota vermelha, elmo",
+   "NOB": "nobre/senhor com coroa e manto roxo",
+   "POV": "camponês de colete azul e chapéu"
+  },
+  "cenario": "campo e colina, muralha de tijolo com portão de Bolonha, poço de pedra, torre alta de Módena",
+  "objetos": [
+   "balde de madeira",
+   "poço de pedra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
+   "referencias/balde1325/moodboard.jpg"
+  ],
+  "buscas": {
+   "Módena": "Torre della Ghirlandina Modena",
+   "Bolonha": "Bologna medieval city walls gate",
+   "batalha": "Battle of Zappolino 1325",
+   "balde": "Secchia rapita bucket Modena Ghirlandina",
+   "soldado da epoca": "14th century Italian infantry crossbowman illustration",
+   "Zappolino": "Zappolino Valsamoggia castle hill",
+   "balde de madeira": "wooden bucket medieval iron bands",
+   "exército de Bolonha": "Bologna medieval army 14th century",
+   "exército de Módena": "Modena medieval soldiers 14th century",
+   "Passerino Bonacolsi": "Passerino Bonacolsi Mantua"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

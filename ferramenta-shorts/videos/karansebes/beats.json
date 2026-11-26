@@ -1,0 +1,586 @@
+{
+ "title": "A Batalha de Karánsebes",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "countryside",
+ "light": "dusk",
+ "mood": "march",
+ "outfits": {
+  "AUT": {
+   "jacket": "#ebe6d4",
+   "pants": "#ebe6d4",
+   "boots": "#2a2218",
+   "hat": "kepi",
+   "belt": "#2a2218",
+   "buttons": "#e8c45a",
+   "rifle": true,
+   "cap": "#2a2218"
+  },
+  "HUS": {
+   "jacket": "#2f4aa0",
+   "pants": "#8a2f2f",
+   "boots": "#1b1b1f",
+   "hat": "shako_tall",
+   "belt": "#e8c45a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f"
+  },
+  "LOC": {
+   "jacket": "#8a5a3a",
+   "pants": "#4a3a2a",
+   "boots": "#3a2a1a",
+   "hat": "straw"
+  },
+  "OFF": {
+   "jacket": "#ebe6d4",
+   "pants": "#ebe6d4",
+   "boots": "#2a2218",
+   "hat": "bicorne",
+   "sash": "#c0353a",
+   "buttons": "#e8c45a",
+   "moustache_on": "#4a3020",
+   "build": "stout"
+  },
+  "TUR": {
+   "jacket": "#b5333a",
+   "pants": "#e8e0c8",
+   "boots": "#6a4a2a",
+   "moustache_on": "#2a1c12",
+   "hats": [
+    "turban"
+   ],
+   "hat": "turban"
+  }
+ },
+ "cinf": 1.5,
+ "exp": 1.761,
+ "serie": "Guerras Inusitadas",
+ "ep": 1,
+ "titulo_base": "A Batalha de Karánsebes",
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [
+    "AUT:0:neutral",
+    "AUT:1:stern",
+    "AUT:2:neutral",
+    "AUT:3:stern"
+   ],
+   "tat": 4,
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "hora": "noite",
+   "fx": [
+    "burst@8",
+    "burst@25",
+    "burst@45",
+    "stars@30"
+   ],
+   "sfx": [
+    "cannon@8",
+    "gun@25",
+    "cannon@45"
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 14.0,
+   "d1": 11.0,
+   "impact": true,
+   "text": "CONTRA SI MESMO",
+   "titulo": true,
+   "tstyle": "red",
+   "bloco": "gancho",
+   "say": "Um exército inteiro perdeu uma batalha contra ele mesmo.",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdeu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TUR:0:laugh",
+    "TUR:1:grin"
+   ],
+   "text": "FOGO AMIGO",
+   "tat": 3,
+   "tstyle": "red",
+   "light": "dawn",
+   "acao": "comemorar",
+   "bloco": "promessa",
+   "say": "E o inimigo venceu sem disparar um tiro.",
+   "encena": {
+    "sentido": "negativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "venceu",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "AUT:0:smile",
+    "HUS:0:nervous",
+    "AUT:1:neutral",
+    "OFF:0:stern"
+   ],
+   "text": "VÁRIAS LÍNGUAS",
+   "tat": 6,
+   "light": "golden",
+   "mapa": "KARÁNSEBES",
+   "mapa_at": 3,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": true
+   },
+   "bloco": "prova",
+   "say": "Em 1788, o exército austríaco tinha soldados de vários países.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "soldados"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "who": [
+    "HUS:0:stern:lantern",
+    "HUS:1:neutral"
+   ],
+   "props": [
+    [
+     "tools/lantern",
+     0.6,
+     1.0,
+     1.5
+    ]
+   ],
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   },
+   "montado": {
+    "dir": 1
+   },
+   "bloco": "prova",
+   "say": "Numa noite, os hussardos foram procurar o inimigo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "procurar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "HUS:0:shock",
+    "LOC:0:grin:bottle"
+   ],
+   "props": [
+    [
+     "kit/barrel_r",
+     0.0,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "barrel",
+     2.6,
+     -2.2,
+     1.2
+    ]
+   ],
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   },
+   "detalhe": true,
+   "shot_lock": true,
+   "bloco": "prova",
+   "say": "Acharam moradores vendendo aguardente e beberam o barril todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "olha",
+      "na": "acharam",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "quem": 1,
+      "faz": "entrega",
+      "alvo_quem": 0,
+      "na": "vendendo",
+      "forcar": true
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e barrel_r juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/barrel_r",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "group",
+   "who": [
+    "AUT:0:stern",
+    "HUS:0:laugh",
+    "AUT:1:shock"
+   ],
+   "sfx": [
+    "gun@167"
+   ],
+   "fx": [
+    "burst@167"
+   ],
+   "tiros": false,
+   "impact": false,
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   },
+   "acao": "discutir",
+   "bloco": "escalada",
+   "say": "A infantaria quis um gole. Negaram, e alguém atirou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "atirou",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "faz": "atira",
+      "na": "tiro",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "HUS:1:shock"
+   ],
+   "text": "TURCOS!",
+   "tat": 2,
+   "tstyle": "red",
+   "hora": "noite",
+   "crowd": {
+    "n": 0
+   },
+   "bloco": "escalada",
+   "say": "No escuro, alguém gritou: Turcos! Turcos!",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "grita",
+      "na": "gritou",
+      "quem": 0
+     }
+    ]
+   },
+   "_susp_ok": true
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "AUT:0:shock",
+    "AUT:1:pained",
+    "HUS:0:shock"
+   ],
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "batalha": true,
+   "hora": "noite",
+   "bloco": "escalada",
+   "say": "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "atira",
+      "na": "atiraram",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "OFF:0:shock"
+   ],
+   "props": [
+    [
+     "cannon",
+     -2.4,
+     -0.8,
+     1.7,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "cannon",
+     2.6,
+     -1.6,
+     1.7,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "hora": "noite",
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false
+   },
+   "fx": [
+    "burst@85",
+    "burst@97",
+    "burst@109"
+   ],
+   "sfx": [
+    "cannon@85",
+    "cannon@97",
+    "cannon@109"
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -1.0,
+   "h": 2.3,
+   "d0": 14.0,
+   "d1": 12.0,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Até os canhões dispararam contra o próprio exército.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "dispararam",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "faz": "atira",
+      "na": "dispararam"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "vila rural (casas, cercas, campo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o cannon (alvo z -2.0, camera a 20.0 m, altura 2.4 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "cannon",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TUR:0:shock:spyglass",
+    "TUR:1:neutral"
+   ],
+   "props": [],
+   "text": "ABANDONADO",
+   "tat": 15,
+   "tstyle": "gold",
+   "light": "dawn",
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Os turcos chegaram e acharam o acampamento abandonado.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "acharam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "AUT:0:neutral",
+    "AUT:1:stern",
+    "AUT:2:neutral",
+    "AUT:3:stern"
+   ],
+   "tat": 4,
+   "batalha": true,
+   "crowd": {
+    "n": 24,
+    "outfits": [
+     "AUT",
+     "HUS"
+    ],
+    "march": false,
+    "expr": "shock"
+   },
+   "hora": "noite",
+   "fx": [
+    "burst@8",
+    "burst@25",
+    "burst@45",
+    "stars@30"
+   ],
+   "sfx": [
+    "cannon@8",
+    "gun@25",
+    "cannon@45"
+   ],
+   "quadro_manual": true,
+   "cx": 0.0,
+   "cz": -2.5,
+   "d0": 14.0,
+   "d1": 11.0,
+   "impact": true,
+   "text": "CONTRA SI MESMO",
+   "titulo": true,
+   "tstyle": "red",
+   "bloco": "loop",
+   "say": "Ninguém precisou lutar contra eles. Foi assim que...",
+   "encena": {
+    "sentido": "figurada",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "precisou",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   }
+  }
+ ],
+ "variar_cenario": false,
+ "heroi": "kit/barrel_r",
+ "visual": {
+  "local": "Acampamento do exercito austriaco perto de Karansebes (Caransebes), as margens do rio Timis, no Banat (hoje Romenia): campo aberto com barracas, carrocas e fogueiras",
+  "quando": "noite de 21 para 22 de setembro de 1788",
+  "participantes": [
+   "hussardos austriacos (batedores)",
+   "infantaria austriaca de varios povos (austriacos, romenos, servios, croatas, italianos)",
+   "camponeses valaquios vendendo schnapps",
+   "general de artilharia Colloredo",
+   "imperador Jose II (perdido na confusao)",
+   "exercito otomano (chega 2 dias depois)"
+  ],
+  "roupas": {
+   "AUT": "casaca branca da infantaria austriaca de 1788 com o bone de couro (Kaskett), mosquete",
+   "HUS": "hussardo: dolma azul com alamares, calca vermelha, barretina alta",
+   "OFF": "oficial de casaca branca, faixa, chapeu bicorne",
+   "LOC": "campones valaquio de camisa e chapeu de palha",
+   "TUR": "soldado otomano de turbante e casaco vermelho (fez so existe depois de 1829)"
+  },
+  "cenario": "acampamento noturno a beira do rio, fogueiras e lanternas, barris de schnapps; canhoes de campanha de 1788",
+  "objetos": [
+   "barril de schnapps (aguardente)",
+   "canecas e garrafas",
+   "lanternas",
+   "mosquetes de pederneira",
+   "canhoes de campanha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
+   "https://upload.wikimedia.org/wikipedia/commons/c/c2/Picture_showing_Ottoman_Forces_advance_to_Caransebes.png"
+  ]
+ },
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: um exercito perdeu uma batalha contra ele mesmo e o inimigo venceu sem tiro. Pagamento: briga pela aguardente, grito de 'Turcos!', todos atirando em todos e os turcos acharam o acampamento abandonado.",
+ "loop_frase_ok": true,
+ "max_wide": 4
+}

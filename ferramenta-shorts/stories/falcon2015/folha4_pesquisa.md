@@ -1,0 +1,267 @@
+# FOLHA 4 - PESQUISA: Poder e Fama EP 24 - O Foguete que Voltou de Ré
+
+Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py falcon2015` busca cada item na internet, baixa os prints (referencias/falcon2015/prints/) e monta o quadro referencias/falcon2015/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
+
+- Historia: O Foguete que Voltou de Ré
+- Epoca: 2015 | Lugar: Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de lançamento) | Quando: 21 de dezembro de 2015, noite (20h29 local)
+- HEROIS (objeto): kit/falcon9_land
+- HEROIS (personagens): MUS, ENG
+- Cenarios: hall, harbor, loc_cidade, loc_pista
+- Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
+- Tamanho real aplicado: nenhum objeto precisou de ajuste
+
+## Itens pesquisados
+
+Tipo | Item | Consultas | Referencias achadas (print)
+---|---|---|---
+tema | O Foguete que Voltou de Ré | SpaceX Falcon 9 Orbcomm OG2 landing Landing Zone 1 / O Foguete que Voltou de Ré / Um Elon Musk Muitos 2015 | Falcon 9 first stage at LZ-1(two).jpg (referencias/falcon2015/prints/o_foguete_que_voltou_de_r__6fcf40.jpg); ORBCOMM-2 (23815832891).jpg (referencias/falcon2015/prints/o_foguete_que_voltou_de_r__667ae2.jpg); 45th Space Wing successfully launches ORBCOMM, his (referencias/falcon2015/prints/o_foguete_que_voltou_de_r__32d502.jpg)
+lugar | Cabo Canaveral, Flórida (Landing Zone 1, área de concreto perto da plataforma de | Cabo Canaveral Flórida / Cabo Canaveral Flórida Landing Zone 1 área de concreto perto da plataforma de lançamento 2 | Cape canaveral.jpg (referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_b7dbab.jpg); Cape Canaveral 1951.jpg (referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_c6cf87.jpg); Cape Canaveral City Hall.JPG (referencias/falcon2015/prints/cabo_canaveral_fl_rida_landing_zone_1_re_dce47c.jpg)
+lugar | Flórida | Flórida 2015 / Flórida landscape | SEM REFERENCIA
+epoca | roupas e ruas de 2015 | SpaceX employees 2015 hawthorne factory photo / 2015 fashion clothing / 2015 street photograph | Entrance to SpaceX headquarters.jpg (referencias/falcon2015/prints/roupas_e_ruas_de_2015_962255.jpg); The SpaceX Factory.jpg (referencias/falcon2015/prints/roupas_e_ruas_de_2015_b8f1f9.jpg); SpaceX Headquarters, Hawthorne, CA.jpg (referencias/falcon2015/prints/roupas_e_ruas_de_2015_1b224a.jpg)
+pessoas | Elon Musk | Elon Musk SpaceX 2015 / Elon Musk / Elon Musk 2015 | SpaceX CEO Elon Musk visits N&NC and AFSPC (190416 (referencias/falcon2015/prints/elon_musk_e755fe.jpg); Elon Musk kaj aligatoroj (agresaj komercaj konkure (referencias/falcon2015/prints/elon_musk_a860fd.jpg); Elon Musk in Mission Control at SpaceX.jpg (referencias/falcon2015/prints/elon_musk_7a2964.jpg)
+pessoas | engenheiros da SpaceX | engenheiros da SpaceX / engenheiros da SpaceX 2015 | Entrance to SpaceX headquarters.jpg (referencias/falcon2015/prints/engenheiros_da_spacex_962255.jpg); The SpaceX Factory.jpg (referencias/falcon2015/prints/engenheiros_da_spacex_b8f1f9.jpg); SpaceX hangar at LC39A, Kennedy Space Center.jpg (referencias/falcon2015/prints/engenheiros_da_spacex_6f6e1b.jpg)
+objeto | foguete Falcon 9 com pernas de pouso | foguete Falcon 9 com pernas de pouso / foguete Falcon 9 com pernas de pouso 2015 | 2016 Falcon 9 at Vandenberg Air Force Base.jpg (referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_d963ab.jpg); Falcon 9 first stage at LZ-1(two).jpg (referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_6fcf40.jpg); Falcon 9 rollout with TurkmenAlem52E-MonacoSAT to  (referencias/falcon2015/prints/foguete_falcon_9_com_pernas_de_pouso_d1f332.jpg)
+objeto | primeiro estágio descendo de ré | Falcon 9 first stage landing Cape Canaveral December 2015 photo / primeiro estágio descendo de ré / primeiro estágio descendo de ré 2015 | Falcon 9 first stage at LZ-1(two).jpg (referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__6fcf40.jpg); Starlink 6-82 Launches from Cape Canaveral Space F (referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__79f079.jpg); Starlink 6-82 Launches from Cape Canaveral Space F (referencias/falcon2015/prints/primeiro_est_gio_descendo_de_r__ccae26.jpg)
+objeto | satélites Orbcomm | Orbcomm OG2 satellite / satélites Orbcomm / satélites Orbcomm 2015 | ORBCOMM-2 (23833499336).jpg (referencias/falcon2015/prints/sat_lites_orbcomm_e472a0.jpg); Launch of Falcon 9 carrying ORBCOMM OG2-M1 (165817 (referencias/falcon2015/prints/sat_lites_orbcomm_506552.jpg); Launch of Falcon 9 carrying ORBCOMM OG2-M1 (168562 (referencias/falcon2015/prints/sat_lites_orbcomm_f68667.jpg)
+heroi | falcon9 land | foguete Falcon 9 com pernas de pouso / O Foguete que Voltou de Ré | 2016 Falcon 9 at Vandenberg Air Force Base.jpg (referencias/falcon2015/prints/falcon9_land_d963ab.jpg); Falcon 9 first stage at LZ-1(two).jpg (referencias/falcon2015/prints/falcon9_land_6fcf40.jpg); Falcon 9 rollout with TurkmenAlem52E-MonacoSAT to  (referencias/falcon2015/prints/falcon9_land_d1f332.jpg)
+epoca | foguete da epoca | Falcon 9 rocket standing on launch pad Cape Canaveral / rocket 2015 / rocket | Falcon 9 first stage at LZ-1(two).jpg (referencias/falcon2015/prints/foguete_da_epoca_6fcf40.jpg); Falcon 9 rollout with TurkmenAlem52E-MonacoSAT to  (referencias/falcon2015/prints/foguete_da_epoca_d1f332.jpg); Falcon 9 at SLC-40 in Cape Canaveral (53501525930) (referencias/falcon2015/prints/foguete_da_epoca_fa7c44.jpg)
+mecanismo | Acontece que ela desceu de ré, com o motor freando a queda. | acontece desceu motor freando queda / falcon9 land diagram | SEM REFERENCIA
+
+## Explicacoes (como funciona, com fonte)
+- O
+-  
+- p
+- r
+- i
+- m
+- e
+- i
+- r
+- o
+-  
+- e
+- s
+- t
+- a
+- g
+- i
+- o
+-  
+- d
+- o
+-  
+- F
+- a
+- l
+- c
+- o
+- n
+-  
+- 9
+-  
+- s
+- e
+-  
+- s
+- e
+- p
+- a
+- r
+- a
+- ,
+-  
+- v
+- i
+- r
+- a
+- ,
+-  
+- r
+- e
+- a
+- c
+- e
+- n
+- d
+- e
+-  
+- o
+- s
+-  
+- m
+- o
+- t
+- o
+- r
+- e
+- s
+-  
+- p
+- a
+- r
+- a
+-  
+- f
+- r
+- e
+- a
+- r
+-  
+- (
+- q
+- u
+- e
+- i
+- m
+- a
+-  
+- d
+- e
+-  
+- r
+- e
+- e
+- n
+- t
+- r
+- a
+- d
+- a
+-  
+- e
+-  
+- d
+- e
+-  
+- p
+- o
+- u
+- s
+- o
+- )
+-  
+- e
+-  
+- a
+- b
+- r
+- e
+-  
+- q
+- u
+- a
+- t
+- r
+- o
+-  
+- p
+- e
+- r
+- n
+- a
+- s
+-  
+- a
+- n
+- t
+- e
+- s
+-  
+- d
+- e
+-  
+- t
+- o
+- c
+- a
+- r
+-  
+- o
+-  
+- c
+- h
+- a
+- o
+- .
+-  
+- F
+- o
+- n
+- t
+- e
+- :
+-  
+- S
+- p
+- a
+- c
+- e
+- X
+- ,
+-  
+- m
+- i
+- s
+- s
+- a
+- o
+-  
+- O
+- R
+- B
+- C
+- O
+- M
+- M
+- -
+- 2
+-  
+- (
+- 2
+- 1
+- /
+- 1
+- 2
+- /
+- 2
+- 0
+- 1
+- 5
+- )
+- ,
+-  
+- L
+- a
+- n
+- d
+- i
+- n
+- g
+-  
+- Z
+- o
+- n
+- e
+-  
+- 1
+- ,
+-  
+- C
+- a
+- b
+- o
+-  
+- C
+- a
+- n
+- a
+- v
+- e
+- r
+- a
+- l
+- .
+
+## Fontes visuais do roteirista
+- https://en.wikipedia.org/wiki/Falcon_9_flight_20
+- referencias/falcon2015/moodboard.jpg

@@ -1,0 +1,66 @@
+{
+ "id": "teste_objetos",
+ "TOTAL": 734,
+ "list": [
+  {
+   "id": "b0",
+   "f": 31,
+   "t": "1.0",
+   "file": "sb_tmp/teste_objetos_000.jpg"
+  },
+  {
+   "id": "b1",
+   "f": 101,
+   "t": "3.4",
+   "file": "sb_tmp/teste_objetos_001.jpg"
+  },
+  {
+   "id": "b2",
+   "f": 176,
+   "t": "5.9",
+   "file": "sb_tmp/teste_objetos_002.jpg"
+  },
+  {
+   "id": "b3",
+   "f": 250,
+   "t": "8.3",
+   "file": "sb_tmp/teste_objetos_003.jpg"
+  },
+  {
+   "id": "b4",
+   "f": 323,
+   "t": "10.8",
+   "file": "sb_tmp/teste_objetos_004.jpg"
+  },
+  {
+   "id": "b5",
+   "f": 398,
+   "t": "13.3",
+   "file": "sb_tmp/teste_objetos_005.jpg"
+  },
+  {
+   "id": "b6",
+   "f": 473,
+   "t": "15.8",
+   "file": "sb_tmp/teste_objetos_006.jpg"
+  },
+  {
+   "id": "b7",
+   "f": 547,
+   "t": "18.2",
+   "file": "sb_tmp/teste_objetos_007.jpg"
+  },
+  {
+   "id": "b8",
+   "f": 618,
+   "t": "20.6",
+   "file": "sb_tmp/teste_objetos_008.jpg"
+  },
+  {
+   "id": "b9",
+   "f": 692,
+   "t": "23.1",
+   "file": "sb_tmp/teste_objetos_009.jpg"
+  }
+ ]
+}

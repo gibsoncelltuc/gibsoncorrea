@@ -1,0 +1,527 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 5,
+ "title": "Cem Dias ou de Graça",
+ "titulo_base": "Cem Dias ou de Graça",
+ "set": "outback",
+ "mood": "playful",
+ "heroi": "kit/megapack",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true,
+   "fixo": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a",
+   "fixo": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "MUS": {
+   "jacket": "#16181d",
+   "pants": "#22252c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "pele": "#f2e2d2",
+   "fixo": true
+  },
+  "CAN": {
+   "jacket": "#3a7a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#4a3a2a",
+   "glasses": true,
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/megapack",
+     2.4,
+     0.2,
+     0.55,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interior": "loja",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "gancho",
+   "say": "Um homem arriscou cinquenta milhões de dólares numa conversa no Twitter.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "arriscou"
+     }
+    ]
+   },
+   "text": "100 DIAS OU GRÁTIS",
+   "titulo": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:laugh",
+    "JOR:0:shock"
+   ],
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -1.2,
+     0.6,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/phone",
+     0.0,
+     -0.8,
+     0.9,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E tudo começou com uma resposta curta, escrita no celular.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "resposta"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "mapa": "AUSTRÁLIA",
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -8.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_campo",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "explica": false,
+   "bloco": "prova",
+   "say": "Em 2017, Elon Musk prometeu baterias gigantes para a Austrália.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "prometeu"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "mapa_at": 1,
+   "text": "100 DIAS",
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -8.0,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_campo",
+   "fachada": false,
+   "crowd": {
+    "n": 0
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "explica": false,
+   "bloco": "prova",
+   "say": "Cem dias para entregar. Senão, seria de graça.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cem"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "wide",
+   "who": [
+    "MUS:0:worried"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "50 MILHÕES",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "sting@40"
+   ],
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -8.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/megapack",
+     7.0,
+     -14.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "set": "loc_cidade",
+   "bloco": "escalada",
+   "say": "Os jornais calcularam: ele podia perder mais de cinquenta milhões.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "calcularam"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "wide",
+   "who": [
+    "MUS:0:grin"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "55 DIAS",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -8.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/megapack",
+     7.0,
+     -14.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/megapack",
+     -7.0,
+     -14.0,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_campo",
+   "fachada": false,
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -3.6,
+   "h": 2.4,
+   "d0": 10.5,
+   "d1": 10.0,
+   "bloco": "escalada",
+   "say": "Acontece que ficou pronta em cerca de cinquenta e cinco dias.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pronta"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [],
+   "mapa": "MUNDO",
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/megapack",
+     0.0,
+     -1.2,
+     0.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "set": "loc_campo",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "explica": {
+    "objeto": "kit/megapack",
+    "manobra": "gira",
+    "vfx": [
+     {
+      "k": "brilho",
+      "na": "potência"
+     }
+    ],
+    "rotulos": [
+     [
+      "100 MEGAWATTS",
+      "topo",
+      "megawatts"
+     ],
+     [
+      "MAIOR DO MUNDO",
+      "meio",
+      "maior"
+     ]
+    ]
+   },
+   "bloco": "pagamento",
+   "say": "Na época, era a maior bateria do mundo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "maior"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "CAN:0:laugh",
+    "MUS:0:smug"
+   ],
+   "interior": "loja",
+   "bloco": "pagamento",
+   "say": "Quem lançou o desafio teve que admitir: ele cumpriu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "admitir"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "MUS:0:smug"
+   ],
+   "props": [
+    [
+     "kit/megapack",
+     2.4,
+     0.2,
+     0.55,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interior": "loja",
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "bloco": "loop",
+   "say": "Uma resposta curta, e foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "curta"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.0,
+ "fontes": [
+  "https://www.energy-storage.news/news/south-australia-takes-tesla-up-on-100-days-or-free-energy-storage-promise",
+  "https://www.powermag.com/tesla-bet-and-delivered-100-mw129-mwh-energy-storage-system-within-100-days",
+  "https://www.geekwire.com/2017/elon-musk-touts-teslas-plan-build-worlds-biggest-battery-100-days/",
+  "https://www.ecowatch.com/tesla-worlds-largest-battery-2512145319.html"
+ ],
+ "light": "golden",
+ "ano": 2017,
+ "visual": {
+  "local": "Hornsdale Power Reserve, perto de Jamestown, Australia do Sul (campo aberto ao lado de um parque eolico)",
+  "quando": "marco a dezembro de 2017, dia",
+  "participantes": [
+   "Elon Musk (camiseta e jaqueta escura)",
+   "Mike Cannon-Brookes, empresario australiano (camiseta e bone)",
+   "jornalistas",
+   "operarios de capacete e colete"
+  ],
+  "roupas": {
+   "MUS": "jaqueta escura",
+   "CAN": "camiseta e bone",
+   "JOR": "camisa social com bloco de notas"
+  },
+  "cenario": "campo seco e plano com fileiras de baterias brancas Tesla Powerpack e turbinas eolicas ao fundo; escritorio com celular",
+  "objetos": [
+   "baterias Tesla Powerpack em fileiras",
+   "celular com o tweet",
+   "contrato"
+  ],
+  "explicacoes": [
+   "Hornsdale Power Reserve: 100 MW / 129 MWh, a maior bateria de ions de litio do mundo em 2017; contrato assinado em 29/09/2017 e obra concluida em 23/11/2017 (fonte: Wikipedia Hornsdale Power Reserve)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Hornsdale_Power_Reserve",
+   "https://commons.wikimedia.org/wiki/Category:Hornsdale_Power_Reserve"
+  ],
+  "locacoes": [
+   "loc_campo",
+   "loc_cidade",
+   "interior loja",
+   "interior pedra",
+   "interior madeira"
+  ],
+  "buscas": {
+   "bateria": "Hornsdale Power Reserve Tesla Powerpack 2017",
+   "local": "Hornsdale wind farm South Australia"
+  }
+ },
+ "gancho_tipo": "perda",
+ "gancho_cumprido": "Gancho: um homem arriscou 50 milhoes numa conversa no Twitter, com uma resposta curta. Pagamento: prometeu a bateria em cem dias ou de graca; entregou em cerca de 55 dias a maior bateria do mundo.",
+ "loop_frase_ok": true
+}

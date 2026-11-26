@@ -1,0 +1,270 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "title": "O Sino (benchmark)",
+ "outfits": {
+  "MOR": {
+   "jacket": "#22222a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hairs": [
+    "#e0803a"
+   ],
+   "moustache_on": "#c0602a"
+  },
+  "COV": {
+   "jacket": "#4a6a8a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "slouch",
+   "cap": "#8a6a3a"
+  },
+  "VIZ": {
+   "jacket": "#c0342f",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hairs": [
+    "#2a2018"
+   ],
+   "moustache_on": "#2a2018"
+  },
+  "ESP": {
+   "jacket": "#3f9a94",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bonnet",
+   "dress": "#e88a7a"
+  },
+  "DOC": {
+   "jacket": "#2e2a36",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "tophat"
+  },
+  "POV": {
+   "jacket": "#7fa8c9",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hats": [
+    "bonnet",
+    "straw",
+    "cap",
+    "bowler"
+   ],
+   "cap": "#6a8a5a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MOR:0:grin",
+    "COV:0:stern"
+   ],
+   "props": [
+    [
+     "kit/grave",
+     -0.2,
+     -2.2,
+     1.0
+    ],
+    [
+     "kit/cross",
+     -5.0,
+     -4.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     5.2,
+     -5.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     7.5,
+     -3.0,
+     1.2
+    ]
+   ],
+   "hora": "pordosol",
+   "fachada": false,
+   "text": "SINO",
+   "say": "Enterraram um homem vivo, com um sino amarrado no dedo."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COV:0:neutral:shovel",
+    "POV:1:nervous"
+   ],
+   "props": [
+    [
+     "kit/grave",
+     -0.2,
+     -2.2,
+     1.0
+    ],
+    [
+     "kit/cross",
+     -5.0,
+     -4.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     5.2,
+     -5.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     7.5,
+     -3.0,
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "say": "Acontece que o povo tinha tanto medo de acordar dentro do caixão, que a cova vinha com um sininho em cima, preso por um cordão ao dedo do morto."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "VIZ:0:shock",
+    "POV:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/porch",
+     0,
+     0,
+     1.0
+    ]
+   ],
+   "hora": "noite",
+   "fachada": false,
+   "passaros": false,
+   "say": "Só que quando o sino dele começa a tocar, às duas da manhã, o vizinho decide que deve ser o vento."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "VIZ:0:shock",
+    "ESP:1:stern:lantern",
+    "POV:2:nervous",
+    "POV:3:shock"
+   ],
+   "props": [
+    [
+     "kit/porch",
+     0,
+     0,
+     1.0
+    ]
+   ],
+   "fachada": false,
+   "say": "Aí ele toca mais rápido, e a rua inteira sai para a varanda. \"Vai lá olhar.\" \"Não, vai você.\""
+  },
+  {
+   "shot": "two",
+   "who": [
+    "DOC:0:stern:paper",
+    "VIZ:0:nervous"
+   ],
+   "props": [
+    [
+     "kit/porch",
+     0,
+     0,
+     1.0
+    ]
+   ],
+   "fachada": false,
+   "say": "Alguém arranca o médico da cama, e ele diz: \"Corpo se mexe. Está morto. Eu mesmo assinei o papel.\""
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ESP:0:stern:shovel"
+   ],
+   "interior": "madeira",
+   "say": "Mas a esposa não está na varanda. Está sentada no escuro, com a pá ao lado da porta, porque ela conhece aquele toque."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOR:0:grin",
+    "ESP:0:smile"
+   ],
+   "interior": "madeira",
+   "hora": "dia",
+   "say": "Três curtos, um longo. O sinal que os dois ensaiaram. Ele nunca esteve morto."
+  },
+  {
+   "shot": "group",
+   "who": [
+    "MOR:0:nervous:coin",
+    "VIZ:0:stern",
+    "DOC:0:stern",
+    "POV:2:stern"
+   ],
+   "hora": "dia",
+   "say": "Devia dinheiro para meia cidade, então fingiu a própria morte. Quando o sino tocasse, ela ia desenterrar o marido, e fugir com ele."
+  },
+  {
+   "shot": "close",
+   "who": [
+    "ESP:0:neutral"
+   ],
+   "interior": "madeira",
+   "hora": "noite",
+   "say": "Em vez disso, ela fica ali a noite toda, ouvindo o sino tocar rápido, depois devagar, depois uma vez a cada tantos minutos."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "COV:0:neutral:shovel"
+   ],
+   "props": [
+    [
+     "kit/grave",
+     -0.2,
+     -2.2,
+     1.0
+    ],
+    [
+     "kit/cross",
+     -5.0,
+     -4.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     5.2,
+     -5.0,
+     1.2
+    ],
+    [
+     "kit/cross",
+     7.5,
+     -3.0,
+     1.2
+    ]
+   ],
+   "hora": "amanhecer",
+   "fachada": false,
+   "say": "Até o sol nascer, quando ele finalmente para."
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ESP:0:grin:coin"
+   ],
+   "hora": "dia",
+   "say": "Com ele debaixo da terra, as dívidas foram enterradas junto. E a casa ficou só para ela."
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "id": "ese_titanic",
+ "titulo": "E Se EP 10 - E Se o Titanic Não Tivesse Afundado?",
+ "ancoras": {
+  "ano": 1912,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "harbor",
+   "loc_estudio"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "canhao antigo",
+  "caravela",
+  "carro dos anos 50",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "navio a vela",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "tambor de guerra",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "boat",
+  "buildings/shop",
+  "kit/iceberg",
+  "kit/scroll",
+  "nature/picket_fence",
+  "ship"
+ ],
+ "pesquisa_visual": {
+  "local": "Atlantico Norte, a bordo do Titanic",
+  "quando": "14 e 15 de abril de 1912, de noite",
+  "participantes": [
+   "passageiros",
+   "tripulacao",
+   "vigia do cesto da gavea"
+  ],
+  "roupas": {
+   "PAS": "passageiro de 1912 de terno e chapeu",
+   "TRI": "marinheiro de 1912",
+   "POV": "passageiros de 1912"
+  },
+  "cenario": "navio gigante de quatro chamines, mar escuro, iceberg, botes salva-vidas",
+  "objetos": [
+   "iceberg",
+   "botes salva-vidas",
+   "navio Titanic"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Titanic",
+   "https://en.wikipedia.org/wiki/International_Ice_Patrol"
+  ],
+  "explicacoes": "Cerca de 90% de um iceberg fica abaixo da agua; o gelo raspou o casco abaixo da linha d agua e abriu varios compartimentos. Fonte: Encyclopaedia Britannica, \"Titanic\"."
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Titanic",
+  "https://en.wikipedia.org/wiki/International_Convention_for_the_Safety_of_Life_at_Sea",
+  "https://en.wikipedia.org/wiki/International_Ice_Patrol"
+ ],
+ "falta": []
+}

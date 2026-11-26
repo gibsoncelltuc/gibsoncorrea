@@ -1,0 +1,102 @@
+{
+ "id": "postit1968",
+ "titulo": "Curiosidade e Ciência EP 15 - A Cola que Não Colava",
+ "ancoras": {
+  "ano": 1968,
+  "era": "atual (1950+)",
+  "regiao": "eua",
+  "luz_base": "day",
+  "cenarios": [
+   "interior galpao",
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "loc_estudio",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "barril",
+  "caixote de madeira",
+  "canhao antigo",
+  "caravela",
+  "carro antigo",
+  "carroca",
+  "castical",
+  "encouracado",
+  "escudo",
+  "fragata a vela",
+  "galera a remo",
+  "lampiao",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio a vela",
+  "tambor de guerra"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/church",
+  "buildings/house_two",
+  "buildings/shop",
+  "kit/cone_transito",
+  "kit/palete",
+  "kit/postit",
+  "kit/room_azul_shop",
+  "kit/room_europa_wood",
+  "kit/room_galpao",
+  "kit/room_verde_stone",
+  "mk/Bed_Twin1",
+  "mk/Cabinet",
+  "mk/Crate_Metal",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Vase_2",
+  "mk/Workbench",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",
+  "quando": "1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)",
+  "participantes": [
+   "Spencer Silver, quimico da 3M",
+   "Art Fry, colega que cantava no coral",
+   "chefes da 3M",
+   "moradores de Boise"
+  ],
+  "roupas": {
+   "SIL": "jaleco branco de laboratorio e oculos (anos 60)",
+   "FRY": "camisa, gravata e oculos (anos 70)",
+   "CHE": "executivo de terno",
+   "PAD": "pastor de batina escura",
+   "POV": "moradores dos anos 70"
+  },
+  "cenario": "laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana",
+  "objetos": [
+   "bloquinho amarelo de post-it",
+   "hinario com marcadores caindo",
+   "frascos de cola",
+   "amostras gratis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Post-it_Note",
+   "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ],
+  "explicacoes": [
+   "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
+  ],
+  "buscas": {
+   "A Cola que Não Colava": "3M weak adhesive Spencer Silver 1968",
+   "Art Fry": "Art Fry 3M inventor Post-it",
+   "colega que cantava no coral": "church choir 1970s singer hymnal",
+   "chefes da 3M": "3M executives 1970s office",
+   "hinario com marcadores caindo": "hymnal bookmarks paper",
+   "amostras gratis": "Post-it free samples 1980 Boise",
+   "postit": "yellow Post-it note pad",
+   "O papel saiu amarelo por acaso: era o único que tinha.": "canary yellow scrap paper Post-it origin"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

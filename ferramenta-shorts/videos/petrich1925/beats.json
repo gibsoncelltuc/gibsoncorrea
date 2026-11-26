@@ -1,0 +1,370 @@
+{
+ "title": "A Guerra do Cachorro Perdido",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "mountain",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "GRE": {
+   "jacket": "#8a7a50",
+   "pants": "#7a6a44",
+   "boots": "#2a2218",
+   "hat": "quepe",
+   "cap": "#7a6a44",
+   "belt": "#2a2218",
+   "buttons": "#e8c45a",
+   "rifle": true
+  },
+  "BUL": {
+   "jacket": "#5a6a4a",
+   "pants": "#4a5a3a",
+   "boots": "#2a2218",
+   "hat": "quepe",
+   "cap": "#4a5a3a",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "OFF": {
+   "jacket": "#8a7a50",
+   "pants": "#7a6a44",
+   "boots": "#1b1b1f",
+   "hat": "quepe",
+   "buttons": "#e8c45a",
+   "moustache_on": "#3a2a1f",
+   "build": "stout",
+   "cap": "#5a4a2a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "GRE:0:shock"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.2,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "gancho",
+   "say": "Ninguém te conta: um cachorro fugido quase começou uma guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fugido"
+     }
+    ]
+   },
+   "text": "GUERRA DO CACHORRO",
+   "titulo": true
+  },
+  {
+   "shot": "close",
+   "who": [
+    "GRE:0:grin"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.0,
+     1.0,
+     "stand",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "props": [
+    [
+     "kit/dog_sit",
+     1.6,
+     -0.6,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "promessa",
+   "say": "E até hoje ninguém sabe o que aconteceu com ele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "aconteceu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "GRE:0:neutral",
+    "BUL:0:neutral"
+   ],
+   "tat": 0,
+   "tstyle": "blue",
+   "mapa": "GRÉCIA",
+   "bloco": "prova",
+   "say": "Em 1925, na fronteira entre a Grécia e a Bulgária.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "fronteira"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GRE:0:shock"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.2,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "tat": 9,
+   "tstyle": "brown",
+   "bloco": "prova",
+   "say": "Dizem que o cachorro de um soldado grego cruzou a fronteira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cruzou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "who": [
+    "GRE:0:nervous"
+   ],
+   "animals": [
+    [
+     "dog",
+     3.0,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "bloco": "prova",
+   "say": "O soldado correu atrás e cruzou a fronteira também.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "correu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "BUL:0:shock"
+   ],
+   "fx": [
+    "burst@50"
+   ],
+   "sfx": [
+    "gun@50"
+   ],
+   "bloco": "escalada",
+   "say": "Uma sentinela búlgara viu o soldado e atirou.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atirou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "OFF:0:stern",
+    "GRE:1:stern",
+    "GRE:2:nervous"
+   ],
+   "text": "ULTIMATO",
+   "tat": 7,
+   "tstyle": "red",
+   "bloco": "escalada",
+   "say": "A Grécia ficou furiosa e deu um ultimato.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ultimato"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "track",
+   "who": [
+    "GRE:0:stern",
+    "GRE:1:stern",
+    "GRE:2:stern"
+   ],
+   "text": "INVASÃO",
+   "tat": 8,
+   "tstyle": "red",
+   "batalha": true,
+   "bloco": "escalada",
+   "say": "Dias depois, o exército grego invadiu a Bulgária.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "invadiu"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "BUL:1:nervous",
+    "BUL:2:pained"
+   ],
+   "text": "LIGA DAS NAÇÕES",
+   "tat": 6,
+   "tstyle": "blue",
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "A Bulgária apelou para a Liga das Nações.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apelou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "OFF:0:pained",
+    "GRE:1:nervous"
+   ],
+   "text": "INDENIZAÇÃO",
+   "tat": 10,
+   "tstyle": "gold",
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "A Grécia teve que recuar e pagar uma indenização.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "recuar"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "GRE:0:shock"
+   ],
+   "animals": [
+    [
+     "dog",
+     2.2,
+     1.2,
+     "trot",
+     1.2
+    ]
+   ],
+   "text": "O CACHORRO FUGIU",
+   "tat": 9,
+   "tstyle": "brown",
+   "bloco": "loop",
+   "say": "Tudo por causa de um cachorro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cachorro"
+     }
+    ]
+   }
+  }
+ ],
+ "heroi": "kit/dog_sit",
+ "visual": {
+  "local": "Passo de Demir Kapia, na serra de Belasitsa: fronteira montanhosa entre a Grecia e a Bulgaria, perto de Petrich; sede da Liga das Nacoes em Genebra",
+  "quando": "19 de outubro de 1925 (o tiro), invasao grega a partir de 22 de outubro de 1925, de dia, outono",
+  "participantes": [
+   "soldado grego de guarda e seu cachorro",
+   "sentinela bulgara",
+   "exercito grego",
+   "governo bulgaro",
+   "Conselho da Liga das Nacoes"
+  ],
+  "roupas": {
+   "GRE": "soldado grego de 1925: farda caqui, quepe, fuzil",
+   "BUL": "soldado bulgaro: farda verde-acinzentada, quepe",
+   "OFF": "oficial grego de caqui com quepe"
+  },
+  "cenario": "montanhas secas com pedras e mata baixa, posto de fronteira; salao de reunioes da Liga das Nacoes",
+  "objetos": [
+   "cachorro",
+   "fuzis",
+   "bandeira branca",
+   "documento do ultimato"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Incident_at_Petrich"
+  ]
+ },
+ "serie": "Teste",
+ "ep": 26,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um cachorro fugido quase comecou uma guerra e ninguem sabe o que houve com ele. Pagamento: o soldado foi morto, a Grecia invadiu a Bulgaria, a Liga das Nacoes mandou recuar e pagar indenizacao.",
+ "loop_frase_ok": true,
+ "duplicado_de": "cachorro1925"
+}

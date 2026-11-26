@@ -1,0 +1,42 @@
+# FOLHA 4 - PESQUISA: Guerras Inusitadas EP 11 - A Guerra da Lagosta
+
+Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, vestir e animar. `python3 pesquisar.py lagosta1961` busca cada item na internet, baixa os prints (referencias/lagosta1961/prints/) e monta o quadro referencias/lagosta1961/moodboard.jpg. OLHE o quadro antes de aprovar o storyboard.
+
+- Historia: A Guerra da Lagosta
+- Epoca: 1961 | Lugar: litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa com coqueiros | Quando: 1961 a 1963, de dia
+- HEROIS (objeto): kit/lobster, crate
+- HEROIS (personagens): BRA
+- Cenarios: harbor, loc_estudio
+- Proibido pela epoca: barril, canhao antigo, caravela, carro antigo, carroca, castical, escudo, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
+- Tamanho real aplicado: kit/lobster: 1.4 m reais -> escala 0.58 (estava 2.4: grande demais); kit/lobster: 1.4 m reais -> escala 0.58 (estava 1.0: grande demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.8: pequeno demais); kit/navio_destroier: 30.0 m reais -> escala 8.27 (estava 0.7: pequeno demais)
+
+## Itens pesquisados
+
+Tipo | Item | Consultas | Referencias achadas (print)
+---|---|---|---
+tema | A Guerra da Lagosta | A Guerra da Lagosta / Brasil França Em Pernambuco 1961 | Brazilian Boeing B-17 flies over the French destro (referencias/lagosta1961/prints/a_guerra_da_lagosta_d75698.jpg); A Guerra da Lagosta.jpg (referencias/lagosta1961/prints/a_guerra_da_lagosta_ab3250.jpg); Brazilian cruiser Tamandaré (C12) underway with de (referencias/lagosta1961/prints/a_guerra_da_lagosta_269e93.jpg)
+lugar | litoral de Pernambuco e do Nordeste do Brasil: mar azul, barcos de pesca, costa | litoral de Pernambuco e do Nordeste do Brasil / litoral de Pernambuco e do Nordeste do Brasil 1961 | Panóplia do Nordeste do Brasil.jpg (referencias/lagosta1961/prints/litoral_de_pernambuco_e_do_nordeste_do_b_4ed092.jpg); Brazil pernambuco triunfo portal.jpg (referencias/lagosta1961/prints/litoral_de_pernambuco_e_do_nordeste_do_b_7f266a.jpg)
+lugar | Pernambuco | Pernambuco 1961 / Pernambuco landscape | Supermarket in recife, pernambuco, Brazil.jpg (referencias/lagosta1961/prints/pernambuco_1c1bd9.jpg); Teatro de Santa Isabel, Recife, Pernambuco, Brasil (referencias/lagosta1961/prints/pernambuco_1c6d88.jpg); Golden Chapel, Recife, Pernambuco, Brazil.jpg (referencias/lagosta1961/prints/pernambuco_e3d50c.jpg)
+epoca | roupas e ruas de 1961 | 1961 fashion clothing / 1961 street photograph | Tøj til kvinde fra korjaker i Østsibirien - Woman’ (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_ff7746.jpg); Moscow 1961 street clock (cropped).jpg (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_93b4fd.jpg); Trolleybuses on Gorkogo Street June 1961.jpg (referencias/lagosta1961/prints/roupas_e_ruas_de_1961_011e23.jpg)
+pessoas | pescadores franceses em barcos lagosteiros | pescadores franceses em barcos lagosteiros / pescadores franceses em barcos lagosteiros 1961 | (Venice) Sea port with boat and fishermen by Anton (referencias/lagosta1961/prints/pescadores_franceses_em_barcos_lagosteir_71ba9a.jpg); Fishermen hauling nets to boats (14322857326).jpg (referencias/lagosta1961/prints/pescadores_franceses_em_barcos_lagosteir_5d80ec.jpg); Saint Lucia - Fishermen boats in Castries Harbor 0 (referencias/lagosta1961/prints/pescadores_franceses_em_barcos_lagosteir_d9b020.jpg)
+pessoas | pescadores brasileiros | pescadores brasileiros / pescadores brasileiros 1961 | Acapulco fishermen.jpg (referencias/lagosta1961/prints/pescadores_brasileiros_89cedc.jpg); Fisherman and pirogue sailing on the Mekong a sunn (referencias/lagosta1961/prints/pescadores_brasileiros_ce8268.jpg)
+pessoas | Marinha do Brasil | Marinha do Brasil / Marinha do Brasil 1961 | Parque Marinha do Brasil 14.JPG (referencias/lagosta1961/prints/marinha_do_brasil_63808d.jpg); Biblioteca da Marinha DPHDM - Rio de Janeiro (5268 (referencias/lagosta1961/prints/marinha_do_brasil_0f1720.jpg); Parque Marinha do Brasil, 2022.02.27.jpg (referencias/lagosta1961/prints/marinha_do_brasil_8f25fa.jpg)
+pessoas | Marinha francesa (contratorpedeiro Tartu) | Marinha francesa contratorpedeiro Tartu / Marinha francesa contratorpedeiro Tartu 1961 | Défilé de la Marine nationale sénégalaise, Thiès.j (referencias/lagosta1961/prints/marinha_francesa_contratorpedeiro_tartu__7b6c41.jpg); Bénin Independence Day 2025 - Marine nationale 13. (referencias/lagosta1961/prints/marinha_francesa_contratorpedeiro_tartu__7c80f0.jpg); Bénin Independence Day 2025 - Marine nationale 16. (referencias/lagosta1961/prints/marinha_francesa_contratorpedeiro_tartu__974882.jpg)
+pessoas | presidente Joao Goulart | presidente Joao Goulart / presidente Joao Goulart 1961 | MO 63.2240.2 - Photograph of João Goulart Presiden (referencias/lagosta1961/prints/presidente_joao_goulart_4ec63d.jpg); MO 63.2240.2 - Photograph of João Goulart Presiden (referencias/lagosta1961/prints/presidente_joao_goulart_0b95b8.jpg); João Goulart 1964.jpg (referencias/lagosta1961/prints/presidente_joao_goulart_baa790.jpg)
+pessoas | presidente Charles de Gaulle | presidente Charles de Gaulle / presidente Charles de Gaulle 1961 | 31 - Toulouse - Square Charles-de-Gaulle - Statue  (referencias/lagosta1961/prints/presidente_charles_de_gaulle_32373e.jpg); General Charles de Gaulle in 1945.jpg (referencias/lagosta1961/prints/presidente_charles_de_gaulle_8ad573.jpg); Monument au général Charles de Gaulle (Sélestat) ( (referencias/lagosta1961/prints/presidente_charles_de_gaulle_5ea186.jpg)
+objeto | lagosta | lagosta / lagosta 1961 | Stacks of lobster traps in Norra Grundsund 7.jpg (referencias/lagosta1961/prints/lagosta_0c2dc4.jpg); Lobster-issue2-1983.jpg (referencias/lagosta1961/prints/lagosta_8c360c.jpg); World's Largest Wire Lobster Trap.jpg (referencias/lagosta1961/prints/lagosta_32a340.jpg)
+objeto | barcos de pesca | barcos de pesca / barcos de pesca 1961 | Catalan boats - Sète.jpg (referencias/lagosta1961/prints/barcos_de_pesca_fdea14.jpg); Cubierta de un barco de pesca (España).jpg (referencias/lagosta1961/prints/barcos_de_pesca_c54d54.jpg); Barco de pesca em paraty.jpg (referencias/lagosta1961/prints/barcos_de_pesca_384983.jpg)
+objeto | navios de guerra | navios de guerra / navios de guerra 1961 | Navios de guerra britânicos - pintura anónima (c.1 (referencias/lagosta1961/prints/navios_de_guerra_8ebcd6.jpg)
+objeto | avioes de patrulha | avioes de patrulha / avioes de patrulha 1961 | S-2 Tracker - Avião de patrulha marítima e luta an (referencias/lagosta1961/prints/avioes_de_patrulha_a856c8.jpg); Academia da força Aérea (AFA) em Pirassununga-SP.  (referencias/lagosta1961/prints/avioes_de_patrulha_3050fc.jpg); Academia da Força Aérea (AFA) em Pirassununga. Aer (referencias/lagosta1961/prints/avioes_de_patrulha_e8227a.jpg)
+heroi | lobster | lagosta / A Guerra da Lagosta | Lobster-issue2-1983.jpg (referencias/lagosta1961/prints/lobster_8c360c.jpg); Lobster from Maine Trenton Lobster Pound.jpg (referencias/lagosta1961/prints/lobster_3926ad.jpg); White Lobster in research tank.jpg (referencias/lagosta1961/prints/lobster_1c5461.jpg)
+heroi | crate | crate | SEM REFERENCIA
+epoca | navio da epoca | ship 1961 / ship | Paul (ship, 1961).jpg (referencias/lagosta1961/prints/navio_da_epoca_3fa7b7.jpg); Paul (ship, 1961) 04.jpg (referencias/lagosta1961/prints/navio_da_epoca_80ecde.jpg)
+mecanismo | O Brasil dizia: ela anda no fundo do mar, é nossa. | brasil dizia fundo nossa / lobster diagram | SEM REFERENCIA
+mecanismo | A França dizia: ela nada, é de quem pescar. | franca dizia pescar / lobster diagram | SEM REFERENCIA
+
+## Explicacoes (como funciona, com fonte)
+- Argumento brasileiro (Ministerio das Relacoes Exteriores, 1961-63): a lagosta se desloca andando sobre a plataforma continental, logo e recurso do leito do mar brasileiro; argumento frances: a lagosta nada e e peixe de alto-mar. Fonte: Wikipedia, Guerra da Lagosta; Braga, A Guerra da Lagosta (2004).
+
+## Fontes visuais do roteirista
+- https://en.wikipedia.org/wiki/Lobster_War
+- https://pt.wikipedia.org/wiki/Guerra_da_Lagosta

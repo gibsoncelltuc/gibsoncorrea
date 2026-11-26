@@ -1,0 +1,411 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 13,
+ "title": "Você Está Demitido",
+ "titulo_base": "Você Está Demitido",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "outfits": {
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "swoop": true
+  },
+  "CND": {
+   "jacket": "#4a8a6a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true
+  },
+  "POV": {
+   "jacket": "#3a8a5a",
+   "pants": "#2a3a5a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#6a3a1a"
+  },
+  "RAN": {
+   "profissao": "empresario",
+   "hair": "#3a2a1f"
+  },
+  "JUS": {
+   "profissao": "empresario",
+   "hair": "#9a9a9a",
+   "hat": "hair",
+   "pele": "#f0c8a0",
+   "tie": "#1f3f8a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "fx": [
+    "puff@60"
+   ],
+   "sfx": [
+    "sting@60"
+   ],
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "titulo": true,
+   "bloco": "gancho",
+   "say": "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "palavras"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "bloco": "promessa",
+   "say": "E não foi na política. Foi na televisão.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "política"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "POV:0:smile",
+    "POV:1:grin"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     0,
+     -1.0,
+     1.8
+    ]
+   ],
+   "text": "O APRENDIZ",
+   "titulo": true,
+   "bloco": "prova",
+   "say": "Em 2004, estreou o programa O Aprendiz.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estreou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "TRU:0:grin",
+    "CND:0:nervous"
+   ],
+   "acao": "conversar",
+   "set": "loc_cidade",
+   "interior": false,
+   "crowd": {
+    "n": 16,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "smile"
+   },
+   "bloco": "prova",
+   "say": "Candidatos disputavam um emprego numa empresa dele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "interior": "madeira",
+   "who": [
+    "TRU:0:stern",
+    "CND:0:nervous",
+    "POV:0:worried",
+    "POV:1:nervous"
+   ],
+   "acao": "discutir",
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "props": [
+    [
+     "mk/Table_Large",
+     0,
+     -1.2,
+     1.6
+    ],
+    [
+     "mk/Chair_1",
+     -2.2,
+     -1.2,
+     1.0
+    ],
+    [
+     "mk/Chair_1",
+     2.2,
+     -1.2,
+     1.0
+    ]
+   ],
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "perde",
+      "na": "perdia",
+      "quem": 1
+     }
+    ]
+   },
+   "bloco": "prova",
+   "say": "A equipe que perdia ia para a sala de reunião."
+  },
+  {
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "fx": [
+    "ring@20",
+    "stars@50"
+   ],
+   "sfx": [
+    "sting@20",
+    "ding@50"
+   ],
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "bloco": "escalada",
+   "say": "Acontece que ali Trump apontava o dedo e dizia: você está demitido.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "demitido"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "POV:0:laugh",
+    "POV:1:shout",
+    "CND:0:laugh"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 22,
+    "outfits": [
+     "POV"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
+   "props": [
+    [
+     "kit/tv",
+     0,
+     -3.0,
+     1.3
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "stars@60"
+   ],
+   "sfx": [
+    "ding@20",
+    "ding@60"
+   ],
+   "text": "28 MILHÕES",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "A final teve uns vinte e oito milhões de espectadores.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "milhões"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "JUS:0:smug",
+    "POV:0:surprised"
+   ],
+   "mapa": "BRASIL",
+   "mapa_at": 3,
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "set": "loc_estudio",
+   "text": "ROBERTO JUSTUS",
+   "titulo": true,
+   "bloco": "escalada",
+   "say": "No Brasil, a versão teve Roberto Justus.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Justus"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "props": [
+    [
+     "kit/tv",
+     1.8,
+     -1.2,
+     1.2
+    ]
+   ],
+   "acao": "conversar",
+   "detalhe": false,
+   "set": "loc_estudio",
+   "text": "2004-2015",
+   "titulo": true,
+   "bloco": "pagamento",
+   "say": "Ele apresentou o programa por mais de dez anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "apresentou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "TRU:0:smug"
+   ],
+   "fx": [
+    "puff@60"
+   ],
+   "sfx": [
+    "sting@60"
+   ],
+   "text": "VOCÊ ESTÁ DEMITIDO!",
+   "titulo": true,
+   "bloco": "loop",
+   "say": "Virou a marca dele. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Virou"
+     }
+    ]
+   }
+  }
+ ],
+ "heroi": "kit/tv",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
+  "https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1)",
+  "https://pt.wikipedia.org/wiki/O_Aprendiz"
+ ],
+ "visual": {
+  "local": "Nova York, EUA: sala de reunião escura do programa (estúdio) com mesa grande e cadeiras de couro; escritório e arranha-céu em Manhattan; rua com barraca de limonada",
+  "quando": "janeiro de 2004 (estreia, NBC); dia nas ruas, estúdio com luz baixa na sala de reunião",
+  "participantes": [
+   "Donald Trump (terno azul-marinho, gravata vermelha, cabelo loiro)",
+   "16 candidatos (ternos e blazers de empresários)",
+   "Bill Rancic (vencedor, terno escuro)",
+   "Roberto Justus (apresentador brasileiro, terno)",
+   "equipes em duas cores"
+  ],
+  "roupas": {
+   "TRU": "terno azul-marinho, gravata vermelha, cabelo loiro",
+   "CND": "blazer verde, óculos",
+   "RAN": "terno escuro de empresário",
+   "JUS": "terno com gravata azul"
+  },
+  "cenario": "sala de reunião (boardroom) escura com mesa longa, cadeiras e televisão; rua de Nova York com arranha-céus e barraca de limonada",
+  "objetos": [
+   "televisão",
+   "mesa de reunião",
+   "barraca de limonada",
+   "prancheta"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/The_Apprentice_(American_TV_series)",
+   "https://commons.wikimedia.org/wiki/Category:The_Apprentice_(American_TV_series)"
+  ],
+  "referencias": {
+   "16 candidatos (ternos e blazers de empresários)": "candidatos de terno e blazer; sem foto livre no Commons, padrão de empresários de 2004 (fonte: https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1))",
+   "equipes em duas cores": "duas equipes por cor (camisas/gravatas) na tarefa semanal (fonte: https://en.wikipedia.org/wiki/The_Apprentice_(American_season_1))"
+  }
+ },
+ "cinf": 4.5,
+ "exp": 1.12,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo, e foi na televisao. Pagamento: no programa O Aprendiz ele apontava e dizia 'voce esta demitido'; a final teve 28 milhoes de espectadores.",
+ "loop_frase_ok": true
+}

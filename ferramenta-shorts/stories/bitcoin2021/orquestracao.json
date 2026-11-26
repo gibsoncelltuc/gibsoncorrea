@@ -1,0 +1,206 @@
+{
+ "id": "bitcoin2021",
+ "ano": 2021,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/coin",
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um país inteiro apostou o próprio dinheiro numa moeda digital.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "E o final dessa aposta ninguém esperava.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/coin",
+    "kit/volcano"
+   ],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 2021, El Salvador adotou o bitcoin como moeda oficial.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Quem baixasse o aplicativo ganhava trinta dólares.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bitcoin (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin",
+    "kit/rack_mineracao",
+    "kit/volcano"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "O governo até minerava bitcoin com a energia de um vulcão.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "BUK"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b6",
+   "frase": "Mas em 2024, ele passou de cem mil dólares.",
+   "classe": "explicativa",
+   "sujeito": "objeto",
+   "briefing": {
+    "corpo": "kit/bitcoin (gira)",
+    "emissao": "rotulos/graficos",
+    "luz": "estudio",
+    "camera": "2 enquadramentos sem corte seco",
+    "som": "som em cada entrada"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "DEP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 6,
+   "cena": "b7",
+   "frase": "As reservas no prejuízo viraram lucro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_patio"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "BUK",
+    "POV"
+   ],
+   "multidao": 8,
+   "objetos": [
+    "kit/bitcoin"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Maluquice ou visão? Só sei que foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

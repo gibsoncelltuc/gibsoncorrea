@@ -1,0 +1,194 @@
+{
+ "id": "reeleicao2024",
+ "ano": 2024,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/white_house"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Um presidente perdeu a eleição e voltou quatro anos depois.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E isso só tinha acontecido uma vez na história americana.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/white_house"
+   ],
+   "palavras": 9,
+   "cena": "b2",
+   "frase": "Em 2024, americanos escolhiam entre Trump e Kamala Harris.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "A contagem dos votos entrou pela madrugada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "Acontece que Trump venceu todos os estados decisivos: 312 votos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 14,
+   "objetos": [
+    "kit/white_house"
+   ],
+   "palavras": 7,
+   "cena": "b5",
+   "frase": "Os apoiadores comemoraram, e ele declarou vitória.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "hall"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "REP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 11,
+   "cena": "b6",
+   "frase": "Antes dele, só Grover Cleveland tinha voltado assim, há 130 anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/white_house"
+   ],
+   "palavras": 8,
+   "cena": "b7",
+   "frase": "Antes foi o presidente 45. Agora, o 47.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "REP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/ballot_box",
+    "kit/white_house"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Perdeu, voltou e ganhou. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

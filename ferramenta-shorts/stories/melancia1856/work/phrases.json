@@ -1,0 +1,135 @@
+{
+ "duration": 30.336,
+ "frames30": 910,
+ "source": "silence-align (cost 1.28)",
+ "segments": [
+  [
+   0.0,
+   2.83062
+  ],
+  [
+   3.20546,
+   5.02429
+  ],
+  [
+   5.39079,
+   6.91596
+  ],
+  [
+   7.13721,
+   9.14987
+  ],
+  [
+   9.52858,
+   12.1567
+  ],
+  [
+   12.5086,
+   13.3859
+  ],
+  [
+   13.7652,
+   15.3312
+  ],
+  [
+   15.7102,
+   16.2543
+  ],
+  [
+   16.4841,
+   18.5133
+  ],
+  [
+   18.8759,
+   20.9187
+  ],
+  [
+   21.2876,
+   23.9947
+  ],
+  [
+   24.3689,
+   26.8528
+  ],
+  [
+   27.2319,
+   28.7793
+  ],
+  [
+   29.1499,
+   29.8895
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma fatia de melancia quase virou guerra entre dois pa\u00edses.",
+   "s": 0.0,
+   "e": 2.831
+  },
+  {
+   "text": "E a fatia custava s\u00f3 uns centavos.",
+   "s": 3.205,
+   "e": 5.024
+  },
+  {
+   "text": "Em 1856,",
+   "s": 5.391,
+   "e": 6.916
+  },
+  {
+   "text": "viajantes cruzavam o Panam\u00e1 atr\u00e1s de ouro.",
+   "s": 7.137,
+   "e": 9.15
+  },
+  {
+   "text": "Um americano comeu uma fatia de melancia e n\u00e3o quis pagar.",
+   "s": 9.529,
+   "e": 12.157
+  },
+  {
+   "text": "O vendedor cobrou.",
+   "s": 12.509,
+   "e": 13.386
+  },
+  {
+   "text": "O viajante riu e sacou uma arma.",
+   "s": 13.765,
+   "e": 15.331
+  },
+  {
+   "text": "Em minutos,",
+   "s": 15.71,
+   "e": 16.254
+  },
+  {
+   "text": "virou briga de moradores contra viajantes.",
+   "s": 16.484,
+   "e": 18.513
+  },
+  {
+   "text": "Os viajantes se trancaram na esta\u00e7\u00e3o de trem.",
+   "s": 18.876,
+   "e": 20.919
+  },
+  {
+   "text": "Acontece que mais de quinze pessoas morreram naquele dia.",
+   "s": 21.288,
+   "e": 23.995
+  },
+  {
+   "text": "A Col\u00f4mbia teve que pagar uma indeniza\u00e7\u00e3o aos americanos.",
+   "s": 24.369,
+   "e": 26.853
+  },
+  {
+   "text": "Tudo por centavos que ningu\u00e9m pagou.",
+   "s": 27.232,
+   "e": 28.779
+  },
+  {
+   "text": "E foi assim que...",
+   "s": 29.15,
+   "e": 29.89
+  }
+ ]
+}

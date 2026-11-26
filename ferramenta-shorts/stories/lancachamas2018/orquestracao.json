@@ -1,0 +1,234 @@
+{
+ "id": "lancachamas2018",
+ "ano": 2018,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/fire",
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um bilionário vendeu lança-chamas jurando que não era lança-chamas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/extinguisher"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E o motivo desse nome é bem esperto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/bancada",
+    "kit/flamethrower",
+    "kit/marco_hollywood",
+    "kit/tunel_boring"
+   ],
+   "palavras": 12,
+   "cena": "b2",
+   "frase": "Em 2018, a empresa de túneis de Elon Musk lançou o aparelho.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/flamethrower"
+   ],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O nome era Não é um lança-chamas. Custava quinhentos dólares.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/bancada",
+    "kit/fire",
+    "kit/flamethrower",
+    "kit/marco_hollywood"
+   ],
+   "palavras": 7,
+   "cena": "b4",
+   "frase": "Acontece que ele soltava fogo de verdade.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_deserto"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/flamethrower",
+    "mk/Crate_Metal"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "O nome servia para driblar a alfândega, que barrava lança-chamas.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "CMP",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/extinguisher"
+   ],
+   "palavras": 8,
+   "cena": "b6",
+   "frase": "E vinha com um extintor de incêndio junto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_hollywood"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "Vinte mil unidades esgotaram em poucos dias.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "CMP"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "nature/picket_fence"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Isso rendeu cerca de dez milhões de dólares.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/bancada",
+    "kit/fire",
+    "kit/flamethrower"
+   ],
+   "palavras": 10,
+   "cena": "b9",
+   "frase": "O nome mentia, e todo mundo sabia. Foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

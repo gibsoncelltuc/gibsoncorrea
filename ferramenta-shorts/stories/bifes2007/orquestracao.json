@@ -1,0 +1,196 @@
+{
+ "id": "bifes2007",
+ "ano": 2007,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 11,
+   "cena": "b0",
+   "frase": "O bife do Trump sumiu das lojas em só dois meses.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 10,
+   "cena": "b1",
+   "frase": "E o resultado foi bem menor do que se imaginava.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Em 2007, ele lançou a Trump Steaks.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "VEN",
+    "CLI",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "Os pacotes custavam até novecentos e noventa e nove dólares.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "VEN",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Acontece que, em julho, a loja já não oferecia os bifes.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "TRU",
+    "JOR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Uma reportagem estimou menos de cinquenta mil dólares no total.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "CLI",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "Em 2014, a marca foi cancelada.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "CLI"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 10,
+   "cena": "b7",
+   "frase": "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "TRU",
+    "VEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/steak"
+   ],
+   "palavras": 10,
+   "cena": "b8",
+   "frase": "Nome famoso não salvou a carne. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}

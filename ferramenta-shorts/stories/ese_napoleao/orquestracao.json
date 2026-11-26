@@ -1,0 +1,209 @@
+{
+ "id": "ese_napoleao",
+ "ano": 1815,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "NAP",
+    "WEL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 10,
+   "cena": "b0",
+   "frase": "Napoleão ganha em Waterloo, e a Europa muda para sempre.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 7,
+   "cena": "b1",
+   "frase": "A resposta dos historiadores vai te surpreender.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "FRA",
+    "FRA"
+   ],
+   "multidao": 6,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b2",
+   "frase": "Era 18 de junho de 1815, na Bélgica.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAP",
+    "FRA"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b3",
+   "frase": "Napoleão tinha saído do exílio e retomado o poder.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "FRA",
+    "ING",
+    "FRA"
+   ],
+   "multidao": 40,
+   "objetos": [
+    "cannon"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "ING",
+    "ING",
+    "FRA"
+   ],
+   "multidao": 18,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "No fim da tarde, os prussianos chegaram, e Napoleão perdeu.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "mountain"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAP",
+    "WEL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "PRO"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 9,
+   "cena": "b7",
+   "frase": "Acontece que, para muitos historiadores, a derrota viria igual.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "PRO",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/scroll"
+   ],
+   "palavras": 7,
+   "cena": "b8",
+   "frase": "Rússia e Áustria já marchavam contra ele.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "NAP",
+    "WEL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/crown"
+   ],
+   "palavras": 11,
+   "cena": "b9",
+   "frase": "Um dia famoso nem sempre muda o destino. Mas imagina que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

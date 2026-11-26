@@ -1,0 +1,115 @@
+{
+ "id": "mendel1856",
+ "titulo": "Curiosidade e Ciência EP 09 - Mendel e as Ervilhas",
+ "ancoras": {
+  "ano": 1856,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "interior madeira",
+   "interior pedra",
+   "loc_campo"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 1",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 3",
+    "medieval",
+    "loc_campo"
+   ],
+   [
+    "cena 10",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/church",
+  "kit/bancada",
+  "kit/lupa",
+  "kit/pe_ervilha",
+  "kit/room_azul_stone",
+  "kit/room_colonial_stone",
+  "kit/room_europa_stone",
+  "kit/room_rosa_wood",
+  "kit/room_verde_wood",
+  "kit/vagem_amarela",
+  "kit/vagem_verde",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/CandleStick_Triple",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "Abadia de Sao Tomas, Brno (Moravia, Imperio Austriaco): horta e estufa do mosteiro, biblioteca",
+  "quando": "1856 a 1866, dia, primavera e verao",
+  "participantes": [
+   "Gregor Mendel (habito preto de monge agostiniano, oculos redondos)",
+   "frades do mosteiro",
+   "cientistas de 1900 (de Vries, Correns, Tschermak) de terno"
+  ],
+  "roupas": {
+   "MEN": "habito preto de monge e oculos",
+   "FRE": "habito preto",
+   "CIE": "terno escuro e barba do seculo 19"
+  },
+  "cenario": "horta murada do mosteiro com canteiros de ervilha, estufa de vidro, sala de pedra com livros",
+  "objetos": [
+   "vagens verdes e amarelas abertas com ervilhas",
+   "caderno de anotacoes",
+   "vasos de plantas"
+  ],
+  "explicacoes": [
+   "Mendel cruzou ervilhas (1856-1863), viu a proporcao 3:1 na segunda geracao, publicou em 1866 e foi redescoberto em 1900 (fonte: Wikipedia Gregor Mendel, Experiments on Plant Hybridization)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Gregor_Mendel",
+   "https://commons.wikimedia.org/wiki/Category:Mendel_Museum_of_Genetics"
+  ],
+  "buscas": {
+   "ervilhas": "pea pods open green yellow peas"
+  }
+ },
+ "fontes": [],
+ "falta": []
+}

@@ -1,0 +1,405 @@
+{
+ "id": "v1_croc",
+ "pagina": "fossil.html",
+ "titulo": "Could a Saltwater Crocodile Survive Every Prehistoric Era?",
+ "voz": "en-US-AndrewNeural",
+ "rate": "-4%",
+ "tiers": {
+  "S": [
+   "Pleistocene"
+  ],
+  "A": [
+   "Carboniferous",
+   "Triassic",
+   "Jurassic",
+   "Paleocene"
+  ],
+  "B": [
+   "Devonian",
+   "Cretaceous",
+   "Miocene"
+  ],
+  "C": [
+   "Permian"
+  ],
+  "D": [],
+  "F": [
+   "Cambrian",
+   "Ordovician & Silurian"
+  ]
+ },
+ "blocos": [
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "cam": "close",
+   "rotulo": "",
+   "prof": "",
+   "texto": "Saltwater crocodiles are the largest reptiles alive today. Twenty feet long, over two thousand pounds, and the strongest bite ever measured in a living animal. Their family has been around for more than two hundred million years. They watched the dinosaurs rise and they watched them disappear. So here's the question. If you took a group of modern saltwater crocodiles and dropped them into every era of Earth's history, would they survive? Would they take over? Or would something out there eat them alive? Let's find out."
+  },
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "cam": "orbita",
+   "rotulo": "THE RULES",
+   "prof": "100 CROCODILES",
+   "texto": "Here are the rules. We drop a breeding population of one hundred saltwater crocodiles, males and females, into each era. They need three things to make it. Air they can breathe. Water that is warm enough, because crocodiles are cold blooded. And food, big enough to be worth hunting. A crocodile can survive months without eating, so starvation is slow. At the end of each era, I'll give a tier. S tier means they take over and become the top predator. A tier means they live a good life. B, they survive but struggle. And F means they're gone."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0b3a55",
+   "chao": "#4a4538",
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "anomalocaris",
+     "m": 1,
+     "rotulo": "ANOMALOCARIS",
+     "tam": "3 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "trilobita",
+     "m": 0.1,
+     "q": 30,
+     "min": 0.06
+    }
+   ],
+   "rotulo": "THE CAMBRIAN",
+   "prof": "500 MILLION YEARS AGO",
+   "tier": "F",
+   "veredito": "STARVED",
+   "texto": "We start in the Cambrian, five hundred million years ago. And immediately, there's a problem. There is nothing on land. No plants, no animals, just bare rock. All life is in the ocean. The biggest predator on the planet is Anomalocaris, about three feet long. It looks terrifying, but to a crocodile it's a snack. The real problem is food. Most animals here are trilobites, the size of your thumb. A crocodile would need thousands of them every week. On top of that, the air has less oxygen than today. The crocodiles would be breathing hard, hunting tiny prey in cold water, with nowhere warm to lay their eggs. They'd slowly starve. F tier."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0d3550",
+   "chao": "#454035",
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "cameroceras",
+     "m": 6,
+     "rotulo": "CAMEROCERAS",
+     "tam": "UP TO 20 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "trilobita",
+     "m": 0.1,
+     "q": 14,
+     "min": 0.06
+    }
+   ],
+   "rotulo": "ORDOVICIAN & SILURIAN",
+   "prof": "450 MILLION YEARS AGO",
+   "tier": "F",
+   "veredito": "TOO COLD",
+   "texto": "Next, the Ordovician and the Silurian. The first tiny plants are starting to creep onto the shore, but land is still almost empty. In the sea there's Cameroceras, a giant nautiloid with a straight shell that may have reached twenty feet. Tentacles, a beak, and the crocodile has never seen anything like it. Now food is getting a little better. There are more fish, and sea scorpions. But at the end of the Ordovician, the planet freezes. A huge ice age hits, and most species in the ocean die. Cold-blooded crocodiles in freezing water just shut down. Even if a few made it, the ice would finish them. F tier again."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0e3a4a",
+   "chao": "#4a4636",
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "dunkleosteus",
+     "m": 4,
+     "rotulo": "DUNKLEOSTEUS",
+     "tam": "13 FT"
+    }
+   ],
+   "rotulo": "THE DEVONIAN",
+   "prof": "375 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "SURVIVES",
+   "texto": "The Devonian. The age of fish. And now things change. There's real food everywhere. Rivers and lakes are full of fish, and the first forests are growing on land. The top predator is Dunkleosteus, an armored fish around thirteen feet long, with bony blades instead of teeth and one of the strongest bites of any fish ever. In open water, a crocodile would not want to meet it. But crocodiles don't need the open ocean. They can stay in rivers and shallow lagoons, where Dunkleosteus can't follow, and eat fish all day. The air is fine, the water is warm. They survive, but the oceans belong to the fish. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#3e4a26",
+   "ceu": "#a9c3b0",
+   "nevoa": 0.03,
+   "flora": "licopsida",
+   "flora_m": 9,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "arthropleura",
+     "m": 2.6,
+     "rotulo": "ARTHROPLEURA",
+     "tam": "8.5 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "meganeura",
+     "m": 0.7,
+     "q": 5,
+     "voa": true,
+     "min": 0.25
+    }
+   ],
+   "rotulo": "THE CARBONIFEROUS",
+   "prof": "310 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "THRIVES",
+   "texto": "The Carboniferous. This is where it gets wild. The air has much more oxygen than today, maybe thirty five percent, and bugs grow to insane sizes. Arthropleura, a millipede over eight feet long, walks through the forest. Dragonflies like Meganeura have wings over two feet wide. And the whole planet is a giant tropical swamp. Warm water, endless rivers, mud banks to lay eggs. For a crocodile, this is paradise. The biggest predators are large amphibians, and a twenty foot crocodile would simply eat them. The only danger is that, with that much oxygen, wildfires burn often. But crocodiles live in water. A tier, maybe close to S."
+  },
+  {
+   "amb": "terra",
+   "chao": "#9a7a4a",
+   "ceu": "#d8c49a",
+   "nevoa": 0.022,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "inostrancevia",
+     "m": 3.5,
+     "rotulo": "INOSTRANCEVIA",
+     "tam": "11 FT"
+    }
+   ],
+   "rotulo": "THE PERMIAN",
+   "prof": "260 MILLION YEARS AGO",
+   "tier": "C",
+   "veredito": "WIPED OUT",
+   "texto": "The Permian. All the continents have crashed together into one supercontinent, Pangaea. The inside of Pangaea is a huge dry desert, so the crocodiles need to stay near the coast and the rivers. The top predators are gorgonopsids, like Inostrancevia. Eleven feet long, with saber teeth five inches long. On land, it could hurt a young crocodile. But in the water, the crocodile wins every time. So far, so good. The problem comes at the end. The Permian ends with the worst extinction in Earth's history. Volcanoes poison the air, the oceans heat up, and about ninety percent of marine species die. Our crocodiles would very likely die with them. C tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#8a6a44",
+   "ceu": "#cfc3a0",
+   "nevoa": 0.02,
+   "flora": "samambaia",
+   "flora_m": 4,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "postosuchus",
+     "m": 4.5,
+     "rotulo": "POSTOSUCHUS",
+     "tam": "15 FT"
+    }
+   ],
+   "rotulo": "THE TRIASSIC",
+   "prof": "220 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "FEELS AT HOME",
+   "texto": "The Triassic. And here's something crazy. This is the era of the crocodile's own family. Before the dinosaurs took over, croc relatives ruled. Postosuchus walked on long legs and hunted on land, fifteen feet long. Phytosaurs lived in rivers and looked almost exactly like modern crocodiles, even though they weren't closely related. The early Triassic is brutally hot, but by the late Triassic the world is livable, with rivers, ferns and plenty of prey. Our crocodiles would have to fight phytosaurs for the best rivers, and they'd probably win, because they're bigger. They would fit right in. A tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#5a6a3a",
+   "ceu": "#a8cbe0",
+   "nevoa": 0.016,
+   "flora": "nature/tree_pine",
+   "flora_m": 10,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "allosaurus",
+     "m": 9,
+     "rotulo": "ALLOSAURUS",
+     "tam": "30 FT"
+    }
+   ],
+   "rotulo": "THE JURASSIC",
+   "prof": "150 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "SURVIVES WELL",
+   "texto": "The Jurassic. Now the dinosaurs are in charge. Allosaurus, thirty feet long, is one of the top predators on land. Sauropods the size of buildings walk past the rivers. On land, a crocodile would lose to an Allosaurus. But dinosaurs need water too. Every time a dinosaur comes to drink, it has to lower its head right where a crocodile is waiting. In the rivers, the crocodile is the one in control. The climate is warm and humid, which is perfect for reptiles. The only real competition is other crocodile relatives that already live there. Our crocs survive, and they eat well. A tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#5e6a3c",
+   "ceu": "#b4cfe0",
+   "nevoa": 0.016,
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "deinosuchus",
+     "m": 10,
+     "rotulo": "DEINOSUCHUS",
+     "tam": "33 FT"
+    },
+    {
+     "n": "trex",
+     "m": 12,
+     "rotulo": "T. REX",
+     "tam": "40 FT"
+    }
+   ],
+   "rotulo": "THE CRETACEOUS",
+   "prof": "70 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "OUTMATCHED, BUT ALIVE",
+   "texto": "The late Cretaceous. This is the age of Tyrannosaurus rex. But in the rivers, there's something even scarier for our crocodiles. Deinosuchus. A crocodile relative more than thirty feet long, with teeth the size of bananas, and fossils show it actually bit dinosaurs. Next to Deinosuchus, a saltwater crocodile looks like a juvenile. Our crocs would get pushed into smaller rivers and swamps. And then, sixty six million years ago, the asteroid hits. Here's the amazing part. Real crocodiles survived that impact, while the dinosaurs didn't. Cold blooded animals that can go months without food and hide in water had the best chance. Our crocs would likely make it too. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#4a5a2e",
+   "ceu": "#b8d0c4",
+   "nevoa": 0.03,
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "titanoboa",
+     "m": 13,
+     "rotulo": "TITANOBOA",
+     "tam": "42 FT"
+    }
+   ],
+   "rotulo": "THE PALEOCENE",
+   "prof": "60 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "DANGEROUS, BUT FINE",
+   "texto": "The Paleocene, just a few million years after the asteroid. The planet is hot, much hotter than today, and South America is covered in rainforest. And in those swamps lives Titanoboa. A snake forty two feet long that weighed more than a ton. It was found in a coal mine in Colombia, next to fossils of crocodile relatives that it probably ate. A fully grown saltwater crocodile is a different story though. It's heavier, armored, and it bites back. A young croc would be in danger, but an adult would be a fight Titanoboa might not want. With warm water and lots of fish, our crocodiles would do well. A tier."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0d4060",
+   "chao": "#5a5440",
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "megalodon",
+     "m": 15,
+     "rotulo": "MEGALODON",
+     "tam": "50 FT"
+    }
+   ],
+   "rotulo": "THE MIOCENE",
+   "prof": "10 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "STAY OUT OF THE SEA",
+   "texto": "The Miocene. The world looks a lot more like today, with grasslands and modern looking mammals. But it has two huge threats. In South America, there's Purussaurus, a caiman more than thirty feet long that ruled the Amazon. Our crocs would have to avoid it. And in the ocean, there's Megalodon, a shark around fifty feet long. Saltwater crocodiles love to travel between islands through the sea. In the Miocene, that would be a terrible idea. Still, there are plenty of rivers in Africa, Asia and Australia without giants in them. Our crocodiles survive, as long as they stay out of the open sea. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#7a6a44",
+   "ceu": "#c4d6e4",
+   "nevoa": 0.016,
+   "flora": "nature/tree_oak",
+   "flora_m": 6,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "megalania",
+     "m": 5.5,
+     "rotulo": "MEGALANIA",
+     "tam": "18 FT"
+    }
+   ],
+   "rotulo": "THE PLEISTOCENE",
+   "prof": "50,000 YEARS AGO",
+   "tier": "S",
+   "veredito": "THEY ACTUALLY DID IT",
+   "texto": "And finally, the Pleistocene, the Ice Age. You'd think this would be the worst era for a cold blooded reptile. But only part of the world froze. The tropics stayed warm. And here's the twist. Saltwater crocodiles actually lived in this era. In Australia they shared the land with Megalania, a giant monitor lizard around eighteen feet long. And they shared the coasts with the first humans to arrive there. The giant lizard went extinct. The crocodiles are still here. So the Pleistocene isn't a test. It's history. They passed. S tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "crocodilo",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "rotulo": "FINAL TIER LIST",
+   "prof": "",
+   "lista": true,
+   "texto": "So here's the final list. The Pleistocene is S tier, because they literally survived it. The Carboniferous, the Triassic, the Jurassic and the Paleocene are A tier. The Devonian, the Cretaceous and the Miocene are B tier. The Permian is C, because of that extinction. And the Cambrian and the Ordovician are F, because there was simply nothing to eat. Saltwater crocodiles are survivors. They don't need to be the biggest animal around. They just need warm water and patience. Do you agree with this list? Which era do you think they would struggle in the most? Let me know in the comments."
+  }
+ ],
+ "trilha": "cine"
+}

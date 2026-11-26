@@ -1,0 +1,517 @@
+{
+ "title": "As Guerras do Bacalhau",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "assets": [
+  "ship"
+ ],
+ "outfits": {
+  "ICE": {
+   "jacket": "#1f3a6a",
+   "pants": "#1f3a6a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1f3a6a",
+   "buttons": "#e8c45a",
+   "belt": "#f1efe6",
+   "moustache_on": "#4a3020"
+  },
+  "BRI": {
+   "jacket": "#f1efe6",
+   "pants": "#1f2a4a",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#f1efe6",
+   "buttons": "#e8c45a",
+   "belt": "#1f2a4a"
+  },
+  "PES": {
+   "jacket": "#e6c01f",
+   "pants": "#e6c01f",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#e6c01f",
+   "moustache_on": "#3a2a1f"
+  }
+ },
+ "beats": [
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/barco_guarda",
+     2,
+     -13,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
+     6,
+     -14,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     15,
+     -27,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     18,
+     -44,
+     1.0
+    ]
+   ],
+   "text": "ISLÂNDIA VENCEU",
+   "tat": 16,
+   "tstyle": "blue",
+   "cx": 7,
+   "cz": -16,
+   "h": 4.5,
+   "d0": 34,
+   "d1": 30,
+   "detalhe": false,
+   "impact": true,
+   "fx": [
+    "splash@40"
+   ],
+   "sfx": [
+    "creak@40"
+   ],
+   "bloco": "gancho",
+   "say": "A Islândia derrotou a marinha inglesa usando um cortador de rede.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Islândia"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "close",
+   "who": [
+    "PES:0:laugh"
+   ],
+   "props": [
+    [
+     "crate",
+     -1.8,
+     0.7,
+     1.0
+    ],
+    [
+     "kit/cod",
+     1.6,
+     1.8,
+     1.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tat": 13,
+   "tstyle": "brown",
+   "set": "harbor",
+   "bloco": "promessa",
+   "say": "E o motivo da briga era o bacalhau.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "bacalhau"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ICE:0:stern",
+    "BRI:0:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_leander",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "text": "1958-1976",
+   "tat": 14,
+   "tstyle": "blue",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44,
+   "bloco": "prova",
+   "say": "Foram três Guerras do Bacalhau, em quase vinte anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "três"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ICE:1:nervous",
+    "PES:0:grin"
+   ],
+   "props": [
+    [
+     "crate",
+     2.8,
+     0.8,
+     1.1
+    ]
+   ],
+   "text": "BACALHAU",
+   "tat": 14,
+   "tstyle": "brown",
+   "set": "harbor",
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Barcos ingleses pescavam bacalhau na costa da Islândia.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pescavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "ICE:2:stern"
+   ],
+   "props": [
+    [
+     "kit/navio_leander",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "set": "harbor",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44,
+   "hud": {
+    "contador": {
+     "de": 12,
+     "para": 200,
+     "un": "MILHAS",
+     "titulo": "LIMITE DO MAR",
+     "na": "doze",
+     "dur": 3.2
+    }
+   },
+   "bloco": "prova",
+   "say": "A Islândia ampliou o seu mar: de doze para duzentas milhas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "ampliou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/navio_leander",
+     -14,
+     -42,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     12,
+     -46,
+     1.0
+    ]
+   ],
+   "set": "harbor",
+   "cx": 0,
+   "cz": -40,
+   "h": 9.0,
+   "d0": 50,
+   "d1": 44,
+   "detalhe": false,
+   "impact": true,
+   "bloco": "escalada",
+   "say": "A Inglaterra mandou fragatas de guerra.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mandou"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/barco_guarda",
+     3,
+     -11,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
+     7,
+     -12,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     13,
+     -18,
+     1.0
+    ]
+   ],
+   "detalhe": false,
+   "cx": 6,
+   "cz": -13,
+   "h": 3.5,
+   "d0": 20,
+   "d1": 17,
+   "impact": true,
+   "fachada": false,
+   "bloco": "escalada",
+   "say": "Acontece que a Islândia só tinha barcos da guarda costeira.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "barcos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/barco_guarda",
+     2,
+     -12,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
+     6,
+     -13,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     14,
+     -25,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     30,
+     -56,
+     1.0
+    ]
+   ],
+   "fx": [
+    "splash@30",
+    "burst@55"
+   ],
+   "sfx": [
+    "creak@30",
+    "thump@55"
+   ],
+   "cx": 7,
+   "cz": -14,
+   "h": 4.0,
+   "d0": 28,
+   "d1": 25,
+   "shot_lock": true,
+   "detalhe": false,
+   "bloco": "escalada",
+   "say": "E eles cortavam as redes inglesas no meio do mar.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cortavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "BRI:0:pained:paper",
+    "ICE:0:laugh"
+   ],
+   "text": "VITÓRIA ISLANDESA",
+   "tat": 12,
+   "tstyle": "gold",
+   "interacao": "entregar",
+   "props": [
+    [
+     "kit/scroll",
+     0,
+     -1.5,
+     1.2
+    ]
+   ],
+   "fachada": false,
+   "bloco": "pagamento",
+   "say": "Em 1976, a Inglaterra finalmente desistiu da briga.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Inglaterra"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "who": [],
+   "props": [
+    [
+     "kit/barco_guarda",
+     2,
+     -13,
+     1.0
+    ],
+    [
+     "kit/fishing_net",
+     6,
+     -14,
+     1.0
+    ],
+    [
+     "kit/navio_vapor",
+     15,
+     -27,
+     1.0
+    ],
+    [
+     "kit/navio_leander",
+     18,
+     -44,
+     1.0
+    ]
+   ],
+   "text": "ISLÂNDIA VENCEU",
+   "tat": 16,
+   "tstyle": "blue",
+   "cx": 7,
+   "cz": -16,
+   "h": 4.5,
+   "d0": 34,
+   "d1": 30,
+   "detalhe": false,
+   "impact": true,
+   "fx": [
+    "splash@40"
+   ],
+   "sfx": [
+    "creak@40"
+   ],
+   "bloco": "loop",
+   "say": "As duzentas milhas viraram regra no mundo. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "duzentas"
+     }
+    ]
+   }
+  }
+ ],
+ "variar_cenario": false,
+ "serie": "Guerras Inusitadas",
+ "ep": 25,
+ "titulo_base": "As Guerras do Bacalhau",
+ "visual": {
+  "local": "Atlântico Norte, mar aberto perto da costa da Islândia (Reykjavik e a costa de pesca); águas cinzentas e frias",
+  "quando": "1958 a 1976, em três disputas (1958-61, 1972-73, 1975-76); dia nublado de mar",
+  "participantes": [
+   "guarda costeira da Islândia (uniforme azul-marinho, bonés)",
+   "marinheiros da Marinha Real britânica (uniforme branco e azul)",
+   "pescadores de capa amarela"
+  ],
+  "roupas": {
+   "ICE": "uniforme azul-marinho com botões dourados",
+   "BRI": "uniforme branco e azul naval",
+   "PES": "capa de chuva amarela de pescador"
+  },
+  "cenario": "porto e mar cinzento do Atlântico Norte com barcos de pesca, fragatas e navios da guarda costeira da época (anos 1950-70)",
+  "objetos": [
+   "bacalhau",
+   "caixote de peixe",
+   "navio da guarda costeira",
+   "fragata britânica",
+   "cabo de rede de pesca"
+  ],
+  "explicacoes": [
+   "Cortadores de rede: a guarda costeira islandesa cortava os cabos de arrasto dos barcos ingleses (fonte: Wikipedia \"Cod Wars\")"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Cod_Wars",
+   "https://commons.wikimedia.org/wiki/Category:Cod_Wars"
+  ]
+ },
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Cod_Wars"
+ ],
+ "gancho_tipo": "crenca",
+ "gancho_cumprido": "Gancho: a Islandia derrotou a marinha inglesa com um cortador de rede, numa briga por peixe. Pagamento: barquinhos cortavam as redes inglesas e, em 1976, a Inglaterra desistiu; as 200 milhas viraram regra.",
+ "loop_frase_ok": true
+}

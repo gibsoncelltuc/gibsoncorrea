@@ -1,0 +1,591 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "title": "A Guerra do Balde",
+ "set": "medieval",
+ "light": "day",
+ "mood": "march",
+ "outfits": {
+  "MOD": {
+   "jacket": "#d9a441",
+   "pants": "#3a3a4a",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#8d949c",
+   "belt": "#2a2218",
+   "uniforme_fixo": true
+  },
+  "BOL": {
+   "jacket": "#b5333a",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "helmet",
+   "cap": "#6a6f78",
+   "belt": "#2a2218",
+   "uniforme_fixo": true
+  },
+  "POV": {
+   "jacket": "#7a9ac2",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hats": [
+    "cap",
+    "straw",
+    "bonnet"
+   ],
+   "cap": "#8a5a3a"
+  },
+  "NOB": {
+   "jacket": "#7b2a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "crown",
+   "build": "stout"
+  },
+  "PAP": {
+   "profissao": "padre",
+   "jacket": "#f4f1e8",
+   "pants": "#f4f1e8",
+   "boots": "#2a2218",
+   "sash": "#d8282f"
+  }
+ },
+ "serie": "Guerras Inusitadas",
+ "ep": 4,
+ "titulo_base": "A Guerra do Balde",
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:grin",
+    "BOL:0:shock"
+   ],
+   "props": [
+    [
+     "kit/balde_madeira",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "gancho",
+   "say": "Uma guerra de verdade teve um balde de madeira como troféu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   },
+   "text": "GUERRA DO BALDE",
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:smile"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     7.0,
+     -15.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/balde_madeira",
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "text": "TORRE GHIRLANDINA",
+   "bloco": "promessa",
+   "say": "E esse balde está guardado até hoje.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "guardado"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "NOB:0:stern",
+    "PAP:0:stern"
+   ],
+   "mapa": "ITÁLIA",
+   "mapa_at": 6,
+   "tiros": false,
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Módena e Bolonha, na Itália, disputavam a fronteira havia décadas.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "disputavam"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "reveal",
+   "who": [
+    "BOL:0:stern",
+    "BOL:1:stern"
+   ],
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "BOL"
+    ],
+    "march": true
+   },
+   "text": "30.000",
+   "titulo": true,
+   "tiros": false,
+   "set": "loc_campo",
+   "bloco": "prova",
+   "say": "Em 1325, Bolonha marchou com cerca de trinta mil soldados.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "chega",
+      "na": "marchou",
+      "quem": 0
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:nervous",
+    "MOD:1:pained"
+   ],
+   "tiros": false,
+   "crowd": {
+    "n": 6,
+    "outfits": [
+     "MOD"
+    ],
+    "march": false,
+    "poucos": true
+   },
+   "set": "loc_campo",
+   "bloco": "prova",
+   "say": "Módena tinha menos de oito mil homens.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "menos"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "crowd",
+   "who": [
+    "MOD:0:stern",
+    "BOL:0:shock"
+   ],
+   "batalha": true,
+   "crowd": {
+    "n": 32,
+    "outfits": [
+     "MOD",
+     "BOL"
+    ],
+    "march": false,
+    "expr": "angry"
+   },
+   "tiros": false,
+   "set": "loc_campo",
+   "bloco": "escalada",
+   "say": "Acontece que Módena atacou ao pôr do sol, e Bolonha fugiu.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "corre",
+      "na": "fugiu",
+      "quem": 1
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:flag",
+    "MOD:1:grin"
+   ],
+   "tiros": false,
+   "acao": "comemorar",
+   "crowd": {
+    "n": 8,
+    "outfits": [
+     "MOD"
+    ],
+    "march": true
+   },
+   "batalha": false,
+   "set": "loc_campo",
+   "bloco": "escalada",
+   "say": "Depois, fizeram festa na porta de Bolonha.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "festa",
+      "quem": 0,
+      "forcar": true
+     },
+     {
+      "faz": "x_ri",
+      "na": "festa",
+      "quem": 1,
+      "forcar": true
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:laugh:bag",
+    "MOD:1:grin"
+   ],
+   "props": [
+    [
+     "kit/well",
+     3.6,
+     -2.0,
+     1.4,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/balde_madeira",
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "buildings/castle_tower",
+     7.0,
+     -14.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "buildings/castle_tower",
+     -7.0,
+     -14.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "PORTA DE BOLONHA",
+   "crowd": {
+    "n": 0,
+    "outfits": [],
+    "march": false
+   },
+   "tiros": false,
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "acao": "pega",
+   "bloco": "pagamento",
+   "say": "E levaram de troféu o balde do poço da cidade.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "pega",
+      "na": "levaram",
+      "quem": 0
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "kit/well",
+      "lugar": "MEIO, direita",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, esquerda",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "objetos": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:smile"
+   ],
+   "props": [
+    [
+     "buildings/castle_tower",
+     7.0,
+     -15.2,
+     2.2,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "kit/balde_madeira",
+     2.4,
+     0.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "tiros": false,
+   "set": "medieval",
+   "fachada": false,
+   "shot_lock": true,
+   "text": "TORRE GHIRLANDINA",
+   "bloco": "pagamento",
+   "say": "O balde está na torre Ghirlandina, em Módena.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "torre"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 8.0 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, direita (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     },
+     {
+      "objeto": "buildings/castle_tower",
+      "lugar": "FUNDO, direita",
+      "tela": "18% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "MOD:0:grin",
+    "BOL:0:shock"
+   ],
+   "props": [
+    [
+     "kit/balde_madeira",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "loop",
+   "say": "Milhares de soldados, e o prêmio foi um balde. Foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "balde"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "BOL",
+     "MOD"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "vila medieval",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e balde_madeira juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/balde_madeira",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "min_momentos": 1,
+ "visual": {
+  "local": "Zappolino",
+  "quando": "15 de novembro de 1325, ao pôr do sol; outono",
+  "participantes": [
+   "exército de Bolonha",
+   "exército de Módena",
+   "Passerino Bonacolsi",
+   "Alessandro Tassoni"
+  ],
+  "roupas": {
+   "MOD": "gibelinos: sobrecota amarela, elmo de ferro",
+   "BOL": "guelfos de Bolonha: sobrecota vermelha, elmo",
+   "NOB": "nobre/senhor com coroa e manto roxo",
+   "POV": "camponês de colete azul e chapéu"
+  },
+  "cenario": "campo e colina, muralha de tijolo com portão de Bolonha, poço de pedra, torre alta de Módena",
+  "objetos": [
+   "balde de madeira",
+   "poço de pedra"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Zappolino",
+   "referencias/balde1325/moodboard.jpg"
+  ],
+  "buscas": {
+   "Módena": "Torre della Ghirlandina Modena",
+   "Bolonha": "Bologna medieval city walls gate",
+   "batalha": "Battle of Zappolino 1325",
+   "balde": "Secchia rapita bucket Modena Ghirlandina",
+   "soldado da epoca": "14th century Italian infantry crossbowman illustration",
+   "Zappolino": "Zappolino Valsamoggia castle hill",
+   "balde de madeira": "wooden bucket medieval iron bands",
+   "exército de Bolonha": "Bologna medieval army 14th century",
+   "exército de Módena": "Modena medieval soldiers 14th century",
+   "Passerino Bonacolsi": "Passerino Bonacolsi Mantua"
+  }
+ },
+ "heroi": "kit/balde_madeira",
+ "herois_nomes": {
+  "kit/balde_madeira": "balde de madeira medieval"
+ },
+ "set_tematico_ok": true,
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma guerra de verdade teve um balde como trofeu e ele esta guardado ate hoje. Pagamento: Modena com menos de oito mil venceu os trinta mil de Bolonha e levou o balde do poco, hoje na torre Ghirlandina.",
+ "loop_frase_ok": true
+}

@@ -1,0 +1,429 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Poder e Fama",
+ "ep": 6,
+ "title": "Os Bifes com o Nome do Trump",
+ "titulo_base": "Os Bifes com o Nome do Trump",
+ "set": "street",
+ "mood": "playful",
+ "heroi": "kit/steak",
+ "outfits": {
+  "JOR": {
+   "jacket": "#4a6a9a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#8a5a2a",
+   "glasses": true,
+   "fixo": true
+  },
+  "JOR2": {
+   "jacket": "#9a4a5a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#1a1a1a",
+   "fixo": true
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair",
+    "beret",
+    "bowler"
+   ]
+  },
+  "TRU": {
+   "jacket": "#1f2f5c",
+   "pants": "#1f2f5c",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#f2c84a",
+   "tie": "#d8282f",
+   "pele": "#f5c49a",
+   "build": "stout",
+   "fixo": true,
+   "swoop": true
+  },
+  "VEN": {
+   "jacket": "#8a2a2a",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#2a2a2a",
+   "glasses": true,
+   "fixo": true
+  },
+  "CLI": {
+   "jacket": "#3a6a4a",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#7a4a2a",
+   "fixo": true
+  }
+ },
+ "beats": [
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "VEN:0:smug"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade",
+   "bloco": "gancho",
+   "say": "O bife do Trump sumiu das lojas em só dois meses.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "sumiu"
+     }
+    ]
+   },
+   "text": "TRUMP STEAKS",
+   "titulo": true
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "VEN:0:laugh"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     2.4,
+     0.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 1.2,
+   "cz": 0.1,
+   "d0": 8.4,
+   "d1": 8.0,
+   "interior": "madeira",
+   "bloco": "promessa",
+   "say": "E o resultado foi bem menor do que se imaginava.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "resultado"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "TRU:0:smug",
+    "VEN:0:grin"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 1,
+   "props": [
+    [
+     "kit/steak",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "loja",
+   "bloco": "prova",
+   "say": "Em 2007, ele lançou a Trump Steaks.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "lançou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "group",
+   "who": [
+    "VEN:0:grin",
+    "CLI:0:shock",
+    "POV:0:shock"
+   ],
+   "text": "$ 999",
+   "fx": [
+    "burst@40"
+   ],
+   "sfx": [
+    "ding@40"
+   ],
+   "interior": "pedra",
+   "bloco": "prova",
+   "say": "Os pacotes custavam até novecentos e noventa e nove dólares.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "custavam"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "VEN:0:worried",
+    "CLI:0:suspicious"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     0.0,
+     -1.2,
+     1.4,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "loja",
+   "bloco": "escalada",
+   "say": "Acontece que, em julho, a loja já não oferecia os bifes.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "loja"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": true,
+   "shot": "two",
+   "who": [
+    "TRU:0:sad",
+    "JOR:0:smug:paper"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "text": "$ 50 MIL",
+   "fx": [
+    "puff@40"
+   ],
+   "sfx": [
+    "thump@40"
+   ],
+   "set": "loc_cidade",
+   "bloco": "escalada",
+   "say": "Uma reportagem estimou menos de cinquenta mil dólares no total.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "estimou"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "CLI:0:suspicious",
+    "VEN:0:stern"
+   ],
+   "interior": "pedra",
+   "bloco": "pagamento",
+   "say": "Em 2014, a marca foi cancelada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cancelada"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "TRU:0:laugh",
+    "CLI:0:smug"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "interior": "madeira",
+   "bloco": "pagamento",
+   "say": "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cardápio"
+     }
+    ]
+   }
+  },
+  {
+   "tiros": false,
+   "batalha": false,
+   "impact": false,
+   "shot": "two",
+   "who": [
+    "TRU:0:grin",
+    "VEN:0:smug"
+   ],
+   "props": [
+    [
+     "kit/steak",
+     0.0,
+     -1.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "set": "loc_cidade",
+   "bloco": "loop",
+   "say": "Nome famoso não salvou a carne. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "nome"
+     }
+    ]
+   }
+  }
+ ],
+ "exp": 1.0,
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Trump_Steaks",
+  "https://www.businessinsider.in/trump-once-put-his-name-on-everything-from-deodorant-to-water-bottles-heres-where-those-products-are-now/Trump-Steaks-launched-for-Sharper-Image-in-2007-ranged-from-199-for-a-pack-of-12-steak-burgers-and-four-steaks-to-999-for-a-selection-of-16-top-cuts-The-steaks-only-lasted-about-two-months-at-Sharper-Image-but-are-still-served-at-Trump-hotels-/slideshow/63802272.cms",
+  "https://www.yahoo.com/news/wild-story-behind-trumps-short-113300160.html"
+ ],
+ "light": "golden",
+ "ano": 2007,
+ "regiao": "eua",
+ "visual": {
+  "local": "Estados Unidos: lojas Sharper Image, estudio do canal QVC e restaurantes dos hoteis Trump em Nova York",
+  "quando": "maio a julho de 2007, dia",
+  "participantes": [
+   "Donald Trump (terno escuro e gravata vermelha)",
+   "vendedores de loja",
+   "clientes"
+  ],
+  "roupas": {
+   "TRU": "terno escuro, gravata vermelha",
+   "VEN": "camisa e cracha da loja",
+   "CLI": "roupa casual"
+  },
+  "cenario": "loja de eletronicos e presentes com vitrine, rua de Nova York, estudio de televisao, restaurante de hotel",
+  "objetos": [
+   "caixa de bifes congelados com o nome Trump",
+   "bife",
+   "televisao"
+  ],
+  "explicacoes": [
+   "Trump Steaks: lancada em maio de 2007 pela Sharper Image, retirada cerca de dois meses depois (fonte: Wikipedia Trump Steaks)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Trump_Steaks"
+  ],
+  "locacoes": [
+   "loc_cidade",
+   "interior loja",
+   "interior pedra",
+   "interior madeira"
+  ],
+  "buscas": {
+   "bife": "Trump Steaks Sharper Image 2007",
+   "loja": "Sharper Image store 2007"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: o bife com o nome de Trump sumiu das lojas em dois meses, com venda bem menor que o esperado. Pagamento: saiu da loja em julho, vendas estimadas abaixo de 50 mil dolares e marca cancelada em 2014.",
+ "loop_frase_ok": true
+}

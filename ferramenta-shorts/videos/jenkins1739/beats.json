@@ -1,0 +1,608 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Guerras Inusitadas",
+ "ep": 12,
+ "title": "A Guerra da Orelha de Jenkins",
+ "titulo_base": "A Guerra da Orelha de Jenkins",
+ "set": "harbor",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/ear_jar",
+ "outfits": {
+  "JEN": {
+   "jacket": "#2a4a8a",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "tricorn",
+   "cap": "#1b1b1f",
+   "epaulets": "#e8c45a"
+  },
+  "ESP": {
+   "jacket": "#d9a630",
+   "pants": "#7a2a2a",
+   "boots": "#1b1b1f",
+   "hat": "tricorn",
+   "cap": "#1b1b1f"
+  },
+  "ING": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "bowler"
+  },
+  "MAR": {
+   "jacket": "#e8e2d0",
+   "pants": "#3b3f52",
+   "boots": "#2a2218",
+   "hat": "cap",
+   "cap": "#3b3f52"
+  },
+  "SOL": {
+   "jacket": "#b02a2a",
+   "pants": "#f1efe6",
+   "boots": "#1b1b1f",
+   "hat": "shako",
+   "rifle": true
+  },
+  "PRE": {
+   "jacket": "#2a2a30",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "bowler",
+   "build": "stout"
+  },
+  "REI": {
+   "profissao": "rei",
+   "jacket": "#7a1f2b",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "fixo": true
+  },
+  "CAP": {
+   "profissao": "capitao",
+   "jacket": "#8a1f1f",
+   "pants": "#2a2d33",
+   "boots": "#1b1b1f",
+   "pais": "ESP",
+   "fixo": true,
+   "hat": "tricorn",
+   "uniforme_fixo": true,
+   "cap": "#1b1b1f",
+   "epaulets": "#e8c45a"
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "JEN:0:shock",
+    "ESP:0:smug"
+   ],
+   "props": [
+    [
+     "kit/ear_jar",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "detalhe": true,
+   "bloco": "gancho",
+   "say": "Uma orelha cortada começou uma guerra de nove anos.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "orelha"
+     }
+    ]
+   },
+   "text": "ORELHA = GUERRA",
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "set": "street",
+   "who": [
+    "JEN:0:sad",
+    "ESP:0:smug"
+   ],
+   "props": [
+    [
+     "kit/ear_jar",
+     0.0,
+     -1.2,
+     1.8,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": false,
+   "bloco": "promessa",
+   "say": "E o dono da orelha levou ela até o Parlamento.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "levou"
+     }
+    ]
+   },
+   "crowd": {
+    "n": 12,
+    "outfits": [
+     "ESP",
+     "JEN"
+    ],
+    "march": false
+   },
+   "_susp_ok": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "JEN:0:nervous"
+   ],
+   "crowd": {
+    "n": 0
+   },
+   "mapa": "CUBA",
+   "mapa_at": 3,
+   "props": [
+    [
+     "ship",
+     0.0,
+     -34.5,
+     2.11,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fachada": false,
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pararam"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "CAP:0:angry",
+    "JEN:0:scared"
+   ],
+   "interacao": "empurrar",
+   "fx": [
+    "stars@40"
+   ],
+   "sfx": [
+    "whoosh@70"
+   ],
+   "set": "street",
+   "impact": true,
+   "shot_lock": true,
+   "acao": "golpe",
+   "props": [
+    [
+     "kit/ear_jar",
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "detalhe": true,
+   "bloco": "prova",
+   "say": "O comandante espanhol cortou a orelha dele com a espada.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cortou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "CAP:0:smug",
+    "JEN:0:pained"
+   ],
+   "acao": "discutir",
+   "riscos_ok": true,
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "fala",
+      "na": "dito",
+      "quem": 0,
+      "forcar": true
+     }
+    ]
+   },
+   "bloco": "prova",
+   "say": "\"Leve isso ao seu rei\", teria dito."
+  },
+  {
+   "shot": "wide",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:angry:paper",
+    "JEN:0:sad"
+   ],
+   "interacao": "susto",
+   "text": "PARLAMENTO",
+   "tstyle": "red",
+   "props": [
+    [
+     "kit/ear_jar",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "escalada",
+   "say": "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "mostrou"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano aberto (cenario inteiro); plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "detalhe": false,
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "interior": "pedra",
+   "who": [
+    "PRE:0:smug",
+    "ING:0:suspicious"
+   ],
+   "interacao": "cochichar",
+   "bloco": "escalada",
+   "say": "Acontece que a Inglaterra só queria um pretexto.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "Inglaterra"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "wide",
+   "set": "harbor",
+   "who": [
+    "SOL:0:angry"
+   ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 20,
+    "outfits": [
+     "SOL"
+    ],
+    "march": true,
+    "expr": "angry"
+   },
+   "props": [
+    [
+     "ship",
+     -7.0,
+     -34.5,
+     2.11,
+     {
+      "mover": [
+       0.0,
+       -34.5
+      ],
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "GUERRA",
+   "titulo": true,
+   "impact": true,
+   "shot_lock": true,
+   "detalhe": false,
+   "fachada": false,
+   "fx": [
+    "burst@50",
+    "burst@80"
+   ],
+   "sfx": [
+    "cannon@50",
+    "cannon@80"
+   ],
+   "bloco": "escalada",
+   "say": "Em 1739, navios ingleses atacaram o Caribe espanhol.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "atacaram"
+     }
+    ]
+   },
+   "_enq_shot": "wide",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano aberto (cenario inteiro); plano aberto mirando o ship (alvo z -2.0, camera a 20.0 m, altura 4.0 m), multidao ATRAS dos personagens, na frente do objeto",
+    "objetos": [
+     {
+      "objeto": "ship",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "chegando"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -2.0,
+   "h": 4.0,
+   "d0": 21.0,
+   "d1": 20.0
+  },
+  {
+   "shot": "two",
+   "who": [
+    "ESP:0:relief:paper",
+    "ING:0:relief"
+   ],
+   "interacao": "entregar",
+   "interior": "pedra",
+   "props": [
+    [
+     "kit/ear_jar",
+     0.0,
+     -1.2,
+     1.2,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "bloco": "pagamento",
+   "say": "Nove anos de guerra, por causa de uma orelha.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "guerra"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "sala de pedra (governo/castelo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "two",
+   "set": "harbor",
+   "who": [
+    "JEN:0:shock",
+    "ESP:0:smug"
+   ],
+   "props": [
+    [
+     "kit/ear_jar",
+     0.0,
+     -1.2,
+     2.6,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "interacao": "discutir",
+   "acao": "discutir",
+   "detalhe": true,
+   "bloco": "loop",
+   "say": "Jenkins nunca recuperou a orelha. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "orelha"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "cais de madeira na beira do mar (agua e horizonte ao fundo)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e ear_jar juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/ear_jar",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  }
+ ],
+ "ano": 1739,
+ "regiao": "europa",
+ "exp": 1.0,
+ "visual": {
+  "local": "mar do Caribe perto de Cuba (navio mercante ingles Rebecca abordado pela guarda costeira espanhola); depois Londres, Parlamento",
+  "quando": "abril de 1731 (a orelha), 1738 (Parlamento), outubro de 1739 (declaracao de guerra); de dia",
+  "participantes": [
+   "capitao Robert Jenkins",
+   "capitao Julio Leon Fandino, da guarda costeira espanhola",
+   "deputados do Parlamento britanico",
+   "rei Jorge II",
+   "marinheiros e soldados britanicos"
+  ],
+  "roupas": {
+   "JEN": "capitao mercante ingles de 1731: casaca longa azul, colete, chapeu tricornio",
+   "CAP": "oficial espanhol de 1731: casaca, chapeu tricornio",
+   "ESP": "marinheiro espanhol de 1731",
+   "ING": "cavalheiro ingles de casaca e peruca",
+   "PRE": "deputado com casaca e peruca branca",
+   "SOL": "soldado britanico de 1739: casaca vermelha e tricornio",
+   "REI": "rei Jorge II com manto e coroa",
+   "MAR": "marinheiro de 1731 com camisa e lenco"
+  },
+  "cenario": "navios a vela de madeira no mar do Caribe, porto colonial, salao do Parlamento de Londres",
+  "objetos": [
+   "navios a vela",
+   "orelha num frasco",
+   "espadas",
+   "canhoes de navio"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+   "https://en.wikipedia.org/wiki/Robert_Jenkins_(master_mariner)"
+  ]
+ },
+ "coerencia_ok": [
+  "R1"
+ ],
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra de nove anos. Pagamento: os espanhois cortaram a orelha de Jenkins, ele a mostrou aos deputados e em 1739 a Inglaterra atacou o Caribe; nove anos de guerra.",
+ "loop_frase_ok": true,
+ "max_wide": 3
+}

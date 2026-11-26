@@ -1,0 +1,244 @@
+{
+ "id": "karansebes",
+ "ano": 1788,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "wide",
+   "personagens": [
+    "AUT",
+    "AUT",
+    "AUT",
+    "AUT"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Um exército inteiro perdeu uma batalha contra ele mesmo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TUR",
+    "TUR"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E o inimigo venceu sem disparar um tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUT",
+    "HUS",
+    "AUT",
+    "OFF"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b2",
+   "frase": "Em 1788, o exército austríaco tinha soldados de vários países.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "track",
+   "personagens": [
+    "HUS",
+    "HUS"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "tools/lantern"
+   ],
+   "palavras": 8,
+   "cena": "b3",
+   "frase": "Numa noite, os hussardos foram procurar o inimigo.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "cavaleiro galopando",
+    "emissao": "poeira/clarao do tiro",
+    "luz": "cena",
+    "camera": "camera acompanha",
+    "som": "galope"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "HUS",
+    "LOC"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "barrel",
+    "kit/barrel_r"
+   ],
+   "palavras": 9,
+   "cena": "b4",
+   "frase": "Acharam moradores vendendo aguardente e beberam o barril todo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "AUT",
+    "HUS",
+    "AUT"
+   ],
+   "multidao": 32,
+   "objetos": [],
+   "palavras": 9,
+   "cena": "b5",
+   "frase": "A infantaria quis um gole. Negaram, e alguém atirou.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "HUS"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 6,
+   "cena": "b6",
+   "frase": "No escuro, alguém gritou: Turcos! Turcos!",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "AUT",
+    "AUT",
+    "HUS"
+   ],
+   "multidao": 48,
+   "objetos": [
+    "buildings/house_small",
+    "nature/picket_fence",
+    "nature/tree_oak"
+   ],
+   "palavras": 12,
+   "cena": "b7",
+   "frase": "Acontece que ninguém entendia a língua do vizinho. Todos atiraram em todos.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "OFF"
+   ],
+   "multidao": 32,
+   "objetos": [
+    "cannon"
+   ],
+   "palavras": 8,
+   "cena": "b8",
+   "frase": "Até os canhões dispararam contra o próprio exército.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TUR",
+    "TUR"
+   ],
+   "multidao": 5,
+   "objetos": [
+    "kit/campfire",
+    "kit/tent"
+   ],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Os turcos chegaram e acharam o acampamento abandonado.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "AUT",
+    "AUT",
+    "AUT",
+    "AUT"
+   ],
+   "multidao": 48,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b10",
+   "frase": "Ninguém precisou lutar contra eles. Foi assim que...",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "id": "chaleira1784",
+ "ano": 1784,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "COZ",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 12,
+   "cena": "b0",
+   "frase": "Uma guerra inteira teve um único tiro, e ele acertou uma chaleira.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "IMP",
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 11,
+   "cena": "b1",
+   "frase": "E dentro dela tinha sopa quente para o almoço da tripulação.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 11,
+   "cena": "b2",
+   "frase": "Em 1784, a Holanda fechou o rio Escalda aos navios estrangeiros.",
+   "classe": "transicao",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IMP",
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 10,
+   "cena": "b3",
+   "frase": "O imperador da Áustria, José Segundo, queria o rio aberto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior pedra"
+  },
+  {
+   "camera": "wide",
+   "personagens": [],
+   "multidao": 0,
+   "objetos": [
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 11,
+   "cena": "b4",
+   "frase": "Mandou três navios descerem o rio, certo de que ninguém reagiria.",
+   "classe": "transicao",
+   "sujeito": "cenario",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "MAR",
+    "MAR"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "cannon",
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 10,
+   "cena": "b5",
+   "frase": "Acontece que um navio holandês esperava e disparou um tiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "IMP",
+    "COZ"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 12,
+   "cena": "b6",
+   "frase": "A bala destruiu a chaleira de sopa bem no meio do convés.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "wide",
+   "personagens": [
+    "GEN"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/navio_fragata",
+    "navios de guerra ao fundo, no tamanho real"
+   ],
+   "palavras": 11,
+   "cena": "b7",
+   "frase": "O navio austríaco se rendeu na hora, sem dar nenhum tiro.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "COZ",
+    "HOL"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/kettle"
+   ],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Perderam o almoço, a sopa e a coragem. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "title": "Teste Coelhinho",
+ "voice": "pt-BR-FranciscaNeural",
+ "rate": "+0%",
+ "set": "countryside",
+ "serie": "Teste",
+ "ep": 99,
+ "cta": false,
+ "ano": 2024,
+ "heroi": "kit/sink",
+ "outfits": {
+  "COE": {
+   "jacket": "#e9cfa6",
+   "pants": "#e9cfa6",
+   "boots": "#f6eee2",
+   "hat": "bunny",
+   "cap": "#e9cfa6",
+   "sash": "#5a86c4",
+   "build": "kid",
+   "uniforme_fixo": true,
+   "fixo": true
+  }
+ },
+ "visual": {
+  "onde": "banheiro",
+  "quando": "manha",
+  "quem": "coelhinho",
+  "roupas": "cachecol azul",
+  "cenario": "banheiro com pia",
+  "objetos": "escova de dentes",
+  "buscas": {
+   "banheiro": "cartoon bathroom blue tiles"
+  }
+ },
+ "beats": [
+  {
+   "say": "Escova, escova, vai, vai, vai!",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COE:0:grin:toothbrush"
+   ],
+   "props": [
+    [
+     "kit/sink",
+     1.6,
+     -1.2,
+     1.0,
+     {
+      "fixo": true
+     }
+    ],
+    [
+     "mk/Stool",
+     -1.4,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@15"
+   ],
+   "sfx": [
+    "ding@15"
+   ],
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "escova"
+     }
+    ]
+   },
+   "text": "ESCOVA!",
+   "titulo": true
+  },
+  {
+   "say": "Um pinguinho de pasta, só isso!",
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "COE:0:smile:toothbrush"
+   ],
+   "props": [
+    [
+     "kit/sink",
+     1.3,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pasta"
+     }
+    ]
+   },
+   "text": "SÓ UM POUQUINHO",
+   "titulo": true
+  },
+  {
+   "say": "Pra cima e pra baixo, bem devagar.",
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "COE:0:laugh:toothbrush"
+   ],
+   "props": [
+    [
+     "kit/sink",
+     1.3,
+     -1.0,
+     1.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "puff@10",
+    "puff@40"
+   ],
+   "sfx": [
+    "tick@10",
+    "tick@40"
+   ],
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "devagar"
+     }
+    ]
+   },
+   "titulo": true,
+   "text": "PRA CIMA E PRA BAIXO"
+  },
+  {
+   "say": "Tchau, bichinhos! Meus dentes vão brilhar!",
+   "shot": "close",
+   "interior": "madeira",
+   "who": [
+    "COE:0:grin"
+   ],
+   "fx": [
+    "stars@20",
+    "ring@30"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@30"
+   ],
+   "text": "BRILHOU!",
+   "shot_lock": true,
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "vence",
+      "na": "brilhar",
+      "quem": 0
+     }
+    ]
+   },
+   "titulo": true
+  }
+ ]
+}

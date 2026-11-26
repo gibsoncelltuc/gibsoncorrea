@@ -1,0 +1,76 @@
+{
+ "gancho_tipo": "perda",
+ "texto_gancho": "PAÍS DO BITCOIN",
+ "gancho_cumprido": "Gancho: um pais apostou o proprio dinheiro numa moeda digital e o final ninguem esperava. Pagamento: o bitcoin caiu para 16 mil e depois passou de 100 mil; as reservas viraram lucro.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um país inteiro apostou o próprio dinheiro numa moeda digital.",
+   "dinheiro",
+   {}
+  ],
+  [
+   13,
+   "promessa",
+   "E o final dessa aposta ninguém esperava.",
+   "aposta",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 2021, El Salvador adotou o bitcoin como moeda oficial.",
+   "adotou",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Quem baixasse o aplicativo ganhava trinta dólares.",
+   "trinta",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "O governo até minerava bitcoin com a energia de um vulcão.",
+   "minerava",
+   {}
+  ],
+  [
+   9,
+   "escalada",
+   "Acontece que, em 2022, o bitcoin despencou para dezesseis mil.",
+   "despencou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   11,
+   "pagamento",
+   "Mas em 2024, ele passou de cem mil dólares.",
+   "passou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   12,
+   "pagamento",
+   "As reservas no prejuízo viraram lucro.",
+   "lucro",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Maluquice ou visão? Só sei que foi assim que...",
+   "Maluquice",
+   {}
+  ]
+ ]
+}

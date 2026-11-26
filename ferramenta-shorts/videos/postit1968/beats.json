@@ -1,0 +1,473 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+20%",
+ "serie": "Curiosidade e Ciência",
+ "ep": 15,
+ "title": "A Cola que Não Colava",
+ "titulo_base": "A Cola que Não Colava",
+ "set": "street",
+ "light": "day",
+ "mood": "playful",
+ "heroi": "kit/postit",
+ "outfits": {
+  "SIL": {
+   "profissao": "cientista",
+   "hair": "#6a4a2a",
+   "glasses": true
+  },
+  "FRY": {
+   "jacket": "#3a6a3a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#3a2a1f",
+   "tie": "#b02a2a",
+   "glasses": true
+  },
+  "CHE": {
+   "profissao": "empresario"
+  },
+  "PAD": {
+   "profissao": "padre"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "straw",
+    "beret",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:sad",
+    "CHE:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "detalhe": false,
+   "bloco": "gancho",
+   "say": "Uma cola que falhou virou sucesso no mundo inteiro.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "falhou"
+     }
+    ]
+   },
+   "text": "COLA QUE FALHOU",
+   "titulo": true,
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:smile",
+    "CHE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.0,
+     -1.2,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "CORAL DA IGREJA",
+   "detalhe": true,
+   "bloco": "promessa",
+   "say": "E a ideia veio de alguém cantando na igreja.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cantando"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5
+  },
+  {
+   "shot": "wide",
+   "who": [
+    "POV:0:smile",
+    "SIL:0:neutral:paper"
+   ],
+   "mapa": "ESTADOS UNIDOS",
+   "mapa_at": 3,
+   "props": [],
+   "detalhe": false,
+   "interior": "galpao",
+   "bloco": "prova",
+   "say": "Em 1968, Spencer Silver tentava criar uma super cola.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "tentava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "interior": "madeira",
+   "who": [
+    "SIL:0:shock:paper",
+    "CHE:0:suspicious"
+   ],
+   "fx": [
+    "ring@30"
+   ],
+   "sfx": [
+    "sting@30"
+   ],
+   "detalhe": false,
+   "bloco": "prova",
+   "say": "Saiu o contrário: uma cola que grudava e soltava fácil.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "grudava"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "group",
+   "who": [
+    "FRY:0:sad",
+    "PAD:0:smile",
+    "POV:0:smile"
+   ],
+   "batalha": false,
+   "tiros": false,
+   "crowd": {
+    "n": 0
+   },
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "Acontece que Art Fry cantava no coral da igreja.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cantava"
+     }
+    ]
+   },
+   "_susp_ok": true
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRY:0:angry:paper",
+    "PAD:0:surprised"
+   ],
+   "fx": [
+    "puff@30"
+   ],
+   "sfx": [
+    "whoosh@30"
+   ],
+   "interior": "pedra",
+   "bloco": "escalada",
+   "say": "E os papeizinhos do hinário viviam caindo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "desaba",
+      "na": "caindo"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "FRY:0:surprised"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.5,
+     1.3,
+     4.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@20",
+    "ring@40"
+   ],
+   "sfx": [
+    "ding@20",
+    "sting@40"
+   ],
+   "detalhe": false,
+   "quadro_manual": true,
+   "bloco": "escalada",
+   "say": "Ele pensou: e se os marcadores tivessem a cola fraca?",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "pensou"
+     }
+    ]
+   },
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano aberto mirando o postit (alvo z -3.6, camera a 10.0 m, altura 2.4 m), sem multidao na frente",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "FUNDO, centro (objeto principal da cena)",
+      "tela": "30% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   }
+  },
+  {
+   "explica": {
+    "objeto": "kit/postit",
+    "manobra": "gira",
+    "passos": [
+     "PAPEL DE RASCUNHO",
+     "AMARELO",
+     "POR ACASO"
+    ]
+   },
+   "bloco": "pagamento",
+   "say": "O papel saiu amarelo por acaso: era o único que tinha.",
+   "encena": {
+    "sentido": "fato",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "papel"
+     }
+    ]
+   }
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:smile",
+    "CHE:0:grin"
+   ],
+   "props": [
+    [
+     "kit/postit",
+     0.6,
+     1.0,
+     1.5,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "text": "NAS LOJAS: 1980",
+   "detalhe": false,
+   "bloco": "pagamento",
+   "say": "Em 1980, o post-it chegou às lojas do mundo todo.",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "chegou"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "loja / taverna",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "interior": "loja",
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 2
+  },
+  {
+   "shot": "two",
+   "who": [
+    "SIL:0:sad",
+    "CHE:0:angry"
+   ],
+   "acao": "discutir",
+   "props": [
+    [
+     "kit/postit",
+     0.0,
+     1.4,
+     2.0,
+     {
+      "fixo": true
+     }
+    ]
+   ],
+   "fx": [
+    "stars@30"
+   ],
+   "sfx": [
+    "ding@30"
+   ],
+   "detalhe": true,
+   "bloco": "loop",
+   "say": "A cola não colava direito. E foi assim que...",
+   "encena": {
+    "sentido": "afirmativa",
+    "passos": [
+     {
+      "faz": "mostra",
+      "na": "cola"
+     }
+    ]
+   },
+   "_enq_shot": "two",
+   "quadro": {
+    "local": "rua de cidade (predios dos dois lados)",
+    "camera": "plano medio, 2 personagens de corpo inteiro; plano medio enquadrando personagens e postit juntos (camera a 11.5 m)",
+    "objetos": [
+     {
+      "objeto": "kit/postit",
+      "lugar": "MEIO, centro (objeto principal da cena)",
+      "tela": "32% da altura da tela",
+      "estado": "parado"
+     }
+    ]
+   },
+   "cx": 0.0,
+   "cz": -0.6,
+   "d0": 12.1,
+   "d1": 11.5,
+   "_auto_vis": 3
+  }
+ ],
+ "visual": {
+  "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",
+  "quando": "1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)",
+  "participantes": [
+   "Spencer Silver, quimico da 3M",
+   "Art Fry, colega que cantava no coral",
+   "chefes da 3M",
+   "moradores de Boise"
+  ],
+  "roupas": {
+   "SIL": "jaleco branco de laboratorio e oculos (anos 60)",
+   "FRY": "camisa, gravata e oculos (anos 70)",
+   "CHE": "executivo de terno",
+   "PAD": "pastor de batina escura",
+   "POV": "moradores dos anos 70"
+  },
+  "cenario": "laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana",
+  "objetos": [
+   "bloquinho amarelo de post-it",
+   "hinario com marcadores caindo",
+   "frascos de cola",
+   "amostras gratis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Post-it_Note",
+   "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ],
+  "explicacoes": [
+   "O primeiro Post-it saiu amarelo porque o laboratorio vizinho so tinha papel de rascunho amarelo quando Art Fry e Spencer Silver fizeram os prototipos (3M, historia oficial do Post-it; Wikipedia \"Post-it Note\")."
+  ],
+  "buscas": {
+   "A Cola que Não Colava": "3M weak adhesive Spencer Silver 1968",
+   "Art Fry": "Art Fry 3M inventor Post-it",
+   "colega que cantava no coral": "church choir 1970s singer hymnal",
+   "chefes da 3M": "3M executives 1970s office",
+   "hinario com marcadores caindo": "hymnal bookmarks paper",
+   "amostras gratis": "Post-it free samples 1980 Boise",
+   "postit": "yellow Post-it note pad",
+   "O papel saiu amarelo por acaso: era o único que tinha.": "canary yellow scrap paper Post-it origin"
+  }
+ },
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: uma cola que falhou virou sucesso no mundo, e a ideia veio de quem cantava na igreja. Pagamento: a cola fraca virou marcador de hinario e, em 1980, o post-it.",
+ "loop_frase_ok": true
+}

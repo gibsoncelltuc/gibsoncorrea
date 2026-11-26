@@ -1,0 +1,218 @@
+{
+ "id": "aprendiz2004",
+ "ano": 2004,
+ "cenarios_trocados": [
+  [
+   "video",
+   "street",
+   "loc_cidade"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 100,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 9,
+   "cena": "b0",
+   "frase": "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 8,
+   "cena": "b1",
+   "frase": "E não foi na política. Foi na televisão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv"
+   ],
+   "palavras": 7,
+   "cena": "b2",
+   "frase": "Em 2004, estreou o programa O Aprendiz.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "TRU",
+    "CND"
+   ],
+   "multidao": 16,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 7,
+   "cena": "b3",
+   "frase": "Candidatos disputavam um emprego numa empresa dele.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  },
+  {
+   "camera": "group",
+   "personagens": [
+    "TRU",
+    "CND",
+    "POV",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "mk/Chair_1",
+    "mk/Table_Large"
+   ],
+   "palavras": 10,
+   "cena": "b4",
+   "frase": "A equipe que perdia ia para a sala de reunião.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 12,
+   "cena": "b5",
+   "frase": "Acontece que ali Trump apontava o dedo e dizia: você está demitido.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior madeira"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "POV",
+    "POV",
+    "CND"
+   ],
+   "multidao": 30,
+   "objetos": [
+    "kit/marco_trumptower",
+    "kit/tv"
+   ],
+   "palavras": 10,
+   "cena": "b6",
+   "frase": "A final teve uns vinte e oito milhões de espectadores.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "JUS",
+    "POV"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_trumptower"
+   ],
+   "palavras": 7,
+   "cena": "b7",
+   "frase": "No Brasil, a versão teve Roberto Justus.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/tv"
+   ],
+   "palavras": 9,
+   "cena": "b8",
+   "frase": "Ele apresentou o programa por mais de dez anos.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_estudio"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "TRU"
+   ],
+   "multidao": 0,
+   "objetos": [],
+   "palavras": 8,
+   "cena": "b9",
+   "frase": "Virou a marca dele. E foi assim que...",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_cidade"
+  }
+ ]
+}
