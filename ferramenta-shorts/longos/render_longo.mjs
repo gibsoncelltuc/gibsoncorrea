@@ -2,7 +2,7 @@
 import { chromium } from 'playwright'; import http from 'http'; import fs from 'fs'; import path from 'path';
 const [,, outdir, a0, a1, nw = '4'] = process.argv; const F0 = +a0, F1 = +a1, NW = +nw;
 fs.mkdirSync(outdir, { recursive: true });
-const root = path.resolve('www');
+const root = path.resolve(process.env.WWW || 'www');
 const srv = http.createServer((q, s) => { const p = path.join(root, decodeURIComponent(q.url.split('?')[0])); if (!fs.existsSync(p)) { s.writeHead(404); return s.end(); } s.writeHead(200, { 'Content-Type': p.endsWith('.js') ? 'text/javascript' : p.endsWith('.html') ? 'text/html' : p.endsWith('.json') ? 'application/json' : 'application/octet-stream' }); fs.createReadStream(p).pipe(s); }).listen(0);
 await new Promise((r) => srv.on('listening', r));
 const b = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });

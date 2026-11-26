@@ -100,7 +100,7 @@ def teropode(nome, L, costas, barriga, cabeca=1.0, bracos=.35, crista=None):
     ga = [esp]
     for z in (1, -1):
         ga.append([(-.3 * s, H, 0, .42 * s), (-.1 * s, H * .6, z * .32 * s, .2 * s), (-.35 * s, H * .25, z * .34 * s, .12 * s), (-.15 * s, .05, z * .34 * s, .1 * s), (.25 * s, .03, z * .34 * s, .06 * s)])
-        ga.append([(.6 * s, H + .15 * s, 0, .3 * s), (.75 * s, H - bracos * .5 * s, z * .25 * s, .05 * s), (.9 * s, H - bracos * s, z * .25 * s, .035 * s)])
+        ga.append([esp[4], (.65 * s, H - bracos * .3 * s, z * .3 * s, .07 * s), (.85 * s, H - bracos * .8 * s, z * .28 * s, .045 * s)])
     corpo(ga, costas, barriga)
     olhos(1.6 * s, H + .75 * s, .17 * s * cabeca, .045 * s, '#e0601a')
     dentes(1.7 * s, 2.25 * s, H + .4 * s, .1 * s * cabeca, 6, .09 * s)
@@ -133,8 +133,8 @@ def mamifero(nome, L, costas, barriga):   # gorgonopsideo
     limpar(); s = L / 3.5; H = .95 * s
     esp = [(-1.8 * s, H * .7, 0, .04 * s), (-1.1 * s, H * .9, 0, .13 * s), (-.6 * s, H, 0, .3 * s), (.3 * s, H + .05 * s, 0, .36 * s), (.9 * s, H + .05 * s, 0, .28 * s), (1.25 * s, H + .15 * s, 0, .25 * s), (1.6 * s, H + .08 * s, 0, .17 * s), (1.85 * s, H, 0, .1 * s)]
     ga = [esp]
-    for x in (.8 * s, -.5 * s):
-        for z in (1, -1): ga.append(perna((x, H, 0, .3 * s), (x + .1 * s, H * .5, z * .3 * s), (x, .04, z * .32 * s), .09 * s))
+    for sh in (esp[4], esp[2]):   # ombro e quadril SOBRE a coluna (ligados ao corpo)
+        for z in (1, -1): ga.append(perna(sh, (sh[0] + .1 * s, H * .5, z * .3 * s), (sh[0], .04, z * .32 * s), .1 * s))
     corpo(ga, costas, barriga)
     olhos(1.45 * s, H + .26 * s, .16 * s, .05 * s, '#e0a020')
     for z in (1, -1): peca('cone', (1.65 * s, H - .15 * s, z * .08 * s), .04 * s, '#efe6cf', rot=(math.pi, 0, 0), prof=.3 * s)
