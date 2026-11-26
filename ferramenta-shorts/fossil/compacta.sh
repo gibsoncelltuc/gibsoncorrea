@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # encoda trechos de 1800 quadros ja prontos em video (sem audio) e apaga os jpg (disco pequeno)
-D=$1; N=$2; mkdir -p $D/segs; s=0
+D=$1; N=$2; mkdir -p $D/segs; s=${3:-0}
 while [ $s -lt $N ]; do
   e=$(( s + 1800 )); [ $e -gt $N ] && e=$N
   ok=1; for ((f=s; f<e; f++)); do [ -f $D/frames/$(printf f%05d.jpg $f) ] || { ok=0; break; }; done
