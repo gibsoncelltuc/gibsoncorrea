@@ -159,6 +159,7 @@ def bandeira(c):
 ISO2 = {k: v['properties']['ISO_A2_EH'].lower() for k, v in PA.items()}
 
 def legenda(tt):   # UMA palavra por vez, branca, no meio (como os videos de referencia)
+    if os.environ.get('SEM_LEGENDA'): return None
     for k in range(NS):
         a, b, d = SEG[k]
         if a <= tt < b:
@@ -195,10 +196,16 @@ def sobrepor(img, tt):
             al = int(255 * pop)
             d.rounded_rectangle([x - tw / 2 - 24, by - 34, x + tw / 2 + 24, by + 34], 12, fill=(255, 255, 255, al), outline=(30, 30, 30, al), width=3)
             d.text((x, by), nome, font=fnm, fill=(25, 25, 25, al), anchor='mm')
+            fl = it['flag'] if 'flag' in it else (ISO2.get(it['hl'][0], '') if it.get('hl') else '')
+            if 'pin' in it and fl and os.path.exists(f'dados/flags/{fl}.png'):   # cartao com a bandeira acima do nome
+                bw = int(150 * pop); bh = int(bw * .75)
+                if bw > 10:
+                    b = bandeira(fl).resize((bw, bh), Image.LANCZOS); fx, fy = int(x - bw / 2), int(y - 40 - bh)
+                    d.rounded_rectangle([fx - 6, fy - 6, fx + bw + 6, fy + bh + 6], 10, fill=(255, 255, 255, 255)); pil.alpha_composite(b, (fx, fy))
             if it.get('icon'):   # icone do fato, ao lado do pais
                 tam = int(190 * esc * pop) if pop > .05 else 0
                 if tam > 8:
-                    e = emoji(it['icon'], tam); ex = int(min(W - e.width - 40, x + 70)); ey = int(max(380, y - e.height - 60))
+                    e = emoji(it['icon'], tam); ex = int(min(W - e.width - 40, x + (115 if 'pin' in it else 70))); ey = int(max(380, y - e.height - 60))
                     sombra = Image.new('RGBA', e.size, (0, 0, 0, 0)); sombra.putalpha(e.getchannel('A').point(lambda v: int(v * .5)))
                     pil.alpha_composite(sombra.filter(ImageFilter.GaussianBlur(8)), (ex + 8, ey + 12)); pil.alpha_composite(e, (ex, ey))
                     if it.get('nao'):   # proibido: circulo vermelho cortado
@@ -222,8 +229,10 @@ def quadro(fi):
     k = max(i for i in range(NS) if SEG[i][0] - ANT <= tt or i == 0)
     if k > 0:
         it = R['items'][k - 1]; a = min(1, max(0, (tt - SEG[k][0] + ANT - VOO + .1) / .35))
-        img = desenhar_paises(img, it.get('hl2', []), (90, 90, 90), a, lat0, lon0, s, .55)
-        img = desenhar_paises(img, it.get('hl', []), (0, 214, 255), a, lat0, lon0, s)
+        # ponto (pin): pais grande demais para a tela -> so' contorno (a bandeira vai num cartao ao lado do nome)
+        fp = 0 if 'pin' in it else 1
+        img = desenhar_paises(img, it.get('hl2', []), (90, 90, 90), a, lat0, lon0, s, .55 * fp)
+        img = desenhar_paises(img, it.get('hl', []), (0, 214, 255), a, lat0, lon0, s, .9 * fp)
     img = sobrepor(img, tt)
     fad = min(1, tt / .3, (TOTAL - tt) / .3)
     if fad < 1: img = (img * fad).astype(np.uint8)

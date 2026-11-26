@@ -12,7 +12,11 @@ dur = lambda p: float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries',
 # tempo do 1o item ja destacado (fim da 1a frase do item 1)
 t = .3; segs = []
 for k in range(len(PAL)): d = dur(f'{OUT}/voz/s{k:02d}.mp3'); segs.append(t); t += d + .45
-fundo = quadro(segs[1] + 2.0, f'{OUT}/_t1.jpg'); globo = quadro(1.2, f'{OUT}/_t0.jpg')
+def limpo(t):   # quadro sem legenda, direto do motor
+    fi = int(t * 30); subprocess.run(['python3', 'geo.py', RID, str(t)], check=True, env={**os.environ, 'SEM_LEGENDA': '1'}, capture_output=True)
+    return Image.open(f'{OUT}/q{fi:05d}.jpg').convert('RGB')
+it1 = int(os.environ.get('THUMB_ITEM', '1'))
+fundo = limpo(segs[it1] - .5 + .85 + 1.3); globo = limpo(1.0)
 def quebrar(txt, f, maxw):
     ls = ['']
     for w in txt.split():
