@@ -10,7 +10,7 @@ for i, b in enumerate(S['blocos']):
     tot = sum(len(x) for x in fr); c = a + .25; frases = []
     for x in fr: L = d * len(x) / tot; frases.append([round(c, 2), round(c + L, 2), x]); c += L
     blocos.append({**{k: b[k] for k in b if k != 'texto'}, 'a': round(a, 2), 'b': round(t, 2), 'frases': frases}); lista.append((v, a))
-json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
+json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'tiers': S.get('tiers'), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
 TOTAL = t; print('duracao', round(TOTAL, 1), 's')
 # audio: voz posicionada + fundo grave (drone) baixo
 inp = []; flt = []
@@ -22,7 +22,7 @@ flt.append('[voz][amb]amix=2:normalize=0,loudnorm=I=-14:TP=-1.5[out]')
 subprocess.run(['ffmpeg', '-v', 'error', '-y', *inp, '-filter_complex', ';'.join(flt), '-map', '[out]', '-ar', '48000', f'{D}/audio.wav'], check=True)
 ini, du = (float(sys.argv[3]), float(sys.argv[4])) if len(sys.argv) > 4 else (0, TOTAL)
 f0, f1 = int(ini * 30), int(min(TOTAL, ini + du) * 30) - 1
-subprocess.run(['node', 'render_longo.mjs', f'{D}/frames', str(f0), str(f1), '4'], check=True)
+subprocess.run(['node', 'render_longo.mjs', f'{D}/frames', str(f0), str(f1), '4'], check=True, env={**os.environ, 'PAGINA': S.get('pagina', 'doc.html')})
 nome = f'{D}/{S["id"]}' + ('_teste' if len(sys.argv) > 4 else '') + '.mp4'
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-start_number', str(f0), '-i', f'{D}/frames/f%05d.jpg', '-ss', str(ini), '-t', str((f1 - f0 + 1) / 30), '-i', f'{D}/audio.wav',
                 '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', nome], check=True)
