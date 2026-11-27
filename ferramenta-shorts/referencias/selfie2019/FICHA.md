@@ -7,7 +7,7 @@
 - Roupas: {'BUK': 'terno escuro, camisa branca, boné preto virado para trás (marca pessoal)', 'DIP': 'ternos e gravatas escuros', 'REP': 'roupa social com crachá'}
 - Cenario real: plenário em anfiteatro com mesa do púlpito de mármore, painel dourado e delegados sentados; fachada de vidro da ONU e ruas de Manhattan
 - Objetos: ['celular', 'púlpito', 'crachás de delegado']
-- Cenarios usados no video: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios usados no video: interior loja, interior madeira, interior pedra
 - PROIBIDO pela epoca (a ferramenta bloqueia): barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Proibido pelo roteiro: -
 

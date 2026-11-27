@@ -4,9 +4,9 @@ Raio-X do roteiro: o que este video precisa ter de referencia ANTES de modelar, 
 
 - Historia: A Selfie na ONU
 - Epoca: 2019 | Lugar: Assembleia Geral da ONU, Nova York: plenário de pedra e madeira com púlpito de mármore verde e fundo dourado, edifício da ONU à beira do East River | Quando: 24 de setembro de 2019, de dia
-- HEROIS (objeto): kit/phone
+- HEROIS (objeto): kit/phone, kit/un_flags, kit/un_wall, kit/podium
 - HEROIS (personagens): BUK, DIP
-- Cenarios: interior loja, interior madeira, interior pedra, loc_cidade
+- Cenarios: interior loja, interior madeira, interior pedra
 - Proibido pela epoca: barril, caixote de madeira, canhao antigo, caravela, carro antigo, carro dos anos 50, carroca, castical, encouracado, escudo, feno/espantalho, fragata a vela, galera a remo, lampiao, navio a vapor, navio a vapor de guerra, navio a vela, tambor de guerra
 - Tamanho real aplicado: nenhum objeto precisou de ajuste
 
@@ -25,6 +25,9 @@ objeto | celular | celular / celular 2019 | SEM REFERENCIA
 objeto | púlpito | púlpito / púlpito 2019 | SEM REFERENCIA
 objeto | crachás de delegado | crachás de delegado / crachás de delegado 2019 | SEM REFERENCIA
 heroi | phone | celular / A Selfie na ONU | SEM REFERENCIA
+heroi | un flags | un flags | SEM REFERENCIA
+heroi | un wall | un wall | SEM REFERENCIA
+heroi | podium | podium | SEM REFERENCIA
 
 ## Explicacoes (como funciona, com fonte)
 - -

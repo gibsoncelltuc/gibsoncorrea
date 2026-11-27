@@ -89,6 +89,27 @@
     "celular",
     "A Selfie na ONU"
    ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "un flags",
+   "consultas": [
+    "un flags"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "un wall",
+   "consultas": [
+    "un wall"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "podium",
+   "consultas": [
+    "podium"
+   ]
   }
  ]
 }
