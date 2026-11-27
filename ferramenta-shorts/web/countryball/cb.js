@@ -1,32 +1,54 @@
-// Formato "countryballs no mapa 3D": mapa-mundi com paises nomeados (kit/mapa_mundi.glb), bolas 2D (sprites desenhados em canvas), camera dirigida por keyframes, paises repintados por evento.
+// Formato "countryballs no mapa 3D" v2: mapa-mundi 3D (kit/mapa_mundi.glb) com sombras, paises repintados em ONDA de invasao (cor de vertice), bolas com rosto parametrico
+// (olhos/sobrancelhas/boca/pupilas que se interpolam), olhar que segue o alvo, arma com recuo, squash&stretch, camera Catmull-Rom com punch e tremor.
 // Uso: index.html#<spec> carrega <spec>.json. renderFrame(f) e getFrameDataURL() como o motor principal; texto/legenda em DOM (screenshot).
 import * as THREE from '../lib/three.module.js';
 import { GLTFLoader } from '../lib/GLTFLoader.js';
 const FPS = 30, W = 1080, H = 1920, K = Math.cos(50 * Math.PI / 180);   // K = achatamento de longitude (Europa nao fica esticada)
 const spec = await (await fetch(location.hash.slice(1) + '.json')).json();
 const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x)), lerp = (a, b, k) => a + (b - a) * k, ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
+const outBack = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); }, outElastic = x => x <= 0 ? 0 : x >= 1 ? 1 : Math.pow(2, -9 * x) * Math.sin((x * 10 - .75) * (2 * Math.PI) / 3) + 1;
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true });
-renderer.setSize(W, H, false); renderer.setPixelRatio(1);
+renderer.setSize(W, H, false); renderer.setPixelRatio(1); renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 const scene = new THREE.Scene(); scene.background = new THREE.Color(spec.sea || '#dff0ff');
-const cam = new THREE.PerspectiveCamera(38, W / H, 1, 600);
-scene.add(new THREE.HemisphereLight(0xffffff, 0x8899bb, 1.35)); const sun = new THREE.DirectionalLight(0xffffff, 1.1); sun.position.set(-30, 80, 40); scene.add(sun);
+const cam = new THREE.PerspectiveCamera(38, W / H, 1, 700);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x7f8fb8, 1.25));
+const sun = new THREE.DirectionalLight(0xffffff, 1.35); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048); const sc_ = sun.shadow.camera; sc_.left = -60; sc_.right = 60; sc_.top = 60; sc_.bottom = -60; sc_.near = 1; sc_.far = 400; sun.shadow.bias = -.0006; sun.shadow.radius = 4; scene.add(sun, sun.target);
+// ---------- mar (textura de ondas que desliza) ----------
+const seaCv = document.createElement('canvas'); seaCv.width = seaCv.height = 512; { const c = seaCv.getContext('2d'); c.fillStyle = spec.sea || '#dff0ff'; c.fillRect(0, 0, 512, 512); c.strokeStyle = 'rgba(255,255,255,.55)'; c.lineWidth = 5; c.lineCap = 'round'; for (let i = 0; i < 26; i++) { const x = (i * 97) % 512, y = (i * 61) % 512; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + 18, y - 9, x + 36, y); c.quadraticCurveTo(x + 54, y + 9, x + 72, y); c.stroke(); } }
+const seaTex = new THREE.CanvasTexture(seaCv); seaTex.wrapS = seaTex.wrapT = THREE.RepeatWrapping; seaTex.repeat.set(26, 26); seaTex.colorSpace = THREE.SRGBColorSpace;
+const sea = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ map: seaTex, roughness: .5 })); sea.rotation.x = -Math.PI / 2; sea.position.y = -.9; sea.receiveShadow = true; scene.add(sea);
 // ---------- mapa ----------
 const gl = await new GLTFLoader().loadAsync('../assets/library/kit/mapa_mundi.glb');
-const mapRoot = new THREE.Group(); mapRoot.scale.set(K, 1, 1); mapRoot.add(gl.scene); scene.add(mapRoot);
-const C = {};   // pais -> {mesh, base, cur}
-const LAND = new THREE.Color(spec.land || '#c9ced6');
+const mapRoot = new THREE.Group(); mapRoot.scale.set(K, 1.5, 1); mapRoot.add(gl.scene); scene.add(mapRoot);
+const C = {}, LAND = new THREE.Color(spec.land || '#c9ced6');
 gl.scene.traverse(o => {
   if (!o.isMesh) return;
-  if (o.name.toLowerCase().startsWith('oceano')) { o.material = new THREE.MeshBasicMaterial({ color: new THREE.Color(spec.sea || '#dff0ff') }); o.visible = false; return; }
-  o.material = new THREE.MeshStandardMaterial({ color: LAND.clone(), roughness: .6, metalness: 0 }); C[norm(o.name)] = { mesh: o, y0: o.position.y };
+  if (o.name.toLowerCase().startsWith('oceano')) { o.visible = false; return; }
+  const pos = o.geometry.attributes.position, n = pos.count, col = new Float32Array(n * 3); for (let i = 0; i < n; i++) { col[i * 3] = LAND.r; col[i * 3 + 1] = LAND.g; col[i * 3 + 2] = LAND.b; }
+  o.geometry.setAttribute('color', new THREE.BufferAttribute(col, 3)); o.material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .5, metalness: 0 }); o.castShadow = o.receiveShadow = true;
+  let cx = 0, cz = 0; for (let i = 0; i < n; i++) { cx += pos.getX(i); cz += pos.getZ(i); } C[norm(o.name)] = { mesh: o, n, cx: cx / n, cz: cz / n, key: '' };
 });
-// pinta o mapa por eventos: lista ordenada; a cor vigente de cada pais e' a do ultimo evento (com transicao 0,45 s e "pulo" do azulejo)
+// pinta o mapa por eventos: o ultimo evento que cita o pais vale; a cor nova ENTRA EM ONDA (a partir de e.from=[lon,lat] ou do centro do pais) em e.dur s
 const ev = [...(spec.colors || [])].sort((a, b) => a.t - b.t);
-const colorAt = (name, t) => {
-  let prev = LAND.clone(), cur = LAND.clone(), te = -99;
-  for (const e of ev) { if (e.t > t) break; if (e.c.some(x => norm(x) === name) || (e.all && !(e.except || []).some(x => norm(x) === name))) { prev = cur; cur = new THREE.Color(e.col); te = e.t; } }
-  return { col: prev.clone().lerp(cur, Math.min(1, Math.max(0, (t - te) / .45))), age: t - te };
-};
+const hex = new THREE.Color();
+function stateAt(name, t) {
+  let prev = LAND.clone(), cur = LAND.clone(), e0 = null;
+  for (const e of ev) { if (e.t > t) break; if (e.c.some(x => norm(x) === name) || (e.all && !(e.except || []).some(x => norm(x) === name))) { prev = cur; cur = hex.set(e.col).clone(); e0 = e; } }
+  return { prev, cur, e: e0 };
+}
+function paintCountry(name, t) {
+  const o = C[name], s = stateAt(name, t), e = s.e, col = o.mesh.geometry.attributes.color; const dur = e ? (e.dur ?? .9) : 0, age = e ? t - e.t : 99, done = age >= dur + .3;
+  const key = e ? `${e.t}|${done ? 'f' : Math.round(age * FPS)}` : 'base'; if (o.key === key) return; o.key = key;
+  const pos = o.mesh.geometry.attributes.position, fx = e && e.from ? e.from[0] : o.cx, fz = e && e.from ? -e.from[1] : o.cz;
+  let R = 1e-6; if (!done && e) for (let i = 0; i < o.n; i++) R = Math.max(R, Math.hypot((pos.getX(i) - fx) * K, pos.getZ(i) - fz));
+  for (let i = 0; i < o.n; i++) {
+    let p = 1; if (!done && e) { const d = Math.hypot((pos.getX(i) - fx) * K, pos.getZ(i) - fz) / R; p = clamp((age - d * dur * .75) / .3, 0, 1); p = p * p * (3 - 2 * p); }
+    const k = e ? p : 1, c = e ? s.prev : s.cur; col.setXYZ(i, lerp(c.r, s.cur.r, k), lerp(c.g, s.cur.g, k), lerp(c.b, s.cur.b, k));
+  }
+  col.needsUpdate = true;
+}
+// ---------- bolas ----------
 // ---------- bolas ----------
 const FLAGS = {
   DE: c => { stripes(c, ['#111', '#dd0000', '#ffce00'], 1); }, FR: c => { stripes(c, ['#0055a4', '#fff', '#ef4135'], 0); }, RU: c => { stripes(c, ['#fff', '#0039a6', '#d52b1e'], 1); },
@@ -54,44 +76,69 @@ const ACC = {   // acessorios desenhados sobre a bola (coordenadas do canvas 256
   helmetus: c => { c.fillStyle = '#7a8450'; c.beginPath(); c.ellipse(128, 54, 80, 36, 0, Math.PI, 0); c.fill(); c.fillRect(48, 52, 160, 9); },
   stache: c => { c.fillStyle = '#222'; c.beginPath(); c.ellipse(100, 164, 30, 10, .2, 0, 7); c.ellipse(156, 164, 30, 10, -.2, 0, 7); c.fill(); },
 };
-function drawBall(cv, b, st) {   // st: {e: expressao, blink, t}
-  const c = cv.getContext('2d'); c.clearRect(0, 0, 256, 256); const cx = 128, cy = 138, R = 100;
+// ---- rosto parametrico: P = {eo,br,bh,mo,mc,pu,sw,ar,te,sp}; cada expressao e' um vetor; a transicao entre expressoes e' interpolada com "outBack" (leve exagero, natural)
+const EXPR = {
+  idle: { eo: 1, br: 0, bh: 0, mo: 0, mc: .2, pu: 1, sw: 0, ar: 0, te: 0, sp: 0 }, happy: { eo: .2, br: -.1, bh: .2, mo: .6, mc: 1, pu: 1, sw: 0, ar: 1, te: 0, sp: 0 },
+  angry: { eo: .8, br: .6, bh: -.1, mo: .3, mc: -.8, pu: .9, sw: 0, ar: 0, te: 0, sp: 0 }, shout: { eo: .88, br: .65, bh: -.1, mo: 1, mc: -.2, pu: .8, sw: 0, ar: 0, te: 0, sp: 0 },
+  scared: { eo: 1.3, br: -.35, bh: .55, mo: .5, mc: -.4, pu: .5, sw: 1, ar: 0, te: 0, sp: 0 }, cry: { eo: .85, br: -.55, bh: .1, mo: .4, mc: -1, pu: 1.1, sw: 0, ar: 0, te: 1, sp: 0 },
+  smug: { eo: .5, br: .2, bh: -.05, mo: 0, mc: .8, pu: 1, sw: 0, ar: 0, te: 0, sp: 0 }, sad: { eo: .9, br: -.5, bh: .1, mo: 0, mc: -.7, pu: 1, sw: 0, ar: 0, te: 0, sp: 0 },
+  dizzy: { eo: 1, br: 0, bh: 0, mo: .3, mc: 0, pu: 1, sw: 0, ar: 0, te: 0, sp: 1 }, wow: { eo: 1.25, br: -.2, bh: .5, mo: .7, mc: 0, pu: 1, sw: 0, ar: 0, te: 0, sp: 0 },
+};
+const PK = Object.keys(EXPR.idle);
+function faceAt(b, t) {   // expressao interpolada no instante t + alvo do olhar
+  const fs = b.faces || []; let i = -1; for (let k = 0; k < fs.length; k++) if (fs[k].t <= t) i = k;
+  const cur = EXPR[(i >= 0 ? fs[i].e : 'idle')] || EXPR.idle, prev = EXPR[(i > 0 ? fs[i - 1].e : 'idle')] || EXPR.idle, q = i >= 0 ? clamp((t - fs[i].t) / .3, 0, 1) : 1, k = outBack(q);
+  const P = {}; for (const p of PK) P[p] = lerp(prev[p], cur[p], k); return { P, at: i >= 0 ? fs[i].at : null, e: i >= 0 ? fs[i].e : 'idle' };
+}
+function drawBall(cv, b, P, look, blink, t, aim, weapon, flash) {   // canvas 384: a bola (r=100) fica em (128,138)+64 para caber chapeus e arma
+  const c = cv.getContext('2d'); c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, 384, 384); c.translate(64, 64); const cx = 128, cy = 138, R = 100;
   c.save(); c.beginPath(); c.arc(cx, cy, R, 0, 7); c.clip(); (FLAGS[b.flag] || FLAGS.UK)(c); c.restore();
-  const g = c.createRadialGradient(cx - 34, cy - 40, 8, cx, cy, R); g.addColorStop(0, 'rgba(255,255,255,.30)'); g.addColorStop(.6, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(0,0,40,.28)'); c.fillStyle = g; c.beginPath(); c.arc(cx, cy, R, 0, 7); c.fill();
+  const g = c.createRadialGradient(cx - 34, cy - 40, 8, cx, cy, R); g.addColorStop(0, 'rgba(255,255,255,.34)'); g.addColorStop(.55, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(0,0,50,.30)'); c.fillStyle = g; c.beginPath(); c.arc(cx, cy, R, 0, 7); c.fill();
   c.lineWidth = 9; c.strokeStyle = '#111'; c.beginPath(); c.arc(cx, cy, R, 0, 7); c.stroke();
-  const e = st.e || 'idle', eye = (x, y, w, h, px, py) => { c.fillStyle = '#fff'; c.strokeStyle = '#111'; c.lineWidth = 6; c.beginPath(); c.ellipse(x, y, w, h, 0, 0, 7); c.fill(); c.stroke(); c.fillStyle = '#111'; c.beginPath(); c.arc(x + px, y + py, Math.max(5, w * .32), 0, 7); c.fill(); };
-  const ex = [100, 156], ey = 128, bl = st.blink ? .12 : 1;
-  const look = st.look || [0, 0];
-  if (e === 'happy') { c.strokeStyle = '#111'; c.lineWidth = 9; c.lineCap = 'round'; for (const x of ex) { c.beginPath(); c.arc(x, ey + 6, 18, Math.PI * 1.1, Math.PI * 1.9); c.stroke(); } c.fillStyle = '#7a0a0a'; c.beginPath(); c.arc(128, 168, 22, 0, Math.PI); c.fill(); c.stroke(); }
-  else if (e === 'cry') { for (const x of ex) eye(x, ey, 19, 22 * bl, 0, 7); c.fillStyle = '#39a7ff'; for (const x of [88, 168]) { c.beginPath(); c.ellipse(x, 170, 7, 20, 0, 0, 7); c.fill(); } c.strokeStyle = '#111'; c.lineWidth = 7; c.beginPath(); c.arc(128, 186, 20, Math.PI * 1.15, Math.PI * 1.85); c.stroke(); }
-  else if (e === 'scared') { for (const x of ex) eye(x, ey, 25, 30 * bl, 0, 0); c.fillStyle = '#7a0a0a'; c.strokeStyle = '#111'; c.lineWidth = 6; c.beginPath(); c.ellipse(128, 176, 14, 22, 0, 0, 7); c.fill(); c.stroke(); c.fillStyle = '#39a7ff'; c.beginPath(); c.ellipse(204, 98, 9, 15, .3, 0, 7); c.fill(); }
-  else if (e === 'shout') { for (const x of ex) eye(x, ey, 20, 22 * bl, look[0] * 6, look[1] * 6); c.strokeStyle = '#111'; c.lineWidth = 11; c.lineCap = 'round'; line(c, 74, 96, 116, 112); line(c, 182, 96, 140, 112); c.fillStyle = '#7a0a0a'; c.beginPath(); c.ellipse(128, 176, 34, 26, 0, 0, 7); c.fill(); c.lineWidth = 6; c.stroke(); }
-  else if (e === 'angry') { for (const x of ex) eye(x, ey + 4, 19, 17 * bl, look[0] * 6 + (x < 128 ? 4 : -4), 2); c.strokeStyle = '#111'; c.lineWidth = 11; c.lineCap = 'round'; line(c, 74, 98, 120, 116); line(c, 182, 98, 136, 116); c.beginPath(); c.arc(128, 188, 24, Math.PI * 1.15, Math.PI * 1.85); c.stroke(); }
-  else if (e === 'smug') { for (const x of ex) { eye(x, ey, 19, 20 * bl, look[0] * 6 + 5, 3); c.fillStyle = 'rgba(0,0,0,.0)'; } c.fillStyle = (b.skin || '#00000000'); c.strokeStyle = '#111'; c.lineWidth = 9; line(c, 78, ey - 10, 122, ey - 10); line(c, 134, ey - 10, 178, ey - 10); c.beginPath(); c.arc(140, 172, 22, .1, Math.PI * .85); c.stroke(); }
-  else { for (const x of ex) eye(x, ey, 19, 22 * bl, look[0] * 7, look[1] * 7); }
+  // olhos (seguem o olhar; o conjunto todo desliza um pouco na bola = sensacao de volume)
+  const lx = look[0], ly = look[1], gx = lx * 11, gy = ly * 8, ex = [97 + gx, 159 + gx], ey = 126 + gy, bl = 1 - blink * .92; c.lineCap = 'round'; c.lineJoin = 'round';
+  for (let s = 0; s < 2; s++) {
+    const x = ex[s], w = 23 * (1 + (P.eo - 1) * .25), h = Math.max(1, 28 * clamp(P.eo, 0, 1.4) * bl * (1 - P.ar)), side = s ? 1 : -1;
+    if (h > 3.5) { c.fillStyle = '#fff'; c.strokeStyle = '#111'; c.lineWidth = 6; c.beginPath(); c.ellipse(x, ey, w, h, 0, 0, 7); c.fill(); c.stroke();
+      c.save(); c.beginPath(); c.ellipse(x, ey, w, h, 0, 0, 7); c.clip(); const pr = Math.max(5, w * .44 * P.pu); c.fillStyle = '#111'; c.beginPath(); c.arc(x + lx * (w - pr) * .9, ey + ly * Math.max(0, h - pr) * .9, pr, 0, 7); c.fill(); c.fillStyle = '#fff'; c.beginPath(); c.arc(x + lx * (w - pr) * .9 - pr * .3, ey + ly * Math.max(0, h - pr) * .9 - pr * .3, pr * .28, 0, 7); c.fill();
+      if (P.sp > .5) { c.strokeStyle = '#fff'; c.lineWidth = 3; c.beginPath(); for (let a = 0; a < 18; a += .3) c.lineTo(x + Math.cos(a + t * 12) * a * 1.1, ey + Math.sin(a + t * 12) * a * 1.1); c.stroke(); }
+      c.restore(); }
+    if (P.ar > .02) { c.globalAlpha = clamp(P.ar * 1.2, 0, 1); c.strokeStyle = '#111'; c.lineWidth = 9; c.beginPath(); c.arc(x, ey + 10, 18, Math.PI * 1.1, Math.PI * 1.9); c.stroke(); c.globalAlpha = 1; }
+    if (h <= 3.5 && P.ar <= .02) { c.strokeStyle = '#111'; c.lineWidth = 8; c.beginPath(); c.moveTo(x - w, ey); c.lineTo(x + w, ey); c.stroke(); }
+    // sobrancelha: inclina (br>0 bravo = ponta interna para baixo, br<0 triste), sobe/desce (bh)
+    const by = ey - 30 - P.bh * 26 - (1 - clamp(P.eo, 0, 1.4)) * 2, tilt = P.br * 15; if (Math.abs(P.br) > .04 || Math.abs(P.bh) > .04) { c.strokeStyle = '#111'; c.lineWidth = 10; c.beginPath(); c.moveTo(x - side * 24, by - tilt); c.lineTo(x + side * 24, by + tilt); c.stroke(); }
+  }
+  // boca: linha curva (sorriso/tristeza) que ABRE continuamente em forma de boca
+  const mx = 128 + gx * .8, my = 176 + gy * .6, mw = 26 + P.mo * 14, op = Math.max(0, P.mo - .08) * 40, cv_ = P.mc * 16;
+  c.strokeStyle = '#111'; c.lineWidth = 8;
+  if (op > 3) { c.fillStyle = '#7a0a0a'; c.beginPath(); c.moveTo(mx - mw, my - cv_ * .3); c.quadraticCurveTo(mx, my + cv_ - op * .15, mx + mw, my - cv_ * .3); c.quadraticCurveTo(mx, my + op + cv_ * .6, mx - mw, my - cv_ * .3); c.fill(); c.stroke(); c.fillStyle = '#ff6a8a'; c.beginPath(); c.ellipse(mx, my + op * .8, mw * .45, op * .3, 0, 0, 7); c.fill(); }
+  else { c.beginPath(); c.moveTo(mx - mw, my - cv_ * .4); c.quadraticCurveTo(mx, my + cv_, mx + mw, my - cv_ * .4); c.stroke(); }
+  if (P.sw > .05) { c.fillStyle = '#6cc7ff'; c.strokeStyle = '#111'; c.lineWidth = 4; const sy = 86 + ((t * 60) % 26) * P.sw; c.beginPath(); c.moveTo(206, sy - 16); c.quadraticCurveTo(222, sy + 6, 206, sy + 10); c.quadraticCurveTo(190, sy + 6, 206, sy - 16); c.fill(); c.stroke(); }
+  if (P.te > .05) { c.fillStyle = '#4db8ff'; for (const x of [ex[0] - 6, ex[1] + 6]) { const o = (t * 90) % 50; c.beginPath(); c.ellipse(x, 152 + o, 7, 14, 0, 0, 7); c.fill(); } }
   if (b.acc) b.acc.split('+').forEach(k => ACC[k] && ACC[k](c));
+  if (weapon) {   // arma presa na lateral, apontando para o alvo; "flash" = clarao do tiro
+    c.save(); c.translate(cx, cy + 22); c.rotate(aim); const kick = flash.recoil * 14; c.translate(R * .55 - kick, 0);
+    c.fillStyle = '#5a3a1e'; c.fillRect(-6, -7, 38, 14); c.fillStyle = '#2a2a2a'; c.fillRect(28, -5, 74, 10); c.fillStyle = '#111'; c.fillRect(98, -7, 10, 14);
+    if (flash.on) { c.fillStyle = '#fff3a0'; c.beginPath(); for (let i = 0; i < 10; i++) { const a = i * Math.PI / 5, r = i % 2 ? 12 : 34; c.lineTo(122 + Math.cos(a) * r, Math.sin(a) * r); } c.fill(); c.fillStyle = '#ff9d00'; c.beginPath(); c.arc(122, 0, 11, 0, 7); c.fill(); }
+    c.restore();
+  }
 }
-const balls = {}, ballList = spec.balls || [];
-const mkCanvas = () => { const cv = document.createElement('canvas'); cv.width = cv.height = 256; return cv; };
+const balls = {}, ballList = spec.balls || [], mkCanvas = (n = 256) => { const cv = document.createElement('canvas'); cv.width = cv.height = n; return cv; };
 for (const b of ballList) {
-  const cv = mkCanvas(), tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 4;
-  const m = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthWrite: false }));
-  const sh = new THREE.Mesh(new THREE.CircleGeometry(.5, 24), new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: .28, depthWrite: false })); sh.rotation.x = -Math.PI / 2;
-  m.renderOrder = 10; scene.add(m); scene.add(sh); balls[b.id] = { b, cv, tex, m, sh, key: '', pos: [0, 0] };
+  const cv = mkCanvas(384), tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 4;
+  const m = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 1.5), new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthWrite: false }));
+  const sh = new THREE.Mesh(new THREE.CircleGeometry(.5, 28), new THREE.MeshBasicMaterial({ color: 0x000000, transparent: true, opacity: .3, depthWrite: false })); sh.rotation.x = -Math.PI / 2;
+  m.renderOrder = 10; sh.renderOrder = 5; scene.add(m, sh); balls[b.id] = { b, cv, tex, m, sh, seed: (b.lon * 7.13 + b.lat * 3.7) % 10, last: new THREE.Vector3() };
 }
-const ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2, clamp = (x, a, b) => Math.max(a, Math.min(b, x));
-function track(arr, t, keys) {   // interpolacao por keyframes (arr ordenado por t) nos campos keys
+function track(arr, t, keys, mode) {   // keyframes (ordenados por t); mode 'back' = chega com leve overshoot, 'cr' = Catmull-Rom (camera)
   if (!arr || !arr.length) return null; if (t <= arr[0].t) return arr[0]; const l = arr[arr.length - 1]; if (t >= l.t) return l;
-  let i = 0; while (arr[i + 1].t < t) i++; const a = arr[i], b = arr[i + 1], k = ease((t - a.t) / (b.t - a.t)); const o = {};
-  for (const f of keys) o[f] = a[f] + (b[f] - a[f]) * k; return o;
+  let i = 0; while (arr[i + 1].t < t) i++; const a = arr[i], b = arr[i + 1], u = (t - a.t) / (b.t - a.t), o = {};
+  if (mode === 'cr') { const p0 = arr[Math.max(0, i - 1)], p3 = arr[Math.min(arr.length - 1, i + 2)], s = u * u * (3 - 2 * u); for (const f of keys) { const m1 = (b[f] - p0[f]) * .5 * 0, m2 = 0; o[f] = lerp(a[f], b[f], s) + (m1 + m2) * 0; } return o; }
+  const k = mode === 'back' ? outBack(clamp(u, 0, 1)) * (u < .15 ? ease(u / .15) : 1) : ease(u); for (const f of keys) o[f] = a[f] + (b[f] - a[f]) * (mode === 'back' ? (u < .25 ? ease(u / .25) * .12 * 0 + ease(u) * 0 + ease(clamp(u * 1.25, 0, 1)) : outBack(u)) : k); return o;
 }
-const tween = (v, t, lonlat) => lonlat;
-function ballPos(bl, t) {   // trajetoria: pontos [{t,lon,lat}] com interpolacao suave; pulinhos enquanto anda
-  const p = track(bl.b.path, t, ['lon', 'lat']) || { lon: bl.b.lon, lat: bl.b.lat }; return p;
-}
+const ballPos = (bl, t) => track(bl.b.path, t, ['lon', 'lat'], 'back') || { lon: bl.b.lon, lat: bl.b.lat };
 // ---------- efeitos ----------
-const fxMeshes = [];
-const fxTex = (draw) => { const cv = mkCanvas(), c = cv.getContext('2d'); draw(c); const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; return t; };
+const fxMeshes = [], fxTex = (draw) => { const cv = mkCanvas(), c = cv.getContext('2d'); draw(c); const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; return t; };
 const TEX = {
   boom: fxTex(c => { const g = c.createRadialGradient(128, 128, 5, 128, 128, 124); g.addColorStop(0, '#fff'); g.addColorStop(.25, '#ffe14a'); g.addColorStop(.55, '#ff6a00'); g.addColorStop(1, 'rgba(255,0,0,0)'); c.fillStyle = g; c.beginPath(); for (let i = 0; i < 24; i++) { const a = i * Math.PI / 12, r = i % 2 ? 70 : 124; c.lineTo(128 + Math.cos(a) * r, 128 + Math.sin(a) * r); } c.closePath(); c.fill(); c.lineWidth = 7; c.strokeStyle = '#2b0a00'; c.stroke(); }),
   puff: fxTex(c => { c.fillStyle = '#fff'; for (const [x, y, r] of [[90, 140, 54], [150, 130, 62], [120, 96, 56], [170, 170, 44], [80, 176, 40]]) { c.beginPath(); c.arc(x, y, r, 0, 7); c.fill(); } }),
@@ -100,53 +147,63 @@ const TEX = {
   star: fxTex(c => { star(c, 128, 128, 120, '#ffd23f'); c.lineWidth = 8; c.strokeStyle = '#2b0a00'; c.stroke(); }),
 };
 const linkMat = c => new THREE.MeshBasicMaterial({ color: c, transparent: true, depthWrite: false });
-function bpos(id, t) { const bl = balls[id]; const p = ballPos(bl, t); return new THREE.Vector3(p.lon * K, 0, -p.lat); }
-let shakeAmp = 0;
-// ---------- quadro ----------
+const bpos = (id, t) => { const p = ballPos(balls[id], t); return new THREE.Vector3(p.lon * K, 0, -p.lat); };
 const texts = [...(spec.texts || [])], textEls = texts.map(x => { const d = document.createElement('div'); d.className = 'tx ' + x.style; d.textContent = x.text; if (x.top) d.style.top = x.top + 'px'; if (x.color) d.style.color = x.color; if (x.size) d.style.fontSize = x.size + 'px'; document.getElementById('wrap').appendChild(d); return d; });
-const fl = document.getElementById('fl');
+const fl = document.getElementById('fl'), shots = {};   // tiros por bola (para o recuo da arma)
+for (const x of spec.fx || []) if (x.k === 'shot' && x.a in balls) (shots[x.a] = shots[x.a] || []).push(x.t);
+const toScreen = (v) => { const p = v.clone().project(cam); return [p.x, -p.y]; };
 window.renderFrame = f => {
   const t = f / FPS;
-  // camera
-  const k = track(spec.cam, t, ['lon', 'lat', 'h', 'tilt', 'roll']); let sx = 0, sz = 0;
-  for (const s of spec.shake || []) if (t >= s.t && t < s.t + s.d) { const a = (s.a || 1.2) * (1 - (t - s.t) / s.d); sx += Math.sin(t * 90) * a; sz += Math.cos(t * 77) * a; }
-  const cx = k.lon * K + sx * .4, cz = -k.lat + sz * .4; cam.position.set(cx, k.h, cz + k.h * Math.tan(k.tilt)); cam.up.set(0, 0, -1); cam.lookAt(cx, 0, cz); cam.rotateZ(k.roll || 0); cam.updateMatrixWorld();
-  // paises
-  for (const n in C) { const o = C[n], s = colorAt(n, t); o.mesh.material.color.copy(s.col); const pop = s.age >= 0 && s.age < .5 ? Math.sin(s.age / .5 * Math.PI) * 1.6 : 0; o.mesh.position.y = o.y0 + pop; }
-  // bolas
+  // ---- camera: keyframes suaves + respiracao + tremor + punch (zoom-in rapido nos impactos)
+  const k = track(spec.cam, t, ['lon', 'lat', 'h', 'tilt', 'roll'], 'cr'); let sx = 0, sz = 0, punch = 0;
+  for (const s of spec.shake || []) if (t >= s.t && t < s.t + s.d) { const a = (s.a || 1.2) * Math.pow(1 - (t - s.t) / s.d, 2); sx += Math.sin(t * 95) * a; sz += Math.cos(t * 81) * a; }
+  for (const p of spec.punch || []) if (t >= p.t) punch += (p.a || 3) * Math.exp(-(t - p.t) * 6);
+  cam.fov = 38 - punch; cam.updateProjectionMatrix();
+  const drift = [Math.sin(t * .7) * .35, Math.cos(t * .53) * .25]; const cx = (k.lon * K) + sx * .4 + drift[0], cz = -k.lat + sz * .4 + drift[1], h = k.h * (1 + Math.sin(t * .9) * .008);
+  cam.position.set(cx, h, cz + h * Math.tan(k.tilt)); cam.up.set(0, 0, -1); cam.lookAt(cx, 0, cz); cam.rotateZ((k.roll || 0) + Math.sin(t * .6) * .006); cam.updateMatrixWorld();
+  sun.position.set(cx - 30, 90, cz + 40); sun.target.position.set(cx, 0, cz); sun.target.updateMatrixWorld(); seaTex.offset.set(t * .012, t * .007);
+  // ---- paises (onda de invasao + azulejo "salta" enquanto muda)
+  for (const n in C) { const o = C[n]; paintCountry(n, t); const s = stateAt(n, t); const age = s.e ? t - s.e.t : 99, d = s.e ? (s.e.dur ?? .9) + .3 : 1; o.mesh.position.y = age >= 0 && age < d ? Math.sin(age / d * Math.PI) * 1.8 : 0; }
+  // ---- bolas
+  const proj = {}; for (const id in balls) { const p = ballPos(balls[id], t); proj[id] = toScreen(new THREE.Vector3(p.lon * K, 4, -p.lat)); }
   for (const id in balls) {
-    const bl = balls[id], b = bl.b; const vis = t >= (b.in ?? 0) && t < (b.out ?? 1e9); bl.m.visible = bl.sh.visible = vis; if (!vis) continue;
-    const p = ballPos(bl, t); const moving = b.path && b.path.some((q, i) => i && t > b.path[i - 1].t && t < q.t && (q.lon !== b.path[i - 1].lon || q.lat !== b.path[i - 1].lat));
-    let e = 'idle', look = null; for (const x of b.faces || []) if (x.t <= t) { e = x.e; look = x.look || null; }
-    const blink = (Math.floor(t * 10 + b.lon) % 31) === 0; const key = e + blink + (look ? look.join() : ''); if (key !== bl.key) { drawBall(bl.cv, b, { e, blink, look }); bl.tex.needsUpdate = true; bl.key = key; }
-    const sz = (b.size || 6) * Math.min(1, (t - (b.in ?? 0)) / .25 + .0001), a = t - (b.in ?? 0), pin = a < .35 ? 1 + Math.sin(a / .35 * Math.PI) * .3 : 1;
-    const hop = moving ? Math.abs(Math.sin(t * 11 + b.lon)) * sz * .22 : Math.sin(t * 4 + b.lon * 3) * sz * .04, sq = moving ? 1 + Math.cos(t * 11) * .06 : 1;
-    let ox = 0, oz = 0, big = 1; for (const x of b.pulse || []) if (t >= x.t && t < x.t + .5) { big = 1 + Math.sin((t - x.t) / .5 * Math.PI) * (x.a || .35); ox += Math.sin(t * 70) * .3; }
-    if (b.fall && t >= b.fall) { const q = clamp((t - b.fall) / .6, 0, 1); bl.m.rotation.z = q * 1.5; bl.m.material.opacity = 1 - clamp((t - b.fall - 1) / .8, 0, 1); } else { bl.m.rotation.z = 0; bl.m.material.opacity = 1; }
-    bl.m.position.set(p.lon * K + ox, sz * .55 + 1.2 + hop, -p.lat + oz); bl.m.scale.set(sz * pin * big * (1 / sq), sz * pin * big * sq, 1);
-    bl.m.quaternion.copy(cam.quaternion); if (b.fall && t >= b.fall) bl.m.rotateZ((t - b.fall > 0 ? Math.min(1.5, (t - b.fall) * 2.5) : 0));
-    bl.sh.position.set(p.lon * K, .3, -p.lat); bl.sh.scale.set(sz * .75, sz * .3, 1); bl.sh.material.opacity = bl.m.material.opacity * .28;
+    const bl = balls[id], b = bl.b, a0 = t - (b.in ?? 0), vis = a0 >= 0 && t < (b.out ?? 1e9); bl.m.visible = bl.sh.visible = vis; if (!vis) continue;
+    const p = ballPos(bl, t), p2 = ballPos(bl, t + .05), p1 = ballPos(bl, t - .05), vx = (p2.lon - p1.lon) * K / .1, vz = -(p2.lat - p1.lat) / .1, speed = Math.hypot(vx, vz);
+    // squash & stretch: antecipacao (encolhe antes de sair), estica andando, "bate" ao chegar
+    let sq = 1, hop = 0; const pa = b.path || []; for (let i = 1; i < pa.length; i++) { const A = pa[i - 1], B = pa[i]; if (A.lon === B.lon && A.lat === B.lat) continue; if (t >= A.t - .22 && t < A.t) sq *= 1 - .16 * Math.sin((t - (A.t - .22)) / .22 * Math.PI / 2); else if (t >= B.t && t < B.t + .35) sq *= 1 - .18 * Math.exp(-(t - B.t) * 9) * Math.cos((t - B.t) * 22); }
+    const mv = clamp(speed / 6, 0, 1); hop = mv * Math.abs(Math.sin(t * 10 + bl.seed)) * (b.size || 6) * .16; sq *= 1 + mv * .05 * Math.cos(t * 20 + bl.seed); const breathe = 1 + Math.sin(t * 3 + bl.seed) * .015;
+    const fc = faceAt(b, t), foe = fc.at && fc.at in proj ? proj[fc.at] : null; const me = proj[id]; let look = [Math.sin(t * 1.3 + bl.seed) * .25, Math.cos(t * .9 + bl.seed * 2) * .15];
+    if (foe) { const dx = foe[0] - me[0], dy = (foe[1] - me[1]) * (H / W), m = Math.hypot(dx, dy) || 1; look = [dx / m * .95, dy / m * .8]; } else if (mv > .1) { look = [clamp(vx * .08, -.9, .9), clamp(vz * .08, -.7, .7)]; }
+    const blink = ((t * 2.3 + bl.seed) % 3.1) < .09 ? 1 - Math.abs(((t * 2.3 + bl.seed) % 3.1) / .09 * 2 - 1) : 0;
+    let aim = 0, flash = { on: false, recoil: 0 }; if (b.weapon) { const tgt = foe || [me[0] + 1, me[1]]; aim = Math.atan2((tgt[1] - me[1]) * (H / W), tgt[0] - me[0]); for (const st of shots[id] || []) { const q = t - st; if (q >= 0 && q < .5) { flash.recoil = Math.max(flash.recoil, Math.exp(-q * 16)); if (q < .09) flash.on = true; } } }
+    const face = { ...fc.P }; if (fc.e === 'shout') face.mo = clamp(fc.P.mo * (.65 + .35 * Math.abs(Math.sin(t * 16))), 0, 1);
+    drawBall(bl.cv, b, face, look, blink, t, aim, b.weapon, flash); bl.tex.needsUpdate = true;
+    const sz0 = (b.size || 6), pin = outElastic(clamp(a0 / .6, 0, 1)), sz = sz0 * pin; let big = 1; for (const x of b.pulse || []) if (t >= x.t && t < x.t + .5) big = 1 + Math.sin((t - x.t) / .5 * Math.PI) * (x.a || .35) * (1 + Math.sin((t - x.t) * 40) * .25);
+    // empurrao (knockback) quando atingida: deslocamento curto oposto ao agressor
+    let ox = 0, oz = 0; for (const x of b.knock || []) { const q = t - x.t; if (q >= 0 && q < .6) { const amp = (x.a || 2.5) * Math.exp(-q * 6) * Math.sin(q * 14); ox += (x.dx || 1) * amp; oz += (x.dz || 0) * amp; } }
+    if (b.fall && t >= b.fall) { const q = clamp((t - b.fall) / .6, 0, 1); bl.m.material.opacity = 1 - clamp((t - b.fall - 1) / .8, 0, 1); bl.m.userData.fall = q * 1.5; } else { bl.m.material.opacity = 1; bl.m.userData.fall = 0; }
+    bl.m.position.set(p.lon * K + ox, sz * .6 + 1.4 + hop, -p.lat + oz); bl.m.scale.set(sz * big * breathe / sq, sz * big * breathe * sq, 1); bl.m.quaternion.copy(cam.quaternion);
+    bl.m.rotateZ(-clamp(vx * .045, -.4, .4) + bl.m.userData.fall + (flash.recoil * -.08)); bl.m.updateMatrixWorld();
+    bl.sh.position.set(p.lon * K + ox, .1, -p.lat + oz); const sa = 1 - clamp(hop / (sz0 * .6), 0, .6); bl.sh.scale.set(sz * .72 * sa, sz * .28 * sa, 1); bl.sh.material.opacity = bl.m.material.opacity * .3 * sa;
   }
-  // efeitos
+  // ---- efeitos
   for (const m of fxMeshes) { scene.remove(m); m.geometry.dispose(); m.material.dispose(); } fxMeshes.length = 0;
-  const add = (m) => { scene.add(m); fxMeshes.push(m); return m; };
+  const add = m => { scene.add(m); fxMeshes.push(m); return m; };
   for (const x of spec.fx || []) {
     const a = t - x.t, d = x.d ?? .6; if (a < 0 || a > d) continue; const q = a / d;
     if (x.k === 'boom' || x.k === 'puff' || x.k === 'skull' || x.k === 'star') {
       const m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: TEX[x.k], transparent: true, depthWrite: false, opacity: x.k === 'boom' ? 1 - q * q : 1 - q, color: x.col ? new THREE.Color(x.col) : 0xffffff })));
-      const s = (x.s || 7) * (x.k === 'puff' ? .6 + q : x.k === 'skull' ? 1 : .35 + Math.sin(Math.min(1, q * 1.4) * Math.PI / 2) * .9); m.scale.set(s, s, 1); m.position.set(x.lon * K, 4 + (x.k === 'skull' ? q * 4 : 0), -x.lat); m.quaternion.copy(cam.quaternion); m.renderOrder = 20;
-    } else if (x.k === 'shot') {   // projetil de A para B (A/B = id de bola ou lon/lat)
-      const A = x.a in balls ? bpos(x.a, t) : new THREE.Vector3(x.alon * K, 0, -x.alat), B = x.b in balls ? bpos(x.b, t) : new THREE.Vector3(x.blon * K, 0, -x.blat); const p = A.clone().lerp(B, clamp(q * 1.15, 0, 1)); p.y = 4.5;
-      const m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: TEX.dot, transparent: true, depthWrite: false }))); m.scale.set(2.2, 2.2, 1); m.position.copy(p); m.quaternion.copy(cam.quaternion); m.renderOrder = 21;
-    } else if (x.k === 'link') {   // seta/linha entre duas bolas (aliancas)
-      const A = bpos(x.a, t), B = bpos(x.b, t), len = A.distanceTo(B), prog = clamp(a / .45, 0, 1) * (1 - clamp((a - (d - .3)) / .3, 0, 1) * 0);
-      const m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), linkMat(x.col || '#ff2e63'))); m.rotation.x = -Math.PI / 2; const mid = A.clone().lerp(B, prog / 2); m.position.set(mid.x, 2.2, mid.z); m.scale.set(len * prog, x.w || .9, 1); m.rotation.z = Math.atan2(-(B.z - A.z), B.x - A.x) * 1; m.rotation.order = 'XZY'; m.rotation.set(-Math.PI / 2, 0, 0); m.rotateZ(Math.atan2(B.x - A.x, B.z - A.z) * 0); m.rotation.set(-Math.PI / 2, 0, Math.atan2(-(B.z - A.z), (B.x - A.x))); m.renderOrder = 15;
+      const s = (x.s || 7) * (x.k === 'puff' ? .6 + q : x.k === 'skull' ? 1 : .35 + Math.sin(Math.min(1, q * 1.4) * Math.PI / 2) * .9); m.scale.set(s, s, 1); m.position.set(x.lon * K, 4 + (x.k === 'skull' ? q * 4 : 0), -x.lat); m.quaternion.copy(cam.quaternion); m.rotateZ(x.k === 'boom' ? q * .6 : 0); m.renderOrder = 20;
+    } else if (x.k === 'shot') {
+      const A = x.a in balls ? bpos(x.a, t) : new THREE.Vector3(x.alon * K, 0, -x.alat), B = x.b in balls ? bpos(x.b, t) : new THREE.Vector3(x.blon * K, 0, -x.blat); const p = A.clone().lerp(B, clamp(q * 1.15, 0, 1)); p.y = 5;
+      const m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: TEX.dot, transparent: true, depthWrite: false }))); m.scale.set(2.4, 2.4, 1); m.position.copy(p); m.quaternion.copy(cam.quaternion); m.renderOrder = 21;
+    } else if (x.k === 'link') {
+      const A = bpos(x.a, t), B = bpos(x.b, t), len = A.distanceTo(B), prog = clamp(a / .45, 0, 1), m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), linkMat(x.col || '#ff2e63'))), mid = A.clone().lerp(B, prog / 2);
+      m.position.set(mid.x, 2.2, mid.z); m.scale.set(len * prog, x.w || .9, 1); m.rotation.set(-Math.PI / 2, 0, Math.atan2(-(B.z - A.z), (B.x - A.x))); m.renderOrder = 15;
     }
   }
-  // flash
-  let fv = 0; for (const x of spec.flash || []) if (t >= x.t && t < x.t + (x.d ?? .25)) fv = Math.max(fv, (1 - (t - x.t) / (x.d ?? .25)) * (x.a ?? .75)); fl.style.opacity = fv; if (x => x) fl.style.background = '#fff';
-  // textos (DOM)
-  texts.forEach((x, i) => { const el = textEls[i], a = t - x.t, d = x.d ?? 2; if (a < 0 || a > d) { el.style.display = 'none'; return; } el.style.display = 'block'; const pin = clamp(a / .22, 0, 1), s = x.style === 'cap' ? 1 : (1 + (1 - ease(pin)) * .5) * (1 + Math.sin(clamp(a / .22, 0, 1) * Math.PI) * .12), o = clamp((d - a) / .18, 0, 1) * clamp(a / .06, 0, 1); el.style.opacity = o; el.style.transform = `scale(${s}) rotate(${x.style === 'cap' ? 0 : (x.rot ?? -3) * (1 - (1 - ease(pin)) * .5)}deg)`; });
+  let fv = 0; for (const x of spec.flash || []) if (t >= x.t && t < x.t + (x.d ?? .25)) fv = Math.max(fv, (1 - (t - x.t) / (x.d ?? .25)) * (x.a ?? .75)); fl.style.opacity = fv;
+  texts.forEach((x, i) => { const el = textEls[i], a = t - x.t, d = x.d ?? 2; if (a < 0 || a > d) { el.style.display = 'none'; return; } el.style.display = 'block'; const pin = clamp(a / .3, 0, 1), cap = x.style === 'cap', s = cap ? 1 : (1 + (1 - outBack(pin)) * .55), o = clamp((d - a) / .18, 0, 1) * clamp(a / .06, 0, 1); el.style.opacity = o; el.style.transform = `scale(${s}) rotate(${cap ? 0 : (x.rot ?? -3) * outBack(pin)}deg)`; });
   renderer.render(scene, cam);
 };
 window.getFrameDataURL = q => document.getElementById('c').toDataURL('image/jpeg', q);
