@@ -10,7 +10,7 @@ b2 | harbor | reveal | 8 | parados (so fala e pisca) | kit/rocket, kit/marco_can
 b3 | interior loja | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/roadster | - | -
 b4 | harbor | crowd | 23 | reagir, batalha | kit/falcon_air, kit/marco_canaveral | - | -
 b5 | interior loja | two | 2 | conversar, INTERAGEM: insiste | kit/roadster | - | -
-b6 | countryside | group | 6 | conversar | kit/roadster, kit/marco_canaveral | - | -
+b6 | loc_campo | group | 6 | conversar | kit/roadster, kit/marco_canaveral | - | -
 b7 | arctic | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/roadster, kit/globe | - | -
 b8 | arctic | low | 2 | reagir, INTERAGEM: aproxima-se | kit/roadster | - | -
 b9 | arctic | orbit | 21 | comemorar, batalha | kit/rocket, kit/roadster | - | -

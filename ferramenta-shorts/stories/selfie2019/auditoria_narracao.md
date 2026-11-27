@@ -2,24 +2,24 @@
 Cenas 100% fieis: 11/11 (100%). Lacunas: 0
 
 ## b0 OK - Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
-- na tela: set=['street'] animais=[] objetos=['BookStand', 'marco_onu', 'phone'] atores=18 acoes_folha3=['chegou', 'chegou', 'tirou']
+- na tela: set=['loc_cidade'] animais=[] objetos=['BookStand', 'marco_onu', 'phone'] atores=18 acoes_folha3=['chegou', 'chegou', 'tirou']
 ## b1 OK - Foi em setembro de dois mil e dezenove, na Assembleia Geral da ONU, em Nova York.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
-## b2 OK - Ali, os líderes de quase todos os países fazem discursos longos e sérios.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=[]
-## b3 OK - Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.
 - na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_wood'] atores=2 acoes_folha3=[]
+## b2 OK - Ali, os líderes de quase todos os países fazem discursos longos e sérios.
+- na tela: set=['hall'] animais=[] objetos=['Bed_Twin1', 'Cabinet', 'Crate_Metal', 'Nightstand_Shelf', 'Stool', 'room_europa_stone'] atores=2 acoes_folha3=[]
+## b3 OK - Nayib Bukele, o novo presidente de El Salvador, tinha só trinta e oito anos.
+- na tela: set=['hall'] animais=[] objetos=['room_verde_shop'] atores=2 acoes_folha3=[]
 ## b4 OK - Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
-- na tela: set=['street'] animais=[] objetos=['BookStand', 'marco_onu', 'phone'] atores=3 acoes_folha3=['tirou', 'celular']
+- na tela: set=['hall'] animais=[] objetos=['Bench', 'BookStand', 'Shelf_Arch', 'Table_Large', 'Vase_2', 'Vase_4', 'phone', 'room_azul_wood'] atores=3 acoes_folha3=['pediu', 'tirou', 'celular']
 ## b5 OK - Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-- na tela: set=['street'] animais=[] objetos=['BookStand', 'marco_onu', 'phone'] atores=22 acoes_folha3=['tirou']
+- na tela: set=['loc_cidade'] animais=[] objetos=['BookStand', 'marco_onu', 'phone'] atores=22 acoes_folha3=['tirou']
 ## b6 OK - Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_wood'] atores=2 acoes_folha3=['brincou', 'selfie']
+- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_rosa_stone'] atores=2 acoes_folha3=['brincou', 'selfie']
 ## b7 OK - E ele tinha razão. A foto rodou o planeta em poucas horas.
-- na tela: set=['street'] animais=[] objetos=['globe', 'marco_onu', 'phone'] atores=23 acoes_folha3=['foto']
+- na tela: set=['loc_cidade'] animais=[] objetos=['globe', 'marco_onu', 'phone'] atores=23 acoes_folha3=['foto']
 ## b8 OK - Alguns acharam falta de respeito com a ONU. Outros acharam genial.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'room_eua_stone'] atores=2 acoes_folha3=['acharam']
+- na tela: set=['hall'] animais=[] objetos=['room_colonial_shop'] atores=2 acoes_folha3=['acharam', 'acharam']
 ## b9 OK - No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_stone'] atores=2 acoes_folha3=['defendeu', 'internet']
+- na tela: set=['hall'] animais=[] objetos=['Crate_Metal', 'Shelf_Small_Bottles', 'Stool', 'Vase_2', 'Workbench_Drawers', 'room_classico_wood'] atores=2 acoes_folha3=['defendeu']
 ## b10 OK - Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros.
-- na tela: set=['hall'] animais=[] objetos=['Bookcase_2', 'Chair_1', 'Chest_Wood', 'Table_Large', 'phone', 'room_eua_stone'] atores=1 acoes_folha3=['selfie']
+- na tela: set=['hall'] animais=[] objetos=['Bench', 'Shelf_Arch', 'Table_Large', 'Vase_2', 'Vase_4', 'phone', 'room_eua_stone'] atores=1 acoes_folha3=['selfie']

@@ -4,14 +4,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | group | 3 | conversar, INTERAGEM: insiste | kit/coin | - | -
+b0 | loc_cidade | group | 3 | conversar, INTERAGEM: insiste | kit/coin | - | -
 b1 | interior madeira | two | 2 | conversar, INTERAGEM: entregar | kit/coin | - | -
 b2 | interior loja | two | 1 | reagir | kit/coin | - | -
 b3 | interior pedra | two | 2 | conversar, INTERAGEM: vai ate o outro | - | - | -
-b4 | outback | wide | 20 | conversar, batalha | kit/roadster, kit/rocket | - | -
-b5 | countryside | crowd | 12 | reagir, batalha | kit/rocket | - | -
-b6 | street | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/coin, kit/rocket | - | -
-b7 | street | close | 1 | conversar | - | - | -
+b4 | loc_pista | wide | 20 | conversar, batalha | kit/roadster, kit/rocket | - | -
+b5 | loc_campo | crowd | 12 | reagir, batalha | kit/rocket | - | -
+b6 | loc_cidade | group | 3 | conversar, INTERAGEM: o outro se aproxima | kit/roadster, kit/coin, kit/rocket | - | -
+b7 | loc_cidade | close | 1 | conversar | - | - | -
 
 OBJETO HEROI: kit/roadster
 GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b4, b5

@@ -1,0 +1,297 @@
+{
+ "id": "falcon2015",
+ "ano": 2015,
+ "cenarios_trocados": [
+  [
+   "cena 2",
+   "outback",
+   "loc_pista"
+  ],
+  [
+   "cena 3",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 5",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 7",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 8",
+   "countryside",
+   "loc_campo"
+  ],
+  [
+   "cena 9",
+   "countryside",
+   "loc_campo"
+  ]
+ ],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 67,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land",
+    "kit/marco_canaveral",
+    "kit/rocket"
+   ],
+   "palavras": 21,
+   "cena": "b0",
+   "frase": "Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e desceu de ré.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "reveal",
+   "personagens": [
+    "POV",
+    "POV"
+   ],
+   "multidao": 6,
+   "objetos": [
+    "kit/marco_canaveral"
+   ],
+   "palavras": 13,
+   "cena": "b1",
+   "frase": "Foi em dezembro de dois mil e quinze, no Cabo Canaveral, na Flórida.",
+   "classe": "transicao",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_pista"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land",
+    "kit/marco_canaveral",
+    "kit/rocket",
+    "vehicles/airplane"
+   ],
+   "palavras": 16,
+   "cena": "b2",
+   "frase": "Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENA",
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_canaveral",
+    "kit/rocket"
+   ],
+   "palavras": 13,
+   "cena": "b3",
+   "frase": "As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_canaveral",
+    "kit/rocket",
+    "kit/starlink_sat"
+   ],
+   "palavras": 16,
+   "cena": "b4",
+   "frase": "Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "crowd",
+   "personagens": [
+    "ENG",
+    "ENA",
+    "MUS"
+   ],
+   "multidao": 18,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral"
+   ],
+   "palavras": 21,
+   "cena": "b5",
+   "frase": "Depois de soltar a parte de cima, a parte de baixo virou no céu, e começou a voltar para a Terra.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "low",
+   "personagens": [
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon_air",
+    "kit/marco_canaveral"
+   ],
+   "palavras": 15,
+   "cena": "b6",
+   "frase": "Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land",
+    "kit/marco_canaveral"
+   ],
+   "palavras": 13,
+   "cena": "b7",
+   "frase": "E desceu certinho no meio da plataforma, abrindo as pernas no último segundo.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "orbit",
+   "personagens": [
+    "MUS",
+    "ENG",
+    "ENA"
+   ],
+   "multidao": 20,
+   "objetos": [
+    "kit/falcon9_land",
+    "kit/marco_canaveral"
+   ],
+   "palavras": 12,
+   "cena": "b8",
+   "frase": "Os funcionários da SpaceX gritaram de alegria, como numa final de campeonato.",
+   "classe": "chave",
+   "sujeito": "personagem",
+   "briefing": {
+    "corpo": "tropa/personagens encenam a batalha",
+    "emissao": "claroes de tiro, fumaca e poeira",
+    "luz": "clarao",
+    "camera": "4 cameras em sequencia",
+    "som": "tiros e gritos"
+   },
+   "acoes_faltando": [],
+   "cenario": "loc_campo"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS",
+    "ENG"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/rocket"
+   ],
+   "palavras": 17,
+   "cena": "b9",
+   "frase": "Foi a primeira vez que um foguete desse tamanho voltou do espaço e ficou inteiro em terra.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "interior loja"
+  },
+  {
+   "camera": "close",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/falcon9_land",
+    "kit/marco_canaveral",
+    "kit/rocket"
+   ],
+   "palavras": 18,
+   "cena": "b10",
+   "frase": "Hoje, os foguetes da SpaceX pousam quase toda semana. E a viagem ao espaço ficou muito mais barata.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  },
+  {
+   "camera": "two",
+   "personagens": [
+    "MUS"
+   ],
+   "multidao": 0,
+   "objetos": [
+    "kit/marco_canaveral"
+   ],
+   "palavras": 13,
+   "cena": "b11",
+   "frase": "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "harbor"
+  }
+ ]
+}

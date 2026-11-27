@@ -1,0 +1,54 @@
+{
+ "id": "cachorro1925",
+ "ano": 1925,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Cão Fugitivo",
+   "consultas": [
+    "A Guerra do Cão Fugitivo",
+    "Um Em Grécia Bulgária Um 1925"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Bulgária",
+   "consultas": [
+    "Bulgária 1925",
+    "Bulgária landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1925",
+   "consultas": [
+    "1925 fashion clothing",
+    "1925 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "dog sit",
+   "consultas": [
+    "dog sit",
+    "A Guerra do Cão Fugitivo"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1925",
+    "soldier uniform"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "exercito da epoca",
+   "consultas": [
+    "army 1925",
+    "army"
+   ]
+  }
+ ]
+}

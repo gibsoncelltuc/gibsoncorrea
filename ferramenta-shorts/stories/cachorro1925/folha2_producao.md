@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/cachorro1925/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py cachorro1925` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um cachorro fugiu, e por causa dele dois países entraram em guerra, e ...
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): GRE (variante 0, expressao shock); BUL (variante 0, expressao neutral)
@@ -13,7 +13,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b1 - Em mil novecentos e vinte e cinco, a fronteira entre a Grécia e a Bulg...
-- Cenario: mountain | luz: golden | clima: limpo
+- Cenario: loc_montanha | luz: golden | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): GRE (variante 0, expressao stern); BUL (variante 0, expressao stern) | multidao: 8 de GRE/BUL
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Um soldado grego estava de guarda quando o cachorro dele fugiu para o ...
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): GRE (variante 0, expressao nervous); GRE (variante 1, expressao scared)
@@ -33,7 +33,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - O soldado correu atrás do cachorro, e atravessou a fronteira sem pensa...
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: track = travelling lateral acompanhando quem anda
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): GRE (variante 0, expressao shout); GRE (variante 1, expressao angry)
@@ -43,17 +43,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.
-- Cenario: mountain | luz: golden | clima: limpo
-- Camera: aereo = -
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Cenario: loc_montanha | luz: golden | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BUL (variante 0, expressao angry); GRE (variante 0, expressao scared) | multidao: 10 de BUL/GRE
-- Animacao: encena | batalha encenada
+- Animacao: conversar | interacao: empurrar | batalha encenada
 - Objetos/modelos: kit/dog_sit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estranho, sentinela
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o soldado morreu, e a Grécia deu um ultimato furioso à Bu...
-- Cenario: mountain | luz: golden | clima: limpo
+- Cenario: loc_montanha | luz: golden | clima: limpo
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): GRE (variante 0, expressao sad); GRE (variante 1, expressao angry)
@@ -63,10 +63,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a reg...
-- Cenario: mountain | luz: golden | clima: limpo
+- Cenario: loc_montanha | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 20 de GRE/BUL
+- Personagens principais (2): GRE (variante 0, expressao angry); BUL (variante 0, expressao shout) | multidao: 48 de GRE/BUL
 - Animacao: encena | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulgaria, combates, exercito, pessoas, petrich, regiao
@@ -93,13 +93,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - A Grécia obedeceu, e ninguém sabe o que aconteceu com o cachorro.
-- Cenario: countryside | luz: golden | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GRE (variante 0, expressao sad)
 - Animacao: reagir
 - Objetos/modelos: kit/dog_sit, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, grecia
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: loc_campo | luz: golden | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (1): GRE (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -112,11 +122,15 @@ dog | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parec
 
 
 ## Video inteiro
-- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 3 | mistura: close 21% | medio 60% | aberto 16% | detalhe 3%
-- Interacoes: b0 discutir, b5 susto, b7 susto, b8 entregar
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/dog_sit | grandes momentos: b4, b6 | planos abertos: 2 | mistura: close 16% | medio 67% | aberto 13% | detalhe 4%
+- Interacoes: b0 discutir, b4 empurrar, b5 susto, b7 susto, b8 entregar
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py cachorro1925  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/cachorro1925/moodboard.jpg
+  - roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais) -> CORRECAO: pesquisar fotos/quadros/videos do fato e preencher "visual" no topo do beats.json (veja GUIA_DO_ROTEIRISTA.md "Pesquisa visual") e ajustar figurino, cenario e objetos a ela
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
+- geral: roteiro sem pesquisa visual completa (falta: local, quando, participantes, roupas, cenario, objetos, fontes_visuais)
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh cachorro1925 bN bM` (so essas cenas).

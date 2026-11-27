@@ -1,0 +1,61 @@
+{
+ "id": "falcon2015",
+ "ano": 2015,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "O Foguete que Voltou de Ré",
+   "consultas": [
+    "O Foguete que Voltou de Ré",
+    "Durante Até Foi Cabo Canaveral Flórida Elon Musk SpaceX Muitos 2015"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2015",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2015",
+   "consultas": [
+    "2015 fashion clothing",
+    "2015 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "rocket",
+   "consultas": [
+    "rocket",
+    "O Foguete que Voltou de Ré"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "falcon9 land",
+   "consultas": [
+    "falcon9 land"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "foguete da epoca",
+   "consultas": [
+    "rocket 2015",
+    "rocket"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "aviao da epoca",
+   "consultas": [
+    "airplane 2015",
+    "airplane"
+   ]
+  }
+ ]
+}

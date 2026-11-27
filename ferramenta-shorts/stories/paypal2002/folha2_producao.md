@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/paypal2002/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py paypal2002` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunci...
-- Cenario: street | luz: golden | clima: limpo
+- Cenario: loc_cidade | luz: golden | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): EBY (variante 0, expressao grin); MUS (variante 0, expressao surprised); POV (variante 0, expressao smile)
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - Com o dinheiro da venda, ele pôde investir em novos projetos, como a S...
-- Cenario: outback | luz: golden | clima: limpo
+- Cenario: loc_pista | luz: golden | clima: limpo
 - Camera: wide = ABERTO fixo
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao grin); POV (variante 0, expressao surprised) | multidao: 18 de POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-- Cenario: countryside | luz: golden | clima: limpo
+- Cenario: loc_campo | luz: golden | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao laugh); POV (variante 0, expressao shock) | multidao: 10 de POV
@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Uma venda de internet que ajudou a pagar foguetes e carros elétricos.
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_cidade | luz: dia | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): MUS (variante 0, expressao laugh); EBY (variante 0, expressao smile); POV (variante 0, expressao grin)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
-- Cenario: street | luz: dia | clima: limpo
+- Cenario: loc_cidade | luz: dia | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): EBY (variante 0, expressao grin)
@@ -95,9 +95,15 @@ kit/rocket | b4, b5, b6 | pronto | conferir na folha de contato se le bem; se pa
 ## Video inteiro
 - Objeto heroi: kit/roadster | grandes momentos: b4, b5 | planos abertos: 2 | mistura: close 18% | medio 66% | aberto 9% | detalhe 7%
 - Interacoes: b0 insiste, b1 entregar, b3 vai ate o outro, b6 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
+  - video com ~32 s (o canal fica entre 55 e 75 s) -> CORRECAO: acrescentar cenas com fatos confirmados da pesquisa (a virada, a consequencia, a explicacao) ate ficar entre 55 e 75 s
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py paypal2002  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/paypal2002/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 3 risco(s) em aberto
+- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+- geral: video com ~32 s (o canal fica entre 55 e 75 s)
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh paypal2002 bN bM` (so essas cenas).

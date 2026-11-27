@@ -4,14 +4,14 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | street | reveal | 18 | encena | mk/BookStand, kit/marco_onu, kit/phone | - | -
+b0 | loc_cidade | reveal | 18 | encena | mk/BookStand, kit/marco_onu, kit/phone | - | -
 b1 | interior madeira | two | 2 | conversar, INTERAGEM: avanca e o outro recua | - | - | -
 b2 | interior pedra | two | 2 | discutir, INTERAGEM: discutir | - | paper | -
 b3 | interior loja | two | 2 | comemorar, INTERAGEM: cochichar | - | - | -
 b4 | interior madeira | close | 1 | conversar | kit/phone, mk/BookStand | - | -
-b5 | street | crowd | 22 | tirar, batalha | mk/BookStand, kit/marco_onu, kit/phone | - | -
+b5 | loc_cidade | crowd | 22 | tirar, batalha | mk/BookStand, kit/marco_onu, kit/phone | - | -
 b6 | interior pedra | two | 2 | comemorar, INTERAGEM: pular | - | - | -
-b7 | street | crowd | 23 | comemorar, batalha | kit/marco_onu, kit/globe | - | -
+b7 | loc_cidade | crowd | 23 | comemorar, batalha | kit/marco_onu, kit/globe | - | -
 b8 | interior loja | two | 2 | discutir, INTERAGEM: susto | - | paper | -
 b9 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | - | - | -
 b10 | interior pedra | close | 1 | comemorar | kit/phone | - | -

@@ -3,7 +3,7 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/selfie2019/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py selfie2019` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Um presidente chegou ao púlpito mais importante do mundo, e antes de f...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): BUK (variante 0, expressao grin); DIP (variante 0, expressao surprised) | multidao: 16 de POV
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): BUK (variante 0, expressao grin); POV (variante 1, expressao surprised) | multidao: 20 de POV
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Cenario: street | luz: day | clima: limpo
+- Cenario: loc_cidade | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao surprised); REP (variante 0, expressao grin) | multidao: 20 de POV
@@ -136,9 +136,11 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/phone | grandes momentos: b5, b7 | planos abertos: 3 | mistura: close 18% | medio 69% | aberto 11% | detalhe 2%
 - Interacoes: b1 avanca e o outro recua, b2 discutir, b3 cochichar, b6 pular, b8 susto, b9 o outro se aproxima
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py selfie2019  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/selfie2019/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh selfie2019 bN bM` (so essas cenas).

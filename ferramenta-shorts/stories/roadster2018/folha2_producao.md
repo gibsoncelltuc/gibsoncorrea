@@ -63,7 +63,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - No painel, estava escrito: Não entre em pânico.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: loc_campo | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): STA (variante 0, expressao neutral) | multidao: 5 de POV
@@ -127,9 +127,13 @@ kit/globe | b7 | pronto | conferir na folha de contato se le bem; se parecer cai
 ## Video inteiro
 - Objeto heroi: kit/roadster | grandes momentos: b4, b9 | planos abertos: 3 | mistura: close 22% | medio 57% | aberto 14% | detalhe 6%
 - Interacoes: b0 avanca e o outro recua, b3 o outro se aproxima, b5 insiste, b7 vai ate o outro, b8 aproxima-se
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa) -> CORRECAO: reescrever a 1a frase com o fato mais absurdo da historia (sem ano); a data entra na 2a frase ou no mapa
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py roadster2018  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/roadster2018/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 2 risco(s) em aberto
+- geral: o video ABRE com a data (gancho fraco: o canal abre com o fato estranho e so depois situa)
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh roadster2018 bN bM` (so essas cenas).

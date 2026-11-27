@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 14 - O Dia em que o PayPal Foi Vendido
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 8 cenas, 107 palavras (~37 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 8 cenas, 107 palavras (~37 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Em julho de dois mil e dois, nos Estados Unidos, a empresa eBay anunciou a compra do PayPal.
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Com o dinheiro da venda, ele pôde investir em novos projetos, como a SpaceX e a Tesla.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@3
 - Efeito + som nas palavras-chave: dinheiro -> stars + som de sino; encena: paga (reach) @2 -> acao + som de efeito; encena: negocio (reach) @4 -> acao + som de efeito
 - Efeito visual marcado: stars@3
@@ -49,7 +49,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b5  (~4.1 s)
 - Narracao: A SpaceX foi fundada naquele mesmo ano, em dois mil e dois.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: whoosh@4
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: burst@4
