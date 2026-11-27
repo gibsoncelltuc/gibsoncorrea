@@ -1,0 +1,4 @@
+{"cam":[{"t":0,"lon":12,"lat":50,"h":70,"tilt":0.0,"roll":0}],
+ "colors":[{"t":0,"c":["Germany","Austria","Hungary"],"col":"#ff2e63"},{"t":0,"c":["France","United Kingdom","Russia","Belgium","Serbia"],"col":"#2e8bff"}],
+ "balls":[{"id":"ger","flag":"DE","acc":"pickel","lon":10,"lat":51,"size":9,"faces":[{"t":0,"e":"angry"}]},{"id":"fra","flag":"FR","acc":"kepi","lon":2,"lat":47,"size":9,"faces":[{"t":0,"e":"scared"}]},{"id":"uk","flag":"UK","acc":"brodie","lon":-2,"lat":54,"size":8,"faces":[{"t":0,"e":"smug"}]}],
+ "texts":[{"t":0,"d":5,"text":"1914","style":"year"},{"t":0,"d":5,"text":"One shot","style":"cap"}],"fx":[{"t":0,"k":"boom","lon":6,"lat":49,"d":5,"s":9}]}

@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:IB;src:url(Inter-Black.otf)}
+html,body{margin:0;background:#000;overflow:hidden}#wrap{position:relative;width:1080px;height:1920px}canvas{display:block;position:absolute;left:0;top:0}
+.tx{position:absolute;left:0;width:1080px;text-align:center;font-family:IB,Inter,Arial;color:#fff;text-transform:uppercase;line-height:1.0;-webkit-text-stroke:0;paint-order:stroke fill;transform-origin:50% 50%;white-space:pre-line;pointer-events:none}
+.year{top:210px;font-size:250px;color:#ffd23f;-webkit-text-stroke:22px #1a0b00;text-shadow:0 14px 0 #1a0b00}
+.big{top:330px;font-size:120px;-webkit-text-stroke:16px #111;text-shadow:0 10px 0 #111}
+.num{top:250px;font-size:190px;color:#ff3b3b;-webkit-text-stroke:20px #fff;text-shadow:0 12px 0 #fff}
+.cap{top:1450px;line-height:1.12;font-size:74px;-webkit-text-stroke:14px #000;padding:0 50px;box-sizing:border-box}
+#fl{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}#vg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 55%,rgba(10,0,30,.45) 100%)}
+</style></head><body><div id="wrap"><canvas id="c" width="1080" height="1920"></canvas><div id="vg"></div><div id="fl"></div></div>
+<script>window.addEventListener('error',e=>{window.err=String(e.message);console.log('ERR '+e.message)});</script>
+<script type="module" src="cb.js"></script></body></html>
