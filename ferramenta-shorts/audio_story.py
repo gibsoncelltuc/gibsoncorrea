@@ -93,6 +93,21 @@ def sting(t, g=0.7):
     for i, n in enumerate([62, 59, 56]): place(sfx, tone(midi(n), 0.5, 0.01, 0.3, 4), t + i * 0.12, g * 0.5)
 def thump(t, g=0.9):
     x = tt(0.4); s = np.sin(2 * np.pi * np.cumsum(70 * np.exp(-x * 14) + 38) / SR) * np.exp(-x * 9) + lpf(noise(0.4), 1200) * np.exp(-x * 30) * 0.5; place(sfx, s.astype(np.float32), t, g)
+# ---- v13 (24/11): sons de maquina/ciencia para as cenas de objeto e de explicacao ----
+def jato(t, d=1.6, g=0.55):   # propulsor de gas frio: chiado forte de ar comprimido (ataque seco, cauda longa)
+    x = noise(d); e = np.minimum(1, tt(d) / 0.03) * np.exp(-tt(d) * (2.2 / d)); lo = lpf(noise(d), 180) * np.exp(-tt(d) * 3) * 1.5; place(sfx, (lpf(hpf(x, 900), 7500) * e + lo * e).astype(np.float32), t, g)
+def motor_ev(t, d=1.2, g=0.3):   # motor eletrico acelerando: apito que sobe
+    x = tt(d); fr = 260 + 1500 * (x / d) ** 1.6; s = (np.sin(2 * np.pi * np.cumsum(fr) / SR) + 0.35 * np.sin(2 * np.pi * np.cumsum(fr * 2.01) / SR)) * np.sin(np.pi * np.minimum(1, x / d)) ** 0.6; place(sfx, (s * 0.4).astype(np.float32), t, g)
+def pouso(t, g=0.9):   # carro pousando: baque da suspensao + sopro de poeira
+    thump(t, g); x = noise(0.6); place(sfx, (lpf(hpf(x, 300), 2500) * np.exp(-tt(0.6) * 7)).astype(np.float32), t + 0.03, g * 0.45)
+def hud(t, g=0.35):   # "pop" de grafico/rotulo entrando na tela
+    x = tt(0.12); s = np.sin(2 * np.pi * np.cumsum(700 + 1400 * x / 0.12) / SR) * np.exp(-x * 30); place(sfx, s.astype(np.float32) * 0.6, t, g)
+def faisca(t, g=0.4):   # estalo eletrico
+    for i in range(3): d = 0.05; place(sfx, (hpf(noise(d), 3000) * np.exp(-tt(d) * 70)).astype(np.float32), t + i * 0.07, g)
+def espanto(t, d=1.1, g=0.3):   # plateia: "oooh"
+    x = tt(d); e = np.sin(np.pi * x / d) ** 1.5; s = sum(np.sin(2 * np.pi * f * x * (1 + 0.03 * np.sin(2 * np.pi * 0.7 * x + i)) + i) for i, f in enumerate((210, 262, 315, 420))) / 4 + lpf(noise(d), 900) * 0.6; place(sfx, (s * e * 0.5).astype(np.float32), t, g)
+def pneu(t, d=0.8, g=0.35):   # pneu cantando na arrancada
+    x = tt(d); fr = 900 + 250 * np.sin(2 * np.pi * 7 * x); s = np.sin(2 * np.pi * np.cumsum(fr) / SR) * 0.5 + hpf(noise(d), 1800) * 0.5; place(sfx, (s * np.sin(np.pi * x / d) ** 0.7 * 0.5).astype(np.float32), t, g)
 def tick(t, g=0.5): place(sfx, hpf(noise(0.02), 2500) * np.exp(-tt(0.02) * 160) + np.sin(2 * np.pi * 1300 * tt(0.02)) * np.exp(-tt(0.02) * 200), t, g)
 def steps(t0, t1, per=0.26, g=0.25):
     t = t0

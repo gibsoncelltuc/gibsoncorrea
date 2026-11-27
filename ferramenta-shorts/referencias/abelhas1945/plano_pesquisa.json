@@ -1,0 +1,109 @@
+{
+ "id": "abelhas1945",
+ "ano": 1945,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "As Abelhas que Dançam um Mapa",
+   "consultas": [
+    "As Abelhas que Dançam um Mapa",
+    "As Karl Frisch Ele 1945"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim",
+   "consultas": [
+    "Brunnwinkl casa de verao a beira do lago Wolfgangsee",
+    "Brunnwinkl casa de verao a beira do lago Wolfgangsee Alpes austriacos 1945"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Áustria",
+   "consultas": [
+    "Áustria 1945",
+    "Áustria landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1945",
+   "consultas": [
+    "1945 fashion clothing",
+    "1945 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Karl von Frisch, zoologo austriaco de oculos",
+   "consultas": [
+    "Karl von Frisch zoologo austriaco de oculos",
+    "Karl von Frisch zoologo austriaco de oculos 1945"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "assistentes",
+   "consultas": [
+    "assistentes",
+    "assistentes 1945"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "colegas cientistas desconfiados",
+   "consultas": [
+    "colegas cientistas desconfiados",
+    "colegas cientistas desconfiados 1945"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "colmeia de vidro",
+   "consultas": [
+    "colmeia de vidro",
+    "colmeia de vidro 1945"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "abelhas marcadas com pontinhos de tinta",
+   "consultas": [
+    "abelhas marcadas com pontinhos de tinta",
+    "abelhas marcadas com pontinhos de tinta 1945"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "pratinhos de agua com acucar",
+   "consultas": [
+    "pratinhos de agua com acucar",
+    "pratinhos de agua com acucar 1945"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "caderno de anotacoes",
+   "consultas": [
+    "caderno de anotacoes",
+    "caderno de anotacoes 1945"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "beehive",
+   "consultas": [
+    "colmeia de vidro",
+    "As Abelhas que Dançam um Mapa"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "bee",
+   "consultas": [
+    "bee"
+   ]
+  }
+ ]
+}

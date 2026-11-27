@@ -1,10 +1,10 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 28 - A Selfie na ONU
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 11 cenas, 157 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace | 12 cenas, 170 palavras (~59 s)
 
 ## Cena b0  (~5.5 s)
 - Narracao: Um presidente chegou ao púlpito mais importante do mundo, e antes de falar, tirou uma selfie.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: chegou -> dust + som de impacto; encena: chega (point) @2 -> acao + som de efeito; encena: tira (lift) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@30
@@ -40,16 +40,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 
 ## Cena b4  (~5.9 s)
 - Narracao: Acontece que, no púlpito, ele pediu: só um segundo, por favor. E tirou o celular do bolso.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@40
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: tira (lift) @12 -> acao + som de efeito; encena: x_fone (lift) @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @5 -> acao + som de efeito; encena: tira (lift) @12 -> acao + som de efeito; encena: x_fone (lift) @14 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b5  (~4.5 s)
 - Narracao: Virou de costas para o plenário, e tirou uma selfie com todos atrás.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
 - Efeito + som nas palavras-chave: encena: tira (lift) @7 -> acao + som de efeito
 - Efeito visual marcado: burst@20, stars@30
@@ -60,14 +60,14 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Depois, brincou: acreditem, muito mais gente vai ver essa selfie do que ouvir este discurso.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: g_brincou (point) @1 -> acao + som de efeito; encena: tira (lift) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_ri (up) @1 -> acao + som de efeito; encena: tira (lift) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~4.1 s)
 - Narracao: E ele tinha razão. A foto rodou o planeta em poucas horas.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, ding@60
 - Efeito + som nas palavras-chave: encena: tira (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: stars@20, stars@60
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: Alguns acharam falta de respeito com a ONU. Outros acharam genial.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: olha (point) @1 -> acao + som de efeito; encena: olha (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Narracao: No discurso, ele defendeu justamente isso: que as reuniões antigas deviam se adaptar à era da internet.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: g_defendeu (point) @3 -> acao + som de efeito; encena: x_fone (lift) @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_defende (cross) @3 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -99,6 +99,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: palace |
 - Efeito + som nas palavras-chave: encena: tira (lift) @1 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b11  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

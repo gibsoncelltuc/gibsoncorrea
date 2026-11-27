@@ -1,0 +1,78 @@
+{
+ "id": "karansebes",
+ "titulo": "Guerras Inusitadas EP 01 - A Batalha de Karánsebes",
+ "ancoras": {
+  "ano": 1788,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "dusk",
+  "cenarios": [
+   "countryside"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "barrel",
+  "buildings/house_small",
+  "cannon",
+  "crate",
+  "kit/barrel_r",
+  "kit/campfire",
+  "kit/coin",
+  "kit/marco_viena",
+  "kit/tent",
+  "nature/picket_fence",
+  "nature/tree_oak",
+  "tools/lantern"
+ ],
+ "pesquisa_visual": {
+  "local": "Acampamento do exercito austriaco perto de Karansebes (Caransebes), as margens do rio Timis, no Banat (hoje Romenia): campo aberto com barracas, carrocas e fogueiras",
+  "quando": "noite de 21 para 22 de setembro de 1788",
+  "participantes": [
+   "hussardos austriacos (batedores)",
+   "infantaria austriaca de varios povos (austriacos, romenos, servios, croatas, italianos)",
+   "camponeses valaquios vendendo schnapps",
+   "general de artilharia Colloredo",
+   "imperador Jose II (perdido na confusao)",
+   "exercito otomano (chega 2 dias depois)"
+  ],
+  "roupas": {
+   "AUT": "casaca branca da infantaria austriaca de 1788 com o bone de couro (Kaskett), mosquete",
+   "HUS": "hussardo: dolma azul com alamares, calca vermelha, barretina alta",
+   "OFF": "oficial de casaca branca, faixa, chapeu bicorne",
+   "LOC": "campones valaquio de camisa e chapeu de palha",
+   "TUR": "soldado otomano de turbante e casaco vermelho (fez so existe depois de 1829)"
+  },
+  "cenario": "acampamento noturno a beira do rio, fogueiras e lanternas, barris de schnapps; canhoes de campanha de 1788",
+  "objetos": [
+   "barril de schnapps (aguardente)",
+   "canecas e garrafas",
+   "lanternas",
+   "mosquetes de pederneira",
+   "canhoes de campanha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
+   "https://upload.wikimedia.org/wikipedia/commons/c/c2/Picture_showing_Ottoman_Forces_advance_to_Caransebes.png"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

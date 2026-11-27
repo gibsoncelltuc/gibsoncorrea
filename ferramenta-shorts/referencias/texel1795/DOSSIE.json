@@ -1,0 +1,78 @@
+{
+ "id": "texel1795",
+ "titulo": "A Cavalaria que Capturou uma Frota",
+ "ancoras": {
+  "ano": 1795,
+  "era": "historica",
+  "regiao": "franca",
+  "luz_base": "arctic",
+  "cenarios": [
+   "arctic",
+   "harbor",
+   "interior madeira",
+   "interior pedra"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "boat",
+  "kit/marco_amsterdam",
+  "kit/navio_fragata",
+  "kit/navio_vela",
+  "kit/room_europa_wood",
+  "kit/room_franca_stone",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Nightstand_Shelf",
+  "mk/Table_Large",
+  "ship"
+ ],
+ "pesquisa_visual": {
+  "local": "Den Helder e o canal de Marsdiep, norte da Holanda: mar congelado, navios de guerra presos no gelo, costa plana coberta de neve",
+  "quando": "23 de janeiro de 1795, inverno rigoroso (travessia na noite/madrugada)",
+  "participantes": [
+   "hussardos franceses (8o Hussardos) e infantaria levada a cavalo, sob Louis Joseph Lahure",
+   "marinheiros e oficiais da frota holandesa"
+  ],
+  "roupas": {
+   "FRA": "hussardo frances de 1795: dolma azul com alamares, calca vermelha, barretina alta",
+   "OFF": "oficial de hussardos com faixa dourada",
+   "GEN": "chefe frances de casaca azul e faixa",
+   "NED": "marinheiro holandes de 1795: jaqueta azul curta, calca branca, chapeu redondo de aba"
+  },
+  "cenario": "mar congelado e liso, cavalos atravessando o gelo, navios a vela de tres mastros presos no gelo, neve",
+  "objetos": [
+   "navios de guerra a vela",
+   "cavalos com panos nos cascos",
+   "sabres"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Capture_of_the_Dutch_fleet_at_Den_Helder",
+   "https://commons.wikimedia.org/wiki/File:Prise_de_la_flotte_hollandaise_par_la_cavalerie_fran%C3%A7aise.jpg"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

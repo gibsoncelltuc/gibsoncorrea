@@ -17,7 +17,7 @@ const camera = new THREE.PerspectiveCamera(40, W / H, 0.08, 1500);
 const rx = (a) => a * Math.PI / 180;
 
 // ---------- materials ----------
-const grad = (() => { const d = new Uint8Array([90, 90, 90, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 2, 1); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+const grad = (() => { /* v11: 3 degraus suaves para volume 3D rico estilo Ricks Clips */ const d = new Uint8Array([134, 130, 152, 255, 208, 204, 214, 255, 255, 255, 255, 255]); const t = new THREE.DataTexture(d, 3, 1); t.minFilter = t.magFilter = THREE.LinearFilter; t.needsUpdate = true; return t; })();
 
 // ---- PAINTED 3D look: world-space brush-stroke pigment variation on every toon material ----
 THREE.MeshToonMaterial.prototype.customProgramCacheKey = function () { return this.userData && this.userData.noPaint ? 'liso' : 'pintado'; };   // sem isto o three reaproveitava o shader pintado e o noPaint nao valia
@@ -51,8 +51,8 @@ const M = {
   stone: texM(P.stone(4), 1, 1), stoneMoss: texM(P.mossy(P.stone(4), 5, 1.2), 1, 1),
   grass: texM(P.grass(6), 40, 40), dirt: texM(P.dirt(7), 6, 30), plaster: texM(P.plaster(8), 1, 1), plaster2: texM(P.plaster(18, 28), 1, 1),
   roof: texM(P.roof(9), 2, 2), marble: texM(P.marble(10), 1, 1), marbleTop: toon({ color: '#ece2cf' }),
-  trunk: toon({ color: '#6a4a32' }), cypress: toon({ color: '#3f6b36' }), pine: toon({ color: '#5c8a3c' }), bush: toon({ color: '#6c9a42' }),
-  hill: toon({ color: '#7aa64c' }), hillFar: toon({ color: '#86ad60' }), mount: toon({ color: '#8fa7b8' }), snow: toon({ color: '#f4f6fa' }),
+  trunk: toon({ color: '#6a4a32' }), cypress: toon({ color: '#3f6b36' }), pine: toon({ color: '#4c6835' }), bush: toon({ color: '#57733c' }),
+  hill: toon({ color: '#647d43' }), hillFar: toon({ color: '#748a5b' }), mount: toon({ color: '#8fa7b8' }), snow: toon({ color: '#f4f6fa' }),
   iron: toon({ color: '#5c5a57' }), bronze: toon({ color: '#b08a4a' }), wood: toon({ color: '#7a5434' }), door: toon({ color: '#5a3a24' }),
   window: toon({ color: '#2b2430' }), red: toon({ color: '#b8282b' }),
 };

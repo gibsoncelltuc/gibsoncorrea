@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 08 - O Carro que Foi Parar no Espaço
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 10 frases, 24 acoes catalogadas, 24 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 30 acoes catalogadas, 30 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.9s - 16 palavras - plano two
@@ -18,7 +18,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | ideia (7.3s) | ACAO: pensa | mao no queixo + brilho de ideia | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | ATUACAO | conversar | OK |
 
 ## Cena b2 - 10.6s a 17.5s - 23 palavras - plano reveal
 > "O voo de estreia do Falcon Heavy, o maior foguete da empresa, aconteceu em seis de fevereiro, em Cabo Canaveral, nos Estados Unidos."
@@ -32,9 +32,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
-| 2 | - | INTERACAO | o outro se aproxima | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | colocar (20.6s) | ACAO: pega | levanta/segura | OK |
+| 2 | mandar (22.8s) | ACAO: fala | aponta explicando | OK |
+| 3 | - | EMOCAO: determined | o rosto vira "determined" na palavra | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 24.5s a 25.8s - 6 palavras - plano crowd
 > "O foguete decolou com um estrondo!"
@@ -42,7 +44,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | decolou (25.0s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 27.1s a 30.7s - 12 palavras - plano two
 > "No banco do motorista foi sentado um boneco de astronauta, chamado Starman."
@@ -50,17 +53,17 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | sentado (28.3s) | ACAO: senta | senta | OK |
-| 2 | - | INTERACAO | insiste | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | chamado (30.2s) | ACAO: fala | aponta explicando | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 31.9s a 34.2s - 8 palavras - plano crowd
+## Cena b6 - 31.9s a 34.2s - 8 palavras - plano group
 > "No painel, estava escrito: Não entre em pânico."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | EMOCAO: scared | o rosto vira "scared" na palavra | OK |
-| 2 | - | ATUACAO | reagir | OK |
-| 3 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | NÃO ENTRE EM PÂNICO | OK |
 
 ## Cena b7 - 35.4s a 39.2s - 15 palavras - plano two
 > "O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol."
@@ -68,7 +71,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | saiu (36.0s) | ACAO: sai | sai andando pela lateral | OK |
-| 2 | seguiu (37.8s) | ACAO: g_seguiu | g_seguiu | OK |
+| 2 | seguiu (37.8s) | ACAO: chega | entra andando pela lateral | OK |
 | 3 | - | INTERACAO | vai ate o outro | OK |
 | 4 | - | ATUACAO | conversar | OK |
 
@@ -85,6 +88,15 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
-| 2 | - | PLACA | STARMAN | OK |
+| 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | STARMAN | OK |
+
+## Cena b10 - 49.0s a 49.0s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

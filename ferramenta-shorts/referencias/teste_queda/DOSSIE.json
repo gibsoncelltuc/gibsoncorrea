@@ -1,0 +1,39 @@
+{
+ "id": "teste_queda",
+ "titulo": "Teste EP 14 - Teste queda 1900",
+ "ancoras": {
+  "ano": 1900,
+  "era": "historica",
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "countryside"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "carro dos anos 50",
+  "escudo",
+  "objeto moderno",
+  "torre de refletor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/house_small",
+  "buildings/house_two",
+  "kit/ball",
+  "kit/balloon"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}
