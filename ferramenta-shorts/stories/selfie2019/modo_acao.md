@@ -1,4 +1,3 @@
 # MODO DE ACAO DEFINITIVO: selfie2019
-FALHAS: 0  |  AVISOS: 1
+FALHAS: 0  |  AVISOS: 0
 
-- aviso geral: R4.6 objeto heroi (kit/phone) sem aparecer no comeco
