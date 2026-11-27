@@ -1,0 +1,90 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "VIDRO BLINDADO?",
+ "gancho_cumprido": "Gancho: a picape 'blindada' teve as janelas rachadas ao vivo e mesmo assim virou sucesso. Pagamento: a esfera de aco rachou duas janelas na frente da plateia, mas vieram mais de 140 mil reservas.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma picape blindada teve as janelas rachadas ao vivo, no lançamento.",
+   "rachadas",
+   {
+    "mapa": null,
+    "impact": true
+   }
+  ],
+  [
+   8,
+   "promessa",
+   "E mesmo assim virou sucesso de reservas.",
+   "sucesso",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 2019, a Tesla apresentou o Cybertruck.",
+   "apresentou",
+   {
+    "mapa": "CALIFÓRNIA"
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Musk garantiu que o vidro era super resistente.",
+   "garantiu",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O designer jogou uma esfera de aço na janela.",
+   "jogou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "escalada",
+   "Acontece que o vidro rachou, ao vivo, na frente da plateia.",
+   "rachou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Ele tentou em outra janela. Também rachou.",
+   "tentou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Musk disse que, nos testes, o vidro aguentava.",
+   "disse",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Mesmo assim, em poucos dias, vieram mais de 140 mil reservas.",
+   "reservas",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "O vidro falhou, a venda não. Foi assim que...",
+   "falhou",
+   {
+    "mapa": null
+   }
+  ]
+ ]
+}

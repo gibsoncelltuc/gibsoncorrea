@@ -1,0 +1,81 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GUERRA DA LAGOSTA",
+ "gancho_cumprido": "Gancho: o Brasil quase entrou em guerra com a Franca por lagosta, e tudo dependia de ela andar ou nadar. Pagamento: navio de guerra frances, navios e avioes brasileiros, e o tiro nunca veio.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Brasil e França quase entraram em guerra por causa de lagosta.",
+   "lagosta",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E tudo dependia de uma pergunta: lagosta anda ou nada?",
+   "lagosta",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1961, barcos franceses pescavam lagosta em Pernambuco.",
+   "pescavam",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O Brasil dizia: ela anda no fundo do mar, é nossa.",
+   "anda",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A França dizia: ela nada, é de quem pescar.",
+   "nada",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "A França mandou um navio de guerra.",
+   "mandou",
+   {}
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que o Brasil respondeu com navios e aviões.",
+   "respondeu",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Mas o tiro nunca veio. Os governos negociaram.",
+   "negociaram",
+   {
+    "encena": {
+     "sentido": "negativa",
+     "passos": [
+      {
+       "faz": "fala",
+       "na": "negociaram",
+       "quem": 0
+      }
+     ]
+    }
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Nenhum tiro, só uma briga sobre um bicho. E foi assim que...",
+   "Nenhum",
+   {}
+  ]
+ ]
+}

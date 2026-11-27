@@ -1,0 +1,149 @@
+{
+ "id": "v2_descida",
+ "titulo": "Quanto Mais Fundo, Mais Assustador",
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "-8%",
+ "blocos": [
+  {
+   "modelo": "batiscafo_trieste",
+   "rotulo": "",
+   "prof": "10.900 m",
+   "cam": "close",
+   "luz": 0.0,
+   "texto": "Em 1960, dois homens desceram até o ponto mais fundo da Terra, dentro de uma esfera de aço do tamanho de uma geladeira. Quando chegaram lá embaixo, uma janela rachou. E o que eles viram pela outra janela mudou tudo o que a gente sabia sobre a vida. Hoje você vai fazer essa mesma viagem. Do sol da superfície até o fundo do abismo. E eu aviso: quanto mais fundo, mais assustador."
+  },
+  {
+   "modelo": "recife_coral",
+   "rotulo": "ZONA DA LUZ",
+   "prof": "0 → 200 m",
+   "cam": "orbita",
+   "luz": 1.0,
+   "de": 0,
+   "ate": 200,
+   "texto": "Os primeiros duzentos metros são a zona da luz. É aqui que fica quase toda a vida que você conhece: peixes coloridos, golfinhos, tartarugas, recifes de coral. O sol ainda chega forte, e as algas fazem fotossíntese. Grande parte do oxigênio que a gente respira vem daqui, de algas microscópicas. Aproveite essa luz. Porque ela está prestes a acabar."
+  },
+  {
+   "modelo": "peixe_lanterna",
+   "rotulo": "ZONA DO CREPÚSCULO",
+   "prof": "200 → 1.000 m",
+   "cam": "orbita",
+   "luz": 0.55,
+   "de": 200,
+   "ate": 1000,
+   "texto": "Passando de duzentos metros, a luz vira um azul fraco, como fim de tarde. É a zona do crepúsculo. Aqui vive o peixe-lanterna, um dos vertebrados mais numerosos do planeta. E ele faz uma coisa incrível. Toda noite, bilhões de peixes-lanterna sobem centenas de metros para comer perto da superfície. E antes do sol nascer, descem de novo para se esconder no escuro. É a maior migração de animais da Terra, e acontece todos os dias, sem ninguém ver."
+  },
+  {
+   "modelo": "lula_vampira",
+   "rotulo": "A ZONA SEM AR",
+   "prof": "700 m",
+   "cam": "orbita",
+   "luz": 0.35,
+   "texto": "Entre seiscentos e novecentos metros existe uma faixa de água com tão pouco oxigênio que a maioria dos animais morreria em minutos. Mas um bicho escolheu morar justamente ali: a lula-vampira. O sangue dela pega oxigênio com uma eficiência fora do comum, e o corpo gasta quase nada de energia. Ela vive onde os predadores não conseguem entrar. A falta de ar virou a melhor proteção dela."
+  },
+  {
+   "modelo": "lula_gigante",
+   "rotulo": "O KRAKEN",
+   "prof": "900 m",
+   "cam": "passagem",
+   "luz": 0.15,
+   "escala": 1.6,
+   "texto": "Na fronteira entre o crepúsculo e a escuridão vive o animal que inspirou a lenda do Kraken: a lula-gigante. Ela pode ter o comprimento de um ônibus e olhos do tamanho de um prato. Esses olhos enormes servem para ver um único perigo no escuro: o brilho que o cachalote faz ao nadar, mexendo os bichinhos luminosos da água. Lula-gigante e cachalote travam uma guerra no escuro que nenhum ser humano jamais viu ao vivo."
+  },
+  {
+   "modelo": "peixe_vibora",
+   "rotulo": "ZONA DA MEIA-NOITE",
+   "prof": "1.000 → 4.000 m",
+   "cam": "orbita",
+   "luz": 0.12,
+   "de": 1000,
+   "ate": 4000,
+   "texto": "A mil metros, a luz do sol acaba de vez. Daqui para baixo, é noite eterna. Não existe dia, não existe estação do ano. E mesmo assim, o escuro não é total. Cientistas descobriram que três em cada quatro animais dessa profundidade produzem a própria luz. Uns brilham para caçar, outros para fugir, outros para encontrar par. O fundo do mar é escuro, mas está cheio de pequenas luzes piscando."
+  },
+  {
+   "modelo": "peixe_diabo",
+   "rotulo": "OS CAÇADORES DO ESCURO",
+   "prof": "1.500 m",
+   "cam": "orbita",
+   "luz": 0.08,
+   "texto": "Nessa escuridão, comida é rara. Por isso os caçadores daqui são feitos para não perder nenhuma chance. O peixe-diabo usa uma lanterna na cabeça como isca. Muitos peixes têm bocas enormes e estômagos que esticam, para engolir presas maiores que eles mesmos. Quando você não sabe quando vai comer de novo, você come tudo o que aparece."
+  },
+  {
+   "modelo": "fonte_hidrotermal",
+   "rotulo": "FONTES HIDROTERMAIS",
+   "prof": "2.500 m",
+   "cam": "orbita",
+   "luz": 0.07,
+   "de": 2000,
+   "ate": 2500,
+   "texto": "Mas nem todo o fundo do mar é gelado. Em alguns lugares, o chão se abre e solta água a mais de trezentos e cinquenta graus. São as fontes hidrotermais. E em volta delas existe vida sem nenhuma luz do sol. Vermes de tubo do tamanho de uma pessoa, caranguejos brancos e camarões cegos vivem da energia química que sai das rochas. Alguns cientistas acham que a vida na Terra pode ter começado num lugar assim."
+  },
+  {
+   "modelo": "titanic_fundo",
+   "rotulo": "O TITANIC",
+   "prof": "3.800 m",
+   "cam": "orbita",
+   "luz": 0.06,
+   "de": 3000,
+   "ate": 3800,
+   "texto": "No caminho para baixo, a três mil e oitocentos metros, passamos por um lugar famoso. É ali que está o Titanic. O navio afundou em 1912, mas só foi encontrado em 1985, setenta e três anos depois. Até hoje, os destroços estão sendo devorados por bactérias que comem ferro. Os cientistas calculam que, em algumas décadas, grande parte do casco pode desaparecer."
+  },
+  {
+   "modelo": "copo_isopor",
+   "rotulo": "A PRESSÃO",
+   "prof": "4.000 m",
+   "cam": "close",
+   "luz": 0.05,
+   "de": 3800,
+   "ate": 4000,
+   "texto": "E aqui a pressão começa a mostrar o que ela faz. Se você descer um copo de isopor amarrado num cabo, ele volta do tamanho de um dedal, todo espremido. Em 2023, o submersível Titan, que levava turistas para ver o Titanic, implodiu perto dessa profundidade. Em uma fração de segundo. O oceano profundo não perdoa nenhum erro."
+  },
+  {
+   "modelo": "isopode_gigante",
+   "rotulo": "ZONA ABISSAL",
+   "prof": "4.000 → 6.000 m",
+   "cam": "orbita",
+   "luz": 0.04,
+   "de": 4000,
+   "ate": 6000,
+   "texto": "A quatro mil metros chegamos à planície abissal, o fundo mais comum do oceano. A água fica perto de dois graus, e a pressão já é quatrocentas vezes maior que na superfície. A comida aqui é a neve marinha, os restos que caem lá de cima devagar, por semanas. E quando uma baleia morre e afunda, vira um banquete que alimenta uma comunidade inteira por anos. Isópodes gigantes, vermes e peixes aparecem do nada para comer."
+  },
+  {
+   "modelo": "polvo_dumbo",
+   "rotulo": "ZONA HADAL",
+   "prof": "6.000 → 11.000 m",
+   "cam": "close",
+   "luz": 0.03,
+   "de": 6000,
+   "ate": 11000,
+   "texto": "Depois de seis mil metros, o fundo do mar se abre em fossas, como cicatrizes no chão do planeta. É a zona hadal, nome que vem do deus grego do mundo dos mortos. Poucos animais aguentam viver aqui. O polvo-dumbo já foi filmado a quase sete mil metros. E alguns crustáceos e vermes vivem ainda mais fundo, onde quase nada mais sobrevive."
+  },
+  {
+   "modelo": "peixe_caracol",
+   "rotulo": "O PEIXE MAIS FUNDO DO MUNDO",
+   "prof": "8.336 m",
+   "cam": "close",
+   "luz": 0.02,
+   "texto": "Em 2023, cientistas filmaram um peixe a oito mil, trezentos e trinta e seis metros de profundidade. Um recorde. Era um peixe-caracol: pequeno, gelatinoso, quase transparente. Ele não tem escamas duras nem músculos fortes. O corpo mole é justamente o que deixa ele suportar uma pressão que esmagaria um submarino comum. Abaixo disso, os cientistas acreditam que nenhum peixe consegue viver."
+  },
+  {
+   "modelo": "batiscafo_trieste",
+   "rotulo": "FOSSA DAS MARIANAS",
+   "prof": "10.935 m",
+   "cam": "passagem",
+   "luz": 0.01,
+   "de": 8336,
+   "ate": 10935,
+   "texto": "E então, o fim. A Fossa das Marianas, no Oceano Pacífico, chega a quase onze mil metros. Se você colocasse o Monte Everest lá dentro, ainda sobraria mais de dois quilômetros de água por cima do pico. A pressão é de mais de uma tonelada em cada centímetro quadrado. Em 1960, Jacques Piccard e Don Walsh chegaram ao fundo no batiscafo Trieste. Na descida, uma janela externa rachou com um estrondo, mas eles continuaram. Lá embaixo, Piccard contou ter visto pela janela uma criatura achatada, parecida com um linguado. Até hoje, os cientistas discutem o que ele viu de verdade. E em 2012, o cineasta James Cameron desceu sozinho até lá."
+  },
+  {
+   "modelo": "batiscafo_trieste",
+   "rotulo": "",
+   "prof": "10.935 m",
+   "cam": "close",
+   "luz": 0.0,
+   "texto": "Mais gente já foi ao espaço do que ao fundo da Fossa das Marianas. O lugar mais escuro, mais frio e mais esmagador do planeta fica aqui, embaixo da gente. E ainda guarda segredos que ninguém viu. Porque, em 1960, dois homens desceram até o ponto mais fundo da Terra, dentro de uma esfera de aço do tamanho de uma geladeira."
+  }
+ ],
+ "trilha": "orq",
+ "humor": "misterio"
+}

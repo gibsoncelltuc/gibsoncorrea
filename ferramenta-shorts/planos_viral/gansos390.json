@@ -1,0 +1,93 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "GANSOS x GAULESES",
+ "gancho_cumprido": "Gancho: um bando de gansos salvou Roma numa noite, mas o ouro foi embora mesmo assim. Pagamento: os gansos de Juno gritaram, Manlio barrou a subida, e depois de sete meses Roma pagou mil libras de ouro.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um bando de gansos barulhentos salvou Roma numa noite.",
+   "gansos",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "Mas o ouro de Roma foi embora mesmo assim.",
+   "ouro",
+   {
+    "who": [
+     "ROM:0:sad"
+    ]
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 390 antes de Cristo, os gauleses tomaram Roma.",
+   "tomaram",
+   {
+    "encena_antiga": true,
+    "text": null
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Os romanos que sobraram se trancaram no Capitólio, uma colina.",
+   "trancaram",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Numa noite sem lua, os gauleses chegaram em silêncio à muralha.",
+   "chegaram",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "chega",
+       "na": "chegaram"
+      }
+     ]
+    }
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que os gansos sagrados de Juno ouviram e gritaram.",
+   "gritar",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "O barulho acordou o soldado Marco Mânlio, que barrou a subida.",
+   "barrou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Depois de sete meses de fome, Roma pagou mil libras de ouro.",
+   "pagou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Os guardas não ouviram, os gansos sim. E foi assim que...",
+   "gansos",
+   {}
+  ]
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "id": "v1_fundo_mar",
+ "titulo": "As Criaturas do Fundo do Mar que NÃO Deveriam Existir",
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "+2%",
+ "blocos": [
+  {
+   "modelo": "real/Jellyfish2",
+   "rotulo": "",
+   "prof": "",
+   "cam": "close",
+   "texto": "Existe um animal no fundo do mar que não morre de velhice. Quando fica velho, ele volta a ser bebê. Ele é o número um desta lista. Mas antes, desça comigo. Onze criaturas que não deveriam existir. Fica até o fim e me diz qual te assustou mais."
+  },
+  {
+   "modelo": "batiscafo_trieste",
+   "rotulo": "",
+   "prof": "200 m → 11.000 m",
+   "cam": "passagem",
+   "texto": "O fundo do mar é o lugar menos explorado da Terra. A gente conhece melhor a Lua do que o chão do oceano. Lá embaixo é escuro, gelado, e a pressão esmagaria você. E mesmo assim, tem vida.",
+   "luz": 0.3
+  },
+  {
+   "modelo": "real/Anglerfish",
+   "rotulo": "11. PEIXE-DIABO",
+   "prof": "1.000 m",
+   "cam": "orbita",
+   "texto": "Número onze. A mil metros, aparece uma luzinha balançando. Parece seguro. Não é. É a isca do peixe-diabo. Quando outro peixe chega perto, a boca abre e engole tudo, até presas maiores que ele."
+  },
+  {
+   "modelo": "peixe_vibora",
+   "rotulo": "10. PEIXE-VÍBORA",
+   "prof": "1.500 m",
+   "cam": "orbita",
+   "texto": "Número dez. O peixe-víbora tem dentes tão grandes que não cabem na boca. Eles ficam para fora, quase encostando nos olhos. Para engolir, a cabeça parece se desmontar."
+  },
+  {
+   "modelo": "peixe_barril",
+   "rotulo": "9. PEIXE DE CABEÇA TRANSPARENTE",
+   "prof": "700 m",
+   "cam": "orbita",
+   "texto": "Número nove. Um peixe com a cabeça de vidro. O peixe-barril tem a frente da cabeça transparente, e os olhos verdes ficam lá dentro, girando para cima e para a frente. Parece ficção. É real."
+  },
+  {
+   "modelo": "peixe_bolha",
+   "rotulo": "8. PEIXE-BOLHA",
+   "prof": "1.000 m",
+   "cam": "close",
+   "texto": "Número oito. Você já viu essa cara. O peixe-bolha foi eleito o animal mais feio do mundo. Mas tem um detalhe: no fundo do mar ele tem forma de peixe normal. Ele só fica assim quando é puxado para fora."
+  },
+  {
+   "modelo": "tubarao_duende",
+   "rotulo": "7. TUBARÃO-DUENDE",
+   "prof": "1.300 m",
+   "cam": "passagem",
+   "texto": "Número sete. O tubarão-duende é rosa, tem um focinho de lâmina, e quando ataca, a mandíbula inteira dispara para fora da cabeça, como um estilingue. É um fóssil vivo."
+  },
+  {
+   "modelo": "lula_vampira",
+   "rotulo": "6. LULA-VAMPIRA DO INFERNO",
+   "prof": "900 m",
+   "cam": "orbita",
+   "texto": "Número seis. Lula-vampira do inferno. Nome de monstro. Mas ela não caça nada. Come restos que caem lá de cima. E quando se assusta, vira a capa do avesso e se esconde dentro dela."
+  },
+  {
+   "modelo": "isopode_gigante",
+   "rotulo": "5. ISÓPODE-GIGANTE",
+   "prof": "2.000 m",
+   "cam": "orbita",
+   "texto": "Número cinco. Sabe o tatuzinho de jardim? Agora imagine um do tamanho de um gato. O isópode-gigante vive comendo baleias mortas. Um deles ficou mais de cinco anos sem comer num aquário."
+  },
+  {
+   "modelo": "lula_gigante",
+   "rotulo": "4. LULA-GIGANTE",
+   "prof": "600 m",
+   "cam": "passagem",
+   "escala": 1.6,
+   "texto": "Número quatro. O Kraken existe. A lula-gigante pode ter o comprimento de um ônibus, e os olhos são do tamanho de um prato. Só foi filmada viva pela primeira vez em 2012."
+  },
+  {
+   "modelo": "real/Flapjackoctopus",
+   "rotulo": "3. POLVO-DUMBO",
+   "prof": "7.000 m",
+   "cam": "close",
+   "texto": "Número três. Agora uma fofa. O polvo-dumbo tem nadadeiras que parecem orelhas de elefante. Ele bate as orelhas devagar e flutua. E foi filmado a quase sete mil metros."
+  },
+  {
+   "modelo": "tubarao_groenlandia",
+   "rotulo": "2. TUBARÃO-DA-GROENLÂNDIA",
+   "prof": "ÁRTICO",
+   "cam": "passagem",
+   "frio": true,
+   "texto": "Número dois. Um animal mais velho que o Brasil. O tubarão-da-groenlândia cresce um centímetro por ano. Cientistas estimaram que um deles tinha uns quatrocentos anos. Ele nadava no mar quando Cabral chegou aqui."
+  },
+  {
+   "modelo": "real/Jellyfish2",
+   "rotulo": "1. ÁGUA-VIVA IMORTAL",
+   "prof": "4,5 mm",
+   "cam": "close",
+   "texto": "E o número um. A água-viva imortal. Ela tem o tamanho de uma unha. Quando fica velha ou machucada, ela volta a ser um pólipo, a fase bebê, e começa a vida de novo. E pode repetir isso para sempre. Qual dessas te deixou de boca aberta? Comenta aqui. E existe um animal no fundo do mar que não morre de velhice."
+  }
+ ],
+ "trilha": "orq",
+ "humor": "misterio",
+ "gap": 0.6,
+ "corte": 3.0
+}

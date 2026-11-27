@@ -1,0 +1,929 @@
+{
+ "id": "pig1859v2",
+ "mapa": [
+  -127.5,
+  -118.5,
+  45.5,
+  52.0
+ ],
+ "mapa_png": "bolas2/pig1859_mapa.png",
+ "cores": {
+  "USA": [
+   118,
+   196,
+   96
+  ],
+  "CAN": [
+   232,
+   84,
+   84
+  ]
+ },
+ "cor_mar": [
+  62,
+  150,
+  228
+ ],
+ "relevo": 0.05,
+ "extras": [
+  {
+   "cor": [
+    255,
+    206,
+    60
+   ],
+   "pts": [
+    [
+     -123.22,
+     48.6
+    ],
+    [
+     -123.08,
+     48.7
+    ],
+    [
+     -122.95,
+     48.62
+    ],
+    [
+     -122.92,
+     48.52
+    ],
+    [
+     -123.0,
+     48.44
+    ],
+    [
+     -123.15,
+     48.46
+    ]
+   ]
+  }
+ ],
+ "musica": "dados/musica/scheming_weasel.mp3",
+ "musica_ini": 2.0,
+ "cenas": [
+  {
+   "dur": 2.6,
+   "cam": [
+    -123.0,
+    48.3,
+    1.0
+   ],
+   "titulo": [
+    "THE PIG WAR",
+    "IN A NUTSHELL"
+   ],
+   "ents": {
+    "us": {
+     "flag": "us",
+     "em": [
+      0.27,
+      0.6
+     ],
+     "entra": "esq",
+     "humor": "bravo",
+     "chapeu": "cowboy"
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.73,
+      0.6
+     ],
+     "entra": "dir",
+     "t_in": 0.2,
+     "humor": "bravo",
+     "chapeu": "cartola",
+     "olha": -1
+    }
+   },
+   "acoes": [
+    {
+     "t": 1.2,
+     "tipo": "treme",
+     "a": "us",
+     "d": 0.8
+    },
+    {
+     "t": 1.2,
+     "tipo": "treme",
+     "a": "uk",
+     "d": 0.8
+    },
+    {
+     "t": 1.4,
+     "tipo": "fumaca",
+     "a": "uk"
+    },
+    {
+     "t": 1.4,
+     "tipo": "fumaca",
+     "a": "us"
+    }
+   ]
+  },
+  {
+   "dur": 2.8,
+   "cam": [
+    -123.05,
+    48.45,
+    1.6
+   ],
+   "ano": "1859",
+   "txt": "ONE ISLAND. TWO OWNERS.",
+   "ents": {
+    "us": {
+     "flag": "us",
+     "em": [
+      0.24,
+      0.64
+     ],
+     "humor": "bravo",
+     "chapeu": "cowboy"
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.76,
+      0.64
+     ],
+     "humor": "bravo",
+     "chapeu": "cartola",
+     "olha": -1
+    }
+   },
+   "baloes": [
+    {
+     "a": "us",
+     "c": "MINE!",
+     "t": 0.25,
+     "ate": 1.5
+    },
+    {
+     "a": "uk",
+     "c": "MINE!",
+     "t": 0.7,
+     "ate": 1.5
+    }
+   ],
+   "acoes": [
+    {
+     "t": 1.6,
+     "tipo": "soco",
+     "a": "us",
+     "b": "uk",
+     "h": "choque"
+    },
+    {
+     "t": 2.1,
+     "tipo": "soco",
+     "a": "uk",
+     "b": "us",
+     "h": "dor"
+    }
+   ]
+  },
+  {
+   "dur": 2.5,
+   "fundo": "ilha",
+   "txt": "AN AMERICAN FARMER",
+   "ents": {
+    "farm": {
+     "flag": "us",
+     "em": [
+      0.3,
+      0.58
+     ],
+     "entra": "esq",
+     "humor": "feliz",
+     "chapeu": "cowboy",
+     "r": 240
+    },
+    "b1": {
+     "tipo": "emoji",
+     "e": "🥔",
+     "em": [
+      0.68,
+      0.66
+     ],
+     "tam": 170,
+     "vivo": false
+    },
+    "b2": {
+     "tipo": "emoji",
+     "e": "🥔",
+     "em": [
+      0.84,
+      0.6
+     ],
+     "tam": 150,
+     "vivo": false
+    },
+    "pig": {
+     "tipo": "emoji",
+     "e": "🐖",
+     "em": [
+      0.74,
+      0.55
+     ],
+     "tam": 300,
+     "entra": "dir",
+     "t_in": 1.2,
+     "vira": false
+    }
+   },
+   "acoes": [
+    {
+     "t": 1.3,
+     "tipo": "oink"
+    },
+    {
+     "t": 1.7,
+     "tipo": "humor",
+     "a": "farm",
+     "h": "choque"
+    },
+    {
+     "t": 1.7,
+     "tipo": "pulo",
+     "a": "farm"
+    }
+   ]
+  },
+  {
+   "dur": 2.3,
+   "fundo": "ilha",
+   "txt": "...EATING HIS POTATOES",
+   "ents": {
+    "farm": {
+     "flag": "us",
+     "em": [
+      0.3,
+      0.58
+     ],
+     "humor": "furioso",
+     "chapeu": "cowboy",
+     "r": 240
+    },
+    "b1": {
+     "tipo": "emoji",
+     "e": "🥔",
+     "em": [
+      0.66,
+      0.66
+     ],
+     "tam": 170,
+     "vivo": false
+    },
+    "pig": {
+     "tipo": "emoji",
+     "e": "🐖",
+     "em": [
+      0.74,
+      0.55
+     ],
+     "tam": 300,
+     "ritmo": 14,
+     "quique": 10
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.2,
+     "tipo": "oink"
+    },
+    {
+     "t": 0.9,
+     "tipo": "some",
+     "a": "b1"
+    },
+    {
+     "t": 0.9,
+     "tipo": "oink"
+    },
+    {
+     "t": 0.4,
+     "tipo": "treme",
+     "a": "farm",
+     "d": 1.8
+    },
+    {
+     "t": 0.5,
+     "tipo": "fumaca",
+     "a": "farm"
+    }
+   ]
+  },
+  {
+   "dur": 2.4,
+   "fundo": "ilha",
+   "txt": "SO HE SHOOTS IT.",
+   "destaque": true,
+   "ents": {
+    "farm": {
+     "flag": "us",
+     "em": [
+      0.27,
+      0.58
+     ],
+     "humor": "mira",
+     "chapeu": "cowboy",
+     "r": 240,
+     "arma": "rifle"
+    },
+    "pig": {
+     "tipo": "emoji",
+     "e": "🐖",
+     "em": [
+      0.75,
+      0.57
+     ],
+     "tam": 300
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.6,
+     "tipo": "tiro",
+     "a": "farm",
+     "b": "pig",
+     "som": "BANG!",
+     "tontura": false
+    },
+    {
+     "t": 0.75,
+     "tipo": "cai",
+     "a": "pig",
+     "rot": 180
+    },
+    {
+     "t": 1.3,
+     "tipo": "humor",
+     "a": "farm",
+     "h": "choque"
+    }
+   ]
+  },
+  {
+   "dur": 2.4,
+   "cam": [
+    -123.45,
+    48.6,
+    1.6
+   ],
+   "txt": "BRITAIN IS NOT AMUSED",
+   "ents": {
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.5,
+      0.6
+     ],
+     "entra": "cima",
+     "humor": "furioso",
+     "chapeu": "cartola",
+     "r": 270
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.6,
+     "tipo": "treme",
+     "a": "uk",
+     "d": 1.6
+    },
+    {
+     "t": 0.6,
+     "tipo": "fumaca",
+     "a": "uk"
+    },
+    {
+     "t": 1.4,
+     "tipo": "pulo",
+     "a": "uk"
+    }
+   ],
+   "baloes": [
+    {
+     "a": "uk",
+     "c": "💢",
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "cam": [
+    -122.7,
+    48.3,
+    1.4
+   ],
+   "txt": "USA SENDS SOLDIERS",
+   "ents": {
+    "s1": {
+     "flag": "us",
+     "em": [
+      0.2,
+      0.52
+     ],
+     "r": 150,
+     "entra": "esq",
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "mira": 20,
+     "humor": "bravo"
+    },
+    "s2": {
+     "flag": "us",
+     "em": [
+      0.5,
+      0.52
+     ],
+     "r": 150,
+     "entra": "esq",
+     "t_in": 0.25,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "mira": 20,
+     "humor": "bravo"
+    },
+    "s3": {
+     "flag": "us",
+     "em": [
+      0.8,
+      0.52
+     ],
+     "r": 150,
+     "entra": "esq",
+     "t_in": 0.5,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "mira": 20,
+     "humor": "bravo"
+    },
+    "s4": {
+     "flag": "us",
+     "em": [
+      0.35,
+      0.72
+     ],
+     "r": 150,
+     "entra": "esq",
+     "t_in": 0.75,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "mira": 20,
+     "humor": "convencido"
+    },
+    "s5": {
+     "flag": "us",
+     "em": [
+      0.65,
+      0.72
+     ],
+     "r": 150,
+     "entra": "esq",
+     "t_in": 1.0,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "mira": 20,
+     "humor": "bravo"
+    }
+   },
+   "acoes": [
+    {
+     "t": 1.7,
+     "tipo": "pulo",
+     "a": "s1"
+    },
+    {
+     "t": 1.8,
+     "tipo": "pulo",
+     "a": "s2"
+    },
+    {
+     "t": 1.9,
+     "tipo": "pulo",
+     "a": "s3"
+    },
+    {
+     "t": 2.0,
+     "tipo": "pulo",
+     "a": "s4"
+    },
+    {
+     "t": 2.1,
+     "tipo": "pulo",
+     "a": "s5"
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "cam": [
+    -123.6,
+    48.4,
+    1.3
+   ],
+   "txt": "BRITAIN SENDS WARSHIPS",
+   "ents": {
+    "n1": {
+     "tipo": "emoji",
+     "e": "⛵",
+     "em": [
+      0.3,
+      0.5
+     ],
+     "tam": 280,
+     "entra": "esq",
+     "ritmo": 3
+    },
+    "n2": {
+     "tipo": "emoji",
+     "e": "⛵",
+     "em": [
+      0.7,
+      0.62
+     ],
+     "tam": 280,
+     "entra": "esq",
+     "t_in": 0.3,
+     "ritmo": 3
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.35,
+      0.8
+     ],
+     "r": 170,
+     "humor": "convencido",
+     "chapeu": "bicorne",
+     "entra": "baixo",
+     "t_in": 0.5
+    }
+   },
+   "acoes": [
+    {
+     "t": 1.3,
+     "tipo": "canhao",
+     "em": [
+      0.42,
+      0.46
+     ],
+     "tam": 160,
+     "som": "BOOM!"
+    },
+    {
+     "t": 1.8,
+     "tipo": "canhao",
+     "em": [
+      0.82,
+      0.58
+     ],
+     "tam": 160,
+     "som": "BOOM!"
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "cam": [
+    -123.05,
+    48.5,
+    1.6
+   ],
+   "txt": "461 SOLDIERS VS 2,140 SAILORS",
+   "sub": "ALL AIMING. OVER A PIG.",
+   "ents": {
+    "us": {
+     "flag": "us",
+     "em": [
+      0.25,
+      0.66
+     ],
+     "r": 200,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "humor": "mira"
+    },
+    "us2": {
+     "flag": "us",
+     "em": [
+      0.1,
+      0.8
+     ],
+     "r": 140,
+     "chapeu": "quepe",
+     "arma": "rifle",
+     "humor": "bravo"
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.75,
+      0.66
+     ],
+     "r": 200,
+     "chapeu": "bicorne",
+     "arma": "rifle",
+     "humor": "mira",
+     "olha": -1
+    },
+    "uk2": {
+     "flag": "gb",
+     "em": [
+      0.9,
+      0.8
+     ],
+     "r": 140,
+     "chapeu": "bicorne",
+     "arma": "rifle",
+     "humor": "bravo",
+     "olha": -1
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.3,
+     "tipo": "treme",
+     "a": "us",
+     "d": 2.5
+    },
+    {
+     "t": 0.3,
+     "tipo": "treme",
+     "a": "uk",
+     "d": 2.5
+    },
+    {
+     "t": 1.6,
+     "tipo": "suor",
+     "a": "us"
+    },
+    {
+     "t": 1.6,
+     "tipo": "suor",
+     "a": "uk"
+    },
+    {
+     "t": 1.8,
+     "tipo": "humor",
+     "a": "us2",
+     "h": "choque"
+    },
+    {
+     "t": 1.8,
+     "tipo": "humor",
+     "a": "uk2",
+     "h": "choque"
+    }
+   ]
+  },
+  {
+   "dur": 2.5,
+   "cam": [
+    -123.5,
+    48.55,
+    1.6
+   ],
+   "txt": "THE BRITISH ADMIRAL:",
+   "ents": {
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.32,
+      0.64
+     ],
+     "r": 250,
+     "chapeu": "bicorne",
+     "humor": "choque"
+    },
+    "pig": {
+     "tipo": "emoji",
+     "e": "🐖",
+     "em": [
+      0.76,
+      0.66
+     ],
+     "tam": 250,
+     "entra": "dir",
+     "t_in": 0.3
+    }
+   },
+   "baloes": [
+    {
+     "a": "uk",
+     "c": "A WAR? FOR A PIG?",
+     "t": 0.6
+    }
+   ],
+   "acoes": [
+    {
+     "t": 0.5,
+     "tipo": "oink"
+    },
+    {
+     "t": 0.5,
+     "tipo": "halo",
+     "a": "pig"
+    }
+   ]
+  },
+  {
+   "dur": 1.9,
+   "cam": [
+    -123.5,
+    48.55,
+    1.9
+   ],
+   "txt": "NO.",
+   "destaque": true,
+   "ents": {
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.5,
+      0.62
+     ],
+     "r": 300,
+     "chapeu": "bicorne",
+     "humor": "convencido"
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.2,
+     "tipo": "nao",
+     "a": "uk"
+    }
+   ]
+  },
+  {
+   "dur": 2.6,
+   "fundo": "ilha",
+   "txt": "SO THEY SHARE IT",
+   "sub": "FOR 12 YEARS",
+   "ents": {
+    "us": {
+     "flag": "us",
+     "em": [
+      0.28,
+      0.6
+     ],
+     "humor": "feliz",
+     "chapeu": "cowboy",
+     "entra": "esq"
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.72,
+      0.6
+     ],
+     "humor": "feliz",
+     "chapeu": "cartola",
+     "olha": -1,
+     "entra": "dir"
+    }
+   },
+   "baloes": [
+    {
+     "a": "us",
+     "c": "☕",
+     "t": 0.6
+    },
+    {
+     "a": "uk",
+     "c": "🫖",
+     "t": 1.0
+    }
+   ],
+   "acoes": [
+    {
+     "t": 1.6,
+     "tipo": "pulo",
+     "a": "us"
+    },
+    {
+     "t": 1.75,
+     "tipo": "pulo",
+     "a": "uk"
+    }
+   ]
+  },
+  {
+   "dur": 3.0,
+   "cam": [
+    -123.0,
+    48.6,
+    1.2
+   ],
+   "ano": "1872",
+   "txt": "GERMANY'S KAISER DECIDES:",
+   "ents": {
+    "de": {
+     "flag": "de",
+     "em": [
+      0.5,
+      0.47
+     ],
+     "r": 200,
+     "chapeu": "pontudo",
+     "entra": "cima",
+     "humor": "convencido"
+    },
+    "us": {
+     "flag": "us",
+     "em": [
+      0.24,
+      0.75
+     ],
+     "r": 190,
+     "chapeu": "cowboy",
+     "humor": "normal"
+    },
+    "uk": {
+     "flag": "gb",
+     "em": [
+      0.76,
+      0.75
+     ],
+     "r": 190,
+     "chapeu": "cartola",
+     "olha": -1,
+     "humor": "normal"
+    }
+   },
+   "baloes": [
+    {
+     "a": "de",
+     "c": "USA!",
+     "t": 1.0
+    }
+   ],
+   "acoes": [
+    {
+     "t": 0.45,
+     "tipo": "pancada"
+    },
+    {
+     "t": 1.3,
+     "tipo": "humor",
+     "a": "us",
+     "h": "feliz"
+    },
+    {
+     "t": 1.3,
+     "tipo": "pulo",
+     "a": "us"
+    },
+    {
+     "t": 1.3,
+     "tipo": "vitoria"
+    },
+    {
+     "t": 1.4,
+     "tipo": "humor",
+     "a": "uk",
+     "h": "triste"
+    }
+   ]
+  },
+  {
+   "dur": 3.2,
+   "fundo": "ilha",
+   "txt": "TOTAL CASUALTIES:",
+   "sub": "ONE PIG.",
+   "ents": {
+    "pig": {
+     "tipo": "emoji",
+     "e": "🐖",
+     "em": [
+      0.5,
+      0.6
+     ],
+     "tam": 360,
+     "entra": "baixo"
+    }
+   },
+   "acoes": [
+    {
+     "t": 0.5,
+     "tipo": "halo",
+     "a": "pig"
+    },
+    {
+     "t": 0.6,
+     "tipo": "oink"
+    },
+    {
+     "t": 1.2,
+     "tipo": "pulo",
+     "a": "pig"
+    }
+   ]
+  }
+ ]
+}

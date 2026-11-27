@@ -1,0 +1,55 @@
+duracao 480.5 s
+300/14415 quadros, 0.24 s/quadro/navegador
+600/14415 quadros, 0.30 s/quadro/navegador
+900/14415 quadros, 0.31 s/quadro/navegador
+1200/14415 quadros, 0.38 s/quadro/navegador
+1500/14415 quadros, 0.43 s/quadro/navegador
+1800/14415 quadros, 0.44 s/quadro/navegador
+2100/14415 quadros, 0.43 s/quadro/navegador
+2400/14415 quadros, 0.43 s/quadro/navegador
+2700/14415 quadros, 0.43 s/quadro/navegador
+3000/14415 quadros, 0.42 s/quadro/navegador
+3300/14415 quadros, 0.42 s/quadro/navegador
+3600/14415 quadros, 0.43 s/quadro/navegador
+3900/14415 quadros, 0.44 s/quadro/navegador
+4200/14415 quadros, 0.45 s/quadro/navegador
+4500/14415 quadros, 0.46 s/quadro/navegador
+4800/14415 quadros, 0.46 s/quadro/navegador
+5100/14415 quadros, 0.46 s/quadro/navegador
+5400/14415 quadros, 0.45 s/quadro/navegador
+5700/14415 quadros, 0.44 s/quadro/navegador
+6000/14415 quadros, 0.44 s/quadro/navegador
+6300/14415 quadros, 0.44 s/quadro/navegador
+6600/14415 quadros, 0.44 s/quadro/navegador
+6900/14415 quadros, 0.44 s/quadro/navegador
+7200/14415 quadros, 0.46 s/quadro/navegador
+7500/14415 quadros, 0.46 s/quadro/navegador
+7800/14415 quadros, 0.47 s/quadro/navegador
+8100/14415 quadros, 0.47 s/quadro/navegador
+8400/14415 quadros, 0.47 s/quadro/navegador
+8700/14415 quadros, 0.46 s/quadro/navegador
+9000/14415 quadros, 0.46 s/quadro/navegador
+node:fs:916
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOSPC: no space left on device, write
+    at Object.writeSync (node:fs:916:3)
+    at Object.writeFileSync (node:fs:2450:26)
+    at file:///home/user/gibsoncorrea/ferramenta-shorts/longos/render_longo.mjs:15:8
+    at async Promise.all (index 0)
+    at async file:///home/user/gibsoncorrea/ferramenta-shorts/longos/render_longo.mjs:11:1 {
+  errno: -28,
+  syscall: 'write',
+  code: 'ENOSPC'
+}
+
+Node.js v22.23.5
+Traceback (most recent call last):
+  File "/home/user/gibsoncorrea/ferramenta-shorts/longos/fazer_longo.py", line 27, in <module>
+    subprocess.run(['node', 'render_longo.mjs', f'{D}/frames', str(f0), str(f1), '4'], check=True, env={**os.environ, 'PAGINA': S.get('pagina', 'doc.html')})
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['node', 'render_longo.mjs', 'v2/frames', '0', '14414', '4']' returned non-zero exit status 1.

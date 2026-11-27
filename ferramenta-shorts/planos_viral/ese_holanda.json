@@ -1,0 +1,87 @@
+{
+ "gancho_tipo": "segredo",
+ "gancho_cumprido": "Gancho: um pedaco do Brasil foi holandes por 24 anos e a historia termina em Nova York. Pagamento: Nassau em Recife, os holandeses expulsos em 1654, e Nova Amsterda trocada pelo Suriname virou Nova York.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um pedaço do Brasil foi holandês por 24 anos.",
+   "holandês",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E essa história termina em Nova York.",
+   "Nova",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1630, navios holandeses tomaram Pernambuco, atrás do açúcar.",
+   "tomaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   2,
+   "prova",
+   "Maurício de Nassau levou artistas para Recife.",
+   "Maurício",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Recife ganhou até a primeira sinagoga das Américas.",
+   "primeira",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que portugueses, indígenas e africanos se uniram contra eles.",
+   "uniram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Em 1654, os holandeses foram embora.",
+   "embora",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "O Suriname, aqui do lado, fala holandês até hoje.",
+   "Suriname",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Depois, a Holanda trocou Nova Amsterdã pelo Suriname.",
+   "Amsterdã",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "Essa vila hoje se chama Nova York.",
+   "Nova",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Se tivessem ficado, o mapa seria outro. Porque...",
+   "mapa",
+   {}
+  ]
+ ]
+}

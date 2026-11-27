@@ -1,0 +1,87 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "UMA VARA = O PLANETA",
+ "gancho_cumprido": "Gancho: um homem mediu o planeta com uma vara e chegou perto do numero certo sem satelite. Pagamento: o poco sem sombra em Siena e a sombra em Alexandria provaram a curva; a conta deu quase o tamanho real.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um homem mediu o tamanho da Terra usando só uma vara.",
+   "mediu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   9,
+   "promessa",
+   "E chegou perto do número certo, sem satélite.",
+   "número",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Há dois mil anos, Eratóstenes cuidava da biblioteca de Alexandria.",
+   "Eratóstenes",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Em Siena, ao meio-dia, o sol iluminava o fundo de um poço.",
+   "iluminava",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Ou seja: lá, nada fazia sombra.",
+   "sombra",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Em Alexandria, no mesmo dia, uma vara fazia sombra.",
+   "vara",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que isso só acontece se a Terra for curva.",
+   "curva",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "escalada",
+   "Ele mediu o ângulo da sombra e a distância entre as cidades.",
+   "mediu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "A conta deu quase o tamanho real da Terra.",
+   "conta",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Sem foguete, só uma sombra. E foi assim que...",
+   "foguete",
+   {}
+  ]
+ ]
+}

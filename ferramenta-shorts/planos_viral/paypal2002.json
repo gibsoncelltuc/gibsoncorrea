@@ -1,0 +1,87 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "PAYPAL → FOGUETES",
+ "gancho_cumprido": "Gancho: os foguetes da SpaceX nasceram de um site de pagamento por e-mail. Pagamento: o eBay pagou 1,5 bilhao pelo PayPal, Musk ficou rico e o dinheiro bancou SpaceX e Tesla.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Os foguetes da SpaceX nasceram de um site de pagamento.",
+   "foguetes",
+   {
+    "hud": null,
+    "text": null
+   }
+  ],
+  [
+   8,
+   "promessa",
+   "E tudo começou com um jeito de mandar dinheiro por e-mail.",
+   "dinheiro",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O PayPal deixava mandar dinheiro só com um e-mail.",
+   "mandar",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Em 2002, o eBay comprou o PayPal.",
+   "comprou",
+   {}
+  ],
+  [
+   0,
+   "prova",
+   "Preço: um bilhão e meio de dólares, em ações.",
+   "bilhão",
+   {
+    "encena_antiga": true,
+    "interior": "pedra",
+    "set": null
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Elon Musk era o maior acionista. Ficou rico de repente.",
+   "rico",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, no mesmo ano, ele tinha fundado a SpaceX.",
+   "fundado",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "Dois anos depois, investiu na Tesla.",
+   "investiu",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "O dinheiro do PayPal ajudou a bancar foguetes e carros.",
+   "bancar",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um e-mail virou dinheiro, e o dinheiro virou foguete. Foi assim que...",
+   "e",
+   {
+    "hud": null,
+    "text": null
+   }
+  ]
+ ]
+}

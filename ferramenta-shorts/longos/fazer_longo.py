@@ -1,0 +1,36 @@
+# Monta um video longo 16:9: voz por bloco (ja gerada em <dir>/voz/bNN.mp3) -> tempos -> spec.json -> frames (render_longo.mjs) -> mp4
+# uso: python3 fazer_longo.py v1_fundo_mar.json v1 [teste_inicio_s teste_dur_s]
+import json, subprocess, sys, os, re
+S = json.load(open(sys.argv[1])); D = sys.argv[2]; os.chdir(os.path.dirname(os.path.abspath(__file__)))
+dur = lambda p: float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
+GAP = S.get('gap', 1.4); t = 0.0; blocos = []; lista = []
+for i, b in enumerate(S['blocos']):
+    v = f'{D}/voz/b{i:02d}.mp3'; d = dur(v); a = t; t += d + GAP
+    fr = [s.strip() for s in re.split(r'(?<=[.!?:])\s+', b['texto']) if s.strip()]
+    tot = sum(len(x) for x in fr); c = a + .25; frases = []
+    for x in fr: L = d * len(x) / tot; frases.append([round(c, 2), round(c + L, 2), x]); c += L
+    blocos.append({**{k: b[k] for k in b if k != 'texto'}, 'a': round(a, 2), 'b': round(t, 2), 'frases': frases}); lista.append((v, a))
+json.dump({'titulo': S['titulo'], 'ambiente': S.get('ambiente', 'mar'), 'tiers': S.get('tiers'), 'corte': S.get('corte', 5.2), 'tier_antes': S.get('tier_antes', 4.6), 'blocos': blocos}, open('www/spec.json', 'w'), ensure_ascii=False)
+TOTAL = t; print('duracao', round(TOTAL, 1), 's')
+# audio: voz posicionada + fundo grave (drone) baixo
+inp = []; flt = []
+for k, (v, a) in enumerate(lista): inp += ['-i', v]; flt.append(f'[{k}]adelay={int(a * 1000 + 250)}|{int(a * 1000 + 250)}[v{k}]')
+n = len(lista)
+flt.append(''.join(f'[v{k}]' for k in range(n)) + f'amix=inputs={n}:normalize=0[voz]')
+if S.get('trilha') == 'orq':
+    import trilha_orq; trilha_orq.gerar(f'{D}/trilha.wav', TOTAL + 1, impactos=[b['b'] - S.get('tier_antes', 4.6) for b in blocos if b.get('tier')], blocos=[b['a'] for b in blocos], humor=S.get('humor', 'epico'), bpm=S.get('bpm', 84))
+    inp += ['-i', f'{D}/trilha.wav']; flt[-1] = flt[-1].replace('[voz]', ',highpass=f=70,equalizer=f=140:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=150:makeup=4,aecho=0.8:0.4:35:0.07[voz]')
+    flt.append(f'[{n}]volume=0.38[amb0];[voz]asplit[voz][sc];[amb0][sc]sidechaincompress=threshold=0.04:ratio=5:attack=20:release=350[amb]')
+elif S.get('trilha') == 'cine':
+    import trilha_cine; trilha_cine.gerar(f'{D}/trilha.wav', TOTAL, blocos); inp += ['-i', f'{D}/trilha.wav']; flt.append(f'[{n}]volume=0.32[amb]')
+else: flt.append(f'sine=f=55:d={TOTAL}[s1];sine=f=82.5:d={TOTAL}[s2];anoisesrc=d={TOTAL}:c=brown:a=0.4[nz];[s1][s2][nz]amix=3,lowpass=f=300,volume=0.10,afade=t=in:d=2,afade=t=out:st={TOTAL - 3}:d=3[amb]')
+flt.append('[voz][amb]amix=2:normalize=0,loudnorm=I=-14:TP=-1.5[out]')
+subprocess.run(['ffmpeg', '-v', 'error', '-y', *inp, '-filter_complex', ';'.join(flt), '-map', '[out]', '-ar', '48000', f'{D}/audio.wav'], check=True)
+ini, du = (float(sys.argv[3]), float(sys.argv[4])) if len(sys.argv) > 4 else (0, TOTAL)
+f0, f1 = int(ini * 30), int(min(TOTAL, ini + du) * 30) - 1
+subprocess.run(['node', 'render_longo.mjs', f'{D}/frames', str(f0), str(f1), '4'], check=True, env={**os.environ, 'PAGINA': S.get('pagina', 'doc.html')})
+nome = f'{D}/{S["id"]}' + ('_teste' if len(sys.argv) > 4 else '') + '.mp4'
+subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-start_number', str(f0), '-i', f'{D}/frames/f%05d.jpg', '-ss', str(ini), '-t', str((f1 - f0 + 1) / 30), '-i', f'{D}/audio.wav',
+                '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', nome], check=True)
+print('pronto', nome)
+if len(sys.argv) <= 4: import shutil; shutil.rmtree(f'{D}/frames', ignore_errors=True)   # disco: os quadros (~1,5 GB) saem depois do mp4 pronto

@@ -1,0 +1,78 @@
+{
+ "title": "COUNTRIES THAT DON'T HAVE...",
+ "hook": "These countries are missing something you'd never expect.",
+ "items": [
+  {
+   "say": "Costa Rica has no army. It abolished it in 1948.",
+   "hl": [
+    "CRI"
+   ],
+   "big": "NO ARMY",
+   "icon": "🪖",
+   "nao": true
+  },
+  {
+   "say": "Saudi Arabia has no permanent rivers.",
+   "hl": [
+    "SAU"
+   ],
+   "big": "NO RIVERS",
+   "icon": "🌊",
+   "nao": true
+  },
+  {
+   "say": "Monaco has no airport.",
+   "hl": [
+    "MCO"
+   ],
+   "big": "NO AIRPORT",
+   "pin": [
+    43.74,
+    7.42
+   ],
+   "icon": "✈️",
+   "nao": true
+  },
+  {
+   "say": "Iceland has no mosquitoes.",
+   "hl": [
+    "ISL"
+   ],
+   "big": "NO MOSQUITOES",
+   "icon": "🦟",
+   "nao": true
+  },
+  {
+   "say": "Ireland has no native snakes.",
+   "hl": [
+    "IRL"
+   ],
+   "big": "NO SNAKES",
+   "icon": "🐍",
+   "nao": true
+  },
+  {
+   "say": "Nauru has no official capital.",
+   "hl": [
+    "NRU"
+   ],
+   "big": "NO CAPITAL",
+   "pin": [
+    -0.53,
+    166.93
+   ],
+   "icon": "🏛️",
+   "nao": true
+  },
+  {
+   "say": "And Bhutan's capital has no traffic lights.",
+   "hl": [
+    "BTN"
+   ],
+   "big": "NO TRAFFIC LIGHTS",
+   "icon": "🚦",
+   "nao": true
+  }
+ ],
+ "id": "geo1_missing"
+}

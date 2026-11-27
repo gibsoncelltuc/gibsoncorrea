@@ -1,0 +1,98 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "SONHO",
+ "gancho_cumprido": "Gancho: um segredo da quimica resolvido num cochilo, com a resposta de uma cobra de sonho. Pagamento: a cobra mordendo o rabo mostrou o anel do benzeno, base de remedios, tintas e plasticos.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um segredo da química foi resolvido num cochilo.",
+   "cochilo",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E quem deu a resposta foi uma cobra de sonho.",
+   "cobra",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 1865, August Kekulé tinha um problema.",
+   "problema",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Ninguém sabia arrumar os seis carbonos do benzeno.",
+   "seis",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   3,
+   "prova",
+   "Numa noite fria, ele cochilou diante da lareira.",
+   "cochilou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "No sonho, átomos dançavam como cobras.",
+   "dançavam",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Acontece que uma delas mordeu o próprio rabo.",
+   "mordeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Ele acordou num pulo: o benzeno era um anel!",
+   "acordou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Esse anel virou base de remédios, tintas e plásticos.",
+   "anel",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Muita gente duvida do sonho. Mas o anel estava certo.",
+   "duvida",
+   {
+    "text": null
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Ele dizia: aprendam a sonhar. Porque...",
+   "sonhar",
+   {}
+  ]
+ ]
+}

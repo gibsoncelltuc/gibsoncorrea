@@ -1,0 +1,80 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "7 SEGUNDOS",
+ "gancho_cumprido": "Gancho: sete segundos de um filme de Natal geram briga ate hoje e a culpa e' de um hotel. Pagamento: Trump era dono do Plaza, o diretor diz que a cena foi o preco do hotel e Trump nega; uma TV cortou a cena em 2019.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Sete segundos de um filme de Natal ainda geram briga até hoje.",
+   "briga",
+   {
+    "mapa": null
+   }
+  ],
+  [
+   5,
+   "promessa",
+   "E a culpa é de um hotel.",
+   "hotel",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em Esqueceram de Mim 2, Kevin pede informação a um homem.",
+   "pede",
+   {
+    "text": null
+   }
+  ],
+  [
+   2,
+   "prova",
+   "O homem era Donald Trump, dono do hotel Plaza.",
+   "Trump",
+   {
+    "text": "O HOMEM É TRUMP"
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "O diretor diz que a cena foi o preço do hotel.",
+   "diz",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que Trump nega: diz que foi a equipe que pediu.",
+   "nega",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Em 2019, uma TV canadense passou o filme sem a cena.",
+   "passou",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "O corte virou polêmica no mundo inteiro.",
+   "polêmica",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um cameo virou briga política. E foi assim que...",
+   "briga",
+   {
+    "mapa": null
+   }
+  ]
+ ]
+}

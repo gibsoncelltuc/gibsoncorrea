@@ -1,0 +1,114 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "ORELHA = GUERRA",
+ "gancho_cumprido": "Gancho: uma orelha cortada comecou uma guerra de nove anos. Pagamento: os espanhois cortaram a orelha de Jenkins, ele a mostrou aos deputados e em 1739 a Inglaterra atacou o Caribe; nove anos de guerra.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Uma orelha cortada começou uma guerra de nove anos.",
+   "orelha",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E o dono da orelha levou ela até o Parlamento.",
+   "levou",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Perto de Cuba, espanhóis pararam o navio do capitão Robert Jenkins.",
+   "pararam",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "O comandante espanhol cortou a orelha dele com a espada.",
+   "cortou",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "\"Leve isso ao seu rei\", teria dito.",
+   "dito",
+   {
+    "riscos_ok": true,
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "fala",
+       "na": "dito",
+       "quem": 0,
+       "forcar": true
+      }
+     ]
+    }
+   }
+  ],
+  [
+   4,
+   "escalada",
+   "Anos depois, dizem, Jenkins mostrou a orelha aos deputados.",
+   "mostrou",
+   {
+    "props": [
+     [
+      "kit/ear_jar",
+      0.0,
+      -1.2,
+      1.2,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que a Inglaterra só queria um pretexto.",
+   "Inglaterra",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Em 1739, navios ingleses atacaram o Caribe espanhol.",
+   "atacaram",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Nove anos de guerra, por causa de uma orelha.",
+   "guerra",
+   {
+    "props": [
+     [
+      "kit/ear_jar",
+      0.0,
+      -1.2,
+      1.2,
+      {
+       "fixo": true
+      }
+     ]
+    ]
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Jenkins nunca recuperou a orelha. E foi assim que...",
+   "orelha",
+   {}
+  ]
+ ]
+}

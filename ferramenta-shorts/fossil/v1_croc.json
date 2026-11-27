@@ -1,0 +1,415 @@
+{
+ "id": "v1_croc",
+ "pagina": "fossil.html",
+ "titulo": "Could a Saltwater Crocodile Survive Every Prehistoric Era?",
+ "voz": "en-US-AndrewMultilingualNeural",
+ "rate": "+4%",
+ "tiers": {
+  "S": [
+   "Pleistocene"
+  ],
+  "A": [
+   "Carboniferous",
+   "Triassic",
+   "Jurassic",
+   "Paleocene"
+  ],
+  "B": [
+   "Devonian",
+   "Cretaceous",
+   "Miocene"
+  ],
+  "C": [
+   "Permian"
+  ],
+  "D": [],
+  "F": [
+   "Cambrian",
+   "Ordovician & Silurian"
+  ]
+ },
+ "blocos": [
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "cam": "close",
+   "rotulo": "",
+   "prof": "",
+   "texto": "The saltwater crocodile. Twenty feet long, one ton, the strongest bite of any living animal. Its family watched the dinosaurs rise and fall. So what happens if we drop it into every era of Earth's history? Would it rule? Or get eaten alive? Comment your guess for the worst era right now."
+  },
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "cam": "orbita",
+   "rotulo": "THE RULES",
+   "prof": "100 CROCODILES",
+   "texto": "The rules. One hundred crocodiles per era. They need air they can breathe, warm water, and big prey. At the end of each era, a tier. S means they rule. F means they're gone. Pause and guess along with me."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0b3a55",
+   "chao": "#4a4538",
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "anomalocaris",
+     "m": 1,
+     "rotulo": "ANOMALOCARIS",
+     "tam": "3 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "trilobita",
+     "m": 0.1,
+     "q": 30,
+     "min": 0.06
+    }
+   ],
+   "rotulo": "THE CAMBRIAN",
+   "prof": "500 MILLION YEARS AGO",
+   "tier": "F",
+   "veredito": "STARVED",
+   "texto": "The Cambrian. Five hundred million years ago. Land is bare rock. The top predator, Anomalocaris, is three feet long. A snack. But the real prey are trilobites the size of your thumb. A croc would need thousands a week. They starve. F tier."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0d3550",
+   "chao": "#454035",
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "cameroceras",
+     "m": 6,
+     "rotulo": "CAMEROCERAS",
+     "tam": "UP TO 20 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "trilobita",
+     "m": 0.1,
+     "q": 14,
+     "min": 0.06
+    },
+    {
+     "n": "real/Jaekelopterus",
+     "m": 2.5,
+     "q": 2,
+     "min": 0.4
+    }
+   ],
+   "rotulo": "ORDOVICIAN & SILURIAN",
+   "prof": "450 MILLION YEARS AGO",
+   "tier": "F",
+   "veredito": "TOO COLD",
+   "texto": "The Ordovician. Now there's Cameroceras, a squid in a twenty foot shell, and giant sea scorpions. Food is better. But then the planet freezes. Cold blooded crocs in icy water just shut down. Another F."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0e3a4a",
+   "chao": "#4a4636",
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "dunkleosteus",
+     "m": 4,
+     "rotulo": "DUNKLEOSTEUS",
+     "tam": "13 FT"
+    }
+   ],
+   "rotulo": "THE DEVONIAN",
+   "prof": "375 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "SURVIVES",
+   "texto": "The Devonian. The age of fish. Dunkleosteus, thirteen feet of armor with a bite that could cut sharks in half. In open water, our croc loses. But in rivers and lagoons, full of fish, it eats all day. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#3e4a26",
+   "ceu": "#a9c3b0",
+   "nevoa": 0.03,
+   "flora": "licopsida",
+   "flora_m": 9,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "arthropleura",
+     "m": 2.6,
+     "rotulo": "ARTHROPLEURA",
+     "tam": "8.5 FT"
+    }
+   ],
+   "extras": [
+    {
+     "n": "meganeura",
+     "m": 0.7,
+     "q": 5,
+     "voa": true,
+     "min": 0.25
+    }
+   ],
+   "rotulo": "THE CARBONIFEROUS",
+   "prof": "310 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "THRIVES",
+   "texto": "The Carboniferous. Thirty five percent oxygen. Millipedes eight feet long. Dragonflies with two foot wings. The whole planet is one giant warm swamp. For a crocodile? Paradise. What tier would you give? I say A."
+  },
+  {
+   "amb": "terra",
+   "chao": "#9a7a4a",
+   "ceu": "#d8c49a",
+   "nevoa": 0.022,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "inostrancevia",
+     "m": 3.5,
+     "rotulo": "INOSTRANCEVIA",
+     "tam": "11 FT"
+    }
+   ],
+   "rotulo": "THE PERMIAN",
+   "prof": "260 MILLION YEARS AGO",
+   "tier": "C",
+   "veredito": "WIPED OUT",
+   "texto": "The Permian. One supercontinent, a huge desert inside. The predator here has saber teeth, Inostrancevia. On land it's dangerous, in water the croc wins. But then the worst extinction ever hits. Ninety percent of sea life dies. C tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#8a6a44",
+   "ceu": "#cfc3a0",
+   "nevoa": 0.02,
+   "flora": "samambaia",
+   "flora_m": 4,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "postosuchus",
+     "m": 4.5,
+     "rotulo": "POSTOSUCHUS",
+     "tam": "15 FT"
+    }
+   ],
+   "rotulo": "THE TRIASSIC",
+   "prof": "220 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "FEELS AT HOME",
+   "texto": "The Triassic. This is the crocodile's own family era. Croc relatives ruled before dinosaurs did. Warm rivers, ferns, lots of prey. Our crocs fit right in. A tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#5a6a3a",
+   "ceu": "#a8cbe0",
+   "nevoa": 0.016,
+   "flora": "nature/tree_pine",
+   "flora_m": 10,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "real/Dilophosaurus",
+     "m": 9,
+     "rotulo": "ALLOSAURUS",
+     "tam": "30 FT"
+    }
+   ],
+   "rotulo": "THE JURASSIC",
+   "prof": "150 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "SURVIVES WELL",
+   "texto": "The Jurassic. Dinosaurs everywhere. On land, an Allosaurus wins. But every dinosaur needs to drink. And when it lowers its head to the river, the crocodile is waiting. A tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#5e6a3c",
+   "ceu": "#b4cfe0",
+   "nevoa": 0.016,
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "real/Sarcosuchus",
+     "m": 10,
+     "rotulo": "DEINOSUCHUS",
+     "tam": "33 FT"
+    },
+    {
+     "n": "real/RampagingT-Rex",
+     "m": 12,
+     "rotulo": "T. REX",
+     "tam": "40 FT"
+    }
+   ],
+   "rotulo": "THE CRETACEOUS",
+   "prof": "70 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "OUTMATCHED, BUT ALIVE",
+   "texto": "The Cretaceous. T. rex is here. But the real problem is in the rivers. Deinosuchus. A crocodile thirty five feet long that hunted dinosaurs. Next to it, our croc is a baby. Then the asteroid hits. And crocodiles survive it. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#4a5a2e",
+   "ceu": "#b8d0c4",
+   "nevoa": 0.03,
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "real/Snake",
+     "m": 13,
+     "rotulo": "TITANOBOA",
+     "tam": "42 FT"
+    }
+   ],
+   "rotulo": "THE PALEOCENE",
+   "prof": "60 MILLION YEARS AGO",
+   "tier": "A",
+   "veredito": "DANGEROUS, BUT FINE",
+   "texto": "The Paleocene. A hot rainforest world. And Titanoboa, a snake forty two feet long. It could eat a young croc. But an adult bites back. Warm water, lots of fish. A tier."
+  },
+  {
+   "amb": "mar",
+   "ceu": "#0d4060",
+   "chao": "#5a5440",
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "real/Megalodon",
+     "m": 15,
+     "rotulo": "MEGALODON",
+     "tam": "50 FT"
+    }
+   ],
+   "rotulo": "THE MIOCENE",
+   "prof": "10 MILLION YEARS AGO",
+   "tier": "B",
+   "veredito": "STAY OUT OF THE SEA",
+   "texto": "The Miocene. In the ocean, Megalodon. Fifty feet. One bite. Saltwater crocs love to swim between islands. Here, that's suicide. Stay in the rivers, and you live. B tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#7a6a44",
+   "ceu": "#c4d6e4",
+   "nevoa": 0.016,
+   "flora": "nature/tree_oak",
+   "flora_m": 6,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    },
+    {
+     "n": "real/Komododragon",
+     "m": 5.5,
+     "rotulo": "MEGALANIA",
+     "tam": "18 FT"
+    }
+   ],
+   "rotulo": "THE PLEISTOCENE",
+   "prof": "50,000 YEARS AGO",
+   "tier": "S",
+   "veredito": "THEY ACTUALLY DID IT",
+   "texto": "The Ice Age. Sounds like the worst one, right? Wrong. The tropics stayed warm, and saltwater crocodiles actually lived here, next to Megalania, a lizard eighteen feet long. The lizard is extinct. The croc is still here. S tier."
+  },
+  {
+   "amb": "terra",
+   "chao": "#6b6a3a",
+   "ceu": "#9cc4e4",
+   "flora": "samambaia",
+   "flora_m": 4.5,
+   "modelos": [
+    {
+     "n": "real/Sarcosuchus",
+     "m": 6,
+     "rotulo": "SALTWATER CROC",
+     "tam": "20 FT"
+    }
+   ],
+   "rotulo": "FINAL TIER LIST",
+   "prof": "",
+   "lista": true,
+   "texto": "Final list. S, the Ice Age. A, the swamps, the Triassic, the Jurassic and the Paleocene. B, the Devonian, the Cretaceous and the Miocene. C, the Permian. F, the Cambrian and the Ordovician. Did I get one wrong? Tell me in the comments, and tell me which animal goes through every era next."
+  }
+ ],
+ "trilha": "orq",
+ "corte": 2.8,
+ "gap": 0.6,
+ "tier_antes": 2.3,
+ "bpm": 88
+}

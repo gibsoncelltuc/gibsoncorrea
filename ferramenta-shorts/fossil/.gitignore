@@ -1,0 +1,7 @@
+v*/frames/
+v*/tq/
+v*/*.mp4
+v*/*.wav
+*.log
+v*/segs/
+v*/segs.txt

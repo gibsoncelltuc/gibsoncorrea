@@ -1,0 +1,70 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "TRUMP STEAKS",
+ "gancho_cumprido": "Gancho: o bife com o nome de Trump sumiu das lojas em dois meses, com venda bem menor que o esperado. Pagamento: saiu da loja em julho, vendas estimadas abaixo de 50 mil dolares e marca cancelada em 2014.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "O bife do Trump sumiu das lojas em só dois meses.",
+   "sumiu",
+   {}
+  ],
+  [
+   9,
+   "promessa",
+   "E o resultado foi bem menor do que se imaginava.",
+   "resultado",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 2007, ele lançou a Trump Steaks.",
+   "lançou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Os pacotes custavam até novecentos e noventa e nove dólares.",
+   "custavam",
+   {}
+  ],
+  [
+   3,
+   "escalada",
+   "Acontece que, em julho, a loja já não oferecia os bifes.",
+   "loja",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Uma reportagem estimou menos de cinquenta mil dólares no total.",
+   "estimou",
+   {}
+  ],
+  [
+   6,
+   "pagamento",
+   "Em 2014, a marca foi cancelada.",
+   "cancelada",
+   {}
+  ],
+  [
+   7,
+   "pagamento",
+   "Mesmo assim, o bife seguiu no cardápio dos hotéis dele.",
+   "cardápio",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Nome famoso não salvou a carne. E foi assim que...",
+   "nome",
+   {}
+  ]
+ ]
+}

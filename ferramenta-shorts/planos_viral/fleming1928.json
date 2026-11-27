@@ -1,0 +1,79 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "MOFO",
+ "gancho_cumprido": "Gancho: um mofo esquecido numa mesa baguncada salvou milhoes, porque o cientista saiu de ferias. Pagamento: o bolor matava as bacterias, virou a penicilina e salvou milhoes; ele ganhou o Nobel.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um mofo esquecido numa mesa bagunçada salvou milhões de vidas.",
+   "mofo",
+   {}
+  ],
+  [
+   10,
+   "promessa",
+   "E tudo porque o cientista saiu de férias.",
+   "cientista",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1928, Alexander Fleming trabalhava num laboratório em Londres.",
+   "trabalhava",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Ele deixava os pratos de bactérias empilhados na bancada.",
+   "empilhados",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "Saiu de férias por um mês e não limpou nada.",
+   "férias",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Na volta, um prato estava coberto de bolor verde.",
+   "bolor",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que, em volta do mofo, as bactérias tinham sumido.",
+   "sumido",
+   {}
+  ],
+  [
+   7,
+   "escalada",
+   "O mofo matava bactérias. Era a penicilina.",
+   "penicilina",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Virou remédio e salvou milhões de pessoas.",
+   "salvou",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Fleming ganhou até o Nobel. E foi assim que...",
+   "Fleming",
+   {}
+  ]
+ ]
+}

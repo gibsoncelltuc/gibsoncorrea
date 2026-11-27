@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# 24/11: conta a refacao (limite 1 por video; acima disso o status alerta)
+[ -n "$1" ] && { n_=$(cut -d" " -f1 stories/$1/refacoes.txt 2>/dev/null || echo 0); echo "$((n_ + 1)) $(date +%F_%T)" > stories/$1/refacoes.txt; }
 # REFAZ SO' ALGUMAS CENAS de um video ja renderizado (2-5 min em vez de 20):  ./refazer.sh <id> b4 b8
 #  - edite a cena no videos/<id>/beats.json (camera, personagens, objetos, batalha, texto na imagem...) e rode.
 #  - so' vale se a NARRACAO nao mudou (mesmo texto = mesmos tempos). Se mudou o texto falado, o video inteiro precisa ser refeito (run_queue.sh).
@@ -19,5 +21,5 @@ echo "trechos a refazer: $SEGS"; for k in $SEGS; do rm -f ckpt/$ID/seg_$(printf 
 rm -f stories/$ID/DONE; ./snap.sh $ID $N >> $L 2>&1; (cd stories/$ID && python3 ../../caps.py >/dev/null)
 node render_pool.mjs $ID $N >> $L 2>&1
 T=$(python3 -c "import json;print(json.load(open('stories/$ID/meta.json'))['file'])")
-./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tail -2
-touch stories/$ID/DONE; echo "PRONTO out/$ID/$T.mp4 (cenas refeitas: $*)"
+python3 cenas_hash.py $ID > ckpt/$ID/cenas.txt 2>/dev/null || true; ./assemble.sh $ID "$T" >> $L 2>&1; ./review_video.sh out/$ID/$T.mp4 out/$ID/review | tail -2
+echo "motor v13 $(date +%F_%T) refeito: $*" > stories/$ID/DONE; echo "PRONTO out/$ID/$T.mp4 (cenas refeitas: $*)"

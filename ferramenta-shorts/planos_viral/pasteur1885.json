@@ -1,0 +1,81 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "PRIMEIRA VACINA",
+ "gancho_cumprido": "Gancho: o primeiro vacinado contra a raiva foi um menino de nove anos e quem aplicou nem era medico. Pagamento: dez dias de injecoes, Joseph sobreviveu e a noticia correu o mundo.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um menino de nove anos foi o primeiro vacinado contra a raiva.",
+   "vacina",
+   {}
+  ],
+  [
+   5,
+   "promessa",
+   "E quem aplicou a vacina nem era médico.",
+   "médico",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Em 1885, Louis Pasteur estudava micróbios na França.",
+   "Pasteur",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Mordida de animal com raiva quase sempre matava.",
+   "Mordida",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "A vacina dele só tinha sido testada em animais.",
+   "testada",
+   {}
+  ],
+  [
+   4,
+   "escalada",
+   "Um dia, chegou o menino Joseph, mordido por um cachorro.",
+   "chegou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Pasteur tinha medo, mas decidiu tentar.",
+   "tentar",
+   {}
+  ],
+  [
+   6,
+   "pagamento",
+   "Acontece que, depois de dez dias de injeções, o menino não adoeceu.",
+   "injeções",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "Joseph sobreviveu, e a notícia correu o mundo.",
+   "sobreviveu",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Um químico arriscou tudo. E foi assim que...",
+   "arriscou",
+   {}
+  ]
+ ]
+}

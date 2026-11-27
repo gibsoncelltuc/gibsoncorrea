@@ -1,0 +1,80 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "SÓ COM A MENTE",
+ "gancho_cumprido": "Gancho: um macaco jogou videogame so com o pensamento e ganhava vitamina de banana. Pagamento: o chip leu os neuronios, Pager jogou sem joystick e em 2024 um paciente paralisado jogou xadrez pensando.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um macaco jogou videogame só com o pensamento.",
+   "jogou",
+   {
+    "text": null
+   }
+  ],
+  [
+   4,
+   "promessa",
+   "E o prêmio de cada acerto era vitamina de banana.",
+   "prêmio",
+   {}
+  ],
+  [
+   1,
+   "prova",
+   "Foi em 2021, num teste da empresa Neuralink.",
+   "Neuralink",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Um chip no cérebro lê os sinais dos neurônios.",
+   "chip",
+   {}
+  ],
+  [
+   3,
+   "prova",
+   "O macaco Pager aprendeu a jogar Pong com um joystick.",
+   "aprendeu",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que desligaram o joystick, e ele continuou jogando com a mente.",
+   "continuou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "O vídeo rodou o mundo e abriu debate sobre testes com animais.",
+   "rodou",
+   {}
+  ],
+  [
+   8,
+   "pagamento",
+   "Em 2024, um paciente paralisado jogou xadrez só pensando.",
+   "jogou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Tudo começou com um copo de vitamina. E foi assim que...",
+   "vitamina",
+   {
+    "text": null
+   }
+  ]
+ ]
+}

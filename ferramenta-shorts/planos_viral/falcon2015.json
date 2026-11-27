@@ -1,0 +1,104 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "DE RÉ",
+ "gancho_cumprido": "Gancho: um foguete voltou de re depois de decolar, e hoje isso e' rotina. Pagamento: em 2015 o primeiro estagio do Falcon 9 desceu de re e pousou inteiro, de pe.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Um foguete gigante voltou do espaço e pousou de ré, de pé.",
+   "voltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   10,
+   "promessa",
+   "E hoje isso virou rotina no mundo inteiro.",
+   "rotina",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Elon Musk queria reaproveitar foguetes. Muitos achavam impossível.",
+   "reaproveitar",
+   {
+    "set": "street"
+   }
+  ],
+  [
+   3,
+   "prova",
+   "As primeiras tentativas tombaram no mar.",
+   "tombaram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   4,
+   "prova",
+   "Em 2015, o Falcon 9 decolou com onze satélites.",
+   "decolou",
+   {
+    "encena_antiga": true,
+    "mapa": "FLÓRIDA"
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Depois de soltar o topo, a parte de baixo voltou.",
+   "voltou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   6,
+   "escalada",
+   "Acontece que ela desceu de ré, com o motor freando a queda.",
+   "desceu",
+   {
+    "encena_antiga": true,
+    "explica": {
+     "objeto": "kit/falcon9_land",
+     "manobra": "sobe",
+     "vfx": [
+      {
+       "k": "jato"
+      }
+     ]
+    },
+    "who": []
+   }
+  ],
+  [
+   7,
+   "pagamento",
+   "E pousou inteira, abrindo as pernas no último segundo.",
+   "pousou",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   8,
+   "pagamento",
+   "Os funcionários da SpaceX comemoraram e se abraçaram.",
+   "comemoraram",
+   {
+    "encena_antiga": true
+   }
+  ],
+  [
+   0,
+   "loop",
+   "Antes, o foguete ia para o lixo. Até que...",
+   "para",
+   {}
+  ]
+ ]
+}

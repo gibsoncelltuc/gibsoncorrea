@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+trap "rm -rf referencias/_teste_* stories/_teste_* videos/_teste_* 2>/dev/null" EXIT   # 25/11: o teste nao deixa sobra no repositorio
 # TESTE RAPIDO DA FERRAMENTA (npm test): sintaxe do motor, biblioteca 3D consistente e regras do diretor. Nao renderiza nada.
 cd "$(dirname "$0")"; ok=0; f() { echo "FALHOU: $1"; ok=1; }
 for j in web/runtime.js web/toonbase.js web/acting.js web/tail.js stories/_h.js; do node --check "$j" 2>/dev/null || f "sintaxe $j"; done
@@ -54,9 +55,17 @@ import json, sys, re, subprocess
 v = sys.argv[1]; p = f'videos/{v}/beats.json'; B = json.load(open(p, encoding='utf-8'))
 B['beats'][1] = {"say": "Segundo a empresa, o carro vai de zero a cem em menos de um segundo.", "explica": {"medidor": {"de": 0, "para": 100, "un": "km/h", "na": "zero"}}}
 B['beats'][3] = {"who": ["ENG:0:angry", "MUS:0:surprised"], "say": "O engenheiro empurrou o chefe e ele caiu no chão diante de todos."}
+B['beats'][2] = {"who": ["MUS:0:grin", "ENG:0:surprised"], "say": "Depois disso, os assassinatos despencaram no pais inteiro."}
+B['beats'].insert(4, {"who": ["MUS:0:grin", "ENG:0:surprised"], "say": "Eles deixaram uma garrafa de aguardente na mesa."})
+B['beats'][0] = {"who": ["MUS:0:grin", "ENG:0:surprised"], "say": "Diante de convidados, o carro dele saiu do chão.", "obj_acao": False}
 json.dump(B, open(p, 'w', encoding='utf-8'), ensure_ascii=False)
 subprocess.run([sys.executable, 'mkvideo.py', v], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 s = open(f'stories/{v}/spec.js', encoding='utf-8').read()
+pl = [l for l in open(f'stories/{v}/plano.md', encoding='utf-8') if l.startswith('b0 ')]
+p3 = [l for l in open(f'stories/{v}/plano.md', encoding='utf-8') if l.startswith('b2 ')]
+if p3 and 'tomba @' in p3[0]: sys.exit(1)
+if 'asset: "barrel"' in s: sys.exit(1)   # barril de madeira em 2026 (aguardente) = fora de epoca   # "os assassinatos despencaram" = grafico, ninguem cai
+if not pl or 'sai @' in pl[0] or 'tomba @' in pl[0]: sys.exit(1)   # "saiu do chao" = decolou: ninguem sai andando nem cai
 ok = "dir: \"tras\"" in s and "k: \"velocidade\"" in s and 'camFollow' in s and "'fall'" in s
 sys.exit(0 if ok else 1)
 V13B
@@ -77,4 +86,202 @@ python3 -c "import json,sys;o=json.load(open('stories/$G/orquestracao.json'));sy
 grep -q 'voando' stories/$G/plano.md && f "v13: soldado voando em guerra sem tiro"
 { [ -f stories/$G/cronograma.md ] && grep -q 'Etapa atual' stories/$G/cronograma.md; } || f "v13: cronograma nao foi gerado"
 [ -n "$G" ] && rm -rf "videos/$G" "stories/$G" "referencias/$G"
+# ---- filas: nenhum roteiro em duas filas (duas sessoes fazendo o mesmo video), nem roteiro sem arquivo ----
+D=$(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}' | sort | uniq -d | tr '\n' ' '); [ -z "$D" ] || f "roteiro em mais de uma fila (video duplicado): $D"
+for i in $(cat fila_principal.txt fila_sessao_A.txt fila_sessao_B.txt | grep -v '^#' | awk 'NF{print $1}'); do [ -f videos/$i/beats.json ] || f "fila aponta para roteiro que nao existe: $i"; done
+grep -qF 'kit/prison$|presidio' mkvideo.py || f "prisao/muralha grande sem tamanho real"
+grep -q 'texto do roteiro mudou: refazendo a voz' make_video.sh || f "voz nao e' refeita quando o texto do roteiro muda"
+python3 - <<'NEG' || f "negacao ('ninguem morreu em combate') vira batalha"
+import re
+s = open('mkvideo.py').read()
+m = re.search(r"_s = re\.sub\(r'(.+?)', ' ', _s\)", s)
+sys_ok = m and re.sub(m.group(1), ' ', 'quase houve guerra e ninguem morreu em combate').find('combate') < 0
+raise SystemExit(0 if sys_ok else 1)
+NEG
+grep -q "('nature/lamppost', 1800, 'tools/lantern')" mkvideo.py && grep -q "int(_ano.group(1)) < 1500: REGIAO = None" mkvideo.py || f "cenario medieval com poste de rua, cerca branca ou predio europeu de 4 andares"
+grep -q 'k === "axe"' web/toonbase.js && grep -q "('axe', r'machado" mkvideo.py || f "lenhador sem machado na mao"
+grep -q "K === 'feixe'" web/vfx.js && grep -q "asset == 'kit/searchlight' and 'vfx' not in ex" mkvideo.py || f "holofote a noite sem facho de luz no ceu"
+grep -q "fila_sessao_B.txt" boot.sh && grep -q "grep -qx \"\$id\" fila_sessao_B.txt" run_queue.sh || f "sessao pode pegar a fila de outra sessao (video duplicado)"
+grep -q "b.get('animais') is False or (b.get('montado')" mkvideo.py && grep -q "ERA_ANO < 1800" web/sets/mountain.js && grep -q "persons_out\[:1\] or list(B.get('outfits'" mkvideo.py && grep -q 'o video sairia sem EP no titulo' mkvideo.py || f "lote 24/11: animal servido como comida, castelo no morro moderno, ator X, serie sem EP"
+grep -q "sem VIRADA no meio do video" mkvideo.py && grep -q "GANCHO longo" mkvideo.py || f "roteiro sem checagem de estrutura de retencao (gancho, virada, final)"
+# ---- cena de batalha em 3 cameras + "a cavalo": codigo da cena tem que sair valido ----
+node -e "const vm=require('vm');const s=require('fs').readFileSync('stories/texel1795/spec.js','utf8').replace(/^export /mg,'').replace(/^import .*\$/mg,'');new vm.Script('(function(){'+s+'\\n})')" 2>/dev/null || f "cena de batalha a cavalo gera codigo invalido (Texel b9)"
+grep -q "and not _multi:" mkvideo.py || f "montado embrulha sequencia de cameras (erro de sintaxe)"
+grep -q "cen == 'arctic' and re.search(r'congel|gelo', t)" mkvideo.py || f "mar congelado no artico acusado como cenario sem agua"
+grep -q 'GANCHO sem impacto visual nos 5 primeiros segundos' mkvideo.py || f "cena 1 sem checagem de impacto visual (5 primeiros segundos)"
+grep -q 'revisao_final.sh \$ID ||' enviar_para_principal.sh || f "sessao pode enviar video sem revisao final frase a frase"
+grep -q 'node visivel.mjs' make_video.sh && grep -q 'VISIBILIDADE REPROVADA' aprovar_storyboard.sh && grep -q '__propPool' build3.sh || f "storyboard pode ser aprovado sem medir se o objeto citado aparece (causa raiz do retrabalho de 24/11)"
+grep -q "if (globalThis.FAROL) libInst(.buildings/lighthouse" web/sets/harbor.js || f "farol do cais perto da camera (dominava o quadro no Kiska e no Bolos)"
+grep -q 'conserto DESFEITO' autocorrigir_visibilidade.py && grep -q 'um personagem a menos' autocorrigir_visibilidade.py || f "autocorrecao pode esvaziar cena de acao ou criar risco novo"
+grep -qF "for b_ in beats) + (0 if _VIRAL else 13)) / 2.8" mkvideo.py || f "estimativa de duracao otimista (video saia com 53 s)"
+grep -q "'harbor': \['buildings/shop', 'buildings/lighthouse'\]" mkvideo.py && f "farol entra como fachada no cais (tapava o quadro)"
+grep -q 'OBJETO HEROI: no vao ENTRE os personagens' mkvideo.py || f "objeto heroi empurrado para fora do quadro pela regra nada-na-frente"
+grep -q '_fixa_nome' mkvideo.py || f "veiculo sem pasta (locomotive) trava o carregamento do video"
+grep -q 'cobrindo a tela' visivel.mjs && grep -q 'cobrindo a tela' autocorrigir_visibilidade.py || f "objeto grande cobrindo a tela (parede/casco) passa sem checagem"
+T_=videos/_teste_coer; mkdir -p $T_; printf '{"regiao":"brasil","outfits":{"A":{"jacket":"#111"},"B":{"jacket":"#111"}},"beats":[{"say":"Segundo uma versao, tudo comecou assim.","mapa":"PERNAMBUCO"},{"say":"Eles brigaram.","batalha":true,"crowd":{"outfits":["A","B"]}}]}' > $T_/beats.json
+_co=$(python3 checagem_coerencia.py _teste_coer 2>&1); for r_ in R1 R2 R3 R4; do echo "$_co" | grep -q "$r_ " || f "coerencia nao pega a regra $r_ (lugar/regiao/fardas/gancho)"; done; rm -rf $T_
+grep -q 'R5 b' checagem_coerencia.py || f "coerencia nao confere a farda FINAL (depois da farda automatica da epoca)"
+grep -q 'checagem_coerencia.py' verificar_folhas.py || f "verificar_folhas nao roda a checagem de coerencia"
+grep -q 'python3 enquadrar.py' make_video.sh && grep -q 'FICHA DE CENA' enquadrar.py && grep -q 'a ficha de cena planejou' visivel.mjs || f "folha 2 sem enquadramento na fonte (objeto jogado na cena sem lugar/tamanho/camera)"
+grep -q 'ficha_nas_folhas.py' make_video.sh && grep -q 'FISICA E MOVIMENTO' ficha_nas_folhas.py && grep -q 'lista_revisao.py' make_video.sh && grep -q 'refacoes.txt' refazer.sh || f "folhas sem ficha tecnica/takes/fisica ou revisao sem lista unica"
+grep -q "B\['max_wide'\] = _nw" enquadrar.py || f "ficha de cena pode ser desobedecida pelo limite de planos abertos"
+grep -q "globalThis.FAZENDA" mkvideo.py && grep -q "globalThis.FAZENDA" web/sets/outback.js || f "outback desenha celeiro e moinho holandes em qualquer historia"
+python3 -c "import re,sys;s=open('mkvideo.py').read();r=re.search(r\"_CAVW = re.compile\\(r'(.+?)'\\)\",s).group(1);sys.exit(1 if re.search(r,'uma metralhadora montada em caminhao') else 0)" || f "'montada em caminhao' vira cavalaria"
+grep -q "_tropa = False   # 24/11" mkvideo.py || f "soldado com fuzil vira batalha mesmo com crowd n 0"
+grep -q "R7 b" checagem_coerencia.py || f "cenario palace (praia) passa sem praia na historia"
+T_=videos/_teste_r8; mkdir -p $T_; printf '{"outfits":{"GAU":{"jacket":"#111"},"MAN":{"jacket":"#eee"}},"beats":[{"say":"O barulho acordou o soldado Marco Manlio.","who":["GAU:0:scared"]}]}' > $T_/beats.json
+python3 checagem_coerencia.py _teste_r8 2>&1 | grep -q "R8 b0" || f "personagem citado pelo nome (Marco Manlio) pode faltar na cena (Gansos b6)"; rm -rf $T_
+grep -q "want.includes(nm))) R.parede" visivel.mjs || f "predio citado colado na camera vira parede sem checagem (Gansos b4)"
+grep -q "animal citado aparece pequeno demais" visivel.mjs && grep -q "'animal citado' in txt" autocorrigir_visibilidade.py || f "animal citado minusculo no fundo passa sem checagem (Gansos b9)"
+T_=videos/_teste_r3b; mkdir -p $T_; printf '{"outfits":{"MAR":{"jacket":"#123"}},"beats":[{"say":"Marinheiros dos dois lados se encararam no mar.","who":["MAR:0:stern","MAR:1:angry"]}]}' > $T_/beats.json
+python3 checagem_coerencia.py _teste_r3b 2>&1 | grep -q "R3 b0" || f "dois lados com o mesmo figurino passa sem checagem (Lagosta b6)"; rm -rf $T_
+grep -q "a.i >= nWho" visivel.mjs || f "figurante de multidao na borda trava o storyboard como personagem cortado"
+grep -q "if not _gente: cena\['crowd'\]" enquadrar.py || f "ficha de cena tira a multidao de 'cercaram o forte' (Banquinho b5)"
+grep -q "chov.w\* dentro|goteira|teto furado" mkvideo.py || f "chovia dentro do galpao sai sem chuva (Curie b3)"
+grep -q "def ingles(q)" pesquisar.py && grep -q "qs = \[ingles(q) for q in" pesquisar.py || f "pesquisa visual so' busca em portugues (Goodyear/Abelhas travaram sem referencia)"
+grep -q "personagem PONTINHO" visivel.mjs && grep -q "'PONTINHO' in txt" autocorrigir_visibilidade.py && grep -q "if n_p and d > 22.0" enquadrar.py || f "personagem vira pontinho com objeto grande (camera a 80 m, Gansos b4)"
+grep -q "v.length < 0.13)" visivel.mjs || f "animal citado pequeno passa com 10% da tela (Gansos b9)"
+grep -q "_hit_fx" mkvideo.py && grep -q "_can_fx" mkvideo.py || f "clarao do tiro sai nos personagens e nao no canhao/objeto atingido (Chaleira b5/b6)"
+grep -q 'stories/$v/ENTREGUE" ] && rm -rf "$d"' make_video.sh || f "disco enche com checkpoints de videos ja entregues (Lagosta falhou na montagem 24/11)"
+grep -q 'videos_prontos/_a_conferir/"' receber_das_sessoes.sh && [ -x aprovar_entrega.sh ] || f "video de sessao entra direto na pasta da serie sem conferencia (mistura de versoes 24/11)"
+[ -x limpar_disco.sh ] && grep -q "limpar_disco.sh" vigia.sh || f "disco cheio para a fila sem limpeza automatica"
+grep -q "VIDEO MAIS CURTO QUE A VOZ" make_video.sh && grep -q "video MAIS CURTO que a voz" conferir.sh && grep -q "trecho(s) incompleto(s)" make_video.sh || f "trecho incompleto (disco cheio) passa e o video sai mais curto que a voz (Melancia 24/11)"
+python3 cenas_hash.py lagosta1961 | grep -q "^b7 " && grep -q "so' estas cenas mudaram" make_video.sh && grep -q "cenas_hash.py \$ID > ckpt/\$ID/cenas.txt" refazer.sh || f "mudanca numa cena joga fora o video inteiro (devia refazer so' os trechos dela)"
+grep -q "o tiro NUNCA VEIO" mkvideo.py || f "'o tiro nunca veio' ganha explosao (Lagosta f14)"
+grep -q "Tulipas): 'o preco de uma casa inteira'" mkvideo.py || f "'o preco de uma casa' joga a cena para dentro de casa (Tulipas gancho)"
+T_=videos/_teste_r9; mkdir -p $T_; printf '{"outfits":{},"beats":[{"say":"Foi em Siracusa, ha mais de dois mil anos."}]}' > $T_/beats.json
+python3 checagem_coerencia.py _teste_r9 2>&1 | grep -q "R9 " || f "historia antiga sem regiao classico sai com cidade moderna (Arquimedes)"; rm -rf $T_
+grep -q "Emus): 'pediram metralhadoras'" mkvideo.py || f "'pediram metralhadoras' vira tiro dentro do gabinete (Emus b2)"
+grep -q "america\\\\b(?! (central|latina|do sul))" mkvideo.py || f "mapa AMERICA CENTRAL vira regiao eua (predios de Nova York em Honduras, Futebol)"
+grep -q "objeto ENORME" visivel.mjs && grep -q "'objeto ENORME' in txt" autocorrigir_visibilidade.py || f "objeto pequeno gigante cobrindo o quadro passa sem checagem (bola do Futebol)"
+grep -q "sem tropa/multidao a grua termina a 34 m" mkvideo.py || f "sequencia de grua em cena sem multidao deixa os personagens minusculos (Emus b4, Danca b6)"
+grep -q "no maximo 2,0x mais longe" fit_fast.mjs || f "ajuste de camera afasta sem limite (Tulipas gancho a 2,47x)"
+grep -q "etiqueta|papel|papeis|carta|nome|ficha" mkvideo.py || f "'misturou as etiquetas' vira panela de cozinha (Darwin gancho)"
+grep -q "NAVIO NO CAIS = navio em cima do concreto" mkvideo.py || f "navio posto em cima do cais de concreto no harbor (Zanzibar)"
+python3 -c "
+import sentido as S
+ok = ('tiro' in S.explicar('Mas o tiro nunca veio.')[0] and S.cena('Agricultores pediram metralhadoras.').get('sem_violencia') and S.cena('Um cientista misturou as etiquetas.').get('nao_cozinha') and S.cena('Uma flor custou o preco de uma casa inteira.').get('nao_interior') and S.cena('quase entraram em guerra').get('sem_violencia') and not S.cena('os navios abriram fogo e bombardearam o palacio').get('sem_violencia') and not S.cena('catorze bombas cairam sobre Fordow').get('sem_violencia'))
+raise SystemExit(0 if ok else 1)" || f "sentido.py nao entende negacao/figurado/hipotese/valor (o tiro nunca veio, pediram metralhadoras, misturou etiquetas, preco de uma casa)"
+grep -q "_neg_idx_base(say) | _SENT.figurado(say)" mkvideo.py && grep -q "_SENT.cena(_b.get('say', ''))" mkvideo.py || f "mkvideo nao usa o sentido da frase"
+grep -q "suspeitas.py \$ID --corrigir" make_video.sh && grep -q "suspeitas.py" lista_revisao.py || f "fila sem a conferencia automatica frase x cena (suspeitas.py)"
+grep -q "voz antiga: o texto mudou" mkvideo.py || f "duracao medida na voz de um texto antigo (roteiro encurtado continua acusando video longo)"
+python3 -c "import sentido as S; raise SystemExit(0 if S.cena('Uma metralhadora num caminhao sacudia tanto que ninguem atirava.').get('sem_violencia') else 1)" || f "ninguem atirava virava tiro"
+grep -q "CELULAR/INTERNET/TELA" suspeitas.py && grep -q "congresso|assembleia" suspeitas.py || f "frase de celular/app sem tela ou congresso com 2 pessoas passa sem aviso (Bitcoin)"
+grep -q "BATALHA e a frase nao fala" suspeitas.py || f "batalha ligada em cena sem luta (Goodyear pneus, Abelhas)"
+grep -q "momento automatico nunca dentro de sala" mkvideo.py && grep -q "tropa/armas so' em cena de luta" mkvideo.py || f "virada de historia pacifica vira batalha encenada (Goodyear)"
+grep -q "MULTIDAO SEM MOTIVO" suspeitas.py || f "multidao em cena intima (maca do Newton, injecao do Pasteur)"
+grep -q "EUA antes de 1850 = casas de tijolo" mkvideo.py || f "EUA do seculo 19 com vila espanhola de cupulas (Goodyear)"
+grep -q "shot == 'close' or b.get('veiculo')" mkvideo.py || f "placa em plano fechado esconde o personagem (Hayha)"
+grep -q "cena de paz vai para a montanha limpa" mkvideo.py || f "front de guerra (mountain) em cena de paz (Abelhas)"
+python3 checagem_coerencia.py aroostook1838 2>&1 | grep -q Traceback && f "checagem_coerencia quebrou (erro de Python)"
+python3 suspeitas.py aroostook1838 2>&1 | grep -q Traceback && f "suspeitas.py quebrou (erro de Python)"
+grep -q "objeto CITADO na frase (o fogao)" mkvideo.py || f "objeto citado na frase vai para fora do quadro (fogao do Goodyear)"
+grep -q "morte/doenca nunca vira festa" mkvideo.py || f "cena de morte vira grande momento com multidao rindo (Curie)"
+grep -q "_sem_povo" mkvideo.py && grep -q "multidao so' se a frase fala de gente" mkvideo.py || f "grande momento automatico poe multidao em cena sem gente (Darwin)"
+grep -q "londres|paris" mkvideo.py || f "historia em cidade grande (Londres) perde a rua e vira campo/montanha (Fleming)"
+grep -q "_banho" mkvideo.py && grep -q "transbordou|transbordaram" mkvideo.py || f "entrar na banheira/agua transbordando nao aparece (Arquimedes)"
+grep -q "storyboard.cenas" make_video.sh && grep -q "nenhuma cena" aprovar_storyboard.sh || f "storyboard aprovado fica \"versao ANTIGA\" so' porque a ferramenta mudou (sessao A)"
+grep -q "_shot_autor" enquadrar.py || f "enquadrar desfaz shot/who que o roteiro mudou (sessao A)"
+python3 -c "
+import encenacao as E
+B={'beats':[{'say':'ele entrou na banheira e a agua transbordou','who':['ARQ:0:shock'],'encena':{'sentido':'afirmativa','passos':[{'quem':0,'faz':'entra_em','alvo':'kit/bathtub','na':'entrou'},{'alvo':'kit/bathtub','faz':'transborda','na':'transbordou'}]}},{'say':'nenhum soldado deu um tiro','encena':{'sentido':'negativa','passos':[]}},{'say':'sem leitura'},{'say':'ele voou','encena':{'sentido':'afirmativa','passos':[{'quem':0,'faz':'levita','na':'voou'}]}}]}
+R=E.validar(B); E.aplicar(B, lambda n:[0.0]*n, [1.3])
+ok = any('SEM LEITURA' in m for i,m in R) and any('FALTA ANIMACAO' in m for i,m in R) and B['beats'][1]['tiros'] is False and any(a['tipo']=='senta' for a in B['beats'][0]['acoes']) and B['beats'][0]['_splash_na']
+raise SystemExit(0 if ok else 1)" || f "encenacao escrita (sentido + passos) nao funciona"
+grep -q "encenacao.py rascunho" make_video.sh && grep -q "encenacao.py conferir" aprovar_storyboard.sh && python3 -c "import sentido as S; raise SystemExit(0 if [S.classificar(x) for x in ['Nenhum soldado deu um tiro.','Os soldados atiraram.','Eles quase entraram em guerra.','Foi uma guerra de precos.']]==['negativa','afirmativa','hipotese','figurada'] else 1)" && grep -q "_ENC.aplicar" mkvideo.py && grep -q "FALTA A LEITURA ESCRITA" aprovar_storyboard.sh || f "encenacao escrita nao esta ligada no motor/aprovacao"
+grep -q "_negm" suspeitas.py || f "suspeitas acusa multidao em frase negada (nao foram pessoas)"
+grep -q "_NAV_PROPRIO" mkvideo.py || f "navio padrao do porto aparece junto com o navio da historia (Zanzibar)"
+python3 -c "
+import encenacao as E
+B={'beats':[{'say':'bicos grossos para quebrar sementes','who':['DAR:0'],'props':[['kit/finch_thick',0,-1,1.5,{}]],'encena':{'sentido':'fato','passos':[{'faz':'quebra','alvo':'kit/finch_thick','na':'quebrar'}]}}]}
+E.aplicar(B, lambda n:[0.0]*n, [1.3]); b=B['beats'][0]
+raise SystemExit(0 if b.get('_obj_faz')==[['quebrar','kit/finch_thick','quebra']] and not b.get('acoes') else 1)" && grep -q "_obj_faz" mkvideo.py || f "acao do OBJETO (bico quebra a semente) vira FALTA ou vira acao de personagem (Darwin)"
+[ -f comparar_modelo.py ] && grep -q "comparativo_ok.md" aprovar_storyboard.sh && grep -q "REMODELAR" aprovar_storyboard.sh || f "pesquisa nao vira modelo: falta o comparativo referencia x modelo 3D (banheira do Arquimedes)"
+grep -q ' antigo" "$d/cenas.txt"' limpar_disco.sh && grep -q "reconstituindo antigo" reconstituir.py || f "limpeza de disco apaga o ckpt reconstituido de video em refacao (Arquimedes)"
+python3 - <<'Q' || f "mkvideo.py com erro de Python (variavel apagada por comentario)"
+import ast; ast.parse(open('mkvideo.py').read()); s=open('mkvideo.py').read(); raise SystemExit(0 if '_quer_t = {' in s and s.index('_quer_t = {') < s.index('e_[2] in _quer_t') else 1)
+Q
+grep -q "'kit/coroa_louros' if m_ == 'kit/crown'" mkvideo.py && grep -q 'o.hat === "laurel"' web/toon.js && grep -q "ANO < 500 and _of_.get('hat') == 'crown'" mkvideo.py || f "rei da Antiguidade com coroa de pontas medieval (Hierao, Arquimedes)"
+python3 -c "
+import re; w=open('web/toon.js').read(); assert w.count('/*ADITIVO*/')==w.count('/*FIM ADITIVO*/')
+assert 'ADITIVO' in open('cenas_hash.py').read()" || f "codigo ADITIVO do motor (hat novo) derruba o render de todos os videos"
+grep -q "_dmax = round(max(5.5, 7.3" mkvideo.py || f "camera de cena interna fica fora da sala (parede borrada tapando metade da tela, Arquimedes)"
+grep -q "_ERA_TROCA" mkvideo.py && grep -q "kit/bola_couro" mkvideo.py && grep -q "retrato/paisagem nao e' referencia de OBJETO" comparar_modelo.py && grep -q "o que VAI PARA A TELA manda" comparar_modelo.py || f "objeto fora de epoca escrito no roteiro (bola moderna em 1890, coroa medieval) ou comparativo olhando o roteiro cru (Goodyear)"
+grep -q "git fetch -q --depth=1" limpar_disco.sh || f "historico do git (commits ckpt) enche o disco e para a fila"
+grep -q "quadro_manual (o roteiro fixou o quadro)" autocorrigir_visibilidade.py || f "autocorrecao de visibilidade desfaz o quadro_manual do roteiro (Goodyear)"
+grep -q "LENTE MAIS ABERTA na mesma proporcao" mkvideo.py || f "camera presa dentro da sala corta personagem na borda (Curie)"
+grep -q "light not in ('night', 'dusk', 'study_dark'): light = 'overcast'" mkvideo.py && grep -q "'overcast', 'noon', 'storm'" verificar_execucao.py || f "galpao a noite sai nublado e trava o video (Curie)"
+grep -q "FILMAGEM CONTINUA: o mkvideo juntou a cena solta" verificar_execucao.py || f "cena solta juntada ao lugar das vizinhas trava a verificacao de execucao"
+python3 -c "
+import re; s=open('suspeitas.py').read(); R=eval(re.search(r\"^MUITA = (r'.*')\",s,re.M).group(1)); raise SystemExit(0 if not re.search(R,'repetiu os testes centenas de vezes') and re.search(R,'centenas de pessoas') else 1)" || f "'centenas de vezes' vira multidao de clones (Abelhas)"
+grep -q "veiculo que ANIMA (sem 'fixo' no roteiro" enquadrar.py && grep -q "3o objeto grande nao empilha" enquadrar.py || f "enquadrar marca o carro que voa como 'fixo' (mata a animacao) e empilha objetos (Roadster)"
+grep -q "placa de ano" checagem_coerencia.py || f "placa com o ano na cena do gancho passa (Tulipas, Goodyear)"
+grep -q "maçã' sem acento vira 'maca' de hospital" mkvideo.py && grep -q "celular', _sy_) and (ANO or _ANO0 or 2024) >= 2007" mkvideo.py || f "maçã vira hospital (Newton) / foto em 1895 vira celular (Rontgen)"
+grep -q "e.k === 'raio'" web/runtime.js && grep -q "k: 'raio'" mkvideo.py || f "historia de raio/tempestade sem relampago na tela (Franklin)"
+grep -q "WX.hail = w.hail" web/weather.js && grep -q "gustMesh" web/weather.js && grep -q "'granizo': {'hail'" mkvideo.py && grep -q "'gelo': {'ice'" mkvideo.py && grep -q "TEMPESTADE: relampago no ceu de tempo em tempo" mkvideo.py || f "clima incompleto: granizo, gelo, vento forte visivel, relampago na tempestade"
+python3 -c "
+import glob,re
+bad=[f for f in glob.glob('web/*.js')+glob.glob('web/sets/*.js') if not f.endswith(('story.js','main.js','toon.js')) and re.search(r'/\*FIM ADITIVO\*/\n(?!\s*\S)|\n[ \t]+/\*FIM ADITIVO\*/[ \t]+\S', open(f).read())]
+raise SystemExit(1 if bad else 0)" || f "marca ADITIVO com espaco/linha a mais muda o hash global (todos os videos re-renderizariam)"
+grep -q "'raio X', 'raio misterioso', 'em forma de raio', 'como um trovao' NAO sao relampago" mkvideo.py || f "raio X / em forma de raio / como um trovao viram relampago (Rontgen, Teslaquila)"
+grep -q "'grafico'" web/runtime.js && grep -q "GRAFICO DE LINHA (preco subindo/despencando)" mkvideo.py || f "sem grafico de preco subindo/caindo na tela (Bitcoin)"
+grep -q "sem povo no roteiro, a multidao so' clonaria o Musk" mkvideo.py && grep -q "NUNCA vira multidao de clones, nem quando o roteiro" mkvideo.py || f "multidao de clones do personagem principal (Bateria/Musk)"
+grep -q "TIMING_SRC" mk_lingua.sh || f "versao em outra lingua troca de cena antes da frase (tempos da voz nova no lugar da original)"
+grep -q "roteiros/folhas da sessao preservados" sync_ferramenta.sh || f "sync da sessao sobrescreve o beats.json que a sessao editou (sessao B perdeu 6 roteiros)"
+grep -q "o mesmo objeto JA NO AR e parado" mkvideo.py || f "balao do cerco (no ar) + balao de festa gigante no chao na mesma cena (Paris b9)"
+grep -q "petri_mofo" mkvideo.py && grep -q "tampa=False" blender/objetos_refeitos.py || f "placa de Petri saia como disco branco fechado; mofo/bolor sem a placa com mofo (Fleming)"
+grep -q 'M=$(realpath "$3")' frase_a_frase.sh || f "frase_a_frase com caminho relativo do mp4 quebrava (cd para a raiz)"
+grep -q "corrida com commit da sessao" sync_ferramenta.sh || f "sync restaurava beats.json ANTIGO por cima de commit novo da sessao (mendel, B)"
+grep -q "GRANDE na chamada final/close vai para o fundo" mkvideo.py || f "objeto heroi grande (balao) gigante e cortado na chamada final (Montgolfier)"
+grep -q "(r'finch|passarinho|tentilh', 0.6, 'H', 'max')" mkvideo.py || f "passarinho (tentilhao) maior que o Darwin: limite de tamanho real de ave pequena"
+grep -q "(r'(^|/)apple\$', 0.3, 'H', 'max')" mkvideo.py || f "maca maior que o Newton (tamanho real de fruta)"
+grep -q "vai PARA CIMA do tampo" mkvideo.py || f "placa de Petri/passaro embaixo da bancada (y menor que o tampo)"
+grep -q "petri_mofo ja em cena = nao poe outra placa" mkvideo.py || f "variante do objeto ja em cena (petri_mofo) + objeto base duplicado no chao"
+grep -q "objeto EM CIMA da mesa/bancada" enquadrar.py || f "enquadrar separava a bancada do objeto em cima dela (Darwin)"
+grep -q "nao vira o grande momento com multidao (tapava o submarino)" mkvideo.py || f "grande momento automatico punha multidao em cena com crowd 0 / quadro_manual (LA)"
+grep -q "todo mundo achava que vinha mais. e. opiniao" mkvideo.py || f "todo mundo achava (opiniao) virava multidao lotada tapando o submarino (LA)"
+grep -q "celular antes de 2007 = camera de tripe" mkvideo.py && grep -q "(ANO or _ANO0 or 2024) >= 2007" mkvideo.py || f "celular na mao em 1895 (fotografou) - Rontgen B"
+grep -q "cachorro com raiva' e' a DOENCA" mkvideo.py || f "raiva (doenca) virava close de emocao e o 2o personagem sumia (Pasteur, B)"
+grep -q "bmosteiro" mkvideo.py || f "mosteiro/convento sem igreja no cenario (Mendel)"
+grep -q "(r'lobster|lagosta', 1.4, 'L', 'max')" mkvideo.py || f "lagosta maior que o pescador (tamanho real)"
+python3 -c "
+src=open('mkvideo.py').read(); import re; exec(src[src.index('_BAND_PAIS'):src.index('def _sem_modelo')])
+assert _band_pais('fincaram a bandeira do Canada') == 'kit/bandeira_canada' and _band_pais('os dinamarqueses arrancaram a bandeira e puseram a deles') == 'kit/bandeira_dinamarca'" 2>/dev/null && [ -s web/assets/library/kit/bandeira_canada.glb ] || f "bandeira do pais citado (Uisque: pano listrado generico no lugar da bandeira do Canada/Dinamarca)"
+grep -q "Melancia: multidao com figurino 'POV'" mkvideo.py || f "multidao com figurino POV nao definido derrubava o video (Melancia)"
+grep -q "Uisque: mastro posto 'ao lado'" enquadrar.py || f "bandeira no mastro tapando o rosto do personagem (Uisque)"
+grep -q "Selfie na ONU: o set 'hall'" mkvideo.py || f "ONU/plenario a ceu aberto (set hall sem teto)"
+grep -qF "'smartphone|kit/phone" mkvideo.py || f "celular gigante do tamanho de uma pessoa (Selfie na ONU)"
+grep -qF "1 if any(float(m_.get(k_, 0)) % 1 for k_ in ('de', 'para')) else 0" mkvideo.py || f "contador com valor quebrado (1,5 bi) arredondava para 2 (PayPal)"
+grep -q "PayPal: personagem SOZINHO fica no centro e a placa" mkvideo.py || f "placa atras da cabeca do personagem sozinho (PayPal)"
+python3 estrutura_viral.py scilly1651 >/dev/null || f "estrutura viral: o piloto Scilly tem que passar no estrutura_viral.py"
+grep -q "roteiro FORA da estrutura viral" mkvideo.py || f "roteiro antigo (fora da estrutura viral) passaria para o render"
+grep -q "_VIRAL and B.get('beats')" mkvideo.py || f "estrutura viral: loop visual (ultima cena = primeira) e sem chamada falada"
+grep -q "Galileu: antes de 1950 a bola vira de couro" mkvideo.py || f "heroi kit/ball antes de 1950 sumia (troca para bola de couro)"
+grep -q "str(B.get('rate'))" make_video.sh || f "mudar so' a velocidade da voz nao refazia a voz"
+grep -q "Lagosta: roteiro curto sem acao catalogada" prechecar.sh || f "grade de acoes vazia quebrava a fila (Lagosta)"
+grep -q "CAMERA QUE RESPIRA" web/runtime.js || f "camera parada: tem que abrir e fechar acompanhando a cena"
+grep -q "so' corta seco quando o cenario muda" mkvideo.py || f "troca de cenario precisa de corte seco"
+grep -q "FILMAGEM CONTINUA -- mesmo cenario" mkvideo.py || f "filmagem continua: no mesmo cenario a camera desliza, corte so' na troca de cenario"
+grep -q "FILMAGEM CONTINUA (Gibson): cena solta" mkvideo.py || f "filmagem continua: cena solta A B A sem lugar citado volta para A"
+grep -q "glide: o.glide" stories/_h.js || f "cabecalho descarta glide: a camera nao desliza entre cenas do mesmo cenario"
+grep -q "FILMAGEM CONTINUA: o navio/barco grande do fundo" mkvideo.py || f "filmagem continua: navio do fundo some no meio do movimento"
+grep -q "o LOOP repete a 1a cena com a MESMA luz" mkvideo.py || f "loop vira noite sozinho (Lagosta)"
+grep -q "convidad|plateia|publico|multidao|torcida|espectador|curiosos', _t)) else {'n': 0" mkvideo.py || f "carro voa na frente dos convidados e os convidados somem (Roadster)"
+grep -q "FOGO ANTIAEREO = estouros no CEU" mkvideo.py || f "fogo antiaereo sem estouros no ceu (Los Angeles 1942)"
+grep -q "pausa entre frases fica curta" produce_voice.sh || f "voz da estrutura viral com pausas longas estoura 36 s"
+grep -q "close com quadro_manual (d0 5) virava panoramica" mkvideo.py || f "close do roteiro vira panoramica com camera dentro da fila (Hayha)"
+grep -q "Kiska: 'no nevoeiro' na ilha gelada" mkvideo.py || f "filmagem continua juntava cena de neblina/neve com a praia (Kiska)"
+grep -q "Kekule: 'tat' do roteiro antigo" mkvideo.py || f "texto da cena caindo depois da cena (tat maior que a frase)"
+grep -q "Melancia: o LOOP repete tambem o close" mkvideo.py || f "loop sem o close do objeto da 1a cena (Melancia)"
+grep -q 'teslaquila"' obj_dict.d/principal.json || f "garrafa qualquer virava a garrafa-raio da Teslaquila (Uisque)"
+grep -q "'storm', 'arctic', 'desert')" verificar_execucao.py || f "dia de neve (luz arctic) travava a verificacao (Curie)"
+grep -q "LEITURA x TELA AUTOMATICA" mkvideo.py || f "passo da leitura nao executado devolvia o storyboard (forcar manual)"
+grep -q "camera perto do objeto = rotulo menor" web/runtime.js || f "rotulo da explicacao saindo cortado no alto da tela (Abelhas)"
+grep -q "Selfie: o LOOP copia o cenario da 1a cena" verificar_execucao.py || f "verificacao cobrava o cenario antigo do loop (Selfie)"
+grep -q "piso 'tremendo' = manchas de luz" web/sets/loc.js || f "piso da pista tremendo a noite (z-fighting, Roadster)"
+grep -q "BLOCOS DE CENARIO" mkvideo.py || f "filmagem continua: cenario trocando a cada cena (blocos de 3+)"
+grep -q "a volta do detalhe (camera saindo do objeto) era reprovada no gate" qa_takes.mjs || f "gate reprovava a volta do detalhe (Bolos/Chaleira)"
+grep -q "som que nao existe ('boing') derrubava o audio" mkvideo.py || f "sfx inexistente derruba o audio do video"
+# ---- marca de pronto: so' vale a da v13 (DONE vazio de versao antiga = refazer) ----
+grep -q 'grep -q "^motor v13" stories/$id/DONE' run_queue.sh && grep -q 'echo "motor v13' make_video.sh || f "DONE antigo faria a fila pular video que precisa ser refeito na v13"
 [ $ok = 0 ] && echo "TESTE DA FERRAMENTA: OK" || { echo "TESTE DA FERRAMENTA: FALHOU"; exit 1; }

@@ -1,0 +1,90 @@
+{
+ "gancho_tipo": "segredo",
+ "texto_gancho": "VOCÊ ESTÁ DEMITIDO!",
+ "gancho_cumprido": "Gancho: duas palavras deixaram Trump famoso no mundo, e foi na televisao. Pagamento: no programa O Aprendiz ele apontava e dizia 'voce esta demitido'; a final teve 28 milhoes de espectadores.",
+ "cenas": [
+  [
+   0,
+   "gancho",
+   "Duas palavras deixaram Donald Trump famoso no mundo inteiro.",
+   "palavras",
+   {}
+  ],
+  [
+   5,
+   "promessa",
+   "E não foi na política. Foi na televisão.",
+   "política",
+   {
+    "text": null
+   }
+  ],
+  [
+   1,
+   "prova",
+   "Em 2004, estreou o programa O Aprendiz.",
+   "estreou",
+   {}
+  ],
+  [
+   2,
+   "prova",
+   "Candidatos disputavam um emprego numa empresa dele.",
+   "disputavam",
+   {}
+  ],
+  [
+   4,
+   "prova",
+   "A equipe que perdia ia para a sala de reunião.",
+   "perdia",
+   {
+    "encena": {
+     "sentido": "afirmativa",
+     "passos": [
+      {
+       "faz": "perde",
+       "na": "perdia",
+       "quem": 1
+      }
+     ]
+    }
+   }
+  ],
+  [
+   5,
+   "escalada",
+   "Acontece que ali Trump apontava o dedo e dizia: você está demitido.",
+   "demitido",
+   {}
+  ],
+  [
+   6,
+   "escalada",
+   "A final teve uns vinte e oito milhões de espectadores.",
+   "milhões",
+   {}
+  ],
+  [
+   8,
+   "escalada",
+   "No Brasil, a versão teve Roberto Justus.",
+   "Justus",
+   {}
+  ],
+  [
+   9,
+   "pagamento",
+   "Ele apresentou o programa por mais de dez anos.",
+   "apresentou",
+   {}
+  ],
+  [
+   0,
+   "loop",
+   "Virou a marca dele. E foi assim que...",
+   "Virou",
+   {}
+  ]
+ ]
+}

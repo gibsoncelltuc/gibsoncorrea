@@ -9,7 +9,7 @@ _SRC = open('mkvideo.py').read(); _ns = {}
 for _nm in ('LUGARES',):
     _i = _SRC.index(_nm + ' = ['); _j = _SRC.index('\n]', _i) + 2; exec(_SRC[_i:_j], {'re': re}, _ns)
 LUGARES = _ns['LUGARES']
-LUZ = {'noite': ('night', 'study_dark', 'space'), 'espaco': ('space',), 'amanhecer': ('dawn',), 'pordosol': ('dusk',), 'tarde': ('golden',), 'dia': ('day', 'golden', 'study')}
+LUZ = {'noite': ('night', 'study_dark', 'space'), 'espaco': ('space',), 'amanhecer': ('dawn',), 'pordosol': ('dusk',), 'tarde': ('golden',), 'dia': ('day', 'golden', 'study', 'overcast', 'noon', 'storm', 'arctic', 'desert')}   # 25/11: dia nublado/chuva/galpao de luz branca tambem e' dia
 
 def verifica(i):
     sp = f'stories/{i}/spec.js'; f3 = f'stories/{i}/folha3_acao.md'
@@ -40,10 +40,20 @@ def verifica(i):
     for k, b in enumerate(B['beats']):
         cs = cenas.get(f'b{k}', [])
         if not cs: continue
+        if B.get('gancho_tipo') and b.get('bloco') == 'loop' and k == len(B['beats']) - 1:   # 25/11 Selfie: o LOOP copia o cenario da 1a cena (mkvideo); confere contra ela
+            b = {**b}; b.pop('set', None); b.pop('interior', None); b.update({k2: B['beats'][0][k2] for k2 in ('set', 'interior') if k2 in B['beats'][0]})
+        try: _rl = json.load(open(f'stories/{i}/orquestracao.json'))['cenas'][k]['cenario']
+        except Exception: _rl = None
+        if b.get('interior') and _rl and not _rl.startswith('interior'):   # 25/11 FILMAGEM CONTINUA: o mkvideo juntou a cena solta ao lugar das vizinhas; vale o cenario real da orquestracao
+            b = {**b, 'set': _rl}; b.pop('interior')
         if b.get('interior'):
             ctot += 1; (cok := cok + 1) if any(x == 'X_hall' for x, _ in cs) else cfal.append(f'b{k} interior')
         elif b.get('set'):
-            ctot += 1; alvo = 'X' if b['set'] == SET0 else f"X_{b['set']}"
+            # v13: o cenario REAL da cena vem da orquestracao (o mkvideo troca cenario tematico fora de lugar por locacao limpa; comparar com o beats.json dava falso alarme)
+            try:
+                _o = json.load(open(f'stories/{i}/orquestracao.json')); _real = _o['cenas'][k]['cenario']; _m = re.search(r'setx: \{ (\w+): X', S); _base = _m.group(1) if _m else SET0
+                alvo = 'X' if _real == _base else f"X_{_real}"
+            except Exception: alvo = 'X' if b['set'] == SET0 else f"X_{b['set']}"
             (cok := cok + 1) if any(x == alvo for x, _ in cs) else cfal.append(f"b{k} set {b['set']} (veio {cs[0][0]})")
         say_ = re.sub(r'[^a-z0-9 ]', '', unicodedata.normalize('NFKD', b['say'].lower()).encode('ascii', 'ignore').decode())
         if not b.get('interior') and b.get('objetos') is not False and not b.get('veiculo'):   # LUGAR CITADO na narracao (fazenda, igreja, floresta, castelo...) -> cenografia do lugar na cena

@@ -40,6 +40,37 @@ def commons(q, n=3):   # busca de imagens do Wikimedia Commons (pagina de busca;
         idx = re.search(r'"index":(\d+)', blk); sn = re.search(r'"snippet":"([^"]{0,300})', blk)
         res.append({'titulo': tit.replace('File:', ''), 'thumb': thumb, 'pagina': 'https://commons.wikimedia.org/wiki/' + urllib.parse.quote(tit.replace(' ', '_')), 'descricao': re.sub(r'\\u003C[^>]*?\\u003E|<[^>]+>', '', sn.group(1))[:200] if sn else '', 'ordem': int(idx.group(1)) if idx else 99})
     return sorted(res, key=lambda x: x['ordem'])[:n]
+# PRINT ERRADO SE DESCARTA (24/11): quem confere o quadro escreve em referencias/<id>/prints_ruins.txt o nome do arquivo (ou um pedaco do titulo) de cada
+# print que nao tem nada a ver; ao rodar de novo, a pesquisa pula esses e pega o proximo resultado.
+RUINS = [l.strip().lower() for l in open(f'{D}/prints_ruins.txt', encoding='utf-8')] if os.path.exists(f'{D}/prints_ruins.txt') else []
+RUINS = [r for r in RUINS if r and not r.startswith('#')]
+ruim = lambda titulo, arq='': any(r in titulo.lower() or (arq and r in os.path.basename(arq).lower()) for r in RUINS)
+# CONSULTA EM INGLES AUTOMATICA (24/11: Goodyear e Abelhas travaram porque a busca em portugues nao acha nada no Commons):
+# traduz palavra por palavra as palavras comuns; nomes proprios ficam como estao; o resto (artigos, preposicoes) sai.
+PT_EN = dict(x.split(':') for x in ('abelha:bee abelhas:bees colmeia:beehive colmeias:beehives mel:honey flor:flower flores:flowers jardim:garden casa:house casas:houses '
+  'verao:summer inverno:winter lago:lake rio:river mar:sea praia:beach porto:harbor cais:pier navio:ship navios:ships barco:boat barcos:boats trem:train estacao:station '
+  'cientista:scientist cientistas:scientists colegas:colleagues laboratorio:laboratory microscopio:microscope vidro:glass madeira:wooden ferro:iron pedra:stone '
+  'fogao:stove panela:pot panelas:pots cozinha:kitchen prisao:prison guarda:guard guardas:guards soldado:soldier soldados:soldiers tropa:troops exercito:army '
+  'rei:king rainha:queen castelo:castle forte:fort igreja:church cidade:town vila:village rua:street mercado:market barraca:stall fazenda:farm campo:field '
+  'montanha:mountain montanhas:mountains alpes:alps floresta:forest selva:jungle deserto:desert gelo:ice neve:snow ilha:island ponte:bridge fabrica:factory fabricas:factories '
+  'roupa:clothing roupas:clothing vestido:dress chapeu:hat farda:uniform uniforme:uniform pescador:fisherman pescadores:fishermen lagosta:lobster melancia:watermelon '
+  'borracha:rubber pneu:tire pneus:tires bola:ball bolas:balls carro:car caminhao:truck aviao:airplane avioes:airplanes balao:balloon foguete:rocket canhao:cannon '
+  'espada:sword fuzil:rifle pistola:pistol bandeira:flag mapa:map carta:letter jornal:newspaper jornais:newspapers livro:book caderno:notebook cadernos:notebooks '
+  'caixa:box caixas:boxes chumbo:lead garrafa:bottle uisque:whisky vinho:wine cerveja:beer pao:bread queijo:cheese bolo:cake porco:pig cavalo:horse vaca:cow '
+  'galinha:chicken ganso:goose gansos:geese cachorro:dog gato:cat urso:bear emu:emu tulipa:tulip tulipas:tulips bulbo:bulb bulbos:bulbs comerciante:merchant '
+  'comerciantes:merchants inventor:inventor presidente:president governador:governor marinheiro:sailor marinheiros:sailors policia:police tribunal:courtroom juiz:judge '
+  'escola:school professor:teacher medico:doctor hospital:hospital doente:patient remedio:medicine mofo:mold placa:plate danca:dance dancam:dance mapa:map sol:sun '
+  'banheira:bathtub banheiras:bathtubs tina:tub coroa:crown coroas:crowns louro:laurel louros:laurel ouro:gold prata:silver balanca:scale ourives:goldsmith rei:king rainha:queen trono:throne papiro:papyrus vara:stick poco:well fogao:stove panela:pot microscopio:microscope prato:dish frasco:flask frascos:flasks garrafa:bottle cesta:basket barril:barrel canivete:penknife martelo:hammer serrote:saw lanterna:lantern vela:candle relogio:clock telefone:telephone celular:smartphone computador:computer maquina:machine motor:engine turbina:turbine satelite:satellite submarino:submarine tanque:tank navio:ship navios:ships barco:boat barcos:boats frota:fleet cofre:safe moeda:coin moedas:coins nota:banknote dinheiro:money bife:steak carne:meat elefante:elephant elefantes:elephants rato:rat ratos:rats colmeia:beehive abelha:bee abelhas:bees ervilha:pea ervilhas:peas maca:apple pipa:kite chave:key raio:lightning seringa:syringe bacia:basin pena:feather torre:tower castelo:castle templo:temple igreja:church '
+  'noite:night antigo:antique antiga:antique quente:hot crua:raw cru:raw seculo:century epoca:period').split())
+def ingles(q):
+    import unicodedata
+    ws = []
+    for w in re.findall(r"[\w']+", q):
+        k = unicodedata.normalize('NFD', w.lower()).encode('ascii', 'ignore').decode()
+        if k in PT_EN: ws.append(PT_EN[k])
+        elif w[:1].isupper() and len(w) > 2 and k not in ('era', 'uma', 'um', 'os', 'as', 'que', 'em', 'de', 'do', 'da'): ws.append(w)
+        elif re.match(r'^1[5-9]\d\d$', w): ws.append(w)
+    return ' '.join(dict.fromkeys(ws))
 out = {'id': ID, 'itens': []}
 for it in plano['itens']:
     achados = []
@@ -47,9 +78,17 @@ for it in plano['itens']:
     for q in it['consultas']:   # consultas de reserva, cada vez mais simples: so' os nomes proprios; as 3 primeiras palavras fortes; as 2 primeiras
         prop = ' '.join(re.findall(r'\b[A-Z][\w]+', q)); fortes = [w for w in re.findall(r'[\w]{4,}', q) if w.lower() not in ('para', 'como', 'sobre', 'entre', 'estilo', 'grupo', 'branco', 'soltando', 'embaixo')]
         qs += [x for x in ((prop,) if it['tipo'] in ('tema', 'mecanismo', 'epoca') else (prop, ' '.join(fortes[:3]), ' '.join(fortes[:2]))) if x and len(x) > 3 and len(x.split()) >= (2 if it['tipo'] in ('tema', 'mecanismo') else 1)]   # tema e mecanismo: so' nomes proprios (busca solta traz imagem que nao tem nada a ver)
-    for q in list(dict.fromkeys(qs))[:6]:
-        for r_ in commons(q, 3 - len(achados)):
+    qs = [ingles(q) for q in it['consultas'] if len(ingles(q).split()) >= 1] + qs   # 25/11: INGLES PRIMEIRO (o Commons e' quase todo em ingles; em portugues voltava lixo)
+    for q in list(dict.fromkeys([q for q in qs if q.strip()]))[:8]:
+        for r_ in commons(q, 3 - len(achados) + 6):
+            if len(achados) >= 3: break
             fn = f"{D}/prints/{re.sub(r'[^a-z0-9]+', '_', it['item'].lower())[:40]}_{hashlib.md5(r_['thumb'].encode()).hexdigest()[:6]}.jpg"
+            _tk = {w[:5] for w in re.findall(r'[a-z]{4,}', (q + ' ' + ingles(q) + ' ' + it['item']).lower()) if w not in ('para', 'como', 'sobre', 'entre', 'with', 'from', 'that', 'this', 'estilo', 'grupo', 'epoca', 'antigo', 'antiga', 'ancient')}
+            _txr = (r_['titulo'] + ' ' + r_.get('descricao', '')).lower()
+            if _tk and not any(t_ in _txr for t_ in _tk): continue   # 25/11 (Arquimedes: "banheira"/"coroa" trouxeram LEOES): o resultado tem que falar do item buscado
+            if ruim(r_['titulo'], fn):
+                if os.path.exists(fn): os.remove(fn)
+                continue
             if os.path.exists(fn) or get(r_['thumb'], fn): achados.append({**r_, 'print': fn, 'consulta': q})
         if len(achados) >= 2: break
     out['itens'].append({**it, 'achados': achados}); print(f"{'ok ' if achados else 'SEM'} {it['tipo']:10s} {it['item'][:50]:50s} {len(achados)} referencia(s)")

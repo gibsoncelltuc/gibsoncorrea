@@ -21,7 +21,8 @@ while true; do
   NEXT=""; ESPERA=0
   while read -r id _; do
     case "$id" in ""|\#*) continue;; esac
-    [ -f stories/$id/DONE ] && continue
+    case "$(git rev-parse --abbrev-ref HEAD 2>/dev/null)" in claude/prod-a*) grep -qx "$id" fila_sessao_A.txt || continue;; claude/prod-b*) grep -qx "$id" fila_sessao_B.txt || continue;; *) grep -qx "$id" fila_principal.txt || continue;; esac   # so' a fila DESTA sessao (nunca duplicar video de outra sessao)
+    [ -f stories/$id/DONE ] && grep -q "^motor v13" stories/$id/DONE && continue   # DONE antigo (vazio, de antes da v13) NAO conta: o video e' refeito
     [ -f stories/$id/SKIP ] && continue   # reprovou 2x no gate: precisa de ajuste no roteiro/cena (veja logs/gate_<id>.txt); apague SKIP para tentar de novo
     [ -f stories/$id/AGUARDA_STORYBOARD ] && { ESPERA=1; continue; }   # storyboard pronto esperando aprovacao: a fila segue com o proximo
     NEXT=$id; break

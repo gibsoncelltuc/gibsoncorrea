@@ -3,7 +3,9 @@
 cd "$(dirname "$0")"; mkdir -p logs
 {
   echo "$(date +%T) boot"
-  [ -s queue.txt ] || { grep -v "^#" fila_principal.txt > queue.txt 2>/dev/null && echo "fila principal recriada de fila_principal.txt"; }   # 23/11: queue.txt nao vai para o git; num container novo a fila volta sozinha
+  BR_=$(git rev-parse --abbrev-ref HEAD 2>/dev/null); case "$BR_" in claude/prod-a*) FILA_=fila_sessao_A.txt;; claude/prod-b*) FILA_=fila_sessao_B.txt;; *) FILA_=fila_principal.txt;; esac   # cada sessao so' faz a PROPRIA fila (24/11: a sessao B reiniciou e pegou a fila da principal)
+  [ -s queue.txt ] && [ "$(cat logs/.fila_origem 2>/dev/null)" != "$FILA_" ] && { echo "queue.txt era de outra fila ($(cat logs/.fila_origem 2>/dev/null)): recriando de $FILA_"; : > queue.txt; }
+  [ -s queue.txt ] || { grep -v "^#" $FILA_ > queue.txt 2>/dev/null && echo "$FILA_" > logs/.fila_origem && echo "fila recriada de $FILA_"; }   # 23/11: queue.txt nao vai para o git; num container novo a fila volta sozinha
   C_=$(python3 -m certifi 2>/dev/null); [ -n "$C_" ] && [ -f /root/.ccr/ca-bundle.crt ] && ! grep -q "ccr-agent" "$C_" && { echo "# ccr-agent-proxy" >> "$C_"; cat /root/.ccr/ca-bundle.crt >> "$C_"; }   # 23/11: edge-tts (aiohttp) so confia no certifi -> sem isso a voz neural falha pelo proxy
   [ -e /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0 ] || apt-get install -y -q libegl1 libgl1-mesa-dri libgles2 >/dev/null 2>&1   # rasterizador rapido (llvmpipe)
   command -v espeak-ng >/dev/null || (apt-get install -y -q espeak-ng >/dev/null 2>&1 || (apt-get update -q >/dev/null 2>&1 && apt-get install -y -q espeak-ng >/dev/null 2>&1))

@@ -1,0 +1,64 @@
+{
+ "ese_internet": {
+  "cumprido": "Gancho: a internet do mundo cai amanha por um dia, e pedacos disso ja aconteceram. Pagamento: as quedas de 2021 e 2024, pagamento so em papel, hospitais na caneta e gente sem saber o que fazer com as maos.",
+  "says": [
+   "A internet do mundo inteiro cai amanhã, por um dia.",
+   "Parece impossível. Mas pedaços disso já aconteceram.",
+   "Em 2021, WhatsApp, Instagram e Facebook caíram por seis horas.",
+   "Em 2024, uma atualização com defeito travou oito milhões de computadores.",
+   "Sem internet, sem cartão: só dinheiro de papel.",
+   "Hospitais e bancos voltariam para a caneta.",
+   "O mais estranho? Não saber o que fazer com as mãos.",
+   "Gente conversando na rua, jogando bola, olhando para o céu.",
+   "E muita gente ia dormir melhor.",
+   "Você aguentaria? Agora imagina que..."
+  ]
+ },
+ "ese_napoleao": {
+  "gancho_tipo": "crenca",
+  "cumprido": "Gancho: Napoleao vence em Waterloo e a resposta dos historiadores surpreende. Pagamento: ele perdeu em 1815 e foi exilado; para muitos historiadores, com Russia e Austria marchando, a derrota viria igual.",
+  "says": [
+   "Napoleão ganha em Waterloo, e a Europa muda para sempre.",
+   "A resposta dos historiadores vai te surpreender.",
+   "Era 18 de junho de 1815, na Bélgica.",
+   "Napoleão tinha saído do exílio e retomado o poder.",
+   "Ele enfrentou os ingleses de Wellington. Canhões dispararam o dia todo.",
+   "No fim da tarde, os prussianos chegaram, e Napoleão perdeu.",
+   "Foi mandado para Santa Helena, uma ilha perdida no Atlântico.",
+   "Acontece que, para muitos historiadores, a derrota viria igual.",
+   "Rússia e Áustria já marchavam contra ele.",
+   "Um dia famoso nem sempre muda o destino. Mas imagina que..."
+  ]
+ },
+ "ese_pulo": {
+  "cumprido": "Gancho: todo mundo pula junto e a Terra nem se mexe; o problema seria outro. Pagamento: a Terra pesa trilhoes de vezes mais e mexeria menos que um atomo; o caos seria voltar para casa.",
+  "says": [
+   "Oito bilhões de pessoas pulam juntas, e a Terra nem sente.",
+   "Mas o problema de verdade seria outro.",
+   "Somos mais de oito bilhões de pessoas.",
+   "Juntas, pesamos mais de quinhentos milhões de toneladas.",
+   "Todo mundo conta até três, e pula!",
+   "Acontece que a Terra pesa trilhões de vezes mais que nós.",
+   "Ela se mexeria menos que a largura de um átomo.",
+   "Se todos se juntassem num lugar só, o caos seria a volta.",
+   "Bilhões de pessoas sem estrada, comida ou água para voltar.",
+   "Pode pular aí. Agora imagina que..."
+  ]
+ },
+ "ese_titanic": {
+  "gancho_tipo": "segredo",
+  "cumprido": "Gancho: o navio que nao podia afundar afundou na primeira viagem e isso deixou o mar mais seguro. Pagamento: botes so para metade, 1.500 mortos; dai veio o tratado de 1914 com bote para todos e a patrulha do gelo.",
+  "says": [
+   "O navio que não podia afundar foi ao fundo na primeira viagem.",
+   "E é por causa dele que o mar é mais seguro hoje.",
+   "O Titanic levava mais de duas mil pessoas.",
+   "Perto da meia-noite, o vigia gritou: iceberg à frente!",
+   "O gelo rasgou o casco por baixo da água.",
+   "Acontece que só havia botes para metade das pessoas.",
+   "Cerca de mil e quinhentas pessoas morreram.",
+   "Em 1914, veio a regra: bote para todos.",
+   "E criaram uma patrulha de icebergs.",
+   "Tudo mudou numa noite gelada. Foi quando..."
+  ]
+ }
+}
