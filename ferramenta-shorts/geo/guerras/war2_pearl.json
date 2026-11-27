@@ -1,0 +1,228 @@
+{
+ "id": "war2_pearl",
+ "title": "THE ATTACK THAT DRAGGED AMERICA INTO WW2",
+ "year": "DECEMBER 1941",
+ "sides": [
+  {
+   "name": "USA",
+   "flag": "us",
+   "cor": [
+    70,
+    140,
+    255
+   ]
+  },
+  {
+   "name": "JAPAN",
+   "flag": "jp",
+   "cor": [
+    235,
+    60,
+    60
+   ]
+  }
+ ],
+ "voz": "en-US-BrianMultilingualNeural",
+ "hook": "One Sunday morning, America got pulled into World War 2.",
+ "items": [
+  {
+   "say": "December 1941. Six Japanese carriers sail in total radio silence.",
+   "view": [
+    35,
+    175,
+    9000
+   ],
+   "hl": [
+    "JPN"
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "kb",
+     "side": 1,
+     "n": 6,
+     "from": [
+      43.5,
+      147.0
+     ],
+     "to": [
+      26.0,
+      -158.0
+     ],
+     "f0": 0,
+     "f1": 1
+    },
+    {
+     "type": "arrow",
+     "side": 1,
+     "from": [
+      43.5,
+      147.0
+     ],
+     "to": [
+      21.35,
+      -157.97
+     ],
+     "f0": 0.05,
+     "f1": 0.8
+    }
+   ]
+  },
+  {
+   "say": "Their target: Pearl Harbor, Hawaii.",
+   "view": [
+    22,
+    -159,
+    1800
+   ],
+   "pins": [
+    {
+     "ll": [
+      21.35,
+      -157.97
+     ],
+     "label": "PEARL HARBOR"
+    }
+   ]
+  },
+  {
+   "say": "Over three hundred planes launch at dawn.",
+   "view": [
+    24,
+    -158.2,
+    900
+   ],
+   "acts": [
+    {
+     "type": "planes",
+     "side": 1,
+     "n": 9,
+     "from": [
+      26.0,
+      -158.0
+     ],
+     "to": [
+      21.35,
+      -157.97
+     ],
+     "f0": 0,
+     "f1": 0.95
+    }
+   ]
+  },
+  {
+   "say": "Battleships explode, one after another.",
+   "view": [
+    21.36,
+    -157.97,
+    140
+   ],
+   "pins": [
+    {
+     "ll": [
+      21.35,
+      -157.97
+     ],
+     "label": "BATTLESHIP ROW"
+    }
+   ],
+   "acts": [
+    {
+     "type": "boom",
+     "at": [
+      21.364,
+      -157.955
+     ],
+     "f": 0.1
+    },
+    {
+     "type": "boom",
+     "at": [
+      21.362,
+      -157.965
+     ],
+     "f": 0.4
+    },
+    {
+     "type": "boom",
+     "at": [
+      21.358,
+      -157.972
+     ],
+     "f": 0.7
+    },
+    {
+     "type": "hud",
+     "value": 8,
+     "f": 0.75
+    }
+   ]
+  },
+  {
+   "say": "More than two thousand four hundred Americans die.",
+   "view": [
+    21.36,
+    -157.97,
+    300
+   ]
+  },
+  {
+   "say": "But the US carriers were out at sea. They survived.",
+   "view": [
+    22,
+    -160,
+    2500
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "us",
+     "side": 0,
+     "n": 3,
+     "from": [
+      19,
+      -165
+     ],
+     "to": [
+      20.5,
+      -161
+     ],
+     "f0": 0,
+     "f1": 1
+    }
+   ]
+  },
+  {
+   "say": "The next day, America declared war. Which battle should I map next?",
+   "view": [
+    30,
+    -170,
+    9500
+   ],
+   "hl": [
+    "JPN"
+   ],
+   "final": true
+  }
+ ],
+ "hud": {
+  "label": "US BATTLESHIPS HIT",
+  "total": 8
+ },
+ "placar": [
+  [
+   "USA: 2,403 KILLED",
+   0
+  ],
+  [
+   "US CARRIERS: SAFE",
+   0
+  ]
+ ],
+ "pergunta": "COMMENT: WHICH BATTLE SHOULD I SHOW NEXT?",
+ "hook_view": [
+  30,
+  -175,
+  14000
+ ]
+}

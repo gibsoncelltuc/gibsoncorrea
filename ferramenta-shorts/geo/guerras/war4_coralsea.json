@@ -1,0 +1,250 @@
+{
+ "id": "war4_coralsea",
+ "title": "THE BATTLE WHERE THE SHIPS NEVER SAW EACH OTHER",
+ "year": "MAY 1942",
+ "sides": [
+  {
+   "name": "USA",
+   "flag": "us",
+   "cor": [
+    70,
+    140,
+    255
+   ]
+  },
+  {
+   "name": "JAPAN",
+   "flag": "jp",
+   "cor": [
+    235,
+    60,
+    60
+   ]
+  }
+ ],
+ "voz": "en-US-BrianMultilingualNeural",
+ "hook": "The first sea battle in history where the ships never saw each other.",
+ "items": [
+  {
+   "say": "May 1942. Japan sends an invasion fleet south.",
+   "view": [
+    -8,
+    152,
+    4500
+   ],
+   "hl": [
+    "PNG"
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "j",
+     "side": 1,
+     "n": 3,
+     "from": [
+      -4.2,
+      152.2
+     ],
+     "to": [
+      -12.5,
+      156.5
+     ],
+     "f0": 0,
+     "f1": 1
+    },
+    {
+     "type": "arrow",
+     "side": 1,
+     "from": [
+      -4.2,
+      152.2
+     ],
+     "to": [
+      -9.44,
+      147.18
+     ],
+     "f0": 0.1,
+     "f1": 0.8
+    }
+   ]
+  },
+  {
+   "say": "The target: Port Moresby. The door to Australia.",
+   "view": [
+    -12,
+    148,
+    3500
+   ],
+   "hl": [
+    "AUS"
+   ],
+   "pins": [
+    {
+     "ll": [
+      -9.44,
+      147.18
+     ],
+     "label": "PORT MORESBY"
+    }
+   ]
+  },
+  {
+   "say": "Two American carriers race to stop them.",
+   "view": [
+    -14,
+    157,
+    2200
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "u",
+     "side": 0,
+     "n": 2,
+     "from": [
+      -20,
+      163
+     ],
+     "to": [
+      -15.5,
+      158.5
+     ],
+     "f0": 0,
+     "f1": 1
+    }
+   ]
+  },
+  {
+   "say": "The fleets stay a hundred miles apart. Only the planes fight.",
+   "view": [
+    -14,
+    157.5,
+    1300
+   ],
+   "acts": [
+    {
+     "type": "planes",
+     "side": 0,
+     "n": 6,
+     "from": [
+      -15.5,
+      158.5
+     ],
+     "to": [
+      -12.5,
+      156.5
+     ],
+     "f0": 0,
+     "f1": 0.9
+    },
+    {
+     "type": "planes",
+     "side": 1,
+     "n": 6,
+     "from": [
+      -12.5,
+      156.5
+     ],
+     "to": [
+      -15.5,
+      158.5
+     ],
+     "f0": 0.1,
+     "f1": 0.95
+    }
+   ]
+  },
+  {
+   "say": "A Japanese carrier sinks. Then the USS Lexington.",
+   "view": [
+    -14,
+    157.5,
+    1100
+   ],
+   "acts": [
+    {
+     "type": "boom",
+     "ship": [
+      "j",
+      0
+     ],
+     "f": 0.15
+    },
+    {
+     "type": "boom",
+     "ship": [
+      "u",
+      0
+     ],
+     "f": 0.6
+    },
+    {
+     "type": "hud",
+     "value": 1,
+     "f": 0.2
+    }
+   ]
+  },
+  {
+   "say": "But the invasion turns back. Australia is safe.",
+   "view": [
+    -12,
+    150,
+    4500
+   ],
+   "hl": [
+    "AUS"
+   ],
+   "acts": [
+    {
+     "type": "fleet",
+     "id": "j2",
+     "side": 1,
+     "n": 2,
+     "from": [
+      -12.5,
+      156.5
+     ],
+     "to": [
+      -4.2,
+      152.2
+     ],
+     "f0": 0,
+     "f1": 1
+    }
+   ]
+  },
+  {
+   "say": "A new kind of war had begun. Which battle should I map next?",
+   "view": [
+    -15,
+    152,
+    9000
+   ],
+   "hl": [
+    "AUS"
+   ],
+   "final": true
+  }
+ ],
+ "hud": {
+  "label": "JAPANESE CARRIERS SUNK",
+  "total": 1
+ },
+ "placar": [
+  [
+   "JAPAN: INVASION STOPPED",
+   1
+  ],
+  [
+   "USA: LOST USS LEXINGTON",
+   0
+  ]
+ ],
+ "pergunta": "COMMENT: WHICH BATTLE SHOULD I SHOW NEXT?",
+ "hook_view": [
+  -10,
+  150,
+  14000
+ ]
+}
