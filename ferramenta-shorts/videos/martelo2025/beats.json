@@ -71,7 +71,8 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel."
+   "say": "Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.",
+   "set": "mountain"
   },
   {
    "shot": "reveal",

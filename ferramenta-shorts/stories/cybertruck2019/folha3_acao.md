@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 11 - A Janela do Cybertruck
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 8 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 8 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 6.4s - 22 palavras - plano two
@@ -13,68 +13,69 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 2 | - | INTERACAO | aproxima-se | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | MAPA | CALIFÓRNIA | OK |
+| 5 | - | PLACA | CYBERTRUCK | OK |
 
 ## Cena b1 - 7.4s a 11.2s - 14 palavras - plano reveal
 > "Na apresentação, Musk disse que as janelas eram feitas de um vidro super resistente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| - | - | (frase de comentario) | personagens falando/gesticulando | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
-## Cena b2 - 12.6s a 17.6s - 16 palavras - plano two
-> "Para provar, o designer Franz von Holzhausen mandou uma esfera de aço voando contra a janela."
+## Cena b2 - 12.6s a 16.2s - 14 palavras - plano group
+> "Para provar, o designer Franz von Holzhausen jogou uma esfera de aço na janela."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | mandou (14.7s) | ACAO: fala | aponta explicando | OK |
-| 2 | voando (16.0s) | ACAO: voa | decola: poeira no chao, olha para cima | OK |
-| 3 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | reagir | OK |
+| 1 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
+| 2 | - | INTERACAO | avanca e o outro recua | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 17.7s a 21.6s - 11 palavras - plano crowd
+## Cena b3 - 17.4s a 20.1s - 11 palavras - plano crowd
 > "E o vidro rachou, ao vivo, na frente de todo mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (18.7s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 1 | rachou (18.0s) | ACAO: quebra | quebra + estouro + tremor | OK |
 | 2 | - | ATUACAO | reagir | OK |
 
-## Cena b4 - 21.9s a 26.3s - 11 palavras - plano two
+## Cena b4 - 21.3s a 24.3s - 11 palavras - plano group
 > "Ele tentou de novo, em outra janela, e ela também rachou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | rachou (26.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
-| 2 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
-| 3 | - | INTERACAO | o outro se aproxima | OK |
-| 4 | - | ATUACAO | reagir | OK |
+| 1 | tentou (21.6s) | ACAO: g_tentou | g_tentou | OK |
+| 2 | rachou (24.3s) | ACAO: quebra | quebra + estouro + tremor | OK |
+| 3 | - | CENA | voa: steel_ball sai da mao e voa ate o alvo + som | OK |
+| 4 | - | INTERACAO | o outro se aproxima | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 26.5s a 32.9s - 19 palavras - plano close
+## Cena b5 - 25.5s a 31.5s - 19 palavras - plano close
 > "Depois, Musk explicou na internet que, nos ensaios, a mesma esfera tinha batido na mesma janela sem nem arranhar."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | explicou (27.2s) | ACAO: fala | aponta explicando | OK |
-| 2 | internet (28.1s) | ACAO: x_fone | celular na mao + toque | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | explicou (26.5s) | ACAO: fala | aponta explicando | OK |
+| 2 | internet (27.2s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | ATUACAO | reagir | OK |
 
-## Cena b6 - 33.3s a 38.1s - 16 palavras - plano crowd
+## Cena b6 - 32.7s a 36.5s - 16 palavras - plano crowd
 > "A plateia riu, a internet também, e a cena deu o que falar no mundo inteiro."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | riu (33.9s) | EFEITO: stars | estrelinhas + som | OK |
-| 2 | riu (33.9s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
-| 3 | internet (35.0s) | ACAO: x_fone | celular na mao + toque | OK |
-| 4 | deu (35.8s) | ACAO: x_entrega | estende a mao entregando | OK |
+| 1 | riu (33.3s) | EFEITO: stars | estrelinhas + som | OK |
+| 2 | riu (33.3s) | ACAO: x_ri | ri de bracos para cima + brilho | OK |
+| 3 | internet (33.9s) | ACAO: x_fone | celular na mao + toque | OK |
+| 4 | deu (35.5s) | ACAO: x_entrega | estende a mao entregando | OK |
 | 5 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
 | 6 | - | ATUACAO | comemorar | OK |
 
-## Cena b7 - 38.5s a 41.7s - 15 palavras - plano two
+## Cena b7 - 37.7s a 41.7s - 15 palavras - plano two
 > "Uma picape, uma esfera de aço e uma janela que não aguentou: um lançamento inesquecível."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | - | INTERACAO | pular | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 

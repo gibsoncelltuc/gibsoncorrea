@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 02 - O Cameo de Sete Segundos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 152 palavras (~52 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 165 palavras (~57 s)
 
 ## Cena b0  (~7.6 s)
 - Narracao: Em mil novecentos e noventa e dois, estreou o filme Esqueceram de Mim 2, com o garoto Kevin perdido em Nova York.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: g_estreou (point) @7 -> acao + som de efeito; encena: g_esquecer (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: NOVA YORK
 - Funcao na historia: GANCHO
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Trump nega isso: diz que a equipe é que pediu, e que ele nem queria aparecer.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: fala (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -90,6 +90,15 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

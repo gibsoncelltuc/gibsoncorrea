@@ -5,6 +5,7 @@
 # termina os em curso, codifica os trechos completos, EMPURRA o checkpoint para o git e pausa. Se a sessao reiniciar: o hook de boot (boot.sh) relanca esta fila e ela continua.
 # Se NAO reiniciar em GRACE_MIN minutos, a fila segue sozinha com novo prazo. SESSION_GUARD=0 desliga a trava.
 cd "$(dirname "$0")"; mkdir -p logs
+[ -f "$(dirname "$0")/PAUSA" ] || [ -f PAUSA ] && { echo "$(date +%T) PAUSA ativa: nao rodo (apague ferramenta-shorts/PAUSA)"; exit 0; }
 exec 9>/tmp/run_queue.lock; flock -n 9 || { echo "$(date +%T) ja existe uma fila rodando: nao lanco outra"; exit 0; }   # uma fila so (duas juntas geram SKIP falso)
 LOCK=logs/queue.lock
 LP=$(cat $LOCK 2>/dev/null); if [ -n "$LP" ] && kill -0 "$LP" 2>/dev/null && tr "\0" " " < /proc/$LP/cmdline 2>/dev/null | grep -q run_queue; then echo "fila ja rodando (pid $(cat $LOCK))"; exit 0; fi
@@ -24,7 +25,7 @@ while true; do
     [ -f stories/$id/SKIP ] && continue   # reprovou 2x no gate: precisa de ajuste no roteiro/cena (veja logs/gate_<id>.txt); apague SKIP para tentar de novo
     [ -f stories/$id/AGUARDA_STORYBOARD ] && { ESPERA=1; continue; }   # storyboard pronto esperando aprovacao: a fila segue com o proximo
     NEXT=$id; break
-  done < "$(bash qfile.sh)"
+  done < queue.txt
   [ -z "$NEXT" ] && [ "$ESPERA" = "1" ] && { echo "$(date +%T) so falta aprovar storyboard(s): ./aprovar_storyboard.sh <id>; espero 2 min"; sleep 120; continue; }
   [ -z "$NEXT" ] && { echo "$(date +%T) fila vazia: tudo pronto"; exit 0; }
   if [ "${SESSION_GUARD:-1}" != "0" ]; then
@@ -34,6 +35,7 @@ while true; do
     export DEADLINE=$(( $(date +%s) + LEFT )); echo "$(date +%T) prazo de seguranca em $((LEFT/60)) min (container no ar ha $((UP/60)) min)"
   fi
   echo "$(date +%T) >>> $NEXT"
+  bash garantir_sync.sh; [ "$(git -C .. rev-parse --abbrev-ref HEAD 2>/dev/null)" != "claude/bold-sagan-dskrsj" ] && bash sync_ferramenta.sh >> logs/sync.log 2>&1   # antes de CADA video: ferramenta na ultima versao
   bash make_video.sh "$NEXT" 9>&-; RC=$?   # 9>&-: os filhos nao herdam a trava (senao um processo orfao bloqueia a fila)
   if [ $RC -eq 76 ]; then echo "$(date +%T) $NEXT: storyboard pronto, AGUARDANDO APROVACAO (stories/$NEXT/storyboard.jpg)"; continue; fi
   if [ $RC -eq 75 ]; then

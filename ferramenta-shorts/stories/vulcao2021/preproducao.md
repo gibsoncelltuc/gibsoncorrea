@@ -9,10 +9,10 @@ b1 | jungle | reveal | 8 | parados (so fala e pisca) | kit/volcano | - | -
 b2 | mountain | two | 2 | conversar, INTERAGEM: insiste | kit/bitcoin, kit/volcano, kit/coin | - | -
 b3 | interior loja | two | 2 | discutir, INTERAGEM: discutir | kit/miners, kit/bitcoin | paper | -
 b4 | jungle | two | 2 | conversar, INTERAGEM: entregar | kit/volcano | - | -
-b5 | mountain | low | 1 | conversar | kit/volcano | - | -
+b5 | mountain | wide | 2 | conversar | kit/volcano, kit/turbina | - | -
 b6 | interior loja | two | 2 | conversar, INTERAGEM: vai ate o outro | kit/miners, kit/bitcoin | - | -
-b7 | harbor | group | 7 | comemorar | kit/bitcoin, kit/volcano | - | -
-b8 | harbor | crowd | 21 | comemorar, batalha | kit/volcano | - | -
+b7 | mountain | close | 1 | comemorar | kit/bitcoin, kit/volcano | - | -
+b8 | mountain | crowd | 21 | comemorar, batalha | kit/volcano | - | -
 b9 | jungle | two | 2 | conversar, INTERAGEM: aproxima-se | kit/bitcoin, kit/volcano | paper | -
 b10 | street | orbit | 19 | reagir, batalha | kit/volcano, kit/bitcoin, buildings/apartment, buildings/house_two, nature/lamppost | - | -
 b11 | jungle | close | 1 | comemorar | kit/bitcoin, kit/volcano | - | -

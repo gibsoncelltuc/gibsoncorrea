@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Curiosidade e Ciência EP 12 - O Astrônomo do Nariz de Metal
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 35 acoes catalogadas, 35 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 40 acoes catalogadas, 40 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 3.7s - 15 palavras - plano two
@@ -34,9 +34,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | festa (13.1s) | EFEITO: stars | estrelinhas + som | OK |
 | 2 | festa (13.1s) | ACAO: vence | bracos para cima + brilho | OK |
-| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 4 | - | INTERACAO | avanca e o outro recua | OK |
-| 5 | - | ATUACAO | discutir | OK |
+| 3 | discutiu (13.9s) | ACAO: g_discutiu | g_discutiu | OK |
+| 4 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 5 | - | INTERACAO | avanca e o outro recua | OK |
+| 6 | - | ATUACAO | discutir | OK |
 
 ## Cena b3 - 17.3s a 23.1s - 17 palavras - plano two
 > "A briga não acabou ali. Dias depois, os dois resolveram tudo num duelo de espadas, no escuro."
@@ -53,16 +54,18 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | golpe (26.0s) | ACAO: golpe | soco + estouro | OK |
-| 2 | cortou (27.0s) | ACAO: corta | machado e toras + poeira | OK |
-| 3 | - | INTERACAO | susto | OK |
+| 1 | acertou (25.4s) | ACAO: g_acertou | g_acertou | OK |
+| 2 | golpe (26.0s) | ACAO: golpe | soco + estouro | OK |
+| 3 | cortou (27.0s) | ACAO: corta | machado e toras + poeira | OK |
+| 4 | - | INTERACAO | susto | OK |
+| 5 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 29.7s a 33.5s - 15 palavras - plano two
 > "Para esconder o buraco, ele passou a usar um nariz de metal, colado no rosto."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b6 - 34.6s a 38.9s - 17 palavras - plano orbit
 > "Anos depois, o rei da Dinamarca deu a ele uma ilha inteira, só para estudar o céu."
@@ -71,24 +74,26 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | deu (36.4s) | ACAO: x_entrega | estende a mao entregando | OK |
 
-## Cena b7 - 39.9s a 44.9s - 17 palavras - plano group
+## Cena b7 - 39.9s a 44.9s - 17 palavras - plano wide
 > "Lá, ele construiu um castelo observatório, e anotou a posição de mais de mil estrelas, sem telescópio."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | construiu (40.6s) | ACAO: constroi | martela e o objeto cresce | OK |
 | 2 | anotou (42.6s) | ACAO: escreve | escreve/assina | OK |
-| 3 | - | PLACA | MIL ESTRELAS | OK |
+| 3 | - | ATUACAO | reagir | OK |
+| 4 | - | PLACA | MIL ESTRELAS | OK |
 
 ## Cena b8 - 46.4s a 51.6s - 18 palavras - plano two
 > "As anotações eram tão precisas, que ajudaram Kepler a descobrir como os planetas giram em volta do Sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | descobrir (49.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
-| 4 | - | PLACA | KEPLER | OK |
+| 1 | ajudaram (48.5s) | ACAO: g_ajudaram | g_ajudaram | OK |
+| 2 | descobrir (49.5s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
+| 5 | - | PLACA | KEPLER | OK |
 
 ## Cena b9 - 52.6s a 54.8s - 7 palavras - plano crowd
 > "Essa descoberta mudou a astronomia para sempre."
@@ -103,5 +108,5 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 

@@ -1,0 +1,22 @@
+{
+ "id": "teste_queda",
+ "ano": 1900,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Teste queda 1900",
+   "consultas": [
+    "Teste queda 1900",
+    "No João Pedro Pedro Ele Depois 1900"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1900",
+   "consultas": [
+    "1900 fashion clothing",
+    "1900 street photograph"
+   ]
+  }
+ ]
+}

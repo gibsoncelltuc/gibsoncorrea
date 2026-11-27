@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Os romanos que sobraram se trancaram no Capitólio, uma colina cercada de muralhas, sem comida, e sem saída.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_sobraram (point) @3 -> acao + som de efeito; encena: g_trancara (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: CAPITÓLIO
 - Funcao na historia: desenvolvimento
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Lá em cima, a fome apertava. "Vamos comer os gansos", pediu um soldado. "São sagrados", respondeu o sacerdote.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito
+- Efeito + som nas palavras-chave: (rosto) pleading -> expr + som de efeito; encena: g_apertava (point) @5 -> acao + som de efeito; encena: g_responde (up) @15 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Desde então, todo ano, os gansos ganhavam um desfile pelas ruas de Roma.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_ganhavam (point) @6 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: DESFILE
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: E os guardas, que dormiram a noite inteira, ganharam um castigo.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: vence (up) @8 -> acao + som de efeito
+- Efeito + som nas palavras-chave: ganharam -> stars + som de sino; encena: g_dormiram (point) @4 -> acao + som de efeito; encena: vence (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

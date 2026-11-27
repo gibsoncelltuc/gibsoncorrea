@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): TRO (variante 0, expressao laugh); POV (variante 1, expressao shock)
-- Animacao: dancar | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dancar, mulher
 - RISCOS: nenhum
@@ -17,23 +17,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): TRO (variante 0, expressao pained); POV (variante 0, expressao nervous) | multidao: 8 de POV
-- Animacao: dancar
+- Animacao: conversar
 - Objetos/modelos: kit/marco_viena
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
 
 ## Cena b2 - Em uma semana, mais de trinta vizinhos estavam dançando com ela. Ningu...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (4): TRO (variante 0, expressao pained); POV (variante 1, expressao laugh); POV (variante 2, expressao grin); POV (variante 3, expressao pained)
-- Animacao: dancar | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/marco_viena, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): semana, trinta
 - RISCOS: nenhum
 
 ## Cena b3 - Em um mês, eram quatrocentas pessoas, de pés sangrando, pedindo socorr...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao pained); POV (variante 1, expressao pained); TRO (variante 0, expressao pained) | multidao: 18 de POV/TRO
@@ -53,18 +53,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que a cidade levou isso a sério. Montou um palco, e contratou...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: hall | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): MUS (variante 0, expressao grin, segura flag); MUS (variante 1, expressao laugh); PRE (variante 0, expressao grin) | multidao: 30 de POV
 - Animacao: conversar | interacao: discutir
-- Objetos/modelos: kit/marco_viena, buildings/apartment, buildings/house_two, nature/lamppost
+- Objetos/modelos: buildings/house_two, nature/lamppost
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cidade, multidao, palco, serio
-- RISCOS: 
-  - acao sem animacao propria: montou -> CORRECAO: mostrar o RESULTADO (objeto em cena, reacao, efeito + som) ou reescrever a frase com acao que a ferramenta faz (andar, chegar, discutir, empurrar, entregar, comemorar, atirar, fugir)
+- RISCOS: nenhum
 
 ## Cena b6 - Foi a pior ideia possível. Com música, mais gente entrou na dança, e m...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao pained); POV (variante 3, expressao pained) | multidao: 18 de POV/MUS
@@ -108,11 +107,10 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/marco_viena | b0, b1, b2, b3, b5, b6, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_viena | b0, b1, b2, b3, b6, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_small | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/apartment | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
@@ -120,12 +118,9 @@ nature/lamppost | b5 | pronto | conferir na folha de contato se le bem; se parec
 ## Video inteiro
 - Objeto heroi: - | grandes momentos: b3, b6 | planos abertos: 3 | mistura: close 20% | medio 63% | aberto 14% | detalhe 3%
 - Interacoes: b0 susto, b2 aproxima-se, b4 avanca e o outro recua, b5 discutir, b7 o outro se aproxima
-- RISCOS GERAIS: 
-  - video sem objeto heroi -> CORRECAO: "heroi": "kit/<objeto>" no topo do roteiro (modele se nao existir)
+- RISCOS GERAIS: nenhum
 
-## RESUMO: 2 risco(s) em aberto
-- b5: acao sem animacao propria: montou
-- geral: video sem objeto heroi
+## RESUMO: 0 risco(s) em aberto - pode renderizar
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh danca1518 bN bM` (so essas cenas).

@@ -21,7 +21,7 @@
    "capBack": true
   },
   "POV": {
-   "jacket": "#3f6fb5",
+   "jacket": "#2aa7c9",
    "pants": "#4a3a2a",
    "boots": "#1b1b1f",
    "hats": [
@@ -66,7 +66,7 @@
     "ding@30"
    ],
    "say": "Em fevereiro de dois mil e vinte e quatro, um presidente foi reeleito com uma das maiores votações do mundo.",
-   "interior": "pedra"
+   "set": "street"
   },
   {
    "shot": "reveal",
@@ -92,11 +92,11 @@
    "sfx": [
     "ding@40"
    ],
-   "interior": "pedra"
+   "set": "palace"
   },
   {
    "shot": "two",
-   "interior": "pedra",
+   "interior": "madeira",
    "who": [
     "JUI:0:stern:paper",
     "REP:0:suspicious"
@@ -124,7 +124,8 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão."
+   "say": "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão.",
+   "set": "hall"
   },
   {
    "shot": "two",
@@ -141,11 +142,12 @@
     ]
    ],
    "interacao": "entregar",
-   "say": "No dia da eleição, os salvadorenhos foram às urnas."
+   "say": "No dia da eleição, os salvadorenhos foram às urnas.",
+   "set": "countryside"
   },
   {
    "shot": "close",
-   "interior": "pedra",
+   "interior": "loja",
    "who": [
     "REP:0:shock:paper"
    ],
@@ -157,7 +159,10 @@
     "sting@20",
     "ding@50"
    ],
-   "say": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
+   "say": "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos.",
+   "verbos_ok": [
+    "impre"
+   ]
   },
   {
    "shot": "crowd",
@@ -195,7 +200,9 @@
    ],
    "text": "84,6%",
    "titulo": true,
-   "say": "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão."
+   "say": "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão.",
+   "light": "night",
+   "set": "palace"
   },
   {
    "shot": "two",
@@ -204,9 +211,7 @@
     "BUK:0:smug"
    ],
    "acao": "conversar",
-   "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país.",
-   "interior": false,
-   "set": "street"
+   "say": "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país."
   },
   {
    "shot": "two",
@@ -215,9 +220,7 @@
     "POV:0:worried"
    ],
    "acao": "discutir",
-   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção.",
-   "interior": false,
-   "set": "street"
+   "say": "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
   },
   {
    "shot": "close",
@@ -239,5 +242,31 @@
  "fontes": [
   "https://en.wikipedia.org/wiki/2024_Salvadoran_presidential_election",
   "https://www.idea.int/democracytracker/report/el-salvador/february-2024"
- ]
+ ],
+ "visual": {
+  "local": "San Salvador, El Salvador: Palacio Nacional e praca em frente; urnas em escolas/centros de votacao",
+  "quando": "4/fev/2024; apuracao e comemoracao de noite",
+  "participantes": [
+   "Nayib Bukele (terno escuro, bone preto virado para tras nos anos de governo)",
+   "apoiadores de camisa azul-ciano (cor do Nuevas Ideas)",
+   "eleitores",
+   "jornalistas"
+  ],
+  "roupas": {
+   "BUK": "terno escuro, camisa branca",
+   "POV": "camisetas e bones azul-ciano",
+   "JUI": "toga preta (Sala Constitucional)",
+   "REP": "camisa com crachá de imprensa"
+  },
+  "cenario": "fachada clara do Palacio Nacional com sacada, multidao na praca a noite, bandeiras azuis e brancas, urnas de papelao com cabine",
+  "objetos": [
+   "urnas",
+   "bandeira de El Salvador (azul e branca)",
+   "cartaz com rosto de Bukele"
+  ],
+  "fontes_visuais": [
+   "https://www.gettyimages.com/editorial-images/news/event/salvadorians-vote-in-presidential-election/776100638",
+   "https://www.youtube.com/watch?v=FX3aCqFx_g0"
+  ]
+ }
 }

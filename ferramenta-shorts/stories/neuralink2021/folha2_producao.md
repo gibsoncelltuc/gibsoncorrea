@@ -14,10 +14,10 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b1 - Foi em abril de dois mil e vinte e um, nos Estados Unidos. A empresa s...
 - Cenario: street | luz: day | clima: limpo
-- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, empresa, estados
 - RISCOS: nenhum
@@ -43,17 +43,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - A cada acerto, ganhava um golinho de vitamina de banana, por um canudi...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (1): CIE (variante 0, expressao grin)
-- Animacao: conversar
+- Personagens principais (1): CIE (variante 0, expressao grin, segura mug)
+- Animacao: reagir
 - Objetos/modelos: kit/monkey_pong
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): banana, cada, canudinho, golinho, metal, vitamina
 - RISCOS: nenhum
 
 ## Cena b5 - Enquanto isso, o chip gravava o que os neurônios faziam a cada movimen...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior pedra | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): CIM (variante 0, expressao suspicious); CIE (variante 0, expressao nervous)
@@ -84,16 +84,16 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b8 - O objetivo, segundo a empresa, é ajudar pessoas paralisadas a usar com...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
-- Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: kit/miners
+- Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (2): MUS (variante 0, expressao smug); CIM (variante 0, expressao grin) | multidao: 8 de POV
+- Animacao: discutir
+- Objetos/modelos: kit/chess_pc, kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): empresa, objetivo, pensamento, usar
 - RISCOS: nenhum
 
 ## Cena b9 - Em dois mil e vinte e quatro, o primeiro paciente humano recebeu o chi...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): NOL (variante 0, expressao grin); CIE (variante 0, expressao surprised)
@@ -103,12 +103,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b10 - Ele não mexia o corpo do pescoço para baixo. E voltou a jogar.
-- Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): NOL (variante 0, expressao laugh); CIE (variante 0, expressao laugh); CIM (variante 0, expressao grin) | multidao: 18 de POV
-- Animacao: comemorar | batalha encenada
-- Objetos/modelos: -
+- Cenario: interior loja | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
+- Personagens principais (2): NOL (variante 0, expressao smile); CIE (variante 0, expressao happy)
+- Animacao: reagir | interacao: insiste | o ultimo personagem ENTRA andando
+- Objetos/modelos: kit/chess_pc
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): corpo, jogar, pescoco
 - RISCOS: nenhum
 
@@ -128,13 +128,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/monkey_pong | b0, b3, b4, b5, b6, b7, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/miners | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/chess_pc | b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/chess_pc | b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/phone | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/monkey_pong | grandes momentos: b7, b10 | planos abertos: 3 | mistura: close 18% | medio 65% | aberto 11% | detalhe 6%
-- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b8 discutir, b9 entregar
+- Objeto heroi: kit/monkey_pong | grandes momentos: b1, b7 | planos abertos: 3 | mistura: close 19% | medio 63% | aberto 11% | detalhe 6%
+- Interacoes: b0 avanca e o outro recua, b2 o outro se aproxima, b5 cochichar, b9 entregar, b10 insiste
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

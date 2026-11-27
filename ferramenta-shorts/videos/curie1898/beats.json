@@ -298,12 +298,41 @@
      1.0
     ]
    ],
-   "say": "Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.",
+   "say": "Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.",
    "hora": "dia",
    "clima": "limpo"
   }
  ],
  "objetos_do_video": {
   "\\bradio\\b": "kit/curie_box"
+ },
+ "regiao": "franca",
+ "visual": {
+  "local": "Paris: galpao velho de madeira e vidro da Escola de Fisica e Quimica (rue Lhomond), frio e com goteiras; Biblioteca Nacional da Franca hoje",
+  "quando": "1898 (descoberta do polonio e do radio); Nobel de 1903 e 1911; morte em 1934; hoje",
+  "participantes": [
+   "Marie Curie",
+   "Pierre Curie",
+   "pesquisadores de hoje com roupa de protecao",
+   "jornalistas"
+  ],
+  "roupas": {
+   "MAR": "vestido longo escuro de trabalho, cabelo preso em coque (1898)",
+   "PIE": "sobrecasaca escura e barba",
+   "PES": "macacao branco de protecao e oculos",
+   "JOR": "jornalista",
+   "POV": "parisienses de 1900 com chapeu-coco e boina"
+  },
+  "cenario": "galpao de laboratorio com bancadas, caldeirao de minerio, frascos que brilham verde no escuro; sala de leitura com caixas de chumbo",
+  "objetos": [
+   "cadernos de laboratorio",
+   "frascos de radio brilhando",
+   "caixas de chumbo",
+   "minerio (pechblenda)"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Marie_Curie",
+   "https://www.bnf.fr/"
+  ]
  }
 }

@@ -1,7 +1,7 @@
 {
- "duration": 70.08,
- "frames30": 2102,
- "source": "silence-align (cost 1.10)",
+ "duration": 72.336,
+ "frames30": 2170,
+ "source": "silence-align (cost 1.01)",
  "segments": [
   [
    0.148625,
@@ -21,11 +21,11 @@
   ],
   [
    9.22758,
-   9.69117
+   9.69887
   ],
   [
    9.93025,
-   13.4727
+   13.477
   ],
   [
    14.3331,
@@ -40,100 +40,96 @@
    18.7347
   ],
   [
-   19.5844,
-   21.4875
+   19.5885,
+   21.482
   ],
   [
-   21.8067,
-   22.7774
+   21.8291,
+   22.7722
   ],
   [
-   23.6455,
-   24.887
+   23.1495,
+   24.9967
   ],
   [
-   25.1652,
-   25.8794
+   25.8456,
+   27.6053
   ],
   [
-   26.7368,
-   27.1127
+   27.9223,
+   29.354
   ],
   [
-   27.9697,
-   28.7735
+   30.1895,
+   30.9955
   ],
   [
-   29.0137,
-   29.731
+   31.8651,
+   34.0169
   ],
   [
-   29.9715,
-   31.3626
+   34.8577,
+   37.6317
   ],
   [
-   32.2121,
-   33.018
+   38.4806,
+   41.3291
   ],
   [
-   33.8877,
-   36.0395
+   42.1855,
+   44.8774
   ],
   [
-   36.8802,
-   39.6516
+   45.1368,
+   46.548
   ],
   [
-   40.5031,
-   43.3515
+   47.4085,
+   49.5915
   ],
   [
-   44.2081,
-   46.895
+   49.8788,
+   50.5467
   ],
   [
-   47.1594,
-   48.5731
+   50.8104,
+   53.8527
   ],
   [
-   49.4325,
-   51.691
+   54.6913,
+   56.9543
   ],
   [
-   52.5167,
-   54.8263
+   57.1313,
+   57.6721
   ],
   [
-   55.1938,
-   55.9126
+   57.9603,
+   58.4373
   ],
   [
-   56.7705,
-   59.0345
+   59.2959,
+   60.3427
   ],
   [
-   59.2105,
-   59.7512
+   61.1871,
+   62.2351
   ],
   [
-   60.0276,
-   60.5185
+   62.4597,
+   64.5909
   ],
   [
-   61.3752,
-   62.4219
+   65.4381,
+   67.2089
   ],
   [
-   63.265,
-   64.3175
+   68.0357,
+   69.4785
   ],
   [
-   64.5389,
-   66.6701
-  ],
-  [
-   67.5173,
-   69.2881
+   69.7732,
+   71.5346
   ]
  ],
  "phrases": [
@@ -160,12 +156,12 @@
   {
    "text": "Um dia,",
    "s": 9.228,
-   "e": 9.691
+   "e": 9.699
   },
   {
    "text": "um fazendeiro americano encontrou um porco comendo as batatas da horta dele.",
    "s": 9.93,
-   "e": 13.473
+   "e": 13.477
   },
   {
    "text": "Ele pegou a espingarda,",
@@ -184,123 +180,118 @@
   },
   {
    "text": "O fazendeiro foi at\u00e9 a casa do vizinho,",
-   "s": 19.584,
-   "e": 21.488
+   "s": 19.588,
+   "e": 21.482
   },
   {
-   "text": "com as notas na m\u00e3o.",
-   "s": 21.807,
-   "e": 22.777
+   "text": "com as notas na m\u00e3o,",
+   "s": 21.829,
+   "e": 22.772
   },
   {
-   "text": "\"Eu pago dez d\u00f3lares\",",
-   "s": 23.645,
-   "e": 24.887
+   "text": "e ofereceu dez d\u00f3lares pelo porco.",
+   "s": 23.149,
+   "e": 24.997
   },
   {
-   "text": "ofereceu ele.",
-   "s": 25.165,
-   "e": 25.879
+   "text": "O dono gritou que o porco valia cem,",
+   "s": 25.846,
+   "e": 27.605
   },
   {
-   "text": "\"Dez?",
-   "s": 26.737,
-   "e": 27.113
-  },
-  {
-   "text": "Ele vale cem!\",",
-   "s": 27.97,
-   "e": 28.773
-  },
-  {
-   "text": "gritou o dono,",
-   "s": 29.014,
-   "e": 29.731
-  },
-  {
-   "text": "empurrando o dinheiro de volta.",
-   "s": 29.971,
-   "e": 31.363
+   "text": "e empurrou o dinheiro de volta.",
+   "s": 27.922,
+   "e": 29.354
   },
   {
    "text": "Ningu\u00e9m cedeu.",
-   "s": 32.212,
-   "e": 33.018
+   "s": 30.189,
+   "e": 30.995
   },
   {
    "text": "Os ingleses amea\u00e7aram prender o fazendeiro.",
-   "s": 33.888,
-   "e": 36.039
+   "s": 31.865,
+   "e": 34.017
   },
   {
    "text": "Ent\u00e3o os Estados Unidos mandaram soldados para a ilha.",
-   "s": 36.88,
-   "e": 39.652
+   "s": 34.858,
+   "e": 37.632
   },
   {
    "text": "Acontece que a Inglaterra respondeu com navios de guerra.",
-   "s": 40.503,
-   "e": 43.352
+   "s": 38.481,
+   "e": 41.329
   },
   {
    "text": "Logo eram centenas de soldados e dezenas de canh\u00f5es,",
-   "s": 44.208,
-   "e": 46.895
+   "s": 42.185,
+   "e": 44.877
   },
   {
    "text": "apontados uns para os outros.",
-   "s": 47.159,
-   "e": 48.573
+   "s": 45.137,
+   "e": 46.548
   },
   {
-   "text": "O almirante ingl\u00eas recebeu a ordem de atacar.",
-   "s": 49.432,
-   "e": 51.691
+   "text": "O almirante ingl\u00eas recebeu a ordem de atacar,",
+   "s": 47.408,
+   "e": 49.592
   },
   {
-   "text": "\"N\u00e3o vou come\u00e7ar uma guerra por causa de um porco\",",
-   "s": 52.517,
-   "e": 54.826
+   "text": "e se recusou:",
+   "s": 49.879,
+   "e": 50.547
   },
   {
-   "text": "respondeu ele.",
-   "s": 55.194,
-   "e": 55.913
+   "text": "disse que n\u00e3o ia p\u00f4r duas na\u00e7\u00f5es em guerra por briga de porco.",
+   "s": 50.81,
+   "e": 53.853
   },
   {
    "text": "Os soldados passaram meses trocando insultos,",
-   "s": 56.77,
-   "e": 59.035
+   "s": 54.691,
+   "e": 56.954
   },
   {
    "text": "e depois,",
-   "s": 59.211,
-   "e": 59.751
+   "s": 57.131,
+   "e": 57.672
   },
   {
    "text": "festas.",
-   "s": 60.028,
-   "e": 60.519
+   "s": 57.96,
+   "e": 58.437
   },
   {
    "text": "Ningu\u00e9m deu um tiro.",
-   "s": 61.375,
-   "e": 62.422
+   "s": 59.296,
+   "e": 60.343
   },
   {
    "text": "Treze anos depois,",
-   "s": 63.265,
-   "e": 64.317
+   "s": 61.187,
+   "e": 62.235
   },
   {
    "text": "um \u00e1rbitro decidiu que a ilha era americana.",
-   "s": 64.539,
-   "e": 66.67
+   "s": 62.46,
+   "e": 64.591
   },
   {
    "text": "A \u00fanica baixa da guerra foi o porco.",
-   "s": 67.517,
-   "e": 69.288
+   "s": 65.438,
+   "e": 67.209
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 68.036,
+   "e": 69.478
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 69.773,
+   "e": 71.535
   }
  ]
 }

@@ -10,10 +10,11 @@
    "jacket": "#ebe6d4",
    "pants": "#ebe6d4",
    "boots": "#2a2218",
-   "hat": "shako",
+   "hat": "kepi",
    "belt": "#2a2218",
    "buttons": "#e8c45a",
-   "rifle": true
+   "rifle": true,
+   "cap": "#2a2218"
   },
   "HUS": {
    "jacket": "#2f4aa0",
@@ -34,7 +35,7 @@
    "jacket": "#ebe6d4",
    "pants": "#ebe6d4",
    "boots": "#2a2218",
-   "hat": "shako_tall",
+   "hat": "bicorne",
    "sash": "#c0353a",
    "buttons": "#e8c45a",
    "moustache_on": "#4a3020",
@@ -46,9 +47,9 @@
    "boots": "#6a4a2a",
    "moustache_on": "#2a1c12",
    "hats": [
-    "turban",
-    "fez"
-   ]
+    "turban"
+   ],
+   "hat": "turban"
   }
  },
  "cinf": 1.5,
@@ -102,7 +103,8 @@
      1.0
     ]
    ],
-   "move": 7
+   "move": 7,
+   "hora": "noite"
   },
   {
    "say": "Não acharam turco nenhum. Acharam moradores vendendo aguardente.",
@@ -124,7 +126,8 @@
      -0.6,
      1.0
     ]
-   ]
+   ],
+   "hora": "noite"
   },
   {
    "say": "Compraram tudo, beberam, e a festa começou.",
@@ -149,10 +152,11 @@
    ],
    "text": "AGUARDENTE",
    "tat": 4,
-   "mood": "playful"
+   "mood": "playful",
+   "hora": "noite"
   },
   {
-   "say": "Aí chegou a infantaria, querendo a parte dela. \"Não tem pra vocês\", disseram os hussardos. A discussão virou empurra-empurra, e alguém deu um tiro.",
+   "say": "Aí chegou a infantaria, querendo a parte dela. Os hussardos não quiseram dividir. A discussão virou empurra-empurra, e alguém deu um tiro.",
    "shot": "group",
    "who": [
     "AUT:0:stern",
@@ -163,7 +167,8 @@
    "fx": [],
    "mood": "tense",
    "tiros": false,
-   "impact": false
+   "impact": false,
+   "hora": "noite"
   },
   {
    "say": "No escuro, alguém gritou: \"Turcos! Turcos!\" E o pânico tomou o acampamento.",
@@ -175,16 +180,7 @@
    "tat": 2,
    "tstyle": "red",
    "mood": "tense",
-   "crowd": {
-    "n": 14,
-    "outfits": [
-     "AUT",
-     "HUS"
-    ],
-    "march": false,
-    "expr": "scared"
-   },
-   "tiros": false
+   "hora": "noite"
   },
   {
    "say": "Acontece que ninguém entendia a língua do vizinho. Todo mundo atirava em todo mundo, achando que eram os turcos.",
@@ -199,7 +195,8 @@
     "expr": "shock"
    },
    "mood": "tense",
-   "batalha": true
+   "batalha": true,
+   "hora": "noite"
   },
   {
    "say": "Um oficial mandou usar a artilharia, e os canhões dispararam contra o próprio exército.",
@@ -222,7 +219,8 @@
      1.1
     ]
    ],
-   "mood": "tense"
+   "mood": "tense",
+   "hora": "noite"
   },
   {
    "say": "Dois dias depois, os turcos chegaram de verdade, e acharam o acampamento abandonado. Contam que foram até dez mil baixas, mas os historiadores duvidam desse número.",
@@ -267,5 +265,36 @@
   }
  ],
  "variar_cenario": false,
- "heroi": "kit/barrel_r"
+ "heroi": "kit/barrel_r",
+ "visual": {
+  "local": "Acampamento do exercito austriaco perto de Karansebes (Caransebes), as margens do rio Timis, no Banat (hoje Romenia): campo aberto com barracas, carrocas e fogueiras",
+  "quando": "noite de 21 para 22 de setembro de 1788",
+  "participantes": [
+   "hussardos austriacos (batedores)",
+   "infantaria austriaca de varios povos (austriacos, romenos, servios, croatas, italianos)",
+   "camponeses valaquios vendendo schnapps",
+   "general de artilharia Colloredo",
+   "imperador Jose II (perdido na confusao)",
+   "exercito otomano (chega 2 dias depois)"
+  ],
+  "roupas": {
+   "AUT": "casaca branca da infantaria austriaca de 1788 com o bone de couro (Kaskett), mosquete",
+   "HUS": "hussardo: dolma azul com alamares, calca vermelha, barretina alta",
+   "OFF": "oficial de casaca branca, faixa, chapeu bicorne",
+   "LOC": "campones valaquio de camisa e chapeu de palha",
+   "TUR": "soldado otomano de turbante e casaco vermelho (fez so existe depois de 1829)"
+  },
+  "cenario": "acampamento noturno a beira do rio, fogueiras e lanternas, barris de schnapps; canhoes de campanha de 1788",
+  "objetos": [
+   "barril de schnapps (aguardente)",
+   "canecas e garrafas",
+   "lanternas",
+   "mosquetes de pederneira",
+   "canhoes de campanha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
+   "https://upload.wikimedia.org/wikipedia/commons/c/c2/Picture_showing_Ottoman_Forces_advance_to_Caransebes.png"
+  ]
+ }
 }

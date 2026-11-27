@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Para destruir um bunker escondido dentro de uma montanha, os Estados Unidos usaram uma bomba que nunca tinha saído do papel.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: atira @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; encena: x_usa (lift) @12 -> acao + som de efeito; encena: atira @14 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2025
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Só uma arma chegava lá: a bomba antibunker, com mais de treze toneladas. E só um avião carrega essa bomba: o B-2.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao; encena: atira @6 -> acao + som de efeito
+- Efeito + som nas palavras-chave: bomba -> burst + som de tiro/explosao; bomba: -> burst + som de tiro/explosao; encena: g_chegava (point) @3 -> acao + som de efeito; encena: atira @6 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Trump disse que as usinas foram destruídas. Avaliações posteriores discutiram o tamanho real do estrago.
 - Som ambiente: birds
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_discutir (point) @9 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: FORDOW
 - Funcao na historia: GRANDE MOMENTO

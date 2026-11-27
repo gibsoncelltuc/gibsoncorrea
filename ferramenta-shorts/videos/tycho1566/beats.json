@@ -62,7 +62,8 @@
     ]
    ],
    "text": "1566",
-   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática."
+   "say": "Um dos maiores astrônomos da história perdeu o nariz numa briga por causa de matemática.",
+   "detalhe": false
   },
   {
    "shot": "reveal",
@@ -156,7 +157,7 @@
    "shot": "wide",
    "hora": "noite",
    "who": [
-    "TYC:0:grin:spyglass"
+    "TYC:0:grin:paper"
    ],
    "fx": [
     "stars@20",
@@ -175,6 +176,12 @@
      0,
      -42,
      0.9
+    ],
+    [
+     "kit/tower",
+     2.6,
+     -3.5,
+     1.6
     ]
    ],
    "set": "countryside"
@@ -238,7 +245,10 @@
      1.2
     ]
    ],
-   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal."
+   "say": "E Tycho entrou para a história assim: com a cabeça nas estrelas, e o nariz de metal.",
+   "verbos_ok": [
+    "entro"
+   ]
   }
  ]
 }

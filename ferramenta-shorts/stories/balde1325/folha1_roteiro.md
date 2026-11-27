@@ -15,7 +15,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Módena e Bolonha se odiavam havia séculos. Uma apoiava o imperador, a outra, o papa, e qualquer desculpa servia para brigar.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: golpe (punch) @20 -> acao + som de efeito
+- Efeito + som nas palavras-chave: brigar -> puff + som de baque; encena: g_apoiava (point) @8 -> acao + som de efeito; encena: x_serve (reach) @18 -> acao + som de efeito; encena: golpe (punch) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: ITÁLIA
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: "Devolvam o nosso balde", exigiu Bolonha. "Venham buscar", respondeu Módena.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_exigiu (up) @4 -> acao + som de efeito; encena: g_responde (up) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Bolonha juntou um exército de trinta mil homens, e marchou contra a vizinha.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_juntou (reach) @1 -> acao + som de efeito; encena: g_marchou (point) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 32.000
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: march | Cenario base: medieval |
 - Narracao: Módena perseguiu os inimigos até os portões de Bolonha, e ainda zombou deles do lado de fora.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_persegui (point) @1 -> acao + som de efeito; encena: g_zombou (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

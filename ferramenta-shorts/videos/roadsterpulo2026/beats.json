@@ -3,21 +3,22 @@
  "rate": "+10%",
  "serie": "Poder e Fama",
  "ep": 25,
- "title": "O Carro que Pulou Outros Carros",
- "titulo_base": "O Carro que Pulou Outros Carros",
+ "title": "O Carro que Voou de Cabeça para Baixo",
+ "titulo_base": "O Carro que Voou de Cabeça para Baixo",
  "set": "outback",
  "light": "day",
  "mood": "playful",
  "heroi": "kit/roadster26",
  "outfits": {
   "MUS": {
-   "jacket": "#16181d",
-   "pants": "#22252c",
+   "jacket": "#4a505c",
+   "pants": "#3a4766",
    "boots": "#1b1b1f",
    "hat": "hair",
-   "hair": "#3a2a1f",
-   "pele": "#f2e2d2",
-   "logo": "X"
+   "hair": "#5a3e2a",
+   "pele": "#f2dcc8",
+   "logo": "T",
+   "logoColor": "#d8282f"
   },
   "ENG": {
    "jacket": "#1f3f6a",
@@ -49,77 +50,96 @@
  },
  "beats": [
   {
-   "shot": "two",
    "who": [
     "MUS:0:grin",
     "ENA:0:surprised"
    ],
+   "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
    "props": [
     [
-     "kit/roadster26_air",
-     0.5,
-     -5,
-     1.5
+     "kit/roadster26",
+     0,
+     -4.0,
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
    ],
-   "text": "2026",
-   "fx": [
-    "stars@30",
-    "puff@50"
-   ],
-   "sfx": [
-    "ding@30",
-    "whoosh@50"
-   ],
-   "say": "Elon Musk prometeu um carro que voa. Em outubro de dois mil e vinte e seis, ele mostrou o que conseguiu.",
-   "verbos_ok": [
-    "mostr"
-   ],
-   "set": "outback"
+   "set": "outback",
+   "hora": "noite",
+   "fachada": false
   },
   {
-   "shot": "reveal",
    "who": [
     "POV:0:smile",
     "POV:1:grin"
    ],
+   "shot": "reveal",
+   "say": "Foi à noite, numa base de testes da SpaceX em McGregor, no Texas, diante de convidados.",
    "mapa": "ESTADOS UNIDOS",
-   "mapa_at": 3,
-   "say": "Foi numa base de testes da SpaceX, no Texas.",
-   "set": "outback",
    "props": [
     [
-     "kit/roadster26",
-     1.6,
-     -1.5,
-     1.7
+     "kit/rampa_curva",
+     6,
+     -16,
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
-   ]
+   ],
+   "set": "outback",
+   "hora": "noite",
+   "fachada": false
   },
   {
-   "shot": "two",
    "who": [
     "ENG:0:suspicious:paper",
     "MUS:0:smug"
    ],
+   "say": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
+   "interior": "galpao",
    "props": [
     [
      "kit/roadster26",
      1.6,
      -0.8,
      1.0
+    ],
+    [
+     "kit/roadster26_air",
+     1.8,
+     -0.6,
+     1.0
     ]
-   ],
-   "acao": "discutir",
-   "say": "O novo Roadster da Tesla tinha sido prometido em dois mil e dezessete. Foram nove anos de atraso.",
-   "set": "countryside"
+   ]
   },
   {
-   "shot": "two",
    "who": [
     "ENA:0:grin:paper",
     "ENG:0:surprised"
    ],
+   "say": "O segredo eram propulsores da SpaceX escondidos no carro, e ventiladores embaixo que grudavam ele na pista.",
+   "interior": "galpao",
    "props": [
     [
      "kit/roadster26",
@@ -127,126 +147,131 @@
      -0.8,
      1.0
     ]
-   ],
-   "interacao": "cochichar",
-   "say": "O segredo eram dez pequenos propulsores da SpaceX, movidos a ar comprimido, escondidos dentro do carro.",
-   "fx": [
-    "stars@40"
-   ],
-   "sfx": [
-    "ding@40"
-   ],
-   "set": "outback"
+   ]
   },
   {
-   "shot": "crowd",
    "who": [
-    "POV:0:surprised",
-    "POV:1:shock",
     "MUS:0:grin"
    ],
-   "batalha": true,
-   "tiros": false,
+   "shot": "wide",
+   "h": 6.0,
+   "d0": 20,
+   "d1": 18,
+   "say": "Acontece que, diante dos convidados, o carro acelerou, subiu uma rampa curva gigante e ficou de cabeça para baixo.",
+   "props": [
+    [
+     "kit/roadster26",
+     0,
+     -7.0,
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
+    ]
+   ],
+   "set": "outback",
+   "hora": "noite",
+   "fachada": false,
+   "cx": -1.5,
+   "cz": -7.0,
    "crowd": {
-    "n": 20,
+    "n": 0,
     "outfits": [
      "POV"
     ],
-    "march": false,
-    "expr": "surprised"
-   },
-   "props": [
-    [
-     "vehicles/truck",
-     -4.0,
-     -5.5,
-     1.5
-    ],
-    [
-     "vehicles/car",
-     -1.2,
-     -5.5,
-     1.5
-    ],
-    [
-     "vehicles/car_blue",
-     1.6,
-     -5.5,
-     1.5
-    ],
-    [
-     "kit/roadster26_air",
-     0.2,
-     -5.2,
-     1.9
-    ]
-   ],
-   "fx": [
-    "whoosh@20",
-    "puff@40"
-   ],
-   "sfx": [
-    "whoosh@20",
-    "thump@40"
-   ],
-   "text": "PULOU!",
-   "titulo": true,
-   "say": "Acontece que, na frente da plateia, o carro acelerou e pulou por cima de cinco outros carros da Tesla."
+    "march": false
+   }
   },
   {
-   "shot": "low",
    "who": [
     "ENA:0:shock"
    ],
+   "shot": "wide",
+   "h": 6.0,
+   "d0": 20,
+   "d1": 18,
+   "say": "Então se soltou, voou girando no ar e pousou numa nuvem de fumaça branca.",
    "props": [
     [
-     "kit/roadster26_air",
+     "kit/roadster26",
      0,
-     -8.5,
-     1.8
+     -7.0,
+     1.0
+    ],
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
     ]
    ],
-   "fx": [
-    "puff@20",
-    "puff@50"
-   ],
-   "sfx": [
-    "whoosh@20",
-    "whoosh@50"
-   ],
-   "say": "Depois, girou no ar e desceu de novo sobre as quatro rodas."
+   "set": "outback",
+   "hora": "noite",
+   "fachada": false,
+   "cx": -1.5,
+   "cz": -7.0,
+   "crowd": {
+    "n": 0,
+    "outfits": [
+     "POV"
+    ],
+    "march": false
+   }
   },
   {
-   "shot": "two",
    "who": [
     "MUS:0:laugh",
     "ENG:0:surprised"
    ],
-   "fx": [
-    "stars@40"
+   "say": "Musk comemorou no palco, e tudo foi transmitido ao vivo na rede X.",
+   "props": [
+    [
+     "kit/torre_luz",
+     -10,
+     -9,
+     1.2
+    ],
+    [
+     "kit/torre_luz",
+     11,
+     -10,
+     1.2
+    ]
    ],
-   "sfx": [
-    "ding@40"
-   ],
-   "acao": "comemorar",
-   "say": "Musk disse que nunca tinha visto nada parecido, nem em filme de James Bond."
+   "set": "outback",
+   "hora": "noite",
+   "fachada": false
   },
   {
-   "shot": "two",
    "who": [
     "ENG:0:suspicious",
     "ENA:0:bored"
    ],
-   "acao": "discutir",
-   "say": "Mas especialistas lembraram: aquilo foi um salto de poucos segundos, não um voo de verdade.",
-   "set": "outback"
+   "say": "Mas especialistas lembraram: aquilo durou poucos segundos, não foi um voo de verdade.",
+   "set": "street"
   },
   {
-   "shot": "two",
    "who": [
     "ENG:0:grin:paper",
     "POV:0:surprised"
    ],
+   "say": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
+   "set": "street",
    "props": [
     [
      "kit/roadster26",
@@ -255,76 +280,83 @@
      1.0
     ]
    ],
-   "interacao": "entregar",
-   "fx": [
-    "ring@30"
-   ],
-   "sfx": [
-    "sting@30"
-   ],
-   "say": "Segundo a Tesla, ele vai de zero a cem em cerca de um segundo. A fabricação ficou para dois mil e vinte e oito.",
-   "set": "countryside"
+   "shot": "group",
+   "detalhe": false
   },
   {
-   "shot": "crowd",
    "who": [
     "POV:0:laugh",
     "POV:1:grin",
     "MUS:0:laugh"
    ],
-   "batalha": true,
-   "tiros": false,
-   "acao": "comemorar",
-   "crowd": {
-    "n": 18,
-    "outfits": [
-     "POV"
-    ],
-    "march": false,
-    "expr": "laugh"
-   },
-   "props": [
-    [
-     "kit/roadster26_air",
-     0,
-     -7.0,
-     1.1
-    ]
-   ],
-   "fx": [
-    "stars@20",
-    "stars@60"
-   ],
-   "sfx": [
-    "ding@20",
-    "ding@60"
-   ],
-   "text": "VOOU?",
-   "titulo": true,
-   "say": "O vídeo foi visto milhões de vezes. Metade do mundo ficou impressionada, a outra metade desconfiada."
+   "shot": "crowd",
+   "say": "O vídeo correu o mundo. Metade ficou impressionada, a outra metade desconfiada.",
+   "set": "street"
   },
   {
-   "shot": "close",
    "who": [
     "MUS:0:smile"
    ],
+   "say": "Carro voador ou carro que pula? Você decide.",
+   "interior": "galpao",
    "props": [
     [
-     "kit/roadster26_air",
-     -1.6,
-     -4.0,
-     0.8
+     "kit/roadster26",
+     1.6,
+     -0.8,
+     1.0
     ]
-   ],
-   "acao": "comemorar",
-   "say": "Carro voador ou carro que pula? Você decide.",
-   "set": "street"
+   ]
   }
  ],
  "fontes": [
   "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
   "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/",
-  "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster"
+  "https://www.latimes.com/business/story/2026-10-17/elon-musk-just-showed-off-flying-car-heres-what-to-know-about-tesla-roadster",
+  "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
+  "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
+  "https://www.statesman.com/business/article/tesla-roadster-event-live-texas-mcgregor-22433111.php"
  ],
- "regiao": "colonial"
+ "visual": {
+  "local": "Base de testes da SpaceX em McGregor (Texas, EUA): area aberta, chao de terra e concreto; galpoes da SpaceX",
+  "quando": "15 de outubro de 2026, a noite (evento transmitido ao vivo no X)",
+  "participantes": [
+   "Elon Musk no palco",
+   "engenheiros da Tesla/SpaceX",
+   "grupo de fas, imprensa e investidores convidados"
+  ],
+  "roupas": {
+   "MUS": "camiseta cinza-escura com logo T vermelho da Tesla, calca jeans",
+   "ENG": "camisa azul de equipe, bone",
+   "ENA": "camisa azul de equipe",
+   "POV": "roupa casual de convidado"
+  },
+  "cenario": "estrutura curva gigante estilo pista Hot Wheels (o carro sobe ate ficar de cabeca para baixo), refletores fortes na noite, plateia; galpao iluminado para as cenas tecnicas",
+  "objetos": [
+   "Tesla Roadster branco em cunha (estilo Lotus Esprit)",
+   "propulsores SpaceX soltando fumaca branca",
+   "ventiladores sob o carro (succao)"
+  ],
+  "fontes_visuais": [
+   "https://www.caranddriver.com/news/a74145531/tesla-roadster-revealed/",
+   "https://www.businessinsider.com/new-tesla-roadster-2-elon-musk-livestream-event-2026-10",
+   "https://www.youtube.com/watch?v=qt5p-_tE8d0",
+   "https://www.youtube.com/watch?v=qt5p-_tE8d0 (video oficial do evento: Ramp Demo e Kickflip Demo)"
+  ],
+  "explicacoes": [
+   "Propulsores: tecnologia da SpaceX, cerca de 250 kg de ar soprados por 10 bocais (jato de gas frio, sem fogo) - Austin American-Statesman, 15/10/2026",
+   "De cabeca para baixo: um sistema de succao (ventiladores) segura o carro na rampa - Statesman",
+   "Demonstracoes: (1) rampa de cabeca para baixo; (2) saiu da rampa, flutuou nos propulsores por cima de uma fileira de veiculos parados (entre eles o Cybercab e o Semi; o numero de veiculos nao e' informado) e pousou; (3) 'kickflip': levantou do chao, girou e pousou nas rodas - Statesman e video oficial 'Roadster Event' (Ramp Demo 06:03, Kickflip Demo 10:56)",
+   "Aceleracao anunciada: zero a 60 milhas por hora (cerca de 97 km/h) em menos de um segundo - Statesman"
+  ],
+  "locacoes": [
+   "loc_pista",
+   "interior galpao",
+   "loc_estudio"
+  ]
+ },
+ "cinf": 1.5,
+ "exp": 1.404,
+ "min_momentos": 0,
+ "regiao": "nenhuma"
 }

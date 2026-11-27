@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Um cachorro fugiu, e por causa dele dois países entraram em guerra, e dezenas de pessoas morreram.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: chega (point) @9 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; fugiu -> dust + som de impacto; morreram -> puff + som de baque; encena: corre @2 -> acao + som de efeito; encena: morre @16 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1925
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: O soldado correu atrás do cachorro, e atravessou a fronteira sem pensar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: correu -> dust + som de impacto; encena: corre @2 -> acao + som de efeito; encena: g_atravess (point) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -60,7 +60,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: mountain
 - Narracao: Poucos dias depois, o exército grego invadiu a Bulgária e ocupou a região de Petrich, e dezenas de pessoas morreram nos combates.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito; encena: morre @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; invadiu -> dust + som de impacto; morreram -> puff + som de baque; encena: chega (point) @6 -> acao + som de efeito; encena: g_ocupou (point) @10 -> acao + som de efeito; encena: morre @19 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: INVASÃO
 - Funcao na historia: GRANDE MOMENTO

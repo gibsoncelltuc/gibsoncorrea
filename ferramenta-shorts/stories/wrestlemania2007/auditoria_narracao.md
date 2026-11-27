@@ -8,20 +8,20 @@ Cenas 100% fieis: 12/12 (100%). Lacunas: 0
 ## b2 OK - Como todo show de luta, a rivalidade era combinada: Trump contra o dono da empresa de luta, Vince McMahon.
 - na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=[]
 ## b3 OK - A aposta era maluca: cada um escolheu um lutador, e o dono de quem perdesse teria a cabeça raspada.
-- na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['perdesse', 'raspada']
+- na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['escolheu', 'perdesse', 'raspada']
 ## b4 OK - Mais de oitenta mil pessoas lotaram o estádio, para ver a Batalha dos Bilionários.
-- na tela: set=['street'] animais=[] objetos=['ball'] atores=33 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=[] atores=33 acoes_folha3=[]
 ## b5 OK - No ringue, o lutador de Trump, Bobby Lashley, enfrentou o gigante Umaga, do lado de McMahon.
 - na tela: set=['street'] animais=[] objetos=['ring'] atores=2 acoes_folha3=['enfrentou']
 ## b6 OK - Acontece que o juiz convidado era Steve Austin, famoso por derrubar todo mundo. A luta virou bagunça.
-- na tela: set=['street'] animais=[] objetos=['ring'] atores=7 acoes_folha3=[]
+- na tela: set=['street'] animais=[] objetos=['ring'] atores=32 acoes_folha3=[]
 ## b7 OK - No fim, o lutador de Trump venceu. O estádio inteiro foi abaixo.
-- na tela: set=['street'] animais=[] objetos=['ball', 'ring'] atores=25 acoes_folha3=['venceu', 'venceu']
+- na tela: set=['street'] animais=[] objetos=['ring'] atores=25 acoes_folha3=['venceu', 'venceu']
 ## b8 OK - Trump e Lashley seguraram McMahon, e passaram a máquina de raspar na cabeça dele.
-- na tela: set=['street'] animais=[] objetos=['clipper', 'ring'] atores=6 acoes_folha3=['raspar']
+- na tela: set=['street'] animais=[] objetos=['clipper', 'ring'] atores=2 acoes_folha3=['seguraram', 'raspar']
 ## b9 OK - O dono da luta livre saiu do ringue completamente careca.
-- na tela: set=['street'] animais=[] objetos=['clipper'] atores=2 acoes_folha3=['saiu', 'careca']
+- na tela: set=['street'] animais=[] objetos=['clipper'] atores=3 acoes_folha3=['saiu', 'careca']
 ## b10 OK - E ainda sobrou para Trump: o juiz aplicou um golpe nele também, e ele foi ao chão.
-- na tela: set=['street'] animais=[] objetos=['ring'] atores=6 acoes_folha3=['golpe', 'chão']
+- na tela: set=['street'] animais=[] objetos=['ring'] atores=2 acoes_folha3=['sobrou', 'aplicou', 'golpe', 'chão']
 ## b11 OK - Seis anos depois, Trump entrou para o Hall da Fama da luta livre. Tudo por causa de um corte de cabelo.
-- na tela: set=['street'] animais=[] objetos=['clipper'] atores=1 acoes_folha3=['entrou']
+- na tela: set=['street'] animais=[] objetos=[] atores=2 acoes_folha3=['entrou']

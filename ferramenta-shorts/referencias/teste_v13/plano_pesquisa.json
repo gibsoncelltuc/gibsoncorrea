@@ -1,0 +1,86 @@
+{
+ "id": "teste_v13",
+ "ano": 2026,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "Teste v13 2026",
+   "consultas": [
+    "Teste v13 2026",
+    "Em Tesla Diante 2026"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Estados Unidos",
+   "consultas": [
+    "Estados Unidos 2026",
+    "Estados Unidos landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 2026",
+   "consultas": [
+    "2026 fashion clothing",
+    "2026 street photograph"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "roadster26",
+   "consultas": [
+    "roadster26",
+    "Teste v13 2026"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "carro da epoca",
+   "consultas": [
+    "car 2026",
+    "car"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "tanque da epoca",
+   "consultas": [
+    "tank 2026",
+    "tank"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O segredo são propulsores de ar comprimido escondidos embaixo do carro",
+   "consultas": [
+    "segredo propulsores comprimido escondidos embaixo carro empu",
+    "roadster26 diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
+   "consultas": [
+    "tesla",
+    "roadster26 diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "O ar sai do tanque, passa pela válvula e vira um jato.",
+   "consultas": [
+    "tanque passa valvula",
+    "roadster26 diagram"
+   ]
+  },
+  {
+   "tipo": "mecanismo",
+   "item": "Carro comum demora três segundos, este demora um.",
+   "consultas": [
+    "carro comum demora segundos demora",
+    "roadster26 diagram"
+   ]
+  }
+ ]
+}

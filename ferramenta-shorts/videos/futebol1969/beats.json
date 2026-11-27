@@ -50,37 +50,41 @@
  },
  "beats": [
   {
-   "shot": "reveal",
+   "shot": "crowd",
    "who": [
     "HON:0:angry",
     "SAL:0:shout"
    ],
-   "text": "1969",
+   "text": "HONDURAS x EL SALVADOR",
    "say": "Dois países entraram em guerra depois de um jogo de futebol.",
    "set": "stadium",
-   "props": [
-    [
-     "kit/trave",
-     0,
-     -5.0,
-     1.9
-    ],
-    [
-     "kit/ball",
-     0.3,
-     1.2,
-     1.0
-    ]
+   "titulo": true,
+   "batalha": true,
+   "tiros": false,
+   "lados": [
+    "HON",
+    "SAL"
    ],
    "crowd": {
-    "n": 12,
+    "n": 16,
     "outfits": [
      "HON",
      "SAL"
     ],
-    "march": true,
-    "expr": "angry"
-   }
+    "march": false,
+    "expr": "shout"
+   },
+   "props": [
+    [
+     "kit/ball",
+     0,
+     0.5,
+     1.1
+    ]
+   ],
+   "verbos_ok": [
+    "entra"
+   ]
   },
   {
    "shot": "reveal",
@@ -97,7 +101,7 @@
    },
    "mapa": "AMÉRICA CENTRAL",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam discutindo por terra e por fronteira.",
+   "say": "Era mil novecentos e sessenta e nove. Honduras e El Salvador, dois vizinhos, já viviam brigando por terra e por fronteira.",
    "fx": [
     "puff@70"
    ],
@@ -106,7 +110,7 @@
    ]
   },
   {
-   "shot": "reveal",
+   "shot": "aereo",
    "set": "stadium",
    "who": [
     "HON:0:grin",
@@ -114,39 +118,45 @@
    ],
    "props": [
     [
-     "kit/trave",
-     0,
-     -5.0,
-     1.9
-    ],
-    [
      "kit/ball",
      0,
-     0.9,
-     1.0
+     1.9,
+     1.1
     ]
    ],
    "say": "Aí veio a disputa por uma vaga na Copa do Mundo. Três jogos, um contra o outro.",
+   "text": "3 JOGOS",
+   "titulo": true,
    "crowd": {
-    "n": 14,
+    "n": 16,
     "outfits": [
      "HON",
      "SAL"
     ],
     "march": false,
-    "expr": "stern"
-   },
-   "text": "3 JOGOS"
+    "expr": "shout"
+   }
   },
   {
-   "shot": "two",
+   "shot": "crowd",
    "set": "stadium",
    "who": [
     "HON:0:laugh",
     "SAL:0:sad"
    ],
+   "batalha": true,
+   "tiros": false,
+   "crowd": {
+    "n": 18,
+    "outfits": [
+     "TOR",
+     "HON"
+    ],
+    "march": false,
+    "expr": "laugh"
+   },
    "text": "1 x 0",
-   "titulo": false,
+   "titulo": true,
    "fx": [
     "stars@30",
     "stars@70"
@@ -158,44 +168,24 @@
    "say": "No primeiro, Honduras venceu em casa. A torcida passou a noite batendo panelas na porta do hotel dos visitantes.",
    "props": [
     [
-     "kit/trave",
-     0,
-     -5.0,
-     1.9
-    ]
-   ],
-   "voa": [
-    {
-     "asset": "kit/ball",
-     "de": [
-      0,
-      1.4
-     ],
-     "para": [
-      0.4,
-      -4.7
-     ],
-     "y": 0.4,
-     "alvo_y": 1.0,
-     "arco": 0.9,
-     "palavra": "^venceu$",
-     "dur": 20,
-     "s": 1.0,
-     "som": "thump"
-    }
-   ],
-   "batalha": false,
-   "impact": false,
-   "tiros": false,
-   "crowd": {
-    "n": 6,
-    "outfits": [
-     "TOR",
-     "HON"
+     "kit/panela",
+     -1.6,
+     2.2,
+     1.3,
+     {
+      "fixo": true
+     }
     ],
-    "march": false,
-    "expr": "laugh"
-   }
+    [
+     "kit/panela",
+     1.6,
+     2.2,
+     1.3,
+     {
+      "fixo": true
+     }
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -203,10 +193,13 @@
     "TOR:0:angry",
     "TOR:1:shout"
    ],
-   "interacao": "discutir",
+   "interacao": "empurrar",
    "acao": "discutir",
-   "say": "No segundo, El Salvador deu o troco. Torcedores discutiram feio nas ruas, e os dois governos trocaram insultos.",
-   "hora": "dia"
+   "say": "No segundo, El Salvador deu o troco. Torcedores brigaram nas ruas, e os dois governos trocaram insultos.",
+   "hora": "dia",
+   "verbos_ok": [
+    "troca"
+   ]
   },
   {
    "shot": "two",
@@ -219,46 +212,32 @@
    "hora": "dia"
   },
   {
-   "shot": "two",
+   "shot": "group",
    "set": "stadium",
    "who": [
     "SAL:0:laugh",
+    "SAL:1:grin",
     "HON:0:sad"
    ],
    "props": [
     [
+     "kit/ball",
+     0,
+     2.0,
+     1.1
+    ],
+    [
      "kit/trave",
      0,
-     -5.0,
-     1.9
+     -4.5,
+     1.8
     ]
    ],
    "acao": "comemorar",
    "say": "El Salvador ganhou a partida, na prorrogação, e ficou com a vaga.",
    "hora": "dia",
-   "voa": [
-    {
-     "asset": "kit/ball",
-     "de": [
-      0,
-      1.4
-     ],
-     "para": [
-      -0.4,
-      -4.7
-     ],
-     "y": 0.4,
-     "alvo_y": 1.0,
-     "arco": 0.9,
-     "palavra": "^ganhou$",
-     "dur": 20,
-     "s": 1.0,
-     "som": "thump"
-    }
-   ],
-   "batalha": false,
-   "impact": false,
-   "tiros": false
+   "text": "PRORROGAÇÃO",
+   "titulo": true
   },
   {
    "shot": "orbit",
@@ -278,21 +257,24 @@
    "props": [
     [
      "vehicles/tank",
-     -4.0,
-     -3.5,
-     1.8
+     -6,
+     -6,
+     1.2
     ],
     [
      "vehicles/airplane",
-     4.0,
-     -7,
-     2.2
+     5,
+     -10,
+     1.2
     ]
    ],
    "text": "GUERRA",
    "titulo": true,
    "say": "Duas semanas depois, tanques e aviões cruzaram a fronteira. A guerra tinha começado.",
-   "hora": "dia"
+   "hora": "dia",
+   "verbos_ok": [
+    "cruza"
+   ]
   },
   {
    "shot": "two",
@@ -301,30 +283,34 @@
     "PRE:0:stern:paper"
    ],
    "text": "100 HORAS",
-   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar."
+   "say": "Durou cem horas. Os outros países do continente obrigaram os dois a parar.",
+   "verbos_ok": [
+    "obrig"
+   ]
   },
   {
-   "shot": "two",
+   "shot": "close",
    "who": [
-    "SAL:0:sad",
-    "HON:0:smile"
+    "SAL:0:sad"
    ],
    "props": [
     [
-     "kit/trave",
-     0,
-     -5.0,
-     1.9
+     "kit/ball",
+     1.5,
+     -0.5,
+     1.2
     ],
     [
-     "kit/ball",
-     1.2,
-     0.8,
-     1.0
+     "kit/trave",
+     0,
+     -4.5,
+     1.8
     ]
    ],
    "say": "E na Copa, El Salvador perdeu os três jogos, sem fazer um único gol.",
-   "set": "stadium"
+   "set": "stadium",
+   "text": "0 GOLS",
+   "titulo": true
   }
  ]
 }

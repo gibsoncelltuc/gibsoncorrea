@@ -1,12 +1,12 @@
-b0: OK - empresa de Elon Musk mostrou um macaco jogando videogame, macaco no computador e placa 2021 na rua
-b1: OK - mapa dos Estados Unidos e rua da cidade, a empresa se chama Neuralink em abril de dois mil e vinte e um
-b2: OK - a ideia de um chip no cerebro que le os neuronios, engenheiro com papel e Musk na sala
-b3: CORRIGIDO - cientista segurava bandeira porque aprendeu virava rendeu -> agora sem bandeira, Pager macaco aprendeu Pong ao lado
-b4: OK - a cada acerto ganhava vitamina de banana, cientista sorrindo em close com o macaco no computador
-b5: OK - enquanto isso o chip gravava os neuronios, dois cientistas cochichando ao lado do macaco
-b6: CORRIGIDO - macaco pequeno ao fundo -> agora desligaram o joystick e o Pager continuou jogando em close so com a mente
-b7: OK - o video rodou o mundo, placa MENTE com multidao em plano aberto debatendo na rua
-b8: OK - objetivo de ajudar pessoas paralisadas a usar computadores, Musk e cientista com os computadores
-b9: CORRIGIDO - sem computador de xadrez -> agora primeiro paciente jogou xadrez no computador so pensando, tabuleiro em close
-b10: OK - ele nao mexia o corpo e voltou a jogar, placa XADREZ com multidao comemorando
-b11: OK - tudo começou com um macaco, videogame antigo e vitamina de banana, Musk com o macaco no fim
+b0: OK - uma empresa de Elon Musk mostrou um macaco jogando videogame sem as maos so com o pensamento: Musk de camisa X ao lado do macaco no banquinho com o computador, placa 2021
+b1: OK - foi em abril de dois mil e vinte e um nos Estados Unidos e a empresa se chama Neuralink: mapa dos Estados Unidos e a rua de Nova York com predios de tijolo
+b2: OK - a ideia e um chip implantado no cerebro que le os sinais dos neuronios e manda para o computador: cientista e Musk numa sala conversando com papel na mao e computador ao fundo
+b3: OK - o voluntario foi o Pager macaco de nove anos que aprendeu a jogar Pong com um joystick: cientista ao lado do macaco sentado no banquinho com o computador e o joystick
+b4: OK - a cada acerto ganhava um golinho de vitamina de banana por um canudinho de metal: cientista segurando o copo de vitamina com canudinho e o macaco ao lado
+b5: OK - enquanto isso o chip gravava o que os neuronios faziam a cada movimento: macaco em close no banquinho ao lado do computador com o cientista observando
+b6: OK - desligaram o joystick e o Pager continuou jogando so com a mente: cientista e macaco no computador sem joystick, efeito de brilho no cientista
+b7: OK - o video rodou o mundo, muita gente se encantou e debateu o uso de animais: placa MENTE e multidao na rua debatendo com expressoes variadas
+b8: OK - o objetivo e ajudar pessoas paralisadas a usar computadores e celulares com o pensamento: multidao na rua e o cientista com Musk e um computador mostrando xadrez
+b9: OK - em dois mil e vinte e quatro o primeiro paciente humano recebeu o chip e jogou xadrez no computador: paciente de verde sorrindo ao lado do computador com o tabuleiro de xadrez
+b10: OK - ele nao mexia o corpo do pescoco para baixo e voltou a jogar: paciente e cientista ao lado do computador com o xadrez na tela, paciente alegre
+b11: OK - tudo comecou com um macaco, um videogame antigo e um copo de vitamina de banana: Musk de bracos erguidos com o macaco ao fundo e o computador na rua

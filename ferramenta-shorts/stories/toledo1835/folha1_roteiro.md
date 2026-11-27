@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 03 - A Guerra de Toledo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 10 cenas, 154 palavras (~53 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countryside | 11 cenas, 177 palavras (~61 s)
 
 ## Cena b0  (~4.5 s)
 - Narracao: Dois estados americanos foram à guerra, e o único ferido levou uma canivetada.
 - Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: espeta (punch) @9 -> acao + som de efeito; encena: pega (lift) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: 1835
 - Funcao na historia: GANCHO
@@ -20,11 +20,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Texto na tela: - | mapa: TOLEDO
 - Funcao na historia: desenvolvimento
 
-## Cena b2  (~4.8 s)
-- Narracao: O governador de Michigan tinha vinte e três anos. "Mandem a milícia", ordenou ele.
+## Cena b2  (~5.5 s)
+- Narracao: O governador de Michigan tinha só vinte e três anos, e mandou a milícia ocupar Toledo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: fala (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @11 -> acao + som de efeito; encena: chega (point) @14 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -33,25 +33,25 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Ohio respondeu com a própria milícia, e as duas tropas chegaram à beira do rio, frente a frente.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; chegaram -> dust + som de impacto; encena: chega (point) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; chegaram -> dust + som de impacto; encena: fala (point) @1 -> acao + som de efeito; encena: chega (point) @10 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b4  (~4.1 s)
-- Narracao: Houve gritos, ameaças, e tiros. Todos para o alto. Ninguém acertou ninguém.
+## Cena b4  (~6.2 s)
+- Narracao: Houve gritos, ameaças, e tiros por cima dos topógrafos de Ohio. Todos para o alto. Ninguém acertou ninguém.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
-- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
+- Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140, gun@144, gun@148, gun@156, gun@160, gun@164, gun@168, gun@176, gun@180
 - Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (OHI) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; tiros -> burst + som de tiro/explosao; encena: atira @4 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: PARA O ALTO
 - Funcao na historia: GRANDE MOMENTO
 
-## Cena b5  (~6.6 s)
-- Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado na perna por um rapaz com um canivete.
-- Som ambiente: birds
+## Cena b5  (~7.2 s)
+- Narracao: Acontece que a única baixa foi um xerife de Michigan, espetado numa briga de taverna por um rapaz com um canivete.
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@60, thump@55
-- Efeito + som nas palavras-chave: encena: espeta (punch) @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: briga -> puff + som de baque; encena: espeta (punch) @10 -> acao + som de efeito; encena: golpe (punch) @12 -> acao + som de efeito
 - Efeito visual marcado: stars@60, burst@55
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -60,16 +60,16 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: O presidente mandou os dois pararem, e o Congresso ofereceu um acordo. Ninguém queria ceder.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: pedido: plano medio dos dois, um pede ao outro -> shot + som de efeito; encena: fala (point) @2 -> acao + som de efeito; encena: x_entrega (reach) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: fala (point) @2 -> acao + som de efeito; encena: x_serve (reach) @9 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: ACORDO
 - Funcao na historia: desenvolvimento
 
 ## Cena b7  (~5.5 s)
 - Narracao: Ohio ficou com Toledo. Michigan levou, de consolação, um pedaço de floresta gelada que ninguém queria.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -90,5 +90,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; perdeu -> puff + som de baque; encena: perde (facepalm) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
+
+## Fontes (fatos conferidos)
+- https://en.wikipedia.org/wiki/Toledo_War
+- https://www.michigan.gov/dmva/about/history/military-events/highlights/the-toledo-war

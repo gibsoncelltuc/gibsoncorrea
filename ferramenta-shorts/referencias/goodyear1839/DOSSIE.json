@@ -1,0 +1,102 @@
+{
+ "id": "goodyear1839",
+ "titulo": "Curiosidade e Ciência EP 17 - A Borracha que Caiu no Fogão",
+ "ancoras": {
+  "ano": 1839,
+  "era": "historica",
+  "regiao": "colonial",
+  "luz_base": "day",
+  "cenarios": [
+   "countryside",
+   "hall",
+   "interior loja",
+   "interior madeira",
+   "interior pedra",
+   "street"
+  ],
+  "cenarios_trocados": []
+ },
+ "proibido_pela_epoca": [
+  "caravela",
+  "carro antigo",
+  "carro dos anos 50",
+  "encouracado",
+  "escudo",
+  "galera a remo",
+  "navio a vapor de guerra",
+  "navio de guerra moderno",
+  "objeto moderno",
+  "predio de apartamentos",
+  "torre de refletor",
+  "veiculo a motor",
+  "veiculo moderno"
+ ],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "buildings/shop",
+  "kit/ball",
+  "kit/borracha",
+  "kit/coin",
+  "kit/enxofre",
+  "kit/frasco",
+  "kit/gosma",
+  "kit/panela",
+  "kit/room_azul_wood",
+  "kit/room_colonial_wood",
+  "kit/room_europa_wood",
+  "kit/room_rosa_shop",
+  "kit/room_verde_stone",
+  "kit/stove",
+  "kit/tires",
+  "kit/tubos",
+  "mk/Barrel",
+  "mk/Bed_Twin1",
+  "mk/Bench",
+  "mk/Bookcase_2",
+  "mk/Cabinet",
+  "mk/CandleStick_Stand",
+  "mk/CandleStick_Triple",
+  "mk/Chair_1",
+  "mk/Chest_Wood",
+  "mk/Crate_Wooden",
+  "mk/Nightstand_Shelf",
+  "mk/Shelf_Arch",
+  "mk/Shelf_Small_Bottles",
+  "mk/Stool",
+  "mk/Table_Large",
+  "mk/Vase_2",
+  "mk/Vase_4",
+  "mk/Workbench_Drawers"
+ ],
+ "pesquisa_visual": {
+  "local": "Woburn (Massachusetts, EUA): cozinha de casa simples com fogao de ferro; prisao de devedores; tribunais; fabricas de pneus depois",
+  "quando": "inverno de 1839 (a gosma no fogao quente); morreu em 1860 cheio de dividas",
+  "participantes": [
+   "Charles Goodyear, inventor falido",
+   "Clarissa, a esposa",
+   "credores e guardas da prisao de devedores",
+   "concorrentes que copiaram a ideia"
+  ],
+  "roupas": {
+   "GOO": "sobrecasaca escura, colete, cartola (anos 1830)",
+   "CLA": "vestido longo e coque",
+   "GUA": "guarda de prisao com bone de servico",
+   "COB": "cobrador de terno",
+   "POV": "povo dos anos 1830"
+  },
+  "cenario": "cozinha com fogao de ferro a lenha e panelas, cela de pedra, sala de tribunal, rua de vila americana",
+  "objetos": [
+   "borracha crua (gosma)",
+   "enxofre",
+   "fogao de ferro quente",
+   "panelas",
+   "pneus e bolas de borracha"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Charles_Goodyear",
+   "https://en.wikipedia.org/wiki/Vulcanization"
+  ]
+ },
+ "fontes": [],
+ "falta": []
+}

@@ -13,12 +13,12 @@ const speckle = (g, w, h, r, n, cols, rad = [1, 3]) => { for (let i = 0; i < n; 
 export function planks(seed = 1, rot = 0) {
   const [c, g] = cv(512, 512), r = rng(seed), n = 8, w = 512 / n;
   for (let i = 0; i < n; i++) {
-    const L = 52 + r() * 10, H = 30 + r() * 6;
-    g.fillStyle = hsl(H, 42, L); g.fillRect(i * w, 0, w, 512);
+    const L = 44 + r() * 10, H = 28 + r() * 6;
+    g.fillStyle = hsl(H, 28, L); g.fillRect(i * w, 0, w, 512);
     for (let k = 0; k < 5; k++) { g.strokeStyle = hsl(H - 4, 40, L - 10 - r() * 6, 0.45); g.lineWidth = 1 + r() * 2; g.beginPath(); const x = i * w + 4 + r() * (w - 8); g.moveTo(x, 0); g.bezierCurveTo(x + r() * 6 - 3, 170, x + r() * 6 - 3, 340, x + r() * 4 - 2, 512); g.stroke(); }
     const cut = r() * 512; g.fillStyle = 'rgba(40,24,14,.9)'; g.fillRect(i * w, cut, w, 4);
     for (const y of [cut - 18, cut + 18]) { g.fillStyle = '#2b2620'; g.beginPath(); g.arc(i * w + w * 0.3, y, 2.6, 0, 7); g.arc(i * w + w * 0.7, y, 2.6, 0, 7); g.fill(); }
-    g.fillStyle = 'rgba(30,18,10,.95)'; g.fillRect(i * w, 0, 3, 512);
+    g.fillStyle = 'rgba(32,20,12,.55)'; g.fillRect(i * w, 0, 2, 512);
     if (r() < 0.5) { g.fillStyle = hsl(H, 40, L - 16, .8); g.beginPath(); g.ellipse(i * w + w / 2, r() * 512, 5, 9, 0, 0, 7); g.fill(); }
   }
   return c;
@@ -73,17 +73,41 @@ export function mossy(c0, seed = 5, amt = 1) {
   return c;
 }
 export function grass(seed = 6) {
+  /* v11 RICKS CLIPS: gramado estilizado com camadas de pincelada, tufos V desenhados e micro-trevos */
   const [c, g] = cv(512, 512), r = rng(seed);
-  g.fillStyle = '#74c043'; g.fillRect(0, 0, 512, 512);   // MODO RICKS: campo chapado claro e saturado + poucas pinceladas (antes: ruido 'camuflado')
-  for (let i = 0; i < 26; i++) { g.fillStyle = hsl(92 + r() * 12, 58, 48 + r() * 8, .22); g.beginPath(); g.ellipse(r() * 512, r() * 512, 20 + r() * 50, 12 + r() * 30, r() * 3, 0, 7); g.fill(); }
-  for (let i = 0; i < 110; i++) { const x = r() * 512, y = r() * 512; g.strokeStyle = hsl(100 + r() * 14, 55, 36 + r() * 8, .55); g.lineWidth = 2.2; g.beginPath(); g.moveTo(x, y); g.lineTo(x + r() * 4 - 2, y - 5 - r() * 7); g.stroke(); }
-  for (let i = 0; i < 10; i++) { g.fillStyle = ['#f3e27a', '#ffffff', '#e8a0c0'][i % 3]; g.beginPath(); g.arc(r() * 512, r() * 512, 2.5, 0, 7); g.fill(); }
+  g.fillStyle = '#5b7537'; g.fillRect(0, 0, 512, 512);
+  for (let i = 0; i < 65; i++) {
+    g.fillStyle = hsl(76 + r() * 24, 34, 28 + r() * 14, .28);
+    g.beginPath(); g.ellipse(r() * 512, r() * 512, 16 + r() * 44, 10 + r() * 26, r() * 3, 0, 7); g.fill();
+  }
+  for (let i = 0; i < 380; i++) {
+    const x = r() * 512, y = r() * 512, h = 7 + r() * 10;
+    g.strokeStyle = hsl(82 + r() * 20, 36, 22 + r() * 12, .55);
+    g.lineWidth = 2.2;
+    g.beginPath();
+    g.moveTo(x - 3, y); g.lineTo(x - 5 + r() * 2, y - h);
+    g.moveTo(x, y); g.lineTo(x + r() * 3 - 1.5, y - h * 1.15);
+    g.moveTo(x + 3, y); g.lineTo(x + 5 - r() * 2, y - h * 0.9);
+    g.stroke();
+  }
+  for (let i = 0; i < 22; i++) {
+    g.fillStyle = ['#f6e676', '#fffdf2', '#f2a4c4'][i % 3];
+    g.beginPath(); g.arc(r() * 512, r() * 512, 2.4 + r() * 1.4, 0, 7); g.fill();
+  }
   return c;
 }
 export function dirt(seed = 7) {
+  /* v11 RICKS CLIPS: estrada de terra com sulcos suaves, pedrinhas e textura organica */
   const [c, g] = cv(512, 512), r = rng(seed);
-  g.fillStyle = '#a88a62'; g.fillRect(0, 0, 512, 512);
-  for (let i = 0; i < 46; i++) { g.fillStyle = hsl(30 + r() * 8, 30, 50 + r() * 10, .3); g.beginPath(); g.ellipse(r() * 512, r() * 512, 3 + r() * 14, 2 + r() * 8, r() * 3, 0, 7); g.fill(); }
+  g.fillStyle = '#8d6f4e'; g.fillRect(0, 0, 512, 512);
+  for (let i = 0; i < 90; i++) {
+    g.fillStyle = hsl(28 + r() * 10, 34, 40 + r() * 22, .32);
+    g.beginPath(); g.ellipse(r() * 512, r() * 512, 8 + r() * 28, 3 + r() * 10, r() * 0.4, 0, 7); g.fill();
+  }
+  for (let i = 0; i < 120; i++) {
+    g.fillStyle = hsl(30, 18, 35 + r() * 30, .55);
+    g.beginPath(); g.ellipse(r() * 512, r() * 512, 1.5 + r() * 4.5, 1.2 + r() * 3, r() * 3, 0, 7); g.fill();
+  }
   return c;
 }
 export function plaster(seed = 8, hue = 40) {

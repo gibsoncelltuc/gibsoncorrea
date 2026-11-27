@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Um químico inventou a cola mais fraca do mundo. E ela virou um dos pro...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (2): SIL (variante 0, expressao sad); CHE (variante 0, expressao angry)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/postit, kit/globe
@@ -15,9 +15,9 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 ## Cena b1 - Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados ...
 - Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
-- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 6 de POV
-- Animacao: -
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): POV (variante 0, expressao smile); POV (variante 1, expressao grin) | multidao: 18 de POV
+- Animacao: - | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): estados
 - RISCOS: nenhum
@@ -27,14 +27,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): SIL (variante 0, expressao grin, segura paper)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): super
 - RISCOS: nenhum
 
 ## Cena b3 - Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil...
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (1): SIL (variante 0, expressao shock, segura paper)
 - Animacao: reagir
@@ -53,31 +53,31 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava...
-- Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (3): FRY (variante 0, expressao sad); PAD (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 16 de POV
-- Animacao: encena | batalha encenada
-- Objetos/modelos: buildings/church
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
+- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
+- Personagens principais (3): FRY (variante 0, expressao sad); PAD (variante 0, expressao smile); POV (variante 0, expressao smile) | multidao: 4 de POV
+- Animacao: conversar | interacao: avanca e o outro recua
+- Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): colega, coral, igreja
 - RISCOS: nenhum
 
 ## Cena b6 - Os papeizinhos que marcavam as páginas do hinário viviam caindo no chã...
-- Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
+- Cenario: interior pedra | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): FRY (variante 0, expressao angry, segura paper); PAD (variante 0, expressao surprised)
-- Animacao: conversar | interacao: avanca e o outro recua
+- Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chao, hinario, paginas, papeizinhos
 - RISCOS: nenhum
 
 ## Cena b7 - Aí veio a ideia: marcadores com a cola fraca do Silver. Grudam, não ca...
-- Cenario: harbor | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
-- Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
-- Personagens principais (1): FRY (variante 0, expressao surprised)
-- Animacao: conversar
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
+- Personagens principais (1): FRY (variante 0, expressao surprised) | multidao: 6 de POV
+- Animacao: encena
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, pagina, silver
 - RISCOS: nenhum
@@ -104,7 +104,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b10 - Então distribuíram amostras de graça numa cidade inteira. Quase todo m...
 - Cenario: street | luz: day | clima: limpo
-- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): FRY (variante 0, expressao laugh); SIL (variante 0, expressao grin); CHE (variante 0, expressao laugh) | multidao: 30 de POV
 - Animacao: comemorar | batalha encenada
@@ -113,13 +113,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b11 - Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: close = close no rosto; empurra devagar
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): SIL (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/postit
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cola, lojas, postit
+- RISCOS: nenhum
+
+## Cena b12 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: street | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
+- Personagens principais (1): SIL (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: -
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -129,18 +139,19 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/postit | b0, b6, b7, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/globe | b0 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-buildings/church | b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/apartment | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/house_two | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/lamppost | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/postit | grandes momentos: b5, b10 | planos abertos: 3 | mistura: close 27% | medio 56% | aberto 10% | detalhe 7%
-- Interacoes: b0 discutir, b4 entregar, b6 avanca e o outro recua, b8 abracar, b9 susto
-- RISCOS GERAIS: nenhum
+- Objeto heroi: kit/postit | grandes momentos: b1, b10 | planos abertos: 3 | mistura: close 22% | medio 60% | aberto 14% | detalhe 4%
+- Interacoes: b0 discutir, b4 entregar, b5 avanca e o outro recua, b6 o outro se aproxima, b8 abracar, b9 susto
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py postit1968  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/postit1968/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh postit1968 bN bM` (so essas cenas).

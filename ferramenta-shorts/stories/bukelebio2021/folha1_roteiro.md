@@ -1,12 +1,12 @@
 # FOLHA 1 - ROTEIRO: Poder e Fama EP 01 - O Ditador Mais Legal do Mundo
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 10 cenas, 148 palavras (~51 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_cidade | 11 cenas, 161 palavras (~56 s)
 
 ## Cena b0  (~8.6 s)
 - Narracao: Em setembro de dois mil e vinte e um, o presidente de El Salvador, Nayib Bukele, usou o celular para trocar a descrição do perfil.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_usa (lift) @16 -> acao + som de efeito; encena: x_fone (lift) @18 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_fone (lift) @18 -> acao + som de efeito; encena: x_entrega (reach) @20 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: EL SALVADOR
 - Funcao na historia: GANCHO
@@ -33,7 +33,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Alguns dias depois, trocou por uma frase mais longa: o ditador mais legal do mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@30
-- Efeito + som nas palavras-chave: encena: g_trocou (reach) @3 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @3 -> acao + som de efeito
 - Efeito visual marcado: burst@30
 - Texto na tela: O DITADOR MAIS LEGAL DO MUNDO
 - Funcao na historia: GRANDE MOMENTO
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a notícia se espalhou pelo mundo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: g_espalhou (reach) @5 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: chega (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: - | mapa: MUNDO
 - Funcao na historia: VIRADA
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um jornal de cada país publicou a frase, e muita gente ficou discutindo se era piada ou não.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito; encena: g_discutin (point) @12 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: x_le (think) @1 -> acao + som de efeito; encena: x_fone (lift) @5 -> acao + som de efeito; encena: x_discute (point) @12 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Aliás, esse perfil muda bastante: Bukele costuma trocar o nome e a descrição.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,9 +87,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Conclusão: se a sua biografia estiver chata, lembre que dá para trocar em dez segundos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: x_entrega (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b10  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 
 

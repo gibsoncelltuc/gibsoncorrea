@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 27 - A Maior Prisão das Américas
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 25 acoes catalogadas, 25 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.1s a 3.3s - 13 palavras - plano two
@@ -34,19 +34,19 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | decretou (17.7s) | ACAO: g_decretou | g_decretou | OK |
-| 2 | presos (20.9s) | ACAO: prende | empurra/prende | OK |
-| 3 | - | INTERACAO | entregar | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 1 | presos (20.9s) | ACAO: prende | empurra/prende | OK |
+| 2 | - | INTERACAO | entregar | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b4 - 22.0s a 27.4s - 17 palavras - plano crowd
 > "Para guardar tanta gente, ergueram o Centro de Confinamento do Terrorismo, com vagas para quarenta mil presos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | ergueram (23.5s) | ACAO: constroi | martela e o objeto cresce | OK |
-| 2 | presos (27.4s) | ACAO: prende | empurra/prende | OK |
-| 3 | - | PLACA | 40 MIL | OK |
+| 1 | guardar (22.4s) | ACAO: pega | levanta/segura | OK |
+| 2 | ergueram (23.5s) | ACAO: constroi | martela e o objeto cresce | OK |
+| 3 | presos (27.4s) | ACAO: prende | empurra/prende | OK |
+| 4 | - | PLACA | 40 MIL | OK |
 
 ## Cena b5 - 28.6s a 32.2s - 12 palavras - plano low
 > "Muralhas altas, cercas elétricas e torres de vigia por todos os lados."
@@ -55,12 +55,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | ATUACAO | conversar | OK |
 
-## Cena b6 - 33.4s a 37.4s - 12 palavras - plano low
+## Cena b6 - 33.4s a 37.4s - 12 palavras - plano two
 > "Acontece que, nos anos seguintes, o número de assassinatos no país despencou."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | despencou (37.4s) | ACAO: g_despenco | g_despenco | OK |
+| 1 | despencou (37.4s) | ACAO: tomba | cai sentado no chao + poeira | OK |
 | 2 | - | INTERACAO | avanca e o outro recua | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
@@ -88,10 +88,20 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | PLACA | DEBATE | OK |
 
-## Cena b10 - 56.9s a 60.9s - 15 palavras - plano close
+## Cena b10 - 56.9s a 60.9s - 15 palavras - plano two
 > "E o modelo passou a ser estudado, copiado e criticado em vários lugares do mundo."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | conversar | OK |
+| 1 | estudado (58.0s) | ACAO: examina | examina com lupa/microscopio/balanca | OK |
+| 2 | copiado (58.8s) | ACAO: escreve | escreve/assina | OK |
+| 3 | - | ATUACAO | conversar | OK |
+
+## Cena b11 - 60.9s a 60.9s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | reagir | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

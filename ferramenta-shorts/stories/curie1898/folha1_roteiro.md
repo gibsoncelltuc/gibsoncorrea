@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Curiosidade e Ciência EP 19 - O Caderno que Ainda Brilha
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 12 cenas, 192 palavras (~66 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: loc_campo | 13 cenas, 205 palavras (~71 s)
 
 ## Cena b0  (~6.2 s)
 - Narracao: Existem cadernos tão perigosos que só podem ser lidos com roupa de proteção. E são de uma cientista.
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Marie Curie, uma polonesa genial, trabalhava com o marido Pierre num galpão velho e gelado.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_trabalha (point) @5 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rádio brilhava no escuro, com uma luz esverdeada. Marie adorava olhar os frascos à noite.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20, sting@50
-- Efeito + som nas palavras-chave: encena: brilha (point) @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: brilha (point) @2 -> acao + som de efeito; encena: olha (point) @11 -> acao + som de efeito
 - Efeito visual marcado: stars@20, ring@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -51,7 +51,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Ela carregava os frascos no bolso, e guardava na gaveta da mesa. Ninguém sabia do perigo.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: x_vigia (cross) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: pega (lift) @1 -> acao + som de efeito; encena: x_vigia (cross) @7 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Acontece que a radiação foi destruindo a saúde dela, aos poucos. Em mil novecentos e trinta e quatro, ela morreu.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@40
-- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: morre @19 -> acao + som de efeito
+- Efeito + som nas palavras-chave: (rosto) sad -> expr + som de efeito; morreu -> puff + som de baque; encena: g_destruin (point) @5 -> acao + som de efeito; encena: morre @19 -> acao + som de efeito
 - Efeito visual marcado: ring@40
 - Texto na tela: -
 - Funcao na historia: VIRADA
@@ -78,7 +78,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Mas os cadernos dela continuam radioativos até hoje, guardados em caixas de chumbo, numa biblioteca de Paris.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: pega (lift) @8 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -102,11 +102,20 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Funcao na historia: GRANDE MOMENTO
 
 ## Cena b11  (~5.2 s)
-- Narracao: Ou seja: os cadernos de Marie Curie vão continuar brilhando por muitos e muitos séculos.
+- Narracao: Ou seja: os cadernos de Marie Curie vão continuar radioativos por muitos e muitos séculos.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: brilha (point) @9 -> acao + som de efeito
+- Efeito + som nas palavras-chave: -
 - Efeito visual marcado: -
 - Texto na tela: -
+- Funcao na historia: desenvolvimento
+
+## Cena b12  (~4.5 s)
+- Narracao: Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Som ambiente: silencio/sala
+- Efeitos sonoros marcados: -
+- Efeito + som nas palavras-chave: -
+- Efeito visual marcado: -
+- Texto na tela: COMENTE!
 - Funcao na historia: FECHO/PIADA FINAL
 

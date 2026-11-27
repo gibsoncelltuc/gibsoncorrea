@@ -1,0 +1,73 @@
+{
+ "title": "Teste de Acoes",
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "set": "countryside",
+ "light": "day",
+ "mood": "playful",
+ "serie": "Teste",
+ "heroi": null,
+ "outfits": {
+  "SOL": {
+   "jacket": "#2f4f8f",
+   "pants": "#e8e0c8",
+   "boots": "#2a2218",
+   "hat": "shako",
+   "belt": "#2a2218",
+   "rifle": true
+  },
+  "FAZ": {
+   "jacket": "#8a5a3a",
+   "pants": "#4a3a2a",
+   "boots": "#2a2218",
+   "hat": "straw"
+  },
+  "REI": {
+   "jacket": "#6a2a6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "crown"
+  }
+ },
+ "beats": [
+  {
+   "who": [
+    "SOL:0:determined",
+    "FAZ:0:shock"
+   ],
+   "say": "Em mil oitocentos e quarenta, no interior da Franca, um soldado correu em cima de um cavalo e atirou para o alto.",
+   "mapa": "FRANÇA"
+  },
+  {
+   "who": [
+    "REI:0:stern",
+    "FAZ:0:smile"
+   ],
+   "say": "Dias depois, o rei e o fazendeiro fizeram um acordo, apertaram as maos e riram muito."
+  },
+  {
+   "who": [
+    "FAZ:0:smile",
+    "SOL:0:stern"
+   ],
+   "say": "O fazendeiro entrou no carro, acelerou pela estrada e o carro decolou e voou por cima da cerca."
+  },
+  {
+   "who": [
+    "SOL:0:stern",
+    "FAZ:1:smile",
+    "REI:0:smile"
+   ],
+   "say": "No mercado, os homens discutiram, um empurrou o outro e todo mundo caiu no chao.",
+   "interior": false,
+   "set": "street"
+  },
+  {
+   "who": [
+    "REI:0:grin"
+   ],
+   "say": "No fim, o rei comemorou, pulou de alegria e chorou de rir."
+  }
+ ],
+ "min_momentos": 0
+}

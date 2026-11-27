@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 16 - A Torre que Pegou um Foguete no Ar
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 12 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 37 acoes catalogadas, 37 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 5.7s - 18 palavras - plano two
@@ -46,8 +46,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | aproxima-se | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | apelidaram (27.7s) | ACAO: g_apelidar | g_apelidar | OK |
+| 2 | - | INTERACAO | aproxima-se | OK |
+| 3 | - | ATUACAO | conversar | OK |
 
 ## Cena b5 - 34.1s a 39.1s - 18 palavras - plano crowd
 > "No dia do teste, o propulsor gigante decolou com trinta e três motores acesos, e sumiu no céu."
@@ -61,7 +62,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | reagir | OK |
+| 1 | descendo (42.5s) | ACAO: g_descendo | g_descendo | OK |
+| 2 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 45.9s a 50.8s - 15 palavras - plano low
 > "Acontece que, no último segundo, os braços se fecharam, e seguraram o foguete no ar."
@@ -69,8 +71,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | fecharam (48.7s) | ACAO: x_abre | empurra a porta | OK |
-| 2 | - | INTERACAO | susto | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | seguraram (49.7s) | ACAO: g_segurara | g_segurara | OK |
+| 3 | - | INTERACAO | susto | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b8 - 51.8s a 56.6s - 15 palavras - plano orbit
 > "Os engenheiros comemoraram aos gritos. Era a primeira vez que alguém fazia isso na história."
@@ -89,9 +92,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | comemorou (57.9s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | INTERACAO | abracar | OK |
-| 4 | - | ATUACAO | comemorar | OK |
+| 2 | redes (58.8s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | INTERACAO | abracar | OK |
+| 5 | - | ATUACAO | comemorar | OK |
 
 ## Cena b10 - 62.1s a 66.3s - 16 palavras - plano two
 > "Assim, o propulsor que antes ia para o lixo pode ser usado de novo, várias vezes."
@@ -106,5 +110,6 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | ATUACAO | comemorar | OK |
+| 1 | repetiu (68.3s) | ACAO: g_repetiu | g_repetiu | OK |
+| 2 | - | ATUACAO | comemorar | OK |
 

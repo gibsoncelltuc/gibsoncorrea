@@ -9,7 +9,7 @@
   ],
   [
    3.06842,
-   5.1685
+   5.16854
   ],
   [
    5.48663,
@@ -17,7 +17,7 @@
   ],
   [
    7.45433,
-   9.34154
+   9.34275
   ],
   [
    9.5965,
@@ -36,7 +36,7 @@
    17.5753
   ],
   [
-   18.4142,
+   18.4143,
    19.3479
   ],
   [
@@ -57,7 +57,7 @@
   ],
   [
    28.1923,
-   29.4338
+   29.4333
   ],
   [
    29.6842,
@@ -93,7 +93,7 @@
   ],
   [
    47.3931,
-   49.1308
+   49.1309
   ],
   [
    49.3831,
@@ -113,7 +113,7 @@
   {
    "text": "A Uni\u00e3o Sovi\u00e9tica invadiu a Finl\u00e2ndia,",
    "s": 3.068,
-   "e": 5.168
+   "e": 5.169
   },
   {
    "text": "com um ex\u00e9rcito enorme.",
@@ -123,7 +123,7 @@
   {
    "text": "Os soldados finlandeses eram poucos,",
    "s": 7.454,
-   "e": 9.342
+   "e": 9.343
   },
   {
    "text": "mas conheciam a floresta,",
@@ -173,7 +173,7 @@
   {
    "text": "Em cerca de cem dias,",
    "s": 28.192,
-   "e": 29.434
+   "e": 29.433
   },
   {
    "text": "ele teve mais de quinhentos inimigos confirmados,",

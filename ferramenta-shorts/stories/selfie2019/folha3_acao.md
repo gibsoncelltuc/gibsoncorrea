@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 28 - A Selfie na ONU
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 33 acoes catalogadas, 33 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 36 acoes catalogadas, 36 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.0s a 5.6s - 16 palavras - plano two
@@ -24,6 +24,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
 | 2 | - | MAPA | ESTADOS UNIDOS | OK |
+| 3 | - | PLACA | ONU · NOVA YORK | OK |
 
 ## Cena b2 - 11.9s a 16.3s - 13 palavras - plano two
 > "Ali, os líderes de quase todos os países fazem discursos longos e sérios."
@@ -49,7 +50,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | tirou (26.3s) | ACAO: tira | tira foto (celular + flash) | OK |
 | 2 | celular (27.0s) | ACAO: x_fone | celular na mao + toque | OK |
 | 3 | - | EMOCAO: pleading | o rosto vira "pleading" na palavra | OK |
-| 4 | - | ATUACAO | conversar | OK |
+| 4 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 28.1s a 33.3s - 15 palavras - plano low
 > "Virou de costas para a plateia, e tirou uma selfie com o plenário inteiro atrás."
@@ -64,9 +65,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | selfie (37.0s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | INTERACAO | pular | OK |
-| 3 | - | ATUACAO | comemorar | OK |
+| 1 | brincou (34.1s) | ACAO: g_brincou | g_brincou | OK |
+| 2 | selfie (37.0s) | ACAO: tira | tira foto (celular + flash) | OK |
+| 3 | - | INTERACAO | pular | OK |
+| 4 | - | ATUACAO | comemorar | OK |
 
 ## Cena b7 - 39.3s a 43.3s - 12 palavras - plano crowd
 > "E ele tinha razão. A foto rodou o planeta em poucas horas."
@@ -74,9 +76,8 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | foto (41.1s) | ACAO: tira | tira foto (celular + flash) | OK |
-| 2 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | SELFIE | OK |
+| 2 | - | ATUACAO | comemorar | OK |
+| 3 | - | PLACA | SELFIE | OK |
 
 ## Cena b8 - 43.7s a 47.4s - 11 palavras - plano two
 > "Alguns acharam falta de respeito com a ONU. Outros acharam genial."
@@ -92,8 +93,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | - | INTERACAO | insiste | OK |
-| 2 | - | ATUACAO | conversar | OK |
+| 1 | defendeu (48.9s) | ACAO: g_defendeu | g_defendeu | OK |
+| 2 | internet (53.7s) | ACAO: x_fone | celular na mao + toque | OK |
+| 3 | - | INTERACAO | insiste | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b10 - 54.1s a 58.5s - 13 palavras - plano close
 > "Uma selfie de um segundo, que ficou mais famosa que muitos discursos inteiros."

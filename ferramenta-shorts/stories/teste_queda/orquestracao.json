@@ -1,0 +1,40 @@
+{
+ "id": "teste_queda",
+ "ano": 1900,
+ "cenarios_trocados": [],
+ "metricas": {
+  "acoes_encenadas": 100,
+  "acoes_chave_com_efeito": 0,
+  "explicacoes_cobertas": 100,
+  "cenario_e_epoca_ok": 100
+ },
+ "cenas": [
+  {
+   "cena": "b0",
+   "frase": "No campo, João empurrou Pedro com força e Pedro caiu no chão.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b1",
+   "frase": "Ele tropeçou numa pedra, desmaiou e ficou caído por um minuto.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  },
+  {
+   "cena": "b2",
+   "frase": "Depois os dois pularam de alegria e jogaram a bola para cima.",
+   "classe": "simples",
+   "sujeito": "personagem",
+   "briefing": {},
+   "acoes_faltando": [],
+   "cenario": "countryside"
+  }
+ ]
+}

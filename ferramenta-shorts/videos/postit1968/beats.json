@@ -65,7 +65,12 @@
    "sfx": [
     "ding@30"
    ],
-   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta."
+   "say": "Um químico inventou a cola mais fraca do mundo. E ela virou um dos produtos mais vendidos do planeta.",
+   "detalhe": false,
+   "shot_lock": true,
+   "verbos_ok": [
+    "invent"
+   ]
   },
   {
    "shot": "reveal",
@@ -75,7 +80,8 @@
    ],
    "mapa": "ESTADOS UNIDOS",
    "mapa_at": 3,
-   "say": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos."
+   "say": "Era mil novecentos e sessenta e oito, numa grande fábrica dos Estados Unidos.",
+   "impact": true
   },
   {
    "shot": "two",
@@ -92,7 +98,7 @@
    "say": "Spencer Silver tentava criar uma super cola, tão forte que nada conseguisse descolar."
   },
   {
-   "shot": "close",
+   "shot": "group",
    "interior": "madeira",
    "who": [
     "SIL:0:shock:paper"
@@ -103,7 +109,9 @@
    "sfx": [
     "sting@30"
    ],
-   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca."
+   "say": "Acontece que saiu o contrário: uma cola que grudava, mas soltava fácil, sem deixar marca.",
+   "detalhe": false,
+   "shot_lock": true
   },
   {
    "shot": "two",
@@ -116,23 +124,55 @@
    "say": "Durante anos, ele mostrou a cola para todo mundo na empresa. Ninguém via utilidade."
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "FRY:0:sad",
     "PAD:0:smile",
     "POV:0:smile"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "crowd": {
-    "n": 16,
+    "n": 4,
     "outfits": [
      "POV"
     ],
-    "march": false,
-    "expr": "smile"
+    "march": false
    },
-   "say": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja."
+   "say": "Até que, em mil novecentos e setenta e quatro, o colega Art Fry estava cantando no coral da igreja.",
+   "interior": "pedra",
+   "moveis": [
+    [
+     "mk/Bench",
+     -6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/Bench",
+     6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     -4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/BookStand",
+     0.0,
+     -3.4,
+     2.2
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -146,7 +186,40 @@
    "sfx": [
     "whoosh@30"
    ],
-   "say": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido."
+   "say": "Os papeizinhos que marcavam as páginas do hinário viviam caindo no chão. E ele ficava perdido.",
+   "interior": "pedra",
+   "moveis": [
+    [
+     "mk/Bench",
+     -6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/Bench",
+     6.2,
+     -1.8,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     -4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/CandleStick_Stand",
+     4.0,
+     -3.2,
+     2.2
+    ],
+    [
+     "mk/BookStand",
+     0.0,
+     -3.4,
+     2.2
+    ]
+   ]
   },
   {
    "shot": "close",
@@ -201,7 +274,8 @@
    "sfx": [
     "sting@40"
    ],
-   "say": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava."
+   "say": "O primeiro teste de vendas foi um fracasso. Ninguém entendia para que servia um bloquinho que descolava.",
+   "interior": "loja"
   },
   {
    "shot": "crowd",
@@ -239,7 +313,8 @@
    ],
    "text": "POST-IT",
    "titulo": true,
-   "say": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais."
+   "say": "Então distribuíram amostras de graça numa cidade inteira. Quase todo mundo que testou quis comprar mais.",
+   "impact": true
   },
   {
    "shot": "close",
@@ -257,5 +332,33 @@
    "text": "1980",
    "say": "Em mil novecentos e oitenta, o post-it chegou às lojas. Tudo graças a uma cola que deu errado."
   }
- ]
+ ],
+ "visual": {
+  "local": "laboratorio da 3M em St. Paul (Minnesota, EUA); igreja presbiteriana com coral; lojas e a cidade de Boise (Idaho) no teste de 1978",
+  "quando": "1968 (a cola fraca), 1974 (a ideia no coral), 1977-78 (testes de venda), 1980 (lancamento)",
+  "participantes": [
+   "Spencer Silver, quimico da 3M",
+   "Art Fry, colega que cantava no coral",
+   "chefes da 3M",
+   "moradores de Boise"
+  ],
+  "roupas": {
+   "SIL": "jaleco branco de laboratorio e oculos (anos 60)",
+   "FRY": "camisa, gravata e oculos (anos 70)",
+   "CHE": "executivo de terno",
+   "PAD": "pastor de batina escura",
+   "POV": "moradores dos anos 70"
+  },
+  "cenario": "laboratorio com bancadas e frascos, igreja com bancos e hinarios, loja com prateleiras, rua de cidade americana",
+  "objetos": [
+   "bloquinho amarelo de post-it",
+   "hinario com marcadores caindo",
+   "frascos de cola",
+   "amostras gratis"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Post-it_Note",
+   "https://www.3m.com/3M/en_US/post-it-notes/contact-us/about-us/"
+  ]
+ }
 }

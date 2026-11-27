@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Duas palavras transformaram um empresário de Nova York numa estrela da televisão mundial: você está demitido.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: vira (up) @2 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2004
 - Funcao na historia: GANCHO
@@ -76,7 +76,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 
 ## Cena b8  (~5.9 s)
 - Narracao: O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mesmo ano, com Roberto Justus.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@30
 - Efeito + som nas palavras-chave: encena: g_espalhou (reach) @3 -> acao + som de efeito; encena: g_estreou (point) @10 -> acao + som de efeito
 - Efeito visual marcado: stars@30

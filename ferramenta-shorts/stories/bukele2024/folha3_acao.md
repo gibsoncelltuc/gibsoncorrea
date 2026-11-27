@@ -1,7 +1,7 @@
 # FOLHA 3 - ACOES - Poder e Fama EP 26 - O Presidente dos 85 por Cento
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 32 acoes catalogadas, 32 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 12 frases, 38 acoes catalogadas, 38 com animacao, 0 faltando -> pronto para renderizar
 
 
 ## Cena b0 - 0.2s a 4.8s - 20 palavras - plano two
@@ -25,7 +25,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | prometendo (15.3s) | ACAO: g_prometen | g_prometen | OK |
+| 1 | prometendo (15.3s) | ACAO: fala | aponta explicando | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | CHEGADA | alguem entra andando | OK |
@@ -35,9 +35,10 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | liberou (25.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
-| 2 | - | INTERACAO | discutir | OK |
-| 3 | - | ATUACAO | discutir | OK |
+| 1 | seguida (20.0s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | liberou (25.5s) | ACAO: x_solta | solta/liberta + brilho | OK |
+| 3 | - | INTERACAO | discutir | OK |
+| 4 | - | ATUACAO | discutir | OK |
 
 ## Cena b4 - 26.7s a 31.4s - 14 palavras - plano crowd
 > "Críticos e opositores disseram que a candidatura era ilegal. O governo defendeu a decisão."
@@ -46,9 +47,9 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 |---|---|---|---|---|
 | 1 | ilegal (29.1s) | EFEITO: ring | onda + som | OK |
 | 2 | ilegal (29.1s) | ACAO: duvida | ombros para cima (nao acredita) | OK |
-| 3 | defendeu (30.9s) | ACAO: g_defendeu | g_defendeu | OK |
+| 3 | defendeu (30.9s) | ACAO: x_defende | bracos cruzados se defendendo + onda | OK |
 | 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
-| 5 | - | ATUACAO | conversar | OK |
+| 5 | - | ATUACAO | reagir | OK |
 
 ## Cena b5 - 32.7s a 35.1s - 9 palavras - plano two
 > "No dia da eleição, os salvadorenhos foram às urnas."
@@ -56,26 +57,28 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | eleição (33.2s) | ACAO: voto | poe o voto na urna | OK |
-| 2 | - | INTERACAO | entregar | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 2 | urnas (35.1s) | ACAO: voto | poe o voto na urna | OK |
+| 3 | - | INTERACAO | entregar | OK |
+| 4 | - | ATUACAO | conversar | OK |
 
 ## Cena b6 - 36.3s a 40.7s - 15 palavras - plano close
 > "Acontece que o resultado impressionou: Bukele teve quase oitenta e cinco por cento dos votos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | impressionou (37.5s) | ACAO: g_impressi | g_impressi | OK |
-| 2 | - | ATUACAO | reagir | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
 ## Cena b7 - 41.9s a 46.6s - 13 palavras - plano crowd
 > "Os apoiadores lotaram as ruas. Ele comemorou numa sacada, diante de uma multidão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comemorou (44.7s) | ACAO: vence | bracos para cima + brilho | OK |
-| 2 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
-| 3 | - | ATUACAO | comemorar | OK |
-| 4 | - | PLACA | 84,6% | OK |
+| 1 | lotaram (42.8s) | ACAO: chega | entra andando pela lateral | OK |
+| 2 | comemorou (44.7s) | ACAO: vence | bracos para cima + brilho | OK |
+| 3 | - | EMOCAO: laugh | o rosto vira "laugh" na palavra | OK |
+| 4 | - | BATALHA | tropa em combate: tiros piscando pela tropa, soldados caindo | OK |
+| 5 | - | ATUACAO | comemorar | OK |
+| 6 | - | PLACA | 84,6% | OK |
 
 ## Cena b8 - 48.0s a 52.3s - 15 palavras - plano two
 > "O motivo mais citado pelos eleitores: a queda enorme no número de assassinatos no país."
@@ -85,6 +88,7 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | eleitores (49.4s) | ACAO: voto | poe o voto na urna | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
+| 4 | - | PLACA | HOSPITAL | OK |
 
 ## Cena b9 - 53.4s a 58.3s - 15 palavras - plano two
 > "Organizações de direitos humanos, porém, criticaram as prisões em massa e o estado de exceção."
@@ -101,4 +105,12 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | comemorar | OK |
+
+## Cena b11 - 63.9s a 63.9s - 13 palavras - plano close
+> "Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?"
+
+| # | palavra (instante) | acao catalogada | animacao executada | ok? |
+|---|---|---|---|---|
+| 1 | - | ATUACAO | conversar | OK |
+| 2 | - | PLACA | COMENTE! | OK |
 

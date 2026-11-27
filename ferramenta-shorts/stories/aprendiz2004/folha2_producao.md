@@ -4,8 +4,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b0 - Duas palavras transformaram um empresário de Nova York numa estrela da...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): TRU (variante 0, expressao smug); CND (variante 0, expressao shock)
 - Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/tv, kit/marco_trumptower
@@ -23,7 +23,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b2 - Dezesseis candidatos disputavam um prêmio raro: um emprego de verdade ...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao grin); CND (variante 0, expressao nervous)
@@ -34,8 +34,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 
 ## Cena b3 - Toda semana, as equipes tinham uma tarefa de negócios, como vender lim...
 - Cenario: street | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): CND (variante 0, expressao grin); POV (variante 0, expressao surprised)
 - Animacao: conversar | interacao: entregar
 - Objetos/modelos: kit/stall, kit/marco_trumptower
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - No fim, a equipe perdedora ia para a sala de reunião, e alguém tinha q...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); CND (variante 0, expressao nervous)
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Acontece que o jeito de eliminar virou a marca do programa. Ele aponta...
-- Cenario: interior pedra | luz: day | clima: limpo
+- Cenario: interior loja | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): TRU (variante 0, expressao smug)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - O vencedor, Bill Rancic, ganhou o emprego, com salário de duzentos e c...
-- Cenario: interior loja | luz: day | clima: limpo
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): RAN (variante 0, expressao laugh); TRU (variante 0, expressao grin)
@@ -83,12 +83,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - O formato se espalhou pelo mundo. No Brasil, O Aprendiz estreou no mes...
-- Cenario: jungle | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (2): POV (variante 0, expressao surprised); POV (variante 1, expressao grin) | multidao: 6 de POV
 - Animacao: encena
-- Objetos/modelos: -
+- Objetos/modelos: kit/marco_trumptower
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aprendiz, brasil, formato, roberto
 - RISCOS: nenhum
 
@@ -118,13 +118,13 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tv | b0, b6, b9, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_trumptower | b0, b1, b3, b6, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_trumptower | b0, b1, b3, b6, b8, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/stall | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/picket_fence | b6 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 20% | medio 66% | aberto 11% | detalhe 3%
+- Objeto heroi: kit/tv | grandes momentos: b1, b6 | planos abertos: 3 | mistura: close 20% | medio 61% | aberto 11% | detalhe 7%
 - Interacoes: b0 susto, b2 aproxima-se, b3 entregar, b4 discutir, b7 abracar, b9 vai ate o outro
 - RISCOS GERAIS: nenhum
 

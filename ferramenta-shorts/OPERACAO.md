@@ -14,7 +14,7 @@ Ideias ainda livres: Orelha de Jenkins (1739), Banquinho Dourado (1900), 335 ano
 Cuidado visto na prática: "noite"/"neve" valem só na cena onde aparecem (desde 18/11 não vazam para as seguintes). Todo figurino precisa das cores `jacket`, `pants`, `boots`; chapéu `cap`/`beret`/`bonnet` usa a cor `cap`.
 
 ## Sessões de produção: ferramenta sempre atualizada
-ANTES de começar CADA vídeo: `git fetch origin claude/serene-dirac-ckwlt5 && git merge --no-edit FETCH_HEAD` e `npm test` (tem que dar "TESTE DA FERRAMENTA: OK"). Vídeo feito com ferramenta velha sai sem as correções do dia.
+ANTES de começar CADA vídeo: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit FETCH_HEAD` e `npm test` (tem que dar "TESTE DA FERRAMENTA: OK"). Vídeo feito com ferramenta velha sai sem as correções do dia.
 
 Objeto que BRILHA no escuro (lâmpada, LED, luzes no céu): no script do Blender chame `luz()` logo depois de `novo(...)`.
 
@@ -127,7 +127,7 @@ Quadrado só o que é quadrado de verdade: placa, casa, caixote, mesa, livro. To
 | fila parada (`bash status.sh` sem processo) | `nohup bash run_queue.sh > logs/queue_run.log 2>&1 &` |
 | máquina reiniciou | a fila volta sozinha; recrie a espera em segundo plano |
 | personagem cortado / cena vazia / objeto fora do quadro | ver "Reparos" no fim da folha 2 |
-| várias sessões no mesmo repositório | cada sessão trabalha no SEU branch e em ids diferentes; antes de começar: `git fetch origin claude/serene-dirac-ckwlt5 && git merge --no-edit FETCH_HEAD` para pegar a ferramenta mais nova |
+| várias sessões no mesmo repositório | cada sessão trabalha no SEU branch e em ids diferentes; antes de começar: `git fetch origin claude/bold-sagan-dskrsj && git merge --no-edit FETCH_HEAD` para pegar a ferramenta mais nova |
 
 ## Arquivos
 

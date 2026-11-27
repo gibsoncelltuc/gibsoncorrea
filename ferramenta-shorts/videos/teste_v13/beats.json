@@ -1,0 +1,213 @@
+{
+ "voice": "pt-BR-AntonioNeural",
+ "rate": "+10%",
+ "serie": "Teste",
+ "ep": 13,
+ "title": "Teste v13 2026",
+ "ano": 2026,
+ "set": "outback",
+ "light": "day",
+ "heroi": "kit/roadster26",
+ "cta": false,
+ "outfits": {
+  "MUS": {
+   "jacket": "#4a505c",
+   "pants": "#3a4766",
+   "boots": "#1b1b1f",
+   "hat": "hair",
+   "hair": "#5a3e2a",
+   "pele": "#f2dcc8"
+  },
+  "ENG": {
+   "jacket": "#1f3f6a",
+   "pants": "#2a2a30",
+   "boots": "#1b1b1f",
+   "hat": "cap",
+   "cap": "#1b1b1f"
+  },
+  "POV": {
+   "jacket": "#3f6fb5",
+   "pants": "#4a3a2a",
+   "boots": "#1b1b1f",
+   "hats": [
+    "cap",
+    "hair"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "who": [
+    "MUS:0:grin",
+    "ENG:0:surprised"
+   ],
+   "say": "Em dois mil e vinte e seis, a Tesla mostrou um carro que sai do chão.",
+   "props": [
+    [
+     "kit/roadster26",
+     0,
+     -4.0,
+     1.0
+    ]
+   ],
+   "hora": "noite",
+   "mapa": "ESTADOS UNIDOS"
+  },
+  {
+   "say": "O segredo são propulsores de ar comprimido escondidos embaixo do carro, que empurram ele para cima.",
+   "explica": {
+    "raiox": "escondidos",
+    "pecas": [
+     [
+      "kit/tanque_ar",
+      -0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ],
+     [
+      "kit/tanque_ar",
+      0.9,
+      0.42,
+      0,
+      0.55,
+      {
+       "rz": 1.5708
+      }
+     ]
+    ],
+    "vfx": [
+     {
+      "k": "jato",
+      "na": "empurram"
+     }
+    ],
+    "rotulos": [
+     [
+      "PROPULSORES",
+      "baixo",
+      "propulsores"
+     ],
+     [
+      "AR COMPRIMIDO",
+      "topo",
+      "comprimido"
+     ]
+    ],
+    "setas": [
+     [
+      "cima",
+      "EMPUXO",
+      "",
+      "cima"
+     ]
+    ]
+   }
+  },
+  {
+   "who": [
+    "MUS:0:laugh"
+   ],
+   "say": "Diante dos convidados, o carro decolou e voou por cima da pista.",
+   "props": [
+    [
+     "kit/roadster26",
+     0,
+     -4.0,
+     1.0
+    ]
+   ],
+   "hora": "noite"
+  },
+  {
+   "say": "Segundo a Tesla, ele vai de zero a cem em menos de um segundo.",
+   "explica": {
+    "medidor": {
+     "de": 0,
+     "para": 100,
+     "un": "km/h",
+     "titulo": "ZERO A CEM",
+     "na": "zero",
+     "dur": 0.9
+    }
+   }
+  },
+  {
+   "who": [
+    "ENG:0:shock"
+   ],
+   "shot": "wide",
+   "say": "Depois o carro acelerou e pulou bem alto diante de todos.",
+   "props": [
+    [
+     "kit/roadster26",
+     -3,
+     -5.0,
+     1.0
+    ]
+   ],
+   "hora": "noite"
+  },
+  {
+   "who": [
+    "POV:0:surprised",
+    "POV:1:grin"
+   ],
+   "shot": "wide",
+   "say": "No fim ele desceu devagar e pousou no asfalto.",
+   "props": [
+    [
+     "kit/roadster26",
+     0,
+     -5.0,
+     1.0
+    ]
+   ],
+   "hora": "noite"
+  },
+  {
+   "say": "O ar sai do tanque, passa pela válvula e vira um jato.",
+   "explica": {
+    "passos": [
+     "TANQUE",
+     "VÁLVULA",
+     "JATO"
+    ],
+    "vfx": [
+     {
+      "k": "jato",
+      "na": "jato"
+     }
+    ],
+    "comparar_up": 0.4
+   }
+  },
+  {
+   "who": [
+    "MUS:0:smile",
+    "ENG:0:grin"
+   ],
+   "say": "Carro comum demora três segundos, este demora um.",
+   "explica": {
+    "manobra": "gira",
+    "comparar": [
+     [
+      "CARRO COMUM",
+      3,
+      "s"
+     ],
+     [
+      "ROADSTER",
+      1,
+      "s"
+     ]
+    ]
+   }
+  }
+ ],
+ "cinf": 1.5,
+ "exp": 1.404
+}

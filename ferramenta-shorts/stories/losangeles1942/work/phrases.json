@@ -1,0 +1,270 @@
+{
+ "duration": 61.152,
+ "frames30": 1835,
+ "source": "silence-align (cost 0.74)",
+ "segments": [
+  [
+   0.160083,
+   2.58354
+  ],
+  [
+   2.93421,
+   4.15792
+  ],
+  [
+   5.02233,
+   7.19475
+  ],
+  [
+   7.48996,
+   8.9255
+  ],
+  [
+   9.17433,
+   10.632
+  ],
+  [
+   11.484,
+   12.1628
+  ],
+  [
+   12.4437,
+   14.9169
+  ],
+  [
+   15.2457,
+   16.9681
+  ],
+  [
+   17.8239,
+   18.515
+  ],
+  [
+   18.7555,
+   19.7008
+  ],
+  [
+   19.9668,
+   21.5361
+  ],
+  [
+   21.8857,
+   23.3318
+  ],
+  [
+   24.2132,
+   25.7422
+  ],
+  [
+   26.1082,
+   28.8417
+  ],
+  [
+   29.696,
+   31.9827
+  ],
+  [
+   32.8595,
+   34.5461
+  ],
+  [
+   34.7495,
+   35.8945
+  ],
+  [
+   36.8,
+   38.4133
+  ],
+  [
+   38.6835,
+   40.2986
+  ],
+  [
+   40.5397,
+   41.467
+  ],
+  [
+   42.3223,
+   43.1292
+  ],
+  [
+   43.3475,
+   45.4611
+  ],
+  [
+   45.729,
+   46.7973
+  ],
+  [
+   47.6338,
+   48.9495
+  ],
+  [
+   49.2043,
+   50.3067
+  ],
+  [
+   50.5737,
+   51.9742
+  ],
+  [
+   52.823,
+   55.998
+  ],
+  [
+   56.8494,
+   58.2938
+  ],
+  [
+   58.5867,
+   60.3484
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Uma cidade inteira passou a noite atirando no c\u00e9u,",
+   "s": 0.16,
+   "e": 2.584
+  },
+  {
+   "text": "e n\u00e3o havia inimigo nenhum.",
+   "s": 2.934,
+   "e": 4.158
+  },
+  {
+   "text": "Era fevereiro de mil novecentos e quarenta e dois,",
+   "s": 5.022,
+   "e": 7.195
+  },
+  {
+   "text": "logo depois de Pearl Harbor,",
+   "s": 7.49,
+   "e": 8.925
+  },
+  {
+   "text": "e Los Angeles vivia com medo.",
+   "s": 9.174,
+   "e": 10.632
+  },
+  {
+   "text": "Na v\u00e9spera,",
+   "s": 11.484,
+   "e": 12.163
+  },
+  {
+   "text": "um submarino japon\u00eas tinha atirado na Calif\u00f3rnia,",
+   "s": 12.444,
+   "e": 14.917
+  },
+  {
+   "text": "e todo mundo achava que vinha mais.",
+   "s": 15.246,
+   "e": 16.968
+  },
+  {
+   "text": "Na madrugada,",
+   "s": 17.824,
+   "e": 18.515
+  },
+  {
+   "text": "as sirenes tocaram,",
+   "s": 18.756,
+   "e": 19.701
+  },
+  {
+   "text": "as luzes da cidade se apagaram,",
+   "s": 19.967,
+   "e": 21.536
+  },
+  {
+   "text": "e holofotes varreram o c\u00e9u.",
+   "s": 21.886,
+   "e": 23.332
+  },
+  {
+   "text": "Algu\u00e9m viu um objeto no c\u00e9u,",
+   "s": 24.213,
+   "e": 25.742
+  },
+  {
+   "text": "e os soldados come\u00e7aram a atirar com canh\u00f5es antia\u00e9reos.",
+   "s": 26.108,
+   "e": 28.842
+  },
+  {
+   "text": "Os soldados juravam que havia inimigos no c\u00e9u.",
+   "s": 29.696,
+   "e": 31.983
+  },
+  {
+   "text": "Acontece que n\u00e3o havia nada ali,",
+   "s": 32.859,
+   "e": 34.546
+  },
+  {
+   "text": "s\u00f3 nuvens e fuma\u00e7a.",
+   "s": 34.749,
+   "e": 35.895
+  },
+  {
+   "text": "Foram mais de mil tiros de canh\u00e3o,",
+   "s": 36.8,
+   "e": 38.413
+  },
+  {
+   "text": "e os estilha\u00e7os ca\u00edram na cidade,",
+   "s": 38.684,
+   "e": 40.299
+  },
+  {
+   "text": "que ficou em p\u00e2nico.",
+   "s": 40.54,
+   "e": 41.467
+  },
+  {
+   "text": "No dia seguinte,",
+   "s": 42.322,
+   "e": 43.129
+  },
+  {
+   "text": "os militares discutiram o que tinha acontecido,",
+   "s": 43.347,
+   "e": 45.461
+  },
+  {
+   "text": "e ningu\u00e9m sabia dizer.",
+   "s": 45.729,
+   "e": 46.797
+  },
+  {
+   "text": "Algumas pessoas morreram,",
+   "s": 47.634,
+   "e": 48.95
+  },
+  {
+   "text": "por acidente e por susto,",
+   "s": 49.204,
+   "e": 50.307
+  },
+  {
+   "text": "mas nenhum inimigo apareceu.",
+   "s": 50.574,
+   "e": 51.974
+  },
+  {
+   "text": "O \u00fanico alvo derrotado naquela noite foi o sono de Los Angeles.",
+   "s": 52.823,
+   "e": 55.998
+  },
+  {
+   "text": "Agora n\u00e3o deixe de comentar:",
+   "s": 56.849,
+   "e": 58.294
+  },
+  {
+   "text": "qual deve ser o tema do pr\u00f3ximo v\u00eddeo?",
+   "s": 58.587,
+   "e": 60.348
+  }
+ ]
+}

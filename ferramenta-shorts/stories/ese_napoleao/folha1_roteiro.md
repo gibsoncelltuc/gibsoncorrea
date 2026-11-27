@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Os ingleses resistiram por horas, e o combate ficou por um fio.
 - Som ambiente: birds | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: sting@30, gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116
-- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito
+- Efeito + som nas palavras-chave: tiros: 5 soldados caem no chao -> acao + som de efeito; encena: g_resistir (point) @2 -> acao + som de efeito
 - Efeito visual marcado: ring@30
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: E se ele tivesse ganhado? Muita gente imagina um império francês dominando a Europa.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_dominand (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -87,7 +87,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: countrys
 - Narracao: Exércitos enormes da Rússia e da Áustria já marchavam contra ele. Waterloo só apressou o fim.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@40
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_marchava (point) @8 -> acao + som de efeito; encena: g_apressou (point) @13 -> acao + som de efeito
 - Efeito visual marcado: stars@40
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

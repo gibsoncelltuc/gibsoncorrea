@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: O Roadster saiu da órbita da Terra, e seguiu em órbita ao redor do Sol.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: ding@20
-- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: sai @2 -> acao + som de efeito; encena: g_seguiu (point) @8 -> acao + som de efeito
 - Efeito visual marcado: stars@20
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

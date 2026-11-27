@@ -3,22 +3,22 @@
 Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o roteiro pode causar e a correcao (campo a por em videos/bacalhau1958/beats.json). Resolva todos os riscos ANTES de renderizar; depois rode `python3 mkvideo.py bacalhau1958` de novo ate esta folha sair sem risco.
 
 ## Cena b0 - Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e s...
-- Cenario: street | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 5 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 0, expressao stern); BRI (variante 0, expressao stern)
 - Animacao: conversar | interacao: o outro se aproxima
-- Objetos/modelos: kit/cod
+- Objetos/modelos: ship, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): inglaterra, islandia, peixe
 - RISCOS: nenhum
 
 ## Cena b1 - A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam b...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao nervous); PES (variante 0, expressao grin)
 - Animacao: conversar | interacao: insiste
-- Objetos/modelos: crate, kit/cod, kit/fishing_net
+- Objetos/modelos: crate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): costa, islandia, pesca
 - RISCOS: nenhum
 
@@ -43,7 +43,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b4 - A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham...
-- Cenario: arctic | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): ICE (variante 0, expressao grin)
@@ -58,12 +58,12 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (1): ICE (variante 0, expressao neutral) | multidao: 6 de POV
 - Animacao: encena | batalha encenada
-- Objetos/modelos: ship, kit/fishing_net, navios ao fundo
+- Objetos/modelos: ship, navios ao fundo
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cabos, navios, proposito, redes
 - RISCOS: nenhum
 
 ## Cena b6 - A Islândia ainda ameaçou fechar a base da Otan no país.
-- Cenario: mountain | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): ICE (variante 1, expressao stern); BRI (variante 0, expressao shock)
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de ...
-- Cenario: medieval | luz: day | clima: limpo
+- Cenario: harbor | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): BRI (variante 0, expressao pained); ICE (variante 0, expressao laugh)
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): PES (variante 0, expressao laugh)
 - Animacao: reagir
-- Objetos/modelos: kit/cod
+- Objetos/modelos: crate, kit/cod
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): navios, peixe, redes
 - RISCOS: nenhum
 
@@ -97,10 +97,9 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
-kit/cod | b0, b1, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-crate | b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/fishing_net | b1, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-ship | b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+ship | b0, b2, b3, b5 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/cod | b0, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+crate | b1, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro

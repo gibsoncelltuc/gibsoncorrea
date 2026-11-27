@@ -1,10 +1,10 @@
-b0: OK - uma unica flor custou o preço de uma casa inteira, tulipa no balcao com placa 1637 e susto
-b1: OK - mapa da Holanda e campo de tulipas com moinho, a tulipa tinha acabado de chegar do Oriente
-b2: OK - ricos de cartola no balcao, dou mil moedas estendendo moedas e o outro gritava de braços erguidos
-b3: OK - o pais inteiro estava comprando, placa TODO MUNDO com padeiros e sapateiros em plano aberto
-b4: OK - ninguem queria a flor de verdade, tulipa amarela no vaso em close e negociante querendo vender
-b5: CORRIGIDO - marinheiro so erguia o braço -> agora comeu o bulbo levando a comida a boca e mastigando, fortuna em moeda
-b6: OK - leilao de fevereiro com placa LEILAO, vendedor abriu os lances e ninguem levantou a mao
-b7: OK - a noticia correu e todo mundo quis vender, placa PANICO com multidao em plano aberto
-b8: OK - os preços desabaram com poeira, quem trocou a casa por flores fica com flores e dividas
-b9: CORRIGIDO - almoçou sem comer -> agora o marinheiro almoçou bem levando o bulbo a boca ao lado da tulipa
+b0: OK - cena confere com a frase: Uma única flor já custou o preço de uma casa inteira.
+b1: OK - cena confere com a frase: Era a Holanda, e a tulipa tinha acabado de chegar do Oriente. Colorida, rara,
+b2: OK - cena confere com a frase: Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia um.
+b3: OK - cena confere com a frase: Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que nunca tinha plantado nada.
+b4: OK - cena confere com a frase: Ninguém queria a flor de verdade. Queriam vender o papel mais caro na semana
+b5: OK - cena confere com a frase: Contam que um marinheiro comeu um bulbo no almoço, achando que era cebola. Valia
+b6: OK - cena confere com a frase: Acontece que, num leilão de fevereiro, o vendedor abriu os lances, e ninguém levantou
+b7: OK - cena confere com a frase: A notícia correu. Em poucos dias, todo mundo quis vender, e não havia mais
+b8: OK - cena confere com a frase: Os preços desabaram. Quem tinha trocado a casa por flores ficou só com as
+b9: OK - cena confere com a frase: O marinheiro, pelo menos, almoçou bem.

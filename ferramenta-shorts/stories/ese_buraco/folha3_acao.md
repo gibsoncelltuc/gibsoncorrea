@@ -1,39 +1,39 @@
 # FOLHA 3 - ACOES - E Se EP 09 - E Se Você Cavasse um Buraco Até o Outro Lado da Terra?
 
 Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos) e a animacao que a ferramenta executa. Gerada pelo MODO DE ACAO (mkvideo.py); conferir no prechecar.
-**Resumo:** 11 frases, 29 acoes catalogadas, 29 com animacao, 0 faltando -> pronto para renderizar
+**Resumo:** 11 frases, 27 acoes catalogadas, 27 com animacao, 0 faltando -> pronto para renderizar
 
 
-## Cena b0 - 0.2s a 4.8s - 18 palavras - plano two
+## Cena b0 - 0.0s a 6.3s - 18 palavras - plano two
 > "Todo mundo já quis cavar um buraco até a China. E se desse para atravessar a Terra inteira?"
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cavar (1.0s) | ACAO: cava | cava: poeira | OK |
+| 1 | cavar (1.5s) | ACAO: cava | cava: poeira | OK |
 | 2 | - | INTERACAO | insiste | OK |
 | 3 | - | ATUACAO | conversar | OK |
 | 4 | - | PLACA | E SE... | OK |
 
-## Cena b1 - 6.0s a 13.2s - 19 palavras - plano reveal
+## Cena b1 - 6.7s a 13.3s - 19 palavras - plano reveal
 > "Primeira surpresa: saindo do Brasil, você não sairia na China. Sairia no meio do oceano Pacífico, perto do Japão."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | surpresa: (6.4s) | EFEITO: ring | onda + som | OK |
-| 2 | surpresa (6.4s) | ACAO: grita | grita de bracos para cima | OK |
+| 1 | surpresa: (7.0s) | EFEITO: ring | onda + som | OK |
+| 2 | surpresa (7.0s) | ACAO: grita | grita de bracos para cima | OK |
 | 3 | - | EMOCAO: shock | o rosto vira "shock" na palavra | OK |
 | 4 | - | MAPA | OCEANO PACÍFICO | OK |
 
-## Cena b2 - 14.3s a 19.1s - 13 palavras - plano two
+## Cena b2 - 13.7s a 18.1s - 13 palavras - plano two
 > "Mas vamos cavar. Depois da terra, vem rocha dura, cada vez mais quente."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | cavar (14.9s) | ACAO: cava | cava: poeira | OK |
+| 1 | cavar (14.4s) | ACAO: cava | cava: poeira | OK |
 | 2 | - | INTERACAO | vai ate o outro | OK |
 | 3 | - | ATUACAO | conversar | OK |
 
-## Cena b3 - 20.1s a 26.1s - 17 palavras - plano two
+## Cena b3 - 18.5s a 24.4s - 17 palavras - plano two
 > "O buraco mais fundo do mundo fica na Rússia: doze quilômetros. Lá embaixo, cento e oitenta graus."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -41,32 +41,30 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | aproxima-se | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b4 - 27.2s a 31.9s - 19 palavras - plano low
+## Cena b4 - 24.8s a 31.5s - 19 palavras - plano low
 > "Acontece que o centro da Terra fica a mais de seis mil quilômetros, quase tão quente quanto o Sol."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
 | 1 | - | ATUACAO | reagir | OK |
 
-## Cena b5 - 32.9s a 37.1s - 12 palavras - plano crowd
+## Cena b5 - 31.9s a 35.9s - 12 palavras - plano crowd
 > "Nenhuma máquina aguenta. Mas imagine que desse, e você pulasse no buraco."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pulasse (36.7s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
+| 1 | pulasse (35.2s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
 | 2 | - | ATUACAO | reagir | OK |
 | 3 | - | PLACA | 5.000 °C | OK |
 
-## Cena b6 - 38.5s a 44.3s - 21 palavras - plano group
-> "Aí você pulou, e caiu cada vez mais rápido, e passou pelo centro do planeta a milhares de quilômetros por hora."
+## Cena b6 - 36.3s a 42.6s - 18 palavras - plano crowd
+> "Você cairia cada vez mais rápido, e passaria pelo centro do planeta a milhares de quilômetros por hora."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | pulou (38.9s) | ACAO: pula | pula 2 vezes: sobe 1.2 m e volta pela GRAVIDADE em 0.74 s cada pulo | OK |
-| 2 | caiu (39.9s) | EFEITO: dust | poeira + som | OK |
-| 3 | - | ATUACAO | conversar | OK |
+| 1 | - | ATUACAO | reagir | OK |
 
-## Cena b7 - 45.5s a 48.8s - 12 palavras - plano two
+## Cena b7 - 43.0s a 47.0s - 12 palavras - plano two
 > "Depois iria freando, e sairia do outro lado em uns quarenta minutos."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -74,16 +72,16 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | INTERACAO | cochichar | OK |
 | 2 | - | ATUACAO | conversar | OK |
 
-## Cena b8 - 50.1s a 54.7s - 14 palavras - plano two
-> "Mas ninguém te segurou, e você caiu de volta. Indo e voltando para sempre."
+## Cena b8 - 47.4s a 52.2s - 14 palavras - plano two
+> "Mas se ninguém te segurasse, você cairia de volta. Indo e voltando para sempre."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | caiu (51.9s) | EFEITO: dust | poeira + som | OK |
+| 1 | voltando (51.5s) | ACAO: g_voltando | g_voltando | OK |
 | 2 | - | INTERACAO | discutir | OK |
 | 3 | - | ATUACAO | discutir | OK |
 
-## Cena b9 - 55.8s a 57.6s - 8 palavras - plano orbit
+## Cena b9 - 52.6s a 55.2s - 8 palavras - plano orbit
 > "Os cientistas chamam isso de túnel da gravidade."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
@@ -91,11 +89,11 @@ Catalogo de TODAS as acoes do roteiro, frase por frase, com o instante (segundos
 | 1 | - | ATUACAO | comemorar | OK |
 | 2 | - | PLACA | 40 MINUTOS | OK |
 
-## Cena b10 - 59.0s a 63.1s - 14 palavras - plano close
+## Cena b10 - 55.6s a 60.4s - 14 palavras - plano close
 > "Então guarda a pá. Para ir ao Japão, ainda vale mais comprar uma passagem."
 
 | # | palavra (instante) | acao catalogada | animacao executada | ok? |
 |---|---|---|---|---|
-| 1 | comprar (62.5s) | ACAO: negocio | moeda girando (compra/venda) | OK |
+| 1 | comprar (59.6s) | ACAO: negocio | moeda girando (compra/venda) | OK |
 | 2 | - | ATUACAO | conversar | OK |
 

@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): POV (variante 0, expressao shock); PRO (variante 0, expressao grin)
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet
 - RISCOS: nenhum
@@ -37,8 +37,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): PIL (variante 0, expressao worried); POV (variante 0, expressao angry); POV (variante 1, expressao shout) | multidao: 30 de POV
-- Animacao: - | batalha encenada
-- Objetos/modelos: vehicles/airplane, kit/miners
+- Animacao: encena | batalha encenada
+- Objetos/modelos: vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): atualizacao, computadores, defeito
 - RISCOS: nenhum
 
@@ -53,7 +53,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b5 - Hospitais e bancos voltariam para o papel e a caneta. Fila dando volta...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PRO (variante 0, expressao stern, segura paper); POV (variante 1, expressao worried)
@@ -63,11 +63,11 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b6 - Acontece que o mais estranho seria outra coisa: bilhões de pessoas sem...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: mountain | luz: day | clima: limpo
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PRO (variante 0, expressao smug)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/phone
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): maos, pessoas
 - RISCOS: nenhum
@@ -83,17 +83,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b8 - Pesquisadores chamam isso de desintoxicação digital. Muita gente dorme...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): PRO (variante 0, expressao suspicious); POV (variante 0, expressao smile)
+- Personagens principais (2): PRO (variante 0, expressao suspicious); POV (variante 0, expressao smile) | multidao: 6 de POV
 - Animacao: conversar | interacao: o outro se aproxima
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): desintoxicacao
 - RISCOS: nenhum
 
 ## Cena b9 - E quando voltasse? Todo mundo correria para postar como foi ficar sem ...
-- Cenario: harbor | luz: day | clima: limpo
+- Cenario: countryside | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (3): POV (variante 0, expressao laugh); POV (variante 1, expressao laugh); PRO (variante 0, expressao grin) | multidao: 30 de POV
@@ -119,7 +119,6 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/phone | b0, b2, b4, b6, b10 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 vehicles/airplane | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/miners | b3 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/ball | b7 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 

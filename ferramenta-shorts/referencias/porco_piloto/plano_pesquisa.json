@@ -1,0 +1,151 @@
+{
+ "id": "porco_piloto",
+ "ano": 1859,
+ "itens": [
+  {
+   "tipo": "tema",
+   "item": "A Guerra do Porco",
+   "consultas": [
+    "A Guerra do Porco",
+    "Dois Foi San Juan Estados Unidos Canadá Um 1859"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Ilha de San Juan (entre os EUA e o Canada, perto de Vancouver): fazendas com hor",
+   "consultas": [
+    "Ilha de San Juan",
+    "Ilha de San Juan entre os EUA e o Canada perto de Vancouver 1859"
+   ]
+  },
+  {
+   "tipo": "lugar",
+   "item": "Ilha De San Juan",
+   "consultas": [
+    "Ilha De San Juan 1859",
+    "Ilha De San Juan landscape"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "roupas e ruas de 1859",
+   "consultas": [
+    "1859 fashion clothing",
+    "1859 street photograph"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Lyman Cutlar, fazendeiro americano",
+   "consultas": [
+    "American farmer 1850s settler",
+    "Lyman Cutlar fazendeiro americano",
+    "Lyman Cutlar fazendeiro americano 1859"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Charles Griffin, irlandes da Companhia da Baia de Hudson (dono do porc",
+   "consultas": [
+    "Charles Griffin irlandes da Companhia da Baia de Hudson dono do porco",
+    "Charles Griffin irlandes da Companhia da Baia de Hudson dono do porco 1859"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "capitao George Pickett e soldados da 9a Infantaria dos EUA",
+   "consultas": [
+    "George Pickett American Camp San Juan Island",
+    "capitao George Pickett e soldados da 9a Infantaria dos EUA",
+    "capitao George Pickett e soldados da 9a Infantaria dos EUA 1859"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "Royal Marines britanicos",
+   "consultas": [
+    "Royal Marines 1859 English Camp San Juan Island",
+    "Royal Marines britanicos",
+    "Royal Marines britanicos 1859"
+   ]
+  },
+  {
+   "tipo": "pessoas",
+   "item": "contra-almirante Robert Baynes",
+   "consultas": [
+    "Robert Lambert Baynes admiral",
+    "contra-almirante Robert Baynes",
+    "contra-almirante Robert Baynes 1859"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "batatas da horta",
+   "consultas": [
+    "potato garden field",
+    "batatas da horta",
+    "batatas da horta 1859"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "espingarda",
+   "consultas": [
+    "percussion rifle 1850s",
+    "espingarda",
+    "espingarda 1859"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "notas de dolar",
+   "consultas": [
+    "dollar banknote 1850s",
+    "notas de dolar",
+    "notas de dolar 1859"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "navios de guerra",
+   "consultas": [
+    "HMS Satellite 1855 warship",
+    "navios de guerra",
+    "navios de guerra 1859"
+   ]
+  },
+  {
+   "tipo": "objeto",
+   "item": "canhoes",
+   "consultas": [
+    "cannon 1850s artillery",
+    "canhoes",
+    "canhoes 1859"
+   ]
+  },
+  {
+   "tipo": "heroi",
+   "item": "potato field 19th century",
+   "consultas": [
+    "potato field 19th century",
+    "A Guerra do Porco"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "navio da epoca",
+   "consultas": [
+    "ship 1859",
+    "ship"
+   ]
+  },
+  {
+   "tipo": "epoca",
+   "item": "soldado da epoca",
+   "consultas": [
+    "soldier uniform 1859",
+    "soldier uniform"
+   ]
+  }
+ ]
+}

@@ -26,7 +26,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: mountain | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug) | multidao: 12 de AME/CAN
+- Personagens principais (2): AME (variante 0, expressao smug); CAN (variante 0, expressao smug) | multidao: 12 de POV
 - Animacao: discutir | batalha encenada
 - Objetos/modelos: nature/tree_pine, kit/logs, nature/tree_oak, nature/bush
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): aroostook, floresta, madeira, mesmas
@@ -88,7 +88,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente
 - Personagens principais (2): PRE (variante 0, expressao smug, segura paper); PRE (variante 1, expressao smile)
 - Animacao: conversar | interacao: entregar
-- Objetos/modelos: kit/scroll
+- Objetos/modelos: nature/tree_pine, kit/scroll
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): floresta, fronteira, tratado
 - RISCOS: nenhum
 
@@ -96,8 +96,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
-- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de AME
-- Animacao: conversar
+- Personagens principais (1): AME (variante 0, expressao smile) | multidao: 10 de POV
+- Animacao: reagir
 - Objetos/modelos: kit/logs, nature/tree_pine, pig
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): feijao, porco, tropas
 - RISCOS: nenhum
@@ -108,7 +108,7 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/logs | b0, b2, b9 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-nature/tree_pine | b0, b2, b3, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+nature/tree_pine | b0, b2, b3, b8, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 nature/bush | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/scroll | b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py

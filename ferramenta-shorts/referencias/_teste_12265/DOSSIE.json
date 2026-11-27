@@ -1,0 +1,44 @@
+{
+ "id": "_teste_12265",
+ "titulo": "Curiosidade e Ciência EP 99 - teste",
+ "ancoras": {
+  "ano": null,
+  "era": null,
+  "regiao": null,
+  "luz_base": "day",
+  "cenarios": [
+   "loc_campo"
+  ],
+  "cenarios_trocados": [
+   [
+    "video",
+    "countryside",
+    "loc_campo"
+   ],
+   [
+    "cena 4",
+    "countryside",
+    "loc_campo"
+   ]
+  ]
+ },
+ "proibido_pela_epoca": [],
+ "proibido_pelo_roteiro": [],
+ "objetos_em_cena": [
+  "kit/fireplace",
+  "kit/kettle",
+  "nature/bench",
+  "nature/fountain"
+ ],
+ "pesquisa_visual": {},
+ "fontes": [],
+ "falta": [
+  "local",
+  "quando",
+  "participantes",
+  "roupas",
+  "cenario",
+  "objetos",
+  "fontes_visuais"
+ ]
+}

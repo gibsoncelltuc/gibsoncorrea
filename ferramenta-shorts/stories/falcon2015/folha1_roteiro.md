@@ -6,7 +6,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Durante sessenta anos, todo foguete era jogado fora depois de um voo. Até que um deles voltou e pousou de ré.
 - Som ambiente: sea
 - Efeitos sonoros marcados: ding@30
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_pousou (point) @18 -> acao + som de efeito
 - Efeito visual marcado: stars@30
 - Texto na tela: 2015
 - Funcao na historia: GANCHO
@@ -22,7 +22,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b2  (~5.5 s)
 - Narracao: Elon Musk queria reaproveitar os foguetes da SpaceX, como se reaproveita um avião. Muitos achavam impossível.
-- Som ambiente: birds
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: (rosto) shock -> expr + som de efeito; impossível -> ring + som de alerta; encena: duvida (shrug) @15 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -31,9 +31,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b3  (~4.5 s)
 - Narracao: As primeiras tentativas de pouso deram errado. Foguetes tombaram, e explodiram no mar.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: cannon@30, thump@50
-- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
+- Efeito + som nas palavras-chave: explodiram -> burst + som de tiro/explosao; encena: x_entrega (reach) @5 -> acao + som de efeito; encena: g_tombaram (point) @8 -> acao + som de efeito; encena: desaba @10 -> acao + som de efeito
 - Efeito visual marcado: burst@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 - Narracao: Mas a equipe insistiu. Em vinte e um de dezembro, o Falcon nove decolou levando satélites.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: voa (point) @13 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_insistiu (point) @3 -> acao + som de efeito; encena: voa (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -58,18 +58,18 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~5.2 s)
 - Narracao: Acontece que ela desceu de ré, de pé, com o motor aceso freando a queda.
-- Som ambiente: sea
+- Som ambiente: silencio/sala
 - Efeitos sonoros marcados: sting@20
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_desceu (point) @3 -> acao + som de efeito
 - Efeito visual marcado: ring@20
 - Texto na tela: -
 - Funcao na historia: VIRADA
 
 ## Cena b7  (~4.5 s)
 - Narracao: E pousou certinho no meio da plataforma, abrindo as pernas no último segundo.
-- Som ambiente: sea
+- Som ambiente: birds
 - Efeitos sonoros marcados: ding@30, thump@50
-- Efeito + som nas palavras-chave: encena: x_abre (push) @7 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_pousou (point) @1 -> acao + som de efeito; encena: x_abre (push) @7 -> acao + som de efeito
 - Efeito visual marcado: stars@30, puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -85,9 +85,9 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b9  (~5.9 s)
 - Narracao: Foi a primeira vez que um foguete desse tamanho voltou do espaço e pousou inteiro em terra.
-- Som ambiente: silencio/sala
+- Som ambiente: birds
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: encena: g_pousou (point) @13 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento

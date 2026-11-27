@@ -37,7 +37,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): GEN (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/bunker_bomb, kit/b2_air, kit/marco_mesquita, vehicles/airplane
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): arma, aviao, bomba, treze
 - RISCOS: nenhum
@@ -77,7 +77,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada) + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa -> frente | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): PIL (variante 0, expressao stern)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/b2_air, kit/mountain_bunker, kit/marco_mesquita, vehicles/airplane, kit/bunker_bomb
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, bunker, fordow, madrugada
 - RISCOS: nenhum
@@ -87,7 +87,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa
 - Personagens principais (2): TRU (variante 0, expressao stern); GEN (variante 0, expressao grin, segura paper)
-- Animacao: conversar | interacao: insiste
+- Animacao: conversar | interacao: insiste | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/b2_air, vehicles/airplane, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): avioes, submarino, terceira
 - RISCOS: nenhum

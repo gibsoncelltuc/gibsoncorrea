@@ -17,13 +17,13 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: reveal = ABERTO: grua subindo e abrindo para mostrar o lugar (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): MUS (variante 0, expressao smug) | multidao: 8 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): internet, propria, video
 - RISCOS: nenhum
 
 ## Cena b2 - A legenda dizia: Entrando na sede do Twitter. Deixe isso afundar.
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (2): MUS (variante 0, expressao laugh); FUN2 (variante 0, expressao suspicious)
@@ -33,17 +33,17 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b3 - É um trocadilho, porque em inglês a palavra sink quer dizer pia, e tam...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: close = close no rosto; empurra devagar + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): FUN (variante 0, expressao surprised)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/sink, kit/marco_goldengate
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): palavra, trocadilho
 - RISCOS: nenhum
 
 ## Cena b4 - Naquela época, ele estava prestes a fechar a compra do Twitter, por qu...
-- Cenario: harbor | luz: golden | clima: limpo
+- Cenario: countryside | luz: golden | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MUS (variante 0, expressao smile); FUN (variante 0, expressao neutral) | multidao: 8 de POV

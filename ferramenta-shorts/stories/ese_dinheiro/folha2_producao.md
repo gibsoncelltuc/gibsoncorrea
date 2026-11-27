@@ -17,7 +17,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (2): PAD (variante 0, expressao shock); POV (variante 0, expressao nervous)
-- Animacao: reagir | interacao: discutir | o ultimo personagem ENTRA andando
+- Animacao: conversar | interacao: discutir | o ultimo personagem ENTRA andando
 - Objetos/modelos: kit/cake_table
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cafe, padaria
 - RISCOS: nenhum

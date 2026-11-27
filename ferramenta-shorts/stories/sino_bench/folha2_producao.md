@@ -10,15 +10,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Animacao: conversar | interacao: insiste
 - Objetos/modelos: kit/grave, kit/cross, buildings/church
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dedo, homem, sino
-- RISCOS: 
-  - ACAO SEM ANIMACAO na narracao: Enterraram -> CORRECAO: a cena precisa MOSTRAR a acao: reescreva com um verbo que a ferramenta encena (veja OPERACAO.md "MODO DE ACAO") ou marque a cena ("batalha", "interacao", "acao", "animals", "props")
+- RISCOS: nenhum
 
 ## Cena b1 - Acontece que o povo tinha tanto medo de acordar dentro do caixão, que ...
 - Cenario: countryside | luz: day | clima: limpo
 - Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): COV (variante 0, expressao neutral, segura shovel); POV (variante 1, expressao nervous) | multidao: 12 de POV
-- Animacao: reagir | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: kit/grave, kit/cross
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): acordar, caixao, cordao, cova, morto, povo, sininho
 - RISCOS: 
@@ -29,7 +28,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (2): VIZ (variante 0, expressao shock); POV (variante 0, expressao nervous)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/porch, buildings/house_small, nature/picket_fence, nature/tree_oak
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): duas, sino, tocar, vento, vizinho
 - RISCOS: nenhum
@@ -60,7 +59,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ESP (variante 0, expressao stern, segura shovel)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): escuro, esposa, porta, varanda
 - RISCOS: nenhum
@@ -70,7 +69,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): MOR (variante 0, expressao grin); ESP (variante 0, expressao smile) | multidao: 12 de POV
-- Animacao: - | batalha encenada
+- Animacao: conversar | batalha encenada
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): dois, longo, sinal
 - RISCOS: 
@@ -81,7 +80,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (4): MOR (variante 0, expressao nervous, segura coin); VIZ (variante 0, expressao stern); DOC (variante 0, expressao stern); POV (variante 2, expressao stern)
-- Animacao: reagir | interacao: aproxima-se
+- Animacao: conversar | interacao: aproxima-se
 - Objetos/modelos: kit/grave, buildings/church
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marido, propria, sino
 - RISCOS: nenhum
@@ -91,7 +90,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente -> 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): ESP (variante 0, expressao neutral)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: -
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cada, sino
 - RISCOS: nenhum
@@ -101,7 +100,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
 - Personagens principais (1): COV (variante 0, expressao neutral, segura shovel) | multidao: 6 de POV
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/grave, kit/cross
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): -
 - RISCOS: nenhum
@@ -111,7 +110,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: esquerda alta, aberto -> direita baixa -> frente
 - Personagens principais (1): ESP (variante 0, expressao grin, segura coin)
-- Animacao: encena
+- Animacao: reagir
 - Objetos/modelos: kit/grave
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, dividas, terra
 - RISCOS: 
@@ -137,17 +136,16 @@ nature/tree_oak | b2 | pronto | conferir na folha de contato se le bem; se parec
 - RISCOS GERAIS: 
   - nenhum mapa no video (o canal situa o lugar com mapa rapido) -> CORRECAO: "mapa": "NOME DO LUGAR" na cena 1 ou 2
   - objeto heroi (kit/grave) sem close de camera -> CORRECAO: por o objeto em "props" de uma cena media de 8+ palavras
-  - 3 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
+  - 2 palavra(s) de acao sem efeito + som -> CORRECAO: ver plano.md e por "fx"/"sfx" na cena
 
-## RESUMO: 8 risco(s) em aberto
-- b0: ACAO SEM ANIMACAO na narracao: Enterraram
+## RESUMO: 7 risco(s) em aberto
 - b1: cena longa (29 palavras, ~10 s no mesmo lugar)
 - b4: ACAO SEM ANIMACAO na narracao: assinei
 - b6: multidao/batalha dentro de sala: nao cabe
 - b10: ACAO SEM ANIMACAO na narracao: enterradas
 - geral: nenhum mapa no video (o canal situa o lugar com mapa rapido)
 - geral: objeto heroi (kit/grave) sem close de camera
-- geral: 3 palavra(s) de acao sem efeito + som
+- geral: 2 palavra(s) de acao sem efeito + som
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh sino_bench bN bM` (so essas cenas).

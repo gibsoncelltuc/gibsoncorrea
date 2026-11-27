@@ -54,7 +54,7 @@
      "kit/bee",
      0.9,
      -0.6,
-     0.9,
+     0.45,
      {
       "y": 2.4
      }
@@ -63,13 +63,12 @@
      "kit/bee",
      -1.2,
      -1.4,
-     0.7,
+     0.45,
      {
       "y": 3.0
      }
     ]
    ],
-   "text": "DANÇA",
    "fx": [
     "stars@30"
    ],
@@ -87,7 +86,10 @@
    ],
    "mapa": "ÁUSTRIA",
    "mapa_at": 3,
-   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas."
+   "say": "Karl von Frisch nasceu na Áustria, e passou a vida inteira estudando abelhas.",
+   "verbos_ok": [
+    "nasce"
+   ]
   },
   {
    "shot": "two",
@@ -106,7 +108,7 @@
      "kit/bee",
      0.9,
      -0.6,
-     0.9,
+     0.45,
      {
       "y": 2.4
      }
@@ -115,7 +117,7 @@
      "kit/bee",
      -1.2,
      -1.4,
-     0.7,
+     0.45,
      {
       "y": 3.0
      }
@@ -129,7 +131,8 @@
    "sfx": [
     "thump@30"
    ],
-   "set": "countryside"
+   "set": "countryside",
+   "text": "DANÇA"
   },
   {
    "shot": "two",
@@ -149,7 +152,7 @@
      "kit/bee",
      0.9,
      -0.6,
-     0.9,
+     0.45,
      {
       "y": 2.4
      }
@@ -158,7 +161,7 @@
      "kit/bee",
      -1.2,
      -1.4,
-     0.7,
+     0.45,
      {
       "y": 3.0
      }
@@ -188,7 +191,7 @@
      "kit/bee",
      -0.8,
      -1.2,
-     1.2,
+     0.45,
      {
       "y": 2.6,
       "mover": [
@@ -201,7 +204,7 @@
      "kit/bee",
      1.4,
      -1.0,
-     0.8,
+     0.45,
      {
       "y": 1.6
      }
@@ -237,7 +240,7 @@
      "kit/bee",
      -0.8,
      -1.2,
-     1.2,
+     0.45,
      {
       "y": 2.6,
       "mover": [
@@ -250,7 +253,7 @@
      "kit/bee",
      1.4,
      -1.0,
-     0.8,
+     0.45,
      {
       "y": 1.6
      }
@@ -258,7 +261,7 @@
    ],
    "acao": "discutir",
    "say": "Se a comida estava perto, ela dava voltinhas. Se estava longe, fazia um oito, rebolando no meio.",
-   "set": "countryside",
+   "set": "mountain",
    "shot_lock": true,
    "detalhe": false
   },
@@ -278,7 +281,7 @@
      "kit/bee",
      -0.8,
      -1.2,
-     1.2,
+     0.45,
      {
       "y": 2.6,
       "mover": [
@@ -291,7 +294,7 @@
      "kit/bee",
      1.4,
      -1.0,
-     0.8,
+     0.45,
      {
       "y": 1.6
      }
@@ -304,7 +307,7 @@
     "sting@20"
    ],
    "say": "E o mais incrível: o ângulo da rebolada mostrava a direção, comparada com o sol.",
-   "set": "countryside",
+   "set": "mountain",
    "shot_lock": true,
    "detalhe": false
   },
@@ -322,7 +325,7 @@
     "ding@40"
    ],
    "say": "Quanto mais tempo ela rebolava, mais longe estava a comida. Era um mapa feito de dança!",
-   "set": "countryside",
+   "set": "mountain",
    "props": [
     [
      "kit/beehive",
@@ -334,7 +337,7 @@
      "kit/bee",
      -0.8,
      -1.2,
-     1.2,
+     0.45,
      {
       "y": 2.6,
       "mover": [
@@ -347,7 +350,7 @@
      "kit/bee",
      1.4,
      -1.0,
-     0.8,
+     0.45,
      {
       "y": 1.6
      }
@@ -394,7 +397,7 @@
      "kit/bee",
      0.9,
      -0.6,
-     0.9,
+     0.45,
      {
       "y": 2.4
      }
@@ -403,7 +406,7 @@
      "kit/bee",
      -1.2,
      -1.4,
-     0.7,
+     0.45,
      {
       "y": 3.0
      }
@@ -418,25 +421,24 @@
    "text": "TESTE",
    "titulo": true,
    "say": "Ele repetiu os testes centenas de vezes, mudando o açúcar de lugar. As abelhas sempre acertavam.",
-   "set": "medieval"
+   "set": "mountain"
   },
   {
-   "shot": "crowd",
+   "shot": "group",
    "who": [
     "FRI:0:laugh",
     "ASS:0:laugh",
     "COL:0:grin"
    ],
-   "batalha": true,
+   "batalha": false,
    "tiros": false,
    "acao": "comemorar",
    "crowd": {
-    "n": 18,
+    "n": 4,
     "outfits": [
      "POV"
     ],
-    "march": false,
-    "expr": "laugh"
+    "march": false
    },
    "fx": [
     "stars@20",
@@ -449,7 +451,7 @@
    "text": "NOBEL",
    "titulo": true,
    "say": "Em mil novecentos e setenta e três, já idoso, ele ganhou o Prêmio Nobel.",
-   "set": "medieval"
+   "interior": "pedra"
   },
   {
    "shot": "close",
@@ -467,7 +469,7 @@
      "kit/bee",
      0.9,
      -0.6,
-     0.9,
+     0.45,
      {
       "y": 2.4
      }
@@ -476,14 +478,41 @@
      "kit/bee",
      -1.2,
      -1.4,
-     0.7,
+     0.45,
      {
       "y": 3.0
      }
     ]
    ],
    "say": "Então, da próxima vez que vir uma abelha, lembre: ela pode estar contando um segredo dançando.",
-   "set": "medieval"
+   "set": "countryside"
   }
- ]
+ ],
+ "regiao": "europa",
+ "visual": {
+  "local": "Brunnwinkl, casa de verao a beira do lago Wolfgangsee (Alpes austriacos): jardim com colmeias e pratinhos de agua com acucar; laboratorio em Munique; cerimonia do Nobel em Estocolmo",
+  "quando": "verao de 1944-1945 (decifrou a danca), Nobel em dezembro de 1973",
+  "participantes": [
+   "Karl von Frisch, zoologo austriaco de oculos",
+   "assistentes",
+   "colegas cientistas desconfiados"
+  ],
+  "roupas": {
+   "FRI": "terno claro dos anos 40, oculos redondos, cabelo grisalho",
+   "ASS": "assistente de camisa e chapeu de palha",
+   "COL": "cientista de terno e barba",
+   "POV": "publico dos anos 40/70"
+  },
+  "cenario": "jardim com montanhas e lago ao fundo, colmeia de observacao com vidro, mesa com pratinhos de acucar; salao do Nobel",
+  "objetos": [
+   "colmeia de vidro",
+   "abelhas marcadas com pontinhos de tinta",
+   "pratinhos de agua com acucar",
+   "caderno de anotacoes"
+  ],
+  "fontes_visuais": [
+   "https://en.wikipedia.org/wiki/Karl_von_Frisch",
+   "https://en.wikipedia.org/wiki/Waggle_dance"
+  ]
+ }
 }

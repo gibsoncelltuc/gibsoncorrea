@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bando, gansos
 - RISCOS: nenhum
@@ -27,7 +27,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: group = plano de grupo (corpo inteiro); angulo muda a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto -> direita baixa | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (3): ROM (variante 0, expressao nervous); ROM (variante 1, expressao pained); MAN (variante 0, expressao stern)
-- Animacao: reagir | interacao: insiste
+- Animacao: conversar | interacao: insiste
 - Objetos/modelos: buildings/castle_tower, kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): capitolio, colina, muralhas, romanos
 - RISCOS: nenhum
@@ -36,8 +36,8 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Cenario: medieval | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 1 tomada continua, sem corte (camera abre/gira devagar)
-- Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern) | multidao: 10 de ROM
-- Animacao: discutir
+- Personagens principais (2): ROM (variante 1, expressao pained); ROM (variante 2, expressao stern) | multidao: 10 de POV
+- Animacao: conversar
 - Objetos/modelos: kit/marco_coliseu, goose
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fome, gansos, sacerdote, soldado
 - RISCOS: nenhum
@@ -97,7 +97,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: leve direita, perto -> esquerda alta, aberto
 - Personagens principais (1): ROM (variante 2, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/marco_coliseu
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): castigo, guardas
 - RISCOS: nenhum

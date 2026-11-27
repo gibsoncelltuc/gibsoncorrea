@@ -2,17 +2,17 @@
 
 Cena | Plano | Luz/clima | O que aparece | Palavras-chave com efeito + som | Palavras de acao SEM efeito
 ---|---|---|---|---|---
-b0 | two | -  | placa: E SE... | - | -
+b0 | two | -  | placa: E SE... | encena: x_fone (lift) @6 (acao + som de efeito) | -
 b1 | reveal | -  | tropa, mapa | (rosto) shock (expr + som de efeito); impossível (ring + som de alerta); encena: duvida (shrug) @1 (acao + som de efeito) | -
 b2 | two | -  | - | caíram (dust + som de impacto) | -
-b3 | crowd | -  | batalha aberta com tiros, tropa, placa: PANE | - | -
+b3 | crowd | -  | batalha aberta com tiros, tropa, placa: PANE | encena: g_travou (point) @11 (acao + som de efeito) | -
 b4 | two | -  | interior | - | -
-b5 | two | -  | objeto na mao | - | -
+b5 | two | -  | objeto na mao | encena: g_voltaria (point) @3 (acao + som de efeito) | -
 b6 | low | -  | - | - | -
-b7 | two | -  | - | encena: olha (point) @6 (acao + som de efeito) | -
-b8 | two | -  | interior | - | -
+b7 | two | -  | - | encena: g_conversa (point) @1 (acao + som de efeito); encena: olha (point) @6 (acao + som de efeito) | -
+b8 | group | -  | tropa | - | -
 b9 | orbit | -  | batalha aberta com tiros, tropa, placa: VOLTOU! | correria (dust + som de impacto); encena: grita (up) @5 (acao + som de efeito) | -
-b10 | close | -  | - | - | -
+b10 | close | -  | - | encena: x_fone (lift) @9 (acao + som de efeito) | -
 
 Mistura de planos: close 20% | medio 62% | aberto 10% | detalhe 9%  (canal: close 10% | medio+corpo 67% | aberto 19% | detalhe 5-15%)
 Planos abertos: 3 | dentro do padrao do canal

@@ -70,6 +70,9 @@
      -2.4,
      1.2
     ]
+   ],
+   "verbos_ok": [
+    "entra"
    ]
   },
   {
@@ -141,7 +144,14 @@
     "gun@60"
    ],
    "say": "Do outro lado, uma sentinela búlgara viu um estranho armado, e atirou.",
-   "props": []
+   "props": [
+    [
+     "kit/dog_sit",
+     1.8,
+     -0.6,
+     1.0
+    ]
+   ]
   },
   {
    "shot": "two",
@@ -223,5 +233,7 @@
    ]
   }
  ],
- "exp": 1.0
+ "exp": 1.0,
+ "variar_cenario": false,
+ "heroi_sem_close_ok": true
 }

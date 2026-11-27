@@ -4,22 +4,23 @@ Leia ANTES de renderizar. Tudo que estiver em "FALTA" deve ser modelado no Blend
 
 Cena | Cenario | Plano | Personagens | Acao dos personagens | Objetos em cena | Na mao | Falta
 ---|---|---|---|---|---|---|---
-b0 | countryside | two | 2 | dancar, INTERAGEM: avanca e o outro recua | kit/beehive, kit/bee, kit/marco_viena | - | -
-b1 | street | reveal | 8 | parados (so fala e pisca) | kit/marco_viena, kit/beehive | - | -
-b2 | countryside | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/beehive, kit/bee, kit/marco_viena | - | -
-b3 | interior madeira | two | 2 | conversar, INTERAGEM: insiste | kit/bee, kit/beehive | paper | -
-b4 | countryside | close | 1 | dancar | kit/beehive, kit/bee, kit/marco_viena | - | -
-b5 | countryside | two | 2 | discutir, INTERAGEM: discutir | kit/beehive, kit/bee, kit/marco_viena | - | -
-b6 | countryside | low | 1 | reagir | kit/beehive, kit/bee, kit/marco_viena | - | -
-b7 | countryside | two | 2 | dancar, INTERAGEM: entregar | kit/beehive, kit/bee, kit/marco_viena | - | -
+b0 | loc_campo | two | 2 | dancar, INTERAGEM: avanca e o outro recua | kit/beehive, kit/bee, kit/marco_viena | - | -
+b1 | loc_campo | reveal | 8 | encena | kit/marco_viena, kit/beehive | - | -
+b2 | loc_campo | crowd | 14 | conversar, batalha | kit/beehive, kit/bee, kit/marco_viena | - | -
+b3 | interior madeira | two | 2 | conversar, INTERAGEM: o outro se aproxima | kit/bee, kit/beehive | paper | -
+b4 | loc_campo | close | 1 | dancar | kit/beehive, kit/bee, kit/marco_viena | - | -
+b5 | loc_montanha | two | 2 | discutir, INTERAGEM: discutir | kit/beehive, kit/bee, kit/marco_viena | - | -
+b6 | loc_montanha | low | 1 | reagir | kit/beehive, kit/bee, kit/marco_viena | - | -
+b7 | loc_montanha | two | 2 | dancar, INTERAGEM: entregar | kit/beehive, kit/bee, kit/marco_viena | - | -
 b8 | interior madeira | two | 2 | discutir, INTERAGEM: empurrar | - | paper | -
-b9 | medieval | crowd | 33 | reagir, batalha | kit/beehive, kit/bee, kit/marco_viena | - | -
-b10 | medieval | orbit | 21 | comemorar, batalha | kit/marco_viena | - | -
-b11 | medieval | close | 1 | dancar | kit/beehive, kit/bee, kit/marco_viena | - | -
+b9 | loc_montanha | crowd | 33 | reagir, batalha | kit/beehive, kit/bee, kit/marco_viena | - | -
+b10 | interior pedra | group | 7 | comemorar, INTERAGEM: pular | - | - | -
+b11 | loc_campo | close | 1 | dancar | kit/beehive, kit/bee, kit/marco_viena | - | -
+b12 | loc_campo | two | 1 | conversar | kit/marco_viena | - | -
 
-OBJETO HEROI: kit/beehive - aparece em 10 cena(s), close nele em 2
-GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b9, b10
-Interacoes entre personagens: b0 avanca e o outro recua, b2 o outro se aproxima, b3 insiste, b5 discutir, b7 entregar, b8 empurrar
+OBJETO HEROI: kit/beehive
+GRANDES MOMENTOS (plano aberto com multidao, efeito e som): 2 -> b2, b9
+Interacoes entre personagens: b0 avanca e o outro recua, b3 o outro se aproxima, b5 discutir, b7 entregar, b8 empurrar, b10 pular
 
-Cenas com personagens parados: 1 de 12
+Cenas com personagens parados: 0 de 13
 FALTA MODELAR: nada

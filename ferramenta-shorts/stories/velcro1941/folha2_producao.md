@@ -27,28 +27,28 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MES (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/marco_alpes, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): caminhada, engenheiro, mestral
 - RISCOS: nenhum
 
 ## Cena b3 - O pelo do cachorro e a calça dele estavam cheios de carrapichos. Dava ...
-- Cenario: street | luz: day | clima: limpo
-- Camera: crowd = ABERTO: multidao; em batalha vira sequencia de 4 cameras (preparo, close das armas, travelling, grua) [momento criado pela ferramenta]
-- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
-- Personagens principais (1): MES (variante 0, expressao angry) | multidao: 12 de POV
-- Animacao: - | batalha encenada
+- Cenario: mountain | luz: day | clima: limpo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
+- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): MES (variante 0, expressao angry)
+- Animacao: reagir
 - Objetos/modelos: kit/burr, kit/marco_alpes, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, calca, carrapichos, trabalhao
 - RISCOS: nenhum
 
 ## Cena b4 - Curioso, ele levou um carrapicho para casa e olhou no microscópio.
 - Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo
+- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): MES (variante 0, expressao suspicious)
-- Animacao: conversar
-- Objetos/modelos: kit/burr
+- Animacao: reagir
+- Objetos/modelos: kit/microscopio, kit/burr
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): carrapicho, microscopio
 - RISCOS: nenhum
 
@@ -67,18 +67,18 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: low = camera baixa, dramatica (virada)
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto
 - Personagens principais (1): MES (variante 0, expressao grin)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/burr
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): fita, ganchinhos, voltinhas
 - RISCOS: nenhum
 
 ## Cena b7 - Os tecelões riram da ideia. Levou quase dez anos de tentativas até ace...
-- Cenario: interior madeira | luz: day | clima: limpo
-- Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
-- Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
-- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous)
-- Animacao: discutir | interacao: discutir
-- Objetos/modelos: -
+- Cenario: street | luz: day | clima: limpo
+- Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
+- Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
+- Personagens principais (2): TEC (variante 0, expressao laugh); MES (variante 0, expressao nervous) | multidao: 14 de POV
+- Animacao: discutir | batalha encenada
+- Objetos/modelos: kit/marco_alpes
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): material, teceloes, tentativas
 - RISCOS: nenhum
 
@@ -107,7 +107,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s + CLOSE NO OBJETO no meio da cena (vai e volta)
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto | no meio: desliza ate o objeto (close), segura ~1,5 s e volta
 - Personagens principais (1): AST (variante 0, expressao laugh)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/burr, kit/rocket, kit/moon
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): espaco, usar, velcro
 - RISCOS: nenhum
@@ -117,7 +117,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: close = close no rosto; empurra devagar
 - Takes: 3 take(s) de ~1,8 s, deslizando de um para o outro: frente -> 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (1): MES (variante 0, expressao smile)
-- Animacao: conversar
+- Animacao: reagir
 - Objetos/modelos: kit/burr, kit/marco_alpes, dog
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): cachorro, carrapichos
 - RISCOS: nenhum
@@ -128,15 +128,16 @@ Regra: todo objeto, utensilio, veiculo e animal que aparece e' modelo 3D feito n
 Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/burr | b0, b3, b4, b5, b6, b8, b9, b10, b11 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_alpes | b0, b1, b2, b3, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_alpes | b0, b1, b2, b3, b7, b9, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 dog | b0, b2, b3, b11 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/microscopio | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/rocket | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/moon | b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 
 
 ## Video inteiro
-- Objeto heroi: kit/burr | grandes momentos: b3, b9 | planos abertos: 3 | mistura: close 21% | medio 66% | aberto 8% | detalhe 4%
-- Interacoes: b0 insiste, b7 discutir, b8 entregar
+- Objeto heroi: kit/burr | grandes momentos: b7, b9 | planos abertos: 3 | mistura: close 21% | medio 65% | aberto 8% | detalhe 6%
+- Interacoes: b0 insiste, b8 entregar
 - RISCOS GERAIS: nenhum
 
 ## RESUMO: 0 risco(s) em aberto - pode renderizar

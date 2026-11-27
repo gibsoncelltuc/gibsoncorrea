@@ -1,6 +1,6 @@
 # FOLHA 1 - ROTEIRO: Guerras Inusitadas EP 07 - A Guerra dos Bolos
 
-Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 156 palavras (~54 s)
+Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street | 11 cenas, 162 palavras (~56 s)
 
 ## Cena b0  (~4.1 s)
 - Narracao: A França invadiu o México por causa de uma conta de confeitaria.
@@ -24,7 +24,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Um dia, oficiais mexicanos entraram, comeram tudo o que havia, quebraram a loja, e saíram sem pagar.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: thump@50
-- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito; encena: x_come (lift) @5 -> acao + som de efeito; encena: quebra (throw) @10 -> acao + som de efeito; encena: sai @14 -> acao + som de efeito
+- Efeito + som nas palavras-chave: quebraram -> dust + som de impacto; encena: chega (point) @4 -> acao + som de efeito; encena: x_come (eat) @5 -> acao + som de efeito; encena: quebra (throw) @10 -> acao + som de efeito; encena: sai @14 -> acao + som de efeito
 - Efeito visual marcado: puff@50
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -42,7 +42,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: O rei gostou da ideia, juntou outras queixas, e cobrou seiscentos mil. "Paguem, ou mandamos a marinha", avisou a França.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: encena: pensa (think) @4 -> acao + som de efeito; encena: fala (point) @17 -> acao + som de efeito
+- Efeito + som nas palavras-chave: encena: g_gostou (point) @2 -> acao + som de efeito; encena: pensa (think) @4 -> acao + som de efeito; encena: g_juntou (reach) @5 -> acao + som de efeito; encena: g_cobrou (point) @9 -> acao + som de efeito; encena: fala (point) @17 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: desenvolvimento
@@ -69,7 +69,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Narracao: Os canhões franceses bombardearam a fortaleza de Veracruz, e os soldados tomaram a cidade.
 - Som ambiente: silencio/sala | batalha: tiros e gritos a cena inteira
 - Efeitos sonoros marcados: gun@8, gun@16, gun@20, gun@24, gun@28, gun@36, gun@40, gun@44, gun@48, gun@56, gun@60, gun@64, gun@68, gun@76, gun@80, gun@84, gun@88, gun@96, gun@100, gun@104, gun@108, gun@116, gun@120, gun@124, gun@128, gun@136, gun@140
-- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (FRA) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
+- Efeito + som nas palavras-chave: cavalaria: 4 soldados a cavalo (FRA) -> acao + som de efeito; tiros: 5 soldados caem no chao -> acao + som de efeito; canhões -> burst + som de tiro/explosao; encena: atira @1 -> acao + som de efeito; encena: g_bombarde (point) @3 -> acao + som de efeito; explosao: 2 soldados voando girando (GRAVIDADE: 1.6 s no ar, sobem 5.6 m e caem acelerando) -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: GRANDE MOMENTO
@@ -92,11 +92,11 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: street |
 - Texto na tela: 600.000
 - Funcao na historia: desenvolvimento
 
-## Cena b10  (~2.1 s)
-- Narracao: Nunca um doce custou tão caro.
+## Cena b10  (~4.1 s)
+- Narracao: Nunca um doce custou tão caro, e o confeiteiro contou as moedas.
 - Som ambiente: silencio/sala
 - Efeitos sonoros marcados: -
-- Efeito + som nas palavras-chave: -
+- Efeito + som nas palavras-chave: moedas -> stars + som de sino; encena: fala (point) @9 -> acao + som de efeito; encena: paga (reach) @11 -> acao + som de efeito
 - Efeito visual marcado: -
 - Texto na tela: -
 - Funcao na historia: FECHO/PIADA FINAL

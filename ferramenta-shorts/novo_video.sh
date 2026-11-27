@@ -12,6 +12,6 @@ N=$(cat stories/$ID/riscos.txt 2>/dev/null || echo 99)
 if [ "$N" != "0" ]; then echo; echo "BLOQUEADO: $N risco(s). Leia stories/$ID/folha2_producao.md (secao RESUMO), corrija videos/$ID/beats.json e rode de novo."; sed -n '/^## RESUMO/,/^## Reparos/p' stories/$ID/folha2_producao.md | head -20; exit 2; fi
 grep -q "AVISO" logs/mkvideo_$ID.log && echo "(ha AVISO de mistura de planos acima: corrija se der, nao bloqueia)"
 if [ -f stories/$ID/DONE ]; then echo "ja existe video pronto deste id: para refazer inteiro use ./refazer_tudo.sh $ID"; exit 0; fi
-Q=$(bash qfile.sh); grep -qx "$ID" $Q || echo "$ID" >> $Q
+grep -qx "$ID" queue.txt || echo "$ID" >> queue.txt
 pgrep -f run_queue.sh >/dev/null || { nohup bash run_queue.sh > logs/queue_run.log 2>&1 & sleep 1; }
 echo "LIBERADO: $ID esta na fila. Acompanhe com  bash status.sh  e, no fim,  ./conferir.sh $ID"

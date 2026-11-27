@@ -75,71 +75,16 @@ def bancada():
     escala(1.0)
     fim(.02)
 def burr():
-    novo('burr')                         # carrapicho de bardana (Velcro): miolo marrom, MUITOS espinhos finos cor de palha com a ponta em GANCHO (20/11: o verde com espinhos pretos parecia o coronavirus)
-    C = (0, .34, 0); r0 = .12
-    bola(C, r0, '#6b4a26', seg=14)
-    n = 120; ga = m.pi * (3 - m.sqrt(5))
-    for i in range(n):
-        yy = 1 - 2 * (i + .5) / n; rr = (1 - yy * yy) ** .5; th = ga * i
-        d = (rr * m.cos(th), yy, rr * m.sin(th))
-        if d[1] < -.8: continue
-        p0 = tuple(C[k] + d[k] * r0 * .85 for k in range(3)); p1 = tuple(C[k] + d[k] * (r0 + .085) for k in range(3))
-        up = (0, 1, 0) if abs(d[1]) < .9 else (1, 0, 0)
-        side = (d[1] * up[2] - d[2] * up[1], d[2] * up[0] - d[0] * up[2], d[0] * up[1] - d[1] * up[0])
-        p2 = tuple(p1[k] + side[k] * .03 - d[k] * .018 for k in range(3))
-        tubo([p0, p1, p2], .0065, '#c9a45a' if i % 3 else '#b88a3e')
-    tubo([(0, .22, 0), (.02, .1, 0), (0, 0, 0)], .011, '#4f5a24')
-    escala(3.2)
+    novo('burr')                         # carrapicho (Velcro): bolinha verde-marrom com ganchinhos em volta, num talinho
+    bola((0, .32, 0), .13, '#7a8a3a')
+    for i in range(46):
+        a = i * 2.4; yy = 1 - 2 * (i + .5) / 46; r = (1 - yy * yy) ** .5; d = (r * m.cos(a), yy, r * m.sin(a))
+        p0 = (d[0] * .12, .32 + d[1] * .12, d[2] * .12); p1 = (d[0] * .2, .32 + d[1] * .2, d[2] * .2)
+        tubo([p0, p1], .008, '#8a7a3a'); bola((p1[0] * 1.04, p1[1] + .006, p1[2] * 1.04), .012, '#c8b060')
+    tubo([(0, .2, 0), (.02, .1, 0), (0, 0, 0)], .012, '#5a6a2a')
+    escala(2.8)
     fim(.0)
 
-def turbina():
-    novo('turbina')                      # turbina da usina geotermica (vulcao/vapor): torre branca, cabine, hub e 3 pas
-    cil((0, .05, 0), .22, .1, '#7a7f86', lados=16)
-    torno((0, 0, 0), [(.12, .1), (.09, 1.5), (.07, 1.6)], '#e6e8ec', 18)
-    caixa((0, 1.62, 0.05), (.2, .16, .3), '#d4d7dc')
-    bola((0, 1.62, .22), .1, '#c9ccd2', seg=12)
-    for k in range(3):
-        a = k * 2.0944 + .4
-        tubo([(0, 1.62, .25), (.28 * m.sin(a), 1.62 + .28 * m.cos(a), .26), (.62 * m.sin(a), 1.62 + .62 * m.cos(a), .27)], .035, '#f2f3f5')
-    escala(2.4)
-    fim(.0)
-
-def rato():
-    novo('rato')                         # 21/11: rato cinza com orelhas e rabo rosa (Paris: 'os roedores viraram um prato chique')
-    bola((0, .11, 0), .10, '#8d8d94', seg=12); bola((0, .11, .09), .085, '#8d8d94', seg=12); bola((0, .11, -.07), .08, '#85858c', seg=10)
-    bola((0, .10, .17), .06, '#9a9aa2', seg=10); bola((0, .09, .225), .022, '#e58f9a', seg=8)
-    for sx in (-1, 1):
-        bola((sx * .045, .175, .14), .034, '#e8a0aa', seg=8); bola((sx * .03, .125, .21), .011, '#1a1a1a', seg=6)
-        cil((sx * .05, .02, .05), .014, .04, '#e8a0aa', lados=6); cil((sx * .05, .02, -.06), .014, .04, '#e8a0aa', lados=6)
-    tubo([(0, .09, -.13), (0, .04, -.25), (0, .07, -.38), (.04, .05, -.46)], .011, '#e0a0a8')
-    escala(1.0)
-    fim(.0)
-def trave():
-    novo('trave')                        # 21/11: gol de futebol (2 traves, travessao e rede) - Guerra do Futebol
-    for sx in (-1, 1): cil((sx * 1.1, .6, 0), .045, 1.2, '#f6f6f2', lados=10); tubo([(sx * 1.1, 1.2, 0), (sx * 1.1, .6, -.55), (sx * 1.1, 0, -.7)], .05, '#dcdcdc', passo=1.6)
-    caixa((0, 1.2, 0), (2.28, .09, .09), '#f6f6f2'); tubo([(-1.1, 1.2, -.0), (-1.1, 1.0, -.55), (1.1, 1.0, -.55), (1.1, 1.2, 0)], .05, '#dcdcdc', passo=1.6)
-    for k in range(9): tubo([(-1.1 + k * .275, 1.0, -.55), (-1.1 + k * .275, 0, -.7)], .03, '#e6e6e6', passo=1.6)
-    for k in range(5): tubo([(-1.1, 1.0 - k * .2, -.55 - k * .03), (1.1, 1.0 - k * .2, -.55 - k * .03)], .03, '#e6e6e6', passo=1.6)
-    escala(1.4)
-    fim(.0)
-
-def abelha():
-    novo('abelha')                       # 21/11: abelha (corpo listrado, asas, ferrao) - Frisch, abelhas
-    bola((0, 0, 0), .16, '#f2c230', esc=(1.5, 1, 1)); bola((.22, 0, .02), .11, '#2a2a2a'); bola((-.2, 0, 0), .1, '#2a2a2a', esc=(1.2, 1, 1))
-    for x in (-.06, .06): caixa((x, 0, 0), (.04, .26, .26), '#3a2a10')
-    for sy in (-1, 1): bola((0, sy * .17, .15), .13, '#dff4ff', esc=(1.1, .7, .25), rot=(sy * .5, 0, 0))
-    escala(2.2)
-    fim(.0)
-
-def cobra():
-    novo('cobra')                        # 21/11: cobra verde enrolada com cabeca (Kekule, atomos como cobras)
-    for i in range(26):
-        t = i / 25.0; r = .55 - .35 * t; a = t * 9.0
-        bola((r * m.cos(a), r * m.sin(a), .07 + .1 * t), .075, '#3f9a4a' if i % 4 else '#e8d44a', seg=10)
-    bola((.2 * m.cos(9.0), .2 * m.sin(9.0), .3), .1, '#3f9a4a', esc=(1.3, 1, 1)); bola((.19 * m.cos(9.0) + .08, .2 * m.sin(9.0) + .05, .36), .02, '#111111', seg=6)
-    escala(1.8)
-    fim(.0)
-
-E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr, turbina=turbina, rato=rato, trave=trave, abelha=abelha, cobra=cobra)
+E = dict(panela=panela, frasco=frasco, tubos=tubos, enxofre=enxofre, gosma=gosma, borracha=borracha, microscopio=microscopio, balanca=balanca, lupa=lupa, bancada=bancada, burr=burr)
 alvo = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else list(E)
 for k in alvo: E[k]()

@@ -7,7 +7,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
 - Personagens principais (2): MER (variante 0, expressao grin, segura tulip); POV (variante 1, expressao shock)
-- Animacao: reagir | interacao: susto
+- Animacao: conversar | interacao: susto
 - Objetos/modelos: kit/tulip_bed, buildings/windmill, kit/tulip_red
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): casa, preco
 - RISCOS: nenhum
@@ -22,14 +22,14 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): chegar, holanda, moda, oriente, tulipa
 - RISCOS: nenhum
 
-## Cena b2 - Os ricos queriam as mais raras. "Dou mil moedas por esse bulbo", dizia...
-- Cenario: interior loja | luz: day | clima: limpo
+## Cena b2 - Os ricos queriam as mais raras. Num leilão, um oferecia mil moedas por...
+- Cenario: interior madeira | luz: day | clima: limpo
 - Camera: two = plano medio nos dois; camera empurra devagar e muda de angulo a cada ~2 s
 - Takes: 4 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto -> leve direita, perto -> esquerda alta, aberto
 - Personagens principais (2): RIC (variante 0, expressao stern, segura coin); RIC (variante 1, expressao shock, segura coin)
 - Animacao: discutir | interacao: discutir
 - Objetos/modelos: kit/tulip_striped, kit/coin
-- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): ricos
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): bulbo, oferecia, ricos
 - RISCOS: nenhum
 
 ## Cena b3 - Logo, o país inteiro estava comprando. Padeiros, sapateiros, gente que...
@@ -73,7 +73,7 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b7 - A notícia correu. Em poucos dias, todo mundo quis vender, e não havia ...
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: orbit = ABERTO: camera girando em volta da acao (tomada continua)
 - Takes: 4 cameras em sequencia: (1) tropa se preparando, plano medio; (2) close das armas/rostos; (3) travelling lateral pela linha; (4) grua subindo e abrindo com clarao, poeira e som
 - Personagens principais (2): POV (variante 2, expressao shock, segura tulip); RIC (variante 0, expressao pained, segura paper) | multidao: 30 de POV/RIC/MER
@@ -93,13 +93,23 @@ Coordenadas de cada cena para modelagem, animacao e camera, com os RISCOS que o 
 - RISCOS: nenhum
 
 ## Cena b9 - O marinheiro, pelo menos, almoçou bem.
-- Cenario: countryside | luz: day | clima: limpo
+- Cenario: street | luz: day | clima: limpo
 - Camera: close = close no rosto; empurra devagar
 - Takes: 1 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo
 - Personagens principais (1): MAR (variante 0, expressao grin)
 - Animacao: conversar
 - Objetos/modelos: kit/marco_amsterdam
 - CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): marinheiro
+- RISCOS: nenhum
+
+## Cena b10 - Agora não deixe de comentar: qual deve ser o tema do próximo vídeo?
+- Cenario: countryside | luz: day | clima: limpo
+- Camera: close = close no rosto; empurra devagar
+- Takes: 2 take(s) de ~1,8 s, deslizando de um para o outro: 3/4 pela direita, mais perto e mais baixo -> 3/4 pela esquerda, mais alto e aberto
+- Personagens principais (1): MER (variante 0, expressao grin)
+- Animacao: conversar
+- Objetos/modelos: kit/marco_amsterdam
+- CONFERIR NA FOLHA DE CONTATO (o que a narracao cita tem que aparecer): comentar, proximo, tema
 - RISCOS: nenhum
 
 ## PARA O BLENDER (objetos 3D deste video)
@@ -109,9 +119,9 @@ Objeto | Cenas | Situacao | O que fazer
 ---|---|---|---
 kit/tulip_bed | b0, b1, b3, b7, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 buildings/windmill | b0, b1 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tulip_red | b0, b1, b5, b8 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/marco_amsterdam | b1, b3, b4, b7, b9 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
-kit/tulip_striped | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_red | b0, b1, b5, b8 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/marco_amsterdam | b1, b3, b4, b7, b9, b10 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
+kit/tulip_striped | b2 | pronto (HEROI: aparece em close) | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/coin | b2 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_yellow | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
 kit/tulip_purple | b4 | pronto | conferir na folha de contato se le bem; se parecer caixote, refazer com formas.py
@@ -119,11 +129,13 @@ kit/stall | b6 | pronto | conferir na folha de contato se le bem; se parecer cai
 
 
 ## Video inteiro
-- Objeto heroi: kit/tulip_red | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 8% | medio 76% | aberto 13% | detalhe 3%
+- Objeto heroi: kit/tulip_striped | grandes momentos: b3, b7 | planos abertos: 3 | mistura: close 15% | medio 70% | aberto 12% | detalhe 3%
 - Interacoes: b0 susto, b2 discutir, b4 reverencia, b5 aproxima-se, b6 vai ate o outro, b8 avanca e o outro recua
-- RISCOS GERAIS: nenhum
+- RISCOS GERAIS: 
+  - FOLHA 4: a pesquisa de campo ainda nao foi feita -> CORRECAO: python3 pesquisar.py tulipas1637  (busca cada item na internet, baixa os prints e monta o quadro de referencias); depois OLHE referencias/tulipas1637/moodboard.jpg
 
-## RESUMO: 0 risco(s) em aberto - pode renderizar
+## RESUMO: 1 risco(s) em aberto
+- geral: FOLHA 4: a pesquisa de campo ainda nao foi feita
 
 ## Reparos depois do render
 - Defeito em poucas cenas e narracao igual: corrija o beats.json e `./refazer.sh tulipas1637 bN bM` (so essas cenas).

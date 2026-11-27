@@ -4,7 +4,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b0  (~9.0 s)
 - Narracao: Entre mil novecentos e cinquenta e oito e mil novecentos e setenta e seis, a Islândia e a Inglaterra travaram três guerras. Por causa de peixe.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: g_travaram (point) @19 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -13,7 +13,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b1  (~6.2 s)
 - Narracao: A Islândia é pequena, e vivia da pesca. Mas barcos ingleses pescavam bacalhau bem pertinho da costa dela.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: g_pescavam (point) @11 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -40,7 +40,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b4  (~6.2 s)
 - Narracao: A Islândia só tinha uns barquinhos da guarda costeira, mas eles tinham uma arma secreta: cortadores de rede.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: x_pesca (lift) @17 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -58,7 +58,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b6  (~3.8 s)
 - Narracao: A Islândia ainda ameaçou fechar a base da Otan no país.
-- Som ambiente: silencio/sala
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: g_ameacou (up) @3 -> acao + som de efeito
 - Efeito visual marcado: -
@@ -67,7 +67,7 @@ Voz: pt-BR-AntonioNeural +10% | Clima do video: playful | Cenario base: harbor |
 
 ## Cena b7  (~7.9 s)
 - Narracao: Em mil novecentos e setenta e seis, os ingleses cederam, e a ideia de uma zona de duzentas milhas se espalhou pelo mundo.
-- Som ambiente: birds
+- Som ambiente: sea
 - Efeitos sonoros marcados: -
 - Efeito + som nas palavras-chave: encena: pensa (think) @12 -> acao + som de efeito; encena: g_espalhou (reach) @20 -> acao + som de efeito
 - Efeito visual marcado: -
