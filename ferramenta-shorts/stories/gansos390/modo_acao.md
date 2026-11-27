@@ -1,4 +1,3 @@
 # MODO DE ACAO DEFINITIVO: gansos390
-FALHAS: 0  |  AVISOS: 1
+FALHAS: 0  |  AVISOS: 0
 
-- aviso b6: R4.7 3 acoes fortes na mesma frase (caiu, empurrou, pulou): ideal dividir em cenas
