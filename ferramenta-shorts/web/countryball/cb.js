@@ -106,7 +106,7 @@ function drawBall(cv, b, P, look, blink, t, aim, weapon, flash) {   // canvas 38
     if (P.ar > .02) { c.globalAlpha = clamp(P.ar * 1.2, 0, 1); c.strokeStyle = '#111'; c.lineWidth = 9; c.beginPath(); c.arc(x, ey + 10, 18, Math.PI * 1.1, Math.PI * 1.9); c.stroke(); c.globalAlpha = 1; }
     if (h <= 3.5 && P.ar <= .02) { c.strokeStyle = '#111'; c.lineWidth = 8; c.beginPath(); c.moveTo(x - w, ey); c.lineTo(x + w, ey); c.stroke(); }
     // sobrancelha: inclina (br>0 bravo = ponta interna para baixo, br<0 triste), sobe/desce (bh)
-    const by = ey - 30 - P.bh * 26 - (1 - clamp(P.eo, 0, 1.4)) * 2, tilt = P.br * 15; if (Math.abs(P.br) > .04 || Math.abs(P.bh) > .04) { c.strokeStyle = '#111'; c.lineWidth = 10; c.beginPath(); c.moveTo(x - side * 24, by - tilt); c.lineTo(x + side * 24, by + tilt); c.stroke(); }
+    const by = ey - 30 - P.bh * 26 - (1 - clamp(P.eo, 0, 1.4)) * 2, tilt = P.br * 15; if (Math.abs(P.br) > .04 || Math.abs(P.bh) > .04) { c.strokeStyle = '#111'; c.lineWidth = 10; c.beginPath(); c.moveTo(x - side * 24, by + tilt); c.lineTo(x + side * 24, by - tilt); c.stroke(); }
   }
   // boca: linha curva (sorriso/tristeza) que ABRE continuamente em forma de boca
   const mx = 128 + gx * .8, my = 176 + gy * .6, mw = 26 + P.mo * 14, op = Math.max(0, P.mo - .08) * 40, cv_ = P.mc * 16;
