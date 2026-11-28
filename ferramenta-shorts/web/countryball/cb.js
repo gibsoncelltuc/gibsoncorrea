@@ -133,7 +133,7 @@ for (const b of ballList) {
 function track(arr, t, keys, mode) {   // keyframes (ordenados por t); mode 'back' = chega com leve overshoot, 'cr' = Catmull-Rom (camera)
   if (!arr || !arr.length) return null; if (t <= arr[0].t) return arr[0]; const l = arr[arr.length - 1]; if (t >= l.t) return l;
   let i = 0; while (arr[i + 1].t < t) i++; const a = arr[i], b = arr[i + 1], u = (t - a.t) / (b.t - a.t), o = {};
-  if (mode === 'cr') { const p0 = arr[Math.max(0, i - 1)], p3 = arr[Math.min(arr.length - 1, i + 2)], s = u * u * (3 - 2 * u); for (const f of keys) { const m1 = (b[f] - p0[f]) * .5 * 0, m2 = 0; o[f] = lerp(a[f], b[f], s) + (m1 + m2) * 0; } return o; }
+  if (mode === 'cr') { const p0 = arr[Math.max(0, i - 1)], p3 = arr[Math.min(arr.length - 1, i + 2)], s = u * u * (3 - 2 * u); for (const f of keys) { const m1 = (b[f] - p0[f]) * .5 * 0, m2 = 0; o[f] = lerp(a[f] ?? 0, b[f] ?? 0, s); } return o; }
   const k = mode === 'back' ? outBack(clamp(u, 0, 1)) * (u < .15 ? ease(u / .15) : 1) : ease(u); for (const f of keys) o[f] = a[f] + (b[f] - a[f]) * (mode === 'back' ? (u < .25 ? ease(u / .25) * .12 * 0 + ease(u) * 0 + ease(clamp(u * 1.25, 0, 1)) : outBack(u)) : k); return o;
 }
 const ballPos = (bl, t) => track(bl.b.path, t, ['lon', 'lat'], 'back') || { lon: bl.b.lon, lat: bl.b.lat };
@@ -151,13 +151,25 @@ const bpos = (id, t) => { const p = ballPos(balls[id], t); return new THREE.Vect
 const texts = [...(spec.texts || [])], textEls = texts.map(x => { const d = document.createElement('div'); d.className = 'tx ' + x.style; d.textContent = x.text; if (x.top) d.style.top = x.top + 'px'; if (x.color) d.style.color = x.color; if (x.size) d.style.fontSize = x.size + 'px'; document.getElementById('wrap').appendChild(d); return d; });
 const fl = document.getElementById('fl'), shots = {};   // tiros por bola (para o recuo da arma)
 for (const x of spec.fx || []) if (x.k === 'shot' && x.a in balls) (shots[x.a] = shots[x.a] || []).push(x.t);
+
+// ---- coreografia de luta: cada "lunge" = {t,dur,foe}: recua (antecipacao) -> avanca rapido -> volta com mola; o golpe (t+.4*dur) bate no alvo
+const LUNGE = ph => ph < .28 ? -ease(ph / .28) * .2 : ph < .4 ? lerp(-.2, 1, ease((ph - .28) / .12)) : Math.max(0, 1 - ease((ph - .4) / .6)) * (1 + Math.sin((ph - .4) * 26) * .06 * (1 - ph));
+const impulses = {};   // por bola: instantes de "pancada" (chegada, golpe dado/recebido, pulso)
+for (const id in balls) impulses[id] = [];
+for (const id in balls) { const b = balls[id].b; for (const l of b.lunges || []) { const th = l.t + .4 * (l.dur || 1); impulses[id].push([th, .9]); if (l.foe in impulses) impulses[l.foe].push([th, 1.3]); } for (const x of b.pulse || []) impulses[id].push([x.t, .8]); for (let i = 1; i < (b.path || []).length; i++) if (b.path[i].lon !== b.path[i - 1].lon || b.path[i].lat !== b.path[i - 1].lat) impulses[id].push([b.path[i].t, .7]); impulses[id].push([b.in ?? 0, .5]); }
+const wobble = (id, t) => { let w = 0; for (const [ti, a] of impulses[id]) { const q = t - ti; if (q >= 0 && q < 1.4) w += a * Math.exp(-q * 4.2) * Math.sin(q * 19); } return clamp(w, -1.4, 1.4); };
+function lungeOff(id, t, proj3) {   // deslocamento (unidades do mapa) em direcao ao alvo
+  const b = balls[id].b; let ox = 0, oz = 0; for (const l of b.lunges || []) { const d = l.dur || 1, ph = (t - l.t) / d; if (ph < 0 || ph > 1) continue; const A = proj3(id), B = proj3(l.foe); const dx = B.x - A.x, dz = B.z - A.z, L = Math.hypot(dx, dz) || 1, amp = Math.max(0, L - (balls[id].b.size + balls[l.foe].b.size) * .45) * (l.reach ?? .85) + (balls[id].b.size * .15); const k = LUNGE(ph); ox += dx / L * amp * k; oz += dz / L * amp * k; }
+  return [ox, oz];
+}
 const toScreen = (v) => { const p = v.clone().project(cam); return [p.x, -p.y]; };
 window.renderFrame = f => {
   const t = f / FPS;
   // ---- camera: keyframes suaves + respiracao + tremor + punch (zoom-in rapido nos impactos)
-  const k = track(spec.cam, t, ['lon', 'lat', 'h', 'tilt', 'roll'], 'cr'); let sx = 0, sz = 0, punch = 0;
+  const k = { ...track(spec.cam, t, ['lon', 'lat', 'h', 'tilt', 'roll', 'fw'], 'cr') }; let kf = null; for (const c_ of spec.cam) if (c_.t <= t) kf = c_;
+  if (kf && kf.fo && (k.fw ?? 0) > 0) { let fx_ = 0, fz_ = 0, n_ = 0; for (const id of kf.fo) { if (!(id in balls)) continue; const q = ballPos(balls[id], t - .3); fx_ += q.lon; fz_ += q.lat; n_++; } if (n_) { k.lon = lerp(k.lon, fx_ / n_, k.fw); k.lat = lerp(k.lat, fz_ / n_, k.fw); } } let sx = 0, sz = 0, punch = 0;
   for (const s of spec.shake || []) if (t >= s.t && t < s.t + s.d) { const a = (s.a || 1.2) * Math.pow(1 - (t - s.t) / s.d, 2); sx += Math.sin(t * 95) * a; sz += Math.cos(t * 81) * a; }
-  for (const p of spec.punch || []) if (t >= p.t) punch += (p.a || 3) * Math.exp(-(t - p.t) * 6);
+  for (const p of spec.punch || []) if (t >= p.t) punch += (p.a || 3) * Math.exp(-(t - p.t) * 6); for (const id in balls) for (const l of balls[id].b.lunges || []) { const q = t - (l.t + .4 * (l.dur || 1)); if (q >= 0) punch += 1.2 * Math.exp(-q * 8); if (q >= 0 && q < .25) { sx += Math.sin(t * 90) * .9 * (1 - q / .25); sz += Math.cos(t * 77) * .9 * (1 - q / .25); } }
   cam.fov = 38 - punch; cam.updateProjectionMatrix();
   const drift = [Math.sin(t * .7) * .35, Math.cos(t * .53) * .25]; const cx = (k.lon * K) + sx * .4 + drift[0], cz = -k.lat + sz * .4 + drift[1], h = k.h * (1 + Math.sin(t * .9) * .008);
   cam.position.set(cx, h, cz + h * Math.tan(k.tilt)); cam.up.set(0, 0, -1); cam.lookAt(cx, 0, cz); cam.rotateZ((k.roll || 0) + Math.sin(t * .6) * .006); cam.updateMatrixWorld();
@@ -167,23 +179,25 @@ window.renderFrame = f => {
   // ---- bolas
   const proj = {}; for (const id in balls) { const p = ballPos(balls[id], t); proj[id] = toScreen(new THREE.Vector3(p.lon * K, 4, -p.lat)); }
   for (const id in balls) {
-    const bl = balls[id], b = bl.b, a0 = t - (b.in ?? 0), vis = a0 >= 0 && t < (b.out ?? 1e9); bl.m.visible = bl.sh.visible = vis; if (!vis) continue;
+    const bl = balls[id], b = bl.b; let w0 = b.in ?? 0, vis; if (b.vis) { const w = b.vis.find(v => t >= v[0] && t < v[1]); vis = !!w; w0 = w ? w[0] : 0; } const a0 = t - w0; if (!b.vis) vis = a0 >= 0 && t < (b.out ?? 1e9); bl.m.visible = bl.sh.visible = vis; if (!vis) continue;
     const p = ballPos(bl, t), p2 = ballPos(bl, t + .05), p1 = ballPos(bl, t - .05), vx = (p2.lon - p1.lon) * K / .1, vz = -(p2.lat - p1.lat) / .1, speed = Math.hypot(vx, vz);
     // squash & stretch: antecipacao (encolhe antes de sair), estica andando, "bate" ao chegar
     let sq = 1, hop = 0; const pa = b.path || []; for (let i = 1; i < pa.length; i++) { const A = pa[i - 1], B = pa[i]; if (A.lon === B.lon && A.lat === B.lat) continue; if (t >= A.t - .22 && t < A.t) sq *= 1 - .16 * Math.sin((t - (A.t - .22)) / .22 * Math.PI / 2); else if (t >= B.t && t < B.t + .35) sq *= 1 - .18 * Math.exp(-(t - B.t) * 9) * Math.cos((t - B.t) * 22); }
-    const mv = clamp(speed / 6, 0, 1); hop = mv * Math.abs(Math.sin(t * 10 + bl.seed)) * (b.size || 6) * .16; sq *= 1 + mv * .05 * Math.cos(t * 20 + bl.seed); const breathe = 1 + Math.sin(t * 3 + bl.seed) * .015;
+    const mv = clamp(speed / 6, 0, 1); hop = mv * Math.abs(Math.sin(t * 10 + bl.seed)) * (b.size || 6) * .2; const S_ = b.size || 6, em = faceAt(b, t).e;
+    hop += Math.abs(Math.sin(t * 3.4 + bl.seed)) * S_ * .06; if (em === 'happy') hop += Math.abs(Math.sin(t * 7 + bl.seed)) * S_ * .22; if (em === 'cry') hop += Math.abs(Math.sin(t * 8)) * S_ * .05; const wb = wobble(id, t); sq *= 1 + mv * .06 * Math.cos(t * 20 + bl.seed) + wb * .16 + (em === 'angry' || em === 'shout' ? Math.sin(t * 14) * .025 : 0); const breathe = 1 + Math.sin(t * 3 + bl.seed) * .015;
     const fc = faceAt(b, t), foe = fc.at && fc.at in proj ? proj[fc.at] : null; const me = proj[id]; let look = [Math.sin(t * 1.3 + bl.seed) * .25, Math.cos(t * .9 + bl.seed * 2) * .15];
     if (foe) { const dx = foe[0] - me[0], dy = (foe[1] - me[1]) * (H / W), m = Math.hypot(dx, dy) || 1; look = [dx / m * .95, dy / m * .8]; } else if (mv > .1) { look = [clamp(vx * .08, -.9, .9), clamp(vz * .08, -.7, .7)]; }
     const blink = ((t * 2.3 + bl.seed) % 3.1) < .09 ? 1 - Math.abs(((t * 2.3 + bl.seed) % 3.1) / .09 * 2 - 1) : 0;
     let aim = 0, flash = { on: false, recoil: 0 }; if (b.weapon) { const tgt = foe || [me[0] + 1, me[1]]; aim = Math.atan2((tgt[1] - me[1]) * (H / W), tgt[0] - me[0]); for (const st of shots[id] || []) { const q = t - st; if (q >= 0 && q < .5) { flash.recoil = Math.max(flash.recoil, Math.exp(-q * 16)); if (q < .09) flash.on = true; } } }
-    const face = { ...fc.P }; if (fc.e === 'shout') face.mo = clamp(fc.P.mo * (.65 + .35 * Math.abs(Math.sin(t * 16))), 0, 1);
+    const face = { ...fc.P }; if (fc.e === 'angry' || fc.e === 'shout') face.bh += Math.sin(t * 9 + bl.seed) * .08; if (fc.e === 'scared') face.mo += Math.abs(Math.sin(t * 12)) * .12; if (fc.e === 'cry') face.mo += Math.sin(t * 8) * .12; face.br += Math.sin(t * 2.3 + bl.seed) * .05; face.eo *= 1 + Math.sin(t * 1.7 + bl.seed) * .03; if (fc.e === 'shout') face.mo = clamp(fc.P.mo * (.65 + .35 * Math.abs(Math.sin(t * 16))), 0, 1);
     drawBall(bl.cv, b, face, look, blink, t, aim, b.weapon, flash); bl.tex.needsUpdate = true;
     const sz0 = (b.size || 6), pin = outElastic(clamp(a0 / .6, 0, 1)), sz = sz0 * pin; let big = 1; for (const x of b.pulse || []) if (t >= x.t && t < x.t + .5) big = 1 + Math.sin((t - x.t) / .5 * Math.PI) * (x.a || .35) * (1 + Math.sin((t - x.t) * 40) * .25);
     // empurrao (knockback) quando atingida: deslocamento curto oposto ao agressor
-    let ox = 0, oz = 0; for (const x of b.knock || []) { const q = t - x.t; if (q >= 0 && q < .6) { const amp = (x.a || 2.5) * Math.exp(-q * 6) * Math.sin(q * 14); ox += (x.dx || 1) * amp; oz += (x.dz || 0) * amp; } }
+    const p3 = i_ => { const q = ballPos(balls[i_], t); return new THREE.Vector3(q.lon * K, 0, -q.lat); }; let [ox, oz] = lungeOff(id, t, p3); for (const x of b.knock || []) { const q = t - x.t; if (q >= 0 && q < .6) { const amp = (x.a || 2.5) * Math.exp(-q * 6) * Math.sin(q * 14); ox += (x.dx || 1) * amp; oz += (x.dz || 0) * amp; } }
     if (b.fall && t >= b.fall) { const q = clamp((t - b.fall) / .6, 0, 1); bl.m.material.opacity = 1 - clamp((t - b.fall - 1) / .8, 0, 1); bl.m.userData.fall = q * 1.5; } else { bl.m.material.opacity = 1; bl.m.userData.fall = 0; }
+    const wand = [Math.sin(t * 1.9 + bl.seed) * .07 * sz + (em === 'scared' ? Math.sin(t * 61) * .04 * sz : 0), Math.cos(t * 1.5 + bl.seed * 1.7) * .06 * sz]; ox += wand[0]; oz += wand[1];
     bl.m.position.set(p.lon * K + ox, sz * .6 + 1.4 + hop, -p.lat + oz); bl.m.scale.set(sz * big * breathe / sq, sz * big * breathe * sq, 1); bl.m.quaternion.copy(cam.quaternion);
-    bl.m.rotateZ(-clamp(vx * .045, -.4, .4) + bl.m.userData.fall + (flash.recoil * -.08)); bl.m.updateMatrixWorld();
+    bl.m.rotateZ(-clamp(vx * .045, -.4, .4) + bl.m.userData.fall + (flash.recoil * -.08) + wb * .22 + Math.sin(t * 2.1 + bl.seed) * .05); bl.m.updateMatrixWorld();
     bl.sh.position.set(p.lon * K + ox, .1, -p.lat + oz); const sa = 1 - clamp(hop / (sz0 * .6), 0, .6); bl.sh.scale.set(sz * .72 * sa, sz * .28 * sa, 1); bl.sh.material.opacity = bl.m.material.opacity * .3 * sa;
   }
   // ---- efeitos
@@ -202,6 +216,7 @@ window.renderFrame = f => {
       m.position.set(mid.x, 2.2, mid.z); m.scale.set(len * prog, x.w || .9, 1); m.rotation.set(-Math.PI / 2, 0, Math.atan2(-(B.z - A.z), (B.x - A.x))); m.renderOrder = 15;
     }
   }
+  for (const id in balls) for (const l of balls[id].b.lunges || []) { const th = l.t + .4 * (l.dur || 1), a = t - th; if (a < 0 || a > .35) continue; const A = bpos(id, t), B = bpos(l.foe, t), mid = A.clone().lerp(B, .62); const m = add(new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: TEX.boom, transparent: true, depthWrite: false, opacity: 1 - a / .35 }))); const sz = 3.5 + Math.sin(a / .35 * Math.PI / 2) * 2.5; m.scale.set(sz, sz, 1); m.position.set(mid.x, 6, mid.z); m.quaternion.copy(cam.quaternion); m.rotateZ(a * 3); m.renderOrder = 22; }
   let fv = 0; for (const x of spec.flash || []) if (t >= x.t && t < x.t + (x.d ?? .25)) fv = Math.max(fv, (1 - (t - x.t) / (x.d ?? .25)) * (x.a ?? .75)); fl.style.opacity = fv;
   texts.forEach((x, i) => { const el = textEls[i], a = t - x.t, d = x.d ?? 2; if (a < 0 || a > d) { el.style.display = 'none'; return; } el.style.display = 'block'; const pin = clamp(a / .3, 0, 1), cap = x.style === 'cap', s = cap ? 1 : (1 + (1 - outBack(pin)) * .55), o = clamp((d - a) / .18, 0, 1) * clamp(a / .06, 0, 1); el.style.opacity = o; el.style.transform = `scale(${s}) rotate(${cap ? 0 : (x.rot ?? -3) * outBack(pin)}deg)`; });
   renderer.render(scene, cam);
