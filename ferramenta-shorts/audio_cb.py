@@ -37,6 +37,13 @@ for b in range(nb):
         put(music, note(mid(m + 12), beat / 2 * .9, 'pl', .22 * inten), t + k * beat / 2 * 0 + (k % 2) * beat / 2 + (k // 2) * 0)
     if sec > 7 and b % 8 in (0, 3, 6) : put(music, note(mid(chord[2] + 24), beat * .6, 'sin', .14), t)
 music /= max(1e-6, np.abs(music).max()); music *= .55
+# musica real (CC0) no lugar da sintetica: MUSIC=arquivo (ex.: assets_audio/backfootextended.ogg, OpenGameArt "Backfoot", CC0)
+import os, subprocess
+if os.environ.get('MUSIC'):
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', os.environ['MUSIC'], '-ac', '1', '-ar', str(SR), '-f', 's16le', '-'], capture_output=True).stdout
+    m = np.frombuffer(raw, np.int16).astype(np.float64) / 32768; m = m[:N] if len(m) >= N else np.pad(m, (0, N - len(m)))
+    fo = int(1.2 * SR); end = int(dur * SR); m[end - fo:end] *= np.linspace(1, 0, fo); m[end:] = 0; fi = int(.05 * SR); m[:fi] *= np.linspace(0, 1, fi)
+    music = m / max(1e-6, np.abs(m).max()) * .62
 # efeitos
 sfx = np.zeros(N)
 def mk(k):
@@ -51,7 +58,10 @@ def mk(k):
     if k == 'puff': d = .6; t = tt(d); x = lp(rng.standard_normal(len(t)), 30) * np.exp(-t * 4) * 5; return x * .5
     return np.zeros(int(.1 * SR))
 for e in spec.get('sfx', []): put(sfx, mk(e['k']), e['t'], 1.0)
-mix = music * .8 + sfx * .85
+duck = np.ones(N)
+if os.environ.get('MUSIC'):   # abaixa a musica um pouco quando ha efeito forte (clareza dos impactos)
+    e = np.abs(sfx); k = int(.06 * SR); e = np.convolve(e, np.ones(k) / k, 'same'); duck = 1 - np.clip(e * 3.0, 0, .45)
+mix = music * (.95 if os.environ.get('MUSIC') else .8) * duck + sfx * .8
 mix = np.tanh(mix * 1.4) * .9
 mix[int(dur * SR):] = 0; mix = mix[:int(dur * SR)]
 w = wave.open(sys.argv[2], 'wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((mix * 32767).astype(np.int16).tobytes()); w.close(); print('ok', dur, 's')

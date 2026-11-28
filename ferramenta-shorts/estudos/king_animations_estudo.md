@@ -31,3 +31,6 @@ Hoje a ferramenta faz bonecos-palito em cenários 3D. O formato exige: (a) set "
 
 ## Piloto (65–68 s, inglês) — tema diferente do King
 Opções: "Spanish Armada 1588 in a nutshell" | "The Mongol Empire Expansion" | "Seven Years' War in a nutshell". (Escolha do Gibson.)
+
+## Trilha (28/11)
+Musica sintetica foi trocada por faixa real CC0 do OpenGameArt ("Backfoot", assets_audio/backfootextended.ogg; ~92 BPM, 74 s, energia estavel). Referencias do Gibson: ~120 BPM (a faixa do King e' protegida por direitos: NAO usar). Outras CC0 baixadas/medidas: Random Battle, Charge, Chipped Urgency (chiptune 152 BPM, 38 s, mais "gamer"), Face the Facts (130 s, 81 BPM), As Fast As You Can. Uso: MUSIC=assets_audio/<arq> python3 audio_cb.py <spec>.json <saida>.wav
