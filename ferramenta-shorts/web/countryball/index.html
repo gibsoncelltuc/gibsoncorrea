@@ -5,8 +5,10 @@ html,body{margin:0;background:#000;overflow:hidden}#wrap{position:relative;width
 .year{top:210px;font-size:250px;color:#ffd23f;-webkit-text-stroke:22px #1a0b00;text-shadow:0 14px 0 #1a0b00}
 .big{top:330px;font-size:120px;-webkit-text-stroke:16px #111;text-shadow:0 10px 0 #111}
 .num{top:250px;font-size:190px;color:#ff3b3b;-webkit-text-stroke:20px #fff;text-shadow:0 12px 0 #fff}
+.yearb{top:1480px;font-size:300px;color:#1d3cff;-webkit-text-stroke:26px #05061a;text-shadow:0 12px 0 #05061a;letter-spacing:-6px}
+.stamp{top:150px;font-size:112px;-webkit-text-stroke:16px #111;text-shadow:0 10px 0 #111}
 .cap{top:1450px;line-height:1.12;font-size:74px;-webkit-text-stroke:14px #000;padding:0 50px;box-sizing:border-box}
 #fl{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}#vg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 55%,rgba(10,0,30,.45) 100%)}
-</style></head><body><div id="wrap"><canvas id="c" width="1080" height="1920"></canvas><div id="vg"></div><div id="fl"></div></div>
+</style></head><body><div id="wrap"><canvas id="c" width="1080" height="1920"></canvas><canvas id="ov" width="1080" height="1920" style="position:absolute;left:0;top:0;pointer-events:none"></canvas><div id="vg"></div><div id="fl"></div></div>
 <script>window.addEventListener('error',e=>{window.err=String(e.message);console.log('ERR '+e.message)});</script>
 <script type="module" src="cb.js"></script></body></html>

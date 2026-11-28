@@ -20,13 +20,14 @@ const seaTex = new THREE.CanvasTexture(seaCv); seaTex.wrapS = seaTex.wrapT = THR
 const sea = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ map: seaTex, roughness: .5 })); sea.rotation.x = -Math.PI / 2; sea.position.y = -.9; sea.receiveShadow = true; scene.add(sea);
 // ---------- mapa ----------
 const gl = await new GLTFLoader().loadAsync('../assets/library/kit/mapa_mundi.glb');
-const mapRoot = new THREE.Group(); mapRoot.scale.set(K, 1.5, 1); mapRoot.add(gl.scene); scene.add(mapRoot);
+const FLAT = !!spec.flat; if (FLAT) { renderer.shadowMap.enabled = false; sun.castShadow = false; sea.visible = false; document.getElementById('vg').style.display = 'none'; sun.intensity = .35; scene.children.forEach(o => { if (o.isHemisphereLight) o.intensity = 2.1; }); }
+const mapRoot = new THREE.Group(); mapRoot.scale.set(K, FLAT ? .22 : 1.5, 1); mapRoot.add(gl.scene); scene.add(mapRoot);
 const C = {}, LAND = new THREE.Color(spec.land || '#c9ced6');
 gl.scene.traverse(o => {
   if (!o.isMesh) return;
   if (o.name.toLowerCase().startsWith('oceano')) { o.visible = false; return; }
   const pos = o.geometry.attributes.position, n = pos.count, col = new Float32Array(n * 3); for (let i = 0; i < n; i++) { col[i * 3] = LAND.r; col[i * 3 + 1] = LAND.g; col[i * 3 + 2] = LAND.b; }
-  o.geometry.setAttribute('color', new THREE.BufferAttribute(col, 3)); o.material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .5, metalness: 0 }); o.castShadow = o.receiveShadow = true;
+  o.geometry.setAttribute('color', new THREE.BufferAttribute(col, 3)); o.material = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: .5, metalness: 0 }); o.castShadow = o.receiveShadow = !FLAT;
   let cx = 0, cz = 0; for (let i = 0; i < n; i++) { cx += pos.getX(i); cz += pos.getZ(i); } C[norm(o.name)] = { mesh: o, n, cx: cx / n, cz: cz / n, key: '' };
 });
 // pinta o mapa por eventos: o ultimo evento que cita o pais vale; a cor nova ENTRA EM ONDA (a partir de e.from=[lon,lat] ou do centro do pais) em e.dur s
@@ -58,6 +59,7 @@ const FLAGS = {
   US: c => { for (let i = 0; i < 13; i++) { c.fillStyle = i % 2 ? '#fff' : '#b22234'; c.fillRect(0, i * 256 / 13, 256, 256 / 13 + 1); } c.fillStyle = '#3c3b6e'; c.fillRect(0, 0, 120, 138); c.fillStyle = '#fff'; for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) { c.beginPath(); c.arc(18 + j * 28, 20 + i * 30, 5, 0, 7); c.fill(); } },
   JP: c => { c.fillStyle = '#fff'; c.fillRect(0, 0, 256, 256); c.fillStyle = '#bc002d'; c.beginPath(); c.arc(128, 128, 62, 0, 7); c.fill(); },
   BG: c => { stripes(c, ['#fff', '#00966e', '#d62612'], 1); }, RO: c => { stripes(c, ['#002b7f', '#fcd116', '#ce1126'], 0); }, GR: c => { stripes(c, ['#0d5eaf', '#fff', '#0d5eaf', '#fff', '#0d5eaf', '#fff', '#0d5eaf', '#fff', '#0d5eaf'], 1); },
+  CZ: c => { c.fillStyle = '#fff'; c.fillRect(0, 0, 256, 128); c.fillStyle = '#d7141a'; c.fillRect(0, 128, 256, 128); c.fillStyle = '#11457e'; c.beginPath(); c.moveTo(0, 0); c.lineTo(128, 128); c.lineTo(0, 256); c.fill(); },
   SU: c => { c.fillStyle = '#cc0000'; c.fillRect(0, 0, 256, 256); star(c, 128, 128, 56, '#ffd700'); }, PL: c => { stripes(c, ['#fff', '#dc143c'], 1); }, CA: c => { c.fillStyle = '#fff'; c.fillRect(0, 0, 256, 256); c.fillStyle = '#d80621'; c.fillRect(0, 0, 64, 256); c.fillRect(192, 0, 64, 256); star(c, 128, 128, 48, '#d80621'); },
 };
 function stripes(c, cols, h) { const n = cols.length; cols.forEach((k, i) => { c.fillStyle = k; if (h) c.fillRect(0, i * 256 / n, 256, 256 / n + 1); else c.fillRect(i * 256 / n, 0, 256 / n + 1, 256); }); }
@@ -90,11 +92,14 @@ function faceAt(b, t) {   // expressao interpolada no instante t + alvo do olhar
   const cur = EXPR[(i >= 0 ? fs[i].e : 'idle')] || EXPR.idle, prev = EXPR[(i > 0 ? fs[i - 1].e : 'idle')] || EXPR.idle, q = i >= 0 ? clamp((t - fs[i].t) / .3, 0, 1) : 1, k = outBack(q);
   const P = {}; for (const p of PK) P[p] = lerp(prev[p], cur[p], k); return { P, at: i >= 0 ? fs[i].at : null, e: i >= 0 ? fs[i].e : 'idle' };
 }
-function drawBall(cv, b, P, look, blink, t, aim, weapon, flash) {   // canvas 384: a bola (r=100) fica em (128,138)+64 para caber chapeus e arma
+function bodyPath(c, cx, cy, R, n, jel, t, seed) {   // superelipse (n=2 circulo, ~3 "squircle") + gelatina (modos 2 e 3 oscilando)
+  c.beginPath(); const N = 72; for (let i = 0; i <= N; i++) { const a = i / N * Math.PI * 2, ca = Math.abs(Math.cos(a)), sa = Math.abs(Math.sin(a)); let r = R / Math.pow(Math.pow(ca, n) + Math.pow(sa, n), 1 / n); r *= 1 + jel * .14 * Math.cos(2 * a + seed) + .018 * Math.sin(3 * a + t * 5 + seed) + jel * .06 * Math.sin(3 * a - seed); const x = cx + Math.cos(a) * r, y = cy + Math.sin(a) * r; if (i) c.lineTo(x, y); else c.moveTo(x, y); } c.closePath();
+}
+function drawBall(cv, b, P, look, blink, t, aim, weapon, flash, jel = 0) {   // canvas 384: a bola (r=100) fica em (128,138)+64 para caber chapeus e arma
   const c = cv.getContext('2d'); c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, 384, 384); c.translate(64, 64); const cx = 128, cy = 138, R = 100;
-  c.save(); c.beginPath(); c.arc(cx, cy, R, 0, 7); c.clip(); (FLAGS[b.flag] || FLAGS.UK)(c); c.restore();
-  const g = c.createRadialGradient(cx - 34, cy - 40, 8, cx, cy, R); g.addColorStop(0, 'rgba(255,255,255,.34)'); g.addColorStop(.55, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(0,0,50,.30)'); c.fillStyle = g; c.beginPath(); c.arc(cx, cy, R, 0, 7); c.fill();
-  c.lineWidth = 9; c.strokeStyle = '#111'; c.beginPath(); c.arc(cx, cy, R, 0, 7); c.stroke();
+  const nn = b.n ?? 2.25; c.save(); bodyPath(c, cx, cy, R, nn, jel, t, b.lon); c.clip(); (FLAGS[b.flag] || FLAGS.UK)(c); c.restore();
+  const g = c.createRadialGradient(cx - 34, cy - 40, 8, cx, cy, R); g.addColorStop(0, 'rgba(255,255,255,.30)'); g.addColorStop(.55, 'rgba(255,255,255,0)'); g.addColorStop(1, 'rgba(0,0,50,.26)'); c.fillStyle = g; bodyPath(c, cx, cy, R, nn, jel, t, b.lon); c.fill();
+  c.lineWidth = 10; c.strokeStyle = '#0d0d12'; c.lineJoin = 'round'; bodyPath(c, cx, cy, R, nn, jel, t, b.lon); c.stroke();
   // olhos (seguem o olhar; o conjunto todo desliza um pouco na bola = sensacao de volume)
   const lx = look[0], ly = look[1], gx = lx * 11, gy = ly * 8, ex = [97 + gx, 159 + gx], ey = 126 + gy, bl = 1 - blink * .92; c.lineCap = 'round'; c.lineJoin = 'round';
   for (let s = 0; s < 2; s++) {
@@ -149,7 +154,7 @@ const TEX = {
 const linkMat = c => new THREE.MeshBasicMaterial({ color: c, transparent: true, depthWrite: false });
 const bpos = (id, t) => { const p = ballPos(balls[id], t); return new THREE.Vector3(p.lon * K, 0, -p.lat); };
 const texts = [...(spec.texts || [])], textEls = texts.map(x => { const d = document.createElement('div'); d.className = 'tx ' + x.style; d.textContent = x.text; if (x.top) d.style.top = x.top + 'px'; if (x.color) d.style.color = x.color; if (x.size) d.style.fontSize = x.size + 'px'; document.getElementById('wrap').appendChild(d); return d; });
-const fl = document.getElementById('fl'), shots = {};   // tiros por bola (para o recuo da arma)
+const ov = document.getElementById('ov'), octx = ov.getContext('2d'), glc = document.getElementById('c'), fl = document.getElementById('fl'), shots = {};   // tiros por bola (para o recuo da arma)
 for (const x of spec.fx || []) if (x.k === 'shot' && x.a in balls) (shots[x.a] = shots[x.a] || []).push(x.t);
 
 // ---- coreografia de luta: cada "lunge" = {t,dur,foe}: recua (antecipacao) -> avanca rapido -> volta com mola; o golpe (t+.4*dur) bate no alvo
@@ -190,7 +195,7 @@ window.renderFrame = f => {
     const blink = ((t * 2.3 + bl.seed) % 3.1) < .09 ? 1 - Math.abs(((t * 2.3 + bl.seed) % 3.1) / .09 * 2 - 1) : 0;
     let aim = 0, flash = { on: false, recoil: 0 }; if (b.weapon) { const tgt = foe || [me[0] + 1, me[1]]; aim = Math.atan2((tgt[1] - me[1]) * (H / W), tgt[0] - me[0]); for (const st of shots[id] || []) { const q = t - st; if (q >= 0 && q < .5) { flash.recoil = Math.max(flash.recoil, Math.exp(-q * 16)); if (q < .09) flash.on = true; } } }
     const face = { ...fc.P }; if (fc.e === 'angry' || fc.e === 'shout') face.bh += Math.sin(t * 9 + bl.seed) * .08; if (fc.e === 'scared') face.mo += Math.abs(Math.sin(t * 12)) * .12; if (fc.e === 'cry') face.mo += Math.sin(t * 8) * .12; face.br += Math.sin(t * 2.3 + bl.seed) * .05; face.eo *= 1 + Math.sin(t * 1.7 + bl.seed) * .03; if (fc.e === 'shout') face.mo = clamp(fc.P.mo * (.65 + .35 * Math.abs(Math.sin(t * 16))), 0, 1);
-    drawBall(bl.cv, b, face, look, blink, t, aim, b.weapon, flash); bl.tex.needsUpdate = true;
+    drawBall(bl.cv, b, face, look, blink, t, aim, b.weapon, flash, wb); bl.tex.needsUpdate = true;
     const sz0 = (b.size || 6), pin = outElastic(clamp(a0 / .6, 0, 1)), sz = sz0 * pin; let big = 1; for (const x of b.pulse || []) if (t >= x.t && t < x.t + .5) big = 1 + Math.sin((t - x.t) / .5 * Math.PI) * (x.a || .35) * (1 + Math.sin((t - x.t) * 40) * .25);
     // empurrao (knockback) quando atingida: deslocamento curto oposto ao agressor
     const p3 = i_ => { const q = ballPos(balls[i_], t); return new THREE.Vector3(q.lon * K, 0, -q.lat); }; let [ox, oz] = lungeOff(id, t, p3); for (const x of b.knock || []) { const q = t - x.t; if (q >= 0 && q < .6) { const amp = (x.a || 2.5) * Math.exp(-q * 6) * Math.sin(q * 14); ox += (x.dx || 1) * amp; oz += (x.dz || 0) * amp; } }
@@ -220,6 +225,13 @@ window.renderFrame = f => {
   let fv = 0; for (const x of spec.flash || []) if (t >= x.t && t < x.t + (x.d ?? .25)) fv = Math.max(fv, (1 - (t - x.t) / (x.d ?? .25)) * (x.a ?? .75)); fl.style.opacity = fv;
   texts.forEach((x, i) => { const el = textEls[i], a = t - x.t, d = x.d ?? 2; if (a < 0 || a > d) { el.style.display = 'none'; return; } el.style.display = 'block'; const pin = clamp(a / .3, 0, 1), cap = x.style === 'cap', s = cap ? 1 : (1 + (1 - outBack(pin)) * .55), o = clamp((d - a) / .18, 0, 1) * clamp(a / .06, 0, 1); el.style.opacity = o; el.style.transform = `scale(${s}) rotate(${cap ? 0 : (x.rot ?? -3) * outBack(pin)}deg)`; });
   renderer.render(scene, cam);
+  // glitch de "viagem no tempo": escurece, rasga faixas horizontais, separa cor e enche de chuvisco
+  octx.clearRect(0, 0, W, H); let gv = 0; for (const g of spec.glitch || []) if (t >= g.t && t < g.t + g.d) gv = Math.max(gv, Math.sin((t - g.t) / g.d * Math.PI));
+  if (gv > 0.02) { const rnd = i => { const x = Math.sin((f * 131 + i * 17.7) * 12.9898) * 43758.5453; return x - Math.floor(x); };
+    for (let i = 0; i < 26; i++) { const y = rnd(i) * H, h = 14 + rnd(i + 50) * 120 * gv, dx = (rnd(i + 99) - .5) * 160 * gv; octx.drawImage(glc, 0, y, W, h, dx, y, W, h); }
+    octx.globalAlpha = .45 * gv; octx.fillStyle = '#000'; octx.fillRect(0, 0, W, H); octx.globalAlpha = 1;
+    for (let i = 0; i < 900 * gv; i++) { const v = Math.floor(rnd(i * 3) * 255); octx.fillStyle = `rgba(${v},${v},${v},${.35 + .4 * rnd(i)})`; octx.fillRect(rnd(i + 7) * W, rnd(i + 13) * H, 6 + rnd(i + 21) * 30, 2 + rnd(i + 31) * 5); }
+    octx.globalCompositeOperation = 'lighter'; octx.globalAlpha = .25 * gv; octx.fillStyle = '#ff0040'; octx.fillRect(10, 0, W, H); octx.fillStyle = '#00c8ff'; octx.fillRect(-10, 0, W, H); octx.globalAlpha = 1; octx.globalCompositeOperation = 'source-over'; }
 };
 window.getFrameDataURL = q => document.getElementById('c').toDataURL('image/jpeg', q);
 window.SPEC = spec; window.ready = true;
